@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add logic and automation, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a decision
@@ -64,7 +64,7 @@ Scopes that can use the decision table. Available values are as follows:-   **Al
 
 ## What to do next
 
-After you create the decision table, you must edit it to specify inputs and triggers. For more information on editing decision tables, see .
+After you create the decision table, you must edit it to specify inputs and triggers. For more information on editing decision tables, see [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/format-decision-table-in-decision-designer.md).
 
 <table id="table_m51_zrm_jtb-2"><thead><tr><th>
 

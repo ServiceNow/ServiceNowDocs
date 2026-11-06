@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate an EDL manually, Activate an EDL for Palo Alto Networks Next-Generation Firewall, Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -43,8 +43,6 @@ The images in the following section are used by permission and are PRIVILEGED an
     \[Omitted image "paloalto-acct.png"\] Alt text: Task: Enter Username and Password for the ServiceNow AI Platform API account.
 
 4.  In the Source field, enter the URL that was generated on the EDL list in your ServiceNow instance.
-
-    \[Omitted image "4-30-pa-1-dialog-5-7.png"\] Alt text: Task: Copy the Retrieval URL in the Source field.
 
 5.  Select a Certificate Profile from the choice list, `SN2`, for example.
 

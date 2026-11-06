@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Legal Hold Notification, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Install Legal Hold Notification
@@ -63,5 +63,5 @@ For more information, see [Components installed with Legal Hold Notification](ht
 
 If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
 
-**Parent Topic:**[Configuring Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+**Parent Topic:**[Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 

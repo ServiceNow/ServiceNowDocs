@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Collaboration dispute workflow, Chargeback stage, Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review the pre-arbitration response and create a case filing
@@ -22,66 +22,64 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-After you receive the merchant’s response for pre-arbitration, the response is updated in the system and the task is moved to closure automatically. Review the pre arbitration response and decide to create an appeal.
+After you receive the merchant’s response for pre-arbitration, the response is updated in the system and the task is moved to closure automatically.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
-4.  In the list, select the case that you want to work on.
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review pre arbitration response and create case filing** task.
 
-8.  Select the **Review pre arbitration response and create case filing** activity.
-
-9.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response** field of the record.
+7.  Review the acquirer’s pre-arbitration response details in the **Pre arbitration response received** field of the record.
 
     You can also view the merchant response as an attachment in the activity stream.
 
-10. In the **Pre arbitration outcome** drop-down, select **Resolved** or **Unresolved**.
+    **Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
 
-<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d107224e184">
+8.  In the **Pre arbitration outcome** field, select **Resolved** or **Unresolved**.
+
+<table id="choicetable_inv_t2g_2fc"><thead><tr><th align="left" id="d129563e218">
 
 Selection
 
-</th><th align="left" id="d107224e187">
+</th><th align="left" id="d129563e221">
 
 Result
 
-</th></tr></thead><tbody><tr><td id="d107224e193">
+</th></tr></thead><tbody><tr><td id="d129563e227">
 
 **Unresolved**
 
 </td><td>
 
-The field **Do you want to create case filing?** is displayed.-   Select **Yes**.
-    1.  Specify the amount for the case filing and the reason for the case filing in **Case filing amount** and **Reason for filing**.
-    2.  In the **Description**, **Remarks**, and **Work notes** fields, enter additional details as necessary.
-    3.  Select **Continue**.
-    4.  Select **Close task**.
-    5.  Select **Submit dispute filing**.
--   Select **No**.
--   The **Reverse provisional credit** drop-down is displayed.
--   Select **Yes** or **No** and click **Continue**.
+the field **Do you want to create case filing?** is displayed.1.  Create a case filing by selecting **Yes**
+2.  Specify the amount for the case filing and the reason for the case filing.
+3.  In the **Description**, **Remarks**, and **Work notes** fields, enter additional details as necessary.
+4.  Select **Continue**.
+5.  Select **Submit dispute filing**.
 
 
-</td></tr><tr><td id="d107224e278">
+</td></tr><tr><td id="d129563e273">
 
 **Resolved**
 
 </td><td>
 
-Option to resolve the dispute.
+ 
 
 </td></tr></tbody>
 </table>
@@ -91,7 +89,10 @@ After the request executes successfully, the transaction state changes to **Awai
 
 ## What to do next
 
-Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be viewed in the activity stream. You can also withdraw the case filing by selecting **Withdraw case**. After a decision from Visa is available, the task is automatically closed and the [Review a case filing response and appeal the decision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/review-case-filing-response-and-appeal.md) activity is available.
+Retrieve the letter by selecting `Get acknowledgement letter`. The letter can be viewed in the activity stream. You can withdraw the case filing by selecting **Withdraw case**.
+
+1.  After a decision by Visa is available, you can access it by selecting **Get case filing response**.
+2.  The task is automatically closed and the **Review case filing response** task and appeal are available.
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

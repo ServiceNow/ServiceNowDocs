@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-history-component-features.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Customer Central, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Customer Central, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Customer History component features
@@ -16,9 +16,11 @@ Customer service agents can use several features in the Customer History compone
 
 ## Search
 
-The Search field introduces keyword-based search functionality allowing agents to retrieve activities such as interactions, cases, and work orders by typing keywords or partial matches.
+The Search icon introduces keyword-based search functionality enabling agents to retrieve activities such as interactions, cases, and work orders by entering keywords or partial matches.
 
-Agents can type a keyword or partial matches to find relevant results. For example, typing **connect** displays cases with terms like connect, connected, or connection.
+-   By default, the search bar is hidden. Select the search icon to show or hide it.
+-   Admins can configure a toggle option to have the search bar open by default when the page loads.
+-   Agents can enter a keyword or partial match to find relevant results. For example, entering `connect` displays cases with terms like connect, connected, or connection.
 
 \[Omitted image "cust-central-search-feature.png"\] Alt text: Customer History search bar
 
@@ -43,7 +45,7 @@ When an agent selects a facet:
 
 ## Customer History access 
 
-Starting with the Yokohama release, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) includes the Customer History component. This component ensures agents can easily view customer details without navigating away from the case page.
+Starting with the Yokohama release, the [Front-line case page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md) includes the Customer History component. This component ensures that agents can easily view customer details without navigating away from the case page.
 
 Select the **Customer History** tab in the contextual side panel to access customer history.
 
@@ -62,10 +64,28 @@ The facet is divided into two subcategories: 
 
 ## Resizable layout blocks
 
-The **Resizable Layout Blocks ** feature allows agents to adjust the size of page panel for better visibility. Agents can resize any block \(left, center, or right\) by following these steps:
+The **Resizable Layout Blocks ** feature enables agents to adjust the size of page panel for better visibility. Agents can resize any block \(left, center, or right\) by following these steps:
 
 1.  Click the edges of the block. 
 2.  Drag to adjust the size as needed.
 
-This feature is available across record pages in CSM Configurable Workspace and allows agents to optimize their workspace based on their needs.
+This feature is available across record pages in CRM Workspace and enables agents to optimize their workspace based on their needs.
+
+## Real-Time updates in Customer History
+
+The Customer History view updates in real time. When an agent adds a new case or interaction, a new activity is created. If another agent has the same customer record open, the view automatically refreshes to show the new activity. You don’t need to refresh the page manually.
+
+**Note:**
+
+-   The view refreshes only for new activities created in the \[sn\_actsub\_activity\] table that are linked to the currently open customer record.
+-   Changes to existing records or knowledge articles don't trigger a refresh.
+-   The view updates only for the specific record that you're viewing. For example, if you’re viewing a contact, updates to the associated account won’t appear unless you open the account record directly.
+-   Real-time updates are supported only on the Front-line case page and CSM default record page.
+
+## Filter activities by time
+
+Agents can use the date range icon to filter customer activities by day, month, quarter, or year-based on the configuration set by the admin. The date range icon appears next to the search bar:
+
+-   If Day is configured, select a specific date to view activities for that day.
+-   If Month, Quarter or Year is configured, activities appear grouped by the selected time. The activity list updates based on the selected filter.
 

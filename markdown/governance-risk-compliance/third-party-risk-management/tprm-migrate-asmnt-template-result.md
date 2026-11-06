@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -79,7 +79,7 @@ TPRM purpose options include:
 
 To view a TPRM SAE questionnaire template you must have the TPR assessment reviewer role \[sn\_vdr\_risk\_asmt.vendor\_assessment\_reviewer\]. For more information on creating assessment template purposes, see [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 
-**Note:** You can create an assessment only from a published assessment template. You can update a published template only if no active assessment is associated with the template.
+**Note:** You can create an assessment only from a published assessment template.
 
 </td></tr><tr><td>
 
@@ -157,6 +157,7 @@ The assessment migration process has the following limitations and requirements.
 -   If an assessment template isn’t updated to support SAE assessments, the related tier-based, provider-based, and event-driven management rules won’t run as expected.
 -   The TPRM scoring migration proceeds only if there were no errors during the template migration. If there were errors, the TPRM scoring migration doesn’t occur.
 -   Responses from previous assessments aren’t migrated.
+-   In the Third‑party portal, the Excel export option available for Classic assessments is not supported for SAE assessments.
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security scanner, Security configuration console, Security Center, Platform Security]
 ---
@@ -28,15 +28,15 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
     -   **Target**
 
-        Goals your organization wants to achieve. See [Indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-targets.md).
+        Goals your organization wants to achieve. See .
 
     -   **Threshold**
 
-        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See [Indicator thresholds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-threshold.md).
+        Defines a normal range of scores for an indicator and alert you when a certain event occurs. See .
 
     -   **Forecast**
 
-        Describes the ability to forecast future scores based on past behavior. See [Performance Analytics scores forecasts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_ForecastingData.md).
+        Describes the ability to forecast future scores based on past behavior. See .
 
     -   **Trend**
 
@@ -72,7 +72,7 @@ The page shows SC Auditor suite findings compared between the two selected dates
 
 -   **Chart type**
 
-    Select a chart type to control how the information your selected is visualized. See [Time series visualization type use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/time-series-visualization-types.md).
+    Select a chart type to control how the information your selected is visualized. See .
 
 
 ## Records list

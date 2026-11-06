@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -30,10 +30,12 @@ Risk assessment managers can use the hazard assessment form to review a hazard a
 Safety inspection manager can use the inspection schedule form to set up a recurring workplace safety inspection.
 -   **[Audit schedule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-schedule-form.md)**  
 The safety audit manager can use the audit schedule form to set up a recurring workplace safety audit.
--   **[Audit survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.md)**  
-The safety audit manager can use the audit survey form to assign a smart assessment or survey to be conducted as part of a safety audit.
--   **[Finding form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.md)**  
-When an inspection or audit survey is complete, the safety manager can use the Findings form to log findings gathered from survey responses.
+-   **[Audit questionnaire form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.md)**  
+The safety audit manager can use the audit questionnaire form to assign a smart assessment or survey to be conducted as part of a safety audit.
+-   **[Objective form for safety audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-objectives-form.md)**  
+The safety audit manager can use the audit objectives form to define the objectives and scope of a safety audit.
+-   **[Finding form for safety audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-finding-form.md)**  
+When an audit's item for review is complete, the safety auditor can use the Findings form to log findings gathered from the review or survey responses.
 -   **[Action schedule form for an exposure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-action-schedule-form.md)**  
 The industrial hygienist can use the action schedule form for an action to be created when there's an active exposure.
 -   **[Permit-to-work request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-permit-to-work-form.md)**  

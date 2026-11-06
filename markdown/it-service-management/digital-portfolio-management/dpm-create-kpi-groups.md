@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configure KPI groups in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Create KPI groups and mappings in Digital Portfolio Management
@@ -29,7 +29,7 @@ Create KPI groups and associate each group's type with its corresponding record.
 -   Taxonomy nodes
 -   Services
 -   Offerings
--   Application services
+-   Service instances
 -   Business applications
 -   Enterprise portfolios
 -   Enterprise taxonomy nodes
@@ -84,8 +84,8 @@ The type that you want to create:-   Service portfolios
 -   Taxonomy nodes
 -   Services
 -   Offerings
--   Application services
- **Note:** The type must correlate to the record. For example, you can only associate a service portfolio type to a portfolio record. You can only associate an offering type to an offering record.
+-   Service instances
+**Note:** The type must correlate to the record. For example, you can only associate a service portfolio type to a portfolio record. You can only associate an offering type to an offering record.
 
 </td></tr><tr><td>
 
@@ -94,6 +94,14 @@ Order
 </td><td>
 
 Determines the page layout of the KPI groups in the Digital Portfolio Management workspace.
+
+</td></tr><tr><td>
+
+Show on preview
+
+</td><td>
+
+If selected, the KPI group displays in the Details section of the Enterprise Portfolio homepage in the DPM workspace. All selected KPI groups will display on the page, not just one.
 
 </td></tr></tbody>
 </table>    4.  Select **Submit**
@@ -229,7 +237,7 @@ Mapping type associated with the KPI group. Depending on which KPI Group you sel
 -   Taxonomy node
 -   Service
 -   Offering
--   Application service
+-   Service instance
 -   Business application
 -   Enterprise portfolio
 -   Enterprise taxonomy node

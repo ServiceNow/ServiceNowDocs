@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-migration-prereq-reference-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Unified Security Exposure Management, Security Operations]
 ---

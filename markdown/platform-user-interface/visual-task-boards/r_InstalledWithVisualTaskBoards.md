@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Visual Task Boards reference, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -282,7 +282,7 @@ Triggers the system to send an email notification to users when they are designa
 </table>**Related topics**  
 
 
-[Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_Collaboration.md)
+[bundle-platcap.c_Collaboration]
 
 ## Notifications installed with Visual Task Boards
 

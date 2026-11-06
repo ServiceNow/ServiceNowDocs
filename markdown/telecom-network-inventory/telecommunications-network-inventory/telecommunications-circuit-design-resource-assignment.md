@@ -1,5 +1,5 @@
 ---
-title: Telecommunications design and assign
+title: Design and assign
 description: With the design and assign function, you can build a digital representation of your network inventories and your network service in the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Modeling your Telecommunications Network Inventory workflow, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
-# Telecommunications design and assign
+# Design and assign
 
 With the design and assign function, you can build a digital representation of your network inventories and your network service in the Telecommunications Network Inventory application.
 
@@ -32,9 +32,9 @@ Before you start the design and assign function, you define the models, model re
 
 As an inventory template or catalog manager, you can do the following tasks to instantiate your network inventory:
 
-1.  Create the inventory models. You create an inventory model to track the technical information from the manufacturer about a network asset. When you instantiate an inventory record, your inventory record contains this standard manufacturer information. To learn more, see [Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
-2.  Create the model relationship. The model relationship captures the relationships between the inventory models. To learn more, see [Modeling your network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
-3.  Create the inventory template. You create the network inventory template that contains the business guidance rules from a telecommunications provider. To learn more, see [Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
+1.  Create the inventory models. You create an inventory model to track the technical information from the manufacturer about a network asset. When you instantiate an inventory record, your inventory record contains this standard manufacturer information. To learn more, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+2.  Create the model relationship. The model relationship captures the relationships between the inventory models. To learn more, see [Model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
+3.  Create the inventory template. You create the network inventory template that contains the business guidance rules from a telecommunications provider. To learn more, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
 
 You can then instantiate a new network inventory record by using the change management workflow to fulfill the network designs. As an inventory agent, you perform the following tasks:
 
@@ -48,9 +48,9 @@ When you complete the task, the following processing takes place:
 
 ## Instantiation example
 
-You can create a set of network inventory records to fulfill an order request for Gigabyte Passive Optical Networks \(GPON\) broadband by using the design and assign function. To learn more, see [Designing and assigning a GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md).
+You can create a set of network inventory records to fulfill an order request for Gigabyte Passive Optical Networks \(GPON\) broadband by using the design and assign function. To learn more, see [Design and assign GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md).
 
-**Parent Topic:**[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+**Parent Topic:**[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 
 **Related topics**  
 
@@ -63,5 +63,5 @@ You can create a set of network inventory records to fulfill an order request fo
 
 [Network inventory templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-templates-tni.md)
 
-[Modeling your network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md)
+[Model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md)
 

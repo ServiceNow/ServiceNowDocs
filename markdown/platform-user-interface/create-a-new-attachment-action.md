@@ -1,42 +1,85 @@
 ---
-title: Create an attachment action
-description: Add an attachment action to your configurable workspace.
+title: Create an attachment action button
+description: Create an attachment action and add the button to a workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-a-new-attachment-action.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing Configurable Workspace with declarative actions, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Create an attachment action
+# Create an attachment action button
 
-Add an attachment action to your configurable workspace.
+Create an attachment action and add the button to a workspace.
 
 ## Before you begin
-
-**Important:** This procedure explains how to add an attachment action button to your configurable workspace. For instructions on how to configure your action button to open a custom modal, see [Configuring an action button to open a custom modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configuring-an-action-button-to-open-a-custom-modal.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create new action** in the navigation filter.
+1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create new action**.
 
-2.  Select **Attachment** on the pop-up page.
+2.  Select **Attachment**.
 
-3.  Enter an action label and other relevant configuration requirements.
+    A new Action Assignment record opens.
 
-    The action name populates automatically with the action label in all lowercase and with spaces replaced with underscores.
+3.  Complete the following fields:
 
-4.  Select a value for the **Implemented as** field.
+    -   **Action label**
 
-    -   Create a server script or client script by selecting **server or client script** in the **Implemented as** field.
-    -   Create a UXF client action by selecting **UXF client action** in the **Implemented as** field.
+        The label for the action.
 
-        For configuration instructions, see [Create a new UXF client action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-uxf-client-action-for-forms.md).
+    -   **Action name**
 
-5.  Select the menu icon \(\[Omitted image "menu-icon-save.png"\] Alt text: menu icon\) and **Save**.
+        Action label populates automatically in all lowercase and with spaces replaced with underscores.
 
+    -   **Implemented as**
+        -   **Server Script** applies the action to the server or database as JavaScript.
+        -   **UXF Client Action** applies the action as a UI Builder page event.
+        -   **Client Script** applies the action to the web browser as JavaScript.
+    -   **Animate icon**
+
+        When selected, the icon is animated.
+
+    -   **Application**
+
+        The scope that the action exists within.
+
+    -   **Workspace**
+
+        The workspace for the action button to appear on.
+
+    -   **Table**
+
+        Table for the action button to appear on.
+
+    -   **View**
+
+        UI view for the action button to appear on.
+
+    -   **Active**
+
+        When selected, the action is active.
+
+    -   **Order**
+
+        Order in which the action appears relative to other actions.
+
+    -   **Tooltip**
+
+        Tooltip text that appears for the action.
+
+    -   **Description**
+
+        Description of the action for internal reference.
+
+4.  Select **Submit**.
+
+
+## Result
+
+The attachment action button appears within the workspace you specified.
 

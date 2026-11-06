@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 19
-breadcrumb: [CMDB Workspace reference, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 20
+breadcrumb: [Reference, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components installed with CMDB Workspace
@@ -18,7 +18,7 @@ Several types of components are installed with the activation of the CMDB Worksp
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
-In addition, the CMDB Workspace plugin adds the CMDB Group type 'CMDB Workspace'.
+In addition, the CMDB Workspace plugin adds the CMDB Group type 'CMDB Workspace'. For components associated with the CMDB Data Manager, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
 ## Properties installed
 
@@ -67,7 +67,7 @@ Number of days after which if one or more discovery sources stop reporting CIs, 
  -   Type: integer
 -   Default: 7
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Number of days since CIs were last discovered by a discovery source** in the Potential issues section.
--   Learn more: [Configure the CMDB 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Maximum number of records that appear as list views when drilling down from the 
 -   Type: integer
 -   Default: 100,000
 -   Location: Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **CMDB 360**. Select Settings and configure **Maximum number of records to process** in the Global section.
--   Learn more: [Configure the CMDB 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+-   Learn more: [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 </td></tr><tr><td>
 
@@ -140,19 +140,21 @@ sn\_cmdb\_ws.explore\_ci.record.enabled
 
 </td><td>
 
-Enables the use of CI Form when selecting CIs to view in CMDB Workspace or in another workspace.
+Enables the use of the CI Form feature when selecting CIs to view in CMDB Workspace or in another workspace.
 
  When false, the system shows CI records in a basic list view instead of CI Form. You might need to temporarily disable the CI Form experience if its not yet ready to be used. For example, you might need to migrate previous custom configurations to CI Form to prepare it for use.
 
  -   Type: true \| false
 -   Default: true
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   More information: [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)
+-   More information: [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)
 
 </td></tr></tbody>
 </table>## Roles installed
 
 The following roles are installed by the Configuration Management \(CMDB\) \(com.snc.cmdb\) plugin which is included in base systems. These roles are required for access and interaction with the CMDB Workspace, and are included for completeness.
+
+**Note:** On an instance that has been upgraded directly from Xanadu or Yokohama to the Brazil release: To correctly configure some of the user roles as described below, such as CMDB Admin and CMDB Editor, you must run the '**Remove CMDB Roles from ITIL roles and Add CUD access to sn\_cmdb\_admin/sn\_cmdb\_editor roles**' scheduled job. For more information about this scheduled job and its use, see [https://www.servicenow.com/docs/r/zurich/release-notes/cmdb-rn.html](https://www.servicenow.com/docs/r/zurich/release-notes/cmdb-rn.html).
 
 <table id="table_u1t_gb1_wdb"><thead><tr><th>
 
@@ -172,11 +174,9 @@ CMDB Admin\[sn\_cmdb\_admin\]
 
 </td><td>
 
-Provides the highest level of access to tools and UIs within CMDB Workspace.
+Provides the highest level of access to tools and UIs within CMDB Workspace, including full access to the Configuration Item \[cmdb\_ci\] table. A CMDB Admin, for example, can set policies in the CI Class Manager and application service requirements.
 
- CMDB Admin, for example, can set policies in the CI Class Manager and application service requirements.CMDB Admin can also modify default config records under the default identifier or the default identifier itself.
-
- **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
+ CMDB Admin can also modify default config records under the default identifier or the default identifier itself.
 
 </td><td>
 
@@ -194,11 +194,9 @@ CMDB Editor\[sn\_cmdb\_editor\]
 
 </td><td>
 
-Provides access to tools and UIs within CMDB Workspace.
+Provides access to tools and UIs within CMDB Workspace including full access to the Configuration Item \[cmdb\_ci\] table.
 
  A CMDB Editor has writing privileges to CMDB Data Manager tasks and to CIs but can't change policies such as in the CMDB Data Manager or in the CI Class Manager.
-
- **Note:** Access to the Configuration Item \[cmdb\_ci\] table and other details, differ by the Yokohama patch that is installed. For details, see the Yokohama [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmdb-rn.md).
 
 </td><td>
 
@@ -206,7 +204,6 @@ Contains:
 
 -   sn\_cmdb\_user
 -   cmdb\_ms\_editor
--   cmdb\_manual\_ci\_ire\_access
 
 </td></tr><tr><td>
 
@@ -218,9 +215,9 @@ Provides read-only access to the CMDB data and to basic UIs such as CMDB reports
 
 </td><td>
 
-Contained by: sn\_cmdb\_editor
+Contained by: itil \(indirectly\)
 
- Contains:
+ Contains roles:
 
 -   canvas\_user
 -   data\_manager\_user
@@ -256,7 +253,7 @@ Multisource CMDB User\[cmdb\_ms\_user\]
 
 </td><td>
 
-Provides read-only access to multisource data, CMDB 360 queries, and to related UIs such as CMDB 360 reports and dashboards, and Multisource Report Builder.
+Provides read-only access to multisource data, CMDB 360 queries, and to related UIs such as CMDB 360 reports and dashboards.
 
 </td><td>
 
@@ -315,11 +312,125 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-CMDB Workspace Collection
+CMDB Workspace Collection - CI Overview
 
 </td><td>
 
-Updates the information in all the 7-Day Activity charts such as the CI Activity in Last 7 Days chart.
+Provides data in the CI overview chart for specific CI groups.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Application service outages
+
+</td><td>
+
+Collects data for tracking the number of application service outage records.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - CMDBPerformance.Integrations.Processing Rate
+
+</td><td>
+
+Collects the processing rate data of Service Graph connectors.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - CMDBPerformance.Integrations.Rows
+
+</td><td>
+
+Collects the import count data of Service Graph connectors.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Data Manager Policies
+
+</td><td>
+
+Collects data of Data Manager policies such as policies failing evaluation.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Data Manager Tasks
+
+</td><td>
+
+Collects data of Data Manager tasks such as the number of overdue CMDB tasks or unassigned tasks.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New application
+
+</td><td>
+
+Collects data for tracking the number of newly created application CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New application services
+
+</td><td>
+
+Collects data for tracking the number of new Application service CIs created.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New CIs
+
+</td><td>
+
+Collects data for tracking the number of new CIs created.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - New hardware
+
+</td><td>
+
+Collects data for tracking the number of new hardware CIs created.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Orphan CIs
+
+</td><td>
+
+Collects data for tracking the number of orphaned CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Total application services
+
+</td><td>
+
+Collects data for tracking the total count of Application service CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Updated application services
+
+</td><td>
+
+Collects data for tracking the number of updated Application service CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection - Updated CIs
+
+</td><td>
+
+Collects data for tracking the number of updated CIs.
+
+</td></tr><tr><td>
+
+CMDB Workspace Collection On Demand with Lookback
+
+</td><td>
+
+Collects historical data \(past 30 days\) for some indicators such as the Integration outliers.
+
+ Runs automatically during install or upgrade and isn't configured with any recurring schedule.
 
 </td></tr><tr><td>
 
@@ -575,7 +686,7 @@ Runs daily to populate the following tables:
 
 Reads de-duplication task data records and calculates the root cause analysis for the duplication.
 
- Used in support of ServiceNow Otto for CMDB.
+ Used in support of ServiceNow Otto® for CMDB.
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -976,7 +1087,7 @@ Remediate Duplicate Task Groups
 
 Groupings of de-duplication tasks, the CI class affected, any discovery source associated with the de-duplication task, and the CI identification rule that was used to discover the CIs.
 
- Used in support of ServiceNow Otto for CMDB.
+ Used in support of ServiceNow Otto® for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges
@@ -991,7 +1102,7 @@ Group Task Mapping
 
 Reference to the Remediate Duplicate Task Groups table and a root cause analysis summary of the reason that the Cis were added to the de-duplication task
 
- Used in support of ServiceNow Otto for CMDB.
+ Used in support of ServiceNow Otto® for CMDB.
 
  -   sn\_cmdb\_admin role has create/write/delete privileges
 -   sn\_cmdb\_user OR dedup\_admin roles have read privileges
@@ -1034,7 +1145,7 @@ Settings of requests for specific CI attributes when using the CMDB Workspace fe
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Request additional attributes for a new CI being created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.md).
+ For more information, see [Request additional attributes for new CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.md).
 
 </td></tr><tr><td>
 
@@ -1048,7 +1159,7 @@ Settings that limit the selection of classes for a new CI when using the CMDB Wo
 
  This table leverages the use of the configuration identifiers framework.
 
- For more information, see [Limit the class list for a new CI being created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
+ For more information, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)

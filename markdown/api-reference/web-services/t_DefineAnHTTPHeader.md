@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a REST message, Outbound REST web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Create a message, REST, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Define a REST message HTTP header

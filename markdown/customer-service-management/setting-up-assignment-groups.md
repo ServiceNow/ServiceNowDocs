@@ -5,22 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/setting-up-assignment-groups.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Setting up assignment groups
 
 Associate your assignment groups with an internal or an external business location. This association forms a one-to-many \(1:M\) relationship, which means, one or more groups can be associated with a service organization. This process makes it easier to route cases to the appropriate team member using the inter-organization support capability.
 
-Lets look at the following example to understand the one-to-many relationship.
-
-When you’re assigned to a group within your organization, you get access to specific roles and features associated with that group. The Admin sets up these groups and assigns roles via Access Control Lists \(ACLs\) that control what you can do. You can belong to multiple groups based on your function, and each group can have subgroups with additional roles. For example, if you join Group A, which has subgroups A-1 and A-2, you get the roles from Group A and its subgroups. If you join the Service Desk group as well, you get additional permissions from that group.
-
-For details on creating groups, see [Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ua-creating-groups.md).
-
-The following table outlines some typical configuration tasks required for setting up assignment groups at your business organization.
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 |Task|Description|
 |----|-----------|

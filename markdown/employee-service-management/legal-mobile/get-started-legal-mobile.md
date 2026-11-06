@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Mobile
 classification: legal-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Mobile, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Mobile, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Download and log in to mobile apps to access legal services

@@ -7,8 +7,8 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Manage the third-party portal, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -20,9 +20,9 @@ Third parties can use the Shared Assessments Standardized Information Gathering 
 
 TPRM supports the current SIG version and prior versions up to 2021. The following SIG versions are supported:
 
--   SIG Full 2025, 2024, 2023, 2022, and 2021
--   SIG Core 2025, 2023, 2022, and 2021
--   SIG Lite 2025, 2023, 2022, and 2021
+-   SIG Full 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Core 2026, 2025, 2024, 2023, 2022, and 2021
+-   SIG Lite 2026, 2025, 2024, 2023, 2022, and 2021
 
 **Note:** SIG 2020 versions are available for reactivation. SIG 2020 versions are deactivated by default.
 
@@ -32,7 +32,7 @@ The base system includes sample SIG questionnaires. These questionnaires don’t
 
 Yes-or-no questions in the sample SIG questionnaires don’t include scoring logic. By default, all Yes answers in the samples are graded as correct. You must configure the logic for your own needs.
 
-## SIG Limitations
+## SIG limitations
 
 Your third party might run into the following issues when using a SIG:
 
@@ -43,4 +43,15 @@ Your third party might run into the following issues when using a SIG:
 **Note:** For more information about using the GRC: SIG Questionnaire Integration plugin, see [Standardized Information Gathering \(SIG\) Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-sig-integration.md), [Install the GRC: SIG Questionnaire Integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/install-grc-sig-plugin.md), and [Verify the SIG Questionnaire Integration in Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/verify-grc-sig-vendor-risk.md).
 
 For instructions that you can send to third-party contacts, see [Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md).
+
+**Related topics**  
+
+
+[Managing the Third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
+
+[Respond to a questionnaire in the third-party portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-portal-respond-questionnaire.md)
+
+[Using a Microsoft Excel spreadsheet template for external questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-excel-template-support.md)
+
+[Respond using the SIG](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-tpcontact-use-sig.md)
 

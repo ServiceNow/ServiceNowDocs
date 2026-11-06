@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-add-labels-to-connector-lines.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+keywords: [connector, connector label, label]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add labels to connector lines between shapes in a diagram
@@ -15,6 +16,8 @@ breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterpri
 You can enhance diagram clarity in Enterprise Modeling and Visualization by adding a descriptive text on the connector line between shapes. Connector line labels clarify the nature of the relationship between shapes, annotate the data flow direction, and provide contextual information.
 
 ## Before you begin
+
+\[Omitted video\] Description: Configure the relationship type or visual style of a connector between shapens in an Enterprise Modeling diagram.
 
 Role required: sn\_apm.apm\_user
 
@@ -28,21 +31,31 @@ Role required: sn\_apm.apm\_user
 
 4.  Select a connector line.
 
-    The Select to add text icon \(\[Omitted image "add-text-to-connector-line.png"\] Alt text: Select to add text icon.\) appears.
+    A toolbar appears above the connector. The toolbar shows different controls depending on the notation of the connected shapes:
 
-    \[Omitted image "add-text-button-connector-line.png"\] Alt text: Click to add text button highlighted.
+    -   If both connected shapes are ArchiMate shapes, the toolbar shows the **Relationship type** drop-down, the **Swap direction** control, and the **T+** button.
 
-5.  Select the Select to add text icon \(\[Omitted image "add-text-to-connector-line.png"\] Alt text: Select to add text icon.\) and enter a label for the connector line.
+        \[Omitted image "connector-line-archimate.png"\] Alt text: ArchiMate connector toolbar showing the relationship type list, Flip control, and T+ button.
+
+    -   If at least one connected shape is non-ArchiMate, the toolbar shows the **Line style**, **Start arrow**, **Swap direction**, **End arrow**, **Icon**, and **T+** controls.
+
+        \[Omitted image "connector-line-non-archimate.png"\] Alt text: Non-ArchiMate connector toolbar showing line style, start arrow, Flip, end arrow, icon, and T+ controls.
+
+5.  Select **T+** in the toolbar and enter a label for the connector line.
 
 
 ## Result
 
 The connector line label is added to the diagram.\[Omitted image "text-added-connector-line.png"\] Alt text: Label added to connector line.
 
-**Parent Topic:**[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
 
-[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+
+[Shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-connector-properties.md)
+
+[Set shape connector properties in Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-connector-properties.md)
 

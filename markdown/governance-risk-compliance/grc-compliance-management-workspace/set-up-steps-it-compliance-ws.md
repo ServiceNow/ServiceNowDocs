@@ -1,5 +1,5 @@
 ---
-title: Configuration steps to filter IT-related data for IT Compliance Home page
+title: Configure IT Compliance Manager data filter
 description: There are three distinct steps that must be followed to segregate, associate, and display the IT-related data for the IT compliance manager to view in the IT Compliance Home page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-compliance-management-workspace/set-up-steps-it-compliance-ws.html
@@ -7,12 +7,12 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring GRC Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Configuration steps to filter IT-related data for IT Compliance Home page
+# Configure IT Compliance Manager data filter
 
 There are three distinct steps that must be followed to segregate, associate, and display the IT-related data for the IT compliance manager to view in the IT Compliance Home page.
 
@@ -43,8 +43,6 @@ For more information on the tables used for IT compliance workspace, see [Compon
 ## Display segregated data to IT compliance manager in IT Compliance Home page
 
 The IT compliance manager is the user who can access the IT risk and compliance data in the Compliance Workspace. In the List view of the Compliance Workspace, there is a filter that restricts the display of all audit and compliance data but refines to display only the IT risk and compliance data. The filter uses the Functional domain field in the all the audit and compliance related base forms to filter and display the IT related data in the Compliance Workspace List modules.
-
-\[Omitted image "FilterITRelatedData.png"\] Alt text: IT risk and compliance data filter.
 
 **Note:** An admin or any user with both corporate compliance manager and IT compliance manager roles can view two list modules with the same name.
 

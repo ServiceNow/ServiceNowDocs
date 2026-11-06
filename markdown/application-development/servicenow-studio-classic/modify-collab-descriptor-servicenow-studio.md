@@ -1,61 +1,61 @@
 ---
 title: Modify or customize collaboration permissions for a user or group in ServiceNow Studio
-description: Change the collaboration access that a user or group has to work on an app in ServiceNow Studio by modifying or customizing their collaboration descriptor.
+description: Modify or customize the collaboration permissions for a user or group in ServiceNow Studio to control what they can do in an app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/modify-collab-descriptor-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaborating on apps using ServiceNow Studio, Configuring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Modify or customize collaboration permissions for a user or group in ServiceNow Studio
 
-Change the collaboration access that a user or group has to work on an app in ServiceNow Studio by modifying or customizing their collaboration descriptor.
+Modify or customize the collaboration permissions for a user or group in ServiceNow Studio to control what they can do in an app.
 
 ## Before you begin
 
 Customers that don't have Collaboration installed will not be able to manage delegated development permissions in ServiceNow Studio. Existing delegated development permissions will still be respected within ServiceNow Studio.
 
-Role required: admin or delegated developer
+Role required: admin or delegated\_developer
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Find and select the app where you want to modify permissions for collaborators.
+2.  Select the app you want to modify collaborators for, then select **App details**.
 
-3.  Access collaboration settings by selecting the collaborators icon \(\[Omitted image "sn-studio-collab-icon.png"\] Alt text: collaborators icon\).
+3.  Access collaboration settings by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: and selecting **Invite**.
 
-    \[Omitted image "sn-studio-collab-select.png"\] Alt text: Collaboration icon near the Publish button
+    \[Omitted image "sn-studio-collab-select-bs1.png"\] Alt text: Invite collaborators to work on your app using the Invite menu.
 
-4.  Choose the new permission level for the user or group in the Collaborators section of the modal.
+4.  In the **Collaborators** section of the **Collaborate with others** dialog, select the new permission level for the user or group.
 
-5.  Customize what the collaborator can do by creating custom permissions.
+5.  To create custom permissions for the collaborator, select **Customize permissions** for the user or group in the **Collaborators** section.
 
-    1.  Select **Customize permissions** for the user or group in the Collaborators section.
+    1.  Select **Customize permissions** for the user or group.
 
         \[Omitted image "cs-collab-custom-1.png"\] Alt text: Option to customize collaboration permissions
 
-    2.  Choose the permissions you want the group or user to have.
+    2.  Select the permissions you want the user or group to have.
 
-        For more information on permissions and descriptions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
+        For more information about permissions, see [Collaboration permissions for ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-collab-permissions.md).
 
-        \[Omitted image "cs-collab-custom-2.png"\] Alt text: Select custom collaboration permissions
+        \[Omitted image "cs-collab-custom-2.png"\] Alt text: Select custom collaboration permissions.
 
     3.  Select **Save**.
 
 
 ## Result
 
-Your changes are automatically saved when you close the Collaborate with others modal.
+Changes are saved automatically when you close the **Collaborate with others** dialog.
 
 ## What to do next
 
-Your App Engine admin must then approve the changes to collaborators. For more information, admins should see [Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/approve-collaboration-request.md).
+Your App Engine admin must approve the changes to collaborators. For more information, see [Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/approve-collaboration-request.md).
 
 **Parent Topic:**[Collaborating on apps using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/manage-app-collab-servicenow-studio.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Submit safety incidents and observations, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Submit, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Submit a safety observation as an employee

@@ -1,80 +1,48 @@
 ---
-title: Processing activity hierarchy
-description: Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a data lineage or hierarchy that tracks where personal data is shared. This understanding helps mitigate privacy-related risks.
+title: Understanding processing activity hierarchy
+description: Track how personal data flows across vendors, applications, and systems within and beyond a processing activity to identify and mitigate privacy-related risks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.html
 release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Processing activities, Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
 
-# Processing activity hierarchy
+# Understanding processing activity hierarchy
 
-Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a data lineage or hierarchy that tracks where personal data is shared. This understanding helps mitigate privacy-related risks.
+Track how personal data flows across vendors, applications, and systems within and beyond a processing activity to identify and mitigate privacy-related risks.
 
-## Methods to create data lineage
+Each processing activity can involve multiple entities such as vendors, applications, and systems that together make up the processing activity. These vendors, applications, and systems share data with each other, making it essential to establish a lineage that tracks where personal data is shared. This understanding helps organizations identify and mitigate privacy-related risks.
 
-You can create a data lineage in the following ways:
+## Scenario to understand the importance of Hierarchy
 
--   From the Hierarchy tab of a processing activity.
--   From the Data lineage button on a processing activity. For more information see, [Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).
+To understand why lineage is important, consider the following example of a Talent Screening processing activity:
 
-## Importance of data lineage
+-   A candidate registers on the careers portal and submits their resume.
+-   The candidate's data is fed into SHL, an application used to conduct online assessments, to shortlist candidates.
+-   Candidates who clear the SHL assessment have their data shared with HireVue for interviews.
+-   Simultaneously, cleared candidates' data is shared with Tableau for analytics purposes.
 
-To understand why data lineage is important, consider the following example of data management in a Human Resources organization. Any HR organization contains information such as the following.
+By establishing a lineage for this processing activity, the organization can track where each piece of personal data originates, how it is processed, and where it is shared. This visibility helps identify potential privacy risks, such as unauthorized access or data breaches, at any point where personal data is exchanged. With a clear lineage in place, the organization can ensure it is aware of all points where personal data flows and can implement appropriate safeguards to mitigate privacy-related risks.
 
--   Employee records: These include personal details like names, addresses, phone numbers, and email addresses.
--   Prospective interview candidate records: Contains candidate names, interview dates, and times.
+## Lineage maps and data transfers
 
-The entities involved in this example could be:
+Each relationship that you define in a hierarchy is rendered as a lineage map. For more information, see [View lineage map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/hierarchy-tab.md).
 
--   Internal departments such as Talent acquisition, Recruiters, People Management teams.
--   External tools and applications to track time off, benefits, and so on.
+When personal data moves between nodes in a hierarchy, privacy teams must track where the data goes, whose data is involved, and which legal safeguards permit each movement. Data transfer records capture this information on the processing activity. Each record represents a specific movement of personal data from one node to another, across regions. For more information, see [Manage data transfers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/data-transfers.md).
 
-When a new candidate registers, their personal information is entered into the HR organization's database. This information is shared with the administrative staff for appointment scheduling. Data lineage helps track the flow and transformation of data through various processes. In this example, the following could be a workflow:
+## Hierarchies, lineage maps, data transfers, and transfer mechanisms
 
-1.  Candidate registration:
-    -   A person registers on the careers portal and submits their resume.
-    -   The candidate's details such as name, email, phone number are entered into the applicant tracking system \(ATS\).
-2.  Scheduling an interview:
-    -   The Talent Acquisition team selects the candidate for an interview and enters the interview date and time into the calendar application.
-    -   The calendar application sends an email to the candidate with the interview details.
-3.  Conducting the interview:
-    -   The recruiters access the candidate’s profile on the ATS, review the resume, and conduct the interview.
-    -   Post-interview, they add their feedback to the candidate's ATS profile.
-4.  Hiring process:
-    -   The candidate is selected for the position.
-    -   The candidate details are transferred from the ATS to the HR database, and additional information is collected and updated.
-    -   The HR database uses other external applications to create the candidate’s employee profile, including time-off records and benefits information.
-
-By establishing a data lineage, the HR organization can track where each piece of personal data originates, how it’s processed, and where it’s shared. Understanding the data flow helps identify potential privacy risks, such as unauthorized access or data breaches at any point where data is shared. By establishing the data lineage in this way, the HR organization can ensure that they’re aware of all points where personal data is exchanged. This understanding helps them implement appropriate safeguards to mitigate privacy-related risks.
-
-## Information displayed on the data lineage page
-
-After you establish the relationship of the data flow, the data lineage page displays the following key information on the right side pane.
-
--   Description of the processing activity along with its owner and the type.
--   Criticality score of the processing activity if the score is High.
--   Risk rating of the processing activity if the score is High and Critical.
--   Compliance score of the processing activity.
--   Number of open issues.
--   Number of critical open issues.
--   On going assessments.
-
-If a selected CMDB record already has a processing activity linked to it, then that information is also displayed during the hierarchy creation. A toggle switch **View roll-up** is provided to view the rollup of personal information objects. If this switch is turned on, then the personal information objects associated with the selected asset and its associated destinations are displayed.
-
-## Data lineage example
-
-The following image shows a sample data lineage hierarchy.\[Omitted image "data-lineage-example.png"\] Alt text: Hierarchy of a processing activity.
+|Function|Description|
+|--------|-----------|
+|Hierarchy|Defines how a processing activity connects to vendors, applications, processes, companies, and other entities. To create a relationship, see [Add relationships to a hierarchy for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md).|
+|Lineage map|Renders the hierarchy as a visual map so you can trace how data moves between all connected entities. For more information, see [Manage data lineage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/lineage.md).|
+|Data transfer|Captures each distinct movement of personal data from one node to another.|
+|Transfer mechanism|Associates every data transfer with a legal safeguard that governs it.|
 
 **Parent Topic:**[Processing activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/ropa-record.md)
-
-**Related topics**  
-
-
-[Create a lineage for a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-a-data-lineage-for-a-processing-activity.md)
 

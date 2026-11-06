@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/fsm-marketplace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor Management, Explore, Field Service Management]
 ---
 
 # Field Service Marketplace
@@ -16,7 +16,7 @@ Field Service Marketplace optimizes contractor management, improves communicatio
 
 With features like push notifications, task acceptance/rejection, bid withdrawal, and task timelines, the application streamlines the workflow for External Contractor Managers. Dispatcher/Internal Contractor Managers can push tasks, set bidding criteria, review responses, and access valuable metrics. The application maintains confidentiality in bidding and provides a timeline for bid response expiration.
 
-\[Omitted video\] Description: Field Service Contractor Management with Marketplace
+\[Omitted video\] Description: Field Service Contractor Management
 
 **Related topics**  
 

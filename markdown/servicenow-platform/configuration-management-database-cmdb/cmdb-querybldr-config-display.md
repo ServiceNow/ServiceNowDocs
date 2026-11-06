@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring CMDB Query Builder, CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure CMDB Query Builder settings
@@ -18,13 +18,13 @@ Configure settings that control some of the functionality of the CMDB Query Buil
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Configuration** &gt; **CMDB Query Builder**.
 
-2.  On the **CMDB Query Builder** page, select the Settings icon \(\[Omitted image "dv-map-settings.png"\] Alt text: Settings.\) and then configure the settings.
+2.  On the **CMDB Query Builder** page, select the Settings icon and then configure the settings.
 
 <table id="table_t5f_n5k_5y"><thead><tr><th>
 

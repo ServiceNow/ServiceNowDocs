@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/core-business-suite/cbs-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 

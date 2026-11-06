@@ -1,5 +1,5 @@
 ---
-title: Sanitize All Translated HTML Fields \[New in Security Center 2.0\]
+title: Sanitize All Translated HTML Fields
 description: Learn how to configure the glide.translated\_html.sanitize\_all\_fields property to the secure value to ensure that all translated\_html elements are sanitized with an HTML sanitizer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-sanitize-all-translated-html-fields.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Sanitize All Translated HTML Fields \[New in Security Center 2.0\]
+# Sanitize All Translated HTML Fields
 
 Learn how to configure the **glide.translated\_html.sanitize\_all\_fields** property to the secure value to ensure that all **translated\_html** elements are sanitized with an HTML sanitizer.
 
-When the **glide.translated\_html.sanitize\_all\_fields** property is set to true, all **translated\_html** elements are sanitized with an HTML sanitizer. If the property is set to false, only elements with the dictionary attribute **html\_sanitize** set to true will be sanitized. This sanitization helps prevent attackers from embedding malicious content that could lead to cross-site scripting \(XSS\) attacks.
+When the **glide.translated\_html.sanitize\_all\_fields** system property is set to the value **true**, all translated\_html elements will be sanitized using an HTML sanitizer. When the property is set to **false**, an element will only be sanitized if a dictionary attribute, **html\_sanitize**, is set to **true**.
+
+Ensure that the Glide Property **glide.translated\_html.sanitize\_all\_fields** is set to the value **true**.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,6 +72,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 4.6
 -   CVSS score: Medium
--   Security risk details: Not configuring this property to the secure value of true, doesn’t sanitize all HTML elements, which increases the likelihood of a bad actor embedding malicious content in a field.
+-   Security risk details: Sanitizing HTML elements is a general guideline to ensure an attacker can't embed malicious content that may lead to Cross Site Scripting \(XSS\) attacks.
 
 </td></tr><tr><td>
 
@@ -100,7 +110,7 @@ Functional impact
 
 </td><td>
 
-Allows customers to access any table information if the widget is set to public and included in the property's value.
+Allows users to access any table information if the widget is set to public and included in the property's value.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)

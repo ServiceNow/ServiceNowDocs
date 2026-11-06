@@ -1,30 +1,34 @@
 ---
-title: View CMDB Health dashboard
-description: The CMDB Health dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
+title: View CMDB Health Dashboard
+description: The CMDB Health Dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/c\_MonitorCMDBHealth.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# View CMDB Health dashboard
+# View CMDB Health Dashboard
 
-The CMDB Health dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
+The CMDB Health Dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
 
-Once you configure CMDB Health and the CMDB Health Dashboard Jobs are enabled, the CMDB Health dashboard shows meaningful data that is automatically collected and calculated on a recurring schedule. For more information, see [Set up and configure CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
+Once you configure CMDB Health and the CMDB Health Dashboard Jobs are enabled, the CMDB Health Dashboard shows meaningful data that is automatically collected and calculated on a recurring schedule. For more information, see [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md).
 
-\[Omitted image "CMDBHealthDashboardYokohama.png"\] Alt text: Default view in CMDB Health dashboard
+\[Omitted image "CMDBHealthDashboardYokohama.png"\] Alt text: Default view in CMDB Health Dashboard
 
 ## Access
 
 Use either of the following ways to access the CMDB Health Dashboard:
 
--   **Within CMDB Workspace**
+-   **Service Graph Workspace:**
+    1.  Navigate to **Workspaces &gt; Service Graph Workspace**.
+    2.  Select the Insights icon in the navigation panel.
+    3.  Select **CMDB Health** in the Insights navigation panel.
+-   **CMDB Workspace:**
     1.  Navigate to **Workspaces &gt; CMDB Workspace**.
     2.  Select **Home** in the CMDB Workspace menu bar and then, in the Quick links section, select the **CMDB Health Dashboard** link.
 -   **Navigation filter**
@@ -35,13 +39,13 @@ Use either of the following ways to access the CMDB Health Dashboard:
     -   **Service View**: Health reports for services with details for CIs per service.
     -   **Health Group View**: Health reports for CMDB groups of type Health with details for CIs per group.
 
-Role requirement: Using the CMDB Health dashboard requires the asset, itil, or cmdb\_user role.
+Role requirement: Using the CMDB Health Dashboard requires the asset, sn\_cmdb\_editor, cmdb\_user, or itil role.
 
 ## Legacy calculation methods
 
-By default, all metrics and KPIs are set with a specific percentage weight in score calculations. However, you can use legacy calculation methods which were used up until the Washington DC release by toggling the **Use legacy calculation methods** switch \(requires the sn\_cmdb\_admin role\) on the CMDB Health dashboard. In those methods, calculating aggregation scores is based on weights settings for metrics within their KPI, and KPIs within the overall score. Use the legacy calculation methods when it is important to reflect on specific weights of metrics and KPIs in the assessment of CMDB health in your organization.
+By default, all metrics and KPIs are set with a specific percentage weight in score calculations. However, you can use legacy calculation methods which were used up until the Washington DC release by toggling the **Use legacy calculation methods** switch \(requires the sn\_cmdb\_admin role\) on the CMDB Health Dashboard. In those methods, calculating aggregation scores is based on weights settings for metrics within their KPI, and KPIs within the overall score. Use the legacy calculation methods when it is important to reflect on specific weights of metrics and KPIs in the assessment of CMDB health in your organization.
 
-For more information about customizing calculation weights for metrics, KPIs, and the overall score, see [Configure aggregation weights for CMDB Health score calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/config-cmdb-health-metric-weights.md).
+For more information about customizing calculation weights for metrics, KPIs, and the overall score, see [Configure aggregation weights for CMDB Health scores](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/config-cmdb-health-metric-weights.md).
 
 ## KPI tiles
 
@@ -52,7 +56,7 @@ The Completeness, Correctness, and Compliance KPI tiles on the dashboard, show t
 
 The distribution of metric compliance can vary greatly across CIs. For example, a single CI failing all metrics or 3 unique CIs each failing a different metric will result in a different KPI final score of aggregation.
 
-You can show additional details and further drill down the CMDB Health dashboard:
+You can show additional details and further drill down the CMDB Health Dashboard:
 
 -   Point to the green and red portions in the donut reports, to show details.
 -   Select the View calculation details icon \("i"\) in a KPI tile to show the calculation details of failure and success for each of the KPI metrics. Calculation details also show the status of the calculation, such as complete.
@@ -72,19 +76,19 @@ The '&lt;x&gt;% since &lt;date&gt;' shows the increase or decrease \(in %\) in t
 
 The overall score appears on the dashboard above the KPI tiles and represents the aggregated health score for the CMDB. The overall score is calculated as an aggregation of the three KPIs \(correctness, completeness and compliance\). By default, the overall score is a simple average of the KPI scores. However, if using the legacy calculation methods is in effect, then the overall score is based on any weight settings of any of the KPIs.
 
-## Class view in the CMDB Health dashboard
+## Class view in the CMDB Health Dashboard
 
 The class view shows health reports for CIs and classes in the CMDB hierarchy. Select any class in the CMDB hierarchy to filter all tiles on the dashboard to show health data only for CIs in the selected class and its child classes.
 
 Select the **Class** drop-down to switch to the **Health Group** or the **Service** view.
 
-## Health Group view in the CMDB Health dashboard
+## Health Group view in the CMDB Health Dashboard
 
 Select the **Health Group** view to show health reports for CIs of a CMDB health group. Select any health group to filter all tiles on the dashboard to show health data only for CIs in the selected health group.
 
 Select the **Health Group** drop-down to switch to the **Class** or the **Service** view.
 
-## Service view in the CMDB Health dashboard
+## Service view in the CMDB Health Dashboard
 
 Select the **Service** view to show health reports for CIs of a service class, such as **Business Service**, including the service CI itself. Select any service to filter all tiles on the dashboard to show health data only for CIs in the selected service.
 
@@ -103,9 +107,9 @@ Settings affecting the service view:
 **Related topics**  
 
 
-[Explore CMDB Health]()
+[Exploring CMDB Health]()
 
-[CMDB Health experience in CMDB Workspace]()
+[CMDB Health experience in CMDB Workspace and in Service Graph Workspace]()
 
 [View relationships health]()
 

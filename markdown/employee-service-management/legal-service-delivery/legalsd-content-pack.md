@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Analytics and Reporting Solutions for Legal Service Delivery
@@ -33,9 +33,4 @@ With the Legal Executive dashboard, you can get an insight into how your team an
 The Legal Operations dashboard provides comprehensive reports to the legal department. The dashboard uses Performance Analytics to provide reports and metrics on legal requests and legal matters.
 
 **Parent Topic:**[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legal-management-overview.md)
-
-**Related topics**  
-
-
-[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

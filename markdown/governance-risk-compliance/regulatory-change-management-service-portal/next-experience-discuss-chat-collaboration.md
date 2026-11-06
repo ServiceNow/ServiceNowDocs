@@ -7,8 +7,8 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 1
 breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
@@ -26,21 +26,9 @@ On a regulatory change management case, select **Discuss** from other options. C
 **Related topics**  
 
 
-[Regulatory Change Management application landing page]()
-
-[Tasks page in the Compliance Workspace]()
-
-[Source document import tasks]()
-
-[Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
-
 [Regulatory Change Management application in the Compliance Workspace]()
 
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
+[Regulatory event alerts vs. source document alerts]()
+
+[Regulatory process flow and tasks]()
 

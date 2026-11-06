@@ -7,7 +7,7 @@ release: yokohama
 product: SBOM Core
 classification: sbom-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classifying licenses and resolving component licenses in the Software Bill of Materials workspace, Uploading and viewing your SBOM files in the SBOM Workspace, Software Bill of Materials, Unified Security Exposure Management, Security Operations]
 ---
@@ -32,15 +32,15 @@ Role required: sn\_sbom\_response.managelicense
 
 3.  To classify licenses, choose one.
 
-<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d499655e96">
+<table id="choicetable_inv_wvz_ycc"><thead><tr><th align="left" id="d511092e96">
 
 Option
 
-</th><th align="left" id="d499655e99">
+</th><th align="left" id="d511092e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d499655e105">
+</th></tr></thead><tbody><tr><td id="d511092e105">
 
 **Bulk edit records or edit more than one record on the list.**
 
@@ -51,7 +51,7 @@ Description
 3.  Update the classification.
 
 
-</td></tr><tr><td id="d499655e126">
+</td></tr><tr><td id="d511092e126">
 
 **Edit and update the classification on the record.**
 

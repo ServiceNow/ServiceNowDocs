@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with record feeds, Use Live Feed to work on records, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,8 +25,6 @@ Role required: none
 1.  Navigate to the record in a list or form.
 
 2.  Click the **Show on Live Feed** icon in the header.
-
-    \[Omitted image "FollowTaskFuji.png"\] Alt text: Follow Task
 
 
 **Parent Topic:**[Working with record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_WorkingWithRecordFeeds.md)

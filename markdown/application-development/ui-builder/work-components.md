@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Customize UI Builder pages using components
@@ -69,8 +69,6 @@ From the floating menu above the page in UI Builder
 </td><td>
 
 On a column layout or component, select the Menu icon, select **Add before** or **Add after**, and then select a component.
-
- \[Omitted image "component-add-floating.png"\] Alt text: Arrow pointing to the expanded menu on the stage.
 
 </td></tr></tbody>
 </table>## Column layouts in UI Builder
@@ -155,8 +153,6 @@ Set the **Test value** to test what happens when the visibility is set to true, 
 
 Create an exact copy of a configured component on your UI Builder page except for the name and ID. A duplicated component copies all properties, bindings, and events. For more information, see [Duplicate a component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/duplicate-components.md).
 
-\[Omitted image "component-duplicate.png"\] Alt text: Component menu with arrow pointing to duplicate option.
-
 -   **[Automatically configure components using presets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/presets.md)**  
 Use component presets to automatically configure components on compatible pages.
 -   **[Create custom presets for components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/preset-builder.md)**  
@@ -169,7 +165,9 @@ Set focus on specific elements, ensuring users can interact with them effectivel
 Duplicate a configured component to reuse on a page.
 -   **[Dynamically display content with conditional renderers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/conditional-renderer.md)**  
 Use the conditional renderer component to display content or components based on specified conditions.
--   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/page-collections.md)**  
+-   **[Learn components by example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/learning-components-by-example.md)**  
+Follow these procedures to learn how components create the functionality you need in your UI Builder pages.
+-   **[Page collections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/page-collections.md)**  
 Page Collections are groups of pages that can be used across multiple experiences.
 -   **[Change data visualizations in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/component-hot-swapping.md)**  
 Change data visualizations in real time using a drop-down list to preview data in your experience.
@@ -187,6 +185,8 @@ Viewports are specialized components that enable you to extend your experience w
 Use popovers on a UI Builder page to overlay contextual information or functionality to help users complete tasks.
 -   **[Create modeless dialogs in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/uib-modeless-dialog.md)**  
 Use modeless dialogs on a UI Builder page to add a floating window that enables you to interact with both the window content and the page content below.
+-   **[Configure alerts to auto-dismiss](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/uib-configure-alerts.md)**  
+Set alerts to automatically clear after a specified time period.
 
 **Parent Topic:**[Working in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/using-ui-builder.md)
 

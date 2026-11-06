@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure SMS opt-out preferences
@@ -18,7 +18,7 @@ Allow recipients to opt out of receiving text messages.
 
 ## Before you begin
 
-Role required: admin, notify\_admin
+Role required: notify\_setup\_admin, notify\_admin
 
 ## About this task
 

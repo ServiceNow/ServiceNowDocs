@@ -1,22 +1,20 @@
 ---
-title: Add an application model to a value stream
+title: Associate an application model to a value stream
 description: You can add an application model to a value stream to better manage your application portfolios. This ensures that any hardware/software investments are tied to the organizational goal and requirement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-add-an-application-model-to-a-value-stream.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage value streams, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Manage value streams, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add an application model to a value stream
+# Associate an application model to a value stream
 
 You can add an application model to a value stream to better manage your application portfolios. This ensures that any hardware/software investments are tied to the organizational goal and requirement.
 
 ## Before you begin
-
-You require the Value stream artifacts \(sn\_value\_stream\) plugin to work with value streams in the Enterprise Architecture Workspace.
 
 Role required: sn\_apm.apm\_user
 
@@ -30,7 +28,7 @@ Role required: sn\_apm.apm\_user
 
 4.  Select **Value Streams**.
 
-5.  Select the value stream that you want to add a application model to.
+5.  Select the value stream that you want to add an application model to.
 
     A new page appears, displaying the details of the value stream.
 
@@ -40,17 +38,19 @@ Role required: sn\_apm.apm\_user
 
 8.  On the form, fill in the field.
 
-    For a description of the field values, see [Create new application model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-application-model-from.md).
+    For a description of the field values, see [Create application model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-new-application-model-from.md).
 
 9.  Select **Save**.
 
 
-**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-streams.md)
+**Parent Topic:**[Manage value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-value-streams.md)
 
 **Related topics**  
 
 
-[View all value streams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-value-streams.md)
+[View value streams details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-value-streams.md)
 
 [Add or edit a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream.md)
+
+[Add value stream stages to a value stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-vs-stages-to-a-vs.md)
 

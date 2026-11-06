@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset Management Executive Dashboard
@@ -152,7 +152,7 @@ Number of success goals completed for the Software Asset Management application.
 
  Source table: SAM Success Goal \[samp\_success\_goal\].
 
-**Note:** This widget is available only when the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin is installed.
+**Note:** This widget is available only when the Software Asset Workspace \(sn\_sam\_workspace\) store application is installed.
 
 </td><td>
 
@@ -192,7 +192,7 @@ Actual savings from completed success goals.
 
  Source table: SAM Success Goal \[samp\_success\_goal\].
 
-**Note:** This widget is available only when the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin is installed.
+**Note:** This widget is available only when the Software Asset Workspace \(sn\_sam\_workspace\) store application is installed.
 
 </td><td>
 
@@ -340,7 +340,9 @@ Number of hardware models that are reaching their end of life in the next 90 day
 Not applicable
 
 </td></tr></tbody>
-</table>## Sustainable IT dashboard
+</table>**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
+
+## Sustainable IT dashboard
 
 The Sustainable IT dashboard helps you track the environmental impact of your IT assets and displays a variety of information to gauge the sustainability impact of the hardware assets of an organization easily.
 

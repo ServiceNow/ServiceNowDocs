@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configuring Dynamic Scheduling
@@ -23,6 +23,8 @@ Dynamic scheduling enables dispatchers to auto assign tasks and adapt to changin
 -   Use ordering rules and unassignment constraints to unassign previously assigned tasks to allow the assignment of higher priority tasks.
 -   Use selection criteria such as agent skills and travel time to select agents.
 -   Reassign tasks for agent time off.
+
+Dynamic Scheduling doesn't use the pre-shift and post-shift maximum travel time values when scheduling tasks. Dynamic Scheduling only uses the Travel outside of work hours Boolean setting in the agent schedule attribute plan to determine travel eligibility outside of work hours.
 
 ## Configuration overview
 
@@ -48,7 +50,7 @@ Use Dynamic Scheduling to optimize task assignments to planned crews. There are 
 **Related topics**  
 
 
-[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
-
 [Dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/dynamic-scheduling.md)
+
+[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

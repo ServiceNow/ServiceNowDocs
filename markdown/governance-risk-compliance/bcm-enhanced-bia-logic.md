@@ -1,18 +1,18 @@
 ---
-title: Configuring Dictionary, UI policy, element variables
-description: Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
+title: Configuring dictionary, UI policy, and element variables
+description: Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view, which determine columns, required fields, and display in dependency assessment views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcm-enhanced-bia-logic.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
-# Configuring Dictionary, UI policy, element variables
+# Configuring dictionary, UI policy, and element variables
 
-Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view. These configurations play a crucial role in determining specific columns, required fields, and overall display in the list view and form view of a dependency within the dependency assessment of a BIA.
+Starting with Release 6.1.x, administrators have the capability to configure different aspects of a dependency. This includes the Dictionary, UI policy, element variables, and UI view, which determine columns, required fields, and display in dependency assessment views.
 
 Dictionary entries \[sys\_dictionary\] serve the purpose of providing additional details for each table and defining the columns on those tables. For more information on Dictionary entries, see [Data dictionary tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DataDictionaryTables.md).
 
@@ -20,9 +20,9 @@ UI policies are used to dynamically alter the behavior of information on a form.
 
 Element variables are employed to define additional data for a record, allowing for more granular control over the behavior and attributes of that record. For more information on Element variables, see [Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-variable-uib-ws.md).
 
-View rules are utilized to define the filter condition and execution order for a table, providing a way to customize the view and presentation of data within that table. For more information on View rules, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_CreateAViewRule.md).
+View rules are utilized to define the filter condition and execution order for a table. They provide a way to customize the view and presentation of data within that table. For more information on View rules, see [Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_CreateAViewRule.md).
 
-Administrators play a crucial role in configuring the Dictionary, UI policy, element variables, and UI view for a dependency. Their tasks typically include:
+Administrators play a crucial role in configuring the Dictionary, UI policy, element variables, and UI view for a dependency by performing these tasks:
 
 1.  Configuring the Dictionary record in the instance to add required or optional fields, or marking existing fields as required or optional for a dependency.
 2.  Configuring the element variables record in the instance to add required or optional element variables.
@@ -31,9 +31,9 @@ Administrators play a crucial role in configuring the Dictionary, UI policy, ele
 5.  Configuring the UI view for both lists and forms to specify the columns displayed in the table's list layout for the list view and form view.
 6.  Defining a view rule in the BIA scope. The system determines the UI view displayed for the dependency based on the defined filter condition and execution order in the view rule.
 
-**Note:** To ensure proper functionality, it is important to define the UI policies and element variables within the BCM core application scope.
+**Note:** Define UI policies and element variables within the BCM core application scope to maintain proper functionality.
 
-The BCM application relies on the configurations of the Dictionary, UI policies, Glide variables \(element variables\), and View rules to retrieve the required fields for each dependency. Once these configurations are properly set up, the setup process is considered complete.
+The BCM application relies on the configurations of the dictionary, UI policies, glide variables \(element variables\), and view rules to retrieve the required fields for each dependency. Once these configurations are properly set up, the setup process is considered complete.
 
 **Note:** Marking fields as required through client scripts is not supported. Additionally, the **Run Script** option in the UI Policy for marking fields as required or optional is also not supported.
 
@@ -51,9 +51,9 @@ When the software is upgraded to Release 6.1.x, the state of each dependency is 
 
 ## Executing the fix script
 
-A fix script refers to server-side JavaScript code that administrators execute after installing or upgrading an application. Its purpose is to ensure that any metadata changes made by administrators in the Dictionary, UI policy, or element variables configurations for the BIA dependency are accurately reflected.
+A fix script refers to server-side JavaScript code that administrators execute after installing or upgrading an application. Its purpose is to confirm that any metadata changes made by administrators in the Dictionary, UI policy, or element variables configurations for the BIA dependency are accurately reflected.
 
-To properly update the state of the dependency, administrators must fill in the required fields and then execute the fix script. The execution of the fix script updates the state of the dependency based on the following table:
+To properly update the state of the dependency, administrators must fill in the required fields and then execute the fix script. The execution of the fix script updates the state of the dependency based on the table:
 
 |All required fields are filled|State of the dependency|
 |------------------------------|-----------------------|

@@ -1,5 +1,5 @@
 ---
-title: Add or create an issue for a compliance case
+title: Add an issue for a compliance case
 description: Identify and add an issue that is related to the impacted areas of a reported compliance case. You can also create an issue from the GRC: Compliance Case Management landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
-# Add or create an issue for a compliance case
+# Add an issue for a compliance case
 
 Identify and add an issue that is related to the impacted areas of a reported compliance case. You can also create an issue from the GRC: Compliance Case Management landing page.
 
@@ -24,21 +24,21 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon. icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  From the list, select **All Cases**.
 
 4.  Open the case that you want to add an issue to and then select one of the following options.
 
-<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d367763e92">
+<table id="choicetable_d5s_yl5_yvb"><thead><tr><th align="left" id="d225203e99">
 
 Option
 
-</th><th align="left" id="d367763e95">
+</th><th align="left" id="d225203e102">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d367763e101">
+</th></tr></thead><tbody><tr><td id="d225203e108">
 
 **To add an existing issue**
 
@@ -49,7 +49,7 @@ Action
 3.  Select **Add**.
 
 
-</td></tr><tr><td id="d367763e127">
+</td></tr><tr><td id="d225203e134">
 
 **To create an issue**
 

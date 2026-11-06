@@ -7,16 +7,20 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # Create a case from a discussion
 
 In order to engage your internal experts to reply to discussion threads, you can create cases directly from community questions.
 
-Creating cases from community questions requires activation of the Customer Service Management \(com.sn\_customerservice\) plugin.
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Creating cases from community questions requires activation of the Case Management Core \(com.sn\_customerservice\) plugin.
 
 This feature is available for questions that have been posted by community users who are also contacts or consumers in the Customer Service Management application. Questions can be either answered or unanswered.
 
@@ -30,5 +34,48 @@ Two sets of users can create cases from questions:
 -   **[Administer create case from discussion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/case-mgmt-integration-administer.md)**  
 Configure parameters for the case generated from the community discussion so that it can be routed accordingly.
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community content types]()
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[Migrate Social Q&amp;A data to Communities]()
+
+[View community logs]()
+
+[View community feedback and bookmarks tables]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure video sources for a community]()
+
+[Configure community forums]()
+
+[Forum and user permissions management]()
+
+[Configure the community profile]()
+
+[Create community Terms and Conditions]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

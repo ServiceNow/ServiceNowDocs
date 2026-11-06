@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/aem-setup-servicenow-authentication.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrating with Adobe Experience Manager, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Service Management]
 ---
 
 # Configuring authentication settings for ServiceNow services and components in AEM

@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # View the total time worked on all tasks related to an enterprise asset
@@ -17,8 +17,6 @@ breadcrumb: [Create and manage enterprise assets, Managing enterprise models and
 Use the Asset task time summary report to see the details of the time spent on all tasks for an asset and its child assets, grouped by task category.
 
 ## Before you begin
-
-**Important:** The Asset task summary report is available with Enterprise Asset Management version 9.0 and later.
 
 Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technician
 
@@ -78,11 +76,11 @@ The total time spent is grouped by the following task categories:
 
 3.  Select the asset record for which you want to view the details of the total time spent on the tasks.
 
-4.  On the contextual sidebar, select the Asset task time summary icon \[\[Omitted image "asset-task-summary-icon.png"\] Alt text: Asset task summary icon\].
+4.  On the contextual sidebar, select the Asset task time summary icon \[Omitted image "asset-task-summary-icon.png"\] Alt text:.
 
     **Total time spent by task category** report is displayed.
 
-    \[Omitted image "asset-task-summary-report.png"\] Alt text: Asset task time summary
+    \[Omitted image "asset-task-summary-eam.png"\] Alt text: Asset task time summary
 
     The Asset task time summary report includes the following details:
 

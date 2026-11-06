@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/modify\_product\_inventory\_records\_to\_create\_a\_quote.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Modify product inventory records, Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Modify product inventory records, Product inventory configurations, Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Modify product inventory records to create a quote

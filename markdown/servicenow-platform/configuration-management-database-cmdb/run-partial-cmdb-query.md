@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Run a partial CMDB query
@@ -18,7 +18,7 @@ You can run a partial query in the CMDB Query Builder by defining a section of a
 
 ## Before you begin
 
-Role required: cmdb\_query\_builder \(contained for itil, itil\_admin, and asset\)
+Role required: cmdb\_query\_builder
 
 ## About this task
 

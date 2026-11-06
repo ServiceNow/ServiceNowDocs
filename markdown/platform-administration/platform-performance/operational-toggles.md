@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-05-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the ServiceNow AI Platform to optimize performance, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Operational toggles

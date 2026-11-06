@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dashboard-component-properties-setup.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Add a dashboard to a page, Creating Platform Analytics pages, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -36,7 +36,7 @@ Use default redirections \[defaultDrilldowns\]
 
 </td><td>
 
-When activated, the inline editor adds default pre-configured redirections for when the chart in a data visualization is clicked. To implement a custom drilldown, set this property to false, then add and customize a Dashboard Widget Clicked event handler as described in the Events section. Default: true
+When activated, the inline editor adds default pre-configured redirections for when a segment of a data visualization is clicked. To implement a custom drilldown, set this property to false, then add and customize a Dashboard Widget Clicked event handler as described in the Events section. Default: true
 
 </td></tr><tr><td>
 
@@ -76,13 +76,13 @@ Disable dashboard creation \[hideCreateNewButton\]
 
 </td><td>
 
-Hides the Create New Dashboard option in the context menu of the Dashboard page. Users can still create dashboards from the Analytics Center or the dashboards library \(Dashboard Overview component\).When false:
+Hides the Create Dashboard option in the 3-dot menu of the Dashboard page. Users can still create dashboards from the Analytics Center or the dashboards library \(Dashboard Overview component\).When false:
 
- \[Omitted image "hide-create-dashboard-false.png"\] Alt text: Context menu of dashboards when Disable dashboard creation is off.
+ \[Omitted image "hide-create-dashboard-false.png"\] Alt text: 3-dot menu of dashboards when Disable dashboard creation is off.
 
  When true:
 
- \[Omitted image "hide-create-dashboard-true.png"\] Alt text: Context menu of dashboard page when Disable dashboard creation is on.
+ \[Omitted image "hide-create-dashboard-true.png"\] Alt text: 3-dot menu of dashboard page when Disable dashboard creation is on.
 
  Default: false
 
@@ -93,6 +93,20 @@ Use as embedded \[useAsEmbedded\]
 </td><td>
 
 Set to true when you, as a developer, want to use the dashboard component inside your page in isolation from the page's URL parameters. Meaning, you want full control over what the dashboard renders, regardless of URL parameters. The Copy URL and Copy URL with filter options are not available on such embedded dashboards.Default: false
+
+</td></tr><tr><td>
+
+Delegate URL params \[delegateUrlParams\]
+
+</td><td>
+
+Allows the UIB pages which contains the dashboard to take control of how the Dashboard component handles URL parameter updates. When enabled, instead of the dashboard directly updating the browser URL, it dispatches a DASHBOARD\#URL\_PARAMS\_UPDATE\_REQUESTED event containing the parameters that would have been updated. The parent page can then handle navigation using a client script.Set this property in these circumstances:
+
+-   The page URL structure does not include dashboard URL parameters \(for example, no sys-id in the URL path\).
+-   The page needs custom navigation logic for dashboard changes.
+-   The dashboard is embedded \(without isEmbedded turned on\) in a workspace where URL management is handled by the parent.
+
+For more information, see [Dashboard URL parameter delegation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboard-url-parameter-delegation.md).
 
 </td></tr><tr><td>
 

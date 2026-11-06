@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector CPU protection thresholds
@@ -30,7 +30,7 @@ Description
 
 </td><td>
 
-To prevent the agent from shutting itself off when CPU reaches a certain threshold, set value to **True**.Default=False
+To prevent the agent from shutting itself off when CPU memory reaches a certain threshold, set value to **True**.Default=False
 
 </td></tr><tr><td>
 
@@ -38,7 +38,9 @@ To prevent the agent from shutting itself off when CPU reaches a certain thresho
 
 </td><td>
 
-The percentage of the agent's CPU usage that sends the agent into CPU protection mode. Default=5%
+The percentage of the agent's CPU usage that sends the agent into CPU protection mode. Default=5
+
+**Note:** When working with Windows event and metric checks, set this value to 10.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Benchmarks
 classification: benchmarks
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Benchmarks, Benchmarks, IT Service Management]
+breadcrumb: [Configure, Benchmarks, IT Service Management]
 ---
 
 # Enable Benchmarks
@@ -38,15 +38,15 @@ Six months of global data is available after opting in. If available, the corres
 
 1.  Opt into Benchmarks using the guided setup or by navigating using the application navigator.
 
-<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d457555e139">
+<table id="choicetable_s1g_hly_clb"><thead><tr><th align="left" id="d437465e137">
 
 Using
 
-</th><th align="left" id="d457555e142">
+</th><th align="left" id="d437465e140">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d457555e148">
+</th></tr></thead><tbody><tr><td id="d437465e146">
 
 **Guided setup**
 
@@ -56,7 +56,7 @@ Do this
 2.  Go to the **Enable Benchmarks** section and click **Configure**.
 
 
-</td></tr><tr><td id="d457555e184">
+</td></tr><tr><td id="d437465e182">
 
 **Application navigator**
 

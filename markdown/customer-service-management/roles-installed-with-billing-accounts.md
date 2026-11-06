@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2026-09-11"
 reading_time_minutes: 2
-breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Roles installed with billing accounts
@@ -58,11 +58,13 @@ Customer access management granular roles grant related parties access to billin
 **Related topics**  
 
 
-[Granular roles and supported entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/granular-roles-and-supported-entities-CAM.md)
+[Granular roles and entities for responsibility framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/granular-roles-and-supported-entities-CAM.md)
 
 [Billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-billing-accounts.md)
 
 [Add related parties to a billing account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-related-parties-to-a-billing-account.md)
 
 [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateAResponsibilityDefinition.md)
+
+[Creating a responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/creating-responsibility-access-configuration.md)
 

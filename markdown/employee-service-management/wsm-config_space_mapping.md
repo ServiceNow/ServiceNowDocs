@@ -1,16 +1,16 @@
 ---
-title: Configure Workplace Space Mapping
+title: Configuring Workplace Space Mapping
 description: Install and Configure Workplace Space Mapping with Indoor Mapping and Mappedin \(third-party map provider\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/wsm-config\_space\_mapping.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Configure Workplace Space Mapping
+# Configuring Workplace Space Mapping
 
 Install and Configure Workplace Space Mapping with Indoor Mapping and Mappedin \(third-party map provider\).
 

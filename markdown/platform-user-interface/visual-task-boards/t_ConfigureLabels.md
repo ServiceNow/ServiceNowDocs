@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Customizing and configuring Visual Task Boards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Role required: tags\_admin and global\_tags\_creator
 
 Every board has seven labels by default.
 
-\[Omitted image "defaultlabels.png"\] Alt text: Default Labels
+\[Omitted image "defaultlabelcolors.png"\] Alt text: Default Labels
 
 Board members can edit the labels on a board. All the labels are visible on the **Quick Panel** under **Labels**
 
@@ -54,7 +54,7 @@ Board members can edit the labels on a board. All the labels are visible on the 
 
     \[Omitted image "Carddetailstab.png"\] Alt text: Labels on the card
 
-    Under the **Labels** tab, the toggle button for applied labels is On and Off for the labels that are not applied.\[Omitted image "Carddetailslabels.png"\] Alt text: Label details
+    Under the **Labels** tab, the toggle button for applied labels is On and Off for the labels that are not applied.\[Omitted image "DetailsLabel.png"\] Alt text: Label details
 
     **Note:** The **table** label can also be used for Tags.
 

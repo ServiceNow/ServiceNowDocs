@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow Add-in for Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [ServiceNow Add-in for Microsoft 365 reference, ServiceNow Add-in for Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Components installed with ServiceNow Add-in for Microsoft 365

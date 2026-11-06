@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Configuration Management, Extend ServiceNow AI Platform capabilitie
 # Configuration Management Database \(CMDB\)
 
 Use the ServiceNow® Configuration Management Database \(CMDB\) application to build logical representations of assets, services, and the relationships between them that comprise the infrastructure of your organization. Details about these components are stored in the CMDB as configuration items \(CIs\) which you can use to monitor the infrastructure, helping ensure integrity, stability, and continuous service operation.
-
-## Overview
 
 Use core features such as CMDB Health, CMDB Identification and Reconciliation, and CMDB Data Manager to monitor and detect health issues, reconcile data integrity issues, and manage data life cycle.
 
@@ -42,7 +40,7 @@ Use core features such as CMDB Health, CMDB Identification and Reconciliation, a
 
 </td><td>
 
-[CMDB 360 / Multisource CMDB\[Omitted image "bus-project.svg"\] Alt text:Track and manage how multiple sources populate the same CI attributes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
+[CMDB 360\[Omitted image "bus-project.svg"\] Alt text:Track and manage how multiple sources populate the same CI attributes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
 </td><td>
 
@@ -87,12 +85,9 @@ Use core features such as CMDB Health, CMDB Identification and Reconciliation, a
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
--   [CMDB Design &amp; Configuration](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552861)
--   [CMDB Design](https://support.servicenow.com/kb_view.do?sysparm_article=KB0552867)
--   [Improving Configuration Item Data Quality](https://www.servicenow.com/content/dam/servicenow/documents/whitepapers/wp-cmdb-improving-configuration-item-data-quality.pdf)
--   [CMDB Design Guidance](http://www.servicenow.com/content/dam/servicenow/documents/whitepapers/wp-cmdb-design-guidance.pdf)
--   [CMDB 101: What is a configuration management database and why do you need one?](https://community.servicenow.com/community?id=community_blog&sys_id=e913125fdbd9d7404837f3231f9619de) \(ServiceNow® Community post\)
--   [KB0546686: CMDB Resources Page](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0546686)
+-   [White Paper: ServiceNow CMDB - Unlocking the Power of Configuration Management](https://www.servicenow.com/community/servicenow-ai-platform-forum/white-paper-servicenow-cmdb-unlocking-the-power-of-configuration/m-p/3037771)
+-   [Whitepaper: CMDB Design Guidance](http://www.servicenow.com/content/dam/servicenow/documents/whitepapers/wp-cmdb-design-guidance.pdf)
+-   [CMDB 101 - What is a configuration management database and why do you need one?](https://community.servicenow.com/community?id=community_blog&sys_id=e913125fdbd9d7404837f3231f9619de) \(ServiceNow® Community post\)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 

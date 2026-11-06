@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Create or modify a practice area, Configure, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Create or modify a practice area, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add an intake form to a practice area
@@ -158,7 +158,7 @@ Options to change the default behavior or flow of legal requests, legal matter, 
 
     When an employee submits a new legal request through the intake form, this predefined checklist appears as the default to-do items in the corresponding request.
 
-    1.  Click the more actions icon \(\[Omitted image "down-arrow-icon.png"\] Alt text: More actions icon.\) next to the **Checklist**.
+    1.  Click the more actions icon \(\[Omitted image "lsd-down-arrow.png"\] Alt text: More actions icon\) next to the **Checklist**.
 
     2.  Click **Create new**.
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_DirectJDBCProbeParameters.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [JDBCProbe, Supported integration interfaces, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -147,12 +147,5 @@ For example, to query a table using a direct JDBC probe, requires the following 
     -   User password
 -   The table name
 
-\[Omitted image "DirectJdbcQuery.png"\] Alt text: Queue form.
-
 **Parent Topic:**[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_JDBCProbe.md)
-
-**Related topics**  
-
-
-[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_JDBCProbe.md)
 

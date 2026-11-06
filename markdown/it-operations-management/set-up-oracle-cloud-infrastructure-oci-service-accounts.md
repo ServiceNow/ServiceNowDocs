@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/set-up-oracle-cloud-infrastructure-oci-service-accounts.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Set up Oracle Cloud infrastructure \(OCI\) service accounts
@@ -16,7 +16,7 @@ Create and configure cloud service accounts at ServiceNow AI Platform for the co
 
 OCI service account is a type of identity used to authenticate and authorize access to OCI resources and services. It provides a way for applications, services, and users to securely interact with OCI resources. Service accounts are often used for automated processes, applications, or services running within OCI, allowing them to access resources according to the defined permissions and policies.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -27,5 +27,5 @@ Create Oracle API credentials on the ServiceNow AI Platform to enable access to 
 -   **[Create OCI service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/create-oci-service-accounts.md)**  
 Create Oracle Cloud Infrastructure \(OCI\) service accounts on the ServiceNow AI Platform to access your Oracle account during Oracle discovery.
 
-**Parent Topic:**[Setting up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-cloud-service-account.md)
+**Parent Topic:**[Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-cloud-service-account.md)
 

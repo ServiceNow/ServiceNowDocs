@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/close-case-auto-responder.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Auto-Responder for case deflections, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Auto-Responder for case deflection, Customer communication, Use, Customer Service Management]
 ---
 
 # Close a case from a knowledge article recommended in an Auto-Responder notification

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/show-hide-event-types-agent-cal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use the agent calendar, Managing agent calendar, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use agent calendar, Agent calendar, Schedules and sites, Use, Customer Service Management]
 ---
 
 # Show or hide event types on the agent calendar

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-03-05"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SAP Commerce Cloud Spoke
@@ -18,7 +18,7 @@ The SAP Commerce Cloud spoke is built by Bristlecone, Inc. Retrieve shopping car
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -45,7 +45,7 @@ If you’re having trouble installing the app, ensure that these dependent plugi
 
 ## Spoke version
 
-[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version.
+[SAP Commerce Cloud Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/sap-commerce-cloud.md) v1.1.0 is the latest version. For version history of the spoke, see [SAP Commerce Cloud spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-commerce-cloud.html).
 
 ## Spoke actions
 

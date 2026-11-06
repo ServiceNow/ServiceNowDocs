@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-wrap-up.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CCaaS Admin Console, Integrating with contact centers, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [CCaaS Admin Console, Integrating with contact centers, Integrate, Customer Service Management]
 ---
 
 # Import wrap-up codes
@@ -28,7 +28,7 @@ Role required: admin
 
 3.  Either fetch all wrap-up codes or search for specific wrap-up codes from the provider.
 
-4.  Import all of the wrap-up codes or select individual wrap-up codes to import.
+4.  Import all the wrap-up codes or select individual wrap-up codes to import.
 
 5.  Tap **Import selected** to import the wrap-up codes.
 

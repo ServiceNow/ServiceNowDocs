@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -53,11 +53,9 @@ The Healthcare case \[sn\_hcls\_case\] table is an abstract table and is extenda
 -   **[Healthcare code set table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-code-set-table.md)**  
 The Healthcare code set \[sn\_hcls\_code\_set\] table stores the details of code sets available in your ServiceNow instance.
 -   **[Healthcare location table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-table.md)**  
-The Healthcare Location \[sn\_hcls\_location\] table stores details of the location associated with your healthcare organization.
+The Healthcare Location \[sn\_hcls\_location\] table provides the ability to map common locations to Healthcare Organizations.
 -   **[Healthcare organization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-organization-table.md)**  
 The Healthcare organization \[sn\_hcls\_organization\] table stores the details of a healthcare organization in your ServiceNow instance.
--   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-association-table.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-healthcare-location-association-table.md)**  
-
 -   **[Healthcare Task table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-task-table.md)**  
 The Healthcare Task \[sn\_hcls\_task\] table is an abstract table and is extendable that stores the details of the task associated with a healthcare case or a patient in your healthcare organization.
 -   **[Immunization table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-immunization-table.md)**  

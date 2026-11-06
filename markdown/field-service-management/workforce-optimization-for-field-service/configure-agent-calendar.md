@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
 
 # Configuring an agent calendar
@@ -20,7 +20,7 @@ Users with the agent calendar administrator role can perform several calendar co
 
 You can configure the following for an agent calendar:
 
--   [Create an event configuration for an agent calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/create-agent-calendar-event-config.md)
+-   [Create an event configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/create-agent-calendar-event-config.md)
 
     Create configurations for each type of entry displayed on the agent calendar. Entries could include case tasks, work order tasks, appointments, or schedule entries such as event types that you could track and manage on the team calendar.
 

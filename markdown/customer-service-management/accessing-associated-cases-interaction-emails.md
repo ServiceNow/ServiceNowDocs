@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/accessing-associated-cases-interaction-emails.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
-breadcrumb: [Using Email Interaction for Customer Service Management, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Email Interaction for CSM, Customer communication, Use, Customer Service Management]
 ---
 
 # Accessing associated cases and interaction emails
@@ -27,7 +27,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon.
 
 3.  In the Interactions section, select **My Interactions**.
 
@@ -54,7 +54,7 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
 
-2.  Select the List icon \(\[Omitted image "List\_icon.jpg"\] Alt text: List icon\).
+2.  Select the List icon.
 
 3.  From the Cases section, select **My Cases**.
 

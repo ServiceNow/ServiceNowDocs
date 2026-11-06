@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-10-13"
 reading_time_minutes: 4
-breadcrumb: [File-based Discovery, Running discoveries in your network, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [File-based Discovery, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # File-based Discovery references
@@ -26,7 +26,7 @@ Scanning large networks, particularly for Windows computers, can extend scan tim
 
 -   **Scan folders**: You can limit the scope of the scan to particular folders as well as scan hidden folders.
 -   **Scan extensions**: You can retrieve all files for a given list of extensions as well as ignore specific file extensions when scanning.
--   **Scan UNIX file names**: Because the number of unique file names used to identify installed software on UNIX is relatively small, the complete list of file names is included in the UNIX probe. This enables the probe to filter the files it discovers against the signature list on the target. No additional filtering is required until the results are returned to the instance.
+-   **Scan UNIX file names**: The number of unique file names used to identify installed software on UNIX is relatively small. The complete list of file names is included in the UNIX probe, which filters discovered files against the signature list on the target. No additional filtering is required until the results are returned to the instance.
 -   **Scan Windows file names**: For Windows File-based Discovery, the probe does not initiate a scan on target for full signature list. Instead, Discovery generates a list of file extensions that the probe attempts to match on the target. This reduced list is then filtered on the MID Server against the entire Windows signature list.
 -   **Reduced payloads**: By filtering the scan results with the file signature list before the results get to the instance, Discovery reduces the size of the payload from target servers. Only those files from the targets that match the files specified in this list are returned to the instance.
 -   **Scan throttling**: To reduce the impact on Windows CPU and I/O performance on remote targets, Windows File-based Discovery is configured to sleep occasionally during scans. You can fine-tune this behavior with Discovery properties. Throttling Windows scans can make those scans take longer.
@@ -44,7 +44,7 @@ Descriptions of the tables provided by the File-based Discovery \[com.snc.discov
     -   **Publisher**: Name of the publisher of the file, such as Oracle or Microsoft. This is a reference to the Company \[core\_company\] table. This field is populated when SAMP is activated and a match exists.
     -   **Size**: Size of the file.
     -   **Software installation**: Name of the installed software associated with this file, from the Software Installation \[cmdb\_sam\_sw\_install\] table. This field is populated when SAMP is activated and a match exists.
-    -   **Version**: Version of the file. Currently, for Windows only.
+    -   **Version**: Version of the file. Populated for Windows files only.
 -   **Unidentified File Set \[cmdb\_unidentified\_file\_set\]**
 
     This table stores all the files returned by Discovery that cannot be matched to a software product, with or without SAMP. Discovery populates the name, size, and version of each unmatched file in the record. These optional fields can be used to further identify the file and make it available for future file matching:

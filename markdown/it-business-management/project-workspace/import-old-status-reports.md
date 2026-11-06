@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-12"
 reading_time_minutes: 2
-breadcrumb: [Create a status report in Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Import old project status report to Project Workspace
@@ -22,17 +22,15 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Status reports page of the project by selecting Status Reports from the list.
 
 3.  From the Pages section, select **Create status report** and select **Import existing status report**.
 
-    \[Omitted image "import-old-status-reports.png"\] Alt text: Import existing status report.
-
-    By default, the create status report and create new from template options are visible, while the import existing status report option appears only if an old status report exists.
+    By default, the create status report and create new from template options are visible. The import existing status report option appears only when old status reports are linked to the project.
 
 4.  Select **Import** to import old status report to new reporting tool.
 
@@ -44,11 +42,11 @@ Role required: it\_pps\_admin, it\_project\_manager
 **Related topics**  
 
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 
-[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
-[Update the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-status-report-pw.md)
+[Update status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-status-report-project-workspace.md)
 
 [Analyze the status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-status-report-in-project-workspace.md)
 

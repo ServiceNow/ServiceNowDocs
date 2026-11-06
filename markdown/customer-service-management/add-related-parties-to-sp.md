@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-related-parties-to-sp.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using customer access management, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using customer access management, Customer management, Use, Customer Service Management]
 ---
 
 # Adding related parties to a sold product
 
 Add related parties to a sold product to help provide the access level to the related parties, such as contacts, consumers, or accounts.
 
-For example, products purchased by a customer can have multiple departments tracking the product, like the finance team tracking the renewals of the product or the operations team tracking the maintenance of the product.
+For example, products purchased by a customer can be tracked by multiple departments, such as the finance team monitoring renewals and the operations team overseeing maintenance.
 
 With Customer access management, you can add multiple related parties and provide them with varying levels of access to the sold product. While adding related parties, you can select the related party type and responsibility.
 

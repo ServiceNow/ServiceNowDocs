@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rollup example use case implementation for a Security Case, Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,13 +26,13 @@ Role required: admin
 
 2.  Run the Filter option to filter out the list by **Application**: Major Security Incident Management and **Table**: sn\_si\_incident.
 
-    \[Omitted image "ui-actions-step3.png"\] Alt text: UI Actions for linking reocrds
+    \[Omitted image "ui-actions-step3.png"\] Alt text: UI Actions for linking records
 
 3.  Select each UI action one by one and save the details for the source table.
 
     \[Omitted image "ui-action-change-source-table-step3.png"\] Alt text: Change source table
 
-4.  Repeat the same steps as above for the following UI actions:
+4.  Repeat the steps for the following UI actions:
 
     -   Link to Major Security incident
     -   Proposed Major Security Incident

@@ -7,9 +7,9 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Issue Page Configuration module, Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Create a new Issue Page Configuration record
@@ -150,5 +150,5 @@ Filter condition that you can configure and display the matching records.
 
 A new Issue Page Configuration record is created.
 
-**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
+**Parent Topic:**[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)
 

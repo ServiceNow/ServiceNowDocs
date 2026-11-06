@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-revisions-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create quote versions
@@ -24,15 +24,17 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
 2.  Select **Quotes****All**.
 
 3.  Select the quote that you’re working with.
 
-4.  Select the **Revisions** tab.\[Omitted image "l2c-quote-revisions-2.png"\] Alt text: Image shows the quote form with the Details tab open which allows agents to fill in details for a quote.
+4.  Select the **Revisions** tab.
 
-5.  Select the **More Actions**\[Omitted image "more-options.png"\] Alt text: More options icon. icon and select **Create new version**.
+    \[Omitted image "l2c-quote-revisions-2.png"\] Alt text: Image shows the quote form with the Details tab open which allows agents to fill in details for a quote.
+
+5.  Select the More Actions icon \[Omitted image "more-options.png"\] Alt text: and select **Create new version**.
 
     A new version of the quote is created. Select the quote in the message to open the new version. The **Active** option, if selected indicates the **Active** version of the quote. Use the Revisions tab to view a list of all the current quote versions. Version numbers are sequential.
 
@@ -44,4 +46,6 @@ The Revisions tab shows all the versions of a quote. Version numbers are sequent
 ## What to do next
 
 Use the Customer Order tab to start an order from the Quote. See [Convert quotes into orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-customer-orders-tab.md) for more information.
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

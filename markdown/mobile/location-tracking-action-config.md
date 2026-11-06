@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/location-tracking-action-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enabling and selecting location tracking options, Location tracking for mobile, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Enabling/selecting options, Location tracking in the Now Mobile Agent app, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configuring action-based location tracking
@@ -43,15 +43,15 @@ Role required: admin
 
 5.  In the **Location tracking action** field, select one of the following options of the action item.
 
-<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d120287e148">
+<table id="choicetable_tqp_sb1_fwb"><thead><tr><th align="left" id="d131215e154">
 
 Location tracking action
 
-</th><th align="left" id="d120287e151">
+</th><th align="left" id="d131215e157">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d120287e157">
+</th></tr></thead><tbody><tr><td id="d131215e163">
 
 **None**
 
@@ -59,7 +59,7 @@ Description
 
 This option does not affect any location tracking functionality.
 
-</td></tr><tr><td id="d120287e166">
+</td></tr><tr><td id="d131215e172">
 
 **Stop**
 
@@ -67,7 +67,7 @@ This option does not affect any location tracking functionality.
 
 Ends a location tracking session.
 
-</td></tr><tr><td id="d120287e175">
+</td></tr><tr><td id="d131215e181">
 
 **Start**
 

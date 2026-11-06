@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/grc-ced-risk-compliance-db-reports.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Risk and compliance dashboard for GRC: Metrics, Cybersecurity Executive Dashboard, Security Operations]
 ---

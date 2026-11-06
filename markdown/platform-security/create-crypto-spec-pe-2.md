@@ -1,16 +1,16 @@
 ---
-title: Create a cryptographic specification for Column Level Encryption Enterprise
+title: Create a cryptographic specification for Column Level Encryption
 description: After you create a cryptographic module, access the corresponding cryptographic specification to define the algorithm.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/create-crypto-spec-pe-2.html
 release: yokohama
 topic_type: task
-last_updated: "2026-01-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Column Level Encryption, Column Level Encryption, Encryption]
 ---
 
-# Create a cryptographic specification for Column Level Encryption Enterprise
+# Create a cryptographic specification for Column Level Encryption
 
 After you create a cryptographic module, access the corresponding cryptographic specification to define the algorithm.
 
@@ -24,11 +24,9 @@ This procedure describes options that are available with Column Level Encryption
 
 A cryptographic specification will be created by the system when you create a cryptographic module for Column Level Encryption Enterprise.
 
-.
-
 ## Procedure
 
-1.  Navigate to **System Security** &gt; **Column Level Encryption Modules** &gt; **All**.
+1.  Navigate to **System Security** &gt; **Field Encryption Modules** &gt; **All**.
 
 2.  Select the cryptographic module to open the configuration options.
 
@@ -36,7 +34,7 @@ A cryptographic specification will be created by the system when you create a cr
 
 3.  Select the crypto specification from the table to open the Algorithm Definition.
 
-    For Column Level Encryption Enterprise see [Configure advanced algorithms for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/adv-algorithm-cleent.md).
+    For Column Level Encryption Enterprise see [Configure advanced algorithms for Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/adv-algorithm-cleent-2.md).
 
 4.  Click **Next** to access the Key Lifecycle.
 

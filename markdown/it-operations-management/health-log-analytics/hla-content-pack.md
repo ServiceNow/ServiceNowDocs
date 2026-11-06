@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Platform Analytics Solutions for Health Log Analytics
@@ -27,13 +27,8 @@ The following roles and tasks are associated with this solution:
 Activate the content pack ServiceNow Store application for the Platform Analytics Solution.
 -   **[Configure the Platform Analytics Solution for Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-config.md)**  
 Run diagnostics, review and customize components, and start collecting data.
--   **[Health Log Analytics Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-overview-dashboard.md)**  
-The Health Log Analytics Overview dashboard uses Performance Analytics to provide a trend of historical data as well as regular reports.
+-   **[Health Log Analytics Operational dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-overview-dashboard.md)**  
+The Health Log Analytics Operational dashboard uses Performance Analytics to monitor log data, alerts, and error rates in Service Operations Workspace.
 
 **Parent Topic:**[Analytics and Reporting in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-analytics-reporting.md)
-
-**Related topics**  
-
-
-[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

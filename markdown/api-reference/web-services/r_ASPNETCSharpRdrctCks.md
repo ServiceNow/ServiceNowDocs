@@ -1,20 +1,20 @@
 ---
 title: Sample ASP.NET with C Sharp redirect with cookies
-description: This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
+description: This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/web-services/r\_ASPNETCSharpRdrctCks.html
 release: yokohama
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inbound web service examples, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Examples, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Sample ASP.NET with C Sharp redirect with cookies
 
-This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
+This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
 
 **Note:** Functionality described here requires the **Admin** role.
 
@@ -22,7 +22,7 @@ This sample ASP .NET code creates a simple authentication portal and passes an u
 
 This sample assumes:
 
--   The web server supports ASP .NET and C\#
+-   The web server supports ASP.NET and C\#
 -   The target ServiceNow instance is `https://<instance name>.service-now.com/`
 -   SiteMinder or another single sign-on application has pre-authenticated the user
 -   The target ServiceNow instance expects an HTTP header of SM\_USER

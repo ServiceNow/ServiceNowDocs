@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/export-pricing-entities.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exporting and importing pricing entities, Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Exporting and importing pricing entities, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export pricing entities
@@ -22,7 +22,7 @@ Role required: sn\_csm\_pricing\_pricelist\_administrator
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 

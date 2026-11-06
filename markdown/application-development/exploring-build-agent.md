@@ -1,47 +1,108 @@
 ---
 title: Exploring Build Agent
-description: The Build Agent enables developers to create, edit, and deploy full-stack ServiceNow applications that encompass both user interface and back-end components.
+description: Build Agent enables developers to create, edit, and deploy full-stack ServiceNow applications to update sets that encompass both user interface and back-end components.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/exploring-build-agent.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-13"
-reading_time_minutes: 2
-keywords: [explore]
-breadcrumb: [Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
+last_updated: "2026-10-20"
+reading_time_minutes: 10
+keywords: [AI agent, application development, natural language, full-stack applications, conversational interface, autonomous AI, code generation, ServiceNow Otto, AI Agents, generative AI, agentic AI]
+audience: developer
+breadcrumb: [Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Exploring Build Agent
 
-The Build Agent enables developers to create, edit, and deploy full-stack ServiceNow® applications that encompass both user interface and back-end components.
+Build Agent enables developers to create, edit, and deploy full-stack ServiceNow® applications to update sets that encompass both user interface and back-end components.
+
+ServiceNow Otto is the new AI experience brand. This change is reflected in the name of ServiceNow products, including Build Agent. Your product entitlements remain unchanged. Check your entitlements to determine your access to specific features.
 
 ## Build Agent overview
 
-The Build Agent is an AI tool designed for developers within the ServiceNow Integrated Development Environment \(ServiceNow IDE\). It functions as an autonomous AI agent capable of independently generating a complete ServiceNow® scoped application.
+Build Agent is an AI tool designed for developers within ServiceNow Studio and the ServiceNow Integrated Development Environment \(ServiceNow IDE\). Build Agent acts as an autonomous AI agent capable of independently generating a complete ServiceNow® scoped or global application. For example, a global scope app that uses tables such as incident, problem, and change.
 
-As a chat panel within the ServiceNow IDE, you can interact with the Build Agent through an easy-to-use multi-turn conversation interface.
+## Migrating to Build Agent from App Engine Studio
 
-You can simply describe your desired application in your natural language, and the agent can automatically create it. It is designed to generate the necessary code, organize files clearly, and manage both the core logic and user interface components of the application.
+If you currently build applications in App Engine Studio \(AES\), you can migrate to Build Agent when your development needs grow beyond what AES supports. For example, when you need custom scripting, global scope applications, or the ability to modify base system applications. Existing app artifacts like tables, flows, workspaces, and ACLs are already accessible in ServiceNow Studio, so migration is primarily a workflow adjustment rather than a conversion process. For more information, see [Migrating to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-migrating-to-build-agent.md).
 
-The Build Agent can understand natural language prompts, autonomously generate full-stack applications, oversee the entire build process, and respond to feedback.
+## Conversational interface
 
-You can also attach images, such as architectural diagrams or UI wireframes, to provide context for prompts in the Build Agent. This method enables you to convey the application design and functionality more effectively.
+Using the chat panel within ServiceNow Studio or the ServiceNow IDE, you can interact with Build Agent through an easy-to-use multi-turn conversation interface. You can also ask it general questions about developing on the ServiceNow AI Platform.
 
-While creating and updating applications is the primary use case for the Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
+All you have to do is describe an application in natural language, and the agent can then automatically create it. Build Agent generates the necessary code, organizes files clearly, and manages both the core logic and user interface components of the application.
 
-**Important:** Build Agent only creates metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-fluent.md).
+Build Agent can understand natural language prompts, autonomously generate full-stack applications, oversee the entire build process, respond to feedback, deploy applications to update sets, and more.
+
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
+## Where to use Build Agent
+
+You can use Build Agent in ServiceNow Studio, including the ServiceNow IDE. For detailed instructions on using Build Agent in ServiceNow Studio, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/access-build-agent.md) and [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+
+You can also use Build Agent in Developer Sandboxes, which provides a controlled baseline configuration for isolated, parallel development. For more information, see [Exploring Developer Sandboxes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/developer-sandboxes/exploring-sandboxes.md).
+
+## Providing context with file uploads
+
+You can upload supported file types, such as images, code, and documents, to provide more context about application design and functionality. For more information, see [Supported file types for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-supported-file-types.md).
+
+## Extended capabilities
+
+While creating and updating applications is the primary use case for Build Agent, its capabilities extend beyond that. It can perform various code-related tasks, such as rewriting tables, explaining code, validating and enhancing existing applications, fixing application errors, and more. For instance, Build Agent can use the Run Query tool to query a specific table within your instance and return the top five records or derive specific insights.
+
+Build Agent is aware of your instance and its data model, so it can analyze existing applications, including custom scoped applications. For more information, see [Build Agent use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/additional-build-agent-use-cases.md).
+
+To use Build Agent as part of an end-to-end development practice that includes Git, the ServiceNow SDK, ReleaseOps, and CI/CD pipelines, see the [SDLC on ServiceNow guide](https://servicenow.github.io/sdk/guides/sdlc-guide) in the ServiceNow SDK documentation.
+
+## Autonomous Engineer
+
+For large or complex implementations, you can use Autonomous Engineer to go from requirements to a working implementation without building each artifact manually. Autonomous Engineer conducts an interview, generates a plan with work items, and builds all work items in parallel in the background. For more information, see [Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/autonomous-engineer.md).
+
+## Playbook Designer support
+
+You can use Build Agent to author Playbook Designer artifacts, including runtime permissions, activity definitions, and Agentic activity field configuration. Playbook records are consolidated into a single XML update set file for consistent deployment across instances. For more information, see [Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md).
+
+## ServiceNow Fluent and modern web frameworks
+
+Build Agent generates code in ServiceNow Fluent, the domain-specific language for developing on the ServiceNow AI Platform. Build Agent can also incorporate modern web frameworks, such as React, when building custom user experiences.
+
+**Important:** Build Agent and Autonomous Engineer only create metadata supported by ServiceNow® Fluent. For more information, see [ServiceNow Fluent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-fluent.md). For the latest API reference, see [https://servicenow.github.io/sdk/](https://servicenow.github.io/sdk/)
 
 ## Build Agent \(Trial\) app overview
 
-The Build Agent is also available as a trial app that operates on a freemium model. To install the Build Agent \(Trial\) app, visit the [ServiceNow Store](https://www.servicenow.com/products/vibe-coding.html#benefits).
+Build Agent is available as a trial app on a freemium model, and is automatically installed on all instances.
 
-After you install the Build Agent \(Trial\) app, your instance will receive 25 free user interactions for 30 days at no additional charge. This enables you to explore the Build Agent features at no additional cost.
+After you install the Build Agent \(Trial\) app, your instance receives 100 free user interactions for 30 days at no additional charge. The free interactions enable you to explore Build Agent features at no additional cost.
 
-However, if you exceed the limit of free interactions, you can either wait for your free interactions to reset after 30 days or install the paid Build Agent app on your instance to continue using its services. For more information on how to install Build Agent, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/install-build-agent.md).
+If you exceed the free interaction limit, you must wait 30 days for a reset, or install the paid version of Build Agent.
 
-## Planning tool overview
+## Automatic upgrades
 
-The Build Agent includes a planning tool that creates a detailed, step-by-step plan for your application development. You can refine the plan iteratively by prompting for changes and providing feedback until you reach a final version. The tool emphasizes user control, enabling you to use prompts to request changes to the plan. Overall, it facilitates collaborative planning before proceeding with implementation.
+Qualifying instances receive automatic upgrades when a new version of Build Agent is published to the ServiceNow Store. For more information, see [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/install-build-agent.md).
+
+## Localization and Build Agent
+
+Build Agent incorporates the ServiceNow AI Platform localization, so you can use it in any supported language. For more information, see [Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/localization-framework-landing.md).
+
+## How prompts are counted
+
+Prompts are counted each time you submit a message to Build Agent. If Build Agent asks a clarifying question and you respond, that response counts as a prompt. Approving a plan that Build Agent presents does not count as a prompt. To get the most value from each prompt, draft your message in a text editor before you submit it.
+
+For more information on prompting, see [Example prompts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-example-prompts.md).
+
+## What apps are in ServiceNow
+
+A ServiceNow app is a package that performs a specific task for a specified group of users. Think of an app as a container with a set of rules around who can access and edit it. For example, ServiceNow apps can include an API, a table, a workspace, a form, a flow, or any combination of those things.
+
+## Enhance applications with agentic experiences
+
+You can enhance your applications with agentic experiences by using Build Agent.
+
+Build Agent enables you to create agentic workflows, agents, and skills for your custom applications. Additionally, Build Agent recommends in-app agents tailored to specific use cases.
+
+For more information, see [Create agentic workflows, agents, and skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/create-custom-ai-agent.md).
 
 ## Build Agent benefits
 
@@ -56,6 +117,37 @@ Build Agent accelerates application development on the ServiceNow AI Platform. I
 
 To learn more about configuring and using Build Agent, see:
 
--   [Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/install-build-agent.md)
+-   [Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/configure-build-agent.md)
 -   [Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/use-build-agent.md)
+-   [Build Agent reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-reference-landing.md)
+-   [Support for regulated markets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-limitations.md)
+
+To learn more about prompting, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
+
+-   **[Build Agent use cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/additional-build-agent-use-cases.md)**  
+Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
+-   **[Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-autonomous-engineer.md)**  
+Autonomous Engineer is an agentic worker that augments product development capacity across the SDLC. It intakes requirements, applies platform best practices through agent packs, and generates an implementation plan before building work items in parallel through Build Agent.
+-   **[Build Agent workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-workflow.md)**  
+The Build Agent workflow automates building applications, testing, and deploying update sets on the ServiceNow AI Platform. Build Agent streamlines development by handling code compilation, quality checks, and deployment steps without manual intervention.
+-   **[Build Agent and Autonomous Engineer chat panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-chat-panel.md)**  
+The Build Agent chat panel is where you interact with the AI agent during development. Use it to submit requests, review responses, and apply generated code.
+-   **[Supported models and versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-models-versions.md)**  
+Learn which AI models and versions Build Agent supports and how to change them. Use this information to verify compatibility and select the right model for your task.
+-   **[Tutorial for Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-tutorial.md)**  
+Learn to develop reusable server-side logic and build a ServiceNow® application in Build Agent, from data modeling through testing, using agentic development.
+-   **[General guidelines for Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-general-guidelines.md)**  
+Use these guidelines to get the most out of Build Agent in your development workflow.
+-   **[Build Agent tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-tools.md)**  
+Build Agent tools support application development tasks such as semantic search, schema inspection, code search, planning, UI validation, database querying, app navigation, and script execution. Each tool extends what Build Agent can do during a build session.
+-   **[Playbook authoring with Build Agent and Autonomous Engineer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-playbooks.md)**  
+Use Build Agent and Autonomous Engineer to author and manage Playbook Designer artifacts through a conversation. You can generate playbook structures, configure activities, set runtime permissions, and define launcher configurations without manually navigating the Playbook Designer UI.
+-   **[MCP connections and Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/accelerate-design-to-development-with-figma-mcp-server.md)**  
+MCP connections enable Build Agent to access external tools and resources through standardized communication. Use these connections to integrate third-party applications like Figma for accelerated design-to-development workflows.
+-   **[Build Agent governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-governance.md)**  
+Governance controls in Build Agent help with code quality, security, and compliance when generating applications. The Build Agent automated safeguards prevent common development issues and enforce organizational standards.
+-   **[Build Agent limitations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-limitations.md)**  
+Plan deployments and troubleshoot issues by learning about Build Agent constraints that affect deployment capabilities and performance.
+
+**Parent Topic:**[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent.md)
 

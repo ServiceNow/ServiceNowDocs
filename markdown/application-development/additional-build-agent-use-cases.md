@@ -1,34 +1,211 @@
 ---
-title: Additional Build Agent use cases
-description: Along with creating and enhancing applications, Build Agent can be used to generate documents, facilitate brainstorming sessions, and as a resource for learning ServiceNow applications.
+title: Build Agent use cases
+description: Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/additional-build-agent-use-cases.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Use, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Additional Build Agent use cases
+# Build Agent use cases
 
-Along with creating and enhancing applications, Build Agent can be used to generate documents, facilitate brainstorming sessions, and as a resource for learning ServiceNow applications.
+Use Build Agent for a wide range of development scenarios beyond application creation, including app analysis, modernization, documentation, governance, and learning assistance.
 
 ## Documentation creation
 
-You can prompt the Build Agent to create customized knowledge base articles, making it easier for users to access information and learn the application.
+Use Build Agent to create customized knowledge articles, so users can access information and learn the application more easily.
 
-Furthermore, Build Agent can automate the creation of readme files for source code repositories, providing clear and structured documentation that outlines installation procedures, usage guidelines, and example snippets. This streamlines the onboarding process for new developers.
+Build Agent can automate the creation of readme files for source code repositories. Generated readme files provide clear, structured documentation that outlines installation procedures, usage guidelines, and example snippets, which reduces onboarding time for new developers.
 
 ## Learning assistance
 
-Developers can use the Build Agent as a resource for learning ServiceNow application development practices. You can inquire about a wide range of topics, including development techniques, available APIs, and the overall functionality of the ServiceNow platform.
+Use Build Agent as a resource for learning ServiceNow application development practices. You can ask about many topics, including development techniques, available APIs, and the overall functionality of the ServiceNow AI Platform.
 
-The Build Agent is designed for supporting continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts. This approach makes it easier for developers to grasp and apply best practices in their work.
+Build Agent supports continuous learning by summarizing relevant documentation, highlighting key points, and providing concrete examples that illustrate complex concepts. These examples help developers apply general guidelines in their work.
+
+For guidance on structuring a complete development lifecycle with Build Agent, including source control, testing, and release management, see the [SDLC on ServiceNow guide](https://servicenow.github.io/sdk/guides/sdlc-guide) in the ServiceNow SDK documentation.
 
 ## Brainstorming sessions
 
-The Build Agent facilitates brainstorming sessions to refine application development ideas. During these sessions, it records detailed requirements, which support a structured process for developing application features in future meetings. This approach documents all ideas and enables the team to reference previous discussions and integrate feedback during the development life-cycle.
+Use Build Agent to refine application development ideas and capture structured requirements for later build steps during brainstorming sessions. Requirements are captured during these sessions, supporting a structured process for developing application features. Ideas are documented so your team can revisit previous discussions and integrate feedback during the development lifecycle.
 
-**Parent Topic:**[Use Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/use-build-agent.md)
+## Additional use cases
+
+Use the following scenarios to identify specific ways to apply Build Agent in your development workflow.
+
+-   **Specification-driven implementation with Autonomous Engineer**
+
+    Provide requirements as a prompt or a file upload. Build Agent interviews you to resolve ambiguity, queries your instance for existing artifacts, and generates a plan with work items in an Agile user story format. After you approve the plan, Build Agent builds all work items in parallel in the background, generates and runs Automated Test Framework \(ATF\) tests, and produces an update set on completion. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-autonomous-engineer.md).
+
+-   **Playbook authoring**
+
+    Use Build Agent to author Playbook Designer artifacts through a conversation. You can have Build Agent do the following for playbooks that it generates:
+
+    -   Generate runtime permissions at the playbook and stage levels
+    -   Define on-demand launcher configurations
+    -   Create optional activities scoped globally or to a specific stage
+    -   Configure Set Playbook Outputs activity definitions for nested playbooks
+    -   Set Agentic activity fields on form-based and record-based activities
+    For details on using playbooks with Build Agent, see [Supported metadata in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-supported-metadata.md). For more information on using playbooks, see [Exploring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md).
+
+-   **App gap analysis**
+
+    Summarize an existing app, identify gaps in coverage, and propose targeted enhancements. For example, Build Agent identifies tables without ACLs, business rules with no test coverage, and manual steps that could be automated with flows.
+
+-   **Existing app analysis and process improvement**
+
+    Analyze an existing custom scoped application, including one built on custom tables, to identify the business processes that it supports. Build Agent uses its awareness of your instance and data model to describe how the application’s tables, business rules, and flows work together. Build Agent can also propose process improvements and provides technical guidance for implementing them. This analysis is useful for applications that have limited documentation, such as applications built by teams that are no longer available. AI-generated results might not be accurate in all cases, so review the results before you act on them.
+
+-   **Security posture review**
+
+    Open an existing app and audit its ACLs, roles, and data filters. Build Agent identifies gaps such as tables with no ACLs, overly permissive rules, and missing role hierarchy, then generates fixes.
+
+-   **Test coverage bootstrapping**
+
+    Analyze an app's metadata, identify what has zero test coverage, generate Automated Test Framework \(ATF\) tests for the gaps, run them, and triage failures.
+
+-   **Architecture diagrams**
+
+    Generate Mermaid.js diagrams by querying and collating data from the platform.
+
+-   **Common workflow patterns**
+
+    Describe a common business process, such as intake and approval, escalation routing, or SLA monitoring with dashboards. Build Agent then scaffolds the full workflow, including tables, flows, catalog items, notifications, and reporting.
+
+-   **Migration acceleration**
+
+    Provide your source system's table definitions, business logic, or data model pasted as SQL, text, CSV, or screenshots. Build Agent then recreates the equivalent tables, fields, relationships, and automation on the ServiceNow AI Platform.
+
+-   **App modernization**
+
+    Analyze legacy customizations such as classic workflows, Jelly UI, and script-heavy logic, then rebuild them using modern patterns: flows instead of workflows, React UI pages instead of Jelly, and structured security instead of script-based checks.
+
+-   **Data-model scaffolding**
+
+    Paste a CSV file, drop a spreadsheet screenshot into the chat, or describe your data model in plain text. Build Agent generates the matching ServiceNow tables, columns, and relationships. For Excel or PDF input, convert to CSV or paste a screenshot first.
+
+-   **Cross-scope workflows**
+
+    Build custom apps that write to global tables such as Incident. For example, auto-generate incidents when assets become overdue.
+
+-   **Build from user stories**
+
+    Point Build Agent at a user story from the rm\_story \[rm\_story\] table or paste one from another tool. The acceptance criteria drive development, creating the tables, logic, and tests that satisfy each criterion.
+
+    **Note:** Querying the rm\_story \[rm\_story\] table directly requires the Agile Development 2.0 plugin.
+
+-   **SQL to table**
+
+    Paste a SQL `CREATE TABLE` definition into the chat and Build Agent translates it into a ServiceNow table with matching column types and relationships.
+
+-   **Post-build summaries**
+
+    Generate release notes and summary documents after the build foundation is complete.
+
+-   **Instance governance setup**
+
+    Create instance scan checks that enforce your organization's standards, including naming conventions, security requirements, and code quality. Checks run as part of your existing instance scan infrastructure.
+
+
+## Use cases by development goal
+
+Use the following table to identify Build Agent use cases based on your development stage and goal.
+
+<table id="table_use-case-matrix"><thead><tr><th>
+
+Use case
+
+</th><th>
+
+Immediate productivity
+
+</th><th>
+
+Process and quality improvement
+
+</th><th>
+
+Strategic transformation
+
+</th></tr></thead><tbody><tr><td>
+
+Explore \(zero risk, read-only\)
+
+</td><td>
+
+-   Explain any concept, API, or metadata type in plain language
+-   Look up how a specific business rule, flow, or ACL works
+
+</td><td>
+
+-   Document an existing app end-to-end: architecture, security model, and data flows
+-   Generate Mermaid diagrams of table relationships and integration points
+
+</td><td>
+
+-   Run existing Automated Test Framework \(ATF\) tests and triage failures to assess application health before a release
+-   Audit security posture: review ACLs, identify missing role controls, and surface compliance gaps
+
+</td></tr><tr><td>
+
+Enhance \(modifications, reviewable before promotion\)
+
+</td><td>
+
+-   Add a field, client script, or UI policy to a form
+-   Add a catalog variable or update a record producer
+
+</td><td>
+
+-   Add email notifications, scheduled jobs, and flows to automate a manual process
+-   Build a scripted REST API for an external integration
+
+</td><td>
+
+-   Generate ATF test suites for untested apps, then run and triage them to establish a quality baseline
+-   Add instance scan checks to enforce governance standards across the platform
+
+</td></tr><tr><td>
+
+Implement \(specification-driven, parallel execution\)
+
+</td><td>
+
+Provide requirements as a prompt or file and let Autonomous Engineer generate and build a full plan
+
+</td><td>
+
+-   Review, edit, and approve work items before execution to align the plan with your standards
+-   Use agent packs to implement custom applications on your instance.
+
+</td><td>
+
+-   Compress multi-month implementation timelines to hours by executing all work items in parallel with automated ATF test generation and self-healing
+-   Export the completed update set and deploy to UAT or production
+
+</td></tr><tr><td>
+
+Build \(new development on non-production\)
+
+</td><td>
+
+-   Prototype an app from a one-line description
+-   Create a catalog item with variables and a fulfillment flow
+
+</td><td>
+
+-   Build a full app with tables, roles, ACLs, business rules, flows, catalog items, and a UI page
+-   Build a Service Portal or workspace for self-service
+
+</td><td>
+
+-   Build AI agents and ServiceNow Otto skills to bring intelligent automation into your processes
+-   Build from design mockups or a detailed PRD, complete with automated test coverage from day one
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Create spoke and build actions using the spoke generation skill in Now Assist
+title: Create spoke and build actions using the spoke generation skill in ServiceNow Otto
 description: Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/create-spk-now-spk-gen.html
@@ -7,37 +7,41 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-02-11"
-reading_time_minutes: 4
-breadcrumb: [Use Now Assist to create spokes and build actions, Building spokes using Spoke Generator, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use ServiceNow Otto to create spokes and build actions, Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
-# Create spoke and build actions using the spoke generation skill in Now Assist
+# Create spoke and build actions using the spoke generation skill in ServiceNow Otto
 
 Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
 
 ## Before you begin
 
-Role required: admin.
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+
+-   Role required: admin
+-   Create the required action categories for your integration in the Action Category \[sys\_hub\_category\] table.
+-   Confirm that ServiceNow Integration Hub Professional Pack Installer \(com.glide.hub.integrations.professional\) is installed and the license is entitled.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Click **Create new** &gt; **Spoke**.
+2.  Click **New** &gt; **Spoke**.
 
 3.  On the Spoke Info screen, specify if you want to create the spoke in a new scope or an existing scope.
 
     1.  If you choose to create the spoke in a new scope, select an image as the logo for your integration and fill in the fields.
 
-        Here, we will go through an integration with 360Learning as an example.
+        Here, we will go through an integration with LearnOrbit as an example.
 
         |Field|Description|
         |-----|-----------|
         |Spoke name|Name to identify the custom spoke.|
         |Description|Description about the custom spoke.|
 
-        \[Omitted image "now-assist-spk-gen.png"\] Alt text: Create a spoke in a new scope.
+        \[Omitted image "build-spoke-now-assist.png"\] Alt text: Spoke generator window.
 
         **Note:**
 
@@ -47,68 +51,41 @@ Role required: admin.
 
     2.  If you choose to create the spoke in an existing scope, select an image as the logo for your integration and fill in the fields.
 
-        Here, we will go through an integration with 360Learning as an example.
+        Here, we will go through an integration with LearnOrbit as an example.
 
-<table id="table_tz2_hs3_ccc"><thead><tr><th>
+        |Field|Description|
+        |-----|-----------|
+        |Application name|An existing application name or scope.|
+        |App scope name|Scope name that is auto-populated based in the selected **Application name**.|
+        |Description|Description about the custom spoke.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Application name
-
-</td><td>
-
-An existing application name or scope.\[Omitted image "spk-gen-existing-app-name.png"\] Alt text: Select an existing application.
-
-</td></tr><tr><td>
-
-App scope name
-
-</td><td>
-
-Scope name that is auto-populated based in the selected **Application name**.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Description about the custom spoke.
-
-</td></tr></tbody>
-</table>4.  Click **Continue**.
+4.  Click **Continue**.
 
 5.  On the Build Info screen, select the method using which you want to build your spoke.
 
-6.  Select **Now Assist** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
+6.  Select **With AI** and click **Continue** to generate reusable actions by providing the required third-party API documentation snippet.
 
-    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using Now Assist.
+    \[Omitted image "now-assist-spk-gen2.png"\] Alt text: Create spoke using AI.
 
-7.  On the Generate action screen, paste the required content from the 360Learning API documentation in **Now Assist Context**.
+7.  On the Generate action screen, paste the required content from the API documentation in **AI Context**.
 
-    In this example, we will copy the documentation related to the createGroup action and paste it in **Now Assist Context**.
+    In this example, we will copy the documentation related to the enrollUser action and paste it in **AI Context**.
 
     **Note:** Ensure that you paste the documentation related to only one action at a time.
 
-    \[Omitted image "now-assist-spk-gen-context.png"\] Alt text: Provide content in Now Assist Context.
+    \[Omitted image "build-spoke-action-api-docs.png"\] Alt text: Create spoke action window.
 
-8.  Click **Generate Preview**.
+8.  Click **Generate preview**.
 
     The action preview is generated. Details of the action properties, inputs, outputs, and steps are displayed.
 
-    \[Omitted image "now-assist-spk-gen-preview.png"\] Alt text: Preview of the provided context.
+    \[Omitted image "build-action-outcome-preview.png"\] Alt text: Action generation outcome preview.
 
-9.  If you want to modify the generated action, modify the provided content in **Now Assist Context** accordingly and click **Regenerate preview**.
+9.  If you want to modify the generated action, modify the provided content in **AI Context** accordingly and click **Regenerate preview**.
 
-    If there are any missing fields in the content provided for **Now Assist Context**, an error message is displayed.
+    If there are any missing fields in the content provided for **AI Context**, an error message is displayed.
 
-    \[Omitted image "now-assist-spk-gen-error.png"\] Alt text: Missing fields in generated action.
+    \[Omitted image "build-spoke-action-error.png"\] Alt text: Action generation error sample.
 
 10. Click **Continue**.
 
@@ -121,7 +98,7 @@ Description about the custom spoke.
     |Connection &amp; Credential name|Name to identify the connection and credential alias record.|
     |Configuration Template for authentication|Required authentication mechanism for this integration. Ensure that the authentication mechanism is compatible with the third-party application.|
 
-    \[Omitted image "now-assist-pk-gen-conn.png"\] Alt text: Create connection and credential alias record for the spoke.
+    \[Omitted image "build-spoke-alias.png"\] Alt text: Connection and credential alias window.
 
 13. Click **Create alias and continue**.
 
@@ -141,19 +118,7 @@ Description about the custom spoke.
 
     The connection alias record is created.
 
-16. On the Select connection and category screen:
-
-    -   For a new spoke, leave the category empty. You can update the action properties later on, if needed.
-
-        \[Omitted image "now-assist-spk-gen-upt-prop.png"\] Alt text: Select Category for an existing spoke.
-
-    -   For an existing spoke, assign an existing category.
-
-        If a category is unavailable, create the required action category for your integration in the Action Category \[sys\_hub\_category\] table. You must ensure that the category is created in the same **Application scope** as that of the spoke.
-
-        \[Omitted image "now-assist-spk-gen-scope.png"\] Alt text: Select the same Application scope as that of the spoke.
-
-        \[Omitted image "now-assist-spk-gen-category.png"\] Alt text: Action category record for your integration in the Action Category \[sys\_hub\_category\] table.
+16. On the Select connection and category, select the required action category.
 
 17. Click **Publish**.
 
@@ -163,6 +128,4 @@ Description about the custom spoke.
 
     If you have saved action as a draft, you can access these draft actions in the spoke details page under **Actions** &gt; **Draft**.
 
-
-**Parent Topic:**[Use Now Assist to create spokes and build actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/now-assist-in-spk-gen.md)
 

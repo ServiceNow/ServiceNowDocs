@@ -7,9 +7,9 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Portfolio Management reference, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Related lists added for financials
@@ -18,20 +18,16 @@ PPM Standard adds several related lists to both the Project and Portfolio forms.
 
 ## Portfolio related lists
 
-\[Omitted image "project\_relatedlists\_portfolio.png"\] Alt text: Portfolio related lists for financials
-
 This table explains the related lists and how to create or use the records in these lists in the portfolio workbench.
 
 |Portfolio form related lists|Description|
 |----------------------------|-----------|
 |Cost Plans|Lists the cost plans of projects and demands that are part of the portfolio.|
 |Monetary Benefit Plans|Lists the financial benefit plans of projects and demands that are part of the portfolio.|
-|Portfolio Target|Lists the portfolio capital and operational expense target for different fiscal years. The values are displayed from the project\_funding table. Set these values in the Set Target stage of the portfolio workbench. You can create targets for different financial periods.|
-|Planning &amp; Budgeting|[Starting a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProject.md)|
+|Portfolio Target|Lists the portfolio capital and operational expense target for different fiscal years. The values are displayed from the project\_funding table. You can create targets for different financial periods.|
+|Planning &amp; Budgeting|Planning &amp; Budgeting of the project. For more information, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md).|
 
 ## Project related lists for financials
-
-\[Omitted image "project\_relatedlists.png"\] Alt text: Project related lists
 
 This table explains the related lists for financials in a project record.
 
@@ -39,6 +35,7 @@ This table explains the related lists for financials in a project record.
 |--------------------------|-----------|
 |Cost Plans|Costs of the project for a specific fiscal period. Cost plans can also have an associated expense line.|
 |Monetary Benefit Plans|Potential financial benefits which can be accrued by the project spanning one or more fiscal periods, if the project is executed.|
+|Project Budget|Budget of the project. For more information, see [Project form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-project-form.md).|
 |Expense Lines|Aggregated actual costs associated with a specific source, such as a user, fixed asset, or a CI.|
 
 **Parent Topic:**[Project Portfolio Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/ppm-collaboration/project-portfolio-management-reference.md)

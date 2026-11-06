@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/upgrade-tools.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prepare your upgrade, Yokohama release notes]
+breadcrumb: [Prepare your upgrade, Brazil release notes]
 ---
 
 # Upgrade tools and resources
@@ -23,8 +23,6 @@ Use these ServiceNow products to automate parts of your upgrade testing and mana
     The Automated Test Framework \(ATF\) enables you to create and run automated tests to confirm that your instance works after making a change. For example, after an upgrade, during application development, or when deploying instance configurations with update sets. Review failed test results to identify the changes that caused the failure and the changes that you should review.
 
     **Note:** By default, the system property to run automated tests is disabled to prevent you from accidentally running them on a production system. Run tests only on development, test, and other non-production instances to avoid data corruption and outage.
-
-    \[Omitted image "atf-executionorder.png"\] Alt text: Automated Test Framework test steps
 
 -   **[Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uc-landing-page.md)**
 
@@ -55,22 +53,26 @@ In addition to upgrade-related products, you can also use ServiceNow's upgrade t
 
 ## Best practices
 
-Visit the ServiceNow [Best Practices](https://mynow.servicenow.com/now/best-practices/home) website for more information on how to accelerate outcomes with expert-curated best practices.
+Visit the ServiceNow Customer Success Center website for information on upgrade value and best practices.
 
--   **[Upgrade quickly and maintain platform health](https://mynow.servicenow.com/now/best-practices/success-packs/core-platform-upgrade)**
+-   **[Upgrade value calculator](https://www.servicenow.com/success/value-calculator-upgrades.html)**
 
-    Plan and execute smooth ServiceNow AI Platform upgrades, reduce risk, cut costs, and adopt new features faster across your ServiceNow instance.
+    Determine the potential business value of staying current with ServiceNow upgrades.
 
--   **[Balance value and risk with platform customizations](https://mynow.servicenow.com/now/best-practices/assets/businesssmart-customization)**
+-   **[Playbook: Upgrade quickly and maintain platform health](https://www.servicenow.com/success/playbook/upgrade-fast.html)**
+
+    Use upgrade processes and tools to conduct your upgrades, and learn how to make changes to your baseline system when required.
+
+-   **[Balance value and risk with platform customizations](https://www.servicenow.com/success/playbook/innovate-at-scale.html)**
 
     Learn when and how to customize your instance to maximize value and minimize upgrade impact.
 
 
 ## Resources
 
--   **[ServiceNow Impact success plans](https://www.servicenow.com/impact.html)**
+-   **[ServiceNow Customer Success Center](https://www.servicenow.com/success.html)**
 
-    Receive long-term adoption guidance and support with an Impact success plan tailored to you.
+    Browse prescriptive content and tools such as playbooks, checklists, and quick answers to gain more value from your ServiceNow implementation.
 
 -   **[Expert services](https://www.servicenow.com/services/expert-services.html)**
 

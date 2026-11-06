@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-csm-properties.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Getting started with Customer Service Management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Customer Service properties
@@ -18,7 +18,7 @@ These properties control settings for several different features, including emai
 
 To access these properties, navigate to **Customer Service** &gt; **Administration** &gt; **Properties**.
 
-You can also access Customer Service Management properties in the System Property \[sys\_properties\] table by entering **sys\_properties.list** in the application navigator and pressing Enter. Then you can filter the list of properties by application.
+You can also access Customer Service Management properties using the system property \[sys\_properties\] table. Start by entering **sys\_properties.list** in the application navigator and pressing **Enter**. You can then filter the properties by application.
 
 **Related topics**  
 

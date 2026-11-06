@@ -1,106 +1,140 @@
 ---
-title: Edit a guided tour
-description: You can modify the settings of a guided tour, such as the roles that access the tour. You can also edit, add, delete, and reorganize the guided tour steps, and apply additional formatting to the instructional text.
+title: Edit Guided Tours
+description: You can modify the settings of a guided tour by using the Guided Tour Designer \(GTD\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/edit-guided-tour.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Using Guided Tours, Guided Tours, Adoption services, Configure user experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
 
-# Edit a guided tour
+# Edit Guided Tours
 
-You can modify the settings of a guided tour, such as the roles that access the tour. You can also edit, add, delete, and reorganize the guided tour steps, and apply additional formatting to the instructional text.
+You can modify the settings of a guided tour by using the Guided Tour Designer \(GTD\).
 
 ## Before you begin
 
-Role required: guided\_tour\_admin or admin
+Role required: guided\_tour\_admin
 
 ## About this task
 
-Use the Guided Tour Designer \(GTD\) to add, delete, and reorganize guided tour steps. Use the Guided Tour form only to perform tasks you cannot do easily from the GTD. For demonstration purposes, we begin with edits to the form that appears when you open the guided tour record, and continue with edits you can make in the GTD itself. You can invoke the GTD from the **Edit with Designer** button located in the form.
+To edit a guided tour, you can use either GTD or the Guided Tours form. The GTD enables you to add, delete, and reorganize guided tour steps. The Guided Tours form is recommended for tasks that are difficult to accomplish using the GTD. You can start by editing the elements shown on the form when you open a guided tour record. Then, proceed to the GTD for further edits.
+
+The base system offers several guided tours for specific applications, such as Performance Analytics. As an administrator, you can modify existing tours and assign one or more roles to them to manage access.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Guided Tour Designer** &gt; **Guided Tours**.
 
-2.  Open the guided tour you want to edit from the list.
+2.  Open the guided tour that you want to edit.
 
-3.  In the Guided Tour form, take any of the following actions.
+3.  In the Guided Tours form, you can edit the following elements:
 
-    -   Edit the name.
-    -   Enter a different page name in the **Context** field. For example, if the form page is listed and you want the user to start on the list view to enter a new record.
-    -   Choose a different tour type. If the tour type is **Standard UI**, the **Type** field cannot be changed. If the tour type is **Service Portal**, both the **SP Portal** and **SP Page** values can be changed.
-    -   Enter or edit the **Description**.
-    -   Start a Service Portal tour from a specific widget, record, or view within a page instead of the page itself. You can enter URL parameters that point to the item in the Add Additional URL Parameters field. For example, enter the section of the URL that contains the sys-id of a widget, or type parameters for a specific record or view, such as `sys_id=abc123&view=myView`.
-    -   Clear the **Active** check box to disable the guided tour, which sets it to read-only status, where it cannot be edited, and renders it invisible to end users. If you want to use the tour in the future but keep it unavailable to end users, consider setting it back to draft status for further revision. Select the check box to re-enable the tour.
-4.  To view the starting page for the tour while you test and refine its steps, click **Edit with Designer** in the form header.
+    -   In Workspace:
+        -   **Name**: Update the name to make it unique and intuitive.
+        -   **Status**: Change the to either draft or published.
+        -   **Context**: Update the URL for the tours. For example, `/now/sow/home`, `/now/sow/record`, or `/now/sow/list`.
+        -   **Description**: Update the description to help users understand the purpose of the tour.
+        -   **Roles**: Add or remove roles.
+        -   **Route Parameters**: Update route parameters to collect metadata about the specific URL where you want to play the tour.
+        -   **Active** check box: Clear the **Active** check box, to turn off the guided tour. The tour becomes read only, meaning it can’t be edited and is hidden from end users.  If you want to keep the tour for future use but don’t want end users to see it, change its status back to draft for further editing. Select the **Active** check box, to turn the tour back on.
+    -   In Service Portal:
+        -   **Name**: Update the name to make it unique and intuitive.
+        -   **Status**: Change the to either draft or published.
+        -   **SP Portal**: Specify where the tour should be created, such as in the Employee Center or the Knowledge Portal.
+        -   **SP Page**: Specify which page in the SP Portal the tour should be created on, such as the index page or the home page.
+        -   **Additional URL Parameters**:
+
+            You can initiate a Service Portal tour from a specific widget, record, or view within a page rather than from the entire page. To initiate a tour, include the URL parameters that directly reference the specific item in the **Additional URL Parameters** field.
+
+            For example, you can specify the part of the URL that contains the sys\_id of a widget, or include parameters for a particular record or view, such as `sys_id=abc123&view=myView`.
+
+        -   **Description**: Update the description to help users understand the purpose of the tour.
+        -   **Roles**: Add or remove roles.
+        -   **Active** check box: Clear the **Active** check box, to turn off the guided tour. The tour becomes read only, meaning it can’t be edited and is hidden from end users.  If you want to keep the tour for future use but don’t want end users to see it, change its status back to draft for further editing. Select the **Active** check box, to turn the tour back on.
+    You can’t change the **Tour Type**, regardless of the user interface type.
+
+4.  To test and refine the steps, select **Edit with Designer** in the form header.
 
     The starting page opens in the GTD in a new tab or window.
 
-5.  Having exited the form view, you can perform any of the following steps in the GTD.
+5.  You can perform any of the following tasks in the GTD.
 
-<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d140383e159">
+<table id="choicetable_y5v_htx_1z"><thead><tr><th align="left" id="d149150e257">
 
-To
+Task
 
-</th><th align="left" id="d140383e162">
+</th><th align="left" id="d149150e260">
 
-Do this
+Action
 
-</th></tr></thead><tbody><tr><td id="d140383e168">
+</th></tr></thead><tbody><tr><td id="d149150e266">
 
-**Edit the text or trigger in a step**
+**Edit the text in a step**
 
 </td><td>
 
-Navigate to the UI page the step is in and click the step in the list on the right. For example, if the tour starts in the list view but you want to edit a step in the form, open the form. The steps in the current view are numbered inside a red circle.Complete your changes and click **Save**.
+1.  Navigate to the UI page where the step is located.
+2.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon \[Omitted image "pencil-icon.png"\] Alt text: Edit Step.
 
-</td></tr><tr><td id="d140383e183">
+\[Omitted image "gtd-edit-icon.png"\] Alt text: Edit step
+
+3.  Edit the text and select **Save**.
+
+
+</td></tr><tr><td id="d149150e301">
+
+**Edit trigger in a step**
+
+</td><td>
+
+1.  Navigate to the UI page where the step is located.
+2.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon \[Omitted image "pencil-icon.png"\] Alt text: Edit Step.
+3.  From the Choose action list, select a trigger, and then select **Save**.
+
+
+</td></tr><tr><td id="d149150e331">
 
 **Delete an introduction, step, or conclusion**
 
 </td><td>
 
-Point to the step that you want to delete and then select the **⊝** icon.
+In the Tour Steps list, hover over the step you want to remove and then select the Delete icon **⊝**.
 
-</td></tr><tr><td id="d140383e195">
+</td></tr><tr><td id="d149150e343">
 
 **Place the callout on a different page element**
 
 </td><td>
 
-1.  Point to the step that you want to delete and then select the **⊝** icon to delete the step with the incorrect placement.
-2.  Create a step on the correct page element.
-3.  Drag the step into the correct position in the order of steps.
+1.  In the Tour Steps list, hover over the step and then select the Delete icon **⊝**.
+2.  Create a new step on the correct page element.
+3.  Enter a message in the **Text** field, select a trigger from the Choose action list, and then select **Save**.
 
 
-</td></tr><tr><td id="d140383e219">
+</td></tr><tr><td id="d149150e374">
 
 **Apply text formatting in the step instructions**
 
 </td><td>
 
-In the Guided Tour Steps related list, click the step number.1.  Point to the step that you want to edit and then select the edit icon to open the Content HTML formatter.
-
-\[Omitted image "gtd-edit-icon.png"\] Alt text: Edit step
-
+1.  In the Tour Steps list, hover over the step you want to edit and select the Edit Step icon \[Omitted image "pencil-icon.png"\] Alt text: Edit Step.
 2.  Edit the content and apply formatting as appropriate.
 
 **Note:**
 
 All standard HTML tags compatible with your browser are supported.
 
-Do not add images or video to the text. These media types are not supported in callouts.
+Don’t add images or video to the text. These media types aren’t supported in callouts.
 
-3.  Click **Update**.
+3.  Select **Save**.
 
 
-</td></tr><tr><td id="d140383e259">
+</td></tr><tr><td id="d149150e408">
 
 **Rearrange steps**
 
@@ -108,21 +142,27 @@ Do not add images or video to the text. These media types are not supported in c
 
 Drag the steps to the desired order.
 
-</td></tr><tr><td id="d140383e268">
+</td></tr><tr><td id="d149150e417">
 
 **Test the tour**
 
 </td><td>
 
-Click **Preview** if the tour is in draft status. Click **Play** if it is published. The page opens in a new list or tab and you can test each step. Note any steps that need corrections.
+Select **Preview** if the tour is in draft status.
 
-</td></tr><tr><td id="d140383e283">
+ Select **Play** if it’s published.
+
+ The page opens in a new window or tab. You can test each step. Note the steps that need corrections.
+
+</td></tr><tr><td id="d149150e441">
 
 **Change the guided tour status**
 
 </td><td>
 
-If the tour is in draft status, click **Publish**. If the tour is published, click **Draft**. Consider setting the tour to draft status until you are finished editing it.
+If the tour is in draft status, select **Publish**. If the tour is published, select **Draft**. It’s advisable to keep the tour in draft status until you have completed all edits.
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/configure-guided-tours.md)
+

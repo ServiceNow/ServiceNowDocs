@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configuring-pricing-plan.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-07"
-reading_time_minutes: 5
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+last_updated: "2026-11-05"
+reading_time_minutes: 6
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configurable pricing plans
@@ -16,11 +16,11 @@ Pricing Management provides a default pricing plan that defines the sequence of 
 
 ## How the pricing plan works
 
-The default pricing plan is an active, published plan that is automatically implemented starting with the November 2024 release. You can use the default plan, or you can copy the default plan and customize it by adding or changing the pricing steps to tailor it for your organization. You can have only one active pricing plan per domain.
+The default pricing plan is an active, published plan that is automatically implemented with Pricing Management. You can use the default plan, or you can copy the default plan and customize it by adding or changing the pricing steps to tailor it for your organization. You can have only one active pricing plan per domain.
 
-**Note:** The May 2025 release provides a default pricing plan that includes a new step, Apply Renewal Adjustment. If you've been using a custom pricing plan from an earlier release, review the default pricing plan, which is in a Retired state after upgrading to the May 2025 release. Determine whether you want to publish the default plan or customize the default pricing plan for your needs and then publish the custom plan to be used.
+**Note:** The Pricing Management v16.0.1 release provides a default pricing plan that includes a new step. If you've been using a custom pricing plan from an earlier release, review the default pricing plan, which is in a Retired state after you upgrade to the v16.0.1 release. Determine whether you want to publish the default plan or customize the default pricing plan and then publish the custom plan to be used.
 
-\[Omitted image "default-pp-steps2.png"\] Alt text: Sequence of steps in the default pricing plan, described in the following table
+\[Omitted image "default-pricing-plan-q1-2026.png"\] Alt text: Pricing steps that apply certain actions and calculations to determine product offering prices in Pricing Management
 
 The default plan consists of basic pricing steps in which certain actions are run to calculate product offering prices.
 
@@ -42,7 +42,15 @@ Starts the pricing engine context. The system gathers basic data required for su
 
 </td></tr><tr><td>
 
-Fetch Cost
+Analyze Line Changes
+
+</td><td>
+
+Reviews price line changes to determine whether adjustments to sold products and contracts require new pricing, as defined in the Delta Price Treatment Matrix.
+
+</td></tr><tr><td>
+
+Fetch Base Cost
 
 </td><td>
 
@@ -50,7 +58,15 @@ Get costs from a [cost book](https://raw.githubusercontent.com/ServiceNow/Servic
 
 </td></tr><tr><td>
 
-Fetch Price List Price
+Apply Attribute based Cost Adjustments
+
+</td><td>
+
+Apply adjustments to the cost based on product offering characteristics.
+
+</td></tr><tr><td>
+
+Fetch Base List Price
 
 </td><td>
 
@@ -77,7 +93,15 @@ Apply a renewal adjustment for contracts. This step determines whether a markup 
 
 </td></tr><tr><td>
 
-Apply configuration component adjustment
+Annual Price Increase Adjustments for Ramps
+
+</td><td>
+
+Applies the percentage Annual Price Increase to the list price of products that have price ramps. Sales agents specify the percentage increase when they create price ramps for quote line items.
+
+</td></tr><tr><td>
+
+Apply configuration component adjustments
 
 </td><td>
 
@@ -99,6 +123,54 @@ Custom adjustments
 
 Apply custom adjustments if implemented using the PricingAdjustmentExtensionPoint to fetch adjustments from another system or for adjustments that can't be supported via a pricing matrix.
 
+</td></tr><tr><td>
+
+Floor and Ceiling Calculation
+
+</td><td>
+
+Calculates the price floor, using the minimum price allowed for a product, and the price ceiling, using the maximum price allowed for a product.
+
+</td></tr><tr><td>
+
+Net Price Calculation
+
+</td><td>
+
+Calculates the net price for products using any automatic and manual adjustments made in quotes or orders.
+
+</td></tr><tr><td>
+
+Line Rollup
+
+</td><td>
+
+Calculates the cumulative pricing fields in quote and order lines that are rolled up to the parent line of bundled products.
+
+</td></tr><tr><td>
+
+Derived Price Calculation
+
+</td><td>
+
+Calculates the line prices using the Derived Pricing Matrix, which defines the pricing source and the unit base list price for the price list line.
+
+</td></tr><tr><td>
+
+Calculate Delta Prices
+
+</td><td>
+
+Calculates the difference in net pricing for sold products and contracts after adjustments are made.
+
+</td></tr><tr><td>
+
+Header Rollup
+
+</td><td>
+
+Calculates total pricing values, such as total annual or total monthly amounts, displayed at the header level
+
 </td></tr></tbody>
 </table>For the configuration component adjustments, contextual adjustments, and custom adjustments, the **Price point** and **Calculation type** values in a step determine how multiple pricing adjustments are calculated:
 
@@ -106,12 +178,6 @@ Apply custom adjustments if implemented using the PricingAdjustmentExtensionPoin
 -   **Calculation type**: Method for evaluating the impact of the adjustment at each step. The adjustment is applied to either the Previous Price Point or the Rolling Price.
     -   When the Calculation Type is Previous Price Point and the price point is Net Price, the previous price point is List Price. The adjustment is applied to the List Price.
     -   When the Calculation Type is Rolling, the adjustment calculated is based on the output of the previous step.
-
-## Example pricing plan calculations
-
-The following example shows how multiple pricing adjustments in a pricing plan are calculated and applied to a door sensor product. The door sensor is part of the Home Automation bundled product, which is being sold to Boxeo, a customer in California. The price of the door sensor is based on the price list for Boxeo.
-
-\[Omitted image "pricing-plan-example.png"\] Alt text: Table that shows how pricing adjustments are calculated for a door sensor product, using the list price and previous price point and rolling calculations.
 
 ## Customizing a pricing plan
 
@@ -124,4 +190,6 @@ As a pricing admin or manager, follow these steps to define a custom pricing pla
 -   [Delete a pricing plan step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/delete-pricing-plan-step.md), if needed.
 
 As you add or change pricing steps, the system validates your entries, such as the sequence number, price point, and calculation type. When you finish adding or changing steps, publish the configurable pricing plan to make it active. The former active plan is retired.
+
+If a step condition can't be evaluated, you can't publish the pricing plan until you correct the condition.
 

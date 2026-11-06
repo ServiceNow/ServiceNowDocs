@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Cloud Admin Portal
@@ -106,6 +106,14 @@ Operator`[sn_cmp.cloud_operator]`
 </td><td>
 
 Operate
+
+</td></tr><tr><td>
+
+CAPI Developer`sn_capi.cloud_developer`
+
+</td><td>
+
+Design
 
 </td></tr></tbody>
 </table>Only the Root administrator, the Cloud administrator, and the System administrator roles can view and manage all the metrics in the Cloud Admin Portal.

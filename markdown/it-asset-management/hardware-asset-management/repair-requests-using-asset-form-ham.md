@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request repair of defective hardware assets in your stockroom, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Repair of defective assets, Manage repair of defective assets in your stockroom in the Hardware Asset Workspace, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request repair of a hardware asset using the Repair option
@@ -28,7 +28,7 @@ Role required: asset
 
 3.  Select an asset with State as **In stock** and Substate as **Defective** or **Pending repair**.
 
-4.  Select the More Options icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More options icon\) on the asset form.
+4.  Select the More Options icon \[Omitted image "more-actions-icon.png"\] Alt text: on the asset form.
 
 5.  Select **Repair**.
 

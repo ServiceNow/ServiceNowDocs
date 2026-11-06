@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Maintenance Management
 classification: workplace-maintenance-management
 topic_type: task
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Maintenance Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -60,14 +60,10 @@ Role required: admin
 
         For more information about how to create a scheduled job and how the scheduled job picks up plan records based on conditions and workplace services, see [Create or copy a maintenance schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/create-maint-schedule.md) and [Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md).
 
-6.  To optimize cleaning activities for a selected location using Agentic AI workflow, the Optimize cleaning activity scheduled job is executed.
-
-    For more information, see [Components installed with Workplace Maintenance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/components-installed-with-maintenance-mgmt.md) and [Optimize cleaning activities agent overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/optimise-cleaning-agent-overview.md).
-
 
 **Parent Topic:**[Manage Workplace Maintenance Management plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/manage-maintenance-plans.md)
 
-**Previous topic:**[Workplace planned maintenance scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/sch-job-planned-nightly.md)
+**Previous topic:**[Create plan service configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/create-maint-service-config.md)
 
-**Next topic:**[Create workplace services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/create-workplace-services.md)
+**Next topic:**[Workplace Maintenance Management dashboard and analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-maintenance-management/workplace-maintenance-management-dashboard-overview.md)
 

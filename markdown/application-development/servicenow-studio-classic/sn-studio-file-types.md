@@ -1,24 +1,26 @@
 ---
 title: ServiceNow Studio supported file types using code search
-description: ServiceNow Studio supports the following file types when using code search.
+description: Reference the file types that ServiceNow Studio supports when using code search to locate scripts and metadata across an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sn-studio-file-types.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [ServiceNow Studio reference, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # ServiceNow Studio supported file types using code search
 
-ServiceNow Studio supports the following file types when using code search.
+Reference the file types that ServiceNow Studio supports when using code search to locate scripts and metadata across an instance.
 
-When using code search in ServiceNow Studio, the application uses the default code search group. The following table outlines the file types that are supported when using the default ServiceNow Studio code search.
+Code search in ServiceNow Studio uses the default code search group. The following table lists the file types supported by the default ServiceNow Studio code search.
 
-**Tip:** If your company wants to expand the list of supported file types used in code search, an administrator can create a new code search group that includes additional file types. For more information about expanding code search, see [Expand code search tables](https://developer.servicenow.com/connect.do#!/share/contents/3024956_expand_code_search_tables?v=1&t=PRODUCT_DETAILS).
+**Tip:** To expand the list of supported file types, an administrator can create a new code search group that includes additional file types. For more information, see [Expand code search tables](https://developer.servicenow.com/connect.do#!/share/contents/3024956_expand_code_search_tables?v=1&t=PRODUCT_DETAILS).
+
+**Note:** File types must extend the sys\_metadata table to be searchable in code search. Other file types, such as scheduled items \(sys\_trigger records\), are not searchable in ServiceNow Studio.
 
 <table id="table_lcj_1bh_qcc"><thead><tr><th>
 
@@ -50,7 +52,7 @@ Determines whether access is granted for a specified operation to a specific ent
 
 </td></tr><tr><td>
 
-Business rules
+[Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
 
 </td><td>
 
@@ -58,7 +60,7 @@ sys\_script
 
 </td><td>
 
-Customize system behavior. -   Business Rules run when a database action occurs \(query, insert, update, or delete\).
+Customize system behavior. -   [Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md) run when a database action occurs \(query, insert, update, or delete\).
 -   The script can run:
     -   before or after the database action is performed \(runs as part of the database operation\).
     -   asynchronously \(at some point after the database operation\).
@@ -74,13 +76,13 @@ sys\_script\_client
 
 </td><td>
 
-Used for changing the appearance of forms, displaying different fields based on values that are entered or other custom display options.
+Change the appearance of forms and display fields based on entered values or other custom display options.
 
--   onLoad means that the Client Script runs when the form or page is loaded
--   onChange means that the Client Script runs when something specific gets changed AND also when the form or page loads
--   onSubmit means that the Client Script runs when the form is submitted
+-   onLoad: The client script runs when the form or page loads.
+-   onChange: The client script runs when a specific field changes and also when the form or page loads.
+-   onSubmit: The client script runs when the form is submitted.
 
- Client Scripts can also be called by other scripts or modules, including UI policies.
+ Client scripts can also be called by other scripts or modules, including UI policies.
 
 </td></tr><tr><td>
 
@@ -92,7 +94,7 @@ sysevent\_email\_template
 
 </td><td>
 
-Enable administrators to create reusable content for the subject line and message body of email notifications.
+Create reusable content for the subject line and message body of email notifications.
 
 </td></tr><tr><td>
 
@@ -120,7 +122,7 @@ Display ServiceNow data graphically on a Google map page based on location data 
 
 </td></tr><tr><td>
 
-Map transforms
+[Map transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_CreatingNewTransformMaps.md)
 
 </td><td>
 
@@ -128,7 +130,7 @@ sys\_transform\_map
 
 </td><td>
 
-Used for importing data. Transform maps:
+Import data by defining mapping relationships between tables. Transform maps:
 
 -   Define mapping relationships between tables.
 -   Can use business rules, other scripts, or other options to import data.
@@ -147,7 +149,7 @@ Determine how an application communicates with users and alerts them about impor
 
 </td></tr><tr><td>
 
-
+[Processors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_Processors.md)
 
 </td><td>
 
@@ -155,7 +157,7 @@ sys\_processor
 
 </td><td>
 
-Provide customizable URL endpoints that can execute arbitrary server-side JavaScript code and produce output such as TEXT or JSON.
+Provide customizable URL endpoints that execute server-side JavaScript code and produce output such as TEXT or JSON.
 
 </td></tr><tr><td>
 
@@ -167,7 +169,7 @@ sys\_relationship
 
 </td><td>
 
-Used to extend tables, reference records in another table, create many-to-many relationships, and join tables in a database view.
+Extend tables, reference records in another table, create many-to-many relationships, and join tables in a database view.
 
 </td></tr><tr><td>
 
@@ -183,7 +185,7 @@ Define automated, server-side script logic that executes at a specific time or o
 
 </td></tr><tr><td>
 
-
+[Script actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/r_ScriptActions.md)
 
 </td><td>
 
@@ -207,7 +209,7 @@ sys\_script\_include
 
 </td><td>
 
-Contain scripts that can be functions or classes. These scripts run only when called by other scripts, often business rules.Any server script that is complicated or reusable should be a Script Include, especially complicated business rules.
+Contain reusable functions or classes that run only when called by other scripts, often business rules. Any server script that is complicated or reusable should be a Script Include, especially complicated business rules.
 
 </td></tr><tr><td>
 
@@ -219,7 +221,7 @@ sys\_trigger
 
 </td><td>
 
-Contain the back-end data for the [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_SystemScheduler.md), where scheduled jobs are created, queued up, and executed. Schedule items can execute scheduled jobs, business rules, inactivity monitors, service level agreement \(SLA\) calculations, metric events, upgrades, and more. You can access schedule item records to troubleshoot scheduling.
+Contain the back-end data for the [System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_SystemScheduler.md), where scheduled jobs are created, queued up, and executed. Schedule items can execute scheduled jobs, business rules, inactivity monitors, service level agreement \(SLA\) calculations, metric events, upgrades, and more. Access schedule item records to troubleshoot scheduling.
 
 </td></tr><tr><td>
 
@@ -243,11 +245,11 @@ sys\_ui\_macro
 
 </td><td>
 
-Contain discrete scripted components that administrators can add to the user interface. UI macros are typically controls that provide inputs or information that is not provided by existing field types. By default, the system provides UI macros for a variety of user interface elements.
+Contain discrete scripted components that administrators can add to the user interface. UI macros are typically controls that provide inputs or information not provided by existing field types. By default, the system provides UI macros for a variety of user interface elements.
 
 </td></tr><tr><td>
 
-
+[UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md)
 
 </td><td>
 
@@ -255,7 +257,7 @@ sys\_ui\_page
 
 </td><td>
 
-Used to create and display forms, dialogs, lists, and other UI components.
+Create and display forms, dialogs, lists, and other UI components.
 
 </td></tr><tr><td>
 
@@ -278,7 +280,7 @@ The following apply to usage:
 
 </td></tr><tr><td>
 
-
+[UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIScripts.md)
 
 </td><td>
 
@@ -286,7 +288,7 @@ sys\_ui\_script
 
 </td><td>
 
-Contains client scripts stored for reuse. Only used when called from other scripts.
+Store client scripts for reuse. Run only when called from other scripts.
 
 </td></tr><tr><td>
 
@@ -298,7 +300,7 @@ sys\_ui\_style
 
 </td><td>
 
-Enables you to declare individual CSS styles for a field in a list or form.
+Declare individual CSS styles for a field in a list or form.
 
 </td></tr><tr><td>
 
@@ -310,7 +312,7 @@ sp\_widget
 
 </td><td>
 
-Describe objects that contain content and can be added to or embedded in portal pages. You can use the base system widgets provided with the Service Portal, clone and modify widgets, or develop custom widgets to fit your own needs.
+Describe objects that contain content and can be added to or embedded in portal pages. Use the base system widgets provided with the Service Portal, clone and modify widgets, or develop custom widgets to fit your own needs.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ServiceNow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-reference.md)

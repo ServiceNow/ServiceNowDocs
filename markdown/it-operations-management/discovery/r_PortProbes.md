@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [List of Discovery probes, Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [List of Discovery probes, Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Port probes
@@ -75,7 +75,7 @@ Active
 
 </td><td>
 
-Indicates whether this port probe is enabled or disabled.
+Indicates whether this port probe is active or inactive.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ CIs
 
 </td><td>
 
-Indicates whether this port probe is enabled or disabled for discovering Configuration Items.
+Indicates whether this port probe is active or inactive for discovering Configuration Items.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ IPs
 
 </td><td>
 
-Indicates whether this port probe is enabled or disabled for discovering IP addresses.
+Indicates whether this port probe is active or inactive for discovering IP addresses.
 
 </td></tr><tr><td>
 

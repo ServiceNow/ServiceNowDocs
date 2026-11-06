@@ -1,14 +1,14 @@
 ---
 title: IBQConfigBase API - Scoped
-description: Script include that must be extended for Sales Customer Relationship Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.Creates a parent record which gets added to the record\_id of the Inbound Request \[sn\_tmt\_core\_inbound\_queue\_list\] record before processing the request.Determines whether a flow should run in sync or async mode.Defines the logic for processing an inbound request record.
+description: Script include that must be extended for Sales Customer Relationship Management Request Tracker to track the requests. This script include provides overridable methods that define how requests should be executed.Creates a parent record which gets added to the record\_id of the Inbound Request \[sn\_tmt\_core\_inbound\_queue\_list\] record before processing the request.Determines whether a flow should run in sync or async mode.Defines the logic for processing an inbound request record.Sets the execute\_after value and updates state to Pending on the current inbound request record to configure the order in which records are processed in the Inbound Request table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/IBQConfigBaseAPIBoth.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-04-10"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 18
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -20,8 +20,8 @@ The Sales and Service API Core \(com.sn\_tmt\_core\) plugin must be activated fo
 
 See also:
 
--   [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/lead-to-cash-workflows.md)
--   [Sales and Order Management Request Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/som_request_tracker.md)
+-   
+-   
 
 ## Extending the IBQConfigBase API
 
@@ -196,7 +196,7 @@ JSON object containing the details of Inbound Request record to be created.```
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-account"><td>
 
 account
 
@@ -208,7 +208,7 @@ String
 
 Optional. Information about the account associated with the record.Table: Account \[customer\_account\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-consumer"><td>
 
 consumer
 
@@ -220,7 +220,7 @@ String
 
 Optional. Information about the consumer associated with the record.Table: Consumer \[csm\_consumer\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-contact"><td>
 
 contact
 
@@ -232,7 +232,7 @@ String
 
 Optional. Information about the contact associated with the record.Table: Contact \[customer\_contact\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload"><td>
 
 payload
 
@@ -252,7 +252,7 @@ Optional. JSON object needed to process the request using the PrimitiveUtil\(\) 
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams"><td>
 
 payload.additionalParams
 
@@ -272,7 +272,7 @@ Optional. Additional parameters to use.```
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.action"><td>
 
 payload.additionalParams.action
 
@@ -289,7 +289,7 @@ Optional. Specifies the type of declarative action being executed. For more info
 -   resume
 -   suspend
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.actionReason"><td>
 
 payload.additionalParams.actionReason
 
@@ -301,7 +301,7 @@ String
 
 Optional. Property used in flows using declarative actions. Reason for the action.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.endDate"><td>
 
 payload.additionalParams.endDate
 
@@ -313,7 +313,7 @@ String
 
 Optional. End date required to execute flows using declarative actions.Format: yyyy-MM-dd HH:mm:ss
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.skipLines"><td>
 
 payload.additionalParams.skipLines
 
@@ -330,7 +330,7 @@ Optional. Flag that indicates whether to fetch line items for the specified enti
 
 Default: false
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.startDate"><td>
 
 payload.additionalParams.startDate
 
@@ -342,7 +342,7 @@ String
 
 Optional. Start date to execute flows using declarative actions.Format: yyyy-MM-dd HH:mm:ss
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.context"><td>
 
 payload.context
 
@@ -359,7 +359,7 @@ Optional. Additional parameter options for displaying attribute values and for i
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.context.isMultiselect"><td>
 
 payload.context.isMultiSelect
 
@@ -376,7 +376,7 @@ Optional. Flag that indicates whether to pass multiple entities as input to crea
 
 Default: false
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.context.sTTCID"><td>
 
 payload.context.sourceToTargetConfigID
 
@@ -388,7 +388,7 @@ String
 
 Optional. Mapping configuration ID for the source-to-target mapping.Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.inputParams"><td>
 
 payload.inputParams
 
@@ -402,7 +402,7 @@ Optional. This object is a placeholder for any input parameters required to invo
 "inputParams": {}
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.source"><td>
 
 payload.source
 
@@ -421,7 +421,7 @@ Optional. JSON object containing details of the source entity to retrieve data f
 ]
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.headerId"><td>
 
 payload.source.headerId
 
@@ -434,7 +434,7 @@ String
 Optional. Header sys\_id of source entity to retrieve data from.-   Required if you don't provide the **lineIds** parameter.
 -   Pass  null  if you aren't passing any header sys\_ids.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.source.lineIds"><td>
 
 payload.source.lineIds
 
@@ -446,7 +446,7 @@ Array
 
 Optional. Array containing source line item sys\_id\(s\) of an entity to retrieve entity data from.Required if you don't provide  the header ID, and if the entity structure starts with line items such as sold product.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.target"><td>
 
 payload.target
 
@@ -465,7 +465,7 @@ Optional. JSON object containing details of the target entity.```
 ]
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.target.headerId"><td>
 
 payload.target.headerId
 
@@ -477,7 +477,7 @@ String
 
 Optional. Header sys\_id of target entity to retrieve data from. Required if you don't provide the **lineIds** parameter. Pass  null  if you aren't passing any header sys\_ids.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.target.lineIds"><td>
 
 payload.target.lineIds
 
@@ -489,7 +489,7 @@ Array
 
 Optional. Array containing target line item sys\_id\(s\) of an entity to retrieve entity data from. Required if you don't provide  header ID  and if the entity structure starts with line items such as sold product.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-record"><td>
 
 record\_id
 
@@ -501,7 +501,7 @@ String
 
 Optional. Sys\_id of the target record if already present.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-requested_flow"><td>
 
 requested\_flow
 
@@ -511,9 +511,9 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using .Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-source_records_ids"><td>
 
 source\_record\_ids
 
@@ -525,7 +525,7 @@ Array
 
 Array containing the sys\_ids of the source records.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-source_table"><td>
 
 source\_table
 
@@ -537,7 +537,7 @@ String
 
 Name of the table that contains the source record of the flow.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-table"><td>
 
 table
 
@@ -646,7 +646,7 @@ JSON object containing the details of Inbound Request record to be created.```
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-account"><td>
 
 account
 
@@ -658,7 +658,7 @@ String
 
 Optional. Information about the account associated with the record.Table: Account \[customer\_account\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-consumer"><td>
 
 consumer
 
@@ -670,7 +670,7 @@ String
 
 Optional. Information about the consumer associated with the record.Table: Consumer \[csm\_consumer\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-contact"><td>
 
 contact
 
@@ -682,7 +682,7 @@ String
 
 Optional. Information about the contact associated with the record.Table: Contact \[customer\_contact\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload"><td>
 
 payload
 
@@ -702,7 +702,7 @@ Optional. JSON object needed to process the request using the PrimitiveUtil\(\) 
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams"><td>
 
 payload.additionalParams
 
@@ -722,7 +722,7 @@ Optional. Additional parameters to use.```
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.action"><td>
 
 payload.additionalParams.action
 
@@ -739,7 +739,7 @@ Optional. Specifies the type of declarative action being executed. For more info
 -   resume
 -   suspend
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.actionReason"><td>
 
 payload.additionalParams.actionReason
 
@@ -751,7 +751,7 @@ String
 
 Optional. Property used in flows using declarative actions. Reason for the action.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.endDate"><td>
 
 payload.additionalParams.endDate
 
@@ -763,7 +763,7 @@ String
 
 Optional. End date required to execute flows using declarative actions.Format: yyyy-MM-dd HH:mm:ss
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.skipLines"><td>
 
 payload.additionalParams.skipLines
 
@@ -780,7 +780,7 @@ Optional. Flag that indicates whether to fetch line items for the specified enti
 
 Default: false
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.additionalParams.startDate"><td>
 
 payload.additionalParams.startDate
 
@@ -792,7 +792,7 @@ String
 
 Optional. Start date to execute flows using declarative actions.Format: yyyy-MM-dd HH:mm:ss
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.context"><td>
 
 payload.context
 
@@ -809,7 +809,7 @@ Optional. Additional parameter options for displaying attribute values and for i
 }
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.context.isMultiselect"><td>
 
 payload.context.isMultiSelect
 
@@ -826,7 +826,7 @@ Optional. Flag that indicates whether to pass multiple entities as input to crea
 
 Default: false
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.context.sTTCID"><td>
 
 payload.context.sourceToTargetConfigID
 
@@ -838,7 +838,7 @@ String
 
 Optional. Mapping configuration ID for the source-to-target mapping.Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.inputParams"><td>
 
 payload.inputParams
 
@@ -852,7 +852,7 @@ Optional. This object is a placeholder for any input parameters required to invo
 "inputParams": {}
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.source"><td>
 
 payload.source
 
@@ -871,7 +871,7 @@ Optional. JSON object containing details of the source entity to retrieve data f
 ]
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.headerId"><td>
 
 payload.source.headerId
 
@@ -884,7 +884,7 @@ String
 Optional. Header sys\_id of source entity to retrieve data from.-   Required if you don't provide the **lineIds** parameter.
 -   Pass  null  if you aren't passing any header sys\_ids.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.source.lineIds"><td>
 
 payload.source.lineIds
 
@@ -896,7 +896,7 @@ Array
 
 Optional. Array containing source line item sys\_id\(s\) of an entity to retrieve entity data from.Required if you don't provide  the header ID, and if the entity structure starts with line items such as sold product.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.target"><td>
 
 payload.target
 
@@ -915,7 +915,7 @@ Optional. JSON object containing details of the target entity.```
 ]
 ```
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.target.headerId"><td>
 
 payload.target.headerId
 
@@ -927,7 +927,7 @@ String
 
 Optional. Header sys\_id of target entity to retrieve data from. Required if you don't provide the **lineIds** parameter. Pass  null  if you aren't passing any header sys\_ids.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-payload.target.lineIds"><td>
 
 payload.target.lineIds
 
@@ -939,7 +939,7 @@ Array
 
 Optional. Array containing target line item sys\_id\(s\) of an entity to retrieve entity data from. Required if you don't provide  header ID  and if the entity structure starts with line items such as sold product.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-record"><td>
 
 record\_id
 
@@ -951,7 +951,7 @@ String
 
 Optional. Sys\_id of the target record if already present.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-requested_flow"><td>
 
 requested\_flow
 
@@ -961,9 +961,9 @@ String
 
 </td><td>
 
-Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/entity-configuration-and-mapping.md).Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using .Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-source_records_ids"><td>
 
 source\_record\_ids
 
@@ -975,7 +975,7 @@ Array
 
 Array containing the sys\_ids of the source records.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-source_table"><td>
 
 source\_table
 
@@ -987,7 +987,7 @@ String
 
 Name of the table that contains the source record of the flow.
 
-</td></tr><tr><td>
+</td></tr><tr id="ibqc-table"><td>
 
 table
 
@@ -1292,4 +1292,450 @@ processRequest = {
   "target": "a6f4568bdce0aa10f877720033b5d069"
 }
 ```
+
+## IBQConfigBase – setExecuteAfterRequest\(Object ibqParams\)
+
+Sets the `execute_after` value and updates `state` to Pending on the current inbound request record to configure the order in which records are processed in the Inbound Request table.
+
+The setExecuteAfterRequest\(\) method can be overridden to derive the **execute\_after** value from other parameters. By default, this method queries the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table to find the latest record with matching **source\_record\_ids**, **record\_id**, and **resource** values. This method then updates the current record's `execute_after` field with the queried record's sys\_id, marking the current record to be processed after the queried record. As a result, setExecuteAfterRequest\(\) establishes the order in which records are processed.
+
+<table id="table_hbf_vqr_tfc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+ibqParams
+
+</td><td>
+
+Object
+
+</td><td>
+
+JSON object containing the details of Inbound Request records to set. These parameters include the record sys\_id to process before the current record, and the workflow name to filter by in the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table.```
+{
+  "account": "String",
+  "consumer": "String",
+  "contact": "String",
+  "execute_after": "String",
+  "payload": {Object},
+  "record_id": "String",
+  "requested_flow": "String",
+  "resource": "String",
+  "source_record_ids": [Array],
+  "source_table": "String",
+  "table": "String"
+}
+```
+
+</td></tr><tr><td>
+
+account
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Information about the account associated with the record.Table: Account \[customer\_account\]
+
+</td></tr><tr><td>
+
+consumer
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Information about the consumer associated with the record.Table: Consumer \[csm\_consumer\]
+
+</td></tr><tr><td>
+
+contact
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Information about the contact associated with the record.Table: Contact \[customer\_contact\]
+
+</td></tr><tr><td>
+
+ibqParams.execute\_after
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Sys\_id of inbound request to process before the current request.Table: Inbound Request \[sn\_tmt\_core\_inbound\_queue\]
+
+</td></tr><tr><td>
+
+payload
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. JSON object needed to process the request using the PrimitiveUtil\(\) API. For usage information, see [LeadToCashCore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md).```
+"payload": {
+  "additionalParams": {Object},
+  "context": {Object},
+  "inputParams": {Object}
+  "source": [Array of Objects],
+  "target": [Array of Objects]
+}
+```
+
+</td></tr><tr><td>
+
+payload.additionalParams
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. Additional parameters to use.```
+"additionalParams": {
+  "action": "String",
+  "actionReason": "String"
+  "endDate": "Date",
+  "skipLines": "Boolean",
+  "startDate": "Date"
+}
+```
+
+</td></tr><tr><td>
+
+payload.additionalParams.action
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Specifies the type of declarative action being executed. For more information, see [Customer Life Cycle Management Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-life-cycle-management-workflows.md).Possible values:
+
+-   disconnect
+-   modify
+-   resume
+-   suspend
+
+</td></tr><tr><td>
+
+payload.additionalParams.actionReason
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Property used in flows using declarative actions. Reason for the action.
+
+</td></tr><tr><td>
+
+payload.additionalParams.endDate
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. End date required to execute flows using declarative actions.Format: yyyy-MM-dd HH:mm:ss
+
+</td></tr><tr><td>
+
+payload.additionalParams.skipLines
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that indicates whether to fetch line items for the specified entity.Valid values:
+
+-   true: Skip returning line items information for the entity.
+-   false: Return line items information for the entity.
+
+Default: false
+
+</td></tr><tr><td>
+
+payload.additionalParams.startDate
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Start date to execute flows using declarative actions.Format: yyyy-MM-dd HH:mm:ss
+
+</td></tr><tr><td>
+
+payload.context
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. Additional parameter options for displaying attribute values and for invoking more than one instance at a time.```
+"context": {
+  "isMultiSelect": "Boolean",
+  "sourceToTargetConfigID": "String"
+}
+```
+
+</td></tr><tr><td>
+
+payload.context.isMultiSelect
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that indicates whether to pass multiple entities as input to create the instance.Valid values:
+
+-   true: Enables passing multiple line items in a comma-separated list.
+-   false: Only one input item can be passed in the script.
+
+Default: false
+
+</td></tr><tr><td>
+
+payload.context.sourceToTargetConfigID
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Mapping configuration ID for the source-to-target mapping.Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+
+</td></tr><tr><td>
+
+payload.inputParams
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. This object is a placeholder for any input parameters required to invoke the usage of a specific flow.```
+"inputParams": {}
+```
+
+</td></tr><tr><td>
+
+payload.source
+
+</td><td>
+
+Array
+
+</td><td>
+
+Optional. JSON object containing details of the source entity to retrieve data from.```
+"source": [
+  {
+    "headerId": "String",
+    "lineIds": []
+  }
+]
+```
+
+</td></tr><tr><td>
+
+payload.source.headerId
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Header sys\_id of source entity to retrieve data from.-   Required if you don't provide the **lineIds** parameter.
+-   Pass  null  if you aren't passing any header sys\_ids.
+
+</td></tr><tr><td>
+
+payload.source.lineIds
+
+</td><td>
+
+Array
+
+</td><td>
+
+Optional. Array containing source line item sys\_id\(s\) of an entity to retrieve entity data from.Required if you don't provide  the header ID, and if the entity structure starts with line items such as sold product.
+
+</td></tr><tr><td>
+
+payload.target
+
+</td><td>
+
+Array
+
+</td><td>
+
+Optional. JSON object containing details of the target entity.```
+"target": [
+  {
+    "headerId": "String",
+    "lineIds": []
+  }
+]
+```
+
+</td></tr><tr><td>
+
+payload.target.headerId
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Header sys\_id of target entity to retrieve data from. Required if you don't provide the **lineIds** parameter. Pass  null  if you aren't passing any header sys\_ids.
+
+</td></tr><tr><td>
+
+payload.target.lineIds
+
+</td><td>
+
+Array
+
+</td><td>
+
+Optional. Array containing target line item sys\_id\(s\) of an entity to retrieve entity data from. Required if you don't provide  header ID  and if the entity structure starts with line items such as sold product.
+
+</td></tr><tr><td>
+
+record\_id
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Sys\_id of the target record if already present.
+
+</td></tr><tr><td>
+
+requested\_flow
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Mapping configuration ID for source-to-target mapping. This property is required for flows using .Table: Lead To Cash Entity Mapping \[sn\_l2c\_core\_entity\_mapping\]
+
+</td></tr><tr><td>
+
+ibqParams.resource
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the flow that creates the record in the Inbound Request table \(for example, a quote or order\). This value is used to find dependent records of the same type to determine the order of record processing.
+
+</td></tr><tr><td>
+
+source\_record\_ids
+
+</td><td>
+
+Array
+
+</td><td>
+
+Array containing the sys\_ids of the source records.
+
+</td></tr><tr><td>
+
+source\_table
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the table that contains the source record of the flow.
+
+</td></tr><tr><td>
+
+table
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the table that contains the target record of the flow.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+In the following example, the script queries the Inbound Request \[sn\_tmt\_core\_inbound\_queue\] table to find the latest record with matching source\_record\_ids, record\_id, and resource values. The script then calls the setExecuteAfterRequest\(\) method to update the current record's execute\_after value with the fetched record's sys\_id and sets its state to pending. As a result, the current record will execute after the record specified in the execute\_after field.
+
+```
+var ibqParams = { 
+  "source_record_ids": "e32e29fd28d26a14f8775b8f954723b8",
+  "record_id":"b9be293128166a14f8775b8f9547239f", 
+  "requested_flow": "0feb6d9da36271105c24939ef31e61dc", 
+  "initiated_by": "admin", 
+  "source_table": "sn_quote_mgmt_core_quote", 
+  "table": "sn_ind_tmt_orm_order", 
+  "payload": {
+  "context": {}}, 
+  "resource": "quote_to_order" 
+ }; 
+
+new sn_tmt_core.IBQConfigBase().setExecuteAfterRequest(ibqParams);
+```
+
+This method does not return any output.
 

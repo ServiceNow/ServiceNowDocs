@@ -1,5 +1,5 @@
 ---
-title: Replacing a missing certificate for SAML
+title: Replace a missing certificate for SAML
 description: If the Certificate module displays a blank page, the SAML 2.0 certificate record has been deleted. You can replace the missing certificate by manually creating a certificate record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_ReplacingAMissingCertificate.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install the identity provider certificate, SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Install the identity provider certificate, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
-# Replacing a missing certificate for SAML
+# Replace a missing certificate for SAML
 
 If the **Certificate** module displays a blank page, the SAML 2.0 certificate record has been deleted. You can replace the missing certificate by manually creating a certificate record.
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## Procedure
 
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Create a new record called `SAML 2.0`.
 
-    **Important:** You MUST use this name. This requirement is only true if you are not using [Multi-Provider Single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
+    **Important:** You MUST use this name. This requirement is only true if you are not using [Multi-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_MultipleProviderSingleSignOn.md).
 
 3.  Click **SAML 2 Single Sign-on** &gt; **Certificate**.
 

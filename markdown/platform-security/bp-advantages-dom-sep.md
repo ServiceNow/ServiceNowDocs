@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-advantages-dom-sep.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Domain separation recommended practices for service providers, Domain separation for service providers, Access Management]
+breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
 
 # Benefits of domain separation
@@ -17,8 +17,6 @@ Domain separation may work better for your customers' organizations than any oth
 
 
 You can enable domain separation with a ServiceNow plugin that has functionality built into the core platform. The separate domains configuration is managed by a product manager who is supported by a development team. Enhancements and fixes for domain separation functionality are included with ServiceNow releases and ready to be used by customers. For assistance with domain separation, your instance owners can use Customer Service and Support resources, such as the [Service Portal](https://support.servicenow.com).
-
-\[Omitted image "bp-advantages-to-DS.png"\] Alt text: Benefits of domain separation
 
 **Parent Topic:**[Domain separation recommended practices for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/bp-domain-sep-recommended.md)
 

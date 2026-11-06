@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Standard Ticket Page view for HR Service Delivery, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Standard Ticket Page view for HR Service Delivery, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure custom HR services

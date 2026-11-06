@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [Configure, Agent Chat, portal, Virtual Agent, com.glide.interaction.awa, AWA, Advanced Work Assignment]
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
@@ -152,7 +152,7 @@ You can configure the following elements of the Agent Chat button:
 
 These elements are determined in the portal theme. To customize the Agent Chat button, update the relevant SCSS variables in the portal theme record. For more information, see [Set up your bot's branding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ac-configure-chat-branding.md).
 
-**Note:** If you change the web client Virtual Agent button icon while the system property \[sys\_property\] table value **com.glide.cs.advanced-chat.popover** is set to `true`, set the web client Virtual Agent chat button to the same size as the original button icon, otherwise the icon is displayed oversize.
+**Note:** If you change the web client Virtual Agent button icon while the system property \[sys\_property\] table value **com.glide.cs.advanced-chat-popover** is set to `true`, set the web client Virtual Agent chat button to the same size as the original button icon, otherwise the icon is displayed oversize.
 
 ### Procedure
 
@@ -281,7 +281,7 @@ Use the spContextManager class in a widget client script to pass dynamic page da
 
 Role required: admin
 
-Examine the widget to understand how data is passed to the widget client script. To make data available to Agent Chat, you must pass it to the spContextManager service. You can then access the data in a Virtual Agent topic using the `vaContext` object. For more information about using context variables in Virtual Agent scripts, see Virtual Agent scripts.
+Examine the widget to understand how data is passed to the widget client script. To make data available to Agent Chat, you must pass it to the spContextManager service. You can then access the data in a Virtual Agent topic using the `vaContext` object. For more information about using context variables in Virtual Agent scripts, see [Virtual Agent scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-scripts.md).
 
 ### Procedure
 

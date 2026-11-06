@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create a policy for Schedule Optimization
@@ -24,11 +24,9 @@ Role required: wm\_admin
 
 \[Omitted video\] Description: This video demonstrates how to create a policy for Schedule Optimization.
 
-Policies help achieve your optimization goals by combining objectives and constraints. Understanding your goals lets you customize optimization strategies.
+A policy defines the rules and priorities that guide Schedule Optimization. Policies are built from objectives and constraints, which work together to determine how tasks are assigned to agents. Objectives control how tasks are prioritized during optimization, while constraints define the mandatory conditions an assignment group must meet to be considered for a task. See [Optimization Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md) for the full list of objectives and constraints.
 
-For instance, if you have 20 technicians working in a city, you can set a policy to minimize travel time. By running optimization before the day begins, tasks are organized efficiently, reducing commute time. You can adjust existing policies by adding objectives and constraints to prioritize tasks and specify criteria for task assignment groups. For more information on objectives and constraints, see [Optimization features used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md).
-
-To use capacity with Schedule Optimization, you must enable **Capacity** in the constraint. For more information, see [Optimization features used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md)
+You can use different policies for different batch or intraday configurations.
 
 ## Procedure
 
@@ -52,7 +50,9 @@ To use capacity with Schedule Optimization, you must enable **Capacity** in the 
 
     4.  Select **Submit**.
 
-7.  Add an objective.
+7.  Add additional objectives.
+
+    Policies include default objectives that cannot be removed. You can add optional objectives to further customize optimization behavior.
 
     1.  Select the **Objective** tab.
 
@@ -61,6 +61,10 @@ To use capacity with Schedule Optimization, you must enable **Capacity** in the 
     3.  In the **Optimization feature** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon.\) and select the objective to add.
 
     4.  Select **Submit**.
+
+    5.  In the **Objectives** list, double-click \(or use the keyboard shortcut\) the **Weight field** for the objective you added and enter an integer value.
+
+    Schedule Optimization prioritizes higher-numbered weights. For default settings, apply a weight of 1. For more important factors, apply a weight of 2 or higher.
 
 8.  Select **Update**.
 
@@ -72,4 +76,11 @@ You have now created a schedule optimization policy.
 ## What to do next
 
 [Create a batch for Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-an-optimization-batch.md).
+
+**Related topics**  
+
+
+[Add objectives to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/add-objective-sched-opt-policy.md)
+
+[Add constraints to a policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.md)
 

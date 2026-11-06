@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Use Guided Tours in Agent Workspace for HR Case Management
@@ -34,9 +34,9 @@ When you visit a page that has a guided tour for the first time, a welcome scree
 
     -   Home page
     -   List page
-3.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Show help icon\).​
+3.  Select the **Show help** icon \(\[Omitted image "help\_question\_mark\_icon.png"\] Alt text: Help or question mark icon\).​
 
-4.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] Alt text: Pin Help Center menu to pin the Help Center side panel on the page.
+4.  Select the **Pin Help Center menu** icon \[Omitted image "pol-nav-pin.png"\] to pin the Help Center side panel on the page.
 
 5.  Select **Take a Tour**​.
 

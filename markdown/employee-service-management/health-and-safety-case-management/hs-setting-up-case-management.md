@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety Case Management, Health and Safety, Employee Service Management]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Health and Safety Case Management, Health and Safety, Employee Serv
 # Configuring Health and Safety Case Management
 
 Set up your implementation for Health and Safety Case Management by installing the application and reviewing and configuring the components that are installed with the application.
-
-## Configuration overview
 
 1.  [Install Health and Safety Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-case-management/install-hs-case-management.md)  
 You can install the Health and Safety Case Management application \(sn\_hs\_cm\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.

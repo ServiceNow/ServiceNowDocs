@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/adv-app-allow-sample-script.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure advanced app allowance with links to permitted apps, Control specific app usage, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Advanced app allowance, Control app use, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Advanced app allowance example script

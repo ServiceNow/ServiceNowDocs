@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing conflict of interest disclosure requests, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Update an existing conflict of interest disclosure record
@@ -26,7 +26,7 @@ You can only update conflict of interest disclosure records that have the confli
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Legal Practice Apps** &gt; **Conflict of Interest** &gt; **All**.
+1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
 2.  Open a conflict of interest disclosure record that you want to review or update.
 
@@ -40,5 +40,5 @@ You can only update conflict of interest disclosure records that have the confli
 4.  Click **Update**.
 
 
-**Parent Topic:**[Managing conflict of interest disclosure requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/managing-legal-coi-request.md)
+**Parent Topic:**[Using Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/lsd-coi-use-landing.md)
 

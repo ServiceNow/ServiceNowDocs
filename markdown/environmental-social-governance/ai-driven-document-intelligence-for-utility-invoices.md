@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/ai-driven-document-intelligence-for-utility-invoices.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-09-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

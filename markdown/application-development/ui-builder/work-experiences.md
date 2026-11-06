@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure how users interact with your applications in UI Builder
@@ -19,8 +19,6 @@ Learn what an experience is in UI Builder. Understand what an experience contain
 ## What is a UI Builder experience
 
 An experience in UI Builder is a collection of web pages for users to interact with an application.
-
-\[Omitted image "experience\_graphic.png"\] Alt text: Web browser with three pages displayed in a UI Builder experience.
 
 Many websites use the same basic structure on every page. For example, every page contains the same header, the same footer, and the same menus. These common page elements are called a shell. Experiences can have a shell, or wrapper, for each page in the experience. A shell gives an experience a consistent look and feel as users navigate from page to page. Shells are recommended but not required. For more information, see [Define UI experiences using app shells](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/app-shells-uibuilder.md).
 

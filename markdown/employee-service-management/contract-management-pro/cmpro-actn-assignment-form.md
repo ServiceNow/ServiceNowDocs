@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Action assignment form
@@ -22,8 +22,8 @@ Use the action assignment form to define a action button in your workspace and m
 |-----|-----------|
 |Action label|Label that appears on the button created through the action. For example: Initiate Contract|
 |Action name|Name for your action that appears in the action assignment list. For example, `initiate_contract`.|
-|Application|Application for the action assignment.|
-|Table|Field to limit this action to activities with this associated table.|
+|Application|Application of the workspace for which the action is added. Example: To add action to Source-to-Pay workspace, select Source-to-Pay Workspace.|
+|Table|Application table to which the action will be associated to. Example: To associate action to the Sourtable that stores requests to source for supplier products, select Sourcing Request \[sn\_shop\_sourcing\_activity\]|
 |View|View of the form on which the action button is displayed.|
 |Enable for all Configurable Experience|Determines whether the action should appear in all experiences or only in specified experiences. If true, the action appears in any applicable form regardless of experience.|
 |Active|Option to activate the action.|
@@ -44,6 +44,10 @@ Use the action assignment form to define a action button in your workspace and m
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
+[Signatory roles]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -60,5 +64,15 @@ Use the action assignment form to define a action button in your workspace and m
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

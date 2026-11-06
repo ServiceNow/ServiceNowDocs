@@ -7,8 +7,8 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 27
+last_updated: "2026-09-10"
+reading_time_minutes: 28
 breadcrumb: [Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -119,4 +119,19 @@ Due to the ever-changing number of widgets that exist at any given time in Servi
 -   [Homepage Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/home-page-search-widget.md)
 -   [Typeahead Search widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/typeahead-search-widget.md)
 -   [Legacy: Search Page widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/search-page-widget.md)
+
+-   **[Example widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-example-widgets.md)**  
+All widgets in Service Portal can be used as example code for how scripts are used in a widget. However, several base system widgets have been included expressly for this purpose.
+-   **[Search widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/search-widgets.md)**  
+Several search widgets are provided with Service Portal.
+-   **[Knowledge Management widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/km-widgets.md)**  
+Use Knowledge Management widgets to build a knowledge base for your portal.
+-   **[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sc-widgets.md)**  
+Use the Service Catalog widgets to build a catalog for your portal.
+-   **[Service Portal configuration page widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sp-config-widgets.md)**  
+Service Portal uses widgets for configuration. When you configure a page or a widget for a portal in the Service Portal Configuration page, you actually use Service Portal widgets to do so.
+-   **[Service Portal service status widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/service-status-widgets.md)**  
+Use the service status widgets to display current, planned, and historical outages for business services to your end users.
+
+**Parent Topic:**[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/service-portal-widgets.md)
 

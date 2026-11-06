@@ -1,16 +1,16 @@
 ---
-title: Configure a forecast in a time series visualization
+title: Configure a forecast in a time series data visualization
 description: If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.Forecasting uses standard statistical methods. You can select a method or let the system choose one automatically.If you are a statistics expert, you can select a forecast method manually. By default, the instance chooses the best method for you automatically, based on the fit of the method.Forecast periods have a default length that depends on the frequency of the data sources. Not all data sources have the same frequencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/configure-forecast-ts-viz.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Configure a forecast in a time series visualization
+# Configure a forecast in a time series data visualization
 
 If a time series visualization is configured to show forecasts, you can configure the forecasts for that visualization.
 
@@ -91,7 +91,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which data to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d52597e217">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d59312e223">
 
 **Visualization date range**
 
@@ -99,7 +99,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All data within the date range of the visualization
 
-</td></tr><tr><td id="d52597e226">
+</td></tr><tr><td id="d59312e232">
 
 **Previous periods**
 
@@ -107,7 +107,7 @@ All data within the date range of the visualization
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Period length**.If you select Previous periods, also specify the number of periods in the **Number of periods to consider** field.
 
-</td></tr><tr><td id="d52597e243">
+</td></tr><tr><td id="d59312e249">
 
 **Specific starting date**
 
@@ -119,7 +119,7 @@ All scores collected after a start date. If you select Specific starting date, a
 </table>    **Warning:** If there are insufficient data points to generate a forecast, nothing is shown, neither the forecast nor a message.
 
 
-**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 
 **Related topics**  
 

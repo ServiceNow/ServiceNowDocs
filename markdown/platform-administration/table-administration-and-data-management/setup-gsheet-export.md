@@ -7,7 +7,7 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-05-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -32,10 +32,10 @@ The connection and credentials record contains the information that the Google S
 
 -   **[Set up the OAuth application on the Google Sheets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/set-up-oauth-app-gsheets-api.md)**  
 Set up the OAuth application on the Google Sheets API so that you can authenticate requests from your ServiceNow instance to access Google Sheets.
--   **[Configure ServiceNow connection and credential aliases for Google sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/config-connect-credentials-aliases-for-gsheets.md)**  
-Configure connection and credential aliases to authenticate an integration between your ServiceNow instance and Google Drive.
 -   **[Create an application registry for Google Sheets on a ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/configure-app-registry-gsheets.md)**  
 Register the Google Drive application in your ServiceNow instance to enable OAuth authorization for exporting table records directly to Google Sheets.
+-   **[Configure ServiceNow connection and credential aliases for Google sheets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/config-connect-credentials-aliases-for-gsheets.md)**  
+Configure connection and credential aliases to authenticate an integration between your ServiceNow instance and Google Drive.
 
 **Parent Topic:**[Exporting data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_ExportData.md)
 

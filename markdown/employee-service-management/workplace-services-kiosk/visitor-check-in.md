@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -64,5 +64,5 @@ Role required: sn\_wsd\_kiosk.viewer
 7.  View the next steps, then select **Done**.
 
 
-**Parent Topic:**[Use Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

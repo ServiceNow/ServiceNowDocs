@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/create-synthetic-monitors-from-incidents.html
 release: yokohama
 topic_type: task
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Create synthetic monitors from incidents

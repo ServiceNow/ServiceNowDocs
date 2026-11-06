@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed UI overview, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -25,8 +25,6 @@ Role required: none
 1.  Use the **Search** field to locate any type of feed.
 
     As you type in the **Search** field, the results are dynamically displayed. For example, if you type INC, records that are incidents are forced to the top of the results list.
-
-    \[Omitted image "FeedSelector.png"\] Alt text: Feed selector
 
 2.  You can also select the following types of feed information.
 

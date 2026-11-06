@@ -7,9 +7,9 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Administer Dependency Views, Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Administer, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set a predefined filter as default
@@ -18,7 +18,7 @@ You can set a custom predefined filter as the default predefined filter for view
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_cmdb\_admin or admin
 
 ## Procedure
 

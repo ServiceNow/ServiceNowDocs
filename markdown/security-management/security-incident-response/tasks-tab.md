@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -38,7 +38,7 @@ The Tasks tab displays the details of all the tasks associated with a major secu
     View and update multiple task records using in the form of lists. Using these list categories and filters, you can quickly find and track the tasks you need to work on in a major security incident.
 
 
-\[Omitted image "msim-tasks-list-view.png"\] Alt text: Tasks List view \[Omitted image ""\] Alt text:
+\[Omitted image "msim-tasks-list-view.png"\] Alt text: Tasks List view
 
 The labeled activities are summarized and displayed in the Overview section of the major security incident. A trend chart graph is available on the Overview section to view the consolidated task activities state.
 

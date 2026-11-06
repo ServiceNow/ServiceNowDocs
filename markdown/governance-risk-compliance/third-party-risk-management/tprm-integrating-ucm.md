@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Unified Content Management, UCM, Third-party Risk Management, Smart Assessment templates, Smart Assessment Engine \(SAE\), questionnaires, template activation, content repository, version control]
 breadcrumb: [Smart Assessment Engine assessments, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
@@ -39,6 +39,8 @@ You are responsible for ensuring compliance with applicable laws, regulations, a
 [Viewing third-party risk reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/unified-vrm-workspace.md)
 
 [TPRM Unified content management page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-ucm-page.md)
+
+[Using the SIG questionnaire for a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-sig-use-and-support.md)
 
 [Monitoring your third-party risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-monitoring-tpr.md)
 

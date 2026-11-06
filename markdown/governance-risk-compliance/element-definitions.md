@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/element-definitions.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Comp
 
 An element definition is a configuration item that is assessed in the business impact analysis. The element definitions are also recovered in the business continuity plan. If you have the administrator role, you can set up an element variable that is required for a particular dependency of an element.
 
-The BCM administrator can configure the element definitions in the Business Continuity Management application. Typically, the following element definitions are defined in the Business Continuity Management application:
+The BCM administrator can configure the element definitions in the Business Continuity Management application. These element definitions are defined in the Business Continuity Management application:
 
 -   Applications
 -   Business Processes
@@ -29,11 +29,11 @@ The BCM administrator can configure the element definitions in the Business Cont
 -   Web Server
 -   Windows Server
 
-The following example shows the element definitions in an instance.
+The example shows the element definitions in an instance.
 
 \[Omitted image "element-definitions.png"\] Alt text: Element definitions in an instance.
 
-The following example shows the configuration of an element definition by the Business Continuity Management administrator.
+The example shows the configuration of an element definition by the Business Continuity Management administrator.
 
 \[Omitted image "element-definition-new-record.png"\] Alt text: Element definition.
 
@@ -45,11 +45,9 @@ For more information on configuring an element definition with the BCM administr
 
 ## Configuration of an element variable
 
-As a functional system administrator, you can set up an element variable that is required for a particular dependency of an element. The following example shows an administrator's view of the element variable record.
+As a functional system administrator, you can set up an element variable that is required for a particular dependency of an element. The example shows an administrator's view of the element variable record.
 
 \[Omitted image "new-element-variable.png"\] Alt text: Configuration of an element variable.
 
 For more information on how to configure an element variable in the Business Continuity Management application with an administrator role, see [Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-variable-uib-ws.md).
-
-**Parent Topic:**[Exploring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exploring-bcm.md)
 

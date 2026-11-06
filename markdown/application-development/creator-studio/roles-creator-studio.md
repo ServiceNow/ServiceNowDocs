@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio roles and personas
@@ -117,7 +117,64 @@ now.assist.creator
 
 </td><td>
 
-Grants users access to ServiceNow Otto for Creator skills to create forms in Creator Studio.
+Grants users access to AI skills to create forms in Creator Studio.
+
+</td></tr><tr><td>
+
+Creator Studio configuration admin
+
+</td><td>
+
+sn\_creatorstudio.configuration\_admin
+
+</td><td>
+
+Granular admin role that contains the following Creator Studio granular admin roles:-   sn\_creatorstudio.task\_admin
+-   sn\_creatorstudio.app\_configurator
+-   sn\_creatorstudio.reports\_viewer
+
+For more information on working with granular roles, see .
+
+</td></tr><tr><td>
+
+Task admin
+
+</td><td>
+
+sn\_creatorstudio.task\_admin
+
+</td><td>
+
+Granular admin role that grants users access to change several fields on the Request Task table or a table that extends Request Task.This role contains the following:
+
+-   Table-level access for sn\_creatorstudio\_task: Create, Write, Delete
+-   Field-level access for:
+    -   sn\_creatorstudio\_task.request\_type, which enables you to change the associated form
+    -   sn\_creatorstudio\_child\_task.parent, which enables you to change the parent table for any subtask tables created from a task activity added to an app's playbook.
+
+</td></tr><tr><td>
+
+App configurator
+
+</td><td>
+
+sn\_creatorstudio.app\_configurator
+
+</td><td>
+
+Granular admin role that grants users access to change the associated table for an app built in Creator Studio.
+
+</td></tr><tr><td>
+
+Reports viewer
+
+</td><td>
+
+sn\_creatorstudio.reports\_viewer
+
+</td><td>
+
+Granular admin role that grants users access to run reports on tables.
 
 </td></tr></tbody>
 </table>**Note:**

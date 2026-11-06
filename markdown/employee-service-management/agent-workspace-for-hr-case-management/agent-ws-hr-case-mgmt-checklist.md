@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace for HR Case Management contextual side panel, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Using checklists in Agent Workspace for HR Case Management
@@ -18,7 +18,7 @@ Creating and using checklists on an HR case or task helps you resolve issues fas
 
 The Checklists appears as a tab in the contextual side panel.
 
-\[Omitted image "agent-ws-hr-checklist.png"\] Alt text: HR Agent Workspace - Checklist
+\[Omitted image "agent-ws-hr-checklist.png"\] Alt text: Checklists tab in contextual side panel showing checklist items for HR case resolution
 
 When the configuration for an HR service or HR task template has checklists, they automatically appear. Having a checklist for an HR service or HR task template ensures consistency when resolving issues. For information on configuring checklists, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-service.md) and [Configure an HR task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-task-template.md).
 
@@ -26,19 +26,19 @@ When the configuration for an HR service or HR task template has checklists, the
 
     To create a checklist directly into an HR case, select **Checklists**.
 
-    1.  Click **Add item**.
+    1.  Select **Add item**.
         1.  In **Checkbox text**, add instructions.
         2.  Select **Add link** to add link text and link.
         3.  Select **Apply** and **Save**.
     2.  To rename a checklist item, select **Edit**. Make the required changes and select **Save**.
     3.  To reorder a checklist item, select **Edit**.
-        1.  Select **Reorder item** \[Omitted image "item-reorder.png"\] Alt text: Use to reorder a checklist item.
+        1.  Select **Reorder item** \[Omitted image "item-reorder.png"\] Alt text:.
         2.  Drag and place the item at the required position.
         3.  Select **Save**.
-    4.  To delete a checklist item, select **Remove item** \[Omitted image "item-remove.png"\] Alt text: Use to remove a checklist item.
+    4.  To delete a checklist item, select **Remove item** \[Omitted image "item-remove.png"\] Alt text:.
 -   **Creating a checklist directly into an HR Task**
 
-    Create an HR task with **Checklist** for the **HR Task Type**. See [Create a task for a case using HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-task.md).
+    Create an HR task with **Checklist** for the **HR Task Type**.
 
     Go to the legacy HR Case Management and open the task you created.
 

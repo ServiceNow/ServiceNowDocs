@@ -1,28 +1,24 @@
 ---
 title: Setting up specifications and product offerings
-description: By creating and publishing versioned specifications and product offerings in a product catalog, your customers can order up-to-date versions of the products or services that they require. Your product catalog manager can create versions of the published specifications and product offerings with the required enhancements to support your customer's business, marketing, manufacturing, or operational changes.
+description: By creating and publishing versioned specifications and product offerings in a technical product catalog, your customers can order up-to-date versions of the products or services that they require. Your product catalog manager can create versions of the published specifications and product offerings with the required enhancements to support your customer's business, marketing, manufacturing, or operational changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-product-catalog.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Setting up specifications and product offerings
 
-By creating and publishing versioned specifications and product offerings in a product catalog, your customers can order up-to-date versions of the products or services that they require. Your product catalog manager can create versions of the published specifications and product offerings with the required enhancements to support your customer's business, marketing, manufacturing, or operational changes.
+By creating and publishing versioned specifications and product offerings in a technical product catalog, your customers can order up-to-date versions of the products or services that they require. Your product catalog manager can create versions of the published specifications and product offerings with the required enhancements to support your customer's business, marketing, manufacturing, or operational changes.
 
 ## Overview of product offerings with specifications
 
-As a product catalog manager, you set up product offerings in a product catalog. A product offering contains the product description, pricing, eligibility, and product options. You use a product catalog to group your product offerings so that your customers can order the products or services that they want. Only published product offerings can be added to customer contracts.
+As a product catalog manager, you set up product offerings in a technical product catalog. A product offering contains the product description, pricing, eligibility, and product options. You use a product catalog to group your product offerings so that your customers can order the products or services that they want. Only published product offerings can be added to customer contracts.
 
-For example, the following diagram shows the relationships between the product offerings, the product specification, the service specification, and the resource specification for an SD-WAN product model.
-
-\[Omitted image "SDWAN\_product\_model.png"\] Alt text: Infographic displaying the relationship between a product offering, product specification, service specification, and resource specification. For the text description, refer to the definitions that follow.
-
-Each product offering has the following components:
+The relationship between product offerings and the product, service, and resource specification determine how a product is fulfilled. Each product offering has the following components:
 
 -   **Product specification**
 
@@ -31,8 +27,6 @@ Each product offering has the following components:
     -   All the specification characteristic options that are available for a product, and how they should be fulfilled.
     -   Various categories of information, such as the brand, cost, terms and conditions, and product-related materials, which include product visuals. Product specifications are customer-facing and are added to product offerings.
     -   Its relationship to other product, service, and resource specifications, and how a customer order of a product offering is delivered.
-    To learn more, see .
-
 -   **Service specification**
 
     A service specification defines a service, and the technical information of that service, including the following:
@@ -40,8 +34,6 @@ Each product offering has the following components:
     -   All the specification characteristic options that are available for a service, and how they should be fulfilled.
     -   Various categories of information, including the cost, terms and conditions, and service-related materials. These resources include the service-related visuals and implementation guides. Service specifications can be customer-facing or resource-facing.
     -   Its relationship to other product, service, and resource specifications.
-    To learn more, see .
-
 -   **Resource specification**
 
     A resource specification defines the technical information for a resource, including the following:
@@ -49,12 +41,19 @@ Each product offering has the following components:
     -   All the specification characteristic options that are available for a resource, and how they should be fulfilled.
     -   Various categories of information, such as the manufacture, model, and brand-related information about a resource, including the resource visuals and activation guides. Resource specifications are not customer-facing.
     -   Its relationship to other product, service, and resource specifications. You can enable the product and service delivery by using the required resource.
-    To learn more, see .
 
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-characteristics.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-characteristics.md)**  
 
-The following example shows a managed firewall service structure that incorporates service and resource specifications.
-
-\[Omitted image "service-structure-managed-firewall-service.png"\] Alt text: Infographic displaying the product domain and the relationship between customer and resource facing service specifications, and resource specifications. For more information, refer to the text that follows.
+-   **[Create specification characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-specification-characteristic.md)**  
+Define characteristics for a product, service, or resource specification.
+-   **[Create specification relationships, quantity mapping, and decomposition rules for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-specification-rels.md)**  
+Create the specification relationships and optional decomposition rules that define the associations between the product, service, and resource specifications for a product that you offer. These relationships impact how an order is fulfilled for a customer.
+-   **[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-specification-version-update.md)**  
+Enterprises frequently create and update new versions of product and service specifications. When these changes occur, it's important to update the existing product specification in ServiceNow®. Failure to update the product specifications can lead to difficulties with MACD \(Modify, Add, Change, Delete\) operation when orders enter fulfillment.
+-   **[Validating product offerings before publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/extended-product-lifecycle-states.md)**  
+Extended life cycle states add validation stages before publication, so you can assemble and review catalog hierarchies without publishing unfinished records.
+-   **[Releasing product offerings by distribution channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/channel-specific-availability.md)**  
+Channel-specific availability lets you release a published product offering to different distribution channels on different dates. Use channel overrides to coordinate phased rollouts instead of launching everywhere at once.
 
 **Parent Topic:**[Configuring product offerings and catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-managing-product-catalogs.md)
 

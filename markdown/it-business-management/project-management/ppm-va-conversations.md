@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent for PPM, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Virtual Agent for PPM, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # PPM Virtual Agent conversation flows
@@ -38,4 +38,13 @@ The following predefined topic conversations are available to view if you have t
 
     Quality-related information like projects that do not have a business case, strategy, program, or portfolio assigned to them. This information helps you evaluate projects that are not aligned to any strategy, business case, program, or portfolio.
 
+
+**Related topics**  
+
+
+[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/activate-ppm-va.md)
+
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/setup-ppm-va.md)
+
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-topic-blocks.md)
 

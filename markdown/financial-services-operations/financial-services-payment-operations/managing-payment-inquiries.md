@@ -7,11 +7,11 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [payment inquiries, Beneficiary Claim Non-Receipt, BCNR, Payment in Error, PiE, internal inquiries, external inquiries, inquiry cases, payment claims, Customer Service Portal, Consumer Service Portal, third-party banks, assignment rules, inquiry agents]
 audience: [other, other, other]
-breadcrumb: [Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Managing payment inquiries
@@ -62,5 +62,5 @@ Propose a solution that is based on your findings from the investigation of the 
 -   **[Close a payment inquiry case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/close-payment-inquiry-case.md)**  
 Close the case after you've created a claim case for the inquiry case or the customer has accepted your proposed solution.
 
-**Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
+**Parent Topic:**[Using Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/using-payment-operations.md)
 

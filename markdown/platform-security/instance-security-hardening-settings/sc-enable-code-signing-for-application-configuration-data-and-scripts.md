@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Malicious code, Hardening settings, Platform Security]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Malicious code, Hardening settings, Platform Security]
 
 Manage Code Signing for application configuration data and scripts on your instance.
 
-Code Signing can help improve security by validating sensitive application configuration data and scripts before they are used. Code Signing creates digital signatures for the data which later are checked to confirm the authenticity and integrity of the data. This verification prevents malicious data or scripts from being used on the instance which may lead to full compromise of the instance.
+Code Signing can help improve security by validating sensitive application configuration data and scripts before they’re used. Code Signing creates digital signatures for the data, which are later checked to confirm the authenticity and integrity of the data. This verification helps prevent malicious data or scripts from being used on the instance, which may lead to full compromise of the instance.
 
 Enable Code Signing on your instance by following the steps in [Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/config-code-signing.md). This results in the **com.snc.kmf.signature.validation.flag** system property being set to true.
 
-**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It’s non-revertible.
 
 ## More information
 

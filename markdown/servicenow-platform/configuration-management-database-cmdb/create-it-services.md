@@ -1,20 +1,20 @@
 ---
-title: Create an application service
-description: Create an application service to adhere to CSDM standards and to standardize the organization, maintenance, and monitoring of services in your organization.
+title: Create a Service instance \(application service\)
+description: Create an application service to adhere to Common Service Data Model standards and to standardize the organization, maintenance, and monitoring of services in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/create-it-services.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Create an application service
+# Create a Service instance \(application service\)
 
-Create an application service to adhere to CSDM standards and to standardize the organization, maintenance, and monitoring of services in your organization.
+Create an application service to adhere to Common Service Data Model standards and to standardize the organization, maintenance, and monitoring of services in your organization.
 
 ## Before you begin
 
@@ -23,16 +23,16 @@ Role required: Depending on the population method used:
 -   Dynamic CI Group: app\_service\_admin
 -   Manual: app\_service\_admin
 -   Dynamic Service: app\_service\_admin
--   Top Down Discovery: sm\_admin
+-   Top-Down Discovery: sm\_admin
 -   Tags: sm\_admin
 
 ## About this task
 
-An application service is a set of interconnected applications and hosts which are configured to offer a service the the organization. Application services can be internal, like an organization's email system, or customer-facing, like an organization's website.
+An application service is a set of interconnected applications and hosts, which are configured to offer a service for the organization. Application services can be internal, like an organization's email system, or customer-facing, like an organization's website.
 
-An application service has an entry point, which lets users access the application service. If you are at the planning stage and do not know what the entry points are for an application service, you can create the application service without entry points. Such an application service is referred to as an empty application service, to which you can add entry points at any later time.
+An application service has an entry point, which lets users access the application service. If you are at the planning stage and don’t know what the entry points are for an application service, you can create the application service without entry points. Such an application service is referred to as an empty application service, to which you can add entry points at any later time.
 
-All application services created in the Application Service wizard, are set with the **application service** service classification.
+All application services created in the Application Service wizard, are set with the **application service** classification.
 
 Service Mapping, if activated, can automatically discover and map application services as described in [Application service mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_DefineMapBusinessServices.md). A discovered application service contains the CIs and the connections between them that Service Mapping discovered and mapped.
 
@@ -42,13 +42,11 @@ You can also create an application service by using the [createOrUpdateService -
 
 1.  Navigate to **All** &gt; **CSDM** &gt; **Manage Technology Management Services** &gt; **Service Instance**.
 
-2.  In the Application Services list view, click **New** to open the Application Service wizard.
+2.  In the Service Instances list view, select **New** to open the Application Service wizard.
 
 3.  In the **Provide Basic Details** tab:
 
     1.  Fill out the fields for Basic Details.
-
-        \[Omitted image "app-services-tab1.png"\] Alt text: Basic details tab for new application service
 
 <table id="table_gtd_cxq_zkb"><thead><tr><th>
 
@@ -72,7 +70,7 @@ Name
 
 </td><td>
 
-Unique application service name which is not in use by any other type of application service. Use self-explanatory names such as `mailing service` or `printing service`.
+Unique application service name, which isn’t in use by any other type of application service. Use self-explanatory names such as `mailing service` or `printing service`.
 
 </td></tr><tr><td>
 
@@ -147,7 +145,7 @@ User who is familiar with the infrastructure and applications making up the serv
 
     2.  In the Set Relationships section, add relationships between the application service and other components in the CSDM domain.
 
-    3.  Click the **Business Application**, **Technical Service Offering**, **Business Service Offering**, or the **Parent Application Service** tab, and add items to the respective **Selected** list.
+    3.  Select the **Business Application**, **Technical Service Offering**, **Business Service Offering**, or the **Parent Application Service** tab, and add items to the respective **Selected** list.
 
         -   The technical service offering list includes records in the Service Offering \[service\_offering\] table, in which the **Service classification** attribute is **Technical Service**.
         -   The business service offering list includes records in the Service Offering \[service\_offering\] table, in which the **Service classification** attribute is **Business Service**.
@@ -155,7 +153,7 @@ User who is familiar with the infrastructure and applications making up the serv
             -   Platform host and platform application deployments
             -   Micro service deployments in which one or more micro services identified as an application service, is part of a larger application service deployment
             -   Shared technical service dependencies
-    4.  Click **Next**.
+    4.  Select **Next**.
 
     For information about CSDM relationships, see [CI relationships in the CSDM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/ci-relationships.md).
 
@@ -165,36 +163,36 @@ User who is familiar with the infrastructure and applications making up the serv
 
     \[Omitted image "app-services-tab2.png"\] Alt text: Populate the application service tab for a new application service
 
-    1.  Click **Choose a Method** or click **Next** to skip selecting a service population method.
+    1.  Click **Choose a Method** or select **Next** to skip selecting a service population method.
 
     2.  On the Choose a Method page, select a **Service Population Method**, and then follow the respective link to complete the specific population method:
 
-        -   **Top Down Discovery**: [Populate application services using top-down discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-top-down.md)
+        -   **Top Down Discovery**: [Use top-down discovery to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-top-down.md)
         -   **Dynamic CI Group**: [Populate an application service using the Dynamic CI Group method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md).
-        -   **Tags**: [Populate application services using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.md)
-        -   **Manual**: [Populate an application service using the Manual method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md)
+        -   **Tags**: [Use tags to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-tags.md)
+        -   **Manual**: [Use the Manual method to populate application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-manual.md)
         -   **Dynamic Service**: [Populate an application service using the Dynamic Service method](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-service.md)
         **Note:** The **Top Down Discovery** and the **Tags** options are available only if Service Mapping is installed.
 
     3.  To add another method to populate the application service, click **Add Method** on the Service Population Methods page.
 
-        Or, click **Next**.
+        Or, select **Next**.
 
-        -   You can add any combination of the **Top Down Discovery** and the **Manual** methods. However, if you select the **Dynamic CI Group**, **Tags**, or the **Dynamic Service** method, the **Add Method** button is grayed out and you cannot add additional methods.
-        -   You can click a card for a Converted Business Service method to see details about the service conversion, such as the conversion type. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md).
+        -   You can add any combination of the **Top Down Discovery** and the **Manual** methods. However, if you select the **Dynamic CI Group**, **Tags**, or the **Dynamic Service** method, the **Add Method** button is grayed out and you can’t add additional methods.
+        -   You can select a card for a Converted Business Service method to see details about the service conversion, such as the conversion type. For more information, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/convert-bus-to-app-svc-intro.md).
 5.  On the **Preview the Service** tab, review and verify the summaries for creating and populating the application service.
 
     \[Omitted image "app-services-tab3.png"\] Alt text: Preview service tab
 
     1.  Review **Relationships**.
 
-    2.  You can click **Edit Relationships** to modify the relationships to other CSDM objects.
+    2.  You can select **Edit Relationships** to modify the relationships to other CSDM objects.
 
     3.  Review **Population Methods Summary**.
 
-    4.  You can click **Edit Methods** to modify the selection methods.
+    4.  You can select **Edit Methods** to modify the selection methods.
 
-    5.  Click **Done**.
+    5.  Select **Done**.
 
 
 ## Result
@@ -209,14 +207,14 @@ The application service is created, and you can access the new application servi
 
 -   If the service population method is **Dynamic CI Group**:
 
-    -   Click **View CMDB Group CI's** to list all the CIs in the CMDB group that is associated with the application service.
-    -   Click **View Service CI's** to list all the CIs in the application service.
+    -   Select **View CMDB Group CI's** to list all the CIs in the CMDB group that is associated with the application service.
+    -   Select **View Service CI's** to list all the CIs in the application service.
     Both lists of CIs are identical, unless the CMDB group contains more than 10,000 CIs. In this case, **View CMDB Group CI's** shows all the CIs in the CMDB group, and **View Service CI's** shows only the 10,000 CIs that are members of the application service.
 
--   If the service population method is **Tags**, **Top Down Discovery**, or **Manual**, and click **View Map** to [view the application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.md) where you can:
+-   If the service population method is **Tags**, **Top Down Discovery**, or **Manual**, and select **View Map** to [view the application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-map-base-system.md) where you can:
     -   [Link application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/link-services-to-services.md)
     -   [View CI attributes in an application service map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ViewCIDetails.md)
     -   [View the change history of application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ViewCIChanges.md)
     -   [Compare two versions of an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_CompareBS.md)
--   Click **Advanced**, and then on the Advanced Details page, click **Additional Info**, **Questionnaire**, **Reject Messages**, or **Worknotes**, to add details.
+-   Select **Advanced**, and then on the Advanced Details page, select **Additional Info**, **Questionnaire**, **Reject Messages**, or **Worknotes**, to add details.
 

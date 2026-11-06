@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/manual-md-reuse.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Create a manual metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -151,8 +151,6 @@ Data owner type
 Type of the data owner responsible for the manual metric definition. The choices are as follows:-   **User**
 -   **User group**
 
-**Note:** Only groups that include at least one member with the ESG Metrics Manager role or higher can be selected for this field.
-
 </td></tr><tr><td>
 
 Data owner
@@ -224,8 +222,6 @@ Type of the approver of the metric definition. The choices are as follows:-   **
 
 **Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/components-installed-with-esg.md).
 
-**Note:** Only groups that include at least one member with the ESG Metrics Manager role or higher can be selected the User Group.
-
 </td></tr><tr><td>
 
 Approver
@@ -236,8 +232,6 @@ Approver user or approver group that is responsible to approve the metric defini
 -   **Approver group**: Displayed when the User option is selected.
 
 **Note:** This field appears only when the Metric approval property is set to **Simple**. For more information see, [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/components-installed-with-esg.md).
-
-**Note:** Only users with the ESG Program Manager role or higher can be selected.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -262,8 +256,6 @@ Enterprise Owner Type
 
 Type of enterprise owner responsible for the manual metric definition. The choices are as follows:-   **User**
 -   **User group**
-
-**Note:** Only groups with at least one member with the ESG Metrics Manager role or higher can be selected in this field.
 
 </td></tr><tr><td>
 
@@ -300,7 +292,7 @@ Due date offset
 
 </td><td>
 
-Number of business days after the schedule end date when the metric data task becomes overdue. For example, if the frequency of a metric definition is monthly and if you enter `15` in this field, then the due date for metric data task will be overdue 15 business days after the month ends. If set to 0, the due date is set to one day after the end date.**Note:** The offset is based on the applied schedule.
+Number of days after the schedule end date when the metric data task becomes overdue. For example, if the frequency of a metric definition is monthly and if you enter `15` in this field, then the due date for metric data task will be overdue 15 days after the month ends.
 
 </td></tr><tr><td>
 
@@ -308,7 +300,7 @@ Enterprise owner
 
 </td><td>
 
-Enterprise owner of the manual metric definition.**Note:** Only users with the ESG Metrics Manager role or higher can be selected in this field.
+Enterprise owner of the manual metric definition.
 
 </td></tr><tr><td>
 
@@ -318,7 +310,7 @@ Nature
 
 Nature of the manual metric definition. The choices are as follows:-   **None**: If you don’t want any change in the metric direction, select this option.
 -   **Leading** \(Predictive\) Metric: Is predictive and helps anticipate future outcomes. In this case, the company may use a leading metric related to GHG emissions, such as the amount of energy consumed per production unit. By tracking energy consumption, the company can predict its future GHG emissions based on the energy sources used and the efficiency of its production processes. This leading metric enables the company to proactively identify areas for improvement and make informed decisions to reduce emissions.
--   **Lagging** \(Measures Impact\) Metric: Measures the impact of past actions or events. In the example, a lagging metric related to GHG emissions could be the total emissions produced by the company in a given year. This metric provides an assessment of the company's historical environmental impact. By monitoring this metric over time, the company can evaluate the effectiveness of its emission reduction efforts and identify areas where further improvements are needed. Lagging metrics help measure the outcomes of past actions and inform future strategies.
+-   **Lagging** \(Measures Impact\) Metric: Measures the impact of past actions or events. In the example, a lagging metric related to GHG emissions could be the total emissions produced by the company in a given year. This metric provides an assessment of the company's historical sustainability impact. By monitoring this metric over time, the company can evaluate the effectiveness of its emission reduction efforts and identify areas where further improvements are needed. Lagging metrics help measure the outcomes of past actions and inform future strategies.
 -   **Current** metric: Monitors ongoing processes and identifies real-time improvement areas. For GHG emissions, a current metric could be the emissions intensity, which measures the emissions generated per unit of production. By tracking emissions intensity, the company can identify specific areas within its operations that contribute to higher emissions. This metric helps the company identify real-time improvement opportunities, such as optimizing energy usage, implementing energy-efficient technologies, or adopting renewable energy sources.
 
 </td></tr><tr><td>

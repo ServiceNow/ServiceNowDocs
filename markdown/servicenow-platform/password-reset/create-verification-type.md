@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing Password Reset processes, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a custom Password Reset verification type
@@ -18,7 +18,7 @@ Each verification in Password Reset is based on the settings for a verification 
 
 ## Before you begin
 
-Role required: password\_reset\_admin or admin
+Role required: password\_reset\_admin
 
 Review the verification types that are provided in the base system to determine whether to create a custom verification type. Then review the verification type components to develop. For more information about verification types in the base system, see [Verification types in the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/verification-types-in-the-base-system.md).
 

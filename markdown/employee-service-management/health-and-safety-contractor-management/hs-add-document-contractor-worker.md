@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator or sn\_ohs\_im.document\_writ
 
 2.  Open a contractor worker record to add the document to.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d419150e73">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d451261e73">
 
 Option
 
-</th><th align="left" id="d419150e76">
+</th><th align="left" id="d451261e76">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d419150e82">
+</th></tr></thead><tbody><tr><td id="d451261e82">
 
 **From a contractor company record**
 
@@ -46,7 +46,7 @@ Steps
 4.  In the **Workers** tab, select the worker from the list to add the document to.
 
 
-</td></tr><tr><td id="d419150e127">
+</td></tr><tr><td id="d451261e127">
 
 **From Health and Safety user profile list**
 

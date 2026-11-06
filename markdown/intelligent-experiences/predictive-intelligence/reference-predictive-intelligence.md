@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Predictive Intelligence references

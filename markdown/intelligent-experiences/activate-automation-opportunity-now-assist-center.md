@@ -1,0 +1,161 @@
+---
+title: Implement an automation opportunity from AI Admin Center \(Next Experience UI\)
+description: Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/activate-automation-opportunity-now-assist-center.html
+release: yokohama
+topic_type: task
+last_updated: "2026-10-02"
+reading_time_minutes: 4
+keywords: [AI Admin Center, Now Assist Center, AI, AI setup]
+breadcrumb: [AI Agent Advisor in AI Admin Center, Use, AI Agent Advisor, AI Admin Center, Getting started with AI, Enable AI Experiences]
+---
+
+# Implement an automation opportunity from AI Admin Center\(Next Experience UI\)
+
+Deploy a matched AI agent or a new agent to automate a resolution for an identified automation opportunity.
+
+**Important:** Lux is the new user experience for AI Admin Center. For more information on the Lux experience, see [AI Admin Center user experience \(Lux UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-admin-center-lux-user-experience.md).
+
+The Next Experience AI Admin Center workspace is being prepared for future deprecation and will no longer be supported. For more information on the Next Experience UI, see [AI Admin Center workspace \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-workspace.md).
+
+In AI Admin Center version 6.1, the Next Experience and Lux user interfaces are both available.
+
+## Before you begin
+
+Role required: sn\_na\_center.nac\_admin
+
+## About this task
+
+Follow these steps to implement an automation opportunity with AI Agent Advisor.
+
+Each automation opportunity includes a set of recommended resolution steps that describe how to automate the identified opportunity. AI Agent Advisor also maps each resolution step to an existing AI agent on your platform when a match is available. Review the details of an opportunity before deciding whether to deploy an agent for it.
+
+**Note:** This topic describes the AI Admin Center feature based on the Next Experience UI. If you're using the Lux user experience for AI Admin Center, see the Lux UI version of this topic.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Admin Center** &gt; **AI Admin Center \(Legacy\)**.
+
+2.  In the Automation opportunitiessection of the home page or in the automation opportunities list tab, select an automation opportunity to view its details.
+
+    The Resolution Steps tab opens showing the opportunity details.
+
+    The page displays summary information for the opportunity, a **Resolution steps**tab with editable implementation steps, and an **Example records**tab with example records from the data source.It also displays an **AI Agents** tab showing the agents created from the automation opportunity.
+
+    \[Omitted image "now-assist-center-agent-advisor-opportunity-detail-4.png"\] Alt text: Resolution Steps tab showing the opportunity details.
+
+    For an opportunity that has a matching prebuilt AI agent, the page displays the agent name and description.
+
+    \[Omitted image "ai-agent-advisor-matching-prebuilt-agent-2.png"\] Alt text: Automation opportunity details with a matching prebuilt AI agent.
+
+    For more information on finding an automation opportunity, see [View your automation opportunities \(Next Experience UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-view-automation-opportunities.md).
+
+3.  Select the **Example Records** tab to review records from the source table.
+
+    Select a record number to open the record and view its details.
+
+4.  Select the **AI Agents** tab to view AI agents created from the automation opportunity.
+
+5.  Select the **Matched opportunities** tab for a prebuilt AI agent to view the automation opportunities that the AI agent can support.
+
+    Select an opportunity to open it in a separate workspace tab.
+
+6.  In the **Resolution Steps** tab, review the steps for accuracy and completeness in planning your AI agent.
+
+    The **Resolution Steps** tab shows the implementation steps and the matched AI agents for each step.
+
+7.  Adjust the steps as needed.
+
+<table id="table_aj1_mrr_v3c"><thead><tr><th>
+
+Option
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Add a step
+
+</td><td>
+
+1.  Select **Add new step** under the steps.
+2.  Enter the text and select **Save**.
+
+
+</td></tr><tr><td>
+
+Edit a step
+
+</td><td>
+
+1.  Select the **Edit** icon \(\[Omitted image "icon-now-assist-center-edit.png"\] Alt text: Edit icon.\).
+2.  Change the text as needed and select **Save**.
+
+
+</td></tr><tr><td>
+
+Delete a step
+
+</td><td>
+
+1.  1. Select the **Delete** icon \(\[Omitted image "icon-now-assist-center-delete.png"\] Alt text:\).
+2.  2. Select **Delete** to confirm.
+
+
+</td></tr><tr><td>
+
+Reorder steps
+
+</td><td>
+
+Select the **Up** icon \(\[Omitted image "icon-now-assist-center-up.png"\] Alt text: Up icon.\) or **Down** icon \(\[Omitted image "icon-now-assist-center-down.png"\] Alt text: Down icon.\) to move the step in the list.
+
+</td></tr><tr><td>
+
+Restore all
+
+</td><td>
+
+Select **Revert all** to restore the original steps before changes.
+
+</td></tr><tr><td>
+
+Expand all
+
+</td><td>
+
+Select **Expand all** to see the available assets for each step.
+
+ In each applicable step, the description provides the tool name, context, confidence level, and rationale for matching the asset to the step.
+
+ Select **Collapse all** to hide the details.
+
+</td></tr></tbody>
+</table>8.  When the steps are ready to implementfor a custom AI agent, select **Continue in AI Agent Studio**.
+
+    For an opportunity that has a matching prebuilt AI agent,select **Manage in AI Agent Studio**.Skip ahead to step 11.
+
+    The Continue building AI agent box opens.
+
+    \[Omitted image "now-assist-center-agent-advisor-build-agent-2.png"\] Alt text: Continue building AI agent box showing steps for building an agent.
+
+9.  Choose whether the AI agent will communicate as a **Chat Agent** or **Voice Agent**.
+
+10. Select **Continue in AI Agent Studio**.
+
+    The Agent guided setup tab opens.
+
+    \[Omitted image "now-assist-center-agent-advisor-opportunity-agent-setup-define.png"\] Alt text: Guided setup of the AI agent.
+
+11. Complete the development of the AI agentin the Agent guided setup tab using AI Agent Studio capabilities.
+
+    The resolution steps are mapped to the set of instructions and added as tools for the AI agent.
+
+    For more information, see [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-next-best-action-agent.md).
+
+
+**Parent Topic:**[AI Agent Advisor in AI Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-ai-agent-advisor-in-now-assist-center.md)
+

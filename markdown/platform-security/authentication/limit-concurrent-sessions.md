@@ -1,5 +1,5 @@
 ---
-title: Limit concurrent sessions
+title: Concurrent session limits
 description: You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/limit-concurrent-sessions.html
@@ -7,36 +7,36 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
 
-# Limit concurrent sessions
+# Concurrent session limits
 
 You can limit the number of concurrent interactive sessions for a user or role on an instance across all nodes.
 
 <table id="table_t4k_14f_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-lcs.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-lcs.md)
 
  [Learn the features and business value of limit concurrent sessions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/explore-lcs.md)
 
 </td><td>
 
-[Activate\[Omitted image "icon-set-up.png"\] Alt text: Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions-plugin.md)
+[Activate\[Omitted image "bus-optimize-manage.svg"\] Alt text: Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions-plugin.md)
 
  [Understand how to Activate limit concurrent sessions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions-plugin.md)
 
 </td></tr><tr><td>
 
-[Set\[Omitted image "icon-manage.png"\] Alt text: Reviewing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-session-limit-user-role.md)
+[Set\[Omitted image "bus-sdlc.svg"\] Alt text: Set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-session-limit-user-role.md)
 
  [Set the limit concurrent sessions for a user or role.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/set-session-limit-user-role.md)
 
 </td><td>
 
-[Disable\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/disable-session-limit-user-role.md)
+[Disable\[Omitted image "bus-learn.svg"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/disable-session-limit-user-role.md)
 
  [Know about the how to disable limit concurrent sessions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/disable-session-limit-user-role.md)
 

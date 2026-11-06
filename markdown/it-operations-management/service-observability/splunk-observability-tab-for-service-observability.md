@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Splunk templates, Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Splunk Observability templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Splunk Observability tab for Service Observability
@@ -59,5 +59,5 @@ These dashboards display metrics for databases related to the service.
 |Threads|Number of threads used by this service|Splunk|
 |Uptime|Amount of time in \(?\) that the database has been running since its last restart.|CMDB|
 
-**Parent Topic:**[Splunk templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-templates.md)
+**Parent Topic:**[Splunk Observability templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-templates.md)
 

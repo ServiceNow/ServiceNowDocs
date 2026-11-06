@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin, Manually create GRC issues, Use, Risk Management, Governance, Risk, and Compliance]
+breadcrumb: [Issue assignment using the Governance, Risk, and Compliance Predictive Intelligence plugin, Manually create issues, Use, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Train and use the similarity solution definition for issue assignment prediction

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule and manage the jobs that download Azure billing data
@@ -24,13 +24,11 @@ Role required: Cloud Integrations Admin \[sn\_cld\_intg\_core.cloud\_integration
 
 ## About this task
 
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
-
 -   To ensure accurate reporting and recommendations for some providers, make sure that Discovery runs before the scheduled execution.
 -   You can create only one Billing Download job for each service account.
 -   Only costs of unblended type are supported.
 -   Each successful execution of a Billing Download job updates tagged costs. Recent updates that you make to tag category definitions \(for example, adding a tag name to a category\) might not be reflected in cost reports. You should map tag values to tag categories after the first run because populating tag values needs at least one successful run. For more information on applying the latest tag category definitions to cost data without running a Billing Download job, see [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md).
--   When a Billing Download job successfully completes, it triggers the Budget Forecast, Business hours, Reservation/saving plans, Rightsizing, and Unused resources jobs to analyze spend and usage data. This action also updates the actionable recommendations in reports.
+-   When a Billing Download job successfully completes, it triggers the Budget Forecast, Business hours, Rightsizing, Commitments, and Unused resources jobs to analyze spend and usage data. This action also updates the actionable recommendations in reports.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   Cost categories are updated with new cost tag values each time billing data is downloaded. For example, the Cost Center category might include the tags development, testing, and QA. The User category might include the names of your users.
 -   Billing data is downloaded in reverse chronological order by month. For example, if the range is from March to June, data for June is downloaded first.
@@ -304,7 +302,7 @@ The complete billing download occurs on the fourth day or on the billing finaliz
         **Note:** The following changes happen when the job is marked Finished:
 
         -   The state of the records in the Spend Report Daily Aggregate Cost and Spend Report Monthly Aggregate Cost tables change from Generating to Active. Also, existing records are marked inactive.
-        -   The status of the Azure EA to SA mapping execution stage changes from Ready to In Progress. In this execution stage, Enterprise account is mapped to the Service account.
+        -   The status of the Azure EA to SA mapping execution stage changes from Ready to In Progress. In this execution stage, the Enterprise account is mapped to the Service account.
     8.  **Success**: Job is completed successfully.
 
 ## Result

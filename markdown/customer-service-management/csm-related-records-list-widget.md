@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-related-records-list-widget.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable external customers to access problem, change, and request records, Setting up CSM integration with IT Service Management, Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Enable external customers to access problem, change, and request records, Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # Related records list widget

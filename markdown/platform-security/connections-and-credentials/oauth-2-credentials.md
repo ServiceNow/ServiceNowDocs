@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Create and test your credentials, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # OAuth 2.0 credentials
@@ -78,7 +78,7 @@ Ensure that you are aware of these considerations if you have selected the **Con
 -   Ensure that there is at least one MID Server \(in the MID Servers selected in **Applies to**\) with these configurations:
     -   The value of the **Status** field is **Up**.
     -   The value of the **Validated** field is **Yes**.
-    -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/configure-capabilities.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/configure-capabilities.md).\[Omitted image "MidServerDashbardGaugeOAuth2.0.png"\] Alt text: MID Server status.
+    -   The capability of the MID Server is set to **REST** or **ALL**. To learn how to configure the MID server, see .\[Omitted image "MidServerDashbardGaugeOAuth2.0.png"\] Alt text: MID Server status.
 
 To learn more about these statuses, see [MID Server dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerDashboard.md).
 

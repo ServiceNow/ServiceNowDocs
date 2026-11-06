@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/co
 release: yokohama
 topic_type: concept
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+reading_time_minutes: 3
+breadcrumb: [Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configuring Grants Management
@@ -16,16 +16,84 @@ Install the Grants Management application, which enables users to submit and tra
 
 As a user with the admin role, complete the following configuration tasks to set up Grants Management, after you install the [Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-public-sector-digital-services-core.md) application.
 
-|Task|Description|
-|----|-----------|
-|[Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-grants-management-playbook.md)|Install Grants Management from the ServiceNow® Store.|
-|[Configure pre-eligibility questions in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-config-pre-eligibility.md)|Configure the eligibility framework engine to allow agents to confirm whether an applicant is eligible for the specific grant being requested.|
+<table id="table_cmk_mdm_fwb"><thead><tr><th>
 
-## Key capabilities that support the Grants Management Workflows
+Task
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[Install Grants Management for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-install-grants-management.md)
+
+</td><td>
+
+Install Grants Management from the ServiceNow® Store.
+
+</td></tr><tr><td>
+
+[Configure scripted extension points in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-fdtn-scripted-ext-pt.md)
+
+</td><td>
+
+Enable publishing of grant programs, as well as authorized representative activities.
+
+</td></tr><tr><td>
+
+[Configure Restricted Caller Access \(RCA\) for Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-fdtn-doc-template-rca.md)
+
+</td><td>
+
+Allow secure, controlled access for generating results letters.
+
+</td></tr><tr><td>
+
+[Assign user personas, roles, groups, and responsibilities in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-assign-user-roles-responsibilities.md)
+
+</td><td>
+
+Assign roles to members of your grants organization Grants Management application so that your users can have delegated access to Grants Management features, capabilities, and data.
+
+</td></tr><tr><td>
+
+[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-pace.md)
+
+</td><td>
+
+Configure the eligibility framework engine, powered by PaCE, to allow agents to confirm whether an applicant is eligible for the specific grant being requested.
+
+</td></tr><tr><td>
+
+[Configure the Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-reviewer-service-portal.md)
+
+</td><td>
+
+Configure the Grants Management Reviewer Service Portal for merit reviewers to track, score, and review grants proposals.
+
+</td></tr><tr><td>
+
+[Set up a grant program in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-grant-pgr.md)
+
+</td><td>
+
+Set up and configure the details of a new grant program using Grants Management.
+
+</td></tr><tr><td>
+
+[Create a test grant program and grant proposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-grants-management-playbook.md)
+
+</td><td>
+
+Verify the newly-configured grant program setup and grant proposal playbooks are working as expected by creating a new grant program and test grant proposal using the Grants Management.
+
+</td></tr></tbody>
+</table>## Key capabilities that support the Grants Management Workflows
 
 The main ServiceNow capabilities that are leveraged to support the Grants Management workflows are:
 
--   Document Management/Processor​: Manage internal docs with version control, security, &amp; workflow integration. Request and verify docs from applicants​.
+-   Document Processor​: Manage internal docs with version control, security, &amp; workflow integration. Request and verify docs from applicants​.
 -   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/playbooks-psds-exploring.md)​: Provide a visual, step-by-step guide for applicants and agents to complete key processes.​
 -   [Policy as Code Engine \(PaCE\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/pace-managing-policies.md): Streamline the creation, maintenance, and use of screening criteria with a low-code rules engine.
 -   Configurable Portal Widgets: Use pre-built UI components for easy portal set up and modification.

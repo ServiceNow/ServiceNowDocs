@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute a task from the agent map, Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Agent map symbols
@@ -27,6 +27,4 @@ Task icons are color coded and display automatic sequence numbers indicating the
 |\[Omitted image "MultiTask.png"\] Alt text: Red marker.|Multiple tasks|Multiple tasks clustered by proximity. the ServiceNow system gathers tasks together by proximity into a cluster as you increase the altitude of the map view. Counters in the cluster icon indicate the number of tasks rolled up as the perspective changes.|
 
 \[Omitted image "WMAgentMap1.png"\] Alt text: Agent map showing location and status of tasks. Additionally, the Edit tab is open to display date, assigned, and unassigned filters.
-
-**Parent Topic:**[Execute a task from the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheAgentMap.md)
 

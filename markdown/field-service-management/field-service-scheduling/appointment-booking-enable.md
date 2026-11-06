@@ -1,5 +1,5 @@
 ---
-title: Enable or disable appointment booking for an application
+title: Enable or disable appointment booking
 description: Turn the Appointment Booking feature on or off for an application and its individual services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/appointment-booking-enable.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
-# Enable or disable appointment booking for an application
+# Enable or disable appointment booking
 
 Turn the Appointment Booking feature on or off for an application and its individual services.
 
 ## Before you begin
 
-Role required: admin
+Role required: appointment\_booking\_admin
 
 ## Procedure
 

@@ -1,5 +1,5 @@
 ---
-title: Collaborate on a free-form roadmap in Portfolio Planning Workspace
+title: Collaborate on a free-form roadmap with stakeholders
 description: Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/collaborate-free-form-roadmap-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Create a free-form roadmap in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Collaborate on a free-form roadmap in Portfolio Planning Workspace
+# Collaborate on a free-form roadmap with stakeholders
 
 Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
 
@@ -33,15 +33,15 @@ Using the Comments side panel, add attachments or notes at the roadmap-level or 
 
 3.  Select the appropriate tab at the roadmap-level or planning item-level.
 
-<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d194452e103">
+<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d249258e109">
 
 Choice
 
-</th><th align="left" id="d194452e106">
+</th><th align="left" id="d249258e112">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194452e112">
+</th></tr></thead><tbody><tr><td id="d249258e118">
 
 **Roadmap-level**
 
@@ -49,7 +49,7 @@ Action
 
 From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-comments.png"\] Alt text: Comments icon.\)
 
-</td></tr><tr><td id="d194452e133">
+</td></tr><tr><td id="d249258e139">
 
 **Planning item-level**
 
@@ -62,15 +62,15 @@ From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-co
 </td></tr></tbody>
 </table>4.  Add attachments or worknotes.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d194452e161">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d249258e167">
 
 Choice
 
-</th><th align="left" id="d194452e164">
+</th><th align="left" id="d249258e170">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d194452e170">
+</th></tr></thead><tbody><tr><td id="d249258e176">
 
 **Attachments**
 
@@ -78,7 +78,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d194452e185">
+</td></tr><tr><td id="d249258e191">
 
 **Comments**
 
@@ -90,5 +90,5 @@ In the Comments tab, add notes or comments and select **Post Worknotes**.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Create a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
+**Parent Topic:**[Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.md)
 

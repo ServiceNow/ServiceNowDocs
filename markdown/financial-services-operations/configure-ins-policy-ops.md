@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-ins-policy-ops.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Personal Lines Servicing, Personal Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Personal Lines Servicing
@@ -28,15 +28,15 @@ Role required: sn\_ins\_policy\_b2c.admin or admin
 
 2.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d112764e104">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d138252e123">
 
 Task
 
-</th><th align="left" id="d112764e107">
+</th><th align="left" id="d138252e126">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d112764e116">
+</th></tr></thead><tbody><tr><td id="d138252e135">
 
 **Configure service definitions**
 
@@ -46,7 +46,7 @@ Description
 -   Insurance Underwriting Operations
 
 
-</td></tr><tr><td id="d112764e149">
+</td></tr><tr><td id="d138252e168">
 
 **Configure record producers**
 
@@ -54,7 +54,7 @@ Description
 
 [Create or modify record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/create-modify-record-producers-fso-apps.md) to define request forms.
 
-</td></tr><tr><td id="d112764e169">
+</td></tr><tr><td id="d138252e188">
 
 **Create flows**
 
@@ -62,7 +62,7 @@ Description
 
 [Create flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-flow-designer-flows-fso-apps.md) using Workflow Studio.
 
-</td></tr><tr><td id="d112764e191">
+</td></tr><tr><td id="d138252e210">
 
 **Configure playbooks**
 
@@ -70,7 +70,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d112764e213">
+</td></tr><tr><td id="d138252e232">
 
 **Configure CRM Workspace**
 
@@ -78,7 +78,7 @@ Description
 
 [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) to enable requesters, contributors, and processors to interact with customers, and create and work on cases.
 
-</td></tr><tr><td id="d112764e240">
+</td></tr><tr><td id="d138252e259">
 
 **Modify interceptors and workspace record type selectors**
 
@@ -86,7 +86,7 @@ Description
 
 [Modify interceptors and workspace record type selectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-request-types-fso.md) to configure policy request types.
 
-</td></tr><tr><td id="d112764e259">
+</td></tr><tr><td id="d138252e278">
 
 **Configure user groups**
 
@@ -94,7 +94,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d112764e278">
+</td></tr><tr><td id="d138252e297">
 
 **Configure assignment rules**
 
@@ -102,7 +102,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d112764e295">
+</td></tr><tr><td id="d138252e314">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -110,7 +110,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for policy service cases and tasks.
 
-</td></tr><tr><td id="d112764e314">
+</td></tr><tr><td id="d138252e333">
 
 **Configure Document Processor**
 

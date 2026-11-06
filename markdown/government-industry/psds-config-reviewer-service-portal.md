@@ -1,16 +1,16 @@
 ---
-title: Configure Reviewer Service Portal
+title: Configure the Reviewer Service Portal
 description: Configure the Grants Management Reviewer Service Portal for merit reviewers to track, score, and review grants proposals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-reviewer-service-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Grants Management, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure Reviewer Service Portal
+# Configure the Reviewer Service Portal
 
 Configure the Grants Management Reviewer Service Portal for merit reviewers to track, score, and review grants proposals.
 

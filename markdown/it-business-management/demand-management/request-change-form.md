@@ -1,20 +1,20 @@
 ---
 title: Request change form
-description: Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost or schedule.
+description: Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost, or schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/request-change-form.html
 release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Request change form
 
-Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost or schedule.
+Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost, or schedule.
 
 <table id="tbl_RiskFields"><thead><tr><th>
 
@@ -62,7 +62,7 @@ Impact
 
 </td><td>
 
-Impact on the outcome of the demand if you do not approve the requested changes.
+Impact on the outcome of the demand if you don’t approve the requested changes.
 
 </td></tr><tr><td>
 
@@ -94,7 +94,7 @@ Category
 
 </td><td>
 
-Entity for which you are creating the request change. The options are: Resource, Scope, Cost, and Schedule.
+Entity for which you’re creating the request change. The options are: Resource, Scope, Cost, and Schedule.
 
 </td></tr><tr><td>
 

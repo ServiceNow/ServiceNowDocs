@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Software models and Software entitlements, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+last_updated: "2025-07-31"
+reading_time_minutes: 2
+breadcrumb: [Software models and software entitlements, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Automatic creation of software models
@@ -20,8 +20,9 @@ All software installations need to be associated to software models. Being assoc
 
 If a software installation doesn't correspond to any software model, the system automatically creates a software model.
 
--   To create a software model automatically for licensable products, enable the property **Automatically create software models for all 'licensable' products**.
--   To create a software model for not licensable products, enable the property **Automatically create software models for all 'not licensable' products**.
+-   To create a software model automatically for licensable products, enable the property **com.snc.samp.automaticsmrcreation**.
+-   To create a software model for not licensable products, enable the property **com.snc.samp.automaticsmcreation**.
+-   To create a software model result for unlicensed products during software asset reconciliation, enable the property **com.snc.samp.unlicensed\_smr\_creation**.
 
 **Note:** You can update the above mentioned properties by navigating to **Software Asset** &gt; **Administration** &gt; **Properties**.
 
@@ -31,7 +32,12 @@ A software model is only created if no match is found. The software model is cre
 
 Discovery maps are associated to software models only if a discovery map exists for that software model. If a corresponding discovery map doesn't exist in the Content Service library, a software model still gets created without a discovery map.
 
-You can identify if a software model is automatically created by the **Automatically create software models for all 'licensable' products** or **Automatically create software models for all 'not licensable' products** property. In the Software Model list view, click the gear icon to display the `Created source` column. If the value in this property says `System property`, then it indicates that the software model was automatically created by one of the properties.
+You can identify whether a software model or software model result is created automatically by checking which property is used: **com.snc.samp.automaticsmrcreation**, **com.snc.samp.automaticsmcreation**, or **com.snc.samp.unlicensed\_smr\_creation**. In the Software Model list view, select the gear icon to display the `Created source` column. If the value in this property says `System property`, then it indicates that the software model was automatically created by one of the properties. After you enable the properties, wait for the scheduled reconciliation to run, or trigger it manually, to see the results.
 
-**Parent Topic:**[Software models and Software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+**Parent Topic:**[Software models and software entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-models-and-entitlements.md)
+
+**Related topics**  
+
+
+[Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-properties.md)
 

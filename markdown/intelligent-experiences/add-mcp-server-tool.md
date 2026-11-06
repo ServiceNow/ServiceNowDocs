@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/add-mcp-server-tool.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a Model Context Protocol to an AI agent
@@ -24,7 +24,7 @@ Role required: sn\_aia.admin
 
 2.  Open the AI agent that you want to add a Model Context Protocol tool to and navigate to the Add tools and information section.
 
-3.  In the Add tool drop-down list, select **Model Context Protocol**.
+3.  In the Add tool drop-down list, select **MCP server tool**.
 
 4.  On the form, fill in the fields.
 
@@ -42,7 +42,7 @@ Select Model Context Protocol Server
 
 </td><td>
 
-The Model Context Protocol Server that you want to add to the tool.
+The Model Context Protocol Server that you want to add to the tool.**Note:** Verify that the MCP Server is authenticated before adding the MCP tool to an AI agent. If the MCP Server isn’t authenticated, then you receive an error message - "Authentication is needed to display tools. Open the MCP server record to authenticate."
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Tool and Description
 
 </td><td>
 
-Description of the Model Context Protocol and what it’s going to do to assist your AI agent.**Note:** This description is sent to the LLM \(large language model\).
+Description of the Model Context Protocol and what it’s going to do to assist your AI agent.**Note:** This description is sent to the LLM \(LLM\).
 
 </td></tr><tr><td>
 

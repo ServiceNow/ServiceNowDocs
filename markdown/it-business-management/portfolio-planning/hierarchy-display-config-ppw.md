@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Configuring Prioritization and Roadmap settings in Portfolio Planni
 
 Show or hide parent records of planning items shown in the Hierarchy view for high-level and regular portfolio plans by configuring system properties.
 
--   **Display empty parent entities in the Hierarchy view**
+-   **Display empty parent entities in the Hierarchy tab**
 
-    In the Hierarchy view of the Prioritization tab, the parent records are displayed only if they have any associated planning items.
+    In the Hierarchy tab, the parent records are displayed only if they have any associated planning items.
 
-    For example, a portfolio plan built from the Organization lens \(Company &gt; Business Unit &gt; Department\) is used to manage and track plans for Demands and Projects. So, when you switch to the Prioritization Hierarchy view, only those departments that have at least one Demand or Project associated with it are shown in the view.
+    For example, a portfolio plan built from the Organization lens \(Company &gt; Business Unit &gt; Department\) is used to manage and track plans for Demands and Projects. So, when you switch to the Hierarchy tab, only those departments that have at least one Demand or Project associated with it are shown in the view.
 
     If you want to see other departments that are included in this portfolio plan but have no planning items associated to them, work with your administrator to create the system property **sn\_align\_ws.gantt\_hide\_empty\_entities** and set it to **false**.
 
@@ -28,9 +28,9 @@ Show or hide parent records of planning items shown in the Hierarchy view for hi
 
 -   **Display complete hierarchy for high-level portfolio plans**
 
-    For high-level portfolio plans, the Hierarchy view by default shows only the hierarchy up to the parent level.
+    For high-level portfolio plans, the Hierarchy tab by default shows only the hierarchy up to the parent level.
 
-    For example, a portfolio plan built from the Strategic Investment lens \(Company &gt; Strategic priority &gt; Initiative &gt; Strategic program\) is used to manage and track plans for strategic programs. So, when you switch to the Prioritization Hierarchy view, only Strategic Priority &gt; Initiative levels are shown by default.
+    For example, a portfolio plan built from the Strategic Investment lens \(Company &gt; Strategic priority &gt; Initiative &gt; Strategic program\) is used to manage and track plans for strategic programs. So, when you switch to the Hierarchy tab, only Strategic Priority &gt; Initiative levels are shown by default.
 
     If you want to see the whole hierarchy of Strategic priority &gt; Initiative &gt; Strategic program &gt; planning items, work with your administrator to create the system property **true**.
 

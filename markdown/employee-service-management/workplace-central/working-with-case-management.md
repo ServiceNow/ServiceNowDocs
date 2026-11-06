@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,6 +26,10 @@ Update, edit, or resolve a workplace case at any time from a single workspace us
 As a case manager, apart from managing the workplace cases, you can also create a raise workplace service request directly using the Workplace Central Case management workspace.
 -   **[Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md)**  
 As a case manager, to fulfill a case, you can create a child case and also a child task using the workspace.
+-   **[Print a workplace case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/print-a-workplace-case.md)**  
+As a case manager, apart from managing workplace cases, you can also print a workplace case using the Workplace Central Case management workspace.
+-   **[Managing print case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/manage-print-case.md)**  
+Filter workplace cases using criteria such as Short Description, Workplace Location, or other relevant fields to generate a consolidated report using the Workplace Central Case management workspace.
 -   **[Cancel or delete a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.md)**  
 As a case manager, cancel a workplace case at any time if it’s no longer required. As an admin, delete a case record completely from the application if it’s no longer required.
 
@@ -35,6 +39,8 @@ As a case manager, cancel a workplace case at any time if it’s no longer requi
 
 
 [Creating custom lists on Workplace Central]()
+
+[Working with Space Planning]()
 
 [Working with Space Optimization]()
 

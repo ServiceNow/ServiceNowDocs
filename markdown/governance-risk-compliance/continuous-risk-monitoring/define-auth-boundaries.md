@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [RMF step 0 - Prepare the authorization package, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 0 - Prepare the authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Define the authorization boundary
@@ -24,21 +24,13 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 
 1.  Navigate to **All** &gt; **Continuous Authorization &amp; Monitoring** &gt; **All Authorization Boundaries**.
 
-    \[Omitted image "cam-auth-boundaries.png"\] Alt text: All authorization boundaries
-
 2.  Select **New** and then fill in the form.
 
     The settings are described in [Fields on the Authorization Boundary form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-boundary.md).
 
-    \[Omitted image "cam-auth-boundaries-new.png"\] Alt text: Authorization boundary - new record.
-
 3.  Save the record.
 
     Use the tabs that appear to identify which systems and parts of systems you own and should go through the authorization process.
-
-
-
-    \[Omitted image "cam-filters.png"\] Alt text: Boundary tabs.
 
 4.  You can use the **Boundary Filters** tab to create filters for identifying all of your system elements.
 
@@ -46,7 +38,7 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 
 5.  If elements appear that should not be included in the authorization process, you can select them, and select **Delete** from the **Actions on selected rows** list at the bottom of the screen.
 
-6.  You can select **Add** to include additional assets or systems to the list of system elements in the authorization boundary.
+6.  You can select **New** to include additional assets or systems to the list of system elements in the authorization boundary.
 
 
 ## What to do next

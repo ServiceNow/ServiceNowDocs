@@ -1,20 +1,20 @@
 ---
 title: Install Field Service Virtual Agent Conversations
-description: You can install the Field Service Virtual Agent Conversations application \(com.sn\_fsm.virtualagent\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes conversation topics and installs related ServiceNow Store applications and plugins if they are not already installed.
+description: You can install the Field Service Virtual Agent Conversations application \(sn\_fsm\_va\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes conversation topics and installs related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/mobile-experience-for-field-service-management-glide-family/activate-virtual-agent-fsm.html
 release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Field Service Virtual Agent Conversations, Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up Virtual Agent conversations, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Install Field Service Virtual Agent Conversations
 
-You can install the Field Service Virtual Agent Conversations application \(com.sn\_fsm.virtualagent\) if you have the admin role. The application includes conversation topics and installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Field Service Virtual Agent Conversations application \(sn\_fsm\_va\) if you have the admin role. The application includes conversation topics and installs related ServiceNow® Store applications and plugins if they are not already installed.
 
 ## Before you begin
 
@@ -61,11 +61,11 @@ Enable Virtual Agent to debrief the Work in Progress tasks for today and for pre
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Field Service Virtual Agent Conversations application \(com.sn\_fsm.virtualagent\) using the filter criteria and search bar.
+2.  Find the Field Service Virtual Agent Conversations application \(sn\_fsm\_va\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -73,7 +73,7 @@ Enable Virtual Agent to debrief the Work in Progress tasks for today and for pre
 
 4.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 5.  Select **Install**.
 

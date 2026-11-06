@@ -1,5 +1,5 @@
 ---
-title: Set safe content security policy for svg files \[New in Security Center 1.3\]
+title: Set safe content security policy for SVG files
 description: The com.glide.csp.self\_script\_src\_svg property adds the script-src none directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-set-safe-content-security-policy-for-svg-files.html
@@ -7,16 +7,20 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Set safe content security policy for svg files \[New in Security Center 1.3\]
+# Set safe content security policy for SVG files
 
 The **com.glide.csp.self\_script\_src\_svg** property adds the **script-src none** directive to the HTTP Content-Security-Policy header when Scalable Vector Graphics \(SVGs\) are accessed through the Translation Memory Index \(IIX\) file extension.
 
-The **com.glide.csp.self\_script\_src\_svg** property prevents malicious file attachments that stores cross site scripting \(XSS\) attacks from running in an instance. Without this policy, a bad actor could cause a user to run arbitrary JavaScript code in their web browser which could lead to security vulnerabilities such as data exfiltration and session takeover.
+The **com.glide.csp.self\_script\_src\_svg** system property adds **script-src none** to the Content-Security-Policy header when SVGs are accessed via the IIX file extension. This prevents the exploitation of stored XSS from crafted file attachments stored within the instance.
+
+Ensure that the property **com.glide.csp.self\_script\_src\_svg** is set to **true**.
+
+**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 ## More information
 
@@ -50,7 +54,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -70,6 +74,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -84,7 +96,7 @@ Security risk
 
 -   Severity score: 7.1
 -   CVSS score: High
--   Security risk details: Not setting this property to the recommended value of true could cause a user to run arbitrary JavaScript code from a bad actor.
+-   Security risk details: Without this policy, attackers can inject malicious JavaScript that users unknowingly execute, leading to data exfiltration or session takeover.
 
 </td></tr><tr><td>
 

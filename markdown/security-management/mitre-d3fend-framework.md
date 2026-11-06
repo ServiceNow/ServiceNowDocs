@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/mitre-d3fend-framework.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

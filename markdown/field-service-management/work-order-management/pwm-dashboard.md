@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Create a work order for the planned work, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Planned Work Management Home page
@@ -91,7 +91,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
-
+Work Plan\[wm\_planned\_work\_plan\]
 
 </td><td>
 
@@ -107,7 +107,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
- 
+Work Plan\[wm\_planned\_work\_plan\]
 
 </td><td>
 
@@ -123,7 +123,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
@@ -139,7 +139,7 @@ Single Score \[Omitted image "icon-single-score-report.png"\] Alt text:
 
 </td><td>
 
- 
+Schedule Occurrence\[wm\_plan\_work\_schedule\_occurrence\]
 
 </td><td>
 
@@ -155,7 +155,7 @@ Line and Stacked bar chart
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
@@ -171,7 +171,7 @@ Stacked bar chart \[Omitted image "bar-stacked.svg"\] Alt text:
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
@@ -187,12 +187,11 @@ List
 
 </td><td>
 
- 
+Work Order\[wm\_order\]
 
 </td><td>
 
 Display the number of work orders that are not compliant with the corresponding maintenance plan.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a work order for the planned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/creating-work-orders-from-planned-work.md)
-
+</table>

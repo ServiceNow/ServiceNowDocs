@@ -1,22 +1,28 @@
 ---
 title: Adjust a component to meet accessibility standards
-description: Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1. When you're editing a component in Theme Builder and see a warning symbol, that indicates that the component doesn't comply with the guidelines for color contrast.
+description: Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1. When you're editing a component in Theme Builder and see a warning symbol, that indicates that the component doesn't conform with the guidelines for color contrast.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tb-adjust-component-wcag.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Edit components, Manage or edit a theme with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Edit components, Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Adjust a component to meet accessibility standards
 
-Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1. When you're editing a component in Theme Builder and see a warning symbol, that indicates that the component doesn't comply with the guidelines for color contrast.
+Adjust a component to meet the Web Content Accessibility Guidelines \(WCAG\) 2.1. When you're editing a component in Theme Builder and see a warning symbol, that indicates that the component doesn't conform with the guidelines for color contrast.
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
+
+You can also watch a short video on how to fix accessibility errors.
+
+\[Omitted video\] Description: Theme Builder Accessibility Inspector
 
 ## About this task
 
@@ -28,27 +34,27 @@ The total number of accessibility violations are indicated on the red numbered b
 
 1.  From the Editor page, access the accessibility violations in one of the two ways listed in the following table.
 
-<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d111796e85">
+<table id="choicetable_php_1vv_2dc"><thead><tr><th align="left" id="d117003e109">
 
 Option
 
-</th><th align="left" id="d111796e88">
+</th><th align="left" id="d117003e112">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d111796e94">
+</th></tr></thead><tbody><tr><td id="d117003e118">
 
 **From Accessibility inspector**
 
 </td><td>
 
-1.  Select the Accessibility inspector \(\[Omitted image "tb-accessibility-inspector-icon.png"\] Alt text: Accessibility inspector. \) icon to display a list of components with accessibility errors. A red badge displays the number of accessibility issues within your theme.
+1.  Select the Accessibility inspector icon \[Omitted image "tb-accessibility-inspector-icon.png"\] Alt text: to display a list of components with accessibility errors. A red badge displays the number of accessibility issues within your theme.
 2.  Select the Accessibility warning \[Omitted image "tb-accessibility-icon.png"\] Alt text: Accessibility warning. symbol to view a description of the warning for the component state you want to improve.
-3.  Select the pencil \(\[Omitted image "pencil-icon.png"\] Alt text: Pencil icon.\) icon next to the component state that you want to improve.
+3.  Select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text:next to the component state that you want to improve.
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks available for the selected component.
 
-</td></tr><tr><td id="d111796e135">
+</td></tr><tr><td id="d117003e157">
 
 **From the Component styles menu**
 
@@ -66,22 +72,26 @@ Description
 
 \[Omitted image "tb-accessibility-warning.png"\] Alt text: Description of accessibility warning.
 
-4.  As indicated in the warning message, you can select the pencil \(\[Omitted image "pencil-icon.png"\] Alt text: Pencil icon.\) icon to improve the contrast issue.
+4.  As indicated in the warning message, you can select the pencil icon \[Omitted image "pencil-icon.png"\] Alt text: to improve the contrast issue.
 
 **Note:** The Component Editor page appears and the configurable style panel displays the editable hooks that are available for the selected component.
 
 </td></tr></tbody>
-</table>2.  Select the accessibility warning symbol in the configurable style panel to obtain more information for fixing the issue.
+</table>2.  Select the accessibility warning symbol in the Component Editor to obtain more information for fixing the issue.
 
     \[Omitted image "tb-accessibility-warning-text.png"\] Alt text: Accessibility warning
 
-3.  Select the link in the warning to fix the contrast issue.
+3.  Select from the link in the warning to fix the contrast issue.
 
-    **Note:** After you have saved changes to any of the color hooks, an undo symbol appears. Select the undo symbol to revert all of your changes back to the original color.
+    The color picker opens.
+
+    **Note:** You can select the Hide inaccessible choices slider within the color picker to limit the color choices to those colors identified as accessible, based on Web Content Accessibility Guidelines \(WCAG\) guidelines.
+
+4.  Select the undo symbol to revert your changes back to the original color, if needed.
 
     \[Omitted image "tb-color-undo.png"\] Alt text: Undo color changes
 
-4.  When you complete your changes and the accessibility warning symbol is no longer visible, select **Save changes**.
+5.  When you complete your changes and the accessibility warning symbol is no longer visible, select **Save changes**.
 
     For example, after you select a color that passes the contrast ratio violation, the warning symbol turns green in the color picker.
 

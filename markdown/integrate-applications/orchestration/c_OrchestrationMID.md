@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Classic Orchestration, Data and Automation]
+breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 ---
 
 # MID Servers for Orchestration

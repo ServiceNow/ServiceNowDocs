@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-unified-map-in-modeling-tool.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View a unified map for a business application, Working with an application portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [View a unified map for a business application, Working with an application portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View the unified map for a business application in Enterprise Modeling and Visualization
@@ -34,7 +34,7 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
 
 6.  Select **Open Map**.
 
-7.  Select the **Model with Enterprise Modeling and Visualization** icon \(\[Omitted image "open-with-modeling-tool.png"\] Alt text: Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.\).
+7.  Select the **Model with Enterprise Modeling and Visualization** icon \(\[Omitted image "unified-map.png"\] Alt text: Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.\).
 
     \[Omitted image "unified-map.png"\] Alt text: Unified map with the Model with Enterprise Modeling and Visualization icon highlighted.
 
@@ -44,7 +44,7 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
     -   **Architectural category**: The category to which the architectural artifact is associated with.
 9.  Select **OK**.
 
-    To learn more on how to use Enterprise Modeling and Visualization, see [Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md).
+    To learn more on how to use Enterprise Modeling and Visualization, see [Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md).
 
 
 **Parent Topic:**[View a unified map for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-open-map-ba.md)
@@ -60,5 +60,5 @@ Role required: sn\_apm.apm\_user and sn\_cmdb\_user
 
 [Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
 

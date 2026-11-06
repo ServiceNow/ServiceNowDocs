@@ -1,0 +1,61 @@
+---
+title: Building flows with the Zero Copy Connector for ERP Use ERP Data action
+description: Use the Use ERP Data action in Workflow Studio to build flows that read or update ERP data through a Zero Copy Connector for ERP model. Filter each request with input parameters such as an order ID.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/erp-canvas-build-flow-operation.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: concept
+last_updated: "2026-10-22"
+reading_time_minutes: 4
+keywords: [zero copy connector for erp, use erp data action, workflow studio, build erp flow, test flow action, flow input parameters, filter erp data, read or update erp data]
+breadcrumb: [Build applications and flows with ERP data, Using, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Building flows with the Zero Copy Connector for ERP Use ERP Data action
+
+Use the Use ERP Data action in Workflow Studio to build flows that read or update ERP data through a Zero Copy Connector for ERP model. Filter each request with input parameters such as an order ID.
+
+## Actions in Workflow Studio for calling the ERP system
+
+The Use ERP Data action is automatically available in Workflow Studio after installing Zero Copy Connector for ERP \(Enterprise Resource Planning\) .
+
+The Use ERP Data action enables you to use ERP data outside of Zero Copy Connector for ERP for other processes. For example, you could create a task or an incident based on ERP data using the Use ERP Data action.
+
+After you're done creating and managing your model in Zero Copy Connector for ERP, go to Workflow Studio and use the Use ERP Data action to test your model's inputs and outputs.
+
+When you test the action, you must specify the model you're using, which fields to read or update, and the ERP system. For more information about the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+
+## Using parameters to filter data requests
+
+After you successfully test the Use ERP Data action, build a flow that uses that action to retrieve or update the specified data in the ERP system.
+
+When you add the Use ERP Data action to a flow, you can specify any **Mandatory Field\(s\)** and **Optional Field\(s\)** defined as inputs when you managed the model. Required and optional fields must already be configured as required and optional input parameters.
+
+If you select a field that was defined as a parameter for the system query, you can then enter a value to filter on. For example, if you build a flow using the Use ERP Data action and specify the SAP Stock Movement model, you can select **iseg\_fiscal\_year** as a required field. Then, enter a year to filter the data returned, for example `2023`.
+
+## Process for building flows to retrieve ERP data
+
+To use ERP data for processes or tasks outside of Zero Copy Connector for ERP, use the following workflow:
+
+1.  In Workflow Studio, test the **Use ERP Data** action by selecting the model in the **System** field of the Test Action modal and then specifying the inputs.
+    -   For more information about testing actions, see [Test an action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/test-action.md).
+    -   For more details on inputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+2.  After the test runs, view the action execution details. For more information, see [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-execution-details.md).
+3.  The returned data from testing the action appears in the **Response** field of the output data.
+    -   For more information about outputs for the action, see [Use ERP Data action details for flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-canvas-flow-reference-2.md).
+    -   For details on incorporating returned ERP data, see [Specifying where ERP system data is saved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erpc-call-response-data.md).
+4.  Build a flow that runs the Use ERP Data action.
+
+    The **Use ERP Data** action returns ERP data in an output data pill called **Response**. The **Response** pill is available when you build a flow in Workflow Studio with the **Use ERP Data** action. The **Response** data pill is available in the following places of the action:
+
+    -   The **Outputs** tab
+    -   The **Output** section in the **Data** pane
+    You can then add the **Response** data pill or any of the child **record** data pills to a flow to parse the returned JSON.
+
+    For more information, see [Building flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flows.md).
+
+
+**Note:** Zero Copy Connector for ERP appears as **ERP Integration** when you work with it in Workflow Studio.
+

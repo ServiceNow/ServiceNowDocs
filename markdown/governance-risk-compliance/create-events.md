@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-events.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ If you have the sn\_oper\_res.admin role, you can create an event in the Operati
 
 5.  In the **Event group** field, select an event group.
 
-    For a description of the field values in the form, see [Event New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/event-reference.md).
+    For a description of the field values in the form, see [Event record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/event-reference.md).
 
     **Note:** You can add an event to many scenarios, but you can add an event to a scenario only once.
 

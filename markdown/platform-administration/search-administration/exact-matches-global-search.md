@@ -7,7 +7,7 @@ release: yokohama
 product: Search Administration
 classification: search-administration
 topic_type: concept
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Global search finds records from multiple tables, Zing text indexing and search engine, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Agile in CWM, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -76,6 +76,8 @@ Modify the duration, capacity, and dates for a sprint in Collaborative Work Mana
 Delete individual sprints from Sprint planning in Collaborative Work Management so that your Board reflects the changes in your planning priorities.
 -   **[Create work items for sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/create-work-items-for-sprints-in-cwm.md)**  
 Create and add new work items to a sprint directly from the Sprint planning view of Collaborative Work Management.
+-   **[Generate acceptance criteria for stories in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/generate-acceptance-criteria-for-stories-in-cwm.md)**  
+Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Collaborative Work Management \(CWM\). Review and refine suggested options to ensure they meet your requirements.
 -   **[Plan work items into sprints in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/plan-work-items-into-sprints-in-cwm.md)**  
 Schedule stories and other CWM tasks from the backlog into sprints or move work across sprints in Collaborative Work Management.
 -   **[Start or complete a sprint in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/start-a-sprint-in-cwm.md)**  

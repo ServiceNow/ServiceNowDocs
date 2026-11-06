@@ -1,20 +1,20 @@
 ---
 title: Enable public access to the chat widget
-description: Enable public access to the Virtual Agent chat widget for portals.
+description: Enable public access to the standard chat Virtual Agent chat widget for portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/enable-public-access-web-client.html
 release: yokohama
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]
 ---
 
 # Enable public access to the chat widget
 
-Enable public access to the Virtual Agent chat widget for portals.
+Enable public access to the standard chat Virtual Agent chat widget for portals.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-Public access to the Virtual Agent chat widget defaults to off. Use the following steps to allow public access to the chat widget for only portals.
+Public access to the standard chat Virtual Agent chat widget defaults to off. Use the following steps to allow public access to the chat widget for only portals.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ Public access to the Virtual Agent chat widget defaults to off. Use the followin
 
 4.  Under **Display options**, enable **Public access**.
 
-    \[Omitted image "public-access-web-client.png"\] Alt text: Public access toggle enables public access to the Virutal Agent chat widget in portals.
+    \[Omitted image "public-access-web-client.png"\] Alt text: Public access toggle enables public access to the Virtual Agent chat widget in portals.
 
     A message displays confirming that the setting has been saved.
 

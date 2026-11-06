@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Add service channels and queues
@@ -17,6 +17,8 @@ breadcrumb: [Setting up Channels in Workforce Optimization for ITSM, Channels in
 Add service channels and queues to automatically route incoming work items to agents.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -29,14 +31,14 @@ A service channel is a means of assigning a specific type of work items to agent
 1.  To create a service channel, do the following:
 
     1.  Navigate to **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Service Channels**.
-    2.  Click **New** and refer to the information in the [Create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-service-channel.md) to create the service channel.
+    2.  Click **New** and refer to the information in the Create a service channel to create the service channel.
     3.  Click **Submit**.
     The service channel is created.
 
 2.  To create a queue, do the following:
 
     1.  Navigate to **Workforce Optimization for ITSM** &gt; **Channel Management** &gt; **Queues** or select the service channel and click the **Queues** tab.
-    2.  Click **New** and refer to the information in [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-queue.md) to create the queue.
+    2.  Click **New** and refer to the information in Create a work item queue to create the queue.
     The queue is created in the service channel.
 
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Change, Virtual Agent, Agent Chat, system, messages, customize, default]
 breadcrumb: [General chat settings, Configuring Conversational Interfaces, Conversational Interfaces Console, Conversational Interfaces]

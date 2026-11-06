@@ -7,7 +7,7 @@ release: yokohama
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setting up ITSM Virtual Agent, ITSM Virtual Agent, IT Service Management]
 ---
@@ -23,7 +23,7 @@ Role required: admin or virtual\_agent\_admin
 -   [Activate Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/activate-virtual-agent.md) to use Virtual Agent as a response channel.
 -   [Set up ITSM Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-virtual-agent/setup-itsm-virtual-agent.md)
 
-    Install the ITSM Virtual Agent Conversations app, which includes the ITSM NLU Model for Virtual Agent Conversations. Request this app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install the ITSM Virtual Agent Conversations app, which includes the ITSM NLU Model for Virtual Agent Conversations. Request this app from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 ## About this task

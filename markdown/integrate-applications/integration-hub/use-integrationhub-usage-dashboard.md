@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: task
 last_updated: "2025-07-19"
 reading_time_minutes: 3
-breadcrumb: [Integration Hub Usage Dashboard, Configuring Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub Usage Dashboard, Configure, Integration Hub, Workflow Data Fabric]
 ---
 
 # Get insights from the Integration Hub Usage Dashboard

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [HR Profile, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Employees can directly edit some information in their HR profile, such as emerge
 
 ## Before you begin
 
-Role required: sn\_hr\_core.secure\_info\_writer, sn\_hr\_core.basic, or sn\_hr\_core.manager
+Role required: sn\_hr\_core.profile\_writer, sn\_hr\_core.secure\_info\_writer, sn\_hr\_core.basic, or sn\_hr\_core.manager
 
 ## About this task
 
@@ -188,7 +188,7 @@ Identifies if the employee is ready to return to work. Works with Enterprise Emp
 
  Select **I'm not sure** and the employee is included in some of the lifecycle events related to returning to work. An HR task triggers for HR to review the employee's concerns.
 
- For more information, see [Enterprise Employee Experience Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/return-workplace-employee-exp-pack.md).
+ For more information, see Enterprise Employee Experience Pack.
 
 </td></tr><tr><td>
 

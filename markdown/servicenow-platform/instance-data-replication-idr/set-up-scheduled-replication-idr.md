@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Replicate data, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Verify that the producer and consumer instances belong to the same customer.
 
 Plan your data replication strategy by reviewing the important considerations described in [Preparing for Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/prepare-instance-data-replication.md).
 
-**Note:** You can only create one scheduled replication set, with only one outbound entry in that set.
+**Note:** You can only create one scheduled replication sets, with only one outbound entry in that set.
 
 Role required: idr\_admin or admin
 
@@ -124,7 +124,7 @@ Choose a field to use to coalesce IDR. Only unique fields are available. See [Cu
  This field only displays if you select **Enable Custom Coalesce**.
 
 </td></tr></tbody>
-</table>        **Note:** If a table that you select has child tables, create one or more continuous replication sets and add outbound entries for each child table to maintain data integrity.
+</table>        **Note:** If a table that you select has child tables, you can create separate non-scheduled replication sets for each child table to maintain data integrity.
 
 8.  Select **Submit**.
 
@@ -155,9 +155,9 @@ Scheduled replication begins on the scheduled start date and time. Until then, c
 
 ## What to do next
 
--   Track the status of each scheduled run by viewing the Seeding Requests related list or by navigating to **Instance Data Replication** &gt; **Seeding Requests**. If a scheduled run fails, you can try replicating records using a partial seeding request or a data comparison request that covers the failed date range. Otherwise, contact Customer Service and Support for assistance.
--   Track seeding progress from the producer side by viewing the **Run Duration** and **Percent Complete** columns. Track seeding progress for the consumer portion by viewing the same details in the consumer replication set.
--   View scheduled seeding runs in the IDR Data Comparison Requests related list. You can add the **Request Received From** column to the list to distinguish scheduled seeding requests from data comparison requests.
+-   View scheduled replication runs in the Scheduled Replication Requests related list. Track scheduled replication progress from the producer side by viewing the **Percent Complete** and **Run Duration** columns. Track scheduled replication progress for the consumer portion by viewing the same details in the consumer replication set.
+-   View details for a scheduled replication run by selecting a request in the Scheduled Replication Requests related list. If a scheduled run fails, you can try replicating records using a partial seeding request or a data comparison request that covers the failed date range. Otherwise, contact Customer Service and Support for assistance.
+-   Monitor the progress of all scheduled replication sets in the IDR Monitoring Dashboard.
 
 -   **[Cancel scheduled replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/cancel-seeding.md)**  
 Cancel scheduled replication by deactivating or deleting a producer replication set.

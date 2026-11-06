@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CI relationships in the CMDB, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a suggested relationship
@@ -18,29 +18,32 @@ Add a suggested relationship for a class. The list of suggested relationships fo
 
 ## Before you begin
 
-Role required: To view — itil. To create, update, or delete suggested relationships — itil\_admin.
+Role required:
+
+-   sn\_cmdb\_editor or itil: Read access
+-   sn\_cmdb\_admin or itil\_admin: Create, update, or delete suggested relationships
+
+.
 
 ## Procedure
 
-1.  Use the CI Class Manager \(Role required: itil\_admin\):
+1.  Use the CI Class Manager:
 
     1.  Navigate to **All** &gt; **Configuration** &gt; **CI Class Manager**.
 
-    2.  Click **Hierarchy** to expand the CI Classes list.
+    2.  Select **Hierarchy** to expand the CI Classes list and then select the class to add a suggested relationship to.
 
-    3.  Select the class to add a suggested relationship to.
+    3.  In the class navigation bar, select **Suggested Relationships**.
 
-    4.  In the class navigation bar, click **Suggested Relationships**.
+    4.  Select **New**.
 
-    5.  Click **New**.
+    5.  In the Add Suggested Relationship dialog box, select a **Relationship** and a **Target Class** for the relationship. **This Class** and the **Target Class** become parent or child in the suggested relationship, based on your selection of the **Relationship**.
 
-    6.  In the Add Suggested Relationship dialog box, select a **Relationship** and a **Target Class** for the relationship. **This Class** and the **Target Class** become parent or child in the suggested relationship, based on your selection of the **Relationship**.
+    6.  Select **Save**.
 
-    7.  Click **Save**.
+2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships**:
 
-2.  Or, navigate to **All** &gt; **Configuration** &gt; **Relationships** &gt; **Suggested Relationships** \(Role required: admin\):
-
-    1.  Click **New**.
+    1.  Select **New**.
 
     2.  Complete the form.
 

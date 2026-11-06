@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Add document content controls using Microsoft Word add-in for ServiceNow Contracts, Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure metadata for fields, variables, and variables sets in a contract document
@@ -26,7 +26,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 ## About this task
 
-The metadata added for fields, variable, and variable sets act as placeholders for values that will be used in the contract document.
+The metadata added for fields, variable, and variable sets act as placeholders for values that will be used while generating contract document.
 
 **Note:** In Contract Management Pro version 1.4.1, the Legal Contract Request form in Legal Counsel Center and Contract Workspace displays only mapped legal fields for variables in the contract fulfiller view. You therefore need to apply the **Field mapping** option when setting up Metadata mapping for legal contracts. For existing templates with Variable mapping, edit the template and update the configuration with **Field mapping**.
 
@@ -34,6 +34,8 @@ For more information on editing a contract template, see [Edit a contract templa
 
 -   The metadata of the type Field mapping gets its value from the table that the contract template is associated with.
 -   The metadata of type Variables gets its value from the record producer.
+
+The following video walks you through the process of adding metadata for fields, variables, and variables sets using Microsoft Word add-in for ServiceNow Contracts.\[Omitted video\] Description: The video walks you through the process of adding metadata for fields, variables, and variables sets using Microsoft Word add-in for ServiceNow Contracts
 
 ## Procedure
 
@@ -51,19 +53,21 @@ For more information on editing a contract template, see [Edit a contract templa
 
 5.  In the Microsoft Word document, place the cursor where you want to add the placeholder for metadata.
 
+    \[Omitted image "cmpro-waddin-create-metadata.png"\] Alt text: Create metadata mapping from ServiceNow Contracts add-in
+
 6.  In the **Metadata** tab, select **Create metadata mapping**.
 
 7.  On the Create mapping form in the **Type** field, select either field mapping or variables.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d205353e239">
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d223014e300">
 
 Type of metadata
 
-</th><th align="left" id="d205353e242">
+</th><th align="left" id="d223014e303">
 
 Fields available
 
-</th></tr></thead><tbody><tr><td id="d205353e248">
+</th></tr></thead><tbody><tr><td id="d223014e309">
 
 **Field mapping**
 
@@ -73,7 +77,7 @@ Fields available
 -   **Field Name**- The field is automatically set to the value of the **Mapping Field**. You can also modify the value.
 
 
-</td></tr><tr><td id="d205353e273">
+</td></tr><tr><td id="d223014e334">
 
 **Variables**
 
@@ -106,7 +110,7 @@ Validation errors might occur for the following reasons:
 
     -   The metadata is added and displayed as a tile with the field name as the title.
 
-        \[Omitted image "ccore-metadata-tile.png"\] Alt text: Metadata added using the add-in
+        \[Omitted image "cmpro-waddin-view-meta-word.png"\] Alt text: Metadata added using the ServiceNow Contracts add-in
 
     -   The metadata is synced to the ServiceNow instance.
     **Note:**
@@ -125,7 +129,7 @@ Validation errors might occur for the following reasons:
 
 [Configuring signatories in Contract template using Microsoft Word add-in]()
 
-[Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts]()
+[Map clauses and clause variations]()
 
 [Map contract tables using the Microsoft Word add-in for ServiceNow Contracts]()
 

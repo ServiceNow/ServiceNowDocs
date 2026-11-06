@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portal performance optimization, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Portal performance optimization, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Defer load in Employee Center
@@ -19,7 +19,7 @@ Learn more about the heavy-load and high-traffic scenarios and ways to optimize 
 The Service Portal Designer **Defer widget loading** option helps configure the widgets load in a skeleton view. For more information, see [Create and edit a page using the Service Portal Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_ConfigureAPage.md). The key benefits are:
 
 -   Improve performance and reduce initial load times.
--   Enhance user experience with skeleton loaders.
+-   Enhance the user experience with skeleton loaders.
 -   Create a faster loading experience by enhancing user satisfaction.
 -   By matching skeleton loaders to the final widget appearance, the loading process becomes visually coherent, improving the overall usability of the page.
 -   Improve performance across browsers and devices.

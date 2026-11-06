@@ -7,10 +7,10 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ActivityLogger, ActivityLogger.info, ActivityLogger.debug, ActivityLogger.warn, ActivityLogger.error, activity logger, activity logging]
-breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Data and Automation]
+breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Activity designer template pre-processing fields

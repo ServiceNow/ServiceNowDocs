@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management references
@@ -26,24 +26,34 @@ You can set default reconciliation properties such as grouping and reconciliatio
 Several types of components are installed with activation of the Microsoft SCCM software usage plugin.
 -   **[License calculation for SAP cloud use types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/license-calculation-sap-cloud.md)**  
 Use SAP S/4HANA cloud use types and their weighting factors to calculate Full Usage Equivalent \(FUE\) licenses for different types of users of SAP S/4HANA Cloud applications.
+-   **[License usage breakdown for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/license-usage-crowdstrike.md)**  
+View the license usage breakdown for CrowdStrike products to understand how your license rights are used and the methodology behind license calculations.
 -   **[Discovery models fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/discovery-model-fields.md)**  
 Discovery Models form and related list field descriptions.
 -   **[Software installation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-installation-fields.md)**  
 Software Installation form and related list field descriptions.
+-   **[Software spend transaction fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-spend-transaction-fields.md)**  
+Software spend transaction form fields and their descriptions.
 -   **[Normalization statuses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/normalization-status.md)**  
 Description of normalization statuses for discovery models.
 -   **[License metrics for Microsoft products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/mapping-ms-license-metrics.md)**  
-A detailed description of the license metrics that can be utilized with Microsoft products.
+A detailed description of the license metrics that can be used with Microsoft products.
 -   **[Licensing rules for BYOL and BYOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/byol-license-rules.md)**  
 View the bring your own license \(BYOL\) licensing rules for Microsoft and Oracle products in public cloud environments. In addition, view bring your own subscription \(BYOS\) licensing rules for Red Hat Enterprise Linux \(RHEL\) products in public cloud environments. Licensing rules can differ for virtual machines that reside on shared hosts or dedicated hosts across different cloud providers.
 -   **[Software model fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-model-fields.md)**  
 Software Model form and related list field descriptions.
+-   **[Group allocations fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/group-allocation-fields.md)**  
+Group allocations form and related fields description.
 -   **[Software model metric attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sw-metric-attributes.md)**  
 Software model metric attributes and related list field descriptions.
+-   **[Subscription downgrade configuration condition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/saas-downgrade-config-conditions.md)**  
+Determine various downgrade configuration conditions for SaaS applications and view the downgrade order based on the conditions.
 -   **[Software entitlement fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-entitlement-fields.md)**  
 Software Entitlement form and related list field descriptions.
 -   **[Software model results license metric results fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/license-metric-results-fields.md)**  
 Software model results License Metric Results form and related list field descriptions. You can access this form through the License Metric Results related list in your software model results.
+-   **[Software storage usage fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-storage-usage.md)**  
+Determine the usage information for SaaS applications for generating downgrade subscriptions.
 -   **[Software subscription fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-subscription-fields.md)**  
 Software subscription form fields, their descriptions, and the SaaS integrations for which these fields are populated.
 -   **[Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/entitlement-import-error-fields.md)**  
@@ -53,7 +63,7 @@ Entitlement Import Error form action descriptions.
 -   **[Impact of different license types on software reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/license-types-impact-reconciliation.md)**  
 Each license type has entitlements and conditions outlined on the entitlement form, and more importantly, these license types have a significant impact on the Software Asset Management \(SAM\) reconciliation process.
 -   **[Publisher optimizations for SAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/pub-opt-sap.md)**  
-View licensing optimizations for SAP by selecting **SAP** from the **Publisher** drop-down list.
+Identify cost-saving opportunities for SAP licenses by reviewing usage data across users, engines, digital access, and cloud consumption.
 -   **[Publisher optimizations for Red Hat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/pub-opt-redhat.md)**  
 View licensing optimizations for Red Hat by selecting **Red Hat** from the **Publisher** drop-down list.
 -   **[Publisher optimizations for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/pub-opt-microsoft.md)**  
@@ -82,10 +92,16 @@ A sample payload that populates the Software Installation \[cmdb\_sam\_sw\_insta
 Fields on the SAM Success Activity form help you create success activities to track the success of your created goals.
 -   **[SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/shadow-saas-analytics.md)**  
 Use the SaaS detection report to discover and manage all SaaS applications accessed via a browser and configured within the ServiceNow® Agent Client Collector for Visibility Content \(ACC-VC\) product. The SaaS applications that can be managed through this report can be paid or free ones.
--   **[Reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)**  
-Reclamation rules define the minimum amount of time for which a subscription must be used. If the subscription doesn't have any activity within a specified time limit, it's added to the list of reclamation candidates.
+-   **[Scheduled jobs for Microsoft 365](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-scheduled-jobs.md)**  
+Your Microsoft 365 integration profile is set to fetch subscription and usage information automatically from the Microsoft 365 Admin Center on a schedule. If needed, you can also manually run the following scheduled jobs to get this information. Each job must be complete before starting the next one.
+-   **[Scheduled jobs for Adobe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/adobe-scheduled-jobs.md)**  
+Your Adobe integration profile is set to fetch subscription and usage information automatically from the Adobe portal on a scheduled basis. If needed, you can also run the following scheduled jobs manually to get this information. Each job must be complete before starting the next one.
+-   **[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)**  
+Reclaim unused SaaS and Single sign-on \(SSO\) subscriptions to reduce your total software costs.
 -   **[Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-reclamation-rules.md)**  
 Reclamation rules for Microsoft 365 integration sets the minimum usage threshold for a subscription. If a subscription remains inactive for a specified period, Software Asset Management marks the subscription as a potential reclamation candidate.
+-   **[Reclamation rules for Adobe integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules-adobe.md)**  
+Reclamation rules for Adobe integration set the minimum usage threshold for a subscription. If a subscription remains inactive for a specified period, the Software Asset Management application marks the subscription as a potential reclamation candidate.
 -   **[Microsoft 365 Apps Usage Reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-apps-usage-report.md)**  
 Find the last activity date for Microsoft 365 products to determine reclamation candidates.
 -   **[Subscription downgrade configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/saas-downgrade-configuration.md)**  
@@ -102,6 +118,40 @@ Fields on the User Resolutions Rules page help you create a rule to map the **Us
 Domain separation is supported in Software Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Quick start tests for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/quick-tests-sam.md)**  
 Validate that Software Asset Management still works after you make any configuration change such as apply an upgrade or develop an application. Copy and customize these quick start tests to pass when using your instance-specific data.
+-   **[Contract entitlement data extraction skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/contract-entitlement-extraction-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to extract contract entitlement data. A trigger initiates an action, such as when the system generates an entitlement from a contract.
+-   **[Error log summarization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/error-log-summarization-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate an error log summary. A trigger initiates an action, such as when the system generates an error log summary.
+-   **[Error resolution recommendation skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/error-resolution-recommendation-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate error resolution recommendations. A trigger initiates an action, such as when the system generates error resolution recommendations.
+-   **[Skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/now-assist-sam-skills-inputs.md)**  
+Get a quick overview of the skill inputs and triggers for ServiceNow Otto for Software Asset Management \(SAM\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
+-   **[Product compliance summarization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/product-compliance-sum-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a product compliance summary. A trigger initiates an action, such as when the system generates a product compliance summary.
+-   **[Product match review skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/product-match-review-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Product match reviewer skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/product-match-reviewer-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Product resolution skill - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/product-resolution-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Product search tags generation skill - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/product-search-tags-generation-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Publisher compliance summarization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-compliance-sum-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a publisher summary. A trigger initiates an action, such as when the system generates a publisher summary.
+-   **[Publisher match review - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-match-review-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Publisher search tags generation skill - Triggers and inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/publisher-search-tags-generation-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Recommended actions skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/recommended-actions-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate recommended actions. A trigger initiates an action, such as when the system generates recommended actions.
+-   **[SaaS user resolution skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/saas-user-resolution-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to resolve SaaS users. A trigger initiates an action, such as when the system generates user resolution rules.
+-   **[Software normalization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-normalization-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
+-   **[Spend transaction software classification skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/spend-txn-classification-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to classify spend transactions. A trigger initiates an action, such as when the system classifies spend transactions.
+-   **[Spend transaction software normalization skill - Triggers and Inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/spend-txn-normalization-triggers-inputs.md)**  
+Configure the triggers and inputs to determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to normalize spend transactions. A trigger initiates an action, such as when the system normalizes spend transactions.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

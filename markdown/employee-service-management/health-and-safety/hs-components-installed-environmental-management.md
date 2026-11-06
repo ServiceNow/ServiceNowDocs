@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: reference
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -197,6 +197,16 @@ Chemical
 </td><td>
 
 Stores information about each chemical, including hazard identification, ingredients \(with concentrations\), related documents \(such as safety data sheets\), and location-specific chemical items.
+
+</td></tr><tr><td>
+
+Chemical first aid
+
+ \[sn\_hs\_chm\_chemical\_first\_aid\]
+
+</td><td>
+
+Stores information about the first aid measures for a chemical exposure.
 
 </td></tr><tr><td>
 

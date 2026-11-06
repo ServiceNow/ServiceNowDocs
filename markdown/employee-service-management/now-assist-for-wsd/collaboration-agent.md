@@ -1,20 +1,20 @@
 ---
-title: Get space suggestions using the collaboration agent
-description: The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, frequent collaborators, reservation attendees, and assigned space.
+title: Get space suggestions using the Workplace collaboration agent
+description: The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, and reservation attendees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/collaboration-agent.html
 release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: task
-last_updated: "2026-01-09"
-reading_time_minutes: 5
-breadcrumb: [Using the workplace collaboration Agent for space suggestions, Using Now Assist in Virtual Agent, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Using the workplace collaboration Agent for space suggestions, Using ServiceNow Otto for Virtual Agent, ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Get space suggestions using the collaboration agent
+# Get space suggestions using the Workplace collaboration agent
 
-The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, frequent collaborators, reservation attendees, and assigned space.
+The Workplace collaboration agent provides space recommendations based on workplace presence data, team members, and reservation attendees.
 
 ## Before you begin
 
@@ -31,9 +31,9 @@ Make sure that you have installed and configured the following applications:
 -   Workplace Indoor Mapping
 -   Workplace Core
 
-**Note:** Adding workplace services to a reservation, creating group reservations, multi-building reservations, or recurring reservations are currently not supported by the Workplace Collaboration Agent. Collabration agent supports Desks reservations.
+**Note:** Adding workplace services to a reservation, creating group reservations, multi-building reservations, or recurring reservations are currently not supported by the Workplace Collaboration Agent. Collobration agent supports Desks reservations.
 
-Employees can invoke the collaboration agent by initiating a chat with the Now Assist in Virtual Agent from the Employee Service Center portal.
+Employees can invoke the collaboration agent by initiating a chat with the Virtual Agent from the Employee Service Center portal.
 
 Role required: admin
 
@@ -41,7 +41,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  From the Employee Center home page, select the search box to initiate chat with Now Assist in Virtual Agent.
+2.  From the Employee Center home page, select the search box to initiate chat with the Virtual Agent.
 
     The Virtual Agent shows a greeting message and provides an explanation of what employees can expect.
 
@@ -51,11 +51,11 @@ Role required: admin
 
     While the LLM processes the utterance, animated dots in the chat window let employees know that the bot is working on their request. After you enter an utterance and a search result is found, a synthesized response may appear. A synthesized response includes a brief summary of the requested information and search results.
 
-    \[Omitted image "wsd-now-assist-virtual-agent-start-resv.png"\] Alt text: Now Assist for Virtual Agent showing employee preferred space for reservation.
+    \[Omitted image "wsd-now-assist-virtual-agent-start-resv.png"\] Alt text: Virtual Agent showing employee preferred space for reservation.
 
     The Virtual Agent response includes feedback icons. Employees can indicate if the response was helpful by selecting thumbs up or select thumbs down if the response wasn't helpful.
 
-4.  The collaboration provides insights about team members who are in office.
+4.  The colloboration provides insights about team members who are in office.
 
     It suggests a space based on your collaboration requirements.The Agent shows an available building location for reservation and asks employees to confirm the space selection.
 
@@ -89,7 +89,7 @@ Role required: admin
 
     The Collaboration agent also shares insights on the team members available on a particular day. For example, "Who will be in office on Friday? You can also get insights on a team member if they are visiting office "Is Daniel coming to office today?". The agent also makes a reservation for you for a specified day near a team member. "
 
-    \[Omitted image "now-assist-collab-agentic-studio-activity-one.png"\] Alt text: Collaboration Agent fetiching information about team members who are present in office. Agentic Studio showing decision logs for collaboration agent.
+    \[Omitted image "now-assist-collab-agentic-studio-activity-one.png"\] Alt text: Collaboration Agent displays information about team members who are present in office.
 
 6.  Make a reservation for a specified day near a team member.
 
@@ -136,10 +136,10 @@ I have reserved this space for you.
 
         -   Location: Employee's building location is derived using the following logic:
             -   The building and floor for today's \(current date\) reservation.
-            -   Employee presence information.
-            -   Workplace profile primary location or assigned space.
+            -   Employee presence information
+            -   Workplace profile primary location or assigned space
 
-                If no desk reservations are found, the collaboration agent checks the workplace profile and assigned location \(desk\). The agent uses this information when making space suggestions near a collaborator. If the workplace profile primary location is not available, the agent determines the collaborator's location \(building/space\) from the employee's workplace presence information.
+                If no desk reservations are found, the collaboration agent checks for a workplace profile and assigned location \(desk\). The agent uses this information when making space suggestions near a collaborator. If the workplace profile primary location is not available, the collaboration agent determines the collaborator's location \(building/space\) based on the employee's workplace presence information.
 
         -   When the employee enters a name, the collaboration agent tries to identify the collaborator. It takes into account the following factors:
             -   Your team \(this includes your manager. If you're a manager and not an individual contributor, the agent also considers employees reporting to you as your collaborators\).
@@ -160,4 +160,6 @@ I have reserved this space for you.
 
 8.  When the request is complete, Virtual Agent displays a message to confirm if any additional help is required.
 
+
+**Parent Topic:**[Using the workplace collaboration Agent for space suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/suggest-space-agent.md)
 

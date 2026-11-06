@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-mgt-configure-docusign-pdf.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring quote PDF documents, Install and configure Quote Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Configure DocuSign for PDF documents
@@ -31,4 +31,6 @@ Sales operation specialists can link quote PDF documents to Docusign so that sig
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to automate signing requests using templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/automate-docusign-templates.md)
 -   [How to separate Docusign account data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/separate-docusign-data.md)
+
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-reference.md)
 

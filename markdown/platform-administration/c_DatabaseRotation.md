@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_DatabaseRotation.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage data growth, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Applying database rotation techniques
@@ -60,5 +60,5 @@ Optimize performance and manage data lifecycle by rotating tables, allowing olde
 -   **[Table extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-extension.md)**  
 Partition and preserve data sets for extended periods without overwriting.
 
-**Parent Topic:**[Managing the growth of data on your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/data-management-policies.md)
+**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DataManagement.md)
 

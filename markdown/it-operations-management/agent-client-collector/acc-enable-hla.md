@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Agent Client Collector Log Analytics setup, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC Log Analytics setup, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Set up Agent Client Collector Log Analytics without using guided setup
@@ -21,14 +21,12 @@ Configure the Agent Client Collector to stream log data from Linux and Windows h
 **Note:** You can configure Agent Client Collector Log Analytics using guided setup. The guided setup ensures that you have the minimum required setup for using the application. For more information, see [Set up Agent Client Collector Log Analytics using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-guided-setup-use.md).
 
 -   The Agent Client Collector Log Analytics \(ACC-L\) plugin must be installed. The plugin comes with the Agent Client Collector Framework \(ACC-F\) and Agent Client Collector Monitoring \(ACC-M\) plugins. For more information, see [Agent Client Collector installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-installation.md).
--   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/install-sow-itom-apps.md).
+-   ServiceNow Service Operations Workspace ITOM Apps must be installed. If it is not installed already, install it manually. For more information, see [Install Service Operations Workspace for ITOM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/install-sow-itom-apps.md).
 -   Agent Client Collector Log Analytics has a dependency on the Health Log Analytics application, Version 22.0.12 - December 2021 and later, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). Streaming log data from Windows hosts is supported in Agent Client Collector Log Analytics Version 3.1.0 and later.
 
     **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
 
 -   The Agent Client Collector comes with the default **servicenow** user. Ensure that this user has read access to enable Agent Client Collector to view all the configured log paths. For example, the Agent Client Collector **servicenow** user that comes installed with the base system does not have permissions to view the paths to `/var/log/` in Linux and `C:\Windows\System32` in Windows. For information about configuring permissions for the **servicenow** user, see the [ACC-L Permission Denied issues \[KB1117271\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1117271) article in the Now Support Knowledge Base.
-
-**Note:** Currently, this setup only supports basic authentication with the MID Server. mTLS is not supported.
 
 Role required: agent\_client\_collector\_admin
 
@@ -80,4 +78,6 @@ Agent Client Collector Log Analytics and the ACC agent are installed. You can st
 ## What to do next
 
 Review the [Agent Client Collector log policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/hla-acc-data-input-log-policies.md).
+
+**Parent Topic:**[Agent Client Collector Log Analytics setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/accl-setup.md)
 

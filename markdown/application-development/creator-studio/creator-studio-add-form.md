@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with forms in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add a form to an app in Creator Studio
@@ -46,7 +46,7 @@ Role required: You must be an admin or your administrator must add you to the Cr
 
 6.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions for the form you want. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use AI, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **Generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -59,6 +59,8 @@ Role required: You must be an admin or your administrator must add you to the Cr
         |Long description|Additional details for the form. You can include content like images and links to other sources of information \(for example, a knowledge base article\).|
 
     This page enables you to specify details for your first form, though you can also do that or edit the details, such as name and description, from inside the app after it's generated.
+
+    \[Omitted image "crs-build-with-ai.png"\] Alt text: Creator Studio Build with AI tab, showing the AI directions text field and a Try an example link.
 
 7.  Select **Save and edit form** to get started editing your form.
 

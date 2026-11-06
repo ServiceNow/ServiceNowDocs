@@ -1,26 +1,22 @@
 ---
-title: Define email search criteria and request a search on the Microsoft Exchange Online service
-description: As a user with the sn\_si.analyst role, define search criteria and submit an email search request based on incident details on a security incident record.
+title: Define email search criteria and request a search
+description: As a user with the sn\_si.analyst role, set up search criteria and submit an email search request based on incident details on a security incident record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/verify-expected-results-ms-exchange-online.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Microsoft Exchange Online integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Define email search criteria and request a search on the Microsoft Exchange Online service
+# Define email search criteria and request a search
 
-As a user with the sn\_si.analyst role, define search criteria and submit an email search request based on incident details on a security incident record.
+As a user with the sn\_si.analyst role, set up search criteria and submit an email search request based on incident details on a security incident record.
 
 ## Before you begin
-
-Role required: sn\_si.analyst
-
-The figures in this procedure are shown with **Tabbed forms** selected in System Settings. For more information about selecting and clearing tabbed forms, see the section titled, Display tabbed forms in Configuring the form layout on the [ServiceNow Product Documentation website](https://www.servicenow.com/docs).
 
 Role required: sn\_si.analyst
 
@@ -38,43 +34,33 @@ Search criteria may include message sender addresses, recipient addresses, or su
 
 **Note:** Searches are conducted on emails sent or received within last 30 calendar days, unless a shorter search window is configured during the initial setup. A successful email search is required before you can delete emails.
 
-The following example shows you how to initiate a search from a ServiceNow AI Platform security incident. A security incident is created based on the original email of a suspected phishing attack in the Microsoft Exchange Online server of your organization. For this example, the search criteria is Sender \(From\) plus Subject, where From is `phisher@cbazyx.com`, and the Subject is `log in to your account`.
-
-Results for searches on subjects are returned when the search finds text strings that contain key words that match the entered search criteria. In this example, the subject is `log in to your account`. Use the **AND** operator to separate the From and Subject search conditions to return results for all the email messages that contain these given search criteria. The following steps describe how to set up a search that finds only emails that contain subject line text sent by a specific phishing account.
-
 ## Procedure
 
-1.  Navigate to **All** &gt; **Security Incident** &gt; **Show All Incidents** and locate the security incident that you are working with.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Show All Incidents** and locate the security incident that you're working with.
 
 2.  Alternatively, follow these steps to set and run a filter so that only security incidents created by phishing events are displayed.
 
     1.  Navigate to **Security Incident** &gt; **Show All Incidents** to open the Security Incidents list.
 
-    2.  In the upper-left corner of the list that is displayed, click the filter icon.
+    2.  In the upper-left corner of the list that is displayed, select the filter icon.
 
-        \[Omitted image "ms-924-si-list-prefilter1.png"\] Alt text: Filtering.
-
-    3.  In the fields that are displayed, select **Short description** &gt; **contains** from the choice lists, then enter **user reported phishing** and click **Run**.
+    3.  In the fields that are displayed, select **Short description** &gt; **contains** from the choice lists, then enter **user reported phishing** and select **Run**.
 
         The phishing-related security incidents are displayed.
 
-        \[Omitted image "ms-924-si-phishing.png"\] Alt text: Short description column in the Security Incidents list highlighted.
+    4.  Use the text in the Short description column to help you locate the security incident that you're working with.
 
-    4.  Use the text in the Short description column to help you locate the security incident that you are working with.
+    5.  In the Number column, select a security incident to open a record.
 
-    5.  In the Number column, click a security incident to open a record.
+3.  Scroll to the bottom of the Security Incident record and select the Email Search related list.
 
-3.  Scroll to the bottom of the Security Incident record and click the Email Search related list.
+    If the Email Search related list is not displayed, select the **Show All Related Lists** related link to display this related list.
 
-    If the Email Search related list is not displayed, click the **Show All Related Lists** related link to display this related list.
-
-    \[Omitted image "ms-924-si-10009.png"\] Alt text: Email Search related list in a security incident record highlighted.
-
-4.  In the Email Search related list, click **New** to create a new email search record.
+4.  In the Email Search related list, select **New** to create a new email search record.
 
     The Email Search form is displayed. If you determine that you want to rerun this search query for the same phishing-related incident with minor modifications, you can use this search query record again. However, it is unlikely that you would use this search for a different phishing-related incident, because phishing campaigns are dynamic and the sender and message fields often change.
 
-5.  To edit an existing search query record, click **Edit**.
+5.  To edit an existing search query record, select **Edit**.
 
 6.  On the Email Search form, fill in the fields.
 
@@ -83,19 +69,13 @@ Results for searches on subjects are returned when the search finds text strings
     |Name|Information to describe the type of search. For this example, a name for a From + Subject search is `Phish "log in to your account"`.|
     |Description|Information about the search in the email server. An example for this search is `From=phisher@cbazyx.com + Subject=log in to your account`.|
 
-    \[Omitted image "ms-122-new-search-rcd-cmplt.png"\] Alt text: A completed form.
-
-7.  Click **Submit**.
+7.  Select **Submit**.
 
     The security incident is displayed and the name of the email search is displayed in the Email search column in the Email Search related list. Before you can use this new search query, search criteria must be defined for the search record.
 
-8.  To define search criteria, with the Email Search related list selected, in the Email search column, click **Phish "log in to your account"**.
+8.  To define search criteria, with the Email Search related list selected, in the Email search column, select **Phish "log in to your account"**.
 
-    \[Omitted image "ms-122-si-new-search-listed.png"\] Alt text: Email Search tab with Email search column highlighted on a security incident.
-
-9.  On the Email search record that is displayed, click the Email Search Criteria related list, and click **New**.
-
-    \[Omitted image "ms-122-search-criteria-new.png"\] Alt text: New button highlighted.
+9.  On the Email search record that is displayed, select the Email Search Criteria related list, and select **New**.
 
 10. On the Email Search Criteria form, fill in the fields.
 
@@ -123,7 +103,7 @@ Search icon
 
 </td><td>
 
-Lookup using list. A list of saved searches. Click the icon to open a list of saved email searches. Click an item in this list to remove the current search and select a previously saved email search.
+Lookup using list. A list of saved searches. select the icon to open a list of saved email searches. select an item in this list to remove the current search and select a previously saved email search.
 
 </td></tr><tr><td>
 
@@ -131,7 +111,7 @@ Information icon
 
 </td><td>
 
-Icon used to view the Email Search record. Click the icon to view the email search record.
+Icon used to view the Email Search record. select the icon to view the email search record.
 
 </td></tr><tr><td>
 
@@ -186,19 +166,13 @@ The text values \(key words\) for the search \(email addresses or subject lines\
 For example, `Log in to your account` are exact key words in the string `log in to your account and change your password immediately`. No wildcard \(\*\) designation is required to support a contains type of search. Currently, no filtering method exists for matching an exact search string that is not part of a larger text string.
 
 </td></tr></tbody>
-</table>    \[Omitted image "ms36-search-criteria-from.png"\] Alt text: Email Search Criteria form
-
-11. Click **Submit**.
+</table>11. Select **Submit**.
 
     The Email Search record is displayed. In the **Query from criteria** field, the search criteria you added for the Sender \(From\) is displayed.
 
-    \[Omitted image "ms36-from-criteria.png"\] Alt text: Email Search record
-
 12. To update this email search criteria with more information so that the query includes the subject-plus-sender condition that you want, follow the steps to add another search condition.
 
-    1.  In the Email Search Criteria related list, click **New**.
-
-        \[Omitted image "ms36-search-criteria-new-button-subj.png"\] Alt text: Email Search Criteria related list
+    1.  In the Email Search Criteria related list, select **New**.
 
     2.  From the **Search field**list on the Email Search Criteria record that is displayed, select **Subject**.
 
@@ -208,29 +182,25 @@ For example, `Log in to your account` are exact key words in the string `log in 
 
     4.  In the **Search text** field, enter the value for subject line text, `log in to your account`.
 
-        \[Omitted image "ms-122-subj-search-criteria.png"\] Alt text: Search text field with text string.
-
-    5.  Click **Submit**.
+    5.  Select **Submit**.
 
         The new condition is displayed in the Email Search Criteria related list, and both conditions are displayed in the **Query from criteria** field separated by the **AND** operator.
 
-        \[Omitted image "ms36-subj-plus-search-criteria.png"\] Alt text: New condition is displayed in the Email Search Criteria related list
-
     6.  If you have more than two search conditions, and you select **AND** to separate each condition, set the order value to prioritize them.
 
-    7.  Continue to add, modify, or remove search criteria as desired and click **Update** to save your changes to the record.
+    7.  Continue to add, modify, or remove search criteria as desired and select **Update** to save your changes to the record.
 
 13. Choose one option to continue.
 
-<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d327132e887">
+<table id="choicetable_uyx_fxn_l2b"><thead><tr><th align="left" id="d335751e673">
 
 Option
 
-</th><th align="left" id="d327132e890">
+</th><th align="left" id="d335751e676">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d327132e896">
+</th></tr></thead><tbody><tr><td id="d335751e682">
 
 **Update**
 
@@ -238,7 +208,7 @@ Description
 
 Update and save your changes to the record.
 
-</td></tr><tr><td id="d327132e905">
+</td></tr><tr><td id="d335751e691">
 
 **Search on Email Server\(s\)**
 
@@ -246,13 +216,13 @@ Update and save your changes to the record.
 
 Initiate a search on the servers with the criteria that you saved on the Email Search Criteria record.
 
-</td></tr><tr><td id="d327132e914">
+</td></tr><tr><td id="d335751e700">
 
 **Delete**
 
 </td><td>
 
-Delete this Email Search record from your ServiceNow AI Platform instance. This action does not delete the actual email messages. It only deletes the search record used for finding messages.A dialog box is displayed. If you click **Delete**, the email search results and email search criteria for this search record are deleted.
+Delete this Email Search record from your ServiceNow AI Platform instance. This action does not delete the actual email messages. It only deletes the search record used for finding messages.A dialog box is displayed. If you select **Delete**, the email search results and email search criteria for this search record are deleted.
 
  \[Omitted image "ms-924-confirm-delete-rcd.png"\] Alt text: Confirmation dialog box to delete an email search record.
 
@@ -261,69 +231,51 @@ Delete this Email Search record from your ServiceNow AI Platform instance. This 
  \[Omitted image "ms-warning-dialog.png"\] Alt text: Confirmation dialog box for search result record.
 
 </td></tr></tbody>
-</table>14. To initiate an email search, on the email search record, click **Search on Email Servers\(s\)**.
+</table>14. To initiate an email search, on the email search record, select **Search on Email Servers\(s\)**.
 
     A message is displayed that indicates the search request is submitted.
 
     On the Security Incident record, a work note is displayed indicating that a search has been initiated.
 
-    \[Omitted image "ms-122-search-initiated-note.png"\] Alt text: Work note logs that a search is initiated.
-
     If tagging is enabled, at the top of the Security Incident record, the `Email Search - Initiated` security tag is displayed.
-
-    \[Omitted image "ms-122-si-initiate-search-tag.png"\] Alt text: Email search initiated security tag highlighted.
 
     After the search is successfully completed, if email notifications are enabled, an email is sent to the email address of the individual who initiated the search.
 
     In this example, the user with the sn\_si.analyst role, `Hans SecAnalyst`, submitted this search. The following image shows that this notification is sent to an account in Microsoft Exchange Online. However, these notifications can be sent to a different email service, as required.
 
-    This notification lets you view any matched results that require follow-up and deletion. The following example shows that there is one email that matched the search criteria. An Email search result link to the email search result record in your ServiceNow AI Platform instance is also provided. If you want to view the search record, click this link.
+    This notification lets you view any matched results that require follow-up and deletion. The following example shows that there is one email that matched the search criteria. An Email search result link to the email search result record in your ServiceNow AI Platform instance is also provided. If you want to view the search record, select this link.
 
-    \[Omitted image "ms-122-email-notification.png"\] Alt text: Email notification for email search submitted by security analyst.
-
-15. From this email, to view the search results, click the **Email search result** link.
+15. From this email, to view the search results, select the **Email search result** link.
 
     The email search result record is displayed. On this record, you can verify and review the following data.
 
-    -   In the **Raw data** field, the email count for the number of emails that matched the search criteria `{"count":1}`, and the mailbox addresses where the emails were found are displayed \["`JuanCustomer@nowsecopslab.onmicrosoft.com"]`.
+    -   In the **Raw data** field, the email count for the number of emails that matched the search criteria `{"count":1}`, and the mailbox addresses where the emails were found are displayed \["`JuanCustomer@nowsecopslab.onmicrosoft.com`"\].
     -   In the Recipients column, the recipient is \(`JuanCustomer@nowsecopslab.onmicrosoft.com`\).
     -   In the `Sender` column, the source of the email is displayed.
     -   In the `Email date received` column, the date and time the email was received is displayed to help you track phishing campaign time lines.
     -   In the `Email read status` column, the email in this example has not been read \(`false`\). If an email has been read, `true` is displayed.
     -   In the `Was deleted` column, the email in this example has not been deleted. If an email has been deleted, `true` is displayed.
-    \[Omitted image "ms36-search-results2.png"\] Alt text: Raw data field
-
 16. Alternatively, to view the search results from the security incident, follow these steps.
 
-    1.  Navigate to **Security Incident** &gt; **Incidents** and open the security incident that you are working with.
+    1.  Navigate to **Security Incident** &gt; **Incidents** and open the security incident that you're working with.
 
         At the top of the record, when the search is successfully completed, the `Email Search - Completed` security tag replaces the `Email Search - Initiated` security tag.
 
-        \[Omitted image "ms-122-search-cmplt-tag.png"\] Alt text: Email Search Completed security tag highlighted.
-
         Work notes are displayed that the search is successfully completed and that one matching email was found.
 
-        \[Omitted image "ms-notes-search-cmplt.png"\] Alt text: Work notes logging matched emails are found.
+    2.  Scroll to the bottom of the Security Incident record and select the Email Search related list.
 
-    2.  Scroll to the bottom of the Security Incident record and click the Email Search related list.
+        If the Email Search related list is not displayed, select the**Show All Related Lists** related link to display this related list.
 
-        If the Email Search related list is not displayed, click the**Show All Related Lists** related link to display this related list.
+    3.  With the Email Search related list selected, in the Email search column, select the name of your search.
 
-        \[Omitted image "ms-122-email-search-tab-populated.png"\] Alt text: Email Search related list on the Security Incident record.
+    4.  In the Email Search record, select the Email Search Results related list.
 
-    3.  With the Email Search related list selected, in the Email search column, click the name of your search.
-
-        \[Omitted image "ms-122-search-selected.png"\] Alt text: Email search column with name of search highlighted.
-
-    4.  In the Email Search record, click the Email Search Results related list.
-
-    5.  In the Search date column, click the date of your search to display the data.
+    5.  In the Search date column, select the date of your search to display the data.
 
         The email search result record is displayed.
 
-        \[Omitted image "ms36-search-results2.png"\] Alt text: The email search result record is displayed.
-
-    After an email search is successfully completed, evaluate the results. If you determine that emails require remediation, you are now ready to delete emails, or request delete approval.
+    After an email search is successfully completed, evaluate the results. If you determine that emails require remediation, you're now ready to delete emails, or request delete approval.
 
 
 **Parent Topic:**[Microsoft Exchange Online integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ms-exchange-online-lookups.md)

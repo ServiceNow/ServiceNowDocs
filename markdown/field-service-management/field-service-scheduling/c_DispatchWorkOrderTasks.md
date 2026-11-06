@@ -1,15 +1,15 @@
 ---
 title: Assigning work order tasks to agents manually
-description: When all of the work order tasks associated with a work order are qualified, you can dispatch the work order tasks. You can dispatch them from either the task form, the task map, or Dispatcher Workspace.Dispatch a work order task from the dispatch queue. You can also reassign the task from the queue.Dispatch a work order task from the task map. You can also reassign the task from the map.Automatically match a task to a nearby agent who has the necessary skills and a schedule that can accommodate the task.Request more details from the qualifier if there is not enough information in the task record to dispatch a work order task.
+description: When all of the work order tasks associated with a work order are qualified, you can dispatch the work order tasks. You can dispatch them from either the task form, the task map, or Dispatcher Workspace.Dispatch a work order task from the dispatch queue. You can also reassign the task from the queue.Dispatch a work order task from the task map. You can also reassign the task from the map.Automatically match a task to a nearby agent who has the necessary skills and a schedule that can accommodate the task.Request more details from the qualifier if there is not enough information in the task record to dispatch a work order task.Quickly sort a list of the best agents to assign a work order task based on the criteria that you choose from. This feature works the same way as using assignment assistance in Dispatcher Workspace.You can flag a task from the work order task page. This makes it easier to follow up on work order tasks that might need attention later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/c\_DispatchWorkOrderTasks.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assigning work order tasks to agents manually
@@ -28,8 +28,6 @@ You can dispatch work order tasks to qualified work agents from these locations:
 
 **Note:** When dynamic scheduling is enabled, dispatchers can manually double-book an agent for more than one work order task with overlapping time. You can enable double booking using **work.management.allow.doublebooking.dynamicscheduling** [system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_InstalledWithFSM.md).
 
-**Parent Topic:**[Scheduling and dispatching work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/scheduling-and-dispatching-agents.md)
-
 ## Assign work order tasks to agents or crews from the dispatch queue
 
 Dispatch a work order task from the dispatch queue. You can also reassign the task from the queue.
@@ -46,15 +44,15 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 
 3.  Assign task to an agent or a crew.
 
-<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d89246e232">
+<table id="choicetable_rqt_352_vtb"><thead><tr><th align="left" id="d99241e236">
 
 Option
 
-</th><th align="left" id="d89246e235">
+</th><th align="left" id="d99241e239">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d89246e241">
+</th></tr></thead><tbody><tr><td id="d99241e245">
 
 **If Territory Planning is not enabled**
 
@@ -67,7 +65,7 @@ Description
 
 A warning message appears if the assigned task is outside the radius between the task location and the agent's location.
 
-</td></tr><tr><td id="d89246e273">
+</td></tr><tr><td id="d99241e277">
 
 **If Territory Planning is enabled**
 
@@ -113,6 +111,8 @@ You can use the dispatch map if you urgently need to dispatch a task or to reass
 3.  Click **View Task on Map**.
 
     This button is available only if the task contains a location with a defined latitude and longitude. The map displays a red task icon with a black spot for the task, and shows icons for all nearby agents.
+
+    \[Omitted image "task-map.png"\] Alt text: view task on map button
 
 4.  To apply filters on the agents, do the following:
 
@@ -205,4 +205,63 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher, or wm\_admi
 The work order task is moved to the Draft state.
 
 The work order is moved to the Awaiting Qualification state. If Field Service Management is configured for automatic qualification, the work order state remains at **Qualified**.
+
+## Suggest agents to assign to a work order task from the work order task page
+
+Quickly sort a list of the best agents to assign a work order task based on the criteria that you choose from. This feature works the same way as using assignment assistance in Dispatcher Workspace.
+
+### Before you begin
+
+Role required: wm\_dispatcher
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **My Dispatch Queue**.
+
+2.  Select the work order task that you want to assign an agent to.
+
+3.  Select **Assignment assistance**.
+
+    \[Omitted image "assign-assistance-task.png"\] Alt text: assignment assistance on records page
+
+4.  Sort the agent list based on the criteria that you want.
+
+    |Sort option|Description|
+    |-----------|-----------|
+    |Best Match|Best match is the default sorting method. Match percentage is calculated the same way that Dynamic Scheduling calculates agents to assign tasks to. For more information, see [Matching criteria for assigning tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md).|
+    |Distance|Sorts agents based on how far each agent is from the work order task.|
+    |Skills|Sorts agents based on the number of required skills that each agent has. Agents with more skills are at the top.|
+    |Parts|Sorts agents based on how many required parts each agent has. Agents with the most parts to complete the task are at the top.|
+    |Earliest start time|Sorts agents based on how quickly they can start the work order task.|
+    |Earliest end time|Sorts agents based on how quickly they can complete the work order task.|
+
+5.  Select the agent to whom you want to assign the work order task.
+
+6.  Select **Save**.
+
+
+## Flag a work order task
+
+You can flag a task from the work order task page. This makes it easier to follow up on work order tasks that might need attention later.
+
+### About this task
+
+This feature works the same way as the Flag a task function that shows on the task card in Dispatcher Workspace.
+
+### Before you begin
+
+Role required: wm\_dispatcher
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **My Dispatch Queue**.
+
+2.  Select the work order task that you want to flag.
+
+3.  Select **Flag Task**.
+
+    \[Omitted image "select-flag-task.png"\] Alt text: flag task button on records page
+
+    The work order task is flagged and can be found under **All** &gt; **Field Service** &gt; **Work Order** &gt; **My Flagged Tasks**.
+
 

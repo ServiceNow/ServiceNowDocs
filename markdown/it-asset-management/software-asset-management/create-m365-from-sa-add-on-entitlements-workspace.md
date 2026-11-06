@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Creating Microsoft 365 From SA and Add-on entitlements, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Creating Microsoft 365 From SA and Add-on entitlements, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create Microsoft 365 From SA and Add-on entitlements in the Software Asset Workspace
@@ -52,7 +52,7 @@ Role required: sam\_user or sam\_admin
 
     **Note:** You can assign a From SA or Add-on entitlement to multiple corresponding Microsoft entitlements.
 
-    **Note:** By default, the software model for your From SA or Add-on entitlement includes the corresponding Microsoft software product or service as a suite component. If the product or service isn’t already included as a suite component, you can include it manually. See [Create software models in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md) for detailed instructions.
+    **Note:** By default, the software model for your From SA or Add-on entitlement includes the corresponding Microsoft software product or service as a suite component. If the product or service isn’t already included as a suite component, you can include it manually. See [Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md) for detailed instructions.
 
     1.  On the **Related Entitlements** tab of the software entitlement record, select **New**.
 

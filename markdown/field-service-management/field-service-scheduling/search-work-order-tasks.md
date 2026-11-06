@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Search work order tasks
@@ -30,7 +30,7 @@ You can search work order tasks using the following criteria:
 
 You can also filter and sort work order tasks based on the fields that are configured by the administrator.
 
-If you add a work order task number to the work notes of a different work order task, when you search for the work order task number that was added to the work notes both the work order tasks show up. This happens because it is a keyword search that causes both the work order tasks show up. For example if you add WOT123 to the notes of WOT456, then when you search for WOT123, both WOT123 and WOT456 show up.
+If you add a work order task number to the work notes of another work order task, when you search for the work order task number that was added to the work notes both the tasks show up. This happens because it's a keyword search that causes both the work order tasks show up. For example if you add WOT123 to the notes of WOT456, then when you search for WOT123, both WOT123 and WOT456 show up.
 
 ## Procedure
 
@@ -70,6 +70,14 @@ Select the **Turn on filter tasks by calendar dates** \(\[Omitted image "filter-
 -   If both the window start and window end fields are empty, then the task panel's task appears when Match calendar dates are enabled.
 -   If the calendar display window is modified, the task panel is updated to display only tasks that match the new date range.
 
+
+</td></tr><tr><td>
+
+Assignment group/ Territory task filter
+
+</td><td>
+
+Select the **Turn ON assignment group/ territory-matching task filtering** \(\[Omitted image "assignment-group-matching.png"\] Alt text:\) icon to limit the task panel to only display tasks that belong to your selected assignment groups.
 
 </td></tr><tr><td>
 

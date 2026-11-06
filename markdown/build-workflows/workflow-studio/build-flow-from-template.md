@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Getting started with flows, Exploring flows, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Getting started, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Build a flow from a template in App Engine Studio
@@ -104,6 +104,4 @@ To help you get started with building a flow from a flow template, follow along 
 ## What to do next
 
 Your flow is now active and will run whenever it's triggered. Next, you can manage your flow every time it runs by viewing your flow's execution history. To view this history, click **Executions** in the main header. The resulting page shows you the state of completion for each flow execution as well as how long it took for each flow execution to run, or its runtime. To troubleshoot a flow execution for errors, select an execution from this list to open the [Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-execution-details.md).
-
-**Parent Topic:**[Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-flow.md)
 

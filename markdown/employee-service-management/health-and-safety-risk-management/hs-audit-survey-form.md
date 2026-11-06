@@ -1,22 +1,22 @@
 ---
-title: Audit survey form
-description: The safety audit manager can use the audit survey form to assign a smart assessment or survey to be conducted as part of a safety audit.
+title: Audit questionnaire form
+description: The safety audit manager can use the audit questionnaire form to assign a smart assessment or survey to be conducted as part of a safety audit.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.html
 release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: reference
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
 
-# Audit survey form
+# Audit questionnaire form
 
-The safety audit manager can use the audit survey form to assign a smart assessment or survey to be conducted as part of a safety audit.
+The safety audit manager can use the audit questionnaire form to assign a smart assessment or survey to be conducted as part of a safety audit.
 
-For information on adding an audit survey to an audit or audit schedule, see [Set up a safety audit schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.md).
+For information on adding an audit questionnaire to an audit or audit schedule, see [Set up a safety audit schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-setup-safety-audit-schedule.md).
 
 <table id="table_ehm_qpz_xhc"><thead><tr><th>
 
@@ -32,7 +32,7 @@ Number
 
 </td><td>
 
-System-generated unique number for the survey record.
+System-generated unique number for the questionnaire record.
 
 </td></tr><tr><td>
 
@@ -40,7 +40,7 @@ Assigned to
 
 </td><td>
 
-User this audit survey is assigned to.
+User this audit questionnaire is assigned to.
 
 </td></tr><tr><td>
 
@@ -48,7 +48,7 @@ State
 
 </td><td>
 
-State of the audit survey.
+State of the audit questionnaire.
 
 </td></tr><tr><td>
 
@@ -80,11 +80,19 @@ This field appears only when **Assessment type** is set as **Survey**.
 
 </td></tr><tr><td>
 
+Due date
+
+</td><td>
+
+Date by when this audit questionnaire should be complete.
+
+</td></tr><tr><td>
+
 Order
 
 </td><td>
 
-Order in which this assessment should be conducted when multiple audit surveys exist for an audit.
+Order in which this assessment should be conducted when multiple audit questionnaires exist for an audit.
 
 </td></tr><tr><td>
 

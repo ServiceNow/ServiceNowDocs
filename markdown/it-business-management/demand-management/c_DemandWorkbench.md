@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -28,7 +28,7 @@ By default, the workbench displays demands screened by stakeholders or qualified
 
 With the demand manager role, you can view and evaluate demands.
 
-\[Omitted image "DemandWorkbench.png"\] Alt text: Demand workbench
+\[Omitted image "demand-workbench.png"\] Alt text: Assessing demands using bubble charts from the Demand Workbench.
 
 The demand workbench includes the following components:
 

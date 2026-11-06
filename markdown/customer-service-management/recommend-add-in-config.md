@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/recommend-add-in-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Microsoft Outlook, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Microsoft Outlook, Integrate, Customer Service Management]
 ---
 
 # Include a combined CSM and ITSM add-in icon in Microsoft Outlook
@@ -16,7 +16,7 @@ Enable users to access both CSM and ITSM through one combined add-in icon.
 
 ## Before you begin
 
-Role required: sn\_customerservice.contact\_manager and sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.contact\_manager and sn\_csm\_proxy\_cont
 
 ## Procedure
 

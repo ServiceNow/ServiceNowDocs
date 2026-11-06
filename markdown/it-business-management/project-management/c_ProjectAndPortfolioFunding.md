@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Basics of Project Management, Explore, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Basics of Project Management, Exploring Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project and portfolio funding
@@ -21,8 +21,8 @@ You can fund projects and portfolios when you activate PPM Standard with Financi
 The funding process follows these steps:
 
 1.  Identify the costs for time, such as a financial year, by creating cost plans at the project or demand level. These costs roll up to the portfolio Cost Plans related list. Cost plans automatically include cost plan breakdowns for each fiscal period. See [Create a project cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProjectCostPlan.md) and [Create a demand cost plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreateADemandCostPlan.md).
-2.  Enter the target cost values for operational and capital expenses for the portfolio. See [Create a portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-management/t_CreateAPortfolio.md) and .
-3.  Create budget plans for the projects in your portfolio and promote the plans to forecasts. See  and Promote a budget plan.
+2.  Enter the target cost values for operational and capital expenses for the portfolio. See [Create a portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-management/t_CreateAPortfolio.md) and [Legacy- Plan the portfolio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-management/c_FinancialPlanningForPortfolio.md).
+3.  Create budget plans for the projects in your portfolio and promote the plans to forecasts. See [Legacy- Create and promote a budget plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-management/t_CreateABudgetPlanFromPortfolio.md) and [Promote a budget plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-management/view-ppm-portfolio-budget-plan-in-planning-workbench.md).
 
 **Parent Topic:**[Basics of Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/c_ProjectTasks.md)
 
@@ -50,4 +50,8 @@ The funding process follows these steps:
 [Actual project costs]()
 
 [Types of external dependencies]()
+
+[Project scheduling in Project Management]()
+
+[Task constraints]()
 

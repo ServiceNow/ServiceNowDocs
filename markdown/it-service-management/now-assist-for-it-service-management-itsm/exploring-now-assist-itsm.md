@@ -7,8 +7,8 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -37,7 +37,7 @@ The ServiceNow Otto for ITSM application includes the generative AI skills and f
 
 -   **Sidebar discussion summarization**
 
-    Provides an agent with a summary of a requester's Virtual Agent Sidebar discussion history. An agent can also post the summary to the incident work notes for further troubleshooting before or after the chat ends.
+    Generates a summary of Sidebar discussions between agents, requesters, and subject matter experts using this skill. An agent can also post the summary to the incident work notes for further troubleshooting before or after the chat ends.
 
     \[Omitted image "now-assist-itsm-sidebar-discuss.png"\] Alt text: Sidebar discussion summarization.
 
@@ -52,13 +52,11 @@ The ServiceNow Otto for ITSM application includes the generative AI skills and f
     -   Work notes
     -   Additional comments
     -   Email
-    \[Omitted image "incident-summary-now-assist.png"\] Alt text: Incident summary that specifies the issue and actions taken.
-
 -   **Incident assist**
 
-    Enables an agent to quickly obtain common incident related information conversationally within the incident record by asking questions related to the supported topics in the Now Assist panel.
+    Enables an agent to quickly obtain common incident related information conversationally within the incident record by asking questions related to the supported topics in the Otto panel.
 
-    Incident assist topics supported in the Now Assist panel include:
+    Incident assist topics supported in the panel include:
 
     -   Caller's assets
     -   Caller's recent incidents
@@ -105,13 +103,9 @@ The ServiceNow Otto for ITSM application includes the generative AI skills and f
     -   Risk
     Additional inputs include: similar change requests and the incidents caused by those changes, and risk condition that was met.
 
-    \[Omitted image "now-assist-chg-risk-explanation.png"\] Alt text: Change request risk explanation in Service Operations Workspace.
-
 -   **Resolution notes generation**
 
-    Automatically generates the resolution notes for an incident using the Now Assist icon and provides context to the other agents who might encounter similar incidents.
-
-    \[Omitted image "itsm-resolution-notes-generation.png"\] Alt text: Resolution notes for an incident.
+    Automatically generates the resolution notes for an incident using the Otto icon and provides context to the other agents who might encounter similar incidents.
 
 -   **Knowledge generation**
 
@@ -119,15 +113,11 @@ The ServiceNow Otto for ITSM application includes the generative AI skills and f
 
     The knowledge generation skill displays a pop-up window that an agent can use to generate a knowledge article and review it before publishing the knowledge article draft.
 
-    \[Omitted image "now-assist-itsm-kb-gen-modal.png"\] Alt text: Now Assist in ITSM knowledge article choice modal.
-
 -   **Chat reply recommendation**
 
-    Enables an agent to generate a reply recommendation from a chat using the Now Assist icon.
+    Enables an agent to generate a reply recommendation from a chat using the Otto icon.
 
     The chat reply recommendation skill displays a pop-up window that an agent can use to generate a recommendation and review it before sending it as a reply to the requester.
-
-    \[Omitted image "now-assist-itsm-generate-reply.png"\] Alt text: Write with Now Assist chat reply recommendation.
 
 -   **Release notes generation for a release in Digital Product Release**
 
@@ -136,9 +126,9 @@ The ServiceNow Otto for ITSM application includes the generative AI skills and f
     The Generate release notes skill uses artifacts in the release scope to generate the release notes that you can review it before publishing.\[Omitted image "dpr-release-notes-preview.png"\] Alt text: Release notes for a release generated using AI-driven summarization, in Digital Product Release Workspace.
 
 
-## Now Assist panel in Service Operations Workspace for ITSM
+## Otto panel in Service Operations Workspace for ITSM
 
-An agent can use the Now Assist panel in Service Operations Workspace for ITSM. This conversational interface enables an agent to request a chat summary or incident summary and generate the incident resolution notes. For more information about the Now Assist panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
+An agent can use the Otto panel in Service Operations Workspace for ITSM. This conversational interface enables an agent to request a chat summary or incident summary and generate the incident resolution notes. For more information about the ServiceNow Otto panel, see [Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-panel-overview.md).
 
 -   **[Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md)**  
 Get a quick overview of the important information that is related to the ServiceNow Otto for IT Service Management \(ITSM\) application.

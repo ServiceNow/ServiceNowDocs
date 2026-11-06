@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Scan
 classification: instance-scan
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Instance Scan references, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -19,6 +19,11 @@ Instance Scan is installed with these roles.
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
 **Parent Topic:**[Instance Scan references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/instance-scan/hs-references.md)
+
+**Related topics**  
+
+
+[Instance Scan properties]()
 
 ## Instance Scan user \[scan\_user\]
 

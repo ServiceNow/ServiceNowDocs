@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_SupportedIntegrationInterfaces.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -34,9 +34,7 @@ Computer Telephony Integration \(CTI\) is accomplished by the CTI client on the 
 -   **[Integrating ServiceNow with your Intranet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_IntegratServiceNowIntranet.md)**  
 You can add a ServiceNow login link to your intranet.
 -   **[JDBCProbe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_JDBCProbe.md)**  
-A JDBC probe runs on the MID Server to query an external database via \[JDBC\] and returns results to ServiceNow.
--   **[Build a search provider for your instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_BuildSearchProviderForInstance.md)**  
-ServiceNow Search Providers allow you search and our Forums from the IE and Firefox search bar.
+A JDBC probe runs on the MID Server to query an external database via JDBC and returns results to ServiceNow.
 -   **[Syslog probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_SyslogProbe.md)**  
 The ServiceNow Syslog probe uses the MID Server to deliver log messages from a ServiceNow instance to another machine, such as a dedicated log server, using the syslog protocol over an IP network.
 

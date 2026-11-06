@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Content Ownership, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Content Ownership, Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Assign ownership of an audience
@@ -45,5 +45,7 @@ You can restrict an audience to a specific content manager or group of content m
 5.  Select **Submit**.
 
     After a user or group is associated with an audience, only that user or group can access the audience. Remove the user or group to make the audience accessible to all content managers.
+
+    **Note:** Content Managers can create audiences. To enable this, the Allow Ownership for Audiences option must be turned off. If the Ownership Property is enabled, the Content Manager will not have permission to create audiences. See, [Create an auidence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-audiences.md).
 
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/view-kpi-details.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Exploring, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # View KPI Details
@@ -24,7 +24,7 @@ The following actions open KPI Details:
 
 ## Procedure
 
--   Select an indicator on the KPIs page in the Platform Analytics library, **Platform Analytics** &gt; **Library** &gt; **KPIs**.
+-   Select an indicator in the Platform Analytics indicator library, **Platform Analytics** &gt; **Library** &gt; **Indicators**.
 
     For an indicator to appear in that list, the **Show in library** setting in the Access Control tab of that indicator record must be selected \(true\).
 

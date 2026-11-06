@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication policy contexts, Adaptive authentication, Authentication, Access Management]
 ---
@@ -74,9 +74,9 @@ This field appears only when the **Default Policy** field is set to **Deny Polic
 </td></tr></tbody>
 </table>## Policy inputs and conditions
 
-The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the **Preview this record** icon next to the **Allow Policy** or **Deny Policy** field.
+The **Policy Input** and **Policy Conditions** tabs display the inputs and conditions of the policy selected in the **Allow Policy** or **Deny Policy** field. These tabs serve as a reference, but cannot be used to change the policy inputs or conditions. To modify your policy settings, navigate to the policy using the information icon next to the **Allow Policy** or **Deny Policy** field.
 
-**Note:** Policy conditions can be created from here, but as a good practise it is recommended to add new policy conditions from policy page.
+**Note:** Policy conditions can be created from here, but as a good practice it is recommended to add new policy conditions from policy page.
 
-\[Omitted image "account-recovery.png"\] Alt text:
+\[Omitted image "account-recovery.png"\] Alt text: Account Recovery Context
 

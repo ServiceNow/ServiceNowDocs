@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-content-pack.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up FSM reports and analytics, Configuring Field Service Management, Field Service Management]
+breadcrumb: [FSM reports and analytics, Configure, Field Service Management]
 ---
 
 # Field Service Management Platform Analytics Solutions
@@ -16,7 +16,7 @@ Platform Analytics Solutions contain preconfigured dashboards. These dashboards 
 
 ## Platform Analytics Solutions
 
-Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
+Platform Analytics data visualizations use Performance Analytics [indicator](https://docs.servicenow.com/bundle/yokohama-glossary/page/reuse/glossary/now-platform-glossary.html#gloss-indicator) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
 To enable the solution for Field Service Management, an admin navigates to **System Definitions** &gt; **Plugins** and activate the Performance Analytics - Content Pack - Field Service Management plugin \(com.snc.work\_management\_pa\).
 

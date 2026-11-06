@@ -7,9 +7,9 @@ release: yokohama
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Manage applications, ServiceNow application repository, Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # Publish an application to the application repository
@@ -19,6 +19,8 @@ Publish a custom application to the application repository so that it can be ins
 ## Before you begin
 
 To enable a developer to publish an application to the application repository, delegate the Publish to App Repo permission to the developer. For more information, see [Delegate development and deployment permissions to personnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/t_AddADeveloper.md).
+
+If you use an on-prem \(self-hosted\) instance, see additional details at [Application Repository for self-hosted, air-gapped customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-repository-self-hosted/manage-store-app-air-gapped.md).
 
 Role required: admin or delegated\_developer with Publish To App Repo permission enabled
 
@@ -45,7 +47,5 @@ By default, after you publish an application to the application repository, all 
 
 The **Can Edit Application in Studio** property defaults to true for new applications, but you can set it false before publishing.
 
-In Studio, when an application customization has the **Can Edit Application in Studio** property set to false, the user sees this warning:\[Omitted image "can-edit-app-studio-warning.png"\] Alt text: Can Edit Application in Studio warning
-
-For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-repository-self-hosted/manage-app-entitlements.md) and .
+For more information, see [Manage application entitlements from the application repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-repository-self-hosted/manage-app-entitlements.md) and [Access ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/access-servicenow-studio.md).
 

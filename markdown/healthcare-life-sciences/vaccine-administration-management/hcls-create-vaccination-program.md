@@ -7,9 +7,9 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Create vaccination programs
@@ -195,7 +195,7 @@ Configure the eligibility criteria that users must meet to be eligible for a spe
 </td></tr></tbody>
 </table>    3.  Click **Submit**.
 
-        **Note:** If you want to create your own record producer or an alternative to "Schedule your vaccination", don’t update the catalog item of the program with the new record producer at this stage. "Schedule your vaccination" is the user-facing record producer which enables users to schedule vaccines in the Patient Portal. The catalog item should always remain "Schedule vaccine appointment" even when you create a non-OOTB program. For more information, see the Schedule and manage your vaccinations section of [Using the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md).
+        **Note:** If you want to create your own record producer or an alternative to "Schedule your vaccination", don’t update the catalog item of the program with the new record producer at this stage. "Schedule your vaccination" is the user-facing record producer which enables users to schedule vaccines in the Patient Portal. The catalog item should always remain "Schedule vaccine appointment" even when you create a non-OOTB program. For more information, see the Schedule and manage your vaccinations section of [Use the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md).
 
 
 **Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Cost-based licensing optimization for Microsoft
@@ -17,6 +17,8 @@ breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported s
 The cost-based licensing optimization for Microsoft helps you determine the most optimal way to license your Microsoft software products across hybrid infrastructures. With this optimization, you can automatically balance license compliance with cost effectiveness to maximize cost savings.
 
 **Note:** This licensing optimization is automatically included in the Software Asset Management Professional \(com.snc.samp\) plugin, meaning that you do not have to optimize and manage allocations for your Microsoft software rights manually. However, you can choose to manage your allocations manually if the recommended licensing optimizations do not follow your organization's licensing strategy. See [Allocation Management on ServiecNow SAM Pro](https://www.servicenow.com/community/sam-blog/allocation-management-on-servicenow-sam-pro/ba-p/2649232) for more details on manual allocation management.
+
+**Note:** You can bypass this licensing optimization in your hypervisor clusters by applying preferred licensing assignments to the Microsoft software products that are deployed on those clusters. For more information on preferred licensing assignments, see [Create preferred licensing assignments for Microsoft software products deployed on clusters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/apply-preferred-licensing-assignments-microsoft-clusters.md).
 
 This licensing optimization is supported by the following Microsoft license types:
 
@@ -32,6 +34,10 @@ This licensing optimization provides the following benefits:
 -   Helps you determine the cost savings that you have already achieved through your current software entitlement and infrastructure setup.
 -   Helps you determine if you can achieve further cost savings by following recommended licensing optimizations.
 -   Helps you gain insight into each of the recommended licensing optimizations so that you can understand the reasoning behind them and determine if you want to follow or ignore them.
+
+## Licensing optimization for Microsoft Server products deployed on Microsoft Hyper-V virtualization technology
+
+For Microsoft Windows Server Standard deployments on Microsoft Hyper-V virtualization technology, the Software Asset Management application supports a specialized licensing optimization that can help you achieve better cost efficiency. With this licensing optimization, the Software Asset Management application first licenses the physical hosts that contain Microsoft Windows Server Standard installations. It then licenses the individual VMs that contain Microsoft Windows Server Standard installations. This optimization strategy combines licensing at both the physical host layer and virtual layer, which can help reduce licensing requirements and costs.
 
 ## Understanding your licensing optimizations
 

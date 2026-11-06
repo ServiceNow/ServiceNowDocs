@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Readiness Core
 classification: employee-readiness-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up privacy consent settings, Maintaining privacy consent in Employee Readiness Core, Employee Readiness Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---

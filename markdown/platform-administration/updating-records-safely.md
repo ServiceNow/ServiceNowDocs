@@ -1,16 +1,16 @@
 ---
-title: Updating records safely
+title: Updating records safely in Core UI
 description: Update several records simultaneously without using scripts by creating and executing a batch update job.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/updating-records-safely.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Updating records safely
+# Updating records safely in Core UI
 
 Update several records simultaneously without using scripts by creating and executing a batch update job.
 
@@ -36,5 +36,5 @@ Schedule a date and time to execute an update job or execute the job immediately
 -   **[Rollback an update job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/rollback-update-job.md)**  
 Rollback a completed update job to revert the updates to the records.
 
-**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DataManagement.md)
+**Parent Topic:**[Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/data-management-policies.md)
 

@@ -1,5 +1,5 @@
 ---
-title: IP-Based Discovery Schedule Form Table
+title: IP-Based Discovery Schedule form and fields table
 description: A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/ip-based-cert-discovery-schedule-table.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# IP-Based Discovery Schedule Form Table
+# IP-Based Discovery Schedule form and fields table
 
 A table of the fields and values to set up an IP-based Certificate Discovery schedule.
 

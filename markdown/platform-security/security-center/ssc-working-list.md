@@ -7,7 +7,7 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: task
-last_updated: "2025-04-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [All settings, Security hardening, Security configuration console, Security Center, Platform Security]
 ---

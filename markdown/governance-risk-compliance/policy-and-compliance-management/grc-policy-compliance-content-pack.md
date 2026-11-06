@@ -7,7 +7,7 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ The Analytics and Reporting Solution for GRC: Policy and Compliance Management i
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Platform Analytics data visualizations use Performance Analytics [indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) data to show you data over time, helping you analyze your business processes and identify areas of improvement. With Platform Analytics Solutions, you can get value from Performance Analytics for your application with minimal setup. You can always create your own objects as well.
 
@@ -41,7 +41,7 @@ Policies Overview dashboard provides an executive view into compliance requireme
 -   **[Policy Exception Overview Performance Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-policy-exception-dashboard.md)**  
 The Policy Exception Overview Performance Analytics dashboard provides views into the number, severity, and source of policy exceptions. It also shows exempted controls.
 -   **[Policy Acknowledgement dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/policy-ack-db-pc.md)**  
-The Policy Acknowledgement dashboard gives you the acknowledgement status of the policies such as the count of policy acknowledgements that have been accepted, declined, pending, past the due date of acknowledgement, exemptions requested, and those that are exempted.
+The Policy Acknowledgement dashboard gives you the acknowledgement status of the policies. It includes count of policy acknowledgements that have been accepted, declined, pending, past the due date of acknowledgement, exemptions requested, and those that are exempted.
 -   **[My Attestation Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/my-attestation-ovrview-pa-pc.md)**  
 The Assessment Overview dashboard displays various assessment reports, such as Assessable Records by Type, Total Metrics by Metric Type, and Assessments by State. You can now view the dashboard in the Next Experience UI Framework.
 -   **[NIST Cybersecurity Framework Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/nist-cybersecurity-ovrvw-db-pc.md)**  

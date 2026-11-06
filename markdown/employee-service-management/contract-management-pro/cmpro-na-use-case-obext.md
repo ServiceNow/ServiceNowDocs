@@ -1,21 +1,21 @@
 ---
 title: Create use cases for contract obligation extraction
-description: Create obligation extraction use cases to specify the types of key contractual obligation you want Now Assist to detect and extract from contract documents.
+description: Create obligation extraction use cases to specify the types of key contractual obligation that you want AI to detect and extract from contract documents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-na-use-case-obext.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-10-25"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
 keywords: [Obligation extraction use case]
-breadcrumb: [Configure obligation extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure obligation extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create use cases for contract obligation extraction
 
-Create obligation extraction use cases to specify the types of key contractual obligation you want Now Assist to detect and extract from contract documents.
+Create obligation extraction use cases to specify the types of key contractual obligation that you want AI to detect and extract from contract documents.
 
 ## Before you begin
 
@@ -23,25 +23,25 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_conf
 
 ## About this task
 
-In the contract obligation extraction skill, you can create a use case to define the category and subcategory of obligations you want to extract from a contract.
+In the contract obligation extraction skill, you can create a use case to define the category and subcategory of obligations that you want to extract from a contract.
 
-For each use case, you can add fields with detailed prompts to define the obligation category, subcategory, and description of the subcategory. The information is used by the Large language model \(LLM\) to identify and extract obligations from a contract. You must add a separate field for each obligation category that you want to extract.
+For each use case, you can add fields with detailed prompts to define the obligation category, subcategory, and description of the subcategory. The information is used by the large language model \(LLM\) to identify and extract obligations from a contract. You must add a separate field for each obligation category that you want to extract.
 
 Comprehensive use cases ensure that obligation extraction is precise, consistent, and aligned with your compliance requirements.
 
-The **CM Pro - Contract Obligation Extraction** use case is available with the Now Assist in Contract Management base system. This use case isn’t editable.
+The CM Pro - Contract Obligation Extraction use case is available with the in base system. This use case isn’t editable.
 
 **Note:** If you create your own use case or customize a copy of an available use case, be sure to test it thoroughly to ensure accuracy.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile for your skill, select **Activate skill**.
+3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  On the General details page, view the skill details and select **Save and continue**.
 
@@ -49,7 +49,7 @@ The **CM Pro - Contract Obligation Extraction** use case is available with the N
 
 6.  In the Define use case page, add the use case details and select **Save and continue**.
 
-    \[Omitted image "cmpro-na-ob-use-case.png"\] Alt text: Define use case form for obligation extraction
+    \[Omitted image "cmpro-na-ob-use-case.png"\] Alt text: Define use case form for obligation extraction.
 
 <table id="table_czf_dpc_chc"><thead><tr><th>
 
@@ -81,7 +81,7 @@ Language of the files
 
 </td><td>
 
-Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see [Languages supported by Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/languages-supported-by-document-intelligence.md).
+Language of the contract documents from which you want to extract the obligations.For more information on supported languages, see .
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ LLM provider
 
 </td><td>
 
-Large language model \(LLM\) provider for the use case that is used to extract obligations.**Note:** For contract obligation extraction use cases, select large LLMs such as Now LLM Service Large to ensure more accurate results.
+Large language model \(LLM\) provider for the use case that is used to extract obligations.**Note:** For contract obligation extraction use cases, select large LLMs such as Azure OpenAI GPT to achieve more accurate results.
 
 </td></tr><tr><td>
 
@@ -130,9 +130,9 @@ Question
 
 </td><td>
 
-Details of the obligation you want to extract. The information is used by the LLM to identify and extract obligations from contracts.The details must include the category and subcategory of the obligation you want to extract along with a description that explains the specified subcategory.
+Details of the obligation that you want to extract. The information is used by the LLM to identify and extract obligations from contracts.The details must include the category and subcategory of the obligation that you want to extract along with a description that explains the specified subcategory.
 
-For example of a description, refer to the **Details** field of a question in the **CM Pro - Contract Obligation Extraction** use case that is available with the base system.
+For an example of a description, refer to the **Details** field of a question in the CM Pro - Contract Obligation Extraction use case that is available with the base system.
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ Target field
 This field should be left empty.
 
 </td></tr></tbody>
-</table>        For more information on the field form, see [Question form for document Q&amp;A setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/document-qna-single-field-form.md).
+</table>        For more information on the field form, see .
 
         \[Omitted image "cmpro-ob-ext-field.png"\] Alt text: Field information for contract obligation extraction.
 
@@ -183,7 +183,7 @@ This field should be left empty.
 
     3.  Select **Continue**.
 
-        The obligation extraction results for the uploaded document are displayed on the side panel.
+        The obligation extraction results for the uploaded document are displayed in the side panel.
 
         Upload and test another document by selecting **Test a new document**.
 
@@ -205,4 +205,9 @@ The use case is created for the contract obligation extraction skill. The LLM us
 [Map a use case for contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-map-usecase-obext.md)
 
 **Parent Topic:**[Configuring contract obligation extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-obligation-extraction.md)
+
+**Related topics**  
+
+
+[Map a use case for contract obligation extraction]()
 

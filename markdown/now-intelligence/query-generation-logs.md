@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/query-generation-logs.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation logs
@@ -27,7 +27,8 @@ Go to **Query Generation** &gt; **Administration** &gt; **Logs** to inspect fail
 |-------|------------|---|
 |"Unable to understand" response|System cannot find a matching table|Improve entity description; rephrase with table name; verify AI search is running; verify that all Indexed Sources are fully processed.|
 |Wrong table selected|Similar table names, no disambiguation|Add semantic usage instructions to differentiate.|
-|Wrong table selected \(permissions\)|User lacks read access to the intended table or fields|Verify and grant table and field read ACLs for the intended data.|
+|Wrong table selected \(permissions\)|User lacks read access to the intended table or fields.|Verify and grant table and field read ACLs for the intended data.|
+|"Error accessing table data" or "Scope access not granted" response|Some data is in protected application scopes that AI Data Explorer cannot access.|Create ACLs granting access to the scope for AI Data Explorer. Approve the subsequently generated Restricted Caller Access \(RCA\) records. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/enable-aide-secure-scope-apps.md).|
 |Missing field in results|Dimension turned off, unclear label, or field not in semantic layer|Check dimension is active; update label.|
 |Related fields not pulled in|Referenced table missing from semantic layer or reference dimension turned off|Add and enable the referenced table entity; enable the reference dimension.|
 |Wrong filter applied|Bad segment match|Fix segment name and description; disable the segment.|
@@ -48,10 +49,10 @@ Go to **Query Generation** &gt; **Administration** &gt; **Logs** to inspect fail
 |Response|The JSON response to the query|Yes|
 |Entities|The records in the Entities table that are referenced by the query. Each record corresponds to a facts table.|Yes|
 |Query Constitutor Output|JSON of the query that is generated|Yes|
-|Source|The application from which the question was asked. If the question was asked from the Now Assist panel when it was open in a page that is not part of an application, the UUID of that page is shown instead.|Yes|
+|Source|The application from which the question was asked. If the question was asked from the ServiceNow Otto panel when it was open in a page that is not part of an application, the UUID of that page is shown instead.|Yes|
 |Response|The response that the LLM returns|Yes|
 |Generative AI Log|The LLM used for the query|Yes|
-|Conversation|Unique chat conversation ID, such as in a Now Assist Panel to Query Generation conversation|Yes|
+|Conversation|Unique chat conversation ID, such as in a ServiceNow Otto Panel to Query Generation conversation|Yes|
 |ACL Time|Time it took to validate the Access or Security of the user for the underlying table|No|
 |Additional info|Start time, total calls, and other metadata about the AI Search run|No|
 |Created by|Person who created the query. Includes ServiceNow® staff members logged on as maint.|No|

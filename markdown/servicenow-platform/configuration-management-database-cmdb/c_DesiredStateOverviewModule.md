@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Desired State, CMDB Compliance, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Desired State, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Desired State Overview module
@@ -87,6 +87,4 @@ Role required: none
     -   Hierarchical Task Roll Up: All follow-on tasks grouped by **Assigned to** user.
     -   Desired State Discrepancies: All audit discrepancies for attributes and relationships.
     -   30/60/90 Day Task Aging: All outstanding follow-on tasks grouped by age in 30-day increments.
-    \[Omitted image "DesiredStateOverview.png"\] Alt text: Desired state overview charts.
-
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [HAM licensing, Hardware Asset Management licensing]
-breadcrumb: [Hardware Asset Management subscription, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Management subscription, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Licensing framework for Hardware Asset Management solutions
@@ -118,8 +118,6 @@ When you activate all the Hardware Asset Management solutions along with the OT 
 
 
 [Hardware Asset Management licensing]()
-
-[Hardware Asset Management license exclusion]()
 
 [Hardware Asset Management integration with Zero Touch Mobility](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/ham-for-ztm.md)
 

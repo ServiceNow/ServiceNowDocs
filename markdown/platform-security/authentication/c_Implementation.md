@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Implementing a nonce, Local Authentication, Authentication, Access Management]
+breadcrumb: [Implement a nonce, Local authentication, Authentication, Access Management]
 ---
 
 # Implement a nonce

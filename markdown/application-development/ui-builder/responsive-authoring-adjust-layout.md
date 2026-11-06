@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Responsive authoring, Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Adjust layout for responsive authoring
@@ -88,8 +88,6 @@ Most column layout options on the property pane can be edited for different form
 
 14. Check that your content tree and page are accurate.
 
-    \[Omitted image "responsive-author-layout4.png"\] Alt text: Content tree and page with column layout, column, and renamed tabs added.
-
 15. Select the tablet form factor icon.
 
     \[Omitted image "responsive-author-icon-tablet.png"\] Alt text: Black arrow pointing to tablet form factor icon at the top of a UI Builder page in editor view.
@@ -101,8 +99,6 @@ Most column layout options on the property pane can be edited for different form
     \[Omitted image "responsive-author-icon-mobile.png"\] Alt text: Black arrow pointing to mobile form factor icon at the top of a UI Builder page in editor view.
 
     The tabs take more space at the smaller size.
-
-    \[Omitted image "responsive-author-layout3.png"\] Alt text: Tab component at mobile form factor size.
 
 17. Change the layout of the tabs just for the mobile size.
 
@@ -116,15 +112,11 @@ Most column layout options on the property pane can be edited for different form
 
     The stage updates automatically showing that tab 1 is visible and that there's a new dropdown menu.
 
-    \[Omitted image "responsive-author-layout5.png"\] Alt text: Tab component at mobile form factor size with tab 1 displayed and new drop-down menu.
-
 18. Select **Preview**.
 
 19. Select **More**.
 
     The other two tabs are available.
-
-    \[Omitted image "responsive-author-layout6.png"\] Alt text: Mobile form factor displayed in preview overlay with the drop-down expanded.
 
 20. Select the desktop and tablet form factor icons to see that the More drop-down doesn't appear.
 

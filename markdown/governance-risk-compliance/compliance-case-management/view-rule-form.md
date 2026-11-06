@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a view rule, Create a case type, Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create view rule, Create a case type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # View Rule form
@@ -168,5 +168,5 @@ Default Tab Focus
 Item that should be in focus when you open a record in the table that is specified in this rule.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md)
+</table>**Parent Topic:**[Create view rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-view-rule.md)
 

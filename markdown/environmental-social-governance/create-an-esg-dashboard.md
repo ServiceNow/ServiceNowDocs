@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-an-esg-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create an Operational Sustainability Management dashboard using the In-line editor
@@ -26,7 +26,7 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Analytics dashboard**.
 
-2.  Select the Analytics dashboard icon.
+2.  Select the Analytics dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text:.
 
 3.  Select the More actions menu icon \[Omitted image "more-menu.png"\] Alt text: and select**Create new**.
 
@@ -62,5 +62,5 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 -   [Edit Operational Sustainability Management dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/edit-esg-dashboard-details.md)
 -   [Edit Operational Sustainability Management dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/edit-esg-dashboard-elements.md)
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

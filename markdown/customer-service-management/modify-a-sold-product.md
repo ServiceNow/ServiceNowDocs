@@ -1,18 +1,18 @@
 ---
 title: Modify a sold product and hierarchy
-description: Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+description: Modify a sold product and its complete hierarchy on Customer Service Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/modify-a-sold-product.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Modify a sold product and hierarchy
 
-Modify a sold product and its complete hierarchy on the CRM Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
+Modify a sold product and its complete hierarchy on Customer Service Workspace so that you can update its existing configurations. For example, you may want to modify a sold product's characteristics and the line items \(hierarchy\) that are associated with it.
 
 ## About this task
 
@@ -26,7 +26,7 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **All** &gt; **Customer Service Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 

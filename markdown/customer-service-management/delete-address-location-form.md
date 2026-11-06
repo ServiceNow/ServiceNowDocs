@@ -1,22 +1,22 @@
 ---
 title: Deleting or editing an address on the location form
-description: As a user, you can edit or delete an existing record in the account address table without affecting any other associated records.
+description: As a user, you can edit or delete an existing record in the account address table without affecting any other associated records. To use this capability, you must be an admin or a sn\_customerservice\_manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/delete-address-location-form.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Deleting or editing an address on the location form
 
-As a user, you can edit or delete an existing record in the account address table without affecting any other associated records.
+As a user, you can edit or delete an existing record in the account address table without affecting any other associated records. To use this capability, you must be an admin or a sn\_customerservice\_manager.
 
-Assume that a user is trying to edit the fields of the location or trying to delete a location record. If the location record is being shared with multiple accounts, a confirmation pop-up is shown. The pop-up enables the user to proceed with the action or discard the action.
+The sn\_crm\_account\_data\_manager, sn\_crm\_account\_relationship\_data\_manager, sn\_crm\_foundation\_data\_manager, and sn\_crm\_foundation\_admin roles also have the privilege to edit existing records in account address table.
 
-To delete an address in the location table, select **Delete** from the location form or from the location list.
+If a location record is associated with multiple accounts, you must have Update access to all associated accounts to modify the fields of the location record. This access requirement confirms that location details can only be updated when you have the necessary permissions for every account linked to the shared location.
 
-To edit a location form, select **Edit**.
+To delete an address in the location table, select **Delete** from the location form or from the location list. Similarly, to edit a location form, select **Edit**.
 

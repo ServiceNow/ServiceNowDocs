@@ -1,19 +1,19 @@
 ---
-title: Solving installation and configuration issues with Now Assist
-description: Use this checklist to address issues or gaps in your Now Assist configuration.
+title: Solving installation and configuration issues with ServiceNow AI features
+description: Use this checklist to address issues or gaps in your AI configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-install-config-checklist.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [installing Now Assist, AI features, AI products, updating Now Assist, solutions, Now Assist, GenAI, generative AI, configure Now Assist]
-breadcrumb: [ServiceNow AI implementation, Enable AI experiences]
+breadcrumb: [Enable AI Experiences]
 ---
 
-# Solving installation and configuration issues with Now Assist
+# Solving installation and configuration issues with ServiceNow AI features
 
-Use this checklist to address issues or gaps in your Now Assist configuration.
+Use this checklist to address issues or gaps in your AI configuration.
 
 <table id="table_xxd_g5n_5fc"><thead><tr><th class="filter">
 
@@ -29,6 +29,18 @@ Solution
 
 </th></tr></thead><tbody><tr><td>
 
+AI and ServiceNow Otto applications
+
+</td><td>
+
+I want to view my subscriptions
+
+</td><td>
+
+See [Product subscriptions overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscriptions-overview-v2.md).
+
+</td></tr><tr><td>
+
 AI agents
 
 </td><td>
@@ -37,7 +49,7 @@ I can't find agent spokes
 
 </td><td>
 
-Install the Now Assist for Spokes application from the ServiceNow Store. For details, see [Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/now-assist-spokes.md).
+Install the ServiceNow Otto for Spokes application from the ServiceNow Store. For details, see .
 
 </td></tr><tr><td>
 
@@ -69,109 +81,18 @@ AI Search
 
 </td><td>
 
-Now Assist in AI Search Genius results don't appear
+ServiceNow Otto for AI Search Genius results don't appear
 
 </td><td>
 
-1.  Verify that AI Search and Now Assist in AI Search are installed and configured.
-2.  To use Now Assist Q&amp;A Genius Results in AI Search applications, link the Now Assist Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/link-gr-search-profile-ais.md).
-3.  Verify that all Now Assist plugins are up to date.
+1.  Verify that AI Search and ServiceNow Otto for AI Search are installed and configured.
+2.  To use Q&amp;A Genius Results in AI Search applications, link the Q&amp;A Genius Result configuration to your search profiles for those applications. For details, see [Link a Genius Result configuration to a search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/link-gr-search-profile-ais.md).
+3.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
 4.  Try repairing the plugins.
 
 </td></tr><tr><td>
 
-Knowledge articles
-
-</td><td>
-
-I can't generate a knowledge article
-
-</td><td>
-
-1.  Verify that Now Assist in Knowledge Management is installed and configured.
-2.  Verify that all Now Assist plugins are up to date.
-3.  Verify that the knowledge generation skill is activated. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
-4.  Try repairing the plugins.
-
-</td></tr><tr><td>
-
-Knowledge articles
-
-</td><td>
-
-The KB generation popup doesn't appear in Core UI
-
-</td><td>
-
-Now Assist in Knowledge Management formatters may be missing from the form layout, possibly due to form customizations. For details, see [KB1710178](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1710178).
-
-</td></tr><tr><td>
-
-Now Assist applications
-
-</td><td>
-
-I want to view my subscriptions
-
-</td><td>
-
-See [Product subscriptions overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscriptions-overview-v2.md).
-
-</td></tr><tr><td>
-
-Now Assist panel
-
-</td><td>
-
-Can't access skills in the Now Assist panel
-
-</td><td>
-
--   Verify that the skill is configured to display in the Now Assist panel. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md).
--   If you are using Now Assist in Virtual Agent, verify that search sources were configured for the Now Assist panel. You can specify search sources for a Now Assist panel assistant when you set it up. Search sources are essential for the Now Assist panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/add-info-sources-assistant.md).
-
-If Now Assist in Virtual Agent is not installed, the Now Assist panel uses default search sources.
-
-
-</td></tr><tr><td>
-
-Now Assist panel
-
-</td><td>
-
-Some users don't get a response to a question
-
-</td><td>
-
-Many Now Assist skills require specific user roles. Verify that there are active skills with the user's role. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
-
-</td></tr><tr><td>
-
-Now Assist panel
-
-</td><td>
-
-I don't want skills to be available in Now Assist panel
-
-</td><td>
-
-Disable the Now Assist panel when you configure the skill. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md).
-
-</td></tr><tr><td>
-
-Now Assist panel
-
-</td><td>
-
-Options for Now Assist panel are grayed out in the AI Admin Hub console
-
-</td><td>
-
-The sn\_nowassist\_admin.user role provides read-only access only. To make configuration changes, the user must have the sn\_nowassist\_admin.nsa\_admin role.
-
-</td></tr><tr><td>
-
-Now Assist setup
+AI setup
 
 </td><td>
 
@@ -179,15 +100,15 @@ Errors after clone
 
 </td><td>
 
-Try repairing affected plugins. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-app.md).
+Try repairing affected plugins. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
-Now Assist setup
+AI setup
 
 </td><td>
 
-The Q&amp;A results skill is not in the AI Admin Hub console
+The Q&amp;A results skill is not in the AI Admin Hub
 
 </td><td>
 
@@ -195,7 +116,7 @@ Set up AI Search. For details, see [Configuring AI Search](https://raw.githubuse
 
 </td></tr><tr><td>
 
-Now Assist setup
+AI setup
 
 </td><td>
 
@@ -203,16 +124,16 @@ Features/skills are missing or generally not working
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallUpdates.md).
+-   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
 -   Verify that version and dependency requirements are met. For details, see [Evaluating version requirements and dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/versions-dependencies.md).
--   For skills, verify that they are active in the AI Admin Hub console. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
+-   For skills, verify that they are active in the AI Admin Hub. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
 -   Verify that the user has the correct role for the skill.
 -   Try clearing the cookies and cache in the web browser.
--   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-app.md).
+-   Try repairing Generative AI Controller. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
-Now Assist setup
+AI setup
 
 </td><td>
 
@@ -222,11 +143,11 @@ Can't edit a skill
 
 Verify that you have the AI Admin Hub role: sn\_nowassist\_admin.nsa\_admin.
 
- You can edit a skill or make a copy of a skill to edit. For details, see [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
+ You can edit a skill or make a copy of a skill to edit. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md) and [Make a copy of an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
 </td></tr><tr><td>
 
-Now Assist setup
+AI setup
 
 </td><td>
 
@@ -234,17 +155,17 @@ Missing entries, fields, and errors
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallUpdates.md).
--   Try repairing the application. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-app.md).
--   Try repairing Generative AI Controller. For details, see [Repair a ServiceNow application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-app.md).
+-   Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
+-   Try repairing the application. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-application-app-mgr.md).
+-   Try repairing Generative AI Controller. For details, see [Repair an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/repair-application-app-mgr.md).
 
 </td></tr><tr><td>
 
-Now Assist setup
+AI setup
 
 </td><td>
 
-Problems upgrading Now Assist applications
+Problems upgrading AI and ServiceNow Otto applications
 
 </td><td>
 
@@ -254,7 +175,7 @@ Problems upgrading Now Assist applications
 
 </td></tr><tr><td>
 
-Now Assist setup
+AI setup
 
 </td><td>
 
@@ -262,34 +183,7 @@ Skills not working in Legacy Agent Workspace
 
 </td><td>
 
-Now Assist skills are not available in Legacy Workspace. Upgrade to Service Operations Workspace to use Now Assist.
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Code
-
-</td><td>
-
-Don't see code suggestions
-
-</td><td>
-
--   Verify that the skill is active. For details, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
--   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
--   Verify that autocomplete is enabled. For details, see [Generate code with autocomplete](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code-with-autocomplete.md).
-
-</td></tr><tr><td>
-
-ServiceNow Otto for Creator
-
-</td><td>
-
-Skills not available or not working
-
-</td><td>
-
--   Verify that the skill is active in the AI Admin Hub console.
--   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
+Generative AI skills are not available in Legacy Workspace. Upgrade to Service Operations Workspace to use skills.
 
 </td></tr><tr><td>
 
@@ -301,7 +195,7 @@ AI Skill Kit is not visible on my instance
 
 </td><td>
 
--   Verify that you have at least one Now Assist product installed. For details, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md).
+-   Verify that you have at least one AI or ServiceNow Otto product installed. For details, see [Install AI plugins in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md).
 -   Verify that the sn\_skill\_builder.admin role is assigned to the user.
 
 </td></tr><tr><td>
@@ -318,7 +212,128 @@ Verify that the sn\_skill\_builder.admin role is assigned to the user.
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+Knowledge generation
+
+</td><td>
+
+I can't generate a knowledge article
+
+</td><td>
+
+1.  Verify that ServiceNow Otto for Knowledge Management is installed and configured.
+2.  Verify that all AI and ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
+3.  Verify that the knowledge generation skill is activated. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
+4.  Try repairing the plugins.
+
+</td></tr><tr><td>
+
+Knowledge generation
+
+</td><td>
+
+The KB generation popup doesn't appear in Core UI
+
+</td><td>
+
+ServiceNow Otto for Knowledge Management formatters may be missing from the form layout, possibly due to form customizations. For details, see [KB1710178](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1710178).
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Code
+
+</td><td>
+
+Don't see code suggestions
+
+</td><td>
+
+-   Verify that the skill is active. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
+-   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
+-   Verify that autocomplete is enabled. For details, see .
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Creator
+
+</td><td>
+
+Skills not available or not working
+
+</td><td>
+
+-   Verify that the skill is active in AI Admin Hub.
+-   Verify that the user has the appropriate role. Any authenticated builder can use the related active skill.
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
+Panel is activated but stays in a loading or frozen state
+
+</td><td>
+
+-   Verify all ServiceNow Otto plugins are up to date.
+-   Repair Generative AI Controller.
+-   Clear browser cookies and cache.
+-   Verify Next Experience is enabled.
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
+Can't access skills in the ServiceNow Otto panel
+
+</td><td>
+
+-   Verify that the skill is configured to display in the ServiceNow Otto panel. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md).
+-   If you're using ServiceNow Otto for Virtual Agent, verify that search sources were configured for the ServiceNow Otto panel. You can specify search sources for a ServiceNow Otto panel assistant when you set it up. Search sources are essential for the panel and Virtual Agent. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md) and .
+
+If ServiceNow Otto for Virtual Agent is not installed, the ServiceNow Otto panel uses default search sources.
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
+Some users don't get a response to a question
+
+</td><td>
+
+Many generative AI skills require specific user roles. Verify that there are active skills with the user's role. For details, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
+I don't want skills to be available in ServiceNow Otto panel
+
+</td><td>
+
+Disable the ServiceNow Otto panel when you configure the skill. For details, see [Edit an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-a-now-assist-skill.md).
+
+</td></tr><tr><td>
+
+ServiceNow Otto panel
+
+</td><td>
+
+Options for ServiceNow Otto panel are grayed out in AI Admin Hub
+
+</td><td>
+
+The sn\_nowassist\_admin.user role provides read-only access only. To make configuration changes, the user must have the sn\_nowassist\_admin.nsa\_admin role.
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -326,12 +341,12 @@ Topic not returning as expected
 
 </td><td>
 
--   Verify that the Virtual Agent topic is in the Active state and is published. For details, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
--   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using Now Assist in Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/llm-topic-migration.md).
+-   Verify that the Virtual Agent topic is in the Active state and is published. For details, see .
+-   Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be used in a portal that is using ServiceNow Otto for Virtual Agent. You can migrate NLU/keyword topics to LLM, however. For details, see .
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -339,11 +354,11 @@ Can't add topics to the portal
 
 </td><td>
 
-Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using Now Assist in Virtual Agent. You can migrate these topics to LLM, however. For details, see [Migrating NLU/keyword Virtual Agent topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/llm-topic-migration.md).
+Verify that the topics are using LLM topic discovery. NLU/keyword topics cannot be added to a portal that is using ServiceNow Otto for Virtual Agent. You can migrate these topics to LLM, however. For details, see .
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -351,12 +366,12 @@ Configuration issues
 
 </td><td>
 
-1.  Verify that the plugin is up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallUpdates.md).
+1.  Verify that the plugin is up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
 2.  Follow the guided setup to install and configure it. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -368,7 +383,7 @@ If you're using a custom fallback topic, this option may be unavailable in guide
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -376,13 +391,13 @@ Chat is not showing search results
 
 </td><td>
 
--   Verify that all of your Now Assist plugins are up to date. For details, see [Install an update to a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallUpdates.md).
--   Verify that AI Search and Now Assist in AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-ais.md) and [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/install-now-assist-ais.md).
--   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the Now Assist panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md) and [Assign search sources to a chat assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/add-info-sources-assistant.md).
+-   Verify that all of your AI or ServiceNow Otto plugins are up to date. For details, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
+-   Verify that AI Search and ServiceNow Otto for AI Search are set up and configured. For details, see [Configuring AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-ais.md) and [Install Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/install-now-assist-ais.md).
+-   Verify that search sources were configured for the Virtual Agent assistant. You can specify search sources for an assistant when you set it up. Search sources are essential for Virtual Agent and the ServiceNow Otto panel. Without them, they cannot discover or rank skills and agentic workflows. For details, see [Configuring assistants overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md) and .
 
 </td></tr><tr><td>
 
-Now Assist in Virtual Agent
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
@@ -390,8 +405,7 @@ Error when attempting to migrate Virtual Agent NLU conversations to LLM
 
 </td><td>
 
-Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see [Migrate NLU topics to LLM topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/migrate-nlu-llm.md).
+Verify that you have the correct role, either virtual\_agent\_admin or sn\_vad\_genai.topic\_migration\_admin. For more information, see .
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
-
+</table>

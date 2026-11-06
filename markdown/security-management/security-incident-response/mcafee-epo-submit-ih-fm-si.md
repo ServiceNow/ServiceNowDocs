@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Trigger a capability profile manually from a ServiceNow AI Platform Security Inc
 
 Role required: sn\_si.admin
 
-**Note:** The approvals option in the [Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
+**Note:** The approvals option in the [Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md) appears only for Isolate Host and Remove Host Isolation capabilities.
 
 ## About this task
 
@@ -36,8 +36,6 @@ Once you activate the profile, based on the configured trigger conditions, you c
 
 3.  In the related lists section, select **Run EDR Profile\(s\)**.
 
-    \[Omitted image "mcafee-edr-profile.png"\] Alt text: Trigger a profile manually from a security incident
-
 4.  Browse and select a profile from the list of available profiles.
 
     The list of available profiles are Get Host Details, Isolate Host machine, and Remove Isolation. For example, let's select Get Host Details.
@@ -46,34 +44,28 @@ Once you activate the profile, based on the configured trigger conditions, you c
 
     For example, if there are five CIs associated with the security incident, then the selected profile runs on all the five CIs.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
-    The selected profile is triggered manually. You can review the work notes and activities section and the profile-initiated and profile-completed tags in the work notes section.
+    The selected profile is triggered manually. You can review the work notes and activities section and the profile-initiated and profile-completed tags in the work notes section. The results appear in the form of related lists such as Get Host Details, Isolate Host machine, or Remove Isolation.
 
-    \[Omitted image "mcafee-edr-worknotes.png"\] Alt text: Work notes logging when capability tasks are initiated and successfully completed
-
-    The results appear in the form of related lists such as Get Host Details, Isolate Host machine, or Remove Isolation.
-
-    **Note:** All the related list tables extend the base tables. In this example, the McAfee EPO System Details is an extended table of the Host Details base table.
-
-    \[Omitted image "mcafee-test-relatedlist.png"\] Alt text: Review the related list for additional details.
+    **Note:** All the related list tables extend the base tables.
 
 7.  To run individual capabilities on a Configuration Item \(CI\), perform the following steps:
 
     1.  In the Configuration Items related list, select the required CI.
 
-    2.  Click the **Actions on selected rows...** drop-down list, and select the required capability that you want to run for the selected CI.
+    2.  Select the **Actions on selected rows...** drop-down list, and select the required capability that you want to run for the selected CI.
 
         For example, Isolate Host.
 
-    3.  Click **Isolate Host** to run it on the selected CI.
+    3.  Select **Isolate Host** to run it on the selected CI.
 
         The select CI gets isolated from the network.
 
 
 **Parent Topic:**[McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcaffee-epo-overview-arch.md)
 
-**Previous topic:**[Configure profiles and security incidents for system enrichment queries for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configure-profile.md)
+**Previous topic:**[Configure a profile to initiate malware scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-config-scan-malwr.md)
 
 **Next topic:**[Trigger additional actions in McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configure-additional-actions-mcafee.md)
 

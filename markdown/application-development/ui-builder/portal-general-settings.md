@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure UI Builder portal experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Configure UI Builder portal experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Change the general settings in your portal experience
@@ -30,9 +30,9 @@ Role required: ui\_builder\_admin
 
     For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md).
 
-3.  Select **Settings** in the UI Builder header.
+3.  Select **Experience settings** in the UI Builder header.
 
-    \[Omitted image "portal-settings-toggle.png"\] Alt text: Arrow pointing to the View experience settings link on the experience view page.
+    \[Omitted image "portal-settings-toggle.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 4.  Change the title, description, and path of your portal experience.
 

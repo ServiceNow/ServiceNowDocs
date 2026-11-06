@@ -1,20 +1,20 @@
 ---
-title: Guided tour triggers
-description: Each callout in a guided tour step has a defined action that triggers the next step to occur. You specify the trigger for each callout. Only applicable triggers appear based on the UI element the callout points to.
+title: GTD triggers
+description: Triggers are actions that you take to move the tour to the next step. Each callout in a guided tour step has a specific trigger that activates the subsequent step. You define the trigger for each callout, and only relevant triggers appear based on the UI element referenced by the callout.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tour-triggers.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Guided Tours, Guided Tours, Adoption services, Configure user experiences]
+breadcrumb: [Guided Tour Designer, Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
 
-# Guided tour triggers
+# GTD triggers
 
-Each callout in a guided tour step has a defined action that triggers the next step to occur. You specify the trigger for each callout. Only applicable triggers appear based on the UI element the callout points to.
+Triggers are actions that you take to move the tour to the next step. Each callout in a guided tour step has a specific trigger that activates the subsequent step. You define the trigger for each callout, and only relevant triggers appear based on the UI element referenced by the callout.
 
 <table id="table_g2q_3gx_ty"><thead><tr><th>
 
@@ -30,8 +30,10 @@ Next Button
 
 </td><td>
 
-Places a **Next** button in the callout, which the user clicks to progress to the next step. This trigger is useful for the following steps: -   The callout describes the element it points to and the user does not have to click a UI element.
--   To enter information in a reference or date picker field. Users can use the lookup function, enter the data, or select it from a list. They can proceed when they have completed the entry for the step.
+The callout includes a **Next** button that the user can select to move on to the next step. This feature is useful in the following situations:
+
+ -   When the callout describes the element it’s pointing to, enabling the user to progress without needing to select any UI elements.
+-   When entering information into a reference or date picker field. Users can use the lookup function, manually enter data, or select it from a list. They can proceed once they’ve completed the necessary entry for the step.
 
 </td></tr><tr><td>
 
@@ -39,7 +41,7 @@ Click the Element
 
 </td><td>
 
-Progresses to the next step when the element that the callout points to is clicked.For more information on how to display a step on a different page after users click a link, see [How to show a step on a different page after the user clicked on a link \(KB0725875\)](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0725875%20).
+The tour advances to the next step when the targeted element is selected.For more information on how to display a step on a different page after users click a link, see [How to show a step on a different page after the user clicked on a link \(KB0725875\)](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sysparm_article%3DKB0725875%20).
 
 </td></tr><tr><td>
 
@@ -47,7 +49,7 @@ Mouse over the Element
 
 </td><td>
 
-Progresses to the next step when the user points the cursor at the element.
+The tour advances to the next step when the user hovers the mouse device over the element.
 
 </td></tr><tr><td>
 
@@ -55,15 +57,15 @@ Right-click the Element
 
 </td><td>
 
-Progresses to the next step when the element that the callout points to is right-clicked.
+The tour moves to the next step when the element indicated by the callout is right-clicked.
 
 </td></tr><tr><td>
 
-Press Enter Key
+Press Enter key
 
 </td><td>
 
-Progresses to the next step when the user presses the Enter key. Use this trigger to acknowledge that the user has entered something, such as in a text box.
+When the user presses the Enter key, the tour proceeds to the next step. This action acknowledges that the user has submitted input, such as in a text box.
 
 </td></tr><tr><td>
 
@@ -71,7 +73,7 @@ Change Element Value
 
 </td><td>
 
-Progresses to the next step when the user enters or selects a value in a field and clicks outside the field.
+The tour advances to the next step when the user enters or selects a value in a field and then clicks outside of it.
 
 </td></tr><tr><td>
 
@@ -79,7 +81,7 @@ Press any key
 
 </td><td>
 
-Progresses to the next step when the user presses any key.
+The tour advances to the next step when the user presses any key.
 
 </td></tr><tr><td>
 
@@ -87,7 +89,7 @@ Select
 
 </td><td>
 
-Progresses to the next step when the user selects an option from a drop-down menu.
+The tour proceeds to the next step when the user selects an option from the drop-down menu.
 
 </td></tr><tr><td>
 
@@ -95,8 +97,8 @@ Double click
 
 </td><td>
 
-Progresses to the next step when the user double clicks an element.
+The tour moves to the next step when the user double-clicks an element.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/configuring-guided-tours.md)
+</table>**Parent Topic:**[Guided Tour Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tours-designer.md)
 

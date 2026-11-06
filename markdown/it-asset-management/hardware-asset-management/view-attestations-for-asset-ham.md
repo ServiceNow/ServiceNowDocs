@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View attestations for a serialized hardware asset
@@ -28,7 +28,7 @@ Role required: asset or inventory\_admin
 
 3.  Select the asset for which you want to view the list of attestations.
 
-4.  From the contextual side bar of the asset form, select the AssetLifeCycle icon \(\[Omitted image "asset-life-cycle-icon-ham.png"\] Alt text: Asset Lifecycle icon\).
+4.  From the contextual side bar of the asset form, select the AssetLifeCycle icon \[Omitted image "asset-life-cycle-icon-ham.png"\] Alt text:.
 
     All the asset lifecycle events are shown.
 

@@ -1,5 +1,5 @@
 ---
-title: Edit SRM service details
+title: Edit service details in SRM
 description: Edit an existing service owned by your team. For each service that you support in SRM provide general information about the service and the SRM team that supports it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-edit-service.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Working with SRM services, Using Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Edit SRM service details
+# Edit service details in SRM
 
 Edit an existing service owned by your team. For each service that you support in SRM provide general information about the service and the SRM team that supports it.
 
@@ -32,7 +32,7 @@ Role required: srm\_admin, srm\_manager, or srm\_responder
 
 3.  From your services list, select the service that you want to edit or update.
 
-    To view and select a Technical Service Offering \(TSO\) without an assigned support group, remove all filters from the services list.
+    To view and selecta technology management service offering without an assigned support group, remove all filters from the services list.
 
 4.  On the Overview page, select the **Details** tab.
 

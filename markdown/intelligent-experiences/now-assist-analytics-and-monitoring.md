@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics-and-monitoring.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Analyzing, Now Assist, performance, Overview page, summary section, skills performance]
-breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Analyzing Now Assist usage
@@ -42,7 +42,7 @@ The following diagram shows the plugin status that displays as a pie chart, and 
 
 ## Skills usage section
 
-The Skills usage section displays the metrics on your installed active skills. Select the info icon \[Omitted image "info-icon.png"\] to see the information about what each card's metrics represents, or select the option icon \[Omitted image "icon-docintel-field-options-menu.png"\] to refresh the card.
+The Skills usage section displays the metrics on your installed active skills. Select the info icon \[Omitted image "info-icon.png"\] to see the information about what each card's metrics represents, or select the option icon \[Omitted image "image.icon-docintel-field-options-menu"\] to refresh the card.
 
 Use the configuration controls to configure the charts.
 
@@ -59,7 +59,7 @@ The following diagram shows the skills usage graphs and controls, which include 
 
 Data is collected once a day and uses Performance Analytics and Reporting \(PAR\) for data collection and visualization.
 
-For more detailed information about performance, see [Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics.md) and [Performance Analytics indicators for generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/performance-analytics-indicators-for-generative-ai.md)
+For more detailed information about performance, see [Now Assist Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-analytics.md) and
 
 \[Omitted image "now-assist-skills-performance.png"\] Alt text: Section that displays the number of actions, average unique users per day, and the number of actions over time. Use the controls to specify skills or change the date range.
 
@@ -77,7 +77,5 @@ The Needs Attention section displays a count of items that need your attention. 
 
 \[Omitted image "needs-attention-card.png"\] Alt text: Needs Attention card that displays the number of plugins that aren't installed and the number of inactive skills.
 
-See [Now Assist value insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-value-insights.md) for information on performance metrics.
-
-**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-admin_0.md)
 

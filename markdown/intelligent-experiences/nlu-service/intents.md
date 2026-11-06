@@ -1,5 +1,5 @@
 ---
-title: NLU intents
+title: \(Legacy\) NLU intents
 description: Intents drive your models' responses by matching a system action to user inputs. Models with good intents help Virtual Agent and Search respond to your users accurately.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/intents.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [\(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU intents
+# \(Legacy\) NLU intents
 
 Intents drive your models' responses by matching a system action to user inputs. Models with good intents help Virtual Agent and Search respond to your users accurately.
 
@@ -28,7 +28,7 @@ A model can contain up to 750 intents. However, models with over 300 intents or 
 
 **Note:** As you create intents, keep in mind that they can sometimes impact each other. For example, you build and test an intent that works on one or two utterances. But when you test it in a larger intent environment, it might behave differently. To reduce the likelihood of such an event, you may want to create at least five intents in a model before you start proper testing.
 
-To start adding content to your model, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md).
+To start adding content to your model, see [\(Legacy\) Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md).
 
 The **Enabled** column shows whether or not the intent is active in predictions. An NLU admin can deactivate an individual intent but keep it in the model.
 
@@ -57,7 +57,7 @@ Here are some things to consider when adding utterances to intents:
 -   The system currently supports up to 20,000 utterances in a single model.
 -   Models with more than 4,500 utterances take longer to train, test, and publish.
 
-Provide vocabulary for any words or phrases that are relevant to your organization or domain when adding utterances to your model. The vocabulary helps with intent prediction for words and phrases that your users are likely to use. You can use the @ symbol when adding an utterance to call on a vocabulary source. For more context and examples, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
+Provide vocabulary for any words or phrases that are relevant to your organization or domain when adding utterances to your model. The vocabulary helps with intent prediction for words and phrases that your users are likely to use. You can use the @ symbol when adding an utterance to call on a vocabulary source. For more context and examples, see [\(Legacy\) NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 
 ## Associated entities
 
@@ -65,7 +65,7 @@ Your model uses entities to provide additional context and meaning when predicti
 
 \[Omitted image "intents07.png"\] Alt text: The Associated entities tab for an example intent.
 
-For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md).
+For more information, see [\(Legacy\) NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md).
 
 ## Intent issues
 
@@ -75,16 +75,5 @@ If your model has issues or conflicts, the **Intents** page displays cards showi
 
 Select a card to see a filtered list of intents with that issue. Resolving issues ensures that your intents meet the requirements and work as intended.
 
-For more information, see [Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/resolve-intent-issues.md).
-
--   **[Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md)**  
-Create an intent for your Natural Language Understanding \(NLU\) model. Intents provide your model with a system action to perform when it receives user input.
--   **[Reusing intents from prebuilt NLU models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/reusing-predefined-nlu-intents.md)**  
-Reuse Natural Language Understanding \(NLU\) intents by importing them from a prebuilt NLU model to other models. Reusing intents saves time when building your models.
--   **[Import an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/import-nlu-intent.md)**  
-As you create intents for your Natural Language Understanding \(NLU\) model, you can also import and reuse intents from other models in the same application scope. Reusing intents saves time when building new models.
--   **[Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/resolve-intent-issues.md)**  
-Use the issue cards to identify intents that have conflicts, need reviewing, or need more utterances. Resolving intent issues ensures the intents in your Natural Language Understanding \(NLU\) models work properly.
-
-**Parent Topic:**[Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md)
+For more information, see [\(Legacy\) Resolve intent issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/resolve-intent-issues.md).
 

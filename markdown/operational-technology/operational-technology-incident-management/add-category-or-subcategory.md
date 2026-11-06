@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Incident categories and subcategories, Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -19,7 +19,7 @@ Create an Operational Technology incident category or subcategory that you want 
 ## Before you begin
 
 -   Set the application scope to **Operational Technology Incident Management**.
--   Role required: admin
+-   Role required: admin or sn\_ot\_incident\_admin
 
 ## Procedure
 

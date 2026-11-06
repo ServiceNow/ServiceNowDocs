@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use an SLA map, Field Service Management SLAs, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Use a SLA map, SLA for work orders, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # SLA map symbols
@@ -30,6 +30,4 @@ Icons in the SLA map and what they represent.
 |\[Omitted image "MultiTask.png"\] Alt text: Red indicator with the number of tasks.|Multiple active tasks with SLAs, clustered by proximity.|
 |\[Omitted image "MultiAgent.png"\] Alt text: Blue indicator with the number of agents.|Multiple agents, clustered by proximity.|
 |\[Omitted image "AgentTaskCombo.png"\] Alt text: Purple indicator with the sum of agents and tasks.|Sum of agents and tasks with SLAs, clustered by proximity.|
-
-**Parent Topic:**[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseTheSLAMap.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recommended learning in journey configurations, Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Recommended learning in journey configurations, Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Delete recommended learning in the Journey designer app
@@ -18,7 +18,7 @@ Delete recommended learning for employee journey configurations.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_jny.admin
 
 ## About this task
 

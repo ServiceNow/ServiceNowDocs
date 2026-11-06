@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2024-10-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Org talent page, Explore, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Org talent page, Explore, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Team details page

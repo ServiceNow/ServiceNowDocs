@@ -1,69 +1,63 @@
 ---
-title: Automatic creation of AI cases and inquiries from an inbound email
-description: The system automatically creates AI cases and inquiries from emails, using keywords in the subject line and body.
+title: Automatic AI case and inquiry creation from inbound email
+description: The system automatically creates AI cases and inquiries from inbound emails using keywords in the subject line and body based on configured email intake settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-12-01"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [email-based AI case intake, automatic case creation, inbound email]
 breadcrumb: [Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Automatic creation of AI cases and inquiries from an inbound email
+# Automatic AI case and inquiry creation from inbound email
 
-The system automatically creates AI cases and inquiries from emails, using keywords in the subject line and body.
+The system automatically creates AI cases and inquiries from inbound emails using keywords in the subject line and body based on configured email intake settings.
 
-## Overview of the Email Reporting Feature
+## Overview of email-based intake
 
-The email reporting feature provides a simple and familiar way for users to submit AI-related cases or inquiries directly into the system. Instead of navigating a dedicated portal or filling out forms, users can simply send an email to a designated email address and an instance email address. On receipt, the system automatically processes this inbound email, extracting key information such as the subject, body, and sender, and creates an AI Case or Inquiry. This automation confirms that every submission is captured consistently and immediately, ready for review and action.
+Email-based intake provides a simple and familiar way for users to submit AI-related cases or inquiries. Instead of navigating a portal or completing forms, users send an email to configured addresses. When an email is received, the system processes the message extracting key information such as the subject, body, and sender, and creates an AI Case or Inquiry. This automation helps capture submissions consistently and immediately, ready for review and action.
 
-## Benefits of the Email Reporting Feature
+For step-by-step configuration instructions, see [Configure email-based intake for AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/config-cases-inquiries-from-email.md).
 
-This feature offers the following advantages:
+## Benefits of email-based intake
 
--   Using email to report issues or asking questions removes the need for users to learn new interfaces or processes.
--   Removing manual data entry saves time and lowers the chance of mistakes, enabling teams to focus on resolving issues instead of administrative work.
--   Converting each email into a trackable record provides clear details such as the sender, subject, and message body, making it easier to review what was reported.
--   Creating records automatically makes new cases and questions visible to the correct teams, helping them review, assign, and resolve them faster.
+This capability offers the following benefits:
 
-## Configure the Email Reporting Feature
+-   Users can submit AI-related concerns or questions using a familiar communication method.
+-   Reduces manual data entry and helps minimize reporting errors.
+-   Helps confirm that each submission is captured as a trackable record.
+-   Improves visibility by making new cases and inquiries immediately available for review.
 
-You must follow the following steps to enable the email reporting feature:
+## Email-to-ServiceNow field mapping
 
-1.  Admin must enable the Inbound Email Configuration from the Email Properties page. For more information, refer to [Inbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_InboundMailConfiguration.md).\[Omitted image "inbound-email-properties-airc.png"\] Alt text: Inbound email configurations to enable.
-2.  AI Case Admin \[sn\_ai\_case\_mgmt.ai\_case\_admin\] must update the group email field on the Case type record. Navigate to **AI Case Management** &gt; **Case type**.
+When an inbound email is processed, information from the email is used to populate fields on the resulting AI Case or AI Inquiry record.
 
-    \[Omitted image "ai-case-group-email.png"\] Alt text: AI Case record type.
+-   The email sender is mapped to the **Requester** field for both record types.
 
-3.  AI Case Admin \[sn\_ai\_case\_mgmt.ai\_case\_admin\] must update the group email field on the Inquiry type record. Navigate to **AI Case Management** &gt; **Inquiry Type**.
+    **Note:** This behavior depends on inbound email configuration and trusted domain settings. When automatic user creation is disabled, the **Requester** field displays **Guest**.
 
-    \[Omitted image "ai-inquiry-group-email.png"\] Alt text: AI inquiry record type.
+-   The email sent date populates the **Date of Discovery** field for AI cases and the **Created on** field for AI inquiries.
+-   The TO recipient determines the **Assignment group** for both record types.
+-   Any CC recipients are added to the **Watch list**.
+-   Email importance determines the case or inquiry priority.
+    -   High importance: Creates AI case or Inquiry with Priority 2 \(High\).
+    -   Normal importance: Creates AI case or Inquiry with Priority 3 \(Moderate\).
+    -   Low importance: Creates AI case or Inquiry with Priority 4 \(Low\).
+-   The email subject is set to the record **Name**.
+-   The email body populates the **Description** field.
+-   Email attachments are included and linked to the record.
+-   For AI cases, the **Source** field is set to **Email**.
+
+**Related topics**  
 
 
-**Note:** After you configure, if any email is sent to the defined group email address and the instance address, an AI Case or AI Inquiry record is created.
+[Configure email-based intake for AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/config-cases-inquiries-from-email.md)
 
-## Email to ServiceNow fields mapping
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 
-This feature automatically populates AI Case and AI Inquiry fields in ServiceNow using information from inbound emails, confirming consistent data capture and streamlining the reporting process.
-
-When an email is received:
-
--   The sender of the email is mapped to the **Requester** field for both AI Cases and AI Inquiries.
-
-    **Note:** This feature is only available when the **Automatically create users for incoming emails from trusted domains** property is enabled on the Inbound Email Configuration form. For more information, refer to [Configure the Email Reporting Feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/automatic-creation-cases-inquiries-from-email.md). When the property is disabled, the **Requester** field will display **Guest**.
-
--   The date the email is sent populates the **Date of Discovery** field for AI Cases and the **Created on** field for AI Inquiries.
--   The TO recipient of the email is used to determine the **Assignment group** for both record types.
--   Any CC recipients on the email are added to the **Watch list** for both AI Cases and AI Inquiries.
--   The priority of the Case or Inquiry is determined by the email’s Importance value.
-    -   A High-importance email creates an AI Case or Inquiry with Priority 2 \(High\).
-    -   A Normal-importance email creates an AI Case or Inquiry with Priority 3 \(Moderate\).
-    -   A Low-importance email creates an AI Case or Inquiry with Priority 4 \(Low\).
--   The subject of the email becomes the **Name** of the new AI Case or AI Inquiry record.
--   The message body of the email populates the **Description** field for both record types.
--   Any attachments included in the email can also be transferred and linked to the new record.
--   The **Source** field is automatically set to **Email** for AI Cases.
+[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc_email_notifications.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-order-ops-order-case-states.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Order Operations Case Management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Order case and order case line item states
@@ -79,7 +79,7 @@ The order case has been resolved and the resolution has been accepted by the con
 
 -   Resolved - Accepted
 -   Resolved - Denied
--   Canceled
+-   Cancelled
 
 </td></tr><tr><td>
 
@@ -154,11 +154,11 @@ The change to the order case line item has been denied.
 
 </td></tr><tr><td>
 
-Canceled
+Cancelled
 
 </td><td>
 
-The order case line item has been canceled.
+The order case line item has been cancelled.
 
 </td></tr></tbody>
 </table>## Syncing the state of an order case with the order case line items
@@ -213,17 +213,17 @@ Closed
 
 When all of the case line items for an order case are in a terminal state, the case can be set to Closed. Terminal states include:-   Resolved - Accepted
 -   Resolved - Denied
--   Canceled
+-   Cancelled
 
 When an agent selects **Close Case** on an order case in the Solution Proposed state, the system updates the state to Closed.
 
 </td></tr><tr><td>
 
-Canceled
+Cancelled
 
 </td><td>
 
-When a user selects **Cancel** on an order case in the Draft state, the system updates the state to canceled. States for the order case line items associated with the order case are also set to canceled.**Note:** You can only cancel order cases in the Draft state.
+When a user selects **Cancel** on an order case in the Draft state, the system updates the state to Cancelled. States for the order case line items associated with the order case are also set to Cancelled.**Note:** You can only cancel order cases in the Draft state.
 
 </td></tr></tbody>
 </table>

@@ -1,26 +1,22 @@
 ---
 title: Financial Services Operations Integration with Visa
-description: The ServiceNow Financial Services Operations Integration with Visa allows you to seamlessly integrate with Visa Resolve Online \(VROL\) APIs using the Visa Spoke Actions to manage various dispute lifecycle events.
+description: The ServiceNow Financial Services Operations Integration with Visa allows you to seamlessly integrate with Visa Resolve Online \(VROL\) APIs using the Visa Spoke actions to manage various dispute lifecycle events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Operations Integration with Visa
 
-The ServiceNow® Financial Services Operations Integration with Visa allows you to seamlessly integrate with Visa Resolve Online \(VROL\) APIs using the Visa Spoke Actions to manage various dispute lifecycle events.
+The ServiceNow® Financial Services Operations Integration with Visa allows you to seamlessly integrate with Visa Resolve Online \(VROL\) APIs using the Visa Spoke actions to manage various dispute lifecycle events.
+
+**Note:**
 
 ## Get started
-
-Financial Services Operations Integration with Visa application can help you do the following:
-
--   Use the integration layer with subflows and updates to the data model to seamlessly use the Visa spokes.
--   Reduce the workload for dispute agents and improve overall efficiency.
--   Efficiently manage the card dispute process.
 
 <table id="table_g4t_jnr_szb" class="nav-card"><tbody><tr><td>
 
@@ -28,7 +24,7 @@ Financial Services Operations Integration with Visa application can help you do 
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Plan and configure your integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)
 
 </td></tr><tr><td>
 
@@ -41,9 +37,9 @@ Financial Services Operations Integration with Visa application can help you do 
 </td></tr></tbody>
 </table>## Request Financial Services Operations Integration with Visa on the store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-Before you can use AES, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
+Before you can use Financial Services Operations Integration with Visa, you must first download it from the ServiceNow Store. When you have completed the download, you may need to clear your local cache before it appears on your instance.
 
 ## Troubleshoot and get help
 

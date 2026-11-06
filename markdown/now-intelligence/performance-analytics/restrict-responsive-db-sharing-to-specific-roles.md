@@ -1,20 +1,20 @@
 ---
 title: Restrict responsive dashboard sharing by role
-description: You can configure responsive dashboard properties to restrict which users are able to share responsive dashboards.
+description: You can configure responsive dashboard properties to restrict which users can share responsive dashboards.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/restrict-responsive-db-sharing-to-specific-roles.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Restrict responsive dashboard access to specific roles, Dashboard permissions, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Restrict responsive dashboard access to specific roles, Core UI dashboard permissions, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Restrict responsive dashboard sharing by role
 
-You can configure responsive dashboard properties to restrict which users are able to share responsive dashboards.
+You can configure responsive dashboard properties to restrict which users can share responsive dashboards.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin.
 
 ## About this task
 
-Configure a dashboard property to specify a comma-separated list of roles that can share their own dashboards. Users with these roles can see the **Share** icon \(\[Omitted image "SharingIcon.png"\] Alt text:\) on responsive dashboards.
+Configure a dashboard property to specify a comma-separated list of roles that can share their own dashboards. Users with these roles can see the **Share** icon \(\[Omitted image "SharingIcon.png"\] Alt text: Sharing icon\) on responsive dashboards.
 
 ## Procedure
 

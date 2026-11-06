@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [SAML 2.0 configuration using Multi-Provider SSO, SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [SAML 2.0 configuration using Multi-Provider SSO, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # X.509 certificates for SAML

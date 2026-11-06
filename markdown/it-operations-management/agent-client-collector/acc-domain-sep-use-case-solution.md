@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Domain separation and Agent Client Collector, Exploring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Domain separation and ACC, Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Use case: Regulatory compliance in financial services
@@ -30,6 +30,4 @@ The financial institution must comply with regulations that require strict data 
 ## Outcome
 
 Compliance with legal and regulatory requirements is ensured, and sensitive data is protected from unauthorized access.
-
-**Parent Topic:**[Domain separation and Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/domain-separation-agent-client-collector.md)
 

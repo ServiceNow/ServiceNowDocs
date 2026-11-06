@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Convert services in bulk in Service Portfolio Management
@@ -27,7 +27,7 @@ You can convert services individually but to reduce manual overhead, convert mul
 -   Business service table \[cmdb\_ci\_service\_business\]
 -   Technology management service table \[cmdb\_ci\_service\_technical\]
 
-**Note:** Starting with the Yokohama release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technical service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technical service offering\).
+**Note:** Starting with the Brazil release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technical service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technical service offering\).
 
 When you convert a service, the record and all its relationships remain intact.
 

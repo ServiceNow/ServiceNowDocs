@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-layouts.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -48,6 +48,8 @@ Create an email layout to specify the HTML content you want to appear in the bod
 
 [Email notifications dashboard]()
 
+[Email diagnostics dashboard]()
+
 [Email templates]()
 
 [Email retention]()
@@ -60,5 +62,5 @@ Create an email layout to specify the HTML content you want to appear in the bod
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

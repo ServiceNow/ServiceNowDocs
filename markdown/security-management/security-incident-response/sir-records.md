@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Configure, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -121,14 +121,14 @@ Endpoint Detection and Response \(EDR\)
 -   Microsoft Defender for Endpoint-Related Machines Details
 
 </td></tr></tbody>
-</table>\[Omitted image "sir-records.png"\] Alt text: Related Records
-
-**Note:** In general, you'd be able to create new records, link, or unlink existing records or new records against the related list group as applicable.
+</table>**Note:** In general, you'd be able to create new records, link, or unlink existing records or new records against the related list group as applicable.
 
 **Parent Topic:**[Configuring SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 **Related topics**  
 
+
+[Configuring ServiceNow Otto for Security Incident Response \(SIR\)]()
 
 [Set up view of SIR Records]()
 
@@ -255,7 +255,7 @@ The response tasks related list is not grouped but displayed as individual relat
 
 2.  Select any response task record.
 
-3.  Right click on the Security Incident Response Task context menu.
+3.  Select and hold \(or right-click\) the Security Incident Response Task context menu.
 
 4.  Navigate to **Configure** &gt; **Related List**.
 
@@ -271,11 +271,11 @@ The response tasks related list is not grouped but displayed as individual relat
 
     \[Omitted image "response-tasks-selction.png"\] Alt text: related list slush bucket view
 
-7.  Click **Save**.
+7.  Select **Save**.
 
-8.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace** &gt; **Response Tasks** &gt; **SIT Records**.
+8.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace** &gt; **Response Tasks**.
 
-    The configured related lists \(For example, Affected locations as selected\) is listed within the SIT records list.
+    The configured related lists \(For example, Affected Users as selected\) is listed within the Related Records list.
 
     \[Omitted image "aafected-locations-response-tasks.png"\] Alt text: configured related list
 

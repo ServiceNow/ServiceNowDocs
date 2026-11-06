@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Integrate McAfee disk encryption with the Password Reset Windows Application
@@ -18,7 +18,8 @@ You use ePolicy Orchestrator \(ePO\) to enable McAfee MDE 7.2 on a Windows deskt
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: password\_reset\_admin
+
 -   Required: MDE version 7.2x
 
 ## Procedure

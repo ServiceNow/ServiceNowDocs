@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Communities, Customer Service Management]
+breadcrumb: [Exploring Communities, Communities, Customer Service Management]
 ---
 
 # Domain separation and Communities
 
 Domain separation is unsupported in Communities. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Support level: No support
 
@@ -22,6 +26,8 @@ Domain separation is unsupported in Communities. Domain separation enables you t
 -   This level is not considered domain-separated.
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
+
+**Parent Topic:**[Exploring Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/exploring-communities.md)
 
 **Related topics**  
 

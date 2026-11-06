@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configure ServiceNow AI Lens
@@ -21,16 +21,20 @@ If you have the admin role, you can enable the ServiceNow AI Lens application \(
 To get started with ServiceNow AI Lens, you must have:
 
 -   A ServiceNow Pro Plus or Enterprise Plus license.
--   An instance on Yokohama Patch 6+ or Zurich Patch 1+.
+-   Your ServiceNow® subscription must include access to AI capabilities.
+-   ServiceNow AI Lens is supported on the following family releases:
+    -   Australia Patch 1 or later
+    -   Zurich Patch 1 or later
+    -   Yokohama Patch 6 or later
 
 Role required: admin
 
 ## About this task
 
-ServiceNow AI Lens isn’t a standalone application that you can install directly. To enable ServiceNow AI Lens on your instance, you must install other Now Assist applications, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
+ServiceNow AI Lens isn’t a standalone store application that you can install directly. To enable ServiceNow AI Lens on your instance, you must install other generative AI applications, such as ServiceNow Otto for IT Service Management \(ITSM\) or ServiceNow Otto for Customer Service Management \(CSM\).
 
 -   Review the [ServiceNow AI Lens](https://store.servicenow.com/sn_appstore_store.do#!/store/application/2527a8af90db9e10f877653916085448/1.0.0) application listing in ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Refer to the [Now Assist Overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the prebuilt skills that exist and are currently available for purchase in ServiceNow Now Assist packages and to review the number of assists consumed.
+-   Refer to the [document](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/sn-assist-overview.pdf) to see the prebuilt skills that exist and are currently available for purchase in AI packages and to review the number of assists consumed.
 -   Perform these steps in your ServiceNow instance.
 
 By enabling the ServiceNow AI Lens application \(sn\_ai\_lens\), you can view the ServiceNow AI Lens and download modules in your ServiceNow instance.
@@ -46,22 +50,22 @@ For more information, see [Components installed with ServiceNow AI Lens](https:/
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  In the search field under the heading Search your licensed applications and plugins, enter the name of the Now Assist application that you want to install.
+2.  In the search field, under the heading **Search your licensed applications and plugins**, enter the name of the ServiceNow Otto application that you want to install.
 
     For example, you can enter ServiceNow Otto for IT Service Management \(ITSM\).
 
 3.  Press **Enter**.
 
-    The Now Assist application listing appears.
+    The ServiceNow Otto application listing appears.
 
-4.  Select the Now Assist application card.
+4.  Select the ServiceNow Otto application card.
 
 5.  Select **Install**.
 
 
 ## Result
 
-Now Assist for Platform, ServiceNow AI Lens, and ServiceNow AI Lens Core applications are installed.
+The ServiceNow AI Lens and ServiceNow AI Lens Core applications are installed.
 
 ## What to do next
 

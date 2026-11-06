@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create and assign project tasks from Project Workspace
@@ -22,15 +22,15 @@ Role required: it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Add Task**.
 
     A new row is added to the bottom of the data grid of the planning page, with **New Task** as the default name for the task.
 
-    Alternatively, select a project task row and click the Add task below icon \(\[Omitted image "icon-add-task.png"\] Alt text: Add task icon.\). This action adds a new task right below the task that you selected.\[Omitted image "add-task-below-option.png"\] Alt text: Add task.
+    Alternatively, select a project task row and select the Add task below icon \(\[Omitted image "add-task-below-icon.png"\] Alt text: Add task icon.\). This action adds a new task right after the task that you selected.
 
 3.  Edit the details of the task.
 
@@ -38,7 +38,7 @@ Role required: it\_project\_manager
 
 4.  Press the Enter key to save the details and create a row for another task.
 
-5.  Click anywhere on the data grid outside the task fields to save the details.
+5.  Select anywhere on the data grid outside the task fields to save the details.
 
 6.  Assign a task to a user by updating the **Assigned to** field.
 
@@ -46,13 +46,12 @@ Role required: it\_project\_manager
 
     For notifications to work, your admin must enable them by setting the **Project task assigned to** notification record as **true** in Email Notifications and Provider Notifications.
 
+    Team members can access project tasks assigned to them from Collaborative Work Management workspace. For more information, see [Managing SPM work in Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/cwm-team-member-roles.md).
+
 
 ## What to do next
 
 -   Make the new task a subtask of an existing task or a sub project by using the indent task icon\(\[Omitted image "icon-indent-task.png"\] Alt text: Indent task icon.\).
-
-    \[Omitted image "indent-task-option.png"\] Alt text: Indent task.
-
 -   [Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-project-task-from-project-workspace.md).
 
 -   **[Update a project task from the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-project-task-from-project-workspace.md)**  

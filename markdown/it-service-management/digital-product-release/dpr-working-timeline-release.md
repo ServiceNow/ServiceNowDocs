@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
@@ -39,19 +39,11 @@ For more information, see [Release for a product or service](https://raw.githubu
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
- 
+[Work on a release for a single product or service\[Omitted image "dpr-icon-rls-single.png"\] Alt text: Single product release icon.Learn about working on a timeline-oriented release to deliver a single product or service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md)
 
 </td><td>
 
-[Work on a release for a single product or service\[Omitted image "dpr-icon-rls-single.png"\] Alt text:Learn about working on a timeline-oriented release to deliver a single product or service.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md)
-
-</td><td>
-
-[Work on a release for multiple products\[Omitted image "dpr-icon-rls-multi.png"\] Alt text:Learn about working on a timeline-oriented release to deliver multiple products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-timeline-multi.md)
-
-</td><td>
-
- 
+[Work on a release for multiple products\[Omitted image "dpr-icon-rls-multi.png"\] Alt text: Multi-product release icon.Learn about working on a timeline-oriented release to deliver multiple products.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-timeline-multi.md)
 
 </td></tr></tbody>
 </table>

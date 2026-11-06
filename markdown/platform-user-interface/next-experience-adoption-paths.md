@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-adoption-paths.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [enable next experience, activate next experience]
-breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Considerations for activating Next Experience
@@ -21,7 +21,7 @@ Guidance and support from the engineers who helped you customize your instance, 
 
 Enable Next Experience during an upgrade or manually at any time after an upgrade. If you don’t see the migration modal, your instance has already completed the upgrade and you must enable Next Experience manually.
 
-## New customer starting on the Yokohama release
+## New customer starting on the Brazil release
 
 If you're a new customer, you automatically have Next Experience enabled and you don't need to modify the UI to get the newest user interface.
 
@@ -62,15 +62,14 @@ During the upgrade, the Next Experience UI is not turned on.
 
 **Important:**
 
-Connect Chat is not available in Next Experience. Starting with Yokohama, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
+Connect Chat is not available in Next Experience. Starting with Brazil, certain Connect Chat functions are available in Next Experience by using Sidebar. See [KB1123615 – Moving from Connect Chat to Sidebar](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1123615) for more information about the differences between Connect Chat and Sidebar.
 
-Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+Connect Support is not available in Next Experience and is scheduled to be completely deprecated in Utah. If you want to automatically assign chat requests and other work items to agents in Next Experience, you must migrate to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 These features and products are not currently supported with Next Experience:
 
--   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality. Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
--   Custom header menus are not supported.
--   [Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_GetStartedWithLiveFeed.md) is not supported.
+-   The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Overview dashboards take over homepage functionality. Use the Homepage deprecation help tool to convert the homepages on your instance to responsive dashboards.
+-   Live Feed is not supported.
 -   The JavaScript console log isn't supported in the Next Experience framework.
 -   ATF doesn't support these elements of Next Experience, but support for these features is planned for future releases:
 
@@ -98,9 +97,9 @@ Role required: admin
 
 ### About this task
 
-As an administrator, you can enable Next Experience for all users on your Yokohama instance, or let users enable or disable unified navigation for themselves.
+As an administrator, you can enable Next Experience for all users on your Brazil instance, or let users enable or disable unified navigation for themselves. After Next Experience is enabled at the instance level, users can choose to enable or disable it for their own session from the user menu. For more information, see [Configure Next Experience user experience preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-next-experience-user-experience.md).
 
-If you're a new customer running the Yokohama release, Next Experience is enabled by default. If you're upgrading, see the information at [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-adoption-paths.md) before you enable Next Experience.
+If you're a new customer running the Brazil release, Next Experience is enabled by default. If you're upgrading, see the information at [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-adoption-paths.md) before you enable Next Experience.
 
 **Warning:** It's not recommended that you enable or disable the Next Experience UI until you've learned the impact of how that might affect your instance functionality. You might need assistance from the modification authors or an established partner to ensure a seamless activation.
 

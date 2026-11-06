@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/r\_timeline-visualizations-roles.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Installed with Timeline Visualizations, Activate Timeline Visualization, Timeline Visualizations, Personalize your experience, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Installed with Timeline Visualizations, Activate Timeline Visualiza
 
 Timeline visualizations provides two roles.
 
-To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
+To learn more about managing subscriptions, see  and contact your account representative.
 
 **Parent Topic:**[Installed with Timeline Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_IWTimelineVisualizations.md)
 

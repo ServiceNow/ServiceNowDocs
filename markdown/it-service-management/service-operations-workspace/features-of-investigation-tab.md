@@ -7,14 +7,16 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Features of the Investigation tab
 
 The **Investigation** tab displays CI metrics information along with various options. Use the options and the metrics information to view the data that helps to resolve the CI-related issues.
+
+\[Omitted image "sow-investigation-tab-default.png"\] Alt text: Investigate tab - Default view
 
 You can select the following drop-down options to view the metrics information for the CI:
 
@@ -45,7 +47,7 @@ The metrics data includes the following information:
     This link is available to the agent only if the following conditions are met:
 
     -   The selected CI is of type Device, which is also known as Endpoint.
-    -   The DEX plugin is installed on the instance. For more information on DEX, see [Digital End-User Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/dex-landing.md).
+    -   The DEX plugin is installed on the instance. For more information on DEX, see .
     -   The DEX agent is installed on the selected CI.
 -   Asset utilization: Utilization of the assets for the CI. The following information is displayed along with the date and time:
 
@@ -82,6 +84,8 @@ Use the **View History** button to view the historical metrics data for the CI o
 
 -   **[Viewing the historical data of CI metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/view-investigate-history-data.md)**  
 View the historical data of the CI metrics for the selected time range.
+-   **[Digital End-User Experience and Service Observability UI experience on investigate tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/dex-so-metric-views-investigate-tab.md)**  
+Based on the Configuration Item \(CI\) selected in the **Investigate** tab, the user criteria and rules defined in the **Investigate CI Experience Rules** \(**sn\_sow\_investigate\_ci\_ux\_rule**\) table, the Investigate tab displays the CI metrics in different UI experience dashboard for the different CI classes.
 
 **Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/sow-im-reference.md)
 

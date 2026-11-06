@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: reference
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Hold Notification Reference, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Components installed with Legal Hold Notification
@@ -115,5 +115,5 @@ Legal hold custodiansn\_lg\_hold\_custodian
 Stores custodian details.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Legal Hold Notification Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
+</table>**Parent Topic:**[Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 

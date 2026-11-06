@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure App Engine Studio, Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configure AES, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Perform AES configuration tasks
@@ -56,7 +56,7 @@ Activate Playbooks.
 
 </td><td>
 
-You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see .
+You can edit processes in App Engine Studio, but you must activate Playbooks for App Engine Studio and enable the **Process Automation Designer for App Engine \[com.glide.pad.license\]** plugin to get started. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/activate-process-automation-designer.md).
 
 </td></tr><tr id="integrationhub-spokes"><td>
 
@@ -68,14 +68,14 @@ Activate spokes to enhance your Workflow Studio and App Engine Studio experience
 
  The following spokes are available for use with App Engine Studio.
 
--   Gmail spoke
--   Google Sheets spoke
--   Jira spoke
--   Microsoft 365 Excel spoke
--   Microsoft Teams spoke
--   Slack spoke
--   Twilio spoke
--   
+-   [Gmail spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-gmail.md)
+-   [Google Sheets spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-gsheets.md)
+-   [Jira spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-jira-spk-opt2.md)
+-   [Microsoft 365 Excel spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-office-365-excel.md)
+-   [Microsoft Teams spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-teams-spoke.md)
+-   [Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-slack.md)
+-   [Twilio spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-twilio.md)
+-   [X Spoke \(formerly Twitter Spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/twitter-spoke-ol.md)
 -   [Zoom spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-zoom.md)
 
 </td></tr><tr><td>
@@ -84,7 +84,7 @@ Review access settings for Flow Designer in your development instance.
 
 </td><td>
 
-Enable your developers to use the editing capabilities that best suit them. For detailed instructions, see Review Flow Designer access settings.
+Enable your developers to use the editing capabilities that best suit them. For detailed instructions, see [Review Flow Designer access settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/user-access-flow-designer.md).
 
 </td></tr><tr><td>
 

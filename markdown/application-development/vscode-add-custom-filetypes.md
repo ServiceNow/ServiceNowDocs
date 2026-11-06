@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/vscode-add-custom-filetypes.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Add custom file types in Visual Studio Code
@@ -54,7 +54,8 @@ Role required: admin
 The following is an example for app.config.json
 
 ```
-"CustomFileTypes": {
+{
+        "CustomFileTypes": {
         "sc_ic_aprvl_type_defn": {
             "superCoverName": "Miscellaneous",
             "coverName": "Approval Type Definition",

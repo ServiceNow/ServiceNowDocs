@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Career Conversations, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Install and configure Career Conversations, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Install Career Conversations
@@ -29,10 +29,6 @@ Dependent plugins and apps for Career Conversations
 Role required: admin
 
 ## About this task
-
-**Note:**
-
-Before installing Career Conversations 3.5.2, first upgrade to an **MSI trued-up patch** of the Store Apps family version. This ensures all MSI fixes are applied correctly.
 
 **Important:** You must install the Talent Development Core app before you install Career Conversations.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Release Management
 classification: release-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Release Management, IT Service Management]
+breadcrumb: [Release Management, IT Service Management]
 ---
 
 # Business stakeholder role for Release Management
@@ -77,5 +77,5 @@ Release Items \[rm\_m2m\_release\_task\]
 Represents work items and change records associated to the release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Exploring Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/exploring-release-management.md)
+</table>**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/c_ITILReleaseManagement.md)
 

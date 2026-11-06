@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-10-19"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Contract amendments, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Contract amendments, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on amendment request
@@ -17,8 +17,6 @@ breadcrumb: [Contract amendments, Using Contract Management Pro, Contract Manage
 Review and work on an amendment request for an existing contract.
 
 ## Before you begin
-
-The practice area lead or group manager should have assigned you the request. If not, you can open the request to [assign it to yourself or someone in the group]().
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -39,17 +37,17 @@ A sample workflow while working on an amendment request would be:
 
 1.  Navigate to your workspace.
 
-2.  On the **Lists** tab, open a contract request by selecting an option under **Contract Requests**.
+2.  On the **Lists** tab, navigate to **Contract Requests** and open a contract.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d87090e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d91559e102">
 
 Option
 
-</th><th align="left" id="d87090e115">
+</th><th align="left" id="d91559e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d87090e121">
+</th></tr></thead><tbody><tr><td id="d91559e111">
 
 **As an assignee**
 
@@ -61,7 +59,7 @@ Steps
 
 The state and the Contract status of the contract request is Work in progress.
 
-</td></tr><tr><td id="d87090e150">
+</td></tr><tr><td id="d91559e140">
 
 **As a collaborator**
 
@@ -177,6 +175,13 @@ The state and the Contract status of the contract request is Work in progress.
         \[Omitted image "snlc-amend-field-changes.png"\] Alt text: View the field changes due to amendment
 
     -   Attachment pane: View the certificate of completion for the contract and amendment requests if electronic signature was selected.
+-   When both amendment and renewal requests are active on the same contract, review the following to avoid conflicts:
+
+    -   Contract dates to prevent overlapping effective periods between the amended contract and the renewed contract
+    -   Terms and pricing changes in both requests
+    -   Effective dates and expiration dates
+    You must manually reconcile any conflicts between the amended original contract and the renewed contract.
+
 
 **Parent Topic:**[Contract amendments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-amend-landing.md)
 

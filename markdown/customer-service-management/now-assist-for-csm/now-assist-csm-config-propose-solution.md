@@ -1,5 +1,5 @@
 ---
-title: Configure the Propose Solution UI action and declarative action
+title: Configure Propose Solution actions
 description: Add generative AI-specific functionality to the Case form by configuring the Propose Solution UI action and declarative action that are included with the ServiceNow Otto for Customer Service Management \(CSM\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-config-propose-solution.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Configure, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
-# Configure the Propose Solution UI action and declarative action
+# Configure Propose Solution actions
 
 Add generative AI-specific functionality to the Case form by configuring the Propose Solution UI action and declarative action that are included with the ServiceNow Otto for Customer Service Management \(CSM\) application.
 

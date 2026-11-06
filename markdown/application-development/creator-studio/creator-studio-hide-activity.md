@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering activities in Creator Studio, Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [About custom activities, Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Make an activity unavailable in playbooks
@@ -30,15 +30,15 @@ Role required: admin or app\_engine\_admin
 
     All of the standard Creator Studio activities appear in the list, not just custom activities.
 
-    The Creator Studio Activities table appears.
+    \[Omitted image "crs-activities-table.png"\] Alt text: Creator Studio Activities table showing available activities with their descriptions and order values.
 
-    \[Omitted image "crs-activities-table.png"\] Alt text: Table showing all activities defined for Creator Studio playbooks
+    The Creator Studio Activities table appears.
 
 2.  Open the Creator Studio Activity record for the activity that you want to hide by selecting is **Short Description** field.
 
 3.  Hide the activity by clearing the **Active** check box.
 
-    \[Omitted image "crs-activity-active-box.png"\] Alt text: Clear the Active box
+    \[Omitted image "crs-activity-active-box.png"\] Alt text: Creator Studio Activity form with the Active check box selected
 
 4.  Select **Update** to save the record.
 

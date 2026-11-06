@@ -1,19 +1,19 @@
 ---
 title: Delete a Platform Analytics dashboard
-description: You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
+description: You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/delete-db-in-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [How to delete a dashboard, How to delete a platform analytics dashboard, How to delete a Next Experience dashboard]
-breadcrumb: [Create, share, edit, and more, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Delete a Platform Analytics dashboard
 
-You can delete a dashboard that is no longer useful. The Analytics Center invokes the Workflow Studio to remove the dashboard from your instance.
+You can delete a dashboard that is no longer useful. The Analytics Overview invokes the Workflow Studio to remove the dashboard from your instance.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: You can delete any dashboard that you created. Users with the adm
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Dashboards**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**.
 
 2.  Open the dashboard that you want to delete.
 
@@ -45,12 +45,14 @@ Role required: You can delete any dashboard that you created. Users with the adm
 -   **[Configure dashboard deletion actions in the Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/delete-db-in-ac-wf.md)**  
 Using the Workflow Studio, you can add actions to the dashboard deletion process. Actions may include sending an email to the dashboard's users or generating an approval request.
 
-**Parent Topic:**[Creating dashboards and other common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

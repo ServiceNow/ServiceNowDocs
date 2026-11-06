@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [LogRhythm Overview, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -56,7 +56,7 @@ Obtain a LogRhythm API user name and password and verify that you are using vers
 
 Visit the product website for information on API keys and to create an account: [LogRhythm Enterprise website](https://logrhythm.com/). The user accounts, credentials, and certificates must be configured properly prior to installing the application. The integration requires LogRhythm version 7.8 or later and the LogRhythm REST APIs.
 
- See [Set up the REST API for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-api-lr.md).
+ See [Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-api-lr.md).
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ After you successfully complete the validation, the next step is to [Creating an
 
 **Parent Topic:**[LogRhythm Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/ovrview-logrhythm.md)
 
-**Previous topic:**[Set up the REST API for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-api-lr.md)
+**Previous topic:**[Set up the REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/drilldown-api-lr.md)
 
 **Next topic:**[Creating an alarm profile for LogRhythm](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-alarm-profile-logrhythm.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssociateSoldProduct.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Customer Data Models for B2B2C, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using customer data models for B2B2C, Customer management, Use, Customer Service Management]
 ---
 
 # Associate sold products with account consumers
@@ -22,7 +22,7 @@ Role required: sn\_customerservice\_manager
 
 1.  Navigate to **All** &gt; **Customer Service** &gt; **Products** &gt; **Sold Products**.
 
-2.  Select a product that doesn't have a consumer associated with it.
+2.  Select a product that doesn’t have a consumer associated with it yet.
 
 3.  Either add an existing consumer or a new one.
 
@@ -40,24 +40,24 @@ Add an existing consumer
 
 </td><td>
 
-1.  In the **Consumer** field, click the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon\).
+1.  In the **Consumer** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon\).
 2.  Select a consumer from the list.
 
 
 </td></tr><tr><td>
 
-Add a new consumer
+Add a consumer
 
 </td><td>
 
-1.  In the **Consumer** field, click the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon\).
-2.  Click **New**.
+1.  In the **Consumer** field, select the Lookup using list icon \(\[Omitted image "List\_SearchIcon.png"\] Alt text: Lookup using list icon\).
+2.  Select **New**.
 3.  On the Consumer form, fill in the fields.
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 </td></tr></tbody>
-</table>4.  Click **Update**.
+</table>4.  Select **Update**.
 
 
 ## Result

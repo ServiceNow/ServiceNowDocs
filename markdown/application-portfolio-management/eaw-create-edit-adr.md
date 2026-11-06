@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-edit-adr.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage architectural decision records \(ADR\), Working with information portfolio, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add or edit an architectural decision record \(ADR\)
@@ -38,9 +38,9 @@ Role required: sn\_apm.apm\_user to add an architectural decision record \(ADR\)
 
     -   To add an architectural decision record, select **New**.
     -   To update details of an existing architectural decision record, select the architectural decision record.
-6.  In the **New architectural** artifact pop-up window, fill in the form fields.
+6.  In the **New architectural artifact** pop-up window, fill in the form fields.
 
-    For field information, see [New architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-new-arct-artfct-form.md).
+    For field information, see [Architectural artifact form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-new-arct-artfct-form.md).
 
 7.  Select **Create**.
 
@@ -49,14 +49,24 @@ Role required: sn\_apm.apm\_user to add an architectural decision record \(ADR\)
 
 The architectural decision record is created and added to the artifacts list. You’re also redirected to the newly created architectural decision record page.
 
-**Parent Topic:**[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-arch-decision-records.md)
+**Parent Topic:**[Manage architectural decision records \(ADR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-adr.md)
 
 **Related topics**  
 
 
-[Add an architectural artifact version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-architectural-artifact-version.md)
+[eaw-add-an-architectural-artifact-version]
 
 [Request approval for an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-req-approval-artifact-version.md)
 
 [Add a related entity to an architectural artifact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-related-entity-to-an-architectural-artifact.md)
+
+[Create and manage pages and subpages for ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-and-mng-page-subpage-for-adr.md)
+
+[Tag users or records in Architectural Decision Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tag-users-or-records-in-adr.md)
+
+[Reference additional records in decision records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-update-system-property-to-allow-tagging-of-additional-records-in-adr-doc.md)
+
+[Add an architectural decision record version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-an-adr-version.md)
+
+[Request approval for an ADR version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-approval-adr.md)
 

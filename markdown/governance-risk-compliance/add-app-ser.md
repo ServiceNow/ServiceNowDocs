@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/add-app-ser.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Gathering data aligned with the CSDM setup, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ Role required: sn\_oper\_res.manager
 
 3.  On the form, fill in the fields.
 
-    You can fill in the details of the application service in the form. For information on the fields, see [Create New Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-appl-service-form.md).
+    You can fill in the details of the application service in the form. For information on the fields, see [Create Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-appl-service-form.md).
 
 4.  Select **Save**.
 

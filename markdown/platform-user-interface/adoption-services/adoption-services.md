@@ -1,20 +1,20 @@
 ---
 title: Adoption services
-description: Adoption Services is a suite of solutions, both products and features, that provide user support and critical information at the anticipated time of need. Such services include in-product help, onboarding modals, guided setups and guided tours that teach users how to interact with the UI pages that they’re looking at in their instance.
+description: Adoption Services is a suite of solutions, both products and features, that provide user support and critical information at the anticipated time of need. Such services include in-product help, modals, tours, and guides that teach users how to interact with the UI pages that they’re looking at in their instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/adoption-services.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure user experiences]
 ---
 
 # Adoption services
 
-Adoption Services is a suite of solutions, both products and features, that provide user support and critical information at the anticipated time of need. Such services include in-product help, onboarding modals, guided setups and guided tours that teach users how to interact with the UI pages that they’re looking at in their instance.
+Adoption Services is a suite of solutions, both products and features, that provide user support and critical information at the anticipated time of need. Such services include in-product help, modals, tours, and guides that teach users how to interact with the UI pages that they’re looking at in their instance.
 
 ## Get started
 
@@ -53,5 +53,4 @@ Choose one of the tiles below to get started.
  [Use guided tours to provide step-by-step walkthroughs of applications within your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tours.md)
 
 </td></tr></tbody>
-</table>For additional getting started information, see the following Getting Started with Adoption Services video.
-
+</table>

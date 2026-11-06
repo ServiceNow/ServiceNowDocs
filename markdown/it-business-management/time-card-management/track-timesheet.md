@@ -7,9 +7,9 @@ release: yokohama
 product: Time Card Management
 classification: time-card-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Approve or reject a time sheet or time card from your mobile device, Mobile Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Approve or reject time card from mobile, Mobile Time Sheets, Time Card management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Track your time sheets

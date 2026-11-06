@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Exploring App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Integrated development tools for AES
@@ -56,7 +56,7 @@ See [Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/S
 
 </td></tr><tr><td>
 
-Decision tables in Workflow Studio
+[Decision tables in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)
 
 </td><td>
 
@@ -80,7 +80,7 @@ See [Add an email notification](https://raw.githubusercontent.com/ServiceNow/Ser
 
 </td></tr><tr><td>
 
-[ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-overview.md)
+
 
 </td><td>
 
@@ -88,23 +88,11 @@ Build an ERP \(Enterprise Resource Planning\) data model and extract data from y
 
 </td><td>
 
-See [ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-integration-framework/erp-integration-overview.md).
+See .
 
 </td></tr><tr><td>
 
-[ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-overview.md)
-
-</td><td>
-
-Identify all of the customizations in your ERP system.
-
-</td><td>
-
-See [ERP Customization Mining \(ERP-CM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/erp-customization-mining/erp-customization-mining-overview.md).
-
-</td></tr><tr><td>
-
-Flows in Workflow Studio
+[Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)
 
 </td><td>
 
@@ -116,7 +104,7 @@ See [Add a flow from scratch](https://raw.githubusercontent.com/ServiceNow/Servi
 
 </td></tr><tr><td>
 
-Integration Hub - Import
+[Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub-imports.md)
 
 </td><td>
 
@@ -172,7 +160,7 @@ Edit workspace and portal experiences using a highly configurable UI development
 
 </td><td>
 
-See [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md) and [Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-portal.md).
+See [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-workspace.md) and [Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-portal.md).
 
 </td></tr><tr><td>
 
@@ -184,13 +172,13 @@ Quickly build custom workspaces to give users a service desk-like experience to 
 
 </td><td>
 
-See the following topics:-   [Building workspaces in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md)
--   [Configure a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-builder.md)
+See the following topics:-   [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md)
+-   [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-builder.md)
 -   [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-settings.md)
--   [Configure a workspace home page in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/edit-workspace-home-page.md)
--   [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md)
--   [Configure lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace-list.md)
--   [Configure analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-analytics-workspace.md)
+-   [Customize a workspace home page in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/edit-workspace-home-page.md)
+-   [Add a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md)
+-   [Create lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace-list.md)
+-   [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-analytics-workspace.md)
 
 </td></tr></tbody>
 </table>

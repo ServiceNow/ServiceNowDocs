@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Internet Content Adaption Protocol \(ICAP\) integration for DLP IR, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Create a profile for ICAP DLP integration
@@ -26,7 +26,7 @@ Configure the NowPlatform to fetch the DLP alerts from Amazon S3 configuration. 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **ICAP DLP Integration** &gt; **Incident Profile**.
+1.  Navigate to **All** &gt; **ICAP DLP Integration** &gt; **DLP Incident Profile**.
 
 2.  Click **New**.
 
@@ -81,9 +81,7 @@ Description
 Description for this profile.
 
 </td></tr></tbody>
-</table>    \[Omitted image "dlp-icap-incident-profile.png"\] Alt text: ICAP DLP incident profile
-
-
+</table>
 ## What to do next
 
 To move to the Filtering section,  click **Continue**.

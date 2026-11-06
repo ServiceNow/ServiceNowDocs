@@ -1,5 +1,5 @@
 ---
-title: Configure Credential Identifier for Certificate Management credential type
+title: Configure IDs for Certificate Management credentials
 description: Ensure unique identification and effective management of credentials by configuring credential identifier for Certificate Inventory and Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/configure-credential-id-cert-mgmtl-.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Visibility to TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Configure Credential Identifier for Certificate Management credential type
+# Configure IDs for Certificate Management credentials
 
 Ensure unique identification and effective management of credentials by configuring credential identifier for Certificate Inventory and Management.
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-To enable external storage credential support for TLS certificate discovery from CA types such as GoDaddy, DigiCert, and Sectigo, set up the credential identifier within the instance for the respective Certificate Management credential type.
+External storage credential support enables TLS certificate discovery from CA types such as GoDaddy, DigiCert, and Sectigo. Set up the credential identifier in the instance for the respective Certificate Management credential type.
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Google Meet Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Google Meet Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Google Meet spoke
@@ -75,8 +75,6 @@ Role required: admin
 13. Select **CONFIGURE CONSENT SCREEN**.
 
     **Note:** Refresh token expires in 7 days when a Google Cloud Platform project with an OAuth consent screen is configured for an external user type and its publishing status is **Testing**. To get new OAuth, click **Edit and Get OAuth Token** by navigating to the associated connection.
-
-    \[Omitted image "gmeet-oauth.jpg"\] Alt text: Refresh token after it expires.
 
 14. Select **Internal**.
 

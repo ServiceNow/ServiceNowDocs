@@ -1,20 +1,20 @@
 ---
 title: Create an application with the ServiceNow SDK
-description: Create a scoped application to develop in source code with the ServiceNow SDK.
+description: Create an application to develop in source code with the ServiceNow SDK.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-sdk/create-application-now-sdk.html
 release: yokohama
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Add applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Add applications, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Create an application with the ServiceNow SDK
 
-Create a scoped application to develop in source code with the ServiceNow SDK.
+Create an application to develop in source code with the ServiceNow SDK.
 
 ## Before you begin
 
@@ -128,7 +128,7 @@ For scoped applications, enter the scope of the application.The scope name must 
 
 ## Result
 
-A scoped application with the default application structure is available locally. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
+An application with the default application structure is available locally. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 If you installed the application successfully, it’s available on the instance. For more information about installing applications, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 

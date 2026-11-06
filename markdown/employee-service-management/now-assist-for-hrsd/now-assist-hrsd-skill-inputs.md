@@ -1,5 +1,5 @@
 ---
-title: Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)
+title: Skill inputs and triggers for ServiceNow Otto for HRSD
 description: Get a quick overview of the skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-skill-inputs.html
@@ -7,16 +7,14 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure skills, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)
+# Skill inputs and triggers for ServiceNow Otto for HRSD
 
 Get a quick overview of the skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\). By configuring the inputs or triggers for a skill, you can determine how and when a skill is used.
-
-## Overview
 
 Depending on the selected skill, you can configure the inputs or triggers. These settings determine how and when a skill is used. An input identifies the data that is used for a skill, such as the table and fields that are used to generate a case summary. A trigger initiates an action, such as when the system generates a chat summary.
 
@@ -112,7 +110,83 @@ Input fields
 -   Work notes
 
 </td></tr></tbody>
-</table>## Knowledge article generation skill
+</table>## Case sentiment analysis skill
+
+The case sentiment analysis skill includes the inputs and outputs that identify the table and fields that are used when a case sentiment is generated.
+
+<table id="table_rbs_gbj_l2c"><thead><tr><th>
+
+Input
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Input table
+
+</td><td>
+
+Case \[case\]
+
+</td></tr><tr><td>
+
+Input fields
+
+</td><td>
+
+-   Short description
+-   Description
+-   Priority
+-   State
+-   Creation date
+-   Activities
+
+</td></tr></tbody>
+</table><table id="table_lm1_qcj_l2c"><thead><tr><th>
+
+Output
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Sentiment values
+
+</td><td>
+
+-   Positive
+-   Neutral
+-   Negative
+
+</td></tr><tr><td>
+
+Sentiment trend
+
+</td><td>
+
+-   Improving
+-   Declining
+-   Stable
+
+</td></tr><tr><td>
+
+Sentiment reasoning
+
+</td><td>
+
+Reasons for providing the sentiment value.
+
+</td></tr></tbody>
+</table>|Scheduled job name|Default value|Description|
+|------------------|-------------|-----------|
+|Sentiment analysis scheduled job \(case\)|True|Refreshes sentiments on the Trigger frequency screen for the Sentiment analysis skill.|
+|Update sentiment historical records|False|When active, calculates sentiment and sentiment trends for historical records.|
+
+## Knowledge article generation skill
 
 The knowledge article generation skill includes the inputs that identify the table and fields that are used when a knowledge article is generated for a case.
 
@@ -149,28 +223,5 @@ Input fields
 -   Work notes
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
-
-**Related topics**  
-
-
-[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[Restrict Now Assist capabilities for employee relations cases]()
-
-[Customize the ServiceNow Otto for HRSD skills]()
-
-[Configure attachment summary]()
-
-[Configure resolution notes generation for ServiceNow Otto for HRSD]()
-
-[Configure sensitivity detection]()
-
-[Configure Gen AI Virtual Agent for HRSD]()
-
-[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
-
-[Configure HCM agents for HR Service Delivery AI Agent Collection]()
-
-[Configure Now Assist AI Helper – Galileo Inside]()
+</table>**Parent Topic:**[Configure ServiceNow Otto for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)
 

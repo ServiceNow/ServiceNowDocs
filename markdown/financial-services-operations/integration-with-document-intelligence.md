@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/integration-with-document-intelligence.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Integrating with Document Intelligence
@@ -24,6 +24,8 @@ For information on how to upload and extract data from documents, and informatio
 
 -   **[Enable Document Intelligence for FSO](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/enable-docintel-fso.md)**  
 Enable Document Intelligence for FSO Document Processor by installing and activating the required plugins.
+-   **[Synchronize types and categories to Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/sync-doc-processor-intelligence.md)**  
+If Document Intelligence is installed after document types and categories were set up in Document Processor, run this script to synchronize these values between the two applications.
 
-**Parent Topic:**[Integrating with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integrated-applications-overview.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integrate-other-applications.md)
 

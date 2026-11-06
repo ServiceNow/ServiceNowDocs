@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the logical connection details
@@ -24,7 +24,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 A logical connection typically represents the multiple physical connections on an interface card. The logical connection data includes the link types, bandwidths, port, and site.
 
-When you create a logical connection record, it creates a corresponding configuration item \(CI\) record in the Logical Connection \[cmdb\_ci\_ni\_logical\_path\] table. To learn more, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you create a logical connection record, it creates a corresponding configuration item \(CI\) record in the Logical Connection \[cmdb\_ci\_ni\_logical\_path\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 The **Overview** tab in the logical connection record displays a consolidated detail of the logical connection, its connection elements, and A and Z ends. You can customize the connection elements table by creating a custom implementation for the extension point `sn_ni_adv.TNIConnectionOverview`. Also, you can decide the number of rows in this table by setting the system property `sn_ni_adv.clr_max_rows`. The default value for this property is 500.
 
@@ -74,11 +74,11 @@ The **Overview** tab in the logical connection record displays a consolidated de
 
 11. To view the visual representation of the selected record, select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Open Map**.
 
-    **Note:** Install CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
+    **Note:** Install CMDB Workspace 3.5.0 orService Graph Workspace greater version to get this button in your instance. To learn more, see [CMDB Workspace or Service Graph Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
 
 12. Select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Add Packs** to capture the attributes for a configuration item \(CI\) record.
 
-    To learn more, see [Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
+    To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 
 13. Select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Decommission** to decommission a CI record.
 
@@ -100,5 +100,5 @@ The **Overview** tab in the logical connection record displays a consolidated de
 **Related topics**  
 
 
-[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

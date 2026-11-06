@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/customer-central-fso.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Customer Central for FSO
@@ -26,7 +26,7 @@ Agents or contributors can view Customer Central on the interaction, case, accou
 
 The **Customer Information** tab displays key information about the customer and a view of all recent customer touchpoints with the service organization. It contains various predefined lists, records, reports, and report groups that are highly configurable, or you can create your own. You can also configure the number of days to display the data.
 
-\[Omitted image "customer-information-fso.png"\] Alt text: Customer summary page showing a customer's insurance policy details, premium breakdown of £317.10, coverage types table, and case overview with 10 total cases across various statuses.
+\[Omitted image "customer-information-fso.png"\] Alt text: The Customer Information tab displays key information about the customer and a view of all recent customer touchpoints with the service organization.
 
 ## Configure Customer Central
 

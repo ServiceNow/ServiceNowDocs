@@ -7,8 +7,8 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Document repository, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -39,6 +39,8 @@ For multiple document versions, the latest reviewed and approved version gets pu
 
 -   **[Create a document version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/create-doc-version.md)**  
 Create a document version for each document.
+-   **[Compare document versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/compare-document-version.md)**  
+Document version comparison enables you to view differences between two versions of a document, highlighting changes such as added, removed, or modified content.
 
 **Parent Topic:**[Document repository](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/doc-mgt-view-documents-repo.md)
 
@@ -52,6 +54,8 @@ Create a document version for each document.
 [Share a document link]()
 
 [Modify a shared link access]()
+
+[Configure document permissions]()
 
 [Delete a document link]()
 

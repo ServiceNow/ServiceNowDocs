@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a Universal Request from the Health and Safety Workspace, Universal Request for Health and Safety cases, Health and Safety Case Management, Health and Safety, Employee Service Management]
 ---
@@ -34,7 +34,7 @@ A routing agent of the primary ticket can request other departments for assistan
 
 4.  Select the universal request record.
 
-5.  In the **Primary Ticket** field, select the \[Omitted image "circle-info-outline-24.svg"\] icon to open the health and safety case.
+5.  In the **Primary Ticket** field, select the information \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: information icon\) icon to open the health and safety case.
 
 6.  Select the **Create Associated Ticket** button.
 

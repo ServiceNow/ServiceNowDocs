@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # ServiceNow for Microsoft Teams and Microsoft 365
@@ -177,7 +177,7 @@ Enables employees to create universal requests directly from Microsoft Teams, vi
 
 </td><td>
 
-[Integrate \[Omitted image "bus-alignment.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/setup-sn-ms-teams.md)
 
 </td><td>
 
@@ -189,11 +189,18 @@ Enables employees to create universal requests directly from Microsoft Teams, vi
 
 </td><td>
 
-[Use \[Omitted image "bus-task-list.svg"\] Alt text: Use Microsoft integration with various applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/c_using_sn_ms_teams.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use Microsoft integration with various applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/c_using_sn_ms_teams.md)
 
 </td><td>
 
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: See reusable reference content for Microsoft Teams integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
+[Reference \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: See reusable reference content for Microsoft Teams integrations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/reference-sn-teams.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

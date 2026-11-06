@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your inventory through pallet assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage your inventory through pallet assets, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Delete pallet assets
@@ -32,7 +32,7 @@ You can delete a pallet only if it’s empty. Remove any assets before trying to
 
 3.  Select the pallet that you want to delete.
 
-4.  Click the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More actions icon\) next to the **Save** button and select **Delete**.
+4.  Select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon next to the **Save** button and select **Delete**.
 
 
 ## Result

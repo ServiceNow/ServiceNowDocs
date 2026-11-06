@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enhanced Requests Experience forms, Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Enhanced Requests Experience forms, Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Request source form
@@ -64,7 +64,7 @@ All portals
 
 Option to apply the request source to all your portals.
 
-</td></tr><tr><td>
+</td></tr><tr><td rowspan="3">
 
 Filter
 
@@ -74,19 +74,27 @@ Filter
 
 </td></tr><tr><td>
 
-Filter
-
-</td><td>
-
 **Add OR Clause**: Add an OR clause to the filter condition.
 
 </td></tr><tr><td>
 
-Filter
+**Add Sort**: Add a sorting clause to the filter condition.
+
+</td></tr><tr><td>
+
+Advanced
 
 </td><td>
 
-**Add Sort**: Add a sorting clause to the filter condition.
+Option to enable scripting to customize the request card configurations on the portal.
+
+</td></tr><tr><td>
+
+Script
+
+</td><td>
+
+Scripting field to customize the request card configurations on the portal.This section appears only when **Advanced** box is checked.
 
 </td></tr><tr><td>
 
@@ -111,14 +119,6 @@ Portal page
 </td><td>
 
 Page where you are redirected when you click on the request card in the portal.
-
-</td></tr><tr><td>
-
-Active
-
-</td><td>
-
-SelectedOption to mark the request source record active.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enhanced Requests Experience forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/req-concept-ec.md)

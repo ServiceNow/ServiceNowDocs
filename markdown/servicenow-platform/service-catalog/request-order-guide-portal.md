@@ -7,8 +7,8 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Service Catalog in Service Portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -124,8 +124,6 @@ For information about the SC Order Guide widget, see [SC Order Guide widget](htt
 [Add a catalog item to the shopping cart]()
 
 [Request a catalog item from Service Portal]()
-
-[Standard ticket page for a requested item]()
 
 [Request an order guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_OrderProcess.md)
 

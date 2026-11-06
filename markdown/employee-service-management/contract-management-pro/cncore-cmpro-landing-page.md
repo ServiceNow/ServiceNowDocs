@@ -1,21 +1,25 @@
 ---
 title: Contract Management Pro
-description: The ServiceNow Contract Management Pro is a contract lifecycle management solution that's easy to use and adopt. You can use it to set up contract document templates, clauses, clause variations, and to initiate contract requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+description: The ServiceNow Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. Contract requests can be submitted in two ways: linked to a business unit entity such as a purchase requisition or sourcing event, or as standalone requests without a parent record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-08-14"
 reading_time_minutes: 3
 keywords: [ServiceNow Contract Management Pro, Contract Management Pro, Contract Management Pro ServiceNow, CMP ServiceNow, Contract Pro ServiceNow, ServiceNow Contract Management, ServiceNow Contracting, Contract Lifecycle Management ServiceNow, CLM ServiceNow, ServiceNow CLM, Contract Management ServiceNow, ServiceNow Contract Module, servicenow contract management, contract management suite, Obligation Management, Contract renewal reminder, Contract repository management, contract metadata extraction, contract amendment request, amendment workflow, amendments]
-breadcrumb: [Employee Service Management]
+breadcrumb: [Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract Management Pro
 
-The ServiceNow® Contract Management Pro is a contract lifecycle management solution that's easy to use and adopt. You can use it to set up contract document templates, clauses, clause variations, and to initiate contract requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.
+The ServiceNow® Contract Management Pro solution enables you to set up contract document templates, clauses, and clause variations, and to initiate contract, amendment and renewal requests. Contract requests can be submitted in two ways: linked to a business unit entity such as a purchase requisition or sourcing event, or as standalone requests without a parent record.
+
+The solution uses AI to analyze non-standard and missing clauses in contracts, extract obligations and metadata, and provide AI-assisted search. It also supports e-signatures, wet signatures, and external storage systems.
+
+## Contract Workspace and Dashboard
 
 You can use the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 
@@ -57,7 +61,7 @@ The following video provides an overview of Contract Management Pro.\[Omitted vi
 
 </td><td>
 
-[Now Assist in Contract Management\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use Now Assist in Contract Management to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[ServiceNow Otto for Contract Management\[Omitted image "bus-ai-otto.svg"\] Alt text:Use ServiceNow Otto for Contract Management Pro to enhance user productivity using generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td><td>
 
@@ -70,14 +74,22 @@ Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "dcx-icon-docs.svg"\] Release Notes**
 
-    Learn more about what's new and changed. See the [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmpro-rn.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/cmpro-rn.md).
+    Learn more about what's new and changed. See the .
 
 -   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
 
     Connect with other Contract Management Pro users at [ServiceNow Community](https://www.servicenow.com/community/legal-service-delivery/ct-p/legal-service-delivery).
 
+-   **\[Omitted image "dcx-icon.svg"\] Customer Success Center**
+
+    Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html?).
+
 -   **\[Omitted image "dcx-icon-learning.svg"\] ServiceNow University**
 
     Access real-time courses, self-paced training, and career resources from [ServiceNow University](https://learning.servicenow.com/lxp/en/general/contract-management-pro-cmp-implementation-bootcamp-on-demand?id=learning_course_prev&course_id=87e103898707d21c3a3a84c7cebb35d9).
+
+-   **\[Omitted image "dcx-icon-support.svg"\] Known Error Portal**
+
+    Learn more about specific known errors, along with workarounds if any, from the [Known Error Portal](https://support.servicenow.com/kb?id=known_error_portal).
 
 

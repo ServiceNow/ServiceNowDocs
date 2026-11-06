@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/form-header-by-version.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -36,7 +36,7 @@ The Core UI form header includes the following controls.
 |More options\[Omitted image "IconUI16MoreOptions.png"\] Alt text: More options icon|
 |Email|\[Omitted image "FormEmailUI15.png"\] Alt text: email icon|Opens an email window.|
 |Template bar|\[Omitted image "IconToggleTemplateBar.png"\] Alt text: edit tags icon|Opens a bar at the bottom of the form and lists available templates.|
-|Annotations|\[Omitted image "FormToggleAnnotUI15.png"\] Alt text: annotations icon|Displays on-form annotations. For more information, see [Administering form annotations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_FormAnnotation.md).|
+|Annotations|\[Omitted image "FormToggleAnnotUI15.png"\] Alt text: annotations icon|Displays on-form annotations. For more information, see Administering form annotations.|
 |Tags|\[Omitted image "FormEditTagsUI15.png"\] Alt text: edit tags icon|Displays the option to create custom tags and categorize documents. For more information, see [Tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_Tags.md).|
 |Remaining controls|
 |Submit or Update| |Saves changes and returns to the previously viewed page.|

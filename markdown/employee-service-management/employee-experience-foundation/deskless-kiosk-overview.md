@@ -1,5 +1,5 @@
 ---
-title: Employee Center Pro Kiosk overview
+title: Employee Center Pro Kiosk
 description: Enable the field workers and shift workers with the in-context information for operational efficiency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
-# Employee Center Pro Kiosk overview
+# Employee Center Pro Kiosk
 
 Enable the field workers and shift workers with the in-context information for operational efficiency.
 
@@ -64,6 +64,21 @@ This portal supports displaying timeoff balance, employee schedule, my requests,
 |Employee profile admin|sn\_employee.admin|
 
 **Note:** Ensure that the users have the `sn_ex_sp_pro_kiosk.user` role to access the Kiosk portal.
+
+-   **[Employee Center Pro Kiosk benefits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-eck-benefits.md)**  
+Enable the field workers and shift workers with the in-context information for operational efficiency.
+-   **[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)**  
+Configure and use the default Kiosk for better deskless experience.
+-   **[Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md)**  
+You can configure the widget instance options to control how data is displayed within the widget.
+-   **[Configure the mail and SMS send to self](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-sendtoself-sms-email.md)**  
+Help employees access information easily by sending required information as an SMS or email.
+-   **[Integrate with the UKG spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-kiosk-kronos.md)**  
+Integrate with the UKG spoke to use the Employee Center Pro Kiosk in your organization.
+-   **[Use Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-eck-homepage.md)**  
+Use the Kiosk experience to self-serve, leading to improved productivity, and operational efficiencies for the organization.​
+
+**Parent Topic:**[Employee Center Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/integrate-ec.md)
 
 **Related topics**  
 

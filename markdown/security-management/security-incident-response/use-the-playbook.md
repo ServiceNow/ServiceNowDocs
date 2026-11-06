@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Manage security threats using the Security Analyst Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -83,11 +83,7 @@ When the email is received at the phishing email address, the .EML attachment is
 -   The .EML file is attached to the security incident.
 -   If the .EML contained any observables, they are parsed, and enrichment and threat lookups are automatically performed.
 
-\[Omitted image "cj-sir-phishing-callouts.png"\] Alt text: User reported phishing security incident
-
-When a Phishing category security incident is opened, the Phishing Playbook is automatically available. Simply click the playbook icon \(\[Omitted image "cj-sir-icon-playbook.png"\] Alt text: Playbook\) to open the playbook.
-
-\[Omitted image "cj-sir-phishing-playbook.png"\] Alt text: Phishing playbook pane
+When a Phishing category security incident is opened, the Phishing Playbook is automatically available. Simply select the playbook icon \(\[Omitted image "cj-sir-icon-playbook.png"\] Alt text: Playbook\) to open the playbook.
 
 The Phishing playbook contains tasks to help you analyze, contain, and eradicate a phishing threat. The tasks are organized into states \(for example, **Analysis**, **Contain**, and so forth\). When all tasks for a state have been completed, the playbook guides you to the next state.
 
@@ -221,13 +217,9 @@ Role required: sn\_si.basic or security\_admin
 
 ### Procedure
 
-1.  With the playbook open, click **Add Task**.
-
-    \[Omitted image "add-task-button.png"\] Alt text: Click the Add Task button
+1.  With the playbook open, select **Add Task**.
 
     The Add Custom Task screen opens.
-
-    \[Omitted image "add-playbook-task.png"\] Alt text: Add a custom playbook task
 
 2.  Fill in the fields, as needed.
 
@@ -293,7 +285,7 @@ Outcome type
 
 </td><td>
 
-If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ViewChoiceListDefinitions.md)
+If you have the sn\_si.basic role, select **Yes/No** as the outcome type. If you have the security\_admin role, you can create a custom outcome type with multiple custom output values. For example, you can define a task with dependant values based on the threat category. For more information, see [Choice lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ViewChoiceListDefinitions.md).
 
 </td></tr><tr><td>
 
@@ -328,7 +320,7 @@ Description
 Enter a description for the selected task.
 
 </td></tr></tbody>
-</table>3.  When you have completed your entries, click **Add Task**.
+</table>3.  When you have completed your entries, select **Add Task**.
 
     The task is inserted in the playbook following the current task.
 

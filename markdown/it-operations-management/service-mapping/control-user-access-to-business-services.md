@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Application service completion, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -56,7 +56,7 @@ Service Mapping provides these preconfigured roles:
     Provides information necessary for successful mapping of a service instance. Once a service is mapped, this user reviews the results and either approves it or suggests changes. Assign the sm\_app\_owner role to users who own service instances and are familiar with the infrastructure and applications that make up the services.
 
 
-**Note:** Users with the itil role only can view all service instances.
+**Note:** Users with the sn\_cmdb\_editor or itil role only can view all service instances.
 
 Event Management provides these preconfigured roles:
 

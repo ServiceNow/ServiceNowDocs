@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/integration-with-service-bridge.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Integrating with Service Exchange
@@ -59,5 +59,5 @@ Connect the insurance carrier claims management ServiceNow FSO platform with the
 </td></tr></tbody>
 </table>For more information, see [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/tmt-service-bridge-both-landing-page.md).
 
-**Parent Topic:**[Integrating with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integrated-applications-overview.md)
+**Parent Topic:**[Integrate applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-integrate-other-applications.md)
 

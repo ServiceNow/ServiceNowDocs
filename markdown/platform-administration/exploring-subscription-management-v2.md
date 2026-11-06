@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/exploring-subscription-management-v2.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -43,7 +43,7 @@ In this workflow:
 4.  The usage admin performs the following tasks in Subscription Management:
     -   Allocates per-user subscriptions by adding groups to a product subscription, which grants entitlement to all group members. For more information, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md).
     -   Maps custom tables and custom applications to subscriptions with available entitlements to maximize subscription usage and stay in compliance. For more information, see [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/allocating-custom-tables-subscr-apps-v2.md).
-5.  If the organization requires security approvals before adding users to groups or financial approvals before subscriptions are allocated to users, the usage admin works with group managers to create subscription approval workflows that determine who gets a subscription when new users are added to groups.
+5.  If the organization requires security approvals before adding users to groups or financial approvals before subscriptions are assigned to users, the usage admin works with group managers to create subscription approval workflows that determine who gets a subscription when new users are added to groups.
 6.  The usage admin monitors subscription usage to stay in compliance and make informed decisions on future purchases, consistently monitoring the following data:
     -   Over-allocated subscriptions
     -   Unmapped custom applications and tables
@@ -73,4 +73,5 @@ To learn more about configuring and using Subscription Management, see:
 -   [Managing custom tables and applications in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/allocating-custom-tables-subscr-apps-v2.md)
 -   [Monitoring capacity subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/monitoring-capacity-subscriptions.md)
 -   [Subscription Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/subscription-management-reference-v2.md)
+-   [Types of subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/types-subscription-v2.md)
 

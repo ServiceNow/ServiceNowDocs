@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flows, subflows, and actions reference
@@ -81,6 +81,8 @@ Expand the capabilities of Workflow Studio flows with additional subscriptions a
 Configure how the system processes flows.
 -   **[Workflow Studio flow trigger types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-triggers.md)**  
 Each trigger type defines when a flow starts and the starting data available to it. There are triggers for record operations, dates, and application operations.​
+-   **[Flow troubleshooting scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-troubleshooting-scenarios.md)**  
+Learn how the Flow Troubleshooting Agent addresses common flow execution errors and troubleshooting scenarios you may encounter when designing and running flows.
 -   **[Workflow Studio input and output data variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/action-inputs-outputs.md)**  
 Actions and subflows use variables to store input and output data. The variable data type determines what kind of data it stores and its advanced configuration options.
 -   **[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/steps.md)**  
@@ -98,5 +100,5 @@ Transform data pill values without the need to write a script. Use transform fun
 -   **[Types of flows and when to use them](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/when-to-use-flow-types.md)**  
 A decision matrix and basic definitions help you determine what type of flows to create.
 
-**Parent Topic:**[Workflow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-reference.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

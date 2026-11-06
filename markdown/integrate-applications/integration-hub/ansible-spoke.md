@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: concept
 last_updated: "2026-08-03"
 reading_time_minutes: 5
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Ansible Spoke
@@ -18,7 +18,7 @@ Integrate your ServiceNow instance with Ansible Tower. Automate Ansible Tower ta
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## IntegrationHub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Ansible spoke v2.4.0 is the latest version.
+Ansible spoke v2.4.0 is the latest version. For version history of the spoke, see [Ansible spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ansible.html).
 
 **Note:** Ansible spoke supports MID Server from v2.4.0 onwards. If you are using a previous version of the spoke and want to use MID Server, upgrade to the latest version of Ansible spoke, delete the existing connection and credential record, and create a new connection and credential record using authentication template. For more information, see [Set up the Ansible spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-ansible.md).
 
@@ -40,7 +40,7 @@ This spoke was built for Ansible Tower v2, but may be compatible with later vers
 -   If you are using custom OAuth application:
     -   Ansible Tower administrator credentials to create a custom application
     -   Application information such as Client ID and Client Secret
--   If you are using basic authentication, credentials of the user with System Administrator role to log in to Ansible Tower. To configure the basic authentication, see [Configure a REST message with basic auth](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/t_ConfigureRESTMsgBasicAuth.md)
+-   If you are using basic authentication, credentials of the user with System Administrator role to log in to Ansible Tower.
 
 ## Spoke actions
 

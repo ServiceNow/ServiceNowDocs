@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Onboard agents on the Field Service Contractor Portal
@@ -51,6 +51,4 @@ An external agent of the contractor company is onboarded and the internal manage
 ## What to do next
 
 The internal manager receives a request to approve the onboarding of an agent. For more information, see [Approve or reject requests for onboarding agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Approve-reject-request-onboard-agent.md).
-
-**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

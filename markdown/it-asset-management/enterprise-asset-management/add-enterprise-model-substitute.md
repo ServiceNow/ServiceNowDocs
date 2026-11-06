@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add a substitute model for an enterprise model
@@ -40,7 +40,7 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 
         The dialog box closes and you return to the **Substitutes** tab.
 
-    4.  On the **Substitutes** tab, select the Refresh list icon \(\[Omitted image "refresh-list-icon.png"\] Alt text: Refresh list icon.\) to populate the list of newly added substitute models.
+    4.  On the **Substitutes** tab, select the Refresh list icon \[Omitted image "refresh-list-icon.png"\] Alt text: to populate the list of newly added substitute models.
 
 
 **Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)

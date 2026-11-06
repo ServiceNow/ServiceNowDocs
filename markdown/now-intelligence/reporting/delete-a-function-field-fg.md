@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Report on function fields, Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Report on function fields, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Delete a function field
@@ -18,11 +18,11 @@ A user with the admin role can delete a function field from its table. Deleting 
 
 ## Before you begin
 
-Role required: admin
+Role required: admin, function\_field\_admin
 
 Function fields are stored as columns on the table that you create them on. To delete a function field, you delete the associated column.
 
-**Important:** &gt;No check is made on a where a function field is used when you delete. In addition, deleting a function field is not reversible.
+**Important:** No check is made on a where a function field is used when you delete. In addition, deleting a function field is not reversible.
 
 ## Procedure
 

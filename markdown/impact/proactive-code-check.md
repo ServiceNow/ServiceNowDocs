@@ -1,24 +1,26 @@
 ---
-title: Impact Proactive Code Check
-description: Developers scan update sets for leading practice violations in non-production instances before promoting to production and Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
+title: Proactive Code Check for the Impact Store Application
+description: Developers scan update sets for leading practice violations in non-production instances before promoting to production. Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/proactive-code-check.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-02-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Impact Platform Health, Using Impact Store Application, Impact Store Application, Impact]
+breadcrumb: [General reference, Impact reference, Impact]
 ---
 
-# Impact Proactive Code Check
+# Proactive Code Check for the Impact Store Application
 
-Developers scan update sets for leading practice violations in non-production instances before promoting to production and Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
+Developers scan update sets for leading practice violations in non-production instances before promoting to production. Platform Owners gain insight into technical debt and stability of both non-production and production instances, resulting in improved code quality, reduced errors, and compliance verification.
 
 ## Proactive Code Check key features
 
-**Important:** Proactive Code Check single instance scanning is supported with the ServiceNow Washington DC release and later. Synchronizing between instances and viewing results on the dashboard are features supported with the ServiceNow Yokohama release and later.
+**Important:** Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation with the Brazil release. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-Proactive Code Check can be activated to perform a code review in your instances.
+Proactive Code Check can be used to perform a code review in your instances.
+
+**Note:** Proactive Code Check single instance scanning is supported with the ServiceNow Washington DC release and later. Synchronizing between instances and viewing results on the dashboard are features supported with the ServiceNow Yokohama release and later.
 
 -   **Update set scanning**
     -   Scans code and configuration changes against predefined ServiceNow leading practices and compliance standards for the specific update set.
@@ -52,14 +54,14 @@ Proactive Code Check performs leading practice checks related to the categories 
 |Security|Measures implementation of protocols across a ServiceNow instance to prevent unauthorized access, data breaches, cyber attacks, and potential vulnerabilities.|
 |Upgradeability|Assesses the ease of enhancing a ServiceNow instance or application with new features, improvements, security patches, or compatibility adjustments.|
 
-**Note:** For the complete list checks performed by a Proactive Code Check scan, see [Proactive Code Check scan suite matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check-scan-suite.md).
+**Note:** For the complete list checks performed by a Proactive Code Check scan, see [Proactive Code Check scan suite matrix for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check-scan-suite.md).
 
--   **[Use Proactive Code Check scanning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-proactive-code-check.md)**  
+-   **[Use Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/install-proactive-code-check.md)**  
 Developers can identify issues and prevent defects before they are deployed to production.
--   **[Proactive Code Check analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/review-address-proactive-code-check-findings.md)**  
+-   **[Proactive Code Check analytics for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/review-address-proactive-code-check-findings.md)**  
 Platform Owners use Proactive Code Check to track compliance against coding best practices and organizational standards. Owners can review detailed findings and audit the status of issues that were uncovered during the scan. Historical data is available up to six months.
--   **[Proactive Code Check scan suite matrix](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check-scan-suite.md)**  
+-   **[Proactive Code Check scan suite matrix for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check-scan-suite.md)**  
 Refer to the Proactive Code Check \(PCC\) scan suite matrix for details on the checks performed during a PCC scan.
 
-**Parent Topic:**[Impact Platform Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-healthscan-store-app.md)
+**Parent Topic:**[General reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/general-reference.md)
 

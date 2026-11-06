@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-configure-alp-search-2.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable global search in your screen launcher, Global search for mobile, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
+breadcrumb: [Enable global search, Global search, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure global search options for your screen launcher

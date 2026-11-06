@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -64,5 +64,11 @@ A dashboard showing the results of scans is created.
 
 [Monitoring a scan]()
 
+[Parallel scans]()
+
 [Reviewing of scans]()
+
+[Queue your scan]()
+
+[Cancel a scan]()
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sightings-search-configurations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Operations Integration- Sightings Search capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -33,13 +33,11 @@ With saved search configurations, you can:
 -   Design-efficient and effective searches.
 -   Use parametrized inputs in the Splunk saved search.
 
-The base system includes the sample configurations as shown in this image:
-
-\[Omitted image "cj-sir-si-config.png"\] Alt text: Search configuration
+The base system includes the sample configurations.
 
 The saved search and Inplace configuration queries are example queries and can be substituted with appropriate parameters for your environment. Create additional saved search configurations as required. When you define a saved search configuration, the name and the parameters in the search query must match the saved configuration defined on your Splunk instance. If the name and parameters are not the same, you may not see accurate results when you perform a sightings search.
 
-**Note:** On your Splunk instance, navigate to the Searches, Reports, and Alerts page and locate your saved search query. Click the **Permissions** link to navigate to the Permissions page. Select the **All Apps** radio button and enable the **Read Permission** option for **Everyone**. This will change the Sharing column value from Private to App for your saved search query. If this is not set, saved search query may not return any results.
+**Note:** On your Splunk instance, navigate to the Searches, Reports, and Alerts page and locate your saved search query. Select the **Permissions** link to navigate to the Permissions page. Select the **All Apps** radio button and enable the **Read Permission** option for **Everyone**. This will change the Sharing column value from Private to App for your saved search query. If this is not set, saved search query may not return any results.
 
 To verify if the saved search configuration matches the configuration defined on your Splunk instance:
 
@@ -70,7 +68,7 @@ In your Splunk instance, define the saved search with the same name, Default Sav
     |Maximum observables per search|Maximum number of observables to be returned from the search.|
     |Search|The default search string is`$(observable)`, but you can define your own search query by specifying parameters that are supported by the Splunk log store.|
 
-2.  Click **Submit**.
+2.  Select **Submit**.
 
 
 ## Result
@@ -79,7 +77,7 @@ You have created a sightings search configuration record.
 
 ## What to do next
 
-After defining the search query, click **Generate Sightings Search Test Query**, and specify a list of observable values to generate a test query based on this saved search configuration.
+After defining the search query, select **Generate Sightings Search Test Query**, and specify a list of observable values to generate a test query based on this saved search configuration.
 
 -   **[Run a Sightings Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/run-sightings-search.md)**  
 Determine the prevalence of a threat over time or test remediation or eradication efforts. You can select individual or multiple observables and the date range for your search from a security incident. Results are included in the **Security Incident Observables** related list.

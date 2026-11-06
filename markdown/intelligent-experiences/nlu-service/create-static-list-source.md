@@ -1,5 +1,5 @@
 ---
-title: Create a list vocabulary source
+title: \(Legacy\) Create a list vocabulary source
 description: Create a list of words or phrases to act as a vocabulary source. The values in the list source are replaced by the synonym if they are detected in a user utterance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-static-list-source.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [NLU vocabulary, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [\(Legacy\) NLU vocabulary, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a list vocabulary source
+# \(Legacy\) Create a list vocabulary source
 
 Create a list of words or phrases to act as a vocabulary source. The values in the list source are replaced by the synonym if they are detected in a user utterance.
 
@@ -83,9 +83,7 @@ In this example procedure, you're creating a list vocabulary source for your com
 
 Add the rest of the break room names and alternatives.
 
-You must retrain the model after updating a list vocabulary source. For more information, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-train-nlu-model.md).
+You must retrain the model after updating a list vocabulary source. For more information, see [\(Legacy\) Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
 Then you can use the list vocabulary source when annotating a training utterance. Use the @ symbol with the handle to refer to this vocabulary source.
-
-**Parent Topic:**[NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)
 

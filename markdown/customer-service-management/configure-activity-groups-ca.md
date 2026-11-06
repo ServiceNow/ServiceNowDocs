@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-activity-groups-ca.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure activity groups for the Customer History view
@@ -18,13 +18,11 @@ Create an activity group and then add activity types to the activity group.
 
 Role required: admin
 
-**Note:** Customer Activity has been renamed to Customer History, with no changes to its functionality. References to the previous name will be updated in a future release.
-
 ## About this task
 
 An activity group is a logical grouping of activity types. An activity group is displayed in the activity feed based on the facet selected.
 
-Activity groups are displayed in the Customer History view in Agent Workspace.
+Activity groups are displayed in the Customer History view in CRM Workspace.
 
 \[Omitted image "static-facet.png"\] Alt text: Activity groups view in Agent Workspace displaying Chat and Phone as the activity group types.
 
@@ -32,7 +30,7 @@ Learn more about configuring activity groups from the following video tutorial.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer Activity** &gt; **Guided Setup**.
+1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer History** &gt; **Guided Setup**.
 
 2.  Select **Get Started** under Activity Feed.
 

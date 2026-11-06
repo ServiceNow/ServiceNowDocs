@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Virtual Agent for PPM
@@ -55,4 +55,15 @@ Use the Virtual Agent integration app to configure the messaging apps for your i
 For more information, see [Virtual Agent integration with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/va-integration-messaging-apps.md).
 
 For more information on integrating with Slack or Microsoft Teams, see [Setting up Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configuring-va-notifications.md).
+
+**Related topics**  
+
+
+[Install Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/activate-ppm-va.md)
+
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/setup-ppm-va.md)
+
+[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-conversations.md)
+
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-topic-blocks.md)
 

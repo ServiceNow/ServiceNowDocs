@@ -1,20 +1,20 @@
 ---
-title: Cloud Provisioning and Governance: Terraform Connector Windows Credentials form reference
-description: Cloud Provisioning and Governance: Terraform Connector uses the Windows credential to connect with the Windows server on which Terraform Open Source is running.
+title: Cloud Services Catalog Terraform Connector Windows Credentials form reference
+description: Cloud Services Catalog Terraform Connector uses the Windows credential to connect with the Windows server on which Terraform Open Source is running.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/ccg-terraform-connector-windows-credentials-form.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cloud Provisioning and Governance: Terraform Connector reference, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Reference, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
-# Cloud Provisioning and Governance: Terraform Connector Windows Credentials form reference
+# Cloud Services Catalog Terraform Connector Windows Credentials form reference
 
-Cloud Provisioning and Governance: Terraform Connector uses the Windows credential to connect with the Windows server on which Terraform Open Source is running.
+Cloud Services Catalog Terraform Connector uses the Windows credential to connect with the Windows server on which Terraform Open Source is running.
 
 |Field|Description|
 |-----|-----------|
@@ -22,5 +22,5 @@ Cloud Provisioning and Governance: Terraform Connector uses the Windows credenti
 |Username|Remote Desktop Protocol \(RDP\) username for the Windows server on which Terraform is running.|
 |Password|RDP password for the Windows server on which Terraform is running.|
 
-**Parent Topic:**[Cloud Provisioning and Governance: Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
+**Parent Topic:**[Cloud Services Catalog Terraform Connector reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-reference.md)
 

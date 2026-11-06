@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics-roles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, roles, dashboard functionality, Generative AI, Gen AI, Now Assist Analytics, admin, roles, groups, special considerations, sn\_na\_analytics\_viewer, Now Assist Analytics, admin, roles, groups, special considerations, sn\_na\_analytics\_viewer]
-breadcrumb: [AI Analytics reference, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [AI Analytics reference, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # AI Analytics roles

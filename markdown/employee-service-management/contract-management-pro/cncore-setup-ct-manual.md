@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create contract template by manually adding content controls
@@ -27,7 +27,7 @@ Classify and map imported clauses to use the content from the clauses in a contr
 -   **[Update contract template mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-template-mapping.md)**  
 Update template mappings to pre-fill information that's placed in the contract document.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 
@@ -35,8 +35,6 @@ Update template mappings to pre-fill information that's placed in the contract d
 [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts]()
 
 [Publish a contract template]()
-
-[Enable keyword search for contract templates]()
 
 [Configure dynamic clauses for contract templates]()
 

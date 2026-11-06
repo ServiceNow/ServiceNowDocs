@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Complaint Management, Complaint Management, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a complaint case
@@ -32,19 +32,17 @@ Use the case playbook that provides the activities and tasks to research and res
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Complaint service cases**, open the case list.
 
     -   For your assigned cases, click **Assigned to me**.
     -   For all complaint cases, click **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
-
-    The case playbook guides agents through the steps that are needed to resolve customer complaints.
 
 6.  Use the playbook lanes and activities to resolve the complaint.
 

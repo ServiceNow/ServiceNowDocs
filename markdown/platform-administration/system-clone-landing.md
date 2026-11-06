@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/system-clone-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -47,6 +47,7 @@ Watch this short video to see an overview of the Clone Admin Console.
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
+-   Review frequently asked questions about Clone Admin Console in [KB1425858: Clone Admin Console: Quick Start Guide &amp; Instructions](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1425858)
 -   [Ask questions and explore other resources for Instance Clone in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)

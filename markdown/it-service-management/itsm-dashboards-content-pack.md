@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-dashboards-content-pack.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Platform Analytics ITSM Dashboards, IT Service Management]
 ---
 
@@ -20,19 +20,9 @@ Platform Analytics data visualizations use Performance Analytics [indicator](htt
 
 To enable the solution plugin for ITSM dashboards, an admin can navigate to **System Definitions** &gt; **Plugins** and activate the Performance Analytics - Content Pack - ITSM Dashboards plugin.
 
-## ITSM Dashboard solutions
-
-The ITSM Dashboards plugin \(com.snc.pa.itsm\_dashboards\) activates the following solutions, along with a set of additional dashboards:
-
--   [Change Management \(com.snc.pa.change\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-content-pack.md)
--   [Problem Management \(com.snc.pa.problem\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/problem-content-pack.md)
--   [Incident SLA \(com.snc.pa.sla\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-sla-content-pack.md)
--   [Major Incident Management \(com.snc.pa.incident.mim\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/major-incident-overview.md)
--   Fixed Costs \(com.snc.fixed\_costs\)
-
 ## Inactive dashboards
 
-Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see [Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-nowintel-solutions.md)
+Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
 ## Add Self-Service Analytic widgets to the ITSM dashboards
 
@@ -49,8 +39,6 @@ View the open incidents, problems, and requests that belong to you and your assi
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

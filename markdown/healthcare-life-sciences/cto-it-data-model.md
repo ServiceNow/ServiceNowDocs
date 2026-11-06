@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-it-data-model.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Care Team Operations for Healthcare IT reference, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Reference, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Care Team Operations for Healthcare IT data model

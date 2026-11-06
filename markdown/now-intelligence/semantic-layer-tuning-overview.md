@@ -8,14 +8,14 @@ topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [semantic layer, tuning, AI Data Explorer, query generation]
-breadcrumb: [Configure, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Tuning the semantic layer
 
 The semantic layer maps natural language questions to ServiceNow AI Platform® tables and fields. Tune the semantic layer to improve AI Data Explorer accuracy for your organization's terminology and data structure.
 
-The semantic layer identifies the best matching entities \(tables\), dimensions \(fields\), and segments \(filters\) when users ask questions in AI AI Data Explorer. Tuning improves these matches so users consistently get the right table, field, and filter.
+The [semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md) identifies the best matching [entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md) \(tables\), [dimensions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md) \(fields\), and [segments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md) \(filters\) when users ask questions in AI Data Explorer. Tuning improves these matches so users consistently get the right table, field, and filter.
 
 ## How the semantic layer works
 
@@ -36,11 +36,11 @@ When a user asks a question, the system identifies the best matching components 
 
 ## When to tune the semantic layer
 
-Before you tune, verify that the issue is repeatable. The LLM occasionally makes incorrect decisions. Try the same question or a similar one multiple times first. Only tune if the problem is consistent.
+Before you tune, verify that the issue is repeatable. The [LLM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md) occasionally makes incorrect decisions. Try the same question or a similar one multiple times first. Only tune if the problem is consistent.
 
 Tune the semantic layer when:
 
--   The system selects the wrong table or cannot find one
+-   The system selects the wrong table or cannot find one. For example, the system could be processing queries on reference fields, and the referenced tables are missing from the semantic layer.
 -   A field is missing or the wrong field is selected
 -   Your organization uses different terminology than the auto-generated labels
 -   The right table or field is selected, but the query is constructed incorrectly
@@ -48,7 +48,7 @@ Tune the semantic layer when:
 
 ## Validation and iteration process
 
-1.  Capture the utterance and expected result.
+1.  Capture the [utterance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics-glossary.md) and expected result.
 2.  Classify the failure as entity, dimension, segment, or ACL.
 3.  If results are wrong for only some users, verify read ACL access to the intended table and fields before retuning.
 4.  Apply one targeted tuning change.
@@ -56,10 +56,10 @@ Tune the semantic layer when:
 6.  Check **Query Generation** &gt; **Logs** and confirm the improved match path.
 7.  Repeat only if still incorrect.
 
--   **[Semantic descriptions and labels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/semantic-layer-descriptions-labels.md)**  
-Semantic descriptions and labels are the primary fields that AI search uses to select the right table or field. Edit these fields when the system selects incorrect tables or fields.
--   **[Semantic usage instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/semantic-usage-instructions.md)**  
-Semantic usage instructions teach the system how to query data by defining matching strategies, expansion logic, and data conventions. Use these instructions when the right table or field is selected but the query is constructed incorrectly.
+-   **[Query Generation Health page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-health-page.md)**  
+The health page shows the state of the Now LLM and AI Search, along with the states of Query Generation system properties, enabled products, and dependency plugins.
+-   **[Customizing semantic metadata](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/customize-semantic-metadata.md)**  
+Semantic metadata — descriptions, labels, and usage instructions — control how Query Generation interprets natural language questions. Customize these metadata to improve accuracy for your organization's terminology and data.
 -   **[Database views for cross-table data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/database-views-cross-table-data.md)**  
 Database views combine fields from multiple tables into a single queryable entity. Add views to the semantic layer to answer cross-table questions in one query instead of requiring separate questions.
 -   **[Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)**  

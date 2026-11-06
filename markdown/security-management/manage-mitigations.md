@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/manage-mitigations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -28,11 +28,9 @@ Role required:
 
     The mitigations are now listed.
 
-2.  Click a mitigation to view all the associated information.
+2.  Select a mitigation to view all the associated information.
 
-    In the following illustration, you can view the details for Access Token Manipulation mitigation, its ID, source, and other related information.\[Omitted image "mitre-mitigation-overview.gif"\] Alt text: View the details for the mitigation and other related information.
-
-3.  To view how these objects are related, click **Show Relationships**.
+3.  To view how these objects are related, select **Show Relationships**.
 
 
 ## What to do next

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Filtering and Aggregation]
 breadcrumb: [CrowdStrike Next-Gen SIEM integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
@@ -72,7 +72,7 @@ All the aggregated incidents on a security incident are displayed on the CrowdSt
 
 ### Procedure
 
-1.  To define additional incident field criteria that allows an incoming CrowdStrike Next-Gen SIEM detection to be appended to an open security incident instead of creating a new incident, select the **Aggregation Conditions** option as shown in the following figure.
+1.  To define additional incident field criteria that allows an incoming CrowdStrike Next-Gen SIEM detection to be appended to an open security incident instead of creating a new incident, select the **Aggregation Conditions**.
 
 2.  In the **Incident fields with matching values** field, enter the field values that you want to match on existing security incidents in your ServiceNow AI Platform instance.
 

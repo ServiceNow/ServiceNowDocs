@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Exchange data model, Service Exchange reference, Service Exchange]
+breadcrumb: [Data model, Reference, Service Exchange]
 ---
 
 # Service Exchange for Providers data model
@@ -21,10 +21,6 @@ The Service Exchange for Providers application data model uses a combination of 
 -   Service Exchange of Providers application tables.
 -   Customer Service Management application tables.
 -   ServiceNow AI Platform standard tables.
-
-The following diagram provides an overview of the data model for Service Exchange for Providers application.
-
-\[Omitted image "service-bridge-v2-data-model-provider.jpg"\] Alt text: Diagram shows the Service Exchange for Providers data model.
 
 The following table lists the Access Control Rights \(ACR\) for specific Service Exchange for Provider tables.
 
@@ -308,9 +304,7 @@ admin
 
 </td></tr><tr><td>
 
-Remote Choice
-
- Definition
+Remote Choice Definition
 
  \[sn\_sb\_pro\_remote\_choice\_definition\]
 
@@ -617,5 +611,4 @@ admin
  sn\_sb.admin
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Exchange data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-data-model.md)
-
+</table>

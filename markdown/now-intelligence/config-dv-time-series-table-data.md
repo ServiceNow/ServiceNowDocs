@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-time-series-table-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-03-06"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -32,7 +32,7 @@ Data source
 
 </td><td>
 
-You have selected a Table data source in [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
+You have selected a Table data source in [Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -142,10 +142,12 @@ Field for \[table\]
 
 </td><td>
 
-The field to group by. For example, in an incident report grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.**Note:**
+The field to group by. You can group by any field in the table including list fields.For example, in a visualization of incident data grouped by **Assignment group**, all incidents that belong to Software, Service Desk, and Network are placed in separate groups. If the table contains variables or question fields, you have the option to group by one of them at the end of the list of fields.
+
+**Note:**
 
 -   It is not possible to group or stack data by the **Tags** field, or by certain field types, such as MEDIUMTEXT.
--   If you want to group by a field with continuous values, such as date or integer, the values are automatically grouped according to any report ranges that are defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportRanges.md).
+-   Fields with continuous values, such as date or integer, are automatically grouped according to any report ranges defined for the data. For more information, see [Report ranges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_ReportRanges.md).
 
 </td></tr><tr><td>
 
@@ -153,7 +155,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
@@ -174,13 +178,13 @@ Sort by
 
 Sorting options of the main and alternative groups set in **Group by**. Options include:-   Name: Sorts the values alphabetically by field or element name.
 -   Value: Sorts the values numerically or by count.
--   Element order: If you are grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown, this option sorts the groups according to the value of the Sequence field.
+-   Element order: Sorts the groups according to the value of the Sequence field. Available when grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown.
 -   Group bucket: Sorts the elements by bucket group, when applicable. Only available for indicator data sources and when the breakdown used for the **Group by** is based on a bucket group.
 -   Report range: Sorts the table field values by range. Only available for table data sources and when the table field used for the **Group by** has a report range associated with it.
 
 **Note:**
 
--   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by cannot apply to an alternative group-by \(such as sorting by Element order when the alternative group-by is not on the Choice table\), sorting for that group-by defaults to Value.
+-   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by can't apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table.
 -   If no main **Group by** has been set, but alternative group-bys are defined, you can sort only by Name or Value.
 -   Sorting is not available for Pareto bar visualizations. Pareto charts are always sorted by value in descending order.
 
@@ -204,11 +208,19 @@ Trend by
 
 </td></tr><tr><td>
 
+Calendar type
+
+</td><td>
+
+Select the calendar type the aggregation period is based on. Choices include Standard, Gregorian, and various business calendars. The calendar type determines the available aggregation periods.
+
+</td></tr><tr><td>
+
 Aggregation period
 
 </td><td>
 
-The period by which to aggregate values to calculate the trend. Options come from the standard calendar and any business calendars that are defined on the instance, such as the Gregorian.
+The period by which values are aggregated to calculate the trend. Options come from the standard calendar and any business calendars that are defined on the instance, such as the Gregorian. Select **Auto** to have the application infer the aggregation level based on the selected date range. Automatic aggregation respects business calendars and shift schedules.
 
 </td></tr><tr><td>
 
@@ -267,7 +279,7 @@ Triggered when you navigate away from the dashboard that contains the data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 
@@ -295,6 +307,14 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
 Content
 
 </td><td>
@@ -310,5 +330,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Checklist for Continuous Authorization and Monitoring setup
@@ -18,27 +18,17 @@ The checklist includes the tasks that you must complete to prepare the base syst
 
 ## Before you begin
 
-Role required: admin, sn\_irm\_cont\_auth.admin
+Role required: sn\_irm\_cont\_auth.admin
 
 ## Procedure
 
-1.  Create and print a PDF of the checklist topic and check off tasks as you complete them.
-
-    To generate a PDF, select the **Save As PDF** icon \(\[Omitted image "save-as-pdf.png"\] Alt text: Save as PDF icon\) at the top of this topic and select **Selected topic**.
+1.  CAM Setup checklist.
 
 <table id="table_lqq_1qt_rhb"><thead><tr><th>
 
-Item
-
-</th><th>
-
-Description
+Set up checklist for CAM
 
 </th></tr></thead><tbody><tr><td>
-
-\[Omitted image "checkbox.png"\] Alt text: checkbox
-
-</td><td>
 
 As a user with the System Administrator role, verify that you have the GRC core applications installed on a ServiceNow AI Platform instance.
 
@@ -55,15 +45,11 @@ As a user with the System Administrator role, verify that you have the GRC core 
 
 </td></tr><tr><td>
 
-\[Omitted image "checkbox.png"\] Alt text: checkbox
-
-</td><td>
-
 As a user with the CAM Administrator role, assigned users with the required roles as described in [Assign Continuous Authorization and Monitoring roles to users and groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/assign-cam-roles.md).
 
 </td></tr></tbody>
 </table>
 ## Result
 
-Congratulations! You have successfully set up the CAM base system. Many of the elements included in the base system can be customized for your particular business needs. Refer to the links in the checklist for more information.
+You have successfully set up the CAM base system. The elements included in the base system can be customized for your business needs. For more information, refer to the links in the checklist.
 

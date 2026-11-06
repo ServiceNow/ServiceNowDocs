@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Exploring Cloud Configuration Governance, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up Cloud Configuration Governance for AWS
@@ -152,6 +152,8 @@ Datacenter URL
 
 URL of the datacenter.Leave this field empty.
 
+**Note:** For GovCloud, use the URL [https://ec2.us-gov-west-1.amazonaws.com](https://ec2.us-gov-west-1.amazonaws.com).
+
 </td></tr><tr><td>
 
 Datacenter type
@@ -197,15 +199,15 @@ Name of the trusted account.Configure this field only for accounts that don't us
 
 6.  Do any one of the following actions.
 
-<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d241465e631">
+<table id="choicetable_prs_rgf_xvb"><thead><tr><th align="left" id="d175637e643">
 
 Option
 
-</th><th align="left" id="d241465e634">
+</th><th align="left" id="d175637e646">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d241465e640">
+</th></tr></thead><tbody><tr><td id="d175637e652">
 
 **Create an assume role configuration for the management account**
 
@@ -223,7 +225,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 
 For more information, see [Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md).
 
-</td></tr><tr><td id="d241465e697">
+</td></tr><tr><td id="d175637e709">
 
 **Configure the trusting account for Cloud Configuration Governance**
 
@@ -251,7 +253,7 @@ For more information, see [Configure the trusting account for Cloud Configuratio
 -   **[Configure the trusting account for Cloud Configuration Governance and Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/configure-trusting-account-for-ccg.md)**  
 Configure the trusting account whose resources need to be accessed, to rely on the trusted account using the Identity and Access Management \(IAM\) role.
 -   **[Create an assume role configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/create-assume-role-config.md)**  
-Create a service account assume role configuration to facilitate cross-account access that is from a management account to a member account or from a trusted account to a trusting account.
+Create a service account assume role configuration to facilitate cross-account access. This supports access from a management account to a member account, or from a trusted account to a trusting account. All related accounts are automatically loaded, avoiding the need to add them individually.
 
 **Parent Topic:**[Exploring Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/exploring-cloud-configuration-governance.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Talent Development, Employee Service Management]
+breadcrumb: [Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View skill feedback submitted
@@ -87,6 +87,4 @@ Contents of the feedback and the rating for selected skill. **Note:** If there a
 </td></tr></tbody>
 </table>4.  Select **Close** to close the feedback request form.
 
-
-**Parent Topic:**[Working with Skill feedback in Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/skill-feedback-feature.md)
 

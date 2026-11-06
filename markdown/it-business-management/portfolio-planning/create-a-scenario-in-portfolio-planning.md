@@ -1,5 +1,5 @@
 ---
-title: Create a scenario in Portfolio Planning
+title: Create a scenario
 description: Create a scenario from a live plan or another scenario in a simulated environment to compare the scenario with the live plan and other scenarios.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Optimize planning with scenario planning, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create a scenario in Portfolio Planning
+# Create a scenario
 
 Create a scenario from a live plan or another scenario in a simulated environment to compare the scenario with the live plan and other scenarios.
 
@@ -92,6 +92,6 @@ Creating a scenario enables you to visualize and anticipate potential outcomes. 
 ## What to do next
 
 -   Create more scenarios, if necessary.
--   [Compare scenarios in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
--   [Approve a scenario in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).
+-   [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md). You can directly compare scenarios from simulation mode by selecting **Compare scenarios** from the Scenario actions list.
+-   [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Assign the workplace user role to employees
@@ -45,6 +45,12 @@ Role required: admin or sn\_wsd\_core.admin
 
 The workplace user roles are assigned. If a record is created or updated on this table, a role assignment process is triggered in the background.
 
+**Note:**
+
+-   When a user no longer satisfies the Workplace Client Role Rule criteria, the role assignment framework deactivates the existing sys\_user\_has\_role record by setting its state to Pending Approval.
+-   The Pending Approval state is equivalent to the inactive state — the user does not hold the role. Role evaluation grants a role only when the assignment state is active.
+-   When the user satisfies the criteria again, the same record is moved back to active. No new record is created.
+
 **Parent Topic:**[Manage workplace safety activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/manage-wsd-activites.md)
 
 **Related topics**  
@@ -59,6 +65,8 @@ The workplace user roles are assigned. If a record is created or updated on this
 [Block a workplace location]()
 
 [Configure Workplace entity and entity types]()
+
+[Managing Neighborhoods]()
 
 [Enable favorites option for Workplace Service Portal]()
 
@@ -84,5 +92,5 @@ The workplace user roles are assigned. If a record is created or updated on this
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Microsoft OneDrive integration with Document Services, Integrate with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Integrate the Document Services Framework with Microsoft OneDrive.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -363,19 +363,92 @@ Updates collaboration on a Microsoft OneDrive document.
 
 The Microsoft OneDrive Spoke for Document Services Framework provides sample actions to automate Document Services tasks when events occur in ServiceNow. The following table lists the available sample actions.
 
-|Action|Description|
-|------|-----------|
-|Delete Collaborator Record|Deletes the specified collaborator record from the Multi Provider Collaborators \[mp\_collaborators\] table.|
-|Delete document|Deletes the document record from the Multi Provider Document \[mp\_document\] table.|
-|Delete document and versions|Deletes the specified document and all of its versions from the Multi Provider Document Version \[mp\_document\_version\] table.|
-|Delete document version|Deletes specified versions of a document from the Multi Provider Document Version \[mp\_document\_version\] table.|
-|Delete versions of document|Deletes all versions of a specified document.|
-|Look up Target Record Existence|Checks for the existence of a target record in the specified target table.|
-|Look Up Files and Folders|Retrieves the list of files and folders under the given Folder ID for the selected Source and Source ID. If no source is selected, then it lists the contents of the root folder by default.|
-|Look up Sites Based On Query String Stream|Lists all the sites satisfying the specified query string.|
-|Update Delta Token|Updates the system property **deltaToken** with the specified delta token.|
+<table id="table_ddl_cq2_ytb"><thead><tr><th>
 
-## Connection and credential alias requirements
+Action
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Delete Collaborator Record
+
+</td><td>
+
+Deletes the specified collaborator record from the Multi Provider Collaborators \[mp\_collaborators\] table.
+
+</td></tr><tr><td>
+
+Delete document
+
+</td><td>
+
+Deletes the document record from the Multi Provider Document \[mp\_document\] table.
+
+</td></tr><tr><td>
+
+Delete document and versions
+
+</td><td>
+
+Deletes the specified document and all of its versions from the Multi Provider Document Version \[mp\_document\_version\] table.
+
+</td></tr><tr><td>
+
+Delete document version
+
+</td><td>
+
+Deletes specified versions of a document from the Multi Provider Document Version \[mp\_document\_version\] table.
+
+</td></tr><tr><td>
+
+Delete versions of document
+
+</td><td>
+
+Deletes all versions of a specified document.
+
+</td></tr><tr><td>
+
+Look up Target Record Existence
+
+</td><td>
+
+Checks for the existence of a target record in the specified target table.
+
+</td></tr><tr><td>
+
+Look Up Incremental Files and Folders
+
+</td><td>
+
+-   Retrieves the list of files and folders under the given Folder ID for the selected Source and Source ID. If no source is selected, then it lists the contents of the root folder by default.
+-   Retrieves the list of files and folders based on the given search query. Hierarchical search is also supported, allowing navigation through folder structures.
+
+**Note:** Search results may vary due to Microsoft OneDrive 's indexing behavior.
+
+
+</td></tr><tr><td>
+
+Look up Sites Based On Query String Stream
+
+</td><td>
+
+Lists all the sites satisfying the specified query string.
+
+</td></tr><tr><td>
+
+Update Delta Token
+
+</td><td>
+
+Updates the system property **deltaToken** with the specified delta token.
+
+</td></tr></tbody>
+</table>## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection. For more information, see [Connections and Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r-credentials.md).
 

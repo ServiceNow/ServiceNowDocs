@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Simple Contracts
@@ -18,9 +18,11 @@ The ServiceNow® Legal Simple Contracts application enables employees to submit 
 
 For example, employees can submit legal requests for the creation of NDA documents with third parties or the review of sales contracts or third-party contracts. The legal department can manage and process these requests from a centralized location.
 
-**Important:** Legal Simple Contracts is being prepared for deprecation. It will be hidden and no longer available for activation for new customers but will continue to work and be supported for existing customers. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
+**Important:** Legal Simple Contracts is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
-Contact your ServiceNow account team about [Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md) application, a paid offering, that is tightly integrated with Legal Service Delivery and includes many capabilities found in a traditional CLM \(Contract Lifecycle Management\) system.
+You can migrate your data from Legal Simple Contracts to Contract Management Pro to take advantage of the enhanced features available in Contract Management Pro.
+
+The migration script is designed only for migrating data from Legal Simple Contracts to the Legal Contract Repository, which applies specifically to Contract Management Pro for Legal Service Delivery. Contact your ServiceNow account team to learn about entitlement for the paid Contract Management Pro application.
 
 ## Migration considerations
 
@@ -52,7 +54,7 @@ For more information, see [Migrating to Contract Management Pro for Legal Servic
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Analytics and Reporting icon. Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
+[\[Omitted image "bus-actionable-analytics.svg"\] Alt text:Analytics and Reporting Coordinate work and improve processes with preconfigured dashboards.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legalsd-content-pack.md)
 
 </td><td>
 
@@ -61,7 +63,7 @@ For more information, see [Migrating to Contract Management Pro for Legal Servic
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Troubleshoot and get help
 

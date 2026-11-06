@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Restarting failed build or release pipeline jobs and stages, Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -41,7 +41,7 @@ From the Azure DevOps GUI, if you rerun a stage in a build pipeline the subseque
 
 For release pipelines, the stages are run in the specified sequence only during the first run. For subsequent rerun attempts manually run each stage. In release pipelines even if stages are running in parallel in Azure DevOps, from the second attempt onwards the events are processed in the specified sequence.
 
--   When a new change request is created for a reattempt stage job, and the stage that you are reattempting includes a test and a software quality scan only the latest Test Summary and Software Quality scan results display on the change request related list.
+-   When a new change request is created for a reattempt stage job, and the stage that you're reattempting includes a test and a software quality scan, only the latest Test Summary and Software Quality scan results display on the change request related list.
 -   When a change request is reused for a rerun stage job, the Test Summary and Software Quality scan results for each attempt displays in the change request related list.
 
 **Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)

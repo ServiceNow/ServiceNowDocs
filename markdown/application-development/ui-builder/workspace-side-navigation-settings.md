@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Change the navigation and menu settings in your UI Builder workspace experience
@@ -39,9 +39,9 @@ You must be in the correct application scope to edit the experience settings. If
 
 2.  Open your workspace experience in the UI Builder.
 
-3.  Select **View experience settings** in the upper-right.
+3.  Select **Experience settings** in the upper-right.
 
-    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the View experience settings link on the experience view page.
+    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 4.  Scroll down to **Side navigation**.
 

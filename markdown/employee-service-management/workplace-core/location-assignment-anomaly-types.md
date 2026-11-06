@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
@@ -86,4 +86,6 @@ The assigned **Workplace location** of the user is not part of the specified **N
 [Workplace Profile Location Assignment form]()
 
 [Reserve a space form]()
+
+[Card Configuration examples]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-guided-onboarding-case-from-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Playbooks for Portals, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Playbooks for Portals, Customer communication, Use, Customer Service Management]
 ---
 
 # Creating a guided onboarding case from CRM Workspace

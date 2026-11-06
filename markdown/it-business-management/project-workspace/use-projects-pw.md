@@ -7,8 +7,8 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
+last_updated: "2026-09-29"
+reading_time_minutes: 14
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -20,7 +20,7 @@ Use the features of Project Workspace to plan and manage your project.
 
 \[Omitted image "project-workspace-listview.png"\] Alt text: project-workspace-list-view
 
-The homepage contains the following UI components to help you navigate through the workspace.
+Project managers can now edit the project details directly from the list view using the inline edit feature. The homepage contains the following UI components to help you navigate through the workspace.
 
 <table id="table_t11_fpz_hsb"><thead><tr><th>
 
@@ -116,22 +116,45 @@ Reloads the homepage.
 
 </td></tr><tr><td>
 
+Create from template
+
+</td><td>
+
+Option to create a project from template.
+
+</td></tr><tr><td>
+
 New
 
 </td><td>
 
 Option to create a project.
 
-</td></tr><tr><td>
-
-More actions \(\[Omitted image "more-actions-homepage-icon.png"\] Alt text: More-actions-homepage-icon.\)
-
-</td><td>
-
-Option to open the column configuration icon to personalize the columns displayed in the list view.
-
 </td></tr></tbody>
-</table>## Planning header
+</table>## Lists in Project Workspace
+
+Lists view provides a single place to view, filter, sort, and manage project, RIDAC, program, and portfolio records in Project Workspace.
+
+Select the **Lists** icon on the left navigation bar to open this view, and use the left panel to browse by category.
+
+Lists are organized into two tabs. The **Default lists** tab displays standard, default lists, such as **Projects**, **Project RIDAC**, and **Programs and portfolios**. The **My lists** tab displays lists that you personalize or save for quick access.
+
+The following table describes the key elements of the **Lists** view.
+
+|Feature|Description|
+|-------|-----------|
+|Navigation panel|Browse lists by category, such as **Projects**, **Project RIDAC**, and **Programs and portfolios**.|
+|Default lists|Displays standard, default lists for projects, RIDAC records, programs, and portfolios.|
+|My lists|Displays lists that you personalize or save for quick access.|
+|Search|Search for records based on project names or project number.|
+|Filter|Option to define a filter condition the list using column-level operators, such as contains, starts with, or on, along with a value to view custom required projects.|
+|Sort by|Option to sort the list based on the required fields.|
+|Group by|Option to group the list records by an attribute.|
+|Export|Option to download or email the list as Excel, CSV, json, or PDF files.|
+|New|Option to create a project.|
+|Refresh|Reloads the list and displays the time of latest refresh.|
+
+## Planning header
 
 The header displays the project name and provides the following various options.
 
@@ -427,7 +450,7 @@ Edit an individual cell
 
 Edit or copy the info of this cell by selecting the cell context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Context menu.\) or select and hold \(or right-click\) a cell.
 
- Use this menu to copy and paste cell contents, add dependencies, add project tasks directly above or below this cell position, or delete the whole row.
+ Use this menu to copy and paste cell contents, add dependencies, add project tasks directly before or after this cell position, or delete the whole row.
 
 </td></tr><tr><td>
 
@@ -458,13 +481,49 @@ The timescale view that you choose is saved in the preferences.
 
 These lines show the dependencies between the project tasks. You can add new dependencies by drawing them on the timeline view, or select an existing dependency to edit its details in the side panel. See [Add internal project task dependencies from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-dependencies-for-project-tasks-from-project-workspace.md). The dependencies that you choose are saved in the preferences.
 
--   **[Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md)**  
-Learn how to navigate to Project Workspace and open a project in the planning page.
+## Parent-child rollups
+
+Date changes, state changes, effort and percent complete made to child project tasks automatically roll up to update the parent task and the project on the planning page. Rollups include planned and actual effort values in the task planner, and duration, cost, and state changes.
+
+Planned effort is calculated as the sum of the planned effort values of all child tasks. Actual efforts are fetched from approved time cards, therefore making them read-only. Actual effort is set to read only for all parent and child tasks.
+
+## Date restrictions for tasks with logged actuals
+
+On a project task that has logged actuals, you can't change the Planned start date or move the Planned end date earlier than the last logged actual. This applies whether you edit dates directly or a dependency recalculation changes them.
+
+When the Actual start date and Actual end date are present, the restriction applies to those dates instead.
+
+For example, consider a project task whose resource assignment has logged actuals, with the last actual recorded on 12 Dec 2026. If you set the Planned end date to 05 Dec 2026, the planning page rejects the change and keeps the existing date. Setting the Planned end date to 12 Dec 2026 or later succeeds.
+
+**Note:** Resource assignments or actuals created while the planning page is open aren't recognized until you refresh the planning page.
+
+This restriction is on by default. To turn it off, set the **com.snc.project.restrict\_task\_dates\_with\_assignment\_actuals** property to `false`.
+
+-   **[Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md)**  
+Learn how to navigate to the new Project Workspace and open a project in the planning page.
 -   **[Create a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-project-from-project-workspace.md)**  
 Use Project Workspace to create a project and start planning for your project tasks.
+-   **[Save a project as a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/save-project-template-pw.md)**  
+Save the plan of an existing project as a template to reuse the tasks and sub-projects in other projects in Project Workspace.
+-   **[Apply a template to a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/apply-project-template-pw.md)**  
+Apply a saved project template to a project in Project Workspace to reuse a planned set of tasks and sub-projects.
 -   **[Update the project details from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-project-details-from-project-workspace.md)**  
 Update the details of a project to reflect the updates or changed priorities using the details page from Project Workspace.
--   **[Use Playbooks in Project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)**  
+-   **[Work with project tasks in Employee Slate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/pws-widgets-eslate.md)**  
+The Project Tasks widget shows employees a quick view of the customer project tasks assigned to them on the Employee Slate.
+-   **[Ask project questions using the Project Answers agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/ask-question-answers-chatbot-pw.md)**  
+Use Ask Otto to open an AI panel and get real-time answers about your projects and sub-projects using the Project Answers agent.
+-   **[Generate and track project details from AI insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/generate-ai-project-insights-pw.md)**  
+Generate and monitor project insights directly from AI insights page in Project Workspace.
+-   **[Generate a project plan using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/generate-project-using-ai-pw.md)**  
+
+-   **[Generate tasks using project plan generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/generate-tasks-using-ai-pw.md)**  
+
+-   **[Generate and improve Docs content with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/generate-summarize-and-refine-content-of-docs-with-now-assist-spm.md)**  
+Generate content with ServiceNow Otto for SPM directly in your Docs using custom prompts. In addition, summarize existing sections, elaborate where needed, and refine drafts to help improve your productivity.
+-   **[Create an Asset Project Request from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-asset-project-requests-pw.md)**  
+Create a new asset project request directly from Project Workspace and associate it to a project for tracking and reporting purpose.
+-   **[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)**  
 Plan your project stages and assign specific actions to each stage using Playbooks.
 -   **[Analyze project analytics from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/analyze-project-analytics-in-project-workspace.md)**  
 View the summary of a project in Analytics tab of Project Workspace.
@@ -480,26 +539,22 @@ Create dependencies between project tasks using the interactive UI of Project Wo
 Set up a dependency between tasks of different projects using the new Project Workspace.
 -   **[Create and compare project baselines in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md)**  
 Create a schedule baseline and financial baseline of a project. A baseline is a snapshot of the project's progress at the particular moment of time.
--   **[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
+-   **[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)**  
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
+-   **[Generate a project status report using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/generate-ai-project-status-report.md)**  
+Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
 -   **[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)**  
 Create a status report in Project Workspace for your projects. Your team can view the report and be updated on project health, metrics, risks, issues, and milestones.
 -   **[Collaborate with stakeholders from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md)**  
-Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and ensure that your project is in line with your organizational priorities.
+Add comments and attachments to the project or a project task and share them with other users of your organization. Collaborate and verify that your project is in line with your organizational priorities.
 -   **[Collaborate on projects using Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/collaborative-project-planning-with-docs.md)**  
 Collaborate with team members, save notes, create project charters, and project briefs using Docs.
--   **[Summarize content with Project doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)**  
-Quickly learn the details of the documents from the summary that is generated by Now Assist in Strategic Planning.
--   **[Schedule project summary emails with Email skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/email-project-summary-pw.md)**  
-Schedule the project summary email to prioritize and track the most important changes in the project in Project Workspace.
+-   **[Summarize content with project doc generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)**  
+Quickly learn the details of the documents from the summary that is generated by AI in Strategic Planning.
+-   **[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/email-project-summary-pw.md)**  
+Schedule the project insights email to prioritize and track the most important changes in the project in Project Workspace.
 -   **[Project financials and Source-to-Pay Operations integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/pws-fin-spo-integration.md)**  
 Request, track, and manage procurement requests of assets for your projects.
--   **[Add a RIDAC record to a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-risk-project-project-workspace.md)**  
-Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your project in the Project Workspace. Adding RIDAC records enable you to keep a track of risks or issues during the project life cycle and help in analyzing the outcome of a project.
--   **[Associate existing RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/associate-ridac-project-workspace.md)**  
-Link existing RIDAC records to one another for your project in Project Workspace. A RIDAC record stands for Risks, Issues, Actions, Decisions, and Request Changes. Keep a record of risks or issues and their outcome for analysis at project closure and planning.
--   **[Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/convert-ridac-project-workspace.md)**  
-Convert one RIDAC \(Risk, Issue, Decision, Action, and Request Change\) record to another for a project in the Project Workspace. Keep a record of risks or issues and their outcome for analysis at project closure and planning. Track the risks and issues throughout the project life cycle.
 -   **[Export a project status report to Microsoft PowerPoint from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/export-project-status-report-to-powerpoint-from-project-workspace.md)**  
 Generate a status report of your project and export it as a Microsoft PowerPoint file from Project Workspace. You can use this file to present the project status to stakeholders or to collaborate with them over risks and next steps. Save time by generating a Microsoft PowerPoint file with the latest information and avoid copying information into slides.
 -   **[Export a project from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md)**  

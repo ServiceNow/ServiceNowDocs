@@ -7,10 +7,10 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Data Foundations advisor dashboard setup, automatic dashboard configuration, manual dashboard setup, principal class scope selection, CMDB Advisor Auto Setup scheduled job]
-breadcrumb: [Advisor setup, Use Data Foundations advisor, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Advisor setup, Use Data Foundations advisor, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Getting started with Data Foundations advisor dashboard setup

@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Exploring Agile Development 2.0

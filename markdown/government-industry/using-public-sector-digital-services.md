@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/using-public-sector-digital-services.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-03-12"
+reading_time_minutes: 1
 breadcrumb: [Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -24,11 +24,11 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 </td><td>
 
-[CRM Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up CSM Configurable Workspace and expand the Workspace UI to optimize agent government service processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-csm-workspace.md)
+[Public Sector Workspace\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Set up CSM Configurable Workspace and expand the Workspace UI to optimize agent government service processes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-csm-workspace.md)
 
 </td></tr><tr><td>
 
-[Agency Location Service Portal \[Omitted image "bus-service-portal.svg"\] Alt text: A one-stop shop to manage internal and external agency locations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-business-location-service-portal.md)
+[Portals \[Omitted image "bus-service-portal.svg"\] Alt text: A one-stop shop to manage and submit public service requests, or applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-portals.md)
 
 </td><td>
 
@@ -44,7 +44,7 @@ Learn how public sector agencies help constituents and businesses with digital s
 
 </td><td>
 
-[Now Assist \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use Now Assist for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+[ServiceNow Otto® \[Omitted image "bus-artificial-intelligence.svg"\] Alt text: Use ServiceNow Otto for PSDS to enhance user productivity and efficiency through proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
 
 </td><td>
 

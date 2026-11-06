@@ -7,8 +7,8 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Security Center, Platform Security]
 ---
 
@@ -26,6 +26,14 @@ The my Security Tasks section displays a list of Security Tasks assigned to you.
 
 The instance summary displays a high-level overview of the state of your instance's security. Select the info \(\[Omitted image "info-icon.png"\] Alt text: info icon\) icon on any card for details on what each represents. You can also select any card to navigate to the relevant area of Security Center.
 
+## Access management
+
+View access issues and misconfiguration on your instance. You can information about access findings and evaluate permissions for users, roles, and groups. You can also review additional resources to learn about user administration on ServiceNow instances. To learn more, see [Explore Access management console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-controls-console.md).
+
+## Machine identity
+
+Manage service accounts and third-party integrations. To learn more, see [Machine Identity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/identity/machine-identity-console.md).
+
 ## Security consoles
 
 Select a card within the security consoles section to navigate to any of the three security consoles.
@@ -41,6 +49,10 @@ Use the tools section to navigate to the tools you need to manage your instance 
 ## Additional resources
 
 Use the additional resources section on the edge of screen to navigate to documentation and videos relevant to learning Security Center as well as information on managing instance security.
+
+Security center has been updated in Zurich to provide guidance to understand what the tool can do how to use it. This redesign is tailored to assist both new and infrequent users of Security Center. New modal windows appear within security center to demonstrate how these tools can help you achieve your security goals.
+
+\[Omitted image "new-modals.png"\] Alt text: New modal help windows in security center
 
 **Parent Topic:**[Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/sec-center-v2.md)
 

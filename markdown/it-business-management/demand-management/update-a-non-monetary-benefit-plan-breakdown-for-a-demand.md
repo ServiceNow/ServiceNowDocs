@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a non-monetary benefit plan, Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Role required: it\_demand\_manager
 
 4.  Open the required non-monetary benefit plan.
 
-5.  In the Non-monetary Benefit Plan Breakdowns related list, select the information icon \(\[Omitted image "informationicon.png"\] Alt text: Information icon.\) against a non-monetary benefit plan breakdown.
+5.  In the Non-monetary Benefit Plan Breakdowns related list, select the information icon \(\[Omitted image "benefit-plan-icon.png"\] Alt text:\) against a non-monetary benefit plan breakdown.
 
 6.  Select **Open Record**.
 

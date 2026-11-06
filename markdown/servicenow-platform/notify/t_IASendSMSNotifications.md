@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify with Incident Communications Management, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify with Incident Communications Management, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send communication updates for an incident communications plan
@@ -18,7 +18,7 @@ Update users on the latest communication on an incident through selected communi
 
 ## Before you begin
 
--   Role required: notify\_view, or admin
+-   Role required: notify\_view, or notify\_setup\_admin
 -   Activate the Notify plugin \(com.snc.notify\) if you want to send communication through SMS.
 -   Set at least one communication channel for a communication task as SMS or email.
 

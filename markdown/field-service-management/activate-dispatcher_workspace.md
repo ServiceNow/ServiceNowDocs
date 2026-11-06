@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/activate-dispatcher\_workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Activate Dispatcher Workspace
@@ -45,6 +45,14 @@ sn-fsm-components\[com.sn\_fsm\_components\].
 </td><td>
 
 Provides the repository in which to store Field Service Management custom components to be used in the UI Builder.
+
+</td></tr><tr><td>
+
+Application Common Configurationsn\_app\_cmn\_config
+
+</td><td>
+
+This plugin provides a set of generic artifacts that can be used to define configuration of various aspects of an application.
 
 </td></tr></tbody>
 </table>## Procedure

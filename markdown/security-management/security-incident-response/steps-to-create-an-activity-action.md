@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example Activity Definition: Send email, Activity Definitions, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Role required: sn\_si.admin
 
     \[Omitted image "activity-ctions.png"\] Alt text: Creating an Activity Action
 
-2.  Click **New**.
+2.  Select **New**.
 
     Refer to the [ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-platform/now-platform-landing.md) documentation to know how to create these actions. In this example, Skip is implemented as a server script.
 

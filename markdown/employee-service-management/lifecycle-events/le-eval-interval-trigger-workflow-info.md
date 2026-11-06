@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Lifecycle Events triggers and workflow reference
@@ -27,8 +27,6 @@ If the trigger condition is met, but after the evaluation interval runs, it has 
 The Wait to reevaluate Trigger Script timer uses the **evaluation\_interval** in the **sn\_hr\_le\_activity\_set** table. The default value is four hours. You can reduce the value in the **evaluation\_interval** field to launch the activity set sooner, see [Change the evaluation interval default wait time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/le-activity-set-evaluation-interval.md).
 
 **Note:** Use caution if you decide to change the default value. Frequent updates trigger more events and can cause your lifecycle event activity sets to cancel before it can complete. For more information, see [Lifecycle event properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/lifecycle-event-properties-page.md).
-
-\[Omitted image "activity\_launcher.png"\] Alt text: HR Activity Launcher
 
 ## Condition with Event BR \(Demo\) activity set
 
@@ -49,7 +47,7 @@ An alternative to using the **Evaluation interval** field to trigger an activity
 
 ## HR Activity Set Trigger Check workflow
 
-The HR Activity Set Trigger Check workflow was added to the HR Activity Launcher workflow so that any server-side script can notify the workflow to see if the activity set is ready to trigger. The HR Activity Set Trigger Check workflow evaluates conditions. It doesn’t directly trigger any workflows. \[Omitted image "activity\_launcher\_sd.png"\] Alt text: HR Activity Launcher with HR Activity Set Trigger Check \[Omitted image "HR\_activity\_set\_trigger\_set.png"\] Alt text: HR Activity Set Trigger Check workflow
+The HR Activity Set Trigger Check workflow was added to the HR Activity Launcher workflow so that any server-side script can notify the workflow to see if the activity set is ready to trigger. The HR Activity Set Trigger Check workflow evaluates conditions. It doesn’t directly trigger any workflows.
 
 -   The HR Activity Set Trigger Check workflow is called when an activity set isn’t dependent on other activity sets.
 -   It regularly checks if the trigger condition for an activity set has been met.

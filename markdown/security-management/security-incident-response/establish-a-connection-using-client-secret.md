@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Client Secret value, Establish MS Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Using Client Secret value, Establish Microsoft Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Establish a connection using client secret
@@ -30,7 +30,7 @@ Role required: admin
 
     **Note:** This template contains the delegated API permission required for the MSTeams integration.
 
-4.  From the Related Links section, click Create **New Connection &amp; Credential**.
+4.  From the Related Links section, select Create **New Connection &amp; Credential**.
 
     | | |
     |---|---|

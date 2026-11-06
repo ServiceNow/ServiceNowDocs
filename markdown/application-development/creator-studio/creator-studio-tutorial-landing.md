@@ -7,9 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+keywords: [creator studio, servicenow creator studio, creator studio srvicenow, creatorstudio, creator studio app, creater studio, cretor studio, creter studio, servicenow customization, studio creator, no code, no-code, request app, citizen development, delegated development, delegate development, request app, request fulfill app, fulfllment app, fulfillment, visual development]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio tutorial
@@ -33,10 +34,6 @@ To tackle this issue, you check in with the IT admin and confirm that you can cr
 **Note:** To complete this tutorial, you must log in to Creator Studio as two different users or impersonate two users: one in the Creator Studio Users group and one admin.
 
 It's time for you to get started on creating a simple app.
-
-## Tutorial version
-
-This tutorial contains screenshots and instructions for the 27.2.2 Creator Studio release. You can use this tutorial with older versions of Creator Studio, just note that the navigation is somewhat different.
 
 ## Tutorial part 1: Create the app
 
@@ -70,7 +67,7 @@ You can also watch a short video on how to create an app.
 
     **Note:** Your admin may have hidden this page.
 
-    \[Omitted image "crs-interstitial-sd.png"\] Alt text: App type page when creating an app
+    \[Omitted image "crs-interstitial-sd.png"\] Alt text: Within the Creator Studio interface, select the "Service Desk" app option. This type of app is designed to streamline the management of incoming requests or support tickets.
 
 4.  Select the **Continue** button.
 
@@ -115,7 +112,7 @@ Role required: Creator Studio User
     Next, let's customize the form by adding questions.
 
 
-## Tutorial part 3:Customize the form
+## Tutorial part 3: Customize the form
 
 Customize the form for the gift card request app by manually entering questions. When it's done, you can mark the form as ready to be published.
 
@@ -125,7 +122,7 @@ Role required: Creator Studio User
 
 ### About this task
 
-You can also use ServiceNow Otto for Creator on the **Build with Now Assist** tab to customize a form. But for this tutorial, you will manually enter questions.
+You can also use ServiceNow Otto for Creator on the **Build with AI** tab to customize a form. But for this tutorial, you will manually enter questions.
 
 ### Procedure
 
@@ -153,7 +150,7 @@ You can also use ServiceNow Otto for Creator on the **Build with Now Assist** ta
 
     \[Omitted image "crs-tut-add-image.png"\] Alt text: Select the image icon to upload an image
 
-    1.  Select the add image icon \(\[Omitted image "crs-tut-add-image-icon.png"\] Alt text:\).
+    1.  Select the add image icon \[Omitted image "crs-tut-add-image-icon.png"\] Alt text:.
 
     2.  Search for and choose your image to add to the form.
 
@@ -217,8 +214,8 @@ You can also use ServiceNow Otto for Creator on the **Build with Now Assist** ta
         |Field|Value|
         |-----|-----|
         |Question label|`Justification`|
-        |Show question on form|Select this option|
         |Content type|Leave as **Multi-line text**|
+        |Show question on form|Select this option|
 
         \[Omitted image "crs-tut-question4.png"\] Alt text: Specify values to create the fourth question, and then save
 
@@ -287,56 +284,14 @@ Role required: Creator Studio User
 
 2.  Enter the following values in the Create a playbook modal:
 
-<table id="table_xty_wfr_c2c"><thead><tr><th>
+    |Field|Value|
+    |-----|-----|
+    |Playbook name|`Gift card approvals`|
+    |Description|`Route approvals when a gift card is requested.`|
+    |Form|Make sure the name of the form that you created \(**Gift card request**\) is selected.|
+    |Trigger|Leave the trigger as **Form submitted**.|
 
-Field
-
-</th><th>
-
-Value
-
-</th></tr></thead><tbody><tr><td>
-
-Playbook name
-
-</td><td>
-
-`Gift card approvals`
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Route approvals when a gift card is requested.
-
-</td></tr><tr><td>
-
-Form
-
-</td><td>
-
-Make sure the name of the form that you created \(**Gift card request**\) is selected.
-
-</td></tr><tr><td>
-
-Trigger
-
-</td><td>
-
-Leave the trigger as **Form submitted**.
-
-</td></tr><tr><td>
-
-Run your playbook
-
-</td><td>
-
-Leave **Once** selected.**Note:** This option appears only if you chose a trigger that includes a form being updated.
-
-</td></tr></tbody>
-</table>    \[Omitted image "crs-tut-playbook-details.png"\] Alt text: Enter details for the playbook
+    \[Omitted image "crs-tut-playbook-details.png"\] Alt text: Enter details for the playbook
 
 3.  Select the **Create** button.
 
@@ -346,13 +301,13 @@ Leave **Once** selected.**Note:** This option appears only if you chose a trigge
 
         \[Omitted image "crs-tut-playbook-plus.png"\] Alt text: Select the plus sign to add an activity
 
-    2.  Select the Add an activity icon \(\[Omitted image "cs-add-activity-icon.png"\]\).
+    2.  Select the Add an activity icon \[Omitted image "cs-add-activity-icon.png"\].
 
         \[Omitted image "crs-tut-playbook-step2.png"\] Alt text: Select the square to add an activity
 
     3.  Select the **Request approval** activity.
 
-        \[Omitted image "crs-tut-playbook-step3.png"\] Alt text: Select to add a Request approval activity
+        \[Omitted image "crs-tut-playbook-step3-zs2.png"\] Alt text: Select to add a Request approval activity
 
         The Request approval properties panel appears, where you can define the activity.
 
@@ -363,7 +318,7 @@ Leave **Once** selected.**Note:** This option appears only if you chose a trigge
         |Label|`Request manager approval`|
         |Requester's manager|Select this option.|
         |Approval type|Leave as **Anyone approves**.|
-        |Conditions|Leave as **When playbook starts**.|
+        |Conditions|Select **When playbook starts**.|
 
         \[Omitted image "crs-tut-playbook-step4.png"\] Alt text: Enter details to define the activity
 
@@ -371,11 +326,11 @@ Leave **Once** selected.**Note:** This option appears only if you chose a trigge
 
 5.  Add the finance approval activity.
 
-    1.  Select the add icon \(\[Omitted image "cs-add-icon.png"\]\).
+    1.  Select the add icon \[Omitted image "cs-add-icon.png"\].
 
         \[Omitted image "crs-tut-playbook-step5.png"\] Alt text: Select the plus sign to add an activity
 
-    2.  Select the Add an activity icon \(\[Omitted image "cs-add-activity-icon.png"\]\).
+    2.  Select the add an activity icon \[Omitted image "cs-add-activity-icon.png"\].
 
         \[Omitted image "crs-tut-playbook-step6.png"\] Alt text: Select the square to add an activity
 

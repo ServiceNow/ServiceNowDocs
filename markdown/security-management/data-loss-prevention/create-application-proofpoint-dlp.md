@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure the Proofpoint integration for Data Loss Prevention, Data Loss Prevention Incident Response Integration with Proofpoint, DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Data Loss Prevention Incident Response Integration with Proofpoint, Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Create an Application in Proofpoint and Obtain Client Credentials
@@ -57,5 +57,5 @@ Role required: admin
 
 Use the generated Client ID and Client Secret to configure the integration in the DLP Proofpoint \(PPT\) application and start using it.
 
-**Parent Topic:**[Install and configure the Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.md)
+**Parent Topic:**[Data Loss Prevention Incident Response Integration with Proofpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/dlp-incident-response-integration-proofpoint.md)
 

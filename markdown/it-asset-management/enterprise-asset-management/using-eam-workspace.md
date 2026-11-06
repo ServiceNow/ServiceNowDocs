@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise Asset Workspace
@@ -30,7 +30,7 @@ You can navigate to the Enterprise Asset Workspace in the following two ways:
 The Enterprise Asset Workspace contains the following views:
 
 -   [Enterprise asset overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/enterprise-asset-overview.md)
--   [Asset Analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/eam-asset-dboard.md)
+-   [Asset analytics overview for Enterprise Asset workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/eam-asset-dboard.md)
 -   [Inventory overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/inventory-overview-eam.md)
 -   [Enterprise asset estate overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/asset-estate-overview-eam.md)
 -   [Enterprise model management overview for Enterprise Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/model-management-overview-eam.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure transition between state models, Create GRC workflow states, GRC state model configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Configure transition between state models, Create GRC workflow states, GRC state model configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Create GRC model state transition conditions
@@ -82,8 +82,6 @@ Specifies the type of validation to perform. The options are:-   Required Fields
 
 </td></tr></tbody>
 </table>    **Note:** All conditions must pass for the transition to succeed.
-
-    \[Omitted image "WF-transition-condition1.png"\] Alt text: Adding state transition conditions.
 
 7.  Select **Submit** to save the transition condition.
 

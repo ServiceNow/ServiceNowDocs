@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-doc-intel-review-values.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Task Intelligence for Customer Service, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Task Intelligence, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Review and submit values predicted by Document Intelligence
@@ -16,7 +16,7 @@ Agents can extract, validate, and update the key values from valid attachments i
 
 ## Before you begin
 
-Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_csm\_ml\_task.ti\_admin, ti\_admin
+Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent, sn\_csm\_ml\_task.ti\_admin
 
 ## About this task
 
@@ -26,7 +26,7 @@ The task definition includes an extraction mode that determines how the system h
 
 1.  Open a case in CSM Configurable Workspace.
 
-2.  Select **Review in DocIntel** to open the [Document Intelligence workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/doc-intel-workspace.md) in a separate tab and view the attachments and extracted values.
+2.  Select **Review in DocIntel** to open the Document Intelligence workspace in a separate tab and view the attachments and extracted values.
 
     In this tab:
 
@@ -41,9 +41,9 @@ The task definition includes an extraction mode that determines how the system h
 
         Confirmed values have a blue check mark.
 
-    2.  If a value for a field isn’t correct, select in the field, select the correct value from the drop-down list, and press Enter.
+    2.  If a value for a field isn't correct, select in the field, select the correct value from the drop-down list, and press Enter.
 
-    3.  If a value for a field isn’t correct and the correct value doesn’t appear in the drop-down list, select the more actions button next to the field and select **Missing in this document**.
+    3.  If the correct value doesn't appear in the drop-down list, select the more actions button and select **Missing in this document**.
 
 5.  Select **Submit** to add these values to the fields on the Case form.
 

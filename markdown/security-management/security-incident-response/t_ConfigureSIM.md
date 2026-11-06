@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -108,7 +108,7 @@ You can configure notifications to be sent to specific recipients when selected 
 3.  From **Recipients**, select one or more recipients.
 4.  If you select **a specific user** or **a specific group**, you are prompted to select a user or group.
 5.  To define more notifications using other fields or recipients, repeat the preceding steps for the next set of notification settings.
-6.  To remove a notification, click the \[Omitted image "DeleteNotification.png"\] Alt text: delete notification symbol icon to the right of the notification.
+6.  To remove a notification, select the \[Omitted image "DeleteNotification.png"\] Alt text: delete notification symbol icon to the right of the notification.
 
 
 </td></tr></tbody>
@@ -321,18 +321,6 @@ Madrid
 
 </td></tr><tr><td>
 
-SIR: Security Incident life cycle
-
-</td><td>
-
-Validate the response tasks of the Policy Violation workflow.
-
-</td><td>
-
-Madrid
-
-</td></tr><tr><td>
-
 SIR: PIR Assessments OOTB configuration test
 
 </td><td>
@@ -538,6 +526,42 @@ Create new response task from an existing security incident.
 </td><td>
 
 Yokohama
+
+</td></tr><tr><td>
+
+Now Assist for Security: Active Security Incident Summarization
+
+</td><td>
+
+Summarize an active security incident and validate the displayed sections.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+Now Assist for Security: Security Incident Summarization\_Share to worknotes
+
+</td><td>
+
+Share the generated summary to worknotes.
+
+</td><td>
+
+Zurich
+
+</td></tr><tr><td>
+
+Now Assist for Security: Closed Security Incident Summarization
+
+</td><td>
+
+Summarize a closed security incident and validate the displayed sections.
+
+</td><td>
+
+Zurich
 
 </td></tr></tbody>
 </table>**Related topics**  

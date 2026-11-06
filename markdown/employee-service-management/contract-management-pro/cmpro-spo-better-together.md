@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Explore, Contract Management Pro, Employee Service Management]
+breadcrumb: [Better Together integrations, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Optimizing Sourcing and Procurement Operations through Contract Lifecycle Automation
@@ -52,7 +52,7 @@ Within the Source-to-Pay Workspace, Procurement Specialists can create contract 
 
 The following figure shows an example workflow of how a procurement specialist and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the procurement workflow. It also provides procurement professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-\[Omitted image "SPO-CMPro-solution-workflow.png"\] Alt text: SPO - CM Pro workflow
+\[Omitted image "mmassest0021243-SPO-CMPro-workflow.png"\] Alt text: SPO - CM Pro workflow
 
 In this workflow:
 
@@ -76,7 +76,7 @@ You can assign your procurement and contracting professionals to these roles as 
 
 ## Requirements for integrating Sourcing and Procurement Operations and Contract Management Pro
 
-1.  [Install Sourcing and Procurement Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/activate-finance-spend-central.md).
+1.  .
 2.  [Install Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-install-cmpro.md).
 3.  [Integrate with Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/integrate-spo-with-cmpro.md).
 
@@ -95,7 +95,7 @@ Get started with initiating contract request by completing these tasks:
 
         Role:contract administrator.
 
-    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)**
+    -   **[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
         Create a contract template of type .docx that can be used when submitting a contract request to generate a standard contract with predefined content.
 

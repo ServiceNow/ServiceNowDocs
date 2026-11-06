@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Software Asset Management Foundation plugin workspace, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring Basic Software Asset Management workspace, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Create a Software Asset Management Foundation entitlement in workspace
@@ -22,22 +22,22 @@ Role required: sam\_admin or sam\_user.
 
 ## About this task
 
-These instructions are for using the standard form for creating software entitlements one at a time. If you already have software entitlement details entered in a spreadsheet, you can also Import them using the bulk import functionality.
+These instructions are for using the standard form for creating software entitlements one at a time. If you already have software entitlement details entered in a spreadsheet, you can also import them using the bulk import functionality.
 
-When you start creating the entitlement it is in the build status. Once you publish the entitlement, the status changes to in use and makes the entitlement eligible to be included in the reconciliation process.
+When you start creating the entitlement, it is in the build status. After you publish the entitlement, the status changes to in use and makes the entitlement eligible for including in the reconciliation process.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Software asset** &gt; **Software Asset Workspace**.
 
-2.  Click **New** to open the Create new entitlement dialog box.
+2.  Select **New** to open the Create new entitlement dialog box.
 
-3.  Select **Fill out the details in a standard form** and then click **Next**.
+3.  Select **Fill out the details in a standard form** and then select **Next**.
 
 4.  In the Create New Software Entitlement page, fill in the fields.
 
-    For a detailed description of the fields, see [Create a Software Asset Management Foundation plugin entitlement in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
+    For a detailed description of the fields, see [Create a SAM Foundation entitlement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/t_AddASoftwareEntitlementSAMF.md).
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
+**Parent Topic:**[Configuring Basic Software Asset Management workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/configuring-samf-plugin-workspace.md)
 

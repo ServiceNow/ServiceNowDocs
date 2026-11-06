@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# FetchConfiguration structure - iOS
+# FetchConfiguration structure- iOS
 
 The FetchConfiguration structure provides the ability to define the configuration for fetching records from your ServiceNow instance.
 
@@ -65,7 +65,7 @@ readConfiguration
 Optional. Configuration of the fields returned in the response.Default: nil - All fields are returned.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+</table>**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## FetchConfiguration - init\(filter: Filter? = nil, limit: Int? = nil, readConfiguration: FieldReadConfiguration? = nil\)
 

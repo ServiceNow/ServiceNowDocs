@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB record types
@@ -48,19 +48,17 @@ A defined relationship between a CI and either another CI, a user, or a group. R
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [Related Lists of CI components]()
 
+[Principal Class]()
+
+[Dependent CIs management]()
+
 [Create a CI class]()
+
+[View and edit class definitions and metadata]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[View and edit class definitions and metadata]()
-
-[Principal Class]()
-
-[Update the list of classes in the Principal Class filter]()
 

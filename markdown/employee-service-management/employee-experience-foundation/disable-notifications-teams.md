@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Service Management integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [IT Service Management integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Review the active notifications for Microsoft Teams
@@ -32,7 +32,7 @@ You will find the following duplicate notifications after installing the IT Serv
 
 1.  Navigate to **All** &gt; **ServiceNow for Microsoft 365** &gt; **Notifications** &gt; **Provider Notifications**.
 
-    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**. \[Omitted image "notifications.png"\] Alt text: Notifications
+    You can also navigate to **All** &gt; **System Notifications** &gt; **Provider** &gt; **Notifications**.
 
 2.  On the Notifications list, select the **Name** column to sort the list in alphabetical order.
 
@@ -40,13 +40,9 @@ You will find the following duplicate notifications after installing the IT Serv
 
 3.  Search for the **Incident Update** notification.
 
-    \[Omitted image "duplicate-notifications02.png"\] Alt text: Duplicate notifications
-
 4.  Select one of the **Incident Update** notifications.
 
 5.  Clear the **Active** field.
-
-    \[Omitted image "un-check\_active.png"\] Alt text: Un-check active option
 
 6.  Select **Update**.
 

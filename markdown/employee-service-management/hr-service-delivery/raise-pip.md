@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Performance Improvement Plan \(PIP\) service, Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Performance Improvement Plan \(PIP\) service, Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Initiate a PIP request
@@ -24,7 +24,7 @@ Initiate a PIP request for your employee. Have structured conversations with you
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center**.
+1.  Navigate to **All** &gt; **Self Service** &gt; **Employee Center**.
 
 2.  Click the **HR** topic.
 

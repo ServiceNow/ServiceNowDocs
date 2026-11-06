@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document feeds, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: personalize\_dictionary or admin
 
 4.  Click **Update**.
 
-    **Note:** If the Collaboration feature is activated, you can remove the show Live Feed icon \(\[Omitted image "ShowLiveFeedIcon.png"\] Alt text: Show Live Feed icon\) from all form headers. Set the **glide.live\_feed.task\_header\_button** property to **collaboration**.
+    **Note:** If the Collaboration feature is activated, you can remove the show Live Feed icon from all form headers. Set the **glide.live\_feed.task\_header\_button** property to **collaboration**.
 
 
 **Parent Topic:**[Document feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_DocumentFeeds.md)

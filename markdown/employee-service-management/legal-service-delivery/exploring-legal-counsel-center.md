@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legal Counsel Center, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Counsel Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Exploring Legal Counsel Center
@@ -23,7 +23,7 @@ Legal Counsel Center requires the installation of the following applications:
 
 Install Legal Counsel Center to get the Next Experience. Review the [Legal Counsel Center](https://store.servicenow.com/sn_appstore_store.do#!/store/application/278ddaf373003300844489b954f6a78b) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
-**Note:** Install Legal Counsel Center to get the Next Experience and then review and uninstall the Legal Counsel Center Classic. For more information, see [Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_UninstallApplications.md).
+**Note:** Install Legal Counsel Center to get the Next Experience and then review and uninstall the Legal Counsel Center Classic. For more information, see [Uninstall an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/uninstall-application-app-mgr.md).
 
 ## Legal Counsel Center benefits
 
@@ -44,7 +44,7 @@ The Legal Counsel Center is the next experience Workspace for the legal fulfille
 **Important:**
 
 -   The Matters and Matter tasks widgets are visible if the Legal Matter Management plugin is installed.
--   To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Counsel Center application and Legal Matter Management scope. For more information, see [Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+-   To use interview templates, you must first install the Interview Templates plugin \(com.sn\_interview\_templates\) and enable the Requested RCA of Interview Templates for Legal Counsel Center application and Legal Matter Management scope. For more information, see [Interview Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
 
 The following is an example of the Legal Counsel Center landing page.
 

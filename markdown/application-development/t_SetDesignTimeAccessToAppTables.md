@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/t\_SetDesignTimeAccessToAppTables.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Design-time access to application tables, Table design and runtime settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Design-time access to application tables, Table design and runtime settings, Application access settings, Contextual development environment, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Set design-time access to application tables
@@ -28,7 +28,7 @@ To set runtime access permissions:
 
 2.  Click the button for the application type you want to edit.
 
-<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d301650e86">
+<table id="choicetable_bxr_ryb_br"><tbody><tr><td id="d415912e86">
 
 **__Developed__**
 
@@ -36,7 +36,7 @@ To set runtime access permissions:
 
 displays applications created on this instance.
 
-</td></tr><tr><td id="d301650e96">
+</td></tr><tr><td id="d415912e96">
 
 **__Downloaded__**
 

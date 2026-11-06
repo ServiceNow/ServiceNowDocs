@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -138,6 +138,6 @@ Role required: discovery\_admin or admin
 
     2.  **glide.discovery.log\_debug\_info**: This is an optional system property to collect debug information.
 
-        When this property is set to true, the discovery sensor extracts the debug info from ECC input message and writes it to the discovery log table, so the debug information is visible when inspecting discovery status.
+        When this property is set to true, the discovery sensor extracts the debug info from ECC input message and writes it to the discovery log table. The debug information is visible when inspecting discovery status.
 
 

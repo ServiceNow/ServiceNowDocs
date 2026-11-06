@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Mobile
 classification: legal-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a task in a legal matter through Mobile Agent, Promote a legal request to a legal matter through Mobile Agent, Work on a legal request through Mobile Agent, Legal Mobile, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Add a task in a legal matter through Mobile Agent, Promote a legal request to a legal matter through Mobile Agent, Work on a legal request through Mobile Agent, Legal Mobile, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject a legal matter task through Mobile Agent

@@ -7,9 +7,9 @@ release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # AI Search in mobile
@@ -59,4 +59,12 @@ Knowledge category AI search
 \[Omitted image "aisearch-knowledge-results.png"\] Alt text: AI Search results from the knowledge category.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Configure AI Search for mobile devices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/advanced-text-search-config-now.md)**  
+Configure the Now Mobile search bar to use the AI Search search engine.
+-   **[Customize AI Search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/advanced-text-search-customize.md)**  
+Customize AI Search results to provide users with a tailored search experience.
+-   **[Add AI Search to a launcher screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/aisearch-add-applet-launcher.md)**  
+Configure your launcher screen to use the AI Search search engine.
+
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
+

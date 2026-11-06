@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/intro-now-platform-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 ---
 
 # Administer the ServiceNow AI Platform
@@ -48,9 +48,19 @@ Learn about the ServiceNow AI Platform and these important applications:
 
 -   **Admin Center**
 
-    A central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights. Start with Adoption blueprints, which tell you which plugins to install to meet business objectives.
+    A central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 
-    \[Omitted image "ac-adoption-blueprints.png"\] Alt text: Image showing adoption blueprints
+-   **ServiceNow Store**
+
+    Listings of ready-to-use applications, integrations, and products to help you accelerate your digital transformation.
+
+-   **Application Manager**
+
+    One location to install, update, and manage licensed applications and plugins for your instance.
+
+-   **ServiceNow Otto for Setup**
+
+    A guided experience to install, configure, and deploy certain ServiceNow products.
 
 -   **Subscription Management**
 
@@ -70,6 +80,10 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 -   **ServiceNow AI Platform tables and data**
 
     Learn how to work with ServiceNow AI Platform records in the classic environment.
+
+-   **Instance Clone**
+
+    Copy data and metadata from one ServiceNow instance \(source instance\) to another ServiceNow instance \(target instance\).
 
 -   **Search administration**
 
@@ -98,13 +112,11 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
 ## Maintain and monitor the ServiceNow AI Platform
 
-\[Omitted image "servicenow\_performance\_db.png"\] Alt text: Performance dashboard
-
 -   **Instance Scan**
 
     Identify ServiceNow AI Platform health issues and incorrectly configured settings.
 
--   **Events**
+-   **System Events and Scheduled Jobs dashboard**
 
     Monitor system events and determine which the system should process them.
 
@@ -115,33 +127,8 @@ Explore core features that affect global ServiceNow AI Platform behavior as well
 
 ## Plan and manage your ServiceNow AI Platform upgrade
 
-\[Omitted image "uc-skiplist-priority.png"\] Alt text: Image showing the skip list priority
+-   **Upgrade Center and Upgrade Console**
 
--   **Upgrade Center and Upgrade Monitor**
+    Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center or the latest experience, Upgrade Console.
 
-    Plan and manage your ServiceNow AI Platform upgrades using Upgrade Center. Use Upgrade Monitor to monitor the progress of your upgrade. After the upgrade completes, you can view a summary of upgrade results.
-
-
-## Applications and features
-
--   [Core configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/p_CoreConfigurationOverview.md)
--   [Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/admin-center/admin-center-intro.md)
--   [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/subscription-management-landing-page-v2.md)
--   [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/c_UserAdministration.md)
--   [Table administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_TableAdministration.md)
--   [Data management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DataManagement.md)
--   [Field administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_IntroductionToFields.md)
--   [Form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/form-administration.md)
--   [List administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-administration/p_ListAdministration.md)
--   [Search administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/search-administration.md)
--   [Currency administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/currency-administration/currency.md)
--   [Time configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/time-configuration-landing.md)
--   [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dynamic-translation-overview.md)
--   [System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-localization/system-localization-landing.md)
--   [State Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/state-management/state-model.md)
--   [Integrate with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_IntegrateWThirdPartyAppsDataSrces.md)
--   [Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/events.md)
--   [Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_MetricDefinitionSupport.md)
--   [Platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/platform-performance-landing.md)
--   [Upgrading the Now Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-now-platform.md)
 

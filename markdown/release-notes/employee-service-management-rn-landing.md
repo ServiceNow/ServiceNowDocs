@@ -1,35 +1,33 @@
 ---
 title: Employee Service Management release notes
-description: Employee Service Management has new and updated features in the Yokohama release
+description: Employee Service Management has new and updated features in the Brazil release
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/employee-service-management-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Employee Service Management release notes
 
-Employee Service Management has new and updated features in the Yokohama release
+Employee Service Management has new and updated features in the Brazil release
 
--   **[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/hr-service-delivery-landing.md)**  
-The ServiceNow® HR Service Delivery application improves the employee service experience by automating HR interactions and providing a single platform for all HR services. HR Service Delivery was enhanced and updated in the Yokohama release.
--   **[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cmpro-rn.md)**  
-The ServiceNow® Contract Management Pro is a contract lifecycle management solution that's easy to use and adopt. You can use it to set up contract document templates, clauses, clause variations, and to initiate contract requests. It also supports Now Assist driven contract analysis and metadata extraction, e-signatures, wet signatures, and external storage systems.Contract Management Pro was enhanced and updated in the Yokohama release.
+-   **[Contract Management Pro release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cmpro-landing-page.md)**  
+Contract Management Pro has new and updated features in the Brazil release.
+-   **[HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/hrsd-rn-landing.md)**  
+HR Service Delivery has new and updated applications and features in the Brazil release.
+-   **[Leader Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/leader-hub-rn-2026-09.md)**  
+The ServiceNow® Leader Hub application empowers organizational leaders to understand their team's strengths, identify skill gaps, and facilitate changes that are conducive to the success of their workforce. This application is currently supported for the Brazil release, but it will be deprecated in a future release.
+-   **[Learning Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/learning-posts-rn-2026-09.md)**  
+The ServiceNow® Learning Posts application enables you to create an omni-channel learning experience for your employees empowering them with the right learning at the right time. This application is no longer supported starting with the Brazil release.
 -   **[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lsd-rn-landing-page.md)**  
-The ServiceNow® Legal Service Delivery streamlines legal operations by automating request intake, managing legal matters and investigations, and enabling secure collaboration across departments. Legal Service Delivery was enhanced and updated in the Yokohama release.
--   **[Employee Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-center-rn.md)**  
-The ServiceNow® Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
--   **[ServiceNow Add-in for Microsoft 365 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sn-addin-for-ms365-rn.md)**  
-The ServiceNow Add-in for Microsoft 365 provides an extensible framework to invoke multi-department service workflows in ServiceNow®Employee Center embedded in Microsoft 365 apps. ServiceNow Add-in for Microsoft 365 is a new application in the Yokohama release.
--   **[Journey designer release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/jny-dsgnr-rn.md)**  
-The ServiceNow® Journey designer application enables managers and employees to create and track journeys. Journeys include transition plans, such as promotions, offboarding, onboarding, and role changes for employees. Journey designer was enhanced and updated in the Yokohama release.
--   **[Now Mobile release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-mobile-rn.md)**  
-The ServiceNow® Now Mobile® application enables your users and employees to submit incidents and requests, manage tasks, and access company resources from anywhere. Now Mobile® was enhanced and updated in the Yokohama release.
--   **[ServiceNow Otto for Workplace Service Delivery \(WSD\) Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/wsd-rn-landing.md)**  
-The ServiceNow® Workplace Service Delivery application improves the employee workplace experience by automating workplace management and provides a single platform for all workplace services. ServiceNow Otto for Workplace Service Delivery \(WSD\) is enhanced and updated in the Yokohama release.
+The ServiceNow® Legal Service Delivery streamlines legal operations by automating request intake, managing legal matters and investigations, and enabling secure collaboration across departments. Legal Service Delivery was enhanced and updated in the Brazil release.
+-   **[Listening Posts release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/listening-posts-rn-2026-09.md)**  
+The ServiceNow® Listening Posts application enables you to create simple pulse surveys to capture employee touch points, gain insights from employee feedback, and improve overall employee experience. This application is no longer supported starting with the Brazil release.
+-   **[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/uex-rn-landing.md)**  
+The Unified Employee Experience has new and updated applications and features in the Brazil release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

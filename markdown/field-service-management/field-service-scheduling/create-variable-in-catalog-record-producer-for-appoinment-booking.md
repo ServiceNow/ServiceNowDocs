@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Configure variables in a record producer for appointment booking
@@ -18,7 +18,7 @@ Create specific variables in a Service Catalog record producer to capture essent
 
 ## Before you begin
 
-Role required: admin
+Role required: appointment\_booking\_admin
 
 Ensure you have an existing Service Catalog record producer to configure.
 
@@ -34,7 +34,7 @@ By configuring catalog item variables for appointment booking, you can:
 
 1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
-2.  Click the record producer you want to configure.
+2.  Click the desired record producer.
 
 3.  In the **Variable** related list, click **New**.
 
@@ -128,10 +128,10 @@ Example Text
 
 </td><td>
 
-Example or hint text guiding users. You can use a hint for the following variables:-   Email
+Question field hint that appears before a user enters a value. You can use a hint for the following variables:-   Email
 -   URL
 -   Single Line Text
--   Multi-line Text
+-   Multi Line Text
 -   Wide Single Line Text
 
 

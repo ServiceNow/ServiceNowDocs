@@ -7,7 +7,7 @@ release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Walk-up Experience, IT Service Management]
 ---
@@ -31,7 +31,7 @@ A service configuration is required for each of the walk-up queue locations with
 
 **Note:** Both the application configuration and the service configuration must be active to book appointments.
 
-For detailed information about the **Appointment Booking** application, refer to [Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/appointment-booking.md).
+For detailed information about the **Appointment Booking** application, refer to [Manage appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/managing-appointments.md).
 
 -   **[Walk-up Experience appointment booking administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/walkup-appointment-administration.md)**  
 Create or modify the Walk-up Experience **Appointment Booking** feature.

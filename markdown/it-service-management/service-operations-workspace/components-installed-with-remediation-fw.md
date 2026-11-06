@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace reference, Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Components installed with Remedial Actions Framework
@@ -57,6 +57,18 @@ Enables users with read and write access to all Remedial Action configuration ta
 -   sn\_reacf.sn\_remedial\_action\_read
 -   flow\_operator
 
+</td></tr><tr><td>
+
+Remedial action execution admin\[sn\_reacf.sn\_remedial\_action\_execution\_admin\]
+
+</td><td>
+
+Enables users with elevated access to the remedial actions framework. You can use this role to edit the state of the remedial action execution records. For example, you can change **In progress** to **Failed** or **Complete**. **Note:** You must add the role on top of the Remedial action admin \[sn\_reacf.sn\_remedial\_action\_admin\] role to utilize the elevated access to the framework.
+
+</td><td>
+
+None
+
 </td></tr></tbody>
 </table>## Tables installed
 
@@ -82,7 +94,7 @@ Remedial action parameter\[sn\_reacf\_remedial\_action\_parameter\]
 
 </td><td>
 
-List of parameters required to execute the remedial actions such as process ID, assigned to and so on.
+List of parameters required to execute the remedial actions such as process ID, assigned to, help, and order.
 
 </td></tr><tr><td>
 
@@ -133,7 +145,7 @@ Remedial action execution\[sn\_reacf\_remedial\_action\_execution\]
 List of execution records that are created for each remedial action when executed. The record is used to track the progress and maintain the information. The record includes information such as executed remedial action, parameter values, action execution record, parent record, target record, current state, user who executed the remedial action and origin.**Note:** This table is read only.
 
 </td></tr></tbody>
-</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/acl-denial-behavior.md) and [Features of enhanced security model adoption for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
+</table>**Note:** Deny unless ACLs are added to all the tables. The Deny unless ACLs restrict access for a non-authenticated user, such as a public role user. Without access, the user can't perform any actions on the tables related to the mentioned applications, such as reading, writing, deleting, creating, or accessing the report view. For more information on Deny-Unless ACLs and enhanced security model adoption features, see [Deny-Unless ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/acl-denial-behavior.md) and [Enhanced security model features for incident tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/comp-instal-itsm-enhanced-sec-features.md).
 
 **Parent Topic:**[Incident Management in Service Operations Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/sow-im-reference.md)
 

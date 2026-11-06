@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/address-knowledge-gaps.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Center, Knowledge Center, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,13 +18,13 @@ Learn how to review and resolve potential knowledge gaps in the Knowledge Center
 
 Role required: admin.
 
-Suggested reading: [Configure Now Assist Skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
+Suggested reading: [Configure skills for potential gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-in-knowledge-management/configure-na-km.md)
 
 ## About this task
 
 Potential gaps also known as Knowledge gaps represent missing documentation for recurring issues. If it’s unresolved, these gaps lead to repeated incidents and higher support costs. Addressing gaps promotes comprehensive coverage, reduces ticket volume, and enhances self-service adoption.
 
-**Note:** Currently, the Potential Gap feature is supported only in CSM and ITSM products.
+**Note:** Currently, the Potential Gap feature is supported only in CSM, ITSM, and HR products.
 
 ## Procedure
 

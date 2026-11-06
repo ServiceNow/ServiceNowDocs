@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work on a legal request, Managing legal requests, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Work on a legal request, Managing legal requests, Use, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Promote a legal request to a legal matter
@@ -34,15 +34,15 @@ As a collaborator added to a request, you can access and work on the request jus
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d65607e112">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d68388e112">
 
 Option
 
-</th><th align="left" id="d65607e115">
+</th><th align="left" id="d68388e115">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65607e121">
+</th></tr></thead><tbody><tr><td id="d68388e121">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d65607e150">
+</td></tr><tr><td id="d68388e150">
 
 **As a collaborator**
 
@@ -65,16 +65,46 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 
 </td></tr></tbody>
-</table>4.  To promote the legal request to a legal matter, click **Create Matter**.
+</table>4.  Promote a legal request to a legal matter by creating a new matter or adding it to an existing matter.
 
-5.  In the Create Matter dialog, indicate whether to use a template to create a legal matter.
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d68388e180">
 
-    -   To create a legal matter record with predefined data, such as phases and tasks, select a template name from the **Matter template** list, and click **OK**.
-    -   To create a legal matter record without any predefined data, leave the **Matter template** field empty and click **OK**.
+Option
 
+</th><th align="left" id="d68388e183">
+
+Steps
+
+</th></tr></thead><tbody><tr><td id="d68388e189">
+
+**Create a new matter**
+
+</td><td>
+
+-   Select **Create Matter**.
+-   In the Create Matter dialog, indicate whether to use a template to create a legal matter.
+    -   To create a legal matter record with predefined data, such as phases and tasks, select a template name from the Matter template list, and select **OK**.
+    -   To create a legal matter record without any predefined data, leave the Matter template field empty and select **OK**.
+
+
+</td></tr><tr><td id="d68388e224">
+
+**Add to an existing matter**
+
+</td><td>
+
+-   Select **Add to an Existing Matter**.
+-   In the Add to an existing matter dialog, select an existing matter.
+-   Select **OK**
+
+
+</td></tr></tbody>
+</table>
 ## Result
 
 -   A legal matter is created with details copied from the legal request.
+-   When legal request is promoted by creating a new matter, the Privileged and Confidential status of the created matter is dependent on the Privileged and Confidential status of the request. You can change the status later.
+-   When legal request is promoted by adding to an existing matter, the Privileged and Confidential status of the existing matter is retained irrespective of the Privileged and Confidential status of the request.
 -   You \(a legal fulfiller or a collaborator\) will be added in the **Watch list** of the legal matter to access it.
 -   If you selected a matter template, then the matter has predefined phases, tasks, and attributes from the template.
 -   If the external storage option is enabled, the documents attached to the legal request and stored in the configured external storage are listed under the **Documents** tab of the [legal matter's Artifact record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md).

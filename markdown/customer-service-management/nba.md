@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/nba.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Configuring Recommended Actions
@@ -35,7 +35,7 @@ Use Recommended Actions to provide the following recommendations:
 -   View and attach article: Recommend a Knowledge article relevant to the customer issue so that agents can view and attach the article to the current case.
 -   Review a refund request. Recommend a decision tree for agents to work through to determine if the customer is eligible for a refund.
 
-For end-to-end configurations of recommended actions for specific scenarios, see [Example configurations of recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/recommended-actions-use-case.md).
+For end-to-end configurations of Recommended Actions for specific scenarios, see [Example configurations of recommended actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/recommended-actions-use-case.md).
 
 ## Action types for Recommended Actions
 
@@ -63,7 +63,7 @@ An action that an agent can take or information they can share. For example, gui
 
 </td><td>
 
-A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.
+A guided flow to follow. A decision tree is a multi-step process that includes a series of questions and answers and results in guidance.**Important:** The Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. For more information, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
 
 </td></tr><tr><td>
 
@@ -72,6 +72,14 @@ A guided flow to follow. A decision tree is a multi-step process that includes a
 </td><td>
 
 A recommended value to use for a field. For example, this type of action can recommend the assignment group based on the text in the case short description.
+
+</td></tr><tr><td>
+
+**Playbooks**
+
+</td><td>
+
+An interactive workflow that guides agents through a series of steps to make decisions and resolve issues.
 
 </td></tr></tbody>
 </table>## AI search
@@ -84,11 +92,11 @@ Agents can enter their queries in the search bar to access AI-powered search res
     -   Proactive recommendations: Agents receive actionable suggestions to accelerate case resolution, based on real-time case context.
     -   Seamless workflow: The integration streamlines the user workflow by providing access to search and recommendations within a single interface.
 
-## Using recommended actions
+## Using Recommended Actions
 
 Agents can access recommended actions in a workspace such as CRM Workspace by selecting the Recommended Actions icon \(\[Omitted image "nba-icon.png"\] Alt text: Recommended Actions icon\) in the contextual side panel. For more information, see [Using the Recommended Actions application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-using-recommended-actions.md).
 
-## Setting up recommended actions
+## Setting up Recommended Actions
 
 Set up the Recommended Actions application so that you can create actions of type guidance or field recommendation. An admin can complete the following setup tasks.
 
@@ -125,17 +133,46 @@ Assign roles to your users to control access to Recommended Actions features and
 Configure recommended actions to create a context, rule, and recommendations with action types such as guidance and field recommendation.**Note:** The Guided Decisions application \(sn\_gd\_core\) is required to create guided decision trees.
 
 </td></tr></tbody>
-</table>## Integrating decision trees in recommended actions
+</table>**Note:** If Recommended Actions doesn't appear on a variant of a record page \(such as the CSM default record page, CSM Interaction record page, or Front-line case page\), ensure that the variant is marked active. For detailed steps, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
+
+## Integrating decision trees in Recommended Actions
 
 Optionally, set up the Guided Decisions Experience application so that you can create decision trees and then integrate them in recommended actions. Admins can complete the following setup tasks.
 
-|Setup task|Description|
-|----------|-----------|
-|[Install the Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/install-guided-decisions-exp-app-new.md)|Install the Guided Decisions Experience application from the ServiceNow® Store. This application enables you to configure decision trees that you can use as recommendations.|
-|[Configuring decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-guided-decisions.md)|Configure decision trees that agents can use to troubleshoot solutions for customer issues.|
-|[Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-guided-decisions-to-recommended-actions.md)|Add decision trees to recommended actions, so that agents can take relevant action during troubleshooting based on a record context.|
+<table id="table_xfr_pf1_1mb"><thead><tr><th>
 
-## Request apps from the ServiceNow Store
+Setup task
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+[Install the Guided Decisions Experience application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/install-guided-decisions-exp-app-new.md)
+
+</td><td>
+
+Install the Guided Decisions Experience application from the ServiceNow® Store. This application enables you to configure decision trees that you can use as recommendations.**Important:** The Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. For more information, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
+
+</td></tr><tr><td>
+
+[Configuring decision trees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-guided-decisions.md)
+
+</td><td>
+
+Configure decision trees that agents can use to troubleshoot solutions for customer issues.
+
+</td></tr><tr><td>
+
+[Add Guided Decisions to Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/add-guided-decisions-to-recommended-actions.md)
+
+</td><td>
+
+Add decision trees to recommended actions, so that agents can take relevant action during troubleshooting based on a record context.
+
+</td></tr></tbody>
+</table>## Request apps from the ServiceNow Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Initiating a chargeback, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Report fraud to a card network
@@ -30,15 +30,15 @@ A transaction will include the Fraud reporting task within the workflow if poten
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
@@ -59,7 +59,7 @@ A transaction will include the Fraud reporting task within the workflow if poten
 
 ## Result
 
-If fraud was flagged, if not previously triggered, the [block and reissue card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiating-dispute.md) task triggers. The transaction moves to the Initiate chargeback stage.
+If fraud was flagged, if not previously triggered, the [block and reissue card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/block-and-reissue-new-card.md) task triggers. The transaction moves to the Initiate chargeback stage.
 
 **Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

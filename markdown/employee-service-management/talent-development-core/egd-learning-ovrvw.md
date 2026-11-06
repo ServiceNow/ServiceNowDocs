@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore Talent Development Core, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Talent Development Core, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Learning overview
@@ -38,5 +38,5 @@ Learnings are tailored to your course and training aspirations. Learning lets yo
 |Track your learning|Shows your assigned, saved, shared with, history, challenges, and completed courses.|
 |Achievements|Shows your Learning achievements. When you learn something new and complete a course, you can earn achievements and see them on the Learning tab.|
 
-**Parent Topic:**[Explore Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
+**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
 

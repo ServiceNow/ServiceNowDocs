@@ -1,20 +1,20 @@
 ---
 title: Call Now Assist Skill step
-description: Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+description: Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/call-now-assist-skill-step.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Workflow Studio steps, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Call Now Assist Skill step
 
-Run a published Now Assist skill from an action. Configure the Now Assist skill inputs and skill outputs from the step inputs and step outputs.
+Run a published ServiceNow Otto for Creator skill from an action. Configure the ServiceNow Otto for Creator skill inputs and skill outputs from the step inputs and step outputs.
 
 ## Roles and availability
 
@@ -109,12 +109,12 @@ These outputs appear in the Data panel. You can use them as inputs elsewhere in 
 
 ## Call the Flow Summarization skill
 
-\[Omitted image "example-call-na-skill-flow-summarization.png"\] Alt text: Action that uses the Call Now Assist Skill step for the Flow Summarization skill.
+\[Omitted image "call-now-assist-step.png"\] Alt text: Action that uses the Call Now Assist Skill step for the Flow Summarization skill.
 
 This example action calls the Flow Summarize skill, which provides a text summary of what a flow or subflow does. The Flow Summarization skill has two skill inputs.
 
--   **sys\_id**. This input contains the Sys ID of the component to be summarized.
--   **type**. This input contains the type of component to summarize.
+-   **asset\_sys\_id**. This input contains the Sys ID of the component to be summarized.
+-   **asset\_type**. This input contains the type of component to summarize.
 
 To support the two skill inputs, this example action has two matching action inputs.
 

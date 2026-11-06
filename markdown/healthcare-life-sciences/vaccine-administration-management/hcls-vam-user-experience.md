@@ -1,5 +1,5 @@
 ---
-title: Using the Patient Portal to register for a vaccination program
+title: Use the Patient Portal to register for a vaccination program
 description: As a user with the sn\_vaccine\_sm.user role, you can register for a vaccination program, provide your personal information, schedule and manage your vaccination appointments, provide health updates, and more, all from within a single, self-service portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.html
@@ -7,16 +7,14 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Using the Patient Portal to register for a vaccination program
+# Use the Patient Portal to register for a vaccination program
 
 As a user with the sn\_vaccine\_sm.user role, you can register for a vaccination program, provide your personal information, schedule and manage your vaccination appointments, provide health updates, and more, all from within a single, self-service portal.
-
-\[Omitted image "vam-user-landing-page-v6.0.png"\] Alt text: Vaccine Administration Management patient portal landing page, displaying upcoming vaccinations, a patient's COVID-19 status, latest news and articles, and frequently asked questions.
 
 On the landing page, in the COVID-19 status widget, you can see all the information regarding the vaccination status and COVID-19 test results.
 
@@ -34,10 +32,6 @@ Once registered, you can provide your personal information to help organizations
 
  When you log in to the portal later, you can see vaccines that you're eligible for, or vaccines that you have remaining to schedule, in the Suggested vaccines for you section of the landing page. You can also see your vaccination history.
 
-</td><td>
-
-\[Omitted image "vam-user-portal-enter-personal-info-v6.png"\] Alt text: Patient portal view for patients to provide personal information with forms and questions.
-
 </td></tr></tbody>
 </table>## Schedule and manage your vaccinations
 
@@ -49,17 +43,9 @@ If you are eligible, schedule your vaccination appointments.
 
  You can either choose the same vaccination site for multiple doses, or you can choose a different vaccination site for each dose. After you schedule your appointments, an appointment confirmation with a QR code is emailed to you.
 
-</td><td>
-
-\[Omitted image "vam-user-portal-schedule-vaccination-v6.png"\] Alt text: Patient portal view for scheduling a vaccination.
-
 </td></tr><tr><td>
 
 View all of your upcoming appointments.
-
-</td><td>
-
-\[Omitted image "vam-user-portal-view-upcoming-appointments-v6.png"\] Alt text: Patient portal view displaying upcoming appointments.
 
 </td></tr><tr><td>
 
@@ -77,20 +63,12 @@ View the details of an individual appointment.
 **Note:** If you cancel an appointment, all of your open appointments for that vaccination program are canceled. For example, if you cancel the second appointment of a three-dose vaccination program, then both the second and third appointment are canceled.
 
 
-</td><td>
-
-\[Omitted image "vam-user-portal-manage-appointment-v6.png"\] Alt text: Patient portal view displaying the details of an individual appointment.
-
 </td></tr></tbody>
 </table>## Provide any updates on your health
 
 <table id="table_cr4_5fb_m4b"><tbody><tr><td>
 
 Provide your health updates in the portal. Also, organizations have the option to send an appointment reminder and pre-appointment questionnaire to you at a specified time before the vaccination appointment.
-
-</td><td>
-
-\[Omitted image "vam-user-portal-provide-health-updates-v6.png"\] Alt text: Patient portal view of the pre-appointment questionnaire.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Using Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/using-vaccine-administration-management.md)

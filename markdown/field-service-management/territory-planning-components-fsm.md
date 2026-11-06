@@ -1,18 +1,18 @@
 ---
 title: Field Service Territory Planning components
-description: Several types of components are installed with the Field Service Territory Planning feature, including tables, role, script includes, and business rules.Territory Planning console uses the following properties.
+description: Several types of components are installed with the Field Service Territory Planning feature, including tables, roles, script includes, and business rules.Territory Planning console uses the following properties.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/territory-planning-components-fsm.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Field Service Territory Planning components
 
-Several types of components are installed with the Field Service Territory Planning feature, including tables, role, script includes, and business rules.
+Several types of components are installed with the Field Service Territory Planning feature, including tables, roles, script includes, and business rules.
 
 ## Tables
 
@@ -129,69 +129,7 @@ View Field Service territory data.
 
 </td></tr><tr><td>
 
-Territory Admin\[sn\_tp.territory\_admin\]
-
-</td><td>
-
-Create new territory models, sources, and matching rules.
-
-</td></tr><tr><td>
-
-Territory Edit Resource Allocation\[sn\_tp.territory\_edit\_resource\_allocation\]
-
-</td><td>
-
-Edit allocation of resources who are associated with the selected territory.
-
-</td></tr><tr><td>
-
-Territory Geography Write\[sn\_tp.territory\_geography\_write\]
-
-</td><td>
-
-Create, update, or delete the territory geography.
-
-</td></tr><tr><td>
-
-Territory Planner\[sn\_tp.territory\_planner\]
-
-</td><td>
-
-View territories, resource allocations, and others along with the ability to create new territories.
-
-</td></tr><tr><td>
-
-Territory Read\[sn\_tp.territory\_read\]
-
-</td><td>
-
-Viewing territory data.
-
-</td></tr><tr><td>
-
-Territory Resource Manager\[sn\_tp.territory\_resource\_manager\]
-
-</td><td>
-
-Manage resources of territory where the logged in user has been assigned as resource manager
-
-</td></tr><tr><td>
-
-Territory Manager\[sn\_tp.territory\_manager\]
-
- \[sn\_tp.territory\_resource\_manager\]
-
-</td><td>
-
-Manage territories and their related information. Additionally, inherits the role of territory resource manager.
-
-</td></tr><tr><td>
-
 FSM Territory Manager\[sn\_fsm\_tp.fsm\_territory\_manager\]
-
- \[sn\_tp.territory\_manager\]
-
- \[sn\_tp.territory\_resource\_manager\]
 
 </td><td>
 
@@ -200,10 +138,6 @@ Manage Field Service territories and their related information. Additionally, in
 </td></tr><tr><td>
 
 FSM Territory Resource Manager\[sn\_fsm\_tp.fsm\_resource\_manager\]
-
- \[sn\_tp.territory\_manager\]
-
- \[sn\_tp.territory\_resource\_manager\]
 
 </td><td>
 
@@ -518,6 +452,13 @@ Field Service Territory Planning adds the following Schedule Optimization adds t
 |Territory Planning- Calculate Overlapping Territories - Geography|Calculates the overlaps for geographies. When executed, the scheduled job triggers events to calculate the overlap between two geographies.|
 
 **Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
+
+**Related topics**  
+
+
+[Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/territory-planning-fsm.md)
+
+[Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md)
 
 ## Field Service Territory Planning console properties
 

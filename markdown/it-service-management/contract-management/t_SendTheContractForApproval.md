@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Send the contract for approval
@@ -57,4 +57,6 @@ You can view the approval history for a contract in the Approval History related
 [Create a contract rate card]()
 
 [Monitor a contract]()
+
+[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/contract-approval-workflow.md)
 

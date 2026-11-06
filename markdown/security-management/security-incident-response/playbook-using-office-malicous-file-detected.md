@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for Office 365 - Malicious File Detected, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -31,8 +31,6 @@ Role required:
 
 3.  In Action 3, you need to investigate the file name and path to determine whether it is a known or non-malicious file/application.
 
-    \[Omitted image "playbook-office365-investigate.png"\] Alt text: Response tasks to determine whether it is a known or non-malicious file/application.
-
 4.  In Action 4, you need to submit the file to Sandbox for analyzing the results.
 
 5.  In Action 5, based on the investigation done so far, you need to check whether the file or hash is malicious or not.
@@ -50,8 +48,6 @@ Role required:
     If the end user provided a valid business justification, a manual response task is created in Action 5 and the flow ends.
 
 9.  In Action 9, if the user didn’t provide a valid business justification then Actions 10, 11, and 12 are executed.
-
-    \[Omitted image "playbook-office365-justification.png"\] Alt text: Response tasks if there was no valid business justification for the malicious file
 
 10. In Action 10, since there was no valid business justification, you can forward the malicious file or hash to the Threat Intel Team for review.
 

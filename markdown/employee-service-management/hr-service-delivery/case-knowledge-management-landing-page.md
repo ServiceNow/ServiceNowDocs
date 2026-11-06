@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -18,15 +18,34 @@ The Case and Knowledge Management application enables you to standardize the doc
 
 <table class="nav-card"><tbody><tr><td>
 
-[Use and Explore \[Omitted image "icon-workspace.png"\] Alt text: Explore and use Explore HR Case and Knowledge Management features and see how agents use them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Explore HR Case and Knowledge Management features and see how agents use them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 
 </td><td>
 
-[Install\[Omitted image "icon-install.png"\] Alt text: Activate HR Case and Knowledge Management featuresActivate HR Case and Knowledge Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Install and configure HR Case and Knowledge Management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/activate-case-and-knowledge-management-scoped.md)
+
+</td></tr><tr><td>
+
+[Manage HR Cases\[Omitted image "bus-headset.svg"\] Alt text:HR Agents work on cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md)
 
 </td><td>
 
-[Configure and Administer\[Omitted image "icon-set-up.png"\] Alt text: Administer HR Case and Knowledge ManagementConfigure and administer HR Case and Knowledge Management features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
+[Request HR services\[Omitted image "bus-start-discussion.svg"\] Alt text:Employees open HR cases to get help or make requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRProfileRecords.md)
+
+</td></tr><tr><td>
+
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate with Service Portfolio Management and Digital Portfolio Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/ckm-csdm.md)
+
+</td><td>
+
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_AdministerHRServiceManagement.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

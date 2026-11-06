@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Types of catalog items
@@ -29,7 +29,7 @@ A record producer is a specific type of catalog item that allows end users to cr
 Order guide submits a single service catalog request that generates several items.
 -   **[Define a content item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_AddingContentItemServiceCatalog.md)**  
 A content item is a service catalog item that provides information instead of goods or services.
--   **[Configure a default width for service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/configure-variable-width.md)**  
+-   **[Configure a default width for Service Catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/configure-variable-width.md)**  
 Configure the default width for variables on a catalog item page to specify what percentage of the screen size that it can span.
 -   **[Define a regular expression for a variable](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/define-regex-vrble.md)**  
 Define a regular expression \(regex\) to validate a variable value.
@@ -38,7 +38,7 @@ Pass variables from one step of the fulfillment process to another.
 -   **[Create or edit a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_DefineACatalogItem.md)**  
 Define individual catalog items using Service Catalog. You can create, edit, and copy catalog items.
 -   **[Add a catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/t_AssignItemToAddlCatalogsCategory.md)**  
-Service catalog enables you to add a catalog item to multiple catalogs and categories.
+Service Catalog enables you to add a catalog item to multiple catalogs and categories.
 -   **[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)**  
 Service Catalog enables you to customize the catalog in various ways.
 

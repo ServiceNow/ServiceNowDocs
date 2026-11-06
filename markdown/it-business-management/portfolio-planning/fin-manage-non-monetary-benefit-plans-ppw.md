@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 4.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/benefit-plan-form-project-management.md)
+    For a description of the field names, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/non-monetary-benefit-plans-form.md).
 
 5.  Select **Save**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Building subflows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Build subflows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a subflow in Workflow Studio
@@ -20,13 +20,11 @@ Reuse an entire flow's content as a subflow. Define the input data the subflow u
 
 Role required: flow\_designer or admin
 
-Create an application in App Engine Studio to store Workflow Studio content. For more information about building an application, see [Building applications in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-app-creation.md).
-
-Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
-
 ## About this task
 
 Users with the flow\_designer or admin role should know the application table structure and be aware of any existing business logic associated with the target tables of a flow or subflow. Be sure to disable any conflicting business rules or workflows before creating a flow or subflow.
+
+Creating a custom application to contain your Workflow Studio content allows you to [deploy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_SharingApplications.md) it using the application repository or the ServiceNow Store.
 
 ## Procedure
 
@@ -36,9 +34,13 @@ Users with the flow\_designer or admin role should know the application table st
 
     The Subflow properties screen displays.
 
-    **Tip:** If you want to create the subflow with generative AI, see [Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-subflow-now-asist.md).
+3.  Select whether to build the subflow by using Now Assist or to build manually.
 
-3.  Fill in the following fields:
+    To build the subflow with Now Assist, see [Create a subflow with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-subflow-now-asist.md).
+
+    To build the subflow manually, continue to the next step.
+
+4.  Fill in the following fields:
 
 <table id="table_kt4_t1l_mcb"><thead><tr><th>
 
@@ -146,7 +148,7 @@ Priority level at which you want the system to run this subflow by default. Opti
  To learn about flow priority levels, see [Flow priority](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-priority.md).
 
 </td></tr></tbody>
-</table>4.  Create subflow inputs to specify the data available to the subflow when it starts running.
+</table>5.  Create subflow inputs to specify the data available to the subflow when it starts running.
 
     Each input you define for a subflow becomes a configuration option in the Workflow Studio interface. To use the subflow in a flow, you must define a value for each mandatory input. The more inputs a subflow has, the more data you must define and the more familiar you must be with the underlying data model to use the subflow effectively.
 
@@ -170,7 +172,7 @@ Priority level at which you want the system to run this subflow by default. Opti
 
         Inputs provide advanced options based on their data type. All inputs have advanced options to add a hint or provide a default value. Use advanced options to guide flow designers through adding and configuring a subflow to a flow. For example, create a choice input to provide flow designers with a pre-defined list of configuration options to choose from. For more information about the configuration options available to particular data types, see [field types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
 
-5.  Create subflow outputs by defining the names and data types.
+6.  Create subflow outputs by defining the names and data types.
 
     Subflow outputs specify the data available to the parent flow after the subflow completes.
 
@@ -190,7 +192,7 @@ Priority level at which you want the system to run this subflow by default. Opti
         -   sys\_mod\_count
     \[Omitted image "subflow-inputs-outputs.png"\] Alt text: Inputs and outputs in a subflow.
 
-6.  To add actions, flows, subflows, or flow logic, select **Add an Action, Flow Logic, or Subflow**.
+7.  To add actions, flows, subflows, or flow logic, select **Add an Action, Flow Logic, or Subflow**.
 
     1.  Select an option.
 
@@ -243,7 +245,7 @@ Select a published subflow and define the input values. In addition to adding a 
 
     4.  Repeat adding actions until complete.
 
-7.  Assign subflow outputs to a value.
+8.  Assign subflow outputs to a value.
 
     You can assign a subflow output to multiple values, enabling you to create conditional outputs based on flow logic.
 

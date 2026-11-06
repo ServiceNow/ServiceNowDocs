@@ -1,5 +1,5 @@
 ---
-title: Activating External User Self-Registration
+title: Activate External User Self-Registration
 description: You can activate the External User Self-Registration plugin \(com.snc.external\_user\_self\_registration\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/external-user-registration-plugin.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
-# Activating External User Self-Registration
+# Activate External User Self-Registration
 
 You can activate the External User Self-Registration plugin \(com.snc.external\_user\_self\_registration\) if you have the admin role.
 

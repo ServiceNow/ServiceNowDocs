@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/assign-a-partner-contact-case-form.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Case form, Customer Service forms, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Case form, Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Assign a partner contact on the case form

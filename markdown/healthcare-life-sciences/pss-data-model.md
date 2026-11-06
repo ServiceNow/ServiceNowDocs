@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-data-model.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Patient Support Services, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Patient Support Services data model
@@ -28,10 +28,6 @@ The Patient Support Services data model uses a combination of tables to store da
 -   Tables that are included within the Healthcare and Life Sciences Service Management Core application.
 
 You can install the Patient Support Services application to use its data model.
-
-The following diagram shows the tables and their relationships that comprise the Patient Support Services data model.
-
-\[Omitted image "pss-data-model.png"\] Alt text: Data model displaying how the tables within Patient Support Services and Healthcare and Life Sciences Service Management interact. For information on these tables, see the Patient Support Services application tables section that follows.
 
 The Patient Support Services data model uses the following tables included within the Patient Support Services application to store data.
 

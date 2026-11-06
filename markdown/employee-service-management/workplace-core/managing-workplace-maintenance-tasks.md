@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Managing workplace tasks
@@ -63,6 +63,10 @@ Using planned task definitions in Workplace Core to create planned tasks indepen
 Create an ad hoc task in Workplace Core for unplanned activities. For example, if you notice that something isn't clean in an area or want the area to be cleaned again, you can create an ad hoc workplace task to get the cleaning done immediately.
 -   **[Sign a completed workplace task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/sign-completed-task-wsd.md)**  
 As the workplace manager for a space, sign the workplace tasks Workplace Core for complete and closed activities. Signing a task generates a PDF document for the workplace activity, which is useful for compliance procedures.
+-   **[Print workplace tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/print-workplace-tasks-core.md)**  
+Workplace coordinators can print the workplace task details and the associated workplace activities that are created and scheduled in the workplace for each shift. The task reports contain reservation details, description, services, and all other relevant information for effective task management and resolution.
+-   **[Manage print tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/manage-print-tasks.md)**  
+Filter workplace tasks using criteria such as Short Description, Workplace Location, or other relevant fields to generate a consolidated report using the Workplace Central Case management workspace.
 -   **[Apply the archive rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/wsd-tables-purge-policy.md)**  
 Apply the archival policy for Workplace Core to archive old table records.
 
@@ -80,6 +84,8 @@ Apply the archival policy for Workplace Core to archive old table records.
 [Block a workplace location]()
 
 [Configure Workplace entity and entity types]()
+
+[Managing Neighborhoods]()
 
 [Enable favorites option for Workplace Service Portal]()
 
@@ -105,5 +111,5 @@ Apply the archival policy for Workplace Core to archive old table records.
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

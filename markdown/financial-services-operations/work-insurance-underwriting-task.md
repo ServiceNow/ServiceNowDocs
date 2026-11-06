@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/work-insurance-underwriting-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work on a policy service case, Using Personal Lines Servicing, Personal Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Work on a policy service case, Use, Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on an insurance underwriting task
@@ -26,15 +26,15 @@ The configured workflow automatically generates an underwriting task for an unde
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Personal Underwriting Service Tasks**, open the task list.
 
     -   For your assigned tasks, click **Assigned to me**.
     -   For all underwriting tasks, click **All**.
-4.  In the list, select the task that you want to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a task that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Finish the work that is required to complete the task in your insurance system.
 
@@ -44,4 +44,6 @@ The configured workflow automatically generates an underwriting task for an unde
 
 8.  Click **Update**.
 
+
+**Parent Topic:**[Work on a policy service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/work-ins-policy-case.md)
 

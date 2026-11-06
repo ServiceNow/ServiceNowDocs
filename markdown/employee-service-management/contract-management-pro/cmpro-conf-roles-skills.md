@@ -1,20 +1,20 @@
 ---
-title: Configure data permissions for Now Assist skills
-description: Add the user roles for a Now Assist skill to specify the roles that Now Assist uses to access data while performing a task. The user roles control the information that Now Assist can read, update, or share, based on the permissions of the selected roles.
+title: Configure data permissions for AI skills
+description: Add the user roles for the skill to specify the roles that AI uses to access data while performing a task. The user roles control the information that AI can read, update, or share, based on the permissions of the selected roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure data permissions for Now Assist skills
+# Configure data permissions for AI skills
 
-Add the user roles for a Now Assist skill to specify the roles that Now Assist uses to access data while performing a task. The user roles control the information that Now Assist can read, update, or share, based on the permissions of the selected roles.
+Add the user roles for the skill to specify the roles that AI uses to access data while performing a task. The user roles control the information that AI can read, update, or share, based on the permissions of the selected roles.
 
 ## Before you begin
 
@@ -22,9 +22,9 @@ Role required: admin
 
 ## About this task
 
-Now Assist skills use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md) to determine the data that the roles can access.
+AI skills use [role masking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-role-masking.md) to determine the data that the roles can access.
 
-In Now Assist in Contract Management, the following roles are configured with the base system to provide necessary data access to the Now Assist skills.
+In Contract Management Pro - Prime, the following roles are configured with the base system to provide necessary data access to the AI skills.
 
 -   sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 -   sn\_lg\_cnt.contract\_fulfiller
@@ -34,7 +34,7 @@ In Now Assist in Contract Management, the following roles are configured with th
 -   sn\_lg\_cnt.contract\_owner
 -   sn\_cm\_obligation.obligation\_fulfiller
 
-You must configure the necessary roles for your workspace to ensure that Now Assist skills can access all the required information.
+You must configure the necessary roles for your workspace to ensure that skills can access all the required information.
 
 ## Procedure
 
@@ -55,12 +55,12 @@ You must configure the necessary roles for your workspace to ensure that Now Ass
     The selected role is added to the **Role List** field.
 
 
-**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Select large language models for use cases in Now Assist in Contract Management]()
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro]()
 
 [Configuring contract metadata extraction]()
 
@@ -68,7 +68,7 @@ You must configure the necessary roles for your workspace to ensure that Now Ass
 
 [Configuring contract obligation extraction]()
 
-[Configuring agentic workflows in Now Assist in Contract Management]()
+[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro]()
 
-[Post-upgrade steps for Now Assist in Contract Management]()
+[Post-upgrade steps for ServiceNow Otto for Contract Management Pro]()
 

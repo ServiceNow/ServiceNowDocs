@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB 360/Multisource CMDB, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Recompute CI attribute values
@@ -22,7 +22,7 @@ Modify reconciliation rules, or exclude a discovery source which is found to be 
 
 If you want to recompute to apply updated reconciliation rules, then you must first update the reconciliation rules.
 
-Role required: itil\_admin or sn\_cmdb\_admin
+Role required: sn\_cmdb\_admin or itil\_admin
 
 ## About this task
 

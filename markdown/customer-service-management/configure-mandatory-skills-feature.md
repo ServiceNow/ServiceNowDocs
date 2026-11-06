@@ -1,16 +1,16 @@
 ---
-title: Configuring the mandatory skills feature
+title: Configuring mandatory skills
 description: Configure the mandatory skills feature for use with the Customer Service Management and Field Service Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-mandatory-skills-feature.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Mandatory skills, Configure Skills Management, Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Configuring the mandatory skills feature
+# Configuring mandatory skills
 
 Configure the mandatory skills feature for use with the Customer Service Management and Field Service Management applications.
 
@@ -88,4 +88,8 @@ Contains a list of tables for which the **Skills** field has already been migrat
 -   **Default value**: none
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[bundle-fsm.skills-table-fields]
+

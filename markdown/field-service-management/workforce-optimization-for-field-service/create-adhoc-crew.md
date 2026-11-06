@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Field Service Crew Operations, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Crew Operations, Set up workforce, Configure, Field Service Management]
 ---
 
 # Create ad hoc task-specific crews
@@ -18,7 +18,7 @@ Create an ad hoc task-specific crew for a task if existing crews are not availab
 
 ## Before you begin
 
-Role required: wm\_manager
+Role required: wm\_crew\_moderator
 
 ## About this task
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-unified-user.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configuring a Unified User
@@ -36,4 +36,8 @@ By using multiple profiles within the CSM application, your organization can hav
 
 
 [Configuring a user as a Unified Consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-employee-as-a-consumer.md)
+
+[Configuring a contact as a consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-a-contact-as-a-unified-consumer.md)
+
+[Update system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/update-system-property.md)
 

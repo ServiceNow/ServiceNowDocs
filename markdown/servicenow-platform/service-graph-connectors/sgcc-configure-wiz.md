@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Wiz, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set up scheduled import jobs to pull in data from a Wiz project into your Config
 
 ## Before you begin
 
--   Install Service Graph Connector for Wiz version 1.3.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+-   Install Service Graph Connector for Wiz version 1.3.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 -   You must obtain the OAuth credentials associated with the Wiz service account and make a note of the following details:
 
     -   Client ID

@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -96,7 +96,7 @@ Demand Task
 
 </td><td>
 
-A unit of work, created within a demand, to break down initial planning activities before converting the demand into a project. A demand task is not a planned task like a project task.
+A unit of work, created within a demand, to break down initial planning activities before converting the demand into a project. A demand task isn’t a planned task like a project task.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/demand-management-reference.md)

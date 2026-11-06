@@ -1,22 +1,22 @@
 ---
 title: Integrating Operational Sustainability Management \(formerly ESG\) with other applications
-description: You can integrate ESG Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
+description: You can integrate Operational Sustainability Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/integrate-esg.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Integrating Operational Sustainability Management \(formerly ESG\) with other applications
 
-You can integrate ESG Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
+You can integrate Operational Sustainability Management with Project Portfolio Management and Integrated Risk Management \(IRM\). These integrations provide you with more options to track your goals.
 
 ## Integration with Project Portfolio Management
 
-If you integrate ESG Management with Project Portfolio Management, you can plan, build a roadmap, and prioritize activities to achieve your sustainability goals. You can view all the programs and projects associated with operational sustainability under **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Program Setup**.
+If you integrate Operational Sustainability Management with Project Portfolio Management, you can plan, build a roadmap, and prioritize activities to achieve your sustainability goals. You can view all the programs and projects associated with operational sustainability under **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Lists** &gt; **Program Setup**.
 
 When you create goals for your material topics, you perform some activity to accomplish those goals. The work that you do is captured in the form of programs and projects. When you integrate with Project Portfolio Management, you can create programs and projects for your goals. To learn more about program management and how to create programs, see [Program Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/c_ProgramManagement.md).
 
@@ -32,18 +32,18 @@ After you integrate with Project Portfolio Management, you can see the Programs/
 
 ## Integration with IRM
 
-If you integrate ESG Management with IRM, you can add risks, risk statements, policies, control objectives, and issues to your goals. For example, if you add a policy to your goal, then all the related control objectives and controls get associated with this goal. This integration helps you to identify and assess the risks that pose threats to your goals.
+If you integrate Operational Sustainability Management with IRM, you can add risks, risk statements, policies, control objectives, and issues to your goals. For example, if you add a policy to your goal, then all the related control objectives and controls get associated with this goal. This integration helps you to identify and assess the risks that pose threats to your goals.
 
 **Note:** As an ESG user, you are not required to create policies. The policies are created by the IRM administrators. You only need to associate the policies to your goals.
 
 After you integrate with IRM, the Goal form lists additional options.\[Omitted image "goals-form-with-risk-intg.png"\] Alt text: Goals form with IRM integration.
 
-For more information on the roles and tables that are installed with the ESG Management, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/components-installed-with-esg.md).
+For more information on the roles and tables that are installed with the Operational Sustainability Management, see [Components installed with Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/components-installed-with-esg.md).
 
 -   **[Integrating Microsoft 365 with ServiceNow reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrating-o365-with-servicenow.md)**  
-The Microsoft 365 for ServiceNow Reporting \(sn\_esg\_msoff\_intg\) integration provides disclosure reporting capabilities to ESG reporting disclosure managers to seamlessly report ServiceNow ESG Management system data, list reports, charts, pivot, and multi pivot reports using Microsoft Word.
+The Microsoft 365 for ServiceNow Reporting \(sn\_esg\_msoff\_intg\) integration provides disclosure reporting capabilities to ESG reporting disclosure managers to seamlessly report ServiceNow Operational Sustainability Management system data, list reports, charts, pivot, and multi pivot reports using Microsoft Word.
 -   **[Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-risk-management.md)**  
-The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of ESG Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
+The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of Operational Sustainability Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
 -   **[Integrating Operational Sustainability Management \(formerly ESG\) with Watershed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrate-esg-with-watershed.md)**  
 Watershed is a tool that enables organizations to measure their carbon emissions and renewable energy and its impact. It also enables organizations to act to reduce emissions, and to report on the progress to reduce their carbon footprint.
 -   **[Integrating Operational Sustainability Management \(formerly ESG\) with Urjanet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrating-esg-management-with-urjanet.md)**  

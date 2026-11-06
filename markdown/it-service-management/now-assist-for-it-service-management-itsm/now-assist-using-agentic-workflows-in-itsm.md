@@ -1,5 +1,5 @@
 ---
-title: Agentic AI in Now Assist for ITSM
+title: Agentic AI in ServiceNow Otto for ITSM
 description: Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-using-agentic-workflows-in-itsm.html
@@ -7,21 +7,17 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Agentic AI in Now Assist for ITSM
+# Agentic AI in ServiceNow Otto for ITSM
 
 Use the IT Service Management AI agents within an agentic workflow to complete tasks autonomously.
 
-## Overview of Incident triaging and resolution agentic workflows
-
-\[Omitted video\] Description: Incident triaging and resolution agentic workflows
-
-## Agentic workflows for Now Assist IT Service Management
+## Agentic workflows for ServiceNow Otto IT Service Management
 
 <table id="table_lxk_lck_h2c"><thead><tr><th>
 
@@ -47,7 +43,7 @@ Enables fulfillers to determine the category, subcategory, and configuration ite
 
 1.  Categorize ITSM incident AI agent
 2.  Classify service and CI AI agent
-3.  Link major incident and link problem AI agent
+3.  Link major incident or problem AI agent
 
 </td></tr><tr><td>
 
@@ -95,7 +91,7 @@ Generates a comprehensive implementation, test, and backout plan based on the sp
 
 </td><td>
 
-Change request plans AI agent.
+Change request plans AI agent
 
 </td></tr><tr><td>
 
@@ -108,6 +104,31 @@ Sends text messages to recipients using Twilio.
 </td><td>
 
 Twilio SMS text AI agent
+
+</td></tr><tr><td>
+
+[Incident assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-incident-assist-workflow.md)
+
+</td><td>
+
+Answers questions about an open incident, including caller assets, recent incidents, similar resolved incidents, and on-call experts.
+
+</td><td>
+
+1.  Incident context AI agent
+2.  Additional incident context AI agent
+
+</td></tr><tr><td>
+
+[Who is On Call](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-aiagents-on-call-usecase.md)
+
+</td><td>
+
+Retrieves on-call roster information for specific shifts, groups, or time periods.
+
+</td><td>
+
+On Call Retrieval AI agent
 
 </td></tr></tbody>
 </table>

@@ -7,7 +7,7 @@ release: yokohama
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Interactive Filters, Reporting, dashboards, and Performance Analyti
 You can create and configure Interactive Filters for multiple field types.
 
 Before you create an interactive filter, choose which type of filter to create.
+
+**Note:** From the Australia release, only users with the report\_admin role can create and edit Core UI interactive filters. To create filters in Platform Analytics experience, see [Filters in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/interactive-filters-workspace.md).
 
 <table id="table_ayz_zzg_kr"><thead><tr><th>
 
@@ -96,7 +98,7 @@ A group interactive filter allows users to select multiple interactive filters t
 -   **[Create an interactive filter for whether a field is empty or populated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/t_CreateAEmptyNonemptyFilter.md)**  
 You can create a Boolean interactive filter that lets users filter report widgets based on whether a specific field is empty or populated.
 -   **[Create a cascading filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/create-cascading-filter.md)**  
-Cascading filters allow you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.
+Cascading filters enable you to filter based on multiple values in a hierarchy, such as by region, country, and city. Lower-level choices are filtered by the values selected at higher levels.
 -   **[Interactive filters on database views and table hierarchies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/apply-filter-to-all-tables-in-hierarchy.md)**  
 When you create an interactive filter on an extended table, you can also apply the filter to database views and to the other tables in the hierarchy. The hierarchy includes all parent, child, and sibling tables.
 -   **[Available interactive filter UI control types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/r_HomepagePublisherUIControlTypes.md)**  

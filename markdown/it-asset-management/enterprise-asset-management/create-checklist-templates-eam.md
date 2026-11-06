@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a checklist template for your Enterprise Asset Management work orders
@@ -32,15 +32,15 @@ You can either copy from an existing checklist template and edit and add more ch
 
 3.  In the **Create checklist template** dialog box, fill in the fields.
 
-<table id="choicetable_yjr_z2v_21c"><thead><tr><th align="left" id="d154192e89">
+<table id="choicetable_yjr_z2v_21c"><thead><tr><th align="left" id="d270095e89">
 
 Field
 
-</th><th align="left" id="d154192e92">
+</th><th align="left" id="d270095e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d154192e98">
+</th></tr></thead><tbody><tr><td id="d270095e98">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Name of the checklist template.
 
-</td></tr><tr><td id="d154192e107">
+</td></tr><tr><td id="d270095e107">
 
 **Copy from template**
 
@@ -56,7 +56,7 @@ Name of the checklist template.
 
 List of existing templates that you can copy from.
 
-</td></tr><tr><td id="d154192e116">
+</td></tr><tr><td id="d270095e116">
 
 **Checklist items**
 

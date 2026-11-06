@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Create fixed assets
@@ -42,7 +42,7 @@ To sum the residual values of all assets in a fixed asset:
     The ServiceNow platform calculates the**Residual Value**, **Total cost,** and **Total depreciation** based on information in the **Financial** and **Depreciation** sections on the individual asset records.
 
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 
@@ -58,8 +58,6 @@ To sum the residual values of all assets in a fixed asset:
 [Manage pre-allocated assets]()
 
 [Manage transfer order]()
-
-[Example Asset Management process]()
 
 [Use Organization Management]()
 
@@ -99,8 +97,6 @@ The following example shows depreciated value on a $10,000.00 asset over five ye
 4.  Select a **Category**.
 
 5.  Add a **Script** to calculate depreciation value.
-
-    \[Omitted image "DepreciationSchedule.png"\] Alt text: Depreciation schedule
 
 6.  Click **Submit**.
 

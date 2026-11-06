@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Perform an exposure assessment for a location, Safety exposure management, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---

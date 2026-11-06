@@ -1,14 +1,14 @@
 ---
 title: Product Inventory Open API
-description: The Product Inventory Open API provides endpoints to create and retrieve product inventories.Retrieves all product inventory records and their associated child product inventories.Retrieves a specified product inventory record and the sys\_ids of the associated child product inventory records.Retrieves a list of all product inventories.Retrieves a product inventory.Creates a product inventory record.Creates a product inventory.
+description: The Product Inventory Open API provides endpoints to create and retrieve product inventories.Deletes a specified product inventory record.Retrieves a list of all product inventories.Retrieves a specified product inventory record.Retrieves a list of all product inventories.Retrieves a product inventory.Updates a specified product inventory record.Creates a product inventory record.Creates a product inventory.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/product-inventory-open-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 35
+last_updated: "2026-09-10"
+reading_time_minutes: 52
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -18,26 +18,109 @@ The Product Inventory Open API provides endpoints to create and retrieve product
 
 Use this API to manage product inventory information between external systems and the ServiceNow AI Platform.
 
-This API is included in the Product Inventory Advanced application, which is available on the ServiceNow Store and runs in the `sn_prd_invt` namespace.
+This API is included in the Product Inventory Advanced application, which is available on the ServiceNow Store.
+
+This API is provided within the `sn_prd_invt` namespace.
 
 The calling user must have the sn\_prd\_invt.product\_inventory\_integrator role.
 
-This API creates and updates data in the following tables:
+This API creates and updates data in the following tables.
 
 -   Product Characteristics \[sn\_prd\_invt\_product\_characteristics\]
 -   Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 -   Product Model \[cmdb\_model\]
 -   Product Model Characteristic \[sn\_prd\_pm\_product\_model\_characteristic\]
 
-The Product Inventory Open API is a ServiceNow® implementation of the TM Forum Product Inventory Management API REST specification. This implementation is based on the [TMF637 Product Inventory Management API REST Specification Release 19](https://www.tmforum.org/resources/standard/tmf637-product-inventory-management-api-rest-specification-r19-0-0/), August 2019. The Product Inventory Open API is conformance certified by TM Forum.
+The Product Inventory Open API is a ServiceNow® implementation of the TM Forum Product Inventory Management API REST specification. This implementation is based on the [TMF637 Product Inventory Management API User Guide v5.0.0](https://www.tmforum.org/resources/specifications/tmf637-product-inventory-management-api-user-guide-v5-0-0/), September 2024. The Product Inventory Open API is conformance certified by TM Forum.
 
 \[Omitted image "tmf-conformance.png"\] Alt text: TMF conformance logo
 
+**Note:** By default, POST /sn\_prd\_invt/product accepts and returns a single JSON object. `GET` endpoints return **status** as a display label, such as `Installation pending`, and the product reference field is named **product**. To change the default behavior, create a system property **sn\_prd\_invt.tmf637.version4** and set the value to `true`. When `true`, POST /sn\_prd\_invt/product accepts and returns a JSON array. `GET` endpoints return **status** as an internal value, such as `installation_pending`, and the product reference field is named **productId**. Set the property to `false` to return to the default behavior.
+
+**Note:** By default, `GET` endpoints on this API return **valueType** as a display value, such as `Choice`. To change the default behavior and return the backend value instead \(for example, `choice`\) — matching the format used by the [Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf622_product_ordering-api.md) — create a system property **sn\_prd\_invt.enableseamlessvaluetype** and set the value to `true`. Set the property to `false`, or leave it unset, to return to the default behavior.
+
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
+
+## Product Inventory Open API – DELETE /sn\_prd\_invt/order/product/\{id\}
+
+Deletes a specified product inventory record.
+
+### URL format
+
+Default URL: `/api/sn_prd_invt/order/product/{id}`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+id
+
+</td><td>
+
+Sys\_id of the product inventory to delete.Data type: String
+
+Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Header|Description|
+|------|-----------|
+|Accept|Data format of the response body. Only supports **application/json**.|
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|204|No Content. Record successfully deleted.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+
+### Response body parameters \(JSON\)
+
+|Name|Description|
+|----|-----------|
+|None||
+
+### cURL request
+
+This example deletes a product inventory record.
+
+```
+curl "https://instance.service-now.com/api/sn_prd_invt/product/01b2f9972b8c72d07a83f395f291bf53" \
+--request DELETE \
+--header "Accept:application/json" \
+--user 'username':'password'
+```
+
+No response body is returned when a product inventory record is successfully deleted.
 
 ## Product Inventory Open API - GET /sn\_prd\_invt/product
 
-Retrieves all product inventory records and their associated child product inventories.
+Retrieves a list of all product inventories.
 
 ### URL format
 
@@ -59,6 +142,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
@@ -66,6 +179,16 @@ customer
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
 
 Default: Don't filter by customer.
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -105,9 +228,25 @@ place
 
 </td><td>
 
-Filter product inventories by place. Only product offerings with a place sys\_id or external id matching the value of this parameter are returned in the response.Data type: String
+Filter product inventories by location.Data type: Object
 
-Default: Don't filter by place.
+```
+"place": {
+  "id": "String"
+}
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Sys\_id or external id of the location associated with the product inventory record.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
 
 </td></tr><tr><td>
 
@@ -266,13 +405,15 @@ place
 
 </td><td>
 
-Location of the product.Data type: Object
+Location of the product.Data type: Array
 
 ```
-"place": {
-  "id": "String",
-  "name": "String"
-}
+"place": [
+   {
+      "id": "String",
+      "name": "String"
+   }
+]
 ```
 
 </td></tr><tr><td>
@@ -281,9 +422,11 @@ place.id
 
 </td><td>
 
-Sys\_id of the location record associated with the product.Data type: String
+Location sys\_id or external id.Data type: String
 
 Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
 
 </td></tr><tr><td>
 
@@ -293,22 +436,27 @@ place.name
 
 Name of the location.Data type: String
 
+Table: Location \[cmn\_location\]
+
+Field: name
+
 </td></tr><tr><td>
 
 productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
 ```
 "productCharacteristic": [
-  {
-    "name": "String",
-    "value": "String"
-  }
+ {
+  "name": "String",
+  "value": "String",
+  "valueType": "String"
+ }
 ]
 ```
 
@@ -327,6 +475,47 @@ productCharacteristic.value
 </td><td>
 
 Value of the characteristic.Data type: String
+
+</td></tr><tr><td>
+
+productCharacteristic.valueType
+
+</td><td>
+
+Type of characteristic value.Possible values:
+
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
+
+Data type: String
+
+</td></tr><tr><td>
+
+productId
+
+</td><td>
+
+Sys\_id of the product model for the product inventory.Data type: String
+
+Table: Product Model \[cmdb\_model\]
 
 </td></tr><tr><td>
 
@@ -354,7 +543,9 @@ productOffering.id
 
 Initial version or external ID of the product offering. Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: initial\_version or external\_id
 
 </td></tr><tr><td>
 
@@ -362,9 +553,11 @@ productOffering.internalId
 
 </td><td>
 
-Initial version of the product offering.Data type: String
+Internal version of the product offering.Data type: String
 
-Table: In the internal\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\]
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: internal\_version
 
 </td></tr><tr><td>
 
@@ -374,7 +567,9 @@ productOffering.internalVersion
 
 Version of the product offering.Data type: String
 
-Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -394,7 +589,9 @@ productOffering.version
 
 External version of the product offering. Data type: String
 
-Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -437,9 +634,7 @@ productRelationship.relationshipType
 
 </td><td>
 
-Type of relationship.Possible value: child
-
-Data type: String
+Type of relationship.Data type: String
 
 </td></tr><tr><td>
 
@@ -466,7 +661,9 @@ productSpecification.id
 
 Initial version or external ID of the product specification.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: internal\_version or external\_id
 
 </td></tr><tr><td>
 
@@ -476,7 +673,9 @@ productSpecification.internalId
 
 Initial version of the product specification.Data type: String
 
-Table: In the initial\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: initial\_version
 
 </td></tr><tr><td>
 
@@ -486,7 +685,9 @@ productSpecification.internalVersion
 
 Version of the product specification.Data type: String
 
-Table: In the version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -496,7 +697,9 @@ productSpecification.version
 
 External version of the product specification.Data type: String
 
-Table: In the external\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -574,7 +777,7 @@ relatedParty
 
 </td><td>
 
-List of accounts or customer contacts associated to the product inventory record.Data type: Array of Objects
+List of parties associated with the ticket.Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -663,11 +866,13 @@ Response body.
          "internalVersion": "1",
          "internalId": "69017a0f536520103b6bddeeff7b127d"
       },
-      "product": "ce0b52c7532520103b6bddeeff7b12f5",
-      "place": {
-         "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
-         "name": "100 South Charles Street, Baltimore,MD"
-      },
+      "productId": "ce0b52c7532520103b6bddeeff7b12f5",
+      "place": [
+         {
+            "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+            "name": "100 South Charles Street, Baltimore, MD"
+         }
+      ],
       "productCharacteristic": [],
       "productRelationship": [],
       "realizingService": [],
@@ -686,7 +891,7 @@ Response body.
 
 ## Product Inventory Open API - GET /sn\_prd\_invt/product/\{id\}
 
-Retrieves a specified product inventory record and the sys\_ids of the associated child product inventory records.
+Retrieves a specified product inventory record.
 
 ### URL format
 
@@ -708,7 +913,7 @@ id
 
 </td><td>
 
-Sys\_id or exteranl\_id of the product inventory record to retrieve.Data type: String
+Sys\_id of the product inventory to retrieve.Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
@@ -723,6 +928,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
@@ -730,6 +965,16 @@ customer
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
 
 Default: Don't filer y customer.
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -747,9 +992,25 @@ place
 
 </td><td>
 
-Filter product inventories by place. Only product offerings with a place sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
+Filter product inventories by location.Data type: Object
 
-Default: Don't filter by place.
+```
+"place": {
+  "id": "String"
+}
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Sys\_id or external id of the location associated with the product inventory record.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
 
 </td></tr><tr><td>
 
@@ -830,6 +1091,14 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+billingAccount
+
+</td><td>
+
+Billing account of the product inventory record.Data type: String
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -842,7 +1111,7 @@ id
 
 </td><td>
 
-Sys\_id of the product inventory record.Data type: String
+Sys\_id of the product inventoryData type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
 
@@ -860,13 +1129,15 @@ place
 
 </td><td>
 
-Location of the product.Data type: Object
+Location of the product.Data type: Array
 
 ```
-"place": {
-  "id": "String",
-  "name": "String"
-}
+"place": [
+   {
+      "id": "String",
+      "name": "String"
+   }
+]
 ```
 
 </td></tr><tr><td>
@@ -875,9 +1146,11 @@ place.id
 
 </td><td>
 
-Sys\_id of the location record associated with the product.Data type: String
+Location sys\_id or external id.Data type: String
 
 Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
 
 </td></tr><tr><td>
 
@@ -887,22 +1160,27 @@ place.name
 
 Name of the location.Data type: String
 
+Table: Location \[cmn\_location\]
+
+Field: name
+
 </td></tr><tr><td>
 
 productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-create-product-offering-category.md).
 
 Data type: Array of Objects
 
 ```
 "productCharacteristic": [
-  {
-    "name": "String",
-    "value": "String"
-  }
+ {
+  "name": "String",
+  "value": "String",
+  "valueType": "String"
+ }
 ]
 ```
 
@@ -921,6 +1199,47 @@ productCharacteristic.value
 </td><td>
 
 Value of the characteristic.Data type: String
+
+</td></tr><tr><td>
+
+productCharacteristic.valueType
+
+</td><td>
+
+Type of characteristic value.Possible values:
+
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
+
+Data type: String
+
+</td></tr><tr><td>
+
+productId
+
+</td><td>
+
+Sys\_id of the product model for the product inventory.Data type: String
+
+Table: Product Model \[cmdb\_model\]
 
 </td></tr><tr><td>
 
@@ -948,7 +1267,9 @@ productOffering.id
 
 Initial version or external ID of the product offering. Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: initial\_version or external\_id
 
 </td></tr><tr><td>
 
@@ -956,9 +1277,11 @@ productOffering.internalId
 
 </td><td>
 
-Initial version of the product offering.Data type: String
+Internal version of the product offering.Data type: String
 
-Table: In the internal\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\]
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: internal\_version
 
 </td></tr><tr><td>
 
@@ -968,7 +1291,9 @@ productOffering.internalVersion
 
 Version of the product offering.Data type: String
 
-Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -988,7 +1313,9 @@ productOffering.version
 
 External version of the product offering. Data type: String
 
-Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -1031,9 +1358,7 @@ productRelationship.relationshipType
 
 </td><td>
 
-Type of relationship.Possible value: child
-
-Data type: String
+Type of relationship.Data type: String
 
 </td></tr><tr><td>
 
@@ -1060,7 +1385,9 @@ productSpecification.id
 
 Initial version or external ID of the product specification.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: internal\_version or external\_id
 
 </td></tr><tr><td>
 
@@ -1070,7 +1397,9 @@ productSpecification.internalId
 
 Initial version of the product specification.Data type: String
 
-Table: In the initial\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: initial\_version
 
 </td></tr><tr><td>
 
@@ -1080,7 +1409,9 @@ productSpecification.internalVersion
 
 Version of the product specification.Data type: String
 
-Table: In the version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -1090,7 +1421,9 @@ productSpecification.version
 
 External version of the product specification.Data type: String
 
-Table: In the external\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -1168,7 +1501,7 @@ relatedParty
 
 </td><td>
 
-List of accounts or customer contacts associated to the product inventory record.Data type: Array of Objects
+List of parties associated with the ticket.Data type: Array of Objects
 
 ```
 "relatedParty": [
@@ -1185,9 +1518,17 @@ relatedParty.id
 
 </td><td>
 
-Sys\_id of the account or customer contact associated with the product inventory record.Data type: String
+Sys\_id of the account or customer contact associated with the ticket.Data type: String
 
 Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
+
+</td></tr><tr><td>
+
+relatedParty.type
+
+</td><td>
+
+Type of related party. Value is always `Related Party`.Data type: String
 
 </td></tr><tr><td>
 
@@ -1195,17 +1536,11 @@ relatedParty.@referredType
 
 </td><td>
 
-Type of customer.Possible values:
-
--   Consumer
--   Customer
--   CustomerContact
-
-Data type: String
+Type of customer, such as a customer or customer contact.Data type: String
 
 </td></tr><tr><td>
 
-state
+status
 
 </td><td>
 
@@ -1256,22 +1591,15 @@ Output:
       "internalVersion": "1",
       "internalId": "69017a0f536520103b6bddeeff7b127d"
    },
-   "product": "ce0b52c7532520103b6bddeeff7b12f5",
-   "place": {
-      "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
-      "name": "100 South Charles Street, Baltimore,MD"
-   },
-   "productCharacteristic": [],
-   "productRelationship": [
-     {
-       "productId": "2702912bffff5610a82effffffffff88",
-       "relationshipType": "child"
-     },
-     {
-       "productId": "e2a11de7ffff5610a82effffffffff96",
-       "relationshipType": "child"
-     }
+   "productId": "ce0b52c7532520103b6bddeeff7b12f5",
+   "place": [
+      {
+         "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+         "name": "100 South Charles Street, Baltimore, MD"
+      }
    ],
+   "productCharacteristic": [],
+   "productRelationship": [],
    "realizingService": [],
    "realizingResource": [
       {
@@ -1311,6 +1639,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
@@ -1318,6 +1676,16 @@ customer
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
 
 Default: Don't filter by customer.
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -1357,9 +1725,25 @@ place
 
 </td><td>
 
-Filter product inventories by place. Only product offerings with a place sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
+Filter product inventories by location.Data type: Object
 
-Default: Don't filter by place.
+```
+"place": {
+  "id": "String"
+}
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Sys\_id or external id of the location associated with the product inventory record.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
 
 </td></tr><tr><td>
 
@@ -1510,7 +1894,34 @@ place
 
 </td><td>
 
-Place associated with the product.Data type: String
+Place associated with the product.Data type: Object
+
+```
+"place": {
+  "id": "String",
+  "name": "String"
+}
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Location sys\_id or external\_id of the product inventory.Table: Location \[cmn\_location\]
+
+Data: String
+
+</td></tr><tr><td>
+
+place.name
+
+</td><td>
+
+Name of the location associated with the product inventory.Table: Location \[cmn\_location\]
+
+Data: String
 
 </td></tr><tr><td>
 
@@ -1518,14 +1929,17 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.Data type: Array of Objects
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-create-product-offering-category.md).
+
+Data type: Array of Objects
 
 ```
 "productCharacteristic": [
-  {
-    "name": "String",
-    "value": "String"
-  }
+ {
+  "name": "String",
+  "value": "String",
+  "valueType": "String"
+ }
 ]
 ```
 
@@ -1544,6 +1958,37 @@ productCharacteristic.value
 </td><td>
 
 Value of the characteristic.Data type: String
+
+</td></tr><tr><td>
+
+productCharacteristic.valueType
+
+</td><td>
+
+Type of characteristic value.Possible values:
+
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1738,6 +2183,14 @@ relatedParty.@referredType
 
 </td><td>
 
+Type of related party. Value is always `Related Party`.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.type
+
+</td><td>
+
 Type of customer.Possible values:
 
 -   consumer
@@ -1748,7 +2201,7 @@ Data type: String
 
 </td></tr><tr><td>
 
-state
+status
 
 </td><td>
 
@@ -1942,11 +2395,51 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+account
+
+</td><td>
+
+Filter product inventories by account. Only inventories associated with the specified account are returned in the response.Data type: String
+
+Default: Don't filter by account.
+
+</td></tr><tr><td>
+
+billingAccount
+
+</td><td>
+
+Filter product inventories by billing account. Only inventories associated with the specified billing account are returned in the response.Data type: String
+
+Default: Don't filter by billing account
+
+</td></tr><tr><td>
+
+contact and consumer \(Related Party\)
+
+</td><td>
+
+Filter product inventories by associated contact or related party. Only inventories linked to the specified contact or consumer record are returned in the response.Data type: String
+
+Default: Don't filter by contact or consumer
+
+</td></tr><tr><td>
+
 customer
 
 </td><td>
 
 Filter product inventories by customer. Only product offerings with a customer sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
+
+</td></tr><tr><td>
+
+externalID
+
+</td><td>
+
+Filter product inventories by external identifier. Only inventories with an externalID matching the value of this parameter are returned in the response. Data type: String
+
+Default: Don't filter by externalID
 
 </td></tr><tr><td>
 
@@ -1964,7 +2457,25 @@ place
 
 </td><td>
 
-Filter product inventories by place. Only product offerings with a place sys\_id or external ID matching the value of this parameter are returned in the response.Data type: String
+Filter product inventories by location.Data type: Object
+
+```
+"place": {
+  "id": "String"
+}
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Sys\_id or external id of the location associated with the product inventory record.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
 
 </td></tr><tr><td>
 
@@ -2063,7 +2574,34 @@ place
 
 </td><td>
 
-Place associated with the product.Data type: String
+Place associated with the product.Data type: Object
+
+```
+"place": {
+  "id": "String",
+  "name": "String"
+}
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Location sys\_id or external\_id of the product inventory.Table: Location \[cmn\_location\]
+
+Data: String
+
+</td></tr><tr><td>
+
+place.name
+
+</td><td>
+
+Name of the location associated with the product inventory.Table: Location \[cmn\_location\]
+
+Data: String
 
 </td></tr><tr><td>
 
@@ -2071,14 +2609,17 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.Data type: Array of Objects
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-create-product-offering-category.md).
+
+Data type: Array of Objects
 
 ```
 "productCharacteristic": [
-  {
-    "name": "String",
-    "value": "String"
-  }
+ {
+  "name": "String",
+  "value": "String",
+  "valueType": "String"
+ }
 ]
 ```
 
@@ -2097,6 +2638,37 @@ productCharacteristic.value
 </td><td>
 
 Value of the characteristic.Data type: String
+
+</td></tr><tr><td>
+
+productCharacteristic.valueType
+
+</td><td>
+
+Type of characteristic value.Possible values:
+
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -2291,17 +2863,25 @@ relatedParty.@referredType
 
 </td><td>
 
+Type of related party. Value is always `Related Party`.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.type
+
+</td><td>
+
 Type of customer.Possible values:
 
--   Consumer
--   Customer
--   CustomerContact
+-   consumer
+-   customer
+-   customerContact
 
 Data type: String
 
 </td></tr><tr><td>
 
-state
+status
 
 </td><td>
 
@@ -2371,11 +2951,627 @@ Output:
 }
 ```
 
+## Product Inventory Open API – PATCH /sn\_prd\_invt/order/product/\{id\}
+
+Updates a specified product inventory record.
+
+### URL format
+
+Default URL: `/api/sn_prd_invt/order/product/{id}`
+
+### Supported request parameters
+
+<table id="table_vvs_bvr_1hc" class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+id
+
+</td><td>
+
+Sys\_id of the product inventory to update.Data type: String
+
+Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+<table class="rest_api_request_body"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+bundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+name
+
+</td><td>
+
+Name of the product inventory.Data type: String
+
+</td></tr><tr><td>
+
+place
+
+</td><td>
+
+Location of the product.Data type: Array
+
+```
+"place": [
+   {
+      "id": "String",
+      "name": "String"
+   }
+]
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Location sys\_id or external id.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
+
+</td></tr><tr><td>
+
+place.name
+
+</td><td>
+
+Name of the location.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: name
+
+</td></tr><tr><td>
+
+productOffering
+
+</td><td>
+
+Product offering that the product inventory is associated with.Data type: Object
+
+```
+"productOffering": {
+   "@referredType": "String",
+   "id": "String",
+   "internalId": "String",
+   "internalVersion": "String",
+   "name": "String",
+   "status": "String",
+   "version": "String"
+}
+```
+
+</td></tr><tr><td>
+
+productOffering.@referredType
+
+</td><td>
+
+This value is always `ProductOffering`.Data type: String
+
+</td></tr><tr><td>
+
+productOffering.id
+
+</td><td>
+
+Initial version or external ID of the product offering. Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: initial\_version or external\_id
+
+</td></tr><tr><td>
+
+productOffering.internalId
+
+</td><td>
+
+Internal version of the product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: internal\_version
+
+</td></tr><tr><td>
+
+productOffering.internalVersion
+
+</td><td>
+
+Version of the product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: version
+
+</td></tr><tr><td>
+
+productOffering.name
+
+</td><td>
+
+Name of the product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: name
+
+</td></tr><tr><td>
+
+productOffering.status
+
+</td><td>
+
+Status of the product offering.Possible values:
+
+-   archived
+-   draft
+-   published
+-   retired
+
+Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: status
+
+</td></tr><tr><td>
+
+productOffering.version
+
+</td><td>
+
+External version of the product offering. Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: external\_version
+
+</td></tr><tr><td>
+
+relatedParty
+
+</td><td>
+
+List of parties associated with the ticket.Data type: Array of Objects
+
+```
+"relatedParty": [
+  {
+    "@referredType": "String",
+    "@type": "String",
+    "id": "String",
+    "name": "String"   
+  }
+]
+```
+
+</td></tr><tr><td>
+
+relatedParty.@referredType
+
+</td><td>
+
+Type of related party.Possible values:
+
+-   Consumer
+-   Customer
+-   CustomerContact
+
+Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.@type
+
+</td><td>
+
+This value is always `RelatedParty`.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.id
+
+</td><td>
+
+Sys\_id of the account or customer contact associated with the ticket.Data type: String
+
+Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
+
+</td></tr><tr><td>
+
+relatedParty.name
+
+</td><td>
+
+Name of the of the account or customer contact associated with the ticket.Data type: String
+
+Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
+
+</td></tr></tbody>
+</table>### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Header|Description|
+|------|-----------|
+|Accept|Data format of the response body. Only supports **application/json**.|
+|Content-Type|Data format of the request body. Only supports **application/json**.|
+
+|Header|Description|
+|------|-----------|
+|None| |
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters \(JSON\)
+
+<table><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+bundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
+name
+
+</td><td>
+
+Name of the product inventory.Data type: String
+
+</td></tr><tr><td>
+
+place
+
+</td><td>
+
+Location of the product.Data type: Array
+
+```
+"place": [
+   {
+      "id": "String",
+      "name": "String"
+   }
+]
+```
+
+</td></tr><tr><td>
+
+place.id
+
+</td><td>
+
+Location sys\_id or external id.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: sys\_id or sn\_tmt\_core\_external\_id
+
+</td></tr><tr><td>
+
+place.name
+
+</td><td>
+
+Name of the location.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Field: name
+
+</td></tr><tr><td>
+
+productOffering
+
+</td><td>
+
+Product offering that the product inventory is associated with.Data type: Object
+
+```
+"productOffering": {
+   "@referredType": "String",
+   "id": "String",
+   "internalId": "String",
+   "internalVersion": "String",
+   "name": "String",
+   "status": "String",
+   "version": "String"
+}
+```
+
+</td></tr><tr><td>
+
+productOffering.@referredType
+
+</td><td>
+
+This value is always `ProductOffering`.Data type: String
+
+</td></tr><tr><td>
+
+productOffering.id
+
+</td><td>
+
+Initial version or external ID of the product offering. Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: initial\_version or external\_id
+
+</td></tr><tr><td>
+
+productOffering.internalId
+
+</td><td>
+
+Internal version of the product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: internal\_version
+
+</td></tr><tr><td>
+
+productOffering.internalVersion
+
+</td><td>
+
+Version of the product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: version
+
+</td></tr><tr><td>
+
+productOffering.name
+
+</td><td>
+
+Name of the product offering.Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: name
+
+</td></tr><tr><td>
+
+productOffering.status
+
+</td><td>
+
+Status of the product offering.Possible values:
+
+-   archived
+-   draft
+-   published
+-   retired
+
+Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: status
+
+</td></tr><tr><td>
+
+productOffering.version
+
+</td><td>
+
+External version of the product offering. Data type: String
+
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: external\_version
+
+</td></tr><tr><td>
+
+relatedParty
+
+</td><td>
+
+List of parties associated with the ticket.Data type: Array of Objects
+
+```
+"relatedParty": [
+  {
+    "@referredType": "String",
+    "@type": "String",
+    "id": "String",
+    "name": "String"   
+  }
+]
+```
+
+</td></tr><tr><td>
+
+relatedParty.@referredType
+
+</td><td>
+
+Type of related party.Possible values:
+
+-   Consumer
+-   Customer
+-   CustomerContact
+
+Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.@type
+
+</td><td>
+
+This value is always `RelatedParty`.Data type: String
+
+</td></tr><tr><td>
+
+relatedParty.id
+
+</td><td>
+
+Sys\_id of the account or customer contact associated with the ticket.Data type: String
+
+Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
+
+</td></tr><tr><td>
+
+relatedParty.name
+
+</td><td>
+
+Name of the of the account or customer contact associated with the ticket.Data type: String
+
+Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
+
+</td></tr></tbody>
+</table>### cURL request
+
+This example updates a product inventory record.
+
+```
+curl "https://instance.service-now.com/api/sn_prd_invt/product/036e506510322250f8777d910acbd77f" \ 
+--request PATCH \ 
+--header "Accept:application/json" \ 
+--header "Content-Type:application/json" \ 
+--data "{ 
+   \"name\": \"Internet Plan\", 
+   \"productOffering\": { 
+      \"@referredType\": \"ProductOffering\", 
+      \"name\": \"Premium SD-WAN Offering\", 
+      \"id\": \"0361dd9fd0a63110f8770dbf976be16f\" 
+   }, 
+   \"relatedParty\": [ 
+      { 
+         \"@referredType\": \"CustomerContact\", 
+         \"@type\": \"RelatedParty\", 
+         \"name\": \"Sally Thomas\", 
+         \"id\": \"f3af54c413651200042ab3173244b053\" 
+      }, 
+      {
+         \"@referredType\": \"Customer\", 
+         \"@type\": \"RelatedParty\", 
+         \"name\": \"Funco Intl\", 
+         \"id\": \"ffc68911c35420105252716b7d40dd55\" 
+      } 
+   ], 
+   \"bundle\": false, 
+   \"place\": [ 
+      { 
+         \"id\": \"25ab9c4d0a0a0bb300f7dabdc0ca7c1c\", 
+         \"name\": \"100 South Charles Street, Baltimore, MD\" 
+      } 
+   ] 
+}" \ 
+--user 'username':'password'
+```
+
+Response body.
+
+```
+{
+   "name": "Internet Plan",
+   "productOffering": {
+      "@referredType": "ProductOffering",
+      "name": "Premium SD-WAN Offering",
+      "id": "0361dd9fd0a63110f8770dbf976be16f",
+      "internalVersion": "1",
+      "version": "",
+      "status": "published",
+      "internalId": "0361dd9fd0a63110f8770dbf976be16f"
+   },
+   "relatedParty": [
+      {
+         "@referredType": "CustomerContact",
+         "@type": "RelatedParty",
+         "name": "Sally Thomas",
+         "id": "f3af54c413651200042ab3173244b053"
+      },
+      {
+         "@referredType": "Customer",
+         "@type": "RelatedParty",
+         "name": "Funco Intl",
+         "id": "ffc68911c35420105252716b7d40dd55"
+      }
+   ],
+   "bundle": false,
+   "place": [
+      {
+         "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+         "name": "100 South Charles Street, Baltimore, MD"
+      }
+   ],
+   "productPrice": [],
+   "id": "036e506510322250f8777d910acbd77f",
+   "href": "/api/sn_prd_invt/product/036e506510322250f8777d910acbd77f"
+}
+```
+
 ## Product Inventory Open API - POST /sn\_prd\_invt/product
 
 Creates a product inventory record.
-
-You can also use this endpoint to create product inventory bundles. For additional information on these bundles, see.
 
 ### URL format
 
@@ -2401,6 +3597,36 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+bundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
+
+Default: false
+
+</td></tr><tr><td>
+
+isBundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
+
+Default: false
+
+</td></tr><tr><td>
+
 name
 
 </td><td>
@@ -2415,7 +3641,7 @@ pid
 
 Unique identifier for the product inventory from the external system.Data type: String
 
-Default: Blank string
+ Default: Blank string
 
 </td></tr><tr><td>
 
@@ -2423,16 +3649,17 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.For additional information on product characteristics, see .
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-create-product-offering-category.md).
 
-Data type: Array
+Data type: Array of Objects
 
 ```
 "productCharacteristic": [
-  {
-    "name": "String",
-    "value": "String"
-  }
+ {
+  "name": "String",
+  "value": "String",
+  "valueType": "String"
+ }
 ]
 ```
 
@@ -2444,7 +3671,7 @@ productCharacteristic.name
 
 Name of the characteristic.Data type: String
 
-Default: Blank string
+ Default: Blank string
 
 </td></tr><tr><td>
 
@@ -2458,13 +3685,44 @@ Default: Blank string
 
 </td></tr><tr><td>
 
+productCharacteristic.valueType
+
+</td><td>
+
+Type of characteristic value.Possible values:
+
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
+
+Data type: String
+
+</td></tr><tr><td>
+
 productOffering
 
 </td><td>
 
 Required. Product offering that the product inventory is associated with.Data type: Object
 
-```
+ ```
 "productOffering": {
    "id": "String",
    "internalVersion": "String",
@@ -2491,7 +3749,9 @@ productOffering.internalVersion
 
 Version of the product offering.Data type: String
 
-Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -2513,7 +3773,9 @@ productOffering.version
 
 External version of the product offering. Data type: String
 
-Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -2560,7 +3822,7 @@ productSpecification
 
 </td><td>
 
-Product specification for the product. For additional information on product specifications, see .Data type: Object
+Required. Product specification for the product.Data type: Object
 
 ```
 "productSpecification": {
@@ -2576,7 +3838,7 @@ productSpecification.id
 
 </td><td>
 
-Initial\_version or external\_id of the product specification.Data type: String
+Required. Initial\_version or external\_id of the product specification.Data type: String
 
 Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
 
@@ -2588,7 +3850,9 @@ productSpecification.internalVersion
 
 Version of the product specification.Data type: String
 
-Table: In the version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -2598,7 +3862,9 @@ productSpecification.version
 
 External version of the product specification.Data type: String
 
-Table: In the external\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -2621,9 +3887,7 @@ realizingResource.id
 
 </td><td>
 
-Required if using the **realizingResource** parameter. Sys\_id of the realizing resource. Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-Data type: String
+Required if using the **realizingResource** parameter. Sys\_id of the realizing resource. Data type: String
 
 </td></tr><tr><td>
 
@@ -2656,9 +3920,7 @@ realizingService.id
 
 </td><td>
 
-Required if using the **realizingService** parameter. Sys\_id of the realizing service. Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
-
-Data type: String
+Required if using the **realizingService** parameter. Sys\_id of the realizing service. Data type: String
 
 </td></tr><tr><td>
 
@@ -2689,16 +3951,6 @@ List of parties associated with the ticket.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.id
-
-</td><td>
-
-Required if using the **relatedParty** parameter. Sys\_id of the account or customer contact associated with the ticket.Data type: String
-
-Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
-
-</td></tr><tr><td>
-
 relatedParty.@referredType
 
 </td><td>
@@ -2712,6 +3964,16 @@ Type of customer.Possible values:
 Data type: String
 
 Default: Blank string
+
+</td></tr><tr><td>
+
+relatedParty.id
+
+</td><td>
+
+Required if using the **relatedParty** parameter. Sys\_id of the account or customer contact associated with the ticket.Data type: String
+
+Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_consumer\]
 
 </td></tr><tr><td>
 
@@ -2787,6 +4049,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+bundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
+
+</td></tr><tr><td>
+
 href
 
 </td><td>
@@ -2802,6 +4077,19 @@ id
 Sys\_id of the product inventory.Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr><tr><td>
+
+isBundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
 
 </td></tr><tr><td>
 
@@ -2878,7 +4166,9 @@ productOffering.id
 
 Initial version or external ID of the product offering. Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: initial\_version or external\_id
 
 </td></tr><tr><td>
 
@@ -2886,9 +4176,11 @@ productOffering.internalId
 
 </td><td>
 
-Initial version of the product offering.Data type: String
+Internal version of the product offering.Data type: String
 
-Table: In the internal\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\]
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: internal\_version
 
 </td></tr><tr><td>
 
@@ -2898,7 +4190,9 @@ productOffering.internalVersion
 
 Version of the product offering.Data type: String
 
-Table: In the version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -2918,7 +4212,9 @@ productOffering.version
 
 External version of the product offering. Data type: String
 
-Table: In the external\_version field of the Product Offering \[sn\_prd\_pm\_product\_offering\] table.
+Table: Product Offering \[sn\_prd\_pm\_product\_offering\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -2961,9 +4257,7 @@ productRelationship.relationshipType
 
 </td><td>
 
-Type of relationship. Valid value: child
-
-Data type: String
+Type of relationship.Data type: String
 
 </td></tr><tr><td>
 
@@ -2990,7 +4284,9 @@ productSpecification.id
 
 Initial version or external ID of the product specification.Data type: String
 
-Table: In the initial\_version or external\_id field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: internal\_version or external\_id
 
 </td></tr><tr><td>
 
@@ -3000,7 +4296,9 @@ productSpecification.internalId
 
 Initial version of the product specification.Data type: String
 
-Table: In the initial\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: initial\_version
 
 </td></tr><tr><td>
 
@@ -3010,7 +4308,9 @@ productSpecification.internalVersion
 
 Version of the product specification.Data type: String
 
-Table: In the version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: version
 
 </td></tr><tr><td>
 
@@ -3020,7 +4320,9 @@ productSpecification.version
 
 External version of the product specification.Data type: String
 
-Table: In the external\_version field of the Product Specification \[sn\_prd\_pm\_product\_specification\] table.
+Table: Product Specification \[sn\_prd\_pm\_product\_specification\]
+
+Field: external\_version
 
 </td></tr><tr><td>
 
@@ -3111,6 +4413,14 @@ List of parties associated with the ticket.Data type: Array of Objects
 
 </td></tr><tr><td>
 
+relatedParty.@referredType
+
+</td><td>
+
+Type of related party. Value is always `Related Party`.Data type: String
+
+</td></tr><tr><td>
+
 relatedParty.id
 
 </td><td>
@@ -3121,21 +4431,21 @@ Table:Account \[customer\_account\], Contact \[customer\_contact\], or Consumer 
 
 </td></tr><tr><td>
 
-relatedParty.@referredType
+relatedParty.type
 
 </td><td>
 
 Type of customer.Possible values:
 
--   Consumer
--   Customer
--   CustomerContact
+-   consumer
+-   customer
+-   customerContact
 
 Data type: String
 
 </td></tr><tr><td>
 
-state
+status
 
 </td><td>
 
@@ -3296,6 +4606,21 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+isBundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
+
+Default: false
+
+</td></tr><tr><td>
+
 name
 
 </td><td>
@@ -3318,14 +4643,17 @@ productCharacteristic
 
 </td><td>
 
-List of product characteristics.Data type: Array
+List of product characteristics.For additional information on product characteristics, see [Create a product offering category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/som-create-product-offering-category.md).
+
+Data type: Array of Objects
 
 ```
 "productCharacteristic": [
-   {
-      "name": "String",
-      "value": "String"
-   }
+ {
+  "name": "String",
+  "value": "String",
+  "valueType": "String"
+ }
 ]
 ```
 
@@ -3337,7 +4665,7 @@ productCharacteristic.name
 
 Name of the characteristic.Data type: String
 
- Default: Blank string
+Default: Blank string
 
 </td></tr><tr><td>
 
@@ -3347,7 +4675,38 @@ productCharacteristic.value
 
 Value of the characteristic.Data type: String
 
- Default: Blank string
+Default: Blank string
+
+</td></tr><tr><td>
+
+productCharacteristic.valueType
+
+</td><td>
+
+Type of characteristic value.Possible values:
+
+-   `Address`
+-   `Array Date`
+-   `Array Datetime`
+-   `Array Decimal`
+-   `Array Integer`
+-   `Array Object`
+-   `Array Single Line Test`
+-   `CheckBox`
+-   `Choice`
+-   `Date`
+-   `Date / Time`
+-   `Email`
+-   `Integer`
+-   `Object`
+-   `Single Line Text`
+-   `Yes / No`
+
+ **Note:** By default, or if this property doesn't exist, this field returns the display values listed above. To return the internal value instead \(matching the value format the TMF622 Product Order API already uses by default\), create a true/false system property named **sn\_prd\_invt.enableseamlessvaluetype** and set it to `true`: `address`, `array.date`, `array.datetime`, `array.decimal`, `array.integer`, `array.object`, `array.single_line_text`, `attachment`, `checkbox`, `choice`, `date`, `date_time`, `decimal`, `duration`, `email`, `integer`, `object`, `single_line_text`, `yes_no`.
+
+Default: `false`
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -3542,16 +4901,6 @@ List of parties associated with the ticket.Data type: Array of Objects
 
 </td></tr><tr><td>
 
-relatedParty.id
-
-</td><td>
-
-Required if using the **relatedParty** parameter. Sys\_id of the account or customer contact associated with the ticket.Data type: String
-
-Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_Consumer\]
-
-</td></tr><tr><td>
-
 relatedParty.@referredType
 
 </td><td>
@@ -3565,6 +4914,16 @@ Type of customer.Possible values:
 Data type: String
 
 Default: Blank string
+
+</td></tr><tr><td>
+
+relatedParty.id
+
+</td><td>
+
+Required if using the **relatedParty** parameter. Sys\_id of the account or customer contact associated with the ticket.Data type: String
+
+Table: Account \[customer\_account\], Contact \[customer\_contact\], or Consumer \[csm\_Consumer\]
 
 </td></tr><tr><td>
 
@@ -3647,6 +5006,19 @@ id
 Sys\_id of the product inventory.Data type: String
 
 Table: Product Inventory \[sn\_prd\_invt\_product\_inventory\]
+
+</td></tr><tr><td>
+
+isBundle
+
+</td><td>
+
+Flag that indicates whether the product inventory record is part of a bundled product.Valid values:
+
+-   true: Is part of a bundle.
+-   false: Isn't part of a bundle.
+
+Data type: Boolean
 
 </td></tr><tr><td>
 

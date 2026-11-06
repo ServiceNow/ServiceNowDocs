@@ -1,32 +1,34 @@
 ---
-title: Configuring Now Assist Readiness Evaluation
-description: Run the scheduled jobs and complete the Now Assist Readiness Evaluation guided setup configuration steps before viewing the generative AI and agentic AI assessment results.
+title: Configuring AI Readiness Evaluation
+description: Run the scheduled jobs and complete the AI Readiness Evaluation guided setup configuration steps before viewing the generative AI and agentic AI assessment results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configuring-now-assist-readiness-evaluation.html
 release: yokohama
 product: Now Assist Readiness Evaluation
 classification: now-assist-readiness-evaluation
 topic_type: concept
-last_updated: "2025-09-18"
+last_updated: "2026-10-06"
 reading_time_minutes: 1
 keywords: [configure, Now Assist Readiness Evaluation, Now Assist Readiness Evaluation app, Now Assist Readiness, Now Assist assessment, GenAI assessment, AI assessment, Agentic AI assessment]
-breadcrumb: [Now Assist Readiness Evaluation, Enable AI experiences]
+breadcrumb: [AI Readiness Evaluation, Assessing your AI readiness, Getting started with AI, Enable AI Experiences]
 ---
 
-# Configuring Now Assist Readiness Evaluation
+# Configuring AI Readiness Evaluation
 
-Run the scheduled jobs and complete the Now Assist Readiness Evaluation guided setup configuration steps before viewing the generative AI and agentic AI assessment results.
+Run the scheduled jobs and complete the AI Readiness Evaluation guided setup configuration steps before viewing the generative AI and agentic AI assessment results.
+
+**Important:** The AI Readiness Evaluation store application is being prepared for deprecation. The readiness assessment capability is now available as a native in-platform feature within the AI Admin Center application. For more information, see [AI Admin Center \(formerly Now Assist Center\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-center-landing-page.md).
 
 ## Configuration overview
 
-Before configuring the Now Assist Readiness Evaluation app, confirm that the Now Assist Readiness Evaluation app is installed. Navigate to **All** &gt; **System Definition** &gt; **Plugins**, and search for either the app name, `Now Assist Readiness Evaluation`, or app ID, `sn_assess`, to confirm.
+Before configuring the AI Readiness Evaluation app, confirm that it is installed. Navigate to **All** &gt; **System Definition** &gt; **Plugins**, and search for either the app name, `AI Readiness Evaluation`, or app ID, `sn_assess`, to confirm.
 
 1.  [Run the GenAI/AgenticAI Assessment scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/run-genai-agenticai-assessment-scheduled-job.md)
 
-    Run the GenAI/AgenticAI Assessment scheduled job so that agentic and generative AI assessment results populate in **Workspaces** &gt; **Now Assist Readiness Evaluation**.
+    Run the GenAI/AgenticAI Assessment scheduled job so that agentic and generative AI assessment results populate in **Workspaces** &gt; **AI Readiness Evaluation**.
 
-2.  [Configure the Now Assist Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md)
+2.  [Configure the AI Readiness Evaluation guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-readiness-evaluation/configure-nare-guided-setup.md)
 
-    Complete the configuration for the five Now Assist jobs. Additional configuration is required to work with the ServiceNow Otto for HRSD assessment.
+    Complete the configuration for the five AI jobs. Additional configuration is required to work with the ServiceNow Otto for HRSD assessment.
 
 

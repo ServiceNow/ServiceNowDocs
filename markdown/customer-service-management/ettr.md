@@ -5,20 +5,20 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ettr.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Estimated time to resolve a case
 
 Machine learning in Customer Service Management helps with case resolution by predicting the estimated time to resolve a case.
 
-Machine learning predicts the estimated time to resolve a case \(ETTR\) based on attributes of a case such as its short description, category, priority, and assignment group. For more information about configuring the machine learning regression definition for ETTR, see [Configure the default estimated time to resolve a case regression definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ettr_configure.md).
+Machine learning predicts the estimated time to resolve a case \(ETTR\) based on attributes of a case such as its short description, category, priority, and assignment group. For more information about configuring the machine learning regression definition for ETTR, see [Configure the default estimated resolution time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ettr_configure.md).
 
 ## Activation
 
 This feature is available with activation of the Predictive Intelligence for Customer Service Management plugin \(com.sn\_csm\_ml\). For more information, see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-predictive-intelligence.md).
 
-Agents must activate the **Time to resolve** ribbon component, which displays the ETTR, to view it in the CSM Agent Workspace or in the CSM Configurable Workspace. For more information, see [Display the time to resolve ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ettr-activate.md) and [Estimated time to resolve](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-agent-workspace-ribbon.md).
+Agents must activate the **Time to resolve** ribbon component, which displays the ETTR, to view it in the CSM Agent Workspace or in the CSM Configurable Workspace. For more information, see [Display the time to resolve ribbon component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ettr-activate.md) and [CRM Workspace form ribbon and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-agent-workspace-ribbon.md).
 

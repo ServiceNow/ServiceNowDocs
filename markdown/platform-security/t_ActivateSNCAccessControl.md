@@ -1,16 +1,16 @@
 ---
-title: Activating ServiceNow access control
+title: Activate ServiceNow access control
 description: You request activation of the SNC Access Control plugin \(com.snc.snc\_access\_control\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/t\_ActivateSNCAccessControl.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow access control, Access Management]
 ---
 
-# Activating ServiceNow access control
+# Activate ServiceNow access control
 
 You request activation of the SNC Access Control plugin \(com.snc.snc\_access\_control\).
 
@@ -25,13 +25,13 @@ There are two ways to request a plugin:
 -   Access the Now Support Service Catalog directly by selecting **Automation Store** &gt; **Service Catalog** &gt; **Activate Plugin** on Now Support.
 -   Access the Now Support Service Catalog through the All Applications page on your instance by following these steps.
 
+For additional details about requesting a plugin, see [Requesting a Plugin from the Service Catalog \[KB0751715\] article in the Now Support Knowledge Base.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0751715)
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
-
-    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -71,8 +71,6 @@ Select the date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Work on a complaint case, Using Financial Services Complaint Management, Complaint Management, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Work on a complaint case, Use, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Field descriptions for a complaint case

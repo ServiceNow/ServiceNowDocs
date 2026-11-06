@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-10-14"
-reading_time_minutes: 3
-breadcrumb: [Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up MID Server for a spoke
@@ -88,7 +88,7 @@ MID Application
 
 </td><td>
 
-The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected, and then **Auto-Select MID Server** is selected in the MID Selection list. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerSelector.md).
+The application the MID Server must support to be eligible for selection. The system runs the action from a MID Server that supports the selected application. Only displays if **Use MID server** is selected. To learn more about how a MID Server is selected during runtime, see [MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_MIDServerSelector.md).
 
 **Note:** This field is visible only when **Auto-Select MID Server** is selected from the MID Selection list.
 

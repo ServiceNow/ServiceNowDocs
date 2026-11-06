@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage your inventory through pallet assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage your inventory through pallet assets, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using pallet assets for managing inventory
@@ -24,7 +24,7 @@ Updates that you perform on the pallet as part of the transfer order workflow ar
 
 If there's a problem with all or some of the assets you receive as part of a transfer order, you can return the pallet along with its assets. You can't return individual assets contained in the pallet.
 
-For more information, see [Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-orders-for-am.md).
+For more information, see [Transfer assets using transfer orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_TransferAssetsUsingTransferOrders.md).
 
 ## Disposing of pallets
 

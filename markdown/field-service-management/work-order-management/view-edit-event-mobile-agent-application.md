@@ -1,28 +1,32 @@
 ---
-title: Edit a personal event in the Mobile Agent
-description: Edit personal events that you created in the Mobile Agent if something related to the event changes.
+title: Edit a personal event in the ServiceNow Agent mobile app
+description: Edit personal events that you created in ServiceNow Agent if something related to the event changes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-edit-event-mobile-agent-application.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal events in Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Personal events, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Edit a personal event in the Mobile Agent
+# Edit a personal event in the ServiceNow Agent mobile app
 
-Edit personal events that you created in the Mobile Agent if something related to the event changes.
+Edit personal events that you created in ServiceNow Agent if something related to the event changes.
 
 ## Before you begin
 
 Role required: wm\_agent
 
+## About this task
+
+If you're editing a break, the break must fall within the break window. The break window shows on the Edit Event screen.
+
 ## Procedure
 
-1.  Open the Mobile Agent and tap **My schedule**.
+1.  Open ServiceNow Agent and tap **My schedule**.
 
 2.  Tap the day of the event.
 
@@ -32,8 +36,13 @@ Role required: wm\_agent
 
 5.  Edit the event information.
 
+    **Note:** If this is a recurring event, select the occurrence the change applies to.
+
+    |Option|Description|
+    |------|-----------|
+    |Edit this event|Applies your changes to only this occurrence.|
+    |Edit this and future events|Applies your changes to this occurrence and all future occurrences.|
+
 6.  Tap **Submit**.
 
-
-**Parent Topic:**[Personal events in Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/events-now-mobile-application.md)
 

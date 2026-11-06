@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Exploring Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey Accelerator versions and release compatibility
@@ -18,7 +18,7 @@ Available features depend on the Journey Accelerator version, family release, an
 
 Not all Journey Accelerator features are available in all supported family releases. Go to the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view the latest information and requirements for features and releases.
 
-**Note:** Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+**Note:** Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Different versions of Journey Accelerator are supported only in certain family releases.
 
@@ -28,13 +28,10 @@ Supported family releases: Tokyo.
 
 **Note:** Journey Accelerator Version 5.0.0 cannot be installed as a standalone application. Journey Accelerator version 5 functionality is installed as a dependency with Journey designer version 1. This information is for reference only.
 
-Other requirements:
+Other requirements: To schedule Outlook meetings from Journey Accelerator tasked-based to-dos, the following spoke should be installed:
 
--   To schedule Outlook meetings from Journey Accelerator tasked-based to-dos, the following spoke should be installed:
-    -   Microsoft Exchange Online Spoke v3.2.0 \[sn\_ex\_online\_spke\]
-    -   Retry Handler Framework v1.0.1 \[sn\_retry\_handler\]
--   To use the Listening Posts \[sn\_lp\] application, you must install Listening Posts v5.0.0 from the ServiceNow Store \(and all Listening Posts requirements\)
--   To use the Learning Posts \[sn\_lnp\] application, you must install Learning Posts v5.0.0 from the ServiceNow Store \(and all Learning Posts requirements\)
+-   Microsoft Exchange Online Spoke v3.2.0 \[sn\_ex\_online\_spke\]
+-   Retry Handler Framework v1.0.1 \[sn\_retry\_handler\]
 
 ## Journey Accelerator Version 4.0.2
 

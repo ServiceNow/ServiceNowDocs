@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Insurance claims, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Approve a reserve or payment amount for an Insurance claims case
@@ -32,15 +32,15 @@ This procedure references service definitions and products that are used in the 
 
 2.  Open the task in one of the following ways.
 
-<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d73124e89">
+<table id="choicetable_crj_rkc_vcc"><thead><tr><th align="left" id="d89288e103">
 
 Option
 
-</th><th align="left" id="d73124e92">
+</th><th align="left" id="d89288e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d73124e98">
+</th></tr></thead><tbody><tr><td id="d89288e112">
 
 **From the landing page**
 
@@ -48,13 +48,13 @@ Description
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d73124e107">
+</td></tr><tr><td id="d89288e121">
 
 **From the Insurance claims approvals list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  On the **Lists** tab, under **Insurance claim flow approvals** \(or the list category that is specific to your custom workflow\), select one of the following options:
     -   **My approvals - Reserves**
     -   **My approvals - Payments**
@@ -64,15 +64,15 @@ Select the task from the My pending tasks list.
 </td></tr></tbody>
 </table>3.  Close the task from the Claim reserve or Claim payment task form.
 
-<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d73124e159">
+<table id="choicetable_tyn_clc_vcc"><thead><tr><th align="left" id="d89288e173">
 
 Approval task
 
-</th><th align="left" id="d73124e162">
+</th><th align="left" id="d89288e176">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d73124e168">
+</th></tr></thead><tbody><tr><td id="d89288e182">
 
 **Submit an approval**
 
@@ -80,7 +80,7 @@ Action
 
 Approve the reserve or payment amount by selecting **Approve**.
 
-</td></tr><tr><td id="d73124e180">
+</td></tr><tr><td id="d89288e194">
 
 **Submit a rejection**
 

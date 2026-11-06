@@ -7,8 +7,8 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -26,14 +26,28 @@ You can connect to Bitbucket Cloud using one of the following authentication met
 
 -   **Basic Auth**
 
-    When you select the credential type as Basic Auth the repositories for all the workspaces in the organization are discovered. You can get the user name and password for Basic Auth from the settings of your Bitbucket account. To copy the user name, navigate to **Settings &gt; General &gt; Account settings**, and copy the user name from the Bitbucket profile settings section. To copy the password, navigate to **Settings &gt; Personal Bitbucket settings &gt; App passwords**, and select **Create app password**. Enter the necessary details and select the required permissions, and then select **Create**, and copy the password. The following permissions must be selected while creating the credentials:
+    When you select the credential type as Basic Auth the repositories for all the workspaces in the organization are discovered. You need the email address and API token with scopes of your Bitbucket Cloud account to connect using Basic Auth. You can copy your email address by navigating to **Profile avatar &gt; Personal settings &gt; Account settings &gt; Email** of your Bitbucket Cloud account.
 
-    -   Account: Read
-    -   Projects: Read
-    -   Webhooks: Read and write
-    -   Pull requests: Read
-    \[Omitted image "bitbucket-oauth-permissions.png"\] Alt text: Permissions for Bitbucket basic auth
+    To get the API token with scopes, perform the following steps:
 
+    1.  Select your profile avatar at the bottom-left of the Bitbucket sidebar, then select **Account settings**.
+    2.  From the Atlassian Account page, select the **Security** tab on the top navigation bar.
+    3.  Select **Create and manage API tokens**.
+    4.  Select **Create API token with scopes**.
+    5.  Give the API token a name and an expiry date, usually related to the application that will use the token and select **Next**.
+    6.  Select **Bitbucket** as the app and select **Next**.
+    7.  Select the following scopes \(permissions\) and select **Next**.
+
+        -   read:account — Required to view users profiles.
+        -   read:project:bitbucket — View your projects
+        -   read:pullrequest:bitbucket — View your pull requests
+        -   read:repository:bitbucket — View your repositories
+        -   read:webhook:bitbucket — View your webhooks
+        -   write:webhook:bitbucket — Modify your webhooks
+        \[Omitted image "bitbucket-oauth-permissions.png"\] Alt text: Permissions for Bitbucket basic auth
+
+    8.  Review your token and select the **Create token** button.
+    9.  Copy the generated API token and either record or paste it into the application you want to give access.
 -   **OAuth 2.0 - Authorization Code**
 
     You must create the OAuth consumer in the Bitbucket tool with the required permissions before creating the OAuth record for Authorization Code. You can navigate to **Workspace settings &gt; OAuth consumers &gt; Add consumer** in Bitbucket to add the OAuth consumer. \[Omitted image "bitbucket-oauth-consumer.png"\] Alt text: OAuth consumer page Select the following permissions for the OAuth consumer.

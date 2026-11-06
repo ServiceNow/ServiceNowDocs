@@ -1,20 +1,20 @@
 ---
 title: Enable automatic MID Server selection
-description: Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers and determine the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
+description: Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers. The agent then determines the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-disable-auto-mid-selection.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automatic MID Server selection, Configuring Agent Client Collector with a MID Server, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Automatic MID Server selection, Configuring ACC with a MID Server, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Enable automatic MID Server selection
 
-Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers and determine the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
+Enabling automatic MID Server selection lets the agent perform a connectivity test against the list of available MID Servers. The agent then determines the best connection based on latency and number of currently connected agents. Automatic MID Server selection is disabled by default.
 
 ## Before you begin
 
@@ -32,8 +32,6 @@ Role required: agent\_client\_collector\_admin
 ## What to do next
 
 To disable automatic MID Server selection again, set each of the properties back to **false**.
-
-To schedule updates more often than once daily, or execute the job on demand, see [Configure the frequency of updating the agent MID Server list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-update-mid-server-list.md).
 
 **Parent Topic:**[Automatic MID Server selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-auto-mid-selection.md)
 

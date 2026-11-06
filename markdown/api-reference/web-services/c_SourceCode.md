@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Call a web service in visual studio .NET, Web services C Sharp .NET end to end tutorial, Inbound web service examples, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Call a web service, .NET tutorial, Examples, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # C Sharp integration source code

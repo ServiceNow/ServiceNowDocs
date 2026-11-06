@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Relational Database Service, RDS, Amazon RDS]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Amazon Relational Database Service \(Amazon RDS\) discovery with Patterns
@@ -21,24 +21,9 @@ Amazon RDS is a managed relational database service by Amazon Web Services \(AWS
 
 The ServiceNow AI Platform supports Amazon Commercial Cloud Services \(C2S\) for discovery and cloud governance. C2S is the government program that brings AWS into the Intelligence Community.
 
-## Prerequisites
+## Pattern-based discovery and mapping requirements
 
--   Install the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   On the ServiceNow AI Platform, configure AWS credentials, using a secret key and an access key.
--   [Create a service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/aws-first-cld-and-srvc-accts.md). Set the **Account ID** to the Amazon account ID to which RDS belongs. Use the Account ID as it appears in the AWS Management Console.
--   Set read-only permissions for these REST APIs:
-    -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances
-    -   https://rds.&lt;REGION&gt;.amazonaws.com/?Action=DescribeDBInstances&amp;DBInstanceIdentifier=&lt;input\_object\_id&gt; for events discovery
-    -   https://tagging.&lt;REGION&gt;.amazonaws.com/ for tags discovery
--   Ensure to place the MID Server inside the Amazon cloud.
--   For Cloud Discovery, download the Discovery and Service Mapping pattern from the ServiceNow Store.
--   When installing the MID Server, ensure that the host machine meets or exceeds the [MID Server system requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_MIDServerSystemRequirements.md) published on the ServiceNow documentation site.
-
-## Verify the REST API Permissions
-
-Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
-
-**Note:** You can test the AWS REST APIs using Postman API platform. For more information, see the [How to test AWS REST API using POSTMAN \[KB0782183\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0782183) article in the Now Support Knowledge Base.
+Verify the AWS discovery prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 ## Support for AWS services in the China region
 
@@ -265,5 +250,5 @@ The Amazon AWS Relational Database Service pattern collects tags and populates t
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud DataBase \[cmdb\_ci\_cloud\_database\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

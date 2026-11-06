@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-install-base-for-account-consumers.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Customer Data Models for B2B2C, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using customer data models for B2B2C, Customer management, Use, Customer Service Management]
 ---
 
 # View install base information as an account consumer
@@ -22,18 +22,18 @@ Role required: sn\_acct\_consumer.consumer
 
 View the list of install base items information from the Customer Service Portal.
 
-**Note:** The **Entitlements** widget and the **Contracts** widget are not visible for account consumers.
+**Note:** The **Entitlements** widget and the **Contracts** widget aren’t visible for account consumers.
 
 ## Procedure
 
 1.  Navigate to the Customer Service Portal.
 
-2.  Click **Support** &gt; **Install Base**.
+2.  Select **Support** &gt; **Install Base**.
 
     The system displays a list of install base items that belong to your account.
 
 3.  Select an install base to view its details.
 
-    **Note:** The default view is the form view. If you switch to the list view, the **Account** and **Consumer** fields are not displayed. See [Configure the Install Base items and Sold Products lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-b2b2c-data-model-case-list.md) for details.
+    **Note:** The default view is the form view. If you switch to the list view, the **Account** and **Consumer** fields aren’t displayed. See [Configure the Install Base items and Sold Products lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-b2b2c-data-model-case-list.md) for details.
 
 

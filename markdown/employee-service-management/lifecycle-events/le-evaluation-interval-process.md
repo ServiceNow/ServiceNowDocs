@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # View and use the Condition with Event BR \(Demo\) activity set
@@ -38,8 +38,6 @@ Role required: admin
 
     -   The **Trigger type** is **Condition**.
     -   When the **State** of the LE/HR case changes to **Work in Progress**, the **Condition with Event BR \(Demo\)** activity set triggers and sends a email.
-    \[Omitted image "condition\_event\_BR\_demo.png"\] Alt text: Condition with Event BR Demo activity set
-
 
 **Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/le-evaluation-interval1.md)
 

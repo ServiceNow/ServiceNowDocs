@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/config-aia-notifications.html
 release: yokohama
 topic_type: task
-last_updated: "2025-10-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add recipients to usage spike, execution failure, and latency error email notifications
@@ -16,7 +16,7 @@ Add or change recipients to email notifications triggered by unexpected or undes
 
 ## Before you begin
 
-Set your application scope to Now Assist AI Agents.
+Set your application scope to ServiceNow Otto AI Agents.
 
 Role required: admin
 

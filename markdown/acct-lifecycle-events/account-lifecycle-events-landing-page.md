@@ -1,34 +1,22 @@
 ---
-title: Account onboarding
-description: Create a structured onboarding experience while enabling collaboration and transparency with internal and external stakeholders during the onboarding process.
+title: Configure Customer Success Management
+description: Configure Customer Success Management to support your customer success journey. Use this reference to find configuration tasks for installation, account onboarding, and customer success capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-events-landing-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Account Lifecycle Events]
+breadcrumb: [Customer Success Management]
 ---
 
-# Account onboarding
+# Configure Customer Success Management
 
-Create a structured onboarding experience while enabling collaboration and transparency with internal and external stakeholders during the onboarding process.
+Configure Customer Success Management to support your customer success journey. Use this reference to find configuration tasks for installation, account onboarding, and customer success capabilities.
 
-<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+|Task|Description|
+|----|-----------|
+|[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-get-started.md)|Installs Customer Success Management and related plugins.|
+|[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md)|Configure the account onboarding playbook including its activities, tasks, data validation rules, and data import behavior.|
+|[Configure customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-config-cust-success.md)|Configure the customer success capabilities to track engagements, identify risks, and support retention goals for your organization.|
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text: Learn about the account onboarding playbook and its key features.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-playbook-overview.md)
-
-</td><td>
-
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up and configure the Account Onboarding playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md)
-
-</td></tr><tr><td>
-
-[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Use the playbook to onboard customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use.md)
-
-</td><td>
-
-[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get information about the data model and installed components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-reference.md)
-
-</td></tr></tbody>
-</table>

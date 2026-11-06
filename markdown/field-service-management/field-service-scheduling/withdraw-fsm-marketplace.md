@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Withdraw from a request on Field Service Marketplace
@@ -36,6 +36,4 @@ If there aren't enough agents available, or there are other obstacles, you can w
 ## Result
 
 You're response is withdrawn from the request. The request is removed from your responses.
-
-**Parent Topic:**[Allowing contractors to bid on work orders and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-fsm-marketplace.md)
 

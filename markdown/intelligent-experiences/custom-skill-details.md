@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/custom-skill-details.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 keywords: [Now Assist, Analytics, skills details, dashboard, generative AI, Gen AI, sn\_na\_analytics\_viewer]
-breadcrumb: [Skills performance, Using AI Analytics, Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Skills performance, Using AI Analytics, Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Custom skill details
@@ -32,6 +32,42 @@ The Custom skill details page contains a common set of indicators that give you 
 
 The following indicators are common across all custom skills.
 
+-   **Number of custom skills created**
+
+    This area of the dashboard shows the number of custom skills created by the users in the selected date range.
+
+    \[Omitted image "naa-number-of-custom-skill-created.png"\] Alt text: Number of custom skills created indicator.
+
+-   **Number of custom skills activated**
+
+    This area of the dashboard shows the number of custom skills activated by the users in the selected date range.
+
+    \[Omitted image "naa-number-of-custom-skill-activated.png"\] Alt text: Number of custom skills activated indicator.
+
+-   **Number of prompts in active custom skills**
+
+    This area of the dashboard shows the number of prompts in active custom skills in the selected date range.
+
+    \[Omitted image "naa-number-of-prompts-active-custom-skills.png"\] Alt text: Number of prompts in active custom skills indicator.
+
+-   **Number of Assists consumed by custom skills**
+
+    This area of the dashboard shows the number of Assists consumed by custom skills in the selected date range.
+
+    \[Omitted image "naa-number-of-assists-consumed-custom-skills.png"\] Alt text: Number of Assists consumed by custom skills indicator.
+
+-   **Count of invocations**
+
+    This area of the dashboard shows the count of invocations for the custom skills in the selected date range.
+
+    \[Omitted image "naa-number-of-count-invocations.png"\] Alt text: Count of invocations indicator.
+
+-   **Daily unique users engaging with the skill**
+
+    This area of the dashboard shows the number of unique users per day who engaged with the skill in the selected date range. The bar chart shows a trend of increase or decrease in the number of unique users to help you understand periods of high and low skill engagement.
+
+    \[Omitted image "naa-daily-custom-skill-unique-users.png"\] Alt text: Daily unique users engaging with the skill indicator.
+
 -   **Skill engagement trend by workflows**
 
     This area of the dashboard shows the skill usage across workflows in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the workflows.
@@ -40,21 +76,15 @@ The following indicators are common across all custom skills.
 
 -   **Skill engagement trend by products**
 
-    This area of the dashboard shows the skill usage across Now Assist products in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the products.
+    This area of the dashboard shows the skill usage across ServiceNow Otto products in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the products.
 
     \[Omitted image "naa-skill-engagement-trend-by-products.png"\] Alt text: Skill engagement trend by products.
 
 -   **Skill engagement trend by features**
 
-    This area of the dashboard shows the skill usage across Now Assist features in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the features.
+    This area of the dashboard shows the skill usage across ServiceNow Otto features in a bar chart for the selected date range. The visualization is interactive. Hover over the bars to see the number of times the skill was used in each of the features.
 
     \[Omitted image "naa-skill-engagement-trend-by-features.png"\] Alt text: Skill engagement trend by features indicator.
-
--   **Daily unique users engaging with the skill**
-
-    This area of the dashboard shows the number of unique users per day who engaged with the skill in the selected date range. The bar chart shows a trend of increase or decrease in the number of unique users to help you understand periods of high and low skill engagement.
-
-    \[Omitted image "naa-daily-custom-skill-unique-users.png"\] Alt text: Daily unique users engaging with the skill indicator.
 
 -   **Executed successfully**
 

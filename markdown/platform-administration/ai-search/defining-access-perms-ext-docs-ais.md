@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [External content security, Indexing and searching external content, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -80,7 +80,7 @@ Boolean option indicating whether access to the external document is denied for 
 
  When set to **true**, this permission overrides all **groups** and **users** permissions.
 
- This permission is mutually exclusive with **none**. Only one of these two permissions can be set to **true** for any external document.
+ This permission is mutually exclusive with **everyone**. Only one of these two permissions can be set to **true** for any external document.
 
 </td></tr><tr><td>
 

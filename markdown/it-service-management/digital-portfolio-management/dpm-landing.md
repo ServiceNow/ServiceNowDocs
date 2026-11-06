@@ -1,20 +1,20 @@
 ---
 title: Digital Portfolio Management
-description: Manage and maintain all your solutions \(services, service offerings, business applications, and application services\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
+description: Manage and maintain all your solutions \(services, service offerings, business applications, and service instances\) from a single location using the ServiceNow Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-landing.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
 
 # Digital Portfolio Management
 
-Manage and maintain all your solutions \(services, service offerings, business applications, and application services\) from a single location using the ServiceNow® Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
+Manage and maintain all your solutions \(services, service offerings, business applications, and service instances\) from a single location using the ServiceNow® Digital Portfolio Management \(DPM\) Workspace. DPM pulls in data from across the ServiceNow platform so you see impacts in the context of solutions that you own or care about.
 
 \[Omitted video\] Description: DPM Overview.
 

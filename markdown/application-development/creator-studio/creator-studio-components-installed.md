@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Installing Creator Studio from the ServiceNow Store, Configuring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Install, Configure, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Components installed with Creator Studio
@@ -225,7 +225,8 @@ Request Task \[sn\_creatorstudio\_task\]
 Table where all requests from apps made in Creator Studio are stored.**Note:**
 
 -   You must have the Request Task table installed on the production instance as well as the non-production instance.
--   Admins can change the underlying table that each app in Creator Studio uses. However, the tables in this topics are still installed by default.
+-   Admins can change the associated table that each app in Creator Studio uses. However, the tables in this topics are still installed by default. For more information, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md).
+-   You can change the **Request type** field, which specifies the form, on the Request Task table or a table that extends Request Task. To do so, you must be an admin or have the sn\_creatorstudio.configuration\_admin or sn\_creatorstudio.task\_admin role.
 
 </td></tr><tr><td>
 

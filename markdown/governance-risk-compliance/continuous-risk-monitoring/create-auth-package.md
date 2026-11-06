@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [RMF step 0 - Prepare the authorization package, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [RMF step 0 - Prepare the authorization package, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Create an authorization package
@@ -36,7 +36,7 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 
 3.  Select the **Roles and Responsibilities** tab and specify the responsibilities of various stakeholders during the review and approval process.
 
-    The settings are described in [Fields on the Roles and Responsibilities tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-form-roles-responsibility-tab.md).
+    The settings are described in [Roles and Responsibilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/cam-form-authorization-package.md).
 
 4.  Select the **PTA/PIA** tab and perform the Privacy Threshold Analysis by answering the questions.
 
@@ -60,7 +60,9 @@ Role required: sn\_irm\_cont\_auth.system\_owner or sn\_irm\_cont\_auth.admin
 
 7.  Select the **Notes and Comments** tab to add any customer-facing notes to the package.
 
-8.  Select **Categorize** to transition the package to the next step
+8.  Select **Proceed to Next Step** to transition the package to the next step.
+
+    The authorization package is transitioned to categorize step.\[Omitted image "cam-auth-packages-next-step.png"\] Alt text: Authorization Package proceed to next step.
 
 
 **Parent Topic:**[RMF step 0 - Prepare the authorization package](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/continuous-risk-monitoring/prepare-auth-pkg.md)

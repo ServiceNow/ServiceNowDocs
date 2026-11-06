@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -141,8 +141,6 @@ You can use the script editor to customize and format the field values during th
 </td></tr></tbody>
 </table>    The following example shows an end user lookup rule with the name 'Symantec'. The condition builder requires the 'Integration Source' as 'Symantec'. The **Lookup end user by using** option is set to 'Incident field', and **End user identifier** option is set to 'File Modified by'.
 
-    \[Omitted image "dlp-enduser-lookuprule.png"\] Alt text: Configure end user lookup rules
-
 4.  Click **Submit**.
 
     You also have an option to select one or more end user lookup rules and reapply it on all existing DLP incidents.
@@ -185,7 +183,7 @@ You can use the script editor to customize and format the field values during th
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

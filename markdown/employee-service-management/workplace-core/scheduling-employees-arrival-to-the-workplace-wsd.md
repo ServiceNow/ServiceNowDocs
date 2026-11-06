@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Setting and tracking arrivals at the workplace
@@ -44,6 +44,8 @@ Define building time zones, change the capacity of an arrival schedule, and set 
 
 [Configure Workplace entity and entity types]()
 
+[Managing Neighborhoods]()
+
 [Enable favorites option for Workplace Service Portal]()
 
 [Create a workplace performer criteria]()
@@ -68,5 +70,5 @@ Define building time zones, change the capacity of an arrival schedule, and set 
 
 [Location migration]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

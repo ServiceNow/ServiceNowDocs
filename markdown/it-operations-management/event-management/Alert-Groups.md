@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert grouping types and creation methods
@@ -82,7 +82,8 @@ Created via business rule \(Calculate correlation rule\) on em\_alert table when
 
 </td><td>
 
-[Create an alert correlation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigureAnEventCorrelationRule.md)
+-   [Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMEventCorrelationRules.md)
+-   [Create an alert correlation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_EMConfigureAnEventCorrelationRule.md)
 
 </td></tr><tr><td>
 
@@ -164,7 +165,7 @@ Created via scheduled job.
 
 </td><td>
 
-N/A
+[Text-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/text-based-alert-groups.md)
 
 </td></tr><tr><td>
 
@@ -204,7 +205,7 @@ Created manually by the user.
 
 </td><td>
 
-[Create alert group manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_SAAddAlertCorrelatedAlertGrp.md)
+[Manual alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/t_SAAddAlertCorrelatedAlertGrp.md)
 
 </td></tr></tbody>
 </table>For information on scheduled jobs and parameters, refer to [Scheduled jobs and parameters for alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/alert-grp-jobs-parameters.md). For detailed information on configuring alert correlation logic order, see [Configure alert correlation logic order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-alert-correlation-logic-order.md).

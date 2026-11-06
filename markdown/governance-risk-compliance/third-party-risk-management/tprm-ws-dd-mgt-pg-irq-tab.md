@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -98,7 +98,7 @@ Users who responded to the request.
 
 -   **Scales tab on the Internal assessments page**
 
-    The tab lists the definitions of the calculated rating and tier values. See [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md) and [VRM third-party risk tiering assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/manage-risk-tiering-assessments.md) for instructions for defining the settings.
+    The tab lists the definitions of the calculated rating and tier values. See [Set up risk rating scales for scoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-risk-rating-scales-config.md) for instructions for defining the settings.
 
 -   **Questionnaire requests tab on the Internal assessments page**
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-domain-assignment.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Domain separation recommended practices for service providers, Domain separation for service providers, Access Management]
+breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
 
 # Domain assignments

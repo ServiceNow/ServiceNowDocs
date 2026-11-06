@@ -1,20 +1,20 @@
 ---
-title: Parts of the user interface
-description: The Script Debugger interface displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
+title: Script Debugger user interface
+description: The Script Debugger user interface \(UI\) displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/parts-script-debugger-interface.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Script Debugger and Session Log, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Parts of the user interface
+# Script Debugger user interface
 
-The Script Debugger interface displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
+The Script Debugger user interface \(UI\) displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
 
 \[Omitted image "script\_debugger\_not\_paused.png"\] Alt text: Script debugger not paused
 
@@ -39,7 +39,7 @@ The Script Debugger interface displays information about breakpoints set, the ca
 |Closures|Displays a list of global scope JavaScript variable names and their values set by function closure. This information is only visible when the debugger pauses on a breakpoint.|
 |Global|Displays a list of global scope JavaScript variable names and their values. This information is only visible when the debugger pauses on a breakpoint.|
 
-## Session Log
+## Session Log page
 
 \[Omitted image "session-log.png"\] Alt text: Session log user interface elements
 
@@ -53,6 +53,15 @@ The Script Debugger interface displays information about breakpoints set, the ca
 |Clear log|Clears all logs.|
 |Download log|Download the logs in HTML file format.|
 |Settings|Session debug options. For information about the debug options, see [Session debug](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SessionDebug.md).|
+
+-   **[Script Tracer and debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-tracer.md)**  
+The Script Tracer can help you filter your debugging search to quickly narrow down script problems. You can identify lines of code in a script and other changes to its record during execution. Finding those specific lines of scripts rather than doing a wide search helps save time and improves productivity.
+-   **[Script Debugger status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger-status.md)**  
+The Script Debugger status determines what debugging actions are available and what information it can display.
+-   **[Transaction details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/transaction-details.md)**  
+The Script Debugger displays transaction details for the current paused user session.
+-   **[Script Debugger step-through and console controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/step-through-controls.md)**  
+After the Script Debugger pauses a script, use the step-through controls to move between script lines and move between scripts in the call stack. Use the Console controls to expand console, collapse console, clear console, and rerun expressions.
 
 **Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger.md)
 

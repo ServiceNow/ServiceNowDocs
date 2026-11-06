@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/imp-intel.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure, Customer Service Management]
 ---
 
 # Implement Intelligence
@@ -27,7 +27,7 @@ Integrate intelligence features to automate routine tasks and provide relevant c
 [Now Assist for Customer Service Management \(CSM\)\[Omitted image "bus-artificial-intelligence.svg"\] Alt text:Use Now Assist for CSM to enhance user productivity and efficiency through conversation and proactive experiences using generative AI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm.md)
 
 </td></tr></tbody>
-</table>\[Omitted image "workflow-implementing-intelligence.png"\] Alt text: overview of the implement intelligence topics and how they relate to each other
+</table>\[Omitted image "workflow-implementing-intelligence.png"\] Alt text: overview of implement intelligence topics and how they relate to each other
 
 -   **[Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/nba.md)**
 

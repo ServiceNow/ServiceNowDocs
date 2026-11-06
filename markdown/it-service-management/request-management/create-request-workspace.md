@@ -7,9 +7,9 @@ release: yokohama
 product: Request Management
 classification: request-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Use, Request Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using Request Management, Request Management, IT Service Management]
 ---
 
 # Create a catalog request in Agent Workspace
@@ -63,15 +63,15 @@ You can create a catalog request in Agent Workspace to join the Service Catalog 
 
 1.  Initiate a catalog request using any of the following options.
 
-<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d208907e121">
+<table id="choicetable_khj_fll_zdb"><thead><tr><th align="left" id="d367593e121">
 
 Option
 
-</th><th align="left" id="d208907e124">
+</th><th align="left" id="d367593e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d208907e130">
+</th></tr></thead><tbody><tr><td id="d367593e130">
 
 **From an incident using the Create Request UI action**
 
@@ -83,7 +83,7 @@ Steps
 
 **Note:** You can only order items from the catalogs that are accessible.
 
-</td></tr><tr><td id="d208907e162">
+</td></tr><tr><td id="d367593e162">
 
 **From an incident using Agent Assist**
 
@@ -95,7 +95,7 @@ Steps
 4.  Click **Order**.
 
 
-</td></tr><tr><td id="d208907e198">
+</td></tr><tr><td id="d367593e198">
 
 **From an interaction record**
 
@@ -127,5 +127,5 @@ Steps
 6.  To view the created request, click **View Details**.
 
 
-**Parent Topic:**[Agent Workspace for Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/agent-workspace-request-mgmnt.md)
+**Parent Topic:**[Using Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/request-management/using-request-management.md)
 

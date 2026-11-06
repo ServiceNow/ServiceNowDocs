@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/create-my-list.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create my list
@@ -28,7 +28,7 @@ Role required: sn\_apm.apm\_analyst
 
 4.  Select **Add New list**.
 
-    \[Omitted image "eaw-portfolio-create-my-list.png"\] Alt text:
+    \[Omitted image "eaw-portfolio-create-my-list.png"\] Alt text: Create my list from the Portfolio page
 
 5.  Create a new list that is either from an existing list or is new.
 
@@ -95,5 +95,5 @@ Add conditions to narrow which records appear in the list. The selected list’s
 
 The list appears in the **My Lists** tab.
 
-**Parent Topic:**[Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/portfolio-list-view.md)
+**Parent Topic:**[Working with Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-portfolio-list-view.md)
 

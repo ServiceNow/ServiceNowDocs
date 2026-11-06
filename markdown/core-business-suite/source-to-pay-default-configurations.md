@@ -1,0 +1,26 @@
+---
+title: Source-to-Pay default configurations
+description: Details of the default configurations for Source-to-Pay.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/core-business-suite/source-to-pay-default-configurations.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Install Source-to-Pay, Install Core Business Suite applications, Configure, Core Business Suite]
+---
+
+# Source-to-Pay default configurations
+
+Details of the default configurations for Source-to-Pay.
+
+These default configurations are applied automatically when Apply default configurations is selected during installation.
+
+|configuration|Description|
+|-------------|-----------|
+|Notifications|Configures standard notifications to support Source‑to‑Pay workflows and communication.|
+|Record producers|Activates required record producers for submitting supplier, procurement, and invoice‑related requests and capturing request details.|
+|Supplier collaboration|Configures supporting settings that enable collaboration between internal users and suppliers.|
+
+**Parent Topic:**[Install Source-to-Pay](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/core-business-suite/install-source-to-pay.md)
+

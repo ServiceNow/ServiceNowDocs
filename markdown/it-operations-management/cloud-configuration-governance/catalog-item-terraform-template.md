@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a catalog item from the Terraform template
@@ -105,14 +105,14 @@ Create a catalog item from the Terraform template to request cloud resource prov
 
         -   **organization** is the name of the Microsoft Azure DevOps organization.
         -   **project** is the name of the Microsoft Azure DevOps project.
-    For more information on the API credentials, see [Cloud Provisioning and Governance: Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
+    For more information on the API credentials, see [Cloud Services Catalog Terraform Connector API Key Credentials form reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/cpg-terraform-connector-api-key-credentials-form-reference.md).
 
 
 Role required: sn\_cmp.cloud\_service\_designer
 
 ## About this task
 
-The Cloud Provisioning and Governance: Terraform Connector app supports the following Terraform data types:
+The Cloud Services Catalog Terraform Connector app supports the following Terraform data types:
 
 -   string
 -   number
@@ -205,5 +205,5 @@ Name of the Terraform config provider that you want to use.
 
 Verify that the catalog item appears in the Cloud User Portal.
 
-**Parent Topic:**[Using Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

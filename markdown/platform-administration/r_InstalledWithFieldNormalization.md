@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_InstalledWithFieldNormalization.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Activate Field Normalization, Field normalization and transformation, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Activate Field Normalization, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Installed with field normalization
@@ -23,8 +23,6 @@ The following preferences \(**Field Normalization** &gt; **Administration** &gt;
 |Logging|Select the maximum level of logging detail desired. For example, select Error to log only errors and Information to log errors, warnings, and information.|
 |Decoration URL|Enter the URL for the help/information link associated with the Field Normalization decoration. This link opens the page presented to users who do not have rights to see the normalization or transformation record. The default link opens a ServiceNow Wiki page with a general explanation of Field Normalization. The purpose of this page is to explain to normal users why a field value they entered was changed automatically.|
 |Restrict decorations to roles|Use this preference to define the user roles that can view the reference icon \(decoration\) adjacent to a normalized field. This decoration displays transformation and normalization records to users with the normalizer role. For all other users, it opens the URL specified in the Decoration URL preference. If this preference does not specify any roles, then all roles can see the decoration.|
-
-\[Omitted image "NormalizationPreferences.png"\] Alt text:
 
 ## Field Normalization business rules
 

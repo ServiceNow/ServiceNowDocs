@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Platform Analytics Solutions for Health Log Analytics, Analytics and Reporting in Health Log Analytics, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure the Platform Analytics Solution for Health Log Analytics
@@ -26,13 +26,13 @@ Role required: pa\_admin
 
 1.  Run diagnostics on all records.
 
-    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables. For more information, see [Performance Analytics diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/self-diagnostics.md).
+    These diagnostics can catch many mismatches between the configuration of your Platform Analytics Solutions and your tables.
 
 2.  Navigate to **All** &gt; **Performance Analytics** &gt; **Administration Console**.
 
 3.  Verify the name of the dashboard that has been installed with this Platform Analytics Solution:
 
-    Health Log Analytics Overview dashboard
+    Health Log Analytics Overview dashboard.
 
 4.  Open the **Indicator Sources** tab.
 
@@ -40,31 +40,25 @@ Role required: pa\_admin
 
     1.  Filter the indicator sources on the dashboard name.
 
-        Here you see the indicator sources filtered on the Self-Service Analytics dashboard from the Employee Relations Executive Overview.
-
-        \[Omitted image "hr-er-admin-console.png"\] Alt text: Indicator Sources tab of the PA Admin Console listing indicator sources and their details within the Employee Relations Executive Overview dashboard.
-
     2.  Review the facts table, conditions, and frequency of the indicator sources compared to the data structure on your own instance.
 
         **Important:** Pay particular attention to time stamp fields such as Resolved or Created that are referenced in the **Conditions** field. You may need to use different time stamp fields.
 
     3.  If necessary, open an indicator source and make corrections.
 
-    4.  If you are editing an indicator source record, go to the Indicators related list and review the **Conditions** field for each indicator.
+    4.  If you are editing an indicator source record, go to the Indicators related list and review the Conditions field for each indicator.
 
         Changing the indicator source can also affect the additional conditions on the individual indicators.
 
 6.  If you changed the time field stamps in any indicator sources, then change any related Performance Analytics scripts.
 
-    For more information, see [Update Performance Analytics scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/update-pa-scripts.md).
-
-7.  Open the Breakdown Sources tab.
+7.  Open the **Breakdown Sources** tab.
 
 8.  For each dashboard included in this Platform Analytics Solution:
 
     1.  Filter the breakdown sources on the dashboard name.
 
-    2.  Review the conditions on the breakdown source as described in [Review the breakdown sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/review-breakdown-sources.md).
+    2.  Review the conditions on the breakdown source as described in Review the breakdown sources.
 
 9.  Navigate to **All** &gt; **Performance Analytics** &gt; **Jobs**.
 

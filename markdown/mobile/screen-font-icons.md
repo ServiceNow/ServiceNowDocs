@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/screen-font-icons.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Mobile icon reference, Mobile icons, Mobile styles, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -137,6 +137,19 @@ Use screen font icons for lists or section destinations. You can use them to rep
 |User-Clock|e918|Yokohama|\[Omitted image "mab-icon-screen-user-clock.png"\] Alt text: User-Clock example| |
 |Calendar-Days-Clock|e919|Yokohama|\[Omitted image "mab-icon-screen-cal-days-clok.png"\] Alt text: Calendar-Days-Clock example| |
 |Calendar-Days-Search|e91a|Yokohama|\[Omitted image "mab-icon-screen-cal-day-serch.png"\] Alt text: Calendar-Days-Search example| |
+|Icons added in the Zurich release|
+|Arrow-Down-Rectangle|e91b|Zurich|\[Omitted image "mab-icon-screen-arro-dwn-rect.png"\] Alt text: Arrow-Down-Rectangle example| |
+|Vehicle-Forklift|e91c|Zurich|\[Omitted image "mab-icon-screen-veh-fork.png"\] Alt text: Vehicle-Forklift example| |
+|Scanner|e91d|Zurich|\[Omitted image "mab-icon-screen-scanner.png"\] Alt text: Scanner example| |
+|Monitor-Heartbeat|e91e|Zurich|\[Omitted image "mab-icon-screen-mntr-hrtbt.png"\] Alt text: Monitor-Heartbeat example| |
+|Spray-Bottle|e91f|Zurich|\[Omitted image "mab-icon-screen-spra-botl.png"\] Alt text: Spray-Bottle example| |
+|Icons added in the Australia release|
+|Document-Checklist-Search|e920|Australia|\[Omitted image "mab-icon-screen-doc-check-search.png"\] Alt text: Document-Checklist-Search example| |
+|Rectangle-Search|e921|Australia|\[Omitted image "mab-icon-screen-rect-search.png"\] Alt text: Rectange-Search example| |
+|Icons added in Brazil release|
+|Serverbox|e93e|Brazil|\[Omitted image "mab-icon-screen-sbox.png"\] Alt text: Serverbox example| |
+|SN-Sparkmoji-Logo|e922|Brazil|\[Omitted image "mab-icon-image-sparkmoji.png"\] Alt text: Otto logo example| |
+|Microphone-AI-Spark-Outline|e923|Brazil|\[Omitted image "mab-icon-action-mic-ai-sparkle-out.png"\] Alt text: Microphone AI Sparkle outline example| |
 
 **Parent Topic:**[Mobile icon reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-icon-reference.md)
 

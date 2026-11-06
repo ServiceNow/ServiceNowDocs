@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage picking hardware assets within your stockroom for Hardware Asset Management workflows, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Pick assets in the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View the open hardware asset pick tasks for your stockroom

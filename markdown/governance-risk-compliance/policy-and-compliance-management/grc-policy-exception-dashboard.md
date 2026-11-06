@@ -7,7 +7,7 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -36,21 +36,23 @@ To open the dashboard, navigate to **All** &gt; **Policy and Compliance** &gt; *
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Active policy exceptions|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Number of active exceptions against open policies.|
-|Policy exceptions by priority|Donut chart \[Omitted image "donut-icon.png"\] Alt text: Donut icon.|Total number of policy exceptions broken down by priority.|
-|Policy exceptions by policy|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Total number of policy exceptions broken down by policy.|
-|Policy exceptions by control objective|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Total number of policy exceptions broken down by control objective|
-|Policy exceptions by entity|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon.|Total number of policy exceptions broken down by entity|
-|Policy exceptions by department|Bar chart \[Omitted image "column-icon.png"\] Alt text: Bar icon|Total number of policy exceptions broken down by department|
-|Approved policy exceptions|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|Number of total approved policy exceptions|
-|Exempted controls|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|List of controls that have exempt status|
-|Exempted Controls Risks|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|List of control risks that have exempt status|
+|Active policy exceptions|Bar chart|Number of active exceptions against open policies.|
+|Policy exceptions by priority|Donut chart|Total number of policy exceptions broken down by priority.|
+|Policy exceptions by policy|Bar chart|Total number of policy exceptions broken down by policy.|
+|Policy exceptions by control objective|Bar chart|Total number of policy exceptions broken down by control objective|
+|Policy exceptions by entity|Bar chart|Total number of policy exceptions broken down by entity|
+|Policy exceptions by department|Bar chart|Total number of policy exceptions broken down by department|
+|Approved policy exceptions|List|Number of total approved policy exceptions|
+|Exempted controls|List|List of controls that have exempt status|
+|Exempted Controls Risks|List|List of control risks that have exempt status|
 
 ## Policy Exception Overview dashboard in classic UI
 
 **Important:** Starting with version 18.1.1 of the Policy and Compliance Management application, the Policy Exception Overview dashboard can be viewed in the Next Experience UI Framework.
 
 \[Omitted image "policy-exception-dashbrd.png"\] Alt text: Policy Exception Overview dashboard showing Active Policy Exceptions and Policy Exceptions by Policy
+
+**Note:** You can view this dashboard directly from the Compliance Workspace as well.
 
 **Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

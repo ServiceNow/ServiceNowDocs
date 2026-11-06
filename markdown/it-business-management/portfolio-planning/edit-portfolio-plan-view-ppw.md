@@ -1,5 +1,5 @@
 ---
-title: Edit a portfolio plan view in Portfolio Planning
+title: Edit a portfolio plan view
 description: Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Manage portfolio plan views, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Edit a portfolio plan view in Portfolio Planning
+# Edit a portfolio plan view
 
 Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 
@@ -73,7 +73,7 @@ Share the portfolio plan with your stakeholders to start collaborating on the po
 **Related topics**  
 
 
-[Create a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)
 
-[Delete a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/delete-portfolio-plan-view-ppw.md)
+[Delete a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/delete-portfolio-plan-view-ppw.md)
 

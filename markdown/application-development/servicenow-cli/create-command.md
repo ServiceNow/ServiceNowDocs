@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a custom command in ServiceNow CLI
@@ -34,7 +34,7 @@ A ServiceNow CLI command maps to a scripted REST endpoint in the End Point \[sn\
 
         |Field|Description|
         |-----|-----------|
-        |Resource Path|Required. Path to the endpoint on the instance to map a command to. Can be the path to an inbound REST API, or a scripted REST API. For example, `api/now/table/{table}/{sysid}`. For more information, see Available REST APIs and Scripted REST APIs.|
+        |Resource Path|Required. Path to the endpoint on the instance to map a command to. Can be the path to an inbound REST API, or a scripted REST API. For example, `api/now/table/{table}/{sysid}`. For more information, see [Available REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-rest.md) and [Scripted REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_CustomWebServices.md).|
         |HTTP Method|Required. HTTP method to use when the user runs the associated command.|
         |Application|Read-only application scope for the endpoint.|
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 24
+last_updated: "2026-09-10"
+reading_time_minutes: 25
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -209,6 +209,7 @@ The Floor map view provides you with the following features:
     -   **Assigned to**: Option to view the user or users to whom the space is assigned.
     -   **Assignment type**: Option to view the assignment type of the space that is flexible or permanent.
     -   **Opacity %**: Opacity of the colored spaces on the map. You can reduce the opacity if some map elements are hidden due to the colored spaces.
+    -   **Show base map**: Option to view spaces on the map as defined in the Map Studio.
 -   **Change space allocations**
 
     When you move a department to a floor, the spaces assigned to that department are grouped with the existing spaces of that department on the floor. You can view these space allocations on the floor department wise. You can also select a single space or multiple spaces of that department and allocate it to another department using the **Actions** option.
@@ -247,6 +248,7 @@ On a floor map, you can do the following:
 -   You can edit the spaces on a floor. For more information, refer to [Edit a building's spaces using a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/edit-space-details-for-buildings.md).
 -   Assign or unassign an employee from a space. [Move employees on a floor or to a different floor using the map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/move-employees-on-a-floor-or-to-a-different-floor-using-the-map.md).
 -   You can also change the opacity of the colored spaces in the **Map Settings** pane. Changing the opacity is helpful if some elements on the map are hidden due to the color.
+-   You can view the base map \(as defined in the Map Studio\) from the **Map Settings** pane by selecting **Show base map**.
 
 While viewing or editing spaces, you can select a check box from the space details section to select all the spaces that have the same color code.
 
@@ -334,4 +336,14 @@ After the scenario is deployed, a workplace case is created for every change. Af
 [Move conflicts for projects created via Excel upload]()
 
 [Workplace Central troubleshooting]()
+
+[Workplace Task form - Space Assignment task]()
+
+[Neighborhood User Assignment Rule form]()
+
+[User Workplace Profile form]()
+
+[]()
+
+[]()
 

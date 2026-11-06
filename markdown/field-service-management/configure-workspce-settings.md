@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-workspce-settings.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure settings for Dispatcher Workspace
@@ -46,7 +46,7 @@ Enable group metrics setting
 
 </td><td>
 
-Enables the option for dispatchers to turn on metrics for assignment groups in the Dispatcher Workspace. Assignment groups metrics show in the schedule of the Dispatcher Workspace.
+Enables the option for dispatchers to turn on metrics for assignment groups and territories in the Dispatcher Workspace. Metrics display in the contextual side panel when a territory or assignment group is selected.**Note:** Metrics in the contextual side panel don't refresh automatically when task data changes. To see updated values, select a different technician, then reselect the one you want to view.
 
 </td></tr><tr><td>
 
@@ -119,6 +119,22 @@ Select SLA timer type shown within the Work order task cards inside the task pan
 </td><td>
 
 Enables the SLA time to load on work order task cards either in real-time, or only once when Dispatcher Workspace initially loads.
+
+</td></tr><tr><td>
+
+Add agents by searchable fields.
+
+</td><td>
+
+These are the fields that dispatchers can use to search for agents when they use the Add Agents feature. By default, dispatchers can search for agents by their name, email address, or employee number. You can enable dispatchers to search for agents by any field on the system user records page.
+
+</td></tr><tr><td>
+
+Enable dispatcher to add agents outside of their assigned assignment groups / territories.
+
+</td><td>
+
+Allows dispatchers to use the Add agents feature to search for any agent, even those outside of the assignment group or territory they manage.**Note:** Dispatchers can search for any agent, but they can only assign tasks to agents within their managed assignment group or territory.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

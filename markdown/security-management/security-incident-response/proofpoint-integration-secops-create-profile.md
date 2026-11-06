@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring the Proofpoint integration for Security Operations, Proofpoint integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Configure, Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Create an event profile for the Proofpoint Integration for Security Operations
@@ -128,15 +128,15 @@ Optional description for this event profile.
 
 11. Select one of the import type and how often you want to import event data.
 
-<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d134781e415">
+<table id="choicetable_ehs_bq4_b2c"><thead><tr><th align="left" id="d137681e415">
 
 Option
 
-</th><th align="left" id="d134781e418">
+</th><th align="left" id="d137681e418">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d134781e424">
+</th></tr></thead><tbody><tr><td id="d137681e424">
 
 **Ongoing Events Ingestion**
 
@@ -147,7 +147,7 @@ Option to import events at a regular interval that is defined with a start date,
 -   **Input initial Ingestion Time**
 
 
-</td></tr><tr><td id="d134781e448">
+</td></tr><tr><td id="d137681e448">
 
 **One Time Retrieval**
 

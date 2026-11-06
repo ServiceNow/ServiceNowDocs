@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/preventive-maintenance-use-case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Field Service Management workflow examples, Exploring Field Service Management, Field Service Management]
+breadcrumb: [Example workflows, Explore, Field Service Management]
 ---
 
 # Field Service preventive maintenance workflow example
@@ -24,7 +24,7 @@ With Field Service Management, Lisa ensures passenger and crew safety, boosts re
 
 ## Field Service Preventive maintenance workflow diagram
 
-\[Omitted image "FSM-preventative-maintenance-asset0012977final.png"\] Alt text: Preventive maintenance workflow in Field Service Management
+\[Omitted image "preventive-maintenance-use-case.png"\] Alt text: Preventive maintenance workflow
 
 ## Field Service Preventive maintenance workflow steps
 

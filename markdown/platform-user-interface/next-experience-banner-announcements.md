@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-banner-announcements.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience banner announcements
 
 Banner announcements enable you to communicate planned maintenance, unplanned outages, or important events like ESPP stock plans or benefits enrollment to those affected or to everyone. You can target specific experiences or all experiences.
-
-**Note:** Beginning with the San Diego release, configure banner announcements instead of updating the **glide.product.description** system property.
 
 \[Omitted image "pol-banner-announcement.png"\] Alt text: Banner announcement.
 
@@ -59,7 +57,7 @@ Heading
 
 </td><td>
 
-Unique name for your banner announcement mapping, which will display as the title of the banner announcement.**Note:** The heading character limit is 100 characters.
+Unique name for your banner announcement mapping that displays as the title.**Note:** The heading character limit is 100 characters.
 
 </td></tr><tr><td>
 
@@ -67,7 +65,7 @@ Summary
 
 </td><td>
 
-Optional additional banner content, which displays below the Heading in the banner announcement.**Note:** The summary character limit is 200 characters.
+Optional additional banner content that displays below the Heading.**Note:** The summary character limit is 200 characters.
 
 </td></tr><tr><td>
 
@@ -75,7 +73,7 @@ Start
 
 </td><td>
 
-Date and time the banner announcement will begin displaying in the UI.
+Date and time the banner announcement begins displaying in the UI.
 
 </td></tr><tr><td>
 
@@ -83,7 +81,7 @@ End
 
 </td><td>
 
-Date and time the banner announcement will stop displaying in the UI.
+Date and time the banner announcement stops displaying in the UI.
 
 </td></tr><tr><td>
 
@@ -103,9 +101,9 @@ Option to provide a link in the banner announcement.
 
 **Note:** The link label character limit is 50 characters.
 
- Selecting this option displays the following link configuration fields:
+ Enabling this option displays the following link configuration fields:
 
- -   Click behavior: Behavior of the link when selected, either opening in the same window or a new window.
+ -   Select behavior: Behavior of the link when selected, either opening in the same window or a new window.
 -   Label: Text displayed with the link.
 -   URL: URL of the link.
 
@@ -140,7 +138,7 @@ Icon
 
 </td><td>
 
-Icon to depict the urgency or category of the banner announcement. For example, a flame icon can show increased urgency and a graduation cap icon can notify of continuing learning opportunities.
+Icon to depict the urgency or category of the banner announcement. For example, a flame icon shows increased urgency and a graduation cap icon notifies of continuing learning opportunities.
 
 </td></tr><tr><td>
 
@@ -167,7 +165,7 @@ Options for the horizontal position of the banner content.
 
     \[Omitted image "next-exp-associated-config.png"\] Alt text: Associated to Configurations related list.
 
-6.  In the Announcement Config field, select the Lookup using list icon \[Omitted image "QueryIcon.png"\] Alt text: The Lookup using list icon..
+6.  In the Announcement Config field, select the search icon \[Omitted image "QueryIcon.png"\] Alt text:.
 
 7.  Select **Unified Navigation** from the Banner Announcement Configs list.
 

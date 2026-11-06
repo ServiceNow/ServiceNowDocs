@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-crm-opportunity.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Configure, Customer Success Management]
 ---
 
 # Create an opportunity in Microsoft Dynamics CRM
@@ -16,7 +16,7 @@ Create a renewal opportunity in the Microsoft Dynamics CRM platform from your Se
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
@@ -24,15 +24,15 @@ Customer success managers can create renewal opportunities based on contract exp
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 
 2.  Navigate to **Customer Success** &gt; **All Engagements** and open an engagement.
 
-3.  Click **Create Success Play**.
+3.  Select **Create Success Play**.
 
-4.  Select **Success Support** category and click the **Simple Renewal Play** card.
+4.  Select **Success Support** category and select the **Simple Renewal Play** card.
 
-5.  In the Create Success Play form, specify the Due Date, Assigned to, and Priority and click **Finish**.
+5.  In the Create Success Play form, specify the Due Date, Assigned to, and Priority and select **Finish**.
 
     You will see a message that an internal play has been created.
 
@@ -40,26 +40,28 @@ Customer success managers can create renewal opportunities based on contract exp
 
     \[Omitted image "account-lifecycle-crm-create-opp-1.png"\] Alt text: Renewal playbook: core information
 
-7.  In the Enter core information page, select the contract for which the renewal opportunity is to be created, enter a description and click **Mark complete**.
+7.  In the Enter core information page, select the contract for which the renewal opportunity is to be created, enter a description and select **Mark complete**.
 
-8.  In the Add squad page, select one or more squad members and click **Mark complete**.
+8.  In the Add squad page, select one or more squad members and select **Mark complete**.
 
-9.  In the Assess Opportunity stage, click **Mark read** in the View contract record page to proceed to the next step.
+9.  In the Assess Opportunity stage, select **Mark read** in the View contract record page to proceed to the next step.
 
-10. In the Assess engagement page, enter any actions or steps required and click **Send and continue** to proceed to the next stage.
+10. In the Assess engagement page, enter any actions or steps required and select **Send and continue** to proceed to the next stage.
 
-11. In the Communicate stage, click **Send email** to go to the next stage.
+11. In the Communicate stage, select **Send email** to go to the next stage.
 
-12. In the Create opportunity page, click **Open record**.
+12. In the Create opportunity page, select **Open record**.
 
-    You can see the recommended action for Microsoft Dynamics CRM displayed in the right panel. The details of the account associated with the engagement and the contract information is displayed. Click the **History** icon to see a log of previous recommended actions.
+    You can see the recommended action for Microsoft Dynamics CRM displayed in the right panel. The details of the account associated with the engagement and the contract information is displayed. Select the **History** icon to see a log of previous recommended actions.
 
     \[Omitted image "account-lifecycle-crm-create-opp-2.png"\] Alt text: MS Dynamics CRM recommended action
 
-13. Click **Create**.
+13. Select **Create**.
 
     You will see a message indicating that the opportunity record has been created. You can login to the Microsoft Dynamics CRM platform to view this record.
 
-    **Note:** You can create the record only if you have defined the mappings in the **DynamicsCRMMappingConstants** script include. See [Integrating with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details. If the mappings have not been configured, you will see the recommended action but the **Create** option will not work.
+    **Note:** You can create the record only if you have defined the mappings in the **DynamicsCRMMappingConstants** script include. See [Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details. If the mappings have not been configured, you will see the recommended action but the **Create** option will not work.
 
+
+**Parent Topic:**[Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md)
 

@@ -1,49 +1,47 @@
 ---
-title: Edit a transition filter
-description: Edit a transition filter if you want to make any changes to it.
+title: Edit a process step filter
+description: Edit a process step filter if you want to make any changes to it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/edit-transition-filter.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Apply a transition filter on an activity, Filtering project data, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Applying a process step filter on an activity, Filtering project data, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
-# Edit a transition filter
+# Edit a process step filter
 
-Edit a transition filter if you want to make any changes to it.
+Edit a process step filter if you want to make any changes to it.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  Open a project for which you want to set the transition filter.
+2.  Open a project in the Analyst workbench.
 
-3.  Go to the **Analyst Workbench** tab.
+3.  Apply filters including a process step filter in between.
 
-4.  Apply filters including a transition filter in between.
+    For information about how to apply filters, see [Create a process step filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-transition-manually.md).
 
-    For information about how to apply filters, see [Create a transition filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-transition-manually.md).
-
-5.  Open the **Applied Filters** list.
+4.  Open the **Applied Filters** list.
 
     \[Omitted image "edit-transition-filter.png"\] Alt text: Applied filters list
 
-6.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) beside the transition filter.
+5.  Select the edit icon \(\[Omitted image "edit-icon.png"\] Alt text: Edit icon\) beside the process step filter.
 
-    **Note:** You will be able to edit the transition filter only using the fields in the View on which the filter is applied.
+    The process step filter form is displayed. For information on the form, see [Create a process step filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-transition-manually.md).
 
-    The transition filter form is displayed. For information on the form, see [Create a transition filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/create-transition-manually.md).
+6.  Edit the filter as required.
 
-7.  Edit the filter as required.
+    **Note:** You will be able to edit the transition filter only using the fields in the view on which the filter is applied.
 
 
-**Parent Topic:**[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md)
+**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md)
 

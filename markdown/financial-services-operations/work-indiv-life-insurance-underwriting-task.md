@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/work-indiv-life-insurance-underwriting-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Individual Life Servicing, Individual Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on an individual life insurance underwriting task
@@ -28,11 +28,11 @@ Use the case playbook that provides the activities and tasks required to researc
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the underwriting task list.
 
-<table><tbody><tr><td id="d52576e87">
+<table><tbody><tr><td id="d60481e105">
 
 **From the Individual Life Underwriting task list**
 
@@ -53,15 +53,15 @@ Use the case playbook that provides the activities and tasks required to researc
 
 6.  Close the task from the underwriting task form.
 
-<table><thead><tr><th align="left" id="d52576e164">
+<table><thead><tr><th align="left" id="d60481e182">
 
 Underwriting task
 
-</th><th align="left" id="d52576e167">
+</th><th align="left" id="d60481e185">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d52576e173">
+</th></tr></thead><tbody><tr><td id="d60481e191">
 
 **To review coverage change**
 
@@ -73,7 +73,7 @@ Action
     -   In the task form, in the **State** field, change the state of the task to **Closed Complete**.
 
 
-</td></tr><tr><td id="d52576e211">
+</td></tr><tr><td id="d60481e229">
 
 **To submit a review**
 

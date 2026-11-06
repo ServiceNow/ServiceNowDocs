@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -33,8 +33,8 @@ The Project Workspace provides Project Managers with a comprehensive overview of
 |Create and compare baselines for your project to capture the project's progress over time.|[Set up a baseline for your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-project-baselines-in-project-workspace.md)|
 |Create a status report to monitor project health, metrics, risks, issues, and milestones.|[Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)|
 |Tag stakeholders for their feedback or notes and add comments to collaborate on your project.|[Collaborate with Stakeholders for your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/collaborate-with-stakeholders-from-project-workspace.md)|
-|Generate a summary of selected text in Docs using Now Assist.|[Summarize content with Project doc summarization skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)|
-|Generate and schedule project summary emails for your projects.|[Schedule project summary emails with Email skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/email-project-summary-pw.md)|
+|Generate a summary of selected text in Docs using ServiceNow Otto.|[Summarize content with project doc generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/summarize-docs-genai-skill-pw.md)|
+|Generate and schedule project summary emails for your projects.|[Schedule the project insights email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/email-project-summary-pw.md)|
 |Add Risk, Issue, Decision, Action, or Change request to your project to track and manage the RIDAC records throughout project development.|[Add a RIDAC record to your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-risk-project-project-workspace.md)|
 |Export your project as a PowerPoint file directly from the workspace without copying the project information in to slides.|[Export a project to Microsoft PowerPoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/export-project-to-powerpoint-from-project-workspace.md)|
 |Create and track resource assignments at project or task level to optimize resource allocation throughout the project.|[Create resource assignments and initiate resources planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)|
@@ -43,8 +43,10 @@ The Project Workspace provides Project Managers with a comprehensive overview of
 |Generate labor costs for attribute-based resource assignments to track expenses for your project.|[Generate labor costs for your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/gen-labor-costs-prj-wrkspc.md)|
 |Collaborate with team members, save notes, generate project charters, and create project briefs using Docs.|[Collaborate on projects using Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/collaborative-project-planning-with-docs.md)|
 |Secure a project to ensure only authorized users can access the project.|[Enable security for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/enable-security-for-a-project-in-project-workspace.md)|
-|Configure and use playbooks in Project Workspace to guide project teams through standard project stages and activities.|[Use Playbooks in Project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)|
+|Configure and use playbooks in Project Workspace to guide project teams through standard project stages and activities.|[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)|
 
+-   **[AI skills in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/ai-skills-project-workspace.md)**  
+Use AI skills to transform Project Workspace into a continuous value engine. Embed intelligence across every stage to optimize resources and investments.
 -   **[Project planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-planning-in-pw.md)**  
 Plan your projects with an intuitive Project Workspace application to achieve successful project outcomes.
 -   **[Resource planning in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/resource-planning-in-pw.md)**  
@@ -52,7 +54,11 @@ Plan and allocate resources using the Project Workspace application to enable op
 -   **[Financials in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/financial-planning-in-pw.md)**  
 Plan, re-forecast, track the financials, and create baselines for projects and demands.
 -   **[Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/status-reporting-in-pw.md)**  
-A status report in Project Workspace is a snapshot in time that gives an overview of your overall project health across key areas such as cost, resources, milestones, health, and more.
+A status report in Project Workspace provides a snapshot of your project health across key areas such as cost, resources, milestones, and schedule.
+-   **[Project types in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-types-in-pw.md)**  
+Administrators can define custom fields, a form view, and visible modules for each project type in Project Workspace without affecting default settings or other project types.
+-   **[Better together with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/better-together-with-itam.md)**  
+Integrate Hardware Asset Management \(HAM\) with Project Workspace to track which HAM requests or refreshes belong to an SPM project. Provide portfolio and project managers visibility into request status without leaving Project Workspace.
 
 **Parent Topic:**[Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-workspace-landing-page.md)
 

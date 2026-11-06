@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Variables, sidebar, script, topic, Virtual Agent designer]
-breadcrumb: [Create a Virtual Agent topic, Getting started with Virtual Agent Designer, Building and deploying Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Creating a Virtual Agent topic, Build conversations, Virtual Agent, Conversational Interfaces]
 ---
 
 # Define script variables for a topic
@@ -27,23 +27,25 @@ For more information about writing scripts for Virtual Agent, see [Virtual Agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  On the home page, open an existing topic or create a new one.
+2.  Select the **Asset library** tab.
+
+3.  On the home page, open an existing topic or create a new one.
 
     The **Flow** tab displays the conversation flow.
 
-3.  In the sidebar, select the Variables tab, then select the **Script** plus \[Omitted image "icon-plus-clear.png"\] Alt text: Script plus icon. icon.
+4.  In the sidebar, select the Variables tab, then select the **Script** plus icon \[Omitted image "icon-plus-clear.png"\] Alt text:.
 
-4.  On the form, fill in the fields.
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Variable name|Name of the variable. The name is case-sensitive. Spaces in the name are replaced with an underscore character.|
     |Default value|Default value for the variable. You can use either a static value or a script that specifies a dynamic value for this variable.|
 
-5.  Select **Save**.
+6.  Select **Save**.
 
 
-**Parent Topic:**[Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-virtual-agent-topic.md)
+**Parent Topic:**[Build conversations in the Asset library in Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
 

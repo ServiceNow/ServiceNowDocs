@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_MapDateFieldsToiCalVariables.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Calendar integration, Email templates, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ Role required: admin
 
 4.  Change the **Database** field to the field you want to use to set the start date or end date.
 
-5.  Select **Update**.
+5.  Click **Update**.
 
 
 **Parent Topic:**[Calendar integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_CalendarIntegration.md)

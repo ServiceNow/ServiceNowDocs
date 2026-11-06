@@ -1,25 +1,28 @@
 ---
 title: Access Management release notes
-description: The ServiceNow Access Management provides robust tools to manage security data on the ServiceNow platform. It includes access control lists \(ACLs\), security attributes, contextual security manager, data filtration, and many more controls. These controls provide granular control and improve security for managing data access. Access Management was enhanced and updated in the Yokohama release.The ServiceNow Access Management provides robust tools to manage security data on the ServiceNow platform. It includes access control lists \(ACLs\), security attributes, contextual security manager, data filtration, and many more controls. These controls provide granular control and improve security for managing data access. Access Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.The Brazil Early Availability release adds security features for Access Management.The Brazil Patch 5 release adds an agent to help you understand access control lists \(ACLs\) for Access Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/access-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [ServiceNow AI Platform security release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Access Management release notes
 
-The ServiceNow® Access Management provides robust tools to manage security data on the ServiceNow platform. It includes access control lists \(ACLs\), security attributes, contextual security manager, data filtration, and many more controls. These controls provide granular control and improve security for managing data access. Access Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Access Management application provides robust tools to manage security data on the ServiceNow AI Platform. Access Management includes many controls, such as access control lists \(ACLs\), security attributes, security data filters, and machine identity access control. These controls provide granular control and help improve security for managing data access. See the following sections for release notes by version.
 
 ## About Access Management
 
--   Security Data Filters are a powerful new feature designed to restrict access to sensitive records based on roles or security attributes. This ensures only authorized users can view data, regardless of how the data is accessed.
--   Related Record Access allows enforcement of consistent access rules across related tables, ensuring that users only see records associated with the data they are authorized to access.
+-   Validate access controls configured within various resources and agentic assets with Access Analyzer.
+-   Improve your security posture by ensuring that access to applications and data is granted on a least privilege basis with Zero Trust Access.
+-   Use Access Findings, the proactive detection and remediation layer within Access Management Console, to run base system access checks against your instance on a daily schedule.
+-   Restrict access to data by requiring users to pass a set of requirements before they can interact with it by using ACLs.
+-   Control which Customer Service and Support employees can access your instance, and when, using the SNC Access Control plugin \(com.snc.snc\_access\_control\).
 
-See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control-rules.md) for more information.
+See [Access Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-management-landing.md) for more information.
 
 ## Activation and other requirements
 
@@ -28,20 +31,32 @@ See [Access Control List Rules](https://raw.githubusercontent.com/ServiceNow/Ser
     Access Management is a ServiceNow AI Platform feature that is active by default.
 
 
-**Parent Topic:**[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-security-rn-landing.md)
+## Accessibility and localization
 
-## Yokohama
+-   **Accessibility information**
 
-The ServiceNow® Access Management provides robust tools to manage security data on the ServiceNow platform. It includes access control lists \(ACLs\), security attributes, contextual security manager, data filtration, and many more controls. These controls provide granular control and improve security for managing data access. Access Management was enhanced and updated in the Yokohama release.
+    Coral is the default theme for new portal, web, and mobile experiences with Next Experience or Core UI enabled. This theme uses brand-neutral illustrations. A dark theme option is available for web and mobile experiences.
+
+
+## Brazil Early Availability
+
+The Brazil Early Availability release adds security features for Access Management.
+
+### What's changed
+
+-   **[Exploring Access Control Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/exploring-access-control-list.md)**
+
+    Improve access control predictability by enforcing strict denial when none of the referenced roles referenced in an ACL exist on the instance. This behavior doesn't apply to ACLs that have a mix of valid and invalid roles. This behavior is on by default for new instances. If you upgraded to this release, use the **glide.security.acl\_with\_invalid\_roles\_strict\_deny** property to turn it on. Navigate to **All** &gt; **Access Management** &gt; **Access Findings** to find these ACLs in the Access Checks list.
+
+
+## Brazil Patch 5
+
+The Brazil Patch 5 release adds an agent to help you understand access control lists \(ACLs\) for Access Management.
 
 ### What's new
 
--   **[Security data filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/security-data-filters.md)**
+-   ****
 
-    Security data Filters enable you to control who can access sensitive data by restricting access to authorized users, regardless of how the data is accessed. Security data filters are applied before query execution, ensuring restricted data never leaves the database and prevents data leakage at the query level. Filters integrate into queries for GlideRecordSecure, GlideRecordSandbox, and GlideAggregateSandbox by default.
-
--   **[Related record access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/related-record-access.md)**
-
-    Related record access integrated into the ACL framework enhances access management by enabling administrators to enforce specific ACLs for related tables. This ensures users can only access records in related tables, such as costs, estimations, or tasks, based on their permissions for the parent table, like projects or cases. Combined with broader ACL capabilities, Related record access ensures consistent, granular, and enforceable
+    Understand what controls access to your ServiceNow resources without having to review every ACL. This agent finds inherited ACLs and other information automatically, without you having to open multiple ACLs to troubleshoot access to a resource.
 
 

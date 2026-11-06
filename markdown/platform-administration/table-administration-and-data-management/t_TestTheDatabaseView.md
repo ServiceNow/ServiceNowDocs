@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Joining tables, Work with database views, Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Joining tables, Work with database views, Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Test the database view
@@ -43,11 +43,11 @@ Role required: admin.
 
 To use the database view in a data visualization, select it from the data sources. Database views are listed under tables.
 
-\[Omitted image "image.db-view-selection"\] Alt text: The Incident Metric database view selected for a visualization
+\[Omitted image "db-view-selection.png"\] Alt text: The Incident Metric database view selected for a visualization
 
 You can create any visualization type using the database view. This example shows the database view visualized as vertical bar.
 
-\[Omitted image "image.db-view-used-in-data-vis"\] Alt text: The incident metric database view visualized as a vertical bar grouped by escalation
+\[Omitted image "db-view-used-in-data-vis.png"\] Alt text: The incident metric database view visualized as a vertical bar grouped by escalation
 
 **Parent Topic:**[Joining tables using database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_CreatingDatabaseViews.md)
 

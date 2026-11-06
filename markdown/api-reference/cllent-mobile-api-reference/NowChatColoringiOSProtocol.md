@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowChatColoring protocol - iOS
+# NowChatColoring protocol- iOS
 
 The NowChatColoring protocol defines default colors for the elements in the Live Agent and Virtual Agent chat UI.
 
@@ -43,20 +43,6 @@ alertCritical2
 </td><td>
 
 Alert text icon color.Default value: \#B61C2D
-
-</td></tr><tr><td>
-
-alertCritical3
-
-</td><td>
-
-This property is deprecated beginning with Mobile SDK Libraries - iOS version 2.11.0.
-
- Color applied to the alert pop-up icon and bar.
-
- Default dark color: \#E46876
-
- Default light color: \#B61C2D
 
 </td></tr><tr><td>
 
@@ -304,5 +290,5 @@ public extension NowChatColoring {
 }
 ```
 
-**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Policy and Compliance Management reference, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -47,10 +47,15 @@ While GRC supports separation of data, separation of logic and process is not fu
 -   Many types of records in GRC are automatically generated through user processes. Entities, controls, risks, indicators, and control tests are all records that can be generated automatically. For records that are automatically generated \(and for any GRC record that is manually generated\), the domain of the record is the same as the domain of the user responsible for creating or generating the records.
 -   Automatic generation should be kept in mind when working in a domain-separated GRC implementation. Users should be sure that they are creating / generating records at the right domain level so that they are visible to the right set of users.
 
-    For example, suppose you have domains that look like:
+    For example, suppose you have the following domains:
 
+    ```
+    * Global
+                      * Top
+                          * Domain A
+                          * Domain B
+    ```
 
-\[Omitted image "domain-separation-pc.png"\] Alt text: Domain separation in GRC.
 
 -   If you have a risk or control that you want to be assessed by users in domains A and B, the risk or control should be generated or manually created at the global level. If the risk or control is created in Domain B, you will not be able to recreate the risk or control in Domain A due to indexing.
 -   If you have a risk or control that you want to be assessed by users in TOP and Domain A, you can create the risk or control in Domain A.

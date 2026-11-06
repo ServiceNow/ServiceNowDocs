@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/exploring-professional-development.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Exploring professional development
@@ -18,7 +18,7 @@ This content covers the application development stages to help developers easily
 
 -   [Plan your application development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-your-app-development.md): Think through the application before building it.
 -   [Build your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-your-application.md): Create and configure the application and its components.
--   [Use agentic AI to build and edit applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/plan-to-use-agentic-ai.md): Create applications with help from agentic AI.
+-   [Build applications with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-ai-workflow-factory-prime.md): Create applications with help from agentic AI.
 -   [Validate app functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/validate-app-functionality.md): Perform functional testing and write test cases.
 -   [Deploy your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/deploy-your-app.md): Move the application into production.
 

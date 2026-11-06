@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_Templates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Using form templates
@@ -34,7 +34,7 @@ Create a template record for any table to populate certain fields automatically.
 Administrators can create a template for a Task table record that also creates one or more related records in the child Task table.
 -   **[Create a template by saving a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_SaveAFormAsATemplateInUI16OrUI15.md)**  
 Save a populated form as a template.
--   **[Create records based on a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_ScheduleATemplate.md)**  
+-   **[Schedule record creation from a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_ScheduleATemplate.md)**  
 You can create and schedule a scheduled job to create records based on a template. For example, you can regularly create a populated task record to perform a weekly backup.
 -   **[Create a module for a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_CreateAModuleForATemplate.md)**  
 You can create a module to open a form with pre-populated template data.

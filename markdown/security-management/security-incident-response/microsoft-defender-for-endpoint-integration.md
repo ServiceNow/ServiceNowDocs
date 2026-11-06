@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ You can use this integration to create configurations to retrieve the host detai
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Key features
 
@@ -35,27 +35,27 @@ Microsoft Defender for Endpoint has the following key features:
 
 <table id="table_cn4_5nt_45b" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Explore icon. Get started with Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.md)
+[Explore \[Omitted image "icon-explore-ciwf.png"\] Get started with Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/set-up-microsoft-defender-for-endpoint.md)
 
 </td><td>
 
-[Install \[Omitted image "icon-manage.png"\] Alt text: Install icon. Install the application and configure a source for the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/install-microsoft-defender-source.md)
+[Install \[Omitted image "ciwf-agent-tools.png"\] Alt text: Install the application and configure a source for the integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/install-microsoft-defender-source.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Set up. Configure profiles and security incidents for the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.md)
+[Configure \[Omitted image "configure-icon-ciwf.png"\] Alt text: Configure profiles and security incidents for the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configure-profiles-and-security-incidents-for-ms-defender-for-endpoint.md)
 
 </td></tr><tr><td>
 
-[Capability profile \[Omitted image "icon-use.png"\] Alt text: Capability icon. Create a capability profile for the Microsoft Defender for Endpoint integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.md)
+[Capability profile \[Omitted image "icon-use-ciwf.png"\] Create a capability profile for the Microsoft Defender for Endpoint integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-capability-profile-for-microsoft-defender-for-endpoint.md)
 
 </td><td>
 
-[Additional configurations \[Omitted image "icon-integrate.png"\] Alt text: Integrate icon. Additional configurations that you can perform in the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/additional-configurations-in-defender.md)
+[Additional configurations \[Omitted image "icon-integrate-ciwf.png"\] Additional configurations that you can perform in the Microsoft Defender for Endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/additional-configurations-in-defender.md)
 
 </td><td>
 
-[Miscellaneous \[Omitted image "icon-developer-training-portal.png"\] Alt text: Miscellaneous icon. Create and configure a profile for sightings search and indicators with Microsoft Defender for Endpoint.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-and-configure-profile-sightings-search-with-ms-defender.md)
+[Miscellaneous \[Omitted image "ciwf-admin.png"\] Create and configure a profile for sightings search and indicators with Microsoft Defender for Endpoint.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-and-configure-profile-sightings-search-with-ms-defender.md)
 
 </td></tr></tbody>
 </table>

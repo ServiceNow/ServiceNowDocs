@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Change the parent instance
 
 If it becomes necessary to modify the instance hierarchy, you can change the parent for a development instance.
+
+## Before you begin
+
+Role required: none.
 
 ## About this task
 
@@ -42,6 +46,4 @@ To change the parent for a development instance:
 
 6.  Review the local changes list and [queue or ignore changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/t_QueueALocalChangeForAPush.md), as appropriate.
 
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

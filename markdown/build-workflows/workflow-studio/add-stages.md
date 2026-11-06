@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Flow and subflow stages, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Flow and subflow stages, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configure stages and add them to a flow
@@ -18,7 +18,7 @@ Configure when stages display to a user, define stage state labels, and add stag
 
 ## Before you begin
 
-This task assumes that you are familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-stages.md).
+This task assumes that you're familiar with flow and subflow stages, stage fields, and stage sets. For more information about stages, see [Flow and subflow stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-stages.md).
 
 Role required: flow\_designer or admin
 
@@ -42,7 +42,7 @@ Role required: flow\_designer or admin
 
 4.  Create and configure stages.
 
-    1.  Click \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon and select **Flow stages**.
+    1.  Select \[Omitted image "more-actions-menu-icon.png"\] Alt text: The More Actions icon and select **Flow stages**.
 
         The Flow stages menu opens.
 
@@ -52,14 +52,14 @@ Role required: flow\_designer or admin
 
         In general, use stage sets when you want to reuse stages across multiple flows or subflows.
 
-    3.  Click **Add new stage** to manually create and configure stage options inline.
+    3.  Select **Add new stage** to manually create and configure stage options inline.
 
         |Field|Description|
         |-----|-----------|
         |Name|Display name for the stage. Must be unique.|
         |Value|Internal name for the stage. Must be unique.|
         |Duration|Estimated duration displayed to the user. If you want to update stages based on flow run times, consider adding one or more Wait for a duration flow logic blocks. For more information, see [Wait for a duration flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-logic-wait-for-a-duration.md).|
-        |Always Show|If selected, the stage always displays in the stage field, even if the stage is set within a flow logic block that might not execute.|
+        |Always Show|If selected, the stage displays in the stage field, even if the stage is set within a flow logic block that might not execute.|
 
         In general, create stages inline when you do not plan to reuse stages in other flows or subflows.
 
@@ -71,9 +71,9 @@ Role required: flow\_designer or admin
 
 5.  Add stages to the flow or subflow.
 
-    1.  Point to a location in the flow or subflow.
+    1.  Select a location in the flow or subflow.
 
-    2.  Click **Add a Stage**.
+    2.  Select **Add a Stage**.
 
     3.  Select an existing stage.
 
@@ -85,7 +85,7 @@ Role required: flow\_designer or admin
 
 6.  Create stages inline.
 
-    1.  Point to a location in the flow or subflow.
+    1.  Select a location in the flow or subflow.
 
     2.  Select **Add a Stage**.
 
@@ -95,7 +95,7 @@ Role required: flow\_designer or admin
 
 7.  Set a stage to the Error state within a conditional flow logic block.
 
-    1.  Point to a location.
+    1.  Select a location.
 
     2.  Select **Set "Error" State**.
 

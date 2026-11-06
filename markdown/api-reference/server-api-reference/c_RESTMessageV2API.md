@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -431,11 +431,39 @@ Sets the HTTP method this REST message performs, such as GET or PUT.
 
 You must set an HTTP method when using the [RESTMessageV2 - RESTMessageV2\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_RESTMessageV2API.md) constructor with no parameters.
 
-|Name|Type|Description|
-|----|----|-----------|
-|method|String|HTTP method to perform.|
+<table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+method
+
+</td><td>
+
+String
+
+</td><td>
+
+Sets the HTTP method this REST message performs. The provided HTTP method is not case sensitive. The following HTTP methods are supported:
+
+-   GET
+-   POST
+-   PUT
+-   PATCH
+-   DELETE
+-   HEAD
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 

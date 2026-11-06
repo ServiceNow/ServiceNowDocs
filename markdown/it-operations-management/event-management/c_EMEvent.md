@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management Integrations
@@ -28,7 +28,7 @@ Create events in different domains for all Event Management connectors using jus
 -   **[Configure Event Management connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/connectors-and-listeners.md)**  
 Event Management provides many connectors to pull or push events from external devices. Connectors are available from the ServiceNow store as well as from third parties. You can also create custom connectors.
 
-**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
+**Parent Topic:**[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EM.md)
 
 ## Integration with external events
 
@@ -42,7 +42,7 @@ The integration with external systems can be initiated from a ServiceNow AI Plat
 
 The ServiceNow AI Platform instance includes push connectors that help external monitoring systems to integrate with Event Management directly.
 
-You can configure the authentication in the ServiceNow AI Platform instance and update the external monitoring systems to use endpoints to send the events for the push connectors that are available. For more information, see [Push Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/push-event-listener.md).
+Configure authentication in the ServiceNow AI Platform instance and update external monitoring systems to use the available push connector endpoints. For more information, see [Push Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/push-event-listener.md).
 
 ### Integration via MID Server
 

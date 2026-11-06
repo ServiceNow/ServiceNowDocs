@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-gsp-update-constituent-profile.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register for the Government Service Portal, Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Register, Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # View or update a constituent profile in the government service portal
@@ -32,7 +32,7 @@ Role required: sn\_gsm.constituent
 
     3.  Select **Save**.
 
-    For more information on the fields, see [Agency Service Constituent Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/government-service-constituent-form.md).
+    For more information on the fields, see [Constituent Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/government-service-constituent-form.md).
 
 4.  To change your password, select **Change Password**.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/view-and-verify-the-import-sets.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Watershed, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_esg.program\_manager
 
 ## About this task
 
-After the data is loaded to the ESG Management application from an external source, such as a spreadsheet, import sets are created where the state of each row is available. If there are errors during import, the state is updated as **Error**. If the data is imported, the state is updated as **Inserted**. You can also view the cause of the error in the error log. If the metric data is overridden, then the state is set to **Ignore**.
+After the data is loaded to the Operational Sustainability Management application from an external source, such as a spreadsheet, import sets are created where the state of each row is available. If there are errors during import, the state is updated as **Error**. If the data is imported, the state is updated as **Inserted**. You can also view the cause of the error in the error log. If the metric data is overridden, then the state is set to **Ignore**.
 
 ## Procedure
 

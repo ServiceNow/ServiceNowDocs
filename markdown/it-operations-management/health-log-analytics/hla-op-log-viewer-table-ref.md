@@ -1,20 +1,20 @@
 ---
-title: Log viewer table fields
-description: This section describes the information displayed in the Log viewer table.
+title: Log Viewer table fields
+description: This section describes the information displayed in the Log Viewer table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-op-log-viewer-table-ref.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Log viewer table fields
+# Log Viewer table fields
 
-This section describes the information displayed in the **Log viewer** table.
+This section describes the information displayed in the **Log Viewer** table.
 
 <table id="table_iwb_y13_2qb"><thead><tr><th>
 
@@ -88,7 +88,7 @@ Log message
 The raw log message without the header.
 
 </td></tr></tbody>
-</table>**Note:** By default, the Raw message column does not appear in the Log viewer table. You can display this column by selecting it from the **Filters** pane. For more information, see [Customize the Log viewer table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-log-viewer-table-sow.md).
+</table>**Note:** The Raw message column does not appear in the Log Viewer table by default. You can display this column by selecting it from the **Filters** pane. For more information, see [Customize the Log Viewer table in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-log-viewer-table-sow.md).
 
 **Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)
 

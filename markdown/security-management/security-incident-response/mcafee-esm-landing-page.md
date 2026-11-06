@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,7 +26,7 @@ Explore
 
 Set up
 
- -   [Get started with the McAfee ESM - Incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/activate-configure-mcafee-esm-inc-enrich.md)
+ -   [Get started with the McAfee ESM- incident Enrichment integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/activate-configure-mcafee-esm-inc-enrich.md)
 -   [Create sightings search configuration records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sightings-search-configurations.md)
 
 </td></tr><tr><td>

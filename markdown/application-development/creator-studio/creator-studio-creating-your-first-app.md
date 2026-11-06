@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 5
-breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creating your first app with Creator Studio
@@ -35,6 +35,4 @@ Let's give you a very high-level overview of what you will do in each part.
 9.  **Get your app deployed to production.** Once your app is spiffed up, tested, and ready to go, ask an admin to move it to a production environment for you so real users can begin using it to make requests. Find out how in [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
 
 **Use case:** Sam's job at the Example Company is to answer employee requests for office equipment. They've done this for years by receiving emails and keeping spreadsheets of requests, requesters, equipment, prices, dates, and fulfillments. Their company is growing, and the number of requests is now overwhelming. "I'm spending all my time reviewing requests instead of doing all the other parts of my job." They'd like to create an app that enables people to request office equipment, automatically sends an email confirmation of the request, stores the request, and enables them to fulfill or reject the request with the click of a button. They've never written a line of code in their life, but with Creator Studio, they can create the exact application they want.
-
-**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

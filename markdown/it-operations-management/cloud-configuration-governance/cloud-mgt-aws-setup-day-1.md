@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Day 1 setup guide for Amazon Web Services on Cloud Provisioning and Governance
@@ -72,7 +72,7 @@ Detailed instructions for each procedure follow this overview.
 
     **Note:** Skip this procedure if your organization does not use AWS GovCloud \(US\).
 
-    If your organization uses AWS GovCloud \(US\) regions, you create a service account for each region. These credentials that you create are used for Cloud Discovery, Cloud Provisioning and Governance, and Cloud Cost Management.
+    If your organization uses AWS GovCloud \(US\) region, you must create a service account in the region where you provision the resources. These credentials that you create are used for Cloud Discovery, Cloud Provisioning and Governance, and Cloud Cost Management.
 
 -   **6. Set up a cloud account and service account for AWS**
 

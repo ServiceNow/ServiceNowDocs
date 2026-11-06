@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -210,7 +210,7 @@ Accept
 
 </td><td>
 
-Data format of the response body. Only supports **application/json**.
+Data format of the response body. Supported types: **application/json** or **multipart/mixed**.To stream multipart responses, set the **glide.rest.serialize.disable\_response\_stream\_buffering** system property to true. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 </td></tr><tr><td>
 

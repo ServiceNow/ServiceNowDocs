@@ -1,24 +1,24 @@
 ---
-title: Splunk templates for Service Observability
-description: Templates used to create Splunk dashboards in Service Observability. You can edit these templates as needed.
+title: Splunk Observability templates for Service Observability
+description: Templates used to create Splunk Observability dashboards in Service Observability. You can edit these templates as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/splunk-templates.html
 release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
-# Splunk templates for Service Observability
+# Splunk Observability templates for Service Observability
 
-Templates used to create Splunk dashboards in Service Observability. You can edit these templates as needed.
+Templates used to create Splunk Observability dashboards in Service Observability. You can edit these templates as needed.
 
 See [Customize Service Observability dashboard templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/customize-service-observability-dashboard-templates.md) for more information.
 
--   **[Splunk Overview tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-overview-tab-for-service-observability.md)**  
+-   **[Splunk Observability Overview tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-overview-tab-for-service-observability.md)**  
 Information that is displayed on the Splunk **Overview** tab of the Service Details page in the SOW.
 -   **[Splunk Observability tab for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-observability-tab-for-service-observability.md)**  
 Dashboard and charts on the Splunk Observability tab of the Service Details page in the SOW.

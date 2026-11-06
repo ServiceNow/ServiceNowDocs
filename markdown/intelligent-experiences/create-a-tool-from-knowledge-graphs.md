@@ -1,0 +1,143 @@
+---
+title: Create a tool from a Knowledge Graph
+description: Create a tool from a Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/create-a-tool-from-knowledge-graphs.html
+release: yokohama
+topic_type: task
+last_updated: "2026-06-08"
+reading_time_minutes: 4
+keywords: [Create tool Knowledge graph for MCP]
+breadcrumb: [Creating tools, Configure, MCP Server Console, Extending AI with external systems and providers, Enable AI Experiences]
+---
+
+# Create a tool from a Knowledge Graph
+
+Create a tool from a Knowledge Graph to expose it to Model Context Protocol \(MCP\) clients from an MCP Server.
+
+## Before you begin
+
+Role required: sn\_mcp\_server.tools\_admin, sn\_mcp\_server.admin, or admin
+
+## About this task
+
+Knowledge Graph provides agents with accurate, relationship-aware access to live instance data. This enables more precise, context-aware responses in every workflow by directly querying relationships. Some Knowledge Graph schemas are available by default when creating a tool. For more information, see [Knowledge Graph schema support in MCP Server Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/knowledge-graph-support-mcp.md). To learn about creating Knowledge Graph schemas, see [Exploring Knowledge Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/knowledge-graph/exploring-knowledge-graph.md).
+
+## Procedure
+
+1.  Select Knowledge Graph from these categories.
+
+    \[Omitted image "mcp-create-tool-moveworks.png"\] Alt text: Tool creation
+
+2.  On the form, fill in the fields.
+
+    \[Omitted image "mcp-server-create-tool-kg.png"\] Alt text: Create tool from Knowledge graph
+
+    **Note:** The **category** is auto-populated if selected in the last modal.
+
+<table id="table_l2y_lhm_hgc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Knowledge Graph
+
+</td><td>
+
+Select a Knowledge Graph type from the list. You can either choose Enterprise Graph or one of the custom graphs.
+
+</td></tr><tr><td>
+
+Label
+
+</td><td>
+
+An internal name for the tool.
+
+</td></tr><tr><td>
+
+MCP app
+
+</td><td>
+
+An active MCP app linked to this knowledge graph tool.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+The description of what the tool intends to do. This input is exposed to AI clients and used to determine when to call this tool.
+
+**Note:** Admins must add specific and action-oriented description as the AI clients access it to decide when to invoke the tool.
+
+</td></tr><tr><td>
+
+Annotations
+
+</td><td>
+
+Indication of the tool's behavior with MCP clients. 'Read Only' is the default annotation or tool behavior Knowledge Graph.
+
+ The MCP client will use the selected annotations to categorise tools according to their behavior.
+
+</td></tr><tr><td>
+
+Required roles
+
+</td><td>
+
+The MCP Tools admin selects one or more roles from the User Role \[sys\_user\_role\] table to specify which roles can access and use the tool.
+
+</td></tr><tr><td>
+
+MCP Servers
+
+</td><td>
+
+One or more servers you want to add your tool to.
+
+</td></tr></tbody>
+</table>    **Note:** A tool can be used by multiple servers so any changes that you make to a tool apply to all servers that use the tool. Before editing a tool, review which servers it's associated with to determine the impact for every server.
+
+    In the Tool inputs section, the fields associated with the capability are added.
+
+    \[Omitted image "mcp-server-create-tool-kg-toolinput.png"\] Alt text: Tool input for Knowledge graph
+
+    -   anchortables: Use one or more table names to make your query more specific when you select Enterprise Graph or Enterprise Graph \(small\). This is helpful when you know which tables are relevant to your question. This is an optional field.
+    -   tags: Include one or more tags to prioritize a specific group of tables. For example, you can use tags like 'CSM', 'HR'. These tags are required for the Enterprise Graph and Enterprise Graph \(small\) though they are only mandatory for the latter. See [Create Knowledge Graph tag](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/knowledge-graph/create-knowledge-graph-tags.md) for details on creating Knowledge Graph tags.
+    -   description: Your query or request that will use Knowledge Graph.
+    -   apioptions: Manually enter the JSON object as a collection of key-value pairs. It configures how to run queries and organizes the response:
+
+        |Option|Type|Default|Purpose|
+        |------|----|-------|-------|
+        |`resultLimit`|Number|10|Control how many records are returned in the response|
+        |`getEncodedQuery`|Boolean|false|Include a ServiceNow encoded query per table — useful for navigating to matching records in the UI|
+        |`getStatusMessages`|Boolean|false|Include a `meta` field with messages about result truncation and execution errors|
+        |`showColumnProperties`|Boolean|false|Include metadata for each column \(table name, display value, sys\_id\) alongside the raw value|
+        |`groupByTable`|Boolean|false|Group result columns by their source table name — results structured as `{ tableName: { columnName: value } }`|
+        |`getExplanation`|Boolean|false|Include an explanation of the query — the tables, relationships, etc. to get the results|
+
+3.  Turn off inputs from the tool that you don't want to expose.
+
+    1.  In the Tool inputs section, locate the tool input.
+
+    2.  From the Enabled column, select the toggle to turn off the input.
+
+        **Note:** Some tool inputs are required and can't be turned off.
+
+4.  Select **Create**.
+
+
+## What to do next
+
+Configure clients to connect to the server and use the tool. For more information, see [Connecting to an MCP server from an MCP client](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/connect-mcp-server-client.md).
+
+**Parent Topic:**[Creating tools for a Model Context Protocol server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/creating-tools-mcp-server.md)
+

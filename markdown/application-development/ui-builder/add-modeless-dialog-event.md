@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Create modeless dialogs in UI Builder, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Create modeless dialogs in UI Builder, Customize UI Builder pages using components, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add modeless dialog event to a UI Builder page
@@ -56,15 +56,15 @@ Role required: ui\_builder\_admin
 
     **Note:** For any of the event handlers, select **Script** in the **Mode** drop-down if you prefer to work in the script editor.
 
-<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d52133e211">
+<table id="choicetable_dzv_llh_wnb"><thead><tr><th align="left" id="d262210e211">
 
 To add a modeless dialog event handler
 
-</th><th align="left" id="d52133e214">
+</th><th align="left" id="d262210e214">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d52133e220">
+</th></tr></thead><tbody><tr><td id="d262210e220">
 
 **Open Modeless Dialog**
 
@@ -79,7 +79,7 @@ Opens a modeless dialog. For example, add a button labeled Compose email and con
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always open the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d52133e298">
+</td></tr><tr><td id="d262210e298">
 
 **Close Modeless Dialog**
 
@@ -89,7 +89,7 @@ Closes a modeless dialog. Use this option if you want to configure a component, 
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always close the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d52133e335">
+</td></tr><tr><td id="d262210e335">
 
 **Minimize Modeless Dialog**
 
@@ -99,7 +99,7 @@ Minimizes an open modeless dialog. Use this option if you want to configure a co
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always minimize the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d52133e372">
+</td></tr><tr><td id="d262210e372">
 
 **Update Modeless Dialog**
 
@@ -114,7 +114,7 @@ Updates the specified fields on a modeless dialog. For example, add a button lab
 -   **When to trigger** \(Advanced option\): Select **Always** to have the component \(in this example, the button\) always update the modeless dialog. Select **Conditionally** to add an event handler condition. For more information about event handler conditions, see [Supported functions in the UI Builder component formula editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/add-components.md).
 
 
-</td></tr><tr><td id="d52133e436">
+</td></tr><tr><td id="d262210e436">
 
 **Dirty Modeless Dialog**
 

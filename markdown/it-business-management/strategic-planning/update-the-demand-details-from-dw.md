@@ -1,0 +1,46 @@
+---
+title: Update demand details
+description: Update the details of a demand record in Next Experience for Demand Management to reflect any changes in scope, priority, or capacity.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/update-the-demand-details-from-dw.html
+release: yokohama
+product: Strategic Planning
+classification: strategic-planning
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [demand details, demand update, scope, priority, capacity]
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+---
+
+# Update demand details
+
+Update the details of a demand record in Next Experience for Demand Management to reflect any changes in scope, priority, or capacity.
+
+## Before you begin
+
+Role required: it\_demand\_user, it\_demand\_manager
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace**.
+
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
+
+3.  Open a demand from the **List** page.
+
+4.  Select the **Details** tab.
+
+5.  Make the required changes.
+
+    For information on the field values, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/demand-form-dw.md).
+
+6.  Change the form view to view the demand details in a different layout.
+
+    1.  Select the Additional actions icon.
+
+    2.  Select **View** and select a view from the available views.
+
+7.  Select **Save**.
+
+

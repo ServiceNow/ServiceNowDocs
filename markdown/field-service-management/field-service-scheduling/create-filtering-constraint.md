@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create Task Recommendation Policies, Setting up Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Task Recommendation Policies, Configure Intelligent Task Recommendations, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create a filter constraint or a ranking criteria for a task recommendation policy
@@ -18,7 +18,7 @@ Define a filtering constraints or a ranking criteria for a task recommendation p
 
 ## Before you begin
 
-Role required: admin, wm\_admin
+Role required: admin, wm\_admin, sn\_task\_recommend.task\_rec\_admin
 
 ## Procedure
 

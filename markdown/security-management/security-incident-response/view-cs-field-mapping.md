@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [View information in a security incident, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,18 +18,16 @@ Security Incident Response ships with a default field mapping that maps a securi
 
 ## Before you begin
 
-Role required: sec\_cmn.read
+Role required: sn\_sec\_cmn.read
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Field Mapping**.
 
-2.  Click **Security Incident to CSM Case Field Mapping** to view the default map.
-
-    \[Omitted image "cs-mapping.png"\] Alt text: Default security incident to Case Management case
+2.  Select **Security Incident to CSM Case Field Mapping** to view the default map.
 
 3.  You can edit the mapping, as needed.
 
-4.  When you have completed your changes, click **Update**.
+4.  When you have completed your changes, select **Update**.
 
 

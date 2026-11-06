@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Explore, Service Portfolio Management, IT Service Management]
 ---
 
 # Use Service Portfolio Management services
@@ -34,10 +34,10 @@ You can designate services as **Services I depend On** or **Services Dependent O
 
 You can add technical services as part of your service portfolio taxonomy. Even if you don't, you can still gain insight into these services by adding them as **Services I depend On** or **Services Dependent On Me** in the related list section of the Service form.
 
-Starting with the Yokohama release, technical services align with the Common Service Data Model \(CSDM\), version 5. With this alignment, technical services remain in the \[cmdb\_ci\_service\_technical\] table and are labeled in the user interface as Technology Management Service. Service offerings remain in the \[service\_offering\] table and are labeled Service Offering.
+Starting with the Brazil release, technical services align with the Common Service Data Model \(CSDM\), version 5. With this alignment, technical services remain in the \[cmdb\_ci\_service\_technical\] table and are labeled in the user interface as Technology Management Service. Service offerings remain in the \[service\_offering\] table and are labeled Service Offering.
 
-|Table name|Label in Xanadu and prior releases|Label in Yokohama and later releases|
-|----------|----------------------------------|------------------------------------|
+|Table name|Label in Xanadu and prior releases|Label in Brazil and later releases|
+|----------|----------------------------------|----------------------------------|
 |\[cmdb\_ci\_service\_technical\]|Technical Service|Technology Management Service|
 
 To create or modify services, see [Create or modify Service Portfolio Management services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/create-or-modify-SPM2-services.md).

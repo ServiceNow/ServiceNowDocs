@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Safety inspections and audits, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -20,8 +20,8 @@ Add an action for each finding to address any issues or implement measures neces
 
 Role required:
 
--   For safety inspections: sn\_hs\_rm.safety\_inspection\_manager or sn\_hs\_rm.safety\_inspection\_writer
--   For safety audits: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.safety\_audit\_writer
+-   For safety inspections: sn\_hs\_rm.safety\_inspection\_manager, sn\_hs\_rm.safety\_inspection\_writer, or sn\_ohs\_im.action\_writer
+-   For safety audits: sn\_hs\_rm.safety\_audit\_manager, sn\_hs\_rm.safety\_audit\_writer, or sn\_ohs\_im.action\_writer
 
 ## About this task
 
@@ -40,15 +40,17 @@ For information on adding an action for a safety inspection or audit through Mob
 
 3.  Create an action from an inspection or audit record or the Actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d697194e146">
+    **Note:** You can add actions from the Actions tab on the record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
+
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d752690e162">
 
 Option
 
-</th><th align="left" id="d697194e149">
+</th><th align="left" id="d752690e165">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d697194e155">
+</th></tr></thead><tbody><tr><td id="d752690e171">
 
 **From an inspection record**
 
@@ -59,7 +61,7 @@ Steps
 3.  In the **Inspection actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d697194e188">
+</td></tr><tr><td id="d752690e204">
 
 **From an audit record**
 
@@ -70,26 +72,15 @@ Steps
 3.  In the **Audit actions** tab, select **New**.
 
 
-</td></tr><tr><td id="d697194e221">
-
-**From the Actions list**
-
-</td><td>
-
-1.  Select the **Actions** list and then **All**.
-2.  Select **New**.
-
-
-</td></tr><tr><td id="d697194e248">
+</td></tr><tr><td id="d752690e237">
 
 **From the Findings tab**
 
 </td><td>
 
-1.  Select the **Findings** related item for an audit record or **Findings and RCA** related item for an inspection record.
-2.  Select **New** and complete the finding form and then **Save**.
-3.  Select **Actions** related item of the finding record in the audit or inspection record.
-4.  Select **New**.
+1.  Select the **Findings** tab for an audit or inspection.
+2.  Select the **Actions** tab in the finding.
+3.  Select **New**.
 
 
 </td></tr></tbody>
@@ -101,20 +92,22 @@ Steps
 
 5.  Select **Save**.
 
-6.  If necessary, add more actions for the safety inspection or audit.
+6.  If necessary, add more actions.
 
 
 ## Result
 
--   If associated with a safety inspection, the action appears in the list of actions in the **Inspection actions** tab of the inspection.
--   If associated with a safety audit, the action appears in the list of actions in the **Audit actions** tab of the audit.
--   The action is also listed in the **Actions** list under the **Inspections and Audits** tab on Health and Safety Workspace.
--   The action appears in the assigned user's **My Tasks** list on both the Employee Center and the Now Mobile app. From either location, the user can respond to the action and update its status.
+-   If associated with a safety inspection, the action appears in the **Inspection actions** tab of the inspection.
+-   If associated with a safety audit, the action appears in the **Audit actions** tab of the audit.
+-   The action also appears in the assigned user's **My Tasks** list on both the Employee Center and the Now Mobile app. From either location, the user can respond to the action and update its status.
 
 ## What to do next
 
 -   You can assign the action to yourself or to another safety team member to start working on it.
--   You can share the action, independent of the inspection, with other groups or agents, so that they can prevent the similar situation from happening at any of their locations. To share an action, select **Copy action**.
+
+    If it is an audit action, you can submit it for approval to start the approval workflow. For more information, see [Submit a safety action for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-submit-audit-finding-action-approval.md).
+
+-   You can share the action, independent of the inspection or audit, with other groups or agents, so that they can prevent the similar situation from happening at any of their locations. To share an action, select **Copy action**.
     -   The action is duplicated and appears in the **My Tasks** list of the assigned user on the Employee Center.
     -   The action is also listed in the **Actions** list on the Health and Safety Workspace.
 

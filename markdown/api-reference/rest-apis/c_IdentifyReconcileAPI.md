@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 98
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -488,7 +488,7 @@ referenceItems
 
 </td><td>
 
-List of reference between two items in the payload.Data type: Array of Objects
+List of reference between two items in the payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.Data type: Array of Objects
 
 ```
 "referenceItems": [
@@ -2423,7 +2423,7 @@ referenceItems
 
 </td><td>
 
-List of reference between two items in the payload.Data type: Array of Objects
+List of reference between two items in the payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.Data type: Array of Objects
 
 ```
 "referenceItems": [
@@ -4440,7 +4440,7 @@ referenceItems
 
 </td><td>
 
-List of reference between two items in the payload.Data type: Array of Objects
+List of reference between two items in the payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.Data type: Array of Objects
 
 ```
 "referenceItems": [
@@ -6418,7 +6418,7 @@ referenceItems
 
 </td><td>
 
-List of reference between two items in the payload.Data type: Array of Objects
+List of reference between two items in the payload. The values of each reference item are populated before identifying a CI using the IRE rules defined on a class.Data type: Array of Objects
 
 ```
 "referenceItems": [

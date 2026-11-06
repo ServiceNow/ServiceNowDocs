@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with record feeds, Use Live Feed to work on records, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -29,7 +29,7 @@ Role required: none
     -   From My Live Feed \(must already be following the record\)
     -   From the **Live Feed** pop-up window
     -   From the **Live Feed** tab on the activity formatter
-    -   Click the **Show Live Feed** button \(\[Omitted image "ShowLiveFeedIcon.png"\] Alt text: Show Live Feed icon\) in the form header.
+    -   Click the **Show Live Feed** buttonin the form header.
 2.  Compose the message and add images and links.
 
 3.  In the To list, select the record where you want to post the message.

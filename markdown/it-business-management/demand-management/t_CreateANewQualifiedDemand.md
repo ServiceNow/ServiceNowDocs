@@ -1,20 +1,20 @@
 ---
 title: Create a qualified demand
-description: The demand manager can create a new qualified demand from the demand workbench list view.
+description: The demand manager can create a qualified demand from the demand workbench list view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/t\_CreateANewQualifiedDemand.html
 release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a qualified demand
 
-The demand manager can create a new qualified demand from the demand workbench list view.
+The demand manager can create a qualified demand from the demand workbench list view.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Saving the demand adds it to the Demands list and adds a bubble representing the
 
 1.  Navigate to **All** &gt; **Demand** &gt; **Demands** &gt; **Workbench**.
 
-2.  Click **New** at the top of the list view.
+2.  Select **New** at the top of the list view.
 
 3.  Fill in the fields on the Demand form.
 

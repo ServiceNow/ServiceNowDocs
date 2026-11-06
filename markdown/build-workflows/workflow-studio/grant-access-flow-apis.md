@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API access to Workflow Studio flows, Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [API access, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a client callable flow, subflow, or action
@@ -61,6 +61,4 @@ By default, the flows, subflows, and actions can only be called by the FlowAPI w
 ## Result
 
 The user with the designated permissions can trigger a client callable flow, subflow, or action from a client script using the GlideFlow API.
-
-**Parent Topic:**[API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/api-access-flow-designer.md)
 

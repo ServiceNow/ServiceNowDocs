@@ -1,21 +1,21 @@
 ---
-title: Personalize Prioritization List view in Portfolio Planning Workspace
-description: Personalize the List view in the Prioritization page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
+title: Personalize Prioritization view
+description: Personalize the Prioritization tab view in the Planning page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/personalize-prioritization-page-portfolio-planning-workspace.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Personalizing Prioritization page views in Portfolio Planning Workspace, Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Personalize Prioritization List view in Portfolio Planning Workspace
+# Personalize Prioritization view
 
-Personalize the List view in the Prioritization page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
+Personalize the Prioritization tab view in the Planning page in the workspace so that you can view the information that is most relevant to you and your stakeholders.
 
 ## Before you begin
 
@@ -25,7 +25,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-This task provides guidance on different options to personalize the List view of the Prioritization page.
+This task provides guidance on different options to personalize the Prioritization view of the Planning page.
 
 Personalization preferences are saved as the portfolio plan's settings in Portfolio Planning. So, these settings are applied to all the users or user groups that the portfolio plan is shared with.
 
@@ -53,15 +53,15 @@ Personalization preferences are saved as the portfolio plan's settings in Portfo
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d112321e185">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d139012e191">
 
 Choice
 
-</th><th align="left" id="d112321e188">
+</th><th align="left" id="d139012e194">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d112321e194">
+</th></tr></thead><tbody><tr><td id="d139012e200">
 
 **Drag and drop**
 
@@ -73,7 +73,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d112321e222">
+</td></tr><tr><td id="d139012e228">
 
 **Use Column actions**
 

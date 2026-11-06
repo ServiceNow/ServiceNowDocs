@@ -1,26 +1,26 @@
 ---
-title: Create relations between elements of one breakdown
-description: Use a breakdown relation to set up navigation on an Analytics Hub between a hierarchy of elements within the same breakdown. A field in the breakdown records must identify the hierarchical relationship of one record to another.
+title: Create relations between elements of a breakdown
+description: Use a breakdown relation to set up navigation between a hierarchy of elements within the same breakdown. A field in the breakdown records must identify the hierarchical relationship of one record to another.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/create-relation-btwn-bkdn-elements.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Navigating breakdown elements with breakdown relations, Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Navigating breakdown elements with breakdown relations, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
-# Create relations between elements of one breakdown
+# Create relations between elements of a breakdown
 
-Use a breakdown relation to set up navigation on an Analytics Hub between a hierarchy of elements within the same breakdown. A field in the breakdown records must identify the hierarchical relationship of one record to another.
+Use a breakdown relation to set up navigation between a hierarchy of elements within the same breakdown. A field in the breakdown records must identify the hierarchical relationship of one record to another.
 
 ## Before you begin
 
 Review the use cases for breakdown relations in [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/breakdown-relations.md).
 
-**Important:** Platform Analytics features, such as KPI Details and data visualizations, do not support breakdown relations.
+**Important:** To show breakdown relations on Platform Analytics, you have to create a dashboard with an indicator scorecard and a filter. KPI Details does not support breakdown relations.
 
 Role required: pa\_data\_collector, pa\_power\_user, admin
 
@@ -34,11 +34,7 @@ You can create breakdown relations to navigate the following hierarchical relati
 -   Parent relations, to navigate from a child element to its parents
 -   Sibling, or peer relations, to navigate between elements that share the same parent element
 
-In a breakdown with a hierarchical relationship between elements, one field in the element record identifies the position of the element in the hierarchy. Typically this field is Parent, and identifies the parent element. Elements that are the parent of one element can themselves have a parent element, and you can navigate this multi-level hierarchy in the Analytics Hub.
-
-The example used in this topic is the Location breakdown for the Number of open incidents indicator. A child relation and a parent relation are needed to navigate the several levels of hierarchy, such as from region to country to city and back.
-
-\[Omitted image "child-locations.png"\] Alt text: Navigating from Germany to child locations or to the parent EMEA region.
+In a breakdown with a hierarchical relationship between elements, one field in the element record identifies the position of the element in the hierarchy. Typically this field is Parent, and identifies the parent element. Elements that are the parent of one element can themselves have a parent element.
 
 **Note:** Breakdown relations are one-way relationships. Define multiple breakdown relations to create a bi-directional relationship.
 
@@ -48,13 +44,11 @@ The example used in this topic is the Location breakdown for the Number of open 
 
 2.  In the **Breakdown** and **Related breakdown** fields, select the breakdown whose elements you want to navigate between.
 
-    These fields have the same value when you are creating a relation between elements of the same breakdown. For our example, select the **Location** breakdown in both fields.
+    These fields have the same value when you're creating a hierarchical relation between elements of the same breakdown.
 
 3.  In the **Table** field, select the same table as the breakdown source facts table.
 
-    In our example, select **Location \[cmn\_location\]**.
-
-4.  Fill in the rest of the form, depending on whether you are creating a child, a parent, or a sibling/peer relation.
+4.  Fill in the rest of the form, depending on whether you're creating a child, a parent, or a sibling/peer relation.
 
 <table id="table_bkdwn-relations"><thead><tr><th>
 
@@ -124,13 +118,71 @@ Select the field that identifies the parent element.For the Location breakdown, 
 </table>5.  Under **Conditions**, define any further conditions that a record must fulfill to appear as a related breakdown for this relationship.
 
 
-## Result
+## Parent group of Assignment Groups
 
-After you submit the Breakdown Relation form, the navigation options are available in the Analytics Hub for the relevant indicator. You do not need to run a data collection job first.
+These instructions create a parent group relation for the Assignment Group breakdown and displays the relation in a dashboard. To display the breakdown relation in a dashboard, you need two dashboard elements:
+
+-   A filter
+-   An indicator scorecard
+
+The filter is the starting point. It acts as a source, and the breakdown configured for the indicator scorecard acts as a target. The breakdown relation record defines how these two elements are connected.
+
+1.  Navigate to **All** &gt; **Breakdowns** &gt; **Breakdown Relations** and tap **New**.
+2.  Name the relation Parent Group.
+3.  For both Breakdown and Related Breakdown, select Assignment Group.
+4.  For the Table, select Group \[sys\_user\_group\].
+5.  Select SysID for the breakdown field.
+6.  Select Parent for the related breakdown field.
+7.  Do not select a common field.
+8.  Define \[Active\]\[Is\]\[True\] as the condition.
+9.  Tap **Update**.
+
+You now have a hierarchical breakdown relation. To display it, you need a dashboard with an indicator scorecard.
+
+1.  Navigate to **Platform Analytics** &gt; **Library** &gt; **Dashboards**
+2.  Tap **Create dashboard**.
+3.  Create a Next Experience dashboard in the In-line editor and name it Hierarchical relation.
+4.  Tap **Add new element**
+5.  Select **Data visualization** and create a visualization.
+6.  Configure the visualization as follows:
+
+    |Field|Value|
+    |-----|-----|
+    |Visualization type|Indicator scorecard|
+    |Scorecard type|List|
+    |Data &gt; Indicator &gt; Source definition|Manually selected|
+
+7.  Tap **Indicator &gt; Add**.
+8.  Select the Number of open incidents indicator.
+9.  Tap **Breakdown &gt; Add**
+10. Select Assignment Group.
+11. Turn on **Follow breakdown relation**.
+12. Select the Parent Group relation.
+13. Save.
+
+Lastly, you need a filter on the same breakdown.
+
+1.  Tap **Add new element**.
+2.  Select Filter &gt; New Filter.
+3.  Label the filter Assignment Group.
+4.  Tap **Add source** and select the Group \[sys\_user\_group\] table.
+5.  Tap **Apply**
+6.  Under Data to filter, tap **Add**.
+7.  Select indicators with the breakdown Assignment Group.
+8.  Tap **Apply**.
+
+Save the dashboard and start selecting values in the filter. When you select a child value, like Database Atlanta, you roll the result up into the parent value, like Database.
 
 ## What to do next
 
-View examples of breakdown relations that are shipped by default in every instance. For the Location breakdown, the **Child Location** and **Parent Location** breakdown relations are included. The **Sibling Group** breakdown relation is an example of a sibling or peer relation.
+View examples of breakdown relations that are shipped by default in every instance.
 
 **Parent Topic:**[Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/breakdown-relations.md)
+
+**Related topics**  
+
+
+[Create an Indicator Scorecard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-indicator-scorecard.md)
+
+[Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-workspace-filter-type.md)
 

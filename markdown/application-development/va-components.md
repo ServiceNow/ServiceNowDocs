@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/va-components.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create custom components using ServiceNow CLI, Builder library, Developing your application, Building applications]
+breadcrumb: [Create custom components using ServiceNow CLI, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Develop a component for Virtual Agent
@@ -180,7 +180,7 @@ Because they accept data, input components must handle multiple states. The stat
 
 ## Adding the component to Virtual Agent Designer
 
-After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see Virtual Agent custom controls.
+After developing the component and deploying it to your instance, add it to Virtual Agent Designer using a custom control and definition. For more information, see [Virtual Agent custom controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/custom-controls.md).
 
 -   **[Add properties to communicate with Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/add-va-properties.md)**  
 To develop a component for Virtual Agent, add specific properties and actions to interact with the Virtual Agent client interface. The properties required depend on the type of component you are creating.

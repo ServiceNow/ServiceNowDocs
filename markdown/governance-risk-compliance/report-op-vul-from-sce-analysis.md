@@ -1,16 +1,16 @@
 ---
-title: Report an operational vulnerability from the Scenario analysis
+title: Report an operational vulnerability from a scenario
 description: Report an operational vulnerability from the Scenario analysis in the Operational Resilience Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/report-op-vul-from-sce-analysis.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reporting Operational vulnerability, Managing Operational vulnerability, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Report an operational vulnerability from the Scenario analysis
+# Report an operational vulnerability from a scenario
 
 Report an operational vulnerability from the Scenario analysis in the Operational Resilience Workspace.
 
@@ -40,11 +40,11 @@ Role required: sn\_oper\_res.manager
 
     The source of the vulnerability is the Scenario analysis. Therefore, the **Source** field on the form shows the source as Scenario analysis and the **Source table** field on the form shows the table as Scenario analysis. The **Source table** field is auto-filled.
 
-    To view more information on the fields, see the [Create New Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-op-vul-form.md).
+    To view more information on the fields, see the [Create Operational vulnerability form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-op-vul-form.md).
 
 6.  Select **Save**.
 
-    The following example shows how the Scenario analysis record is displayed in the Operational vulnerabilities related list and the Operational vulnerability is associated with the Scenario analysis for critical services.
+    The following example shows how the Scenario analysis record is displayed in the Operational vulnerabilities related list. The Operational vulnerability is associated with the Scenario analysis for critical services.
 
     \[Omitted image "op-vul-rel-list-sce-analysis.png"\] Alt text: Scenario analysis record.
 

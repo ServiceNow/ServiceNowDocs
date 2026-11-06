@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Security Incident Response integrations, Security Incident Response
 
 The McAfee ePO integration endpoint detection and response \(EDR\) capability that helps Security Operations Center \(SOC\) analysts identify cyberthreats and repair the damage caused by malicious files.
 
-## Overview
+## Overview of McAfee ePO integration
 
 There are two sets of McAfee ePO capabilities used in this integration, the capabilities that invoke actions, such as isolating a host and initiating a malware scan, and the capabilities that run queries to gather system details and threat events. Both types of capabilities, the actions and the queries, are invoked from your ServiceNow AI Platform® instance. You can group these capabilities together so that they automatically run when a specific type of security event occurs, or, you can invoke them manually from a ServiceNow AI Platform® security incident.
 
@@ -143,7 +143,7 @@ Use this checklist to guide you through all the tasks of the integration. The fo
 3.  [Set up your ServiceNow AI Platform instance for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcaffee-epo-setup-now.md)  
 The following section lists the setup tasks that you’re required to complete in your ServiceNow AI Platform® instance prior to installing the application for the McAfee ePO integration.
 4.  [Set up your McAfee ePO console to integrate with Security Incident Response \(SIR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-setup-mcafee.md)  
-The following section lists the setup steps that you are required to complete in your McAfee ePO console prior to installing the application from the ServiceNow Store for the integration.
+The following section lists the setup steps that you're required to complete in your McAfee ePO console before installing the application from the ServiceNow Store for the integration.
 5.  [Install the application and configure a server for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcaffe-epo-install.md)  
 Before you invoke the workflows for the integration, install and configure the McAfee ePO application from the ServiceNow Store on your ServiceNow AI Platform instance. The configuration is required to connect to the McAfee ePO console.
 6.  [Edit security tags in the ServiceNow AI Platform for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-match-tags.md)  
@@ -158,6 +158,12 @@ Trigger a capability profile manually from a ServiceNow AI Platform Security Inc
 The List Threat Events and Initiate Malware Scan capabilities can be triggered from Run Additional Actions.​
 11. [Using McAfee ePO integration in Analyst Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-mcafee-integration-aws.md)  
 Use the McAfee ePO integration to leverage the McAfee ePO capabilities on the SIR Analyst workspace.
+12. [Test security incidents to initiate malware scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-test-incident-malscan.md)  
+After you configure a profile for the malware scan, test the profile and view the security incidents that match the settings of your profile. Preview the scan results on the related lists of a ServiceNow AI Platform Security Incident Response \(SIR\) security incident.
+13. [Test security incidents and approve requests for the isolate host](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-test-incident-ih.md)  
+The test and preview step permits you to validate that the host isolation and remove host isolation workflow results are returned as expected for the profile.
+14. [Edit the start and completion tag names and colors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-edit-security-tag.md)  
+You may prefer to edit the names and colors of the start and complete tags for the initiate malware scan and isolate host capabilities. The start and complete tags help you quickly identify which capabilities are invoked from ServiceNow AI Platform Security Incident Response \(SIR\) security incidents.
 
 **Parent Topic:**[Security Incident Response integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/sir_integrations.md)
 

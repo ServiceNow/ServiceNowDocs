@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,6 +21,12 @@ You can assign different workflows to each Knowledge Base.
 You can use one of the default workflows, or create your own workflows to define custom publishing and retirement processes for different types of knowledge.
 
 For the workflows that require approval, you can configure which users can approve or reject by editing the getApprovers\(\) function in the KBWorkflow script include.
+
+Existing users of Knowledge Management upgrading to Zurich will have access to both workflows and flows in the Knowledge Base form. However, they will be able to use either workflows or flows for a knowledge base, with Workflow being the default option.
+
+Cross selection between flow and workflow for publish and retire is not possible.
+
+You cannot delete the approval records for knowledge flows. You can only approve or reject the records.
 
 <table id="table_eqc_lfl_1r"><thead><tr><th>
 

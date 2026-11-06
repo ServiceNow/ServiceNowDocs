@@ -7,11 +7,11 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [payment claims, debit approvals, financial services, payment operations, internal claims, external claims, refund management, claim agents, customer refunds, third-party banks, inquiry cases, service catalog, customer service portal, consumer service portal]
 audience: administrator
-breadcrumb: [Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Managing payment claims and debit approvals
@@ -62,5 +62,5 @@ Work on a claim to determine if it's valid and where to get the refund from.
 -   **[Close a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/close-claim-case.md)**  
 Close the claim case when you've completed the claimed refund process.
 
-**Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
+**Parent Topic:**[Using Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/using-payment-operations.md)
 

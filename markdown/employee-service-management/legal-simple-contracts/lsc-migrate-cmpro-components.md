@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Migrate to Contract Management Pro for Legal Service Delivery from Legal Simple Contracts, Migrating to Contract Management Pro for Legal Service Delivery, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Migrate to Contract Management Pro for Legal Service Delivery from Legal Simple Contracts, Migrate, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Data copied to Contract Management Pro for Legal Service Delivery during migration from Legal Simple Contracts

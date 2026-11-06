@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2025-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Customizing other mobile settings for ITOM Mobile Agent

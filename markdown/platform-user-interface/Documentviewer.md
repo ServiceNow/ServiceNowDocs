@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/Documentviewer.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,8 +26,9 @@ You can view the following file types:
 -   PDF
 -   PNG
 -   JPEG
+-   MP4
 
-**Note:** The rotate option doesn’t work for images.
+**Note:** The JPEG file supports image rotation and zoom actions.
 
 Other document types, for example, .zip or .exe files, are automatically downloaded without requiring Document Viewer. Document viewer converts word documents and spreadsheets to pdf first in order to view them. This might take some time to render the file the first time.
 

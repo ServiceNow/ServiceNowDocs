@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: reference
-last_updated: "2025-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development, Employee Service Management]
+breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Talent Feedback
@@ -35,14 +35,11 @@ Talent Feedback is a new plugin available in Yokohama release. Skill Feedback is
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Other information about Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-reference.md)
 
 </td></tr></tbody>
-</table>-   **[Exploring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/exploring-talent-feedback.md)**  
-Learn about Talent Feedback and its benefits as managers and employees looking to leverage a feedback engine.
--   **[Configuring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/configuring-talent-feedback.md)**  
-Set up Talent Feedback to be able to use it along with Talent Development.
--   **[Using Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/using-talent-feedback.md)**  
-Learn how to use Talent Feedback to request and provide feedback for any skills.
--   **[Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-reference.md)**  
-Reference topics provide more information regarding the dependencies, components, and tables installed along with Talent Feedback.
+</table>## Additional resources
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 

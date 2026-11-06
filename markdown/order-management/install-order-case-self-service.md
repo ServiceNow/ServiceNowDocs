@@ -1,36 +1,40 @@
 ---
-title: Install Order Case Self Service
-description: You can install the Order Case Self Service application \(sn\_ord\_case\_ss\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:
+title: Install the order case management apps for Business Portal
+description: You can install the order case management applications if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/install-order-case-self-service.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing apps for order case management, Configuring the Business Portal, Configure, Sales Customer Relationship Management]
+breadcrumb: [Installing case management apps, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
-# Install Order Case Self Service
+# Install the order case management apps for Business Portal
 
-You can install the Order Case Self Service application \(sn\_ord\_case\_ss\) if you have the admin role.
+You can install the order case management applications if you have the admin role.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Review the [Order Case Self Service](https://store.servicenow.com/sn_appstore_store.do#!/store/application/9f426ca3fff312103e5cffffffffff53) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
+-   Review the application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
 
 Role required: admin
 
 ## About this task
 
-**Note:** Demo data is unavailable with the Order Case Self Service application.
+**Note:** Demo data is unavailable with these applications.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Order Case Self Service application \(sn\_ord\_case\_ss\) using the filter criteria and search bar.
+2.  Find the application using the filter criteria and search bar.
 
+    The applications for order case management are:
+
+    -   Order Case Self Service \(sn\_ord\_case\_ss\)
+    -   Order Case Playbook \(sn\_ord\_case\_pb\)
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
     In the list next to the **Install** button, the versions that are available to you are displayed.
@@ -43,4 +47,11 @@ Role required: admin
 
 5.  Select **Install**.
 
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-self-service-business-portal.md)
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
 

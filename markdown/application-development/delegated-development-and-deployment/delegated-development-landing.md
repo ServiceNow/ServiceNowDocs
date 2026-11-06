@@ -7,9 +7,9 @@ release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Planning your application, Building applications]
+breadcrumb: [Planning your application, Classic app development, Building applications]
 ---
 
 # Delegated Development
@@ -20,15 +20,15 @@ Delegated development allows designated users without a system admin role to dev
 
 <table id="table_kqw_nbc_1dc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/exploring-delegated-development.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about Delegated Development features and concepts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/exploring-delegated-development.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/configuring-delegated-development.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure permissions and users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/configuring-delegated-development.md)
 
 </td><td>
 
-[Using\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Using Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/using-delegated-development.md)
+[Administer\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Administer permissions and users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/administer-delegated-development.md)
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

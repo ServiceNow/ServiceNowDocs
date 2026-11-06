@@ -7,8 +7,8 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Connect work, Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -40,7 +40,7 @@ Role required: sn\_cwm.cwm\_user
 
     1.  From the **Table** field, select a table.
 
-        For example, to bring in all the incidents, select the Incident \[incident\] table.
+        For example, to bring in all the incidents, select the Incident \[incident\] table. To bring project tasks onto the Board, select the Project Task \[pm\_project\_task\] table.
 
         **Note:** Only those tables that you have access to and from the applications that are already installed and active in your ServiceNow instance are available for you.
 
@@ -54,7 +54,11 @@ Role required: sn\_cwm.cwm\_user
 
     4.  Select the Update count icon \(\[Omitted image "cwm-icon-update-count.png"\] Alt text: Update count icon.\) to check the number of records that exist which match the filter criteria that you defined.
 
-        **Note:** Ensure that the number of records available for your filter criteria are not more than 100. You can change this number by default to 500 by working with your admin to update the system property **sn\_cwm.connect\_work\_import\_limit**.
+        **Note:**
+
+        Verify that the number of records available for your filter criteria aren't more than 100 for the first import. You can change this number by default to 500 by working with your admin to update the system property **sn\_cwm.connect\_work\_import\_limit**. During your first import, if the number of items are more than 500, the import throws an error and is not completed. However, on subsequent loads, you can pull data multiple times with no restrictions but can have up to only 1000 items on a board at a time.
+
+        The matching record count includes every item that meets your import conditions, but the board might display fewer items. Items can be hidden by ACLs or by board preferences. By default, a board shows only items that were updated in the last 90 days, and it can also hide completed items. To see items that match your conditions but aren't displayed, update the board preferences.
 
         \[Omitted image "cwm-connected-work-define.png"\] Alt text: Define conditions to connect records from other ServiceNow applications.
 

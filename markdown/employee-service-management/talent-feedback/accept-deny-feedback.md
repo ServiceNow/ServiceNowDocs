@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: task
-last_updated: "2025-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Talent Development, Employee Service Management]
+breadcrumb: [Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Decline a feedback request
@@ -32,6 +32,4 @@ Role required: employee
 
 4.  Add a reason for declination in the pop-up and select **Decline**.
 
-
-**Parent Topic:**[Working with Skill feedback in Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/skill-feedback-feature.md)
 

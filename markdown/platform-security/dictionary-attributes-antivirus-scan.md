@@ -1,16 +1,16 @@
 ---
-title: Knowing about Dictionary attributes for Antivirus Scanning
+title: Understanding Dictionary attributes for Antivirus Scanning
 description: Dictionary attributes alter the behavior of the table or element that the dictionary record describes. As an administrator, you can set the values of dictionary attributes to modify the behavior of the default Antivirus Scanning configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/dictionary-attributes-antivirus-scan.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Antivirus Scanning]
 ---
 
-# Knowing about Dictionary attributes for Antivirus Scanning
+# Understanding Dictionary attributes for Antivirus Scanning
 
 Dictionary attributes alter the behavior of the table or element that the dictionary record describes. As an administrator, you can set the values of dictionary attributes to modify the behavior of the default Antivirus Scanning configuration.
 
@@ -23,5 +23,5 @@ Dictionary attributes alter the behavior of the table or element that the dictio
 **Related topics**  
 
 
-[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DictionaryAttributes.md)
+[bundle-platadm.c_DictionaryAttributes]
 

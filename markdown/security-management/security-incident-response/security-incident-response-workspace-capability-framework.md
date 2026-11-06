@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SIR Workspace Orchestration, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,7 +22,7 @@ The new framework consists of modal screens with three steps as explained below.
 
 1.  **Implementations**: The first step involves selecting one or more implementations that are present against the selected capability.
 
-    For example, when the Analyst clicks **Run Threat Look Up**, the Analyst will be able to select one or more implementations that are present for **Run Threat Look Up capability**.
+    For example, when the Analyst selects **Run Threat Look Up**, the Analyst will be able to select one or more implementations that are present for **Run Threat Look Up capability**.
 
     Each implementation will have the details of the Integration Source. Refer to the table below. Additional information is also presented against each implementation.
 

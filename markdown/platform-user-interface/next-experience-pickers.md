@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-pickers.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Exploring Next Experience pickers
@@ -20,9 +20,9 @@ Any non-Global application scope displays a red circle on the scope selector men
 
 The instance tools icon \( \[Omitted image "icon-instance-tools.png"\] Alt text: Instance tools icon.\) displays the application scope and current update set in a horizontal row beneath the other tool icons in the Unified Navigation. To enable this feature, you must create a system property called **glide.ui.next\_experience.instance\_tools\_disabled** and set it to **False**. When this feature is enabled, the scope selector icon is hidden.
 
--   **Application scope**: Enables application developers to view and select the application where their changes apply. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
+-   **Application scope**: Enables application developers to view and select the application where their changes apply. For more information, see Application scope.
 -   **Domain scope**: Defines what users can access. Only users with access to domain separation see the domain scope picker. For more information, see [Domain scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_DomainScope.md).
--   **Update set**: Enables admin users to choose an update set for making and tracking customizations. For more information, see Update set administration.
+-   **Update set**: Enables admin users to choose an update set for making and tracking customizations. For more information, see .
 
 -   **Crypto module selector**: Enables users with more than one cryptographic module to select a module when entering data. This picker displays instead of the encryption context selector when the Key Management Framework is enabled through the **com.glide.kmf.global** system property and the system property **glide\_encryption.cle\_replatforming\_with\_kmf sys\_prop** is set to **opt\_in**. For more information, see [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-cryptographic-module.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/r\_AuditLogging.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow access control, Access Management]
 ---
@@ -16,7 +16,7 @@ The following logging tracks logins and activity by ServiceNow employees.
 
 <table id="table_fcs_45s_2r"><tbody><tr><td>
 
-[Event Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/event-logs-2.md)
+Event Logs
 
 </td><td>
 

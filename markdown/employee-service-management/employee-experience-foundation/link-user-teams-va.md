@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee actions, Use ITSM and HRSD integrations with Microsoft Teams, Use Microsoft Teams integration for Employee Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee actions, Use ITSM and HRSD integrations with Microsoft Teams, Use Microsoft Teams integration for Employee Experience, Use, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Link ServiceNow user account to Microsoft Teams application for Virtual Agent
@@ -31,8 +31,6 @@ The authentication step occurs in your instance or in a Service Portal set by yo
 3.  Start a conversation with your Virtual Agent bot.
 
     The bot then presents a prompt that provides options to authenticate **Link to ServiceNow**, continue as a guest user, or see the help menu **Check out Tips**.
-
-    \[Omitted image "link\_sn\_ms\_teams.png"\] Alt text: Link ServiceNow account
 
 4.  Select **Link to ServiceNow** to authenticate.
 

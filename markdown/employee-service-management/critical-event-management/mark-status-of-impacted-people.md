@@ -7,7 +7,7 @@ release: yokohama
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage impacted people, Critical Event Management, Health and Safety, Employee Service Management]
 ---
@@ -36,10 +36,10 @@ Role required: sn\_critical.agent
 
     For more information on the different statuses for impacted people, see [Impacted people status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/critical-event-management/impacted-people-status.md).
 
-7.  Update the status of multiple individuals by selecting multiple check boxes and then selecting the **Accounted** button or selecting the Accounted - More Actions icon \[Omitted image "arrow.png"\] Alt text: Accounted - More Actions icon and choosing a different status.
+7.  Update the status of multiple individuals by selecting multiple check boxes and then selecting the **Accounted** button or selecting the Accounted More Actions icon \(\[Omitted image "arrow.png"\] Alt text: Accounted More Actions icon\) and choosing a different status.
 
 
-**Parent Topic:**[Managing impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/critical-event-management/manage-impacted-people.md)
+**Parent Topic:**[Manage impacted people](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/critical-event-management/manage-impacted-people.md)
 
 **Related topics**  
 

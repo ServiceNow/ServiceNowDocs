@@ -1,20 +1,16 @@
 ---
-title: Activate the draft state in the onboarding case type state
-description: A portal user can save a case during the intake process and continue later​ with the draft state.
+title: Activate the draft state for the onboarding case type
+description: Activate a draft state for the onboarding case type so that the case remains in the draft state during the intake stage until the case is submitted.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-the-draft-state-in-the-onboarding-case-type-state.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Activate the draft state in the onboarding case type state
-
-A portal user can save a case during the intake process and continue later​ with the draft state.
-
-## About this task
+# Activate the draft state for the onboarding case type
 
 Activate a draft state for the onboarding case type so that the case remains in the draft state during the intake stage until the case is submitted.
 
@@ -38,7 +34,7 @@ Role required: admin
 
 7.  Select **Execute Now**.
 
-    This action excludes the Draft cases from the list filter on the **My List** tab on the initial page load.
+    This action excludes the Draft cases from the list filter on the **My List** tab during the initial page load.
 
 8.  If you’re using a custom case type table and you do not see the relevant state upon filtering, you might have to assign requisite ACLs for the state field and its associated values.
 

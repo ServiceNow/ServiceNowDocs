@@ -1,16 +1,16 @@
 ---
-title: Using recommendations list in Impact home page
+title: Use the recommendations list
 description: Use the recommendations full list to view the recommendations tailored for you. You can either accept or reject a recommendation based on your interest by selecting View Details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/using-recommendations-iip-ws.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact home page, Using Impact Store Application, Impact Store Application, Impact]
+breadcrumb: [Using Impact, Impact]
 ---
 
-# Using recommendations list in Impact home page
+# Use the recommendations list
 
 Use the recommendations full list to view the recommendations tailored for you. You can either accept or reject a recommendation based on your interest by selecting **View Details**.
 
@@ -42,6 +42,8 @@ Role required: All Impact roles
 
         List of all recommendations irrespective of your category or product area. The list displays eight recommendations at a time to make it a manageable chunk and easier to navigate. You can continue to view the list by selecting the subsequent pages listed below. The list displays the latest published recommendations, followed by those that you accepted in the past, and subsequently those that you had hidden or rejected.
 
+        The accelerator recommendations already implemented by the customer appear as 'auto-accepted'.
+
     -   **Recently completed**
 
         Displays recommendations that you completed recently. You can choose to like or dislike a recommendation by selecting the \[Omitted image "thumbs-up-outline-24.svg"\] Alt text: Thumbs up icon. or \[Omitted image "thumbs-down-outline-24.svg"\] Alt text: Thumbs down icon.
@@ -54,4 +56,10 @@ Role required: All Impact roles
 
 9.  To apply filter options and narrow down your search results by different criteria, select \[Omitted image "filter-fill-24.svg"\] Alt text: Filter recommendations icon.
 
+10. Select **View Details** to view more details for a selected recommendation.
+
+
+## What to do next
+
+For more information on a given recommendation, see [Manage work items from Recommendation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/recommendation-details-page-in-impact-store.md).
 

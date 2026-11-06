@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Agent Client Collector, Kubernetes, Visibility, Informer, settings, override, Cloud Native Operations for Visibility, CNO for Visibility]
-breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Install Kubernetes Visibility Agent \(KVA\) Informer, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Override Informer parameters from the Instance
@@ -23,7 +23,7 @@ Role required: discovery\_admin
 
 ## About this task
 
-The Informer execution parameters are configured during deployment using the Kubernetes Yaml file or the Helm command. If you need to change these settings later, you can do so directly from the Instance without having to ask your Kubernetes team to update or reinstall the deployment.
+The Informer execution parameters are configured during deployment using the Kubernetes Yaml file or the Helm command. You can change these settings later directly from the Instance. This avoids having to ask your Kubernetes team to update or reinstall the deployment.
 
 When you add or modify a parameter, it is synchronized with the informer through the ECC Queue. Depending on the parameter, the Informer pod may need to restart. Parameters requiring a restart must have the SELF\_PATCHING\_ALLOWED environment variable set to true for changes to be effective upon restart. If this variable is set to false, the Informer is not restarted and continues to use the old values.
 

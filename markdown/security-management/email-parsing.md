@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/email-parsing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Security Operations email processing, Security Operations common functionality, Security Operations]
 ---
@@ -40,7 +40,7 @@ For example, a malware detector could send you an email report about all systems
 
 \[Omitted image "EvilBunnyEmail.png"\] Alt text: Malicious email example
 
-In this example, when the **Record Separator** is set within your **Email Transform**as **=================**, it splits the email into four sections that are evaluated separately. This creates a Security Incident for each of the three affected systems.
+In this example, when the **Record Separator** is set within your **Email Transform** as **=================**, it splits the email into four sections that are evaluated separately. This creates a Security Incident for each of the three affected systems.
 
 **Note:** The header section is detected but does not have any affected systems so, it is used in all three records and does not create a fourth record.
 

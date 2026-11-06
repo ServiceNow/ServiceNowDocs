@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 40
 breadcrumb: [MID Server reference, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
 
 <table id="table_ibb_fsf_khb"><tbody><tr><td>
 
-![Links to each of the MID Server sections](../image/MIDRefIconBar.png)
+![MID Server reference navigation](../image/MIDRefIconBar.png)
 
 </td></tr></tbody>
 </table>To add a parameter to a MID Server, see [Add a MID Server parameter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/mid-server-parameters.md).
@@ -107,7 +107,7 @@ Parameters control the behavior of a particular MID Server and have lower preced
     -   Default value: yyyy-MM-dd HH:mm:ss
 -   **mid.disable\_amb**
 
-    Disables the Asynchronous Message Bus \(AMB\) notifications for new ECC queue output messages. For more information, see the Asynchronous Message Bus section in [Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/ecc-queue-mid-server.md). When AMB is enabled the MID Server uses a different default polling interval than when AMB is disabled. See the **mid.poll.time** parameter for more details. If you set a polling interval with the **mid.poll.time** parameter, the MID Server uses that value whether or not the AMB client is enabled.
+    Disables the Asynchronous Message Bus \(AMB\) notifications for new ECC queue output messages. For more information, see the Asynchronous Message Bus section in[Asynchronous Message Bus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/mid-server/ecc-queue-mid-server.md). When AMB is enabled the MID Server uses a different default polling interval than when AMB is disabled. See the **mid.poll.time** parameter for more details. If you set a polling interval with the **mid.poll.time** parameter, the MID Server uses that value whether or not the AMB client is enabled.
 
     -   Type: true \| false
     -   Default value: false
@@ -738,8 +738,6 @@ By default, the MID Server is configured to search for SSH commands in the follo
 
     -   Type: true \| false
     -   Default value: true
-    **Important:** This parameter requires Yokohama 8 or later.
-
 -   **mid.ssh.set\_path**
 
     Specifies whether to set the PATH environment variable for SSH commands.
@@ -1001,7 +999,7 @@ By default, the MID Server is configured to search for SSH commands in the follo
     -   Default value: true
 -   **mid.powershell.path**
 
-    Enables an administrator to point to a specific PowerShell on a MID Server in cases where more than one PowerShell is installed. Supply the path to the folder containing the PowerShell executable, for example, `C:\mypowershell` or `C:\mypowershell\`. ServiceNow automatically appends the string powershell.exe to the path. Configure this parameter when both a 32-bit and 64-bit PowerShells are active on the same MID Server, and it becomes necessary to launch the correct PowerShell for the context. 64-bit Windows employs file system redirection and the MID Server runs as a 32-bit application. If trying to specify a path in %WinDir%\\System32, Windows automatically redirects to %WinDir%\\SysWOW64. To avoid redirection, specify the path as %WinDir%\\Sysnative. For example, instead of C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\, specify C:\\WINDOWS\\sysnative\\WindowsPowerShell\\v1.0\\.
+    Enables an administrator to point to a specific PowerShell on a MID Server in cases where more than one PowerShell is installed. Supply the path to the folder containing the PowerShell executable, for example, `C:\mypowershell` or `C:\mypowershell\`. ServiceNow automatically appends the string powershell.exe to the path. Starting in Australia, this path can now point to a PowerShell 7 executable. Configure this parameter when both a 32-bit and 64-bit PowerShells are active on the same MID Server, and it becomes necessary to launch the correct PowerShell for the context. 64-bit Windows employs file system redirection and the MID Server runs as a 32-bit application. If trying to specify a path in %WinDir%\\System32, Windows automatically redirects to %WinDir%\\SysWOW64. To avoid redirection, specify the path as %WinDir%\\Sysnative. For example, instead of C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\, specify C:\\WINDOWS\\sysnative\\WindowsPowerShell\\v1.0\\.
 
     **Note:** On a 64-bit version of Windows XP, a Microsoft hotfix may be required to enable this.
 

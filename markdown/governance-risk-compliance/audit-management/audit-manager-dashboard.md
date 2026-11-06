@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Analytics and Reporting Solutions for Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Analytics and reporting solutions, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Manager Performance Analytics dashboard

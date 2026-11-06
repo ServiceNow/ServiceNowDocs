@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent-Initiated Messaging Interface, Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Components installed with Agent-Initiated Messaging Interface
@@ -28,7 +28,7 @@ Several types of components are installed with installation of the Agent-Initiat
 
 |Plugin|Description|
 |------|-----------|
-|Conversational Messaging \(com.glide.messaging.awa\)|Enables messaging actions that are performed when an event occurs.|
+|Conversational Messaging \(com.glide.messaging.awa|Enables messaging actions that are performed when an event occurs.|
 
 ## ServiceNow Store applications installed
 

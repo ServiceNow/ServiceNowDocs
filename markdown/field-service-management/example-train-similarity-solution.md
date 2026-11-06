@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/example-train-similarity-solution.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Predictive Intelligence for Field Service Management, Setting up FSM reports and analytics, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Predictive Intelligence for Field Service Management, FSM reports and analytics, Configure, Field Service Management]
 ---
 
 # Example: Suggest similar part requirements for work order tasks

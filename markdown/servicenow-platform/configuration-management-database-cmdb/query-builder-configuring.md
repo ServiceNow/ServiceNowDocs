@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configuring CMDB Query Builder
@@ -25,5 +25,13 @@ You can configure settings that affect some functionality of the CMDB Query Buil
 -   **[Configure the relationships to query on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-query-bldr-relationship-props.md)**
 
     Configure relationships between CIs, such as the parent/child \(direction\) relationship or first- or second-level relationships.
+
+-   **[Configure batch size for queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/batch-size-query.md)**
+
+    If necessary, override the default global batch size \(100\) that is allocated for every Query Builder query run. Or, optimize the batch size value per saved query.
+
+-   **[Set execution mode for running a query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/config-query-builder-engine-mode.md)**
+
+    Set the query execution mode for running a query, to use either the legacy engine or an performance-enhancing engine.
 
 

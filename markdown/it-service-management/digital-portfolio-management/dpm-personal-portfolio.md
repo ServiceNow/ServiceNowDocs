@@ -1,20 +1,20 @@
 ---
 title: Personal portfolios
-description: Personal portfolios contain data from services, offerings, business applications, and application services into one space for you to view and report on. You can see how each item is progressing according to the assigned roadmap and evaluate its performance based on key performance indicators \(KPIs\) that interest you.
+description: Personal portfolios contain data from services, offerings, business applications, and service instances into one space for you to view and report on. You can see how each item is progressing according to the assigned roadmap and evaluate its performance based on key performance indicators \(KPIs\) that interest you.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-personal-portfolio.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-22"
 reading_time_minutes: 4
-breadcrumb: [Work with portfolios in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Personal portfolios
 
-Personal portfolios contain data from services, offerings, business applications, and application services into one space for you to view and report on. You can see how each item is progressing according to the assigned roadmap and evaluate its performance based on key performance indicators \(KPIs\) that interest you.
+Personal portfolios contain data from services, offerings, business applications, and service instances into one space for you to view and report on. You can see how each item is progressing according to the assigned roadmap and evaluate its performance based on key performance indicators \(KPIs\) that interest you.
 
 ## Personal portfolios overview
 
@@ -32,15 +32,15 @@ The following list provides all the possible solution types that you can filter 
 
 -   All services
 -   All offerings
--   Technical services
--   Technical service offerings
+-   Technology management services
+-   Technology management service offerings
 -   Business services
--   Business services offerings
--   Application services
+-   Business service offerings
+-   Service instances
 
 ## Editing personal portfolios
 
-To edit a solution that you open from the personal portfolio, you must have edit access based on the access control list \(ACL\) for each solution that makes up the portfolio. For example, if you're assigned a service editor role and you own a specific service and offering, then you can edit those specific records that you open from the personal portfolio. But if you don’t have those access rights, then you can only view the services and offerings in the personal portfolio and see KPIs.
+To edit a solution from the personal portfolio, you must have edit access based on the access control list \(ACL\) for each solution that makes up the portfolio. For example, if you're assigned a service editor role and you own a specific service and offering, then you can edit those specific records that you open from the personal portfolio. But if you don’t have those access rights, then you can only view the services and offerings in the personal portfolio and see KPIs.
 
 **Tip:** With a DPM admin role \[sn\_dpm.dpm\_admin\], you can hide certain tabs and tab sections of solutions in a personal portfolio. For more information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 

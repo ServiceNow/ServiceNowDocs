@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Close an alert
@@ -22,7 +22,7 @@ Role required: evt\_mgmt\_admin or evt\_mgmt\_operator
 
 ## About this task
 
-An alert can be closed manually, automatically by a close or clear event, or when a related incident is resolved. Whether the alert is closed when the incident is closed is determined by the **evt\_mgmt.incident\_closes\_alert** property.
+An alert can be closed manually, automatically by a close or clear event, or when a related incident is resolved. Whether the alert is closed when the incident is closed is determined by the **evt\_mgmt.incident\_closes\_alert** property. The default value is Yes \(True\).
 
 When a Clear event is triggered for an open alert, the corresponding alert is set to the "Closed" state. Closing an alert also closes any related incident that is not already resolved or closed. This default behavior can be configured using the **evt\_mgmt.alert\_closes\_incident** property.
 
@@ -36,7 +36,7 @@ When a Clear event is triggered for an open alert, the corresponding alert is se
 
     The alert closes without confirmation. If the alert has any resolved or closed incidents, a work note is added to the incident indicating that the related alert was closed.
 
-    If an alert has an open incident that is not related to any other open alerts, the incident is either closed, resolved, or left unchanged based on the **evt\_mgmt.alert\_closes\_incident** property.
+    If an alert has an open incident that is not related to any other open alerts, the incident is either closed, resolved, or left unchanged. This behavior is based on the **evt\_mgmt.alert\_closes\_incident** property. The available values are: Resolve Incident, Close Incident, and Do Nothing.
 
 
 **Parent Topic:**[Manage and monitor alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMAlert.md)

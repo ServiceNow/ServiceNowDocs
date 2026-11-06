@@ -1,20 +1,20 @@
 ---
 title: Add columns to the planning page
-description: Display columns on the planning page of the project workspace so that your project managers can view custom fields for the project tasks on the planning page.
+description: Add columns to the planning page so that project managers can view custom fields for project tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/add-new-columns-to-planning-console.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personalize the planning page view in Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Personalize the planning page view in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add columns to the planning page
 
-Display columns on the planning page of the project workspace so that your project managers can view custom fields for the project tasks on the planning page.
+Add columns to the planning page so that project managers can view custom fields for project tasks.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-The project tasks displayed in the planning page of the new project workspace show the fields as per the Project Workspace view of the pm\_project\_task table. To display new fields, you must personalize this Project Workspace view of the pm\_project\_task table.
+The project tasks displayed in the planning page of the new project workspace show the fields according to the Project Workspace view of the pm\_project\_task table. To display new fields, you must personalize this Project Workspace view of the pm\_project\_task table.
 
 ## Procedure
 
@@ -36,7 +36,7 @@ The project tasks displayed in the planning page of the new project workspace sh
 
 3.  Add the necessary columns to the list.
 
-    1.  Select the Personalize List icon \(\[Omitted image "gear\_icon.png"\] Alt text: Personalize List icon.\).
+    1.  Select the Personalize list icon \(\[Omitted image "personalize-list-icon-pw.png"\] Alt text: Personalize list icon.\).
 
     2.  Move the required fields from Available to Selected.
 
@@ -45,7 +45,7 @@ The project tasks displayed in the planning page of the new project workspace sh
 
 ## Result
 
-The Project Workspace view of the pm\_project\_task table is updated as per your changes. The planning page of the new project workspace reflects these changes.
+The Project Workspace view of the pm\_project\_task table is updated according to your changes. The planning page of the new project workspace reflects these changes.
 
 **Parent Topic:**[Personalize the planning page view in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/personalize-planning-console-in-project-workspace.md)
 

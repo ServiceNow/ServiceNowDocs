@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,6 +30,8 @@ Define an indexed source attribute to configure the AI Search content indexing b
 Configure an indexed source attribute to enable indexing of content from tags found on records from an indexed source.
 -   **[Enable indexing of attachments for an AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/enable-attachment-indexing-ais.md)**  
 Configure an indexed source attribute to enable indexing of content from attachments found on records from an indexed source.
+-   **[Activate multimodal captioning for attachments from an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-multimodal-captioning.md)**  
+Generate descriptive captions for images, tables, charts, and other visual elements in attachments from records in an indexed source table. You can find these attachments by searching for terms from their generated captions.
 -   **[List of AI Search indexed source attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/indexed-source-attrs-ais.md)**  
 You can adjust indexing behavior for an AI Search indexed source by configuring indexed source attributes and values.
 

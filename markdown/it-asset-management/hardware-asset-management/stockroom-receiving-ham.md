@@ -7,16 +7,14 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-11-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Receiving hardware and consumable assets at stockrooms
 
 As an inventory user, you can receive assets at a stockroom from any workflow using the unified and standardized receiving mechanism.
-
-**Important:** The standardized asset receiving mechanism is available with Hardware Asset Management version 13.0.0 and later.
 
 With the standardized receiving process, you don't need to be familiar with the specific workflow to which the assets belong. Therefore, you can receive hardware and consumable assets from different shipments originating from sources, like transfer orders, purchase orders, or any other workflows seamlessly.
 
@@ -47,4 +45,6 @@ When any asset is received at the stockroom, the following changes happen:
 -   The State of the asset changes from **In transit** to **In stock**.
 -   The stockroom field on the asset form is automatically updated.
 -   The receive tasks in the source workflows associated with the asset that you received are automatically closed.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 

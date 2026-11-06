@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Example Asset Management process
@@ -49,24 +49,5 @@ These steps are one possible process for getting started with Asset Management.
 6.  Manage assets by counting software licenses, viewing assets that are in stock, setting asset states and substates, and analyzing unallocated software.
 
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
-
-**Related topics**  
-
-
-[Work with Asset and CI]()
-
-[Manage various assets through asset classes]()
-
-[Create fixed assets]()
-
-[Consumables life cycle]()
-
-[Stockrooms]()
-
-[Manage pre-allocated assets]()
-
-[Manage transfer order]()
-
-[Use Organization Management]()
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/exploring-asset-management.md)
 

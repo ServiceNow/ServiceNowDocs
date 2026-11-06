@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workplace knowledge management, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace knowledge management, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Modify a workplace knowledge base article
@@ -40,7 +40,7 @@ A knowledge base article undergoes the following workflow when it is created:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Knowledge management**.
+1.  Navigate to **All** &gt; **Workplace Safety Management** &gt; **Knowledge management**.
 
 2.  Select **All articles**.
 

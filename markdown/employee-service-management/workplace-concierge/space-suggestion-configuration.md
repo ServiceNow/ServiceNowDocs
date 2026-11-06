@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: task
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure workplace space suggestions for employees, Configure, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---

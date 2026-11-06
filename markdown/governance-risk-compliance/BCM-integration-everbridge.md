@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/BCM-integration-everbridge.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -17,11 +17,4 @@ You can integrate Crisis Management in Business Continuity Management applicatio
 Crisis Management in Business Continuity Management application uses Everbridge to direct certain crisis response activities. This integration helps to send notifications about critical events to stakeholders and coordinates responses from them in an effective two-way delivery channel.
 
 To send a notification, you need correct contacts, groups, and delivery channels. Delivery channels are created and stored in Everbridge and you have to import those delivery channels for your particular organization ID. These delivery channels are used for sending notifications and contact creation.
-
--   **[Setup steps for emergency notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setting-up-everbridge-emergency-notification.md)**  
-Setting up the Emergency Notification feature requires you, as a BCM admin, to configure certain pre-requisite data. The setup steps help you to establish a consistent connection with Everbridge and a successful notification delivery workflow on the Everbridge side.
--   **[Create an emergency notification and monitor its workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-emergency-notification-everbridge.md)**  
-Use the **Emergency notification** tab in the event workspace to create a notification for a crisis event or an exercise event where the exercise method is Functional.
-
-**Parent Topic:**[Using BCM Classic Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/mainitain-bcm-with-classic-workspace.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/recall-claims.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data model of Manufacturing Commercial Operations, Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Recall campaign data model
@@ -26,5 +26,10 @@ A recall is a measure taken by the manufactures when they identify a safety issu
 
 A recall is initiated when a particular defect impacts a significant number of products. The following diagram shows the entities and their relationships within the recall claims application.
 
-\[Omitted image "Data\_model\_recall%20campaign%20claim-horizontal.svg"\] Alt text: Decorative
+\[Omitted image "Data-model-recall-campaign.png"\] Alt text: Decorative
+
+-   **[Recall campaign tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/recall-claims-table.md)**  
+The recall claim feature adds and modifies database tables in Manufacturing Commercial Operations for recall campaign management.
+
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/data-model.md)
 

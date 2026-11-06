@@ -1,21 +1,21 @@
 ---
-title: Update planning item details from Prioritization page of Strategic Planning Workspace
-description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Update the details of your planning items or delete them so that your Strategic Planning Prioritization page reflects the latest work pipeline.
+title: Update planning item details from Prioritization tab
+description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Update the details of your planning items or delete them so that your Strategic Planning Prioritization tab reflects the latest work pipeline.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/update-planning-item-details-from-backlog-in-alignment-planner-workspace.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Update planning item details from Prioritization page of Strategic Planning Workspace
+# Update planning item details from Prioritization tab
 
-Update the details of your planning items or delete them so that your Strategic Planning Prioritization page reflects the latest work pipeline.
+Update the details of your planning items or delete them so that your Strategic Planning Prioritization tab reflects the latest work pipeline.
 
 ## Before you begin
 
@@ -23,7 +23,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Update the details of a planning item using the List, Kanban, and Hierarchy views in the portfolio Prioritization page. Edit the details inline from the grid view or use the side panel. You can edit details such as short description, MoSCoW, approved dates and others to facilitate smoother real-time backlog grooming. Use the full details page of the planning item to add attachments and collaborate on them with the stakeholders.
+Update the details of a planning item using the Prioritization, Kanban, and Hierarchy tabs in the Planning page. Edit the details inline from the grid view or use the side panel. You can edit details such as short description, MoSCoW, approved dates and others to facilitate smoother real-time backlog grooming. Use the full details page of the planning item to add attachments and collaborate on them with the stakeholders.
 
 ## Procedure
 
@@ -31,19 +31,17 @@ Update the details of a planning item using the List, Kanban, and Hierarchy view
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the Prioritization page, select **List**, **Kanban**, or **Hierarchy** view.
+3.  Update item details, attach files to the item, or delete the item.
 
-4.  Update item details, attach files to the item, or delete the item.
-
-<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d179020e131">
+<table id="choicetable_rz1_dn4_hvb"><thead><tr><th align="left" id="d225682e122">
 
 Choice
 
-</th><th align="left" id="d179020e134">
+</th><th align="left" id="d225682e125">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d179020e140">
+</th></tr></thead><tbody><tr><td id="d225682e131">
 
 **Update planning item details**
 
@@ -51,14 +49,14 @@ Action
 
 Edit using one of the following ways. These actions are applicable for both high-level and regular portfolio plans:
 
--   List: Double-click an item's field on the grid to make inline edits or select the short description to open the full details page.
+-   Prioritization: Double-click an item's field on the grid to make inline edits or select the short description to open the full details page.
 -   Kanban: Select a card to open its details in the side panel. You can select **Full details** to open the record page.
 -   Hierarchy: Double-click an item's field on the grid to make inline edits or select the short description to open the full details page.
  The full details page shows the item's related lists such as Goal Relationships, Milestones, Dependencies, and others.
 
  For field information, see [Planning item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/planning-item-form.md).
 
-</td></tr><tr><td id="d179020e183">
+</td></tr><tr><td id="d225682e174">
 
 **Attach files to planning item**
 
@@ -66,7 +64,7 @@ Edit using one of the following ways. These actions are applicable for both high
 
 In the Attachments section of the full details page, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d179020e198">
+</td></tr><tr><td id="d225682e189">
 
 **Delete planning item**
 

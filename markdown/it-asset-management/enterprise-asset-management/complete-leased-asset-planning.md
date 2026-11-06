@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the Planning task for an expiring enterprise asset lease contract
@@ -35,8 +35,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 3.  On the **Contract Asset Tasks** tab of the lease contract record, select the task number for the **Planning** task.
 
     Alternatively, select the task number that is displayed in the **Current task** field of the lease contract record header.
-
-    \[Omitted image "current-task-lease.png"\] Alt text: Current task field.
 
     The Planning task opens.
 

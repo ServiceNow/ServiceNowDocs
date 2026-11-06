@@ -1,20 +1,20 @@
 ---
 title: Managing financials for your projects
-description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
+description: Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/using-financials-prj-wrkspc.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 16
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Managing financials for your projects
 
-Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines, and view, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
+Manage budget, cost plans as forecasts, actual expenses as expense lines, generate labor costs, create financial baselines. View, analyze, and compare the financial performance of your projects at required cadence in Project Workspace.
 
 The comprehensive financials view helps you to understand planned and actual costs for the selected item. These costs include Forecast \(previously EAC - Estimate At Completion\), Remaining Estimates \(previously ETC - Estimate To Completion\), Actual \(previously Actuals to date\), and so on. You can manage cost plans and associate the expense lines and process them to reflect the actuals for a planning item.
 
@@ -22,7 +22,7 @@ Export the financials data from Costs and benefits or Baseline comparison view a
 
 ## Cost view
 
-Forecast your planned costs, create and manage cost plans and expense lines to track the financial performance of your projects, review the latest costs and actuals.
+Forecast your planned costs, create, and manage cost plans and expense lines to track the financial performance of your projects, review the latest costs and actuals.
 
 In the Cost screen, you can:
 
@@ -39,29 +39,9 @@ In the Cost screen, you can:
 
 **Tip:** Cost view gives you enhanced user experience to customize the left pane columns by using the personalize icon \(\[Omitted image "icon-personalize.png"\] Alt text: Personalize gear icon.\) and by saving user preferences to retain the customizations made to hide, view, or adjust columns, time scope viewing, and so on.
 
-In the Cost screen, you can:
-
--   As a Project Manager, you have the enhanced visibility and ability to manage the financial data across multiple project levels. Cost view of financials shows cost plans and expense lines from sub-projects, allowing you to track the finances.
--   The parent project widgets display the consolidated values of forecasted costs and expenses.
--   Identify and manage costs using the **Project/Demand** column for any sub project or demand directly from Cost view of the parent planning item.
--   Re-forecast all the cost plan values for future fiscal periods by double-clicking to edit the value in the least time scale view, either by month or by period.
--   Manage cost plans for your planning items. For more information, see [Add, edit, or delete cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-cost-plan-spw.md).
--   Add or edit expense lines for your planning items to record any planned or unplanned expenses. For more information, see [Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-expense-line.md).
--   Generate labor costs based on the resource assignments. For more information, see [Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/gen-labor-costs-spw.md).
--   Create and compare baselines to capture the financial snapshot of your planning items. For more information, see [Create and compare financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-compare-baselines.md).
--   [Configure widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configure-financial-widgets.md) to get a high-level overview of the financial data for your planning item.
--   All financial details from sub-projects will be aggregated and displayed in the parent project's cost plans and widgets.
-
-**Tip:** Cost view gives you enhanced user experience to customize the left pane columns by using the personalize icon \(\[Omitted image "icon-personalization-gear-symbol.png"\] Alt text: Personalize gear icon.\) and by saving user preferences to retain the customizations made to hide, view, or adjust columns, time scope viewing, and so on.
-
 ## Multicurrency
 
-Multicurrency feature enables you to manage financials of your planning items in two different currencies, Functional currency and Investment currency. Functional currency is typically defined by the admin based as the primary currency which is used for planning, budgeting, and tracking the financials of your planning items.
-
-**Important:** Following are the current limitations for multicurrency.
-
--   Multicurrency for cost plans that are bundled with project tasks. This feature is scheduled to be available starting with the January patch update.
--   Financial baselines do not capture investment currency fields. This feature will be available with the March store release.
+The multicurrency feature enables you to manage the financials of your planning items in two different currencies, Functional currency and Investment currency. Functional currency is typically defined by the admin based as the primary currency that is used for planning, budgeting, and tracking the financials of your planning items.
 
 Financial users can now perform the following financial activities in Investment currency.
 
@@ -69,6 +49,8 @@ Financial users can now perform the following financial activities in Investment
 -   Track the planned and actual expenses.
 -   Allocate and manage the budget.
 -   View simple financials data.
+
+**Important:** New customers should install the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin to enable multicurrency feature and [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 Using this feature, you can work on financial reporting at global level and see the real-time currency conversions of your financial records.
 
@@ -80,7 +62,7 @@ Using multicurrency, you can see all the costs in the currency you choose for th
 
 Financial records and widgets will display the costs based on the currency selection.
 
-**Note:** Once a cost plan, benefit plan or expense line or an investment budget gets created, you will not be able to change investment currency. You can change the investment currency as long as there are no financial records captured against the planning item.
+**Note:** Once a cost plan, benefit plan or expense line or an investment budget gets created, you won’t be able to change investment currency. You can change the investment currency as long as there are no financial records captured against the planning item.
 
 ## Display modes
 
@@ -130,7 +112,7 @@ View the Budget, Actuals, and Variance for the fiscal periods and Forecast value
 
 -   View the latest forecast and enter the budget that can they be approved to the work item.
 -   Analyze the variance for the past fiscal periods and work on budget allocation for future fiscal periods.
--   Compare latest forecast with approved budget and revise the budget, if required.
+-   Compare latest forecast with approved budget and revise the budget, if necessary.
 
 </td></tr><tr><td>
 
@@ -151,8 +133,8 @@ View only planned costs for the full range and manage the planned costs using th
 </td></tr></tbody>
 </table>**Note:**
 
--   If you do not see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/enable-fin-budget-pws.md) and [configure the budget attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md) at instance level.
--   To work on budget allocation using the Next Experience, [Scheduled job to migrate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
+-   If you don’t see the Budget allocation or Budget vs forecast display options, [enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/enable-fin-budget-pws.md) and [configure the budget attribute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/config-budget-allocation-attribute-pws.md) at instance level.
+-   To work on budget allocation using the Next Experience, [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
 
 The last selected view is saved as user preferences.
 
@@ -164,15 +146,41 @@ The last selected view is saved as user preferences.
 
 ## Baseline view
 
-[Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) to capture a snapshot of the financial changes for your projects. You can create on-demand baselines or at a cadence using a scheduler job.
+Create a financial to capture a snapshot of the financial changes for your projects. You can create on-demand baselines manually or automatically at a required cadence using a scheduler job. For more information, see [Create a baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-compare-baselines.md)
 
-**Note:** Baselines created on the parent project includes the cost plans and expense lines from all of the child projects to calculate and give you a better breakdown of the financial performance of the projects and sub-projects.
-
-When you create a financial baseline for a parent project, the financial records of the child project are also calculated, which helps Project Managers to track the financial health of the projects at one place.
+**Note:** Baselines created on the parent project include cost plans and expense lines from all of the child projects to calculate and give you a better breakdown of the financial performance of the projects and sub-projects.
 
 [Compare baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-compare-baselines.md) to compare the difference in costs between latest status against a baseline or between any two baselines.
 
-**Note:** Each baseline is tagged with a number based on the order that they’re created. The Current Financials baseline captures the financials details in real-time and is always represented with a flag icon \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
+**Note:** Each baseline is tagged with a number based on the order that they’re created. The Current Financials baseline captures the financials details in real-time and is represented with a flag icon \(\[Omitted image "fin-current-baseline-flag.png"\] Alt text: Flag icon to indicate current baseline.\).
+
+Financial baselines now capture the investment currency for customers using multicurrency.
+
+A project baseline includes the following financial metrics in investment currency.
+
+-   Investment currency
+-   Total planned cost
+-   Planned benefit
+-   Planned return
+-   Budget cost
+
+At the investment baseline level, a corresponding investment baseline is automatically created. This baseline captures:
+
+-   Planned cost
+-   Actual cost
+-   Planned benefit
+-   Actual benefit
+-   Total budget
+-   Capex, Opex, and breakdown of these fields
+-   Benefits, and so on
+
+All values are populated along with their respective investment currency.
+
+Cost plan baselines now store actual cost values in investment currency, along with the investment currency field. Benefit plan baselines capture benefit values in the investment currency, along with the associated currency. At the breakdown level \(for example, fiscal period or monthly breakdowns\), actual cost and actual benefit values are populated in investment currency where actuals exist.
+
+**Note:** Comparison of financial baselines using multicurrency is not yet supported.
+
+You can view the planning item and investment baseline using the list view. Access the `pm_project_baseline` list to view project baselines, and `sn_invst_pln_invst_investment_baseline` to view the investment baselines.
 
 The baselines comparison view helps you to understand the variances between the two baselines.
 
@@ -181,8 +189,8 @@ The baselines comparison view helps you to understand the variances between the 
 Use the widgets when you compare baselines to view:
 
 -   Two dedicated widgets for each baseline displaying the EAC.
--   Third widget displays the total variance between the EAC values of the selected baselines.
--   Fourth widget displays the top three variances contributing to the overall variance by cost type.
+-   The third widget displays the total variance between the EAC values of the selected baselines.
+-   The fourth widget displays the top three variances contributing to the overall variance by cost type.
 
 The widgets and the header rows are color-coded to help you identify the selected baselines.
 
@@ -220,7 +228,7 @@ Consider a planning item scoped from July 2023 to June 2024. Baseline A is creat
     \[Omitted image "fin-baselines-planned-vs-planned.png"\] Alt text: Baseline comparison of planned vs planned costs.
 
 
-**Note:** The columns are defined to calculate EAC, which is the sum of Actual costs till the last fiscal period and Planned costs from current to future fiscal periods.
+**Note:** The columns are defined to calculate EAC, which is the sum of Actual costs until the last fiscal period and Planned costs from current to future fiscal periods.
 
 ## Budget allocation
 
@@ -240,11 +248,38 @@ Choose the cost type as the attribute to allocate and approve the budget for ind
 
 Project managers can view the approved budget at the required time scale by switching to the Budget vs planned display mode. As the work progresses and the actuals are captured, you can compare the budget and actual costs using Budget vs planned display mode . You can also reforecast the planned costs where the actuals exceed the budget using the inline edit feature at the required time scale.
 
-Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can leverage this information to request for additional budget from the Portfolio manager.
+Product managers can compare the latest cost with the approved budget by Capex or Opex, cost types, for the required time scale at monthly, quarterly, or yearly level. The comparison view provides insights to Product managers to locate any variance at expense type or cost type, and at which fiscal period. Product manager can use this information to request for additional budget from the Portfolio manager.
 
 You can [migrate the budget of existing active projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/fin-migrate-budget-project-ppm.md) from the Classic UI to Next Experience. Financials in the Next Experience has new budget data model that facilitates to store the budget at a detailed level by monthly breakdowns and cost types. You can migrate the budget for active projects and demands individually or by bulk using the scheduled job.
 
 **Note:** The migrated budget is captured in the `sn_invst_pln_invst_budget` table to enable the lean budgeting for required time scope.
+
+Budget distribution logic
+
+The budget allocation approach introduces data‑aware budget distribution, prioritizing actuals for completed periods and planned costs for future periods. The system uses different distribution strategies depending on whether actuals or Estimate at Completion \(EAC\) values are available. It also depends on whether the fiscal period falls in the past, present, or future.
+
+Budget allocation logic is divided into three focus areas: past fiscal periods, current fiscal periods, and future fiscal periods.
+
+1.  Past fiscal periods that have already ended.
+    -   If actuals exist, the budget is distributed proportionally to actual spending. If the total budget amount equals the total actuals, the distribution exactly matches the actual values.
+    -   If there are no actuals, the budget is distributed evenly across the past fiscal periods.
+2.  The current fiscal year is like a mid‑year scenario where both past and future fiscal periods are available.
+    -   For past or completed fiscal periods, the system distributes the budget proportionally matching the actual expenses. If there are no actual expenses, budget is allocated as zero \(0\).
+    -   If planned costs exists for the current and future fiscal periods the remaining budget is distributed proportionally based on the planned costs.
+    -   If planned costs doesn't exists for the current and future fiscal periods, budget is distributed evenly across the fiscal periods.
+3.  Future fiscal periods
+    -   If planned costs exists, the remaining budget is distributed proportionally based on planned costs.
+    -   If planned costs doesn't exists, the remaining budget is distributed evenly across the remaining fiscal periods.
+
+|Fiscal periods|Available financial data|Distribution method|
+|--------------|------------------------|-------------------|
+|Past fiscal|Actual expenses|Proportional to actuals|
+|Past fiscal|No financial records|No budget allocation|
+|Current year – past fiscals|Actual expenses|Allocate budget proportionate to actual values|
+|Current year – remaining months|Planned costs exists|Allocate budget proportionate to planned costs|
+|Current year – remaining months|No planned costs|Even distribution|
+|Future fiscal periods|Planned costs exists|Allocate budget proportionate to planned costs|
+|Future fiscal periods|No financial records|Even distribution|
 
 ## Benefit plans
 
@@ -254,9 +289,9 @@ Instead of switching between the financials record page and benefit plan tabs, y
 
 ## Simple financials
 
-Simple financials gives you the ability to enter the preliminary high-level planned capex, opex, benefit and so on from the Details page without capturing the costs plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
+Simple financials gives you the ability to enter the preliminary high-level planned capex, opex, benefit, and so on from the Details page. This is done without capturing the cost plans from the Cost view. You can update the simple financials values as required until you have the planned and actual costs captured.
 
-\[Omitted image "fin\_simple\_financials\_pws.png"\] Alt text: Simple financials view in the Details page of Project Workspace.
+\[Omitted video\] Description: Manage simple financials
 
 Using the baseline feature, you can capture these simple financial values in a baseline and compare them against any existing baseline. You can:
 
@@ -272,7 +307,9 @@ Allocate, manage, and approve budget for your projects. Lean budgeting allocates
 -   **[Add or edit expense lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-expense-line-prj-wrkspc.md)**  
 Create or edit expense lines to capture the actual costs. You can associate the expense lines with a cost plan or create standalone expense lines to record unplanned expenses.
 -   **[Generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/gen-labor-costs-prj-wrkspc.md)**  
-Generate labor costs in the Costs view for attribute-based resource assignments based on the financial attributes configured in the planning attributes page.
+Generate labor costs for projects and sub-projects based on the attribute-based resource assignments and the financial attributes configured in the planning attributes page.
+-   **[Recalculate planned costs for projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/fin-recalculate-costs-pws.md)**  
+Recalculate cost plans, benefit plans, and their rolled-up investment-level values when labor rates or budget reference rates change.
 -   **[Create and compare financial baselines for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-compare-baselines-pws.md)**  
 Create and compare financial baselines to get a snapshot of the project expenses and compare the planned costs with the actual expenses.
 -   **[Create monetary benefit plans for your projects in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/fin-manage-monetary-benefit-plans-pws.md)**  

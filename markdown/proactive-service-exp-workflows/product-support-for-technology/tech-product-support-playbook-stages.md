@@ -1,24 +1,24 @@
 ---
 title: Playbook stages and activities
-description: The Product Support for Technology playbook includes stages and activities that assist agents in researching and resolving technology cases.
+description: The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/tech-product-support-playbook-stages.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Technology Product Support Case playbook, Technology Product Support Case, Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Playbook, Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Playbook stages and activities
 
-The Product Support for Technology playbook includes stages and activities that assist agents in researching and resolving technology cases.
+The Technology Product Support Case playbook includes stages and activities that assist agents in researching and resolving technology cases.
 
 When an agent creates a technology product support case, the system opens a service selector modal and displays the services defined for the Technology Product Support case type.
 
-The agent selects a service and then selects **Create** to create a case. The system creates the case and launches the Product Support for Technology playbook. This playbook includes the stages and activities described in the following sections.
+The agent selects a service and then selects **Create** to create a case. The system creates the case and launches the Technology Product Support Case playbook. This playbook includes the stages and activities described in the following sections.
 
 ## Intake stage
 
@@ -124,15 +124,17 @@ The decision table is provided with the Technology Product Support Case applicat
 
  The agent can view and do the following actions in these tabs:
 
--   **Available test**
-    1.  In the **Available tests** tab, open a list of records showing the tests waiting to be run.
-
-The system automatically suggests one or more tests relevant to the details described in the service problem case to diagnose the issue. These tests are the test definitions defined when configuring Customer Service Problem Management. For more information, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/settingup-test-specifications.md).
+-   1.  To generate the test results, select **Run diagnostics** from the contextual panel.
 
 **Note:** To avoid conflicts, the system allows only one test to run at a given time. This is true even if you have multiple client test runner windows open.
 
-    2.  Select **Run** in front of the test that you want to execute to diagnose the problem.
-    3.  In the test dialog box, select an option either to run the test now or to schedule it for later, and then select **Run test**.
+2.  In the run diagnostics panel, select **CI/Service** from the drop-down list.
+3.  Expand the **Available Test Suite**.
+4.  Select single/multiple test definitions.
+5.  Select **Configure**.
+6.  In the Configure tests dialog box, select test characteristics.
+7.  In the test dialog box, select an option either to run the test now or to schedule it for later.
+8.  Select **Run test**.
 -   **Test results**
     1.  Select the **Test results** tab and review the results of the tests conducted in the previous step, checking whether each test is passed or failed.
 
@@ -266,7 +268,7 @@ When a stage is complete, the **Save** action is also available. This action sav
 
 ## Displaying Recommended Actions in playbook activities
 
-Recommended actions can be configured to appear inside playbook activities. By default, the **Talk to an expert** recommendation appears in the Related work activity in the Troubleshoot stage.
+Recommended actions can be configured to appear inside playbook activities. By default, the **Talk to an expert** recommendation appears in the conceptual side panel.
 
 The Technology Product Case Troubleshoot recommended actions rule:
 

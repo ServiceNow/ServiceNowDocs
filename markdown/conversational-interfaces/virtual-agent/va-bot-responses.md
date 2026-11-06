@@ -1,20 +1,20 @@
 ---
-title: Virtual Agent Designer bot responses
-description: Virtual Agent Designer offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
+title: Assistant Designer bot responses
+description: Assistant Designer offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Virtual Agent Designer bot responses
+# Assistant Designer bot responses
 
-Virtual Agent Designer offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
+Assistant Designer offers various controls for displaying bot responses in a conversation. Because the bot responses occur in third-party platforms, the format for each output may vary.
 
 The following bot response controls are available for use within a Virtual Agent topic.
 
@@ -39,5 +39,5 @@ Use the Table bot response control in a Virtual Agent topic to display a bot res
 -   **[Video bot response control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-video-bot-response.md)**  
 Use the Video bot response control in a Virtual Agent topic to include a video in the conversation.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-reference.md)
 

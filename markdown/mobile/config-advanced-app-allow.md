@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/config-advanced-app-allow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Control specific app usage, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Control app use, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure advanced app allowance with links to permitted apps

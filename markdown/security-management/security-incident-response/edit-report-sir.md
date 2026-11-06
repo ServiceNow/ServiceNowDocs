@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reports in Security Incident Response, Working with Security Incident Records, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -44,7 +44,7 @@ Role required: sn\_si.analyst
 
 9.  Select **Publish** to publish the report.
 
-10. Select the share report in email icon \[Omitted image "share-report-icon-sir.png"\] Alt text: email icon.
+10. Select the share report in email icon \[Omitted image "share-report-icon-sir.png"\] Alt text:.
 
     1.  Enter the recipient’s emails in the **To** and **Cc/Bcc** fields.
 

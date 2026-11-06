@@ -7,9 +7,9 @@ release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Navigation paths
@@ -62,5 +62,5 @@ Change the root screen several ways:-   Choose a start screen from the list labe
 Choose Session start from the **Navigation path analysis starting with** list to return to the full navigation path analysis.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+</table>**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

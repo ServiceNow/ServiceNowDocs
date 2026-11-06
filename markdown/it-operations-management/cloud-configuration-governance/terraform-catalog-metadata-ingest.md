@@ -1,20 +1,20 @@
 ---
 title: Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
-description: Create a JSON file to store the variables that are used in the template file so that you can map them to discovered resources, pools, and filters. You can use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+description: Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/terraform-catalog-metadata-ingest.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Using Cloud Provisioning and Governance: Terraform Connector, Cloud Provisioning and Governance: Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Use, Cloud Services Catalog Terraform Connector, Support for continuous delivery \(configuration management\), Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Associate the Terraform input parameters with the Cloud Provisioning and Governance catalog item
 
-Create a JSON file to store the variables that are used in the template file so that you can map them to discovered resources, pools, and filters. You can use variables or parameters from the Terraform template to map to fields on the catalog item provision form.
+Create a JSON file to store Terraform template variables and map them to discovered resources, pools, filters, and catalog item provision form fields.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: cloud\_designer
 
 ## About this task
 
-Cloud Provisioning and Governance: Terraform Connector supports this capability for Terraform Open Source, Terraform Enterprise, and Terraform Cloud.
+Cloud Services Catalog Terraform Connector supports this capability for Terraform Open Source, Terraform Enterprise, and Terraform Cloud.
 
 **Important:** When you use Terraform templates to create catalog items, the Location value specifies the datacenter or region to provision the configuration items and stacks. Use the metadata file to map other variables based on discovered resources, networks, profiles, pools and filters, and so on.
 
@@ -67,5 +67,5 @@ For more information on binding a parameter to a resource pool, see [Bind a para
     \[Omitted image "catalog-item-fields-metadata.png"\] Alt text: Auto-populated values on Provision tab
 
 
-**Parent Topic:**[Using Cloud Provisioning and Governance: Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
+**Parent Topic:**[Using Cloud Services Catalog Terraform Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/using-ccg-terraform-connector.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/create-custom-metric.html
 release: yokohama
 topic_type: task
-last_updated: "2025-08-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Evaluate agentic AI, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create a custom metric for evaluating agentic workflows
@@ -20,7 +20,7 @@ Role required: sn\_aia.admin
 
 ## About this task
 
-Custom metrics enable you to choose you measure your AI agents and agentic workflow for effectiveness. You can create custom metrics that apply to one AI agent or agentic workflow or multiple ones. Once created, you can select custom metrics in the guided setup for agentic evaluations. You can select both or either custom metrics and metrics installed with Now Assist applications. Examples of custom metrics include:
+Custom metrics enable you to choose you measure your AI agents and agentic workflow for effectiveness. You can create custom metrics that apply to one agentic AI asset or multiple ones. Once created, you can select custom metrics in the guided setup for agentic evaluations. You can select both or either custom metrics and metrics installed with AI applications. Examples of custom metrics include:
 
 -   Testing that a certain phrase is in the response
 -   Measuring the length of a response to test verbosity
@@ -29,7 +29,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Skill Kit** &gt; **Agentic Evaluations**.
+1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Agentic Evaluations**.
 
 2.  Go to the Evaluation metrics tab and select **Create metric**.
 
@@ -90,7 +90,7 @@ When writing the script, you have access to the output of a parser tool. See [ag
 
 ## Result
 
-You have a new custom metric that can be used for evaluating AI agents and agentic workflows.
+You have a new custom metric that can be used for evaluating agentic AI assets.
 
 ## What to do next
 

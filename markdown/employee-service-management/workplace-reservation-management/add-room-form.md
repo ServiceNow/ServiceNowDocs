@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Reservation Management - Field descriptions, Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -80,9 +80,13 @@ Requires check-in
 
 Select this option if the reservation made on this room requires a check-in.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
-**Organization details**
+**Organization details** tab
+
+</td><td>
+
+Select the field details from the Organizational details tab.
 
 </td></tr><tr><td>
 
@@ -132,9 +136,13 @@ Area
 
 Area on the floor where the room is located.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
-**Extra information**
+**Extra information** tab
+
+</td><td>
+
+Select the field details from the Extra information tab.
 
 </td></tr><tr><td>
 

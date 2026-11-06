@@ -7,10 +7,10 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-04-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [generative AI for Employee Center, generative AI for UEX, configuration]
-breadcrumb: [ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Activate ServiceNow Otto for Employee Experience skills
@@ -39,13 +39,11 @@ Activate the ServiceNow Otto for Employee Experience plugin to enable generative
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-    If you're already in the AI Admin Hub console, select the **Now Assist Skills** tab.
+    If you're already in the AI Admin Hub console, select the **AI Skills** tab.
 
 2.  On the navigation panel, select **Employee** &gt; ****Employee Center to review the skill set.
-
-    \[Omitted image "uex-skill-activation.png"\] Alt text: Illustration of available skills in Employee Center
 
     Toggle between the list and grid layouts for optimum viewing experience.
 
@@ -64,9 +62,7 @@ Activate the ServiceNow Otto for Employee Experience plugin to enable generative
 
     -   Automatic \(Default\) - Generates auto-summarization for the request, requested item, or case for approval task.
     -   Manual - Requires user to trigger summarization for the request, requested item, or case for approval task.
-    \[Omitted image "uex-skill-trigger.png"\] Alt text: Triggers selected for Now Assist chat summarization.
-
-6.  Choose where to display Now Assist skills.
+6.  Choose where to display generative AI skills.
 
     For ServiceNow Otto for Employee Experience, use **In-product desktop**.
 
@@ -81,7 +77,7 @@ Activate the ServiceNow Otto for Employee Experience plugin to enable generative
 
 On successful configuration, approval users can see summarization for approvals. For more information, see [View summarization for approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/view-summarization-approvals.md).
 
-**Note:** After installing ServiceNow Otto for Employee Experience \[sn\_ex\_gen\_ai\] plugin and activating the skills in the Now Assist Admin Center, the Summary appears in Approvals on Employee Center and service portals. To enable the summary on the custom portals, follow the instructions available in [KB2739995](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2739995) and update the `sn_nowassist_skill_config` table.
+**Note:** After installing ServiceNow Otto for Employee Experience \[sn\_ex\_gen\_ai\] plugin and activating the skills in the AI Admin Center, the Summary appears in Approvals on Employee Center and service portals. To enable the summary on the custom portals, follow the instructions available in [KB2739995](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2739995) and update the `sn_nowassist_skill_config` table.
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer Lifecycle Operations workflows, Using Financial Services Customer Lifecycle Operations, Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Workflows, Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Update KYC workflow

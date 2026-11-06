@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migrate-ra-agent-assist.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AI search in Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring AI search, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Enable AI search in Recommended Actions
@@ -74,7 +74,7 @@ Agent Assist is enabled by default with the option to manually migrate to Recomm
     |Type|True or False|
     |Value|Enables or disables the property. Set the value to `true` to enable the property.|
     |Application|Application scope in which the property is being created.|
-    |Description|Brief description of the UX page property that you are creating.|
+    |Description|Brief description of the UX page property that you're creating.|
 
 5.  Select **Save**.
 

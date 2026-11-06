@@ -1,5 +1,5 @@
 ---
-title: List of predefined alert clustering tags
+title: List of predefined alert grouping tags
 description: A list of the predefined alert clustering tags provided with the Tag Based Alert Clustering Engine  application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/alert-clustering-predefined-tag-list.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# List of predefined alert clustering tags
+# List of predefined alert grouping tags
 
 A list of the predefined alert clustering tags provided with the Tag Based Alert Clustering Engine  application.
 

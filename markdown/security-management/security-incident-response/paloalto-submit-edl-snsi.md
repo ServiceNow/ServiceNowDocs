@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,43 +26,25 @@ Users with the sn\_si.analyst role submit EDL entries by requesting a block on o
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**, and click a security incident record to open it.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**, and select a security incident record to open it.
 
-2.  Click the **Show IoC** related link.
-
-    \[Omitted image "4-30-ip-obsv-si-callout.png"\] Alt text: Show IoC related link on the Security Incident record.
+2.  Select the **Show IoC** related link.
 
 3.  In the Observables related list, select the observables you want to block and from the **Actions on selected rows** list, select **Block Request**.
 
-    \[Omitted image "4-30-blk-run-ip-url.png"\] Alt text: Select observables and run block request on Security Incident record.
-
-4.  In the dialog box that is displayed, click the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\).
+4.  In the dialog box that is displayed, select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search icon\).
 
 5.  From the list that is displayed, select the EDL you want to attach this entry to.
 
-    **Note:** For this example, the entry observable type \(URL\) should match the EDL observable type \(URL\).
+6.  In the Block Request dialog box with the EDL name displayed in the **Implementation** field, select **Block**.
 
-    \[Omitted image "4-30-blk-list-options.png"\] Alt text: Select the EDL for the entry.
+7.  Navigate to **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Entries** and select **Firewall EDL Entries**.
 
-6.  In the Block Request dialog box with the EDL name displayed in the **Implementation** field, click **Block**.
-
-    \[Omitted image "4-30-blk-rqst-confirm.png"\] Alt text: Block Request dialog box.
-
-7.  Navigate to **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Entries** and click **Firewall EDL Entries**.
-
-    \[Omitted image "4-30-entries-pending.png"\] Alt text: Firewall EDL Entries list.
-
-8.  In the Palo Alto Networks Firewall External Dynamic List Entries list, click your observable in the **Entry value** column to open the record.
-
-    For this example, the record for **mail.dgtnetworks.com** is displayed.
-
-    \[Omitted image "4-30-url-entry-pending-notes-b4-app.png"\] Alt text: EDL entry record.
+8.  In the Palo Alto Networks Firewall External Dynamic List Entries list, select your observable in the **Entry value** column to open the record.
 
     The status is Pending, the Active check box is cleared, and the work notes show that there is a request to add the observable. This EDL Entry request is ready for approval.
 
     The Entry value and Observable fields show different formats for the URL observable.
-
-    \[Omitted image "4-30-obsv-rcd-url-1.png"\] Alt text: Entry value field and Observable field show different formats for the same observable.
 
     The icon next to the `Observable` field is a link to the ServiceNow AI Platform® Observable table.
 

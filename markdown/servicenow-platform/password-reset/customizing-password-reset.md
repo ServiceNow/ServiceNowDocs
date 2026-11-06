@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Customizing Password Reset processes
@@ -32,7 +32,7 @@ Password Reset scripting is available to users with the password\_reset\_admin r
 
 ## Advanced password reset configuration
 
-You can customize the Password Reset and Password Change applications to meet your organization's needs. See [Password Reset and Password Change applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-admin-guide.md) for more information. Also see [Configuring Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_SetPwdResetProps.md) for a list of properties that control several aspects of password reset.
+You can customize the Password Reset and Password Change applications to meet your organization's needs. See [Password Reset and Password Change applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-admin-guide.md) for more information. Also see [Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_SetPwdResetProps.md) for a list of properties that control several aspects of password reset.
 
 -   **[Customize password reset processes and integrate third-party credential services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/setup-pwd-reset-ihub.md)**  
 To customize password reset processes or to integrate them with third-party credential services such as Okta or Microsoft Entra ID, use Integration Hub capabilities. Use Workflow Studio to create or modify actions like user unlock, change password, and get user status. Use Workflow Studio to create or modify subflows that perform the actions.

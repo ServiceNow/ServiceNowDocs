@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace PPE Inventory Management, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Use the PPE Inventory Overview dashboard to track PPE items that are in stock, o
 
 To view the dashboard, navigate to **PPE Inventory Management** &gt; **Overview Dashboard**.
 
-\[Omitted image "ppe-overview-dashboard.png"\] Alt text: PPE Overview dashboard
+
 
 ## End users and roles
 

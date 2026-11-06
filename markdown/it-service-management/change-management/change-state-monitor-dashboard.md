@@ -9,7 +9,7 @@ classification: change-management
 topic_type: concept
 last_updated: "2023-02-02"
 reading_time_minutes: 1
-breadcrumb: [Legacy: Change Management Platform Analytics Solutions, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Legacy: Change Management Platform Analytics Solutions, Use, Change Management, IT Service Management]
 ---
 
 # Legacy: Open Changes State Monitor dashboard
@@ -18,7 +18,7 @@ This workbench dashboard enables you to view and assess all open changes separat
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Open Changes State Monitor dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view, and track the open changes.
+Starting in Xanadu release, the Core UI Open Changes State Monitor dashboard is deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view, and track the open changes.
 
 \[Omitted image "change-open-changes-state-monitor.png"\] Alt text: Open Changes State Monitor dashboard
 

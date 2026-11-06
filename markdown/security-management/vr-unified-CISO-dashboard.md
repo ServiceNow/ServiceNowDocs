@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/vr-unified-CISO-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-02-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 24
 keywords: [Cybersecurity Executive Dashboard, servicenow, Chief Information Security Officers, cybersecurity, cybersecurity dashboard, cybersecurity executive, benchmarking, benchmark plugin, benchmarks dashboard, target, targets, performance analytics, dashboard, dashboards, ceo dashboard, share dashboard, cybersecurity executive dashboard, executive dashboard, reports and dashboards, ciso dashboard, responsive dashboard, breakdown dashboard, performance analytics dashboard, security operations dashboard, cxo dashboards, platform analytics dashboard, compliance dashboard]
 breadcrumb: [Security Operations]
@@ -664,7 +664,7 @@ To view Risk and Compliance widgets, you must activate the GRC plugins. For info
 
 -   **Open Config Issues - Test results**
 
-    This indicator is calculated daily. It has an indicator source as test result for the Unified Vulnerability Response Dashboard.
+    This indicator is calculated daily. It has an indicator source as a test result for the Unified Vulnerability Response Dashboard.
 
 -   **SI-Average Time To Identify**
 

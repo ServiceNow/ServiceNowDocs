@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Example widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ If a user entered variables when submitting the request, they can view those var
 
 \[Omitted image "ticket-fields-options.png"\] Alt text: Options section of the Ticket Fields widget
 
-**Note:** The values that appear in the Options section are not field values from the ticket. They are Service Catalog variables that are associated with the ticket. For more information, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
+**Note:** The values that appear in the Options section are not field values from the ticket. They are Service Catalog variables that are associated with the ticket. For more information, see Service catalog variables.
 
 ## Instance options
 

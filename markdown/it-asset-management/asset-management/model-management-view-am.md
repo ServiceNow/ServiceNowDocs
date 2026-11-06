@@ -1,20 +1,20 @@
 ---
 title: Model management view
-description: Use the Model management view in the Asset Workspace to create or modify models, view and manage the asset model-related functions such as hardware and consumable models nearing the end of life.
+description: Use the Model management view in the Asset Workspace to create or modify models and manage asset model-related functions. Track hardware and consumable models nearing end of life.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/model-management-view-am.html
 release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Asset Management Workspace, Asset Management, IT Asset Management]
+breadcrumb: [Explore, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Model management view
 
-Use the Model management view in the Asset Workspace to create or modify models, view and manage the asset model-related functions such as hardware and consumable models nearing the end of life.
+Use the Model management view in the Asset Workspace to create or modify models and manage asset model-related functions. Track hardware and consumable models nearing end of life.
 
 **Note:** Software model tab is hidden when Software Asset Management \(com.snc.software\_asset\_management\) or Software Asset Management Professional \(com.snc.pa.samp\) is active. You can view this Software model tab in Software Asset Workspace.
 
@@ -26,4 +26,6 @@ Use the Model management view in the Asset Workspace to create or modify models,
 |Consumable models up for end of life this year|Count of consumable models whose start date of the end of life phase is the current year.|
 |Missing data|Count of models that have missing model name, manufacturer, and model number.|
 |Product model status|Current count of hardware, consumable, and software models based on the status of the models.|
+
+**Parent Topic:**[Exploring Asset Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/exploring-asset-management.md)
 

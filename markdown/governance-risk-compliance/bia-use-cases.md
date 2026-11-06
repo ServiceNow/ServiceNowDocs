@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bia-use-cases.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Business impact analysis, Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -18,7 +18,7 @@ You can use the Business Continuity Management application to assess the impact 
 
 ## Importance of performing the impact analysis
 
-Performing the impact analysis is an important step in managing your business continuity tasks. It offers the following benefits:
+Performing the impact analysis is an important step in managing your business continuity tasks. It offers these benefits:
 
 -   Prevents and minimizes unintended disruptions to your normal business functions.
 -   Helps you identify the critical business processes for your organization and develop strategies to prevent future issues.
@@ -27,33 +27,33 @@ Performing the impact analysis is an important step in managing your business co
 
 ## Categories of impact analysis
 
-You can broadly classify the impact analysis in the following categories:
+You can broadly classify the impact analysis in the categories:
 
 -   **Business impact analysis**
 
-    If you are a business user who mainly manages the business services or processes, you want to determine the impact of a downtime on your services and processes. Performing a process-related business impact analysis can help your business to achieve the following objectives:
+    If you are a business user who mainly manages the business services or processes, you want to determine the impact of a downtime on your services and processes. Performing a process-related business impact analysis can help your business to achieve the objectives:
 
     -   Prepare for the changes to a process or procedure.
     -   Identify the issues that are associated with a process.
     -   Mitigate for the risks that you may face due to an unexpected event.
 -   **Technical impact analysis**
 
-    If you are an application user or the IT manager who mainly manages a datacenter or IT systems, you want to determine the impact of a downtime on your data and applications. Performing a technical impact analysis can help you to analyze the impact of technical changes in the deployed product or application. It gives the information about the areas of the information system that may be affected due to a change in the particular section or features of an application.
+    If you are an application user or IT manager who manages a datacenter or IT systems, you can determine the impact of downtime on your data and applications. Performing a technical impact analysis helps you analyze the impact of technical changes in the deployed product or application. It provides information about the areas of the information system that may be affected by a change in a particular section or application features.
 
 
 ## Goal and method for creating the business impact analysis
 
-Business impact analysis is typically performed by the business users to analyze a business service or business process. For example, if you are a financial analyst, you can perform the business impact analysis to estimate the impact of the downtime of a business process or service.
+Business impact analysis is performed by the business users to analyze a business service or business process. For example, if you are a financial analyst, you can perform the business impact analysis to estimate the impact of the downtime of a business process or service.
 
 -   **Goal**
 
-    The goals of performing a business impact analysis are to determine the following information:
+    The goals of performing a business impact analysis are to determine the details:
 
     -   Determine the criticality of the process.
     -   Determine the time that a business can survive without the business service or process.
 -   **Method to perform the business impact analysis**
 
-    As a business user, you want to analyze the business service or process by estimating responses to few of the following assessment questions:
+    As a business user, you want to analyze the business service or process by estimating responses to few of the assessment questions:
 
     -   What are the Impact categories or factors that affect the business service or process?
     -   What is the impact of the downtime of the business process or service?
@@ -68,18 +68,18 @@ Business impact analysis is typically performed by the business users to analyze
 
 ## Goal and method for creating the technical impact analysis
 
-Technical impact analysis is typically performed by the IT owners to analyze the applications or systems that house the data. For example, if you are an IT owner of a financial organization, you can perform the technical impact analysis to determine the criticality and timelines for the applications and frequency to back up the data.
+Technical impact analysis is performed by the IT owners to analyze the applications or systems that house the data. For example, if you are an IT owner of a financial organization, you can perform the technical impact analysis to determine the criticality and timelines for the applications and frequency to back up the data.
 
 -   **Goal**
 
-    The goals of performing a technical impact analysis are to determine the following information:
+    The goals of performing a technical impact analysis are to determine the information:
 
     -   Criticality of the application.
     -   Timeline that the organization can survive for without the application.
     -   Frequency to back up the data
 -   **Method to perform the technical impact analysis**
 
-    As a business user, you can perform the business impact analysis by estimating the responses to the following sample assessment questions:
+    As a business user, you can perform the business impact analysis by estimating the responses to the sample assessment questions:
 
     -   What is the impact on the business if the application is non-functional?
     -   How many employees are impacted?
@@ -94,7 +94,7 @@ Technical impact analysis is typically performed by the IT owners to analyze the
 
 If you are a user of the BCM application, you can use the business impact analysis workflow to perform the business impact analysis.
 
-The following sample use cases are considered for creating a business impact analysis with BCM:
+The sample use cases are considered for creating a business impact analysis with BCM:
 
 -   Assess the recovery tier for the business processes or applications that are based on the pre-defined templates.
 -   Identify the recovery point objective.
@@ -107,15 +107,15 @@ If you are the BCM administrator, you can set up the questions that are relevant
 
 If you are the BCM lead or BCM program manager, you can respond to the assessment questionnaire on the **Assessments** tab of the business impact analysis record. If you mainly use the business services and processes, your answers serve as key data points for the recovery time objective assessment and dependency assessment. Based on your responses, the criticality of the business process or service and recommended timelines are determined.
 
-If you are the BCM lead or BCM program manager who handles the IT systems, data, and applications, your answers serve as key data points for the recovery point objective assessment. Based on the responses received to the questionnaire, the application calculates the criticality of the business process or service and the recommended timelines.
+If you are the BCM lead or BCM program manager who handles the IT systems, data, and applications, your answers serve as key data points. These data points are used for the recovery point objective assessment. Based on the responses received to the questionnaire, the application calculates the criticality of the business process or service and the recommended timelines.
 
 ## Outcome of the impact analysis in BCM
 
-After receiving responses to the questionnaire, the BCM application calculates the results of the business impact analysis. The results are displayed in the **Results** section on the **Details** tab in the business impact analysis record as shown in the following example.
+After receiving responses to the questionnaire, the BCM application calculates the results of the business impact analysis. The results are displayed in the **Results** section on the **Details** tab in the business impact analysis record as shown in the example.
 
 \[Omitted image "results-section-of-bia.png"\] Alt text: Results section of a business impact analysis.
 
-The BCM application displays the following key results in the business impact analysis record:
+The BCM application displays the key results in the business impact analysis record:
 
 -   **Recovery tier**
 
@@ -127,11 +127,11 @@ The BCM application displays the following key results in the business impact an
 
 -   **Adjusted RTO**
 
-    The business impact analysis owner can adjust the recovery time objective value for practical reasons. The adjusted value is displayed in the **Adjusted RTO** field in the **Results** section. If you are the business impact analysis owner and you have adjusted the RTO value with a reason during the assessment, the reason for the adjustment is displayed in the **Reason for adjusted RTO** field.
+    The business impact analysis owner can adjust the recovery time objective value for practical reasons. The adjusted value is displayed in the **Adjusted RTO** field in the **Results** section. If you adjusted the RTO value with a reason during the assessment, the reason is displayed in the **Reason for adjusted RTO** field.
 
 -   **Dependencies**
 
-    The BCM application helps you to determine the supporting systems or dependencies that are required on a normal day so that the business processes run efficiently. For example, you can have the following dependencies for your business:
+    The BCM application helps you to determine the supporting systems or dependencies that are required on a normal day so that the business processes run efficiently. For example, you can have the dependencies for your business:
 
     -   People
     -   Facility
@@ -139,6 +139,4 @@ The BCM application displays the following key results in the business impact an
     -   Vendors
 
 For more information on the recovery time objective, recovery point objective, and recovery tiers, see [RTO, RPO, and recovery tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/rto-rpo-recovery-tiers.md).
-
-**Parent Topic:**[Business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bia-uib.md)
 

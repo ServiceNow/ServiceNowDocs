@@ -7,7 +7,7 @@ release: yokohama
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Budgets and cost centers, Cost Management, Strategic Portfolio Management]
 ---

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-bcm-word-temp-using-docudesigner.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Generating reports using Document designer, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Save your Microsoft Word document as a template using the Design template provid
 
 ## Before you begin
 
-Role required:sn\_bcm.admin, sn\_bcm.manager
+Role required: sn\_bcm.admin, sn\_bcm.manager
 
 ## About this task
 

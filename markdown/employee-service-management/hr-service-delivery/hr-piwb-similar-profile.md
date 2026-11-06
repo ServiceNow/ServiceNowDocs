@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [HR Predictive Intelligence Workbench implementation, HR Predictive Intelligence Workbench, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
@@ -48,8 +48,6 @@ Discover all the users who have a similar profile as the employee. Identify the 
 4.  On the form, verify the default field values and customize the solution as required.
 
     For more information about the Clustering solution definition form fields, see [Create and train a clustering solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-clustering-solution.md) and [Test a classification solution prediction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-solution-prediction.md).
-
-    **Note:** For details regarding trained use case integration implementation, see [Predictive Intelligence Workbench integration and customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-piwb-integ-implem-custom.md).
 
 
 ## Result

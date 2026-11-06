@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/exploring-document-processor.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Document Processor
@@ -16,7 +16,7 @@ You can use the ServiceNow® Document Processor application to generate standard
 
 This application is automatically installed when you install any Financial Services Operations application or Financial Services Operations Core.
 
-An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process the filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/document-templates-overview.md).
+An admin can use Document Templates to create HTML and PDF document templates, which can be used to generate standard letters or documents. The templates can be used to automate and simplify the process of filling out, signing, and reviewing documents online. For more information, see [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/document-templates-overview.md).
 
 Admins can also integrate documents with 3rd party e-signature providers like DocuSign and Adobe Sign. For more information, see [Document Template integration with Docusign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/docusign-doc.md) or [Document Template integration with AdobeSign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/adobe-sign-doc.md).
 

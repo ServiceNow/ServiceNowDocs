@@ -1,14 +1,15 @@
 ---
-title: Use self-served contract request
+title: Own paper contract requests
 description: Use Contract Management Pro to submit contract requests that will generate contract documents using a predefined contract template and template rules.
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-05-19"
 reading_time_minutes: 5
+audience: sn\_cm\_core.contract\_fulfiller
 ---
 
-# Use self-served contract request
+# Own paper contract requests
 
 Use Contract Management Pro to submit contract requests that will generate contract documents using a predefined contract template and template rules.
 
@@ -22,7 +23,7 @@ Use Contract Management Pro to submit contract requests that will generate contr
 -   Centralized contracts repository containing the metadata of signed contract documents.
 -   System property to generate a certification of completion for an electronically signed contract.
 
-## Self-served contracts workflow
+## Own paper contracts workflow
 
 When a requester submits a self-served contract request, a contract document is created using a standard contract template based on the information from the request. The information from the request is inserted at the appropriate places in the template.
 
@@ -32,7 +33,7 @@ If the generated contract document doesn’t require any changes, the requester 
 
 A workflow for a self-served contract request might progress as follows:
 
-1.  The Contract requester initiates a contract request. For more information, see [Initiating a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
+1.  The Contract requester initiates a contract request. For more information, see [Parent-linked contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-initiate-contract.md).
     -   If there are no validation errors, a contract request is created in the Work in progress state.
     -   If there are any signatory validation errors, the contract requester resolves them and resubmits the contract request.
 2.  A contract document is generated from a contract template and the metadata, clauses, signatories, and tables are added dynamically according to predefined conditions.
@@ -54,7 +55,7 @@ A workflow for a self-served contract request might progress as follows:
         7.  The contract reviewer completes the review and shares the updated contract document if available.
         8.  The contract fulfiller receives the updated document and makes the necessary changes based on the feedback.
             -   For internal storage: If any changes are required, a new document version is created after finalizing the document.
-            -   For external storage: Reviewers collaborate on the contract document revision online in real time. After the review is complete, the fulfiller can finalize the contract document that is available online or create a new offline version with the changes.
+            -   For external storage: Reviewers collaborate on the contract document revision online in real-time. After the review is complete, the fulfiller can finalize the contract document that is available online or create offline version with the changes.
     2.  The contract fulfiller initiates an ad-hoc approval from the stakeholders. If the review reveals any required changes, the changes are made and a new document revision is created.
     3.  After the document is finalized, the fulfiller sends the document to the requester.
 6.  The contract requester previews the generated contract and, if no changes are required, sends it to the signatories. If changes are required, the review and revision process continues.
@@ -67,14 +68,16 @@ A workflow for a self-served contract request might progress as follows:
 
 The contract requester can cancel a contract request when the state is in Draft, New, Awaiting Approval, Awaiting signature, or Work in progress.
 
--   **[Work on self-served contract requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md)**  
+-   **[Work on requests as a contract fulfiller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.md)**  
 Review and finalize a contract document according to the contract request.
 -   **[Work on self-served contract requests as a contract user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.md)**  
-As a contract user, edit request, regenerate contract document, and send for signature.
+Edit a contract request, regenerate the contract document, and send it for signature.
 -   **[Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md)**  
-Add signatories in self-served contract requests when the contract is generated from a template configured with signature blocks.
+Add signatories to a self-served contract request when the contract is generated from a template configured with signature blocks.
+-   **[Modify the signing order for signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-set-signing-order.md)**  
+Modify the order in which signatories sign a contract document that has not yet been sent for signature.
 -   **[Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-sync-document.md)**  
-When a contract request is modified, sync the contract document for self-served requests to create a new revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
+When a contract request is modified, sync the contract document for self-served requests to create revision of the document with updated metadata and signatories while retaining the changes made in the previous version of the contact document.
 -   **[Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md)**  
 As a contract user or contract fulfiller, regenerate the contract document for self-served requests when the parent request has been modified.
 -   **[Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)**  

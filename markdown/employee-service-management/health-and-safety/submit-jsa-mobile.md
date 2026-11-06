@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_hs\_rm.jsa\_reporter
 
 2.  Create a JSA.
 
-<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d351110e62">
+<table id="choicetable_znq_p3r_dcc"><thead><tr><th align="left" id="d376860e62">
 
 Option
 
-</th><th align="left" id="d351110e65">
+</th><th align="left" id="d376860e65">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d351110e71">
+</th></tr></thead><tbody><tr><td id="d376860e71">
 
 **From Home tab**
 
@@ -44,7 +44,7 @@ Steps
 2.  In the **Quick links** section on the page, tap **Create a job safety analysis**.
 
 
-</td></tr><tr><td id="d351110e98">
+</td></tr><tr><td id="d376860e98">
 
 **From Support tab**
 
@@ -54,7 +54,7 @@ Steps
 2.  In the **Browse from all topics** section on the page, tap **Health and Safety** and then tap **Job safety analysis**.
 
 
-</td></tr><tr><td id="d351110e128">
+</td></tr><tr><td id="d376860e128">
 
 **From a previously submitted JSA**
 
@@ -82,7 +82,7 @@ A JSA form with values copied from the previous JSA opens.
 ## Result
 
 -   The JSA is submitted for your job or task. To view your submitted JSAs, navigate to the **My items** section on the **Home** page, tap **My job safety analyses**, and then tap the required JSA.
--   The JSA is also listed in the JSAs list on Health and Safety Workspace. A risk manager \[sn\_hs\_rm.jsa\_manager\] can view all the filed JSAs by navigating to the Health and Safety Workspace and selecting the JSAs icon \(\[Omitted image "icon-jsa.png"\] Alt text: JSAs icon\).
+-   The JSA is also listed in the JSAs list on Health and Safety Workspace. A risk manager \[sn\_hs\_rm.jsa\_manager\] can view all the filed JSAs by navigating to the Health and Safety Workspace and selecting the risk management icon \(\[Omitted image "icon-risk-assessment.png"\] Alt text: Risk assessment icon\) and then selecting the **JSAs** list.
 
 **Parent Topic:**[Mobile experience for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-health-safety-mobile.md)
 

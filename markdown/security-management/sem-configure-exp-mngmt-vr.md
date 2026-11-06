@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-configure-exp-mngmt-vr.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -75,4 +75,9 @@ The exception approver requires the reason for the exception request.
 
 8.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Exception questionnaire scenarios for vulnerable items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-exception-ques-scenarios.md)
 

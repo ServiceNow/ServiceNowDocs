@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation Management System configurations, Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -26,7 +26,7 @@ Roles required: connection\_admin
 
     A credential record for RWS TMS is created when the RWS TMS spoke is installed with the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) activation.
 
-2.  Open the RWS TMS credential record \(ID = sn\_sdl\_spoke.RWS\_TMS\).
+2.  Open the RWS TMS credential record.
 
 3.  In the Connections related list, open the RWS connection record.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-04-25"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Explore, Digital Product Release, IT Service Management]
 ---
 
@@ -71,14 +71,6 @@ The following is the general flow that a stage-oriented release goes through:
 -   When all phases in the release are completed, the release moves to the Review state.
 -   When the review of the release is completed, the release moves to the Completed state.
 
-## Single product or service release
-
-A single product or service release enables you to release one product or service at a time. This release approach can be useful for smaller or less complicated products or services, as it makes the release process more focused and easier to manage. For more information, see [Work on a timeline-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md) and [Work on a stage-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-stage-release.md).
-
-## Multi-product release
-
-A multi-product release enables you to release different products at the same time. You can do this by including several individual releases for each product, all tied to a main release of a primary product or service. You manage the phases and release readiness from the main release and track the collective progress. However, you can set the scope, track approvals, and run policies for each individual product or service release. This release approach differs from release bundles, where you monitor the progress of multiple releases together but manage them independently. For more information, see [Work on a timeline-oriented release for multiple products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-timeline-multi.md) and [Work on a stage-oriented release for multiple products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-stage-multi.md).
-
 ## System properties to control the release processes
 
 The following system properties control the initiation of automated actions during various stages of the release process.
@@ -87,7 +79,81 @@ The following system properties control the initiation of automated actions duri
 -   sn\_dpr.auto\_transition\_release\_to\_review
 -   sn\_dpr.auto\_transition\_release\_to\_completed
 
-For more information about these properties, see [Digital Product Release properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/digital-product-release-properties.md).
+For more information about these properties, see [Digital Product Release system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/digital-product-release-properties.md).
+
+## Single product or service release
+
+A single product or service release enables you to release one product or service at a time. This release approach can be useful for smaller or less complicated products or services, as it makes the release process more focused and easier to manage. For more information, see [Work on a timeline-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md) and [Work on a stage-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-stage-release.md).
+
+## Multi-product release
+
+A multi-product release enables you to release different products at the same time. You can do this by including several individual releases for each product, all tied to a main release of a primary product or service. You manage the phases and release readiness from the main release and track the collective progress. However, you can set the scope, track approvals, and run policies for each individual product or service release.
+
+This release approach differs from release bundles, where you monitor the progress of multiple releases together but manage them independently.
+
+For more information, see [Work on a timeline-oriented release for multiple products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-timeline-multi.md) and [Work on a stage-oriented release for multiple products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-stage-multi.md).
+
+-   **Adding or removing a product from a multi-product release**
+
+    You can add and remove products from a multi-product release after it is created. When you add a product, a child release is created with phases, tasks, and policies aligned to the main release. When you remove a product, the child release is cancelled and removed from the main release.
+
+-   **Phase management in a multi-product release**
+
+    In a multi-product release, the following phase synchronization rules apply:
+
+    -   Individual releases cannot advance past main release: An included product cannot complete a phase that is ahead of the main release's current phase.
+    -   Main release cannot advance past individual releases: The parent release cannot advance to the next phase if any included product has not yet reached the parent's current phase. All included products must be at the current phase before the main release can advance.
+
+        These rules ensure that all products in a multi-product release progress through phases in a coordinated manner.
+
+    When a product is added to a release that is already in progress, the newly added product starts at the earliest phase. The system automatically executes the policies mapped to each phase sequentially:
+
+    -   If all policies for a phase are compliant, the phase is completed and the release advances to the next phase.
+    -   This process repeats through each phase until the product either catches up to the parent release's current phase or a policy evaluation fails.
+    -   If a policy evaluation fails, the product's phase remains at the non-compliant phase and the status shows as Non Compliant — policy execution failed. You must resolve the non-compliance before the product can advance further.This can be done by either making the policies compliant or using the **Complete phase** action to force completion.
+-   **Policy execution lifecycle and status aggregation**
+
+    Policies mapped to release phases follow a defined lifecycle during execution:
+
+    -   **Not run**: The policy has not been executed yet.
+    -   **In progress**: The policy execution is underway.
+    -   **Compliant**: The policy passed validation.
+    -   **Non-compliant**: The policy failed validation.
+    -   **Compliant with exception**: The policy failed but an approved exception is in place.
+    The policy run status for all primary and included products is aggregated to determine the overall policy status of the main release. The aggregation follows a priority hierarchy where a non-compliant status in any product results in an overall non-compliant status for the release.
+
+    For more information, see [Policy status aggregation in a multi-product release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-policy-status-aggregation.md).
+
+
+## Restricted access for releases
+
+Product managers and release managers can limit who can view a release and its related records by enabling restricted access for a product.
+
+Restricted access is configured at two levels:
+
+-   **Product level**
+
+    A product owner configures whether restricted access is enabled for releases created under that product. The product settings also define a default product team, consisting of individual users and user groups. Only users with the sn\_dpr\_model.release\_user role can be added to the product team.
+
+-   **Release level**
+
+    When a release is created for a restricted-access product, the restricted access setting and the product team are copied to the release as the initial release team. The release owner or the product owner can modify the release team after creation. The **Restricted access for releases enabled** checkbox and the **Release team** field appear in the **Details** tab under the **Overview** section of the Release form.
+
+
+In a multi-product release, access control is inherited from the main release. All stakeholders listed in the main release's release team get read access to all individual releases and their associated records. Individual release fields for restricted access and release team are read-only. When you add a product to a multi-product release with restricted access, release team members from the new release are automatically added to the main release team.
+
+The following users can modify restricted access settings:
+
+-   On a product, in release settings: product owner only
+-   On a release, in release details: release owner or product owner
+-   System administrators can override both settings
+
+Product managers and release managers can read restricted access settings but cannot change the product team or release team members.
+
+For more information on setting up restricted access at product level, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+
+-   **[Release states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-states.md)**  
+A release moves through a defined set of states, from creation to closure. The On Hold state lets you pause a release temporarily without losing task, policy, or association data.
 
 **Parent Topic:**[Exploring Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 
@@ -98,7 +164,7 @@ For more information about these properties, see [Digital Product Release proper
 
 [Managing timeline-oriented releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-working-timeline-release.md)
 
-[Managing a stage-oriented release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-working-stage-release.md)
+[Managing stage-oriented releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-working-stage-release.md)
 
 [Managing multiple releases through release bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-bundle.md)
 

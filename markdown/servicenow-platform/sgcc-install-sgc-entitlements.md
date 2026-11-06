@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/sgcc-install-sgc-entitlements.html
 release: yokohama
 topic_type: task
-last_updated: "2026-02-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore connectors, Configuring SGC Central, SGC Central, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---

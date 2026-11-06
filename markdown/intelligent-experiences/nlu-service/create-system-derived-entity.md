@@ -1,5 +1,5 @@
 ---
-title: Create a system-derived entity
+title: \(Legacy\) Create a system-derived entity
 description: Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-system-derived-entity.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a system-derived entity
+# \(Legacy\) Create a system-derived entity
 
 Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
 
@@ -103,21 +103,4 @@ For this example, you can test your model with a different departure and arrival
 \[Omitted image "create-derived6.png"\] Alt text: Intents details page with the test panel open. Train and try your model to assess your new entities.
 
 The model predicts the intent, showing the entities it used to determine the values. Notice how it uses both the system entity and system-derived entity when predicting.
-
-**Parent Topic:**[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity]()
-
-[Create a mapped entity]()
-
-[Create a pattern entity]()
-
-[Create an open-ended entity]()
-
-[Import entities]()
-
-[Using regular expressions in entities]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Replicate data, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -46,7 +46,7 @@ Transformations have the following limitations:
 
 1.  Choose a producer or consumer instance and navigate to the replication set.
 
-<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d573765e107">
+<table id="choicetable_lbg_kqq_snb"><tbody><tr><td id="d582777e107">
 
 **Consumer Instance**
 
@@ -54,7 +54,7 @@ Transformations have the following limitations:
 
 Navigate to **Instance Data Replication** &gt; **Consumer Replication Sets** and click a consumer replication set.
 
-</td></tr><tr><td id="d573765e125">
+</td></tr><tr><td id="d582777e125">
 
 **Producer instance**
 
@@ -65,7 +65,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 </td></tr></tbody>
 </table>2.  Choose an inbound or outbound entry.
 
-<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d573765e152">
+<table id="choicetable_oh1_45q_snb"><tbody><tr><td id="d582777e152">
 
 **Consumer Instance**
 
@@ -73,7 +73,7 @@ Navigate to **Instance Data Replication** &gt; **Producer Replication Sets** and
 
 On the **Inbound Entries** tab, click an inbound entry.
 
-</td></tr><tr><td id="d573765e164">
+</td></tr><tr><td id="d582777e164">
 
 **Producer instance**
 
@@ -121,7 +121,7 @@ On the **Outbound Entries** tab, click an outbound entry.
     **Note:** Adapters do not modify the data on the producer instance.
 
 
--   **[Warning and error messagesInstance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/schema-warnings-error.md)**  
+-   **[Warning and error messages in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/schema-warnings-error.md)**  
 Understand error and warning messages related to schema definitions. You can then troubleshoot or fix Instance Data Replication \(IDR\) replication issues.
 
 **Parent Topic:**[Replicating data with Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/replicating-data.md)

@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,15 +32,11 @@ The user's name, with a link to that user's feed, is inserted into the message. 
 
     As you type, an auto-suggest list appears with names and pictures of users that match your entries. For example, if you type `@t`, the auto-suggest list shows the pictures and names of all users with names that start with T.
 
-    \[Omitted image "AutoSuggest.png"\] Alt text: Auto suggest
-
 2.  Click the user you want to add.
 
     That user's name is inserted into the @mention in the body of the message.
 
-    \[Omitted image "AutoSuggestCompleted.png"\] Alt text: Auto suggest completed
-
-    **Note:** My Feed displays @mentions of you and the teams you are a member of. Profile feeds for another user display only @mentions of that user.
+    **Note:** My Feed displays @mentions of you and the teams you're a member of. Profile feeds for another user display only @mentions of that user.
 
 
 **Parent Topic:**[Post content in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_PostContentInLiveFeed.md)

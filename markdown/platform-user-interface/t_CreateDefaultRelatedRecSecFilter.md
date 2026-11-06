@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_CreateDefaultRelatedRecSecFilter.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -52,7 +52,7 @@ A filter is used to restrict the records that are listed in the slushbucket that
 
 [Add fields to selections in a related list]()
 
-[Configure reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ConfigureReferenceQualifiers.md)
+[bundle-platadm.t_ConfigureReferenceQualifiers]
 
 [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_ConditionBuilder.md)
 

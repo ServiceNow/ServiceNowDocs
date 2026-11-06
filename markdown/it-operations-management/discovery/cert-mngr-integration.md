@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
@@ -31,8 +31,8 @@ For information on building an external issuer, see [Building and Deploying Exte
 -   When a new certificate task is created, its Certificate Request UID and Certificate Task Sys Id are stored in the local JSON cache and the Certificate Request UID to Task Map table on the instance.
 -   The ServiceNow External Issuer polls the instance to monitor the status of the certificate task.
 -   If the certificate task is in the **Work in progress** state, its Certificate Request UID and Certificate Task Sys Id are added to the External Issuer UID Map table on the instance and the local JSON cache. During this time, Cert-manager automatically attempts to request the certificate.
--   Upon receiving a certificate request, Cert-manager checks for a matching task in the local JSON cache. If found, it polls the same task; otherwise, it queries the instance for records from the External Issuer UID Map table and populates the local JSON cache.
--   Once the task is marked as complete and the certificate is generated, the ServiceNow External Issuer sends another request to the instance, downloads the certificate attachment, and updates the certificate resource and corresponding secret in Kubernetes.
+-   On receiving a certificate request, Cert-manager checks for a matching task in the local JSON cache. If found, it polls the same task; otherwise, it queries the instance for records from the External Issuer UID Map table and populates the local JSON cache.
+-   After the task is marked as complete and the certificate is generated, the ServiceNow External Issuer sends another request to the instance, downloads the certificate attachment, and updates the certificate resource and corresponding secret in Kubernetes.
 
 ## Deploying the ServiceNow External Issuer in Kubernetes
 
@@ -66,7 +66,7 @@ Deploying the ServiceNow External Issuer in Kubernetes involves the following st
 5.  \(Optional\) Customize any additional configurations in the files to suit your specific requirements.
 6.  Ensure that the deployment is successful and the ServiceNow External Issuer is up and running.
 
-## Request new certificate flow
+## Request a certificate flow
 
 After deployment, submit a certificate resource with the following information in a file named `certificate_clusterissuer.yaml`.
 

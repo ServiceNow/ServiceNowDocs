@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments in the CSM Configurable Workspace, Manage appointments on behalf of a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments in the CSM Configurable Workspace, Managing appointments on behalf of a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Cancel work order appointment in CSM Agent Workspace
@@ -34,6 +34,4 @@ Role required: wm\_qualifier and sn\_customerservice\_agent, or wm\_qualifier an
 
     The application cancels the appointment and associated work order.
 
-
-**Parent Topic:**[Manage appointments in the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appts-from-csm-workspace.md)
 

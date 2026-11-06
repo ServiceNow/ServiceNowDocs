@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Configure, Telecommunications Network Inventory]
 ---
 
 # Configuring overlays on floor map
@@ -26,7 +26,7 @@ Update the decision table to configure the time duration option on the floor map
 **Related topics**  
 
 
-[Visualization of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
+[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 
 [Capacity management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/capacity-management-reporting.md)
 

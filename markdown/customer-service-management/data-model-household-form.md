@@ -1,18 +1,18 @@
 ---
 title: Household form
-description: Service Model Foundation uses the Household form to store information about a consumer household, including the household members; relationships created for the household and members; and cases, entitlements, and contracts created for the household and members.
+description: Service Model Foundation uses the household form to store details about a consumer household, including its members, their relationships, and any cases, entitlements, or contracts associated with them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/data-model-household-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Household form
 
-Service Model Foundation uses the Household form to store information about a consumer household, including the household members; relationships created for the household and members; and cases, entitlements, and contracts created for the household and members.
+Service Model Foundation uses the household form to store details about a consumer household, including its members, their relationships, and any cases, entitlements, or contracts associated with them.
 
 <table id="table_fyv_dtr_bs"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Head of household
 
 </td><td>
 
-The consumer in charge of the household.-   When creating a new household record, select a consumer from the Consumer table.
+The consumer in charge of the household.-   When creating a household record, select a consumer from the Consumer table.
 -   When updating an existing household record, select a consumer from the current members of the household.
 
 </td></tr><tr><td>
@@ -73,7 +73,7 @@ The state or province in which the household resides.
 
 </td></tr><tr><td>
 
-Zip/Postal code
+ZIP/Postal code
 
 </td><td>
 
@@ -142,7 +142,7 @@ Household Team
 
 Relationships that have been created between internal users and this household. Household staff relationships are created using the Relationship Manager responsibility.
 
- Internal users that have a Relationship Manager relationship with a household can manage all of the cases for that household.
+ Internal users that have a Relationship Manager relationship with a household can manage all the cases for that household.
 
 </td></tr><tr><td>
 

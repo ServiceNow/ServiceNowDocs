@@ -1,0 +1,26 @@
+---
+title: Reference
+description: Reference information of the catalog agent and LLM topic blocks to power conversational catalog requests.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/catalog-agent-reference.html
+release: yokohama
+product: Service Catalog
+classification: service-catalog
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [reference]
+breadcrumb: [Conversational Catalog Requests, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+---
+
+# Reference
+
+Reference information of the catalog agent and LLM topic blocks to power conversational catalog requests.
+
+-   **[Catalog Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/catalog-agent-reference-1.md)**  
+Use this reference to understand the Catalog Agent capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
+-   **[LLM topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/llm-topic-blocks-reference.md)**  
+Use this reference to understand the LLM topic blocks capabilities, supported request types, constraints, and key considerations when deploying conversational catalog requests.
+
+**Parent Topic:**[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)
+

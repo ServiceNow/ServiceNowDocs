@@ -7,8 +7,8 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -116,4 +116,6 @@ Lists the top five articles with the most views.
 
 </td></tr></tbody>
 </table>**Note:** The Knowledge Management Service Portal homepage is mobile responsive.
+
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

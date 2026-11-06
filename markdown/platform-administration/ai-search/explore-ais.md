@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -30,6 +30,8 @@ Search profiles define search sources and settings for linguistic search query f
 Provide multiple search entry points across your organization by enabling AI Search as the search engine for search applications. The base system enables AI Search as the search engine for global and workspace search, Customer Service Management, Now Mobile, Service Portal, and Virtual Agent.
 -   **[Provide users with powerful and flexible search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/explore-features-search-ais.md)**  
 AI Search includes search features that help users find the answers they need.
+-   **[Generate multi-content synthesized responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/generate-multi-content-synthesized-sources.md)**  
+Multi-content source synthesis lets AI Search gather and combine information from any indexed source in your system to provide comprehensive AI-generated responses to your questions.
 -   **[Enable search result refinement filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/explore-features-refine-ais.md)**  
 AI Search enables users to refine searches by filtering their results. Use source facet buckets to filter results by source, or select facets to apply filters dynamically generated from the result set.
 -   **[Display relevant and actionable search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/explore-features-results-ais.md)**  
@@ -42,7 +44,7 @@ AI Search supports indexing and search for all languages offered by the ServiceN
 AI Search is the default search engine for Unified Navigation searches in Next Experience, including global search and configurable workspace search.
 -   **[Deflect incidents in Service Portal with the AI Search Assist widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/explore-ais-assist-widget.md)**  
 Improve incident deflection for Service Portal users by displaying the most relevant search results within a record producer.
--   **[Search result disparities between AI Search and Now Assist search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)**  
+-   **[Search result disparities between AI Search and ServiceNow Otto search features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/search-disparities-ai-search-now-assist.md)**  
 The ServiceNow AI Platform® offers a variety of search tools, which may return different answers for the same or similar searches. This disparity in results is expected. It occurs because each tool uses a different approach and architecture to find results and generate answers that match your search.
 
 **Parent Topic:**[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/overview-ais.md)

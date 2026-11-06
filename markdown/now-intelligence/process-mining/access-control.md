@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Configure, Process Mining, Platform Analytics]
 ---
 
 # Access control
@@ -20,10 +20,10 @@ When generating a project, Process Mining honors the ACLs on the table that a pr
 
 When sharing a project:
 
--   All visible data in the Analyst Workbench is visible to any user who has access to the project.
+-   All visible data in Analyst workbench is visible to any user who has access to the project.
 -   All mining operations are performed as per the project creator's \[sys\_created\_by\] access. This includes mining performed by roles with higher permission levels, which can result in less data being mined.
 
-Summary and Insights page:
+Summary and insights page:
 
 -   KPIs are visible to any user who has the required permission to access related KPIs.
 -   Insights are visible to any user who has access to the project.

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Domain Separation, Now Assist Admin, console, Generative AI, Gen AI]
-breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Domain separation in the AI Admin Hub console
@@ -60,11 +60,13 @@ Domain separation is possible at the skill level and at the individual configura
 4.  Change your current domain to the domain that you want to enable the skill in.
 5.  Navigate to **All** &gt; **Now Assist Admin Console** &gt; **Features**.
 6.  Navigate to the skill that you want to activate according to domain and select **Activate skill**.
-7.  Configure the skill as usual. For more information, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
+7.  Configure the skill as usual. For more information, see [Activate an AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
 8.  Return to the Now Assist Skill Config \(sn\_nowassist\_skill\_config\) table. There should be a new record in the current domain. Open the new record.
 9.  In a different browser tab, return to the Now Assist Skill Config table and open the deactivated skill record in the global domain.
 10. Compare the global skill record to the one created within your domain. Records on the related list may not be present in the domain-specific skill. If they are not there, you must recreate those records in your domain and attach them to the related list in your domain-specific skill.
 11. Repeat the process for each skill and each domain where you want to have the skill available.
+
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/define-location.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Locations, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -26,15 +26,15 @@ Role required: sn\_ti.admin
 
 3.  Complete the fields in the form as appropriate.
 
-<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d212953e83">
+<table id="choicetable_sq4_yvf_wmb"><thead><tr><th align="left" id="d219140e80">
 
 Field
 
-</th><th align="left" id="d212953e86">
+</th><th align="left" id="d219140e83">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d212953e92">
+</th></tr></thead><tbody><tr><td id="d219140e89">
 
 **Name**
 
@@ -42,7 +42,7 @@ Description
 
 Enter a descriptive name to identify the location.
 
-</td></tr><tr><td id="d212953e101">
+</td></tr><tr><td id="d219140e98">
 
 **Street Address**
 
@@ -50,7 +50,7 @@ Enter a descriptive name to identify the location.
 
 The street address that this location describes. This property includes all aspects or parts of the street address.
 
-</td></tr><tr><td id="d212953e110">
+</td></tr><tr><td id="d219140e107">
 
 **City**
 
@@ -58,7 +58,7 @@ The street address that this location describes. This property includes all aspe
 
 The city that this location is in.
 
-</td></tr><tr><td id="d212953e119">
+</td></tr><tr><td id="d219140e116">
 
 **Postal Code**
 
@@ -66,7 +66,7 @@ The city that this location is in.
 
 The postal code that this location is in.
 
-</td></tr><tr><td id="d212953e129">
+</td></tr><tr><td id="d219140e126">
 
 **Region**
 
@@ -74,7 +74,7 @@ The postal code that this location is in.
 
 The region that this location is in.
 
-</td></tr><tr><td id="d212953e138">
+</td></tr><tr><td id="d219140e135">
 
 **Country**
 
@@ -82,7 +82,7 @@ The region that this location is in.
 
 The country that this location is in.
 
-</td></tr><tr><td id="d212953e147">
+</td></tr><tr><td id="d219140e144">
 
 **Latitude**
 
@@ -90,7 +90,7 @@ The country that this location is in.
 
 The latitude of the Location in decimal degrees. Positive numbers describe latitudes north of the equator, and negative numbers describe latitudes south of the equator. The value of this property must be from -90.0 through 90.0 respectively.
 
-</td></tr><tr><td id="d212953e159">
+</td></tr><tr><td id="d219140e156">
 
 **Longitude**
 
@@ -98,7 +98,7 @@ The latitude of the Location in decimal degrees. Positive numbers describe latit
 
 The longitude of the location in decimal degrees. Positive numbers describe longitudes east of the prime meridian and negative numbers describe longitudes west of the prime meridian. The value of this property must be from -180.0 through 180.0, inclusive.
 
-</td></tr><tr><td id="d212953e171">
+</td></tr><tr><td id="d219140e168">
 
 **Source**
 
@@ -106,7 +106,7 @@ The longitude of the location in decimal degrees. Positive numbers describe long
 
 Specifies the threat source from which this record is created.
 
-</td></tr><tr><td id="d212953e180">
+</td></tr><tr><td id="d219140e177">
 
 **Description**
 
@@ -114,7 +114,7 @@ Specifies the threat source from which this record is created.
 
 A description that provides more details and context about the intrusion set, potentially including its purpose and its key characteristics.
 
-</td></tr><tr><td id="d212953e190">
+</td></tr><tr><td id="d219140e187">
 
 **Source ID**
 
@@ -122,7 +122,7 @@ A description that provides more details and context about the intrusion set, po
 
 Unique identifier for this object in the threat source.
 
-</td></tr><tr><td id="d212953e199">
+</td></tr><tr><td id="d219140e196">
 
 **Created Time in Source**
 
@@ -130,7 +130,7 @@ Unique identifier for this object in the threat source.
 
 Specifies the time the object is created in the source.
 
-</td></tr><tr><td id="d212953e208">
+</td></tr><tr><td id="d219140e205">
 
 **Modified Time in Source**
 

@@ -1,5 +1,5 @@
 ---
-title: Syntax editor macros
+title: JavaScript syntax editor macros
 description: Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/r\_SyntaxEditorMacros.html
@@ -7,22 +7,22 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Syntax editor plugin, JavaScript syntax editor, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Using the JavaScript syntax editor, JavaScript syntax editor, Explore, Scripting, API implementation, API implementation and reference]
 ---
 
-# Syntax editor macros
+# JavaScript syntax editor macros
 
 Script macros provide shortcuts for typing commonly used code. To insert macro text into a script field, enter the macro keyword followed by the Tab.
 
-Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] table. To create or modify a script macro, see [Create or modify a script macro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/t_ManageScriptMacros.md).
+Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] table. To create or modify a script macro, see [Create a script macro for the syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/t_ManageScriptMacros.md).
 
 -   **vargr**
     -   Inserts a standard GlideRecord query for a single value.
     -   Output:
 
-        ```
+        ```javascript
         var gr = new GlideRecord("$0");
         gr.addQuery("name", "value");
         gr.query();
@@ -35,7 +35,7 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
     -   Inserts a GlideRecord query for two values with an `OR` condition.
     -   Output:
 
-        ```
+        ```javascript
         var gr = new GlideRecord('$0');
          
         var qc = gr.addQuery('field', 'value1');
@@ -53,7 +53,7 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
     -   Inserts a standard recursive loop with an array.
     -   Output:
 
-        ```
+        ```javascript
         for (var i=0; i< myArray.length; i++) {
          //myArray[i];
         
@@ -64,7 +64,7 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
     -   Inserts a GlideSystem information message.
     -   Output:
 
-        ```
+        ```javascript
         gs.addInfoMessage("");
         ```
 
@@ -72,7 +72,7 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
     -   Inserts a blank JavaScript function template.
     -   Output:
 
-        ```
+        ```javascript
         /*_________________________________________________________________
            * Description:
            * Parameters:
@@ -87,7 +87,7 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
     -   Inserts a comment block for describing a function or parameters.
     -   Output:
 
-        ```
+        ```javascript
         /**
                         
          * Description: 
@@ -99,5 +99,5 @@ Syntax editor macros are defined in the Editor Macros \[syntax\_editor\_macro\] 
         ```
 
 
-**Parent Topic:**[Syntax editor plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditorPlugin.md)
+**Parent Topic:**[Using the JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/r_EdtJvaScptWSyntxEdtr.md)
 

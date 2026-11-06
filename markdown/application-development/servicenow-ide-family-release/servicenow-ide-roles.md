@@ -1,15 +1,15 @@
 ---
 title: ServiceNow IDE roles
-description: The following roles are installed for use with ServiceNow IDE.Create and develop scoped applications in the ServiceNow IDE.Assign administrator privileges to a MID server user to manage applications in source control from the ServiceNow IDE.
+description: The following roles are installed for use with ServiceNow IDE.Create and develop applications in the ServiceNow IDE.Assign administrator privileges to a MID server user to manage applications in source control from the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-roles.html
 release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE roles
@@ -20,7 +20,9 @@ The following roles are installed for use with ServiceNow IDE.
 
 ## ServiceNow IDE Administrator \[sn\_glider.admin\]
 
-Create and develop scoped applications in the ServiceNow IDE.
+Create and develop applications in the ServiceNow IDE.
+
+For more information about granular admin roles, see .
 
 ### Contains Roles
 
@@ -39,8 +41,8 @@ This role is assigned to no groups by default.
 In addition to this role, the following roles are necessary for certain functionality in the ServiceNow IDE:
 
 -   credential\_admin: Required to perform Git operations.
--   sn\_udc.admin: Required to modify application files from the Metadata Explorer.
--   sn\_udc.basic\_read: Used for read-only access to application files in the Metadata Explorer.
+-   sn\_udc.admin: Required to modify application files from the File Categories view.
+-   sn\_udc.basic\_read: Used for read-only access to application files in the File Categories view.
 
 ## ServiceNow IDE MID Server User \[sn\_glider.ide\_git\_user\]
 
@@ -50,9 +52,7 @@ MID Server users must have the sn\_glider.ide\_git\_user role or admin role to p
 
 ### Contains Roles
 
-List of roles contained within the role:
-
-credential\_admin
+None.
 
 ### Groups
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-business-object-group-define-entity-relationship.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Lead-to-Cash Process Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set up business objects for sales process records
@@ -82,7 +82,7 @@ Role required: Business object writer \[sn\_bo\_core.business\_object\_writer\]
 
     2.  Under the Business Object Group Members related list, select **New**.
 
-    3.  Select the business object type you want to add using the Lookup list icon \(\[Omitted image "magnifying-glass-outline-24.svg"\]\).
+    3.  Select the business object type you want to add using the Lookup list icon \[Omitted image "magnifying-glass-outline-24.svg"\] Alt text:.
 
     4.  Select **Submit**.
 
@@ -90,4 +90,11 @@ Role required: Business object writer \[sn\_bo\_core.business\_object\_writer\]
 ## Result
 
 Business object group and business object types are available in Business process and Business entity lists respectively in the Create new sales process record form in the CRM Workspace.
+
+**Related topics**  
+
+
+[Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-lead-cash-process-management.md)
+
+[Using Lead-to-Cash Process Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-process-management.md)
 

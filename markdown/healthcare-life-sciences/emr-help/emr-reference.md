@@ -7,7 +7,7 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [EMR Help, Healthcare and Life Sciences Service Management, Healthca
 
 Reference topics provide additional information about EMR Help features.
 
+-   **[Encryption options in EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/emr-help-encryption-support.md)**  
+EMR Help provides encryption support to secure sensitive information.
 -   **[Components installed with EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/components-installed-emr-help.md)**  
 Several types of components are installed with activation of the EMR Help application including tables, user roles, and plugins.
 -   **[EMR Help data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/emr-help/tables-installed-with-emr-help.md)**  

@@ -1,5 +1,5 @@
 ---
-title: Components installed with the Dispute Rules Content Pack for Mastercard
+title: Components installed with Dispute Rules Content Pack for Mastercard
 description: Several types of components are installed with the installation of the Dispute Rules Content Pack for Mastercard plugin, including tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/components-installed-with-dispute-rules-content-pack-for-mastercard.html
@@ -7,27 +7,26 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispute Rules Content Pack for Mastercard reference, Dispute Rules Content Pack for Mastercard, Managing Mastercard disputes, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Dispute Rules Content Pack for Mastercard, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Components installed with the Dispute Rules Content Pack for Mastercard
+# Components installed with Dispute Rules Content Pack for Mastercard
 
 Several types of components are installed with the installation of the Dispute Rules Content Pack for Mastercard plugin, including tables.
 
 ## Plugins
 
-**Note:** The Dispute Rules Content Pack for Mastercard application is dependent on the Financial Services Card Operations and Dispute Rules Content Pack for Visa applications.
+**Note:** The Dispute Rules Content Pack for Mastercard application is dependent on the Financial Services Card Operationsapplication.
 
 |Plugin|Description|
 |------|-----------|
-|Financial Services Card Operations \[com.sn\_bom\_credit\_card\]|Enables quick processing of credit card applications and card transaction disputes.|
-|Dispute Rules Content Pack for Visa \[sn\_bom\_visa\_cp\]|Provides the underlying questionnaire and chargeback decision tree.|
+|Financial Services Card Operations \[com.sn\_bom\_credit\_card\]|Enables quick processing of credit card applications and card transaction disputes, including the dispute intake questionnaire.|
 
 ## Tables installed
 
-**Note:** The Dispute Rules Content Pack for Mastercard application uses the same data model as the Dispute Rules Content Pack for Visa application. Mastercard-specific content, such as decision tables, chargeback rules, chargeback flows, and actions are provided in the Dispute Rules Content Pack for Mastercard application.
+**Note:** The Dispute Rules Content Pack for Mastercard application uses the same data model as the Financial Services Card Operations application. Mastercard-specific content, such as decision tables, chargeback rules, chargeback flows, and actions are provided in the Dispute Rules Content Pack for Mastercard application.
 
 |Table|Description|
 |-----|-----------|

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure dynamic clauses for contract templates, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure dynamic clauses for contract templates, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add metadata to a clause using add-in
@@ -44,7 +44,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 7.  Select **Create metadata mapping**.
 
-    The create mapping form is displayed.
+    \[Omitted image "cmpro-waddin-cls-metadatanew.png"\] Alt text: Create metadata for clause variation
 
 8.  In the **Field name** field, enter unique name for the metadata.
 
@@ -54,15 +54,7 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
     -   The metadata is synced to the ServiceNow instance. You can view the meta data by logging to the ServiceNow instance and navigating to the **Field mapping** related list of a clause variation.
 10. Add the created metadata to other locations in the document by clicking on the tag.
 
-11. Upload the document into the ServiceNow instance.
-
-    1.  Select **Proceed to select a document**.
-
-    2.  In the Select Attachment screen, select **Attach file** and select the same file where you have marked the content controls.
-
-        A confirmation message asking you to proceed with the upload will be shown if the file name of the document you are uploading and the one associated in the contract template are different.
-
-    3.  Select **Upload and parse document** to parse the content controls and add the data to the ServiceNow instance.
+11. Select **Complete mapping and upload**.
 
     The file will be uploaded. If the clause variation is mapped to multiple templates and the variation has metadata, the unmapped metadata is displayed and you must map them for each of the templates.
 

@@ -1,20 +1,20 @@
 ---
 title: Service Catalog
-description: Use the ServiceNow Service Catalog application to create service catalogs that provide your customers with self-service opportunities. Customize portals where your customers can request catalog items such as service and product offerings. You can also standardize request fulfillment to ensure the accuracy and availability of the items in the catalogs.
+description: Use the ServiceNow Service Catalog application to develop comprehensive service catalogs that empower customers with self-service capabilities. Tailor portals to enable customers to request a range of catalog items, including services and product offerings. Additionally, you can standardize request fulfillment processes to ensure the accuracy and availability of items within the catalogs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-catalog/service-catalog.html
 release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Catalog
 
-Use the ServiceNow® Service Catalog application to create service catalogs that provide your customers with self-service opportunities. Customize portals where your customers can request catalog items such as service and product offerings. You can also standardize request fulfillment to ensure the accuracy and availability of the items in the catalogs.
+Use the ServiceNow Service Catalog application to develop comprehensive service catalogs that empower customers with self-service capabilities. Tailor portals to enable customers to request a range of catalog items, including services and product offerings. Additionally, you can standardize request fulfillment processes to ensure the accuracy and availability of items within the catalogs.
 
 ## Get started
 
@@ -77,10 +77,10 @@ Reference topics provide additional information about the lists and forms.
 Debug user criteria of catalog items, UI customizations for Service Catalog pages, actions on catalog item variables, performance diagnostics of a catalog item, and so on.
 -   **[Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/catalog-builder.md)**  
 You can create or edit a catalog item \(catalog item or record producer\) using a visual and guided experience along with specified restrictions. The Catalog Builder experience enables you to delegate the creation and maintenance of the catalog.
--   **[Now Assist in Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)**  
-Use ServiceNow® Now Assist in Catalog Builder to create catalog items of your choice in Catalog Builder by giving text inputs.
--   **[Catalog Conversational Coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/using-catalog-conversational-experience.md)**  
-ServiceNow® Catalog Conversational Coverage provides a dashboard to view a high-level overview of the conversational and non-conversational catalog items.
+-   **[AI Authoring for Catalog Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-for-catalog-generation.md)**  
+Use AI Authoring for Catalog Builder to create catalog items of your choice by giving text inputs.
+-   **[Conversational Catalog Requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/now-assist-in-conversational-catalog-request.md)**  
+Provides a conversational experience based on generative AI for submitting catalog item request in Virtual Agent.
 
 **Parent Topic:**[Manage service capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/manage-services.md)
 

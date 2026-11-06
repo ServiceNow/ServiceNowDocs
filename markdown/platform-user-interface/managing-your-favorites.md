@@ -1,14 +1,14 @@
 ---
 title: Managing your favorites in Next Experience
-description: Favorites help you quickly find and go to your most used Next Experience pages.Find and access your most used pages quickly by adding them to the Favorites menu in the Next Experience Unified Navigation.Find entries in the Next Experience Favorites menu quickly by organizing your favorites in a folder structure.Keep your Next Experience Favorites menu updated by editing the names and icons of favorites, reordering favorites, moving them into groups, or deleting favorites you no longer need.
+description: Favorites help you quickly find and go to your most used Next Experience pages.Find and go to your most used pages quickly by adding them to the Favorites menu in the Next Experience Unified Navigation.Find entries in the Next Experience Favorites menu quickly by organizing your favorites in a folder structure.Keep your Next Experience Favorites menu updated by editing the names and icons of favorites, reordering favorites, moving them into groups, or deleting favorites you no longer need.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/managing-your-favorites.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [manage favorites, next experience pages, next experience favorites, add favorites, favorites menu, most used pages, organize favorites, edit favorites, change favorites]
-breadcrumb: [Using the Next Experience Unified Navigation, Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Managing your favorites in Next Experience
@@ -21,7 +21,7 @@ After you add favorites, they appear in the **Favorites** menu in the Next Exper
 
 ## Add favorites in Next Experience
 
-Find and access your most used pages quickly by adding them to the Favorites menu in the Next Experience Unified Navigation.
+Find and go to your most used pages quickly by adding them to the Favorites menu in the Next Experience Unified Navigation.
 
 ### Before you begin
 
@@ -31,7 +31,7 @@ Role required: none
 
 1.  Add a favorite in one of the ways listed in the following table.
 
-<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d100509e140">
+<table id="choicetable_dg5_wsn_vvb"><tbody><tr><td id="d104493e152">
 
 **From any page**
 
@@ -41,28 +41,28 @@ From any page, select the star icon in the contextual app pill.
 
  \[Omitted image "pol-nav-pill-favorite.png"\] Alt text: Favorite star in the contextual app pill
 
-</td></tr><tr><td id="d100509e159">
+</td></tr><tr><td id="d104493e171">
 
 **From the All menu**
 
 </td><td>
 
--   To add a single module: In the application navigator, select the star icon next to the module name.\[Omitted image "next-exp-save-favorites.png"\] Alt text: All menu with single module saved as a favorite.
+-   To add a single module: In the application navigator, select the star icon next to the module name.\[Omitted image "next-exp-save-favorites.png"\] Alt text: All menu single module saved as favorite.
 -   To add all the modules under an application: In the application navigator, select the star icon next to the application name.
 
 
-</td></tr><tr><td id="d100509e182">
+</td></tr><tr><td id="d104493e194">
 
 **From a list or record in the classic environment**
 
 </td><td>
 
 1.  Open a list or record in the classic environment.
-2.  Select the context menu icon \(\[Omitted image "MenuIconUI14.png"\] Alt text: Context menu icon\) next to the list or record title.
+2.  Select the context menu icon \[Omitted image "MenuIconUI14.png"\] Alt text: next to the list or record title.
 3.  Select **Create Favorite**.
  You can add a different favorite for each view of a list or record.
 
-</td></tr><tr><td id="d100509e215">
+</td></tr><tr><td id="d104493e226">
 
 **From a knowledge base article**
 
@@ -104,7 +104,7 @@ Role required: none
 
 1.  Select the **Favorites** menu in the Next Experience Unified Navigation.
 
-2.  Select the Edit your favorites icon \(\[Omitted image "pol-nav-edit-menu.png"\] Alt text: Edit your favorites icon\).
+2.  Select the Edit your favorites icon \[Omitted image "pol-nav-edit-menu.png"\] Alt text:.
 
 3.  Select **Create custom group**.
 
@@ -137,13 +137,13 @@ Role required: none
 
 2.  Edit or delete favorites.
 
-<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d100509e550">
+<table id="choicetable_ipt_c1r_fwb"><tbody><tr><td id="d104493e572">
 
 **Edit a favorite**
 
 </td><td>
 
-1.  Select the Edit your favorites icon \(\[Omitted image "pol-nav-edit-menu.png"\] Alt text: Edit your favorites icon\).
+1.  Select the Edit your favorites icon \[Omitted image "pol-nav-edit-menu.png"\] Alt text:.
 2.  In the favorites panel, select a favorite.
 3.  Modify the favorite.
     -   To reorder the favorite, drag it to a new location in the list.
@@ -153,13 +153,13 @@ Role required: none
 4.  Select **Save edits**.
 
 
-</td></tr><tr><td id="d100509e600">
+</td></tr><tr><td id="d104493e621">
 
 **Delete a favorite**
 
 </td><td>
 
-Select the Remove favorite icon \(\[Omitted image "pol-x-delete-remove.png"\] Alt text: Remove Favorite icon\).
+Select the Remove favorite icon \[Omitted image "pol-x-delete-remove.png"\] Alt text:.
 
 </td></tr></tbody>
 </table>

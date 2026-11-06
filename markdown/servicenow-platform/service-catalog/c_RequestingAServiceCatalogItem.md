@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Catalog for managers and end users, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Catalog for managers and end users, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Catalog request screens
@@ -40,16 +40,15 @@ When a customer orders something from the catalog, a request is generated to tra
 
 The user specified in the **Opened By** field of a Requested Item \(sc\_req\_item\) record has read access to it.
 
-\[Omitted image "SC\_PlaceOrder.png"\] Alt text: Request status screen after the request is submitted
-
 Each individual catalog item that is part of a request creates a discrete request item with the request.
 
 For example, a request for 2 PCs, 1 Chair, and 1 Desk would produce:
 
--   Request REQ0000001 -- 4 Things
-    -   Requested item RITM0000001 -- 2 X PC
-    -   Requested item RITM0000002 -- 1 X Chair
-    -   Requested item RITM0000003 -- 1 X Desk
+Request REQ0000001 -- 4 Things
+
+-   Requested item RITM0000001 -- 2 X PC
+-   Requested item RITM0000002 -- 1 X Chair
+-   Requested item RITM0000003 -- 1 X Desk
 
 After a service catalog request is submitted, a fulfiller may determine that the item is not in stock. The full filler can select the **Backordered** check box, and enter comments about when the item may be back in stock. The backorder status can be used in reports and dashboards.
 

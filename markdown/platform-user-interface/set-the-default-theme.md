@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-the-default-theme.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Publish your themes with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Publish themes, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Set the default theme
@@ -16,7 +16,9 @@ Set a preferred Theme Builder theme as the default for your web experiences when
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
@@ -26,17 +28,17 @@ The default theme is treated as the first theme that is displayed in the Next Ex
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
     The Theme Builder landing page appears in the Home page view.
 
 2.  From the Home page view, select the Manager page view to see the themes that you have created.
 
-3.  Choose the theme that you want to set as the default from the Published section.
+3.  From the Published section, choose the theme that you want to set as the default.
 
     **Note:** When you have selected the theme that you want to set as the default, verify that you have selected the correct scope for the theme from the application scope picker.
 
-4.  Select the More actions \(\[Omitted image "tb-more-actions.png"\] Alt text: More actions icon.\) icon from the theme that you have selected, and select **Mark as default**.
+4.  Select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:from the theme that you have selected, and select **Mark as default**.
 
     \[Omitted image "tb-mark-as-default.png"\] Alt text: Mark as default option.
 

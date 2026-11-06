@@ -7,20 +7,22 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your Platform Analytics
 
 The TuneUp Your Platform Analytics Accelerator provides guidance on maintaining and governing Platform Analytics health to optimize value.
 
-## Overview
+## Accelerator overview
 
-TuneUp Your Platform Analytics provides Impact customers with an assessment of their current Platform Analytics implementation. This offering includes an applied demonstration of the capabilities of advanced Platform Analytics configuration, including Performance Analytics, Workspaces, and User Experience Analytics. We aim to assist you in obtaining better insight into your Platform Analytics investment and provide leading practices on how to best increase adoption and utilization. For more information on Platform Analytics, see [Available Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/r_AvailableContentPacks.md).
+TuneUp Your Platform Analytics provides Impact customers with an assessment of their current Platform Analytics implementation. This offering includes an applied demonstration of the capabilities of advanced Platform Analytics configuration, including Performance Analytics, Workspaces, and Usage Insights. We aim to assist you in obtaining better insight into your Platform Analytics investment and provide leading practices on how to best increase adoption and utilization.
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable ServiceNow Impact Package and Accelerator descriptions available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -39,8 +41,8 @@ Offered pursuant to the applicable ServiceNow Impact Package and Accelerator des
         -   Review comparisons to the base system implementation
         -   Create custom metrics and jobs
     -   Walk through the following:
-        -   Advanced table and Performance Analytics
-        -   Workspace and User Experience capabilities
+        -   Advanced table and Platform Analytics
+        -   Workspace and Usage Insights capabilities
     -   Discuss housekeeping and maintenance leading practices
     -   Thirty days of access granted to the temporary instance
 -   **Customer Coaching Session \#2 \(Optional upon Customer request – up to 60 min\)**

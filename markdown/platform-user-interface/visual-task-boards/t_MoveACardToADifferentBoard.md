@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -22,15 +22,11 @@ Role required: none
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Visual Task Boards**.
+1.  Open the card details.
 
-2.  Open a task board.
+2.  In the details tab \(\[Omitted image "DetailsTab.png"\] Alt text: Details tab\), click **Move Card**.
 
-3.  Open the card details.
-
-4.  In the details tab \(\[Omitted image "DetailsTab.png"\] Alt text: Details tab\), select **Move**.
-
-5.  In the pop-up window that appears, select the board and lane to move the card to.
+3.  In the pop-up window that appears, select the board and lane to move the card to.
 
     The board selection list displays freeform boards only.
 

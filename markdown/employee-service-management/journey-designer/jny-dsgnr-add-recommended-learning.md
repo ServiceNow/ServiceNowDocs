@@ -1,20 +1,20 @@
 ---
 title: Add recommended learning to a journey
-description: When the Learning Posts app is integrated with Journey designer, managers and mentors with Can add recommended learning are able to add courses to a journey.
+description: Managers and mentors with Can add recommended learning are able to add courses to a journey.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-add-recommended-learning.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Display learning recommendations to the Manager creating a journey, Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Display recommended learning courses, Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Add recommended learning to a journey
 
-When the Learning Posts app is integrated with Journey designer, managers and mentors with **Can add recommended learning** are able to add courses to a journey.
+Managers and mentors with **Can add recommended learning** are able to add courses to a journey.
 
 ## Before you begin
 
@@ -33,8 +33,6 @@ Role required: Manager or mentor
 3.  Select the **Add courses** button on the Recommended learning widget.
 
 4.  Select a course by typing the name in the search bar or choose a course from the list.
-
-    Your organization must have a compatible learning system configured and running with the Learning Posts app installed and configured. See, [Learning Posts]().
 
 5.  Click the **+Add** button by the course to add it.
 

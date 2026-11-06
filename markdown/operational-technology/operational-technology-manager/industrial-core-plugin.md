@@ -7,8 +7,8 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: reference
-last_updated: "2025-07-22"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, Operational Technology Manager, Operational Technology]
 ---
 
@@ -44,11 +44,13 @@ The Industrial Core plugin introduces a configuration template to manage class m
 
 **Note:** Partners can extend the OT Class Mapping Template table in the scope of their application to capture the class mappings specific to the integration.
 
-For more information about the OT Class Mapping Template, see [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
+With the OT Class Mapping template, you can also define an OT device naming strategy per class by using the **Allow Custom Device Naming** and **Device Naming Strategy** fields. For more information about how to implement the device naming strategy, see [Create and use an OT device naming strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/create-use-ot-device-naming-strategy.md).
+
+For more information about the OT Class Mapping Template and its available fields, see the **OT Class Mapping Template** section in [Operational Technology \(OT\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models-operation-technology.md).For more information about reviewing class mappings for the Service Graph Connector for Microsoft Excel, see [Review class mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/review-class-mappings-sgc-excel.md).
 
 </td></tr><tr><td>
 
-OT Device Network connection \[sn\_ot\_device\_network\_connection\]
+OT Device Network Connection \[sn\_ot\_device\_network\_connection\]
 
 </td><td>
 
@@ -58,11 +60,43 @@ For more information about the OT Device Network Connection data model, see [Ope
 
 </td></tr><tr><td>
 
+OT Site Map \[sn\_ot\_site\_map\]
+
+</td><td>
+
+The OT Site Map \[sn\_ot\_site\_map\] table is used to assign metadata information to OT devices and contains the following fields.-   Approval group
+-   Assigned to
+-   Change group
+-   Company
+-   ISA assignment site
+-   Location
+-   Managed by
+-   Managed by group
+-   Owned by
+-   Site description
+-   Site name
+-   Network type
+-   Support group
+-   Active
+-   Supported by
+
+</td></tr><tr><td>
+
+OT Discovered Subnet \[sn\_ot\_discovered\_subnet\]
+
+</td><td>
+
+The OT Discovered Subnet \[sn\_ot\_discovered\_subnet\] table contains the discovered subnets used for OT subnet mapping and contains the following fields.-   CIDR
+-   Discovered managed network
+-   Site
+
+</td></tr><tr><td>
+
 OT Activity \[sn\_ot\_activity\]
 
 </td><td>
 
-Captures the following activities that occur on the OT Device:-   Addition, update, or retiring of a configuration item
+The OT Activity \[sn\_ot\_activity\] table captures the following activities that occur on the OT device:-   Addition, update, or retiring of a configuration item
 -   Addition of an IP address
 
 </td></tr><tr><td>
@@ -71,7 +105,7 @@ OT Backup Job Execution History \[ot\_backup\_history\_and\_comparison\_log\]
 
 </td><td>
 
-The Backup Job Execution History class creates a history of records for all backup executions.
+The Backup Job Execution History \[ot\_backup\_history\_and\_comparison\_log\] class creates a history of records for all backup executions. It compares the history of records for all backup executions.
 
 </td></tr><tr><td>
 
@@ -79,7 +113,7 @@ OT Automation Repo \[ot\_automation\_repo\]
 
 </td><td>
 
-The OT Backup Job Execution History class compares the history of records for all backup executions.
+The OT Automation Repo \[ot\_automation\_repo\] class acts as a repository to store all configuration changes you want to perform on an OT entity.
 
 </td></tr><tr><td>
 
@@ -87,7 +121,7 @@ OT Automation Repo Device M2M \[ot\_automation\_repo\_device\_m2m\]
 
 </td><td>
 
-The OT Automation Repo class acts as a repository to store all configuration changes you want to perform on an OT entity.
+The OT Automation Repo Device M2M \[ot\_automation\_repo\_device\_m2m\] class acts a reference to the OT Automation Repo and the OT Entity table.
 
 </td></tr><tr><td>
 
@@ -95,8 +129,11 @@ OT AutomationCommit \[ot\_automation\_commit\]
 
 </td><td>
 
-The OT Automation Repo Device M2M class acts a reference to the OT Automation Repo and the OT Entity table.
+OT AutomationCommit \[ot\_automation\_commit\] class acts as a reference to the changes you have committed to a project.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
+</table>-   **[Create and use an OT device naming strategy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/create-use-ot-device-naming-strategy.md)**  
+Create and use the Operational Technology \(OT\) device naming strategy to create unique names for your OT devices.
+
+**Parent Topic:**[Operational Technology Manager reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/operational-technology-manager-reference.md)
 

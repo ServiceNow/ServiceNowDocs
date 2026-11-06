@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ActivateAPlugin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -34,9 +34,4 @@ Role required: admin.
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/find-components.md).
 
-
-**Related topics**  
-
-
-[List of plugins \(Yokohama\)]()
 

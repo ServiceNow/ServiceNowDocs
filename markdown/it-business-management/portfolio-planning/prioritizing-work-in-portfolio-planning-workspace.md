@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
@@ -17,9 +17,9 @@ breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 
 Use the Prioritization feature of the Portfolio Planning Workspace to add, update, and rank planning items so that you can prioritize the right work for the right time.
 
-## Prioritization views
+## Views for prioritizing planning items
 
-Prioritization page in Portfolio Planning represents your backlog, showing the items of your work pipeline in a list and hierarchy views. See [Work prioritization in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.md) for an overview of these views.
+Prioritization tab in Portfolio Planning represents your backlog, displaying the items of your work pipeline. The Hierarchy tab also represents your backlog, each providing a different view of the same items. For an overview of these views, see [Work prioritization in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/work-prioritization-portfolio-planning.md) for an overview of these views.
 
 **Note:** The Prioritization feature is available only for portfolio plans.
 
@@ -29,7 +29,7 @@ In each of these views on the Prioritization page, you can perform the following
 
 -   **Add new planning items**
 
-    Add new items to your backlog directly from the Prioritization page. The type of planning items that you can create here depends on your portfolio plan configuration. See [Add planning items to Prioritization page in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-planning-items-prioritization-in-portfolio-planning-workspace.md).
+    Add new items to your backlog directly from the Prioritization page. The type of planning items that you can create here depends on your portfolio plan configuration. See [Add planning items to Prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-planning-items-prioritization-in-portfolio-planning-workspace.md).
 
 -   **Update planning item details**
 
@@ -43,9 +43,9 @@ In each of these views on the Prioritization page, you can perform the following
 
     \[Omitted image "open-execution-app.png"\] Alt text: Open planning item in execution app from Prioritization page.
 
--   **Personalize the Prioritization page view**
+-   **Personalize the Prioritization tab view**
 
-    Change the way that the Prioritization page is displayed so that you can view the information in the format that you need. See [Personalizing Prioritization page views in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalizing-prioritization-page-views-in-portfolio-planning-workspace.md).
+    Change the way that the Prioritization tab is displayed so that you can view the information in the format that you need. See [Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/personalizing-prioritization-page-views-in-portfolio-planning-workspace.md).
 
     All settings, such as row and column personalization, grouping, and sorting, are saved as the portfolio plan preferences. So, these settings are applied to all the users or user groups that the portfolio plan is shared with.
 

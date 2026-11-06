@@ -1,5 +1,5 @@
 ---
-title: Reuse existing evidence from the related items of an engagement
+title: Reuse evidence from related engagement items
 description: Inform the audit and compliance user about the evidences that are already existing for the related items of an engagement. You can add such an evidence, if it is already existing for any of the related item table of an engagement for which you are requesting an evidence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/request-evidence-existing-pc.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage evidence requests, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage evidence requests, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Reuse existing evidence from the related items of an engagement
+# Reuse evidence from related engagement items
 
 Inform the audit and compliance user about the evidences that are already existing for the related items of an engagement. You can add such an evidence, if it is already existing for any of the related item table of an engagement for which you are requesting an evidence.
 

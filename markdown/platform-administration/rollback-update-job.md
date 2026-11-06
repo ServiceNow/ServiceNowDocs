@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/rollback-update-job.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Update records safely, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Updating records safely in Core UI, Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Rollback an update job
@@ -37,5 +37,5 @@ If you want to revert the updates to records made through an update job, execute
 
 The rollback job is executed immediately and the updated records are reverted to their prior versions. If you want to update the records again, create an update job using the same conditions, and then schedule the update job or execute it immediately.
 
-**Parent Topic:**[Updating records safely](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/updating-records-safely.md)
+**Parent Topic:**[Updating records safely in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/updating-records-safely.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -36,4 +36,6 @@ Role required: Owner of the knowledge base, knowledge\_manager, knowledge\_admin
     -   If you are a knowledge administrator, you can view the feedback tasks and task metrics of articles in the knowledge bases. If you are a knowledge owner or knowledge manager, you can view feedback tasks and task metrics of all articles in the knowledge bases you own or manage.
     -   You may need to configure the form to add **Knowledge Feedback Task Metrics** in the related list section. For more information, see [Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md).
     -   The feedback task state is unaffected by changes in the article state. Therefore, when the article is retired, the feedback owner or group assigned to the feedback task has to close or resolve the feedback task.
+
+**Parent Topic:**[Using Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/using-knowledge-management.md)
 

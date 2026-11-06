@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-04-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Manager Hub, Manager Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Use the Employee Summary Virtual Agent topic in Manager Hub
@@ -31,7 +31,7 @@ The following plugins are optional:
 -   Manager Hub \(sn\_mh\)
 -   Employee Goals \(sn\_egd\_goals\)
 
-Role required: admin
+Role required: sn\_mh.admin
 
 ## Procedure
 

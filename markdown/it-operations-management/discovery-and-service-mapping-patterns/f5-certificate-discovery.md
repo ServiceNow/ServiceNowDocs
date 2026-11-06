@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-10-26"
 reading_time_minutes: 3
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # F5 certificate discovery
@@ -22,7 +22,7 @@ The **The F5-SSH-SSL Certification** pattern extension is part of the **F5 load 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 For details on system requirements and family compatibility, view the application listing on the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
@@ -39,12 +39,16 @@ For details on system requirements and family compatibility, view the applicatio
 -   **Verify the applications are up to date**
     -   Discovery and Service Mapping Patterns
     -   CMDB CI Class Models
+-   **Verify the Terminal Access setting for the Discovery SSH account**
+
+    The Discovery SSH account on the F5 appliance must have **Terminal Access** set to **TMSH**.
+
 -   **Verify the configuration of F5 load balancer**
-    -   Ensure that F5 load balancer instances are up and running.
+    -   Verify that F5 load balancer instances are up and running.
     -   Make sure the host \(that has the F5 instance running on it\) can discover successfully with the Discovery user credentials.
 -   **Verify the configuration of Discovery**
 
-    Ensure that the Discovery user added in the ServiceNow AI Platform instance can run the following commands:
+    Verify that the Discovery user added in the ServiceNow AI Platform instance can run the following commands:
 
 <table id="table_h4p_1p3_2nb"><thead><tr><th>
 
@@ -141,5 +145,5 @@ The discovered data includes the following tables and fields.
 
 The **The F5-SSH-SSL Certification** pattern extension does not create any CI relationships.
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

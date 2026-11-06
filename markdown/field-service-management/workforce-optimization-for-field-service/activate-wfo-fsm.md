@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring Workforce Optimization for Field Service, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
 
 # Activate Workforce Optimization for Field Service
@@ -18,7 +18,7 @@ You can activate the Workforce Optimization for Field Service plugin \(com.snc.a
 
 ## Before you begin
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Workforce Optimization for Field Service solution is highly modular, offering a wide range of capabilities such as Scheduling, Coaching, and Teams applications in Field Service Manager Workspace. Workforce Optimization for Field Service \(com.snc.app\_fsm\_wfo\) plugin activates all other dependent plugins to enable users to the Scheduling, Coaching, and Teams applications in Workforce Optimization for Field Service.
 
@@ -27,19 +27,19 @@ Workforce Optimization for Field Service requires the following ServiceNow Store
 -   **Required ServiceNow Store applications to use in Field Service Manager Workspace**
     -   **Shift Scheduling for Field Service \(com.snc.sn\_fsm\_shift\_schdl\)**
 
-        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+        Integrate the agent shift scheduling functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Team Management for Field Service \(com.snc.sn\_fsm\_team\_mgmt \)**
 
-        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+        Implements team performance functionalities for Field Service Management Workforce Optimization. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Coaching \(com.sn\_coaching\)**
 
-        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+        Facilitates the coaching of employees on their work through the use of coaching opportunities that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     -   **Coaching with Learning \(com.sn\_coach\_learning\)**
 
-        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+        Coach employees on their work through the use of coaching opportunities, taking advantage of critical moments in a process, that can be conditionally configured. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 
 Role required: admin

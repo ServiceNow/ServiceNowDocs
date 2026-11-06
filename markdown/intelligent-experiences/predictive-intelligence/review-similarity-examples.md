@@ -1,54 +1,58 @@
 ---
 title: Review solution similarity examples
-description: Review the similarity examples and scores generated during solution training to determine if the similarity score threshold is sufficient.
+description: Review the similarity examples generated during solution training to determine whether the similarity score threshold meets your business requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/predictive-intelligence/review-similarity-examples.html
 release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View solution training progress, Creating and training solutions, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [View solution training progress, Creating and training solutions, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Review solution similarity examples
 
-Review the similarity examples and scores generated during solution training to determine if the similarity score threshold is sufficient.
+Review the similarity examples generated during solution training to determine whether the similarity score threshold meets your business requirements.
 
 ## Before you begin
 
 -   Train a similarity solution
--   Role required: admin or ml\_admin
+-   Role required: ml\_admin or admin
 
 ## About this task
 
-Solution training generates paired data record examples with a percentile score that represents the degree of similarity between the two records. The higher the score, the higher the similarity. A score of 100 indicates identical records and a score of 0 indicates dissimilar records.
+Solution training generates a set of paired record examples. Each pair includes a percentile score that estimates the degree of similarity between the two records. The higher the score, the higher the similarity, as follows:
 
-The solution only returns similarity results that have a score that's higher than the threshold.
+-   A score of 100 indicates identical records.
+-   A score of 0 indicates dissimilar records.
 
-**Note:** The similarity filters specified in the solution definition aren't applied for similarity examples and are only applied during prediction.
+A deployed solution returns records only when the score is higher than the **Similarity Score Threshold** value:
+
+-   The higher the threshold value, the higher the precision and the lower the coverage.
+-   The lower the threshold value, the lower the precision and the higher the coverage.
+
+On domain-separated instances, the following procedure displays records from all domains to ML admins. However, when solutions are applied in your forms and flows, similarity predictions are domain-aware. Examples from other domains on the instance are not displayed to users.
+
+**Note:** The similarity filters specified in the solution definition aren't applied for similarity examples and are applied only during prediction.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Predictive Intelligence** &gt; **Similarity** &gt; **Solutions**.
 
-2.  In the ML Solutions list, locate your solution and click the Reference Lookup icon.
+2.  In the ML Solutions list, locate your solution by filtering for the Solution Name, and open the active version.
 
-    \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Lookup icon
+3.  In the Related Links section of the form, select **Similarity Examples**.
 
-3.  Click **Open Record**.
+    A list of paired records opens on the Similarity Examples \(ml\_similarity\_example\) table. By default the rows are sorted by the **Similarity Score** column in descending order.
 
-4.  In the Related Links section, click **Similarity Examples**.
+4.  Review the similarity examples for accuracy and coverage.
 
-5.  Review the similarity examples and their threshold scores to determine the accuracy and coverage levels you want applied to your solution similarity results.
-
-    The higher the similarity score, the more precise it is and the less coverage it offers. The lower the similarity score, the more coverage it has and the less precision it offers.
-
-6.  Based on your review, determine whether to increase or decrease the similarity score threshold value for your similarity solution.
+    Based on your review, determine whether to increase or decrease the Similarity Score Threshold value of your solution.
 
 
 ## What to do next
 
-If you decide to adjust the score for your similarity solution, [update its similarity solution threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
+If you decide to adjust the Similarity Score Threshold for your similarity solution, see [update its similarity solution threshold](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/update-similarity-threshold.md).
 

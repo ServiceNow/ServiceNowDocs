@@ -1,24 +1,24 @@
 ---
-title: Change Authenticator app
-description: Generate a new code to change the Authenticator app on your device.
+title: Change an Authenticator app
+description: Generate a new code to change an Authenticator app on your device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/change-authenticator-app.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authenticator applications, Using MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Change Authenticator app
+# Change an Authenticator app
 
-Generate a new code to change the Authenticator app on your device.
+Generate a new code to change an Authenticator app on your device.
 
 ## Before you begin
 
-You must have multi-factor authentication enabled for your profile. You can enable it yourself on your user profile or your administrator can enable it for you.
+You must have MFA enabled for your profile. You can enable it yourself on your user profile or your administrator can enable it for you.
 
 Role required: none
 
@@ -26,15 +26,15 @@ Role required: none
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **My Profile**.
 
-    **Note:** You can also access your profile by clicking on your user name in the instance header.
+    **Note:** You can also access your profile by selecting your user name in the instance header.
 
-2.  In your user profile, click **Muti-factor Authentication** in the **Related Links** section.
+2.  In your user profile, select **Multi-factor Authentication** in the **Related Links** section.
 
 3.  Under **Authenticator app**, select the edit icon.
 
     \[Omitted image "manage-authenticator-app.png"\] Alt text: Manage Authenticator
 
-4.  In the Change authenticator code window, click **Change**.
+4.  In the Change authenticator code window, select **Change**.
 
 5.  Follow the directions on the screen to register the authenticator app with the device.
 

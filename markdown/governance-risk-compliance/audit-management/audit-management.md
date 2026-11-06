@@ -7,7 +7,7 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
@@ -37,6 +37,9 @@ Auditors are responsible for the following:
 \[Omitted image "mmasset0021307-audit-servicenow-solution-horizontal.png"\] Alt text: Audit Management and the ServiceNow AI Platform
 
 **Note:** For more information on the GRC application nomenclature and industry terminology, see [Governance, Risk, and Compliance application nomenclature updates and industry terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-terms.md).
+
+-   **[Audit entry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/audit-entry-overview.md)**  
+The audit entry field marks a record as third-line, restricting its visibility to users who hold the third-line manager role. Third-line records are excluded from the views and calculations that second-line users rely on.
 
 **Parent Topic:**[Audit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/c_GRCAudits.md)
 

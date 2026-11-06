@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-configuring-va.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enable communication channels, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Enable communication channels, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure Virtual Agent for Public Sector Digital Services
@@ -20,7 +20,7 @@ Set up ServiceNow® Virtual Agent so that conversation designers \(topic authors
 
 As admins or topic authors \(users with the virtual\_agent\_admin role\), you can do the following with Virtual Agent:
 
--   Use prebuilt conversations and topic blocks \(components that run subflows or common functions in a conversation\). Prebuilt conversations and topic blocks are available with the Virtual Agent platform, Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\), and Service Request Playbook application. Prebuilt Public Sector topic blocks are available with the Public Sector Digital Services Core application.
+-   Use prebuilt conversations and topic blocks \(components that run subflows or common functions in a conversation\). Prebuilt conversations and topic blocks are available with the Virtual Agent platform, Customer Service Virtual Agent Conversations plugin \(com.sn\_csm.virtualagent\), and Service Request Administration application. Prebuilt Public Sector topic blocks are available with the Public Sector Digital Services Core application.
 -   Build your own custom, public sector conversation topics. You can duplicate prebuilt topics and topic blocks and then customize them as needed.
 
 Before you or your topic authors \(users with the virtual\_agent\_admin role\) create or modify Virtual Agent conversations, meet the following prerequisites for working with prebuilt topics and topic blocks in Virtual Agent Designer:
@@ -29,12 +29,12 @@ Before you or your topic authors \(users with the virtual\_agent\_admin role\) c
 -   [Activate the Customer Service Virtual Agent plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/activate-virtual-agent-csm.md) \(com.sn\_csm.virtualagent\) to access prebuilt Customer Service Management conversations and topic blocks.
 -   [Become familiar with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md) to create and update conversation topics.
 -   [Install Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-public-sector-digital-services-core.md) application to access public sector topic blocks that can be used in public sector conversations.
--   [Install Service Request Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-service-request-playbook.md) to access the prebuilt topic, **Create a Service Request**.
--   [Install License and Permit Playbook for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-license-permit-request-playbook.md) to access the prebuilt topic, **Start a License/Permit Application**.
+-   [Install Service Request Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-service-request-playbook.md) to access the prebuilt topic, **Create a Service Request**.
+-   [Install License and Permit Administration for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/install-psds-license-permit-request-playbook.md) to access the prebuilt topic, **Start a License/Permit Application**.
 
 ## Configure Virtual Agent conversations for public sector users
 
-As admins or topic authors \(users with the virtual\_agent\_admin role\), you can deploy prebuilt conversation topics to your end users, such as the **Create a Service Request** topic provided with the Service Request Playbook application, as well as custom conversation topics that you create.
+As admins or topic authors \(users with the virtual\_agent\_admin role\), you can deploy prebuilt conversation topics to your end users, such as the **Create a Service Request** topic provided with the Service Request Administration application, as well as custom conversation topics that you create.
 
 These blocks are subflows that run conversational elements or common tasks in a conversation, such as adding or retrieving records. Topic blocks enable topic authors to add standard functions to Virtual Agent conversations, simplifying conversation design and maintenance.
 
@@ -42,8 +42,8 @@ These blocks are subflows that run conversational elements or common tasks in a 
     1.  Navigate to **All** &gt;**Service Portal** &gt;**Agent Chat**.
     2.  Locate **GSP Chat**, and select the check box to set the record to **Active**.
 2.  In Virtual Agent Designer, search for the corresponding topic block.
-    -   For Service Request Playbook requests, search for and select **Create a Service Request**.
-    -   For License and Permit Playbook requests, search for and select **Start a License/Permit Application**. For more information, see [Configuring Virtual Agent for License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-lpr-configure-va.md).
+    -   For Service Request Administration requests, search for and select **Create a Service Request**.
+    -   For License and Permit Administration requests, search for and select **Start a License/Permit Application**. For more information, see [Configure Virtual Agent for License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-lpr-configure-va.md).
 3.  Select **Publish** to set the topic block to Active and make it available to your end users. For more information on creating and publishing Virtual Agent topics, see [Publish a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/publish-virtual-agent-topic.md).
 
 For more information on working with topics in Virtual Agent Designer, see [Getting Started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md).
@@ -59,13 +59,9 @@ The Public Sector Digital Services Core application provides several base system
 
     Use this topic block in a conversation to ask constituents to select a service from a list of available government services, for example permits or licenses. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
 
-    \[Omitted image "prompt-service-example.png"\] Alt text: Virtual agent conversation window showing the available prompts that can be used with the virtual agent Constituent topic block.
-
 -   **Create Public Sector Additional Members topic block**
 
     Use this topic block to let your constituents specify other people, such as family members or other authorized individuals, who can view a case or issue. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
-
-    \[Omitted image "additional-members-example.png"\] Alt text: Now Support chat showing the workflow for adding members to a government service case using Virtual Agent chat prompts.
 
     When you use this topic block in a conversation, you specify the input parameters from the originating \(calling\) topic to the topic block.
 

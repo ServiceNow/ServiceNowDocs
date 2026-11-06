@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Defining fiscal calendars, Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Defining fiscal calendars, Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Generate a fiscal calendar
@@ -31,8 +31,6 @@ Role required: fiscal\_calendar\_admin
 1.  Navigate to **All** &gt; **Fiscal Calendar** &gt; **Generate**
 
 2.  In the **Fiscal Calendar Types** section, select the type of fiscal year calendar.
-
-    \[Omitted image "fiscal\_calendar.png"\] Alt text: The Fiscal Calendar form
 
 3.  In the **Fiscal Calendar Configuration** section, fill in the fields.
 
@@ -111,7 +109,7 @@ Prefix for Month/Period
 Prefix that the application uses in the name of the records that represent the month or period.
 
 </td></tr></tbody>
-</table>4.  Click **Generate Calendar**.
+</table>4.  Select **Generate Calendar**.
 
 5.  Navigate to **System Definition** &gt; **Fiscal Periods** and verify that the monthly, quarterly, and annual fiscal period records exist.
 

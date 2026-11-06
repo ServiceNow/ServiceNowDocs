@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ui-components-under-business-location-360.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Using Business Location 360, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Business Location 360, Manage cases, Use, Customer Service Management]
 ---
 
 # Business Location 360 components
@@ -145,10 +145,10 @@ The customer tab component displays the list of consumers, accounts, and househo
 -   **Accounts** tab. Displays all the accounts or a filtered list of accounts. This information is based on the supported accounts that are associated with the business location​.
 -   **Households** tab. Displays all the households or a filtered list of households. This information is based on the supported households that are associated with the business location​.
 
-    **Note:** You can access this component only after the Customer Service Household plugin \(com.snc.household\) is activated.
+    **Note:** You can access this component only after the Customer Household Data Model plugin \(com.snc.household\) is activated.
 
--   **Internal Business Locations** tab. Displays all the internal business locations or a filtered list of internal business locations. This information is based on the supported internal business locations that are associated with the business location​.
--   **External Business Locations** tab. Displays all the external business locations or a filtered list of external business locations. This information is based on the supported external business locations that are associated with the business location​.
+-   **Internal Organizations** tab. Displays all the internal organizationsor a filtered list of internal organizations. This information is based on the supported internal organizationsthat are associated with the business organizations​.
+-   **External Organizations** tab. Displays all the external organizations or a filtered list of external organizations. This information is based on the supported external organizations that are associated with the business organization​.
 
 The following example shows a list of the consumers that are associated with a business location.
 

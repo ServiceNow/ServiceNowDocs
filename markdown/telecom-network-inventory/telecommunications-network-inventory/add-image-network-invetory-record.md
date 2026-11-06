@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the geo map, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Geo map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
 # Add images to a network inventory record
@@ -56,7 +56,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent, sn\
 
 The image is added to the network inventory record.
 
-**Parent Topic:**[Using the geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
+**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 
 **Related topics**  
 

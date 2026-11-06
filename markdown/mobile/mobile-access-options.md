@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-access-options.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using the mobile apps, Mobile Platform]
 ---
@@ -14,9 +14,9 @@ breadcrumb: [Using the mobile apps, Mobile Platform]
 
 Access an instance from anywhere using your mobile device. Connect using the mobile app or a web browser on a mobile device.
 
-The updated mobile UI includes the new ServiceNow branding as well as an all new app.
+The mobile UI includes ServiceNow® branding.
 
-The mobile browser experience is consistent with the ServiceNow Classic mobile app.
+**Note:** The mobile browser experience is consistent with the ServiceNow Classic mobile app.
 
 -   **[Mobile web UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/c_MobileWebUI.md)**  
 Access an instance using the browser on your mobile device.

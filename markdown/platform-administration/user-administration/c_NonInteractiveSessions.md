@@ -7,7 +7,7 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Monitoring user activity, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -68,8 +68,8 @@ Non-interactive users can't log in to an instance or a service portal or connect
 
     **Note:**
 
-    -   The Web service access only check box is automatically enabled when you select **Machine** in the Identity type field. The Web service access only check box is automatically disabled when you select **Human** or **AI Agent**.
-    -   The ServiceNow platform uses any user name and password credentials supplied with a request even if the [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_HighSecuritySettings.md) don’t require authorization for a given API protocol. For example, if a SOAP request supplies a user name and password, the instance verifies those credentials even if SOAP requests don’t require authorization. To avoid verifying user credentials, the request must not include them.
+    The ServiceNow platform uses any user name and password credentials supplied with a request even if the [High Security Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_HighSecuritySettings.md) don’t require authorization for a given API protocol. For example, if a SOAP request supplies a user name and password, the instance verifies those credentials even if SOAP requests don’t require authorization. To avoid verifying user credentials, the request must not include them.
+
 
 ## Make a non-interactive user record interactive
 

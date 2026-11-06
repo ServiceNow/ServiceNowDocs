@@ -1,20 +1,20 @@
 ---
 title: Service Graph Connector for Wiz properties
-description: Service Graph Connector for Wiz properties control the behavior of the connector.
+description: Service Graph Connector properties control the behavior of connections.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-graph-connectors/sgc-cmdb-wiz-props.html
 release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2025-11-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Wiz, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Service Graph Connector for Wiz properties
 
-Service Graph Connector for Wiz properties control the behavior of the connector.
+Service Graph Connector properties control the behavior of connections.
 
 ## Connection properties
 

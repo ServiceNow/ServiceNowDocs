@@ -1,16 +1,16 @@
 ---
-title: Time series visualization type use cases
+title: Use cases for different time series visualization types
 description: Time series visualizations can emphasize the trend in the data or specific changes in the data. They can show one data source or compare several related data sources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/time-series-visualization-types.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Time series visualization type use cases
+# Use cases for different time series visualization types
 
 Time series visualizations can emphasize the trend in the data or specific changes in the data. They can show one data source or compare several related data sources.
 
@@ -40,7 +40,7 @@ Spline\[Omitted image "inline-data-vis-spline.png"\] Alt text: spline visualizat
 
 </td><td>
 
-Shows how one or more values change over time by connecting a series of data points with a fitted curve that emphasizes the trend over individual data points. Spline charts let you take a limited set of known data points and approximate intervening values.
+Shows how one or more values change over time by connecting a series of data points with a fitted curve that emphasizes the trend over individual data points. Spline visualizations let you take a limited set of known data points and approximate intervening values.
 
 </td></tr><tr><td>
 
@@ -83,5 +83,5 @@ Area\[Omitted image "inline-data-vis-area.png"\] Alt text: area visualization
 Resembles a line visualization, but the area between the axis and line is emphasized with colors. Use with multiple data sources to highlight the relative contribution that each data source makes to the whole.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

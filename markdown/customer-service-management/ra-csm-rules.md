@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-rules.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Rules in Recommended Actions
 
 A rule is a set of conditions that applies to a context. A rule shows recommendations to agents with certain roles for records that meet certain conditions.
+
+\[Omitted image "ra-rule.png"\] Alt text: Rule form in Recommended actions
 
 Creating a rule includes the following steps:
 

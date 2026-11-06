@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Use tags that help categorize and organize configuration items \(CIs\) in your o
 
 ## Before you begin
 
-Analyze, review, and define tags as covered in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/prepare-map-service-tag.md).
+Analyse, review, and define tags as covered in [Prepare for mapping application services based on tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/prepare-map-service-tag.md).
 
 Role required: service\_mapping\_admin
 
@@ -26,7 +26,7 @@ Role required: service\_mapping\_admin
 
 A tag is a label that consists of a key-value pair. Your organization may use tags to categorize its assets, to enhance query and reporting capabilities. Discovery and Cloud Provisioning and Governance can discover tags used by all major cloud providers and container ecosystems. Once the tags are discovered, Service Mapping can create service instances based on these tags. For example, you can use tags to map all application services your organization uses in the production environment in the EMEA region. You can effectively use tags to map multiple service instances.
 
-**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
+**Note:** Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 The result of the tag-based mapping is a hierarchical service map that may be less precise than the application service created using the patterns.
 
@@ -39,6 +39,8 @@ Service Mapping creates names for tag-based services using tag values discovered
 In domain-separated deployments, Service Mapping populates tag-based services based on this service family only with CIs belonging to the leaf domain to which the service family belongs.
 
 To map a single application service using tags without preliminary configuration, use the flow based on Common Service Data Model. For more information, see [Populate application services using tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/populate-app-service-tags.md).
+
+**Note:** Starting with version 1.15.2, there is a limit of 200 application service candidates per family.
 
 ## Procedure
 
@@ -147,7 +149,7 @@ Analyze, review, and define tags in your organization for successful mapping.
 
 [Application service analysis and maintenance using classic Service Mapping]()
 
-[Choose the right method for discovery and mapping application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/choose-mapping-method.md)
+[Choose the right method for discovering and mapping services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/choose-mapping-method.md)
 
 [Tag-based discovery configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag_discovery_configuration.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [DevOps test tool integration, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -22,7 +22,7 @@ For more information about the API, see [DevOps - POST /devops/tool/\{capability
 
 Role required: sn\_devops.admin
 
-You must make sure that the test type you want to use in the API is available as a test type in DevOps Change Velocity and that it is mapped with the respective orchestration tool.
+Make sure that the test type you want to use in the API is available as a test type in DevOps Change Velocity and mapped to the respective orchestration tool.
 
 1.  Navigate to **DevOps Change Workspace** &gt; **Administration** &gt; **Integrations** &gt; **Test types**.
 

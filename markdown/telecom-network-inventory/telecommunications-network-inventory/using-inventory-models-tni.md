@@ -1,24 +1,24 @@
 ---
 title: Network inventory models
-description: You define an inventory model in the Telecommunications Network Inventory application so that you can track the technical information from the manufacturer about a network asset such as the telco equipment or a network interface.
+description: You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer. This information relates to a network asset, such as telco equipment or a network interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.html
 release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Modeling your Telecommunications Network Inventory workflow, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # Network inventory models
 
-You define an inventory model in the Telecommunications Network Inventory application so that you can track the technical information from the manufacturer about a network asset such as the telco equipment or a network interface.
+You define an inventory model in the Telecommunications Network Inventory application to track technical information from the manufacturer. This information relates to a network asset, such as telco equipment or a network interface.
 
 ## Inventory models overview
 
-A network inventory model contains the assets, services, and the relationships that define the infrastructure of your telecommunications networks. An inventory model contains the metadata for the name, number, dimensions, compatible interface cards, and configurations from the manufacturer. When you instantiate an inventory record by using the design and assign function, your inventory record contains this standard manufacturer information. To learn more about how to create an inventory model record, see [Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
+A network inventory model contains the assets, services, and the relationships that define the infrastructure of your telecommunications networks. An inventory model contains the metadata for the name, number, dimensions, compatible interface cards, and configurations from the manufacturer. When you instantiate an inventory record by using the design and assign function, your inventory record contains this standard manufacturer information. To learn more about how to create an inventory model record, see [Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md).
 
 After you create the inventory models, you can then define the relationships between the various network model entities. You can also define the compatibility between these entities. To learn more about model relationships, see [Network model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-inventory-models-tni.md).
 
@@ -181,7 +181,7 @@ When setting up model relationships, you select one of the following options in 
     -   The **Parent product model** field shows a list of all the logical connection models.
     -   The **Child product model** field shows a list of all the channel models that have **Behaviour** as **Channel**.
 
-To learn more about how to model your network inventory relationships, see [Modeling your network inventory relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
+To learn more about how to model your network inventory relationships, see [Model relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-modeling-process.md).
 
 ## Accessing Inventory Model forms
 

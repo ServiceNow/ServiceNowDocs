@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 21
-breadcrumb: [Explore CMDB Workspace, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [Explore, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Home view in CMDB Workspace
@@ -22,113 +22,34 @@ Role requirements: sn\_cmdb\_admin \(CMDB Admin\), sn\_cmdb\_editor \(CMDB Edito
 
 To access the Home view, navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Home** in the CMDB Workspace menu bar.
 
-## ServiceNow Otto for CMDB
+## Product highlights
 
-Select the Now Assist icon \[Omitted image "ai-sparkle-cmdb.png"\] Alt text: to access ServiceNow Otto for CMDB skills, agents, and agentic workflows.
+-   **CMDB success advisor**
+
+    Drive business outcomes by establishing trust in CMDB data across your targeted IT workflows.
+
+-   **Explore &amp; Search CMDB**
+
+    Explore and Search data in CMDB using a new and improved AI-enabled search.
+
+-   **Data Owner View**
+
+    Use a central location to view health, related activity, and access authorized actions for all the data that you own or manage.
+
+-   **Insight View**
+
+    View insightful dashboards that show aggregated counts, state, and health for key features such as CMDB Health, Service Instances, and CMDB 360.
+
+-   **Dynamic IRE**
+
+    Use dynamic IRE to eliminate the need to create and manage custom static IRE rules, improve CI compression rate, and reduce dedeuplication.
+
+
+## ServiceNow Otto® for CMDB
+
+Select the ServiceNow Otto® icon to access ServiceNow Otto® for CMDB skills, agents, and agentic workflows.
 
 For more information, see [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md).
-
-## Intelligent Search
-
-Accessible to: CMDB Admin, CMDB Editor, CMDB User.
-
-Lets you use Natural Language Query \(NLQ\) search capabilities provided by [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md). Use the input field to construct a search string using everyday language. As you type, a dynamic list of relevant suggestions appears, with items matching single words or part phrases in the typed-in text, such as table names.
-
-You can:
-
--   Select **Search tips** to see tips about constructing search strings. See details about the usage, examples for single and multi-table search, advanced filtering, and relationships in Intelligent Search.
--   Select **Search** to either run the query if the search string is already fully converted into a valid CMDB query, or to open the Refine your query dialog box.
-    -   If the search string has no ambiguities with the table name or relationships, then the query runs and the results appear in a list view format.
-
-        Only the first 100 results of the query appear in the results pane.
-
-        -   Select **Load More Results** to view the next set of 100 results.
-        -   Select **Load All Results** to view the rest of the query results, up to the number specified by the [glide.cmdb.query.max\_results\_limit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-querybldr-sysproprties.md) system property \(10,000 by default\).
-        If the constructed CMDB query contains more than a single table, then the **View in Query Builder** button appears. Select the button to open the [CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md) with your query fully constructed on the Query Builder canvas. You can use the Query Builder to continue editing the query.
-
-    -   If there are any ambiguities with table names or relationship types in the search string, then the search string can't be converted into a valid CMDB query. In this case, the Refine your query dialog box appears letting you select from suggested CI classes and continue to parse your search string into a valid CMDB query. Those suggested CI classes are based on phrases in your search string. Use the drop-down lists to select the CI classes that match your intended search and then select **View search results** to run the query.
-    -   If Intelligent Search is unable to convert your search string into a valid CMDB query, then selecting **Search** doesn't generate any query results. Instead, a feedback form appears. Fill out the form and select **Submit Feedback** to record your feedback for your CMDB Admin to review.
--   Use the Sample searches list to get you started in running a pre-defined search. This list consists of more common searches, or searches that are more difficult to construct such as searches that involve application services.
--   Use the Your recent searches list to rerun a previous search.
--   Select **Results Feedback** to submit feedback on the search results for your CMDB Admin to review.
-
-For more details about using NLQ with Intelligent Search, see [Intelligent Search for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/intelligent-search-cmdb.md).
-
-Alternatively, you can select **Use conditional search instead** to use a basic [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/using-condition-builder-in-reference-lists.md) functionality where you can specify conditions to search for CIs of a specific class.
-
-You can:
-
--   Select **New condition set** to add a condition phrase.
--   Select **Related List Condition** to [add a condition phrase for related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-related-list-query.md).
--   Select **Search** to search through the CMDB.
--   Add and then adjust the **sn\_cmdb\_ws.list.record\_count\_limit** system property to limit the record count summation and so to minimize the performance impact of that operation. The record count shows on the Conditional search page, for example, above the results list. For more information about adding and modifying that system property, see [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
-
-In the results list, select a CI to see its details.
-
-<table id="table_tdz_dnw_v5b"><thead><tr><th>
-
-UI activity
-
-</th><th>
-
-Additional requirements
-
-</th></tr></thead><tbody><tr><td>
-
--   Mapped Application Service
--   Application Service
--   Application Service Group
--   Dynamic CI Group
--   Tag Based Service
-
-</td><td>
-
-app\_service\_user role
-
-</td></tr><tr><td>
-
--   Business Service
--   Technical Service
--   Application Service Outage
-
-</td><td>
-
-service\_viewer role
-
-</td></tr></tbody>
-</table>## Important actions
-
-Accessible to: CMDB Admin and CMDB Editor.
-
-Important actions of various categories that require your attention or action. There are several task categories such as:
-
--   Health tasks generated by [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md): In health-related cards, such as Duplicate CIs, Orphan CIs, stale CIs, and De-Duplication tasks, select **View CIs** or **View Tasks** to show the list of associated CIs or important tasks.In the CI list view page, you can select **CMDB Health Dashboard** to open the CMDB Health dashboard. In de-duplication-related cards generated by [IRE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md), you can access the De-duplication dashboard and de-duplication libraries, to remediate de-duplication tasks in bulk.
--   Data attestation and life cycle approval tasks generated by the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md): In data attestation-related cards, such as Reassignment Requests and Unassigned Overdue cards, select **View Tasks** to drill down to the associated important tasks.
-
-Important actions are stored in the CMDB WS Imp Action Card Config \[sn\_cmdb\_ws\_imp\_action\_card\_config\] table that is accessible for editing only to users with the sn\_cmdb\_admin role. Authorized users can modify attributes of an important action such as **Active** and **Filter conditions**, but can't modify the **Type**, **Persona**, and **Table** attributes.
-
--   Important action cards show per the logged in user role, as specified in the CMDB WS Imp Action Card Config \[sn\_cmdb\_ws\_imp\_action\_card\_config\] table.
--   A card appears only if there is at least one record that meets the card's filter condition.
--   If you drill down a Health-related card and modify an associated CI, any resulting impact to health KPIs might appear only after the next cycle of the [CMDB Health dashboard jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_EnableCMDBHealthDashboardJob.md).
-
-For information about managing the cards in the Important actions tile, see [Modify important actions on the Home view of CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-edit-imp-action.md).
-
-## What's new
-
-Accessible to: CMDB Admin, CMDB Editor, CMDB User.
-
-Counts of newly created CIs within a recent time interval. The New CIs total counts all CI types including applications, hardware, and application services, which also appear in separate cards in the tile. By default, historical data is aggregated for the **Last 24 hours**, which you can set to a different time interval such as **Last 7 days**.
-
-Select a card to drill down to a Performance Analytics KPI Details pane that shows the trend for the respective item.
-
-Counts in the What's new cards are based on the following tables:
-
-|Count|Table|
-|-----|-----|
-|New CIs|Configuration Item \[cmdb\_ci\]|
-|New application|Application \[cmdb\_ci\_appl\]|
-|New hardware|Hardware \[cmdb\_ci\_hardware\]|
-|New application services|Service Instance \[cmdb\_ci\_service\_auto\]|
 
 ## CI overview
 
@@ -141,9 +62,9 @@ The following tabs provide summaries about CIs:
     A chart of all CIs in the CMDB, grouped by up to 20 CMDB groups. The CMDB groups in the chart are specified as groups of closely-related classes. On this chart, you can:
 
     -   Select a bar to drill down to the classes in the group and their CIs.
-    -   Drill down a CI to show the the CI form with a timeline, health overview, and several types of attributes such as key and discovery attributes.
+    -   Drill down a CI to show the CI form with a timeline, health overview, and several types of attributes such as key and discovery attributes.
     -   Drill down a class to access the Create CI experience to create a new CI in the selected class. For more information about the Create CI experience which applies Identification and Reconciliation Engine \(IRE\) processes, see [Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md).
-    -   Add custom class groups by creating [CMDB groups]() with the following settings:
+    -   Add custom class groups by creating [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md) with the following settings:
 
         -   Group type is set to 'CMDB Workspace'.
         -   Populated by encoded queries.
@@ -177,15 +98,15 @@ The following tabs provide summaries about CIs:
     -   The Logical Datacenter \[cmdb\_ci\_logical\_datacenter\] table must contain at least one record for a cloud datacenter.
     -   The Datacenter Types \[sn\_cmdb\_ws\_datacenter\_type\] table must contain at least one record for a datacenter that is classified as cloud storage in the organization. In the base system, this table is pre-populated with several records for common cloud services such as the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\] class. The chart calculates and shows data only for cloud services for which there's a record in the Datacenter Types \[sn\_cmdb\_ws\_datacenter\_type\] table.
 
-        For details about adding datacenters in your organization, with the cloud or non-cloud classification, see [Configure datacenters for the Cloud vs Non-cloud resources chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md).
+        For details about adding datacenters in your organization, with the cloud or non-cloud classification, see [Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.md).
 
     The following cloud vs Non-cloud charts are available:
 
     -   CI classes bar chart:
 
-        Each bar in the CI classes chart represents a pair of a CI class and a storage type \(cloud, non-cloud\), such as the bar for Applications/Cloud. For each bar, there's a scheduled job that runs every 24 hours to collect and calculate the data for the bar. The running time depends on the amount and complexity of the data that a job collects, which can be different for each scheduled job. Also, the schedules of the jobs are staggered so that they don't all run at the same time and exhaust resources. For details about the class-specific criteria used for the chart calculations, see [Class-specific criteria for the Cloud vs Non-cloud resources chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/criteria-cloud-resources-chart.md).
+        Each bar in the CI classes chart represents a pair of a CI class and a storage type \(cloud, non-cloud\), such as the bar for Applications/Cloud. For each bar, there's a scheduled job that runs every 24 hours to collect and calculate the data for the bar. The running time depends on the amount and complexity of the data that a job collects, which can be different for each scheduled job. Also, the schedules of the jobs are staggered so that they don't all run at the same time and exhaust resources. For details about the class-specific criteria used for the chart calculations, see [Class criteria in Cloud vs Non-cloud resources chart in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/criteria-cloud-resources-chart.md).
 
-        If there’s a CI class/type pair that isn't important in the organization, you can exclude that pair from the CI classes chart. For more details, see [Configure CI classes for the Cloud vs Non-cloud resources chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
+        If there’s a CI class/type pair that isn't important in the organization, you can exclude that pair from the CI classes chart. For more details, see [Configure classes for Cloud vs Non-cloud resources in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.md).
 
         On the CI classes chart, you can:
 
@@ -193,11 +114,11 @@ The following tabs provide summaries about CIs:
 
             -   **Cloud vs Non-cloud CIs**
 
-                Shows a bar chart for CIs stored on a cloud service and those CIs that aren't, per CI class. For each CI class, select the cloud or the non-cloud bar to show the CIs that are associated with the selected bar, in a list view. You can then select a CI from the list to see its details.
+                Shows a bar chart for CIs stored on a cloud service and those CIs that aren't, per CI class. For each CI class, select the cloud or the non-cloud bar to show the CIs that are associated with the selected bar, in a list view. You can then select a CI to see its details.
 
             -   **CI Classes by Cloud Providers**
 
-                Pie charts per CI class with more granular details for those CIs that are hosted on cloud providers. Pie slices have randomly-selected colors, and they show a breakdown by cloud providers for various CI classes. For each pie, select a slice to show the CIs that are associated with the pie slice, in a list view. You can then select a CI from the list to see its details.
+                Pie charts per CI class with more granular details for those CIs that are hosted on cloud providers. Pie slices have randomly-selected colors, and they show a breakdown by cloud providers for various CI classes. For each pie, select a slice to show the CIs that are associated with the pie slice, in a list view. You can then select a CI to see its details.
 
         -   Select **Latest updates** to see updated status for the scheduled jobs that produce the data for the chart. Status is color-coded to indicate whether the job has completed successfully \(green\), or failed to complete \(red\).
 
@@ -252,7 +173,7 @@ Select **Open tasks** and **Overdue tasks** to review and process the tasks.
 
 Accessible to: CMDB Admin, CMDB Editor, CMDB User.
 
-KPIs health scores calculated by CMDB Health for CIs. Select a percentage number for a KPI to navigate to the KPIs tile on the CMDB Health dashboard.
+KPIs health scores calculated by CMDB Health for CIs. Select a percentage number for a KPI to navigate to the KPIs tile on the CMDB Health Dashboard.
 
 For more information, see [CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealth.md), [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
@@ -270,9 +191,9 @@ CMDB Health
 
 </td><td>
 
-asset or itil role
+asset, sn\_cmdb\_editor, or itil role
 
- [Set up and configure CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md)
+ [Configuring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthSetupandConfig.md)
 
 </td></tr></tbody>
 </table>## Quick links
@@ -282,12 +203,13 @@ A list of links to key CMDB dashboards and tools. You can [add a link](https://r
 -   [Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/dependency-views/c_BusinesssServiceManagementMaps.md): Provides a graphic infrastructure view for a CI and any application or business services that it’s part of and that it supports.
 -   [Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md): Easily build complex infrastructure and service queries, that span multiple CMDB classes, non-CMDB tables, and that can involve many CIs that are connected by different relationships.
 -   [Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md): Centrally create, edit, review, publish, and track Data Manager policies and the tasks generated by the policies.
--   [CI Class List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/list-menu.md): List view of CMDB CIs grouped by common classes.
+-   CI Class List: List view of CMDB CIs grouped by common classes.
 -   [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/cmdb-workspace-unified-map.md): Graphical map showing the hierarchy of CIs and the relationships between them, and application services. Directly from the map, you can access attributes of CIs and relationships, and related items such as changes, incidents, and problems for a CI.
 -   [CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md): View CMDB Health reports and configure the CMDB health KPIs and metrics that CIs are evaluated by in CMDB Health dashboards.
--   [Relationship Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md): View the Relationship health dashboard with CMDB Health scores for CI relationship.
+-   [Relationship Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md): View the Relationship Health Dashboard with CMDB Health scores for CI relationship.
 -   [Create CI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md): Create a new CI while enforcing Identification and Reconciliation Engine \(IRE\) processes and other requirements that result in a valid and unique CI.
--   [Data Certification Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.md): View Data Certification instances, tasks, and status such as past due certification tasks. Drill down to specific tasks to reassign them for faster resolution.
+-   [Data Certification Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.md): View Data Certification instances, tasks and status such as past due certification tasks. Drill down to specific tasks to reassign them for faster resolution.
+-   [CMDB Coverage Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-coverage.md): Show details of CMDB discovery completeness by correlating IP addresses from IPAM systems with discovered configuration items \(CIs\).
 
 <table id="table_wks_yz3_krb"><thead><tr><th>
 
@@ -350,8 +272,8 @@ CMDB Admin, CMDB Editor, CMDB User
  
 
 </td></tr></tbody>
-</table>-   **[Cloud vs Non-cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-ci-overview-cloud.md)**  
+</table>-   **[Cloud vs Non-cloud resources chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-ci-overview-cloud.md)**  
 The Cloud vs Non-cloud resources chart appears on the Home view in CMDB Workspace.
 
-**Parent Topic:**[Explore CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
+**Parent Topic:**[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)
 

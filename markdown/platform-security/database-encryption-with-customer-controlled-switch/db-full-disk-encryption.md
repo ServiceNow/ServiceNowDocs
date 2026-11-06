@@ -7,7 +7,7 @@ release: yokohama
 product: Database Encryption with Customer Controlled Switch
 classification: database-encryption-with-customer-controlled-switch
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Encryption]
 ---
@@ -20,19 +20,19 @@ ServiceNow® offers database encryption \(DBE\) and full-disk encryption methods
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/explore-database-encryption.md)
+[Explore\[Omitted image "icon-explore.png"\] Alt text: Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/explore-database-encryption.md)
 
  [Learn the key features and business value of Database Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/explore-database-encryption.md)
 
 </td><td>
 
-[Request\[Omitted image "icon-workspace.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.md)
+[Request\[Omitted image "icon-workspace.png"\] Alt text: Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.md)
 
  [Learn more about how to request database key rotation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/request-dbkek-rotation.md)
 
 </td><td>
 
-[Reference\[Omitted image "icon-reference.png"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.md)
+[Reference\[Omitted image "icon-reference.png"\] Alt text: Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/database-encryption-with-customer-controlled-switch/dbe-with-ccs.md)
 
  Database Encryption with Customer-Controlled Switch \(DBE-CCS\) is an encryption solution that encrypts all data-at-rest when not in use in the database.
 

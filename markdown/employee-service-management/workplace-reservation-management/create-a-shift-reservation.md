@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -24,15 +24,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_lfy_3zf_r4b"><thead><tr><th align="left" id="d458472e51">
+<table id="choicetable_lfy_3zf_r4b"><thead><tr><th align="left" id="d493658e51">
 
 Location
 
-</th><th align="left" id="d458472e54">
+</th><th align="left" id="d493658e54">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d458472e60">
+</th></tr></thead><tbody><tr><td id="d493658e60">
 
 **From application navigator**
 
@@ -40,7 +40,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d458472e81">
+</td></tr><tr><td id="d493658e81">
 
 **Employee Center**
 
@@ -144,23 +144,25 @@ Review your reservation details. To edit or cancel your reservations, see [Share
 
 [Create a reservation]()
 
+[Auto-resolve recurring reservations]()
+
 [Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Reserve a space near your colleague]()
 
-[Create neighborhood reservations]()
+[Create a multi-day reservation]()
 
 [Create multi-building reservations]()
 
-[Create a multi-day reservation]()
+[Create neighborhood reservations]()
 
 [Create reservation for multiple workplace items]()
 
-[Create a reservation along with a shared reservation]()
+[Enable shift-based reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Create a reservation along with a shared reservation]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -171,4 +173,6 @@ Review your reservation details. To edit or cancel your reservations, see [Share
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

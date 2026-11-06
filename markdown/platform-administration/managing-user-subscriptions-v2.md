@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/managing-user-subscriptions-v2.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,9 @@ Manage your per-user subscription allocations using Subscription Management.
 
 ## Overview of managing per-user subscriptions
 
-To successfully manage your per-user subscriptions, follow the process in this infographic.
+To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
+
+If you have manually allocated user-based subscriptions before, you can still make manual allocations. To manually allocate user-based subscriptions, follow the process in this infographic.
 
 \[Omitted image "mmasset0021657-subscription-management-workflow-manage-subscriptions-landing.png"\] Alt text: The usage administrator allocates subscriptions by adding groups, tracks usage, and monitors end dates prior to renewal.
 
@@ -47,13 +49,4 @@ Groups that you add to a product subscription are considered subscribed groups. 
 Roles that require a subscription are considered measured roles. Measured roles grant users access to an application and are categorized by the level of access they provide.
 
 When possible, simplify role administration by assigning measured roles to groups instead of assigning roles directly to individual users.
-
--   **[Allocate subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/allocate-subscriptions-v2.md)**  
-Give users entitlement to ServiceNow products by allocating subscriptions in Subscription Management.
--   **[Remove a group from a product subscription in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/remove-group-from-subscription-v2.md)**  
-Fix an over-allocated subscription and free up entitlements by removing a group from a product subscription in Subscription Management.
--   **[Maintain per-user subscription allocations in Subscription Management at renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/maintain-allocations-renewal.md)**  
-Ensure subscription allocations remain consistent throughout the renewal process.
-
-**Parent Topic:**[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/subscription-management-landing-page-v2.md)
 

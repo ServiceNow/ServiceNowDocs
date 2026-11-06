@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CMDB reference, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Quick start tests for Configuration Management Database \(CMDB\)
@@ -20,7 +20,7 @@ Configuration Management Database \(CMDB\) quick start tests require activating 
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|CMDB BSM: Dependency Views|Test functionality of Dependency Views APIs. These APIs retrieve Dependency Views map and associated map items such as context menu items, for a given CI sys\_id and using itil user role.|New York|
+|CMDB BSM: Dependency Views|Test functionality of Dependency Views APIs. These APIs retrieve Dependency Views map and associated map items such as context menu items, for a given CI sys\_id and using sn\_cmdb\_editor or itil user role.|New York|
 
 <table id="table_ipl_qdw_nhb"><thead><tr><th>
 
@@ -93,7 +93,7 @@ CMDB IRE: Reconciliation Rule
 
 </td><td>
 
-Check operations on a reconciliation rule, in CI Class Manager, using itil and itil\_admin roles. Operations include create, edit, and delete a reconciliation rule.
+Check operations on a reconciliation rule, in CI Class Manager, using sn\_cmdb\_editor, sn\_cmdb\_admin, itil, and itil\_admin roles. Operations include create, edit, and delete a reconciliation rule.
 
  Also, check for active and not active setting, and derived rules.
 
@@ -107,7 +107,7 @@ CMDB IRE: Identification Rule
 
 </td><td>
 
-Check operations on an identification rule, in CI Class Manager, using itil and itil\_admin roles. Operations include create, edit, and delete an identification rule.
+Check operations on an identification rule, in CI Class Manager, using sn\_cmdb\_editor, sn\_cmdb\_admin, itil, and itil\_admin roles. Operations include create, edit, and delete an identification rule.
 
  Also, check for active and not active setting, and derived rules.
 
@@ -123,8 +123,8 @@ Paris
 
 |Test|Description|Release version|
 |----|-----------|---------------|
-|CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using itil user role.|New York|
-|CMDB REL FORMATTER:Relationship Formatter|Check accuracy of CI information, relationship types, relationships, and associated records displayed for a specific CI in relationship formatter using itil user role.|New York|
+|CMDB REL EDITOR:Relationship Editor|Check addition of relations to a CI and deletion of relations from a CI using sn\_cmdb\_editor and itil user roles.|New York|
+|CMDB REL FORMATTER:Relationship Formatter|Check CI information, relationship types, relationships, associated records, and CMDB views displayed in relationship formatter using sn\_cmdb\_editor and itil user roles.|New York|
 
 |Test|Description|Release version|
 |----|-----------|---------------|

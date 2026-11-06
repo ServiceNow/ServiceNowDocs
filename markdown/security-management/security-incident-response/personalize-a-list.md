@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,11 +24,11 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **Workspaces** &gt; **Security Incident Response Workspace**.
 
-2.  Click **List View**.
+2.  Select **List View**.
 
-3.  Click **My Lists**.
+3.  Select **My Lists**.
 
-4.  Click **Add new list**, available at the bottom of **My Lists** view.
+4.  Select **Add new list**, available at the bottom of **My Lists** view.
 
     \[Omitted image "create-new-list.png"\] Alt text: New List view: Creating a new list from My Lists view.
 
@@ -36,7 +36,7 @@ Role required: sn\_si.analyst
 
 5.  **To create from an existing list view:**
 
-    1.  Click on **Start from existing** link.
+    1.  Select the **Start from existing** link.
 
     2.  Select the **List** from the drop-down list.
 
@@ -46,11 +46,11 @@ Role required: sn\_si.analyst
 
         Build a filter by adding conditions that contain a field, operator, and value\(s\).
 
-    4.  Click **Create**.
+    4.  Select **Create**.
 
         **Note:** To customize your own list view, you can add custom columns, filters, set conditions, sort by the order as required.
 
-    5.  After a personalized list view is created, then click on the gear icon and customize the list columns by choosing **Edit columns** option to edit the columns and put them in order that you prefer.
+    5.  After a personalized list view is created, then select the gear icon and customize the list columns by choosing **Edit columns** option to edit the columns and put them in order that you prefer.
 
         \[Omitted image "edit-columns.png"\] Alt text: Edit List view: Selecting columns that you want to display.
 
@@ -64,7 +64,7 @@ Role required: sn\_si.analyst
 
 6.  **To create your own list:**
 
-    1.  Click on **Create your own** link.
+    1.  Select the **Create your own** link.
 
     2.  Provide a **List Name**.
 
@@ -74,7 +74,7 @@ Role required: sn\_si.analyst
 
         Build a filter by adding conditions and provide the order in which the list should be appeared.
 
-    5.  Click **Create**.
+    5.  Select **Create**.
 
         \[Omitted image "create-your-list.png"\] Alt text: Create your personalized list view.
 

@@ -1,18 +1,18 @@
 ---
 title: Respond to a risk assessment
-description: Conduct risk assessments to assess risks in the ESG Management application.
+description: Conduct risk assessments to assess risks in the Operational Sustainability Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/respond-to-a-risk-asmt.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment, Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Respond to a risk assessment
 
-Conduct risk assessments to assess risks in the ESG Management application.
+Conduct risk assessments to assess risks in the Operational Sustainability Management application.
 
 ## Before you begin
 

@@ -1,20 +1,20 @@
 ---
 title: Define a breakdown source
-description: Specify a facts table to serve as a data source for breakdowns. Apply conditions to specify the elements for this breakdown source.
+description: Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/t\_DefiningABreakdownSource.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Breakdown sources, Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Breakdown sources, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Define a breakdown source
 
-Specify a facts table to serve as a data source for breakdowns. Apply conditions to specify the elements for this breakdown source.
+Specify a facts table to serve as a data source for breakdowns. External data is supported via Workflow Data Fabric tables. Apply conditions to specify the elements for this breakdown source.
 
 ## Before you begin
 
@@ -36,25 +36,25 @@ The breakdown source uses the following records from the Choice table:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Breakdown Sources** and click **New**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Breakdown Sources**.
 
-2.  Give the breakdown source a meaningful **Name**.
+2.  Select **New**.
 
-3.  Add a detailed **Description** to help others understand the use and purpose of this breakdown source and to help them avoid creating duplicates.
+3.  Give the breakdown source a meaningful **Name**.
 
-4.  For the **Facts Table**, select the table that the breakdown source gets elements from.
+4.  Add a detailed **Description** to help others understand the use and purpose of this breakdown source and to help them avoid creating duplicates.
+
+5.  For the **Facts Table**, select the table \(including database view or Workflow Data Fabric table\) that the breakdown source gets elements from.
 
     For example, for the breakdown source to specify user groups as elements, select **Group \[sys\_user\_group\]**.
 
-    **Warning:**
+    **Warning:** Do not change the facts table for a source after you have started collecting data. If you change the facts table, you lose all historical scores for the associated indicators at the next score collection.
 
-    -   You cannot use Workflow Data Fabric tables for a breakdown source.
-    -   Do not change the facts table for a source after you have started collecting data. If you change the facts table, you lose all historical scores for the associated indicators at the next score collection.
-5.  In the **Field** table, select a field that contains a unique value for every record.
+6.  In the **Field** table, select a field that contains a unique value for every record.
 
     This field is usually **Sys ID**.
 
-6.  Set the **Conditions** to filter out unneeded elements.
+7.  Set the **Conditions** to filter out unneeded elements.
 
     If you set Choice \[sys\_choice\] as the facts table, always filter on table, element, and language, and filter out inactive records. For example:
 
@@ -68,9 +68,9 @@ The breakdown source uses the following records from the Choice table:
 
     **\[Inactive\] \[is\] \[empty\]**
 
-7.  To see how many records match the selected conditions, click **Preview**.
+8.  To see how many records match the selected conditions, click **Preview**.
 
-8.  Define **RELATED LIST CONDITIONS** to include a relationship with another table in the filter.
+9.  Define **RELATED LIST CONDITIONS** to include a relationship with another table in the filter.
 
     For more information, see [Add related list conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-related-list-query.md).
 
@@ -82,13 +82,13 @@ The breakdown source uses the following records from the Choice table:
 
     \[Omitted image "bkdown-source-rel-list-cond.png"\] Alt text: Breakdown source with related list condition
 
-9.  In **Label for unmatched**, write a custom label to use when the value in a mapped field on an indicator source record does not match any elements on the breakdown source.
+10. In **Label for unmatched**, write a custom label to use when the value in a mapped field on an indicator source record does not match any elements on the breakdown source.
 
     The default label is **Unmatched**.
 
     The Incident.Category breakdown source references records on the Choices \[sys\_choices\] table where the value of the Table field is incident and the value of the Element field is category. The Category breakdown includes a mapping from the Incident.Category breakdown source to the Category field on the Incidents \[incident\] table. If an Incident record has a null value in the Category field, the value when you apply the Category breakdown to this record is **Unmatched**, by default.
 
-10. In the **Security** tab, set whether to exclude or include breakdown source elements by role based on element security lists.
+11. In the **Security** tab, set whether to exclude or include breakdown source elements by role based on element security lists.
 
     For more information, see [Define an elements security list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ControlAccessToABreakdown.md).
 

@@ -1,22 +1,22 @@
 ---
-title: Display and hide buttons in offline mode
+title: Display and hide functions in offline mode
 description: Define whether to show or hide buttons while users are in offline mode on their Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/buttons-offline.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure offline mode properties for action functions, Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Supported functions, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Display and hide buttons in offline mode
+# Display and hide functions in offline mode
 
 Define whether to show or hide buttons while users are in offline mode on their Mobile Agent app.
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## Procedure
 
@@ -42,6 +42,8 @@ Role required: admin
     -   For **Script**, enter a script in the text window that contains query conditions that are evaluated in offline mode.
 9.  Select **Submit** to save your display and hide button configurations.
 
+10. Complete the action function offline mode property fields as required, see [Configure offline mode properties for function instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/config-offline-property-function-instance.md).
 
-**Parent Topic:**[Configure offline mode properties for action functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/config-offline-properties-action-funct.md)
+
+**Parent Topic:**[Supported functions for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/functions-offline.md)
 

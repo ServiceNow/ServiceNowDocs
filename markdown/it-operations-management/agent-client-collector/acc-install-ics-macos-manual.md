@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Installing MID-less Agent Client Collector, Configuring MID-less Agent Client Collector, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Installing MID-less ACC, Configuring MID-less ACC, ACC deployment - endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Install MID-less Agent Client Collector manually in a macOS environment
@@ -25,7 +25,7 @@ Install MID-less Agent Client Collector manually on a macOS machine to enable se
 
 ## About this task
 
-For details on sending data through the cloud in a MID-less deployment, see [DEX Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dex-architecture.md).
+For details on sending data through the cloud in a MID-less deployment, see [DEX architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/digital-end-user-experience-dex/dex-architecture.md).
 
 ## Procedure
 

@@ -7,8 +7,8 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Manage Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -70,9 +70,6 @@ The system provides real-time status tracking of update operations, categorized 
 ## Result
 
 Entity-based restrictions are enabled or disabled at the record level for the scoped entity types.
-
--   **[Bulk access update configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/bulk-access-update-configuration-form.md)**  
-Use the Bulk access update configuration form to create a bulk configuration within the Entity Based Access application.
 
 **Parent Topic:**[Managing Entity Based Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/using-entity-based-access.md)
 

@@ -1,0 +1,134 @@
+---
+title: Create a demand
+description: Create demands to capture the strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-a-demand-ppw.html
+release: yokohama
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage demands, Use, Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Create a demand
+
+Create demands to capture the strategic and operational requirements and centralize information for stakeholder assessment and prioritization.
+
+## Before you begin
+
+Role required: it\_demand\_manager, it\_demand\_user
+
+## About this task
+
+By default, a new demand opens in its **Details** page. If you want your demands to land on a different page on creation, the related system property can be modified. See [Configure the landing page for created demand records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/configure-demand-record-landing-page-ppw.md).
+
+## Procedure
+
+1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
+
+2.  Select the Demands icon \[Omitted image "demands-icon.png"\].
+
+3.  Select **New**.
+
+4.  On the Demand form, fill in the fields.
+
+<table id="table_z3j_l11_h3c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Name
+
+</td><td>
+
+Name of the demand.
+
+</td></tr><tr><td>
+
+Demand experience
+
+</td><td>
+
+Demand experience to associate with this demand, which determines the demand's form view, the modules shown, and any dynamic attributes available. This is an optional field. If no value is selected in this field, the demand is displayed with the default form view and all modules.
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+Category of the demand.The available values are:
+
+-   Strategic: For demands for plans, such as projects or stories. These demands go through strategic evaluation and prioritization regardless of scope, from large initiatives, such as a project or epic, to smaller, well-defined changes, such as a story.
+-   Operational: For demands for operational work, such as changes or defects. These demands address business-as-usual work that doesn't require strategic evaluation or prioritization.
+
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+The **Category** field selection determines the selections available in the **Type** field.-   The following demand types are available if the demand category is Strategic:
+    -   Enhancement
+    -   Project
+    -   Epic
+    -   Story
+    -   EAP Epic
+    -   EAP Feature
+    -   EAP Capability
+    -   No Conversion
+-   The following demand types are available if the category is Operational:
+    -   Change
+    -   Defect
+    -   No Conversion
+For more information, see [Demand details form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-form-ppw.md).
+
+</td></tr><tr><td>
+
+Planned start date
+
+</td><td>
+
+The preliminary or estimated date when the work is initially planned to begin.
+
+</td></tr><tr><td>
+
+Planned end date
+
+</td><td>
+
+The preliminary or estimated date when the planned work is expected to be completed.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Description of the demand.
+
+</td></tr></tbody>
+</table>5.  Select **Create**.
+
+    The created demand opens in the **Details** page.
+
+    \[Omitted image "demand-details-landing.png"\] Alt text: Demand opens in the Details page.
+
+
+## What to do next
+
+Review and refine the demand details and progress the demand. See [Update demand details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-the-demand-details-ppw.md).
+
+**Related topics**  
+
+
+[Add dynamic attributes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dynamic-attributes-to-a-demand-ppw.md)
+

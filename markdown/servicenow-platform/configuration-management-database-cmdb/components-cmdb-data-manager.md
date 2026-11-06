@@ -1,28 +1,27 @@
 ---
 title: Components related to CMDB Data Manager
-description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace.
+description: The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspace and Service Graph Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components related to CMDB Data Manager
 
-The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager.Some of those, are installed with CMDB Workspace.
+The following scheduled jobs, tables, roles, and properties, are related to CMDB Data Manager. Some of those, are installed with CMDB Workspaceand Service Graph Workspace.
 
 ## System properties
 
-As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-exp-cmdb-workspace.md).
+As a Data Manager Administrator \(data\_manager\_admin\) you can view CMDB Data Manager properties in CMDB Workspace .
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
-2.  Select the **Data Manager** link in Management tools, in the Manage section.
-3.  Select **Settings** in the left navigation bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then select the **Data Manager** quick link in Management tools, in the Manage section.
+2.  Select **Settings** in the left navigation panel.
 
 <table id="table_w2w_tdx_npb"><thead><tr><th>
 
@@ -68,11 +67,16 @@ sn\_cmdb\_ws.cmdb.dm.policy\_types.due\_date\_notification
 
 </td><td>
 
-Notifications about certification and attestation incomplete tasks. When either is checked, the system notifies task owners as the due date for incomplete tasks is approaching. Notifications are sent when 50%, 70%, and 90% of the time to due date has passed. On the task due date, a past due notification is sent to the task owner and to the task owner's manager.
+Policy types that should receive notifications for approaching due date and for a breached due date.
 
- Upon closing a task, sending notifications stops.
+ Default value is "attestation,certification" in which case notifications about certification and attestation incomplete tasks are sent. When either is checked, the system notifies task owners as the due date for incomplete tasks is approaching. Notifications are sent when 50%, 70%, and 90% of the time to due date has passed. On the task due date, a past due notification is sent to the task owner and to the task owner's manager.
 
- For information about how the **Days to complete** setting is used to calculate when notifications are sent, see [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+ On closing a task, sending notifications stops.
+
+ For information about how the **Days to complete** setting is used to calculate when notifications are sent, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+
+ -   Type: string
+-   Default value: "attestation,certification"
 
 </td></tr><tr><td>
 
@@ -124,31 +128,26 @@ Number of days after which a task is considered stale and is set to **Closed Can
 
 </td></tr><tr><td>
 
-glide.cmdb.data\_manager.rejected.task.notification\_group
-
- Group to receive notifications for a rejected task
-
-</td><td>
-
-System identification of a user group to notify about tasks that are being rejected.
-
- By default, this property has no value, in which case, all data manager administrators are notified about rejected tasks.
-
- For information about reviewing and rejecting life-cycle tasks, where this property is being used, see [Review CMDB Data Manager tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md).
-
-</td></tr><tr><td>
-
 sn\_cmdb\_ws.glide.cmdb.data\_manager.rejected.task.notifications.group
 
  Group to receive notifications for a rejected task
 
 </td><td>
 
-System identifier of a user group to notify about tasks that are being rejected.
+System identifier of a user group to send notifications about tasks that are being rejected.
 
- By default, this property has no value, in which case, all data manager administrators are notified about rejected tasks.
+ By default, this property is empty, in which case, notifications are sent to users with the data\_manager\_admin role.
 
- For information about how this property is used when reviewing and rejecting life-cycle tasks, see [Review CMDB Data Manager tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md).
+ For information about how this property is used when reviewing and rejecting life-cycle tasks, see [Review CMDB Data Manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md).
+
+</td></tr><tr><td>
+
+cmdb.data.manager.stale.tasks.notifications.frequency
+
+</td><td>
+
+Number of days between notification reminders for stale tasks.-   Type: Integer
+-   Default value: 7
 
 </td></tr></tbody>
 </table>## Scheduled jobs
@@ -226,7 +225,9 @@ CMDB Data Management Policy Executions\[cmdb\_data\_management\_policy\_executio
 
 </td><td>
 
-Execution records that correspond to each policy run. As policies run according to their recurring schedule, for each run the system generates a record with a unique policy execution number for that run. A policy execution number has a prefix of 'PLCEXEC'.
+Execution records that correspond to each policy run. For each policy run, the system generates a record with a unique policy execution number for that run. A policy execution number has a prefix of 'PLCEXEC'.
+
+ The **Work Notes** and **Activities** fields in a policy record contain details about the outcome of the run. Information such as the number of CIs that weren't processed because they exist in other tasks, and access issues preventing processing of CIs. You can use this information to mitigate issues by for example, updating policy configurations or updating user permissions.
 
  Execution records associated with certification policy runs, are used for populating the Data Certification Dashboard.
 

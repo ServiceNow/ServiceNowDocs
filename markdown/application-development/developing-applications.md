@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/developing-applications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Classic app development, Building applications]
 ---
 
 # Developing your application
@@ -16,15 +16,15 @@ Build a custom application to meet the business needs of your organization. Choo
 
 <table id="table_y5t_rg5_gbc" class="nav-card"><tbody><tr><td>
 
-[Use AI capabilities in custom applications \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Enhance your custom app development and user experiences with generative and agentic AI capabilities to help drive efficiency and business outcomes.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/use-ai-capabilities-in-custom-apps.md)
+[Agentic development and Build Agent \[Omitted image "bus-ai-sparkle.svg"\] Alt text: Expedite app development and enhance custom applications with the AI tools available on the ServiceNow AI Platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-ai-workflow-factory-prime.md)
 
 </td><td>
 
-[Build no-code applications with Creator Studio\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Create and manage custom applications in a simple, no-code environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-no-code-applications.md)
+[Build no-code applications with Creator Studio\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Create and manage custom applications in a simple, no-code environment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-landing.md)
 
 </td><td>
 
-[Build low-code applications with App Engine \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Accelerate innovation with more creators and less complexity. Empower developers of all skill levels to build applications at scale.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-low-code-applications-with-app-engine.md)
+[Build low-code applications with App Engine Studio \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Accelerate innovation with more creators and less complexity. Empower developers of all skill levels to build applications at scale.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-overview.md)
 
 </td></tr><tr><td>
 
@@ -39,121 +39,94 @@ Build a custom application to meet the business needs of your organization. Choo
 [Builder library \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Choose a builder tool to quickly develop an application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/builder-library-table.md)
 
 </td></tr></tbody>
-</table>## Which builder should I use to create an app?
+</table>## Which app builder should I use?
 
-\[Omitted image "mmasset0020724-appengine-landing.svg"\] Alt text: Different builders available for different skill levels
+Use the following table to choose the app building experience that matches your role and technical background.
 
-**Want to build an app easily, without code?**
+<table id="app-builders-table"><thead><tr><th>
 
-Creator Studio specializes in helping you craft request-fulfillment applications without writing code. For example, an application to request office supplies by filling out a form, and someone approves or denies your request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md).
+Tool
 
-**Need a more general app but still want low-code options?**
+</th><th>
 
-App Engine Studio lets you build a broader range of apps than Creator Studio without being a programming pro. For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/exploring-aes.md).
+Users
 
-**Are you a developer who wants more control in a centralized user interface?**
+</th><th>
 
-Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+Features
 
-**Are you a developer who wants to use industry-standard development tools and processes?**
+</th></tr></thead><tbody><tr><td>
 
-The ServiceNow IDE and ServiceNow SDK support developing applications in source code with ServiceNow Fluent, creating JavaScript modules, and using third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code.
+Build Agent: Build an app using natural language prompts.
 
-The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK uses Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md).
+</td><td>
 
-## Use AI capabilities in custom applications
+Developers of all experience levels \(from low-code to Platform and source code\)
 
--   **[Generate apps with Now Assist for app generation within ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-app-gen-using-landing.md)**
+</td><td>
 
-    Create an application in ServiceNow Studio by having a conversation with Now Assist. Describe the app that you want to create and continue the conversation to refine and edit the app further.
+Build full-stack applications via a conversational interface.You can use Build Agent in ServiceNow Studio and the ServiceNow IDE to generate a complete ServiceNow scoped or global application. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md).
 
--   **[Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md)**
+</td></tr><tr><td>
 
-    Use app summarization to quickly review the contents of an application in ServiceNow Studio.
+ServiceNow Studio: Build and deliver apps in a unified environment.
 
--   **[Leverage AI agents and skills in custom applications with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
+</td><td>
 
-    Enhance App Engine applications with AI agents and skills using ServiceNow Otto for App Engine.
+Citizen developers, Platform developers
 
--   ****
+</td><td>
+
+Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
+
+For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+
+</td></tr></tbody>
+</table>## Agentic development on the ServiceNow AI Platform
+
+-   **[Agentic development of full-stack applications with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent.md)**
+
+    Agentically develop applications on the ServiceNow AI Platform with Build Agent, an autonomous AI agent available with ServiceNow Otto for Creator. Describe what you need through back and forth conversations with Build Agent, and Build Agent automatically builds the application, including audit trails, security, and compliance.
+
+-   **[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-creator/now-assist-for-creator-landing.md)**
+
+    Use the AI skills, agents, and agentic workflows available with ServiceNow Otto for Creator to generate and enhance applications.
+
+-   **[Create and use AI assets in apps at runtime with ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.md)**
+
+    Enhance App Engine applications with AI skills, agents, and agentic workflows that users can use at runtime with ServiceNow Otto for App Engine.
+
+-   **[Generate scripts from text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/generate-code.md)**
 
     Generate scripts from text, code, or a combination of both with AI-powered code generation.
 
 
-## Build no-code applications with Creator Studio
+## Build applications with ServiceNow Studio
 
--   **[Create applications without coding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-landing.md)**
+Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity.
 
-    Build request-fulfill applications in a simple environment, without using code, in Creator Studio.
+-   **[ServiceNow Studio quick start](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-quick-start.md)**
 
+    Quickly familiarize yourself with new features in ServiceNow Studio.
 
-## Build low-code applications with App Engine
+-   **[Build applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/create-an-application-in-servicenow-studio.md)**
 
-Build low-code apps quickly, with more creators and less complexity. Safely scale cross-enterprise experiences that users want.
+    Admins can easily build custom or global apps using a guided experience and integrated builders.
 
--   **[Empower creators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/use-app-template.md)**
+-   **[Deploy applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/working-with-update-sets-in-servicenow-studio.md)**
 
-    Bring creator workflow apps to production quickly for mission-critical tasks. Design with guidance and templates that are all within a holistic low-code dev experience​.
+    Deploy your applications seamlessly using ReleaseOps, update sets, pipelines, or the Application Repository.
 
--   **[Scale low-code development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-collaboration-requests.md)**
+-   **[ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)**
 
-    Empower business and IT to collaborate, manage, and govern low-code app development.​  Set development guardrails, apply standards, and check for compliance, all in one place.
-
--   **Accelerate process automation**
-
-    Automate processes fast and show value quickly with native integration and low code. Scale your workflows from simple to complex, with consistency across the enterprise.​
-
--   **[Engage your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md)**
-
-    Captivate users with a modern unified experience that’s easy to understand. Build mobile-first experiences using an intuitive, low-code designer.
+    Learn more about each type of file you can add to applications in ServiceNow Studio.
 
 
-## Build applications with the new ServiceNow Studio
+## Develop in sandbox environments
 
--   **[Open apps and app files across scopes in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/qs-open-apps-files-across-scopes.md)**
-
-    Switch between apps and app files in different scopes without leaving ServiceNow Studio.
-
--   **[Supercharge app development with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-gen-landing.md)**
-
-    Create apps and app files quickly using the generative AI capabilities available with ServiceNow Otto for Creator in ServiceNow Studio.
-
--   **[Access organized app metadata using the ServiceNow Studio file navigator taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md)**
-
-    Locate the files that you're searching for with ease using the ServiceNow Studio metadata taxonomy.
-
-
-## Build pro-code applications
-
-Build and deploy apps with fine-grained control. Debug code, manage source control, and publish your apps from a central hub.
-
--   **[Build your apps faster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-pro-code-applications.md)**
-
-    Get all your work done in one place, accelerating the process from coding to deployment.
-
--   **[Develop applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md)**
-
-    Write code that defines application metadata in an integrated development environment.
-
--   **Manage your source**
-
-    Commit, branch, and merge to your Git repository with integrated source control.
-
--   **[Work as a team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)**
-
-    Provide individual developer access to specific application resources for better collaboration.
-
+Use Developer Sandboxes to create isolated development environments where users can develop on the ServiceNow AI Platform in parallel. Sandboxes are temporary because they drift from the base instance configuration the longer they exist. Sandboxes support Git-based workflows of the software development life cycle and help reduce conflicts.
 
 ## Builder library
 
-Each builder fulfills a specific need or produces a specific type of data, such as UI Builder, Workflow Studio, and Workspace Builder. For a complete list of builders, see [Builder Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/builder-library-table.md).
-
--   **[Build pages and custom web experiences with UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/ui-builder-overview.md)**
-
-    Use UI Builder to build pages for App Engine Studioor ServiceNow Studio generated workspaces or custom web experiences using Next Experience Components and custom web components.
-
--   **[Streamline logic and automation with Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-workflow-studio.md)**
-
-    Work with playbooks, flows, subflows, actions, data streams, and decision tables from a single consolidated interface.
-
+Each builder fulfills a specific need or produces a specific type of data, such as Decision Builder, UI Builder, and Workspace Builder. For a complete list of builders, see [Builder Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/builder-library-table.md).
 

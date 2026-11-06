@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a journey using Now Assist
@@ -28,15 +28,19 @@ The user that creates a journey is the journey owner. Journey owners create, mod
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Journeys**.
+1.  Navigate to **All** &gt; **Employee Center**.
 
-2.  Select **Create a new journey**.
+    The Employee Center portal opens.
 
-    Journey templates have predefined journey configurations. Your organization administrator creates and manages journey configurations.
+2.  Select **Journeys**.
 
-3.  Select **Build with Now Assist**, then select **Next**.
+3.  Select **Create a new journey**.
 
-4.  On the form, fill in the fields.
+    Journey templates have preconfigured journey configurations. Your organization administrator creates and manages journey configurations.
+
+4.  Select **Build with Now Assist**, then select **Next**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_mtm_zr3_ydc"><thead><tr><th>
 
@@ -69,9 +73,9 @@ Sample prompts that you can use include:
 
 
 </td></tr></tbody>
-</table>5.  Select **Generate draft**.
+</table>6.  Select **Generate draft**.
 
-6.  Modify your journey directions.
+7.  Modify your journey directions.
 
     1.  Select **Edit Directions.**
 

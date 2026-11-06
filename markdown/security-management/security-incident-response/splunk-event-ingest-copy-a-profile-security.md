@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,11 +32,7 @@ If you copy a profile, the profile name is initially modified to avoid duplicate
 
 2.  In the Splunk Event Profiles list that is displayed, select a profile that you want to copy, and, from the Actions on selected rows choice list, click **Copy**.
 
-    \[Omitted image "splunk\_es\_copy\_profile1.png"\] Alt text: Copy event profile: 1
-
     The profile is copied and displayed on the list. The copy has all the settings of the original profile including the mapping and scheduling configuration. The name of the profile contains copy. Although the original profile is activated \(`true`\), the copy is disabled at this point \(`false`\). You may prefer to edit values of the copied profile and rename it so the configuration settings apply to the new profile as required.
-
-    \[Omitted image "splunk\_es\_copy\_profile2.png"\] Alt text: New profile highlighted
 
     You have successfully copied the settings from an existing profile to a new profile.
 

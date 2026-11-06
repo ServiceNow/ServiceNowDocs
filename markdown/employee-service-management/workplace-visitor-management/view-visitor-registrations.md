@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -40,10 +40,12 @@ Role required: sn\_wsd\_visitor.admin or sn\_wsd\_visitor.staff
     You can also see whether the visitor has accepted or declined the visitor policies by selecting the record in the Visitor Policy Confirmation related list. For more information about visitor policy confirmations, see [View visitor policy confirmations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/view-policy-confirmations.md).
 
 
-**Parent Topic:**[Manage visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
+
+[Use the receptionist portal]()
 
 [Update a visitor registration]()
 

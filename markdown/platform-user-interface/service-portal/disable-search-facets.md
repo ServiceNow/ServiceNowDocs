@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Zing search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,7 +37,7 @@ Role required: admin or sp\_admin
 
 ## Result
 
-Facets do not display when the defined search source is selected in the sp\_seach page.
+Facets do not display when the defined search source is selected in the sp\_search page.
 
 **Parent Topic:**[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/zing-search-service-portal.md)
 

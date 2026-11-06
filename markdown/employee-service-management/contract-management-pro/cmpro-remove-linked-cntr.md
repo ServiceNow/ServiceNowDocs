@@ -1,20 +1,20 @@
 ---
 title: Remove a linked contract
-description: Remove a linked parent contract from contract requests when you have linked a wrong contract request or the linking is no longer required.
+description: Remove a linked parent contract from contract requests when you have linked an incorrect contract request or the linking is no longer required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-remove-linked-cntr.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-06-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Linking parent-child contracts, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Linking parent-child contracts, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Remove a linked contract
 
-Remove a linked parent contract from contract requests when you have linked a wrong contract request or the linking is no longer required.
+Remove a linked parent contract from contract requests when you have linked an incorrect contract request or the linking is no longer required.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ The **Remove linked contract** button is not available when there are no linked 
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d438342e63">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d471096e63">
 
 Method
 
-</th><th align="left" id="d438342e66">
+</th><th align="left" id="d471096e66">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d438342e72">
+</th></tr></thead><tbody><tr><td id="d471096e72">
 
 **Contract Workspace listing**
 
@@ -48,7 +48,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d438342e119">
+</td></tr><tr><td id="d471096e119">
 
 **Workspace used by your application**
 

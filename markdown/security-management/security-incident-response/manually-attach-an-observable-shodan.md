@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Shodan integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,42 +24,34 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents** and open a security incident to which you want to attach the observable.
 
-2.  At the bottom of the record, click the **Show IoC**link in **Related Links**.
+2.  At the bottom of the record, select **Show IoC**link in **Related Links**.
 
-    \[Omitted image "shodan-incident.png"\] Alt text: Observables tab.
-
-3.  On the **Observables** tab, click **New**.
+3.  On the **Observables** tab, select **New**.
 
     The Observable form is displayed.
 
 4.  In the **Value** field, enter an observable \(IP address or URL\).
 
-5.  Click the search icon and from the **Observable Type Categories** dialog box, click the desired observable type in the list to populate the field.
+5.  Select the search icon and from the **Observable Type Categories** dialog box, select the desired observable type in the list to populate the field.
 
-    \[Omitted image "shodan-observable.png"\] Alt text: Observables Type Categories list.
-
-6.  Click **Submit**.
+6.  Select **Submit**.
 
     The workflow launches and checks for the new observable. The execution and completion status is displayed in the work notes section on the security incident record.
 
 7.  Navigate to your security incident and review the work notes.
 
-    \[Omitted image "shodan-activities.png"\] Alt text: Look up status in work notes.
+8.  At the bottom of the record, select the **Show All Related Lists** related link.
 
-8.  At the bottom of the record, click the **Show All Related Lists** related link.
+9.  Select the **Observable Enrichment Results** or **Network Banners** tabs for results, and select the blue information icon next to an observable for more information on a specific item.
 
-9.  Click the **Observable Enrichment Results** or **Network Banners** tabs for results, and click the blue information icon next to an observable for more information on a specific item.
+10. In the dialog that is displayed, select **Open Record** to view raw data and more details.
 
-    \[Omitted image "shodan-enrichment-results.png"\] Alt text: Look up results on security form.
+11. Select the blue settings icon near the search icon to personalize column output and order.
 
-10. In the dialog that is displayed, click **Open Record** to view raw data and more details.
-
-11. Click the blue settings icon near the search icon to personalize column output and order.
-
-12. In the **Personalize List Columns**, select available settings, move them to the **Selected** column, and click **OK**.
+12. In the **Personalize List Columns**, select available settings, move them to the **Selected** column, and select **OK**.
 
 
-Review the **Work notes** for more information and how to proceed if you cannot verify that the lookup ran successfully.
+Review the **Work notes** for more information and how to proceed if you can't verify that the lookup ran successfully.
 
 **Parent Topic:**[Shodan integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/shodan-lookups.md)
 

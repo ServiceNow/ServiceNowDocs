@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/add-web-search-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-10"
-reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add a web search to an AI agent
@@ -81,7 +81,7 @@ Execution mode
 
 </td><td>
 
-Mode of execution for your selected web search:-   **Supervised**: Inputs from your live agent are required during the execution of this tool while the AI agent runs.
+Mode of execution for your selected web search:-   **Supervised**: Inputs from your human agent are required during the execution of this tool while the AI agent runs.
 -   **Autonomous**: Doesn't require any input from your live agent during the execution of this tool while the AI agent runs.
 
 
@@ -91,29 +91,44 @@ Display output
 
 </td><td>
 
-Permission to display the output of the execution in the Now Assist panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
 -   **No**
+If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 
+-   **Widget**: Defines the display output to render the content in a better user experience. You can select the widget from the drop-down.
+-   **Require widget transformation**: An additional LLM call is required to transform the raw tool. If you choose to skip this transformation step, the tool output will be directly mapped to the widget.
+    -   **Yes**
+    -   **No**
+-   **Display refined widget message**: Refines the widget message when configured.
+    -   **Yes**
+    -   **No**
+**Note:** The display output as a toggle is exclusively available for the Premium Chat experience when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard display output options.
+
+</td></tr><tr><td colspan="2">
+
+Advanced settings
 
 </td></tr><tr><td>
 
-Processing message
+Select an output transformation format
 
 </td><td>
 
-Message to display to users when the tool is running.
-
-</td></tr><tr><td>
-
-Output transformation strategy
-
-</td><td>
-
-Style for the LLM to present the results as it passes information between tools and to other agents.-   None
+Style for the LLM to present the results as it passes information between tools and to other agents. Out transformation formats:-   None
 -   Concise
 -   Paragraph
--   Verbose
+-   Summary
 -   Custom
+
+
+</td></tr><tr><td>
+
+Write processing messages for users
+
+</td><td>
+
+Message to display to users during tool execution.-   In-progress message: Write an in-progress message to be displayed to end-users while the tool is running.
+-   Completion message: Write a completion message to be displayed to end-users once the tool finishes running.
 
 
 </td></tr></tbody>

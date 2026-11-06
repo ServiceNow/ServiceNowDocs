@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/view-kpi-signals.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring KPI Signals, KPI Signals, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Explore, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
 
 # View KPI Signals
@@ -28,7 +28,7 @@ Role required: Any roles necessary to access the workspace. The access control l
 
     **Note:** In the context of KPI Signals, the term KPI refers to an indicator with optionally a first-level breakdown and element.
 
-3.  Select the Open KPI Signals icon.\[Omitted image "open-kpi-signals-icon.png"\] Alt text: Open KPI Signals icon
+3.  Select the Open KPI Signals icon.\[Omitted image "open-kpi-signals-icon.png"\]
 
     The KPI Signals panel opens.
 

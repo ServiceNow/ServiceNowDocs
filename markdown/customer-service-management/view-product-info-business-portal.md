@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-product-info-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View product information from Business Portal
@@ -46,98 +46,7 @@ If product catalog items have been set up in your instance, you can use the **Se
 
     You can only view sold products and all extensions of sold products that are not product inventories.
 
-3.  On the form, fill in the fields.
-
-<table id="table_b1t_22y_1fc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Number
-
-</td><td>
-
-Unique number of the sold product.
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-Name of the sold product.
-
-</td></tr><tr><td>
-
-Parent sold product
-
-</td><td>
-
-Parent of the sold product, if applicable.
-
-</td></tr><tr><td>
-
-Product Location
-
-</td><td>
-
-Location associated to the sold product.
-
-</td></tr><tr><td>
-
-Unit net price
-
-</td><td>
-
-Net price of a single unit of a sold product.
-
-</td></tr><tr><td>
-
-Product offering
-
-</td><td>
-
-Product offering that is associated with a sold product.
-
-</td></tr><tr><td>
-
-Product specification
-
-</td><td>
-
-The product specification associated with a sold product.**Note:** The **Product specification** field is available only if you have the Product Catalog Management Core \(com.sn\_prd\_pm\) plugin and is not available on the form by default.
-
-</td></tr><tr><td>
-
-Monthly recurring price
-
-</td><td>
-
-Price to be paid on a monthly basis for the usage of a product or service.
-
-</td></tr><tr><td>
-
-One time price
-
-</td><td>
-
-One-time price to be paid for the usage of a product or service.
-
-</td></tr><tr><td>
-
-Quantity
-
-</td><td>
-
-Quantity of a product that is sold to a customer.
-
-</td></tr></tbody>
-</table>4.  Select a sold product to view the details associated to it.
+3.  Select a sold product to view the details associated to it.
 
     |Field|Description|
     |-----|-----------|
@@ -156,7 +65,7 @@ Quantity of a product that is sold to a customer.
     |Product model's short description|Brief description of the product model.|
     |Product model's description|Detailed description of the product model.|
 
-5.  View the cases and characteristics associated to the sold product in the related list.
+4.  View the cases and characteristics associated to the sold product in the related list.
 
     |Related list|Description|
     |------------|-----------|
@@ -165,12 +74,12 @@ Quantity of a product that is sold to a customer.
     |Child sold products|View the child sold products associated to the sold product.|
     |Product information|View the pricing related information of the sold product.|
 
-6.  Perform one of the desired actions on the sold product.
+5.  Perform one of the desired actions on the sold product.
 
     Install the Customer Life Cycle Management Self service plugin \(sn\_clm\_selfservice\) to perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** actions. The flows can be performed only by the customer personas and only on the sold products where the **Contact** field is the same as the logged in user.
 
     -   Modify a sold product. To learn how to modify a sold product, see [Modify a sold product and hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/modify-a-sold-product.md)
-    -   Suspend a sold product. To learn how to suspend a sold product, see [Suspending sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/supending_sold_products.md).
+    -   Suspend a sold product. To learn how to suspend a sold product, see [Supending sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/supending_sold_products.md).
     -   Resume a sold product. To learn how to resume a sold product, see [Resuming sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/resuming_sold_products.md).
     -   Disconnect a sold product. To learn how to disconnect a sold product, see [Disconnecting sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/disconnecting_sold_products.md)
 

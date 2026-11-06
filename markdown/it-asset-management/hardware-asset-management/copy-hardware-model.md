@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-09-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Copy a hardware model from the Content lookup portal
@@ -21,8 +21,6 @@ Copy a hardware model record from the Content lookup portal to add a new model e
 Role required: asset and model\_manager
 
 ## About this task
-
-**Important:** Copy a hardware model record from the Content lookup portal feature is available with Hardware Asset Management version 15.0.0 onwards.
 
 You can create a product model record by duplicating an existing model from the Content lookup portal. The duplicated model is normalized and relevant fields are automatically populated from the source record. If a record with the same manufacturer, name, and model number exists in the Product Model \[cmdb\_model\] table, you can’t duplicate the model record.
 
@@ -58,7 +56,7 @@ The model record is created and you’re redirected to the Model record form.
 -   To revert the normalization of the hardware or consumable model, select **Revert Normalization**. For more information about reverting normalization, see [Revert normalization of hardware and consumable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/revert-norm-ham.md).
 -   To save the changes made to the model record, select **Save**.
 
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 
 **Related topics**  
 

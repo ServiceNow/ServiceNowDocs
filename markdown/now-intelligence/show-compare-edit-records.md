@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/show-compare-edit-records.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # Show, compare, create, and edit records in KPI Details
@@ -45,9 +45,11 @@ Depending on how the KPI Details component is configured, you can edit a listed 
 
 You can compare indicator scores and underlying records for any two periods. List the records that have been moved out, shared, or moved in between these periods.
 
-Click **Compare records** above the chart to open the record comparison view.
+Select **Compare records** above the visualization to open the record comparison view.
 
 \[Omitted image "kpid-compare-records.png"\] Alt text: Compare Records button
+
+**Note:** Data snapshots indicators do not support record comparison.
 
 Select the periods to compare either by typing in the dates or by using a calendar. Dates are in a \[Jan-Dec\] DD YYYY format. The period on the left must be the same or earlier than the period on the right. If you try to select a later period on the left or an earlier period on the right, both scores switch to the period you just selected.
 

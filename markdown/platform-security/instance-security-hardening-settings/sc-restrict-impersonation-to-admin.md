@@ -1,5 +1,5 @@
 ---
-title: Restrict Impersonation to Admin \[New in Security Center 2.0\]
+title: Restrict Impersonation to Admin
 description: The glide.sys.permissive.impersonate property can be used to prevent non-admin roles from impersonating other users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-impersonation-to-admin.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict Impersonation to Admin \[New in Security Center 2.0\]
+# Restrict Impersonation to Admin
 
 The **glide.sys.permissive.impersonate** property can be used to prevent non-admin roles from impersonating other users.
 
-When the **glide.sys.permissive.impersonate** property is set to false, only users with the admin role can impersonate other users. When this property is set to true, users may be able to make use of application components that expose impersonation APIs to impersonate a user of higher privilege. This could result in unauthorized access if these application components are misconfigured because non-admin users can access the Impersonation functionality.
+When the **glide.sys.permissive.impersonate** system property is set to a value of **false**, only users with the **admin** role may impersonate. When this value is set to **true**, users may be able to make use of application components that expose impersonation APIs to impersonate a higher privileged user.
 
-You may want to set the property to the non-default value when you need non-admin users to have the capability to impersonate other users.
+Ensure that the property **glide.sys.permissive.impersonate** is set to a value of **false**. If this property does not exist, the default value is **false**.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -54,7 +54,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -67,6 +67,14 @@ false
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -88,7 +96,7 @@ Security risk
 
 -   Severity score: 6.7
 -   CVSS score: Medium
--   Security risk details: Failing to set this property to the recommended value of false may allow a non-admin user to utilize application components that expose APIs, enabling them to impersonate a user with higher privileges.
+-   Security risk details: May result in unauthorized resource access if these application components are misconfigured.
 
 </td></tr><tr><td>
 
@@ -104,7 +112,7 @@ Functional impact
 
 </td><td>
 
-Non-admin users can access Impersonation features with some customizations to other scripts and UI pages. However, it is essential to ensure that only the correct users are granted access to these features.
+Non-admin users can access Impersonation features with some customizations to other scripts and UI pages. However, it is essential to ensure that only the correct users are granted access to these features.**Note:** When **glide.sys.permissive.impersonate** is set to true, Non-admin users with the **impersonate** role can still impersonate.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)

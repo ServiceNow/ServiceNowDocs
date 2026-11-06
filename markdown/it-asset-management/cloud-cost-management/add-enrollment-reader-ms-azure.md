@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add the Enrollment Reader role to the Microsoft Azure service principal
@@ -18,7 +18,7 @@ Assign the Enrollment Reader role to the Azure service principal for your Enterp
 
 ## Before you begin
 
-Role required: Enterprise administrator \(EA\)
+Role required: Enterprise administrator
 
 ## About this task
 

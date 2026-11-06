@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+keywords: [Pause signature]
+breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure signature pause duration when modifying signatories
@@ -34,6 +35,8 @@ Role required: sn\_cm\_core.contract\_admin
 
 2.  In the **Name** column, search for the `maximum_signature_pause_duration` property.
 
+    \[Omitted image "cmpro-signature\_pause.png"\] Alt text: System property to configure maximum duration for which a signature workflow is paused.
+
 3.  Select the property.
 
 4.  If you aren’t able to edit the property in the current application scope, select the word **here** in the message at the top of the page.
@@ -54,9 +57,11 @@ The signature pause time duration is set. For more information on the signature 
 **Related topics**  
 
 
-[Configuring Contract Workspace with UI Builder components]()
+[Configuring Contract Workspace]()
 
 [Auto-populate the start date and end date for contract requests]()
+
+[Enable signatory roles]()
 
 [Activate a system property to generate a certificate of completion]()
 

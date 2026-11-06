@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ConfigureShowWorkflowIcon.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Decorations, Reference field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Decorations, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure the show workflow icon
@@ -24,11 +24,11 @@ The show workflow icon \(\[Omitted image "IconRelatedincidentsUI15.png"\] Alt te
 
 ## Procedure
 
-1.  In the form, right-click the label for the workflow field and select **Configure** &gt; **Configure Dictionary**.
+1.  In the form, select and hold \(or right-click\) the label for the workflow field and select **Configure** &gt; **Configure Dictionary**.
 
 2.  Add the **ref\_contributions=show\_workflow** dictionary attribute in the **Attributes** field.
 
-3.  Click **Update**.
+3.  Select **Update**.
 
     The form reopens and the show workflow icon appears beside the field on the right.
 

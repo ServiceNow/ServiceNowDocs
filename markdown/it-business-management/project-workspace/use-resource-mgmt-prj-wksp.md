@@ -7,8 +7,8 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -30,21 +30,19 @@ Using Resource Management, you can create, plan, track, and monitor resource ass
 
 The resource assignment pane displays a interface where you add resource assignments for your projects or project tasks.
 
-Resource assignment is a process of allocating a resource or group of resources to a project task. When a resource assignment is initiated, a resource plan is auto-generated in the back-end of the project management system. This resource plan details the information of how resources would be allocated throughout the project. Resource assignments are approved by the resource manager to make sure that the allocation aligns with the overall resource strategy, considering factors such as availability, skills, and project priorities. Resource assignments remain dynamic and can be edited throughout the project life cycle. Resources can be assigned based on defined attributes such as skills, expertise, or other criteria relevant to the project or task.
-
-**Note:**
-
-Resource efforts calculations are driven by the `com.snc.resource_management.exclude_status_from_capacity` property. Admin can configure this property to calculate efforts for certain defined resource assignments only. For more information, see [Resource Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/r_ResourceProperties.md).
-
-Edit the child resource assignments directly using the inline editing from the resource assignment pane.
-
 ## Resource allocations and heatmap
 
 The Resource allocation view combines a hierarchical task structure by resource with time-based and effort-based allocation metrics, such as hours, FTE, or person-days over weekly or monthly intervals.
 
 **Note:** Switch between different efforts such as hours, FTE, or person days to view a resource allocation heatmap based on the selected effort type.
 
-Allocation heatmap modal gives you an overview of the resource utilization to identify the over allocated and the available resources. The allocations are color-coded to display the availability of the resources and help you to identify the availability of the resource for the filtered time frame. The new heatmap modal gives you the following insights for a resource such as the assigned tasks with their respective project owner, resource status, efforts for each task, total utilization percentage for the approved tasks, and the remaining capacity.
+The allocation heatmap modal displays an overview of resource utilization to identify overallocated and available resources. Allocations are color-coded to indicate resource availability. The heatmap modal displays the following details:
+
+-   Assigned tasks with their respective project owner
+-   Resource status
+-   Efforts for each task
+-   Total utilization percentage for approved tasks
+-   Remaining capacity
 
 \[Omitted image "rmw-heatmap-legend.png"\] Alt text: Legend for resource allocation view.
 
@@ -52,7 +50,9 @@ Allocation heatmap modal gives you an overview of the resource utilization to id
 
 \[Omitted image "rmw-allocation-modal.png"\] Alt text: Heatmap modal explaining different parameter values of resource allocation.
 
-From the above example, you can see the breakdown of the approved work items along with the rolled up efforts, Utilization percentage, and the Remaining capacity for the month of January 2025. The approved work is within the resource capacity as the remaining capacity is 120 hours. Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
+From the previous example, you can see the breakdown of the approved work items along with the rolled up efforts, Utilization percentage, and the Remaining capacity. The approved work is within the resource capacity as the remaining capacity is 120 hours. Resource manager can use these insights to decide and allocate the pending work items to another resource with available effort.
+
+Within the Resource Allocation view, the Approved state is prioritized and listed first, followed by other statuses based on their order in the record list. Additionally, if a user has no capacity during a given period, the corresponding cell is displayed in red color.
 
 -   **[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/resource-assignments-pw.md)**  
 Optimize project execution by assigning resources to tasks within the Project Workspace. You can create resource assignments for any project or project task, specifying the tasks to be performed and the resources to be allocated.

@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Problem Management, IT Service Management]
 ---
@@ -22,6 +22,12 @@ Create or redesign problem form layouts to align them with the business process 
 -   Configure the Problem Management properties to control features such as creating a problem task on a closed problem and reanalyzing a closed or canceled problem. For more information, see [Problem management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/problem-mgmt-properties.md).
 -   Use quick start tests to check if the Problem Management application still works after you make any configuration change such as applying an upgrade or developing an application. For more information, see [Quick start tests for Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/quick-start-tests-pm.md).
 
+
+## Redirection of UI16 module links to Service Operations Workspace
+
+If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the Problem Management module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
+**Note:** For new instances, this redirection configuration is automatically available in the base system. For upgrade instances, administrators can configure the redirection behavior from the SOW Admin Center.
 
 1.  [Problem Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/problem-mgmt-plugins.md)  
 Many of the Problem Management plugins are activated in the base system. Others, you can activate when you are ready to use them. Some plugins include demo data.

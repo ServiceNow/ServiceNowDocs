@@ -1,59 +1,87 @@
 ---
-title: Activate or update NIST Risk Management Framework using the ESG content accelerator
-description: Activate or update NIST Risk Management Framework and select the citations for the framework. It installs the framework and the selected citations, control objectives, and risk statements on your instance.
+title: Activate or update NIST Risk Management Framework
+description: Activate or update NIST Risk Management Framework to install its citations, control objectives, and risk statements on your instance so they can be used in assessments and mapped to your AI assets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-11-25"
-reading_time_minutes: 1
-breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [NIST AI RMF, content accelerator, activate framework, citations, control objectives, risk statements]
+breadcrumb: [Content pack, Configure, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
-# Activate or update NIST Risk Management Framework using the ESG content accelerator
+# Activate or update NIST Risk Management Framework
 
-Activate or update NIST Risk Management Framework and select the citations for the framework. It installs the framework and the selected citations, control objectives, and risk statements on your instance.
+Activate or update NIST Risk Management Framework to install its citations, control objectives, and risk statements on your instance so they can be used in assessments and mapped to your AI assets.
 
 ## Before you begin
 
+Install the AI Risk and Compliance content application before activating a framework. For more information, see [Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md).
+
 Role required: sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager
+
+## About this task
+
+Activating the NIST Risk Management Framework installs the framework's citations, control objectives, and risk statements into your instance. You select which citations and control objectives are relevant to your organization — you don't need to install the entire framework. After the framework is activated, select **Update** to add or remove citations in the future.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Risk and Compliance Workspace**.
 
-2.  Select the AI Risk and Compliance Content icon \[Omitted image "airc-content-accelerator-icon.png"\] on the AI Risk and Compliance Workspace.
+2.  Select the AI Risk and Compliance Content icon \[Omitted image "unified-content-mgmt-icon.png"\] Alt text: on the AI Risk and Compliance Workspace.
 
-3.  Select the **Activate** button on the NIST Risk Management Framework card.\[Omitted image "ai-risk-compliance-content-nist.png"\] Alt text: Activate button on the NIST Risk Management Framework card.
+3.  Select **Activate** on the NIST Risk Management Framework card.
 
-    Make sure you have selected the correct version of the NIST Risk Management Framework.
+    **Note:** Verify that you have selected the correct version of the NIST Risk Management Framework before proceeding.
 
 4.  Read the disclaimer statement and select **Agree**.
 
-5.  Choose the required citations from the list and select **Next**.\[Omitted image "citations-nist.png"\] Alt text: Citations available in the NIST Risk Management Framework.
+5.  Select the citations to include and select **Next**.
 
-    You can include citations that are marked as Ready.
+    **Note:** Only citations with a status of **Ready** can be selected.
 
-6.  Choose the Control objectives and select **Next**.
+6.  Select the control objectives to include and select **Next**.
 
-    The Control objectives are populated based on the selected Citations in the previous step.
+    The control objectives displayed are based on the citations selected in the preceding step.
 
-7.  Choose the Risk statements and select **Next**.
+7.  Select the risk statements to include and select **Next**.
 
-    You can include risk statements that are marked as Ready.
+    **Note:** Only risk statements with a status of **Ready** can be selected.
 
-8.  Review and confirm the selected citations, control objectives, and risk statements.\[Omitted image "review-and-confirm-nist.png"\] Alt text: Selected citations, control objectives, and risk statements.
+8.  Verify the selected citations, control objectives, and risk statements on the summary page.
 
 9.  Select **Submit**.
 
-10. To modify the NIST Risk Management Framework, select the **Update** button.
+    The selected citations, control objectives, and risk statements are installed on your instance and are available for use in assessments and risk mappings.
 
-    The **Update** button appears only when the NIST Risk Management Framework is activated.
+10. Modify the activated NIST Risk Management Framework by selecting **Update** on the framework card.
 
-11. Repeat the steps from 5.
+    The **Update** button appears on the NIST Risk Management Framework card only after the framework is activated. Repeat steps 5 through 9 to add or remove citations, control objectives, and risk statements.
 
 
-**Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+## Result
+
+The selected NIST Risk Management Framework citations, control objectives, and risk statements are installed on your instance and are available for use in assessments and risk mappings.
+
+## What to do next
+
+The installed citations, control objectives, and risk statements are available for use in assessments and to map to your AI assets.
+
+To activate additional frameworks, see [Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md), [Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md), or [Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md).
+
+**Related topics**  
+
+
+[Install AI Risk and Compliance content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/install-ai-risk-content-pack.md)
+
+[Activate or update EU Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)
+
+[Activate or update the Colorado Artificial Intelligence Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-colorado-ai-act.md)
+
+[Activate or update the Transparency in Frontier Artificial Intelligence Act \(SB 53\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-sb53.md)
+
+[AI Risk and Compliance Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-content-pack.md)
 

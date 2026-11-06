@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/configure-form-layout.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Configuring forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring the form layout
@@ -63,7 +63,7 @@ Related lists display records in another table that have a relationship with the
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon\), and select **Configure** &gt; **Related Lists**.
+2.  Select the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Context menu icon\), and select **Configure** &gt; **Related Lists**.
 
 3.  Move the related list you want to display from the Available list to the Related list.
 
@@ -84,7 +84,7 @@ Role required: personalize\_form
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Context menu icon\) and select **Configure** &gt; **Form Layout**.
+2.  Select the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 3.  Under **Form view and section**, select a section.
 
@@ -193,7 +193,7 @@ Role required: admin
 
 1.  Navigate to a form.
 
-2.  Select the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Form context menu icon\) and select **Configure** &gt; **Form Layout**.
+2.  Select the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Form context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 3.  Within the Selected list, move any of the following split section indicators using the up and down arrows:
 
@@ -291,7 +291,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 2.  Perform one of the following actions.
 
-<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d321027e1188">
+<table id="choicetable_o2r_v2r_3r"><tbody><tr><td id="d346944e1212">
 
 **Enable the indicator for all administrators**
 
@@ -299,7 +299,7 @@ You can configure this indicator to appear for all or for specific administrator
 
 Set the **owned\_by\_indicator.form** preference to **true**.
 
-</td></tr><tr><td id="d321027e1203">
+</td></tr><tr><td id="d346944e1227">
 
 **Enable the indicator for an individual administrator**
 
@@ -326,15 +326,13 @@ Role required: personalize\_form
 
 **Note:** The following report types are not supported on forms: List, Pivot, Multilevel Pivot, Calendar, and Single Score.
 
-\[Omitted image "ChartOnAForm.png"\] Alt text: Chart on the Incident form
-
 ### Procedure
 
 1.  Navigate to **All** &gt; **System UI** &gt; **Forms**.
 
 2.  Select the form you want to configure.
 
-3.  Click the form context menu icon \(\[Omitted image "ContextMenu.png"\] Alt text: Form context menu icon\) and select **Configure** &gt; **Form Layout**.
+3.  Click the form context menu icon \(\[Omitted image "list-control-menu.png"\] Alt text: Form context menu icon\) and select **Configure** &gt; **Form Layout**.
 
 4.  Using the slushbucket, select **\* Chart**.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -22,18 +22,18 @@ Role required: sn\_wsd\_case.manager
 
 ## About this task
 
-The dashboard enables you work on a case at any time. You can perform any action on a case such as update, edit, and even resolve a case when done. To save time from filtering the cases, the workspace, by default, displays the cases under various categories in the **Overview** section.
+The Case Management dashboard enables you to work on a case at any time. You can perform any action on a case such as update, edit, and even resolve a case when you're done. To save time spent on filtering cases, the workspace, by default, displays the cases under various categories in the Overview section.
 
 -   Update the case details.
 -   Change the state of the case.
 -   Add comments or work notes.
 -   View or attach knowledge articles.
 -   Mark the checklist or add new checklist items.
--   View the employee details who requested the case and mail them directly if necessary.
+-   View the details of the employee who requested the case and mail them directly if necessary.
 -   View the workplace location on the floor map. For move cases, view the **From location** and **To location** on the map.
--   Create child cases and child tasks if needed. For more information, refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+-   Create child cases and child tasks if needed. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-For more information about the features and actions that you can perform in the workspace, refer to [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md).
+For more information about the features and actions that you can perform in the workspace, see [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md).
 
 ## Procedure
 
@@ -43,75 +43,82 @@ For more information about the features and actions that you can perform in the 
 
     The Workplace Analytics dashboard opens.
 
-2.  On the left pane, select the **Case Management** icon \(\[Omitted image "casemgmt-icon.png"\] Alt text: Case Management icon.\).
+2.  On the pane, select the **Case Management** icon \[Omitted image "casemgmt-icon.png"\] Alt text:.
 
     The Case Management dashboard opens.
 
 3.  To open a case, do any of the following:
 
-    -   Go to the **Overview** section.
+    -   Go to the Overview section.
 
         Select the relevant tile to open the list of cases.
 
-    -   Go to the **All active cases** section.
+    -   Go to the All active cases section.
 4.  Select the case that you want to open.
 
-    The list view displays the cases as WCASEXXXX for normal workplace cases, WMCXXXX for maintenance cases and WMOVEXXXX for move cases.
+    The list view displays the cases as WCASEXXXX for normal workplace cases, WMCXXXX for maintenance cases, and WMOVEXXXX for move cases.
 
-    The case details are displayed in a new tab. For more information about the view, the actions that you can perform and additional features, refer to the **Case details page** section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
+    The case details are displayed in a new tab. For more information about the view, the actions that you can perform and additional features, see the Case details page section in the [Case Management - Key features, Actions &amp; Case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/case-management-key-features-actions-case-details.md) topic.
 
-5.  Perform your changes.
+5.  Summarize the case using ServiceNow Otto for WSD.
 
-<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d343680e222">
+    For more information about summarizing a workplace case, see [Summarize a workplace case using ServiceNow Otto for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/summarize-workplace-case.md).
+
+6.  Make your changes.
+
+<table id="choicetable_g2k_xbt_v1c"><thead><tr><th align="left" id="d369198e232">
 
 Action
 
-</th><th align="left" id="d343680e225">
+</th><th align="left" id="d369198e235">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d343680e231">
+</th></tr></thead><tbody><tr><td id="d369198e241">
 
-**To edit the case's form fields**
+**Edit the case form fields**
 
 </td><td>
 
-In the **Details** tab, do the following:1.  Edit the field that you want to change. You can change the details such as the **Workplace service** using which the case was requested, the **Workplace location**, **Assignment group**, **Assigned to** user, detailed **Description**, **Items at the location** and more.
-    -   For move cases, you can edit the details such as the **From location**, **To location**, **Reason**.
-    -   For maintenance cases, you can edit the details such as the **Product model** and **Enterprise asset**.
-2.  Select **Save** to update the changes.
+In the **Details** tab, do the following:1.  Edit the field based on your requirement.
+
+You can edit details like the **Workplace service** using the case that was requested, the **Workplace location**, **Assignment group**, or **Items at the location**.
+
+    -   For move cases, you can edit details like the **From location**, **To location**, and **Reason**.
+    -   For maintenance cases, you can edit details like the **Product model** and **Enterprise asset**.
+2.  Select **Save** to update the case.
 
 
-</td></tr><tr><td id="d343680e296">
+</td></tr><tr><td id="d369198e301">
 
-**To add a comment or work notes**
+**Add a comment or work notes**
 
 </td><td>
 
 In the **Details** tab, do the following:1.  Go to the **Compose &amp; Activity** panel.
-2.  To add a comment, select **Comments** tab and add your comment.
+2.  To add a comment, select the **Comments** tab and add your comment.
 3.  To add private notes, select **Work notes \(Private\)** and add your notes.
-4.  Select **Post comments**
+4.  Select **Post comments**.
 5.  Select **Save** to update the changes.
 
 
-</td></tr><tr><td id="d343680e339">
+</td></tr><tr><td id="d369198e345">
 
-**To view the activities performed on the case until the current date**
+**View the activities performed on the case**
 
 </td><td>
 
 In the **Details** tab, go to the **Activity** panel.
 
-</td></tr><tr><td id="d343680e354">
+</td></tr><tr><td id="d369198e360">
 
-**To view the __Requested for__employee details or send an email to them**
+**View the __Requested for__ employee details or send an email to the employee**
 
 </td><td>
 
-Select the At a glance icon \(\[Omitted image "casemgmt-ataglanceicon.png"\] Alt text: At a glance icon.\) on the right-side panel.**Note:** The employee details are displayed by default when you open the case. However, the employee details are subject to availability in the system database. If the details aren’t available, the details of the admin or the case manager are displayed.
+Select the At a glance icon \[Omitted image "casemgmt-ataglanceicon.png"\] Alt text: on the side panel.**Note:** The employee details are displayed by default when you open the case. However, the employee details are subject to availability in the system database. If the details aren’t available, the details of the admin or the case manager are displayed.
 
-If no employee is specified in the **Requested for** field, then the employee details aren’t displayed.
+If no employee is specified in the **Requested for** field, the employee details aren’t displayed.
 
 -   In the **Employee details** panel, review the details.
 -   To send an email, select the email address directly and do the following:
@@ -121,161 +128,161 @@ If no employee is specified in the **Requested for** field, then the employee de
     3.  To send the email, select **Send email**.
 You can also view draft emails using the **View drafts** option.
 
-</td></tr><tr><td id="d343680e413">
+</td></tr><tr><td id="d369198e418">
 
-**To view knowledge base articles related to the case**
+**View knowledge base articles related to the case**
 
 </td><td>
 
-Select the Knowledge Articles \(\[Omitted image "casemgmt-knowledgeicon.png"\] Alt text: Knowledge Articles icon.\) on the right-side panel.-   In the **Knowledge Articles** panel, search for an article.
+Select the Knowledge Articles icon \[Omitted image "casemgmt-knowledgeicon.png"\] Alt text: on the side panel.-   In the **Knowledge Articles** panel, search for an article.
 -   To view the article on a separate page, on the article, select **Full view**.
 -   To flag the article, select **Flag**.
 -   To mark the article as useful, select **Helpful**.
 
 
-</td></tr><tr><td id="d343680e454">
+</td></tr><tr><td id="d369198e458">
 
-**To view or upload attachments to the case**
+**View or upload attachments to the case**
 
 </td><td>
 
-Select the Attachment icon \(\[Omitted image "casemgmt-attachementicon.png"\] Alt text: Attachments icon.\).-   In the **Attachments** panel, view the attachments.
+Select the Attachment icon \[Omitted image "casemgmt-attachementicon.png"\] Alt text:.-   In the **Attachments** panel, view the attachments.
 -   To upload a file, select **Select**.
 
 
-</td></tr><tr><td id="d343680e483">
+</td></tr><tr><td id="d369198e486">
 
-**To view the template of the case or add a template**
+**View the template of the case or add a template**
 
 </td><td>
 
-Select the Template icon \(\[Omitted image "casemgmt-templateicon.png"\] Alt text: Template icon.\).-   In the **Templates** panel, view the templates in the **All** tab.
--   To add a template, select \[Omitted image "casemgmt-createtempicon.png"\] Alt text: Create template icon..
--   To view templates added by you, select **My Templates** tab.
-To create a template, refer to:
+Select the Template icon \[Omitted image "casemgmt-templateicon.png"\] Alt text:.-   In the **Templates** panel, view the templates in the **All** tab.
+-   To add a template, select the Create template icon \[Omitted image "casemgmt-createtempicon.png"\] Alt text:.
+-   To view templates added by you, select the **My Templates** tab.
+To create a template, see:
 
 -   [Create a Workplace case template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/wsd-case-template.md)
 -   [Create a Workplace task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/wsd-task-template.md)
 
 
-</td></tr><tr><td id="d343680e544">
+</td></tr><tr><td id="d369198e545">
 
-**To view the workplace location specified in the case; To view the 'From' and 'To' location of a move case; To view the asset location of a maintenance case**
+**View the workplace location specified in the case, view the From and To location of a move case, or view the asset location of a maintenance case**
 
 </td><td>
 
-Select the Location icon \(\[Omitted image "casemgmt-locationicon.png"\] Alt text: Location icon.\).-   In the **Locations** panel, view the location details such as the location name, floor, building, campus, and region details.
--   To view the location on the map, scroll down to the **Map** section. On the map, you can do the following:
+Select the Location icon \[Omitted image "casemgmt-locationicon.png"\] Alt text:.-   In the **Locations** panel, view the location details such as the location name, floor, building, campus, and region details.
+-   To view the location on the map, scroll down to the Map section. On the map, you can do the following:
     -   Drag the map.
     -   Zoom in/out on the map.
--   For a move case, the **Location** panel displays the details of the**From location** and **To location** under the **Move from** and **Move to** tabs.
+-   For a move case, the **Location** panel displays the details of the **From location** and **To location** under the **Move from** and **Move to** tabs.
 -   For a maintenance case, the **Workplace location** panel displays the location of the asset specified in the case. If an asset isn’t specified, then the workplace location selected in the case is specified.
 
 
-</td></tr><tr><td id="d343680e605">
+</td></tr><tr><td id="d369198e602">
 
-**To view the fulfilment instructions**
-
-</td><td>
-
-Select the Fulfilment Instructions icon \(\[Omitted image "casemgmt-fulfimenticon.png"\] Alt text: Fulfilment instructions icon.\).To add fulfilment instructions, refer to [Add Fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/add-fulfillment-instructions.md).
-
-</td></tr><tr><td id="d343680e629">
-
-**To view or add checklist items**
+**View the fulfillment instructions**
 
 </td><td>
 
-Select the Checklist icon \(\[Omitted image "casemgmt-checklisticon.png"\] Alt text:\).-   Mark a checklist if it’s completed.
+Select the fulfillment Instructions icon \[Omitted image "casemgmt-fulfimenticon.png"\] Alt text:.To add fulfillment instructions, see [Add Fulfillment instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/add-fulfillment-instructions.md).
+
+</td></tr><tr><td id="d369198e625">
+
+**View or add checklist items**
+
+</td><td>
+
+Select the Checklist icon \[Omitted image "casemgmt-checklisticon.png"\] Alt text:.-   Mark a checklist if it’s completed.
 -   Edit a checklist if necessary.
 -   Add a checklist item if necessary. If there are no checklist items, you can add them.
 
 
-</td></tr><tr><td id="d343680e655">
+</td></tr><tr><td id="d369198e651">
 
-**To view the child cases or add a child case**
-
-</td><td>
-
-Go to the **Child Cases** tab.1.  View the child cases created with the case. Perform refresh, edit columns or apply filter if necessary.
-2.  To create a child case, select **New**. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
-
-
-</td></tr><tr><td id="d343680e685">
-
-**To view the child tasks or add a child task**
+**View the child cases or add a child case**
 
 </td><td>
 
-Go to the **Child Tasks** tab.-   View the child tasks created with the case. Perform refresh, edit columns, or apply filter if necessary.
--   To create a child case, select **New**. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+Go to the **Child Cases** tab.1.  View the child cases created with the case. Perform a refresh, edit columns, or apply a filter if necessary.
+2.  To create a child case, select **New**. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
 
-</td></tr><tr><td id="d343680e715">
+</td></tr><tr><td id="d369198e681">
 
-**To view the details of approvers**
+**View the child tasks or add a child task**
+
+</td><td>
+
+Go to the **Child Tasks** tab.-   View the child tasks created with the case. Perform a refresh, edit columns, or apply filter if necessary.
+-   To create a child case, select **New**, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+
+
+</td></tr><tr><td id="d369198e711">
+
+**View the details of approvers**
 
 </td><td>
 
 Go to the **Approvers** tab.
 
-</td></tr><tr><td id="d343680e727">
+</td></tr><tr><td id="d369198e723">
 
-**To view the case SLAs and add an SLA**
+**View the case SLAs and add an SLA**
 
 </td><td>
 
 Go to the **Case SLAs** tab.-   View the SLA details associated with the case.
 -   Select **New** to add an SLA.
-To create the SLA definition, refer to [Create an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.md).
+To create the SLA definition, see [Create an SLA Definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/create-sla-defn-case-mgmt.md).
 
-</td></tr><tr><td id="d343680e759">
+</td></tr><tr><td id="d369198e755">
 
-**To view the attached knowledge base articles**
+**View the attached knowledge base articles**
 
 </td><td>
 
 Go to the **Attached Knowledge** tab. View or add articles.
 
-</td></tr><tr><td id="d343680e771">
+</td></tr><tr><td id="d369198e767">
 
-**To view the knowledge base articles viewed by the user**
+**View the knowledge base articles viewed by the user**
 
 </td><td>
 
 Go to the **KB Articles Read by User** tab. View or add articles.
 
-</td></tr><tr><td id="d343680e784">
+</td></tr><tr><td id="d369198e780">
 
-**To view the related cases**
-
-</td><td>
-
-Go to the **Related cases** tab. View the cases or add a case if necessary. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
-
-</td></tr><tr><td id="d343680e803">
-
-**For a maintenance case, to view the associated workplace cases**
+**View the related cases**
 
 </td><td>
 
-Go to the **Workplace Cases** tab. View the cases or add a case if necessary. Refer to [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+Go to the **Related cases** tab. View the cases or add a case if necessary. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
 
-</td></tr><tr><td id="d343680e822">
+</td></tr><tr><td id="d369198e799">
 
-**To view the workplace service items requested with the case**
+**For a maintenance case, view the associated workplace cases**
 
 </td><td>
 
-Go to the **Requested Service Items** tab.
+Go to the **Workplace Cases** tab. View the cases or add a case if necessary. For more information, see [Create a child case and a child task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/create-a-child-case-and-a-child-task-casemgmtworkspace.md).
+
+</td></tr><tr><td id="d369198e818">
+
+**View the workplace service items requested with the case**
+
+</td><td>
+
+Go to the **Requested Service Items** tab. View the service items, their status, their associated workplace tasks, and whether the items are discarded by the requester.
 
 </td></tr></tbody>
-</table>6.  After making changes, select **Save**.
+</table>7.  After making changes, select **Save**.
 
 
 ## Result
 
-The workplace case is updated or modified based on your changes. To cancel or delete the case, refer to [Cancel or delete a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.md).
+The workplace case is updated or modified based on your changes. To cancel or delete the case, see [Cancel or delete a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/cancel-or-delete-a-case-casemgmtworkspace.md).
 
 **Parent Topic:**[Working with Case management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-case-management.md)
 
@@ -287,6 +294,10 @@ The workplace case is updated or modified based on your changes. To cancel or de
 [Create a workplace service case]()
 
 [Create a child case and a child task]()
+
+[Print a workplace case]()
+
+[Managing print case]()
 
 [Cancel or delete a case]()
 

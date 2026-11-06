@@ -1,5 +1,5 @@
 ---
-title: Business portal usage calculation
+title: Business and Consumer portal usage calculation
 description: Track how your customers and employees are using the portal. The Customer Portal Usage dashboard provides information about portal visits resulting in session counts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/business-portal-user-sessions-timeouts.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure Business Portal, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Business portal usage calculation
+# Business and Consumer portal usage calculation
 
 Track how your customers and employees are using the portal. The Customer Portal Usage dashboard provides information about portal visits resulting in session counts.
 
@@ -20,7 +20,7 @@ To view the Customer Portal Usage dashboard, navigate to **Customer Service** &g
 
 **Note:** You can ignore the bot session usage that is captured as part of this dashboard.
 
-A user session is a period of activity on the Customer service portal, Consumer Service Portal, or Business portal by any of the following session types:
+A user session is a period of activity on the Customer service portal, Consumer Service Portal, or Business and Consumer portal by any of the following session types:
 
 -   Guest session: Session where the user isn't logged in
 -   Bot session: Separate count of sessions generated due to bots and crawlers
@@ -53,4 +53,9 @@ A user logs in and continues the session past midnight:
 |2|User logs in|No|
 |3|User session continues past midnight|**Yes**|
 |4|User logs out|No|
+
+**Related topics**  
+
+
+[Usage calculation of self-service experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

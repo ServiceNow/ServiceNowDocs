@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_InvokeMatchingRuleAPI.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Routing and assigning customer service cases, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Invoke the MatchingRuleProcessor API
@@ -28,6 +28,4 @@ Role required: sn\_customerservice\_agent, sn\_customerservice\_manager, admin
 
     The result is a list of users \(sys\_ids\), which you can use for case routing and assignment.
 
-
-**Parent Topic:**[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CaseRouting.md)
 

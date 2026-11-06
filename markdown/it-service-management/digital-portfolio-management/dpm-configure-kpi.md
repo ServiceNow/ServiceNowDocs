@@ -7,16 +7,16 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
 
 # KPI groups in Digital Portfolio Management
 
 Define and configure the key performance indicator \(KPI\) groups in DPM that matter most to you. When you associate KPI groups with your services and applications, you can analyze their performance in a centralized area.
 
-\[Omitted video\] Description: Configure KPI Groups
+\[Omitted video\] Description: Use KPI groups.
 
 With KPI groups, you can analyze the performance of each solution in several ways:
 
@@ -56,14 +56,14 @@ Two KPI groups enable flexible reporting on solutions in enterprise portfolios.
 
 **Note:** The business application performance KPI group replaces the metrics used prior to the Utah release. Since you can create and edit KPI groups and map them to business applications, it provides more flexibility to configure your reporting. You don't need to edit the page in UIB to change the metrics.
 
-## KPI groups for application services
+## KPI groups for service instances
 
-KPI groups aren’t inherited for application services, but you can do the following with the **Availability insights** KPI group for application services:
+KPI groups aren’t inherited for service instances, but you can do the following with the **Availability insights** KPI group for service instances:
 
--   View and assess the availability for application services that you own or are responsible for.
+-   View and assess the availability for service instances that you own or are responsible for.
 -   Map the Availability insights KPI group to one-to-many applications services.
--   View availability commitments and commitment performance on the Run tab of your application service.
--   View all commitments listed on the Info tab of the application service.
+-   View availability commitments and commitment performance on the Run tab of your service instance.
+-   View all commitments listed on the Info tab of the service instance.
 
 **Parent Topic:**[Exploring Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-explore-cfw.md)
 

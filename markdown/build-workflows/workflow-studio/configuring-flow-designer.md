@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configuring Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Configuring flows
@@ -51,19 +51,4 @@ Workflow Studio flows, subflows, and actions are ServiceNow AI Platform features
 |--------------------|---------|
 |Update flow diagramming|[Update to the latest version of Flow Diagramming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/update-to-latest-version-flow-diagramming.md)|
 |Update Workflow Studio and all of its dependencies|[Update to the latest version of Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/update-to-the-latest-version-of-workflow-studio.md)|
-
--   **[Flow administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-administration.md)**  
-Identify and troubleshoot potential issues by reviewing action and flow executions, their result state, and their runtime duration.
--   **[User access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/user-access-flow-designer.md)**  
-Administrators can grant users access to Workflow Studio flows by assigning delegated development permissions or directly assigning a user role. Administrators can also specify which features and content a user can access based on user roles. Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions.
--   **[API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/api-access-flow-designer.md)**  
-Application developers can access Workflow Studio functionality through APIs for flows, subflows, and actions. Flow authors can enable individual flows, subflows, and actions to be client callable during design.
--   **[Restricted caller access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/restricted-caller-access-flow-designer.md)**  
-Track flows and actions that require access to cross-scope resources. Allow or deny flows and actions access to cross-scope resources.
--   **[Set flow user preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/set-flow-user-preferences.md)**  
-Set your preferences when building and editing flows such as the default editor view.
--   **[Update to the latest version of Flow Diagramming](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/update-to-latest-version-flow-diagramming.md)**  
-Flow diagramming is automatically installed on your instance as a dependency of Workflow Studio.
-
-**Parent Topic:**[Configuring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-workflow-studio.md)
 

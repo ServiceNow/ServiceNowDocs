@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference for Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -92,6 +92,8 @@ You can override a translator configuration TC1 from Domain B. After overriding,
 ## Domain separation in Exclusion Framework
 
 The Exclusion Framework module in Dynamic Translation supports domain separation. Each domain on an instance can have its own set of Exclusion Framework rules, so the rules are specific to one domain. Activation of Exclusion Framework on an instance applies to all domains on the instance. For more information see [Exclusion Framework in Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dyn-translation-exclusion-framework.md).
+
+**Parent Topic:**[Reference for Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/reference-for-dynamic-translation.md)
 
 **Related topics**  
 

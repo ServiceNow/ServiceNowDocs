@@ -1,20 +1,20 @@
 ---
 title: Failed standing order workflow
-description: Learn how bank agents, using the Failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
+description: Learn how bank agents, using the failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-deposit-operations/fso-failed-standing-order-workflow.html
 release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Financial Services Deposit Operations workflows, Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Deposit Operations workflows, Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Failed standing order workflow
 
-Learn how bank agents, using the Failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
+Learn how bank agents, using the failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
 
 The following diagram shows how the application helps bank agents handle a failed standing order for a deposit account.
 

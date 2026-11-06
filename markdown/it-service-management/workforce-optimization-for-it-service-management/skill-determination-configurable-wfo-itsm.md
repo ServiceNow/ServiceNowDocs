@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills Management in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Skills Management, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Routing work based on skills in Workforce Optimization for ITSM
 
 Route work to your teams based on skills, schedule your teams' work, and train your teams to enhance their skills set using Workforce Optimization for ITSM.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 -   **[Automatically add skills to incidents or interactions in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/add-skills-automatic-itsm-manager-workspace-configurable-workspace.md)**  
 Define conditions for incidents or interactions and add skills required for those conditions using skill determination rules. When new incidents and interactions that are created meet these conditions, the skill determination business rule automatically adds the skills to those records. In the Workforce Optimization for ITSM Channels and Work scheduler applications, the work items get automatically assigned to the right agents based on the skills.

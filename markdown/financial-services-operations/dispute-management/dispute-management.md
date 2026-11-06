@@ -1,41 +1,44 @@
 ---
 title: Dispute Management
-description: ServiceNow Dispute Management creates faster card transaction dispute resolution, improved compliance, and better cardholder experiences.
+description: Dispute management helps agents create dispute cases for both personal and business debit and credit card accounts, as well as non-card \(ACH\) transactions, and automate the process of dispute routing and fraud-related activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/dispute-management.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Dispute Management
 
-ServiceNow® Dispute Management creates faster card transaction dispute resolution, improved compliance, and better cardholder experiences.
+Dispute management helps agents create dispute cases for both personal and business debit and credit card accounts, as well as non-card \(ACH\) transactions, and automate the process of dispute routing and fraud-related activities.
 
--   **[Understanding Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/disputes-overview.md)**  
-ServiceNow Dispute Management enables issuing banks to deflect card disputes, streamline data collection, and simplify payment exception operations.
--   **[Setting up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/setting-up-disputes-management.md)**  
-Set up your Dispute Management implementation by installing the required plugins.
--   **[Understanding the card disputes data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-data-model.md)**  
-This section outlines the card disputes data model and the tables installed with the disputes application.
--   **[Managing dispute intake in portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)**  
-With Financial Services Operations \(FSO\) card disputes intake in portal, you get the step-by-step guidance for the case flow process. It includes all the information you need to successfully complete each stage and its related tasks.
--   **[Managing dispute workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md)**  
-As a card dispute agent or agent connector, you can work on a credit or debit card dispute case by investigating and resolving dispute requests for cardholders.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-compliance-updates-mastercard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-compliance-updates-mastercard.md)**  
+
+-   **[Set up Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/setting-up-disputes-management.md)**  
+Configure Dispute Management to process card payment network and ACH disputes. Installation requirements vary by network provider.
 -   **[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)**  
-Dispute management enables agents to create dispute cases for both personal and business debit and credit card accounts, and automate the process of dispute routing and fraud-related activities. Learn how agents initiate, investigate, and resolve dispute cases for personal and commercial customers.
--   **[Managing Visa disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-visa-disputes.md)**  
-This page provides issuers the ability to understand the process of implementing the integration of ServiceNow® Financial Services Card Operations \(card dispute playbook\) with the Dispute Rules Content Pack for Visa application.
--   **[Managing Mastercard disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-mastercard-disputes.md)**  
-The Dispute Rules Content Pack for Mastercard leverages guided data collection and maps the data entered to a dispute reason code to ensure the proper categorization and processing of disputes.
--   **[Working with Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/working-with-regulations.md)**  
-This page provides dispute agents with the information they need to handle dispute cases effectively and allows dispute managers to monitor case progress and take necessary actions to ensure compliance. The integration with the Dispute Content Pack for US Regulations application helps issuers track dispute cases governed by US regulations \(Reg E and Reg Z\).
--   **[Managing the Archive Dispute Service Cases rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-service-case-archival.md)**  
-Manage the archive rule that is provisioned in the Card Disputes Service Case table of the Financial Services Card Operations application. With this rule, your organization can meet your dispute service case archiving requirements. By default, inactive cases that are more than two years old are automatically archived.
+Dispute management enables agents to create dispute cases for both personal and business debit and credit card accounts, as well as non-card ACH transactions, and automate the process of dispute routing and fraud-related activities. Learn how agents initiate, investigate, and resolve dispute cases for personal and commercial customers.
+-   **[Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/card-data-security.md)**  
+The Card data security application embeds a tokenization service that enables Financial Services Operations \(FSO\) customers to configure the data that is tokenized and detokenized for Dispute Cases and Dispute Transactions to meet Payment Card Industry \(PCI\) requirements \("Card Data Security"\).
+-   **[Dispute Rules Content Pack for Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-rules-content-pack-for-visa-landing-page-1.md)**  
+The ServiceNow® Dispute Rules Content Pack for Visa provides questionnaires for the intake of dispute related information under various dispute categories as per Visa guidelines.
+-   **[Dispute Rules Content Pack for Mastercard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-rules-content-pack-for-mastercard-landing-page.md)**  
+The ServiceNow® Dispute Rules Content Pack for Mastercard application provides your agents with questionnaires that they can use to intake dispute-related information for various dispute categories as per the Mastercard guidelines.
+-   **[Dispute Rules Content Pack for Nacha](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-rules-content-pack-for-nacha.md)**  
+The ServiceNow® Dispute Rules Content Pack for Nacha application provides your agents with a central reference for automated clearing house \(ACH\) return reason codes and the logic used to determine them, based on Nacha operating guidelines.
+-   **[Dispute Content Pack for US Regulations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-content-pack-for-us-regulation-landing-page.md)**  
+The ServiceNow® Dispute Content Pack for US Regulations enables issuers in the United States \(US\) to track dispute cases and conform with regulatory guidelines.
+-   **[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-reference.md)**  
+Learn about managing the archive dispute service case and the retention policy of inactive cases.
 
 **Parent Topic:**[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-overview.md)
+
+**Related topics**  
+
+
+[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
 

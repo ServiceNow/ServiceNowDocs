@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create an engagement and enhance digital resilience data, Use digital resilience third-party registers, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -93,7 +93,7 @@ Engagement tier
 
 </td><td>
 
-The tier used for this engagement. See [VRM third-party risk tiering assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/manage-risk-tiering-assessments.md) for details of how the tier is determined.
+The tier used for this engagement.
 
 </td></tr><tr><td>
 
@@ -322,6 +322,8 @@ Digital resilience information for the third-party engagement. You can add the f
 -   Identification code of ICT third-party service provider
 -   Type of code to identify the ICT third-party service provider
 -   Name of the ICT third-party service provider
+
+**Note:** When the Type of code is set to LEI and you enter or update the identification code, the system validates it against the GLEIF database and auto-populates the Legal name and Country of headquarters fields. For more information, see [Validate Legal Entity Identifier codes for DORA reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-valid-lei.md).
 
 </td></tr></tbody>
 </table>

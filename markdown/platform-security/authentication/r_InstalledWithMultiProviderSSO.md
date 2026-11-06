@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Multi-Provider SSO properties, tables, and scripts
@@ -55,6 +55,22 @@ Enables \(true\) or disables \(false\) multi-provider SSO.-   Type: true \| fals
 </td><td>
 
 This property determines if the MultiSSOv2 version is enabled in the instance.
+
+</td></tr><tr><td>
+
+**glide.authenticate.show.max.sso.login.option**
+
+</td><td>
+
+This property determines the maximum number of SSO options displayed on the login screen.**Note:** The default value is 5. The maximum value of the property is 10.
+
+</td></tr><tr><td>
+
+**glide.authenticate.show.max.sso.login.option**
+
+</td><td>
+
+This property determines the maximum number of IdPs displayed on the login screen. "glide.authenticate.show.max.sso.login.option" **Note:** The default value is 10.
 
 </td></tr></tbody>
 </table>## Tables

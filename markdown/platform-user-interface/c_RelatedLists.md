@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_RelatedLists.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Forms in the classic environment, Working in the classic environmen
 
 Related lists appear on forms and show records in tables that have relationships to the current record.
 
-Users can view and modify information in related lists like any other list. Administrators can configure related lists to appear on forms and in hierarchical lists by [configuring a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md). Related lists do not have a size limit.
+Users can view and modify information in related lists like any other list. Administrators can configure related lists to appear on forms and in hierarchical lists by configuring a form. Related lists do not have a size limit.
 
 **Note:**
 
@@ -40,7 +40,7 @@ You can set a default filter to restrict which related records users can select 
 **Related topics**  
 
 
-[Configure form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.configure-form-layout]
 
 [Lists in the classic environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_UseLists.md)
 

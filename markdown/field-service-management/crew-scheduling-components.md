@@ -1,18 +1,18 @@
 ---
 title: Field Service Crew Operations components
-description: The plugin, roles, tables, script includes, and business rules for the Field Service Crew Operations application.
+description: The roles, tables, script includes, and business rules for the Field Service Crew Operations application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/crew-scheduling-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Field Service Crew Operations components
 
-The plugin, roles, tables, script includes, and business rules for the Field Service Crew Operations application.
+The roles, tables, script includes, and business rules for the Field Service Crew Operations application.
 
 Field Service Crew Operations adds the My Crew menu to the application navigator and the following modules:
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Automated Service Suggestions, Choose the right method for discovery and mapping application services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
+breadcrumb: [Automated Service Suggestions, Choose the right method for discovering and mapping services, Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery based on Predictive Intelligence
@@ -20,10 +20,10 @@ Service Mapping uses data processed by Predictive Intelligence to generate sugge
 
 Predictive Intelligence evaluates connections between application fingerprints, CIs, and processes, and ranks their relevancy. Service Mapping uses this information to create connections based on connection rules. It also generates connection suggestions for servers and load balancers for you to decide which connections to add or remove from the service instances. The confidence level indicates the likelihood of this connection being part of the service instances.
 
--   **High** - This connection is likely to an internal component that is only used by this specific component or application.
--   **Medium** - This connection is likely to a middleware component used by multiple services, such as IBM MQ or Oracle WebLogic Server.
--   **Low** - This connection is likely to an application deployed on numerous servers in the organization, typically for monitoring purposes, such as Tivoli Enterprise Monitoring Agents or MID Server.
--   **Very low** - This connection is likely to a central application used by the entire organization, for example, Microsoft Active Directory or Okta.
+-   **High** - Commonly a connection to an internal component that is only used by this specific component or application.
+-   **Medium** - Commonly a connection to a middleware component used by multiple services, such as IBM MQ or Oracle WebLogic Server.
+-   **Low** - Commonly a connection to an application deployed on numerous servers in the organization, typically for monitoring purposes, such as Tivoli Enterprise Monitoring Agents or MID Server.
+-   **Very low** - Commonly a connection to a central application used by the entire organization, for example, Microsoft Active Directory or Okta.
 
 If Predictive Intelligence is enabled, Service Mapping automatically adds connections to service instances based on connection rules. These suggestions are generated using traffic-related data from the Configuration Management Database \(CMDB\) and the analysis of application fingerprints, CIs, and processes by Predictive Intelligence.
 
@@ -52,7 +52,7 @@ If necessary, you can modify the number of the local or global connection rules 
 
 ## Enabling discovery based on Predictive Intelligence
 
-Discovery based on Predictive Intelligence works at the product level. The **sa\_ml.connection\_suggestions.active** property controls this feature. If traffic-based discovery was enabled in your deployment prior to the Quebec release and you used it to discover at least one application service, discovery based on Predictive Intelligence is disabled by default.
+Discovery based on Predictive Intelligence works at the product level. The **sa\_ml.connection\_suggestions.active** property controls this feature. If traffic-based discovery was enabled in your deployment prior to the Quebec release, discovery based on Predictive Intelligence is disabled by default if you used it to discover at least one application service.
 
 **Related topics**  
 

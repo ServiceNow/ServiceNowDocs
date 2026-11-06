@@ -9,7 +9,7 @@ classification: employee-experience-foundation
 topic_type: task
 last_updated: "2026-01-06"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Admin configurations, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure bot ID and AI assistant
@@ -55,6 +55,8 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     
     ```
 
+    **Note:** The integrationId value must match the connector name on the Moveworks side for [authentication steps](https://help.moveworks.com/ai-assistant/ai-assistant-web-surfaces/moveworks-for-web/moveworks-for-web-installation-servicenow#installation-steps).
+
     For complete configuration with branding
 
     ```
@@ -72,6 +74,13 @@ Copy the bot ID from **Moveworks** &gt; **Chat Platform** &gt; **Manage Chatbots
     }
     ```
 
+    **Note:** While installing to a **Moveworks GovCloud** instance, ignore the 'Failed to update config' error. The process installs the required assets.
+
+    Complete the setup by following these steps:
+
+    1.  Navigate to the `sys_properties` table and locate the `sn_ex_mw_chat_int.webchat.initialization_options` property.
+    2.  Update its value to `{"serverUrl": "https://webchat.moveworksgov.com"}`.
+    3.  Select **Save**.
 4.  Select **Save configuration**.
 
 
@@ -83,7 +92,7 @@ The Moveworks application is ready for use. You can access the features and func
 
 You can perform the following actions:
 
--   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
+-   Verify the Moveworks chatbot visibility from **All** &gt; **Self-Service** &gt; **Employee Center** portal. For more information, see [Use Moveworks for Employee Center on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md).
 -   Test basic functionality by invoking the assistant and asking a sample question.
 -   Check system properties and verify that all Moveworks specific properties are configured properly.
 

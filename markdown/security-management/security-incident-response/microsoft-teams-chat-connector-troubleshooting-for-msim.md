@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Microsoft Teams, Configure, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -78,7 +78,5 @@ Role required: sn\_msi.workspace\_admin
 14. Team and Channel Creation.
 
 15. Validate MS Teams Connection.
-
-    \[Omitted image "msteams-flow-designer-subflows.png"\] Alt text: MS Teams flow designer sub flows
 
 

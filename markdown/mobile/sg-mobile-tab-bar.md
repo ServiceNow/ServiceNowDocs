@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-tab-bar.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -72,7 +72,7 @@ Use a launcher screen tab to enable users to access elements in a screen launche
 </td></tr></tbody>
 </table>## General guidelines for the navigation bar
 
-Use these general guidelines when configuring your navigation bar.
+Consider these general guidelines when configuring your navigation bar.
 
 -   **Number of tabs**
     -   The navigation bar displays up to five tabs. When there are more than five tabs an overflow tab, known as the more tab, \(\[Omitted image "more-icon.png"\] Alt text: More icon.\) is added.

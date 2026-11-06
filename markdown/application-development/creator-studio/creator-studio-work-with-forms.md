@@ -7,10 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [request form, catalog item]
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Working with forms in Creator Studio
@@ -117,7 +117,7 @@ When you choose a template to start creating your form, Creator Studio builds a 
 
 The form template that Creator Studio provides is called the Creator Studio Default Template. It contains three questions to get you started. You can customize, add, and subtract questions on your form.
 
-**Note:** You can create a form using Now Assist. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
+**Note:** You can create a form using AI. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
 
 Your administrator can delete the default template, create additional form templates, and restrict who can fill out the forms. If you're an administrator, you can read more about this topic in [Creating catalog templates for use in Creator Studio apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-creating-catalog-templates.md).
 
@@ -184,8 +184,8 @@ A published form appears as an item in your catalog of offerings. For example, y
 Add a form to the app you just created. Forms contain questions that people respond to when submitting a service desk request.
 -   **[Customize your form for an app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-edit-form.md)**  
 Forms help people ask for things they need, such as a new keyboard or permission to take time off. The default form that's added when you create an app in Creator Studio needs some changes to fit your needs. For example, you must add question labels to gather information about the request.
--   **[Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md)**  
-Learn how the Now Assist in Creator application helps you to create forms for you in Creator Studio.
+-   **[Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md)**  
+Learn how ServiceNow Otto for Creator helps you to create forms for you in Creator Studio.
 -   **[Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-dynamic-behavior.md)**  
 Make a form update based on how users answer a question using dynamic behavior. For example, if a user says they want a T-shirt for an event they're attending, you can make a **T-shirt size** field required.
 -   **[Development states of a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-catalog-item-states.md)**  
@@ -197,9 +197,9 @@ Edit form settings if you need to change its basic attributes, such as its assoc
 -   **[Publish a form for your app in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-publish-form.md)**  
 Publishing forms once they're ready makes them available as catalog items in the production instance for published apps.
 -   **[Working with published forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-working-with-published-forms.md)**  
-After a form has been published, you can update it, undo changes, hide it from being visible, and delete it.
--   **[Hide a form from use in the ServiceNow AI Platform in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-deactivate-form.md)**  
-Hiding a catalog item for your app's form effectively makes the form inactive. Hidden forms are unavailable in both the app and the catalog it belongs to.
+After a form has been published, you can update it, undo changes, and hide it from being visible.
+-   **[Deleting forms and questions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-delete-forms-questions.md)**  
+Deleting unpublished forms and questions from Creator Studio removes them completely from the ServiceNow AI Platform.
 
 **Parent Topic:**[Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/building-apps-with-creator-studio.md)
 

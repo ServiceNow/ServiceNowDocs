@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-csm-install-base-items.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Import install base items with guided setup
@@ -16,7 +16,7 @@ Install base items represent the instances of the product that have been configu
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 
@@ -24,9 +24,9 @@ Each install base item references the configuration item record for the customer
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**.
 
-2.  In the Foundation Data category, click **Get Started** and then click **Import Install Base Items**.
+2.  In the Foundation Data category, select **Get Started** and then select **Import Install Base Items**.
 
 3.  Upload data from an external data source into an import set.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2025-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Translation Management System configurations, Localization Framework settings, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -49,7 +49,7 @@ The spoke provides actions to integrate with the RWS TMS service.
 
 ## RWS Translation Management System account requirements
 
-Ensure that you are registered with RWS TMS and obtain the credential information. For more information on RWS Managed Translation API, see [RWS](https://www.rws.com) documentation.
+Ensure that you are registered with RWS TMS and obtain the credential information. For more information on RWS Managed Translation API, see [RWS](https://languagecloud.sdl.com/managed-translation/api) documentation.
 
 ## Connection and Credential alias requirements
 
@@ -57,7 +57,7 @@ The IntegrationHub uses aliases to manage connection and credential information.
 
 To use the spoke connection aliases, use an associated connection record and a credential record created with the RWS spoke installation.
 
-This spoke uses the RWS TMS alias \(sn\_sdl\_spoke.RWS\_TMS\) to authorize actions.
+This spoke uses the RWS TMS alias \(sn\_sdl\_spoke.SDL\_TMS\) to authorize actions.
 
 The following are the connection alias requirements.
 

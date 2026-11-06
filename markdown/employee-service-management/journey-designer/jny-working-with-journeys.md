@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Managers, mentors, and employees work with journeys in the Employee Center
@@ -24,7 +24,7 @@ From the Employee Center, users can create, modify, and complete journeys depend
 
 **Note:**
 
--   Journeys are available from the Now Mobile app. See [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/journeys-mobile-now.md)
+-   Journeys are available from the Now Mobile app. See [Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/journeys-mobile-now.md)
 -   The total task count in the journey progress bar may be different from the **Journey overview** **All tasks** count. This total task count discrepancy is because the **Journey overview** count displays the task count for only those tasks the employee has access to.
 
 Some features may require integration with a related application, see [Integrations for Journey designer app]().
@@ -37,11 +37,13 @@ Users that are managers and have Modifier \[sn\_jny.writer\] permission create j
 Create and modify journeys for employees using Now Assist.
 -   **[Activate the Journey Summarization for Managers skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/activate-jny-summarization.md)**  
 Activate the Journey Summarization for Managers skill in ServiceNow Otto for HRSD using the AI Admin Hub console. Managers use this generative AI skill to produce and view a summary of an employee's journey based on the information that appears on the Journey detail page.
--   **[Create a task template in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md)**  
+-   **[Cancel Journey Accelerator Journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/cancel-ja-journeys.md)**  
+You can now cancel Journey Accelerator only journeys from the Employee Center portal.
+-   **[Create a task template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-create-task-template.md)**  
 Journey owners \(managers\) and mentors create templates of tasks, such as scheduling a meeting or taking a learning course, to assign to employees' journeys.
 -   **[Add task template to journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-add-task-template-journey.md)**  
 Use task templates to quickly add pre-configured tasks to an employee's journey, such as scheduling a meeting or taking a learning course.
--   **[Modify and manager journeys as a mentor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-mentor.md)**  
+-   **[Mentors can modify and manage journeys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-mentor.md)**  
 Mentors with the appropriate permission can modify journeys and add other mentors.
 -   **[Add, edit, or delete journey quick links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-mngr-mntr-quick-links.md)**  
 Journey owners and mentors add, edit, and delete quick links in a journey.
@@ -53,6 +55,8 @@ Many journeys have similar task types for multiple users. You can update similar
 Journey owners and mentors with the **Can add personalized message** permission can send a personal message to the employee assigned to a journey.
 -   **[Display learning recommendations to the Manager creating a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-learning-recom-manager-ml.md)**  
 Enable manager who is creating a journey for an employee, to add relevant learning recommendations for the employee in the Employee Center.
+-   **[Journeys on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/journeys-mobile-now.md)**  
+Journeys are created in the ServiceNow® Journey designer application to help employees navigate multi-step transitions, such as onboarding, maternity leave, or an interdepartmental transfer. The Now Mobile application enables users to perform journey-related tasks from the convenience of their mobile device.
 
 **Parent Topic:**[Using Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/using-jny-dsnr.md)
 

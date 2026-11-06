@@ -1,20 +1,20 @@
 ---
 title: Enterprise portfolios
-description: Admins create enterprise portfolios for business applications and application services using the enterprise portfolio tables. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes.
+description: Admins create enterprise portfolios for business applications and service instances using the enterprise portfolio tables. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Work with portfolios in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Enterprise portfolios
 
-Admins create enterprise portfolios for business applications and application services using the enterprise portfolio tables. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes.
+Admins create enterprise portfolios for business applications and service instances using the enterprise portfolio tables. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes.
 
 \[Omitted video\] Description: Enterprise portfolios in DPM.
 
@@ -32,11 +32,11 @@ You can create, view, and search across three different types of enterprise port
 
 -   Service portfolios
 -   Business application portfolios
--   Application service portfolios
+-   Service instance portfolios
 
-Each enterprise portfolio type is clearly marked when you search for an enterprise portfolio. For information about for each type, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
+Each enterprise portfolio type is clearly marked when you search for an enterprise portfolio. For information about each type, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
-**Note:** Even though service portfolios are visible in DPM, they’re still created using Service Portfolio Management tables. Use the enterprise portfolio tables to create business application portfolios and application service portfolios.
+**Note:** Even though service portfolios are visible in DPM, they’re still created using Service Portfolio Management tables. Use the enterprise portfolio tables to create business application portfolios and service instance portfolios.
 
 ## Life-cycle stages
 
@@ -46,7 +46,7 @@ You can filter an enterprise portfolio by life-cycle stage. Service portfolios a
 -   Operational — The solution has operational data.
 -   Retired — The solution is no longer operational and isn't tracking new data, so data isn’t up to date.
 
-The life-cycle stages for Application service portfolios are Operational or Retired.
+The life-cycle stages for Service instance portfolios are Operational or Retired.
 
 ## Needs attention details
 
@@ -54,14 +54,16 @@ When viewing an enterprise portfolio, you can see the Needs attention details br
 
 Admins can show or hide business applications in a portfolio based on its life-cycle stage. For more information, see [Configure the Digital Portfolio Management experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-experience.md).
 
+-   **[DPM Portfolio Builder Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-pb-overview.md)**  
+Enterprise portfolios are created directly in the DPM Portfolio Builder. Before May 2025, they were created using Service Portfolio Management tables. Enterprise portfolios for business applications and service instances were created from enterprise portfolio tables.
 -   **[Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md)**  
-Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business applications, and application service. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Application service portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
+Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business application, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
 -   **[Navigate service enterprise portfolio templates in DPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio-templates.md)**  
 Navigate three service enterprise portfolio templates: EDUCAUSE Higher Education IT Service Portfolio, IT Service Portfolio, and Sample Organizational Structure.
--   **[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)**  
-Admins create enterprise portfolios for business applications and application services. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes. Similar to personal portfolios, you can see metrics to assess the portfolio performance.
 -   **[Create enterprise service portfolios using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolio-using-template.md)**  
 Admins can create enterprise portfolios from scratch or by using a template. Enterprise portfolios are structured in a nesting tree format to facilitate navigation of service-related items and taxonomy nodes. Similar to personal portfolios, you can see key metrics to assess the portfolio performance.
+-   **[Create enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-create-enterprise-portfolios.md)**  
+Admins create enterprise portfolios for business applications and service instances. Enterprise portfolios are structured in a nesting tree format to navigate service-related items and taxonomy nodes. Similar to personal portfolios, you can see metrics to assess the portfolio performance.
 
 **Parent Topic:**[Work with portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-explore-portfolios.md)
 

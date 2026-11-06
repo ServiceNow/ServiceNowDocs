@@ -7,7 +7,7 @@ release: yokohama
 product: Core UI Interactive Filters
 classification: core-ui-interactive-filters
 topic_type: task
-last_updated: "2025-09-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Interactive Filters on dashboards, Interactive Filters, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -18,7 +18,7 @@ You can configure a Performance Analytics breakdown on a dashboard to act as an 
 
 ## Before you begin
 
-The dashboard should be configured with both reports and Performance Analytics widgets. The dashboard must be configured with at least one breakdown source for the Performance Analytics widgets to follow, as described in [Add breakdown sources to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md). Finally, the dashboard must have an interactive filter that is based on the same table as one of the breakdown sources.
+The dashboard should be configured with both reports and Performance Analytics widgets. The dashboard must be configured with at least one breakdown source for the Performance Analytics widgets to follow, as described in [Add breakdown sources to a responsive dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_ExistingBreakdownDashboard.md). Finally, the dashboard must have an interactive filter that is based on the same table as one of the breakdown sources.
 
 Role required: pa\_power\_user, pa\_admin, or admin
 
@@ -30,7 +30,7 @@ When you select a [breakdown](https://raw.githubusercontent.com/ServiceNow/Servi
 
 1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Dashboards**.
 
-2.  Select the dashboard with the breakdown you want to make act as an interactive filter.
+2.  Select the Core UI dashboard with the breakdown you want to make act as an interactive filter.
 
 3.  Click the context menu icon \[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon and select **Dashboard Properties**.
 
@@ -67,7 +67,7 @@ When you select a [breakdown](https://raw.githubusercontent.com/ServiceNow/Servi
 
 The selected breakdown acts as an interactive filter on the dashboard's reports.
 
-**Note:** Performance Analytics widgets on the dashboard do not follow interactive filters. Separately filter those widgets on the same breakdown source by using the breakdown dashboard controls. For more information, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+**Note:** Performance Analytics widgets on the dashboard do not follow interactive filters. Separately filter those widgets on the same breakdown source by using the breakdown dashboard controls. For more information, see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 **Parent Topic:**[Interactive Filters on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/core-ui-interactive-filters/c_PublishersOnHomepages.md)
 

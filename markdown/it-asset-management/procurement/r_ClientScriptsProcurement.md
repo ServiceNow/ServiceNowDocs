@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, IT Asset Management]
+breadcrumb: [Components installed with Procurement, Activate Procurement, Procurement, Common applications, Asset Management]
 ---
 
 # Client scripts installed with Procurement
@@ -54,9 +54,4 @@ Changes the **Purchase Order Line** field on the Receiving Slip Line form to man
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/procurement/r_InstalledWithProcurement.md)
-
-**Related topics**  
-
-
-[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/client-scripts.md)
 

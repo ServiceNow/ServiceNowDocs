@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request SaaS License Management
@@ -25,6 +25,8 @@ Role required: admin
 ## About this task
 
 To use the SaaS License Management application, you must request the Software Asset Management — SaaS License Management plugin \(sn\_sam\_saas\_int\) from the ServiceNow Store.
+
+**Note:** When upgrading to the Software Asset Management – SaaS License Management plugin \(sn\_sam\_saas\_int\) version 16.0.6 or later in the Zurich release, verify that the Software Asset Workspace store app \(sn\_sam\_workspace\) is updated to version 9.0.4.
 
 ## Procedure
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,8 +54,6 @@ Role required: admin
 ## Specify requester location
 
 Administrators can control how the delivery address is populated. By default the delivery address is defined by the client script called set location.
-
-\[Omitted image "SpecifyRequesterLocation.png"\] Alt text: Requested for
 
 When the two-step checkout process is enabled, the `set location` script retrieves the address of the user and enters formatted details in the Deliver to field.
 

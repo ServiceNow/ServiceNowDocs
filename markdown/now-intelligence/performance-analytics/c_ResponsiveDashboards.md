@@ -7,16 +7,29 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-08-13"
-reading_time_minutes: 1
-breadcrumb: [Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Working with responsive dashboards
 
 Responsive dashboards enable you to share widgets such as reports and Performance Analytics visualizations in the classic environment. An easy-to-use drag and drop canvas helps you create, edit, and arrange content, and then share it with colleagues.
 
-Use dashboards to:
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
+
+The ServiceNow AI Platform platform supports two dashboard technologies:
+
+-   The newer Platform Analytics dashboards, described in [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md)
+-   The older Core UI Responsive Dashboards
+
+Starting in Australia, you can access all dashboards of either type through the [Dashboards library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/find-dashboard-library.md). However, you have Core UI dashboards only on instances that were originally created before the Xanadu release.
+
+**Note:**
+
+Owners of Core UI responsive dashboards have the option to migrate these dashboards to Platform Analytics experience. For more information, see [Migrate dashboards that you own](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-migration-migrate-dbs-you-own.md).
+
+Use Core UI dashboards to:
 
 -   Create and edit Performance Analytics visualizations and other widgets directly from the dashboard.
 -   Quickly find and preview widgets, then add them to the dashboard from the Add Widget pane.
@@ -39,4 +52,6 @@ ServiceNow mobile apps don’t give access to dashboards as dashboards aren’t 
 
 
 [Set responsive dashboards as your home](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/t_SetDashboardsAsHome.md)
+
+[Differences between Core UI and Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/differences-between-core-ui-ne-dbs.md)
 

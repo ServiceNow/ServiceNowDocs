@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer and maintain Career Conversations, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Install and configure Career Conversations, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add and manage Talking Points
@@ -18,7 +18,7 @@ As a Career Conversations admin, you can add or update talking points that are u
 
 ## Before you begin
 
-Role required: sn\_egd\_act.admin or admin
+Role required: sn\_egd\_act.admin
 
 ## Procedure
 
@@ -31,5 +31,5 @@ Role required: sn\_egd\_act.admin or admin
 4.  Select **Submit**.
 
 
-**Parent Topic:**[Administer and maintain Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-administration.md)
+**Parent Topic:**[Install and configure Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-install-config.md)
 

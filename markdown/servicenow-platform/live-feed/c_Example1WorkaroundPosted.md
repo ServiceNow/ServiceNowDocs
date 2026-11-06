@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed table notification examples, Live Feed table notifications, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -35,8 +35,6 @@ This example demonstrates a table notification that generates an automatic messa
     // only post to Live Feed when the Workaround field changes
     answer  = changedFields. contains ( "work_around" ) ;
     ```
-
-    \[Omitted image "TableNotification1.png"\] Alt text: Workaround posted example
 
 
 **Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create an event profile, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,15 +22,13 @@ For the mapping step, as a user with the **sn\_si.ingestion\_profile\_admin** ro
 
 The following figures are examples of the default mapping grids that are provided for each type of event profile. This default mapping can be edited. This modification allows you to customize the fields that populate the security incident. With the mapping step, you can visualize how adding or removing event fields impacts the SIR security incident field values.
 
-Select the **Alert Name**, and after you click to **Fetch Sample Data**, the Splunk alert field values are populated on the left side of the form when sample alerts are ingested by the profile. These are the Splunk alert fields that you map to the SIR security incident fields.
+Select the **Alert Name**, and after you select **Fetch Sample Data**, the Splunk alert field values are populated on the left side of the form when sample alerts are ingested by the profile. These are the Splunk alert fields that you map to the SIR security incident fields.
 
 \[Omitted image "splunk-event-ingestion-alerts-mapping-fetch.png"\] Alt text: Default mapping form for alerts.
 
-After you click to load attachment data for forwarded events, the Splunk event fields are populated on the left side of the form. These are the Splunk data fields that are mapped to the SIR security incident fields.
+After you select to load attachment data for forwarded events, the Splunk event fields are populated on the left side of the form. These are the Splunk data fields that are mapped to the SIR security incident fields.
 
-\[Omitted image "mapping\_default.png"\] Alt text: Default mapping form for events.
-
-You may prefer to review a few sample alerts on your Splunk console to ingest for the field mapping configuration step. This step is labeled, **Mapping** on the progress bar. If this page is not displayed, click **Mapping** on the progress bar.
+You may prefer to review a few sample alerts on your Splunk console to ingest for the field mapping configuration step. This step is labeled, **Mapping** on the progress bar. If this page is not displayed, select **Mapping** on the progress bar.
 
 Mapping alerts and exporting events on-demand from your Splunk enterprise console includes the following concepts and tasks:
 

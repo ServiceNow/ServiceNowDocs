@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2024-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating a cloud account, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Creating a cloud account, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Approve a cloud account request
@@ -22,12 +22,12 @@ Role required: sn\_itom\_cam.cw\_approver
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Cloud Workspace** &gt; **View accounts**.
+1.  Select **Requests** &gt; **Pending approvals**.
 
-2.  Select **Requests** &gt; **Pending approvals**.
+2.  Review the request and select **Approve** or **Deny**.
 
-3.  Review the request and select **Approve** or **Deny**.
+3.  Confirm your decision.
 
-4.  Confirm your decision.
 
+**Parent Topic:**[Creating a cloud account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/creating-an-account.md)
 

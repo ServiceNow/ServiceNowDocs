@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,8 +30,6 @@ From the home page of the Catalog Builder, you can do the following:
 ## How does the Catalog Builder work
 
 Catalog administrator creates templates for a business or service group. The business owner or service owner gathers catalog requirements and creates catalog items from these templates. All advanced capabilities are added by the catalog administrators or developers.
-
-\[Omitted image "catalog-builder.png"\] Alt text: Catalog item creation process in Catalog Builder
 
 ## Catalog item states
 

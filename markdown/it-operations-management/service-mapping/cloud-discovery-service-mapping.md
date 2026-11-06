@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-11-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Service Mapping, Cloud Environments, IaaS, PaaS]
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
@@ -34,7 +34,7 @@ The discovery process in IaaS environments mirrors that used for private network
 
 In contrast to IaaS environments, PaaS environments require a distinct discovery process.
 
-1.  Using cloud platform tools and service accounts - The process begins with a dedicated service account configured for the cloud environment hosting the application service. Service Mapping and Discovery use this service account to access devices and applications. To learn more about setting up an account, see [Setting up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-cloud-service-account.md).
+1.  Using cloud platform tools and service accounts - The process begins with a dedicated service account configured for the cloud environment hosting the application service. Service Mapping and Discovery use this service account to access devices and applications. To learn more about setting up an account, see [Set up a cloud service account](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-cloud-service-account.md).
 2.  Horizontal discovery - Discovery performs horizontal discovery in two steps:
     1.  Probes are used to help identify infrastructure devices. See [Horizontal discovery process flow with probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoProcessFlows.md) for detailed information about the four phases of discovery using probes.
     2.  Patterns help find the applications and services running on those devices. See [Pattern-based discovery in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/pattern-based-discovery.md) and [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/disco-process-flow-patterns.md) to learn more about discovery using patterns.

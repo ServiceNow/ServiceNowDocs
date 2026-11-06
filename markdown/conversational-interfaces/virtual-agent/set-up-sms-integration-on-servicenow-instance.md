@@ -1,5 +1,5 @@
 ---
-title: Set up SMS integration on ServiceNow instance
+title: Set up SMS integration on a ServiceNow instance
 description: Set up conversational SMS on a ServiceNow instance to enable customers to seamlessly talk to virtual or live agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/set-up-sms-integration-on-servicenow-instance.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
-breadcrumb: [Set up and configure the conversational SMS Integration with AWS End User Messaging application, Integrating Conversational SMS with AWS End User Messaging, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, SMS with Amazon End User Messaging, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Set up SMS integration on ServiceNow instance
+# Set up SMS integration on a ServiceNow instance
 
 Set up conversational SMS on a ServiceNow instance to enable customers to seamlessly talk to virtual or live agents.
 
@@ -221,5 +221,5 @@ AWS IAM Auth.
 </table>    5.  Select **Submit**.
 
 
-**Parent Topic:**[Set up and configure the conversational SMS Integration with AWS End User Messaging application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/set-up-conversational-sms-integration-with-amazon.md)
+**Parent Topic:**[Configuring Conversational SMS Integration with AWS End User Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-ci-sms-with-aws.md)
 

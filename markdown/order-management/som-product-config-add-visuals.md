@@ -1,30 +1,26 @@
 ---
 title: Add product visuals
-description: Add visuals to your product offering in Sales Customer Relationship Management that let agents easily see what the product looks like.
+description: Add visuals to your product offering in Sales Customer Relationship Management to show what the product looks like in the product catalog.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-product-config-add-visuals.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add product visuals
 
-Add visuals to your product offering in Sales Customer Relationship Management that let agents easily see what the product looks like.
+Add visuals to your product offering in Sales Customer Relationship Management to show what the product looks like in the product catalog.
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
-
-## About this task
-
-Add images to your product offerings so that order agents see the products theyâ€™re placing into orders and quotes.
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering that you're working with.
 
@@ -57,4 +53,11 @@ Add images to your product offerings so that order agents see the products theyâ
 -   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-add-unit-of-measure.md)
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-relationship-groups.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/doc-processor-submit-verification-document.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Document Processor, Integrating with Document Processor, Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Document Processor, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Submit a document for verification
@@ -16,7 +16,7 @@ A document collector can collect and submit a document for verification.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_doc\_processor.collector
 
 ## Procedure
 
@@ -32,13 +32,26 @@ Role required: admin
 
     To work on a verification task that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
 
-5.  Complete these steps as applicable:
+5.  On the form under Document Information, fill in the fields as required.
 
-    -   Under Document Information, enter information into the applicable fields.
-    -   Attach any documents to be submitted for verification.
-6.  In the **Work notes** field, enter any comments.
+    |Field|Description|
+    |-----|-----------|
+    |Document category|The document category assigned to this document, such as Proof of Identity.|
+    |Document type|The document type assigned to this document, such as Passport.|
+    |Valid through|The date up to which the document is valid.|
+    |File name|Name of the file.|
+    |File format|The file format of the document.|
+    |File size|The size of the file.|
 
-7.  Select **Submit document**.
+6.  On the form under Process Information, fill in the fields as required.
+
+    For a description of the field values, see [Create document list item definitions for a document list definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/doc-processor-associate-document-list-items-to-category.md).
+
+7.  Attach any documents to be submitted for verification.
+
+8.  In the **Work notes** field, enter any comments.
+
+9.  Select **Submit document**.
 
 
 ## Result

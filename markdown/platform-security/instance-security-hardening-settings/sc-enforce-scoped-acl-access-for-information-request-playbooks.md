@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.enforce\_security\_scope.sn\_gsm\_info\_req** property to control access to playbook data for the Information Request playbooks feature.
 
-The Information Request Playbook application enables public sector end users to submit and track public record requests and provides government agents with a pre-defined process for handling and resolving these requests. If **glide.enforce\_security\_scope.sn\_gsm\_info\_req** is not set to true, unexpected access could be granted to playbook data for the Information Request playbooks application. Set this property to true to only consider ACLs from the sn\_gsm\_info\_req scope when granting access.
+The Information Request Administration application enables public sector end users to submit and track public record requests and provides government agents with a pre-defined process for handling and resolving these requests. If **glide.enforce\_security\_scope.sn\_gsm\_info\_req** is not set to true, unexpected access could be granted to playbook data for the Information Request playbooks application. Set this property to true to only consider ACLs from the sn\_gsm\_info\_req scope when granting access.
 
 ## More information
 
@@ -50,7 +50,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 

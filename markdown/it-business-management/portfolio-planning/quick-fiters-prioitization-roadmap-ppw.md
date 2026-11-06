@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -31,8 +31,6 @@ Quick filters help you filter the data shown in the List and Hierarchy views of 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
 3.  Based on the tab you want to work in, select **Prioritization**, **Roadmap**, or **Capacity Planning**.
-
-    By default, the data in the Roadmap tab is filtered with the Planning state of **Prioritized** and you see only prioritized items.
 
 4.  From the portfolio plan header, select **Filter** and add conditions.
 

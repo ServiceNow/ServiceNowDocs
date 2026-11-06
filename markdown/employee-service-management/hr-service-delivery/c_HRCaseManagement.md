@@ -1,5 +1,5 @@
 ---
-title: HR Case Management
+title: Use HR Case Management
 description: You use the Case and Knowledge Management application to create, view, or edit HR cases in the scoped version of HR. HR cases are created from HR requests or inquiries related to HR account or systems, benefits, payroll, performance management, reporting, talent acquisition, time and expense reporting, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/c\_HRCaseManagement.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Case Management
+# Use HR Case Management
 
 You use the Case and Knowledge Management application to create, view, or edit HR cases in the scoped version of HR. HR cases are created from HR requests or inquiries related to HR account or systems, benefits, payroll, performance management, reporting, talent acquisition, time and expense reporting, and more.
 
@@ -67,5 +67,5 @@ Your organization can assign VIP status to users, such as the CEO and vice-presi
 -   **[Creating bulk cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/bulk-case.md)**  
 You can create the same type of HR case, for multiple employees, without having to create the same case multiple times. Segments for a bulk case help you define specific values for groups of employees.
 
-**Parent Topic:**[Explore and use HR Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
+**Parent Topic:**[Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/case-knowledge-management-landing-page.md)
 

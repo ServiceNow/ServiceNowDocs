@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using decision tables, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Modify decision table rules in Workflow Studio
@@ -74,7 +74,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
         -   Select the condition value and provide a new value.
         -   Update both the operator and the condition value.
     -   To modify a result, select the result value and provide a new value.
-5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \(\[Omitted image "ellipses.png"\] Alt text: Decision rule row menu options.\) to the left of the row number, and then select **Open in Decision rule view**.
+5.  To modify a decision table condition in Decision rule view, select the Decision rule row menu options icon \[Omitted image "ellipses.png"\] Alt text: to the left of the row number, and then select **Open in Decision rule view**.
 
     Decision rule view supports complex conditions that may not fit into the table structure.
 
@@ -130,7 +130,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
 4.  Reorder the rows using either of the following methods.
 
-<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d158060e563">
+<table id="choicetable_zvf_qr5_sbc"><tbody><tr><td id="d172007e562">
 
 **Reorder by changing the Rank number**
 
@@ -142,7 +142,7 @@ Role required: admin, decision\_table\_admin, or delegated developer permissions
 
  This method is most effective for reordering rows in large decision tables.
 
-</td></tr><tr><td id="d158060e596">
+</td></tr><tr><td id="d172007e595">
 
 **Reorder by dragging and dropping a row**
 

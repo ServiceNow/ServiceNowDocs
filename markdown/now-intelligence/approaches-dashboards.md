@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/approaches-dashboards.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Dashboards, Platform Analytics experience, Platform Analytics]
 ---

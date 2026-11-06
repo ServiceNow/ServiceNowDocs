@@ -1,20 +1,24 @@
 ---
 title: Creating pages and page variants
-description: You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
+description: You can create new pages or customize existing pages in UI Builder to display table and record information in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-ws-create-page-variant.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-25"
-reading_time_minutes: 4
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Creating pages and page variants
 
-You can create new pages or customize existing pages in UI Builder to display table and record information in CSM Configurable Workspace.
+You can create new pages or customize existing pages in UI Builder to display table and record information in CRM Workspace.
 
-When you create a page in UI Builder, you have the option to create a page from scratch, create a page from a template, or you can duplicate and modify a page variant.
+When you create a page in UI Builder, you have three options:
+
+-   Create a page from scratch
+-   Create a page from a template
+-   Duplicate and modify a page variant
 
 ## UI Builder terminology
 
@@ -128,18 +132,28 @@ By creating a page variant, you can target an experience for a specific audience
 </td></tr></tbody>
 </table>For more information about customizing record pages, see [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-pages.md).
 
-**Note:** If a page is modified after page variants have been created, the changes to the page do not sync with the variants. These changes must be made manually.
+**Note:** If a page is modified after page variants have been created, the changes to the page don't sync with the variants. These changes must be made manually.
 
-## Determining which page to use
+## Determining which record page is used
 
-Each record page has an order number. CSM Configurable Workspace uses the active record page with the lowest order number as the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information.
+There are several settings that determine which record page the system uses to display information in CRM Workspace.
 
-Additionally, the system looks at the page settings in this order:
+-   **Order value**: Each record page has an order value. The system uses this order value to determine which record page is used. The active page with the lowest order value is the default record page.
+-   **Conditions**: A record page can have one or more conditions that determine when it is used. For example, a record page can have a condition that specifies a table, such as the Interaction \[interaction\] table. This condition limits the use of the page to records from the Interaction table.
+-   **Audience**: A record page can have a defined audience or set of user roles such as the sn\_customerservice\_agent role. The audience determine the users that have access to the page. If a record page has no assigned user roles, then every role can access it.
 
-1.  Conditions \(i.e., table\)
-2.  Audience \(the user roles that have access to the page\)
+The system chooses a record page by evaluating the settings on the available active pages:
 
-If a page variant has no assigned user roles, then every role can access it.
+-   If there are no active pages with conditions or audience, the system chooses the page with the lowest order value.
+-   If there is an active page with one or more conditions and those conditions are met, the system chooses that page.
+-   If there are two active pages with the same conditions, the system chooses the page with the lowest order value.
 
 For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
+
+**Related topics**  
+
+
+[Create a Configurable Workspace experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-configurable-workspace-experience-uib.md)
+
+[Create a Configurable Workspace page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-configurable-workspace-page-uib.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Telecommunications Network Inventory]
 ---
@@ -28,7 +28,7 @@ Key uses of the Telecommunications Network Inventory application include:
 
 -   **Network asset life-cycle management**
 
-    Help the service providers to understand their spare inventory equipment, currently deployed assets in the network, and free capacity \(for example, the available slots or ports\) for the new network. Capture, store, and maintain accurate resource life-cycle data as a single source of truth. Leverage your platform workflows to manage your resource and service life cycles across the organization.
+    Help service providers understand their spare inventory equipment and currently deployed assets in the network. This includes free capacity, such as available slots or ports, for new network additions. Capture store, and maintain accurate resource life-cycle data as a single source of truth. Leverage your platform workflows to manage your resource and service life cycles across the organization.
 
 -   **Telecommunications circuit design and resource assignment**
 
@@ -57,7 +57,7 @@ Leverage Configuration Management Database \(CMDB\) classes, which are telecommu
 
 </td><td>
 
-[Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
+[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md)
 
 </td></tr><tr><td>
 
@@ -65,7 +65,7 @@ Quickly model equipment and design complex templates
 
 </td><td>
 
-[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 
 </td></tr><tr><td>
 
@@ -73,7 +73,7 @@ Automate network service creation by setting complex design criteria that initia
 
 </td><td>
 
-[Telecommunications design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.md)
+[Design and assign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-circuit-design-resource-assignment.md)
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Model your 5G network
 
 </td><td>
 
-[Modeling a 5G network function in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/modeling_5g_xnf.md)
+[Model 5G network function](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/modeling_5g_xnf.md)
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Provide a visualization of the circuit and its underlying connection elements
 
 </td><td>
 
-[Visualization of circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Automate the network inventory's design and assign process using the function ca
 
 </td><td>
 
-[Telecommunication Network Inventory workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
+[Workflows in Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunication-network-inventory-workflows-flow-designer.md)
 
 </td></tr><tr><td>
 
@@ -161,7 +161,7 @@ Visualize and manage rack and cabinet
 
 </td><td>
 
-[Visualization of a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.md)
+[Visualizing a rack or cabinet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-of-rack.md)
 
 </td></tr><tr><td>
 
@@ -169,7 +169,7 @@ View the geographical location of your network sites, the floor plan in a datace
 
 </td><td>
 
-[Visualization of your network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
+[Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/enable-branch-operations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Planning and configuring, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
 
 # Enable branch operations
@@ -63,7 +63,7 @@ The Location manager contributor workspace contains these pages.
 
 The Location manager contributor role can select metric numbers from the landing or Branch Performance Metrics dashboard pages to drill down to a breakdown list or KPI Details performance analytics view.
 
-For more information about analytics and reporting for Financial Services Operations, see [Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md) and [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/kpi-details.md).
+For more information about analytics and reporting for Financial Services Operations, see [Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md) and [KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/kpi-details.md).
 
 For more information on workspaces in Financial Services Operations, see [Workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-workspace.md).
 

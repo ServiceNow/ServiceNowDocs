@@ -5,8 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-content-pack.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
+keywords: [Analytics and reporting for public sector digital services, PSDS Analytics and reporting]
 breadcrumb: [Public Sector Digital Services \(PSDS\)]
 ---
 
@@ -25,9 +26,4 @@ The following roles and tasks are associated with this Solution:
 Use this dashboard to monitor the health of citizen services, gain insights on how efficiently government cases are handled, and assess the overall performance of services offered.
 -   **[Public Services Performance Overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-services-performance-dashboard.md)**  
 Use the Public Services Performance Overview dashboard to assess key performance indicators and data visualizations on public services offered to and requested by constituents, businesses, and agencies.
-
-**Related topics**  
-
-
-[Analytics and Reporting Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 

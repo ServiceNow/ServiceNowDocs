@@ -7,16 +7,17 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-02-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaboration dispute workflow, Chargeback stage, Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+keywords: [associate dispute transactions]
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Associate dispute transaction
 
 List associated transactions identified by Visa after the chargeback creation. Review these transactions and associate them with the disputed transaction to help deflect and resolve the dispute in the next activity.
 
-1.  View the associated transaction\(s\) and select them.
+1.  View the associated transaction\(s\) and select the required ones.
 2.  Select **Continue**.
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)

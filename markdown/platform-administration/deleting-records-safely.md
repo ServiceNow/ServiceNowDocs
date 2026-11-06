@@ -1,16 +1,16 @@
 ---
-title: Deleting records safely
+title: Deleting records safely in Core UI
 description: Safely delete records from a table without using scripts and without deleting the table by creating and executing delete jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/deleting-records-safely.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Manage data growth in Core UI, Data Management, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Deleting records safely
+# Deleting records safely in Core UI
 
 Safely delete records from a table without using scripts and without deleting the table by creating and executing delete jobs.
 
@@ -33,7 +33,7 @@ Safely delete records from a table without using scripts and without deleting th
     Use the rollback option in the delete job If you need to restore deleted records after the job has run.
 
 
-If you must delete a large number of records from a table rather than a selection of records, use the table cleaner option. For details, see [Deleting older or unwanted records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-older-records.md).
+If you must delete a large number of records from a table rather than a selection of records, use the table cleaner option. For details, see [Deleting older or unwanted records in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/deleting-older-records.md).
 
 -   **[Mark records for deletion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/mark-records-for-deletion.md)**  
 Mark records for deletion according to one or more criteria by creating a delete job.
@@ -44,5 +44,5 @@ Schedule a date and time to execute a delete job or execute the job immediately.
 -   **[Rollback a delete job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/rollback-delete-job.md)**  
 Rollback a completed delete job to restore the deleted records.
 
-**Parent Topic:**[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_DataManagement.md)
+**Parent Topic:**[Managing data growth in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/data-management-policies.md)
 

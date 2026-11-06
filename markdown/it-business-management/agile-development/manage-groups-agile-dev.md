@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Assignment groups in Agile Development 2.0
@@ -25,7 +25,7 @@ A user with the admin role can create assignment groups of the type **Agile Team
 ## Adding members to assignment groups
 
 -   New customers: After an agile group is created, you can request your admin to [add](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/add-group-members-to-group.md) members to the group.
--   Existing customers: If you upgraded to the Yokohama release, a user with the scrum\_admin role or the scrum\_master role can add members to your agile group.
+-   Existing customers: If you upgraded to the Brazil release, a user with the scrum\_admin role or the scrum\_master role can add members to your agile group.
 
     **Note:** You can restrict this function just to the admin by creating the **scrum.disallow\_scrum\_add\_group\_member** property and setting it to **true**. For information on how to create a property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
 
@@ -43,5 +43,5 @@ Convert an existing release team to an assignment group of type Agile Team so th
 -   **[Add members to an assignment group in Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/add-group-members-to-group.md)**  
 Add members who would work on the scrum stories and tasks.
 
-**Parent Topic:**[Using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
+**Parent Topic:**[Managing your product development using Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/using-agile-development-2-0.md)
 

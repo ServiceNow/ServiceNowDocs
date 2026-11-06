@@ -1,5 +1,5 @@
 ---
-title: Strategic Portfolio Management for Telecom Fiber rollout project template
+title: Strategic Portfolio Management for Telecommunications Fiber rollout project template
 description: This template describes the various tasks required for a fiber rollout.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-fiber-rollout-template.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Strategic Portfolio Management for Telecom
 classification: strategic-portfolio-management-for-telecom
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Strategic Portfolio Management for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [Strategic Portfolio Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Strategic Portfolio Management for Telecom Fiber rollout project template
+# Strategic Portfolio Management for Telecommunications Fiber rollout project template
 
 This template describes the various tasks required for a fiber rollout.
 

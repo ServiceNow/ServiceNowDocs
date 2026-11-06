@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/se
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
-topic_type: task
-last_updated: "2025-01-30"
+topic_type: concept
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,13 +16,9 @@ breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response 
 
 You can activate and set up the CrowdStrike Falcon Insight to interface with your ServiceNow AI Platform instance and Security Incident Response product.
 
-## Before you begin
-
 Role required: admin
 
 Before you can use CrowdStrike Falcon Insight for the Security Operations integration, you must download it from the ServiceNow Store.
-
-## About this task
 
 <table id="table_btf_hzs_cwb"><thead><tr><th>
 

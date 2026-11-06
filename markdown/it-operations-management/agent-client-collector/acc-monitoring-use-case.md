@@ -1,20 +1,20 @@
 ---
 title: Agent Client Collector Monitoring use case
-description: The Agent Client Collector Monitoring use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
+description: The Agent Client Collector Monitoring \(ACC-M\) use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-monitoring-use-case.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Agent Client Collector Monitoring, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring use case
 
-The Agent Client Collector Monitoring use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
+The Agent Client Collector Monitoring \(ACC-M\) use case demonstrates how organizations can achieve unified monitoring across hybrid IT environments.
 
 ## Use case overview
 
@@ -63,7 +63,7 @@ ACC-M collects health metrics, performance data, and alert statuses from both on
 
 Improved response:
 
- With a unified view of all resources, the IT operations team can quickly identify where issues are occurring and prioritize them based on overall service impact, reducing their mean-time-to-resolution \(MTTR\).
+ With a unified view of all resources, the IT operations team can quickly identify where issues are occurring and prioritize them based on overall service impact. This reduces mean-time-to-resolution \(MTTR\).
 
 </td></tr><tr><td>
 

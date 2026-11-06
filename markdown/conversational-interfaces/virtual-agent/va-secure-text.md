@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Virtual Agent Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Secure Text user input control
@@ -137,7 +137,7 @@ Skip reprompting
 
 </td><td>
 
-No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or [Dialog Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/c_dialog-acts.md), the Virtual Agent bypasses this node and automatically retain its original value.
+No-code condition statement or low-code script that specifies a condition for letting users skip reprompting in the conversation. When a preceding node is revisited through a topic loopback or [Dialog Act](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/c_dialog-acts.md), the Virtual Agent bypasses this node and automatically retain its original value.
 
 </td></tr></tbody>
 </table>## Example Secure Text user input control
@@ -161,13 +161,13 @@ Input prompt
 </td></tr></tbody>
 </table>## Channel support
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
 |Web UI|Supported|None.|
 |Mobile UI|Supported|None.|
-|Now Assist panel|Supported|None.|
+|ServiceNow Otto panel|Supported|None.|
 |Microsoft Teams|Supported|None.|
 |Slack|Supported|Slack users can edit text previously entered in a conversation. However, Virtual Agent processes messages as they’re first entered. If a Slack user edits text input, such as a comment to update a case, then Virtual Agent doesn’t evaluate the edited update.|
 |Workplace|Supported|None.|
@@ -178,5 +178,5 @@ Input prompt
 |Apple Messages for Business|Supported|None.|
 |Alexa \(Voice\)|Supported|For screen devices, character limits may apply. For more information, see the [Alexa developer documentation](https://developer.amazon.com/en-US/docs/alexa/custom-skills/display-interface-reference.html).|
 
-**Parent Topic:**[Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

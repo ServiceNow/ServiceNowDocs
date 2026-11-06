@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center Pro widgets
@@ -326,7 +326,7 @@ For more information, see [Employee profile](https://raw.githubusercontent.com/S
 |Timeoff Accrual Balance - Home Page|timeoff-accrual-balance-home-page|Shows the time off and leave balances home page.|
 |Preferences|preferences|Shows the user preferences such as accessibility and language.|
 
-For more information, see [Employee Center Pro Kiosk overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md).
+For more information, see [Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-overview.md).
 
 For more information on configuring widgets, see [Customize Employee Center Pro Kiosk widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-topic-inst-options.md).
 
@@ -334,8 +334,6 @@ For more information on configuring widgets, see [Customize Employee Center Pro 
 
 **Related topics**  
 
-
-[Approvals experience reference]()
 
 [Block content form]()
 
@@ -359,15 +357,11 @@ For more information on configuring widgets, see [Customize Employee Center Pro 
 
 [Content Library Overview dashboard]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -377,5 +371,7 @@ For more information on configuring widgets, see [Customize Employee Center Pro 
 
 [Properties installed with Content Publishing]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

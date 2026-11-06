@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Voice with Workforce Optimization for ITSM, Routing work items using Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Using Voice, Routing work items, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Associate Amazon Connect queues for ITSM to a ServiceNow instance
@@ -53,7 +53,7 @@ A routing profile links queues to agents. Every agent must have a routing profil
 
 1.  Create placeholder queues for an Amazon Connect \(phone\) service channel if you need additional queues.
 
-    For more information on creating a queue, see [Create a work item queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-queue.md).
+    For more information on creating a queue, see Create a work item queue.
 
     **Note:** Do not add work item routing conditions when you create placeholder queues.
 

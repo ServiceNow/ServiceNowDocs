@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # AES user interface
@@ -22,7 +22,7 @@ AES is a web user interface that lets you build custom applications for your org
 
 The App Engine Studio home page provides easy access to creating apps, viewing your app, quick start actions, and templates.
 
-\[Omitted image "aes-landing-purple-update.png"\] Alt text: App Engine Studio home page
+\[Omitted image "aes-landing-purple-update.png"\] Alt text: AES home page with sections for your apps, templates, and resources.
 
 Use the top navigation bar to view your apps, access app templates, and find help resources. You can also access the help center by selecting the \[Omitted image "aes-help-center-icon.png"\] Alt text: Help center icon in the top right.
 
@@ -38,29 +38,29 @@ Users can access the following in AES:
 
 ## My Apps tab
 
-View and search the applications you created.
+View and search the applications that you created.
 
-\[Omitted image "aes-my-apps-tab-purple.png"\] Alt text: AES My Apps page
+\[Omitted image "aes-my-apps-tab-purple.png"\] Alt text: On the My apps tab, you can view and search the applications that you created.
 
 ## Templates tab
 
 Provides a list of available app templates.
 
-\[Omitted image "aes-templates-tab-purple.png"\] Alt text: AES Templates page
+\[Omitted image "aes-templates-tab-purple.png"\] Alt text: The Templates tab lists all available app templates.
 
 ## Resources tab
 
 View tutorials and helpful resources to get started in AES.
 
-\[Omitted image "aes-resources-tab-purple.png"\] Alt text: AES Resources page
+\[Omitted image "aes-resources-tab-purple.png"\] Alt text: The Resources tab provides tutorials and guidance to help you get started using AES.
 
-## App Home
+## App home
 
 Add data, experience, logic and automation, and security to your app from the app home.
 
 **Note:** When viewing an app home page in AES, if you tab to a section \(such as tables or experiences\) with more than three items, the **Sort by** option enables you to display them alphabetically or temporally, by **Newest** or **Oldest**.
 
-\[Omitted image "aes-app-home-purple-sort.png"\] Alt text: An application home page in AES viewing tabs
+\[Omitted image "aes-app-home-purple-update.png"\] Alt text: The app home page displays app elements, such as data tables and end-user forms.
 
 Some objects require access depending on your role. You can request access by selecting **Contact your system administrator** to become a delegated developer. For more information on the delegated developer role, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
@@ -68,7 +68,7 @@ Some objects require access depending on your role. You can request access by se
 
 View general settings of your application such as the name, description, and logo. You can also open your application in ServiceNow Studio or delete your application.
 
-\[Omitted image "aes-app-properties-purple.png"\] Alt text: Application properties page
+\[Omitted image "aes-app-properties-purple.png"\] Alt text: View and update the application settings.
 
 ## Repository configuration
 

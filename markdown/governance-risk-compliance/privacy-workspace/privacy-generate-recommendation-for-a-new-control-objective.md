@@ -7,8 +7,8 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Privacy Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_reco\_template.rationalization\_process\_writer and sn\_grc\_
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 The "Recommendation of similar control objectives" skill generates recommendations based on the similarity parameters configured \(names and description\). The Gen AI searches for similar names and descriptions, which serve as inputs for providing recommendations.
 
@@ -30,84 +30,29 @@ The "Recommendation of similar control objectives" skill generates recommendatio
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Control objectives** &gt; **All Control objectives**.
+1.  Navigate to **Workspaces** &gt; **Privacy Workspace**.
 
-2.  Open the control objective which you want to rationalize.
+2.  Select the List icon.
 
-3.  On the Overview tab, select **Rationalize**.
+3.  Navigate to **Library** &gt; **Control Objectives**.
 
-    A new page **Create New Rationalization process** is displayed.
+4.  Open the control objective which you want to rationalize.
 
-    **Note:**
+5.  In the Overview tab of the control objective, select **Rationalize**.
 
-    -   A new rationalize process can also be created by opening compliance workspace list and selecting rationalization process.
-    -   If a rationalization process is already available for a control objective, the user is directed to the rationalize tab for that specific control objective.
-4.  On the form, fill in the fields.
+    **Note:** If a rationalization process is already available for a control objective, the user is directed to the Rationalize tab for that specific control objective.
 
-<table id="table_nv5_hpp_dfc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name of the rationalization process.
-
-</td></tr><tr><td>
-
-Owner
-
-</td><td>
-
-User that owns the policy.
-
-</td></tr><tr><td>
-
-Rationalization table
-
-</td><td>
-
-The record type on which rationalization is being done.**Note:** Currently rationalization is only available on control objective.
-
-</td></tr><tr><td>
-
-Rationalization record
-
-</td><td>
-
-The record on which the rationalization is being done.
-
-</td></tr><tr><td>
-
-Additional comments
-
-</td><td>
-
-Additional information about the rationalization process.
-
-</td></tr></tbody>
-</table>5.  Select **Save**.
-
-    A new button **Analyze** appears on the screen.
-
-6.  Select **Analyze**.
-
-    -   A confirmation message that recommendations are being generated is displayed.
-    -   Once the recommendations are ready a new **Rationalize** tab will appear, try reloading the page after some time.
-    -   The rationalize process state is moved from **Initiate** to **Analyze**.
+    -   A new Rationalization process page is automatically created.
+    -   The Activity section shows the progress of the rationalization creation process:
+        -   The rationalization process first moves to Initiate state, with Generating Recommendations as the substate.
+        -   After the recommendations are ready, a new Rationalize tab appears.
+        -   The state next moves to Analyze, with Identify Duplicates as the substate.
 
 ## What to do next
 
-Accept or dismiss the generated recommendations. For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/take-actions-on-the-recommendations-for-similar-control-objectives.md).
+Accept or dismiss the generated recommendations. For more information, see [Act on the recommendations for similar control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-take-actions-on-the-recommendations-for-similar-control-objectives.md).
 
 **Note:**
 
-You can configure UI form actions in addition to "Accept as duplicate", "Dismiss" and "Retain as primary" as declarative actions for recommendations. Declarative actions help you to modify the list actions and related list actions. For more information about creating declarative actions and how to use them, see.
+You can configure UI form actions in addition to "Accept as duplicate", "Dismiss" and "Retain as primary" as declarative actions for recommendations. For more information about creating declarative actions and how to use them, see [Customizing Configurable Workspace with declarative actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/declarative-actions-landing.md).
 

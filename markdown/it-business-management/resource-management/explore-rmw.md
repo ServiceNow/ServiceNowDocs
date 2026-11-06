@@ -7,8 +7,8 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -18,7 +18,7 @@ Learn about the features, functionalities, and business value that the Resource 
 
 This provides a centralized view of the resource allocation and requests. As a Resource manager, you get a dedicated workspace to view the team's allocation and breakdown of the work assigned to the resources.
 
-Resource Management Workspace provides a centralized view of the resource allocations and resource requests. This workspace eases resource management problems and is designed to cover a wider set of use cases.
+Resource Management Workspace provides a centralized view of the resource allocations and resource requests. This workspace eases resource management problems and covers a wider set of use cases.
 
 ## Features and benefits
 
@@ -43,6 +43,33 @@ The workspace is organized into the following areas:
 -   Resource board: Create filtered views to focus on specific teams, roles, or skills. For more information, see [Create a resource card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rmw-create-rsrc-card.md).
 -   Resource allocation view \(top tray\): Displays assigned work for each resource with weekly or monthly allocation breakdown and availability indicators.
 -   Unassigned tasks \(bottom tray\): Shows pending resource requests that needs to be assigned. For more information, see [Assign unassigned work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/allocate-resources-rmw.md).
+
+## Resource finder
+
+Resource managers often spend significant time manually searching for the right person to staff an unassigned assignment. The AI Resource Finder removes this guesswork by using Now Assist skills to analyze your resource pool and recommend the best-fit candidates. Each candidate is ranked by a fit score and accompanied by a plain-language rationale explaining the recommendation.
+
+Resource finder uses the Resource fit analysis skill, which considers multiple dimensions simultaneously. These dimensions include whether the resource's planning attributes, such as role and skills group, align with what the assignment demands. They also include how much capacity the resource has during the assignment period, and how the resource's historical allocation patterns compare to the requested effort.
+
+**Note:**
+
+Access to the Resource fit analysis skill is subject to the access requirements configured for the skill. If the current user doesn't meet those requirements, Resource finder shows candidates without a fit score or rationale.
+
+The output of this matching process is two-fold:
+
+-   Fit score - a percentage that represents how closely a resource matches the requirements of an assignment. The score blends attribute alignment, temporal availability, and workload balance into one number so you can compare candidates at a glance.
+-   Rationale - a short explanation of why the Resource fit analysis considers them a good fit. The rationale references specific factors like availability windows, complementary pairing opportunities, and attribute matches.
+
+a expressed as a percentage, and a rationale that explains the reasoning in plain language. For example, a resource might receive a 30% fit score with a rationale noting that the person is available only in April and July, and suggesting they be paired with another resource to cover the May and June gap. The score gives you a quick ranking; the rationale gives you the context to act on it.
+
+The Resource finder lets you compare each resource's available capacity against the requested effort for the assignment. Effort values respect the unit and cadence based on user preference such as hours, FTE, or person days on a weekly or monthly basis.
+
+The availability heatmap uses color coding to make this comparison instant. A green cell means the resource has enough capacity to meet the requested effort for that period. A red cell means they fall short. For example, if the requested effort is 1 FTE per month and a candidate shows 1 for April and 0 for May. April appears green and May appears red. This helps you immediately see the gap without doing any mental math.
+
+Advantages of using Resource finder
+
+-   Quickly staff an unassigned assignment: Resource managers use the Resource finder option from the unassigned assignment's three-dot menu. The AI insights presents a ranked shortlist which the resource manager can reviews the rationale, confirm availability, and assigns the best fit within a single modal flow.
+-   Handle partial availability with resource pairing: Resource Finder surfaces the real-time availability through its rationale, which suggests pairing two resources to cover the complete period. For example, one resource covers April and July while another covers May and June.
+-   Balancing workloads: resource board indicator in the Resource finder highlights which candidates already belong to the manager's boards. This makes it easier to redistribute work within the existing team before pulling in resources from other groups.
 
 ## Getting started
 

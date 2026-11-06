@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-studio-create-action-item.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -167,6 +167,7 @@ The following example uses a script to perform a navigation completion functiona
             gs.addInfoMessage(gs.getMessage("This is the First success message"));​
             gs.addInfoMessage(gs.getMessage("This is the Second success message"));​
             gs.addInfoMessage(gs.getMessage("This is the Third success message"));​
+            gs.addInfoMessage(gs.getMessage("This is the Forth success message"));​
             gr.update();​
         actionResult.setRedirectionInfo(gr.getUniqueValue(), gr.getTableName());         ​
 })(parm_input, parm_variable, actionResult);

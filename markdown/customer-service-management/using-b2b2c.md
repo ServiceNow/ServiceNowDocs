@@ -1,27 +1,27 @@
 ---
-title: Using Customer Data Models for B2B2C
-description: With the B2B2C model, organizations across industries can easily configure multi-level customer relationships and support business customers who, in turn, support their end consumers.
+title: Using customer data models for B2B2C
+description: With the business-to-business-to-consumer \(B2B2C\) model, organizations across industries can easily configure multi-level customer relationships and support business customers who can support their end consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/using-b2b2c.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Customer management, Use, Customer Service Management]
 ---
 
-# Using Customer Data Models for B2B2C
+# Using customer data models for B2B2C
 
-With the B2B2C model, organizations across industries can easily configure multi-level customer relationships and support business customers who, in turn, support their end consumers.
+With the business-to-business-to-consumer \(B2B2C\) model, organizations across industries can easily configure multi-level customer relationships and support business customers who can support their end consumers.
 
-## Understanding B2B2C in ServiceNow CSM
+## Understanding the B2B2C model
 
-The B2B2C model involves interactions where a business sells products or services to another business, which then provides these products or services to the end consumer. ServiceNow's CSM platform supports this multi-layered relationship by capturing and organizing relevant data across both business entities and end consumers.
+The B2B2C model involves interactions where a business sells products or services to another business, which then provides these products or services to the end consumer. The functionality supports multi-layered relationships by capturing and organizing relevant data across both business entities and end consumers.
 
-## Benefits of B2B2C Data Models in ServiceNow CSM
+## Benefits
 
--   Improved Data Accuracy: By structuring data methodically, it ensures that information is accurate and up-to-date, reducing errors and enhancing decision-making capabilities.
--   Enhanced Customer Insights: The data models provide a holistic view of both business customers and end consumers, enabling better understanding of customer needs and preferences.
+-   Improved Data Accuracy: By structuring data methodically, it confirms that information is accurate and up-to-date, reducing errors and enhancing decision-making capabilities.
+-   Enhanced Customer Insights: The data models provide a holistic view of both business customers and end consumers, enabling a better understanding of customer needs and preferences.
 -   Operational Efficiency: Streamlined data management processes lead to faster service delivery and issue resolution, improving overall operational efficiency.
 -   Scalability: As businesses grow, the data models can be scaled to accommodate more customers and complex relationships without compromising on data integrity.
 -   Personalized Service: With detailed customer data, businesses can offer tailored services and solutions, leading to higher customer satisfaction and loyalty.
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Enable customer service managers to identify the end consumers who are using products or services and keep track of customer information.
+Enable customer service managers to identify the end consumers who are using products or services and track customer information.
 
 </td></tr><tr><td>
 

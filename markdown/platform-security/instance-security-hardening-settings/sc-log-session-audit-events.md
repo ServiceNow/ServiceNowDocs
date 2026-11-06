@@ -1,24 +1,26 @@
 ---
-title: Log session audit events \[New in Security Center 1.3 and updated in 1.5\]
-description: Set the glide.authenticate.session\_access.log\_audit\_event property to true, so that session audit events will be created in the sys\_session\_access\_audit table.
+title: Log session audit events
+description: Use a system property to enable creations of session audit events
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-log-session-audit-events.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Error handling and logging, Hardening settings, Platform Security]
 ---
 
-# Log session audit events \[New in Security Center 1.3 and updated in 1.5\]
+# Log session audit events
 
-Set the **glide.authenticate.session\_access.log\_audit\_event** property to **true**, so that session audit events will be created in the **sys\_session\_access\_audit** table.
+Use a system property to enable creations of session audit events
 
-When the Glide Property **glide.authenticate.session\_access.log\_audit\_event** is set to true, session audit events will be created in the sys\_session\_access\_audit table. It is best practice to log information about who accessed a session to assist in malicious actor investigations. Information logged will include user, session ID \(non-sensitive\), IP address, roles, and policies.
+When the **glide.authenticate.session\_access.log\_audit\_event** system property is set to **true**, session audit events are created in the sys\_session\_access\_audit table. Information logged will include user, session ID \(non-sensitive\), IP address, roles, and policies.
 
-**Note:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/session-access.md).
+Ensure the that the property **glide.authenticate.session\_access.log\_audit\_event** is set to **true**.
+
+**Important:** The **glide.authenticate.session\_access.log\_audit\_event** system property is specific to Zero trust access. For more information, see [Zero Trust Access \(ZTA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/session-access.md).
 
 ## More information
 
@@ -52,7 +54,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -65,6 +67,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -86,7 +96,7 @@ Security risk
 
 -   Severity score: 6.3
 -   CVSS score: Medium
--   Security risk details: Not setting this property to the recommended value of true prevents events from being logged. This could prevent you from finding bad actors in the event of a cyber attack.
+-   Security risk details: Information about who accessed a session will not be logged to assist in incident investigations.
 
 </td></tr><tr><td>
 

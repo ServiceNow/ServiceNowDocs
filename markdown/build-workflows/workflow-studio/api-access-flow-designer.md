@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # API access to Workflow Studio flows
@@ -53,11 +53,4 @@ Actions always run as the user who initiates the session.
 ## Code snippets
 
 Application developers can generate a JavaScript function that calls a specific flow, subflow, or action with the **Code Snippet** option. Use the code snippet in scripts such as business rules or the **Scripts - Backgound** module to call specific Workflow Studio elements. The system only generates code snippets for published flows, subflows, and actions. Workflow Studio elements in the draft or modified status do not generate code snippets.
-
--   **[Create code snippets for flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-design-code-snippet.md)**  
-Generate a code snippet to call a specific flow, subflow or action.
--   **[Create a client callable flow, subflow, or action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/grant-access-flow-apis.md)**  
-Enable a client script to trigger a flow, subflow, or action.
-
-**Parent Topic:**[Configuring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configuring-flow-designer.md)
 

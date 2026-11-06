@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure the Now Mobile Agent application, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Configure scheduled offline caching
@@ -76,9 +76,7 @@ The duration when the cache expires on the client. Every time the payload is ref
 **Note:** 172,800,000 milliseconds is 48 hours. After 48 hours, the system deletes the data due to a security protocol.
 
 </td></tr></tbody>
-</table>        **Note:** To set additional properties for scheduling offline cache download, see [Configure offline mode behavior](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/sg-configure-offline-mode.md).
-
-    3.  Select **Update**.
+</table>    3.  Select **Update**.
 
 2.  Configure the scheduled job to schedule the offline cache download.
 

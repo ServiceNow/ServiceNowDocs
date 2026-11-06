@@ -1,5 +1,5 @@
 ---
-title: Set up your language preferences for the Virtual Agent integration with Microsoft Teams
+title: Set up your language preferences for your Virtual Agent integration with Microsoft Teams
 description: Set language preferences so that Virtual Agent is in the same language as the user's preferred Microsoft Teams language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-integration-msteams-localization.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Virtual Agent for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure VA for Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Set up your language preferences for the Virtual Agent integration with Microsoft Teams
+# Set up your language preferences for your Virtual Agent integration with Microsoft Teams
 
 Set language preferences so that Virtual Agent is in the same language as the user's preferred Microsoft Teams language.
 

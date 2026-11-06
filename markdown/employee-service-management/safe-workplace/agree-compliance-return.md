@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Employee Health Screening, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -39,7 +39,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 3.  Take one of the following actions.
 
-<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d739940e149">
+<table id="choicetable_bvw_y2r_zlb"><tbody><tr><td id="d798211e149">
 
 **If you agree to all statements**
 
@@ -47,7 +47,7 @@ Typically, you receive an email or a mobile notification from your organization 
 
 Select the **I acknowledge that I meet all the above criteria** check box.
 
-</td></tr><tr><td id="d739940e161">
+</td></tr><tr><td id="d798211e161">
 
 **If you can't agree to one or more of the statements**
 

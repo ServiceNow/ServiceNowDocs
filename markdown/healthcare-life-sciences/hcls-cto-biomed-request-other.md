@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcls-cto-biomed-request-other.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating service requests in Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Create service requests, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Request other biomed service with Care Team Operations for Biomed
@@ -16,7 +16,7 @@ Request non-medical device issue biomed service using the Request other biomed s
 
 ## Before you begin
 
-Role required:
+Role required: sn\_hco.care\_team\_member
 
 ## Procedure
 

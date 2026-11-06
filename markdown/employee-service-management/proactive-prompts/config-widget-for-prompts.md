@@ -7,7 +7,7 @@ release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
@@ -34,7 +34,7 @@ Role required: sn\_pp.admin
 
 4.  In the Widgets tab, search for prompts and drag the prompts widget on to the Edit area.
 
-5.  Select the \[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon edit icon on the top-right corner of the widget.
+5.  Select the \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\) edit icon on the top-right corner of the widget.
 
 6.  Edit the form.
 

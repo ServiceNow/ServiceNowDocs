@@ -1,5 +1,5 @@
 ---
-title: Track the progress of your roadmap items in Strategic Planning Workspace
+title: Track the progress of roadmap items
 description: Visually track the completion of a work item on your portfolio plan roadmap or free-form roadmap using the tracking mode.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/track-roadmap-items-progress.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Track the progress of your roadmap items in Strategic Planning Workspace
+# Track the progress of roadmap items
 
 Visually track the completion of a work item on your portfolio plan roadmap or free-form roadmap using the tracking mode.
 
@@ -30,15 +30,15 @@ Use a toggle to switch your roadmap view from planning mode to tracking mode. Th
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d234145e77">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d301454e80">
 
 Roadmap type
 
-</th><th align="left" id="d234145e80">
+</th><th align="left" id="d301454e83">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d234145e86">
+</th></tr></thead><tbody><tr><td id="d301454e89">
 
 **Portfolio plan roadmap**
 
@@ -48,7 +48,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d234145e107">
+</td></tr><tr><td id="d301454e110">
 
 **Free-form roadmap**
 

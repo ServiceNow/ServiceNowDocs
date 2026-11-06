@@ -1,0 +1,59 @@
+---
+title: ServiceNow Otto for Sales CRM for Telecommunications AI agent Order fallout AI agent
+description: Use the AI agent to automatically create the fallout records based on reported issues on the task's notes.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/now-assist-order-fallout-somt.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
+---
+
+# ServiceNow Otto for Sales CRM for Telecommunications AI agent Order fallout AI agent
+
+Use the AI agent to automatically create the fallout records based on reported issues on the task's notes.
+
+## Order fallout AI agent overview
+
+Use the Order fallout AI agent to:
+
+-   Eliminate manual review of completed orders by automatically analyzing work notes.
+-   Reduce manual effort in the fallout creation and assignment process.
+-   Verify that all relevant fallouts are captured and linked to original order tasks.
+
+The agent automatically creates a fallout in case of an order task failure. The agent identifies the correct category in which the fallout must be created. The agent doesn’t create a fallout if the fallout is already created.
+
+This agent analyzes the order fulfillment tasks when a task status is changed to on hold. It automatically creates relevant fallout records based on issues identified in work notes. It uses Now LLM Service to match task observations with predefined fallout types and improve post-fulfillment issue tracking.
+
+The Order fallout AI agent performs the following tasks:
+
+-   Analyzes all order task work notes
+-   Identifies reported issues
+-   Matches issues with available fallout types
+-   Creates appropriate fallout records
+
+To modify the Order fallout AI agent, [Duplicate an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md) and adjust the settings according to your requirements.
+
+To add tools and information, see [Add tools and information to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-tool-aia.md) for details.
+
+**Note:** On the Select channels and status page, verify that the **Active** toggle is turned on to activate the AI agent.
+
+Role required: sn\_somt\_gen\_ai.sales\_and\_order\_fulfillment\_ai\_agent
+
+## Order fallout AI agent
+
+To access the AI agent:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage** &gt; **AI agents**.
+2.  Select **Order fallout AI agent**.
+
+## Testing the AI agent
+
+To access the use case testing page:
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Testing**.
+2.  On the Overview page, select **Test use cases**.
+
+To test the use case, see [Manually test the execution of an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-aia-use-case.md).
+

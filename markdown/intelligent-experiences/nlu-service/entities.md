@@ -1,5 +1,5 @@
 ---
-title: NLU entities
+title: \(Legacy\) NLU entities
 description: Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/entities.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [\(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU entities
+# \(Legacy\) NLU entities
 
 Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
 
@@ -29,11 +29,11 @@ NLU entities fall into two categories: system and user-defined. System entities 
 
 There are five types of user-defined entities. Select one of the following links to learn more.
 
--   [Create a simple entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-entities.md)
--   [Create a mapped entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.md)
--   [Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-pattern-entity.md)
--   [Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-system-derived-entity.md)
--   [Create an open-ended entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-open-ended-entity.md)
+-   [\(Legacy\) Create a simple entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-entities.md)
+-   [\(Legacy\) Create a mapped entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.md)
+-   [\(Legacy\) Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-pattern-entity.md)
+-   [\(Legacy\) Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-system-derived-entity.md)
+-   [\(Legacy\) Create an open-ended entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-open-ended-entity.md)
 
 When you create entities, annotate them on utterances to provide examples to help your model learn. By annotating entities, you provide your model with linguistic associations and meaningful context for the system vocabulary. Annotations strengthen the relevance of entities and help your model perform the correct action in response to your users' inputs.
 
@@ -43,7 +43,7 @@ You add entities to your utterances when you are creating the intents. The entit
 
 Regular expressions \(regex\) help your model establish patterns that improve that model's ability to locate, match, and manage text. Use regular expressions with pattern entities to help your model understand formats such as email addresses, phone numbers, and incident numbers.
 
-To learn more, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
+To learn more, see [\(Legacy\) Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
 
 ## Model availability
 
@@ -52,21 +52,4 @@ When you create an entity, you can choose to make the entity available for reuse
 On the Model details page, select **Entities**. Select the name of the entity to bring up the entity details page. Then, select the **Settings** tab.
 
 \[Omitted image "entities02.png"\] Alt text: Settings tab of the Entity details page. Check the Model Availability box to make it available to all intents in the model.
-
--   **[Create a simple entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-entities.md)**  
-Create one or more simple entities from words in your utterance examples. An entity is an object of, or context for, an action.
--   **[Create a mapped entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.md)**  
-Create an entity mapped to a vocabulary source, or to a list of values you manually create for the entity. Mapped entities can help provide multiple values the model can use as context when interpreting utterances.
--   **[Create a pattern entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-pattern-entity.md)**  
-Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
--   **[Create a system-derived entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-system-derived-entity.md)**  
-Create a custom entity that's derived from a default system entity such as date, time, duration, or location.
--   **[Create an open-ended entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-open-ended-entity.md)**  
-Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
--   **[Import entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/import-common-entities-nlu.md)**  
-Reuse entities that you have created across your other Natural Language Understanding \(NLU\) models. Importing entities saves time and helps improve the intents in your model.
--   **[Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md)**  
-Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
-
-**Parent Topic:**[Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md)
 

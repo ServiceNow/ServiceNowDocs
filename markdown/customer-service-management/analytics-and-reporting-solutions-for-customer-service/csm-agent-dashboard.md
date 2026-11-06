@@ -7,9 +7,9 @@ release: yokohama
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting for Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Service Platform Analytics Solutions, Analytics and reporting, Customer Service Management]
 ---
 
 # Customer Service Agent dashboard
@@ -130,7 +130,7 @@ Exceeding Chat Target
 
 </td><td>
 
-Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see [Advanced Work Assignment service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Chat work items that have exceeded the target wait time. For more information about the Chat service channel, see Advanced Work Assignment service channels **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 
@@ -138,7 +138,7 @@ Exceeding Case Target
 
 </td><td>
 
-Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see [Advanced Work Assignment service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md) **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
+Percentage of all Case work items that have exceeded the target wait time. For more information about the Case service channel, see Advanced Work Assignment service channels **Note:** This indicator is only viewable on the Customer Service Agent - Advanced dashboard.
 
 </td></tr><tr><td>
 

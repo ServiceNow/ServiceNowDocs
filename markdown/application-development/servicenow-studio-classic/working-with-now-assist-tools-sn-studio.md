@@ -1,0 +1,72 @@
+---
+title: AI tools and files in ServiceNow Studio
+description: Use AI tools and files in ServiceNow Studio to create and summarize apps using generative AI. You can also add AI files to applications to enhance user productivity through conversation and proactive experiences.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/working-with-now-assist-tools-sn-studio.html
+release: yokohama
+product: ServiceNow Studio Classic
+classification: servicenow-studio-classic
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# AI tools and files in ServiceNow Studio
+
+Use AI tools and files in ServiceNow Studio to create and summarize apps using generative AI. You can also add AI files to applications to enhance user productivity through conversation and proactive experiences.
+
+The main AI tools available in ServiceNow Studio are the ServiceNow Otto for Creator app summary generation skill and Build Agent. Use app summary generation to create short descriptions of existing apps. For more information about Build Agent, see [Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/build-agent-in-servicenow-studio.md).
+
+## App summary generation
+
+After creating an app, use the app summary generation skill to create a summary of the contents and purpose of the app. Rate or update the summary and use it as the app description. Accurate app descriptions support app ecosystem governance and help identify duplicate apps.
+
+\[Omitted image "sn-studio-app-summary.png"\] Alt text: ServiceNow Otto can help you create a summary of your app that you can use for the app description.
+
+For more information, see [App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md).
+
+## What AI file types can I add to an application?
+
+Add three types of AI files to applications: agentic workflows, AI agents, and skills. These files open in a new tab for editing in AI Agent Studio. After creating or editing an AI file, return to the App details page and select the reload app details icon \[Omitted image "sn-studio-reload-app-details-icon.png"\] Alt text: to capture the changes. For more information about AI file types, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
+
+**Important:** AI options in the ServiceNow Studio file taxonomy are only available if the AI components have been installed and configured.
+
+## Where can I find more information about AI capabilities?
+
+The following ServiceNow resources cover AI capabilities, agentic workflows, AI Agents, and the ServiceNow Otto Skill Kit.
+
+-   **AI capabilities**
+
+    [Exploring Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-now-assist-platform.md)
+
+    [Build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-ai-workflow-factory-prime.md)
+
+    [ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
+
+-   **Agentic workflows**
+
+    [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-use-case-ai-agents.md)
+
+    [Modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/modify-aia-use-case.md)
+
+-   **AI Agents**
+
+    [Exploring Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-ai-agents.md)
+
+    [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md)
+
+    [Examples of using AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-examples.md)
+
+-   **ServiceNow Otto Skill Kit**
+
+    [Exploring AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-now-assist-skill-kit.md)
+
+    [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-new-skill.md)
+
+
+-   **[App summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-now-assist-app-summarize-landing.md)**  
+Use the ServiceNow Otto for Creator application to use generative AI for summarizing an app. With a single button, ServiceNow Otto for Creator generates the app summary that you can then copy to the app description, or use to find duplicate apps.
+
+**Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/using-servicenow-studio.md)
+

@@ -1,61 +1,34 @@
 ---
 title: Request Management release notes
-description: The ServiceNow Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Yokohama release.The ServiceNow Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Request Management application enables catalog items to be requested and fulfilled based on defined flows.. See the following sections for release notes by version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/request-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [IT Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Request Management release notes
 
-The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows.. See the following sections for release notes by version.
 
 ## About Request Management
 
--   Improve customer satisfaction and operational efficiency with the sn\_service\_desk\_agent role, which is dedicated to the tier 1 service desk agents.
--   Restrict unauthorized access to the Request Management tables using deny ACLs.
--   Quickly determine whether a configuration item \(CI\) is available to be added to the **Configuration item** field in the Requested item form by searching the an alphabetized list of available CIs rather than having to first find the CI class list.
+-   Request Management streamlines fulfillment workflows, reduces manual effort, and improves visibility into request status for both users and agents.
+-   Request Management allows employees to submit requests for services, products, or information through a self-service portal.
 
 See [Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_RequestManagement.md) for more information.
 
-## Activation and other requirements
+## Activation information
 
--   **Activation information**
+Request Management is a ServiceNow AI Platform feature that is active by default.
 
-    Request Management is a ServiceNow AI Platform feature that is active by default.
+## Accessibility and localization
 
+-   **Accessibility information**
+    -   Reflow support for Request Management: Content can be zoomed up to 400% through your browser settings, with page layouts automatically transforming into a vertical, stacked view without loss of content or functionality. This enhancement helps users with low vision or who have trouble seeing web content due to monitor size, device type, poor lighting, or other situations.
 
 **Parent Topic:**[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)
-
-## Yokohama
-
-The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[User role for service desk agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/req-mgmnt-roles-instld-itsm.md)**
-
-    Improve operational efficiency by providing level 1 or tier 1 service desk agents with access to change, incident, problem, and request records by assigning the sn\_service\_desk\_agent user role.
-
-    **Note:**
-
-    The sn\_service\_desk\_agent user role is available starting with Service Operations Workspace version 6.1.
-
--   **[Enhanced security model adoption for Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/request-management-architecture.md)**
-
-    Prevent unauthorized access to request-related tables using deny ACLs. Non-authenticated user cannot perform any actions such as read, write, delete, create, or report view.
-
-    This feature is available for new or zBoot customers with the installation of the ITSM Enhanced Security Features \(com.snc.itsm.enhanced\_security\) plugin. Existing or upgrade customers must test and evaluate in their sub-production instance before installing the plugin and implementing the security change in their production instance.
-
-
-### What's changed
-
--   **[Sorting configuration items in requested item forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/create-request-workspace.md)**
-
-    The list of configuration items \(CIs\) displayed for the **Configuration item** field in the Requested item form is now displayed and sorted based on the CI names in alphabetical order instead of sorting by CI class and then presenting the CI names in alphabetical order within a class. This change means you can determine whether a particular CI is available more quickly.
-
 

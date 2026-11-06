@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Configuring and managing your ServiceNow CLI connection profiles, ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Remove a profile
@@ -19,6 +19,8 @@ Remove a named connection profile that you no longer need from the configuration
 ## Before you begin
 
 A default profile must first exist to communicate with an instance.
+
+Role required: none.
 
 ## About this task
 

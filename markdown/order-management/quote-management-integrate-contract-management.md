@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-integrate-contract-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install Quote Management, Install and configure Quote Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Quote Management reference, Configure, price, quote, Reference, Sales Customer Relationship Management]
 ---
 
 # Integrate with Contract Management Pro
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
 
-2.  Search for Contract Management for Sales and Order Management \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
+2.  Search for Contract Management for Sales CRM \(Quote Management with Contract Management Pro\) plugin \(com.sn\_som\_clm\).
 
     **Note:** To activate this plugin, there’s a dependency on the Contracts core plugin \(com.sn\_cm\_core\). Verify that it’s installed to use the contract creation workflow from a quote.
 
@@ -33,7 +33,15 @@ Role required: admin
     For more information on setting up Contract Management Pro, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-config-cmpro.md).
 
 
-## What to do next
+-   **[Run fix scripts to update Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/run-fix-scripts-update-contract-management-pro.md)**  
+Manually run fix scripts after you have installed the demo data.
 
-To learn more, see [Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-config-cmpro.md) and [Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-create-contract.md).
+**Parent Topic:**[Quote Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-reference.md)
+
+**Related topics**  
+
+
+[Configuring Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-config-cmpro.md)
+
+[Initiate a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-create-contract.md)
 

@@ -1,14 +1,14 @@
 ---
-title: Define a cross-origin resource sharing rule to access ServiceNow API endpoints from AEM
+title: Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM
 description: Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance to access endpoints of the Knowledge Management REST API, Case API, or CSM Attachment API from your Adobe Experience Manager \(AEM\) instance.
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
-# Define a cross-origin resource sharing rule to access ServiceNow API endpoints from AEM
+# Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM
 
 Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance to access endpoints of the Knowledge Management REST API, Case API, or CSM Attachment API from your Adobe Experience Manager \(AEM\) instance.
 
@@ -17,7 +17,7 @@ Define a cross-origin resource sharing \(CORS\) rule on your ServiceNow instance
 Ensure that you have configured the API for which you are defining the CORS rule.
 
 -   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/knowledge-api.md).
--   Activate the Customer Service plugin \(com.sn\_customerservice\) to use the Case API endpoints for customer service cases. For more information, see [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/case-api.md).
+-   Activate the Case Management Core plugin \(com.sn\_customerservice\) to use the Case API endpoints for customer service cases. For more information, see [Case API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/case-api.md).
 -   Configure the **glide.rest.attachment\_csm\_api.allowed\_tables** system property and include the Case \[sn\_customerservice\_case\] table to use the CSM Attachment API end points for case attachments. For more information, see [CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/attachment_csm-api.md).
 
 Role required: web\_service\_admin

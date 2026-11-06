@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -54,8 +54,6 @@ Add a catalog item or order guide to the shopping cart to store at one place and
 Use the SC Catalog Item widget in Service Portal to request a catalog item.
 -   **[Request an order guide from Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/request-order-guide-portal.md)**  
 Use the SC Order Guide widget on Service Portal to request an order guide with several catalog items for a specific purpose.
--   **[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/stpage-req-item.md)**  
-In Service Portal, you can configure the ticket page of a requested item to display the related information, while still having a consistent layout that is similar to other request types. This configuration ensures a consistent experience when viewing submitted requests in Service Portal.
 
 **Parent Topic:**[Integrating Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/integrating-service-catalog.md)
 

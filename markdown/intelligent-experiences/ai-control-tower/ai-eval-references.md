@@ -1,5 +1,5 @@
 ---
-title: Evaluation dashboard References
+title: Evaluation dashboard reference
 description: Reference topics for the Evaluation dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/ai-eval-references.html
@@ -7,23 +7,12 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Evaluation dashboard References
+# Evaluation dashboard reference
 
 Reference topics for the Evaluation dashboard.
-
--   **[Components installed with the Evaluation dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-components.md)**  
-Several types of components are part of the Evaluation tab, including scheduled jobs, tables, system properties, and flows.
--   **[Evaluation metrics and calculations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-metrics.md)**  
-Metrics against which conversations are evaluated and calculation of adjusted scores.
--   **[Evaluation flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-flow.md)**  
-The workflow for evaluation execution, which performs evaluations when conversations are completed.
--   **[Evaluation flow for batch evaluations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-eval-flow-batch.md)**  
-Batch evaluation enables Eval admins to evaluate up to 100 completed virtual agent conversations at once, based on a saved query.
-
-**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-references.md)
 

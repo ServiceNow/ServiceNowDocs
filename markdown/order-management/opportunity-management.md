@@ -1,26 +1,26 @@
 ---
 title: Opportunity Management
-description: The  ServiceNow Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
+description: The ServiceNow Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Opportunity Management
 
-The  ServiceNow® Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
+The ServiceNow® Opportunity Management application enables your sales agents and account executives to analyze customer needs and generate product recommendations for potential customers.
 
-An opportunity in Sales Customer Relationship Management provides maximum information about a product or service based on the needs of a customer \(called a qualified lead\). A lead for a product is the minimal information that a sales agent uses to advance the conversation with a potential customer and create an opportunity.
+An opportunity in Sales Customer Relationship Management provides complete information about a product or service based on the needs of a customer \(called a qualified lead\). A lead for a product is the minimal information that a sales agent uses to advance the conversation with a potential customer and create an opportunity.
 
 \[Omitted image "l2c-quote-workflow.png"\] Alt text: Sales CRM workflow that shows the opportunity, quote, and order creation steps.
 
 ## Opportunity Management interface
 
-The Opportunity Management application is integrated with the Product Catalog and product configurator to help sales agents access product offerings to build opportunities easily and conveniently. The Opportunity Management interface contains the following tabs:
+The Opportunity Management application is integrated with the Product Catalog and product configurator to help sales agents access product offerings to build opportunities. The Opportunity Management interface contains the following tabs:
 
 <table id="table_enp_xnv_c1c"><thead><tr><th>
 
@@ -32,7 +32,15 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Details tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-details-tab.md)
+[Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/use-guided-selling-opportunity.md)
+
+</td><td>
+
+Summary of key deal information including account, stage, amount, AI-generated opportunity insights and probability score, and guided selling actions such as stage exit criteria and playbook activities.
+
+</td></tr><tr><td>
+
+[Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-details-tab.md)
 
 </td><td>
 
@@ -40,7 +48,7 @@ Add basic information for the opportunity.
 
 </td></tr><tr><td>
 
-Catalog tab
+[Catalog tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opp-mgmt-use-needs-analysis.md)
 
 </td><td>
 
@@ -48,7 +56,7 @@ Search for and add product offerings to your opportunity.
 
 </td></tr><tr><td>
 
-[Needs tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opp-mgmt-use-needs-analysis.md)
+[Needs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opp-mgmt-use-needs-analysis.md)
 
 </td><td>
 
@@ -56,7 +64,7 @@ Lists the need templates that provide product recommendations for the opportunit
 
 </td></tr><tr><td>
 
-[Line Items tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-line-items-tab.md)
+[Line Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-line-items-tab.md)
 
 </td><td>
 
@@ -64,37 +72,15 @@ Add different line items to an opportunity.
 
 </td></tr><tr><td>
 
-[Competitors tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-competitors-tab.md)
+[Quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-create-quote.md)
 
 </td><td>
 
-Record competitors information.
+Create quotes directly from opportunities.
 
 </td></tr><tr><td>
 
-[Tasks tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-tasks-tab.md)
-
-</td><td>
-
-Create opportunity tasks.
-
-</td></tr><tr><td>
-
-Team
-
-</td><td>
-
-Create opportunity team members.**Note:** Following member roles \(Related party types\) and responsibility are shipped by default:
-
--   Account Executive
--   Solution Sales Executive
--   Price Band Approver
-
-Additional roles can be configured; however, user access through these roles via the responsibility framework is supported starting from the Zurich Patch 3 release.
-
-</td></tr><tr><td>
-
-Contacts
+[Contacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/add-opportunity-associated-contact.md)
 
 </td><td>
 
@@ -102,7 +88,23 @@ Create opportunity associated contacts.
 
 </td></tr><tr><td>
 
-[Emails tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-emails-tab.md)
+[Team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-new-opportunity-team-member.md)
+
+</td><td>
+
+Create opportunity team members.
+
+</td></tr><tr><td>
+
+[Competitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-competitors-tab.md)
+
+</td><td>
+
+Record competitor information.
+
+</td></tr><tr><td>
+
+[Emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-emails-tab.md)
 
 </td><td>
 
@@ -110,11 +112,46 @@ Create emails to send to the required stakeholders.
 
 </td></tr><tr><td>
 
-[Quotes tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-create-quote.md)
+[Allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/manage-allocations.md)
 
 </td><td>
 
-Create quotes directly from opportunities.
+Distribute sales credit across multiple contributors on a single opportunity.
+
+</td></tr><tr><td>
+
+[Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-tasks-tab.md)
+
+</td><td>
+
+Create opportunity tasks.
+
+</td></tr><tr><td>
+
+[Meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/schedule-meeting-opportunity.md)
+
+</td><td>
+
+Related list of all meetings scheduled and associated with the opportunity.
+
+</td></tr><tr><td>
+
+[Touchpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/manage-touchpoints-opportunity.md)
+
+</td><td>
+
+Related list of customer interaction records \(calls, emails, engagement activities\) logged against the opportunity.
+
+</td></tr><tr><td>
+
+Related Channel Partners
+
+</td><td>
+
+Add authorized service organizations or partner entities \(for example, referral or influencer partners\) linked to a customer opportunity. Related channel partners can be:
+
+-   Authorized organization: Full permissions to access, view, edit, or modify opportunity details
+-   Listed organization: Only for tracking purposes. No permissions to view, access, edit, or delete opportunity details
 
 </td></tr></tbody>
 </table>## Integrating pricing in Opportunity Management
@@ -131,16 +168,33 @@ Pricing in Opportunity Management provides the following benefits:
 
 To learn more about pricing, see [Pricing Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/pricing-management.md).
 
-## Use the product configurator
+## AI capabilities that support Opportunity Management
 
-The product configurator lets your agents configure products in the following ways:
+-   **Opportunity summary**
 
--   Browse and add configurable product offerings from the catalog to create opportunity lines.
--   Select product options and view product relationships.
+    Generate an AI summary for an opportunity record that enables you to get synthesized information from emails, touchpoints, deal stage, line items, and more without opening every related activity, contact, or deal record. For more information, see [Summarize an opportunity using ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-som-summarize-opportunity.md).
 
-The product configurator uses Sales Customer Relationship Management primitives to create and update opportunity lines and characteristics.
+-   **Opportunity scores and insights**
 
-## What to do next
+    Review AI-generated win probability scores and contextual insights for an opportunity to assess deal health and its probability to close. Use this to prioritize pipeline opportunities and identify risks. For more information, see [View opportunity scores and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-opty-scores-insights.md).
 
-To learn about setting up Opportunity Management, see [Install and configure Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md).
+    Because opportunity scoring \(Probability to Close\) uses Predictive Intelligence and machine learning, you must train the ML model on the existing data. For more information, see [Set up ML-based opportunity scoring and insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/set-up-opty-score-insights.md).
+
+-   **CRM conversational query**
+
+    Ask questions and issue commands to work on an opportunity in plain language using an MCP client such as Claude Desktop. For more information, see [CRM conversational query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/crm-conversational-query.md) and [Manage opportunity records using an AI interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/manage-opportunity-records.md).
+
+
+## What to explore next
+
+The following topics provide more information about configuring and using Opportunity Management
+
+-   [Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+-   [Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-mgmt-using.md)
+-   [Opportunity Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-reference.md)
+
+The following topics provide links to resources for configuring and using AI capabilities with Opportunity Management
+
+-   [AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/ai-capabilities-sales-crm.md)
+-   [Configuring AI capabilities in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-ai-capabilities-sales-crm.md)
 

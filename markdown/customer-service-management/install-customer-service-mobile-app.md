@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/install-customer-service-mobile-app.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile experience for Customer Service Management, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Mobile experience for CSM, Schedules and sites, Use, Customer Service Management]
 ---
 
 # Get started with the Customer Service mobile application
@@ -36,12 +36,12 @@ Role required: sn\_customerservice\_agent or sn\_customerservice\_manager
 -   **[Use mobile application to perform agent and manager tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-mobile-agent-mgr-task.md)**  
 Customer service agents manage cases and real-time notifications help in taking immediate action. Customer service managers can approve escalations and perform tasks on major issues with a swipe.
 
-**Parent Topic:**[Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-mobile-interface.md)
+**Parent Topic:**[Mobile experience for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-mobile-interface.md)
 
 **Related topics**  
 
 
-[Customer Service mobile application overview]()
+[CSM application overview]()
 
 [Agent mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-experience.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -31,6 +31,8 @@ The new calendar takes effect after end date of the current calendar. If you wan
 The new calendar is automatically applied to child teams. For example, if an ART's planning calendar is changed, all child EAP teams associated with this ART must follow the new planning calendar.
 
 This change is applied to only those ARTs that you update.
+
+**Important:** This task applies to ART-based configurations, such as Full, Essential, Large Solution, and Portfolio Configuration. Kanban Configuration does not use an ART hierarchy and doesn't support this override.
 
 ## Procedure
 

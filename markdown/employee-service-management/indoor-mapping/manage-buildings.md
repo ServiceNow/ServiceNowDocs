@@ -7,7 +7,7 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Manage map objects and data, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -112,7 +112,7 @@ Floor to which places and place types are added.
 
 12. Select a place \(configured using the CAD configuration page\) to open the place editing panel.
 
-    Notice that the **Name**, **Title**, and **Floor** are read-only fields and cannot be edited. Only the **Place type** field can edited. A validation message is displayed to inform that the selected place was created using an Autocad file. These fields can be edited in the Autocad Configuration page \(Indoor Mapping v 1.8.0\). For more information, see [AutoCAD import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.md) and [Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/edit-places.md).
+    Notice that the **Name**, **Title**, and **Floor** are read-only fields and cannot be edited. Only the **Place type** field can edited. A validation message is displayed to inform that the selected place was created using an Autocad file. These fields can be edited in the Autocad Configuration page \(Indoor Mapping v 1.8.0\). For more information, see [Autocad import tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/autocad-ovw-v2.md) and [Configure places](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/edit-places.md).
 
     \[Omitted image "wsd-place-created-with-autocad-config-msg.png"\] Alt text: Selected place in Map Studio showing created in Autocad message.
 

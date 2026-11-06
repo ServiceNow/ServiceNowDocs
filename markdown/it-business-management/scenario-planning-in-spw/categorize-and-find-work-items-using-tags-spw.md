@@ -1,5 +1,5 @@
 ---
-title: Categorize planning items using tags
+title: Categorize work items using tags
 description: Categorize your planning items based on your requirement by adding tags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/categorize-and-find-work-items-using-tags-spw.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Categorize planning items using tags
+# Categorize work items using tags
 
 Categorize your planning items based on your requirement by adding tags.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md)
 
 Role required: sn\_align\_core.apw\_user
 
@@ -34,17 +34,17 @@ Any tagging additions or removals made to a planning item are automatically sync
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the List view of Prioritization or Scoring, add a tag for a planning item using one of the following options.
+3.  From the Prioritization or Scoring, add a tag for a planning item using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d47059e115">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d53211e124">
 
 Option
 
-</th><th align="left" id="d47059e118">
+</th><th align="left" id="d53211e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d47059e124">
+</th></tr></thead><tbody><tr><td id="d53211e133">
 
 **From the List view of Prioritization or Scoring**
 
@@ -59,7 +59,7 @@ You can add more tags.
 
  \[Omitted image "add-tags-to-planning-items-from-grid.gif"\] Alt text: Add tags to a planning item from the grid view.
 
-</td></tr><tr><td id="d47059e159">
+</td></tr><tr><td id="d53211e168">
 
 **From the Details page of a planning item**
 
@@ -86,7 +86,7 @@ You can add more tags.
 
     \[Omitted image "edit-tag-in-spw.png"\] Alt text: Edit tag in Strategic Planning.
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d47059e236">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d53211e245">
 
 **Me**
 
@@ -94,7 +94,7 @@ You can add more tags.
 
 Tag is visible only to the person who created the tag. Only the user who created the tag can use the tag to search for planning items labeled with that tag. This setting is the default.
 
-</td></tr><tr><td id="d47059e245">
+</td></tr><tr><td id="d53211e254">
 
 **Groups and Users**
 
@@ -102,7 +102,7 @@ Tag is visible only to the person who created the tag. Only the user who created
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d47059e254">
+</td></tr><tr><td id="d53211e263">
 
 **Everyone**
 

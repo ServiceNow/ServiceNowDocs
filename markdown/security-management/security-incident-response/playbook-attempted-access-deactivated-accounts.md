@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -21,7 +21,7 @@ This playbook triggers when an employee whose account is terminated, disabled, o
 -   **[Set up the Attempted Access Deactivated Account playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-setup-attempted-access-deactivated-accounts.md)**  
 Use the following steps to set up the Attempted Access Deactivated Account playbook.
 -   **[Use the Attempted Access to Deactivated Accounts playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-using-attempted-access-deactivated-accounts.md)**  
-Use this playbook when an employee whose account is terminated, disabled, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
+Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 
 **Parent Topic:**[Flow-based Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/playbook-flow-based.md)
 

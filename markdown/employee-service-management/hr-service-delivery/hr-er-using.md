@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Using HR Service Delivery Employee Relations
@@ -18,7 +18,7 @@ Creating an HR Service Delivery Employee Relations \(ER\) case is similar to cre
 
 The process for working ER cases are:
 
--   Create an ER case using the Core UI Case Creation form or the HR Service Delivery Agent Workspace Create a new case form.
+-   Create an ER case using the Case Creation form in Core UI or the Create a new case form in Agent Workspace for HR Case Management.
 -   After case creation, add:
     -   Involved Parties
     -   Allegations

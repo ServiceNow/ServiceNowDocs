@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Properties installed to configure contracts integrations
@@ -98,6 +98,23 @@ Specifies whether the user needs audit certificate combined with the signed cont
 
 Generate a certificate of completion for electronically signed contracts.
 
+</td></tr><tr><td>
+
+Enable signatory roles for DocuSign
+
+ sn\_cm\_core.enable\_docusign\_signature\_roles
+
+</td><td>
+
+Controls the visibility of the **Role** field in internal signatory rules, Employee Center, and the Contract Workspace.
+
+ Set to `true` to display the **Role** field for Docusign integrations.
+
+ -   Type: true \| false
+-   Default value: false
+
+ To enable this property, see [Enable signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-signatory-roles.md). For more information on signatory roles, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Contract Management Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-ref.md)
 
@@ -111,6 +128,10 @@ Generate a certificate of completion for electronically signed contracts.
 [Components installed with Analytics Pack for Contract Management Pro]()
 
 [Contract request State and Contract document status in Contract Management Pro]()
+
+[Amendment and renewal interaction messages]()
+
+[Signatory roles]()
 
 [Clause Variation form]()
 
@@ -128,5 +149,15 @@ Generate a certificate of completion for electronically signed contracts.
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

@@ -1,20 +1,20 @@
 ---
 title: Identify Health Log Analytics system health issues on the service map
-description: View Health Log Analytics \(HLA\) system health issues on the ServiceNow Event Management service instance map.
+description: View Health Log Analytics \(HLA\) system health issues on the ServiceNow Event Management service map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-system-health-service-map-view.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Viewing Health Log Analytics system health alerts on the service map, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [View system health alerts on the service map, Viewing system features and health alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Identify Health Log Analytics system health issues on the service map
 
-View Health Log Analytics \(HLA\) system health issues on the ServiceNow Event Management service instance map.
+View Health Log Analytics \(HLA\) system health issues on the ServiceNow Event Management service map.
 
 ## Before you begin
 
@@ -26,13 +26,13 @@ Viewing the configuration items \(CIs\) that comprise Health Log Analytics and t
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Event Management** &gt; **Services** &gt; **Service Instances**.
+1.  Navigate to **All** &gt; **Event Management** &gt; **Services** &gt; **Application Services**.
 
-2.  On the **Service Instances** page, locate ServiceNow Event Management and select **View Service**.
+2.  On the **Mapped Application Services** page, locate ServiceNow Event Management and select **View Service**.
 
-    \[Omitted image "application-service.png"\] Alt text: Event Management health - service instance.
+    \[Omitted image "application-service.png"\] Alt text: Event Management Mapped Application Services page.
 
-    The Event Management service instance map shows the Health Log Analytics core components and the system health alerts that affect them.
+    The Event Management service map shows the Health Log Analytics core components and the system health alerts that affect them.
 
 3.  On the service map, identify Health Log Analytics system health issues.
 

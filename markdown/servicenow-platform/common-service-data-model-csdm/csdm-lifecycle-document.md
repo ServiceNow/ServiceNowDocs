@@ -1,36 +1,38 @@
 ---
-title: Document life cycle
-description: The CSDM framework provides standard fields and values that you can use to track the life cycle of an asset or a CI. The document life-cycle value pairs represent the overall life cycle of document assets \(contracts\) and CIs \(business process\) as related to their products.
+title: Life cycle of document and contract entities
+description: The document and contract life-cycle value pairs represent the overall life cycle of document assets \(contracts\) and CIs \(business process documentation\) as related to their products. The life-cycle values for the document and contract life-cycle process are visible only in tables related to document entities in Contracts and CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Document life cycle
+# Life cycle of document and contract entities
 
-The CSDM framework provides standard fields and values that you can use to track the life cycle of an asset or a CI. The document life-cycle value pairs represent the overall life cycle of document assets \(contracts\) and CIs \(business process\) as related to their products.
+The document and contract life-cycle value pairs represent the overall life cycle of document assets \(contracts\) and CIs \(business process documentation\) as related to their products. The life-cycle values for the document and contract life-cycle process are visible only in tables related to document entities in Contracts and CMDB.
 
-## Life-cycle values for documents
+## Life-cycle values for document and contract entities
 
-A life-cycle value pair is the combination life cycle stage and life cycle stage status values for a CI, asset, or IBI over the life cycle of a product instance. For example, a document CI in the **Operational** stage might change status over time from **In Use** to **Published** to **Pending Retirement**. A different document CI in the **Operational** stage might go from the **In Use** status directly to **Pending Retirement** status without ever having been in the **Published** status.
+For definitions of the values in the diagram, see [Definitions of life-cycle values for document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.md)
 
-\[Omitted image "csdm-lifecycle-document.png"\] Alt text: Document life-cycle process: pipeline, operational, and end of life.
+\[Omitted image "csdm-lifecycle-vp-doc-contract.png"\] Alt text: Relationships between CSDM stages and life cycle values.
 
-The life-cycle value pairs for documents are visible only in tables related to documents in Contract Management and the CMDB.
+The life-cycle value pairs for Customer Success Management documents are visible only in tables related to documents in Contract Management and the CMDB.
 
-**Note:** The \[life\_cycle\_control\] table uses the type of CI \(hardware, document, logical and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
+**Note:** The \[life\_cycle\_control\] table uses the type of CI \(tangible/physical, document and contract, location and so on\) to determine which *life cycle stage status* values are available for each *life cycle stage*.
 
-For additional information on how you can benefit from implementing life-cycle value pairs for CMDB entities, see the ['Map existing status values to CSDM life-cycle value pairs' section in the 'Foundation domain' topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
-
-## CSDM videos in the ServiceNow Community
-
-[Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
+-   **[Definitions of life-cycle values for document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.md)**  
+The document and contract life-cycle value pairs represent the overall life cycle of document assets \(contracts\) and CIs \(business process documentation\) as related to their products. The life-cycle values for the document and contract life-cycle process are visible only in tables related to document entities in Contracts and CMDB.
 
 **Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+
+**Related topics**  
+
+
+[Definitions of life-cycle values for document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.md)
 

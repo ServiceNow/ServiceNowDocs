@@ -10,7 +10,7 @@ topic_type: concept
 last_updated: "2026-09-29"
 reading_time_minutes: 3
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # URL Discovery insights dashboard
@@ -19,23 +19,25 @@ The Discovery Admin Workspace URL Discovery insights dashboard displays captured
 
 To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** &gt; **URL Discovery insights for SAM**.
 
-\[Omitted image "image.url-disco-insights-dash"\] Alt text: URL Discovery insights dashboard
+\[Omitted image "url-disco-insights-dash.png"\] Alt text: URL Discovery insights dashboard
 
 ## Prerequisites
 
 -   **Verify that you have the required setup**
-    -   ServiceNow AI Platform: Australia release, Zurich release, or Yokohama release, starting with Patch 6
-    -   Software Asset Management Professional plugin \(com.snc.samp\)
-    -   Agent Client Collector for Visibility - Content \(ACC-VC\), starting with v1.8.0
+    -   ServiceNow AI Platform: Brazil, Australia, Zurich, or the Yokohama release starting with Patch 6.
+    -   Software Asset Management Professional plugin \(com.snc.samp\).
+    -   Agent Client Collector for Visibility - Content \(ACC-VC\), starting with v1.8.0.
     -   DEX Browser Extension 4.1.0 enabled on the host.
     -   Google Chrome 114 or later, or Microsoft Edge 96 or later.
-    -   ITOM URL Discovery, starting with v1.1.0
-    -   Discovery Admin Workspace, starting with v1.14.0
+    -   ITOM URL Discovery, starting with v1.1.0.
+    -   Discovery Admin Workspace, starting with v1.14.0.
 -   **Enable the data collection**
 
-    Role required: discovery\_admin or admin
+    Starting with ITOM URL Discovery v1.6.0, set the **sn\_itom\_url\_disc.enable\_full\_monitoring** property to `True`.
 
-    Set the **sn\_acc\_vis\_content.enable\_full\_monitoring** property to **True**.
+    **Note:** In versions of ITOM URL Discovery before v1.6.0, set the **sn\_acc\_vis\_content.enable\_full\_monitoring** property instead.
+
+    For more information, see [Collect web usage data using Agent Client Collector for Visibility Content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/collect-web-data-usage-accvc.md).
 
 
 ## Required ServiceNow AI Platform roles
@@ -108,7 +110,7 @@ Select a URL from the list to open its domain details page, which displays domai
 
 **Note:** These metrics are aggregated per domain by the daily aggregation job and may not reflect current-day activity until the job runs.
 
-Select the filter icon \(\[Omitted image "image.filter-icon-daw"\] Alt text: filter icon\) to apply filters to the table.
+Select the filter icon \(\[Omitted image "filter-icon-daw.png"\] Alt text: filter icon\) to apply filters to the table.
 
 ## Other URLs visited
 
@@ -165,9 +167,7 @@ The application service associated with the domain. The Service Instances \[cmdb
 </td></tr></tbody>
 </table>Select **Save** to add the URL to the Targeted URL discovery. The URL is then monitored and appears in the **Targeted URLs visited** tab.
 
-Select the filter icon \(\[Omitted image "image.filter-icon-daw"\] Alt text: filter icon\) to apply filters to the table.
+Select the filter icon \(\[Omitted image "filter-icon-daw.png"\] Alt text: filter icon\) to apply filters to the table.
 
 **Note:** Mapping a SAM product to a URL requires the sam\_user role.
-
-**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
 

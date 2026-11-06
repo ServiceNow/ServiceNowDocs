@@ -7,8 +7,8 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -250,7 +250,7 @@ global
 
     The inbound event record state is set to **Processed** once the object has been inserted into the DevOps Core table. Event states include New, In Progress, Processed, Unmatched, and Error.
 
-3.  If the tool integration record and the subflow are created in a different scope, the DevOps admin must create two new Cross scope privileges records to allow the app to access the inbound events table.
+3.  If the tool integration record and the subflow are created in a different scope, the DevOps admin must create two new Cross scope privileges records to enable the app to access the inbound events table.
 
     Navigate to **System Applications** &gt; **Application Cross-Scope Access** and create read and write cross scope privileges records to allow your app to access the inbound events table.
 
@@ -263,24 +263,6 @@ global
     |Operation|Read|Write|
     |Status|Allowed|
 
-
-## Example
-
-\[Omitted image "dev-ops-tool-integration.png"\] Alt text: DevOpsToolIntegration
-
-\[Omitted image "dev-ops-subflow-properties.png"\] Alt text: SubflowProperties
-
-\[Omitted image "dev-ops-subflow.png"\] Alt text: Subflow
-
-\[Omitted image "dev-ops-notification-flow.png"\] Alt text: NotificationFlow
-
-\[Omitted image "dev-ops-user-integration-map.png"\] Alt text: DevOps User Integration Mapping
-
-\[Omitted image "dev-ops-integration-capability.png"\] Alt text: IntegrationCapability
-
-\[Omitted image "dev-ops-integration-planning-tool.png"\] Alt text: IntegrationPlanningTool
-
-\[Omitted image "dev-ops-cross-scope-access.png"\] Alt text: CrossScopeAccess
 
 **Parent Topic:**[User-created integrations in DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/dev-ops-tool-integration.md)
 

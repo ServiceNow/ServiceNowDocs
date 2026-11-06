@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/sales-agreement-mgmt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Sales Customer Relationship Management]
+breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Sales Agreement Management

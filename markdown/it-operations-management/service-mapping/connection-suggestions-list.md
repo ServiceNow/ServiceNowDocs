@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -72,10 +72,10 @@ Confidence
 
 The confidence level indicates the likelihood of this connection being part of the service instances.
 
--   **High** - This connection is likely to an internal component that is only used by this specific component or application.
--   **Medium** - This connection is likely to a middleware component used by multiple services, such as IBM MQ or Oracle WebLogic Server.
--   **Low** - This connection is likely to an application deployed on numerous servers in the organization, typically for monitoring purposes, such as Tivoli Enterprise Monitoring Agents or MID Server.
--   **Very low** - This connection is likely to a central application used by the entire organization, for example, Microsoft Active Directory or Okta.
+-   **High** - Commonly a connection to an internal component that is only used by this specific component or application.
+-   **Medium** - Commonly a connection to a middleware component used by multiple services, such as IBM MQ or Oracle WebLogic Server.
+-   **Low** - Commonly a connection to an application deployed on numerous servers in the organization, typically for monitoring purposes, such as Tivoli Enterprise Monitoring Agents or MID Server.
+-   **Very low** - Commonly a connection to a central application used by the entire organization, for example, Microsoft Active Directory or Okta.
 
 If the confidence level appears as **N/A**, wait until the application fingerprints training is complete. See the [Application fingerprint training status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/readiness-dashboard-ml.md).
 

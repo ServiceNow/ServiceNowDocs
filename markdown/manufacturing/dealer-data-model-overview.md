@@ -1,16 +1,16 @@
 ---
-title: Dealer portal
+title: Dealer data model
 description: The dealer framework helps you manage the day-to-day business activities and monitor the real-time data insight.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/dealer-data-model-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data model of Manufacturing Commercial Operations, Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
 
-# Dealer portal
+# Dealer data model
 
 The dealer framework helps you manage the day-to-day business activities and monitor the real-time data insight.
 
@@ -18,5 +18,10 @@ The dealer portal provides you with a wide range of benefits such as claims mana
 
 The following diagram shows the entities and their relationships within the Dealer application.
 
-\[Omitted image "Data\_model\_Dealer.svg"\] Alt text: Dealer portal entities
+\[Omitted image "Data-model-dealer.png"\] Alt text: Decorative
+
+-   **[Dealer tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/dealer-tables.md)**  
+The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
+
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/data-model.md)
 

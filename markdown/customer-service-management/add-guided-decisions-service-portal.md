@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-guided-decisions-service-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add Guided Decisions to Service Portal
@@ -32,15 +32,15 @@ These steps are intended for users with little to no coding experience.
 
 3.  From the Service Portal Designer, either select an existing page or add a new page.
 
-<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d163268e111">
+<table id="choicetable_bmv_x5r_c1c"><thead><tr><th align="left" id="d198332e111">
 
 Option
 
-</th><th align="left" id="d163268e114">
+</th><th align="left" id="d198332e114">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d163268e120">
+</th></tr></thead><tbody><tr><td id="d198332e120">
 
 **Use an existing page**
 
@@ -48,7 +48,7 @@ Action
 
 Select the page.
 
-</td></tr><tr><td id="d163268e129">
+</td></tr><tr><td id="d198332e129">
 
 **Add a page**
 
@@ -62,7 +62,7 @@ Select the page.
 </td></tr></tbody>
 </table>4.  Under Layouts, create the area to add widgets by selecting **Container** and dragging it onto the page.
 
-5.  In the **Widgets** tab, in the **Filter Widget** field, search for the Decision tree - Visualizer widget, then drag the widget to the layout.
+5.  In the **Widgets** tab, in the **Filter Widget** field, search for the Decision tree - Visualiser widget, then drag the widget to the layout.
 
 6.  Select the Edit icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Edit icon\).
 

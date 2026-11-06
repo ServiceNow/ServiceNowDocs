@@ -1,22 +1,22 @@
 ---
 title: Create Data relationships
-description: Create the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch the necessary data from each of these records in the Operational Resilience report template.
+description: Create the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch the necessary data from each of these records in the report template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-data-relationships-action-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Generating Microsoft Word reports using Document designer, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Create Data relationships
 
-Create the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch the necessary data from each of these records in the Operational Resilience report template.
+Create the data relationships in the Template Configurations module, which helps you to navigate from a record in the template configuration to any table. When you create these paths, you can fetch the necessary data from each of these records in the report template.
 
 ## Before you begin
 
-Role required: sn\_oper\_res.admin
+Role required: sn\_dri\_inc\_rptg.digital\_resilience\_incident\_manager
 
 ## Procedure
 
@@ -108,5 +108,5 @@ Table from which the data is obtained. This field is automatically populated.
 
 ## What to do next
 
-Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Set up the content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-content-config-for-temp-config.md).
+Create content configurations to specify the type of data you want to fetch on the report. For more information, see [Create Content configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-content-configurations-action-tasks.md).
 

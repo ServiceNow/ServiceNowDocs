@@ -1,20 +1,20 @@
 ---
 title: Originate deposit account workflow
-description: Learn how agents, using the Originate deposit account workflow, resolve service requests for opening a new deposit account. The workflow applies to both business and personal deposit service requests.
+description: Learn how agents, using the originate deposit account workflow, resolve service requests for opening a new deposit account. The workflow applies to both business and personal deposit service requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/financial-services-deposit-operations/fso-originate-deposit-account.html
 release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Financial Services Deposit Operations workflows, Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Deposit Operations workflows, Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Originate deposit account workflow
 
-Learn how agents, using the Originate deposit account workflow, resolve service requests for opening a new deposit account. The workflow applies to both business and personal deposit service requests.
+Learn how agents, using the originate deposit account workflow, resolve service requests for opening a new deposit account. The workflow applies to both business and personal deposit service requests.
 
 The following diagram shows how the application helps bank agents resolve a deposit request for a new deposit account.
 

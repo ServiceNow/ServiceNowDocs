@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up additional ACC data inputs, Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
@@ -25,8 +25,6 @@ Agent Client Collector setup automatically creates an ACC data input for streami
 -   The MID Server must be configured to work with the Agent Client Collector. For more information, see [Enable Agent Client Collector monitoring on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-monitoring-setup.md).
 
 **Important:** Health Log Analytics does not support IPv6. To work with the application, configure the MID Server to IPv4.
-
-**Note:** Currently, this setup only supports basic authentication with the MID Server. mTLS is not supported.
 
 Role required: evt\_mgmt\_admin
 

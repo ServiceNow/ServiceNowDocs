@@ -1,0 +1,29 @@
+---
+title: Configuration linking overview
+description: Learn how configuration IDs link Configuration Line Items and quote lines in Salesforce. When a configuration is saved, all related line items share the same configuration ID. The same ID is added to the parent quote line when the quote is saved, allowing admins to easily pull configuration details into quotes or related records.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configuration-mapping-overview.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow CPQ Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
+---
+
+# Configuration linking overview
+
+Learn how configuration IDs link Configuration Line Items and quote lines in Salesforce. When a configuration is saved, all related line items share the same configuration ID. The same ID is added to the parent quote line when the quote is saved, allowing admins to easily pull configuration details into quotes or related records.
+
+Whenever a configuration session is saved, a collection of Configuration Line Item objects are created in SFDC that all share the same Configuration Id field.
+
+\[Omitted image "cpq-salesforce-configuration-id-1.png"\] Alt text: Quote line details
+
+When you save the quote, the quote line for the parent level configurable product will have a similar Configuration Id field, which should be populated with the same value.
+
+\[Omitted image "cpq-salesforce-configuration-id-2.png"\] Alt text: Quote line details
+
+A Salesforce admin can leverage the fact that these values match to pull information from the Configuration Line Items to the quote \(or its associated opportunity/account\). For more information about pulling information to the quote line, see:
+
+-   [Use case: Configuration line item to quote line flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/use-case-configuration-line-item-to-quote-line-flow.md) \(if your CPQ Extension for Salesforce CPQ Package is version 1.8 or later\)
+-   [Integrate configuration data with Quote Calculator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/integrate_config_data_from_productlist_extended_to_salesforce_quote_and_quote_lines_using_quote_calculator_pluginqcp.md) \(for ServiceNow CPQ Extension Package version 1.7 or earlier\)
+

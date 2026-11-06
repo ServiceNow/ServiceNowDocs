@@ -7,8 +7,8 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Manage portfolio plans, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -38,6 +38,10 @@ When you share a portfolio plan with an individual user or a group, they can acc
 
 3.  From the portfolio plan header in the Planning page, select the **Share portfolio plan** icon \(\[Omitted image "icon-share-pp.png"\] Alt text: Share portfolio plan with users and groups\).
 
+    **Note:** Alternatively, you can select Share actions icon \(\[Omitted image "share-actions-pp.png"\] Alt text: Share actions of a portfolio plan.\) and then select **Copy link** to copy a direct link to the portfolio plan that you can share with other users. The link provides access only to users who already have the required permissions.
+
+    \[Omitted image "copy-link-portfolio-plan.png"\] Alt text: Copy link to share a portfolio plan.
+
 4.  On the Share portfolio plan form, select users to share the portfolio plan with and set their access appropriately.
 
     1.  In the **Members or Groups** field, enter the names of individual users or groups.
@@ -58,11 +62,11 @@ The selected individual and group users are notified of the portfolio plan shari
 
 ## What to do next
 
-[Collaborate on portfolio plans in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
+[Collaborate on portfolio plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/collaborate-on-portfolio-plans-in-portfolio-planning-workspace.md).
 
 You can change the access level or remove access for a user or a group.
 
-1.  On the Share portfolio plan form, select **Manage access**.
+1.  From the portfolio plan header, select Share actions icon \(\[Omitted image "share-actions-pp.png"\] Alt text: Share actions of a portfolio plan.\) and then select **Manage access**.
 2.  From the user or group card, select the Action Menu icon \(\[Omitted image "action-menu-icon.png"\] Alt text: Action menu icon.\).
 3.  Select the right access level or select **Remove**.
 
@@ -71,7 +75,7 @@ You can change the access level or remove access for a user or a group.
 **Related topics**  
 
 
-[Modify a portfolio plan in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.md)
+[Modify a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/modify-portfolio-plan-in-portfolio-planning-workspace.md)
 
 [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/show-or-hide-the-features-for-your-portfolio-plan-ppw.md)
 

@@ -1,24 +1,22 @@
 ---
 title: Potential knowledge gaps
-description: The Potential Knowledge Gap helps in finding missing or incomplete knowledge coverage by analyzing service interactions. Gap recommendations become available after you activate the Knowledge Gaps skills in Now Assist Admin.
+description: The Potential Knowledge Gap helps in finding missing or incomplete knowledge coverage by analyzing service interactions. Gap recommendations is set to available after you activate the Knowledge Gaps skills in AI Admin Hub.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skills/potential-knowledge-gaps.html
 release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-12-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Potential knowledge gaps
 
-The Potential Knowledge Gap helps in finding missing or incomplete knowledge coverage by analyzing service interactions. Gap recommendations become available after you activate the Knowledge Gaps skills in Now Assist Admin.
+The Potential Knowledge Gap helps in finding missing or incomplete knowledge coverage by analyzing service interactions. Gap recommendations is set to available after you activate the Knowledge Gaps skills in AI Admin Hub.
 
-The Knowledge Gaps feature \(also known as Potential Gaps\) helps knowledge managers and service teams discover missing or insufficient knowledge articles by analyzing service case and incident patterns. When the relevant skills are activated, Now Assist generates gap recommendations to guide the creation or improvement of knowledge content.
+The Knowledge Gaps feature \(also known as Potential Gaps\) helps knowledge managers and service teams discover missing or insufficient knowledge articles by analyzing service case and incident patterns. When the relevant skills are activated, generative AI generates gap recommendations to guide the creation or improvement of knowledge content.
 
 For more information, see [Manage potential knowledge gaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/address-knowledge-gaps.md)
-
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

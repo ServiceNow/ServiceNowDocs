@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-guided-decisions-to-recommended-actions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add Guided Decisions to Recommended Actions
@@ -16,7 +16,7 @@ Add decision trees created using the Guided Decisions Experience application to 
 
 ## Before you begin
 
-Ensure that you have Recommended Actions application \(sn\_nb\_action\) installed.
+Verify that you have Recommended Actions application \(sn\_nb\_action\) installed.
 
 Role required: sn\_nb\_action.next\_best\_action\_author, admin
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateACaseFrom-businessportal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a product case from Business Portal
@@ -113,4 +113,11 @@ A detailed description of the customer question, issue, or problem.
 ## Result
 
 The case is created, assigned a case number, and added to the creator's case list. To view this list, navigate to **Requests** &gt; **View Submitted requests** &gt; **View Cases and tasks** tab on the business portal header and select **All Cases** in the left pane.
+
+**Related topics**  
+
+
+[View or modify a case from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ViewOrModCaseFrom-businessportal.md)
+
+[Chat with an agent from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_StartAChatWithAnAgent-business-portal.md)
 

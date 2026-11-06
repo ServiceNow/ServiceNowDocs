@@ -1,20 +1,20 @@
 ---
 title: Set up an IAM account for a ServiceNow user in AWS
-description: AWSCreate an Identity Access Manager \(IAM\) user in the management account using the AWS CloudFormation template to manage multiple AWS accounts.
+description: AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\). This allows you to manage multiple AWS accounts with a centralized IAM user.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/set-up-iam-account-in-aws.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up AWS cloud, Configuring cloud providers, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up an IAM account for a ServiceNow user in AWS
 
-AWSCreate an Identity Access Manager \(IAM\) user in the management account using the AWS CloudFormation template to manage multiple AWS accounts.
+AWSCreate an AWS CloudFormation Identity Access Manager \(IAM\) user in the management account using the CloudFormation template \(CFT\). This allows you to manage multiple AWS accounts with a centralized IAM user.
 
 ## Before you begin
 

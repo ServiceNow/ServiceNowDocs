@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using Cloud Configuration Governance, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Cloud Configuration Governance policies
@@ -157,4 +157,8 @@ Condition builder
 Policy to check if detailed monitoring is enabled for the Azure VM.
 
 </td></tr></tbody>
-</table>
+</table>-   For more information on creating policy sets, see [Create policy set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/create-ccg-policy-set.md).
+
+-   For more information on base system policies and policy sets, see [AWS policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/aws-policies.md), [Azure policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/azure-policies.md), and [Policy sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/aws-policy-set.md).
+
+

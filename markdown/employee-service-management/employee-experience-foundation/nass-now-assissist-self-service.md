@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Admin configurations, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Admin configurations, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Enhanced chat in Employee Center
@@ -24,7 +24,7 @@ You can see a new theme that is visually-engaging, effective, and user-friendly 
 
 ## Enhanced theme in Employee Center
 
-This theme provides a more functional and clean design that is visually appealing. This theme aligns with the new sets components, a new color scheme, logo update, and CSS variable adjustments.
+This theme provides a more functional and clean design that is visually appealing to users. This theme aligns with the new sets components, a new color scheme, logo update, and CSS variable adjustments.
 
 \[Omitted image "nass-owassist-ec-homepage.png"\] Alt text: EC Home page and nava enhanced chat
 

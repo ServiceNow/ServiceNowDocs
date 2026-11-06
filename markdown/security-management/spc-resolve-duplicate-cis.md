@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-resolve-duplicate-cis.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resolving duplicate configuration items, Use the workspace, Security Posture Control, Security Operations]
+breadcrumb: [Resolving duplicate configuration items in SPC, Use the workspace, Security Posture Control, Security Operations]
 ---
 
 # Resolve duplicate configuration items in Security Posture Control

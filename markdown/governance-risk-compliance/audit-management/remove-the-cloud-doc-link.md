@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your documents and work papers with Audit Management as cloud files, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Remove a linked cloud file from a record
@@ -36,7 +36,7 @@ Role required: sn\_audit.admin, sn\_grc\_workspace.user
 
 6.  Select **Remove linked file** in the pop-up.
 
-    When a cloud file is linked to a record, the file access permissions are refreshed according to the set permissions on the table. For information on File access permissions, see [Create a Cloud file configuration on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/document-access-configuration.md).
+    When a cloud file is linked to a record, the file access permissions are refreshed according to the set permissions on the table. For information on File access permissions, see [Create Cloud File Access on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/document-access-configuration.md).
 
     A confirmation message is displayed that the cloud file is removed from the record.
 

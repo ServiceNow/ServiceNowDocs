@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_ConfigureLogoColorsSysDfltsUI16.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customizing instance appearance, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,7 +33,7 @@ Each color selection option provides a color picker to select a color. The text 
 
 Refer to [HTML Color Names \(W3CSchools\)](http://www.w3schools.com/tags/ref_colornames.asp) for information about HTML color names.
 
-**Note:** This information is applicable to Core UI. For theming information for Next Experience, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-theming.md).
+**Note:** This information is only applicable for instances that do not have Next Experience enabled. For theming information for Next Experience, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-theming.md).
 
 ## Procedure
 

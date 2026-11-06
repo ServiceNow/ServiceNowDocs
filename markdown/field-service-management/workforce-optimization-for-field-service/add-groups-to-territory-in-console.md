@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring resources for territories, Configuring Field Service Territory Planning, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure resources, Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
 
 # Assign groups to a territory
@@ -18,7 +18,7 @@ Assign groups of qualifiers, dispatchers, agents, and crews to territories to op
 
 ## Before you begin
 
-Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_manager
+Role required: sn\_fsm\_tp.territory\_planner, sn\_fsm\_tp.territory\_manager
 
 ## About this task
 

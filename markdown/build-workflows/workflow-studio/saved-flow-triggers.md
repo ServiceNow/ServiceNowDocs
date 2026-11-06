@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring flows, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Saved flow triggers
@@ -32,19 +32,23 @@ The Workflow Studio home page displays a **Triggers** option in the list of avai
 
 A Workflow Studio **Create trigger** tab consists of these elements:
 
--   **1. Action controls**
+-   **1. Publish and more actions**
+
+    Publish the trigger for consumption or access the More actions menu to delete the trigger, edit the trigger properties, view flows that are using the trigger, or force save your changes.
+
+-   **2. View options**
+
+    View the draft version of the trigger for all latest changes or view the published trigger.
+
+-   **3. Redo and undo buttons**
 
     Redo or undo an action that you have performed while creating the trigger.
 
--   **2. View and publish buttons**
+-   **4. Auto-save icon**
 
-    View the draft version of the trigger for all latest changes or view the published trigger. Publish the trigger for users to see.
+    View if and when your changes are automatically saved.
 
--   **3. Auto-save icon**
-
-    View whether your changes are automatically saved.
-
--   **4. Trigger type &amp; table section**
+-   **5. Trigger type &amp; table section**
 
     Select the trigger type and table from the available options.
 
@@ -52,13 +56,13 @@ A Workflow Studio **Create trigger** tab consists of these elements:
 
     **Note:** Starting in the Yokohama release, only the record-based triggers are supported for saved flow triggers.
 
--   **5. Conditions section**
+-   **6. Conditions section**
 
     Specify the conditions for the trigger. Add more conditions as you need.
 
     You can allow flow authors to view the conditions or to view and add more conditions when they use the saved trigger in a flow. The changes don't affect the saved trigger.
 
--   **6. Advanced Options section**
+-   **7. Advanced Options section**
 
     Specify the user session requirements needed to start a flow in the **Advanced Options** section.
 
@@ -115,12 +119,10 @@ Flow that runs synchronously in the current session. Use this option to provide 
 </table>    You can allow the users to view and modify the advanced options when they use the saved trigger in a flow. If a user modifies the advanced options, any future changes that you make to the trigger doesn't affect the user modified options.
 
 
-**Parent Topic:**[Exploring flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)
-
 **Related topics**  
 
 
-[Create a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md)
+[Create a saved record-based trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-saved-trigger.md)
 
 [Edit a saved trigger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/edit-saved-trigger.md)
 

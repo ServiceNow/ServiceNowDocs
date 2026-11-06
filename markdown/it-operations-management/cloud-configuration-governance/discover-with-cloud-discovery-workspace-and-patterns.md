@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Additional Cloud Provisioning and Governance setup on day 2, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Discover using Cloud Operations Workspace and Patterns
@@ -34,15 +34,15 @@ Cloud Operations Workspace is now known as Cloud Discovery Workspace or CDW.
 
     Follow these scenarios for next steps.
 
-<table id="choicetable_rcg_mjr_bcc"><thead><tr><th align="left" id="d72984e104">
+<table id="choicetable_rcg_mjr_bcc"><thead><tr><th align="left" id="d73470e104">
 
 Scenario
 
-</th><th align="left" id="d72984e107">
+</th><th align="left" id="d73470e107">
 
 Next steps
 
-</th></tr></thead><tbody><tr><td id="d72984e113">
+</th></tr></thead><tbody><tr><td id="d73470e113">
 
 **Cloud Discovery schedules don't display for System Admin login**
 
@@ -52,7 +52,7 @@ Next steps
 -   The page prompts to **Go to Applications Manager** to allow installation
 
 
-</td></tr><tr><td id="d72984e139">
+</td></tr><tr><td id="d73470e139">
 
 **Cloud Discovery schedules don't display for sn\_cmp Cloud Admin login**
 
@@ -62,7 +62,7 @@ Next steps
 -   The page requests to contact the system admin for Cloud Discovery Workspace installation.
 
 
-</td></tr><tr><td id="d72984e165">
+</td></tr><tr><td id="d73470e165">
 
 **Cloud Discovery displays**
 

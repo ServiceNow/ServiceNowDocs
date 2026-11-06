@@ -7,7 +7,7 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure approval rules for Exception Management in Configuration Compliance, Configure, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---

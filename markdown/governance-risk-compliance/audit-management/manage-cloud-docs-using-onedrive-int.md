@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manage your documents and work papers with Audit Management as cloud files
@@ -18,13 +18,15 @@ You can manage your documents and work papers with Audit Management as cloud fil
 
 Beginning with the Washington DC release, the document integration functionality is supported on the engagement and audit task records.
 
+**Note:** Beginning with 23.x.x release, engagement, control test, and evidence records also have a native Documents panel, separate from the cloud file integration described in this topic. Use this topic for the Microsoft based cloud file integration. For the native Documents panel, see [Using Document Management System in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/manage-documents-panel.md).
+
 ## Key benefits of workpapers and document management using Microsoft
 
 The document integration provides the following benefits for the users:
 
 -   Connect to the existing documents on Microsoft OneDrive such as Excel, Microsoft PowerPoint presentations, and Microsoft Word documents etc.
--   Mark a document as sharable or non-sharable​.
--   Share a non-sharable document with multiple GRC records​.
+-   Mark a document as shareable or non-shareable​.
+-   Share a non-shareable document with multiple GRC records​.
 -   Control read and write access to the cloud files based on the configurable permissions.​
 -   Collaborate on the documents present in the Microsoft SharePoint site​.
 
@@ -36,7 +38,7 @@ The document integration functionality addresses the following use cases for the
 -   Link the documents and workpapers present in the Microsoft SharePoint site with GRC records in ServiceNow.
 -   Connect to the existing documents and workpapers on Microsoft OneDrive.
 -   Reference and link the cloud files that are already linked to other GRC records.
--   Mark a file that cannot be shared between the records as non-sharable so that the corresponding cloud file on Microsoft cannot be shared with other records in ServiceNow.
+-   Mark a file that cannot be shared between the records as non-shareable so that the corresponding cloud file on Microsoft cannot be shared with other records in ServiceNow.
 -   Configure the cloud file access to provide read and write access to the users based on the defined conditions.
 
 ## Roles required to manage the document integration tasks

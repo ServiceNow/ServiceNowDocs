@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Consumables life cycle
@@ -49,7 +49,7 @@ Move a consumable asset that is in a consumed state and has completed its life c
 -   **[Dispose of consumable assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/dispose-consumables.md)**  
 Dispose of those consumable assets that are no longer required in your stockrooms.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 
@@ -65,8 +65,6 @@ Dispose of those consumable assets that are no longer required in your stockroom
 [Manage pre-allocated assets]()
 
 [Manage transfer order]()
-
-[Example Asset Management process]()
 
 [Use Organization Management]()
 

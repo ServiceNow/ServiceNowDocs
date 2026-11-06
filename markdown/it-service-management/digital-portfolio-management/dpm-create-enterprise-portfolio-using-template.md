@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enterprise portfolios, Work with portfolios in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Create enterprise service portfolios using a template
@@ -20,8 +20,6 @@ Admins can create enterprise portfolios from scratch or by using a template. Ent
 
 Role required: admin
 
-\[Omitted video\] Description: Create and edit portfolios in enterprise portfolio builder.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Workspaces** &gt; **Digital Portfolio Management**.
@@ -30,21 +28,21 @@ Role required: admin
 
 3.  Select **Create enterprise portfolio**.
 
-4.  Select the type of enterprise portfolio: service portfolio, business application portfolio, or application service portfolio.
+4.  Select the type of enterprise portfolio: service portfolio, business application portfolio, or service instance portfolio.
 
     Templates are only available for service portfolios.
 
 5.  In the dialog box, choose to build your portfolio from scratch or use a template.
 
-<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d62708e114">
+<table id="choicetable_k4w_m1j_q2c"><thead><tr><th align="left" id="d79180e102">
 
 Option
 
-</th><th align="left" id="d62708e117">
+</th><th align="left" id="d79180e105">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d62708e123">
+</th></tr></thead><tbody><tr><td id="d79180e111">
 
 **Build your own portfolio**
 
@@ -54,7 +52,7 @@ Steps
 2.  In the form, fill in the fields.
 
 
-</td></tr><tr><td id="d62708e144">
+</td></tr><tr><td id="d79180e132">
 
 **Use a template for creating a service portfolio**
 

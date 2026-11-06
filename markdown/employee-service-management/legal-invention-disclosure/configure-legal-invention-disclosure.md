@@ -1,5 +1,5 @@
 ---
-title: Configuring Legal Invention Disclosure
+title: Configure Legal Invention Disclosure
 description: Install Legal Invention Disclosure and configure the requirements to enable efficient processing and tracking of patent requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configuring Legal Invention Disclosure
+# Configure Legal Invention Disclosure
 
 Install Legal Invention Disclosure and configure the requirements to enable efficient processing and tracking of patent requests.
 

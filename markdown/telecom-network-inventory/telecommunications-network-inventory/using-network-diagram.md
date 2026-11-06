@@ -1,5 +1,5 @@
 ---
-title: Using the network diagram
+title: Network diagram
 description: Use the network diagram in the Telecommunications Network Inventory application to view a hierarchical map of the circuit and its underlying connection elements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
-# Using the network diagram
+# Network diagram
 
 Use the network diagram in the Telecommunications Network Inventory application to view a hierarchical map of the circuit and its underlying connection elements.
 
@@ -28,5 +28,5 @@ Create a protection path for the logical connection in the Telecommunications Ne
 **Related topics**  
 
 
-[Visualization of circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

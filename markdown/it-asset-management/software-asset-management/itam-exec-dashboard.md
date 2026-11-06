@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Executive insights into KPIs using the Asset Management Executive dashboard
@@ -152,7 +152,7 @@ Number of success goals completed for the Software Asset Management application.
 
  Source table: SAM Success Goal \[samp\_success\_goal\].
 
-**Note:** This widget is available only when the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin is installed.
+**Note:** This widget is available only when the Software Asset Workspace \(sn\_sam\_workspace\) store application is installed.
 
 </td><td>
 
@@ -172,7 +172,7 @@ Actual savings from completed success goals.
 
  Source table: SAM Success Goal \[samp\_success\_goal\].
 
-**Note:** This widget is available only when the Software Asset Workspace \(com.sn\_sam\_workspace\) plugin is installed.
+**Note:** This widget is available only when the Software Asset Workspace \(sn\_sam\_workspace\) store application is installed.
 
 </td><td>
 

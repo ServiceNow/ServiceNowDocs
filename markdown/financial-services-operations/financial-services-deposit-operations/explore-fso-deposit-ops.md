@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Deposit Operations

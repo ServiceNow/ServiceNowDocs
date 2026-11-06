@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Update REST and OAuth endpoints for Microsoft Office 365 Government plans
@@ -36,7 +36,7 @@ The detailed usage metrics for these Microsoft products \(except Power BI\) are 
 
 2.  Select the Microsoft 365 integration profile that you want to update.
 
-3.  On the Integration Profile record, select the Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon.\) next to the **REST message** field.
+3.  On the Integration Profile record, select the Preview this record icon \[Omitted image "preview-icon.png"\]next to the **REST message** field.
 
 4.  On the record preview, select **Open Record**.
 
@@ -62,7 +62,7 @@ The detailed usage metrics for these Microsoft products \(except Power BI\) are 
 
             The HTTP Method record opens.
 
-        2.  In the Authentication section of the HTTP Method record, select the Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon.\) next to the **OAuth profile** field.
+        2.  In the Authentication section of the HTTP Method record, select the Preview this record icon \[Omitted image "preview-icon.png"\] next to the **OAuth profile** field.
         3.  On the record preview, select **Open Record**.
 
             The OAuth Entity Profile record opens.
@@ -79,7 +79,7 @@ The detailed usage metrics for these Microsoft products \(except Power BI\) are 
 
     The OAuth application endpoint enables your ServiceNow instance to access your Microsoft 365 subscription data.
 
-    1.  In the Authentication section of the REST Message record, select the Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon.\) next to the **OAuth profile** field.
+    1.  In the Authentication section of the REST Message record, select the Preview this record icon \[Omitted image "preview-icon.png"\] next to the **OAuth profile** field.
 
     2.  On the record preview, select **Open Record**.
 
@@ -87,19 +87,19 @@ The detailed usage metrics for these Microsoft products \(except Power BI\) are 
 
     3.  In the OAuth Entity Profile Scopes list, change the `.com` to `.us` in the URL that is listed in the **OAuth scope** field of the **Permissions** OAuth entity scope.
 
-    4.  Select the Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon.\) next to the **OAuth provider** field.
+    4.  Select the Preview this record icon \[Omitted image "preview-icon.png"\] next to the **OAuth provider** field.
 
     5.  On the record preview, select **Open Record**.
 
         The Application Registries record opens.
 
-    6.  Select the Edit URL icon \(\[Omitted image "icon-lock.png"\] Alt text: Edit URL icon.\) next to the **Token URL** field.
+    6.  Select the Edit URL icon \[Omitted image "lock-outline-24.svg"\] next to the **Token URL** field.
 
     7.  In the URL, change the `.com` to `.us`.
 
         For example, change `https://login.microsoftonline.com` to `https://login.microsoftonline.us`.
 
-    8.  Select the Lock URL icon \(\[Omitted image "unlock-icon.png"\] Alt text: Lock URL icon.\).
+    8.  Select the Lock URL icon \[Omitted image "unlock-outline-24.svg"\].
 
     9.  Select **Update**.
 

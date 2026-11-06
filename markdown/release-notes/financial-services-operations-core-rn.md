@@ -1,47 +1,49 @@
 ---
 title: Financial Services Operations Core release notes
-description: The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Yokohama release.The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Yokohama release.
+description: The ServiceNow Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Brazil release.Claim Summarization on the Claim Workspace and Claim Summary pages moves to the supported Now Assist context menu \(NACM\) component, replacing the deprecated AI Summary Card component.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/financial-services-operations-core-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-04-06"
 reading_time_minutes: 1
-breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+keywords: [claim summarization, NACM, AI Summary Card, claim workspace, claim summary, Now Assist, financial services]
+breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Financial Services Operations Core release notes
 
-The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Yokohama release.
+The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Brazil release.
 
 ## About Financial Services Operations Core
 
-The Claim Base \[sn\_bom\_claim\_base\] table has been updated in this release with additional fields. These fields were previously available only to specific applications. They're available in the Claim Base table and can be used across all other claim applications in this release.
+The case type selector in Financial Services Operations now uses the predefined Customer Service Management \(CSM\) implementation, replacing the previous FSO-specific override.
 
-See [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/financial-services-operations-core-data-model.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Financial Services Operations Core is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Important:** Financial Services Operations Core is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
-    Install Financial Services Operations Core by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Financial Services Operations Core by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)
 
-## Yokohama
+## Version 13.2.1
 
-The ServiceNow® Financial Services Operations Core application provides a data model that enables financial institutions to create flexible data structures that meet their business needs. Financial Services Operations Core was enhanced and updated in the Yokohama release.
+Claim Summarization on the Claim Workspace and Claim Summary pages moves to the supported Now Assist context menu \(NACM\) component, replacing the deprecated AI Summary Card component.
 
 ### What's changed
 
--   **[Added fields to Claim Base table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/fso-core-insurance-tables.md)**
+-   **Claim Summarization component update**
 
-    Added the following fields to the Claim Base \[sn\_bom\_claim\_base\] table:
+    Generate AI-powered claim summaries using the Now Assist context menu \(NACM\) component, which replaces the deprecated AI Summary Card component on the Claim Workspace and Claim Summary pages. Claims processors and adjusters can continue to generate an AI-generated summary of a claim: processors see it on the Claim Summary page, and adjusters see it on both the Claim Workspace and Claim Summary pages.
 
-    -   SIU review
-    -   Claim validation decision
-    -   Claim fraud decision
+    Share a generated summary to the claim's work notes from the summary component. Selecting **Share** opens an editable work notes dialog, where adjusters can edit the summary text before selecting **Save to work notes**.
+
+    Activate the Claim Summarization skill configuration for the summary component to appear on either page. If the skill configuration isn't active, the component doesn't display on either page.
+
 

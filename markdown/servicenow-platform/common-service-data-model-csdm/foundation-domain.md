@@ -1,26 +1,44 @@
 ---
-title: Foundation domain in the CSDM framework
-description: The Foundation domain involves tables that contain base data that is referenced from or to objects in the other CSDM domains. Foundation data is required before you can use ServiceNow products or add data to the CMDB.
+title: Foundation domain in the CSDM model
+description: Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.html
 release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [CSDM data domains, Explore, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Foundation domain in the CSDM framework
+# Foundation domain in the CSDM model
 
-The Foundation domain involves tables that contain base data that is referenced from or to objects in the other CSDM domains. Foundation data is required before you can use ServiceNow products or add data to the CMDB.
+Tables in the Foundation domain contain base data that is referenced from or to objects in the other CSDM domains. Before you can use ServiceNow products, you must populate foundational data.
 
-The tables in the Foundation domain aren't used in Configuration Management Database \(CMDB\) relationships. Instead, the tables contain critical referential data. Typical users of the domain are process owners, data stewards, product owners, and contract managers.
+The tables in the Foundation domain aren't used in CMDB relationships. Instead, the tables contain critical referential data. Typical users of the domain are process owners, data stewards, product owners, and contract managers.
 
-\[Omitted image "foundation-domain.png"\] Alt text: Foundation domain.
+\[Omitted image "domain-foundation-tables.png"\] Alt text: Foundation domain of the CSDM framework.
 
-## Business process
+In the Foundation stage of implementing the CSDM framework, admins prepare the referential data that enables accurate reporting to support good business decisions. Use the base-system tables when you begin implementing the CSDM to derive the highest value from your ServiceNow products and the ServiceNow AI Platform. For more information on this stage of building your CMDB, see [CSDM implementation stage — Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-implement-foundation-stage.md).
+
+**Note:** For an introductory walk-through of the tables and attributes that you should populate for any domain, see the videos listed in [CSDM resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-resources.md).
+
+## Foundation domain tables used during the service life cycle
+
+Individual Foundation domain tables are accessed as needed during each phase of the service life cycle. Each topic that describes the life-cycle phase of a domain identifies the foundation tables that are active during that phase. See the following diagrams:
+
+-   [Tables used during the Ideation &amp; Strategy phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/ideation-strategy-domain.md)
+-   [Tables used during the Design &amp; Planning phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/design-domain.md)
+-   [Tables used during the Build &amp; Integration phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/build-domain.md)
+-   [Tables used during the Service Delivery phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md)
+-   [Tables used during the Service Consumption phase of the service life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md)
+
+## Data managed by the chief strategist: Value stream
+
+Value stream: A value stream is the set of actions that take place to add value to a customer from the initial request through realization of value by the customer. The value stream begins with the initial concept, moves through various stages of development and on through delivery and support. A value stream begins and ends with a customer. The value stream is aligned with your organization's business processes.
+
+## Data managed by the process owner: Business processes
 
 A business process has a well-defined start and finish. Examples of business processes in the banking industry are the customer onboarding process and the credit check process. Each business process can have levels of criticality and impact. Business processes are stored in the cmdb\_ci\_business\_process table.
 
@@ -28,89 +46,94 @@ In a parent-child relationship, business processes can be identified by using th
 
 The business process is a manually-maintained CI that can identify declared and determined criticality as well as impact to confidentiality, integrity, and availability. Business processes can be reviewed monthly, quarterly, semi-annually, or annually. In addition, the next review date can be recorded. For further information, see [Business process management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/business-process-overview.md) and [Create a business process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-a-business-process.md).
 
-## Contracts
+## Data managed by the contract manager: Contracts
 
 A contract is a binding agreement between two parties. In the ServiceNow AI Platform, contracts contain detailed information such as the contract number, start and end dates, active status, terms and conditions statements, documents, renewal information, and financial terms.
 
 -   A contract is not a CI. Contracts use contract model types from the [Product Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CreateAProductModel.md) module. Contracts are stored in the \[ast\_contract\] table.
 -   Use the Contract Management application to manage and track contracts. See [Contract Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ContractManagement.md).
 -   In the Service Level Management application, contracts group together SLAs that relate to a single vendor or customer, as well as the CIs, locations, groups, users, and child contracts that are related to the contract. For more information, see [Define a service contract](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/define-a-service-contract.md).
--   Service contracts used by Vendor Management Workspace can support hardware CIs as part of an SLA.
+-   Service contracts used by Vendor Management Workspace can support tangible/physical CIs as part of an SLA.
 -   In the Customer Service Management product, service contracts define the type of support that customers receive. A contract can include an account and contact or a consumer and the specific assets that are covered. A contract can also include multiple service entitlements and SLAs. See [Define a service contract in Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-csm-service-contracts.md).
 
-## Products and product models
+For more information, see [Definitions of life-cycle values for document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-df-document.md).
 
-A product model is a specific version or configuration of a product used to manage and track applications on the ServiceNow AI Platform. Product models identify the product owner, team, product status, compatibility with other products, reference to product catalog, and reference objects in the various stages of a product's life cycle. For more information, see [Product catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_ProductCatalog.md).
+## Data managed by the product owner
 
-Additionally, you can identify the products reaching end-of-life as defined by third party providers or internal product owners. You can also bundle other products as components to represent the set of products that your organization develops, sells, or uses.
+-   **Products and product models**
 
-Product models are extended into seven base types: application model \(version agnostic\), software model \(version specific\),contract model, facility model, hardware model, consumable model, service model. Products might be bundled to create a collection or group of products, for example a FlashBlade server \(hardware model\), or a 24/7 support service \(service model\).
+    Products might be bundled to create a collection or group of products, for example a FlashBlade server \(hardware model\), or a 24/7 support service \(service model\). Additionally, you can identify the products reaching end-of-life as defined by third-party providers or internal product owners. You can also bundle other products as components to represent the set of products that your organization develops, sells, or uses.
 
-\[Omitted image "product-model-technical.png"\] Alt text: Technical product model table hierarchy.
+    A product model is a specific version or configuration of a product used to manage and track applications on the ServiceNow AI Platform. The Product Model tables are not CIs. CIs reference Product Models using the **Model ID** attribute \(available on all CMDB tables\). For example, a Service Offering CI may reference a Service Offering Model, while a Windows Server may reference a Hardware Model.
 
-Product models are stored in the \[cmdb\_model\] table or the extended tables aligned to the seven base types. The product model tables are not CIs. Configuration items can use the **Model ID** attribute to reference product models. For example, a service offering CI might reference a particular service model that other service offerings of the same type also reference.
+    Product models identify the product owner, team, product status, compatibility with other products, reference to product catalog, and reference objects in the various stages of a product's life cycle.
 
-Application, service, and software class instance CIs aren't created through Discovery, so their **Model ID \[model\_id\]** values might not refer to product model records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
+    Product Models are recorded in the \[cmdb\_model\] table through the following extended tables, known as product model classes.
 
-## CMDB group
+    -   Application Model \[cmdb\_application\_product\_model\] \(version-agnostic\)
+    -   Software Model \[cmdb\_software\_product\_model\] \(version-specific\)
+    -   Contract Model \[cmdb\_contract\_product\_model\]
+    -   Facility Model \[cmdb\_facility\_product\_model\]
+    -   Hardware Model \[cmdb\_hardware\_product\_model\] \(tangible/physical devices\)
+    -   Consumable Model \[cmdb\_consumable\_product\_model\]
+    -   Service Model \[cmdb\_service\_product\_model\]
+    Application, service, and software class instance CIs aren't created through Discovery, so their **Model ID \[model\_id\]** values might not refer to product model records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. For recommendations, see [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
-A CMDB group is a collection of CIs \(but is not, itself, a CI\). A group is based on the results of saved Query Builder queries, encoded queries, or manual entries. You can apply an action to all members of a group at one time.
+-   **Product features**
 
-You can work with a CMDB group across the ServiceNow AI Platform.
+    In digital product release, a feature \(what you're developing toward\) exists in a particular version of software or service.
 
-\[Omitted image "cmdb-group-found-domain.png"\] Alt text: CMDB group.
+-   **Software bills of material \(SBOMs\)**
 
--   For the CSDM, the Dynamic CI Group references a CMDB group to provide a list of CIs based on a common criteria.
--   CMDB groups are stored in the table \[cmdb\_group\].
--   The CMDB group can potentially replace the spreadsheets that you might be using to group your CIs.
+    An SBOM is the overall collection of components of a piece of software.
 
-For additional information, see [CMDB groups]().
+    Cyclone DX is supported.
 
-## Life-cycle value pairs
 
-life-cycle value pairs track the life cycles for products, assets, contracts, CIs, locations, and other objects. Using the standard CSDM life-cycle values consistently helps you to effectively track objects through their transitions over time. Reporting can therefore accurately reflect the actual states of CIs: usage, availability, end of support, and so on.
+## Data managed by the data steward
 
-See the ServiceNow Community video: [CSDM V4 product and life cycle discussion](https://www.youtube.com/watch?v=TfRv1VTRsgM)
+-   **CMDB groups**
 
-The standard CSDM life-cycle value pair covers all phases of a product instance life cycle.
+    A CMDB group is a collection of CIs \(but is not, itself, a CI\). A group is based on the results of saved Query Builder queries, encoded queries, or manual entries. You can apply an action to all members of a group at one time.
 
--   A **life cycle stage** is one of the broad phases that a CI moves through, from inception or procurement to operation and then to end of life.
--   **life cycle stage status** is the particular status of a CI within its current life cycle stage.
+    -   You can work with a CMDB group across the ServiceNow AI Platform.
+    -   For the CSDM, the Dynamic CI Group references a CMDB group to provide a list of CIs based on a common criteria.
+    -   CMDB groups are stored in the Group \[cmdb\_group\] table.
+    -   The CMDB group can potentially replace the spreadsheets that you might be using to group your CIs.
+    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 
-For example, a hardware CI in the **Operational** stage might change stage status over time from **In Use** to **In Maintenance** to **End of Support**. A different hardware CI might go from **In Use** to **End of Support** without ever having been in **In Maintenance** status.
+-   **Locations**
 
-\[Omitted image "csdm-op-stage-of-hw-ci.png"\] Alt text: Allowed life-cycle values during the Operational stage of a hardware CI's life cycle
+    Data that comes from multiple sources and federated integrations is difficult to maintain. The following attributes have been added to the location \[cmn\_location\] table to simplify management:
 
-When you enable the CSDM framework, you can start using the **Life Cycle Stage** and **Life Cycle Stage Status** values to track an asset's life cycle. To use the fields, follow the procedure described in [Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable.md). The following processes can use the life-cycle value pairs:
+    -   **Source**: The origin of the location record.
+    -   **Location type**: The position of the location record in the hierarchy of locations. You can use the following options to create a hierarchy of location data to suit your requirements: Region, County, State/Province, City, Site, Building/Structure, Floor, and Room.
+    -   **Managed by group**: The group that governs or manages this location record.
+    -   **Validation** \(duplicate and primary\): Flag duplicate records and manually filter locations that are not be displayed.
+    -   **Life cycle stage** and **Life cycle stage status**.
+-   **Life-cycle values**
 
--   [Product life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
--   [Hardware life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
--   [Logical life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
--   [Document life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
--   [Location life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
+    life-cycle value pairs track the life cycles for products, assets, contracts, CIs, locations, and other objects. Using the standard CSDM life-cycle values consistently helps you to effectively track objects through their transitions over time. Reporting can therefore accurately reflect the actual states of CIs: usage, availability, end of support, and so on.
 
-## Legacy status values are auto-updated
+    When you enable the CSDM framework, you can start using the **Life Cycle Stage** and **Life Cycle Stage Status** values to track an asset's life cycle. To use the fields, follow the procedure described in [Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable.md). The following processes can use the life-cycle value pairs:
 
-The following legacy statuses are automatically mapped to the **Life Cycle Stage** and **Life Cycle Stage Status** fields when you follow the procedure described in [Activate the CSDM plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable.md).
+    -   [Life cycle of product entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-product.md)
+    -   [Life cycle of tangible/physical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-hardware.md)
+    -   [Life cycle of intangible/logical entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-logical.md)
+    -   [Life cycle of document and contract entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-document.md)
+    -   [Life cycle of location entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-lifecycle-location.md)
+    See the ServiceNow Community video: [CSDM V4 product and life cycle discussion](https://www.youtube.com/watch?v=TfRv1VTRsgM)
 
-**Important:** Legacy field values are not deleted after you map them to **Life Cycle Stage** and **Life Cycle Stage Status** values.
 
--   Product Model Status
--   Asset State
--   Asset Substate
--   Contract Status
--   CI Install Status
--   CI Operational Status
--   CI Hardware Status
--   CI Hardware Substatus
+## Common data managed by the data steward
 
-## Map existing status values to CSDM life-cycle value pairs
+Common data is stored in the following tables:
 
-Use the Life Cycle Mapping module \(**CSDM** &gt; **Life Cycle Mapping**\) to specify how your existing life-cycle values should be converted to CSDM life-cycle value pairs. The mapping ensures ServiceNow AI Platform products "see" legacy CIs in your environment. In this example, the existing **Pending Install** value of the **Install Status** attribute for hardware CIs will always map to **Deploy/Test** life-cycle value pairs in the CMDB. See [Map legacy status values to CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md) and [Activate align and sync for CSDM life-cycle values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-life-cycle-standard-values.md).
-
-\[Omitted image "csdm-lifecycle-mapping-form.png"\] Alt text: Assign CSDM life-cycle values to existing legacy values.
-
-## Common data
+-   Company: \[core\_company\]
+-   Business unit: \[business\_unit\]
+-   Department: \[cmn\_department\]
+-   Location: \[cmn\_location\]
+-   Groups \[sys\_user\_group\] and users \[sys\_user\]. When the full definition of a CI requires that you identify the contact groups that are associated with the CI, you can add that data in the **Teams** related list for the CI.
 
 Common data elements are not configuration items. Common data is shared and used throughout the ServiceNow AI Platform. Common data includes organizational structure \(Company, Business Unit, Department\), locations, groups, and users. Many ServiceNow AI Platform products depend on common data to provide business value.
 
@@ -122,28 +145,9 @@ Planning your common data is essential to the effective implementation of Servic
 -   Do you have the depth of data that the CIs require?
 -   Who maintains the data?
 
-Common data is stored in the following tables:
-
--   Company: \[core\_company\]
--   Business unit: \[business\_unit\]
--   Department: \[cmn\_department\]
--   Location: \[cmn\_location\]
--   Groups: \[sys\_user\_group\]
--   Users: \[sys\_user\]
-
-## Location management
-
-Data that comes from multiple sources and federated integrations is difficult to maintain. The following attributes have been added to the location \(cmn\_location\) table to simplify management:
-
--   **Source**: The origin of the location record.
--   **Location type**: The position of the location record in the hierarchy of locations. You can use the following options to create a hierarchy of location data to suit your requirements: Region, County, State/Province, City, Site, Building/Structure, Floor, and Room.
--   **Managed by group**: The group that governs or manages this location record.
--   **Validation** \(duplicate and primary\): Flag duplicate records and manually filter locations that are not be displayed.
--   **Life cycle stage** and **Life cycle stage status**: See [Life-cycle value pairs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/foundation-domain.md).
-
 ## CSDM videos in the ServiceNow Community
 
 [Playlist of all CSDM videos](https://www.youtube.com/playlist?list=PLkGSnjw5y2U7QNr9jL6TAgwQvYBI_LEtK)
 
-**Parent Topic:**[Common Service Data Model — conceptual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
+**Parent Topic:**[CSDM data domains](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-conceptual-model.md)
 

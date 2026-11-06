@@ -7,9 +7,9 @@ release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Now Mobile app, EmployeeWorks, Employee Service Management]
 ---
 
 # Now Mobile app demo
@@ -154,12 +154,6 @@ The Now Mobile demo displays a launcher screen divided into UI sections. Tap an 
 
 ## New Hire
 
-**Note:**
-
-The Mobile Onboarding app is being deprecated!
-
-With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding app. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the [Now Mobile app for HR Service Delivery]().
-
 -   **Welcome Section**
 
     Easily present targeted information to employees based on location, job role, and other key criteria. Rich media, including in-app video playback, can cover a variety of important company communications.
@@ -185,4 +179,6 @@ Use the following links to learn more about on how to use and configure the Now 
 
 -   Now Mobile app
 -   [Configuring the Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/config-mobile-platform-landing.md)
+
+**Parent Topic:**[Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with external datasets, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Working with external datasets, Import external data, Process Mining, Platform Analytics]
 ---
 
 # Create a project
@@ -18,7 +18,7 @@ Create a project with the imported external data. You must mine the project to a
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -120,6 +120,4 @@ Select the target reference field.**Note:** To provide a value for this field, y
 
     For information, see [Review and mine your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/review-mine.md).
 
-
-**Parent Topic:**[Working with external datasets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/external-dataset.md)
 

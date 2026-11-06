@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/review-mdt.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -30,15 +30,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d32164e86">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d33159e86">
 
 Choice
 
-</th><th align="left" id="d32164e89">
+</th><th align="left" id="d33159e89">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d32164e95">
+</th></tr></thead><tbody><tr><td id="d33159e95">
 
 **Reject**
 
@@ -48,7 +48,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d32164e116">
+</td></tr><tr><td id="d33159e116">
 
 **Approve**
 

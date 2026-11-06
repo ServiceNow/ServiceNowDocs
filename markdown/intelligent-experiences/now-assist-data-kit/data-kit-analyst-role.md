@@ -1,26 +1,28 @@
 ---
-title: AI Data Kit roles \(sn\_data\_kit.analyst\)
-description: This user can edit and save ground truth in AI Data Kit. This role has read only access within AI Data Kit.
+title: AI Data Kit analyst \(sn\_data\_kit.analyst\)
+description: Provides read-only access to AI Data Kit, plus the ability to enter and save ground truth values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-data-kit/data-kit-analyst-role.html
 release: yokohama
 product: Now Assist Data Kit
 classification: now-assist-data-kit
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-30"
 reading_time_minutes: 1
-breadcrumb: [AI Data Kit reference, AI Data Kit, Enable AI experiences]
+keywords: [sn\_data\_kit.analyst, Now Assist Data Kit]
+breadcrumb: [AI Data Kit reference, AI Data Kit, Managing data for AI, Enable AI Experiences]
 ---
 
-# AI Data Kit roles \(sn\_data\_kit.analyst\)
+# AI Data Kit analyst \(sn\_data\_kit.analyst\)
 
-This user can edit and save ground truth in AI Data Kit. This role has read only access within AI Data Kit.
+Provides read-only access to AI Data Kit, plus the ability to enter and save ground truth values.
 
 ## Contains Roles
 
 List of roles contained within the role.
 
-None.
+-   canvas\_user
+-   snc\_required\_script\_writer\_permission
 
 ## Groups
 
@@ -30,5 +32,5 @@ None.
 
 ## Special considerations
 
-None.
+The sn\_data\_kit.admin role contains this role, so anyone with the admin role also has analyst access.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Performance Analytics widgets, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
@@ -30,7 +30,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "scorecard-icon.png"\] Alt text:
+\[Omitted image "scorecard-icon.png"\] Alt text: Scorecard icon
 
 </td><td>
 
@@ -46,7 +46,7 @@ For several indicators, shows any of the following attributes:-   Scores at seve
 
 </td></tr><tr><td>
 
-\[Omitted image "spider-icon.png"\] Alt text:
+\[Omitted image "spider-icon.png"\] Alt text: Spider list widget icon
 
 </td><td>
 

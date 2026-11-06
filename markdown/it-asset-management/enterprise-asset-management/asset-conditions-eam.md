@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-03-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Asset conditions in Enterprise Asset Management
@@ -73,4 +73,11 @@ The following are the plugin dependencies that are required to use asset conditi
 ## Domain separation supported
 
 The asset conditions feature supports domain separation.
+
+-   **[Create condition templates for condition attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-condition-template-eam.md)**  
+Create a condition template and associate the template to condition attributes for enterprise models and assets.
+-   **[Define condition attributes on enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-condition-attribute-eam.md)**  
+Define the conditions to be inspected on enterprise models and assets throughout their life cycle.
+
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

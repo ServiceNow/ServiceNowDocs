@@ -7,7 +7,7 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -57,7 +57,7 @@ As a user with the Compliance Administrator or Compliance Manager role, verify t
 
 As a user with the Compliance Administrator role, in your ServiceNow AI Platform instance, verify that you have assigned users with the required ServiceNow AI Platform roles.
 
- For detailed instructions and a list of Policy and Compliance Management roles, see [Assign Policy and Compliance Management roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
+ For detailed instructions and a list of Policy and Compliance Management roles, see [Assigning Policy and Compliance Management roles to your users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/assign-user-roles.md).
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Retrieval API, SOAP direct web service API functions, Direct web services, SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Data Retrieval, API functions, Direct services, SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # get

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/maintain-monitor-now-platform.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Administer the ServiceNow AI Platform]
 ---
@@ -35,7 +35,7 @@ See [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/
 
 ## Events
 
-Track every occurrence in your app, from screen loads to user clicks. User Experience Analytics provides detailed charts and tables for every event, to show you where the most activity goes on in your app. Analyze core processes in your business and improve user efficiency and workflow.
+Track every occurrence in your app, from screen loads to user clicks. Usage Insights provides detailed charts and tables for every event, to show you where the most activity goes on in your app. Analyze core processes in your business and improve user efficiency and workflow.
 
 See [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-events/events.md).
 

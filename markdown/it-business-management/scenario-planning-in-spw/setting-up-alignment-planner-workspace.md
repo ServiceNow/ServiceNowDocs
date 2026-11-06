@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Configuring Strategic Planning Workspace
@@ -58,12 +58,12 @@ Use the following steps as guidelines to set up Strategic Planning. Some of thes
 
 11. Enable financial planning for epics and customise the Financials screen view.
 
-    See [Configure financials for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/config-fin-spw.md).
+    See [Configure financials for planning items Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/config-fin-spw.md).
 
 
 ## Guided Setup to configure Strategic Planning
 
 Guided Setup provides a sequence of tasks to help you with the required configuration on your ServiceNow instances. After [installing Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md), navigate to **All** &gt; **Strategic Planning** &gt; **Guided Setup**.
 
-When you’re configuring a task from the Guided Setup, you can launch the in-app help for additional guidance by clicking the Show Help icon \(\[Omitted image "help-icon.png"\] Alt text: Show Help.\).
+When you’re configuring a task from the Guided Setup, you can launch the in-app help for additional guidance by clicking the Show Help icon \(\[Omitted image "Banner\_HelpIcon.png"\] Alt text: Show Help.\).
 

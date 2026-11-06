@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -38,7 +38,7 @@ When a demand is converted to a project, the expense lines remain with the deman
 
 3.  On the expense line form, fill in the fields.
 
-    For a description of the field names, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/expense-line-form.md).
+    For a description of the field names, see [Expense line form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/expense-line-form-demand.md).
 
 4.  Select **Submit**
 

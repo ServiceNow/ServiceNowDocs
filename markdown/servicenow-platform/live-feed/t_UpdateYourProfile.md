@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed UI overview, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,11 +38,7 @@ You can provide details about yourself, such as your role in your organization. 
 
 2.  Click your name or title displayed with your picture.
 
-    \[Omitted image "ProfileImage.png"\] Alt text: Profile picture of Beth Anglin.
-
     The profile record opens.
-
-    \[Omitted image "Profile1.png"\] Alt text: Beth Anglin's profile record.
 
 3.  Click the pencil icon next to **About Me** and type a short description about yourself that you want to share with others who view your profile.
 
@@ -52,8 +48,6 @@ You can provide details about yourself, such as your role in your organization. 
 
     -   Hover over the existing picture \(or tap the photo in the case of the smartphone or tablet interface\) to display the **Upload a picture** link. Select the link, navigate to the location of the photo you want to use, and then select **Open**.
     -   Locate the photo file you want to use on your computer, and then drag-and-drop it over the existing photo.
-    \[Omitted image "ProfileCamera.png"\] Alt text: The Upload a picture link appears when you hover over the existing image.
-
     **Note:** Your profile picture is used by the Connect and legacy chat features as well, if they are activated.
 
 

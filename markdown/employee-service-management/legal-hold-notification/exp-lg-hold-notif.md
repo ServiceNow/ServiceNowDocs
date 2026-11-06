@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: concept
-last_updated: "2025-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Exploring Legal Hold Notification
@@ -55,9 +55,9 @@ Legal Hold Notification provides the following benefits:
 
 To find out more about configuring and using Legal Hold Notification, see:
 
--   [Configuring Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
+-   [Configure Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/config-lg-hold-notif.md)
 -   [Using Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/use-lg-hold-notif.md)
--   [Legal Hold Notification Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
+-   [Legal Hold Notification reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-ref.md)
 
 **Parent Topic:**[Legal Hold Notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-landing-page.md)
 

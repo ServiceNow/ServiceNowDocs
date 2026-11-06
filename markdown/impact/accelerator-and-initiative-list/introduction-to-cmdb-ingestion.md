@@ -1,20 +1,20 @@
 ---
 title: Introduction to CMDB: Ingestion
-description: This accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
+description: This Accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/introduction-to-cmdb-ingestion.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Introduction to CMDB: Ingestion
 
-This accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
+This Accelerator provides a demonstration of the possibilities and capabilities of automating and standardizing CMDB data entry.
 
 ## Accelerator Overview
 
@@ -22,14 +22,18 @@ Introduction to CMDB: Ingestion provides Impact customers with a comprehensive o
 
 The focus of this session is on Service Graph Connectors. Additional methods of population such as via Discovery or Agent Client Collector \(ACC\) are not deeply explored within this accelerator.
 
+## Package Availability
+
 **Note:** This Accelerator is available for Impact Guided, Guided+ \(SV or PG\), Advanced, and Total packages.
 
 ## What You Get
 
 -   **Session Preparation**
 
-    -   Provision a ServiceNow demonstration instance
-    -   Activate and configure related plug-ins
+    The Technical Accelerator Consultant:
+
+    -   Provisions a ServiceNow demonstration instance
+    -   Activates and configures related plug-ins
     ​
 
 -   **Customer Coaching Session \#1 \(Up to 90 minutes\)**
@@ -66,5 +70,7 @@ Refer to the applicable Impact Accelerator description available at [https://www
 
 This Impact Accelerator in its entirety or portions of the Impact Accelerator activities may not be available to customers in certain restricted environments, to self-hosted customers, or to managed service providers with domain separated instances.
 
-ServiceNow is not responsible for implementing recommendations on Customer’s non-production or production instances.
+## Exclusions
+
+ServiceNow is not responsible for implementing recommendations on Customer’s sub-production or production instances.
 

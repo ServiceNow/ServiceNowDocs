@@ -1,22 +1,29 @@
 ---
 title: Address sharing through account hierarchy
-description: Users can reuse the same address between multiple accounts within the account hierarchy.
+description: You can reuse the same address between multiple accounts within the account hierarchy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/address-sharing-account-hierarchy.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reusing addresses between multiple accounts, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Reusing addresses between multiple accounts, Enhanced address data model for accounts, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Address sharing through account hierarchy
 
-Users can reuse the same address between multiple accounts within the account hierarchy.
+You can reuse the same address between multiple accounts within the account hierarchy.
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   admin
+-   sn\_customerservice\_manager
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
 
 ## Procedure
 

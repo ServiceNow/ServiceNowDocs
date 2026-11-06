@@ -1,20 +1,20 @@
 ---
-title: Display settings for different time series charts
+title: Display settings for time series data visualizations
 description: Each time series visualization type has a different set of display settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/display-settings-ts-charts.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Display settings for different time series charts
+# Display settings for time series data visualizations
 
 Each time series visualization type has a different set of display settings.
 
-## Area chart display settings
+## Area visualization display settings
 
 <table id="table_gvk_2mr_qtb"><thead><tr><th>
 
@@ -46,9 +46,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -73,6 +71,14 @@ Show 0 when no data available
 </td><td>
 
 Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
+
+</td></tr><tr><td>
+
+Show % of total in tooltip
+
+</td><td>
+
+Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
 
 </td></tr><tr><td>
 
@@ -107,9 +113,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -126,6 +130,14 @@ Show 0 when no data available
 </td><td>
 
 Choose whether to show 0 when there is no value in the selected dataset or for the configuration.**Note:** When enabled, the application fills missing values within an existing time series. However, it does not generate values for timestamps beyond the available dataset. As a result, if the selected date range extends past the last recorded data point, the visualization will not display a trailing 0, because no data point exists for that timestamp.
+
+</td></tr><tr><td>
+
+Show % of total in tooltip
+
+</td><td>
+
+Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
 
 </td></tr></tbody>
 </table>## Column visualization display settings
@@ -144,7 +156,7 @@ Chart variation
 
 </td><td>
 
-Select whether to display the group-by values in stacked columns or side-by-side.
+Select whether to display the group-by values in stacked columns, side-by-side, or normalized. The normalized display shows columns of equal height so you can compare the proportional contribution of each series across time periods.
 
 </td></tr><tr><td>
 
@@ -160,9 +172,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -172,8 +182,22 @@ Show data table
 
 Shows a table with chart and graph data for easier screen reader access. Data includes the percentage of the total for each value, when appropriate.
 
+</td></tr><tr><td>
+
+Show % of total in tooltip
+
+</td><td>
+
+Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
+
 </td></tr></tbody>
-</table>## Spline, line, and step visualization display settings
+</table>Chart variation options:
+
+-   \[Omitted image "dv-column-stacked.png"\] Alt text: A stacked column visualization
+-   \[Omitted image "dv-column-side-by-side.png"\] Alt text: A side-by-side column visualization
+-   \[Omitted image "dv-column-normalized.png"\] Alt text: A normalized column visualization
+
+## Spline, line, and step visualization display settings
 
 <table id="table_xvh_rlv_c2c"><thead><tr><th>
 
@@ -205,9 +229,7 @@ Show only one data point in tooltip
 
 </td><td>
 
-When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.
-
-Default: Off, except when zoom is 400%, which automatically turns it on.
+When turned on, the tooltip shows only the data point being hovered over. When turned off, the tooltip shows all data points.Default: Off, except when zoom is 400%, which automatically turns it on.
 
 </td></tr><tr><td>
 
@@ -235,6 +257,14 @@ Choose whether to show 0 when there is no value in the selected dataset or for t
 
 </td></tr><tr><td>
 
+Show % of total in tooltip
+
+</td><td>
+
+Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
+
+</td></tr><tr><td>
+
 Show continuous line
 
 </td><td>
@@ -242,5 +272,5 @@ Show continuous line
 When selected and there is no data for a specific time, there is no gap in the chart and it shows continuous line.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

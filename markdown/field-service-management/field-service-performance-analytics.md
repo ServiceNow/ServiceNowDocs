@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-performance-analytics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Field Service Management Platform Analytics Solutions, Setting up FSM reports and analytics, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Platform Analytics Solutions, FSM reports and analytics, Configure, Field Service Management]
 ---
 
 # Field Service Platform Analytics dashboard

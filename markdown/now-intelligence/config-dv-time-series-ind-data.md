@@ -1,18 +1,28 @@
 ---
-title: Indicator data options for time series visualizations
+title: Indicator data options for time series data visualizations
 description: The following Data configuration options are available for all time series type visualizations of indicator scores.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-time-series-ind-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-02-17"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Time series visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Indicator data options for time series visualizations
+# Indicator data options for time series data visualizations
 
 The following Data configuration options are available for all time series type visualizations of indicator scores.
+
+**Note:** Fields that apply to Data snapshots indicators apply only to native Data snapshots indicators, not classic indicators with Data snapshots enabled.
+
+The data source for a native Data snapshots indicator has the indicator type **Automated - Data Snapshots** or **Formula - Data Snapshots**.
+
+\[Omitted image "ds-source-native.png"\] Alt text: Data source properties for a native Data snapshots indicator
+
+The data source for a classic indicator with Data snapshots enabled has the indicator type of either **Automated** or **Formula**.
+
+\[Omitted image "ds-source-enabled.png"\] Alt text: Data source properties for an enabled Data snapshots indicator
 
 <table id="table_wqy_sjr_qtb"><thead><tr><th>
 
@@ -28,7 +38,7 @@ Data source
 
 </td><td>
 
-You have selected an Indicator data source in [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
+You have selected an Indicator data source in [Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -49,6 +59,30 @@ Time aggregation
 </td><td>
 
 Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
+
+</td></tr><tr><td>
+
+Select an aggregation \(Data snapshots indicators only\)
+
+</td><td>
+
+The aggregation is based on the Data snapshots indicator's configuration. You can't change it in the context of creating a data visualization. **Count** counts the number of records. **Count distinct** counts the number of unique values rather than the total number of records. For example, if the name of a user appears more than once in a list, the user is only counted once. Other choices perform the specified aggregate operation, such as summing the values in a field across records.
+
+</td></tr><tr><td>
+
+Field \(Data snapshots indicators only\)
+
+</td><td>
+
+The field on the Data snapshot's source to which the aggregate is applied. Required for all aggregates except Count.
+
+</td></tr><tr><td>
+
+Show incomplete periods \(Data snapshots indicators only\)
+
+</td><td>
+
+Select to display values from the period in progress. Clear this check box to show only the values for completed periods.
 
 </td></tr><tr><td>
 
@@ -130,8 +164,14 @@ Breakdown
 
 List of breakdowns to choose from for grouping indicator scores.**Important:**
 
--   Scripted breakdowns are not supported in dashboard filters.
+-   Scripted breakdowns aren't supported in dashboard filters.
 -   Only two levels of breakdown are supported in total, including data visualization and dashboard filters.
+
+Each breakdown element is shown separately in the visualization. If a multiple select filter for that breakdown is also applied to the visualization, only the selected elements are shown. If you do not specify a breakdown in this field and apply a multiple select filter, the aggregate score of all selected breakdown elements is shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+
+Data snapshots indicators support only reference, Boolean, and choice fields for group bys.
+
+**Note:** For Data snapshots indicators, breakdowns are specified on the indicator source. For classic Performance Analytics indicators, breakdowns are specified on the indicator record.
 
 </td></tr><tr><td>
 
@@ -139,7 +179,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
@@ -160,13 +202,13 @@ Sort by
 
 Sorting options of the main and alternative groups set in **Group by**. Options include:-   Name: Sorts the values alphabetically by field or element name.
 -   Value: Sorts the values numerically or by count.
--   Element order: If you are grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown, this option sorts the groups according to the value of the Sequence field.
+-   Element order: Sorts the groups according to the value of the Sequence field. Available when grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown.
 -   Group bucket: Sorts the elements by bucket group, when applicable. Only available for indicator data sources and when the breakdown used for the **Group by** is based on a bucket group.
 -   Report range: Sorts the table field values by range. Only available for table data sources and when the table field used for the **Group by** has a report range associated with it.
 
 **Note:**
 
--   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by cannot apply to an alternative group-by \(such as sorting by Element order when the alternative group-by is not on the Choice table\), sorting for that group-by defaults to Value.
+-   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by can't apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table.
 -   If no main **Group by** has been set, but alternative group-bys are defined, you can sort only by Name or Value.
 -   Sorting is not available for Pareto bar visualizations. Pareto charts are always sorted by value in descending order.
 
@@ -181,6 +223,42 @@ Ascending or descending. The sort by order for all elements in a time series vis
 If some group by fields don’t support the selected sorting, they default to sorting by group bucket for date/time fields such as Age. For all other fields, they default to element order.
 
 If a date filter is applied, the data is sorted by the most recent completed period.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Trend by
+
+</td></tr><tr><td>
+
+Date field \(Data snapshots indicators only\)
+
+</td><td>
+
+This field is configured with the Data snapshots indicator and cannot be modified. If None is displayed, results are shown as aggregate totals for the selected time period.
+
+</td></tr><tr><td>
+
+Calendar type \(Data snapshots indicators only\)
+
+</td><td>
+
+Select the calendar type the aggregation period is based on. Choices include Standard, Gregorian, and various business calendars. The calendar type determines the available aggregation periods.
+
+</td></tr><tr><td>
+
+Aggregation period \(Data snapshots indicators only\)
+
+</td><td>
+
+The period by which to aggregate values to calculate the trend. Options come from the standard calendar and any business calendars that are defined on the instance, such as the Gregorian. Select Auto to choose the most suitable period automatically. The aggregation level, such as shift, day or week is adjusted to the appropriate aggregation level at runtime based on the selected date range and business calendar metadata.
+
+</td></tr><tr id="interval-minutes-ds"><td>
+
+Interval in minutes \(Data snapshot indicators only\)
+
+</td><td id="entry_interval-minutes-ds">
+
+Number of minutes in each aggregation period. This property applies only when the **Aggregation period** is **Minute**.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -235,8 +313,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -247,6 +329,28 @@ Allow change date range
 </td><td>
 
 When turned on, the viewer has a date range selector control with a set of predefined options.
+
+ Not available when **Compare period over period** is turned on.
+
+</td></tr><tr><td>
+
+Compare period over period
+
+</td><td>
+
+Option to overlay each period as a separate series on the same chart, aligned by their position within the period. Use it to spot patterns, trends, or anomalies across periods.Available only for indicator data sources, and only when **Number of periods** and **Period** are set, **Show maximum range** and **Set absolute period** are off, and the chart type is Area, Line, Spline, or Step. Not available when the visualization has a group by or multiple metrics.
+
+The setting is hidden when the **Period** is Days, when the time aggregation unit is the same as the period unit, or when the indicator uses a business calendar. For more information, see [Period over period comparison in time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/period-over-period-comparison.md).
+
+</td></tr><tr><td>
+
+Allow change date range
+
+</td><td>
+
+When turned on, the viewer has a date range selector control with a set of predefined options.
+
+ Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -268,13 +372,15 @@ Show forecast
 
 Option to display forecast data in the chart based on current trend data.**Note:** If there is not enough historical data to generate a forecast, no forecast or error is displayed.
 
+Not available when **Compare period over period** is turned on.
+
 </td></tr><tr><td>
 
 Configure forecast
 
 </td><td>
 
-Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-forecast-ts-viz.md).
+Opens a dialog for configuring forecasting on this data visualization. A forecast configuration on the data visualization overrides any configuration set on the data source, such as an indicator. This override applies only to the specific data visualization.This option is available only when Show forecast is turned on. For more information, see [Configure a forecast in a time series data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-forecast-ts-viz.md).
 
 </td></tr><tr><td>
 
@@ -290,7 +396,7 @@ Show trend
 
 </td><td>
 
-Option to display the direction that the indicator is moving, or how values have changed over time.
+Option to display the direction that the indicator is moving, or how values have changed over time.Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -298,7 +404,7 @@ Show confidence band
 
 </td><td>
 
-Option to display the bandwidth between which indicator scores are moving.
+Option to display the bandwidth between which indicator scores are moving.Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -314,7 +420,7 @@ Show comment
 
 </td><td>
 
-Option to display comments added to data points.
+Option to display comments added to data points.Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -350,19 +456,21 @@ Show filter as separate series
 
 </td><td>
 
-When toggled on, if there is a filter applying multiple elements, these elements are shown as separate lines in the chart. The filter can be a component added to a dashboard or UIB page, or it can be an "is one of" filter condition on the data visualization itself.
+When toggled on, if there is a filter applying multiple elements, these elements are shown as separate lines in the chart. The filter can be a component added to a dashboard or UI Builder page, or it can be an "is one of" filter condition on the data visualization itself.
 
  This feature supports only one breakdown at a time. Other breakdown filters have no effect on the chart. Filter precedence works as follows:
 
 -   The first "is one of" filter condition on the data visualization overrides all other filter conditions and all single/multiple select filter components.
--   If there are no "is one of" filter conditions, the first multiple select filter that has a selection made overrides all other single/multiple select filters and all filter conditions.
+-   If there are no "is one of" filter conditions, the first multiple select filter with a selection overrides all other filters.
 -   A different multiple select filter can take effect if the first one is cleared.
 
-Default: off. A single aggregate line is shown for all elements.
+ Default: off. A single aggregate line is shown for all elements.
 
-Requires the latest Data Visualization application from the ServiceNow Store.
+ Requires the latest Data Visualization application from the ServiceNow Store.
 
  **Note:** Available only when no **Group by** is defined.
+
+ Not available when **Compare period over period** is turned on.
 
 </td></tr><tr><td>
 
@@ -374,7 +482,7 @@ Triggered when you navigate away from the dashboard that contains the data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 
@@ -402,6 +510,14 @@ Header text of the message that describes why no data was returned.
 
 </td></tr><tr><td>
 
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
 Content
 
 </td><td>
@@ -417,5 +533,5 @@ Alignment
 The alignment of the illustration and text in the message.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
+</table>**Parent Topic:**[Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md)
 

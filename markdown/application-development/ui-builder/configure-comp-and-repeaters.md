@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure components and repeaters \(advanced feature\)
@@ -20,6 +20,8 @@ You can add and configure components as you build pages in UI Builder. You can a
 Learn how to add components to your page in UI Builder. A page is built by adding components.
 -   **[Add repeaters to components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/repeaters.md)**  
 In UI Builder, use repeaters to repeat one or more components with results from a data resource.
+-   **[Optimize page loading performance \(Advanced Feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/performance-settings.md)**  
+Performance settings enhances leading speeds and user engagement by displaying high-priority content first, making key components interactive sooner for a faster perceived performance.
 
 **Parent Topic:**[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/advanced-uib.md)
 

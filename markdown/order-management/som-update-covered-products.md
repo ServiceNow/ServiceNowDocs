@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-update-covered-products.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Add covered products to order line items
@@ -20,67 +20,44 @@ Role required: sn\_ind\_tmt\_orm.order\_agent or sn\_ind\_tmt\_orm.order\_manage
 
 ## About this task
 
-Order agents can add covered products like entitlements or contracts to an order line during the order capture process.
+Order agents can add covered products to an order line during the order capture process. Covered products refer to offerings that act as entitlements or contracts linked to a primary product, such as a warranty purchased with a phone. They are not standalone products but provide additional value or service to the main product. In the product offering record, covered products are marked with Entitlement as the offering type. You can only link the entitlement to a specific product, sold product, or install base item associated with the account.
+
+You can add multiple covered products to an order line item.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
-2.  Navigate to **Customer orders** &gt; **All** and select the order that you’re working with.
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  From the **Order line items** tab, select the entitlement or contract type of order line.
+3.  Navigate to **Customer Orders** &gt; **All**.
 
-4.  Select **More** &gt; **Covered product**.
+4.  Select the order that you’re working with.
 
-    \[Omitted image "som-covered-product.png"\] Alt text: Image shows how agents can select Covered Products from the more menu in the order line form.
+5.  From the **Line items** tab, select the entitlement or contract type of order line to open the order line record in its own tab.
 
-5.  In the Covered Product form, select **New**.
+6.  In the Covered Product form, select **New**.
 
-6.  In the Create New Covered Product form, select the covered product line item you want to add.
+7.  In the Create New Covered Product form, select the covered product line item you want to add.
 
-    There are three types of covered products types that you can add to a line item:
+    You can add either of the following covered products types to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d58660e136">
+    -   **Covered sold product**: Add a sold product to an entitlement/contract type of order line to establish a coverage relationship between them.
+    -   **Covered order line item**: Add a covered order line item to the order line.
+    -   **Covered install base item**: Add an install base item to the order line.
+8.  Select **Save**.
 
-Covered product type
+    **Note:** You can't modify a covered product added to an order line. To make changes, delete the covered product by selecting **More Actions icon \[Omitted image "icon-three-dot-menu.png"\] Alt text:** &gt; **Delete** and add the covered product again by selecting **New**.
 
-</th><th align="left" id="d58660e139">
+9.  On the order line item page, select the contract start date and the contract end date.
 
-Description
-
-</th></tr></thead><tbody><tr><td id="d58660e145">
-
-**Covered sold product**
-
-</td><td>
-
-Add a sold product to an entitlement/contract type of order line to establish a coverage relationship between them.
-
-</td></tr><tr><td id="d58660e157">
-
-**Covered order line item**
-
-</td><td>
-
-Add a covered order line item to the order line.
-
-</td></tr><tr><td id="d58660e166">
-
-**Covered install base item**
-
-</td><td>
-
-Add an install base item to the order line.
-
-</td></tr></tbody>
-</table>7.  Select **Save**.
-
-8.  On the order line item page, select the contract start date and the contract end date.
-
-9.  Change the state to **Complete**.
+10. Change the state to **Complete**.
 
     A contract is created with the contract details for the order line.
 
 
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
+**Related topics**  
+
+
+[Add Covered Products using Contracts and Entitlement Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/adding-cov-prod-cceworkflows.md)
 

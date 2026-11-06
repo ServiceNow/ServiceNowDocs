@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Create a success play
@@ -16,7 +16,7 @@ Use this option to create a success play to create automated actions.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## About this task
 
@@ -31,24 +31,29 @@ With success plays, you can use Flow Designer and playbooks to quickly create ac
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  On the Success landing page, click **View engagement** and then click **Create success play**.
+2.  On the Success landing page, select **View engagement** and then select **Create success play**.
 
 3.  Select a category that aligns with your goal.
 
-    The sub categories displayed are filtered based on the category you select here.
+    The sub categories displayed are filtered based on the category that you select here.
 
 4.  Select a sub category from the list and select the activity that must be completed to achieve your goal.
 
-5.  Click **Next** to continue.
+5.  Select **Next** to continue.
 
-    Based on your previous selections, you are prompted for additional details in the next page.
+    Based on your previous selections, you’re prompted for additional details in the next page.
 
-6.  Click **Finish**.
+6.  Select **Finish**.
 
-    You will see a notification indicating that the success play has been created. When the tasks are completed, the work notes are updated indicating that it is complete.
+    You’ll see a notification indicating that the success play has been created. When the tasks are completed, the work notes are updated indicating that it’s complete.
 
     **Note:** When you start creating a success play, a success launcher notifier record is created to track the status of the success play. To view this record, navigate to the **All** menu and enter `sn_acct_lc_success_notifier_launcher.list` in the Search filter. You can view the status in the Success Launcher Notifiers page.
 
+
+-   **[Define subflows for success plays](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-config-subflow.md)**  
+Before you create a success play, you must define a subflow and add it to the Definition Records table.
+
+**Parent Topic:**[Manage engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-manage-engage.md)
 

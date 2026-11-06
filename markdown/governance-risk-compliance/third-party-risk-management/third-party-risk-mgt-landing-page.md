@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -58,21 +58,17 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-[Work in the VRM classic user interface \[Omitted image "bus-manage.svg"\] Alt text:Use the legacy user interface to perform all Vendor Risk Management tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/using-legacy-ui.md)
-
-</td><td>
-
 [Use Digital resilience third-party registers \[Omitted image "bus-dollar-sign.svg"\] Alt text:Use the Digital resilience third-party registers application in the Vendor Management Workspace to set up and maintain registers of contractual arrangements with ICT third-party service providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-dora.md)
 
 </td><td>
 
 [Use risk intelligence reports\[Omitted image "bus-threat-intelligence-source.svg"\] Alt text:Manage and request risk Intelligence reports or scores from external risk intelligence content providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-riskintel-using.md)
 
-</td></tr><tr><td>
+</td><td>
 
 [Integrate scores from risk intelligence providers\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Integrate scores from risk intelligence providers. The scores provide insight on how trustworthy and safe a particular third party can be.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)
 
-</td><td>
+</td></tr><tr><td>
 
 [Use the third-party portal\[Omitted image "bus-service-portal.svg"\] Alt text:Use the third-party portal to respond to questionnaires, requests for documentation, tasks, and issues. The portal is the point of interaction between third-party contacts and risk assessors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/vendor-portal.md)
 
@@ -80,8 +76,16 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Reference topics provide detailed descriptions of tables, properties, forms, and roles that are installed with the Third-party Risk Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
+</td><td>
+
+ 
+
 </td></tr></tbody>
-</table>## Troubleshoot and get help
+</table>**Important:**
+
+The Vendor Management Workspace for ITSM \(sn\_itsm\_vendor\) is deprecated as of the Australia release. It is hidden and no longer available for activation for new customers. References to Vendor Management Workspace throughout this documentation refer to the GRC: Vendor Management Workspace \(sn\_vrm\_ws\), which is a separate application included with Third-party Risk Management and is not affected by this deprecation. For details about the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+## Troubleshoot and get help
 
 -   [Ask or answer questions in the GRC community](https://www.servicenow.com/community/forums/filteredbylabelpage/board-id/governance-risk-compliance-forum/label-name/vendor%20risk%20management).
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477).

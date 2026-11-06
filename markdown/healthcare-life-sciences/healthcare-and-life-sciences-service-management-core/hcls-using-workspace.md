@@ -1,5 +1,5 @@
 ---
-title: Managing healthcare-related requests in Workspace
+title: Manage healthcare requests in Workspace
 description: As a healthcare agent, you can use Healthcare workspace to accept requests from patients via chat or a phone call and view patient-related information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-using-workspace.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Managing healthcare-related requests in Workspace
+# Manage healthcare requests in Workspace
 
 As a healthcare agent, you can use Healthcare workspace to accept requests from patients via chat or a phone call and view patient-related information.
 

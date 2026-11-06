@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a demo experience to explore UI Builder
@@ -48,7 +48,7 @@ The UI Builder experience view is a central place to view and understand the str
 
     \[Omitted image "experience-main-page.png"\] Alt text: Main page for your new experience
 
-    **Note:** In addition to the name of your new experience, the screen includes the URL, application scope, admin panel, and the roles of users who can view the experience. Any pages or variants you create for the experience appear in the **Pages and variants** section.
+    **Note:** In addition to the name of your new experience, the screen includes the URL, application scope, admin panel, and the roles of users who can view the experience. Any pages or variants you create for the experience appear in the **Pages** section.
 
 
 ## What to do next

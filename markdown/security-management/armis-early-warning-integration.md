@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/armis-early-warning-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Armis Early Warning, CVE enrichment, vulnerability intelligence, Security Exposure Management]
 breadcrumb: [Integrate, Unified Security Exposure Management, Security Operations]

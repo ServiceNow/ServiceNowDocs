@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with WhatsApp, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Integrating the WhatsApp messaging app with other applications
@@ -21,6 +21,4 @@ As a live agent, when you accept a request from the WhatsApp service channel, yo
 ## Integrating with Customer Service Management
 
 Integrate the Conversational Integration with WhatsApp \(powered by Twilio\) application with the ServiceNow® Customer Service Management application to enable your customer contacts and consumers to initiate a WhatsApp chat conversation with a virtual agent or live agent. An agent can initiate a conversation, or accept a conversation initiated from a WhatsApp chat conversation. For more information, see [Integrate WhatsApp with Customer Service Management through Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/messg-integrate-whatsapp-csm.md).
-
-**Parent Topic:**[Integrating Virtual Agent with WhatsApp](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)
 

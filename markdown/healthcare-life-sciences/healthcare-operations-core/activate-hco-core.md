@@ -1,20 +1,20 @@
 ---
 title: Install Healthcare Operations Core
-description: You can install the Healthcare Operations Core application \(sn\_hco\) if you have the admin role. The application includes demo data for Healthcare Operations Core and installs related ServiceNow Store applications and plugins if they aren’t already installed.
+description: You can install the Healthcare Operations Core application \[sn\_hco\] if you have the admin role. The application includes demo data for Healthcare Operations Core and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-operations-core/activate-hco-core.html
 release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Healthcare Operations Core, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Install Healthcare Operations Core
 
-You can install the Healthcare Operations Core application \(sn\_hco\) if you have the admin role. The application includes demo data for Healthcare Operations Core and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+You can install the Healthcare Operations Core application \[sn\_hco\] if you have the admin role. The application includes demo data for Healthcare Operations Core and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ For more information, see [Components installed with Healthcare Operations Core]
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Healthcare Operations Core application \(sn\_hco\) using the filter criteria and search bar.
+2.  Find the Healthcare Operations Core application \[sn\_hco\] using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you can’t find the application, you might have to request it from the ServiceNow Store.
 

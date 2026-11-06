@@ -1,5 +1,5 @@
 ---
-title: Add milestones for a roadmap in Strategic Planning Workspace
+title: Add milestones for a roadmap
 description: Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Add milestones for a roadmap in Strategic Planning Workspace
+# Add milestones for a roadmap
 
 Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 
@@ -29,15 +29,15 @@ For the timeline of your portfolio plan or free-form roadmap, create milestones 
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d264189e93">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d337100e96">
 
 Roadmap type
 
-</th><th align="left" id="d264189e96">
+</th><th align="left" id="d337100e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d264189e102">
+</th></tr></thead><tbody><tr><td id="d337100e105">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d264189e123">
+</td></tr><tr><td id="d337100e126">
 
 **Free-form roadmap**
 
@@ -85,7 +85,7 @@ If multiple milestones are scheduled close to each other, they might appear grou
 
 \[Omitted image "milestone-group.gif"\] Alt text: milestone group
 
--   **[Update a roadmap milestone in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-roadmap-milestone.md)**  
+-   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/update-roadmap-milestone.md)**  
 Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 
 **Parent Topic:**[Planning roadmaps in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/roadmaps-in-alignment-planner-workspace.md)

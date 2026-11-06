@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with SAP Ariba
@@ -192,7 +192,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 For publishing the integration profile, change the application scope to **Global**.
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 ### About this task
 
@@ -202,15 +202,15 @@ If you’re using Software Asset Workspace, the option to create the SAP Ariba i
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d90022e800">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d236156e797">
 
 Interface
 
-</th><th align="left" id="d90022e803">
+</th><th align="left" id="d236156e800">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d90022e809">
+</th></tr></thead><tbody><tr><td id="d236156e806">
 
 **Core UI**
 
@@ -221,7 +221,7 @@ Action
 3.  Select **SAP Ariba Integration Profile**.
 
 
-</td></tr><tr><td id="d90022e851">
+</td></tr><tr><td id="d236156e848">
 
 **Software Asset Workspace**
 
@@ -277,7 +277,7 @@ Type of integration profile. This field is automatically set to `Ariba Subscript
 
 4.  Select **Save**.
 
-5.  After the integration profile is saved, upload the attachments by selecting the **Attach** icon \(\[Omitted image "attachments-icon.png"\] Alt text: Attach icon\).
+5.  After the integration profile is saved, upload the attachments by selecting the **Attach** icon \[Omitted image "attachments-icon.png"\].
 
 6.  On the Attachments pane, drag or select the files in the `.csv` format that you want to upload one by one or together.
 
@@ -293,6 +293,18 @@ Type of integration profile. This field is automatically set to `Ariba Subscript
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
+
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

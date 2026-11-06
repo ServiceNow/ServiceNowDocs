@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configuring Service Portfolio Management, Service Portfolio Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 ---
 
 # Set up services and commitments in Service Portfolio Management
@@ -44,7 +44,7 @@ Role required: portfolio\_admin or service\_editor
 
 6.  Opt in to the updated availability calculator system property \[com.snc.availability.v2\].
 
-    This updated availability system property \[com.snc.availability.v2\] offers improved calculations and maintenance. For more information, see [Set the time zone for availability results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown) or [View Service Level Agreement \(SLA\) results in Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-view-sla-result.md).
+    This updated availability system property \[com.snc.availability.v2\] offers improved calculations and maintenance. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-view-availability-results.md).
 
 
 **Parent Topic:**[Configuring Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-portfolio-management/SPM2-configuring.md)

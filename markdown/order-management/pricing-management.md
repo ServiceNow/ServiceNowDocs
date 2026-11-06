@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/pricing-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Configure, price, quote, Explore, Sales Customer Relationship Management]
 ---
 
 # Pricing Management
@@ -39,7 +39,7 @@ For details on setting up and managing price list features, see [Configuring pro
 
 If you're using the Sales Agreement feature, a published sales agreement price list is generated automatically when a sales agent creates a sales agreement from a completed quote. The sales agreement price list reflects the final unit price for each product that is captured as part of the sales agreement. The sales agreement price list is valid for the start and end dates specified for the agreement. To learn more about sales agreements, see [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-agreement-mgmt.md).
 
-\[Omitted image "sales-agreement-price-list.png"\] Alt text: Sales Agreement Details tab and Price List Lines tab in CSM Configurable Workspace that show a sales agreement price list
+\[Omitted image "sales-agreement-price-list.png"\] Alt text: Sales Agreement Details tab and Price List Lines tab in CRM Workspace that show a sales agreement price list
 
 ## Cost books
 
@@ -47,13 +47,17 @@ Cost books define the unit cost for product offerings. This information is used 
 
 \[Omitted image "costbook-quote-header-line.png"\] Alt text: Quote details tab that shows the cost book used, and quote line item that shows the unit cost and unit margin amount.
 
-Your pricing admins or managers create a cost book and add a cost book line to set the unit cost for each product offering. They can also copy a published cost book and its cost book lines to revise costs in the cost book \(update the copy\) or reuse a cost book without having to create a new one. For details on setting up cost books and cost book lines, see [Create and publish a cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-cost-books.md) and [Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-cost-book-lines.md). For information on activating the cost book and cost margin features in Quote Management, see [Install and configure Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-quote-management.md).
+Your pricing admins or managers create a cost book and add a cost book line to set the unit cost for each product offering. They can also copy a published cost book and its cost book lines to revise costs in the cost book \(update the copy\) or reuse a cost book without having to create a new one. For details on setting up cost books and cost book lines, see [Create and publish a cost book](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-cost-books.md) and [Create a cost book line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-cost-book-lines.md). For information on activating the cost book and cost margin features in Quote Management, see [Configuring Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-quote-management.md).
+
+## Cost-based attribute adjustments
+
+As a pricing admin, you can capture the base cost for a product based on its characteristics, such as model or size, since those attributes can affect the final cost. You can define a cost-based attribute adjustment for a product by specifying a fixed amount or percentage markup or markdown to be applied to all cost books or to selected cost book lines. The base costs are used by the pricing engine to calculate profit margins for products in sales quotes. For more information, see [Create and publish a cost-based attribute adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-cost-attribute-adjustment.md).
 
 ## Price adjustments
 
 In Pricing Management, you can adjust the list price of your products by specifying a markdown or markup fixed amount or percentage, or a price override, based on the following features:
 
--   **Product attributes**: Define a price adjustment based on product characteristics, such as model or color. For more information, see [Create and publish a product attribute-based pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-pricing-adjustment.md).
+-   **Product attributes**: Define a price adjustment based on product characteristics, such as model or color. For more information, see [Create a product attribute-based pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-pricing-adjustment.md).
 -   **Non-product attributes**: Create a price adjustment based on characteristics that aren’t related to a product, such as shipping information or sales channel. For example, you can create a pricing adjustment for customers in a particular region. For details, see [Create a non-product attribute pricing adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-nonprod-attrib-adjustment.md).
 -   **Bundled products**: Create price adjustments for product offerings in a bundled product. For example, you might want to specify a markdown amount for certain product offerings in the bundle, because the bundle provides discounted pricing. For more information, see [Create pricing adjustments for bundled products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-bundle-adjustment.md).
 
@@ -72,7 +76,7 @@ As an admin, you can use system-defined validations or set your own validations 
 
 ## Pricing plans
 
-Starting with the November 2024 release, Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices. Adjustments include the pricing changes set in the pricing adjustment matrices. You can use the default plan, or you can copy the default plan and customize it by adding or changing the pricing steps to tailor it for your organization. To learn more, see [Configurable pricing plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-pricing-plan.md).
+Pricing Management provides a default pricing plan that defines the sequence of steps in which pricing calculations and adjustments are applied to determine final product prices. Adjustments include the pricing changes set in the pricing adjustment matrices. You can use the default plan, or you can copy the default plan and customize it by adding or changing the pricing steps to tailor it for your organization. To learn more, see [Configurable pricing plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-pricing-plan.md).
 
 ## Pricing extensions
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Loan Operations
 classification: financial-services-loan-operations
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Loan Operations, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Loan Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Using Financial Services Loan Operations
@@ -97,7 +97,7 @@ Several predefined workflows for business and personal loans are available with 
 
 When a customer requests a loan service, a loan service case is created and assigned to a loan agent. After the agent updates the case details, a workflow is triggered. The flow triggers various tasks from the case and the assignment rules route these tasks to the appropriate back-office teams such as loan, credit, or document service. A new task is automatically created when an agent closes the previous task.
 
-For more information, see [Loan Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/loan-operations-workflows.md).
+For more information, see [Financial Services Loan Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/loan-operations-workflows.md).
 
 ## Case playbook
 
@@ -110,5 +110,5 @@ Using the case playbook, loan contributor and loan agents can visualize and inte
 
 Performance Analytics give business owners an insight into how the team and business are performing. Dashboards with customizable views are available for business and personal loan operations with the application.
 
-For more information, see [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/personal-loan-operations-dashboard.md) and [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-loan-operations/business-loan-operations-dashboard.md).
+For more information, see [Personal Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/personal-loan-operations-dashboard.md) and [Business Loan Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/business-loan-operations-dashboard.md).
 

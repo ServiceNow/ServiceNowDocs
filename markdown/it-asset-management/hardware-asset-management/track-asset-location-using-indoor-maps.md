@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Track asset location using indoor maps
@@ -67,70 +67,22 @@ Role required: admin or asset
     2.  Select the values for the **Department**, **User**, or **Model category** filters in the Filter by dialog box.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Inventory and stockroom operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization]()
-
-[Manage asset bundles from your inventory]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Use a hardware asset request flow]()
-
-[Audit hardware asset inventory]()
-
-[Request a Hardware Asset Refresh]()
-
-[Manage your expiring contracts for leased hardware assets]()
-
-[Reclaim hardware assets]()
-
-[View RFID information of assets]()
-
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
-
-[Receive asset warranty details from Lenovo]()
-
-[Manage stockrooms]()
-
-[Track shipments using the integration framework]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage and monitor hardware asset performance]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
+[Manage the receiving of assets at stockrooms in the Hardware Asset Workspace]()
 
 [Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
 
 [Manage asset put away using the Hardware Asset Workspace]()
 
-[Manage hardware asset tasks using the Mobile Agent application]()
+[Audit hardware asset inventory]()
 
-[Audit your hardware assets by using Asset Attestation]()
+[View RFID information of assets]()
 
-[Acknowledge receipt of assets on the Employee Center portal]()
+[Manage your inventory through pallet assets]()
 
-[Update associated Decision tables for HAM flows]()
+[View stockroom details]()
 

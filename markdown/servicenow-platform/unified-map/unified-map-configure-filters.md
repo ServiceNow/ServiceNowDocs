@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use filters to specify which nodes should appear on a map
@@ -21,24 +21,26 @@ Customize the map to focus on the CIs that you want to work on by filtering out 
 Role required:
 
 -   To access maps: sn\_cmdb\_user, sn\_cmdb\_editor or sn\_cmdb\_admin
--   To access maps with operational application services: app\_service\_user, and sm\_user or sm\_admin
--   To access maps with operational and non-operational application services: app\_service\_admin, and sm\_user or sm\_admin
+-   To access maps with operational service instances: app\_service\_user, and sm\_user or sm\_admin
+-   To access maps with operational and non-operational service instances: app\_service\_admin, and sm\_user or sm\_admin
 -   To access and view related items: itil
 
 ## About this task
 
--   When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that do not apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of precedence from the various sources is as follows:
-    1.  user presets
-    2.  shared presets
-    3.  shared presets that are defined in a **Unified Map shared presets** profile
-    4.  class profile \(Class profiles are defined in the **Node Map Profiles** related list and contain only layer settings\)
--   Filter conditions that would filter out the home node might appear in the panel. You can't, however, filter out the home node even if it does not match the filter conditions.
+When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that don't apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
+
+1.  user presets
+2.  shared presets
+3.  shared presets that are defined in a **Unified Map shared presets** profile
+4.  class profile \(Class profiles contain only layer settings and are defined in the **Node Map Profiles** related list.\)
+
+**Note:** Filter settings that would filter out the home node might appear in the list. You can't, however, filter out the home node even if it meets filter settings.
 
 ## Procedure
 
-1.  Select Open filter panel \(\[Omitted image "icon-um-filter-outline.png"\] Alt text: Open filter icon.\) and then select or clear filters.
+1.  While working in a map, select the Map filter icon \[Omitted image "icon-um-filter-outline.png"\] and then select or clear criteria in any filter category.
 
-    Each filtering category includes only items that are relevant to the current map. The map immediately applies the filters you select.
+    Only attributes of elements currently on the map are listed as filter criteria. Attributes that don't apply to the current elements are listed in the **Unused filter attributes** list.
 
 2.  Close the Map filter panel.
 
@@ -49,7 +51,7 @@ Role required:
 
 ## What to do next
 
-To apply the home CI's default filter settings, select **Reset filter**.
+To apply the home CI default filter settings, select **Reset filter**.
 
 Admins can save filter settings as a shared preset that all users can apply. For more information, see [Create or manage a user preset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-manage-preset-filter.md).
 

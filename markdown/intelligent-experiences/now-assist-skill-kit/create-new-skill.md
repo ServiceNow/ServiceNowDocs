@@ -1,136 +1,133 @@
 ---
 title: Create a skill
-description: Create a custom skill for Now Assist. Creating a custom skill enables you to have greater flexibility with Now Assist's generative AI capabilities.
+description: Create a custom skill for Otto. Custom skills extend the generative AI capabilities of Otto to fit your own use cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skill-kit/create-new-skill.html
 release: yokohama
 product: Now Assist Skill Kit
 classification: now-assist-skill-kit
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Using AI Skill Kit, AI Skill Kit, Enable AI experiences]
+last_updated: "2026-10-22"
+reading_time_minutes: 6
+breadcrumb: [Using AI Skill Kit, AI Skill Kit, Generative AI skills, Enable AI Experiences]
 ---
 
 # Create a skill
 
-Create a custom skill for Now Assist. Creating a custom skill enables you to have greater flexibility with Now Assist's generative AI capabilities.
+Create a custom skill for Otto. Custom skills extend the generative AI capabilities of Otto to fit your own use cases.
 
 ## Before you begin
 
 Role required: sn\_skill\_builder.admin
 
-**Note:** When you update AI Skill Kit you should also update Generative AI Controller to ensure that your skills continue to perform correctly.
+**Note:** When you update AI Skill Kit also update Generative AI Controller so that your skills continue to work as expected.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **AI Skill Kit** &gt; **Home**.
 
-2.  Select **Create new skill**.
+2.  Select **Create skill**.
 
-3.  On the form, fill in the fields.
+    The **New skill** page opens on the **Add general info** tab.
 
-    \[Omitted image "nask-new-skill.png"\] Alt text: New skill modal in Now Assist Skill Kit.
+3.  On the **Add general info** tab, describe the skill and choose its provider.
 
-<table id="table_chg_qth_lcc"><thead><tr><th>
+    1.  In the **Skill name** field, enter a unique name for the skill.
 
-Field
+        Use only letters, numbers, and spaces. Special characters aren't allowed.
 
-</th><th>
+    2.  In the **Description** field, describe the purpose of the skill.
 
-Description
+    3.  Select a **Default provider**.
 
-</th></tr></thead><tbody><tr><td>
+        The list includes all providers. Providers that aren't available on your instance appear in the list but can't be selected.
 
-Skill name
+        Available providers:
 
-</td><td>
+        -   Now LLM Service
+        -   External LLM
 
-A name for the skill.
+            You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in AI Control Tower to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
 
-</td></tr><tr><td>
+            -   Spokes
+            -   Custom LLM
 
-Description
+                For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
 
-</td><td>
+        Available prebuilt spokes that enable you to connect with an external LLM:
 
-A description of the skill.
+        -   Microsoft Azure OpenAI Generative AI Spoke
+        -   OpenAI Generative AI Spoke
+        -   Aleph Alpha
+        -   IBM watsonx
+        -   Google Gemini \(MakerSuite and Vertex AI\)
+        **Note:** The spokes don't consume Integration Hub transactions. The spokes consume assists.
 
-</td></tr><tr><td>
+    4.  Select a **Default provider API**.
 
-Default provider
+        After you select a provider and an API, the models available for them appear in the **Models** area. This list is for reference only. You can't select a model from it.
 
-</td><td>
+        If the API that you select has no active models, the message `No active models found` appears and you can't continue.
 
-Available providers:-   Now LLM Service
--   External LLM
+4.  In the **Define user access with an Access Control List \(ACL\)** section, select who can access and run the skill.
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/exploring-large-language-models.md).
+    -   **Any authenticated user**: Any logged-in user can access and run the skill.
+    -   **Select roles**: In the **Roles** field, select the roles that a user must have to run the skill. If you select multiple roles, a user needs only one of the roles to run the skill.
+    When you save the skill, an ACL is created. The section then shows the ACL as an entry that you can edit.
 
-    -   Spokes
-    -   Custom LLM
+5.  In the **Apply role restrictions to skill** section, select the roles that the skill can inherit from the user who runs it.
 
-For more information on setting up a custom large language model \(LLM\), see [Configure a generic large language model \(LLM\) connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-generic-llm-connector.md)
+    Role restrictions are required. They limit the roles that the skill operates with when it runs, so that it doesn't access more resources than necessary. The ACL determines who can run the skill. Role restrictions determine what the skill can access while it runs.
 
-Available prebuilt spokes that enable you to connect with an external LLM:
+    If you selected roles for user access, you can select **Copy roles from user access** to use the same roles.
 
--   Microsoft Azure OpenAI Generative AI Spoke
--   OpenAI Generative AI Spoke
--   Aleph Alpha
--   WatsonX
--   Google Gemini \(MakerSuite and Vertex AI\)
-**Note:** The spokes don't consume Integration Hub transactions. The spokes consume assists.
+6.  Select **Continue**.
 
-</td></tr><tr><td>
+7.  On the **Start prompt creation** tab, select how you want to create the prompt for the skill.
 
-Provider API
+    -   **Write from scratch**: Start with an empty prompt.
+    -   **Choose one from library**: On the card for the prompt that you want, select **View**, and then select **Use prompt**.
+    -   **Use an AI-generated prompt**: Generate a prompt from the details that you entered on the **Add general info** tab.
+8.  Select **Continue**.
 
-</td><td>
+9.  On the **Add skill inputs** tab, add the inputs that the skill uses.
 
-The provider of the API for your chosen LLM.
+    To add more inputs, select **Add** again. To remove an input, select the delete icon on its card. To hide or show the details of an input, select the expand or collapse icon on its card.
 
-</td></tr><tr><td>
+    1.  Select **Add**.
 
-User access
+        A card for the new input appears.
 
-</td><td>
+    2.  In the **Data type** field, select the data type of the input.
 
--   Any authenticated user
+        Available data types:
 
-As long as a user is logged in, they can access and execute the skill.
+        -   **Record**
+        -   **String**
+        -   **Numeric**
+        -   **Boolean**
+        -   **Simple array**
+        -   **JSON object**
+        -   **JSON array**
+    3.  In the **Name** field, enter a name for the input.
 
--   Select roles
+        The name is available in the pill picker.
 
-Select the roles that a user must have to execute the skill.
+    4.  In the **Description** field, describe the input.
 
-**Note:** If you select multiple roles, a user must only have one of the roles to execute the skill.
+    5.  To require the input for the skill to run, select **Make input mandatory**.
 
-</td></tr><tr><td>
+    6.  To trim the input when it's over the token limit and keep the prompt intact, select **Allow truncation**.
 
-Role restrictions
+        This option is available only for **Record**, **String**, **Numeric**, and **Boolean** inputs.
 
-</td><td>
+    7.  In the ct **Finish setup**ld, enter the default values to use when the skill runs.
 
-Role restrictions define the specific roles under which a skill in ServiceNow executes. While ACLs determine which user roles are permitted to trigger the skill, role restrictions determine the roles the skill will operate with during execution.
+        You can override these values when the skill runs.
 
-</td></tr></tbody>
-</table>4.  Select how you want to create the prompt for the skill.
+10. Select **Continue to summary**.
 
-    -   Write from scratch
-    -   Choose one from library
-        1.  Find the prompt that you want to use.
-        2.  Select View.
-        3.  Select Use prompt.
-    -   Use an AI-generated prompt
-    \[Omitted image "nask-guided-setup.png"\] Alt text: Guided set up for AI Skill Kit
-
-5.  Select **Next**.
-
-6.  Add skill inputs and outputs.
-
-7.  Select **Go to summary**.
-
-8.  Select **Finish**.
+11. On the **Review summary** tab, review the skill details and select learn more, se.
 
 
 ## What to do next
@@ -140,7 +137,7 @@ After you create the skill, you must configure it. To learn more about configuri
 If you don't need to set any configurations for your skill, you can create your skill prompt and tools. To learn more, see [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/create-prompt-template.md) and [Add a tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/add-a-tool.md).
 
 -   **[Clone and edit a ServiceNow skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/clone-and-edit-servicenow-skill.md)**  
-Eligible skills provided in ServiceNow Now Assist applications can be cloned in AI Skill Kit so that you can edit the prompt or change the AI service provider. Editing the prompt enables you to arrange the formatting and content of the LLM response.
+Clone an eligible skill provided in ServiceNow Otto applications in AI Skill Kit so that you can edit its prompt or change its AI service provider. Editing the prompt lets you control the format and content of the large language model \(LLM\) response.
 
 **Parent Topic:**[Using AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/using-now-assist-skill-kit.md)
 

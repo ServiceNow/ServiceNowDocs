@@ -1,18 +1,18 @@
 ---
 title: Time series reports for mobile
-description: Learn to use time series reports that display a series of data points over successive intervals of time, for example, the number of incidents opened over a certain period. The mobile platform supports the following time series reports, line, spline, and step line.
+description: Learn to use time series reports for mobile, which enable you to display a series of data points over successive intervals of time. For example, the number of incidents opened over a certain period. The mobile platform supports the following time series reports, line, spline, and step line.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-reporting-time-series.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data visualizations for the mobile dashboard, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
+breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
 ---
 
 # Time series reports for mobile
 
-Learn to use time series reports that display a series of data points over successive intervals of time, for example, the number of incidents opened over a certain period. The mobile platform supports the following time series reports, line, spline, and step line.
+Learn to use time series reports for mobile, which enable you to display a series of data points over successive intervals of time. For example, the number of incidents opened over a certain period. The mobile platform supports the following time series reports, line, spline, and step line.
 
 **Note:** For information on how to configure time series reports, you need to create mobile dashboard previews within a launcher screen. For more information, see [Launcher screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-applet-launcher.md) and [Mobile dashboard preview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-dashboard-preview.md).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/c\_UnderstandingTheSysAuditTable.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Auditing]
 ---
@@ -64,7 +64,7 @@ User
 
 Name of the user who created the change.
 
- **Note:** Some automated processes use the system or guest user to apply and track changes to records. For more information, see [System and guest users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/user.md#system-guest-users).
+ **Note:** Some automated processes use the system or guest user to apply and track changes to records. For more information, see System and guest users.
 
 </td></tr><tr><td>
 

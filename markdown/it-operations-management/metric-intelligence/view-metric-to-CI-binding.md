@@ -1,20 +1,20 @@
 ---
 title: View metric to CI and resource binding
-description: View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. If Metric Intelligence cannot map and bind a metric to a CI or to a resource, then that CI or resource is not included in anomaly detection until it is properly mapped.
+description: View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. Unmapped metrics are excluded from anomaly detection until properly mapped.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/metric-intelligence/view-metric-to-CI-binding.html
 release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
 # View metric to CI and resource binding
 
-View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. If Metric Intelligence cannot map and bind a metric to a CI or to a resource, then that CI or resource is not included in anomaly detection until it is properly mapped.
+View the metric to CI and resource binding results, including details for failed bindings which you can use to mitigate the failure. Unmapped metrics are excluded from anomaly detection until properly mapped.
 
 ## Before you begin
 
@@ -27,7 +27,7 @@ If [resource binding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDoc
 Metric Intelligence uses event rules to map metric data with the specific CI or resource that is associated with the metric event. The results of these mappings are stored in the Metric to CI Mappings \[sa\_metric\_map\] table. If mapping fails, then the binding status for the metric indicates the general reason for the failure and further details about the failure are provided. Examine the details for a mapping failure and mitigate the problem to improve accurate and effective metric data processing.
 
 -   If mapping to a CI is successful, then the mapped CI appears in the **Configuration Item** column. If resource binding was attempted but failed, then the mapped CI does not appear, even if the mapping to a CI was successful. Missing or duplicate CIs can cause CI mapping to fail.
--   If mapping to a resource is successful, then the mapped resource appears in the **Resource** column. Missing a resource table that is mapped to the CI type to which the event is bound, or a missing **resource\_path** attribute in the event, cause resource binding to fail.
+-   If mapping to a resource is successful, then the mapped resource appears in the **Resource** column. Resource binding can fail if a resource table mapped to the CI type is missing or if the **resource\_path** attribute is missing in the event.
 
 Records in the CI Mappings \[sa\_metric\_map\] table remain in effect for 24 hours \(by default, if mapping to the CI is not successful\), or for 5 days \(by default, if mapping to the CI is successful\). Later, if within that time period raw data arrives for a metric/CI pair that already has a record, the existing mapping is used to match the data to an existing CI. After Metric to CI Mappings records expire, incoming new raw data requires remapping. These records expire when:
 
@@ -190,7 +190,7 @@ Duplicate Metric Map Entry Exists
 
 </td><td>
 
-Check **Binding Failure Reason** and compare the metric identifiers associated with the duplicate metric map entries. If metric identifiers have changed \(for example, an identifier was added\), set the entry for this series in the CI Mappings \[sa\_metric\_map\] table to expire or delete the entry.
+Check **Binding Failure Reason** and compare the metric identifiers associated with the duplicate metric map entries. If metric identifiers have changed \(for example, an identifier was added\), set the entry for this series in the CI Mappings \[sa\_metric\_map\] table to expire. You can also delete the entry.
 
 Also check the associated event rule and ensure that it extracts the attributes correctly and that it does not extract the same CI for two different metric identifiers. This error might appear when 2 different metric identifiers map to the same CI/metric.
 

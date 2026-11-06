@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/business-continuity-mangmt-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ ServiceNow® Business Continuity Management application gives your organization 
 
 ## Business Continuity Management overview
 
-The Business Continuity Management product provides a framework to perform continuous management activities. The Business Continuity Management application helps your organization to achieve the following objectives:
+The Business Continuity Management product provides a framework to perform continuous management activities. The Business Continuity Management application helps your organization to achieve the objectives:
 
 -   Establish a clear governance structure.
 -   Define a consistent classification of business processes, interdependencies, and recovery objectives based on impact analysis and risk to the business.

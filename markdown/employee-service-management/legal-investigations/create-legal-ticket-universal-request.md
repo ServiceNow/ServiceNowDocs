@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Triaging universal requests for legal investigation complaints, Managing complaint requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Triage legal investigation requests, Manage, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create an ethics legal matter from a universal request
@@ -28,7 +28,7 @@ Role required: sn\_lg\_investigate.fulfiller and sn\_uni\_req.sensitiveinfo\_age
 
     Alternatively, you can also open a universal request by navigating to **All** &gt; **Universal Request** &gt; **Open**.
 
-2.  Click the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon.\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 
 3.  Under the **Ethics Complaints**, click **All**.
 

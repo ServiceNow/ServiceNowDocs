@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+last_updated: "2026-10-20"
+reading_time_minutes: 3
+breadcrumb: [Discovery behaviors, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Create a Discovery behavior
@@ -22,19 +22,21 @@ Role required: discovery\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Discovery Definition** &gt; **Behavior** and click **New**.
+1.  Navigate to **All** &gt; **Discovery Definition** &gt; **Behavior**.
 
-2.  Enter a name.
+2.  Select **New**.
 
-3.  Right-click the form header and select **Save**.
+3.  Enter a name.
+
+4.  Right-click the form header and select **Save**.
 
     \[Omitted image "DiscoveryBehavior.png"\] Alt text: Discovery behavior form
 
-4.  In the Discovery Functionality related list, click **New**.
+5.  In the Discovery Functionality related list, select **New**.
 
     Discovery Functionality defines what each MID Server in this behavior must do, specifically which protocols to detect.
 
-5.  Fill out the form fields:
+6.  Fill out the form fields:
 
 <table id="table_lzj_wlf_wbb"><thead><tr><th>
 
@@ -68,7 +70,7 @@ Functionality definition
 
 </td><td>
 
-Click the lookup icon, and then select a pre-configured functionality that defines the protocol or list of protocols that each MID Server scans.
+Select the lookup icon, and then select a pre-configured functionality that defines the protocol or list of protocols that each MID Server scans.
 
 </td></tr><tr><td>
 
@@ -89,9 +91,13 @@ Select one or more MID Servers to perform this functionality for the following D
  Discovery automatically balances the load when multiple MID Servers are selected.
 
 </td></tr></tbody>
-</table>6.  Right-click the form header and select **Save**.
+</table>7.  Right-click the form header and select **Save**.
 
-7.  To add criteria that the functionality must meet in order to be triggered, click **New** in the Functionality Criteria related list, fill out the form fields, and then click **Submit**.
+8.  To add criteria that the functionality must meet to be triggered, select **New** in the Functionality Criteria related list.
+
+    **Note:** Functionality criteria are required for Windows MID Servers only, and only when the behavior controls Discovery across multiple domains. When the instance launches the Shazzam probe for a Discovery in which a behavior defines multiple MID Servers to scan multiple domains, the functionality criteria determine which MID Server process the results of the probe.
+
+9.  Fill out the form fields:
 
 <table id="table_f1v_ts2_vp"><thead><tr><th>
 
@@ -107,8 +113,9 @@ Name
 
 </td><td>
 
-The name in the criteria is the variable that passes the following information:-   `mid_server`: MID Server that processes the results from the Shazzam probe.
--   `win_domain`: Windows domain of the target device.
+The name in the criteria is the variable that passes the following information:-   `mid_server`: MID Server that processes the results from the Shazzam probe. Enter the actual name of the MID Server in the Value field.
+-   `win_domain`: Windows domain of the target device. Enter the actual name of the Windows domain in the Value field.
+-   `mid_win_domain`: Windows domain of the MID Server that is processing the Shazzam results. Enter the actual domain name in the Value field.
 
 
 </td></tr><tr><td>
@@ -125,12 +132,12 @@ Value
 
 </td><td>
 
-Enter the actual name of the MID Server \(`mid_server`\) or domain \(`win_domain`\) to pass to Discovery for this criteria. This field can also have a value of `mid_domain`, which defines the Windows domain of the MID Server that is processing the Shazzam results.
+Enter the actual name of the MID Server \(`mid_server`\), target domain \(`win_domain`\), or MID domain \(`mid_win_domain`\) to pass to Discovery for this criteria.
 
 </td></tr></tbody>
-</table>    **Note:** Functionality criteria are required for Windows MID Servers only, and only when the behavior controls Discovery across multiple domains. When the instance launches the Shazzam probe for a Discovery in which a behavior defines multiple MID Servers to scan multiple domains, the functionality criteria determine which MID Server process the results of the probe.
+</table>    The following graphic shows an example of functionality criteria. \[Omitted image "DiscoveryFunctionalityCriteria.png"\] Alt text: Discovery functionality criteria
 
-    The following graphic shows an example of functionality criteria. \[Omitted image "DiscoveryFunctionalityCriteria.png"\] Alt text: Discovery functionality criteria
+10. Select **Submit**.
 
 
 ## What to do next

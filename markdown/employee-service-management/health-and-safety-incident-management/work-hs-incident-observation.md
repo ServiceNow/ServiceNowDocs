@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Manage incidents and observations, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Work on a safety incident
@@ -24,7 +24,7 @@ Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.operations
 
 Use the **Report an incident** playbook available with Health and Safety Incident Management to manage safety incidents and resolve them. You can access the **Report an incident** playbook tab when a safety incident is assigned to you.
 
-For more information on how to interact with a playbook, see [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-ui.md).
+For more information on how to interact with a playbook, see [Running playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-agents-and-fulfillers.md).
 
 **Note:** To work in a tab-based experience for safety incidents, your administrator can disable the playbook through Health and Safety properties. For more information, see [Disable the safety incident playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/disable-safety-incident-playbook.md).
 
@@ -46,6 +46,7 @@ For more information on how to interact with a playbook, see [Playbooks](https:/
 
     Selecting **Mark complete** marks an activity as complete and makes the next activity or stage available in the playbook. However, you can also select **Skip** to move to the next activity. You can go back to previous activities and update them later.
 
+    -   **Enter incident summary**, to add a summary of the incident such as the time and date the incident occurred on, severity, and the category of the incident. For more information, see [Health and safety incident form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-incident-form.md).
     -   **Add event details**, to add event location and sequence of events. For more information, see [Log sequence of events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/log-sequence-safety-incident.md).
     -   **Add people involved**, to add people involved in the incident such as an injured person, witnesses, and collaborators. For more information, see [Add or modify people involved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/add-hs-people-involved.md).
     -   **Add injury and illness**, to log an injury and illness report for each affected person during the incident. For more information, see [Log an injury and illness](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/log-injury-illness.md)

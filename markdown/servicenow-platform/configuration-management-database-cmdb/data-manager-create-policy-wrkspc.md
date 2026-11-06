@@ -1,20 +1,20 @@
 ---
-title: Create a CMDB Data Manager policy in CMDB Workspace
-description: Create a CMDB Data Manager policy to automatically process CIs life-cycle events such as deletion. Applying consistent and standard life-cycle policies to CIs helps maintain the health of the CMDB.
+title: Create a CMDB Data Manager policy
+description: Create a CMDB Data Manager policy in CMDB Workspace to automatically process CIs life-cycle events such as deletion. Applying consistent and standard life-cycle policies to CIs helps maintain the health of the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 14
-breadcrumb: [Administer Data Manager in CMDB Workspace, CMDB Data Manager experience in CMDB Workspace, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 16
+breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Create a CMDB Data Manager policy in CMDB Workspace
+# Create a CMDB Data Manager policy
 
-Create a CMDB Data Manager policy to automatically process CIs life-cycle events such as deletion. Applying consistent and standard life-cycle policies to CIs helps maintain the health of the CMDB.
+Create a CMDB Data Manager policy in CMDB Workspace to automatically process CIs life-cycle events such as deletion. Applying consistent and standard life-cycle policies to CIs helps maintain the health of the CMDB.
 
 ## Before you begin
 
@@ -22,12 +22,11 @@ Create a CMDB Data Manager policy to automatically process CIs life-cycle events
 
     For more information about retirement definitions, see [Retirement definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/life-cycle-rules.md).
 
--   Verify that any custom subflow that you want to associate with a policy exists:
-    1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
-    2.  Select the **Data Manager** link in Management tools, in the Manage section.
-    3.  Select **Subflows** in the navigation bar on the left.
-    4.  Review the subflows on the Data Manager subflows page, and drill down to a subflow to open it in Workflow Studio.
-    5.  Select **Create new subflow** to [create a new subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md).
+-   Verify that any custom subflow that you want to associate with a policy, exists:
+    1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
+    2.  Select **Subflows** in the navigation bar on the left.
+    3.  Review the subflows on the Data Manager subflows page, and drill down to a subflow to open it in Workflow Studio.
+    4.  Select **Create new subflow** to [create a new subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md).
 -   To require a review and an approval for a policy task: Ensure that the **Managed By Group** attribute is populated in target CIs and that the assigned users have the privilege to approve the policy tasks.
 -   When [Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_AssetManagement.md) is activated, check if there's an asset record associated with that CI before retiring the CI. Check the associated asset record, if there's one, and verify that its asset state \(install\_status\) is **Retired**.
 
@@ -35,7 +34,7 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-Specify for each policy a policy type, a subflow for life-cycle policies, a set of CIs to operate on as target CIs, and any other options specific to the selected policy type. Target CIs must typically be from classes extending the Configuration Item \[cmdb\_ci\] table, and with the Delete CMDB Related Entry policy type, also tables in the Related Entries \[cmdb\_related\_entry\] table.However, the Certification policy type for example, also supports non-CMDB tables.
+Specify for each policy a policy type, a subflow for life-cycle policies, a set of CIs to operate on as target CIs, and any other options specific to the selected policy type. Target CIs must typically be from classes extending the Configuration Item \[cmdb\_ci\] table, and with the Delete CMDB Related Entry policy type, also tables in the Related Entries \[cmdb\_related\_entry\] table. However, the Certification policy type for example, also supports non-CMDB tables. Many fields dynamically appear on the form based on how you set previous fields and some fields are specific to the policy type that you set.
 
 Set condition filters to specify the initial set of CIs that the policy applies to. You can then further narrow down the initial set of CIs by using a CI exclusion list for the policy type. During the final preview of the policy, or from a policy task, you can select individual CIs to also exclude for the policy type. In addition, for operations that require that CIs are in a retired state, retirement definitions are enforced. The policy eventually applies to the resulting set of CIs, after applying all those filters.
 
@@ -45,17 +44,15 @@ For more information about life-cycle state definitions and other concepts for w
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select Management in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
 
-2.  Select the **Data Manager** link in Management tools, in the Manage section.
+2.  Select **Policies** in the left-side bar.
 
-3.  Select **Policies** in the left-side bar.
+    For information about the Policies page, see [View CMDB Data Manager policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-view-policies-wrkspc.md).
 
-    For information about the Policies page, see [View CMDB Data Manager policies in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-view-policies-wrkspc.md).
+3.  Select **Create new policy**.
 
-4.  Select **Create new policy**.
-
-5.  Fill out the General information form and then select **Continue**.
+4.  Fill out the General information form and then select **Continue**.
 
 <table id="table_fsv_fpx_z4b"><thead><tr><th>
 
@@ -87,7 +84,7 @@ Policy type
 
 </td><td>
 
-Life-cycle event or data management action, such as Deleteor Attestation, that this policy manages, indicating the type of actions to perform on target CIs.
+Life-cycle event or data management action, such as Delete or Attestation, that this policy manages, indicating the type of actions to perform on target CIs.
 
  Your **Policy Type** setting determines which fields appear in the forms that follow.
 
@@ -100,7 +97,7 @@ Work notes
 Notes that are internal and visible only to administrators.
 
 </td></tr></tbody>
-</table>6.  Fill out the Data Filter form.
+</table>5.  Fill out the Data Filter form.
 
     1.  Fill out filter conditions for the target CIs and records for the policy.
 
@@ -118,7 +115,7 @@ Table
 
 </td><td>
 
-Table from which to select target CIs or records for the policy.
+Table from which to select target CIs or records for the policy. Only classes that you have read access to, are available for selection.
 
 </td></tr><tr><td>
 
@@ -154,9 +151,9 @@ Add a condition that is based on related lists that are associated with the targ
 
     3.  Select **Continue**.
 
-7.  Fill out the Assignment form and then select **Continue**.
+6.  Fill out the Assignment form and then select **Continue**.
 
-    1.  Set the **Assignment type** and then the **Task assignment** field that appears, to specify the type of assignment and the table columns to use for assigning the policy tasks. The drop-down list in **Task assignment** is dynamically populated with columns in the table that the policy is created for, that reference **Assignment type** tables, as follows:
+    1.  Set the **Assignment type** and then the **Task assignment** field that appears, to specify the type of assignment and the table columns to use for assigning the policy tasks. The drop-down list in **Task assignment** is dynamically populated with columns in the table that the policy is created for, and that reference **Assignment type** tables, as follows:
 
         -   **User Field**: Assigns policy tasks to a user in the user field specified in **Task assignment**. The drop-down list in **Task assignment** contains fields in the table set by the data filter, that reference the User \[sys\_user\] table \(such as **Attested by** and **Assigned to**\).
 
@@ -168,10 +165,10 @@ Add a condition that is based on related lists that are associated with the targ
 
         -   **Specific User**: Assigns policy tasks to the user specified in **Task assignment**. The drop-down list in **Task assignment** contains users with the **data\_manager\_user** role.
         -   **Specific User Group**: Assigns policy tasks to the user group specified in **Task assignment**. The drop-down list in **Task assignment** contains user groups that are either directly associated with the **data\_manager\_user** role, or contain at least one user with the **data\_manager\_user** role.
-        In the **User Group Field** and **User Field** you can use dot-walking by selecting the search icon for the field: \[Omitted image "DotWalkPolicyCMDBWorkspace.png"\] Alt text: Dot-walk to a user group field. In the selection dialog box, drill down lists by expanding or selecting list items that are links \(usually appear in a unique text color\).
+        In the **User Group Field** and **User Field** you can use dot-walking by selecting the search icon for the field. In the selection dialog box, drill down lists by expanding or selecting list items that are links \(usually appear in a unique text color\).
 
     2.  For certification and attestation tasks, set the **If task assignment field is empty** field to create assigned or unassigned tasks in cases where the specified task assignment field is empty. If you select to create an assigned task, then depending on the **Assignment type** setting, select the user or user group to assign a task to in that situation. Unassigned tasks are later reviewed by an administrator for assignment.
-8.  Fill out the Options form and then select **Continue**.
+7.  Fill out the Options form and then select **Continue**.
 
     The options that appear depends on whether they are relevant to the selected policy type. Therefore, some of the following options don't appear on your form. For example, not all policy types are associated with a subflow.
 
@@ -276,7 +273,7 @@ Instructions
 Any instructions to assigned users, to help them complete the tasks.
 
 </td></tr></tbody>
-</table>9.  Fill out the Schedule form and then select **Continue**.
+</table>8.  Fill out the Schedule form and then select **Continue**.
 
 <table id="table_yxp_gsr_dzb"><thead><tr><th>
 
@@ -349,7 +346,7 @@ User to set the **Run as** field with, in scheduled jobs for attestation and cer
  By default, the drop-down list is populated with users in the Data Manager Scheduled Job Users user group and the field is set to the user specified by the **Scheduled job default user** property \(DataManager Job Runner\). For more information about this property and the **Scheduled job default user** user role, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 
 </td></tr></tbody>
-</table>10. Review the policy details on the Review form, and then select **Publish policy** to activate the policy or **Save &amp; Exit** to save the policy as a draft.
+</table>9.  Review the policy details on the Review form, and then select **Publish policy** to activate the policy or **Save &amp; Exit** to save the policy as a draft.
 
     You can later continue to configure a draft policy, and then publish it when it's ready.
 
@@ -358,25 +355,38 @@ User to set the **Run as** field with, in scheduled jobs for attestation and cer
 
 After you publish a policy:
 
--   A daily scheduled job processes the published policy and policy tasks are assigned as set in the policy. If the policy is associated with a subflow, then policy tasks trigger the policy subflow. Policy execution issues are recorded in an error log with notifications sent to the CMDB Data Manager administrator.
+-   A daily scheduled job processes the published policy and policy tasks are assigned according to the policy settings. If the policy is associated with a subflow, then policy tasks trigger the policy subflow. Policy execution issues are recorded in an error log with notifications sent to the CMDB Data Manager administrator.
 
     If the policy is configured to require an approval for its tasks, then email notifications are sent to members of the assignment group in the **Managed by Group** attribute of the CI. If the policy is associated with a subflow, then a policy task triggers the policy subflow only after the task is approved.
 
 -   If the policy is associated with a subflow, then after a policy task is complete, the policy subflow closes the task. For an Attestation policy \(which isn't associated with a subflow\), a user must process all CIs in the task and submit the task to close it.
--   For Attestation policies, attestation tasks are assigned to users as specified, and those tasks appear in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) when those users log in.
--   For some policy types, such as Delete, the list of the target CIs is rolled up in a CSV file that is then attached to the task for tracking purposes.
--   Stale tasks are set to **Closed Cancelled** by a daily scheduled job. A task becomes stale when it's still open and not approved after at least 90 days. The number of days after which a task is considered stale is determined by the **cmdb.data.manager.stale.task.life.in.days** system property.
+-   For Attestation policies, attestation tasks are assigned to users as specified, and those tasks appear in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)and Service Graph Workspace when those users log in.
+-   For some policy types, such as **Delete**, the list of the target CIs is rolled up in a CSV file that is then attached to the task for tracking purposes.
+-   Stale tasks are set to **Closed Canceled** by a daily scheduled job. A task becomes stale when it's still open and not approved after at least 90 days. The number of days after which a task is considered stale is determined by the **cmdb.data.manager.stale.task.life.in.days** system property.
 
 ## What to do next
 
--   [Publish a draft Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
+-   [Publish a draft CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
 -   On the Policies page, in the Published policies list view, select a policy to see policy details on a policy form. Select **View Policy** to see the settings in all of the policy form pages.
--   For **On demand** policies, the system generates a scheduled job prefixed with the policy name. To run such task:
-    1.  Navigate to **System Definition** &gt; **Scheduled Jobs**.
-    2.  Select the scheduled job for the task policy that you want to run.
-    3.  On the scheduled job form, select **Execute Now**.
 -   On the Policies page, in the Published policies list view, select a policy that you want to deactivate. On a policy form select **Deactivate Policy** to temporarily prevent the policy from running.
 -   Select **View Open Tasks** in the Open Policy Tasks tile to track the processing of policy tasks in the CMDB Data Management Task Control list view. The Success Percent column shows the percentage of CIs in the task for which the task is completed. A CI is counted as complete in an archival task only after the archival process has been fully completed for the CI \(and isn't counted as complete while the CI is initially staged for archival for example\).
--   Users log in to the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) to [review and process attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md) assigned to them.
--   Users log in to the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) to [review and process non-attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md) assigned to them.
+-   Review the outcome of policy execution in the policy record in the CMDB Data Management Policy Executions \[cmdb\_data\_management\_policy\_execution\] table. Examine the **Work Notes** and the **Activities** fields to see the number of CIs that weren't processed.
+
+    A CI might be skipped during processing for reasons such as:
+
+    -   The CI is already included in another task.
+    -   The policy Run As user doesn’t have adequate access privileges to the CI or to the CI’s class.
+    Use this information to mitigate issues, for example, by updating policy configurations or updating user permissions.
+
+-   Run a policy on-demand. In general, the system generates a scheduled job for on-demand policies, prefixed with the policy name.
+
+    -   Run the scheduled job:
+        1.  Navigate to **System Definition** &gt; **Scheduled Jobs**.
+        2.  Select the scheduled job for the task policy that you want to run.
+        3.  On the scheduled job form, select **Execute Now**.
+    -   [Run a certification policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/run-cert-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
+    -   [Run an attestation policy on-demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/run-attestation-policy-ondemand.md) directly from Service Graph Workspace or from CMDB Workspace.
+-   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/review-data-manager-attes-task.md) assigned to them.
+-   Users log in to [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or to Service Graph Workspace to [review and process non-attestation tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-review-task-wrkspc.md) assigned to them.
+-   You can use update sets to transfer a policy between instances, in which case that policy is imported as a draft policy at the destination instance. You can later continue to configure the draft policy at the destination instance and then [publish it when it's ready](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-publish-draft-policy.md).
 

@@ -1,18 +1,18 @@
 ---
 title: Components installed with the GRC: Metrics application
-description: When the ESG Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
+description: When the Operational Sustainability Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/tables-installed-with-metrics.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [GRC: Metrics reference, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Components installed with the GRC: Metrics application
 
-When the ESG Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
+When the Operational Sustainability Management application is activated, the GRC: Metrics application is automatically installed. The GRC: Metrics application adds several tables, properties, and roles that are listed here.
 
 ## Roles installed
 

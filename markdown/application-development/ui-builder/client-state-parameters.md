@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Client state parameters
@@ -27,11 +27,7 @@ In web-based applications, anything that happens in the browser is client-side. 
 -   Providing inline search results
 -   Alerting a user to incomplete or incorrect data
 
-\[Omitted image "client-side-interactions.png"\] Alt text: Examples of client-side interactions.
-
 Users sometimes interact with pages in order to navigate to other pages. In other cases, users want to make updates to a page's content, appearance, or data. Rather than refreshing the entire page, client-side interactions update only the affected parts of a page.
-
-\[Omitted image "client-side-interaction-example.png"\] Alt text: Pointer changing page content by selecting a filter.
 
 For example, a user can sort a list by clicking a column header. Sorting redraws only the list and not the entire page.
 
@@ -49,11 +45,7 @@ Client state parameters are page variables. Define and configure a client state 
 
 In the example, a page has a client state parameter called color. Two of the three components are configured to use the color client state parameter. If color is set to orange, the components are orange. If color is set to purple, the components are purple. If color is set to green, the components are green. The client state parameter is a single place to manage a common value for the page. Without the client state parameter, each component that uses a value would need to be updated individually if that value changed.
 
-\[Omitted image "client-state-parameter-color.png"\] Alt text: Pages with different client state parameter color options.
-
 For example, a web experience stores the primary color used by components in the color client state parameter. When the components are configured to use the client state parameter, changing the value of the client state parameter updates the components to the new value.
-
-\[Omitted image "client-state-parameter-button-color.png"\] Alt text: Client state parameters setting the color for multiple components.
 
 Buttons can be added to the experience to allow users to select a color for the page components. With a single click, a user can simultaneously change the color of all components on a page. Store the user’s color choice in a client state parameter, then use the client state parameter to configure the page’s components. When a user interaction causes the client state parameter value to change, the page’s components are updated in real time.
 

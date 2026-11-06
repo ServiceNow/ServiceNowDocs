@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Create a flow, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create a flow with a Kafka Message trigger
@@ -48,11 +48,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Topic
+Topic Alias
 
 </td><td>
 
-Reference to the topic to monitor for messages.
+Reference to the topic alias for the topic to monitor for messages.A topic alias is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic.
 
 </td></tr><tr><td>
 

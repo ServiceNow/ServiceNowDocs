@@ -1,16 +1,16 @@
 ---
-title: Relabel Business Service Location portal items for public sector use after upgrade
+title: Relabel Business Location Services portal \(BLSP\) items after upgrade
 description: Using Guided Setup, you can optionally modify the "Business Location Details" page in the Business Location Services Portal to be relabeled "Agency Location Details" using Public Sector Digital Services terms during configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/blsp-relabeling-instructions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Public Sector Workspace, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Relabel Business Service Location portal items for public sector use after upgrade
+# Relabel Business Location Services portal \(BLSP\) items after upgrade
 
 Using Guided Setup, you can optionally modify the "Business Location Details" page in the Business Location Services Portal to be relabeled "Agency Location Details" using Public Sector Digital Services terms during configuration.
 
@@ -39,5 +39,5 @@ This script will relabel the "Business Location Details" page within the Busines
 5.  Follow the steps to complete the Guided Setup task.
 
 
-**Parent Topic:**[Set up the CRM Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)
+**Parent Topic:**[Set up the Public Sector Workspace for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/setting-up-csm-fsm.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Process Mining Workspace for Security Incident Response, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Use, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -234,7 +234,7 @@ Role required: sn\_wsd\_core.workplace\_user \(workplace\_user\)
     -   Reset north: Option to select the Reset north icon \(\[Omitted image "wsd-reset-north-icon-loc-directory.png"\] Alt text: Reset north icon.\).
     -   Refresh view: To refresh the map manually, select the Refreshed view icon \[Omitted image "wsd-refresh-icon-loc-directory.png"\] Alt text: Refresh view icon..
     -   Map display settings: Select the Map setting icon \(\[Omitted image "wsd-gear-settings-icon-loc-directorr.png"\] Alt text: Map display settings icon.\) to open the display options:
-    -   Zoom controls: Option to zoom in and zoom out on the map. The Zoom in control icon \(\[Omitted image "wsd-mobile-zoom-in-icon-new-loc-directory.jpeg"\] Alt text: Zoom in control icon to focus on the map artifacts.\) and zoom out control icon \(\[Omitted image "wsd-mobile-zoom-out-icon-new-loc-directory.jpeg"\] Alt text: Zoom out map control icon.\) can be used to change the zoom level of the map.
+    -   Zoom controls: Option to zoom in and zoom out on the map. The Zoom in control icon \(\[Omitted image "wsd-mobile-zoom-in-icon-new-loc-directory.jpeg"\] Alt text: Zoom in control icon to focus on the map artifacts.\) and zoom out control icon \(\[Omitted image "wsd-mobile-zoom-out-icon-new-loc-directory.png"\] Alt text: Zoom out map control icon.\) can be used to change the zoom level of the map.
 13. To switch to Card view, select the **Card view** tab.
 
     \[Omitted image "wsd-card-view-tab-mob-loc-directory.png"\] Alt text: Card view tab.

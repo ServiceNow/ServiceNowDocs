@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/set-up-your-environment.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure, Customer Service Management]
 ---
 
 # Set up your environment
@@ -39,15 +39,15 @@ Begin your customer journey by preparing your Customer Service Management enviro
  
 
 </td></tr></tbody>
-</table>\[Omitted image "workflow-set-up-environment.png"\] Alt text: overview of products included in the set up your environment section
+</table>\[Omitted image "workflow-set-up-environment.png"\] Alt text: Overview of topics relating to setting up your environment and how they relate to each other
 
 -   **[Getting started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/data-management.md)**
 
-    Start by activating the Customer Service Management plugin and importing your foundation data to establish a solid framework. This approach helps you to plan and install any additional plugins you need, securing a well-integrated and effective system for optimal performance. Activate the CSM plugin and foundation data to establish a robust framework. This facilitates efficient plugin planning and installation, promoting a well-integrated system.
+    Start by activating the Customer Service Management plugin and importing your foundation data to establish a solid framework. This approach helps you to plan and install any additional plugins you need, securing a well-integrated and effective system for optimal performance. Activate the CSM plugin and foundation data to establish a robust framework. It facilitates efficient plugin planning and installation, confirming a well-integrated system.
 
 -   **[Customer data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-data.md)**
 
-    Configure customer data in Customer Service Management, including details about accounts, contacts, and consumers to promote comprehensive information capture. This setup confirms that all the relevant customer and account information is captured.
+    Configure customer data in Customer Service Management, including details about accounts, contacts, and consumers to confirm comprehensive information capture. This setup confirms that all the relevant customer and account information is captured.
 
 -   **[User management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/user-management.md)**
 

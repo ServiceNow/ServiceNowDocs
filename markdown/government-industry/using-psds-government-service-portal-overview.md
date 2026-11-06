@@ -1,37 +1,37 @@
 ---
 title: Using the Government Service Portal in Public Sector Digital Services
-description: By using the Government Service Portal, constituents and businesses can report issues, access and view the status of existing service requests, request public records, search for information about a question or issue, view and update their contact information, and request assistance from a government service agent— all within a customizable interface.
+description: By using the Government Service Portal, constituents and businesses can report issues, access and view the status of existing service requests, and request public records. You can also search for information about a question or issue, view and update their contact information, and request assistance from a government service agent— all within a customizable interface.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/using-psds-government-service-portal-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the Government Service Portal in Public Sector Digital Services
 
-By using the Government Service Portal, constituents and businesses can report issues, access and view the status of existing service requests, request public records, search for information about a question or issue, view and update their contact information, and request assistance from a government service agent— all within a customizable interface.
+By using the Government Service Portal, constituents and businesses can report issues, access and view the status of existing service requests, and request public records. You can also search for information about a question or issue, view and update their contact information, and request assistance from a government service agent— all within a customizable interface.
 
 ## Using the Government Service Portal as a constituent
 
-The Government Service Portal experience begins on the portal homepage for constituents. Agencies usually customize their homepages to be viewed by registered users, and users who aren't registered. For example, registered users may see different information on the homepage than the users who aren’t logged in.
+The Government Service Portal experience begins on the portal home page for constituents. Agencies usually customize their home pages to be viewed by registered users, and users who aren't registered. For example, registered users may see different information on the home page than the users who aren’t logged in.
 
-This example shows an example default homepage for a registered user of the Public Sector Digital Services Government Service Portal.
+This example shows an example default home page for a registered user of the Public Sector Digital Services Government Service Portal.
 
 \[Omitted image "public-sector-constituent-portal.png"\] Alt text: Different interaction options on the Constituent view. For more information, refer to the text that follows.
 
-Constituents on the Government Service default homepage can select the following communication options:
+Constituents on the Government Service default home page can select the following communication options:
 
 1.  Browse and request services or information, track cases, view received services, and report issues.
 2.  Get the latest information on policies and programs by searching and viewing articles.
 3.  Discuss issues with neighbors and share perspectives by asking the community.
 4.  View your recent services and see the popular services on the site.
 
-**Note:** Administrators can customize Government Service Portal homepages in Service Portal, so homepages may differ visually across government agencies. For more information on customization, see [Customize the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/customize-government-service-portal.md).
+**Note:** Administrators can customize Government Service Portal home pages in Service Portal, so home pages may differ visually across government agencies. For more information on customization, see [Customize the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/customize-government-service-portal.md).
 
-The following table lists what constituents can access through the homepage.
+The following table lists what constituents can access through the home page.
 
 <table id="table_qtz_wzp_kbb"><thead><tr><th>
 
@@ -47,7 +47,7 @@ Knowledge
 
 </td><td>
 
-Tab where constituents can access the Knowledge homepage and search or view a list of the top-rated or most viewed knowledge base articles.
+Access the Knowledge home page and search or view a list of the top-rated or most viewed knowledge base articles.
 
 </td></tr><tr><td>
 
@@ -55,7 +55,7 @@ Services
 
 </td><td>
 
-Tab where constituents can find all the available services in the catalog. They can search through the service catalog or view a list of the recently used or most popular catalog items.
+Find all available services in the catalog. They can search through the service catalog or view a list of the recently used or most popular catalog items.
 
 </td></tr><tr><td>
 
@@ -63,7 +63,7 @@ Your Cases
 
 </td><td>
 
-Tab where constituents can find all their cases.
+Find all cases submitted under the constituent name.
 
 </td></tr><tr><td>
 
@@ -71,7 +71,7 @@ Your Information
 
 </td><td>
 
-Tab where constituents can access quick links to their personal information:-   Businesses \(agent experience only\)
+Access quick links to view, update, or add personal information:-   Businesses \(agent experience only\)
 -   Contacts \(agent experience only\)
 -   Publications
 
@@ -81,7 +81,7 @@ Notifications
 
 </td><td>
 
-Tab where constituents can see their notifications for resolved cases, cases awaiting information, publications, and approvals.
+See notifications for resolved cases, cases awaiting information, publications, and approvals.
 
 </td></tr><tr><td>
 
@@ -89,7 +89,7 @@ Tours
 
 </td><td>
 
-Link where constituents can view a tour for additional guidance on how the Public Sector Digital Services application works. An administrator determines whether tours appear on pages.
+View additional guidance on how the Public Sector Digital Services application works. An administrator determines whether tours appear on pages.
 
 </td></tr><tr><td>
 
@@ -97,7 +97,7 @@ Live Chat
 
 </td><td>
 
-Link where constituents can chat with a virtual agent or a customer service agent. For more information on using Virtual Agent to get help, see [Get help with Public Service requests using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-get-help-va.md).
+Chat with a virtual agent or a government service agent. For more information on using Virtual Agent to get help, see [Get help with Public Service requests using Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-get-help-va.md).
 
 </td></tr><tr><td>
 
@@ -105,7 +105,7 @@ Engagement Messenger
 
 </td><td>
 
-Link where constituents can use Engagement Messenger to submit service requests from a third-party web application that is outside of the ServiceNow environment. For more information, see [Configure Engagement Messenger for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configure-engagement-messenger.md).
+Use Engagement Messenger to submit service requests from a third-party web application outside of the ServiceNow environment. For more information, see [Configure Engagement Messenger for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-configure-engagement-messenger.md).
 
 </td></tr><tr><td>
 
@@ -113,7 +113,7 @@ Profile menu
 
 </td><td>
 
-Link where constituents can access a profile photo to either view a profile or log out.
+Access a profile photo, view the profile, or log out.
 
 </td></tr><tr><td>
 
@@ -121,7 +121,7 @@ Search
 
 </td><td>
 
-Link where constituents can search the portal by either entering a keyword to use the type-ahead search or enter one or more words to view all search results.
+Search the portal by either entering a keyword to use type-ahead search, or enter one or more words to view all search results.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ Most viewed articles
 
 </td><td>
 
-Link where constituents can view a list of the most viewed articles.
+View a list of the most viewed articles.
 
 </td></tr><tr><td>
 
@@ -137,7 +137,7 @@ Featured articles
 
 </td><td>
 
-Link where constituents can view featured community content.
+View featured community content.
 
 </td></tr><tr><td>
 
@@ -145,7 +145,7 @@ Most useful articles
 
 </td><td>
 
-Link where constituents can view the most useful knowledge articles by the usage count of the articles.
+View the most useful knowledge articles by the usage count of the articles.
 
 </td></tr></tbody>
 </table>Unregistered constituents can do the following tasks in the Government Service Portal:
@@ -165,7 +165,7 @@ After registering and logging in to the Government Service Portal, constituents 
 -   View existing cases.
 -   View publications and notifications including government pamphlets and newsletters about services as well as government notifications.
 
-For more information on the services that are offered in the Government Service Portal service catalog, see [Government Service Portal service catalog list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-service-catalog-list.md).
+For more information on the services that are offered in the Government Service Portal service catalog, see [Government Service Portal service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-service-catalog-list.md).
 
 ## Using the Government Service Portal as a business
 
@@ -175,7 +175,7 @@ Business contacts have the same functionality as a constituent user, with a few 
 
 -   Register a new business.
 -   Request services that are related to licenses, benefits, permits, and service requests.
--   View services that they received.
+-   View the services that they received.
 -   View information records that they requested.
 -   View all license or permit requests.
 -   View items that they received.
@@ -187,5 +187,5 @@ Business contacts have the same functionality as a constituent user, with a few 
 
 ## Customizing the Government Service Portal
 
-To customize this portal, navigate to **Service Portal** &gt; **Portals** and select Government Service. See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md)for more information about creating a custom interface.
+To customize this portal, navigate to **Service Portal** &gt; **Portals** and select Government Service. See [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md) for more information about creating a custom interface.
 

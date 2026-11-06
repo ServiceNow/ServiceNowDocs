@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-get-product-offer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using product offering recommendations in quotes, Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Using product offering recommendations, Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Get additional product offering recommendations for quotes
@@ -26,7 +26,7 @@ When you're working on a draft quote and adding or updating products, product of
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All** and select the quote that you want to work on.
 
@@ -46,10 +46,12 @@ When you're working on a draft quote and adding or updating products, product of
 
         The product offering card is moved to the recommendation history.
 
-    You can review the recommendation history by selecting the History \(\[Omitted image "history-prod-recommendations-icon.png"\]\) icon in the Recommended products panel.
+    You can review the recommendation history by selecting the History \[Omitted image "history-prod-recommendations-icon.png"\] Alt text: icon in the Recommended products panel.
 
 5.  Continue reviewing the recommended offering cards and add or dismiss them as needed.
 
+
+**Parent Topic:**[Using product offering recommendations in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-prod-recommendations-quote.md)
 
 **Related topics**  
 

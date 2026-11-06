@@ -1,16 +1,16 @@
 ---
-title: View customer success cases in the Customer Service Portal
+title: View customer success cases in the CSM portal
 description: View the customer success case records or case task records on the Customer Service Management \(CSM\) portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-view-customer-success-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Customer success, Use, Customer Success Management]
 ---
 
-# View customer success cases in the Customer Service Portal
+# View customer success cases in the CSM portal
 
 View the customer success case records or case task records on the Customer Service Management \(CSM\) portal.
 
@@ -18,8 +18,8 @@ View the customer success case records or case task records on the Customer Serv
 
 Role required: admin
 
--   sn\_acct\_lc.ale\_success\_agent
--   sn\_acct\_lc.ale\_success\_customer
+-   sn\_acct\_lc.customer\_success\_agent
+-   sn\_acct\_lc.customer\_success\_customer
 -   sn\_customerservice.customer\_case\_manager
 
 ## Procedure
@@ -32,35 +32,35 @@ Role required: admin
 
     Depending on your user role, you can view the following lists:
 
-    -   All Success Initiatives: Available for internal users with sn\_acct\_lc.ale\_success\_agent and for customers with sn\_acct\_lc.ale\_success\_customer and sn\_customerservice.customer\_case\_manager.
+    -   All Success Initiatives: Available for internal users with sn\_acct\_lc.customer\_success\_agent and for customers with sn\_acct\_lc.customer\_success\_customer and sn\_customerservice.customer\_case\_manager.
 
         All Success Initiatives associated with the customer engagement is displayed in the form of a list.
 
-    -   My Success Initiatives: Available for users with sn\_acct\_lc.ale\_success\_agent and sn\_customerservice.customer\_case\_manager.
+    -   My Success Initiatives: Available for users with sn\_acct\_lc.customer\_success\_agent and sn\_customerservice.customer\_case\_manager.
 
         For internal users, all the success initiative assigned to logged-in user is shown in the list.
 
         For customers, in the success initiatives form visible to the customer check box must be true and the logged-in user must be in the contact filter.
 
-    -   All Success Cases: Available for internal users with sn\_acct\_lc.ale\_success\_agent and for customers with sn\_acct\_lc.ale\_success\_customer and sn\_customerservice.customer\_case\_manager.
+    -   All Customer Plays: Available for internal users with sn\_acct\_lc.customer\_success\_agent and for customers with sn\_acct\_lc.customer\_success\_customer and sn\_customerservice.customer\_case\_manager.
 
-        All the success cases associated with the customer engagement are displayed in the form of a list.
+        All the customer plays associated with the customer engagement are displayed in the form of a list.
 
-    -   My Success Cases: Available for users with sn\_acct\_lc.ale\_success\_agent and sn\_customerservice.customer\_case\_manager.
+    -   My Customer Plays: Available for users with sn\_acct\_lc.customer\_success\_agent and sn\_customerservice.customer\_case\_manager.
 
-        For internal users, all the success cases assigned to logged-in user are shown in the list.
+        For internal users, all the customer plays assigned to logged-in user are shown in the list.
 
-        For customers, in the success cases the form visible to the customer check box must be true and the logged-in user must be in the contact filter.
+        For customers, in the customer play form visible to the customer check box must be true and the logged-in user must be in the contact filter.
 
-    -   All Touchpoints: Available for internal users with sn\_acct\_lc.ale\_success\_agent and for customers with sn\_acct\_lc.ale\_success\_customer and sn\_customerservice.customer\_case\_manager.
+    -   All Touchpoints: Available for internal users with sn\_acct\_lc.customer\_success\_agent and for customers with sn\_acct\_lc.customer\_success\_customer and sn\_customerservice.customer\_case\_manager.
 
         All the touchpoint cases associated with the customer engagement are displayed in the form of a list.
 
-    -   My Touchpoints: Available for users with sn\_acct\_lc.ale\_success\_agent and sn\_customerservice.customer\_case\_manager.
+    -   My Touchpoints: Available for users with sn\_acct\_lc.customer\_success\_agent and sn\_customerservice.customer\_case\_manager.
 
         All the touchpoints assigned to the logged-in user are shown in the list.
 
-    **Note:** When you search for something on the service portal, the search results are shown in separate **Sources**: Success Cases, Success Case Tasks, Success Initiatives, and Touchpoints.
+    **Note:** When you search for something on the service portal, the search results are shown in separate **Sources**: Customer Plays, Customer Play Tasks, Success Initiatives, and Touchpoints.
 
 3.  Select on the **All Success Initiatives** in the list.
 
@@ -78,11 +78,11 @@ Role required: admin
         -   General instructions: Provides a short description and a detailed case description.
         -   Product information: Shows the product information.
         -   Shared articles: Shows knowledge articles that have been shared with you. Select the article link to view details.
-5.  Select on the **All Success Cases** in the list.
+5.  Select on the **All Customer Plays** in the list.
 
-    All the success cases related to the selected account are displayed.
+    All the customer plays related to the selected account are displayed.
 
-    All the activities related to the case task are displayed.
+    All the activities related to the customer play task are displayed.
 
 6.  Select on the **All Touchpoints** in the list.
 
@@ -90,4 +90,6 @@ Role required: admin
 
     All the activities related to the case task are displayed.
 
+
+**Parent Topic:**[Customer success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use-cust-success.md)
 

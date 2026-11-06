@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security incident treemaps, Security Incident Response Overview dashboard, Visual representation of Security Incident Response reporting, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,9 +24,9 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Overview**.
 
-2.  Click **Add content** in the top left corner of the page to open the widget selection control.
+2.  Select **Add content** in the top left corner of the page to open the widget selection control.
 
-3.  In the first selection box, click **Treemap**.
+3.  In the first selection box, select **Treemap**.
 
 4.  In the second selection box, select the treemap you want to insert from the following list:
 
@@ -40,9 +40,7 @@ Role required: sn\_si.admin
 
     **Note:** For the Security Incident - Service Impact treemap, select **Security Incident** in the third selection box. This selection provides a drop-down list with multiple data categories.
 
-    \[Omitted image "Treemap\_Category.png"\] Alt text: Security Incident treemap category list
-
-6.  At the bottom of the screen, click the location on the screen you want to add the gauge.
+6.  At the bottom of the screen, select the location on the screen you want to add the gauge.
 
 7.  Close the **Add content** box.
 

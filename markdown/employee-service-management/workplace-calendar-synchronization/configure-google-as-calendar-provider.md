@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Google Calendar - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,10 +22,10 @@ Ensure the following:
 
 -   You have created the connection and credential alias. If not, do one of the following:
     -   Configure the default connection and credential alias. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
-    -   Create your own connection and credential alias if you do not want to use the default alias. Refer to [Configure your own Google connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/configure-your-own-google-connection-and-credential-alias.md).
--   Application scope is set to **Google Calendar Spoke**. Otherwise, do the following:
-    1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) on the top-right corner of your Employee Center homepage.
-    2.  In the drop- down, select the option consisting **Application scope:**.
+    -   Create your own connection and credential alias if you do not want to use the default alias. Refer to .
+-   Application scope is set to **Google Calendar Spoke**. If it is not set, complete the following:
+    1.  Select the Application scope icon \(\[Omitted image "application-scope-globe-icon.png"\] Alt text: Application scope icon.\) your Employee Center homepage.
+    2.  In the drop- down, select **Application scope**.
     3.  In the filter navigator, search and select **Google Calendar Spoke**.
     4.  Refresh the page.
 
@@ -77,17 +77,13 @@ Active
 
 Option to activate the calendar provider.
 
-</td></tr><tr><td colspan="2">
-
-**Provider Configuration**
-
 </td></tr><tr><td>
 
 Calendar processor
 
 </td><td>
 
-Calendar processor for the synchronization. Select **Google Calendar**.
+Calendar processor for the synchronization. Select **Google Calendar** from **Provider Configuration**.
 
 </td></tr><tr><td>
 
@@ -95,7 +91,7 @@ Override alias?
 
 </td><td>
 
-Option to enable selection of a Connection and credential alias. Select this option if you want to use your own connection and credential alias only. If the option is not selected, the default connection and credential alias, **Google\_Calendar** is used.
+Option to enable selection of a Connection and credential alias from **Provider Configuration**. Select this option if you want to use your own connection and credential alias only. If the option is not selected, the default connection and credential alias, **Google\_Calendar** is used.
 
 </td></tr><tr><td>
 
@@ -103,7 +99,7 @@ Connection &amp; credential alias
 
 </td><td>
 
-Select the Connection and credentials alias that you created on your own. This option appears only if you have selected the **Override alias?** option. If an alias is not specified, then the default connection and credential alias is used.
+Select the Connection and credentials alias that you created on your own from **Provider Configuration**. This option appears only if you have selected the **Override alias?** option. If an alias is not specified, then the default connection and credential alias is used.
 
 </td></tr><tr><td>
 

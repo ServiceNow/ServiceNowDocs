@@ -1,26 +1,26 @@
 ---
 title: Components installed with Security Incident Response
-description: Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
+description: Several types of components are installed when you download and activate the Security Incident Response application, including plugin dependencies, user roles, tables, properties, and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/installed-with-sir.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Components installed with Security Incident Response
 
-Several types of components are installed when you download and activate the Security Incident Response application, including user roles, tables, properties, and scheduled jobs.
+Several types of components are installed when you download and activate the Security Incident Response application, including plugin dependencies, user roles, tables, properties, and scheduled jobs.
 
 **Note:** The Application Files table lists the components that are installed with this application. For instructions on how to access this table, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
 Demo data is available for this feature.
 
-**Tip:**
+**Note:**
 
 For information about plugin dependencies and compatibility, refer to the [ServiceNow Store](https://store.servicenow.com).
 
@@ -81,7 +81,7 @@ Allow customization when creating a Problem or Change Request from a Security In
 
 When a problem or change is created, this property opens a pop-up window to modify the request.
 
- If this properties are set to **false**, the problem or change request has the same priority, short description, and description as the security incident without the option to add or edit those fields.
+ If set to **false**, the problem or change request has the same priority, short description, and description as the security incident without the option to add or edit those fields.
 
  -   **Type**: true \| false
 -   **Default value**: true
@@ -279,7 +279,7 @@ Full control over all Security Incident Response data. Also administers territor
 -   sn\_si.ingestion\_profile\_admin
 -   sn\_si.knowledge\_admin
 -   sn\_si.manager
--   sn\_sec\_cmn.admin
+-   sn\_sec\_cmn.admin— Administer shared Security Operations Common configuration. **Access level:** Full admin.
 -   sn\_secops\_setup.admin
 -   sn\_si.restriction\_access\_manager
 -   sn\_si.special\_access\_read\_manager

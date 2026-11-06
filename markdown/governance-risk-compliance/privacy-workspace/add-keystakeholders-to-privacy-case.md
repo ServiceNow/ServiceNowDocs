@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -24,19 +24,19 @@ Role required: sn\_privacy\_case.privacy\_case\_analyst
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  Select **All Cases**.
 
 4.  Open the case for which you want to add a key stakeholders.
 
-5.  Click the Key stakeholders related list.
+5.  Select the Key stakeholders related list.
 
-6.  Click **Add**.
+6.  Select **Add**.
 
     1.  Select the stakeholders to add.
 
-    2.  Click **Add**.
+    2.  Select **Add**.
 
         The key stakeholders are added.
 

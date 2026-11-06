@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CMDB 360/Multisource CMDB, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components related to CMDB 360
@@ -120,7 +120,7 @@ sn\_cmdb\_ws.ms.calculate\_cmdb\_only
 
 </td><td>
 
-Limits the scope of data in the [Discovery sources tile in the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md), to CMDB classes only \(derived from the cmdb\_ci class\).
+Limits the scope of data in the [Discovery sources tile in the CMDB 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md), to CMDB classes only \(derived from the cmdb\_ci class\).
 
  -   Type: true \| false
 -   Default value: true
@@ -135,7 +135,7 @@ sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold
 
 </td><td>
 
-Threshold number of multisource records that when exceeded for a class, CMDB 360 Coverage charts in CMDB Workspace stop populating data for that class \(CMDB or non-CMDB tables\).
+Threshold number of CMDB 360 records that when exceeded for a class, CMDB 360 Coverage charts in CMDB Workspaceand in Service Graph Workspace stop populating data for that class \(CMDB or non-CMDB tables\).
 
  When the specified threshold number is reached for a class, the system creates a record in the CMDB 360 Analytics Skipped Class \[sn\_cmdb\_ws\_ms\_skip\_class\] table causing that class to be skipped in future job runs.
 
@@ -144,7 +144,7 @@ Threshold number of multisource records that when exceeded for a class, CMDB 360
  -   Type: numeric
 -   Default value: 10 million
 -   Location: [Add to System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
--   Learn more: [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
+-   Learn more: [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md)
 
 </td></tr></tbody>
 </table>## Tables
@@ -179,7 +179,7 @@ CMDB Multisource Queries \[cmdb\_multisource\_query\]
 
 </td><td>
 
-CMDB 360 query definitions created by the user in CMDB Workspace or in the legacy Multisource Report Builder.
+CMDB 360 query definitions created by the user in CMDB Workspaceor in Service Graph Workspace.
 
 </td></tr><tr><td>
 
@@ -187,7 +187,7 @@ Query Status\[cmdb\_multisource\_query\_status\]
 
 </td><td>
 
-State of execution, of queries created in CMDB Workspace or in the legacy Multisource Report Builder.
+State of execution, of queries created in CMDB Workspaceor in Service Graph Workspace.
 
 </td></tr><tr><td>
 
@@ -195,7 +195,7 @@ CMDB Multisource Query Results\[cmdb\_multisource\_query\_result\]​ ​
 
 </td><td>
 
-Results for queries created in CMDB Workspace or in the legacy Multisource Report Builder, configured with result type of CI records.​
+Results for queries created in CMDB Workspaceor in Service Graph Workspace, configured with result type of CI records.​
 
 </td></tr><tr><td>
 
@@ -203,7 +203,7 @@ CMDB Multisource Query Result Multisource Records \[cmdb\_multisource\_query\_re
 
 </td><td>
 
-Results for queries created in CMDB Workspace or in the legacy Multisource Report Builder, configured with result type of CMDB 360 records.
+Results for queries created in CMDB Workspaceor in Service Graph Workspace, configured with result type of CMDB 360 records.
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ CMDB Multisource Query Result Discovery Sources \[cmdb\_multisource\_query\_resu
 
 </td><td>
 
-Results for queries created in CMDB Workspace or in the legacy Multisource Report Builder, configured with result type of Discovery source records.
+Results for queries created in CMDB Workspaceor in Service Graph Workspace, configured with result type of Discovery source records.
 
 </td></tr><tr><td>
 
@@ -243,11 +243,11 @@ CMDB 360 Analytics Skipped Class\[sn\_cmdb\_ws\_ms\_skip\_class\]
 
 </td><td>
 
-Internally used to store records of classes for which the threshold number of multisource records, as set in the **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold** property, has exceeded. Classes in this table are excluded from the Coverage charts in CMDB Workspace.
+Internally used to store records of classes for which the threshold number of CMDB 360 records, as set in the **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold** property, has exceeded. Classes in this table are excluded from the Coverage charts in CMDB Workspaceand in Service Graph Workspace.
 
  You can set the **Override class CI records population** column for an excluded class to 'true', to include it in Coverage charts future computations.
 
- **Note:** Managing class inclusion in the Coverage charts, by using this table and the **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold**system property, can greatly decrease or increase performance of the Coverage chart job.
+ **Note:** Managing class inclusion in the Coverage charts, by using this table and the **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold** system property, can greatly decrease or increase performance of the Coverage chart job.
 
 </td></tr></tbody>
 </table>## Roles

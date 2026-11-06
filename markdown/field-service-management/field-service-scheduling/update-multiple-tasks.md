@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Update multiple work order tasks simultaneously
@@ -26,7 +26,7 @@ Role required: wm\_dispatcher
 
 2.  Select **Dispatcher Workspace**.
 
-3.  On the calendar in Dispatcher Workspace press Shift or Command on your keyboard while you select multiple tasks.
+3.  On the calendar in Dispatcher Workspace press Shift, or Command on your keyboard while you select multiple tasks.
 
     **Note:** Tasks must be in the assigned or scheduled state to be selected.
 

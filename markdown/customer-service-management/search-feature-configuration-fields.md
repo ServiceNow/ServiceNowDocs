@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/search-feature-configuration-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Engagement Messenger reference, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
 
 # Search feature configuration
@@ -46,7 +46,7 @@ Enabled for unauthenticated users
 
 Option for enabling this feature for guest users who visit the website that hosts the messenger.**Note:**
 
--   You also must configure EC AI Homepage Search widget, Typeahead Search widget, and AI Search Assist widget for public access to enable AI search for unauthenticated users. For more information, see [Enable AI Search in Engagement Messenger for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/enable-ai-guest-user.md).
+-   You also must configure EC AI Homepage Search widget, Typeahead Search widget, and AI Search Assist widget for public access to enable AI search for unauthenticated users. For more information, see [Enable AI Search in Engagement Messenger for unauthenticated users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/enable-ai-guest-user.md).
 -   Starting with the Vancouver release, the chat client was enabled by default only for authenticated users. To enable the chat client for unauthenticated users to be able to access Virtual Agent chat and Live Agent chat, you must enable the **$sn-va-web-client-app** and **sn\_va\_web\_client\_app\_embed** pages for public access. For more information, see [Make UI pages public or private](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_MakeAPagePublic.md).
 
 </td></tr><tr><td>
@@ -63,7 +63,7 @@ Search application
 
 </td><td>
 
-Application that is used to power the search functionality in Engagement Messenger. This field is automatically set to **Engagement Messenger AI Search Config**.To configure the new search application, navigate to **Engagement Messenger** &gt; **Modules** &gt; **Administration** &gt; **Search Applications**.
+Application that is used to power the search functionality in Engagement Messenger. This field is automatically set to **Engagement Messenger AI Search Config**.To configure the new search application, navigate to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Applications**.
 
 </td></tr></tbody>
 </table>\[Omitted image "em-search-feature-widget.png"\] Alt text: Search feature widget screen with a search message and placeholder text in the search bar.

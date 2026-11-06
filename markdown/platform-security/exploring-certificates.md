@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/exploring-certificates.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Certificates, Encryption]
 ---
@@ -57,7 +57,7 @@ A valid certificate must meet these criteria:
 
 By default, your instance trusts only certificates from a Certificate Authority \(CA\) recognized in the Java Virtual Machine \(JVM\). Self-signed and enterprise-signed certificates aren’t trusted.
 
-**Note:** To learn more about the properties that affect the use of certificates, see [Communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-communications.md) in Instance Security Hardening Settings.
+**Note:** To learn more about the properties that affect the use of certificates, see  in Instance Security Hardening Settings.
 
 **Parent Topic:**[Certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/c_Certificates.md)
 

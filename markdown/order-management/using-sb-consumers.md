@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/using-sb-consumers.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order Management for providers with Service Exchange, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
 
 # Creating orders from Service Portal catalog items
@@ -22,7 +22,7 @@ Service Exchange remote catalog items can include bundled products that have com
 
 ## Cancelling an order
 
-Consumers can cancel an order, if the order hasn't reached the point of not return \(PONR\). If the PONR has been reached, the consumer receives a status message indicating that the order can't be cancelled.
+Consumers can cancel an order, if the order hasn't reached the point of no return \(PONR\). If the PONR has been reached, the consumer receives a status message indicating that the order can't be cancelled.
 
 ## Managing product or service inventory
 

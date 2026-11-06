@@ -1,57 +1,45 @@
 ---
 title: IT Service Management release notes
-description: IT Service Management has new and updated features in the Yokohama release.
+description: IT Service Management has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/it-service-management-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # IT Service Management release notes
 
-IT Service Management has new and updated features in the Yokohama release.
+IT Service Management has new and updated features in the Brazil release.
 
--   **[Benchmarks release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/benchmarks-rn.md)**  
-The ServiceNow® Benchmarks application gives you instant visibility into your key performance indicators \(KPIs\) and trends. Benchmarks was enhanced and updated in the Yokohama release.
--   **[Change Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/change-management-rn.md)**  
-The ServiceNow® Change Management application provides a tool for managing the life cycle of all changes in your organization, enabling rapid changes without compromising stability and governance. Change Management was enhanced and updated in the Yokohama release.
--   **[DevOps Change Velocity release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/devops-rn.md)**  
-The ServiceNow® DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. DevOps Change Velocity was enhanced and updated in the Yokohama release.
--   **[Digital End-User Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/digital-end-user-experience-rn.md)**  
-The ServiceNow® Digital End-User Experience \(DEX\) solution is a cloud-based tool providing IT with comprehensive visibility and monitoring for user applications, networks, and devices. The DEX suite includes Application and Device Health, which helps IT resolve device and application issues proactively, and Desktop Assistant, which provides easy access to self-service options. Digital End-User Experience was enhanced and updated in the Yokohama release.
--   **[Digital Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/digital-portfolio-management-rn.md)**  
-The ServiceNow® Digital Portfolio Management Workspace enables you to view and manage the full life cycle of your services and applications. Digital Portfolio Management was enhanced and updated in the Yokohama release.
--   **[Incident Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/incident-management-rn.md)**  
-The ServiceNow® Incident Management application restores normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Yokohama release.
--   **[ITSM Mobile Agent release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itsm-mobile-agent-rn.md)**  
-The ServiceNow® ITSM Mobile Agent app delivers base system, mobile-first experiences designed for IT agents to triage, act on, and resolve incidents on the go. ITSM Mobile Agent was enhanced and updated in the Yokohama release.
--   **[ITSM Predictive Intelligence Workbench release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itsm-predictive-intelligence-workbench-rn.md)**  
-The ServiceNow® ITSM Predictive Intelligence Workbench application provides prebuilt use case templates and guides you through your machine learning implementation to create intelligent IT Service Management \(ITSM\) business processes. ITSM Predictive Intelligence Workbench is deprecated starting with the Yokohama release.
--   **[ITSM Success Dashboard release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/success-dashboard-rn.md)**  
-The ServiceNow® ITSM Success Dashboard application provides insights into the IT leadership team and process owners that they can use to measure the performance of their ServiceNow® IT Service Management ITSM implementation. ITSM Success Dashboard was enhanced and updated in the Yokohama release.
 -   **[ServiceNow Otto for IT Service Management \(ITSM\) release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-for-itsm-rn.md)**  
-The ServiceNow® ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Yokohama release.
+The ServiceNow Otto for IT Service Management \(ITSM\) application brings agentic AI to IT Service Management. ServiceNow Otto for IT Service Management \(ITSM\) was enhanced and updated in the Brazil release.
+-   **[Change Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/change-management-rn.md)**  
+The ServiceNow® Change Management application provides a systematic approach to control the life cycle of all changes, facilitating beneficial changes to be made with minimum disruption to IT services. See the following sections for release notes by version.
+-   **[DevOps Change Velocity release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/devops-change-velocity-rn.md)**  
+The ServiceNow® DevOps Change Velocity application improves visibility into your DevOps data in a single system, automates and accelerates change processes, and helps you gain insights to measure the performance of your DevOps environment. See the following sections for release notes by version.
+-   **[Digital Product Release release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/digital-product-release-rn.md)**  
+ServiceNow® Digital Product Release is a release management solution that helps release managers, product managers, and program managers manage the release process. See the following sections for release notes by version.
+-   **[Employee Slate for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itsm-employeeslate-moveworks-rn.md)**  
+The ServiceNow® Employee Slate for ITSM application surfaces active outages and degradations for employees. It also lets employees check in for walk-in IT help or book an appointment. See the following sections for release notes by version.
+-   **[Incident Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/incident-management-rn.md)**  
+The ServiceNow® Incident Management application helps you to restore normal service operations while minimizing the impact to business operations and maintaining quality. Incident Management was enhanced and updated in the Brazil release. See the following sections for release notes by version.
+-   **[ITSM MCP Server release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itsm-mcp-server-rn.md)**  
+The ServiceNow® ITSM MCP Server application connects an AI-enabled Model Context Protocol \(MCP\) client application to your ServiceNow environment using the ITSM MCP Server. This connection enables incident and change management for service desk agents and IT managers, and enables requesters to check and manage their own tickets.
+-   **[L1 IT Service Desk AI Specialist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/l1-it-service-desk-ai-specialist-rn.md)**  
+The ServiceNow® L1 IT Service Desk AI Specialist application is an autonomous worker that investigates and resolves incidents end-to-end without human intervention. It's designed to support high-volume, repeatable L1 incidents enabling a live human agent to handle more complex issues. For incidents that come in as requests, it proposes the appropriate request item, such as a software access. See the following sections for release notes by version.
 -   **[On-Call Scheduling release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/on-call-scheduling-rn.md)**  
-The ServiceNow® On-Call Scheduling application helps you verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Yokohama release.
--   **[Problem Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/problem-management-rn.md)**  
-The ServiceNow® Problem Management application helps you identify the cause of errors in the IT infrastructure that are reported as occurrences of related incidents. Problem Management was enhanced and updated in the Yokohama release.
+The ServiceNow® On-Call Scheduling application enables you to verify that dedicated support team members are available to resolve issues when they occur. On-Call Scheduling was enhanced and updated in the Brazil release.
+-   **[Process Mining for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/process-mining-itsm-rn.md)**  
+The ServiceNow® Process Mining for ITSM application helps analysts and process owners quickly analyze and optimize their business processes. See the following sections for release notes by version.
 -   **[Request Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/request-management-rn.md)**  
-The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows. Request Management was enhanced and updated in the Yokohama release.
--   **[Service Level Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-level-management-rn.md)**  
-The ServiceNow® Service Level Management application helps to gather service requirements, monitor, and report the quality and speed of the services provided. Service Level Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Request Management application enables catalog items to be requested and fulfilled based on defined flows.. See the following sections for release notes by version.
 -   **[Service Operations Workspace for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-operations-workspace-itsm-rn.md)**  
-The ServiceNow® Service Operations Workspace application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. Service Operations Workspace for IT Service Management was enhanced and updated in the Yokohama release.
--   **[Service Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-portfolio-management-rn.md)**  
-The ServiceNow® Service Portfolio Management application enables you to plan, design, build, and implement your services, service offerings, and service portfolios. Service Portfolio Management was enhanced and updated in the Yokohama release.
--   **[Vendor Management Workspace release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/vendor-management-workspace-rn.md)**  
-The ServiceNow® Vendor Management Workspace application enables you to monitor the performance of your company's vendors and manage all vendor-related information from one location. This application is currently supported for the Yokohama release but some of the applications within Vendor Management Workspace will be deprecated in a future release.
--   **[Workforce Optimization for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workforce-optimization-itsm-rn.md)**  
-The ServiceNow® Workforce Optimization for ITSM application enables you to manage and maintain the productivity of your workforce from a single location. Workforce Optimization for ITSM was enhanced and updated in the Yokohama release.
--   **[Site Reliability Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/site-reliability-operations-rn.md)**  
-The ServiceNow® Site Reliability Operations application enables the enterprises to rely on digital services to deliver modern customer experiences. These digital services run on applications that need rapid development, testing, and production to deliver business outcomes. Site Reliability Operations was enhanced and updated in the Yokohama release.
+The ServiceNow® Service Operations Workspace \(SOW\) application is a configurable workspace that provides a unified agent experience for multiple IT Service Management and IT Operations Management capabilities. See the following sections for release notes by version.
+-   **[Workforce Optimization for ITSM release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/workforce-optimization-for-itsm-rn-2026-09.md)**  
+The ServiceNow® Workforce Optimization for ITSM application helps IT managers automate the management, monitoring, and mentoring of their teams. This application is currently supported for the Brazil release, but it will be deprecated in a future release.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

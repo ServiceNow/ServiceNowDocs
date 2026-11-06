@@ -1,16 +1,16 @@
 ---
-title: Define additional field and record level validations
+title: Configure data validation
 description: Create field and record level validations in the Data validation assist table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-data-valid-assist.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Data capture and validation, Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Account onboarding playbook, Configure, Customer Success Management]
 ---
 
-# Define additional field and record level validations
+# Configure data validation
 
 Create field and record level validations in the Data validation assist table.
 
@@ -24,11 +24,11 @@ Several pre-defined validations are available with the base system. When data is
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Account Lifecycle Events** &gt; **Data Validation Assist Support** &gt; **Data Validation Assist** table.
+1.  Navigate to **All** &gt; **Customer Success Management** &gt; **Data Validation Assist Support** &gt; **Data Validation Assist** table.
 
-2.  Click **New** to open the Data Validation Assist record.
+2.  Select **New** to open the Data Validation Assist record.
 
-3.  Select the Validation type which can be Field level or Record level.
+3.  Select the Validation type that can be Field level or Record level.
 
 4.  For Field level validation type, you can select one of the following Validation sub types:
 
@@ -37,9 +37,9 @@ Several pre-defined validations are available with the base system. When data is
     -   Date: Select the date format, Staging table, and Staging table field.
     -   Datetime: Select the date and time format, Staging table, and Staging table field.
     -   Boolean: Select the Staging table and Staging table field. Checks for a true or false result.
-    -   String character limits: Specify the Max length, Staging table, and Staging table field. Used to validate if the string length does not exceed the limit specified.
+    -   String character limits: Specify the Max length, Staging table, and Staging table field. Used to validate if the string length doesn’t exceed the limit specified.
     -   Integer or decimal: Specify the Staging table and Staging table field. Used to validate if the field is an integer or a decimal number.
-5.  Select the **Mandatory** check box to specify if a validation condition is mandatory.
+5.  Select the **Mandatory** check box to specify if a validation condition is required.
 
 6.  For Record level validation type, you can define custom scripts to validate the staging table records.
 
@@ -61,6 +61,12 @@ Several pre-defined validations are available with the base system. When data is
     })(stagingTableGr);
     ```
 
-7.  Click **Submit** to create a new validation assist table.
+7.  Select **Submit** to create a validation assist table.
 
+
+## Result
+
+A new validation record is created. When data is imported with the account onboarding playbook, this validation runs against the staging table.
+
+**Parent Topic:**[Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md)
 

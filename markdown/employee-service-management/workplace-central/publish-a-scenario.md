@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,15 +46,15 @@ When you publish a scenario, the state of the scenario changes from **Draft** st
 
     Follow any one of the following paths.
 
-<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d107576e159">
+<table id="choicetable_vtv_5nj_3vb"><thead><tr><th align="left" id="d112544e159">
 
 Path
 
-</th><th align="left" id="d107576e162">
+</th><th align="left" id="d112544e162">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d107576e168">
+</th></tr></thead><tbody><tr><td id="d112544e168">
 
 **From the Scenarios list section**
 
@@ -68,7 +68,7 @@ A list of all the scenarios created in the application are displayed.
 
 You can use the search and filter options on the list.
 
-</td></tr><tr><td id="d107576e193">
+</td></tr><tr><td id="d112544e193">
 
 **From the Buildings list section**
 

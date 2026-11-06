@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Privacy
 classification: legal-simple-privacy
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Legal Simple Privacy, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Install Legal Simple Privacy
@@ -52,7 +52,7 @@ The following items are installed with Legal Simple Privacy:
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
@@ -63,7 +63,7 @@ The following items are installed with Legal Simple Privacy:
 
 Use the Legal Service Delivery Guided Setup to configure the application on your instance. To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Setting up Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
+**Parent Topic:**[Configure Legal Simple Privacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-simple-privacy/setting-up-legal-simple-privacy.md)
 
 **Related topics**  
 

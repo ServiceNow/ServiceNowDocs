@@ -7,7 +7,7 @@ release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Reference, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ Application
 
 </td><td>
 
-Any deployed program, module, or group of programs that is designed to provide specific functionality on a computer infrastructure.
+Any deployed program, module, or group of programs that provides specific functionality on a computer infrastructure.
 
 </td><td>
 
@@ -50,7 +50,7 @@ An item whose financial value is tracked.
 
 </td><td>
 
-Many assets are CIs and vice versa, but that is not always the case. Assets have a life cycle with financial considerations, for example, Microsoft 365.
+Many, but not all, assets are CIs and many, but not all, CIs are assets. Assets have a life cycle with financial considerations, for example, Microsoft 365.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Usually, business users order business services. Business users can select the d
 
 -   A business service is an operational CI.
 -   A business service must be a one-level service and not a hierarchy of business services.
--   A business service can be used for impact in Incident, Problem, and Change and for approvals for Change.
+-   A business service can be used for impact in Incident Management, Problem Management, and Change Management and for approvals for Change.
 -   A business service must be focused on the consumer or seller.
 
 </td></tr><tr><td>
@@ -106,7 +106,7 @@ Business service offerings are the starting point for configuring Service Portfo
 
 </td><td>
 
-See [Sell/Consume domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md) for details.
+See [Service Consumption domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/sell-consume-domain.md) for details.
 
 </td></tr><tr><td>
 
@@ -192,7 +192,7 @@ Often manifested in the form of contracts such as service level agreements, oper
 
 </td></tr><tr><td>
 
-Service instance \(formerly Application service — renamed in CSDM v5\)
+Service instance \(formerly Application service\)
 
 </td><td>
 
@@ -202,7 +202,7 @@ A service type that is a logical representation of a deployed application stack.
 
 Examples of service instances are hosting, data backup, and recovery. **Note:** Applications and service instances do not have a one-to-one relationship. A service instance can include multiple applications. An application can be included in multiple service instances.
 
-See [Monitor the health of application services on the Application Services dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
+See [Use Service instance \(Application Services\) dashboard to monitor health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/app-service-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -226,15 +226,15 @@ A service type that is published to service owners and typically underpins a bus
 
 </td><td>
 
-Can typically be ordered by service owners. Service owners are able to select the desired offering and service commitment levels via the Service Catalog. For example, computers, storage, and networks.
+Can typically be ordered by service owners. Service owners can select the desired offering and service commitment levels via the Service Catalog. For example, computers, storage, and networks.
 
 </td></tr><tr><td>
 
-Technical service offering
+Technology management offering
 
 </td><td>
 
-A technical service offering is a service offering with a service classification of "technical service". Technical service offerings may be further divided as follows:
+A Technology management offering is a service offering with a service classification of "technical service". Technical service offerings may be further divided as follows:
 
 -   Location and geography
 -   Environment \(production or non-production\)
@@ -244,12 +244,17 @@ A technical service offering is a service offering with a service classification
 -   Technical approval group \(for Change Management\)
 -   Packaging options \(commitments\)
 
-The technical service offering comes from the service, based on how the parent serves a specific technical need. Every operational technical service must be associated with at least one technical service offering.
+The technical service offering comes from the service, based on how the parent serves a specific technical need. Every operational technical service must be associated with at least one technology management offering.
 
 </td><td>
 
-**Note:** Not all technical service offerings have to be related to applications or infrastructure CIs. Managed Service Providers can provide technical service offerings.
+**Note:** Not all Technology management offerings must be related to applications or infrastructure CIs. Managed Service Providers can provide technical service offerings.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-content-frame-reference.md)
+
+**Related topics**  
+
+
+[CSDM resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-resources.md)
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Configure, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -271,7 +271,7 @@ Ranking
 Question type with options as answers. The options must be ranked.
 
 </td></tr></tbody>
-</table>5.  Point to **Save** and then click **Save and Publish**.
+</table>5.  Point to **Save** and then select **Save and Publish**.
 
     The state of the template changes to Published.
 
@@ -282,7 +282,13 @@ The assessment template with the questions is ready to be sent to the entity own
 
 ## What to do next
 
-Map the assessment responses to a processing activity. For more information, see [Map the processing activity fields to a question response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/copy-responses-to-ropa.md).
+After the template is published, send it to the entity or processing activity owners to collect responses. For more information, see [Send a privacy assessment to an entity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/send-privacy-assessmt-entity.md) and [Respond to a privacy screening assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/respond-to-privacy-assmnt.md).
+
+After responses are submitted, review and approve the assessment. For more information, see [Review a privacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/review-a-privacy-assessment.md).
+
+To map assessment responses to a processing activity, see [Map the processing activity fields to a question response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/copy-responses-to-ropa.md).
+
+To publish a new version of an existing privacy assessment template, see [Update a privacy assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-new-smart-asmt-version.md).
 
 -   **[Write a processing activity script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-a-processing-activity-script.md)**  
 Write custom scripts on the assessment templates to update the processing activity fields using a script. The script runs when the assessment response is completed. You can write multiple scripts for both screening assessments and impact assessments.
@@ -296,4 +302,9 @@ Map the risk statements to the responses of the assessment questions to automati
 Map some of the processing activity fields with the responses of the assessment questions to update the processing activity details based on the assessment response.
 
 **Parent Topic:**[Configuring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-privacy-mgmt.md)
+
+**Related topics**  
+
+
+[Smart assessments in Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/smart-assessments-in-privacy-management.md)
 

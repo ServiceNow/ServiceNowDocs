@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Labor Unions, Labor unions, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Labor unions, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create employee union memberships
@@ -18,7 +18,7 @@ Use Employee Union Membership to input and track your union employees. Creating 
 
 ## Before you begin
 
-Role required: admin
+Role required: HR profile writer \[sn\_hr\_core.profile\_reader\]
 
 ## Procedure
 
@@ -44,7 +44,7 @@ Employee
 
 The employee and member of a union.Selecting the Lookup using icon \(\[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon\) displays all employees with an HR profile.
 
- **Note:** There is an **Employee Union Membership** tab on an HR profile for employees that are part of an employee union membership. For more information, see [Add or modify employee union membership](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-profile-create-employee-union.md).
+ **Note:** There is an **Employee Union Membership** tab on an HR profile for employees that are part of an employee union membership. For more information, see .
 
 </td></tr><tr><td>
 
@@ -106,5 +106,5 @@ The employee's job code within your company.
 </table>4.  Select **Save** or **Submit**.
 
 
-**Parent Topic:**[Using Labor Unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions-using.md)
+**Parent Topic:**[Labor unions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/labor-unions.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Mapping application services containing Citrix XenApp and Presentation Server
+title: Mapping Citrix XenApp and Presentation Server services
 description: Service Mapping can discover application services containing Citrix XenApp, Presentation Server, and Citrix Usage Collector.Map an application service containing Citrix XenApps, Presentation Servers, and Citrix Usage Collectors and verify that Service Mapping discovered all Citrix components correctly.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/mapping-services-citrix.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Map a single application service using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Mapping application services containing Citrix XenApp and Presentation Server
+# Mapping Citrix XenApp and Presentation Server services
 
 Service Mapping can discover application services containing Citrix XenApp, Presentation Server, and Citrix Usage Collector.
 
@@ -149,7 +149,7 @@ Citrix Application Icon Path
 </td></tr></tbody>
 </table>**Parent Topic:**[Map a single application service using classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/t_DefineNewBusinessService.md)
 
-## Map application services containing Citrix XenApp and Presentation Server
+## Map Citrix XenApp and Presentation Server services
 
 Map an application service containing Citrix XenApps, Presentation Servers, and Citrix Usage Collectors and verify that Service Mapping discovered all Citrix components correctly.
 
@@ -178,7 +178,7 @@ Role required: service\_mapping\_admin
 
     1.  Navigate to **All** &gt; **Service Mapping** &gt; **Service Instances**.
 
-    2.  Click **New**.
+    2.  Select **New**.
 
         The **Discoverable by Service Mapping** option is selected by default.
 

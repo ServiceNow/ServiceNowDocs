@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Show or hide off shift agents from the calendar in Dispatcher Workspace
@@ -22,6 +22,8 @@ By default the hide off shift agents icon shows on the calendar in Dispatcher Wo
 
 Contractors, crews, and equipment aren’t hidden with the hide off shift agents button.
 
+Hide off shift agents persists throughout Dispatcher Workspace until it’s deselected, even if you make different calendar selections.
+
 ## Before you begin
 
 Role required: wm\_dispatcher
@@ -32,7 +34,7 @@ Role required: wm\_dispatcher
 
 2.  Select **Dispatcher Workspace**.
 
-3.  Select the **Show or hide off-shift agents** icon \(\[Omitted image "hide-off-shift-agents.png"\] Alt text: hide off shift agents icon\).
+3.  Select the **Show or hide off-shift agents** icon \[Omitted image "hide-off-shift-agents.png"\] Alt text: hide off shift agents icon.
 
     **Note:** The Show or hide off-shift agents icon turns dark when agents are hidden, and is light when agents aren't hidden.
 

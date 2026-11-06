@@ -1,5 +1,5 @@
 ---
-title: Creating requests within your EMR
+title: Create requests within your EMR system
 description: You can request service directly within the EMR system which automatically creates a service request in a ServiceNow instance
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/emr-help/creating-requests-within-your-emr.html
@@ -7,12 +7,12 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Creating requests within your EMR
+# Create requests within your EMR system
 
 You can request service directly within the EMR system which automatically creates a service request in a ServiceNow instance
 

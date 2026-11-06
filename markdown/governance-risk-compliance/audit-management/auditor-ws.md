@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Workspace, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Workspace for the Auditor
@@ -22,7 +22,7 @@ An auditor analyses the operational and financial processes of a company to ensu
 
 Using the auditor workspace, auditors can perform fieldwork such as control tests, activities, interviews, and walkthroughs. They can document their work and findings, and resolve or follow up the audit findings.
 
-\[Omitted image "AuditorWS-new.png"\] Alt text: Workspace for auditor. \[Omitted image "AuditorWS-with-tracking-report.png"\] Alt text: Workspace for auditor with tracking report. \[Omitted image "AuditorWS-with-milestone-report.png"\] Alt text: Workspace for auditor with milestone report.
+\[Omitted image "AuditorWS.jpg"\] Alt text: Workspace for auditor.
 
 ## Tasks of an Auditor
 

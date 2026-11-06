@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Firewall Audits and Reporting reference
@@ -17,9 +17,13 @@ breadcrumb: [Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Opera
 Reference topics provide additional information about Firewall Audits and Reporting components, including dashboards and report calibration.
 
 -   **[Firewall Admin Workspace dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-admin-workspace-dashboard.md)**  
-The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle, with daily or manual updates for accurate and current information.
+The unified dashboard enables security and risk teams to oversee tasks, change requests, and the entire firewall inventory life cycle.
 -   **[Firewall Audits and Reporting calibration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-audit-report-references.md)**  
 Explore further details on Firewall Audits and Reporting calibration by reviewing the provided material.
+-   **[Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md)**  
+Technical requirements and configuration details for discovering Fortinet FortiManager firewalls using the Firewall Audits and Reporting application.
+-   **[Quick start test for Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/quick-start-tests-firewall-audits-and-reporting.md)**  
+Quick start test for Firewall Audits and Reporting to validate configuration items \(CI\) and their relationships.
 
 **Parent Topic:**[Firewall Audits and Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/firewall-audit-reporting.md)
 

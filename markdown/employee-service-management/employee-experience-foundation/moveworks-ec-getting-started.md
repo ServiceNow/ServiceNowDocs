@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Moveworks for Employee Center, Admin configurations, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Getting started with Moveworks for Employee Center
@@ -18,18 +18,18 @@ Moveworks integration adds an AI assistant to Employee Center replacing the stan
 
 A new plugin, Moveworks for Employee Center \(sn\_ex\_mw\_chat\_int\) assistant, lets your entire workforce ask questions, get instant answers, and complete tasks end-to-end.
 
-Using the Moveworks chat assistant, you can access knowledge articles, requests, and tasks. Ensure that you activate the EC applications before installing the Moveworks app from ServiceNow Store.
+Using the Moveworks chat assistant, you can access knowledge articles, requests, and tasks. Verify that you activate the EC applications before installing the Moveworks app from ServiceNow Store.
 
 -   Employee Center \(sn\_ex\_sp\)
 -   Employee Center Pro \(sn\_ex\_sp\_pro\)
-
-\[Omitted image "image.mw-ec-plugin-install"\] Alt text: Moveworks plugin for Employee Center
 
 You can complete the integration process in three steps:
 
 -   Install the plugin from store \(`sn_ex_mw_chat_int`\).
 -   Upload the Java KeyStore \(JKS\) certificate and create JWT provider.
 -   Configure the bot ID and Embedded AI Assistant.
+
+**Note:** You must have purchased Moveworks and implemented it for the self-signing to work.
 
 ## Understand Moveworks basics
 
@@ -54,13 +54,13 @@ Before getting started, see the reference information available at [Moveworks fo
 
 [Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Moveworks for Employee Center app from store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Moveworks for Employee Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
 [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
+[Use Moveworks for Employee Center on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 
 [Moveworks for Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.md)
 

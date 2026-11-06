@@ -1,22 +1,22 @@
 ---
-title: CMDB 360 experience in CMDB Workspace
-description: The CMDB 360 view provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
+title: CMDB 360 experience in CMDB Workspace and in Service Graph Workspace
+description: The CMDB 360 view in CMDB Workspace and in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-breadcrumb: [CMDB 360/Multisource CMDB, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [CMDB 360, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB 360 experience in CMDB Workspace
+# CMDB 360 experience in CMDB Workspaceand in Service Graph Workspace
 
-The CMDB 360 view provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reportsto explore CMDB data.
+The CMDB 360 view in CMDB Workspaceand in Service Graph Workspace provides aggregations and analysis of CMDB 360 data which you can use to track activities and identify Potential issues of discovery sources. You can also create different types of your own queries and associated schedules and reports to explore CMDB data.
 
-Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
+Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or the CMDB 360 insights page in , to access all of the CMDB 360 capabilities. For information about all CMDB 360 dashboard settings, see [Configure the CMDB 360 dashboard in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md).
 
 **Note:** Most cards on the CMDB 360 dashboard support non-CMDB tables in their aggregation, or can be configured to provide support. However, the CIs not reported by discovery sources card, for example, doesn't apply to non-CMDB tables. Creating queries for non-CMDB tables is also supported. For information about support for non-CMDB tables, see [IRE support for non-CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ire-support-non-cmdb-tables.md).
 
@@ -24,10 +24,13 @@ Use the CMDB 360 view in [CMDB Workspace](https://raw.githubusercontent.com/Serv
 
 Requirements:
 
--   Role requirement: sn\_cmdb\_user \(CMDB user\) or any role containing sn\_cmdb\_user
+-   Role required: sn\_cmdb\_user \(CMDB user\) or any role containing sn\_cmdb\_user
 -   Additional requirement: [Enable and configure CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/multisource-cmdb.md)
 
-To access the CMDB 360 view in the CMDB Workspace, navigate to **Workspaces** &gt; **CMDB Workspace**. In the CMDB Workspace menu bar, select **CMDB 360**.
+To access the CMDB 360 experience:
+
+-   In Service Graph Workspace: Navigate to **Workspaces** &gt; **Service Graph Workspace**. Then, in the navigation panel, select the Insights icon and in the Insights page navigation panel, select **CMDB 360**.
+-   In CMDB Workspace: Navigate to **Workspaces** &gt; **CMDB Workspace**, and then in the CMDB Workspace menu bar, select **CMDB 360**.
 
 ## Potential issues
 
@@ -64,12 +67,12 @@ Cards on the Potential issues tile show details about CIs with discovery sources
 
 The Saved queries card shows up to 20 of your CMDB 360 queries. You can use the card to edit and run those queries, or create new queries. Saved queries are sorted on both the card and list view by the most recently created or updated queries.
 
-If your instance has been upgraded from an instance that contained Multisource Report Builder queries, then those queries appear on the Saved queries card.
+You can:
 
--   Click a saved query to modify or view it before running.
--   Click a query's action icon and then select **Run**.
--   Click **View All Queries** to see all the Saved queries where you can examine or run a query.
--   Click **Create Query** to create a query of one of the following types:
+-   Select a saved query to modify or view it before running.
+-   Select a query's action icon and then select **Run**.
+-   Select **View All Queries** to see all the Saved queries where you can examine or run a query.
+-   Select **Create Query** to create a query of one of the following types:
     -   [Get Records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-get-records.md): Creates a query that you can use to explore your CMDB 360 data. It queries your CMDB 360 for CIs matching your criteria that are reported by specified discovery sources.
     -   [Find Gap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-find-gap.md): Creates a query that you can use to analyze gaps in discovery sources reporting your CMDB 360 data. It queries discovery sources that report CIs against discovery sources that don't report those same CIs.
     -   [Compare Attribute Values](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-query-comp-attr-value.md): Creates a query that you can use to identify CIs with attribute values that differ across multiple discovery sources or against the CMDB. It queries at least two discovery sources and/or the CMDB for CIs that match your criteria.
@@ -91,7 +94,7 @@ Cards in the Discovery sources tile show aggregated counts for your discovery so
 
     The total number of unique CIs created in the CMDB after processing incoming data from all discovery sources, including after reconciling data from multiple discovery sources for the same CIs. For more information, see [CMDB Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBIdentifyandReconcile.md).
 
--   **Discovery source overview**
+-   **Discovery source overviewt**
 
     The distribution of CMDB 360 CIs across all reporting discovery sources.
 
@@ -123,37 +126,4 @@ Various settings apply only to the coverage charts. They determine the scope and
 
     **Note:** Some classes, when included or excluded from the coverage charts, can greatly impact the overall performance of the chart calculations. For more information, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
 
-
-## Coverage
-
-Cards on the Coverage tile show a breakdown of CIs per the number of discovery sources reporting those CIs:
-
--   **CIs with a single source**
-
-    Shows CIs that are only reported by a single discovery source, with a breakdown by the discovery source reporting those CIs.
-
--   **CIs by number of sources**
-
-    Shows CIs reported by multiple discovery sources, grouped by the number of discovery sources that are reporting those CIs.
-
-
-The following settings determine the scope and type of data that is included in the Coverage tile charts, these settings can greatly affect the performance of the Coverage tile calculation job:
-
--   The '[Coverage cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)' dashboard settings determine the data that the cards show in list views.
--   The system properties **sn\_cmdb\_ws.ms.calculate\_cmdb\_only** and **glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled** determine if both CMDB and non-CMDB or CMDB only data, is included in the Coverage chart. For more information about these system properties, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
--   Filter options filter the calculated records in the CMDB 360 data store, that apply to the Coverage charts:
-
-    -   All \(default\): Includes records from both CMDB and non-CMDB tables.
-    -   CMDB CI: Includes records only from CMDB classes.
-    -   Principal Class: Includes records only from principal classes. For information about defining a class as principal and therefore including that class in the Principal Class filter, see [Create a CI class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateCIType.md).
-    **Note:** If the **sn\_cmdb\_ws.ms.calculate\_cmdb\_only** is true or **glide.identification\_engine.multisource\_non\_cmdb\_ci\_enabled** is false, then both 'All' and 'CMDB CI' Coverage chart filters show CMDB data only \(non-CMDB data is ignored\).
-
--   The **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold** system property and the CMDB 360 Analytics Skipped Class \[sn\_cmdb\_ws\_ms\_skip\_class\] table, together, determine class inclusion in the Coverage chart.
-
-    If the record count for a class \(CMDB or non-CMDB\) in the CMDB 360 Data \[cmdb\_multisource\_data\] table exceeds the value set by the **sn\_cmdb\_ws.ms.report\_class\_ci\_count\_max\_threshold** system property, then a record is created in the CMDB 360 Analytics Skipped Class \[sn\_cmdb\_ws\_ms\_skip\_class\] table and by default, the class is skipped in future calculations for the Coverage chart. You can include a skipped class in the Coverage chart by setting the **Override class CI records population** column of a skipped class in the **sn\_cmdb\_ws\_ms\_skip\_class** table, to 'true'.
-
-    Some classes, when included or excluded from the Coverage chart, can greatly impact the overall performance of the chart calculations. For more information, see [Components related to CMDB 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-multisource-cmdb.md).
-
-
-In addition to the settings listed above, internal filters and [excluded classes in the CMDB 360 denied classes \[cmdb\_multisource\_deny\_class\] table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exclude-class-cmdb360.md) also affect the final inclusion or not inclusion of classes.You can review the list of CI classes in the '[Coverage cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-mltsrc-configure.md)' settings to see any notes about inclusion status.
 

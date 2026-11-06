@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/ext-inventory-id.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order Management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Managing service orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # External product inventory ID
@@ -27,4 +27,16 @@ With the support of an external inventory ID, you can do the following tasks:
 -   Allow external CPQ or southbound systems to use the external inventory ID to submit, change, disconnect, suspend, and resume orders on the product inventory in the order management system.
 
 **Note:** You can also map the external product inventory ID with the product inventory record by using the Product Inventory Open API. For more information, see [Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/product-inventory-open-api.md).
+
+-   **[Review the external product inventory details for a customer order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-review-ext-inventory.md)**  
+Review the external inventory details of the customer orders that you’ve received from the external Configure, Price, and Quote \(CPQ\) system during the order capture process.
+
+**Parent Topic:**[Managing service orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/managing-service-orders.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

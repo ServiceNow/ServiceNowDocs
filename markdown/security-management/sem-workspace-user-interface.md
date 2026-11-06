@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-workspace-user-interface.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 6
+last_updated: "2026-10-16"
+reading_time_minutes: 7
 keywords: [Security exposure management, workspace, Finding, Remediation, Watch topic]
 breadcrumb: [Explore, Unified Security Exposure Management, Security Operations]
 ---
@@ -17,7 +17,7 @@ The Security Exposure Management Workspace provides a unified, role-based enviro
 
 ## Security Exposure Management Workspace benefits
 
-The workspace provides multiple views designed for specific workflows, such as prioritizing critical issues, approving exceptions, managing remediation plans, and configuring automation, all in one place, without switching tools or interfaces.
+The workspace provides multiple views designed for specific workflows. Prioritize critical issues, approve exceptions, manage remediation plans, and configure automation, from one location without switching tools or interfaces.
 
 In the workspace, you can:
 
@@ -36,11 +36,14 @@ Each view in the Security Exposure Management Workspace is designed for a specif
 |----|-------------|-------------|-----------|
 |[Finding view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-findings-view.md)|Gain a clear, real-time understanding of your exposure landscape through dashboards that surface risks and insight-driven priorities|Security analysts|Explore default or custom dashboards, drill into detailed findings, initiate remediation activities, and use Now Assist insights to prioritize critical issues and respond faster|
 |[Watch Topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-watch-topic.md)|Continuously track and monitor specific high-priority vulnerability categories that require ongoing attention or strategic focus|Threat analysts, CISOs, Vulnerability managers|Create and refine watch topics, monitor trends and severity changes, evaluate business impact, trigger remediation efforts when thresholds are met|
-|[Remediation view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-workspaces-ui-remediation-module.md)|Plan, manage, and track remediation work across teams to ensure timely and effective resolution|Remediation owners, IT operations, security analysts|View assigned tasks, update progress, collaborate with owners, track deadlines|
+|[AI Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/ai-security-exposure-home.md)|Access the entire attack surface across various types of AI findings on the AI Security Exposure Management dashboard with the AI Exposures module.|Vulnerability analysts, vulnerability managers, and Chief Information Security Officers \(CISO\)|AI Security Exposure Management integrates with third-party AI security products to help you manage various types of potential AI exposure across your environment.|
 |[Cloud Exposure view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vr-cloud-exposure-view-db.md)|Gain a unified view to monitor and respond to top cloud risks through multiple lenses, including assets, images, and regulatory standards.|Vulnerability managers, Security analysts|View risk by cloud asset, drill into asset and finding details, and initiate remediation activities.|
+|[Security Assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-security-assets-page.md)|Review the security assets that your integrations report, with the risk rating, open findings, labels, and sources of each asset|Vulnerability analysts, vulnerability managers|Filter assets by summary card, review asset risk and findings, and open an asset record to see its findings, remediation tasks, fixes, and vulnerabilities|
 |[Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-unified-approval-rules-explore.md)|Manage and track all vulnerability and compliance exception approvals in a single, unified workflow with full visibility into request status and urgency|Governance &amp; Risk teams, approvers|Review contextual details for each approval request, take approval actions, view overdue and pending items, access finding details, and record comments or decisions directly|
+|[Remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-workspaces-ui-remediation-module.md)|Plan, manage, and track remediation work across teams to ensure timely and effective resolution|Remediation owners, IT operations, security analysts|View assigned tasks, update progress, collaborate with owners, track deadlines|
 |[Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-workspace-list-page.md)|Access complete lists of findings, remediation tasks, approvals, and exceptions to monitor status, ownership, and progress.|Vulnerability analysts, remediation owners, security managers|Navigate predefined or custom lists, drill into records, create and manage custom lists, monitor status and ownership, and take follow-up actions such as updating records or processing approvals|
 |[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-administration-console.md)|Configure and govern Security Exposure Management settings centrally to ensure consistent policies, integrations, and automation across the environment|Admins, Platform owners|Manage integrations, configure rules and automation, set up email notifications and templates, map severity levels, and customize visualization settings from a unified Admin Console|
+|[ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-usem-landing-ties.md)|Set up, manage, and optimize your generative‑AI solutions on the ServiceNow AI Platform in the Unified Security Exposure Management workspace.|Vulnerability analysts, vulnerability managers, vulnerability admins, and remediation owners|Use generative AI skills and agentic workflows for ServiceNow Otto for Unified Security Exposure Management to optimize and analyze your vulnerability data.|
 
 ## Getting started
 
@@ -57,6 +60,8 @@ Explore detailed guidance for each Security Exposure Management Workspace view:
 [Remediation view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-workspaces-ui-remediation-module.md)
 
 [Viewing the Cloud Exposure View dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vr-cloud-exposure-view-db.md)
+
+[Security Assets page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-security-assets-page.md)
 
 [Security Exposure Management Approvals View](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-unified-approval-rules-explore.md)
 

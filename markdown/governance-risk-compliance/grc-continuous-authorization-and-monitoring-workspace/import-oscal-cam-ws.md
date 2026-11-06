@@ -1,29 +1,33 @@
 ---
 title: Import OSCAL catalog
-description: From the OSCAL Import landing page, import catalog OSCAL data into the CAM Workspace.
+description: From the New Import playbook experience page, you can import OSCAL files in the Catalog model into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal-cam-ws.html
 release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Importing in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Import in OSCAL format, CAM OSCAL, Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Import OSCAL catalog
 
-From the OSCAL Import landing page, import catalog OSCAL data into the CAM Workspace.
+From the New Import playbook experience page, you can import OSCAL files in the Catalog model into CAM workspace. This task focuses on uploading and processing the required JSON files to begin the import process.
 
 ## Before you begin
 
-Role required: sn\_irm\_cont\_auth.info\_system\_sec\_manager, sn\_irm\_cont\_auth.info\_system\_sec\_officer, and sn\_irm\_cont\_auth.admin
+Role required:
+
+-   Information System Security Manager \(sn\_irm\_cont\_auth.info\_system\_sec\_manager\)
+-   Information System Security Officer \(sn\_irm\_cont\_auth.info\_system\_sec\_officer\)
+-   CAM Administrator \(sn\_irm\_cont\_auth.admin\)
 
 **Note:**
 
--   The catalog file that you want to import must be in the JSON format and validated using the OSCAL-CLI tool for any validation error. For more information on the OSCAL-CLI tool, see [usnistgov/oscal-cli](https://github.com/usnistgov/oscal-cli) on GitHub.
--   When the import process is complete, recipients are notified through email.
+-   The catalog file to be imported must be in JSON format and validated using the OSCAL-CLI tool [https://github.com/usnistgov/oscal-cli](https://github.com/usnistgov/oscal-cli) for any validation error.
+-   Recipients are notified through email on completion of the import process.
 
 The OSCAL catalog import is a synchronous process.
 
@@ -31,36 +35,88 @@ The OSCAL catalog import is a synchronous process.
 
 1.  Navigate to **Workspaces** &gt; **CAM Workspace**.
 
-2.  In the primary navigation, select the OSCAL import landing page icon \(\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import\).
+2.  In the CAM Workspace, select\[Omitted image "cam-oscal-import-icon.png"\] Alt text: OSCAL import from the sidebar.
 
-3.  Select **Catalog** from the **OSCAL Model** drop-down list.
+3.  Select **New Import** from the **All OSCAL imports** landing page.
 
-    By default, the Catalog model is selected.
+4.  Select **Catalog** from the **OSCAL Model** drop-down list.
 
-4.  Enter the **Source** name.
+    By default the Catalog model is selected.
 
-    The source of control objective.
+5.  Enter the **Source** name.
 
-5.  Enter the **Import status recipients** name.
+    The source name that you enter is used as the name for the imported control objective. If a control objective with the same source name exists, the file is skipped during import.
 
-    You can list the users you want to be notified once the OSCAL import is complete. The recipient receives an email notification on the import status.
+    \[Omitted image "cam-oscal-import-catalog1.png"\] Alt text: OSCAL import Catalog details tab.
 
-6.  In the Attachments section, attach the catalog file from your local repository by selecting **Attach File**.
+6.  Enter the **Import status recipients** name.
 
-7.  Verify the control objectives to be imported by selecting **Import**.
+    You can list the users you want to be notified once the OSCAL import is complete. The recipients receive an email notification on the import status.
 
-8.  In the **Catalog import** pop-up window, verify the control objectives to be created or skipped.
+7.  Select **Next** to continue to the next step in the OSCAL import process.
 
-9.  Select **Import**.
+    You’ll be directed to the **Attachments** tab to attach the catalog file.
 
-    **Note:** The CAM OSCAL catalog import model doesn’t support test templates and assessment procedures if they’re included in the catalog JSON file.
+8.  Select the **Attach File** in the **Attachments** tab to attach the catalog file from your local repository.
 
-10. Refresh the page.
+    \[Omitted image "cam-oscal-import-catalog.png"\] Alt text: OSCAL Catalog Import.
 
-    In the **Import status** section, you can view the import status report.
+9.  Select **Next** to verify the files you uploaded.
 
-    For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support Knowledge Base.
+    **Preview and Override** tab displays.
+
+    \[Omitted image "cam-oscal-import-catalog2.png"\] Alt text: OSCAL Catalog preview tab.
+
+10. In the **Preview and Override** tab, review the details that are to be created, skipped, or overridden and then perform one of the following:
+
+    -   Select **Import** to import the Catalog model.
+
+        **Note:** When all the data is new and must be imported, the import action creates new records for the respective data. In this case, you can’t skip or override the files. However, if you import a file with the existing source and matching records, you’ll have the option to skip or override the data.
+
+    -   To override data, perform the following actions:
+        1.  Select **Select list to override** to choose the data to override.
+
+        2.  Select **Skipped** to list the reference that is to be skipped.
+
+            **Note:** Based on the data you select from the drop-down: If the data is in the **Will be skipped** state, you can only override it. When you override a control objective, all associated control objective requirements will also be overridden.
+
+            \[Omitted image "cam-oscal-import-catalog3.png"\] Alt text: Overriding skipped files.
+
+        3.  Select the reference from the list that you want to override.
+        4.  Select **Override** to override one or more selected references.
+
+            The selected reference is flagged as overridden and the **Overridden** count is increased in the preview list.
+
+    -   To skip data, perform the following actions:
+        1.  Select **Select list to override** to choose the data to skip.
+
+        2.  Select **Overridden** to list the reference that is to be skipped.
+
+            **Note:** If it is in the **Overridden** state, you can only skip it.
+
+        3.  Select the reference from the list that you want to skip.\[Omitted image "cam-oscal-import-catalog4.png"\] Alt text: Skipping overridden files.
+        4.  Select **Skip** to override one or more selected references.
+
+            The selected reference is flagged as skip and the **Will be skipped** count is increased in the preview list.
+
+11. Select **Import** to import the catalog files.
+
+    **Note:**
+
+    -   The CAM OSCAL catalog import model doesn’t support test templates and assessment procedures if they’re included in the catalog JSON file.
+    -   If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
+    You can view the import status report in the **All OSCAL import** landing page.
+
+    All the necessary control objectives are created with the source specified.
+
+    For more information on OSCAL import error, see the [OSCAL Import \[KB1794095\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1794095) article in the Now Support knowledge base.
+
+12. If an error occurs during the import process, review the error message displayed in the pop-up and take the necessary corrective action.
+
+    You can also select the More actions icon on the Attachments tab to select **Restart Stage** to restart the attachments.
+
+    **Note:** You can also select the playbook action icon \(\[Omitted image "cam-oscal-import-action-icon.png"\] Alt text: Restart playbook icon\) to select **Restart Playbook** to restart the playbook.
 
 
-**Parent Topic:**[Importing in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
+**Parent Topic:**[Import in OSCAL format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/import-oscal.md)
 

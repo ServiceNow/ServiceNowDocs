@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/sn-otto-access-roles.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-04-17"
-reading_time_minutes: 5
-breadcrumb: [Configure, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # ServiceNow Otto for Enterprise Architecture \(EA\) access roles
@@ -18,18 +18,22 @@ Access to ServiceNow Otto for Enterprise Architecture \(EA\) skills is controlle
 
 |Skill|Configure role|Use role|
 |-----|--------------|--------|
-|Configure Now Assist for EA \(all skills\)|admin|Not applicable|
+|Configure ServiceNow Otto® for EA \(all skills\)|admin|Not applicable|
 |Configure AI Data Explorer and Query Generation skills|now\_assist\_explorer\_admin or higher \(AI Data Explorer\); admin \(Query Generation\)|Not applicable|
 |Generate a summary for ADRs \(ADR doc summarization\)|admin|sn\_apm.apm\_user|
 |Elaborate or shorten content in ADRs|admin|sn\_apm.apm\_user|
 |Generate insights into business applications|admin|sn\_apm.apm\_user|
+|Compare Enterprise Modeling and Visualization diagrams|admin|sn\_apm.apm\_read and sn\_apm.apm\_user|
 |Elaborate or shorten content in form fields \(Refine text\)|admin|sn\_apm.apm\_user|
+|Generate insights for EA Workspace dashboard widgets \(AI Data Explorer\)|now\_assist\_explorer\_admin or higher|sn\_apm.apm\_user or sn\_apm.apm\_read; now\_assist\_explorer\_user|
 |Register a business application using conversational experience|admin|None \(any authenticated user\)|
 |Register a digital integration using conversational experience|admin|None \(any authenticated user\)|
+|Generate an enterprise architecture diagram from an uploaded image; review AI-generated shapes in split-screen mode; accept or discard low-confidence shape replacements; accept all shapes and publish the diagram to draft|admin|sn\_apm.apm\_user|
+|Ask natural language questions about the EA portfolio using the Enterprise Architecture Explorer Query Agent|admin|sn\_apm.apm\_user|
 
 ## Configuration
 
-All Now Assist for EA skills are configured from the Now Assist Admin console. Configuration requires the admin role or, for AI Data Explorer skills, the now\_assist\_explorer\_admin role.
+All ServiceNow Otto® for EA skills are configured from the ServiceNow Otto® Admin console. Configuration requires the admin role or, for AI Data Explorer skills, the now\_assist\_explorer\_admin role.
 
 <table id="table_section_config"><thead><tr><th>
 
@@ -61,7 +65,7 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Activate and configure all Now Assist for EA skills from the Now Assist Admin console \(ADR summarization, business application insights, diagram change analysis, refine text, conversational experience\)
+Activate and configure all ServiceNow Otto® for EA skills from the ServiceNow Otto® Admin console \(ADR summarization, business application insights, diagram change analysis, refine text, conversational experience\)
 
 </td><td align="center">
 
@@ -146,6 +150,34 @@ Configure role-based access to individual skills
 </td></tr><tr><td>
 
 Define and configure custom parameters for the business application insights prompt; make a copy of the business application insights skill
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Set how the business application insights skill is triggered \(**Automatic** or **User trigger**\) and define optional conditions for the **Automatic** trigger on the **Define trigger** tab
 
 </td><td align="center">
 
@@ -318,7 +350,7 @@ Notes
 
 </th></tr></thead><tbody><tr><td>
 
-Generate a Now Assist summary of an ADR document from the Artifact content tab
+Generate a ServiceNow Otto® summary of an ADR document from the Artifact content tab
 
 </td><td align="center">
 
@@ -510,7 +542,7 @@ Use the ADR summarization skill
 
 </td><td>
 
-sn\_apm.apm\_read is in the default skill access list. Admins can modify role access from the Now Assist Admin console.
+sn\_apm.apm\_read is in the default skill access list. Admins can modify role access from the ServiceNow Otto® Admin console.
 
 </td></tr></tbody>
 </table>## Business application insights
@@ -548,6 +580,34 @@ Notes
 </th></tr></thead><tbody><tr><td>
 
 Generate insights from the business application details page
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Available when the skill trigger is set to **User trigger**.
+
+</td></tr><tr><td>
+
+View insights that are generated automatically when you open a business application record page, when the skill trigger is set to **Automatic**
 
 </td><td align="center">
 
@@ -742,6 +802,235 @@ Provide thumbs up or thumbs down feedback on generated insights
  
 
 </td></tr></tbody>
+</table>## Compare Enterprise Modeling and Visualization diagrams
+
+The diagram change analysis skill generates an AI summary of changes between two diagram versions. The summary includes an executive overview and a breakdown of added, modified, and removed shapes and relationships.
+
+<table id="table_section_diag_compare"><thead><tr><th>
+
+Capability
+
+</th><th align="center">
+
+admin
+
+</th><th align="center">
+
+now\_assist\_explorer\_admin
+
+</th><th align="center">
+
+sn\_apm.apm\_user
+
+</th><th align="center">
+
+sn\_apm.apm\_read
+
+</th><th align="center">
+
+now\_assist\_explorer\_user
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Select two diagram versions to compare from the Compare versions pop-up window
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required. Neither role alone is sufficient to use this skill.
+
+</td></tr><tr><td>
+
+View the AI-generated executive summary of changes between two diagram versions
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required.
+
+</td></tr><tr><td>
+
+View a breakdown of shapes, entities, and relationships that have been added, modified, or deleted
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required.
+
+</td></tr><tr><td>
+
+View visual canvas highlights \(new shapes and lines in green, modified in yellow\)
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required.
+
+</td></tr><tr><td>
+
+Change the diagram versions and regenerate the comparison summary
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required.
+
+</td></tr><tr><td>
+
+Refresh the summary after changing the primary diagram version
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required.
+
+</td></tr><tr><td>
+
+Copy the generated change summary; provide helpful or not helpful feedback
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+Both sn\_apm.apm\_user and sn\_apm.apm\_read are required.
+
+</td></tr></tbody>
 </table>## Elaborate or shorten content in form fields \(Refine text\)
 
 The Refine text skill is available in the Description and Reasoning fields on forms for business applications, business capabilities, business processes, value stream stages, and information objects.
@@ -861,6 +1150,665 @@ Generate reasoning content for the Reasoning field \(Planned Disposition section
 </td></tr><tr><td>
 
 Elaborate or shorten existing text in the Reasoning field
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>## Generate insights for EA Workspace dashboard widgets
+
+The dashboard insights feature uses the AI Data Explorer and Query Generation skills to provide a conversational interface for querying and analyzing EA Workspace dashboard data. Both an EA Workspace role and the now\_assist\_explorer\_user role are required.
+
+<table id="table_section_dashboard"><thead><tr><th>
+
+Capability
+
+</th><th align="center">
+
+admin
+
+</th><th align="center">
+
+now\_assist\_explorer\_admin
+
+</th><th align="center">
+
+sn\_apm.apm\_user
+
+</th><th align="center">
+
+sn\_apm.apm\_read
+
+</th><th align="center">
+
+now\_assist\_explorer\_user
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Use the Explore with AI icon on any supported dashboard widget to open the AI Data Explorer
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires an EA Workspace role \(sn\_apm.apm\_user or sn\_apm.apm\_read\) AND now\_assist\_explorer\_user. AI Data Explorer and Query Generation skills must be activated and AI Search must be configured.
+
+</td></tr><tr><td>
+
+Ask natural language questions about data from a single dashboard widget
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Perform trend analysis queries \(for example, how application counts changed over time\)
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Perform comparative queries \(for example, application counts across different technology types\)
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Perform specific metric queries \(for example, which application family is most used\)
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Use Standard analysis or Extended analysis mode
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Add the widget data to an exploration for ServiceNow Otto® to generate its own insights
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Define a goal to improve the quality of generated insights; ask follow-up questions based on ServiceNow Otto® suggestions
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr><tr><td>
+
+Summarize generated insights; share, duplicate, or delete generated insights
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td>
+
+Requires EA Workspace role AND now\_assist\_explorer\_user.
+
+</td></tr></tbody>
+</table>## Generate enterprise architecture diagram skill
+
+The Generate enterprise architecture diagram skill uses an AI agent to create Enterprise Modeling and Visualization diagrams from an uploaded image. After the diagram is generated, you can review the result in split-screen mode, where shapes with a low confidence are highlighted for review. You can accept or replace individual low-confidence shapes, then publish the diagram or discard it entirely.
+
+<table id="table_section_diagram_from_image"><thead><tr><th>
+
+Capability
+
+</th><th align="center">
+
+admin
+
+</th><th align="center">
+
+now\_assist\_explorer\_admin
+
+</th><th align="center">
+
+sn\_apm.apm\_user
+
+</th><th align="center">
+
+sn\_apm.apm\_read
+
+</th><th align="center">
+
+now\_assist\_explorer\_user
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Activate and configure the Generate enterprise architecture diagram skill
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Upload an image and invoke the skill to generate an enterprise architecture diagram via the ServiceNow Otto panel
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Review the AI-generated diagram in split-screen mode, with the uploaded image displayed alongside the generated diagram canvas
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Identify and replace low-confidence shapes highlighted on the diagram canvas; accept an individual shape replacement to remove the highlight and reduce the low-confidence count
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Select Accept All to accept all shape replacements and move the diagram to draft state
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Select Discard to delete the AI-generated diagram, including the artifact, version, attachment, and diagram instance
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+A confirmation dialog is shown before the diagram is deleted.
+
+</td></tr></tbody>
+</table>## Enterprise Architecture Explorer Query Agent
+
+The Enterprise Architecture Explorer query agent is an agentic ServiceNow Otto® skill that answers natural language questions about EA portfolio data. This includes business applications, capabilities, value streams, technology standards, and information objects. The agent is accessed from the ServiceNow Otto panel in Enterprise Architecture Workspace.
+
+<table id="table_section_ea_query_agent"><thead><tr><th>
+
+Capability
+
+</th><th align="center">
+
+admin
+
+</th><th align="center">
+
+now\_assist\_explorer\_admin
+
+</th><th align="center">
+
+sn\_apm.apm\_user
+
+</th><th align="center">
+
+sn\_apm.apm\_read
+
+</th><th align="center">
+
+now\_assist\_explorer\_user
+
+</th><th>
+
+Notes
+
+</th></tr></thead><tbody><tr><td>
+
+Ask natural language questions about EA portfolio data using the ServiceNow Otto panel in Enterprise Architecture Workspace
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Query EA data across business applications, capabilities, value streams, TRM, information objects, and technical debt; query TCO on non-BA entities \(capabilities, information objects, value streams, application services, and business services\) by rolling up through associated business applications
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Apply multiple filter conditions and compare trends in a single question
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Ask follow-up questions within the same session without restating context; select suggested follow-up questions generated by the agent
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes
+
+</td><td align="center">
+
+ 
+
+</td><td align="center">
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Ask about the impact of an infrastructure CI, such as a database, database instance, server, or storage device. Ask about the infrastructure that a business application or application service depends on.
 
 </td><td align="center">
 
@@ -1060,16 +2008,42 @@ Review and modify the auto-populated form fields before submission
 No role required.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
+</table>**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/install-ea-workspace.md)
 
 **Related topics**  
 
 
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
 
+[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)
+
 [ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea.md)
 
 [Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-access-roles.md)
 
 [Enterprise Architecture AI agent diagramming agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-aiagents-ea-diagramming-usecase.md)
+
+[Exploring Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-qna-overview.md)
+
+[Working with Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-qna-use.md)
+
+[Create a business process map diagram from an image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-bpm-diag-from-image.md)
+
+[Review an AI-generated business process map diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-review-ai-generated-bpm-diag.md)
+
+[Generate a summary for Architectural Decision Records \(ADRs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/summarize-docs-genai-skill-ea.md)
+
+[Elaborate or shorten content in ADRs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/elaborate-shorten-content-ew.md)
+
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md)
+
+[Compare Enterprise Modeling and Visualization diagrams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/compare-modeling-diagrams.md)
+
+[Elaborate or shorten content in form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/elaborate-or-shorten-content-form-fields.md)
+
+[Generate insights for Enterprise Architecture Workspace dashboard widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-ea-dashboard.md)
+
+[Register a business application conversationally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/register-business-application-using-conversational-experience.md)
+
+[Register a digital integration conversationally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/register-digital-integration-using-conv-exp.md)
 

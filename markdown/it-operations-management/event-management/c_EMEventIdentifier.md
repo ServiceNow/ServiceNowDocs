@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event identifiers
@@ -33,6 +33,4 @@ If the **Message Key** is not provided, the system automatically generates one b
 -   **Metric Name**
 
 If the above fields are not defined in the incoming event, you can define them using event rules.
-
-**Parent Topic:**[Processing Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/processing-events.md)
 

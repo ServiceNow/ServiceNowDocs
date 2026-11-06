@@ -1,24 +1,65 @@
 ---
 title: Exploring Public Sector Digital Services
-description: Learn about Public Sector Digital Services features to help create a seamless support experience for constituents, businesses, internal agencies, and external agencies.
+description: Learn about Public Sector Digital Services \(PSDS\) features to help create a seamless support experience for constituents, businesses, internal agencies, and external agencies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/exploring-public-sector-digital-services.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-03-12"
+reading_time_minutes: 6
 breadcrumb: [Public Sector Digital Services \(PSDS\)]
 ---
 
 # Exploring Public Sector Digital Services
 
-Learn about Public Sector Digital Services features to help create a seamless support experience for constituents, businesses, internal agencies, and external agencies.
+Learn about Public Sector Digital Services \(PSDS\) features to help create a seamless support experience for constituents, businesses, internal agencies, and external agencies.
 
 ## Public Sector Digital Services Overview
 
-## Benefits
+Public Sector Digital Services helps government agencies manage the complete lifecycle of constituent public service delivery. The solution is built on a government data model that standardizes how constituents, businesses, households, agencies, and service interactions are represented across your implementation. You can use this foundation as-is or extend it to create workflows that are specific to your agency's processes. Public Sector Digital Services includes a set of applications that support common government service types. Many are playbook-driven, guiding agents through each stage of a service request, from intake to decision. Others support different kinds of work—for example, the Investigative Case Management solution helps investigators process investigations and connect the records and evidence related to a case. Constituents and businesses access services through self-service portals, and agents manage their work from a configurable workspace. [ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/sn-otto-for-psds.md) adds AI capabilities to help agents work through cases faster, including case summarization, chat summarization, and resolution notes generation. Public Sector Digital Services supports three primary service delivery scenarios: government to constituent, government to business, and government to agency. You can implement one or more of these scenarios depending on your agency's requirements.
 
-Public Sector Digital Services enables government organizations and external agencies to support constituents and business stakeholders, all from a single platform. Extend beyond the packaged government case type, leveraging the government data model to create your own workflows with low-code tools. Fulfill public service requests end-to-end with pre-packaged playbooks. Deliver a personalized experience while increasing agent efficiency, driving action to take care of common constituent requests using resources like the portal, service catalog, virtual agent, and online communities.
+\[Omitted video\] Description: Public Sector Digital Services Overview
+
+## Public Sector Applications
+
+<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+
+[Investigative Case Management \[Omitted image "bus-observable.svg"\] Alt text:Handle investigative cases.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-explore-inv-case-management.md)
+
+</td><td>
+
+[Grants Management \[Omitted image "bus-explore-careers.svg"\] Alt text:Handle applications for grants submitted by public sector users.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-grants-management-playbook.md)
+
+</td><td>
+
+[Social Benefits Playbook \[Omitted image "bus-handshake.svg"\] Alt text:Handle applications for social benefit programs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-exploring-pbs-social-benefits.md)
+
+</td></tr><tr><td>
+
+[License and Permit Administration \[Omitted image "bus-profile.svg"\] Alt text:Handle license and permit requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-exploring-pbs-license-permit.md)
+
+</td><td>
+
+[Information Request Administration \[Omitted image "bus-discover.svg"\] Alt text:Handle public record and information requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-exploring-pbs-information-request.md)
+
+</td><td>
+
+[Service Request Administration \[Omitted image "bus-demand-management.svg"\] Alt text:Handle non-emergency service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-exploring-pbs-service-request.md)
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>## Benefits
 
 -   **Provide a platform for citizens to engage**
 
@@ -34,20 +75,20 @@ Public Sector Digital Services enables government organizations and external age
 
 -   **Manage case volume with self-service**
 
-    Encourage constituents to help themselves with a self-service catalog, communities, knowledge base, and portal. Expand customer support for constituents and businesses by implementing Virtual Agent, a chatbot that runs on the Government Service Portal and in supported third-party messaging applications, such as Engagement Messenger. Public sector end users can request non-emergency services through a prebuilt, automated conversation that helps them submit a request.
+    Encourage constituents to help themselves with a self-service catalog, communities, knowledge base, and portal. Expand customer support by implementing Virtual Agent, a chatbot that runs on the Government Service Portal and in supported third-party messaging applications, such as Engagement Messenger. End users can request non-emergency services through a prebuilt, automated conversation that helps them submit a request.
 
 
 ## Key features
 
 Public Sector Digital Services offers key features that enable administrators and agents to provide the services and support requested by constituents and businesses.
 
-<table id="table_s1f_kv3_15b"><thead><tr><th>
+<table id="table_lrg_lmc_kvb"><thead><tr><th>
 
-Feature
+Benefits
 
 </th><th>
 
-Description
+Key Features
 
 </th><th>
 
@@ -55,11 +96,11 @@ Role
 
 </th></tr></thead><tbody><tr><td>
 
-[Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-grants-management-playbook.md)
+Walk constituents through the process of submitting a grant proposal, applying for a license or permit, requesting government records and other public information, or submitting non-emergency service requests. Walk agents through the process of fulfilling these requests.
 
 </td><td>
 
-End-to-end playbooks-on-portal experience that walks grant applicants through the process of submitting a grant proposal, and grant program managers through the process of reviewing and approving grant proposals for one or more grant programs
+[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/playbooks-psds-exploring.md)
 
 </td><td>
 
@@ -67,83 +108,11 @@ Constituent or Agent
 
 </td></tr><tr><td>
 
-[Social Benefits Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-social-benefit-playbook.md)
+Drive self-service from a portal that is integrated with knowledge articles, service catalogs, communities, and chatbots.
 
 </td><td>
 
-End-to-end playbook experience that walks government service agents through the process of creating or servicing applications for one or more social benefit programs
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-license-permit-playbook.md)
-
-</td><td>
-
-End-to-end playbook experience that walks government service agents through the process of creating or servicing license and permit applications
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Information Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-information-request-playbook.md)
-
-</td><td>
-
-End-to-end playbook experience that walks government service agents through the process of creating or servicing requests for public records and information
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configuring-service-request-playbook.md)
-
-</td><td>
-
-End-to-end playbook experience that walks government service agents through the process of creating or servicing non-emergency service requests
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Grants Management Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-gmp-overview.md)
-
-</td><td>
-
-A dedicated portal for finding, applying for, and tracking grant proposals. Applicants can find, apply to, and track their grant proposals. Grant program managers can screen, evaluate, and decide budgets for grant proposals.
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Reviewer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-rsp-overview.md)
-
-</td><td>
-
-A dedicated portal for merit reviewers \(working on behalf of agents\), to review and score grant proposals.
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/gsp-overview-public-sector.md)
-
-</td><td>
-
-A dedicated portal for constituents, business stakeholders, and contributors \(working on behalf of constituents\), to request public services, track cases, view and update their profiles, report issues, request government documents, and more. Business owners can also register a business, manage contacts, and request public services, permits, or licenses.
+[Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/portals-psds-exploring.md)
 
 </td><td>
 
@@ -151,35 +120,47 @@ Constituent
 
 </td></tr><tr><td>
 
-[Agency Services Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-business-location-service-portal.md)
+Improve your agent efficiency for faster resolution and a better constituent experience.
 
 </td><td>
 
-A dedicated portal for agencies to manage internal and external agency locations, and add service catalog items to specific agency locations.
+[Playbooks and Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/using-public-sector-workspace-for-government-agents.md)
 
 </td><td>
 
-Agent
+Agent or Manager
 
 </td></tr><tr><td>
 
-[ServiceNow Otto for PSDS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-using.md)
+Manage case interactions and service level agreements \(SLAs\), product model relationships, and other services.
 
 </td><td>
 
-Use ServiceNow Otto for PSDS to summarize case information and generate case resolution notes. Enable your agents to understand case context so that they can propose resolutions to your constituents.
+[Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-case-management.md)
 
 </td><td>
 
-Agent
+Administrator
 
 </td></tr><tr><td>
 
-[Public Services Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-content-pack.md)
+Increase productivity with automated case detail and comment summarization, so agents get answers fast. Also, learn how to route issues, recommend solutions, and identify trends.
 
 </td><td>
 
-Performance indicators and data visualizations on government services offered to and requested by constituents, businesses, and agencies.
+[Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/sn-otto-for-psds.md)
+
+</td><td>
+
+Agent or Manager
+
+</td></tr><tr><td>
+
+Get at-a-glance visibility and a deep understanding of the data and identify areas that impact your processes.
+
+</td><td>
+
+[Analytics and Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-content-pack.md)
 
 </td><td>
 
@@ -187,87 +168,27 @@ Manager
 
 </td></tr><tr><td>
 
-[CRM Workspace Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-csm-workspace.md)
+Embed a messenger-like pop-up inside any website to interact with ServiceNow features, such as browsing knowledge, creating a case, and interacting with Virtual Agent. Manage how your customers use your web applications and services from one central location. Configure the behavior and styling of the messenger and deploy the configuration on the websites or mobile sites of your choice.
 
 </td><td>
-
-A dedicated, customizable workspace for government agents and agents from external agencies to work on issues and deliver services for constituents, agencies, and businesses. Agents can manage their cases, check on service requests, and even initiate requests for others.
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Persona-based Roles in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md)
-
-</td><td>
-
-Roles for public sector job functions. These roles control access to public sector features and information. For details, see [Persona-based Roles in Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md).
-
-</td><td>
-
-Administrator
-
-</td></tr><tr><td>
-
-[Service definitions for Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-service-definitions.md)
-
-</td><td>
-
-Enables you to map a public service, information service, or license and permit service to the list of services your agency offers for resolving that request.
-
-</td><td>
-
-Administrator
-
-</td></tr><tr><td>
 
 [Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/using-va-for-public-sector-digital-services.md)
 
 </td><td>
 
-Aids users in completing or updating requests for various public services withVirtual Agent, a chatbot that runs on the Government Service Portal and in supported third-party messaging applications, such as Engagement Messenger.
-
-</td><td>
-
-Agent
-
-</td></tr><tr><td>
-
-[Extendable Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
-
-</td><td>
-
-The flexibility of the Public Sector Digital Services platform provides you with a data model that you can extend and leverage to fit your needs.
-
-</td><td>
-
 Administrator
 
 </td></tr><tr><td>
 
-Extendable Service Catalog
+A dedicated, customizable workspace for government agents and agents from external agencies to work on issues and deliver services for constituents, agencies, and businesses. Administrators tailor the configurable workspace for public sector use, enabling agents to resolve issues faster and view services received, recent cases, and profiles for businesses, agencies, and constituents. Agents can manage their cases, check on service requests, and even initiate requests for others.
 
 </td><td>
 
-Types of services available, such as licenses, permits, service requests, and benefits. Prebuilt service request options that constituents and businesses can choose from the Government Service Portal.
+[Public Sector Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-using-csm-workspace.md)
 
 </td><td>
 
-Administrator
-
-</td></tr><tr><td>
-
-Extendable Government Service Case
-
-</td><td>
-
-The base case type tailored for government services. You can extend this case type to create other government case types for various government services.
-
-</td><td>
-
-Administrator
+Agent or Manager
 
 </td></tr></tbody>
 </table>

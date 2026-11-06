@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Insurance claims reference, Insurance claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Insurance claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Insurance claims

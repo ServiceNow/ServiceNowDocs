@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-highlight-value.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set up a highlighted value in a form header in CRM Workspace
@@ -30,13 +30,16 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
 1.  Create a highlighted value.
 
-    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
+    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values**.
 
     2.  Select **New**.
 
     3.  Fill in the fields on the Highlighted Value form and select **Submit**.
 
-        For field descriptions, see Highlight values in the form header.
+        |Field|Description|
+        |-----|-----------|
+        |Table|Table that contains the field that you want to highlight in the form header.|
+        |Field|Field that you want to highlight.|
 
     4.  In the Highlighted Values list, select the record you created.
 
@@ -44,13 +47,20 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
     6.  Fill in the fields on the Highlighted Value Condition form.
 
-        For field descriptions, see Highlight values in the form header.
+        |Field|Description|
+        |-----|-----------|
+        |Conditions|Condition builder where you can set the conditions for your highlighted value to display.|
+        |Status|Background color. Each status has its own color, for example, Critical displays a red background, Moderate displays a purple background, and Info displays a blue background.|
+        |Show icon|Toggle that makes a small circle display in addition to the background coloring.|
+        |Value Override|Text that renders instead of the Status value. For example, instead of "Critical," you can display, "Address this immediately." You can reference a text value using`{{value}}`.|
+        |Application|Application scope that contains the record.|
+        |Order|Order that the highlighted values are evaluated.|
 
     7.  Select **Submit**.
 
 2.  Add the highlighted value to the highlighted value configuration.
 
-    1.  Navigate to **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
+    1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Configuration Settings** &gt; **UX Highlighted Values Configurations**.
 
     2.  Select the configuration.
 
@@ -60,4 +70,9 @@ One highlighted value configuration, **CSM/FSM Configurable Workspace Highlighte
 
     5.  Select **Save**.
 
+
+**Related topics**  
+
+
+[Set up a highlighted value in a form header in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/config-ws-highlight-value.md)
 

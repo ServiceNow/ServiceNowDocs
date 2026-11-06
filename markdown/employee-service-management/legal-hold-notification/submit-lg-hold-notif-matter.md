@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2025-06-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Legal Hold Notification, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a Legal Hold Notification matter
@@ -18,32 +18,34 @@ Create a Legal Hold Notification matter to initiate the process of preserving th
 
 ## Before you begin
 
+If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
+
 Role required: sn\_lg\_hold.legal\_hold\_fulfiller or sn\_lg\_ops.legal\_fulfiller
 
 ## Procedure
 
 1.  Access the Legal Hold Notification matter intake form through either the Employee Center or the Legal Counsel Center.
 
-<table id="choicetable_gcx_sb4_qfc"><thead><tr><th align="left" id="d654284e69">
+<table id="choicetable_gcx_sb4_qfc"><thead><tr><th align="left" id="d707594e96">
 
 Option
 
-</th><th align="left" id="d654284e72">
+</th><th align="left" id="d707594e99">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d654284e78">
+</th></tr></thead><tbody><tr><td id="d707594e105">
 
 **Using Employee Center \(sn\_lg\_hold.legal\_hold\_fulfiller\)**
 
 </td><td>
 
-1.  Navigate to **All** &gt; **Employee Center**
-2.  Select **Legal services** from the header.
+1.  Navigate to **All** &gt; **Employee Center**.
+2.  Navigate to **Help center** &gt; **Legal services**.
 3.  In the **Ethics and compliance** category, select **Legal Hold Notification**.
 
 
-</td></tr><tr><td id="d654284e119">
+</td></tr><tr><td id="d707594e153">
 
 **Using Legal Counsel Center \(sn\_lg\_ops.legal\_fulfiller\)**
 

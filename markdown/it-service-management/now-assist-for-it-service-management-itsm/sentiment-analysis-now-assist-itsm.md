@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-03-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -25,15 +25,15 @@ Role required: itil
 
 1.  Navigate to the incident list or incident form in the Core UI or in Service Operations Workspace for ITSM.
 
-<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d378468e88">
+<table id="choicetable_svt_mlg_w2c"><thead><tr><th align="left" id="d276090e88">
 
 To
 
-</th><th align="left" id="d378468e91">
+</th><th align="left" id="d276090e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d378468e97">
+</th></tr></thead><tbody><tr><td id="d276090e97">
 
 **Navigate in Core UI**
 
@@ -55,7 +55,7 @@ The incident form view appears.
 
 **Note:** If the **Sentiment** field does not appear, you must configure the form layout. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md) and add the **Sentiment** field.
 
-</td></tr><tr><td id="d378468e170">
+</td></tr><tr><td id="d276090e170">
 
 **Navigate in Service Operations Workspace for ITSM**
 

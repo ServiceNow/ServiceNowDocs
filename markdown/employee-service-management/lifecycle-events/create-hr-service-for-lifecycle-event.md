@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure an HR service for a lifecycle event
@@ -65,9 +65,7 @@ COE
 Select the COE you want the HR service to be categorized under.**Note:** An HR service for a lifecycle event can be associated with any HR Center of Excellence \(COE\).
 
 </td></tr></tbody>
-</table>    \[Omitted image "create-hr-service-for-lifecycle-event-1.png"\] Alt text: On the HR service form, set the Fulfillment type to Lifecycle Event.
-
-4.  Fill in the other fields on the form, as appropriate.
+</table>4.  Fill in the other fields on the form, as appropriate.
 
     For further details on the form fields, see [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-service.md).
 
@@ -76,7 +74,7 @@ Select the COE you want the HR service to be categorized under.**Note:** An HR s
 
 **Parent Topic:**[Building a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/hr-lifecycle-event-configuration.md)
 
-**Previous topic:**[Configure the rescind process for a Lifecycle Events activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md)
+**Previous topic:**[Configure the rescind process for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-rescind-for-a-lifecycle-event.md)
 
 **Next topic:**[Configure an HR service for a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-hr-service-for-journey.md)
 

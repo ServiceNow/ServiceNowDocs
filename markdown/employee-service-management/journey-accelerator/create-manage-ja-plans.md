@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating and managing audience-specific Journey Accelerator templates, Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating and managing audience-specific Journey Accelerator templates, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create and manage Journey Accelerator plan types
@@ -18,7 +18,7 @@ Create plan types to manage the top-level classification for stages and tasks in
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_ja.admin
 
 ## About this task
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/pss-explore.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Patient Support Services, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -64,7 +64,7 @@ Manage enrollment requests and complete to-do items, such as training tasks.
 
 </td><td>
 
-[Managing enrollment requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-using-workspace.md)
+[Manage enrollment requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-using-workspace.md)
 
 </td><td>
 
@@ -76,7 +76,7 @@ Book appointments for support programs and complete to-do items assigned to you 
 
 </td><td>
 
-[Completing to-do items for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-complete-to-do.md)
+[Complete to-do items for Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-complete-to-do.md)
 
 </td><td>
 
@@ -93,18 +93,6 @@ Book appointments for enrollment training requests.
 </td><td>
 
 Care Coordinator
-
-</td></tr><tr><td>
-
-View analytics and data visualizations that help you improve your business processes and quantify the value of self-service.
-
-</td><td>
-
-[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-dashboard.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-dashboard.md)
-
-</td><td>
-
-HCLS Manager
 
 </td></tr></tbody>
 </table>To get started with the Patient Support Services application, see [Configuring Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/pss-config-app.md).

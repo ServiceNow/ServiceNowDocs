@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Parameterized tests, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Parameterized tests, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Add parameterized data sets
@@ -38,15 +38,15 @@ Test designers can add data sets manually, or import data from a file.
 
 3.  In the Test Run Data Sets related list, add or import data sets.
 
-<table id="choicetable_ndb_zsg_5fb"><thead><tr><th align="left" id="d198057e116">
+<table id="choicetable_ndb_zsg_5fb"><thead><tr><th align="left" id="d346104e113">
 
 Option
 
-</th><th align="left" id="d198057e119">
+</th><th align="left" id="d346104e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198057e125">
+</th></tr></thead><tbody><tr><td id="d346104e122">
 
 **Add**
 
@@ -59,7 +59,7 @@ The New Parameter Value Set form opens. This form includes all parameters availa
 3.  Click **Submit**.
 
 
-</td></tr><tr><td id="d198057e156">
+</td></tr><tr><td id="d346104e153">
 
 **Import**
 
@@ -68,8 +68,8 @@ The New Parameter Value Set form opens. This form includes all parameters availa
 The Import Test Run Data Sets form opens.
 
  1.  Define the import behavior.
-    -   **Add**: Adds the data in the file to existing test run data sets in the Test Run Data Sets table. For more information, see Add a record in the template.
-    -   **Replace**: Downloads a template that includes any existing data sets in the Test Run Data Sets table. Replaces all existing data sets that have matching Sys IDs in the Test Run Data Sets table with data from the uploaded file. For more information, see Update a record in the template.
+    -   **Add**: Adds the data in the file to existing test run data sets in the Test Run Data Sets table. For more information, see [Add a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_AddARecordInTheTemplate.md).
+    -   **Replace**: Downloads a template that includes any existing data sets in the Test Run Data Sets table. Replaces all existing data sets that have matching Sys IDs in the Test Run Data Sets table with data from the uploaded file. For more information, see [Update a record in the template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/t_UpdateARecordInTheTemplate.md).
 2.  In the Upload Test Run Data File section, select **Yes** to download an Excel template with the required fields, then upload a completed file. Alternately, select **No** to upload a completed file.
  Each row in the file becomes an entry in the Test Run Data Sets table.
 

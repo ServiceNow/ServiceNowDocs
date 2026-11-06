@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-v-bar.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Bar visualization examples, Horizontal and vertical bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ Vertical bar visualizations enable you to show the comparative size or frequency
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -26,13 +26,11 @@ Use the vertical bar visualization type to compare different categories or group
 
 1.  Follow the first steps to [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md):
 
-    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-    2.  Select **New**.
+    2.  Select **Create data visualization**.
 
-    3.  Select the Vertical bar \(\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text: Vertical bar icon\) visualization type.
-
-        \[Omitted image "dv-ex-v-bar-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a vertical bar visualization
+    3.  From the Bars section, select the Vertical bar visualization type.
 
 2.  For the moment, we can skip the header and border section and move to the data source.
 
@@ -48,17 +46,15 @@ Use the vertical bar visualization type to compare different categories or group
 
     A vertical bar data visualization with the current value of the selected data appears in the Visualization Designer. The visualization is grouped by the first field \(alphabetically\) in the table, Begin. This is useful because it shows the outages distributed by a time measurement.
 
-    \[Omitted image "dv-ex-v-bar-data-source.gif"\] Alt text: Animation showing selection of data source for vertical bar visualization
-
 3.  Now that you can see the visualization, let's add some context for the user.
 
     1.  Expand the Header and border section.
 
-    2.  Select **Show header** and provide the chart title `Outages by type`.
+    2.  Select **Show header** and provide the title `Outages by type`.
 
         When **Show header** is selected, you can add a title and a description. The chart title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The chart title appears within the visualization.
 
-    3.  Enter a description of the visualization: `CMDB outages grouped by when they began and stacked by type.`.
+    3.  Enter a description of the visualization: `CMDB outages grouped by when they began and stacked by type`.
 
         While the description and title fields aren't required, this information makes the visualization easier to understand on a dashboard and easier to identify in a list.
 
@@ -66,9 +62,9 @@ Use the vertical bar visualization type to compare different categories or group
 
 4.  Skip the Metric section.
 
-5.  In the Group by section, select **Add** to differentiate the information in the chart.
+5.  In the Group by section, select **Add** to differentiate the information in the visualization.
 
-    Select **Type** and choose **Apply**. The columns now show different colours to distinguish the different types of outages.
+    Select **Type** and choose **Apply**. The columns now show different colors to distinguish the different types of outages.
 
     \[Omitted image "dv-ex-v-bar-addl-groupby.png"\] Alt text: Vertical bar additional group by selection with the Type field highlighted
 
@@ -86,17 +82,15 @@ Use the vertical bar visualization type to compare different categories or group
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
-
-8.  Choose the chart variation to show the data one of three different ways:
+8.  Chart variations show the data one of three different ways:
 
     -   **Stacked**
 
-        Shows the grouped elements \(type in our case\) stacked one type above the next.
+        Shows the grouped elements \(type in this case\) stacked one type over the next.
 
     -   **Side-by-side**
 
@@ -108,7 +102,7 @@ Use the vertical bar visualization type to compare different categories or group
 
     |Stacked|Side-by-side|Normalized|
     |-------|------------|----------|
-    |\[Omitted image "dv-ex-v-bar-char-var-stacked.png"\] Alt text: Stacked chart variation|\[Omitted image "dv-ex-v-bar-char-var-sbs.png"\] Alt text: Side by side chart variation|\[Omitted image "dv-ex-v-bar-char-var-norm.png"\] Alt text: Normalized chart variation|
+    |\[Omitted image "dv-ex-v-bar-char-var-stacked.png"\] Alt text: Stacked variation|\[Omitted image "dv-ex-v-bar-char-var-sbs.png"\] Alt text: Side by side variation|\[Omitted image "dv-ex-v-bar-char-var-norm.png"\] Alt text: Normalized variation|
 
 9.  Configure the Y axis.
 
@@ -175,7 +169,7 @@ Use the vertical bar visualization type to compare different categories or group
 
 ## Result
 
-You've created a vertical bar visualization grouped on two fields. You've also configured the visualization's labeling, legend and ranges.
+You have created a vertical bar visualization grouped on two fields. You have also configured the visualization's labeling, legend and ranges.
 
 **Parent Topic:**[Bar visualization examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-bar.md)
 

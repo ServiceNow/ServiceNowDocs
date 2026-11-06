@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ You can add multiple causes to a privacy case and define a primary cause. Any pr
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon icon.
+2.  Select the list icon \[Omitted image "ws-list-icon.png"\] Alt text: List.
 
 3.  Select **All Cases**.
 

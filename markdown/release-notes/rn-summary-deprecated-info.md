@@ -1,20 +1,20 @@
 ---
-title: Deprecation information for all Yokohama features and products
-description: Cumulative release notes summary on deprecation information for Yokohama features and products.
+title: Deprecation information for all Brazil features and products
+description: Cumulative release notes summary on deprecation information for Brazil features and products.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-summary-deprecated-info.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-08"
-reading_time_minutes: 7
-breadcrumb: [Release notes summaries for Yokohama features, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-11-04"
+reading_time_minutes: 26
+breadcrumb: [Release notes summaries for Brazil features, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Deprecation information for all Yokohama features and products
+# Deprecation information for all Brazil features and products
 
-Cumulative release notes summary on deprecation information for Yokohama features and products.
+Cumulative release notes summary on deprecation information for Brazil features and products.
 
-For information about deprecated plugins in Yokohama, refer to
+For information about deprecated plugins in Brazil, refer to
 
 <table id="rn-summary-accessibility-table" class="custom-rows"><thead><tr><th class="filter">
 
@@ -26,11 +26,103 @@ Details
 
 </th></tr></thead><tbody><tr><td>
 
+AI Admin Center
+
+</td><td>
+
+-   **AI Admin Center Next Experience workspace**
+
+The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
+
+-   **Calculate savings projections for automation opportunities**
+
+Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
+
+-   **Daily recommendation**
+
+The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
+
+
+</td></tr><tr><td>
+
+AI Admin Hub
+
+</td><td>
+
+-   **AI Admin Hub**
+
+AI Admin Hub is being prepared for deprecation and replacement by AI Admin Center. Everything you manage here is available in AI Admin Center, plus more tools to manage and get the most from AI. You can continue to use AI Admin Hub for a limited time during the transition.
+
+
+</td></tr><tr><td>
+
+AI Agent Advisor
+
+</td><td>
+
+-   **AI Admin Center Next Experience workspace**
+
+The Next Experience AI Admin Center workspace is planned for deprecation in a future release and will no longer be supported. Lux is the new experience for AI Admin Center.
+
+
+-   **Calculate savings projections for automation opportunities**
+
+Use a single savings profile formula when configuring custom data sets for automation opportunity discovery. Multiple savings projections are no longer supported.
+
+-   **Daily recommendation**
+
+The daily recommendation is no longer visible. Only three default configurations are available for custom data sets.
+
+
+</td></tr><tr><td>
+
 AI Control Tower
 
 </td><td>
 
-AI Gateway application is deprecated from the Yokohama release and are no longer supported.
+-   **V1 AI asset onboarding playbook**
+
+Starting with the Brazil Early Availability release, the V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or have customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **Prompt injection settings removed**
+
+In Settings, under ServiceNow AI systems, the max skill calls and sample rate settings are removed from prompt injection. Instead, adjust these settings in [AI Guardian analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-guardian.md).
+
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Traceloop Warehouse HTTPS connection removed**
+
+The base system Traceloop Warehouse HTTPS connection \(sn\_ai\_security.Traceloop\_API alias\) is removed. If you're upgrading and use Traceloop-based external AI metrics, create a new HTTPS connection under that alias and re-create your credential with connection URL `https://api.traceloop.com`.
+
+-   **Data integrity incident detection categories removed from external AI setting**
+
+All categories are removed. For example, Guardrail Circumvention Attempt and Untrusted Links and Downloads are unavailable in the external AI setting.
+
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Veza API key authentication deprecated**
+
+The Veza connector now authenticates using OAuth 2.0 instead of an API key. The sn\_ai\_security.veza.api.key system property is deprecated.
+
+-   **Findings by severity metric removed from Security**
+
+The **Findings by severity** metric is removed from the Security Design-time tab, AI security posture subtab.
+
+-   **V1 AI asset onboarding playbook**
+
+The V1 AI asset onboarding playbook no longer receives updates and isn't active for new customers. New customers use the V2 AI asset onboarding playbook. Existing customers who use or customized the V1 playbook can continue to use it or migrate to the V2 playbook.
+
+For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -38,7 +130,21 @@ AI Search
 
 </td><td>
 
-Starting with the Now Assist in AI Search 8.0 release, the External Content Q&amp;A Genius Results feature is being prepared for future deprecation. It will continue to be supported until it is deprecated. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Accounts Payable Operations
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -53,11 +159,25 @@ The **Searchable Documents** and **Documents by Search Source** visualizations h
 
 </td></tr><tr><td>
 
-Agent experience for CSM
+App Engine Studio
 
 </td><td>
 
-Starting with the Yokohama release, Customer Service CTI Demo Data is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. ServiceNow Voice with Amazon Connect provide the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **PDF Extractor tool \(table creation from PDFs\)**
+
+The PDF Extractor tool that enables table creation from PDFs in App Engine Studio is deprecated starting in the Brazil release. To create tables from PDFs, you can migrate your application to Build Agent. For more information, see .
+
+
+</td></tr><tr><td>
+
+Authentication
+
+</td><td>
+
+-   **Basic Authentication for inbound integrations**
+
+Starting with the Brazil release, Basic Authentication is being prepared for future deprecation. OAuth 2.0, mutual TLS \(mTLS\), and federated token-based authentication provide the latest experience for this functionality. Basic Authentication remains supported on inbound requests, such as REST and SOAP, until a future release. Migrate your inbound integrations to a supported method. For guidance on identifying and migrating these integrations, see the [KB3220405](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3220405) article.
+
 
 </td></tr><tr><td>
 
@@ -65,31 +185,40 @@ Case and Knowledge Management
 
 </td><td>
 
-The CTI Demo Data for HRSD \(com.sn\_hr\_cti\_demo\) plugin is being deprecated. Use Workflow Studio instead.
+-   **HRSD Process Mining Content Pack deprecation**
+
+The HRSD Process Mining Content Pack application \(com.sn\_hr\_process\_optimization\) is now deprecated and no longer supported or available for new activation. The unified Process Mining Content Pack application replaces it and will auto-install when you upgrade to Brazil or later. The deprecated application will remain active in your instance after upgrade; migrate to the unified Process Mining Content Pack to access new functionality and continued support. No manual migration steps are required—existing configurations transfer automatically.
+
+-   **HR Service Delivery Virtual Agent Conversations**
+
+Virtual Agent Conversations in HR Service Delivery is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
+
+-   **Issue Auto resolution for HR**
+
+Issue Auto resolution for HR is now deprecated and no longer supported or available for new activation. AI Native SKU's provides the latest experience for this functionality.
+
 
 </td></tr><tr><td>
 
-Case management for CSM
+Collaborative Work Management \(CWM\)
 
 </td><td>
 
-Starting with the Yokohama release, Customer Service CTI Demo Data is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. ServiceNow Voice with Amazon Connect provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Change Management
+Common Governance, Risk, and Compliance features
 
 </td><td>
 
-Change Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
+-   **Now LLM Service**
 
-</td></tr><tr><td>
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
-Common Core
-
-</td><td>
-
-The template data relationship table has been removed and deprecated for the Document designer application.
 
 </td></tr><tr><td>
 
@@ -97,58 +226,162 @@ Configuration Management Database \(CMDB\)
 
 </td><td>
 
-CMDB Data manager on Core UI is now deprecated and no longer supported or available for new activation. CMDB Workspace provides the latest experience for this functionality. For more information, see [CMDB Data Manager experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-mgr-exp-cmdb-workspace.md).
+-   **Itil role removed from app\_service\_admin**
 
-</td></tr><tr><td>
+The sn\_cmdb\_editor and app\_service\_user roles replace the itil role within the app\_service\_admin role. While you can still view Service Instance records and use Unified Map, viewing related items for a CI, such as linked incidents or changes, still requires the itil role.
 
-Data Separation
+-   **sn\_getwell\_cis\_processed\_via\_ire database view removal**
 
-</td><td>
+sn\_getwell\_cis\_processed view\_ire is deprecated.
 
-Starting with the Yokohama release, Data Separation is being prepared for future deprecation and it will be hidden. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base. Alternatively, you can define data filters along with other configurations to restrict access to sensitive data \(enable data separation\). For details on how to enable data separation for different use cases using data filters and ACLs, see the [Managing data separation using data filters and ACLs \[KB1772519\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB1772519) article in the Now SupportKnowledge Base.
+-   **CMDB Baseline, Dependency Views, and CMDB Relationship editor**
 
-</td></tr><tr><td>
-
-Dynamic Translation
-
-</td><td>
-
-The spoke for IBM Watson Translator Service for IBM Cloud \(com.glide.ibm\_translation\_spoke\) is no longer available because IBM has withdrawn this translation service. For more information, see [IBM Watson Language Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ibm-translation-spoke.md).
-
-</td></tr><tr><td>
-
-Generative AI Controller
-
-</td><td>
-
-The dependency on Sensitive Data Handler has been removed. Regular expressions that are configured with Sensitive Data Handler are applied to the Data Privacy application with a fix script when you upgrade to Yokohama.
-
-</td></tr><tr><td>
-
-Hardware Asset Management
-
-</td><td>
-
-The MAC address \[mac\_address\] field in the Hardware \[alm\_hardware\] table is deprecated. The data in this field is available in the new MAC address \(mac\_addr\) field in the Asset \[alm\_asset\] table.
-
-</td></tr><tr><td>
-
-ITOM Visibility
-
-</td><td>
-
--   **[Application/Plugin Deprecation Process \[KB0867184\]Discovery CLI](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)**
-
-Starting with version 3.5.0, Discovery CLI is no longer available in the Pattern Designer Enhancements Store App.
+Starting with the Brazil release, CMDB Baseline is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Unified Map provides the latest experience for this functionality.
 
 
 </td></tr><tr><td>
 
-ITSM Predictive Intelligence Workbench
+Container Vulnerability Response
 
 </td><td>
 
-Starting with the Yokohama release, ITSM Predictive Intelligence Workbench is deprecated and is no longer deployed, enhanced, or supported. To get the latest experience for this functionality, you must install the Task Intelligence for ITSM application plugin \(com.snc.itsm\_ml\_task\). For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Developer Sandboxes
+
+</td><td>
+
+-   **Form changes**
+    -   The **Sandbox alias** URL field has been removed from the Allocate Sandbox form. Because sandbox URLs are now randomly generated, you no longer specify a URL at allocation time.
+    -   Sandbox templates have been removed from the Allocate Sandbox form.
+
+</td></tr><tr><td>
+
+Digital Product Release
+
+</td><td>
+
+-   **[Auto create enhancement from primary epic system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/digital-product-release-properties.md)**
+
+The `sn_dpr_workspace.auto_create_product_enhancement_for_primary_epic` property is removed. Use `sn_dpr_workspace.enhancement_work_item_types` instead.
+
+
+</td></tr><tr><td>
+
+Discovery
+
+</td><td>
+
+-   **findOrCreateRelationshipType function**
+
+The `findOrCreateRelationshipType` function is deprecated beginning with Zurich Patch 10, Australia Patch 2 Hotfix 2a, Australia Patch 3, and Brazil. Moving forward, it no longer creates CI relationship types. Instead, it finds an existing CI relationship type and returns an error if the type does not exist. Update any custom scripts that call `findOrCreateRelationshipType` to use `findCIRelationshipType` instead.
+
+
+</td></tr><tr><td>
+
+Discovery store applications
+
+</td><td>
+
+-   **Field mapping for properties.privateEndpointConnections**
+
+The field mapping for properties.privateEndpointConnections is removed from Azure Functions.
+
+-   **WMIC utility**
+
+The connector doesn’t depend on the deprecated WMIC utility when running commands on Windows hosts.
+
+
+</td></tr><tr><td>
+
+Enterprise Asset Management
+
+</td><td>
+
+-   **Now LLM Service**
+
+Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+-   **Enterprise model and asset import templates**
+
+Enterprise model and asset import templates that were previously generated from Enterprise Asset Management staging tables have been replaced with seeded import templates.
+
+
+</td></tr><tr><td>
+
+Financial Services Card Operations
+
+</td><td>
+
+-   **Now LLM Service deprecation notice**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Firewall Audits and Reporting
+
+</td><td>
+
+-   **No deprecated or removed features**
+
+There are no deprecated or removed features in this release.
+
+
+</td></tr><tr><td>
+
+Goal Framework for SPM
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+ITOM AIOps
+
+</td><td>
+
+-   **Classic Dynatrace event integration**
+
+Replaced by the new Dynatrace Grail connector. Move to the Grail connector to keep receiving Dynatrace alerts.
+
+-   **[Auto-dismissing success banner \(pull connectors\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/pull-connector.md)**
+
+Replaced by a persistent activation modal after a passing connection test.
+
+
+</td></tr><tr><td>
+
+ITSM MCP Server
+
+</td><td>
+
+-   **Deprecated sn\_itsm\_mcp\_server.requester.escalate tool**
+
+The **sn\_itsm\_mcp\_server.requester.escalate** tool is turned off by default. Use **sn\_itsm\_mcp\_server.incident.modify** with the **escalate** and **escalation\_reason** inputs instead.
+
+
+</td></tr><tr><td>
+
+Identity
+
+</td><td>
+
+-   **[User Registration Request plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UserRegistration.md)**
+
+Starting with the Brazil release, User Registration Request plugin \(com.snc.user\_registration\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
+
 
 </td></tr><tr><td>
 
@@ -156,103 +389,256 @@ Impact
 
 </td><td>
 
-The Expert Connect Accelerator is no longer supported as of Yokohama.
+-   **Accelerators retirement**
+
+Jumpstart Your Virtual Agent, Jumpstart Your Natural Language Understanding \(NLU\), Jumpstart Your Multi-Lingual Virtual Agent, Jumpstart Your Issue Auto Resolution, and Jumpstart Your CSDM - Crawl technical Accelerators are no longer available.
+
+-   **Impact Proactive Code Check**
+
+Impact Proactive Code Check/Health Diagnostics UI artifacts, navigation entries, and background jobs are being removed. Ensure your customizations don't depend on Impact Health Diagnostics navigation or diagnostics-specific tables.
+
 
 </td></tr><tr><td>
 
-Instance Data Replication
+Knowledge Graph
 
 </td><td>
 
-Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data in Zurich, you must upgrade all legacy replication sets to V2. For details on upgrading legacy replication sets to V2 before the upgrade, see [Upgrading legacy replication sets to V2 in Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/upgrading-legacy-replication-sets-v2.md).
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Legacy Application Manager
+Kubernetes Visibility Agent \(KVA\)
 
 </td><td>
 
-Starting with Yokohama patch 11, Legacy Application Manager is being prepared for future deprecation. It will be hidden but will continue to be supported. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Legacy Kubernetes discovery API**
+
+The legacy Kubernetes discovery API is deprecated and will be removed in a future release. Use the enhanced discovery capabilities and updated API endpoints introduced in this release.
+
 
 </td></tr><tr><td>
 
-Operational Sustainability Management
+L1 IT Service Desk AI Specialist
 
 </td><td>
 
-Business rules were deactivated and moved to common script include methods as part of GRC Metrics. For more information, see the KB article: [KB1734660](https://support.servicenow.com/nav_to.do?uri=%2Fkb%3Fid%3Dkb_article_view%26sys_kb_id%3De92f82dd476a9610b8a4aa25126d4356).
+-   **Routing journey count cards**
+
+Removed. The Routing journey count cards are replaced by the funnel on the Overview tab.
+
+-   **Research depth**
+
+Removed. The unused Research depth setting is no longer available. There is no replacement.
+
+-   **Pre resolution condition**
+
+Removed. The Pre resolution condition setting is no longer available, and incidents are no longer checked against it. There is no replacement.
+
 
 </td></tr><tr><td>
 
-Password Reset
+Next Experience
 
 </td><td>
 
-Password Reset workflows are deprecated and have been replaced by flows in the base system for most users. zBoot users must still use the Password Reset flows.
+-   **The Unified Navigation onboarding modals are removed.**
+
+The Unified Navigation Onboarding and Unified Navigation Onboarding With Feedback tours, and all associated steps, are no longer available.
+
 
 </td></tr><tr><td>
 
-Patient Support Services
+Operational Technology Discovery
 
 </td><td>
 
-Starting with the Yokohama release, Patient Support Services is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Operational Technology Discovery**
+
+Starting with the Brazil release, Operational Technology Discovery is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Policy and Compliance Management
+Performance Analytics
 
 </td><td>
 
-GRC DevOps Accelerator is now deprecated and no longer supported or available for new activation. For details, see the [Deprecation process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **[KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/designing-pa-solution.md)**
+
+KPI Composer is deprecated starting in the Brazil release. Removal is expected in the D release, and no replacement is planned. KPI Composer will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Pre-Visit Management
+Portfolio Planning
 
 </td><td>
 
-Starting with the Yokohama release, Pre-Visit Management is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Process Mining**
+
+Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md) documentation.
+
 
 </td></tr><tr><td>
 
-Predictive Intelligence
+Pricing Management
 
 </td><td>
 
-With the Yokohama release, ITSM Predictive Intelligence Workbench is deprecated and no longer supported. To obtain the latest experience for this functionality, install the Task Intelligence for ITSM application \(com.snc.itsm\_ml\_task\). For more information, see [ITSM Predictive Intelligence Workbench release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/itsm-predictive-intelligence-workbench-rn.md).
+-   **Parallel execution properties for the pricing engine**
+
+The sn\_csm\_pricing.enable\_pricing\_engine\_parallel\_execution and sn\_csm\_pricing.pricing\_engine\_parallelism\_lines\_threshold Pricing Engine Parallel Execution properties have been removed. These properties previously controlled parallel execution of pricing plan steps in the pricing engine. The pricing engine now processes pricing requests sequentially. This change helps ensure that rollup calculations and auto-added derived pricing are applied correctly. No replacement properties are available.
+
 
 </td></tr><tr><td>
 
-Quote Management
+Privacy Management
 
 </td><td>
 
-The Subscription start date and Subscription end date have been deprecated starting with the Q2 2024 release. Use the Contract start date and Contract end date to calculate Terms for setting subscriptions for recurring products.
+-   **Now LLM service deprecation**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Redox Inbound Integration
+Process Mining
 
 </td><td>
 
-Starting with the Yokohama release, Redox Inbound Integration is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details on this process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Two APIs deprecated**
+
+The following two APIs are deprecated:
+
+    -   promin.api.allow\_no\_role\_mining
+    -   promin.api.auto\_share\_project\_with\_creator
 
 </td></tr><tr><td>
 
-Service Level Management
+Project Portfolio Management
 
 </td><td>
 
-Service Level Management workflows have been removed and replaced by flows for new customers. Existing customers that use these workflows are unaffected. The flows are available to both new and existing customers. You can use ServiceNow® Workflow Studio to customize or extend these flows. For more information, see [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md).
+-   **[Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/c_TheProjectPlanningConsole.md)**
+
+Starting Brazil release, Planning console is deprecated and is no longer supported. Project managers can [access Project Workspace using Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/access-new-project-workspace.md) to work on project planning.
+
+-   **Process Mining**
+
+Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md) documentation.
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Service Reliability Management
+Project Workspace
 
 </td><td>
 
-The **Alerts** tab has been removed from the Reliability tasks page.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Purchase Order Management
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Regulatory Change Management
+
+</td><td>
+
+-   **Now LLM service deprecation**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Security Incident Response
+
+</td><td>
+
+-   **Now LLM service deprecation**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Self-service and omnichannel engagement for CSM
+
+</td><td>
+
+-   **Communities**
+
+Communities is no longer deployed, enhanced, or supported. The Communities plugins are set to planned deprecation status, which prevents new customer installations. Existing customers who have Communities installed can continue to use it, but new activations are no longer available. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Service Catalog
+
+</td><td>
+
+-   **Removal of Catalog Roles from request management ACLs**
+
+ACL records on request management tables and fields no longer grant access based on the catalog role or the catalog admin role. ACL records for tables owned by request management, such as Request \[sc\_request\] and Requested Item \[sc\_req\_item\], no longer include catalog-related roles in the list of required roles. Each ACL record retains at least one request management role, so the list is never empty. Users who have only a catalog-related role and no request management role can no longer use these ACL records to access request management tables or features. Another ACL record on the same table might still grant access through a different role. This change affects only the ACL records that the catalog team owns.
+
+
+</td></tr><tr><td>
+
+Service Graph Connector Integration for Claroty CTD
+
+</td><td>
+
+-   **Service Graph Connector Integration for Claroty CTD**
+
+Starting with the Brazil release, the Service Graph Connector Integration for Claroty CTD application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Contract Management Pro
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+ServiceNow Otto for Hardware Asset Management \(HAM\)
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the October 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -260,31 +646,117 @@ ServiceNow Otto for IT Service Management \(ITSM\)
 
 </td><td>
 
-The Escalate IT Ticket core ITSM Virtual Agent topic is being deprecated in this release. The topic is renamed to **\(Deprecated\) Escalate IT Ticket**. This capability will be available in the Platform Request Status AI agent in a future release.
+-   **[ITSM Virtual Agent NLU topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/using-itsm-va.md)**
+
+Starting with the Brazil release, ITSM Virtual Agent pre-built topics is being prepared for future deprecation.
+
+-   **[ITSM Virtual Agent Lite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-virtual-agent-lite.md)**
+
+ITSM Virtual Agent Conversation Topics Lite \(com.snc.itsm.virtualagent.lite\) is being prepared for future deprecation.
+
+-   **[Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Site Reliability Operations
+ServiceNow Otto for Virtual Agent
 
 </td><td>
 
-Starting with the Yokohama release, Release Management v2 is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. Digital Product Release provides the latest experience for this functionality. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+-   **Agentic support page**
+
+The **Agentic support** page has been deprecated for ServiceNow Otto for Virtual Agent and ServiceNow Otto panel - Platform. There is no loss of functionality previously provided by the **Agentic support** page. By default, all existing assistants operate in agentic mode. The **Prioritize AI agents during skills discovery** option is available when configuring [additional chat features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/additional-chat-features.md).
+
+
+-   **Deprecation of Virtual Agent for NLU and keywords**
+
+Starting with the Brazil release, Virtual Agent for NLU and Virtual Agent Lite are being prepared for future deprecation. They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **Deprecation of Virtual Agent channel integrations applications**
+
+Starting with the Brazil release, the following Virtual Agent channel integration applications are being prepared for future deprecation:
+
+    -   Conversational Integration with Alexa
+    -   Conversational IVR with Amazon Connect
+    -   IBM Watson Assistant conversations
+They will eventually be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+-   **[Now LLM Service deprecation notice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md)**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Sourcing and Procurement Operations
+ServiceNow Studio
 
 </td><td>
 
-The **All categories** option has been removed from the **Categories** tab in Shopping Hub due to low usage and its impact on system performance.
+-   **Pre-VS Code replatformed version of ServiceNow Studio**
+
+The newly redesigned ServiceNow Studio went through several iterations before the replatform onto VS Code that occurred in March 2026. All versions before the replatform have been deprecated. Previously, turning off Build Agent returned you to the pre-VS Code version of ServiceNow Studio. Now, it stays on the VS Code version and turns off Build Agent.
+
+
+-   **Experience switcher**
+
+The Experience switcher has been removed from ServiceNow Studio. ServiceNow IDE capabilities were consolidated under the Explorer tab in ServiceNow Studio. There is no current replacement for the Experience switcher, but each individual application can still be accessed on the ServiceNow AI Platform.
+
+-   **Tools tab**
+
+The Tools tab has been removed from the ServiceNow Studio home page, with no replacement. For links to documentation for each development tool, see .
+
+-   **Create menu**
+
+The Create menu in the top right corner of ServiceNow Studio has been removed. The other Create option in the activity bar is still available and has the same functionality.
+
+-   **Resources**
+
+The Resources section has been removed from the ServiceNow Studio home page. There is no current replacement for the Resources section, but users with Build Agent can prompt in the main chat to access resources.
+
 
 </td></tr><tr><td>
 
-Subscription Management
+ServiceNow Vault
 
 </td><td>
 
-The Custom tables chart has been removed from the subscription details page.
+-   **Code Signing in Vault Suite**
+
+Code Signing is no longer included in Vault Suite. Installing Vault Suite doesn't install Code Signing. On instances that already have Code Signing, it no longer appears in Vault Console.
+
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Strategic Planning
+
+</td><td>
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Process Mining**
+
+Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md) documentation.
+
+
+</td></tr><tr><td>
+
+Strategic Spend Tracking for PPM
+
+</td><td>
+
+-   **[Strategic Spend Tracking for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/ppm-strategic-spend-tracking-overview.md)**
+
+Starting with the Brazil release, Strategic Spend Tracking for PPM is being prepared for future deprecation and it will be hidden. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
@@ -292,38 +764,49 @@ Supplier Lifecycle Operations
 
 </td><td>
 
--   **[Source-to-Pay Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/supplier-manager-workspace.md)**
+-   **Now LLM Service**
 
-Supplier Manager Workspace is being prepared for future deprecation. It’s hidden and no longer activated on new instances. Source-to-Pay Workspace provides the latest experience for this functionality.
-
-
-</td></tr><tr><td>
-
-Usage Insights
-
-</td><td>
-
--   **[User Experience Analytics in Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md)**
-
-User Experience Analytics is no longer supported in the Xanadu release. Upgrade to Yokohama, Zurich, or Australia to continue using User Experience Analytics.
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
 
 </td></tr><tr><td>
 
-Virtual Agent
+Third-party Risk Management
 
 </td><td>
 
-Support for Now Assist in Conversational IVR was removed.
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+-   **Now LLM Service**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 </td></tr><tr><td>
 
-Zero Copy Connector for ERP
+Threat Intelligence Security Center
 
 </td><td>
 
-The sn\_erp\_integration.enableJobModification property has been removed and is no longer required in order to schedule an extraction.
+-   **Now LLM service deprecation**
+
+Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+</td></tr><tr><td>
+
+Vulnerability Response Integration with Claroty CTD
+
+</td><td>
+
+-   **Vulnerability Response Integration with Claroty CTD**
+
+Starting with the Brazil release, the Vulnerability Response Integration with Claroty CTD application is being prepared for future deprecation. It will be hidden and no longer available for installation but will continue to be supported. For more information, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release notes summaries for Yokohama features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
+</table>**Parent Topic:**[Release notes summaries for Brazil features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-notes-summaries.md)
 

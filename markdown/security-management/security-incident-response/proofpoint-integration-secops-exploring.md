@@ -1,20 +1,20 @@
 ---
-title: Exploring the Proofpoint integration for Security Operations
-description: You can configure event profiles in Security Incident Response \(SIR\) to ingest events from Proofpoint. SIR creates an incident for each ingested event that analysts can review or work on.
+title: Exploring the Proofpoint Integration for Security Operations
+description: You can configure event profiles in SIR to ingest events from Proofpoint. SIR creates an incident for each ingested event which analysts can review or work on.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/proofpoint-integration-secops-exploring.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Proofpoint integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Proofpoint Integration for Security Operations, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Exploring the Proofpoint integration for Security Operations
+# Exploring the Proofpoint Integration for Security Operations
 
-You can configure event profiles in Security Incident Response \(SIR\) to ingest events from Proofpoint. SIR creates an incident for each ingested event that analysts can review or work on.
+You can configure event profiles in SIR to ingest events from Proofpoint. SIR creates an incident for each ingested event which analysts can review or work on.
 
 ## Proofpoint Integration for Security Operations users
 
@@ -32,7 +32,7 @@ Security admin
 
 </td><td>
 
-Create event profiles for filtering the ingested events. SIR creates incidents for these ingested events.
+Create event profiles for filtering the ingested events. SIR creates incidents for these the ingested events.
 
 </td></tr></tbody>
 </table>## Proofpoint Integration for Security Operations benefits
@@ -55,9 +55,9 @@ Pull event data into your instance and create security incidents. Review securit
 
 </td><td>
 
-If delivered email messages and permitted clicks are later deemed malicious, these messages probably were opened and interacted with by your employees. To track these messages for review, automatically create security incidents based on the event profiles you create and configure for message traffic for the integration.
+If the delivered email messages and permitted clicks are later deemed malicious, chances are these messages were opened and interacted with by your employees. To track these messages for review, automatically create security incidents based on the event profiles you create and configure for message traffic for the integration.
 
- You can also enable creating security incidents for the blocked messages and clicks for audit purposes.
+ Additionally, you can also enable creating security incidents for the blocked messages and clicks for audit purposes.
 
 </td><td>
 
@@ -66,9 +66,9 @@ Managers
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Proofpoint, see the following topics:
+To learn more about configuring and using Proofpoint, see:
 
--   [Configuring the Proofpoint integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/proofpoint-integration-secops-configuring.md)
--   [Proofpoint integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/review-proofpoint-integration-settings-sir.md)
+-   [Configuring the Proofpoint Integration for Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/proofpoint-integration-secops-configuring.md)
+-   [Review Proofpoint integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/review-proofpoint-integration-setting-sir.md)
 -   [View the Proofpoint Analytics Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/view-proofpoint-dashboard.md)
 

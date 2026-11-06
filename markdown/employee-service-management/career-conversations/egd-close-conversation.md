@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: task
-last_updated: "2025-10-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Career Conversations application, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Using the Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Close a conversation
@@ -21,6 +21,12 @@ As a manager, you can mark a conversation as completed to easily reference it fo
 You must provide your employees with a license to enable access to the Career Conversations app. For more information about employee licensing, refer to [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
 
 Role required: manager \[sn\_egd\_act.manager\]
+
+## About this task
+
+While the Career Conversations app includes a system property that automatically closes past conversations, managers can opt to manually close conversations. This allows them to add final thoughts that weren't captured during the conversation, and share them with employees. Once closed, the conversation becomes read-only, preserving the discussion for future reference. The manager can reopen a closed conversation for editing if needed.
+
+Alternatively, there is the option to cancel the conversation, which is permanent and cannot be undone, whereas closing a conversation allows the manager to reopen and edit it later if needed.
 
 ## Procedure
 
@@ -45,7 +51,6 @@ Growth conversation page
 1.  Use the **Your team's conversation** widget to select the conversation that you want to close.
 2.  Select the more options button and select **Complete conversation**.
 
-\[Omitted image "close-growth-conversation2.png"\] Alt text: Open conversation with employee with the option to complete or cancel the conversation
 
 </td></tr><tr><td>
 
@@ -56,7 +61,6 @@ Conversations landing page
 1.  Navigate to the conversation that you want to close.
 2.  Select the more options button and select **Complete conversation**.
 
-\[Omitted image "close-growth-conversation.png"\] Alt text: Open conversation with employee with the option to complete or cancel the conversation
 
 </td></tr></tbody>
 </table>3.  In the **Closing thoughts** window, enter last thoughts to share with the employee and select **Complete conversation**.

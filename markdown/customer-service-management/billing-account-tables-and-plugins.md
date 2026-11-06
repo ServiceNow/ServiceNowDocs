@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2026-09-11"
 reading_time_minutes: 1
-breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Billing account tables and plugins
@@ -39,6 +39,8 @@ The payment profile and billing schedule fields appear on the existing billing a
 
 **Related topics**  
 
+
+[Billing account data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/billing-account-data-model.md)
 
 [Billing accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configuring-billing-accounts.md)
 

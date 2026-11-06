@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workforce Optimization for ITSM landing pages, Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Landing pages, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Workforce Optimization for ITSM manager landing page

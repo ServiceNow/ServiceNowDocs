@@ -1,18 +1,18 @@
 ---
 title: User management
-description: Configure the internal and external users for Customer Service Management to provide the right access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
+description: Configure the internal and external users for Customer Service Management to provide the correct access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/user-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up your environment, Configure, Customer Service Management]
 ---
 
 # User management
 
-Configure the internal and external users for Customer Service Management to provide the right access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
+Configure the internal and external users for Customer Service Management to provide the correct access to features, capabilities, and case data. Create relationships that facilitate case management and fulfill support roles for specific accounts.
 
 <table id="table_hh2_f55_41c"><thead><tr><th>
 
@@ -32,7 +32,7 @@ Configure the individual users and the user groups who can access your instance.
 
 </td></tr><tr><td>
 
-
+[Assign roles to CSM users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/assign-csm-roles.md)
 
 </td><td>
 
@@ -74,7 +74,7 @@ Create teams made up of employees and customer contacts who fulfill the roles an
 
 </td></tr><tr><td>
 
-[Configure Contributor Users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-contributor-user.md)
+[Configure contributor users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-contributor-user.md)
 
 </td><td>
 

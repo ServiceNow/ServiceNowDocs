@@ -7,8 +7,8 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Investment Portal, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -47,6 +47,12 @@ Key details of an investment board include:
 
 **Related topics**  
 
+
+[Create an investment board]()
+
+[Track your key investments]()
+
+[Configure your investment metrics as widgets]()
 
 [Investment Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/ppm-collaboration/investment-portal.md)
 

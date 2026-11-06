@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -24,10 +24,14 @@ If you have the admin role, you can install the ServiceNow Otto for Health and S
 Activate a ServiceNow Otto for Health and Safety skill to enable the safety team to use the generative AI skills from Health and Safety Workspace and the Core UI.
 -   **[Skill inputs for ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-skill-inputs.md)**  
 Get a quick overview of the skill inputs for ServiceNow Otto for Health and Safety.
--   **[Configure Now Assist AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-configuring.md)**  
-Learn how to configure Now Assist AI agents to execute agentic workflows with AI agents and mapped tools.
--   **[Configure Now Assist in virtual agent for Conversational AI Health and Safety Incident Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-configure-virtual-agent-conversational-incident.md)**  
-An admin can configure the default Now Assist in Virtual Agent assistants and the default Now Assist panel assistants \(Platform\). Configuring the assistants enables the Now Assist panel on the **Employee Center** and the Health and Safety workspace.
+-   **[Configure AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-configuring.md)**  
+Learn how to configure AI agents to execute agentic workflows with AI agents and mapped tools.
+-   **[Configure conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-configure-conversational-ai.md)**  
+Learn how to configure conversational AI for Health and Safety incidents and observations.
+-   **[Configure incident patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-configure-incident-patterns.md)**  
+Learn how to configure Health and Safety incident patterns.
+-   **[Configure retention period and cleanup of pending AI action suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-configure-deletion-pending-ai-action-suggestions.md)**  
+Configure how long the pending AI-generated action suggestions are retained before they are automatically deleted.
 
 **Parent Topic:**[ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-landing.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,7 +37,7 @@ Role required: admin or sp\_admin
         **Note:**
 
         -   If no catalogs are selected, all active catalogs accessible to the requester are available in Service Portal.
-        -   Irrespective of the catalogs associated with the portal, items are searched for only in the catalogs configured in the search source in AI Search. For information on configuring AI-based catalog search experience, see [Configure AI-based catalog search experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/config-ai-search-cat.md).
+        -   Irrespective of the catalogs associated with the portal, items are searched for only in the catalogs configured in the search source in AI Search. For information on configuring AI-based catalog search experience, see Configure AI-based catalog search experience.
 4.  To edit the label for a catalog, perform the following steps.
 
     1.  For the **Main menu** field, click **Open Record**.
@@ -61,5 +61,5 @@ Automates the deployment and provisioning of the AWS CloudFormation services usi
 **Related topics**  
 
 
-[Service Catalog in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/catalog-on-portal.md)
+[bundle-platcap.catalog-on-portal]
 

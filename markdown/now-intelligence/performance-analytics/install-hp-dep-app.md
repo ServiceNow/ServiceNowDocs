@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-17"
 reading_time_minutes: 1
-breadcrumb: [Homepage deprecation help tool, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Homepage deprecation, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Install the Homepage deprecation help tool
@@ -22,7 +22,7 @@ Role required: admin.
 
 ## About this task
 
-The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+The Homepage deprecation help tool is a store app. For more information about installing store apps, see [Installing applications, plugins, and products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-apps-app-manager.md).
 
 ## Procedure
 

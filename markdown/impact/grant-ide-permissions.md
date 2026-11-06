@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/grant-ide-permissions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Benefits &amp; Usage, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Manage Initiative and Accelerator permissions
@@ -78,7 +78,7 @@ As part of our mission to continually deliver the best customer experience and a
 
 -   **U.S. Public Sector \(USPS\)**
 
-    The US Public Sector Accelerators provide U.S. Public Sector customers an option to leverage aspects of these Accelerators without the need to accept the supplemental terms or in scenarios in which an environment may have serviceability restrictions.
+    The US Public Sector Accelerators provide U.S. Public Sector customers an option to use aspects of these Accelerators without the need to accept the supplemental terms or in scenarios in which an environment may have serviceability restrictions.
 
 
 Accelerators that offer USPS specific versions are indicated in the specific sub-catalog.
@@ -114,4 +114,9 @@ Role required: Impact Permissions Authorizer
 
     The option to **Start Initiative** becomes available.\[Omitted image "permissions-yes.png"\] Alt text: Impact Accelerator granted permissions
 
+
+-   **[Request an Accelerator from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/request-accelerator.md)**  
+Depending on the Impact package that you are subscribed to, you can request and consume a designated number of concurrent Impact Accelerators, from the IDI.
+
+**Parent Topic:**[Impact Delivery Instance reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/idi-reference.md)
 

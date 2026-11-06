@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2026-05-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [File-Based Discovery, configuration, properties, Agent Client Collector]
-breadcrumb: [Agent Client Collector for Visibility Content reference, Agent Client Collector for Visibility Content, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-VC reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector File-Based Discovery properties
@@ -118,4 +118,6 @@ The throttling properties control how File-Based Discovery manages system resour
 ## Path configuration
 
 Path properties support environment variables and wildcards for flexible directory specification. Use pipe separators \(\|\) for Windows paths and colon separators \(:\) for Linux and macOS paths. The ignore path properties allow you to exclude specific directories from scanning to improve performance and avoid unnecessary data collection.
+
+**Parent Topic:**[Agent Client Collector for Visibility Content reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/agent-client-collector-for-visibility-references.md)
 

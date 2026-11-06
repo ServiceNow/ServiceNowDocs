@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreateAStakeholderAutomatically.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Category users and stakeholders, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -42,13 +42,9 @@ If you associate a user to the category, the system makes the resulting category
 
 7.  Using the slushbucket, associate an assessable record to the category.
 
-    \[Omitted image "AssessableRecords.png"\] Alt text: Assessable records
-
 8.  Click **Save**.
 
     The system makes all category users stakeholders for the new assessable record.
-
-    \[Omitted image "CategoryUsers.png"\] Alt text: Category users
 
 9.  Delete stakeholders as needed.
 

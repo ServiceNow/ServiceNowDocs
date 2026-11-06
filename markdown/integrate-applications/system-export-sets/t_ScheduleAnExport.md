@@ -7,9 +7,9 @@ release: yokohama
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Export sets, Exports, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
 
 # Schedule an export
@@ -175,6 +175,14 @@ Post script
 </td><td>
 
 Write the script you want to run after the export finishes. This field is visible if you selected the **Execute post-export script** check box.
+
+</td></tr><tr><td>
+
+Parallel export
+
+</td><td>
+
+Select this check box to enable parallel exports. See [Parallel exports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-export-sets/parallel-exports.md).
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

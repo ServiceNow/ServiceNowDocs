@@ -1,20 +1,20 @@
 ---
 title: Navigate enterprise portfolios in Digital Portfolio Management
-description: You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and application service. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and application services are created with the enterprise portfolio tables.
+description: You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and service instance. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and service instances are created with the enterprise portfolio tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Getting started with Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Get started, Digital Portfolio Management, IT Service Management]
 ---
 
 # Navigate enterprise portfolios in Digital Portfolio Management
 
-You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and application service. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and application services are created with the enterprise portfolio tables.
+You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and service instance. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and service instances are created with the enterprise portfolio tables.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_dpm.dpm\_manager
 
 ## About this task
 
-Using enterprise portfolios, you can view traditional service portfolios created from the Service Portfolio Management tables. You can also view portfolios for business applications and application services that are created with enterprise portfolio tables. The search function in the Digital Portfolio Management experience enables you to search across all enterprise portfolios to find the one you seek. You can view a performance snapshot of key performance indicators \(KPIs\) like availability, new incidents, subscribers, and customer satisfaction scores.
+Using enterprise portfolios, you can view traditional service portfolios created from the Service Portfolio Management tables. You can also view portfolios for business applications and service instances that are created with enterprise portfolio tables. The search function in the Digital Portfolio Management experience enables you to search across all enterprise portfolios to find the one you seek. You can view a performance snapshot of key performance indicators \(KPIs\) like availability, new incidents, subscribers, and customer satisfaction scores.
 
 You can also see items that need attention and select parts of the portfolio to see more details.
 
@@ -34,7 +34,7 @@ You can also see items that need attention and select parts of the portfolio to 
 
 3.  Select the **Portfolio** search field.
 
-    Different types of portfolios are displayed in groupings — Service portfolios, Business application portfolios, and Application service portfolios.
+    Different types of portfolios are displayed in groupings — Service portfolios, Business application portfolios, and Service instance portfolios.
 
 4.  Select a portfolio from one of the groupings.
 
@@ -46,13 +46,13 @@ You can also see items that need attention and select parts of the portfolio to 
 
 6.  Follow the breadcrumb path to return to the tree structure of the enterprise portfolio.
 
-7.  Expand the Enterprise taxonomy node to see its child nodes, and then its solutions \(services, business applications, or application services\).
+7.  Expand the Enterprise taxonomy node to see its child nodes, and then its solutions \(services, business applications, or service instances\).
 
     Selecting each item in the tree structure displays high-level information of that item. All child nodes and solutions have their own **View details** option. To learn more about enterprise portfolio screens, see [Navigate portfolio types in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.md).
 
 8.  View information about a different type of enterprise portfolio.
 
-    **Important:** To select a different type of enterprise portfolio from the one you're in, you must delete the value in the **Portfolio** field. When the **Portfolio** field is empty, then select it \(again\) to see the other portfolio types. For example, if you're navigating a service portfolio and want to see to a business portfolio, you must delete the name of the service portfolio in the **Portfolio** field. After you delete it, select the **Portfolio** field \(again\) to see the other enterprise portfolio options \(service, business, or application service\).
+    **Important:** To select a different type of enterprise portfolio from the one you're in, you must delete the value in the **Portfolio** field. When the **Portfolio** field is empty, then select it \(again\) to see the other portfolio types. For example, if you're navigating a service portfolio and want to see to a business portfolio, you must delete the name of the service portfolio in the **Portfolio** field. After you delete it, select the **Portfolio** field \(again\) to see the other enterprise portfolio options \(service, business, or service instance\).
 
 
 **Parent Topic:**[Getting started with Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-using-cfx.md)

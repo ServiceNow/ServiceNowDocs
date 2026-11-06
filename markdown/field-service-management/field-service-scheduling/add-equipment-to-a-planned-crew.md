@@ -7,25 +7,14 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign equipment to a planned crew
 
 Assign equipment to a planned crew to ensure they have tools for their work order tasks. Dispatchers can assign equipment through the ServiceNow AI Platform or Dispatcher Workspace. Crew leaders can assign equipment or modify their crews through the Now Mobile Agent application.
-
-**Parent Topic:**[Scheduling and assigning equipment to tasks and crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/assign-equipment-to-wot.md)
-
-**Related topics**  
-
-
-[Assign equipment to a task crew]()
-
-[Assign an equipment instance to groups]()
-
-[Create a maintenance schedule for an equipment instance]()
 
 ## Assign equipment to planned crews through the ServiceNow AI Platform
 
@@ -80,15 +69,15 @@ Role required: wm\_ admin, wm\_dispatcher
 
 3.  Use either the dispatcher calendar or the dispatcher calendar sidebar to add equipment to a crew.
 
-<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d126189e350">
+<table id="choicetable_pvs_vdv_dwb"><thead><tr><th align="left" id="d142503e339">
 
 Method
 
-</th><th align="left" id="d126189e353">
+</th><th align="left" id="d142503e342">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d126189e359">
+</th></tr></thead><tbody><tr><td id="d142503e348">
 
 **Dispatcher calendar**
 
@@ -99,7 +88,7 @@ Action
 3.  Select a crew to add the equipment to.
 
 
-</td></tr><tr><td id="d126189e389">
+</td></tr><tr><td id="d142503e378">
 
 **Dispatcher calendar sidebar**
 

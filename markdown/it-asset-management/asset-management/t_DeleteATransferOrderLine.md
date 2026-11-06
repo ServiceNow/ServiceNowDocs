@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Transfer orders for Asset Management, Manage transfer order, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Transfer order tasks, Manage transfer order, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Delete a transfer order line
@@ -18,7 +18,7 @@ You can delete a transfer order line only if it's still in the draft stage.
 
 ## Before you begin
 
-Role required: inventory\_user
+Role required: asset\_system\_admin or inventory\_user
 
 The inventory\_user, asset, or procurement\_user role can only access the Transfer Order \[alm\_transfer\_order\] reports. You must install the Procurement \(com.snc.procurement\) plugin for the inventory\_user, asset, and procurement\_user roles.
 
@@ -33,7 +33,7 @@ The inventory\_user, asset, or procurement\_user role can only access the Transf
     Alternatively, you can cancel a transfer order or a transfer order line while it is in **Requested** or **Shipment Preparation** stage. Once all the lines are canceled, the transfer order is automatically canceled.
 
 
-**Parent Topic:**[Transfer orders for Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/transfer-orders-for-am.md)
+**Parent Topic:**[Transfer order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/work-with-transfer-orders.md)
 
 **Related topics**  
 

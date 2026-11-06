@@ -1,0 +1,22 @@
+---
+title: Use Content insights AI agent
+description: Use the Content Insights AI agent to generate information from your inputs, attached documents, or images
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/use-content-insights-ai-agent.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Use, Content Understanding, Generative AI skills, Enable AI Experiences]
+---
+
+# Use Content insights AI agent
+
+Use the Content Insights AI agent to generate information from your inputs, attached documents, or images
+
+Use the Content insights AI agent to:
+
+-   [Ask questions about documents and images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ask-questions-qna.md)
+-   [Extract key information from documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/extract-key-information.md)
+-   [Summarize documents and images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/summarize-documents.md)
+

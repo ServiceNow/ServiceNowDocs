@@ -7,7 +7,7 @@ release: yokohama
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring System Localization, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -37,6 +37,7 @@ The following plugins are currently available:
 -   I18N: Italian Translations
 -   I18N: Japanese Translations
 -   I18N: Korean Translations
+-   I18N: Latin American Spanish Translations
 -   I18N: Norwegian Translations
 -   I18N: Polish Translations
 -   I18N: Portuguese Translations

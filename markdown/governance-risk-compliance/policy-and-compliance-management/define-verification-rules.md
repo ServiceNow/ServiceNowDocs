@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Allow policy exception requests from other applications, Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Define policy exception verification rules
@@ -27,13 +27,13 @@ Role required:
 
 Defining verification rules is an optional step. If you do not define verification rules or define them and do not activate them, approvals from the requester's team will not be required.
 
+You can also use the GRC Approval Configurator to configure policy exception rules. For more information, see [Define policy exception and extension rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/define-policy-exception-verification-rules.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Exceptions** &gt; **Verification Rule**.
 
 2.  Click **New**.
-
-    \[Omitted image "verification-rule-new.png"\] Alt text: Verification rule
 
 3.  On the form, fill in the fields.
 
@@ -48,8 +48,6 @@ Defining verification rules is an optional step. If you do not define verificati
 4.  Click **Update**.
 
     The Approver Levels related list appears. This related list allows you to define multiple approver levels for a rule. One or more users, or a group of users can be selected as approvers for each level. Approvers must be assigned the survey\_reader role. You can make it mandatory for all selected users to approve the exception or optionally allow a single user to approve on behalf of all approvers.
-
-    \[Omitted image "approval-levels.png"\] Alt text: Approver levels
 
 5.  Click **Submit**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert similarity
@@ -32,7 +32,7 @@ ML helps find similar alerts based on text found in these alert record fields:
 
 In the Alert Workspace, select the required alert and click **Insight** to view additional information about the alert.
 
-In the Alerts list, select the required alert and use the Alert Insight tabs on the right side of the alert record to view additional information about the alert. For example, you can view the top recent alerts for the current CI and similar CIs to find the most suitable solution towards resolving the alert.
+In the Alerts list, select an alert and use the Alert Insight tabs to view additional information. For example, you can view the top recent alerts for the current CI and similar CIs to find the most suitable solution towards resolving the alert.
 
 The alert insight tabs are:
 

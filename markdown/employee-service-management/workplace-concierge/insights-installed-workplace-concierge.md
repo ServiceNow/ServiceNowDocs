@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Concierge - Components, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Insights installed with Workplace Concierge
@@ -66,5 +66,12 @@ Displays a message if the employee presence isn’t set to five days in the offi
 |Presence Calendar Insight|Displays the insight in the calendar week view.|
 |Presence Dashboard Insight|Displays the insight on the Presence dashboard.|
 
-**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
+**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-references.md)
+
+**Related topics**  
+
+
+[Components installed with Workplace Concierge]()
+
+[Properties installed with Workplace Concierge]()
 

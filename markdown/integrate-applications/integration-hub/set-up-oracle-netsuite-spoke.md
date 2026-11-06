@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-07-18"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Oracle NetSuite Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Oracle NetSuite Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up Oracle NetSuite Spoke

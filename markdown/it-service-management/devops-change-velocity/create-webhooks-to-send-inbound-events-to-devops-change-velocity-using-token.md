@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a tool integration from the DevOps Change Workspace, User created, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -24,7 +24,7 @@ To send inbound events to a ServiceNow instance, you must use the following API 
 
 where capability can be plan, code, or orchestration.
 
-You can copy the details like the tool Id, instance URL, and so on by selecting **Configure manually** from the tool record or in the configure step while onboarding the tool. You can then select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times. The following image displays the page from where the values can be copied for the GitHub tool in DevOps Change Velocity. \[Omitted image "github-manual-webhooks-2.png"\] Alt text: GitHub manually configure webhooks
+You can copy the details like the tool Id, instance URL by selecting **Configure manually** from the tool record or in the configure step while onboarding the tool. You can then select **Copy** in the appropriate field to copy the value to your clipboard. The field label changes to **Copied**, but you can copy multiple times. The following image displays the page from where the values can be copied for the GitHub tool in DevOps Change Velocity. \[Omitted image "github-manual-webhooks-2.png"\] Alt text: GitHub manually configure webhooks
 
 For token authentication, you must pass the token as part of the authorization header or query parameters as the endpoints are secured. You can use one of the following methods:
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/cce-renew-an-entitlement.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contracts and Entitlements Workflows, Using Customer Contracts and Entitlements, Customer management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Contracts and Entitlements Workflows, Customer Contracts and Entitlements, Customer management, Use, Customer Service Management]
 ---
 
 # Renew an entitlement
@@ -27,7 +27,7 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **CSM/FSM Configurable Workspace.**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
 2.  In the list view, select **Customer** &gt; **Accounts**.
 
@@ -41,8 +41,8 @@ Role required:
 
     -   If the selected target entity is a quote, a quote to renew the entitlement is created. You can select the quote number from the confirmation message to review the renewal quote. After the quote is approved and the status is updated to **Complete**, an order is created for further processing.
     -   If the selected target entity is an order, an order to renew the entitlement is created. You can select the order number from the confirmation message to review the renewal order.
-    -   If the selected target entity is an opportunity, an opportunity to renew the service contract is created. You can select the opportunity number from the confirmation message to review the renewal opportunity.
-    -   If the selected target entity is an opportunity and a quote, both opportunity and quote to renew the service contract are created. You can navigate to the opportunity and quote by selecting the numbers from the confirmation message.
+    -   If the selected target entity is an opportunity, an opportunity to renew the entitlement is created. You can select the opportunity number from the confirmation message to review the renewal opportunity.
+    -   If the selected target entity is an opportunity and a quote, both opportunity and quote to renew the entitlement are created. You can navigate to the opportunity and quote by selecting the numbers from the confirmation message.
 6.  After the order line items are fulfilled, set the status to **Completed**.
 
     A new entitlement is created.

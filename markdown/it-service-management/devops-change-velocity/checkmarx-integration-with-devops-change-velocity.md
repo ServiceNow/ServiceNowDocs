@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Ensure that your Checkmarx SAST user has a role that has permissions to read **P
 
 You can configure Checkmarx scans on any stage of the pipeline and the scan details are retrieved from the corresponding stage to DevOps Change Velocity. If you’re using Azure DevOps or GitHub Actions orchestration tools, then you must add the custom action code in your pipeline always. If you’re using Jenkins, and your pipeline already has a Checkmarx One security scan \(checkmarxASTScanner\) step, you don’t have to add the custom action code in your pipeline. For Checkmarx SAST, the custom action code must be added in your pipeline even if it has the security scan step \(checkmarxASTScanner\).
 
-If you want to configure Checkmarx for the GitLab tool, you can either use the generic Docker container image to add the Checkmarx security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
+If you want to configure Checkmarx for the GitLab tool, you can use the generic Docker container image to add the Checkmarx security step or perform the steps specified in the [Integrate security tools with GitLab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/configure-security-tool-for-gitlab.md) topic.
 
-For Harness pipelines, you can configure Checkmarx scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using a generic Docker container image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
+For Harness pipelines, you can configure Checkmarx scans only through the generic Docker Container Image. For more information, see [Implement custom actions for pipelines using Docker image](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/servicenow-custom-actions-for-gitlab.md).
 
-You can view the security scan results either in the related list of a Change Request, or the Task Execution of the pipeline, or in the Pipeline UI in your ServiceNow instance. You can also use security results in defining change policies and conditions for change automation.
+You can view the security scan results in the related list of a Change Request, or the Task Execution of the pipeline, or in the Pipeline UI in your ServiceNow instance. You can also use security results in defining change policies and conditions for change automation.
 
 ## Get started
 
-You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Checkmarx One Vulnerability Integration \(x\_chec3\_chexone\) or Checkmarx CxSAST Vulnerability Integration \(x\_chec3\_cxsast\) plugins before connecting your Checkmarx instance to ServiceNow. For more information on activating a plugin, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+You must install the DevOps Vulnerability Integrations \(sn\_devops\_vul\_ints\) and Checkmarx One Vulnerability Integration \(x\_chec3\_chexone\) or Checkmarx CxSAST Vulnerability Integration \(x\_chec3\_cxsast\) plugins before connecting your Checkmarx instance to ServiceNow. For more information on activating a plugin, see [Activate a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateAPlugin.md).
 
 **Note:** The sn\_vul.app\_sec\_manager role is added to the DevOps Tool Owner \[sn\_devops.tool\_owner\] role when the DevOps Vulnerability Integrations plugin \(sn\_devops\_vul\_ints\) is installed.
 

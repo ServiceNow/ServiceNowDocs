@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery Advanced Integration with Oracle HCM, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -26,7 +26,7 @@ Add the HR Portal Components, such as Direct Deposits, Holiday Calendar, Time Of
 
 ### Before you begin
 
-Role required: admin
+Role required: sn\_hr\_oracle\_adv.admin, sn\_hr\_workday.admin
 
 ### Procedure
 

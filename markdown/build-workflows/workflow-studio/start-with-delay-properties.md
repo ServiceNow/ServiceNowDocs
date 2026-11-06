@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Start with delay input properties
@@ -63,7 +63,7 @@ Template Value
 
 </td><td>
 
-Option to set a duration value manually or to select a Duration data pill from the data pill picker \(\[Omitted image "data-pill-picker-icon-01.png"\] Alt text: Data pill picker\).-   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
+Option to set a duration value manually or to select a Duration data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker. -   **Explicit Duration**: Wait duration in hours, minutes, and seconds.
 -   **Relative Duration**: Wait duration in hours, minutes, and seconds before or after a specific time. Select **Relative Duration** to specify a wait duration from a specific date.
 
 **Note:** Past dates don't affect the wait duration.
@@ -81,7 +81,7 @@ Integer
 
 </td><td>
 
-Percentage of time to wait from a specified end date before running an activity or stage. You can manually enter an end date or select a date/time data pill from the data pill picker \(\[Omitted image "data-pill-picker-icon-01.png"\] Alt text: Data pill picker\). If you select an end date in the past, the wait duration is set to **0**. This field is only available when you set the **Duration Type** to **Percentage Duration**.
+Percentage of time to wait from a specified end date before running an activity or stage. You can manually enter an end date or select a date/time data pill from the data pill picker \[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker. If you select an end date in the past, the wait duration is set to **0**. This field is only available when you set the **Duration Type** to **Percentage Duration**.
 
 </td></tr><tr><td>
 
@@ -97,27 +97,4 @@ Schedule used to calculate an end date that occurs during your hours of operatio
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Add and configure an activity in a playbook]()
-
-[Automation Assets]()
-
-[Optional activities]()
-
-[Decision activities]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

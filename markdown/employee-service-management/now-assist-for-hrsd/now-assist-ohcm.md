@@ -1,26 +1,26 @@
 ---
 title: ServiceNow Otto for HRSD Virtual Agent topics
-description: Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
+description: Use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-ohcm.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework, Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Integrating with ESM Framework, Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # ServiceNow Otto for HRSD Virtual Agent topics
 
-Use the Now Assist Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
+Use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests to the configured HCM system, for example, view details of your time-off balance.
 
 ## Get time off balance
 
 The Get time off balance Virtual Agent topic enables you to view your leave balance from the configured HCM system in Employee Center.
 
-From Employee Center, open a chat window and type in key words, for example, leave balance. The Now Assist generative AI retrieves details from the HCM system and displays your time off balance.
+From Employee Center, open a chat window and type in key words, for example, leave balance. The ServiceNow Otto generative AI retrieves details from the HCM system and displays your time off balance.
 
 ## Get User Paychecks
 

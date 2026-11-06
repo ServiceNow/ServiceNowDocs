@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery Integration with Microsoft Places
 classification: workplace-service-delivery-integration-with-microsoft-places
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [WSD for Microsoft places, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,10 +18,10 @@ Install and integrate the WSD for Microsoft places application with Microsoft Te
 
 To register and integrate the WSD for Microsoft places application with Microsoft Teams, perform the following procedures in an order:
 
--   Register the **WSD for MS Places** application[Register the WSD for Microsoft places application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/installing-wsd-ms-places.md)
--   Download Manifest files[Download manifest files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/download-manifest-files.md)
--   Modify the Manifest file \(.json\)[Modify the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/modify-the-manifest-file.md)
--   Upload the application[Upload the WSD for Microsoft places application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/upload-the-app.md)
+-   Register the **WSD for MS Places** application [Register the WSD for Microsoft places application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/installing-wsd-ms-places.md)
+-   Download Manifest files [Download manifest files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/download-manifest-files.md)
+-   Modify the Manifest file \(.json\) [Modify the manifest file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/modify-the-manifest-file.md)
+-   Upload the application [Upload the WSD for Microsoft places application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-integration-with-microsoft-places/upload-the-app.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Easy Import
 classification: easy-import
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Easy import, Imports, Data and Automation]
+breadcrumb: [Easy import, Imports, Workflow Data Fabric]
 ---
 
 # Show reference fields as lists in Excel templates

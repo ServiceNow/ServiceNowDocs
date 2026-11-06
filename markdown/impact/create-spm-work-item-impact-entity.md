@@ -1,16 +1,16 @@
 ---
-title: Create a work item from Impact initiative
+title: Manage work items from an initiative in the Impact Store Application
 description: Use the SPM work item record link within the Impact entity to view its details, after Impact entity is successfully converted to an SPM work item.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-spm-work-item-impact-entity.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact Store Application Accelerators and Initiatives, Using Impact Store Application, Impact Store Application, Impact]
+breadcrumb: [Work items, Using Impact, Impact]
 ---
 
-# Create a work item from Impact initiative
+# Manage work items from an initiative in the Impact Store Application
 
 Use the SPM work item record link within the Impact entity to view its details, after Impact entity is successfully converted to an SPM work item.
 
@@ -37,7 +37,7 @@ Impact entities that can be converted to SPM entities are:
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Accelerator and Initiatives**.
 
-    \[Omitted image "impact-free-form-init.png"\] Alt text: Free form initiative as a SPM work item.
+    \[Omitted image "impact-free-form-init.png"\] Alt text: Free form initiative as an SPM work item.
 
 2.  Select a free form initiative that you want to convert to an SPM work item from **Your list** that is in **Not started** state.
 

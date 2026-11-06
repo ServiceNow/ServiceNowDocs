@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-05-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitoring platform performance, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Reviewing transaction logs
@@ -22,8 +22,6 @@ To see the average response time of all listed transactions, select and hold \(o
 
 You can limit the list to those transactions that took place during the time period of interest. The default filter returns transactions from today.
 
-\[Omitted image "TransactionLog1.png"\] Alt text: Transaction log
-
 For each completed transaction, available information includes the following \(times are in milliseconds\):
 
 -   Date/time, User ID, IP address, and URL of the transaction.
@@ -35,7 +33,7 @@ For each completed transaction, available information includes the following \(t
 -   **Business rule count**: number of business rules executed.
 -   **Network time**: network transmission time, both from and to the user.
 
-**Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(\[Omitted image "gear-outline-24.svg"\] Alt text: Update Personalized List icon\)
+**Note:** You can change which columns are shown and their order by selecting the Update Personalized List icon \(\[Omitted image "gear.png"\] Alt text:\)
 
 **Parent Topic:**[Monitoring platform performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/monitoring-platform-performance.md)
 

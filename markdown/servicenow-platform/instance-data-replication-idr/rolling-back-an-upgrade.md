@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Upgrading legacy sets, Configure, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Upgrading legacy sets, Configure, Instance Data Replication, Manage
 
 If a problem occurs during an upgrade to V2, the upgrade is rolled back in Instance Data Replication \(IDR\).
 
-**Important:** Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data, you must upgrade all legacy replication sets to V2.
+**Important:** Legacy replication sets are deprecated in the Zurich release. To continue replicating data, you must upgrade all legacy replication sets to V2.
 
 If you upgrade a legacy replication set to V2 and a problem occurs with the upgrade, the upgrade is automatically rolled back to ensure data consistency. If a processing delay caused the issue, you can try the upgrade again.
 

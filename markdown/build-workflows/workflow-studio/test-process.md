@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating and managing Playbooks, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Test a playbook
@@ -18,7 +18,6 @@ Verify that your playbook works as expected by running the playbook with test tr
 
 ## Before you begin
 
--   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/set-up-app.md) to store Playbooks content.
 -   [Create a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-process-definition.md)
 -   Role required: the admin, playbook.admin, or pd\_operator roles grant users access to test playbooks and to view process execution records.
 -   The Playbook Experience plugin is required to preview a playbook in runtime.
@@ -99,18 +98,5 @@ Testing a playbook bypasses the normal playbook trigger to run it with the sampl
 
 Publish your playbook to a production instance and activate it.
 
-**Parent Topic:**[Playbooks in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-definitions.md)
-
-**Related topics**  
-
-
-[Create a playbook]()
-
-[Playbook variants]()
-
-[Restart]()
-
-[Duplicate Playbooks]()
-
-[Add translations for playbooks]()
+**Parent Topic:**[Creating and managing Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/creating-managing-playbooks.md)
 

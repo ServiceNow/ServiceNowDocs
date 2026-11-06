@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 17
-breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Creator Studio quick start
@@ -23,8 +23,6 @@ Building your first app is a good way to understand how Creator Studio enables e
 For a more thorough tutorial where you build a gift card request app, see [Creator Studio tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-tutorial-landing.md).
 
 Your system administrator must add you to the Creator Studio Users group.
-
-**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 
 ## Quick start part 1: Create an app
 
@@ -62,7 +60,7 @@ You can also watch a short video on how to create an app.
 
     **Note:** Your admin may have hidden this page.
 
-    \[Omitted image "crs-interstitial-sd.png"\] Alt text: App type page when creating an app
+    \[Omitted image "crs-interstitial-sd.png"\] Alt text: Within the Creator Studio interface, select the "Service Desk" app option. This type of app is designed to streamline the management of incoming requests or support tickets.
 
 4.  Select the **Continue** button.
 
@@ -101,7 +99,7 @@ Your system administrator must add you to the Creator Studio Users group.
 
 3.  Choose how you want to build the form:
 
-    -   To use Now Assist, stay on the **Build with Now Assist** tab and enter directions for the form you want. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
+    -   To use Now Assist, stay on the **Build with AI** tab and enter directions for the form you want. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
 
         **Note:** You can select **Try an example** to see some examples of the available directions. To see a quick mock up of what the form will look like, select the **generate form preview** button. If you want a different form, change the provided direction and select **Regenerate preview** for a quick look.
 
@@ -113,7 +111,7 @@ Your system administrator must add you to the Creator Studio Users group.
         |Short description|Some information on what the form is used for.|
         |Long description|Additional details for the form. You can include content like images and links to other sources of information \(for example, a knowledge base article\).|
 
-    If you don't see the option to **Build with Now Assist** tab, you need to check with your admin. To install Now Assist for Form generation, see [Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-configure-now-assist.md).
+    If you don't see the option to **Build with AI** tab, you need to check with your admin. To install AI for Form generation, see [Configuring form generation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-configure-now-assist.md).
 
 4.  Select **Save and edit form**.
 
@@ -363,14 +361,22 @@ Placeholder
 
 Set an undefined activity to be specified later, or a more advanced activity such as an email notification, when an activity is completed.Placeholder activities don't have any logic assigned to them yet, and must be edited in Workflow Studio. Or, you can swap them out later for another type of activity in Creator Studio.
 
+</td></tr><tr><td>
+
+Update submission
+
+</td><td>
+
+Update the value of the specified fields on the record that the form generates when a user submits it.
+
 </td></tr></tbody>
-</table>    \[Omitted image "cs-add-activity-email.png"\] Alt text: Select which type of activity to add
+</table>    \[Omitted image "crs-add-activity-more.png"\] Alt text: Select which type of activity to add
 
 4.  Enter the basic details for the activity.
 
     |Field|Description|
     |-----|-----------|
-    |Name|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
+    |Label|Unique, user-facing name for your activity, which appears to agents and fulfillers while the playbook is running.|
     |Description|Optional details about what the activity accomplishes.|
 
     \[Omitted image "cs-assign-to-properties.png"\] Alt text: Activity details panel

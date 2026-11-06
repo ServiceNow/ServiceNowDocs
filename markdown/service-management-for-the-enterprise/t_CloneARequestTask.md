@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-management-for-the-enterprise/t\_CloneARequestTask.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Facilities request tasks, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Request task management, Request Management in a Service Management application, Service Management]
 ---
 
 # Clone a request task
@@ -35,8 +35,6 @@ In the cloning process, the following information is copied from the source task
 
     The application creates a task in **Draft** state. The **Work Notes** field contains the original task number and text stating that the task is a clone.
 
-
-**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/c_FacRequestTasks.md)
 
 **Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
 

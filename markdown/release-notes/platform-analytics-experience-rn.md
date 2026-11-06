@@ -1,24 +1,25 @@
 ---
 title: Platform Analytics experience release notes
-description: The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Platform Analytics experience was enhanced and updated in the Yokohama release.The ServiceNow Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Platform Analytics experience was enhanced and updated in the Yokohama release.
+description: The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.External pages and UI Builder pages can now pass filter parameters via URL to pre-apply filters on Platform Analytics inline dashboards and visualizations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/platform-analytics-experience-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-28"
 reading_time_minutes: 5
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Platform Analytics experience release notes
 
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Platform Analytics experience was enhanced and updated in the Yokohama release.
+The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
 
 ## About Platform Analytics experience
 
--   Effortlessly create bold, meaningful data graphics by and refining the results in an AI-powered conversational interface.
--   Speed up the process of turning insights into actions with dynamic new features like suggested performance targets and more powerful data filtering.
--   Share data insights more broadly with enhanced Microsoft PowerPoint support.
+-   Create dashboards to visually share your data with stakeholders in your organization.
+-   Create, update, and share visualizations based on indicators, tables or other data to share with others.
+-   Filter lists and visualizations on dashboards based on values, date, or true/false.
+-   Delve into the information behind your Key Performance Indicators \(KPIs\) and learn when processes behave in unexpected ways.
 
 See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/par-workspace.md) for more information.
 
@@ -26,132 +27,64 @@ See [Platform Analytics experience](https://raw.githubusercontent.com/ServiceNow
 
 -   **Activation information**
 
-    The Platform Analytics experience is active by default. However, some additional steps might be required.
+    Platform Analytics experience is enabled by default on upgrade to Brazil.
 
-    -   To use indicator data sources, you might need to activate Performance Analytics.
-    -   To use Process Mining with the Platform Analytics experience, you might need to activate Process Mining.
 -   **Upgrade information**
 
-    If you had previously migrated your analytics assets to Platform Analytics, assets that were in compatibility mode but are newly supported in Yokohama are migrated automatically.
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-
-    Dashboard overview and Filter components now support Reflow at 400% zoom.
+    Core UI dashboards and reports are visible from the Platform Analytics Dashboard and Data visualization libraries.
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/analytics-intel-report-rn-landing.md)
 
-## Yokohama
+## Platform Analytics experience Bundle — v9.0
 
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Platform Analytics experience was enhanced and updated in the Yokohama release.
+External pages and UI Builder pages can now pass filter parameters via URL to pre-apply filters on Platform Analytics inline dashboards and visualizations.
 
 ### What's new
 
--   **[Generate data visualizations conversationally](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-assist-landing-page.md)**
+-   **[Explore mode for read-only users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/editing-dv-in-line-db.md)**
 
-    Generate Platform Analytics artifacts from conversational interactions using Analytics Generation. Analytics Generation is part of the ServiceNow Otto for Creator application.
+    Read-only users can temporarily reconfigure a visualization in-session — on inline dashboards or in the Visualization Designer — without saving changes. When Explore mode is active, an informational alert indicates that changes aren't persisted, and the Save action is not available. This enables dashboard consumers to explore data on their own terms without requiring edit access.
 
--   **[Implement filters in groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-filter-group.md)**
+-   **[Share dashboard with all internal users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/share-db-in-ac.md)**
 
-    Create filter groups with shared apply, clear, and reset buttons. Filters in a group appear in their own container. Grouping filters reduces the number of calls and improves performance compared to cascading filters for big data use cases.
-
--   **[Apply multiple levels of breakdown to an indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/multi-level-breakdowns.md)**
-
-    Migrate indicators from traditional Performance Analytics architecture to change data capture \(CDC\)-based data snapshots. This new architecture allows for more than two levels of breakdown to apply to an indicator. RaptorDB Professional is required, and not all indicators qualify for migration.
-
--   **[Show the distribution of data in box plot data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-box-plot.md)**
-
-    Show the median and lower and upper quartiles of numeric data along with outliers by using box plots. You can also compare the distribution of different groups of this data.
-
--   **[Target suggestion cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/proactive-analytics.md)**
-
-    Be notified of missing target values and review dates for indicators. If you have target Insights active for your dashboard, Target suggestion cards alert you to the missing values and provide an easy way to fix them.
+    Administrators can share a Platform Analytics dashboard with all authenticated users by assigning it to the `dashboard_user` role, which ships with the base system. Any user who holds at least one role automatically receives read access to dashboards shared this way. The role name used as the sentinel is configurable via the system property `com.glide.par_dashboards.security.all_users_role`. This replaces the need to manage individual user, group, or role assignments for organization-wide dashboards.
 
 
 ### What's changed
 
--   **[Migration center flow UX improved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-migration-perform.md)**
-    -   A confirmation modal is displayed when **Start moving** or **Activate** is selected.
-    -   Bulk migration can be retriggered after source artifacts are changed.
-    -   The creation of new analytics artifacts can be blocked when bulk migration starts.
--   **Percent information added to tooltips**
+-   **URL filter parameters for inline dashboards**
 
-    Tooltips in geomap, vertical and horizontal bar, heatmap, and bubble visualizations now include percentages when applicable.
+    External pages and UI Builder pages can now pass filter values to Platform Analytics inline dashboards and the Visualization Designer using URL parameters. The feature introduces a standard mechanism that accepts filter payloads in `encodedQuery` format, validates and maps them to filter state, and applies them when the dashboard or visualization loads. Supported filter types include choice and Boolean. Deep links and drill-down workflows that previously relied on Classic or Core UI URL-based filtering are now supported in Platform Analytics experiences.
 
+    Copying a dashboard link now includes active filter state in the URL using the format `/unified-filters-param/filterId:value1,value2`, removing the back-end dependency on the `par_dashboard` filter record.
 
--   **[Migrate more features to Platform Analytics from the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-migration.md)**
+-   **[Updated creation flow for dashboards and data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/common-dashboard-tasks.md)**
 
-    Migration scripts are improved to support more features. All migration script improvements are applied automatically on upgrade to content that was previously migrated in compatibility mode.
+    The creation flow for Platform Analytics dashboards and data visualizations now clearly surfaces Next Experience as the recommended path. Core UI creation remains available for users who need it. The updated flow applies when the system properties `com.snc.par.coreui.dashboard_create.enabled` and `com.snc.par.coreui.report_create.enabled` are set to `true`. Instances where migration is complete and Core UI creation is inactive aren't affected. A new informational modal for data visualization creation has been added. The create flow now routes Core UI dashboard creation to the `pa_dashboard` record form and Core UI report creation to the Report Designer.
 
-    -   Data table configurations are migrated from the Core UI to Platform Analytics data visualizations.
-    -   Dashboard groups are migrated to dashboard categories.
-    -   Pareto charts are migrated.
-    -   List component border changes are migrated.
-    -   Follow/unfollow filter settings are migrated for Lists.
--   **[Use more Core UI features in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-mig-unmigrated-content.md)**
+-   **[Configurable list view for drilldowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/dv-chart-interactions.md)**
 
-    Several data visualizations have been enhanced to match the capacities in Core UI reports and widgets. The migration script supports these enhancements. Each of these enhancements has an entry in the release notes with links to the product documentation.
+    Dashboard and report designers can now select which list view opens when users drill down to data using the **Go to Data View** chart interaction. The configuration option is available in the **Chart Interaction** section of the Visualization and Dashboard Designers. Designers can specify a view from the `sys_ui_view_list` table, providing flexibility to target different views for different roles or use cases. Tooltip text in the visualization now dynamically reflects the configured destination — showing the data source name for **Go to Data View** interactions and the page name for **Go to URL** interactions. The **Go to URL** interaction now redirects in the same browser tab.
 
-    -   Use the new Box plot data visualization.
-    -   Configure **Follow filters** per metric on bar or time series visualizations with multiple metrics.
-    -   Sort values by name, report range, and element order on time series visualizations of table data.
-    -   Choose an aggregate or separate view of breakdown elements on time series visualizations of indicator data.
-    -   Select dates from business calendars on time series visualizations.
--   **[Trend by Business calendars in time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-dv-time-series-table-data.md)**
+-   **Export quality improvements**
+    -   A system property enables or disables the export button globally. A second property accepts a comma-separated list of roles permitted to export when the first property is enabled. When the roles list is empty, export is available to all users. This applies to on-demand export at both the dashboard and data visualization level, including client-side export.
+    -   The export modal now includes a documentation link for supported and unsupported components. It also provides options to enable or disable sending exports via email and displays improved error messages after export failures. UI controls in export modals have been updated from toggles to check boxes.
+    -   PDF exports now correctly apply the selected orientation \(landscape or portrait\) for list-type visualizations. Previously the orientation setting was recognized in the UI but exports always rendered in portrait.
+    -   Users can select specific dashboard tabs to include when exporting to PDF, consistent with existing PPT export tab selection. Dashboards with applied filters respect the filter state in PDF exports.
+    -   Scheduled export now supports additional file types and page format options that were previously available in Core UI but missing from the scheduled export UI. Day-of-week scheduling options \(Monday to Friday\) are now available. Core UI reports are hidden from the scheduled export library page.
+-   **[Dashboard PDF export improvements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/export-pae-dashboard-ppt.md)**
 
-    Business calendars are a **Trend by** option for table data sources on time series visualizations. \(Core UI feature gap\)
+    Platform Analytics dashboard PDF and PowerPoint export includes the following improvements:
 
--   **[Use a Fiscal calendar in date filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-date-filter-workspace.md)**
+    -   You can now select which dashboard tabs to include when exporting to PDF, consistent with the existing tab selection available for PPT export.
+    -   When exporting a dashboard to PDF, you can choose whether to apply or exclude the active dashboard filters in the exported output.
+    -   Visualizations in exported PDF and PPT files now follow the layout order displayed on the dashboard, with the top layout rendered first and widgets ordered left to right.
+    -   Filters, images, and headings are now included in dashboard PDF exports. Previously these components were excluded because `par_metadata` records were not present for them.
+    -   When a dashboard contains only unsupported components, the export now returns a meaningful error message rather than an empty PDF.
+    -   Dashboards containing only list visualizations no longer trigger an unnecessary export server call.
+-   **[Library page bookmark icon theme alignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/bookmark-dashboard-ac.md)**
 
-    If your instance has Fiscal calendars installed, you can choose relative data ranges from that calendar.
+    The bookmark icon in the Dashboard library page and the Data Visualization library page now renders in the applied theme color, consistent with the Indicators library page. Previously the bookmark icon displayed in blue regardless of the active theme.
 
--   **Export [dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/export-pae-dashboard-ppt.md) and [data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/export-visualization-vd.md) to PDF and PPT**
-
-    Export dashboards and data visualizations to PDF or Microsoft PowerPoint files at will or in [scheduled emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/schedule-export-dboards-data-viz.md).
-
--   **[Show breakdown elements separately on time series visualizations of indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-dv-time-series-ind-data.md)**
-
-    Show multiple elements in the chart separately rather than as an aggregate value by turning on the **Show filter as separate series** option. \(Core UI feature gap\)
-
--   **[Lock editing on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/edit-db-in-ac.md)**
-
-    Ensure that only one person can have a dashboard open for editing at one time through the edit lock on dashboards. If you are locked out of editing a dashboard, you see who the current editor is.
-
--   **[Access indicator record or scoresheet from KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/access-indicator-record-scoresheet.md)**
-
-    Navigate either to the record of the indicator you are exploring or its scoresheet through KPI Details. Appropriate roles are required.
-
--   **[Export records that underlie an indicator from KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/show-compare-edit-records.md)**
-
-    With **Show records** activated in KPI Details, you can export the list of records in one of several formats, either as a local download or as an email attachment.
-
--   **[Hide axes for bar visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-bar-ac.md)**
-
-    Control the display of axes on bar charts. On horizontal bar charts, you can hide the y-axis. On vertical bar charts, you can hide the x-axis.
-
--   **[Cache indicator scorecard data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/data-caching-pa.md)**
-
-    Indicator scorecards now support data caching.
-
--   **[Group by elements more efficiently in data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/select-group-runtime.md)**
-
-    Specify the maximum number of elements in a Group By you want to retrieve through the **Max number of groups** option. Previously, all elements from the database were retrieved and then sorted.
-
--   **[Prefetch dashboard layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-dashboard-data-broker.md)**
-
-    If you have a dashboard component on a page in your own workspace, improve performance by using a preset to configure a data broker that pre-fetches static JavaScript, such as layout.
-
--   **[Call multiple visualizations together](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/local-data-instance-multi-viz.md)**
-
-    For a technical dashboard, if you have multiple data visualizations of the same type calling the same data source, configure a data resource to make a single call for all of them.
-
--   **[Improvements to time-series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-dv-time-series-table-data.md)**
-    -   Simplify identifying specific values on line, spline, area, or step charts through the **Show markers** option, which displays a symbol at each data point.
-    -   Sort by name, report range, group bucket, and element order. \(Core UI feature gap\)
--   **[Improvements for visualizations that show multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/chart-options-multi-metrics.md)**
-    -   In time series visualizations, provide viewers an alternative group by, where the viewer chooses the group-by value at runtime, for up to 3 data sources. \(Core UI feature gap\)
-    -   Set whether individual metrics follow filter components on the page or dashboard in both bar and time series visualizations. \(Core UI feature gap\)
 

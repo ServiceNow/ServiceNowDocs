@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a problem, Managing Problems, Problem Management, IT Service Management]
 ---
@@ -24,7 +24,7 @@ Role required: itil
 
 1.  Create the problem with one of these options.
 
-<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d147995e54">
+<table id="choicetable_agp_ckc_3t"><tbody><tr><td id="d251464e54">
 
 **From the Problem module**
 
@@ -32,7 +32,7 @@ Role required: itil
 
 Navigate to **Problem** &gt; **Create New**.
 
-</td></tr><tr><td id="d147995e72">
+</td></tr><tr><td id="d251464e72">
 
 **From an incident**
 
@@ -51,7 +51,7 @@ Navigate to **Problem** &gt; **Create New**.
 
     When you initially create and save a problem, entering notes in the **Work notes** field is not mandatory. If you change the priority of the problem by selecting different **Impact** or **Urgency** values on an existing problem, the **Work notes** field becomes mandatory.
 
-    **Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activate.
+    **Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activated.
 
 4.  To enter notes on why the problem is closed, click the **Closure Information** tab and enter the information.
 

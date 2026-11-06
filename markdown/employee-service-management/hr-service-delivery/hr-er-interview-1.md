@@ -1,18 +1,18 @@
 ---
-title: Interview Management
-description: Use Interview Management to create templates to capture questions, answers, and notes in a consistent and efficient way, sync scheduling with Microsoft Outlook, and better plan and track your interviews.Set up HR Service Delivery Interview Templates so your agents can quickly, consistently, and accurately capture appropriate information.You can activate the Interview Templates plugin \(com.sn\_interview\_templates\) for the ServiceNow AI Platform if you have the admin role.Interview Question Templates provides your agents with a consistent and efficient way to capture answers from interviews.Create template tags you can use to filter interview question templates on pre-defined attributes. Template tags allow you to find relevant questions easier and faster.You can schedule and document interviews and use interview templates using the Core UI or HR Service Delivery Agent Workspace.You can use the default ServiceNow calendar or integrate with Microsoft Exchange to schedule interviews related to Employee Relations \(ER\) cases.Documenting interviews is crucial to ER cases. Use the Interview form to take notes and capture important details of the ER case.Use HR Service Delivery Agent Workspace to capture a record of an interview.
+title: Interview Management for Employee Relations
+description: Use Interview Management to create templates to capture questions, answers, and notes in a consistent and efficient way, sync scheduling with Microsoft Outlook, and better plan and track your interviews.Set up HR Service Delivery Interview Templates so your agents can quickly, consistently, and accurately capture appropriate information.You can activate the Interview Templates plugin \(com.sn\_interview\_templates\) for the ServiceNow AI Platform if you have the admin role.Interview Question Templates provides your agents with a consistent and efficient way to capture answers from interviews.Create template tags you can use to filter interview question templates on pre-defined attributes. Template tags allow you to find relevant questions easier and faster.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 13
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Interview Management
+# Interview Management for Employee Relations
 
 Use Interview Management to create templates to capture questions, answers, and notes in a consistent and efficient way, sync scheduling with Microsoft Outlook, and better plan and track your interviews.
 
@@ -37,6 +37,8 @@ The **sn\_interview\_temp.filter\_attr\_allowed\_tables** system property determ
 
 When entering multiple tables, separate the table names with a comma \(,\) but with no space between each table.
 
+\[Omitted image "hr-er-sys-property.png"\] Alt text: Interview Question Template system property
+
 ### Template tags
 
 Template tags are a way to organize your interview templates and a way to filter them when looking for the correct template. Template tags allow you to find relevant questions easier and faster.
@@ -55,9 +57,12 @@ There are two types of template tags you can create:
 
     -   Customer category = Involved party type
     -   Custom tags:
+
         -   Complainant
         -   Subject of allegation
         -   Witness
+        \[Omitted image "agent-ws-hr-template-tag-ex.png"\] Alt text: Interview question template tags
+
     Involved party type becomes the top-level category in the organization with the tags being a way to organize the type of person you are interviewing.
 
 
@@ -100,15 +105,15 @@ Role required: sn\_interview\_temp.admin
 
 3.  Fill in the form or make edits.
 
-<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d288588e450">
+<table id="choicetable_lzw_sjn_r4b"><thead><tr><th align="left" id="d311510e462">
 
 Field
 
-</th><th align="left" id="d288588e453">
+</th><th align="left" id="d311510e465">
 
 Value
 
-</th></tr></thead><tbody><tr><td id="d288588e459">
+</th></tr></thead><tbody><tr><td id="d311510e471">
 
 **Active**
 
@@ -116,7 +121,7 @@ Value
 
 Option for enabling the **Interview Question Template** and make it available.
 
-</td></tr><tr><td id="d288588e471">
+</td></tr><tr><td id="d311510e483">
 
 **Name**
 
@@ -124,7 +129,7 @@ Option for enabling the **Interview Question Template** and make it available.
 
 The name that identifies the interview question template.
 
-</td></tr><tr><td id="d288588e480">
+</td></tr><tr><td id="d311510e492">
 
 **Application**
 
@@ -132,7 +137,7 @@ The name that identifies the interview question template.
 
 The application the interview question template belongs to.**Note:** The application that appears is dependent on your current application scope. For more information, see [Application scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationScope.md).
 
-</td></tr><tr><td id="d288588e496">
+</td></tr><tr><td id="d311510e508">
 
 **Table**
 
@@ -140,7 +145,7 @@ The application the interview question template belongs to.**Note:** The applica
 
 Name of the table the interview question template is associated with.**Note:** To only show interview question templates for ER interview records, select the Interview \(sn\_er\_interview\) table. If you leave this field blank, the interview template is available globally \(any tables that have been configured to use interview templates also have access\). Currently in the base system, only Employee Relations interviews are set up to access.
 
-</td></tr><tr><td id="d288588e509">
+</td></tr><tr><td id="d311510e521">
 
 **Question template body**
 
@@ -253,354 +258,5 @@ The domain your current scope is associated with. This field applies to customer
 
 </td></tr></tbody>
 </table>4.  Select **Save** or **Submit**.
-
-
-## Using Interview Management
-
-You can schedule and document interviews and use interview templates using the Core UI or HR Service Delivery Agent Workspace.
-
-Creating a record of an interview is an important part of an employee relations investigation.
-
-Scheduling an interview: There are two \(2\) methods you can use to schedule an interview:
-
--   Manual entry: You enter a start and end date/time for the interview and confirm outside the application.
-
-    **Note:** In legacy UI, the manual entry is the only method available for scheduling an interview.
-
--   Use Microsoft Outlook Calendar to schedule an interview.
-
-    -   To use this feature, you must integrate with Microsoft Exchange. Ensure the **sn\_hr\_er.ex\_online\_notification\_url** system property contains the Callback URL in the **Value** field. For more information, see [Set up Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-ms-exch-ol.md).
-    -   The **sn\_hr\_er.exchange\_online\_max\_candidate** system property determines the maximum number of meeting time slots to return when trying to schedule an interview using Microsoft Exchange. The default value is 500 slots.
-    **Note:** You can use the manual method of scheduling in HR Service Delivery Agent Workspace. For more information, see [Schedule an interview in HR Service Delivery Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md) or [Schedule an interview in HR Service Delivery Employee Relations using Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
-
-
-### Scheduling an interview
-
-You can use the default ServiceNow® calendar or integrate with Microsoft Exchange to schedule interviews related to Employee Relations \(ER\) cases.
-
-### Schedule an interview in HR Service Delivery Employee Relations using the legacy UI
-
-Documenting interviews is crucial to ER cases. Use the Interview form to take notes and capture important details of the ER case.
-
-#### Before you begin
-
-Role required: sn\_hr\_er.case\_writer
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **Employee Relations** &gt; **Cases**.
-
-2.  Select an ER case.
-
-3.  Scroll down and select the **Interviews** tab in the related list.
-
-4.  Select **New**.
-
-5.  Fill in the form.
-
-<table id="table_hbw_4cv_mlb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Number
-
-</td><td>
-
-The number identifying the interview record. The application automatically assigns interview numbers.
-
-</td></tr><tr><td>
-
-HR case
-
-</td><td>
-
-The HR ER case number associated with the interview.**Note:** If you access the interview from **Employee Relations**, you have to select an HR case to associate the interview to.
-
-</td></tr><tr><td>
-
-Interviewee
-
-</td><td>
-
-Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can select **New** and create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
-
-</td></tr><tr><td>
-
-Interviewers
-
-</td><td>
-
-Names of the people who conducted the interview.Click the **Unlock Interviewers** icon \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock Interviewers icon and search for the names of the people who conduct the interview.
-
-**Note:** Only members with the sn\_interview\_temp.writer role or belong to a group that has the Employee Relations skill.
-
- You can optionally enter the email addresses for each interviewer.
-
-</td></tr><tr><td>
-
-External attendees
-
-</td><td>
-
-Indicates people outside of your company attended the interview.
-
-</td></tr><tr><td>
-
-External invite email
-
-</td><td>
-
-The email addresses of the external people that attend the interview.
-
-</td></tr><tr><td>
-
-Scheduling method
-
-</td><td>
-
-The method you are using to schedule the interview. If your company only uses the manual method of scheduling, **Manual entry** appears and cannot be edited.
-
- If your company uses the integration with Microsoft Outlook Calendar to schedule, **Calendar** appears. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
-
-</td></tr><tr><td>
-
-Start date
-
-</td><td>
-
-The date and start time of the interview.
-
-</td></tr><tr><td>
-
-End date
-
-</td><td>
-
-The date and end time of the interview.
-
-</td></tr><tr><td>
-
-Additional parties
-
-</td><td>
-
-Other people you want as part of the interview record.Click the **Add me** icon \[Omitted image "icon-hr-add-me.png"\] Alt text: Add me icon to add yourself or the **Unlock additional parties** icon \[Omitted image "icon-hr-unlock-add-parties.png"\] Alt text: Unlock additional parties icon to add yourself or other people.
-
- You can optionally enter the email addresses for each interviewer.
-
-</td></tr><tr><td>
-
-External URL
-
-</td><td>
-
-A URL that is relevant to the interview. For example, if your company maintains interview notes in a different or external system from HR Service Delivery, you can enter the URL to maintain a link and consistency.
-
-</td></tr><tr><td>
-
-Interview date
-
-</td><td>
-
-The date the interview took place. Appears after the interview concluded.
-
-</td></tr><tr><td>
-
-Created by
-
-</td><td>
-
-The user that created the interview invite record.
-
-</td></tr><tr><td>
-
-Interview notes
-
-</td><td>
-
-Notes from the interview or you can enter the answers to the questions from the interview question templates.
-
-</td></tr></tbody>
-</table>6.  Select the **Questions** button at the top, right corner to view, and select questions from an interview template.
-
-    Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
-
-7.  If an interview template appears, select it and you can select **Copy to clipboard** or **Insert to notes**.
-
-    **Note:** **Copy to clipboard** copies the questions from the interview template and allows you to paste it to an external document. **Insert to notes** copies all questions to the **Interview notes** field.
-
-8.  Select **Save** or **Submit**.
-
-    If you select **Save**, the Evidence related list appears. For more information, see [Evidence Management for Employee Relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-evidence-mgmt.md).
-
-
-### Schedule an interview in HR Service Delivery Employee Relations using Agent Workspace for HR Case Management
-
-Use HR Service Delivery Agent Workspace to capture a record of an interview.
-
-#### Before you begin
-
-Role required: sn\_hr\_er.case\_writer
-
-#### Procedure
-
-1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
-
-2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
-
-3.  Select **Other**.
-
-4.  Select **Employee Relations Cases**.
-
-5.  Select an ER case.
-
-6.  Select **more** from the row of tabs below the **Case Timeline**.
-
-7.  Select **Interviews**.
-
-8.  Select **New**.
-
-9.  Fill in the form.
-
-<table id="simpletable_bhv_s5z_4pb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Number
-
-</td><td>
-
-he number identifying the interview record. The application automatically assigns interview numbers.
-
-</td></tr><tr><td>
-
-HR case
-
-</td><td>
-
-he HR ER case number associated with the interview.**Note:** If you access the interview from **Employee Relations**, you have to select an HR case to associate the interview to.
-
-</td></tr><tr><td>
-
-Interviewee
-
-</td><td>
-
-Name of the person who you are interviewing.Select the **Lookup using list** icon \[Omitted image "magnifying-glass.png"\] Alt text: Lookup using list icon and search for the person you are interviewing. If no names appear, you can create an involved party. For more information, see [Create an involved parties record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-involved-parties.md).
-
-</td></tr><tr><td>
-
-Interviewers
-
-</td><td>
-
-Names of the people who conducted the interview.Click inside the field and a list of names appear that you can select.
-
-**Note:** Only members with the sn\_interview\_temp.writer role or belong to a group that has the Employee Relations skill.
-
-</td></tr><tr><td>
-
-External attendees
-
-</td><td>
-
-Indicates you want to add external attendees to the interview record.
-
-</td></tr><tr><td>
-
-External invite email
-
-</td><td>
-
-The email addresses of the external attendees.Only appears when you select the **External attendees** choice.
-
-**Note:** Separate each email address with a comma.
-
-</td></tr><tr><td>
-
-Scheduling method
-
-</td><td>
-
-The method you are using to schedule the interview. Select **Manual entry** to select the Start and End dates and times of the interview.
-
- If your company uses the integration with Microsoft Outlook Calendar to schedule, select **Calendar**. You can schedule an interview with an interface that syncs with your company's Outlook Calendar. For more information, see [Using Interview Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
-
-</td></tr><tr><td>
-
-Start date
-
-</td><td>
-
-The start date and time of the interview.Select the **Show calendar** icon \(\[Omitted image "hr-ws-show-calendar-icon.png"\] Alt text: Show calendar icon and select the date and time the interview starts.
-
-</td></tr><tr><td>
-
-End date
-
-</td><td>
-
-The endt date and time of the interview.Select the **Show calendar** icon \(\[Omitted image "hr-ws-show-calendar-icon.png"\] Alt text: Show calendar icon and select the date and time the interview ends.
-
-</td></tr><tr><td>
-
-Additional parties
-
-</td><td>
-
-Other people you want as part of the interview record.Click in the field and a list of names appears.
-
- You can optionally enter the email addresses for each interviewer.
-
-**Note:** These names appear from
-
-</td></tr><tr><td>
-
-External URL
-
-</td><td>
-
-A URL that is relevant to the interview.
-
-</td></tr><tr><td>
-
-Created by
-
-</td><td>
-
-The user name of the person who created the interview record.
-
-</td></tr><tr><td>
-
-Interview notes
-
-</td><td>
-
-Notes from the interview or you can enter the answers to the questions from the interview question templates.In the Contextual Sidebar, select the **Interview Templates** icon \(\[Omitted image "hr-ws-int-temp-icon.png"\] Alt text: Interview template icon to search for interview question templates.
-
- \[Omitted image "agent-ws-hr-er-int-temp.png"\] Alt text: HR Agent Workspace - Interview Template
-
- Interview templates provide questions you can use in the interview, You can insert the questions from the template into the **Interview notes** field or copy to the clipboard to insert in an outside document.
-
- \[Omitted image "agent-ws-hr-er-interview.png"\] Alt text: HR Agent Workspace - Interview templates
-
- Select \[Omitted image "hr-ws-int-temp-icon2.png"\] Alt text: Interview Template icon to see the Insert to notes or Copy to clipboard choices.
-
- Interview templates ensure consistency and efficiency when conducting interviews. For more information, see [Create an interview question template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
-
-</td></tr></tbody>
-</table>10. Select **Save**.
 
 

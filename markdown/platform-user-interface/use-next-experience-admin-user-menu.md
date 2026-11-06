@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/use-next-experience-admin-user-menu.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [next experience admin, admin functions, admin user functions]
-breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Performing admin user functions in Next Experience
@@ -39,7 +39,7 @@ Impersonate user
 
 </td><td>
 
-Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ImpersonateAUser.md).
+Option to impersonate other authenticated users for testing purposes and to view impersonation logs. For more information, see Impersonate a user.
 
 </td></tr><tr><td>
 

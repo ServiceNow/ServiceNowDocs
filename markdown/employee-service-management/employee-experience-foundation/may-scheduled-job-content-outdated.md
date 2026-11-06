@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage outdated connected content, Taxonomy and connected content, Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Manage outdated connected content, Taxonomy and connected content, Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Run the scheduled job for outdated content
@@ -45,7 +45,7 @@ Reduce maintenance overhead with the scheduled job or alternatively [Manage outd
 
 When the job is complete, the taxonomy admins receive the following email notification with the subject line **Cleanup of Outdated Connected Content** along with the details indicating the total items removed, if any.
 
-\[Omitted image "image.outdated-cleanup-email"\] Alt text: Cleanup email notification
+\[Omitted image "outdated-cleanup-email.png"\] Alt text: Cleanup email notification
 
 When a category has outdated data, that data isn't associated with the topic.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Organize components in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Column layouts
@@ -25,8 +25,6 @@ Column layouts can have columns of equal or different widths.
 \[Omitted image "column-layout-examples.png"\] Alt text: Examples of column layouts available in UI Builder.
 
 You can configure the column layout as a whole and the individual columns within the layout. For example, set a different border width and color for a column layout and for the individual columns within the layout.
-
-\[Omitted image "column-layout-sample-two-layouts.png"\] Alt text: UI Builder page with a single column layout containing a heading and then a three column layout underneath.
 
 **Note:** Currently, hiding/showing columns in a column layout based on conditions isn't supported.
 

@@ -7,22 +7,22 @@ release: yokohama
 product: Value Library
 classification: value-library
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Value Management, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Business ROI tracking with Value Reports, Value Management, Impact reference, Impact]
 ---
 
 # Value calculation for Impact Value Reports
 
 You can use value calculation for measurable business impact and track value using metrics.
 
-Value calculation translates operational performance into measurable business impact—typically in monetary terms. Each business objective is linked to specific outcomes tracked through defined metrics. These metrics include a baseline \(reference\), goal, and current quarterly values.
+Value calculation translates operational performance into measurable business impact typically in monetary terms. Each business objective is linked to specific outcomes tracked through defined metrics. These metrics include a baseline \(reference\), goal, and current quarterly values.
 
-## Tracking your progress
+## Track your progress
 
 Business objectives are your high-level business goals. To help measure your achievement toward that goal, each objective is connected to several measurable outcomes. The outcomes are in turn tied to metrics that record your progress from quarter to quarter.
 
-## Measuring Progress toward Automation Goals
+## Measuring progress toward automation goals
 
 If your business objective is to increase automation within your technology service operations, one way to track progress is through a lagging indicator that reflects the impact of automation efforts. An effective outcome to measure is the reduction in incident volume handled by the service delivery team. The corresponding metric is the number of incidents closed over a defined period. As automation reduces the overall number of incidents, the service delivery team experiences a decrease in manual workload—freeing up time for higher-value tasks.
 
@@ -58,7 +58,7 @@ Each quarter, the current metric value is compared against the reference \(basel
 
 ## Business value
 
-Business value is focused on monetization of outcomes and success metrics in your Objectives and outcomes, and delivered via Value Report. Business value is available for Advanced and Total Impact customers only. Value Report has actuals, comparison, actual date range, and comparison date range.
+Business value is focused on monetization of outcomes and success metrics in your Objectives and outcomes, and delivered via Value Report. Check your entitlements to determine whether you have access to Value Reports. Value Report has actuals, comparison, actual date range, and comparison date range.
 
 -   **Actuals**
 
@@ -68,7 +68,7 @@ Business value is focused on monetization of outcomes and success metrics in you
 
     Operational performance data for the metric within the defined comparison date range.
 
--   **Actual Date Range**
+-   **Actual date range**
 
     The annual period \(typically four quarters\) chosen for calculating business value.
 

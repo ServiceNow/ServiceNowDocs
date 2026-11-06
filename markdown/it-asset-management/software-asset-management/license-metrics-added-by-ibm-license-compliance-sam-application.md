@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Request the IBM License Compliance for Software Asset Management application for authorized Software Asset Management provider integrations, Setting up an IBM Authorized SAM Provider \(IASP\) integration, Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Request the IBM License Compliance for Software Asset Management application, Setting up an ASP integration, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # License metrics added by the IBM License Compliance for Software Asset Management application
@@ -36,5 +36,5 @@ By default, the IBM metric group includes the following license metrics for IBM 
 
 All other license metrics that are added by the IBM License Compliance for Software Asset Management application are not included in the IBM metric group. If you want to reconcile your IBM software products using any of these license metrics, you must create a corresponding custom license metric on your ServiceNow instance. See [Add a custom license metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/add-custom-license-metric.md) for more information on how to create a custom license metric.
 
-**Parent Topic:**[Request the IBM License Compliance for Software Asset Management application for authorized Software Asset Management provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md)
+**Parent Topic:**[Request the IBM License Compliance for Software Asset Management application for Authorized Software Asset Management Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-ibm-license-compliance-sam-application.md)
 

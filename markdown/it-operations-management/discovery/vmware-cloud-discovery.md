@@ -1,5 +1,5 @@
 ---
-title: Discovery for VMware Cloud
+title: Discovery for VMware
 description: Applications that access VMware cloud resources need access to VMware credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/vmware-cloud-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery for VMware Cloud
+# Discovery for VMware
 
 Applications that access VMware cloud resources need access to VMware credentials.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-config-subflow.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a success play, Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Create a success play, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
 # Define subflows for success plays
@@ -17,7 +17,7 @@ Before you create a success play, you must define a subflow and add it to the De
 For instructions on creating a subflow, see [Create a flow, subflow, or action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/create-acl-flowdesigner.md). After you have created the subflow, follow these steps to add it to the Definition Records table.
 
 1.  Navigate to **All** and enter `sn_acct_lc_definition_record.list` in the Search filter.
-2.  In the Definition Records page, click **New**.
+2.  In the Definition Records page, select **New**.
 3.  In the form, fill the fields.
 
 <table id="table_w24_qff_1cc"><thead><tr><th>
@@ -73,5 +73,7 @@ Description
 Enter a description for this definition record.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
+
+**Parent Topic:**[Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.md)
 

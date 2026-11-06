@@ -7,7 +7,7 @@ release: yokohama
 product: Skills Management
 classification: skills-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -44,15 +44,15 @@ You can build your skill taxonomy from scratch or use the sample data provided w
 
 6.  Add sub-categories or skills.
 
-<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d507149e132">
+<table id="choicetable_fnj_ytd_hhb"><thead><tr><th align="left" id="d513801e132">
 
 To add
 
-</th><th align="left" id="d507149e135">
+</th><th align="left" id="d513801e135">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d507149e141">
+</th></tr></thead><tbody><tr><td id="d513801e141">
 
 **Sub-categories**
 
@@ -62,7 +62,7 @@ Do this
 -   In the **Name** field, enter a unique name for the category.
 
 
-</td></tr><tr><td id="d507149e168">
+</td></tr><tr><td id="d513801e168">
 
 **Skills**
 

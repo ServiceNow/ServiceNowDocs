@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Submitting a deposit service request, Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Submitting a deposit service request, Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a deposit service case as a contributor or agent connector
@@ -35,7 +35,7 @@ As a deposit contributor or agent connector, fill in the customer data, collect 
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Customer Cases**, click **My cases**.
 

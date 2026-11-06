@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Flow error handler, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Flow error handler, Build flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Add an error handler to a flow

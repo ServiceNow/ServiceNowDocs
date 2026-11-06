@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2026-01-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ Handles agent consult work items.
 
 This API requires the Advanced Work Assignment plugin \(com.glide.awa\) and the awa\_integration\_user role.
 
-For more information about AWA, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md).
+For more information about AWA, see Advanced Work Assignment.
 
 Use the [AWA Offer Work API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/awa-offer-work-api.md) to initiate a consult transfer to an agent or a queue.
 
@@ -175,7 +175,7 @@ Unauthorized. The user credentials are incorrect or have not been passed.
 Forbidden.Possible reasons:
 
 -   The user doesn't have the awa\_integration\_user role.
--   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see [Components installed with Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/installed-with-awa.md).
+-   The value of the glide.awa.enabled property isn't `true`. This property is listed in the System Property \[sys\_property\] table if the Advanced Work Assignment \(com.glide.awa\) plugin is installed. For more information, see Components installed with Advanced Work Assignment.
 
 </td></tr><tr><td>
 

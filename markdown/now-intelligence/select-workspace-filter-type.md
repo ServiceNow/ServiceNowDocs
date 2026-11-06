@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/select-workspace-filter-type.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -42,19 +42,23 @@ Role required: dashboard\_admin, or you must be the dashboard owner or have had 
 
 7.  If you are creating a new filter, select the type of data to filter.
 
-    Other configuration options vary depending on the data type you select.
+    Other configuration options vary depending on the data type you select. After you select the filter type, follow the instructions on the linked page to continue configuration.
 
     -   [Single select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-select-filter-workspace.md): A single value from a set of choices. Single select is the default filter type.
     -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
     -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
     -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values. The labels for 'true' and 'false' can be customized. The viewer can select **\(empty\)** to clear their selection.
-8.  Position the filter.
+8.  Choose the **Filter Element**.
 
-    If the dashboard has tabs, putting the filter in a tab affects only the visualizations in that tab. If the dashboard has no tabs, or you place the filter above the tabs, it affects all visualizations in the dashboard.
+    Element options depend on the filter type, but include Pill, Checkboxes, and Typeahead.
 
 9.  In the **Filter label** field, type a meaningful name for the filter.
 
-    This name is the name that the runtime user sees.
+    This name is the name that the user sees.
+
+10. Position the filter.
+
+    If the dashboard has tabs, putting the filter in a tab affects only the visualizations in that tab. If the dashboard has no tabs, or you place the filter above the tabs, it affects all visualizations in the dashboard.
 
 
 ## What to do next

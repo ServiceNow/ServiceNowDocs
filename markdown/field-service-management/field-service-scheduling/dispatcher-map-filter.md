@@ -1,20 +1,20 @@
 ---
 title: Limit the Dispatcher Workspace map display to tasks or agents
-description: Reduce the number of pins displayed on the map in dispatcher workspace by displaying either tasks or agents.
+description: Reduce the number of pins displayed on the map in Dispatcher Workspace by displaying either tasks or agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/dispatcher-map-filter.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Limit the Dispatcher Workspace map display to tasks or agents
 
-Reduce the number of pins displayed on the map in dispatcher workspace by displaying either tasks or agents.
+Reduce the number of pins displayed on the map in Dispatcher Workspace by displaying either tasks or agents.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: wm\_dispatcher
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace**.
 
-2.  Select **Dispatcher workspace** in the left navigation.
+2.  Select **Dispatcher workspace**.
 
 3.  Select **Schedule** \(the default view name\) and choose the main display from the drop-down list.
 

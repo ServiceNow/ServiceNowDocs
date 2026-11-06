@@ -1,20 +1,20 @@
 ---
-title: Add a Journey Accelerator action plan link to the My active items widget
-description: Add a menu item for Journey Accelerator action plans to the My active items widget in the Employee Center.
+title: Add a Journey Accelerator action plan link to My Active Items list
+description: Add a menu item for Journey Accelerator action plans to the header menus in the Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.html
 release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure action plan access in the Employee Center, Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure action plan access in the Employee Center, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Add a Journey Accelerator action plan link to the My active items widget
+# Add a Journey Accelerator action plan link to My Active Items list
 
-Add a menu item for Journey Accelerator action plans to the My active items widget in the Employee Center.
+Add a menu item for Journey Accelerator action plans to the header menus in the Employee Center.
 
 ## Before you begin
 
@@ -24,40 +24,20 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Activity Configuration**.
+1.  Navigate to **All** &gt; **Employee Center** &gt; **Activity Configuration** and click **New**.
 
-    The Activity Configurations table appears.
+2.  Fill in these fields.
 
-2.  Select **New** to create an activity configuration.
+    -   **Activity Name**: `Action plan items`
+    -   **Activity portal page**: `ja_plans`
+    Leave the default settings for the other fields.
 
-    The Activity Configuration form appears.
-
-3.  Use the application picker to set the application scope to **Employee Center**.
-
-    See [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md) for more information about using the application scope picker.
-
-    The **Application** field is set to **Employee Center**.
-
-4.  In the **Activity Name** field, type `Action plan items`.
-
-5.  In the **Activity portal page** field, select **ja\_plans**.
-
-6.  Accept the default values for the following fields:
-
-    1.  **Activity navigation** field is set to **Internal**.
-
-    2.  **Order** field is set to **100**.
-
-    3.  **Primary** check box is cleared.
-
-    4.  **Advanced** check box is cleared.
-
-    5.  **Active** check box is selected.
-
-7.  Select **Submit**.
+    -   **Activity navigation**: Internal
+    -   **Order**: 100
+3.  Click **Submit**
 
 
 ## What to do next
 
-Complete the configuration process for the activity configuration you created by specifying configuration details. See [Create activity configuration details for the Journey Accelerator action plan items activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/create-ja-activity-config.md).
+Go to **Employee Center** &gt; **Activity Configuration**, and create an Employee Center activity configuration for the activity you created. See, [Create an Employee Center activity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/create-ja-activity-config.md).
 

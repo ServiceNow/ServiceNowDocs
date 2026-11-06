@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional information - Jenkins, Jenkins, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -24,7 +24,7 @@ When you trigger a scripted Jenkins pipeline and a change request is created as 
 
 \[Omitted image "change-number-scripted-jenkins.png"\] Alt text: Change request number in Jenkins logs for scripted pipelines
 
-Upon triggering a free-style Jenkins pipeline, the change request that is created as part of the ServiceNow DevOps pipeline execution stage waits for the approval action to be performed on the change. The change request number and details display against the relevant build in the Jenkins console's **Build History** section.
+On triggering a free-style Jenkins pipeline, the change request that is created as part of the ServiceNow DevOps pipeline execution stage waits for the approval action to be performed on the change. The change request number and details display against the relevant build in the Jenkins console's **Build History** section.
 
 \[Omitted image "devops-change-freestyle-jenkins.png"\] Alt text: Change request number in Jenkins Build History for free-style pipelines
 

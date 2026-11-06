@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # View stockroom details in the Enterprise Asset Workspace
@@ -203,7 +203,7 @@ Create and view audits for your enterprise asset inventory.
 </td></tr></tbody>
 </table>5.  View all active stock rules that are configured for the stockroom.
 
-    1.  From the sidebar of the stockroom record, select the Stock rules icon \(\[Omitted image "stock-rules-icon.png"\] Alt text: Stock rules icon.\).
+    1.  From the sidebar of the stockroom record, select the Stock rules icon \[Omitted image "stock-rules-icon.png"\] Alt text:.
 
     2.  View each stock rule to determine if your available stock is within the specified threshold.
 

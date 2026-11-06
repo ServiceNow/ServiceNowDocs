@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Software asset analytics view, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # SaaS overview dashboard in workspace
@@ -241,7 +241,7 @@ SaaS detection
 
 </td><td>
 
-DEX Applications \[samp\_dex\_application\]**Note:** This table has been repurposed for use with the ACC-VC product 1.3.0.
+SaaS URL Usage Applications \[saas\_url\_usage\]
 
 </td><td>
 
@@ -250,10 +250,10 @@ Number of SaaS applications or percentage of the total applications that are man
 
 **Important:** To view this chart, you must do the following:
 
--   Request and install version 15.0.15 or later of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
--   Install the Agent Client Collector for Visibility Content \(ACC-VC\) product version 1.3.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-landing-page.md).
+-   Request and install the latest version of the Software Asset Management -SaaS License Management application from the [ServiceNow Store](https://store.servicenow.com/). For more information, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+-   Install the Agent Client Collector for Visibility Content \(ACC-VC\) product version 1.9.0 or later. For more information, see [Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/acc-landing-page.md).
 
-For more information, see the [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/shadow-saas-analytics.md) report.
+For more information, see the [SaaS detection report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/shadow-saas-analytics.md).
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring workspace lists and records for form submissions
@@ -34,7 +34,7 @@ If it would help your fulfillers to have additional categories, you must ask you
 
 When fulfillers open the workspace to view an app's form submissions, the default "Open" list displays all open requests made through the app. However, if you have multiple forms in your app, fulfillers might find it easier to have separate "Open" lists for each form in the app. In that case, you should create a different list for each separate form and name each of them after the forms. Find out how in [Add a filtered list to a workspace in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-add-filtered-list.md).
 
-Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [Create My Lists in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/create-filtered-list-agent-workspace.md).
+Fulfillers can use the "My Lists" feature in Workspace to create custom lists that fit their needs. Tell them how to by checking out [ServiceNow AI Platform® list administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/p_ListAdministration.md).
 
 ## How fulfillers access submitted forms
 
@@ -53,11 +53,11 @@ Edit how the record a form generates will appear by navigating to the **Record d
 
 What fulfillers can see in the workspace lists depends on their permissions. For example, admins can see workspace categories for all apps built in Creator Studio. However, most users see only the workspace category for their particular app.
 
-\[Omitted image "crs-form-sub-workspace.png"\] Alt text: Fulfillers work on requests in the workspace
+\[Omitted image "crs-form-sub-workspace.png"\] Alt text: sc
 
 When fulfillers view a record for an individual request in the workspace, the **Catalog tasks** tab displays the playbook that you configured in Creator Studio.
 
-Fulfillers or admins may also want to monitor the app’s performance as requests come in. This is where the **Dashboard overview** in the Request App Workspace is helpful! On the **Dashboard overview** tab, each app has its own analytics dashboard that shows applicable data, like how many open requests you have or what tasks are related to the app. There’s a lot of helpful information here. Find out more about working with data in [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
+Fulfillers or admins may also want to monitor the app’s performance as requests come in. This is where the **Dashboard overview** in the Request App Workspace is helpful! On the **Dashboard overview** tab, each app has its own analytics dashboard that shows applicable data, like how many open requests you have or what tasks are related to the app. There’s a lot of helpful information here. Find out more about working with data in [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
 
 -   **[Add a filtered list to a workspace in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-add-filtered-list.md)**  
 Create custom filtered lists in the app submission workspace to view records that meet specific conditions. For example, if your app has multiple forms, you can create a list for each form by filtering on the record type.

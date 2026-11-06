@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ The new GRC: taxonomy management application provides the following benefits:
 -   It offers the flexibility to add the new taxonomy categories with a new taxonomy class record in addition to the taxonomy categories provided out-of-the-box \(OOTB\).
 -   It helps you to streamline your regulatory compliance, trace the regulatory requirements, and update the external regulations.
 
-**Note:** If you have downloaded the Regulatory Change Management application previously and you are upgrading to the Yokohama GA release, copy the data from the old taxonomy tables to the new taxonomy tables.
+**Note:** If you have downloaded the Regulatory Change Management application previously and you are upgrading to the Brazil GA release, copy the data from the old taxonomy tables to the new taxonomy tables.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

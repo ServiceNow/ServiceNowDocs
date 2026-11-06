@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/limitations-exporting-db-dv.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Export dashboards and visualizations, Platform Analytics in the Now Assist panel, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Export dashboards and visualizations, Platform Analytics in the ServiceNow Otto panel, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Limitations for exporting dashboards and visualizations
@@ -26,7 +26,7 @@ Some prompts are not recognized at all. Avoid the following phrases:
 -   Mail to me
 -   Mail with subject and body as Visualization/Dashboard name
 
-**Parent Topic:**[Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
+**Parent Topic:**[Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/imp-analysis-dep-update-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Scheduling auto-update of dependencies, Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [Scheduling an auto-update of dependencies, Structured workflows for BIAs, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Update the BIA dependencies
@@ -50,5 +50,5 @@ Role required: sn\_bcm.program\_manager, sn\_bcm.planner, sn\_bcm.admin
     The BIA owners and approvers can update the dependencies by saving the changes to the BIA.
 
 
-**Parent Topic:**[Scheduling auto-update of dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/update-impactanalysis-dep-based-on-cmdb-changes.md)
+**Parent Topic:**[Scheduling an auto-update of dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/update-impactanalysis-dep-based-on-cmdb-changes.md)
 

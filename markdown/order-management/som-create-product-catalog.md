@@ -1,26 +1,26 @@
 ---
 title: Create a product offering catalog
-description: Catalogs are top level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
+description: Create a product catalog that lists the product offerings available to your customers. Catalogs are top-level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-product-catalog.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering catalog
 
-Catalogs are top level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
+Create a product catalog that lists the product offerings available to your customers. Catalogs are top-level entities in the catalog hierarchy. Catalogs have categories and categories can have sub-categories or product offers.
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_manager
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offering Catalogs**.
 
@@ -82,7 +82,7 @@ Description
 
 </td><td>
 
-A brief description of your product catalog, for example.
+A brief description of your product catalog, for example, .
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ State
 
 </td><td>
 
-State of the catalog. The supported lifecycle states are Draft, Published, Retired, and Archived.
+State of the catalog. The supported life cycle states are Draft, Published, Retired, and Archived.
 
 </td></tr><tr><td>
 
@@ -114,10 +114,18 @@ Code
 
 </td><td>
 
-Product code for the catalog. The system automatically generates a code based on the catalog **Name** entered, but you can change the value to any desired alphanumeric string.
+System-generated product code for the catalog. The system automatically generates a code based on the catalog **Name** entered, but you can change the value to any desired alphanumeric string.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Number that sets where this catalog appears relative to other catalogs. Catalogs display in ascending order by this number, then alphabetically. Leave this field empty to sort the catalog alphabetically with other unordered catalogs.
 
 </td></tr></tbody>
-</table>4.  Select **Save** and then **Publish**.
+</table>4.  Select **Save**.
 
     The product offering catalog is in the Draft state.
 
@@ -129,4 +137,11 @@ Product code for the catalog. The system automatically generates a code based on
 ## What to do next
 
 Create product offering categories.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

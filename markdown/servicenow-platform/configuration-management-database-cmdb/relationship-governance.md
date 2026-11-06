@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CI relationships in the CMDB, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Relationship governance rules
@@ -45,7 +45,7 @@ Relationship governance rules consist of:
 
 ## Reports
 
-A relationship between CIs is considered valid if it conforms to any of the relationship governance rules. Use the Relationship Health dashboard to view reports about [relationships health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md) including relationships compliance with relationship governance rules. The 'Relationships not compliant with all relationship rules' report shows CI relationships that are not compliant with any of the relationship governance rules.
+A relationship between CIs is considered valid if it conforms to any of the relationship governance rules. Use the Relationship Health Dashboard to view reports about [relationships health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md) including relationships compliance with relationship governance rules. The 'Relationships not compliant with all relationship rules' report shows CI relationships that are not compliant with any of the relationship governance rules.
 
 **Parent Topic:**[CI relationships in the CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CIRelationships.md)
 

@@ -1,55 +1,45 @@
 ---
-title: ServiceNow AI implementation
-description: Getting ready to implement Now Assist is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
+title: Implementing AI on the ServiceNow AI Platform
+description: Preparing for an AI implementation involves more than installing plugins — your data, applications, and AI policy each shape the result. Working through these foundations before activation reduces rework whether you're enabling conversational catalogs, automating content generation, or enriching user interactions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/sn-ai-implementation-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-10-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Getting started with AI, Enable AI Experiences]
 ---
 
-# ServiceNow AI implementation
+# Implementing AI on the ServiceNow AI Platform
 
-Getting ready to implement Now Assist is more than just installing plugins—it’s about laying the groundwork for a seamless, intelligent experience across your workflows. Whether you're enabling conversational catalogs, automating content generation, or enhancing user interactions, a few key steps will ensure your data is ready, your applications are prepared, and your organization's AI policy is in alignment with your implementation.
+Preparing for an AI implementation involves more than installing plugins — your data, applications, and AI policy each shape the result. Working through these foundations before activation reduces rework whether you're enabling conversational catalogs, automating content generation, or enriching user interactions.
 
 ## Get started
 
 <table id="table_vhh_f41_zgc" class="nav-card presentation"><tbody><tr><td>
 
-[Now Assist overview\[Omitted image "bus-explore.svg"\] Alt text:Learn about the applications and features that make up the Now Assist experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-overview-tools.md)
+[Organization and tools\[Omitted image "bus-optimize-manage.svg"\] Alt text:Learn about the applications and features that make up the ServiceNow AI experience.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-overview-tools.md)
 
 </td><td>
 
-[AI governance\[Omitted image "bus-business-management.svg"\] Alt text:Learn about the importance of AI governance to ensure responsible use, regulatory compliance, and alignment with enterprise goals.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-governance.md)
+[Roles and responsibilities\[Omitted image "bus-3-person.svg"\] Alt text:Identify the administrative roles required to install, configure, and manage each ServiceNow AI capability.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platai-roles-responsibilities-ai-admin.md)
 
 </td><td>
 
-[Data readiness\[Omitted image "bus-database.svg"\] Alt text:Learn how to prepare your instance data for Now Assist.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-data-readiness.md)
-
-</td></tr><tr><td>
-
-[Application readiness\[Omitted image "bus-management-console.svg"\] Alt text:Ensure that your instance is ready to take advantage of Now Assist by preparing Platform applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/sn-ai-impl-app-readiness.md)
-
-</td><td>
-
-[Resolve common issues\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Address issues or gaps in your Now Assist configuration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-install-config-checklist.md)
-
-</td><td>
-
- 
+[Glossary\[Omitted image "bus-learn.svg"\] Alt text:Look up definitions for ServiceNow AI terminology.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-glossary.md)
 
 </td></tr></tbody>
-</table>Additional implementation information is available on [Now Create](https://learning.servicenow.com/nowcreate).
+</table>**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see [ServiceNow product tiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-native-sku-overview.md).
+
+Additional implementation information is available on [Now Create](https://learning.servicenow.com/nowcreate).
 
 For additional Now Assist resources, see [Additional resources for AI products and solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-additional-resources.md).
 
 **Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## AI limitations
@@ -63,4 +53,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md).
 

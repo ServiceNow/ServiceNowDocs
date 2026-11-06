@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Log correlators form fields
@@ -71,7 +71,7 @@ Excluded sources
 
 Sources that are excluded from the log correlator. The system does not analyze log lines from sources that are listed in this field.**Note:** This field applies only when the **Range of analysis** field is set **All sources** or **Only new sources**.
 
-For information about excluding a source from a log correlator, see [Exclude a source from a log correlator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md).
+For information about excluding a source from a log correlator, see [Exclude a source from a log correlator in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-correlators-exclude-source.md).
 
 </td></tr><tr><td>
 
@@ -79,7 +79,7 @@ Source
 
 </td><td>
 
-Source of the log correlator. The log correlator analyzes the data of this log source.This field appears only when you are adding the log correlator from the Log Sources form. The field is automatically set to the log source that you are working on.
+Source of the log correlator. The log correlator analyzes the data of this log source.This field appears only when you're adding the log correlator from the Log Sources form. The field is automatically set to the log source that you're working on.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)

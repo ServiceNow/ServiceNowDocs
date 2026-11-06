@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_MicrosoftSCCMIntegration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -71,7 +71,7 @@ Importing data from Microsoft SCCM requires a connection to the SCCM database vi
 -   **[Activate SCCM Asset Intelligence scheduled imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-scheduled-imports.md)**  
 To prevent duplicate software imports, activate either the Asset Intelligence \(AI\) or the non-AI scheduled import.
 -   **[Upgrade the SCCM integration version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_UpgradeSCCMIntegrationVersion.md)**  
-If you are using an earlier version of an System Center Configuration Manager\(SCCM\) plugin, you can switch over to a later version to take advantage of new features.
+If you're using an earlier version of an System Center Configuration Manager\(SCCM\) plugin, you can switch over to a later version to take advantage of new features.
 
 **Parent Topic:**[ServiceNow provided integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_ServiceNowProvidedintegrations.md)
 

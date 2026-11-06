@@ -1,18 +1,18 @@
 ---
 title: CSM integration with Request Management
-description: Integration with the Request Management application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals.
+description: Integration with the Request ManagementCSM application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-sm-request.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CSM integration with IT Service Management overview, Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Overview, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # CSM integration with Request Management
 
-Integration with the Request Management application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals.
+Integration with the Request ManagementCSM application enables customer service agents to create request records from cases or associate existing request records to cases. It also enables customers to create requests from the Customer and Consumer Service Portals.
 
 With this integration, customer service agents can:
 
@@ -65,7 +65,7 @@ If the case is the parent of the request, notifications to the requester are sup
 
 [Create a request on behalf of a customer or consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/agent-create-request-for-customer.md)
 
-[Create a request record from Agent workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-item-agent-tasks.md)
+[Create a request record from a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-item-agent-tasks.md)
 
 [Create a request from the Customer and Consumer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-request-from-csp.md)
 

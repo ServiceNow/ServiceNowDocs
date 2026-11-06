@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Export a report to PDF
@@ -28,7 +28,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon. icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  To generate a compliance case report, select **All cases**.
 
@@ -36,7 +36,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
 5.  Open the compliance case or compliance request that you want to export as a PDF report.
 
-6.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
+6.  Select the More actions \[Omitted image "more-actions-menu.png"\] icon.
 
 7.  Select **Export PDF**.
 
@@ -48,7 +48,7 @@ You can export compliance data to PDF reports for easy sharing with audit teams,
 
     A PDF report is generated and is available in the Attachments section of the record to download.
 
-10. To download a local copy of the PDF report, select the More actions \[Omitted image "more-actions-vertical-icon.png"\] Alt text: More actions icon. icon on the PDF report, and select **Download**.
+10. To download a local copy of the PDF report, select the More actions \[Omitted image "more-actions.png"\] icon on the PDF report, and select **Download**.
 
 
 **Parent Topic:**[Using Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/use-compliance-case-management.md)

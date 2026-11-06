@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multicurrency fields in project-related forms, Reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Multicurrency fields in project-related forms, Project Management reference, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Project currency in cost and benefit plans
@@ -21,6 +21,8 @@ The currency fields in cost and benefit plans defaults to the project currency o
 The **Entered Currency** field of the cost plan defaults to the project currency of the project if multicurrency plugin is installed, irrespective of the views – default or functional currency. However, if multicurrency plugin is not installed, the **Entered currency** field of the cost plan defaults to the functional currency of the project.
 
 Similarly, the **Entered Currency** field of the benefit plan defaults to the project currency of the project if multicurrency plugin is installed, irrespective of the views – default or functional currency. However, if multicurrency plugin is not installed, the **Entered Currency** field of the benefit plan defaults to the functional currency of the project.
+
+**Parent Topic:**[Multicurrency fields in project-related forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/multicurrency-fields-project-form.md)
 
 **Related topics**  
 

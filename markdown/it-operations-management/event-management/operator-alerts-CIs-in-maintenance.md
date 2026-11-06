@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced tasks for the Event Management operator, Event Management Operator Tutorial, Using Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Advanced operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Handle alerts while CIs are in maintenance
@@ -54,7 +54,7 @@ Role required: evt\_mgmt\_operator
 
 5.  At this point, you should not modify the alert associated with this CI.
 
-    You can open the change request to see if a schedule is attached, or coordinate with your team to find out when the CI will no longer be in maintenance.
+    You can open the change request to see if a schedule is attached. Coordinate with your team to find out when the CI will no longer be in maintenance.
 
 6.  After you verify that the **Status** field on the CI is not **In Maintenance**, open the alert again and clear the **Maintenance** check box.
 

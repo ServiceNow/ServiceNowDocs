@@ -1,6 +1,6 @@
 ---
-title: Add targets for multiple breakdown elements in KPI Details
-description: Select multiple breakdown elements in the KPI Details target configuration panel. Add a target to each element. This target can be an improvement on a baseline instead of an absolute value.
+title: Add a target to multiple breakdown elements in KPI Details
+description: Select multiple breakdown elements in the KPI Details target configuration panel. Add the same target to each element. This target can be an improvement on a baseline instead of an absolute value.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-multiple-targets.html
 release: yokohama
@@ -10,11 +10,15 @@ reading_time_minutes: 5
 breadcrumb: [Targets and thresholds, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
-# Add targets for multiple breakdown elements in KPI Details
+# Add a target to multiple breakdown elements in KPI Details
 
-Select multiple breakdown elements in the KPI Details target configuration panel. Add a target to each element. This target can be an improvement on a baseline instead of an absolute value.
+Select multiple breakdown elements in the KPI Details target configuration panel. Add the same target to each element. This target can be an improvement on a baseline instead of an absolute value.
 
 ## Before you begin
+
+**Important:**
+
+Native Data snapshots indicators do not support this functionality. You can add targets for multiple breakdown elements only for classic indicators and indicators that started as classic indicators but had Data snapshots enabled.
 
 Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
@@ -22,7 +26,7 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
 1.  Open KPI Details for an indicator.
 
-2.  Click the target icon \(\[Omitted image "target-icon.png"\] Alt text: Target icon\).
+2.  Click the target icon \(\[Omitted image "target-icon.png"\]\).
 
     The **Targets** panel opens.
 
@@ -44,7 +48,7 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin
 
     **Tip:** If you have many elements to scroll through, sort or filter on a value in any of the columns. You can also click **Filter** and use the condition builder to narrow down the selection.
 
-7.  Set targets for the elements as described in Step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md) in [Edit targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md).
+7.  Set targets for the elements as described in Step [7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md) in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md).
 
 8.  Set a start date, when the targets come into effect, and a review date.
 
@@ -111,9 +115,11 @@ Here is a table with the targets you created and their values. All targets take 
 
 [Create a target in KPI Details]()
 
-[Edit targets in KPI Details]()
+[Edit multiple targets in KPI Details]()
+
+[Subscribe users to Data snapshots indicator target]()
 
 [Create, modify, or delete a threshold in KPI Details]()
 
-[Responsibility for global indicator targets]()
+[Responsibility for indicator targets]()
 

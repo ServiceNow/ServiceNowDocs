@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-offer-recommendation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring product offering recommendations, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a product offering recommendation
@@ -22,7 +22,7 @@ Role required: Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Recommendations** &gt; **Product Offering Recommendations** and select **New**.
 
@@ -91,4 +91,11 @@ Brief description of the offering recommendation.
 
     The product recommendation card for the product is displayed to your agents when they're updating a quote that has the source product offering for this recommendation. For more information on how sales agents use product offering recommendations, see [Get additional product offering recommendations for quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-get-product-offer.md).
 
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

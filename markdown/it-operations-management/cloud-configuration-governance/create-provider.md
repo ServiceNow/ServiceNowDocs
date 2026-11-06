@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud API \(CAPI\), Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Add a product to an existing provider in CAPI
@@ -110,7 +110,7 @@ Dependency Sequence
 
 </td><td>
 
-The order in which resource type is provisioned or discovered. Specify the order based on inter-dependencies of resources. For example, if you have a network and a subnet that you want to discover or create, specify a higher order for network than subnet, so that discovery or creation of resources is performed logically and sequentially.
+The order in which resource type is provisioned or discovered. Specify the order based on inter-dependencies of resources. For example, if you have a network and a subnet that you want to discover or create, specify a higher order for network than subnet. This ensures that discovery or creation of resources is performed logically and sequentially.
 
 </td></tr></tbody>
 </table>    \[Omitted image "capi-resource-type.png"\] Alt text: A new resource type

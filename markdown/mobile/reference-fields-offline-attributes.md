@@ -5,19 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/reference-fields-offline-attributes.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure reference inputs for input form screens in offline mode, Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Input forms in offline, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Reference field attributes for input form screens in offline mode
 
 Configure the fields that you want to use and the data you want to display in offline mode by using various input attributes.
 
-**Note:**
-
--   You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/parameter-screen-config.md).
--   Offline mode is only available on the Mobile Agent app.
+**Note:** You must create an input form screen before you create variables and attributes. For information about creating an input form screen, see [Configure an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/parameter-screen-config.md).
 
 ## Reference inputs
 
@@ -65,7 +62,7 @@ OfflineConditions
 
 </td><td>
 
-Encoded query condition used to query the reference data. The **OfflineConditions** attribute takes precedence over the **Conditions** attribute.**Note:** This attribute can also be used when the **Conditions** attribute has a condition that cannot be supported in offline.
+Encoded query condition used to query the reference data. The **OfflineConditions** attribute takes precedence over the **Conditions** attribute.**Note:** This attribute can also be used when the **Conditions** attribute has a condition that can't be supported in offline.
 
 </td></tr><tr><td>
 
@@ -85,7 +82,7 @@ Use to specify a list of Sys IDs for reference records. Using this attribute, yo
 
  Reference fields can return many thousands of records, but only 1,000 records are supported to cache for offline mode. Use this attribute to define the specific records \(1,000 or less\) that you want to cache for use while offline.
 
- If this attribute is not used, then the first 1,000 records returned are cached.
+ If this attribute is not used, then the first 1,000 records returned are cached. An example script is shown in the next section.
 
 </td></tr><tr><td>
 
@@ -96,5 +93,49 @@ OfflineMaxNumRecords
 Defines the number of records that you can cache in offline mode. The maximum number is 1000.You can set a different value for each reference input.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configure reference inputs for input form screens in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/reference-fields-offline-mode.md)
+</table>## OfflineFetchScript implementation example
+
+This example shows how the system dynamically retrieves users who share the logged-in user's location for the **Assigned To**field in the input form.
+
+1.  Create a Script Include to return active users in the same location as the logged-in user, plus the user themself.
+
+    ```
+    var MobileOfflineUserFetch = Class.create(); 
+    MobileOfflineUserFetch.prototype = { 
+        initialize: function() {}, 
+     
+        getUsersByMyLocation: function() { 
+            var ids = []; 
+            var myId = gs.getUserID(); 
+            var myLoc = gs.getUser().getLocation(); 
+     
+            ids.push(myId); // include myself 
+     
+            if (!myLoc) 
+                return ids.join(','); 
+     
+            var gr = new GlideRecord('sys_user'); 
+            gr.addActiveQuery(); 
+            gr.addQuery('location', myLoc); 
+            gr.setLimit(1000); // Reference field limitation 
+            gr.query(); 
+     
+            while (gr.next()) { 
+                ids.push(gr.getUniqueValue()); 
+            } 
+            return ids.join(','); 
+        }, 
+     
+        type: 'MobileOfflineUserFetch' 
+    }; 
+    ```
+
+2.  Add the OfflineFetchScript input attribute to the **Assigned To** input field and set the value to the following:
+
+    ```
+    javascript: new MobileOfflineUserFetch().getUsersByMyLocation()
+    ```
+
+
+**Parent Topic:**[Input forms in offline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/offline-input-form.md)
 

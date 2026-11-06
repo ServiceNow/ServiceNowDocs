@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/explore-fso-integration-with-friss.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating with FRISS, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Operations Integration with FRISS
 
 With Financial Services Operations Integration with FRISS, your insurance company can embed the FRISS API for Claims in workflows, detect and prevent fraud, and improve your underwriting and claims processes.
 
-## FRISS overview
+## Overview of the application
 
 By using FRISS, you can detect fraud, assess your risks, and perform compliance management. You can also improve your profitability, customer satisfaction, and operational efficiency.
 

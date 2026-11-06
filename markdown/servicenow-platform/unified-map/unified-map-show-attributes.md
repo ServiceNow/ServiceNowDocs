@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View the attributes of a CI or a relationship
@@ -21,8 +21,8 @@ Open the **Attributes** panel in Unified Map to view attributes like location an
 Role required:
 
 -   To access maps: sn\_cmdb\_user, sn\_cmdb\_editor or sn\_cmdb\_admin
--   To access maps with operational application services: app\_service\_user, and sm\_user or sm\_admin
--   To access maps with operational and non-operational application services: app\_service\_admin, and sm\_user or sm\_admin
+-   To access maps with operational service instances: app\_service\_user, and sm\_user or sm\_admin
+-   To access maps with operational and non-operational service instances: app\_service\_admin, and sm\_user or sm\_admin
 -   To access and view related items: itil
 
 ## About this task
@@ -42,6 +42,8 @@ When you select a group CI such as a service instanceor a dynamic CI group as th
     -   For a group CI: The top card shows attributes of the group CI. The cards in the Configuration items section display attributes for each of the group member CIs.
     -   For a single relationship: A card with the attributes for the selected relationship.
     -   For a multi-relationship badge: A card for each of the relationships in the relationship set that shows the attributes for the relationship. The number of cards is equal to the number on the relationship badge, which is a count of the different types of relationships between the two CIs in that direction. Relationship connections are based on records in the CI Relationship \[cmdb\_rel\_ci\] table.
+    **Note:** If an attribute has highlighting defined on the Highlighted Value Conditions form, then it is highlighted on the **Attributes** panel. For more information, see [Highlight list fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/highlight-list-fields-platform.md).
+
 
 ## What to do next
 

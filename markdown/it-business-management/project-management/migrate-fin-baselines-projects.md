@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-07"
+reading_time_minutes: 7
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Migrate financial baselines of projects to Next Experience
@@ -18,19 +18,22 @@ Migrate the financial baselines of your project to Next Experience to manage the
 
 ## About this task
 
-Next Experience uses new data model which has two new tables Investment Baselines \(sn\_invst\_pln\_invst\_investment\_baseline\) and Investment Baseline Header \(sn\_invst\_pln\_invst\_investment\_baseline\_header\) which are used to capture financial baselines. The financial baselines created for demands in classic experience are not visible in Next Experience. You can migrate the existing baselines from classic to Next Experience as an on-demand activity for the required projects, or as bulk by activating and running a scheduled job.
+Next Experience uses new data model that has two new tables Investment Baselines `(sn_invst_pln_invst_investment_baseline)` and Investment Baseline Header `(sn_invst_pln_invst_investment_baseline_header)` which are used to capture financial baselines. The financial baselines created for demands in classic experience aren’t visible in Next Experience. You can migrate the existing baselines from classic to Next Experience as an on-demand activity for the required projects, or as bulk by activating and running a scheduled job.
 
 Baselines view in the Next Experience provides better insights to view and analyze the financial performance of your projects.
 
-Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI do not capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the actual costs will be captured as part of the baseline migration using the processed expense lines as of the baseline creation date of the financial baseline.
+Unlike the financial baselines created using Next Experience, the financial baselines created in the Classic UI don’t capture the actual expenses along with planned costs as a default behavior. To have relevant information for baselines comparison, the baseline migration captures the actual costs. The migration uses the processed expense lines as of the baseline creation date of the financial baseline.
 
 For detailed information and use cases on using financials in Next Experience, see [Managing financials for planning items in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/using-financials-pp.md).
 
-**Note:** Migration of financial baselines is not applicable for demands or projects with multi-currency.
+**Note:** Starting March 2026 release, for customers using multicurrency, migration of financial baselines updates the baseline data in project currency to investment currency.
 
-\[Omitted image "fin\_baseline\_migration\_logical\_flow\_no\_background.png"\] Alt text: Flow chart explaining the logical flow of migrating a financial baseline from classic to Next Experience.
+1.  Existing projects that have only project baselines but no investment baselines. With the migration, project baseline will be migrated to investment baseline and you can view the migrated baseline from the `sn_invst_pln_invst_investment_baseline` table list view.
+2.  Existing projects that have both project and investment baselines require a scheduled job. Run the scheduled job to populate the investment currency fields in the baselines with the values from project currency. For more information, see [Activate scheduled job to populate to multicurrency fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/multi-currency-scheduled-job-spw.md).
 
 ## Before you begin
+
+The data in project currency fields will be migrated to investment currency fields on migrating baselines for customers using multicurrency.
 
 Role required: it\_project\_manager
 
@@ -40,15 +43,15 @@ Role required: it\_project\_manager
 
 2.  Migrate baselines using one of the following options.
 
-<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d47767e137">
+<table id="choicetable_v4j_f5z_d1c"><thead><tr><th align="left" id="d53957e165">
 
 Choice
 
-</th><th align="left" id="d47767e140">
+</th><th align="left" id="d53957e168">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d47767e146">
+</th></tr></thead><tbody><tr><td id="d53957e174">
 
 **Using list actions**
 
@@ -59,7 +62,7 @@ Description
 3.  Select **OK** on the Migrate Financial Baselines confirmation window.
 
 
-</td></tr><tr><td id="d47767e176">
+</td></tr><tr><td id="d53957e204">
 
 **Using related links**
 
@@ -69,7 +72,7 @@ Description
 2.  Select the **Migrate Financial Baselines** related link.
 
 
-</td></tr><tr><td id="d47767e197">
+</td></tr><tr><td id="d53957e225">
 
 **Activate a scheduled job**
 
@@ -118,6 +121,10 @@ Financial baselines for the selected projects will be migrated to Next Experienc
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

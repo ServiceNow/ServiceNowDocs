@@ -7,7 +7,7 @@ release: yokohama
 topic_type: reference
 last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Customer Service forms, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Consumer form

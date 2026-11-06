@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Offboard agents on the Field Service Contractor Portal
@@ -47,6 +47,4 @@ After receiving the offboarding request:
 -   The agent cannot log in to the Field Service Contractor Portal.
 -   Email or SMS notifications are no longer sent to the agent.
 -   The agent is automatically removed from the additional manager role and responsibilities.
-
-**Parent Topic:**[Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-contractor-portal.md)
 

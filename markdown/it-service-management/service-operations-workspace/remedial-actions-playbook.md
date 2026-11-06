@@ -1,20 +1,20 @@
 ---
 title: Remedial actions using Playbook
-description: Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
+description: Resolve CI-related issues by using remedial action playbooks on the Investigate tab.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/remedial-actions-playbook.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Incident Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Incident Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Remedial actions using Playbook
 
-Resolve the CI-related issues using the remedial actions using Playbook in the Investigate tab.
+Resolve CI-related issues by using remedial action playbooks on the Investigate tab.
 
 The Investigate tab includes the following types of remedial action to resolve CI-related issues:
 
@@ -31,15 +31,19 @@ Remedial actions use playbooks to resolve CI issues. Playbook provides you with 
 -   Current: Displays the current list of playbooks that trigger the remedial action, including both processes and services that have the status New and In Progress.
 -   History: Displays the historical list of playbooks, including both processes and services that have the status **Completed**, **Canceled**, or **Failed**.
 
+You can perform remedial actions on both the affected CIs and the caller CIs associated with the incident record. The caller CIs are the CIs that are assigned to the caller.
+
+**Note:** If the CI is DEX supported, the remedial actions playbook for the DEX actions are displayed. If the CI is SOW or default view supported, the remedial actions playbook for SOW actions are displayed.
+
 You can cancel an ongoing End process or Restart service remedial action playbook. To cancel a remedial action playbook, select the remedial action playbook and select the menu \(\[Omitted image "menu-icon.png"\] Alt text: Menu icon\) icon and then select **Cancel action** option. After the remedial action playbook is canceled, the corresponding action is also canceled. Then, the status of the remedial action is displayed as **Canceled** in the History tab of the playbook panel. To view the reason for cancellation, select the **View reason** option on the playbook. This option isn’t available if any of the following are true:
 
 -   The remedial action is already in **Canceled** status.
 -   The corresponding CI action record of the remedial action is already in progress.
 -   The change request has already moved to implement state for actions associated to CIs of type server.
 
-The Remedial actions section on the Investigate tab also contains the **Current** and **History** tab to display the list of remedial actions performed. By default, this section displays the list of remedial actions for the primary CI or current CI. You can switch the **Show actions performed on all CIs in this incident** toggle to display the list of remedial actions for all the CIs associated with the Incident.
+The Remedial actions section on the Investigate tab also contains the **Current** and **History** tabs to display the list of remedial actions performed. By default, this section displays the list of remedial actions for the primary CI or current CI. You can switch the **Show actions performed on all CIs in this incident** toggle to display the list of remedial actions for all the CIs associated with the Incident.
 
-Playbook is available only if both the Remedial Action Framework \[com.snc.sn\_reacf\] application and the Investigation Framework \[sn\_invest\_fwk\] application are installed and configured, as well as if the remedial actions are triggered. For more information on Playbook, see [Configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/setting-up-process-automation-designer.md).
+Playbook is available only if both the Remedial Action Framework \[com.snc.sn\_reacf\] application and the Investigation Framework \[sn\_invest\_fwk\] application are installed and configured, and if the remedial actions are triggered.
 
 **Note:** You can't execute concurrent or duplicate remedial actions when a remedial action is in progress on a process or service for a CI type device or server. You also can't execute concurrent or duplicate remedial actions on the same CI until the previous remedial action execution is completed. You can change this behavior and allow concurrent execution of the remedial action by selecting the **Allow concurrent execution** option for Remedial Action Type. For more information, see [Configure the Remedial Actions Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/config-remedial-action-fw.md).
 

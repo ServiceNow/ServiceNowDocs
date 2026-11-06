@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [E-signature for Multi-Provider SSO, Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Use Multi-Provider SSO to set up an SSO approval for an OIDC authentication
@@ -18,7 +18,7 @@ An SSO approval with e-signature requires configuration on the SAML IdP and the 
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 
@@ -32,7 +32,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 3.  On the eSignature Approval tab, enter the following e-signature SAML properties.
 
-<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d173458e91">
+<table id="choicetable_b2l_vpw_lz"><tbody><tr><td id="d220125e91">
 
 **Assertion Consumer URL for eSignature authentication**
 
@@ -40,7 +40,7 @@ The SAML IdP must support and honor the forceAuthn attribute in SAML assertion r
 
 This property defaults to the appropriate URL. To configure this property, select the lock icon to make this field editable. After edits, select the icon to lock the field.
 
-</td></tr><tr><td id="d173458e100">
+</td></tr><tr><td id="d220125e100">
 
 **Authentication pop-up Dialog Width**
 
@@ -48,7 +48,7 @@ This property defaults to the appropriate URL. To configure this property, selec
 
 When a user approves a request using eSignature, a dialog opens and a user can enter credentials. This setting controls the width of that dialog box. The default is 800.
 
-</td></tr><tr><td id="d173458e109">
+</td></tr><tr><td id="d220125e109">
 
 **Authentication pop-up Dialog Height**
 

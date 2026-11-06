@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/add-image-asset.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Next Experience themes and preferences, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Add Next Experience font and image assets
@@ -30,7 +30,7 @@ Upload images associated with your theme including banner images and logos. Add 
 
 2.  In the UX Theme Assets list, select **New**.
 
-3.  Select the Manage Attachments icon \(\[Omitted image "icon-manage-attachment.png"\] Alt text: Manage attachments icon\) to add an image or font.
+3.  Select the Manage Attachments icon \[Omitted image "icon-manage-attachment.png"\] Alt text: to add an image or font.
 
     Your font asset may have separate files for different characteristics such as bold or italic. Upload each of these files. Verify that your image is in SVG format.
 

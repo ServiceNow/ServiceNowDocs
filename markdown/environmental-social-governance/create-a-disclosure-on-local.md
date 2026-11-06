@@ -1,18 +1,18 @@
 ---
 title: Create a narrative disclosure on local system
-description: Create an ESG Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the ESG Management instance.
+description: Create an Operational Sustainability Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the Operational Sustainability Management instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-a-disclosure-on-local.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create a narrative disclosure on local system
 
-Create an ESG Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the ESG Management instance.
+Create an Operational Sustainability Management narrative disclosure for your organization and store it on your local system. After you create a disclosure, you can download the document, edit it, add metrics to it, and upload it back into the Operational Sustainability Management instance.
 
 ## Before you begin
 
@@ -134,7 +134,7 @@ Users who must approve the disclosure.
 
 
 -   **[Upload a disclosure document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/upload-a-disclosure-document.md)**  
-Upload locally created disclosures in the ESG Management application instance.
+Upload locally created disclosures in the Operational Sustainability Management application instance.
 
 **Parent Topic:**[Disclosures in Operational Sustainability Management \(formerly ESG Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/esg-disclosures.md)
 

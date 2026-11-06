@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Script Debugger and Session Log, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Script Debugger user interface, Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script Debugger step-through and console controls
@@ -32,7 +32,7 @@ After the Script Debugger pauses a script, use the step-through controls to move
 |Clear expressions|\[Omitted image "console\_clear.png"\] Alt text: Clear expressions in Console|Clears all the expressions in the Console.|
 |Re-execute expression|\[Omitted image "console\_re-execute.png"\] Alt text: Re-execute an expression in Console|Re-executes the expression which is already executed.|
 
-**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/parts-script-debugger-interface.md)
 
 **Related topics**  
 

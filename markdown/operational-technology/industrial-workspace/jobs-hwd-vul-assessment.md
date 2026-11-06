@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_otvr.vul\_event\_manager and admin
 
 ## About this task
 
-You must perform the following scheduled jobs to detect firmware vulnerabilities of any Operational Technology \(OT\) devices in the inventory:
+You must perform the following scheduled jobs to detect firmware vulnerabilities of any OT devices in the inventory:
 
 ## Procedure
 
@@ -30,21 +30,21 @@ You must perform the following scheduled jobs to detect firmware vulnerabilities
 
     **Important:**
 
-    -   You must run the **Hardware Assessment - Full** job before you schedule the **Hardware Assessment - Delta** job. You can run the **Hardware Assessment - Full** job on demand.
-    -   You can schedule the **Hardware Assessment - Delta** job to run daily, weekly, or according to your required frequency.
+    -   You must run **Hardware Assessment - Full** before you schedule the **Hardware Assessment - Delta** job. You can run the **Hardware Assessment - Full** on demand.
+    -   You can schedule **Hardware Assessment - Delta** job to run daily, weekly, or according to your required frequency.
 2.  Select **Hardware Assessment - Full** &gt; **Execute Now**.
 
     This job performs an assessment on all OT devices in the inventory to detect any firmware vulnerabilities regardless of prior assessments.
 
-3.  Select **Hardware Assessment - Delta** &gt; **Active**, then select **Run** and choose a frequency from the list.
+3.  Select **Hardware Assessment - Delta** &gt; **Active**.
 
-    The **Hardware Assessment - Delta** job runs according to the frequency that you select.
+    Select **Run** and choose a frequency from the list. The **Hardware Assessment - Delta** job runs according to the frequency that you select.
 
-    This job performs incremental assessments, targeting only changes or updates since the last assessment was run. It captures changes on firmware, normalized contents, and vulnerabilities since the last successful run of the hardware vulnerability assessment. This job makes sure that you can maintain continuous monitoring and timely updates.
+    This job performs incremental assessments, targeting only changes or updates since the last assessment run. It captures changes on firmware, normalized contents, and vulnerabilities since the last successful run of the hardware vulnerability assessment. This job makes sure that you can maintain continuous monitoring and timely updates.
 
-4.  Select **Hardware Vulnerability Assessment - Mark Expired Assessments** &gt; **Active** to start this job, then select **Run** and choose a frequency from the list.
+4.  Select **Hardware Vulnerability Assessment - Mark Expired Assessments** &gt; **Active** to start this job.
 
-    The **Hardware Vulnerability Assessment - Mark Expired Assessments** job runs according to the frequency that you select.
+    Select **Run** and choose a frequency from the list. The **Hardware Vulnerability Assessment - Mark Expired Assessments** job runs according to the frequency that you select.
 
     Hardware vulnerability assessments are based on the firmware data available for a device. If you update the firmware version of a device, the existing assessments based on the previous firmware version are no longer valid and are considered as expired assessments. You can delete expired assessments, which are older than a month. However, you must perform new vulnerability assessments for the devices with an updated firmware version.
 

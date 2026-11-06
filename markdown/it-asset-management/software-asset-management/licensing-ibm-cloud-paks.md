@@ -1,20 +1,20 @@
 ---
 title: Licensing for IBM Cloud Paks
-description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Authorized SAM Provider \(IASP\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
+description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/licensing-ibm-cloud-paks.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Licensing for IBM Cloud Paks
 
-When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Authorized SAM Provider \(IASP\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
+When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports licensing rules for IBM Cloud Paks.
 
 An IBM Cloud Pak is a prepackaged set of IBM software products that can help you achieve a specific business goal. For example, the IBM Cloud Pak for Business Automation contains various IBM software products that automate business operations to help improve performance.
 

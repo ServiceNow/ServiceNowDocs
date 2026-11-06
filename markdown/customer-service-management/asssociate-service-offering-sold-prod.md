@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/asssociate-service-offering-sold-prod.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Sold products, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Associate service offerings with sold products
@@ -30,7 +30,7 @@ Ensure that the Customer Service with Service Portfolio Management \(SPM\) plugi
 
     **Note:** The **Service Offering** field may not appear by default in the user interface. If this happens, add **Service Offering** field using the form layout.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 **Related topics**  

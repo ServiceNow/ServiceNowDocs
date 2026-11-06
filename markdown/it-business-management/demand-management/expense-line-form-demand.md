@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,7 +30,7 @@ Number
 
 </td><td>
 
-Auto generated number.
+Auto-generated number.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Summary type
 
 </td><td>
 
-Select the category you want to group the expense under.
+Select the category that you want to group the expense under.
 
 </td></tr><tr><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Escalating a case in Agent Workspace for HR Case Management
-description: Escalate an HR case when you are unable to resolve an issue and must amplify the importance of a case.
+description: Escalate an HR case when you're unable to resolve an issue and must amplify the importance of a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-escalate-case.html
 release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Using the More icon in Agent Workspace for HR Case Management, Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Escalating a case in Agent Workspace for HR Case Management
 
-Escalate an HR case when you are unable to resolve an issue and must amplify the importance of a case.
+Escalate an HR case when you're unable to resolve an issue and must amplify the importance of a case.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ The matching rules you have implemented will determine the group and agent the c
 
 5.  In the Work notes, enter a reason for escalating the case.
 
-6.  Click **OK**.
+6.  Select **OK**.
 
     The form refreshes and is now assigned to the next tier assignment group.
 

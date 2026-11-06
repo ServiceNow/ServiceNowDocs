@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration tasks for knowledge demand insights, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,6 +52,8 @@ The knowledge gap analysis is repeatedly run at the duration as configured in th
 ## What to do next
 
 Create assignment rules to assign knowledge gap feedback tasks. For more information, see [Assign knowledge gap feedback tasks to content authors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/assign-knowledge-gaps-demand-insights.md).
+
+**Parent Topic:**[Configuration tasks for knowledge demand insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuration-tasks-for-knowledge-demand-insights.md)
 
 **Related topics**  
 

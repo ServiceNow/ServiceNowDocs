@@ -1,0 +1,101 @@
+---
+title: Install OT Discovery Collector on a Linux system
+description: Install the OT Discovery Collector on a Linux system.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/linux-install-ot-discovery-collector.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure the OT Discovery Collector, Operational Technology Discovery Collector, Operational Technology Native Discovery components, Operational Technology Discovery, Operational Technology]
+---
+
+# Install OT Discovery Collector on a Linux system
+
+Install the OT Discovery Collector on a Linux system.
+
+## Before you begin
+
+-   SCP the `linuxCollectorinstaller_[version number]_[build number].tar.gz` over to the Linux system.
+
+    **Note:** An example of the file name format is`linuxCollectorinstaller_3.3.1_20250917.1.tar.gz`.
+
+-   SCP the `CollectorBundle` file you generated and downloaded from the Discovery Console to the Linux system.
+-   To go into OT Discovery Collector Linux host, use `ssh`.
+-   Use `su` or `sudo -s` to switch to the root user.
+
+Role required: admin
+
+**Note:** You can now download and install Containerized Collector packages. For a Windows OS machine, be sure to select the compatible Collector OS. For more information, see [Air-gapped networks and OT Discovery installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/air-gapped-networks-installation.md).
+
+## Procedure
+
+1.  On your instance, navigate to the Service Graph Connector for ServiceNow OT Discovery Guided Setup page.
+
+2.  Select the **Get Started**.
+
+    The **Download &amp; Deploy OT Discovery** page opens.
+
+3.  In the first section of the setup, select **Download &amp; Deploy OT Discovery**.
+
+4.  Select **Configure** and the **Downloads** page opens.
+
+    \[Omitted image "downloads-page-containerized2.png"\] Alt text: Downloads page
+
+    **Note:** Read the End User License Agreement \(EULA\) carefully and then check **Agree**.
+
+5.  Download the OT Discovery Collector installation and deployment package for Linux.
+
+6.  Install the Collector on the Discovery Console for OT you intend to use.
+
+7.  On a RHEL-based distribution, install tar.
+
+    ```
+    sudo dnf install -y tar
+    ```
+
+8.  On all Linux distributions, run the following command:
+
+    ```
+    tar -xvf linuxCollectorinstaller_[version number]_[build number].tar.gz
+    ```
+
+9.  Copy the `CollectorBundle` file into the `CollectorInstaller` directory.
+
+    ```
+    chmod +x Collector-init.sh
+    
+    ./Collector-init.sh
+    ```
+
+10. When the script starts, the system locates the pdf version of the EULA.
+
+    When prompted to accept the EULA, enter `Y` for yes.
+
+11. After the script completes successfully, the OT Discovery Collector can be seen in the console.
+
+    To check the service status, run this command: `systemctl status SNDiscoveryCollector`. If you would like to view the journal output for the service to troubleshoot issues, as the root user you can run `journalctl -f -a -u SNDiscoveryCollector`.
+
+
+## Result
+
+After the script completes successfully, the OT Discovery Collector can now be seen in the console.
+
+To check the service status, run this command:
+
+```
+systemctl status SNDiscoveryCollector
+```
+
+.
+
+If you would like to view the journal output for the service \(usually as a troubleshooting measure\), as the root user you can run:
+
+```
+journalctl -f -a -u SNDiscoveryCollector
+```
+
+.
+
+**Parent Topic:**[Configure the OT Discovery Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/configuring-the-collector.md)
+

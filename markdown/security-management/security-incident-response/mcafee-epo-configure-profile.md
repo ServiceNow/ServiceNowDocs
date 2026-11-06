@@ -1,5 +1,5 @@
 ---
-title: Configure profiles and security incidents for system enrichment queries for the McAfee ePO integration
+title: Configure profiles and security incidents for system enrichment queries
 description: Configure your profile settings so that the profile triggers only under the conditions that you set.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/mcafee-epo-configure-profile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring profiles for the McAfee ePO integration, McAfee ePO integration capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Configure settings, Capability profiles, McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Configure profiles and security incidents for system enrichment queries for the McAfee ePO integration
+# Configure profiles and security incidents for system enrichment queries
 
 Configure your profile settings so that the profile triggers only under the conditions that you set.
 
@@ -26,19 +26,19 @@ Define the conditions that automatically trigger the McAfee ePO capabilities tha
 
 ## Procedure
 
-1.  If the Configuration page is not displayed, click **Configuration** on the progress bar.
+1.  If the Configuration page is not displayed, select **Configuration** on the progress bar.
 
 2.  On the form, fill the fields
 
-<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d194927e75">
+<table id="choicetable_pn4_pqb_cgb"><thead><tr><th align="left" id="d200373e84">
 
 Option
 
-</th><th align="left" id="d194927e78">
+</th><th align="left" id="d200373e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d194927e84">
+</th></tr></thead><tbody><tr><td id="d200373e93">
 
 **Enable alternate CI trigger field**
 
@@ -48,9 +48,9 @@ Alternate configuration item \(CI\) trigger field. Default is cleared. When this
 
 Select this check box if you believe the CI field will not be populated upon incident creation, but CI information will be populated in another field on the security incident. When this option is enabled, the Alternate CI trigger field choice list is displayed. Choose an alternate field from the choice list to check for your CI search criteria.
 
-For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field for a McAfee ePO profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
+For more information on the alternate CI trigger field, see [Defining triggering conditions with a Configuration item \(CI\) field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-alternate-ci.md).
 
-</td></tr><tr><td id="d194927e116">
+</td></tr><tr><td id="d200373e125">
 
 **Display Tags**
 
@@ -58,7 +58,7 @@ For more information on the alternate CI trigger field, see [Defining triggering
 
 Security tags are displayed on security incidents. Default is cleared.When this check box is cleared, and the tagging option is disabled, no security tag names are displayed on the configuration form, and tags are not displayed on related security incidents. For this example, the security tags option is disabled.
 
-</td></tr><tr><td id="d194927e128">
+</td></tr><tr><td id="d200373e137">
 
 **Auto trigger based on incident**
 
@@ -66,13 +66,13 @@ Security tags are displayed on security incidents. Default is cleared.When this 
 
 Filter conditions. Default is cleared. When the check box is cleared, and the option is disabled, the profile must be invoked manually from a security incident.
 
-When this option is enabled, the Filter condition builder is displayed. You are required to set the filtering conditions to specify when the profile runs automatically upon incident creation.
+When this option is enabled, the Filter condition builder is displayed. you're required to set the filtering conditions to specify when the profile runs automatically upon incident creation.
 
 A common example of a filter for a profile that runs enrichment queries is `Category is Malicious code activity` and `Business impact is 1-Critical`. These filter conditions help you locate the incidents that are related to specific types of security events, and they help you limit the number of security incidents you have to review.
 
 These filter settings remain saved until you change them, and they are available for editing during the preview and test incident step of the configuration.
 
-</td></tr><tr><td id="d194927e150">
+</td></tr><tr><td id="d200373e159">
 
 **Require approval**
 
@@ -83,15 +83,13 @@ Request approval option. Default is cleared.This approval option is available fo
 When the check box is cleared, and this option is disabled, no approval requests are submitted. For this example, no prior permission is required for system enrichment queries.
 
 </td></tr></tbody>
-</table>    \[Omitted image "mcafee-epo-profile-config.png"\] Alt text: Configure McAfee capability profile
-
-3.  To enable the alternate CI field option and set the filtering conditions that automatically invoke this profile, follow these steps.
+</table>3.  To enable the alternate CI field option and set the filtering conditions that automatically invoke this profile, follow these steps.
 
     1.  Select the **Enable alternate CI trigger field** check box.
 
-        The Alternate CI trigger field is displayed. For this example, as a user with the sn\_si.admin role, you believe that the CI field will not be populated on the security incident upon incident creation. Alternatively, you think CI information for a FQDN, host name, or IP address will be populated in the `Identified CI` field on the security incident, and you select the Identified CI field as an alternate. The Identified CI is selected for this example, but you can use any field on the security incident for the alternate CI.
+        The Alternate CI trigger field is displayed. For this example, as a user with the sn\_si.admin role, you believe that the CI field will not be populated on the security incident on incident creation. Alternatively, you think CI information for a FQDN, host name, or IP address will be populated in the `Identified CI` field on the security incident, and you select the Identified CI field as an alternate. The Identified CI is selected for this example, but you can use any field on the security incident for the alternate CI.
 
-    2.  From the **Alternate CI trigger** field choice list that is displayed, select the **Identified CI** field.
+    2.  From the **Alternate CI trigger** field list that is displayed, select the **Identified CI** field.
 
         All the available fields on the security incident are displayed in the list including any custom fields. In the Alternate CI trigger field, `Identified CI` is displayed.
 
@@ -99,7 +97,7 @@ When the check box is cleared, and this option is disabled, no approval requests
 
     3.  Select the **Auto trigger based on incident** check box.
 
-        The filter conditions builder is displayed. With this option, set filtering conditions and specify when the profile is invoked automatically upon creation of a security incident.
+        The filter conditions builder is displayed. With this option, set filtering conditions and specify when the profile is invoked automatically on creation of a security incident.
 
     4.  Define the SIR incident conditions that will automatically trigger the ePO capabilities selected for this particular profile.
 
@@ -112,5 +110,5 @@ When the check box is cleared, and this option is disabled, no approval requests
     You have successfully configured the profile so it is triggered automatically upon incident creation, and an alternate field is used to populate matching CI results.
 
 
-**Parent Topic:**[Configuring profiles for the McAfee ePO integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
+**Parent Topic:**[Configure settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mcafee-epo-configuring-profile.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Managing employee communications
+title: Authoring and managing employee communications
 description: Content managers and admins use Employee Center Pro capabilities to create employee communications, assemble multi-stage and multi-channel campaigns, manage content requests, and measure impact.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/manage-emp-center.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
-# Managing employee communications
+# Authoring and managing employee communications
 
 Content managers and admins use Employee Center Pro capabilities to create employee communications, assemble multi-stage and multi-channel campaigns, manage content requests, and measure impact.
 

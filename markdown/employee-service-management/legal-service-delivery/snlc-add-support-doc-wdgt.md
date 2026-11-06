@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-11-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add supporting document widget in own-paper record producer
@@ -40,7 +40,7 @@ Role required: admin
 
     4.  Select **Save**.
 
-4.  Configure variables for **Upload documents optional interaction** variable set.\[Omitted image "snlc-add-suppdoc-wdg-variableset.png"\] Alt text:
+4.  Configure variables for **Upload documents optional interaction** variable set.\[Omitted image "snlc-add-suppdoc-wdg-variableset.png"\] Alt text: Configure variables
 
     1.  Select **Upload documents optional interaction** from the variable set related list.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcls-cto-biomed-case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Explore, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Healthcare Biomed case overview
@@ -20,13 +20,13 @@ If the Field Service Management \[com.snc.work\_management\] plugin is installed
 
 By associating these cases with specific healthcare organizations, care team members can easily view all cases created for their team, unit, or organization.
 
-Any updates, comments, or status changes made to the work order reflects in the case, and vice versa. When a work order is linked to a case, the fulfiller only manages the work order, and the case is then updated to reflect these changes.
+Any updates, comments, or status changes made to the work order reflect in the case, and vice versa. When a work order is linked to a case, the fulfiller only manages the work order, and the case is then updated to reflect these changes.
 
 ## Work order auto-creation
 
 \[Omitted image "cto-biomed-work-order-auuto.png"\] Alt text: Work order auto creation from the Healthcare biomed case.
 
-Work orders are created automatically in synchronization with Healthcare Biomed cases. All information from the Healthcare biomed case is carried over into the incident.
+Work orders are created automatically in synchronization with Healthcare Biomed cases. All information from the Healthcare biomed case is carried over into the work order.
 
 ## Comment synchronization
 
@@ -41,4 +41,6 @@ Comments on the Healthcare Biomed case are viewable on the work order, and comme
 The state of both the work order and the healthcare case remains in synchronization throughout the entire fulfillment process. Use the Care Team Portal to track your case state in real time through viewing case details in the portal.
 
 **Note:** In Care Team Operations for Biomed, case data only synchronizes with work orders and does not synchronize with work order tasks. Only updates made to the work order affects the associated case data.
+
+**Note:** Care team members can also create these cases conversationally, by chat in Care Team Portal or Care Team Mobile, or by phone, using ServiceNow Otto. For more information, see [AI in Care Team Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-otto-landing.md).
 

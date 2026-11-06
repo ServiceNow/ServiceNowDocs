@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-install.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Extend capabilities, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Extend capabilities, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Install the Performance Analytics and Reporting Solution for Public Sector Digital Services
@@ -28,7 +28,7 @@ Role required: admin
 
 2.  Browse for Performance Analytics Content Pack for Public Sector Digital Services and verify that you have the necessary valid entitlements.
 
-    You need a HI account and permission to request applications for the instances under consideration. The HI account and the instance must be part of the same company. For more information, see [Install a ServiceNow Product](https://store.servicenow.com/sn_appstore_store.do#!/store/help?article=KB0030186) on the ServiceNow Store.
+    You need a HI account and permission to request applications for the instances under consideration. The HI account and the instance need to be part of the same company. For more information, see [Install a ServiceNow Product](https://store.servicenow.com/sn_appstore_store.do#!/store/help?article=KB0030186) on the ServiceNow Store.
 
 3.  Search for `Performance Analytics Content Pack for Public Sector Digital Services`.
 

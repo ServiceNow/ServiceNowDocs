@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/configure-email-digest.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Email digests, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -33,11 +33,42 @@ When you [create or update a notification](https://raw.githubusercontent.com/Ser
 
 2.  In the Notification form, select the **Allow Digest** check box to display the **What Digest will contain** tab and define the digest content.
 
-3.  Complete the fields in the **What Digest will contain** tab.
+3.  Select the **Digest type**.
+
+<table id="choicetable_jb2_kxp_1fc"><thead><tr><th align="left" id="d267704e165">
+
+Digest Type
+
+</th><th align="left" id="d267704e168">
+
+Description
+
+</th></tr></thead><tbody><tr><td id="d267704e174">
+
+**Single target record**
+
+</td><td>
+
+Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a single target record, for example INC001 only.
+
+</td></tr><tr><td id="d267704e190">
+
+**Multiple target record**
+
+</td><td>
+
+Allows this notification to be sent in an email digest when it is triggered multiple times during the selected interval for a multiple target record, for example INC001, INC002, and more.
+
+</td></tr></tbody>
+</table>4.  To enforce a notification as digest, select the **Enable by default** check box.
+
+5.  Select the **Default Interval**.
+
+6.  Select the **What Digest will contain** tab.
+
+7.  Fill in the fields. in the **What Digest will contain** tab.
 
     The image shows the default view of the tab. The advanced view contains additional fields \(see table\).
-
-    \[Omitted image "EmailDigestTab.png"\] Alt text: Specifying the email digest content for the notification
 
 <table id="table_zl2_13b_x1b"><thead><tr><th>
 
@@ -64,6 +95,8 @@ Digest Subject
 Enter the subject line for the email digest. The subject can include variables from the **Select variables** column.
 
  If empty, the system uses the **Subject** value from the **Email template**. If you enter a value in this field, it overrides the template value.
+
+**Note:** For email digest with multiple target records enabled, it's recommended to use a subject text without any dynamic variables.
 
 </td></tr><tr><td>
 
@@ -122,13 +155,13 @@ Digest Separator \(text\)
 \[Optional\] Use the dash character as a line to separate each item summarized in the digest. This field appears when you set the content type to **HTML and plain text** or **Plain text only**.
 
 </td></tr></tbody>
-</table>4.  When you finish creating the notification, select **Submit**.
+</table>8.  When you finish creating the notification, select **Submit**.
 
     The email **Digest** option is displayed in the notification settings of your users.
 
     **Note:** The email recipients identified in the **Who will receive** tab will receive the digest after they [enable the digest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/enable-email-digest.md) in their notification preferences. If the user isn’t a designated recipient for the notification, a digest isn’t generated even though the user may have the digest enabled for a notification. In this case, the user receives the actual notifications when they’re generated.
 
-5.  To disable the email digest for a notification, unselect the **Allow Digest** check box and select **Update** when you finish your changes to the notification.
+9.  To disable the email digest for a notification, unselect the **Allow Digest** check box and select **Update** when you finish your changes to the notification.
 
     When you disable the digest content, the digest option is also no longer available for the notification and isn’t listed in the notification preferences for your users. If a user previously enabled the digest option for the notification, the system stops collecting those notifications for a digest and doesn’t generate the digest.
 

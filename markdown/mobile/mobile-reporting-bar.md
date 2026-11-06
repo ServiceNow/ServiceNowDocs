@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mobile-reporting-bar.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data visualizations for the mobile dashboard, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
+breadcrumb: [Using data visualizations, Mobile platform dashboards, Using the mobile apps, Mobile Platform]
 ---
 
 # Bar reports for mobile

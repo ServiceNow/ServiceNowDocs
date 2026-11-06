@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Develop applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Build and installan application in the ServiceNow IDE
@@ -61,7 +61,7 @@ When you build an application, ServiceNow Fluent code is compiled into applicati
 
 7.  Review your changes as application metadata.
 
-    1.  From the Activity Bar, select the Metadata Explorer view \(\[Omitted image "servicenow-ide-metadata-explorer-icon.png"\] Alt text: Metadata Explorer\).
+    1.  From the Activity Bar, select the File Categories view or Apps view.
 
     2.  Open the metadata files that you changed and review your changes from the embedded ServiceNow AI Platform user interfaces.
 

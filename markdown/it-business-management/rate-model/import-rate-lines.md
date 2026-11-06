@@ -7,7 +7,7 @@ release: yokohama
 product: Rate Model
 classification: rate-model
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rate Models, Project Portfolio Management, Strategic Portfolio Management]
 ---

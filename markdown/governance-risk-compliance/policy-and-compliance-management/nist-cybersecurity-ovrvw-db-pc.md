@@ -7,7 +7,7 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and Reporting solutions for GRC: Policy and Compliance Management, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
@@ -37,12 +37,12 @@ To open the dashboard, navigate to **All** &gt; **NIST CSF** &gt; **Analytics Ov
 
 |Title|Type|Description|
 |-----|----|-----------|
-|Framework Core|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Provides an overview of the Cybersecurity policies organized by the NIST CSF functions.|
-|Critical Targets|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Provides an overview of critical targets by entity class or tiers.|
-|Critical Targets lacking Cybersecurity activities|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Provides an overview of critical targets that lack cybersecurity activities by entity class or tiers.|
-|Current Cybersecurity activities|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Provides an overview of currently performed cybersecurity activities by entity class, entities, or cybersecurity functions.|
-|Desired Cybersecurity activities|Bar chart\[Omitted image "column-icon.png"\] Alt text: Column icon|Provides an overview of desired cybersecurity activities by entity class, entities, or cybersecurity functions.|
-|Gaps Analysis Summary|List \[Omitted image "scorecard-icon.png"\] Alt text: List icon3|Provides a summary of gaps, non-compliant controls, risks, issues failed indicators, and action plans for targets grouped by cybersecurity, cybersecurity functions, or the targets themselves.|
+|Framework Core|Bar chart|Provides an overview of the Cybersecurity policies organized by the NIST CSF functions.|
+|Critical Targets|Bar chart|Provides an overview of critical targets by entity class or tiers.|
+|Critical Targets lacking Cybersecurity activities|Bar chart|Provides an overview of critical targets that lack cybersecurity activities by entity class or tiers.|
+|Current Cybersecurity activities|Bar chart|Provides an overview of currently performed cybersecurity activities by entity class, entities, or cybersecurity functions.|
+|Desired Cybersecurity activities|Bar chart|Provides an overview of desired cybersecurity activities by entity class, entities, or cybersecurity functions.|
+|Gaps Analysis Summary|List|Provides a summary of gaps, non-compliant controls, risks, issues failed indicators, and action plans for targets grouped by cybersecurity, cybersecurity functions, or the targets themselves.|
 
 **Parent Topic:**[Analytics and Reporting solutions for GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/grc-policy-compliance-content-pack.md)
 

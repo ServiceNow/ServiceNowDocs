@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated breakdowns, Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Automated breakdowns, Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create an automated breakdown
@@ -30,7 +30,7 @@ An automated breakdown uses a breakdown source to determine selectable elements.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Automated Breakdowns** and click **New**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Breakdowns** &gt; **Automated Breakdowns** and select **New**.
 
 2.  Specify a meaningful **Name**.
 
@@ -54,7 +54,7 @@ An automated breakdown uses a breakdown source to determine selectable elements.
 
 ## What to do next
 
-Create breakdown mappings and associate indicators with the breakdown. You can do this from the indicator, using a graphical tool \(see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-breakdown-mapping.md).
+Create breakdown mappings and associate indicators with the breakdown. You can do this from the indicator, using a graphical tool. For more information, see [Assign and map breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-breakdown-mapping.md).
 
 **Parent Topic:**[Automated breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/automated-breakdowns.md)
 

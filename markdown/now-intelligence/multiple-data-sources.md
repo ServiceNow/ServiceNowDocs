@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/multiple-data-sources.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Selecting data sources, Configure, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -27,7 +27,7 @@ Some visualization types support multiple data sources, while others do not. If 
 |Calendar report|Not supported|
 |Geomap|Not supported|
 |Indicator scorecard|Not supported|
-|List - simple|Not supported|
+|Analytics list|Not supported|
 
 **Warning:** If you select multiple data sources for a visualization and then change the visualization type to one that does not support multiple data sources, you keep only the first data source. Switching back to a visualization type that supports multiple data sources does not restore the previously selected data sources.
 
@@ -40,7 +40,9 @@ Some visualization types support multiple data sources, while others do not. If 
 
 [Select an indicator data source for a data visualization]()
 
-[User Experience Analytics data sources for data visualizations]()
+[Select a Workflow Data Fabric data source for a data visualization]()
+
+[Usage Insights data sources for data visualizations]()
 
 ## Example data visualization based on multiple data sources
 
@@ -48,7 +50,7 @@ Here's a simple example of a report based on the Indicator and Problem tables.
 
 ### Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ### Procedure
 

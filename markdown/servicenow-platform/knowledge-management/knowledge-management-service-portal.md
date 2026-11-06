@@ -7,8 +7,8 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -39,6 +39,21 @@ Starting with the Washington DC release, the Knowledge Management v3 homepage \(
 ## Section 508 compliance features
 
 Users can view and interact with the Knowledge Management article view page in the Knowledge Management Service Portal using Section 508 compliance features. See [Enabling accessibility features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_SetUpSect508ComplianceFeature.md) for more information.
+
+-   **[Enable external or public users to view knowledge articles from the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/make-knowledge-visible-to-public.md)**  
+Enable knowledge articles on the Knowledge Management Service Portal to be visible to external or public users.
+-   **[Knowledge Management Service Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/km-service-portal-widget-instances.md)**  
+The Knowledge Management Service Portal uses a number of widgets to enable searches, display search results, and display articles, related articles, and related items.
+-   **[Search using the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-service-portal-searching.md)**  
+Enter one or more words in the search bar on the Knowledge Management Service Portal homepage to view all search results.
+-   **[Integrating Knowledge Management features with the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/conf-service-portal-know-management.md)**  
+To create a consistent user experience for Knowledge Management, integrate Knowledge Management Service Portal in your end-user facing Service Portal.
+-   **[Configure custom SEO tags for canonical URLs and localized knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-seo-knowledge.md)**  
+Discover relevant knowledge articles through search engines by adding custom SEO tags for canonical URLs and **hreflang** tags to the knowledge article view page.
+-   **[Enable and configure AI Search for Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/enable-and-configure-ai-search-for-km-service-portal.md)**  
+Enable and define the AI Search experience in Knowledge Management Service Portal.
+
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 
 **Related topics**  
 

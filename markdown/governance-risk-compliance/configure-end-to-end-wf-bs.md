@@ -1,22 +1,24 @@
 ---
-title: Sample end-to-end workflow for business services
-description: Configure an end-to-end workflow for the business service to fetch the CSDM dependencies and red flags data to Operational Resilience. You must ensure that entities are generated and associated with pillars, and that the Main node configurations are set up before fetching the required data.
+title: Sample end-to-end workflow for a business service
+description: Configure an end-to-end workflow for a business service to fetch the CSDM dependencies and red flags data to Operational Resilience. You must ensure that entities are generated and associated with pillars, and that the Main node configurations are set up before fetching the required data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/configure-end-to-end-wf-bs.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Sample end-to-end workflow for business services
+# Sample end-to-end workflow for a business service
 
-Configure an end-to-end workflow for the business service to fetch the CSDM dependencies and red flags data to Operational Resilience. You must ensure that entities are generated and associated with pillars, and that the Main node configurations are set up before fetching the required data.
+Configure an end-to-end workflow for a business service to fetch the CSDM dependencies and red flags data to Operational Resilience. You must ensure that entities are generated and associated with pillars, and that the Main node configurations are set up before fetching the required data.
 
 ## Before you begin
 
-Role required: sn\_oper\_res.manager
+Role required: sn\_oper\_res.manager with the itil user role, sn\_oper\_res.admin with the itil user role
+
+To create a business service, you also need a role that can create records on the Service \[cmdb\_ci\_service\] table, such as itil or sn\_cmdb\_editor. With the sn\_oper\_res.manager role alone, you can add existing business services to Operational Resilience reporting, but you can't create them.
 
 ## About this task
 
@@ -34,9 +36,9 @@ For instructions on creating the Main node configuration records, see [Configure
 
     Refer to the configuration instructions on the [Configuring Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-operational-resilience.md) page.
 
-3.  Navigate to **Operational Resilience Workspace** &gt; **List** &gt; **Business service** and select the business service.
+3.  Navigate to **Operational Resilience Workspace** &gt; **List** &gt; **Business service** and select a business service.
 
-    You can select a business service, for example, BS1-VM as shown in the illustration.
+    You can select a business service, for example, BS1-VM, as shown in the illustration.
 
     \[Omitted image "business-service-new.png"\] Alt text: Business service.
 
@@ -44,7 +46,7 @@ For instructions on creating the Main node configuration records, see [Configure
 
     The selected service is added to Operational Resilience reporting.
 
-5.  Verify that the entity is created for the business service, it is listed in the Business Services entity type on the Entity types page, and it is set to active on that page.
+5.  Verify that an entity is created for the business service and is active on the Entity types page.
 
     You can verify that the value of the Active column for the Business Services is set to **True**. Verify that the entity is listed in the **Entities** tab and it is marked as Active in the **Details** tab.\[Omitted image "bs-sample-ent-ty-pg.png"\] Alt text: Business Services.\[Omitted image "bs-sample-ent-listed.png"\] Alt text: Entity listed.
 

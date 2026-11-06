@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Related tabs in the Network inventory forms
@@ -101,7 +101,7 @@ Physical Connections
 
 </td><td>
 
-List of the physical connections that are associated with the network inventory.**Note:** This tab is available only for the Telco Equipment form.
+List of all physical connections where the equipment or interfaces in the rack or cabinet are an endpoint. A connection appears if any of its endpoint fields \(Port A, Port Z, Equipment A, or Equipment Z\) matches equipment or an interface from equipment in the rack or cabinet. Connections that span sites are included. **Note:** This tab is available only on Rack / Cabinet records and on equipment level
 
 </td></tr><tr><td>
 
@@ -109,7 +109,21 @@ Logical Connections
 
 </td><td>
 
-List of the logical connections that are associated with the network inventory.**Note:** This tab is available only for the Telco Equipment form.
+List of all network interfaces from equipment placed in the rack or cabinet, including interfaces from equipment nested at any depth in the hierarchy.
+
+ **Note:**
+
+This tab is available only on Rack and Cabinet records \(cmdb\_ci\_container\_rack and cmdb\_ci\_container\_cabinet\). It does not appear on individual equipment records.
+
+.
+
+</td></tr><tr><td>
+
+Network Interfaces
+
+</td><td>
+
+List of all network interfaces from equipment placed in the rack or cabinet, including interfaces from equipment nested at any depth in the hierarchy. Note: This tab is available only on Rack and Cabinet records \(cmdb\_ci\_container\_rack and cmdb\_ci\_container\_cabinet\). It does not appear on individual equipment records. **Note:** This tab is available for the Rack and Cabinet forms.
 
 </td></tr><tr><td>
 
@@ -258,7 +272,7 @@ CMDB 360 Data
 
 </td><td>
 
-List of all discovery sources at the CI attribute level. To learn more, see .
+List of all discovery sources at the CI attribute level. To learn more, see [CMDB 360/Multisource CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/multisource-cmdb.md).
 
 </td></tr><tr><td>
 
@@ -290,7 +304,7 @@ Vendor Catalog Items
 
 </td><td>
 
-List of all vendor catalogs of this inventory. To learn more, see Vendor Catalog Items.
+List of all vendor catalogs of this inventory. To learn more, see [Vendor Catalog Items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManageVendorCatalogItems.md).
 
 </td></tr><tr><td>
 

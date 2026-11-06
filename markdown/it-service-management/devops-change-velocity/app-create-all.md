@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applications, DevOps Change Velocity, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.app\_owner
     -   Service Catalog: Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Maintatin Items** &gt; **Create DevOps Application** &gt; **Try It**.
 2.  On the Create DevOps Application form, choose whether to create a new application and new application model or to base the application on an existing application model.
 
-<table id="choicetable_ddn_pxv_2tb"><thead><tr><th align="left" id="d451555e105">
+<table id="choicetable_ddn_pxv_2tb"><thead><tr><th align="left" id="d426469e105">
 
 Choice
 
-</th><th align="left" id="d451555e108">
+</th><th align="left" id="d426469e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d451555e114">
+</th></tr></thead><tbody><tr><td id="d426469e114">
 
 **New application**
 
@@ -49,7 +49,7 @@ Enter a name for the new application.
 -   If the DevOps Config application is installed, then DevOps associates the application to the CDM application.
 
 
-</td></tr><tr><td id="d451555e150">
+</td></tr><tr><td id="d426469e150">
 
 **Existing application model**
 

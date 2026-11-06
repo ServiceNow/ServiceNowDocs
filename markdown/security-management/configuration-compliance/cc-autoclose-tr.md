@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automatically closing stale test results in Configuration Compliance, Remediation, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Automatically closing stale test results in Configuration Compliance, Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Use Auto-Close Stale Test Results in Configuration Compliance

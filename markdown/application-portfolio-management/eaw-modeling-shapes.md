@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-shapes.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring Enterprise Modeling and Visualization in the EA Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Shapes to create a modeling diagram
@@ -37,13 +37,19 @@ Following are the different types of shapes available to create diagrams:
 -   CMDB CI Class Models \(app-cmdb-content\) plugins to view the SDLC component shape
 
 -   **[General shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-general-shapes.md)**  
-Use the General shapes section to create a diagram with icons such as arrow, circle, text box.
+The general shapes section provides basic design elements that can be used to construct diagrams. By inserting icons such as arrows, circles, and text boxes, you can visually represent concepts, relationships, and processes in a clear and structured manner.
+-   **[Amazon Web Services \(AWS\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-aws-shapes.md)**  
+The AWS shapes library in EA Workspace helps in modeling cloud architectures. These shapes allow architects to design future-state cloud diagrams aligned with CMDB and CSDM standards.
+-   **[Common Service Data Model \(CSDM\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-csdm-shapes.md)**  
+CSDM is a prescriptive data model that defines standardized relationships between service-related objects in the CMDB. The CSDM shapes represent these objects visually in diagrams, enabling architects to model business capabilities, applications, services, and technical components in alignment with the Now Platform.
 -   **[Enterprise Architecture shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-ea-shapes.md)**  
 Use the Enterprise Architecture shapes to create diagrams with icons related to enterprise architecture.
+-   **[Enterprise Architecture \(EA\) extended shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-extended-shapes.md)**  
+Use the Enterprise Architecture shapes to model current and future-state architectures in Enterprise Architecture Workspace.
 -   **[ArchiMate shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-archimate-shapes.md)**  
-ArchiMate® shapes are the industry standard shapes used by the enterprise architects to create diagrams with relationships among with different domains in the enterprise. You can use these shapes to describe the architecture of your enterprise including the business, application, motivation, physical, strategy, and technology layers.
+ArchiMate® shapes are industry-standard elements used by enterprise architects to create diagrams that represent relationships across different domains of an enterprise. These shapes are used to model the business, application, motivation, physical, strategy, and technology layers.
 -   **[Business Process Modeling Notation \(BPMN\) shapes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-bpmn-shapes.md)**  
 Use the BPMN shapes to generate diagrams for your current business processes and model the future state of the business processes.
 
-**Parent Topic:**[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Exploring Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
 

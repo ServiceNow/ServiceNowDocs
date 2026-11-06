@@ -1,20 +1,20 @@
 ---
-title: View install base information on Now Mobile Agent application
-description: View information about install base items in work order tasks on the Now Mobile Agent mobile application to track the status of the questions and issues raised for the purchased products or services.
+title: View install base information on the ServiceNow Agent application
+description: View information about install base items in work order tasks on the ServiceNow Agent mobile application to track the status of the questions and issues raised for the purchased products or services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/view-install-base-fsm-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# View install base information on Now Mobile Agent application
+# View install base information on the ServiceNow Agent application
 
-View information about install base items in work order tasks on the Now Mobile Agent mobile application to track the status of the questions and issues raised for the purchased products or services.
+View information about install base items in work order tasks on the ServiceNow Agent mobile application to track the status of the questions and issues raised for the purchased products or services.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: wm\_agent
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -39,6 +39,4 @@ Role required: wm\_agent
 
         **Note:** Upcoming work order tasks are available only if the Planned Work Management plugin is installed and upcoming work orders are generated.
 
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-04-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define release scope using product enhancements, Use, Digital Product Release, IT Service Management]
+breadcrumb: [Define release scope, Use, Digital Product Release, IT Service Management]
 ---
 
 # Add a product feature to a product or service

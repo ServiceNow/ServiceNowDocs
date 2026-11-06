@@ -1,81 +1,75 @@
 ---
 title: Telecommunications Service Operations Management \(TSOM\) release notes
-description: The ServiceNow Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.The ServiceNow Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
+description: The ServiceNow Telecommunications Service Operations Management \(TSOM\) application empowers communication service providers to proactively monitor, analyze, and resolve network and service issues before they impact customers. See the following sections for release notes by version.Monitor Mobile Private Network \(MPN\) performance with new connectors for latency, security logs, and health status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/telecommunications-service-operations-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+keywords: [MPN, Mobile Private Network, latency, RAG status, security log]
+breadcrumb: [Telecommunications, Media, and Technology release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Telecommunications Service Operations Management \(TSOM\) release notes
 
-The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
+The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application empowers communication service providers to proactively monitor, analyze, and resolve network and service issues before they impact customers. See the following sections for release notes by version.
 
-## About Telecommunications Service Operations Management \(TSOM\)
+## About Telecommunications Service Operations Management
 
--   Perform deep network discovery of your networks via the Simple Network Management Protocol \(SNMP\) and command-line interface \(CLI\) by using Pattern-based Discovery.
--   Integrate with the Nokia Altiplano Service Graph Connector to discover the access network.
--   Handle Discrepancy Identification and Reconciliation between your discovered and inventoried data.
+-   Proactively identify and resolve network and service issues before they impact customers, reducing mean time to detect \(MTTD\) and mean time to resolve \(MTTR\).
+-   Gain end-to-end visibility into how network and infrastructure issues affect customer-facing services, and prioritize remediation based on business impact.
+-   Reduce operational noise and streamline resolution with event correlation, guided workflows, and automated remediation.
+-   Integrate seamlessly with existing network monitoring and telemetry systems using open standards and TM Forum-aligned APIs.
+-   Build and maintain a telecom-aware CMDB that links infrastructure, services, and configuration items for accurate root cause analysis.
 
-See [Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-service-operations-mgt-overview.md) for more information.
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Telecommunications Service Operations Management \(TSOM\) is available in ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Telecommunications Service Operations Management is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install Telecommunications Service Operations Management by requesting it from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Request and activate the Telecommunications Service Operations Management \(com.sn\_tsom\_core\) plugin. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   **Upgrade information**
 
-    After installing Telecommunications Service Operations Management TSOM, any customized IRE identification rules applied to interface cards, slots, sub-slots and network interfaces may be affected. You must review and validate the rules to ensure proper functionality.
+## Localization
+
+-   **Localization information**
+
+    Telecommunications Service Operations Management does not include dedicated language packs. Language support relies on the base system language plugins active on your instance.
 
 
 **Parent Topic:**[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)
 
-## Yokohama
+## Version 4.0
 
-The ServiceNow® Telecommunications Service Operations Management \(TSOM\) application enables you to monitor the health of your networks and services so that you can prevent potential downtime. Telecommunications Service Operations Management \(TSOM\) was enhanced and updated in the Yokohama release by adding a new capability called TSOM Visibility, which includes Telecom Discovery and Reconciliation functionality.
+Monitor Mobile Private Network \(MPN\) performance with new connectors for latency, security logs, and health status.
 
 ### What's new
 
--   **[Pattern-based direct discovery using CLI and SNMP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-discovery-tsom-visibility.md)**
+-   **Elastic event pull connectors for MPN**
 
-    Use pattern-based direct discovery to do the following tasks:
+    Collect metrics, including latency KPIs, from Nokia Med, Elastic, Prometheus, and Netcool KPI domains using a configurable Mobile Private Network \(MPN\) pull connector. Published metrics feed assurance monitoring and analytics.
 
-    -   Support deep network discovery of your physical network elements by using CLI and SNMP.
-    -   Enable pattern-based discovery for any network elements that support SNMP standard MIBs.
-    -   Provide a framework to enable custom Management Information Base \(MIB\)-based discovery.
-    -   Enable both scheduled and quick discovery of standalone network elements.
-    -   Support the following Cisco and Juniper routers and switches:
-        -   Cisco ASR1K
-        -   Cisco 7613
-        -   Cisco Nexus 9000
-        -   Cisco Nexus 3548
-        -   Juniper Mx80
-        -   Juniper MX104
-        -   Juniper MX240
-        -   Juniper MX480
--   **[Nokia Altiplano SGC integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/service-graph-connector-for-nokia-altiplano.md)**
+-   **MPN Latency Metrics**
 
-    With Nokia Altiplano SGC integration, you can:
+    Monitor UE-to-switch latency and related KPIs across MPN-connected devices with combined and per-KPI trend views, an instance summary table, and a last-recorded-value panel.
 
-    -   Support discovery of physical Gigabit Passive Optical Network \(GPON\) network information by integrating with the Nokia Altiplano Service Graph Connector.
-    -   Enable scheduled and on-demand discovery.
-    -   Support the multi-instance integration of the Nokia Altiplano Service Graph Connector.
--   **[Discrepancy identification and reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-service-ops/telecom-reconciliation.md)**
+-   **Security log collection for MPN**
 
-    Identify the discrepancies between your inventoried and discovered data in the following cases:
+    Collect MPN security logs with an out-of-box Health Log Analytics Elasticsearch data input. Raw logs are converted into structured log records for triage and analysis.
 
-    -   -   Model mismatch.
--   Model relationship mismatch.
--   Entities not discovered in the current run but discovered in the previous run.
--   Slots-occupied discrepancy.
--   Most recent discovery not updated.
--   Incorrect number of relationships.
-    -   Support a framework to automatically create tasks for reconciling discrepancies.
+-   **MPN health status collection**
+
+    Collect and aggregate red/amber/green health status from MPN Elastic index data at the tower and site level. Customize rules for calculating status based on your requirements.
+
+
+### What's changed
+
+-   **Fortinet discovery with large port counts**
+
+    Fortinet devices with more than 600 ports no longer fail discovery due to memory constraints. Ports are now processed in batches to prevent out-of-memory errors.
+
 

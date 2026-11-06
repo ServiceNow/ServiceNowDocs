@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,7 +28,7 @@ Select individual or multiple observables and perform a manual sighting search i
 
 1.  Navigate to **All** &gt; **CrowdStrike Falcon Insight Integration** &gt; **Sightings Search Profiles**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Configure this profile to determine what servers to search for a specific CrowdStrike Falcon Insight search capability.
 
@@ -120,7 +120,7 @@ Parameters to define more complex queries that include logic and other operators
 </td></tr></tbody>
 </table>    \[Omitted image "falcon-insight-sightings-search.png"\] Alt text: Configuring sightings search.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The configuration is complete and you can invoke the sightings search from the ServiceNow AI Platform security incident.
 
@@ -132,26 +132,24 @@ Parameters to define more complex queries that include logic and other operators
 
         **Note:** If you run a sighting search for a CI from the Running Processes related list, then it will only be a Process Hash sighting search.
 
-    3.  Click the **Actions on selected rows...** drop-down list, and select **Run CrowdStrike Sightings Search**.
+    3.  Select the **Actions on selected rows...** drop-down list, and select **Run CrowdStrike Sightings Search**.
 
     4.  Look up the required Sighting Search Profile using the search option.
 
-    5.  Select the required Sighting Search Profile, and click **Submit**.
+    5.  Select the required Sighting Search Profile, and select **Submit**.
 
     6.  If you select one or more Observables from the **Associated Observables** related lists.
 
-    7.  Click the **Actions on selected rows...** drop-down list, and select **Run Sightings Search**.
+    7.  Select the **Actions on selected rows...** drop-down list, and select **Run Sightings Search**.
 
-    8.  In the time frame pop-up, select any random value and click **Search**.
+    8.  In the time frame pop-up, select any random value and select **Search**.
 
     9.  On completion of the search, validate the results and details in the work notes and related lists.
 
-        \[Omitted image "falcon-insight-sightings-work-notes.png"\] Alt text: Reviewing work notes for a sightings search.
-
     10. Select the **Sightings** tab to view the sighting details.
 
-    11. Click on the **Preview** icon next to the CI to view more information about CrowdStrike sighting details.
+    11. Select the **Preview** icon next to the CI to view more information about CrowdStrike sighting details.
 
-    12. Click the **Sightings Search Details** to view the sighting search details, and click the **Sightings Search Results** tab for search results.
+    12. Select the **Sightings Search Details** to view the sighting search details, and select the **Sightings Search Results** tab for search results.
 
 

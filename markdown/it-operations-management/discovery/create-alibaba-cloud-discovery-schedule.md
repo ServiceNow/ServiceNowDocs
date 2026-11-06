@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Discovery for Alibaba Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -39,15 +39,15 @@ Role required: discovery\_admin
     -   **Specific MID Cluster**: A MID Server cluster that you choose from the **MID Cluster** drop-down list.
 6.  Either create a new account or select an existing one.
 
-<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d94330e158">
+<table id="choicetable_wm3_pvr_ghc"><thead><tr><th align="left" id="d470621e170">
 
 Existing or new account
 
-</th><th align="left" id="d94330e161">
+</th><th align="left" id="d470621e173">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d94330e167">
+</th></tr></thead><tbody><tr><td id="d470621e179">
 
 **Add account**
 
@@ -62,10 +62,10 @@ Actions
 
 For more information, see [Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md).
 
-5.  Enter the URL of a datacenter in the**Datacenter URL** field.
+5.  Enter the URL of a datacenter in the **Datacenter URL** field.
 
 
-</td></tr><tr><td id="d94330e238">
+</td></tr><tr><td id="d470621e250">
 
 **Select Account**
 
@@ -97,7 +97,7 @@ The form fields are populated with the information from the selected account.
 
 13. On the Create Schedule page, determine when and how often to run your discovery.
 
-    1.  Activate the discovery schedule by turning the **Active** option on.
+    1.  Activate the Discovery schedule by turning the **Active** option on.
 
     2.  Choose the discovery frequency from the **Frequency** drop-down list.
 
@@ -109,4 +109,6 @@ The form fields are populated with the information from the selected account.
 
     -   To create the schedule but not run discovery, select **Finish** from the Finish and Run drop-down list.
     -   To create the schedule and run discovery, select **Finish and Run.**
+
+**Parent Topic:**[Discovery for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/alibaba-cloud-discovery.md)
 

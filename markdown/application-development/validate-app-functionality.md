@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/validate-app-functionality.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Validate app functionality

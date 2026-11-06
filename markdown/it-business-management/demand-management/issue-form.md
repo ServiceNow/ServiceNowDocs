@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -96,9 +96,9 @@ Short description
 
 Brief description of the issue and its potential impact on the success of the demand.
 
- As you start typing the title for your issue, related issues that potentially match your issue are displayed.
+ As you start entering the title for your issue, related issues that potentially match your issue are displayed.
 
- Click the suggestion icon \(\[Omitted image "suggestions-icon.png"\] Alt text: Suggestion icon\) to select from the list of predefined issue descriptions.
+ Select the suggestion icon \(\[Omitted image "demand-suggestion-icon.png"\] Alt text:\) to select from the list of predefined issue descriptions.
 
 </td></tr><tr><td>
 

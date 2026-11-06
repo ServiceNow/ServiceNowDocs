@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-image-filters.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Email properties, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email image filtering properties
@@ -60,9 +60,9 @@ Specifies the image filtering behavior. **Note:** Regardless of the action you s
 **Related topics**  
 
 
-[Outbound mail configuration]()
+[Outbound email configuration]()
 
-[Inbound mail configuration]()
+[Inbound email configuration]()
 
 [Email digest properties]()
 

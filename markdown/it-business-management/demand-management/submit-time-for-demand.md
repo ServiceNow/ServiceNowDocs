@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -30,38 +30,38 @@ The resource submits the time card or time sheet to record and track the work pe
 
 2.  Create a time card.
 
-<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d143280e76">
+<table id="choicetable_jfv_4xf_2hb"><thead><tr><th align="left" id="d178358e76">
 
 Demand task assignment
 
-</th><th align="left" id="d143280e79">
+</th><th align="left" id="d178358e79">
 
 To create a time card
 
-</th></tr></thead><tbody><tr><td id="d143280e85">
+</th></tr></thead><tbody><tr><td id="d178358e85">
 
 **If a demand task is assigned to you**
 
 </td><td>
 
 1.  Navigate to the task that you want to add to the time sheet.
-2.  Click the **Add to Time Sheet** link in the task.
+2.  Select the **Add to Time Sheet** link in the task.
 
 
-</td></tr><tr><td id="d143280e106">
+</td></tr><tr><td id="d178358e106">
 
 **If a demand task is assigned to you as an additional assignee**
 
 </td><td>
 
-1.  Click the **Add unassigned tasks to Time Sheet** link next to Logged Time Cards
+1.  Select the **Add unassigned tasks to Time Sheet** link next to Logged Time Cards
 2.  In the **Add unassigned tasks to Time Sheet** window, search for and select the demand task from the **Select a Task** list.
 
 
 </td></tr></tbody>
 </table>3.  Fill in the hours for each day spent working on the demand task.
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 **Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)

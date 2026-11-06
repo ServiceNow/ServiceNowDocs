@@ -1,20 +1,20 @@
 ---
-title: Add dynamic content to status report in Project Workspace
-description: Add dynamic content to a status report in Project Workspace for your projects. The dynamic content gets updated automatically in the status report as a change is made to the record.
+title: Add dynamic content to a status report or docs template
+description: Add dynamic content to a status report or a Project Docs template in Project Workspace. The dynamic content gets updated automatically as a change is made to the underlying record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Create a status report in Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Create a status report in Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Add dynamic content to status report in Project Workspace
+# Add dynamic content to a status report or docs template
 
-Add dynamic content to a status report in Project Workspace for your projects. The dynamic content gets updated automatically in the status report as a change is made to the record.
+Add dynamic content to a status report or a Project Docs template in Project Workspace. The dynamic content gets updated automatically as a change is made to the underlying record.
 
 ## Before you begin
 
@@ -22,31 +22,31 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the Docs template page of the project by selecting **Docs template** from the list.
 
 3.  From **Docs template** page, select the template to open it.
 
-4.  Select **Doc** tab and click at the appropriate place and then type `/` \(forward slash\) to open a list of actions, including **Mention a user** or **Mention a record** or **Insert dynamic content** as required.
+4.  Select **Doc** tab and select at the appropriate place and then type `/` \(forward slash\) to open a list of actions, including **Mention a user** or **Mention a record** or **Insert dynamic content** as required.
 
     1.  You can type in `/` \(forward slash\) and select **Mention a user** to tag a user.
-
-        \[Omitted image "status-report-mention-user.gif"\] Alt text: Adding dynamic content in status report.
 
     2.  You can type in `/` \(forward slash\) and select **Mention a record** to insert a record.
 
         \[Omitted image "status-report-add-dynamic-content.png"\] Alt text: Mention a record in status report.
 
-        Once you insert a record, it is embedded as a link, which you can click to open the related record and see its details.
+        After you insert a record, it is embedded as a link, using which you can open the related record and see its details.
 
-    3.  You can type in `/` \(forward slash\) and select **Insert a dynamic content** to add insert dynamic content in the status report.
+    3.  You can type in `/` \(forward slash\) and select **Insert a dynamic content** to insert dynamic content into your status report or Project Docs template.
 
         \[Omitted image "insert-dynamic-content.gif"\] Alt text: Insert dynamic content option.
 
-        Using insert dynamic content option, you can configure and view the status date, project, and other dynamic data in your status report template. This option is only available if **Is dynamic** field is selected in the Doc template form. You can select formatting options such headings, bullets, and others.
+        Using the insert dynamic content option, you can configure and view dynamic data such as the status date, project details, and other project fields. This option is only available if the **Is dynamic** field in the Category list for PWS Docs is selected in the Doc template form.
+
+        For example, in a Project Docs template, you can insert a dynamic **Project manager** field. When the template is applied to create a doc, the field is automatically populated with the project manager from that project's details. You can select formatting options such as headings, bullets, and others.
 
 5.  Observe and monitor the report.
 
@@ -60,7 +60,7 @@ Role required: it\_pps\_admin, it\_project\_manager
 
 [Status reporting in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/status-reporting-in-pw.md)
 
-[Create a status report template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
+[Create a status report or docs template in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.md)
 
 [Create a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-a-status-report-in-project-workspace.md)
 
@@ -69,4 +69,6 @@ Role required: it\_pps\_admin, it\_project\_manager
 [Duplicate a status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/duplicate-status-report-pw.md)
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/import-old-status-reports.md)
+
+[Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-new-document-template-form.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Add, edit, or delete cost plans
@@ -20,6 +20,10 @@ Create a cost plan for a required duration to track your planned and actual expe
 
 Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+The video is recorded using the Project Workspace view. Navigate to your portfolio to use cost plans in Strategic Planning.\[Omitted video\] Description: Manage cost plans for your planning items.
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** and select portfolio plan.
@@ -28,15 +32,15 @@ Role required: sn\_align\_ws.spw\_financial\_user
 
 3.  Select the **Financials** tab.
 
-<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d234783e77">
+<table id="choicetable_w3k_syh_pyb"><thead><tr><th align="left" id="d302091e98">
 
 Choice
 
-</th><th align="left" id="d234783e80">
+</th><th align="left" id="d302091e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d234783e86">
+</th></tr></thead><tbody><tr><td id="d302091e107">
 
 **To create a cost plan**
 
@@ -53,7 +57,7 @@ For a description of the field names, see [Create cost plan form](https://raw.gi
 3.  Select **Save** to save the cost plan and close the side panel or **Save and add new** to save the cost plan and create a new cost plan.
  The cost plans created for sub projects can be viewed in the Cost screen of the parent project.
 
-</td></tr><tr><td id="d234783e136">
+</td></tr><tr><td id="d302091e157">
 
 **To edit a cost plan**
 
@@ -64,7 +68,7 @@ You can edit a cost plan by one of the following ways.1.  Select the name of the
 
 **Tip:** Use Tab key to navigate to next fiscal period and continue editing.
 
-</td></tr><tr><td id="d234783e161">
+</td></tr><tr><td id="d302091e182">
 
 **To delete a cost plan**
 

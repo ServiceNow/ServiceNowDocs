@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-integration-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Public Sector Digital Services with other applications, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Integrate, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Integration with Field Service Management
@@ -35,6 +35,6 @@ To configure the Public Sector Digital Services application integration with the
 3.  Add the Work orders related list to the PSDS case type tables for all relevant views on Classic UI and or Workspace.
 4.  If you're an FSM field agent, you can view the relevant PSDS customer data from the work orders by being assigned with the right customer data viewer roles.
 
-    **Note:** An administrator must assign the appropriate PSDS customer data viewer roles to FSM field agents so that they can view the relevant PSDS customer data from work orders. For more information on roles, see [Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md).
+    **Note:** An administrator must assign the appropriate PSDS customer data viewer roles to FSM field agents so that they can view the relevant PSDS customer data from work orders. For more information on roles, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/roles-installed-with-public-sector-digital-services.md).
 
 

@@ -1,33 +1,40 @@
 ---
-title: Integrating Virtual Agent with WhatsApp
-description: Engage with requesters who prefer the WhatsApp messaging app to interact with your business. Requesters include customer contacts and consumers.
+title: Conversational Integration with WhatsApp \(powered by Twilio\)
+description: Use this application to enable requesters to interact on WhatsApp chat with a virtual agent or live agent. The application connects a requester with a virtual agent or live agent using your company's WhatsApp-enabled Twilio phone number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrating Virtual Agent with WhatsApp
+# Conversational Integration with WhatsApp \(powered by Twilio\)
 
-Engage with requesters who prefer the WhatsApp messaging app to interact with your business. Requesters include customer contacts and consumers.
+Use this application to enable requesters to interact on WhatsApp chat with a virtual agent or live agent. The application connects a requester with a virtual agent or live agent using your company's WhatsApp-enabled Twilio phone number.
 
-## Request apps on the Store
+## Get started with Conversational Integration with WhatsApp \(powered by Twilio\)
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Select a tile to get started.
 
-## Overview of Integrating Virtual Agent with WhatsApp
+<table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
 
-Enable requesters to interact on WhatsApp chat with a virtual agent or live agent using the ServiceNow® Conversational Integration with WhatsApp \(powered by Twilio\) application. The application connects a requester with a virtual agent or live agent using your company's WhatsApp-enabled Twilio phone number. To get started with the Conversational Integration with WhatsApp \(powered by Twilio\) application, see [Configure Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-configure.md).
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational Integration with WhatsApp \(powered by Twilio\) implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-configure.md)
+
+</td><td>
+
+[Use\[Omitted image "bus-chat.svg"\] Alt text:Agents and requesters can use Conversational Integration with WhatsApp \(powered by Twilio\) in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-using.md)
+
+</td></tr></tbody>
+</table>## Request apps on the Store
+
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 -   **[Using Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-using.md)**  
 Enable a requester to converse with an agent at their convenience using the WhatsApp chat conversations through Virtual Agent.
--   **[Integrating the WhatsApp messaging app with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-integrating-apps.md)**  
-Other ServiceNow applications and features can use the Conversational Integration with WhatsApp \(powered by Twilio\) application.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

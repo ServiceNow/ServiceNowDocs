@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_OnScreenAlerts.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Special handling notes
@@ -125,12 +125,25 @@ The **Special handling notes** action that agents can use to reopen the special 
 -   Front-line case page
 -   CSM default record page
 
+In addition to these pages, the action is also available on records from the following tables:
+
+-   Account
+-   Asset
+-   Contact
+-   Incident
+-   Product model
+-   Work order task
+
 ## Expiring special handling notes
 
 The **Deactivate Special Handling Notes** scheduled job, which runs daily at midnight, checks the dates in the **Effective on** and **Expires on** fields for each note.
 
 -   If a special handling note has reached its **Effective on** date, the scheduled job sets the status of the note to **Active**.
 -   If a special handling note has reached its **Expires on** date, the scheduled job sets the status of the note to **Expired**.
+
+## Special handling notes plugin
+
+Activating the Case Management Core plugin \(com.sn\_customerservice\) provides the CRM Workspace functionality, including the CRM Workspace Special Handling Notes \(com.snc.uib.special\_handling\_notes\).
 
 ## Domain separation for Special Handling Notes
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_CTIIntegrationWithTheCaseForm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CTI demo implementation, Integrating with Computer Telephony Integration \(CTI\), Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [CTI demo implementation, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Computer Telephony demo integration with the Case form
@@ -25,7 +25,7 @@ Select the phone icon to call a consumer or contact.
 -   If only one phone field is populated, a call is placed to that number.
 -   If more than one phone field is populated, a dialog box displays the available numbers. Select the desired number to call and close the dialog box.
 
-\[Omitted image "SelectPhoneNumber.png"\] Alt text: Dialog box displaying mobile and home phone numbers.
+\[Omitted image "select-phone-number.png"\] Alt text: Dialog box displaying mobile and home phone numbers
 
 Incoming and outgoing calls are logged in the Phone Log \[sn\_openframe\_phone\_log\] table. Call details are recorded in the **Activity** field on the Case form and in the **Phone** related list.
 

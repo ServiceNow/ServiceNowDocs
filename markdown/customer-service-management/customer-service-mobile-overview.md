@@ -1,16 +1,16 @@
 ---
-title: Customer Service mobile application overview
+title: CSM application overview
 description: Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-service-mobile-overview.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Mobile experience for Customer Service Management, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Mobile experience for CSM, Schedules and sites, Use, Customer Service Management]
 ---
 
-# Customer Service mobile application overview
+# CSM application overview
 
 Customer service agents and managers can use the applet launcher and applets in the Customer Service mobile application to view notifications and manage customer service cases.
 
@@ -138,7 +138,7 @@ Agents can receive notifications in the Customer Service mobile application when
 |Case escalation|When an escalation is raised, users who are part of the group that has permissions to approve are notified. The approvers review and approve them.|
 |Change requests|When a change request is raised, users who are part of the group that has permissions to approve are notified. The approvers review and approve them.|
 
-**Parent Topic:**[Mobile experience for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-mobile-interface.md)
+**Parent Topic:**[Mobile experience for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-mobile-interface.md)
 
 **Related topics**  
 

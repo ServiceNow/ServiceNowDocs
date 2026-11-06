@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/bulk-monitor-import-issues.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-02-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Troubleshoot synthetic monitors, Synthetic monitoring reference, Synthetic monitoring, ITOM Health, IT Operations Management]
+breadcrumb: [Troubleshoot, Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Bulk monitor import issues

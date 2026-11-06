@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-add-screen-field.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Screen fields, Configure a details screen for a record screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Screen fields, Configure a details screen, Record screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Add screen fields to a record screen
@@ -66,7 +66,10 @@ Type
 
 Type of screen field. For a list of types and a description of how they're used, see [Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-screen-field-enhancements.md).**Note:**
 
--   Select the **Auto** option to link the field type with the selected **Form Field** option. The **Auto** option includes the following field types: **Text**, **Percentage**, **Image**, **Video**, **File**, **HTML**, and **Date**.
+-   Select the **Auto** option to link the field type with the selected **Form Field** option. The **Auto** option includes the following field types: **Text**, **Percentage**, **Image**, **Video**, **File**, **HTML**, **Date**, and **Script**.
+
+**Note:** For more information about using the script screen option, see [Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/record-screen-script-type.md).
+
 -   The **Auto** field type doesn't include field types **Attachments List** and **Checklist**. You must manually select these options from the **Type** field.
 
 
@@ -116,11 +119,16 @@ Value Only
 
 </td><td>
 
-Value of the field without the field label.**Note:** This option is only available for  the field types **Auto**, **Text**, **Percentage**, and **Date**.
+Value of the field without the field label.**Note:** This option is only available for  the field types **Auto**, **Text**, **Percentage**, **Date**, and **Script**.
 
 </td></tr></tbody>
 </table>9.  Select **Save**.
 
+
+-   **[Dynamic variable support in record screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/record-screen-script-type.md)**  
+Use the script screen field in record screens to display dynamic field values. The script runs to determine the field value before it displays in your form. The value returned by the script doesn't replace the database value. For example, you can display translated content for dynamic variables within an email.
+-   **[Configure the script field for records screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/record-screen-script-type-config.md)**  
+Configure script screen fields to display calculated or personalized content in your mobile forms, without modifying the underlying database values.
 
 **Parent Topic:**[Screen fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-screen-field-enhancements.md)
 

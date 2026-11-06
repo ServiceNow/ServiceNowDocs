@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/node-configuration-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-11-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Node configurations, Configure the Node relationship configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Configure the Node configurations, Configure the Main node configurations, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Node configuration form
 
 Use the Node configuration form to configure the settings such as the primary label, icon, secondary label, tooltip for the selected node.
 
-## Node configuration new record form
+## Node configuration record form
 
 |Field|Description|
 |-----|-----------|

@@ -7,9 +7,9 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing topics in Hermes, Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Managing topics, Manage namespaces and topics, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Update a topic in Hermes
@@ -34,7 +34,9 @@ Role required: kafka\_admin
     -   A topic can have up to 32 partitions.
 4.  Change the topic's activation status.
 
-5.  Select **Update**.
+5.  Synchronize the partition count in this topic between clusters by selecting **Synchronize Partition Count**.
+
+6.  Select **Update**.
 
 
 ## Result

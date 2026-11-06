@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Perform a life-cycle operation on a stack or resource, Manage a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Perform a life-cycle operation on a stack or resource, Manage a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Life-cycle operations in Cloud Provisioning and Governance

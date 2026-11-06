@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Configure, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -99,15 +99,4 @@ Review any data policies in place on the target table in the consumer instance t
 If failures related to data policies occur, they appear in the **Instance Data Replication** &gt; **Replication Payload Error** table on the consumer instance. View the **Error Message** field for details on the data policy that is causing the failure.
 
 **Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
-
-**Related topics**  
-
-
-[Request an Instance Data Replication subscription]()
-
-[Preserving table hierarchy in Instance Data Replication]()
-
-[Upgrading legacy replication sets to V2 in Instance Data Replication]()
-
-[Upgrading your instance with Instance Data Replication enabled]()
 

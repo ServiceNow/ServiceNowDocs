@@ -1,5 +1,5 @@
 ---
-title: Data model for Telecommunications Network Inventory
+title: Data model
 description: The data model for Telecommunications Network Inventory displays the relationships between your network assets, infrastructure, and services. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for the network growth in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Explore, Telecommunications Network Inventory]
 ---
 
-# Data model for Telecommunications Network Inventory
+# Data model
 
 The data model for Telecommunications Network Inventory displays the relationships between your network assets, infrastructure, and services. With this information, you can provision new services, modify existing services, maintain the network, and plan the forecast for the network growth in your organization.
 
-The data model contains the details about your network assets, such as the telco equipment configuration data, port availability of a framework, and bandwidth allocations between your sites and services. This data model enables you to build, manage, maintain, and allocate the network infrastructure and services. Further, this data model provides a for the automation of design and creation of your network equipment and connections that support the customer service orders and internal network orders.
+The data model contains details about your network assets, including telco equipment configuration data, port availability, and bandwidth allocations between your sites and services. It enables you to build, manage, maintain, and allocate network infrastructure and services. It also supports the automation of design and creation of network equipment and connections for customer service orders and internal network orders.
 
 The assets, services, and the relationships of your network inventory defines the infrastructure of your telecommunications networks. With this information, you can plan and forecast your network. You can store the data of the asset in a network inventory record.
 
@@ -79,7 +79,7 @@ Site \[cmdb\_ci\_site\]
 
 Captures and maintains the location-specific attributes for each network site, including the network centers, buildings, floors, and rooms where the equipment is located.
 
- The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories. To learn more, see [dfedcfeedd5cb1e09f2c9b2b13926ebc1136abf4.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
+ The network site records enable you to view all the equipment at a location. You can filter the locations by the assigned type, role, or function categories. To learn more, see [c80de0b0e42c4582f147f092909ec837bbe80c4e.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-sites.md).
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Hardware \[cmdb\_ci\_hardware\]
 
 Represents the physical units that contain the telecommunications equipment, including the cages, bays, cabinets, slots, and relay racks. An equipment holder can contain the other equipment holders. For example, the line-ups contain the individual relay racks and each relay rack contains the equipment shelves.
 
- Use the equipment holder records to track and manage your network assets. To learn more, see [2caa2ce394bb5b862e115716272080423ea5d70b.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
+ Use the equipment holder records to track and manage your network assets. To learn more, see [d6b4311e9e6d20e437a90859e72d01fe91da2ee8.dita](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/define-tni-equipment-holders.md).
 
  To learn more about the extension classes of the equipment holder, see [Equipment holder extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/equipment-holder-types.md).
 
@@ -189,7 +189,7 @@ Network Topology \[cmdb\_ci\_network\_topology\]
 
 Represents the grouping of the network elements such as nodes \(equipment\), edges \(connections\), and termination points \(interfaces\), how they are organized and connected to each other.
 
- To learn more, see [Visualization of network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.md).
+ To learn more, see [Network topology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-of-topology.md).
 
 </td></tr><tr><td>
 
@@ -209,5 +209,5 @@ Represent power, HVAC, network, and their connectivity in a data center.To learn
 **Related topics**  
 
 
-[bundle-platcap.cmdb-ci-class-models-network-inventory]
+[Network Inventory \(NI\) extension classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-ci-class-models-network-inventory.md)
 

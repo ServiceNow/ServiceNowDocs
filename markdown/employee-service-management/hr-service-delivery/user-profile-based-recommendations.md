@@ -7,8 +7,8 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Machine learning solutions for HR Service Delivery, Integration of HR Service Delivery with ServiceNow applications, HR Service Delivery, Employee Service Management]
 ---
 
@@ -16,13 +16,11 @@ breadcrumb: [Machine learning solutions for HR Service Delivery, Integration of 
 
 Discover all the users who have a similar profile as the employee who has logged in to Employee Service Center. Identify the top viewed knowledge articles and top submitted catalog items by those users. Display the top three knowledge articles and top three catalog items to the employee.
 
-## Top three knowledge articles and catalog items
+## Top three knowledge articles and top three catalog items
 
-When the User Profile Based Recommendation \(ml\_sn\_sn\_hr\_core\_global\_user\_profile\_based\_recommendation\) solution definition is configured and the predictive model is trained, the top three knowledge articles and catalog items are displayed to an employee in Employee Service Center and HR Ticket page.
+When the User Profile Based Recommendation \(ml\_sn\_sn\_hr\_core\_global\_user\_profile\_based\_recommendation\) solution definition is configured and the predictive model is trained, the top three knowledge articles and top three catalog items are displayed to an employee in Employee Service Center and HR Ticket page.
 
 \[Omitted image "KBarticles-catalogitems.png"\] Alt text: The top viewed knowledge articles and top submitted catalog items as displayed to an employee.
-
-**Note:** The number of catalog items and knowledge articles displayed in the Relevant for you widget depends on the number in the **Limit** field in Employee Center. By default, the **Limit** field is set to 3. For more information, see [Modify the Recommended for you widget display](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/config-recommended-for-you.md).
 
 ## Auto training the predictive model
 

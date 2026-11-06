@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/mid-server-configuration-cloud.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access to cloud environments for ITOM products, IT Operations Management]
 ---
@@ -61,11 +61,6 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
 
     For a description of the parameter values, see the **Proxy server parameters** section in [MID Server parameters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-parameters.md).
 
-
--   **[Proxy server configuration for MID Servers used for Cloud Discovery and Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/mid-server-proxy.md)**  
-You can configure the MID Server for Cloud Provisioning and Governance to use a proxy server. Using a proxy server supports all cloud-based activities such as running Discovery, billing downloads, provisioning virtual machines, and running life-cycle operations on virtual machines.
--   **[Cloud Request Retry Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-request-retry-configuration.md)**  
-If a request is throttled by a cloud provider during Discovery, Cloud Request Retry Configuration provides a customizable method to retry requests. Discovery and Service Mapping Patterns includes a retry configuration for AWS and Azure. You can customize the included configuration or create your own.
 
 **Parent Topic:**[Access to cloud environments for ITOM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/accessing-cloud-itom.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-advanced-map-page.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -33,8 +33,6 @@ When clicked, lists and forms display for codeless user experience, facilitating
     The script hides and an M2M record appears.
 
     **Note:** Double-click the record to use the M2M record.
-
-    \[Omitted image "AdvancedMapPage.gif"\] Alt text: Advanced configuration
 
 4.  In the **Name** field, enter a unique name for your Map Page.
 

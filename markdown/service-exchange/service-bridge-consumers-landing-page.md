@@ -7,7 +7,7 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange]
 ---
@@ -16,35 +16,21 @@ breadcrumb: [Service Exchange]
 
 Use the Service Exchange for Consumers application to seamlessly interact and collaborate with your providers.
 
+## Service Exchange Overview
+
 As a consumer, you can:
 
 -   Review remote catalog items entitled to you from your local catalog and send requests to your provider for fulfillment.
 -   Bidirectionally integrate your tasks with your provider's tasks.
 -   Receive proactive tasks from providers for transparency and collaboration.
 
-<table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
+<table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-benefits.md)
-
- [\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-benefits.md)
-
- [Learn about the features and capabilities of Service Exchange.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-benefits.md)
+[Configure for consumers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-install.md)
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-install.md)
-
- [\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-install.md)
-
- [As a consumer, configure your Service Exchange installation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-install.md)
-
-</td><td>
-
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
-
- [\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
-
- [Get details of domain separation and installed components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
+[User for consumers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for consumers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/se-consumer-using.md)
 
 </td></tr></tbody>
 </table>

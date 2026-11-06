@@ -7,7 +7,7 @@ release: yokohama
 product: Emergency Outreach
 classification: emergency-outreach
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -29,8 +29,6 @@ Some of the Safe Workplace suite apps leverage the Emergency Outreach notificati
     -   An outreach notification to potentially exposed contacts in an exposure case to notify them that they might have been potentially exposed to an affected user at the workplace.
 
 **Note:** Safe Workplace suite apps require a subscription. Install Emergency Outreach first, then install the Safe Workplace suite app.
-
-\[Omitted image "eo-home-page-graphic.png"\] Alt text: Emergency Outreach mobile application for a health check in.
 
 -   **Use guided setup to implement Safe Workplace suite apps**
 

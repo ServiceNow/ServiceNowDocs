@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Privacy Workspace for the privacy manager, Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -51,7 +51,7 @@ The visualization and data-driven layout support informed decision-making for pr
 
 The following image shows the Risk and compliance dashboard.
 
-\[Omitted image "risk-and-compliance-tab.png"\] Alt text: Risk and compliance tab on the privacy management home page.
+\[Omitted image "risk-compliance-prm-home-page.png"\] Alt text: Risk and compliance tab on the privacy management home page.
 
 **Parent Topic:**[Privacy Workspace for the privacy manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-mgmt-ws-privacy-compliance-manager.md)
 

@@ -7,8 +7,8 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-02-18"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Anonymous Reporting Center, Common GRC features, Governance, Risk, and Compliance]
 ---
 
@@ -51,7 +51,7 @@ Anonymous reports accept standard text characters. Avoid including executable co
 
 -   [Report a compliance case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/report-compliance-case-anonymously.md)
 -   [Report a privacy case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/report-privacy-case-anonymously.md)
--   Report an AI case anonymously
+-   [Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)
 
 **Parent Topic:**[Anonymous Reporting Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-anonymous-reporting-center.md)
 

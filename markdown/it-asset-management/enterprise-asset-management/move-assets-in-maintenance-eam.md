@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-02-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Move enterprise assets to maintenance state
@@ -17,8 +17,6 @@ breadcrumb: [Create a work order for an enterprise asset, Managing work orders f
 Move assets of a break fix or planned maintenance work order task to the In maintenance state to indicate that the assets are under maintenance.
 
 ## Before you begin
-
-**Important:** The Affected assets tab and **Move to maintenance** option are available with Enterprise Asset Management version 10.0 and later.
 
 The break fix or planned maintenance work order task must be in the Work in progress state before you can move assets to the In maintenance state.
 

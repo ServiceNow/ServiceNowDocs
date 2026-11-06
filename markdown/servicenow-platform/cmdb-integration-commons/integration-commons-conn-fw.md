@@ -1,22 +1,22 @@
 ---
 title: Accessing the connection details of Service Graph Connectors
-description: The common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app enables accessing connection details of Service Graph Connectors in a single view.
+description: The common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app enables you to access connection details for Service Graph Connectors.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.html
 release: yokohama
 product: CMDB Integration Commons
 classification: cmdb-integration-commons
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration Commons for CMDB, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Accessing the connection details of Service Graph Connectors
 
-The common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app enables accessing connection details of Service Graph Connectors in a single view.
+The common connection framework \(CCF\) included within the Integration Commons for CMDB \(sn\_cmdb\_int\_util\) store app enables you to access connection details for Service Graph Connectors.
 
-With the CCF, you can access all the connections used by Service Graph Connectors or the connections that are specific to a Service Graph Connector. The connection details include the connection alias, connection properties, data sources, and scheduled data imports associated with a connection for a Service Graph Connector.
+With the CCF feature, you can access all connections for a connector. Connection details include the alias, properties, data sources, and associated scheduled data imports. In addition, you can test a connection. Additional details may appear depending on the connector type. For more information, see [Accessing the connection details of Service Graph Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/integration-commons-conn-fw.md).
 
 ## Viewing connections
 

@@ -1,20 +1,20 @@
 ---
-title: Create an error handler extension point
-description: Create a scripted extension point to handle the embedding generation errors that occur when custom embedding models in the AI Search Retrieval Augmented Generation \(RAG\) application generate semantic vectors.
+title: Create error handler extension point
+description: Create a scripted extension point to handle embedding generation errors that occur when custom embedding models generate semantic vectors. Using extension point enables you to create a primary ticket type as per the extension point definition.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/ai-search/create-error-handler-extention-point.html
 release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Configuring bring your own model \(BYOM\), Configuring an external or custom embedding model, AI Search Retrieval Augmented Generation \(RAG\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configuring bring your own model \(BYOM\), Configuring your embedding model, AI Search RAG \(Retrieval-Augmented Generation\), Semantic index configuration for indexed sources, Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Create an error handler extension point
+# Create error handler extension point
 
-Create a scripted extension point to handle the embedding generation errors that occur when custom embedding models in the AI Search Retrieval Augmented Generation \(RAG\) application generate semantic vectors.
+Create a scripted extension point to handle embedding generation errors that occur when custom embedding models generate semantic vectors. Using extension point enables you to create a primary ticket type as per the extension point definition.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-The `BYOMEmbeddingGenerationErrorHandler` script enables you to control the retry logic, handle batch failures, and modify passages when the embedding is generated. These strategies help to improve the performance of your large-scale semantic indexing pipelines.
+The `BYOMEmbeddingGenerationErrorHandler` script enables you to control retry logic, batch failure handling, and passage modification during embedding generation. These flexible strategies improve the robustness of large-scale semantic indexing pipelines.
 
 ## Procedure
 
@@ -30,11 +30,11 @@ The `BYOMEmbeddingGenerationErrorHandler` script enables you to control the retr
 
 2.  In the **API Name** field, search and select the **BYOMEmbeddingGenerationErrorHandler** extension point.
 
-3.  From the related links, select **Create implementation**.
+3.  From Related Links, select **Create implementation**.
 
 4.  On the Script Include form, update the script as required.
 
-    1.  To manage the embedding generation errors in a custom embedding model, define a `process(inputParams)` method in the extension point script. This method must return a structured response that is based on the predefined error categories.
+    1.  To handle the embedding generation errors by a custom embedding model, defines a process\(inputParams\) method in the extension point script. This method must return a structured response based on predefined error categories:
 
         ```
         var BYOMEmbeddingGenerationErrorHandler = Class.create();
@@ -59,10 +59,9 @@ The `BYOMEmbeddingGenerationErrorHandler` script enables you to control the retr
         
         ```
 
-    2.  To categorize errors, use the `BYOMEmbeddingUtil.ErrorCodeEnum` codes.
+    2.  To categorize errors, use the following `BYOMEmbeddingUtil.ErrorCodeEnum` codes:
 
         ```
-        
         BYOMEmbeddingUtil.ErrorCodeEnum = {
             REQUEST_SIZE_TOO_LARGE_ERROR: "RequestSizeTooLargeError",        // Reduce batch size and retry
             RATE_LIMIT_ERROR: "RateLimitError",                              // Retry without reducing batch size
@@ -75,10 +74,9 @@ The `BYOMEmbeddingGenerationErrorHandler` script enables you to control the retr
         
         ```
 
-    3.  The allowed fields for `buildErrorResponse` include the following types of error codes:
+    3.  Allowed Fields for `buildErrorResponse` includes:
 
         ```
-        
         var allowedFieldsByErrorCode = {
             REQUEST_SIZE_TOO_LARGE_ERROR: ['error_code', 'error_message'],
             RATE_LIMIT_ERROR: ['error_code', 'error_message', 'retry_after_seconds'],
@@ -91,20 +89,18 @@ The `BYOMEmbeddingGenerationErrorHandler` script enables you to control the retr
         
         ```
 
-    4.  The following table describes the error codes and their corresponding retry strategies:
+    4.  Retry Behavior by Error Code includes:
 
         |Error Code|Description|Retry Strategy|
         |----------|-----------|--------------|
-        |REQUEST\_SIZE\_TOO\_LARGE\_ERROR|Batch too large|Reduces batch size, and retries exponentially.|
-        |RATE\_LIMIT\_ERROR|Rate limit reached|Waits for `retry_after_seconds`, and then retries.|
-        |PASSAGE\_SIZE\_TOO\_LARGE\_ERROR|Passage too large|Reduces the passage length \(usually half\), and then retries.|
-        |UNKNOWN\_ERROR|Unknown issue|Skips a retry this run, and automatically retries in the next scheduled job.|
-        |SKIP\_BATCH\_ERROR|Irrecoverable issue with batch|Skips the entire batch without a retry.|
-        |UPDATE\_PASSAGE\_CONTENT\_ERROR|Retry with corrected content|Uses the corrected passages from a response and retries.|
-        |RETRY\_SKIP\_ON\_FAIL\_ERROR|Retry then skip|Retries by increasing the wait times for a specified number of retry attempts.|
+        |REQUEST\_SIZE\_TOO\_LARGE\_ERROR|Batch too large|Reduces batch size, retries exponentially.|
+        |RATE\_LIMIT\_ERROR|Rate limit reached|Waits for `retry_after_seconds`, then retries.|
+        |PASSAGE\_SIZE\_TOO\_LARGE\_ERROR|Passage too large|Reduces passage length \(usually half\), then retries.|
+        |UNKNOWN\_ERROR|Unknown issue|Skips retry this run, automatically retried in the next scheduled job.|
+        |SKIP\_BATCH\_ERROR|Irrecoverable issue with batch|Skips entire batch without retry.|
+        |UPDATE\_PASSAGE\_CONTENT\_ERROR|Retry with corrected content|Uses corrected passages from response and retries.|
+        |RETRY\_SKIP\_ON\_FAIL\_ERROR|Retry then skip|Retries with exponential back off, marks as failed after max retries.|
 
 5.  Select **Update**.
 
-
-**Parent Topic:**[Configuring bring your own model \(BYOM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/creating-byom.md)
 

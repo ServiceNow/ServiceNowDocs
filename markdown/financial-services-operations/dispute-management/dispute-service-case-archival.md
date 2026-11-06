@@ -1,5 +1,5 @@
 ---
-title: Managing the Archive Dispute Service Cases rule
+title: Manage the Archive Dispute Service Cases rule
 description: Manage the archive rule that is provisioned in the Card Disputes Service Case table of the Financial Services Card Operations application. With this rule, your organization can meet your dispute service case archiving requirements. By default, inactive cases that are more than two years old are automatically archived.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/dispute-service-case-archival.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Managing the Archive Dispute Service Cases rule
+# Manage the Archive Dispute Service Cases rule
 
 Manage the archive rule that is provisioned in the Card Disputes Service Case table of the Financial Services Card Operations application. With this rule, your organization can meet your dispute service case archiving requirements. By default, inactive cases that are more than two years old are automatically archived.
 
@@ -35,5 +35,5 @@ Role required: admin
 3.  Update the rule and its parameters, if necessary.
 
 
-**Parent Topic:**[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
+**Parent Topic:**[Dispute management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-reference.md)
 

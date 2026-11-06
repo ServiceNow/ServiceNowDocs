@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tb-open-theme-menu.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the dark theme, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Dark theme, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Open the theme menu
@@ -26,17 +26,13 @@ When you select which theme record is active for the instance, any associated va
 
 1.  Select the user menu, represented by your user icon or initials in the Next Experience Unified Navigation.
 
-    \[Omitted image "tb-select-user-menu.png"\] Alt text: Select the user menu.
-
 2.  Select **Preferences**.
 
-3.  Select **Theme** from Preferences menu.
+    \[Omitted image "next-exp-coral-user-menu-pref.png"\] Alt text: User menu with Preferences selected.
 
-    \[Omitted image "next-exp-user-preference-theme.png"\] Alt text: User preference panel with Theme selected.
+3.  Select the **Theme** tile.
 
-4.  Select the **Theme** tile you want to apply.
-
-    \[Omitted image "select-a-theme.png"\] Alt text: Theme choices within the Theme user preference.
+    \[Omitted image "next-exp-coral-polaris.png"\] Alt text: Theme preference with Polaris and Coral themes displayed.
 
     **Note:** The theme images that are displayed depend on the theme record that you selected for the instance. Your users can select the variant or alternate color palette that are attached to that theme record they want to use for their own work environment.
 

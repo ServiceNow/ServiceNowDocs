@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Preview and download a signed contract document
@@ -35,7 +35,7 @@ Access to a contract document is based on the following user roles and condition
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon.\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.\).
 
 3.  In the **Lists** tab, under **Simple Contracts**, select **Legal Contracts** .
 
@@ -45,15 +45,15 @@ Access to a contract document is based on the following user roles and condition
 
 6.  Download the contract document.
 
-<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d425632e163">
+<table id="choicetable_chr_vty_2zb"><thead><tr><th align="left" id="d457607e163">
 
 External integration status
 
-</th><th align="left" id="d425632e166">
+</th><th align="left" id="d457607e166">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d425632e172">
+</th></tr></thead><tbody><tr><td id="d457607e172">
 
 **Active and published**
 
@@ -61,7 +61,7 @@ Action
 
 Select the link in the Signed Contract list in the **Details** tab
 
-</td></tr><tr><td id="d425632e184">
+</td></tr><tr><td id="d457607e184">
 
 **Not available**
 

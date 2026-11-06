@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Splunk Polling, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Splunk Poller integration configuration fields
@@ -41,7 +41,7 @@ Execute on
 
 </td><td>
 
-Option to select whether to use a specific MID Server or a MID Server cluster. This field is required.
+Option to select whether to use a specific MID Server or a specific MID Server cluster. This field is required.
 
 </td></tr><tr><td>
 
@@ -70,9 +70,8 @@ The MID Server cluster to which the log data is pulled. This field is required.T
 **Note:**
 
 -   Health Log Analytics supports only failover MID Server clusters. In these clusters, multiple MID Servers are grouped together for failover protection. When selecting a cluster from the data input or integration form, the MID Server clusters list displays only failover clusters.
--   The MID Server cluster must include only MID Servers that support basic authentication. mTLS is not supported for log ingestion.
 -   Log ingestion must be enabled for each MID Server in the cluster. If log ingestion is not enabled for the active MID Server, Health Log Analytics enables it automatically.
--   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it, even when that MID Server is down.
+-   The default maximum number of data inputs or integrations streaming logs to a single MID Server is 10. A cluster passes capacity validation if it contains at least one MID Server with fewer than 10 data inputs or integrations running on it. This is true even when that MID Server is down.
 
 For more information about MID Server clusters, see [Configure a MID Server cluster](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureAMIDServerCluster.md).
 
@@ -144,5 +143,5 @@ The query Splunk uses to search your data. This field is required.For example, t
 |Max documents per query|The maximum number of documents retrieved each time log data is fetched from Splunk. Default: 10,000.|
 |Splunk Request Timeout \(seconds\)|The maximum time, in seconds, allowed for data retrieval before the request times out.|
 
-**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

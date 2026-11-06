@@ -1,20 +1,20 @@
 ---
-title: Virtual Agent Designer user input controls
-description: Use the collection of input controls provided by Virtual Agent Designer to prompt and capture information from the user in a conversation.
+title: Assistant Designer user input controls
+description: Use the collection of input controls provided by Assistant Designer to prompt and capture information from the user in a conversation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
-# Virtual Agent Designer user input controls
+# Assistant Designer user input controls
 
-Use the collection of input controls provided by Virtual Agent Designer to prompt and capture information from the user in a conversation.
+Use the collection of input controls provided by Assistant Designer to prompt and capture information from the user in a conversation.
 
 ## Common input control properties
 
@@ -27,7 +27,7 @@ In addition to [data pills and condition controls](https://raw.githubusercontent
     \[Omitted image "va-text-input-node-var-name.png"\] Alt text: The Variable name field is populated automatically under Text input.
 
 
-## Large Language Model \(LLM\) user input controls
+## Large language model \(LLM\) user input controls
 
 The following user input controls are supported in LLM topics when you create an LLM Virtual Agent topic. LLM user inputs include the following.
 
@@ -41,35 +41,8 @@ The following user input controls are supported in LLM topics when you create an
 
 **Note:** Avoid placing more than five user input controls in a single LLM topic, or more than five in a single Input Collector. Excessive user input controls can overwhelm the LLM and may lead to inaccurate or unexpected responses.
 
-## Natural Language Understanding \(NLU\) entity properties
-
--   ****
-
-    If NLU is enabled, the following properties are displayed in the property sheet for the **Text**, **Static Choice**, **Dynamic Choice**, **Boolean**, **Date Time**, and **Carousel** input controls. To view or enable these properties, go to the Advanced options section.
-
-    -   **NLU entity**: The entity that corresponds to the input variable for the control. You select the entity from the list of entities associated with the topic intent, as defined in the NLU model that you’re using for the topic. When Virtual Agent recognizes the entity value in user utterances and if the value meets the entity prediction confidence threshold, then Virtual Agent extracts the value. The value is stored in the input variable for the node. This storing action is called slot filling. Slot filling recognizes when multiple values for the same NLU entity occur in a conversation. Users are prompted with a list to confirm which node value to select when multiple nodes are tied to the same NLU entity. This property is available only for NLU topic discovery.
-
-        \[Omitted image "va-user-input-nlu-entity-property.png"\] Alt text: Slide the NLU entity toggle to select an NLU topic when topic discovery is enabled.
-
-    -   **Enable NLU to switch topics**: Enables NLU prediction for the node. If enabled, users can enter text to answer questions, regardless of the type of input control being used. Virtual Agent uses this utterance to match another existing intent, letting the user switch topics. To enable this property on a node, navigate to **Advanced options** &gt; **Topic switching**.
-
-        \[Omitted image "va-user-input-topic-switching.png"\] Alt text: Under Advanced options - Topic switching, slide the Enable NLU to switch topics toggle to switch topics property.
-
--   **Default value**
-
-    An input prompt can have a preset value that you define. This value can be either a string or a script that returns a string. This property is in the Advanced options section.
-
-    \[Omitted image "va-user-input-default-value.png"\] Alt text: Default value property under Advanced options to predefine a value for user input.
-
--   **Confirmation messages**
-
-    These bot response messages signal the end of the node interaction and ask the users to confirm their response. This property is in the Advanced options section.
-
-    \[Omitted image "va-user-input-confirmation-messages.png"\] Alt text: Confirmation messages properties under Advanced options for input completion and default value confirmations.
-
-
 -   **[Input Collector user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-ai-data-collector.md)**  
-Use the Input Collector control to gather data for use by Now Assist in conversations that use large language model \(LLM\) topic discovery.
+Use the Input Collector control to gather data for use by ServiceNow Otto in conversations that use large language model \(LLM\) topic discovery.
 -   **[Text user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-text-input.md)**  
 The Text user input control in a Virtual Agent topic prompts the user for a text string.
 -   **[Static Choice user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-static-choicelist.md)**  
@@ -89,5 +62,5 @@ Use the Carousel user input control in a Virtual Agent topic to present a prompt
 -   **[Secure Text user input control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-secure-text.md)**  
 The Secure Text control provides a means to encrypt sensitive information provided as simple text or other formats. Use this control to encrypt sensitive information in topics that use large language model \(LLM\) discovery.
 
-**Parent Topic:**[Virtual Agent Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-reference.md)
+**Parent Topic:**[Assistant Designer interface reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/vad-reference.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/create-a-voice-enabled-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Deploy AI voice agents, Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Deploy AI voice agents, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an AI voice agent
@@ -55,9 +55,11 @@ Navigate in AI Agent Studio
  \[Omitted image "voice-agent-select-agent-type-voice.png"\] Alt text: AI agents window showing the drop-down list used to create an AI voice agent.
 
 </td></tr></tbody>
-</table>2.  On the New AI Agent page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
+</table>2.  On the Define the specialty page, describe your AI agent and provide instructions on how you want your AI agent to perform its tasks.
 
-    Select **Generate details** to generate a description and instructions with Now Assist. If you provide the description of what you want the agent to do, you can select **Generate** to write the name, description, AI agent role, and instructions fields for you. You can change those fields after the text has been generated or try again with new instructions.
+    \[Omitted image "voice-agent-add-voice-agent.png"\] Alt text: Define the specialty page showing the Generate details button and the Give it a unique name and description form.
+
+    Select **Generate details** to generate a description and instructions with AI. If you provide the description of what you want the agent to do, you can select **Generate** to write the name, description, AI agent role, and instructions fields for you. You can change those fields after the text has been generated or try again with new instructions.
 
     **Note:** The more details that you provide, the more accurately your AI agent can perform.
 
@@ -112,7 +114,7 @@ AI Agent role
 
 Capabilities and responsibilities for your AI agent. Roles enable your AI agent to perform its required actions.
 
- Example for the Incident manager: You’re an AI agent with the purpose of communicating incident details and making changes to those incidents for users calling in as long as they match the caller for those incidents. You have access to tools that can retrieve a few fields for incidents, comments, and escalate the urgency. Only proceed with gathering information and tool execution if the user and caller listed on the incident match.
+ Example for the Incident manager: You’re an AI agent that communicates incident details and makes changes to incidents for callers. You can retrieve incident fields and comments, and escalate urgency. Only gather information and run tools if the caller matches the user listed on the incident.
 
 </td></tr><tr><td>
 
@@ -183,9 +185,9 @@ Necessary steps to be followed by the AI agent while carrying out its role.
 
 3.  In the **Add tools and information** tab, configure additional tools and data sources that provide capabilities necessary to your AI agent to accomplish its objectives.
 
-    Select **Recommend Tools** for Now Assist to suggest the tools that are required for the AI agent to carry out the tasks that it's built for. Now Assist suggests tools based on the AI agent description and instructions given in the previous section.
+    Select **Recommend Tools** for AI to suggest the tools that are required for the AI agent to carry out the tasks that it's built for. AI suggests tools based on the AI agent description and instructions given in the previous section.
 
-    You can add the tools suggested by Now Assist or manually select the tools from the Add tool drop-down list. You must add at least one tool to continue setting up your AI agent, but you can also add more tools to your AI agent. The data input and output type for tools must be string for optimal voice experience.
+    You can add the tools suggested by AI or manually select the tools from the Add tool drop-down list. You must add at least one tool to continue setting up your AI agent, but you can also add more tools to your AI agent. The data input and output type for tools must be string for optimal voice experience.
 
     The following tools are available for AI voice agents:
 
@@ -209,18 +211,45 @@ Necessary steps to be followed by the AI agent while carrying out its role.
         -   **Any authenticated user**: A user who is logged in can access the AI agent.
         -   **Users with specific roles**: Users that are assigned specific roles can access the AI agent. Selecting this option enables you to select the roles in the Role drop-down list.
         -   **Public**: Anyone can access the AI agent, even without logging in.
-    2.  Define the user identity of the AI agents to determine what data it has access to.
+    2.  If you selected **Public**, select **Require caller identification** to have the AI voice agent identify the caller before the conversation begins.
 
-        The default selection is Dynamic user, in which the user passes their roles to the AI agent which allows the AI agent to run as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
+        When selected, the agent uses the caller identification methods configured in the Caller Identification section of the voice assistant to match the caller to a name. Identification does not authenticate the caller or grant additional access. The session continues with public user permissions.
 
-5.  Define the availability of your AI voice agent.
+        **Note:** This option is available only for voice agents configured with **Public** access.
+
+        \[Omitted image "voice-agent-define-user-access.png"\] Alt text: Define user access page showing the User access field set to Public and the Require caller identification option selected and expanded.
+
+    3.  Select **Require step-up authentication of users** to require callers to complete a high-assurance authentication factor before the AI agent runs.
+
+        **Note:**
+
+        This option is available only for AI voice agents. For more information about step-up authentication, see Step-up authentication.
+
+        A step-up authentication factor must also be selected in **Caller Verification** for each voice assistant that uses this AI agent, from the following supported factors: Okta Verify push notification, SMS verification code, and authenticator app time-based one-time password \(TOTP\). See [Identify and authenticate the caller](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-an-ai-voice-service.md). Without a selected factor, callers are routed to the fallback method configured on the Safeguards screen.
+
+    4.  Define the user identity of the AI agents to determine what data it has access to.
+
+        The default selection is **Dynamic user**. The user passes their roles to the AI agent, and the AI agent runs as the user that invokes it. The user's ACLs determine the data accessible to the AI agent.
+
+        \[Omitted image "voice-agent-define-data-access.png"\] Alt text: Define data access page showing the User identity type field set to Dynamic user and the Approved role\(s\) field.
+
+5.  Select channels and activation status for your AI voice agent.
+
+    \[Omitted image "voice-agents-availability-status.png"\] Alt text: Select channels and status page showing the Allow toggle, the Choose voice assistants field, and the Activation status toggle.
 
     1.  Select **Allow** to enable users to use phone calls to invoke the AI agent.
 
-    2.  In the Voice assistants field, select **Now Assist Voice Deployment** or if you configured a custom provider, select that.
+    2.  In the **Choose voice assistants** field, select the default assistant or a custom assistant.
+
+        Voice assistants are created in Assistant Designer. See  for more information.
 
     3.  Activate the AI agent by toggling the **Status**.
 
+    4.  Select **Test in assistant** to test your AI voice agent in the voice testing experience.
+
+        -   If one voice assistant is linked, the voice testing panel opens directly.
+        -   If multiple voice assistants are linked, select the voice assistant you want to use for testing.
+        -   If no voice assistants are linked, **Test in assistant** is disabled. Link a voice assistant first.
 6.  Select **Done** to save the configuration.
 
 

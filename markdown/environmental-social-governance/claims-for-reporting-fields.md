@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/claims-for-reporting-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-08-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create or edit a claim, Claims for reporting, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

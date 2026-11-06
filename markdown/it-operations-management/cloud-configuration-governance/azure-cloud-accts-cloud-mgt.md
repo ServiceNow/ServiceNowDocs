@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Day 1 setup guide for Microsoft Azure Cloud on Cloud Provisioning and Governance, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Set up a cloud account for Azure
@@ -45,7 +45,7 @@ See [Cloud accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
     **Note:**
 
     -   Select only those LDCs/Regions where your infrastructure resources are present. If you don't have any resources under these new data centers, exclude them while you run the full discovery.
-    -   To discover resources in regions/ LDCs such as, North America \(US East, US West and Canada Central\), South America, Europe, Africa, Middle East and Asia Pacific, raise an access request to the required endpoints with GCP Support.
+    -   To discover resources in certain regions or LDCs, raise an access request to the required endpoints with GCP Support. These regions include North America \(US East, US West, and Canada Central\), South America, Europe, Africa, Middle East, and Asia Pacific.
     The Cloud Account dashboard appears. The datacenters that you selected appear on the **Datacenters** tab.
 
 5.  Click a datacenter.

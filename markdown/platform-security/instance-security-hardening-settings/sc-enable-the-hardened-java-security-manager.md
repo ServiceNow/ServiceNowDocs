@@ -1,5 +1,5 @@
 ---
-title: Enable the hardened java security manager \[New in Security Center 1.3\]
+title: Enable the hardened java security manager
 description: The glide.security.manager property contains the Java classname of the current Java security manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-the-hardened-java-security-manager.html
@@ -7,14 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Enable the hardened java security manager \[New in Security Center 1.3\]
+# Enable the hardened java security manager
 
 The **glide.security.manager** property contains the Java classname of the current Java security manager.
+
+The **glide.security.manager** system property contains Java classname of current Java security manager. ServiceNow has standardized on the Contextual Security Manager. If **glide.security.manager** is not set to the recommended value of `com.glide.sys.security.ContextualSecurityManager`, then the instance may be using an obsolete Java security manager, which is missing expected hardening policies.
+
+Ensure the property **glide.security.manager** is set to `com.glide.sys.security.ContextualSecurityManager`.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
@@ -58,7 +62,7 @@ Recommended value
 
 </td><td>
 
-**com.glide.sys.security.ContextualSecurityManager**
+com.glide.sys.security.ContextualSecurityManager
 
 </td></tr><tr><td>
 
@@ -66,7 +70,15 @@ Default value
 
 </td><td>
 
-**com.glide.sys.security.ContextualSecurityManager**
+com.glide.sys.security.ContextualSecurityManager
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+com.glide.sys.security.ContextualSecurityManager
 
 </td></tr><tr><td>
 
@@ -84,7 +96,7 @@ Security risk
 
 -   Severity score: 7.2
 -   CVSS score: High
--   Security risk details: If **glide.security.manager** is not set to the recommended value of **com.glide.sys.security.ContextualSecurityManager**, then the instance may be using an obsolete Java security manager which is missing expected hardening policies. Without this hardening, a malicious actor with script execution access could get remote code execution on the instance.
+-   Security risk details:Without this hardening, it may be possible for a malicious actor with script execution access to achieve remote code execution on the instance.
 
 </td></tr><tr><td>
 

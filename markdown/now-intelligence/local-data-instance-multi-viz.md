@@ -1,18 +1,18 @@
 ---
-title: Local data instances for multiple visualizations
-description: A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed data fetching.If your use case meets the criteria for a multiple visualization data resource, you can follow this procedure.
+title: Local data instances for multiple data visualizations
+description: A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed up data fetching.If your use case meets the criteria for a multiple visualization data resource, you can follow this procedure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/local-data-instance-multi-viz.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Use a local data instance with a data visualization, Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Use a local data instance, Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Local data instances for multiple visualizations
+# Local data instances for multiple data visualizations
 
-A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed data fetching.
+A special Data Visualization API data resource is available to fetch data for multiple data visualizations simultaneously. This data resource reduces the number of API calls and thus can speed up data fetching.
 
 ## When to use
 
@@ -23,7 +23,7 @@ You can use the “Data Visualization API for multiple data visualizations” da
 
 ## When not to use
 
--   There is only one visualization on the UI Builder page.
+-   There is only one data visualization on the UI Builder page.
 -   The data visualizations on the page are likely to take a long time to load data. In that case, it's better to keep the data loading split between separate data resources.
 
 ## Set up a multiple visualization data resource
@@ -32,7 +32,7 @@ If your use case meets the criteria for a multiple visualization data resource, 
 
 ### Before you begin
 
-Review the use case for a single data resource for multiple visualizations in [Local data instances for multiple visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/local-data-instance-multi-viz.md).
+Review the use case for a single data resource for multiple visualizations in [Local data instances for multiple data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/local-data-instance-multi-viz.md).
 
 Role required: ui\_builder\_admin, admin
 

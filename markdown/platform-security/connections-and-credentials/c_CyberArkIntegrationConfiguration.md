@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CyberArk credential storage integration, External credential storage, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # CyberArk integration configuration
@@ -26,8 +26,10 @@ To configure your instance to obtain credentials from a CyberArk vault, complete
 Configure the CyberArk vault to allow MID Server access and install the CyberArk AIM API on the MID Server machine.
 -   **[Import the CyberArk JAR file](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ImportTheCyberArkJARFile.md)**  
 Import the CyberArk JavaPasswordSDK.jar file into the instance to make it accessible to the MID Server.
--   **[Configure the MID Server for CyberArk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md)**  
-Configure the `config.xml` file to grant the MID Server access to the CyberArk vault.
+-   **[Configure the MID Server for CyberArk AIM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArk.md)**  
+Configure the `config.xml` file to grant the MID Server access to the CyberArk vault with AIM API.
+-   **[Configure the MID Server for CyberArk CCP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigureTheMIDServerForCyberArkCCP.md)**  
+Configure the `config.xml` file to grant the MID Server access to the CyberArk CCP vault.
 -   **[Configure CyberArk for SNMPv2 credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigCyberArkSNMPv2Cred.md)**  
 If your system uses SNMPv2, you can create a special file to map the attribute in a credential to the community string.
 -   **[Configure the CyberArk credential identifier](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/t_ConfigCyberArkCredIdentifr.md)**  

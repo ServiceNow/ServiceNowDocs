@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/track-events.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Maintain and monitor, Administer the ServiceNow AI Platform]
 
 Use the **System Events and Jobs Dashboard** module to monitor the system event processing system and monitor the scheduled jobs processing system in the **Scheduled Jobs** dashboard tab.
 
-\[Omitted image "monitor\_event.png"\] Alt text: Event monitoring dashboard.You need to install the dashboard application to view information about events and queues. See [Understand your System Events Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/setup-event-monitoring-dashboard.md) for more information. There are two ways of representing the information about the events and queues in the event processing system.
+You need to install the dashboard application to view information about events and queues. See [Understand your System Events Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/setup-event-monitoring-dashboard.md) for more information. There are two ways of representing the information about the events and queues in the event processing system.
 
 -   Scores
     -   [Scores-System Event processing health checks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/setup-event-monitoring-dashboard.md)

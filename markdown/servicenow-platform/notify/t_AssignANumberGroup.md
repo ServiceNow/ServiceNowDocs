@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Numbers and number groups, Reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Numbers and number groups, Notify reference, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Associate a number to a number group

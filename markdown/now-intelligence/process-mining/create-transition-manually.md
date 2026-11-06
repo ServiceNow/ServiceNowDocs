@@ -1,85 +1,44 @@
 ---
-title: Create a transition filter manually
-description: Create a transition filter to meet your needs and apply it to view the result on the process graph.
+title: Create a process step filter
+description: Create a process step filter to meet your needs and apply it to view the result on the process graph.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/create-transition-manually.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Apply a transition filter on an activity, Filtering project data, Analyzing and getting process insights, Using Process Mining, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Applying a process step filter on an activity, Filtering project data, Analyzing and getting process insights, Use, Process Mining, Platform Analytics]
 ---
 
-# Create a transition filter manually
+# Create a process step filter
 
-Create a transition filter to meet your needs and apply it to view the result on the process graph.
+Create a process step filter to meet your needs and apply it to view the result on the process graph.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Process Mining Workspace**.
 
-2.  Open a project for which you want to set the transition filter.
+2.  Open a project for which you want to set the process step filter.
 
-3.  Go to the **Analyst Workbench** tab.
+3.  Go to the **Analyst workbench** tab.
 
-4.  Select **Transitions** from the Advanced filters area.
+4.  Choose an option from the **Process steps** list in the More filters area.
 
-    \[Omitted image "transition-location-1.png"\] Alt text: Transitions from Advanced filters area
+    The Process steps option has two options:
 
-    The transition filter form is displayed.
+    -   **Start from scratch**: Create a filter condition manually. For more information, see [Create filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/filter-manual.md).
+    -   **Select quick starter**: Provides a list of preset filters. The list of filters depends on your project definition. Every filter provides the fields, you can provide values as required. For more information, see [Create filter from preset filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/filter-auto.md).
 
-5.  Fill the transition filter form with the required conditions.
+-   **[Create filter manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/filter-manual.md)**  
+Create filters manually after selecting the Start from scratch option from Process steps in Analyst workbench.
+-   **[Create filter from preset filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/filter-auto.md)**  
+Create filters from the preset filters after selecting the Select quick starter from Process steps in Analyst workbench.
 
-    \[Omitted image "transition-filter.png"\] Alt text: Transition filter conditions
-
-    The predicates available are:
-
-    -   is
-    -   is not
-    -   is empty
-    -   is not empty
-    -   is anything
-    -   is one of: When you select "is one of", you can select multiple values at once. Type the first two letters, and select the **Select all** icon to select all matching values.\[Omitted image "filter-isoneof.gif"\] Alt text: Selecting multiple values for is one of predicate
-    **Note:** OR condition can be used only for conditions within the same entity. \(State \(incident\) is Work in progress OR Assignment group \(incident\) is database\).
-
-    1.  Define an activity by adding conditions that contain a field, operator, and values.
-
-        Use the **Occurrence is** field to define whether the filter applies to the first, last, or all occurrences of this condition.
-
-    2.  Use the **Add contextual condition** button to define additional contextual conditions for this activity.
-
-        Use the **and** and **or** buttons to create as many contextual conditions as needed.
-
-    3.  Select **Add next activity** to define another activity within this chain.
-
-        After creating a new activity, a **Relationship** section appears between the two activities. This section defines the relationship between the activities immediately above and below it.
-
-    4.  Select a relationship between your activities.
-
-        -   Directly followed by
-        -   Eventually followed by
-        -   Not directly followed by
-        -   Not eventually followed by
-    5.  Select \(\[Omitted image "show-constraint.png"\] Alt text: Add activity conditions using the Transitions filter\) next to **No constraints added** text to edit constraints for this relationship.
-
-        After creating a constraint, you can select \(\[Omitted image "hide-constraint.png"\] Alt text: Add activity conditions using the Transitions filter\) to minimize the constraint editor.
-
-    6.  Select **+ Add Chain** \(on the top right\) to create an additional chain of activities.
-
-        A chain is a set of linked activities. Create a new chain to define separate set of related activities that must also evaluate to true, but does not have a relationship with the activities in another chain. Once you create a new chain you can navigate between chains using the **Chain &lt;number&gt;** tabs at the top of the window.
-
-    7.  When you have finished creating your filter, select **Apply** to save and return to the **Analyst Workbench**.
-
-        The task runs in the background.
-
-6.  When the task completes, select **View result** in the Scheduled tasks panel of the Analyst Workbench.
-
-
-**Parent Topic:**[Apply a transition filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md)
+**Parent Topic:**[Applying a process step filter on an activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/node-to-node-conditions.md)
 

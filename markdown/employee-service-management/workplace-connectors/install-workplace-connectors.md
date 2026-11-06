@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -19,8 +19,6 @@ Install the Workplace Connectors application from the ServiceNow Store.
 ## Before you begin
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-Before installing the Workplace Connectors application, make sure that the MetricBase instance is up and running.
 
 Ensure you have the following plugins:
 

@@ -1,5 +1,5 @@
 ---
-title: Move an automation request to the planned state
+title: Move an automation request to the Planned state
 description: After creating an automation request, move it to the Planned state before you work on it or create associated automation tasks or resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/automation-center/move-automation-request-to-planned.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with automations, Using Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Working with automations, Use, Automation Center, Workflow Data Fabric]
 ---
 
-# Move an automation request to the planned state
+# Move an automation request to the Planned state
 
 After creating an automation request, move it to the **Planned** state before you work on it or create associated automation tasks or resources.
 

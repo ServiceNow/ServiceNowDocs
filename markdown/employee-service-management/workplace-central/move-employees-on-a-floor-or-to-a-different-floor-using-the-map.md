@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Map based space administration, Working with Space Optimization, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -50,7 +50,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
 5.  Select the floor where you want to move employees using the **Floor** option on the map.
 
-6.  On the side panel, select **Users** icon \(\[Omitted image "movefloormap-usedetailsoption.png"\] Alt text: Users icon.\).
+6.  On the side panel, select **Users**
 
     The floor map displays user icons based on employee assignments.
 
@@ -58,9 +58,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     On the map, spaces assigned to an employee, spaces with move cases, and selected spaces are displayed with the following icons:
 
-    \[Omitted image "movefloormap-usericonlegend.png"\] Alt text: Map legend for Assigned spaces, spaces with move cases, and selected employees.
-
-7.  To view the details of the employees assigned to a space, select the User icon \(\[Omitted image "movefloormap-usericon.png"\] Alt text: User icon.\) or the Move icon \(\[Omitted image "movefloormap-movecase.png"\] Alt text: Move icon.\) on the space.
+7.  To view the details of the employees assigned to a space, select the User or the Move options on the space.
 
     You can also search for an employee to view their details.
 
@@ -68,7 +66,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     The details of the assigned employees are displayed on the **User profiles** panel.For the Neighborhood view by configuration, the neighborhood details are displayed on the user card. If there’s an ongoing move case, then move case details are displayed.
 
-8.  To view the details of the move case on a space, select the \[Omitted image "movefloormap-movecase.png"\] Alt text: Move case icon on the map. icon on the space.
+8.  To view the details of the move case on a space, select the move case option on the space.
 
     You can select multiple users by drawing a circle \(lasso\) around them or by using the Shift key on the keyboard.Selected spaces are highlighted with the Selected employee icon \(\[Omitted image "movefloormap-selected.png"\] Alt text: Selected employees icon.\).
 
@@ -107,8 +105,6 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
         **Note:** If an employee is selected more than once, all actions related to the employee are set to invalid.
 
-        \[Omitted image "building-overview-invalid-action.png"\] Alt text: Building overview screen with a confirm move request pop-up, which displays invalid actions for Abel Tuter.
-
     5.  In the **Select floor** field, select the floor where you want to move the employee.
 
     6.  In the **Assign area** field, select the area where you want to move the employee.
@@ -119,7 +115,7 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 
     9.  On the confirmation window, review the entries, then select **Confirm**.
 
-        A move request is created to perform the move. On the map, the space from where the employee is moved and the space where the employee is to be moved are marked with the \[Omitted image "movefloormap-movecase.png"\] Alt text: Move icon on the map. icon.
+        A move request is created to perform the move. The map displays the space from where the employee is moved and the space where the employee is to be moved are marked with the move symbol.
 
 10. To unassign an employee from a space, do the following:
 

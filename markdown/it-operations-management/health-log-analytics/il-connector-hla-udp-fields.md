@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [UDP, data input, integration, configuration, field, description, ServiceNow, Health Log Analytics, HLA]
-breadcrumb: [Integration configuration field descriptions, Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Integration configuration fields, Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # UDP integration configuration fields
@@ -60,7 +60,7 @@ Port
 
 </td><td>
 
-The port for the MID Server. This field is required. The port must be within the range 6000-6200. Make sure that your organization’s security team opens the selected port on the MID Server.
+The port on the MID Server used for listening to logs. This field is required.**Important:** Enter a unique port that no other application on the MID Server uses. Ask your security team to allow traffic on this port between the MID Server and the log sources.
 
 </td></tr><tr><td>
 
@@ -144,5 +144,5 @@ Drop if queue is full
 Option to discard logs if many processes are waiting in the queue to access the MID Server.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integration configuration field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+</table>**Parent Topic:**[Integration configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

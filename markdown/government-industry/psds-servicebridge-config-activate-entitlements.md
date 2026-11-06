@@ -1,16 +1,16 @@
 ---
-title: Activate remote catalog item entitlements for Service Exchange for Consumers in Public Sector Digital Services
+title: Activate remote catalog item entitlements for Service Exchange Consumers
 description: Create an entitlement for a remote catalog item/record producer so that the associated service will be displayed in the constituent\(s\) Government Service Portal catalog for use. You can entitle content explicitly to a single constituent, or to multiple constituents in designated groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-servicebridge-config-activate-entitlements.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Service Exchange for Consumers, Service Bridge, Case Management, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure Service Exchange for Consumers, Service Exchange, Case Management, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Activate remote catalog item entitlements for Service Exchange for Consumers in Public Sector Digital Services
+# Activate remote catalog item entitlements for Service Exchange Consumers
 
 Create an entitlement for a remote catalog item/record producer so that the associated service will be displayed in the constituent\(s\) Government Service Portal catalog for use. You can entitle content explicitly to a single constituent, or to multiple constituents in designated groups.
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-07-23"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Workplace service delivery for mobile, employee workplace preferences]
-breadcrumb: [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Manage your in-office presence preferences
@@ -121,15 +121,4 @@ Available workplace services for a reservation and a selected location. Option t
 
     You can now manage your workplace schedule and reserve a space using the desk suggestions and presence data. For more information, see [Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md).
 
-
-**Parent Topic:**[Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md)
-
-**Related topics**  
-
-
-[Create a reservation for a day in Workplace]()
-
-[Create bulk reservations in Workplace]()
-
-[Review and edit your reservations in Workplace]()
 

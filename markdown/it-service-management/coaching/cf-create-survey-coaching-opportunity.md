@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Coaching and surveys, Configuring Coaching, Coaching, IT Service Management]
+breadcrumb: [Setting up, Configure, Coaching, IT Service Management]
 ---
 
 # Create a survey and associate with a Coaching opportunity
@@ -48,11 +48,11 @@ Role required: sn\_coaching.admin
 
     1.  Navigate to **All** &gt; **Surveys** &gt; **Question Bank**.
 
-    2.  In the **Assessment Metric Categories** list, click **New.**
+    2.  In the **Assessment Metric Categories** list, select **New.**
 
-    3.  In the **Name** field, enter a name for the question bank and then right-click the form header and select **Save**.
+    3.  In the **Name** field, enter a name for the question bank and then select and hold \(or right-click\) the form header and select **Save**.
 
-    4.  In the Assessment Metrics related list, click **New**.
+    4.  In the Assessment Metrics related list, select **New**.
 
     5.  In the Survey Question form, enter the name, question, and data type, and select **Submit**.
 
@@ -62,11 +62,11 @@ Role required: sn\_coaching.admin
 
     1.  Navigate to **All** &gt; **Coaching** &gt; **Administration** &gt; **Coaching Surveys**.
 
-    2.  In the Assessment Metric Types list, select the survey you've created.
+    2.  In the Assessment Metric Types list, select the survey you have created.
 
     3.  In the Metric Categories related list, select **New Category from Bank**.
 
-    4.  Select the question bank you've created and select **Add selected**.
+    4.  Select the question bank you have created and select **Add selected**.
 
     5.  Select **Update**.
 
@@ -80,7 +80,7 @@ Role required: sn\_coaching.admin
 
         -   To add a survey to be taken by the coach, in the **Survey taken by Coach** field, using the search icon select the survey.
         -   To add a survey to be taken by the trainee, in the **Survey taken by Trainee** field, using the search icon select the survey.
-        For more information on the coaching opportunities, see [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-coaching-opportunity.md).
+        For more information on the coaching opportunities, see [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-create-coaching-opportunity.md).
 
 
 **Parent Topic:**[Setting up Coaching and surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-setting-up-coaching.md)

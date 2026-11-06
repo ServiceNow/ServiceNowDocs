@@ -1,30 +1,30 @@
 ---
-title: Create a success case task
-description: Create a success case task to define a planned action that a provider or customer must complete in support of a success case. A success case task must be clearly defined and can be visible to internal stakeholders or external customers.
+title: Create a customer play task
+description: Create a customer play task to define a planned action that a provider or customer must complete in support of a customer play. A customer play task must be clearly defined and can be visible to internal stakeholders or external customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-success-case-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a success case record, Create a success case playbook, Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Create a customer play, Manage playbooks, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success case task
+# Create a customer play task
 
-Create a success case task to define a planned action that a provider or customer must complete in support of a success case. A success case task must be clearly defined and can be visible to internal stakeholders or external customers.
+Create a customer play task to define a planned action that a provider or customer must complete in support of a customer play. A customer play task must be clearly defined and can be visible to internal stakeholders or external customers.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Success Cases**.
+2.  Navigate to the **Customer Success** &gt; **All Customer Plays**.
 
-3.  Open an success case, navigate to the Success Tasks tab and click **New**
+3.  Open a customer play, select the Related Items option in the contextual side panel, expand the Customer Play Tasks related item, and select **Create**.
 
 4.  On the form, fill in the fields.
 
@@ -58,7 +58,7 @@ Parent
 
 </td><td>
 
-The parent success case with which this task is to be associated is displayed. You can select a different success case task from the drop down list.
+The parent customer play with which this task is to be associated is displayed. You can select a different customer play task from the drop-down list.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Contact
 
 </td><td>
 
-The key customer contact for this success case task.
+The key customer contact for this customer play task.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Assigned to
 
 </td><td>
 
-The key internal team member handling this success case task.
+The key internal team member handling this customer play task.
 
 </td></tr><tr><td>
 
@@ -90,7 +90,7 @@ Category
 
 </td><td>
 
-The category associated with this success case task. This can be:-   Workshops and meetings
+The category associated with this customer play task. This can be:-   Workshops and meetings
 -   Design reviews
 -   Product training
 -   Professional services
@@ -102,7 +102,7 @@ State
 
 </td><td>
 
-State of the success case task. This can be:-   New
+State of the customer play task. This can be:-   New
 -   In progress
 -   Paused
 -   Canceled
@@ -115,7 +115,7 @@ Progress
 
 </td><td>
 
-Current progress of this success case task. This can be:-   Not Started
+Current progress of this customer play task. This can be:-   Not Started
 -   On-Track
 -   At Risk
 -   Paused
@@ -129,7 +129,7 @@ Priority
 
 </td><td>
 
-Priority of this success case task in comparison to others. This can be:-   Critical
+Priority of this customer play task in comparison to others. This can be:-   Critical
 -   High
 -   Medium
 -   Low
@@ -142,7 +142,7 @@ Due date
 
 </td><td>
 
-Date by which the success case task should be completed.
+Date by which the customer play task should be completed.
 
 </td></tr><tr><td>
 
@@ -150,7 +150,7 @@ Visible to customer
 
 </td><td>
 
-Select this checkbox if the success case task should be visible to customers.
+Select this check box if the customer play task should be visible to customers.
 
 </td></tr><tr><td>
 
@@ -158,7 +158,7 @@ Subject
 
 </td><td>
 
-Enter the subject or the goal for this success case task. This is a mandatory field.
+Enter the subject or the goal for this customer play task. This is a required field.
 
 </td></tr><tr><td>
 
@@ -166,7 +166,7 @@ Watch list
 
 </td><td>
 
-Select the users who should be notified of any updates to the success case.
+Select the users who should be notified of any updates to the customer play.
 
 </td></tr><tr><td>
 
@@ -182,7 +182,7 @@ Description
 
 </td><td>
 
-Enter a description for this success case. This is a mandatory field.
+Enter a description for this customer play. This is a required field.
 
 </td></tr><tr><td>
 
@@ -198,14 +198,16 @@ Additional comments
 
 </td><td>
 
-Any additional information that needs to be provided to the customer. This information will be visible to the customer.
+Any additional information that must be provided to the customer. This information is visible to the customer.
 
 </td></tr></tbody>
-</table>5.  Click **Save** to create a new success case.
+</table>5.  Select **Save** to create customer play.
 
 
 ## What to do next
 
--   Click **Discuss** to start a sidebar discussion about this success case task. In the popup window, select the participants who need to participate in the discussion, enter a brief message, and click **Start discussion**. A window appears with a link to the record for this initiative. Click **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
+-   Select **Discuss** to start a sidebar discussion about this customer play task. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Create success play: See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.md).
+
+**Parent Topic:**[Create a customer play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
 

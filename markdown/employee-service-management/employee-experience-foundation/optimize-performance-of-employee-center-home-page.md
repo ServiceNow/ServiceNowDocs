@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing portal performance, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Managing portal performance, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Improve portal load time with asynchronous loading
@@ -44,4 +44,11 @@ By default, widgets try to load and display data simultaneously. This can cause 
 
 
 **Parent Topic:**[Managing portal performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/improve-manage.md)
+
+**Related topics**  
+
+
+[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-load-experience-optimization.md)
+
+[Manage connected content from topic pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mnge-content-topics.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -18,7 +18,7 @@ View a relationship map in Digital Portfolio Management \(DPM\) to see all relat
 
 ## Access a relationship map
 
-While in a DPM solution \(business application, application service, service, or service offering\), select **View relationships**.
+While in a DPM solution \(business application, service instance, service, or service offering\), select **View relationships**.
 
 The Unified Map displays with the selected solution at the top, indicating it's the highest level in the map. Branched from the highest level are other relationships that make up the highest level solution.
 
@@ -34,7 +34,7 @@ On the map page, use the panels for more information about the mapped solutions.
 
     **Note:** The options change for the current issues depending on the solution type.
 
--   Select \[Omitted image "icon-pipelines.png"\] Alt text: Application services icon. to see the application services associated with the selected solution.
+-   Select \[Omitted image "icon-pipelines.png"\] Alt text: Service instances icon. to see the service instances associated with the selected solution.
 
 **Parent Topic:**[Work with solution data in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-working-with.md)
 

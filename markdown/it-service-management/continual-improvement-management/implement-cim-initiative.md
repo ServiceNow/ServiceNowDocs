@@ -1,36 +1,28 @@
 ---
 title: Prepare an improvement
-description: Once the improvement is approved, you can create CIM phases, tasks, and identify impacted KPIs. The Improvement Coordinator for the improvement works with the Improvement Manager to plan implementation.
+description: Create CIM phases and tasks to implement an approved improvement. The Improvement Coordinator works with the Improvement Manager to plan implementation and track progress.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/implement-cim-initiative.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing improvements, Continual Improvement Management, IT Service Management]
 ---
 
 # Prepare an improvement
 
-Once the improvement is approved, you can create CIM phases, tasks, and identify impacted KPIs. The Improvement Coordinator for the improvement works with the Improvement Manager to plan implementation.
+Create CIM phases and tasks to implement an approved improvement. The Improvement Coordinator works with the Improvement Manager to plan implementation and track progress.
 
 ## Before you begin
-
-Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
-
-## About this task
-
-Plan your implementation as phases to keep track of your project milestones. Add tasks to the phase and monitor the progress for the milestones. You can also track your goals by creating tasks directly from the initiatives.
-
-\[Omitted image "cim-implement.png"\] Alt text: CIM implementation process
-
-Preconditions:
 
 -   Improvement Requester created the improvement request.
 -   Improvement Manager accepted and assigned the improvement request.
 -   Approver group member assessed and approved the improvement.
+
+Role required: sn\_cim.improvement\_manager, sn\_cim.improvement\_coordinator
 
 ## Procedure
 
@@ -56,7 +48,7 @@ Preconditions:
 
 3.  Create and assign CIM tasks for an improvement.
 
-    1.  In the CIM Tasks related list, click **New** to create a CIM task.
+    1.  In the CIM Tasks related list, select **New** to create a CIM task.
 
         By default, the CIM task is linked to the CIM initiative. To track the task within a phase, in the **Parent** field, select the a CIM Phase record to which you want to associate the CIM task.
 
@@ -66,7 +58,7 @@ Preconditions:
 
         -   When the planned end date for a CIM task is updated, the planned end date that the CIM initiative that the task is associated with also gets updated. When the state for a CIM task is moved to Work In Progress, the Actual Start Date field is automatically updated with the current date.
         -   When the task is assigned, the task assignee receives an email notification.
-4.  To create a separate application task for an [integrated application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md), click the related link for that application task.
+4.  To create a separate application task for an [integrated application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md), select the related link for that application task.
 
 5.  To monitor a KPI with the improvement, add a record to the Impacted KPIs tab.
 
@@ -80,7 +72,7 @@ Preconditions:
 
     3.  On the Improvement Initiative form, verify that all phases in the CIM Phases related list are 100% complete.
 
-7.  Click **Review** in the header bar to request the improvement be reviewed by the Improvement Manager for closure.
+7.  Select **Review** in the header bar to request the improvement be reviewed by the Improvement Manager for closure.
 
 
 ## Implement improvement
@@ -519,5 +511,5 @@ Impacted KPI
 
 [Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-field-descriptions.md)
 
-[Improvement integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
+[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
 

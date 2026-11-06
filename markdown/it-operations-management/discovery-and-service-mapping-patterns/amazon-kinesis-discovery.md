@@ -1,5 +1,5 @@
 ---
-title: Amazon Kinesis discovery
+title: AWS Kinesis discovery with Patterns
 description: The ServiceNow Discovery application uses the Amazon Kinesis discovery pattern to find Kinesis services available on Amazon Web Services \(AWS\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/amazon-kinesis-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# Amazon Kinesis discovery
+# AWS Kinesis discovery with Patterns
 
 The ServiceNow® Discovery application uses the Amazon Kinesis discovery pattern to find Kinesis services available on Amazon Web Services \(AWS\).
 
@@ -23,7 +23,7 @@ Kinesis is a managed, scalable, AWS cloud-based service that allows real-time pr
 -   Kinesis Data Firehose - load data streams into AWS data stores.
 -   Kinesis Data Analytics- process and analyze streaming data.
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
     -   Discovery and Service Mapping Patterns 1.0.93 or later \(sn\_itom\_pattern\)
     -   CMDB CI Class Models version 1.40.0 or later \(sn\_cmdb\_ci\_class\)
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -89,5 +89,5 @@ The status of the stream.
 |AWS Kinesis Firehose|Hosted on::Hosts|AWS Datacenter|
 |AWS Kinesis Data Analytics|Hosted on::Hosts|AWS Datacenter|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

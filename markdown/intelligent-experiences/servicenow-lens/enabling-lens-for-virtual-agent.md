@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Enabling ServiceNow AI Lens in Virtual Agent
@@ -122,7 +122,7 @@ Role required: virtual\_agent\_admin or admin
 
     \[Omitted image "nav-va-designer.png"\] Alt text: Designer module for Virtual Agent under Conversational Interfaces.
 
-2.  In the Topic tab, select **ServiceNow Lens** topic.
+2.  In the Topic tab, select **ServiceNow AI Lens** topic.
 
     \[Omitted image "va-designer-lens-topic.png"\] Alt text: ServiceNow AI Lens topic in Virtual Agent Designer.
 
@@ -143,7 +143,7 @@ Role required: admin or delegated developer
 
 ### About this task
 
-Do this procedure when you do not see the Now Assist \[Omitted image "icon-ai-sparkle.png"\] Alt text: icon in the Now Mobile app.
+Do this procedure when you don't see the ServiceNow Otto\[Omitted image "icon-ai-admin-center-otto-panel.png"\] icon in the Now Mobile app.
 
 ### Procedure
 

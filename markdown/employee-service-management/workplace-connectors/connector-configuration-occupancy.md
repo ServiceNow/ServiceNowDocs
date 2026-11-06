@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Target Table
 
 </td><td>
 
-Option to indicate the target or destination table to store the occupancy data.Select Occupancy and Environment Data \(sn\_wsd\_wc\_occ\_env\_data\) table. For more information, see [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/space-occupancy-data.md).
+Option to indicate the target or destination table to store the occupancy data.Select Space Occupancy Data \(sn\_wsd\_wc\_space\_occupancy\) table. For more information, see [Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/space-occupancy-data.md).
 
 </td></tr><tr><td>
 
@@ -54,7 +54,7 @@ Type
 
 </td><td>
 
-Option to select the type of sensor data. Select **Occupancy And Environment**.
+Option to select the type of sensor data. Select **Occupancy**.
 
 </td></tr><tr><td>
 
@@ -62,9 +62,9 @@ Extension Point Definition
 
 </td><td>
 
-Option to search for extension point definition for the Occupancy data. Select the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for required extension point definition.\) to search for an extension point definition, select the **OccupancyEnvironmentDataHandler** as the extension point for integration.
+Option to search for extension point definition for the Occupancy data. Select the lookup list icon \(\[Omitted image "wsd-lookup-list-icon.png"\] Alt text: Look up list icon to search for required extension point definition.\) to search for an extension point definition, select the **OccupancyDataHandler** as the extension point for integration.
 
-**Note:** Extension point definition defines how the data is transformed from third-party occupancy sensor data providers. The occupancy data is loaded into the target or final table \(Occupancy and Environment Data table\). The external IDs provided by Metrikus or other occupancy data providers are processed and transformed. Each occupancy data provider must have a separate implementation or integration spoke framework.
+**Note:** Extension point definition defines how the data is transformed from third-party occupancy sensor data providers. The occupancy data is loaded into the target or final table \(Space Occupancy Data table\). The external IDs provided by Metrikus or other occupancy data providers are processed and transformed. Each occupancy data provider must have a separate implementation or integration spoke framework.
 
 </td></tr><tr><td>
 
@@ -73,14 +73,6 @@ Stale time \(in minutes\)
 </td><td>
 
 Option to indicate the time \(in minutes\) beyond which occupancy data is considered stale.Beyond this time, fresh data is fetched from the Occupancy data provider table. When you select a floor on the map and if that space has occupancy data sensor, then, fresh occupancy data is fetched for only those spaces that have stale occupancy data.
-
-</td></tr><tr><td>
-
-Supported Metrics
-
-</td><td>
-
-Option to select target record for supported metrics. For example, Space Occupancy Value.
 
 </td></tr></tbody>
 </table>4.  Select **Submit** to save the connector configuration.

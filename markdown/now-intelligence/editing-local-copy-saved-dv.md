@@ -1,18 +1,18 @@
 ---
-title: Unlink a dashboard copy of a data visualization from the library
-description: To edit a saved data visualization from the library on a dashboard, so the changes apply only on the dashboard, unlink your local copy of the visualization from the library.
+title: Edit a copy of a shared dashboard element
+description: To configure a shared element that you added to a dashboard from a library, make a local copy that is not linked to a library. You only have to do this if you do not have permission to edit the version in the library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/editing-local-copy-saved-dv.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Edit a data visualization in an inline dashboard, Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Edit a dashboard, Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
-# Unlink a dashboard copy of a data visualization from the library
+# Edit a copy of a shared dashboard element
 
-To edit a saved data visualization from the library on a dashboard, so the changes apply only on the dashboard, unlink your local copy of the visualization from the library.
+To configure a shared element that you added to a dashboard from a library, make a local copy that is not linked to a library. You only have to do this if you do not have permission to edit the version in the library.
 
 ## Before you begin
 
@@ -20,30 +20,36 @@ Role required: Any
 
 ## About this task
 
-You may find yourself needing to modify a data visualization on a dashboard to which you have editing rights. However, if it is a shared dashboard from the library, you would be editing the library copy that many other people use. You might not want to or be allowed to do this. However, as long as you can edit the dashboard, you can unlink a visualization on the dashboard from the library. Then you have a local version that you can edit freely.
+You may find yourself needing to reconfigure a data visualization or a filter on a dashboard to which you have editing rights. However, if it is a visualization or filter that is shared from the library, you would be editing the library copy that other people use. You might not have the permissions to do so. In this case, you see a notification that the owner has not shared the element with editing permissions.
+
+\[Omitted image "cannot-configure-element.png"\] Alt text: Message that you cannot configure an element because you do not have editing permissions.
+
+However, as long as you can edit the dashboard, you can unlink a visualization on the dashboard from the library. Then you have a local version that you can edit freely.
+
+**Note:** If you have the right to edit a shared element, you are given the choice to change the configuration in the library, which affects all dashboards that contain it, or to create a local copy. You do not need to unlink the element.
 
 ## Procedure
 
-1.  Navigate to **Platform Analytics** &gt; **Dashboards** and open your dashboard.
+1.  Navigate to **Platform Analytics** &gt; **Library** &gt; **Dashboards** and open your dashboard.
 
 2.  Select **Edit** to put the dashboard in edit mode.
 
-3.  Add the saved data visualization from the library if it is not already there.
+3.  Focus on the element you want to edit.
 
-    For more information, see [Edit Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-db-elements-in-ac.md).
-
-4.  On the data visualization, expand the **Actions** menu.
+4.  On the element, expand the **Actions** menu.
 
     \[Omitted image "dv-on-db-unlink.png"\] Alt text: Actions menu on data visualization, showing Unlink from library action.
 
 5.  Select **Unlink from library**.
 
-    **Note:** You can unlink a visualization from the library even if you do not have the right to duplicate it.
+    **Note:** You can unlink a filter or visualization from the library even if you do not have the right to duplicate it.
 
+6.  Select **Configure**.
 
-## Result
+7.  Proceed as described in one of the following topics:
 
-The data visualization now exists as a local copy on your dashboard, which you can edit as you please.
+    -   [Creating data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/creating-data-visualizations.md)
+    -   [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-workspace-filter-type.md)
 
-**Parent Topic:**[Edit a data visualization in an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/editing-dv-in-line-db.md)
+**Parent Topic:**[Edit Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-db-in-ac.md)
 

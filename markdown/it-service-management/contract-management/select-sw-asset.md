@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Add or remove entitlements for a contract renewal
@@ -20,7 +20,7 @@ Add or remove software entitlements that you want to include in the contract ren
 
 The Software Asset Management Professional \(com.snc.samp\) plugin must be activated.
 
-Role required: sam\_user, contract\_manager
+Role required: contract\_system\_admin, sam\_user, contract\_manager
 
 ## About this task
 
@@ -50,15 +50,15 @@ The entitlements with the following license types are carried over to the new co
 
 3.  Update the existing entitlements for the draft contract.
 
-<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d131203e134">
+<table id="choicetable_ohx_k1c_qtb"><thead><tr><th align="left" id="d216694e134">
 
 Interface
 
-</th><th align="left" id="d131203e137">
+</th><th align="left" id="d216694e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d131203e143">
+</th></tr></thead><tbody><tr><td id="d216694e143">
 
 **Core UI**
 
@@ -68,7 +68,7 @@ Action
 2.  Indicate the entitlements that you want to cover by moving them to the **Planned Entitlements** or removing them.
 
 
-</td></tr><tr><td id="d131203e167">
+</td></tr><tr><td id="d216694e167">
 
 **Hardware Asset Workspace**
 

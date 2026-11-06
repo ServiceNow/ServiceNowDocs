@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2024-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Configure AWS credentials on a CyberArk vault
@@ -44,7 +44,7 @@ Store the credentials as an Account on the CyberArk vault. When you configure ac
     |AWS Access Key Secret \(optional\)|Enter the AWS Secret Access Key, as provided by AWS.|
     |Customize account name|Toggle slider to enter a custom name for this key.|
     |AWS Access Key ID|Enter the AWS Access Key again, as provided by AWS.|
-    |AWS Account ID Number|Enter the AWS Access Key again, as provided by AWS.|
+    |AWS Account ID Number|Enter the 12-digit AWS Account number.|
     |AWS Account Alias Name \(optional\)|Enter an alias name for the account.|
 
 6.  Choose **Add**.
@@ -82,8 +82,8 @@ CyberArk Password Vault v14.2.1 includes both Accounts View and Accounts View \(
     |Platform Name|Select **Amazon Web Services - AWS - Access Keys**.|
     |AWS IAM Username|Enter the AWS Access Key, as provided by AWS.|
     |AWS Access Key ID|Enter the AWS Access Key again, as provided by AWS.|
-    |AWS Account ID Number|Enter the AWS Access Key again, as provided by AWS.|
-    |AWS Access Key Secret|Enter the AWS Secret Access Key, as provided by AWS.|
+    |AWS Account ID Number|Enter the 12-digit AWS Account number.|
+    |AWS Access Key Secret|Enter the AWS Secret Access Key again, as provided by AWS.|
     |Name|Enter a custom name for this key.|
 
 3.  Choose **Save**.

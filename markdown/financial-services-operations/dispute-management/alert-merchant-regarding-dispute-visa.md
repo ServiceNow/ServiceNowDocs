@@ -1,0 +1,71 @@
+---
+title: Review participating merchant alerts for Visa disputes
+description: Alert the merchant about a Visa card transaction dispute.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/alert-merchant-regarding-dispute-visa.html
+release: yokohama
+product: Dispute Management
+classification: dispute-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Investigate, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Review participating merchant alerts for Visa disputes
+
+Alert the merchant about a Visa card transaction dispute.
+
+## Before you begin
+
+Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
+
+**Important:** For the agent connector role to work, it must be combined with one of the CSM industry data model roles. For more information, see [Roles and Personas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-combine-csm-industry-roles.md).
+
+## About this task
+
+During the investigation stage of a transaction dispute, this task alerts the merchant to the disputed transaction. The merchant can choose to resolve the disputed transaction or decline to resolve the dispute.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
+
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
+
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+
+5.  In the open task tab, select the dispute transaction.
+
+    The transaction opens in the **Dispute workspace**.
+
+6.  Select the **Review participating merchant alerts** from the **Dispute workspace**.
+
+7.  Fill in the required fields in the form, and any other related information that you have gathered.
+
+8.  In the **Remarks** field, enter any comments.
+
+    This step is optional.
+
+9.  Select one of the following actions.
+
+    |Dispute task|Action|
+    |------------|------|
+    |**To save changes to the task**|Select **Update**.|
+    |**To close the task**|Select **Close task**.|
+
+
+## Result
+
+The task state updates to Closed Complete. The outcome that the transaction sets to depends on the merchant's decision:
+
+-   If the merchant resolves the dispute with the customer directly, the transaction moves to a Closed complete outcome.
+-   If the merchant declines to resolve the dispute with the customer, the transaction dispute remains in the Work in progress state, and continues through the dispute process workflow stages.
+
+**Parent Topic:**[Investigate stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-stage.md)
+

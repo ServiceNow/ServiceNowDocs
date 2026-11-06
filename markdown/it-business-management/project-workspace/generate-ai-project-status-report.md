@@ -1,0 +1,76 @@
+---
+title: Generate a project status report using ServiceNow Otto
+description: Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/generate-ai-project-status-report.html
+release: yokohama
+product: Project Workspace
+classification: project-workspace
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+---
+
+# Generate a project status report using ServiceNow Otto
+
+Generate an AI‑assisted project status report with predicted health indicators. AI pre-populates project health, an executive summary, and supporting rationale based on weekly project data.
+
+## Before you begin
+
+Role required: it\_project\_manager
+
+## About this task
+
+AI predicts overall and dimension‑level project health \(such as schedule, cost, resources, and scope\). It generates an executive summary using weekly project data and provides a rationale for each prediction.
+
+After generation, project managers can review:
+
+-   Predicted overall health
+-   Predicted dimension statuses
+-   Explanation/rationale text for each prediction in analysis sections
+-   Executive summary text generated from the project’s recent data
+
+After submission, the same information appears in the report view, including rationale text \(for example, a rationale/status explanation column\).
+
+## Procedure
+
+1.  Open a project from the home page of Project Workspace.
+
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+
+2.  Open the Status reports page of the project by selecting **Status Reports** from the list.
+
+3.  From the Pages section, select **Generate status report**.
+
+    You can create an AI status report from an existing template using **Generate from template**. To display AI-generated field data in the document, the template must include dynamic tokens. Without dynamic tokens, only the executive summary is displayed in the status report document.
+
+    If you don't select a template, the AI status report uses a default template. Admins configure this default using the **sn\_pw.ai\_project\_status\_report\_default\_templateId** property.
+
+    The system invokes LLM to pre-populate the form with predicted fields and an executive summary.
+
+4.  Review the AI-generated fields:
+
+    \[Omitted image "ai-generated-status-report.png"\] Alt text: AI-generated status report in Project Workspace.
+
+    -   Overall health \(predicted\)
+    -   Dimension health such as schedule/cost/resources/scope \(predicted\)
+    -   Executive summary \(generated from project data for the reporting period\)
+    -   Rationale/analysis sections explaining each prediction \(for example, schedule health analysis, cost health analysis\).
+    Overall status analysis is displayed in bullet points with highlighted key values and color coding based on the LLM response. The bullet point format with highlighting and coloring applies to all individual health sections such as AI scope health analysis, AI schedule health analysis and so on. The same format appears in the saved status report document.
+
+    A new Project health analysis column has been added to the project workspace list view. When you publish an AI status report, the health analysis rolls up to the project level and appears in this column. If you publish a standard status report \(non-AI\), the project health analysis column is cleared.
+
+5.  Edit any fields as needed.
+
+6.  Select **Submit**.
+
+7.  Verify the submitted report.
+
+
+## Result
+
+An AI-assisted status report is generated with predicted health values, an executive summary, and rationale text.
+
+**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
+

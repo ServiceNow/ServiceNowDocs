@@ -1,5 +1,5 @@
 ---
-title: Enable ACLs to Control Live Profile Details \[Updated in Security Center 1.3\]
+title: Enable ACLs to Control Live Profile Details
 description: Use the glide.live\_profile.details property to designate whether a user should be able to view all detail fields, such as company name and phone numbers, in a live profile.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enable-acls-to-control-live-profile-details.html
@@ -7,37 +7,115 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enable ACLs to Control Live Profile Details \[Updated in Security Center 1.3\]
+# Enable ACLs to Control Live Profile Details
 
 Use the **glide.live\_profile.details** property to designate whether a user should be able to view all detail fields, such as company name and phone numbers, in a live profile.
 
-Depending on the setting of the **glide.live\_profile.details** property, the following occur:
+Use the **glide.live\_profile.details** system property to designate whether a user should be able to view all detail fields, such as company name and phone numbers, in a live profile under the live feed feature.
 
--   If the value is set to Show, access to the live profile information is granted, regardless of the ACLs created for the user profile.
--   If the value is set to ACL, access to the live profile information is restricted, as per the ACLs created for the user profile.
--   If the value is set to Hide, access to the live profile information is restricted, regardless of the ACLs created for the user profile.
+If **glide.live\_profile.details** is set to the value of `hide`, then no live profile information is visible to user. If it is set to `show`, all information is visible. When **glide.live\_profile.details** is set to the value of `ACL`, information is visible based on the user's profile ACLs.
+
+Ensure the property **glide.live\_profile.details** is set to `ACL`.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.live\_profile.details**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)|
-|Purpose|The purpose is to enable only authorized users to access the details of a Live Profile \(such as Company name, Phone numbers\)|
-|Data type|choicelist|
-|Recommended value|ACL|
-|Default value|ACL|
-|Security risk rating|4.3|
-|Functional impact|If property is not enabled, unauthorized users can access the Live profile details of all other users.|
-|Security risk|\(Moderate\) API requests should always honor table ACLs. Restriction must be applied to prevent unauthorized users accessing details of a Live Profile.|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.live\_profile.details**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+String
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+ACL
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+ACL
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+ACL
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 4.3
+-   CVSS rating: Medium
+-   Security risk details: Exposing sensitive user information such as company affiliation and contact details to unauthorized users increases the risk of data leakage and violating privacy controls if ACLs are not enforced.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ The following benefits highlight the value of implementing functional domain tag
 
 A scheduled job named `Populate Functional domain metrics table weekly` has been implemented to maintain accurate and up-to-date adoption metrics. This job systematically queries key Risk-related tables such as **sn\_risk**, **sn\_control**, and **sn\_citation**, identifies and counts records tagged with functional domains. It then calculates the count of tagged records, aggregates the data, and inserts the results into the `Functional domain metrics` \(sn\_grc\_functional\_domain\_metrics\) table. This automated process ensures reliable visibility into domain-level usage and supports informed reporting for adoption tracking and analysis.
 
-The scheduled job is configured to run every Monday at 1:00 AM. Upon successful execution, the `Functional domain metrics` table is updated with the latest aggregated data. Users with the `usage_admin` role can see the data in this table.
+The scheduled job is configured to run every Monday at 1:00 A.M. On successful execution, the `Functional domain metrics` table is updated with the latest aggregated data. Users with the `usage_admin` role can see the data in this table.
 
 The `Functional domain metrics` table includes the following columns: Count, Functional Domain, Domain, and Type.
 
@@ -56,6 +56,11 @@ The following is a list of supported record types:
 -   Entity Class
 -   Entity Type
 -   Risk Statement
+
+-   **[Functional domain bulk update](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/functional-domain-bulk-update.md)**  
+The functional domain feature enables users to efficiently filter and sort records within a workspace based on domain-specific tags. For instance, when working in the Privacy Workspace, users can exclude records that are not tagged with privacy, allowing for a more focused view and reducing potential confusion.
+-   **[Bulk update functional domain for multiple records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/bulk-update-functional-domain-for-multiple-records.md)**  
+Update the functional domain for multiple records at once to save time and ensure efficiency.
 
 **Parent Topic:**[Common Governance, Risk, and Compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/common-grc-features.md)
 

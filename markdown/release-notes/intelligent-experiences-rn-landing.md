@@ -1,41 +1,41 @@
 ---
 title: AI Experiences release notes
-description: AI Experiences has new and updated features in the Yokohama release.
+description: AI Experiences has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/intelligent-experiences-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # AI Experiences release notes
 
-AI Experiences has new and updated features in the Yokohama release.
+AI Experiences has new and updated features in the Brazil release.
 
--   **[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-governance-rn.md)**  
-The ServiceNow®AI Control Tower application provides a centralized workspace for AI stewards to manage and monitor AI within the enterprise. The AI Inventory, based on a unified AI asset data model on the ServiceNow AI Platform® along with associated governance business processes are available in this workspace.
--   **[Conversation Insights release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/conversation-insights-rn.md)**  
-The ServiceNow® Conversation Insights application delivers Inferred customer satisfaction \(CSAT\) scores, with underlying factors that improve CSAT actionability. Conversation Insights is a new application in the Yokohama release.
--   **[Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/document-intelligence-rn.md)**  
-The ServiceNow® Document Intelligence application is an artificial intelligence \(AI\) solution that quickly and accurately categorizes and extracts information from documents. Document Intelligence was enhanced and updated in the Yokohama release.
--   **[Generative AI Controller release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/generative-ai-controller-rn.md)**  
-The ServiceNow® Generative AI Controller application enables you to use generative AI capabilities with third-party large language model \(LLM\) providers on the ServiceNow AI Platform. You can reduce complexity and enhance the user experience in your organization by generating and summarizing content, analyzing user sentiment, and writing unique prompts. Generative AI Controller was enhanced and updated in the Yokohama release.
+-   **[AI Admin Center release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-admin-center-rn.md)**  
+The ServiceNow® AI Admin Center application is a single, AI‑native control hub that brings together other AI capabilities and configuration functions, helping administrators to set up and manage generative‑AI solutions from a unified experience. See the following sections for release notes by version.
+-   **[AI Admin Hub release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-admin-hub-rn.md)**  
+With the ServiceNow® AI Admin Hub application \(formerly Now Assist Admin Console\) you can activate, manage, and monitor AI skills and capabilities. See the following sections for release notes by version.
+-   **[AI Agent Advisor release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-agent-advisor-rn.md)**  
+The ServiceNow® AI Agent Advisor application is an AI solution that automatically discovers automation opportunities in your instance and helps you to deploy AI agents to implement them. See the following sections for release notes by version.
+-   **[AI Agent Studio release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-agents-rn.md)**  
+The ServiceNow® AI agents and AI Agent Studio provide solutions that can perceive the environment, decide, and proactively act to achieve specific goals without the need for constant human oversight. AI Agent Studio was enhanced and updated in the Brazil release.
+-   **[AI Control Tower release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/ai-control-tower-rn.md)**  
+The ServiceNow® AI Control Tower application provides a centralized workspace to track and act on AI governance work across the enterprise. See the following sections for release notes by version.
+-   **[AI Desktop Actions release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/agentic-desktop-rn.md)**  
+The ServiceNow® AI Desktop Actions application enables you to automate repetitive tasks on your desktop and web. These desktop actions are executed by AI agents created in AI Agent Studio.
+-   **[Autonomous Workforce release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/autonomous-workforce-rn.md)**  
+Your ServiceNow® Autonomous Workforce is made up of AI specialists, coordinated systems of AI agents that collaborate, reason, and execute end-to-end work as a collective. See the following sections for release notes by version.
+-   **[Natural Language Understanding release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/natural-language-understanding-rn-2026-09.md)**  
+Natural Language Understanding is currently supported for the Brazil release, but it will be deprecated in a future release.
+-   **[Content Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/content-understanding-rn.md)**  
+Now Assist in Document Intelligence is now Content Understanding. The ServiceNow® Content Understanding application brings multimodal generative AI to document and image processing. It extracts key data, answers natural-language questions, and generates summaries from unstructured text, tables, and images. Content Understanding is enhanced and updated in the Brazil release.
 -   **[Knowledge Graph release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/knowledge-graph-rn.md)**  
-The ServiceNow® Knowledge Graph enables you to create and manage knowledge graph schema for the out of the box \(OOTB\) integrations for Virtual Agent. Knowledge Graph is a new Now Assist platform capability in the Yokohama release.
--   **[Now Assist release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn.md)**  
-The ServiceNow® Now Assist experience brings generative AI to your organization. You can improve productivity and efficiency by delivering better self-service, recommending actions, delivering answers, and providing your users with AI Search. Now Assist was enhanced and updated in the Yokohama release.
--   **[AI Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-analytics-rn.md)**  
-The ServiceNow® AI Analytics application helps Now Assist admins monitor the usage and performance of generative AI features and capabilities offered under Now Assist. AI Analytics was enhanced and updated in the Yokohama release.
--   **[AI Skill Kit release notes]()**  
-The ServiceNow® AI Skill Kit application enables AI developers to create custom skills and to have greater flexibility with Now Assist's generative AI capabilities. AI Skill Kit was enhanced and updated in the Yokohama release.
--   **[Now Assist in Document Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-document-intelligence-rn.md)**  
-The ServiceNow® Now Assist in Document Intelligence application uses generative AI to extract information from documents, summarize document content, and provide answers to predefined questions. Now Assist in Document Intelligence was enhanced and updated in the Yokohama release.
--   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/predictive-intelligence-rn.md)**  
-The ServiceNow® Predictive Intelligence application enables you to create and train machine learning models to help improve performance, efficiency, and flexibility to your systems. Predictive Intelligence was enhanced and updated in the Yokohama release.
--   **[ServiceNow AI Lens release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-lens-rn.md)**  
-With ServiceNow AI Lens, which is a ServiceNow® Now Assist application, you can use generative AI to scan, extract, comprehend, and synthesize data to optimize your workflows. ServiceNow AI Lens is a new application in the Yokohama release.
+The ServiceNow® Knowledge Graph application enables you to create and manage a Knowledge Graph schema for default integrations with ServiceNow® Otto for Virtual Agent Virtual Agent, ServiceNow Otto panel and AI Agent. See the following sections for release notes by version.
+-   **[ServiceNow Arc release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/servicenow-cowork-rn.md)**  
+The ServiceNow Arc application is a desktop AI agent that plans and runs multistep tasks across your enterprise applications within the governance and security policies your administrators define. See the following sections for release notes by version.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritization display settings in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Customize planning item display preferences for roadmaps
@@ -28,9 +28,9 @@ Role required: sn\_align\_core.apw\_admin
 Update default settings for the display of planning items such as Group by fields, Color by fields, Metrics fields, and Kanban preferences, such as default vertical lane and horizontal lane, metrics on the Kanban cards and others, on the following pages:
 
 -   Portfolio plans:
-    -   Prioritization Kanban view
-    -   Roadmap timeline view
-    -   Roadmap kanban view
+    -   Prioritization view
+    -   Kanban view
+    -   Roadmap view
 -   Free-form roadmaps:
     -   Timeline view
     -   Kanban view
@@ -47,7 +47,7 @@ Fields
 
 </th></tr></thead><tbody><tr><td>
 
-Roadmap timeline configuration
+Prioritization and Roadmap configuration
 
 </td><td>
 

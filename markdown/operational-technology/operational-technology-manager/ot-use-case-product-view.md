@@ -7,8 +7,8 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configure, Operational Technology Manager, Operational Technology]
 ---
 
@@ -32,6 +32,10 @@ Operational Technology covers products that tackle aspects of managing OT device
 
     Enables you to create the ISA-95 Equipment Model data foundation that is required for the Operational Technology solution. For more information, see [Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-process-manager/industrial-process-manager-overview.md).
 
+-   **Operational Technology Discovery**
+
+    Enables you to discover and map OT devices and assets in your operational technology environment. For more information, see [Operational Technology Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-discovery-landing.md).
+
 -   **Operational Technology Vulnerability Response**
 
     Enables effective prioritization and remediation of OT device vulnerabilities at the site level. For more information, see [Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-vulnerability-response/oper-tech-vulnerability-response-landing-page.md).
@@ -51,6 +55,22 @@ Operational Technology covers products that tackle aspects of managing OT device
 -   **Operational Technology Request Management**
 
     Enables you to access the OT Service Catalog to request OT catalog items and fulfill them based on the defined flows. OT workers can then create and submit an OT request from a catalog item, which helps provide a consistent experience and facilitates cross-functional requests. For more information, see [Operational Technology Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-request-management/operational-technology-request-management-landing-page.md).
+
+-   **Recommended Actions for Operational Technology Service Management \(OTSM\)**
+
+    Allows you to set up and apply real-time actionable recommendations for speeding up the triaging process and resolving issues quickly across various records in the Industrial Workspace, including OT incidents. For more information, see [Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/recommended-actions-for-otsm/recommended-actions-for-otsm.md).
+
+-   **AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)**
+
+    Accesses external sources related to an OT incident, and contextualizes how the document is relevant to the incident. For more information, see [AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/ai-enhanced-ra-otsm-landing.md).
+
+-   **Employee Center for OT**
+
+    Provides a central location where you can submit requests related to OT and industrial services. For more information, see [Employee Center for OT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/ot-employee-portal-landing.md).
+
+-   **Industrial Workspace**
+
+    Provides OT users with the tools they need to manage their OT data. For more information, see [Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md).
 
 
 -   **[Operational Technology and CSDM tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/ot-use-case.md)**  

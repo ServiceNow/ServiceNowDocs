@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Talent Development, Employee Service Management]
+breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Mentoring
@@ -63,20 +63,8 @@ Employees, both mentees and mentors can view the match insights based on the mat
 </td></tr></tbody>
 </table>## Additional resources
 
--   Learn more about what's new and changed, see the [Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/employee-growth-development-landing.md).
 -   Log in to your ServiceNow® account and find additional information about implementing and deploying Mentoring features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
 -   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
 -   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
 -   Connect with other Employee Service Management users at [Now Community](https://www.servicenow.com/community/).
-
--   **[Exploring Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/exploring-mentoring-egd.md)**  
-Mentoring is a new and modern platform that provides an opportunity for employees to find and build meaningful mentoring relationships to drive employee growth and engagement.
--   **[Configuring mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/configuring-mentoring-egd.md)**  
-Configuring Mentoring.
--   **[Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/using-mentoring-egd.md)**  
-Use Mentoring in Employee Center to access your learnings and achievements.
--   **[Mentoring reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/mentoring-egd-reference.md)**  
-Mentoring Talent Development Reference
-
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
 

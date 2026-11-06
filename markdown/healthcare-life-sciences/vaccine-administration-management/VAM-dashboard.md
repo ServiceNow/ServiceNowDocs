@@ -7,16 +7,14 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Use Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Vaccine Administration Management dashboard
 
 Use the Vaccine Administration Management dashboard to view vaccine appointments by day, week, and month. You can view scheduled, completed, and no-show appointments, as well as filter appointments by the vaccine center, date, method, and clinician.
-
-\[Omitted image "vaccine-appointment-dashboard.png"\] Alt text: Vaccine Administration Management dashboard displaying appointment metrics in single score and bar chart form. For more information on these reports, refer to the Reports section.
 
 ## Required ServiceNow AI Platform roles
 

@@ -1,5 +1,5 @@
 ---
-title: Migration of resource plans and cost plans
+title: Migration of resource plans, operational resource plans, and cost plans
 description: Migrate resource plans to resource assignments and the associated cost plans to attribute-based labor costs of your projects or demands and easily work on resource allocations using Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Migration of resource plans and cost plans
+# Migration of resource plans, operational resource plans, and cost plans
 
 Migrate resource plans to resource assignments and the associated cost plans to attribute-based labor costs of your projects or demands and easily work on resource allocations using Project Workspace.
 
@@ -20,7 +20,7 @@ Migrate resource plans to resource assignments and the associated cost plans to 
 
 ## Resource plans to resource assignments
 
-Migrate all the resource plans of a project or demand to attribute-based resource assignments depending on the [planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/planning-attributes.md) to easily manage your projects on Next experience using [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-workspace-landing-page.md) and [Capacity Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/capacity-planning-spw.md).
+Migrate all the resource plans of a project or demand to attribute-based resource assignments depending on the [planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/planning-attributes.md) to easily manage your projects on Next Experience using [Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-workspace-landing-page.md) and [Capacity Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/capacity-planning-spw.md).
 
 Group, Skill, and Role are the primary attributes enabled for Resource Management depending on which the resource plans are migrated to resource assignments.
 
@@ -37,15 +37,18 @@ Let us see how the status of the resource plans is mapped to the status of resou
 |Canceled or In-progress|Resource plan isn’t migrated|
 |Rejected|Unapproved|
 
-Migrating requested efforts of resource plans
+-   **Migrating requested efforts of resource plans**
 
-When a resource plan is migrated, a corresponding resource assignment is created based on the primary attributes from the resource plan. Resource assignments don’t support custom selection of allocation type and allocation spread.
+    When a resource plan is migrated, a corresponding resource assignment is created based on the primary attributes from the resource plan. Resource assignments don’t support custom selection of allocation type and allocation spread.
 
-Resource assignments only support even spread of resource allocations by default.
+    Resource assignments only support an even spread of resource allocations by default.
 
-\[Omitted image "RP-RA-requested-efforts.png"\] Alt text: Classic ServiceNow view of a resource plan in Requested state.
+    The efforts of the resource plan in requested state are also migrated to resource assignments. For example, suppose a resource plan is in Requested state with 20 additional hours requested but not yet approved. The new migration flow accounts for these requested 20 hours, and the total efforts are reflected in the migrated resource plan. See the following screenshots for more details.
 
-\[Omitted image "RP-RA-requested-efforts-migrated.png"\] Alt text: Monthly allocations view of resource assignment with requested efforts.
+    \[Omitted image "RP-RA-requested-efforts.png"\] Alt text: Classic ServiceNow view of a resource plan in Requested state.
+
+    \[Omitted image "RP-RA-requested-efforts-migrated.png"\] Alt text: Monthly allocations view of resource assignment with requested efforts.
+
 
 With the migration of resource plans:
 
@@ -57,6 +60,13 @@ With the migration of resource plans:
 -   Actual hours for the resource plan in Confirmed and Allocated states are retained with the resource plans.
 
 **Note:** Only one resource assignment is created for every unique combination of primary attributes, Group, Skill, and Role, and one for every user if the resource plans are created with selected member preferences. After migration, if you create resource assignments with any of the existing combinations, the available resource assignments are updated with the new requests.
+
+-   **Allocation contour while migrating to resource assignments**
+
+    The existing contour of allocations in resource plans is maintained while migrating to resource assignments.
+
+    Maintaining the existing contour ensures that the planned effort, timing, and effort distribution remain consistent before and after migration. By carrying forward the same allocation contours, you can continue managing ongoing work without disruption. This maintains accurate capacity and utilization insights and ensures that financial and resource plans reflect your original intent. This seamless transition helps you adopt the workspace experience confidently, without the need to replan or manually adjust allocations.
+
 
 ## Migration of Resource plans to Resource assignments
 
@@ -82,7 +92,7 @@ Operational resource plan in Allocated state created for Demo GroupA.
 
 \[Omitted image "rm-op-rsrc-plan.png"\] Alt text: Operational resource plans form.
 
-After migration, we will have the following Operational resource assignments for every member of the group.
+After migration, you'll have the following Operational resource assignments for every member of the group.
 
 **Note:** The parent-child mapping is retained and you may see an additional resource assignment with an empty resource.
 
@@ -109,7 +119,7 @@ Attribute-based cost plan **Resource\_Internal\_Capex** is created after migrati
 \[Omitted image "rp-ra-cost-plans-migrated.png"\] Alt text: List of attribute-based labor costs capturing the aggregate planned costs.
 
 -   **[Migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/migrate-rsrc-plan-rsrc-asgnmnt.md)**  
-Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-bases cost plans and work on the resource allocations and project financials using Project Workspace.
+Migrate resource plans and cost plans of your projects or demands to resource assignments and attribute-based cost plans. Then, work on the resource allocations and project financials using Project Workspace. The effort table automatically syncs with migrated resource assignments to ensure accurate capacity planning data.
 -   **[Enable attribute-based resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/enable-resource-assignments.md)**  
 Enable the property to work on attribute-based resource assignments to request efforts for your planning items.
 -   **[Create resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-rsrc-asgnmnts-ppm.md)**  
@@ -118,8 +128,21 @@ Create resource assignments to request a portion of team or resource capacity fo
 Migrate the required Operational resource plans to attribute-based Operational resource assignments.
 -   **[Create operational resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md)**  
 Create operational resource assignments to allocate a portion of team or resource capacity for operational work such as administration work, meetings, trainings, and so on.
--   **[Scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md)**  
+-   **[Activate a scheduled job to migrate resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/migrate-rsrc-plan-cost-plan-scheduled-job.md)**  
 Activate the Migrate Resource Plans scheduled job to migrate resource plans, operational resource plans, and cost plans of your projects and demands. This job converts them to resource assignments and attribute-based cost plans.
 
 **Parent Topic:**[Resource Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceManagement.md)
+
+**Related topics**  
+
+
+[Agile work management in CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/agile-in-cwm.md)
+
+[Using the Planning attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/planning-attributes.md)
+
+[Capacity in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/capacity-planning-spw.md)
+
+[Exploring Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/explore-rmw.md)
+
+[Resource planning with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-resource-mgmt-prj-wksp.md)
 

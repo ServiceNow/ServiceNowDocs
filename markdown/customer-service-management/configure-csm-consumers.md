@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-csm-consumers.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure consumers
@@ -16,7 +16,7 @@ A consumer is a customer in the business-to-consumer \(B2C\) business model.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 

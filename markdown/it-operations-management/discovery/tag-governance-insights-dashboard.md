@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Discovery Admin Workspace, Tag Governance Insights dashboard]
-breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Tag Governance Insights dashboard
@@ -31,6 +31,4 @@ Verify the following setup:
 To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Insights** &gt; **Tag Governance Insights**.
 
 For details about the dashboard, see the "Dashboard details" section in [View Tag Governance metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/tag-governance/tag-governance-dashboard.md).
-
-**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
 

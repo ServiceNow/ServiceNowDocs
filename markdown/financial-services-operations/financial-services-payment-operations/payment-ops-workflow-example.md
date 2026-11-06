@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
-breadcrumb: [Explore, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Payment Operations workflow example
@@ -50,6 +50,4 @@ All the data and timelines are captured in the case, eliminating the need to man
 
 -   [Managing payment inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/managing-payment-inquiries.md)
 -   [Managing payment claims and debit approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/managing-payment-claims.md)
-
-**Parent Topic:**[Exploring Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-operations-overview.md)
 

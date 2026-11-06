@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-update-digital-integration-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Digital integration form in EA Workspace
@@ -145,7 +145,7 @@ Description
 
 </td><td>
 
-Description of the digital integration. Describe in detail why the integration is being created between two business applications or between an external service provided interface and a business application and what business value it adds.
+Description of the digital integration. Explain why the integration is being created and what business value it adds.
 
 </td></tr></tbody>
 </table><table id="table_wdc_mky_ncc"><thead><tr><th>
@@ -305,5 +305,5 @@ Availability of the integration. Use the following options:-   Low
 |-----|-----------|
 |Work notes|Comments about the integration.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 

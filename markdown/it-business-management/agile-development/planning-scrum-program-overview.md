@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Scrum Programs, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Scrum Programs for Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Scrum program planning board
@@ -92,23 +92,6 @@ Agile Board has a program planning board where you can plan, schedule, and revie
 
     If you have activated the Agile Development — Unified Backlog plugin \(com.snc.sdlc.agile.multi\_task\), you can also see stories that were added from the triage board to your unified backlog. From the planning board, you can double-click a story card to open it in a pop-up window and edit its details. If the story is created from a record on the triage board, such as a defect, you can see both the story information and the defect information side-by-side.
 
-    The story cards use the following indicators:
-
-    \[Omitted image "scrum-program-board-story-cards.png"\] Alt text: Legend for story cards.
-
-    |Number|Indicator description|
-    |------|---------------------|
-    |1|Indicator for a story that is not complete.|
-    |2|Indicator for a story that is complete.|
-    |3|Indicator for a story that belongs to an epic, which does not have any color attributed to it. Point your cursor to the dot to view the epic's name.|
-    |4|Indicator for a story that belongs to an epic, which has a color attributed to it. Point your cursor to the dot to view the epic's name.|
-    |5|Indicator of an associated prerequisite story. If this band appears in red, it indicates that the dependency is not set correctly and needs to be reviewed.|
-    |6|Indicator of an associated dependent story. If this band appears in red, it indicates that the dependency is not set correctly and needs to be reviewed.|
-    |7|Indicator for a story that is a regular story. This icon changes with the type of the record. For example your team could have stories that are created from problems, enhancements, defects, and other records.|
-    |8|Indicator for a story that is blocked.|
-    |9|Story points.|
-    |10|Short description of the story.|
-
     **Note:** Stories can be created from enhancements, defects, incidents, or other such records only if you have activated the Agile Development — Unified Backlog plugin \(com.snc.sdlc.agile.multi\_task\).
 
 -   **Sprint workload capacity bar**
@@ -127,4 +110,11 @@ Agile Board has a program planning board where you can plan, schedule, and revie
 
     View a list of all stories of the program using the standard list view icon \(\[Omitted image "standard-list-icon.png"\] Alt text: Standard list view icon.\).
 
+
+-   **[Plan a scrum program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/plan-scrum-program.md)**  
+Plan work for sprints, using a centralized view on Agile Board, of multiple scrum teams that are working together on a scrum program.
+-   **[Add sprints from the program planning board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/add-sprints-from-planning-page.md)**  
+Add sprints to your scrum teams directly from the scrum program planning board without having to navigate to another module.
+
+**Parent Topic:**[Scrum Programs for Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/scrum-programs-concept.md)
 

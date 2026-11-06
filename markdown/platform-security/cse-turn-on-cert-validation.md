@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cse-turn-on-cert-validation.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
 # Turn on certificate validation
@@ -24,7 +24,7 @@ Role required:
 
 ## Procedure
 
-1.  On your trusted instance, navigate to **All** &gt; **Code Signing** &gt; **Code Signing Configuration** to open the Code Signing configuration page.
+1.  On your trusted instance, navigate to **All** &gt; **Code Signing** &gt; **Configuration** &gt; **Guided Setup** to open the Code Signing configuration page.
 
 2.  In the **Instance type** field, select **trusted instance**.
 

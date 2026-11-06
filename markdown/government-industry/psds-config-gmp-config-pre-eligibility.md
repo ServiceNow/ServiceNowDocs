@@ -6,8 +6,8 @@ canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/ps
 release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Grants Management, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+reading_time_minutes: 3
+breadcrumb: [Configure PaCE Eligibility Framework Engine, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure pre-eligibility questions in Grants Management
@@ -16,29 +16,36 @@ The Grants Management Program Setup enables grant program managers to use decisi
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_svc\_appl\_pgm\_mg.grant\_program\_manager, sn\_gsm\_grnt\_mgmt.grant\_admin, admin
 
 The Grants Management incorporates the use of pre-eligibility criteria, a series of questions that may be posed to an applicant to determine whether they are eligible to apply for a grant. The purpose is to deflect proposals in which the applicant is not eligible to obtain a grant.
 
-To configure the Pre-Eligibility questions for a new Grant Program:
+The Eligibility &amp; Screening activity allows the user to either select an existing decision tree or create a new decision tree with a series of pre-eligibility questions to check if the applicants qualify for the program. Note: there can only be one decision tree per Grant Program.
+
+You can configure the pre-eligibility questionnaire in one of two ways:
+
+-   By navigating directly to the **Decision Tree \(ga\_decision\_tree\)** table and following steps to create a new decision tree
+-   Through the **Eligibility and screening**activity during the Grant Program creation process, where you are provided with the option to either:
+    -   Select a decision tree that an admin has already created by selecting the search icon in the Decision tree field, or
+    -   Create a new decision tree by selecting **Open the Decision Trees list**. Here, you can configure a new decision tree and define the associated pre-eligibility questions.
+
+To configure the Pre-Eligibility questions for a new Grant Program using a decision tree:
 
 ## Procedure
 
-1.  Open the Grants Management, and navigate to the **Configure Application** stage.
+1.  Set the scope to **Grants Management Playbook**.
 
-2.  Select which Guided Decision tree the applicant should see in the Eligibility Questions questionnaire before the proposal is started.
+2.  In the Decision Tree \(ga\_decision\_tree\) table, select **New** to open a new Decision Tree record form where you can define the details of your decision tree.
 
-    To create a new questionnaire, select **Open the Decision Trees list**.
+3.  On the form, fill in the fields.
 
-3.  Select **New** to open a new Decision Tree record form where you can define the details of your decision tree.
-
-4.  On the form, fill in the fields.
+4.  Unselect the checkbox next to **Show a dismiss button**.
 
 5.  Select **Submit** to create the decision tree record.
 
 6.  Select **Open in Builder** to open the Decision Tree builder, where you can add questions, define branching logic, and set eligibility criteria.
 
-7.  Select the **New** node and enter the Node name and select the relevant reference table.
+7.  Select the **New** node and enter the Node name, then select the relevant reference table.
 
     Enter `PreEligibility` as the Node name, and select Grants Management Case as the reference table.
 
@@ -83,6 +90,18 @@ To configure the Pre-Eligibility questions for a new Grant Program:
 
 When applicants proceed to answer eligibility questions, they are presented with the questionnaire that you have just created using the decision tree. Based on their responses:
 
--   If eligible, they will see a success message and the option to proceed with their proposal
--   If not eligible, a message will indicate that they may not be eligible and suggest reviewing their answer.
+-   \[Omitted image "psds\_gm\_pre\_eligible.png"\] Alt text: pre-eligibility questions view
+
+    If eligible, they will see a success message and the option to proceed with their proposal.
+
+-   \[Omitted image "psds\_gm\_pre\_not\_eligible.png"\] Alt text: pre-eligibility questions view
+
+    If not eligible, a message will indicate that they may not be eligible and suggest reviewing their answer.
+
+
+**Parent Topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-pace.md)
+
+**Previous topic:**[Configure PaCE Eligibility Framework Engine for use with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-pace.md)
+
+**Next topic:**[Configure Eligibility Rules Engine Policies in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-eligibility.md)
 

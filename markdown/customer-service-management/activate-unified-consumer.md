@@ -1,18 +1,18 @@
 ---
-title: Activate a Unified Consumer user
-description: Activate a user as a Unified Consumer user within the Customer Service Management \(CSM\) application by updating the Consumer script include. This modification enables you to display the other sys\_user extension records in the reference list for the users in the csm\_consumer table.
+title: Activate Unified Consumer
+description: Activate the Unified Consumer functionality within the Customer Service Management \(CSM\) application by updating the Consumer script include. This modification enables you to display the other sys\_user extension records in the reference list for the users in the csm\_consumer table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-unified-consumer.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up a user as a Unified Consumer, Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Setting up a user as a Unified Consumer, Configuring a user as a Unified Consumer, Configuring a Unified User, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Activate a Unified Consumer user
+# Activate Unified Consumer
 
-Activate a user as a Unified Consumer user within the Customer Service Management \(CSM\) application by updating the Consumer script include. This modification enables you to display the other sys\_user extension records in the reference list for the users in the csm\_consumer table.
+Activate the Unified Consumer functionality within the Customer Service Management \(CSM\) application by updating the Consumer script include. This modification enables you to display the other sys\_user extension records in the reference list for the users in the csm\_consumer table.
 
 ## Before you begin
 
@@ -44,10 +44,12 @@ To enable access to sys\_users \(internal users\), add the sys\_user to the user
     });
     ```
 
+    **Note:** While creating a consumer user from the consumer form, you’re redirected to the interceptor form to select the user type.
+
 3.  Select **Update**.
 
 
 ## What to do next
 
-Add a user to your instance. For more information, see [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateAUser.md).
+Add a user to your instance. For more information, see [Creating and associating a Unified Consumer user to a consumer record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/associating-users-to-a-consumer-record.md).
 

@@ -1,46 +1,68 @@
 ---
-title: Knowledge-based authentication \(Security Questions\)
-description: Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA also supports validation against external systems through custom scripts, enabling identification of callers whose data resides outside ServiceNow AI Platform.
+title: Knowledge-based authentication \(security questions\)
+description: Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA can be used to identify a caller, authenticate a caller, or both within the same interaction.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/knowledge-based-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-11-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [KBA Security questions, Personal identification information, Authentication methods, Identity verification, Challenge questions, Secret answers, User authentication, Security Questions]
-breadcrumb: [Configure authentication factors, Authentication factors, Authentication, Access Management]
+breadcrumb: [Authentication factor configuration for AI voice agents, Authentication factors, Authentication, Access Management]
 ---
 
-# Knowledge-based authentication \(Security Questions\)
+# Knowledge-based authentication \(security questions\)
 
-Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA also supports validation against external systems through custom scripts, enabling identification of callers whose data resides outside ServiceNow AI Platform.
+Knowledge-based authentication \(KBA\) is an identification and authentication method that verifies callers by prompting them to answer preconfigured questions across conversational AI channels, such as AI voice agents. KBA can be used to identify a caller, authenticate a caller, or both within the same interaction.
 
-These questions leverage personal information that only the authorized user should know, such as the last four digits of their SSN. KBA relies on information known only to the caller, adding an extra layer of security for applications and services. However, due to the nature of this information, KBA is best suited for low-risk scenarios.
+KBA validates answers against records in ServiceNow AI Platform tables. For callers whose data resides outside ServiceNow, admins can configure scripts to validate answers against external systems in real-time. External data isn’t imported or stored in ServiceNow AI Platform.
 
-## Use Case
+## How KBA works
 
-Low-risk authentication \(for example, general IT support, public documentation access, and so on\).
+**Identification** locates the caller by matching their answer to a record in ServiceNow AI Platform or an external system. For example, a caller provides their business phone number, and the system finds a matching record. Identification runs once per session and establishes who the caller is before any sensitive interaction begins.
 
-## Key Strengths
+**Authentication** verifies that the caller is who they claim to be. The caller answers one or more questions, and the system validates those answers against stored or externally sourced data.
 
-The KBA method offers the following advantages:
+KBA questions can be configured for identification, authentication, or both phases, depending on admin configuration.
 
--   No additional device or internet connectivity required
--   Familiar to most users
+**Note:** KBA factor isn’t supported for step-up authentication.
 
-## Important Considerations
+## External source validation
 
-While the KBA method is a convenient authentication method, there are several considerations to keep in mind:
+When caller data is not stored in ServiceNow AI Platform, admins can configure a custom script on an answer record to validate the caller's response against an external system, such as a CRM or order management platform. The script receives the caller's answer as input and returns a match result.
 
--   Low security as answers can be guessed, obtained from public records, or exposed via social engineering.
--   Not recommended as the sole verification method for sensitive operations.
+-   For identification, the script returns the matched record.
+-   For authentication, the script returns a `true` or `false` result.
 
-KBA can enhance overall security when used appropriately. For detailed configuration instructions, see:
+**Note:** Only `snc_external` users can be authenticated using external source.
+
+Script execution is limited to 15 seconds by default. For more information about configuration properties, see [System Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-answers.md).
+
+## Context persistence
+
+Starting `"nowassist-aia-voice", version: "5.0.3"` release, answers collected during identification and authentication are persisted as session context and are available to subsequent authentication questions. Only the caller's own answers are kept, for the current session. This means a caller does not have to repeat information they already provided. For example, if a caller provides a booking reference during identification, that value is accessible to authentication scripts without prompting the caller again.
+
+Only the caller's own answers are kept, for the current session.
+
+**Note:** Context persistence is available only for scripted answers. It doesn’t capture non-scripted answer responses.
+
+## Key strengths
+
+-   No additional device or internet connectivity is required.
+-   Familiar to most users.
+
+## Limitations
+
+-   KBA relies on information the caller knows, which can be guessed, obtained from public records, or exposed through social engineering.
+-   KBA isn’t designed as the sole verification method for sensitive operations.
+-   KBA is well suited for low-risk scenarios, such as general IT support or public documentation access.
+
+For detailed configuration instructions, see:
 
 -   [Create KBA questions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-questions.md)
 -   [Create KBA answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-knowledge-based-answers.md)
 -   [Map KBA questions to answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-answer-mappings.md)
--   [Assign KBA questions to your AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-service-mappings.md)
+-   [Specify knowledge-based questions for an AI voice agent service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-kba-service-mappings.md)
 

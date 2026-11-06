@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Add an ad-hoc task
@@ -28,15 +28,15 @@ Role required: sn\_ins\_claim\_cml.auto\_processor, sn\_ins\_claim\_cml.auto\_ad
 
 2.  Open the claim one of the following ways.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d114989e78">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d140923e82">
 
 Option
 
-</th><th align="left" id="d114989e81">
+</th><th align="left" id="d140923e85">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d114989e87">
+</th></tr></thead><tbody><tr><td id="d140923e91">
 
 **From the landing page**
 
@@ -44,13 +44,13 @@ Steps
 
 From a claims list, select the claim case you want to create a new task for.
 
-</td></tr><tr><td id="d114989e96">
+</td></tr><tr><td id="d140923e100">
 
 **From the applicable case/tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, navigate to one of the following applicable lists:
     -   As a processor, select **Commercial auto claim cases**, then select **All**.
     -   As an adjuster, select **Commercial auto claim adjuster tasks**, then select **All**.

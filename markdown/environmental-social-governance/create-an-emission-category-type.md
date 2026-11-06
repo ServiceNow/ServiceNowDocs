@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-an-emission-category-type.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Scope 3 dashboard, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -67,7 +67,7 @@ EEIO emission activity
 
 </td><td>
 
-EEIO emission activity associated with the category type. The selection made in this field helps in the calculation of the emissions. **Note:** You must activate the emission activities from the ESG content accelerator application.
+EEIO emission activity associated with the category type. The selection made in this field helps in the calculation of the emissions. **Note:** You must activate the emission activities from the Unified content management application.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

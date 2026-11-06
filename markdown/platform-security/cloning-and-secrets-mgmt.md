@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cloning-and-secrets-mgmt.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -18,8 +18,8 @@ After you clone an instance, your secrets groups and client secrets groups may r
 
 |Secrets group origin|Behavior after a clone|
 |--------------------|----------------------|
-|Original instance secrets groups from the target instance|Works as expected after manually importing the missing cryptographic module. See [Exporting and importing data via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ExportAndImportXMLFiles.md).|
-|Original client secrets groups from target instance|Works as expected after manually importing the missing cryptographic module. See [Exporting and importing data via XML](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ExportAndImportXMLFiles.md).|
+|Original instance secrets groups from the target instance|Works as expected after manually importing the missing cryptographic module. See .|
+|Original client secrets groups from target instance|Works as expected after manually importing the missing cryptographic module. See .|
 |Cloned instance secrets groups from source instance|Doesn’t work unless manually set up|
 |Cloned client secrets groups from source instance|Work if manually config sg/identity group/alias/mid|
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Posting announcements to portal users, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: announcement\_admin, sp\_admin, or admin
 
 ## About this task
 
-The title and summary of an announcement can be localized in the Translated Text \[sys\_translated\_text\] table. For more information, see [Translating text fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UseTranslatedText.md).
+The title and summary of an announcement can be localized in the Translated Text \[sys\_translated\_text\] table. For more information, see .
 
 ## Procedure
 

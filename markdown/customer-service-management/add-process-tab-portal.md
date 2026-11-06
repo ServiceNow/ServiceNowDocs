@@ -1,16 +1,16 @@
 ---
-title: Add the Process tab to the Portal
+title: Add the Process tab to the portal
 description: Add a Process tab to the CSM ticket page so that users can track the playbook process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-process-tab-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up predefined Playbooks for Portals, Playbooks for Portals, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Add the Process tab to the Portal
+# Add the Process tab to the portal
 
 Add a **Process** tab to the CSM ticket page so that users can track the playbook process.
 

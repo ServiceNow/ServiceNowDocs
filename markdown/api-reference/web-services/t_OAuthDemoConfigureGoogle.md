@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Outbound REST with OAuth 2.0 profile tutorial - integrating with Google Contacts API, Configure a REST message with OAuth, Outbound REST authentication, Outbound REST web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [OAuth 2.0 profile tutorial: integrating with Google Contacts, Configure a message with OAuth, Outbound REST authentication, REST, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # OAuth 2.0 tutorial - configure the Google service as an OAuth provider

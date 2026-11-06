@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Complete a questionnaire for a work order or task
@@ -49,13 +49,11 @@ Agents can also navigate to **Self-Service** &gt; **My Assessments &amp; Surveys
 
 ## Result
 
-The questionnaire is submitted. You cannot make any changes to the questionnaire. You can only view it.
+The questionnaire is submitted. In case of smart assessment questionnaires, you can edit the responses in the questionnaire from the **Questionnaires Completed** screen.
 
 ## What to do next
 
 Complete any remaining work and then close the task.
-
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-08"
 reading_time_minutes: 1
-breadcrumb: [Adding RIDAC records for a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add actions for a project
@@ -22,7 +22,7 @@ Role required: it\_project\_manager
 
 ## About this task
 
-After analyzing the risks and issues and taking a decision on how to manage those risks and issues, add an action for resolving the risk or issue to a project.
+After analyzing the risks and issues and taking a decision on how to manage them, add an action to resolve the risk or issue.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ After analyzing the risks and issues and taking a decision on how to manage thos
 
 4.  On the Action form, fill in the fields.
 
-    For more information, see [RIDAC form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ridac-forms.md).
 
 5.  If the action requires approval from other stakeholders, request approval with a due date using the **Approval** and **Due date** fields.
 
@@ -43,7 +43,7 @@ After analyzing the risks and issues and taking a decision on how to manage thos
 
 ## What to do next
 
--   Convert an action to a request change and close the action. For more information, see [Convert one RIDAC record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md).
+-   Convert an action to a request change and close the action. For more information, see [Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md).
 -   Associate the action with your existing risk, issue, and decision records so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/reassociate-ridac-project.md).
 
 **Related topics**  

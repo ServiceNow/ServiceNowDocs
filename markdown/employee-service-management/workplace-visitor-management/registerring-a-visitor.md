@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -16,6 +16,10 @@ breadcrumb: [Workplace Visitor Management, Workplace Service Delivery, Employee 
 
 Submit a visitor registration to register your invitees before their visit to the organization. As a visitor, accept or decline visitor policies based on your preference.
 
+-   **[Use the host portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/use-host-portal.md)**  
+Use the host portal to create, view, and manage visits; add visitors and optional co-hosts.
+-   **[Adding visitors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/adding-visitors.md)**  
+Add a single visitor or upload a file with details of multiple visitors.
 -   **[Make a visitor registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/register-a-guest.md)**  
 Pre-plan your visitor or off-site colleagues visit. Specify their visit details like date, time, location, and more.
 -   **[Review visitor policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/review-visitor-policies.md)**  

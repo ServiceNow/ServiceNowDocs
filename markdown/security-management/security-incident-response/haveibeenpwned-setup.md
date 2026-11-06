@@ -1,5 +1,5 @@
 ---
-title: Security Operations Have I been pwned? integration setup
+title: Have I been pwned? integration setup
 description: Have I been pwned? is a free resource used to assess if someone may have been put at risk due to their online account being compromised or "pwned" in a data breach. It easily integrates with Security Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/haveibeenpwned-setup.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Have I been pwned? integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Security Operations Have I been pwned? integration setup
+# Have I been pwned? integration setup
 
 Have I been pwned? is a free resource used to assess if someone may have been put at risk due to their online account being compromised or "pwned" in a data breach. It easily integrates with Security Operations.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/post-upgrade-task-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Business Portal, Configure, Sales Customer Relationship Management]
+breadcrumb: [Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
 # Post-upgrade order migration for the Business Portal
@@ -46,4 +46,11 @@ A system update cleared your cart. Please contact your administrator for help.
 
 4.  On the Scheduled Script Execution page, select **Execute Now**.
 
+
+**Related topics**  
+
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-self-service-business-portal.md)
+
+[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
 

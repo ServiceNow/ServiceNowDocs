@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Data and Automation]
+breadcrumb: [Robust Import Set Transformers, Import sets, Imports, Workflow Data Fabric]
 ---
 
 # Extract Transform Load \(ETL\) definition overview

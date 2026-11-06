@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Define escalation process, On-Call Scheduling, IT Service Management]
+breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Configure a table for escalation trigger rules
@@ -22,13 +22,15 @@ Role required: admin
 
 ## About this task
 
-Tables that are configured in the Trigger Rule Table Configuration \[trigger\_rule\_table\_cfg\] table do appear in the **Table** field in the Trigger Rule form for creating an escalation trigger rule.
+Tables that are configured in the Trigger Rule Table Configuration \[trigger\_rule\_table\_cfg\] table appear in the **Table** field in the Trigger Rule form for creating an escalation trigger rule.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **On-Call Administration** &gt; **Administration** &gt; **Trigger Rule Table Configuration**.
 
-2.  Click **New**.
+    In Service Operations Workspace \(SOW\), you can access On-call trigger rule table configuration by navigating to **All** &gt; **Service Operations Workspace Admin Center** &gt; **Overview** &gt; **Configuration**. On the **Configurations** tab, from the **SOW configurations** section, navigate to the **On-call Scheduling** tile and select **Configure** and then select **Table configuration for trigger rules**. For more information, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md)
+
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -37,6 +39,7 @@ Tables that are configured in the Trigger Rule Table Configuration \[trigger\_ru
     |Table|Name of the table that will be enabled for creating escalation trigger rules.|
     |Trigger group field|Group field value in the table based on which trigger rule processes.|
     |Trigger user field|User field value in the table based on which trigger rule processes.|
+    |Trigger condition fields|List of table fields that are displayed as a choice list in the **Trigger fields** field when creating or editing the trigger rules.|
     |Journal field|The ongoing escalation activity.|
 
 4.  Click **Submit**.

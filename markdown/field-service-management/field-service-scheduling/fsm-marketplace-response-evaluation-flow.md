@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign a task to a contractor on Field Service Marketplace, Allowing contractors to bid on work orders and tasks, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Assign a task to a contractor on Field Service Marketplace, Allowing contractors to bid on work orders and tasks, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Use the Response Evaluation Flow
@@ -28,6 +28,4 @@ There are two default option for Response evaluation flow:
 -   Auto assign - Automatically assigns the bid to the first eligible contractor to accept.
 
 **Note:** Customers can create their own subflows to evaluate responses.
-
-**Parent Topic:**[Assign a task to a contractor on Field Service Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/review-rspons-fsm-mrktplc.md)
 

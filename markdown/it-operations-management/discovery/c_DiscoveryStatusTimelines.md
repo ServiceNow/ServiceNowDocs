@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Discovery status, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Discovery status, Configuring Discovery, Discovery, ITOM Visibility
 
 A Discovery timeline generates a graphical display of a Discovery Status record, including information about each probe and sensor that was used in the discovery.
 
-Use Discovery Timelines to display the following:
+Use Discovery timelines to display the following:
 
 -   The flow of [probes and sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryProbesAndSensors.md), including those that are used with [patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c-UsingPatternsForHorizontalDiscovery.md) through a discovery.
 -   The duration of each probe and sensor that ran during a discovery, and the proportion of time required for queuing and processing.
@@ -27,7 +27,7 @@ Use Discovery Timelines to display the following:
 
 View timelines for an entire discovery or for individual devices in a discovery. By default, the maximum size discovery that you can display in a timeline is 300 entries in the ECC Queue \(150 probes and 150 sensors\). To display larger discoveries, change the default setting in the glide.discovery.timeline.max\_entries property.
 
-## Example Discovery Timelines
+## Example Discovery timeline
 
 This example shows the Discovery timeline for the first two phases of Discovery \(Port scan and Classification\):
 

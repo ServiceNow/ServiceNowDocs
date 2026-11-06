@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add content controls in a Microsoft Word document
@@ -48,7 +48,7 @@ Role required: sn\_cm\_core.contract\_config
 
     -   The tag names are not case sensitive. If there are two tag names as clause\_PURPOSE and clause\_purpose, both will be treated same.
     -   The maximum character limit for the tag is 200.
-    -   When adding content controls for signature or signatories, set the font color of the content control tags to match the document’s background color.
+    -   When inserting content controls for signatures or signatories, ensure the font color of the tagged text matches the document’s background color.
     Tag names contain a prefix with the content control type.
 
     |Content control type|Description|

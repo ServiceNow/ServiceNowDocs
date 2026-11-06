@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Use, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Work with alerts in ITOM mobile
@@ -74,7 +74,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ITOM Mobile Agent displays a notification similar to `INC0013579 was created from Alert0002468`. You can view the incident in the **My team** tab. For more information about managing incidents in ITOM Mobile Agent, see [Managing incidents and major incidents on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/itom-mobile-incidents.md).
 
-**Note:** If you don't see the option to create an incident from an alert, make sure that the alert is assigned to a team. To assign the alert to a team, see [Assign alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/assign-alerts.md). In the Express List, teams are also known as assignment groups.
+**Note:** If you don't see the option to create an incident from an alert, make sure that the alert is assigned to a team. To assign the alert to a team, see [Assign alerts in Express List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/assign-alerts.md). In the Express List, teams are also known as assignment groups.
 
 ## Reassign an alert
 
@@ -90,9 +90,9 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 ITOM Mobile Agent displays Alert reassigned successfully. The assigned team member receives a push notification and the alert appears in their **My work** tab.
 
-**Parent Topic:**[Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/use-itom-mobile.md)
+**Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
-**Previous topic:**[Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/use-itom-mobile.md)
+**Previous topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
 **Next topic:**[Managing incidents and major incidents on mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/itom-mobile-incidents.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -31,7 +31,7 @@ To use Cloud Configuration Governance for managing the configuration of the clou
 See [Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md) to find the list of plugins you activate with Cloud Configuration Governance.
 
 -   **[Install Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/install-cloud-config-governance.md)**  
-You can install the Cloud Configuration Governance application \(com.sn.itom.ccg\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
+You can install the Cloud Configuration Governance application \(com.sn.itom.ccg\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 -   **[Install the CCG Content Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/install-ccg-content-pack.md)**  
 You can install the CCG Content Pack application \(sn\_itom\_ccg\_cp\) if you have the admin role.
 -   **[Set up Cloud Configuration Governance for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/set-up-ccg-for-aws.md)**  

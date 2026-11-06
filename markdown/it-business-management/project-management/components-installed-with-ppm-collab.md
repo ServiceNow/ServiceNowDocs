@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install PPM Collaboration, PPM Collaboration, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Install PPM Collaboration, Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Components installed with PPM Collaboration
@@ -65,4 +65,11 @@ Stores the list of IDs and names of the Slack channels that are created for the 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/using-project-management.md)
+
+**Related topics**  
+
+
+[Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/install-ppm-collab-store-app.md)
+
+[Collaborate with your project teams using PPM Collaboration application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-collab-overview.md)
 

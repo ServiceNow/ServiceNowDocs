@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore Career Conversations application, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Explore Career Conversations application, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Career Conversations
@@ -113,13 +113,13 @@ Manager
 **Related topics**  
 
 
-[Create a growth conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-create-growth-conversation.md)
+[Create a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-create-growth-conversation.md)
 
-[Schedule a growth conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-schd-growth-conversation.md)
+[Schedule a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-schd-growth-conversation.md)
 
-[Update a growth conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-update-growth-conversation.md)
+[Update a growth conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-update-growth-conversation.md)
 
 [Schedule a growth plan check-in conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-schd-gp-check-in-convo.md)
 
-[Schedule a mentoring conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-schd-mentor-conversation.md)
+[Schedule a mentoring conversation in Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-act-schd-mentor-conversation.md)
 

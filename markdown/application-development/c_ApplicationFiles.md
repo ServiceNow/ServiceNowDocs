@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/c\_ApplicationFiles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Application files
@@ -27,9 +27,4 @@ Administrators can:
 -   View file properties for configuration records.
 -   Protect application files from changes during upgrades.
 -   View parent-child relationships between configuration records.
-
-**Related topics**  
-
-
-[bundle-cadev.t_AddAnAppFileToAnApp]
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Platform Analytics Solutions for Contract Management Pro
@@ -25,7 +25,7 @@ The following roles and tasks are associated with Contracts Dashboard:
 
 -   **[Activate Analytics Pack for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-activate-analytics-cmpro-plugin.md)**  
 You can activate the Analytics Pack for Contract Management Pro plugin \(com.sn\_cm\_pa\) if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
--   **[Using the Contracts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-contracts-dashboard.md)**  
+-   **[Contracts Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-contracts-dashboard.md)**  
 With Contracts Dashboard, you can make data-driven decisions by analyzing the trends and insights derived from the contract request data.
 
 **Parent Topic:**[Managing Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-manage-cmpro.md)
@@ -36,6 +36,8 @@ With Contracts Dashboard, you can make data-driven decisions by analyzing the tr
 [Manage clauses, tables, and contract templates]()
 
 [Manage contract records]()
+
+[Manage AI skills]()
 
 [Modify assignment rule for contract requests]()
 

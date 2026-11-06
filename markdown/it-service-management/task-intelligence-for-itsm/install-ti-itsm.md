@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Task Intelligence for ITSM, Task Intelligence for ITSM, IT Service Management]
+breadcrumb: [Configure, Task Intelligence for ITSM, IT Service Management]
 ---
 
 # Install Task Intelligence for ITSM
@@ -52,7 +52,7 @@ For more information on what is installed, see [Components installed with Task I
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

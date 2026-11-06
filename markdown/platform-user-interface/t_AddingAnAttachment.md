@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_AddingAnAttachment.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Administrators can configure attachments and how they work in the system. For more information, see [Administering attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AdministeringAttachments.md).
+Administrators can configure attachments and how they work in the system. For more information, see Administering attachments.
 
 The default maximum size limit for an attachment file that can be added to a record on the ServiceNow AI Platform is 1024MB for a new out-of-box instance. If the field is left blank the default limit \(currently set at 1GB\) will be used as the maximum attachment file size.
 

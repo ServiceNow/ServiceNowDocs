@@ -7,9 +7,9 @@ release: yokohama
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Update set use, System update sets, Deploying applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Save an update set as a local XML file
@@ -22,38 +22,28 @@ Role required: admin
 
 ## About this task
 
-Typically you create an XML file of an update set when one of the following conditions apply:
+Create an XML file of an update set when:
 
--   The two instances do not have network connectivity so you cannot retrieve update sets from the remote instance nor create a data source to pull, or import, data directly from the source instance.
--   You do not want to provide administrator credentials to the source instance \(for example, you do not want to share an administrator password with people outside your company\) so you cannot retrieve update sets nor create a data source.
+-   The two instances lack network connectivity, preventing the retrieval of update sets or the creation of a data source for import from the source instance.
+-   You don't want to give administrator credentials for the source instance.
 -   You want to back up important customizations locally.
-
-The ability to export and import customizations as an XML file is provided by the following UI Actions:
-
--   **Export to XML** on the Update Set \[sys\_update\_set\] table.
--   **Export to XML** on the Retrieved Update Set \[sys\_remote\_update\_set\] table.
--   **Import Update Set from XML** on the Retrieved Update Set \[sys\_remote\_update\_set\] table.
-
-The **Export to XML** UI Action on Update Set \[sys\_update\_set\] table calls a processor called UnloadRetrievedUpdateSet, which transforms a local update set into a retrieved update set, exports the retrieved update set with its related list, and then deletes the temporary update set, if necessary.
-
-Both **Export to XML** UI actions depend on the script include ExportWithRelatedLists, which exports a record and manually defined related lists to a single XML file.
 
 ## Procedure
 
-1.  Navigate to **System Update Sets** and click either **Local Update Sets** or **Retrieved Update Sets**.
+1.  Navigate to **System Update Sets** and select either **Local Update Sets** or **Retrieved Update Sets**.
 
     **Note:** **Retrieved Update Sets** must be in a loaded state to be exported.
 
 2.  Select an update set that is in the **Complete** state.
 
-3.  On the Update Set form, click the **Export to XML** Related Link.
+3.  On the Update Set form, select the **Export to XML** Related Link.
 
 4.  Save the XML file.
 
-    An XML file is created. When the file is uploaded to another instance, it appears as a retrieved update set regardless of whether it is local or retrieved on the instance where it is created.
+    When a file is uploaded to a different instance, it’s recognized as a retrieved update set.
 
 
-**Parent Topic:**[Update set use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/update-set-procedures.md)
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/configure-system-update-sets.md)
 
 ## Load customizations from a single XML file
 
@@ -69,16 +59,14 @@ Roles required: admin
 
 2.  Navigate to **System Update Sets** &gt; **Retrieved Update Sets**.
 
-3.  Click the link **Import Update Set from XML**.
+3.  Select **Import Update Set from XML**.
 
-4.  Click **Choose File** and select an XML file.
+4.  Select **Choose File** and select an XML file.
 
-5.  Click **Upload**.
+5.  Select **Upload**.
 
-    The customization is now available as a retrieved update set with state Loaded.
+    The customization is available as a retrieved update set with the state **Loaded**.
 
-6.  Follow standard procedure to commit the update set.
-
-    \[Omitted image "LoadUpdateSetFromXML.png"\] Alt text: Retrieved update set
+6.  To commit the update set, see [Commit an update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/t_CommitAnUpdateSet.md).
 
 

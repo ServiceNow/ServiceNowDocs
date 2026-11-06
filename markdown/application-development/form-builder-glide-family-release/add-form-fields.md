@@ -7,9 +7,9 @@ release: yokohama
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Forms in Table Builder, Using Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Working with forms, Use, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add fields to a form layout in Table Builder
@@ -44,15 +44,15 @@ Role required: personalize\_form or AES user role and delegated developer permis
 
     **Note:** Certain field types are only supported in Core UI. Fields are flagged with an exclamation icon \(!\) to indicate an unsupported type.
 
-<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d250239e200">
+<table id="choicetable_u3j_f4j_wrb"><thead><tr><th align="left" id="d385748e206">
 
 Option
 
-</th><th align="left" id="d250239e203">
+</th><th align="left" id="d385748e209">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d250239e209">
+</th></tr></thead><tbody><tr><td id="d385748e215">
 
 **Add an existing field to a form**
 
@@ -65,7 +65,7 @@ Action
 2.  In the form editor, drag one or more selected fields to the desired location and then move them around as necessary.
 
 
-</td></tr><tr><td id="d250239e229">
+</td></tr><tr><td id="d385748e235">
 
 **Add a new field to a form**
 
@@ -84,7 +84,7 @@ A confirmation dialog displays. You can click **Done** to close it or click **Ad
 
 The new field is displayed at the top of the Fields list and can be dragged onto the form editor.
 
-</td></tr><tr><td id="d250239e295">
+</td></tr><tr><td id="d385748e301">
 
 **Remove field from form**
 

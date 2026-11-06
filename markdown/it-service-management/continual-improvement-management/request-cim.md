@@ -1,5 +1,5 @@
 ---
-title: Install CIM
+title: Install Continual Improvement Management
 description: Install the Continual Improvement Management plugin from ServiceNow Application Manager after purchasing a subscription.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/request-cim.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Overview, Continual Improvement Management, IT Service Management]
+breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
 
-# Install CIM
+# Install Continual Improvement Management
 
 Install the Continual Improvement Management plugin from ServiceNow Application Manager after purchasing a subscription.
 
@@ -60,14 +60,14 @@ If you don't have an account manager, decide to delay activation after purchasin
     -   Key application features
     -   List of plugins installed or activated with CIM.
 
-**Parent Topic:**[Continual Improvement Management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/get-started-cim.md)
+**Parent Topic:**[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-landing-page.md)
 
 **Related topics**  
 
 
 [Components installed with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-components.md)
 
-[Improvement integration with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
+[Applications integrated with Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-integration.md)
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

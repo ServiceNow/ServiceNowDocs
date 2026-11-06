@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Managing gifts and entertainment disclosure requests, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Update a submitted gifts and entertainment disclosure request
@@ -28,15 +28,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 3.  On the Standard Ticket page, review and edit the request details, manage attachments, or cancel the request.
 
-<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d572929e78">
+<table id="choicetable_pdc_mqj_znb"><thead><tr><th align="left" id="d621007e93">
 
 Action
 
-</th><th align="left" id="d572929e81">
+</th><th align="left" id="d621007e96">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d572929e87">
+</th></tr></thead><tbody><tr><td id="d621007e102">
 
 **Modify the request details**
 
@@ -50,7 +50,7 @@ Steps
 4.  Click **Back** to return to the Standard Ticket page.
 The gifts and entertainment disclosure request is updated with the new information.
 
-</td></tr><tr><td id="d572929e123">
+</td></tr><tr><td id="d621007e138">
 
 **Cancel the request**
 
@@ -68,15 +68,15 @@ Any associated active flows are terminated. Any pending approval record is also 
 
 5.  Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d572929e173">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d621007e188">
 
 Option
 
-</th><th align="left" id="d572929e176">
+</th><th align="left" id="d621007e191">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d572929e182">
+</th></tr></thead><tbody><tr><td id="d621007e197">
 
 **If the Attachments tab is visible**
 
@@ -87,7 +87,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d572929e221">
+</td></tr><tr><td id="d621007e236">
 
 **If the Documents tab is visible**
 

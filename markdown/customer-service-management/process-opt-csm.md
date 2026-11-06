@@ -5,16 +5,22 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/process-opt-csm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Integrate, Customer Service Management]
 ---
 
 # Integrating with Process Mining
 
 Integrate Customer Service Management with the Process Mining application to analyze processes relevant to your KPIs, and identify bottlenecks associated with customer service cases.
 
-For more information about enabling the Process Mining Content Pack for CSM, see [Activate Process Mining content packs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/po-content-pack.md).
+**Important:**
+
+Beginning with the Brazil release, the Process Mining Content Pack application is set to be part of the core ServiceNow AI Platform and is automatically installed for Customer Service Management. To auto-install the Process Mining Content Pack application, upgrade your instance to Brazil.
+
+Support for the standalone CSM Process Mining Content Pack \(com.snc.csm\_process\_optimization\) ends with this change; it remains active on upgrade, but is no longer supported.
+
+For more information about enabling the Process Mining Content Pack for CSM, see [Activate a content pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/activate-po-content-pack.md).
 
 ## End user and roles
 
@@ -27,6 +33,14 @@ The following combinations of roles are required for using the Process Mining ap
 |sn\_process\_optimization\_admin|sn\_customerservice\_manager|
 |sn\_process\_optimization\_power\_user|sn\_customerservice\_manager|
 |sn\_process\_optimization\_analyst|sn\_customer\_service\_agent|
+
+## Projects included with Process Mining Content Pack for CSM
+
+Several projects are included with the Process Mining Content Pack for CSM \(sn\_csm\_po\) that customers can use to get started:
+
+-   [Case evaluation project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/evaluation-pm-csm.md): Use this project to evaluate Process Mining and become familiar with the Process Mining capabilities.
+-   **Long resolution time analysis project**: Use this project to identify bottlenecks to minimize delays in the case flow.
+-   **SLA Breach Analysis project**: Use this project to identify and analyze customer service cases where service level agreements \(SLAs\) have been violated.
 
 ## Optimization project for customer service cases
 
@@ -45,8 +59,7 @@ If the Continual Improvement Management \(CIM\) application is enabled, the CIM 
 
 If the Performance Analytics application is enabled, the available template configurations can also open the Process Mining application from a Performance Analytics \(PA\) indicator based on the customer service case data. For more information, see [Integration with Performance Analytics \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/integrate-pa.md).
 
-**Related topics**  
+## Process configuration for customer service cases
 
-
-[Process Optimization for CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/example-po-csm.md)
+Select the Process Mining Content Pack for CSM \(com.snc.csm\_process\_optimization\) templates to quickly set up projects with pre-configured default settings. Process configurations specify preferences that activate key functionalities within the Process Mining workspace and streamline project setup for cases. Fully configured processes allow users to build projects autonomously and derive insights efficiently, supporting enterprise-wide scalability of process mining. For more information, see [Creating process configurations using content pack templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-pack-config.md).
 

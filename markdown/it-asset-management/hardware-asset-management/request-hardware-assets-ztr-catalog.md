@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage hardware asset requests using the Zero Touch request flow, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Request and receive assets using the Zero Touch request flow, Employee self-service, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Request a hardware asset through the Zero Touch request flow
@@ -38,4 +38,11 @@ Role required: none
 ## Result
 
 Your hardware catalog request is successfully submitted.
+
+**Parent Topic:**[Request and receive assets using the Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/request-receive-assets-ztr.md)
+
+**Related topics**  
+
+
+[Acknowledge receipt of an asset received through the Zero Touch request flow]()
 

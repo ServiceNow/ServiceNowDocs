@@ -1,0 +1,41 @@
+---
+title: Access ServiceNow Otto for Setup \(SPM\)
+description: Use Open ServiceNow Otto for Setup from the Admin Home page to start setting up Strategic Portfolio Management \(SPM\) applications for your organization.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/spm-config-console-access.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Strategic Portfolio Management, SPM, Now Assist for Setup, Admin Home, Admin Center, configuration console, setup console, portfolio management setup]
+audience: administrator
+breadcrumb: [ServiceNow Otto for Setup \(SPM\), Strategic Portfolio Management]
+---
+
+# Access ServiceNow Otto for Setup \(SPM\)
+
+Use Open ServiceNow Otto for Setup from the Admin Home page to start setting up Strategic Portfolio Management \(SPM\) applications for your organization.
+
+## Before you begin
+
+Install ServiceNow Otto for Setup from ServiceNow store or from the prompt on the Admin Home page.
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Admin Center** &gt; **Admin Home**.
+
+2.  On the Admin Home page, locate and select the **Strategic Portfolio Management** card to open the ServiceNow Otto for Setup workspace for SPM.
+
+    The card appears only when your organization has at least one Strategic Portfolio Management \(SPM\) application licensed. The modules and items inside the console are filtered to match your specific entitlements.
+
+3.  Install the required SPM apps from the Apps and plugins section.
+
+4.  Select **Configure** to open the configuration console for SPM.
+
+5.  Complete the tasks for each module in the setup.
+
+    For a complete listing of modules and the per-application setup task each item links to, see [Modules in ServiceNow Otto for Setup \(SPM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/spm-config-console-modules.md).
+
+

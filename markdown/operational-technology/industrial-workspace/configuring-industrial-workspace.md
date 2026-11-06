@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Industrial Workspace, Operational Technology]
 
 Configure Industrial Workspace so that you can manage your Operational Technology \(OT\) data.
 
-If you have the admin role, you can use Guided Setup to lead you through the setup of the Industrial Workspace. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and the links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
+If you have the admin role, you can use Guided Setup to lead you through the setup of the Industrial Workspace. Guided Setup is a tool that assists with application or capability configuration. It organizes the configuration activities into categories. These categories contain the information about the setup tasks, the steps to complete each task, and links to the pages in your instance where you perform the configuration. The links to useful help content are also provided.
 
 To access Guided Setup, navigate to **Industrial Workspace Admin** &gt; **Guided Setup**.
 
@@ -47,7 +47,9 @@ Set up the Operational Technology Vulnerability Response \(PA\) dashboard in the
 -   **[Setting up the Operational Technology Unified Map experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/setting-up-unified-maps-experience.md)**  
 Set up the Operational Technology \(OT\) Unified Map experience in the Industrial Workspace so that your users can access Unified Maps.
 -   **[Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/configure-hva-using-guided-setup.md)**  
-Use the Industrial Workspace Admin guided setup to walk through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
+Use the Industrial Workspace Admin guided setup to walk you through configuring the Hardware Vulnerability Assessment feature available on the Industrial Workspace menu.
+-   **[Setting up the OT Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/setting-up-ot-network-map.md)**  
+Set up the Operational Technology \(OT\) Network Map so that you can access the map in the in the Industrial Workspace.
 
 **Parent Topic:**[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -30,16 +30,14 @@ Role required: sn\_si.admin or sn\_si.analyst
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-3.  In the Related Links section, click **Run EDR Profile\(s\)**.
+3.  In the Related Links section, select **Run EDR Profile\(s\)**.
 
-4.  Browse and select a profile with **Remove Isolation capability** selected from the list of available profiles, and click **Submit**.
-
-    \[Omitted image "remove\_isolation.png"\] Alt text: Remove Isolation capability in Microsoft Defender for Endpoint
+4.  Browse and select a profile with **Remove Isolation capability** selected from the list of available profiles, and select **Submit**.
 
     Alternatively, you can perform the following steps:
 
-    1.  Click **Show All Related Lists** in the related lists section.
-    2.  Click the **Configuration Item** related list.
+    1.  Select **Show All Related Lists** in the related lists section.
+    2.  Select the **Configuration Item** related list.
     3.  Select **Remove Isolation** and select the corresponding capabilities.
 5.  Validate the automation activity and activities section.
 

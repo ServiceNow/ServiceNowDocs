@@ -7,9 +7,9 @@ release: yokohama
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Update set transfers, System update sets, Deploying applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Back out an update set
@@ -22,53 +22,38 @@ Role required: admin
 
 ## About this task
 
-Backing out an update set creates delete updates in the current update set. If you commit, back out, and then reapply a remote update set, errors appear in the previewer because the deleted updates are considered more recent changes and cause collisions.
+Backing out an update set adds delete updates to your current set. If you commit, back out, and reapply a remote update set, preview errors occur due to recent deletions causing collisions. The back-out process reverses both record-level updates and changes to the dictionary. Some changes caused by a back-out can result in data loss.
 
-**Warning:** Do not back out the **Default** update set. This action can damage the configuration of the instance.
-
-The back out process reverses both record-level updates and changes to the dictionary. Some changes caused by a back-out can result in data loss. These are the expected results of the back-out process:
-
-|Customer Update|Result of the back out action|
-|---------------|-----------------------------|
-|A new table|The table is dropped from the database, deleting any data from it.|
-|A new field|The field is dropped from the database, deleting any data from it.|
-|A deleted field|The field is restored to the database, but the original data is lost.|
-|A resized field|The field resize is reversed. If the field has been increased, data is truncated first to avoid errors.|
-|A configured form|The form is reverted to its previous state.|
-|A record is inserted|The record is deleted. \(See **Note** below\)|
-|A record is deleted|The record is restored with its original data.|
-
-**Warning:** Backing out an update set that belongs to an update set batch may affect other update sets in the batch. For more information, see [Back out batched update set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/us-hier-overview.md).
-
--   If the sys\_package is global, it is deleted.
--   If the sys\_package is not global, and it has a value, a warning displays that there is no deletion. Rather, the sys\_update\_xml is put into the default update set and the record is left in place.
+**Warning:** Don't back out the **Default** update set. This action can damage the configuration of the instance. Backing out an update set that belongs to an update set batch backs out the selected update set, plus any children of the backed-out update set.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Update Sets** &gt; **Local Update Sets**.
 
-2.  Open the update set record.
+2.  Open the update set record to back out.
 
-    Make sure it is complete and a date is set on the **Release date** field.
+    Make sure it’s complete and a date is set on the **Release date** field.
 
-    **Note:** The currently selected application affects what options are available for the update set. Make sure you select the application, such as Global, that matches the contents of the update set.
+    **Note:** The application you select determines the available update set options. Ensure your chosen application matches the update set contents, for example Global.
 
-3.  Carefully review the contents of the update set and consider whether there will be problems if it is backed out.
+3.  Review the update set and determine if backing it out can cause issues.
 
-    If backing out an update set is not sufficient or will cause issues, then, instead, create and commit a new update set to reverse the customizations.
+    If backing out an update set can cause problems, create and commit a new update set to undo the changes instead.
 
-4.  Click **Back Out**.
+4.  Select **Back Out**.
 
-    A Progress page displays actions, progress, and problems. Problems are changes in more recent update sets that affect the update set that is being backed out. The backout preview process generates a warning for each problem.
+    The page displays actions, progress, and problems. Problems are changes in more recent update sets that affect the update set that is being backed out.
 
 5.  Resolve each problem before proceeding with the back out.
 
-    -   To keep the latest version, click **Decide to Keep Current**.
-    -   To back out to the previous version, click **Decide to Use Previous**.
-    All changes are reversed as described in the table. The current update set tracks all of the new changes that occur.
+    The back-out preview process generates a warning for each problem.
+
+6.  To keep the latest version, select **Decide to Keep Current**.
+
+7.  To back out to the previous version, select **Decide to Use Previous**.
 
     The update set and all associated update records are deleted. If needed, you can still navigate to the retrieved update set, preview it, and commit it again.
 
-    **Note:** If you commit, back out, and then reapply a remote update set, errors appear in the previewer because backing out an update set creates delete updates in the current update set. The deletes are considered more recent changes and cause collisions.
 
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/using-system-update-sets.md)
 

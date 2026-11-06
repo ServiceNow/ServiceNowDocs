@@ -7,9 +7,9 @@ release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Walk-up Experience queue and interaction, Walk-up Experience, IT Service Management]
+breadcrumb: [Manage Walk-up Experience queue and interactions, Walk-up Experience, IT Service Management]
 ---
 
 # Use Agent Assist to expedite Walk-up Experience fulfillment
@@ -39,5 +39,5 @@ Agent Assist is a contextual search option available in Agent Workspace when a w
     For more detailed information about Agent Assist and using it to expedite incidents and requests, refer to [Using Agent Assist in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist.md) and [Order a catalog item using Agent Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/order-catalog-item-agent-assist.md).
 
 
-**Parent Topic:**[Manage Walk-up Experience queue and interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
+**Parent Topic:**[Manage Walk-up Experience queue and interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/walk-up-experience/use-walkup-to-manage-demand.md)
 

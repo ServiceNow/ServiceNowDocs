@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Allow policy exception requests from other applications, Policy and Compliance Management enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Allow policy exception requests, Enhancement steps, Implement, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Define policy exception reason choices
@@ -25,8 +25,6 @@ Role required: sn\_compliance.manager
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Policy Exceptions** &gt; **Exception Reason Choices**.
 
 2.  Click **New**.
-
-    \[Omitted image "reason-choice-list.png"\] Alt text: Reason Choice List
 
 3.  On the form, fill in the fields.
 

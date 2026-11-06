@@ -7,9 +7,9 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Use Dependency Views
@@ -26,8 +26,6 @@ Use the **Saved Views** module to delete a previously saved view.
 You can select from different layout options for your Dependency Views map.
 -   **[Filter the view of a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/dependency-views/t_FilterViewNGBSMMap.md)**  
 Filter a Dependency Views map to display specific types or categories of configuration items.
--   **[View metrics for CIs in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/dependency-views/view-ci-metrics.md)**  
-Operational Intelligence processes metrics data for CIs, calculates statistics and aggregations, and detects metrics anomalies. A Dependency Views map lets you switch to metrics mode to directly access the Insights Explorer that displays metrics data for CIs on the map.
 -   **[Perform actions on nodes in a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/dependency-views/t_PerformActionsOnNGBSMMap.md)**  
 You can view various related items for the nodes in a Dependency Views map.
 -   **[Export a Dependency Views map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/dependency-views/t_ExportAnNGBSMMap.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-management-for-the-enterprise/t\_ActivateServiceManagement.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Management]
 ---
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-For information on subscribing to a service management application, see [Activate Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/t_ActivateFacilitiesSM.md).
+For information on subscribing to a service management application, see .
 
 The Service Management Core plugin also activates the following plugins if they are not already active.
 

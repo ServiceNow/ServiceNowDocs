@@ -1,26 +1,26 @@
 ---
 title: Discovery device history
-description: The Devices related list in the Discovery Status form provides a summary list of all the devices scanned.
+description: The Devices Related list in the Discovery Status form provides a summary list of all the devices scanned.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/r\_DiscoveryStatusDevices.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Discovery status, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery device history
 
-The **Devices** related list in the Discovery Status form provides a summary list of all the devices scanned.
+The **Devices** Related list in the Discovery Status form provides a summary list of all the devices scanned.
 
-During a Discovery, the list tracks current and completed activity and displays an incremental scan counter. When Discovery is finished for a device, the final disposition is displayed in the Completed activity column. Successful Discoveries that result in updated or created CIs are highlighted in green. When device history or duplicate IP record is created, the classification\_probe is also populated. To view the log entries for errors \(such as connection failure\) on a specific device, click the **Details** link in the Issues column.
+During a Discovery, the list tracks current and completed activity and displays an incremental scan counter. When Discovery is finished for a device, the final disposition is displayed in the Completed activity column. Successful discoveries that result in updated or created configuration items \(CIs\) are highlighted in green. When device history or duplicate IP record is created, the classification\_probe is also populated. To view the log entries for errors \(such as connection failure\) on a specific device, select the **Details** link in the Issues column.
 
 \[Omitted image "discovery\_device\_list.png"\] Alt text: Discovery device list
 
-Click the IP address of a device in this list for details about that device. The log results for that device are displayed in the list at the bottom of the form.
+Select the IP address of a device in this list for details about that device. The log results for that device are displayed in the list at the bottom of the form.
 
 \[Omitted image "DiscoveryDevice.png"\] Alt text: Discovery device
 
@@ -31,11 +31,11 @@ The following fields are available in this form:
 |Source|The IP address of the device discovered.|
 |Completed activity|Indicates the outcome of Discovery for this device or the last completed activity for a Discovery in progress, such as Identified CI. Successful outcomes are indicated in green.|
 |Current activity|The current scanning activity for this device for a Discovery in progress, such as Updating CI.|
-|CMDB CI|The name of this device as it appears in the CMDB.|
+|CMDB CI|The name of this device as it appears in the Configuration Management Database \(CMDB\).|
 |Started|The number of device-specific probes run. This number does not include the universal probes, Shazzam and Ping, that run initially.|
 |Completed|The number of sensor records created from the device-specific probes that were run.|
 |Scan status|Shows the final scan count of a completed Discovery or an incremental scan counter for a Discovery in progress. For example, Scan 17 of 19.|
-|Issues|Displays the number of issues encountered during Discovery of this device. Select the **Discovery Log** Related List to view these issues.|
+|Issues|Displays the number of issues encountered during Discovery of this device. Select the **Discovery Log** Related list to view these issues.|
 |Fields that can be added by configuring the form:|
 |DNS Names|Displays DNS names for each discovered device.|
 
@@ -68,7 +68,7 @@ Any device that includes the following classes or one of its child classes will 
 -   Printer \[cmdb\_ci\_printer\]
 -   UPS \[cmdb\_ci\_ups\]
 
-If there were issues, or if Discovery failed to complete, click the **Details** link to view the log records for the issue. The failure of any probe is considered an issue, even if the device was eventually classified properly and updated in the CMDB.
+If there were issues, or if Discovery failed to complete, select the **Details** link to view the log records for the issue. The failure of any probe is considered an issue, even if the device was eventually classified properly and updated in the CMDB.
 
 \[Omitted image "DiscoveryDetails.png"\] Alt text: Discovery details about a device
 

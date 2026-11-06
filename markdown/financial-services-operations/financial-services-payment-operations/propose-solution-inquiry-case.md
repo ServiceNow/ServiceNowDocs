@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing payment inquiries, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Propose a solution for an inquiry case
@@ -24,7 +24,7 @@ Role required: sn\_bom\_payment.inquiry\_agent or sn\_bom\_payment.inquiry\_agen
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Payment Inquiry Cases**, click **Assigned to me**.
 

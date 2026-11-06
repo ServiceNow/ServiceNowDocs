@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/bp-domain-prop-themes.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Domain separation recommended practices for service providers, Domain separation for service providers, Access Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Recommended practices for service providers, Domain separation for service providers, Access Management]
 ---
 
 # Customizing domain properties and themes

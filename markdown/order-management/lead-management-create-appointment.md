@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-create-appointment.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add lead tasks, Using Lead Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Add lead tasks, Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create appointments for lead tasks
@@ -24,7 +24,7 @@ You can create appointments only after creating a lead task. To create a lead ta
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Lead** &gt; **All**.
 
@@ -34,18 +34,17 @@ You can create appointments only after creating a lead task. To create a lead ta
 
 5.  Fill in the fields in the Create New Appointment form.
 
-    |Fields|Descriptions|
-    |------|------------|
-    |From|Email id of the sender.|
-    |To|Email id of the receiver.|
-    |Activity state|State of the appointment.|
-    |Start time|Start time of your appointment.|
-    |End time|End time of your appointment.|
-    |Reminder|Time interval for a reminder.|
-    |Subject|Subject information of your appointment.|
-    |Location|Location of your appointment.|
-    |Message|Additional information for your appointment.|
+    For description of the field values, see [Create new appointment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-lead-appointment-form.md).
 
 6.  Select **Save** to save the appointment and send it later or select **Send activity** to send it now.
 
+
+**Parent Topic:**[Add lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-use-tasks-tab.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

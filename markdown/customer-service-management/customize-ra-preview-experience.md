@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-ra-preview-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Creating guidance and field recommendation in Recommended Actions, Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Creating guidance and field recommendation in Recommended Actions, Configuring the Recommended Actions application, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Customize a guidance preview experience in the UI Builder
@@ -59,6 +59,7 @@ You begin by creating a UI page variant of a guidance preview experience. When y
     |actionConfigurations|Recommended Actions actionConfigurations property value. The Value field is empty by default.|
     |isFullSearchView|If search displayed in full search view of side panel view, the value is true.|
     |contextInputs|Recommended Actions contextInput property value. To get the predefined syntax, navigate to **All &gt;** &gt; **Recommended Actions** &gt; **Context** &gt; **Context Inputs** and copy the JSON format of the context inputs.|
+    |Search relevancy score|Relevancy score of a search result which displays on the on the guidance card when the use case is `search` but not suggested actions. If the value is null or undefined, the relevancy score component is hidden on the guidance card.|
 
     The following example shows properties and sample values for the preview experience.
 

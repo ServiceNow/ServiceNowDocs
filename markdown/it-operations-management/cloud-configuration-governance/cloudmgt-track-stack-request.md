@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Track a stack request
@@ -24,7 +24,7 @@ Role required: sn\_cmp.cloud\_service\_user
 
 If no approval policy is defined, requests are auto-approved. If a policy is defined, then a user on the approver list must approve the request.
 
-If the quota limit exceeds for you or your user group, then an error message appears or the system triggers a policy-based approval workflow. For more information about the quota limits, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-quota.md).
+If the quota limit exceeds for you or your user group, then an error message appears or the system triggers a policy-based approval. For more information about the quota limits, see [Viewing resource quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/resource-quota.md).
 
 ## Procedure
 

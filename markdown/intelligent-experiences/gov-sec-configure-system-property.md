@@ -1,0 +1,42 @@
+---
+title: Update system property to limit records
+description: Update the sn\_ai\_security.analyzer\_max\_record\_age\_hours system property to limit the age \(in hours\) of AI asset invocation records evaluated for AI asset security metrics.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/gov-sec-configure-system-property.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Managing AI asset security, Govern AI assets, AI Control Tower, Establishing AI governance, Enable AI Experiences]
+---
+
+# Update system property to limit records
+
+Update the sn\_ai\_security.analyzer\_max\_record\_age\_hours system property to limit the age \(in hours\) of AI asset invocation records evaluated for AI asset security metrics.
+
+## Before you begin
+
+Role required: admin
+
+## About this task
+
+Reducing the record age can prevent analyzing stale data, reduce unnecessary processing overhead, and focus the metric on more recent activity. Increasing the record age includes analysis of older records.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
+
+2.  In the **Name** column, use the search field to locate the sn\_ai\_security.analyzer\_max\_record\_age\_hours system property.
+
+3.  Open the record.
+
+4.  The default value is 4, which limits processing of AI asset invocation records to those records 4 hours old or newer.
+
+5.  In the **Value** field, enter the age \(in hours\) of records you want to process for AI asset security metrics.
+
+6.  Select **Update**.
+
+
+**Parent Topic:**[Configuring security metrics in AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/gov-sec-configuring.md)
+

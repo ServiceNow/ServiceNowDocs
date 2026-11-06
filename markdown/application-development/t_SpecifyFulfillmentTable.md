@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/t\_SpecifyFulfillmentTable.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Fulfillment tables, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Fulfillment tables, Anatomy of an application, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Specify that a table is a fulfillment table

@@ -1,28 +1,28 @@
 ---
 title: Connect a Service Observability data source
-description: Connect Service Observability to an external application performance management \(APM\) instance. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that APM instance.
+description: Connect Service Observability to an external observability system. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that observability instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/connect-an-observability-data-source.html
 release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Configuring Service Observability, Service Observability, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Connect a Service Observability data source
 
-Connect Service Observability to an external application performance management \(APM\) instance. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that APM instance.
+Connect Service Observability to an external observability system. Service Observability displays metrics in the Service Operations Workspace \(SOW\) from that observability instance.
 
 ## Before you begin
 
-You must enter a connection URL and credentials for your APM vendor. You can either use an existing connection or create one. Note the following for specific vendors:
+You must enter a connection URL and credentials for your observability vendor. You can either use an existing connection or create one. Note the following for specific vendors:
 
 <table id="table_i4m_bwf_yfc"><thead><tr><th>
 
-APM Vendor
+Observability Vendor
 
 </th><th>
 
@@ -52,12 +52,20 @@ Splunk Observability
 
 The connection URL must include the Realm, for example, https://stream.\[REALM\].signalfx.com
 
+</td></tr><tr><td>
+
+Zabbix
+
+</td><td>
+
+The connection URL must be the IP on which the Zabbix server is hosted
+
 </td></tr></tbody>
 </table>If you're using existing credentials, you need the credential name. If you're creating credentials, collect the following information.
 
 <table id="table_kfv_f5t_rfc"><thead><tr><th>
 
-APM vendor
+Observability vendor
 
 </th><th>
 
@@ -151,7 +159,7 @@ API
 
 </td></tr><tr><td>
 
-Dynatrace
+Dynatrace SaaS Classic
 
 </td><td>
 
@@ -159,7 +167,44 @@ API
 
 </td><td>
 
-API keyThe API key must have `Read entities` and `Read metrics` scope permissions.
+API Tenant Access TokenThe token must have `entities.read` and `metrics.read` scope permissions.
+
+</td></tr><tr><td>
+
+Dynatrace SaaS Grail
+
+</td><td>
+
+API
+
+</td><td>
+
+API Platform TokenThe token must have `storage:metrics.read` and `storage:bucket.read` scope permissions.
+
+</td></tr><tr><td>
+
+Dynatrace on-premise
+
+</td><td>
+
+API
+
+</td><td>
+
+-   API key. The key must be an environment scoped token.
+-   The name of the MID Server your Dynatrace instance is hosted on
+
+</td></tr><tr><td>
+
+LogicMonitor
+
+</td><td>
+
+API
+
+</td><td>
+
+Access token
 
 </td></tr><tr><td>
 
@@ -176,7 +221,7 @@ API
 
 </td></tr><tr><td>
 
-Prometheus \(on-premise\)
+Prometheus on-premise
 
 </td><td>
 
@@ -204,6 +249,18 @@ Basic Auth
 
 </td></tr><tr><td>
 
+Splunk Enterprise
+
+</td><td>
+
+API
+
+</td><td>
+
+Bearer Token
+
+</td></tr><tr><td>
+
 Splunk Observability
 
 </td><td>
@@ -214,36 +271,63 @@ API
 
 Access token
 
+</td></tr><tr><td>
+
+ThousandEyes
+
+</td><td>
+
+API
+
+</td><td>
+
+API key
+
+</td></tr><tr><td>
+
+Zabbix
+
+</td><td>
+
+Basic Auth
+
+</td><td>
+
+-   Basic Auth credential user name
+-   Basic Auth credential password
+-   The name of the MID Server your Zabbix instance is hosted on. The MID Server must be in an active state.
+
 </td></tr></tbody>
 </table>Role required: sn\_sow\_svcobs.admin
 
 ## About this task
 
-The first step to ingesting APM data is to create a connection to the APM instance.
+The first step to ingesting observability data is to create a connection to the observability instance.
 
-Service Observability supports the following APM vendors:
+Service Observability supports the following observability vendors:
 
 -   Amazon CloudWatch
 -   AppDynamics
+-   Cisco ThousandEyes synthetic tests
 -   Datadog
--   Dynatrace
+-   DynatraceSaaS and on-premise \(both Classic and Grail environments\)
+-   LogicMonitor
 -   Microsoft Azure Monitor
 -   New Relic
--   Prometheus \(on-premise\)
+-   Prometheus on-premise
 -   SolarWinds on-premise
--   Splunk Observability
+-   Splunk Observability and logs from Splunk Enterprise
+-   Zabbix on-premise
 
 ## Procedure
 
-1.  Navigate based on your version of Service Observability.
+1.  Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data sources**.
 
-    -   Version 1.5.0: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability Management** &gt; **Manage Observability** &gt; **Data sources**
-    -   Version 1.6 or later: Navigate to **All** &gt; **Service Operations Workspace** &gt; **Configurations**, then navigate to **Service Observability** &gt; **Data sources**.
-2.  Select your APM vendor.
+2.  Select your observability vendor.
 
 3.  On the **Add connection** form, fill in the fields.
 
-    You can use an existing HTTP or HTTPs connection and an existing API key credential or create one.
+    You can use an existing HTTP or HTTPs connection and an existing credential or create one.
 
 4.  Select **Save**.
 

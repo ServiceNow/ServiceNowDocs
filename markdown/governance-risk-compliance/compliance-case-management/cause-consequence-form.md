@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a cause and consequence to a compliance case, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Add cause and consequence, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Cause and Consequence form

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-exp-client-script-globals.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience client-side scripting global variables
@@ -22,7 +22,7 @@ Next Experience global variables are used in client scripts to determine whether
 
     Returns **true** if the page is running in the Next Experience Unified Navigation. This global variable exists only in the Unified Navigation.
 
-    For more information about the Unified Navigation, see [Using the Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/using-the-next-experience-global-header.md).
+    For more information about the Unified Navigation, see [Next Experience Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/using-the-next-experience-global-header.md).
 
 
 Client script:

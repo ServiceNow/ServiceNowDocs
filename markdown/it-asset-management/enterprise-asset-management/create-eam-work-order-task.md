@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order task for an Enterprise Asset Management work order
@@ -66,7 +66,7 @@ Work type
 
 </td><td>
 
-Type of work that the assigned agent must perform on the associated enterprise asset. The options are **Break Fix**, **Install**, **Planned Maintenance**, **Asset condition**, **Shutdown**, **Startup**,and **Calibration**.**Note:** The Shutdown and Startup work types are available with Enterprise Asset Management version 10.0 and later.
+Type of work that the assigned agent must perform on the associated enterprise asset. The options are **Break Fix**, **Install**, **Planned Maintenance**, **Asset condition**, **Shutdown**, **Startup**,and **Calibration**.
 
 </td></tr><tr><td>
 
@@ -82,9 +82,9 @@ Location
 
 </td><td>
 
-Current location of the associated enterprise asset. This field populates automatically.**Note:** If you select a linear asset, the Work order linear asset location \[\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon\] appears to enable you to choose the work order location between the Start marker and End marker. This option is available with Enterprise Asset Management version 9.0 and later. To select a location, follow these steps:
+Current location of the associated enterprise asset. This field populates automatically.**Note:** If you select a linear asset, the Work order linear asset location icon \[Omitted image "pencil-outline-24.svg"\] Alt text: appears to enable you to choose the work order location between the Start marker and End marker. To select a location, follow these steps:
 
-1.  Select the pencil icon \[\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon\].
+1.  Select the pencil icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
 
 A Map location form appears, showing the start and the end markers on the map.
 
@@ -185,7 +185,4 @@ Actual completion date and time of the work order task.
 
 -   The work order task is created in the **Draft** state.
 -   Assets associated with the work order are added to the work order task and listed on the **Affected assets** tab.
-
-    **Note:** The Affected assets tab is available with Enterprise Asset Management version 10.0 and later.
-
 

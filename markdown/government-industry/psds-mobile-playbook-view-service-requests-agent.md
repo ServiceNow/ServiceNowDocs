@@ -1,16 +1,16 @@
 ---
-title: Track government service requests with the ServiceNow Mobile Agent app
+title: Track government service requests with the Mobile Agent app
 description: Track and view the details of all the service requests that are assigned to you by using the ServiceNow Mobile Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-mobile-playbook-view-service-requests-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Mobile Agent, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Mobile Agent, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Track government service requests with the ServiceNow Mobile Agent app
+# Track government service requests with the Mobile Agent app
 
 Track and view the details of all the service requests that are assigned to you by using the ServiceNow Mobile Agent app.
 

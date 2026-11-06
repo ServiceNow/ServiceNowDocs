@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/aia-follow-up-convsnts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [AI Agents, Agentic AI]
-breadcrumb: [Configuring Now Assist AI agents, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Configure, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Follow-up conversations
@@ -81,7 +81,7 @@ Application
 
 </td><td>
 
-The application scope for the agent property record: Now Assist AI agents.
+The application scope for the agent property record: ServiceNow Otto AI agents.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.

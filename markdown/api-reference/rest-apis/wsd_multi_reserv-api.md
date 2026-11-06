@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 16
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -463,7 +463,9 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/config-reservable-module.md) defines the workplace items needed for a reservation.Data type: String
+Required only for April 2026 store and earlier releases. Not required with May 2026 store and later releases. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/config-reservable-module.md) defines the workplace items needed for a reservation.
+
+Data type: String
 
 Table: Reservable Module \[sn\_wsd\_rsv\_reservable\_module\]
 
@@ -473,7 +475,7 @@ shift
 
 </td><td id="shift-update_reserv-entry">
 
-Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
+Conditional. Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
 For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/wsd-reservation-setup.md).
 
@@ -1155,7 +1157,9 @@ reservable\_module
 
 </td><td id="reservable_module-update_reserv-entry">
 
-Required. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/config-reservable-module.md) defines the workplace items needed for a reservation.Data type: String
+Required only for April 2026 store and earlier releases. Not required with May 2026 store and later releases. Sys\_id of the reservable module to associate with the reservation. A [reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/config-reservable-module.md) defines the workplace items needed for a reservation.
+
+Data type: String
 
 Table: Reservable Module \[sn\_wsd\_rsv\_reservable\_module\]
 
@@ -1165,7 +1169,7 @@ shift
 
 </td><td id="shift-update_reserv-entry">
 
-Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
+Conditional. Sys\_id of the shift to associate with the reservation. If this parameter is passed in, the **end** parameter isn't required.
 
 For additional information on shift-based reservations, see [Enable shift-based reservation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/wsd-reservation-setup.md).
 

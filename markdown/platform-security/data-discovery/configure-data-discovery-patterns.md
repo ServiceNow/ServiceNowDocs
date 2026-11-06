@@ -7,9 +7,9 @@ release: yokohama
 product: Data Discovery
 classification: data-discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data Discovery jobs, Data Discovery, Platform Privacy]
+breadcrumb: [Data Discovery jobs, Exploring Data Discovery \(Classic\), Data Discovery, Platform Privacy]
 ---
 
 # Configure Data Discovery patterns

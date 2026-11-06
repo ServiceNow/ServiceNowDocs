@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/main-node-configuration-source.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Main node configurations: A component of the Data Relationship Framework, Explore, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Nexus map configurations, Main node configurations: A component of the Data Relationship Framework, Explore, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Main node configuration source
@@ -24,5 +24,5 @@ You can create a Main node configuration source configuration as shown in the ex
 
 \[Omitted image "main-node-config-source-form.png"\] Alt text: Form.
 
-**Parent Topic:**[Main node configurations: A component of the Data Relationships Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/main-node-relationship-fw.md)
+**Parent Topic:**[Nexus map configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/nexus-map-configuration.md)
 

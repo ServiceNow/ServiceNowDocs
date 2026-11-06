@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create enterprise model components
@@ -38,11 +38,11 @@ The model category for the component can differ from that of the model. You can 
 
 5.  On the form, fill in the details.
 
-    For detailed description of the fields, see Model fields for Enterprise Asset Management.
+    For detailed description of the fields, see [Model fields for Enterprise Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/eam-model-fields.md).
 
 6.  Select **Save**.
 
-    The newly created model component appears in the Model Components tab and by default, is in the **In production** status even though the model is in **Build**status.
+    The newly created model component appears in the **Model Components** tab. The model component has a status of In production even though the model has a status of Build.
 
 
 **Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)

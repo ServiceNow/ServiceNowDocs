@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audiences, Reusable components, Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Audiences, Reusable components, Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Create an audience
@@ -18,7 +18,7 @@ Create or modify an audience record to define the conditions or criteria that us
 
 ## Before you begin
 
-Role required: sn\_cd.content\_admin
+Role required: sn\_cd.content\_admin, sn\_cd.content\_manager
 
 Each audience record is configured based on user conditions, user criteria, HR profile conditions, HR criteria, or an uploaded file. You can apply them to portal content or lifecycle event activities. For example, a lifecycle event activity for a work visa transfer is targeted only to employees that need a visa transfer.
 
@@ -29,6 +29,10 @@ Each audience record is configured based on user conditions, user criteria, HR p
 2.  Click **New** or open a record.
 
 3.  Fill in the fields on the form.
+
+    **Note:** Content Managers can create audiences. To enable this, the **Allow Ownership for Audiences** option must be turned off. If the **Ownership Property** is enabled, the Content Manager will not have permission to create audiences. Refer to the example below.
+
+    \[Omitted image "audiences-allow-ownership.png"\] Alt text: Allows the ability to turn off ownership for audiences
 
 <table id="table_ykv_ngg_wfb"><thead><tr><th>
 

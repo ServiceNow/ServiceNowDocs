@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-12-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Use, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -183,5 +183,5 @@ Option to provide the Reservation subject details. For example, Reservation for 
     **Note:** After your reservation is confirmed in the kiosk, email notifications aren’t sent to workplace users.
 
 
-**Parent Topic:**[Use Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

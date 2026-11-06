@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Analytics and reporting solutions for Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -35,7 +35,7 @@ This dashboard has two tabs:
 
 If you are on Vancouver or Washington DC, you can view the dashboard in the Next Experience UI Framework.
 
-To open the dashboard, navigate to **All** &gt; **Risk Events** &gt; **Analytics Basel Dashboard**.
+To view the dashboard, navigate to **All** &gt; **Risk Events** &gt; **Analytics Basel Dashboard**.
 
 \[Omitted image "basel-dashboard-washingtondc.gif"\] Alt text: Basel Dashboard in the Next Experience.
 

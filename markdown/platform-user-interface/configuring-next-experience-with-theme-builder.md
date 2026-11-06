@@ -1,26 +1,30 @@
 ---
 title: Configuring Next Experience with Theme Builder
-description: Reflect your company's brand on your ServiceNow instance by managing, editing, and implementing Next Experience themes in an easy, efficient, and upgrade-safe way using Theme Builder. As of the Yokohama release, Theme Builder is included as a core plugin with the Next Experience and is available by default.
+description: Reflect your company's brand on your ServiceNow instance by managing, editing, and implementing Next Experience themes in an easy, efficient, and upgrade-safe way using Theme Builder. Theme Builder is included as a core plugin with the Next Experience and is available by default.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configuring-next-experience-with-theme-builder.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configuring Next Experience with Theme Builder
 
-Reflect your company's brand on your ServiceNow instance by managing, editing, and implementing Next Experience themes in an easy, efficient, and upgrade-safe way using Theme Builder. As of the Yokohama release, Theme Builder is included as a core plugin with the Next Experience and is available by default.
+Reflect your company's brand on your ServiceNow instance by managing, editing, and implementing Next Experience themes in an easy, efficient, and upgrade-safe way using Theme Builder. Theme Builder is included as a core plugin with the Next Experience and is available by default.
+
+## Theme Builder overview
+
+\[Omitted video\] Description: Theme Builder overview
 
 ## Theme Builder main features
 
 -   Create and manage Next Experience themes for your mobile and web experiences without needing to write code.
--   Customize the look of your core theme by creating alternate color palettes, enabling users to select a version that suits their preferences. An alternate color palette enables you to create additional color schemes beyond the primary theme colors.
--   Preview your changes in real time before publishing your theme to the entire instance and easily revert to your original colors, if needed.
+-   Customize the look of your core theme by creating alternate color palettes, enabling users to select a version that suits their preferences.
+-   Preview your changes in real time before publishing your theme and easily revert to your original colors, if needed.
 -   Publish multiple themes to your web experience and enable users to select the one that suits them best, improving the overall user experience.
--   Quickly apply branding changes, such as colors, logos, and typography, across your instances.
+-   Apply branding changes, such as colors, logos, and typography, across your instances.
 -   Use the Accessibility Inspector to verify sufficient contrast for text and backgrounds, which helps to comply with accessibility standards while enhancing user experience.
 
 Theme Builder includes an option on the home page that you can use to provide feedback to ServiceNow® about your experience with the current product. All feedback is reviewed and may be used to improve the product.
@@ -38,17 +42,19 @@ Theme Builder includes an option on the home page that you can use to provide fe
 -   Enables adding alternate color palettes to existing themes
 -   Enables publishing or unpublishing your themes to your experience
 
-\[Omitted image "tb-grid-view.png"\] Alt text: Manager page with Grid view selected.
+\[Omitted image "tb-manager-page-Z.png"\] Alt text: Theme Builder Manager page.
 
 ## Theme Builder Editor page
 
--   Customize your themes in the Editor page, including color palette customization, logo, typography, shape adjustment, and component editing
+-   Customize your themes in the Editor page, including color palette customization, logo, typography, shape adjustment, component and image editing.
 -   Offers real-time preview of theme changes
 
-\[Omitted image "tb-global-styles.png"\] Alt text: Editor page with global styles tab selected.
+\[Omitted image "tb-editor-page-view.png"\] Alt text: Editor page with global styles tab selected.
 
 -   **[Create a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-create-theme.md)**  
 Create a theme record for your web or mobile experiences by using the Home view in the Theme Builder application.
+-   **[Theme creation with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/theme-creation-with-ai.md)**  
+Use AI to generate themes from images directly in Theme Builder or from the ServiceNow Otto® panel.
 -   **[Manage or edit a theme with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-edit-theme.md)**  
 Customize and manage your theme and styling in a time and cost efficient way. After customizing, publish your new theme to either a web or mobile implementation of your instance.
 -   **[Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md)**  

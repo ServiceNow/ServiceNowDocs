@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Approve or reject outside counsel engagement request, Engage with outside counsel, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Approve or reject outside counsel engagement request, Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Enter Legal Tracker details and submit for integration
@@ -32,15 +32,15 @@ Role required:
 
 1.  Open a legal matter task.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d91801e84">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d97036e84">
 
 Method
 
-</th><th align="left" id="d91801e87">
+</th><th align="left" id="d97036e87">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d91801e93">
+</th></tr></thead><tbody><tr><td id="d97036e93">
 
 **Using Legal Counsel Center homepage**
 
@@ -53,7 +53,7 @@ Action
 5.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d91801e143">
+</td></tr><tr><td id="d97036e143">
 
 **Using Legal Counsel Center lists**
 
@@ -67,7 +67,7 @@ Action
 6.  Navigate to the Legal Tracker Details section.
 
 
-</td></tr><tr><td id="d91801e209">
+</td></tr><tr><td id="d97036e209">
 
 **Using platform view**
 

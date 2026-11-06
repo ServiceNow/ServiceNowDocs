@@ -1,0 +1,78 @@
+---
+title: Customizing a ServiceNow Otto for CSM skill
+description: Learn how to access, activate, and customize a ServiceNow Otto for CSM skill using the AI Admin Hub console and AI Skill Kit.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/now-assist-for-csm/customizing-now-assist-skills.html
+release: yokohama
+product: Now Assist for CSM
+classification: now-assist-for-csm
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [Generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
+breadcrumb: [Configure, ServiceNow Otto for CSM, Customer Service Management]
+---
+
+# Customizing a ServiceNow Otto for CSM skill
+
+Learn how to access, activate, and customize a ServiceNow Otto for CSM skill using the AI Admin Hub console and AI Skill Kit.
+
+Role required: admin
+
+ServiceNow Otto for CSM provides base system skills that can be tailored to meet specific business requirements. Customization ensures that skills align with your organization's workflows, data sources, and user roles. There are two main ways to customize:
+
+-   Using AI Admin Hub console: Modify base system skills, input configurations, and display settings.
+-   Using AI Skill Kit: Build and publish custom skills for advanced use cases by customizing inputs and prompts, and then publish it. You can also use the AI Skill Kit to clone base system skills, as long as they are the latest versions created after the release of the AI Skill Kit.
+
+## Access and activate a skill in AI Admin Hub
+
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
+2.  Select the AI Skills tab.
+3.  Select **Customer** &gt; **CSM**
+4.  Choose the skill you want to configure.
+5.  Select **Activate Skill**.
+6.  Go through the guided set up steps and activate the skill.
+7.  To customize the base system skills:
+    1.  Make a copy of the skill as you cannot directly modify the base system skill.
+    2.  Edit the copied skill's name so it is easy to identify for the LLM.
+    3.  Adjust input configurations by adding fields or creating a new data source.
+    4.  Test the skill with a sample record.
+
+        **Tip:**
+
+        -   Select **Edit prompt in AI Skill Kit** to edit the prompt in AI Skill Kit.
+        -   You need the sn\_skill\_builder.admin role to edit the prompt in the AI Skill Kit.
+        -   To edit a prompt, locate the prompt for the specified provider and duplicate it. Apply the necessary changes, add pre or post processors and conditions as needed, then finalize and publish the updated prompt. Return to the AI Admin Hub console to test the changes.
+    5.  Customize how and when the skill capability will exist and be available.
+    6.  Choose how the skill will be triggered.
+    7.  Define who has access to this skill. Roles selected here will be available in the **Select display** step.
+    8.  Select where to display the skill- **In-product**, or in the ServiceNow Otto panel.
+    9.  Under each display type, open the chevron and specify user roles by entering role names in the User roles field.
+    10. Review your choices and select **Activate** to complete the skill customization.
+
+        **Note:** For more information, see [Customize a case summarization skill in ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/customize-a-now-assist-for-csm-skill.md).
+
+
+## Access and clone base system skills with the AI Skill Kit
+
+1.  Navigate to **All** &gt; **AI Skill KIt**.
+2.  Under the **ServiceNow skills** tab, select the prompt you want to edit in [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/using-now-assist-skill-kit.md).
+
+    **Note:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit.
+
+3.  Create a [clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-and-edit-servicenow-skill.md) for the selected skill by selecting the overflow icon \[Omitted image "OverflowIcon.png"\] Alt text: More options
+4.  Enter a name, description and provider to clone the skill.
+5.  In the **Skill contents** pane, select the **Inputs** edit icon and add any inputs that you like to add to the prompt.
+6.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt or [Create](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-prompt-template.md) a new prompt.
+7.  [Test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-prompt-template.md) the prompt.
+8.  [Evaluate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/evaluate-prompt.md) the prompt.
+9.  [Finalize and publish](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/publish-skill.md) the skill from the AI Skill Kit.
+
+    **Warning:** Once finalized, you won't be able to edit this version of the prompt. You can always update and create a new version, or clone and create a new prompt.
+
+10. Test the changes on associated records.
+11. [Activate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-skill.md) it in the AI Admin Hub console and set display options.
+
+    **Note:** This is not required for all skills.
+
+

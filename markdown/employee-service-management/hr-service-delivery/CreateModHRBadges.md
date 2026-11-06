@@ -1,21 +1,21 @@
 ---
 title: Configure an HR badge
-description: Use Badges to create or modify existing identification badges used to quickly identify the organization of the Assigned to person for the Activity on the HR Ticket page.
+description: Use Badges to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the HR Ticket page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/CreateModHRBadges.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Badges]
-breadcrumb: [HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure an HR badge
 
-Use **Badges** to create or modify existing identification badges used to quickly identify the organization of the **Assigned to** person for the **Activity** on the **HR Ticket** page.
+Use **Badges** to create or modify visual indicators that provide quick insights into important attributes of employees, cases, or assigned users, such as organization, role, status, or special conditions on the **HR Ticket** page.
 
 ## Before you begin
 
@@ -23,7 +23,9 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-Custom badges only appear for specific types of HR activities.
+**Badges** are configurable labels in HR workspace that display important employee or case information, such as status, employment type, and special flags.
+
+Custom badges only appear for specif .
 
 -   The base system provides defaults and is configurable.
 -   On the **HR Ticket** page, you can filter to-dos based on badges.

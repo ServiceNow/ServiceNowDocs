@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CI relationship editor, CI relationships in the CMDB, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CI relationship editor, CI relationships in the CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create or edit a CI relationship
@@ -18,17 +18,17 @@ Use the relationship editor to view, create, or modify CI relationships. You can
 
 ## About this task
 
-As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-edit-connection.md).
+As an alternative to the CI relationship editor, [Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/cmdb-workspace-unified-map.md) in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)or in  provides the latest functionality for editing CI relationships. For more information, see [Edit relationships in Unified Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-edit-connection.md).
 
 ## Before you begin
 
 Role required:
 
--   To create relationships: ITIL or asset
+-   To create relationships: sn\_cmdb\_editor, asset, or itil
 -   To view relationships, depending on the state of the Table API ACL:
 
-    -   If inactive \(default\): ITIL or asset
-    -   If active: ITIL or asset, and snc\_platform\_rest\_api\_access
+    -   If inactive \(default\): sn\_cmdb\_editor, asset, or itil
+    -   If active: sn\_cmdb\_editor, asset, or itil, and snc\_platform\_rest\_api\_access
     For more information, see [CI relationship security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CIRelationshipSecurity.md), [REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_RESTAPI.md), and [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_TableAPI.md).
 
 

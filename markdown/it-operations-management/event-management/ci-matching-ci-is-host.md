@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Overriding default binding, Binding alerts to CIs, Event rules, Processing Events, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Bind host CIs using CI field matching
@@ -22,9 +22,9 @@ Role required: evt\_mgmt\_admin
 
 ## About this task
 
-When an event enters the system, key field like **Node** is available on the event record. In CI there is no field like **Node**. However, the value of Node from the event is compared with different values in the host CI such as Name, Fully qualified domain name \(FQDN\), IP, or MAC Address. If a match is found, the alert is linked to the corresponding CI. This is the default binding of alerts to CIs. In this binding, the CI must be a host. Host CIs include Computers, OS, Switches, Routers—essentially any CI type or class that extends the \[cmdb\_ci\_hardware\] table.
+When an event enters the system, key field like **Node** is available on the event record. The **Node** field generally represents the name of the server. In CI there is no field like **Node**. However, the value of **Node** from the event is compared with different values in the host CI such as Name, Fully qualified domain name \(FQDN\), IP, or MAC Address. If a match is found, the alert is linked to the corresponding CI. This is the default binding of alerts to CIs. In this binding, the CI must be a host. Host CIs include Computers, OS, Switches, Routers—essentially any CI type or class that extends the \[cmdb\_ci\_hardware\] table.
 
-There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column, ensuring the matching process continues successfully. For information on how to create a manual field, see [Bind CIs using CI field matching and handling column name differences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ci-matching-manual-field.md).
+There may be cases where no match is found because the column names in the event record and the table differ for the same item. In such cases, you can manually create an additional key-value pair with a name matching the table column, ensuring the matching process continues successfully. For information on how to create a manual field, see [Bind CIs using CI field and column matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/ci-matching-manual-field.md).
 
 **Note:** Even if the node successfully binds the alert with the CI, event rules further determine how the binding occurs.
 
@@ -47,6 +47,8 @@ There may be cases where no match is found because the column names in the event
     The **CI type** determines the specific CMDB table where the system searches for the matching CI. For example, if the **CI type** is **Network Adapter**, the system searches in the \[cmdb\_ci\_network\_adapter\] table.
 
 7.  Select **Submit**.
+
+    **Note:** You can also use the Service Operations Workspace to define binding rules. For more information, see [Create Enrich automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/enrich-alert-sow-itom.md).
 
 
 **Related topics**  

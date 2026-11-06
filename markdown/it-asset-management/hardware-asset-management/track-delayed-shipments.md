@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Stale shipments, Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Stale shipments, Track shipments using the integration framework, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Continue to track delayed shipments
@@ -18,7 +18,7 @@ Continue to track a stale hardware asset shipment that is delayed if the reason 
 
 ## Before you begin
 
-Role required: inventory\_user \(read\) or inventory\_admin
+Role required: inventory\_user \(read\),inventory\_admin, or asset\_integration\_admin
 
 ## Procedure
 

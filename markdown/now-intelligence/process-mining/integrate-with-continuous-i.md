@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Process Mining, Activating Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Integration, Activate, Process Mining, Platform Analytics]
 ---
 
 # Integration with Continual Improvement Management
@@ -22,7 +22,7 @@ The Process Mining plugin \(com.sn\_po\) provides an integration between the Pro
 
 From Process Mining: When you create an improvement initiative from Process Mining, a reference to the project is added to the continual improvement record.
 
-From Continual Improvement Management: Launch the Process Mining Analyst Workbench from CIM.
+From Continual Improvement Management: Launch the Process Mining Analyst workbench from CIM.
 
 ## Roles
 
@@ -53,15 +53,15 @@ Activate the Continual Improvement Management plugin \(com.sn\_cim\) and the Pro
 
 1.  Navigate to the **Process Mining** workbench in any one of the following ways.
 
-<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d92996e224">
+<table id="choicetable_ywf_lnh_nlb"><thead><tr><th align="left" id="d109027e231">
 
 From where
 
-</th><th align="left" id="d92996e227">
+</th><th align="left" id="d109027e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d92996e233">
+</th></tr></thead><tbody><tr><td id="d109027e240">
 
 **Continual Improvement Workbench**
 
@@ -73,7 +73,7 @@ Steps
 
 **Note:** For more information, refer to [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/define-workflow-model.md).
 
-</td></tr><tr><td id="d92996e284">
+</td></tr><tr><td id="d109027e291">
 
 **Improvement Initiative**
 
@@ -90,7 +90,7 @@ Steps
 
 Understand how you can create or track an improvement request.
 
-As an improvement manager, you use your Continual Improvement Management Workbench dashboard daily to view operational work and initiatives in progress. You have an open initiative to optimize the incident process and reduce mean time to resolve \(MTTR\).
+As an improvement manager, you use your Continual Improvement Management Workbench dashboard daily to view operational work and initiatives in progress. You have an open initiative to optimize the incident process and reduce the mean time to resolve \(MTTR\).
 
-From the initiative form, you select **Go to Process Mining**. The action navigates you to a generated project in the Process Mining Analyst Workbench showing cases that were closed in the last three months.
+From the initiative form, you select **Go to Process Mining**. The action navigates you to a generated project in the Process Mining Analyst workbench showing cases that were closed in the last three months.
 

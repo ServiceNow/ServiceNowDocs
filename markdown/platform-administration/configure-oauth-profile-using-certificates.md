@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/configure-oauth-profile-using-certificates.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reading email using Microsoft Graph, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Read email using Microsoft Graph, Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure an OAuth profile to use certificates for authentication with Microsoft Azure
@@ -79,15 +79,13 @@ Role required: admin and Microsoft Azure portal administrator
 Configure a JWT provider on the ServiceNow AI Platform to configure an OAuth application profile to authenticate using certificates.
 -   **[Generate a SHA-1 thumbprint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/generate-thumbprint.md)**  
 Generate a SHA-1 thumbprint using the JWT provider's sys\_id and JKS certificate's sys\_id and certificate's alias to be added to the GraphCertificateOAuthTemplate script.
--   **[Create OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/oauth-api-script.md)**  
-Create and duplicate OAuth API script for application registry.
+-   **[Create an OAuth API script](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/oauth-api-script.md)**  
+Create and duplicate an OAuth API script for application registry.
 
 **Parent Topic:**[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/read-email-using-ms-graph.md)
 
 **Related topics**  
 
-
-[Activate Email - Support for Email Processing by Microsoft Graph API]()
 
 [Configure an OAuth profile to use a client ID and secret for token generation]()
 

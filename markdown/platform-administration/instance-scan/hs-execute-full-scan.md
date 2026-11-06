@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Executing a scan, Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
@@ -24,19 +24,31 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Instance Scan** &gt; **Checks**.
 
-2.  To run all the active checks in your instance, select **Execute Full Scan**.
+    A list of all the checks on the instance shows up.
+
+2.  Select **Execute Full Scan** to execute full scan on all the checks.
 
     The progress tracker shows the status of the scan.
 
     \[Omitted image "hs-progress-worker.png"\] Alt text: Image showing full scan progress tracker
 
-    **Note:** Running of multiple full scans simultaneously is not allowed. If two or more checks overlap during full scan execution, only the first check succeeds. The first check keeps running while the other overlapping checks fail immediately.
+    **Note:** You can now execute multiple full scans simultaneously if you have enabled glide.scan.parallel\_scan\_enabled system property. You can also set the maximum number of scans that can run concurrently by setting the value for glide.scan.max\_parallel\_scans property. See [Instance Scan properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/instance-scan/hs-sys-properties.md) for more information.
 
-3.  To find the **Result Number** and the number of checks that ran as part of the full scan, select **Go to Result**.
+    \[Omitted image "hs-full-scan-queue-parallel.png"\] Alt text: Image showing parallel scan in full scan
 
-4.  From the related list, select **Checks** to view the list of all the checks that ran as a part of the full scan.
+    Select View queued requests link to see all the queued requests on the Scan Queue Operations page.
 
-5.  From the related list, select **Errors** to review the errors encountered during the full scan.
+    **Note:** This modal shows up only when the number of parallel scans exceeds the set value for concurrent scans.
+
+3.  Review the results and other information about the scan execution on the Scan Queue Operations page.
+
+    **Note:** This step is applicable only when you are executing multiple full scans in parallel.
+
+4.  To find the **Result Number** and the number of checks that ran as part of the full scan, select **Go to Result**.
+
+5.  From the related list, select **Checks** to view the list of all the checks that ran as a part of the full scan.
+
+6.  From the related list, select **Errors** to review the errors encountered during the full scan.
 
 
 ## Result

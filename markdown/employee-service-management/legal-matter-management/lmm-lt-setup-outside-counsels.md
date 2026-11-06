@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure data to enable matter creation in Legal Tracker, Configure Legal Matter Management to engage with outside counsel using Legal Tracker, Setting up Legal Matter Management, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure data to enable matter creation in Legal Tracker, Configure Legal Matter Management with outside counsel, Configure, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add outside counsel details
@@ -36,15 +36,15 @@ The scheduled job **Fetch Firms Data** pulls the data for outside firms from Leg
 
 2.  Open the outside counsels list.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d152510e109">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d160941e109">
 
 Location
 
-</th><th align="left" id="d152510e112">
+</th><th align="left" id="d160941e112">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d152510e118">
+</th></tr></thead><tbody><tr><td id="d160941e118">
 
 **From the Legal Matter module**
 
@@ -52,14 +52,14 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d152510e145">
+</td></tr><tr><td id="d160941e145">
 
 **From Legal Counsel Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
 
 
 </td></tr></tbody>

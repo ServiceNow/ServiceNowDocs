@@ -1,16 +1,16 @@
 ---
-title: Activate the Analytics and Reporting Solution for Financial Services Operations
+title: Activate the Platform Analytics solution for Financial Services Operations
 description: Activate the content pack ServiceNow Store application for the Platform Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-install.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and reporting solutions, Financial Services Operations \(FSO\)]
+breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
 
-# Activate the Analytics and Reporting Solution for Financial Services Operations
+# Activate the Platform Analytics solution for Financial Services Operations
 
 Activate the content pack ServiceNow Store application for the Platform Analytics.
 
@@ -31,5 +31,5 @@ Role required: admin
 4.  Install the application.
 
 
-**Parent Topic:**[Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
 

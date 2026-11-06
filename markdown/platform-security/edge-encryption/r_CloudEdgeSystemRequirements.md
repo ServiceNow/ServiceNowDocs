@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: reference
-last_updated: "2025-09-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Planning for Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -18,12 +18,11 @@ You can run the Edge Encryption proxy application on servers or virtual machines
 
 ## Java requirements
 
-The host machine installing or running the Edge Encryption proxy server must maintain a supported version of Java. Current supported versions are Java 17.0.3 or later in the 17.x version series.
+The host machine installing or running the Edge Encryption proxy server must maintain a supported version of Java. Current supported versions are Java 11.0.6 or later in the 11.x version series
 
-**Note:** Certain Java versions are not supported with the following releases:
+**Note:** Java 8 is no longer be supported as of the Utah release. Upgrade your environment with the Edge Encryption proxy to Java 11 before you attempt to install the Utah version of the Edge Encryption proxy.
 
--   Java 8 is no longer supported as of the Utah release. Upgrade your environment with the Edge Encryption proxy to Java 11 before you attempt to install the Utah version of the Edge Encryption proxy.
--   Java 11 is no longer supported as of the Yokohama release. Upgrade your environment with the Edge Encryption proxy to Java 17 before you attempt to install Yokohama or later versions of the Edge Encryption proxy.
+**Note:** Java does not automatically allow unlimited strength keys. You must specifically enable the use of AES 256-bit encryption.
 
 ## Support for OpenJDK
 

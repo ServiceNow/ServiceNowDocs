@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,7 +33,7 @@ List of fields available on records in the AI Search index. AI Search populates 
 -   **[AI Search Country To Search Language form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-country-kb-srch-lang-form.md)**  
 The AI Search Country To Search Language form enables you to define a knowledge article search language for a country.
 -   **[AI Search External Search User Mapping Table Data Source Relationship form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ext-usr-map-idx-src-form-ais.md)**  
-The AI Search External Search User Mapping Table Data Source Relationship form contains enables you to link a user mapping table to an indexed source for external content in AI Search.
+The AI Search External Search User Mapping Table Data Source Relationship form enables you to link a user mapping table to an indexed source for external content in AI Search.
 -   **[AI Search Genius Result Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/genius-result-cfg-form-ais.md)**  
 The AI Search Genius Result Configuration form enables you to create a Genius Result configuration for use in your AI Search search profiles.
 -   **[AI Search Genius Result Configuration NLU Model Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/gr-cfg-nlu-model-mapping-ais.md)**  

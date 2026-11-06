@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify for making conference calls, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Send a message to conference call participants
@@ -18,7 +18,7 @@ Send a brief message as a text or voice message to the participants of a confere
 
 ## Before you begin
 
-Role required: notify\_view, or major incident manager
+Role required: notify\_view, or major\_incident\_manager
 
 ## About this task
 

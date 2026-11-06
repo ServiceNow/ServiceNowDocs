@@ -7,8 +7,8 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Employee Service Management]
 ---
 
@@ -42,10 +42,24 @@ Health and Safety includes the following applications:
 
     The ServiceNow® Health and Safety Contractor Management application provides capabilities to manage contractor companies and workers for their health and safety.
 
+-   **[Contractor Service Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contractor-service-center/hs-contractor-service-center-landing-page.md)**
+
+    The ServiceNow®Contractor Service Center application provides contract workers with a dedicated portal to complete pre-qualification tasks, submit safety documentation, report Health and Safety incidents and observations, submit job safety analyses, and request permits to work.
+
 -   **[Health and Safety Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-risk-management-landing-page.md)**
 
     The ServiceNow® Health and Safety Risk Management application provides capabilities to enable workers, line managers, and safety personnel to work safely and reduce the likelihood of injuries that risks or hazards create.
 
+-   **[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)**
+
+    The ServiceNow® Environmental Management application helps in the management of chemicals in an organization by maintaining the chemical inventory, ensuring regulatory conformance, and reducing the manual effort associated with chemical documentation and workflows.
+
+
+## Now Assist for Health and Safety
+
+Now Assist brings generative AI to the Health and Safety with capabilities such as conversational incident reporting and incident summarization. It also uses agentic workflows to analyze incident data, identify patterns, and generate corrective and preventive action plans, empowering safety teams avoid future incidents."
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Mobile experience for Health and Safety
 
@@ -59,7 +73,7 @@ The Health and Safety applications support domain separation at basic level. For
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration with Third-party services
 

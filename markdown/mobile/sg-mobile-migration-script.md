@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-migration-script.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile migration from Madrid to New York and later releases, Mobile plugins and upgrades, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Migrate to New York &amp; later, Plugins &amp; upgrades, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Run the mobile migration script
@@ -18,7 +18,7 @@ Run the mobile migration script to convert Madrid mobile applications you have c
 
 Role required: admin
 
-Mobile applications created in the Madrid release still work in the Yokohama release, but cannot be edited in Studio. To continue editing in Studio, and to take advantage of new features available in the Yokohama release, run the mobile migration script.
+Mobile applications created in the Madrid release still work in the Brazil release, but cannot be edited in Studio. To continue editing in Studio, and to take advantage of new features available in the Brazil release, run the mobile migration script.
 
 ## Procedure
 

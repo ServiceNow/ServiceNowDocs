@@ -7,8 +7,8 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Add instructions and questions to an assessment template, Create an assessment template, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -24,7 +24,7 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 ## Procedure
 
-1.  Open the assessment template to add questions on the landing page or create a template to add questions.
+1.  You can update an assessment template by either opening an existing template from the landing page or by creating a new template and saving it.
 
     |Option|Description|
     |------|-----------|
@@ -41,29 +41,29 @@ Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_
 
 5.  Specify any number of attributes for the question.
 
-<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d358790e145">
+<table id="choicetable_afm_5mq_mbc"><thead><tr><th align="left" id="d435631e145">
 
 Attribute
 
-</th><th align="left" id="d358790e148">
+</th><th align="left" id="d435631e148">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d358790e154">
+</th></tr></thead><tbody><tr><td id="d435631e154">
 
 **Required**
 
 </td><td>
 
-If the assessor must answer the question in order to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
+If the assessor must answer the question to submit the assessment, select **Required**. The assessor sees the \* \(asterisk\) character to indicate that a response is required.
 
-</td></tr><tr><td id="d358790e171">
+</td></tr><tr><td id="d435631e171">
 
 **Conditionally visible**
 
 </td><td>
 
-Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
+A setting on any question type that lets template builders control when a question is shown or hidden to respondents, based on conditions tied to other questions' answers. This Option is in the configuration options menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
  Select this attribute if the question appears to the assessor only if the response to a different question meets the conditions that you specify.
 
@@ -71,25 +71,27 @@ Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\]
 
  You specify the section, subsection \(if available\), question, and, optionally, the response. Together, the values that you specify define the conditions that must be met for the question to appear in the assessment.
 
-</td></tr><tr><td id="d358790e200">
+ **Note:** When a question is hidden from the assessor because its visibility conditions aren't met, the question is not displayed in the assessment view. If a section contains questions that are hidden by conditional visibility, the section displays a subtle indicator showing how many questions have been skipped \(for example, `3 applicable questions have been skipped`\). If every question in a section is hidden by conditional visibility, the section is grayed out in the navigation pane and shows an empty-state message that indicates no questions are applicable.
+
+</td></tr><tr><td id="d435631e206">
 
 **Justification**
 
 </td><td>
 
-Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
+A setting that lets template builders request additional text comments \(justification\) from respondents for a given question, either always or based on conditions. This Option is in the configuration options menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
  Enable the assessor to supply the additional text information that justifies a response. This option is useful when you expect that some responses will be nonstandard.
 
  In the assessment, the \* \(asterisk\) character appears on the field for a required justification.
 
-</td></tr><tr><td id="d358790e226">
+</td></tr><tr><td id="d435631e232">
 
 **Attachments**
 
 </td><td>
 
-Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
+A setting that lets template builders request file attachments \(evidence\) from respondents for a given question, either always or based on conditions. This Option is in the configuration options menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
 Request the attachments for the specific responses. You can specify that the attachments are: -   Required
 -   Optional
@@ -97,7 +99,7 @@ Request the attachments for the specific responses. You can specify that the att
 
 Use the condition builder to specify the conditions. The values that you specify define the conditions that must be met to enable the assessor to add the attachments.
 
-</td></tr><tr><td id="d358790e263">
+</td></tr><tr><td id="d435631e269">
 
 **Set character limit**
 
@@ -109,22 +111,22 @@ Option for the code type question.
 
  Default: 4000.
 
-</td></tr><tr><td id="d358790e281">
+</td></tr><tr><td id="d435631e287">
 
 **Specify preferred answers**
 
 </td><td>
 
-Option in the additional attributes menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
+A setting on choice-type questions that lets template builders define which answers are considered "preferred". This Option is in the configuration options menu \(\[Omitted image "AlertMenuIcon.png"\] Alt text: Additional attributes menu icon.\).
 
- Use the condition builder to specify the response value or values. The values that you specify define the condition that must be met for the response to be considered correct or preferred.
+ Use the "Mark preferred answers" modal to define conditions for preferred answers.
 
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
 7.  If you want to add content that helps the assessor answer this question, select **Add additional content**.
 
-<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d358790e330">
+<table id="choicetable_up4_xqd_mbc"><tbody><tr><td id="d435631e336">
 
 **Question description**
 
@@ -136,7 +138,7 @@ Enter the descriptive text that follows the question when the assessor accesses 
 
  \[Omitted image "sae-q-description-confirmation.png"\] Alt text: Confirmation of the description text. You can update the text.
 
-</td></tr><tr><td id="d358790e355">
+</td></tr><tr><td id="d435631e361">
 
 **Guidance**
 

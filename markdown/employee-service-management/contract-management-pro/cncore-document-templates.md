@@ -1,5 +1,5 @@
 ---
-title: Configure templates for a contract and amendment request in Contract Management Pro
+title: Configure templates for a contract requests
 description: Create contract templates to easily generate Microsoft Word contract documents based on request types in Contract Management Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
 keywords: [Own paper contract template, Contract template, Word document templates, Generate contract, Content controls, Signature tag, Contracts metadata, Configure metadata]
-breadcrumb: [Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configure templates for a contract and amendment request in Contract Management Pro
+# Configure templates for a contract requests
 
 Create contract templates to easily generate Microsoft Word contract documents based on request types in Contract Management Pro.
 
@@ -36,8 +36,6 @@ Create contract templates by using Microsoft Word add-in for ServiceNow Contract
 Create contract templates by adding content controls manually.
 -   **[Publish a contract template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-publish-template.md)**  
 Publish a contract template to make it available for generating a standard contract document with predefined content when a contract user submits a request.
--   **[Enable keyword search for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-enable-search-cont-tmplts.md)**  
-Enable keyword search in contract templates.
 -   **[Configure dynamic clauses for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-clause-and-cv.md)**  
 Enable dynamic customized content in contract templates through clauses that contain clause variations for preset conditions.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/components-installed-with-itom-su-licensing.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Reference, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -25,7 +25,7 @@ Several types of components are installed with activation of the ITOM/OT SU Lice
 |Event Management - Node Count Store|Calculates the node count used in Event Management.|
 |ITOMHealthCIReporterWithOTOMCountITOMStore|Compiles the list of licensable CIs for ITOM.|
 |ITOMHealthCIReporterWithOTOMCountOTOMStore|Compiles the list of licensable CIs for Operational Technology Management \(OTM\).|
-|ITOM Health Licensing Usage Count Store|Calculates the daily CI count for ITOM Health.|
+|ITOM Health Licensing Usage Count Store|Calculates the daily CI count for ITOM AIOps.|
 |ITOM Optimization Licensing Usage Count Store|Calculates the daily CI count for ITOM Optimization.|
 |ITOM Licensing Optimization CI Listing Store|Compiles the list of licensable CIs for ITOM Optimization.|
 |OTOM Licensing Visibility CI Listing Store|Compiles the list of licensable CIs for ITOM Visibility \(OTM\).|
@@ -130,6 +130,14 @@ Historical Licensable CIs\[sn\_itom\_licensing\_itom\_lu\_historical\_cis\]
 </td><td>
 
 Contains the list of Historical Licensable CIs.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>**Parent Topic:**[ITOM/OT SU Licensing Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-reference.md)

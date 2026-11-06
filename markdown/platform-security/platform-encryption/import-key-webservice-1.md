@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -54,7 +54,7 @@ This example uses OpenSSL for key and certificate generation. Substitute other c
 
 5.  Select an appropriate algorithm that aligns with asymmetric key material for the imported keystore.
 
-    See [Cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for additional information.
+    See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for additional information.
 
 6.  Select **Next**.
 
@@ -108,15 +108,15 @@ This example uses OpenSSL to generate keys and certificates. You may substitute 
 
 4.  Execute an `HTTP POST request` to the import from a web service REST endpoint.
 
-<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d88852e407">
+<table id="choicetable_wgh_zgb_fqb"><thead><tr><th align="left" id="d101811e407">
 
 Option
 
-</th><th align="left" id="d88852e410">
+</th><th align="left" id="d101811e410">
 
 Value/Format
 
-</th></tr></thead><tbody><tr><td id="d88852e416">
+</th></tr></thead><tbody><tr><td id="d101811e416">
 
 **URL of the endpoint**
 
@@ -124,7 +124,7 @@ Value/Format
 
 `https://<instance>/api/sn_kmf/key/import?cryptoSpecSysID=<sys_id_of_crypto_spec>`.
 
-</td></tr><tr><td id="d88852e428">
+</td></tr><tr><td id="d101811e428">
 
 **CryptoSpecSysID parameter**
 
@@ -134,7 +134,7 @@ The sys\_id of the newly created crypto specification.
 
 **Tip:** Right-click the header of the crypto specification to copy the sys\_id.
 
-</td></tr><tr><td id="d88852e448">
+</td></tr><tr><td id="d101811e448">
 
 **Header-Content-Type**
 
@@ -142,7 +142,7 @@ The sys\_id of the newly created crypto specification.
 
 Application/octet-stream.
 
-</td></tr><tr><td id="d88852e457">
+</td></tr><tr><td id="d101811e457">
 
 **Body**
 
@@ -150,7 +150,7 @@ Application/octet-stream.
 
 Must contain a file attachment-binary and the public key to import \(wrapped\_symmetric\_key.txt\).
 
-</td></tr><tr><td id="d88852e467">
+</td></tr><tr><td id="d101811e467">
 
 **Import from web service REST endpoint**
 

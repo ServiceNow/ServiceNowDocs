@@ -7,9 +7,9 @@ release: yokohama
 product: Knowledge Graph
 classification: knowledge-graph
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Enable AI experiences]
+breadcrumb: [Using Knowledge Graph Designer, Knowledge Graph, Managing data for AI, Enable AI Experiences]
 ---
 
 # Edit a Knowledge Graph schema
@@ -24,9 +24,9 @@ Role required: kg\_admin
 
 1.  Navigate to **All** &gt; **Knowledge Graph** &gt; **Knowledge Graph Designer**.
 
-    The UI displays a list of all the Knowledge Graph schemas on the landing page.
+    The UI displays a list of all the Knowledge Graph schema on the landing page.
 
-2.  From the list of existing Knowledge Graph schemas, select a Knowledge Graph schema to edit.
+2.  From the list of existing Knowledge Graph schema, select a Knowledge Graph schema to edit.
 
     The Knowledge Graph schema​ opens in the Knowledge Graph canvas.
 

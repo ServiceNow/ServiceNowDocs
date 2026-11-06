@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Safety inspections and audits, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -36,11 +36,11 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 6.  Select **Save**.
 
-    The **Audit surveys** and **Scheduled audits** tabs appear for this audit.
+    The **Audit questionnaires** and **Scheduled audits** tabs appear for this audit.
 
-7.  In the **Audit surveys** tab, select **New** to add smart assessment orsurveys to be added to each scheduled audit.
+7.  In the **Audit questionnaires** tab, select **New** to add smart assessment orsurveys to be added to each scheduled audit.
 
-    -   For information on audit survey field descriptions, see [Audit survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.md).
+    -   For information on audit questionnaire field descriptions, see [Audit questionnaire form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-audit-survey-form.md).
     -   Audit surveys can also be added to each scheduled audit individually after they’re scheduled.
 8.  To generate the scheduled audit records immediately, select **Create audits**.
 
@@ -50,12 +50,8 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
     -   Select **Create all scheduled audits at once** to create all scheduled audits immediately.
     **Note:** If you don’t use the **Create audits** button, the system will automatically create the audit records. They are generated one by one from the start date, based on the duration and selected frequency of the inspection schedule.
 
-9.  In the **Scheduled audits** tab, add the following details to each scheduled audit record.
+9.  In the **Scheduled audits** tab, add details, for example, objectives and people involved and their responsibilities, to each scheduled audit record.
 
-    -   People involved and their responsibilities
-    -   Standards and documents used to benchmark findings
-    -   Audit actions
-    -   Risk assessments
     For information on completing an audit, see, [Create and manage a safety audit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-create-manage-safety-audit-workspace.md).
 
 
@@ -63,8 +59,8 @@ Role required: sn\_hs\_rm.safety\_audit\_manager or sn\_hs\_rm.audit\_schedule\_
 
 -   Audit records are generated based on the duration and the selected frequency of the audit schedule.
 -   All audit records for an audit schedule are generated in its **Scheduled audits** tab. These audit records are also available under **Audits** &gt; **All** list.
--   All required fields are copied from the audit schedule and audit survey to its scheduled audit records.
--   Any audit surveys created for a schedule are automatically added to all its audit records.
+-   All required fields are copied from the audit schedule and audit questionnaire to its scheduled audit records.
+-   Any audit questionnaire created for a schedule are automatically added to all its audit records.
 -   The assigned user receives a notification to complete the smart assessment or survey for the generated audits. They can complete the audit in the Employee Center or in the mobile app.
     -   A smart assessment can be completed in the mobile app. For more information, see [Complete a smart assessment from mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-create-smart-assessment-inspection-audit-mobile-agent.md).
     -   A survey can be completed either in the Employee Center or the mobile app. For more information, see [Complete a survey from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-complete-safety-insp-survey.md).

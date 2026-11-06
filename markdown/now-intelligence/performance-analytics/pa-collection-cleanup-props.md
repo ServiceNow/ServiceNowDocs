@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Properties, Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -36,7 +36,7 @@ Maximum number of periods prior to today for which scores are collected and kept
 
  -   Type: String
 -   Default value: 732;105;53;40;60;30;20;20;20;10;10
--   Location: **Performance Analytics** &gt; **System** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **PA Properties**
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Maximum number of periods prior to today for which lists of records \([snapshots
 
  -   Type: String
 -   Default value: 183;26;13;10;15;8;5;5;5;3;3
--   Location: **Performance Analytics** &gt; **System** &gt; **Properties**
+-   Location: **Platform Analytics Administration** &gt; **Properties** &gt; **PA Properties**
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/pa-properties.md)

@@ -7,10 +7,10 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [child alias, child alias for jira]
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a child alias to set up multiple Jira integration profiles
@@ -19,7 +19,7 @@ Create a child alias to set up multiple Jira integration profiles with unique co
 
 ## Before you begin
 
-Role required: admin or sam\_integrator
+Role required: sam\_integrator
 
 ## Procedure
 

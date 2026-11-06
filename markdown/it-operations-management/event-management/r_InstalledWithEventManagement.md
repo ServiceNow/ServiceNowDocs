@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Components installed with Event Management
@@ -89,6 +89,30 @@ Event Management Integrator\[evt\_mgmt\_integration\]
 </td><td>
 
 Has create access to the Event \[em\_event\] and Registered Nodes \[em\_registered\_nodes\] tables to integrate with external event sources.
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Event Management AIOps Manager\[evt\_aiops\_manager\]
+
+</td><td>
+
+Responsible for overseeing NOC teams performance and can onboard AI Specialists as part of the agentic workforce features in AIOps.
+
+</td><td>
+
+evt\_team\_operator
+
+</td></tr><tr><td>
+
+Event Management Team Operator\[evt\_team\_operator\]
+
+</td><td>
+
+Can create and manage their own integrations, set up their own alert automations, and enhance control over alert management for their teams.
 
 </td><td>
 
@@ -431,7 +455,7 @@ Cleans the Impact Status \(em\_impact\_status\) table by removing records more t
 |Service Analytics Attribute Populator for Historical Alerts|Populate attributes used in feature identifier for historical alert data using event rules. Runs on demand.|
 |Event Management - Analytics Alert Syncer|Gathers alert data that is used by grouping job.|
 
-## Properties for personalizing domain separation for Event Management connectors
+## Domain separation properties for Event Management connectors
 
 Properties provide the metadata to identify the domain.
 
@@ -636,7 +660,7 @@ Event Management License Usage\[em\_unique\_nodes\]
 
 </td><td>
 
-When events are received by ITOM Health, an entry is added or updated in this table based on the monitored target specified in the received message. The entry links to its corresponding CMDB CI. If none is found, the entry is assigned **Type = Unknown**.
+When events are received by ITOM AIOps, an entry is added or updated in this table based on the monitored target specified in the received message. The entry links to its corresponding CMDB CI. If none is found, the entry is assigned **Type = Unknown**.
 
 </td></tr><tr><td>
 
@@ -781,6 +805,22 @@ Impact Rule instance \[em\_impact\_rule\]
 </td><td>
 
 Rules based on impact rule definitions.
+
+</td></tr><tr><td>
+
+Impact Inclusion Classes\[em\_impact\_inclusion\_class\]
+
+</td><td>
+
+Specifies the classes to be used for impact calculation.
+
+</td></tr><tr><td>
+
+Impact Filter Services\[em\_impact\_filter\_service\]
+
+</td><td>
+
+Specifies services to be included or excluded from impact calculation.
 
 </td></tr><tr><td>
 

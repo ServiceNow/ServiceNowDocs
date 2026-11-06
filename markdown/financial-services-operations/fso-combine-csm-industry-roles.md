@@ -1,16 +1,16 @@
 ---
-title: Using agent connector and contributor roles in FSO
+title: Using agent connector and contributor roles in Financial Services Operations
 description: Financial Services Operations \(FSO\) applications install agent connector and contributor roles to manage and monitor user privileges effectively. To provide the right level of access, these roles must be paired with roles in the CSM Industry data model and contributor user roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-combine-csm-industry-roles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [FSO User management, Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [User management, Explore, Financial Services Operations \(FSO\)]
 ---
 
-# Using agent connector and contributor roles in FSO
+# Using agent connector and contributor roles in Financial Services Operations
 
 Financial Services Operations \(FSO\) applications install agent connector and contributor roles to manage and monitor user privileges effectively. To provide the right level of access, these roles must be paired with roles in the CSM Industry data model and contributor user roles.
 
@@ -48,7 +48,7 @@ The following are a few examples of how you can assign roles to users in Loan Op
 
 -   A loan relationship manager must be assigned one of the following:
     -   Loan Contributor \[sn\_bom\_loan\_b2b.contributor\] and CSM Relationship Contributor \[sn\_customerservice.relationship\_contributor\] roles
-    -   Financial services relationship contributor \[sn\_bom.relationship\_contributor\], which contains both theLoan Contributor \[sn\_bom\_loan.contributor\] and CSM Relationship Contributor \[sn\_customerservice.relationship\_contributor\] roles
+    -   Financial services relationship contributor \[sn\_bom.relationship\_contributor\], which contains both the Loan Contributor \[sn\_bom\_loan.contributor\] and CSM Relationship Contributor \[sn\_customerservice.relationship\_contributor\] roles
 -   A branch worker for a business location must be assigned Loan Contributor \[sn\_bom\_loan\_b2b.contributor\] and CSM Service Organization Contributor \[sn\_customerservice.service\_organization\_contributor\] roles.
 -   A loan relationship agent must be assigned Loan Agent Connector \[sn\_bom\_loan\_b2b.agent\_connector\] and CSM Relationship Agent \[sn\_customerservice.relationship\_agent\] roles.
 -   A loan location agent for a business location must be assigned Loan Agent Connector \[sn\_bom\_loan\_b2b.agent\_connector\] and CSM Location Agent \[sn\_customerservice.svc\_location\_agent\] roles.

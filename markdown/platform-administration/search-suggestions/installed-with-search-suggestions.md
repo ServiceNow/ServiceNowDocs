@@ -7,7 +7,7 @@ release: yokohama
 product: Search Suggestions
 classification: search-suggestions
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Search Suggestions reference, Search Suggestions, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---

@@ -1,25 +1,24 @@
 ---
 title: View AI asset details
-description: View the AI asset governance details to track the lifecycle status, phase, and the install status.
+description: View the AI asset governance details to track the lifecycle's status, phase, and the install status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/view-ai-asset-details.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-keywords: [generative AI]
-breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AI asset inventory, AI assets, AI Control Tower dashboard, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # View AI asset details
 
-View the AI asset governance details to track the lifecycle status, phase, and the install status.
+View the AI asset governance details to track the lifecycle's status, phase, and the install status.
 
 ## Before you begin
 
-Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
+Role required: AI steward
 
 ## Procedure
 
@@ -33,15 +32,15 @@ Role required: AI steward \[sn\_ai\_governance.ai\_steward\]
 
 4.  On the page, review the AI asset details.
 
-<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d43055e90">
+<table id="choicetable_pq3_wwl_ngc"><thead><tr><th align="left" id="d221955e84">
 
 Field
 
-</th><th align="left" id="d43055e93">
+</th><th align="left" id="d221955e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43055e99">
+</th></tr></thead><tbody><tr><td id="d221955e93">
 
 **Version**
 
@@ -49,7 +48,7 @@ Description
 
 Version number of the asset
 
-</td></tr><tr><td id="d43055e108">
+</td></tr><tr><td id="d221955e102">
 
 **Asset type**
 
@@ -64,7 +63,7 @@ Type of assets:-   Generative AI
 -   AI datasets
 
 
-</td></tr><tr><td id="d43055e141">
+</td></tr><tr><td id="d221955e135">
 
 **Provider**
 
@@ -72,7 +71,7 @@ Type of assets:-   Generative AI
 
 who has built the asset
 
-</td></tr><tr><td id="d43055e150">
+</td></tr><tr><td id="d221955e144">
 
 **Vendor**
 
@@ -80,7 +79,7 @@ who has built the asset
 
 Who has sold the Asset
 
-</td></tr><tr><td id="d43055e160">
+</td></tr><tr><td id="d221955e154">
 
 **Department**
 
@@ -88,7 +87,7 @@ Who has sold the Asset
 
 Department where the asset is allocated
 
-</td></tr><tr><td id="d43055e169">
+</td></tr><tr><td id="d221955e163">
 
 **Managed by**
 
@@ -96,7 +95,7 @@ Department where the asset is allocated
 
 Managed by the user who owns the asset
 
-</td></tr><tr><td id="d43055e178">
+</td></tr><tr><td id="d221955e172">
 
 **License details**
 
@@ -104,7 +103,7 @@ Managed by the user who owns the asset
 
 License details of the asset
 
-</td></tr><tr><td id="d43055e187">
+</td></tr><tr><td id="d221955e181">
 
 **Supported locations**
 
@@ -112,7 +111,7 @@ License details of the asset
 
 Shows the locations supported for the AI asset.
 
-</td></tr><tr><td id="d43055e199">
+</td></tr><tr><td id="d221955e193">
 
 **Lifecycle phase**
 
@@ -127,7 +126,7 @@ Shows the asset's lifecycle phase.
 -   Offboarding
 
 
-</td></tr><tr><td id="d43055e228">
+</td></tr><tr><td id="d221955e222">
 
 **State**
 
@@ -140,7 +139,7 @@ The state of the asset.-   Deployed
 -   N/A
 
 
-</td></tr><tr><td id="d43055e255">
+</td></tr><tr><td id="d221955e249">
 
 **Lifecycle status**
 
@@ -157,7 +156,7 @@ The lifecycle status of the asset.-   In review
 -   Canceled
 
 
-</td></tr><tr><td id="d43055e294">
+</td></tr><tr><td id="d221955e288">
 
 **Risk classification**
 
@@ -165,7 +164,7 @@ The lifecycle status of the asset.-   In review
 
 Risk classification of the asset
 
-</td></tr><tr><td id="d43055e303">
+</td></tr><tr><td id="d221955e297">
 
 **Created**
 
@@ -173,7 +172,7 @@ Risk classification of the asset
 
 Creation date
 
-</td></tr><tr><td id="d43055e312">
+</td></tr><tr><td id="d221955e306">
 
 **Updated**
 

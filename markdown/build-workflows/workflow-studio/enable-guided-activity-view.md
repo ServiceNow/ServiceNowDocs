@@ -1,5 +1,5 @@
 ---
-title: Enable Guided activity view
+title: Enable Guided Activity View
 description: Guide end users through a playbook, step-by-step.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/enable-guided-activity-view.html
@@ -7,19 +7,19 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize the Playbook Experience, Designing playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Customize Playbook Experience, Design Playbook Experience, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Enable Guided activity view
+# Enable Guided Activity View
 
 Guide end users through a playbook, step-by-step.
 
 ## Before you begin
 
 -   Role required: admin or playbook.admin
--   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md).
+-   Familiarize yourself with how to begin customizing the playbook experience in UI Builder. To learn more, see [Customizing the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md).
 
 ## About this task
 
@@ -63,6 +63,4 @@ The following configurations and features are not supported for the **Guided** a
 For an end user who is running a playbook, the result is a playbook that runs one activity at a time. If configured, users can still restart the playbook and activities.
 
 \[Omitted image "PE-Guided-Activity-Viewer.gif"\] Alt text: End user experience of a Guided view, Self-Service playbook
-
-**Parent Topic:**[Customize the Playbook Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-customize-playbook.md)
 

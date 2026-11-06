@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Observability-Dynatrace, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,7 +20,7 @@ Set up scheduled import jobs to pull in Dynatrace data into your Configuration M
 
 **Important:** The Service Graph Connector for Observability - Dynatrace supports Dynatrace Classic \(v1/v2 APIs\) and is intended for Dynatrace managed \(self‑hosted\) or legacy SaaS environments. If you're using or upgrading to the latest Dynatrace 3rd-generation SaaS platform, you should use the new Service Graph Connector for Observability - Dynatrace SaaS.
 
-Install Service Graph Connector for Observability - Dynatrace version 1.11.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+Install Service Graph Connector for Observability - Dynatrace version 1.11.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 Role required: The following table shows the roles required for each stage of the playbook.
 

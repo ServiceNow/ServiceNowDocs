@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Connections dashboard, Managing connections in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Using the Connections dashboard, Manage connections, Integration Hub, Workflow Data Fabric]
 ---
 
 # Add a connection in the Connections dashboard

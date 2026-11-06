@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/advanced-notification-prefrences.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Notification Preferences, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -22,7 +22,7 @@ With notification preferences, you can control the system notifications and cust
 
 You can also search for notifications under both system and custom notifications. There are 2 types of searches, search on preferences that only searches if it matches the notification name and AI search.
 
-With AI search, the search functionality now goes beyond just looking for notification names. It can also search within fields of notification records, offering a broader and more accurate search experience. To use the AI search, the AI Search for Notifications plugin must be installed and index sources **Platform Notifications V1** and **Platform Notifications V2**, for more information see [Activate AI Search for Notifications plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.md) and [Index AI Search for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/index-ai-search-for-notification.md).
+With AI search, the search functionality now goes beyond just looking for notification names. It can also search within fields of notification records, offering a broader and more accurate search experience. To use the AI search, the AI Search for Notifications plugin must be installed and index sources **Platform Notifications V1** and **Platform Notifications V2**, for more information see [Activate AI Search for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.md) and [Index AI Search for notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/index-ai-search-for-notification.md).
 
 ## System notifications
 
@@ -78,7 +78,7 @@ With Delivery Channels, you can:
 -   Choose how notifications are delivered.
 -   Set a schedule for the record in the channel and apply to the notifications you want to receive.
 
--   **[Activate AI Search for Notifications plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.md)**  
+-   **[Activate AI Search for Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/activate-ai-search-for-notifications-plugin.md)**  
 You can activate the AI Search for Notifications plugin \(com.glide.notification.ais\) for Notifications if you have the admin role. The application includes demo data and installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/set-notification-preferences.md)**  
 View, enable, and disable general settings for notification preferences, and delivery channels.
@@ -86,6 +86,8 @@ View, enable, and disable general settings for notification preferences, and del
 Create custom notifications, which are subscriptions to notifications of importance to you, and apply conditions that control specific content included in your custom notification. You can also enable or disable the channels for delivery.
 -   **[Modify a notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/modify-notification-schedule.md)**  
 Modify a notification by establishing a schedule or setting conditions to control the notifications you receive.
+-   **[Create notification filter configuration for notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-notification-filter-configuration.md)**  
+Control the list of notifications that are displayed to the users under the advanced notification preferences page. This capability can help narrow down and show only relevant notifications based on user criteria.
 -   **[Delete a custom notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/delete-custom-notifications.md)**  
 Delete custom notifications that you don't need any more.
 -   **[Add a new notification delivery channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/add-email-device.md)**  

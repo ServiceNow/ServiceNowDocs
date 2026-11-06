@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_SubmitPortalSelfRegRequest.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer contact self-registration, Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Self-register, Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Submit a self-registration request
@@ -42,4 +42,11 @@ Role required: none
 
     If the code was incorrect, you see this message: “Incorrect Registration Code".
 
+
+**Related topics**  
+
+
+[Customer contact self-registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_PortalSelfRegistration.md)
+
+[Log in to the Customer Service Portal for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_LogInToPortalFirstTime.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Visualization of floor map
+title: Floor map
 description: Use the floor map in the Telecommunications Network Inventory application to view a layout of your datacenter infrastructure. You can view the network assets placement and monitor the operational data on the map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Visualization of your network infrastructure, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Visualize network infrastructure, Explore, Telecommunications Network Inventory]
 ---
 
-# Visualization of floor map
+# Floor map
 
 Use the floor map in the Telecommunications Network Inventory application to view a layout of your datacenter infrastructure. You can view the network assets placement and monitor the operational data on the map.
 
@@ -160,5 +160,5 @@ Access the floor map in the Telecommunications Network Inventory workspace as fo
 2.  Select the blue hub icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 3.  Select the **Floor map** tab.
 
-To learn more about how to use the floor map, see [Using the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md).
+To learn more about how to use the floor map, see [Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md).
 

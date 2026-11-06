@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your product backlog in Agile Development 2.0, Use, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Manage your product backlog in Agile Development 2.0, Managing your product development using Agile Development 2.0, Agile Development 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Arrange Agile Development 2.0 stories in Agile Board using the keyboard

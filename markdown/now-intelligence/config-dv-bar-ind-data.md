@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-bar-ind-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Horizontal and vertical bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -53,6 +53,30 @@ Time aggregation
 </td><td>
 
 Time aggregation to apply to the metric, such as 7-day running SUM or By-month AVG. Default is the same as the indicator period. For more information, see [Applying time series aggregations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/applying-time-series-aggregations.md).
+
+</td></tr><tr><td>
+
+Select an aggregation \(Data snapshots indicators only\)
+
+</td><td>
+
+The aggregation is based on the Data snapshots indicator's configuration. You can't change it in the context of creating a data visualization. **Count** counts the number of records. **Count distinct** counts the number of unique values rather than the total number of records. For example, if the name of a user appears more than once in a list, the user is only counted once. Other choices perform the specified aggregate operation, such as summing the values in a field across records.
+
+</td></tr><tr><td>
+
+Field \(Data snapshots indicators only\)
+
+</td><td>
+
+The field on the Data snapshot's source to which the aggregate is applied. Required for all aggregates except Count.
+
+</td></tr><tr><td>
+
+Show incomplete periods \(Data snapshots indicators only\)
+
+</td><td>
+
+Select to display values from the period in progress. Clear this check box to show only the values for completed periods.
 
 </td></tr><tr><td>
 
@@ -134,8 +158,14 @@ Breakdown
 
 List of breakdowns to choose from for grouping indicator scores.**Important:**
 
--   Scripted breakdowns are not supported in dashboard filters.
+-   Scripted breakdowns aren't supported in dashboard filters.
 -   Only two levels of breakdown are supported in total, including data visualization and dashboard filters.
+
+Each breakdown element is shown separately in the visualization. If a multiple select filter for that breakdown is also applied to the visualization, only the selected elements are shown. If you do not specify a breakdown in this field and apply a multiple select filter, the aggregate score of all selected breakdown elements is shown. For more information, see [Viewing multiple breakdown elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/view-multiple-breakdown-elements.md).
+
+Data snapshots indicators support only reference, Boolean, and choice fields for group bys.
+
+**Note:** For Data snapshots indicators, breakdowns are specified on the indicator source. For classic Performance Analytics indicators, breakdowns are specified on the indicator record.
 
 </td></tr><tr><td>
 
@@ -145,13 +175,17 @@ Group by
 
 The first group by determines the bars in the visualization. Configure additional group by elements to enable presentation based on additional items in the data.**Note:** It is not possible to stack bars in data visualizations based on indicator data.
 
+Data snapshots indicators support only reference, Boolean, and choice fields for group bys.
+
 </td></tr><tr><td>
 
 Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
@@ -172,13 +206,13 @@ Sort by
 
 Sorting options of the main and alternative groups set in **Group by**. Options include:-   Name: Sorts the values alphabetically by field or element name.
 -   Value: Sorts the values numerically or by count.
--   Element order: If you are grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown, this option sorts the groups according to the value of the Sequence field.
+-   Element order: Sorts the groups according to the value of the Sequence field. Available when grouping by records on the Choice \[sys\_choice\] table, either directly or through a breakdown.
 -   Group bucket: Sorts the elements by bucket group, when applicable. Only available for indicator data sources and when the breakdown used for the **Group by** is based on a bucket group.
 -   Report range: Sorts the table field values by range. Only available for table data sources and when the table field used for the **Group by** has a report range associated with it.
 
 **Note:**
 
--   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by cannot apply to an alternative group-by \(such as sorting by Element order when the alternative group-by is not on the Choice table\), sorting for that group-by defaults to Value.
+-   The choices of what to sort by are based on the main, default **Group by**, if one is defined. This sorting applies to any alternative group-bys if possible. If the sorting criterion selected for the main group-by can't apply to an alternative group-by, sorting defaults to Value. For example, sorting by Element order when the alternative group-by is not on the Choice table.
 -   If no main **Group by** has been set, but alternative group-bys are defined, you can sort only by Name or Value.
 -   Sorting is not available for Pareto bar visualizations. Pareto charts are always sorted by value in descending order.
 
@@ -246,8 +280,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -297,7 +335,7 @@ Triggered when you navigate away from the dashboard that contains the data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 
@@ -322,6 +360,14 @@ Heading
 </td><td>
 
 Header text of the message that describes why no data was returned.
+
+</td></tr><tr><td>
+
+Heading level
+
+</td><td>
+
+Header text size for the message that describes why no data was returned.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate with UCF Common Controls Hub to manage compliance frameworks, Configure the UCF integration using the UCF Common Controls Hub, Manage the UCF integration, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [integrate with UCF Common Controls Hub, Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create a Now Support Case for UCF-CCH account integration information
@@ -33,10 +33,6 @@ Role required: admin
     \[Omitted image "get-help.png"\] Alt text: Get help icon shown
 
 3.  Click **Open a Case**.
-
-    \[Omitted image "open-case.png"\] Alt text: Open a case
-
-    \[Omitted image "request.png"\] Alt text: Issue typ
 
 4.  Fill out the **Create Case** form.
 

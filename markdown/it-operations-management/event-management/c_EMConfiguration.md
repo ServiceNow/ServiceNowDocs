@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management setup
@@ -33,16 +33,7 @@ Set up Event Management by completing these tasks in the following order:
 
 **Note:** Event Management does not support creating incidents on remote instances.
 
-## Event Management setup using guided setup
+## Event Management configuration using Setup Hub
 
-Event Management guided setup provides a sequence of tasks that help you configure Event Management on your ServiceNow instance. To open Event Management guided setup, navigate to **Guided Setup** &gt; **ITOM Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
-
--   **[Event Management during a platform upgrade](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/platform-upgrade-and-event-management.md)**  
-During a platform upgrade Event Management jobs whose **Upgrade safe** flag is marked as `true` remain running.
--   **[MID Web Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/mid-web-server.md)**  
-The MID Web Server is part of the common infrastructure of the MID Server.
--   **[Event Management configuration preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/r_EMBestPractice.md)**  
-Preferred settings of properties and general configuration.
-
-**Parent Topic:**[Configuring Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/using-event-management.md)
+ITOM configuration console provides a sequence of tasks to help you configure Event Management. For more information, see [Configure Event Management using ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/aiops-conf-console.md).
 

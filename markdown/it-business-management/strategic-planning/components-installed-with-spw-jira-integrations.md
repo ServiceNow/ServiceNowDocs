@@ -7,7 +7,7 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: reference
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, SPW Jira Integrations, Strategic Planning, Strategic Portfolio Management]
 ---

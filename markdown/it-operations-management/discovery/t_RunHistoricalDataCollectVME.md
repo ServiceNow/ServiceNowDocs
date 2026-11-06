@@ -1,20 +1,21 @@
 ---
 title: Run historical data collection for Virtual Machine Explorer
-description: After installing Discovery Admin Workspace, run historical data collection jobs to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports on the Virtual Machine Explorer dashboard.
+description: After installing Discovery Admin Workspace, run historical data collection jobs to populate Virtual Machine Explorer reports.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/t\_RunHistoricalDataCollectVME.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Virtual Machine Explorer dashboard, Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+keywords: [Discovery, Admin, Workspace]
+breadcrumb: [Virtual Machine Explorer dashboard, Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Run historical data collection for Virtual Machine Explorer
 
-After installing Discovery Admin Workspace, run historical data collection jobs to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports on the Virtual Machine Explorer dashboard.
+After installing Discovery Admin Workspace, run historical data collection jobs to populate Virtual Machine Explorer reports.
 
 ## Before you begin
 
@@ -26,7 +27,7 @@ Role required: pa\_data\_collector or admin
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Data Collector** &gt; **Jobs**.
 
-2.  Select the **filter** icon \(\[Omitted image "filter-icon-button.png"\] Alt text: filter icon\).
+2.  Select the **filter** icon.
 
 3.  **\[Name\]****\[contains\]**`historic`**AND \[Name\]\[contains\]**`VM`.
 
@@ -49,7 +50,5 @@ Role required: pa\_data\_collector or admin
 
 ## What to do next
 
-Manually refresh the indicators on the Virtual Machine Explorer dashboard to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports, enabling you to view relevant data and trends. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md).
-
-**Parent Topic:**[Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md)
+Manually refresh the indicators on the Virtual Machine Explorer dashboard to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports. This enables you to view relevant data and trends. For more information, see [Virtual Machine Explorer dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/vm-explorer.md).
 

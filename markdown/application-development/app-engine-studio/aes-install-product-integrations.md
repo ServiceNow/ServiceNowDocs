@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AES and the ServiceNow Store, Installing App Engine Studio, Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [AES and the ServiceNow Store, Installing, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Install the AES product and integrations
@@ -28,11 +28,9 @@ Role required: admin
 
 2.  Locate the App Engine Studio product \(not the application\), and select the product tile.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
     **Note:** You must select the AES product, not the application.
-
-    \[Omitted image "aes-activate-plugin-as1.png"\] Alt text: Install the AES product
 
 3.  On the App Engine Studio product page, select **Install**.
 
@@ -42,7 +40,7 @@ Role required: admin
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

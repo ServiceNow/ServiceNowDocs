@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -47,7 +47,9 @@ While creating the record producer, make sure that you follow these steps.
     -   **Date and time requested by**: delivery\_time
     -   **Urgency**: urgency
     -   **Impact**: impact
--   Sections like request details and space selection are hidden on the request form as they are derived from the reservation data. For more information, refer to any record producers installed with Workplace Case Management, like `Catering`.
+    **Note:** Ensure that you include a record producer variable with the field name `reservation`. Otherwise, the reservation case isn't linked to the child case generated.
+
+-   Sections like request details and space selection are hidden on the request form as they’re derived from the reservation data. For more information, refer to any record producers installed with Workplace Case Management, like `Catering`.
 
 
 ## Mapping the record producer to the reservation page
@@ -56,7 +58,7 @@ To map the record producer to the reservation page, you must first add it to the
 
 For more information about the fields of a workplace service, see [Workplace Service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-service-form.md).
 
-**Parent Topic:**[Configure Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
@@ -66,6 +68,10 @@ For more information about the fields of a workplace service, see [Workplace Ser
 [Create a Workplace case template]()
 
 [Create a Workplace task template]()
+
+[Smart Assessment for Workplace Case and Task]()
+
+[Automating seat assignment for new hires]()
 
 [Configure Approval options]()
 

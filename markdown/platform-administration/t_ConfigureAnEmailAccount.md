@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ConfigureAnEmailAccount.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Email accounts, Creating an email account, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email accounts, Create, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create an email account
@@ -45,6 +45,22 @@ Name
 </td><td>
 
 Name of the email account.
+
+</td></tr><tr><td id="entry_sht_rmt_zfc">
+
+Account type
+
+</td><td>
+
+-   **Shared Address**
+
+A shared address refers to a shared mailbox that multiple users or team members can access.
+
+-   **Forwarding Address**
+
+A forwarding address is an email address where emails are automatically redirected or forwarded from another account.
+
+ **Note:** Account type is specific to personal corporate mailbox. For more information,see [Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/personal-corporate-mailbox.md).
 
 </td></tr><tr><td>
 

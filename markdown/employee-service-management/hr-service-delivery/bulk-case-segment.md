@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Creating bulk cases, HR Case Management, Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Creating bulk cases, Use, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a user segment group
@@ -18,7 +18,7 @@ User segment groups allow you to specify values for a group of users, or with mu
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_core.admin
 
 ## About this task
 
@@ -110,7 +110,7 @@ Determines who to create the bulk HR case for:-   Upload file:
 
  For the **HR Profile** and **Users** filter, you can refine the selection. Right-click on a column, select **Filter Out** or **Show Matching**.
 
-**Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
+**Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/c_GlideFilterScopedAPI.md).
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

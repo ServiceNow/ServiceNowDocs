@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resize resources with Rightsizing, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Resize resources with Rightsizing, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # View or edit scheduled and completed Rightsizing jobs
@@ -22,7 +22,7 @@ Role required: insights\_admin or insights\_owner
 
 ## Procedure
 
-1.  Navigate to **Cloud Cost Management Workspace** &gt; **Operations** &gt; **Recommendations** &gt; **Rightsizing**.
+1.  Navigate to **Cloud Cost Management Workspace** &gt; **Optimization** &gt; **Rightsizing**.
 
 2.  Select the **Scheduled** or **Completed** tab.
 

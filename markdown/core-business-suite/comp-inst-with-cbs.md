@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/core-business-suite/comp-inst-with-cbs.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-12-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Core Business Suite]
 ---

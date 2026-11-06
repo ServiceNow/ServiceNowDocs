@@ -1,5 +1,5 @@
 ---
-title: Discussion series form
+title: Career Conversations Conversations reference
 description: Career Conversations administrators create conversations that are used by managers and employees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/career-conversations/egd-activities-conversations-form.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career Conversations reference, Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Career Conversations reference, Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Discussion series form
+# Career Conversations Conversations reference
 
 Career Conversations administrators create conversations that are used by managers and employees.
 

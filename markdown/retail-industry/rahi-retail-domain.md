@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-domain.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Retail reference, Retail]
+breadcrumb: [Reference, Retail]
 ---
 
 # Domain Separation in Retail Core
@@ -25,7 +25,7 @@ Sample use case: When a service provider \(SP\) uses chat to respond to a tenant
 ## Retail use case
 
 -   For the retail case, the domain column is inherited from the customer service case.
--   For retail organization, the 'domain\_master' attribute receives information from the Service Organization.
+-   For retail organization, the 'domain\_master' attribute receives information from the Organization Core.
 
 **Parent Topic:**[Retail reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-operations-reference.md)
 

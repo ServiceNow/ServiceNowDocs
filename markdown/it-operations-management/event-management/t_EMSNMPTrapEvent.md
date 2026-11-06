@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure event collection for SNMP traps
@@ -29,25 +29,25 @@ Ensure that the MID Server is assigned with either `EventManagement` or `ALL app
 
 ## About this task
 
-Use the **MID SNMP Trap Listener** to listen for SNMP traps. In this configuration, the specified MID Server acts as a collection endpoint for SNMP traps.
+Use the **MID SNMP Trap Listeners** to listen for SNMP traps. In this configuration, the specified MID Server acts as a collection endpoint for SNMP traps.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Event Management** &gt; **Integrations** &gt; **MID SNMP Trap Listener**.
+1.  Navigate to **All** &gt; **Event Management** &gt; **Integrations** &gt; **MID SNMP Trap Listeners**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Complete the SNMP Trap Collector Context form.
 
-<table id="choicetable_z23_kg3_fgc"><thead><tr><th align="left" id="d155834e126">
+<table><thead><tr><th align="left" id="d518379e126">
 
 Option
 
-</th><th align="left" id="d155834e129">
+</th><th align="left" id="d518379e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d155834e135">
+</th></tr></thead><tbody><tr><td id="d518379e135">
 
 **Name**
 
@@ -55,7 +55,7 @@ Description
 
 Unique name for the SNMP Trap Collector.
 
-</td></tr><tr><td id="d155834e144">
+</td></tr><tr><td id="d518379e144">
 
 **Short description**
 
@@ -63,7 +63,7 @@ Unique name for the SNMP Trap Collector.
 
 Short description of the MID Server extension execution context.
 
-</td></tr><tr><td id="d155834e153">
+</td></tr><tr><td id="d518379e153">
 
 **SNMP version**
 
@@ -73,7 +73,7 @@ Specify the SNMP version:-   v1 and v2c
 -   v3
 
 
-</td></tr><tr><td id="d155834e171">
+</td></tr><tr><td id="d518379e171">
 
 **Minimum Security Level**
 
@@ -85,7 +85,7 @@ The valid security level values are: -   None - No security level value set.
 -   authPriv - Communication with authentication and privacy.
  **Note:** This field appears only when `v3` is selected in the **SNMP version** field.
 
-</td></tr><tr><td id="d155834e205">
+</td></tr><tr><td id="d518379e205">
 
 **UDP Port**
 
@@ -93,7 +93,7 @@ The valid security level values are: -   None - No security level value set.
 
 UDP port for SNMP Trap Collector to receive SNMP Traps. The default value is **1,162**. However, if the port is already in use, you can use any other free port instead.
 
-</td></tr><tr><td id="d155834e217">
+</td></tr><tr><td id="d518379e217">
 
 **Status**
 
@@ -107,7 +107,7 @@ The status of the trap listener. This field is blank until the listener is run. 
 -   **Error:** The listener failed with an error.
 
 
-</td></tr><tr><td id="d155834e252">
+</td></tr><tr><td id="d518379e252">
 
 **Execute on**
 
@@ -115,7 +115,7 @@ The status of the trap listener. This field is blank until the listener is run. 
 
 The MID Server location for running this listener. Select from specific MID Server. The recommended setting is **Specific MID Server**. Network hardware typically has to be configured to send to a specific IP address.
 
-</td></tr><tr><td id="d155834e264">
+</td></tr><tr><td id="d518379e264">
 
 **MID Server**
 
@@ -123,7 +123,7 @@ The MID Server location for running this listener. Select from specific MID Serv
 
 Specify the name of the designated MID Server when you select **Specific MID Server** in the **Execute on** field.
 
-</td></tr><tr><td id="d155834e279">
+</td></tr><tr><td id="d518379e279">
 
 **EngineID**
 
@@ -135,7 +135,7 @@ Displays only when **SNMP version=v3**.
 -   When sending an SNMP Trap message, include a value other than the default value of this field in the message.
 
 
-</td></tr><tr><td id="d155834e306">
+</td></tr><tr><td id="d518379e306">
 
 **Executing on**
 
@@ -158,7 +158,7 @@ This field is automatically populated.
 
 8.  If the MID Server fails to start, review the MID Server log errors.
 
-    When working with object identifiers \(OIDs\), the OID trap counter may cause problems activating event rules. To remove the trap counter from the OID, navigate to **MID Server** &gt; **Properties** and set the **mid.em.snmp\_old\_key\_counter\_cut.enabled** property to **true**.
+    When working with object identifiers \(OIDs\), a trailing OID counter can affect event rule matching. To remove the trailing counter value from translated OIDs, navigate to **MID Server** &gt; **Properties** and set the **mid.em.snmp\_old\_key\_counter\_cut.enabled** property to **true**. The property removes the trailing numeric value only when it can be identified as the OID counter. If additional numeric segments remain in the translated OID \(for example, because MIB translation is incomplete\), the counter is not removed. The system cannot determine which numeric values are significant and which represent the counter.
 
 
 ## What to do next

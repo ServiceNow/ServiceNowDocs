@@ -1,39 +1,44 @@
 ---
-title: Resolve HR cases agentic workflow
-description: Use the Resolve HR cases agentic workflow to evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, and generate a fulfillment plan for an HR case, minimizing the need for agent intervention.
+title: Resolve noncritical HR cases agentic workflow
+description: Use the Resolve noncritical HR cases agentic workflow to assess the criticality of HR cases and automatically respond to noncritical inquiries without human intervention. Human agents must intervene when requests are marked critical.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/employee-issue-resolver-na.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: concept
-last_updated: "2025-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AI agents, agentic AI]
 breadcrumb: [Use agentic workflows, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Resolve HR cases agentic workflow
+# Resolve noncritical HR cases agentic workflow
 
-Use the Resolve HR cases agentic workflow to evaluate case criticality and retrieve relevant knowledge articles to resolve HR cases, and generate a fulfillment plan for an HR case, minimizing the need for agent intervention.
+Use the Resolve noncritical HR cases agentic workflow to assess the criticality of HR cases and automatically respond to noncritical inquiries without human intervention. Human agents must intervene when requests are marked critical.
 
-## Resolve HR cases overview
+## Resolve noncritical HR cases agentic workflow overview
 
-Use the Resolve HR cases AI agent team to:
+The Resolve noncritical HR cases agentic workflow can evaluate HR requests submitted by employees of both critical and non-critical nature. The workflow:
 
--   Automate the resolution of routine employee queries that are submitted via any channel that logs an HR case such as email, catalog, or Virtual Agent. Assess criticality, retrieve relevant knowledge base responses, and detect sensitive topics that relate to your employee relation cases to route to live agents when necessary.
--   Generate an ordered step-wise fulfillment/execution plan for an HR case, thus helping in faster resolution of the HR case.
+-   checks criticality
+-   generates recommendations for a non-critical request fulfillment
+-   requests for a human agent intervention when a case is identified as critical
 
-**Note:** You must have HRSD Pro plus for Now Assist installed for the HR Service Delivery AI Agent Collection. When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
+The agents, tools, and triggers that are associated with this agentic workflow are provided by the ServiceNow Otto application. To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
 
-## Resolve HR cases agentic workflow
+## Accessing the Resolve noncritical HR cases agentic workflow
 
 To access the agentic workflow:
 
 1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Overview**.
-2.  Select **Agentic workflows** &gt; **Resolve HR cases**.
+2.  Select **Agentic workflows** &gt; **Resolve noncritical HR cases**.
 
-## Resolve HR cases AI agents
+\[Omitted image "set-up-nc-case.png"\] Alt text: Accessing Resolve noncritical HR cases agentic workflow
+
+The first step of the guided setup includes a complete list of included AI agents. Selecting the name of an AI agent opens it in a new browser tab, where you can see the full description, role, list of steps, and tools. Tools are displayed in the second step of the AI agent guided setup, Add tools, and information.
+
+## Resolve noncritical HR cases agentic AI agents
 
 The following table lists the agents that are used in the Resolve noncritical HR cases agentic workflow.
 
@@ -41,40 +46,33 @@ The following table lists the agents that are used in the Resolve noncritical HR
 
 |AI agent|AI agent role|
 |--------|-------------|
-|HR criticality detection AI agent|Determines the criticality of the request based on the urgency, impact, escalation scenarios, and keywords.|
-|HR search retrieval AI agent|Fetches information about the relevant knowledge articles and catalogs that are related to the request.|
-|Record management AI agent|Populates work notes with case details for critical cases or when no relevant recommendations are available for non-critical cases.|
-|HR notification AI agent|Notifies users of the recommendations and collects feedback via email and chat.|
-|HR Case Planner AI Agent|Creates an ordered step-wise HR case fulfillment /execution plan.|
+|HR search and notify AI agent|Performs search to find relevant HR knowledge articles and catalog items related to the given query and raise notification if relevant information is found.|
+|HR criticality detection AI agent|Performs criticality detection on an HR case and acts based on the criticality level.|
 
-The AI agent decision log displays the AI agents that are working to resolve the case, and you can watch their interactions, decisions, and thought processes as they happen in real time.
+To change this agentic workflow's instructions, duplicate it, adjust the settings, and activate the new version.
+
+## Trigger
+
+Business rule: The **Trigger non critical use case** business rule serves as a trigger that executes following the completion of the Predict service and Transfer HR cases use case. This business rule contains conditions that determine when the Resolve noncritical HR cases use case should be initiated. Modify the conditions to align with your specific business requirements. \[Omitted image "trigger-nc-br1.png"\] Alt text: Activating business rule\[Omitted image "trigger-nc-br.png"\] Alt text: Activating business rule
+
+## Executing a test scenario
+
+You can run this workflow on the Testing page of AI Agent Studio with the following utterance in the Task field:
+
+"Resolve HRC000XXX"
+
+The AI agent decision log displays the AI agents that are working to resolve the case, and you can watch their interactions, decisions, and thought processes as they happen live.
 
 **Note:** The AI agent decision log is available in the **Testing** section in AI Agent Studio and is intended for testing purposes only.
 
-## Resolving an HR case
+.\[Omitted image "resolve-nc-workflow.png"\] Alt text: Testing input for the agentic workflow.\[Omitted image "resolve-noncritical-workflow.png"\] Alt text: Testing output for the agentic workflow.
 
-In the Resolve HR cases agentic workflow, review the information in the Describe and connect section, make the necessary updates to confirm the agentic workflow adapts to your requirements, and then select **Save and Continue**.
+The AI agent assesses each HR case to determine its criticality.
 
-The agent executes the test scenario in AI Agent Studio for the agentic workflow.
+-   For non-critical cases, it retrieves and recommends relevant articles, then notifies the employee via ServiceNow Otto Virtual Agent or email. Employee can review the recommendations, provide feedback, or close the case.
+-   For critical cases, Human agents intervention is requested.
 
-\[Omitted image "resolve-noncritical-workflow.png"\] Alt text: In AI Agent Studio where it shows the testing output for Resolving HRcase agentic workflow.
+## Example of event creation on Agent Workspace for HR Case Management
 
-The employee is notified via the Now Assist Virtual Agent or email when the recommendation is generated. They can provide feedback on the recommendation or close the case.
-
-\[Omitted image "case-planner-1.png"\] Alt text: Generation of a fulfillment plan for an HR case
-
-\[Omitted image "case-planner-2.png"\] Alt text: Generation of a fulfillment plan for an HR case
-
-\[Omitted image "case-planner-3.png"\] Alt text: Generation of a fulfillment plan for an HR case
-
-\[Omitted image "case-planner-4.png"\] Alt text: Generation of a fulfillment plan for an HR case
-
-The AI agent creates a fulfillment plan for a given HR case by fetching HR case details, relevant KB articles, and fulfillment instructions. HR agents can add prompts for refining the fulfillment plan. Once approved, the fulfillment plan is added to the work notes of the case.
-
-**Note:** The option to generate a resolution plan appears only for the HR service of Fulfillment type: **Manual**. It does not appear for the Employee Relations and Life Cycle Events cases.
-
--   **[Generate a fulfillment plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/generate-rp.md)**  
-Auto-generate a fulfillment/execution plan for a case, helping in faster resolution of the HR case.
-
-**Parent Topic:**[Using agentic workflows in ServiceNow Otto for HRSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/now-assist-hrsd-ai-agents-use-cases.md)
+This is an example of how the Resolve noncritical HR cases agentic workflow generates recommendations for a non-critical case, and sends email notifications to the requester.\[Omitted image "nc-request.png"\] Alt text: Event creation on Agent Workspace for HR Case Management\[Omitted image "nc-request1.png"\] Alt text: Event creation on Agent Workspace for HR Case Management
 

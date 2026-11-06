@@ -1,6 +1,6 @@
 ---
 title: Update the node relationship configuration
-description: Update the node relationship configuration for each main node configuration. You can select the sequence of the node configuration in the Node relationship configurations related list and update the source table, relationships such as relationship registry, relationship table, target table, target conditions, and so on.
+description: Update the node relationship configuration for each main node configuration. In the Node relationship configurations related list, select the sequence and update the source table, relationship registry, relationship table, target table, and target conditions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/update-node-rel-config-bcm.html
 release: yokohama
@@ -12,7 +12,7 @@ breadcrumb: [Data Relationships Framework, Reference, Business Continuity Manage
 
 # Update the node relationship configuration
 
-Update the node relationship configuration for each main node configuration. You can select the sequence of the node configuration in the Node relationship configurations related list and update the source table, relationships such as relationship registry, relationship table, target table, target conditions, and so on.
+Update the node relationship configuration for each main node configuration. In the Node relationship configurations related list, select the sequence and update the source table, relationship registry, relationship table, target table, and target conditions.
 
 ## Before you begin
 

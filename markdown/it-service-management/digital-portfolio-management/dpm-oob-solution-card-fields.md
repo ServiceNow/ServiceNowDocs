@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Digital Portfolio Management reference, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Reference, Digital Portfolio Management, IT Service Management]
 ---
 
 # Digital Portfolio Management homepage default solution cards
@@ -18,7 +18,7 @@ Digital Portfolio Management uses certain fields to auto-generate a set of defau
 
 ## DPM homepage overview
 
-Each time that you log in to the DPM Workspace, the system uses certain fields to display a set of default solution cards. You can use the personalize option to add or remove solutions to your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+Each time that you log in to the DPM Workspace, the system uses certain fields to display a set of default solution cards. You can use the personalize option to add or remove solutions to your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 
 After you add or remove solutions, the DPM system remembers your updates in the **dpm\_home\_page\_item** table so that next time you log in to the DPM Workspace, your personalized homepage displays. The system no longer generates a set of default solution cards for you.
 
@@ -50,7 +50,7 @@ dpm.homepage.cmdb\_ci\_service\_limit
 
 </td><td>
 
-The query limit when auto-generating services, service offerings, and application services for your DPM homepage.
+The query limit when auto-generating services, service offerings, and service instances for your DPM homepage.
 
 </td><td>
 
@@ -89,7 +89,7 @@ You can personalize your DPM homepage to adjust the solution card count. For exa
 
 The DPM application uses certain fields to auto-generate a set of default solution cards to display when you first login to DPM \(before you personalize\).
 
-**Note:** Starting with the Yokohama release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technical service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technical service offering\).
+**Note:** Starting with the Brazil release, the \[cmdb\_ci\_service\_technical\] table is labeled Technology Management Service in the user interface \(formerly labeled Technology management service\). Additionally, the \[service\_offering\] table is labeled Technology Management Offering in the user interface \(formerly labeled Technology management service offering\).
 
 <table id="table_cft_ksw_2zb"><thead><tr><th>
 
@@ -154,7 +154,7 @@ cmdb\_ci\_business\_app
 
 </td></tr><tr><td>
 
-Application service
+Service instance
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Explore, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Technology Product Support case type
@@ -1010,7 +1010,7 @@ Field indicators and field highlights appear on the **Short description** field 
 -   Red: High severity
 -   Orange: Medium severity
 
- For more information, see [Administering case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/administer-case-account-escalation.md).
+ For more information, see [Case and account escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/customer-service-case-escalation.md).
 
 </td></tr></tbody>
 </table>## Automatically close technology product support cases

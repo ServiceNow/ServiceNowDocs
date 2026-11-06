@@ -1,16 +1,16 @@
 ---
-title: Enterprise Architecture \(formerly Application Portfolio Management\) use case
+title: Enterprise Architecture use case
 description: Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/apm-use-case-example.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework, Configure, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Enterprise Architecture and CSDM framework, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Enterprise Architecture \(formerly Application Portfolio Management\) use case
+# Enterprise Architecture use case
 
 Enterprise Architecture lets you define a single, version-agnostic entity that represents all instances, technologies, and data used for planning and reporting.
 
@@ -54,7 +54,7 @@ The CSDM framework provides a consistent data structure. This consistent data st
 
 Because of the way the CSDM framework is structured, you can leverage many products from ITOM, Service Management \(Service Portfolio Management\), and IT Application Management \(ITAM\).
 
-The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model identified in the CMDB, and matched with a software and hardware product model.
+The risks of using EOL technologies are calculated based on the life cycle of each software and hardware product model identified in the CMDB.
 
 You can enter the life-cycle data manually, import it from an external source, or use the data provided with your Software Asset Management Professional or Hardware Asset Management license.
 
@@ -66,10 +66,6 @@ The risks are calculated and displayed in a hierarchy. Business application is a
 2.  Application Service level — Displays the combined risk status of all underlying hardware and software product models used in the Application Service \(Instance\).
 3.  SDLC Component — Displays the SDLC components along with the associated application services and business applications
 4.  Business application level — Combines all the underlying Application Service \(Instances\) to determine the overall risk rating at a portfolio level.
-
-\[Omitted image "tpm-view-use-case-ba-sdlc-comp.png"\] Alt text: Technology Portfolio home page.
-
-\[Omitted image "tpm-view-use-case-ba-without-sdlc-comp.png"\] Alt text: Technology Portfolio home page.
 
 The following information is used to determine the EOL impact to business applications and their installed application services \(instances\):
 
@@ -86,5 +82,5 @@ The following information is used to determine the EOL impact to business applic
     The Software Model Life cycle table is named \[sam\_sw\_model\_lifecycle\].
 
 
-**Parent Topic:**[Enterprise Architecture \(EA\) \(formerlyApplication Portfolio Management\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-use-case-product-view.md)
+**Parent Topic:**[Enterprise Architecture \(EA\) and the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-use-case-product-view.md)
 

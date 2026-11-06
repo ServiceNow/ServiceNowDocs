@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations]
 ---
@@ -18,27 +18,27 @@ The Data Loss Prevention Incident Response \(DLP IR\) application enables you to
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_myz_gt3_b5c" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how analysts and administrators use DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/exploring-dlp.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how analysts and administrators use DLP Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/exploring-dlp.md)
 
 </td><td>
 
-[Install and Configure \[Omitted image "icon-set-up.png"\] Alt text: Installing and configuring the DLP Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/install-dlp.md)
+[Install and Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Installing and configuring the DLP Incident Response application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/install-dlp.md)
 
 </td><td>
 
-[Administer \[Omitted image "icon-manage.png"\] Alt text: Administration tasks on how to manage the DLP incidents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-administration.md)
+[Administer \[Omitted image "bus-optimize-manage.svg"\] Alt text: Administration tasks on how to manage the DLP incidents on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-administration.md)
 
 </td></tr><tr><td>
 
-[Use \[Omitted image "icon-use.png"\] Alt text: Update and manage incidents by leveraging the DLP End User Portal, DLP Ops Portal, and DLP Dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
+[Use \[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Update and manage incidents by leveraging the DLP End User Portal, DLP Ops Portal, and DLP Dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
 
 </td><td>
 
-[Integrate \[Omitted image "icon-integrate.png"\] Alt text: Extend DLP capabilities by integrating with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/dlp-integrations.md)
+[Integrate \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend DLP capabilities by integrating with third-party applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/dlp-integrations.md)
 
 </td><td>
 

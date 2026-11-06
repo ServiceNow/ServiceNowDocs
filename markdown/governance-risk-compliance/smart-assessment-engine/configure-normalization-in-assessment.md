@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Normalization in assessment, Scoring assessments, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Set up normalization for your assessment responses to adjust individual scores t
 
 ## Before you begin
 
--   Confirm that the smart assessment scoring plugin \[com.sn\_smart\_scoring\] is installed.
+-   The smart assessment scoring plugin \[com.sn\_smart\_scoring\] must be installed.
 -   Role required: sn\_smart\_asmt.template\_manager and sn\_smart\_asmt.assessment\_admin
 
 ## About this task
@@ -30,7 +30,12 @@ Set up normalization for your assessment responses to adjust individual scores t
 
 1.  Navigate to **Workspaces** &gt; **Assessment Workspace** to access the assessment workspace landing page.
 
-2.  Create an assessment or open an existing assessment template, which is in a draft state to configure normalization.
+2.  Create or open a draft assessment template in which you want to configure normalization.
+
+    |Option|Description|
+    |------|-----------|
+    |**New template**|Select **New template** on the Assessment Workspace landing page and fill in the template details. The new template opens in **Draft** state.|
+    |**Existing template**|Select an existing template from the Assessment Workspace landing page. The template must be in the **Draft** state to edit scoring or normalization settings.|
 
 3.  Select the **Scoring** tab.
 
@@ -40,7 +45,7 @@ Set up normalization for your assessment responses to adjust individual scores t
     -   The **Enable normalization for this template** option enables you to apply normalization rules at the section, subsection, and question levels.
 5.  To define default normalization values to be applied at section, subsection, and question levels automatically, select **Define default normalization to apply at different levels automatically** option and on the form, fill in the fields.
 
-    **Note:** The input fields shown below are specific to the default Linear normalization strategy. The fields may differ when using alternative normalization strategies.
+    **Note:** The input fields shown following are specific to the default Linear normalization strategy. The fields may differ when using alternative normalization strategies.
 
     |Field|Description|
     |-----|-----------|
@@ -59,9 +64,9 @@ Set up normalization for your assessment responses to adjust individual scores t
 
 6.  If the **Assessment score** option is selected, to use aggregate score at the assessment level, you can select **Use normalized score for aggregation**.
 
-    1.  To edit the normalization values for the assessment score, select edit \[Omitted image "pencil-outline-24.svg"\] icon and update normalization values.
+    1.  Select the edit \[Omitted image "edit-normalization.png"\] Alt text: icon to update normalization values for the assessment score.
 
-    2.  To delete the normalization values for the assessment score, select delete \[Omitted image "Form\_DeleteIcon.png"\] icon and select **Remove normalization**.
+    2.  Select the delete \[Omitted image "delete-normalization.png"\] Alt text: icon and select **Remove normalization**.
 
 7.  Select **Save**.
 
@@ -69,12 +74,16 @@ Set up normalization for your assessment responses to adjust individual scores t
 
 9.  To customize normalization values, select the specific section, subsection, or question you wish to update.
 
-    1.  To edit the normalization values for the assessment score, select edit \[Omitted image "pencil-outline-24.svg"\] icon and update normalization values.
+    1.  Select the edit \[Omitted image "edit-normalization.png"\] Alt text: icon to update normalization values for the assessment score.
 
-    2.  To delete the normalization values for the assessment score, select delete \[Omitted image "Form\_DeleteIcon.png"\] icon and select **Remove normalization**.
+    2.  Select the delete \[Omitted image "delete-normalization.png"\] Alt text: icon and select **Remove normalization**.
 
     Default normalization is automatically applied at multiple levels sections, subsections, and individual questions.
 
 10. Select **Save**.
 
+
+## Result
+
+Normalization is configured for the assessment template and applied at the specified levels.
 

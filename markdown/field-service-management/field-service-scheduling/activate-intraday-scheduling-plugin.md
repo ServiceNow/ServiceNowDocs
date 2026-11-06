@@ -1,20 +1,20 @@
 ---
 title: Activate intra-day schedule automation
-description: You can activate the Field Service Management Scheduling Automations plugin \(com.snc.sn\_app\_fsm\_scheduling\_flows\) for Field Service Management if you have the admin role. After the plugin is installed, three flow designer flows and nine subflows are added to your instance.
+description: You can activate the Field Service Management Scheduling Automations plugin \(sn\_fsm\_sched\_flws\) for Field Service Management if you have the admin role. After the plugin is installed, three flow designer flows and nine subflows are added to your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/activate-intraday-scheduling-plugin.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Intraday schedule automation, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Intraday schedule automation, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Activate intra-day schedule automation
 
-You can activate the Field Service Management Scheduling Automations plugin \(com.snc.sn\_app\_fsm\_scheduling\_flows\) for Field Service Management if you have the admin role. After the plugin is installed, three flow designer flows and nine subflows are added to your instance.
+You can activate the Field Service Management Scheduling Automations plugin \(sn\_fsm\_sched\_flws\) for Field Service Management if you have the admin role. After the plugin is installed, three flow designer flows and nine subflows are added to your instance.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ For more information, see [Intra-day schedule automation flows and subflows](htt
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Field Service Management Scheduling Automations plugin \(com.snc.sn\_app\_fsm\_scheduling\_flows\) using the filter criteria and search bar.
+2.  Find the Field Service Management Scheduling Automations plugin \(sn\_fsm\_sched\_flws\) using the filter criteria and search bar.
 
     You can search for the plugin by its name or ID. If you cannot find a plugin, you might have to request it from ServiceNow personnel.
 

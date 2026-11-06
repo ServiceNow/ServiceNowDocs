@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: reference
-last_updated: "2025-12-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---

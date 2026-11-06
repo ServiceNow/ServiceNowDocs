@@ -1,22 +1,22 @@
 ---
 title: Controlling Unified Map contents and appearance
-description: Manipulating the contents and layout of a map can greatly assist with understanding and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
+description: Manipulating the contents and layout of a map can greatly assist with envisioning and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/unified-map/unified-map-appearance.html
 release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Controlling Unified Map contents and appearance
 
-Manipulating the contents and layout of a map can greatly assist with understanding and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
+Manipulating the contents and layout of a map can greatly assist with envisioning and optimizing your CMDB. You can control which elements appear on the map, isolate and analyze relationships between CIs, and simplify the map to isolate issues.
 
-**Important:** This topic describes changes that you can make to your view of the map. The changes do not affect other users. In contrast, administrators can configure general settings that affect all users in the workspace, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md).
+**Important:** This topic describes changes that you can make to your view of the map. The changes do not affect other users. In contrast, administrators can configure general settings that affect all users in the workspace, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md).
 
 ## Save a map as a PDF document
 
@@ -44,7 +44,7 @@ The home node is the CI that all other CIs on the map are associated with, direc
 
  -   Use the **Search** box to find and select a CI.
 
--   Right-click a node on the map and select **Set as home node**.
+-   Select and hold \(or right-click\) a node on the map and select **Set as home node**.
 
  **Note:** Connecting lines between nodes represent relationships and references, not data flow.
 
@@ -67,14 +67,14 @@ Configure a filter to display only pertinent items
 
 Select the Filter icon \[Omitted image "icon-um-filter.png"\]
 
--   When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that do not apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of precedence from the various sources is as follows:
-    1.  user presets
-    2.  shared presets
-    3.  shared presets that are defined in a **Unified Map shared presets** profile
-    4.  class profile \(Class profiles are defined in the **Node Map Profiles** related list and contain only layer settings\)
--   Filter conditions that would filter out the home node might appear in the panel. You can't, however, filter out the home node even if it does not match the filter conditions.
+ When a user applies a shared preset or a user preset, all filter settings are overridden. Filter attributes from a shared preset or a user preset that don't apply to the current map are listed in the **Unused filter attributes** section of the filter panel. The order of filter-setting precedence from the various sources is as follows:
 
- **Note:** Filter settings that would filter out the home node might appear in the list. You can't, however, filter out the home node even if it does not match the filter settings.
+1.  user presets
+2.  shared presets
+3.  shared presets that are defined in a **Unified Map shared presets** profile
+4.  class profile \(Class profiles contain only layer settings and are defined in the **Node Map Profiles** related list.\)
+
+ **Note:** Filter settings that would filter out the home node might appear in the list. You can't, however, filter out the home node even if it meets filter settings.
 
  For more information, see [Use filters to specify which nodes should appear on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/unified-map-configure-filters.md).
 
@@ -96,7 +96,7 @@ Show complete CI details
 
 Select a CI \(CI border thickens\) to display its details in the **Overview**, **Attributes**, **Service instances**,**Related items**, or **Changes** panel.
 
- For group CIs, such as an service instanceor a dynamic CI group, the **Attributes** panel also shows detail cards for the CIs that are members of the group.
+ For group CIs, such as a service instanceor a dynamic CI group, the **Attributes** panel also shows detail cards for the CIs that are members of the group.
 
 </td></tr><tr><td>
 
@@ -130,7 +130,7 @@ Highlight the relationships between CIs
 
 </td><td>
 
-Point to a CI to animate the connections between CIs.
+Point to a CI to animate the connections between CIs. Connected nodes are highlighted for a few seconds.
 
  Two CIs might be connected by one or more relationships \(stored in the CI Relationship \[cmdb\_rel\_ci\] table\). For example, two CIs might be connected by the **Runs On::Runs**, **Depends On::Discovered From**, and by the **Owned By::Owns** relationships.
 
@@ -150,7 +150,7 @@ The Service Mapping app might use mapped application services. Mapped applicatio
 
  -   A badge shows the number of members in the group.
 -   Select the badge to expand the group and show its member CIs. Select again to collapse.
--   In the expanded mode, point to any member CI to temporarily highlight all group members.
+-   In the expanded mode, move to any member CI to temporarily highlight all group members.
 
 </td></tr><tr><td>
 
@@ -240,7 +240,7 @@ Show CI key details on the map
 
 </td><td>
 
-Point to a CI to show its full name and class \(or zoom into the map until those details appear\), its related items details, and the direction of the CI relationships. If there are multiple related items associated with a CI, then the CI badge contains the string 'Multiple' and a badge showing the count of related items appears on the timeline. You can point to the badge on the timeline to show all related items.
+Move to a CI to show its full name and class \(or zoom into the map until those details appear\), its related items details, and the direction of the CI relationships. If there are multiple related items associated with a CI, then the CI badge contains the string 'Multiple' and a badge showing the count of related items appears on the timeline. You can move to the badge on the timeline to show all related items.
 
 </td></tr><tr><td>
 

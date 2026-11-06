@@ -5,12 +5,19 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/individual-life-servicing-reference.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Individual Life Servicing, Individual Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Individual Life Servicing reference
 
 Learn about the components, such as the roles, tables, plugins, and store applications, that are installed when you install the Individual Life Servicing application.
+
+-   **[Components installed with Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-individual-life-servicing.md)**  
+Several types of components are installed with activation of the Individual Life Servicing plugin, including tables and user roles.
+-   **[Components installed with Individual Life Underwriting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-individual-life-underwriting.md)**  
+Several types of components are installed with activation of the Individual Life Underwriting plugin, including tables and user roles.
+
+**Parent Topic:**[Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/individual-life-servicing.md)
 

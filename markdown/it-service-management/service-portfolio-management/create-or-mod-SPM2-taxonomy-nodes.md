@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Service Portfolio Management taxonomy, Create portfolios, Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Service Portfolio Management taxonomy, Create a portfolio, Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Create taxonomy nodes
@@ -147,7 +147,7 @@ Most recent performance score for this node. The performance score is calculated
 
     Depending on the type of node, whether it is a leaf node or a non-leaf node, related lists display the following associated data.
 
-<table id="choicetable_wpd_xth_ygb"><tbody><tr><td id="d283854e318">
+<table id="choicetable_wpd_xth_ygb"><tbody><tr><td id="d103331e315">
 
 **Taxonomy Nodes**
 
@@ -155,7 +155,7 @@ Most recent performance score for this node. The performance score is calculated
 
 List of all associated child nodes. You can edit an existing child node by selecting a Taxonomy Node name. Create a new child node by clicking **New** and completing the **Taxonomy Node** form.
 
-</td></tr><tr><td id="d283854e333">
+</td></tr><tr><td id="d103331e330">
 
 **Services**
 

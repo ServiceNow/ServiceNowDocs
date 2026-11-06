@@ -7,7 +7,7 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [On-Call Scheduling, IT Service Management]
 ---
@@ -32,6 +32,8 @@ As a rota\_manager or rota\_admin you can perform most of these tasks for the me
 Configure an On-Call calendar subscription URL and send it to the members of a shift. The URL is an iCal link that enables users to subscribe to their on-call calendar from their preferred calendar client.
 -   **[Configure preferences for a user group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/config-group-prefs-oncall.md)**  
 Specify the On-Call preferences for a user group.
+-   **[Configure On-Call communication channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/config-oncall-communication-channel.md)**  
+Configure notification messages sent from a communication channel for on-call escalations. You can customize the notification content, the response keywords, table and the domain they apply, for a specific channel available in the base system such as Email and Microsoft Teams or a custom channel that is created.
 -   **[Override contact preferences for a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/override-contact-prefs-oncall.md)**  
 Override all shift members' contact preferences to enforce a communication channel, for example, in case of an emergency.
 -   **[Configure or update an On-Call shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/config-update-shift-oncall.md)**  

@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-06-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Avoid unauthorized or undesired access to application data by enforcing application-specific access control lists \(ACLs\) only for application data.
 
-Control the behavior of application data residing in primary tables outside the application. When these properties have a value of **true**, only the application-specific ACLs are evaluated for access to the application data residing in these tables. Not all applications are designed to work in this configuration or use a System Property \[sys\_properties\] record for this purpose.
+Enforce application-specific ACLs for application data residing in primary tables outside the application. When these properties have a value of **true**, only the application-specific ACLs are evaluated for access to the application data residing in these tables. Not all applications are designed to work in this configuration or use a System Property \[sys\_properties\] record for this purpose.
 
 These system properties use the **glide.enforce\_security\_scope.&lt;scope&gt;** naming format. For example, use the **glide.enforce\_security\_scope.sn\_hr\_sp** property for the Employee Center Core \(sn\_hr\_sp\) scope. The following application scopes contain this property:
 
@@ -37,6 +37,7 @@ These system properties use the **glide.enforce\_security\_scope.&lt;scope&gt;**
 
 -   sn\_hc\_professional
 -   sn\_hr\_agent\_ws
+-   sn\_hr\_ai\_agents
 -   sn\_hr\_awa
 -   sn\_hr\_core
 -   sn\_hr\_ef
@@ -44,11 +45,13 @@ These system properties use the **glide.enforce\_security\_scope.&lt;scope&gt;**
 -   sn\_hr\_gen\_ai
 -   sn\_hr\_hc
 -   sn\_hr\_le
--   sn\_hr\_le\_ent
+-   sn\_hr\_ra
 
 </td><td>
 
+-   sn\_hr\_le\_ent
 -   sn\_hr\_mii\_base
+-   sn\_hr\_na\_galileo
 -   sn\_hr\_pad
 -   sn\_hr\_pj
 -   sn\_hr\_sp
@@ -57,10 +60,10 @@ These system properties use the **glide.enforce\_security\_scope.&lt;scope&gt;**
 -   sn\_imt\_health\_test
 -   sn\_imt\_tracing
 -   sn\_imt\_vaccine
--   sn\_ja
 
 </td><td>
 
+-   sn\_ja
 -   sn\_jny
 -   sn\_lg\_contracts
 -   sn\_lg\_matter
@@ -68,18 +71,26 @@ These system properties use the **glide.enforce\_security\_scope.&lt;scope&gt;**
 -   sn\_opp\_market
 -   sn\_professional
 -   sn\_svc\_appl\_info
+-   sn\_svc\_appl\_pgm\_mg
+-   sn\_talent\_aia
 -   sn\_uni\_req
 -   sn\_uni\_task
+-   sn\_egd\_lh
+-   sn\_ecn
+-   sn\_ni\_core
+-   sn\_hr\_voice\_aia
+-   sn\_tf
+-   sn\_lco\_cmn
 
 </td></tr></tbody>
-</table>For each application installed with the **glide.enforce\_security\_scope** property in the System Properties \[sys\_properties\] table, \(for example, **glide.enforce\_security\_scope.sn\_hr\_core**\), ensure the property value is set to **true**.
+</table>For each application installed with the **glide.enforce\_security\_scope** property in the System Properties \[sys\_properties\] table, \(for example, **glide.enforce\_security\_scope.sn\_hr\_core**\), verify the property value is set to **true**.
 
 **Note:** These properties can only be modified by the scoped administrator for the specific application. If a sys\_properties record does not exist for the given application and respective property, it must be created.
 
-Use this script can to find which properties need to be updated or created on the instance:
+Use this script can to find which properties must be updated or created on the instance:
 
 ```
-	var properties = [
+var properties = [
         'glide.enforce_security_scope.sn_uni_task',
         'glide.enforce_security_scope.sn_uni_req',
         'glide.enforce_security_scope.sn_svc_appl_info',
@@ -123,10 +134,16 @@ Use this script can to find which properties need to be updated or created on th
         'glide.enforce_security_scope.sn_hr_na_galileo',
         'glide.enforce_security_scope.sn_svc_appl_pgm_mg',
         'glide.enforce_security_scope.sn_hr_ai_agents',
-        'glide.enforce_security_scope.sn_hr_mii_base'
+        'glide.enforce_security_scope.sn_egd_lh',
+        'glide.enforce_security_scope.sn_ecn',
+        'glide.enforce_security_scope.sn_ni_core',
+        'glide.enforce_security_scope.sn_hr_voice_aia',
+        'glide.enforce_security_scope.sn_hr_ra',
+        'glide.enforce_security_scope.sn_tf',
+        'glide.enforce_security_scope.sn_lco_cmn'
     ];
 	
-    var pm = new GlidePluginManager();
+var pm = new GlidePluginManager();
 
     for (var i = 0; i < properties.length; i++) {
         var property = properties[i];
@@ -199,6 +216,14 @@ Category
 
 </td></tr><tr><td>
 
+Functional impact
+
+</td><td>
+
+Users who aren't actively using the application may not have access to application data residing in scope main tables. Not all applications are designed to work in this configuration or include a **sys\_properties** record for this feature.
+
+</td></tr><tr><td>
+
 Security risk
 
 </td><td>
@@ -216,7 +241,7 @@ Dependencies and prerequisites
 None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

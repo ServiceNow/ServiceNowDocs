@@ -1,18 +1,18 @@
 ---
 title: Create product offerings
-description: Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings are available to agents as they create leads, opportunities, quotes, and orders.
+description: Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings are available to agents as they create leads, opportunities, quotes, and orders and to customers placing orders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-product-offering.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-23"
-reading_time_minutes: 6
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create product offerings
 
-Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings are available to agents as they create leads, opportunities, quotes, and orders.
+Create and publish a product offering in Sales Customer Relationship Management. Product offerings represent entities that are orderable from the provider of the catalog and includes pricing information. Once published, product offerings are available to agents as they create leads, opportunities, quotes, and orders and to customers placing orders.
 
 ## Before you begin
 
@@ -20,13 +20,15 @@ Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_manag
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  Navigate to **Offerings** &gt; **Product Offerings** and select **New**.
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+
+3.  Navigate to **Offerings** &gt; **Product Offering** and select **New**.
 
     **Note:** You can also create a product offering from the product specification.
 
-3.  In the Details tab, fill in the fields.
+4.  In the Details tab, fill in the fields.
 
 <table id="table_customer_order_workspace"><thead><tr><th>
 
@@ -62,25 +64,19 @@ Name of the product offering to be added.
 
 </td></tr><tr><td>
 
-Offering type
+Code
 
 </td><td>
 
-Type of product offer. Select one of the following:-   Product: A product entity that an agent can add to a lead, opportunity, quote, or order from the CRM Workspace.
--   Entitlement: An entity such as a warranty or subscription that can be added to a lead, opportunity, quote, or order by an agent.
-
+System-generated alphanumeric number based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry-specific product codes.
 
 </td></tr><tr><td>
 
-Offering sub-type
+Product family
 
 </td><td>
 
-Type of entitlement. Select one of the following:-   Warranty
--   Extended warranty
--   License
--   Subscription
-
+The product offering family to which this product belongs. Select the product offering family, which is a collection of products that share similar or common features. A product offering can belong to a single family only.
 
 </td></tr><tr><td>
 
@@ -88,7 +84,37 @@ Sellable
 
 </td><td>
 
-Option indicating that the product offering can be sold as a standalone item. If selected, the product offering can be sold as a standalone item. If not selected, the product offering can be sold as part of bundle but not as a standalone item.
+Option, if selected, indicates that the product offering can be sold as a standalone item. If not selected, the product offering can be sold as part of bundle but not as a standalone item.
+
+</td></tr><tr><td>
+
+Configuration Status
+
+</td><td>
+
+Indicates the status of the product offering: -   None: The product offering is not configured. This is the default value.
+-   Creating: Creation of the product offering in ServiceNow CPQ Administration is in progress.
+-   Created: The product offering is created in ServiceNow CPQ Administration and is available as a blueprint.
+-   Error: An error occurred while creating blueprint for the product offering in ServiceNow CPQ Administration.
+
+
+</td></tr><tr><td>
+
+Configurable
+
+</td><td>
+
+Option that indicates the product is customizable and can be configured by agents and customers using the CPQ Configurator, if implemented in your organization. For more information, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-servicenowcpq.md).
+
+</td></tr><tr><td>
+
+Allow multiple configurations
+
+</td><td>
+
+Option that enables agents or customers to create and manage multiple configurations of a child product offering so each configuration can be handled as a separate line item in a configurable product. **Note:** If the product has an associated product specification, this option is enabled automatically and can't be deselected.
+
+For more information on how multiple configurations work in configurable products, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/multiple-child-offering-configurations.md).
 
 </td></tr><tr><td>
 
@@ -98,7 +124,7 @@ Transient
 
 Option indicating that the product is for one-time use. **Note:** When the order for a transient product is completed, the sold product or product inventory record for the product is set to an Inactive state, to differentiate the product from persistent products.
 
--   Move, Add, Change, Delete \(MACD\) actions can't be performed on the sold product or product inventory records of transient product offerings.
+-   Move, Add, Change, Disconnect \(MACD\) actions can't be performed on the sold product or product inventory records of transient product offerings.
 -   The **Create contract** option is not applicable to transient product offerings.
 For more information on transient products, see [Defining transient products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-transient-products.md).
 
@@ -108,23 +134,31 @@ Description
 
 </td><td>
 
-Short description of the product offering. The description helps the order agent understand the product when creating a lead, opportunity, quote, or order.
+Short description of the product offering. The description helps the agent identify the product when creating a lead, opportunity, quote, or order.
 
 </td></tr><tr><td>
 
-Start Date
+State
 
 </td><td>
 
-Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the start date and time, then select **OK**.
+State of the product offering. States include In Draft, Published, Retired, and Archived. You can update product offerings In Draft state.
 
 </td></tr><tr><td>
 
-End Date
+Start date
 
 </td><td>
 
-Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \(\[Omitted image "field-calendar.png"\] Alt text: Calendar icon.\) to choose the end date and time, then select **OK**.
+Date and time that the product offering is available for Sales Customer Relationship Management applications. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the start date and time, then select **OK**.
+
+</td></tr><tr><td>
+
+End date
+
+</td><td>
+
+Date and time that the product offering is deleted from Sales Customer Relationship Management applications. Select the Calendar icon \[Omitted image "field-calendar.png"\] Alt text: to choose the end date and time, then select **OK**.
 
 </td></tr><tr><td>
 
@@ -166,29 +200,11 @@ Person responsible for the product offering.
 
 </td></tr><tr><td>
 
-Code
-
-</td><td>
-
-System-generated alphanumeric number based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry-specific product codes.
-
-</td></tr><tr><td>
-
-Allow multiple configurations
-
-</td><td>
-
-Option that enables agents or customers to create and manage multiple configurations of a child product offering so that each configuration can be handled as a separate line item in the configurable product. **Note:** If the product has an associated product specification, this option is enabled automatically and can't be deselected.
-
-For more information on how multiple configurations work in configurable products, see [Multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/multiple-child-offering-configurations.md).
-
-</td></tr><tr><td>
-
 Product specification
 
 </td><td>
 
-Functional view of a product offering that drives order fulfillment. If applicable, select a product specification.
+Functional view of a product offering that drives order fulfillment. Select the product specification associated with the product offering. **Note:** Only published specifications appear.
 
 </td></tr><tr><td>
 
@@ -196,7 +212,57 @@ Product model
 
 </td><td>
 
-Name of the product model associated with this product offering.
+Name of the product model.
+
+</td></tr><tr><td>
+
+Copy child specification characteristics
+
+</td><td>
+
+Option that when selected copies all child specification characteristics in a specification hierarchy. For example, if the product offer has an associated product specification, this option indicates that the characteristics are inherited from the child specifications in addition to the parent specification.This field displays when a product specification for a composite product is entered and the product offering is saved.
+
+</td></tr><tr><td>
+
+Pricing method
+
+</td><td>
+
+Pricing method for the product:-   One-time: A single fee for the product.
+-   Recurring: A fee that occurs at scheduled intervals. You can set the **Periodicity** for a recurring fee.
+**Note:** If you're creating a configurable product offering that can have ramps, select Recurring as the **Pricing method** so that the **Enable ramps** option can be selected.
+
+</td></tr><tr><td>
+
+Periodicity
+
+</td><td>
+
+Recurring pricing: Monthly or annually.
+
+</td></tr><tr><td>
+
+Monthly recurring charges
+
+</td><td>
+
+Charges that are applied monthly.
+
+</td></tr><tr><td>
+
+Non recurring charges
+
+</td><td>
+
+Charges that are applied once. Supported for backward compatibility. Use price lists to define prices.
+
+</td></tr><tr><td>
+
+Enable ramps
+
+</td><td>
+
+Option that enables the ramp feature, where sales agents can create ramps for transaction lines, such as quotes, to schedule price and quantity increases over certain time periods. To learn more, see [Price and quantity ramps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/defining-products-with-ramps.md).
 
 </td></tr><tr><td>
 
@@ -204,7 +270,7 @@ Create contract
 
 </td><td>
 
-Option indicating to agents that entitlement contracts can be added to the product opportunity, quote, or order. If selected, service contracts are created after order fulfillment. Used when entitlements are managed as contracts.**Note:** For transient product offerings, this option isn’t available.
+Option indicating to agents that entitlement contracts can be added to the product order. If selected, service contracts are created after order fulfillment. Used when entitlements are managed as contracts.**Note:** For transient product offerings, this option isn’t available.
 
 </td></tr><tr><td>
 
@@ -218,72 +284,6 @@ Length of the contract:-   12 months
 -   48 months
 -   60 months
 
-
-</td></tr><tr><td>
-
-Pricing method
-
-</td><td>
-
-Pricing method for the product:-   One-time: A single fee for the product.
--   Recurring: A fee that occurs at scheduled intervals. You can set the periodicity for a recurring fee.
-
-
-</td></tr><tr><td>
-
-Periodicity
-
-</td><td>
-
-Recurring pricing: Monthly or annually.
-
-</td></tr><tr><td>
-
-Copy child specification characteristics
-
-</td><td>
-
-Option that when selected copies all child specification characteristics in a specification hierarchy. For example, if the product offer has an associated product specification, selecting this option indicates that the characteristics are inherited from the child specifications in addition to the parent specification.This option is displayed when a product specification for a composite product is entered and the product offering is saved.
-
-</td></tr><tr><td>
-
-Offering Catalog
-
-</td><td>
-
-Catalog that contains the product offering.
-
-</td></tr><tr><td>
-
-Distribution channel
-
-</td><td>
-
-Option to set and lock in a distribution channel. For example, you can specify web as a channel. You can specify multiple channels.If you're using the Service Exchange Order Management for Providers application, enter Service Exchange.
-
-</td></tr><tr><td>
-
-Monthly recurring charges
-
-</td><td>
-
-Charges that recur every month. Monthly recurring charges are supported for backward compatibility. Use price lists to define prices.
-
-</td></tr><tr><td>
-
-Non recurring charges
-
-</td><td>
-
-Charges that are applied once. Supported for backward compatibility. Use price lists to define prices.
-
-</td></tr><tr><td>
-
-Code
-
-</td><td>
-
-System-generated alphanumeric number based on the product name. Although system generated, you can edit the code to represent a SKU or any other industry-specific product codes.
 
 </td></tr><tr><td>
 
@@ -310,7 +310,7 @@ Previous version
 Several versions of a product offering can exist. This field lets you view previous versions.
 
 </td></tr></tbody>
-</table>4.  Select **Save** and then select **Publish**.
+</table>5.  Select **Save** and then select **Publish**.
 
 
 ## What to do next
@@ -322,4 +322,11 @@ Several versions of a product offering can exist. This field lets you view previ
 -   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-add-unit-of-measure.md)
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-relationship-groups.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

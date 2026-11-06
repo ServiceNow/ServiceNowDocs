@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure an event handler manually
@@ -24,7 +24,7 @@ Role required: ui\_builder\_admin
 
 An event handler lets you configure an action, components, data resource, or declarative action on your page. For example, you can map an event to your page to add an alert notification when the page successfully loads or you can add an event handler for a button component to perform an action when a user clicks it. The event handler could also be a modal on your page that asks a user to verify that the user wants to delete the record. For more information, see [Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md).
 
-**Note:** You can also use Now Assist in UI Builder to configure event handlers. For more, information, see [Configure an event handler with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/configure-an-event-handler-with-now-assist.md)
+**Note:** You can also use Now Assist in UI Builder to configure event handlers. For more, information, see [Configure an event handler with ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-creator/configure-an-event-handler-with-now-assist.md)
 
 ## Procedure
 
@@ -50,15 +50,9 @@ An event handler lets you configure an action, components, data resource, or dec
 
     Some components, such as the button component, only have one event mapping. Other components can have many events.
 
-    \[Omitted image "event-handler-mapping-button.png"\] Alt text: Arrow pointing to add event mapping option.
-
 7.  Select an event mapping that you want to configure from the list.
 
-    \[Omitted image "event-handler-list.png"\] Alt text: List of available event mappings.
-
 8.  From the Event handler preview screen, select an action that you want assigned to the component.
-
-    \[Omitted image "event-handler-select-list.png"\] Alt text: "View All" click event selected from the event list.
 
 9.  Select **Continue**.
 
@@ -82,8 +76,6 @@ An event handler lets you configure an action, components, data resource, or dec
 ## Result
 
 The configured event handler displays in the events tab of the configuration panel.
-
-\[Omitted image "event-handler-result.png"\] Alt text: Configured event mapping for clear alert notifications.
 
 **Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md)
 

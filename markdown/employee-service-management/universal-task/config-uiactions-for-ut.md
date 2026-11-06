@@ -7,9 +7,9 @@ release: yokohama
 product: Universal Task
 classification: universal-task
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring your service for Universal Task, Setting up and configuring Universal Task, Universal Task, Employee Service Management]
+breadcrumb: [Configuring your service, Setting up and configuring Universal Task, Universal Task, Employee Service Management]
 ---
 
 # Create UI actions for your service with Universal Task
@@ -53,6 +53,8 @@ Administrators and users with the ui\_action\_admin role can define UI actions. 
     action.openGlideRecord(gr);
     action.setReturnURL(current);
     ```
+
+    **Important:** This script belongs in the Script field \(server-side\) of the UI Action. Do not copy it into the **Workspace Client Script** field unless you want additional client-side behavior in Workspace.
 
 8.  On the **Workspace** tab, select the **Workspace Form Button** check box.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Real time anonymization, Data privacy \(Store\), Data Privacy, Platform Privacy]
+breadcrumb: [Real time anonymization, Data privacy, Data Privacy, Platform Privacy]
 ---
 
 # Real time anonymization failures

@@ -1,5 +1,5 @@
 ---
-title: Check gRPC and network connectivity on the MID Server
+title: Check gRPC and network connectivity for Health Log Analytics on the MID Server
 description: Verify that Health Log Analytics can function properly by performing diagnostic tests on the MID Server to check gRPC and network connectivity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-grpc-connectivity-check.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, gRPC, connection]
-breadcrumb: [Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Check gRPC and network connectivity on the MID Server
+# Check gRPC and network connectivity for Health Log Analytics on the MID Server
 
 Verify that Health Log Analytics can function properly by performing diagnostic tests on the MID Server to check gRPC and network connectivity.
 
@@ -27,7 +27,7 @@ Your organization's network and security configuration may be keeping Health Log
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **MID Servers** &gt; **Servers**.
+1.  Navigate to **All** &gt; **MID Server** &gt; **Servers**.
 
 2.  Open the relevant MID Server record.
 
@@ -42,5 +42,5 @@ Your organization's network and security configuration may be keeping Health Log
 5.  Select **Test gRPC connection** again and confirm that all the tests are completed successfully.
 
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

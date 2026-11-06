@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a Cloud file configuration record, Create a Cloud file configuration on engagements and audit tasks, Manage your documents and work papers with Audit Management as cloud files, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud File Configuration, Cloud File Access Setup, Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Cloud file configuration record form
@@ -102,15 +102,19 @@ File location type
 
 </td><td>
 
-Default document library in the Microsoft SharePoint site where the files will be uploaded.
+Type of Microsoft SharePoint location where the files are uploaded. The default option is **Site**.-   **Site**: Files are uploaded to the default document library in the Microsoft SharePoint site.
+-   **Drive**: Files are uploaded to a specific document library within a Microsoft SharePoint site.
 
 </td></tr><tr><td>
 
-Field location ID
+File location ID
 
 </td><td>
 
-ID of the selected file location type mentioned in the **File location type** field.
+ID of the location that you selected in the **File location type** field.-   For **Site**, enter the site ID in the format `hostname,siteCollectionId,siteId`, with no spaces.
+-   For **Drive**, enter the ID of the document library.
+
+For steps to find the ID, see [Find the File location ID for a Cloud file configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/get-sharepoint-file-location-id.md).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 

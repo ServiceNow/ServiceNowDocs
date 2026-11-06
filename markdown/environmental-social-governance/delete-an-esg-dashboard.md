@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/delete-an-esg-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Monitoring assessment data using Operational Sustainability Management dashboards, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Delete an Operational Sustainability Management dashboard
@@ -24,7 +24,7 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
 
 1.  Navigate to **All** &gt; **Operational Sustainability Management** &gt; **Operational Sustainability Workspace** &gt; **Analytics dashboard**.
 
-2.  Select the Analytics dashboard icon and then select the dashboard that you want to delete.
+2.  Select the Analytics dashboard icon \[Omitted image "dashboard-icon.png"\] Alt text: and then select the dashboard that you want to delete.
 
 3.  From the More actions menu \[Omitted image "more-menu.png"\] Alt text:, select**Delete**.
 
@@ -37,5 +37,5 @@ Role required: sn\_esg.data\_owner, sn\_esg.metrics\_manager
     3.  Select the More actions icon \[Omitted image "more-menu.png"\] Alt text: and choose **Repair**.
     4.  Select **Repair** in the Activate Plugin window.
 
-**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management \(formerly ESG\) dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.md)
+**Parent Topic:**[Monitoring assessment data using Operational Sustainability Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/monitor-data-using-esg-dashboards.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Install Workplace Visitor Management
-description: Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the ServiceNow Store website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
+description: Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-visitor-management/install-workplace-visitor-mgmt.html
 release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Install Workplace Visitor Management
 
-Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install the Workplace Visitor Management application from ServiceNow Store applications. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Before you begin
 
@@ -55,7 +55,7 @@ Use the following details when required:
 6.  Click **Install**.
 
 
-**Parent Topic:**[Configure Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
@@ -64,7 +64,13 @@ Use the following details when required:
 
 [Create a record producer for visitor management]()
 
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
 [Create a visitor badge template]()
+
+[Configure the frequency of email notifications]()
 
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

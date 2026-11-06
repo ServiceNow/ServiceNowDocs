@@ -1,32 +1,45 @@
 ---
 title: Access ServiceNow Studio
-description: Access ServiceNow Studio from the ServiceNow AI Platform All menu or from App Engine Studio.
+description: Open ServiceNow Studio from the ServiceNow AI Platform All menu or directly from App Engine Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/access-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Access ServiceNow Studio
 
-Access ServiceNow Studio from the ServiceNow AI Platform All menu or from App Engine Studio.
+Open ServiceNow Studio from the ServiceNow AI Platform All menu or directly from App Engine Studio.
 
-## Open ServiceNow Studio through the All menu
+## How do I open ServiceNow Studio from the All menu?
 
-On the platform, navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio** or search in the filter navigator for `ServiceNow Studio`. Open the application directly from the search results. You can also favorite ServiceNow Studio for quick access from the **Favorites** tab.
+Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**, or search for `ServiceNow Studio` in the filter navigator and open it from the search results. To access ServiceNow Studio faster, add it to your **Favorites** tab.
 
 \[Omitted image "sn-studio-all-menu.png"\] Alt text: Search for and select ServiceNow Studio from the All menu.
 
-## Open ServiceNow Studio from App Engine Studio
+## How do I open ServiceNow Studio from a record on the ServiceNow AI Platform
 
-If you're creating apps in App Engine Studio \(AES\) and want a more advanced app development environment to work in, you can open your app in ServiceNow Studio. When you open your app in AES, a banner appears with information about ServiceNow Studio. Select **Try it out** to open your app in ServiceNow Studio.
+Platform records that extend \[sys\_metadata\] can be opened and edited directly in ServiceNow Studio through one of the following methods:
 
-**Note:** Admins can configure whether this banner shows up on their instance in App Engine Studio by changing the value of the **show\_servicenow\_studio\_banner** system property.
+-   On the metadata record, select the **Open Studio** button, or the open in Studio icon \[Omitted image "sn-studio-open-in-studio-icon.png"\] Alt text:.
 
-\[Omitted image "sn-studio-entry-aes.png"\] Alt text: Try opening and editing your app in ServiceNow Studio for a more advanced app development experience.
+    \[Omitted image "sn-studio-open-in-studio.png"\] Alt text: Open Studio using either option on the metadata record.
+
+-   On the metadata record, select and hold \(or right-click\) in the top form header bar, and select **Configure**. Select any option below All, and ServiceNow Studio opens.
+
+    \[Omitted image "sn-studio-right-click-config.png"\] Alt text: Select a configuration option for the record to open it in ServiceNow Studio.
+
+
+## How do I open ServiceNow Studio from App Engine Studio?
+
+When you need a more advanced development environment for an app you are building in App Engine Studio \(AES\), open the app directly in ServiceNow Studio. A banner appears in AES with information about ServiceNow Studio. Select **Try it out** to open your app in ServiceNow Studio.
+
+\[Omitted image "sn-studio-entry-aes.png"\] Alt text: Access ServiceNow Studio directly from within App Engine Studio.
+
+**Note:** Admins can control whether this banner appears by changing the value of the **show\_servicenow\_studio\_banner** system property.
 

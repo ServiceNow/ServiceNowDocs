@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -45,7 +45,7 @@ Use the Non-monetary Benefit Plan form to specify the potential non-financial be
 -   **[Recalculate resource costs form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/recalculate-resource-costs-form.md)**  
 Use the recalculate resource costs form to make sure that the resource assignment costs are up to date.
 -   **[Request change form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/request-change-form.md)**  
-Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost or schedule.
+Use the request change form to change the metrics of a demand, such as demand scope, resource requirement, cost, or schedule.
 -   **[Requirement form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/requirement-form.md)**  
 Use the requirement form to add a new requirement to a demand.
 -   **[Risk form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/risk-form.md)**  

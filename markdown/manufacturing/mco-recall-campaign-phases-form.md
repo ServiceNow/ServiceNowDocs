@@ -1,37 +1,116 @@
 ---
-title: Recall campaign phases form
-description: Recall claims form enables you to add the recall campaign phases details.
+title: Recall campaign phase form
+description: The recall campaign phase form enables you to add the recall campaign phases details.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-recall-campaign-phases-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
-# Recall campaign phases form
+# Recall campaign phase form
 
-Recall claims form enables you to add the recall campaign phases details.
+The recall campaign phase form enables you to add the recall campaign phases details.
 
-|Fields|Description|
-|------|-----------|
-|Number|Recall campaign phase number that is automatically generated. The number starts with RCPPH.|
-|Name|Recall campaign phase name.|
-|Planned start date|Planned start date of the recall campaign.|
-|Planned end date|End date of the recall campaign.|
-|Recall campaign|Recall campaign name.|
-|State|State of the recall campaign phase. This field is automatically set to draft.|
-|Assignment group|Assignment group of the phase owner who is responsible for this Phase.|
-|Assigned to|Name of the person to assign the recall campaign phase.|
-|Impacted asset eligibility|List of assets that are impacted.|
-|Dealer visibility|Service organization criteria to whom this recall campaign phase is visible.|
-|Description|Brief description about the recall campaign phase.|
+<table id="table_sdt_5jj_wfc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+Recall campaign phase number is the recall campaign record number for which sub-phase is being created. The number starts with RCPPH.
+
+</td></tr><tr><td>
+
+Name
+
+</td><td>
+
+Recall campaign phase name.
+
+</td></tr><tr><td>
+
+Planned start date
+
+</td><td>
+
+Planned start date of the recall campaign.**Note:** For sub-phase, start date cannot be before the parent phase start date.
+
+</td></tr><tr><td>
+
+Planned end date
+
+</td><td>
+
+End date of the recall campaign.**Note:** For sub-phase, end date cannot be later then the parent phase end date.
+
+</td></tr><tr><td>
+
+Parent phase
+
+</td><td>
+
+Parent phase to which sub-phases \(child phases\) can be associated.To make the current recall phase as parent phase, leave it empty.
+
+If you are creating a sub-phases for a specific phase, then that parent phase name will be displayed.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+State of the recall campaign phase. This field is automatically set to draft.
+
+</td></tr><tr><td>
+
+Assignment group
+
+</td><td>
+
+Assignment group of the phase owner who is responsible for this Phase.
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+Name of the person to assign the recall campaign phase.
+
+</td></tr><tr><td>
+
+Dealer visibility
+
+</td><td>
+
+Service organization criteria to whom this recall campaign phase are visible.For sub-phase, dealer visibility criteria will be copied from the parent phase, and it can be modified.
+
+**Note:** For Dealer visibility setup information, see [Create the criteria for a service organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/create-service-organization-criteria.md).
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Brief description about the recall campaign phase.
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
 
 **Related topics**  
 
 
-[All campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-all-campaign-phases.md)
-
-[My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaign-phases.md)
+[Create My campaign phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaign-phases.md)
 

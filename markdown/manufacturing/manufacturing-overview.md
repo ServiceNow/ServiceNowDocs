@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/manufacturing-overview.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -19,11 +19,11 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 
 </td><td>
 
-[Data Model\[Omitted image "bus-database.svg"\] Alt text:Framework for workflow integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/data-model.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Manufacturing Commercial Operations to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/configuring-manufacturing-foundation.md)
 
 </td><td>
 
-[Configure \[Omitted image "bus-sdlc.svg"\] Alt text:Plan and customize Manufacturing Commercial Operations to meet your specific needs.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/configuring-manufacturing-foundation.md)
+[Integrate\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Extend Manufacturing Commercial Operations capabilities by integrating with other applications.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-integrating-with-other-applications.md)
 
 </td></tr><tr><td>
 
@@ -32,6 +32,18 @@ The  ServiceNow® Manufacturing Commercial Operations \(MCO\) enables you to o
 </td><td>
 
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Get additional information about Manufacturing Commercial Operations use cases and components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/manufacturing-reference.md)
+
+</td><td>
+
+[Data Model\[Omitted image "bus-database.svg"\] Alt text:Framework for workflow integration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/data-model.md)
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+[Automate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/ai-in-mco.md)\[Omitted image "bus-ai-otto.svg"\] Alt text:Use generative AI skills and agentic workflows to automate manufacturing tasks.
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure password expiration reminder, Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure password expiration reminder, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View a password expiration table
@@ -18,7 +18,7 @@ You can view a password expiration table and validate whether a record is create
 
 ## Before you begin
 
-Role required: admin
+Role required: password\_reset\_admin
 
 ## About this task
 

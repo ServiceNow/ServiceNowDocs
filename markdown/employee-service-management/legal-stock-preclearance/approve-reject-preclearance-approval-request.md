@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Stock Preclearance
 classification: legal-stock-preclearance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Stock Preclearance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject a stock preclearance approval
@@ -24,7 +24,7 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Click the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon\).
+2.  Click the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, under **My Work**, click **Items Pending Approvals**.
 
@@ -47,5 +47,5 @@ Role required: sn\_lg\_ops.legal\_fulfiller
 -   If you approve the request on a holiday, the approval validity starts from the next business day.
 -   If you reject the request, the requester cannot perform any securities transactions.
 
-**Parent Topic:**[Legal Stock Preclearance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/legal-stock-preclearance-landing-page.md)
+**Parent Topic:**[Submitting Legal Stock Preclearance requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-stock-preclearance/submit-legal-stock-reqs.md)
 

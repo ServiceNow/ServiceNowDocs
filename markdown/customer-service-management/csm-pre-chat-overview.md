@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-pre-chat-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the chat channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure chat, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Pre-chat surveys
@@ -28,7 +28,7 @@ Pre-chat surveys provide the following advantages that help agents efficiently h
 
 -   **Routing chats to the correct queue**
 
-    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-queues.md).
+    Advanced Work Assignment \(AWA\) leverages information captured through pre-chat surveys to route a chat to the right queue. For more information, see Work item queues.
 
 -   **Identifying topics related to the chat issue**
 
@@ -37,7 +37,7 @@ Pre-chat surveys provide the following advantages that help agents efficiently h
 
 ## Configuring Pre-chat if you have upgraded
 
-Some settings need to be configured if you have upgraded your ServiceNow® instance. For more information, see [Configure Pre-chat after upgrading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-configure-pre-chat-upgrade.md).
+Some settings need to be configured if you have upgraded your ServiceNow® instance. For more information, see [Configure pre-chat after upgrading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-configure-pre-chat-upgrade.md).
 
 ## Plugins
 

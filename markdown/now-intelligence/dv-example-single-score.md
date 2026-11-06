@@ -1,22 +1,22 @@
 ---
-title: Single score visualization example
-description: Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/time stamp.
+title: Single score data visualization example
+description: Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/timestamp.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-single-score.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Single score visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Single score visualization example
+# Single score data visualization example
 
-Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/time stamp.
+Use a single score visualization when you want to show a single value or metric, such as overall revenue or number of open incidents. The basic score visualizes a single value with a descriptive heading and date/timestamp.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -26,15 +26,13 @@ In this example, you create a single score visualization that shows the number o
 
 ## Procedure
 
-1.  Follow the first steps to [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md):
+1.  Follow the first steps to [Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md):
 
-    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-    2.  Select **New**.
+    2.  Select **Create data visualization**.
 
-    3.  Select the Single score \(\[Omitted image "inline-data-vis-single-score.png"\] Alt text: Data visualization single score icon\) visualization type.
-
-        \[Omitted image "dv-ex-single-score-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a single score visualization
+    3.  From the Scores section, select the Single score visualization type.
 
 2.  For the moment, skip the header and border section and move to the data source.
 
@@ -42,7 +40,7 @@ In this example, you create a single score visualization that shows the number o
 
     2.  Choose the Incident \[incident\] table.
 
-    3.  Because this visualization shows open incidents, let's add the Incidents.Open condition in the Filters section.
+    3.  Because this visualization shows open incidents, let's add the predefined condition Incidents.Open in the Filters section.
 
         With this filter selected, the visualization only shows the number of active incidents.
 
@@ -52,13 +50,13 @@ In this example, you create a single score visualization that shows the number o
 
     A single score data visualization with the current value of the selected data appears in the Visualization Designer.
 
-    \[Omitted image "dv-ex-single-score-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
+    \[Omitted image "dv-ex-single-score-1.png"\] Alt text: A single score visualization based on the Incident table and the default metric of Count with no further configuration
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
     1.  Expand the Header and border section.
 
-    2.  Select **Show header** and provide the chart title `Number of open incidents`.
+    2.  Select **Show header** and provide the title `Number of open incidents`.
 
         When **Show header** is selected, you can add a title and a description. The chart title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The chart title appears within the visualization.
 
@@ -80,8 +78,6 @@ In this example, you create a single score visualization that shows the number o
 
         Alone, this option shows the time of day the score was last updated. You can also select Use relative score time to show the elapsed time since the last update, for example just now, five minutes ago, and so on.
 
-        \[Omitted image "dv-ex-single-score-show-update.gif"\] Alt text: Animation showing selection of update time and filter options
-
     3.  Select **Show zero**.
 
         In some cases, a value of zero isn't interesting to the audience of a visualization. In this case, however, you want to show off having zero open incidents.
@@ -96,15 +92,13 @@ In this example, you create a single score visualization that shows the number o
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
-
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
 7.  Under Presentation, configure the size and base color of the score value.
 
-    1.  Under Display settings, change the score size from the default M \(medium\) to XL \(extra large\) to emphasize it.
+    1.  Under Display settings, change the score size from the default AUTO to XL \(extra large\) to emphasize it.
 
     2.  Choose a Score icon and an icon style to distinguish this data visualization from others on the dashboard you add it to.
 
@@ -112,7 +106,7 @@ In this example, you create a single score visualization that shows the number o
 
     3.  Select the color type `Single color`.
 
-        \[Omitted image "dv-ex-single-score-show-display.gif"\] Alt text: Animation showing selection of score size, score icon, icon style, and color
+        \[Omitted image "dv-ex-single-score-show-display.png"\] Alt text: Single score visualization showing selection of score size, score icon, icon style, and color&lt;
 
 8.  Configure a color rule for the score.
 
@@ -132,7 +126,7 @@ In this example, you create a single score visualization that shows the number o
 
     4.  To indicate a value that requires more attention, create a second rule with the **Operator** `between`, the values `5` and `25`, the color and icon color `Warning Orange`, and the order `50`.
 
-    5.  To show values that require the highest attention, create a third rule with the **Operator** `greater than`, the value `25`, the color and icon color `Red`, and the order `25`.
+    5.  To show values that require the highest attention, create a third rule with the **Operator** `greater than`, the value `25`, the color and icon color `Critical Red`, and the order `25`.
 
     You've created three rules to show whether the single score value is in line with what you want to see.
 
@@ -143,7 +137,7 @@ In this example, you create a single score visualization that shows the number o
 
 ## Result
 
-You've created a single score visualization based on a single metric, open incidents. You've also configured user options regarding filters and drilldowns, and configured a color, an icon, and coloring rules.
+You have created a single score visualization based on a single metric, open incidents. You have also configured user options regarding filters and drilldowns, and configured a color, an icon, and coloring rules.
 
-**Parent Topic:**[Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md)
+**Parent Topic:**[Create a single score data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md)
 

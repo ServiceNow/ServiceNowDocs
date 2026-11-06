@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [IT Asset Management]
+breadcrumb: [IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management
@@ -20,7 +20,7 @@ Watch this short video for an introduction to the Software Asset Management appl
 
 \[Omitted video\] Description: Introduction to the Software Asset Workspace
 
-**Note:** Beginning with the ServiceNow AI Platform Yokohama release, limited support is provided for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, you're encouraged to move to the new workspace experience.
+**Note:** Beginning with the ServiceNow AI Platform Brazil release, limited support is provided for the Software Asset Management classic user interface. While it remains active in your instance, including when you upgrade to a new ServiceNow AI Platform release, you're encouraged to move to the new workspace experience.
 
 For the ITSM Software Asset Management feature of Asset Management, see [ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/itsm-sam.md).
 
@@ -56,19 +56,23 @@ For the ITSM Software Asset Management feature of Asset Management, see [ITSM So
 -   **[Exploring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/explore-sam-workspace.md)**  
 The Software Asset Management application's user interface is enhanced to make it more user friendly and intuitive, allowing you to better manage your software installations.
 -   **[Configuring Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/Config-sam-workspace.md)**  
-Configure the various aspects of the Software Asset Management application based on the needs of your organization.
+Install and configure the Software Asset Management application to manage your software inventory, track licenses, and support compliance workflows.
+-   **[Using AI in Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-ai-in-software-asset-workspace.md)**  
+Streamline your software asset operations by using the ServiceNow Otto for Software Asset Management \(SAM\) agentic AI workflows and generative AI skills.
 -   **[Using Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-workspace.md)**  
 Use the Software Asset Workspace, the intuitive and streamlined user interface of the Software Asset Management application, to manage software licenses, compliance, and optimization.
 -   **[Using Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/using-sam-classic.md)**  
 Use the classic Software Asset Management framework to manage your licenses, compliance, and optimization.
 -   **[Subscriptions for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-subscription.md)**  
-The ServiceNow platform uses a licensing method where your organization is charged for using the IT Asset Management applications- ServiceNow Software Asset Management.
+ServiceNow Software Asset Management \(SAM\), part of the IT Asset Management suite, uses a subscription-based licensing model that charges your organization based on the IT resources it manages.
 -   **[Supported software publisher licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-publisher-packs.md)**  
 With Software Asset Management, there are several publisher packs that can be used to extend functionality between the ServiceNow AI Platform and your third-party software applications.
+-   **[Engineering license management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/concurrent-licenses.md)**  
+Monitor engineering licenses and usage through OpenLM and Open iT to eliminate audit risks, verify license optimization, reduce inaccurate forecasting, and prevent denials. These license management services support accurate forecasting for software in industries such as aerospace, oil and gas, and construction.
 -   **[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/sam-subscription-management.md)**  
-SaaS License Management helps organizations track and control cloud-based applications and service subscriptions as part of Software Asset Management \(SAM\). It promotes ownership, visibility, agility, and accountability, enabling better cost control and efficient use of resources.
+SaaS License Management tracks and controls cloud-based application subscriptions within Software Asset Management \(SAM\). This capability helps organizations manage subscriptions, monitor usage, and control costs across hybrid and direct SaaS models.
 -   **[Software Spend Detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-spend-detection.md)**  
-Use the ServiceNow Software Spend Detection application to track, analyze, and optimize software spending from imported financial data.
+Use the Software Spend Detection feature to track, analyze, and optimize software spending from imported financial data.
 -   **[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMAdministration.md)**  
 Software Asset Management administration tasks include adding custom part number records and custom license metrics. You can also refresh processor definitions and migrate software installations. Software Asset Management content service can be enabled, and migration procedures are also included.
 -   **[Platform Analytics Solution for Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-asset-mgmt-content-pack.md)**  
@@ -78,5 +82,5 @@ Use the descriptions provided to help you fill in the Software Asset Management 
 -   **[ServiceNow Otto for Software Asset Management \(SAM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/now-assist-for-software-asset-management-sam/now-assist-sam.md)**  
 Use the ServiceNow Otto for Software Asset Management \(SAM\) application to integrate generative AI capabilities into your daily workflow, thereby minimizing manual tasks while enhancing compliance visibility and optimization insights.
 
-**Parent Topic:**[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/it-asset-management.md)
+**Parent Topic:**[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/asset-management-landing-page.md)
 

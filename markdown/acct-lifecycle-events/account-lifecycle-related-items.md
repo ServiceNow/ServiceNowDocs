@@ -1,24 +1,24 @@
 ---
-title: Related items component in account onboarding case page
-description: The related items component provides access to related list items associated with your account onboarding case.
+title: View related items
+description: The Related Items component provides access to related list items associated with your account onboarding case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-related-items.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using account onboarding, Account onboarding, Account Lifecycle Events]
+breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
 
-# Related items component in account onboarding case page
+# View related items
 
-The related items component provides access to related list items associated with your account onboarding case.
+The Related Items component provides access to related list items associated with your account onboarding case.
 
-The related items component uses an expandable accordion format. You can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
+The Related Items component uses an expandable accordion format. You can expand the desired lists to see the related items. This component also displays an icon with the number of items in a list.
 
-Several related items including account squad, account lifecycle tasks, emails, documents, and projects are displayed. Related items include the following actions:
+Several related items including account squad, onboarding tasks, emails, documents, and projects are displayed. Related Items include the following actions:
 
--   Create: opens a blank record in a sub tab that you can use to create a new item.
+-   Create: opens a empty record in a sub tab that you can use to create item.
 -   View all: opens a list of records in a sub tab.
 -   Show more: is displayed for lists that have more than five items.
 
@@ -31,4 +31,10 @@ Several related items including account squad, account lifecycle tasks, emails, 
 \[Omitted image "account-lifecycle-related-item-projects.png"\] Alt text: Account onboarding project related item
 
 When you create a project for your account onboarding case, the case is mapped to the project table.
+
+Related items of **Data import task**.
+
+\[Omitted image "account-lifecycle-related-data-import.png"\] Alt text: Data import task related lists.
+
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use.md)
 

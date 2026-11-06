@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Create a case from a change request
@@ -40,30 +40,23 @@ After a change in workflow Proactive Service Experience Workflows is triggered, 
 
 5.  See the list of outages by selecting the **Outages** card.
 
-6.  See which accounts are affected by selecting the **Affected Accounts** card.
+6.  See which accounts are affected in the Customer impact tab.
 
-7.  See which consumers have been affected by selecting the **Affected Consumers** card.
+7.  See which consumers have been affected in the Customer impact tab.
 
 8.  In the Details section, change the state of the Change record to **Authorize**.
 
     The cases for the affected customers are automatically created.
 
-9.  Select a case from the list of created cases and then select **New**.
+9.  When the change manager authorizes the change record and the status changes to **Scheduled**, you can update the state by selecting **Implement**, selecting **Review**, and then saving the record.
 
-10. Notify a customer by selecting the customer's case and selecting **Notify Customers**.
-
-11. In the Notify Customers pop-up window, enter a descriptive note about the case, and select **Notify**.
-
-    A note is inserted automatically in the **Activity** field of the change record and in the selected case records. If your customer updates the case with a message, the case automatically synchronizes with the change record.
-
-    **Note:**
-
-    By default, the Notify Customers functionality isn’t active. As an administrator, to make it active, you must set the **proactive\_workflows\_for\_providers.additional\_comments\_sync** property value to TRUE and then select **Update case worknote for comments change**.
-
-12. When the change manager authorizes the change record and the status changes to **Scheduled**, you can update the state by selecting **Implement**, selecting **Review**, and then saving the record.
-
-13. Select the resolution code from the drop-down list, enter the resolution notes before closing the change request, and update the state by selecting **Close**.
+10. Select the resolution code from the drop-down list, enter the resolution notes before closing the change request, and update the state by selecting **Close**.
 
 
 **Parent Topic:**[Using Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-assurance-workflows.md)
+
+**Related topics**  
+
+
+[About identifying affected accounts with Proactive Service Experience Workflows in Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/psew-identify-act-incident.md)
 

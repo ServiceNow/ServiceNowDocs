@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure shipment tracking, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Creating an integration script include for third-party carrier applications
@@ -76,26 +76,5 @@ The processResponse function receives the response from the carrier API and upda
 
 You can either use the default processResponse function or define a custom logic to update the shipment records.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
-
-**Related topics**  
-
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
-[View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
-
-[View hardware asset shipment details]()
-
-[Stale shipments]()
-
-[Track a hardware asset shipment]()
+**Parent Topic:**[Integration framework configuration for shipment tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configure-int-frame-shipment.md)
 

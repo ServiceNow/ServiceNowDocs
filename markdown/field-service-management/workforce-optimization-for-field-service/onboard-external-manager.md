@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Contractor Management, Configuring contractor capabilities, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Contractor Management, Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
 
 # Onboard an external manager
@@ -21,10 +21,6 @@ Onboard a manager from a contractor company to manage, review, and assign the ou
 Role required: wm\_admin and wm\_contractor\_manager\_int
 
 ## About this task
-
-The work order tasks of the contractor company are automatically assigned to the manager for reassigning it to the field agents. The users can update the work order tasks company only if a manager is assigned.
-
-**Note:** The users will not be able to edit or assign the work order tasks of this contractor company if a manger is not assigned to the company.
 
 You can also do the initial configuration of onboarding an external manager through the **Field Service** &gt; **Administration** &gt; **Contractor Management** guided setup. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/add-filter-library.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-10-29"
+reading_time_minutes: 2
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -16,13 +16,15 @@ Create a Platform Analytics filter in the Filter Designer and add it to the libr
 
 ## Before you begin
 
-**Note:** Filters that are saved to the filter library are not accessible in the technical editor \(UI Builder\).
+**Note:** Filters that are saved to the filter library aren't accessible in the technical editor or other UI Builder pages.
 
 Role required: analytics\_filter\_admin, admin
 
 ## Procedure
 
 1.  To add a filter to the filter library, navigate to **Platform Analytics** &gt; **Library** &gt; **Filters** and select **New**.
+
+    You can also navigate to this library from other Platform Analytics library pages.
 
     The Filter Designer opens.
 
@@ -34,12 +36,45 @@ Role required: analytics\_filter\_admin, admin
     -   [Multiple select](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-select-filter-workspace.md): More than one value from a set of choices, such as both High and Critical Priority
     -   [Date](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-date-filter-workspace.md): A calendar date. You can also set a time. Automatically applies to all indicator data on page or tab.
     -   [True/False](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-boolean-filter-workspace.md): Whether a field value is true or false. Can also be used with indicator breakdowns that are based on a [bucket group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) with only two values.
-3.  In the **Filter label** field, type a meaningful name for the filter.
+3.  Choose the **Filter Element**.
 
-    This name is the name that the runtime user sees.
+    Element options depend on the filter type, but include Pill, Checkboxes, and Typeahead.
+
+4.  In the **Filter label** field, type a meaningful name for the filter.
+
+    This name is the name that the user sees.
+
+5.  Choose the filter source.
+
+    Options include:
+
+    -   **Tables**
+
+        Select the table to filter.
+
+    -   **Indicators**
+
+        Select the breakdown to use as the filter.
+
+    -   **Usage Insights**
+
+        Select the Usage Insights property to filter on. For more information, see [Filter data in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/filter-user-list.md).
+
+6.  Choose one or more **Default values**.
+
+    Single select and True/False filters support one default value. Multiple select filters support multiple default values.
+
+7.  For multiple select filters, select **Allow reset to default**.
 
 
 ## Result
 
-Upon saving, the filter is saved to the library, where any user can add it to their dashboards.
+On saving, the filter is saved to the library, where any user can add it to their dashboards.
+
+## What to do next
+
+See these topics for further configuration options:
+
+-   [Configure a True/False filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-boolean-filter-workspace.md)
+-   [Configure a Date filter in the inline editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-date-filter-workspace.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: reference
-last_updated: "2025-03-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -195,4 +195,6 @@ Description about the workplace service that explains the purpose of the workpla
 [Components installed with Workplace Case Management]()
 
 [Properties installed with Workplace Case Management]()
+
+[Workplace Location Assignment service]()
 

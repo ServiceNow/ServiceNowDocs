@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [My Learning, Exploring Learning, Learning, Talent Development, Employee Service Management]
+breadcrumb: [My Learning, Exploring Learning, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Activity
@@ -25,6 +25,4 @@ The activity tab has the following widgets that help you with a seamless learnin
 -   Shared with: View courses and collections shared with you.
 -   History: View all the courses that you have completed.
 -   Challenges:View learning challenges that you have set for yourself.
-
-**Parent Topic:**[My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/overview-lxp.md)
 

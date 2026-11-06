@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the floor map, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Floor map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
 # Map a Configuration Item to a floor map
@@ -90,12 +90,12 @@ CI that you want to map to the place.**Note:** A CI must be mapped to only one p
 
 The CI is mapped to the place on the floor map. The color of the place is changed and reflects the selected inventory class according to the map legend. Select the CI on the map pane to view its details.
 
-**Parent Topic:**[Using the floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
+**Parent Topic:**[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-floor-map.md)
 
 **Related topics**  
 
 
-[Visualization of floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
+[Floor map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-floor-maps.md)
 
 [Upload and manage floor map for your datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-floor-map-data-center.md)
 

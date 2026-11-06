@@ -1,38 +1,34 @@
 ---
 title: Data Certification experience in CMDB Workspace
-description: Use Data Certification in CMDB Workspace to administer Data Certification, create Certification policies, manage Data Certification tasks, and view analytics about on-going processes.
+description: Use Data Certification in CMDB Workspace to administer Data Certification, create certification policies, manage certification tasks, and view analytics about on-going processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/data-cert-exp-cmdb-workspace.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Data Certification, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Data Certification, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Data Certification experience in CMDB Workspace
 
-Use Data Certification in CMDB Workspace to administer Data Certification, create Certification policies, manage Data Certification tasks, and view analytics about on-going processes.
+Use Data Certification in CMDB Workspace to administer Data Certification, create certification policies, manage certification tasks, and view analytics about on-going processes.
 
-**Note:** Data Certification in CMDB Workspace and the legacy build of Data Certification on Core UI operate separately, and aren't synchronized. Therefore, any Data Certification definitions, such as filters and certification schedules, that you create in one of those implementations, doesn't appear and isn't available in the other implementation.
+## Use Data Certification in CMDB Workspace
 
-## Data Certification experience in CMDB Workspace
+Use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and views to administer Data Certification:
 
-Use the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md) landing page and its views to administer Data Certification:
-
--   Use the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
--   Use the My work tile on the CMDB Workspace landing page to access your open and overdue Certification tasks that you need to review and process.
-
--   Use the [My Work view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-govern-view.md) to access any Data Certification tasks assigned to you under the Certification tasks section.
-
+-   Use the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to navigate to CMDB Data Manager to [create a new Certification policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+-   Use the My work tile on the CMDB Workspace landing page to access your open and overdue certification tasks that you need to review and process.
+-   Use the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to access any certification tasks assigned to you under the Certification tasks section.
 
 Manage certification tasks in CMDB Workspace:
 
 -   [Manage Data Certification instances and tasks, and see progress, status, and insights in the Data Certification Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-cert-dashboard-workspace.md)
--   [Review Certification tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md)
--   [Review failed certification tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md)
+-   [Review certification tasks in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-certific-review-tasks.md)
+-   [Review failed certification tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-review-failed-tasks.md)
 
 ## Retention of Data Certification records
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -57,6 +57,10 @@ As an employee, you will receive push notification for the following scenarios:
 -   **Reservation about to start**
 
     Push notification is received that the reservation is about to start.
+
+-   **Reservation is cancelled**
+
+    Push notification is received that the reservation is cancelled.
 
 -   **Reservation cancelled due to check in delay**
 

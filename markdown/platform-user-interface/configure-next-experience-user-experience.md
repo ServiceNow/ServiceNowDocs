@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-next-experience-user-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [user experience, user experience preference, next experience user experience]
-breadcrumb: [Next Experience preferences, Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Preferences, Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure Next Experience user experience preferences
@@ -23,9 +23,9 @@ Role required: none
 
 1.  Navigate to **User Menu** &gt; **Preferences** &gt; **User Experience**.
 
-2.  Select the preference that you want to configure.
+2.  Select the preference that you want.
 
-    **Note:** The preferences that are described in the following table might not be available to all users. The items that appear are determined by the user access and the customizations from your administrator.
+    **Note:** The preferences that are described in the following table might not be available to all users. Availability depends on the roles and permissions assigned to the user, as well as UI customizations configured by an administrator.
 
 <table id="table_qdf_52m_wbc"><thead><tr><th>
 

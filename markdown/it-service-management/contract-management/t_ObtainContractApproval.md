@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Send the contract for approval, Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Send the contract for approval, Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # View approval history on contracts
@@ -39,4 +39,9 @@ After a contract is sent to an approver for review, the approver name cannot be 
 
 
 **Parent Topic:**[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/t_SendTheContractForApproval.md)
+
+**Related topics**  
+
+
+[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/contract-approval-workflow.md)
 

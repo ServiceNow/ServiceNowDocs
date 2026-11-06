@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/make-dv-act-as-filter.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -51,7 +51,7 @@ Role required: Any internal role and the right to edit the dashboard with the vi
 
 [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md)
 
-[Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
+[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
 
 [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md)
 

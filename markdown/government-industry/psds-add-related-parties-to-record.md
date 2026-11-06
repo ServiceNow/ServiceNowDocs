@@ -1,16 +1,16 @@
 ---
-title: Configure related parties for items received
+title: Configure related parties for Items Received
 description: Add related parties to an item received in the Public Sector Digital Services application so that the contacts, businesses, constituents, or agencies can get the correct access level to perform the actions that they need for a case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-add-related-parties-to-record.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Optional configuration steps for Public Sector Digital Services Core, Install and configure the Public Sector Digital Services Core application, Set up your environment, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [User management, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Configure related parties for items received
+# Configure related parties for Items Received
 
 Add related parties to an item received in the Public Sector Digital Services application so that the contacts, businesses, constituents, or agencies can get the correct access level to perform the actions that they need for a case.
 
@@ -20,7 +20,7 @@ Role required: admin, sn\_gsm.constituent, sn\_gsm.constituent\_agent, sn\_gsm.b
 
 ## Procedure
 
-1.  Navigate to the CRM Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
+1.  Navigate to the Public Sector Workspace and select the Lists icon \[Omitted image "lists-icon.png"\] Alt text: Lists icon. in the sidebar.
 
 2.  Navigate to **Item Received** &gt; **All**.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Report Subsection Element template, Configure Major Security Incident status reports, Manage MSIM status reports, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -52,10 +52,6 @@ Role required: sn\_msi.workspace\_manager
 
 10. Select **Submit**.
 
-
-## Report template subsection element type for a Technical Status Report
-
-\[Omitted image "visualization-type.png"\] Alt text: Report subsection element - Duration counters
 
 **Parent Topic:**[Create Report Subsection Element template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/create-report-subsection-element-template.md)
 

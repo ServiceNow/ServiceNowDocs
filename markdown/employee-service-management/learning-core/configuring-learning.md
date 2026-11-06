@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning, Talent Development, Employee Service Management]
+breadcrumb: [Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Install and configure Learning
@@ -64,9 +64,4 @@ After you install Learning you might encounter Restricted Caller Access \(RCA\) 
 Dependencies
 
 The Learning application depends on other applications such as Learning Core and Employee Profile.
-
--   **[Activate and setup Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/setup-activate-learning.md)**  
-Learn how to set up and start using Learning.
-
-**Parent Topic:**[Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning-exp.md)
 

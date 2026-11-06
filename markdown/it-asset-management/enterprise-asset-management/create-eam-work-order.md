@@ -1,20 +1,20 @@
 ---
 title: Create a work order for an enterprise asset
-description: Create a work order to track and manage work for an enterprise asset, linear asset, or linear segment.
+description: Create a work order to track and manage work for an enterprise asset, linear asset, linear segment, or asset group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-eam-work-order.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a work order for an enterprise asset
 
-Create a work order to track and manage work for an enterprise asset, linear asset, or linear segment.
+Create a work order to track and manage work for an enterprise asset, linear asset, linear segment, or asset group.
 
 ## Before you begin
 
@@ -36,7 +36,7 @@ Role required: sn\_eam.enterprise\_asset\_manager
 
     For more information on maintenance plans, see [Create a maintenance plan for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-eam-maintenance-plan.md).
 
-3.  On the Create New Work Order form, fill in the fields.
+3.  On the form, fill in the fields.
 
 <table id="table_xcb_frp_hvb"><thead><tr><th>
 
@@ -82,9 +82,9 @@ Location
 
 </td><td>
 
-Current location of the associated enterprise asset.**Note:** If you select a linear asset, a pencil icon \[\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon\] appears to enable you to choose the work order location between the Start marker and End marker. This option is available with Enterprise Asset Management version 9.0 and later. To select a location, follow these steps:
+Current location of the associated enterprise asset.**Note:** If you select a linear asset, a pencil icon \[Omitted image "pencil-outline-24.svg"\] Alt text: appears to enable you to choose the work order location between the Start marker and End marker. To select a location, follow these steps:
 
-1.  Select the Work order linear asset location icon \[\[Omitted image "pencil-outline-24.svg"\] Alt text: Pencil icon\].
+1.  Select the Work order linear asset location icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
 
 A Map location form appears, showing the start and the end markers on the map.
 
@@ -165,7 +165,7 @@ Scheduling
 
 </td></tr><tr><td>
 
-Due date
+Due by
 
 </td><td>
 
@@ -177,10 +177,7 @@ Date and time at which the work order must be completed.
     -   The work order is created in the Draft state.
     -   Work order tasks and parts requirements associated with the work order automatically appear on the **Work Order Tasks** and the **Part Requirements** tabs.
     -   Assets associated with the work order are listed on the **Affected assets** tab. If you selected an asset group, assets from parent asset groups and subgroups are also listed.
-
-        **Note:** The Affected assets tab is available with Enterprise Asset Management version 10.0 and later.
-
-5.  To add additional work order tasks, select **New**in the **Work Order Tasks** tab.
+5.  To add additional work order tasks, select **New** in the **Work Order Tasks** tab.
 
     See [Create a work order task for an Enterprise Asset Management work order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-eam-work-order-task.md) for detailed instructions.
 

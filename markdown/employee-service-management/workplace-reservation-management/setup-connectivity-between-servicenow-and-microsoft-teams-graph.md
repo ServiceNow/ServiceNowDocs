@@ -1,20 +1,20 @@
 ---
 title: Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph
-description: Register your Microsoft Teams Graph with ServiceNow instance for OAuth authorization to get recordings after a virtual meeting.
+description: Register your Microsoft Teams Graph with your ServiceNow instance for OAuth authorization to get recordings after a virtual meeting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-reservation-management/setup-connectivity-between-servicenow-and-microsoft-teams-graph.html
 release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Workplace Reservation Management with Microsoft Teams, Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Setup OAuth connectivity between ServiceNow and Microsoft Teams Graph
 
-Register your Microsoft Teams Graph with ServiceNow® instance for OAuth authorization to get recordings after a virtual meeting.
+Register your Microsoft Teams Graph with your ServiceNow® instance for OAuth authorization to get recordings after a virtual meeting.
 
 ## Before you begin
 

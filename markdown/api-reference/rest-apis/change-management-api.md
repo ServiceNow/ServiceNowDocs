@@ -7,8 +7,8 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 202
+last_updated: "2026-09-10"
+reading_time_minutes: 204
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
@@ -2067,41 +2067,37 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -4679,41 +4675,37 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -6732,41 +6724,37 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -7232,41 +7220,37 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -7723,7 +7707,7 @@ curl "https://instance.servicenow.com/api/sn_chg_rest/v1/change/emergency/b0dbda
 
 Retrieves one or more change models based on the specified criteria.
 
-Use this endpoint to find a change model that best fits the change request that you are trying to create. For additional information, see [Change Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-models.md).
+Use this endpoint to find a change model that best fits the change request that you are trying to create. For additional information, see .
 
 ### URL format
 
@@ -7796,41 +7780,37 @@ sysparm\_query
 
 </td><td id="sysparm-query-RESTAPI">
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -8203,7 +8183,7 @@ For brevity, this response only shows a single change model object.
 
 Retrieves the change model identified by the specified sys\_id.
 
-You can then use this change model to create the desired change request. For additional information on change models, see [Change Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-models.md).
+You can then use this change model to create the desired change request. For additional information on change models, see .
 
 ### URL format
 
@@ -8675,41 +8655,37 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -9210,41 +9186,37 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -9733,41 +9705,37 @@ sysparm\_query
 
 </td><td>
 
-[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`.
+[Encoded query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) used to filter the result set. You can use a UI filter to obtain a properly encoded query.Syntax: `sysparm_query=<col_name><operator><value>`. Column names, operators, and values are case-sensitive.
 
--   &lt;col\_name&gt;: Name of the table column to filter against.
+-   &lt;col\_name&gt;: Name of the table column to filter on.
 -   &lt;operator&gt;: Supports the following values:
+    -   `=`: &lt;col\_name&gt; exactly matches &lt;value&gt;.
+    -   `!=`: &lt;col\_name&gt; does not match &lt;value&gt;.
+    -   `LIKE`: &lt;col\_name&gt; contains the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `STARTSWITH`: &lt;col\_name&gt; starts with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `ENDSWITH`: &lt;col\_name&gt; ends with the specified string &lt;value&gt;. Only works for &lt;col\_name&gt; fields whose data type is string.
+    -   `^`: AND operator to add an additional query condition. Records included in the result set match both conditions.
+    -   `^OR`: OR operator to add an additional query condition. Records included in the result set match at least one of the conditions.
+-   &lt;value&gt;: Value to filter on.
 
-    -   =: Exactly matches &lt;value&gt;.
-    -   !=: Does not match &lt;value&gt;.
-    -   ^: Logically AND multiple query statements.
-    -   ^OR: Logically OR multiple query statements.
-    -   LIKE: &lt;col\_name&gt; contains the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   STARTSWITH: &lt;col\_name&gt; starts with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-    -   ENDSWITH: &lt;col\_name&gt; ends with the specified string. Only works for &lt;col\_name&gt; fields whose data type is string.
-&lt;value&gt;: Value to match against.
+For more information about operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
 
+Queries can contain multiple conditions. For example, the following query returns records where the caller is the current user and the record is active.
 
-For more operators, see [Operators available for filters and queries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/r_OpAvailableFiltersQueries.md).
+`sysparm_query=caller_id=javascript:gs.getUserID()^active=true`
 
-All parameters are case-sensitive. Queries can contain more than one entry, such as `sysparm_query=<col_name><operator><value>[<operator><col_name><operator><value>]`.
-
-For example:
-
-`(sysparm_query=caller_id=javascript:gs.getUserID()^active=true)`
-
-Encoded queries also support order by functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
+Encoded queries also support order by ascending and descending functionality. To sort responses based on certain fields, use the `ORDERBY` and `ORDERBYDESC` clauses in **sysparm\_query**.
 
 Syntax:
 
 -   `ORDERBY<col_name>`
 -   `ORDERBYDESC<col_name>`
 
-For example: `sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
+For example, the following query gets all active records and orders the results in ascending order by number, and then in descending order by category.
 
-This query filters all active records and orders the results in ascending order by number, and then in descending order by category.
+`sysparm_query=active=true^ORDERBYnumber^ORDERBYDESCcategory`
 
-If part of the query is invalid, such as by specifying an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. You can control this behavior using the property **glide.invalid\_query.returns\_no\_rows**. Set this property to true to return no rows on an invalid query.
+By default, if part of a query is invalid, such as an invalid field name, the instance ignores the invalid part. It then returns rows using only the valid portion of the query. Set the property **glide.invalid\_query.returns\_no\_rows** to `true` to instead return no rows on an invalid query.
 
 **Note:** The **glide.invalid\_query.returns\_no\_rows** property controls the behavior of all queries across the instance, such as in lists, scripts \(GlideRecord.query\(\)\), and web service APIs.
 
@@ -10577,7 +10545,7 @@ Name-value pairs representing the field\(s\) to update in the associated change 
 
 encrypted\_fields
 
-</td><td id="d3146e945">
+</td><td id="d2901e945">
 
 List of comma-separated fields to encrypt. These fields are encrypted before they are stored in the associated record. When specified, the endpoint calls the GlideRecord setDisplayValue\(\) method, instead of calling the setValue\(\) method.Because of this, you can also use this parameter to pass display values for non-encrypted fields, such as reference or choice fields, instead of passing sys\_ids or values.
 
@@ -13146,7 +13114,7 @@ chg\_model
 
 Name of a change model listed in the Change Model \[chg\_model\] table. Provided in the following format: `chg_model=Normal`.
 
-For more information, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-models.md).
+For more information, see .
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 
@@ -13201,7 +13169,7 @@ Object.chg\_model
 
 Name of a change model listed in the Change Model \[chg\_model\] table. Provided as a name-value pair in the following format: `{"chg_model" : "Cloud Infrastructure"}`
 
-For more information, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/change-models.md).
+For more information, see .
 
 **Note:** Not providing either the change model \(**chg\_model**\) or **type** value results in a default setting that is subject to change by release. It is strongly advised to set at least one of these values.
 

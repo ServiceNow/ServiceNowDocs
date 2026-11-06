@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [System events reference, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [System events reference, System Events, Configure core features, Ad
 # The incident events business rule
 
 The incident events business rule comes with the system and defines a number of events that can be triggered by different actions in the Incident table.
-
-\[Omitted image "IncidentEvents.png"\] Alt text: Incident events business rule snippet
 
 This business rule defines several events, three of which are triggered after a record in the Incident table is inserted or updated. The first script is:
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-user-defined-escalation-group.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations user-defined escalation, Security Operations common functionality, Security Operations]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Groups** &gt; **Escalations**.
 
-2.  Click**New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -34,11 +34,9 @@ Role required: sn\_si.admin
 
     \[Omitted image "EscalationGroup.png"\] Alt text: Escalation
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     An escalation group is available for all security incidents in the initial group. You can create multiple groups.
-
-    \[Omitted image "EscalationGroupList.png"\] Alt text: Scans
 
 
 **Parent Topic:**[Security Operations user-defined escalation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/user-defined-escalation.md)

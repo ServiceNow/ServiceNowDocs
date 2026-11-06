@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [HR Service Delivery integration, Microsoft Teams Integration for Employee Experience, Configure, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure Request-based chats to import messages from Microsoft Teams to ServiceNow
@@ -48,8 +48,6 @@ The system imports a maximum of 500 active chats in a 30-minute interval. If the
 The system executes a maximum of 10,000 sub-flows to import the chats for an interval of 30 minutes, 1 hour, 2 hour, 4-hour, 8-hour intervals. This is a count of all the active subflows that auto-import the messages into ServiceNow.
 
 If the system reaches the limit, a message is displayed to the agent that the system level is reached and the chat can’t be auto imported on the **Start Microsoft Teams Chat** modal.
-
-\[Omitted image "system-limit-reached.png"\] Alt text: System limit reached.
 
 When the ticket is closed, the system will trigger auto import for one last time posts the new messages in the Work notes \(Chat history\).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Financial Services Customer Lifecycle Operations, Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Financial Services Customer Lifecycle Operations
@@ -26,15 +26,15 @@ Role required: sn\_bom\_clo\_b2b.admin or sn\_bom\_clo\_b2c.admin
 
 1.  Review the installed components and modify them or add new ones as applicable.
 
-<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d43796e94">
+<table id="choicetable_ajc_kk5_z4b"><thead><tr><th align="left" id="d48472e112">
 
 Task
 
-</th><th align="left" id="d43796e97">
+</th><th align="left" id="d48472e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d43796e103">
+</th></tr></thead><tbody><tr><td id="d48472e121">
 
 **Configure CRM Workspace**
 
@@ -42,7 +42,7 @@ Description
 
 [Configure CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-csm-workspace-fso-apps.md) to customize your workspace to suit your business needs.
 
-</td></tr><tr><td id="d43796e128">
+</td></tr><tr><td id="d48472e146">
 
 **Configure playbooks**
 
@@ -50,7 +50,7 @@ Description
 
 [Edit or create a new playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-playbooks-fso-apps.md) using Playbooks.
 
-</td></tr><tr><td id="d43796e150">
+</td></tr><tr><td id="d48472e168">
 
 **Configure service definitions**
 
@@ -58,7 +58,7 @@ Description
 
 [Configure service definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-service-definitions.md) to enable unique flows and views for Customer Lifecycle Operations service cases and tasks.You can add new case types and configure service definitions for each type.
 
-</td></tr><tr><td id="d43796e175">
+</td></tr><tr><td id="d48472e193">
 
 **Configure Service Level Agreements \(SLAs\)**
 
@@ -66,7 +66,7 @@ Description
 
 [Configure the installed SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-sla-definitions-fso-cases.md) to configure SLA timings for Customer Lifecycle Operations service cases and tasks.
 
-</td></tr><tr><td id="d43796e198">
+</td></tr><tr><td id="d48472e216">
 
 **Configure user groups**
 
@@ -74,7 +74,7 @@ Description
 
 [Configure user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-groups-fso.md) for assignment of cases and tasks. You can also assign roles to groups and users.
 
-</td></tr><tr><td id="d43796e217">
+</td></tr><tr><td id="d48472e235">
 
 **Configure assignment rules**
 
@@ -82,7 +82,7 @@ Description
 
 [Configure assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.md) to identify cases that meet certain conditions and then route those cases to agents.
 
-</td></tr><tr><td id="d43796e233">
+</td></tr><tr><td id="d48472e251">
 
 **Configure Document Processor**
 

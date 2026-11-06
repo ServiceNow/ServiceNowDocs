@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ocs-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Outsourced Customer Service, Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Outsourced Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Outsourced Service Provider dashboard

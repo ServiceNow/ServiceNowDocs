@@ -1,5 +1,5 @@
 ---
-title: Set Automatic Token Cleanup for Token Credentials \[New in Security Center 2.0\]
+title: Set automatic token cleanup for token credentials
 description: Use the com.snc.platform.security.token.auth.cleanup property to ensure that expired API keys and HMAC secrets are deleted, thereby limiting the potential for token reuse.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-set-automatic-token-cleanup-for-token-credentials.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Set Automatic Token Cleanup for Token Credentials \[New in Security Center 2.0\]
+# Set automatic token cleanup for token credentials
 
 Use the **com.snc.platform.security.token.auth.cleanup** property to ensure that expired API keys and HMAC secrets are deleted, thereby limiting the potential for token reuse.
 
-If the **com.snc.platform.security.token.auth.cleanup** property is set to the insecure value of false, expired API keys and HMAC secrets will not be deleted, creating a potential for token reuse. If a token was expired due to leakage or compromise, its reuse could expose the instance to anyone possessing the leaked token.
+If the **com.snc.platform.security.token.auth.cleanup** system property is set to the insecure value of **false**, expired API keys and HMAC secrets will not be deleted. This creates a potential for token reuse. If the token was expired due to leakage or compromise, reuse exposes the instance to anyone possessing the leaked token. Expired tokens are kept for the number of days defined by the **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept** and **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept** system properties. Integer values of `0` and greater are valid values. A value of 0 causes the expired tokens to be deleted in the same day. The default of 7 days, or fewer, is recommended.
 
-Expired tokens are retained for the number of days defined by **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept** and **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept**. Valid values for these settings are integers of 0 or greater. A value of 0 results in the expired tokens being deleted on the same day, while a higher number of days increases the exposure period. A default value of 7 days or fewer is recommended.
+Ensure the property **com.snc.platform.security.token.auth.cleanup** doesn't exist in the System Properties \[sys\_properties\] table or is set to **true**. Ensure that the properties **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept** and **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept** don't exist in the System Properties \[sys\_properties\] table or are set to 7 or less.
 
 ## More information
 
@@ -36,7 +36,9 @@ Configuration name
 
 </td><td>
 
-**com.snc.platform.security.token.auth.cleanup, com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept,com.snc.platform.security.token.auth.days.expired.api\_key.is.kept**
+-   **com.snc.platform.security.token.auth.cleanup**
+-   **com.snc.platform.security.token.auth.days.expired.hmac\_secret.is.kept**
+-   **com.snc.platform.security.token.auth.days.expired.api\_key.is.kept**
 
 </td></tr><tr><td>
 
@@ -52,7 +54,7 @@ Data type
 
 </td><td>
 
-integer
+Integer
 
 </td></tr><tr><td>
 
@@ -60,7 +62,9 @@ Recommended value
 
 </td><td>
 
-The recommended values are true, and any integer less than or equal to 7.
+-   true
+-   Less than or equal to 7
+-   Less than or equal to 7
 
 </td></tr><tr><td>
 
@@ -68,7 +72,19 @@ Default value
 
 </td><td>
 
-7
+-   true
+-   7
+-   7
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+-   true
+-   7
+-   7
 
 </td></tr><tr><td>
 
@@ -86,7 +102,7 @@ Security risk
 
 -   Severity score: 5.1
 -   CVSS score: Medium
--   Security risk details: Not configuring this property to the recommend value of true could prevent expired API keys and HMAC secrets from being deleted which increases the likelihood for token reuse.
+-   Security risk details: A high number of days increases the exposure period for token reuse.
 
 </td></tr><tr><td>
 

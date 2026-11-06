@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the standard ticket page for cases
@@ -18,9 +18,7 @@ You can configure the standard ticket page for customer service cases from where
 
 ## Before you begin
 
-Role required: admin
-
-or sp\_admin
+Role required: sp\_admin
 
 ## Procedure
 

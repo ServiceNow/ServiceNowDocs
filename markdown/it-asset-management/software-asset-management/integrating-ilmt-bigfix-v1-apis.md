@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v1 APIs
@@ -43,7 +43,7 @@ To track your IBM full capacity and sub-capacity PVU and RVU licenses using this
 -   Classify and bundle IBM components into IBM products through ILMT or BigFix Inventory.
 -   Set the **Connect to ILMT using** \(**sn\_samp\_ibm\_lic.ilmt\_api\_version**\) Software Asset Management property to **v1 API's**. For more details on this property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-properties.md).
 
--   **[IBM License Metric Tool \(ILMT\) and BigFix Inventory transform maps for v1 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-transform-maps.md)**  
+-   **[Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v1 APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-transform-maps.md)**  
 When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 1 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses transform maps to process this data into ServiceNow tables.
 
 **Parent Topic:**[IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-ilmt-bigfix-inventory-integration.md)

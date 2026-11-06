@@ -1,18 +1,18 @@
 ---
 title: Configure the callback behavior for Omnichannel Callback for Customer Service Management
-description: Configure the callback behavior of the callback, such as the maximum number of retry attempts or the expiration time, in Omnichannel Callback for Customer Service Management.
+description: such as enabling agent-scheduled callbacks, setting the maximum number of retry attempts or defining the expiration time, in Omnichannel Callback for Customer Service Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-omni-callback-behaviour.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Omnichannel Callback for Customer Service Management, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Omnichannel Callback, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure the callback behavior for Omnichannel Callback for Customer Service Management
 
-Configure the callback behavior of the callback, such as the maximum number of retry attempts or the expiration time, in Omnichannel Callback for Customer Service Management.
+such as enabling agent-scheduled callbacks, setting the maximum number of retry attempts or defining the expiration time, in Omnichannel Callback for Customer Service Management.
 
 ## Before you begin
 
@@ -31,5 +31,6 @@ Role required: admin
     |sn\_callback.callback\_expire\_time|60|Callback timeout in minutes after which the callback task is closed.|
     |sn\_callback.callback\_max\_retry\_attempts|5|Maximum retry attempts after which the callback task is closed.|
     |sn\_callback.enable\_scheduled\_callback|true|Option to enable scheduled callbacks by enabling customers to select a time slot for callback.|
+    |sn\_callback.enable\_agent\_scheduled\_callback|Boolean|Enable the agent-scheduled callback feature. When enabled, agents can schedule callbacks on behalf of customers from CSM/FSM Configurable Workspace.|
 
 

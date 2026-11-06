@@ -7,9 +7,9 @@ release: yokohama
 product: Critical Event Management
 classification: critical-event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Self-report your status, Reporting critical events, Critical Event Management, Health and Safety, Employee Service Management]
+breadcrumb: [Self-report your status, Report critical events, Critical Event Management, Health and Safety, Employee Service Management]
 ---
 
 # View emergency procedures

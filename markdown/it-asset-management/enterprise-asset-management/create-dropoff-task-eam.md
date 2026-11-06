@@ -1,20 +1,20 @@
 ---
 title: Create a Drop off task for enterprise assets
-description: Create a Drop off task to return the enterprise assets in your personal stockroom to any other stockroom.
+description: Create a Drop off task to return the enterprise assets in your personal stockroom to any other warehouse stockroom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/enterprise-asset-management/create-dropoff-task-eam.html
 release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delivering enterprise assets in your personal stockroom through Drop off tasks, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Delivering enterprise assets, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a Drop off task for enterprise assets
 
-Create a Drop off task to return the enterprise assets in your personal stockroom to any other stockroom.
+Create a Drop off task to return the enterprise assets in your personal stockroom to any other warehouse stockroom.
 
 ## Before you begin
 

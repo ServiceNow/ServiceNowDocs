@@ -1,20 +1,20 @@
 ---
-title: Viewing the dynamic related records in License and Permit Playbook
-description: You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
+title: Viewing the dynamic related records in License and Permit Administration
+description: You can view the dynamic related records in the playbook contextual side panel in Public Sector Workspace. These records dynamically change based on the current record or playbook activity.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-lpr-playbook-viewing-rel-records.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Using the contextual side panel in Public Sector Digital Services License and Permit Playbook, Using License and Permit Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Using the contextual side panel, Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Viewing the dynamic related records in License and Permit Playbook
+# Viewing the dynamic related records in License and Permit Administration
 
-You can view the dynamic related records in the playbook contextual side panel in CRM Workspace. These records dynamically change based on the current record or playbook activity.
+You can view the dynamic related records in the playbook contextual side panel in Public Sector Workspace. These records dynamically change based on the current record or playbook activity.
 
-## Using related records in License and Permit Playbook
+## Using related records in License and Permit Administration
 
 You can view, search, and sort the records in the **Related Records** tab in the contextual side panel after you create an license and permit request record.
 
@@ -66,7 +66,7 @@ View the related records in the contextual side panel
 
 </td><td>
 
-Related Records icon \(\[Omitted image "contextual-side-panel-related-records.jpg"\] Alt text: Related Records icon.\) that you can select to view the Related Records list.
+Related Records icon \(\[Omitted image "related-records-icon.png"\] Alt text: Related Records icon.\) that you can select to view the Related Records list.
 
  Related records appear as a card format in the list. The initial set of records that display in the list is determined by the record type that you select in the filter at the top of the list.
 
@@ -76,7 +76,7 @@ Select the type of related record to view
 
 </td><td>
 
-Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customizing the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-playbook-customizing-rel-records-view.md).
+Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection. For more information, see [Customize the related records view in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +84,7 @@ Search the related records list
 
 </td><td>
 
-Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customizing the related records view in Service Request Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-playbook-customizing-rel-records-view.md).
+Search field at the top of the Related Records list to perform a text search. Records that match the search text are highlighted. For more information, see [Customize the related records view in Service Request Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-playbook-customizing-rel-records-view.md).
 
 </td></tr><tr><td>
 

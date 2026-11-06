@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure the Customer and Consumer Service Portals
@@ -18,7 +18,7 @@ Configure the Customer and Consumer Service Portals to provide information and s
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
 
 ## About this task
 
@@ -35,6 +35,8 @@ Use the portals to provide information and support for your customers. The porta
 **Note:** The Customer Service Portal is automatically installed when you activate the Customer Service plugin.
 
 To activate the Consumer Service Portal, activate the Consumer Service plugin.
+
+\[Omitted video\] Description: Configure the Customer and Consumer Service Portals
 
 ## Procedure
 

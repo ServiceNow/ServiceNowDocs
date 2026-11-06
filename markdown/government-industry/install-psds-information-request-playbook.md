@@ -1,23 +1,23 @@
 ---
-title: Install Information Request Playbook for Public Sector Digital Services
-description: You can install the Information Request Playbook application \(sn\_gsm\_info\_req\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
+title: Install Information Request Administration for Public Sector Digital Services
+description: You can install the Information Request Administration application \(sn\_gsm\_info\_req\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence:The application includes demo data and installs related ServiceNow Store applications and plugins if they aren’t already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/install-psds-information-request-playbook.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Information Request Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Information Request Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Install Information Request Playbook for Public Sector Digital Services
+# Install Information Request Administration for Public Sector Digital Services
 
-You can install the Information Request Playbook application \(sn\_gsm\_info\_req\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+You can install the Information Request Administration application \(sn\_gsm\_info\_req\) if you have the admin role.The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 
 ## Before you begin
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
--   Certain features in the Information Request Playbook application are available based on your ServiceNow entitlements and may require installation of other ServiceNow applications and activation of specific plugins.
+-   Certain features in the Information Request Administration application are available based on your ServiceNow entitlements and may require installation of other ServiceNow applications and activation of specific plugins.
 
     **Note:** Install the [Playbooks for Customer Service Management](https://store.servicenow.com/sn_appstore_store.do#!/store/application/7be17355874010108ef7a7da0acb0bb5/2.1.0?referer=%2Fstore%2Fsearch%3Flistingtype%3Dallintegrations%25253Bancillary_app%25253Bcertified_apps%25253Bcontent%25253Bindustry_solution%25253Boem%25253Butility%25253Btemplate%26q%3DPlaybooks%2520for%2520Customer%2520Service%2520Management&sl=sh) application to enable the playbook experience.
 
@@ -27,13 +27,13 @@ Role required: admin
 
 ## About this task
 
-The Information Request \[sn\_gsm\_information\_request\] table is installed with Information Request Playbook.
+The Information Request \[sn\_gsm\_information\_request\] table is installed with Information Request Administration.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Information Request Playbook application \(sn\_gsm\_info\_req\) using the filter criteria and search bar.
+2.  Find the Information Request Administration application \(sn\_gsm\_info\_req\) using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
@@ -47,7 +47,7 @@ The Information Request \[sn\_gsm\_information\_request\] table is installed wit
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Observability-AppDynamics, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Set up scheduled import jobs to pull in AppDynamics data into your Configuration
 
 ## Before you begin
 
--   Install Service Graph Connector for Observability - AppDynamics version 1.4.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+-   Install Service Graph Connector for Observability - AppDynamics version 1.4.0 or later from the ServiceNow Store. For ServiceNow Store installation steps, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 -   Install Observability Commons for CMDB \(sn\_observability\), which is only required for event ingestion. This application must be installed prior to installing the connector for Event Management to work. For more information, see [Observability Commons for CMDB](https://store.servicenow.com/sn_appstore_store.do#!/store/application/97e04562072020107add6a77c4a9351a) on the ServiceNow Store.
 
 Role required: The following table shows the roles required for each stage of the playbook.
@@ -177,5 +177,5 @@ Select **View all connections** to review the connection details. The configured
 
 [CMDB classes targeted in Service Graph Connector for Observability - AppDynamics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/cmdb-appdynamics-classes.md)
 
-[Accessing the connection details of Service Graph Connector for Observability - AppDynamics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-appdynamics-conn.md)
+[Accessing the connection details for Service Graph Connector for Observability - AppDynamics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-graph-connectors/sgc-appdynamics-conn.md)
 

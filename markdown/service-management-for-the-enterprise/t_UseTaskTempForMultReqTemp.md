@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-management-for-the-enterprise/t\_UseTaskTempForMultReqTemp.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Facilities request tasks, Facilities service management process, Facilities Service Management overview, Facilities Service Management, Service Management]
+breadcrumb: [Request task management, Request Management in a Service Management application, Service Management]
 ---
 
 # Create a task template for common task requests
@@ -64,8 +64,6 @@ With request tasks, work order tasks are not required, though they can be used. 
 
 5.  Select **Submit**.
 
-
-**Parent Topic:**[Facilities request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/c_FacRequestTasks.md)
 
 **Parent Topic:**[Request task management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-management-for-the-enterprise/c_RequestTasksMgmt.md)
 

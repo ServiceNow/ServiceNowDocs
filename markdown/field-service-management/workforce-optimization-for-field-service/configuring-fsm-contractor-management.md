@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring contractor capabilities, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Contractor capabilities, Set up workforce, Configure, Field Service Management]
 ---
 
 # Configuring Contractor Management
@@ -38,7 +38,7 @@ The steps for configuring Contractor Management are:
 
 [Work order tasks on the Field Service Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/work-order-tasks.md)
 
-[Record the usage of assets on the Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-asset-usage-on-cp.md)
+[Recording the usage of assets on the Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-asset-usage-on-cp.md)
 
 [Requesting and receiving required parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/requesting-and-receiving-parts.md)
 

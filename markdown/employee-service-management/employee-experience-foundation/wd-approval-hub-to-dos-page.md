@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Approvals hub integration with Workday, Approval hub integrations, Approvals hub, Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Approvals hub integration with Workday, Approval hub integrations, Approvals hub, Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Use task configuration for Workday approvals
@@ -52,7 +52,7 @@ Based on this configuration, the approvers see the in-context information about 
 
 ## What to do next
 
-Based on the configuration, the approver can see information and process the approvals. For more information, see [Use Approvals hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
+Based on the configuration, the approver can see information and process the approvals. For more information, see [Use approval experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-to-dos-use-approval-hub.md).
 
 **Parent Topic:**[Approvals hub integration with Workday](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/wd-ec-integration.md)
 

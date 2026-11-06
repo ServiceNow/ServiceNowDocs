@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Key Management Framework, Encryption]
 ---
@@ -57,6 +57,8 @@ The GlideEncrypter API is planned for deprecation as of the Zurich release of Se
 
 [Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/password2-3des-deprecation.md)
 
+-   **[GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/glideencrypter-deprecation.md)**  
+Learn how to remove the use legacy GlideEncrypter calls from the scripts on your instance.
 -   **[Deprecate GlideEncrypter usage of 3DES for password2 fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/password2-3des-deprecation.md)**  
 Deprecate GlideEncrypter usage of 3DES encryption standard on your instance ensure that your instance uses the more secure Advanced Encryption Standard \(AES\) exclusively for the encryption and decryption of your Password2 data.
 

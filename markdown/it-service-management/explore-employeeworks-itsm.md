@@ -1,0 +1,42 @@
+---
+title: Employee Slate for ITSM
+description: Employee Slate for ITSM displays active outages and degradations through the Service Health Broadcast widget, which provides plain-language summaries from Otto. Employees can check in for walk-in IT help, book appointments through the Tech lounge widget, or start check-in conversationally with Otto.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/explore-employeeworks-itsm.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-16"
+reading_time_minutes: 1
+keywords: [explore]
+breadcrumb: [Employee Slate for ITSM, IT Service Management]
+---
+
+# Employee Slate for ITSM
+
+Employee Slate for ITSM displays active outages and degradations through the Service Health Broadcast widget, which provides plain-language summaries from Otto. Employees can check in for walk-in IT help, book appointments through the Tech lounge widget, or start check-in conversationally with Otto.
+
+You can see this experience in the Employee Slate for ITSM homepage.
+
+**Note:** Otto is an AI agent. Summaries it generates may not always be accurate. Review AI-generated content before acting on it.
+
+## Employee Slate for ITSM users
+
+|User|Description|
+|----|-----------|
+|Requester or Employee|Any user that can access Employee Slate for ITSM.|
+
+## Employee Slate for ITSM benefits
+
+The Service Health Broadcast widget lets employees see active outages and degradations without leaving the current page, and ask Otto for a plain-language summary.
+
+Check in for a walk-up visit to the tech lounge or schedule an in-person appointment directly from the home page with available time slots.
+
+Use Otto to request a tech lounge visit in natural language, and get routed to walk-in visit or a booking.
+
+## What to explore next
+
+-   To set up the Service Health Broadcast widget and configure service tiers, see [Configure Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/configure-employeeworks-itsm.md).
+-   To view outages and request summaries from Otto, see [Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/use-employee-works-itsm.md).
+-   To check in for a walk-in visit, view your place in the queue, or book an appointment at the Tech lounge, see [Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/use-employee-works-itsm.md).
+-   To check in or book through a conversation with Otto, see [Use Employee Slate for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/use-employee-works-itsm.md).
+

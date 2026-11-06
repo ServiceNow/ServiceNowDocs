@@ -1,16 +1,16 @@
 ---
-title: Complete action tasks and report incidents associated with regulations
+title: Complete action tasks and report regulatory incidents
 description: Report incidents or security incidents associated with multiple regulations for various legal entities. The automated workflow generates regulatory reporting assessments of IT incidents, and Digital resilience incident \(DRI\) Initial, Intermediate, and Final reports, all within regulatory timelines. Complete the action tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/work-on-action-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-17"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Reporting incidents or security incidents for multiple regulations, Manage, Using Digital resilience incident reporting, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Complete action tasks and report incidents associated with regulations
+# Complete action tasks and report regulatory incidents
 
 Report incidents or security incidents associated with multiple regulations for various legal entities. The automated workflow generates regulatory reporting assessments of IT incidents, and Digital resilience incident \(DRI\) Initial, Intermediate, and Final reports, all within regulatory timelines. Complete the action tasks and generate reports in Microsoft Word format, as required by regulatory authorities for analysis.
 
@@ -24,17 +24,15 @@ Role required: sn\_oper\_res.manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience incident reporting** &gt; **All incident reporting cases**.
+1.  Navigate to **Workspaces** &gt; **Operational Resilience Workspace** &gt; **Digital resilience incident reporting** &gt; **All incident reporting cases** and open the incident reporting case from the list that you want to work on.
 
-2.  Open the incident reporting case from the list that you want to work on.
-
-    From the Digital resilience incident reporting cases in the instance, DRI0001003 is selected for this example.
+    From the Digital resilience incident reporting \(DRIR\) cases in the instance, DRI0001003 is selected for this example.
 
     \[Omitted image "drir-cases-created-opres.png"\] Alt text: Cases.
 
     Its automated workflow generates the Regulatory reporting assessment of IT incidents, DRI Initial report, DRI Intermediate report, and DRI Final report action tasks.
 
-3.  Review the incident record's 'Action tasks' and 'Regulations' related lists for assigned tasks and mapped regulations.
+2.  Review the incident record's 'Action tasks' and 'Regulations' related lists for assigned tasks and mapped regulations.
 
     The examples show that an action task is assigned automatically.
 
@@ -44,13 +42,13 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "ent-acer-w-dora-regulation-mapped.png"\] Alt text: Regulation is mapped to the case.
 
-4.  Review the details of the Digital resilience incident reporting case and verify that the owner of the case is a member of the assignment group.
+3.  Review the details of the Digital resilience incident reporting case and verify that the owner of the case is a member of the assignment group.
 
-    A sample Digital resilience incident reporting incident is shown where the source is Incident, Source record is in the New state, the source record is an Incident INC0010005, and the date of discovery is listed. The case is assigned to the 'Digital Resilience Incident Managers' assignment group.
+    A sample Digital resilience incident reporting incident is shown. The source is Incident, the source record is in the New state \(Incident INC0010005\), and the date of discovery is listed. The case is assigned to the 'Digital Resilience Incident Managers' assignment group.
 
     \[Omitted image "inci-assigned.png"\] Alt text: Incident assigned.
 
-5.  As a Digital Resilience Incident Manager, log in to the case record, assign it to an analyst from your group, and select **Save**.
+4.  As a Digital Resilience Incident Manager, log in to the case record, assign it to an analyst from your group, and select **Save**.
 
     The example shows that an analyst, Opres manager01, is assigned to the 'Digital resilience incident reporting: Facility issue' case.
 
@@ -58,9 +56,7 @@ Role required: sn\_oper\_res.manager
 
     As the assigned analyst, you can begin working on the action tasks.
 
-6.  Open the first action task in the case and verify that it’s assigned to a user.
-
-7.  Update the state of the action task to **Assigned**.
+5.  Open the first action task in the case, verify that it’s assigned to a user, and update the state of the action task to **Assigned**.
 
     The example shows that the 'Regulatory reporting assessment of IT incidents' action task is updated to the **Assigned** state.
 
@@ -68,7 +64,7 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "act-task-assigned.png"\] Alt text: Action task is in the assigned state.
 
-8.  Select **View assessment** and then select **Start** in the assessment section of the action task.
+6.  Select **View assessment**, select **Start** in the assessment section of the action task, and respond to the questions in the assessment template.
 
     **Note:** The **View assessment** UI action is displayed only when the action task is in the **Assigned** state.
 
@@ -76,15 +72,33 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "asmt-section-of-action-task.png"\] Alt text: Start the assessment.
 
-9.  Respond to the questions in the assessment template.
+    Sample assessment questions and answers are shown in the example.
 
     **Note:** You can trigger the assessment from an incident or a security incident.
 
-    Sample assessment questions and answers are shown in the example.
-
     \[Omitted image "act-t1-asmt-q.png"\] Alt text: Sample assessment questions and answers.
 
-10. To submit the responses to the questions, select **Submit** and respond to the confirmation message by selecting **Submit** again.
+    **Note:** Answers to matching questions are automatically carried forward \(auto-filled\) from one report to the next, for example, from the DRI Initial report to the DRI Intermediate report, and then to the DRI Final report. Reference-type questions are an exception - their answers are not carried forward, and you must answer them again on each report.
+
+7.  Manage who works on the assessment.
+
+    1.  To bring in additional users to complete portions of the assessment, select **Manage** next to **Contributors**.
+
+    2.  To hand off the action task to a different user, select **Reassign**.
+
+    Digital resilience incident reporting assessment instances uptake the contributor and collaborator capability from the shared Smart Assessment Engine, similar to how collaborators are used in the Operational Resilience risk assessment workflow.
+
+    Both the Manage contributors and Reassign dialogs list only users who have been assigned a DRIR role. The system automatically filters the user list to display only those with the appropriate DRIR role for the assessment. If a user you expect isn't listed, verify the following details:
+
+    -   Confirm with your administrator that the user has been granted the required DRIR role \(sn\_dri\_inc\_rptg.digital\_resilience\_incident\_user or equivalent\).
+    -   Confirm that the user's role assignment is active in your instance.
+    **Note:** Role-based user filtering is managed through Smart Assessment. It is applied automatically when you open the contributor or reassign dialogs.
+
+    \[Omitted image "drir-manage-contributors.png"\] Alt text: Manage contributors dialog on a DRIR action task, listing users filtered to those with DRIR roles. \[Omitted image "drir-reassign-contributors.png"\] Alt text: Reassign dialog on a DRIR action task, showing the Reassign to field.
+
+    Contributors and collaborators added to the assessment are notified automatically so they know a questionnaire is waiting for them. For details on these notifications and the access that governs adding or reassigning a contributor, see [Roles installed with Digital resilience incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/roles-with-drir.md).
+
+8.  To submit the responses to the questions, select **Submit** and respond to the confirmation message by selecting **Submit** again.
 
     The assessment submission form is shown in the example.
 
@@ -106,25 +120,63 @@ Role required: sn\_oper\_res.manager
 
     \[Omitted image "act-t2-created.png"\] Alt text: Second action task is created.
 
-11. As a reviewer of the action task, log in and complete the review.
+9.  As a reviewer of the action task, log in and complete the review.
 
-12. Assign the second action task, 'DRI Initial report', to a user from the assignment group, update its state to **Assigned**, and select **View assessment** to respond to the assessment.
+10. Assign the second action task, 'DRI Initial report', to a user from the assignment group, update its state to **Assigned**, and select **View assessment** to respond to the assessment.
 
-13. Complete the review and submit the assessment for the 'DRI Initial report' action task.
+11. Complete the review and submit the assessment for the 'DRI Initial report' action task.
 
     The next action task, 'DRI Intermediate report' is created automatically.
 
-14. Assign the 'DRI Intermediate report' action task to a user from the assignment group, update its state to **Assigned**, respond to the questions, complete the review, and submit the assessment for the 'DRI Intermediate report' action task.
+12. Assign the 'DRI Intermediate report' action task to a user from the assignment group and update its state to **Assigned**.
+
+    Respond to the questions, complete the review, and submit the assessment.
+
+    Starting with Digital resilience incident reporting Release 22.0.x, export capabilities for DRIR case tasks are enhanced. Export options are now consolidated into a unified Export drop-down, replacing the previous separate buttons to support multiple formats.
+
+    **Note:** The export functionality is available only for assessment-type action tasks.
+
+    When you navigate to an assessment action task, you can access the export options as shown in the example.
+
+    -   **Generate MS Word**: Creates a Microsoft Word document of the assessment.
+    -   **Export Excel**: Displays the assessment sections in separate sheets in Microsoft Excel, with questions as column headers and their respective answers in the columns.
+    -   **Export JSON**: Provides a JSON structure with question-and-answer pairs in key-value format, ideal for automated systems and integrations.
+    \[Omitted image "dri-act-task-asmts-export-options.png"\] Alt text: Options to export the action task reports.
+
+    Select a format from the **Export** drop-down, enter a file name, and save—the report downloads automatically. This enhancement streamlines your workflow for regulatory reporting, documentation, and compliance purposes.
 
     The next action task, 'DRI Final report' is created automatically.
 
-15. Assign the 'DRI Final report' action task to a user from the assignment group, update its state to **Assigned**, respond to the questions, complete the review, and submit the assessment for the 'DRI Final report' action task.
+13. Assign the 'DRI Final report' action task to a user from the assignment group and update its state to **Assigned**.
+
+    Respond to the questions, complete the review, and submit the assessment.
 
     The action task, 'DRI Final report' is complete.
 
     You have now completed all action tasks required for reporting the incident or security incident mapped to the regulation.
 
-16. To generate the report of an action task in Microsoft Word format, select **Generate MS Word**.
+14. To export the action task report to your local drive, select **Export**.
+
+    1.  Select a format from the **Export** drop-down menu.
+
+    2.  Enter a file name, and select **Save**.
+
+        Format options include the following:
+
+        -   **Generate MS Word**: Creates a Microsoft Word document of the assessment.
+        -   **Export Excel**: Displays the assessment sections in separate sheets in Microsoft Excel, with questions as column headers and their respective answers in the columns.
+        -   **Export JSON**: Provides a JSON structure with question-and-answer pairs in key-value format, ideal for automated systems and integrations.
+        Starting with Digital resilience incident reporting Release 22.0.x, export capabilities for DRIR case tasks are enhanced. Export options are now consolidated into a unified Export drop-down, replacing the previous separate buttons to support multiple formats.
+
+        **Note:** The export functionality is available only for assessment-type action tasks. This enhancement streamlines your workflow for regulatory reporting, documentation, and compliance purposes.
+
+        When you navigate to an assessment action task, you can access the export options as shown in the example.
+
+        \[Omitted image "dri-act-task-asmts-export-options.png"\] Alt text: Options to export the action task reports.
+
+    The report downloads automatically.
+
+15. To generate the report of an action task in Microsoft Word format, select **Generate MS Word**.
 
     Action task reports must be generated in Microsoft Word format as required by regulatory authorities for analysis. When you select the **Generate MS Word** UI action, the Generate report window is displayed.
 
@@ -148,7 +200,17 @@ Role required: sn\_oper\_res.manager
 
     The generation of Microsoft Word reports, required by regulatory authorities for analysis in Digital resilience incident reporting, is completed with this step.
 
-17. To export the report of the action task to your local drive, select **Export**.
+16. To generate a report using Microsoft Excel, select **Export Excel**.
+
+    The **Microsoft Excel** file and formats are shown in the example.
+
+    \[Omitted image "drir-downloaded-excel-file.png"\] Alt text: Excel.
+
+17. To generate a report in JSON format, select **Export JSON**.
+
+    The example shows a report in JSON format.
+
+    \[Omitted image "drir-downloaded-json-file-keypairs.png"\] Alt text: JSON format.
 
 18. To save the action task in the instance, select **Save**.
 

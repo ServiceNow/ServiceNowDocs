@@ -1,16 +1,16 @@
 ---
-title: Managing a business portfolio
+title: Exploring a business portfolio
 description: As an Enterprise Architect, view the capability hierarchy, manage capabilities, and assign business applications to the capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/manage-business-portfolio.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Managing a business portfolio
+# Exploring a business portfolio
 
 As an Enterprise Architect, view the capability hierarchy, manage capabilities, and assign business applications to the capabilities.
 
@@ -34,13 +34,15 @@ Business capabilities are assessed by indicators to provide indicator scores use
 
 **Note:** The business capability scores of the current fiscal year are displayed by default. You can change the fiscal year value using the Fiscal year filter.
 
-By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, select the expand icon \(\[Omitted image "b2c492d1972d4284e51541e604167b50c07e9738.png"\] Alt text: Expand icon.\) to expand and view its subcapabilities at each level. You can see the total count of the subcapabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. Similarly, on expanding a parent capability, you can see the number of subcapabilities and the total count of business applications that are directly related to the subcapability at that level.
+By default, the first business capability in the hierarchy at level 0 expands to display its immediate child capabilities at level 1. For subsequent business capabilities and child capabilities, select the expand icon \(\[Omitted image "60c5cf3792b3f21c7af81559173cbcd673e9daf7.png"\] Alt text: Expand icon.\) to expand and view its subcapabilities at each level. You can see the total count of the subcapabilities below each parent capability, the total number of business applications directly related to each capability, and their capability score. When you expand a parent capability, you can see the number of subcapabilities at that level. You can also see the total count of business applications directly related to the subcapability.
 
 **Note:** You can zoom on this page or any of the child pages to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
 You can associate business capabilities with value stream stages to map your organizational capabilities to specific steps in your value streams. Value stream stages represent the discrete steps that make up a value stream, and each stage can be associated with multiple business capabilities.
 
 To view the value stream stages associated with a business capability, open a business capability record and select the **Value Stream Stages** tab. The tab displays a read-only list of associated value stream stages, showing the name, display name, and description of each stage.
+
+**Parent Topic:**[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
 
 **Related topics**  
 

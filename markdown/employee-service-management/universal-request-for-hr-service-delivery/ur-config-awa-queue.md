@@ -7,7 +7,7 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Chat queues, Configuring Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -31,7 +31,7 @@ Ensure that you have activated the Agent Chat \(com.glide.interaction.awa\) plug
     -   Open the **Universal Request Chat Queue** chat queue and modify it
     -   Create the **Assignment Eligibility** record for the chat queue modifying the application provided Universal Request assignment rule.
     -   Click **New** to create a new record.
-    For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/implement-awa.md).
+    For more information, see Advanced Work Assignment.
 
 3.  Click **Submit**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile experience for Change Management, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Mobile experience for Change Management, Use, Change Management, IT Service Management]
 ---
 
 # Download the Mobile Agent mobile application

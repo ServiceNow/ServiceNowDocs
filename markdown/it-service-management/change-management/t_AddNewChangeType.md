@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ In addition to the three types of change available by default, you can add new c
 
     2.  Right-click the **Type** field and select **Show Choice List**.
 
-    3.  Click **New** and fill in the following fields.
+    3.  Select **New** and fill in the following fields.
 
         |Field Name|Description|
         |----------|-----------|
@@ -43,15 +43,13 @@ In addition to the three types of change available by default, you can add new c
 
     4.  Submit the form.
 
-        \[Omitted image "AddChangeTypeNewChoice.png"\] Alt text: List of active change types
-
 2.  Complete the following steps to add the new change type to the change request interceptor.
 
     1.  Navigate to **System Definition** &gt; **Interceptors**.
 
     2.  Open the **Change Request** interceptor.
 
-    3.  Click **New** in the **Answers** related list.
+    3.  Select **New** in the **Answers** related list.
 
     4.  Complete the form, as appropriate.
 
@@ -59,13 +57,11 @@ In addition to the three types of change available by default, you can add new c
         |:----|:----------|
         |Question|Change Request|
         |Name|Enter a name for the new change type. For example, `Direct to Expedited Change`.|
-        |User Prompt|Enter a description that is displayed to the end user when they click **Create New** under **Change**.|
+        |User Prompt|Enter a description that is displayed to the end user when they select **Create New** under **Change**.|
         |Target URL|Set the appropriate target URL. For example, `change_request.do?sys_id=-1&sysparm_query=type=expedited`.|
         |Order|Set the appropriate order level for the change type. For example, `400`.|
 
     5.  Submit the form.
-
-        \[Omitted image "AddChangeTypeNewType.png"\] Alt text: Add a new change type
 
 3.  Complete the following steps to create the script include for the new change type.
 
@@ -77,7 +73,7 @@ In addition to the three types of change available by default, you can add new c
 
     3.  Copy the script of the ChangeRequestStateModelSNC\_emergency script include from the **Script** field.
 
-    4.  Navigate to **System Definition** &gt; **Script Includes** and click **New**.
+    4.  Navigate to **System Definition** &gt; **Script Includes** and select **New**.
 
     5.  Name the new script include to match the value of the new type.
 
@@ -87,7 +83,7 @@ In addition to the three types of change available by default, you can add new c
 
     7.  Update any references in the pasted script include from ChangeRequestStateModelSNC\_emergency to ChangeRequestStateModelCust\_expedited.
 
-    8.  Click **Submit**.
+    8.  Select **Submit**.
 
         **Note:** An existing script include contains the implementation for all the *moving* and *canMove* functions. The *moving* function is used to pre-populate any fields that are required for the new state. The *canMove* function is used to check for any additional requirements and to validate whether a task can move to the next state.
 
@@ -111,7 +107,7 @@ In addition to the three types of change available by default, you can add new c
 
         Ensure that the reference of the type is similar to the script include that is created. For example, `type:"ChangeRequestStateModel_expedited"});`. The type is present at the bottom of the script.
 
-    5.  Click **Insert and Stay** create a copy of the script include ChangeRequestStateModel\_emergency with the new name ChangeRequestStateModel\_expedited.
+    5.  Select **Insert and Stay** create a copy of the script include ChangeRequestStateModel\_emergency with the new name ChangeRequestStateModel\_expedited.
 
 5.  Complete the following steps to modify the script include that controls the transition between states using one of the defined models for the new change type.
 
@@ -126,8 +122,6 @@ In addition to the three types of change available by default, you can add new c
     4.  Override the base method *\_resetModel* to be able to include the new model.
 
         For example, if the change request type is *expedited*, then the new state model ChangeRequestStateModel\_expedited is included. You must include the string EXPEDITED:"expedited" after initialize: function\(changeRequestGr\) \{ as shown in the screen.
-
-        \[Omitted image "expedite-script-include.png"\] Alt text: Expedite script include
 
     5.  Save the script include.
 

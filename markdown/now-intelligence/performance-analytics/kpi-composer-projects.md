@@ -7,14 +7,18 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Design your indicator solution, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # KPI Composer projects
 
 KPI Composer is based on projects. Each project in KPI Composer consists of Key Performance Indicator \(KPI\) trees and the functional and technical definitions of all artifacts within those trees. You can create multiple projects.
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 The KPI Composer project UI provides you with a sequence of four tabs, each corresponding to a phase in your project:
 

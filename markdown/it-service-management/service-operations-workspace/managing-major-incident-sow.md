@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Major Incident Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Managing a major incident record
@@ -18,12 +18,12 @@ Manage a major incident record with a playbook or the various tabs on the major 
 
 Based on the information displayed on different tabs, an agent can propose a major incident using the **Propose Major Incident** option. A major incident manager reviews the information on the **Overview** tab, such as the location information, and then accepts or rejects the major incident proposal. After a proposal is accepted, the major incident manager uses the **Promote Major Incident** option to promote the candidate to a major incident.
 
-After an incident is promoted to a major incident, each tab on a Major Incident record page contains information about the major incident. You can use the various options and the action menu to manage the major incident process and view incident information on the following:
+After an incident is promoted to a major incident, each tab on a Major Incident record page contains information about the major incident. You can use the various options and the action menu to manage the major incident process and view incident information on the following tabs and panel:
 
 -   Overview tab
 -   Details tab
 -   Communicate tab
--   Related tab
+-   Related records tab
 -   Playbook tab
 -   Contextual side panel
 
@@ -39,7 +39,7 @@ After an incident is promoted to a major incident, each tab on a Major Incident 
         -   Impacted Services/CIs – The number of CIs and services impacted by the incident.
         -   Assets – The number of assets associated with the incident.
     -   Cause – The probable cause of the incident.
-    -   Resolution – Incident resolution-related information, such as resolution code and resolution notes, once the incident is resolved.
+    -   Resolution – Incident resolution-related information, such as resolution code and resolution notes, after the incident is resolved.
     On the Activity section, you can view all comments, work notes, actions taken, and composed emails. This section also includes user activities, such as a change in the state and the assignment group. In the Compose section, you can add comments, work notes, and actions taken, as well as compose emails.
 
     For more information on the **Overview** tab, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
@@ -50,11 +50,15 @@ After an incident is promoted to a major incident, each tab on a Major Incident 
 
 -   **Communicate tab**
 
-    The **Communicate** tab displays the list of communication tasks with various options that are used to maintain communications with the stakeholders for major incidents. For more information on the options available on the **Communicate** tab, see [Communicating with stakeholders about incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md).
+    The **Communicate** tab displays the list of communication tasks with various options that are used to maintain communications with the stakeholders for major incidents. For more information on the options available on the **Communicate** tab, see [Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md).
 
 -   **Related records tab**
 
-    The **Related records** tab provides a list view of the records associated with the major incident. For example, task SLAs and affected CIs.
+    The **Related records** tab provides the related lists containing records associated with the major incident record. For example, task SLAs, child incidents and affected CIs.
+
+    In the Child incidents related list, you can use the **Find similar** option to find multiple similar incidents and add them as child incidents to a major incident or major incident candidate record.
+
+    Similar incidents are retrieved based on the similarity solution definition that can be configured to train on various fields such as **Short description** and **Description**. Adding the similar incidents as child incidents to the major incident record helps avoid creating multiple major incident records for the same issue.
 
 -   **Playbook tab**
 
@@ -74,7 +78,7 @@ After an incident is promoted to a major incident, each tab on a Major Incident 
     -   Record Information – Select the **Record information** \(\[Omitted image "mim-record-info.png"\] Alt text: Record information\) icon to view the incident record information on the side panel. The record information side panel includes the following information:
 
         -   Active calls – Details of the active conference calls for major incidents. You can select the call record to start a conference call.
-        -   Caller details – Name, local time, address, email id, and other caller information. Select the **Contact** option to view the caller details and caller assets. You can also see recent interactions and incidents with the caller.
+        -   Caller details – Name, local time, address, email ID, and other caller information. Select the **Contact** option to view the caller details and caller assets. You can also see recent interactions and incidents with the caller.
         -   SLAs and timing – Duration of time since a major incident has occurred, as well as the state of the response and the resolution SLAs for the major incident. You can select **View all SLA** to see all the task SLAs associated with the incident.
         -   Assign to – The assignment status of the incident. You can select the **Assign to** option to assign the incident to yourself. You can select the **View additional collaborators** option to view the list of collaborators associated with the incident.
         For more information on the record information in the Contextual side panel, see [Viewing incident record information using the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/view-inc-record-info-contextual-sidepanel.md).
@@ -90,7 +94,7 @@ Propose an incident to a major incident candidate based on the incident informat
 Manage the major incident life cycle and process using Major Incident Playbooks from the contextual side panel of an incident record page.
 -   **[Promote a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/promote-major-incident-sow.md)**  
 Review the information of the proposed major incident candidate and promote it to major incident using the Major Incident Playbook.
--   **[Communicating with stakeholders about incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)**  
+-   **[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)**  
 Use the **Communicate** tab to create and manage all communications with stakeholders during the various phases of an incident or a major incident.
 -   **[Collaborate with stakeholders during a major incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/collaborate-stakeholders-mim-sow.md)**  
 Collaborate with the required stakeholders during the various phases of a major incident to discuss and resolve the incident quickly. You can initiate a chat or make conference calls using a service provider to communicate with stakeholders.

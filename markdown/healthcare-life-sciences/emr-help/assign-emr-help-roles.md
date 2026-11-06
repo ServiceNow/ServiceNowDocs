@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring EMR Help, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Assign roles for EMR Help users
@@ -47,6 +47,16 @@ sn\_ind\_rmt\_help.requester
 </td><td>
 
 Submit and monitor a ServiceNow service request from within an EMR system.
+
+</td></tr><tr><td>
+
+sn\_ind\_rmt\_help.fulfiller
+
+</td><td>
+
+Fulfill EMR Help requests with read-only access to EMR-captured incident data.
+
+ **Note:** Assign this role to ITIL agents who fulfill EMR Help incidents. Subscription Management uses the sn\_ind\_rmt\_help.fulfiller role to identify EMR Help fulfiller licenses.
 
 </td></tr><tr><td>
 

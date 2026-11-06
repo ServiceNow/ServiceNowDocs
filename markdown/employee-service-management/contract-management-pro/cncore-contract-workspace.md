@@ -7,9 +7,11 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-10-06"
+reading_time_minutes: 2
+keywords: [Contracts workspace, Fulfiller workspace, Work on contract request, Contract requests, Contract filters, Contracts dashboard, Analytics Center, Contract report viewer, Request type filter]
+audience: sn\_cm\_core.contract\_fulfiller
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract Workspace
@@ -17,6 +19,8 @@ breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Se
 As a contract fulfiller, you can work with the actionable widgets on Contract Workspace to categorize, prioritize, and efficiently work on contract requests.
 
 The Contract Workspace homepage provides information on open contract requests, document revisions pending approval, and contracts due to expire. Selecting a widget to displays the related list of contract requests on a separate page. For Donut widgets, you can use the **Group by** filter to view the contract requests by state, status, or type of paper.
+
+\[Omitted image "cmpro-contract-workspace-main.png"\] Alt text: Contract workspace to view open contract requests, document revisions pending approval, and contracts due to expire
 
 <table id="table_xjs_r3d_dbc"><thead><tr><th>
 
@@ -94,6 +98,12 @@ Number of expiring contracts that you have executed. The contracts are grouped b
 </table>The Contract Workspace is built through the configurable UI Builder application. For more information, see [UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md).
 
 Access to the Contract Workspace requires activation of the Contract Workspace plugin. For more information, see [Activate Contract Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-activate-contract-workspace-plugin.md).
+
+## Contracts dashboard
+
+Users with the contract report viewer \[sn\_cm\_core.contract\_report\_viewer\] role can access the Contracts Dashboard directly from Contract Workspace. The Analytics Center icon appears in the left navigation bar of the workspace only when the user has this role.
+
+On the Contracts Dashboard, use the **Request type** multi-select filter to scope all charts and KPIs to one or more request types: New Contract, Amendment, or Renewal. By default, all three values are selected and the dashboard reflects data for all request types. To reset the filter, select all three values again.
 
 ## Contract Workspace benefits
 

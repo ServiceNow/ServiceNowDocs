@@ -1,20 +1,20 @@
 ---
 title: Exploring Digital Portfolio Management
-description: Learn about the Digital Portfolio Management \(DPM\) Workspace features and benefits to manage all of your solutions in one place. Solutions in the context of DPM are services, service offerings, business applications, and application services.
+description: Learn about the Digital Portfolio Management \(DPM\) Workspace features and benefits to manage all of your solutions in one place. Solutions in the context of DPM are services, service offerings, business applications, and service instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-explore-cfw.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Digital Portfolio Management, IT Service Management]
 ---
 
 # Exploring Digital Portfolio Management
 
-Learn about the Digital Portfolio Management \(DPM\) Workspace features and benefits to manage all of your solutions in one place. Solutions in the context of DPM are services, service offerings, business applications, and application services.
+Learn about the Digital Portfolio Management \(DPM\) Workspace features and benefits to manage all of your solutions in one place. Solutions in the context of DPM are services, service offerings, business applications, and service instances.
 
 ## Digital Portfolio Management overview
 
@@ -61,7 +61,7 @@ Both DPM admins and DPM managers benefit from working in the DPM Workspace.
 
 ## Digital Portfolio Management benefits
 
-The Digital Portfolio Management Workspace provides several benefits to help you manage the life cycle of services, service offerings, business applications, and application services.
+The Digital Portfolio Management Workspace provides several benefits to help you manage the life cycle of services, service offerings, business applications, and service instances.
 
 <table id="table_e5b_mt1_sbc"><thead><tr><th>
 
@@ -101,7 +101,7 @@ DPM admin
 
 </td></tr><tr><td>
 
-View all services, service offerings, application services, and business applications in personal portfolios and enterprise portfolios.
+View all services, service offerings, service instances, and business applications in personal portfolios and enterprise portfolios.
 
 </td><td>
 
@@ -115,7 +115,7 @@ DPM manager to view solutions.
 
 </td></tr><tr><td>
 
-View and set up key performance indicator \(KPI\) groups for services, service offerings, application services, and business applications.
+View and set up key performance indicator \(KPI\) groups for services, service offerings, service instances, and business applications.
 
 </td><td>
 

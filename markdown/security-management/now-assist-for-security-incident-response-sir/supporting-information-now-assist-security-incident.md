@@ -1,5 +1,5 @@
 ---
-title: Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)
+title: Supporting information
 description: Get a quick overview of the important information that is related to the ServiceNow Otto for Security Incident Response \(SIR\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/now-assist-for-security-incident-response-sir/supporting-information-now-assist-security-incident.html
@@ -7,25 +7,23 @@ release: yokohama
 product: Now Assist for Security Incident Response \(SIR\)
 classification: now-assist-for-security-incident-response-sir
 topic_type: concept
-last_updated: "2026-01-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist Security Operations]
 breadcrumb: [Explore, ServiceNow Otto for Security Incident Response \(SIR\), Security Operations]
 ---
 
-# Supporting information for ServiceNow Otto for Security Incident Response \(SIR\)
+# Supporting information
 
 Get a quick overview of the important information that is related to the ServiceNow Otto for Security Incident Response \(SIR\) application.
 
 ## Supported versions
 
-Version 3.0 of ServiceNow Otto for Security Incident Response \(SIR\) supports:
+Version 2.0.1 of ServiceNow Otto for Security Incident Response \(SIR\) supports:
 
--   Security Operations UI Components, v1.0.1
--   Recommended Actions for Security Operations, v1.0.1
--   legacy UI \(UI16\): Security Incident Response core application, v13.6.5
+-   legacy UI \(UI16\): Security Incident Response core application, v13.6.4
 -   Security Incident Response Workspace \(SIR Workspace\), v1.7.0
--   Now Assist for ServiceNow AI Platform® v6.0.0
+-   ServiceNow Otto for ServiceNow AI Platform® v6.0.1
 
 ## Supported user interfaces
 
@@ -48,9 +46,9 @@ Security Incident Response
 -   Security Incident summarization.
 -   Recommended next steps generation for a security incident.
 -   Post incident analysis generation that includes root cause analysis, impact assessment, and lessons learned.
--   Now Assist panel.
+-   ServiceNow Otto panel.
 -   Closure notes generation.
--   Correlation insights from the Now Assist panel.
+-   Correlation insights from the ServiceNow Otto panel.
 -   Analyze security operations metrics for your remediation teams.
 -   Security Incident Quality Assessment generation
 
@@ -63,9 +61,9 @@ Legacy UI16
 -   Security Incident summarization
 -   Recommended next steps generation for a security incident.
 -   Post incident analysis generation that includes root cause analysis, impact assessment, and lessons learned.
--   Now Assist panel.
+-   ServiceNow Otto panel.
 -   Closure notes generation.
--   Correlation insights from the Now Assist panel.
+-   Correlation insights from the ServiceNow Otto panel.
 -   Analyze security operations metrics for your remediation teams.
 
 </td></tr></tbody>

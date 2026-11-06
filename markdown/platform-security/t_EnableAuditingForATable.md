@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/t\_EnableAuditingForATable.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Auditing]
 ---
@@ -41,5 +41,5 @@ Role required: admin.
 
 ## What to do next
 
-If you want to audit only a few fields in the table [Enabling inclusion list auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/enable-whitelist-for-table.md). If you want to audit most – but exclude some – fields, see [Exclude a field from being audited \(exclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ExcludeAFieldFromBeingAudited.md).
+If you want to audit only a few fields in the table [Enable inclusion list auditing for a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/enable-whitelist-for-table.md). If you want to audit most – but exclude some – fields, see [Exclude a field from being audited \(exclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ExcludeAFieldFromBeingAudited.md).
 

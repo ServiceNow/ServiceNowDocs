@@ -1,20 +1,20 @@
 ---
-title: Change Management - Predictive Intelligence Core
-description: To activate Change Management predictive intelligent features, the Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) is required and is automatically installed along with other through Change Management Predictive Intelligence plugins that are requested using the Now Support Customer Service system.
+title: Request Change Management - Predictive Intelligence Core
+description: The Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) activates predictive intelligence features for Change Management. It installs automatically with other Change Management Predictive Intelligence plugins requested through the Now Support Customer Service system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/request-cm-picore.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Change Management plugins, Configure, Change Management, IT Service Management]
 ---
 
-# Change Management - Predictive Intelligence Core
+# Request Change Management - Predictive Intelligence Core
 
-To activate Change Management predictive intelligent features, the Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) is required and is automatically installed along with other through Change Management Predictive Intelligence plugins that are requested using the Now Support Customer Service system.
+The Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) activates predictive intelligence features for Change Management. It installs automatically with other Change Management Predictive Intelligence plugins requested through the Now Support Customer Service system.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: maint
 
 ## About this task
 
-The Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) plugin activates these related plugins if they are not already active.
+The Change Management - Predictive Intelligence Core plugin \(com.snc.change\_management.ml\) activates these related plugins if they are not already active.
 
 <table id="table_fvt_nq2_plb"><thead><tr><th>
 
@@ -46,8 +46,6 @@ Using Predictive Intelligence you an create, train, and test solutions so that y
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
-
-    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -88,22 +86,20 @@ Select the date and time to activate the plugin.
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
 
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
-
 4.  Select **Submit**.
 
     After the maintenance window, the system installs the plugin on your instance. To confirm the installation, go to the Installed tab in the Application Manager.
 
 
 -   **[Components installed with Change Management - Predictive Intelligence Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/installed-withpicore.md)**  
-Several types of components are installed with activation of the Change Management - Predictive Intelligence Core plugin that includes tables. These tables can be utilized only after the other Change Management Predictive Intelligence plugins are activated.
+Several types of components are installed with activation of the Change Management - Predictive Intelligence Core plugin, including tables. These tables can be used only after the other Change Management Predictive Intelligence plugins are activated.
 
 **Parent Topic:**[Change Management plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-plugins.md)
 
 **Related topics**  
 
 
-[Request ITSM Roles- Change Management]()
+[Request ITSM Roles - Change Management]()
 
 [Activate Business Stakeholder]()
 
@@ -111,7 +107,7 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Collision Detector]()
 
-[Activate Best Practice - Change Risk Calculator]()
+[Activate Change Management - Risk Calculator]()
 
 [Activate Change Management - Change Schedule]()
 
@@ -123,11 +119,11 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Mass Update CI]()
 
-[Activate Change Management -Approval policy]()
+[Activate Change Management - Approval policy]()
 
 [Activate Change Management - CAB Workbench]()
 
-[Activate Change Management ATF Tests]()
+[Activate Change Management - ATF Tests]()
 
 [Activate Change Management - Core]()
 
@@ -141,9 +137,9 @@ Several types of components are installed with activation of the Change Manageme
 
 [Activate Change Management - Change Models]()
 
-[Activate Change Management Success Probability]()
+[Activate Change Management - Success Probability]()
 
 [Activate Change Management - Data Archiving]()
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

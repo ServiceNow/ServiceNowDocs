@@ -1,22 +1,22 @@
 ---
 title: Setup for a business continuity plan
-description: The BCP administrator can perform certain administrative tasks that are listed in the General Administration section of the Business Continuity Management application.
+description: The business continuity plan \(BCP\) administrator can perform certain administrative tasks that are listed in the General Administration section of the Business Continuity Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcp-admin-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Setup for a business continuity plan
 
-The BCP administrator can perform certain administrative tasks that are listed in the **General Administration** section of the Business Continuity Management application.
+The business continuity plan \(BCP\) administrator can perform certain administrative tasks that are listed in the **General Administration** section of the Business Continuity Management application.
 
 The administrative tasks for business continuity planning are listed in the **General Administration** section in the application navigator.
 
-Typically, the BCP plan administrator with the sn\_bcp.plan\_admin role performs the following administrative tasks:
+BCP administrator with the sn\_bcp.plan\_admin role performs the administrative tasks:
 
 -   Configure plan templates: For more information, see [Configure the business continuity plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-a-bcp-template-uib-ws.md).
 -   Configure documentation sections in the business continuity plan: For more information, see [Configure documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-doc-section-for-bcp.md).

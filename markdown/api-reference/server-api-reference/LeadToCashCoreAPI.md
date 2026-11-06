@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 36
+last_updated: "2026-09-10"
+reading_time_minutes: 46
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -16,19 +16,20 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The LeadtoCashCore script include provides methods to orchestrate a lead-to-cash workflow in the Lead to Cash Core life cycle.
 
-The Lead to Cash Core \(com.snd.l2c.core\) plugin must be activated for LeadtoCashCore script includes to be available in an instance. This script include belongs to the sn\_l2c\_core namespace and requires the admin role.
+The Lead to Cash Core \(com.snc.l2c.core\) plugin must be activated for LeadtoCashCore script includes to be available in an instance. This plugin can be accessed via the Lead to Cash Core \(com.snc.l2c\_core\) application in the ServiceNow Store. This script include belongs to the sn\_l2c\_core namespace and requires the admin role.
 
-In a lead to cash workflow, you map a source entity to a target entity. An entity is defined as a collection of tables. Source-to-target mapping allows you to transform the structure or content of the source entity to fit the structure or content needed in the target entity. The functionality provided by this script include represents the entity mapping feature available in the Lead to Cash feature. See [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/lead-to-cash-workflows.md) for more information.
+In a lead to cash workflow, you map a source entity to a target entity. An entity is defined as a collection of tables. Source-to-target mapping allows you to transform the structure or content of the source entity to fit the structure or content needed in the target entity. The functionality provided by this script include represents the entity mapping feature available in the Lead to Cash feature. See  for more information.
 
 To complete a workflow using the LeadtoCash script include, you pass return parameters from one method to the next. Typically, you call these methods in the following order:
 
-1.  [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Fetches the data of a given entity. For example, customer order-related information including line items and their related data.
+1.  [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Contains a utility for retrieving the extension point used to invoke scripts. Must be provided with every method call. See the 'Prequisites' section in this topic for more information.
+2.  [LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Fetches the data of a given entity. For example, customer order-related information including line items and their related data.
 
-    Use the **context** parameter to declare one or more header or line IDs in the script. For such multi-select use cases, the output JSON contains a key items array where each entry represents a single entity.
+    Use the **context** parameter to declare one or more header or line IDs in the script, referred to as "multi-select". Pass the **context.entityConfigId** parameter to invoke the script without any defined mapping. For such multi-select use cases, the output JSON contains a key items array where each entry represents a single entity.
 
-2.  [LeadtoCashCore - delta\(Object sourceJSON, Object dirtyJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Compares two JSON inputs and identifies any changes that occurred between them. For example, when something is added, deleted, or modified in an entity.
-3.  [LeadtoCashCore - effect\(Object sourceJSON, Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Transforms the source JSON target into a target object.
-4.  [LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Commits the transformation made in the effect\(\) script include to the database.
+3.  [LeadtoCashCore - delta\(Object sourceJSON, Object dirtyJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Compares two JSON inputs and identifies any changes that occurred between them. For example, when something is added, deleted, or modified in an entity.
+4.  [LeadtoCashCore - effect\(Object sourceJSON, Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Transforms the source JSON object into a target object.
+5.  [LeadtoCashCore - commitInstance\(Object targetJSON, Object additionalParams\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) - Commits the transformation made in the effect\(\) script include to the database.
 
 **Note:** If necessary, delta\(\) may be skipped in this workflow. However, calling these methods out of order results in an unsuccessful workflow \(for example, when calling commitInstance\(\) and then effect\(\)\).
 
@@ -38,14 +39,16 @@ Each of these methods are bundled with an extension point, sn\_l2c\_core.LeadToC
 
 ## Example Lead to Cash Core workflow script
 
-Though each of the available Lead to Cash Core script includes are documented individually, you can reference the following example to see how you can use these methods together to produce a Lead to Cash work flow.
+Though each of the available Lead to Cash Core script includes are documented individually, you can reference the following example to see how you can use these methods together to produce a lead to cash work flow.
 
 ```
 var util = new sn_l2c_core.PrimitiveUtil(); 
- 
-var context = {"isMultiSelect": false}; // Set the context.isMultiSelect parameter as true to enable multi-select use cases
 
-//Flow: Creation of Order from a sold product 
+// Set the context.isMultiSelect parameter as true to enable multi-select use cases
+// Set the context.entityConfigId parameter to the config id of the source entity (sold prodcut) to trigger createInstance with only configId 
+var context = {"isMultiSelect": false, "entityConfigId": “sn_l2c_cust_flows_sold_product”}; 
+
+//Flow: Creation of an order from a sold product 
 var service = util.getPrimitivesEPService('sn_l2c_cust_flows_sp_to_order', context);  
   
 //CREATE INSTANCE to get the data of sold product with sys_id '06670ba3c3adbd501caee74bb0013166' 
@@ -105,10 +108,25 @@ Object
 
 Optional. Additional parameter options for displaying attribute values and for invoking more than one instance at a time.```
 "context": {
-  "isMultiSelect": "Boolean"
+  "entityConfigId": "String",
+  "isMultiSelect": "Boolean",
   "loadDisplayValue": "Boolean"
 }
 ```
+
+</td></tr><tr><td>
+
+context.entityConfigId
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Configuration ID of the entity. If both **entityConfigId** and **sourceToTargetConﬁgID** are provided, priority is given to **entityConfigId**.Table: Lead To Cash Entity \[sn\_l2c\_core\_entity\]
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -166,10 +184,23 @@ The following example invokes PrimitiveUtil\(\) and picks an implementation base
 ```
 //Utility to invoke createInstance API  
 var util = new sn_l2c_core.PrimitiveUtil(); 
-var context = {"isMultiSelect": true}; // Set the context.isMultiSelect parameter as true to enable multi-select use cases
+var context = {"isMultiSelect": true}; // Set the context.isMultiSelect parameter as true to enable multi-select use cases.
 
 //Invokes the extension point and specifies an implementation based on sourceToTargetConfigID of a L2C flow.  
 var service = util.getPrimitivesEPService('sn_l2c_cust_flows_sp_to_order’, context)
+```
+
+The following example invokes PrimitiveUtil\(\) and picks an implementation based on the configId, `l2c_order`, in the Lead To Cash Entity \[sn\_l2c\_core\_entity\] table.
+
+```
+//Utility to invoke createInstance API   
+var util = new sn_l2c_core.PrimitiveUtil();  
+var context = {"isMultiSelect": true, “entityConfigId”: “l2c_order”};  
+// Set the context.isMultiSelect parameter as true to enable multi-select use cases. 
+// Set the context.entityConfigId parameter if createInstance needs to be invoked with only configId. 
+ 
+//Invokes the extension point and uses default implementation based on entityConfigId of a L2C flow.   
+var service = util.getPrimitivesEPService('’, context); 
 ```
 
 ## LeadtoCashCore - createInstance\(String headerSysIDs, String lineSysIDs, Boolean isTarget, Object additionalParams\)
@@ -178,9 +209,19 @@ Returns the data of one or more given entities with a JSON object containing var
 
 Use the output JSON of the createInstance\(\) method in subsequent methods of the Lead to Cash Core workflow such as delta\(\), effect\(\), and commitInstance\(\).
 
-**Note:** The LeadtoCashCore script include requires you to first call the script utility method PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling createInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+### Requirements
 
-Set the getPrimitivesEPService\(\) boolean parameter **context.isMultiSelect** to true to enable createInstance\(\) to pass multiple, comma-separated headerIDs or lineIDs at a time. Otherwise, you can only pass one ID at a time. See [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) for more details. The single headerID use case with multiple lineIDs is supported without setting **context.isMultiSelect** to true.
+The LeadtoCashCore script include requires you to first call the script utility method PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling createInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+
+### Considerations
+
+-   To enable createInstance\(\) to pass multiple, comma-separated headerIDs or lineIDs at a time, set the getPrimitivesEPService\(\) boolean parameter **context.isMultiSelect** to true. Otherwise, you can only pass one ID at a time. The single headerID use case with multiple lineIDs is supported without setting **context.isMultiSelect** to true.
+
+-   To enable createInstance\(\) to be invoked with only the configuration ID of the entity, set the getPrimitivesEPService\(\) String parameter, **context.entityConfigId**. If both entityConfigId and sourceToTargetConfigID are passed, entityConfigId is prioritized to execute createInstance\(\).
+
+    For more information about this functionality, see [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md).
+
+-   `createInstance()` supports selective data retrieval and multiple root entity definitions, allowing developers to explicitly fetch ramps and headerless scenarios using additional parameters such as **fetchRecordSysIds** and **multiSelectMerge**.
 
 <table id="table_rn1_yzl_d1c" class="parameters"><thead><tr><th>
 
@@ -222,6 +263,66 @@ Optional. Flag that indicates whether to fetch line items for the specified enti
 -   false: Return line items information for the entity.
 
 Default: false
+
+</td></tr><tr><td>
+
+fetchRecordSysIds
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Enables selective fetching of data for both header‑based and header‑less scenarios by explicitly mapping table names to sys\_ids.Behavior:
+
+-   With header: Allows selective fetching of child entities \(like ramps\) linked to the header. If ramp IDs aren't provided, fetches all ramps linked to header.
+-   Without header: Supports fetching of ramps where direct relationships are missing in header-less entities. Ramp IDs must be included; without them, doesn't return ramp data.
+
+Structure:
+
+```
+[{
+ "<table_name1>": "<sys_id1>", 
+ "<table_name2>": "<sys_id2>", 
+}]
+```
+
+</td></tr><tr><td>
+
+multiSelectMerge
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Only for no-header scenarios. Flag that indicates whether to merge data of same context-type into a single flat structure.Valid values:
+
+-   true: Merges same context-type data in a flat structure.
+-   false: Doesn't merge data.
+
+</td></tr><tr><td>
+
+additionalParams.allowedContextTypes
+
+</td><td>
+
+Array of Strings
+
+</td><td>
+
+Optional. Controls population and processing to only those types listed in allowedContextTypes, excluding all other unrelated sections.Valid values:
+
+-   For header-based partial sync, `header` must be passed in **allowedContextTypes** to allow this method to build the root structure.
+-   For no-header partial sync, `lineItems` must be passed in **allowedContextTypes** to allow this method to build the structure for processing child data.
+
+Structure:
+
+```
+allowedContextTypes: ["header","headerRelatedParty"]  }; 
+```
 
 </td></tr><tr><td>
 
@@ -930,11 +1031,264 @@ Response:
 }
 ```
 
+### Invoke createInstance\(\) with entityConfigId
+
+The example script below invokes the createInstance\(\) method to load the data of an order, its entire hierarchy, and its characteristics. The example demonstrates in an sp to order flow, we want to fetch the sales agreement data attached to the sold product.
+
+```
+// Utility to invoke createInstance API
+var util = new sn_l2c_core.PrimitiveUtil();
+
+var quoteToSA = "sn_l2c_quote_to_sales_agreement_pricing";
+
+var context = {
+  "entityConfigId": "sn_l2c_sales_agreement"
+};
+
+var spToOrder = "sn_l2c_cust_flows_sp_to_order";
+
+var service = util.getPrimitivesEPService(spToOrder, context);
+
+var createInstanceOutput = service.createInstance("c8e1e678432242105eba72eb3ab8f261");
+
+gs.info("Sales Agreement JSON " + JSON.stringify(createInstanceOutput));
+
+// The returned JSON can be used for subsequent methods of the flow such as delta(), effect() and commitInstance()
+```
+
+Output:
+
+```
+{
+  "table": "sn_sales_agmt_core_sales_agreement",
+  "sys_id": {
+    "value": "c8e1e678432242105eba72eb3ab8f261"
+  },
+  "attributes": {
+    "account": {
+      "value": "051f62b0d7300200e5982cf65e610333"
+    },
+    "short_description": {
+      "value": "1 year sales agreement for Spark Technologies"
+    }
+  },
+  "lineItems": [
+    {
+      "table": "sn_sales_agmt_core_sales_agreement_line",
+      "sys_id": {
+        "value": "4104369034641210f877af77d9dd31bb"
+      },
+      "attributes": {
+        "sales_agreement": {
+          "value": "c8e1e678432242105eba72eb3ab8f261"
+        },
+        "short_description": {
+          "value": "Home Automation Bundle"
+        }
+      },
+      "lineItems": [
+        {
+          "table": "sn_sales_agmt_core_sales_agreement_line",
+          "sys_id": {
+            "value": "45e6fa4a436a02105eba72eb3ab8f247"
+          },
+          "attributes": {
+            "sales_agreement": {
+              "value": "c8e1e678432242105eba72eb3ab8f261"
+            },
+            "short_description": {
+              "value": "Outdoor Camera"
+            }
+          },
+          "lineItems": [],
+          "characteristics": [],
+          "pricingAdjustments": []
+        },
+        {
+          "table": "sn_sales_agmt_core_sales_agreement_line",
+          "sys_id": {
+            "value": "73e6fa4a436a02105eba72eb3ab8f25a"
+          },
+          "attributes": {
+            "sales_agreement": {
+              "value": "c8e1e678432242105eba72eb3ab8f261"
+            },
+            "short_description": {
+              "value": "Indoor Camera"
+            }
+          },
+          "lineItems": [],
+          "characteristics": [],
+          "pricingAdjustments": []
+        }
+      ],
+      "characteristics": [],
+      "pricingAdjustments": []
+    }
+  ]
+}
+```
+
+### Partial sync of Related Parties using allowedContextTypes
+
+The following createInstance\(\) script sets **allowedContextTypes** with `header` and `headerRelatedParty` to output only those two populated sections in the sn\_l2c\_quote\_to\_opportunity table.
+
+```
+var util1 = new sn_l2c_core.PrimitiveUtil();
+var service1 = util1.getPrimitivesEPService('sn_l2c_quote_to_opportunity'); // WITH HEADER FLOW
+var quoteId = '04ba9004f11f3110f8777d7194f166f6';
+var additionalParams1 = {
+    allowedContextTypes: ["header", "headerRelatedParty"]
+};
+
+var quoteInstance = service1.createInstance(quoteId, null, false, additionalParams1);
+gs.info(JSON.stringify(quoteInstance));
+```
+
+Output. The output contains only those two populated sections defined in the **allowedContextTypes**. All other context-types \(lines, childLines, characteristics, etc.\) are empty or omitted, allowing partial sync.
+
+```
+{
+  "table": "sn_quote_mgmt_core_quote",
+  "sys_id": {
+    "value": "04ba9004f11f3110f8777d7194f166f6"
+  },
+  "attributes": {
+    "renewal_adjustment_value": { "value": "" },
+    "contract_start_date": { "value": "2024-01-01" },
+    "total_net_new_amount": { "value": "USD;0" },
+    "agreement_start_date": { "value": "" },
+    "total_one_time_price": { "value": "USD;214" },
+    "consumer": { "value": "" },
+    "billing_location": { "value": "" },
+    "document_template": { "value": "" },
+    "pricelist": { "value": "19d29513d0e63110f8770dbf976be122" },
+    "assignment_group": { "value": "a4b31c0cf1db3110f8777d7194f166e9" },
+    "partner_contact": { "value": "" },
+    "auto_generated_for_renewal": { "value": "false" },
+    "contract_end_date": { "value": "2025-12-31" },
+    "active": { "value": "true" },
+    "billing_state": { "value": "" },
+    "external_system": { "value": "" },
+    "renewal_adjustment_type": { "value": "" },
+    "source_opportunity": { "value": "" },
+    "total_annual_recurring_price_v2": { "value": "USD;1596" },
+    "internal_signer": { "value": "" },
+    "costbook": { "value": "a3042cdce405c210f8773750028d6f72" },
+    "payment_terms": { "value": "" },
+    "shipping_location": { "value": "" },
+    "seller_organization": { "value": "" },
+    "contact": { "value": "4d147a386f0331003b3c498f5d3ee437" },
+    "external_id": { "value": "" },
+    "transaction_date": { "value": "2023-12-18 23:37:11" },
+    "version": { "value": "1" },
+    "billing_zip": { "value": "" },
+    "previous_quote": { "value": "" },
+    "assigned_to": { "value": "b9b19484f1db3110f8777d7194f166d1" },
+    "total_monthly_recurring_price_v2": { "value": "USD;133" },
+    "agreement_end_date": { "value": "" },
+    "contract_type": { "value": "" },
+    "renewal_adjustment_basis": { "value": "" },
+    "header_api": { "value": "" },
+    "channel": { "value": "agent_assist" },
+    "existing_contract": { "value": "" },
+    "state": { "value": "draft" },
+    "header_id": { "value": "04ba9004f11f3110f8777d7194f166f6" },
+    "account": { "value": "86837a386f0331003b3c498f5d3ee4ca" },
+    "quote_type": { "value": "add" },
+    "billing_street": { "value": "" },
+    "same_as_shipping_address": { "value": "false" },
+    "work_notes": { "value": "" },
+    "comments": { "value": "" },
+    "short_description": {
+      "value": "B2B - Quadplay Home Tech Hub Bundle"
+    },
+    "partner": { "value": "" },
+    "sales_agreement": { "value": "" },
+    "total_renewal_amount": { "value": "USD;0" },
+    "sa_quote": { "value": "false" },
+    "external_signer": { "value": "" },
+    "shipping_city": { "value": "" },
+    "discount_percentage": { "value": "" },
+    "expiration_date": { "value": "" },
+    "billing_city": { "value": "" },
+    "currency": { "value": "USD" },
+    "shipping_country": { "value": "" },
+    "billing_country": { "value": "" },
+    "record_number": { "value": "QT0000001" },
+    "shipping_state": { "value": "" },
+    "initial_quote": {
+      "value": "04ba9004f11f3110f8777d7194f166f6"
+    },
+    "shipping_street": { "value": "" },
+    "shipping_zip": { "value": "" },
+    "total_amount": { "value": "USD;1897.2689" },
+    "term_month": { "value": "24" },
+    "total_upsell_downsell_amount": { "value": "USD;0" },
+    "auto_renew": { "value": "false" }
+  },
+  "ramp": [],
+  "lineItems": [],
+  "headerRelatedParty": [
+    {
+      "table": "sn_quote_mgmt_core_quote_related_party",
+      "sys_id": {
+        "value": "a822ac20740f3690f877229405634411"
+      },
+      "attributes": {
+        "type": {
+          "value": "e12455b553716210c6caddeeff7b12d3"
+        },
+        "seller_organization": { "value": "" },
+        "active": { "value": "true" },
+        "responsibility": {
+          "value": "c7ccc21b65ed1910f87764df53db7725"
+        },
+        "order": { "value": "20" }
+      }
+    }
+  ]
+}
+```
+
+### Multi-Select Merge
+
+The following example fetches ramped Sold Products \(multiple Sold Products with a single ramp\) and merges all ramps together and all entities together in a flat structure.
+
+```
+/******** Sold Product to Order - MultiSelectMerge for Ramped SPs ********/ 
+
+var util = new sn_l2c_core.PrimitiveUtil(); 
+var service = util.getPrimitivesEPService('sn_l2c_cust_flows_sp_to_order'); 
+
+var spIDs = 'aedfb2a6e9de4210f8774eb53302a639,28490592cc253210f87793fd12b09a97'; 
+var additionalParams = { 
+"multiSelectMerge": true, 
+"fetchRecordSysIds": [{ 
+"sn_install_base_sold_product_ramp": "5b8c9d9ac429b210f87756e9cf81cc6b" 
+}] 
+}; 
+var SPInstance = service.createInstance(null, spIDs, false, additionalParams); 
+
+gs.info("SPInstance: " + JSON.stringify(SPInstance)); 
+```
+
+Output:
+
+```
+{
+  "ramp": [{"sys_id": {...}}], 
+  "lineItems": [{"sys_id": {...}}, {"sys_id": {...}}] 
+}
+```
+
 ## LeadtoCashCore - delta\(Object sourceJSON, Object dirtyJSON, Object additionalParams\)
 
 Compares the source and modified source JSON objects of a lead to cash entity and returns a JSON object that describes any changes made to the source JSON, such as any additions, deletions, or modifications.
 
 **Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling delta\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+
+To enable delta\(\) to be invoked with only the configuration ID of the entity, set the getPrimitivesEPService\(\) string parameter, **context.entityConfigId**. If both **entityConfigId** and **sourceToTargetConfigID** are passed, **entityConfigId** is prioritized to execute delta\(\).
 
 <table id="table_hvh_twm_d1c" class="parameters"><thead><tr><th>
 
@@ -2161,7 +2515,9 @@ Output:
 
 Commits the JSON of a given lead to cash entity to the instance, returns a status message with updated information, and updates the Lead to Cash Core Entity table as a result.
 
-**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the implementation before calling commitInstance\(\) in your script. Per each flow, get the service only once and use the same service for all LeadtoCashCore methods.
+**Note:** The LeadtoCashCore script include requires you to first call the scripted extension point PrimitiveUtil\(\) with the [LeadtoCashCore - getPrimitivesEPService\(String sourceToTargetConfigID, Object context\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/LeadToCashCoreAPI.md) utility method to trigger the do before calling commitInstance\(\) in your script. Per each flow, become the service only one and use the same service for all LeadtoCashCore methods.
+
+As of the March 2026 \(v1.8\) store release, the commitInstance\(\) method at this time returns a structured **dataObject** that groups all root entities by type \(for example, `lineItems` and `ramp`\), allowing developers to reliably access Sold Products and their associated ramps from a one commit response.
 
 <table id="table_lmb_zym_d1c" class="parameters"><thead><tr><th>
 
@@ -2209,12 +2565,12 @@ Boolean
 
 </td><td>
 
-Optional. Flag that indicates whether to generate sys\_numbers in bulk. Valid values:
+Optional. Flag that indicates if to generate sys\_numbers in bulk. Applicable values:
 
 -   true: Generate the sys\_numbers in bulk to be utilized during the record insertion process. Reduces the need for additional queries to fetch numbers and decreases insertion time.
--   false: Generate the sys\_number individually at the time of insertion for each record.
+-   incorrect: Generate the sys\_number individually at the time of insertion for each record.
 
-Default: false
+Default: incorrect
 
 </td></tr></tbody>
 </table><table id="table_mmb_zym_d1c" class="returns"><thead><tr><th>
@@ -2245,22 +2601,32 @@ Details about the target entity record.Data type: Object
 }
 ```
 
+**Note:** **headerID** is only present for header entities, **rootLineIDs** are only present for no‑header entities. **dataObject**, **displayMessage**, **error**, **message**, and **status** are always present.
+
 </td></tr><tr><td>
 
 dataObject
 
 </td><td>
 
-JSON object that contains detailed data on the commit operations performed at each level.Data type: Object
+JSON object that has detailed data on the commit operations performed at each level. **Note:** As of the March 2026 store release, the **dataObject** field at this time accumulates all root entity types by their typeValue keys \(for example lineItems, ramp\), preserving data for all root entities.
+
+Data type: Object
+
+Structure when entity has a header:
 
 ```
-"dataObject": {
-  "_commitObjectInfo": {Object},
+dataObject: {
+  "sys_id": "String",
+  "table": "String",
+  "attributes": {Object},
   "_glide_action": "String",
   "_source_object": {Object},
+  "_commitObjectInfo": {Object},
   "lineItems": [Array],
-  "sys_id": "String",
-  "table": "String"
+  "ramp": [Array],
+  "headerRelatedParty": [Array],
+  "characteristics": [Array]
 }
 ```
 
@@ -2270,7 +2636,7 @@ dataObject.\_commitObjectInfo
 
 </td><td>
 
-Commit status and sys\_id if the line item change is an INSERT action.Data type: Object
+Commit status and sys\_id if the line item change is an ENGAGE action.Data type: Object
 
 ```
 "_commitObjectInfo": {
@@ -2281,14 +2647,120 @@ Commit status and sys\_id if the line item change is an INSERT action.Data type:
 
 </td></tr><tr><td>
 
+dataObject.ramp
+
+</td><td>
+
+Represents the ramp group\(s\) associated with a header or Sold Material.Array of Objects
+
+```
+"ramp": { 
+  "sys_id": "String",  
+  "table": "String", 
+  "attributes": {Object} 
+}
+```
+
+</td></tr><tr><td>
+
+dataObject.ramp.sys\_id
+
+</td><td>
+
+Sys\_id of the ramp. Providing ramp IDs without the parent mapping is considered invalid input for no-header and multiselect patterns.Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.table
+
+</td><td>
+
+Table name of the ramp entity associated with the committed Sold Material or header. For example, `"sn_install_base_sold_product_ramp"`.Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute
+
+</td><td>
+
+Attributes of the ramp.Data type: Object
+
+```
+"attributes": { 
+  "end_date": String,
+  "parent": String,
+  "parent_table": String,
+  "ramp_type": String,
+  "start_date": String,
+  "status": String,
+  "term": String
+}
+```
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute.parent
+
+</td><td>
+
+Sys\_id of the ramp's parent attribute.Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute.parent\_table
+
+</td><td>
+
+Table location of the attribute. For example, `table_name`.Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute.ramp\_type
+
+</td><td>
+
+Type of ramp.Possible values:
+
+-   Quarterly
+-   Yearly
+-   Custom
+
+Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute.term
+
+</td><td>
+
+Term.Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute.start\_date
+
+</td><td>
+
+Start date of the ramp.Data type: String
+
+</td></tr><tr><td>
+
+dataObject.ramp.attribute.end\_date
+
+</td><td>
+
+End date of the ramp.Data type: String
+
+</td></tr><tr><td>
+
 dataObject.\_commitObjectInfo.status
 
 </td><td>
 
 Status of the commit operation performed on the particular entity. Possible values:
 
--   success: The entity commit operation was successful.
--   failure: The entity commit operation wasn't successful.
+-   success: The entity commit operation was correct.
+-   if...not: The entity commit operation wasn't correct.
 
 Data type: String
 
@@ -2298,7 +2770,7 @@ dataObject.\_commitObjectInfo.sys\_id
 
 </td><td>
 
-Sys\_id of the inserted record. The method returns this parameter only if the **dataObject.\_glide\_action** is `INSERT`. The updated table may vary between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\].Data type: String
+Sys\_id of the inserted record. The method returns this parameter only if the **dataObject.\_glide\_action** is `ENGAGE`. The updated table possibly change between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\].Data type: String
 
 </td></tr><tr><td>
 
@@ -2308,8 +2780,8 @@ dataObject.\_glide\_action
 
 Change action that occurred on the line item. Possible values:
 
--   DELETE: Information was removed between the source and target JSON structures.
--   INSERT: Information was added between the source and target JSON structures.
+-   REMOVE: Information was removed between the source and target JSON structures.
+-   ENGAGE: Information was added between the source and target JSON structures.
 -   NO\_CHANGE: No change occurred between the source and target JSON structures.
 -   UPDATE: Information was modified between the source and target structures.
 
@@ -2321,7 +2793,7 @@ dataObject.\_source\_object
 
 </td><td>
 
-Source JSON object to which changes were applied. The object structure may vary between entities.Data type: Object
+Source JSON object to which changes were applied. The object structure possibly change between entities.Data type: Object
 
 ```
 "_source_object": {
@@ -2336,7 +2808,7 @@ dataObject.\_source\_object.sys\_id
 
 </td><td>
 
-Sys\_id of the source entity record to which the \_glide\_action was applied. The updated table may vary between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\].Data type: String
+Sys\_id of the source entity record to which the \_glide\_action was applied. The updated table possibly change between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\].Data type: String
 
 </td></tr><tr><td>
 
@@ -2344,7 +2816,7 @@ dataObject.\_source\_object.table
 
 </td><td>
 
-Name of the table that contains the source entity record to which the \_glide\_action was applied. This may vary between entities.Data type: String
+Name of the table that has the source entity record to which the \_glide\_action was applied. This possibly change between entities.Data type: String
 
 </td></tr><tr><td>
 
@@ -2352,7 +2824,7 @@ dataObject.lineItems
 
 </td><td>
 
-Line item details of the entity record. For example, order line items or quote line items.Data type: Array of Objects
+Line item details of the entity record. For example, order line items or give line items.Data type: Array of Objects
 
 ```
 "lineItems": [ 
@@ -2392,7 +2864,7 @@ dataObject.lineItems.\_commitObjectInfo
 
 </td><td>
 
-Returned if the line item change is an `INSERT` action. Contains the object’s commit status and sys\_id.Data type: Object
+Returned if the line item change is an `ENGAGE` action. Has the object’s commit status and sys\_id.Data type: Object
 
 ```
 "_commitObjectInfo": { 
@@ -2409,8 +2881,8 @@ dataObject.lineItems.\_commitObjectInfo.status
 
 Status of the commit operation performed on the particular entity. Possible values:
 
--   success: The entity commit operation was successful.
--   failure: The entity commit operation wasn't successful.
+-   success: The entity commit operation was correct.
+-   if...not: The entity commit operation wasn't correct.
 
 Data type: String
 
@@ -2420,7 +2892,7 @@ dataObject.lineItems.\_commitObjectInfo.sys\_id
 
 </td><td>
 
-Sys\_id of the inserted record. The updated table may vary between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\].Data type: String
+Sys\_id of the inserted record. The updated table possibly change between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\].Data type: String
 
 </td></tr><tr><td>
 
@@ -2474,10 +2946,10 @@ dataObject.lineItems.\_state
 
 </td><td>
 
-State of the object.Possible values:
+Condition of the object.Possible values:
 
--   active: The entity object is in an active state.
--   inactive: The entity object isn't in an active state.
+-   active: The entity object is in an active condition.
+-   inactive: The entity object isn't in an active condition.
 
 Data type: String
 
@@ -2575,7 +3047,7 @@ dataObject.lineItems.characteristics.attributes.&lt;attribute\_type&gt;
 
 </td><td>
 
-Name of the characteristic attribute. May contain varying fields of the entity.Data type: Object
+Name of the quality attribute. Possibly contain varying fields of the entity.Data type: Object
 
 ```
 "<attributes_type>": { 
@@ -2589,7 +3061,7 @@ dataObject.lineItems.characteristics.attributes.&lt;attribute\_type&gt;.&lt;attr
 
 </td><td>
 
-Name of the characteristic attribute.Data type: Object
+Name of the quality attribute.Data type: Object
 
 ```
 "<attribute_name>": { 
@@ -2692,7 +3164,7 @@ dataObject.sys\_id
 
 </td><td>
 
-Sys\_id of the associated line item record. The updated table may vary between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\]. Data type: String
+Sys\_id of the associated line item record. The updated table possibly change between entities. For example, Order \[sn\_ind\_tmt\_orm\_order\]. Data type: String
 
 </td></tr><tr><td>
 
@@ -2700,7 +3172,7 @@ dataObject.table
 
 </td><td>
 
-Name of the table that contains the record of the lead to cash entity.Data type: String
+Name of the table that has the record of the lead to cash entity.Data type: String
 
 </td></tr><tr><td>
 
@@ -2716,7 +3188,7 @@ error
 
 </td><td>
 
-Error message that describes the failure of the commitInstance method. If the request is successful, this parameter returns an empty string.Data type: String
+Error message that describes the if...not of the commitInstance method. If the request is correct, this parameter returns an empty string.Data type: String
 
 </td></tr><tr><td>
 
@@ -2724,7 +3196,7 @@ headerID
 
 </td><td>
 
-Sys\_id of the target entity record created or updated by the commitInstance method. Stored in: The related table depending on the entity type, like sold product, order, etc.
+Required only for entities with a header. Sys\_id of the target entity record created or updated by the commitInstance method. Stored in: The related table depending on the entity type, like sold material, order, etc.
 
 Data type: String
 
@@ -2734,7 +3206,7 @@ message
 
 </td><td>
 
-Message describing the success, error, or partially\_success scenarios. This message is the same as the **displayMessage** string value and can be used by other application calls to the API.Data type: String
+Message describing the success, error, or partially\_success scenarios. This message is the same as the **displayMessage** string value and can be used by other apply calls to the API.Data type: String
 
 </td></tr><tr><td>
 
@@ -2742,7 +3214,7 @@ rootLineIDs
 
 </td><td>
 
-Comma-separated list of sys\_ids of the target entity records inserted, updated, or deleted by the commitInstance method. Stored in: The related table depending on the entity type, like sold product, order, etc.
+Required only for no-header entities. Comma-separated list of sys\_ids of the target entity records inserted, updated, or deleted by the commitInstance method. Stored in: The related table depending on the entity type, like sold material, order, etc.
 
 Data type: Array of Strings
 
@@ -2754,14 +3226,14 @@ status
 
 Status message confirming the success of the commit. Possible values:
 
--   success: The commit was successful.
--   failure: The root line or header glide operation failed. Retrigger the Lead to Cash Core API flow.
--   partial\_success: There were failures while processing the entire JSON. Refer to processing logs to troubleshoot specific errors.
+-   success: The commit was correct.
+-   if...not: The root line or header glide operation unserviceable. Retrigger the LeadtoCashCore API flow.
+-   partial\_success: There were failures while processing the entire JSON. Refer to processing logs to troubleshooting specific errors.
 
 Data type: String
 
 </td></tr></tbody>
-</table>The following example shows how to use each LeadtoCashCore method to retrieve, apply, and commit the details of a source-to-target entity. In this example, the commitInstance\(\) method is used to commit the changed JSON to a lead to cash entity on the instance.
+</table>The follow example shows how to use each LeadtoCashCore method to retrieve, apply, and commit the details of a source-to-target entity. In this example, the commitInstance\(\) method is used to commit the changed JSON to a lead to cash entity on the instance.
 
 ```
 //Utility to invoke commitInstance API 
@@ -2770,8 +3242,8 @@ var util = new sn_l2c_core.PrimitiveUtil(); 
 //Invokes the PrimitiveUtil extension point, picks an implementation based on sourceToTargetConfigID of a Lead to Cash (L2C) flow. The Mapping Config ID  in “sn_l2c_core_entity_mapping” table. 
 var service = util.getPrimitivesEPService('sp_order_macd'); 
  
-//Invoke commitInstance API with the required params 
-var commitOutput = service.commitInstance(effectOutput); 
+//Invoke commitInstance API with the required params
+var effectOutput = service.effect(sourceInstance);
  
 //Print the returned JSON 
 gs.info("commitOutput: "+JSON.stringify(commitOutput));  
@@ -2858,5 +3330,105 @@ Output:
     "92d5b868488d5610f877a23d5db89229"
   ]
 }
+```
+
+The following script demonstrates how to retrieve headerless ramps using **fetchRecordSysIds**. In this scenario, you have one Sold Material, it’s headerless, and you want the JSON to include ramp data by passing the ramp sys\_id through `fetchRecordSysIds`. We want the ouput to back both sold material \(lineItems\) and ramp records \(ramp\).
+
+**Note:** For no-header entities, ramps are returned ONLY when ramp sys\_ids are provided through fetchRecordSysIds.
+
+```
+
+var util = new sn_l2c_core.PrimitiveUtil();
+
+// Extension point for SP → Order flow (example from uptake doc)
+var service = util.getPrimitivesEPService('sn_l2c_cust_flows_sp_to_order');
+
+// Parent Sold Product sys_id
+var spID = 'aedfb2';
+
+// Ramp sys_id that should be included in output
+var rampID = '8565f'; 
+
+// NEW: additionalParams.fetchRecordSysIds (selective record fetch)
+var additionalParams = {
+  "fetchRecordSysIds": [{
+    "sn_install_base_sold_product": spID,
+    "sn_install_base_sold_product_ramp": rampID
+  }]
+};
+
+// createInstance: headerId = null for no-header entities
+var sourceInstance = service.createInstance(null, spID, false, additionalParams);
+gs.info("createInstance output: " + JSON.stringify(sourceInstance));
+
+/*
+ * Expected high-level output shape (no-header):
+ * {
+ *   "ramp": [ { "sys_id": "...", "attributes": {...} } ],
+ *   "lineItems": [ { "sys_id": "...", "attributes": {...} } ]
+ * }
+ */ 
+
+
+// ---- Typical next steps in Primitives flow (delta/effect/commit) ----
+// In a real flow you usually have a target instance too.
+// For illustration we reuse the same structure as a placeholder.
+var targetInstance = sourceInstance;
+
+// Compute changes -> effect -> commit
+var effectOutput = service.effect(sourceInstance);
+var commitOutput = service.commitInstance(effectOutput);
+
+gs.info("commitInstance output: " + JSON.stringify(commitOutput));
+
+/*
+ * In no-header scenarios, commitInstance returns dataObject that groups
+ * root entity types (ex: lineItems, ramp) instead of a single root.
+ */
+```
+
+The follow example script demonstrates how to use **multiSelectMerge**\(through the createInstance\(\) method\) to merge all ramps entities together, related, into a flat structure for no-header scenarios. In this scenario, you have many Sold Products, want to treat them as one combined payload in MACD-style operations, and want all line items merged plus all ramps merged into a flat structure.
+
+**Note:** multiSelectMerge is only for no-header scenarios.
+
+```
+/***************************************************************
+ * Goal: createInstance returns a flat structure:
+ *   - lineItems: [ ...all selected SPs... ]
+ *   - ramp:     [ ...all ramps... ]
+ */
+
+var util = new sn_l2c_core.PrimitiveUtil();
+var service = util.getPrimitivesEPService('sn_l2c_cust_flows_sp_to_order');  
+
+// Multiple SPs selected
+var spIDs = 'aedfb2,28490592';  
+
+// Selective ramp sys_id(s) to include (merged output)
+var rampID = '5b8c9d9';  
+
+var additionalParams = {
+  "multiSelectMerge": true,
+  "fetchRecordSysIds": [{
+    "sn_install_base_sold_product_ramp": rampID
+  }]
+};  
+
+var mergedInstance = service.createInstance(null, spIDs, false, additionalParams);
+gs.info("Merged createInstance output: " + JSON.stringify(mergedInstance));
+
+/*
+ * Expected high-level output shape for merge:
+ * {
+ *   "ramp":     [ { ... }, { ... } ],
+ *   "lineItems":[ { ... }, { ... } ]
+ * }
+ */  
+
+
+// Optional: Commit example (same pattern)
+var effectOutput = service.effect(mergedInstance);
+var commitOutput = service.commitInstance(effectOutput);
+gs.info("commitInstance output: " + JSON.stringify(commitOutput));
 ```
 

@@ -1,22 +1,22 @@
 ---
 title: Configuring impact analysis dependency updates
-description: The BCM administrators configure the Impact analysis dependency update configuration record so that an auto-update of the BIA dependencies can be scheduled based on the source data and relationships in the CMDB.
+description: The BCM administrators configure the Impact analysis dependency update configuration record. This configuration enables scheduled auto-updates of BIA dependencies based on source data and relationships in the CMDB.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/imp-ana-dep-update-config-module.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dependency Configuration records, General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Configuring impact analysis dependency updates
 
-The BCM administrators configure the Impact analysis dependency update configuration record so that an auto-update of the BIA dependencies can be scheduled based on the source data and relationships in the CMDB.
+The BCM administrators configure the Impact analysis dependency update configuration record. This configuration enables scheduled auto-updates of BIA dependencies based on source data and relationships in the CMDB.
 
 ## Impact analysis dependency update configuration record
 
-The BCM administrators access the Impact analysis dependency update configuration record by navigating to **General Administration** in the application UI. The record contains the configuration details such as the name, order, target records, sources, and notification preferences as shown in the following example.
+The BCM administrators access the Impact analysis dependency update configuration record by navigating to **General Administration** in the application UI. The record contains the configuration details such as the name, order, target records, sources, and notification preferences as shown in the example.
 
 \[Omitted image "impact-ana-dep-update-config.png"\] Alt text: Impact analysis dependencies update.
 
@@ -30,7 +30,7 @@ Configure the sources in the Impact Analysis dependency update configuration rec
 
 The BCM administrators select the **Auto-update dependencies** option to schedule an auto-update of the dependencies in the BIAs.
 
-The BCM administrators select the **Send notification** option to notify the BIA owners about the updated dependencies. The email notification contains the details of the dependency updates for the BIA records as shown in the following example.
+The BCM administrators select the **Send notification** option to notify the BIA owners about the updated dependencies. The email notification contains the details of the dependency updates for the BIA records as shown in the example.
 
 \[Omitted image "bia-email-preview.png"\] Alt text: Email preview.
 

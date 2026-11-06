@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/location-tracking-manual-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enabling and selecting location tracking options, Location tracking for mobile, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Enabling/selecting options, Location tracking in the Now Mobile Agent app, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configuring manual location tracking
@@ -36,15 +36,15 @@ There are two system properties which control how location tracking registers us
 
 2.  Select the location tracking mobile properties that you want to configure.
 
-<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d39374e98">
+<table id="choicetable_dtv_3vz_2wb"><thead><tr><th align="left" id="d40898e104">
 
 System property
 
-</th><th align="left" id="d39374e101">
+</th><th align="left" id="d40898e107">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d39374e107">
+</th></tr></thead><tbody><tr><td id="d40898e113">
 
 **glide.geolocation.tracking.frequency**
 
@@ -54,7 +54,7 @@ Procedure
 2.  In the **Value** field for the selected system property, select the value and change it to your desired amount.
 
 
-</td></tr><tr><td id="d39374e134">
+</td></tr><tr><td id="d40898e140">
 
 **glide.geolocation.proximity**
 

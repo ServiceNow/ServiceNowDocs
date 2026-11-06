@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbook-create-record.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Playbooks for Customer Service Management, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Create a record using a playbook
@@ -37,7 +37,7 @@ To create cases in this way, the following configuration is required:
 
 -   Configure the playbook to use the playbook record generator.
 
-    For more information about configuring this feature, see Playbook record generator in the Workspace Playbook setup documentation.
+    For more information about configuring this feature, see [Playbook record generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/playbook-record-generator-overview.md).
 
 
 ## Procedure

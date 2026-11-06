@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Configure, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a calibration attribute library
@@ -26,13 +26,15 @@ You can create common calibration attributes that are not associated with any en
 
 ## Procedure
 
-1.  From the Enterprise Asset Workspace, open the Admin center view.
+1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace**.
 
-2.  From the left navigation menu of the Admin center view, navigate to **Calibration** &gt; **Attribute library**.
+2.  From the Enterprise Asset Workspace, open the Admin center view.
 
-3.  Select **New**.
+3.  From the navigation panel of the Admin center view, navigate to **Calibration configuration** &gt; **Attribute library**.
 
-4.  On the form, fill in the fields.
+4.  Select **New**.
+
+5.  On the form, fill in the fields.
 
 <table id="table_ln5_w4y_1bc"><thead><tr><th>
 
@@ -181,11 +183,11 @@ Instruction
 General instructions or instrument settings that you must follow when performing the calibrations.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
     The form closes and you are automatically redirected to the new calibration attribute record.
 
-6.  Specify the points at which you can measure accuracy.
+7.  Specify the points at which you can measure accuracy.
 
     **Important:** You must specify one or more points within each enterprise asset's measurement range. If you do not specify at least one point, the calibration attribute cannot be set to Active.
 
@@ -201,7 +203,7 @@ General instructions or instrument settings that you must follow when performing
         |Expected value|Point value that you want to measure accuracy against.|
         |Order|Order in which you want to use the point to measure accuracy. If your calibration attribute contains more than one point, the point with the lowest numerical value is used first.|
 
-    3.  To add an additional point to the calibration attribute, select the Add Content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add Content icon.\) and then fill in the fields.
+    3.  To add an additional point to the calibration attribute, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: and then fill in the fields.
 
         Repeat this step for each point that you want to add.
 
@@ -213,6 +215,4 @@ General instructions or instrument settings that you must follow when performing
 ## What to do next
 
 Clone the calibration attribute to all applicable enterprise models. See [Clone calibration attributes to an enterprise model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/clone-calibration-attributes-enterprise-model.md) for detailed instructions.
-
-**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-customer-central.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activate Customer Central
@@ -16,7 +16,7 @@ Activate the Customer Central plugin to use Customer Central.
 
 ## About this task
 
-Starting with the Yokohama release, the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md) application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Customer Service plugin \(com.sn\_customerservice\).
+Starting with the Yokohama release, the [Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-central.md) application \(com.sn\_csm\_customer\_central\) is activated with the CRM Workspace application \(com.snc.uib.csm\_agent\_workspace\). The CRM Workspace application is activated with the Case Management Core plugin \(com.sn\_customerservice\).
 
 Starting with the Yokohama release, the Customer Central application \(com.sn\_csm\_customer\_central\) has moved to the ServiceNow Store.
 

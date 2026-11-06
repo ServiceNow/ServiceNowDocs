@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-customization-properties-for-g-maps.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup for Crisis map, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Setup for Crisis map, Configure, Business Continuity Management, Go
 
 The Crisis map application users can configure the customization properties for Google Maps in the **Google Maps Properties** module.
 
-When you select the **Google Maps Properties** module in the Crisis map application, you can view the customization properties as shown in the following example.
+When you select the **Google Maps Properties** module in the Crisis map application, you can view the customization properties as shown in the example.
 
 \[Omitted image "cust-prop-f-g-maps-in-crisis-map.png"\] Alt text: Customization properties module.
 

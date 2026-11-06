@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-assign-param-data-item-record-screen.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure a parametrized data item, Data items, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -42,7 +42,7 @@ Role required: admin
 
 7.  In the UI parameters section of your record screen, select **New**.
 
-8.  In the New UI parameter screen, complete the following fields as needed; note that some fields only appear when you select a specific input type.
+8.  In the New UI parameter screen, complete the following fields as needed. Some fields only appear when you select a specific input type.
 
     Use the fields on this form to determine how the user interacts with the UI.
 
@@ -215,9 +215,7 @@ The value that appears by default in the UI field. The Default value type field 
         -   **Append encoded query**: Automatically inputs data from an encoded query.
     3.  Select **Save**.
 
-13. Complete any additional screen fields as needed.
-
-    For more information, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-studio-configure-applet-screens.md).
+13. Complete any additional screen fields as needed. For more information, see [Create a screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-studio-configure-applet-screens.md).
 
 14. Select **Save**.
 

@@ -1,39 +1,41 @@
 ---
-title: Exploring Digest token authentication
-description: 
+title: Digest token authentication
+description: The instance reads the HTTP header value and compares its computed hash value of the digest token.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/explore-digest-token.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Digest token authentication, Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
-# Exploring Digest token authentication
+# Digest token authentication
 
-The instance reads the HTTP header value and compares its computed hash value of the digest token. If the computed hash value matches the digest token value, then the instance searches for a matching value in the User table. If there is a matching value in the User table, the instance considers the user pre-authenticated and logs the user in.
+The instance reads the HTTP header value and compares its computed hash value of the digest token.
 
-Digest token authentication is more secure than simple unencrypted HTTP headers because any accidental or intentional change to the unencrypted HTTP header produces a different hash value. If the hash value fails to match, the instance denies the user access to the requested instance. This prevents users from attempting to login with another user's credentials.
+If the computed hash value matches the digest token value, then the instance searches for a matching value in the User table. If there is a matching value in the User table, the instance considers the user pre-authenticated and logs the user in.
 
-To know more about digest link expiry, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1186365).
+Digest token authentication is more secure than simple unencrypted HTTP headers because any accidental or intentional change to the unencrypted HTTP header produces a different hash value. If the hash value fails to match, the instance denies the user access to the requested instance. This helps prevent users from attempting to log in with another user's credentials.
 
-**Note:** Use Time Limited Authentication \(TLA\) to configure time based expiry links. To know more, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/time-limited-authentication.md).
+To learn more about digest link expiry, see this [KB article](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1186365).
+
+**Note:** Use Time Limited Authentication \(TLA\) to configure time based expiry links. To learn more, see [Time limited authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/time-limited-authentication.md).
 
 ## Integration requirements
 
-A Digest Token Authentication integration requires:
+A digest token authentication integration requires:
 
 -   A web server
 -   SiteMinder or another single sign-on application to pre-authenticate the user on the local network
 -   A web page or portal that passes user credentials to the target instance in one of these formats
-    -   HTTP Header
+    -   HTTP header
     -   URL parameter
     -   Cookie
 -   A web page or portal that creates and passes a digest token to the target instance using one of these encoding techniques
     -   SHA1
     -   MD5
-    -   SHA 256 \(recommended\)
+    -   SHA-256 \(stronger than SHA1 and MD5\)
 

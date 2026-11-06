@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [About escalating incidents, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [About escalating incidents, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Escalate an incident in Proactive Service Experience Workflows

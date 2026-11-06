@@ -1,5 +1,5 @@
 ---
-title: Implementing the 4-eyes policy for approval tasks
+title: Implement 4-eyes policy for approval tasks
 description: The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/implementing-4-eyes-principle.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Dispute manager workspace, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Implementing the 4-eyes policy for approval tasks
+# Implement 4-eyes policy for approval tasks
 
 The 4-eyes policy, implemented in the case dispute flow, can enhance your dispute management process. This policy ensures that two authorized individuals handle the critical tasks and establish an efficient risk control mechanism.
 
@@ -23,5 +23,5 @@ In a card dispute resolution process, this principle is implemented at the follo
 -   **Investigation &gt; Manual investigation**: After an agent completes the manual investigation task, a mandatory approval from a dispute manager is required to proceed further.
 -   **Chargeback &gt; Review representment**: After an agent completes the review representment task, a mandatory approval from a dispute manager is required to proceed further.
 
-**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
+**Parent Topic:**[Dispute manager workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/workspace-for-dispute-manager.md)
 

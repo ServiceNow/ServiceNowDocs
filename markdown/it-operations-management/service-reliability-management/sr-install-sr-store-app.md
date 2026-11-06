@@ -1,5 +1,5 @@
 ---
-title: Install Service Reliability Management from Admin Center or ServiceNow Store
+title: Install Service Reliability Management
 description: Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-reliability-management/sr-install-sr-store-app.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configuring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Install Service Reliability Management from Admin Center or ServiceNow Store
+# Install Service Reliability Management
 
 Install the Service Reliability Management \(SRM\) application from the Admin Center or ServiceNow Store.
 
@@ -43,10 +43,6 @@ Roles and demo data are installed with SRM. The demo data includes templates tha
 4.  Complete the necessary steps.
 
     **Note:** If any dependencies are red on the app store listing, select the row to open the dependent app and install it. If the dependent app is already installed but still appears in red, you can get or reopt it as needed.
-
-    \[Omitted image "sr-install-store.png"\] Alt text: To install the Service Reliability Management application, first confirm that all dependencies are resolved.
-
-    The example shows two unresolved dependencies. Before installing the app, resolve the issues by selecting the two dependencies.\[Omitted image "sr-install-store2.png"\] Alt text: Select the unresolved dependencies to resolve them before installing the application from the ServiceNow store.
 
     Demo data comprises the sample records that describe application features for the common use cases. Demo data is loaded when you first install the application on a development or test instance.
 

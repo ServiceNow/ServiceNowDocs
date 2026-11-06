@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery overview
+title: Supporting information for HR Service Delivery
 description: The ServiceNow HR Service Delivery application improves the employee service experience by automating HR interactions and providing a single platform for all HR services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery-overview.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery overview
+# Supporting information for HR Service Delivery
 
 The ServiceNow® HR Service Delivery application improves the employee service experience by automating HR interactions and providing a single platform for all HR services.
 
@@ -24,11 +24,9 @@ Depending on the HR Service Delivery package you choose, deploy one or more of t
 
     Standardize the documentation, interaction, and fulfillment of employee inquiries and requests, improving HR efficiency and services over time.
 
--   **[Employee Center with HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/employee-center-hr.md)**
+-   **[Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-and-ecpro-landing-page.md)**
 
     Provide a single, unified portal for employees to get all the information, services, and help that they need.
-
-    **Note:** Employee Center is also available as a standalone application.
 
 -   **[Lifecyle events for enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/enterprise-onboarding-transitions-landing-page.md)**
 
@@ -41,12 +39,10 @@ You can also deploy the following supporting applications.
 
 -   [Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/document-templates-overview.md) to automate and simplify the process of filling, signing, and reviewing a document online.
 -   [Employee Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-document-management/hr-employee-doc-management.md) to secure, retain, access, and purge employee files with ease using paperless document management. A separate subscription is required.
--   [Employee Experience Pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-journeys.md) to guide you through the HR processes that require configuration.
 -   [Enterprise Service Management Integrations Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-integrations-framework.md) to provide a consistent way of building integrations for common use cases such as pulling employee profiles and tasks from third-party application to a ServiceNow application, and pushing data from a ServiceNow application into a third-party application.
 -   [HR Predictive Intelligence Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-predictive-intelligence-wb.md) to guide you through your predictive machine learning implementation to create intelligent HR processes.
--   [HR Service Delivery Agent Workspace \(Classic\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-landing-page.md) to interact with employees, respond to inquiries, and resolve issues quickly as an HR agent.
--   [HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/success-dashboard-landing.md) to help the HR leadership measure the performance of the HR implementations, using different base system or customised KPIs.
--   [Listening Posts]() to send pulse surveys for capturing employee feedback.
+-   [Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-case-mgmt-landing-page.md) to interact with employees, respond to inquiries, and resolve issues quickly as an HR agent.
+-   [HR Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/success-dashboard-landing.md) to help the HR leadership measure the performance of the HR implementations, using different base system or customized KPIs.
 -   [Learning Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-core_overview.md) to build a integrated learning content repository.
 -   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/manager-hub-overview.md) to increase managers self-service and proactive engagement with teams, and help them grow as leaders.
 -   [Machine learning solutions for HR Service Delivery]() to help in auto determining assignment groups and services for HR cases, auto creating cases from emails, and discovering knowledge articles that help in faster resolution of cases and tasks.
@@ -55,9 +51,9 @@ You can also deploy the following supporting applications.
 
 ## Mobile applications
 
-You can use the following mobile apps with HR Service Delivery.
+You can use the [Now Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/mobile-employee-experience.md) with HR Service Delivery.
 
-[HR Service Delivery for mobile](): You can let your employees view HR requests, request help, complete HR tasks, receive targeted mobile content and push notifications, chat with a virtual agent, and more using the Now Mobile app for HR Service Delivery.
+Employees view HR requests, request help, complete HR tasks, receive targeted mobile content and push notifications, chat with a virtual agent, and more using the Now Mobile app.
 
 ## Domain separation and HR Service Delivery
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -18,7 +18,7 @@ Use your Android or iOS mobile device to manage your security operations center 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Security Incident Response
 
@@ -55,13 +55,9 @@ The following figure illustrates how you log in to your ServiceNow AI Platform i
 
 For step-by-step instructions about how to set up your ServiceNow AI Platform instance and install the Security Incident Response Mobile app, see [Set up checklist for the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mobile-sir-setupinstll-mobile-app.md). For instructions about how to log in, see [Log in to the Security Incident Response Mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/mobile-sir-get-started.md).
 
-\[Omitted image "mobile\_landing-agent.jpg"\] Alt text: SIR Mobile app structure.
-
 -   **Applications**
 
     Applications are the ServiceNow® software components such as Security Incident Response \(SIR\), Vulnerability Response \(VR\), Governance, Risk, and Compliance \(GRC\) that provide specific features and functionalities within your ServiceNow AI Platform instance. After you install the Security Incident Response core application and the Security Incident Response Mobile app on your ServiceNow AI Platform instance, the icon for the core application is displayed on the bottom of your Android or iOS mobile device after you log in.
-
-    \[Omitted image "mobile-sir-icon.jpg"\] Alt text: SIR mobile app icon on mobile device highlighted.
 
 -   **Folders**
 

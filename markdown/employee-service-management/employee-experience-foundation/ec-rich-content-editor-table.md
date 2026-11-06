@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-04-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a Table with Rich Content Editor
@@ -252,7 +252,7 @@ Use the up and down arrows to adjust the radius of the border. Just like the wid
 </td></tr></tbody>
 </table>8.  With a cell selected, use **Settings** &gt; **Properties** to add or delete columns or rows, merge cells, and move rows up or down.
 
-    \[Omitted image "rce-table-settings.png"\] Alt text: Select options to use and create tables
+    \[Omitted image "ec-rc-table-cells-properties.png"\] Alt text: Select a cell to add columns or rows or merge cells
 
 9.  Select **Save** or **Save and Finish**.
 

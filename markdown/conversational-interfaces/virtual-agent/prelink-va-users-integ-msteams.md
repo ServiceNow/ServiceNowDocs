@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-05-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Virtual Agent for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure VA for Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Installing Microsoft Teams for all Virtual Agent users
@@ -19,6 +19,8 @@ Pre-link your Virtual Agent requesters to a ServiceNow instance before they run 
 ## Before you begin
 
 **Note:** In order to send notifications to users, the app must be installed to all users. The recommended approach for installing the app to users is [Microsoft Teams App Setup Policy](https://learn.microsoft.com/en-us/microsoftteams/teams-app-setup-policies). When a user gets added to the policy, Microsoft will install the app to the user, and send us an `installationUpdate` event. When the event is received, the conversation with the user starts and contains the welcome message.
+
+To install the app otherwise, use the following directions.
 
 To install the app otherwise, use the following directions.
 

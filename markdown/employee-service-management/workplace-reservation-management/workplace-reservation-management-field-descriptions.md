@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -21,7 +21,7 @@ Use the Space form to add a space for a reservation.
 -   **[Add a room form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/add-room-form.md)**  
 Use the room form to add a room for workplace reservation.
 -   **[User criteria form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/user-criteria-form.md)**  
-User criteria enables you to allow access to users based on role, department, group, location, or company. Administrators can control access by creating and applying user criteria. User criteria records define conditions that are evaluated against user records. When user criteria is defined, records are only visible to users who pass the defined conditions.
+Use the User Criteria form field information when creating a new user criteria record.
 
 **Parent Topic:**[Workplace Reservation Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/rsv-mgmt-references.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/c\_MobileWebUI.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Accessing an instance on a mobile device web browser, Using the mobile apps, Mobile Platform]
+breadcrumb: [Access instances on mobile web browser, Using the mobile apps, Mobile Platform]
 ---
 
 # Mobile web UI

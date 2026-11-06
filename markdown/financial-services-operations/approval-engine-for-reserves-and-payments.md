@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/approval-engine-for-reserves-and-payments.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Insurance Claims Core, Data Model, Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [Insurance Claims Core, Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Approval Engine for Reserves and Payments

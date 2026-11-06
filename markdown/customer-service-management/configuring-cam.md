@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-cam.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configuring customer access management
@@ -16,9 +16,9 @@ Ensure that the customer access management is set up correctly for the user by c
 
 ## Overview of customer access management
 
-Customer access management enables you to support multiple contacts and consumers on cases and sold products, providing them with varying levels of access to the case. You can also add additional internal users to a case.
+Customer Access Management \(CAM\) enables you to grant varying levels of access to different contacts and consumers for customer data, such as cases, sold products, and more. It also enables you to control internal user access based on their relationship with the customer.
 
-As the needs of industry verticals grow, enterprises encounter complex use cases. There are use case scenarios where case management can be handled by more than one customer contact. For example, in a B2C scenario, let's assume that a loan applicant wants to add a co-borrower, guarantor, and an attorney to a housing loan application where everyone has the same level of access to respond to the loan application-related case. While in other cases, products purchased by a customer can have multiple departments tracking the product, like the finance team tracking the renewals of the product or the operations team tracking the maintenance of the product.
+As the needs of industry verticals grow, enterprises encounter complex use cases. There are use case scenarios where case management can be handled by more than one customer contact. For example, in a B2C scenario, a loan applicant wants to add a co-borrower, guarantor, and an attorney to a housing loan application. Everyone has the same level of access to respond to the loan application-related case. In other cases, products purchased by a customer can have multiple departments tracking the product, like the finance team tracking renewals or the operations team tracking maintenance.
 
 Customer access management enables enterprises across industry verticals such as hi-tech, telecommunications, financial services, government, and manufacturing to meet these complex use cases.
 

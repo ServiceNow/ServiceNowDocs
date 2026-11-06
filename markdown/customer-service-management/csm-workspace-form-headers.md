@@ -1,87 +1,39 @@
 ---
 title: CRM Workspace form headers
-description: Form headers in CRM Workspace provide a quick glance of case, account, or contact information.
+description: Form headers in CRM Workspace provide agents with a brief description of the case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-workspace-form-headers.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Form features, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # CRM Workspace form headers
 
-Form headers in CRM Workspace provide a quick glance of case, account, or contact information.
+Form headers in CRM Workspace provide agents with a brief description of the case.
 
-Form headers include a primary value and several secondary values. You can configure the information included in the form header for the Case, Account, and Contact forms.
+Form headers typically include the case short description. They can also include the action bar, record tags, and the [record presence component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page.md).
 
-<table id="table_csm_form_headers"><thead><tr><th>
+\[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows the short description, record tags, and action buttons such as Close Case, Save, and Assign to me
 
-Form
+For more information, see [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-form-header.md)
 
-</th><th>
+**Note:** One form header configuration, **CRM Workspace Header Config**, is included with CRM Workspace.
 
-Primary Value
+## Record Information tab
 
-</th><th>
+The record information tab in the contextual side panel displays record details including the account and contact or consumer, the case state, and the case priority.
 
-Secondary Values
+The Record Information tab in the contextual side panel can include the following cards depending on the record page configuration:
 
-</th></tr></thead><tbody><tr><td>
+-   Overview: Displays relevant information about the case including the account and contact, the case priority, and the state.
+-   Active SLA: Displays active SLAs for the case, including time remaining, the SLA state, and any breaches.
 
-Case
+The cards that appear in the Record Information tab can be configured in the ribbon configuration. For more information, see [Set up a ribbon configuration in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-ribbon.md).
 
-</td><td>
-
-Short description
-
-</td><td>
-
--   Account and contact \(B2B\)
--   Consumer \(B2C\)
--   Priority
--   State
-
-</td></tr><tr><td>
-
-Account
-
-</td><td>
-
-Account
-
-</td><td>
-
-Primary contact
-
-</td></tr><tr><td>
-
-Contact
-
-</td><td>
-
-Contact
-
-</td><td>
-
-Account
-
-</td></tr></tbody>
-</table>## Displaying form header secondary values
-
-You can configure the form header to display secondary values either below the primary value or in the Contextual side panel. The **record\_secondary\_values\_location** property controls this setting.
-
-\[Omitted image "csm-config-workspace-case-form-header.png"\] Alt text: Case form header that shows secondary values for case Account, Contact, Priority, and State under the Short description primary value.
-
-\[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: Case form header that shows secondary values for case Account, Contact, Priority, and State in the Contextual side panel.
-
-See the following topics for more information about configuring form headers in CRM Workspace:
-
--   [Set up a form header in CRM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-config-ws-form-header.md)
--   [Display the form ribbon and form header secondary values in the Contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-display-header-in-sidebar.md)
-
-**Note:** One form header configuration, **CSM/FSM Configurable Workspace Header Config**, is included with CRM Workspace.
+\[Omitted image "csm-config-workspace-case-form-header-sidebar.png"\] Alt text: The overview card shows the customer information, the case priority, and case state.
 
 ## Form header components
 
@@ -89,5 +41,5 @@ For CRM Workspace, the form header is made up of individual components that can 
 
 Individual components provide customers with flexible and granular configuration options. Customers can control the placement, size and spacing of these components, giving them the ability to show additional information that agents may need.
 
-The Data Value Block component is used to display secondary values in the form header and the Contextual side panel. .
+The Data Value Block component is used to display secondary values in the form header and the Contextual side panel.
 

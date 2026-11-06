@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,25 +32,21 @@ When the approval process is enabled, an EDL entry is not activated or deactivat
 
     **Note:** If you have Tabbed forms selected in System Settings, the section appears as a tab on the record.
 
-    \[Omitted image "4-30-url-entry-apprv.png"\] Alt text: Approval requests on the firewall EDL entry record.
-
-3.  In Approval requests, click an item in the **State** column to open it.
+3.  In Approval requests, select an item in the **State** column to open it.
 
     The approval record is displayed.
 
-    \[Omitted image "4-30-entry-form-apprv.png"\] Alt text: Approval record.
-
 4.  Choose one option for approving the EDL entry.
 
-<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d159792e118">
+<table id="choicetable_xbq_cvh_vdb"><thead><tr><th align="left" id="d163967e100">
 
 Option
 
-</th><th align="left" id="d159792e121">
+</th><th align="left" id="d163967e103">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d159792e127">
+</th></tr></thead><tbody><tr><td id="d163967e109">
 
 **Approve**
 
@@ -60,7 +56,7 @@ On the entry record, the **Status** field changes to `Added`, and the **Active**
 
  Work notes show that the request for the EDL entry has been approved.
 
-</td></tr><tr><td id="d159792e154">
+</td></tr><tr><td id="d163967e136">
 
 **Reject**
 
@@ -69,17 +65,11 @@ On the entry record, the **Status** field changes to `Added`, and the **Active**
 On the entry record, the Status field changes to **Rejected**, and the **Active** check box is cleared indicating the entry is not blocked on the firewall.Work notes show that the request for the EDL entry has been rejected.
 
 </td></tr></tbody>
-</table>    After you have approved the EDL entry and it is activated, the Palo Alto Networks Next-Generation Firewall retrieves the EDL entry after the next retrieval interval. After the entry is retrieved, the observable is blocked from that point forward. In the following figure, note that the Active check box is selected, the status is Added, and the work notes indicate that the request has been approved.
-
-    \[Omitted image "4-30-entry-apprvd-callout.png"\] Alt text: Status, Active check box, and work notes highlighted.
+</table>    After you have approved the EDL entry and it is activated, the Palo Alto Networks Next-Generation Firewall retrieves the EDL entry after the next retrieval interval. After the entry is retrieved, the observable is blocked from that point forward. Note that the Active check box is selected, the status is Added, and the work notes indicate that the request has been approved.
 
     After the EDL entry is approved and activated, the security incident record is marked with a security tag. The tag is displayed at the top of the record.
 
-    \[Omitted image "4-30-si-tagged.png"\] Alt text: Security tag on a Security Incident record.
-
     The security tag is also displayed on the observable record.
-
-    \[Omitted image "4-30-url-tag-obsv.png"\] Alt text: Security tag on an observable record.
 
 
 **Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/paloalto_integration.md)

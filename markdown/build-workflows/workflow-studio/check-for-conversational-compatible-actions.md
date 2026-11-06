@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-04-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational actions, Exploring actions, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Conversational actions, Explore actions, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Check for conversational compatible actions
@@ -33,9 +33,9 @@ You can only configure conversational settings for actions that are marked as co
 
 2.  On the homepage, select **Actions**.
 
-3.  Go to the **Conversational compatible** tab and select **Run compatibility check**.
+3.  Goo to the **Conversational compatible** tab and select **Run compatibility check**.
 
-    \[Omitted image "conv-compatible-action.png"\] Alt text: Image of the Conversational compatible tab on the Actions page.
+    \[Omitted image "conv-compatible-action.png"\] Alt text: Image of the conversational compatible tab on the actions page.
 
     By default, the system only checks new actions that were created since the last compatibility check. If you want to check all actions, select **Complete scan**. You can use a complete scan to verify that updated actions remain conversationally compatible.
 
@@ -49,6 +49,4 @@ The system updates the list of conversational compatible actions.
 ## What to do next
 
 To make an action conversational, configure its conversational settings. See [Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-action-conversation-settings.md).
-
-**Parent Topic:**[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-actions.md)
 

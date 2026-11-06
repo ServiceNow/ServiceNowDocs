@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssignACase.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Assign a customer service case
@@ -28,7 +28,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 2.  Assign the case.
 
-<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d260413e73">
+<table id="choicetable_cbh_14n_qv"><tbody><tr><td id="d321352e73">
 
 **Assign the case to yourself**
 
@@ -36,7 +36,7 @@ The **Assign to me** button is only visible if the current user has the customer
 
 Click **Assign to me**.
 
-</td></tr><tr><td id="d260413e85">
+</td></tr><tr><td id="d321352e85">
 
 **Assign the case to another agent**
 

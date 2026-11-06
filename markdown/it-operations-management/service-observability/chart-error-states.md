@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Chart error states
@@ -22,7 +22,7 @@ Understand the different error states that the charts in Service Observability m
 |Data mapping is not configured|Observability mapping hasn't been configured for the service by an admin. See [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).|
 |Authentication failed|Service Observability can't connect to the data source. See [Connect a Service Observability data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/connect-an-observability-data-source.md).|
 |No results found|No metrics were found for the chart.|
-|Something went wrong|Connection to the data source was successful, but the application performance management \(APM\) instance didn't respond. This error might be due to a connection timeout on the APM side.|
+|Something went wrong|Connection to the data source was successful, but the observability instance didn't respond. This error might be due to a connection timeout on the observability vendor side.|
 |No impacted systems found \(Impacted systems chart on the Overview page\)|Only services found on your service map can be displayed. Update your service map to include all services that should be included in the chart. See [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md).|
 |Set up objectives \(SLO Error Budget chart on the Overview page\)|SLOs haven't been configured for Service Reliability Management. See [Create SLOs, SLIs, and error budget policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/sr-create-slo-sli.md).|
 

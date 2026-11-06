@@ -1,28 +1,25 @@
 ---
 title: GlideEncrypter - Global \(deprecated\)
-description: The GlideEncrypter API provides methods to encrypt and decrypt strings using the Triple DES algorithm.Creates an instance of the GlideEncrypter class using a default \(static\) encryption key.Creates an instance of the GlideEncrypter class using a given encryption key.Decrypts a clear string using the Triple DES algorithm.Encrypts a clear string using the Triple DES algorithm.
+description: The GlideEncrypter API provides methods to encrypt and decrypt strings using the Key Management Framework \(KMF\).Creates an instance of the GlideEncrypter class using a Key Management Framework \(KMF\) cryptographic module.Creates an instance of the GlideEncrypter class using a given encryption key.Decrypts a clear string using the KMF-based Advanced Encryption Standard \(AES\) algorithm.Encrypts a clear string using the Key Management Framework \(KMF\) algorithm.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/GlideEncrypterAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
 # GlideEncrypter- Global \(deprecated\)
 
-The GlideEncrypter API provides methods to encrypt and decrypt strings using the Triple DES algorithm.
+The GlideEncrypter API provides methods to encrypt and decrypt strings using the Key Management Framework \(KMF\).
 
-**Note:** The GlideEncrypter API uses the three-key Triple DES encryption standard which [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf) has recommended against using to encrypt data after 2023. Please take a moment to review the information below.
+**Important:** The GlideEncrypter API no longer supports Triple Data Encryption Standard \(3DES\) due to NIST guidelines \(see [NIST 800-131A Rev 2](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-131Ar2.pdf)\). As a result, the following changes were implemented in the Zurich release:
 
--   Starting with the Xanadu family release, the GlideEncrypter API is not recommended for use, as this API is deprecated according to NIST guidelines. With the Zurich release, the GlideEncrypter API will be upgraded to automatically use Key Management Framework.
--   New instance installations and re-installations using the GlideEncrypter API in the ServiceNow AI Platform will not be permitted in the Zurich release planned for September 2025. Use the [Instance Scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/hs-landing-page.md) to identify where GlideEncrypter is used on your instance. Find this tool on your instance by navigating to **Instance Scan** &gt; **Suites** &gt; **GlideEncrypter**.
--   Review the following Knowledge Base article for migration guidance to the applicable replacement solution based on your current use case: [Alternatives to deprecated GlideEncrypter APIs](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1320986).
-
-If the GlideEncrypter API is no longer used on your instance, you may deprecate 3DES. For details, see [Prepare your instance for GlideEncrypter deprecation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/check-3des.md).
+-   For existing instances that upgrade to the Zurich release, the `GlideEncrypter` API is available for use but has been updated to automatically use the Key Management Framework \(KMF\) algorithm.
+-   For all new instances created starting with the Zurich release, the `GlideEncrypter` API is no longer supported. Directly use the [Key Management Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption.md) instead for all cryptography operations.
 
 You can use this API in server scripts in the global scope. The GlideEncrypter class has two constructors:
 
@@ -33,7 +30,7 @@ You can use this API in server scripts in the global scope. The GlideEncrypter c
 
 ## GlideEncrypter - GlideEncrypter\(\)
 
-Creates an instance of the GlideEncrypter class using a default \(static\) encryption key.
+Creates an instance of the GlideEncrypter class using a Key Management Framework \(KMF\) cryptographic module.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -47,17 +44,38 @@ var encr = new GlideEncrypter();
 
 Creates an instance of the GlideEncrypter class using a given encryption key.
 
-|Name|Type|Description|
-|----|----|-----------|
-|key|String|Your encryption key must be exactly 24 characters. A key longer than 24 characters will be truncated.|
+<table id="table_ogs_flj_1z" class="parameters"><thead><tr><th>
 
-```
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+key
+
+</td><td>
+
+String
+
+</td><td>
+
+Customer key to be used for encrypting or decrypting using Triple DES algorithm. Encryption key must be exactly 24 characters. A key longer than 24 characters will be truncated.
+
+</td></tr></tbody>
+</table>```
 var encr = new GlideEncrypter(myKey); 
 ```
 
 ## GlideEncrypter - decrypt\(String encryptedString\)
 
-Decrypts a clear string using the Triple DES algorithm.
+Decrypts a clear string using the KMF-based Advanced Encryption Standard \(AES\) algorithm.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -83,7 +101,7 @@ Decrypted string = abcdefg
 
 ## GlideEncrypter - encrypt\(String clearString\)
 
-Encrypts a clear string using the Triple DES algorithm.
+Encrypts a clear string using the Key Management Framework \(KMF\) algorithm.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -93,17 +111,18 @@ Encrypts a clear string using the Triple DES algorithm.
 |----|-----------|
 |String|Encrypted string.|
 
+The following example uses the GlideEncrypter\(\) constructor to encrypt a given string:
+
 ```
 var encr = new GlideEncrypter(); 
 var clearString = 'abcdefg'; 
 var encrString = encr.encrypt(clearString); 
-gs.print("Encrypted string = " + encrString); 
-
+gs.print("Encrypted string = " + encrString);
 ```
 
 Output:
 
 ```
-Encrypted string = 3wjpvKtUIi4=
+Encrypted string = ﷮﷯﷮ febaf83bff31221093d7ffffffffff79﷬ 1﷬﷭BaXD6acaRjZLPUn_bZiZ-w==2c9-PNa0qouYXyBhJtV6-2E31Rm7mWg=﷮﷯ 
 ```
 

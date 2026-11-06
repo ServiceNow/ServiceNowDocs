@@ -1,20 +1,20 @@
 ---
-title: Discovery for Microsoft Azure Cloud
-description: If your cloud resources are in an Azure cloud, you must create a user identity called a service principal that grants permissions to the MID Server to access selected resources.
+title: Discovery for Microsoft Azure
+description: If your cloud resources are in an Azure cloud, create a user identity called a service principal. This grants permissions to the MID Server to access selected resources.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/azure-cloud-discovery.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
-# Discovery for Microsoft Azure Cloud
+# Discovery for Microsoft Azure
 
-If your cloud resources are in an Azure cloud, you must create a user identity called a service principal that grants permissions to the MID Server to access selected resources.
+If your cloud resources are in an Azure cloud, create a user identity called a service principal. This grants permissions to the MID Server to access selected resources.
 
 ## Azure management groups and subscriptions
 
@@ -30,7 +30,7 @@ Discovery of sub-account resources using dynamically acquired credentials
 
 When you run Discovery on your subscriptions, you do not need separate credentials for each sub-account. Discovery finds the credentials for the management group and maps them to all of the subscription sub-accounts. The Cloud Discovery process handles credentials automatically by acquiring a temporary credential for each sub-account via an Azure API. You can elect to use the default configuration or customize the MID Server to assume other roles for additional controls and security. In addition, Discovery can automatically refresh the list of sub-accounts and datacenters covered in a discovery schedule. For more information, see the KB article [Retrieve newer accounts/sub-accounts automatically via Cloud Discovery.](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0961449)
 
-A service principal for Azure cloud services is similar to a Microsoft Windows service account that enables Windows processes to communicate with each other within an Active Directory domain.
+A service principal for Azure cloud services is similar to a Microsoft Windows service account. It enables Windows processes to communicate with each other within an Active Directory domain.
 
 To create the Azure service principal in your ServiceNow instance, copy the service principal credential values from the Azure portal into a text editor, and then transfer those values into the instance.
 
@@ -45,7 +45,7 @@ This table shows you the Azure Service Principal value and the location in Azure
 |Secret Key|Azure **Application key** value from the text file.|**Azure Active Directory** &gt; **App registrations** &gt; **Registered App** &gt; **Settings** &gt; **Keys \(hidden\)**|
 |Account ID|Azure **Subscription ID** associated with the Tenant ID.|**Azure Active Directory** &gt; **Subscriptions** &gt; **Subscription ID**|
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -841,4 +841,10 @@ canonical\_hosted\_zone\_name
  
 
 </td></tr></tbody>
-</table>
+</table>## Useful information
+
+-   [Microsoft Azure discovery solutions comparison](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/azure-discovery-methods.md)
+-   [Set up Azure service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-azure-service-accounts.md)
+-   [Install and configure MID Servers to access cloud environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/mid-server-configuration-cloud.md)
+-   [Microsoft Azure Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/azure-cloud-discovery-patterns.md)
+

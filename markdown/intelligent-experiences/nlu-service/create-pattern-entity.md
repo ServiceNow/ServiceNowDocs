@@ -1,5 +1,5 @@
 ---
-title: Create a pattern entity
+title: \(Legacy\) Create a pattern entity
 description: Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-pattern-entity.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a pattern entity
+# \(Legacy\) Create a pattern entity
 
 Create a pattern entity from a word or phrase with repeatable patterns, such as email addresses and phone numbers. These patterns help the system to recognize similar utterances based on the patterns.
 
@@ -67,21 +67,4 @@ In this example scenario, you've created an intent that's titled \#CheckITTicket
 
     The pattern entity saves and appears in the **Associated Entities** tab. The model can use the pattern entity to interpret variations of the annotated utterance. For example, the model can match the \#CheckITTicketStatus intent if a user enters any incident record number.
 
-
-**Parent Topic:**[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity]()
-
-[Create a mapped entity]()
-
-[Create a system-derived entity]()
-
-[Create an open-ended entity]()
-
-[Import entities]()
-
-[Using regular expressions in entities]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Total Cost of Ownership of assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a TCO report in Hardware Asset Workspace
@@ -151,5 +151,14 @@ The TCO report is generated and displayed in the Comparative reports section of 
 -   **[Create a TCO report source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/create-tco-report-source-ham.md)**  
 Create a Total Cost of Ownership \(TCO\) report source for TCO reports.
 
-**Parent Topic:**[Configure the Total Cost of Ownership of assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configure-ham-tco.md)
+**Parent Topic:**[Reporting and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/reporting-performance-ham.md)
+
+**Related topics**  
+
+
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
+
+[Manage stockrooms with inventory reports in the Hardware Asset Workspace]()
+
+[View all maturity items for Hardware Asset Management]()
 

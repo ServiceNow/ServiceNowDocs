@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Project Diagnostics, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Project Diagnostics, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add diagnostic and fix scripts
@@ -28,78 +28,25 @@ The results of the filter conditions that you specify in a [diagnostic feature](
 
 1.  Navigate to **All** &gt; **Application Diagnostics Tool** &gt; **Scripts**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
-<table id="table_ymh_4kr_wjb"><thead><tr><th>
+    For more information, see [Diagnostic Scripts form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/diagnostic-scripts-form.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name of the diagnostic script. Use a name that clearly explains the objective of the script. The script name also enables you to identify the correct script while mapping the script to a feature when creating a diagnostic scan.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-Details describing the actions of the diagnostic script.
-
-</td></tr><tr><td>
-
-Diagnostic script
-
-</td><td>
-
-The code for the diagnostic script. The following example shows a diagnostic script to identify tasks with an invalid top portfolio. ```
-/* 
-- Inputs can be accessed from scanContext.input as per, the key specified in feature input table.
-	eg.  scanContext.input.projectSysID
-- To pass variables from the one script to another script use varSpace in scanContext.
-	eg.  scanContext.varSpace.variable1 = '...';
-*/
-(function(scanContext) {
-    try {
-        var errorTasks = [];
-        var encodedQuery = scanContext.input.projectFilter;
-        var now_GR = new GlideRecord("pm_project");
-        gr.addEncodedQuery(encodedQuery);
-        gr.query();
-        while (gr.next()) {
-            var entitySysID = gr.getValue("sys_id");
-            var projectData = new ProjectData(entitySysID);
-            var projectTopTaskValidator = new ProjectTopTaskValidator(projectData);
-
-            if (projectTopTaskValidator.tasksWithInvalidTopPortfolioPresent()) {
-                var failedTasks = projectTopTaskValidator.getTasksWithInvalidTopPortfolio();
-                if (failedTasks && failedTasks.length) {
-                    for (var i = 0; i < failedTasks.length; i++) {
-                        errorTasks.push(failedTasks[i].sys_id);
-                    }
-                }
-            }
-```
-
-</td></tr></tbody>
-</table>4.  Include a script for fixing the corrupt or invalid data identified by the diagnostic script.
+4.  Include a script for fixing the corrupt or invalid data identified by the diagnostic script.
 
     1.  Select the **Has Fix script** check box.
 
-    2.  Click the Edit User Roles icon \(\[Omitted image "edit\_user\_roles\_icon.png"\] Alt text: Edit User Roles icon\) and choose the roles that can access the diagnostic script.
+    2.  Select the Edit User Roles icon \(\[Omitted image "edit\_user\_roles\_icon.png"\] Alt text: Edit User Roles icon\) and choose the roles that can access the diagnostic script.
 
     3.  In the **Fix script** section, add the code for the fix script.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Project Diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/project-diagnostics-overview.md)
 

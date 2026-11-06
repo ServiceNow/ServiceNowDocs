@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed UI overview, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,13 +28,9 @@ Role required: none
 
     A **Follow** link appears in the user's profile.
 
-    \[Omitted image "Follow.png"\] Alt text: Profile with Follow link
-
 3.  Click **Follow**.
 
 4.  To stop following the user, navigate to **People** &gt; **Following**.
-
-    \[Omitted image "Unfollow.png"\] Alt text: Unfollow
 
 5.  Click **Unfollow**.
 

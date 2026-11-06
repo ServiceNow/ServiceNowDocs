@@ -1,20 +1,20 @@
 ---
 title: Create an HR catalog item
-description: Create an HR catalog item so that employees can request the HR service directly from the HR service catalog through a self-service portal such as the Employee Service Center. When you create a new HR catalog item, a corresponding HR service, record producer \(synonymous to HR catalog item\), and HR case template are automatically created.
+description: Create an HR catalog item so employees can request HR services through self-service. This automatically creates the HR service, record producer, and case template.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/create-hr-catalog-item.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [HR catalog item configuration, HR service catalog management, HR services, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR catalog item configuration, HR service catalog management, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an HR catalog item
 
-Create an HR catalog item so that employees can request the HR service directly from the HR service catalog through a self-service portal such as the Employee Service Center. When you create a new HR catalog item, a corresponding HR service, record producer \(synonymous to HR catalog item\), and HR case template are automatically created.
+Create an HR catalog item so employees can request HR services through self-service. This automatically creates the HR service, record producer, and case template.
 
 ## Before you begin
 

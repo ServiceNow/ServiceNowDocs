@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Queue a local change for a push
 
 Application developers can queue a local change for a push to ensure the changes are available to other developers.
+
+## Before you begin
+
+Role required: none
 
 ## Procedure
 
@@ -32,7 +36,7 @@ Application developers can queue a local change for a push to ensure the changes
 
     This step is a recommended best practice.
 
-<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d67552e112">
+<table id="choicetable_c1h_cgc_bq"><tbody><tr><td id="d275138e118">
 
 **To remove changes from the queue**
 
@@ -40,7 +44,7 @@ Application developers can queue a local change for a push to ensure the changes
 
 Select the check boxes beside the rows and select **Do Not Push** from the Actions choice list.
 
-</td></tr><tr><td id="d67552e130">
+</td></tr><tr><td id="d275138e136">
 
 **To remove changes from the queue and choose to ignore them instead**
 
@@ -53,6 +57,4 @@ Select the check boxes beside the rows and select **Ignore This Change** from th
 
     **Note:** For the Local Changes list, click **Reset Filter** to remove any filter conditions you added and see all the local changes that have not been queued or ignored.
 
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

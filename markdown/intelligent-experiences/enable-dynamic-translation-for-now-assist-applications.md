@@ -1,51 +1,47 @@
 ---
-title: Configure multilingual service for Now Assist applications
-description: Turn on multilingual service for user-entered text with native translation or Dynamic Translation in Now Assist applications.
+title: Configure multilingual service for ServiceNow Otto applications
+description: Turn on multilingual service for user-entered text with native translation or Dynamic Translation in ServiceNow Otto applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/enable-dynamic-translation-for-now-assist-applications.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, application, translation, dynamic, language]
-breadcrumb: [Configure general Now Assist settings, Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub Settings, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Configure multilingual service for Now Assist applications
+# Configure multilingual service for ServiceNow Otto applications
 
-Turn on multilingual service for user-entered text with native translation or Dynamic Translation in Now Assist applications.
+Turn on multilingual service for user-entered text with native translation or Dynamic Translation in ServiceNow Otto applications.
 
 ## Before you begin
 
-To see a list of all available languages supported in Now Assist, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md).
+To see a list of all available languages supported in ServiceNow Otto, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md).
 
-To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateALanguage.md).
-
-**Note:** Dynamic Translation is not supported in regulated markets.
-
-If you don't see a language and region section of your AI Admin Hub console, make sure that you have installed at least one Now Assist application. This installs or updates the required dependencies to the latest version.
+To use Dynamic Translation, you must install and activate the application and install at least one language pack. For more information, see [Activate Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/activate-dynamic-translation.md) and [Activate a language](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ActivateALanguage.md). From the Zurich release, Dynamic Translation has available support in specific regulated markets. For details see [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) on the Now Support portal.
 
 Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-There are two translation services available to translate user-generated content in Now Assist applications. For more information on the differences between the two, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md). In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
+There are two translation services available to translate user-generated content in ServiceNow Otto applications. For more information on the differences between the two, see [Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md). In that documentation, you can also find the steps for adding another language to your service if it is not preconfigured.
 
-After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the Now Assist panel.
+After you have enabled either Dynamic Translation or native translation, translations will be available for in-product experiences, Virtual Agent, and the ServiceNow Otto panel.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Settings**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Settings**.
 
 2.  On the left-hand panel, select the **Multilingual service**.
 
 3.  In the native translation or Dynamic Translation tab, toggle the switch to **On**.
 
-    A modal displays, confirming your choice and stating that Now Assist streaming of LLM \(large language model\) responses will be unavailable when Dynamic Translation is active.
+    A modal displays, confirming your choice and stating that streaming of LLM \(large language model\) responses will be unavailable when Dynamic Translation is active.
 
     **Note:**
 
-    When Dynamic Translation is inactive, Now Assistant streaming becomes available. The modal message displayed will change according to the status of the Dynamic Translation.
+    When Dynamic Translation is inactive, streaming is available. The modal message displayed will change according to the status of the Dynamic Translation.
 
 4.  You can enable both Dynamic Translation and native translation.
 
@@ -60,10 +56,12 @@ After you have enabled either Dynamic Translation or native translation, transla
 
 ## Result
 
-Multilingual service is enabled for Now Assist applications.
+Multilingual service is enabled for ServiceNow Otto applications.
 
+-   **[Multilingual service for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/translation-for-now-assist.md)**  
+Now Assist applications use the multilingual capabilities of large language models \(LLMs\) to translate user-generated content.
 -   **[Microsoft Azure OEM for Dynamic Translation in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md)**  
 Support multi-language input in Now Assist applications with the Microsoft Azure OEM translator service included in Generative AI Controller.
 
-**Parent Topic:**[Configure general Now Assist settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
+**Parent Topic:**[AI Admin Hub Settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-now-assist-admin-settings.md)
 

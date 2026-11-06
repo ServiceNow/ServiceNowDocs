@@ -1,16 +1,16 @@
 ---
 title: Case Routing in Public Sector Digital Services
-description: Set up Advanced Work Assignment \(AWA\) to automatically route cases to the appropriate government service agents in CRM Workspace.
+description: Set up Advanced Work Assignment \(AWA\) to automatically route cases to the appropriate government service agents in Public Sector Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-case-routing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Case Routing in Public Sector Digital Services
 
-Set up Advanced Work Assignment \(AWA\) to automatically route cases to the appropriate government service agents in CRM Workspace.
+Set up Advanced Work Assignment \(AWA\) to automatically route cases to the appropriate government service agents in Public Sector Workspace.
 

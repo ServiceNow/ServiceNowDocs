@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/edit-unified-navigation-component.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Edit components, Manage or edit a theme with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Edit components, Component styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Align with your brand by using the Unified Navigation component
@@ -16,7 +16,9 @@ Align your experience more closely with your brand by editing the Unified Naviga
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
@@ -24,11 +26,11 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
 2.  From the Page drop-down list, select the Editor page view.
 
-    \[Omitted image "tb-global-styles.png"\] Alt text: Example view of the Editor page.
+    \[Omitted image "tb-editor-page-view.png"\] Alt text: View of the Editor page.
 
 3.  From the Theme drop-down list, select the theme that you want to edit the Unified Navigation component for.
 
@@ -40,7 +42,7 @@ The Unified Navigation component is made up of several subcomponents that you mu
 
 6.  Filter the list to view the Unified Navigation component.
 
-    1.  Select the Filter \(\[Omitted image "tb-filter-icon.png"\] Alt text: Filter icon.\) icon.
+    1.  Select the Filter icon \(\[Omitted image "tb-filter-icon.png"\] Alt text:\).
 
     2.  Expand the Navigation category and select the Unified Navigation component.
 

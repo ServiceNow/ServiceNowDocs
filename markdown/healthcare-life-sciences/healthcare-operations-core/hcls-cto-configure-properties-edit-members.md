@@ -7,9 +7,9 @@ release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add or remove members from healthcare organizations, Configuring Healthcare Operations Core, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Add or remove members, Configure, Healthcare Operations Core, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Configure global system properties to edit members in Healthcare Operations Core

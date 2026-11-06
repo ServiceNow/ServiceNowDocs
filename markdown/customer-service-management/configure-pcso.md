@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-pcso.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Configure Proactive Customer Service Operations
@@ -16,7 +16,7 @@ Configure various aspects of Proactive Customer Service Operations based on the 
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user or admin
 
 ## About this task
 

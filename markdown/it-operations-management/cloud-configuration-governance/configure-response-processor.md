@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Configure a response processor
@@ -61,8 +61,8 @@ Alternatively, you can use pattern-based targeted discovery to handle responses 
     The response processor script can process the response from the cloud provider for the CI type of the resource block.
 
 
--   **[Execute response processor for workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-response-processor.md)**  
-Execute a response processor for a workflow to get the workflow data back into a configuration item \(CI\). The response processor picks up the data, sends the data to the CMDB which in turn puts the data in a CI.
+-   **[Execute response processor for subflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-response-processor.md)**  
+Execute a response processor for a subflow to get the subflow data back into a configuration item \(CI\). The response processor picks up the data, sends the data to the CMDB, which in turn puts the data in a CI.
 -   **[Virtual server response processor example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/response-processor-example.md)**  
 The **Create\_Virtual\_Server\_Response\_Processor** script, which is available by default in Cloud Provisioning and Governance, is the response processor that handles the creation of AWS virtual machine CIs.
 

@@ -1,0 +1,21 @@
+---
+title: Working with Enterprise Architecture workspace home page
+description: Enterprise Architecture Workspace home page serves as a personalized command center for enterprise architects, offering a unified, role-based view of portfolio insights, tasks, and health indicators. The Home page is designed to give architects immediate visibility into the state of their portfolios.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-work-with-ea-workspace-homepage.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+---
+
+# Working with Enterprise Architecture workspace home page
+
+Enterprise Architecture Workspace home page serves as a personalized command center for enterprise architects, offering a unified, role-based view of portfolio insights, tasks, and health indicators. The Home page is designed to give architects immediate visibility into the state of their portfolios.
+
+-   **[Apply filters to the Portfolio Overview and Health section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-apply-filters-portfolio-overview-and-health.md)**  
+You can apply filters to the Portfolio Overview and Health section in the Enterprise Architecture Workspace. Based on the applied filters, the interactive cards and graphs displayed in this section are updated, and you can view specific business applications and business capability data. Your filter preferences are saved and applied the next time you visit the page.
+
+**Parent Topic:**[Managing Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-ea-workspace.md)
+

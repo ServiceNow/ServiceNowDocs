@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Microsoft Certificate Authority \(CA\) certificates discovery, Microsoft CA certificates discovery, Microsoft CA - Certificate Management, Microsoft CA - Certificate Management pattern, Microsoft CA certificates, Microsoft Certificate Authority \(CA\) certificates, Microsoft Certificate Authority \(CA\) certificates pattern, Microsoft CA certificates pattern]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Microsoft Certificate Authority \(CA\) certificates discovery
@@ -19,7 +19,7 @@ The ServiceNow Discovery application can discover Microsoft Certificate Authorit
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 Starting with version 1.27.0, Discovery and Service Mapping Patterns supports discovering the subject alternative name \(SAN\) for both the all request IDs and the template ID discovery methods.
 
@@ -325,8 +325,5 @@ Information about the certificate that needs to be acted on by the CA or the cer
 
 The Microsoft CA - Certificate Management pattern doesn’t create any CI relationships.
 
--   **[Create a serverless schedule for Microsoft CA discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-ms-ca.md)**  
-Create a serverless discovery schedule to discover Microsoft Certificate Authority \(CA\) certificates.
-
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

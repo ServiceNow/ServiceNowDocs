@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure stockrooms, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a stockroom
@@ -28,15 +28,15 @@ Stockrooms are separate, standalone entities in the Asset Management application
 
 1.  Create a stockroom.
 
-<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d342568e93">
+<table id="choicetable_njv_thg_kyb"><thead><tr><th align="left" id="d383149e91">
 
 Interface
 
-</th><th align="left" id="d342568e96">
+</th><th align="left" id="d383149e94">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d342568e102">
+</th></tr></thead><tbody><tr><td id="d383149e100">
 
 **Core UI**
 
@@ -46,7 +46,7 @@ Action
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d342568e138">
+</td></tr><tr><td id="d383149e136">
 
 **Hardware Asset Workspace**
 
@@ -75,5 +75,5 @@ Action
 
 The stockroom is added to the list shown in the All stockrooms tab.
 
-**Parent Topic:**[Manage stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/manage-your-stockrooms.md)
+**Parent Topic:**[Configure stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configure-stockrooms-ham.md)
 

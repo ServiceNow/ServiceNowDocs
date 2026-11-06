@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Use, Change Management, IT Service Management]
 ---
 
 # Legacy: Change Management Platform Analytics Solutions
@@ -18,7 +18,7 @@ Platform Analytics Solutions and in-form analytics contain preconfigured dashboa
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Management dashboards are deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view the information about the Change requests in one place.
+Starting in Xanadu release, the Core UI Change Management dashboards are deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view the information about the Change requests in one place.
 
 ## Platform Analytics Solutions
 
@@ -28,7 +28,7 @@ To enable the solutions for Change Management, an admin can navigate to **Perfor
 
 ## Inactive dashboards
 
-Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it. For more information about configuring Platform Analytics Solutions, see [Configure Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/configure-nowintel-solutions.md)
+Some dashboards in this content pack are inactive when installed. Complete configuration and run [data collection jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/glossary/now-platform-glossary.md) before you activate these dashboards. You can activate dashboards in Dashboard Properties, accessible from the context menu. You have to assign an owner to the dashboard to activate it.
 
 -   **[Legacy: Change Premium dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-premium-dashboard.md)**  
 This dashboard uses Workbench widgets and other advanced Platform Analytics features to give you all the information about the Change process in one place.
@@ -49,8 +49,6 @@ Use the Change Management troubleshooting properties and change the value of the
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

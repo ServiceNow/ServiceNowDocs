@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-group-so.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create a group
@@ -16,7 +16,7 @@ Create groups to assign work to team members based on specific requirements such
 
 ## Before you begin
 
-Role required: admin
+Role required: user\_admin
 
 ## Procedure
 
@@ -72,7 +72,7 @@ Hourly rate
 
 </td><td>
 
-The amount charged per hour to calculate costs for the tasks assigned to the group.
+The amount charged according to hour to calculate costs for the tasks assigned to the group.
 
 </td></tr><tr><td>
 

@@ -1,17 +1,17 @@
 ---
 title: Platform Analytics
-description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, User Experience Analytics, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/c\_performanceAnalyticsAndReporting.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 ---
 
 # Platform Analytics
 
-Optimize processes and increase productivity with the Platform Analytics applications. These applications include Reporting, Performance Analytics, User Experience Analytics, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience.
 
 ## Get started
 
@@ -23,7 +23,7 @@ Select one of these tiles to learn more about these applications, which help pro
 
 </td><td>
 
-[Now Assist in Platform Analytics \[Omitted image "bus-infographic.svg"\] Alt text: Ask questions about data in plain language and receive AI-powered responses, including Platform Analytics data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-in-platform-analytics.md)
+[Now Assist in Platform Analytics \[Omitted image "bus-infographic.svg"\] Alt text: Ask questions about data in plain language and receive AI-powered responses, including Platform Analytics data visualizations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-platform-analytics.md)
 
 </td><td>
 
@@ -31,7 +31,7 @@ Select one of these tiles to learn more about these applications, which help pro
 
 </td></tr><tr><td>
 
-[User Experience Analytics \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+[Usage Insights \[Omitted image "bus-3-person.svg"\] Alt text: Get a dashboard view of how your users work with multiple ServiceNow applications, with full visuals of metrics, interactions, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 
 </td><td>
 
@@ -50,7 +50,7 @@ Explore the many options for showing data in [data visualizations](https://raw.g
 
 ## Now Assist in Platform Analytics
 
-Leverage AI to generate insights into data. Ask for data visualizations in the Now Assist panel.Explore data on your own or with a collaborative group in AI Data Explorer, where you can have not only data visualizations but summaries and conversations.
+Leverage AI to generate insights into data. Ask for data visualizations in the ServiceNow Otto panel.Explore data on your own or with a collaborative group in AI Data Explorer, where you can have not only data visualizations but summaries and conversations.
 
 \[Omitted image "nowass-expl-cover-photo.png"\] Alt text: An exploration in Now Assist Explorer.
 
@@ -60,11 +60,11 @@ Learn how to help your business constantly improve. Plan and implement key perfo
 
 \[Omitted image "kpi-details-plain.png"\] Alt text: KPI Details for a Performance Analytics indicator, showing a time series of scores and 6 filters.
 
-## User Experience Analytics
+## Usage Insights
 
 Learn about dashboard-based analytics on the usage of several ServiceNow applications. Administrators can get information on user engagement with both mobile and web applications, including user population, retention, and behavior.
 
-\[Omitted image "uxa-overview.png"\] Alt text: User experience analytics dashboard.
+\[Omitted image "uxa-overview.png"\] Alt text: Usage Insights dashboard.
 
 ## Process Mining
 
@@ -89,14 +89,13 @@ Give administrators and other stakeholders the ability to work with real-time da
 -   [Platform Analytics Migration Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-migration.md)
 -   [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md)
 -   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-data-visualizations.md)
--   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-explorer.md)
+-   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ai-data-explorer.md)
 -   [Create visualizations conversationally in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-assist-landing-page.md)
 -   [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_Indicators.md)
 -   [Indicator breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_CreatingBreakdowns.md)
 -   [Design your Performance Analytics solution with KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/designing-pa-solution.md)
 -   [Explore your indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details.md)
--   [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/content-packs-in-form-analytics.md)
--   [User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
+-   [Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-landing.md)
 -   [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/process-mining.md)
 -   [Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining.md)
 -   [Reporting, dashboards, and Performance Analytics in the Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/classic-vis-overview.md)

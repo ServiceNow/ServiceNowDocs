@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile experience, On-Call Scheduling, IT Service Management]
+breadcrumb: [Mobile experience for On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # Manage work with ITSM Mobile Agent
@@ -18,7 +18,7 @@ As a member of a shift, view your upcoming shifts, request time off, and accompl
 
 My work application in the ITSM Mobile Agent app has the On-Call Scheduling applet to view your upcoming shifts and request time-off. You can also view the members of your group available on call.
 
-For detailed procedure see [Managing incidents and tasks using My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-mobile-agent/my-work-application.md).
+For detailed procedure see [Managing incidents and tasks using the My Work applet](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-mobile-agent/my-work-application.md).
 
 |Action|Description|
 |------|-----------|

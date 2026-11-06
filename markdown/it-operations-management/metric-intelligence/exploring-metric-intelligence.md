@@ -7,8 +7,8 @@ release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Metric Intelligence, IT Operations Management]
 ---
 
@@ -18,7 +18,7 @@ Learn more about using Metric Intelligence to analyze metric data and identify a
 
 ## Metric Intelligence overview
 
-Metric Intelligence helps identify and avoid potential service outages. Based on historical metric data, Metric Intelligence indicates anomalous behavior of CIs which events might not capture.
+Metric Intelligence helps identify and prevent potential service outages. Based on historical metric data, Metric Intelligence indicates anomalous behavior of CIs which events might not capture.
 
 ## Metric Intelligence users
 
@@ -58,16 +58,6 @@ Can view all metric definitions and connector settings.
 </table>## Metric Intelligence workflow
 
 The following illustration describes the layout and data flow within the Metric Intelligence application.
-
-\[Omitted image "mi-infographic.png"\] Alt text: Infographic outlining Metric Intelligence workflow
-
-1.  Data collection: Agents, third-party connectors, and custom connectors \(REST\) gather performance data from servers and infrastructure components. Data collected by agents is passed to the MID Server via the WebSocket, and data gathered by third-party and custom connectors is passed to the MID Server via the Connector.
-2.  Data normalization: Raw data is formatted by the Normalizer to make it legible to the metric base.
-3.  Data grouping: Data is grouped by the Batcher and sent to the REST API on the instance \(Glide\).
-4.  Data transference to the Clotho TSDB: REST API processes data and sends it to the Clotho TSDB.
-5.  Model creation: The Trainer/Learner job runs and creates a model based on the received data. For example, the job may learn that the threshold for normal CPU usage is 60%. A new model is created every day, based on that day's data together with past data \(most models collect data from the past 14 days\).
-6.  Model data transference to the Time Series Model Cache DB: The data is sent to the Time Series Model Cache DB on the MID Server via the instance \(Glide\). The model cache stores the bounds of the 'normal' model.
-7.  Anomaly detection: Data outside the bounds of normal is detected by the MID Server and is rendered an anomaly score. Anomalies are stored on the instance and are displayed in the Service Operations Workspace. Anomaly detection is performed in real-time, so customers are made aware of anomalies immediately.
 
 ## Metric Intelligence benefits
 

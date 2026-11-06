@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Task Intelligence for ITSM reference, Task Intelligence for ITSM, IT Service Management]
+breadcrumb: [Reference, Task Intelligence for ITSM, IT Service Management]
 ---
 
 # Components installed with Task Intelligence for ITSM
@@ -57,6 +57,19 @@ Views and monitors Task Intelligence models through the Analytics dashboard.
 
 -   sn\_incident\_read
 -   sn\_ti\_admin.tia\_analyst
+
+</td></tr><tr><td>
+
+Task Intelligence User\[sn\_itsm\_ml\_task.ti\_user\]
+
+</td><td>
+
+View-only access to the ITSM Task Intelligence Monitoring Dashboard. No ability to perform administrative actions, modify configurations, or manage models.
+
+</td><td>
+
+-   sn\_incident\_read
+-   sn\_ti\_admin.tia\_user
 
 </td></tr></tbody>
 </table>## Tables installed

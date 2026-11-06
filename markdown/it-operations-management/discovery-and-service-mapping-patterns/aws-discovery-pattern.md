@@ -1,20 +1,20 @@
 ---
-title: AWS tag discovery
-description: The ServiceNow Discovery and Service Mapping applications can use patterns to discover the tags for AWS resources and configuration item \(CI\) types, and then populate the CMDB with these discoveries. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+title: AWS tag discovery with Patterns
+description: The ServiceNow Discovery and Service Mapping applications can use patterns to discover the tags for AWS resources and configuration item \(CI\) types. They then populate the CMDB with these discoveries. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery-and-service-mapping-patterns/aws-discovery-pattern.html
 release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
-# AWS tag discovery
+# AWS tag discovery with Patterns
 
-The ServiceNow Discovery and Service Mapping applications can use patterns to discover the tags for AWS resources and configuration item \(CI\) types, and then populate the CMDB with these discoveries. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
+The ServiceNow Discovery and Service Mapping applications can use patterns to discover the tags for AWS resources and configuration item \(CI\) types. They then populate the CMDB with these discoveries. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 
 This tag-specific discovery pattern is in addition to the other AWS patterns available on the ServiceNow Store.This pattern extends the ones used for discovering the respective AWS resources.
 
@@ -66,7 +66,7 @@ Discovery populates the CMDB with tags for the following AWS patterns and CI typ
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -189,5 +189,5 @@ rtrn = name;
 
 Similar EVALS are available for patterns where the main identification section does not include ARN information in the main CI type table. When this information is not available, the Tag Extension section must parse a unique ARN used to establish the relationship to the related cloud resource.
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

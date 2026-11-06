@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_FormContextMenu.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -27,7 +27,7 @@ The form context menu includes the following options.
 |Insert|Saves the data as a new record and returns to the previously viewed page.|
 |Insert and Stay|Saves and displays the new record. For more information about inserting records, see [Edit a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_EditingInForms.md).|
 |Configure|Provides administrative functions, such as configuring forms.|
-|Export|Exports data to PDF. Administrators can also export to XML. For more information, see [Export data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_ExportData.md).|
+|Export|Exports data to PDF. Administrators can also export to XML. For more information, see Export data.|
 |View|Changes fields to a predefined layout. Switching views submits the form, which saves all changes. Administrators can customize views.|
 |Create Favorite|\(Core UI only\) Adds the current record to your favorites list, represented by a star icon on the tab.|
 |Copy URL|Copies to the clipboard the URL for the form view of the record. Follow browser instructions if browser security measures restrict this function.|
@@ -41,5 +41,5 @@ The form context menu includes the following options.
 **Related topics**  
 
 
-[UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UIActions.md)
+[bundle-platadm.c_UIActions]
 

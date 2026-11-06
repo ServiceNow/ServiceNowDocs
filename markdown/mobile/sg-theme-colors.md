@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-theme-colors.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Legacy mobile theming, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Legacy theming, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Mobile theme color guidelines

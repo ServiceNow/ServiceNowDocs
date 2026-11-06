@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Microsoft Exchange On-Premises integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,8 +30,6 @@ Role required: sn\_si\_admin
 
 3.  Select **Configure**.
 
-    \[Omitted image "ms-exch-on-prem-config-new.png"\] Alt text: Microsoft Exchange On-Premises Configuration
-
 4.  Fill in the fields, as needed.
 
     |Field|Description|
@@ -39,44 +37,38 @@ Role required: sn\_si\_admin
     |Name|The name of this configuration.|
     |Exchange Server|Specify the Exchange server to be used.|
 
-    **Note:** Configuring this integration activates flows. To manage the flows, navigate to the **Workflow Studio/ Flow Designer.**.
+    **Note:** Configuring this integration activates flows. To manage the flows, navigate to the **Workflow Studio/ Flow Designer**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The integration configuration card displays.
 
-6.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
+6.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
 
 7.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 
 8.  Navigate to **Orchestration** &gt; **MID Servers**.
 
-9.  Open the record and verify the status of the MID server which is reachable to the exchange server and its **Status** option is set to **Up** and **Validated** option as **Yes**.
+9.  Open the record and verify the status of the MID Server which is reachable to the exchange server and its **Status** option is set to **Up** and **Validated** option as **Yes**.
 
-10. Add the MID server capability:
+10. Add the MID Server capability:
 
-    -   Select the respective MID server to add the capability.
-    -   Click on the **Capabilities** related list and click **Edit**.
-
-        \[Omitted image "mid-server-capability.png"\] Alt text: MID server capability
-
+    -   Select the respective MID Server to add the capability.
+    -   select on the **Capabilities** related list and select **Edit**.
     -   Remove **All** and add **Microsoft Exchange Server for SecOps**.
-
-        \[Omitted image "mid-server-capabilities.png"\] Alt text: Adding capability
-
     -   Select the **IP Ranges** from the **Related Lists** section and set the value to either **ALL** or any desired value.
     -   Select the **Supported Applications** from the **Related Lists** section and either set the value to ALL or Orchestration.
     -   **Save** the record.
 11. Validate the connections &amp; credentials.
 
-    1.  Navigate to Orchestration &gt; Credentials &amp; Connections &gt; Credentials.
-    2.  Select **New** to create credentials for the MID server.
-    3.  Select **Windows Credentials**.
-    4.  Enter **Username** and **Password**.
-    5.  Select **Submit**.
-    6.  Select **Test Credential** in related links.
-    7.  Enter target, port, MID server.
-    8.  Select **OK** and validate your connection and credentials.
+    -   Navigate to Orchestration &gt; Credentials &amp; Connections &gt; Credentials.
+    -   Select **New** to create credentials for the MID Server.
+    -   Select **Windows Credentials**.
+    -   Enter **Username** and **Password**.
+    -   Select **Submit**.
+    -   Select **Test Credential** in related links.
+    -   Enter target, port, MID Server.
+    -   Select **OK** and validate your connection and credentials.
 12. Once the credentials are validated, the configuration on ServiceNow instance is complete and is ready to perform email search and deletion operations using this integration.
 
 

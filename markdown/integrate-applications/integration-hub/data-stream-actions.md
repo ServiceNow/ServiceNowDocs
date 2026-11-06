@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 12
-breadcrumb: [Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Data Stream actions and pagination
@@ -28,7 +28,7 @@ Data Stream actions offer these benefits.
 -   Automatically send multiple requests to APIs that paginate results, if applicable.
 -   Can be used in [Integration Hub - Import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/integrationhub-imports.md) and to [create a data source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/system-import-sets/create-data-stream-data-source.md).
 -   Enable flow designers to process large requests without complex coding or configuration.
--   Enable flow designers to process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/use-data-stream-in-flow.md).
+-   Enable flow designers to process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block. Flow designers can then create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/use-data-stream-in-flow.md).
 -   Enable flow designers to reuse Data Stream actions in multiple flows, using the same source of data in multiple ways.
 
 ## Running a Data Stream action
@@ -37,7 +37,7 @@ There are two ways to run a Data Stream action.
 
 -   **From a flow**
 
-    You can process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block, enabling flow designers to easily create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/use-data-stream-in-flow.md).
+    You can process each object within a data stream using **For each** flow logic. For example, you might create a Data Stream action that imports document data from a third-party site. When you add the action to a flow, Workflow Studio automatically adds the action to a **For each** flow logic block. Flow designers can then create a record in ServiceNow for each object in the data stream. See [Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/use-data-stream-in-flow.md).
 
 -   **From a script**
 
@@ -134,12 +134,18 @@ For more information about complex data, see [Complex data](https://raw.githubus
 
 -   **Script Parser step**
 
-    Use JavaScript and ServiceNow APIs to map items in the response stream to a complex object output represented by the `targetObject` global object. For example, map incident record elements identified in the splitter step to a complex object containing incident fields. If the data stream includes siblings to the item identified in the splitter step that you do not want mapped to a complex object, include conditions to exclude those items. You can skip items in the stream by adding `outputs.state = 'SKIP'` wherever needed to the script section of the Script Parser step.
+    Use JavaScript and ServiceNow APIs to map items in the response stream to a complex object output represented by the `targetObject` global object. For example, map incident record elements identified in the splitter step to a complex object containing incident fields. To exclude siblings of the identified item from the complex object mapping, include conditions in the splitter step. You can skip items in the stream by adding `outputs.state = 'SKIP'` wherever needed to the script section of the Script Parser step.
 
     This is a mandatory Parsing component that only runs on the instance.
 
 
 \[Omitted image "ds-action-diagram.png"\] Alt text: Overview of the REST and SOAP Data Stream action.
+
+## Generate the parsing phase for REST-based Data Stream actions
+
+You can automatically configure the splitter step, script parser step, and outputs for REST-based Data Stream actions. The Test REST step functionality in REST-based Data Stream actions executes a request to the configured REST endpoint, analyzes the response payload, and automatically sets up the parsing and output components.
+
+When a REST step is added to the Request section of a Data Stream action, you can use the REST step's **Test REST Step** button to [auto-generate the Parsing section and Outputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/parsing-rest-data-stream.md). The Parsing section includes the splitter step and parser step. Auto-generating also puts complex object output in the Outputs section.
 
 ## Transform script in JDBC step
 
@@ -213,6 +219,8 @@ Follow these considerations when creating a Data Stream action and when adding a
 Get data through a ServiceNow® MID Server when running a Data Stream action.
 -   **[Create a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/create-data-stream-action.md)**  
 Create a reusable action to process a stream of response data within a flow.
+-   **[Generate the Parsing phase for REST-based Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/parsing-rest-data-stream.md)**  
+Automatically configure the splitter step, script parser step, and outputs for REST-based Data Stream actions. The Test REST step functionality in REST-based Data Stream actions executes a request to the configured REST endpoint, analyzes the response payload, and automatically sets up the parsing and output components.
 -   **[Test a Data Stream action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/test-data-stream-action.md)**  
 Test your Data Stream action to ensure that it works the way you expect before you add it to a flow.
 -   **[Use a Data Stream action in a flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/use-data-stream-in-flow.md)**  

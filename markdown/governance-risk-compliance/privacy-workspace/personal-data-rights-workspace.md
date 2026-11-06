@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -16,9 +16,13 @@ breadcrumb: [Explore, Personal Data Rights \(PDR\), Privacy Management, Governan
 
 The Personal Data Rights Workspace offers you the ability to create new personal data rights request and view the requests by their type, due date, and status.
 
-The following image shows the Personal Data Rights workspace homepage. \[Omitted image "pdr-workspace.jpg"\] Alt text: PDR workspace homepage displaying the tasks details such as timelines, SLA, status, request type and requester.
+The following image shows the Personal Data Rights workspace homepage.
 
-From the homepage you can create a new PDR request. The following are the sections on the home page.
+\[Omitted image "pdr-workspace.png"\] Alt text: PDR workspace homepage displaying the tasks details such as timelines, SLA, status, request type and requester.
+
+From the homepage you can create a new PDR request. Use the **Explore** button to analyze personal data rights using natural language queries with AI Data Explorer. For information on installing, configuring, and using AI Data Explorer, see .
+
+The following are the sections on the home page.
 
 ## Overview section
 

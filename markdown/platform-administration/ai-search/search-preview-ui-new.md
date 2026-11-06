@@ -7,8 +7,8 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-11-13"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -56,7 +56,13 @@ Select the type of preview you want to view.-   **Full visual view**: preview se
 Select the search mode you want to use for your search query.-   **Keyword search**: Use the legacy keyword search mode to find the best matches for your search query terms.
 -   **Hybrid search**: Use the hybrid search mode, blending keyword search and semantic vector search to find the best combination of search precision and contextual relevance for your search query.
 
-**Note:** Hybrid search only affects knowledge article, Catalog Item, external content, and topic retrieval searches. AI Search continues to use keyword search when searching indexed content from other sources.
+**Note:** Hybrid search applies to any indexed source that's included in the semantic index. By default, the following indexed sources ship with preconfigured semantic indexing and work with hybrid search:
+
+    -   Knowledge Table indexed source \[kb\_knowledge table\]
+    -   Catalog Item Table indexed source \[sc\_cat\_item table\]
+    -   Skills indexed source \[sys\_gen\_ai\_skill table\]
+    -   All External Content Connectors indexed sources \[connector-specific tables\]
+You can manually configure additional indexed sources to be included in the semantic index, extending hybrid search to those sources as well. For details on this procedure, see [Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-semantic-indexing-ais.md).
 
 
 </td></tr><tr><td>

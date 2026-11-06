@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery for mobile
 classification: hr-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [HR Service Delivery for mobile, HR Service Delivery, Employee Service Management]
 ---
@@ -47,5 +47,5 @@ Several types of components install with the activation of the Now Mobile for HR
 -   **[Configurations for the Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/hr-mobile-configuration.md)**  
 Configure options for the Now Mobile app for HR Service Delivery.
 
-**Parent Topic:**[HR Service Delivery for mobile]()
+**Parent Topic:**[HR Service Delivery for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery-for-mobile/mobile-employee-experience-for-hr-service-delivery.md)
 

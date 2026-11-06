@@ -1,87 +1,52 @@
 ---
 title: Employee Center release notes
-description: The ServiceNow Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.The ServiceNow Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
+description: The ServiceNow Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/employee-center-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Unified Employee Experience release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Employee Center release notes
 
-The ServiceNow® Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
+The ServiceNow® Employee Center application is a standard multi-department, dynamic employee portal for unified service delivery. Employee Center was enhanced and updated in the Brazil release.
 
 ## About Employee Center
 
--   Resolve tasks created from submitted negative feedback with the Integrated experience and service feedback functionality.
--   Enable employees to seek assistance through virtual or in-person appointments, or by joining walk-up queues for immediate support.
--   Host live company events seamlessly in the employee portal with streamlined pre-event communications and a drag-and-drop editor for easy content creation.
+With Employee Center, you can deliver a unified portal experience that connects your enterprise systems in one centralized destination.
+
+-   Scale service delivery across multiple departments—IT, HR, Workplace, Legal, and Procurement—without extensive configuration.
+-   Extend portal functionality with a wide variety of customizable features tailored to your organization's needs.
+-   You can consolidate employee workflows, information, and services in a single accessible location.
+-   You can streamline service delivery and engagement for your entire employee base.
 
 See  for more information.
 
-## Activation and other requirements
+-   ****
 
-**Important:** Employee Center is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+    Now Mobile® enables you to manage and create tasks and access other company resources from your mobile device.
+
+    Use Now Mobile® to install the default taxonomy for the employee content store application. This application auto-assigns the employee taxonomy to the Mobile Employee Service portal \(MESP\) record.
+
+-   ****
+
+    Use the ServiceNow Otto for Employee Experience application so that your employees can have a seamless conversational interaction with ServiceNow Otto.
+
+
+## Activation and other requirements
 
 -   **Activation information**
 
-    Install the Employee Center plugin by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Employee Center by by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
-**Parent Topic:**[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-service-management-rn-landing.md)
+## Accessibility
 
-## Yokohama
+-   **Accessibility information**
+    -   Improve accessibility by allowing admins to configure widget heading levels \(H1–H6\) to meet organizational standards and support technologies. Clear heading hierarchies improve navigation for screen reader and keyboard users.
 
-The ServiceNow® Employee Center application is a multi-department dynamic portal for service delivery and employee engagement. Employee Center was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **Favoriting topic pages**
-
-    Enable one-click access for employees to their most frequently accessed topics through topic pages added to the Favorites widget.
-
--   **Single-click taxonomy sync**
-
-    Sync taxonomy updates across Advanced Portal Navigation hierarchy levels with one click.
-
--   **Guided Self-Service enhancements**
-    -   Admins can provide more detailed answers or guidance to a Guided Self-Service response by adding rich media, including images and videos and formatted text.
-    -   Employees can review and edit their previous responses.
-    -   Employees can search for and discover Guided Self-Service processes using AI-powered search.
--   **Enhanced apps discovery and visibility preferences \(Employee Center Pro\)**
-
-    Employees can search for authorized work applications using the AI-powered global search bar.
-
--   **Appointment booking with HR representative \(Employee Center Pro\)**
-
-    Employees can schedule in-person or virtual appointments to get help through a quick link in the Mega Menu or Quick links widget.
-
--   **Rich Content Editor updates \(Employee Center Pro\)**
-
-    Build more visually engaging content in microsites and news through additional formatting elements including bulleted and numbered lists, table or grid layouts, and accordion lists.
-
--   **Portal shortcuts for content authoring \(Employee Center Pro\)**
-
-    Content authors can now easily edit or create news articles and banners using shortcuts in the Content Experiences or News widgets. The system auto-generates publishing plans, streamlining content delivery to the selected widget and reducing the effort needed for configuration.
-
--   ** \(Employee Center Pro\)**
-    -   Set a rating threshold that automatically generates a feedback task.
-    -   Receive feedback tasks from negative feedback submitted through Now Mobile®.
-    -   Receive automated email notifications when feedback tasks are completed.
-    -   Track your feedback responses through the Feedback Analytics dashboard for portal, email, Virtual Agent, kiosks, and Now Mobile®.
--   **Live company events hosting and communications framework \(Employee Center Pro\)**
-
-    Live company events can now be hosted directly in the Employee Center Pro portal, with prebuilt configurations to streamline the pre-event communications and handle traffic surges. Content authors can easily create and share event content using the drag-and-drop Rich Content Editor, combined with mass-publishing capabilities similar to news articles.
-
--   **Improved topic search ranking**
-
-    The Topic content search widget now ranks topics based on user clicks, improving the relevance of search results and making it easier for employees to find their frequently used topics.
-
--   **Quick start tests for Employee Center**
-
-    After upgrades and deployments of new applications or integrations, run quick start tests to verify that Employee Center works as expected. If you customized Employee Center, copy the quick start tests and configure them for your customizations.
-
+**Parent Topic:**[Unified Employee Experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/uex-rn-landing.md)
 

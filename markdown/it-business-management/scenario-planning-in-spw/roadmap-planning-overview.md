@@ -7,10 +7,10 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Explore, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Roadmaps in Strategic Planning
@@ -40,7 +40,7 @@ The features available in these roadmaps are:
 
 By creating a flexible portfolio plan using lenses, you can prioritize and roadmap work for your portfolio. Use these portfolio roadmaps to plan and track work in different perspectives of the organization separately, while connecting them to the high-level plans of the company.
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md) to get started. You can view and edit your roadmap in both Timeline and Kanban views.
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md) to get started. You can view and edit your roadmap in both Roadmap and Kanban tabs.
 
 \[Omitted image "potfolio-roadmap-timeline.png"\] Alt text: Portfolio roadmap timeline view.
 
@@ -54,7 +54,7 @@ Using a filter condition, you can define what kind of work items you want on you
 
 You can view and edit your free-form roadmap in both Timeline and Kanban views.
 
-See [Create a free-form roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
+See [Create a free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-roadmap-in-roadmap-planning.md).
 
 ## Hybrid roadmaps
 
@@ -66,7 +66,7 @@ You can create milestones for your roadmap, or for each planning item on the roa
 
 -   **Roadmap-level or portfolio-level milestones**
 
-    The milestones created at the roadmap level can help with tracking launch dates or key events during that roadmap's timeline. To learn how to create roadmap milestones, see [Add milestones for a roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md).
+    The milestones created at the roadmap level can help with tracking launch dates or key events during that roadmap's timeline. To learn how to create roadmap milestones, see [Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md).
 
 -   **Planning item milestones**
 
@@ -74,7 +74,7 @@ You can create milestones for your roadmap, or for each planning item on the roa
 
     From the roadmap, milestones can be created and updated for all types of planning items, except on projects. Project milestones are read-only on the roadmap because any changes to project milestones may impact the associated project plans. So, it is recommended to create or update project milestones using Project Workspace in Project Portfolio Management \(PPM\).
 
-    To learn how to create item-level milestones on a roadmap, see [Add milestones for roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md).
+    To learn how to create item-level milestones on a roadmap, see [Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md).
 
 
 ## Planning item dependencies
@@ -87,13 +87,13 @@ In Strategic Planning, you can create simple or hybrid dependencies. For example
 
 The dependency lines help you easily identify the items that may have to be prioritized together. Such easy identification of relationships between planning items provides better collaboration and facilitates enhanced decision making in the planning process.
 
-To learn about creating and managing dependencies, see [Add dependencies for roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md).
+To learn about creating and managing dependencies, see [Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.md).
 
 ## Tracking mode in roadmaps
 
 Track status, progress, and metrics for each item on the roadmap. Using the status indicators and the percentage complete score on the planning item bars, make informed decisions ahead of time and easily communicate your work progress to the stakeholders.
 
-See [Track the progress of your roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/track-roadmap-items-progress.md).
+See [Track the progress of roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/track-roadmap-items-progress.md).
 
 ## Alignment of your work with business goals
 

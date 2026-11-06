@@ -1,42 +1,42 @@
 ---
-title: Create a success initiative
-description: Create a success initiative with a planned set of internal or external tasks to support a success outcome.
+title: Add a success initiative
+description: Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-success-initiative.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Create a success blueprint manually, Create a success blueprint, Manage engagements, Customer success, Use, Customer Success Management]
 ---
 
-# Create a success initiative
+# Add a success initiative
 
-Create a success initiative with a planned set of internal or external tasks to support a success outcome.
+Create a success initiative with a planned set of internal or external tasks to support a primary success outcome.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent, sn\_acct\_lc.ale\_success\_customer
+Role required: role sn\_acct\_lc.customer\_success\_agent , sn\_acct\_lc.customer\_success\_customer
 
 ## About this task
 
-Success initiatives are a set of planned activities or tasks that a provider and a customer must complete to achieve a success outcome. A success initiative can include one or more tasks that can be internal or external and can be defined with the Create Success Initiative playbook.
+Success initiatives are a set of planned activities or tasks that a provider and a customer must complete achieving a primary success outcome. A success initiative can include one or more tasks that can be internal or external and can be defined with the Create Success Initiative playbook.
 
-**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-process-automation-designer.md) for details.
+**Note:** The Create Success Initiative playbook has a set of predefined stages and fields. You can add or modify these stages using Playbooks. See [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-process-automation-designer.md) for the details.
 
 ## Procedure
 
-1.  Navigate to **Workspace** &gt; **CSM/FSM Configurable Workspace** and click the **List** icon.
+1.  Navigate to **Workspace** &gt; **CRM Workspace** and select the **List** icon.
 
-2.  Navigate to the **Customer Success** &gt; **All Initiatives** and click **New** to launch the playbook.
+2.  Navigate to the **Customer Success** &gt; **All Initiatives** and select **New** to launch the playbook.
 
-3.  In the Initial Setup page, select the **Success Outcome** with this initiative is to be associated.
+3.  In the Initial setup page, select the primary success outcome associated with this initiative.
 
-4.  Click **Continue** to move to the next tab.
+4.  Select **Continue** to move to the next tab.
 
     The success initiative record is created.
 
-5.  In the Plan the Plan section, enter the core information for this initiative as follows.
+5.  In the Plan section, enter the core information for this initiative as follows.
 
 <table id="table_ofk_5cb_1cc"><thead><tr><th>
 
@@ -48,11 +48,13 @@ Success initiatives are a set of planned activities or tasks that a provider and
 
 </th></tr></thead><tbody><tr><td>
 
-Success outcome
+Primary success outcome
 
 </td><td>
 
-Select the success outcome associated with this initiative.
+The primary success outcome associated with this initiative.
+
+ To create applicable success outcome, see [Create an applicable success outcome](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-applicable-outcome.md).
 
 </td></tr><tr><td>
 
@@ -84,7 +86,7 @@ Category
 
 </td><td>
 
-The category associated with this initiative. This can be:-   General
+The category associated with this initiative.-   General
 -   Strategic planning
 -   Architecture and design
 -   Adoption
@@ -97,7 +99,7 @@ State
 
 </td><td>
 
-State of the initiative. This can be:-   New
+State of the initiative.-   New
 -   In progress
 -   Paused
 -   Canceled
@@ -110,7 +112,7 @@ Progress
 
 </td><td>
 
-Current progress of this initiative. This can be:-   Not Started
+Current progress of this initiative.-   Not Started
 -   On-Track
 -   At Risk
 -   Paused
@@ -124,7 +126,7 @@ Priority
 
 </td><td>
 
-Priority of this initiative in comparison to others. This can be:-   Critical
+Priority of this initiative in comparison to others.-   Critical
 -   High
 -   Medium
 -   Low
@@ -155,34 +157,57 @@ Description
 
 Enter a description for this initiative.
 
-</td></tr></tbody>
-</table>6.  Click **Mark Complete**.
+</td></tr><tr><td>
 
-7.  In the Collab and Complete step, click **Create Task** to automatically create a sample success task or click **Skip** to skip this step.
+Product
+
+</td><td>
+
+Automatically populated from the success objective table when primary success outcome is selected.
+
+</td></tr><tr><td>
+
+Needs attention
+
+</td><td>
+
+Clear the check box to make Blocked by capability work.
+
+</td></tr></tbody>
+</table>6.  Select **Mark Complete**.
+
+7.  In the Collab and Complete step, select **Create Task** to create a success task automatically, or select **Skip** to skip this step.
+
+    The **Create Task** and **Skip** buttons are visible to the user.
 
 8.  In the Summarize and Close step, enter the following details.
 
-    -   Closure code: Select the reason for which the record is being closed. This can be:
+    -   Closure code: Select the reason for which the record is being closed.
         -   Achieved
         -   Partially achieved
         -   Missed
         -   Canceled
     -   Close notes: Provide a description on which this initiative is being closed.
-9.  Click **Mark Complete** to complete this task.
+9.  Select **Mark Complete** to complete this task.
 
-    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Click the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/response-templates-templated-snippets.md).
+    **Note:** You can use response templates to provide quick responses, or copy and paste relevant information from a case. Select the **Response template** icon and select the response template you want to use. For more details on response templates, see [Response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/response-templates-templated-snippets.md).
 
 
 ## What to do next
 
 You can perform the following actions:
 
--   Discuss: Click **Discuss** to start a sidebar discussion about this initiative. In the popup window, select the participants who need to participate in the discussion, enter a brief message, and click **Start discussion**. A window appears with a link to the record for this initiative. Click **Open record** and start the discussion. When the discussion has been completed, you can see the details in the Activity stream.
+-   Discuss: Select **Discuss** to start a sidebar discussion about this initiative. In the pop-up window, select the participants who must participate in the discussion, enter a brief message, and select **Start discussion**. A window appears with a link to the record for this initiative. Select **Open record** and start the discussion. When the discussion has been completed, you can see the details in the **Activity stream**.
 -   Assign to me: Select this option to reassign this initiative to yourself.
 -   Close initiative: Once the initiative has been completed and the Closure code is set to **Achieved**, you can close this initiative.
--   Create success play: Select this option to create a success play. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.md) for details.
--   Email: Open the Activity stream and select **Email** from the More drop down list. Enter the required details and click **Send email**.
+-   Create success play: Select this option to create a success play. See [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.md) for the details.
+-   Email: Open the **Activity stream** and select **Email** from the More drop down list. Enter the required details and select **Send email**.
 
     **Note:** You can send emails only to the team members associated with the account.
 
+
+-   **[Summarize a success initiative using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/now-assist-tmt-summarize-success-init.md)**  
+Generate a summary from a success initiative record and all associated success tasks.
+
+**Parent Topic:**[Create a success blueprint manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-blueprint-manual.md)
 

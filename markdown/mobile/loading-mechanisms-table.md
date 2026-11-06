@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/loading-mechanisms-table.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Loading mechanisms for input form screens, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -401,6 +401,26 @@ Yes
 </td><td>
 
 Must be mapped to a string or string \(UTF-8\) field type column.
+
+</td></tr><tr><td>
+
+Descriptive element
+
+</td><td>
+
+Card
+
+</td><td>
+
+-
+
+</td><td>
+
+Yes
+
+</td><td>
+
+For configuration of mobile cards, see [Mobile Card Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-card-builder.md).
 
 </td></tr></tbody>
 </table>

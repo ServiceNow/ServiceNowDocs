@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create baseline of a project, Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create baseline of a project, Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Compare schedule baselines of a project
@@ -28,15 +28,15 @@ Role required: it\_project\_manager
 
 1.  To compare the schedule baselines of a project, use one of the following options.
 
-<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d192054e64">
+<table id="choicetable_wgp_h4y_tfb"><thead><tr><th align="left" id="d245751e64">
 
 Option
 
-</th><th align="left" id="d192054e67">
+</th><th align="left" id="d245751e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d192054e73">
+</th></tr></thead><tbody><tr><td id="d245751e73">
 
 **From the Planning Console**
 
@@ -48,7 +48,7 @@ Steps
 4.  On the Planning Console, select the more actions icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More actions icon\) and then from the Baselines list, select a baseline.
 
 
-</td></tr><tr><td id="d192054e121">
+</td></tr><tr><td id="d245751e121">
 
 **From the Baseline form**
 

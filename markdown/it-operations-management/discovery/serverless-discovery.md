@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-01"
 reading_time_minutes: 2
-breadcrumb: [Running discoveries in your network, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Serverless Discovery

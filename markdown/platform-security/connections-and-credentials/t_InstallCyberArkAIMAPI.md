@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [CyberArk integration configuration, CyberArk credential storage integration, External credential storage, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Configure the CyberArk vault and install the AIM API

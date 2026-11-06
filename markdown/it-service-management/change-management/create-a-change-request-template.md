@@ -1,26 +1,26 @@
 ---
 title: Create a change request template
-description: You can create a template that can be used to create change requests with pre-defined supporting tasks. Templates simplify the process of submitting new records by populating fields automatically.
+description: Create a template for change requests with predefined supporting tasks. Templates simplify the process of submitting new records by populating fields automatically.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/create-a-change-request-template.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
 
 # Create a change request template
 
-You can create a template that can be used to create change requests with pre-defined supporting tasks. Templates simplify the process of submitting new records by populating fields automatically.
+Create a template for change requests with predefined supporting tasks. Templates simplify the process of submitting new records by populating fields automatically.
 
 ## Before you begin
 
 Role required: admin
 
-The administrator must configure the form layout to add these fields: **Next Related Template**, **Next Related Child Template**, **Link element**
+The administrator must configure the form layout to add these fields: **Next Related Template**, **Next Related Child Template**, and **Link element**.
 
 ## About this task
 
@@ -33,7 +33,7 @@ There are two change request template configuration items.
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Templates**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Complete the form as described in [Create a template using the Template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateATemplateUsingTheTmplForm.md).
 
@@ -71,10 +71,10 @@ Link element
 
 </td><td>
 
-Specifies a link to a record created from a child template to the record created from the parent template.The template script chooses the first valid reference field that can link to the parent record when this field is left blank.
+Link from a record created from a child template to the record created from the parent template.The template script chooses the first valid reference field that can link to the parent record when this field is left blank.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 **Parent Topic:**[Configuring Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/configure-change-management.md)

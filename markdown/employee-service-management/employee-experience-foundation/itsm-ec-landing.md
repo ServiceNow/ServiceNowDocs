@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Unified Employee Experience, Employee Service Management]
+breadcrumb: [EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Center for IT Service Management
@@ -33,4 +33,11 @@ Employee Center for IT Service Management \(ITSM\) helps you improve the self-se
 [Use\[Omitted image "bus-alignment.svg"\] Alt text:Use Employee Center to enhance the IT Service Management experience for both admins and employees.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/use-itsm-ec-new.md)
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

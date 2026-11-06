@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Knowledge blocks authoring in Agent Workspace, Using knowledge blocks, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,13 +32,13 @@ Role required: agent\_workspace\_user and knowledge
 
 3.  Click an existing article link.
 
-    For more information, see [Edit a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/edit-article-workspace.md).
+    For more information, see [Edit a knowledge article in Agent Workspace]().
 
     **Note:**
 
     -   Knowledge blocks are supported only with HTML knowledge articles. Make sure that the **Article type** field is set to **HTML**.
     -   If a knowledge article uses an article template, you can add knowledge blocks to any fields associated with the article template.
-4.  In the contextual side panel, click the add blocks icon \(\[Omitted image "add-block.png"\] Alt text: Add Blocks icon\).
+4.  In the contextual side panel, click the add blocks icon .
 
 5.  Search for the article to which you want to add the knowledge block.
 

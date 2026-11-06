@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage hardware asset requests using the Zero Touch request flow, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure Zero Touch request flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Use the Scratchpad to complete your request fulfillment tasks
@@ -79,4 +79,6 @@ When you ship the requested items and confirm the shipment, a Scratchpad update 
 -   **Serial number**: Serial number of the asset.
 
 **Note:** The shipment update for consumable assets doesn't include Asset tag and Serial number details. If there are multiple shipments, the information of the asset in a shipment must be sent to your consumer's ServiceNow instance only once.
+
+**Parent Topic:**[Configure Zero Touch request flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configure-ztr-flow.md)
 

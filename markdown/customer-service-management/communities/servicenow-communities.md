@@ -7,7 +7,7 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Customer Service Management]
 ---
@@ -48,7 +48,7 @@ With the ServiceNow® Communities application, connect, engage, and collaborate 
 -   [Enable users to self-register to a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-registration.md)
 -   [Enable knowledge harvesting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-km-integration-configure.md)
 -   [View the Communities performance dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/view-communities-dashboard.md)
--   [Make an announcement to community members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/manage-announcements.md)
+-   [Configure announcement for community members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/manage-announcements.md)
 -   [Moderate a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/moderate-communities.md)
 -   [Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-gamification-administer.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Get started with Service Reliability Management, Exploring Service Reliability Management, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Get started with Service Reliability Management, Exploring Service Reliability Management, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # SRM interface
@@ -56,8 +56,6 @@ A home for your organization logo and system-level utilities present everywhere 
 </td><td>
 
 Easy access to specific pages in SRM. The primary navigation uses icons, including icons for Services, Reliability tasks, Teams, and Schedules. Use tooltips to identify them.
-
-**Note:** The Alert automation icon \[Omitted image "icon-sr-alert-rules.png"\] Alt text: Alert automation icon is only available if you have installed the Alert automation application from the ServiceNow Store.
 
 </td></tr><tr><td>
 

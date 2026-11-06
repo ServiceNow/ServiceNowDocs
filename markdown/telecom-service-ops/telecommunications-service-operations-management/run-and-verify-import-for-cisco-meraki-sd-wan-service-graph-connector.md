@@ -1,0 +1,54 @@
+---
+title: Run and verify an import schedule for Cisco Meraki SGC
+description: Manually run a configured import schedule for the Cisco Meraki Service Graph Connector \(SGC\) to verify that data from Cisco Meraki was successfully imported or updated in the Configuration Management Database \(CMDB\). You can also perform the import to validate the connector setup, run one-off imports, or test newly configured connection aliases.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/run-and-verify-import-for-cisco-meraki-sd-wan-service-graph-connector.html
+release: yokohama
+product: Telecommunications Service Operations Management
+classification: telecommunications-service-operations-management
+topic_type: task
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Run SGC imports, Use, Telecommunications Service Operations Management]
+---
+
+# Run and verify an import schedule for Cisco Meraki SGC
+
+Manually run a configured import schedule for the Cisco Meraki Service Graph Connector \(SGC\) to verify that data from Cisco Meraki was successfully imported or updated in the Configuration Management Database \(CMDB\). You can also perform the import to validate the connector setup, run one-off imports, or test newly configured connection aliases.
+
+## Before you begin
+
+Role required: TSOM Visibility admin
+
+If you have configured multiple Cisco Meraki connection aliases for different environments or filters, confirm that the import schedule is set up correctly for each alias.
+
+## About this task
+
+**Note:**
+
+-   If Concurrent Import option is enabled in the import schedule, records are imported into the Concurrent Import Set table instead of the standard Import Set table.
+-   Each concurrent job creates its own import set and log entry. The structure of the execution records remains the same.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Meraki** &gt; **Import Schedules**.
+
+2.  Select the import schedule that you want to run.
+
+3.  From the list of scheduled data imports, select the scheduled data import.
+
+4.  If the import needs to be run manually rather than having run automatically on a specified schedule, select **Execute now**.
+
+5.  In the Executions related list, verify the import results by selecting the most recent Import Set record created by the execution of the import.
+
+6.  Review the import set log to verify the numbers of rows read, rows inserted or updated, and transformation success status in the CMDB.
+
+    If you delete existing CIs and rerun the import, the log might show multiple inserts and updates, validating end-to-end functionality.
+
+
+## Result
+
+If configured correctly, the connector brings in the network inventory data from Cisco Meraki into your ServiceNow AI Platform® instance.
+
+**Parent Topic:**[Using Telecommunications Service Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/using-tsom.md)
+

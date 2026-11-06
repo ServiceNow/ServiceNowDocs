@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-cond-state-using-cond-build.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,9 @@ Role required: admin
 
 ## About this task
 
-A condition consists of three parts. \[Omitted image "condition-builder.png"\] Alt text: Condition builder with the Active field, the is operator, and the true value highlighted.
+A condition consists of three parts: field, operator, and value.
+
+\[Omitted image "condition-builder.png"\] Alt text: Condition builder with the Active field, the is operator, and the true value highlighted.
 
 |Part|Description|
 |----|-----------|
@@ -36,7 +38,7 @@ A condition consists of three parts. \[Omitted image "condition-builder.png"\] A
 
 3.  To remove a condition, select the delete icon \(X\) next to the condition.
 
-    \[Omitted image "ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png"\] Alt text: Example AND condition in List v2
+    \[Omitted image "ExampleConditionActiveIsTrueAndCallerIsNotEmpty.png"\] Alt text: Example AND condition
 
 
 -   **[Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_ConditionBuilder.md)**  

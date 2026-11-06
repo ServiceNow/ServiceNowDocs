@@ -1,20 +1,20 @@
 ---
 title: Install the Entity Based Access application
-description: Install the GRC: Entity Based Access application.
+description: Install the GRC: Entity Based Access \(sn\_grc\_ent\_access\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-common-functions/install-entity-based-access.html
 release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure Entity Based Access, Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Install the Entity Based Access application
 
-Install the GRC: Entity Based Access application.
+Install the GRC: Entity Based Access \(sn\_grc\_ent\_access\) application.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: admin
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

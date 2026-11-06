@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Recommended learning in journey configurations
@@ -22,9 +22,7 @@ The recommendations are based on the courses taken by similar employees with the
 -   Recommended external courses are only available for the designated duration of the course.
 -   Recommended learning courses are accessible to managers and mentors that have **Can add recommended learning** permission in a journey configuration. Managers and mentors can add courses only as recommendations to an individual journey from the Employee Center. See, [Display learning recommendations to the Manager creating a journey](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-learning-recom-manager-ml.md).
 
--   **[Task template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-task-template.md)**  
-To make a task template, fill in the task template fields.
--   **[Add or modify recommended learning in the Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-config-reco-lrnng.md)**  
+-   **[Add or modify recommended learning in Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-config-reco-lrnng.md)**  
 Configure and manage recommended learning for employee journeys.
 -   **[Delete recommended learning in the Journey designer app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-delete-reco-learning-admin.md)**  
 Delete recommended learning for employee journey configurations.
@@ -32,9 +30,4 @@ Delete recommended learning for employee journey configurations.
 Configure a solution definition to display learning recommendation to users with similar journeys.
 
 **Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-configuration.md)
-
-**Related topics**  
-
-
-[Integrating Learning Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-intgrt-lrnng-pst.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Add objectives to a policy
-description: Add objectives to the default objectives in Schedule Optimization policies to achieve additional goals.
+description: Add objectives to Schedule Optimization policies to achieve additional optimization goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/add-objective-sched-opt-policy.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a policy for Schedule Optimization, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Create policies, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Add objectives to a policy
 
-Add objectives to the default objectives in Schedule Optimization policies to achieve additional goals.
+Add objectives to Schedule Optimization policies to achieve additional optimization goals.
 
 ## Before you begin
 
@@ -22,25 +22,25 @@ Role required: wm\_admin
 
 ## About this task
 
-Objectives serve as the compass that guides task prioritization in Schedule Optimization. Objectives set the goals of a Schedule Optimization policy. Each objective is weighted and Schedule Optimization prioritizes higher-numbered weights. For default settings, apply a weight of 1, and for more important factors, such as Maximizing high-priority task assignments, apply a weight of 2.The following are the default and optional objectives in Schedule Optimization.
+Objectives set the goals of a Schedule Optimization policy and control how tasks are prioritized during optimization. The following default objectives are included in all policies and cannot be removed.
 
-Default objectives
+Default objectives:
 
--   Maximize task assignment- Focused on ensuring as many tasks as possible are scheduled. Adds as many tasks as possible to agent schedules to maximize productivity.
--   Minimize travel time- Targeted at reducing agent travel time. Limits the travel time between tasks for all agents.
+-   Maximize task assignment: Ensures as many tasks as possible are scheduled by adding tasks to agent schedules to maximize productivity.
+-   Minimize travel time: Reduces agent travel time by limiting the distance between tasks for all agents.
 
-**Note:** These objectives are default and cannot be removed from your policies.
+The following are examples of optional objectives that can be added to further customize optimization behavior.
 
-Optional objectives
+Example optional objectives:
 
 -   Maximize High-Priority Task Assignments: Prioritizes urgent tasks.
 -   Minimize Under/Over-Skilled Agent Assignments: Matches task complexity with agent skill level.
--   Minimize number of shifts with tasks: Limits the number of tasks per shift.
--   Minimize SLA Violations: Keeps service delivery within agreed timeframes.
+-   Minimize Number of Shifts with Tasks: Limits the number of tasks per shift.
+-   Minimize SLA Violations: Keeps service delivery within agreed time frames.
 -   Minimize Overtime: Caps agent work hours within standard time ranges.
--   Maximize Balance in Tasks &amp; Work Hours: Distributes tasks and hours evenly among agents.
+-   Maximize Balance in Tasks and Work Hours: Distributes tasks and hours evenly among agents.
 
-**Note:** Objectives are optional but act as levers, adjusting your optimization to better suit your needs. For example, if Minimize overtime is set as an objective, Schedule Optimization will try to assign tasks to agents during normal hours. If that's not possible, tasks will be assigned to agents even if it will require overtime. For a list of the objectives, see [Optimization features used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md).
+**Note:** Objectives act as levers that adjust optimization to better suit your needs. For example, if Minimize Overtime is set as an objective, Schedule Optimization assigns tasks to agents during normal hours when possible. If that is not possible, tasks are assigned even if overtime is required. For a list of objectives, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md).
 
 ## Procedure
 

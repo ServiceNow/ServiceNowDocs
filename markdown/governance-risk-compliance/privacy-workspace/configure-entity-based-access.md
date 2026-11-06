@@ -7,9 +7,9 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Access control through organizational structure, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Configure Entity-based access
@@ -36,8 +36,10 @@ Role required: sn\_privacy.admin
 
 6.  Select **Save**.
 
-    Based on your selected settings, the entity-based access properties are configured in your system.
 
+## Result
 
-**Parent Topic:**[Access control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)
+Based on your selected settings, the entity-based access properties are configured in your system.
+
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

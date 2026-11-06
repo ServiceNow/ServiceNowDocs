@@ -1,24 +1,26 @@
 ---
 title: Data visualizations in Platform Analytics
-description: Data Visualizations use graphics to show table, indicator, and other data. They combine and extend the functions of reports and Performance Analytics widgets from the Core UI, which they replace in Platform Analytics.
+description: Data visualizations use graphics to show table, indicator, and other data. They combine and extend the functions of reports and Performance Analytics widgets from the Core UI, which they replace in Platform Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/analytics-center-data-visualizations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Platform Analytics experience, Platform Analytics]
 ---
 
 # Data visualizations in Platform Analytics
 
-Data Visualizations use graphics to show table, indicator, and other data. They combine and extend the functions of reports and Performance Analytics widgets from the Core UI, which they replace in Platform Analytics.
+Data visualizations use graphics to show table, indicator, and other data. They combine and extend the functions of reports and Performance Analytics widgets from the Core UI, which they replace in Platform Analytics.
 
-**Important:** You cannot place reports or Performance Analytics widgets on a Platform Analytics dashboard. You must create data visualizations instead.
+**Important:** You can’t place reports or Performance Analytics widgets on a Platform Analytics dashboard. You must create data visualizations instead.
 
 \[Omitted video\] Description: Covers data visualization concept; creating, editing, and sharing visualizations; and adding them to dashboards
 
 To access data visualizations, navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**. Owners of a data visualization can access and share that visualization. Users whom the owner has shared a visualization with can access that visualization. Any user with access to data can create a data visualization based on that data.
+
+You can also directly access Data Visualizations from the filter navigation in Platform Analytics library pages.
 
 ## Get started
 
@@ -40,7 +42,7 @@ To access data visualizations, navigate to **All** &gt; **Platform Analytics** &
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Details of advanced configuration options found in many data configuration types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-data-visualizations.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Details of advanced configuration options found in many data visualization types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-data-visualizations.md)
 
 </td><td>
 

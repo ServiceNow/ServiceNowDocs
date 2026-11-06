@@ -7,7 +7,7 @@ release: yokohama
 product: Service Creator
 classification: service-creator
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage a service, Service Creator, Build workflows]
 ---
@@ -18,7 +18,7 @@ Deleting a template notification prevents new service categories from using the 
 
 ## Before you begin
 
-Role required: admin
+Role required: none.
 
 ## Procedure
 

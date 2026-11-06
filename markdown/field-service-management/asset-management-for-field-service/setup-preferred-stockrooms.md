@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring stockrooms, Setting up inventory and asset management, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Stockrooms, Inventory and asset management, Configure, Field Service Management]
 ---
 
 # Add preferred stockrooms to an assignment group
@@ -45,9 +45,9 @@ Role required: wm\_admin
 
     The preferred stockroom is created for the selected assignment group.
 
-6.  Select **Preferred Stockroom** option in the **Part Search Criteria** property to help Field Service agents search parts from the preferred stockrooms using the Now Mobile Agent application.
+6.  Select the **Preferred Stockroom** option in the **Part Search Criteria** property to help Field Service agents search parts from the preferred stockrooms using the Now Mobile Agent application.
 
-    For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/advanced-part-souring-components.md).
+    For more information, see [Advanced Part Sourcing components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/advanced-part-souring-components.md)
 
 
 **Related topics**  

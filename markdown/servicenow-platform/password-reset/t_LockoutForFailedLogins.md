@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Specify lockout for failed login attempts
@@ -18,7 +18,7 @@ The system provides inactive script actions that enable you to specify the numbe
 
 ## Before you begin
 
-Role required: admin
+Role required: password\_reset\_admin
 
 ## Procedure
 
@@ -76,6 +76,8 @@ Each time a user attempts to log in, the action is recorded in an event log. You
 **Related topics**  
 
 
+[Calculating the security score for password reset process]()
+
 [Configure password expiration reminder]()
 
 [Credential stores for Password Reset]()
@@ -86,7 +88,7 @@ Each time a user attempts to log in, the action is recorded in an event log. You
 
 [Enable users to enroll for Password Reset]()
 
-[Configuring Password Reset properties]()
+[Configure Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create hardware models, Models, Product Catalog, IT Asset Management]
+breadcrumb: [Create hardware models, Models, Product Catalog, Common applications, Asset Management]
 ---
 
 # Add substitute models to a hardware model

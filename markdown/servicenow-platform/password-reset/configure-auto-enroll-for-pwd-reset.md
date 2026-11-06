@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure your Password Reset process to auto-enroll users
@@ -18,7 +18,7 @@ To simplify management, many organizations auto-enroll users in the Password Res
 
 ## Before you begin
 
-Role required: password\_reset\_admin or admin
+Role required: password\_reset\_admin
 
 ## About this task
 
@@ -69,6 +69,8 @@ Select the check box to auto-enroll users. **Note:** If **Automatic enrollment**
 **Related topics**  
 
 
+[Calculating the security score for password reset process]()
+
 [Configure password expiration reminder]()
 
 [Credential stores for Password Reset]()
@@ -77,7 +79,7 @@ Select the check box to auto-enroll users. **Note:** If **Automatic enrollment**
 
 [Enable users to enroll for Password Reset]()
 
-[Configuring Password Reset properties]()
+[Configure Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

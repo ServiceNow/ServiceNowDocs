@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Non-disclosure agreement requests in Legal Simple Contracts, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Non-disclosure agreement requests in Legal Simple Contracts, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a legal request for a NDA
@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Access the non-disclosure agreement intake form.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d214356e71">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d232299e71">
 
 Option
 
-</th><th align="left" id="d214356e74">
+</th><th align="left" id="d232299e74">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d214356e80">
+</th></tr></thead><tbody><tr><td id="d232299e80">
 
 **Using __Employee Center__**
 
@@ -43,7 +43,7 @@ Description
 3.  Search for and open the **Non-disclosure agreement** request item.
 
 
-</td></tr><tr><td id="d214356e123">
+</td></tr><tr><td id="d232299e123">
 
 **Using __Legal Service Portal__**
 
@@ -71,7 +71,7 @@ Is this for a Vendor, Customer, or Partner?
 
 </td><td>
 
-Category of the third party.
+Category of the third-party.
 
 </td></tr><tr><td>
 
@@ -87,7 +87,7 @@ Company legal name
 
 </td><td>
 
-Legal name of the third party with whom you are making an agreement.If the company name isn’t listed, select **\[Company not listed\]** option and enter the name in the **New company legal name**.
+Legal name of the third-party with whom you are making an agreement.If the company name isn’t listed, select **\[Company not listed\]** option and enter the name in the **New company legal name**.
 
 </td></tr><tr><td>
 
@@ -95,7 +95,7 @@ Address
 
 </td><td>
 
-Mailing address of the third party.
+Mailing address of the third-party.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Country
 
 </td><td>
 
-Country of the third party.
+Country of the third-party.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ External signatory details
 
 </td><td>
 
-List of people from the selected third party who would sign the agreement.
+List of people from the selected third-party who would sign the agreement.
 
 </td></tr></tbody>
 </table>3.  Modify the list of signatories.

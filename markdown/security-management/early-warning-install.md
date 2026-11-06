@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/early-warning-install.html
 release: yokohama
 topic_type: task
-last_updated: "2026-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Early Warning for Security Exposure Management, Integrate, Unified Security Exposure Management, Security Operations]
 ---
@@ -26,7 +26,7 @@ Role required: admin
 
 3.  Select the card to open it and select **Install**.
 
-    See [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md) for more information about installing Store applications.
+    See [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md) for more information about installing Store applications.
 
     The Dependency Checklist dialog is displayed. Select any **\(Needs to be installed\)** links to install any required dependencies you have not already installed.
 

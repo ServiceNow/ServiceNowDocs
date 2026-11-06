@@ -7,9 +7,10 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Service Exchange, Service Exchange]
+keywords: [remote choice fields, catalog reference field, provider data, foundation data]
+breadcrumb: [Remote catalogs, Explore, Service Exchange]
 ---
 
 # Using remote choice fields to directly access provider data

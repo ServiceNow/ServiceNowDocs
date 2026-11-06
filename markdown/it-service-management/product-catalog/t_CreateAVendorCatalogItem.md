@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Vendor catalog items, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Vendor catalog items, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Create a vendor catalog item

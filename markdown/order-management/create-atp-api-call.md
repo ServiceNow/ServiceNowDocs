@@ -1,28 +1,36 @@
 ---
-title: Configure ATP API for the manage order operations agent
-description: Create an Available-to-Promise \(ATP\) API call that enables the manage order operations agent to check product availability and determine the earliest possible delivery date when customers request expedited shipping.
+title: Configure scripted extension points for the manage order operations AI agent
+description: Configure scripted extension points so that the manage order operations chat assistant can check product availability, validate order exception requests for delivery, quantity, and shipping location, and evaluate quote thresholds against your external inventory, ERP, or pricing systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-atp-api-call.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-21"
-reading_time_minutes: 2
-breadcrumb: [Configure, ServiceNow Otto for Order Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configuring the Manage Order Operations application, Business Portal, Configure, Sales Customer Relationship Management]
 ---
 
-# Configure ATP API for the manage order operations agent
+# Configure scripted extension points for the manage order operations AI agent
 
-Create an Available-to-Promise \(ATP\) API call that enables the manage order operations agent to check product availability and determine the earliest possible delivery date when customers request expedited shipping.
+Configure scripted extension points so that the manage order operations chat assistant can check product availability, validate order exception requests for delivery, quantity, and shipping location, and evaluate quote thresholds against your external inventory, ERP, or pricing systems.
 
 ## Before you begin
 
-Application scope must be set to Order Exception AI Agents.
+The application scope must be set to Manage Order Operations. You can change the application scope using the application picker \[Omitted image "globe-outline-24.svg"\] Alt text: in the Unified Navigation bar.
 
 Role required: admin
 
 ## About this task
 
-The demo data for the manage order operations agent includes a sample implementation called orderExpeditionCheckDemo as part of the sn\_ord\_ops\_aias.orderExpeditionCheckEP extension point. To enable real-world functionality such as checking on-hand quantities and delivery dates from external Enterprise Resource Planning \(ERP\) systems like SAP or Oracle, you should replace the demo data implementation with your custom ATP API.
+The demo data for the manage order operations agent includes sample implementations of the following scripted extension points.
+
+|Extension point|API name|Purpose|
+|---------------|--------|-------|
+|Order exception check|sn\_ord\_ops\_aias.orderExceptionCheckEP|Validate quantity, delivery availability, and shipping location for order line items.|
+|Threshold check for quote|sn\_ord\_ops\_aias.ThresholdCheckForQuote|Determine whether a requested quantity change crosses the configured threshold for quote-side handling.|
+
+To enable real-world functionality such as querying on-hand quantities, delivery dates, location feasibility, and quote thresholds from external Enterprise Resource Planning \(ERP\) or pricing systems like SAP or Oracle, replace each demo implementation with your custom logic.
 
 ## Procedure
 
@@ -30,67 +38,100 @@ The demo data for the manage order operations agent includes a sample implementa
 
 2.  Navigate to **All** &gt; **Scripted Extension Points** &gt; **Scripted Extension Points**.
 
-3.  Search for the sn\_ord\_ops\_aias.orderExpeditionCheckEP scripted extension point in the API Name field.
+3.  In the **API Name** field, search for a scripted extension point you want to configure.
 
-4.  Select **sn\_ord\_ops\_aias.orderExpeditionCheckEP** to view the sample script included in the demo data.
+4.  View the sample script included in the demo data by selecting the API name of the extension point.
 
-5.  Select the **Create implementation** related link to create your own implementation of the sn\_ord\_ops\_aias.orderExpeditionCheckEP extension point.
+5.  Create your own implementation of the selected extension point by selecting the **Create implementation** related link.
 
-6.  On the Script Include orderExpeditionCheckEP form, fill in the fields.
+6.  On the Script Include form for your chosen extension point, fill in the fields.
 
-    For description of the Script Include form fields, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md).
+    For a description of the Script Include form fields, see [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md).
 
-7.  Edit the getAvailability function in the script to implementation your own logic for checking product availability and delivery dates.
+7.  Edit the function in your extension-point implementation to apply your own logic, using the following function signatures.
 
-<table id="table_nvf_4d5_2hc"><thead><tr><th>
+    -   **checkOrderExceptionReq**
 
-Function name
+        Placeholder function meant to be overridden. Use this placeholder to implement the logic to:
 
-</th><th>
+        -   Validate the requested quantity for the specified order line items.
+        -   Confirm delivery availability for the order line items.
+        -   Validate the requested shipping location for the order line items.
+        Input:
 
-Description
+        ```
+        {
+        "<selectedLineNumber>": {
+        "lines": { "<line_sys_id>": { "product_offering": <Product offering sys_id of the order line item> } },
+        "requested_changes": {
+        "requested_quantity": <New quantity requested by the customer>,
+        "requested_shipping_location": <sys_id of the requested shipping location>,
+        "requested_expected_date": <Requested delivery date in yyyy-MM-dd format>
+        }
+        }
+        }
+        ```
 
-</th><th>
+        Output:
 
-Input and output
+        ```
+        {
+        "<selectedLineNumber>": {
+        "canChangeQty": <Boolean; true if the quantity change is permitted>,
+        "approvedQty": <Integer representing the approved quantity>,
+        "isQuantityError": <Boolean; true if the quantity check failed>,
+        "quantityErrorMsg": <Error message string for quantity check failures>,
+        "canChangeLocation": <Boolean; true if the shipping location change is permitted>,
+        "isLocationError": <Boolean; true if the location check failed>,
+        "locationErrorMsg": <Error message string for location check failures>,
+        "canExpedite": <Boolean; true if the requested expedition date is achievable>,
+        "earliestDelivery": <Earliest possible delivery date in yyyy-MM-dd format>,
+        "isDateError": <Boolean; true if the expedition date check failed>,
+        "dateErrorMsg": <Error message string for expedition date check failures>
+        }
+        }
+        ```
 
-</th></tr></thead><tbody><tr><td>
+    -   **isAboveQuoteThreshold**
 
-getAvailability
+        Placeholder function meant to be overridden. Use this placeholder to implement the logic to:
 
-</td><td>
+        -   Compare the requested quantity change against your configured price or quantity threshold.
+        -   Return whether the request requires quote-side handling.
+        Input:
 
-Placeholder function meant to be overridden. This is where you would implement the logic to:
+        ```
+        casePayload:
+        {
+        "<selectedLineNumber>": {
+        "lines": { "<line_sys_id>": {
+        "quantity": <Current quantity on the order line>,
+        "product_offering": <Product offering sys_id of the order line item>
+        } },
+        "approved_changes": {
+        "quantity": <New approved quantity for the line>,
+        "expected_date": <New approved delivery date in yyyy-MM-dd format>,
+        "location": <sys_id of the approved shipping location>
+        }
+        }
+        }
+        threshold: <Numeric threshold value supplied by the caller, resolved from sn_ord_ops_aias.OrderExceptionConstants.PRICE_THRESHOLD>
+        ```
 
--   Query external inventory or ERP systems.
--   Determine if the product is available.
--   Calculate the earliest delivery date based on requested date and stock levels.
+        Output:
+
+        ```
+        <Boolean; true if any selected line's quantity delta exceeds the supplied threshold and the change should be routed for quote-side handling, false otherwise>
+        ```
+
+8.  Select **Update**.
+
+9.  Validate your implementation by requesting order changes from the Business Portal using the ServiceNow Otto Virtual Agent.
+
+    For more information, see [Request order changes using ServiceNow Otto Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/request-order-changes-now-assist.md).
 
 
-</td><td>
-
-Input: The getAvailability function takes order number of the Customer order record and the revised date requested by the customer as input.
-
- Output:
-
-```
-{
-	"isAvailaible": <true/false – denotes if stock is available>, 
-	"earliestDelivery": <earliest delivery date in yyyy-MM-dd format>, 
-	"isError": <true/false – denotes if there is any failure in the API call>, 
-	"errorMessage": <error message string in case of failure> 
-}
-```
-
-</td></tr></tbody>
-</table>8.  Select **Update**.
-
-9.  Validate your implementation by requesting order changes from the Business Portal using the Now Assist Virtual Assistant.
-
-    For more information, see [Request order changes using ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/request-order-changes-now-assist.md).
-
-
-**Parent Topic:**[Configuring ServiceNow Otto for Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/now-assist-for-order-management-configuring.md)
+**Parent Topic:**[Configuring the Manage Order Operations application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configuring-manage-order-operations.md)
 
 **Related topics**  
 

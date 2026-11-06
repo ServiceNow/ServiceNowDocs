@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Export trained solutions to production
@@ -24,7 +24,7 @@ Role required: admin or ml\_admin
 
 ## About this task
 
-Plan your changes carefully, and remember that update sets match records based on the system ID \[sys-id\] and not the version number. Note that moving solutions to instances can sometimes deliver unpredictable results. If you run into such an issue, retrain the solution again, which takes 5 minutes per solution. For more information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md) .
+Plan your changes carefully, and remember that update sets match records based on the system ID \[sys-id\] and not the version number. Note that moving solutions to instances can sometimes deliver unpredictable results. If you run into such an issue, retrain the solution again, which takes 5 minutes per solution. For more information on update sets, see System update sets .
 
 ## Procedure
 
@@ -46,4 +46,6 @@ Your trained ML solution artifacts, such as solution definitions, template recor
 Depending on where you are in your solution testing, schedule your update set for export to another non-production instance for further testing, or on to production.
 
 **Note:** After you export a similarity solution, click **Refresh similarity window \(Required after Solution Import\)** in the Related Links section of the corresponding ML Solution Definition form.
+
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

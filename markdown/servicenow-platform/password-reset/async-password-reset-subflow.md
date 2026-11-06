@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing Password Reset processes, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Asynchronous password reset subflow
@@ -20,7 +20,7 @@ When a user requests a password reset for a credential store for which the REST 
 
 In the asynchronous process, when a user requests a password reset for credential stores that don't provide REST APIs, you can configure such credential stores to reset passwords using an external system, such as Robotic Process Automation.
 
-For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md).
+For more information about Robotic Process Automation, see [Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-explore.md).
 
 When a user requests a password reset, the password doesn't get reset immediately. The user receives a message that shows the request has been submitted, and the request status is displayed as **Pending With External System** on the Password Reset Requests page for that request.
 

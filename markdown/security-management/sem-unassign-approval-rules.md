@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-unassign-approval-rules.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
@@ -22,6 +22,8 @@ VIT, remediation task, AVIT, and CVIT have a default approval rule each. Each ap
 -   create and update multiple approver levels.
 
 The following table shows the default approval rules, approval configurations, and approver levels for a VIT, remediation task, AVIT, and CVIT which are shipped with the base system.
+
+You can design the approval workflow for the removal of assignments from vulnerable items \(VIs, VITs\), remediation tasks, application vulnerable items \(AVITs\), and container vulnerable items \(CVITs\) for you and your group.
 
 |Type|Approval Rule|Approval configuration|Approver levels|
 |----|-------------|----------------------|---------------|

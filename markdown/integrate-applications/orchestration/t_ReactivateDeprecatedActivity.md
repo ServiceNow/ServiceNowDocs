@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Deprecated Orchestration activities, Activate Orchestration, Classic Orchestration, Data and Automation]
+breadcrumb: [Deprecated Orchestration activities, Activate Orchestration, Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Reactivate a deprecated activity
@@ -27,8 +27,6 @@ Role required: workflow\_admin, admin
 1.  Navigate to **All** &gt; **Workflow** &gt; **Administration** &gt; **Activity Definitions**.
 
 2.  In the list of activities, clear the condition **Category !=deprecated** from the filter.
-
-    \[Omitted image "CategoryDeprecationFilter.png"\] Alt text: Category filter for deprecated activities
 
 3.  Open the definition record for the activity you want to reactivate.
 

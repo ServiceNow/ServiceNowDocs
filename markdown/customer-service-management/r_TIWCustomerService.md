@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_TIWCustomerService.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Components installed with Customer Service Management, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
 # Tables installed with Customer Service Management
@@ -198,6 +198,14 @@ Case\[sn\_customerservice\_case\]
 </td><td>
 
 Stores the customer service case records.
+
+</td></tr><tr><td>
+
+Case Entitlement\[sn\_customerservice\_case\_entitlement\]
+
+</td><td>
+
+Stores the entitlements associated with case records.Associated entitlements are available in the Entitlements related list on the case record. The [sn\_customerservice.advanced\_entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_PropInstallWcustServ.md) system property controls the display of this related list.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Administer, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure CIs to appear based on life cycle stage value
@@ -28,7 +28,7 @@ Role required: sn\_cmdb\_admin
 -   Search results don't include CIs that are filtered out based on operational state.
 -   The **Open Map** button \(for viewing details\) on the CI form isn't available for CIs that are filtered out based on operational state.
 
-These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings do not affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
+These workspace-specific configuration settings affect all users of the CMDB Unified Map page. The settings don't affect other copies of the Unified Map template. Non-admin users can customize some aspects of their personal experience with Unified Map, but can't configure instance-wide workspace-specific settings.
 
 ## Procedure
 
@@ -44,8 +44,8 @@ These workspace-specific configuration settings affect all users of the CMDB Uni
 
     3.  On the record form, select **Update** or **Save**.
 
-    -   The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md). The updated list of life cycle stage values is added to the **CMDB Workspace Unified Map View** life cycle mode on the **Operational life cycle modes** related list for the affected configuration identifier.
+    -   The updated settings appear in the appropriate related list on the Configuration identifier form, as described in [Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md). The updated list of life cycle stage values is added to the **CMDB Workspace Unified Map View** life cycle mode on the **Operational life cycle modes** related list for the affected configuration identifier.
     -   You can also perform this operation from the **Operational life cycle modes** related list.
 
-**Parent Topic:**[Configuring Unified Map — Admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md)
+**Parent Topic:**[Configuring Unified Map — admin settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/unified-map/administer-unified-map.md)
 

@@ -1,5 +1,5 @@
 ---
-title: NLU vocabulary
+title: \(Legacy\) NLU vocabulary
 description: Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.html
@@ -7,16 +7,14 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [\(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU vocabulary
+# \(Legacy\) NLU vocabulary
 
 Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
-
-\[Omitted image "using-nlu-vocabulary-parent-topic.png"\] Alt text: This image shows a robot serving a platter of linked molecules. The robot and everything else is saying 'NLU Vocabulary' in 6 different languages.
 
 ## Vocabulary usage and context
 
@@ -46,7 +44,7 @@ Regular
 
 A word or phrase that is not commonly known, such as a business or industry specific term or acronym. Regular vocabulary is case insensitive, so all case variations will be captured by the vocabulary you create.
 
- See [Create a regular vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-regular-vocabulary-item.md).
+ See [\(Legacy\) Create a regular vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-regular-vocabulary-item.md).
 
 </td></tr><tr><td>
 
@@ -56,7 +54,7 @@ Pattern
 
 A regular expression \(regex\) that can capture specific formats such as email addresses and phone numbers.
 
- See [Create a pattern vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-pattern-vocabulary-item.md).
+ See [\(Legacy\) Create a pattern vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-pattern-vocabulary-item.md).
 
 </td></tr></tbody>
 </table>## Vocabulary sources
@@ -70,7 +68,7 @@ Use vocabulary sources when your user utterances refer to objects in a set. The 
 
 For example, say you already have a list of all the conference rooms for your office. You can create a vocabulary source to reference that list rather than typing each conference room name into your intent's training utterances.
 
-To create vocabulary sources, refer to [Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-table-lookup-source.md) and [Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-static-list-source.md).
+To create vocabulary sources, refer to [\(Legacy\) Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-table-lookup-source.md) and [\(Legacy\) Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-static-list-source.md).
 
 ## Vocabulary usage in relation to an intent
 
@@ -110,7 +108,7 @@ Issue and Solution
 </td></tr></tbody>
 </table>Use a single word or short phrase as a synonym for best results. You can map multiple vocabulary items to one synonym. Do not map one vocabulary item to multiple synonyms.
 
-For more context and examples, see [Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md).
+For more context and examples, see [\(Legacy\) Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md).
 
 ## A Regex example for a pattern vocabulary item
 
@@ -122,25 +120,10 @@ The regex pattern that you can use is `\bIT\b`. The `\b` is a word boundary mark
 
 Regex details: You can turn off case sensitivity in a pattern by using `(?i)`. You can end that mode by using a minus sign as in `(?-i)`. For example, `(?i)te(?-i)st` should match both test and TEst, but not teST or TEST.
 
-For more information, see [Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
-
--   **[Create a regular vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-regular-vocabulary-item.md)**  
-Add a word or phrase that your users might use, and match that vocabulary item to a synonym. Your model uses the synonym during intent prediction.
--   **[Create a pattern vocabulary item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-pattern-vocabulary-item.md)**  
-Use regular expression \(regex\) encoding to establish a pattern format for vocabulary items such as email addresses, phone numbers, and record naming conventions. You can create your own patterns for the vocabulary data in your instance.
--   **[Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-static-list-source.md)**  
-Create a list of words or phrases to act as a vocabulary source. The values in the list source are replaced by the synonym if they are detected in a user utterance.
--   **[Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-table-lookup-source.md)**  
-Use the values from a ServiceNow table as a vocabulary source. Your Natural Language Understanding \(NLU\) models use your provided synonym to interpret utterances that contain values from the chosen source fields of the table.
--   **[Sync a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/sync-table-vocabulary-source.md)**  
-Synchronize your table vocabulary sources to obtain the latest changes to the ServiceNow source table. Synchronizing your vocabulary sources ensures your NLU models have the latest values when predicting intents.
--   **[Pre-built vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/prebuilt-vocabulary.md)**  
-Use ServiceNow® pre-built vocabulary for software and hardware terms so the system recognizes their multiple variations in utterances.
-
-**Parent Topic:**[Build and train your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/managing-model-content.md)
+For more information, see [\(Legacy\) Using regular expressions in entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.md).
 
 **Related topics**  
 
 
-[Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md)
+[\(Legacy\) Create an NLU intent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-nlu-intent.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-review-type.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure case digests, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case digests, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a case digest configuration
@@ -92,6 +92,14 @@ Approval workflow
 </td><td>
 
 If using an optional approval workflow, select the workflow from the Workflow list.
+
+</td></tr><tr><td>
+
+Approval flow
+
+</td><td>
+
+If using an optional approval flow, select the flow from the Flows list.This field is displayed when the Post Case Review \[sn\_csm\_case\_digest\_pcr\] table is selected in the **Table name** field.
 
 </td></tr><tr><td>
 

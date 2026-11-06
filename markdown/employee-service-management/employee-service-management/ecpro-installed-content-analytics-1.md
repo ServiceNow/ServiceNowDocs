@@ -4,7 +4,7 @@ description: Several types of components install with the activation of the Cont
 locale: en-US
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 ---
 
@@ -223,12 +223,12 @@ Stores analytics related to page referrals.
 |------|---|-----------|
 |Content Analytics Site Tracker|cda-site-analytics|Helps analyze user behavior, usage metrics, and more from the user experience dashboard.|
 
+**Note:** A new **Enable Tracking** field has been introduced to content notifications, designed specifically for email content. Existing notification records will have this field disabled by default, in line with prior system settings and by default, existing email content will have tracking turned off. However, for new email notification contents, the **Enable Tracking**option will be available for your selection and will be automatically enabled on new record creation. This feature provides greater flexibility, allowing you to determine whether tracking should be applied to specific email content record.
+
 **Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 
 **Related topics**  
 
-
-[Approvals experience reference]()
 
 [Block content form]()
 
@@ -252,15 +252,11 @@ Stores analytics related to page referrals.
 
 [Employee Center Pro widgets]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -270,5 +266,7 @@ Stores analytics related to page referrals.
 
 [Properties installed with Content Publishing]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

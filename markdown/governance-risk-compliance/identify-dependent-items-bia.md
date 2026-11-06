@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/identify-dependent-items-bia.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -22,7 +22,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 Add a description of use and a timeframe to recover the item and provide data backup for the item. Assessing dependencies for a group helps you to know the underlying dependent items or assets of your business process. This assessment helps to prioritize critical dependencies that require recovery strategies to be established during the planning phase.
 
-The BIA template that you use to create a business impact analysis has dependency groups associated to it. When you do an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others, each in its own container depending on how many of these groups are associated to the template. Each of them is a dependency group and you can add or remove items that belong to each group within its container.
+The BIA template that you use to create a business impact analysis has dependency groups associated to it. When you do an assessment, the dependency groups are automatically populated in the BIA. You can view them as Applications, Hardware, Software, Vendors, Workplaces, and others. Each appears in its own container depending on how many groups are associated to the template. You can add or remove items that belong to each group within its container.
 
 **Note:** You can add or remove dependent items only if you are a user with appropriate access.
 
@@ -30,7 +30,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
 1.  Navigate to **Business Continuity** &gt; **Business Continuity Workspace**.
 
-2.  Click the lists icon \[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon\).
+2.  Click the lists icon \[Omitted image "ListsIcon.jpg"\] Alt text: Lists icon.
 
 3.  Click the link to the record in the **Name** column in the **In Draft** state.
 
@@ -52,7 +52,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
     4.  In the **Required Data Backup** cell, select the time period by which a data backup for the asset can be provided.
 
-        While configuring an element in the Element Definition form, you can set the **Requires data backup** field as **Yes**. However, at the time when a BIA is created, the application copies the required data backup information from the element definition over to the dependency group of the BIA. If at this point, the required data backup is true for the dependency group, then the **Required Data Backup** column appears in the grid.
+        While configuring an element in the Element Definition form, you can set the **Requires data backup** field as **Yes**. When a BIA is created, the application copies the required data backup information from the element definition to the dependency group of the BIA. If the required data backup is true for the dependency group, the **Required Data Backup** column appears in the grid.
 
 6.  To expand the dependency grid to full screen and edit the grid values, click the full screen icon \(\[Omitted image "FullScreenIcon.png"\] Alt text: Full-screen icon\).
 
@@ -68,7 +68,7 @@ The BIA template that you use to create a business impact analysis has dependenc
 
 9.  Click **Complete** to complete the assessment of a group.
 
-    Confirm that you have entered data in all the cells for the items before clicking complete. Otherwise, the system prompts you to fill in the incomplete cells. The container closes, the state is set to **Complete**, and you are directed to the next container. You cannot edit it unless you click the **Edit** button again.
+    Confirm that you have entered data in all the cells for the items before clicking complete. Otherwise, the system prompts you to fill in the incomplete cells. The container closes, the state is set to **Complete**, and you're directed to the next container. You can't edit it unless you select the **Edit** button again.
 
 10. Click **Save** to save the BIA and its dependency details.
 
@@ -84,9 +84,4 @@ The BIA template that you use to create a business impact analysis has dependenc
 
     The filter condition in the Element definition is used to add specific configuration items \(CIs\) via the pop-up. The **Update dependencies** UI action also considers the element definition's filter and retrieves the related CIs of the configuration item listed in the **Applies to** field of the BIA. These relationships are retrieved from the CI Relationships table.
 
-
--   **[Add dependencies based on CI relationships in CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-dependencies-based-on-cmdb.md)**  
-Add an item by referencing its CI relationship to drill down to the item that is related directly to the dependency group. You can map the item's relationship with the dependency group while assessing the business impact analysis of an asset that is at risk.
-
-**Parent Topic:**[Assess impact categories and dependencies of a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/assess-impact-categories-bia.md)
 

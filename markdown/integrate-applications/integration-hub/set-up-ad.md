@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft Active Directory Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Microsoft Active Directory Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up Microsoft Active Directory spoke
@@ -71,9 +71,9 @@ Create a Connection record to your Microsoft Active Directory host machine. The 
 
 1.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer**.
 
-2.  Click Connections.
+2.  Click **Connections**.
 
-3.  On the AD card, click **View Details**.\[Omitted image "click-AD-spoke-card.png"\] Alt text: Microsoft AD connection card.
+3.  On the **AD** card, click **View Details**.\[Omitted image "click-AD-spoke-card.png"\] Alt text: Microsoft AD connection card.
 
 4.  Click **Configure**.\[Omitted image "click-AD-alias-connection.png"\] Alt text: Configure button to configure Microsoft AD alias connection record.
 

@@ -1,0 +1,33 @@
+---
+title: Obtaining data from SAP SuccessFactors using OData V2 APIs
+description: Access talent management data from SAP SuccessFactors using OData V2 APIs.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/erp-integration-framework/obtain-data-from-successfactors-using-odata-v2-apis.html
+release: yokohama
+product: ERP Integration Framework
+classification: erp-integration-framework
+topic_type: concept
+last_updated: "2026-08-05"
+reading_time_minutes: 1
+keywords: [erp, canvas, erp canvas, integration, data hub, zero, copy, connector, sap, entity, model, successfactor, success factor, success, factor, talent, odata]
+breadcrumb: [Configuring, Zero Copy Connector for ERP, Workflow Data Fabric]
+---
+
+# Obtaining data from SAP SuccessFactors using OData V2 APIs
+
+Access talent management data from SAP SuccessFactors using OData V2 APIs.
+
+SAP SuccessFactors is a set of integrated applications for HR functions such as employee data management and talent management.
+
+To use SAP SuccessFactors data in Zero Copy Connector for ERP \(Enterprise Resource Planning\), upload an SAP SuccessFactors metadata \(XML\) file when adding an entity to a model using OData.
+
+\[Omitted image "erp-successfac1.png"\] Alt text: Add service manually modal with XML file added.
+
+You can download, edit, or delete the metadata file using the icons.
+
+After you upload the file, its entities appear in the Model Manager.
+
+For more information and detailed steps, see [Add an OData service manually in Zero Copy Connector for ERP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/erp-integration-framework/erp-add-a-service-manually.md).
+
+For more information about the APIs, see [SAP SuccessFactors API Reference Guide \(OData V2\)](https://help.sap.com/doc/a7c08a422cc14e1eaaffee83610a981d/2511/en-US/SF_HCM_OData_API_DEV.pdf) on the SAP Help Portal.
+

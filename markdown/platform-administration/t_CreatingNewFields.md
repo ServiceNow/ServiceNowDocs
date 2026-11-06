@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreatingNewFields.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Customize, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add and customize a field in a table
@@ -39,7 +39,7 @@ For more information on database limitations and general questions on tables in 
 
 3.  In the **Create new field** section, fill in the following fields
 
-<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d116752e158">
+<table id="choicetable_qj4_3rw_1r"><tbody><tr><td id="d125828e164">
 
 **Name**
 
@@ -47,7 +47,7 @@ For more information on database limitations and general questions on tables in 
 
 Enter the name of the field as you want it to appear on forms and lists.
 
-</td></tr><tr><td id="d116752e167">
+</td></tr><tr><td id="d125828e173">
 
 **Type**
 
@@ -55,7 +55,7 @@ Enter the name of the field as you want it to appear on forms and lists.
 
 Select a field type.
 
-</td></tr><tr><td id="d116752e176">
+</td></tr><tr><td id="d125828e182">
 
 **Field length**
 

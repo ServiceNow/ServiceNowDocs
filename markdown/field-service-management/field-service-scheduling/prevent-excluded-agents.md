@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dynamic Scheduling, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Example - configure dynamic scheduling to ignore excluded technicians
@@ -41,7 +41,7 @@ Dispatchers or managers can override exclusions at any time by manually assignin
     The dynamic scheduling matching criteria screens out the excluded agents from a particular account when the work order tasks are assigned using any of the following methods:
 
     -   [Auto assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/select-tasks-for-bulk-assignment.md)
-    -   [Manage appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appointments.md)
+    -   [Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appointments.md)
 
 **Related topics**  
 
@@ -50,5 +50,5 @@ Dispatchers or managers can override exclusions at any time by manually assignin
 
 [Create a task filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-dynamic-scheduling-config.md)
 
-[Exclude Field Service agents from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
+[Exclude Field Service technicians from being assigned work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/exclude-agents-from-being-assigned-tasks.md)
 

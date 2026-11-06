@@ -7,9 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
+keywords: [alert remediation, log analytics alert, overview tab, health log analytics, alert resolution, service operations workspace, alert investigation, remediation process, alert troubleshooting, log analytics operator, alert management, playbook remediation, alert response, anomaly remediation, operator workflow]
+breadcrumb: [Analyzing and resolving alerts, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Start remediation of a Log Analytics alert from the Overview tab
@@ -17,8 +18,6 @@ breadcrumb: [Health Log Analytics, ITOM Health, IT Operations Management]
 Begin the remediation process of a Log Analytics alert from the alert **Overview** tab. This tab provides information on the alert, the log data associated with the anomalous behavior, CIs associated with the alert, and services impacted by it.
 
 ## Before you begin
-
-**Important:** From the Vancouver release onward, the **Operator Workspace** is deprecated and replaced with Service Operations Workspace.
 
 Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
@@ -32,7 +31,7 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
     All Health Log Analytics alerts have the value **Log Analytics** in the **Source** column. The value in the **Group** column identifies the type of Log Analytics alert. See [Types of Health Log Analytics alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-log-analytics-alert-types.md) for a more detailed description of each type of alert or group.
 
-    **Tip:** To preview an alert in the list, click its info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon.\).
+    **Tip:** To preview an alert in the list, select its info icon \(\[Omitted image "icon-info.png"\] Alt text: Info icon.\).
 
 4.  Select the alert number.
 
@@ -44,6 +43,16 @@ Role required: evt\_mgmt\_operator, or evt\_mgmt\_user, or evt\_mgmt\_admin
 
     **Note:** Because some sections on the **Overview** tab show only a portion of the information, many sections include a link that displays different or more complete information.
 
+6.  Run predefined remediation tasks to resolve alert issues.
 
-**Parent Topic:**[ITOM Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
+    1.  Select **Launch playbook**.
+    2.  Select the **Playbook** tab.
+
+        The **Run remediation** card displays the available remediation actions.
+
+    3.  Select the tile corresponding to the action you want to run.
+    When the action is complete, it appears in the **Completed** card.
+
+
+**Parent Topic:**[ITOM AIOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-health-landing-page.md)
 

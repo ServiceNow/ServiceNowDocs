@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate MSIM Conference Calls with Cisco Webex, Major Security Incident Management Conference Call Integration, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -57,8 +57,6 @@ Role required: sn\_msi.workspace\_manager
 10. Select the **Click here** option on top of the major security incident to join the conference call on the Cisco Webex app.
 
     The participants can use the link from the MSIM email notification or the notification from the Cisco Webex app to join the call.
-
-    \[Omitted image "msim-conf-webex-email.png"\] Alt text: MSIM email notification for the Webex conference call
 
 11. Open the associated major security incident in the MSIM workspace to view the conference call details.
 

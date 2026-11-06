@@ -1,28 +1,28 @@
 ---
-title: Edit APM data charts on Service Observability dashboard templates
-description: Edit Service Observability dashboard templates to view different APM vendor metrics on the Overview or Observability tabs' charts.
+title: Edit data charts on Service Observability dashboard templates
+description: Edit Service Observability dashboard templates to view different observability metrics on the Overview or Observability tabs' charts. Metrics are scoped to the selected service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/edit-service-observability-dashboards.html
 release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Customize dashboard templates, Configuring Service Observability, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
-# Edit APM data charts on Service Observability dashboard templates
+# Edit data charts on Service Observability dashboard templates
 
-Edit Service Observability dashboard templates to view different APM vendor metrics on the Overview or Observability tabs' charts.
+Edit Service Observability dashboard templates to view different observability metrics on the Overview or Observability tabs' charts. Metrics are scoped to the selected service.
 
 ## About this task
 
-When creating an APM chart, you can use the query builder to create simple queries or use the advanced mode to create more substantial queries.
+When you edit or add an observability chart on a dashboard, you use the Edit data source page of Platform Analytics to create a query. Use the built-in query editor for simple metric queries. Use Advanced mode for more complex queries or to paste a query copied from a chart in your observability vendor instance.
 
 Use simple queries to return metrics associated with services, hosts, and databases. The returned metrics are aggregated across the time window set by the user.
 
-Use advanced query mode to cut and paste queries from existing APM charts into Service Observability. For most APM vendors, you can simply copy a query from an existing chart in your APM instance.
+Use advanced query mode to cut and paste queries from existing observability charts into Service Observability. For most observability vendors, you can simply copy a query from an existing chart in your observability instance.
 
 Both query types support [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) that let you use the same query to return metrics for multiple entity instances.
 
@@ -54,27 +54,27 @@ Role required: sn\_sow\_svcobs.admin
 
 3.  To do basic editing, such as rearranging, resizing, or deleting charts, follow the instructions for [Edit Platform Analytics dashboard elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/edit-db-elements-in-ac.md).
 
-4.  To add an APM query for a new chart, follow these steps:
+4.  To add a vendor query for a new chart, follow these steps:
 
     1.  In Edit mode, select **Add new element** and choose **Data visualization** &gt; **New visualization**.
 
     2.  In the **Configuration panel**, select `Line` for **Visualization type** and choose **Add data source**.
 
-    3.  In the **Add data source** page, open **Service Observability** in the navigation panel and select your APM vendor.
+    3.  In the **Add data source** page, open **Service Observability** in the navigation panel and select your observability vendor.
 
-        Be sure to select the same APM vendor used on the template you're editing.
+        Be sure to select the same vendor used on the template you're editing.
 
     4.  Enter a query in the **Metric** card.
 
-        Use the query builder to edit a simple APM-specific query.
+        Use the query builder to edit a simple vendor-specific query.
 
-        To copy a full query from your APM vendor chart, activate the **Advanced** switch and paste in a query from your APM vendor chart.
+        To copy a full query from your vendor chart, activate the **Advanced** switch and paste in a query from your vendor chart.
 
         For AWS and Azure, instead of entering a query in advanced mode, you can import selected charts from an existing dashboard. Select **Import from AWS/Azure Dashboard**. Select a data source name, then select a dashboard and from the list of charts, select the one to import, then select **Import query**. The query for the chart is pasted into the Query box.
 
-        Use [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) to replace any hard-coded entities or time periods to have the query return results that match both the service and time period selected in the UI.
+        Use [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) to replace hard-coded entities or time periods. This makes the query return results that match the service and time period selected in the UI.
 
-        **Note:** Use the **Docs** link to refer to the APM-specific documentation for help with creating the query.
+        **Note:** Use the **Docs** link to refer to the vendor-specific documentation for help with creating the query.
 
     5.  To preview your query, select **Run** and then choose a service and entity.
 
@@ -88,15 +88,15 @@ Role required: sn\_sow\_svcobs.admin
 
     3.  In the **Edit data source** page, edit the query in the **Metric** card.
 
-        Use the query builder to create a simple APM-specific query.
+        Use the query builder to create a simple vendor-specific query.
 
-        To copy a full query from your APM vendor chart, activate the **Advanced** switch and paste in a query from your APM vendor chart.
+        To copy a full query from your vendor chart, activate the **Advanced** switch and paste in a query from your vendor chart.
 
         For AWS and Azure, instead of entering a query in advanced mode, you can import selected charts from an existing dashboard. Select **Import from AWS/Azure Dashboard**. Select a data source name, then select a dashboard and from the list of charts, select the one to import, then select **Import query**. The query for the chart is pasted into the Query box.
 
         Use [template variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/service-observability-template-variables.md) to replace any hard-coded entities or time periods.
 
-        **Note:** Use the **Docs** link to refer to the APM-specific documentation for help with creating the query.
+        **Note:** Use the **Docs** link to refer to the vendor-specific documentation for help with creating the query.
 
     4.  To preview your query, select a service and an entity and select **Run**.
 

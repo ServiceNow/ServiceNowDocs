@@ -1,0 +1,38 @@
+---
+title: Configure Properties
+description: To put a sales territory model into use at the CRM entities, enter the sys\_id of an active sales territory model. By default, this model and its territories will be utilized for sales territory assignments.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-properties.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Sales Territory Management, Sales automation apps, Configure, Sales Customer Relationship Management]
+---
+
+# Configure Properties
+
+To put a sales territory model into use at the CRM entities, enter the sys\_id of an active sales territory model. By default, this model and its territories will be utilized for sales territory assignments.
+
+## Before you begin
+
+Role required: sales territory admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Sales Territory Management** &gt; **Properties**.
+
+2.  On the Sales Territory Management Properties form, enter the sys\_id of an active sales territory model.
+
+    **Note:** By default, this model and its territories are used for sales territory assignments.
+
+3.  Select **Save**.
+
+
+**Related topics**  
+
+
+[Using Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/use-sales-territory-management.md)
+
+[Sales Territory Management​](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-sales-territory-management.md)
+

@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Building a data model, App creation tutorial, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Building a data model, App creation tutorial, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure a data table
@@ -86,11 +86,9 @@ Follow along to configure a table to store the necessary data for the employee t
 
 2.  Select **Forms** in the top ribbon to change your view to **Forms** view.
 
-    \[Omitted image "app-tutorial-forms-view.png"\] Alt text: The table landing page contains different views in the top ribbon. The Forms view enables you to create your table as a form.
-
     **Forms** view enables you to create your table as a form. You can choose other views depending on the type of data that your table stores.
 
-3.  Remove any unnecessary fields from your table by hovering over the field, then selecting the delete field icon \(\[Omitted image "fb-delete-icon.png"\] Alt text: Delete form element.\).
+3.  Remove any unnecessary fields from your table by hovering over the field, then selecting the delete field icon \(\[Omitted image "fb-delete-icon.png"\] Alt text:\).
 
     **Note:** When you create a table from an extended table, the table comes with preconfigured fields. You can choose to keep or remove any preconfigured fields in your own table.
 
@@ -148,7 +146,7 @@ Follow along to configure a table to store the necessary data for the employee t
 
     1.  Search for the fields that you want to add by entering the names of the fields in the search bar.
 
-        \[Omitted image "app-tutorial-search-add-form-elements.png"\] Alt text: The search bar in the Add form elements panel enables you to search for available fields that you can add to your form.
+        \[Omitted image "app-tutorial-search-add-form-elements-v2.png"\] Alt text: The search bar in the Add form elements panel enables you to search for available fields that you can add to your form.
 
         In our tutorial, we add the following fields to our table:
 

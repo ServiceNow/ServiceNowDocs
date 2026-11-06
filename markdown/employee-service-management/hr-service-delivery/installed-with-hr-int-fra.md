@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Service Management Integrations Framework reference, Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -103,11 +103,4 @@ Stores modified records that are pushed from a ServiceNow application into a thi
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise Service Management Integrations Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
-
-**Related topics**  
-
-
-[Widgets to display tasks from a third-party system]()
-
-[ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework]()
 

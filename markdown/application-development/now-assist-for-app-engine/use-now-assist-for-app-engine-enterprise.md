@@ -1,60 +1,56 @@
 ---
-title: Use Now Assist for App Engine
-description: Use the skills within Now Assist for App Engine to add custom AI features to your custom applications.
+title: Using ServiceNow Otto for App Engine
+description: Enhance custom applications with generative and agentic AI capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/now-assist-for-app-engine/use-now-assist-for-app-engine-enterprise.html
 release: yokohama
 product: Now Assist for App Engine
 classification: now-assist-for-app-engine
 topic_type: concept
-last_updated: "2025-04-23"
-reading_time_minutes: 1
-keywords: [now assist, app engine]
-breadcrumb: [Now Assist for App Engine, Use AI capabilities in custom applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [ServiceNow Otto, ServiceNow Otto for App Engine, now assist, app engine, AI capability, AI feature, AI product, AI agent, skill, generative AI, genAI, Now Assist for App Engine, custom app, use generative AI]
+breadcrumb: [ServiceNow Otto for App Engine, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Use Now Assist for App Engine
+# Using ServiceNow Otto for App Engine
 
-Use the skills within Now Assist for App Engine to add custom AI features to your custom applications.
+Enhance custom applications with generative and agentic AI capabilities.
 
-Now Assist for App Engine contains many tools and skills, including the following:
+With ServiceNow Otto for App Engine, you can enhance your custom applications with several AI capabilities: skills, AI agents, and agentic workflows. To learn more about the types of AI capabilities that you can implement with ServiceNow Otto for App Engine, see [AI capabilities for enhancing custom applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/ai-capabilities-with-now-assist-for-app-engine.md).
 
--   **[AI Agent Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-agent-studio.md)**
+Certain app workflows might be well suited for AI agents and agentic workflows. Other workflows might be best handled with skills. To learn about which AI capability might be best for your use case, see [Choosing the right AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/choosing-the-right-ai-capability.md).
 
-    Create flexible, adaptive AI agents that support App Engine use cases.
+## Implementing skills
 
--   **[Now Assist Data Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/na-data-kit-generate-data.md)**
+The following list outlines the process for implementing a skill within a custom application:
 
-    Build and maintain datasets and ground truths to evaluate your custom skills.
+1.  [Create a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-new-skill.md) or duplicate and reconfigure a Platform generative AI skill for your app's use case.
+2.  [Create a prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-prompt-template.md) to choose what skill inputs to use and the type of tool.
+3.  [Test the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-prompt-template.md) to verify that you’re seeing the expected prompt results before the skill is activated.
+4.  [Evaluate the prompt](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/evaluate-prompt.md) to assess the effectiveness of your skill prompts.
+5.  [Finalize and publish the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/publish-skill.md) to enable a ServiceNow Otto admin to activate it.
+6.  [Activate the skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-skill.md), enabling you to trigger the skill within the UI.
+7.  Use the skill in your custom application.
 
--   **[Knowledge article generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-knowledge-management.md)**
+**Note:** Some skills might need to be reviewed and approved by a data steward before you can activate them. To learn more about approvals for custom skills, see .
 
-    Use Now Assist to inspect your custom application data and generate knowledge base articles.
+## Implementing AI agents and agentic workflows
 
--   **[Now Assist in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/docintel-nowassist-landing.md)**
+The following list outlines the process for implementing an AI agent and agentic workflow within a custom application:
 
-    Incorporate the capabilities of DocIntel into your flows and playbooks.
+1.  [Create an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-next-best-action-agent.md) or [duplicate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-ai-agent.md) and [modify it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/modify-ai-agent.md) for your app's use case.
+2.  [Add a tool to the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/add-tool-aia.md) to enable different functionalities and help your AI agent to achieve their objective.
+3.  [Test the AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-ai-agent.md) to see that it functions the way that you defined it.
+4.  [Create an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-use-case-ai-agents.md) or [modify an agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/modify-aia-use-case.md) so that AI agents can coordinate to solve complex problems.
+5.  [Test the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/test-aia-use-case.md) to analyze its performance while it runs the instructions that you defined.
+6.  [Evaluate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/execute-aia-eval.md) to monitor performance and evaluate it against different benchmarks.
+7.  Use the AI agent or agentic workflow in your custom application.
 
--   **[Now Assist Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skill-kit-landing.md)**
+-   **[Summarize a record in-product using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/summarize-record-in-product-na-for-app-engine.md)**  
+Quickly understand the contents of a record in a custom application within Core UI or a custom workspace.
+-   **[Summarize a record through chat using ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/summarize-record-through-chat-na-for-app-engine.md)**  
+Quickly understand the contents of a record through a conversation with ServiceNow Otto.
 
-    Develop custom skills to be used within your custom apps.
-
--   **Now Assist in Virtual Agent**
-
-    Use Virtual Agent Designer with LLM enabled components to create chatbots.
-
--   **[Now Assist Platform skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-on-now-platform.md)**
-
-    Use platform skills to export dashboards and to help AI agents find answers from a variety of content.
-
--   **[Now Assist Navigation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-global-navigation.md)**
-
-    Use Now Assist to find records or tables, for example, ask for a list of incident records.
-
--   **[Search Q&amp;A \(+ multi-context synthesized answer generation\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md)**
-
-    Search and summarize KB articles, policies, and guides that you publish with your application.
-
-
-For a complete list of the tools and skills in Now Assist for App Engine, see the product listing in the [ServiceNow Store](https://store.servicenow.com/store/app/5d27eef41bd92a50396216db234bcb45).
+**Parent Topic:**[ServiceNow Otto for App Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-app-engine/add-ai-to-custom-apps-with-now-assist-for-app-engine-enterprise.md)
 

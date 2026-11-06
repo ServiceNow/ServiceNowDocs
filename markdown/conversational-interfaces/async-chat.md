@@ -7,7 +7,7 @@ release: yokohama
 product: Conversational Interfaces
 classification: conversational-interfaces
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [Asynchronous Chat, messaging, channels, agents, Twilio, SMS]
 breadcrumb: [Channels in Conversational Interfaces, Exploring Conversational Interfaces Console, Conversational Interfaces Console, Conversational Interfaces]
@@ -47,7 +47,7 @@ Glide Conversation Server
 
 Enables Virtual Agent functionality handled by the Conversation Server, including conversation settings and the Virtual Agent chat widget plugin \(com.glide.cs.sn-va-web-client-app\).
 
- The Conversation Server is included with Virtual Agent Lite, which is provided with your base system. For full Virtual Agent functionality, see [Activate Glide Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/activate-virtual-agent.md), which is available by subscription.
+ The Conversation Server is included with Virtual Agent Lite, which is provided with your base system. For full Virtual Agent functionality, see [Activate Glide Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/activate-virtual-agent.md), which is available by subscription.
 
 </td></tr><tr><td>
 
@@ -57,7 +57,7 @@ Conversational Messaging\[com.glide.messaging.awa\]
 
 Enables features for conversational messaging, such as messaging actions in Workspace.
 
- For details, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/activate-messaging-actions.md).
+ For details, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ Displayed
 </td></tr></tbody>
 </table>## Idle conversations and messaging actions in messaging channels
 
-In chat channels, the default idle conversation timeout period for Virtual Agent and Live Agent conversations is two hours \(7200 seconds\). However, for Live Agent conversations in messaging channels, certain messaging actions are automatically applied, which affects how idle conversations are handled. In messaging channels, when a requester hasn't responded to an agent message within two days, the conversation state changes to Closed Abandoned and the message is closed. For more information on messaging actions, see [Configure messaging actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configure-messaging-actions.md).
+In chat channels, the default idle conversation timeout period for Virtual Agent and Live Agent conversations is two hours \(7200 seconds\). However, for Live Agent conversations in messaging channels, certain messaging actions are automatically applied, which affects how idle conversations are handled. In messaging channels, when a requester hasn't responded to an agent message within two days, the conversation state changes to Closed Abandoned and the message is closed. For more information on messaging actions, see [Configure messaging actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/configure-messaging-actions.md).
 
 As admins, you can override the conversation idle timeout period per channel by setting the value in the **Conversation Idle Timeout** field in the Messaging Channels \[sys\_cs\_channel\] table. For details, see [Override the conversation timeout period by channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-open-conversations.md).
 

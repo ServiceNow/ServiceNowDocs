@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee profile, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee profile, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Opt in to the employee profile
@@ -51,6 +51,6 @@ Before opting in, create an active employee definition. For more information, se
 When you opt in, your employees can have the following benefits:
 
 -   View a customizable **Employee Profile** page that details the contact info, job description, and more.
--   Navigate through an enhanced **Org Chart** experience that offers organization chart, team hierarchy, and better search. For more information, see [Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)
+-   Navigate through an enhanced **Org Chart** experience that offers organization chart, team hierarchy, and better search. For more information, see [Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md).
 -   Use employee profile in AI and ML profile data models.
 

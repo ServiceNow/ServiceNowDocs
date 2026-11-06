@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [NSX-T, NSX Cluster, VMware NSX, NSX discovery, NSX patterns]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # VMware NSX-T cluster pattern-based discovery
@@ -263,7 +263,7 @@ On the Dependency Views map, you can view discovered NSX-T cluster resources and
 
 \[Omitted image "nsx-management-cluster-ci-dependency-view.png"\] Alt text: NSX Management Cluster CI and connection on a Dependency Views map
 
-## CI relationships
+## CI relationships and references
 
 The NSX Cluster pattern creates the following relationships and references to support NSX-T cluster discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
@@ -516,5 +516,5 @@ Create a credential alias and configure an applicative credential to enable the 
 -   **[Create a serverless schedule for NSX-T cluster discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/create-serverless-schedule-nsx-t.md)**  
 Create a serverless discovery schedule to run the NSX Cluster pattern against a VMware NSX-T management cluster.
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Headless Browser setup for Microsoft Windows, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Headless Browser setup for Microsoft Windows, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Configure Automated Test Framework \(ATF\) for Headless Browser in Microsoft Windows
@@ -30,13 +30,9 @@ Now that your connection and authentication are set up, you will configure ATF w
 
 2.  Enable the top two properties: **Enable test/test suite execution** and **Enable scheduled test suite execution**.
 
-    \[Omitted image "properties-enabled-two.png"\] Alt text: Top two properties enabled in ATF Administration section
-
 3.  Scroll down to the **Headless Runner Properties** section.
 
 4.  Enable the top check box.
-
-    \[Omitted image "enable-test-runner-box.png"\] Alt text: Top check box enabled in Headless Runner Properties section
 
 5.  Enter the following values in the Headless Runner Properties form:
 

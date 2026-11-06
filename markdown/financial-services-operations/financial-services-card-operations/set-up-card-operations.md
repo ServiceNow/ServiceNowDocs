@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Financial Services Card Operations, Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Configure Financial Services Card Operations
@@ -21,6 +21,10 @@ Review the components that are installed with the Financial Services Card Operat
 Make sure that the Financial Services Card Operations application is installed.
 
 Role required: sn\_bom\_credit\_card.admin and admin
+
+## About this task
+
+You can set up your implementation for Financial Services Card Operations by installing the Financial Services Card Operations application, importing financial services data, and reviewing and configuring the components installed with the application.
 
 ## Procedure
 

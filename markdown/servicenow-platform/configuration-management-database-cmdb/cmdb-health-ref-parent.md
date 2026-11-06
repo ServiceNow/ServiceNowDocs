@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Health reference
@@ -24,11 +24,11 @@ This is an overview of domain separation as it pertains to CMDB Health. Domain s
 **Related topics**  
 
 
-[Explore CMDB Health]()
+[Exploring CMDB Health]()
 
-[CMDB Health experience in CMDB Workspace]()
+[CMDB Health experience in CMDB Workspace and in Service Graph Workspace]()
 
-[View CMDB Health dashboard]()
+[View CMDB Health Dashboard]()
 
 [View relationships health]()
 

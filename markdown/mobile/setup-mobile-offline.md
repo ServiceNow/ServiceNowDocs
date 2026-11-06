@@ -1,22 +1,28 @@
 ---
-title: Configure offline mode for mobile
+title: Set up offline mode for mobile apps
 description: Setup offline mode for your mobile applications so that users can work without an internet connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/setup-mobile-offline.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Offline mobile apps, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
-# Configure offline mode for mobile
+# Set up offline mode for mobile apps
 
 Setup offline mode for your mobile applications so that users can work without an internet connection.
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
+
+## About this task
+
+Decide which mobile apps support offline mode to set the foundation for the entire offline experience. The offline capability defined at the app level, whether for the Mobile Agent app, Now Mobile app, or a custom apps, determine whether that app can function without network connectivity. All screens and functions configured as offline within the app inherit this setting, ensuring a consistent experience across navigation tabs, layouts, and UI sections.
+
+**Note:** Offline mode must be enabled at the app level for any screens or functions configured as offline to be available to users without network connectivity.
 
 ## Procedure
 
@@ -32,12 +38,12 @@ Role required: admin
 
 4.  Under **Mobile push application**, select which app type the offline scheduled download should be associated with.
 
-    For more information, see [Scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/scheduled-offline-caching.md).
+    For more information, see [Configure scheduled offline caching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/scheduled-offline-caching.md).
 
-5.  Under **Settings**, toggle **Offline enabled**.
+5.  Under **Settings**, select **Offline enabled**.
 
 6.  Select **Save**.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-offline-mode.md)
+**Parent Topic:**[ServiceNow mobile applications for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/apps-offline.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CascadeDeleteRules.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a reference field, Reference field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Add a reference field, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure cascade delete rules
@@ -36,15 +36,15 @@ For example, if you delete a user record that is referenced in the **Caller ID**
 
     **Note:** The option for this field have no effect for tables with m2m relationships, meaning that in this example, if the tables have an m2m relationship, the user record is deleted.
 
-<table id="choicetable_vwv_kpx_rt"><thead><tr><th align="left" id="d371952e117">
+<table id="choicetable_vwv_kpx_rt"><thead><tr><th align="left" id="d371780e114">
 
 Option
 
-</th><th align="left" id="d371952e120">
+</th><th align="left" id="d371780e117">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d371952e126">
+</th></tr></thead><tbody><tr><td id="d371780e123">
 
 **__Clear__ or __-- None --__**
 
@@ -52,7 +52,7 @@ Description
 
 Deleting a record clears references \(default option\).
 
-</td></tr><tr><td id="d371952e141">
+</td></tr><tr><td id="d371780e138">
 
 **__Delete__ or __Cascade__**
 
@@ -62,7 +62,7 @@ Deleting a record also deletes all referencing records. For example, when a user
 
 Use this method with caution.
 
-</td></tr><tr><td id="d371952e159">
+</td></tr><tr><td id="d371780e156">
 
 **__Restrict__**
 
@@ -70,7 +70,7 @@ Use this method with caution.
 
 Deleting a record is restricted unless there are no references to the record. For example, prevent the user record from being deleted if any incident includes a reference to the user.
 
-</td></tr><tr><td id="d371952e171">
+</td></tr><tr><td id="d371780e168">
 
 **__None__**
 

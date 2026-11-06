@@ -1,18 +1,18 @@
 ---
 title: Resend all blocked emails
-description: Unblock the email address and resend all blocked emails.
+description: Unblock the bounce email address and resend all blocked emails.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/resend-all-blocked-emails.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Email bounce management, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email bounce management, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Resend all blocked emails
 
-Unblock the email address and resend all blocked emails.
+Unblock the bounce email address and resend all blocked emails.
 
 ## Before you begin
 
@@ -34,7 +34,7 @@ Role required: admin
 
     1.  Hover on the email and select the email or emails.
 
-    2.  From the **Actions on selected rows** drop down, select **Resend Blocked Emails**.
+    2.  From the **Actions on selected rows** drop-down, select **Resend Blocked Emails**.
 
 
 **Parent Topic:**[Email bounce management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/email-bounce.md)

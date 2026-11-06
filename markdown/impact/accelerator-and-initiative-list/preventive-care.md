@@ -1,45 +1,44 @@
 ---
 title: Preventive Care
-description: Preventive Care is a premium, engineer-led diagnostic of instance performance executed quarterly.
+description: Preventive Care is a premium, engineer-led diagnostic of instance performance executed on a regular cadence and available as an add-on package to all ServiceNow Impact customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/preventive-care.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Initiatives catalog, Initiatives &amp; Accelerators, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Initiatives catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Preventive Care
 
-Preventive Care is a premium, engineer-led diagnostic of instance performance executed quarterly.
+Preventive Care is a premium, engineer-led diagnostic of instance performance executed on a regular cadence and available as an add-on package to all ServiceNow Impact customers.
 
-## Overview
+## Preventive Care Overview
 
-Preventive Care helps maintain optimal performance of large, strategic, ServiceNow implementations. Based around a quarterly deep dive into production instance health Preventive Care includes the following benefits:
+Preventive Care helps maintain optimal performance of large, strategic, ServiceNow implementations. It provides hands on implementation assistance from a ServiceNow performance expert and validation of results ensuring meaningful improvement to platform performance, stability, and end user experience. Based around a bi-annual deep dive into production instance health Preventive Care includes the following benefits:
 
--   Enables ServiceNow performance experts to gain a holistic end to end view of instance performance by reviewing over 80 metrics covering all aspects of instance operation, including metrics that aren’t normally visible to customer stakeholders.
--   Delivers insights into instance and infrastructure health trends over time, such as size of instance, active user base, individual application performance.
--   Uncovers areas of resource contention, performance degradation, or misconfiguration, that are actively impacting end-user experience or instance stability or scalability.
--   Provides bespoke findings and ServiceNow leading practice recommendations designed to describe the root cause of issues, as well as suggesting potential steps for remediation.
--   Helps grow technical stakeholder knowledge to develop and support the ServiceNow platform.
--   Allows direct partnership between technical stakeholders and ServiceNow performance experts to discuss findings, and, where necessary, assist with implementation of improvements.
+-   Helps ServiceNow performance experts to gain a holistic end-to-end view of instance performance and scalability through manual review over 80 data points covering all aspects of instance operation.
+-   Uses metrics to uncover areas of resource contention, performance degradation, or misconfiguration, that actively impact the end-user experience or instance stability.
+-   Delivers a bespoke set of findings and ServiceNow leading practice recommendations which aim to describe the root cause of issues, as well as suggest potential steps for remediation.
+-   Reduces the burden on customer stakeholders through hands-on assistance to implement recommendations and validation of results ensuring meaningful improvement to implementation quality and end-user experience.
+-   Delivers insights into instance and infrastructure health trends over time, such as size of instance, active user base, individual application performance, and allows emerging issues to be detected and remediated early.
+-   Facilitates regular partnership with a ServiceNow expert to discuss findings and grow technical stakeholder knowledge around supporting the ServiceNow platform.
+-   Builds confidence that the ServiceNow platform can fully support a customer’s wider business goals.
 
-**Note:** Preventive Care is an add-on package available for Total customer with activation. Contact your Impact Customer Success Manager for additional information.
+**Note:** Preventive Care is an add-on package available for all Impact customers with activation. Large or complex ServiceNow implementations may benefit from quarterly \(instead of bi-annual\) reviews.
 
-## Quarterly phases
+## Preventive Care Engagement Phases
 
-Each quarterly Preventive Care engagement includes three phases:
+Each Preventive Care engagement includes three phases:
 
-1.  Performance Engineer-led diagnostic:
-    1.  A routine quarterly check-up cadence to review customer instance performance, platform health, and progress over time
-    2.  Access to a senior ServiceNow performance engineer who will help identify and track performance and database improvements
-2.  Presentation to customer stakeholders: Proactive recommendations to highlight and review  specific issues with instance performance and infrastructure and database efficiency and cost​
-3.  Guided Remediation: A focused remediation plan that provides hands-on, guided help to steer a customer through making improvements
+1.  Performance Engineer-led diagnostic: A metric-based analysis that reviews instance performance and platform health, as well as tracking key utilization metrics over time.
+2.  Presentation to customer stakeholders: A senior ServiceNow performance expert presents findings and reviews proactive recommendations that address specific issues with the instance that actively impact end user experience, platform stability, database efficiency or cost.
+3.  Guided Remediation: A focused remediation plan that provides hands-on, guided help to steer a customer through implementing improvements and validating expected results.
 
-\[Omitted image "preventive-care-cycle.png"\] Alt text: Flow chart of the three phases of Preventive Care.
+\[Omitted image "preventive-care.png"\] Alt text: Preventive Care Engagement
 
 **Note:** Offered pursuant to the applicable legal description available at [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html).
 
@@ -50,15 +49,14 @@ Each quarterly Preventive Care engagement includes three phases:
     -   Confirm timezones for working alignment​
     -   Understand any specific performance or scalability issues​
     -   Reiterate any time or resource requirements from the customer​
--   **Quarterly Preventive Care Findings Report**
+-   **Preventive Care Findings Report \(per Preventive Care engagement\)**
 
     Review and discuss the following:
 
-    -   Holistic assessment of overall instance health and performance​
-    -   Instance performance trends​
-    -   Prioritized recommendations to improve instance health and performance​
-    -   Guided implementation of recommendations, including potential third party components​
--   **Preventive Care Engagement Closeout Report**
+    -   Holistic assessment of overall instance health, performance and utilization
+    -   Prioritized recommendations to improve instance health, performance, and end user experience
+    -   Guided implementation of recommendations, including assistance with potential third-party components
+-   **Preventive Care Engagement Closeout Report \(per Preventive Care engagement\)**
 
     Includes the following:
 
@@ -113,7 +111,7 @@ Non-developers with strong knowledge of processes who are a candidate for Citize
 
 Preventive Care is limited to the following:
 
--   Preventive Care activities are performed quarterly.
+-   Preventive Care activities are performed bi-annually \(however this can be increased to quarterly, if required, at an additional cost\).
 -   Executed against a single, customer-nominated production instance​.
 -   Preventive Care engineer assistance deployment is limited for up to four weeks, following delivery of the Preventive Care report​.
 -   Commercially reasonable assistance on custom or third party components.​

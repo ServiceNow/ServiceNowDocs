@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Docker Spoke
@@ -18,7 +18,7 @@ Lookup Docker data from your ServiceNow instance. Automate changes in the Docker
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Docker spoke v2.4.3 is the latest version.
+Docker spoke v2.4.3 is the latest version. For version history of the spoke, see [Docker spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-docker.html).
 
 ## Spoke dependencies
 
@@ -90,7 +90,7 @@ The Docker spoke provides actions to automate Docker tasks when events occur in 
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-This spoke uses the Docker alias record to authorize actions. To use the spoke connection alias, create an associated Connection record. This spoke does not require a credential record. For information about setting up the spoke, see [Configure a connection for Docker spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-docker-spoke.md).
+This spoke uses the Docker alias record to authorize actions. To use the spoke connection alias, create an associated Connection record. This spoke does not require a credential record. For information about setting up the spoke, see [Configure a connection for the Docker spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-docker-spoke.md).
 
 ## MID Server requirements
 

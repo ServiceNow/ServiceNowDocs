@@ -7,10 +7,10 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Supporting information for ServiceNow Lens]
-breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Supporting information for ServiceNow AI Lens
@@ -23,7 +23,7 @@ ServiceNow AI Lens is supported from Yokohama Patch 6 and Zurich Patch 1.
 
 ## Supported user interfaces
 
-To scan artifacts such as images, screens, websites, and applications using Now Assist, install the ServiceNow AI Lens application and then activate the ServiceNow AI Lens skill. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/install-sn-lens.md).
+To scan artifacts such as images, scanned handwritten notes, Excel sheets, web pages using AI, enable the ServiceNow AI Lens application and then activate the ServiceNow AI Lens skill. For more information, see [Configure ServiceNow AI Lens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/install-sn-lens.md).
 
 The ServiceNow AI Lens application includes the skills that are listed in the following table.
 
@@ -42,19 +42,19 @@ Skill
 
 </td><td>
 
-ServiceNow AI Lens skill
+[ServiceNow AI Lens skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-skill.md)
 
 </td></tr></tbody>
 </table>## Licensing requirements
 
-The ServiceNow AI Lens application requires a ServiceNow Otto for Creator or Now Assist for Platform license.
+The ServiceNow AI Lens application requires a ServiceNow Pro Plus or Enterprise Plus license.
 
 ## Application information
 
-Activate the ServiceNow AI Lens store app \(com.sn\_ai\_lens\) to use the ServiceNow AI Lens skill.
+Enable the ServiceNow AI Lens \(com.sn\_ai\_lens\) app plugin to use the ServiceNow AI Lens skill.
 
 This store app has the following dependencies:
 
 -   ServiceNow AI Lens Core \(sn\_app\_lens\_core\)
--   Now Assist for Platform \(sn\_genai\_platform\)
+-   ServiceNow Otto for Platform \(sn\_genai\_platform\)
 

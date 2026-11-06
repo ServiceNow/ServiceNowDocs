@@ -7,7 +7,7 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Web services, API implementation, API implementation and reference]
 ---
@@ -26,8 +26,12 @@ The ServiceNow open database connectivity \(ODBC\) driver provides read-only acc
 Domain separation is supported in Web Services. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Analyze REST and SOAP API usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_APIAnalytics.md)**  
 REST and SOAP API analytics allow you to track and analyze web service API usage.
+-   **[Monitor inbound API integration usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/inbound-api-integration-usage-dashboard.md)**  
+Monitor inbound integration usage requests, data egress, and domain-level usage through the Inbound API Integration Usage dashboard.
 -   **[Query record data using the GraphQL API framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/scripted-graph-ql.md)**  
 Create a custom GraphQL API to query record data from a component or a third-party system.
+-   **[Access your ServiceNow data using Live Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/accessing-your-servicenow-data-using-sql-api.md)**  
+Live Connect provides read-only access to your ServiceNow tables, allowing you to write SQL queries, create reports, and perform analysis while maintaining your existing security controls. This eliminates the need for data synchronization and ensures you work with current ServiceNow data.
 
 **Parent Topic:**[Web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/r_AvailableWebServices.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -22,6 +22,10 @@ Create and manage monetary benefit plans to capture the potential benefits while
 -   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-benefit-plans-planning-items-ppw-fin.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
+## About this task
+
+\[Omitted video\] Description: Create and manage benefit plans
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** and select a planning item.
@@ -34,15 +38,15 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  Create a monetary benefit plan using one of the following options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d130019e111">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d161094e125">
 
 Option
 
-</th><th align="left" id="d130019e114">
+</th><th align="left" id="d161094e128">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d130019e120">
+</th></tr></thead><tbody><tr><td id="d161094e134">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +56,7 @@ Procedure
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d130019e144">
+</td></tr><tr><td id="d161094e158">
 
 **Using finanicals record page**
 
@@ -65,7 +69,7 @@ Procedure
 </td></tr></tbody>
 </table>5.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/benefit-plan-form-project-management.md).
+    For a description of the field names, see [Benefit Plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/benefit-plan-form-project-management.md)
 
 6.  Select **Save**.
 

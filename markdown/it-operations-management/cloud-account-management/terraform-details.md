@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: reference
-last_updated: "2024-03-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Cloud Account Management reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Reference, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Terraform account configuration fields
@@ -46,7 +46,7 @@ Cloud organization
 
 </td><td>
 
-The cloud organization where the subscription account is created.
+The cloud organization where the subscription account is created. For more details, see [Populate Cloud Account Management dependent tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/add-account-details.md).
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Terraform URL
 
 </td><td>
 
-A default URL appears. You can customize the URL by selecting the \[Omitted image "EvalEditIcon.png"\] Alt text: Edit icon.
+A default URL appears. You can customize the URL by selecting the edit icon \[Omitted image "edit-icon-workspace.png"\] Alt text: edit.
 
 </td></tr><tr><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Models
@@ -66,7 +66,7 @@ If a model is no longer needed, you can delete it as long as no assets or config
 
 [Domain separation and Product Catalog]()
 
-[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/asset-management/c_AssetManagement.md)
+[Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/c_AssetManagement.md)
 
 [Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/procurement/c_Procurement.md)
 

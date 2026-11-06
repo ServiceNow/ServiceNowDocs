@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-findings-state-transition.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [View findings for Security Posture Control, Use the workspace, Security Posture Control, Security Operations]
+breadcrumb: [Configuring and viewing findings, Use the workspace, Security Posture Control, Security Operations]
 ---
 
 # Test result and remediation task state transitions in the Security Posture Control application

@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage issues in Policy and Compliance Management, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Remediate an issue in Policy and Compliance Management
@@ -32,12 +32,14 @@ Remediating an issue marks an intention to fix the underlying issue causing the 
 
 1.  Open the issue you want to remediate.
 
-2.  Click the **Remediation Tasks** tab.
+2.  Select the **Remediation Tasks** tab.
 
-    **Note:** You have two options for creating a remediation task:
+    You have two options to create a remediation task:
 
-    -   Click **Suggested Remediation Tasks** and click **Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
-    -   Clicking **New** and manually creating the task.
+    -   Select **Suggested Remediation Tasks** and then select**Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
+    -   Select **New** and manually create the task.
+    **Important:** You can't assign a single remediation task or response to multiple issues at the same time. To remediate several related issues together, group them under a parent issue, then create the remediation task on the parent.
+
 3.  On the form, fill in the fields.
 
 <table id="table_ynl_yjz_dv"><thead><tr><th>
@@ -205,7 +207,7 @@ Confidential
 Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[Manage issues in Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/manage-issues.md)

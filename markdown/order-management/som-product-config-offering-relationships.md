@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-product-config-offering-relationships.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Create product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create product offering relationships
@@ -16,7 +16,7 @@ Create product relationships to bundle products and services together to make or
 
 ## Before you begin
 
-Role required: sn\_prd\_pm\_product\_catalog\_admin and sn\_prd\_pm\_product\_catalog\_manager
+Role required: sn\_prd\_pm.product\_catalog\_admin and sn\_prd\_pm.product\_catalog\_manager
 
 ## About this task
 
@@ -24,7 +24,7 @@ Create product offering relationships that bundle products together. A bundled p
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Offerings** &gt; **Product Offerings** and select the product offering you’re working with.
 
@@ -78,6 +78,14 @@ Option that identifies how the products are related:-   None - Indicates that th
 
 </td></tr><tr><td>
 
+Order
+
+</td><td>
+
+Numerical order for the options. Options designated with the number 1 appear first in the order.
+
+</td></tr><tr><td>
+
 Product offering relationship group
 
 </td><td>
@@ -86,7 +94,7 @@ Reference to offer relationship groups used to logically group similar product o
 
 </td></tr><tr><td>
 
-Unit of measurement
+Unit of measure
 
 </td><td>
 
@@ -114,7 +122,7 @@ Default quantity
 
 </td><td>
 
-Option indicating the default quantity for the product relationship.
+Option indicating the default quantity of product relationships.
 
 </td></tr><tr><td>
 
@@ -132,6 +140,14 @@ Min quantity
 
 Option indicating the minimum quantity of products in the bundle. These flags mean different things depending on whether each relationship is or is not part of a relationship group.
 
+</td></tr><tr><td>
+
+Effective from
+
+</td><td>
+
+Future date on which the product offering is available for quoting or ordering.
+
 </td></tr></tbody>
 </table>6.  Select **Save**.
 
@@ -147,4 +163,11 @@ Option indicating the minimum quantity of products in the bundle. These flags me
 -   [Add a unit of measure to a product offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-add-unit-of-measure.md)
 -   [Create a product offering version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-create-new-version.md)
 -   [Create product offering relationship groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-product-config-relationship-groups.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-third-party-data-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Third-party data integration solution overview
@@ -16,7 +16,7 @@ A typical enterprise ecosystem includes enterprise resource planning \(ERP\), sa
 
 In this example, the ERP system manages customer data \(for example, Accounts\).
 
-\[Omitted image "csm-typical-enterprise-it-ecosystem.jpg"\] Alt text: Chart of an enterprise ecosystem in which the Enterprise Resource Planning system manages the integration between ServiceNow Service Management and Salesforce Sales Management applications.
+\[Omitted image "csm-typical-enterprise-it-ecosystem.png"\] Alt text: Chart of an enterprise ecosystem in which the Enterprise Resource Planning system manages the integration between ServiceNow Service Management and Salesforce Sales Management applications.
 
 When a new account is acquired, it is created first in the ERP system and then account data is transferred to Salesforce and ServiceNow \(1\).
 

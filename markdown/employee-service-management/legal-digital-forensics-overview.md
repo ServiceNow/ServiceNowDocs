@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-digital-forensics-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Exploring Legal Digital Forensics
@@ -30,6 +30,4 @@ You can submit a digital forensics request for the following actions for custodi
 -   Present: Option for presenting the relevant information of custodial and non-custodial data in an appropriate format to stakeholders.
 
 After the required privacy approvals for investigation, the digital forensics team member working on the digital forensic request can promote it to a legal matter. The legal matter for the digital forensics request can have phases based on the requested actions. Each phase can have tasks for each custodial or non-custodial data for a keyword, data source, and date range.
-
-\[Omitted image "workflow-digital-forensics.png"\] Alt text: Legal Digital Forensics workflow.
 

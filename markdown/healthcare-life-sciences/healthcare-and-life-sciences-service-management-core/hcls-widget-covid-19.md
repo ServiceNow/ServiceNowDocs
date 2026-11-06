@@ -7,16 +7,14 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Widget library, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Patient Portal widget library, Reference, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # COVID-19 status widget
 
 The COVID-19 widget displays the status for the COVID-19 vaccination doses that logged-in user has either taken or self-reported and any COVID test results.
-
-\[Omitted image "hcls-widget-covid-status.png"\] Alt text: Screenshot displaying the COVID-19 status widget.
 
 ## Key features
 

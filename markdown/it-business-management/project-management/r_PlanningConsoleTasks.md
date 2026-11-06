@@ -7,33 +7,20 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Using Planning console - Legacy, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Planning console - Legacy, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Planning console tasks
 
 You can perform several tasks on the planning console that you can perform on lists and forms, such as creating project tasks and copying projects. You can also perform several tasks unique to the console.
 
-<table id="table_ukw_ftd_2s"><thead><tr><th>
+|Task|Steps|
+|----|-----|
+|Display a project in the planning console|Select the project from the list in the project workspace banner.|
 
-Task
-
-</th><th>
-
-Steps
-
-</th></tr></thead><tbody><tr><td>
-
-Display a project in the planning console
-
-</td><td>
-
-Select the project from the list in the project workspace banner. \[Omitted image "project\_selection.png"\] Alt text: Project list.
-
-</td></tr></tbody>
-</table><table id="table_m3q_lsy_fdc"><thead><tr><th>
+<table id="table_m3q_lsy_fdc"><thead><tr><th>
 
 Task
 
@@ -47,9 +34,9 @@ Create a project task
 
 </td><td>
 
-Select the add task below icon \(\[Omitted image "add\_task\_icon.png"\] Alt text: Add task icon\) on the row to create a new task.
+Select the add task below icon on the row to create a new task.
 
- You can also select an existing task to determine the insertion point for the new task, and then select the add task above icon \(\[Omitted image "add\_task\_above.png"\] Alt text: Add task icon.\) or the add task below icon \(\[Omitted image "add\_task\_below.png"\] Alt text: Add task icon.\).
+ To control the insertion point, select an existing task first. Then select the add task above icon or the add task below icon.
 
 </td></tr><tr><td>
 
@@ -57,7 +44,7 @@ Move a task up or down in the hierarchy
 
 </td><td>
 
-Select an existing task, and then select the move up \(\[Omitted image "move\_up\_icon.png"\] Alt text: Move up icon\) or move down \(\[Omitted image "move\_down\_icon.png"\] Alt text: Move down icon\) icons.
+Select an existing task, and then select the move up or move down icons.
 
 </td></tr><tr><td>
 
@@ -65,7 +52,7 @@ Indent or unindent a task in the hierarchy
 
 </td><td>
 
-Select an existing task, and then select the unindent \(\[Omitted image "promote\_icon.png"\] Alt text: Unindent icon.\) or indent \(\[Omitted image "demote\_icon.png"\] Alt text: Indent icon.\) icons.
+Select an existing task, and then select the unindent or indent icons.
 
 </td></tr><tr><td>
 
@@ -143,7 +130,7 @@ View the project name of an external dependency
 
 </td><td>
 
-Point to the link icon \(\[Omitted image "link-icon.png"\] Alt text: Link icon\) beside the external dependency task to display a tooltip which shows the name of the project to which the external dependency is added.
+Point to the link icon beside the external dependency task to display a tooltip which shows the name of the project to which the external dependency is added.
 
 </td></tr><tr><td>
 
@@ -164,7 +151,7 @@ Allow task dates outside schedule
 
 </td><td>
 
-Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon \(\[Omitted image "OffScheduleTaskIcon.png"\] Alt text: Off-schedule task icon\) appears next to the task in the **Short description** column.For example, if you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days should start on Saturday, then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
+Right-click a project task and select **Allow outside schedule**. The selected task is allowed to start and end on a non-schedule day \(outside the regular project schedule\) such as on a weekend. The off schedule task icon appears next to the task in the **Short description** column.If you use the project schedule Monday to Friday, 8:00 to 17:00 and a project task of duration 2 days starting Saturday. Then an off-schedule task is allowed to be scheduled on Saturday and end on Sunday. Similarly, if a task of duration 3 days starts on Friday, then an off-schedule will end on Sunday as opposed to ending on Tuesday.
 
  -   The option is not available for a parent task. When a task is made off-schedule, its parent also becomes off-schedule. The project also operates as out of schedule if any of the children is set to out of schedule.
 -   Once a task is allowed outside the schedule, the **Follow schedule** option is available for the task. Right-click the task and select **Follow schedule** to follow the schedule for the task.
@@ -189,7 +176,7 @@ Show or hide external dependencies
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select the **Hide External Dependencies** switch. When this option is enabled, the external dependencies are not displayed when you add an external dependency between two projects. However, the **Dependency** column in the WBS section of the successor project still shows the value of external dependency.
+Select the more options icon, and then select the **Hide External Dependencies** switch. When this option is enabled, the external dependencies are not displayed when you add an external dependency between two projects. However, the **Dependency** column in the WBS section of the successor project still shows the value of external dependency.
 
 </td></tr><tr><td>
 
@@ -197,9 +184,7 @@ Show external dependency notifications
 
 </td><td>
 
-Select the notification bell icon \[Omitted image "NotificationIcon.png"\] Alt text: Notification bell icon. to display the notifications raised in the successor project. The notifications are triggered as a result of changes made in the predecessor project.\[Omitted image "ExternalDependNotification.png"\] Alt text: External dependency notification example.
-
--   For a [soft dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/external-dependency-types.md), select **Accept** or **Reject** to accept or reject the changes in the notification.
+Select the notification bell icon to display the notifications raised in the successor project. The notifications are triggered as a result of changes made in the predecessor project.-   For a [soft dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/external-dependency-types.md), select **Accept** or **Reject** to accept or reject the changes in the notification.
 -   For a hard dependency, view the displayed notification to review the changes in the notification.
 
 </td></tr><tr><td>
@@ -208,7 +193,7 @@ Save changes to the server
 
 </td><td>
 
-Select the save icon \[Omitted image "save\_icon.png"\] Alt text: Save icon. to commit changes made in the planning console. The option is available only when [Client Side Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/client-side-planning-console.md) is enabled.
+Select the save icon to commit changes made in the planning console. The option is available only when [Client Side Planning Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/client-side-planning-console.md) is enabled.
 
 </td></tr><tr><td>
 
@@ -224,7 +209,7 @@ Show or hide columns in the planning console
 
 </td><td>
 
-Select the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide columns in gantt icon.\), and then select or clear the check boxes for the columns available. Admin can [customize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/custom-columns-planning-console.md) which columns appear in this list. The selection is saved in the user preference. The next time you open the planning console, the same columns you selected will appear.
+Select the show or hide columns in gantt icon, and then select or clear the check boxes for the columns available. Admin can [customize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/custom-columns-planning-console.md) which columns appear in this list. The selection is saved in the user preference. The next time you open the planning console, the same columns you selected will appear.
 
 </td></tr><tr><td>
 
@@ -232,7 +217,7 @@ Select WBS levels to show
 
 </td><td>
 
-Select the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: Show or hide columns in gantt icon.\), and then select the level from the [WBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/c_WorkBreakdownStructure.md) **Depth** list.
+Select the show or hide columns in gantt icon, and then select the level from the [WBS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/c_WorkBreakdownStructure.md) **Depth** list.
 
 </td></tr><tr><td>
 
@@ -257,7 +242,7 @@ View a summary of a task
 
 </td><td>
 
-Point to a task.\[Omitted image "task\_summary.png"\] Alt text: Tooltip shows the summary of the task.
+Point to a task.
 
 </td></tr><tr><td>
 
@@ -289,7 +274,7 @@ Select a baseline
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select a baseline from the baselines list.
+Select the more options icon, and then select a baseline from the baselines list.
 
 </td></tr><tr><td>
 
@@ -297,7 +282,7 @@ Create a baseline
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select **Create new baseline**. See [Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProjectBaseline.md) for more information.
+Select the more options icon, and then select **Create new baseline**. See [Create baseline of a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_CreateAProjectBaseline.md) for more information.
 
 </td></tr><tr><td>
 
@@ -305,7 +290,7 @@ Compare schedule baselines
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select a schedule baseline from the baselines list. Select the show or hide columns in gantt icon \(\[Omitted image "gear\_icon.png"\] Alt text: show or hide columns in gantt icon.\), and then select the following columns to compare schedule baselines:-   Baseline start date
+Select the more options icon, and then select a schedule baseline from the baselines list. Select the show or hide columns in gantt icon, and then select the following columns to compare schedule baselines:-   Baseline start date
 -   Baseline end date
 -   Baseline variance
 
@@ -315,7 +300,7 @@ Display the critical path
 
 </td><td>
 
-Select the critical path icon \(\[Omitted image "critical\_path\_icon.png"\] Alt text: Critical path icon\). For more information on the critical path, see [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/c_GanttChart.md).
+Select the critical path icon. For more information on the critical path, see [Gantt chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/c_GanttChart.md).
 
 </td></tr><tr><td>
 
@@ -323,7 +308,7 @@ Show date change
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select the **Show Date Change** switch. When this option is enabled, the start and end dates of the task are displayed when you drag the task bar.\[Omitted image "date\_change.png"\] Alt text: Start and end dates on the task bar.
+Select the more options icon, and then select the **Show Date Change** switch. When this option is enabled, the start and end dates of the task are displayed when you drag the task bar.
 
 </td></tr><tr><td>
 
@@ -331,7 +316,7 @@ Show duration change
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select the **Show Duration Change** switch. When this option is enabled, the duration of the task is displayed when you drag either end of the task bar.\[Omitted image "duration\_change.png"\] Alt text: Duration on the task bar.
+Select the more options icon \(\), and then select the **Show Duration Change** switch. When this option is enabled, the duration of the task is displayed when you drag either end of the task bar.
 
 </td></tr><tr><td>
 
@@ -339,7 +324,7 @@ Show weekends on the calendar
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select the **Show Weekends** switch. The weekends appear as light-blue vertical bars in the Gantt chart.\[Omitted image "weekend\_gantt\_chart.png"\] Alt text: Light-blue colored vertical bar indicates a Weekend on the task bar.
+Select the more options icon, and then select the **Show Weekends** switch. The weekends appear as light-blue vertical bars in the Gantt chart.
 
 </td></tr><tr><td>
 
@@ -347,9 +332,7 @@ Zoom the calendar in or out
 
 </td><td>
 
-On the top of the calendar, select one of the time periods, such as the month or day. Then select a **Zoom Level** from the calendar.\[Omitted image "zoom\_level.png"\] Alt text: Calendar zoom options.
-
-When the zoom level in calendar is selected as **Auto Fit**, the Gantt view fits in one page to display the entire timeline for the project in one go without using the scrollbar.
+On the top of the calendar, select one of the time periods, such as the month or day. Then select a **Zoom Level** from the calendar.When the zoom level is set to **Auto Fit**, the Gantt view fits on one page. The entire project timeline is visible without scrolling.
 
 </td></tr><tr><td>
 
@@ -357,7 +340,7 @@ Open the tutorial
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select **Walkthrough**.
+Select the more options icon \(\), and then select **Walkthrough**.
 
 </td></tr><tr><td>
 
@@ -365,7 +348,7 @@ Open list of keyboard shortcuts
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select **Keyboard Shortcuts**.
+Select the more options icon, and then select **Keyboard Shortcuts**.
 
 </td></tr></tbody>
 </table><table id="table_u3d_msy_fdc"><thead><tr><th>
@@ -390,7 +373,7 @@ Open live feed
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select **Show live feed**.
+Select the more options icon, and then select **Show live feed**.
 
 </td></tr><tr><td>
 
@@ -398,7 +381,7 @@ Export project data in MPP, CSV, or XML format
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select **Export Planning Console**. For more information, see [Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md).
+Select the more options icon, and then select **Export Planning Console**. For more information, see [Export project data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/t_ExportAProjectWithTheProjectForm.md).
 
 </td></tr><tr><td>
 
@@ -406,7 +389,7 @@ Print the gantt timeline
 
 </td><td>
 
-Select the more options icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: More options icon.\), and then select **Print**.**Note:**
+Select the more options icon, and then select **Print**.**Note:**
 
 -   Printing on a smaller paper size might result in the gantt chart image being cut off. You may either zoom out using the gantt chart calendar, or increase paper size to print the gantt timeline for projects and tasks.
 -   If the colored bars in gantt chart area are not visible in Print preview, then select the option for background graphics in the Print dialog.

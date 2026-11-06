@@ -1,29 +1,30 @@
 ---
-title: Configuring agentic workflows in Now Assist in Contract Management
-description: Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
+title: Configuring agentic workflows in ServiceNow Otto for Contract Management Pro
+description: Configure agentic workflows in ServiceNow Otto for Contract Management Pro so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-keywords: [Enable agentic workflows in Now Assist in Contract Management]
-breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Enable agentic workflows in ServiceNow Otto for Contract Management]
+breadcrumb: [Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Configuring agentic workflows in Now Assist in Contract Management
+# Configuring agentic workflows in ServiceNow Otto for Contract Management Pro
 
-Configure agentic workflows in Now Assist in Contract Management so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
+Configure agentic workflows in ServiceNow Otto for Contract Management Pro so that contract fulfillers can use the AI agents to perform specific tasks autonomously.
 
 Complete the following steps to configure agentic workflows in Contract Management Pro.
 
-1.  Install the Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\).
-    -   For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-    -   For information about the plugin dependencies and plugin activation order, see [Application information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-support-info-na.md).
-2.  Ensure Now Assist panel is turned on. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
-3.  Ensure **Now Assist Panel - Platform \(default\)** assistant in the CI Admin Experience is turned on. For more information, see [Manage LLM virtual agents on the Assistants screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/manage-llm-va.md).
+1.  Install the Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\).
+
+    For information about the plugin installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
+
+2.  Ensure ServiceNow Otto panel is turned on. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+3.  Ensure **ServiceNow Otto - Platform \(default\)** assistant in the CI Admin Experience is turned on.
 4.  Configure the security controls to specify the users who can discover or use the agentic workflow, and provide data permissions for the agentic workflow.
 
     For more information, see [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md).
@@ -70,14 +71,14 @@ Update the ContractsAIAgentsHelper script include to add the sys\_id of a custom
 -   **[Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-me-agentic-ntf.md)**  
 Enable the email notifications for metadata extraction and obligation extraction to notify users when metadata extraction and obligation extraction are complete.
 
-**Parent Topic:**[Configure Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
+**Parent Topic:**[Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md)
 
 **Related topics**  
 
 
-[Select large language models for use cases in Now Assist in Contract Management]()
+[Configure data permissions for AI skills]()
 
-[Configure data permissions for Now Assist skills]()
+[Select large language models for use cases in ServiceNow Otto for Contract Management Pro]()
 
 [Configuring contract metadata extraction]()
 
@@ -85,5 +86,5 @@ Enable the email notifications for metadata extraction and obligation extraction
 
 [Configuring contract obligation extraction]()
 
-[Post-upgrade steps for Now Assist in Contract Management]()
+[Post-upgrade steps for ServiceNow Otto for Contract Management Pro]()
 

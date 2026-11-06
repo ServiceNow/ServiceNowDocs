@@ -1,5 +1,5 @@
 ---
-title: PPM Collaboration
+title: Collaborate with your project teams using PPM Collaboration application
 description: Collaborate with your project team on a common enterprise messaging platform such as Slack or Microsoft Teams using the PPM Collaboration application. Facilitate active and timely communication about the project among the project's team members, be involved in critical discussions on your project, and receive real-time updates on the project's status.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-management/ppm-collab-overview.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# PPM Collaboration
+# Collaborate with your project teams using PPM Collaboration application
 
 Collaborate with your project team on a common enterprise messaging platform such as Slack or Microsoft Teams using the PPM Collaboration application. Facilitate active and timely communication about the project among the project's team members, be involved in critical discussions on your project, and receive real-time updates on the project's status.
 
@@ -49,4 +49,9 @@ Team member
 **Note:** PPM Collaboration is not supported for teamspaces.
 
 **Parent Topic:**[Using Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/using-project-management.md)
+
+**Related topics**  
+
+
+[Install PPM Collaboration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/install-ppm-collab-store-app.md)
 

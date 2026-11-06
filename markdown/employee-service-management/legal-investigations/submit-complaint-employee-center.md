@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Submitting a complaint for investigation, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a complaint through Employee Center
@@ -26,7 +26,7 @@ To submit a complaint anonymously, see [Submit a complaint through the Anonymous
 
 ## Procedure
 
-1.  In the Employee Center portal, submit a complaint using either the **Legal** menu or the **Quick links** section.
+1.  In the Employee Center portal, submit a complaint using either the **Help center** &gt; **Legal services** menu or the **Quick links** section.
 
 
 **Parent Topic:**[Submitting a complaint for investigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-investigations/submitting-legal-investigations-request.md)
@@ -54,15 +54,17 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
-2.  In the Employee Center portal, click the **Legal** menu and select the **Ethics and Compliance** option.
+2.  Navigate to **Help center** &gt; **Legal services**
 
-3.  In the Ethics and Compliance request category page, click **Ethics Complaints**.
+3.  Select the **Ethics and Compliance** option.
 
-4.  On the Ethics Complaints form, fill in the fields.
+4.  In the Ethics and Compliance request category page, click **Ethics Complaints**.
+
+5.  On the Ethics Complaints form, fill in the fields.
 
     For a description of the field values, see [Ethics complaints intake form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-investigations/ethics-complaint-intake-form.md).
 
-5.  To add an involved party, in the **Involved Parties** section, click **Add**.
+6.  To add an involved party, in the **Involved Parties** section, click **Add**.
 
     1.  In the Add Row dialog box, select an involved party type option to indicate if the involved party is an employee of the organization or a user from outside the organization.
 
@@ -76,7 +78,7 @@ Role required: sn\_lg\_ops.legal\_user
 
     Repeat these steps to add more involved parties.
 
-6.  On the Ethics Complaints form, click **Submit**.
+7.  On the Ethics Complaints form, click **Submit**.
 
 
 ### Result

@@ -1,5 +1,5 @@
 ---
-title: Delete a log source
+title: Delete a log source in Health Log Analytics
 description: Delete a log source with or without its associated log data in Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-log-source-delete.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, log source, delete, log data]
-breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Delete a log source
+# Delete a log source in Health Log Analytics
 
 Delete a log source with or without its associated log data in Health Log Analytics.
 
@@ -36,5 +36,5 @@ When you delete a log source, Health Log Analytics automatically deletes its rel
     -   Delete the source and its related data by selecting **Delete**.
     -   Delete the source without its related data by selecting the **Delete without logs** related link.
 
-**Parent Topic:**[Additional data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 

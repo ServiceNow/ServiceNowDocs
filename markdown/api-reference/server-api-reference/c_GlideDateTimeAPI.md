@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 44
+last_updated: "2026-09-10"
+reading_time_minutes: 45
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -18,7 +18,11 @@ The GlideDateTime class provides methods for performing operations on GlideDateT
 
 Use the GlideDateTime methods to perform date-time operations, such as instantiating a GlideDateTime object, performing date-time calculations, formatting a date-time, or converting between date-time formats.
 
-For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/p_GlideServerAPIs.md).
+## Modify a glide\_date\_time field
+
+When working with database columns of type glide\_date\_time in GlideDateTime methods, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement; calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods such as `addMonthsUTC()`. See [GlideElement - getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementAPI.md) for more information.
+
+For guidance on date time input strings with a list of common format conflicts, refer to [Date and time format guidelines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 
@@ -438,6 +442,8 @@ Adds a specified number of months to the current GlideDateTime object. A negativ
 
 The method determines the UTC date and time equivalent to the value stored by the GlideDateTime object, then adds or subtracts months using the UTC date and time values.
 
+When working with database columns of type glide\_date\_time, you must first convert the field value into a `GlideDateTime` object before performing date and time calculations. A `glide_date_time` field is represented as a GlideElement. Calling Glide Element - getGlideObject\(\) returns a `GlideDateTime` object that supports date manipulation methods. See [GlideElement - getGlideObject\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementAPI.md) for more information.
+
 |Name|Type|Description|
 |----|----|-----------|
 |months|Number|The number of months to add. Use a negative number to subtract.|
@@ -456,6 +462,22 @@ Output:
 
 ```
 2011-10-31
+```
+
+The following example shows how to read a DateTime field from a record, add months using UTC time, and write the updated value back to the field.
+
+```
+// Add 3 months (UTC) to a glide_date_time field on the current record
+var monthsToAdd = 3;
+
+// Convert the glide_date_time field (GlideElement) to a GlideDateTime object
+var gdt = current.u_renewal_date.getGlideObject();
+
+// Add months using UTC time
+gdt.addMonthsUTC(monthsToAdd);
+
+// Store the updated value back to the field using the internal (UTC) format
+current.u_renewal_date.setValue(gdt.getValue());
 ```
 
 ### Scoped equivalent
@@ -2326,13 +2348,11 @@ var gdt = new GlideDateTime();
 gdt.setTZ(tz);
 ```
 
-## GlideDateTime- setValue\(Object dateTime\)
+## GlideDateTime - setValue\(Object dateTime\)
 
 Sets the date and time of the GlideDateTime object.
 
 This method is equivalent to setInitialValue\(\).
-
-If invalid data is provided to this method, the underlying date is set to null.
 
 <table id="table_yfh_fpc_nt" class="parameters"><thead><tr><th>
 
@@ -2356,9 +2376,9 @@ Object
 
 </td><td>
 
-The date and time to use. This parameter may be one of several types. -   A string in the UTC time zone and the internal format of yyyy-MM-dd HH:mm:ss: Sets the value of the object to the specified date and time. Using the method this way is equivalent to instantiating a new GlideDateTime object using the GlideDateTime\(value\) constructor. If the date and time format used doesn’t match the internal format, the method attempts to set the date and time using other available formats. Resolving the date and time this way can lead to inaccurate data due to ambiguity in the day and month values. When using a non-standard date and time format, use setValueUTC\(dateTime, format\) instead.
+The date and time to use. This parameter may be one of several types. -   A string in the UTC time zone and the internal format of yyyy-MM-dd HH:mm:ss: Sets the value of the object to the specified date and time. Using the method this way is equivalent to instantiating a new GlideDateTime object using the GlideDateTime\(value\) constructor. If the date and time format used does not match the internal format, the method attempts to set the date and time using other available formats. Resolving the date and time this way can lead to inaccurate data due to ambiguity in the day and month values. When using a non-standard date and time format, use setValueUTC\(dateTime, format\) instead.
 -   A GlideDateTime object: Sets the value of the object to the date and time stored by the GlideDateTime passed in the parameter. Using the method this way is equivalent to instantiating a new GlideDateTime object using the GlideDateTime\(g\) constructor.
--   A Java Date object: Sets the value of the object using the value stored by the Java Date object. Using the method this way is equivalent to passing the value returned by the Java Date object getTime\(\) to the GlideDateTime setNumericValue\(\) method. This method doesn’t accept JavaScript Date objects.
+-   A Java Date object: Sets the value of the object using the value stored by the Java Date object. Using the method this way is equivalent to passing the value returned by the Java Date object getTime\(\) to the GlideDateTime setNumericValue\(\) method. This method does not accept JavaScript Date objects.
 -   A JavaScript Number: Sets the value of the object using the Number value as milliseconds past January 1, 1970 00:00:00 UTC. Using the method this way is equivalent to the setNumericValue\(milliseconds\) method.
 -   A Java Integer or Long: Sets the value of the object using the Integer or Long value as milliseconds past January 1, 1970 00:00:00 UTC. Using the method this way is equivalent to the setNumericValue\(milliseconds\) method.
 

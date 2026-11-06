@@ -1,48 +1,169 @@
 ---
 title: Review and submit a product or service order in Order Management
-description: After adding products and services to your order, review the order line items and submit the order for approval.
+description: Review all the order line items as the next step in the process to create a product order. Edit the order details as needed before submitting it for fulfillment approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-om-review-and-submit-product-order.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Review and submit a product or service order in Order Management
 
-After adding products and services to your order, review the order line items and submit the order for approval.
+Review all the order line items as the next step in the process to create a product order. Edit the order details as needed before submitting it for fulfillment approval.
 
 ## Before you begin
 
-Role required: sn\_ind\_tmt\_orm.order\_agent
+Role required: sn\_ind\_tmt\_orm.order\_agent, order\_approver
 
 ## Procedure
 
-1.  In the **Configurable Workspace**, select the **List** \[Omitted image "Lists.png"\] view.
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
-2.  Navigate to **Customer Orders** &gt; **All**.
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  Select the order that you want and review the order line items.
+3.  Navigate to **Customer Orders** &gt; **All**.
 
-    \[Omitted image "som-om-review-submit-order.png"\] Alt text: Image shows the order form with the order line items tab.
+4.  Select the order that you want to submit for approval.
 
-4.  Save any changes or updates and select the **Reprice** button to reset the total pricing.
+5.  Select **Review &amp; Submit**.
 
-5.  Select **Review &amp; Submit** to move the order to the ready for approval state.
+6.  Review the order line items details and configurations.
 
-    The **Review order** window shows all the order line items and also shows total pricing if applicable.\[Omitted image "som-om-order-submit.png"\] Alt text: Image shows the order form showing a completed order ready for submission.
+<table id="table_hll_tf4_tqb"><thead><tr><th>
 
-6.  After reviewing the order, select **Submit**.
+Field
 
-    The state of the order changes from **Draft** to **Submitted** and becomes available to the product manager to review and approve.
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Order Line
+
+</td><td>
+
+Unique system-assigned number of the order line item with a prefix ORDL.
+
+</td></tr><tr><td>
+
+Product Offering
+
+</td><td>
+
+Product offering that the customer is ordering for fulfillment.
+
+</td></tr><tr><td>
+
+Product Specification
+
+</td><td>
+
+Product specification that is associated with the order line item.
+
+</td></tr><tr><td>
+
+Qty
+
+</td><td>
+
+Product quantity.
+
+</td></tr><tr><td>
+
+Unit list price
+
+</td><td>
+
+Price of a product or service as defined in the Price List Line.
+
+</td></tr><tr><td>
+
+Cumulative monthly price
+
+</td><td>
+
+Total monthly recurring charges for this order line item. An example is a monthly line charge.
+
+</td></tr><tr><td>
+
+Cumulative annual price
+
+</td><td>
+
+Total yearly recurring charges for this order line item.
+
+</td></tr><tr><td>
+
+Cumulative one time price
+
+</td><td>
+
+Total non-recurring charges for this order line item. An example is a one-time installation fee.
+
+</td></tr><tr><td>
+
+Cumulative net price
+
+</td><td>
+
+Total price for this order line item.
+
+</td></tr><tr><td>
+
+Total monthly recurring price
+
+</td><td>
+
+Aggregated monthly cost of all recurring charges associated with an order line item or subscription contract.
+
+</td></tr><tr><td>
+
+Total one time price
+
+</td><td>
+
+Aggregate cost of all non-recurring charges associated with an order line item. These are typically setup fees, installation charges, or product costs that are billed once rather than on a recurring basis.
+
+</td></tr><tr><td>
+
+Total amount
+
+</td><td>
+
+Aggregate cost of all charges, both, one-time and recurring, associated with the entire order. It is a calculated field that reflects the final payable amount after applying quantity, pricing, and adjustments.
+
+</td></tr></tbody>
+</table>    **Note:** You can't manually adjust the amounts that appear in the pricing fields. They only change if you change the characteristic values for the order line items.
+
+7.  To update the configuration or quantity for an order line item, select the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
+
+    You're redirected to the configurator UI for making updates.
+
+8.  To delete an order line item, select the Delete icon \[Omitted image "trash-icon.png"\] Alt text:.
+
+9.  Save any changes or updates and select the **Reprice** to reset the total pricing.
+
+10. After reviewing the order, select **Submit**.
+
+    The state of the order changes from Draft to New. The order progresses to the next step of the order life cycle.
+
+    **Note:** For orders that include recurring or entitlement offerings, ensure that required contract details such as the contract start date, contract end date, and term are populated before submitting the order. These details are validated during order approval.
 
 
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
+## What to do next
+
+For complex orders, capture technical details. For more information, see [Capture order enrichment details for complex fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/capture-order-enrichment-details.md).
+
+If order enrichment tasks don't apply, move to order approval. For more information, see [Approving or rejecting orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/approving-rejecting-orders-som.md).
 
 **Related topics**  
 
 
-[Approve a product or service order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-om-approve-product-order.md)
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

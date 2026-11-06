@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Document Templates, Document Templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [Using Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Using Document Templates: HR Service Delivery
@@ -31,6 +31,8 @@ To use the Document Templates application for filling, signing, and approving a 
 3.  Add the HR case template while you [Configure an HR service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-service.md).
 4.  Create a case under the configured HR service.
 5.  Generate document tasks manually or automatically, see [Document tasks generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/task-mapped-participants.md). Participants receive document tasks for filling, signing, and reviewing a document. When the document tasks of all the participants are complete, the final document is added as an attachment to the case.
+
+\[Omitted video\] Description: End to end flow for document tasks
 
 ## Generate a PDF document
 

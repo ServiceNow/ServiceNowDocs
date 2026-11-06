@@ -7,8 +7,8 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Creating groups, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -137,6 +137,14 @@ Helpful information about the group.
 
         **Note:** For more information, see [Before Query business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/bp-before-query-business-rules.md).
 
+
+## Result
+
+The user group is created based on the configuration that you've provided.
+
+**Note:**
+
+When `glide.ui.schedule_job_for_group_parent_change` is set to true, removing a parent group results in the roles of the parent group being added to the child group asynchronously. If `glide.ui.schedule_job_for_group_parent_change` is set to false, the roles of the parent group are added to the child group synchronously when the parent group is removed.
 
 **Parent Topic:**[Creating groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/ua-creating-groups.md)
 

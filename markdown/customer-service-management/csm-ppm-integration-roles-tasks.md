@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-ppm-integration-roles-tasks.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Integrating with Customer Project Management, Integrating Customer Service Management with other applications, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Integrating with Customer Project Management, Integrate, Customer Service Management]
 ---
 
 # Customer Project Management personas, roles, and tables
@@ -54,7 +54,7 @@ Location Project Member
 
 </td><td>
 
-Views project details and project tasks of their respective business location. Marks project task as complete.
+Views project details and project tasks of their respective business location. Marks project task as complete.Assigns business organization project tasks to other location staff, project stakeholders, and assignment group.
 
 </td><td>
 
@@ -68,7 +68,7 @@ Location Project Manager Contributor
 
 </td><td>
 
-Views project details and project tasks of their respective business location and child business locations. Marks project task as complete.
+Views project details and project tasks of their respective business location and child business locations. Marks project task as complete.Assigns business organization project tasks to other location staff, project stakeholders, and assignment group.
 
 </td><td>
 

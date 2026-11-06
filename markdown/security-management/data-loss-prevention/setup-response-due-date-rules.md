@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -20,8 +20,8 @@ Set up the response due date rules to determine the time you want to give your e
 
 Role required:
 
--   sn\_dlir.admin - Create, edit, and delete.
--   sn\_dlir.analyst and sn\_dlir.analyst\_read - View \(read-only\).
+-   sn\_dlir.admin
+-   sn\_dlir.analyst and sn\_dlir.analyst\_read
 
 ## About this task
 
@@ -180,8 +180,6 @@ Option to search and select a user group to escalate DLP incidents to. This fiel
 </td></tr></tbody>
 </table>    The following example shows the response due date rule to determine how much time you want to give your end users to respond to the assigned Data Loss Prevention Incident Response \(DLP\) incidents. After the end user is first notified, the response due date is in two days. The conditions builder shows that the Scan Source must match the Endpoint File System to proceed with creating the response due date. The escalation option is selected. The incident is escalated to the manager if the response due date is breached.
 
-    \[Omitted image "dlp-response-due-date.gif"\] Alt text: Response Due Data Rules list view
-
 4.  Click **Submit**.
 
 
@@ -223,7 +221,7 @@ Use the escalation chain feature to allow all the respective users who are invol
 
 [Create repeat offender identification rules]()
 
-[Create additional incident data fields]()
+[Create Additional Incident Data Fields]()
 
 [DLP SLA Definition form]()
 

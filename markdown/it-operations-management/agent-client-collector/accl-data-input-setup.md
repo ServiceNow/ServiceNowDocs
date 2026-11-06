@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Agent Client Collector Log Analytics, Agent Client Collector, IT Operations Management]
 ---
@@ -54,6 +54,6 @@ It is important to configure an ACC data input for every MID Server to which Age
 
 5.  Refine the source type structure to make sure that Health Log Analytics extracts and classifies all properties correctly.
 
-    For more information, see [Refine the source type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
+    For more information, see [Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md).
 
 

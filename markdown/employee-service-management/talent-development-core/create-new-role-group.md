@@ -1,5 +1,5 @@
 ---
-title: Creating a new role group through the Skills Workspace
+title: Creating a role group through the Skills Workspace
 description: Add a new role group in the Skills Workspace to create a category of roles in your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/create-new-role-group.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Working with job architecture, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Creating a new role group through the Skills Workspace
+# Creating a role group through the Skills Workspace
 
 Add a new role group in the Skills Workspace to create a category of roles in your organization.
 
@@ -28,7 +28,7 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Go to **Job architecture** &gt; **Role groups**.
 
@@ -36,15 +36,15 @@ Role required: sn\_skills\_int.job\_arch\_admin
 
 5.  Either create your role group manually or by copying data from an existing group.
 
-<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d382375e116">
+<table id="choicetable_at3_cbk_s1c"><thead><tr><th align="left" id="d411451e127">
 
 Method
 
-</th><th align="left" id="d382375e119">
+</th><th align="left" id="d411451e130">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d382375e125">
+</th></tr></thead><tbody><tr><td id="d411451e136">
 
 **Manually**
 
@@ -55,7 +55,7 @@ Actions
 3.  Select **Save and continue**.
 
 
-</td></tr><tr><td id="d382375e161">
+</td></tr><tr><td id="d411451e172">
 
 **Copy the data from an existing role group**
 

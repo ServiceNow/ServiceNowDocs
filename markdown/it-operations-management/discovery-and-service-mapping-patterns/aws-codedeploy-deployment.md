@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AWS CodeDeploy Deployment, AWS CodeDeploy, AWS discovery, AWS patterns, CodeDeploy Deployment discovery]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # AWS CodeDeploy Deployment pattern-based discovery
@@ -21,11 +21,11 @@ Discovery and Service Mapping Patterns finds AWS CodeDeploy Deployments on your 
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [Amazon AWS Cloud components discovery using patterns]().
+    For more information, see the prerequisites section in [AWS discovery using patterns]().
 
 -   **Remove resources from the Resource Inclusion List table**
 
-    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [Amazon Web Services \(AWS\) Resource Inventory]().
+    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [AWS Resource Inventory discovery with Patterns]().
 
 -   **Enable the relevant pattern**
 
@@ -83,5 +83,5 @@ The Amazon AWS - CodeDeploy Deployment - Extended Inventory \(LP\) pattern colle
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Resource \[cmdb\_ci\_cmp\_resource\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

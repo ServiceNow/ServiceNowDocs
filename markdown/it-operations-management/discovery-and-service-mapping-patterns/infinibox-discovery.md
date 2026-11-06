@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # InfiniBox Discovery
@@ -18,11 +18,11 @@ ServiceNow Discovery uses the InfiniBox pattern to find and map instances. Disco
 
 Discovery uses multiple patterns to find InfiniBox storage system data. Discovering these resources requires installing the Discovery and Service Mapping Patterns and the CMDB CI Class Models applications from the ServiceNow Store, as each application is dependent on the other. You can use the patterns for discovering the InfiniBox components on the ServiceNow AI Platform using the Paris release or later.
 
-The InfiniBox enterprise storage array delivers faster-than-all-flash performance, high availability, and multi-petabyte scale for mixed application workloads.​ The InfiniBox hardware redundancy design enables rapid recovery from any component failures.
+The InfiniBox enterprise storage array delivers faster-than-all-flash performance, high availability, and multi-petabyte scale for mixed application workloads. The InfiniBox hardware redundancy design enables rapid recovery from any component failures.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -420,5 +420,5 @@ The vendor of the storage switch.
 
 \[Omitted image "infinibox-class-model.png"\] Alt text: infinibox class model.
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

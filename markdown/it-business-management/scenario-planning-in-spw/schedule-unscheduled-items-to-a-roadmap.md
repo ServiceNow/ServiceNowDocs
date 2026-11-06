@@ -1,5 +1,5 @@
 ---
-title: Plan unscheduled items into a roadmap in Strategic Planning Workspace
+title: Plan unscheduled items into a roadmap
 description: Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/schedule-unscheduled-items-to-a-roadmap.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Plan unscheduled items into a roadmap in Strategic Planning Workspace
+# Plan unscheduled items into a roadmap
 
 Add items without start or end dates yet to your portfolio plan or free-form roadmap.
 
@@ -29,15 +29,15 @@ Planning items that meet the criteria of your portfolio plan or free-form roadma
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d208812e93">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d268848e99">
 
 Roadmap type
 
-</th><th align="left" id="d208812e96">
+</th><th align="left" id="d268848e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d208812e102">
+</th></tr></thead><tbody><tr><td id="d268848e108">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d208812e123">
+</td></tr><tr><td id="d268848e129">
 
 **Free-form roadmap**
 
@@ -68,5 +68,5 @@ From the Free-form Roadmaps tab, select a roadmap.
 **Related topics**  
 
 
-[Reschedule roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/reschedule-items-on-a-roadmap.md)
+[Reschedule roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/reschedule-items-on-a-roadmap.md)
 

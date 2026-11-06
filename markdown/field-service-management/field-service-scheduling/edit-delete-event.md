@@ -1,20 +1,20 @@
 ---
-title: Edit or delete a non-work order event
-description: Dispatchers can change or delete a non-work order personal event if an event's details change after its creation.
+title: Edit or delete an event
+description: Dispatchers can change or delete a non-work order personal event if the event's details change after its creation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/edit-delete-event.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
-# Edit or delete a non-work order event
+# Edit or delete an event
 
-Dispatchers can change or delete a non-work order personal event if an event's details change after its creation.
+Dispatchers can change or delete a non-work order personal event if the event's details change after its creation.
 
 ## Before you begin
 
@@ -28,15 +28,15 @@ Role required: wm\_dispatcher
 
 3.  Edit or delete the event.
 
-<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d68014e81">
+<table id="choicetable_knz_ztn_11c"><thead><tr><th align="left" id="d75166e91">
 
 Option
 
-</th><th align="left" id="d68014e84">
+</th><th align="left" id="d75166e94">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d68014e90">
+</th></tr></thead><tbody><tr><td id="d75166e100">
 
 **Edit the event**
 
@@ -44,11 +44,11 @@ Actions
 
 1.  Select and hold \(or right-click\) the personal event you want to edit.
 2.  Select **Edit event**.
-3.  Edit the fields you want to modify.
+3.  Edit the fields that you want to modify.
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d68014e120">
+</td></tr><tr><td id="d75166e130">
 
 **Delete the event**
 

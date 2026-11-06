@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development setup, Configuring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Configure, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Create an exclusion policy
 
 Application developers can create an exclusion policy to prevent pushes or pulls to particular instances in the team development hierarchy.
+
+## Before you begin
+
+Role required: none
 
 ## Procedure
 

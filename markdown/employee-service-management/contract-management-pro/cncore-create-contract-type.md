@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+keywords: [Contract type]
+breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create a contract type
@@ -30,6 +31,8 @@ Role required: sn\_cm\_core.contract\_config
 
     -   To create a contract type, select **New**.
     -   To modify an existing contract type, open the contract type from the list.
+    \[Omitted image "cmpro-contract-type-form.png"\] Alt text: Contract type form
+
 3.  In the **Name** field, enter a unique name for the contract type.
 
 4.  The **Description** field, enter a description for the contract type.
@@ -46,7 +49,7 @@ Role required: sn\_cm\_core.contract\_config
 
         List of contract models is displayed.
 
-    3.  Select the contract model from the list or create new one.
+    3.  Select the contract model that has not be mapped before to another contract type or create new one.
 
     **Note:** Map only one contract model to a contract type. An error will be displayed when try to save the contract type record after adding more than one contract model.
 
@@ -54,4 +57,8 @@ Role required: sn\_cm\_core.contract\_config
 
     -   To save a new contract type, select **Submit**.
     -   To save the changes to an existing contract type, select **Update**.
+
+## Result
+
+The contract type is now available for selection in relevant configurations and when creating new contract requests.
 

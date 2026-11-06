@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: concept
-last_updated: "2025-04-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Talent Feedback, Talent Development, Employee Service Management]
+breadcrumb: [Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Exploring Talent Feedback
@@ -122,6 +122,4 @@ To learn more about configuring and using Talent Feedback, see:
 -   [Configuring Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/configuring-talent-feedback.md)
 -   [Using Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/using-talent-feedback.md)
 -   [Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-reference.md)
-
-**Parent Topic:**[Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-landing.md)
 

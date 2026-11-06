@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [App Launcher, Setup task management, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [App Launcher, Setup task management, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure application visibility and access
@@ -61,9 +61,11 @@ When an application is configured **Available for** a user, the search results s
 
 **Note:** When the app doesn't have a configured brand icon, a default icon appears.
 
-\[Omitted image "app-launcher-search-results.png"\] Alt text: app application and ai search results
+
 
 **Note:** When you mark an application as **Not Available for** a user, the application tab on the search results indicates the count. However, the user can’t see or navigate to the application due to user permissions.
+
+For more information on Application security directive changes, see [App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/web-application-employee-about.md)
 
 **Related topics**  
 

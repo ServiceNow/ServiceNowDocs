@@ -7,17 +7,17 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Health Log Analytics, HLA, severity words, severity values, log severity]
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Health Log Analytics severity mapping
 
 Health Log Analytics \(HLA\) uses common severity values to identify severity labels in the Source Type Structure.
 
-The **Log severity mapping** table shows how HLA identifies severity words from raw logs \(left column\) and maps them to its own severity values \(middle column\). These values are then presented in Event Management alerts \(right column\).
+The **Log severity mapping** table shows how HLA identifies severity words from raw logs \(left column\) and maps them to its own severity values \(middle column\). HLA then presents them in Event Management alerts \(right column\).
 
 |Raw log severity|HLA log severity|Event Management alert severity|
 |----------------|----------------|-------------------------------|
@@ -49,7 +49,7 @@ The **Log severity mapping** table shows how HLA identifies severity words from 
 |EMERGENCY|EMERGENCY|CRITICAL|
 |EMER|EMERGENCY|CRITICAL|
 
-**Note:** If your raw log contains numerical severities or unrecognized words, map these values to the HLA Log Severity column by creating a conditional statement using the JS function in the Source Type Structure. For more information, see [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md).
+**Note:** If your raw log contains numerical severities or unrecognized words, map these values to the HLA Log Severity column by creating a conditional statement using the JS function in the Source Type Structure. For more information, see [Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md).
 
 **Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)
 

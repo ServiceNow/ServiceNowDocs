@@ -7,14 +7,16 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Workforce Optimization for ITSM landing pages
 
 Track and monitor the performance of your organization using the Workforce Optimization for ITSM landing pages. If you are a coach or a channel manager, you can access metrics specific to your application using the Channels or the Quality landing pages respectively.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 You can clone an existing landing page and customize it using the Next Experience UI Builder. For more information, see [Customize a Workforce Optimization for ITSM page using Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/customize-wfo-itsm-page.md).
 

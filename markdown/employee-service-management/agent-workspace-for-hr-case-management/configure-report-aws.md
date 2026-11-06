@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a landing page variant
@@ -28,7 +28,7 @@ Role required: sn\_hr\_agent\_ws.admin and sn\_hr\_core.basic
 
 3.  Select the **Settings** tab.
 
-    \[Omitted image "settings\_tab\_uibuilder.png"\] Alt text: Settings tab
+    \[Omitted image "settings\_tab\_uibuilder.png"\] Alt text: Settings tab in UI Builder showing landing page configuration options and duplicate action
 
 4.  Select **Duplicate**.
 

@@ -1,5 +1,5 @@
 ---
-title: Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts
+title: Map clauses and clause variations
 description: As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-addin-add-clauses.html
@@ -7,20 +7,26 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Add document content controls using Microsoft Word add-in for ServiceNow Contracts, Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 4
+breadcrumb: [Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Map clauses and clause variations using the Microsoft Word add-in for ServiceNow Contracts
+# Map clauses and clause variations
 
 As a contract configurator, add clause and clause variations to a contract using the Microsoft Word add-in for ServiceNow Contracts.
+
+## About this task
+
+The following video walks you through the process of mapping clause and clause variations using Microsoft Word add-in for ServiceNow Contracts.
+
+\[Omitted video\] Description: The following video walks you through the process of mapping clause and clause variations using Microsoft Word add-in for ServiceNow Contracts.
 
 ## Before you begin
 
 The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
-A contract template that is active and is in the Draft or Editing state must exist. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
+An active contract template in the Draft or Editing state must exist. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -48,15 +54,17 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
     A clause cannot be mapped to more than one piece of content.
 
-<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d141076e210">
+    \[Omitted image "cmpro-waddin-use-clause.png"\] Alt text: Map clauses in ServiceNow Contracts add-in
+
+<table id="choicetable_j14_bd2_2yb"><thead><tr><th align="left" id="d148351e241">
 
 Methods for content and clause mapping
 
-</th><th align="left" id="d141076e213">
+</th><th align="left" id="d148351e244">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d141076e219">
+</th></tr></thead><tbody><tr><td id="d148351e250">
 
 **Use the clause as it is and do not update any of the existing clauses or clause variation**
 
@@ -64,7 +72,7 @@ Steps
 
 In the **Clauses** tab, select **Use this clause** for the clause that you want to use.**Note:** The imported clause is classified as No Change in the ServiceNow instance.
 
-</td></tr><tr><td id="d141076e239">
+</td></tr><tr><td id="d148351e270">
 
 **Create a clause and do not create any clause variation**
 
@@ -87,7 +95,7 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
     -   The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 
-</td></tr><tr><td id="d141076e312">
+</td></tr><tr><td id="d148351e343">
 
 **Create a clause variation for an existing clause**
 
@@ -96,17 +104,17 @@ In the **Clauses** tab, select **Use this clause** for the clause that you want 
 In the **Clauses** tab, select **Create Variation** for the clause that you want to use. The imported clause is classified as Existing Clause in the ServiceNow instance.
 
 </td></tr></tbody>
-</table>9.  Select the **View mapped clauses** toggle switch to see the mapped clauses,
+</table>9.  Select the **View mapped clauses** toggle switch to see the mapped clauses.
 
 
 ## Result
 
 -   The selected content is tagged with the clause.
--   The clause details are synced to the ServiceNow instance. You can access the clause details by logging to the ServiceNow instance and navigating to the **Imported Clauses** related list of the contract template.
+-   The clause details are synced to the ServiceNow instance. You can access the clause details by logging to the ServiceNow instance and navigating to the **Imported Clauses** related list of the contract template.\[Omitted image "cmpro-waddin-view-mapped-cls.png"\] Alt text: Mapped clauses added from ServiceNow Contracts add-in are synced to your instance
 
 ## What to do next
 
-[Upload and parse a Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md)
+[Complete mapping and upload Microsoft Word document that includes content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-addin.md)
 
 **Parent Topic:**[Add document content controls using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-contrl-wrd-addin.md)
 

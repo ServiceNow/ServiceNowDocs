@@ -7,7 +7,7 @@ release: yokohama
 product: Expense Line
 classification: expense-line
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Expense lines and expense allocations, Expense Line, IT Service Management]
 ---
@@ -71,5 +71,5 @@ Use a hierarchy if it makes sense for your organization. In the example below, t
 
 [Use a scripted allocation]()
 
-[Create fixed assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_CreatingFixedAssets.md)
+[c_CreatingFixedAssets]
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Script Debugger and Session Log, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Evaluate expressions in runtime using Console
@@ -18,8 +18,17 @@ Define, declare, and verify new variables and functions while you debug a script
 
 ## Before you begin
 
--   Review [Limitations with using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/console-limitatations-sd.md)
--   Role required: script\_debugger, admin
+Role required: script\_debugger or admin
+
+## About this task
+
+You need to be aware of a few limitations when you use Console to evaluate expressions while debugging a script in runtime.
+
+-   The properties and values of an object don't display in Console. When you try to display an object to Console, only the string value of the object appears.
+-   Console doesn't support GlideSystem printing methods, such as info\(\) and print\(\).
+-   You can't use the this keyword in Console.
+-   A script debugger timeout occurs when you evaluate expressions in Console.
+-   While executing long scripts, if you see the response `Awaiting response from server`, you can't resume debugging or stop debugging using the resume or stop controls.
 
 ## Procedure
 
@@ -58,13 +67,5 @@ Define, declare, and verify new variables and functions while you debug a script
 
 After a statement is executed, it is stored in the browser cache. You can use the up arrow key to get the previous statement and down arrow key to get the next statement from the browser cache. You can configure the number of cached statements for a session from user preferences. For more information about user preferences settings, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger.md).
 
--   **[Limitations with using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/console-limitatations-sd.md)**  
-You need to be aware of a few limitations when you use Console to evaluate expressions while debugging a script in runtime.
-
 **Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger.md)
-
-**Related topics**  
-
-
-[Limitations with using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/console-limitatations-sd.md)
 

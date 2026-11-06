@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Allocation management on Software Asset Management
@@ -85,7 +85,7 @@ To override the license assignment:
 2.  Select **Software entitlements**.
 3.  Select the software entitlements for SQL Server. For example, select the Microsoft SQL Server 2017 Enterprise software entitlement.\[Omitted image "select-software-entitlement.png"\] Alt text: Licensing Software entitlements.
 4.  Select the **Device Allocations** tab and then select **New**.
-5.  Add the Device Allocations details. When allocating license to the Host or VM, based on the value provided in the **Quantity** field, the Software Asset Management application determines the core count based on the following criteria:
+5.  Add the Device Allocations details. For more information, see [Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-device-allocation.md). When allocating license to the Host or VM, based on the value provided in the **Quantity** field, the Software Asset Management application determines the core count based on the following criteria:
     -   If an exact number of cores isn’t provided, the Software Asset Management application automatically uses the actual core count of a machine for licensing purposes.
     -   If fewer cores than the actual machine is provided, the Software Asset Management application counts the exact number of cores present on the machine for licensing purposes.
     -   If more cores than the actual machine is provided, the Software Asset Management application uses the number you entered. However, the surplus is marked as Allocated not in use for licensing.

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Administering playbooks, Configuring playbooks, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Archive process contexts
@@ -87,5 +87,5 @@ Turn off the automatic archiving of context records for your complete and cancel
 -   **[View archived process contexts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/view-archived-process-executions.md)**  
 Configure the form layout for a process execution so that you can see the JSON record for archived context records.
 
-**Parent Topic:**[Administering playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/administering-process-automation-designer.md)
+**Parent Topic:**[Administering Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/administering-process-automation-designer.md)
 

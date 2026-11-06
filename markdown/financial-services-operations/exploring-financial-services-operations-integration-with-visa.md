@@ -5,22 +5,26 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/exploring-financial-services-operations-integration-with-visa.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Visa, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Operations Integration with Visa
 
 Learn how you can use the Financial Services Operations Integration with Visa application to seamlessly connect with dispute workflows and manage dispute resolution.
 
-## Overview
+## Overview on the application
 
-Financial Services Operations Integration with Visa allows financial institutions to integrate with VROL APIs using Visa Spoke Actions. This integration enables the management of various dispute lifecycle events, such as performing transaction searches, creating dispute cases, submitting dispute questionnaires, and reporting fraud. It provides the following subflows to consume the Visa spoke actions:
+Financial Services Operations Integration with Visa allows financial institutions to integrate with VROL APIs using Visa Spoke actions. This integration enables the management of various dispute lifecycle events, such as performing transaction searches, creating dispute cases, submitting dispute questionnaires, and reporting fraud.
+
+You can use the following subflows to the Visa spoke actions:
 
 -   Create case from transaction
 -   Initiate dispute from transaction or case
 -   Submit dispute questionnaire
+
+For more information on setting up the integration to invoke Visa APIs for the Visa card dispute processs, see [Set up Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/set-up-visa-spoke.md).
 
 ## Workflow
 
@@ -36,4 +40,9 @@ Integrating Financial Services Operations card dispute flow with the Visa spoke 
 -   Faster time to value and streamlined maintenance.
 -   Manage the dispute lifecycle by using events such as case creation and questionnaire submission.
 -   Utilize the necessary information used in sub-flows by leveraging data model elements.
+
+**Related topics**  
+
+
+[Visa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/visa-spoke.md)
 

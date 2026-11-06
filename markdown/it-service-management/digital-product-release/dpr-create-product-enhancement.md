@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-04-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Define release scope using product enhancements, Use, Digital Product Release, IT Service Management]
+breadcrumb: [Define release scope, Use, Digital Product Release, IT Service Management]
 ---
 
 # Add an enhancement to a product or service
@@ -22,7 +22,7 @@ Role required: sn\_dpr\_model.product\_manager
 
 ## About this task
 
-You can also add enhancement from an epic. For more information, see [Add a product enhancement from an epic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
+You can also add enhancement from an epic. For more information, see [Add a product enhancement from a work item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-add-product-enhancement-from-epic.md).
 
 ## Procedure
 
@@ -95,16 +95,16 @@ Short description of the enhancement.
 
     The product enhancement is created and opened in the Product Enhancement record page.
 
-8.  On the **Details** tab, update the details about the enhancement, including its state, owner name, assignment group, assigned to person, and start and end dates.
+8.  In the Product Enhancement record page, select the **Details** tab to update the enhancement details.
 
-9.  Select **Link Epics** to associate all the top-level epics being worked on by the development team.
+9.  Select **Link work items** to associate all the top-level work items being worked on by the development team.
 
-10. On the Link Epics dialog box, select the epics from the list, and select the **Link Epics** button.
+10. On the Link work items dialog box, select the work items from the list, and select the **Link work items** button.
 
-    The selected epics are associated with the product enhancement and are listed in the **Work Items** tab.
+    The selected work items are associated with the product enhancement and are listed in the **Work Items** tab.
 
-11. On the **Work Items** tab, select an epic to review its details and related records.
+11. On the **Work Items** tab, select a work item to review its details and related records.
 
-12. Select the attachment icon \(\[Omitted image "dpr-icon-attachment.png"\] Alt text: Attachment icon.\) to open the **Attachments** pane to upload and attach a file related to the feature.
+12. Select the attachment icon \(\[Omitted image "dpr-icon-attachment.png"\] Alt text: Attachment icon.\) to open the **Attachments** pane to upload and attach a file related to the enhancement.
 
 

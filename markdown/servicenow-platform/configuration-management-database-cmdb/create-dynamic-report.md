@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a report in CMDB Query Builder, CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Create report, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a dynamic report
@@ -24,8 +24,6 @@ Role required:
 
 -   To create: cmdb\_query\_builder and report\_user
 -   To view: Reporting role requirements might apply, see [Administering reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_AdminsteringReports.md) for Reporting role requirements.
-
-In the base system, the cmdb\_query\_builder role is contained in the itil and asset roles.
 
 ## About this task
 

@@ -1,0 +1,39 @@
+---
+title: Old inbound integrations experience
+description: Old experience - Inbound integrations.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/old-inbound-integrations.html
+release: yokohama
+product: Authentication
+classification: authentication
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [OAuth inbound, OAuth authentication, Authentication, Access Management]
+---
+
+# Old inbound integrations experience
+
+Old experience - Inbound integrations.
+
+**Note:**
+
+You can perform the OAuth inbound configuration, depending on the following type of grant type:
+
+-   [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md)
+
+    **Note:** For authorization code flow, user needs to complete the authentication by local login, SSO or MFA and then provide consent.
+
+-   [Password grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_AuthorizeAccessEndpiont.md)
+-   [JWT bearer grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-jwt-endpoint.md)
+-   [ID token flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/add-OIDC-entity.md)
+-   [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_OAuthImplicitGrants.md)
+-   [Client credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-credentials.md)
+
+Configure OAuth integration that includes the following enhancements from Zurich release:
+
+-   Increase client secret length up to 4096 characters to meet security requirements of third-party systems.
+-   Provide a JSON Web Key Set \(JWKS\) URL to automatically manage and update the public key for JSON Web Tokens \(JWT\) signature validation.
+-   Request OAuth tokens using the JWT grant type signed with Elliptic Curve Digital Signature Algorithm \(ES\) signing algorithms, including ES256, ES384, and ES512, for inbound JSON Web Tokens \(JWT\).
+-   Customize the JWT ID \(JTI\) claim name in both inbound OpenID Connect \(OIDC\) and JWT Bearer flows.
+

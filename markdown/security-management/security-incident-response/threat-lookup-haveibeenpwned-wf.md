@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Security Operations Have I been pwned? integration setup, Have I been pwned? integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Have I been pwned? integration setup, Have I been pwned? integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Threat Lookup - Have I been pwned? flow
@@ -20,7 +20,5 @@ Role required: sn\_si\_admin
 
 This flow is triggered by the [Security Operations Integration - Threat Lookup capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sec-ops-threat-lookups-capability.md) when you perform a threat lookup on one or more observables, and the Have I been pwned? implementation is selected. For more information, see [Perform lookups on observables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/perform-lookups-on-observables.md).
 
-\[Omitted image "flows-haveibeen-pwned.png"\] Alt text: Security Operations - Have I been pwned flow
-
-For information on the activities used by this flow, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/common-wf-activities.md).
+For information, see [Common Security Operations integration flows and orchestration activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/common-wf-activities.md).
 

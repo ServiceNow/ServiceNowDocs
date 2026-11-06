@@ -1,5 +1,5 @@
 ---
-title: Add planning items to Prioritization page in Portfolio Planning Workspace
+title: Add planning items to Prioritization
 description: Add new planning items to your portfolio plan's work backlog in Portfolio Planning Workspace and ensure that the work pipeline is current.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/add-planning-items-prioritization-in-portfolio-planning-workspace.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Add planning items to Prioritization page in Portfolio Planning Workspace
+# Add planning items to Prioritization
 
 Add new planning items to your portfolio plan's work backlog in Portfolio Planning Workspace and ensure that the work pipeline is current.
 
@@ -25,7 +25,7 @@ Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Use the Prioritization page of your portfolio plan to add new planning items or import them from other ServiceNow execution system such as Project Portfolio Management \(PPM\).
+Use the Prioritization tab of your portfolio plan to add new planning items or import them from other ServiceNow execution system such as Project Portfolio Management \(PPM\).
 
 You can use the List or Hierarchy views while you perform this task.
 
@@ -35,7 +35,7 @@ You can use the List or Hierarchy views while you perform this task.
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the Prioritization page, add a new planning item for your portfolio plan.
+3.  From the Prioritization tab, add a new planning item for your portfolio plan.
 
     Use the More options drop-down to select the planning item that you want to create.
 
@@ -56,11 +56,11 @@ You can use the List or Hierarchy views while you perform this task.
 
 The new item is created with its **Planning state** field is set to **New** and the position of the item is based on the view that you are in.
 
--   List view: Added to the bottom of the list.
--   Hierarchy view: Added to the appropriate grouping. For example, your selected lens is Organization. Then, the new item is added to the grouping of its department.
+-   Prioritization tab: Added to the bottom of the list.
+-   Hierarchy tab: Added to the appropriate grouping. For example, your selected lens is Organization. Then, the new item is added to the grouping of its department.
 
 ## What to do next
 
--   [Rank planning items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.md).
+-   [Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.md).
 -   [Update planning item details from Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/modify-planing-item-details-from-prioritization-portfolio-planning-workspace.md).
 

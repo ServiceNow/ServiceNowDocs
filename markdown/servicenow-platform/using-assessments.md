@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/using-assessments.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -21,5 +21,5 @@ Take the assessments assigned to you from the assessment and survey queue.
 -   **[Metric types and assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/c_MetricTypesAndAssessableRecords.md)**  
 In the Assessments application, assessment administrators create and administer metric types and assessable records.
 
-**Parent Topic:**[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/r_Assessments.md)
+**Parent Topic:**[Assessments]()
 

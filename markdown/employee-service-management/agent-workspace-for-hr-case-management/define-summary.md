@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Generate a summary report
@@ -20,7 +20,7 @@ Create and save as many templates as needed by using the ServiceNow Document Tem
 
 Role required: sn\_hr\_core.case\_writer
 
-Ensure the following plugins are installed:
+Confirm the installation of the following plugins:
 
 -   Document Templates \[sn\_doc\]
 -   Employee Relations \[com.sn\_hr\_employee\_relations\]
@@ -39,7 +39,7 @@ You must be assigned to the case.
 
 3.  Select **Summary Report**.
 
-    \[Omitted image "summary-report.png"\] Alt text: Summary report button
+    \[Omitted image "summary-report.png"\] Alt text: Summary Report button in HR case form for generating case detail reports
 
 4.  In the Summary Report window, select a predefined document template format in which the case details are captured.
 

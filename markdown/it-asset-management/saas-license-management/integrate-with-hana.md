@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with SAP S/4HANA Cloud Public Edition
@@ -131,7 +131,7 @@ The Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_
 
 For publishing the integration profile, change the application scope to **Global**.
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **Software Asset Management integration with SAP S4Hana Cloud** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -143,15 +143,15 @@ If you’re using Software Asset Workspace, the option to create the SAP S/4HANA
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d51455e658">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d45819e658">
 
 Interface
 
-</th><th align="left" id="d51455e661">
+</th><th align="left" id="d45819e661">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d51455e667">
+</th></tr></thead><tbody><tr><td id="d45819e667">
 
 **Core UI**
 
@@ -162,7 +162,7 @@ Action
 3.  Select **SAP S4Hana Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d51455e709">
+</td></tr><tr><td id="d45819e709">
 
 **Software Asset Workspace**
 
@@ -226,7 +226,7 @@ Type of integration profile. This field is automatically set to **SAP S4Hana Clo
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_s4\_hana\_cld\_spk.SAP\_S4\_HANA\_Cloud**.
 
-6.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Preview icon\) beside the **Connection &amp; Credential** field.
+6.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] beside the **Connection &amp; Credential** field.
 
 7.  Select **Open Record** in the record preview.
 
@@ -255,6 +255,16 @@ Type of integration profile. This field is automatically set to **SAP S4Hana Clo
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models and software subscriptions that are refreshed daily.
+
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

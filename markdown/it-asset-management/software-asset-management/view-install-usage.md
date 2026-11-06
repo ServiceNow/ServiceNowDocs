@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View license usage for your installations
@@ -37,6 +37,8 @@ Role required: sam\_manager
     \[Omitted image "license-usage-node-map.png"\] Alt text: License usage node map
 
     The License use analysis page for the product opens displaying a four-level node map that illustrates how the licenses are being used.
+
+    You can also access the License use analysis page from the Publisher details page by selecting **Product install analysis** for a publisher, selecting a product, and then selecting **License usage**.
 
 4.  View the four-level node map to understand the license usage for the product.
 

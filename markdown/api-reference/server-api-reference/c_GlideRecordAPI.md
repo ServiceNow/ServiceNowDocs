@@ -1,14 +1,14 @@
 ---
 title: GlideRecord - Global
-description: The GlideRecord API is used for database operations.Creates an instance of the GlideRecord class for the specified table.Adds a filter to return active records.Changes the domain used for the query from the user's domain to the domain of the provided GlideRecord.Adds an encoded query to other queries that may have been set.Queries one or more dot-walked fields from a form or script in a single request.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a filter to return inactive records. Inactive records have the active flag set to false.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records where the specified field is not null.Adds a filter to return records where the specified field is null.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request.Provides atomic add and subtract operations on a specified number field at the database level for the current GlideRecord object.Sets the values of the specified encoded query terms and applies them to the current GlideRecord.Apply a template record from the Template table \[sys\_template\] to the current record. If the specified template is not found, no action is taken.Enables or disables the update to the fields sys\_updated\_by, sys\_updated\_on, sys\_mod\_count, sys\_created\_by, and sys\_created\_on. This is often used for manually updating field values on a record while leaving historical information unchanged.Determines if the access control rules \(which includes the user's role\) permit inserting new records in this table.Determines if the access control rules \(which includes the user's role\) permit deletion of records in this table.Indicates whether the Access Control Rules \(ACLs\) permit the current user to read the current record within the associated GlideRecord table. This method evaluates all available ACLs for the specific resource.Determines if the access control rules \(which includes the user's role\) permit updates to records in this table.Determines whether any of the fields in the record have changed.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes a single record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns true if any record has a matching value in the specified column. If found, it also moves to the first record that matches, essentially executing next\(\) until the record is returned.Returns the specified record in the current GlideRecord object.Returns the dictionary attributes on the specified field.Returns the table's label.Retrieves the display value for the current record or the display value of an attribute in a dynamic attribute store.Returns the GlideElementDynamicAttribute object for the specified dynamic attribute store path.Returns a GlideElementDynamicAttribute object that contains the dynamic attribute located at the specified table field and attribute path.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Returns the element's descriptor.Retrieves the GlideElement for a specified field.Retrieves the query condition of the current result set as an encoded query string.Retrieves the field value for the display field of the current record and adds escape characters for use in Jelly scripts.Retrieves a Java ArrayList of fields in the current record.Retrieves the field's label.Retrieves the link for the current record.Retrieves the row number of the current record within the table.Retrieves the plural label of the GlideRecord table.Retrieves the class \(table\) name for the current record.Retrieves a list of names and display values of related lists associated with the current GlideRecord.Retrieves a list of names and display values of tables that are referred to by the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the row number set by saveLocation\(\) or setLocation\(\).Retrieves the table name associated with this GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of a specified field or the string value of an attribute in a dynamic attribute store.Determines if the current GlideRecord has any attachments.Determines if there are any more records in the GlideRecord.Creates an empty record within the current GlideRecord that is suitable for population before an insert.Inserts a new record with the field values that have been set for the current record.Inserts a new record and also inserts or updates any related records with the provided information.Checks a table for the type\\class of table.Determines whether the current record has been inserted into the database.Determines if the current GlideRecord table exists.Determines if the specified field is defined in the current GlideRecord table.Determines if the current record is valid.Creates a GlideRecord, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), intended to be used in cases where the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies a field name, or path to an attribute within a dynamic attribute store, to use to order the query set. To order by multiple fields, call this method multiple times with different field values.Specifies the field, or an attribute in a dynamic attribute store, to use to order the query set in descending order.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Used in domain-separated instances. Similar to query\(\), runs the query against the table based on the filters specified by addQuery\(\) and addEncodedQuery\(\), but ignores domains.Sets the current record to be the record that was saved with saveLocation\(\). If saveLocation\(\) has not been called, the current record is set to the first record of the GlideRecord.Saves the current row number so you can return to this location using the restoreLocation\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted.Sets a specified field, or an attribute in a dynamic attribute store, to a specified display value.Sets the value of the dynamic attribute located at a specified path.Sets the value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets the display value of the dynamic attribute located at a specified path.Sets the display value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets one or more dynamic attribute values with values specified in the passed GlideDynamicAttributeStore object.Updates the record even if fields have not changed.Sets the maximum number of records to return in the GlideRecord from a query.Sets the current row location to the specified value.Generates a new GUID and sets it as the unique ID \(sys\_id\) for the current record.Generates a new GUID and sets it as the unique ID for the current record, when inserting a new record.Stops a GlideRecord query from running a COUNT\(\*\) query.Enables or disables using the reference field's display name when querying a reference field.Disables or enables the running of any engines \(approval rules / assignment rules\).Sets the specified field, or an attribute in a dynamic attribute store, to a specified value.Enables or disables running business rules that might normally be triggered by subsequent actions.Updates the GlideRecord with any changes that have been made. If the record does not exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
+description: The GlideRecord API is used for database operations.Creates an instance of the GlideRecord class for the specified table.Adds a filter to return active records.Changes the domain used for the query from the user's domain to the domain of the provided GlideRecord.Adds an encoded query to other queries that may have been set.Queries one or more dot-walked fields from a form or script in a single request.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a query using an encoded query string. Use this method to bypass query access.Specifies an orderBy column. Use this method to bypass query access.Specifies a descending orderBy column. Use this method to bypass query access.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.Adds a query using an encoded query string. Use this method to enforce query access based on the user.Specifies an orderBy column. Use this method to enforce query access based on the user.Specifies a descending orderBy column. Use this method to enforce query access based on the user.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.Adds a filter to return inactive records. Inactive records have the active flag set to false.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records based on a relationship in a related table.Adds a filter to return records where the specified field is not null.Adds a filter to return records where the specified field is null.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request.Provides atomic add and subtract operations on a specified number field at the database level for the current GlideRecord object.Sets the values of the specified encoded query terms and applies them to the current GlideRecord.Apply a template record from the Template table \[sys\_template\] to the current record. If the specified template is not found, no action is taken.Enables or disables the update to the fields sys\_updated\_by, sys\_updated\_on, sys\_mod\_count, sys\_created\_by, and sys\_created\_on. This is often used for manually updating field values on a record while leaving historical information unchanged.Determines if the access control rules \(which includes the user's role\) permit inserting new records in this table.Determines if the access control rules \(which includes the user's role\) permit deletion of records in this table.Indicates whether the Access Control Rules \(ACLs\) permit the current user to read the current record within the associated GlideRecord table. This method evaluates all available ACLs for the specific resource.Determines if the access control rules \(which includes the user's role\) permit updates to records in this table.Determines whether any of the fields in the record have changed.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes a single record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns true if any record has a matching value in the specified column. If found, it also moves to the first record that matches, essentially executing next\(\) until the record is returned.Returns the specified record in the current GlideRecord object.Returns the dictionary attributes on the specified field.Returns the table's label.Retrieves the display value for the current record or the display value of an attribute in a dynamic attribute store.Returns the GlideElementDynamicAttribute object for the specified dynamic attribute store path.Returns a GlideElementDynamicAttribute object that contains the dynamic attribute located at the specified table field and attribute path.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Returns the element's descriptor.Retrieves the GlideElement for a specified field.Retrieves the query condition of the current result set as an encoded query string.Retrieves the field value for the display field of the current record and adds escape characters for use in Jelly scripts.Retrieves a Java ArrayList of fields in the current record.Retrieves the field's label.Retrieves the link for the current record.Retrieves the row number of the current record within the table.Retrieves the plural label of the GlideRecord table.Retrieves the class \(table\) name for the current record.Retrieves a list of names and display values of related lists associated with the current GlideRecord.Retrieves a list of names and display values of tables that are referred to by the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the row number set by saveLocation\(\) or setLocation\(\).Retrieves the table name associated with this GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of a specified field or the string value of an attribute in a dynamic attribute store.Determines if the current GlideRecord has any attachments.Determines if there are any more records in the GlideRecord.Creates an empty record within the current GlideRecord that is suitable for population before an insert.Inserts a new record with the field values that have been set for the current record.Inserts a new record and also inserts or updates any related records with the provided information.Checks a table for the type\\class of table.Determines whether the current record has been inserted into the database.Determines if the current GlideRecord table exists.Determines if the specified field is defined in the current GlideRecord table.Determines if the current record is valid.Creates a GlideRecord, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), intended to be used in cases where the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies a field name, or path to an attribute within a dynamic attribute store, to use to order the query set. To order by multiple fields, call this method multiple times with different field values.Specifies the field, or an attribute in a dynamic attribute store, to use to order the query set in descending order.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Used in domain-separated instances. Similar to query\(\), runs the query against the table based on the filters specified by addQuery\(\) and addEncodedQuery\(\), but ignores domains.Sets the current record to be the record that was saved with saveLocation\(\). If saveLocation\(\) has not been called, the current record is set to the first record of the GlideRecord.Saves the current row number so you can return to this location using the restoreLocation\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted.Sets the query category, which determines how the query is routed to a secondary database.Sets a specified field, or an attribute in a dynamic attribute store, to a specified display value.Sets the value of the dynamic attribute located at a specified path.Sets the value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets the display value of the dynamic attribute located at a specified path.Sets the display value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.Sets one or more dynamic attribute values with values specified in the passed GlideDynamicAttributeStore object.Updates the record even if fields have not changed.Sets the maximum number of records to return in the GlideRecord from a query.Sets the current row location to the specified value.Generates a new GUID and sets it as the unique ID \(sys\_id\) for the current record.Generates a new GUID and sets it as the unique ID for the current record, when inserting a new record.Stops a GlideRecord query from running a COUNT\(\*\) query.Enables or disables using the reference field's display name when querying a reference field.Disables or enables the running of any engines \(approval rules / assignment rules\).Sets the specified field, or an attribute in a dynamic attribute store, to a specified value.Enables or disables running business rules that might normally be triggered by subsequent actions.Updates the GlideRecord with any changes that have been made. If the record does not exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideRecordAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 95
+last_updated: "2026-09-10"
+reading_time_minutes: 115
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -20,13 +20,13 @@ The GlideRecord API is the primary means of interfacing with the database on the
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/p_GlideServerAPIs.md).
+For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Enforcing ACLs with GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
-For information about GlideRecordSecure, which is a class inherited from GlideRecord that performs the same functions as GlideRecord and also enforces ACLs, see the [GlideServer APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/p_GlideServerAPIs.md).
+For information about GlideRecordSecure, which is a class inherited from GlideRecord that performs the same functions as GlideRecord and also enforces ACLs, see [Enforcing ACLs with GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -142,6 +142,8 @@ Adds an encoded query to other queries that may have been set.
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
 You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+**Note:** To enforce query access based on the user, use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
 
 <table id="table_j3p_mlp_dt" class="parameters"><thead><tr><th>
 
@@ -312,6 +314,632 @@ Output:
 *** Script: 2
 *** Script: 1
 *** Script: 1
+```
+
+## GlideRecord - addSystemEncodedQuery\(String query\)
+
+Adds a query using an encoded query string. Use this method to bypass query access.
+
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) to enforce query access.
+
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to return the number value of the first 12 incidents with a priority value of 1 or 2.
+
+```
+var queryString = "priority=1^ORpriority=2";
+var now_GR = new GlideRecord('incident');
+now_GR.addSystemEncodedQuery(queryString);
+
+now_GR.setLimit(12);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('number'));
+}
+```
+
+Output:
+
+```
+*** Script: INC0002318
+*** Script: INC0000144
+*** Script: INC0006927
+*** Script: INC0003577
+*** Script: INC0006928
+*** Script: INC0000135
+*** Script: INC0005637
+*** Script: INC0003196
+*** Script: INC0002647
+*** Script: INC0004074
+*** Script: INC0003444
+*** Script: INC0001694
+```
+
+## GlideRecord - addSystemOrderBy\(String name\)
+
+Specifies an orderBy column. Use this method to bypass query access.
+
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) to enforce query access.
+
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in this GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in ascending order by Short Description.
+
+```
+var queryString = "priority=1";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addSystemOrderBy('short_description'); // Ascending Order
+now_GR.addSystemEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Access token revoked
+*** Script: Access token revoked
+*** Script: Account locked, pls reset my password for Linkedin Sales Navigator
+*** Script: Active Directory (AD) synchronization error
+*** Script: Adobe Photoshop & Digital Publishing Instance is down
+*** Script: Application response time is poor when performing any action in ADP Payroll S...
+```
+
+## GlideRecord - addSystemOrderByDesc\(String name\)
+
+Specifies a descending orderBy column. Use this method to bypass query access.
+
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) to enforce query access.
+
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in a GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in descending order by Short Description.
+
+```
+var queryString = "priority=2";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addSystemOrderByDesc('short_description'); //Descending Order
+now_GR.addSystemEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Xignite U.S. and Global Real Time Quotes upgrade to the latest version
+*** Script: Xignite Company, Market and Industry News Headlines upgrade to the latest ver...
+*** Script: Workday Talent Management Instance relocation from US datacenter to Hongkong ...
+*** Script: Warning displayed while launching Tableau Server
+*** Script: Warning displayed while launching SAP Financial Accounting
+*** Script: Warning displayed while launching Jive Daily
+```
+
+## GlideRecord - addSystemQuery\(String name, Object operator, Object value\)
+
+Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.
+
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) to enforce query access.
+
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+<table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Table field name.
+
+</td></tr><tr><td>
+
+operator
+
+</td><td>
+
+Object
+
+</td><td>
+
+Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   NOT IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOES NOT CONTAIN
+-   INSTANCEOF
+
+**Note:** Use CONTAINS instead of the LIKE operator.
+
+Dynamic schema operators:
+
+-   =
+-   !=
+-   &lt;
+-   &gt;
+-   &lt;=
+-   &gt;=
+-   BETWEEN
+-   CONTAINS
+-   DOES\_NOT\_CONTAIN
+-   ENDSWITH
+-   GT\_FIELD
+-   GT\_OR\_EQUALS\_FIELD
+-   IN
+-   ISEMPTY
+-   ISNOTEMPTY
+-   IS\_NOT\_NULL
+-   IS\_NULL
+-   LIKE
+-   LT\_FIELD
+-   LT\_OR\_EQUALS\_FIELD
+-   MATCHES
+-   NOT\_IN
+-   NOT\_LIKE
+-   NOT\_MATCHES
+-   NSAMEAS
+-   SAMEAS
+-   STARTSWITH
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)|The query condition that was added to the GlideRecord.|
+
+The following example shows how to explicitly return all active users named Fred.
+
+```
+var rec = new GlideRecord('sys_user');
+rec.addSystemQuery("first_name", "=", "Fred");
+rec.query();
+
+while (rec.next()) {
+  gs.info('Active user ' + rec.getValue('last_name'));
+}
+```
+
+Output:
+
+```
+Active user Luddy
+Active user Kunde
+```
+
+## GlideRecord - addUserEncodedQuery\(String query\)
+
+Adds a query using an encoded query string. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to return the number value of the first 12 incidents with a priority value of 1 or 2.
+
+```
+var queryString = "priority=1^ORpriority=2";
+var now_GR = new GlideRecord('incident');
+now_GR.addUserEncodedQuery(queryString);
+
+now_GR.setLimit(12);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('number'));
+}
+```
+
+Output:
+
+```
+*** Script: INC0002318
+*** Script: INC0000144
+*** Script: INC0006927
+*** Script: INC0003577
+*** Script: INC0006928
+*** Script: INC0000135
+*** Script: INC0005637
+*** Script: INC0003196
+*** Script: INC0002647
+*** Script: INC0004074
+*** Script: INC0003444
+*** Script: INC0001694
+```
+
+## GlideRecord - addUserOrderBy\(String name\)
+
+Specifies an orderBy column. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in this GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in ascending order by Short Description.
+
+```
+var queryString = "priority=1";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addUserOrderBy('short_description'); // Ascending Order
+now_GR.addUserEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Access token revoked
+*** Script: Access token revoked
+*** Script: Account locked, pls reset my password for Linkedin Sales Navigator
+*** Script: Active Directory (AD) synchronization error
+*** Script: Adobe Photoshop & Digital Publishing Instance is down
+*** Script: Application response time is poor when performing any action in ADP Payroll S...
+```
+
+## GlideRecord - addUserOrderByDesc\(String name\)
+
+Specifies a descending orderBy column. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [orderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in a GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in descending order by Short Description.
+
+```
+var queryString = "priority=2";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addUserOrderByDesc('short_description'); //Descending Order
+now_GR.addUserEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Xignite U.S. and Global Real Time Quotes upgrade to the latest version
+*** Script: Xignite Company, Market and Industry News Headlines upgrade to the latest ver...
+*** Script: Workday Talent Management Instance relocation from US datacenter to Hongkong ...
+*** Script: Warning displayed while launching Tableau Server
+*** Script: Warning displayed while launching SAP Financial Accounting
+*** Script: Warning displayed while launching Jive Daily
+```
+
+## GlideRecord - addUserQuery\(String name, Object operator, Object value\)
+
+Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+<table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Table field name.
+
+</td></tr><tr><td>
+
+operator
+
+</td><td>
+
+Object
+
+</td><td>
+
+Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   NOT IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOES NOT CONTAIN
+-   INSTANCEOF
+
+**Note:** Use CONTAINS instead of the LIKE operator.
+
+Dynamic schema operators:
+
+-   =
+-   !=
+-   &lt;
+-   &gt;
+-   &lt;=
+-   &gt;=
+-   BETWEEN
+-   CONTAINS
+-   DOES\_NOT\_CONTAIN
+-   ENDSWITH
+-   GT\_FIELD
+-   GT\_OR\_EQUALS\_FIELD
+-   IN
+-   ISEMPTY
+-   ISNOTEMPTY
+-   IS\_NOT\_NULL
+-   IS\_NULL
+-   LIKE
+-   LT\_FIELD
+-   LT\_OR\_EQUALS\_FIELD
+-   MATCHES
+-   NOT\_IN
+-   NOT\_LIKE
+-   NOT\_MATCHES
+-   NSAMEAS
+-   SAMEAS
+-   STARTSWITH
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionAPI.md)|The query condition that was added to the GlideRecord.|
+
+The following shows how to return only users named Fred that the current user has permission to see.
+
+```
+var rec = new GlideRecord('sys_user');
+rec.addUserQuery("first_name", "=", "Fred");
+rec.query();
+
+while (rec.next()) {
+  gs.info('Active user ' + rec.getValue('last_name'));
+}
+```
+
+Output:
+
+```
+Active user Luddy
+Active user Kunde
 ```
 
 ## GlideRecord - addInactiveQuery\(\)
@@ -523,6 +1151,8 @@ Always test queries on a sub-production instance prior to deploying them on a pr
 
 You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
 
+**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
 <table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
 
 Name
@@ -545,19 +1175,15 @@ String
 
 </td><td>
 
-Table field name or path to an attribute within a dynamic attribute store element.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Table field name or path to an attribute within a dynamic attribute store element.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -664,14 +1290,14 @@ while(que.next()) {
 }
 ```
 
-The following example shows how to call this method for using attributes in a dynamic attribute store.
+The following example shows how to call this method using attributes in a dynamic attribute store.
 
 ```
 var gr_Inc = new GlideRecord('incident');
-gr_Inc.addQuery('inc_dynamic_schema->cars->avg_mpg', 'GT_FIELD', 'inc_dynamic_schema2->cars->avg_mpg'); 
+gr_Inc.addQuery('inc_dynamic_schema->avg_mpg', 'GT_FIELD', 'inc_dynamic_schema2->avg_mpg'); 
 gr_Inc.query();
 while(gr_Inc.next()) {
-    gs.info(gr_Inc.number + " Gas Mileage 1: " + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema->cars->avg_mpg') +  " GT_FIELD Gas Mileage 2 :" + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema2->cars->avg_mpg'));
+    gs.info(gr_Inc.number + " Gas Mileage 1: " + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema->avg_mpg') +  " GT_FIELD Gas Mileage 2 :" + gr_Inc.getDynamicAttributeValue('inc_dynamic_schema2->avg_mpg'));
 }
 ```
 
@@ -1538,7 +2164,7 @@ The display value that is returned is dependent on the field type.
 -   Encrypted text: The database value is encrypted, while the displayed value is unencrypted based on the user's encryption context.
 -   Reference fields: The database value is sys\_id, but the display value is the display field of the referenced record.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 <table id="table_kps_f2r_dt" class="parameters"><thead><tr><th>
 
@@ -1564,17 +2190,15 @@ String
 
 Optional. Only required when requesting the display value for a dynamic attribute. Path to an attribute within a dynamic schema to retrieve.
 
-Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1599,13 +2223,13 @@ This example shows how to retrieve the display value of an attribute within a dy
 
 ```
 var gr_AppTab = new GlideRecord('application_table'); 
-gr_AppTab.setValue('dyn_att_field->group->attr', 42); 
-gr_AppTab.setDisplayValue('dyn_att_field->group->attr2, true);
+gr_AppTab.setValue('dyn_att_field->attr', 42); 
+gr_AppTab.setDisplayValue('dyn_att_field->attr2, true);
 gr_AppTab.update();
 gs.info('Attr value: ' + 
-gr_AppTab.getDisplayValue('dyn_att_field->group->attr);
+gr_AppTab.getDisplayValue('dyn_att_field->attr);
 gs.info('Attr2 value: ' + 
-gr_AppTab.getDisplayValue('dyn_att_field->group->attr2);
+gr_AppTab.getDisplayValue('dyn_att_field->attr2);
 ```
 
 Output:
@@ -1623,7 +2247,13 @@ To use the getDisplayValue\(\) method in a scoped application, use the correspon
 
 Returns the GlideElementDynamicAttribute object for the specified dynamic attribute store path.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_rgk_h1x_1bc" class="parameters"><thead><tr><th>
 
@@ -1647,17 +2277,15 @@ String
 
 </td><td>
 
-Path to use to locate the desired dynamic attribute. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the desired dynamic attribute. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_sgk_h1x_1bc" class="returns"><thead><tr><th>
@@ -1682,12 +2310,12 @@ GlideElementDynamicAttribute object containing the specified dynamic attribute.I
 ```
 var gr_Inc = new GlideRecord('incident');
 gr_Inc.get('number', 'INC0009009');
-gr_Inc.getDynamicAttribute('attr_store->car->color').setValue('Blue');
+gr_Inc.getDynamicAttribute('attr_store->color').setValue('Blue');
 gr_Inc.update();
 
 gr_Inc = new GlideRecord('incident');
 gr_Inc.get('number', 'INC0009009');
-gs.info(gr_Inc.getDynamicAttribute('attr_store', 'car->color'));
+gs.info(gr_Inc.getDynamicAttribute('attr_store', 'color'));
 ```
 
 Output:
@@ -1696,9 +2324,17 @@ Output:
 *** Script: Blue
 ```
 
-## GlideRecord - getDynamicAttribute\(String dynamicAttributeField, String groupAttrPath\)
+## GlideRecord - getDynamicAttribute\(String dynamicAttributeField, String attrPath\)
 
 Returns a GlideElementDynamicAttribute object that contains the dynamic attribute located at the specified table field and attribute path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_yzz_p1x_1bc" class="parameters"><thead><tr><th>
 
@@ -1726,7 +2362,7 @@ Name of the field in the table that contains the dynamic attribute.
 
 </td></tr><tr><td>
 
-groupAttrPath
+attrPath
 
 </td><td>
 
@@ -1734,18 +2370,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr></tbody>
 </table><table id="table_zzz_p1x_1bc" class="returns"><thead><tr><th>
@@ -1762,7 +2391,7 @@ Object
 
 </td><td>
 
-GlideElementDynamicAttribute object containing the specified dynamic attribute.If either the **dynamicAttributeField** or **groupAttrPath** parameters are invalid, returns null.
+GlideElementDynamicAttribute object containing the specified dynamic attribute.If either the **dynamicAttributeField** or **attrPath** parameters are invalid, returns null.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
@@ -1770,12 +2399,12 @@ GlideElementDynamicAttribute object containing the specified dynamic attribute.I
 ```
 var gr_Inc = new GlideRecord('incident');
 gr_Inc.get('number', 'INC0009009');
-gr_Inc.getDynamicAttribute('attr_store->car->color').setValue('Blue');
+gr_Inc.getDynamicAttribute('attr_store', 'color').setValue('Blue');
 gr_Inc.update();
 
 gr_Inc = new GlideRecord('incident');
 gr_Inc.get('number', 'INC0009009');
-gs.info(gr_Inc.getDynamicAttribute('attr_store', 'car->color'));
+gs.info(gr_Inc.getDynamicAttribute('attr_store', 'color'));
 ```
 
 Output:
@@ -1787,6 +2416,14 @@ Output:
 ## GlideRecord - getDynamicAttributeValue\(String fullPath\)
 
 Returns the value of the dynamic attribute located at a specified path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_oh3_x1x_1bc" class="parameters"><thead><tr><th>
 
@@ -1810,17 +2447,15 @@ String
 
 </td><td>
 
-Path to use to locate the desired dynamic attribute. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the desired dynamic attribute. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_ph3_x1x_1bc" class="returns"><thead><tr><th>
@@ -1843,17 +2478,17 @@ Value of the dynamic attribute located at the specified path.If the **fullPath**
 </table>The following code example shows how to call this method.
 
 ```
-// Update the value of the attribute 'attribute_store->car->time_of_purchase' incident `INC0009009` to a timestamp (in UTC)
+// Update the value of the attribute 'attribute_store->time_of_purchase' incident 'INC0009009' to a timestamp (in UTC)
 var gr1 = new GlideRecord('incident');
 gr1.get('number', 'INC0009009');
-gr1.setDynamicAttributeValue('attribute_store->car->time_of_purchase', '2020-05-13 13:52:44');
+gr1.setDynamicAttributeValue('attribute_store->time_of_purchase', '2020-05-13 13:52:44');
 gr1.update();
 
 // Then retrieve the value of the attribute on the same record
 var gr2 = new GlideRecord('incident');
 gr2.get('number', 'INC0009009');
-gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store->car->time_of_purchase'));
-gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store->car->time_of_purchase'));
+gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store->time_of_purchase'));
+gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store->time_of_purchase'));
 ```
 
 Output:
@@ -1863,9 +2498,17 @@ Output:
 *** Script: Time of Purchase DisplayValue (PST): 2020-05-13 06:52:44
 ```
 
-## GlideRecord - getDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath\)
+## GlideRecord - getDynamicAttributeValue\(String dynamicAttributeField, String attrPath\)
 
 Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_n1f_fbx_1bc" class="parameters"><thead><tr><th>
 
@@ -1893,7 +2536,7 @@ Name of the field in the table that contains the dynamic attribute.
 
 </td></tr><tr><td>
 
-groupAttrPath
+attrPath
 
 </td><td>
 
@@ -1901,18 +2544,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr></tbody>
 </table><table id="table_o1f_fbx_1bc" class="returns"><thead><tr><th>
@@ -1929,23 +2565,23 @@ Object
 
 </td><td>
 
-Value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **groupAttrPath** parameters are invalid, returns null.
+Value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **attrPath** parameters are invalid, returns null.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
 
 ```
-// Update the value of the attribute 'attribute_store->car->time_of_purchase' incident `INC0009009` to a timestamp (in UTC)
+// Update the value of the attribute 'attribute_store->time_of_purchase' incident `INC0009009` to a timestamp (in UTC)
 var gr1 = new GlideRecord('incident');
 gr1.get('number', 'INC0009009');
-gr1.setDynamicAttributeValue('attribute_store', 'car->time_of_purchase', '2020-05-13 13:52:44');
+gr1.setDynamicAttributeValue('attribute_store', 'time_of_purchase', '2020-05-13 13:52:44');
 gr1.update();
 
 // Then retrieve the value of the attribute on the same record
 var gr2 = new GlideRecord('incident');
 gr2.get('number', 'INC0009009');
-gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store', 'car->time_of_purchase'));
-gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store', 'car->time_of_purchase'));
+gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store', 'time_of_purchase'));
+gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store', 'time_of_purchase'));
 ```
 
 Output:
@@ -1958,6 +2594,14 @@ Output:
 ## GlideRecord - getDynamicAttributeDisplayValue\(String fullPath\)
 
 Returns the display value of the dynamic attribute located at the specified path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_nht_nbx_1bc" class="parameters"><thead><tr><th>
 
@@ -1981,17 +2625,15 @@ String
 
 </td><td>
 
-Path to use to locate the desired dynamic attribute. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the desired dynamic attribute. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_oht_nbx_1bc" class="returns"><thead><tr><th>
@@ -2014,29 +2656,37 @@ Display value of the dynamic attribute located at the specified path.If the **fu
 </table>The following code example shows how to call this method.
 
 ```
-// Update the value of the attribute 'attribute_store->car->time_of_purchase' incident `INC0009009` to a timestamp (in UTC)
+// Update the value of the attribute 'attribute_store->time_of_purchase' incident INC0009009 to a timestamp (in UTC)
 var gr1 = new GlideRecord('incident');
 gr1.get('number', 'INC0009009');
-gr1.setDynamicAttributeValue('attribute_store->car->time_of_purchase', '2020-05-13 13:52:44');
+gr1.setDynamicAttributeValue('attribute_store->time_of_purchase', '2020-05-13 13:52:44');
 gr1.update();
 
 // Then retrieve the value of the attribute on the same record
 var gr2 = new GlideRecord('incident');
 gr2.get('number', 'INC0009009');
-gs.info("Time of Purcahse Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store->car->time_of_purchase'));
-gs.info("Time of Purcahse DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store->car->time_of_purchase'));
+gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store->time_of_purchase'));
+gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store->time_of_purchase'));
 ```
 
 Output:
 
 ```
-*** Script: Time of Purcahse Value        (UTC): 2020-05-13 13:52:44
-*** Script: Time of Purcahse DisplayValue (PST): 2020-05-13 06:52:44
+*** Script: Time of Purchase Value        (UTC): 2020-05-13 13:52:44
+*** Script: Time of Purchase DisplayValue (PST): 2020-05-13 06:52:44
 ```
 
-## GlideRecord - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath\)
+## GlideRecord - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String attrPath\)
 
 Returns the display value of the dynamic attribute located in a specified table field and attribute path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_vm3_wbx_1bc" class="parameters"><thead><tr><th>
 
@@ -2064,7 +2714,7 @@ Name of the field in the table that contains the dynamic attribute.
 
 </td></tr><tr><td>
 
-groupAttrPath
+attrPath
 
 </td><td>
 
@@ -2072,18 +2722,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr></tbody>
 </table><table id="table_wm3_wbx_1bc" class="returns"><thead><tr><th>
@@ -2100,23 +2743,23 @@ String
 
 </td><td>
 
-Display value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **groupAttrPath** parameters are invalid, returns null.
+Display value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **attrPath** parameters are invalid, returns null.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
 
 ```
-// Update the value of the attribute 'attribute_store->car->time_of_purchase' incident `INC0009009` to a timestamp (in UTC)
+// Update the value of the attribute 'attribute_store->time_of_purchase' incident INC0009009 to a timestamp (in UTC)
 var gr1 = new GlideRecord('incident');
 gr1.get('number', 'INC0009009');
-gr1.setDynamicAttributeValue('attribute_store', 'car->time_of_purchase', '2020-05-13 13:52:44');
+gr1.setDynamicAttributeValue('attribute_store', 'time_of_purchase', '2020-05-13 13:52:44');
 gr1.update();
 
 // Then retrieve the value of the attribute on the same record
 var gr2 = new GlideRecord('incident');
 gr2.get('number', 'INC0009009');
-gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store', 'car->time_of_purchase'));
-gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store', 'car->time_of_purchase'));
+gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store', 'time_of_purchase'));
+gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store', 'time_of_purchase'));
 ```
 
 Output:
@@ -2761,9 +3404,9 @@ gs.info(uniqueid);
 
 Retrieves the string value of a specified field or the string value of an attribute in a dynamic attribute store.
 
-**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method returns clear text values from encrypted fields. If the instance does not have access to the key, this method returns the encrypted value. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/now-platform-encryption.md).
+**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method returns clear text values from encrypted fields. If the instance does not have access to the key, this method returns the encrypted value. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-landing.md).
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 <table id="table_ev2_flr_dt" class="parameters"><thead><tr><th>
 
@@ -2787,17 +3430,15 @@ String
 
 </td><td>
 
-The name of the field whose value you want to retrieve or the path to an attribute within a dynamic attribute store to retrieve.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+The name of the field whose value you want to retrieve or the path to an attribute within a dynamic attribute store to retrieve.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_fv2_flr_dt" class="returns"><thead><tr><th>
@@ -2846,16 +3487,16 @@ function() {
 This example shows how to retrieve the value of a dynamic attribute.
 
 ```
-// Update the value of the attribute 'attribute_store->car->color' to 'Red' on incident `INC0009009`
+// Update the value of the attribute 'attribute_store->color' to 'Red' on incident INC0009009
 var gr1 = new GlideRecord('incident');
 gr1.get('number', 'INC0009009');
-gr1.setDynamicAttributeValue('attribute_store->car->color', 'Red');
+gr1.setDynamicAttributeValue('attribute_store->color', 'Red');
 gr1.update();
 
 // Then retrieve the value of the attribute on the same record
 var gr2 = new GlideRecord('incident');
 gr2.get('number', 'INC0009009');
-gs.info(gr2.getValue('attribute_store->car->color'));
+gs.info(gr2.getValue('attribute_store->color'));
 ```
 
 Output:
@@ -3316,7 +3957,7 @@ Determines if an operation is insert, update, or delete.
 
 Knowing the operation enables using current.operation\(\) to make a generic business rule which can handle each operation uniquely.
 
-For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/business-rules-classic/c_BusinessRules.md).
+For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/business-rules-classic/c_UsingPredefinedGlobalVariables.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -3381,6 +4022,8 @@ To use the operation\(\) method in a scoped application, use the corresponding s
 
 Specifies a field name, or path to an attribute within a dynamic attribute store, to use to order the query set. To order by multiple fields, call this method multiple times with different field values.
 
+**Note:** To enforce query access based on the user, use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
 <table id="table_rr5_fsq_dt" class="parameters"><thead><tr><th>
 
 Name
@@ -3403,19 +4046,15 @@ String
 
 </td><td>
 
-Table field name, or path to an attribute within a dynamic attribute store, on which to order the query set.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Table field name, or path to an attribute within a dynamic attribute store, on which to order the query set.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -3445,11 +4084,11 @@ This example shows how to order the query set by an attribute within a dynamic a
 
 ```
 var gr_Inc = new GlideRecord('incident');
-gr_Inc.orderBy('attribute_store->caller_id->first_name');
+gr_Inc.orderBy('attribute_store->first_name');
 gr_Inc.query();
 
 while(gr_Inc.next()) {
-  gs.info("first_name: " + gr_Inc.getValue('attribute_store->caller_id->first_name'));
+  gs.info("first_name: " + gr_Inc.getValue('attribute_store->first_name'));
 }
 ```
 
@@ -3475,6 +4114,8 @@ To use the orderBy\(\) method in a scoped application, use the corresponding sco
 
 Specifies the field, or an attribute in a dynamic attribute store, to use to order the query set in descending order.
 
+**Note:** To enforce query access based on the user, use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md).
+
 <table id="table_yht_ysq_dt" class="parameters"><thead><tr><th>
 
 Name
@@ -3497,19 +4138,15 @@ String
 
 </td><td>
 
-Table field name, or path to an attribute within a dynamic attribute store, on which to order the query set in descending order.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Table field name, or path to an attribute within a dynamic attribute store, on which to order the query set in descending order.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -3538,11 +4175,11 @@ This example shows how to order the query set by an attribute within a dynamic a
 
 ```
 var gr_Inc = new GlideRecord('incident');
-gr_Inc.orderByDesc('attribute_store->caller_id->first_name');
+gr_Inc.orderByDesc('attribute_store->first_name');
 gr_Inc.query();
 
 while(gr_Inc.next()) {
-  gs.info("first_name: " + gr_Inc.getValue('attribute_store->caller_id->first_name'));
+  gs.info("first_name: " + gr_Inc.getValue('attribute_store->first_name'));
 }
 ```
 
@@ -3899,6 +4536,57 @@ if ((!current.u_date1.nil()) && (!current.u_date2.nil())) {
 
 To use the setAbortAction\(\) method in a scoped application, use the corresponding scoped method: [setAbortAction\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
+## GlideRecord - setCategory\(String category\)
+
+Sets the query category, which determines how the query is routed to a secondary database.
+
+This method requires the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. Call this method to route queries to a secondary \(read replica\) database based on the specified category, reducing load on the primary database. Due to replication lag, execution of a query on a read replica database may return slightly out of date results compared to executing the same query on the primary database.
+
+Modifications to data are always serviced by the primary database, even if setCategory\(\) is used in the query. For example, a call to GlideRecord.update\(\) is always directed to the primary database even if the GlideRecord object has been provided with the name of a secondary database category via setCategory\(\).
+
+For more information, see [KB0824441 Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441).
+
+<table id="table_bns_y1r_cjc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+category
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the category to use to route the query to a secondary database.Table: Secondary Database Categories \[sys\_db\_category\]
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example uses the `embedded_list` category to route the query to a secondary database.
+
+```
+var gr = new GlideRecord('task');
+gr.setCategory('embedded_list');
+gr.query();
+```
+
+### Scoped equivalent
+
+To use the setCategory\(\) method in a scoped application, use the corresponding scoped method: [setCategory\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
 ## GlideRecord - setDisplayValue\(String name, Object value\)
 
 Sets a specified field, or an attribute in a dynamic attribute store, to a specified display value.
@@ -3925,19 +4613,19 @@ name
 
 String
 
-</td><td id="DynS-name-entry">
+</td><td>
 
-Name of the field whose value you want to set or the path to an attribute within a dynamic attribute store.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Name of the field on which to set the value.To set an attribute within a dynamic attribute store, provide the attribute path.
+
+Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -3977,18 +4665,26 @@ The following code example shows how to set a display value in a dynamic attribu
 
 ```
 var gr_AppTab = new GlideRecord('application_table'); 
-gr_AppTab.setValue('dyn_att_field->group->attr', 42); 
-gr_AppTab.setDisplayValue('dyn_att_field->group->attr2, true);
+gr_AppTab.setValue('dyn_att_field->attr', 42); 
+gr_AppTab.setDisplayValue('dyn_att_field->attr2, true);
 gr_AppTab.update();
 gs.info('Attr value: ' + 
-gr_AppTab.getDisplayValue('dyn_att_field->group->attr);
+gr_AppTab.getDisplayValue('dyn_att_field->attr);
 gs.info('Attr2 value: ' + 
-gr_AppTab.getDisplayValue('dyn_att_field->group->attr2);
+gr_AppTab.getDisplayValue('dyn_att_field->attr2);
 ```
 
 ## GlideRecord - setDynamicAttributeValue\(String fullPath, Object value\)
 
 Sets the value of the dynamic attribute located at a specified path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_ynk_tdx_1bc" class="parameters"><thead><tr><th>
 
@@ -4012,17 +4708,15 @@ String
 
 </td><td>
 
-Path to use to locate the desired dynamic attribute. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the desired dynamic attribute. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -4069,22 +4763,28 @@ Flag that indicates whether the dynamic attribute was successfully updated.Possi
 
 ```
 var gr_Inc = new GlideRecord('incident');
-gr_Inc.setValue('inc_dynamic_groups', '78db044fc4b44210f8770961513dd7fe'); //Sysid of cars dimensions group
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->color","black");
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->make","Honda");
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->model","CRV");
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->luxury",false);
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->cost",20000);
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->avg_mpg",28.4);
-gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cars->date_purchased", new GlideDateTime());
-gr_Inc.setValue("inc_dynamic_schema->cars->total_miles", 10000.12345);
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->color","black");
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->make","Honda");
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->model","CRV");
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->luxury",false);
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->cost",20000);
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->avg_mpg",28.4);
+gr_Inc.setDynamicAttributeValue("inc_dynamic_schema->date_purchased", new GlideDateTime());
+gr_Inc.setDynamicAttributeValue("u_attributes->total_miles", 120000.12345);
 gr_Inc.insert();
-
 ```
 
-## GlideRecord - setDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath, Object value\)
+## GlideRecord - setDynamicAttributeValue\(String dynamicAttributeField, String attrPath, Object value\)
 
 Sets the value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_l12_f2x_1bc" class="parameters"><thead><tr><th>
 
@@ -4120,18 +4820,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr><tr><td>
 
@@ -4171,23 +4864,23 @@ Boolean
 Flag that indicates whether the dynamic attribute was successfully updated.Possible values:
 
 -   true: Dynamic attribute was successfully updated.
--   false: Error occurred. Dynamic attribute wasn't updated. Verify that the **dynamicAttributeField** and **groupAttrPath** parameters contain valid data.
+-   false: Error occurred. Dynamic attribute wasn't updated. Verify that the **dynamicAttributeField** and **attrPath** parameters contain valid data.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
 
 ```
-// Update the value of the attribute 'attribute_store->car->time_of_purchase' incident `INC0009009` to a timestamp (in UTC)
+// Update the value of the attribute 'attribute_store->time_of_purchase' incident INC0009009 to a timestamp (in UTC)
 var gr1 = new GlideRecord('incident');
 gr1.get('number', 'INC0009009');
-gr1.setDynamicAttributeValue('attribute_store', 'car->time_of_purchase', '2020-05-13 13:52:44');
+gr1.setDynamicAttributeValue('attribute_store', 'time_of_purchase', '2020-05-13 13:52:44');
 gr1.update();
 
 // Then retrieve the value of the attribute on the same record
 var gr2 = new GlideRecord('incident');
 gr2.get('number', 'INC0009009');
-gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store', 'car->time_of_purchase'));
-gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store', 'car->time_of_purchase'));
+gs.info("Time of Purchase Value        (UTC): " + gr2.getDynamicAttributeValue('attribute_store', 'time_of_purchase'));
+gs.info("Time of Purchase DisplayValue (PST): " + gr2.getDynamicAttributeDisplayValue('attribute_store', 'time_of_purchase'));
 ```
 
 Output:
@@ -4200,6 +4893,14 @@ Output:
 ## GlideRecord - setDynamicAttributeDisplayValue\(String fullPath, Object value\)
 
 Sets the display value of the dynamic attribute located at a specified path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_g4h_s2x_1bc" class="parameters"><thead><tr><th>
 
@@ -4223,17 +4924,15 @@ String
 
 </td><td>
 
-Path to use to locate the dynamic attribute whose display value you want to update. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the dynamic attribute whose display value you want to update. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -4282,12 +4981,20 @@ Flag that indicates whether the display value of the dynamic attribute was succe
 var grProdTab = new GlideRecord('products_table');
 grProdTab.query();
 grProdTab.next();
-var val = grProdTab.setDynamicAttributeDisplayValue('product_details->cars->date_purchased', '2023-03-31 08:54:26');
+var val = grProdTab.setDynamicAttributeDisplayValue('product_details->date_purchased', '2023-03-31 08:54:26');
 ```
 
-## GlideRecord - setDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath, Object value\)
+## GlideRecord - setDynamicAttributeDisplayValue\(String dynamicAttributeField, String attrPath, Object value\)
 
 Sets the display value of the dynamic attribute located in a specified field of the current GlideRecord and a specified attribute path.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_l1k_1fx_1bc" class="parameters"><thead><tr><th>
 
@@ -4315,7 +5022,7 @@ Name of the field in the table that contains the dynamic attribute.
 
 </td></tr><tr><td>
 
-groupAttrPath
+attrPath
 
 </td><td>
 
@@ -4323,18 +5030,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr><tr><td>
 
@@ -4374,7 +5074,7 @@ Boolean
 Flag that indicates whether the display value of the dynamic attribute was successfully updated.Possible values:
 
 -   true: Display value of the dynamic attribute was successfully updated.
--   false: Error occurred. Display value of the dynamic attribute wasn't updated. Verify that the **dynamicAttributeField** and **groupAttrPath** parameters contain valid data.
+-   false: Error occurred. Display value of the dynamic attribute wasn't updated. Verify that the **dynamicAttributeField** and **attrPath** parameters contain valid data.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
@@ -4383,14 +5083,22 @@ Flag that indicates whether the display value of the dynamic attribute was succe
 var grProdTab = new GlideRecord('products_table');
 grProdTab.query();
 grProdTab.next();
-var val = grProdTab.setDynamicAttributeDisplayValue('product_details', 'cars->date_purchased', '2023-03-31 08:54:26');
+var val = grProdTab.setDynamicAttributeDisplayValue('product_details', 'date_purchased', '2023-03-31 08:54:26');
 ```
 
 ## GlideRecord - setDynamicAttributeValues\(String dynamicAttributeField, GlideDynamicAttributeStore values\)
 
 Sets one or more dynamic attribute values with values specified in the passed GlideDynamicAttributeStore object.
 
-This method only updates the attributes and values passed in as arguments. Attributes and values on the GlideRecord that aren't specified are unaffected by this call. Any invalid groups, attributes, or values are ignored. Check the log messages for possible error information.
+This method only updates the attributes and values passed in as arguments. Attributes and values on the GlideRecord that aren't specified are unaffected by this call. Any invalid attributes or values are ignored. Check the log messages for possible error information.
+
+Dynamic attributes have a defined data type and a sys\_id. For more details on dynamic attributes, see [Dynamic schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also:
+
+-   [GlideDynamicAttribute - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttributeAPI.md)
+-   [GlideDynamicAttributeStore - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicAttStoreAPI.md)
+-   [GlideDynamicNamespace - Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideDynamicNamespaceAPI.md)
 
 <table id="table_r5l_4fx_1bc" class="parameters"><thead><tr><th>
 
@@ -4445,8 +5153,8 @@ The following code example shows how to call this method.
 
 ```
 var das = new GlideDynamicAttributeStore();
-das.setDynamicAttributeValue('group->attribute1', 'Apple');
-das.setDynamicAttributeValue('group->attribute2', 1234);
+das.setDynamicAttributeValue('attribute1', 'Apple');
+das.setDynamicAttributeValue('attribute2', 1234);
 
 var gr_Inc = new GlideRecord('incident');
 gr_Inc.query();
@@ -4802,13 +5510,13 @@ function auditOAuthInboundRequestsUsage(){
 
 Sets the specified field, or an attribute in a dynamic attribute store, to a specified value.
 
-Normally a script would do a direct assignment, for example `now_GR.category = value`. However, if in a script the element name is a variable, then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure that the data type of the field matches the data type of the value you enter.
+Normally a script would do a direct assignment, for example `now_GR.category = value`. However, if in a script the element name is a variable, then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure that the data type of the field matches the data type of the value you enter. For information about the differences between using setValue\(\) and direct assignment, see [Explanation of Assignment Behavior for Reference GlideList Fields \[KB2557324\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2557324) in the Now Support Knowledge Base.
 
 If the value parameter is null, the record isn't updated, and an error isn't thrown.
 
 **Note:** This method can't be used on journal fields. Use [GlideElement.setJournalEntry\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideElementAPI.md) instead.
 
-**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/now-platform-encryption.md).
+**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-landing.md).
 
 -   **Not for authentication with password2 fields**
 
@@ -4844,19 +5552,17 @@ String
 
 </td><td>
 
-Name of the field whose value you want to set or the path to an attribute within a dynamic attribute store.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Name of the field to be set.To set attribute values in dynamic schema, use the path to an attribute within a dynamic attribute store.
+
+Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -4878,6 +5584,8 @@ Value to set in the specified field.**Note:** For a dynamic attribute, only the 
 -   Integer
 -   String
 
+To specify a dynamic category field in dynamic schema, use a reference key with the namespace and category field name instead of a sys\_id. Provide the category column as the name parameter, e.g., `grExample.setValue('cat_column_name', 'namespace_name/cat_name')`. For more information, see .
+
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
@@ -4897,20 +5605,28 @@ function() {
 }
 ```
 
-This example shows how to set the value of a dynamic attribute.
+This example shows how to use this method with dynamic schema. The first usage sets the value of a dynamic category using a reference key to set the value. The second uses an attribute path to set the value of a dynamic attribute called `total_miles`.
 
 ```
-var gr_Inc = new GlideRecord('incident');
-gr_Inc.setValue('inc_dynamic_groups', '78db044fc4b44210f8770961513dd7fe'); //Sysid of cars dimensions group
-gr_Inc.setValue("inc_dynamic_schema->cars->color", "black");
-gr_Inc.setValue("inc_dynamic_schema->cars->make", "Honda"); 
-gr_Inc.setValue("inc_dynamic_schema->cars->model", "CRV");
-gr_Inc.setValue("inc_dynamic_schema->cars->luxury", false); 
-gr_Inc.setValue("inc_dynamic_schema->cars->cost", 25000);
-gr_Inc.setValue("inc_dynamic_schema->cars->avg_mpg", 28.4);
-gr_Inc.setValue("inc_dynamic_schema->cars->date_purchased", new GlideDateTime());
-gr_Inc.setValue("inc_dynamic_schema->cars->total_miles", 10000.12345);
-gr_Inc.insert();
+var used_car = new GlideRecord('u_product');
+
+// Using setValue() to set the dynamic category column to Car
+// u_product/u_attributes is the namespace and u_car is the category
+used_car.setValue('u_attributes_category', 'u_product/u_attributes/u_car');
+
+// Using setDynamicAttributeValue() to set the dynamic attribute value
+used_car.setDynamicAttributeValue("u_attributes->color","green");
+used_car.setDynamicAttributeValue("u_attributes->make","Toyota");
+used_car.setDynamicAttributeValue("u_attributes->model","Rav4");
+used_car.setDynamicAttributeValue("u_attributes->luxury",false);
+used_car.setDynamicAttributeValue("u_attributes->cost",12500);
+used_car.setDynamicAttributeValue("u_attributes->avg_mpg",24.8);
+used_car.setDynamicAttributeValue("u_attributes->date_purchased", new GlideDateTime());
+
+// Using setValue() to set the dynamic attribute value
+used_car.setValue("u_attributes->total_miles", 120000.12345);
+
+used_car.insert();
 ```
 
 ### Scoped equivalent

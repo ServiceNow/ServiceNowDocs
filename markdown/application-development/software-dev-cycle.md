@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/software-dev-cycle.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Programming basics
@@ -18,7 +18,7 @@ Software development usually encompasses a standard set of steps. If you're new 
 
 If you're new to developing applications, if you don't even know how to code, ServiceNow has a low-code development platform called [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-landing.md) that makes creating a basic request-fulfill application possible for you. Development might be new waters for you to swim in but you will find the low-code tools easy to use. So, don't be shy about developing an app!
 
-Software developers do many things but what they have in common is solving problems using computer code. ServiceNow offers coding platforms that require no coding experience, platform development coding experience, and expert coding experience. The less coding required, the more work the coding platform does for you. So, even experienced software developers will appreciate no-, low-, and platform-level coding products, such as [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-landing.md) and [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md).
+Software developers do many things but what they have in common is solving problems using computer code. ServiceNow offers coding platforms that require no coding experience, mid-level coding experience, and expert coding experience. The less coding required, the more work the coding platform does for you. So, even experienced software developers will appreciate low- and mid-level coding platforms, such as [Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-landing.md) and [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-overview.md).
 
 ## Software development life cycle
 
@@ -59,7 +59,7 @@ The desired output might be a dashboard, data stored in a table, or a piece of e
 
 There are various ways to create an algorithm that produces the output you want. The easiest methodology is to use a flowchart that starts with the input data and shows each step in the process that leads to the output. Using a flowchart enables you to focus on the big picture of what you want to do and avoid how to do it. Look at your flowchart critically to optimize the process.
 
-You may need to get permissions to use tables of data or even permission to create an application. For example, citizen developers are granted app development permissions through [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.md).
+You may need to get permissions to use tables of data or even permission to create an application. For example, citizen developers are granted app development permissions through [App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/managing-app-development-using-aemc.md).
 
 For more information about ServiceNow planning tools, see [Planning your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/planning-applications.md).
 
@@ -68,7 +68,7 @@ For more information about ServiceNow planning tools, see [Planning your applica
 To code the application, you can use:
 
 -   Low-code ServiceNow tools, such as [App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-overview.md).
--   Platform developer ServiceNow tools, such as [ServiceNow Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
+-   Mid-level and pro-code ServiceNow tools, such as [ServiceNow Studio.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 -   Pro-dev source code tools, such as [ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/servicenow-ide-landing.md) and [ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/servicenow-sdk-landing.md).
 
 For more information about ServiceNow coding platforms, see [Developing your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/developing-applications.md).

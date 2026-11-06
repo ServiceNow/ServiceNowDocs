@@ -7,17 +7,17 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-10-25"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Obligation extraction, Configure obligation extraction]
-breadcrumb: [Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure Conversational contract search and insights
 
 Configure Conversational contract search and insights skill to enable searching information in contracts using natural language and dialogue-driven queries, making it easier to find relevant information.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 Complete the following steps to configure Conversational contract search and insights.
 
@@ -29,8 +29,34 @@ Complete the following steps to configure Conversational contract search and ins
 
     Index the data for conversational search.
 
--   **[Verify skill activation and configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-converse-skills-activation.md)**
+-   **[Configure conversational search tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-kg-table.md)**
 
-    Verify that the skills are activated, configurations are complete, and data access permissions are configured for conversational search.
+    Configure Knowledge graph tags to identify which tables should be used for answering natural language questions in conversational search.
 
+-   **[Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md)**
+
+    Set the data access permissions for the agentic workflow- Conversational Contract Search.
+
+-   **[Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md)**
+
+    Set the data access permissions for the Agent- Search contracts AI.
+
+-   **[Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md)**
+
+    Set the data access permissions for the skills- Contracts query enhancer, Contracts query classifier and Search contract with contextual input.
+
+
+## Accessing the Agentic Workflow
+
+If your generative AI service provider isn’t Now LLM Service, verify that the API connections and credentials are configured. For more information, see [Configuring API credentials for generative AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-api-credentials-for-generative-ai-capabilities.md).
+
+1.  Navigate to **All** &gt; **AI Agent Studio** &gt; **Create and manage**.
+2.  Search for **Conversational Contract Search and Insights** and open it.
+
+## AI agents used in Search for Conversational Contract Search and Insights Workflow
+
+|Name|Description|
+|----|-----------|
+|Search contracts AI agent|This agent helps you find and understand legal contracts and documents by giving search results for questions asked in natural language. It works as a conversational search and Q&amp;A tool within the Contract Lifecycle Management system.|
+|Document and visual insights AI agent|This agent helps with tasks related to processing of documents.|
 

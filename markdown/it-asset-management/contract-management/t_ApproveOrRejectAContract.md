@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Send the contract for approval, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Send the contract for approval, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Approve or reject a contract
@@ -43,4 +43,9 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
     -   When a contract with a **State** of **Draft** and a **Start Date** set to a date in the past is approved, the contract **State** is automatically set to **Active** and **Substate** is left blank.
 
 **Parent Topic:**[Send the contract for approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/contract-management/t_SendTheContractForApproval.md)
+
+**Related topics**  
+
+
+[Contract approval flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/contract-management/contract-approval-workflow.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Delegated Development, Delegated Development, Planning your application, Building applications]
+breadcrumb: [Configure, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Assign source control permissions
@@ -35,7 +35,5 @@ Role required: admin
     \[Omitted image "delegated-dev-source-control.png"\] Alt text: Source Control
 
 6.  The delegated developer can now access the Source Control menu options.
-
-    For more information on source control options, see .
 
 

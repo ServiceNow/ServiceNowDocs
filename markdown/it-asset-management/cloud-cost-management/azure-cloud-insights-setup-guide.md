@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Configure Cloud Cost Management for Microsoft Azure
@@ -27,7 +27,7 @@ You must have Microsoft Azure console administrator permissions to work in the M
 
 ## Download and activate Cloud Cost Management
 
-Role required: sys\_admin.
+Role required: sys\_admin
 
 <table id="table_myg_bq3_lfb"><thead><tr><th>
 
@@ -39,11 +39,11 @@ Description
 
 </th><th>
 
-Do this
+Action
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "icon-cloud-download.png"\] Alt text: Little download icon. Get the app.
+\[Omitted image "bus-cloud-download.svg"\] Alt text: Get the app.
 
 </td><td>
 
@@ -55,7 +55,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-\[Omitted image "icon-activate.png"\] Alt text: Little activation image Activate all supporting plugins and applications.
+\[Omitted image "bus-sdlc.svg"\] Alt text: Activate all supporting plugins and applications.
 
 </td><td>
 
@@ -73,21 +73,9 @@ Here's an overview of your set up process. Detailed instructions appear in the t
 
 \[Omitted image "setup-procedure-cloudin.png"\] Alt text: Setup process for the Cloud Cost Management app
 
-When you first open the app, the home page enables you set up a provider and to assign the insights\_owner role.
+Navigate to **Workspaces** &gt; **Cloud Cost Management Workspace** &gt; **Admin**. The Admin page enables you to set up a provider and preferences.
 
-\[Omitted image "cloud\_insights\_home.png"\] Alt text: Initial home page of the Cloud Cost Management app
-
-After you set up a provider and assign the insights\_owner role, the page displays additional setup activities.
-
-**Note:** The Configure and Run Discovery card appears only if you use the Discovery application to discover cloud resources.
-
-\[Omitted image "homepage-second-config.png"\] Alt text: Home page after you set up a provider and assign insights\_owner
-
--   When you select the **Set up and Run Discovery** button in the Configure and Run Discovery section, the Discover Schedules form opens.
--   When you select the **Set up Billing Download** button in the Download Billing and Usage Data section, the Billing Download Jobs form opens.
--   When you select the **Set up Price Sheet Download** button in the Download Price Sheets section, the Price Sheets Download Jobs form opens.
-
-After you finish all configuration, the page will show overview data and give quick access to reports.
+\[Omitted image "cloud\_insights\_home.png"\] Alt text: Admin page of the Cloud Cost Management Workspace
 
 ## Setting up Cloud Cost Management
 
@@ -101,11 +89,11 @@ Description
 
 </th><th>
 
-Do this
+Action
 
 </th></tr></thead><tbody><tr><td>
 
-\[Omitted image "icon-3-persons.png"\] Alt text: Little persons image Assign roles to Cloud Cost Management users and groups.
+\[Omitted image "bus-3-person.svg"\] Alt text: Assign roles to Cloud Cost Management users and groups.
 
 </td><td>
 
@@ -117,7 +105,7 @@ You assign Cloud Cost Management roles to user groups and to individual users ba
 
 </td></tr><tr><td>
 
-\[Omitted image "icon-mid-server.png"\] Alt text: Little servers image Configuring MID Servers to access CI data on provider accounts for Cloud Cost Management.
+\[Omitted image "bus-server.svg"\] Alt text: Configuring MID Servers to access CI data on provider accounts for Cloud Cost Management.
 
 </td><td>
 
@@ -129,13 +117,11 @@ To enable Discovery to communicate with your Microsoft Azure account, you specif
 
 </td></tr><tr><td>
 
-\[Omitted image "icon-discover.png"\] Alt text: Little discovery image Discover your cloud resources.
+\[Omitted image "bus-discover.svg"\] Alt text: Discover your cloud resources.
 
 </td><td>
 
-**Note:** The Configure and Run Discovery card appears only if you use the Discovery application to discover cloud resources.
-
-When you select the **Set up and Run Discovery** button on the Configure and Run Discovery card, the Discover Schedules form opens. You schedule the Discovery process to ensure that the CMDB data on resources remains current.
+You schedule the Discovery process to ensure that the CMDB data on resources remains current.
 
 </td><td>
 
@@ -143,13 +129,11 @@ When you select the **Set up and Run Discovery** button on the Configure and Run
 
 </td></tr><tr><td>
 
-\[Omitted image "icon-checklist-clear.png"\] Alt text: Little checklist image Schedule and manage the jobs that download billing data for Cloud Cost Management
-
-.
+\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Schedule and manage the jobs that download billing data for Cloud Cost Management.
 
 </td><td>
 
-When you select the **Set up Billing Download** button in the Download Billing and Usage Data section, the Billing Download Jobs form opens. Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
+Billing Download jobs download, organize, and store billing data for your payer account on the schedule that you specify. The system analyzes the data to generate reports and to make recommendations for changes in your cloud operations that can lead to cost savings.
 
 </td><td>
 
@@ -157,13 +141,11 @@ When you select the **Set up Billing Download** button in the Download Billing a
 
 </td></tr><tr><td>
 
-\[Omitted image "icon-checklist-clear.png"\] Alt text: Little checklist image Schedule and manage the Cloud Cost Management jobs that download price sheets
-
-.
+\[Omitted image "bus-automated-testing-framework.svg"\] Alt text: Schedule and manage the Cloud Cost Management jobs that download price sheets.
 
 </td><td>
 
-When you select the **Set up Price Sheets Download** button in the Download Price Sheets section, the Price Sheets Download Jobs form opens. A Price Sheet Download job downloads and stores price sheet data. The Rightsizing and Unused resources processes use price sheet data when generating recommendations.
+A Price Sheet Download job downloads and stores price sheet data. The Rightsizing and Unused resources processes use price sheet data when generating recommendations.
 
 </td><td>
 
@@ -171,7 +153,7 @@ When you select the **Set up Price Sheets Download** button in the Download Pric
 
 </td></tr><tr><td>
 
-\[Omitted image "icon-configure-clear.png"\] Alt text: Little wrench image Configure the insights features:
+\[Omitted image "bus-sdlc.svg"\] Alt text: Configure the Cloud Cost Management features:
 
  -   Rightsizing
 -   Unused Machines
@@ -181,9 +163,9 @@ When you select the **Set up Price Sheets Download** button in the Download Pric
 </td><td>
 
 -   The Rightsizing feature analyzes resource usage to recommend better sizes for resources that are wasting money by being over-provisioned or underused. A confidence rating and predicted savings support each recommendation. You schedule Rightsizing jobs to resize the resources you specify.
--   The Unused Machines feature analyzes usage data to identify resources that are wasting money because they are not used. You schedule Unused Machines jobs to power-off or terminate the resources that you specify.
+-   The Unused Machines feature analyzes usage data to identify resources that are wasting money because they aren't used. You schedule Unused Machines jobs to power-off or terminate the resources that you specify.
 -   A Business Hours job applies policies to identify resources that are running when they should be powered off, reports them, and can start and stop them on a schedule that you specify. Running only during specified business hours can significantly reduce your cloud spend.
--   Unassigned Resources policies help you to identify the resources that are not associated with a change group and to assign them appropriately. When a resource is assigned to the correct group, the resource can be appropriately governed even as it goes through stages such as patching, upgrading, and reconfiguring.
+-   Unassigned Resources policies help you to identify the resources that aren't associated with a change group and to assign them appropriately. When a resource is assigned to the correct group, the resource can be appropriately governed even as it goes through stages such as patching, upgrading, and reconfiguring.
 
 </td><td>
 

@@ -1,5 +1,5 @@
 ---
-title: Portfolio Planning in Strategic Planning
+title: Portfolio Planning in Strategic Planning Workspace
 description: Portfolio Planning in Strategic Planning Workspace helps product and portfolio managers align work with strategy across the organization, while facilitating Agile transformation by combining traditional and agile work streams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/planning-in-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Portfolio Planning in Strategic Planning
+# Portfolio Planning in Strategic Planning Workspace
 
 Portfolio Planning in Strategic Planning Workspace helps product and portfolio managers align work with strategy across the organization, while facilitating Agile transformation by combining traditional and agile work streams.
 

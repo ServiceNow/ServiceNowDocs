@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Modify a non-disclosure agreement legal request
@@ -33,15 +33,15 @@ Note the following:
 
 1.  Open an NDA legal request.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d695789e105">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d751590e105">
 
 Method
 
-</th><th align="left" id="d695789e108">
+</th><th align="left" id="d751590e108">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d695789e114">
+</th></tr></thead><tbody><tr><td id="d751590e114">
 
 **__Employee Center__**
 
@@ -51,7 +51,7 @@ Actions
 2.  Select **My Requests** from the header.
 
 
-</td></tr><tr><td id="d695789e144">
+</td></tr><tr><td id="d751590e144">
 
 **__Legal Service Portal__**
 

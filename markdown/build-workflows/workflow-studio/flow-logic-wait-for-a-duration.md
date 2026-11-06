@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Workflow Studio flow logic, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Flow logic, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Wait for a duration flow logic
@@ -130,6 +130,8 @@ The timer waits for the next instance of a selected schedule. For example, if yo
 
 **Related topics**  
 
+
+[Append to Flow Variables flow logic]()
 
 [Assign subflow outputs flow logic]()
 

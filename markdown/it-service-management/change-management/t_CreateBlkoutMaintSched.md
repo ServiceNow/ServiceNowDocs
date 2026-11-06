@@ -7,8 +7,8 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Conflict detection, Configure, Change Management, IT Service Management]
 ---
 
@@ -20,7 +20,7 @@ Use the Blackout and Maintenance windows to schedule a change. Blackout windows 
 
 Role required: itil\_admin or admin
 
-Ensure that the [Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ActivateConflictDetection.md) \(com.snc.change.collision\) plugin is activated.
+The [Change Management - Collision Detector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ActivateConflictDetection.md) plugin \(com.snc.change.collision\) must be active.
 
 ## About this task
 
@@ -28,30 +28,30 @@ Conflict detection uses blackout and maintenance schedules to find potential sch
 
 **Note:** To use the business service as the source for a blackout or maintenance schedule, the business service must be converted to an application service. For instructions, see [Convert business services to application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/convert-bus-to-app-svc-intro.md). For information about application services, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/application-services.md).
 
-Conflict detection evaluates both the parent and child configuration items \(CIs\) of any CI in scope. A blackout or maintenance schedule applied to an upstream service, or CI also captures downstream child CIs that appear in change requests. For the full list of relationships that trigger a conflict, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ConflictDetection.md).
+Conflict detection evaluates both the parent and child configuration items \(CIs\) of any CI in scope. A blackout or maintenance schedule applied to an upstream service or CI also captures downstream child CIs that appear in change requests. For the full list of relationships that trigger a conflict, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ConflictDetection.md).
 
 ## Procedure
 
 1.  Create a blackout or maintenance schedule.
 
-<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d339108e106">
+<table id="choicetable_p11_g2d_3t"><tbody><tr><td id="d205565e112">
 
 **Create a blackout schedule**
 
 </td><td>
 
 1.  Navigate to **Change** &gt; **Schedules** &gt; **Blackout Schedules**.
-2.  Click **New**.
+2.  Select **New**.
 
 
-</td></tr><tr><td id="d339108e139">
+</td></tr><tr><td id="d205565e145">
 
 **Create a maintenance schedule**
 
 </td><td>
 
 1.  Navigate to **Change** &gt; **Schedules** &gt; **Maintenance Schedules**.
-2.  Click **New**.
+2.  Select **New**.
 
 
 </td></tr></tbody>
@@ -79,7 +79,7 @@ Description
 
 </td><td>
 
-Short description about the schedule.
+Short description of the schedule.
 
 </td></tr><tr><td>
 
@@ -122,9 +122,9 @@ Applies to
 
 </td><td>
 
-CI classification that the conflict detection is filtered on. You can select a dynamic CI group so that all the configuration items in that dynamic CI group will be taken into account for blackout and maintenance when conflict detection is run.
+CI classification that the conflict detection is filtered on. You can select a dynamic CI group. When conflict detection runs, all configuration items in that group are evaluated for blackout and maintenance.
 
- The dynamic CI group is seen as the parent CI to all the CIs that are within that group. If there are scheduling conflicts related to any of the CIs in the dynamic group, the conflict will be shown in the conflicts table of the dynamic CI group.
+The dynamic CI group is seen as the parent CI to all the CIs that are within that group. If there are scheduling conflicts related to any of the CIs in the dynamic group, the conflict is shown in the conflicts table of the dynamic CI group.
 
 </td></tr><tr><td>
 
@@ -136,9 +136,33 @@ Conditions to specify the CIs that the schedule applies to.Use this field to sco
 
 This field does not appear when the **Applies to** field is set to **None**.
 
-To exclude specific change
-
  **Note:** Related fields used in conditions are not evaluated for blackout or maintenance schedules.
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+Purpose of the schedule. The available categories depend on the schedule type:-   Blackout schedule: **Hard Freeze** or **Soft Freeze**
+-   Maintenance schedule: **Preventive \(measures to improve resilience\)**, **Patching**, or **General**
+This field is empty by default. The category is stored only after you select a value and save the schedule. When conflict detection generates a conflict record for the schedule, the conflict record includes the category. For descriptions of each category, see [Schedule categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/schedule-categories-reference.md).
+
+</td></tr><tr><td>
+
+Assignment group
+
+</td><td>
+
+Group that owns the schedule.
+
+</td></tr><tr><td>
+
+Assigned to
+
+</td><td>
+
+User who owns the schedule. This field depends on the **Assignment group** field.
 
 </td></tr></tbody>
 </table>3.  Open the form context menu and select **Save**.
@@ -151,7 +175,7 @@ To exclude specific change
 
     Because the Blackout schedule table uses the same Child Schedule and Schedule Entry tables as the Schedule table uses, the domain support is identical. The **domain\_master** attribute is used to derive the domain from a parent record. For more information, see [Domain support for schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-support-for-schedules.md).
 
-4.  Create one or more schedule entries by completing the following steps:
+4.  Create one or more schedule entries.
 
     1.  In the Schedule Entries related list of the new maintenance schedule, select **New**.
 
@@ -159,7 +183,7 @@ To exclude specific change
 
         For more information about the schedule entries field, see [Schedule entry fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_ScheduleEntryFields.md).
 
-    **Note:** To delete a blackout or maintenance schedule, open the schedule and select **Delete**.When you delete a schedule, the child schedules and schedule entries associated with it would be deleted automatically.
+    **Note:** To delete a blackout or maintenance schedule, open the schedule and select **Delete**.When you delete a schedule, the child schedules and schedule entries associated with it would be deleted. When you delete a schedule, the child schedules and schedule entries associated with it are deleted automatically.
 
 5.  **Optional**: Add a child schedule to refine the blackout coverage.
 
@@ -190,7 +214,9 @@ You can review and determine the conflicts in a change schedule by assigning the
 **Related topics**  
 
 
-[Configure conflict analysis properties]()
+[Detect change conflicts]()
+
+[Schedule types in conflict detection]()
 
 [Configure a change request to monitor outside maintenance schedule conflicts]()
 

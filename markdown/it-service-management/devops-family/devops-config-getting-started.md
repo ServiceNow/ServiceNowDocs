@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [DevOps Config, IT Service Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [DevOps Config, IT Service Management]
 Use DevOps Config to store and manage all of your config data as a single source of truth. You can also use DevOps Config to validate your config data before deployment, and resolve conflicts in deployed config data.
 
 **Important:** Starting with the Washington D.C. release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
-
-Watch this short video to see how config data snapshots in DevOps Config can help you identify issues caused by unintended config data changes.
 
 Use root cause analysis of configuration-related outages or alerts to quickly identify and resolve unintended config data changes, also known as configuration "drift." Compare current and past versions of intended config data changes attached to change requests, and roll back to the desired state when needed.
 

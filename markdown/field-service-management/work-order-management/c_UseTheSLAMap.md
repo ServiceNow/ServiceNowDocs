@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Management SLAs, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [SLA for work orders, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Use an SLA map
@@ -21,15 +21,4 @@ The SLA map view allows users with the wm\_admin, wm\_dispatcher, or dispatcher 
 When the SLA map appears, the view is centered on the logged in user's location, from the **Location** field on the user record. Each task's icon color indicates the level of the SLA's **Business elapsed percentage**. This is the percentage of the SLA duration that has expired on the applicable business calendar, if one exists.
 
 For example, a work order with an SLA of 5 business days starts on a Friday. On Tuesday the actual elapsed percentage for the SLA reaches 100%. However, the business elapsed percentage does not reach 100% until Thursday, because the business calendar shows that a business day runs from 8am to 5pm on weekdays. If the SLA breaches on Thursday, the business elapsed percentage continues upward from 100% until the task is completed. If no business calendar is in use, the business elapsed percentage equals the actual elapsed percentage.
-
--   **[Access an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_AccessTheMap.md)**  
-How to access the SLA map.
--   **[SLA map symbols](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/r_MapSymbols.md)**  
-Icons in the SLA map and what they represent.
--   **[Filter an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_FilterTheMap.md)**  
-How to filter the SLA map.
--   **[Manage a task that has an SLA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ManageATaskWithASLA.md)**  
-How to access and manage tasks with SLAs.
-
-**Parent Topic:**[Field Service Management SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_FieldServiceAutomationSLAs.md)
 

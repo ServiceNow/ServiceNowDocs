@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Add an application experience
@@ -82,14 +82,14 @@ Create an equipment fulfillment dashboard where employees can request laptops an
 
 </td><td>
 
--   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
--   [Building workspaces in AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md)
--   [Configure a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-builder.md)
+-   [Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-workspace.md)
+-   [Using Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/using-workspace-builder.md)
+-   [Edit a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-builder.md)
 -   [Configure workspace settings in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-workspace-settings.md)
--   [Configure a workspace home page in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/edit-workspace-home-page.md)
--   [Configure a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md)
--   [Configure lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace-list.md)
--   [Configure analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-analytics-workspace.md)
+-   [Customize a workspace home page in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/edit-workspace-home-page.md)
+-   [Add a record page for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-record-page-workspace.md)
+-   [Create lists for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace-list.md)
+-   [Enable analytics for a workspace in Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/configure-analytics-workspace.md)
 -   [Sample workspaces you can build](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/types-of-workspaces.md)
 
 </td></tr><tr><td>
@@ -127,14 +127,14 @@ Create a time-off request application for mobile for managers to approve or reje
 -   [Sample mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/mobile-experiences-examples.md)
 
 </td></tr></tbody>
-</table>-   **[Choose between record producers and catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/record-producer-vs-catalog-item.md)**  
+</table>-   **[Choosing between record producers and catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/record-producer-vs-catalog-item.md)**  
 Both the record producer and standard catalog item in App Engine Studio \(AES\) create experiences where users can submit requests through a service portal. However, record producers are more extensible, and enable users to create a record in any table.
 -   **[Add a record producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-a-record-producer.md)**  
 A record producer enables users to create task-based records, such as an incident record, in apps you create in App Engine Studio \(AES\) without creating a request. It enables a better end-user experience by standardizing requests using a simplified form.
 -   **[Add a standard catalog item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-standard-catalog-item.md)**  
 Add a standard catalog item to your application in App Engine Studio \(AES\) so users can submit requests for services and offerings.
--   **[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)**  
- Create a workspace in App Engine Studio \(AES\) to build a space that provides agents, case managers, help desk professionals, and managers with tools to help answer customer questions and resolve customer problems. Workspaces are primarily used for request and fulfillment processes, such as a service desk to manage tickets.
+-   **[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-workspace.md)**  
+Create a workspace using Workspace Builder in App Engine Studio \(AES\). Workspaces provide agents, case managers, help desk professionals, and managers with tools to help answer customer questions and resolve customer problems.
 -   **[Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-portal.md)**  
 Create a portal in App Engine Studio \(AES\) to give your users a site where they can find information, create requests, and complete business tasks.
 -   **[Add a mobile experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-mobile.md)**  

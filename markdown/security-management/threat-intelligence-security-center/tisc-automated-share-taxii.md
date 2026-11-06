@@ -7,8 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [TAXII, TAXII Collections, automated sharing, TAXII Server, trusted partners]
 breadcrumb: [Exploring TAXII Outbound Server, Configuring Threat Intelligence External Sharing, Administer, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -45,15 +46,15 @@ Add record to TAXII Server Collection via automated process:
 
 5.  Go to **Actions**
 
-<table id="choicetable_ybr_fxh_qfc"><thead><tr><th align="left" id="d316451e137">
+<table id="choicetable_ybr_fxh_qfc"><thead><tr><th align="left" id="d324982e151">
 
 Action
 
-</th><th align="left" id="d316451e140">
+</th><th align="left" id="d324982e154">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d316451e146">
+</th></tr></thead><tbody><tr><td id="d324982e160">
 
 **Sharing Template\[Outbound Intel Sharing\]**
 
@@ -63,7 +64,7 @@ Select the sharing template.Template with a usage mode of both **Automated addit
 
  For more information see, [Configuring Outbound Intel Sharing Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/tisc-intel-sharing-templates.md).
 
-</td></tr><tr><td id="d316451e174">
+</td></tr><tr><td id="d324982e188">
 
 **Observable Record \[Observable\]**
 
@@ -71,7 +72,7 @@ Select the sharing template.Template with a usage mode of both **Automated addit
 
 Select the type of observable record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d316451e183">
+</td></tr><tr><td id="d324982e197">
 
 **Indicator Record \[Indicator\]**
 
@@ -79,7 +80,7 @@ Select the type of observable record to add records to TAXII server collections.
 
 Select the type of indicators record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d316451e192">
+</td></tr><tr><td id="d324982e206">
 
 **Object Record \[Object\]**
 
@@ -87,7 +88,7 @@ Select the type of indicators record to add records to TAXII server collections.
 
 Select the type of objects record to add records to TAXII server collections.
 
-</td></tr><tr><td id="d316451e202">
+</td></tr><tr><td id="d324982e216">
 
 **Include Related Records**
 

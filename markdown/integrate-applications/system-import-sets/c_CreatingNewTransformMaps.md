@@ -7,16 +7,14 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Import sets, Imports, Data and Automation]
+breadcrumb: [Import sets, Imports, Workflow Data Fabric]
 ---
 
 # Transform maps
 
 A transform map is a set of field maps that determine the relationships between fields in an import set and fields in an existing ServiceNow table, such as Incident \[incident\] or User \[sys\_user\].
-
-\[Omitted image "ImportProcessTransform.png"\] Alt text: Import process transform
 
 After creating a transform map, you can reuse it to map data from another import set to the same table.
 
@@ -52,8 +50,6 @@ One import set row is created per transform map, which can cause a large number 
 Users can select multiple transform maps during data import.
 
 The selected transform maps will be executed on the same import set in the order specified.
-
-\[Omitted image "MultiMapTransform.png"\] Alt text: Multi-map transform
 
 ## Transform map scripts
 

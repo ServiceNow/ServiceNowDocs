@@ -7,8 +7,8 @@ release: yokohama
 product: Localization Workspace
 classification: localization-workspace
 topic_type: task
-last_updated: "2025-04-28"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Requesting translations in Localization Workspace, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -18,17 +18,15 @@ Add target languages to a translation request in Localization Workspace.
 
 ## Before you begin
 
-Ensure that you have installed the languages that you intend to add to your translation request.
-
-Ensure that Localization Workspace is configured with the translation providers that you intend to use. See [Configure a translation provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-configure-translation-provider.md).
-
-Role required: localization\_requestor
+-   Ensure that the languages you intend to add to your translation request have been installed on your instance.
+-   Ensure that the language providers that you intend to use have been configured. See [Configure a language provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-configure-translation-provider.md).
+-   Role required: sn\_lw.user
 
 ## About this task
 
-Your translation request can include multiple target languages for each document.
+Your translation request can bundle multiple target languages and multiple content types. Each language in the request can include different target documents.
 
-**Note:** In the Yokohama release, only requests from English into non-English target languages are supported. Requests from non-English source languages are not supported.
+**Note:** In the Brazil release, only requests from English into non-English target languages are supported. Requests from non-English source languages are not supported.
 
 The following procedure covers step one of four steps in the Translation Request wizard.
 
@@ -36,26 +34,49 @@ The following procedure covers step one of four steps in the Translation Request
 
 1.  Navigate to **All** &gt; **Localization Workspace** &gt; **Home**.
 
-2.  Select the **Request Translation** button to open the wizard.\[Omitted image "lw-request-translations-langs1.png"\] Alt text: The Translation Request modal, open to step one for languages.
+2.  Select **Request Translation** to open the wizard.\[Omitted image "lw-request-translations-langs1.png"\] Alt text: The Translation request wizard window, open to step one for language selection. In this example, selecting a language group has auto-populated three language rows.
 
-    The **Translation Request** modal opens at the first step, **Languages**.
+    The **Translation request** wizard opens at the first step, **Languages**.
 
-3.  In the **Short Description** field, enter a name that describes this translation request.
+3.  In the **Short Description** field, enter a name for the translation request.
 
-    The name becomes visible in the list on Localization Workspace's Home page.
+    The Short Description is displayed in the **My Requests** list on the Home screen, so you can find and monitor your request later. For information see [Localization Workspace Home and translation job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-status-synchronization.md).
 
-4.  In the **Target Language** field, select a language from the list of languages activated on your instance.
+4.  Select target languages or language groups according to the following guidance.
 
-5.  In the **Translation Provider** field, select a name from the list of providers available for the language you chose.
+<table id="choicetable_ff5_wjv_khc"><tbody><tr><td id="d303545e157">
 
-6.  Select the plus icon to add another language to your request, then repeat the previous two steps.
+**Language**
 
-7.  Select **Save**.
+</td><td>
 
-8.  Select the **Next** button to advance to the Types step of translation request creation.
+To select an individual language:1.  In the **Target language** field, select an available language from the drop-down list.
+2.  In the **Translation provider** field, select a name from the list of providers available for the language you chose.
+ You can add more than one language to a request.
+
+</td></tr><tr><td id="d303545e181">
+
+**Groups**
+
+</td><td>
+
+When you select a check box for a language group, the Target language and Translation provider fields auto-populate.-   You can add more than one language group to a translation request.
+-   After you add a language group to request, you can manually delete individual languages from it. Deletion in the wizard applies only to this request; the definition of the language group doesn't change.
+-   You can include a mix of language groups and individual languages in one request.
+-   If a language is included multiple times in one request, Localization Workspace clears the value of the Translation provider field. You must then manually select the desired Translation provider for that language.
+
+
+</td></tr></tbody>
+</table>5.  Add another language by selecting the plus icon \[Omitted image "plus-outline-24.svg"\], or add another language group by selecting its check box.
+
+6.  Select **Save**.
+
+    A saved translation request has a status of `Draft` in the **My Requests** list on the Home screen.
+
+7.  Select the **Next** button to proceed to the Types step of translation request creation.
 
 
 ## What to do next
 
-Advance to the next step in the wizard, **Types**.
+Advance to the next step in the wizard, **Types**, to select content for translation.
 

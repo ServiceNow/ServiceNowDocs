@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateACloneTarget.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Register target instance, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Register instance for cloning, Configure, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Register target instance \(legacy\)
@@ -18,7 +18,7 @@ A clone target record specifies the instance URL and credentials used for clonin
 
 Role required: clone\_admin
 
-If an error occurs while registering a target instance see [General guidelines for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/register-target-instance-troubleshooting.md).
+If an error occurs while registering a target instance see [Troubleshooting for registering target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/register-target-instance-troubleshooting.md).
 
 ## Procedure
 
@@ -28,7 +28,7 @@ If an error occurs while registering a target instance see [General guidelines f
 
 3.  Enter the URL for the receiving instance \(target\).
 
-    The system validates the instance enables clone targets and that High Availability Cloning is active. Production and demonstration instances fail these validation checks.
+    The system validates the instance enables clone targets and that High Availability Cloning is active.
 
 4.  Enter the basic authentication credentials for a user account with the admin role on the target instance.
 

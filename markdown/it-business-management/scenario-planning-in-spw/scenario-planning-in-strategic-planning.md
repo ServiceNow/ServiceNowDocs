@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Scenario planning in Strategic Planning
@@ -35,15 +35,15 @@ As compared to a plan, a scenario additionally has the following:
 
 For more information on portfolio plans, see [Portfolio plans in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/portfolio-plans-in-strategic-planning.md).
 
-By comparing scenarios side by side, you can assess the differences in goal alignment and trade-offs between each scenario. This comparative analysis helps identify the scenario that best meets strategic objectives. For more information on comparing the scenarios, see [Compare scenarios in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md).
+By comparing scenarios side by side, you can assess the differences in goal alignment and trade-offs between each scenario. This comparative analysis helps identify the scenario that best meets strategic objectives. For more information on comparing the scenarios, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md).
 
 ## Scenario planning workflow in Strategic Planning
 
 Using the Scenario Planning feature in Strategic Planning, you can perform the following activities:
 
--   Create a scenario to explore different strategic approaches and business outcomes. For more information, see [Create a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.md).
--   Adjust and compare multiple scenarios side by side to evaluate differences in goal alignment, trade-offs, and financial benefits. For more information, see [Compare scenarios in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md).
--   Approve the best scenario that aligns with the organizational goals. For more information, see [Approve a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md).
+-   Create a scenario to explore different strategic approaches and business outcomes. For more information, see [Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-a-scenario-in-strategic-planning.md).
+-   Adjust and compare multiple scenarios side by side to evaluate differences in goal alignment, trade-offs, and financial benefits. For more information, see [Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/compare-scenarios-in-strategic-planning.md).
+-   Approve the best scenario that aligns with the organizational goals. For more information, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md).
 -   Set a target portfolio budget for each of your planning cycle, which can be for fiscal period, quarter, yearly, or portfolio timeline.
 -   Evaluate the target vs proposed budget of In-plan items and review the monetary benefit from the prioritized items.
 

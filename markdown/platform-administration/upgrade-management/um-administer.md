@@ -1,5 +1,5 @@
 ---
-title: Administering Upgrade Management
+title: Administering Upgrade Console
 description: The Administration module contains information about managing upgrade risks.You will be notified of the possible conflicts that might result due to several customizations in a skipped metadata file, with a new UI message on the form pages of the metadata files.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-administer.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Administering Upgrade Management
+# Administering Upgrade Console
 
 The Administration module contains information about managing upgrade risks.
 

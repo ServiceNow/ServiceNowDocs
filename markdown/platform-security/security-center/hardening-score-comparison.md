@@ -7,7 +7,7 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security hardening, Security configuration console, Security Center, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Security hardening, Security configuration console, Security Center
 
 Gain visibility to the health of your hardening settings and use this data to improve the security posture of your instance.
 
-\[Omitted image "hard-score-comp.png"\] Alt text: Hardening Score Comparison
+\[Omitted image "hard-score-comp.png"\] Alt text: Hardening score comparison
 
 This page displays a summary of your hardening compliance and the changes made to your instance that impact this score.
 

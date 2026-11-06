@@ -7,9 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Discovery Admin Workspace Content 360, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [Discovery, Admin, Workspace]
+breadcrumb: [Discover applications based on fingerprints, Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discover applications using application fingerprints or ITOM Content Service
@@ -33,15 +34,15 @@ Review application suggestions based on application fingerprints or ITOM Content
 
 2.  Select an application suggestion to add to discovery based on either application fingerprints or ITOM Content Service.
 
-<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d248282e183">
+<table id="choicetable_r5b_jxr_21c"><thead><tr><th align="left" id="d564784e185">
 
 Suggestion source
 
-</th><th align="left" id="d248282e186">
+</th><th align="left" id="d564784e188">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d248282e192">
+</th></tr></thead><tbody><tr><td id="d564784e194">
 
 **Application fingerprints**
 
@@ -58,7 +59,7 @@ For information about the form fields, see [Application fingerprint suggestion f
     -   If you want to add it, select **Add to discovery**.
 
 
-</td></tr><tr><td id="d248282e245">
+</td></tr><tr><td id="d564784e247">
 
 **ITOM Content Service**
 
@@ -86,5 +87,3 @@ For information about the form fields, see [Application fingerprint suggestion f
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Discovery Admin Workspace Content 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-workspace-content-360.md)
-

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configurable-workspace-glossary.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 keywords: [dashboard]
-breadcrumb: [Configurable Workspace reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Reference, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configurable Workspace glossary
@@ -117,7 +117,7 @@ Component bundle that contains the components necessary to display a list of Gli
 
 ## related list
 
-A group of records from a single table at the bottom of a form that are related to the record on the form.
+A group of records from a single table at the bottom of a form that have a relationship with the record on the form.
 
 ## ribbon
 

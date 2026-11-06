@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-breadcrumb: [Service Exchange reference, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Reference, Service Exchange]
 ---
 
 # Components installed with Service Exchange for Providers
@@ -1491,7 +1491,9 @@ Creates a remote task for a given parent task and consumer.
 
 </td></tr><tr><td>
 
-File Service Exchange registration email event \[file\_service\_bridge\_registration\_email\_event\]
+File Service Exchange registration email event
+
+ \[file\_service\_bridge\_registration\_email\_event\]
 
 </td><td>
 
@@ -1528,5 +1530,4 @@ Repair RPS Consumer Connection
 Attempts to fix Remote Process Sync errors on Consumer Connection.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
-
+</table>

@@ -1,24 +1,47 @@
 ---
-title: Configure Build Agent
-description: Configure Build Agent on your instance.
+title: Build Agent configuration
+description: Build Agent connects your instance to AI-powered design workflows. Set up the required application and MCP server connections to start using it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/configure-build-agent.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-29"
-reading_time_minutes: 1
-keywords: [configure]
-breadcrumb: [Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Configure Build Agent
+# Build Agent configuration
 
-Configure Build Agent on your instance.
+Build Agent connects your instance to AI-powered design workflows. Set up the required application and MCP server connections to start using it.
+
+**Note:** Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
+
+Configuring Build Agent involves several sequential steps:
+
+-   Installing the ServiceNow Otto for Creator application from the ServiceNow Store \(Check your entitlements to determine whether you have access to this application.\)
+-   Activating the required plugins for your version
+-   Establishing MCP server connections
+-   Enabling additional settings, such as for tests and custom instructions
+
+Complete these steps to verify that all dependencies and integrations are in place before using Build Agent.
+
+Because Autonomous Engineer runs through Build Agent as its execution layer, most settings you configure here also apply when Autonomous Engineer runs. For more information, see [Configuring Autonomous Engineer settings in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ae-settings.md).
 
 -   **[Install Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/install-build-agent.md)**  
-Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Build Agent.
--   **[Connect Figma MCP server to Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/connect-figma-mcp-server-to-build-agent.md)**  
-Connect the Figma MCP server to the Build Agent to accelerate the conversion of Figma designs into enterprise-grade applications on the ServiceNow AI Platform.
+For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
+-   **[Properties, tables, and roles installed with Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-properties-installed-with.md)**  
+System properties installed with Build Agent control operational settings and resource limits. Tables store conversation, message, checkpoint, and telemetry data. Roles define access control for properties and features.
+-   **[Build Agent plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent-plugins.md)**  
+Plugins are required for Build Agent, and vary by version.
+-   **[Connect Build Agent to a supported MCP server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-connct-mcp-server.md)**  
+Connect a supported MCP server to Build Agent to access external tools and resources in the chat panel when building and editing apps.
+-   **[Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-configure-custom-skills-rules.md)**  
+Create and manage custom skills and rules, or instructions to control how Build Agent behaves during a session. Rules are preloaded into every session automatically. Skills are available on demand when you or the agent invokes them by name.
+-   **[Configure auto test prompting and UI tests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-config-testing.md)**  
+Configure test settings to enable automatic test prompting and execution of UI tests in Build Agent and Autonomous Engineer.
+-   **[Configure web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-configure-settings.md)**  
+Enable the web search tool so that Build Agent can search the public web and retrieve relevant information when responding to queries.
 
 **Parent Topic:**[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent.md)
 

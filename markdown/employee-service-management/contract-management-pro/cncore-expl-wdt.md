@@ -7,18 +7,27 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Contract Management Pro, Employee Service Management]
+keywords: [create word document template, manual content control, Microsoft Word add-in for ServiceNow Contracts]
+breadcrumb: [Microsoft Word add-in, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Word Document Templates
 
 Microsoft Word based contract template, enables you to create templates that are used to generate contracts or documents according to a submitted request.
 
-## Contract templates
+## Word document templates
 
-Save time and the manual work of filling out contract documents from scratch for each request by using contract templates to generate them. Word based contract templates can be used by business units to generate a contract document with predefined content when an user submits a contract request. For example, you can create a contract template for Non-disclosure agreement to generate a Non-disclosure agreement contract document. For more information, see [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-setup-ct-add-in.md).
+Save time and the manual work of filling out contract documents or standard letters from scratch for each request by using contract or document templates to generate them. Word document templates can be used by business units to generate a contract document with predefined content when an employee submits a contract request. For example, you can create a contract template for Non-disclosure agreement to generate a Non-disclosure agreement contract document.
+
+The contract template in Contract Management Pro takes a Microsoft Word document that contains content controls as an input. The content marked by the content controls are parsed and used to create clauses and clause variations.
+
+You can add content controls either manually or by using the Microsoft Word add-in for ServiceNow Contracts. Use only one method for a single contract template.
+
+**Note:**
+
+By using Microsoft Word add-in, you can add content controls on macOS as well as Windows systems. The manual method enables you to add content controls only on Windows systems.
 
 ## Word Document Templates features
 

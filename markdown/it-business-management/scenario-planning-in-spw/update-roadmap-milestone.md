@@ -1,5 +1,5 @@
 ---
-title: Update a roadmap milestone in Strategic Planning Workspace
+title: Update a roadmap milestone
 description: Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/update-roadmap-milestone.html
@@ -7,19 +7,19 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Add milestones for a roadmap in Strategic Planning Workspace, Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Add milestones for a roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Update a roadmap milestone in Strategic Planning Workspace
+# Update a roadmap milestone
 
 Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 
 ## Before you begin
 
-[Add milestones for a roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md).
+[Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md).
 
 Role required: sn\_align\_core.apw\_user
 
@@ -27,15 +27,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d83738e96">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d101911e99">
 
 Roadmap type
 
-</th><th align="left" id="d83738e99">
+</th><th align="left" id="d101911e102">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d83738e105">
+</th></tr></thead><tbody><tr><td id="d101911e108">
 
 **Portfolio plan roadmap**
 
@@ -45,7 +45,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d83738e126">
+</td></tr><tr><td id="d101911e129">
 
 **Free-form roadmap**
 
@@ -75,7 +75,7 @@ From the Free-form Roadmaps tab, select a roadmap.
         Select **OK** to confirm.
 
 
-**Parent Topic:**[Add milestones for a roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md)
+**Parent Topic:**[Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md)
 
 **Related topics**  
 

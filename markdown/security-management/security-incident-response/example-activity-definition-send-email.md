@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Activity Definitions, Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -109,6 +109,9 @@ For example, if you would want to map the response task status to the activity c
 
 7.  Under Experience Status to Activity State, map the states of response task to activity card status.
 8.  The left side shows the states of the Response Task, and the right side shows the activity card status.
+
+    \[Omitted image "status-map.png"\] Alt text: Playbook Experience Status to Activity State Map
+
 9.  The mapping can be bi-directional. Under Activity State to Experience related list as well, map the statuses correctly. This step is the reverse of the previous step. In this case, the left side shows the activity card status, and the right side shows the response task status.
 
     \[Omitted image "status-map-new-rcord.png"\] Alt text: Playbook Experience Activity State to Experience Status Map

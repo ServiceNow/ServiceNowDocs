@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Resource assignments in Project Workspace
@@ -36,16 +36,24 @@ With resource assignments, you can:
 
 -   **[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)**  
 Create an attribute-based resource assignment in the Project Workspace application for any project or project task.
+-   **[Open a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/open-resource-assignment-pw.md)**  
+Open a resource assignment record directly from the resource pane in Project Workspace to view additional details about the assignment without leaving the project.
 -   **[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-resource-assignment-pw.md)**  
 Update a resource assignment that is associated with a project or project task.
--   **[Extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/extend-resource-assignment-pw.md)**  
-Extend the date of an allocated resource assignment and allocate resources for the extended period.
+-   **[Copy a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/copy-resource-assignment-pw.md)**  
+Copy a resource assignment record directly from the resource pane in Project Workspace.
+-   **[Assign a resource using AI resource finder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/assign-resources-using-resource-finder-pw.md)**  
+Use AI resource finder to identify and assign a resource to an unassigned resource assignment.
+-   **[Manage resources from resource page in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-resource-assignment-pw.md)**  
+View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page shows all project-associated resources and their assignments to support forecasting and visualization of resource demands.
+-   **[Access, assign, and approve unassigned work in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/assign-approve-unassigned-work-pw.md)**  
+View, assign and authorize resources directly from Project Workspace without navigating to Resource Management Workspace.
 -   **[Move a resource assignment in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/move-resource-assignments-project-workspace.md)**  
 Move the resource assignment to a new start and end dates to accommodate changes in task scheduling or resource allocation. Shift assignments to balance workloads across resources and avoid over-allocation.
+-   **[Extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/extend-resource-assignment-pw.md)**  
+Extend the date of an allocated resource assignment and allocate resources for the extended period.
 -   **[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/delete-resource-assignment-pw.md)**  
 Delete a resource assignment from Project Workspace. Deleting an assignment also deletes all associated resource allocations.
--   **[Manage resources using resource board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-resource-assignment-pw.md)**  
-View and manage all the resource assignments without navigating through individual tasks using the resource page. Set up a resource board to automatically generate a resource view in Resource Management Workspace based on your project-associated resources to support forecasting and visualization of resource demands.
 -   **[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)**  
 Use the allocation heatmap capability in Project Workspace to view and update the resource allocation.
 -   **[Realign resource assignment to project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/realign-resource-assignment-to-task.md)**  

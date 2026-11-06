@@ -7,8 +7,8 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 17
+last_updated: "2026-09-10"
+reading_time_minutes: 16
 breadcrumb: [Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
 
@@ -18,11 +18,11 @@ DevOps Change Velocity enables you to use fit-for-purpose change models that all
 
 ## DevOps Change model overview
 
-**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models.md). The legacy Change Management - State Model is also supported. For more information, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ChangeStateModel.md).
+**Important:** For DevOps change requests, use the Change Management - Change Models feature, which provides greater flexibility to enable the change process flow in a way that is optimized for specific use cases. For more information, see . The legacy Change Management - State Model is also supported. For more information, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ChangeStateModel.md).
 
 **Important:** The DevOps and DevOps Simplified change models are not supported for Argo CD and Split tool change requests.
 
-Use fit-for-purpose change models with a suite of succinct flows and flow actions built in Flow Designer for specific use cases. Instead of using the legacy ITIL-based change processes that are predefined in change workflows \(Normal, Standard, and Emergency\), you can selectively transition to a wide range of models that are optimized for specific use cases. Change models can be created with states and rules that determine the transitions between the states. For information on change models, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models.md).
+Use fit-for-purpose change models with a suite of succinct flows and flow actions built in Flow Designer for specific use cases. Instead of using the legacy ITIL-based change processes that are predefined in change workflows \(Normal, Standard, and Emergency\), you can selectively transition to a wide range of models that are optimized for specific use cases. Change models can be created with states and rules that determine the transitions between the states. For information on change models, see .
 
 \[Omitted image "change-model-01.png"\] Alt text: Change models
 

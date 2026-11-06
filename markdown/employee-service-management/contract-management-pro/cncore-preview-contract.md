@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Preview and download a signed contract document
@@ -51,15 +51,15 @@ When multiple contract documents are attached, a separate contract repository re
 
 6.  View the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d732238e119">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d790462e125">
 
 Choice
 
-</th><th align="left" id="d732238e122">
+</th><th align="left" id="d790462e128">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d732238e128">
+</th></tr></thead><tbody><tr><td id="d790462e134">
 
 **When internal storage is configured**
 
@@ -70,7 +70,7 @@ Steps
 3.  Select download icon to download the document.
 
 
-</td></tr><tr><td id="d732238e149">
+</td></tr><tr><td id="d790462e155">
 
 **When external storage is configured**
 
@@ -82,5 +82,5 @@ Steps
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

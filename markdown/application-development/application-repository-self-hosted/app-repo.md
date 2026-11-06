@@ -7,9 +7,9 @@ release: yokohama
 product: Application Repository \(Self-Hosted\)
 classification: application-repository-self-hosted
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Application sharing, Administer your apps, Deploying applications, Building applications]
+breadcrumb: [Application sharing, Administer your apps, Deploying applications, Classic app development, Building applications]
 ---
 
 # ServiceNow application repository

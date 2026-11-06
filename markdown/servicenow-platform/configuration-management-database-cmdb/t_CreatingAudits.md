@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Certification audits, CMDB Compliance, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Certification audits, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a compliance audit
@@ -18,7 +18,7 @@ Create a compliance audit. Compliance offers two types of audits: one uses templ
 
 ## Before you begin
 
-Role required: certification\_admin
+Role required: sn\_cmdb\_admin and certification\_admin have full access, and sn\_cmdb\_editor has read access
 
 ## Procedure
 

@@ -1,53 +1,53 @@
 ---
-title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
-description: Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using ServiceNow Otto for ITSM.
+title: Customize the ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
+description: Enhance the efficiency to explain the risk of a change request by customizing it with different inputs and prompts using the skill configuration guided setup.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-change-risk-skill.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Customize a ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
+# Customize the ServiceNow Otto for IT Service Management \(ITSM\) change risk explanation skill
 
-Enhance the efficiency to explain the risk of a change request by adding input fields and custom fields. You can also add more information to generate the explanation the using ServiceNow Otto for ITSM.
+Enhance the efficiency to explain the risk of a change request by customizing it with different inputs and prompts using the skill configuration guided setup.
+
+## About this task
+
+You can modify and edit prompts using the Now Assist Skill Kit \(NASK\). Navigate to **All &gt; Now Assist Skill Kit &gt; Home**, and select the required skill.
 
 ## Before you begin
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
-## About this task
+You need the sn\_skill\_builder.admin role to customize the prompt in the Now Assist Skill Kit \(NASK\).
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  In the **Technology** feature group, select **ITSM** from the product list.
 
-3.  In the **Technology** feature group, select **ITSM** from the product list.
+3.  Activate and copy the change risk explanation skill for customization.
 
-4.  Activate and copy the desired Change request skill for customization.
-
-    1.  In the **Change request** card, select **View details**.
-
-    2.  In the All available skills section, locate the skill that you would like to activate and select **Activate skill**.
+    1.  In the All available skills section, locate the skill that you would like to activate and select **Activate skill**.
 
         You can choose to make a copy of the skill before activating it.
 
-    3.  Select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
+    2.  Select the More actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon. for the skill in the Active skills section, and create a copy that you can customize by selecting **Make a copy**.
 
-        The copy that you make is listed in the Active skills section.
+        A confirmation message is displayed.
 
-    4.  Select the copied skill from the Active skills section to open it.
+    3.  Select the **Make a copy** button in the confirmation message.
 
         A guided setup leads you through the configuration of the general details, input, prompt, availability, display, review, and activation of the customized skill.
 
-5.  In the General details step, fill in the fields.
+4.  In the General details step, fill in the fields.
 
     For information about the inputs and triggers for each skill, see [Skill inputs and triggers for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/now-assist-itsm-skills.md).
 
@@ -55,7 +55,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     2.  Select **Save and continue** to go to the next step.
 
-6.  Choose the change request input data.
+5.  Choose the change request input data.
 
     Configure the base input table and fields that are used as the source to generate a response.
 
@@ -94,9 +94,7 @@ Base input field
 
 </td><td>
 
-Field in the Incident table whose value this skill uses in its response.
-
- For example, `Short description`.
+Field in the Change request table, for example, `Short description`. The LLM uses the values in this field as one of inputs to generate a response.
 
 </td></tr><tr><td>
 
@@ -106,7 +104,7 @@ Field description
 
 Description of the base input field value.
 
- For example, `Short description of incident, provides quick info about the issue.`
+ For example, `Short description field in the Change request table provides quick info about the issue.`
 
 </td></tr></tbody>
 </table>    2.  Add additional input data sources.
@@ -178,7 +176,7 @@ Relationship between the input table and the table field.
 
     5.  Select **Save and continue** to go to the next step.
 
-7.  Test the output.
+6.  Test the output.
 
     1.  Select the change record in the Test output section, and test the prompt response output format by selecting **Run Test**.
 
@@ -188,7 +186,7 @@ Relationship between the input table and the table field.
 
     2.  Select **Save and Continue** to go to the next step.
 
-8.  Define availability.
+7.  Define availability.
 
     Define how the skill will be available to users.
 
@@ -198,9 +196,9 @@ Relationship between the input table and the table field.
 
     2.  Select **Save and continue** to go to the next step.
 
-9.  Select display.
+8.  Select display.
 
-    Configure where to display the incident summarization.
+    Configure where to display the Change request risk explanation skill.
 
     1.  Select either **In-product**, or **Now Assist panel**.
 
@@ -216,7 +214,7 @@ Relationship between the input table and the table field.
 
     2.  Select **Save and continue** to go to the next step.
 
-10. Review and activate.
+9.  Review and activate.
 
     Review your choices and select **Activate** to complete the skill customization.
 

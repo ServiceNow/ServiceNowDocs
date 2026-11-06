@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -36,5 +36,5 @@ To update the rank of the planning items in the work pipeline of your portfolio 
 **Related topics**  
 
 
-[Rank planning items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.md)
+[Rank planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/rank-and-prioritize-work-portfolio-planning-workspace.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Azure DevOps, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -30,10 +30,6 @@ Role required: sn\_devops.admin
 
     Azure pipeline job run notifications are sent to the DevOps application. Each task execution notification corresponds to an orchestration task and, because orchestration tasks are mapped to a certain step in your DevOps pipeline, you can track the activity in each stage of your pipeline.
 
-
-## Example
-
-\[Omitted image "dev-ops-azure-associate-steps.png"\] Alt text: AssociateSteps
 
 **Parent Topic:**[Azure DevOps integration with DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/azure-devops-integration-dev-ops.md)
 

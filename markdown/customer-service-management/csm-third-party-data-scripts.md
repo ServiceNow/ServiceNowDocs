@@ -1,16 +1,16 @@
 ---
-title: Third-party data integration sample script
+title: Third-party data integration sample remote table script
 description: The remote table script can be designed to pull records from a third-party application. This script is called when a query to access data in the remote table is made.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-third-party-data-scripts.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Third-party data integration for CSM, CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Third-party data integration sample script
+# Third-party data integration sample remote table script
 
 The remote table script can be designed to pull records from a third-party application. This script is called when a query to access data in the remote table is made.
 

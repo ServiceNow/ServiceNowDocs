@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Baseline versions, Hardening settings, Platform Security]
 ---
@@ -16,6 +16,12 @@ breadcrumb: [Baseline versions, Hardening settings, Platform Security]
 
 New hardening settings are broken out by baseline release.
 
+-   **[New hardening settings for baseline 9.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/new-hardening-settings-for-baseline-nine.md)**  
+New hardening settings are available in Security Center baseline version 9.0.
+-   **[New hardening settings for baseline 8.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/new-hardening-settings-for-baseline-eight.md)**  
+New hardening settings have been released with Security Center baseline version 8.0.
+-   **[New hardening settings for baseline 7.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/new-hardening-settings-for-baseline-seven.md)**  
+New hardening settings have been released with Security Center baseline version 7.0.
 -   **[New hardening settings for baseline version 6.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/new-hardening-settings-for-baseline-six.md)**  
 New hardening settings have been released with Security Center baseline version 6.0.
 -   **[New hardening settings for baseline version 5.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/new-hardening-settings-for-baseline-five.md)**  

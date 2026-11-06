@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Operational Technology Manager, Operational Technology]
 ---
@@ -22,7 +22,7 @@ Multiple methods are available for uploading your existing Operational Technolog
 
 -   **Discovery for Operational Technology**
 
-    To discover Operational Technology devices in designated Purdue levels in your Industrial Control System \(ICS\) networks, you run the Discovery for Operational Technology function on a recurring basis. It operates in a manner that is similar to the standard Discovery processes. However, its Discovery normally takes place in the Purdue levels 3 through 3.5, depending on which level you select when you create an OT discovery schedule. To learn more, see [IT Discovery for OT Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/operational-technology-manager/discovery-for-operational-technology.md).
+    To discover Operational Technology devices in designated Purdue levels in your Industrial Control System \(ICS\) networks, you run the Discovery for Operational Technology function on a recurring basis. It operates in a manner that is similar to the standard Discovery processes. However, its Discovery normally takes place in the Purdue levels 3 through 3.5, depending on which level you select when you create an OT discovery schedule. To learn more, see [IT Discovery for Operational Technology \(OT\) Networks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/discovery-for-operational-technology.md).
 
     **Note:** To learn more about Purdue levels in Industrial Control Systems, see [https://subscription.packtpub.com/book/networking\_and\_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems](https://subscription.packtpub.com/book/networking_and_servers/9781788395151/1/ch01lvl1sec10/the-purdue-model-for-industrial-control-systems).
 

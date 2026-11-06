@@ -1,5 +1,5 @@
 ---
-title: Integrate with external southbound systems
+title: Integrating Proactive Service Experience Workflows with southbound external systems
 description: In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/tech-product-outbound-flow.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
-# Integrate with external southbound systems
+# Integrating Proactive Service Experience Workflows with southbound external systems
 
 In Proactive Service Experience Workflows, you can submit outbound service test run requests to various external systems by integrating the application with the external southbound systems.
 
@@ -38,7 +38,7 @@ The integration process for with the external service test management systems is
 2.  The integration now begins:
     1.  The test manager creates the test run in the test run table.
 
-        For more information on setting up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/settingup-test-specifications.md).
+        For more information on setting up test definitions, see .
 
     2.  The generated payload is sent to the endpoint of the external fulfillment system.
 

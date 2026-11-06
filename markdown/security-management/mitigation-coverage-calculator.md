@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/mitigation-coverage-calculator.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Map your mitigation coverage to a technique, MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -29,8 +29,6 @@ The overall technique mitigation coverage is determined based on the formula def
 ## Procedure
 
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Mitigation Coverage Calculator**.
-
-    The following illustration shows the default mitigation coverage calculator.\[Omitted image "mitre-mitigation-calculator.gif"\] Alt text: The illustration shows the default mitigation calculator.
 
 
 **Parent Topic:**[Map your mitigation coverage to a technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/map-your-mitigation-coverage-to-a-technique.md)

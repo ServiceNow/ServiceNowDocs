@@ -7,7 +7,7 @@ release: yokohama
 product: ITSM Virtual Agent
 classification: itsm-virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up ITSM Virtual Agent, ITSM Virtual Agent, IT Service Management]
 ---

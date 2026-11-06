@@ -7,9 +7,9 @@ release: yokohama
 product: Unified Map
 classification: unified-map
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View related items, UNDER CONSTRUCTION Use, Unified Map, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [View related items, Use, Unified Map, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure the Related items panel
@@ -21,8 +21,8 @@ Configure which categories of related items, such as active incidents and active
 Role required:
 
 -   To access maps: sn\_cmdb\_user, sn\_cmdb\_editor or sn\_cmdb\_admin
--   To access maps with operational application services: app\_service\_user, and sm\_user or sm\_admin
--   To access maps with operational and non-operational application services: app\_service\_admin, and sm\_user or sm\_admin
+-   To access maps with operational service instances: app\_service\_user, and sm\_user or sm\_admin
+-   To access maps with operational and non-operational service instances: app\_service\_admin, and sm\_user or sm\_admin
 -   To access and view related items: itil
 
 ## About this task

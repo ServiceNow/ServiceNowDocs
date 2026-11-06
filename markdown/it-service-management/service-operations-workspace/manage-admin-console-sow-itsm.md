@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 12
-breadcrumb: [Admin Center in Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [Admin Center in Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Manage configurations in Service Operations Workspace for ITSM
@@ -36,15 +36,15 @@ The Admin Center consists of the following tabs:
 
 3.  Select any of the following options.
 
-<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d226307e138">
+<table id="choicetable_lg2_mrt_cyb"><thead><tr><th align="left" id="d400120e138">
 
 Option
 
-</th><th align="left" id="d226307e141">
+</th><th align="left" id="d400120e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d226307e147">
+</th></tr></thead><tbody><tr><td id="d400120e147">
 
 **Migrate configurations and customizations from ITSM Agent Workspace to SOW for ITSM**
 
@@ -52,7 +52,7 @@ Description
 
 On the **Overview** tab, from the **Initial Setup** section, select the **Migrate from ITSM Agent Workspace to SOW** option. For information about this migration utility, see [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md).
 
-</td></tr><tr><td id="d226307e187">
+</td></tr><tr><td id="d400120e193">
 
 **Configure the landing page**
 
@@ -73,7 +73,7 @@ On the **Overview** tab, from the **Initial Setup** section, select the **Migrat
         -   For tier 1 agents, visibility of the Getting started section that provides an overview of key features in Service Operations Workspace.
 For information about landing page customizations, see [Customizing Service Operations Workspace for ITSM to align with your requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-sow-landing-page.md).
 
-</td></tr><tr><td id="d226307e302">
+</td></tr><tr><td id="d400120e308">
 
 **Configure the availability and order of contextual side panel tabs for record pages**
 
@@ -87,14 +87,40 @@ For information about landing page customizations, see [Customizing Service Oper
 
 **Note:** Ensure that the user's scope is set to that of the app route.
 
-</td></tr><tr><td id="d226307e354">
+</td></tr><tr><td id="d400120e362">
+
+**Configure the SOW properties**
+
+</td><td>
+
+1.  On the **Overview** tab, from the **Initial setup** section, select the **Configure** option.
+2.  Select **SOW Properties** and then configure any of the following options:
+    -   Email notification redirection to SOW: Configure the email notifications to redirect the users to the Service Operations Workspace \(SOW\) view instead of Classic UI16. For more information, see [Email notification redirection for incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/email-notif-redirt-inci-major-inci.md).
+    -   Set display count to improve list loading: Configure the fuzzyCount property to modify how the number of records is displayed on the Service Operations Workspace \(SOW\) list page. Configuring the fuzzyCount property helps improve the system performance. For more information, see [Configure the list page in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/incident-list-page.md).
+    -   Reference field auto-load behavior: Use the option to configure the **Reference search on click ** \(**ref\_search\_on\_click**\) UX page property. When the property is set to false, selecting empty reference fields such as Configuration item, Service offering, and Service or when user starts typing input on the reference fields displays only the recent selection values instead of automatic searching and displaying the results of all the field values available in the system.
+    -   Hide contextual side panel for specific table and tab combinations: Allows admins to define specific table and tab pairs in Service Operations Workspace \(SOW\) where the page default contextual side panel is hidden, prioritizing the embedded contextual side panel within the tab content instead. For more information, see [Hide contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/hide-contextual-side-panel-sow.md).
+
+
+</td></tr><tr><td id="d400120e476">
+
+**Configure SOW vs Classic UI16 redirection**
+
+</td><td>
+
+Enables you to configure the redirection of the classic UI16 module navigation links such as forms and lists across all or selected application, for selected or all users, and user groups to the equivalent Service Operations Workspace \(SOW\) experience. Available options:
+
+-   Global configuration for all users redirection
+-   Custom configuration
+For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
+</td></tr><tr><td id="d400120e517">
 
 **Configure the incident record page**
 
 </td><td>
 
-1.  On the **Configurations** tab, select the **Incident Management** option.
-2.  Select **Incident record** and then select **Configure** to configure any of the following tabs:
+1.  On the **Overview** tab, from the **Incident Management** section, select the **Configure** option.
+2.  On the Incident record page, configure any of the incident record elements using any of the following options:
     -   Overview: Configure any of the following options for the **Overview** tab.
         -   Tab visibility for tier 1 agents: Configure the visibility settings to display the **Overview** tab for the tier-1 agents. You can also configure the user criteria to include or exclude users with other roles and user groups.
 
@@ -114,15 +140,15 @@ For information about landing page customizations, see [Customizing Service Oper
     -   Incident management properties: Configure the incident features using the incident management properties. For more information on configuring incident management properties, see [Incident Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-management-properties.md).
  For more information about configuring the field layout, UI elements and the visible data content using form builder, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/learn-by-example-edit-form-component.md).
 
- For information about incident record page customizations, see [Customize the incident record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
+ For information about incident record page customizations, see [Incident record page customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/customize-the-incident-record-page.md).
 
-</td></tr><tr><td id="d226307e521">
+</td></tr><tr><td id="d400120e680">
 
 **Configure the Major Incident Management features**
 
 </td><td>
 
-1.  On the **Configurations** tab, select the **Major Incident Management** option.
+1.  On the **Overview** tab, from the **Major Incident Management** section, select the **Configure** option to configure the Major Incident Management features.
 2.  Configure any of the following options:
     -   Major incident manager role
     -   Major incident trigger rules
@@ -133,7 +159,7 @@ For information about landing page customizations, see [Customizing Service Oper
     -   Timeline configurations for post incident report.
 For more information on the configurations of features in Major Incident Management in Admin Center, see [Configuring Major Incident Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-mim-in-sow.md).
 
-</td></tr><tr><td id="d226307e589">
+</td></tr><tr><td id="d400120e754">
 
 **Configure the Problem Management features**
 
@@ -145,7 +171,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Problem task record: configure the problem task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/learn-by-example-edit-form-component.md)
 
 
-</td></tr><tr><td id="d226307e639">
+</td></tr><tr><td id="d400120e805">
 
 **Configure the Change Management features**
 
@@ -175,7 +201,7 @@ For more information on the configurations of features in Major Incident Managem
     -   Change task record: Configure the change task record UI elements and the visible data content. For more information, see [Customize forms within a form component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/learn-by-example-edit-form-component.md).
 
 
-</td></tr><tr><td id="d226307e830">
+</td></tr><tr><td id="d400120e999">
 
 **Configure the On-Call Scheduling features**
 
@@ -189,12 +215,13 @@ For more information on the configurations of features in Major Incident Managem
         -   Group templates. For information about group templates, see [Create a group template to simplify configuring schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/create-group-template.md) and [Create a shift template to simplify configuring shifts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/create-shift-template.md).
         -   Escalation policy templates. For information about escalation policy, see [Create an escalation policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/create-custom-esc-policy-oncall.md).
         -   Contact preference templates. For information about contact preferences, see [Configure my availability and contact preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/config-my-contact-prefs-oncall.md).
+    -   On-call trigger rule table configuration. For information about creating and configuring trigger rule table config, see [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
     -   On-call properties. For information about these properties, see [System properties for On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/on-call-properties.md).
 3.  Update the configuration and mark it complete, or skip the configuration.
 
 **Note:** You can restart a skipped configuration.
 
-</td></tr><tr><td id="d226307e950">
+</td></tr><tr><td id="d400120e1131">
 
 **Configure the Service Reliability Management sections**
 
@@ -210,7 +237,7 @@ For more information on the configurations of features in Major Incident Managem
 
 For information about Service Reliability Management configurations, see [Service Operations Workspace setup for SRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/sr-sow-admin-setup.md).
 
-</td></tr><tr><td id="d226307e1019">
+</td></tr><tr><td id="d400120e1200">
 
 **Configure the Notify features**
 

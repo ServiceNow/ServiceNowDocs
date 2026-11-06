@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complex data, Building actions, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Complex data, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Save data structure
@@ -19,7 +19,6 @@ Save the data structure of child variables within an Object variable for later r
 ## Before you begin
 
 -   Role required: action\_designer, flow\_designer, or admin
--   [Set up an application in Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/set-up-app.md) to store Workflow Studio content.
 -   [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-action.md) or [Create a subflow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-subflow.md)
 
 ## Procedure

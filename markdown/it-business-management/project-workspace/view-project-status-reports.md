@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Project workspace classic - Legacy, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ From the **Status Report** tab, you can:
 
 1.  [Open](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-the-project-workspace.md) the required project in project workspace.
 
-2.  Click the **Status Report** tab.
+2.  Select the **Status Report** tab.
 
     The most recent status report created for the project is displayed.
 
@@ -46,17 +46,15 @@ From the **Status Report** tab, you can:
 
     1.  Select a status report from the choice list that you want to copy.
 
-    2.  Click **Copy** from the choice list next to **Create new**.
+    2.  Select **Copy** from the choice list next to **Create new**.
 
         The option copies the selected status report including all fields into the new report.
 
-    3.  Click **Save**.
+    3.  Select **Save**.
 
 5.  Select a status report from the choice list to view the contents of a [status report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/project-status-report.md) available for the project.
 
     The reports are listed in the choice list by their creation date.
-
-6.  To print a status report, click the print icon \(\[Omitted image "PrintIcon.png"\] Alt text: Print icon.\) in the top right.
 
 
 **Parent Topic:**[Project workspace classic - Legacy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-workspace-classic.md)

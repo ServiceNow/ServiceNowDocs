@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Microsoft Dynamics 365 for Finance and Operations Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-03-12"
+reading_time_minutes: 8
+breadcrumb: [Microsoft Dynamics 365 for Finance and Operations Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the Microsoft Dynamics 365 for Finance and Operations spoke
@@ -184,6 +184,10 @@ Option to use mutual authentication for token request and revocation. This optio
 
 Create a connection record for your Microsoft Dynamics 365 for Finance and Operations. The Microsoft Dynamics 365 for Finance and Operations spoke connection and credential aliases use these connections to perform actions in Microsoft Dynamics 365 for Finance and Operations.
 
+### Before you begin
+
+Role required: Admin
+
 ### Procedure
 
 1.  Navigate to **All** &gt; **Connections &amp; Credentials** &gt; **Connections &amp; Credentials Aliases**.
@@ -297,7 +301,7 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Flow Designer** &gt; **Designer**.
+1.  **All** &gt; **Process Automation** &gt; **Workflow Studio**
 
 2.  Click **Subflows**.
 
@@ -444,5 +448,5 @@ Role required: admin
 
 ### Result
 
-The webhook is registered and ready for testing.
+The app is registered in Azure and the webhook endpoint is configured.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Set up a profile for scheduled notable event ingestion, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -40,15 +40,15 @@ When the polling schedule is set, the scheduled job pulls both new and updated n
 
 2.  Choose one to schedule how and when notable events are pulled from the Splunk Enterprise Security console.
 
-<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d503766e103">
+<table id="choicetable_phd_qqc_jfb"><thead><tr><th align="left" id="d515050e103">
 
 Option
 
-</th><th align="left" id="d503766e106">
+</th><th align="left" id="d515050e106">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d503766e112">
+</th></tr></thead><tbody><tr><td id="d515050e112">
 
 **-   On-going Event Ingestion field selected
 -   One-Time Retrieval field cleared
@@ -58,7 +58,7 @@ Description
 
 On-going EventBased on the default setting, the ServiceNow AI Platform instance pulls from the Splunk Enterprise Security server for new and updated notable events every five minutes. Security incidents are created if notable events are found and incident generation filtering criteria are matched. To balance ingestion polling overhead desire to get the most current data, five minutes is the default setting. However, this value can be modified to as low as one minute if needed.
 
-</td></tr><tr><td id="d503766e139">
+</td></tr><tr><td id="d515050e139">
 
 **-   On-going Notable Event field cleared
 -   One-Time Retrieval field selected

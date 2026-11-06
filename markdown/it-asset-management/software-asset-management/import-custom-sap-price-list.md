@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import custom SAP price lists
@@ -150,15 +150,19 @@ Microsoft Excel spreadsheet that contains the data that you want to insert or up
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP]()
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection]()
+[Establish an SAP connection using basic authentication]()
 
-[Create entitlements for SAP]()
+[Establish an SAP connection using OAuth 2.0]()
 
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

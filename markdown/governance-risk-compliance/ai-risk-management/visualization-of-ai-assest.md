@@ -7,8 +7,9 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-11-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
+keywords: [360 degree view, AI asset visualization, relationship visualization]
 breadcrumb: [AI assets, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -20,7 +21,7 @@ Use the 360° AI asset view to explore the relationship between your AI assets a
 
 When you launch the 360º view from an AI asset record, you can visualize the relationships between the selected record and all its associated records. This visualization provides valuable insights into how these objects interact and relate to each other within the AI asset. You can act on the displayed records.
 
-You can open access the 360° view of an AI asset from the asset record page.\[Omitted image "visualize-ai-asset.png"\] Alt text: 360° view button on the AI asset record.
+You can access the 360° view of an AI asset from the asset record page.\[Omitted image "visualize-ai-asset.png"\] Alt text: 360° view button on the AI asset record.
 
 To explore the 360° view and to learn how to launch the view, see [Exploring the 360º view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-360-degree-relationship-visualization/understanding-360-view.md).
 

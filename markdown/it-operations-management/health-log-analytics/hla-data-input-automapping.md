@@ -1,21 +1,21 @@
 ---
-title: Log data auto-mapping and mapping
-description: By default, the Health Log Analytics AI engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
+title: Log data auto-mapping and mapping in Health Log Analytics
+description: By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-keywords: [ServiceNow, Health Log Analytics, HLA, logs, tagging, mapping, auto-map, data input, source type, binding log data, CMDB]
-breadcrumb: [Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+last_updated: "2026-10-04"
+reading_time_minutes: 6
+keywords: [ServiceNow, Health Log Analytics, HLA, logs, tagging, parsing, manual mapping, JavaScript function, auto-mapping, data input, source type, binding log data, CMDB]
+breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Log data auto-mapping and mapping
+# Log data auto-mapping and mapping in Health Log Analytics
 
-By default, the Health Log Analytics AI engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
+By default, the HLA Engine tries to auto-map every incoming log line to the correct tags. You can change automatic mapping results manually by defining a JavaScript function.
 
 ## Auto-mapping incoming log lines
 
@@ -31,14 +31,20 @@ In the example, Health Log Analytics extracts the string "online\_store". It ana
 
 -   **Stop extraction of unneeded data**
 
-    If an extracted string is not descriptive enough or contains redundant text or information, you can stop extracting such expendable data. For more information, see [Stop extraction of unneeded log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-exclude.md).
+    If an extracted string is not descriptive enough or contains redundant text or information, you can stop extracting such expendable data. For more information, see [Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-exclude.md).
 
 -   **Ensuring extraction of specific data**
 
-    You can make sure that Health Log Analytics extracts specific desired terms. For more information, see [Ensure extraction of specific log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-extract.md).
+    You can make sure that Health Log Analytics extracts specific desired terms. For more information, see [Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-extract.md).
 
 
-## Mapping data input sources
+## AI-assisted log mapping with ServiceNow Otto for ITOM
+
+AI-assisted log mapping using ServiceNow Otto for ITOM recommends optimal mapping configurations based on your log patterns. This approach reduces manual setup effort and improves accuracy without requiring custom JavaScript functions.
+
+For this capability to be enabled, the integration must be activated by selecting the Activate with AI option. This option enables AI-powered automatic parsing and mapping of log data to service instances and components for contextual alerts. When the integration is activated, ServiceNow Otto for ITOM collects and analyzes log data and suggests the best log field for mapping. You can override the suggested mapping by selecting a different log field from each list, if needed. For more information, see [Map logs to service instances, components, source types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/il-connector-hla-map-business-context.md).
+
+## Mapping data input sources manually by defining a JavaScript function
 
 You can change automatic mapping results manually by defining a JavaScript function. [Data input mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md) enables you to organize your log data by service instance and by availability zone. A single service instance can include multiple components, and a component can receive logs from many different source types. An service instance-component pair, however, is unique. Source types are based on a specific log structure and format. Service instances and components are defined more broadly and are therefore used mainly for logical mapping.
 
@@ -59,18 +65,16 @@ The number of log sources that a specific data input has created displays in the
 
 ## Binding log data
 
-Binding log data to Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\) enables you to search the CMDB for endpoints that match a log. When you configure a data input, you bind log entries to a service instance that is bound to a CI in the CMDB. Binding log entries, service instances, and CIs enables the Health Log Analytics AI engine to correlate them for use in root cause analysis \(RCA\). For more information, see [Configure Rsyslog, Filebeat, or Winlogbeat data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md) or [Configure Elasticsearch data inputs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-elastic.md).
+Binding log data to Configuration Items \(CIs\) in the Configuration Management Database \(CMDB\) enables you to search the CMDB for endpoints that match a log. When you configure a data input, you bind log entries to a service instance that is bound to a CI in the CMDB. Binding log entries, service instances, and CIs enables the HLA Engine to correlate them for use in root cause analysis \(RCA\). For more information, see [Configure a Rsyslog, Filebeat, or Winlogbeat data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-rsyslog-beats.md) or [Configure an Elasticsearch data input in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-elastic.md).
 
--   **[Map raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md)**  
-Mapping raw log data that streams into your instance determines how the data is handled. Health Log Analytics automatically structures logs, creates metrics for anomaly detection, and presents alerts based on how your data is tagged.
--   **[Source type and log source relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-view-sources-vs-sourcetypes.md)**  
-Explore the many-to-many relationships between source types and log sources to help you optimize data input mapping in Health Log Analytics.
--   **[Header properties detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-header-detection.md)**  
-In Health Log Analytics, automatic header properties detection separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data without including shipping information.
--   **[Stop extraction of unneeded log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-exclude.md)**  
+-   **[Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md)**  
+Mapping raw log data that streams into your ServiceNow instance determines how Health Log Analytics processes the data. If HLA doesn't discover properties automatically, you can map data input sources manually.
+-   **[Header properties detection in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-header-detection.md)**  
+Automatic header properties detection in Health Log Analytics separates the transport header from the inner log message and forwards only the inner log message to the source type structure. The inner message contains the actual log data, not the shipping information.
+-   **[Extract specific log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-extract.md)**  
+Set Health Log Analytics to extract specified terms from logs and map them to specific components.
+-   **[Stop extraction of unneeded log data in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-exclude.md)**  
 If an extracted string of data is not descriptive enough or contains redundant text or information, you can set Health Log Analytics to stop extracting such data from your logs.
--   **[Ensure extraction of specific log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-log-data-extract.md)**  
-Set Health Log Analytics to extract specified terms from fields and map them to specific components.
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

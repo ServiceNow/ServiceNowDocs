@@ -7,8 +7,8 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Digital Product Release, IT Service Management]
 ---
 
@@ -41,7 +41,15 @@ A digital product or service has a release life cycle that starts with planning,
 
 Digital Product Release is aimed at the following personas:
 
-<table id="table_knl_gfb_myb"><tbody><tr><td>
+<table id="id_v5l_bw5_5kc"><thead><tr><th>
+
+Persona
+
+</th><th>
+
+Responsibilities
+
+</th></tr></thead><tbody><tr><td>
 
 Release manager
 
@@ -92,7 +100,7 @@ Engineering lead
 |Create policies to automate the release process.|[Policy administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-policies.md)|Release manager|
 |Manage products, services,features, product enhancements,versions, and initiate a release.|[Release planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-plan-feature-version.md)|Product manager|
 |Generate AI-powered release notes that streamline release documentation, reduces manual effort, and improves clarity for stakeholders.|[Generate AI-powered release notes for a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-generate-release-notes.md)|Product manager|
-|Plan and manage the release process from start to finish.|[Release execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md)|Release manager|
+|Plan and manage the release process from start to finish.|[Release management and execution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md)|Release manager|
 
 ## Digital Product Release key terms
 
@@ -149,16 +157,20 @@ Engineering lead
 The Digital Product Release Workspace provides a single location for release admins to define release processes and release readiness targets. Product managers can use it to create and manage products and features, define the scope in versions, and plan and execute releases.
 -   **[Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-product-release.md)**  
 A release groups all the tasks \(projects, epics, stories, enhancements, defects, problems, incidents, and so on\) planned for a specific version of a product or service. Digital Product Release provides two different processes: timeline-oriented and stage-oriented, to help you in executing your releases.
--   **[DPR and GRC integration for release compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-policy-compliance-grc-integ.md)**  
-The integration between Digital Product Release \(DPR\) and ServiceNow® GRC: Policy and Compliance Management connects your release management processes with the enterprise risk and compliance controls. This integration helps you deliver faster, safer, and reliable releases.
 -   **[AI-powered release notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-ai-release-notes-generation.md)**  
 Digital Product Release provides an AI-driven summarization feature that automatically generates release notes for your product and service releases. This capability streamlines the release note creation process, reducing manual effort and improving consistency.
+-   **[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-dashboard-release.md)**  
+Release dashboards provide insights into your releases. You can see their progress, identify any potential risks, and track their software quality. This information can help you to make informed decisions about your releases and ensure their success.
 -   **[Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-holiday-schedule.md)**  
 You can associate a holiday schedule with a release so that the phase and release durations are calculated considering non-working days.
 -   **[Digital Product Release flow actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-flow-action.md)**  
 Digital Product Release provides flow actions that you can use to build custom release workflows in Workflow Studio.
--   **[Digital Product Release dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-dashboard-release.md)**  
-Release dashboards provide insights into your releases. You can see their progress, identify any potential risks, and track their software quality. This information can help you to make informed decisions about your releases and ensure their success.
+-   **[DPR and GRC integration for release compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-policy-compliance-grc-integ.md)**  
+The integration between Digital Product Release \(DPR\) and ServiceNow® GRC: Policy and Compliance Management connects your release management processes with the enterprise risk and compliance controls. This integration helps you deliver faster, safer, and reliable releases.
+-   **[Managing releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-sow-integration.md)**  
+Service Operations Workspace \(SOW\) and Digital Product Release \(DPR\) workspaces provide a unified release and change management experience. You can manage releases, view release details, and associate change requests with releases — all from SOW.
+-   **[Associating change requests with releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-sow-integration-cr.md)**  
+The integration between Service Operations Workspace \(SOW\) and Digital Product Release \(DPR\) workspaces provide a unified release and change management experience. You can associate releases with change requests across both workspaces.
 
 **Parent Topic:**[Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-landing-page.md)
 

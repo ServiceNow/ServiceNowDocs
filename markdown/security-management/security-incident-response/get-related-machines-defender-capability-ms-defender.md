@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,11 +32,9 @@ You can retrieve the list of machines that have accessed the particular observab
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-    \[Omitted image "get\_related\_machines.png"\] Alt text: Get Related Machines from Defender capability implementation
+3.  In the Related links section, select **Show IoC**.
 
-3.  In the Related links section, click **Show IoC**.
-
-4.  Click the Associated Observables related list.
+4.  Select the Associated Observables related list.
 
 5.  Select the associated observables.
 

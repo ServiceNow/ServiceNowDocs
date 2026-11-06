@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/field-service-feature-configuration.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Engagement Messenger reference, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
 
 # Field service feature configuration

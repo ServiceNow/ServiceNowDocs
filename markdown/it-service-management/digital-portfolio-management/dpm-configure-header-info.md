@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use the Admin Center in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure page headers in the DPM Admin Center
@@ -26,9 +26,11 @@ Each solution displays header information for that solution. For example, for a 
 
 -   Services and service offerings \(both business and technical\)
 -   Business applications
--   Application services
+-   Service instances
 -   Service portfolios and taxonomies
 -   Enterprise portfolios and taxonomies
+
+**Note:** You can add up to 7 fields in the **Secondary Values** tab. Fields beyond 7 won’t appear in the DPM Workspace.
 
 ## Procedure
 
@@ -42,7 +44,7 @@ Each solution displays header information for that solution. For example, for a 
 
 4.  Review the field names in the **Secondary Values** tab.
 
-    The field names represent the information displayed on the solution header in the DPM Workspace.
+    The field names represent the information displayed on the solution header in the DPM Workspace. Only 7 field names are displayed in the DPM Workspace.
 
 5.  Configure the fields from the list view.
 

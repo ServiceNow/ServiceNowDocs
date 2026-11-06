@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 13
-breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Okta
@@ -106,7 +106,18 @@ Application administrator
 okta.apps.manage
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/saas-sso-integration.md)
+</table>You can also integrate with Okta using the Configuration Console for Software Asset Management. For more details about the Configuration Console, see [Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/config-console-sam.md).
+
+**Parent Topic:**[Integrate with SSO providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/saas-sso-integration.md)
+
+**Related topics**  
+
+
+[Configuration Console for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/config-console-sam.md)
+
+[Configuration Console overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/config-console-overview.md)
+
+[Configure Software Asset Management using the Configuration Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/configure-sam-from-config-console.md)
 
 ## Create an Okta application
 
@@ -146,7 +157,7 @@ Create an Okta integration profile in your ServiceNow instance.
 
 To create an Okta integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **Okta Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -160,15 +171,15 @@ If you’re using Software Asset Workspace, the option to create the Okta integr
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d117427e518">
+<table id="choicetable_fcx_4nx_qtb"><thead><tr><th align="left" id="d252707e572">
 
 Interface
 
-</th><th align="left" id="d117427e521">
+</th><th align="left" id="d252707e575">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117427e527">
+</th></tr></thead><tbody><tr><td id="d252707e581">
 
 **Core UI**
 
@@ -179,7 +190,7 @@ Action
 3.  Select **Okta Integration Profile**.
 
 
-</td></tr><tr><td id="d117427e569">
+</td></tr><tr><td id="d252707e623">
 
 **Software Asset Workspace**
 
@@ -283,15 +294,15 @@ Option for creating a direct integration profile to view Okta subscriptions afte
 
 5.  Open the Create Connection and Credential dialog box.
 
-<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d117427e944">
+<table id="choicetable_oww_kmj_lzb"><thead><tr><th align="left" id="d252707e1002">
 
 Interface
 
-</th><th align="left" id="d117427e947">
+</th><th align="left" id="d252707e1005">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d117427e953">
+</th></tr></thead><tbody><tr><td id="d252707e1011">
 
 **Core UI**
 
@@ -299,13 +310,13 @@ Action
 
 Select the **Create New Connection &amp; Credential** related link on the SSO integration profile form.
 
-</td></tr><tr><td id="d117427e965">
+</td></tr><tr><td id="d252707e1023">
 
 **Software Asset Workspace**
 
 </td><td>
 
-1.  Selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field
+1.  Selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field
 2.  Select **Open Record** in the record preview.
 3.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -355,7 +366,7 @@ When your OAuth token expires, your Okta integration profile displays an error m
 
 Don’t delete the OAuth 2.0 credential record that is associated with the connection record for your Okta integration profile. If you delete the OAuth 2.0 credential record, you won’t be able to get a new OAuth token after your current OAuth token expires.
 
-After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 ## Okta SSO direct integration profile
 
@@ -416,7 +427,7 @@ Connect an SSO application to monitor all the users and groups who have access t
 
 ### Before you begin
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 ### About this task
 
@@ -434,13 +445,19 @@ If you have already created a direct integration for an application, then connec
 
     Before you can connect an application, it must be associated with a software model. ServiceNow® Software Asset Management automatically creates software models for applications with an external catalog ID that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other applications, you can create a software model manually. For detailed instructions, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/record-terms-software-licenses.md).
 
-4.  Select the date that you want to analyze the last activity from in the **Analyze last activity from** field.
+4.  Select the **Enable group based software model** check box for mapping an SSO group with a specific software model for the application.
+
+    For example, if an application has multiple license models that are linked to specific groups, then you can map a group to a software model to optimize license usage.
+
+    **Important:** If you select this option, you must create a mapping for the SSO group before connecting the application. After the mapping is complete, the SSO subscriptions get automatically created or updated according to the mapped software model. For more information, see [Create an SSO group software model mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-ssogrp-swmodel-mapping.md).
+
+5.  Select the date that you want to analyze the last activity from in the **Analyze last activity from** field.
 
     You can start analyzing login data for individual users and applications from the current date or from up to 60 days earlier. The default value is 30 days. If you select a date prior to the current date, it may take longer for results to appear due to the amount of data that you want to analyze.
 
     After you submit a value in the **Analyze last activity from** field, the field becomes read only.
 
-5.  Select **Connect**.
+6.  Select **Connect**.
 
     **Tip:** To connect multiple applications simultaneously, select the check box for each application that you want to connect in the SSO Applications list. Select the Actions on the selected row menu and then select **Connect**. If any applications aren’t associated with a software model, the name of the **Connect** menu item is updated to indicate that only some of the applications are connected. For example, a **Connect \(1 of 4\)** menu item indicates that only 1 of the four apps that you selected are connected. Add software models to the remaining applications to proceed with the connections.
 
@@ -450,6 +467,18 @@ If you have already created a direct integration for an application, then connec
 After the SSO application connects, your ServiceNow instance automatically creates users, groups, subscriptions, and reclamation rules that are refreshed daily. If you delete a user, application, group, or group membership from the Okta Developer Console, the changes are reflected on your ServiceNow instance.
 
 Review all automatically generated reclamation rules to confirm that they meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+
+After connecting the SSO application, view information about the SSO profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **SSO integration profiles**. You can select an integration profile to view the following related lists.
+
+-   SSO Applications
+-   Directory Users
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Directory Jobs
+-   Directory Job Results
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

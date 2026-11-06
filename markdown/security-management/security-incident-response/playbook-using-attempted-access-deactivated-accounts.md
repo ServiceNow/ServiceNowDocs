@@ -1,20 +1,20 @@
 ---
 title: Use the Attempted Access to Deactivated Accounts playbook
-description: Use this playbook when an employee whose account is terminated, disabled, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
+description: Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/playbook-using-attempted-access-deactivated-accounts.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for Attempted Access to Deactivated Accounts, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Use the Attempted Access to Deactivated Accounts playbook
 
-Use this playbook when an employee whose account is terminated, disabled, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
+Use this playbook when an employee whose account is terminated, inactive, or separated attempts to log in with their credentials. The following steps give you a walkthrough of the actions, tasks, and subflows that are available in the Attempted Access to Deactivated Accounts playbook.
 
 ## Before you begin
 

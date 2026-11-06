@@ -4,7 +4,7 @@ description: Extend the Journey designer application's capabilities by integrati
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -14,8 +14,6 @@ Extend the Journey designer application's capabilities by integrating other appl
 
 Integrating supported applications expands the features and capabilities of Journey designer. Supported applications have unique installation and configuration requirements. Supported integration applications can be installed before or after installing the Journey designer app.
 
--   [Learning Posts]() v5.0.0 \[sn\_lnp\]
--   [Listening Posts]() v5.0.0 \[sn\_lp\]
 -   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/manager-hub-overview.md) v1.0.0 \[sn\_mh\]
 -   [Microsoft Exchange Online spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/ms-exch-online-spoke.md) v3.2.0 \[sn\_ex\_online\_spke\]
 -   [Retry Handler Framework v1.0.1 \[sn\_handler\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/retry-handler-frmwrk.md)
@@ -23,10 +21,6 @@ Integrating supported applications expands the features and capabilities of Jour
     The Retry Handler Framework is required when using the Microsoft Exchange Online spoke.
 
 
--   **[Integrating Learning Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-intgrt-lrnng-pst.md)**  
-Integrate Learning Posts with Journey designer to create and access an omni-channel learning experience empowering employees with the right learning at the right time, making learning accessible.
--   **[Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/integrating-li-with-jny.md)**  
-Use Listening Posts with Journey designer to embed pulse surveys to get insight into employees' experiences and share those insights with managers.
 -   **[Integrating Manager Hub with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsngr-manager-hub-intgr.md)**  
 Integrate Manager Hub with Journey designer to facilitate daily activities among various cross-functional processes and departments, and automate processes such as new hire onboarding.
 -   **[Integrating Microsoft Exchange Online spoke with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-ms-exch-ol-spoke-intg.md)**  

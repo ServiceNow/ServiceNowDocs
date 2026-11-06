@@ -1,22 +1,39 @@
 ---
-title: NowChatConfiguration - iOS
-description: The NowChatConfiguration class enables you to configure options on a chat session, such as showing a prompt before closing a chat window, disabling features while using chat, applying different conversation options when using chat, and configuring UI components in NowChat.Configures options for the current chat session. This method enables you to show a prompt before closing a chat window, disable features while using chat, apply different conversation options when using chat, and configure UI components in NowChat.Defines the UI configurations to apply to the upload attachment button that appears next to the text input while talking with a live agent.Creates and returns a ClosePrompt object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure the close prompt options within a chat session.Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat.
+title: NowChatConfiguration class - iOS
+description: Configures options on a chat session.Configures options for the current chat session. This method enables you to show a prompt before closing a chat window, disable features while using chat, apply different conversation options when using chat, and configure UI components in NowChat.Defines the UI configurations to apply to the upload attachment button that appears next to the text input while talking with a live agent.Creates and returns a ClosePrompt object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure the close prompt options within a chat session.Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat.Defines the UI configurations to apply to the speech-to-text microphone button that appears in the text input bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Mobile SDK API reference - iOS, Mobile SDK API reference, API reference, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Mobile SDK - iOS, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowChatConfiguration - iOS
+# NowChatConfiguration class- iOS
 
-The NowChatConfiguration class enables you to configure options on a chat session, such as showing a prompt before closing a chat window, disabling features while using chat, applying different conversation options when using chat, and configuring UI components in NowChat.
+Configures options on a chat session.
 
-**Parent Topic:**[Mobile SDK API reference - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
+Use cases:
+
+-   Showing a prompt before closing a chat window.
+-   Turning off features while using chat.
+-   Applying conversation options when using chat.
+-   Configuring UI components in NowChat.
+
+Use NowChatConfiguration properties to integrate NowVoice with NowChat.
+
+|Name|Type|Description|
+|----|----|-----------|
+|voiceConfiguration|[NowVoiceEndpoint?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceEndpointiOSStruct.md)|The voice endpoint for the in-chat voice button. When `nil`, uses the first endpoint in your ServiceNow instance's Mobile SDK settings.|
+|voiceUIConfiguration|[NowVoiceUIConfiguration?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceUIConfigiOSStruct.md)|Presentation options to apply to the voice UI launched from within chat.|
+|voiceCallbacks|[NowVoiceCallbacks?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md)|Callbacks for voice sessions launched from within chat.|
+
+When these properties are set, a voice button appears in the NowChat UI. Tapping it launches the voice agent UI as a full-screen overlay within the chat flow. The [onCallEnded callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowVoiceCallbacksiOSStruct.md) is invoked when the voice session ends, returning the user to the chat.
+
+**Parent Topic:**[Mobile SDK - iOS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKiOSAPI.md)
 
 ## NowChatConfiguration - NowChatConfiguration\(closePrompt: ClosePrompt?, disabledFeatures: \[Feature\]? = nil, conversationOptions: \[ConversationOption\]? = nil, uiConfiguration: UIConfiguration? = nil\)
 
@@ -349,7 +366,7 @@ func makeChatScreen() -> UIViewController? {
 }
 ```
 
-## NowChatConfiguration - UIConfiguration\(closeButton: CloseButtonType? = nil, attachmentUploadButton: AttachmentUploadButton? = nil\)
+## NowChatConfiguration - UIConfiguration\(closeButton: CloseButtonType? = nil, attachmentUploadButton: AttachmentUploadButton? = nil, voiceInputButton: VoiceInputButton? = nil, hideBranding: Bool = false\)
 
 Creates and returns a UIConfiguration object based on the passed parameters. You then pass this object into the NowChatConfiguration\(\) constructor to configure UI components in NowChat.
 
@@ -377,7 +394,7 @@ CloseButtonType?
 
 </td><td>
 
-Configuration for the `CloseButtonType` that appears on the NowChat toolbar and is used for back navigation.Valid values:
+UI configuration for the `CloseButtonType` that appears on the NowChat toolbar and is used for back navigation.Valid values:
 
 -   image \(UIImage\): Create a close button with an image.
 -   text \(String\): Create a close button as text. Use this to pass a custom name for the back button.
@@ -418,7 +435,7 @@ attachmentUploadButton
 
 </td><td>
 
-Configuration for the `AttachmentUploadButton` that is shown next to the text input while talking with a live agent.Call the [NowChatConfiguration - AttachmentUploadButton\(isVisible: Boolean = true\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) method to define the value of this parameter.
+UI configuration for the `AttachmentUploadButton` that is shown next to the text input while talking with a live agent.Call the [NowChatConfiguration - AttachmentUploadButton\(isVisible: Boolean = true\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md) method to define the value of this parameter.
 
 For example:
 
@@ -429,12 +446,41 @@ let uiConfigurationWithAttachmentButton = NowChatConfiguration.UIConfiguration(a
 let chatConfiguration = NowChatConfiguration(uiConfiguration: uiConfigurationWithAttachmentButton)
 ```
 
+</td></tr><tr><td>
+
+voiceInputButton
+
+</td><td>
+
+[VoiceInputButton?](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsiOS.md)
+
+</td><td>
+
+Optional. UI configuration for the speech-to-text microphone button shown in the text input bar.Default: nil \(the button is visible\)
+
+</td></tr><tr><td>
+
+hideBranding
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that indicates whether to hide the ServiceNow branding.Valid values:
+
+-   true: ServiceNow branding is hidden.
+-   false: ServiceNow branding is shown.
+
+Default: false
+
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|Object|UI configuration object|
+|UIConfiguration|Object containing the UI configurations defined in the provided parameters.|
 
-The following code example shows how to call the UIConfiguration\(\) subclass to set the chat UI configuration.
+The following code example calls the UIConfiguration\(\) subclass to set the chat UI configuration.
 
 ```
 func makeChatScreen() -> UIViewController? {
@@ -455,6 +501,65 @@ func makeChatScreen() -> UIViewController? {
   let result = chatService.makeChatUI(theme: CarrascoChatTheme(chatColors: ChatColors()), chatConfiguration: chatConfiguration)
 
   switch result { 
+    case .success(let chatViewController):
+      return chatViewController
+    case .failure(let error):
+      debugPrint("Chat screen creation failed with error: \(error)")
+      return nil
+  }
+}
+```
+
+## NowChatConfiguration - VoiceInputButton\(isVisible: Bool\)
+
+Defines the UI configurations to apply to the speech-to-text microphone button that appears in the text input bar.
+
+VoiceInputButton is a struct of the NowChatConfiguration class.
+
+<table id="table_v2a_5zr_fdc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+isVisible
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that sets the visibility of the speech-to-text microphone button in the text input bar.Valid values:
+
+-   true: The button is visible.
+-   false: The button is hidden.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|VoiceInputButton|Object containing the UI configuration for the speech-to-text microphone button.|
+
+The following code example hides the speech-to-text microphone button.
+
+```
+func makeChatScreen() -> UIViewController? {
+  let voiceInputButton = NowChatConfiguration.VoiceInputButton(isVisible: false)
+  let uiConfigurationWithVoiceInputButton = NowChatConfiguration.UIConfiguration(voiceInputButton: voiceInputButton)
+
+  let chatConfiguration = NowChatConfiguration(uiConfiguration: uiConfigurationWithVoiceInputButton)
+
+  let result = chatService.makeChatUI(theme: CarrascoChatTheme(chatColors: ChatColors()), chatConfiguration: chatConfiguration)
+
+  switch result {
     case .success(let chatViewController):
       return chatViewController
     case .failure(let error):

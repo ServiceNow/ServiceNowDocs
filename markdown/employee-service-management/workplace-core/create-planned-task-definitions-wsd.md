@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing workplace tasks, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Managing workplace tasks, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create planned task definitions
@@ -93,15 +93,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d319575e257">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d343315e257">
 
 Option
 
-</th><th align="left" id="d319575e260">
+</th><th align="left" id="d343315e260">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d319575e266">
+</th></tr></thead><tbody><tr><td id="d343315e266">
 
 **Create another planned task definition**
 
@@ -109,7 +109,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d319575e278">
+</td></tr><tr><td id="d343315e278">
 
 **Generate planned tasks immediately**
 

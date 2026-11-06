@@ -1,28 +1,24 @@
 ---
 title: Configure an event handler with Now Assist
-description: Use Now Assist in UI Builder to simplify the configuration of event handlers. At present, you can configure the following event handlers using Now Assist in UI Builder: Open page or URL, open or close modals, and viewport load requested.
+description: Use Now Assist in UI Builder to configure event handlers. At present, you can configure link to destination, open or close modal, and view load requested event handlers using Now Assist in UI Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/ui-builder/configure-an-event-handler-with-now-assist.html
 release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
-breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Configure an event handler with Now Assist
 
-Use Now Assist in UI Builder to simplify the configuration of event handlers. At present, you can configure the following event handlers using Now Assist in UI Builder: Open page or URL, open or close modals, and viewport load requested.
+Use Now Assist in UI Builder to configure event handlers. At present, you can configure link to destination, open or close modal, and view load requested event handlers using Now Assist in UI Builder.
 
 ## Before you begin
 
-Install Creator Pro Plus, which includes the UI generation plugin.
-
-Activate the Event handler generation skill from the Now Assist Admin.
-
-Role required: ui\_builder\_admin, and now.assist.creator
+Role required: ui\_builder\_admin
 
 ## Procedure
 
@@ -42,23 +38,23 @@ Role required: ui\_builder\_admin, and now.assist.creator
 
 5.  To add an event handler to your component's event, go to the configuration panel and select **Events**.
 
-    An event handler lets you assign an event to a component. For example, if you add a button component to your page, you want it to perform an action when a user selects it.
+    An event handler lets you assign an event to a component. For example, if you add a button component to your page, you want it to perform an action when a user clicks it.
 
-6.  In the event handler, select **Open page or URL** and select **Continue**.
-
-    The Open page or URL event handler was previously called Link to destination.
+6.  In the event handler, select **Link to destination** and select **Continue**.
 
 7.  In the Configure section, select **Get Started**.
 
-8.  In the **Generate configuration with Now Assist** field, enter a prompt for the action you want to perform \(for example, open a specific website\) or select an option from the available prompts.
+8.  In the **Generate configuration with Now Assist** field:
 
-    \[Omitted image "event-handler-NowAssist.png"\] Alt text: Enter the action you want to perform or select an option from the dynamic prompts.
+    -   Type the action you want to perform \(For example, open www.servicenow.com\) or select an option from the dynamic prompts.
+    -   You can reference data from page context.
+    \[Omitted image "event-handler-NowAssist.png"\] Alt text: Generate configuration with Now Assist
 
 9.  Select the right arrow icon.
 
-    The prompt is sent to the LLM, which processes the request and provides a response that configures the event handler.
+    The configurations are set.
 
-10. Either reject the configurations, or accept and edit the configurations.
+10. You can either reject, or accept and edit the configurations.
 
 11. After you review the changes, select **Add**.
 

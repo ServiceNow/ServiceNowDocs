@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/install-automation-discovery.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Automation Discovery, Platform Analytics]
 ---
@@ -21,6 +21,8 @@ You can install the Automation Discovery application \(sn\_auto\_discovery\) usi
 Role required: admin
 
 ## About this task
+
+**Important:** The deprecation of Automation Discovery was announced in the Zurich release. From the Brazil release, Automation Discovery is no longer deployed, enhanced, or supported. You can continue to use existing deployments but can't initiate new ones. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The following items are installed with Automation Discovery: plugins, roles, and tables.
 
@@ -50,6 +52,4 @@ Confirm that the activation of Predictive Intelligence has successfully installe
 -   platform\_ml\_write
 
 For more information see [Install Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-predictive-intelligence.md) or article [KB1641602](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1641602) on the Now Support Knowledge Base.
-
-For best results, install the VA Conversations for ITSM \(sn\_itsm\_va\) and the NLU model builder \(com.snc.nlu\_studio\) plugins. For more information, see [Additional plugins for Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/additional-va-plugins.md) and [Activate the NLU Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-nlu-workbench.md).
 

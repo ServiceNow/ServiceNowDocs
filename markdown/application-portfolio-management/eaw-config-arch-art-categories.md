@@ -1,23 +1,27 @@
 ---
-title: Configure architectural artifact categories
-description: The architectural artifact categories enable you to categorize and manage artifacts more efficiently.
+title: Manage architectural artifact categories
+description: The architectural artifact categories enable you to categorize and manage artifacts more efficiently. Architectural artifact categories enable you to organize architectural artifacts and align them with your business goals and strategies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-config-arch-art-categories.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the Setup page in the Enterprise Architecture Workspace, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Configure architectural artifact categories
+# Manage architectural artifact categories
 
-The architectural artifact categories enable you to categorize and manage artifacts more efficiently.
+The architectural artifact categories enable you to categorize and manage artifacts more efficiently. Architectural artifact categories enable you to organize architectural artifacts and align them with your business goals and strategies.
 
--   **[View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-arch-art-categories.md)**  
-View the list of all architectural artifact categories in the Enterprise Architecture Workspace.
--   **[Add or edit an architectural artifact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-arch-art-category.md)**  
-Add  or edit an artifact category. Assign the category to an architectural artifact. Categories enable you to categorize and manage artifacts more efficiently.
+Using architectural artifact categories, you can classify artifacts by type such as architectural decision records \(ADR\), URLs, and attachments.
 
-**Parent Topic:**[Work with the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
+**Parent Topic:**[Exploring the Setup page in the Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup.md)
+
+**Related topics**  
+
+
+[View all architectural artifact categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-arch-art-categories.md)
+
+[Add or edit an architectural artifact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-edit-arch-art-category.md)
 

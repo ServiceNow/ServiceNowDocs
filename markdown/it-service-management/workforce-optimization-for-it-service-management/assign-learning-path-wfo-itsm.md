@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Learning in Workforce Optimization for ITSM, Training your teams using Coaching in Workforce Optimization for ITSM, Coaching in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Learning, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Assign a learning path to agents
@@ -17,6 +17,8 @@ breadcrumb: [Learning in Workforce Optimization for ITSM, Training your teams us
 Assign a learning path to one or more agents and add a due date for them to complete the path.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_cfg\_itsm.manager
 
@@ -40,15 +42,15 @@ Role required: sn\_wfo\_cfg\_itsm.manager
 
 6.  In the **Assign learning path** screen, assign the learning path to groups or team members.
 
-<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d333902e152">
+<table id="choicetable_ksc_2y2_svb"><thead><tr><th align="left" id="d195913e168">
 
 To
 
-</th><th align="left" id="d333902e155">
+</th><th align="left" id="d195913e171">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d333902e161">
+</th></tr></thead><tbody><tr><td id="d195913e177">
 
 **Assign the path to all groups that you directly and additionally manage**
 
@@ -56,7 +58,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d333902e173">
+</td></tr><tr><td id="d195913e189">
 
 **Assign the path to specific groups or team members**
 

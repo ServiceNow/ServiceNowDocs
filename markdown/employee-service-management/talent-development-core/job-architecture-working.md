@@ -7,16 +7,16 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills Workspace, Exploring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Working with job architecture
 
 Create, update or modify skills and job architecture data from a single location in the Skills Workspace.
 
--   **[Creating a new role group through the Skills Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/create-new-role-group.md)**  
+-   **[Creating a role group through the Skills Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/create-new-role-group.md)**  
 Add a new role group in the Skills Workspace to create a category of roles in your organization.
 -   **[Add more skills to a role group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/adding-skills-with-skills-matrix.md)**  
 Add new skills at each role level in a role group that were not added when creating the role group using the Skills Matrix in the Skills Workspace.
@@ -25,5 +25,5 @@ Edit skills data and their proficiency levels to manage the progression at each 
 -   **[Create related role groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/related-role-groups.md)**  
 Create a connection between two different role groups in the Skills Workspace to enable a transition path for the employees to move across different role groups.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

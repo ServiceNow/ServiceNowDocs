@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Goals
 classification: employee-goals
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Goals, Talent Development, Employee Service Management]
+breadcrumb: [Employee Goals, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Integrations for Employee Goals
@@ -32,6 +32,4 @@ The Employee Goals app provides an integration with the following HCM systems:
 
     Integrate Workday with the Employee Goals app to access goals seamlessly from the Employee Center. For more information about the integration process with Workday, refer to [Workday HR Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/workday-hr-spoke.md).
 
-
-**Parent Topic:**[Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-landing.md)
 

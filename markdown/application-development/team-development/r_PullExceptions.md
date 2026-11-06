@@ -7,9 +7,9 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Pull exceptions
@@ -23,6 +23,4 @@ Pulling ignores versions when certain conditions occur.
 |Collisions|A collision is detected when the pulled version and the current local version both include modifications to the same record. You must resolve all collisions before you can pull.|
 |Previously resolved collisions|When you resolved a collision by accepting either the pulled version or local version of a record, the pull remembers your decision and accepts the version that you indicated as a "previously resolved collision".|
 |Skipped|Pulls skip versions where there is a problem with the version record such as a corrupt or missing version.|
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

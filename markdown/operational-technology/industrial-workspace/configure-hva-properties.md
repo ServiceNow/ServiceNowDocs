@@ -1,5 +1,5 @@
 ---
-title: Configure the properties for Hardware Vulnerability Assessment
+title: Configure properties for Hardware Vulnerability Assessment
 description: Configure the properties required to perform hardware vulnerability assessment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/industrial-workspace/configure-hva-properties.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the Hardware Vulnerability Assessment of Operational Technology devices using guided setup, Configure, Industrial Workspace, Operational Technology]
 ---
 
-# Configure the properties for Hardware Vulnerability Assessment
+# Configure properties for Hardware Vulnerability Assessment
 
 Configure the properties required to perform hardware vulnerability assessment.
 
@@ -28,17 +28,17 @@ Role required: sn\_vul.manage\_exposure\_assessment and admin
 
 2.  Perform the following configurations.
 
-<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d76906e111">
+<table id="choicetable_gnl_snc_xfc"><thead><tr><th align="left" id="d62110e113">
 
 Property
 
-</th><th align="left" id="d76906e114">
+</th><th align="left" id="d62110e116">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d76906e120">
+</th></tr></thead><tbody><tr><td id="d62110e122">
 
-**`sn_vul_analyst.auto_create_vits`: This property determines if new vulnerable item records are created automatically for fully matched hardware vulnerability assessments. When set to true, new vulnerable item records are created automatically for fully matched hardware vulnerability assessments.
+**`sn_vul_analyst.auto_create_vits`: This property determines if new vulnerable item records will be created automatically for fully matched hardware vulnerability assessments. When set to true, new vulnerable item records are created automatically for fully matched hardware vulnerability assessments.
 
 **
 
@@ -48,9 +48,9 @@ Select **Yes**.
 
  The default value is **Yes**. When set to **Yes**, new vulnerable item records are created automatically for fully matched hardware vulnerability assessments.
 
- Clear this check box if you want to create vulnerable items \(VITs\) manually.
+ Deselect if you want to create vulnerable items \(VITs\) manually.
 
-</td></tr><tr><td id="d76906e152">
+</td></tr><tr><td id="d62110e154">
 
 **`sn_vul_analyst.assess_unmapped_disc_models`: Enabling this property includes discovery models without CPE mappings in the assessment.
 
@@ -62,9 +62,9 @@ The default value is **No**.
 
  Select **Yes** to perform vulnerability assessments for discovery models of OT devices that aren’t CPE-mapped.
 
-</td></tr><tr><td id="d76906e178">
+</td></tr><tr><td id="d62110e180">
 
-**`hva_confidence_score_threshold`: This property controls the minimum confidence score threshold required for creation of vulnerability assessments. Only matches with scores equal to or above this threshold will generate vulnerability assessments. The threshold value must be a decimal number between 0.0 and 1.0. The default value is 0.75.
+**`hva_confidence_score_threshold`: This property controls the minimum confidence score threshold required for creation of vulnerability assessments. Only matches with scores equal to or above this threshold will generate vulnerability assessments. The threshold value must be a decimal number between 0.0 and 1.0. Default value OOB is 0.75.
 
 **
 
@@ -74,7 +74,7 @@ Edit the value according to your requirement.
 
  The default value is 0.75.
 
-**Note:** You can set the value for Confidence Score to 0. But an assessment won't be created with a 0 Confidence Score.
+**Note:** You can set the value for Confidence Score to 0. But an assessment won't be created with 0 Confidence Score.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

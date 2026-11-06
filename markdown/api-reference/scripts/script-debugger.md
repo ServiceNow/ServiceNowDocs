@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script Debugger and Session Log
@@ -65,26 +65,16 @@ To view debug logs, see [Display debugging logs](https://raw.githubusercontent.c
 
 **Note:** When the Script Debugger is enabled, code is executed in interpreted mode. If parts of the script are set to run in strict mode, the debugger is not able to find the correct objects and the debugger fails. The Script Debugger must run on scripts outside of strict mode.
 
--   **[Script Tracer and debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-tracer.md)**  
-The Script Tracer can help you filter your debugging search to quickly narrow down script problems. You can identify lines of scripts in the Glide record that have undergone change during execution. Finding those specific lines of scripts rather than doing a wide search helps save time and improves productivity.
--   **[Parts of the user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/parts-script-debugger-interface.md)**  
-The Script Debugger interface displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
--   **[Script Debugger step-through and console controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/step-through-controls.md)**  
-After the Script Debugger pauses a script, use the step-through controls to move between script lines and move between scripts in the call stack. Use the Console controls to expand console, collapse console, clear console, and rerun expressions.
+-   **[Access the Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/launch-script-debugger.md)**  
+Developers can access the Script Debugger from the application navigator, Studio, or from the syntax editor.
+-   **[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/parts-script-debugger-interface.md)**  
+The Script Debugger user interface \(UI\) displays information about breakpoints set, the call stack and line number of the currently executing script line, details about variables and transactions, and status of console.
 -   **[Evaluate expressions in runtime using Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/evaluate-expressions.md)**  
 Define, declare, and verify new variables and functions while you debug a script in runtime using Console. The script execution must be paused to use Console.
--   **[Launch the Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/launch-script-debugger.md)**  
-Developers can launch the Script Debugger from the application navigator, Studio, or from the syntax editor.
 -   **[Set or remove breakpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/set-remove-breakpoints.md)**  
-Set breakpoints or conditional breakpoints to pause scripts at specific lines, and remove breakpoints when you are done debugging them.
+Set breakpoints or conditional breakpoints to pause scripts at specific lines, and remove breakpoints when you're done debugging them.
 -   **[Set or remove logpoints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/set-remove-logpts.md)**  
 Set breakpoints or conditional logpoints to log messages to the console at specific lines, and remove logpoints when you are done debugging them.
--   **[Script Debugger status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger-status.md)**  
-The Script Debugger status determines what debugging actions are available and what information it can display.
--   **[Transaction details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/transaction-details.md)**  
-The Script Debugger displays transaction details for the current paused user session.
--   **[Available transaction details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/available-transaction-details.md)**  
-The Script Debugger provides a standard set of transaction details for developers to debug and troubleshoot scripts.
 -   **[Script Debugger multiple developer support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/multiple-developer-support.md)**  
 The Script Debugger allows multiple developers to debug their own transactions without affecting each other.
 -   **[Script Debugger impersonation support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/impersonation-support.md)**  

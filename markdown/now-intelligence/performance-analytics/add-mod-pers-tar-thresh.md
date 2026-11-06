@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Targets and thresholds, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Targets and thresholds, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Add or modify another user's personal target or threshold
@@ -26,7 +26,7 @@ You can either look up the personal targets or thresholds of a user or create a 
 
 ## Procedure
 
-1.  Navigate to **Performance Analytics** &gt; **Targets** or **Performance Analytics** &gt; **Thresholds**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Targets** or **Platform Analytics Administration** &gt; **Indicators** &gt; **Thresholds**.
 
 2.  To open an existing personal threshold or target to modify, follow these steps:
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Analytics and Reporting Solutions for Legal Service Delivery, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Analytics and Reporting Solutions for Legal Service Delivery, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Operations dashboard

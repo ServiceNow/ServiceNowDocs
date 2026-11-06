@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Account recovery \(ACR\), Multi-Provider SSO configurations, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Account recovery \(ACR\), Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Configure an account recovery user
@@ -18,7 +18,10 @@ Configure an account recovery user to perform account recovery activities on you
 
 An account recovery user is a user account that administrators can use to perform account recovery tasks, such as addressing an SSO misconfiguration or addressing expired certificates.
 
-**Note:** If you are using account recovery on your instance, you must configure an account recovery user. This step is necessary before enabling multiple-provider single sign-on on an instance.
+**Note:**
+
+-   If you're using account recovery on your instance, you must configure an account recovery user. This step is necessary before enabling multiple-provider single sign-on on an instance.
+-   Enabling ACR disables the local interactive log-ins \(username or password based\) when SSO is enabled to your instances.
 
 ## Configure an account recovery user from the Account Recovery Properties page
 
@@ -26,18 +29,18 @@ Configure an account recovery from the Account Recovery properties page.
 
 ### Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 For a fresh instance to configure ACR, you must do the following:
 
--   Activate Mutli-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
+-   Activate Multi-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
 -   Enable ACR \(`glide.sso.acr.enabled`\) - This is enabled by default in case of a fresh instance.
 -   Before enabling SSO property \(`glide.authenticate.multisso.enabled`\), the administrator must enroll as an ACR user.
 -   Administrator must set a password for local login and register MFA before enrolling as an ACR user.
 
 For an upgraded instance to use ACR, you must do the following:
 
--   Activate Mutli-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
+-   Activate Multi-SSO plugin \(`com.snc.integration.sso.multi.installer`\)
 -   Enable ACR \(`glide.sso.acr.enabled`\)
 
     **Note:** In case of upgraded instance, the administrator must enable ACR.
@@ -81,7 +84,7 @@ Configure an administrator as an account recovery user from the admin user profi
 
 ### Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ### Procedure
 

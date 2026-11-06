@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service catalog workflows, Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -89,7 +89,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 6.  Drag the activity **Create Task** onto the arrow between **Procurement** and **End**, and then fill in the form.
 
-<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d294713e469">
+<table id="choicetable_yn3_s25_dq"><tbody><tr><td id="d298472e469">
 
 **Name**
 
@@ -97,7 +97,7 @@ After creating the workflow to add a laptop fulfillment process, add the activit
 
 Set Up Laptop
 
-</td></tr><tr><td id="d294713e478">
+</td></tr><tr><td id="d298472e478">
 
 **Stage**
 
@@ -105,7 +105,7 @@ Set Up Laptop
 
 Fulfillment
 
-</td></tr><tr><td id="d294713e487">
+</td></tr><tr><td id="d298472e487">
 
 **Task Type**
 
@@ -113,7 +113,7 @@ Fulfillment
 
 Catalog Task
 
-</td></tr><tr><td id="d294713e496">
+</td></tr><tr><td id="d298472e496">
 
 **Priority**
 
@@ -121,7 +121,7 @@ Catalog Task
 
 3 - Moderate
 
-</td></tr><tr><td id="d294713e505">
+</td></tr><tr><td id="d298472e505">
 
 **Fulfillment Group**
 
@@ -129,7 +129,7 @@ Catalog Task
 
 Hardware
 
-</td></tr><tr><td id="d294713e515">
+</td></tr><tr><td id="d298472e515">
 
 **Short Description**
 

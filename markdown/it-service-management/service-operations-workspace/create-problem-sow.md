@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Problem Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Problem Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create a problem in Service Operations Workspace
@@ -24,15 +24,15 @@ Role required: itil or problem\_coordinator
 
 1.  Create a problem from any of the following sources.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d329479e52">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d189953e52">
 
 Option
 
-</th><th align="left" id="d329479e55">
+</th><th align="left" id="d189953e55">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d329479e61">
+</th></tr></thead><tbody><tr><td id="d189953e61">
 
 **From any Problem list**
 
@@ -52,7 +52,7 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d329479e108">
+</td></tr><tr><td id="d189953e108">
 
 **From an incident**
 
@@ -63,7 +63,7 @@ Description
 3.  Select **Create problem**.
 
 
-</td></tr><tr><td id="d329479e135">
+</td></tr><tr><td id="d189953e135">
 
 **From a customer interaction regarding an issue with a cause that must be investigated**
 

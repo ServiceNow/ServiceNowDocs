@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: reference
-last_updated: "2026-02-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Override AI Search theming, AI Search in Service Portal, Configuring search in a portal, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Override AI Search theming, AI Search in Service Portal, Configurin
 
 You can customize the look and feel of the AI Search experience in Service Portal by updating the relevant CSS variables.
 
-The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see [Using AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/use-ais.md).
+The following CSS variables control the look and feel of the AI Search features in Service Portal. For more information about AI Search features, see Using AI Search.
 
 You can edit these variables in the **CSS variables** field of a Theme \[sp\_theme\] record. You can also configure these variables with a CSS Include associated with a portal's theme. For more information, see the following topics:
 
@@ -225,7 +225,7 @@ Filter item \(checkbox label\) color.
 
 </td><td>
 
-  **Clear All** and **Clear** link color in facets filter on hover.
+ **Clear All** and **Clear** link color in facets filter on hover.
 
 </td></tr><tr><td>
 
@@ -381,7 +381,7 @@ Genius result Top Result tag text color.
 
 </td><td>
 
-Differentiates the radius for button and search bat buttons.
+Differentiates the radius for button and search bar buttons.
 
 </td></tr><tr><td>
 
@@ -453,7 +453,7 @@ Genius button border color on hover inside the confirmation.
 
 </td><td>
 
-  Genius button background color on click inside the confirmation modal.
+ Genius button background color on click inside the confirmation modal.
 
 </td></tr><tr><td>
 
@@ -569,7 +569,7 @@ The same variable as *--classicsponlydonotuse--rem-multipy*. **Note:** It's not 
 
 </td><td>
 
-None
+`transparent`
 
 </td><td>
 
@@ -587,7 +587,7 @@ Text background color for title highlights in search results.**Note:** For this 
 }
 ```
 
-To learn about configuring settings in EVAM view templates, see [Define an EVAM view template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/define-evam-template.md).
+To learn about configuring settings in EVAM view templates, see .
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a CSS include to override theming for AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/css-override-ais-theming-sp.md)

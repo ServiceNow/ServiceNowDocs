@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Microsoft 365 SaaS License Management success guide, Success Guides, Success portal view in Software Asset Workspace, Software Asset Workspace, Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import Microsoft 365 subscription entitlements
@@ -118,7 +118,7 @@ Software Asset Workspace
 
     2.  Select the display name for a software entitlement record.
 
-    3.  On the Software Entitlements form, select the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon\) next to the **Software model** field.
+    3.  On the Software Entitlements form, select the preview icon \[Omitted image "preview-icon.png"\] next to the **Software model** field.
 
     4.  Confirm that the discovery map and suite components match the values on the template for Microsoft 365 entitlements.
 

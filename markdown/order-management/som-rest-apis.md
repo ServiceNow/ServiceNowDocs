@@ -1,0 +1,39 @@
+---
+title: Sales Customer Relationship Management REST APIs
+description: Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to create and manage Sales CRM entities such as pricing, leads, quotes, and orders from external systems.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-rest-apis.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Sales Customer Relationship Management]
+---
+
+# Sales Customer Relationship Management REST APIs
+
+Sales Customer Relationship Management \(Sales CRM\) APIs provide endpoints to create and manage Sales CRM entities such as pricing, leads, quotes, and orders from external systems.
+
+|REST API|Description|
+|--------|-----------|
+|[Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/entitlement-api.md)|The Entitlement API provides endpoints to create and retrieve entitlement records from an instance.|
+|[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/lead-api.md)|The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.|
+|[Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/order_csm-api.md)|The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.|
+||The Product Catalog Search API provides endpoints to search the product catalog and retrieve products that match supplied search parameters, and also catalog items such as eligible product catalog-category hierarchies.|
+|[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/product-inventory-open-api.md)|The Product Inventory Open API provides endpoints to create and retrieve product inventories.|
+||The Sales CRM Pricing API provides endpoints to create, update, and retrieve pricing records.|
+|[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/sales_agreement-api.md)|The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.|
+||The Sales Cart API gives an external system programmatic control of a ServiceNow sales cart.|
+||The Work Order Management API provides endpoints to create, update, and retrieve work orders.|
+
+**Parent Topic:**[Sales Customer Relationship Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-reference.md)
+
+**Related topics**  
+
+
+[bundle-telmt.tmt-api-reference]
+
+[Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-product-type.md)
+
+[API implementation and reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-implementation-reference.md)
+

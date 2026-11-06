@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing workplace tasks, Workplace Core, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -91,15 +91,15 @@ Date and time when the task should start.
 
     **Note:** You can also use this definition to generate planned tasks later. See the instructions in the [Generate planned tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/create-planned-task-definitions-wsd.md) topic.
 
-<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d318884e230">
+<table id="choicetable_hkt_5l1_xlb"><thead><tr><th align="left" id="d342665e230">
 
 Option
 
-</th><th align="left" id="d318884e233">
+</th><th align="left" id="d342665e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d318884e239">
+</th></tr></thead><tbody><tr><td id="d342665e239">
 
 **Create another planned task definition**
 
@@ -107,7 +107,7 @@ Action
 
 Select **Add another task definition**.
 
-</td></tr><tr><td id="d318884e251">
+</td></tr><tr><td id="d342665e251">
 
 **Generate planned tasks immediately**
 

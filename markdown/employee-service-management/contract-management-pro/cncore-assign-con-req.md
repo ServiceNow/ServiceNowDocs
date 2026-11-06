@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Assign a contract request
@@ -34,8 +34,10 @@ When a contract user submits a request, it is automatically assigned to a group 
 
 4.  Assign the request to yourself or to another member from the assigned group.
 
-    -   To assign the request to yourself, click **Assign to me**.
-    -   To assign the request to another member, on the **Details** tab, select a user in the **Assigned to** field and click **Save**.
+    -   To assign the request to yourself, select **Assign to me**.
+    -   To assign the request to another member, on the **Details** tab, select a user in the **Assigned to** field and select **Save**.
+    \[Omitted image "cmpro-assign-lr.png"\] Alt text: Assign request in your workspace.
+
 
 **Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
 

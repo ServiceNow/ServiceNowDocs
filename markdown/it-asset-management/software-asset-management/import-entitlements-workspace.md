@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import bulk entitlements in workspace
@@ -44,6 +44,8 @@ You can leverage the Activity center in the Software asset overview landing page
 
     **Note:** By default, the **Unit cost** column in the spreadsheet takes into account the currency that your system is set to. However you can manually change the currency and the Software Asset Management application will honor the currency that you specify. To specify a currency, enter the currency code followed by a semicolon and the cost. For example, `EUR;200`. Valid currency codes are the ones listed in the Currency \[fix\_currency\] table and have the **Active** column set to true.
 
+    In the spreadsheet template, if the **Publisher Part Number** column doesn't have a value or the value is invalid and the **Publisher** and **Product** columns have valid values, then during the import process, a software model is automatically created. The source type **entitlement\_import** gets stamped to the automatically created software model. The system property com.snc.samp.sm\_creation\_on\_entitlement\_import is used to control the software model creation on entitlement import. If you don't want the automatic creation of software models during the import process, you can set this property to false.
+
 5.  Enter the entitlement details in the template and select **Attach File** to upload the spreadsheet.
 
     Once the file is uploaded, the name of the file appears and the **Description** field is automatically populated. You can change the description to make it more specific.
@@ -71,6 +73,8 @@ You can leverage the Activity center in the Software asset overview landing page
     -   **Import errors**: displays records whose error status is **Needs review**.
     -   **Relate entitlements**: lists entitlements, such as maintenance entitlements, that are in the build state and can be linked to the base entitlements.
 11. Select the import error record to view the errors.
+
+    If an import error record doesn't have a software model but the **Publisher** and **Product** fields have valid values, then on selecting **Import**, a software model is automatically created and the status of the record changes to **Manually fixed**.
 
     For a detailed description of the entitlement import error fields, see [Entitlement import error fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/entitlement-import-error-fields.md)
 

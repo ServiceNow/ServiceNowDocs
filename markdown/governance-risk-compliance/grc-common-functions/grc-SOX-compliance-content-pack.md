@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [SOX content pack, GRC content packs, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -68,12 +68,6 @@ The SOX Compliance Dashboard displays an overview of all controls, attestations,
     -   Issues Closure Rate
     -   Control Issues by Policy
 
-\[Omitted image "SOX-compliance-overview.png"\] Alt text: Compliance overview
-
-\[Omitted image "SOX-control-attestation-overview.png"\] Alt text: Attestation Overview
-
-\[Omitted image "SOX-control-issue-overview.png"\] Alt text: Control Issue Overview
-
 ## SOX Risk Dashboard
 
 The SOX Risk Dashboard displays an overview of all risks, assessments, and risk issues. Navigate to **SOX** &gt; **SOX Risk Dashboard**. The following reports are available:
@@ -114,12 +108,6 @@ The SOX Risk Dashboard displays an overview of all risks, assessments, and risk 
     -   Issues Closure Rate
     -   Risks Issues by Policy
 
-\[Omitted image "SOX-risk-overview.png"\] Alt text: Risk Overview
-
-\[Omitted image "SOX-risk-assessment-overview.png"\] Alt text: Assessment Overview
-
-\[Omitted image "SOX-risk-issue-overview.png"\] Alt text: Risk Issue Overview
-
 ## SOX Audit Dashboard
 
 The SOX Audit Dashboard displays an overview of all audits and audit issues. Navigate to **SOX** &gt; **SOX Audit Dashboard**. The following reports are available:
@@ -144,8 +132,6 @@ The SOX Audit Dashboard displays an overview of all audits and audit issues. Nav
     -   Issues by profile
     -   Issues by Owner
     -   Pending Issues by Entity
-
-\[Omitted image "SOX-audit-overview.png"\] Alt text: Audit Overview
 
 \[Omitted image "SOX-issue-overview.png"\] Alt text: Issue Overview
 

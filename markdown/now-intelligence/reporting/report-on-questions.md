@@ -7,14 +7,16 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Report on questions
 
 Report on selected questions by grouping or filtering on them.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 Creating reports grouped by questions is helpful to:
 
@@ -42,7 +44,7 @@ If there is a Record Producer associated with the table, variables defined in th
 
 You cannot group by Record Producer variables. For more information, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_RecordProducer.md).
 
-**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Group or stack a report by questions
 
@@ -60,10 +62,10 @@ You can apply these steps to any report type as long as the report source has qu
 
 ### Procedure
 
-1.  Perform one of the following actions:
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
 
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
+
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has questions associated with it and click **Next**.
@@ -78,7 +80,7 @@ You can apply these steps to any report type as long as the report source has qu
 
 7.  Continue to configure and style the report according to its report type.
 
-    See [Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-types-creation-details-rd.md).
+    See [Core UI Report types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-types-creation-details-rd.md).
 
 
 ## Add additional group by questions to a report
@@ -95,10 +97,10 @@ You can apply these steps to any report type as long as the report source has qu
 
 ### Procedure
 
-1.  Perform one of the following actions:
+1.  Open the Platform Analytics Data visualization library and select **Create data visualization**, then select **Core UI** in the modal that opens.
 
-    -   On an upgraded instance that has not been fully migrated to Platform Analytics, navigate to **All** &gt; **Reports** &gt; **Create New**.
-    -   On a new instance or one that has been fully migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Usage and governance** &gt; **Reports** and select **New**.
+    The **com.snc.par.coreui.report\_create.enabled** system property must be `true`.
+
 2.  On the **Data** tab, give the report a name that reflects the information being grouped.
 
 3.  Select a report source that has questions associated with it and click **Next**.

@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Create, recipients, Virtual Agent, notifications, chat, messaging, channels]
-breadcrumb: [Configuring Virtual Agent notifications, Configuring Virtual Agent, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configuring Virtual Agent notifications, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create additional recipients for Virtual Agent notifications
@@ -99,13 +99,11 @@ Dynamic filter conditions for the defined recipients.The dynamic condition is ap
 
  This dynamic condition enables you to define the recipients list for a group of users to send a notification.
 
- Click the refresh icon \[Omitted image "refresh-icon.png"\] Alt text: Refresh icon. next to the **records match condition** link to update the exact number of records matching the latest filter condition. By default, it shows the total number of records in the current table.
+ Click the refresh icon \[Omitted image "refresh-icon.png"\] Alt text: next to the **records match condition** link to update the exact number of records matching the latest filter condition. By default, it shows the total number of records in the current table.
 
 **Note:** Only one active record can be added for a particular recipient table. If you want to add another record for the recipient table, you must deactivate the current record.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
-
-**Parent Topic:**[Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configuring-va-notifications.md)
 

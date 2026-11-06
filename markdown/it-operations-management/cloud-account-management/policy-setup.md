@@ -7,10 +7,10 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2024-02-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Certification in Cloud Workspace, Certification in CW]
-breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Setting up Cloud Account Management in Cloud Workspace, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Review default Cloud Account Management certification policy
@@ -29,7 +29,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
 2.  Select **CW Certification Policy** &gt; **View Policy** to review policy details.
 
-3.  For creating or customizing a policy, see [Create a CMDB Data Manager policy \(in Core UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-data-manager-policy.md).
+3.  For creating or customizing a policy, see [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-create-policy-wrkspc.md).
 
     **Note:**
 

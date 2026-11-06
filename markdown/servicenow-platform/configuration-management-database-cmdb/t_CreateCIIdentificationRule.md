@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Identification rules, Configuring CMDB Identification and Reconciliation, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Identification rules, Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a CI identification rule
@@ -20,7 +20,7 @@ Identification rules are used to uniquely identify CIs in the CMDB, as part of I
 
 You can update a CI identification rule only at the class level that the rule is defined for. You can't update a derived rule.
 
-Role required: itil has read access, itil\_admin \(on top of itil\) has full access.
+Role required: sn\_cmdb\_editor and itil have read access, sn\_cmdb\_admin and itil\_admin \(on top\) have full access
 
 ## About this task
 
@@ -85,7 +85,7 @@ Description of the CI identifier.
 
 7.  In the Identifier Entry dialog box, choose an option and then select **Next**.
 
-    Continue with one of the following three steps according to the option you selected:
+    Continue with one of the following three steps according to the option that you selected:
 
     |Option|Description|
     |------|-----------|
@@ -127,7 +127,7 @@ Criterion Attributes
 
 </td><td>
 
-Set of attributes that uniquely identify the CI. Attributes can belong to the current class, or to a parent class.**Note:** It is possible to add reference fields as a criterion attribute. However, such fields might not always be effective:
+Set of attributes that uniquely identify the CI. Attributes can belong to the current class, or to a parent class.**Note:** It's possible to add reference fields as a criterion attribute. However, such fields might not always be effective:
 
 -   Reference fields store **sys\_id**s that point to a record in another table, and thus is considered a weak criterion attribute \(in terms of uniqueness\) for the current table.
 -   The system detects and then replaces invalid values in a reference field with 'Unknown'. For example, an invalid **Model ID** value is replaced with the value 'Unknown'. Also, if several CIs end up having that same reference field set to 'Unknown', then these CIs become duplicate CIs.
@@ -139,7 +139,7 @@ Allow null attribute
 
 </td><td>
 
-When selected, then if at least one criterion attribute is not null, attempt matching with an identifier entry even if there are criterion attributes that are null.
+When selected, then if at least one criterion attribute isn't null, attempt matching with an identifier entry even if there are criterion attributes that are null.
 
  Otherwise, all criterion attributes must have values to attempt matching with an identifier entry.
 
@@ -149,7 +149,7 @@ Allow fallback to parent's rules
 
 </td><td>
 
-Allows the identification rules of the CI's parent to be used if a match is not found for this identification rule. Applies only for dependent identification rules.
+Allows the identification rules of the CI's parent to be used if a match isn't found for this identification rule. Applies only for dependent identification rules.
 
 </td></tr><tr><td>
 
@@ -159,12 +159,12 @@ Advanced Options
 
 A filter to narrow the set of records that will be searched for a matching CI.
 
- Available only if the **glide.identification\_engine.enable\_identifier\_optional\_condition** system property is set to **true** \(**false** by default\). In the base system, identifier entries of various classes are pre-configured with advanced options conditions. All these pre-configured conditions in regular identifier entries will automatically apply when you set this property to **true**. Therefore, to prevent unexpected behavior, review those predefined conditions in regular identifier entries before setting this property to **true**.
+ Available only if the **glide.identification\_engine.enable\_identifier\_optional\_condition** system property is set to **true** \(**false** by default\). In the base system, identifier entries of various classes are preconfigured with advanced options conditions. All these preconfigured conditions in regular identifier entries will automatically apply when you set this property to **true**. Therefore, to avoid unexpected behavior, review those predefined conditions in regular identifier entries before setting this property to **true**.
 
  For more details about this property, see [Properties for Identification and Reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/properties-id-reconciliation.md).
 
 </td></tr></tbody>
-</table>    **Note:** If criterion attributes have only two attributes and **sys\_class\_name** is one of them \(for example \[name, sys\_class\_name\], \[ip\_address, sys\_class\_name\]\), then the other attribute cannot be NULL, even if **Allow null attribute** is enabled. This restriction is due to**sys\_class\_name** being considered a special system matching attribute.
+</table>    **Note:** If criterion attributes have only two attributes and **sys\_class\_name** is one of them \(for example \[name, sys\_class\_name\], \[ip\_address, sys\_class\_name\]\), then the other attribute can't be NULL, even if **Allow null attribute** is enabled. This restriction is due to**sys\_class\_name** being considered a special system matching attribute.
 
 9.  **Use attributes from another table \(Lookup table\)** option:
 
@@ -198,7 +198,7 @@ Enforce exact count match
 
 </td><td>
 
-For lookup identification, match a CI only on exact lookup records count match.When enforced, all lookup items for a CI in the payload must have matching records in the lookup table, that reference the same CI:
+For lookup identification, match a CI only on exact lookup records count match.When enforced, all lookup items for a CI in the payload must have matching records in the lookup table that reference the same CI:
 
 1.  Only matches CIs that have all the lookup items from the input payload referencing the CI in CMDB.
 2.  If there are multiple matches, selects the oldest created CI as the final match.
@@ -207,7 +207,7 @@ For lookup identification, match a CI only on exact lookup records count match.W
 1.  Matches any CI that has at least one of the lookup items from the input payload referencing the CI in CMDB.
 2.  If there are multiple matches, selects the CIs with the max number of lookup items from the input payload referencing the CI in CMDB.
 3.  If there are still multiple matches, selects the oldest created CI as the final match.
-
+For information about how this setting can affect creation of de-duplication tasks for duplicate referenced CIs, see [Detecting duplicate CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/id-detect-dup-ci.md).
 
 </td></tr></tbody>
 </table>    4.  Select **Save**.
@@ -226,9 +226,9 @@ For lookup identification, match a CI only on exact lookup records count match.W
 
     4.  Select **Save**.
 
-    **Note:** The **Allow null attribute** option in the hybrid option, is set to **false**. Therefore, all of the selected criterion attributes from both the currently selected table and the lookup table, must have a value. Also, setting optional conditions is available only for the lookup table, and is not available for the main table.
+    **Note:** The **Allow null attribute** option in the hybrid option is set to **false**. Therefore, all the selected criterion attributes from both the currently selected table and the lookup table, must have a value. Also, setting optional conditions is available only for the lookup table, and isn't available for the main table.
 
-11. On the Related Entries section select an existing related entry to edit, or select **Add** to create one.
+11. On the Related Entries section, select an existing related entry to edit, or select **Add** to create one.
 
     1.  Update the Related Entry form and then select **Save**.
 
@@ -290,7 +290,7 @@ Allow null attribute
 
 </td><td>
 
-If at least one criterion attribute in the related table is not null, allow to attempt matching with an identifier entry even if there are criterion attributes which are null.
+If at least one criterion attribute in the related table is not null, matching with an identifier entry is attempted even when other criterion attributes are null.
 
 </td></tr><tr><td>
 
@@ -301,14 +301,14 @@ Filter conditions
 Add conditions to construct a filter to narrow the set of records that will be searched for a matching related item.
 
 </td></tr></tbody>
-</table>        **Note:** If criterion attributes have only two attributes and **sys\_class\_name** is one of them \(for example \[name, sys\_class\_name\], \[ip\_address, sys\_class\_name\]\), then the other attribute cannot be NULL, even if **Allow null attribute** is enabled. This restriction is due to**sys\_class\_name** being considered a special system matching attribute.
+</table>        **Note:** If criterion attributes have only two attributes and **sys\_class\_name** is one of them \(for example \[name, sys\_class\_name\], \[ip\_address, sys\_class\_name\]\), then the other attribute can't be NULL, even if **Allow null attribute** is enabled. This restriction is due to **sys\_class\_name** being considered a special system matching attribute.
 
 
 ## Example
 
 For example, the pre-defined **Hardware Rule** applies to the Hardware \[cmdb\_ci\_hardware\] table. It has an identifier entry with the criterion attribute **Serial Number, Serial Number Type** and its **Search on table** field is set to **Serial Number**.
 
-The following payload snippet adds a CI to the **cmdb\_ci\_linux\_server** class, that is a child of the Hardware class. It also shows how you can add related items in the payload for which you should create **Related Entries** on the CI Identifier page for the Hardware \[cmdb\_ci\_hardware\] table:
+The following payload snippet adds a CI to the **cmdb\_ci\_linux\_server** class that is a child of the Hardware class. It also shows how you can add related items in the payload for which you should create **Related Entries** on the CI Identifier page for the Hardware \[cmdb\_ci\_hardware\] table:
 
 ```
 
@@ -368,7 +368,7 @@ The following payload snippet adds a CI to the **cmdb\_ci\_linux\_server** class
                          
 ```
 
-When the **Hardware Rule** is applied, the Serial Number \[cmdb\_serial\_number\] table is searched for a match with the values specified within the `lookup` key. Unless **Enforce exact count match \(Lookup\)** is checked, it is not necessary for every lookup key to return a match, as long as there is at least one match. If all matches reference the same CI, then that CI is considered to be the existing CI record. If no match is found, then the identification search continues to the next rule entry. If after all the rules are exhausted without finding a match, a new CI record is created in the database.
+When the **Hardware Rule** is applied, the Serial Number \[cmdb\_serial\_number\] table is searched for a match with the values specified within the `lookup` key. Unless **Enforce exact count match \(Lookup\)** is checked, it isn't necessary for every lookup key to return a match, as long as there is at least one match. If all matches reference the same CI, then that CI is considered to be the existing CI record. If no match is found, then the identification search continues to the next rule entry. If after all the rules are exhausted without finding a match, a new CI record is created in the database.
 
 ## What to do next
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workflow Activities
 classification: workflow-activities
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Classic Workflow, Build workflows]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Classic Workflow, Build workflows]
 # Workflow activities
 
 Workflow activity properties reference
+
+**Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
 Each activity performs a different task, such as running a script, sending notifications, or requesting approvals. Activities can succeed or fail, which can result in actions performed by other activities.
 

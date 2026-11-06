@@ -7,16 +7,16 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Marketplace, Talent Development, Employee Service Management]
+breadcrumb: [Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Use Opportunity Marketplace
 
 Employees in your company use Opportunity Marketplace to find opportunities, apply for roles in the opportunity, and track the application process. Some employees create and publish opportunities to gather and evaluate resources for gigs, projects, and volunteer opportunities.
 
-To access and use Opportunity Marketplace you must be a licensed Opportunity Marketplace user. For more information, see [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
+To access and use Opportunity Marketplace, you must be a licensed Opportunity Marketplace user. For more information, see [License Talent Development Core users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-employee-profile-licensing.md).
 
 Access to opportunities is controlled by user criteria defined in the opportunity. Only opportunities for which you match the user criteria are visible.
 
@@ -39,5 +39,5 @@ Job postings must be created and managed directly in the Job Posting \[sn\_ta\_h
 -   **[View job postings in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-view-job-posting.md)**  
 Job postings forms can be viewed from the Job Posting \[sn\_ta\_hiring\_core\_job\_posting\] table.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hiring-experiences-landing.md)
 

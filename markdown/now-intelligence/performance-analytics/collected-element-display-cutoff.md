@@ -7,8 +7,8 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Properties, Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -37,19 +37,33 @@ First is the default case, where **com.snc.pa.breakdown\_element\_cutoff**=50. T
 
 \[Omitted image "element-display-all.gif"\] Alt text: All elements of the Assignment Group breakdown being displayed.
 
-The next case is where **com.snc.pa.breakdown\_element\_cutoff**=10. The number of elements in the Assignment Group breakdown far exceeds this value. However, only eight elements have ever had a score. This number is less than the cutoff value of 10, so for any date, all eight elements are shown, even when null.
+The next case is where **com.snc.pa.breakdown\_element\_cutoff**=10. The number of elements in the Assignment Group breakdown far exceeds this value. However, only six elements have ever had a score. This number is less than the cutoff value of 10, so for any date, all six elements are shown, even when null.
 
-\[Omitted image "element-display-all-ever-not-null.gif"\] Alt text: All elements of Assignment Group that ever had a score being displayed.
+\[Omitted image "element-display-all-ever-not-null.png"\] Alt text: All elements of Assignment Group that ever had a score being displayed.
 
-Finally, there is the case where **com.snc.pa.breakdown\_element\_cutoff**=5. This number is less than the number of elements that have ever had a score. Now only the elements with a non-null value or a change value on the selected date are shown on that date. Different elements are thus shown for different dates.
+Finally, there is the case where **com.snc.pa.breakdown\_element\_cutoff**=5. This number is less than the number of elements that have ever had a score. Now only the elements with a non-null value or a change value on the selected date are shown on that date. Different elements are thus shown for different dates. If there is a null value for the collection period after one with a value, a value of zero and a change symbol appears for that day.
 
-\[Omitted image "element-display-only-not-null.gif"\] Alt text: Only non-null and changed elements of Assignment Group being shown for each date.
+\[Omitted image "scoresheet-limited-breakdowns.png"\] Alt text: Scoresheet for Number of Open Incidents showing which null scores are shown as 0 with a change symbol and which are not shown at all.
 
-**Note:**
+On March 18, six elements are shown. The Hardware element, which has a null value, shows a value of 0 and a symbol that it declined.
 
-The Analytics Settings Manager element is shown for March 7 despite having a null value. It is shown because it had a value of 5 for the previous collection period and thus has a change value of -5 for March 7.
+\[Omitted image "element-display-mar-18.png"\] Alt text: Assignment groups shown on March 18.
 
-\[Omitted image "element-display-day-before.png"\] Alt text: Number of Open Incidents with Assignment Group: Analytics Settings Managers at zero for today and 5 for yesterday.
+On March 19, five elements are shown. Hardware is not shown, because it has had a null value for two days running. The Network element, which now has a null value, shows a value of 0 and a symbol that it declined.
+
+\[Omitted image "element-display-mar-19.png"\] Alt text: Assignment Group elements shown on March 19.
+
+On March 20, five different elements are shown. Network is not shown, because it has had a null value for two days running. The Openspace element, which now has a null value, shows a value of 0 and a symbol that it declined.
+
+\[Omitted image "element-display-mar-20.png"\] Alt text: Assignment Group elements shown on March 20
+
+On March 21, five different elements are shown. Network now has a value and is shown. Openspace has had a null value for two days running, so is not shown.
+
+\[Omitted image "element-display-mar-21.png"\] Alt text: Assignment Groups shown on March 21.
+
+On March 22, six elements are shown. Openspace now has a non-null value so is shown again.
+
+\[Omitted image "element-display-mar-22.png"\] Alt text: Assignment Group elements shown on March 22
 
 **Parent Topic:**[Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/pa-properties.md)
 

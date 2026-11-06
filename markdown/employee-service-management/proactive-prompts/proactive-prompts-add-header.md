@@ -7,9 +7,9 @@ release: yokohama
 product: Proactive Prompts
 classification: proactive-prompts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a signal in Proactive Prompts, Configuring Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a signal, Configuring Proactive Prompts, Proactive Prompts, HR Service Delivery, Employee Service Management]
 ---
 
 # Add a new prompt header to identify the prompt
@@ -36,7 +36,7 @@ The predefined default header is Suggestion.
 
 5.  Select the **Prompt Template** tab.
 
-6.  Select the Lookup using list icon \(\[Omitted image "look-up-icon.png"\] Alt text: Lookup using list icon\) next to the **Prompt header** field.
+6.  Select the Lookup using list icon \(\[Omitted image "icon-lookup.png"\] Alt text: look up icon\) next to the **Prompt header** field.
 
 7.  On the Prompt Header Configurations page, select **New**.
 

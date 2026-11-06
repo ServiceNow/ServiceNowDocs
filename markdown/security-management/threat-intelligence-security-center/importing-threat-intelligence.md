@@ -7,8 +7,9 @@ release: yokohama
 product: Threat Intelligence Security Center
 classification: threat-intelligence-security-center
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [import intelligence, manual import, threat intelligence import]
 breadcrumb: [Use, Threat Intelligence Security Center, Security Operations]
 ---
 
@@ -105,6 +106,8 @@ Upload the standard data in the supported file formats such as STIX 2.x JSON, MI
 Import the observables data by copying and pasting raw text or entering the free text.
 -   **[Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)**  
 Upload the data in an unstructured format supported using the file formats such as TXT, CSV, JSON, XLS, XLSX.
+-   **[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/import-data-using-ai.md)**  
+Upload an unstructured document and let AI extract the threat observables and objects from its content. Review and correct the extracted entities before you submit the import.
 
 **Related topics**  
 
@@ -116,4 +119,6 @@ Upload the data in an unstructured format supported using the file formats such 
 [Import data using raw text](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/import-data-using-pasted-text.md)
 
 [Import data using unstructured file format](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/import-data-using-unstructured-file.md)
+
+[Import data using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/threat-intelligence-security-center/import-data-using-ai.md)
 

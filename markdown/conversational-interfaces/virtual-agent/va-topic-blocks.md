@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [Virtual Agent, topic block, utility]
-breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Topic Block utility
@@ -140,5 +140,5 @@ You can create two separate Topic Block invocations to handle the password-reset
 
 The script in the dynamic Topic Block expression returns a value based on your input. In this example, if you input `Ford` or `Toyota`, the Virtual Agent will call for the appropriate troubleshooting topic. If you input any other value, the Virtual Agent returns a general troubleshooting topic instead.
 
-**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
 

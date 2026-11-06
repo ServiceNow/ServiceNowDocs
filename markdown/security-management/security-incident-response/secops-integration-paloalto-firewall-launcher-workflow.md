@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Palo Alto Networks - Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -21,8 +21,6 @@ breadcrumb: [Palo Alto Networks - Firewall integration, Security Incident Respon
 Role required: sn\_si.analyst
 
 ## About this task
-
-workflow process activities include:[Security Operations Palo Alto Networks - Check and Block Value Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/check-and-block-values.md).
 
 \[Omitted image "PANFirewallWorkflow.png"\] Alt text: Palo Alto Networks - Firewall workworkflow diagram
 

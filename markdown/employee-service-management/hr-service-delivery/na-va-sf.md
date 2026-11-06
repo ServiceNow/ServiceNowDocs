@@ -1,20 +1,20 @@
 ---
-title: Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
-description: You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
+title: ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
+description: You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/na-va-sf.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using HR Service Delivery Integration with SuccessFactors, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
 
-# Now Assist Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
+# ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors
 
-You can use the Now Assist Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
+You can use the ServiceNow Otto Virtual Agent topics in Employee Center to place requests, for example, apply for a time off or update your details from the SuccessFactors system in Employee Center.
 
 ## Virtual Agent topics for HR Service Delivery Integration with SuccessFactors Overview
 
@@ -187,7 +187,7 @@ You can update personal details in Virtual Agent using one of the following topi
 
 ## Get User Paychecks
 
-The Get User Paychecks Virtual Agent topic enables you to view your payslip details. From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details such as start date and end date, your payslip summary, in the form of pay period, gross pay, deductions, and net pay are displayed. A detailed breakdown of deductions is also displayed.
+The Get User Paychecks Virtual Agent topic enables you to view your payslip details. From Employee Center, open a chat window and type in key words, for example, get payslips. After you provide the required details, your payslip summary displays pay period, gross pay, deductions, and net pay. A detailed breakdown of deductions is also displayed.
 
 \[Omitted image "sf-get-paychecks.png"\] Alt text: Get User Paychecks
 
@@ -216,4 +216,17 @@ The Get Holiday Calendar Virtual Agent topic enables you to view your holiday ca
 \[Omitted image "sf-calendar-1.png"\] Alt text: Get Holiday Calendar 1 \[Omitted image "sf-calendar-2.png"\] Alt text: Get Holiday Calendar 2
 
 **Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+
+**Related topics**  
+
+
+[View job tracker details]()
+
+[View to dos]()
+
+[Use transform maps]()
+
+[Field mappings]()
+
+[Use HCM AI agents for HR Service Delivery Integration with SuccessFactors]()
 

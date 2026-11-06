@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Create a scheduled job, Scheduled jobs, System scheduler, Exploring time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Create a scheduled job, Scheduled jobs, System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Automate generation and distribution of a report
@@ -35,7 +35,7 @@ Scheduled reports can be distributed in PDF, CSV, or XLS format. Graphical repor
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Scheduled Jobs**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Select **Automate the generation and distribution of a report**.
 
@@ -87,7 +87,7 @@ Email addresses
 
 </td><td>
 
-Comma-separated list of email addresses of report recipients who are not in the system.
+Comma-separated list of email addresses of report recipients who are not users on your instance.
 
 </td></tr><tr><td>
 
@@ -114,6 +114,9 @@ Run
 Time interval to use for running the scheduled job:
 
 -   **Daily**: Runs daily, at a designated time.
+-   **Day and Month in Year**: Runs yearly on a specific day and month \(for example, July 14\), at a designated time.
+-   **Day in Week in Month in Year**: Runs yearly on a specific day of the week in a specific week of a specific month \(for example, the second Monday in October\), at a designated time.
+-   **Week in Month**: Runs monthly during a specific week of the month \(for example, the third week of each month\), on designated days and at a designated time.
 -   **Weekly**: Runs on a weekly basis, at a designated time and day of the week.
 -   **Monthly**: Runs on a monthly basis, at a designated time and day of the month.
 -   **Periodically**: Runs on a designated repeating interval.
@@ -125,9 +128,9 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 -   **Business Calendar: Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar: Entry Start**, but for the end dates of the associated business calendar entries.
 
-**Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run as this is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
+**Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/business-calendars.md) and[Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/define-business-calendar-entries.md).
 
 </td></tr><tr><td>
 
@@ -139,7 +142,7 @@ Time zone to use with the **Time** field entry when you specify the time at whic
 
 -   **-None-**: Use the default time zone for the logged-in user who is creating the scheduled job.
 
-For example, the scheduled job runs at 04:45 p.m. US/Pacific time if it is the user's assigned time zone, and you enter `16:45` into the **Time** field.
+For example, the scheduled job runs at 04:45 p.m. US/Pacific time if it’s the user's assigned time zone, and you enter `16:45` into the **Time** field.
 
 -   **Use System Time Zone**: Use the default system time zone that is specified for the instance in which it runs.
 
@@ -184,11 +187,51 @@ Duration of the repeat interval for each scheduled job execution. Enter the dura
 
 </td></tr><tr><td>
 
+Advanced
+
+</td><td id="advanced-sched-job">
+
+Enables advanced scheduling options for greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat. For more information, see [Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
 Starting
 
-</td><td>
+</td><td id="starting-field">
 
-Date and time of the first scheduled job generation. Select the calendar date and time. This field appears only if you select **Periodically** in the **Run** field.
+Allows you to define the beginning window of time \(date and time\) when you would like your job to start running. Within this window, the job actually starts at the time specified in the **Time** field.The **Starting** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
+-   **Day and Month in Year**
+-   **Day in Week in Month in Year**
+-   **Monthly**
+-   **Once**
+-   **Periodically**
+-   **Week in Month**
+-   **Weekly**
+For the run type **Periodically**, the starting time is the date and time of the first scheduled job generation.
+
+For more information, see [Starting and Ending fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
+
+</td></tr><tr><td>
+
+Ending
+
+</td><td id="ending-field">
+
+Allows you to define the ending window of time \(date and time\) when you would like your job to stop running. Within this window, the job actually stops at the time specified in the **Time** field.The **Ending** field appears only if you select the **Advanced** option and one of the following values in the **Run** field:
+
+-   **Daily**
+-   **Day and Month in Year**
+-   **Day in Week in Month in Year**
+-   **Monthly**
+-   **Once**
+-   **Periodically**
+-   **Week in Month**
+-   **Weekly**
+For the run type **Periodically**, the ending time is the date and time of the first scheduled job generation.
+
+For more information, see [Starting and Ending fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md).
 
 </td></tr><tr><td>
 
@@ -196,7 +239,7 @@ Business Calendar
 
 </td><td>
 
-Business calendar entry that you are using to determine the business calendar start or end date for the scheduled job. This field appears only if you select **Business Entry: Start Date** or **Business Entry: End Date** in the **Time** field.
+Business calendar entry that you’re using to determine the business calendar start or end date for the scheduled job. This field appears only if you select **Business Entry: Start Date** or **Business Entry: End Date** in the **Time** field.
 
 </td></tr><tr><td>
 
@@ -208,8 +251,8 @@ Type of time offset, if any, to apply to the business calendar that you selected
 
 -   **Past**: Apply an offset factor to schedule the job to run before the start of the time span of the selected business calendar.
 -   **Future**: Apply an offset factor to schedule the job to run after the end of the time span of the selected business calendar.
--   **--None--**: Do not apply a time offset when scheduling this job.
-Adding an offset factor enables you to schedule the job to run before, or after, the formal time span that is defined in the business calendar for the following use cases:
+-   **--None--**: Don’t apply a time offset when scheduling this job.
+Adding an offset factor enables you to schedule the job to run before or after the formal time span that is defined in the business calendar for the following use cases:
 
 </td></tr><tr><td>
 
@@ -234,7 +277,7 @@ Numerical priority for the scheduled job:
 
 -   Set essential jobs to a priority value below 100.
 -   Set nonessential jobs to a priority above 100.
--   If 70 percent or more of all scheduled jobs are **Overdue**, any jobs that are marked with a value above 100 do not run.
+-   If 70 percent or more of all scheduled jobs are **Overdue**, any jobs that are marked with a value above 100 don’t run.
 
 
 </td></tr><tr><td>
@@ -243,7 +286,7 @@ Conditional
 
 </td><td>
 
-When turned on, specify a scripted condition for generating the report.
+When enabled, specify a scripted condition for generating the report.
 
 </td></tr><tr><td>
 
@@ -251,7 +294,7 @@ Omit if no records
 
 </td><td>
 
-When turned on, empty reports are not distributed.
+When enabled, empty reports are not distributed.
 
 </td></tr><tr><td>
 
@@ -259,7 +302,7 @@ Condition
 
 </td><td>
 
-Conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions are not allowed. Some API calls and keywords are also not allowed. For more information, see [Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_ScriptSandboxing.md).
+A conditional script that determines if a scheduled job should run. The last expression of the script should evaluate to a Boolean \(true/false\) value. This text box appears only if you select **Use conditions**. For more information about scripts on the ServiceNow platform, see [Scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_Script.md).**Warning:** Conditional scripts for scheduled emails are executed in the sandbox. Therefore, function definitions aren't allowed. Some API calls and keywords are also not allowed. For more information, see [Script sandbox property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_ScriptSandboxing.md).
 
 </td></tr><tr><td>
 
@@ -287,15 +330,13 @@ Type
 
 </td><td>
 
-Report output type. Graphical reports can be PNG or PDF files. List reports can be PDF, Excel, or CSV files.
+Report output type. Graphical reports can be PNG or PDF files. List reports can be PDF, Excel, or CSV files.When scheduling a graphical report, select the output type **PDF** or **PDF-landscape** to include the chart grid data. When scheduling a List report, select output type **Excel** or **CSV**.
 
- When scheduling a graphical report, select the output type **PDF** or **PDF-landscape** to include the chart grid data. When scheduling a List report, select output type **Excel** or **CSV**.
+Select **Embedded PNG** to embed the report visualization in the body of the email. Large images are scaled to fit the email.
 
- Select **Embedded PNG** to embed the report visualization in the body of the email. Large images are scaled to fit the email.
+For more information, see the section Report output formats.
 
- For more information, see the section Report output formats.
-
- **Note:** It is only possible to schedule multilevel pivot reports in PDF output.
+**Note:** It is only possible to schedule multilevel pivot reports in PDF output.
 
 </td></tr><tr><td>
 
@@ -303,7 +344,7 @@ Zip output
 
 </td><td>
 
-When turned on, the report is sent as a zip file attachment to the email.
+When selected, the report is sent as a zip file attachment to the email.
 
 </td></tr><tr><td>
 
@@ -319,7 +360,7 @@ Page size \(Multilevel pivot report only\)
 
 </td><td>
 
-Select from A3, A4, Letter, or Legal size. To specify the dimensions for a different paper size, select **Custom** and enter the **Page height** and **Page width** in pixels.
+Choose from A3, A4, Letter, or Legal size. To specify a different paper size, select **Custom** and enter the **Page height** and **Page width** in pixels.
 
 </td></tr><tr><td>
 
@@ -338,7 +379,7 @@ Page width \(in pixels\) \(Multilevel pivot report only\)
 Shows when **Page size** is set to **Custom**. For non-standard paper sizes, multiply the page width in inches by 72 and enter the value in this field.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
 
 ## What to do next
@@ -349,6 +390,8 @@ To edit the scheduled email of a report job, open the job from the Scheduled Job
 
 **Related topics**  
 
+
+[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)
 
 [Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_CreateAScheduledJob.md)
 

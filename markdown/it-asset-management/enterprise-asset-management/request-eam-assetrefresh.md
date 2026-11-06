@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
 # Request an enterprise asset refresh
@@ -32,7 +32,7 @@ The Workflow Studio application is used to create the Enterprise Asset Refresh f
 
 2.  Login with credentials for the role of sys \_admin role and add the **Enterprise Asset Lifecycle** catalog.
 
-    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this catalog, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: Add Content icon\) beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
+    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this catalog, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
 
 3.  Login with credentials for the role of sn\_eam.enterptrise\_asset\_manager and select the **Enterprise Asset Lifecycle** catalog.
 
@@ -40,7 +40,7 @@ The Workflow Studio application is used to create the Enterprise Asset Refresh f
 
 4.  Navigate to **Service Catalog** &gt; **Enterprise Asset Lifecycle**.
 
-    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this category, select the add content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add content icon.\) beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
+    The **Enterprise Asset Lifecycle** catalog is not on the Service Catalog page by default. To add this category, select the add content icon \[Omitted image "add\_content\_icon.png"\] Alt text: beside the search catalog bar and then select **Enterprise Asset Lifecycle**.
 
 5.  Open **Enterprise Asset Refresh Order**.
 

@@ -1,5 +1,5 @@
 ---
-title: Rank planning items in Strategic Planning
+title: Rank planning items
 description: Rank the planning items that are added to the pipeline of your portfolio plan to decide on their priority so that you can start prioritizing work for your portfolio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/rank-and-prioritize-backlog-alignment-planner-workspace.html
@@ -7,20 +7,20 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Rank planning items in Strategic Planning
+# Rank planning items
 
 Rank the planning items that are added to the pipeline of your portfolio plan to decide on their priority so that you can start prioritizing work for your portfolio.
 
 ## Before you begin
 
--   [Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
--   Ensure that the planning items in the Prioritization List view are sorted by the Rank column in ascending order.
+-   [Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+-   Ensure that the planning items in the Prioritization tab are sorted by the Rank column in ascending order.
 
 Role required: sn\_align\_core.apw\_user
 
@@ -28,7 +28,7 @@ Role required: sn\_align\_core.apw\_user
 
 **Important:** Use the List view to stack-rank the planning items of your portfolio plan.
 
-Within the ServiceNow system, all the planning items are assigned a global rank. Reorder the items in the Prioritization page to change their rank and update their planning state. If you decide to include a planning item into your roadmap schedule, mark its Planning State as **Prioritized** to add it to the roadmap directly from the Prioritization page.
+Within the ServiceNow system, all the planning items are assigned a global rank. Reorder the items in the Prioritization tab to change their rank and update their planning state. If you decide to include a planning item into your roadmap schedule, mark its Planning State as **Prioritized** to add it to the roadmap directly from the Prioritization tab.
 
 The Rank column helps you quickly identify the rank of an item relative to the other items in the backlog. This information is useful to determine the top-ranked items from a long list of planning items. When there’s no custom grouping or sorting, the planning items are sorted by their rank, and you can reorder the rows.
 
@@ -40,17 +40,17 @@ The Rank column helps you quickly identify the rank of an item relative to the o
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  From the **List** view of the Prioritization tab, rank the planning items according to your priority by rearranging their order.
+3.  From the Prioritization tab, rank the planning items according to your priority by rearranging their order.
 
-<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d243775e148">
+<table id="choicetable_pfl_vwb_zsb"><thead><tr><th align="left" id="d312313e149">
 
 Choice
 
-</th><th align="left" id="d243775e151">
+</th><th align="left" id="d312313e152">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d243775e157">
+</th></tr></thead><tbody><tr><td id="d312313e158">
 
 **Reorder a single planning item**
 
@@ -60,7 +60,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 
  \[Omitted image "backlog-v2-single-reorder.gif"\] Alt text: Prioritization page single row reorder
 
-</td></tr><tr><td id="d243775e182">
+</td></tr><tr><td id="d312313e183">
 
 **Reorder multiple planning items at once**
 
@@ -70,7 +70,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 2.  Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: Rearrange rows icon.\) to drag and drop the rows to the required position.
  \[Omitted image "backlog-v2-multi-row-reorder.gif"\] Alt text: Prioritization page multi-row reorder
 
-</td></tr><tr><td id="d243775e220">
+</td></tr><tr><td id="d312313e223">
 
 **Reorder multiple planning items using the Rank items option**
 
@@ -84,7 +84,7 @@ Use the Rearrange rows icon \(\[Omitted image "icon-rearrange.png"\] Alt text: R
 </td></tr></tbody>
 </table>    Repeat this step until the ranking of the planning items align with your business priorities. To get better visibility of data that you need:
 
-    -   Sort or group the list by the required columns. See [Personalize List view of Prioritization page of Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-backlog-in-alignment-planner-workspace.md)
+    -   Sort or group the list by the required columns. See [Personalize the Prioritization view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-backlog-in-alignment-planner-workspace.md)
     -   Filter the planning items by applying filters.
     **Tip:** Using the Row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu\), you can also assign the highest and lowest ranks to the planning items using the **Move to top** and **Move to bottom** options respectively.
 

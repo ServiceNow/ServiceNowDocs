@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-management-access-the-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Business Portal, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Business Portal, Use, Sales Customer Relationship Management]
 ---
 
 # Access the Business Portal
@@ -26,4 +26,13 @@ Role required: sn\_customerservice.customer
 
     The Business Portals opens.
 
+
+**Parent Topic:**[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
+
+**Related topics**  
+
+
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-management-configure-business-portal.md)
+
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-self-service-business-portal.md)
 

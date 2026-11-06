@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Create resource assignments using Project Workspace, Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a resource assignment for a user in Project Workspace
@@ -22,27 +22,29 @@ Role required: admin or it\_project\_manager
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **User Administration** &gt; **Users**.
+1.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
-2.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAUser.md).
+2.  View the resource assignment pane by enabling the **Resource assignments** toggle button.
 
-3.  Assign the pps\_resource role to the users required for user-based resource assignment.
+    **Note:** If the **sn\_pw.enable\_resource\_planning** property is set to true, then the **Resource assignment** toggle button and resource assignment pane are displayed in Project Workspace. The default value is false. You must have the pps\_admin role to enable this property.
 
-    For more information on how to assign a role, see [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md).
+3.  From the Planning pane, double-click the **Resource assignees** field for a project task.
 
-4.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
+    You can assign the resources from both planning and resource assignment pane.
 
-5.  From the Planning pane, double-click the **Resource assignees** field for a project task.
+4.  From the resource assignment pane, create a resource assignment for a project or task by selecting **Add resource**.
 
-6.  In the **Resource** field, select the user from step 2 and press **Enter**.
+    You can create a resource assignment for a project from the resource assignment pane only.
 
-    The **Resource status** column helps to identify any Pending or Unapproved work items assigned to a resource.
+5.  From the resource assignee list, select a user or group and press **Enter**.
 
-    **Note:** The status of the assigned work is rolled up to the resource level and the resource card level. If there are any pending or unassigned work items in the top tray, the rolled up status at resource level and card level shows Pending.
+    When you create a resource assignment, the user or group allocation is based on the selected effort type. For example, when you add a user and the effort type is selected as hours, the allocations are displayed in hours.
 
-    \[Omitted image "user-resource-assignments-pw.png"\] Alt text: User-based resource assignments.
+    A resource assignment record is created and auto-saved. The resource assignment form auto-populates the project or task information.
 
-    A resource assignment record for the user is created and auto-saved.
+6.  From the resource assignment pane, create a resource assignment for a project or task by selecting **New Resource**.
+
+    You can use this option to create a resource assignment using the resource form. On the New Resource Assignment form, fill in the fields and select **Submit**. For a description of the field names, see [New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-form-rmw.md).
 
 
 **Parent Topic:**[Create resource assignments using Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-resource-assignment-prj-wksp.md)
@@ -50,11 +52,7 @@ Role required: admin or it\_project\_manager
 **Related topics**  
 
 
-[New Resource Assignment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-ra-form-rmw.md)
+[Update resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/update-resource-assignment-pw.md)
 
-[Delete a resource assignment from Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/delete-resource-assignment-pw.md)
-
-[Update the resource allocation in a heatmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-allocations-heatmap-prj-wksp.md)
-
-[Realign resource assignment to project task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/realign-resource-assignment-to-task.md)
+[Extend a resource assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/extend-resource-assignment-pw.md)
 

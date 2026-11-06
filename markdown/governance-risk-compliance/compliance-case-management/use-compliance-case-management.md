@@ -7,7 +7,7 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -39,7 +39,7 @@ Add an area that is related to the compliance case or event that is reported in 
 Define the root cause for the reported compliance case or event and its consequences on the organization by using the GRC: Compliance Case Management application.
 -   **[Add compliance regulations to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-regulations-to-compliance-case.md)**  
 Add the regulations that are or can be impacted by the reported compliance case. In the ServiceNow platform, regulations are captured as authority documents. Adding the regulations to the case enables you to identify which regulations are breached or violated and prevents your organization from getting penalties or fines for this case.
--   **[Add or create an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md)**  
+-   **[Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md)**  
 Identify and add an issue that is related to the impacted areas of a reported compliance case. You can also create an issue from the GRC: Compliance Case Management landing page.
 -   **[Export a report to PDF](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/export-pdf-reports-ccm.md)**  
 Create Portable Document Format \(PDF\) reports for compliance cases or requests using predefined or customized templates in the GRC: Compliance Case Management application. This feature enables the stakeholders who may not have access to the application can still access the data.

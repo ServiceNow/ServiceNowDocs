@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User resources and group resources, Resource allocation, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ From the Resource Manager view, you can update the resource aggregates for a spe
 
 ## Before you begin
 
-Role required: admin
+Role required: pps\_admin
 
 ## About this task
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Supply contract renewal information
@@ -18,7 +18,7 @@ Supply the contract renewal information by completing the Build renewal task.
 
 ## Before you begin
 
-Role required: asset, contract\_manager
+Role required: contract\_system\_admin, asset, or contract\_manager
 
 ## About this task
 

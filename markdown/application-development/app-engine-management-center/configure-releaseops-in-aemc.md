@@ -1,0 +1,48 @@
+---
+title: Configure ReleaseOps in AEMC
+description: Complete ReleaseOps guided setup in AEMC to start using ReleaseOps for your deployments.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-management-center/configure-releaseops-in-aemc.html
+release: yokohama
+product: App Engine Management Center
+classification: app-engine-management-center
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Configure ReleaseOps in AEMC
+
+Complete ReleaseOps guided setup in AEMC to start using ReleaseOps for your deployments.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  On your production instance, navigate to **All** &gt; **App Engine** &gt; **Administration** &gt; **Guided Setup**.
+
+2.  Select **Get Started**.
+
+3.  On the App Engine Management Center guided setup page, select **Get Started** in the **Set up ReleaseOps and Multi-Instance Management** card.
+
+    \[Omitted image "aemc-set-up-releaseops-as2.png"\] Alt text: Select Get Started to set up ReleaseOps and Multi-Instance Management.
+
+4.  [Complete ReleaseOps guided set up in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/complete-releaseops-guided-setup-in-aemc.md).
+
+5.  [Enable ReleaseOps system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/enable-releaseops-system-property.md).
+
+6.  [Run trust profile setup in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/run-trust-profile-setup-aemc.md).
+
+
+-   **[Complete ReleaseOps guided set up in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/complete-releaseops-guided-setup-in-aemc.md)**  
+Complete ReleaseOps guided setup in AEMC to configure your ReleaseOps ecosystem to handle your deployments.
+-   **[Enable ReleaseOps system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/enable-releaseops-system-property.md)**  
+Enable the ReleaseOps system property to have AEMC fetch data from the environments configured in ReleaseOps.
+-   **[Run trust profile setup in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/run-trust-profile-setup-aemc.md)**  
+After completing ReleaseOps guided setup in AEMC, run trust profile setup to complete the configuration process.
+
+**Parent Topic:**[Configuring AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/configuring-aemc.md)
+

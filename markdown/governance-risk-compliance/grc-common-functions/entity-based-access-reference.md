@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -16,6 +16,8 @@ breadcrumb: [Entity Based Access, Common GRC features, Governance, Risk, and Com
 
 Entity-based access restriction can be applied on some GRC tables.
 
+-   **[Entity based record access update utility configuration states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/eba-configuration-states.md)**  
+Entity-based access configuration states represent the defined permissions and control settings.
 -   **[Entity-based access applicable record types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/tables-that-consume-entity-based-access.md)**  
 Entity-based access applicable record types refer to the specific tables or record categories within the system for which entity-based access rules can be defined. This table holds information about all the EBA enabled tables and their relationships with entity or primary tables.
 

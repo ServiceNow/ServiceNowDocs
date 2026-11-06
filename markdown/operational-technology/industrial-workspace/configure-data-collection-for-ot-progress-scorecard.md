@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the Operational Technology Progress Scorecard, Configure, Industrial Workspace, Operational Technology]
 ---
@@ -18,7 +18,7 @@ Configure the data collection for Operational Technology \(OT\) Progress Scoreca
 
 ## Before you begin
 
-Role required: admin
+Role required: admin or pa\_admin
 
 ## About this task
 

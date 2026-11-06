@@ -1,27 +1,27 @@
 ---
-title: Configuring code generation
-description: Configure how developers can use code generation on an instance.
+title: Configuring ServiceNow Otto for Code
+description: Install and configure ServiceNow Otto for Code on an instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/configuring-now-assist-code.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for code generation, Scripting, API implementation, API implementation and reference]
+breadcrumb: [ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Configuring code generation
+# Configuring ServiceNow Otto for Code
 
-Configure how developers can use code generation on an instance.
+Install and configure ServiceNow Otto for Code on an instance.
 
--   **[Install Now Assist for code generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/install-now-assist-code-app.md)**  
-Install the ServiceNow® ServiceNow Otto for Creator application from the ServiceNow® Store to get Now Assist for code generation.
--   **[Enable Code Explain and Summarize](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/enable-code-explain-and-summarize.md)**  
-Enable the Code Explain and Code Summarize features by changing the default model of your instance from NowLLM to Azure OpenAI.
--   **[Tracking AI-generated code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/tracking-ai-generated-code.md)**  
-Control when to track and indicate that code is AI-generated.
+-   **[Install ServiceNow Otto for Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/install-now-assist-code-app.md)**  
+Install the ServiceNow Otto for Creator application from the ServiceNow® Store to get ServiceNow Otto for Code.
+-   **[Configure AI model providers for ServiceNow Otto for Code skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/configure-model-providers-for-now-assist-skills.md)**  
+Select a large language model \(LLM\) as the AI service provider for ServiceNow Otto for Code skills.
+-   **[Enable or disable AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/enable-or-disable-now-assist-for-code-skills.md)**  
+Learn to enable and disable ServiceNow Otto for Code skills.
 
-**Parent Topic:**[Scripting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_Script.md)
+**Parent Topic:**[Scripting on the ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/scripting-landing.md)
 

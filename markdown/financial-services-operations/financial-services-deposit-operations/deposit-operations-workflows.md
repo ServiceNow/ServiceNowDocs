@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Deposit Operations
 classification: financial-services-deposit-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Financial Services Deposit Operations, Deposit Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Deposit Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Deposit Operations workflows
@@ -32,7 +32,7 @@ The following predefined workflows for business and personal deposit account ser
 | |Remove financial account relationship|
 | |Modify financial account relationship|
 
-These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-designer-home-landing-page.md). The deposit admin can review and customize these workflows according to the needs of their organization.
+These workflows are built using [Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md) and [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md). The deposit admin can review and customize these workflows according to the needs of their organization.
 
 ## General workflow for Deposit Operations
 
@@ -59,11 +59,11 @@ The state and stage of the case is set to Closed Complete.
 -   **[Add, modify, and cancel standing order workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/fso-deposit-add-standing-order.md)**  
 Learn how agents, using the standing order workflows, resolve service requests for adding, modifying, and canceling standing orders to deposit accounts. The workflows apply to both business and personal deposit service requests.
 -   **[Failed standing order workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/fso-failed-standing-order-workflow.md)**  
-Learn how bank agents, using the Failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
+Learn how bank agents, using the failed standing order workflow, proactively contact a customer for a failed standing order for their deposit account and decide on an action plan. The workflow applies to both business and personal deposit accounts.
 -   **[Add, modify, and remove financial account relationship workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/fso-deposit-add-modify-relation-workflow.md)**  
 Learn how agents, using the financial account relationship workflows, resolve service requests for adding, modifying, and removing relationships from deposit accounts. These workflows apply to personal deposit service requests.
 -   **[Originate deposit account workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/fso-originate-deposit-account.md)**  
-Learn how agents, using the Originate deposit account workflow, resolve service requests for opening a new deposit account. The workflow applies to both business and personal deposit service requests.
+Learn how agents, using the originate deposit account workflow, resolve service requests for opening a new deposit account. The workflow applies to both business and personal deposit service requests.
 -   **[Close deposit account workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/fso-close-deposit-account-workflow.md)**  
 Learn how agents, using the Close deposit account workflow, resolve service requests for closing a checking or saving deposit account. The workflows apply to both business and personal deposit service requests.
 

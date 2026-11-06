@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-schedule-job-sync-trm-product-names.html
 release: yokohama
 topic_type: task
-last_updated: "2026-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing the Technology Reference Model in Enterprise Architecture Workspace, Technology Portfolio view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Technology Reference Model \(TRM\) in EA Workspace, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Run a job to sync TRM product names in EA Workspace
@@ -37,7 +37,7 @@ When you create a TRM product by associating it with a ServiceNow Otto for SAM s
 
 ## Result
 
-The names of TRM products of type **Software** that are linked to a ServiceNow Otto for SAM software product are updated to match the latest ServiceNow Otto for SAM software product names in the TRM Products \(sn\_apm\_trm\_standards\_product\) table. Only TRM products whose names differ from their linked ServiceNow Otto for SAM software product are updated; the rest are skipped.
+The names of TRM products of type **Software** that are linked to a ServiceNow Otto for SAM software product are updated. The updated names match the latest ServiceNow Otto for SAM software product names in the TRM Products \(sn\_apm\_trm\_standards\_product\) table. Only TRM products whose names differ from their linked ServiceNow Otto for SAM software product are updated; the rest are skipped.
 
 To verify the job outcome, navigate to **All** &gt; **System Logs** &gt; **Application Logs** and search for **SyncTRMProductNames**. The log entry shows:
 
@@ -45,14 +45,14 @@ To verify the job outcome, navigate to **All** &gt; **System Logs** &gt; **Appli
 -   Skip count: Number of TRM products skipped because their names already matched, or because the software product reference was invalid
 -   Error count: Number of records that could not be updated
 
-**Parent Topic:**[Managing the Technology Reference Model in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-managing-the-technology-portfolio.md)
+**Parent Topic:**[Working with Technology Reference Model \(TRM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-trm.md)
 
 **Related topics**  
 
 
-[Request a TRM product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-a-trm-products.md)
+[Request a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-request-a-trm-products.md)
 
-[Add a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)
+[Create a TRM product in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-trm-prod-lifecycle.md)
 
 [View all TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-trm-products.md)
 

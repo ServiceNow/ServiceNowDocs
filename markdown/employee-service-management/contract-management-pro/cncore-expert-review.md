@@ -1,20 +1,22 @@
 ---
-title: Internal review
-description: Get your contract document reviewed by internal subject matter experts who have the expertise you need.
+title: Manual internal review
+description: Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+keywords: [Expert review, Manual review, Internal review, Contract review workflow, Subject matter expert review]
+audience: [sn\_cm\_core.contract\_fulfiller, sn\_cm\_core.contract\_reviewer]
+breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Internal review
+# Manual internal review
 
-Get your contract document reviewed by internal subject matter experts who have the expertise you need.
+Assign contract documents to internal subject matter experts for detailed manual review. Experts can add review tasks, provide feedback, request additional information, and validate contract terms.
 
 A workflow for getting content reviewed by subject matter experts might progress as follows:
 
@@ -30,8 +32,9 @@ A workflow for getting content reviewed by subject matter experts might progress
 7.  The contract reviewer reviews the document, accept, reject, or proposes edits, and adds comments.
 8.  The contract reviewer completes the review and shares the updated contract document if available.
 9.  The contract fulfiller receives updated document and makes the necessary changes based on the feedback.
-    -   For internal storage - If any changes are required, a new document version is created after finalizing the document.
-    -   For external storage - Reviewers collaborate on the contract document revision online in real time. Once the review is complete, the fulfiller can finalize the contract document that is available online or create a new offline version with the changes.
+    -   For internal storage - If any changes are required, the contract fulfiller updates and finalizes the document.
+    -   For external storage - Reviewers collaborate on the contract document revision online in real time. Once the review is complete, the fulfiller can update the document directly online or download it to make updates offline.
+10. Contract fulfiller uploads the finalized document using the **Create revision** option from the Contract Documents tab.
 
 The contract request remains in the Awaiting review State until a review task is active.
 
@@ -44,5 +47,5 @@ As a contract fulfiller, share information requested by the reviewer to proceed 
 -   **[Cancel an internal review task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-close-review-task.md)**  
 As a contract fulfiller, cancel a review task irrespective of its state.
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
 

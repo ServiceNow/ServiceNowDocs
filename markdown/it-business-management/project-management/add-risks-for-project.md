@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Adding RIDAC records for a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Adding RIDAC records for a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add risks for a project
@@ -42,7 +42,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 5.  On the Risk form, fill in the fields.
 
-    For more information, see [RIDAC form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ridac-forms.md).
+    For more information, see [RIDAC form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ridac-forms.md).
 
     **Note:** The Risk Assessment Summary section only appears when the **Enable Advanced Risk PPM Integration** property is enabled.
 
@@ -52,7 +52,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 ## What to do next
 
 -   Assess the risks that have been added. For more information, see [Assign project risks to stakeholders for assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/assess-project-risk-using-ara.md)
--   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md).
+-   Convert an existing risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md).
 -   Associate the risk with existing issues so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/reassociate-ridac-project.md).
 
 **Related topics**  
@@ -62,7 +62,7 @@ A risk is any uncertain event that can potentially impact the success or outcome
 
 [Configure custom Risk rank and Risk value for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/risk-value-lookup-project.md)
 
-[Convert one RIDAC record to another for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md)
+[Convert RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/convert-ridac-for-project.md)
 
 [Associate existing RIDAC records for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/reassociate-ridac-project.md)
 

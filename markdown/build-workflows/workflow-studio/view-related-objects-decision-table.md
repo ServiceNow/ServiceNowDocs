@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using decision tables, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Use, Decision tables, Workflow Studio, Build workflows]
 ---
 
 # View related objects in a decision table
@@ -30,7 +30,7 @@ Role required: none
 
 3.  Open a decision table.
 
-4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text:\) and select **See Related Objects**.
+4.  Select the Decision table menu options icon \(\[Omitted image "dec-table-menu-options.png"\] Alt text: elipsis\) and select **See Related Objects**.
 
     A list of related objects opens, showing you where your decision table is used in flows, playbooks, and subflows. Depending on your role, you may see an empty \(or not as full\) list with a number next to **Number of objects hidden by security constraints**.
 

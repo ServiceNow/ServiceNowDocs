@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/maintain-allocations-renewal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -20,7 +20,9 @@ Role required: usage\_admin, sn\_sub\_man.admin, oradmin
 
 ## About this task
 
-When a per-user subscription renews, a new product SKU might be added to your account. This SKU is treated as a new product subscription in Subscription Management, requiring you to re-allocate subscriptions by adding groups with measured roles to the subscription.
+When a per-user subscription renews, a new product SKU might be added to your account. This SKU is treated as a new product subscription in Subscription Management.If you've manually allocated user-based subscriptions in the past, you must re-allocate renewed subscriptions by adding groups with measured roles to the subscription.
+
+If you haven't manually allocated user-based subscriptions before, allocations are made automatically based on user and group roles. No action is necessary to maintain allocations after renewal.
 
 ## Procedure
 
@@ -36,6 +38,4 @@ When a per-user subscription renews, a new product SKU might be added to your ac
 ## What to do next
 
 Continue to monitor subscription renewal dates to ensure that your allocations are accurate throughout each renewal.
-
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md)
 

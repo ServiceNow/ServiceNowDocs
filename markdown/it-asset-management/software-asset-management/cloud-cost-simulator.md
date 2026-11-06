@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Cloud cost simulation
@@ -24,7 +24,7 @@ The following plugins are required for supporting cloud cost stimulator recommen
 -   Hardware Asset Management \(sn\_hamp\): for end of life cycle for hardware.
 -   Cloud Migration Assessment application \(com.sn\_cloud\_migration\): for resource utilization.
 
-## Overview
+## Overview of cloud cost simulation
 
 The sam\_manager role specifies the criteria for migrating the resources to the cloud. For example, you may need all virtual machines installed with SQL Server or all virtual machines having end of life software. In addition the Software Asset Management application automatically provides recommendations based on End of Life software and hardware and resource utilization.
 
@@ -34,7 +34,7 @@ The most optimal matching of resources is conducted and the total cost involved 
 
 For information on comparing and evaluating the estimate cost of migrating your resources to the cloud, see [Cloud simulator dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/cloud-simulator-dashboard.md).
 
-\[Omitted image "cloud-cost-simulatorv5.png"\] Alt text: Cloud cost simulation.
+\[Omitted image "mmasset0021824-cloud-cost-simulator.svg"\] Alt text: Cloud cost simulation.
 
 ## Use cases
 

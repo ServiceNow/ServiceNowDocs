@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/add-an-oauth-2-1-mcp-server.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Adding an MCP Server in AI Agent Studio, Configuring Model Context Protocol Client, Model Context Protocol Client, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Add an MCP Server with OAuth 2.1
@@ -20,7 +20,7 @@ Role required: sn\_mcp\_client.admin
 
 ## About this task
 
-OAuth is the recommended method to authenticate the MCP servers. If your MCP server supports it, choose OAuth 2.1 in the Authentication method.
+OAuth is the usual method to authenticate the MCP servers. If your MCP server supports it, choose OAuth 2.1 in the Authentication method.
 
 ## Procedure
 
@@ -73,7 +73,7 @@ The web address of your MCP Server.
 
     The dynamic client registration auto-populates the data in the form fields.
 
-    **Note:** If dynamic registration is supported by the MCP Server, you will be prompted to confirm the grant type and other inputs. If dynamic registration is not supported, you can continue with the Manual Registration method in Step 6.
+    **Note:** If dynamic registration is supported by the MCP Server, you’ll be prompted to confirm the grant type and other inputs. If dynamic registration isn’t supported, you can continue with the Manual Registration method in Step 6.
 
 <table id="table_zcx_vq3_xfc"><thead><tr><th>
 
@@ -158,7 +158,7 @@ Web address to revoke the previously provided token.
 
     -   If your MCP Server doesn’t support Dynamic Client Registration, then you can register the OAuth client for AI agents in your MCP Server manually and update those client details in AI Agent Studio.
     -   The manual client registration doesn’t auto-populate the data in the form fields and must be manually provided.
-    -   <table id="table_yds_tsh_xfc"><thead><tr><th>
+<table id="table_yds_tsh_xfc"><thead><tr><th>
 
 Field
 
@@ -251,9 +251,11 @@ Web address to revoke the previously provided token.
 
 7.  Select **Add**.
 
-    The MCP Server with OAuth 2.1 gets added and appears in the list of MCP servers.
+    Selecting Add takes you to the MCP Server record where you must authenticate it for adding an MCP tool to an AI agent.
 
-8.  Open the OAuth MCP Server record and select **Authenticate**.
+8.  Select **Authenticate**.
+
+    Selecting **Authenticate** takes you to the third-party authorization page where you must select a workspace and select **Authorize**.
 
     **Note:** When the OAuth access or refresh tokens aren’t available, you must authenticate the OAuth configuration on the MCP Server record to add it as a tool to an AI agent.
 

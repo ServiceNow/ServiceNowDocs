@@ -1,20 +1,22 @@
 ---
 title: Publisher optimizations for SAP
-description: View licensing optimizations for SAP by selecting SAP from the Publisher drop-down list.
+description: Identify cost-saving opportunities for SAP licenses by reviewing usage data across users, engines, digital access, and cloud consumption.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/pub-opt-sap.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Publisher optimizations for SAP
 
-View licensing optimizations for SAP by selecting **SAP** from the **Publisher** drop-down list.
+Identify cost-saving opportunities for SAP licenses by reviewing usage data across users, engines, digital access, and cloud consumption.
+
+To view publisher optimizations for SAP, navigate to **SAM Workspace** &gt; **Software asset analytics** &gt; **Optimization and savings** and then select **SAP** from the **Publisher** drop-down list.
 
 <table id="table_a3c_hst_2xb"><thead><tr><th>
 
@@ -90,6 +92,42 @@ Number of SAP engines that haven’t been used, but have active software entitle
 
 </td></tr><tr><td>
 
+Users for role based license optimization
+
+</td><td>
+
+SAP System Users\[samp\_sap\_system\_user\]
+
+</td><td>
+
+Number of SAP users that can have their role changed to optimize license consumption.
+
+</td></tr><tr><td>
+
+Users for transaction based license optimization
+
+</td><td>
+
+SAP System Users\[samp\_sap\_system\_user\]
+
+</td><td>
+
+Number of SAP users for which Software Asset Management plugin has detected user transaction-based license optimizations.
+
+</td></tr><tr><td>
+
+HANA database monthly peak usage
+
+</td><td>
+
+SAP License Metric Measurements\[samp\_sap\_license\_metric\_measurement\]
+
+</td><td>
+
+Monthly peak usage of HANA database in gigabytes \(GB\) over the last 12 months.
+
+</td></tr><tr><td>
+
 Digital access usage by client/system
 
 </td><td>
@@ -123,6 +161,18 @@ Software Subscriptions\[samp\_sw\_subscription\]
 </td><td>
 
 Number of users by their SAP cloud use type in SAP S/4HANA Public Cloud.
+
+</td></tr><tr><td>
+
+SAP S/4HANA Private Cloud usage by use type
+
+</td><td>
+
+SAP System Users\[samp\_sap\_system\_user\]
+
+</td><td>
+
+Number of users by their Full Usage Equivalent \(FUE\) Named User Type for SAP S/4HANA Cloud, Private Edition.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/c\_AssessmentProcess.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -197,7 +197,7 @@ You can use the Script method with these **Data type** values:
 -   Number
 -   Percentage
 
-Use the Script field to write JavaScript code. By default, the field contains information about available variables and an example, which you can use as the basis of your script or replace entirely.
+Use the Script field to write JavaScript code. By default, the field contains information about available variables and an example, which you can use as the basis of your script or replace entirely:\[Omitted image "asmt\_metric\_form\_script.png"\] Alt text: metric form script field
 
 You must use the following variables in your script:
 
@@ -219,7 +219,7 @@ In the Assessments application, administrators or assessment administrators can 
 -   **[Assessment groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/c_AssessmentGroups.md)**  
 An assessment group is a container for assessment instances and assessment results generated in a single occurrence.
 -   **[View an assessment metric category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/t_CreateAnAssessmentCategory.md)**  
-View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to visually assess the demands.
+View assessment metric categories that are used with assessment metric types and assessment metrics in generating the bubble charts on the Demand Workbench. The bubble charts help the demand managers to assess the demands visually.
 -   **[Assessment metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/c_AssessmentMetrics.md)**  
 In the Assessments application, a metric is a trait or value used to evaluate assessable records.
 -   **[Add a metric category and metric in the question bank for assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/add-questionbank-assessment.md)**  

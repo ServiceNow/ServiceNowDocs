@@ -1,18 +1,18 @@
 ---
 title: Data capture and validation
-description: This phase is meant to gather the necessary information about the account such as support contacts, locations, sold products, entitlements, and so on.
+description: This phase is meant to gather the necessary information about the account such as support contacts, locations, sold products, entitlements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-use-playbook-data-capture.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up the account onboarding playbook, Configuring account onboarding, Account onboarding, Account Lifecycle Events]
+breadcrumb: [Account onboarding playbook, Manage account onboarding cases, Account onboarding, Use, Customer Success Management]
 ---
 
 # Data capture and validation
 
-This phase is meant to gather the necessary information about the account such as support contacts, locations, sold products, entitlements, and so on.
+This phase is meant to gather the necessary information about the account such as support contacts, locations, sold products, entitlements.
 
 <table id="table_ghf_3n4_1yb"><thead><tr><th>
 
@@ -28,13 +28,7 @@ Activity
 
 </td><td>
 
-In this task, select the type of activity being performed:
-
--   Data capture: Denotes important data being imported into the system.
--   Risk mitigation: Denotes a risk associated with the onboarding of this customer that must be managed.
--   Development: Tracks an internal or external development action that is required.
--   Training: Denotes a training activity required before the go-live date.
--   Testing: Denotes a testing activity required before the go-live date.
+Select the **Data capture** activity to import relevant data into the system and validate it before moving to the next stage.
 
  The following default tables are available with the base system:
 
@@ -47,10 +41,15 @@ In this task, select the type of activity being performed:
 -   Sold products
 -   Install base M2M sold products
 
- Custom conditions have been defined and field values in these tables like source table, target table, and data source are auto populated in each of these tables. You can use these flows by directly importing data into these tables and publish them when they’re ready. For details on importing data into these tables, see [Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-import-data.md).
+ Custom conditions have been defined and field values in these tables like source table, target table, and data source are auto-populated in each of these tables. You can use these flows by directly importing data into these tables and publish them when they’re ready. For details on importing data into these tables, see [Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-import-data.md).
 
- These tables have been configured with specific conditions and field values have been auto populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Define additional field and record level validations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
+ These tables have been configured with specific conditions and field values have been auto-populated. You can modify these tables, add new tables, and activities depending on your requirements using the Process Automation Designer. See [Configure data validation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-data-valid-assist.md) for details.
 
 </td></tr></tbody>
-</table>Review the data in the Summary activity and click **Mark Complete** to move to the next stage.
+</table>Review the data in the Summary activity and select **Mark Complete** to move to the next stage.
+
+-   **[Import data into the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-import-data.md)**  
+As part of the Customer Success Management process, you can import, configure, and publish data.
+
+**Parent Topic:**[Account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-account-onboard-playbook.md)
 

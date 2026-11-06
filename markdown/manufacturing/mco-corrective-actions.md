@@ -1,43 +1,50 @@
 ---
 title: Corrective actions
-description: Identify the asset. Address the asset issue, either by eliminating or replacing the asset.
+description: Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-corrective-actions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Related lists for my campaigns, My campaigns, Recall management, Agent management, Using Manufacturing Commercial Operations, Manufacturing Commercial Operations]
+breadcrumb: [Create a campaign, Recall management, MCO workspace, Use, Manufacturing Commercial Operations]
 ---
 
 # Corrective actions
 
-Identify the asset. Address the asset issue, either by eliminating or replacing the asset.
+Corrective action enables you to address the asset issue, either by eliminating or replacing the asset.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_rcl\_claim\_mgmt.recall\_manager
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns** &gt; **Corrective Actions**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace** &gt; **Lists** &gt; **Recall Management** &gt; **My Campaigns**.
 
-2.  Select **New**.
+2.  Select the corresponding campaign record in which you want to create a corrective action.
 
-3.  On the form, fill in the fields.
+3.  Select **Corrective Actions**.
 
-    |Fields|Description|
-    |------|-----------|
-    |Number|Corrective action number that is automatically generated. The number starts with CA.|
-    |Name|Name of the corrective action.|
-    |Affected part|Details of the affected part. This is the part for which the corrective action is being performed.|
-    |State|State of the action.|
-    |Recall campaign|Recall campaign details that are fetched from [Recall campaign form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-recall-campaign-form.md).|
-    |Mandatory|Option to set the corrective action as required.|
-    |Remedy type|Remedy type specifies the corrective action as to what type of correction is being performed.|
-    |Impacted asset applicability|List of assets that are impacted.|
-    |Details|Brief detail about the corrective actions.|
+4.  Select **New**.
 
-4.  Select **Save**.
+5.  On the corrective action form, fill in the fields.
 
+    For a description of the field values, see [Corrective action form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-corrective-action-form.md).
+
+6.  Select **Save**.
+
+    **Ready to use** option is displayed.
+
+    **Note:** At least one "In use" corrective action is required to initiate the recall campaign to In-progress.
+
+    Corrective action must contain at least one action charge line to move it to In use.
+
+
+-   **[Corrective action charges](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco_corrective_action_charges.md)**  
+Create correction action charges to enable the expenses incurred to address a non-conformance and implement measures to help prevent its recurrence.
+-   **[Generate a part requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-part-requirements.md)**  
+Capture all the part requirements at the campaign level.
+
+**Parent Topic:**[Create a campaign](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-rc-my-campaigns.md)
 

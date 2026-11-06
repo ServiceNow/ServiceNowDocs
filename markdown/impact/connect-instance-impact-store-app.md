@@ -1,30 +1,29 @@
 ---
-title: Connect to the provider instance
-description: The named contact administrator will establish a secure connection to the Impact Delivery Instance \(provider instance\) using Now Service Exchange to transmit data with the Impact Store Application.
+title: Use manual registration to establish the connection to the provider instance
+description: The named contact administrator will establish a secure connection to the Impact Delivery Instance \(provider instance\) to transmit data with the Impact Store Application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/connect-instance-impact-store-app.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-15"
-reading_time_minutes: 2
-breadcrumb: [Configuring the Impact Store Application, Impact Store Application, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use manual registration to configure the Impact Store Application, Data synchronization reference, Impact reference, Impact]
 ---
 
-# Connect to the provider instance
+# Use manual registration to establish the connection to the provider instance
 
-The named contact administrator will establish a secure connection to the Impact Delivery Instance \(provider instance\) using Now Service Exchange to transmit data with the Impact Store Application.
+The named contact administrator will establish a secure connection to the Impact Delivery Instance \(provider instance\) to transmit data with the Impact Store Application.
 
 ## Before you begin
 
-Confirm the Impact Store Application is installed and the connection to the Impact Delivery Instance has been initiated.
+-   Confirm [Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/initiate-the-connection-impact-delivery-instance.md) is completed.
+-   A registration email with a direct link to the IDI provider connection form is sent to the named contact administrator in order during the initial connection to IDI.
 
-A registration email with a direct link to the IDI provider connection form is sent to the named contact administrator in order.
-
-Role required: Any Impact role, IDI Impact admin
+Role required: Any Impact Store App role, IDI admin
 
 ## Procedure
 
-1.  Open the Welcome email to start to establish a connection between the Impact Store Application and the Impact Delivery Instance.\[Omitted image "registration-welcome-email.png"\] Alt text: The Welcome email with the Connect to Impact IDI button displayed.
+1.  As the named contact administrator, open the **Welcome email** or access the instance registration tab in the Impact Delivery Instance.
 
     **Note:** If you didn’t receive the registration email, reach out to your Impact Squad.
 
@@ -32,11 +31,11 @@ Role required: Any Impact role, IDI Impact admin
 
     Detailed screens are available in the Impact Store Application manual registration steps.
 
-    \[Omitted image "manual-registration-establish-connection.png"\]
+    \[Omitted image "manual-registration-establish-connection.png"\] Alt text: The manual registration step to establish a connection between IDI and the Impact Store App.
 
-3.  Select ServiceNow Impact in the company field.
+3.  Complete the form.
 
-<table id="table_s2c_zvv_gdc"><thead><tr><th>
+<table id="table_fbs_gqq_zfc"><thead><tr><th>
 
 Field
 
@@ -50,75 +49,88 @@ Company
 
 </td><td>
 
-If ServiceNow Impact is not listed, add a new company. **Note:** A new ServiceNow Impact company is required for each instance being configured.
+ServiceNow Impact is pre-populated. If necessary, select ServiceNow Impact from the field selector.
 
 </td></tr><tr><td>
 
-URL
+State \(read-only\)
 
 </td><td>
 
-The URL to your Impact Store Application IDI provider instance. This is pre-populated when accessing from the registration email.
-
-</td></tr><tr><td>
-
-Outbound status
-
-</td><td>
-
-Read-only status of the connection of your Impact Store Application communicating to the IDI.-   Not Onboarded: Onboarding and data have not yet been connected to synchronize with Impact Store Application.
--   Active Replication: Onboarding and data have been successfully connected to retrieve data from IDI to the Impact Store Application.
--   Closed Complete: Onboarding and synchronization is successful.
+-   Pending: Connection is in progress.
+-   Awaiting validation: After saving the record, Service Exchange Health scan checks are performed.
+-   Validated: Health checks succeed and the provider is connected.
+-   Validation failed: Health checks failed, the provider isn't connected.
 
 
 </td></tr><tr><td>
 
-Inbound status
+URL \(read-only\)
 
 </td><td>
 
-Read-only status of the connection of your Impact Store App receiving data from the IDI.-   Not Onboarded: Onboarding and data has not yet imported from IDI to the Impact Store Application.
--   Active Replication: Onboarding and data have been successfully imported from IDI to the Impact Store App.
--   Closed Complete: Onboarding and synchronization are successful.
+The URL to the Impact provider instance is pre-populated.
+
+</td></tr><tr><td>
+
+Outbound status \(read-only\)
+
+</td><td>
+
+-   Empty: No status available before initiating the connection to the provider.
+-   Not onboarded: Status prior to connecting to IDI.
+-   Up
+
+
+</td></tr><tr><td>
+
+Inbound status \(read-only\)
+
+</td><td>
+
+-   Empty: No status available prior to initiating the connection to the provider.
+-   Not onboarded: Status prior to connecting to IDI.
+-   Up
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "connect-provider.png"\] Alt text: Impact connect to provider option displays after the ServiceNow Impact company is created.
-
-4.  Select **Save** to store the record.
+</table>4.  Select **Save** on the Provider Connection New Record form.
 
 5.  Select **Connect to Provider**.
 
-    You are redirected to IDI to authenticate the registration.
+6.  Select **Save** to continue.
 
-6.  Log in to IDI, if not already logged in.
+    -   Validation checks are performed during the onboarding process while the state reflects awaiting validation.
+    -   When the state reflects Validated, the health checks processed successfully and the **Connect to provider** button becomes available.
+    **Note:** If the state updates to Validation failed, health checks failed and the provider isn't connected. Select the **Health Dashboard** link in the error banner to be directed to the Service Exchange health dashboard. View and diagnose errors and follow the steps provided to resolve the errors. If you are unable to resolve the issues, contact your Customer Service Manager for assistance.
 
-    The IDI admin role is required to access the registration options.
+7.  Select **Connect to provider**.
 
-    \[Omitted image "servicebridge-registration.png"\] Alt text: The Service Bridge registration page displays.
+    A status message displays and updates confirming the synchronization process:
 
-7.  Select **Authenticate** to authorize the registration process.
+    -   Provider onboarding started: The connection is validated between the Impact Store App and the Impact Delivery Instance.
+    -   Syncing settings to complete onboarding: Necessary components and settings are synchronizing and required for alignment.
+    -   Onboarding Complete: All settings have synced and you're ready to sync data from the Impact Delivery Instance.
+    \[Omitted image "onboarding-complete-png.png"\] Alt text: Provider and onboarding connection status and confirmation message.
 
-    \[Omitted image "impact-store-servicebridge-auth-allow.png"\] Alt text: Impact Store App allow ServiceBridge connection.
+8.  When the status updates to Onboarding Complete, select **Close**.
 
-    You are redirected back to the Impact Store Application where a verification message displays to accept the authentication request.
+    The Outbound and Inbound statuses for the Provider connection will display Up when successfully connected and onboarded.
 
-8.  Select **Allow** to confirm the connection between the Impact Store Application and the IDI.
+9.  Return to Guided Setup, and select **Mark Complete** to continue to verify the connection.
 
-    An authorization success message displays in the Service Exchange registration page.\[Omitted image "service-bridge-connection-successful.png"\] Alt text: Service Bridge authorization successful message.
+    \[Omitted image "create-provider-connection-automated-mark-complete.png"\] Alt text: The required step to mark the new provider connection creation as successful with the Mark as complete button on the Automated Registration page in Guided Setup.
 
-9.  Select **Submit** to complete the registration.
-
-    **Note:** For information on troubleshooting with Service Bridge, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB1571549](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1571549).
-
-    The registration page loads for the authorization. When the state updates to Closed Complete, the authorization is successful and you may continue with the remaining Guided Setup tasks.
-
-    \[Omitted image "registration-complete.png"\] Alt text: Registration status updates to Closed Complete.
-
-    **Note:** The authorization and state may take several moments to update.
+    The **Verify the connection** activity becomes available in Guided Setup.
 
 
 ## What to do next
 
-[Use Guided Setup to synchronize and migrate data to the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/guided-setup-impact-in-app.md).
+[Verify Impact data connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/verify-impact-data-connection.md).
+
+**Parent Topic:**[Use manual registration to configure the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/use_manual_registration_configure_impact_store_application.md)
+
+**Previous topic:**[Initiate the connection to Impact data with manual registration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/initiate-the-connection-impact-delivery-instance.md)
+
+**Next topic:**[Secure data transfer using Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/service-bridge-overview.md)
 

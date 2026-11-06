@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 keywords: [Auto-generate, manifest, file, uploading, Microsoft, Teams, MSTeams, Virtual Agent, self-configured bot]
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams using the self-configured bot, Specialized Virtual Agent integrations for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with MS Teams using self-configured bot, Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Auto-generate the manifest file for uploading on Microsoft Teams
@@ -150,13 +150,21 @@ Icon that is seen on the app bar when the app is in use.You can select the follo
 
 </td></tr><tr id="message-extension"><td>
 
-Message Extension
+Message Extension or Copilot
 
 </td><td>
 
-Message extension that lets users search and share the results through the compose message area of the Microsoft Teams client.If you are going to use this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: Now Assist Conversation with Microsoft Copilot displaying the Message Extension enabled for your app.
+This section allows you to activate Message extension if your bot is set up for NLU/Keyword, or activate Copilot if your bot is set up for for LLM. \(For more information on activating LLM for your bot, see [Display your assistant on a portal, channel, or mobile app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/display-assistant-portal-channel.md).\)-   The Message extension check box appears if you configure your bot for NLU/Keyword. Message extension lets users search and share the results through the compose message area of the Microsoft Teams client.
+
+If you're using this bot for Microsoft Copilot, then ensure that you enable **Message Extension**. \[Omitted image "message-extension-teams.png"\] Alt text: Now Assist in Virtual Agent conversation with Microsoft Copilot displaying the Message Extension enabled.
 
 By enabling Message Extension for an app or bot, you will see the same app or bot in the message extension area while your conversation with the Now Assist using Microsoft Copilot.
+
+-   Copilot: if you have configured your bot for LLM, this option replaces Message extension. Custom Engine Agent \(CEA\) replaces the Declarative Agent \(DA\) and allows you to use Now Assist functionality in Copilot.
+
+The Sample Prompts window appears when you select the Copilot check box. Enter your prompts to your bot here to have the LLM follow those instructions.
+
+\[Omitted image "configure-bot-copilot.png"\] Alt text: With LLM activated for your bot, Copilot replaces the Message extension option, and lets you enter prompts through a Sample Prompts window.
 
 </td></tr></tbody>
 </table>    For more details about each field, refer to [Microsoft Teams documentation](https://learn.microsoft.com/en-us/microsoftteams/platform/resources/schema/manifest-schema).

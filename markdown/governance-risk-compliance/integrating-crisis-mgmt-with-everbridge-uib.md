@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/integrating-crisis-mgmt-with-everbridge-uib.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,23 +22,23 @@ To send a notification, you need correct contacts, groups, and delivery channels
 
 You can send an event notification that triggers a complete workflow of the activities from the **Draft** to the **Complete** state in Everbridge. You can monitor all activities from Business Continuity Workspace.
 
-When you send an emergency notification from the Business Continuity Workspace, the action creates an incident and a notification for the incident in Everbridge to be sent to the right contacts and groups.
+When you send an emergency notification from the Business Continuity Workspace, the action creates an incident. A notification for the incident in Everbridge to be sent to the right contacts and groups.
 
-The emergency notifications for an event are displayed on the **Emergency notifications** tab for the event. You can view the details of the emergency notification such as the notification state, start date, end date, and so on as shown in the following example.
+The emergency notifications for an event are displayed on the **Emergency notifications** tab for the event. You can view the details of the emergency notification such as the notification state, start date, end date, and so on as shown in the example.
 
 \[Omitted image "emergency-notification.png"\] Alt text: Emergency notifications tab.
 
-The emergency notification form is shown in the following example.
+The emergency notification form is shown in the example.
 
 \[Omitted image "notification-form.png"\] Alt text: Emergency notification form.
 
 ## Summary of the notification sent to contacts
 
-The **Summary** section in the notification form displays a list of the contacts and groups to whom the notification was sent and their responses are also recorded. It also displays the number of contacts who could not be reached, the number of contacts who acknowledged the notification, and the number of pending acknowledgments. This information is retrieved from Everbridge and it is displayed in your Business Continuity Workspace as shown in the following example.
+The **Summary** section in the notification form displays a list of the contacts and groups to whom the notification was sent and their responses are also recorded. It also displays the number of contacts who could not be reached, the number of contacts who acknowledged the notification, and the number of pending acknowledgments. This information is retrieved from Everbridge and it is displayed in your Business Continuity Workspace as shown in the example.
 
 \[Omitted image "SummaryEmergNotif.png"\] Alt text: Summary of the notification sent to the contacts.
 
-The Summary section in the notification form contains the following information:
+The Summary section in the notification form contains details:
 
 -   **Sent to**
 
@@ -66,6 +66,4 @@ If there are many contacts to whom the notification could not be delivered, then
 ## Administrative tasks for integrating Crisis Management with Everbridge
 
 For information on the administrative tasks for integrating Crisis Management with Everbridge notifications system, see [Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md).
-
-**Parent Topic:**[Exploring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exploring-bcm.md)
 

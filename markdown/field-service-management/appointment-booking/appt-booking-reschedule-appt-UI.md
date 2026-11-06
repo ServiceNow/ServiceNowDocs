@@ -7,9 +7,9 @@ release: yokohama
 product: Appointment Booking
 classification: appointment-booking
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage appointments as a customer, Manage appointments, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing appointments as a customer, Managing appointments, Use, Field Service Management]
 ---
 
 # Reschedule an appointment as a customer
@@ -56,6 +56,4 @@ The details for the scheduled appointment appear on the work order and work orde
 ## Result
 
 The customer receives SMS and email notification that their appointment is rescheduled.
-
-**Parent Topic:**[Manage appointments as a customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/manage-appts-as-a-customer.md)
 

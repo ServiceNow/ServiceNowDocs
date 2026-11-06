@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Outbound REST web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [REST, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Outbound REST authentication
@@ -24,11 +24,17 @@ Different web service providers may require a specific type of authentication. O
 
 ## Limitations of RESTMessage
 
-There are few options which are only available in REST Step which is not supported in RESTMessage:
+The following capabilities are supported in the REST Step \(IntegrationHub\) but are not available in the RESTMessageV2 scripted API:
 
--   Mutual authentication and OAuth 2.0: Mutual authentication is not available with OAuth 2.0. It is supported only with basic authentication.
--   Custom authentication \(AWS, etc.\): AWS credentials and other custom authentication methods are supported only with REST Step, not with the RestMessage API.
--   Legacy API: The legacy RESTMessage APIs do not support current authentication formats. Use RESTMessageV2 API instead.
+|Limitation|Description|
+|----------|-----------|
+|Mutual authentication on MID Server|mTLS \(client certificate authentication\) is not supported when routing REST calls through a MID Server. Mutual authentication via RESTMessageV2 is supported only for direct instance calls.|
+|Multipart with attachments|Multipart Content-Type requests for sending file attachments are not supported.|
+|Custom authentication \(Authentication Algorithm\)|Custom authentication profiles using the Authentication Algorithm framework are not available.|
+|AWS authentication \(Authentication Algorithm\)|AWS Signature Version 4 authentication via the Authentication Algorithm framework is not supported.|
+|Retry policy for outbound calls|Built-in configurable retry policies for automatic retries on transient failures are not available. Custom retry logic must be implemented in script.|
+
+**Note:** You can use the REST Step on IntegrationHub for these capabilities.
 
 ## Overriding REST authentication
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Data Loss Prevention Incident Response with Microsoft
@@ -18,7 +18,7 @@ The Data Loss Prevention Incident Response with Microsoft provides a core framew
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Overview and key features
 
@@ -52,10 +52,10 @@ Create an incident profile in your  ServiceNow AI Platform instance to retriev
 Modify the  Microsoft DLP IR  integration default system properties.
 -   **[Request release email from quarantine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/request-email-from-quarantine.md)**  
 Use this feature to release the email that is quarantined from the Microsoft Purview compliance portal.
--   **[Preview Evidence files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/preview-file-dlp-microsoft.md)**  
-Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
 -   **[Download files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/download-file-dlp-microsoft.md)**  
 Download files or email that violates the DLP policy on Microsoft Purview. Download this file or email on to your local machine from the DLP IR Incident view. You can download the files for DLP IR incidents of type Scan source Exchange Online, OneDrive, and SharePoint.
+-   **[Preview Evidence files for DLP incidents of type Exchange Online, OneDrive, and SharePoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/preview-file-dlp-microsoft.md)**  
+Preview Data Loss Prevention Incident Response evidence files in the DLP IR Analyst workspace.
 -   **[Domain separation in Microsoft DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/domain-separation-microsoft-dlp.md)**  
 Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 

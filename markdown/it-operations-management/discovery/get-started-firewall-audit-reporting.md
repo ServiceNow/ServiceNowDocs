@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Firewall Audits and Reporting, Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Get started with Firewall Audits and Reporting
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** The ServiceNow Store regularly releases new applications and updates to applications that are created by ServiceNow. If you already have the application, you can download the latest version to enhance your existing experience with our products. Different features are available or enhanced each time an application is released in the Store. Version numbers in this document indicate the content and features available in a particular release.
+**Note:** The ServiceNow Store regularly releases new applications and updates to ServiceNow applications. If you already have an application, you can download the latest version to enhance your existing experience with ServiceNow products. Features vary by release. The version number indicates which content and features are available in each release.
 
 ## Procedure
 
@@ -31,7 +31,7 @@ Role required: admin
     -   ITOM Visibility \[com.snc.itom.vis.license\] plugin
     -   Discovery \[com.snc.discovery\] plugin
     -   Configuration Management for Scoped Apps \(CMDB\) \[com.snc.cmdb.scoped\] plugin
-2.  Confirm that your system has been upgraded to Yokohama or a later version.
+2.  Confirm that your system has been upgraded to Brazil or a later version.
 
     During the upgrade process, the Firewall Audits and Reporting \[com.sn\_disco\_firewall\] plugin is automatically installed if the ITOM Visibility \[com.snc.itom.vis.license\] and Discovery \[com.snc.discovery\] plugins are already installed.
 

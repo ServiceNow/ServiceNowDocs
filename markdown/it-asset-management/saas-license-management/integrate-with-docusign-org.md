@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-11-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Docusign, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrate with Docusign at Organization level
@@ -27,7 +27,7 @@ For more information about the Docusign service, see [the DocuSign Developer sit
 |Download subscriptions|admin|No scopes|
 |Download consumption|admin|No scopes|
 
-This process is applicable for Yokohama patch 10, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 15.0.19, and Software Asset Management \(sn\_itam\_samp\) 2.1.0 version onwards.
+This process is applicable for Zurich patch 4, Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 16.0.8, and Software Asset Management \(sn\_itam\_samp\) 2.1.0 version onwards.
 
 ## Register a Docusign application
 
@@ -192,15 +192,15 @@ If you're using Software Asset Workspace, the option to create the Docusign inte
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d96709e831">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d240020e831">
 
 Interface
 
-</th><th align="left" id="d96709e834">
+</th><th align="left" id="d240020e834">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d96709e840">
+</th></tr></thead><tbody><tr><td id="d240020e840">
 
 **Core UI**
 
@@ -211,7 +211,7 @@ Action
 3.  Select **DocuSign Integration Profile**.
 
 
-</td></tr><tr><td id="d96709e882">
+</td></tr><tr><td id="d240020e882">
 
 **Software Asset Workspace**
 
@@ -299,7 +299,7 @@ The frequency at which envelope consumption gets renewed.For example, if you ent
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_sam\_saas\_int.Docusign\_OAuth\_with\_JWT**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -338,6 +338,10 @@ After creating an integration profile, view information about the profile in the
 -   Scheduled Job Results
 -   Unrecognized Subscription Identifiers
 -   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

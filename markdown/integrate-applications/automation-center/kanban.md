@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Explore, Automation Center, Workflow Data Fabric]
 ---
 
 # Automation Center Kanban board
@@ -20,6 +20,7 @@ The Automation Center Kanban board provides the following benefits:
 
 -   Viewing all automation requests and automation tasks of all states in one place.
 -   Ease of updating the state of an automation request or automation task.
+-   Create a task for an automation request.
 
 -   **[Manage automation requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/manage-req-board.md)**  
 Manage all automation requests from one location from the Request Board in the Automation Center Kanban board.

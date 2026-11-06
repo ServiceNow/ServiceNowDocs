@@ -1,0 +1,35 @@
+---
+title: Customize Community Service Portal
+description: Customize community service portal according to your needs.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/communities/customize-community-service-portal.html
+release: yokohama
+product: Communities
+classification: communities
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Community Service Portal, Configuring communities, Communities, Customer Service Management]
+---
+
+# Customize Community Service Portal
+
+Customize community service portal according to your needs.
+
+## Before you begin
+
+Role required: sp\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+## Procedure
+
+1.  Navigate to **Service Portal** &gt; **Portals**.
+
+2.  Select **Community**.
+
+
+**Parent Topic:**[Community Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/community-service-portal.md)
+

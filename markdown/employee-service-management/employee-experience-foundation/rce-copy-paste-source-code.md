@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-04-25"
-reading_time_minutes: 3
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Copy and Paste in the Rich Content Editor
@@ -61,10 +61,15 @@ If certain styling isn’t applied \(for example Font name\) or adjusting any of
 
 ## Additional Rich Content Actions and Behaviors
 
+**Note:** Content Managers and Admins have the option to apply background colors to selected canvas elements, including images. Available features include the use of solid and gradient colors, as well as adjustments for color opacity. These settings can be accessed in the right-hand panel under the Settings Styling tab when adding rich content to a canvas element.
+
 The ability to add color opacity to the canvas is a useful function available to you. The only limitation is that the copy and paste function styling is different when the colors are formatted in rgba\(\) instead of rgb, or hex.
 
 -   Add colors in hex code format \(`#rrggbbaa` to add opacity or just `#rrggbb`\).
 -   Open the edit code modal to adjust the rgba\(\) colors of the component to hex code to reflect the styling.
+-   Color Opacity shows the gradient and color layer options. Since background image layer is first, opacity isn’t relevant. Gradient is FFFFFF and OOOOOO by default.
+-   Background color to canvas element shows the background options for gradient, color and image. Toggle on and then select background options.
+
 
 **Note:** Content is pasted at the end of the canvas when no component is selected.
 

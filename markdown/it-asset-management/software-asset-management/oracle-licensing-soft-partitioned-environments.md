@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Oracle Database and WebLogic Server licensing in partitioned environments, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Oracle licensing in partitioned environments, Software Asset Management publisher pack for Oracle, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Oracle Database and WebLogic Server licensing in soft-partitioned environments
@@ -17,6 +17,8 @@ breadcrumb: [Oracle Database and WebLogic Server licensing in partitioned enviro
 The Software Asset Management application supports Oracle Database and WebLogic Server licensing rules in soft-partitioned environments, such as VMware and Nutanix virtualization technology.
 
 Soft partitioning enables you to segment the operating system \(OS\) of the environment into different OS types and OS versions by using OS resource managers. OS resource managers limit the number of processors that each Oracle database or WebLogic server can run on by creating segments in which CPU resources are allocated to applications within the same OS. For more information about Oracle licensing and soft partitioning, refer to the [Oracle Help Center](https://docs.oracle.com/en/).
+
+When you install or run an Oracle Database or WebLogic Server in soft-partitioned environments, you can license it using either the Named User Plus or Per Processor license metric. In addition, the WebLogic Server licensing support covers the entire WebLogic product family that includes the Standard, Enterprise, and Suite editions. For more information, refer to this knowledge base article [KB2630167](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2630167).
 
 ## VMware vSphere
 
@@ -34,7 +36,7 @@ The Oracle publisher pack supports the following Oracle licensing models on VMwa
 
 **Important:** If you enable the **Use host affinity for reconciling licenses for Oracle databases and WebLogic servers on VMware at the vCenter\(s\) aggregation level** option in your [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-properties.md), the Software Asset Management application honors all VM-Host affinity rules when reconciling Oracle licenses within your VMware vCenter Server instances. In this scenario, licensing is based on the sum of all physical ESXi hosts that the VMs can reside on, as specified in your VM-Host affinity rules.
 
-\[Omitted image "oracle-vmware-licensing.png"\] Alt text: Oracle database licensing on VMware vSphere.
+\[Omitted image "mmasset0021812-oracle-vmware-licensing.svg"\] Alt text: Oracle database licensing on VMware vSphere.
 
 For more information about Oracle licensing on VMware, see [Understanding Oracle Certification, Support and Licensing for VMware Environments](https://www.vmware.com/content/dam/digitalmarketing/vmware/en/pdf/whitepaper/solutions/oracle/understanding_oracle_certification_support_licensing_vmware_environments-white-paper.pdf).
 
@@ -46,7 +48,7 @@ Additionally, if the physical host is part of a Nutanix Cluster, you must licens
 
 In the following example, the license consumption for deploying a database on Virtual Machine VM1 is calculated at the cluster level. This calculation implies that all physical cores across all hosts in Cluster1 are counted for licensing.
 
-\[Omitted image "nutanix-oracle-virtualization.png"\] Alt text: Example for showing Oracle licensing at cluster level with cluster, AHV, and VMs
+\[Omitted image "mmasset0021813-nutanix-oracle-virtualization.svg"\] Alt text: Example for showing Oracle licensing at cluster level with cluster, AHV, and VMs
 
 **Parent Topic:**[Oracle Database and WebLogic Server licensing in partitioned environments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/oracle-licensing-partitioned-environments.md)
 

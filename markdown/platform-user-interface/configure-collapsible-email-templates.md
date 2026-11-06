@@ -1,18 +1,18 @@
 ---
-title: Set up collapsed content in email templates
-description: Collapse content in email templates by hiding it behind an ellipsis.
+title: Configure an email template with collapsed content
+description: Configure email templates with collapsed content by hiding it behind an ellipsis.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-collapsible-email-templates.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up email templates in Configurable Workspace, Administering emails in Configurable Workspace, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Emails, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Set up collapsed content in email templates
+# Configure an email template with collapsed content
 
-Collapse content in email templates by hiding it behind an ellipsis.
+Configure email templates with collapsed content by hiding it behind an ellipsis.
 
 ## Before you begin
 
@@ -22,28 +22,32 @@ Role required: email\_client\_admin
 
 1.  Navigate to **All** &gt; **Email Client** &gt; **Email Client Templates**.
 
-2.  Configure a new email template by selecting the **New** button in the Email Client Templates page.
+2.  From the Email Client Templates list, select an email template or create a new one.
 
-3.  Complete the fields with the template settings you want.
+    For instructions on creating an email template, see [Configure an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-email-templates.md).
 
-4.  In the Body HTML field, add the content you want to display.
+3.  Select the **Content** tab.
 
-5.  Collapse additional email content behind an ellipsis.
+4.  In the Content Type field, select **HTML**.
 
-    **Note:** Since the ellipsis will only display at the end of the email, add collapsed content at the end of the email template body.
+5.  In the Body HTML field, add the content you want to display.
 
-    1.  In the Body HTML field, enter the opening tag `<div id:collapsible-content>`.
+6.  Collapse additional email content behind an ellipsis.
+
+    **Important:** Since the ellipsis will only display at the end of the email, add collapsed content at the end of the email template body.
+
+    1.  Enter the opening tag `<div id:collapsible-content>`.
 
     2.  Add all content you want collapsed after the opening tag.
 
     3.  Enter the closing tag `<div id:collapsible-content>`.
 
-6.  Select **Submit**.
+7.  Select **Update** or **Submit**.
 
 
 ## Result
 
-An email template is created with collapsed content hidden behind an ellipsis.
+The email template's content is hidden behind an ellipsis.
 
 **Note:** Once you expand collapsed content by selecting the ellipsis, it's not possible to collapse the content again.
 

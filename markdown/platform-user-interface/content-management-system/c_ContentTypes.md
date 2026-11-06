@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -37,11 +37,6 @@ For example, the list block **Catalog Top 5** displays the top five items in the
 Several content types are available by default for tables such as Catalog Item \[sc\_cat\_item\], Gauge \[sys\_gauge\], and Page \[content\_page\].
 
 Content type defaults that are set for CMS can be overridden for individual sites. Use the **Content Types** related list on the site record to customize content types.
-
-**Note:** To learn more about the properties that affect use of content types, see the following topics in Instance Security Hardening Settings:
-
--   Performance monitoring IP restriction \(instance security hardening\)
--   Downloadable file types \(instance security hardening\)
 
 -   **[Configure a content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/content-management-system/t_CreateAContentType.md)**  
 Users with the content\_admin role can create a content type.

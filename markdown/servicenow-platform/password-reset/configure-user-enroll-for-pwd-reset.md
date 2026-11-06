@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Enable users to enroll for Password Reset
@@ -18,7 +18,7 @@ To enable users to enroll for the Password Reset program, you specify a UI macro
 
 ## Before you begin
 
-Role required: password\_reset\_admin or admin
+Role required: password\_reset\_admin
 
 ## About this task
 
@@ -60,6 +60,8 @@ A verification type must also define a verification UI macro and a corresponding
 **Related topics**  
 
 
+[Calculating the security score for password reset process]()
+
 [Configure password expiration reminder]()
 
 [Credential stores for Password Reset]()
@@ -68,7 +70,7 @@ A verification type must also define a verification UI macro and a corresponding
 
 [Configure your Password Reset process to auto-enroll users]()
 
-[Configuring Password Reset properties]()
+[Configure Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

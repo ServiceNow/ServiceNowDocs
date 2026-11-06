@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI connection for Copilot
@@ -22,13 +22,13 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower workspace** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Select **Add**.
 
 3.  Select **AI connector for Microsoft** from all the available connectors.
 
-4.  Select **Create connection**.
+4.  Click **Create connection**.
 
 5.  Select the Microsoft Copilot check box.
 
@@ -38,7 +38,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 7.  Expand Create Copilot connection section.
 
-8.  Select **Continue**.
+8.  Click **Continue**.
 
 9.  Setup page appears
 
@@ -54,15 +54,15 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     5.  Enter the OAuth token URL \(Tenant id\).
 
-    6.  Select **Create and test connection**
+    6.  Click **Create and test connection**
 
-    7.  Select **Continue**.
+    7.  Click **Continue**.
 
 11. **Configure import schedule**
 
-    1.  Verify that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped base system inactive.
+    1.  Ensure that both the parent-scheduled jobs, Discovery and Execution are active as they’re shipped out of the box inactive.
 
-        Verify to execute the Discovery-scheduled job first.
+        Ensure to execute the Discovery-scheduled job first.
 
     2.  Set the run frequency.
 
@@ -70,12 +70,12 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Select **Continue**.
+    4.  Click **Continue**.
 
-    5.  Select **View all connections** to view the newly created connection.
+    5.  Click **View all connections** to view the newly created connection.
 
 
 ## Result
 
-The AI Connection for Copilot is created and configured.
+AI connection is created for Copilot.
 

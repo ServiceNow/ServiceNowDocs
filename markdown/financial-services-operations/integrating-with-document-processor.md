@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/integrating-with-document-processor.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with other ServiceNow applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Integrating with Document Processor
@@ -22,11 +22,11 @@ ServiceNow® Financial Services Document Processor enables other Financial Servi
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Set up Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-fso-document-processor.md)
+[Configure\[Omitted image "bus-optimize-manage.svg"\] Alt text:Set up Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-fso-document-processor.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Submit and manage document related requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/using-document-processor.md)
+[Use\[Omitted image "bus-task-list.svg"\] Alt text:Submit and manage document related requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/using-document-processor.md)
 
 </td><td>
 

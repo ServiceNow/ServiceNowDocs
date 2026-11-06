@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add calibration attributes to an enterprise asset
@@ -280,7 +280,7 @@ Highest acceptable value that the calibration measurement can reach to stay in c
 If you set the **Value type** field to either **Accuracy % full scale** or **Accuracy % point**, this field is read-only.
 
 </td></tr></tbody>
-</table>    3.  To add an additional point to the calibration attribute, select the Add Content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add Content icon.\) and then fill in the fields.
+</table>    3.  To add an additional point to the calibration attribute, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: and then fill in the fields.
 
         Repeat this step for each point that you want to add.
 
@@ -292,7 +292,7 @@ If you set the **Value type** field to either **Accuracy % full scale** or **Acc
 
     1.  On the calibration attribute record, select the **Details** tab.
 
-    2.  In the Identification section of the **Details** tab, select the Search for Record icon \(\[Omitted image "search-icon.png"\] Alt text: Search for Record icon.\) next to the **Override** field.
+    2.  In the Identification section of the **Details** tab, select the Search for Record icon \[Omitted image "search-icon.png"\] Alt text: next to the **Override** field.
 
         The Override dialog box opens.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_ExampleTransactionsByUser.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create defined related lists, Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -30,7 +30,7 @@ The new relationship creates a list of task records opened by the current user.
 
 3.  Create a relationship with the following values.
 
-<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d127570e87">
+<table id="choicetable_inp_1qj_5r"><tbody><tr><td id="d135050e84">
 
 **Name**
 
@@ -38,7 +38,7 @@ The new relationship creates a list of task records opened by the current user.
 
 Last 20 transactions
 
-</td></tr><tr><td id="d127570e96">
+</td></tr><tr><td id="d135050e93">
 
 **Applies to table**
 
@@ -46,7 +46,7 @@ Last 20 transactions
 
 User \[sys\_user\]
 
-</td></tr><tr><td id="d127570e105">
+</td></tr><tr><td id="d135050e102">
 
 **Queries from table**
 
@@ -54,7 +54,7 @@ User \[sys\_user\]
 
 Task \[task\]
 
-</td></tr><tr><td id="d127570e114">
+</td></tr><tr><td id="d135050e111">
 
 **Queries with**
 
@@ -97,5 +97,5 @@ Notes and limitations:
 **Related topics**  
 
 
-[Add a related list to a form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md)
+[bundle-platadm.t_AddARelatedList]
 

@@ -1,18 +1,18 @@
 ---
 title: Roles and components of Partner Relationship Management
-description: The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
+description: The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/roles-and-components-of-partner-relationship-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
+last_updated: "2026-11-06"
+reading_time_minutes: 3
 breadcrumb: [Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Roles and components of Partner Relationship Management
 
-The Partner Relationship Management application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between enterprises and channel partners.
+The Partner Relationship Management application uses roles to manage access, identify users, and establish relationships between enterprises and channel partners.
 
 The PRM plugin \(com.snc.partner\_relationship\_management\) comes with a set of functional and granular roles, each with varying levels of access to raise and address queries.
 
@@ -42,7 +42,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Enterprise Partner Admin \(sn\_prm.enterprise\_partner\_admin\)
+Enterprise Partner admin \(sn\_prm.enterprise\_partner\_admin\)
 
 </td><td>
 
@@ -54,6 +54,8 @@ A user who is an admin for the partner enterprise.
 -   sn\_prm.channel\_partner\_writer
 -   sn\_prm.partner\_program\_writer
 -   sn\_prm.partner\_program\_rel\_writer
+-   sn\_customerservice.csm\_workspace\_user
+-   sn\_seg.segment\_mgmt\_admin
 
 </td></tr><tr><td>
 
@@ -67,6 +69,7 @@ Contributor who belongs to an enterprise and is responsible for managing cases a
 
 -   sn\_bus\_loc.location\_relationship\_manager
 -   sn\_prm.partner\_data\_viewer
+-   sn\_customerservice.csm\_workspace\_user
 
 </td></tr><tr><td>
 
@@ -83,7 +86,7 @@ Fulfiller who belongs to an enterprise and is responsible for fulfilling partner
 
 </td></tr><tr><td>
 
-External Partner Manager \(sn\_prm.external\_partner\_manager\)
+Partner Manager \(sn\_prm.external\_partner\_manager\)
 
 </td><td>
 
@@ -93,10 +96,11 @@ Contributor who belongs to a partner entity and is responsible for reporting cas
 
 -   sn\_customerservice.svc\_location\_manager\_contributor
 -   sn\_prm.partner\_data\_viewer
+-   sn\_prm\_dr.partner\_deal\_reg\_manager
 
 </td></tr><tr><td>
 
-External partner Associate \(sn\_prm.external\_partner\_associate\)
+Partner Associate \(sn\_prm.external\_partner\_associate\)
 
 </td><td>
 
@@ -110,12 +114,105 @@ Contributor who belongs to a partner entity and is responsible for reporting cas
 </td></tr></tbody>
 </table>The following table lists the granular roles installed with Partner Relationship Management.
 
-|Role|Description|Inherited roles|
-|----|-----------|---------------|
-|Channel partner writer \(sn\_prm.channel\_partner\_writer\)|This role provides granular edit access to the channel partner table.|Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)|
-|Partner Program Writer \(sn\_prm.partner\_program\_writer\)|This role provides granular edit access to the partner program table.|Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)|
-|Partner Program Relationship Writer \(sn\_prm.partner\_program\_rel\_writer\)|This role provides granular edit access to the partner program relationship table.|Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)|
-|Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)|This role provides granular read access to the channel partner, partner program, and partner program relationship tables.|NA|
+<table id="table_zfq_wdw_1fc"><thead><tr><th>
+
+Role
+
+</th><th>
+
+Description
+
+</th><th>
+
+Inherited roles
+
+</th></tr></thead><tbody><tr><td>
+
+Channel partner writer \(sn\_prm.channel\_partner\_writer\)
+
+</td><td>
+
+This role provides granular edit access to the channel partner table.
+
+</td><td>
+
+Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)
+
+</td></tr><tr><td>
+
+Partner Program Writer \(sn\_prm.partner\_program\_writer\)
+
+</td><td>
+
+This role provides granular edit access to the partner program table.
+
+</td><td>
+
+Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)
+
+</td></tr><tr><td>
+
+Partner Program Relationship Writer \(sn\_prm.partner\_program\_rel\_writer\)
+
+</td><td>
+
+This role provides granular edit access to the partner program relationship table.
+
+</td><td>
+
+Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)
+
+</td></tr><tr><td>
+
+Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)
+
+</td><td>
+
+This role provides granular read access to the channel partner, partner program, and partner program relationship tables.
+
+</td><td>
+
+NA
+
+</td></tr><tr><td>
+
+Experience \(sn\_prm.partner\_ui\)
+
+</td><td>
+
+This role provides granular access to organization staff to ensure a consistent experience across all user interfaces.**Note:** The Experience role needs to be manually inherited into other roles to view the Partner Relationship Management modules on ServiceNow platform, CRM Workspace, and the Partner portal.
+
+</td><td>
+
+NA
+
+</td></tr><tr><td>
+
+Program Segment Writer \(sn\_prm.program\_segment writer\)
+
+</td><td>
+
+This role provides users with the create, read, and update access to the Program segment mapping \(sn\_prm\_program\_segment\_mapping\) table.
+
+</td><td>
+
+-   Partner Data Viewer \(sn\_prm.partner\_data\_viewer\)
+-   Segment Data Viewer \(sn\_Seg.segment\_mgmt\_data\_viewer\)
+
+</td></tr></tbody>
+</table>## System properties
+
+Navigate to **All** &gt; **Partner Relationship Management** &gt; **Properties**. The Enterprise Partner admin \(sn\_prm.enterprise\_partner\_admin\) has the read and write access to the following properties.
+
+-   glide.ui.sn\_prm\_partner\_program\_activity.fields
+-   glide.service\_portal.resize\_text.partner.enable\_rem\_conversion
+-   glide.ui.sn\_prm\_partner\_program\_relationship\_activity.fields
+-   glide.ui.sn\_prm\_channel\_partner\_activity.fields
+
+-   **[Add responsibilities to PRM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/add-responsibilities-to-prm-roles.md)**  
+A responsibility describes a role or function that supports a user. Use responsibility definitions to create relationships between any two partner entities.
+
+**Parent Topic:**[Configure Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-partner-relationship-management.md)
 
 **Related topics**  
 

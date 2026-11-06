@@ -1,20 +1,20 @@
 ---
-title: Tutorial: add a new change management state
-description: This tutorial provides an example of adding a new state to the existing state model.
+title: Tutorial: Add a new change management state
+description: Add a Complete state between the Implement and Review states as an example of extending the state model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/t\_AddNewStateTutorial.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference section for Change Management, Change Management, IT Service Management]
+breadcrumb: [Reference, Change Management, IT Service Management]
 ---
 
-# Tutorial: add a new change management state
+# Tutorial: Add a new change management state
 
-This tutorial provides an example of adding a new state to the existing state model.
+Add a Complete state between the Implement and Review states as an example of extending the state model.
 
 ## Before you begin
 
@@ -40,7 +40,7 @@ Create a custom choice field to indicate whether a change request must go throug
 3.  [Add a UI policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_AddUIPolicy.md)  
 Add a UI policy to display the **Needs review** field for **Normal** change requests when it reaches the **Complete** state.
 4.  [Create an ACL](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateNewACL.md)  
-Create an access control rule \(ACL\) to prevent the **Needs review** field from being modified after it has been set.
+Create an access control rule \(ACL\) to avoid the **Needs review** field from being modified after it has been set.
 5.  [Update the state handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_UpdateStateHandlerScriptInclude.md)  
 Update the ChangeRequestStateHandler script include with the new **Complete** state.
 6.  [Update the state model script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_UpdateStateModelScriptInclude.md)  

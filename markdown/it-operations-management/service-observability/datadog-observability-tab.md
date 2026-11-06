@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Datadog templates, Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Datadog templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Datadog Observability tab for Service Observability
@@ -54,7 +54,7 @@ These dashboards display metrics for databases related to the service.
 |-----|-----------|-----------|
 |Max Connections|Maximum number of concurrent connections that can be established with the MySQL database server.|Datadog|
 |Failed Connections|Number of failed attempts to connect to the MySQL server.|Datadog|
-|Slow Queries Rate|Number of database queries that have been categorized as slow by the APM.|Datadog|
+|Slow Queries Rate|Number of database queries that have been categorized as slow by Datadog.|Datadog|
 |Data Reads|Number of read operations performed on the MySQL database.|Datadog|
 |Data Writes|Number of write operations performed on the MySQL database.|Datadog|
 |Cache Utilization|Percentage of the cache memory being used by the MySQL database.|Datadog|

@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -24,17 +24,11 @@ Role required: sn\_si.analyst
 
 1.  Navigate to **All** &gt; **IoC Repository** &gt; **Observables**.
 
-    \[Omitted image "riskiq-obs-enter.png"\] Alt text: Enter Observables in the navigation panel.
-
     Under the navigation panel, the Observables module is displayed.
 
-    \[Omitted image "riskiq-obsv-navfilter.png"\] Alt text: Observables module.
+2.  Select the **Observables** module to display the Observables list.
 
-2.  Click the **Observables** module to display the Observables list.
-
-    \[Omitted image "riskiq-o-list.png"\] Alt text: Observables list
-
-3.  Click **New** to create a new observable.
+3.  Select **New** to create an observable.
 
 4.  On Observable form, fill in the fields.
 
@@ -44,31 +38,23 @@ Role required: sn\_si.analyst
     |**Observable type**|The field is automatically cleared.|
     |**Finding**|The field is automatically set to **Unknown**.|
 
-    \[Omitted image "riskiq-testmail-new.png"\] Alt text: Enter a value in the field.
+5.  Select **Submit**.
 
-5.  Click **Submit**.
+    you're returned to the Observables list. In the **Value** column, your new observable is displayed.
 
-    You are returned to the Observables list. In the **Value** column, your new observable is displayed.
-
-    **Note:** If you cannot locate your observable on the part of the list that is displayed, use the search functionality to find it.
+    **Note:** If you can't locate your observable on the part of the list that is displayed, use the search functionality to find it.
 
 6.  Edit the **Observable type** field to change the type from **Unknown** to **Email address** to match your observable.
 
     1.  In the **Observable type** column, single-click to the right of the **Unknown** text to select it.
 
-        \[Omitted image "riskiq-test1email-unknown.png"\] Alt text: Click off of the text and in the column to select the field.
-
         The selected field is outlined in blue.
 
     2.  With the field outlined in blue, double-click anywhere inside the highlighted field to open the editor.
 
-    3.  In the field that is displayed, enter the observable type \(`Email address`\) and click the green check mark to save the value.
-
-        \[Omitted image "riskiq-test1email-edit.png"\] Alt text: Enter the observable type in the editor and click the green check to save it.
+    3.  In the field that is displayed, enter the observable type \(`Email address`\) and select the green check mark to save the value.
 
         In the **Observable type** column on the list, `Email Address` is displayed for your new observable.
-
-        \[Omitted image "riskiq-test1email-edited.png"\] Alt text: Observable type field updated with new observable.
 
 
 ## What to do next

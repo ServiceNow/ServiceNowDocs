@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Microsites
@@ -64,10 +64,6 @@ The Rich Content Editor supports many operating system and text formatting short
 |Action|Mac keyboard shortcut|Windows keyboard shortcut|
 |------|---------------------|-------------------------|
 |Paste and match style of selected text box|Shift+Option+Command+V|Shift+Alt+Windows+V|
-
-**Tip:**
-
-With the Rich Content Editor, you can easily use your keyboard to select individual canvas components. You can add text and columns, create text sections within those columns, and update headings within each section to adjust the styling and fonts to your liking; It helps you customize your content in a simple and convenient way.
 
 See [Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-keyboard-shortcuts.md) for additional information.
 

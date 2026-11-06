@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/otm-licensing-dashboard.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 1
+last_updated: "2026-11-06"
+reading_time_minutes: 2
 breadcrumb: [OTM SU Licensing References, Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
 
@@ -26,9 +26,9 @@ admin
 
 To open the dashboard for OTM, navigate to **All** &gt; **OTM License** &gt; **OTM Licensing Dashboard**.
 
-\[Omitted image "otm-dashboard-visibility-updated.png"\] Alt text: OTM Licensing Dashboard with Visibility tab selected
+\[Omitted image "otm-licensing-visibility-tab.png"\] Alt text: OTM Licensing Dashboard with Visibility tab selected
 
-\[Omitted image "otm-dashboard-foundation.png"\] Alt text: Licensing Dashboard with Foundation tab selected
+\[Omitted image "otm-licensing-foundation.png"\] Alt text: Licensing Dashboard with Foundation tab selected
 
 ## Use cases
 
@@ -66,7 +66,17 @@ ITOM Licensing CI Counts \[itom\_lu\_ci\_counts\] and UsageAnalytics Counts for 
 
 </td><td>
 
-Displays bars that represent counts of CIs of different licensable categories for the last 120 days per ITOM application. The dashboard also displays the line that represents the average consumption of subscription units for the last 90 days.**Note:** CIs managed by SG-OT Excel are counted and listed for license consumption with last\_scan dates more recent than, equal to, and older than 90 days ago.
+The first area displays the daily raw resource counts, which means all the detected resources before deduplication, normalization, and reconciliation required to sort them into specific CIs.
+
+**Note:** CIs managed by SG-OT Excel are counted and listed for license consumption with last\_scan dates more recent than, equal to, and older than 90 days ago.
+
+Hover over the bars to see the table of resource types. Each type is shown with an absolute number of resources and a share it takes among others.
+
+The second area displays bars that represent Subscription units counts for different licensable categories for the last 120 days per OT application.The dashboard also displays the brown line that represents the UsageAnalytics counts for table. This count is based on average consumption of subscription units for the last 90 days. A SU ratio is used where one server, three PaaS resources, three containers, or one unresolved monitored object equal 1 SU.
+
+Hover over the vertical bar in the Subscription units area for the desired day to open the Available CIs list. The table shows each CI category included in the daily CI count, along with an absolute number of resources and a share it takes among others.
+
+The third area shows which version of the OTM Licensing is used on the instance every day. It helps explaining spikes in count every time the new version is installed.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[OTM SU Licensing References](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/otm-su-licensing-references.md)

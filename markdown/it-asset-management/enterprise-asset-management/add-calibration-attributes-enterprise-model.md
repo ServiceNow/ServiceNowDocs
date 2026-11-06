@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Add calibration attributes to an enterprise model
@@ -280,7 +280,7 @@ Highest acceptable value that the calibration measurement can reach to stay in c
 If you set the **Value type** field to either **Accuracy % full scale** or **Accuracy % point**, this field is read-only.
 
 </td></tr></tbody>
-</table>    3.  To add an additional point to the calibration attribute, select the Add Content icon \(\[Omitted image "add\_content\_icon.png"\] Alt text: Add Content icon.\) and then fill in the fields.
+</table>    3.  To add an additional point to the calibration attribute, select the Add Content icon \[Omitted image "add\_content\_icon.png"\] Alt text: and then fill in the fields.
 
         Repeat this step for each point that you want to add.
 

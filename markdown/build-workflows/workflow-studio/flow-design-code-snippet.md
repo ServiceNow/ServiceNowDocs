@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [API access to Workflow Studio flows, Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [API access, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Create code snippets for flows, subflows, and actions
@@ -19,7 +19,6 @@ Generate a code snippet to call a specific flow, subflow or action.
 ## Before you begin
 
 -   Activate the flow or subflow you want to call.
--   Publish the flow or subflow you want to call. The Create code snippet option is only available for published flow and subflow.
 -   Publish the action you want to call.
 
 Role required: flow\_designer or admin
@@ -42,6 +41,4 @@ Role required: flow\_designer or admin
 ## What to do next
 
 Edit the script to add any mandatory values, such as inputs.
-
-**Parent Topic:**[API access to Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/api-access-flow-designer.md)
 

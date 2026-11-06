@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-guided-decisions.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configuring guidances and decision trees
 
 Configure guidances and decision trees to resolve customer issues faster and provide standardized resolution.
+
+**Note:** The Guided Decisions Experience\[com.snc.guided\_decisions\_playbook\_experience\] plugin is planned for deprecation in the Denmark release. Existing customers who already have the plugin installed can continue to access and migrate their Guided Decision Trees to Guided Decision Playbooks. However, new customers, or customers who have not previously installed the Guided Decisions Experience plugin, must create new decision flows using Guided Decision Playbooks, as Guided Decisions is no longer available for new installations. For migration guidance, see the [Guided Decisions Experience Deprecation: Migrating Guided Decision Trees to Guided Decision Playbooks](https://support.servicenow.com/kb?sys_kb_id=4c606e1847030f1c3b05ff48436d434d&id=kb_article_view) KB article.
 
 A decision tree is a structured troubleshooting process for service agents to work through. For more information, see [Setting up Guided Decisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/setting-up-guided-decisions.md).
 

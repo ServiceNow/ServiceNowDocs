@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using AI Control Tower, AI Control Tower, Enable AI experiences]
+breadcrumb: [Using AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Using value templates
@@ -23,7 +23,7 @@ Value templates offer the following benefits.
 -   Transparency: Provides visibility into how value is determined for an AI asset.
 -   Customization: Supports various persona-driven and formula-based definitions.
 
-Currently, value templates are supported for skills, AI agents, and AI use cases. A value template is assigned to an asset when a skill, AI agent, or AI use case is activated and deployed as an asset in the system. The following table lists the default value templates.
+Currently, value templates are supported for skills and agents. A value template is assigned to an asset when a skill or agent is activated and deployed as an asset in the system. The following table lists the default value templates.
 
 <table id="table_fbp_pvw_xfc"><thead><tr><th>
 
@@ -57,23 +57,5 @@ AWS and Microsoft AI agents
 
 Daily AI agent invocations \(Usage\) x 15 mins \(Time\) x 50% \(Acceptance rate\)
 
-</td></tr><tr><td>
-
-ServiceNow AI use case
-
-</td><td>
-
-Daily AI use case invocations \(Usage\) x average time per invocation \(Time\) x 50% \(Acceptance rate\)
-
 </td></tr></tbody>
-</table>-   **[Create a new value template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-new-value-template.md)**  
-Add a value template to define, calculate, and track the value delivered by an AI asset.
--   **[Edit a value template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/edit-value-template.md)**  
-Edit a value template to update how value is calculated for AI assets.
--   **[Create a new value template mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/create-value-template-mapping.md)**  
-Create a value template mapping record for a specific type of AI asset to standardize the template usage.
--   **[Assign a default template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/assign-default-template.md)**  
-Assign a template as default for a specific type of AI system.
-
-**Parent Topic:**[Using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/using-ai-control-tower.md)
-
+</table>

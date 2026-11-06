@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Palo Alto Networks - WildFire integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -24,17 +24,15 @@ Role required: sn\_si.analyst
 
 The **Security Operations Palo Alto Networks - Get WildFire Data Enrichment** flow is executed when a security incident is created from an alert received from the Palo Alto Network Firewall application. A malware hash from the email notification received from Firewall is entered on the **IoC** tab of the security incident, and the record is updated.
 
-\[Omitted image "get-wildfire-flow.png"\] Alt text: Wildfire data enrichment flow
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Show Open Incidents**.
 
 2.  Based on the email notification received from Firewall, locate and open the security incident that was created.
 
-3.  Click the **Indicators of Compromise** tab and populate the **Malware hash** with the hash you received in the alert.
+3.  Select the **Indicators of Compromise** tab and populate the **Malware hash** with the hash you received in the alert.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
     The flow causes the hash file to be uploaded to WildFire where the data is enriched. Reports in the PDF and XML formats are attached to the record \(security incident or IoC\) in your instance to aid in processing potential malware attacks.
 

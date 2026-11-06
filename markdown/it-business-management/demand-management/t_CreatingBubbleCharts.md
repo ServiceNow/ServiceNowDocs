@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -32,12 +32,12 @@ Bubble charts are useful for comparing demands based on common metrics such as r
 
 2.  Open the **Demand Workbench** record.
 
-3.  Update the required settings and click **Update**.
+3.  Update the required settings and select **Update**.
 
 
 **Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_SettingUpDemandManagement.md)
 
 **Previous topic:**[Associate a widget to the Demand table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/associate-widget-to-demand.md)
 
-**Next topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/r_UsingDemandManagement.md)
+**Next topic:**[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)
 

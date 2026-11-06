@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/extension-points-field-service.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Planning your Field Service Management implementation, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Plan implementation, Configure, Field Service Management]
 ---
 
 # Extension points in Field Service Management
 
 Use extension points to customize various configurations.
 
-In the application navigator, enter `sys_extension_point.list` and click **Enter** to view the extension points used in the Field Service Management application.
+In the application navigator, enter `sys_extension_point.list` and select **Enter** to view the extension points used in the Field Service Management application.
 
 You can create multiple implementations for each extension point and provide an order number for each implementation. The implementation that has the lowest order number is executed.
 
@@ -140,6 +140,22 @@ sn\_apptmnt\_booking.use\_unified\_appt\_widget
 
 Allow other applications to use seismic appointment booking calendar.
 
+</td></tr><tr><td>
+
+sn\_apptmnt\_booking.AppointmentRecommendationExtPoint
+
+</td><td>
+
+Customize the proximity and recommendation criteria for recommending appointments.
+
+</td></tr><tr><td>
+
+sn\_apptmnt\_booking.AppointmentSeismicUI
+
+</td><td>
+
+Fetches appointment booking configuration details based on the task table selected in the configuration.
+
 </td></tr></tbody>
 </table>|Extension Point Name|Description|
 |--------------------|-----------|
@@ -158,7 +174,66 @@ Allow other applications to use seismic appointment booking calendar.
 |--------------------|-----------|
 |TerritoryIndicators\(sn\_fsm\_tp.TerritoryIndicators\)|Allows you to define the key performance indicators \(KPIs\) to analyze the performance of the territory. The configured indicators appear in the contextual side panel of the Field Service Territory Planning console.|
 
-**Related topics**  
+<table id="table_l5r_gvw_zfc"><thead><tr><th>
+
+Extension Point Name
+
+</th><th>
+
+ 
+
+</th></tr></thead><tbody><tr><td>
+
+sn\_fsm\_planned\_wm.PWMScheduleSuppressionExtensionPoint
+
+</td><td>
+
+Customize the logic to validate when a schedule occurrence is suppressed.
+
+</td></tr><tr><td>
+
+sn\_fsm\_planned\_wm.PWMScheduleEffectivityExtensionPoint
+
+</td><td>
+
+Calculates the request dues, next run times, and the effectivity based on the configurations or rules.
+
+</td></tr><tr><td>
+
+sn\_fsm\_planned\_wm.PWMSourceRecordExtensionPoint
+
+</td><td>
+
+Derives the source specific fields like location, asset, CI, or IB based on the table associated to maintenance plan.
+
+</td></tr><tr><td>
+
+sn\_fsm\_planned\_wm.PlannedWorkManagementExeExtensionPoint
+
+</td><td>
+
+Processes plan maintenance schedule outcomes like a work order.
+
+</td></tr><tr><td>
+
+sn\_fsm\_planned\_wm.PWMScheduleStartExtensionPoint
+
+</td><td>
+
+Customize the effective start date of work plan schedule for different assets.When you configure a planned work schedule to start on a calculated date, the schedule starts on the effective start date calculated by the custom implementation of this extension point.
+
+**Note:** A default implementation is provided for this extension point. You can modify the default implementation as per you business requirements.
+
+</td></tr><tr><td>
+
+sn\_fsm\_planned\_wm.TaskPlanTemplateOutputTasks
+
+</td><td>
+
+Customize CRUD operations for the tasks, cases, or incidents created from task plan templates linked to a work plan.
+
+</td></tr></tbody>
+</table>**Related topics**  
 
 
 [Using extension points to extend application functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/extension-points.md)

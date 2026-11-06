@@ -1,26 +1,26 @@
 ---
 title: NowWebService class - Android
-description: The NowWebService API provides a function that launches a NowWebActivity that hosts a web view.Creates a NowWebActivity that hosts the web view.Preloads a list of specified java.net.URIs in a headless webview to pre-populate the webview cache with cacheable resources on the page.Updates the NowWeb UI theme with the specified UI theme. Use this function to update the web UI theme after it has been initially set using the launch\(\) function, such as when changing the theme from light to dark.
+description: The NowWebService class provides a function that launches a NowWebActivity that hosts a web view.Creates a NowWebActivity that hosts the web view.Preloads a list of specified java.net.URIs in a headless webview to pre-populate the webview cache with cacheable resources on the page.Updates the NowWeb UI theme with the specified UI theme. Use this function to update the web UI theme after it has been initially set using the launch\(\) function, such as when changing the theme from light to dark.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/NowWebServiceAndroidAPI.html
 release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowWebService class - Android
+# NowWebService class- Android
 
-The NowWebService API provides a function that launches a NowWebActivity that hosts a web view.
+The NowWebService class provides a function that launches a NowWebActivity that hosts a web view.
 
 |Name|Type|Description|
 |----|----|-----------|
 |configuration|[NowServiceConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowServiceConfigurationAndroidAPI.md)|Configuration information for the associated service, such as the ServiceNow instance URL and the name of the package.|
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowWebService - launch\(context: Context, url: URL, nowWebTheme: NowWebTheme\)
 

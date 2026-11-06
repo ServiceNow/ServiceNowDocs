@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ProposeAKBArticleAsACaseSolution.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage cases, Use, Customer Service Management]
 ---
 
 # Resolve cases with knowledge and community content
@@ -42,15 +42,15 @@ Customer service case managers can use the Demand Insights for Cases dashboard t
 
 4.  Perform any of the following steps.
 
-<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d168837e123">
+<table id="choicetable_i5f_ckh_ndb"><thead><tr><th align="left" id="d205723e123">
 
 To
 
-</th><th align="left" id="d168837e126">
+</th><th align="left" id="d205723e126">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d168837e132">
+</th></tr></thead><tbody><tr><td id="d205723e132">
 
 **Attach a knowledge article to the case**
 
@@ -64,7 +64,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 3.  To make the article visible to customers, click **Post**.
  **Note:** You cannot attach Communities content to the Case form.
 
-</td></tr><tr><td id="d168837e173">
+</td></tr><tr><td id="d205723e173">
 
 **Mark the content as helpful for resolving the associated case**
 
@@ -72,7 +72,7 @@ The knowledge article is displayed in **Activities** as a work note and is visib
 
 Click **This helped** in the pop-up window.
 
-</td></tr><tr><td id="d168837e185">
+</td></tr><tr><td id="d205723e185">
 
 **Scroll to previous or next result**
 

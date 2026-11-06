@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring Employee Center
@@ -59,7 +59,7 @@ For more information on Employee Center user roles, see [Employee Center roles](
 
 ## Employee Center for IT Service Management
 
-Use Employee Center to streamline your IT ticket management and other service management tasks. Improve agent experience with higher case deflections enabled by customised, machine learning-driven recommendations and solutions for employees. For more information, see .
+Use Employee Center to streamline your IT ticket management and other service management tasks. Improve agent experience with higher case deflections enabled by customised, machine learning-driven recommendations and solutions for employees. For more information, see [Employee Center for IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/itsm-n-ec-integration.md).
 
 ## Employee Center benefits
 
@@ -67,7 +67,7 @@ Use Employee Center to streamline your IT ticket management and other service ma
 |-------|-------|
 |Access any of your single sign-on \(SSO\) and non-SSO web applications from the portal home page.|[App Launcher](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/web-application-employee-about.md)|
 |Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/appointment-booking.md)|
-|One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/app-launcher-usability.md)|
+|One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)|
 |Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|
 | | |
 | | |

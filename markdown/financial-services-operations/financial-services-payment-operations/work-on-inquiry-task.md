@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Investigate a payment inquiry case, Managing payment inquiries, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigate an inquiry case, Managing payment inquiries, Use, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on an inquiry task
@@ -28,19 +28,19 @@ An inquiry task is automatically generated for a Beneficiary Claim Non-Receipt -
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the inquiry task from a payment inquiry case or from the **Inquiry Tasks** list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d65236e84">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d76405e99">
 
 Option
 
-</th><th align="left" id="d65236e87">
+</th><th align="left" id="d76405e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d65236e93">
+</th></tr></thead><tbody><tr><td id="d76405e108">
 
 **From a payment inquiry case**
 
@@ -51,7 +51,7 @@ Steps
 3.  In the case, click the **Inquiry Tasks** tab and click the inquiry task.
 
 
-</td></tr><tr><td id="d65236e126">
+</td></tr><tr><td id="d76405e141">
 
 **From the __Inquiry Tasks__ list**
 

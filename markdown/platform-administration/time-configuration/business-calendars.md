@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Using time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Use, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Creating business calendars
@@ -46,7 +46,7 @@ Use the following forms when you define calendars and schedules in the Business 
     To learn more about associating a business calendar with a package, see [Pair business calendars with packages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/pair-business-calendars-with-packages.md).
 
 
-**Warning:** If you are using Performance Analytics, use caution when changing time spans. Any change you make to the time span on a business or fiscal calendar can invalidate Performance Analytics data. Consult with a Performance Analytics administrator before making such changes.
+**Warning:** If you’re using Performance Analytics, use caution when changing time spans. Any change you make to the time span on a business or fiscal calendar can invalidate the Performance Analytics data. Consult with a Performance Analytics administrator before making such changes.
 
 ## Fiscal calendar example
 

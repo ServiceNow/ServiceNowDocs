@@ -1,22 +1,22 @@
 ---
-title: Track work orders on the Business Location Service Portal
-description: Enable your location staff to track work orders for their business locations using the Business Location Service Portal \(BLSP\). It allows you to view and manage work orders, helping you track tasks and updates directly related to your specific locations.
+title: Track work orders on the Business Organization Support Portal
+description: Enable your location staff to track work orders for their business locations using the Business Organization Support Portal \(BOSP\). It enables you to view and manage work orders, helping you track tasks and updates directly related to your specific locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/track-work-orders-on-the-blsp.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Business Location Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Track work orders on the Business Location Service Portal
+# Track work orders on the Business Organization Support Portal
 
-Enable your location staff to track work orders for their business locations using the Business Location Service Portal \(BLSP\). It allows you to view and manage work orders, helping you track tasks and updates directly related to your specific locations.
+Enable your location staff to track work orders for their business locations using the Business Organization Support Portal \(BOSP\). It enables you to view and manage work orders, helping you track tasks and updates directly related to your specific locations.
 
 ## Before you begin
 
-Role required: admin, sn\_customerservice.service\_organization\_contributor, sn\_customerservice.svc\_location\_manager\_contributor, sn\_bus\_loc.location\_relationship\_manager, and sn\_customerservice.svc\_location\_manager
+Role required: admin, sn\_customerservice.service\_organization\_contributor, sn\_customerservice.svc\_location\_manager\_contributor, sn\_bus\_loc.location\_relationship\_manager, or sn\_customerservice.svc\_location\_manager
 
 **Note:** To access the complete work order functionality, a sn\_fsm\_servicedesk\_agent role is added to the sn\_customerservice.service\_organization\_contributor role.
 
@@ -26,11 +26,13 @@ Work orders are requests for off-site work. Users with the appropriate roles cre
 
 For more information about work orders, see [Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/c_ManageWorkOrders.md).
 
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
+
 ## Procedure
 
 1.  Navigate to **Home** &gt; **Your Information** &gt; **Business Locations**.
 
-2.  On the Business Location Details page, select the business location you want to track the work order for.
+2.  On the Business Location Details page, select the business location that you want to track the work order for.
 
 3.  From the list of work orders at your business location, select a work order number to view its details, including location, activity, and tasks.
 

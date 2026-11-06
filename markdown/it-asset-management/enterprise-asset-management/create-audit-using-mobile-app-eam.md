@@ -7,10 +7,10 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-01-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [create an audit record]
-breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset inventory audit using the ServiceNow Agent app, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an enterprise audit record using the ServiceNow Agent app
@@ -19,7 +19,7 @@ Create an inventory audit record using the ServiceNow Agent app.
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, sn\_eam.asset\_technician, sn\_itam\_common.asset\_audit\_user, or sn\_itam\_common.asset\_audit\_admin
 
 ## Procedure
 
@@ -29,15 +29,15 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
 
 3.  Select the audit that you want to perform.
 
-<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d74160e78">
+<table id="choicetable_bpk_mvc_whc"><thead><tr><th align="left" id="d60485e78">
 
 Audit type
 
-</th><th align="left" id="d74160e81">
+</th><th align="left" id="d60485e81">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d74160e87">
+</th></tr></thead><tbody><tr><td id="d60485e87">
 
 **To perform stockroom audits**
 
@@ -48,7 +48,7 @@ Action
 3.  Tap **New stockroom audit**.
 
 
-</td></tr><tr><td id="d74160e116">
+</td></tr><tr><td id="d60485e116">
 
 **To perform location audits**
 
@@ -120,7 +120,7 @@ Option to include consumable assets in the inventory audit. The available option
 -   No
 The default populated value for this field is derived using the **sn\_itam\_common.set\_default\_include\_consumables** system property.-   When this system property value is set to **yes**, the default value for the **Include consumables** field is set to **Yes**.
 -   When this system property value is set to **no**, the default value for the **Include consumables** field is set to **No**.
-**Important:** This field is available with Enterprise Asset Management version 10.0.0 onwards.
+
 
 </td></tr><tr><td>
 
@@ -136,7 +136,7 @@ Depending on the selected scan method for the audit record, you can scan the ass
 
 -   To complete asset scanning for the single scan audit record, see [Complete a single scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/scan-assets-agent-app-eam.md).
 -   To complete asset scanning for multi scan audit records, see [Complete multi scan enterprise asset inventory audit using the ServiceNow Agent app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/complete-multi-scan-inventory-audit-using-mobile-app-eam.md).
-**Important:** This field is available with Enterprise Asset Management version 10.0.0 onwards.
+
 
 </td></tr></tbody>
 </table>5.  Tap **Submit**.

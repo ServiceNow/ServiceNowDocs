@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enroll as a mentor or mentee, Using Mentoring, Mentoring, Talent Development, Employee Service Management]
+breadcrumb: [Enroll as a mentor or mentee, Use, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Search and add skills
@@ -41,6 +41,4 @@ Role required: none
 ## Result
 
 Selected skills are added to current skill preferences. You can go ahead and complete the mentee preferences wizard after adding skills.
-
-**Parent Topic:**[Enroll as a mentor or mentee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/enroll-mentoring.md)
 

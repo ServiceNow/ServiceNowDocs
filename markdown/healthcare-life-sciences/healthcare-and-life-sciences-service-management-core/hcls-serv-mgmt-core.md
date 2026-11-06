@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, He
 
 The Healthcare and Life Sciences Service Management Core application provides a data model that is used in the Healthcare and Life Sciences Service Management workflows.
 
-## Healthcare and Life Sciences data model overview
+## Healthcare and Life Sciences overview
 
 The Healthcare and Life Sciences data model is compatible with the Health Level Seven International \(HL7\) industry standard including the Fast Healthcare Interoperability Resources \(FHIR\) standard. The data model applies to all Healthcare and Life Sciences industry solutions including providers, life sciences, and payers. The model includes data tables for organizations, patients, practitioners, insurance, revenue cycle, and clinical data.
 
@@ -645,5 +645,5 @@ Defines dynamic variables for a model used in an application form.
 ServiceNow AI Platform
 
 </td></tr></tbody>
-</table>**Note:** To learn about ServiceNow AI Platform, CSM, and Product Catalog Management Core tables, see [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-data-model-tables.md), [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_TIWCustomerService.md), and Tables installed with Model Management.
+</table>**Note:** To learn about ServiceNow AI Platform, CSM, and Product Catalog Management Core tables, see [Industry data model tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-data-model-tables.md), and [Tables installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/r_TIWCustomerService.md).
 

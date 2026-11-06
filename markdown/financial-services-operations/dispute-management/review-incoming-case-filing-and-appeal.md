@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Allocation dispute workflow, Chargeback stage, Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review incoming case filing and appeal
@@ -22,84 +22,63 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-If the issuer refuse the acquirer’s pre-arbitration request, the acquirer can create an arbitration request. The issuer reviews the arbitration and creates an appeal, if required.
+If you refuse the acquirer's pre-arbitration request, the acquirer may create an arbitration request. You can review the arbitration and create an appeal, if required.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
-4.  In the list, select the case to work on.
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level Playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review incoming case filing appeal** task.
 
-8.  Select the **Review incoming case filing appeal** activity.
-
-9.  Select **Get case filing detail** to get the details about the amount and reason for case filing.
+7.  Select **Get case filing detail** to get the details about the amount and reason for case filing.
 
     The reason is displayed in the **Reason for filing** field.
 
-10. To withdraw the case:
+8.  To withdraw from the case filing:
 
     -   Select **Withdraw**.
     -   Update the **Case withdrawn status** field to indicate who initiated the withdrawal.
     -   Update the **Reverse provisional credit** field. This field appears only for the IPC policy. If it's no credit, the **Final Credit** field appears.
-11. Select **Close task**.
+9.  Select **Close task**.
 
-12. Select **Get case filing response** to view the case filing decision from Visa.
+10. Select **Get case filing response** to view the case filing decision from Visa.
 
-13. Select your response in the **Response outcome** field.
+11. Select your response in the **Response outcome** field.
 
-<table id="choicetable_pcd_wkt_nfc"><thead><tr><th align="left" id="d87294e225">
+    -   To accept the outcome, select **Resolved**.
+    -   To appeal the outcome, select **Unresolved**.
+12. If the response is **Unresolved**, select `Yes` in the **Create appeal** drop-down.
 
-Option
+    An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-workflow.md).
 
-</th><th align="left" id="d87294e228">
+13. Enter the **Appeal amount**.
 
-Description
+14. Provide the **Reason for appeal**.
 
-</th></tr></thead><tbody><tr><td id="d87294e234">
-
-**Resolved**
-
-</td><td>
-
-The arbitration is accepted and the outcome is resolved.
-
-</td></tr><tr><td id="d87294e243">
-
-**Unresolved**
-
-</td><td>
-
-The issuer is not happy with the arbitration outcome and would go for an appeal. The **Create appeal** drop-down is displayed. An appeal can be created only if certain conditions are met. For more information, see [Allocation workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-workflow.md).
-
--   Select **Yes** to create an appeal.
-    1.  Enter the **Appeal amount**.
-    2.  Provide the **Reason for appeal**.
-    3.  Select **Continue**.
-    4.  Select **Create appeal**.
--   Select **No** to continue without the appeal.
+15. Select **Create appeal**.
 
 
-</td></tr></tbody>
-</table>
 ## Result
 
 After the request executes successfully, the transaction state moves to **Awaiting External Info**. The form is set to read-only mode while waiting on a response.
 
 ## What to do next
 
-Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting `Get acknowledgement letter` in the **Review case filing appeal** activity.
+Visa confirms the appeal with an acknowledgment letter. Retrieve the letter by selecting `Get acknowledgement letter` in the**Review case filing appeal** task.
 
 **Parent Topic:**[Allocation dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/allocation-dispute-work-flow.md)
 

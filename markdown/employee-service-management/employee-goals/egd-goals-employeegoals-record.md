@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Goals
 classification: employee-goals
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Goals reference, Employee Goals, Talent Development, Employee Service Management]
+breadcrumb: [Employee Goals reference, Employee Goals, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Goals table
@@ -134,5 +134,4 @@ One of the following colors to represent the status of the goal:-   **None**
 The domain associated with the employee specified in the **Owner** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Employee Goals reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-reference.md)
-
+</table>

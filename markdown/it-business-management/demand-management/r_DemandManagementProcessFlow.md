@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -15,6 +15,17 @@ breadcrumb: [Explore, Demand Management, Project Portfolio Management, Strategic
 # Demand Management process flow
 
 The Demand Management process flow consists of the following tasks.
+
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
 
 <table id="table_vxp_n51_kp"><thead><tr><th>
 

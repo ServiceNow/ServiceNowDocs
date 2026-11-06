@@ -7,9 +7,9 @@ release: yokohama
 product: Access Control
 classification: access-control
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contextual Security Manager, Access Control List Rules, Access Management]
+breadcrumb: [Contextual Security Manager, Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Enable role auditing with Contextual Security: Role Management V2
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-When enabled, the Audit Roles \[sys\_audit\_role\] table maintains changes to user records. For more information about role audits, see [Audit user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/audit-user-roles.md). If the Contextual Security: Role Management V2 \[com.glide.role\_management.inh\_count\] plugin is installed, you must set a system property to **true** to enable role auditing.
+When enabled, the Audit Roles \[sys\_audit\_role\] table maintains changes to user records. For more information about role audits, see Audit user roles. If the Contextual Security: Role Management V2 \[com.glide.role\_management.inh\_count\] plugin is installed, you must set a system property to **true** to enable role auditing.
 
 ## Procedure
 

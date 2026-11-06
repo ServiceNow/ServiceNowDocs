@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/input-actions-configure.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Input form actions in an input form screen, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
+breadcrumb: [Input form actions, Input actions and input sources, Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
 
 # Configure input form actions in an input form screen
@@ -142,7 +142,7 @@ Parent input
 
 </td><td>
 
-Select which input the action will be applied.
+Select which input the action will be applied to.
 
 </td></tr><tr><td>
 
@@ -185,15 +185,15 @@ Determine where or how the action handles the generated data.**Note:** Unless ot
 
 12. Do the following for input actions that you want to include to the input field area.
 
-<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d66878e481">
+<table id="choicetable_p4n_gxy_42c"><thead><tr><th align="left" id="d71745e487">
 
 Input action type
 
-</th><th align="left" id="d66878e484">
+</th><th align="left" id="d71745e490">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d66878e490">
+</th></tr></thead><tbody><tr><td id="d71745e496">
 
 **Attachment**
 
@@ -204,7 +204,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d66878e526">
+</td></tr><tr><td id="d71745e532">
 
 **Comment**
 
@@ -215,7 +215,7 @@ Procedure
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d66878e562">
+</td></tr><tr><td id="d71745e568">
 
 **Navigation button**
 

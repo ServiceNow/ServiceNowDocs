@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-06-26"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [AWS Elastic Beanstalk Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [AWS Elastic Beanstalk Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the AWS Elastic Beanstalk spoke

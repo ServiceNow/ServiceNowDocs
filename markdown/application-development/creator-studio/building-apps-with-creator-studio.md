@@ -7,10 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 4
-keywords: [build no code apps, building apps]
-breadcrumb: [Creator Studio, Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [creator studio, servicenow creator studio, creator studio srvicenow, creatorstudio, creator studio app, creater studio, cretor studio, creter studio, servicenow customization, studio creator, no code, no-code, request app, citizen development, delegated development, delegate development, request app, request fulfill app, fulfllment app, fulfillment, visual development, build no code apps, building apps]
+breadcrumb: [Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Building apps with Creator Studio
@@ -32,7 +32,7 @@ When finished, your app will look like a catalog of items that people can reques
 
     A form describes one item in the catalog and provides space for questions that a requester will answer to specify details about what they want, such as the model number of a laptop. If your catalog needs multiple items, you can create multiple forms.
 
-    **Note:** You can create a form using Now Assist. To learn more, see [Generating forms with Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
+    **Note:** You can create a form using AI. To learn more, see [Generating forms with AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-text-to-form.md).
 
 
 ## Automate workflows and simplify tasks with playbooks
@@ -50,7 +50,7 @@ The playbooks you create use the information that people supply when they fill o
 
 Once deployed, your app will sit in its own workspace category, which makes it easy for fulfillers to answer requests. You can customize the workspace or use it as-is.
 
-For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table, which contains the table that the app uses. Your admin can change the table for an app, see [Administering an app's underlying table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information.The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
+For sys admin eyes only: Every app built in Creator Studio adds a record in the Request App Config table, which contains the table that the app uses. Your admin can change the table for an app, see [Administering an app's associated table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-app-table.md) for more information. The name of the table follows the format of scope\_request, for example, x\_snc\_02\_03\_request.
 
 -   **[Find existing apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/view-apps-creator-studio-home-page.md)**  
 Perhaps you’ve been given permission to work on an app someone else created, or you want to add new items to the catalog in your app. The Creator Studio home page acts as your central hub, listing all the apps people in your company have built using Creator Studio.
@@ -61,7 +61,7 @@ Choose a different development experience if you want a more robust environment 
 -   **[App creation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-creating-apps.md)**  
 Have you ever dreamed of creating your own app? With Creator Studio, you might be closer than you think! The following links will send you to the sections in this guide that will walk you through the steps.
 -   **[Collaborating with others to build apps in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-collaboration-roles.md)**  
-Sometimes you need help building out your app, and that’s ok! And sometimes other people need your help building their apps, which is great! This is where collaboration comes into play.
+Sometimes you need help with building out your app, and that’s OK! And sometimes other people need your help building their apps, which is great! This point is where collaboration comes into play.
 -   **[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-work-with-forms.md)**  
 To add items or services to your catalog, you must create a different form for each thing being requested.
 -   **[Working with automation in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-working-with-automations.md)**  

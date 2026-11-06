@@ -4,7 +4,7 @@ description: Create a move request on behalf of an employee from the application
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -28,29 +28,184 @@ Specify the current location or current desk that the employee is moving from, a
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |On behalf of|Name of the employee for who you are raising the move request. If you are raising the move request for yourself, select your name.|
-    |Requested move date|Date on which the movement must be completed. Select a date from the calendar.|
-    |Move reason|Reason for moving from the current location. Select from the list of available reasons.|
-    |**From:**|
-    |Region|Region where the current desk is located.|
-    |Site|Site where the current desk is located.|
-    |Campus|Campus in which the current desk is located.|
-    |Building|Building in which the current desk is located.|
-    |Floor|Floor on which the current desk is located.|
-    |Space|Space in which the current desk is located.|
-    |**To:**|
-    |Region|Region where the target desk is located.|
-    |Site|Site where the target desk is located.|
-    |Campus|Campus in which the target desk is located.|
-    |Building|Building in which the target desk is located.|
-    |Floor|Floor on which the target desk is located.|
-    |Space|Space in which the target desk is located.|
-    |What should be moved?|Items to be moved from the current desk to the target desk.|
-    |Additional notes|Extra information regarding the move request.|
+<table id="table_u5n_ysb_qqb"><thead><tr><th>
 
-4.  Click **Submit**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="onbehalfof"><td>
+
+On behalf of
+
+</td><td>
+
+Name of the employee for who you are raising the move request. If you are raising the move request for yourself, select your name.
+
+</td></tr><tr id="requestedmovedate"><td>
+
+Requested move date
+
+</td><td id="requestedmovedatedesc">
+
+Date on which the movement must be completed. Select a date from the calendar.
+
+</td></tr><tr id="movereason"><td>
+
+Move reason
+
+</td><td id="movereasondesc">
+
+Reason for moving from the current location. Select from the list of available reasons.
+
+</td></tr><tr><td>
+
+**From:**
+
+</td><td>
+
+ 
+
+</td></tr><tr id="fromregion"><td>
+
+Region
+
+</td><td>
+
+Region where the current desk is located.
+
+</td></tr><tr id="fromsite"><td>
+
+Site
+
+</td><td>
+
+Site where the current desk is located.
+
+</td></tr><tr id="fromcampus"><td>
+
+Campus
+
+</td><td>
+
+Campus in which the current desk is located.
+
+</td></tr><tr id="frombuilding"><td>
+
+Building
+
+</td><td>
+
+Building in which the current desk is located.
+
+</td></tr><tr id="fromfloor"><td>
+
+Floor
+
+</td><td>
+
+Floor on which the current desk is located.
+
+</td></tr><tr><td>
+
+Neighborhood
+
+</td><td>
+
+Neighborhood in which the current desk is located.This field is applicable only when the move case is created from Scenario Planning.
+
+</td></tr><tr id="fromspace"><td>
+
+Space
+
+</td><td>
+
+Space in which the current desk is located.
+
+</td></tr><tr><td>
+
+**To:**
+
+</td><td>
+
+ 
+
+</td></tr><tr id="toregion"><td>
+
+Region
+
+</td><td>
+
+Region where the target desk is located.
+
+</td></tr><tr id="tosite"><td>
+
+Site
+
+</td><td>
+
+Site where the target desk is located.
+
+</td></tr><tr id="tocampus"><td>
+
+Campus
+
+</td><td>
+
+Campus in which the target desk is located.
+
+</td></tr><tr id="tobuilding"><td>
+
+Building
+
+</td><td>
+
+Building in which the target desk is located.
+
+</td></tr><tr id="tofloor"><td>
+
+Floor
+
+</td><td>
+
+Floor on which the target desk is located.
+
+</td></tr><tr><td>
+
+Neighborhood
+
+</td><td>
+
+Neighborhood in which the target desk is located.This field is applicable only when the move case is created from Scenario Planning.
+
+</td></tr><tr id="tospace"><td>
+
+Space
+
+</td><td>
+
+Space in which the target desk is located.
+
+</td></tr><tr id="moveitems"><td>
+
+What should be moved?
+
+</td><td>
+
+Items to be moved from the current desk to the target desk.
+
+</td></tr><tr id="notes"><td>
+
+Additional notes
+
+</td><td id="notesdesc">
+
+Extra information regarding the move request.
+
+</td></tr></tbody>
+</table>4.  Click **Submit**.
 
 
 ## Result

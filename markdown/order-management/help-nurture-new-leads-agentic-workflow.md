@@ -1,30 +1,50 @@
 ---
-title: Help nurture new leads agentic workflow
+title: Nurturing leads using agentic workflow
 description: Use the Help nurture new leads agentic workflow to process the entire lead record process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/help-nurture-new-leads-agentic-workflow.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Use agentic workflows, Now Assist for SOM]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Lead Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Help nurture new leads agentic workflow
+# Nurturing leads using agentic workflow
 
 Use the Help nurture new leads agentic workflow to process the entire lead record process.
 
 ## Help nurture new leads agentic workflow overview
 
-You can use the Help nurture new leads agentic workflow to do the following:
+The Help nurture new leads agentic workflow works with a team of AI agents to assist you with managing the life cycle of leads, either independently or under supervision. You can use the agentic workflow to do the following:
 
 -   Proactively engage with initial leads
 -   Book an appointment or demo to get the lead closer to qualification
 -   Identify opt-outs and disinterest for lead disqualification
 
-To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the Now Assist panel.
+To modify the Help nurture new leads agentic workflow [duplicate it](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md), and adjust the settings according to your requirements. You can activate the agentic workflow template by making triggers active and setting the display settings to include the ServiceNow Otto panel.
 
 **Important:** When you modify an agentic workflow, AI agent, or tool, make sure that you update all instructions accordingly.
+
+## Prerequisites to use an agentic workflow
+
+The prerequisites to use an agentic workflow are as follows:
+
+-   Make sure that the ServiceNow Otto panel is turned on.
+-   Set up the work schedule for sales agents:
+    -   Navigate to **All** &gt; **Agent schedule** &gt; **Work schedule**.
+    -   Create a work schedule for sales agents.
+-   Duplicate the agentic workflow and activate the triggers.
+
+**Important:** By default, all agent workflow and AI agent records are read-only.
+
+To run the AI agents autonomously, you must first [duplicate the agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/clone-aia-usecase.md), and then proceed with the following steps:
+
+-   Activate the agentic workflow.
+-   Activate all agents within the agentic workflow.
+-   Activate the trigger to invoke the agentic workflow automatically. The triggers for each agentic workflow must be unique. If you prefer to invoke it manually, activating the trigger isn’t necessary.
+
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 ## Help nurture new leads use cases
 
@@ -60,7 +80,7 @@ Responsibilities
 
 </th></tr></thead><tbody><tr><td>
 
-Sales AI Admin
+Sales AI admin
 
 </td><td>
 
@@ -74,7 +94,7 @@ Sales AI user
 
 </td><td>
 
-Interact with AI using the Now Assist panel.
+Interact with AI using the ServiceNow Otto panel.
 
 </td></tr></tbody>
 </table>## Activating the agentic workflow
@@ -112,7 +132,5 @@ To nurture a lead, perform the following steps:
 
 The agent executes the testing in AI Agent Studio for the use case.
 
-In the Now Assist panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
-
-**Parent Topic:**[Use agentic workflows in ServiceNow Otto for Sales Automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-agentic-worklflows-in-lead-management.md)
+In the ServiceNow Otto panel, the agent receives a notification as soon as the interaction is generated, which enables them to follow the on-screen instructions and complete the task. For more information, see [Request the generative AI capabilities in Customer Service Management by using the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/request-gen-ai-capabilities-csm-now-assist-panel.md).
 

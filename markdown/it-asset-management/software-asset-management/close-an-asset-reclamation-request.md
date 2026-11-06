@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a catalog request to reclaim assets, Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Create a catalog request to reclaim assets, Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Close an asset reclamation request

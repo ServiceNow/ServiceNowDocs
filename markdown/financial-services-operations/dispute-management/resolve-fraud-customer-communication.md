@@ -1,5 +1,5 @@
 ---
-title: Customer communication
+title: Manage customer communication
 description: Provide a response and feedback to the customer for a decision made on a dispute, such as friendly fraud.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/resolve-fraud-customer-communication.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Investigating a dispute, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Customer communication
+# Manage customer communication
 
 Provide a response and feedback to the customer for a decision made on a dispute, such as friendly fraud.
 
@@ -28,15 +28,15 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: List icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
@@ -50,15 +50,15 @@ When you select the **Decline dispute transaction** option in the **Detect frien
 
     -   When the customer decision is accepted, provide **Customer feedback** and select **Mark complete**. The dispute is marked as **Closed Complete**.
     -   When the customer decision is denied, provide the **Customer feedback**. In the **Action** section, select one of the following.
-<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d54325e210">
+<table id="choicetable_mzh_qdg_w2c"><thead><tr><th align="left" id="d62280e221">
 
 Final action
 
-</th><th align="left" id="d54325e213">
+</th><th align="left" id="d62280e224">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d54325e219">
+</th></tr></thead><tbody><tr><td id="d62280e230">
 
 **Decline dispute transaction**
 
@@ -69,7 +69,7 @@ Steps
 
 The transaction is marked as**Closed Rejected**.
 
-</td></tr><tr><td id="d54325e248">
+</td></tr><tr><td id="d62280e259">
 
 **Issue credit and write-off**
 
@@ -83,7 +83,7 @@ The **Issue credit** activity is displayed.
 3.  Provide the final credit and select **Close task**. The task is marked as **Closed Complete.**
 
 
-</td></tr><tr><td id="d54325e285">
+</td></tr><tr><td id="d62280e296">
 
 **Proceed with dispute**
 

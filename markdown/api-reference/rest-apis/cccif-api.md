@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -22,7 +22,7 @@ If the attachment is public, you can just send the attachment URL in the request
 
 To access this API, the Conversational Custom Chat Integration \(com.glide.cs.custom.adapter\) plugin must be activated. In addition, the attachment system properties must be configured.
 
-For additional information on the capabilities of the Virtual Agent API, see [Virtual Agent API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/virtual-agent-api.md).
+For additional information on the capabilities of the Virtual Agent API, see .
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 

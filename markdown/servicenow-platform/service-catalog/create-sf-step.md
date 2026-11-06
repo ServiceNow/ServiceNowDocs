@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Create a catalog item using a template, Creating or editing catalog item template, Catalog Builder, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -248,6 +248,12 @@ Condition that defines whether the step must run. The options on which a conditi
 
     -   Click the separate icon \(\[Omitted image "separate.png"\] Alt text: Separate icon.\). The step is placed after the group.
     -   Drag a step out of the group and drop it at a location of your choice.
+    **Note:**
+
+    When setting up fulfillment steps for catalog items, you can organize them into dynamic stages, each containing one or more steps. This structure supports drag-and-drop, merge, and separation features while enabling efficient grouping.
+
+    To add a stage, simply select the **Add stage** button that appears between steps.
+
 
 **Parent Topic:**[Create a catalog item using a template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/create-item-cat-builder.md)
 

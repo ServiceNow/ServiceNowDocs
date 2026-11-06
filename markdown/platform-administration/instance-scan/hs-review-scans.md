@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Scan
 classification: instance-scan
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -40,6 +40,12 @@ A finding is a reference to a record that has violated a rule from a check on th
 [Schedule a suite scan]()
 
 [Monitoring a scan]()
+
+[Parallel scans]()
+
+[Queue your scan]()
+
+[Cancel a scan]()
 
 [Using the Instance Scan dashboard]()
 

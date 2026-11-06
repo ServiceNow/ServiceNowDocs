@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow CLI
@@ -29,13 +29,11 @@ The ServiceNow CLI lets you:
 
 Commands are stored in a table on the instance you are connected to. When the ServiceNow CLI connects to the instance, it receives all the available commands supported by that instance.
 
-\[Omitted image "cli-arch.png"\] Alt text: Communication flow between Servicenow CLI and the instance.
-
 Commands map to a REST endpoint that executes asynchronously. For more information, see [Create a custom command in ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-cli/create-command.md).
 
 ## Activating ServiceNow CLI
 
-Install ServiceNow CLI by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Install ServiceNow CLI by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Configuration file
 
@@ -204,5 +202,5 @@ Commands and command arguments available to the base system ServiceNow CLI.
 -   **[Commands installed with CMDB Application CLI and API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-cli/cmdb-cli-commands.md)**  
 Commands and command groups available to the ServiceNow CLI when the app-cmdb-api-cli plugin is installed.
 
-**Parent Topic:**[Building low-code applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-low-code-applications-with-app-engine.md)
+**Parent Topic:**[Developing your application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/developing-applications.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Viewing Cloud Account Management dashboards, Using Cloud Account Management in Cloud Workspace, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Viewing Cloud Account Management dashboards, Use, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Viewing cloud account records
@@ -28,11 +28,7 @@ Role required: sn\_itom\_cam.cw\_admin
 
     -   Navigate to **All** &gt; **Cloud Workspace**
     -   Navigate to **Workspaces** &gt; **Cloud Workspace**
-2.  Select **Manage and Configure**.
-
-3.  Select the account name to view the details of the corresponding account.
-
-    The details provided for the account are listed in the following table.
+2.  Select the account name to view the details of the corresponding account.
 
 <table id="table_o15_wjy_33c"><thead><tr><th>
 
@@ -100,3 +96,5 @@ This section provides critical budgeting information for the cloud account:-   *
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Viewing Cloud Account Management dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/about-cam-dashboard.md)
+

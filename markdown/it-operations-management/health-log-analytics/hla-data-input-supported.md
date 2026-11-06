@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [data input process, listeners, pullers, passive data inputs, active data inputs, native ServiceNow data inputs]
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Supported data inputs for Health Log Analytics
@@ -60,7 +60,7 @@ In addition, Health Log Analytics supports [Crible](https://raw.githubuserconten
 
 -   **Streaming logs from Cloud Observability to Health Log Analytics**
 
-    Health Log Analytics can process log data it ingests from the ServiceNow® Cloud Observability application, formerly  Lightstep. HLA automatically sets up the configuration needed to enable log streaming from Cloud Observability as part of its native integration. Setting up the connection from Cloud Observability to HLA must be done in the Cloud Observability application. In HLA, you handle log records from Cloud Observability in the same way as any other Data Input Mapping and Source Type Structure records, as explained in [Log data auto-mapping and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md) and [Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md). For more information about Cloud Observability, see [Explore Cloud Observability documentation](https://docs.lightstep.com/).
+    Health Log Analytics can process log data it ingests from the ServiceNow® Cloud Observability application, formerly  Lightstep. HLA automatically sets up the configuration needed to enable log streaming from Cloud Observability as part of its native integration. Setting up the connection from Cloud Observability to HLA must be done in the Cloud Observability application. In HLA, you handle log records from Cloud Observability in the same way as any other Data Input Mapping and Source Type Structure records, as explained in [Log data auto-mapping and mapping in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-automapping.md) and [Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md). For more information about Cloud Observability, see [Explore Cloud Observability documentation](https://docs.lightstep.com/).
 
 
 **Parent Topic:**[Health Log Analytics reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)
@@ -68,5 +68,5 @@ In addition, Health Log Analytics supports [Crible](https://raw.githubuserconten
 **Related topics**  
 
 
-[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
+[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

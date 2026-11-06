@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for SAP, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create custom SAP price lists
@@ -78,15 +78,19 @@ Role required: sam\_admin
 **Related topics**  
 
 
+[SAP publisher pack integration architecture]()
+
 [Tables installed with the SAP publisher pack]()
 
-[Deploy the ABAP program for SAP]()
+[Set up SAP integration to establish a connection with SAP]()
 
-[Establish an SAP connection]()
+[Establish an SAP connection using basic authentication]()
 
-[Create entitlements for SAP]()
+[Establish an SAP connection using OAuth 2.0]()
 
 [Create software models for SAP]()
+
+[Create entitlements for SAP]()
 
 [Create a custom SAP named user type]()
 

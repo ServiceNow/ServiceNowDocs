@@ -1,23 +1,23 @@
 ---
 title: Journey designer reference
-description: Journey designer reference.
+description: Reference topics provide additional information about the lists and forms that you use to configure and use Journey designer..
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsnr-reference.html
 release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Journey designer reference
 
-Journey designer reference.
+Reference topics provide additional information about the lists and forms that you use to configure and use Journey designer..
 
-Reference topics provide additional information about the lists and forms that you use to configure and use Journey designer.
-
+-   **[Task template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-task-template.md)**  
+To make a task template, fill in the task template fields.
 -   **[Journey designer Journey Configuration fields reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-jrny-config-fields.md)**  
 A journey configuration requires several fields to be completed or selected.
 -   **[Journey designer Model task fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-model-task-fields.md)**  

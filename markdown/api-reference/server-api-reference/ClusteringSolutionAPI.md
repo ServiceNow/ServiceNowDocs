@@ -7,8 +7,8 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2026-02-03"
-reading_time_minutes: 13
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -64,7 +64,6 @@ JavaScript object containing configuration properties of thesolution.```
   "clusterConceptFieldNames": [Array],
   "dataset": {Object},
   "domainName": "String",
-  "encoder": {Object},
   "groupByFieldName": "String",
   "groupUnclusteredRecords": Boolean,
   "inputFieldNames": [Array],
@@ -89,7 +88,7 @@ Object
 
 </td><td>
 
-Required unless setting the **encoder** property. JavaScript object containing algorithm configuration properties. Property settings vary by the value set in the **algorithm** property.```
+Required. JavaScript object containing algorithm configuration properties. Property settings vary by the value set in the **algorithm** property.```
 'algorithmConfig': {
   "algorithm": "String",  
   // See algorithmConfig.algorithm setting description for property settings based on algorithm
@@ -254,18 +253,6 @@ String
 </td><td>
 
 Optional. Domain name associated with this dataset. Default: Current domain, for example, `"global"`.
-
-</td></tr><tr><td>
-
-config.encoder
-
-</td><td>
-
-Object
-
-</td><td>
-
-Required unless setting the **algorithmConfig** property to `"levenshteinDistance"`. Trained encoder object to assign to this solution. See [Encoder - Encoder\(Object config\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/EncoderAPI.md).
 
 </td></tr><tr><td>
 
@@ -440,14 +427,10 @@ try{
         'fieldNames' : ['category', 'short_description', 'state', 'description'],
         'encodedQuery' : 'activeANYTHING'
     });
-
-    // get a trained encoder from the store
-    var myEncoder = sn_ml.EncoderStore.get('<encoder_name >');
-        
+      
     var mySolution = new sn_ml.ClusteringSolution({
         'label': "clustering solution",
         'dataset' : myData,
-        'encoder' : myEncoder,
         'inputFieldNames':['short_description'],                
         'groupByFieldName' : 'category',        
         'algorithmConfig' : {
@@ -485,13 +468,10 @@ var myIncidentData = new sn_ml.DatasetDefinition({
     'fieldNames' : ['category', 'short_description', 'description'],
 });
 
-var encodersolutionName = sn_ml.EncoderStore.get('<encoder_name >');
-
 var mySolution = new sn_ml.ClusteringSolution({
 	'label': 'clustering_test',
 	'dataset': myIncidentData,
 	'inputFieldNames': ['short_description'],
-	'encoder': encodersolutionName,
 	'clusterConceptFieldNames': ['description']
 });
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add Text or a Text section with the Rich Content Editor
@@ -40,6 +40,9 @@ Pasting behavior:
 -   Clicking into the text box and pasting: The content appears at the cursor's position.
 -   Selecting the entire text box and pasting: The content appears in a new text box underneath
 
+    **Note:** Content Managers and Admins have the option to apply background colors to selected canvas elements, including images. Available features include the use of solid and gradient colors, as well as adjustments for color opacity. These settings can be accessed in the right-hand panel under the Settings Styling tab when adding rich content to a canvas element.
+
+
 ## Procedure
 
 1.  Navigate to the canvas by selecting the **Open editor** button from the **Design** tab of the **New content** form.
@@ -51,6 +54,8 @@ Pasting behavior:
 4.  Navigate to **Settings** tab.
 
 5.  Use any of the following styling settings:
+
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacities and shadows, improved cells and buttons allow additional border settings, colors and types, as well as additional text styles, colors and fonts.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -83,7 +88,9 @@ Use this drop-down to change the color of your text. Your choices are:
 -   Primary: The primary color defined by your portal theme.
 -   Muted: The color defined by your portal theme.
 -   White: Changes the color of your text to white. This is useful when using a background color other than white.
- Text color assigns predefined CSS classes for text color.
+Text color assigns predefined CSS classes for text color.
+
+**Note:** Font color might be white by default; however, this can be updated even with "white" selected. All properties will be cleared when changing the text styles and colors.
 
 </td></tr><tr><td>
 
@@ -106,6 +113,14 @@ Determines the horizontal alignment of your text. Choose from:-   Left justify
 -   Right justify
 -   Justify \(text is aligned with both margins\)
 
+
+</td></tr><tr><td>
+
+Add Text to list item \(link\)
+
+</td><td>
+
+Enables you to add text below a linked list item by pressing the Right Arrow key, then typing beneath the link.
 
 </td></tr><tr><td colspan="2">
 

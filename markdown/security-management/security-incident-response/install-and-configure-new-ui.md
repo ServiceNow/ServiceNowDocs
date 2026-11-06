@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,5 @@ Role required: admin
 1.  Follow the instructions for [downloading an application from the ServiceNow Store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/download-app-first-time.md) and install the **Security Incident Response UI** application.
 
 2.  After installation is complete, you can open the Security Analyst Workspace by navigating to **Security Incident** &gt; **Incidents \(New UI\)**
-
-    \[Omitted image "nav-bar.png"\] Alt text: Security Incident navigation bar
 
 

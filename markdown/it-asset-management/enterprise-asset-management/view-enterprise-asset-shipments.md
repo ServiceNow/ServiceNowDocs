@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing enterprise asset shipments, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise assets, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # View and add enterprise asset shipments
@@ -42,101 +42,20 @@ You can view and add shipments for your transfer orders, purchase orders, move o
 
     2.  On the form, fill in the fields.
 
-<table id="table_o5b_nx4_4xb"><thead><tr><th>
+        |Field|Description|
+        |-----|-----------|
+        |Shipping carrier|Shipping carrier through which the enterprise assets were shipped.|
+        |Ship date|Date and time at which the enterprise assets were shipped.|
+        |Shipped from|Geographic location that the enterprise assets were shipped from.|
+        |Receive date|Date and time at which the shipment was received.|
+        |Tracking number|Tracking number that enables you to track the status and location of the shipment.|
+        |Shipped by|User who shipped the enterprise assets.|
+        |Shipped to|Geographic location that the enterprise assets were shipped to.|
+        |Received by|User who received the shipment.|
+        |Ignore stale check|Option to ignore stale checks for the shipment.|
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Shipping carrier
-
-</td><td>
-
-Shipping carrier through which the enterprise assets were shipped.
-
-</td></tr><tr><td>
-
-Ship date
-
-</td><td>
-
-Date and time at which the enterprise assets were shipped.
-
-</td></tr><tr><td>
-
-Shipped from
-
-</td><td>
-
-Geographic location that the enterprise assets were shipped from.
-
-</td></tr><tr><td>
-
-Receive date
-
-</td><td>
-
-Date and time at which the shipment was received.
-
-</td></tr><tr><td>
-
-Tracking number
-
-</td><td>
-
-Tracking number that enables you to track the status and location of the shipment.
-
-</td></tr><tr><td>
-
-Shipped by
-
-</td><td>
-
-User who shipped the enterprise assets.
-
-</td></tr><tr><td>
-
-Shipped to
-
-</td><td>
-
-Geographic location that the enterprise assets were shipped to.
-
-</td></tr><tr><td>
-
-Shipment quantity
-
-</td><td>
-
-Quantity of assets shipped for the shipment record.This field value is automatically populated when the assets are shipped to the destination.
-
-The shipment quantity is the sum of the asset quantities shipped for each shipment line.
-
-**Important:** The **Shipment quantity** field is available with Enterprise Asset Management version 9.1.0 onwards.
-
-</td></tr><tr><td>
-
-Received by
-
-</td><td>
-
-User who received the shipment.
-
-</td></tr><tr><td>
-
-Ignore stale check
-
-</td><td>
-
-Option to ignore stale checks for the shipment.
-
-</td></tr></tbody>
-</table>    3.  Select **Save**.
+    3.  Select **Save**.
 
 
-**Parent Topic:**[Managing enterprise asset shipments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-shipments-eam.md)
+**Parent Topic:**[Create and manage enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-assets.md)
 

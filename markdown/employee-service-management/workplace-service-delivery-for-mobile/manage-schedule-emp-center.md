@@ -7,10 +7,10 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-07-20"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 keywords: [Workplace service delivery for mobile, workplace schedule, desk suggestions, preferred location]
-breadcrumb: [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a reservation for a day in Workplace
@@ -202,15 +202,4 @@ Role required: sn\_wsd\_core.workplace\_user
 
     If all your preferred collaborators are planning to be in office on your in-office day, application shows "100% of your collaborators plan to come to the office". For days when you are working from home or remotely, application shows "No insights present for this date."
 
-
-**Parent Topic:**[Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md)
-
-**Related topics**  
-
-
-[Manage your in-office presence preferences]()
-
-[Create bulk reservations in Workplace]()
-
-[Review and edit your reservations in Workplace]()
 

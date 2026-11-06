@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Mentoring, Mentoring, Talent Development, Employee Service Management]
+breadcrumb: [Use, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Edit mentor preferences
@@ -24,7 +24,9 @@ Role required: none
 
 1.  Navigate to **All** &gt; **Employee Center** &gt; **Your career** &gt; **Mentoring** &gt; **Overview**.
 
-2.  From the Edit preferences list, select **Edit mentor preferences**.
+2.  Select **Edit mentor preferences** for the listed mentoring program.
+
+    Available mentoring programs are visible for users that meet the user criteria of the mentoring program. Not all mentoring programs are listed for all users.
 
 3.  On the Mentor preferences form, fill in the fields.
 
@@ -32,23 +34,4 @@ Role required: none
 
 4.  Select **Save and close**.
 
-
-**Parent Topic:**[Using Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/using-mentoring-egd.md)
-
-**Related topics**  
-
-
-[Enroll as a mentor or mentee]()
-
-[Search for a mentor]()
-
-[Edit mentee preferences]()
-
-[Request a connection]()
-
-[View suggested mentors]()
-
-[View match insights]()
-
-[View mentoring requests]()
 

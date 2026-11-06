@@ -1,20 +1,20 @@
 ---
 title: Create a risk assessment project
-description: Create a risk assessment project to perform assessments on multiple risks and controls simultaneously using Risk Workspace. You can define the project context, including the assessable entity, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
+description: Create a risk assessment project to perform assessments on multiple risks and controls simultaneously using Risk Workspace. You can define the project context, including one or more assessable entities, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-risk-management-workspace/create-risk-assessment-project.html
 release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Risk assessment project, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create a risk assessment project
 
-Create a risk assessment project to perform assessments on multiple risks and controls simultaneously using Risk Workspace. You can define the project context, including the assessable entity, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
+Create a risk assessment project to perform assessments on multiple risks and controls simultaneously using Risk Workspace. You can define the project context, includingone or more assessable entities, Risk assessment methodology \(RAM\), project name, description, and identify and add stakeholders.
 
 ## Before you begin
 
@@ -36,8 +36,11 @@ Role required: sn\_risk\_advanced.project\_user or sn\_risk\_workspace.operation
 
         |Field|Description|
         |-----|-----------|
-        |Assessable entity|Single or composite entity that needs to be assessed.|
         |Risk assessment methodology|Risk assessment methodology \(RAM\) that you use to assess risks within the project.|
+        |Entity classes|One or more entity classes that the assessable entities must belong to. Selecting a class narrows the entities available in the **Assessable entities** field.|
+        |Assessable entities|Single entity, composite entity, or multiple entities that need to be assessed. Only entities that belong to the selected entity classes are available.|
+
+        **Note:** You can't create a risk assessment project for a risk assessment methodology and entity combination that already has an active project in progress.
 
     2.  Select **Next**.
 
@@ -140,15 +143,21 @@ Watchlist users from entity
 Watchlist users from the assessable entity stakeholders list. This field appears only when **Entity stakeholder** is selected from **Watchlist type**.
 
 </td></tr></tbody>
-</table>        The project moves to the Scope risk stage and you can see a list of risks mapped from the underlying entities.
+</table>        **Note:** When you select more than one assessable entity, the **Entity owner** and **Entity stakeholder** options aren't available for **Assessor type** or **Watchlist type**. You can select only a single user or group as the assessor for the project.
+
+        The project moves to the Scope risk stage and you can see a list of risks mapped from the underlying entities.
 
 6.  To add risks in the Scope risk stage, you can do the following:
+
+    When the project has more than one assessable entity, an **Entity** field lets you choose which entity a risk that you create or add belongs to.
 
     1.  To create risks from the risk statement, select **Create from risk statements**.
 
     2.  To add a risk that is not in the library, select **Create ad-hoc risk**.
 
     3.  To remove risks from the assessment without deleting them from the underlying entities, select the risks, and select **Remove**.
+
+        Each assessable entity must have at least one scoped risk. You can't remove the last risk that's scoped to an entity.
 
     4.  To add any risks that have been removed, select **Add risk**.
 

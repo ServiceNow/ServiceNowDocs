@@ -7,10 +7,10 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-02-26"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [principal class marking during upgrade, HAM model category migration, automatic principal class assignment, upgrade impact on CI picker filtering, review principal classes after upgrade, adjust automatically marked classes, CI picker filtering system properties]
-breadcrumb: [Configure, CMDB success advisor, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB success advisor, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Managing principal class marking during upgrade

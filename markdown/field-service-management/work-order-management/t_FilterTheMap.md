@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use an SLA map, Field Service Management SLAs, Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Use a SLA map, SLA for work orders, Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Filter an SLA map
@@ -32,6 +32,4 @@ Role required: wm\_admin, wm\_dispatcher, or dispatcher combination role
 
 3.  Click **Apply Filter** to apply your changes to the map.
 
-
-**Parent Topic:**[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseTheSLAMap.md)
 

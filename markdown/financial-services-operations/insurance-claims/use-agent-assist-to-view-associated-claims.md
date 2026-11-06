@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Use Agent assist to view associated claims
@@ -24,19 +24,19 @@ Role required: sn\_ins\_claim\_cml.fnol\_representative, sn\_ins\_claim\_cml.aut
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon.
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from the case playbook or the Commercial auto claim adjuster tasks list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d100210e75">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d120210e85">
 
 Option
 
-</th><th align="left" id="d100210e78">
+</th><th align="left" id="d120210e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d100210e84">
+</th></tr></thead><tbody><tr><td id="d120210e94">
 
 **From the case playbook**
 
@@ -46,7 +46,7 @@ Steps
 2.  In the list, select the case that contains the adjuster task.
 
 
-</td></tr><tr><td id="d100210e108">
+</td></tr><tr><td id="d120210e118">
 
 **From the Commercial auto claim adjuster tasks list**
 
@@ -59,6 +59,6 @@ Steps
 </td></tr></tbody>
 </table>4.  Select the Agent assist icon to use the feature.
 
-    For more detailed information about Agent assist, refer to[Finding solutions using Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist.md).
+    For more detailed information about Agent assist, refer to [Agent assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/agent-assist-configurable-workspace.md).
 
 

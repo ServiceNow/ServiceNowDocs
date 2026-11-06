@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-new-contact.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Microsoft Outlook with CSM, Manage schedules and sites, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Microsoft Outlook with CSM, Schedules and sites, Use, Customer Service Management]
 ---
 
 # Create a contact in Microsoft Outlook
@@ -16,7 +16,7 @@ As an account manager, you can create a contact when you receive an email from a
 
 ## Before you begin
 
-Role required: sn\_customerservice.contact\_manager and sn\_customerservice.proxy\_contact
+Role required: sn\_customerservice.contact\_manager and sn\_csm\_proxy\_cont
 
 ## Procedure
 

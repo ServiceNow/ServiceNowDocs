@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage picking enterprise assets within your stockroom for Enterprise Asset Management workflows, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage enterprise asset picking, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Add aisles and spaces to a stockroom in the Enterprise Asset Workspace
@@ -46,7 +46,7 @@ A space is associated with an aisle in the stockroom. You can add a space only a
 
         You can enter any string value in this field. For example, `aisle_0001`.
 
-    3.  To add more aisles, select the Add icon \(\[Omitted image "add-aisle-icon.png"\] Alt text: Add an Aisle\) and enter a unique identifier for the aisle in the **Aisle** field.
+    3.  To add more aisles, select the Add icon \[Omitted image "add-aisle-icon.png"\] Alt text: and enter a unique identifier for the aisle in the **Aisle** field.
 
     4.  Select **OK**.
 
@@ -64,14 +64,14 @@ A space is associated with an aisle in the stockroom. You can add a space only a
 
         You can enter any string value in this field. For example, `space_0001`.
 
-    4.  To add more spaces, select the Add icon \(\[Omitted image "add-aisle-icon.png"\] Alt text: Add Space\) and enter a unique identifier for the space in the **Space** field.
+    4.  To add more spaces, select the Add icon \[Omitted image "add-aisle-icon.png"\] Alt text: and enter a unique identifier for the space in the **Space** field.
 
     5.  Select **OK**.
 
     -   The space is added to the list in the Aisle and spaces tab.
     -   The display name of the space is automatically set based on the **Aisle** and **Space** fields. For example, the display name of the space whose aisle is aisle\_001 and space is space\_001 is **aisle\_001 - space\_001**.
 
-**Parent Topic:**[Manage picking enterprise assets within your stockroom for Enterprise Asset Management workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
+**Parent Topic:**[Manage enterprise asset picking within your stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/manage-asset-picking-stockroom-eam-ws.md)
 
 **Related topics**  
 

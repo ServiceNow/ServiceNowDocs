@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Access control, Hardening settings, Platform Security]
 
 Use the **glide.ui.magellan.favorites.allow\_public** to specify whether unauthenticated users are allowed to see **Favorites** in the navigator.
 
-Public Access to Favorites will be compliant if **glide.ui.magellan.favorites.allow\_public** is set to **false**.
+Public Access to Favorites is compliant when **glide.ui.magellan.favorites.allow\_public** is set to **false**.
 
 ## More information
 
@@ -30,8 +30,8 @@ Public Access to Favorites will be compliant if **glide.ui.magellan.favorites.al
 |Recommended value|false|
 |Security Dependencies|Set **glide.ui.magellan.favorites.allow\_public** to **false**.|
 |Functional impact|\(Medium\) Enabling this property acts as a layer of protection from unauthorized users.|
-|Security risk|\(Medium\) If this property is not enabled, there is a risk of unauthorized access to sensitive data.|
-|References|[Manage favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/web-configure-favorites-employee.md)|
+|Security risk|\(Medium\) If this property isn’t enabled, there’s a risk of unauthorized access to sensitive data.|
+|References||
 
 **Parent Topic:**[Access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-access-control.md)
 

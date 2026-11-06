@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Playbook for SaaS integrations, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Playbook for SaaS integrations, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a Salesforce CRM integration
@@ -24,7 +24,7 @@ Role required: Salesforce admin, sam\_admin
 
 ## About this task
 
-**Note:** The **Client Credentials** grant type is supported in Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 15.1.0, Salesforce CRM application 1.1.9, and Salesforce CRM Spoke 2.4.0 version onwards.
+**Note:** The **Client Credentials** grant type is supported in Software Asset Management - SaaS License Management \(sn\_sam\_saas\_int\) 16.1.0, Salesforce CRM application 2.0.2, and Salesforce CRM Spoke 2.4.0 version onwards.
 
 ## Procedure
 
@@ -68,7 +68,7 @@ Role required: Salesforce admin, sam\_admin
 
     1.  Select **Connection and credential** in the left pane.
 
-    2.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field.
+    2.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field.
 
     3.  Select **Continue**.
 
@@ -165,7 +165,7 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
     1.  Select **Connect to additional Salesforce org \(Optional\)** in the left pane.
 
-    2.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field.
+    2.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field.
 
         The display redirects to the ServiceNow Classic interface where you can configure the child alias.
 
@@ -189,7 +189,7 @@ URL of the OAuth provider that users are redirected to after authentication. Thi
 
     2.  Review the details of the integration profile.
 
-    3.  In the Connection &amp; Credential field, select the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) to locate and select the child alias that you created in [Step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/playbook-salesforce-crm.md).
+    3.  In the Connection &amp; Credential field, select the preview icon \[Omitted image "preview-icon.png"\] to locate and select the child alias that you created in [Step 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/playbook-salesforce-crm.md).
 
         Selecting the child alias associates the additional integration profile with the child alias. Your ServiceNow instance uses this alias to identify the connection and credentials for this integration profile.
 

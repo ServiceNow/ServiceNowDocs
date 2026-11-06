@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring a user registration configuration for external users, Self-register to ServiceNow instance, Authentication, Access Management]
+breadcrumb: [Configure a user registration configuration for external users, Self-registration to ServiceNow instance, Authentication, Access Management]
 ---
 
 # Add a custom registration form field
@@ -18,7 +18,7 @@ You can add custom fields in the user self-registration form.
 
 ## Before you begin
 
-Role required: admin
+Role required: external\_user\_self\_registration\_admin
 
 ## Procedure
 
@@ -26,9 +26,9 @@ Role required: admin
 
 2.  Open the record for the required user registration configuration.
 
-3.  Navigate to the end of the Registration Form Fields section and click **Insert a new row...**.
+3.  Navigate to the end of the Registration Form Fields section and select **Insert a new row...**.
 
-4.  Enter the field name under the **Label** column and click check mark.
+4.  Enter the field name under the **Label** column and select the check mark.
 
     A new row is added with the default values. You can configure the custom registration form field based on your requirements.
 
@@ -78,7 +78,7 @@ Order
 
 </td><td>
 
-The sequence in which the form fields appear on the registration form. The field with the lowest order value appears first and the field with the highest order value is appears last. The default value is 10,000.
+The sequence in which the form fields appear on the registration form. The field with the lowest order value appears first and the field with the highest order value appears last. The default value is 10,000.
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Mandatory
 
 </td><td>
 
-Option to make a field mandatory on the registration form.
+Option to make a field required on the registration form.
 
 </td></tr><tr><td>
 

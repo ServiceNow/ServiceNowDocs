@@ -1,20 +1,20 @@
 ---
-title: Create a dashboard in Strategic Planning
-description: In the Platform Analytics experience, you can create sharable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
+title: Create a dashboard
+description: In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/create-dashboard-spw.html
 release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Use, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Create a dashboard in Strategic Planning
+# Create a dashboard
 
-In the Platform Analytics experience, you can create sharable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
+In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
 
 ## Before you begin
 
@@ -47,16 +47,16 @@ The dashboard has been created.
 
 ## What to do next
 
-Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/edit-dashboard-spw.md).
+Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/edit-dashboard-spw.md).
 
 **Related topics**  
 
 
-[View a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/view-dashboard-spw.md)
+[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/view-dashboard-spw.md)
 
-[Duplicate a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)
 
-[Share a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)
 
-[Add a Platform Analytics dashboard to Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)
 

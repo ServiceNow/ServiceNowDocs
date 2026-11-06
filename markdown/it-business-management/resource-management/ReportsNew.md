@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Resource Management reports, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -20,6 +20,10 @@ Resource management reports show resource allocation details in different format
 
 Role required: resource\_user or admin
 
+**Important:** Resource Management reports is deprecated starting Zurich release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/using-rmw.md).
+
 ## About this task
 
 You can update the report settings like the aggregation type, request type, and calendar type for new reports. For example, you can edit the Resource - Group Allocation Details Monthly \(Hrs\) report to view the allocation details in terms of FTE instead of hours. You can also choose to view the charts associated with the reports by group bars or stack bars.
@@ -30,15 +34,15 @@ You can update the report settings like the aggregation type, request type, and 
 
     The following reports are displayed.
 
-<table id="choicetable_x5n_c1w_mbb"><thead><tr><th align="left" id="d64934e78">
+<table id="choicetable_x5n_c1w_mbb"><thead><tr><th align="left" id="d77055e110">
 
 Report
 
-</th><th align="left" id="d64934e81">
+</th><th align="left" id="d77055e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d64934e87">
+</th></tr></thead><tbody><tr><td id="d77055e119">
 
 **Resource — Group Allocation Details — Monthly \(Hrs\)**
 
@@ -46,7 +50,7 @@ Description
 
 Stack bar chart shows the breakdown of allocated time and available time of a group.
 
-</td></tr><tr><td id="d64934e96">
+</td></tr><tr><td id="d77055e128">
 
 **Resource — Group Member Allocation Details — Monthly \(Hrs\)**
 
@@ -56,7 +60,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
  Select a group and run the report.
 
-</td></tr><tr><td id="d64934e111">
+</td></tr><tr><td id="d77055e143">
 
 **Resource — Group Member Allocation Details — Weekly \(Hrs\)**
 
@@ -66,7 +70,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
  Select a group and run the report.
 
-</td></tr><tr><td id="d64934e126">
+</td></tr><tr><td id="d77055e158">
 
 **Resource — Project Member Allocation Details — Monthly \(Hrs\)**
 
@@ -74,7 +78,7 @@ Pivot report shows capacity, availability, and allocated hours of all group memb
 
 Pivot report shows the list of users allocated to a project on a monthly scale. The report shows allocated and actual hours of every user. Select a project and run the report.
 
-</td></tr><tr><td id="d64934e139">
+</td></tr><tr><td id="d77055e171">
 
 **Resource — Task wise — Group Member Allocation Details — Monthly \(Hrs\)**
 
@@ -86,7 +90,7 @@ Pivot report shows the following information for every member of the group:
 -   Allocated time and actual time spent by the member on the allocated tasks, on monthly basis, for the next two quarters.
 
 
-</td></tr><tr><td id="d64934e159">
+</td></tr><tr><td id="d77055e191">
 
 **Resource — Task wise — Group Member Allocation Details — Weekly \(Hrs\)**
 
@@ -99,10 +103,10 @@ Pivot report shows the following information for every member of the group:
 
 
 </td></tr></tbody>
-</table>2.  1.  Select the **Edit** icon \(\[Omitted image "report\_edit\_icon.png"\] Alt text: Edit reports\) or select on the report name.
+</table>2.  1.  Select the **Edit** button.
 2.  Configure the report by updating the field values in the **Configuration** tab.
 3.  Select **Run** to run the report, or select **Save** to run it later.
-3.  Select **Create a report** to create a new report.
+3.  Select **Create a report** to create report.
 
 
 **Parent Topic:**[Resource Management reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_UsingResourceManagementReports.md)

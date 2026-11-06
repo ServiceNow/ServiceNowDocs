@@ -1,16 +1,16 @@
 ---
-title: Manage goals
+title: Exploring goals
 description: Goals are important for aligning and optimizing investments in business applications and for driving strategic outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-goals.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Exploring the business architecture, Exploring Portfolio list view, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Manage goals
+# Exploring goals
 
 Goals are important for aligning and optimizing investments in business applications and for driving strategic outcomes.
 
@@ -24,17 +24,30 @@ Using the Enterprise Architecture Workspace, you can perform the following:
 -   Add qualitative targets to goals
 -   Add sub-goals
 -   Add demands to a goal
+-   Associate a goal with the business processes and business capabilities
 
--   **[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-goals.md)**  
-You can view the list of all available goals in the Enterprise Architecture Workspace.
--   **[Add or edit a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-goal.md)**  
-Create or edit a goal to track and optimize your investments in business applications.
--   **[Add a quantitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-quantitative-target-to-a-goal.md)**  
-You can add a quantitative target to track the progress of achieving a goal. It’s a numbers-based measurable target set to track the performance of a goal.
--   **[Add a qualitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-qualitative-target-to-a-goal.md)**  
-You can add a qualitative target to track the progress of achieving a goal. It's a non-measurable and interpretation-based target, set to track the performance of a goal.
--   **[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-sub-goal.md)**  
-You can create sub-goals that are associated with your main goals. Sub-goals are more specific in nature and consist of actionable items that contribute to the completion of the parent goal.
+A goal is mapped to a business process, and to a business capability, using the relationship type **Realizes :: Realized by**.
 
-**Parent Topic:**[Working with business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)
+**Parent Topic:**[Exploring the business architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-business-architecture.md)
+
+**Related topics**  
+
+
+[View all goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-goals.md)
+
+[Add or edit a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-goal.md)
+
+[Add a quantitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-quantitative-target-to-a-goal.md)
+
+[Add a qualitative target to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-a-qualitative-target-to-a-goal.md)
+
+[Create a sub-goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-sub-goal.md)
+
+[Add a business process to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-process-to-goal.md)
+
+[Remove a business process from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-remove-business-process-from-goal.md)
+
+[Add a business capability to a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-capability-to-goal.md)
+
+[Remove a business capability from a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-remove-business-capability-from-goal.md)
 

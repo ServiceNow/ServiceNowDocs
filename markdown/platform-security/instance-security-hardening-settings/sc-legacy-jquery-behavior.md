@@ -1,5 +1,5 @@
 ---
-title: Disable legacy JQuery behavior \[Updated in Securty Center 1.3\]
+title: Disable legacy JQuery behavior
 description: The glide.jquery.legacy is used to prevent older prepatched JQuery versions from being used which will introduce unpatched vulnerabilities in the library.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-legacy-jquery-behavior.html
@@ -7,31 +7,111 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Architecture, design, and threat modeling, Hardening settings, Platform Security]
 ---
 
-# Disable legacy JQuery behavior \[Updated in Securty Center 1.3\]
+# Disable legacy JQuery behavior
 
 The **glide.jquery.legacy** is used to prevent older prepatched JQuery versions from being used which will introduce unpatched vulnerabilities in the library.
 
-Set **glide.jquery.legacy** to the recommended value of **false** to prevent older prepatched JQuery versions from being used which introduce unpatched vulnerabilities in the library. Set the value to **true** to allow prepatched JQuery versions.
+If **glide.jquery.legacy** is not set to the recommended value of **false**, then older prepatched JQuery versions are used which introduce unpatched vulnerabilities in the library. When **false**, integrates the JQuery 1.12.3 and 2.2.3 security patches. The system property is a fail-safe in case any organizations depend on the non-patched versions of angularJS to run their custom implementations.
+
+Ensure the property **glide.jquery.legacy** is set to **false**.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.jquery.legacy**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)|
-|Purpose|To prevent potential security risks arising from attacks on vulnerabilities discovered in outdated JQuery library versions.|
-|Recommended value|False|
-|Configuration type|Boolean|
-|Security risk|\(High\) Prevent older prepatched JQuery versions from being used which introduce unpatched vulnerabilities in the library. The system property is a failsafe in case any organizations depend on the non-patched versions of angularJS to run their custom implementations.|
-|Security risk rating|7.1|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
 
-**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.jquery.legacy**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 7.1
+-   CVSS rating: High
+-   Security risk details: This update could potentially lead to security risks arising from attacks on vulnerabilities discovered in outdated JQuery library versions.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Architecture, design, and threat modeling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-architecture-design-threat-molding.md)
 

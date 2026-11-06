@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with forms in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Deleting forms and questions, Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Hide a form from use in the ServiceNow AI Platform in Creator Studio
@@ -22,7 +22,7 @@ To hide a form, you must be given permission to work on the app.
 
 ## About this task
 
-Creator Studio doesn't let you delete forms. Instead, hide forms to ensure that workflows stay intact.
+If a form hasn't been published yet, you can delete it instead of hiding it. See [Delete a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-delete-form.md) for details.
 
 You can hide only forms that have already been published. For more information, see [Deploying your Creator Studio app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-publishing-apps.md).
 
@@ -38,7 +38,7 @@ You can hide only forms that have already been published. For more information, 
 
     \[Omitted image "crs-forms-select-multi.png"\] Alt text: Select the appropriate form from the navigation panel
 
-4.  Select the more actions icon \(\[Omitted image "cs-more-actions-icon.png"\] Alt text: More options\).
+4.  Select the More actions icon \[Omitted image "cs-more-actions-icon.png"\] Alt text:.
 
 5.  Select **Form settings**.
 
@@ -55,5 +55,5 @@ You can hide only forms that have already been published. For more information, 
 
 Your admin must re-deploy the app to hide the inactive form \(catalog item\) on the production instance.
 
-**Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-work-with-forms.md)
+**Parent Topic:**[Deleting forms and questions in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-delete-forms-questions.md)
 

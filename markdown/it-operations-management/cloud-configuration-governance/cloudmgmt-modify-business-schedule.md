@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Business hour scheduling, Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Business hour scheduling, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Modify business schedule operations for a stack

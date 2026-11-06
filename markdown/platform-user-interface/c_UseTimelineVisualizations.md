@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_UseTimelineVisualizations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Timeline Visualizations, Personalize your experience, Configure user experiences]
 ---
@@ -19,7 +19,7 @@ Organizational decision makers can use the information in visualizations for act
 Activating the Timeline Visualization application does not install the CIO Roadmap. You require PPM \(com.snc.financial\_planning\_pmo\) plugin to use CIO roadmap. CIO Roadmap is a timeline visualization that displays an organization's IT projects and portfolios. This following sections use the CIO Roadmap to demonstrate features of timeline visualizations.
 
 -   **[Lanes, markers, and panels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_Lanes.md)**  
-Lanes, markers, and panels are the fundamental elements of a timeline visualization. appear in the 3D view only.
+Lanes, markers, and panels are the fundamental elements of a timeline visualization appear in the 3D view only.
 -   **[Personalize Timeline Visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_PersonalizeTimelineVisualizations.md)**  
 You can configure settings for timeline visualizations like lane and panel conditions, colors, and labels.
 -   **[Use the slider and slider track](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_UseTheSliderAndSliderTrack.md)**  

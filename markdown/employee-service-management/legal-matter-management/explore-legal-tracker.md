@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Legal Matter Management, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Integrate Legal Matter Management with the Legal Tracker application
@@ -53,6 +53,4 @@ To integrate Legal Matter Management with Legal Tracker, complete the following 
 
 -   Install the Legal Tracker spoke. For more information, see [Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/legal-tracker-spoke.md) Spoke.
 -   Configure Legal Tracker integration. For more information, see [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md).
-
-**Parent Topic:**[Exploring Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-management-overview.md)
 

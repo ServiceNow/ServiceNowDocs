@@ -1,20 +1,20 @@
 ---
 title: Create action for 'on Catalog item request start/end'
-description: The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a workflow.
+description: The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-action-on-cat-item-request.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create action for 'on Catalog item request start/end'
 
-The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a workflow.
+The on Catalog item request start trigger fires after the user opens a request form. The on Catalog item request end trigger fires after a user submits a request form. A policy that is triggered by the on Catalog item request start or on Catalog item request end trigger can run a script or execute a subflow.
 
 ## Before you begin
 
@@ -71,8 +71,8 @@ Create the script in the text box.See [Create a policy action script]() for deta
 
     |Field|Description|
     |-----|-----------|
-    |Action Name|Specify a unique and meaningful name for the action that starts the workflow.|
-    |Workflow|Select the workflow to execute.|
+    |Action Name|Specify a unique and meaningful name for the action that starts the subflow.|
+    |Subflow|Select the subflow to execute.|
 
 
 **Parent Topic:**[Create a cloud policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/create-cloud-policy.md)

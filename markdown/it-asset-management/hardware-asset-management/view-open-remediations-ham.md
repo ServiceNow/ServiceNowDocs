@@ -7,9 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit your hardware assets by using Asset Attestation, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+keywords: [Asset attestation remediation]
+breadcrumb: [Audit your hardware assets by using Asset Attestation, Attestation and conformance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View open remediation tasks for asset attestations in the Hardware Asset Workspace

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcm-properties-module.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -14,13 +14,13 @@ breadcrumb: [General administration setup for BCM, Configure, Business Continuit
 
 You can configure the BCM properties in the **Properties** module.
 
-If you are the Business Continuity Management application user, you can view the properties for the Business Continuity Management application in **Properties** in the **General Administration** module.
+If you are the Business Continuity Management application user, you can view the properties for the Business Continuity Management application in **Properties** in **General Administration**.
 
-You can view the **Properties** menu option in the **General Administration** module as shown in the following example.
+You can view the **Properties** menu option in **General Administration** as shown in the example.
 
 \[Omitted image "gen-admin-module.png"\] Alt text: General Administration module.
 
-You can select the **Properties** module to view and configure the BCM application properties as shown in the following example.\[Omitted image "properties-module.png"\] Alt text: Properties module.
+You can select the **Properties** module to view and configure the BCM application properties as shown in the example.\[Omitted image "properties-module.png"\] Alt text: Properties module.
 
 For more information on BCM properties, see [Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/properties-bcm.md).
 

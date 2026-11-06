@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Legal Conflict of Interest, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure flows for Legal Conflict of Interest
@@ -50,5 +50,5 @@ The flows are built using ServiceNow Workflow Studio, so make sure you’re fami
 6.  If not already active, click **Activate** to enable the flow.
 
 
-**Parent Topic:**[Setting up Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

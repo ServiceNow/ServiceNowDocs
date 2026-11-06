@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-flow-email-interaction.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Creating flows for incoming emails that create and update interactions, Email Interaction, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure flows for incoming emails, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Activate a flow for Email Interaction for CSM
@@ -21,7 +21,7 @@ Role required: admin
 
 ## About this task
 
-For new CSM customers, the flows are activated by default. Existing CSM customers should activate email interaction related flows and deactivate the case related flows.
+For new CSM customers, the inbound actions are activated by default. Existing CSM customers should activate email interaction related flows and deactivate the case related flows.
 
 ## Procedure
 
@@ -32,7 +32,13 @@ For new CSM customers, the flows are activated by default. Existing CSM customer
     -   Create Interaction from Email
     -   Update Interaction from Email
     -   Update Case via Reply for EaaI
-3.  Activate the selected flow by selecting **Activate**.
+3.  Select **AND**.
+
+4.  Select the filter condition: **To** contains **customerservice@example.com**.
+
+    **Note:** **customerservice@example.com** is a sample email address. Specify the actual email address that should be configured as the default for creating email interactions.
+
+5.  Activate the selected flow by selecting **Activate**.
 
 
 ## Result

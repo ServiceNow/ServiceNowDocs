@@ -1,20 +1,20 @@
 ---
 title: Define system colors for analytics
-description: Create color definitions for use in reports and Performance Analytics widgets.
+description: Create color definitions for use in visualizations and Performance Analytics widgets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/reporting/t\_DefiningSystemColors.html
 release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Predefined colors in reports, Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Predefined colors in reports, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Define system colors for analytics
 
-Create color definitions for use in reports and Performance Analytics widgets.
+Create color definitions for use in visualizations and Performance Analytics widgets.
 
 ## Before you begin
 
@@ -36,9 +36,9 @@ For reports and visualizations with a color palette and for Performance Analytic
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **Administration** &gt; **Color Definition**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Chart Colors**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in these fields.
 
@@ -79,7 +79,7 @@ Applies an alternate color from the UX Theme Properties \[sys\_ux\_theme\_proper
  When themes are turned off, the system applies this color to visualizations created by the data visualization component only. The system applies the color defined in the **Color** field to classic reports and ignores the **Themeable color** field.
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
 
 **Parent Topic:**[Predefined colors in reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/colors-reports.md)

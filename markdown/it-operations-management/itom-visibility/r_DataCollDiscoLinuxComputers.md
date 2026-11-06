@@ -7,10 +7,10 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Patterns, Discovery, Linux]
-breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Linux discovery
@@ -32,6 +32,11 @@ The Linux server pattern can discover only English-based Linux.
     -   SUSE
     -   CentOS
     -   Ubuntu
+    -   Rocky Linux
+    -   AlmaLinux OS
+    -   Debian GNU/Linux
+    -   VMware Photon OS
+    -   Amazon Linux
     -   Alpine Linux \(starting from Visibility Content version 6.30.0\)\*
     \* Operating System and OS Version only
 
@@ -134,7 +139,7 @@ Before running a discovery, you must verify that all the required configurations
 
     For information on creating a discovery schedule, see [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md).
 
-    Defining IP ranges ensures that only the specified network adapters and their primary IP addresses are used during Linux discovery. You can configure **Quick Ranges** by entering comma-separated IPv4 address ranges or single IPv6 address.
+    Define IP ranges so that only the specified network adapters and their primary IP addresses are used during Linux discovery. You can configure **Quick Ranges** by entering comma-separated IPv4 address ranges or single IPv6 address.
 
     Alternatively, you can use the **network\_adapter\_exclusion\_list** property to limit Linux discovery to specific network adapters and their primary IP addresses. For more information, see [Omit network adapter secondary IP addresses in Linux discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/omit-adapter-secondary-ip-linux.md).
 
@@ -145,6 +150,10 @@ Before running a discovery, you must verify that all the required configurations
 -   **Set the preferred IP address version for network adapter discovery**
 
     Starting with Visibility Content version 6.32.0, if your network adapters support both IPv4 and IPv6, the IPv4 address is populated by default in the IP address \[ip\_address\] field on the Network Adapter \[cmdb\_ci\_network\_adapter\] table. To control which IP version is populated, see [Set the preferred IP version for network adapter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/set-network-adapter-preferred-ip.md).
+
+-   **Configure the serial number type**
+
+    Starting with Visibility Content version 6.35.0, you can populate a specific serial number type instead of the first available one. For more information, see [Configure the serial number type for Linux Server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/configure-linux-serial-number-type.md).
 
 
 ## Data collected

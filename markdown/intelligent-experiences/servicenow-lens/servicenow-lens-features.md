@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: concept
-last_updated: "2025-08-21"
-reading_time_minutes: 5
-breadcrumb: [Explore, ServiceNow AI Lens, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Explore, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # ServiceNow AI Lens features
@@ -20,17 +20,35 @@ ServiceNow AI Lens offers the following features:
 
 -   **Capture data**
 
-    Scan and get actionable insights from visual data such as images, emails, handwritten forms and notes, websites, and applications.
+    Scan and get actionable insights from visual data such as images, scanned handwritten notes, Excel sheets, web pages, or any document that provides visual data.
 
-    For example, ServiceNow AI Lens can scan an email to gather data for auto-filling the fields on the Incident form.
+    For example, ServiceNow AI Lens can scan an email and auto-fill the fields on the Incident form.
 
-    \[Omitted image "lens-scanner-incident-capture.png"\] Alt text: Lens scanner window captures incident details from email.
+    \[Omitted image "lens-scanner-incident-capture.png"\] Alt text: Scan and capture data from screenshot
 
--   **Provide additional instructions**
+-   **Use ServiceNow AI Lens from your browser or the desktop application**
 
-    Select the Instructions \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Instructions icon\) icon and enter additional instructions, if required.
+    Get started with ServiceNow AI Lens directly from your browser — no downloading or installation required. Capture your screen or upload one or more files, and let ServiceNow AI Lens analyze the contents and auto-fill your form fields. For the full range of capabilities, open the ServiceNow AI Lens desktop application if it is already installed, or download and install it.
+
+    \[Omitted image "lens-feature-lite.png"\] Alt text: Capture browser contents
+
+    \[Omitted image "lens-browser-upload-file-window.png"\] Alt text: Upload files using a browser.
+
+-   **Upload files**
+
+    Get actionable insights from the files that you upload. You can upload files by adding or dragging and dropping.
+
+    For example, upload copies of all expense bills from your business trips in the last six months. Instruct ServiceNow AI Lens to organize the expense amounts under their respective headings such as food, airfare, cab, and laundry.
+
+    \[Omitted image "lens-feature-upload-files.png"\] Alt text: File upload window
+
+-   **Provide instructions to analyze data in a specific way**
+
+    Provide instructions to analyze the data in the screenshots or files after selecting the Edit \(\[Omitted image "lens-instructions-icon.png"\] Alt text: Edit icon\) icon and entering additional instructions. For example, you can capture screenshots or upload copies of expense bills from your business trips in the last six months. Provide instructions to arrange the expense bill amounts by date and expense category.
 
     \[Omitted image "lens-scanner-additional-instructions.png"\] Alt text: Field to provide additional instructions.
+
+    \[Omitted image "lens-prev-window-instructions.png"\] Alt text: Provide instructions after capturing screenshots or uploading files
 
 -   **Capture multiple screenshots**
 
@@ -38,15 +56,9 @@ ServiceNow AI Lens offers the following features:
 
     For example, ServiceNow AI Lens can scan multiple bills so that you can submit a consolidated invoice report.
 
-    \[Omitted image "lens-scanner-multiple-scrnshts-capturd.png"\] Alt text: Number of screenshots captured shown.\[Omitted image "lens-scanner-analyze-multiple-scrns.png"\] Alt text: Lens available for accepting and analyzing the captured data.
+    \[Omitted image "lens-scanner-multiple-scrnshts-capturd.png"\] Alt text: Icon showing the number of screenshots captured
 
--   **Act on visual data**
-
-    Provide additional instructions to Now Assist on what to do with the captured data.
-
-    For example, ServiceNow AI Lens can provide instructions, such as the extracted name, user email ID, and location from the resumes, and then present the data in a JSON format.
-
-    \[Omitted image "lens-scanner-instructions.png"\] Alt text: Instruction given to Lens to act on the visual data that it captured.
+    \[Omitted image "lens-scanner-analyze-multiple-scrns.png"\] Alt text: Preview window showing consolidated summary.
 
 -   **Launch from ServiceNow instance**
 
@@ -58,11 +70,17 @@ ServiceNow AI Lens offers the following features:
 
 -   **Use Lens actions to customize Lens behavior**
 
-    You can use Lens actions that define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the Lens execution. With Lens actions, you can customize how a classic form auto-filled using ServiceNow AI Lens or what data must be extracted for preview and post process the LLM response. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
+    You can use Lens actions that define Lens behavior depending on how ServiceNow AI Lens is triggered and what context is set. You can define default instructions, trigger options, custom context, transform response logic, and post processing instructions for the Lens execution. With Lens actions, you can customize how a classic form is auto-filled using ServiceNow AI Lens or what data must be extracted for preview and post process the LLM response. For more information, see [Customize ServiceNow AI Lens behavior by creating a Lens action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/servicenow-lens-actions.md).
 
-    For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a particular table. You can also define form fields that must be populated.
+    For example, you can define a Lens action that is used when Lens is triggered from an instance to populate a form of a particular table. You can also define which form fields must be populated.
 
-    \[Omitted image "lens-action-overview.png"\] Alt text: ServiceNow AI Lens home page displaying Lens actions.
+    \[Omitted image "lens-action-overview.png"\] Alt text: Home screen showing Lens actions
+
+-   **Auto-map Excel sheet column headers with ServiceNow table columns**
+
+    Define a Lens action that specifically lets ServiceNow AI Lens to auto-map the column headers of an Excel sheet with the columns of a ServiceNow table. Review and update the mapping, if required, and then insert the Excel sheet data into the table.
+
+    \[Omitted image "lens-feature-excel-mapping.png"\] Alt text: Excel sheet column headers auto-mapped with table columns
 
 -   **ServiceNow AI Lens in Virtual Agent**
 
@@ -84,7 +102,7 @@ ServiceNow AI Lens offers the following features:
 
 -   **Use as a standalone application**
 
-    Use ServiceNow AI Lens as a standalone application for previewing extracted data or getting insights. You must connect to a ServiceNow instance before you start using ServiceNow AI Lens. For more information, see [Extract and analyze your data by using ServiceNow AI Lens in the standalone mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md).
+    Use ServiceNow AI Lens as a standalone application for previewing extracted data or getting insights. You must connect to a ServiceNow instance before you start using ServiceNow AI Lens. For more information, see [Extract and analyze data with ServiceNow AI Lens desktop app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/sn-lens-standalone-app.md).
 
     \[Omitted image "standalone-lens.png"\] Alt text: ServiceNow AI Lens login screen as a standalone application.
 
@@ -94,6 +112,6 @@ ServiceNow AI Lens offers the following features:
 
 -   **Autofill Catalog Item forms in Service Portal**
 
-    Autofill Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto fills the relevant fields in the form.. For more information on using ServiceNow AI Lens in the Service Portal, see [Autofill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
+    Autofill Catalog Item form fields by triggering ServiceNow AI Lens from Service Portal. ServiceNow AI Lens extracts data from one or more artifacts and auto fills the relevant fields in the form.. For more information on using ServiceNow AI Lens in the Service Portal, see [Auto-fill catalog item form in the Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-lens/create-record-in-the-service-portal.md).
 
 

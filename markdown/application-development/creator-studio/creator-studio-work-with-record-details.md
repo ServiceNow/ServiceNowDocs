@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring workspace lists and records for form submissions, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Configure workspace lists and records, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Change the layout of an app's record in Creator Studio
@@ -22,7 +22,7 @@ To change the layout of an app's submitted record in the fulfiller workspace con
 
 ## About this task
 
-All columns of the app's underlying table are available as fields on the record page, though you may want to adjust them. For example, you may want to move the **Priority** field to appear more visibly on the record so fulfillers can tell how important the request is. You could then build an automated playbook that runs when the priority changes to high.
+All columns of the app's associated table are available as fields on the record page, though you may want to adjust them. For example, you may want to move the **Priority** field to appear more visibly on the record so fulfillers can tell how important the request is. You could then build an automated playbook that runs when the priority changes to high.
 
 **Note:** You can't edit UI policies or make more advanced edits to the form in Creator Studio. To make advanced edits, open the record in Table Builder. For more information, see [Forms in Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/form-builder-glide-family-release/form-view-configuration.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Apply the CSDM guidelines to Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [CSDM guidelines, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # CSDM terms for Digital Portfolio Management
@@ -88,11 +88,11 @@ Typically orderable by business users. Business users are able to select the des
 
 </td></tr><tr><td>
 
-Technical service
+Technology management service
 
 </td><td>
 
-A service type that is published to service owners and typically underpins a business or application service.
+A service type that is published to service owners and typically underpins a business or service instance.
 
 </td><td>
 
@@ -100,7 +100,7 @@ Typically orderable by service owners. Service owners are able to select the des
 
 </td></tr><tr><td>
 
-Application service
+Service instance
 
 </td><td>
 
@@ -108,7 +108,7 @@ A service type that is a logical representation of a deployed application stack.
 
 </td><td>
 
-Examples of application services are hosting, data backup, and recovery. **Note:** There is not a 1-to-1 relationship between application and application services.
+Examples of service instances are hosting, data backup, and recovery. **Note:** There is not a 1-to-1 relationship between application and application services.
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-phase-task-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Phase task form
@@ -16,7 +16,7 @@ Phase task form enables you to add the details of the recall phase.
 
 <table id="table_cjs_shk_wfc"><thead><tr><th>
 
-Fields
+Field
 
 </th><th>
 
@@ -97,13 +97,11 @@ Description
 
 Detailed description of the phase task.
 
-</td></tr><tr><td>
-
-Work notes
-
-</td><td>
-
-Additional notes, if required.
-
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
+
+**Related topics**  
+
+
+[Adding a phase task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/mco-phase-task.md)
+

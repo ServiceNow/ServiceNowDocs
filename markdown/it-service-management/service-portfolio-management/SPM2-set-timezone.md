@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Set the time zone for availability results in Service Portfolio Management

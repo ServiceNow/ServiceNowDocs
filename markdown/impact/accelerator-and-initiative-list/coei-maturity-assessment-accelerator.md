@@ -1,61 +1,70 @@
 ---
 title: Center of Excellence and Innovation Maturity Assessment Accelerator
-description: This Center of Excellence and Innovation \(CoEI\) Maturity Assessment Accelerator provides insight into your current  ServiceNow  CoEI maturity level and targeted recommendations based on the current maturity level.
+description: This Accelerator assesses your current ServiceNow  CoEI processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/coei-maturity-assessment-accelerator.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Strategy Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Center of Excellence and Innovation Maturity Assessment Accelerator
 
-This Center of Excellence and Innovation \(CoEI\) Maturity Assessment Accelerator provides insight into your current  ServiceNow  CoEI maturity level and targeted recommendations based on the current maturity level.
+This Accelerator assesses your current ServiceNow  CoEI processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform
 
-## Overview
+## Accelerator Overview
 
-Center of Excellence &amp; Innovation Maturity Assessment provides Impact customers with leading practices content and prescriptive guidance and support to assess the maturity of their Center of Excellence and Innovation.
+Center of Excellence and Innovation \(CoEI\) Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer’s business. By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this Accelerator helps maximize the value of their ServiceNow investment.
 
-See [https://www.servicenow.com/success/playbook/center-excellence-innovation-coei.html](https://www.servicenow.com/success/playbook/center-excellence-innovation-coei.html) for additional information about the ServiceNow CoEI.
+## Package Availability
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What You Get
 
--   **Introductory customer session \(up to 2 hours\)**
+-   **Maturity Assessment kick-off session \(up to 1.5 hours\)**
     -   Set expectations on the process and depth of deliverable
-    -   Explain the concept of the ServiceNow CoEI Maturity Assessment and its importance
     -   Communicate expectations for customer participation
     -   Request data and any other inputs
-    -   Set up a plan for the assessment
 -   **CoEI Maturity Assessment questionnaire**
 
-    Assessment participants complete the CoEI maturity questionnaire independently
+    Your assessment participants will each be asked to independently fill out a pre-built CoEI Maturity Assessment Questionnaire that asks them to grade targeted statements that assess gaps and opportunities with your CoEI deployment.
 
--   **Questionnaire results analysis \(time as needed per Impact Squad\)**
+-   **Questionnaire results analysis \(time as determined per Impact Squad\)**
 
     The Impact Squad performs the following:
 
     -   Reviews and analyzes the questionnaire scores
-    -   Compiles tailored recommendations and leading practices
-    -   Schedules a Readout session to discuss the results and recommendations
--   **CoEI Maturity Assessment recommendations readout session \(up to 2 hours\)**
+    -   Compiles targeted recommendations and leading practices
+    -   Provides guidance that will help you understand how to best maximize your CoEI investment
+-   **CoEI Maturity Assessment report**
 
-    The Impact Squad performs the following:
+    The assessment report is compiled from the responses to the questionnaire and includes the following:
 
-    -   Presents the assessment results
-    -   Discusses the targeted recommendations
-    -   Provides a suggested plan and resources
+    -   Maturity score
+    -   The top five recommendations grounded in ServiceNow leading practices 
+    -   Content, accelerators, and next steps where applicable
+    -   A complete list of recommendations observed
+-   **Customer read-out session \(up to 1.5 hours\)**
+    -   Deliver CoEI Maturity Assessment report
+    -   Review CoEI Maturity Assessment report
+        -   Present the assessment results
+        -   Discuss targeted recommendations
+        -   Provide a suggested plan and resources to help you decide which recommendations to implement
+-   **Follow-up customer session \(optional on Customer request– up to 1 hour\)**
+    -   Review Customer progress
+    -   Identify additional resources to achieve Customer goals
+    -   Provide additional guidance on leading practices
 
 ## Requested customer resources
 
 One or more customer resources are requested. The specific number of resources provided is Accelerator and customer specific.
 
-<table id="table_kh2_jrq_dsb"><thead><tr><th>
+<table id="table_ov4_1z5_2hc"><thead><tr><th>
 
 Customer Resource 
 
@@ -63,39 +72,73 @@ Customer Resource 
 
 Responsibilities 
 
+</th><th>
+
+ 
+
+</th><th>
+
+ 
+
 </th></tr></thead><tbody><tr><td>
 
-Platform owner \(Required\)
+Main Customer Contact, PMO
 
 </td><td>
 
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform. 
+Primary contact for the duration of the engagement and carries out the following responsibilities:-   Gather and share the list of assessment participants.
+-   Ensure completion of the assessment by participants.
+-   Provide sponsorship for outputs based on the recommendations.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-Process owner \(Recommended\)
+Assessment Participants
 
 </td><td>
 
-Owns the process being reviewed.
+People within your organization who complete the assessment. Their responsibilities are:-   Complete the assessment by the agreed deadline.
+-   Raise any questions or concerns as soon as possible.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-Subject matter experts \(Required\)
+Process Owner
 
 </td><td>
 
-Includes the people within your organization that will be completing the assessment. Their responsibilities are: -   Complete the assessment by the agreed deadline
--   Raise any questions or concerns as soon as possible
+Owns the process being assessed.
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Requested Information / Access
 
--   Organizational chart and roles &amp; responsibilities
--   RACI diagrams
--   Charter and/or guiding principles document
+We request that the CoEI Maturity questionnaire is completed by the customer virtually at least two weeks prior to the customer readout session.
 
-## Exceptions
+## Exclusions
 
-ServiceNow isn’t responsible for the implementation or management of the ServiceNow CoEI.
+-   This Impact Accelerator does not include a technical review of CoEI.
+-   Assessment of capabilities and processes beyond CoEI is not included.
+-   ServiceNow is not responsible for implementing the recommendations made based on the CoEI Maturity Assessment.
 

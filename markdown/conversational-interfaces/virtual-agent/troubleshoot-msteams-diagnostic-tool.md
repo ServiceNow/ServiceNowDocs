@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Microsoft Teams, MSTeams, Conversational Interfaces, Diagnostic tool, health report]
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [VA feature support in Teams conversations, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Capture common errors and provide resolution steps for Microsoft Teams using the Conversational Interfaces Diagnostic Tool
@@ -78,5 +78,5 @@ Resolving errors using the CI Diagnostic Tool includes the following steps:
     Finally, the CI Diagnostic Tool asks you to check if your issue is resolved. Select **Yes** if the issue is resolved.
 
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Virtual Agent feature support in Microsoft Teams conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-teams-other-features.md)
 

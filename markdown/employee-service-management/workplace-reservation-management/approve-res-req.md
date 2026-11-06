@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage employee reservations, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve a reservation
@@ -38,5 +38,7 @@ Role required: approver\_user
 
 [View or update reservations]()
 
-[Manage and configure reservation waitlist]()
+[Print workplace reservations]()
+
+[Reservation Waitlist data model]()
 

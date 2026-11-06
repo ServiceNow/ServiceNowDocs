@@ -1,36 +1,33 @@
 ---
 title: Structured workflows for exercises
-description: Perform the structured workflows that are outlined in this section to manage an exercise in Business Continuity Workspace \(also known as BCM Configurable Workspace\).
+description: Manage exercises using structured workflows in the Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/performing-tasks-to-manage-exercise-events.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Structured workflows for exercises
 
-Perform the structured workflows that are outlined in this section to manage an exercise in Business Continuity Workspace \(also known as BCM Configurable Workspace\).
+Manage exercises using structured workflows in the Business Continuity Workspace \(also known as BCM Configurable Workspace\).
 
-Typically, the BCM program manager performs the following tasks to exercise an event:
+Business Continuity Management \(BCM\) program managers initiate exercises by defining the scope and severity. They attach important assets, impacted services, and applicable continuity plans to the event, then create and submit tasks to response teams for timely resolution.
 
--   Create an exercise. For more information, see [Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-exercise-event-in-uib-ws.md).
--   Add an asset and plan to the exercise. For more information, see [Track impacted assets and add associated plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.md).
--   Add an event task to the exercise. For more information, see [Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-an-event-task-to-exercise-event.md).
--   Submit the event task for the exercise event. For more information, see [Request an approval and approve the event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/submit-an-event-task-uib-ws.md).
-
-## Additional information on Exercises
-
--   For information on the **Exercises** tab in the Home page, see [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/home-page-uib-ws.md).
--   For information on the exercises, see [Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exercise-management-uib.md).
+-   For more information on creating an exercise, see [Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-exercise-event-in-uib-ws.md).
+-   For more information on adding assets and plans to the exercise, see [Track impacted assets and add associated plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.md).
+-   For more information on adding an event task to the exercise, see [Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-an-event-task-to-exercise-event.md).
+-   For more information on submitting the event task for the exercise event, see [Request an approval and approve the event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/submit-an-event-task-uib-ws.md).
 
 ## Bulk editing of tasks
 
-Starting with version 6.1.x of the Business Continuity Management application, users who have editing access to the event record can now perform bulk edits on tasks directly from the Event tasks related list. This feature is beneficial for users who manage multiple event tasks simultaneously.
+Starting with version 6.1.x of the Business Continuity Management application, users with editing access can perform bulk edits on tasks directly from the Event tasks related list. This feature benefits users who manage multiple event tasks simultaneously.
 
 For more information on bulk editing of tasks, see [Structured workflows for crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/perform-tasks-to-manage-crisis-events.md).
+
+For additional information on exercises, see [Exercises](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exercise-management-uib.md) and [Home page view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/home-page-uib-ws.md).
 
 -   **[States for an exercise and crisis event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/states-for-exercise-events.md)**  
 This section describes the states of progression for an exercises and crisis event.
@@ -44,20 +41,28 @@ Configure a system property to control activated plan levels in an event. The sy
 You can add the dependencies of the impacted assets in the events and exercises based on the source data and relationships in the CMDB, BIAs, and plans.
 -   **[Enhancing event task management with Hierarchical view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/managing-enhanced-hierarchical-view-in-event-tasks.md)**  
 The Hierarchical view for event tasks has been enhanced with several key features. It now displays dependencies between tasks, and shows color-coded states with planned start and end dates. Dependencies can be updated directly through the Hierarchical view \(Gantt chart\), streamlining event task management.
+-   **[Event task creation progress in exercise and crisis events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-event-task-template-progress.md)**  
+When event tasks are created in bulk from task template groups or task templates, the Event tasks list defers refresh to avoid impacting large events. This topic explains the banner and auto-refresh behavior.
 -   **[Create an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-exercise-event-in-uib-ws.md)**  
 Create an exercise in BCM UIB Workspace. You can then test your business continuity and recovery plans on a planned date and monitor the completion of the event tasks.
 -   **[Update the event dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/update-event-dep-manually.md)**  
 Update the event dependencies manually by selecting the **Update dependencies** UI action. You can update the dependencies in an active event.
 -   **[Track impacted assets and add associated plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-asset-and-plan-to-exercise-event-uib-ws.md)**  
 Track the impacted assets and add an associated plan to the exercise. You can then monitor the assets and plans for the exercise in BCM UIB Workspace.
+-   **[Create a collaboration thread in an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/comp-email-collab-thread-event.md)**  
+Create a collaboration thread from an exercise and send an email to its recovery teams to coordinate a response.
 -   **[Creating action items in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/creating-action-items-in-events.md)**  
-Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams anytime during a crisis event or exercise, as long as the event remains open. Crisis managers can create these tasks on the fly without mapping them to event assets or recovery plans. These action tasks are also not included in the event recovery timeline.
--   **[Grouping similar event tasks in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identifying-running-dup-tasks-once.md)**  
+Starting with BCM release 9.0.x, crisis managers can create action tasks for recovery members or teams during a crisis event or exercise. These tasks can be created on the fly without mapping them to event assets or recovery plans. Action tasks are not included in the event recovery timeline and can be created while the event remains open.
+-   **[Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identifying-running-dup-tasks-once.md)**  
 In BCM, when the same plan is activated multiple times, it can result in multiple redundant tasks. Starting with BCM release 9.0.x, the **Similar tasks groups** tab in events helps you to eliminate redundant tasks by grouping duplicate tasks from multiple plans for similar scenarios. This functionality streamlines event task management and reduces duplication of efforts.
 -   **[Import plans and recovery tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/import-the-automated-task-in-an-exercise.md)**  
 Import the business continuity plans and associated recovery tasks in the event. Using automated tasks during an exercise enhances efficiency and reduces response time for users.
 -   **[Monitor event tasks and create ad-hoc tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-an-event-task-to-exercise-event.md)**  
 Monitor event task completion and create ad-hoc tasks as necessary in the exercise from the BCM Configurable Workspace. The tasks are then completed in a sequence.
+-   **[Add or create an issue from an exercise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-or-create-issue-from-event-uib-ws.md)**  
+Add an existing issue or create a new issue to track problems identified during an exercise.
+-   **[Importing and exporting event tasks in Microsoft Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/using-export-import-feature-event-tasks.md)**  
+Use Export to download event task records into a structured Microsoft Excel file — complete with dropdowns, instructions, and field protection. Edit records offline, then use Import to upload the updated file and apply bulk changes.
 -   **[Start an event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/start-event.md)**  
 To initiate an event, first pull the relevant plans into the event, and then review the event tasks listed in the **Event tasks** tab.
 -   **[Request an approval and approve the event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/submit-an-event-task-uib-ws.md)**  

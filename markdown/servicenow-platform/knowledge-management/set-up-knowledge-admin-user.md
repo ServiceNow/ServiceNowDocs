@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -49,4 +49,6 @@ Role required: knowledge\_administrator, knowledge\_manager, or admin.
 Let users in your organization know that they can start creating and searching articles in the knowledge base. For details, refer users to the [Knowledge Management guide for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/get-started-knowledge-end-users.md).
 
 If you have the knowledge\_manager role, there are many other tasks that you can perform to maintain the knowledge base. You can pin articles so they are featured prominently in the search results and on landing pages. You can also assign other users as managers of a knowledge base. For details, see [Configuration tasks for knowledge managers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/c_KnowledgeManager.md).
+
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
 

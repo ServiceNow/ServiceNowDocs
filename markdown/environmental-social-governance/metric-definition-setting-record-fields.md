@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/metric-definition-setting-record-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-10-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate default values for CMD calculations, Formula building in a calculated metric definition, Configuring GRC: Metrics, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
+breadcrumb: [Activate default values for CMD calculations, Reviewing calculation details with formula trees, Using GRC: Metrics to provide data, GRC: Metrics, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Metric definition setting record fields

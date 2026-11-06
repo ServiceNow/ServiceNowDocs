@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow IDE commands
@@ -59,11 +59,11 @@ Build the application into an installable package.
 
 </td></tr><tr><td>
 
-Fluent: Convert a scoped app to Fluent
+Fluent: Convert an app to Fluent
 
 </td><td>
 
-Convert an existing scoped application to support development in source code.**Note:** With ServiceNow IDE version 3.1.4 and earlier, the sn\_glider.ide\_fluent\_admin role is required to use this command.
+Convert an existing application to support development in source code.**Note:** With ServiceNow IDE version 3.1.4 and earlier, the sn\_glider.ide\_fluent\_admin role is required to use this command.
 
 Learn more: [Convert an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.md)
 
@@ -73,7 +73,7 @@ Fluent: Create Fluent App
 
 </td><td>
 
-Create a scoped application to develop in source code.Learn more: [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)
+Create an application to develop in source code.Learn more: [Create an application with the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-servicenow-ide.md)
 
 </td></tr><tr><td>
 
@@ -169,27 +169,11 @@ Configure basic or OAuth 2.0 credentials that are associated with your user to a
 
 </td></tr><tr><td>
 
-Metadata Explorer: Focus on Metadata Explorer View
+File Categories: Focus on File Categories View
 
 </td><td>
 
-Navigate to the Metadata Explorer view.Learn more: [Create an application file from the Metadata Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)
-
-</td></tr><tr><td>
-
-Metadata Explorer: Open in New Browser Tab
-
-</td><td>
-
-Open the Metadata Explorer in a new browser tab.
-
-</td></tr><tr><td>
-
-Metadata Explorer: Reload
-
-</td><td>
-
-Refresh the Metadata Explorer view.
+Navigate to the File Categories view.Learn more: [Create an application file from the File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)
 
 </td></tr><tr><td>
 

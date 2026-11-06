@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Playbook variants, Playbooks in Workflow Studio, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Playbook variants, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create a playbook variant
@@ -32,7 +32,7 @@ Role required: admin or playbook.admin
 
 5.  Fill in the following fields.
 
-<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d150172e92">
+<table id="choicetable_oqd_gxb_hdc"><tbody><tr><td id="d163281e92">
 
 **Variant name**
 
@@ -40,7 +40,7 @@ Role required: admin or playbook.admin
 
 Enter a unique, user-facing name for your playbook variant. This name appears to agents and fulfillers when this variant runs.
 
-</td></tr><tr><td id="d150172e104">
+</td></tr><tr><td id="d163281e104">
 
 **Conditions**
 
@@ -133,7 +133,7 @@ Add more conditions for this variant to run, as needed.**Note:** Child variants 
 
 ## What to do next
 
-Re-order your playbook variants. To learn more about reordering your variants, see [Re-order playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/reorder-playbook-variants.md).
+[Set variant evaluation point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/set-evaluation-point.md)
 
 **Parent Topic:**[Playbook variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-variants.md)
 

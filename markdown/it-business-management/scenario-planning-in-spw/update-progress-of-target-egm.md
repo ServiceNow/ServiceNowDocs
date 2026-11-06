@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create targets for a goal in Strategic Planning, Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Add targets for a goal in Strategic Planning, Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Update the progress of a manual target
@@ -28,15 +28,15 @@ Role required: sn\_apw\_advanced.spw\_goal\_user and sn\_align\_core.apw\_user
 
 1.  Open the target record of the goal using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d113345e61">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d140201e61">
 
 Option
 
-</th><th align="left" id="d113345e64">
+</th><th align="left" id="d140201e64">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d113345e70">
+</th></tr></thead><tbody><tr><td id="d140201e70">
 
 **From the Goals and targets tab**
 
@@ -57,7 +57,7 @@ The Check-in actuals window is displayed.
 
 \(For targets with no breakdowns\) In the Actual to date column, double click the cell for the target.
 
-</td></tr><tr><td id="d113345e123">
+</td></tr><tr><td id="d140201e123">
 
 **From the Target side panel**
 
@@ -70,7 +70,7 @@ The Check-in actuals window is displayed.
 
 The Target side panel opens with the **Details** tab.
 
-</td></tr><tr><td id="d113345e167">
+</td></tr><tr><td id="d140201e167">
 
 **From the Targets tab**
 
@@ -88,7 +88,7 @@ The Goal side panel opens with the **Details** tab.
 
 
 </td></tr></tbody>
-</table>2.  On the form, update the **Actuals to date** field and add a business justification in the **Remark** field.
+</table>2.  On the form, update the **Actuals to date** or **Actual** field and add a business justification in the **Remark** field.
 
     For a description of the field values, see [Target form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-form-egm.md).
 

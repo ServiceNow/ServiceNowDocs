@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [App Engine Studio reference, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # AES properties
@@ -36,7 +36,7 @@ System properties control system behavior. The properties in this section are sp
     -   Default value: image/svg+xml
 -   **sn\_app\_intake.instance\_can\_provision\_users**
 
-    Determines if the current instance can support the provisioning of users. The users on this instance will be provisioned to another instance. For more information on provisioning users, see [Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-app-intake.md).
+    Determines if the current instance can support the provisioning of users. The users on this instance will be provisioned to another instance. For more information on provisioning users, see [Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/config-app-intake.md).
 
     -   Type: true \| false
     -   Default value: false

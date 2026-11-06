@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Visibility to Firewall inventory, Configuring Firewall Audits and Reporting, Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Visibility to Firewall inventory, Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Archive firewall rule audit, rule requests, and audit tasks

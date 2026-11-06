@@ -1,18 +1,18 @@
 ---
 title: Overview of data visualization types
-description: When you create a data visualization, you select the type of chart to display. Each visualization type is suited to show different data.
+description: When you create a data visualization, you select the type of visualization to display. Each visualization type is suited to show different data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/data-visualization-type-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Overview of data visualization types
 
-When you create a data visualization, you select the type of chart to display. Each visualization type is suited to show different data.
+When you create a data visualization, you select the type of visualization to display. Each visualization type is suited to show different data.
 
 ## Score visualizations
 
@@ -32,7 +32,7 @@ Description
 
 </td><td>
 
-Single-score visualizations display a single aggregate value that is important to your business.[Single score visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-single-score.md)
+Single-score visualizations display a single aggregate value that is important to your business.[Single score data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-single-score.md)
 
 </td></tr><tr><td>
 
@@ -53,7 +53,7 @@ Like dials, gauges show where a single value lies across a range from minimum to
 </td></tr></tbody>
 </table>## Time series visualizations
 
-Time Series visualizations show data over time. All time series visualization types share configuration options. They differ in use case, depending on whether you want to emphasize data trends or the differences between individual data points. For more information about these use cases, see [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
+Time Series visualizations show data over time. All time series visualization types share configuration options. They differ in use case, depending on whether you want to emphasize data trends or the differences between individual data points. For more information about these use cases, see [Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
 
 **Note:** In addition to data from within your instances and imported data sources, you can also use MetricBase data in time series visualizations. For more information, see [MetricBase application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/metricbase.md).
 
@@ -83,7 +83,7 @@ Spline\[Omitted image "inline-data-vis-spline.png"\] Alt text: spline visualizat
 
 </td><td>
 
-Shows how one or more values change over time by connecting a series of data points with a fitted curve. The curve emphasizes the trend over individual data points. Spline charts let you take a limited set of known data points and approximate intervening values.
+Shows how one or more values change over time by connecting a series of data points with a fitted curve. The curve emphasizes the trend over individual data points. Spline visualizations let you take a limited set of known data points and approximate intervening values.
 
 </td></tr><tr><td>
 
@@ -147,7 +147,7 @@ Description
 Bar visualizations show categories labeled on one axis and values on the other. Use vertical bars to compare ordinal data, especially when there aren’t too many categories, such as sales numbers grouped into buckets. Use horizontal bar charts with nominal data, such as incident severity or assignment group.-   [Horizontal bar visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-h-bar.md)
 -   [Vertical bar visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-v-bar.md)
 
-Pareto bar visualizations help you identify the most important dimension in a large set of dimensions. Columns show data in descending order. A line shows cumulative percentage. Pareto charts contain both bar and line graphs. The bars display the data in descending order from left to right, and the line graph shows the cumulative totals from each category in the same order. The left Y axis is the record count, and the right Y axis is the cumulative percentage of the total number of records evaluated.
+Pareto bar visualizations help you identify the most important dimension in a large set of dimensions. Columns show data in descending order. A line shows cumulative percentage. Pareto visualizations contain both bar and line graphs. The bars display the data in descending order from left to right, and the line graph shows the cumulative totals from each category in the same order. The left Y axis is the record count, and the right Y axis is the cumulative percentage of the total number of records evaluated.
 
 </td></tr><tr><td>
 
@@ -160,7 +160,7 @@ Pareto bar visualizations help you identify the most important dimension in a la
 </td></tr></tbody>
 </table>## Pie and Donut visualizations
 
-Pie and donut visualizations show the relationship between parts and the whole of a data set. The segments of these charts should total to 100%. For more information, see [Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md).
+Pie and donut visualizations show the relationship between parts and the whole of a data set. The segments of these visualizations should total to 100%. For more information, see [Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md).
 
 <table id="table_vks_frf_s5b"><thead><tr><th>
 
@@ -176,11 +176,11 @@ Description
 
 </td><td rowspan="3">
 
-Pie charts are best when comparing 5–7 segments that total 100%, when no two segments have a value within 10% of each other.
+Pie visualizations are best when comparing 5–7 segments that total 100%, when no two segments have a value within 10% of each other.
 
- Donut charts are best for comparing no more than five segments that total 100%, when no two segments have a value within 10% of each other. The center of the donut can be used to show additional information.
+ Donut visualizations are best for comparing no more than five segments that total 100%, when no two segments have a value within 10% of each other. The center of the donut can be used to show additional information.
 
- Semi-donut charts are best for comparing no more than four segments that total 100%, when no two segments have a value within 10% of each other.
+ Semi-donut visualizations are best for comparing no more than four segments that total 100%, when no two segments have a value within 10% of each other.
 
  -   [Pie visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-pie.md)
 -   [Donut visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-donut.md)
@@ -228,7 +228,7 @@ Heatmaps show the relationship between two table fields or indicator breakdowns.
 
 </td><td>
 
-Bubble charts are circles of different sizes along an x-y axis. The x and y axes represent different numeric fields, such as values or amounts. Use the relative size and position of the circles to compare fields and see their relationships. You can also group the data by a third field, which can be qualitative. The third field is differentiated by color. Use bubble charts to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.[Bubble visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-bubble.md)
+Bubble charts are circles of different sizes along an x-y axis. The x and y axes represent different numeric fields, such as values or amounts. Use the relative size and position of the circles to compare fields and see their relationships. You can also group the data by a third field, which can be qualitative. The third field is differentiated by color. Use bubble charts to answer binary questions, such as whether two fields have a relationship, and to highlight patterns.[Bubble data visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-bubble.md)
 
 </td></tr></tbody>
 </table>## Other visualizations
@@ -261,11 +261,11 @@ The Indicator scorecard component enables you to visualize and compare data betw
 
 </td></tr><tr><td>
 
-[Simple list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-simple-list-ac.md) \[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - med
+[List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-analytics-list.md)\[Omitted image "inline-data-vis-list.png"\] Alt text: Data visualization list type - med
 
 </td><td>
 
-Shows a list of table records. Has a reduced set of features compared to a List component, allowing the simple list to fit in small spaces.[Simple list visualization example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-example-s-list.md)
+Shows a list of table records.
 
 </td></tr><tr><td>
 

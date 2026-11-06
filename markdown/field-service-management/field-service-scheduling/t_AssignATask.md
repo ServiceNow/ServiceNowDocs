@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign a work order task
@@ -33,6 +33,8 @@ Role required: wm\_dispatcher, wm\_initiator\_qualifier\_dispatcher
 5.  Right-click an unassigned task in the map.
 
 6.  Select **Assign**.
+
+    \[Omitted image "assign-task.png"\] Alt text: assign task pop up
 
 7.  In the **Assigned to** field, select the agent available to work on the task.
 

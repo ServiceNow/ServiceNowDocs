@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring log levels for detailed optimization analysis, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set log levels, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # View Schedule Optimization logs
@@ -18,7 +18,7 @@ View the Schedule Optimization logs to gather insights from each optimization at
 
 ## Before you begin
 
-Role required: admin
+Role required: wm\_admin
 
 [Set the Schedule optimization logging level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/set-the-schedule-optimization-log-level.md).
 
@@ -45,7 +45,7 @@ Role required: admin
 
 ### About this task
 
-You can view system messages for both batch and intraday runs.
+You can view system messages for both batch runs and intraday runs, including the on-demand and prioritized modes of intraday.
 
 ### Procedure
 
@@ -57,6 +57,6 @@ You can view system messages for both batch and intraday runs.
 
 3.  In the **Related Links** select **Show log entries**.
 
-    A batch run must be scheduled to generate log messages.
+    The scheduled job generates logs after the batch runs.
 
 

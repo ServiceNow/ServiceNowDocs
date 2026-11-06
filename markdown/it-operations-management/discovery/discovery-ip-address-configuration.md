@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2026-07-25"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
@@ -75,10 +75,18 @@ You can also scan an entire IP network. [An IP network](https://raw.githubuserco
  This built-in control makes IP networks the best method of defining which IP address ranges to query.
 
 </td></tr></tbody>
-</table>**Related topics**  
+</table>After you define your IP collections, use Discovery generic attributes to automatically set field values on CIs discovered within a schedule, range set, or IP address range. For example, assign different locations to CIs based on the IP range they were discovered in. For more information, see [Define CI field attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/define-ci-attributes.md).
+
+For more information about viewing and managing your IP collections, see [Discovery Admin Workspace IP inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-ip-inventory.md).
+
+**Related topics**  
 
 
 [IP address selection properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r_CIIPAddressSelection.md)
+
+[Add IP data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-add-ip-data.md)
+
+[Add IP data to a range set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/daw-add-ip-range-set.md)
 
 [Create a Quick IP range for a Discovery schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateAQuickRange.md)
 

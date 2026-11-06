@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -44,6 +44,16 @@ The Excel columns must be within the specified length to create a move project.
 Review the conflicts and decide whether you want to resolve or ignore them.
 -   **[Workplace Central troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/workplace-central-troubleshooting.md)**  
 Troubleshoot issues that you face in the Workplace Central application.
+-   **[Workplace Task form - Space Assignment task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/workplace-task-space-assignment.md)**  
+The Workplace Task form specifies details to assign a space to a neighborhood.
+-   **[Neighborhood User Assignment Rule form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/user-assignment-rule-form.md)**  
+The Neighborhood User Assignment Rule form specifies conditions based on which users or their profiles must be assigned to the neighborhood.
+-   **[User Workplace Profile form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/user-workplace-profile-form.md)**  
+The User Workplace Profile form specifies details about an employee like their name, primary location, and allocation.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+
 
 **Parent Topic:**[Workplace Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/workplace-central-feat.md)
 

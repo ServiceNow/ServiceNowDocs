@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring billing accounts, Billing accounts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Install billing account
@@ -36,5 +36,7 @@ The billing account core application has a modular plugin structure:
     For more information, see [Billing Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/billing-account-form.md).
 
 4.  Select **Submit** to create billing account record.
+
+    You can create a billing account directly from an account or consumer record by using the **Billing Accounts** related list. When you create a billing account this way, the source **Account** or **Customer** and the **Billing account type** are set automatically.
 
 

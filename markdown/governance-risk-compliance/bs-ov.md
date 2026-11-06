@@ -1,18 +1,18 @@
 ---
 title: Business services overview tab
-description: The Business services overview tab in the Operational Resilience Workspace provides a comprehensive summary of active business services, highlighting any red flags or urgent issues, status of resilience activities like assessments, scenario analysis, self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
+description: The Business services overview tab in the Operational Resilience Workspace provides a comprehensive summary of active business services. It highlights red flags, urgent issues, and the status of resilience activities like assessments, scenario analysis, and self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bs-ov.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Monitor, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Business services overview tab
 
-The **Business services overview** tab in the Operational Resilience Workspace provides a comprehensive summary of active business services, highlighting any red flags or urgent issues, status of resilience activities like assessments, scenario analysis, self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
+The **Business services overview** tab in the Operational Resilience Workspace provides a comprehensive summary of active business services. It highlights red flags, urgent issues, and the status of resilience activities like assessments, scenario analysis, and self-attestations. It also offers suggestions for mitigating top risks or vulnerabilities and strengthening top controls.
 
 ## Business services overview section on the landing page
 
@@ -33,7 +33,7 @@ The Business services report on the **Business services overview** tab provides 
 
 ## Report on the red flags
 
-The Red flags report on the **Business services overview** tab shows the total number of red flags that require immediate attention for the associated assets, controls, issues, and risks related to the selected business service. It breaks down details of the red flags based on the integrations with the Operational Resilience application. For example, if you have installed the Policy and Compliance Management application, business services data for the failed controls is pulled from that application and displayed in this report.
+The Red flags report on the **Business services overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected business service. The report breaks down details of the red flags based on the integrations with the Operational Resilience application. For example, if you have installed the Policy and Compliance Management application, business services data for the failed controls is pulled from that application and displayed in this report.
 
 A sample Red flags report for the business services is shown in the example.
 

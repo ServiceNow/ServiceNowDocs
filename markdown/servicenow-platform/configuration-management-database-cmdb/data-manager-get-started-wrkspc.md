@@ -1,20 +1,20 @@
 ---
-title: Get started with CMDB Data Manager in CMDB Workspace
-description: The Data Manager overview page provides a dashboard view of Data Manager tasks, and lets you get started in using the CMDB Data Manager.
+title: Get started with CMDB Data Manager
+description: The Data Manager overview page in CMDB Workspace provides a dashboard view of Data Manager tasks, and lets you get started in using the CMDB Data Manager.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-get-started-wrkspc.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer Data Manager in CMDB Workspace, CMDB Data Manager experience in CMDB Workspace, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Get started with CMDB Data Manager in CMDB Workspace
+# Get started with CMDB Data Manager
 
-The Data Manager overview page provides a dashboard view of Data Manager tasks, and lets you get started in using the CMDB Data Manager.
+The Data Manager overview page in CMDB Workspace provides a dashboard view of Data Manager tasks, and lets you get started in using the CMDB Data Manager.
 
 ## Before you begin
 
@@ -22,11 +22,9 @@ Role required: sn\_cmdb\_admin
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
-2.  Select the **Data Manager** link in Management tools, in the Manage section.
-
-3.  Select **Data Manager overview** in the left navigation bar.
+2.  Select **Data Manager overview** in the navigation bar.
 
     The Data Manager overview page provides the following cards:
 
@@ -68,9 +66,9 @@ Role required: sn\_cmdb\_admin
 
 ## What to do next
 
--   [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+-   [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 -   [Manage retirement definitions for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-manage-ret-def-wrkspc.md).
--   [Manage exclusion lists for CMDB Data Manager in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.md).
--   [View CMDB Data Manager analytics in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-view-analytics-wrkspc.md).
+-   [Manage exclusion lists for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.md).
+-   [View CMDB Data Manager analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-view-analytics-wrkspc.md).
 -   View properties and other settings for CMDB Data Manager by selecting **Settings** in the left navigation pane. For details about the system properties associated with those settings, see [Components related to CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/components-cmdb-data-manager.md).
 

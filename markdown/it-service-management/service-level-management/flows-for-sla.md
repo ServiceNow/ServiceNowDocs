@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2026-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Workflow Editor, Workflow, Flow]
 breadcrumb: [Service Level Management reference, Service Level Management, IT Service Management]

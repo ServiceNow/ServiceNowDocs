@@ -7,9 +7,9 @@ release: yokohama
 product: Product Feedback
 classification: product-feedback
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Feedback, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Use, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Associate a product idea with a goal
@@ -34,7 +34,7 @@ Role required: pf\_user or apw\_user or goal\_user
 
 6.  From the Goal list, select a goal.
 
-    For more information on goals, see [Associate a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
+    For more information on goals, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
 
 7.  If you want to set a goal as primary goal, then select the **Primary goal** check box.
 

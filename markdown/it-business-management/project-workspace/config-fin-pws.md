@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Configure financials for Project Workspace
@@ -78,7 +78,7 @@ Enable and associate a widget to view financial summary of your projects at high
 -   **[Customize the left pane view for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/customize-fin-left-pane-prj-wrkspc.md)**  
 Customize the left pane for financials to view custom field information.
 -   **[Customise cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/customise-cost-plan-form-fin-prj-wrkspc.md)**  
-Manage the fields required on the new cost plan form as per your organization needs.
+Manage the fields required on the new cost plan form according to your organization needs.
 -   **[Change the default expense type for your projects](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/config-fin-expense-type-pws.md)**  
 Configure the default expense type to create or edit cost plans for your projects.
 -   **[Create a custom prefix for baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/config-fin-baseline-prefix-pws.md)**  

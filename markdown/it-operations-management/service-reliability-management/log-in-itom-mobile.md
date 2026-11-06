@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: task
-last_updated: "2025-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Log in to ITOM Mobile Agent
@@ -30,7 +30,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 2.  Enter the address of your instance manually or with a QR code.
 
-<table id="choicetable_o5x_tby_q2c"><tbody><tr><td id="d627501e120">
+<table id="choicetable_o5x_tby_q2c"><tbody><tr><td id="d402231e120">
 
 **Manual entry**
 
@@ -38,7 +38,7 @@ Role required: srm\_manager, srm\_responder, or srm\_admin
 
 Replace `example.service-now.com` with the address of your instance. You don't need to include `service-now.com`. For example, enter `nebula-dev` for `nebula-dev.service-now.com`.
 
-</td></tr><tr><td id="d627501e149">
+</td></tr><tr><td id="d402231e149">
 
 **QR code**
 

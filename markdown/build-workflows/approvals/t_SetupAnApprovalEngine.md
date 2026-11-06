@@ -7,7 +7,7 @@ release: yokohama
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Approval engines, Classic approvals, Build workflows]
 ---
@@ -16,11 +16,11 @@ breadcrumb: [Approval engines, Classic approvals, Build workflows]
 
 To manage the approvals for each of the Task tables in the system, set up an approval engine.
 
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
+
 ## Before you begin
 
 Role required: none
-
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure shipment tracking, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Connect your ServiceNow instance with a shipping carrier application
@@ -51,26 +51,5 @@ A shipping carrier can be associated with only one active integration profile.
 
 The shipping carrier is associated with the profile and the carrier details are shown in the **Shipping Carriers** tab.
 
-**Parent Topic:**[Track shipments using the integration framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/tracking-shipments-using-integration-framework.md)
-
-**Related topics**  
-
-
-[Creating an integration script include for third-party carrier applications]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
-[View the carrier integration profile details]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
-
-[View hardware asset shipment details]()
-
-[Stale shipments]()
-
-[Track a hardware asset shipment]()
+**Parent Topic:**[Integration framework configuration for shipment tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configure-int-frame-shipment.md)
 

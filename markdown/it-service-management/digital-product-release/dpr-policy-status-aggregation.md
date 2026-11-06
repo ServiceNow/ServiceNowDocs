@@ -1,5 +1,5 @@
 ---
-title: Policy status aggregation
+title: Policy status aggregation in a multi-product release
 description: In a multi-product release, the policy run status of releases for all primary and included products are rolled up to the policy status of the main release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-policy-status-aggregation.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2025-04-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Digital Product Release reference, Digital Product Release, IT Service Management]
+breadcrumb: [Reference, Digital Product Release, IT Service Management]
 ---
 
-# Policy status aggregation
+# Policy status aggregation in a multi-product release
 
 In a multi-product release, the policy run status of releases for all primary and included products are rolled up to the policy status of the main release.
 
@@ -20,10 +20,15 @@ In a multi-product release, the policy run status of releases for all primary an
 
 Consider a release with a primary product or service and three related products. Each phase has policies mapped to it. You can run policies on the current phase from the main release or from an included product release.
 
+**Note:** Removing a policy from an in-progress phase triggers automatic re-evaluation of the remaining policies. The aggregated policy status for the phase is recalculated based on the remaining policies.
+
+When a product is added to a multi-product release after the release starts, the policy status of its phase is included in the aggregated status using the same precedence order. The release automatically advances to the next phase once all products, including newly added ones, are compliant.
+
 The following table shows how the aggregated status is calculated from the status of each release.
 
-|Status for primary product or service|Status for Included product 1|Status for Included product 2|Status for Included product 3|Aggregated status|
-|-------------------------------------|-----------------------------|-----------------------------|-----------------------------|-----------------|
+|Status for primary product or service|Status for Included product 1|Status for Included product 2|Status for Included product 3|Aggregated status on the main release|
+|-------------------------------------|-----------------------------|-----------------------------|-----------------------------|-------------------------------------|
+|In progress|Compliant|Compliant|Compliant|**In progress**|
 |Not run|Not run|Not run|Not run|**Not run**|
 |Not run|Non-compliant|Non-compliant|Non-compliant|**Not run**|
 |Not run|Compliant|Compliant|Compliant|**Not run**|

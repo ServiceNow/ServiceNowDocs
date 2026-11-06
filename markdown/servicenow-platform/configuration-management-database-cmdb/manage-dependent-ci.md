@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 15
-breadcrumb: [CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Dependent CIs management
@@ -36,10 +36,15 @@ Examples of dependent CIs needing cascade-cleanup:
 To enable dependent CIs management:
 
 -   Configure your environment for CMDB Data Manager. For details about how to configure the environment for CMDB Data Manager and the CMDB Data Manager own prerequisites, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
--   Ensure that the **cmdb.dependent.ci.cascade.op.enabled** system property is set to **true** \(true by default\). This property enables cascade operations and doesn't exist in the base system. Therefore, to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
--   To enable cascade-retirement processes, ensure that the system property **cmdb.dependent.ci.cascade.retire.enabled**, which is used to manage cascade-retirement of CIs, is set to true \(false by default\). The business rule **After BR: Track “Retired” CIs**, that checks for downstream CI dependencies, runs only if this property is set to true. This property doesn't exist in the base system and to view or modify it, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   Ensure that the **cmdb.dependent.ci.cascade.op.enabled** system property is set to **true** \(true by default\). This property enables task creation and cascade operations. This property doesn't exist in the base system. Therefore, to view or modify the property value, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
+-   To enable cascade-retirement processes, ensure that the system property **cmdb.dependent.ci.cascade.retire.enabled**, which is used to manage cascade-retirement of CIs, is set to true \(false by default\). The business rule **Cascade retire for custom definitions**, that checks for downstream CI dependencies, runs only if this property is set to true. This property doesn't exist in the base system and to view or modify it, you must first [add it to the System Properties \[sys\_properties\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) table.
 
 Cascade-cleanup operations apply only from when you enable the dependent CIs management feature. To apply cascade-cleanup to orphan dependent CIs that already existed in the CMDB before enabling the feature, see [Cascade-cleanup existing orphan dependent CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
+
+To turn off the dependent CIs management feature:
+
+-   Fully: Set both properties, **cmdb.dependent.ci.cascade.retire.enabled** and **cmdb.dependent.ci.cascade.op.enabled**, to **false**.
+-   Only stop the task creation: Set the **cmdb.dependent.ci.cascade.op.enabled** property to **false**.
 
 ## Use of CMDB Data Manager to perform cascade-cleanup operations
 
@@ -57,7 +62,7 @@ To automatically approve those tasks, use the CMDB Data Manager to clear the **N
 When a CI is set to retire, dependent CIs management data processes attempt to cascade-update all the CIs depending on that CI, also to retire.
 
 1.  CI is updated to retire as the CI’s **Life Cycle Stage** attribute is set to **End of Life** according to CSDM standards.
-2.  Business rule **After BR: Track “Retired” CIs** runs \(only if the system property **cmdb.dependent.ci.cascade.retire.enabled** is **true**\) to check if the CI belongs to a class which has any downstream dependencies.
+2.  Business rule **Cascade retire for custom definitions** runs \(only if the system property **cmdb.dependent.ci.cascade.retire.enabled** is **true**\) to check if the CI belongs to a class which has any downstream dependencies.
 
     If yes: The CI is added to the CMDB CI End Of Life Ledger \[cmdb\_ci\_end\_of\_life\_ledger\] table.
 
@@ -122,9 +127,9 @@ About the property:
 
 -   Type: Integer
 -   Default value:
-    -   2: For the CMDB Dependent CI Ledger table processing
-    -   1: For the CMDB CI End Of Life Ledger table processing
--   Other values: The general guideline for most environments is to set the property to 1-3 days. For high-volume environments where quick recovery is critical, set to a shorter duration \(such as 1 day\), and for environments with long-running CI processing jobs, set to a longer duration \(such as 3-5 days\).
+    -   For the CMDB Dependent CI Ledger table processing: 2
+    -   For the CMDB CI End Of Life Ledger table processing: 1
+-   Other values: The general guideline for most environments is to set the property to 1-3 days. For high-volume environments where quick recovery is critical, set to a shorter duration such as 1 day, and for environments with long-running CI processing jobs, set to a longer duration such as 3-5 days.
 
     **Note:** If **cmdb.dependent.ci.stale.record.cleanup.duration** is set to zero or a negative value, the system uses the default value \(2 days\). Setting too low may reset legitimately long-running processes, and setting too high may delay recovery of genuinely stuck records.
 
@@ -175,15 +180,13 @@ For monitoring purposes, check the system logs for cleanup activity. Log message
 
 [Related Lists of CI components]()
 
+[Principal Class]()
+
 [Create a CI class]()
+
+[View and edit class definitions and metadata]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[View and edit class definitions and metadata]()
-
-[Principal Class]()
-
-[Update the list of classes in the Principal Class filter]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Privacy
 classification: legal-simple-privacy
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Privacy assessment requests, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Legal Simple Privacy, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Update a privacy assessment request
@@ -24,39 +24,37 @@ Role required: sn\_lg\_ops.legal\_user
 
 1.  Navigate to **All** &gt; **Employee Center**.
 
-    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal portal and selecting **My Requests** from the header.
+    **Note:** If you’re using Legal Service Portal, open a request by navigating to the Legal Service Portal and selecting **My Requests** &gt; **View all requests** from the header.
 
-2.  Select **Legal services** from the header.
+2.  Select **My Requests** from the header.
 
-3.  Select **My Requests** from the header.
+3.  Open your submitted privacy assessment request.
 
-4.  Open your submitted privacy assessment request.
+4.  On the standard ticket page, review and edit the request details.
 
-5.  On the standard ticket page, review and edit the request details.
+5.  From the Actions menu, select **Edit Request**.
 
-6.  From the Actions menu, select **Edit Request**.
+6.  In the Variables form, modify the request details.
 
-7.  In the Variables form, modify the request details.
+7.  Select **Save**.
 
-8.  Select **Save**.
-
-9.  Select **Back** to return to the standard ticket page.
+8.  Select **Back** to return to the standard ticket page.
 
     The request is updated with the new information. The changes appear as comments in the Additional Comments section of the request.
 
-10. In the **Activity** tab, provide comments or more information about your request for the request fulfiller.
+9.  In the **Activity** tab, provide comments or more information about your request for the request fulfiller.
 
-11. Manage documents supporting your request.
+10. Manage documents supporting your request.
 
-<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d215633e157">
+<table id="choicetable_dtv_1j4_gtb"><thead><tr><th align="left" id="d233680e154">
 
 Option
 
-</th><th align="left" id="d215633e160">
+</th><th align="left" id="d233680e157">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d215633e166">
+</th></tr></thead><tbody><tr><td id="d233680e163">
 
 **If the Attachments tab is visible**
 
@@ -67,7 +65,7 @@ Steps
 -   To remove an attached file, select the delete icon \(\[Omitted image "delete-icon.png"\] Alt text: Delete icon.\).
 
 
-</td></tr><tr><td id="d215633e205">
+</td></tr><tr><td id="d233680e202">
 
 **If the Documents tab is visible**
 
@@ -81,7 +79,7 @@ A link to the document is listed in the **External URL** column of the documents
 
 
 </td></tr></tbody>
-</table>12. In the **Approvals** tab, view the approval details associated with the request.
+</table>11. In the **Approvals** tab, view the approval details associated with the request.
 
     **Note:** The **Approvals** tab appears only when the privacy assessment request or an attachment has approval records.
 

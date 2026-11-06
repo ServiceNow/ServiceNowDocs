@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-notification-contact-group.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup steps for emergency notification, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -78,6 +78,4 @@ Auto-populates the date on which the group was last synchronized with Everbridge
 There are five members in a group, out of which four members are already synced with Everbridge and existing as contacts. When you synchronize the group, a group is created in Everbridge with the four synced group members. However, the unsynchronized single member is logged as an exception displaying a message as to why the syncing failed.
 
 You can synchronize this particular contact first and then the group with Everbridge.
-
-**Parent Topic:**[Setup steps for emergency notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setting-up-everbridge-emergency-notification.md)
 

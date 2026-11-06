@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/domain-separation-help.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Domain separation for service providers, Access Management]
 ---
@@ -59,7 +59,7 @@ Classes
 
 </td><td>
 
-[Safe Workplace suite and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/domain-separation-safe-workplace.md)
+Safe Workplace suite and domain separation
 
  ServiceNow Safe Workplace applications help you reopen your workplaces and support the health and safety of your employees after emergencies and pandemics such as COVID-19. The suite has many applications to help your organization mobilize, recover, and rebuild.
 

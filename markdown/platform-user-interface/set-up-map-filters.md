@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-up-map-filters.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Create an advanced Map Page, Map pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -407,12 +407,10 @@ Role required: admin
 
 2.  Select your Map Page.
 
-3.  Click **Try It**.
+3.  Select **Try It**.
 
-4.  In your Map Page, click **Filter**.
+4.  In your Map Page, select **Filter**.
 
-    Your map filter appears.
-
-    \[Omitted image "ExampleMapFilter.png"\] Alt text: Map filter
+    Your map filter displays.
 
 

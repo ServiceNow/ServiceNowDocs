@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 keywords: [now, assist, global, navigation, skills, LLM, Generative AI, Gen AI]
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
 # Navigation
@@ -44,6 +44,4 @@ The number of results is based on how many potential results Now Assist finds in
 If Now Assist does not understand your request, you receive an error message asking you to rephrase your request. You can also choose to navigate to a "best guess" based on your previous request.
 
 \[Omitted image "na-global-nav-6.png"\] Alt text: If Now Assist receives an unclear request, you are prompted to rephrase your request.
-
-**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
 

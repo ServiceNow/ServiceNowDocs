@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Install ServiceNow Otto for Health and Safety
@@ -22,13 +22,9 @@ Role required: admin
 
 ## About this task
 
-Use the AI Admin Hub console to install and configure ServiceNow Otto for Health and Safety. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub to install and configure ServiceNow Otto for Health and Safety. This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-The following table lists the skill that you can access from the AI Admin Hub console.
-
-|Health and Safety feature|Skill|
-|-------------------------|-----|
-|Now Assist skills for Health and Safety|Health and Safety incident summarization|
+For more information on AI assets available with ServiceNow Otto for Health and Safety, see [ServiceNow Otto Health and Safety skills, AI agents, and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-na-skills-activation-status.md).
 
 ## Procedure
 
@@ -40,6 +36,8 @@ The following table lists the skill that you can access from the AI Admin Hub co
 ## What to do next
 
 Activate the skill to enable the safety team to use the generative AI skills. For more information, see [Activate a ServiceNow Otto for Health and Safety skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-activate-skill.md).
+
+Install AI agents to enable the agentic AI experience. For more information, see [Install AI agents for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-install.md).
 
 **Parent Topic:**[Configuring ServiceNow Otto for Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-hs-configuring.md)
 

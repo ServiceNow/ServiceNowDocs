@@ -7,16 +7,18 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Responsive dashboard properties
 
 Use properties to fine-tune dashboard behavior and appearance.
 
-Navigate to **System Properties** &gt; **Dashboard Properties** to configure the main responsive dashboard properties.
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
+
+Navigate to **System Properties** &gt; **Dashboard Properties** to configure the main responsive dashboard properties. In the Filter navigator, enter `sys_properties.list` to configure other reporting properties.
 
 ## Responsive Dashboard properties
 
@@ -30,17 +32,29 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Enable the unified analytics workspace experience, which shows all responsive dashboards and Next Experience dashboards in the same overview in the Analytics Center.
+Enables unified navigation under Platform Analytics and Platform Analytics Administration menu sections and common library pages for both Core UI and Next Experience analytics artifacts. Upon upgrade to Australia, this property is set to true by default.
 
 com.glide.par.unified\_analytics.enabled
 
 </td><td>
 
 -   Type: true \| false
--   Default value: false
--   Location: **System Properties** &gt; **Dashboard Properties**
+-   Default value: true
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
- When enabled, users see both Platform Analytics and core UI \(responsive\) dashboards in the Analytics Center. Users can still drill down to KPI details from responsive dashboard indicator visualizations.
+ When enabled, users see both Platform Analytics and Core UI \(responsive\) dashboards in the library. Users can still drill down to KPI details from responsive dashboard indicator visualizations.
+
+</td></tr><tr><td>
+
+Enable fulfiller creation of Core UI dashboardscom.snc.par.coreui.dashboard\_create.enabled
+
+</td><td>
+
+Allows any internal user to create Core UI dashboards on an upgraded instance. The instance must not have been net new on Xanadu or later, or Core UI dashboards are not supported and this property has no effect.When the `true` value of this property is in effect, you can create Core UI dashboards through the **Create new** button in the Dashboards library.
+
+-   Type: true \| false
+-   Default value: true
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
 </td></tr><tr><td>
 
@@ -125,7 +139,7 @@ glide.cms.dashboards.sharing.search.maxRecords
 
 -   Type: integer
 -   Default value: 100
--   Location: sys\_properties.list
+-   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) to the System Property \[sys\_properties\] table.
 
  Setting the value too low can cause the expected results not to be found. The minimum value is 5. Setting the value too high can cause performance issues.
 

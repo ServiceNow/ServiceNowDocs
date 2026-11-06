@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_ServiceNowPlugins.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -18,7 +18,7 @@ Plugins are software components that provide features and functionalities within
 
 Plugins and applications are separate components on the ServiceNow AI Platform.
 
--   A plugin adds features to installed applications and extends functionality on the ServiceNow AI Platform. For additional details about plugins, see [KB0716626](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0716626).
+-   A plugin adds features to installed applications and extends functionality on the ServiceNow AI Platform. For additional details about plugins, see [Plugin frequently asked questions for ServiceNow instances \[KB0716626\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0716626).
 -   An application is a standalone piece of code that implements a collection of features on the ServiceNow AI Platform. You can install applications from the ServiceNow Store or create your own applications.
 
 ## Activating plugins
@@ -60,13 +60,13 @@ To activate a plugin on a PDI, use the All Applications page on your instance. I
 You can activate most plugins to expand features and functionalities in the ServiceNow AI Platform.
 -   **[Request a plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_RequestAPlugin.md)**  
 If a plugin does not appear in the Application Manager, you cannot activate it yourself. Request activation of the plugin by ServiceNow personnel.
--   **[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-of-plugins.md)**  
-List of all plugins that you can activate if you have the admin role.
+-   **[Available plugins and applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/list-of-plugins.md)**  
+You can view all plugins available to you in the Application Manager if you have the admin role.
 
 **Parent Topic:**[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/p_CoreConfigurationOverview.md)
 
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)]()
+[List of plugins \(Brazil\)]()
 

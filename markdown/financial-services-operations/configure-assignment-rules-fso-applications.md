@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-assignment-rules-fso-applications.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Planning and configuring, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
 
 # Configure assignment rules
@@ -86,7 +86,7 @@ Review the assignment rules that are installed with the Financial Services Opera
 |Travel claim baggage adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 |Travel claim trip adjuster task|sn\_ins\_gen\_claim\_adj\_task|
 
-For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see [Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md).
+For advanced assignment rules, you can also use the ServiceNow Advanced Work Assignment \(AWA\) feature to automatically assign work items to agents, based on their availability, capacity, and optionally, skills. For more information, see Advanced Work Assignment.
 
 ## Procedure
 

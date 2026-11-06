@@ -1,5 +1,5 @@
 ---
-title: Viewing the status of a request using the dispute tracker
+title: View the status of a request using the dispute tracker
 description: Track the progress of card disputes case requests using the dispute tracker.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/view-the-status-of-a-request.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing dispute intake in portal, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Create a case with portal intake, Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Viewing the status of a request using the dispute tracker
+# View the status of a request using the dispute tracker
 
 Track the progress of card disputes case requests using the dispute tracker.
 
@@ -31,5 +31,5 @@ Role required: sn\_customerservice.consumer or sn\_customerservice.customer
 4.  Check the status of the disputed case, view the list of disputed transactions, and review the submitted documents in the dispute tracker.
 
 
-**Parent Topic:**[Managing dispute intake in portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)
+**Parent Topic:**[Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md)
 

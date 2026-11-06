@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/get-started-now-platform.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Administer the ServiceNow AI Platform]
 ---
@@ -48,13 +48,15 @@ Discover the capability of available applications and how to implement them to w
 Manage your ServiceNow subscriptions and how they’re used on your instances with Subscription Management. This app helps you allocate and monitor subscriptions, and display current subscriptions in your instance. Active management of user-based subscriptions and monitoring of capacity subscriptions lets you track usage and adjust allocation efficiently. Enabled by default, this management app means you can plan for subscription renewals with no added costs.
 
 -   **[How the ServiceNow AI Platform works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/how-now-platform-works.md)**  
-ServiceNow® offers a flexible, secure platform with a vast set of options, all following a single data model. Begin here to learn more about the platform.
+The ServiceNow AI Platform is the unified foundation for every ServiceNow product, bringing together AI, data, workflows, and security on a single data model.
 -   **[Basic system configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/p_CoreConfigurationOverview.md)**  
 Basic system configuration encompasses changes made to the platform as well as supporting applications. These changes can affect global settings as well as settings for particular applications.
 -   **[Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/admin-center/admin-center-intro.md)**  
 Admin Center provides a central hub for platform owners and admins to access platform capabilities, discover new applications, and get intelligent, actionable insights.
 -   **[Administering applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/administering-applications.md)**  
 You can install, update, and remove applications without leaving your instance.
+-   **[ServiceNow Otto for Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ia-landing.md)**  
+The ServiceNow Otto for Setup provides a unified, guided experience to set up, configure, and adopt ServiceNow products. It connects Admin Home, product hubs, and the Configuration Console into a single path from product activation to full configuration.
 -   **[Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/subscription-management-landing-page-v2.md)**  
 Subscription Management enables you to proactively manage your subscriptions and monitor subscription usage on your instances.
 -   **[Now Support administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/now-support-administration.md)**  

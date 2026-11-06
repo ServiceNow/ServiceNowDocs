@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-transfer-VI-to-RE.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use Remediation Effort records, Use, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -87,6 +87,4 @@ Role required:
 
     For more information on how the Remediation Tasks associated with the Remediation Efforts are impacted by records transfer, see [Transferring records or record carry over](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-manager-workspace/vr-ws-re-lifecycle.md).
 
-
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-ws-remed-eff-rcd.md)
 

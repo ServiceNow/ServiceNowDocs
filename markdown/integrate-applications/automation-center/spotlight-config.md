@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with ServiceNow Spotlight feature, Configuring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Spotlight feature, Configure, Automation Center, Workflow Data Fabric]
 ---
 
 # Configuration Settings for ServiceNow Spotlight
@@ -34,7 +34,7 @@ If ServiceNow Spotlight and Automation Center are installed, you get the followi
 
     If you need a different criteria than the default criteria to set your execution priority, then you can customize the criteria to meet your requirements and create a new Spotlight group. For more information, see [Create a Spotlight group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-spotlight-group.md)
 
-    For details about the default Spotlight criteria, see [Default ServiceNow Spotlight Criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/default-spotlight-criteria.md).
+    For details about the default Spotlight criteria, see [Default criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/default-spotlight-criteria.md).
 
 
 **Parent Topic:**[Working with ServiceNow Spotlight feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/spotlight-ac.md)

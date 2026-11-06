@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Alert management rules for resolving alerts, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an alert management rule
@@ -24,6 +24,8 @@ Role required: evt\_mgmt\_admin, flow\_designer
 
 ## About this task
 
+**Note:** Use [Respond automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/respond-alert-sow-itom.md) in Service Operations Workspace, the updated way to automate alert responses with an easier interface.
+
 Use alert management rules to track and resolve alerts.
 
 While working in the alert management rule designer, you can work in multiple sections without losing information in any section.
@@ -31,7 +33,9 @@ While working in the alert management rule designer, you can work in multiple se
 **Note:**
 
 -   Alert management rules that are not configured to perform any action are skipped and the rule is automatically set to inactive.
--   If an alert is bound to a CI by a user action \(such as an alert management rule\) and the CI is in the Maintenance state, you must manually bind the CI to the alert and mark it with the **In Maintenance** status.
+-   Mark the alert with the **In Maintenance** status when:
+    -   an alert is bound to a CI by a user action, such as an alert management rule
+    -   and the CI is in the Maintenance state
 
 Create alert management rules that:
 

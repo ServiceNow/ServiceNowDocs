@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event Management reference, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Reference, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Connector domain metadata
@@ -125,7 +125,7 @@ You can reference domain metadata from the request body \(JSON payload\) by sett
     \}
 
 
-**Note:** For information on connector parameters, see [Personalize domains for push connector events to use in event creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-push-connectors.md).
+**Note:** For information on connector parameters, see [Configure domain separation for push connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-push-connectors.md).
 
 **Parent Topic:**[Event Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-management-reference.md)
 

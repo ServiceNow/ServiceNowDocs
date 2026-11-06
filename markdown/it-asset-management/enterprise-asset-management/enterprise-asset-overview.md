@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Asset Workspace, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise asset overview for Enterprise Asset Workspace
@@ -23,7 +23,7 @@ Use the Enterprise asset overview dashboard to perform the following tasks:
 
 \[Omitted image "enterprise-overview.png"\] Alt text: Enterprise asset overview
 
-To access detailed information and take relevant action, select the relevant widget. You can also narrow down your results by using the **Location**, **Stockroom**, **Model category**, and **Classification** filters. For detailed information on the Classification filter, see [Classification codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/classification-codes.md).
+To access detailed information and take relevant action, select the relevant widget. You can also narrow down your results by using the **Location**, **Stockroom**, **Model category**, and **Classification** filters. For detailed information on the Classification filter, see [Model classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/classification-codes.md).
 
 |Widget|Description|
 |------|-----------|

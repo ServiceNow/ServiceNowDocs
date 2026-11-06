@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Request-based chat access for a guest user, Integration for Employee Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, MS Teams and Microsoft 365, Integrate, ServiceNow for Microsoft Teams and Microsoft 365, ServiceNow for Microsoft 365 Add-ins and Microsoft Teams, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Request-based chat access for a guest user, Integration for Employee Experience, Setup for integrating pre-published apps, Setup the Servicenow instance, Integrating ServiceNow with Microsoft Teams and Microsoft 365, ServiceNow for Microsoft Teams and Microsoft 365, EmployeeWorks, Employee Service Management]
 ---
 
 # Enable chat access for a guest user
@@ -20,7 +20,7 @@ Enable chat access for a guest user while configuring ServiceNow® for Microsoft
 
 In an upgrade scenario for a pre-published app, after the upgrade process, you must reauthorize the Request-based chat and SSO and Activity Notifications applications. Reauthorization permits your ServiceNow instance to make API calls to Microsoft Azure. As a result, ServiceNow for the Microsoft Teams application workflow is enabled and your consent for the new API permissions is ensured. For more information, see [Grant permissions to required Microsoft Azure apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/authorize-multi-tenant-apps-mt.md).
 
-Role required: admin
+Role required: External admin \(external\_app\_install\_admin\)
 
 ## About this task
 

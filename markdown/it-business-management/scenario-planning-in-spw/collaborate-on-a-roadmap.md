@@ -1,5 +1,5 @@
 ---
-title: Collaborate on a free-form roadmap in Strategic Planning Workspace
+title: Collaborate on a free-form roadmap with stakeholders
 description: Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/collaborate-on-a-roadmap.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a free-form roadmap in Strategic Planning Workspace, Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create a free-form roadmap, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Collaborate on a free-form roadmap in Strategic Planning Workspace
+# Collaborate on a free-form roadmap with stakeholders
 
 Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
 
@@ -32,15 +32,15 @@ Using the Comments side panel, add attachments or notes at the roadmap-level or 
 
 3.  Select the appropriate tab at the roadmap-level or planning item-level.
 
-<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d186131e87">
+<table id="choicetable_vbs_zrn_hvb"><thead><tr><th align="left" id="d235883e93">
 
 Choice
 
-</th><th align="left" id="d186131e90">
+</th><th align="left" id="d235883e96">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d186131e96">
+</th></tr></thead><tbody><tr><td id="d235883e102">
 
 **Roadmap-level**
 
@@ -48,7 +48,7 @@ Action
 
 From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-comments.png"\] Alt text: Comments icon.\)
 
-</td></tr><tr><td id="d186131e117">
+</td></tr><tr><td id="d235883e123">
 
 **Planning item-level**
 
@@ -61,15 +61,15 @@ From the roadmap header, select the **Comments** icon \(\[Omitted image "icon-co
 </td></tr></tbody>
 </table>4.  Add attachments or worknotes.
 
-<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d186131e145">
+<table id="choicetable_yrk_wkj_gvb"><thead><tr><th align="left" id="d235883e151">
 
 Choice
 
-</th><th align="left" id="d186131e148">
+</th><th align="left" id="d235883e154">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d186131e154">
+</th></tr></thead><tbody><tr><td id="d235883e160">
 
 **Attachments**
 
@@ -77,7 +77,7 @@ Action
 
 In the Attachments tab, select **Browse** and upload a file.
 
-</td></tr><tr><td id="d186131e169">
+</td></tr><tr><td id="d235883e175">
 
 **Comments**
 

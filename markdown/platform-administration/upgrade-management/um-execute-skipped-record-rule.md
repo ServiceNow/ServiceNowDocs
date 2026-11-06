@@ -7,16 +7,16 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Skipped Record Rules Editor tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Execute a skipped record rule
 
 Run skipped record rules based on your set conditions to resolve skipped records in an upgrade. The rules either execute automatically during an upgrade or can run on demand after an upgrade.
 
-**Parent Topic:**[Upgrade Skipped Record Rules Editor tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-skipped-rules-tool.md)
+**Parent Topic:**[Upgrade Skipped Record Rules Editor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-skipped-rules-tool.md)
 
 **Related topics**  
 
@@ -41,15 +41,15 @@ Role required: admin
 
 2.  Execute the rules on demand using either of the following ways.
 
-<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d312280e135">
+<table id="choicetable_rvp_hgn_sdb"><thead><tr><th align="left" id="d338327e135">
 
 Option
 
-</th><th align="left" id="d312280e138">
+</th><th align="left" id="d338327e138">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d312280e144">
+</th></tr></thead><tbody><tr><td id="d338327e144">
 
 **Using Run Now**
 
@@ -60,7 +60,7 @@ Steps
 
 **Note:** When you select **Run Now**, a progress bar shows up to display the progress of the rule execution.
 
-</td></tr><tr><td id="d312280e170">
+</td></tr><tr><td id="d338327e170">
 
 **Using View Latest Upgrade History tab**
 

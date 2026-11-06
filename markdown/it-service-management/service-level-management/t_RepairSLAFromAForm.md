@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Repair Service Level Agreement \(SLA\), Using Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -27,8 +27,6 @@ You can also repair multiple task SLA records from a list.
 ## Procedure
 
 1.  To repair all SLAs associated to a specific task, open that form and select the **Repair SLAs** related link.
-
-    \[Omitted image "repair-SLA-related-link.png"\] Alt text: Repair SLAs related link
 
 2.  Alternatively, to repair a specific SLA on a specific Incident record, open the Incident record, open the SLA record associated with that incident, then select the **Repair** button on that SLA form.
 

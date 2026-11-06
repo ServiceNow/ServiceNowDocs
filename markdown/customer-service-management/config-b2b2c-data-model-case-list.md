@@ -1,18 +1,18 @@
 ---
 title: Configure the Case list for B2B2C
-description: Enable account consumers to view the Account, Contact, and Consumer fields for the Customer Self Service view.
+description: Enable account consumers to view the Account, Contact, and Consumer fields for the customer self-service view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-b2b2c-data-model-case-list.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Customer Data Models for B2B2C, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure customer data models for B2B2C, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure the Case list for B2B2C
 
-Enable account consumers to view the **Account**, **Contact**, and **Consumer** fields for the Customer Self Service view.
+Enable account consumers to view the **Account**, **Contact**, and **Consumer** fields for the customer self-service view.
 
 ## Before you begin
 
@@ -22,12 +22,12 @@ Role required: admin
 
 1.  Navigate to **Customer Service** &gt; **Cases** &gt; **All**.
 
-2.  Select **View** &gt; **Customer Self Service** from the Additional Actions menu \[Omitted image "icon-menu.png"\] Alt text: Additional actions menu..
+2.  Select **View** &gt; **Customer Self Service** from the Additional Actions menu \[Omitted image "icon-menu.png"\] Alt text: additional action menu.
 
-3.  Click the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon.\).
+3.  Select the gear icon \(\[Omitted image "gear.png"\] Alt text: Gear icon.\).
 
 4.  Select the Account, Contact, and Consumer fields in the **Available** column and move them to the **Selected** column.
 
-5.  Click **OK**.
+5.  Select **OK**.
 
 

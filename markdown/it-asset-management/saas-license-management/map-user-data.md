@@ -7,10 +7,10 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
 keywords: [user resolution, map user data, user field empty, unresolved subscriptions]
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Associate a user with subscription records
@@ -45,6 +45,8 @@ SaaS integrations create subscription records in the Software Subscription \[sam
 ## Result
 
 If the user resolution rule is correctly configured and the Download subscription job **SAM - Refresh &lt;profile name&gt; Subscriptions** runs successfully, the unresolved subscription you targeted is cleared from the Subscriptions without user page in [License operations view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/operations-workspace.md).
+
+If you find multiple records with the same email address but different User IDs and associated user classes, enable the system property **sn\_itam\_samp.user\_resolution\_exclude\_table**. Provide a list of comma-separated table names that extend the User \[sys\_user\] table to exclude them from user resolution. After making these changes, rerun the Download Subscription job **SAM - Refresh &lt;profile name&gt; Subscriptions** to associate users with their subscription records.
 
 **Parent Topic:**[SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/sam-subscription-management.md)
 

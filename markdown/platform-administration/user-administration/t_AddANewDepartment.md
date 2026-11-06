@@ -7,9 +7,9 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating users, companies, and departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Add a department

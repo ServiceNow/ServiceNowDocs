@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Quick edit for published templates, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -20,6 +20,10 @@ Use Quick edit to make limited changes to a published template which has an asse
 
 -   To be able to use quick edit features, make sure that quick edit is enabled for the template’s category. For more information, refer to [Create an assessment template category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/sae-asmnt-template-category-create.md).
 -   Role required: sn\_smart\_asmt.template\_manager or sn\_smart\_asmt.assessment\_admin
+
+## About this task
+
+\[Omitted video\] Description: Modify a publish template using quick edit
 
 ## Procedure
 

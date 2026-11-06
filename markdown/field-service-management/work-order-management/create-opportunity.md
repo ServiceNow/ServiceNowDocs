@@ -1,20 +1,20 @@
 ---
 title: Create a sales opportunity
-description: Create sales opportunities for services, products, or assets identified during field service visits using the Now Mobile Agent application.
+description: Create sales opportunities for services, products, or assets identified during field service visits using the ServiceNow Agent application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/create-opportunity.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Create a sales opportunity
 
-Create sales opportunities for services, products, or assets identified during field service visits using the Now Mobile Agent application.
+Create sales opportunities for services, products, or assets identified during field service visits using the ServiceNow Agent application.
 
 ## Before you begin
 
@@ -23,24 +23,23 @@ Role required: wm\_technician\_sales\_write
 ## About this task
 
 -   Technician driven sales with the Field Service \(com.snc.fsm\_technician\_sales\) plugin and the Opportunity Management store application \(com.sn\_l2c\_oppty\_mgmt\) must be installed.
-
 -   With the `wm_technician_sales_write` role, you can create opportunities before starting a task or while the task is in progress.
 
 ## Procedure
 
-1.  Navigate to the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Create a sales opportunity.
 
-<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d81956e88">
+<table id="choicetable_z2w_ytf_ytb"><thead><tr><th align="left" id="d90629e105">
 
 From
 
-</th><th align="left" id="d81956e91">
+</th><th align="left" id="d90629e108">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d81956e97">
+</th></tr></thead><tbody><tr><td id="d90629e114">
 
 **My Work**
 
@@ -52,7 +51,7 @@ Do this
 4.  Tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d81956e136">
+</td></tr><tr><td id="d90629e153">
 
 **My Work**
 
@@ -63,7 +62,7 @@ Do this
 3.  In the **Related** tab, tap **Create opportunity**.
 
 
-</td></tr><tr><td id="d81956e169">
+</td></tr><tr><td id="d90629e186">
 
 **Sales**
 
@@ -113,6 +112,4 @@ Do this
 ## Result
 
 Tap the opportunity in the **Related** tab to view the details and **Activity** stream of the line items.
-
-**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

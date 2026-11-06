@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-dom-sep-prop-overrides.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -24,9 +24,7 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Domain Separated Properties**.
 
-2.  Click **New**.
-
-    \[Omitted image "NewDomainSepProperty.png"\] Alt text: Adding a new domain-separated property override
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -35,7 +33,7 @@ Role required: admin
     |Override existing|Select this check box to create a domain-specific value for an existing property.|
     |Application|Select the application that contains the property you want to override.|
     |Property|Select the property for the selected application for which you want to create a domain-specific override.|
-    |Domain|Select the domain for which you are creating this property override.|
+    |Domain|Select the domain for which you're creating this property override.|
     |Active|Turn the override on or off.|
     |Suffix|Displays the property suffix.|
     |Name|Displays the property name.|
@@ -43,7 +41,7 @@ Role required: admin
     |Value|Displays the current value set for the property.|
     |New value|Enter a new value for the property to be applied to this domain.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
     The property override is applied to the selected property in the specified domain. When the logic for this property is triggered, the system checks for domain-separated property overrides. If an override for the domain is found, the new value is used. Otherwise, the value for the default domain is used.
 

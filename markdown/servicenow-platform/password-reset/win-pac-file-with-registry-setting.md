@@ -7,16 +7,16 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a proxy server using PAC file \(automatic configuration script method\), Configure the Password Reset Windows Application to use a proxy server, Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure a proxy server using PAC file \(automatic configuration script method\), Configure the Password Reset Windows Application to use a proxy server, Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # PAC file with registry setting
 
 In this proxy configuration, the Proxy Auto-Configuration \(PAC\) file can be configured in Password Reset Windows Application registry settings.
 
-The name of the registry setting enables the proxy via PAC file is **UseProxyAutoConfigScript**. The PAC script location \(URL\) can be provided in the **ProxyServer** setting. The reference configuration is provided as shown in the following image:\[Omitted image "pac-registry-settings.png"\] Alt text: Reference configuration
+The name of the registry setting enables the proxy via PAC file is **UseProxyAutoConfigScript**. The PAC script location \(URL\) can be provided in the **ProxyServer** setting. The reference configuration is provided as shown in the following image:\[Omitted image "pac-registry-settings2.png"\] Alt text: PAC registry settings
 
 ## Registry setting to configure proxy via PAC
 

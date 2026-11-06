@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Explore, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Goals in Strategic Planning
@@ -73,16 +73,25 @@ The following target source types are supported for automating the actual value 
 Using the Goals view in the Strategic Planning Workspace, you can do the following activities:
 
 -   Create a goal for an entity such as company, business unit, department, and so on. For more information, see [Create a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-goal-egm.md).
--   Set targets and automate the actual value of the targets. For more information, see [Create targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
+-   Set targets and automate the actual value of the targets. For more information, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
 
     **Note:**
 
     -   Automating the actual value of the targets is optional. If you don't want to automate the actual value of your targets, you can still update the actual value of the targets manually.
     -   You can also generate targets for your goals using the Target generation skill, if the ServiceNow Otto for SPM application is installed.
--   Associate a planning item with goals. For more information, see [Associate a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
+-   Associate a planning item with goals. For more information, see [Align a planning item with goals or targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/associate-work-with-goals-egm.md).
 -   Associate or update the primary goal for a planning item. For more information, see [Associate or update the primary goal for a planning item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/associate-update-primary-goal-egm.md).
 
-For more information on how to define and manage your goals in Strategic Planning see [Managing goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+For more information on how to define and manage your goals in Strategic Planning see [Managing portfolio plan goals in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.md).
+
+-   **[Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-types-overview.md)**  
+Target types in Strategic Planning Workspace define how goal achievement is measured: growth, reduction, staying within limits, or a yes/no milestone.
+-   **[Automatic status calculation for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/automatic-status-calculation-targets-spw.md)**  
+Target status is calculated automatically from achievement percentages when you enter actual values, and it rolls up to goals using Green, Yellow, and Red thresholds.
+-   **[Status calculation specifications and examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-status-calculation-examples-spw.md)**  
+Formulas and worked examples show how target status is calculated for each target type and how status rolls up from breakdowns to goals.
+-   **[Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fiscal-calendar-support-targets.md)**  
+With fiscal calendar support, the check-in frequency of a target follows the fiscal periods of your organization instead of the Gregorian calendar.
 
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

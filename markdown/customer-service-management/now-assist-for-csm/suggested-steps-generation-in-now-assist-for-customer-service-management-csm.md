@@ -7,10 +7,10 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: task
-last_updated: "2025-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [generative AI, generative AI for Customer Service Management, generative AI for customer service agents]
-breadcrumb: [Use, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+breadcrumb: [Use generative AI, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Suggested steps generation in ServiceNow Otto for Customer Service Management \(CSM\)
@@ -19,27 +19,39 @@ Generate suggested steps automatically by analyzing clusters of closed cases wit
 
 ## Before you begin
 
-Role required: sn\_esm\_agent
+Role required: sn\_customerservice\_agent and sn\_customerservice.consumer\_agent
 
 ## About this task
 
-The system uses data from the Short description field and the filter conditions set in the case input table to generate the suggested actions based on similar past resolved cases. These steps outline the next best actions that agents can take as part of resolving cases.
+The system uses data from the **Short description** field and the filter conditions set in the case input table to generate the suggested actions based on similar past resolved cases. These steps outline the next best actions that agents can take as part of resolving cases.
 
-If suggested steps are enabled for an open case, you can generate and display these steps in a card at the top of the Recommended Actions tab in the contextual side panel.
+If suggested steps are available for a case, ServiceNow Otto for CSM generates them automatically. The steps display in a card at the top of the Recommended Actions tab in the contextual side panel.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace**.
+1.  Navigate to **Workspaces** &gt; **CRM Workspace**.
 
-2.  Using the List icon \[Omitted image "icon-list.png"\] Alt text: icon for seeing the list of cases, open a case that is not in **Closed** or **Complete** state.
+2.  Using the List icon \[Omitted image "List\_MenuIcon.png"\] Alt text: icon for seeing the list of cases, open a case that is not in **Closed** or **Complete** state.
 
-3.  Select the Recommendations icon in the contextual side panel to display the Recommended Actions tab.The system displays the **Suggested steps by Now Assist** card at the top of the tab.
+3.  Select the Recommendations icon in the contextual side panel to display the Recommended Actions tab.
 
-4.  In the **Suggested steps by Now Assist** card, select **Generate**.
+    The system displays the **Suggested steps by Now Assist** card at the top of the tab.
+
+4.  In the **Suggested steps by AI** card, select **Generate**.
 
     The steps to resolve the case appears in the **Recommendations** window in the case record. This action may take a few minutes.
 
-    \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by Now Assist to resolve the issue
+    \[Omitted image "suggested-steps.png"\] Alt text: Suggested steps by to resolve the issue
+
+    **Note:**
+
+    Suggested Steps show an AI gradient styling across:
+
+    -   The sidebar
+    -   The Suggested Steps component
+    -   The Sparkle icon
+    -   The Generate button
+    These visual updates help users clearly identify AI‑generated experiences, creating a more consistent and intuitive interface.
 
 
 **Parent Topic:**[Using ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/now-assist-for-csm/now-assist-csm-using.md)

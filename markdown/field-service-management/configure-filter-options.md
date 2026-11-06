@@ -1,18 +1,18 @@
 ---
 title: Configure resource filter options
-description: Administrators can configure more options for dispatchers to create advanced resource filters.
+description: Administrators can configure more options for dispatchers to create advanced resource filters with beyond the default options.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-filter-options.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring advanced resource filters for Dispatcher Workspace, Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring advanced resource filters for Dispatcher Workspace, Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure resource filter options
 
-Administrators can configure more options for dispatchers to create advanced resource filters.
+Administrators can configure more options for dispatchers to create advanced resource filters with beyond the default options.
 
 ## Before you begin
 
@@ -20,9 +20,17 @@ Role required: admin
 
 ## About this task
 
-By default, dispatchers can create advanced filters based off of username and user skill in the agent tab, or crew name and crew skill in the crew tab.
+By default, dispatchers can create advanced filters based off of:
 
-You can also extend any table related to users or crews and use the fields from those tables to create resource filters. You must enable the advanced resource filter system property before you can configure advanced resource filters. For more information, see [Configuring advanced resource filters for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configure-advanced-filter.md).
+-   Username or user skill in the **Agents** tab.
+-   Crew name or crew skill in the **Crews** tab.
+-   Equipment category or resource type in the **Equipment** tab.
+-   Contractor name in the **Contractor** tab.
+
+    **Note:** In the **Contractor** tab the field that you select to filter a contractor is labeled Assignment Group, even though you are filtering on contractors.
+
+
+You can also extend any table related to users or crews and use the fields from those tables to create resource filters. For more information, see [Configuring advanced resource filters for Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configure-advanced-filter.md).
 
 ## Procedure
 
@@ -30,6 +38,8 @@ You can also extend any table related to users or crews and use the fields from 
 
     -   Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace Configuration** &gt; **Agent Filter Configuration**.
     -   Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace Configuration** &gt; **Crew Filter Configuration**.
+    -   Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace Configuration** &gt; **Equipment Filter Configuration**.
+    -   Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace Configuration** &gt; **Contractor Filter Configuration**.
     -   If you extended a table, navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Dispatcher Workspace Configuration** and then select the table you extended.
 2.  Select one of the tables.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/client-access-example-8.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configuring client accessible secrets, Secrets Management, Platform Security]
 ---
@@ -18,7 +18,7 @@ Verify that your Windows Management Instrumentation \(WMI\) credential is encryp
 
 Role required: admin, KMF\_admin, sn\_secrets.secret\_manager, and sn\_kmf.cryptographic\_manager
 
--   Integration Hub Enterprise must be active on your instance. For details, see [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-integrationhub.md).
+-   Integration Hub Enterprise must be active on your instance. For details, see .
 -   You must have a configured secrets group on your instance. See steps 1 through 3 listed in [Configuring client accessible secrets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/client-access-secret-landing.md).
 -   You must have a configured credential encrypted with Secrets Management. See steps 1 through 9 listed in [Create credentials and test credential encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/client-access-example-4.md).
 

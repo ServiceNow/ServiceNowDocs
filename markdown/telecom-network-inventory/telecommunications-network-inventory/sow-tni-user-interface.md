@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Service Operations Workspace for Telecommunications Network Inventory, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Service Operations Workspace, Explore, Telecommunications Network Inventory]
 ---
 
 # Service Operations Workspace for Telecommunications Network Inventory user interface
@@ -152,7 +152,7 @@ Without TSOM and TSM are installed, the following widgets appear.
 </td></tr></tbody>
 </table>## Lists
 
-From the Lists view, you can access most of the Telecommunications Network Inventory classes and functions. An agent can analyze the individual lists of incidents, alerts, change tasks, and so on, and take appropriate action. To learn more, see [Network Inventory Workspace Lists view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/network-inventory-workspace-list-view.md).
+From the Lists view, you can access most of the Telecommunications Network Inventory classes and functions. An agent can analyze the individual lists of incidents, alerts, change tasks, and so on, and take appropriate action. To learn more, see [Lists view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/network-inventory-workspace-list-view.md).
 
 To access the Lists view, select the list icon \(\[Omitted image "ni-workspace-list-icon.png"\] Alt text: List Icon.\)
 
@@ -166,7 +166,7 @@ To learn more about Telecommunications Network Inventory features, see [Explorin
 
 ## Network visualization
 
-The Network visualization view provides various options to explore the network infrastructure-related functions. You can use the Network visualization to view the geographical location of your network sites, the floor plan of a datacenter, and the topology of your network. To learn more, see [Visualization of your network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md).
+The Network visualization view provides various options to explore the network infrastructure-related functions. You can use the Network visualization to view the geographical location of your network sites, the floor plan of a datacenter, and the topology of your network. To learn more, see [Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md).
 
 To access the Network visualization page, select the blue hub icon \(\[Omitted image "icon-blue-hub.png"\] Alt text: Blue Hub Icon.\).
 
@@ -174,7 +174,7 @@ To access the Network visualization page, select the blue hub icon \(\[Omitted i
 
 ## Inventory management
 
-Use the Inventory management view in the Service Operations Workspace to get a detailed view of your network inventory. To learn more, [Network Inventory management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-management-view.md).
+Use the Inventory management view in the Service Operations Workspace to get a detailed view of your network inventory. To learn more, [Management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-management-view.md).
 
 To open the Inventory management view, select the database search icon \(\[Omitted image "icon-database-search.png"\] Alt text: Database Search Icon\) on the side panel.
 
@@ -191,5 +191,5 @@ To access the Network visualization page, select the network visualization icon 
 **Related topics**  
 
 
-[Visualization of your network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
+[Visualize network infrastructure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-inventory-management.md)
 

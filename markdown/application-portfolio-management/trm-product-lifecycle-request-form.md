@@ -1,46 +1,61 @@
 ---
-title: TRM Product Lifecycle Request form
-description: The TRM Product Lifecycle Request form is used for adding or editing a request to create a lifecycle for a Technology Reference Model \(TRM\) product.
+title: Request TRM Product Lifecycle form
+description: The Request TRM Product Lifecycle form is used to submit a request from the service catalog to add one or more lifecycle records to an existing TRM product.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/trm-product-lifecycle-request-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# TRM Product Lifecycle Request form
+# Request TRM Product Lifecycle form
 
-The TRM Product Lifecycle Request form is used for adding or editing a request to create a lifecycle for a Technology Reference Model \(TRM\) product.
+The Request TRM Product Lifecycle form is used to submit a request from the service catalog to add one or more lifecycle records to an existing TRM product.
 
 ## TRM Product Lifecycle Request form fields
 
 |Field|Description|
 |-----|-----------|
-|Number|A unique, auto-generated identification number for the product request.|
-|Publisher|Publisher of the software or hardware product. Look up and select a publisher from the Companies page.|
-|TRM Product|Name of the TRM product. Look up and select the product from the TRM Products page.|
-|Version|Version of the TRM software product. This field appears only when a software product is selected in the **TRM Product** field.|
-|Edition|Edition of the TRM software product. Either Standard or Enterprise. This field appears only when a TRM product of type software is selected in the **TRM Product** field.|
-|Hardware model|Select the hardware model from the list of available hardware models. This field appears only when a TRM product of type hardware is selected in the **TRM Product** field.|
-|Model number|Hardware model number. This field is auto-populated with a model number, when a hardware model is selected. This field appears only when a TRM product of type hardware is selected in the **TRM Product** field.|
-|Requested TRM Phase|Phase of the product. Look up and select a phase from the TRM Phases page.|
-|Phase start date|Start date of the product lifecycle phase.|
-|Phase end date|End date for the product lifecycle phase.|
-|Barcode|Barcode of the hardware model. This field is auto-populated with the barcode number, when a hardware model is selected. This field appears only when a TRM product of type hardware is selected in the **TRM Product** field.|
-|Business Application|Select the business application that uses or depends on this TRM product. This reference associates the product lifecycle with a business application to support technology impact, risk, and lifecycle analysis.|
-|Short Description|Description about the product lifecycle request.|
+|Short description|Brief description of the product lifecycle request.|
 |Business Justification|Business justification for the product lifecycle request.|
+|TRM Product|Name of the TRM product to add lifecycles to. Look up and select the product from the TRM Products page. This field is required.|
+|Business Application|Name of the business application. Look up and select a business application to associate it with the TRM product lifecycle.|
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-reference.md)
+## TRM product lifecycles section — software products
+
+The **TRM product lifecycles** section appears after you select a TRM software product in the **TRM Product** field. Select **Add** to open the **Add Row** dialog and add a lifecycle record.
+
+|Field|Description|
+|-----|-----------|
+|Version|Version of the software product. This field is required. To use a wildcard, end the version with an asterisk \(\*\).|
+|Edition|Edition of the software product.|
+|TRM phase|Phase of the product lifecycle. Look up and select a phase from the TRM Phases page. This field is required.|
+|Phase start date|Start date of the product lifecycle phase. This field is required.|
+|Phase end date|End date of the product lifecycle phase.|
+
+## TRM product lifecycles section — hardware products
+
+The **TRM product lifecycles** section appears after you select a TRM hardware product in the **TRM Product** field. Select **Add** to open the **Add Row** dialog and add a lifecycle record.
+
+|Field|Description|
+|-----|-----------|
+|Hardware Model|Hardware model for the lifecycle record. This field is required.|
+|Model number|Model number of the hardware model. This field is automatically populated when you select a hardware model.|
+|Barcode|Barcode of the hardware model. This field is automatically populated when you select a hardware model.|
+|TRM Phase|Phase of the product lifecycle. Look up and select a phase from the TRM Phases page. This field is required.|
+|Phase start|Start date of the product lifecycle phase. This field is required.|
+|Phase end|End date of the product lifecycle phase.|
+
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Request a TRM product lifecycle using the TRM Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/add-trm-using-business-app.md)
+[Request a TRM product lifecycle from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/add-edit-trm-lifecycle-req.md)
 
-[Add or edit a TRM product lifecycle request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/add-edit-trm-lifecycle-req.md)
+[Request a TRM product from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/add-edit-trm-prod-req.md)
 
-[View and edit your product lifecycle requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/view-my-prod-lifecycle-req.md)
+[Request TRM Product form the Service Catalog form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/trm-prod-req-catalog-form.md)
 

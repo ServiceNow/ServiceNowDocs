@@ -1,5 +1,5 @@
 ---
-title: Modify the log source retention period
+title: Modify the log source retention period in Health Log Analytics
 description: Modify the period that Health Log Analytics retains logs from a specific source. You can calculate the impact of your intended change on storage to help you make an informed decision.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-log-retention.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Storage space for log retention in Health Log Analytics, Administering Health Log Analytics, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Storage space for log retention, Administer HLA, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Modify the log source retention period
+# Modify the log source retention period in Health Log Analytics
 
 Modify the period that Health Log Analytics retains logs from a specific source. You can calculate the impact of your intended change on storage to help you make an informed decision.
 

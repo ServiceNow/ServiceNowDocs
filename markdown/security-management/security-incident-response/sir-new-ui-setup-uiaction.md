@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Additional Security Analyst Workspace configuration, Configure the Security Analyst Workspace, Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,8 +16,6 @@ breadcrumb: [Additional Security Analyst Workspace configuration, Configure the 
 
 You can add new related lists or new related list groups, and modify existing groups or related lists that appear in the Security Analyst Workspace.
 
-\[Omitted image "sir-new-ui-setup-main-related.png"\] Alt text: Security Analyst Workspace: Related Lists
-
 **Add a Related List Group**
 
 To add a Related List Group, follow these steps:
@@ -25,9 +23,6 @@ To add a Related List Group, follow these steps:
 1.  Navigate to **Security Incidents** &gt; **Analyst Workspace Setup \(New UI\)** &gt; **Related List Configurations**.
 2.  Click **New** to add a new Related List Group. Enter the Group Name and the Order in which it should be appear on the Incidents \(New UI\) page.
 3.  Click **Submit**. The newly added group appears in the Related List Groups page.
-
-    \[Omitted image "cj-sir-new-ui-setup5.png"\] Alt text: Security Analyst Workspace: New Related List
-
 
 **Add a Related List**
 

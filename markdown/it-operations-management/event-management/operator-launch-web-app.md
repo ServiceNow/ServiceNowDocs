@@ -1,20 +1,20 @@
 ---
 title: Launch a web application from an alert
-description: As an Event Management operator, you can also launch a web application from an alert. The web application might be a console for the event monitoring tool that your organization uses, or any external website that provides additional information you might need about the alert.
+description: As an Event Management operator, you can also launch a web application from an alert. The web application might be a console for your event monitoring tool or any external website with additional alert information.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/operator-launch-web-app.html
 release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Operator phase 2: Triage an alert, What Event Management operators do, Event Management Operator Tutorial, Using Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Operator phase 2: Triage an alert, Operator responsibilities, Event Management Operator Tutorial, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Launch a web application from an alert
 
-As an Event Management operator, you can also launch a web application from an alert. The web application might be a console for the event monitoring tool that your organization uses, or any external website that provides additional information you might need about the alert.
+As an Event Management operator, you can also launch a web application from an alert. The web application might be a console for your event monitoring tool or any external website with additional alert information.
 
 ## Before you begin
 

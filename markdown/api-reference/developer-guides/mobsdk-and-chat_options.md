@@ -7,7 +7,7 @@ release: yokohama
 product: Developer Guides
 classification: developer-guides
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Implement Virtual and Live Agent chat, Mobile SDK Developer Guide - Android, Developer guides, API implementation and reference]
 ---
@@ -66,5 +66,5 @@ class MainActivity : AppCompatActivity() {
 } 
 ```
 
-For additional information, see [NowChatConfiguration - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) and [NowChatService - start\(activity: Activity, themeColors: NowChatTheme = object: NowChatTheme\{\}, contextData: Map&lt;String, Any&gt; = mapOf\(\), chatConfiguration: NowChatConfiguration? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md).
+For additional information, see [NowChatConfiguration class - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatOptionsAndroid.md) and [NowChatService - start\(activity: Activity, themeColors: NowChatTheme = object: NowChatTheme\{\}, contextData: Map&lt;String, Any&gt; = mapOf\(\), chatConfiguration: NowChatConfiguration? = null\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/NowChatServiceAndroidAPI.md).
 

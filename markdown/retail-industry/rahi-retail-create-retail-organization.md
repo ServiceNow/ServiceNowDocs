@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-create-retail-organization.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Retail, Retail]
+breadcrumb: [Configure, Retail]
 ---
 
 # Create a retail organization
@@ -16,7 +16,7 @@ Create a retail organization to enable management of hierarchical stores and fra
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_rtl.retail\_admin
 
 ## About this task
 
@@ -66,7 +66,7 @@ The ownership type of this retail organization. Options are:-   Company owned
 
 </td></tr><tr><td>
 
-Parent Service Organization
+Parent Organization
 
 </td><td>
 
@@ -78,9 +78,9 @@ Type
 
 </td><td>
 
-The type of retail organization. Options are:-   Business Location
+The type of retail organization. Options are:-   Business Organization
 -   Business Group
-If you want to create a region or area, select Business Group. If you want to create a store, select Business Location.
+If you want to create a region or area, select Business Group. If you want to create a store, select Business Organization.
 
 </td></tr><tr><td>
 

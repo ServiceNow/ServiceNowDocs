@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [SuccessFactors Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [SuccessFactors Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the SuccessFactors spoke v3.x.x
@@ -26,10 +26,10 @@ Integrate the ServiceNow instance with your SuccessFactors spoke instance using 
     -   **com.glide.transform.json.max-partial-length**: The maximum value is, `65536`.
 -   Role required: admin.
 
-**Note:** SuccessFactors will be deprecating basic authentication by Nov 2026 and hence, everyone must use OAuth SAML, which SuccessFactors spoke v4.11.1 supports.
+**Note:** SuccessFactors will be deprecating basic authentication by Nov 2026 and hence, everyone must use OAuth SAML, which SuccessFactors spoke v4.12.0 supports.
 
--   If you are installing the SuccessFactors spoke for the first time, install SuccessFactors spoke v4.11.1. For more information about setting up SuccessFactors spoke v4.11.1, [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-successfactors.md).
--   If you are using an earlier version of the SuccessFactors spoke, migrate to SuccessFactors spoke v4.11.1. For more information, see [Migrate to SuccessFactors spoke v4.11.1](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/migrate-successfactors.md).
+-   If you are installing the SuccessFactors spoke for the first time, install SuccessFactors spoke v4.12.0. For more information about setting up SuccessFactors spoke v4.12.0, [Set up the SuccessFactors spoke v4.x.x](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-successfactors.md).
+-   If you are using an earlier version of the SuccessFactors spoke, migrate to SuccessFactors spoke v4.12.0. For more information, see [Migrate to SuccessFactors spoke v4.12.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/migrate-successfactors.md).
 
 ## Create Credential record for the OData API
 

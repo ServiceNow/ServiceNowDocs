@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -29,6 +29,7 @@ In the Health and Safety Workspace, environmental management list view displays 
 |Substances|Individual components or materials that make up the ingredients of a chemical within the chemical management system.|
 |Documents|Documents that are added to chemical groups, items, requests, or substances.|
 |Actions|Tasks or steps created and assigned as part of the approval flow to manage chemical requests.|
+|Regulatory|Regulatory lists that are manually created or fetched through 3E integration.|
 
 -   **[Chemical management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-chemical-management-workflow.md)**  
 The chemical management solution is designed to scale for organizations with large chemical inventories and complex conformance needs. It provides tools for managing chemical requests, approvals, and risk assessments, supporting safer workplace practices.

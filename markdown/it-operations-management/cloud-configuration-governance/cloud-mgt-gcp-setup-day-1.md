@@ -1,20 +1,20 @@
 ---
 title: Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector
-description: To set up the ServiceNow Google Cloud Connector application for the very first time, you perform the procedures in this "Day 1" setup guide. Be sure to perform the procedures in order. After you have performed Day 1 setup, you can perform optional Day 2 setup and configuration procedures as needed and in any order. Detailed instructions for each procedure follow this overview.
+description: To set up Google Cloud for the first time, follow the steps in this Day 1 setup guide in the order they are presented. After completing the Day 1 setup, you can proceed with the optional Day 2 configuration steps as needed, in any order. Detailed instructions for each step are provided in the sections below.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/cloud-mgt-gcp-setup-day-1.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Day 1 setup guide for Google Cloud through Cloud Services Catalog Terraform Connector
 
-To set up the ServiceNow® Google Cloud Connector application for the very first time, you perform the procedures in this "Day 1" setup guide. Be sure to perform the procedures in order. After you have performed Day 1 setup, you can perform optional Day 2 setup and configuration procedures as needed and in any order. Detailed instructions for each procedure follow this overview.
+To set up Google Cloud for the first time, follow the steps in this Day 1 setup guide in the order they are presented. After completing the Day 1 setup, you can proceed with the optional Day 2 configuration steps as needed, in any order. Detailed instructions for each step are provided in the sections below.
 
 **Note:** The ServiceNow® Cloud Provisioning and Governance: Google Cloud Connector is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -58,7 +58,7 @@ Detailed instructions for each procedure follow this overview.
 
     **Note:** Data is encrypted to the MID Server and between the MID Server and the API endpoint. To ensure high performance and security, you should configure one or more MID Server for each datacenter under management. Configure the MID Server even if you have already configured other MID Servers while setting up Cloud Provisioning and Governance for another cloud provider.
 
-4.  Specify the credentials that Cloud Provisioning and Governance: Google Cloud Connector uses to access Google Cloud Platform data
+4.  Specify the credentials that CSC Terraform Connector uses to access Google Cloud Platform data
 
     To securely access data on your provider account, the Discovery process must present appropriate credentials. To make the credentials available to Discovery, you open the Google Cloud Console to identify the Google Cloud Platform project that will have programmatic access to your Google Cloud Platform data. You then securely store the credentials in a service account in your instance.
 

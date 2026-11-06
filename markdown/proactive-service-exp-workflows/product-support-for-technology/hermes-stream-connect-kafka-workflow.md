@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Handling API notifications, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, API Notification Management, Product Support for Technology]
 ---
 
 # Producing outbound API notifications using Hermes
@@ -21,7 +21,7 @@ In this use case, the notifications are produced to the Hermes cluster from your
 -   To learn more about Hermes Messaging Service, see [Hermes Messaging Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/hermes-messaging-service.md).
 -   To learn more about Apache Kafka Stream Connect, see [Using Stream Connect for Apache Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/stream-connect-apache-kafka.md).
 
-In the Yokohama release, the following events are supported for trouble ticket notification.
+In the Brazil release, the following events are supported for trouble ticket notification.
 
 -   Create Trouble Ticket Event
 -   Trouble Ticket State Change Event
@@ -49,7 +49,7 @@ The workflow for producing the outbound notification by using Hermes contains th
 5.  The Stream Connect pushes the event in the Hermes Kafka cluster.
 6.  The customers can consume the message in their in-house Kafka.
 
-**Parent Topic:**[Handling API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/handling-trouble-ticket-notifications.md)
+**Parent Topic:**[Using API Notification Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-api-notification-management.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/retire-archive-pub-trm-cat.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the publishing center, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Retire or archive a published TRM catalog
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 The Publishing Center controls how TRM data is published to the Knowledge Base, but it does not manage the lifecycle state of the published Knowledge Base content.
 
-When a TRM catalog is published, it is generated as Knowledge Base articles, and the lifecycle of those articles \(active, retired, or archived\) is managed through Knowledge Management, not through the Publishing Center.
+When a TRM catalog is published, it is generated as Knowledge Base articles. The lifecycle of those articles \(active, retired, or archived\) is managed through Knowledge Management, not through the Publishing Center.
 
 Retiring or archiving Knowledge Base content does not delete or disable the publishing configuration.
 

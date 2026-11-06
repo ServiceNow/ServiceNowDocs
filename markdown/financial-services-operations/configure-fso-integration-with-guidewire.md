@@ -1,16 +1,16 @@
 ---
-title: Configure the Financial Services Operations Integration with Guidewire
+title: Configure Financial Services Operations Integration with Guidewire
 description: Use this procedure to select and configure the Financial Services Operations Integration with Guidewire application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-fso-integration-with-guidewire.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Guidewire, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Guidewire, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Configure the Financial Services Operations Integration with Guidewire
+# Configure Financial Services Operations Integration with Guidewire
 
 Use this procedure to select and configure the Financial Services Operations Integration with Guidewire application.
 

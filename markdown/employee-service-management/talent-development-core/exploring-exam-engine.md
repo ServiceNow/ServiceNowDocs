@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career Assessment, Talent Development, Employee Service Management]
+breadcrumb: [Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Exploring Career Assessment
@@ -47,6 +47,4 @@ For more information, see [Using Career Assessment](https://raw.githubuserconten
 Career Assessment integrates with Learning to improve assessment based learning. Learners can track their learnings and assess their knowledge using the quizzes available for different courses that they take on My Learning.
 
 For more information, see [Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manage-your-learning.md).
-
-**Parent Topic:**[Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-engine.md)
 

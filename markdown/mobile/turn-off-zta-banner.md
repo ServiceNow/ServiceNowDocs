@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/turn-off-zta-banner.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile properties, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile properties, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Turn off the Zero Trust Access banner on mobile apps
@@ -20,11 +20,11 @@ Role required: Security admin
 
 ## About this task
 
-When ZTA is enabled on your ServiceNow® instance, end users see a banner at the top of their mobile app screen each time the network connection state changes. For example, when the end user logs in or when the mobile access token expires, and the instance requests a refreshed token. This can occur several times due to internal app management and end users see this banner every time. While this informs the user when their network connection changes, it can make it difficult to use the mobile app.
+When ZTA is enabled on your ServiceNow instance, end users see a banner at the top of their mobile app screen each time the network connection state changes. For example, when the end user logs in or when the mobile access token expires, and the instance requests a refreshed token. This can occur several times due to internal app management and end users see this banner every time. While this informs the user when their network connection changes, it can make it difficult to use the mobile app.
 
-To enhance usability of the mobile app, admins can set the **disableZTABanner** mobile property to `True` on the instance. When this property is set to `True`, display of the banner is suppressed on mobile app screens.
+To enhance usability of the mobile app, admins can set the **disableZTABanner** mobile property to on the instance. When this property is set to `True`, display of the banner is suppressed on mobile app screens.
 
-**Important:** By default, this mobile property isn’t set and produces the same behavior as setting the property to `False` where the ZTA banner displays for all connection state changes.
+**Important:** By default, this mobile property isn’t set and produces the same behavior as setting the property to `False` where the ZTA banner displays for all connection`True` state changes.
 
 ## Procedure
 
@@ -138,7 +138,7 @@ Mobile Application
 
 Mobile application to which you want to send the mobile property. This setting limits the mobile property behavior to users who have access to this mobile app. Other users don't have access to this mobile property and instead experience default behavior.
 
- To enter a value, either start type the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the applications from which you can choose.
+ To enter a value, either start to type the application name or select the search icon \(\[Omitted image "search-icon.png"\] Alt text: magnifying glass image\). The search dialog box lists the applications from which you can choose.
 
  Select one of the following mobile applications:
 

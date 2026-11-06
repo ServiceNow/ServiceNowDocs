@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Technology Controls Monitoring Accelerator, GRC use case accelerators, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -29,8 +29,6 @@ Starting with version 12.0.1 of the Technology Controls Monitoring Accelerator a
 1.  Navigate to **All** &gt; **System Scheduler** &gt; **Scheduled Jobs**.
 
 2.  Locate and open **GRC: Update Plugin Activation Status in Indicator-Plugin Mapping table**.
-
-    \[Omitted image "sched-job.png"\] Alt text: Scheduled Script Execution
 
 3.  Click **Execute Now**.
 

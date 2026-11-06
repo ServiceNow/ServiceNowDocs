@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ConfigureTheTinyMCEHTMLToolbar.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure a field editor for the HTML field, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure the HTML toolbar
@@ -22,7 +22,7 @@ Role required: admin
 
 1.  Update the toolbar options for your preferred HTML field editor.
 
-<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d141620e57">
+<table id="choicetable_twl_kgd_rxb"><tbody><tr><td id="d153355e57">
 
 **htmlArea toolbar**
 
@@ -33,7 +33,7 @@ Role required: admin
 3.  Select the **glide.ui.html.toolbar** property.
 
 
-</td></tr><tr><td id="d141620e90">
+</td></tr><tr><td id="d153355e90">
 
 **TinyMCE**
 
@@ -72,9 +72,12 @@ Formatting
 -   blockquote
 -   bold
 -   bullist
+-   editimage
 -   fontfamily
 -   fontsize
+-   formatpainter
 -   forecolor
+-   help
 -   indent
 -   italic
 -   ltr
@@ -129,8 +132,9 @@ Extended functions
 -   codesample
 -   emoticons
 -   fullscreen \(not supported by Internet Explorer\)
+-   help
 -   hr
--   image
+-   editimage
 -   insertdatetime
 -   link
 -   media
@@ -159,10 +163,13 @@ Formatting
 </td><td>
 
 -   bold
+-   editimage
 -   fontname
 -   fontsize
 -   forecolor
 -   formatblock
+-   formatpainter
+-   help
 -   hilitecolor
 -   indent
 -   insertorderedlist
@@ -195,6 +202,8 @@ Extended functions
 
 -   a11ycheck
 -   createlink
+-   editimage
+-   help
 -   htmlmode
 -   inserthorizontalrule
 -   insertimage

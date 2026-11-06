@@ -1,20 +1,20 @@
 ---
 title: Add constraints to a policy
-description: Constraints are requirements for the tasks that Schedule Optimization are assigned to agents.
+description: Add constraints to Schedule Optimization policies to define the mandatory conditions technicians must meet to be considered for a task.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-scheduling/add-constraint-schedule-optimization-policy.html
 release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a policy for Schedule Optimization, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Create policies, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Add constraints to a policy
 
-Constraints are requirements for the tasks that Schedule Optimization are assigned to agents.
+Add constraints to Schedule Optimization policies to define the mandatory conditions technicians must meet to be considered for a task.
 
 ## Before you begin
 
@@ -22,9 +22,7 @@ Role required: wm\_admin
 
 ## About this task
 
-Constraints are added to policies and determine the criteria that need to be met for an assignment group to be assigned a task. For a list of the constraints, see [Optimization features used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md).
-
-Constraints are mandatory and tasks won't be assigned if the assignment group doesn't fit the constraint. They define the 'must-haves' for agents to even be considered for a task. Constraints are mandatory conditions embedded in policies. If an assignment group fails to meet a constraint, they're out of the running for that task. For example, if "Enable Mandatory Skills" is activated, only assignment groups with agents possessing the required skills will be considered for task assignments.
+Constraints are mandatory conditions embedded in policies that determine whether an assignment group can be considered for a task. If an assignment group does not meet a constraint, it is excluded from consideration. For example, if the Enable Mandatory Skills constraint is active, only assignment groups with agents who have the required skills are considered for task assignments. For a list of constraints, see [Objectives and constraints used with Schedule Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/hard-soft-constraints.md).
 
 ## Procedure
 

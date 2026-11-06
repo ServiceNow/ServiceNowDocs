@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Define escalation process, On-Call Scheduling, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Designing an escalation process, Escalations in On-Call Scheduling, Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Create an escalation trigger rule
@@ -23,8 +23,8 @@ Role required: rota\_admin, admin, or rota\_manager
 ## About this task
 
 -   Users with rota\_manager role can create escalation trigger rules \(with the **Trigger action** field set to **Workflow**\) only for the groups that are managed by the rota\_manager.
--   Users with rota\_admin role can create escalation trigger rules \(with the **Trigger action** field set to **Workflow**\) for all the groups.
--   Users with admin role can create escalation trigger rules to execute both **Workflow** and **Script** for all the groups.
+-   Users with rota\_admin role can create escalation trigger rules \(with the **Trigger action** field set to **Workflow** or **Subflow**\) for all the groups.
+-   Users with admin role can create escalation trigger rules to execute **Workflow**, **Subflow**, and **Script** for all the groups.
 
 ## Procedure
 
@@ -86,13 +86,33 @@ Option to activate the trigger rule.
 
 </td></tr><tr><td>
 
-Trigger when group assigned changes
+Run Trigger
 
 </td><td>
 
-Option to process the trigger rule only when the **Group** field value in the table is changed.-   **False**: Trigger rules fire only if the**assigned\_to** and **assignment\_group** fields are not populated on a record.
--   **True**: Trigger rules fire only if group field populated or changes and **assigned\_to** is not populated on a record.
+Frequency at which the trigger rule is run. Available values:-   Run once: Trigger rule is run only once.
+-   Every time trigger field changes: Trigger rule is run every time the value of the **Trigger fields** field is changed.
 
+
+</td></tr><tr><td>
+
+Trigger fields
+
+</td><td>
+
+List of fields for a specific table which when changed causes the trigger rule to re-run. For example, for the incident table, you can select fields such as assignment group, priority and state.**Note:**
+
+-   This field is visible only if the **Run Trigger** field is set to **Every time trigger field changes**.
+-   You can use the Trigger Rule Table Configs table to configure which fields must be displayed for a specific table. For more information, see [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
+
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -122,7 +142,7 @@ Conditions
 
 </td><td>
 
-Conditions that must be met for the trigger rule to fire \(run the workflow or script that is the action for the rule\).
+Conditions that must be met for the trigger rule to fire \(run the workflow or subflow or script that is the action for the rule\).
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -134,7 +154,11 @@ Group
 
 </td><td>
 
-Group that becomes the **Task assignment group** when the trigger rule fires.This field is available only when the **Trigger when group assigned changes** check box is cleared.
+Group that becomes the **Task assignment group** when the trigger rule fires.**Note:**
+
+-   This field is visible only when the **Trigger fields** field doesn’t contain the **Assignment group** value.
+-   This field enables you to set the group level trigger rule. When this field is not set, or the **Trigger fields** field contain the **Assignment group** value, it becomes a global level trigger rule.
+
 
 </td></tr><tr><td>
 
@@ -142,7 +166,16 @@ Trigger action
 
 </td><td>
 
-**Workflow** or **Script** \(server-side JavaScript\) to execute when the **Match conditions** and **Conditions** are met.
+Action that is triggered when the **Match conditions** and **Conditions** are met. Possible values:-   Subflow
+-   Workflow
+-   Script \(server-side JavaScript\)
+**Note:**
+
+-   Starting Zurich release, the following options are available:
+    -   For new users, the **Subflow** option is visible while the **Workflow** option is not visible.
+    -   For existing or upgrade users, both the **Subflow** and **Workflow** options are visible, and either of them can be selected.
+-   The **Script** option is available only for users with the rota\_admin and admin roles.
+For more information, see [On-Call Scheduling subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/on-call-scheduling-subflows-overview.md).
 
 </td></tr><tr><td>
 
@@ -150,7 +183,21 @@ Trigger workflow
 
 </td><td>
 
-Workflow to execute. Available only if **Trigger action** is set to **Workflow**.
+Workflow to run. Available only if **Trigger action** is set to **Workflow**.
+
+</td></tr><tr><td>
+
+Trigger subflow
+
+</td><td>
+
+Subflow to run. Available only if **Trigger action** is set to **Subflow**.**Note:** The following subflows under the On-Call Escalation Triggers category can be configured using the trigger rules:
+
+-   On-Call: Assign
+-   On-Call: Assign and Notify
+-   On-Call: Assign By Acknowledgement
+-   On-Call: Escalations by Email
+
 
 </td></tr><tr><td>
 
@@ -158,7 +205,7 @@ Trigger script
 
 </td><td>
 
-Script \(server-side JavaScript\) to execute. Available only if the **Trigger action** field is set to **Script**.**Note:** This action is available only for users with the rota\_admin and admin roles.
+Script \(server-side JavaScript\) to run. Available only if the **Trigger action** field is set to **Script**.**Note:** This action is available only for users with the rota\_admin and admin roles.
 
 </td></tr></tbody>
 </table>4.  Click **Submit**.

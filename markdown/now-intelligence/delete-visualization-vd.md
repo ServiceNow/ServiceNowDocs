@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/delete-visualization-vd.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Delete a visualization, Delete a report, How to delete a visualization in the Visualization Designer, How to delete a visualization in Platform Analytics experience]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
@@ -27,7 +27,7 @@ Role required: You can delete any data visualization that you created. If you ha
 
 2.  Open the data visualization that you want to delete.
 
-3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\), select **Delete**.
+3.  Select the **Delete** icon \[Omitted image "Form\_DeleteIcon.png"\].
 
 4.  Confirm the deletion.
 

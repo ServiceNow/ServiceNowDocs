@@ -1,20 +1,20 @@
 ---
 title: Cloud discovery reporting
-description: Cloud Discovery reporting provides a user-friendly interface for navigating and analyzing your cloud resource inventory. It offers drill-down and slice-and-dice views to gain granular insights into your cloud resource inventories, with details obtained from the discovery. It provides an easier and faster way to locate and identify the state and location of cloud resources, streamlining your management tasks.
+description: Cloud discovery reporting provides a user-friendly interface for navigating and analyzing your cloud resource inventory. It offers drill-down and slice-and-dice views to gain granular insights into your cloud resource inventories, with details obtained from the discovery. It provides an easier and faster way to locate and identify the state and location of cloud resources, streamlining your management tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/cloud-discovery-reporting.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Cloud discovery reporting
 
-Cloud Discovery reporting provides a user-friendly interface for navigating and analyzing your cloud resource inventory. It offers drill-down and slice-and-dice views to gain granular insights into your cloud resource inventories, with details obtained from the discovery. It provides an easier and faster way to locate and identify the state and location of cloud resources, streamlining your management tasks.
+Cloud discovery reporting provides a user-friendly interface for navigating and analyzing your cloud resource inventory. It offers drill-down and slice-and-dice views to gain granular insights into your cloud resource inventories, with details obtained from the discovery. It provides an easier and faster way to locate and identify the state and location of cloud resources, streamlining your management tasks.
 
 Learn about Cloud Discovery reporting:
 

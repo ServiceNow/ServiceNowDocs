@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Service Portfolio Management taxonomy, Create portfolios, Using Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Service Portfolio Management taxonomy, Create a portfolio, Use, Service Portfolio Management, IT Service Management]
 ---
 
 # Create taxonomy layer definitions

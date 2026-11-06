@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Create remote catalogs in Service Exchange for providers
@@ -20,7 +20,7 @@ By using remote catalogs, providers can maintain the development of shared catal
 
 The process for providers to create a remote catalog is as follows:
 
-1.  Create a remote record producer in a remote catalog. See [Create remote record producers in a remote catalog in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-remote-rec-prod.md).
+1.  Create a remote record producer in a remote catalog. See [Create a remote record producers in a remote catalog in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-remote-rec-prod.md).
 2.  Create variables for remote record producers. See [Create variables for remote record producers in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-assign-variables-ser-defn.md).
 3.  Associate flows to the record producers.
 

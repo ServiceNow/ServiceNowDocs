@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customize and manage Journey Accelerator plan headers, Creating and managing audience-specific Journey Accelerator templates, Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Customize and manage Journey Accelerator plan headers, Creating and managing audience-specific Journey Accelerator templates, Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Customize field labels in a Journey Accelerator plan header
@@ -18,7 +18,7 @@ Customize the labels for fields that are available in the Journey Accelerator Pl
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_ja.admin
 
 ## About this task
 

@@ -1,32 +1,32 @@
 ---
-title: Release notes for upgrading from Washington DC
-description: When you upgrade from the Washington DC release, understand the fixes in each release version, notable changes for the user interface, browser support, plugin updates, and each feature's upgrade and migration tasks if applicable.
+title: Release notes for upgrading from Zurich
+description: When you upgrade from the Zurich release, understand the fixes in each release version, notable changes for the user interface, browser support, plugin updates, and each feature's upgrade and migration tasks if applicable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/rn-n-2-landing-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Learn about the Brazil release, Brazil release notes]
 ---
 
-# Release notes for upgrading from Washington DC
+# Release notes for upgrading from Zurich
 
-When you upgrade from the Washington DC release, understand the fixes in each release version, notable changes for the user interface, browser support, plugin updates, and each feature's upgrade and migration tasks if applicable.
+When you upgrade from the Zurich release, understand the fixes in each release version, notable changes for the user interface, browser support, plugin updates, and each feature's upgrade and migration tasks if applicable.
 
-\[Omitted image "upgrade-from-w-to-y.png"\] Alt text: From Washington DC, land safely in Yokohama
+\[Omitted image "upgrade-from-z-to-b.png"\] Alt text: From Yokohama, land safely in Brazil
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
- 
+[Combined product release notes \[Omitted image "product-release-notes-for-upgrades.png"\] Alt text: Detailed information on new products and features from Zurich to Brazil](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/brazil-zurich-combined-release-notes.md)
 
 </td><td>
 
- 
+[Personalized PRB release notes\[Omitted image "personalized-prb.png"\] Alt text:Generate a list of issues that were fixed between your current version and available target versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/brazil-summary-fixes.md)
 
 </td><td>
 
-[Changes to plugins from Washington DC to Yokohama\[Omitted image "icon-plugin-changes.png"\] Alt text:List of new, changed, renamed, and deprecated plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/plugin-changes-w-to-y.md)
+[Changes to plugins in the Brazil release\[Omitted image "icon-plugin-changes.png"\] Alt text:List of new, changed, renamed, and deprecated plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-summary-plugin-info.md)
 
 </td></tr><tr><td>
 
@@ -39,18 +39,6 @@ When you upgrade from the Washington DC release, understand the fixes in each re
 </td><td>
 
 [Browser support \[Omitted image "browser.png"\] Alt text: Supported browser versions and additional requirements for specific products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/browser-support.md)
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-[Yokohama highlights s\[Omitted image "highlights.png"\] Alt text: icon for the tile Yokohama highlights High-level overview of products and features in Yokohama](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/release-highlights.md)
-
-</td><td>
-
- 
 
 </td></tr></tbody>
 </table>

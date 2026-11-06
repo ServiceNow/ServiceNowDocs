@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Location migration
@@ -21,11 +21,11 @@ You can create a hierarchy to be used while migrating location data from the Ser
 You can perform the following actions while creating a location migration record:
 
 -   Configure location migration records by setting a parent location and a child location based on which the locations created in the Locations table \[cmn\_location\] are migrated to the Workplace Location \[sn\_wsd\_core\_workplace\_location\] table.
--   Specify conditions to filters the locations from the Locations table \[cmn\_location\] based on their Location types.
+-   Specify conditions to filter the locations from the Locations table \[cmn\_location\] based on their Location types.
 
 You can set a location hierarchy configuration as optional depending on the Floor infrastructure. For example, for the **Floor** &gt; **Area** &gt; **Room/Space** hierarchy, you can set the location migration configuration record of **Area** &gt; **Room** as an optional hierarchy because some floors might not have areas or only have spaces or rooms.
 
-When you set a configuration as optional, then the records that do not match that configuration are matched with the next hierarchy. For example, if there are locations that do not match the **Area** &gt; **Room** hierarchy, then they are matched with the next hierarchy, which is **Floor** &gt; **Room**. If there are Rooms that are not assigned to any Areas, then they are matched with Floors because Area is optional.
+When you set a configuration as optional, then the records that don’t match that configuration are matched with the next hierarchy. For example, if there are locations that don’t match the **Area** &gt; **Room** hierarchy, then they’re matched with the next hierarchy, which is **Floor** &gt; **Room**. If there are Rooms that aren’t assigned to any Areas, then they’re matched with Floors because the Area is optional.
 
 After migrating the locations, if you create a location in the Workplace Core application, the location is automatically added in the ServiceNow® Location \[cmn\_location\] table. You can configure the type of the location by setting Dictionary Overrides.
 
@@ -48,6 +48,8 @@ Set the location type of a location by creating a dictionary override of the tab
 [Block a workplace location]()
 
 [Configure Workplace entity and entity types]()
+
+[Managing Neighborhoods]()
 
 [Enable favorites option for Workplace Service Portal]()
 
@@ -73,5 +75,5 @@ Set the location type of a location by creating a dictionary override of the tab
 
 [QR code management]()
 
-[View workplace service usage analytics with User Experience Analytics]()
+[View workplace service usage analytics with Usage Insights]()
 

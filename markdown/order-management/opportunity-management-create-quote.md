@@ -1,31 +1,42 @@
 ---
 title: Create a quote from an opportunity
-description: Create a quote directly from an opportunity using the Quotes tab.
+description: Create a quote directly from an opportunity as a sales agent or with integrated roles.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-create-quote.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a quote from an opportunity
 
-Create a quote directly from an opportunity using the Quotes tab.
+Create a quote directly from an opportunity as a sales agent or with integrated roles.
 
 ## Before you begin
 
-Ensure that you have captured and provided all the information for your opportunity, such as opportunity details, line items, competitors information, etc.
+Ensure that you have captured and provided all the information for your opportunity, such as opportunity details, line items, competitors information and other details.
 
 Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to the **List** view \[Omitted image "Lists.png"\] and select **Opportunity - All**.
+1.  Navigate to the **Workspaces** &gt; **CRM Workspace**.
 
-2.  Select the opportunity that you want to work with and select the **Quotes** tab.
+2.  From the **List** view \[Omitted image "list-outline-24.svg"\] Alt text:, select **Opportunity - All**.
 
-3.  Select **Create Quote** to create a new quote from the selected opportunity.
+3.  Select the desired opportunity.
 
+4.  Select **Create Quote** to create a new quote from the selected opportunity.
+
+    If users with integrated roles create quotes then the channel partners and the related channel partners are copied to the newly created quotes. All the created quotes can be viewed on the **Quotes** tab. For details about integrated roles, see .
+
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

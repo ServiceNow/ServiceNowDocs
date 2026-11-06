@@ -1,24 +1,24 @@
 ---
-title: Request Ad Hoc Approval activity
-description: Enable agents and fulfillers to specify which user\(s\) should complete approval request\(s\) during a playbook run.
+title: Ask for Ad Hoc Approval activity
+description: Enable agents and fulfillers to specify which users must complete approval requests during a playbook run.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/request-adhoc-approval-activity.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-11-02"
 reading_time_minutes: 1
-breadcrumb: [Interactive activities, Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# Request Ad Hoc Approval activity
+# Ask for Ad Hoc Approval activity
 
-Enable agents and fulfillers to specify which user\(s\) should complete approval request\(s\) during a playbook run.
+Enable agents and fulfillers to specify which users must complete approval requests during a playbook run.
 
 ## Roles and availability
 
-These activities are available as an application in the ServiceNow Store. Users with the playbook.admin or pd\_author role can add these activities to a playbook.
+Users with the playbook.admin or pd\_author role can add these activities to a playbook.
 
 ## Inputs
 
@@ -70,7 +70,7 @@ Condition Builder
 
 </td><td>
 
-Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** **Show additional options** to see this field.
+Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -153,6 +153,4 @@ Associated record for the approval requests.
 
 -   Records of your approval requests.
 -   The states of your approval requests.
-
-**Parent Topic:**[Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/interactive-activities.md)
 

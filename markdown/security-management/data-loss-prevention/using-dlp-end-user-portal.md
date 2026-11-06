@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage incidents, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Manage incidents, Data Loss Prevention Incident Response, Security 
 The Data Loss Prevention Incident Response \(DLP IR\) User Workspace is a workspace where end users, managers, and approvers can respond to the assigned DLP incidents. The end users, managers, and approvers can then respond to the incidents by specifying the correct actions.
 
 You can also create and manage assessments to enable end users to respond to DLP incidents. The workspace consists of a landing page and list views that let you see the assigned DLP incidents.
-
-\[Omitted image "dlp-enduser-homepage.png"\] Alt text: DLP User Workspace home page.
 
 -   **[Report or respond to DLP incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/access-the-dlp-end-user-portal.md)**  
 Access the Data Loss Prevention Incident Response \(DLP\) User workspace, review the assigned DLP incidents, and report or respond to the incidents.

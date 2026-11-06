@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-chat-zoom-connector.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Chat Zoom Connector, Configure chat, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Configure Chat Zoom Connector
@@ -34,7 +34,7 @@ This task provides general steps to set up the Chat Zoom Connector application f
 
 3.  Install the Chat Zoom Connector application.
 
-    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_InstallApplications.md).
+    For more information, see [Install a ServiceNow Store application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
     **Note:** The Chat Zoom Connector application installs the CSMZoomInteractionImpl script include, which is preconfigured for the Customer Service application. It also installs the sn\_chat\_zoom.ZoomInteractionExtPoint extension point, which enables the copying of any application-specific fields from the parent chat interaction record to the Zoom interaction record. For more information, see [Configure application-specific field values for Zoom interactions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-chat-zoom-ext-pt.md).
 

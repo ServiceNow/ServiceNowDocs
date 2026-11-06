@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create an Enterprise Asset Management incident
@@ -40,13 +40,13 @@ This procedure describes how an ITIL agent must complete an incident form to doc
 
 4.  After the form reloads in the Enterprise Asset Management incident form view, specify the asset that is affected by this incident.
 
-    1.  Select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) in the **Asset** field.
+    1.  Select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: in the **Asset** field.
 
     2.  In the Assets pop-up window, search for and select the asset that is affected by this incident.
 
         The pop-up window closes and you automatically return to the Incident form.
 
-    3.  On the form header, select the Additional actions menu icon \(\[Omitted image "additional-actions-icon.png"\] Alt text: Additional actions menu icon.\) and then select **Save**.
+    3.  On the form header, select the Additional actions menu icon \[Omitted image "additional-actions-icon.png"\] Alt text: and then select **Save**.
 
     When the form reloads, the **Configuration item** field and **Affected Assets** related list update automatically based on the asset that you selected.
 
@@ -62,7 +62,7 @@ This procedure describes how an ITIL agent must complete an incident form to doc
 
         **Note:** By default, the Edit Members form automatically runs a search filter to display only the relevant child assets in the Collection list.
 
-    3.  Select the Add icon \(\[Omitted image "add-icon.png"\] Alt text: Add icon.\) to move the selected child asset to the Affected Assets List.
+    3.  Select the Add icon \[Omitted image "add-icon.png"\] Alt text: to move the selected child asset to the Affected Assets List.
 
     4.  Repeat steps b and c for each child asset that is affected by this incident.
 

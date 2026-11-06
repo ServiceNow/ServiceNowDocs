@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 13
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 15
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software license metrics
@@ -26,7 +26,7 @@ Adobe, Citrix, IBM \(includes both IBM and Red Hat\), Microsoft, Oracle, SAP, an
 
 Installing [SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/sam-subscription-management.md) adds the Subscription and Consumption metric groups.
 
-You can view descriptions of your license metrics by selecting the reference \(\[Omitted image "reference-icon.png"\] Alt text: Reference icon\) icon next to the **License metric** field in your software entitlements.
+You can view descriptions of your license metrics by selecting the reference \[Omitted image "reference-icon.png"\] icon next to the **License metric** field in your software entitlements.
 
 <table id="table_zqx_hhf_b1b"><thead><tr><th>
 
@@ -105,6 +105,10 @@ CPU core count * CPU count
 -   Device CAL: Licenses each device that accesses your server, regardless of the number of users that are using each device to access the server.
 -   User/Device CAL: Licenses each user or device that accesses your server.
 -   Resource Consumption. Consumption-based license metric that supports CAL reconciliation. A 1:1 ratio calculation between the Unit consumption column in the Resource Value \[samp\_sw\_resource\_value\] table and the Licenses required column in the License Metric Results \[samp\_license\_metric\_result\] table.
+-   Concurrent User: Licenses the number of simultaneous users accessing the program.
+
+**Note:** For the Concurrent User license metric, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-resource-value-record.md).
+
 
 </td></tr><tr><td>
 
@@ -158,6 +162,25 @@ IBM **Note:** IBM license metrics are visible only if the IBM publisher pack is 
 **Note:** This license metric is available only if you request and install the IBM License Compliance for Software Asset Management application from the ServiceNow Store.
 
 
+ **Note:** The following license metrics are available from Australia Patch 6 onwards.
+
+For each license metric in the following list that you select on a software entitlement, create a related record in the Resource Value \[samp\_sw\_resource\_value\] table to identify the resource being measured. For more information, see [Create a resource value record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-resource-value-record.md).
+
+-   Application Instance: Licenses each running instance of an IBM software product deployed on a server, container, or virtual environment.
+-   Concurrent User: Licenses the number of simultaneous users accessing an IBM software product.
+-   Connection: Licenses each connection or link between an IBM software product and a database, application, or device.
+-   Events Per Second: Licenses the average number of security events processed per second by an IBM software product.
+-   Floating User: Licenses each user accessing an IBM software product at any given moment. A separate entitlement is required for each installation accessed simultaneously by the same user.
+-   Flows Per Minute: Licenses the average number of network flow records processed per minute by an IBM software product.
+-   Managed Client Device: Licenses each client device whose configuration, security, or lifecycle is managed by an IBM software product.
+-   Managed Device: Licenses each computing or network device whose configuration, state, security posture, or lifecycle is managed or monitored by an IBM software product.
+-   Managed Virtual Server: Licenses each virtual server, or unpartitioned physical server, that is managed or monitored by an IBM software product.
+-   Order Lines: Licenses each order line processed by an IBM software product. Sales and quote order lines are included; return and shipment lines are excluded.
+-   Resource Value Unit - Decimal Petabyte Managed: Licensing is based on the number of decimal petabytes \(1015 bytes\) managed by an IBM software product, calculated using a tiered rate.
+-   Storage Device: Licenses each independently powered, channel-attached storage device that runs, accesses, or is managed by an IBM software product.
+-   Terabyte: Licenses each terabyte of data available to or managed by an IBM software product. The measurement basis is defined by the applicable License Information document.
+-   Token: Licenses access to an IBM software product from a shared pool of tokens. Each installation consumes a predefined number of tokens per user session, and simultaneous consumption across users and installations must not exceed the licensed pool.
+
 </td></tr><tr><td>
 
 Microsoft **Note:** Microsoft license metrics are visible only if the Microsoft publisher pack is installed.
@@ -194,7 +217,7 @@ Oracle **Note:** Oracle license metrics are visible only if the Oracle publisher
 
 -   Named User Plus: Licenses the physical host.
 
-If you are reconciling Oracle server software, such as Oracle Database Server or Oracle WebLogic Server, through a client access record, this license metric licenses the users that are accessing the server.
+If you are reconciling Oracle server software, such as Oracle Database or Oracle WebLogic Server, through a client access record, this license metric licenses the users that are accessing the server.
 
 -   Per Processor: Licenses the number of cores on a processor.
 
@@ -225,7 +248,8 @@ SAP **Note:** SAP license metrics are visible only if the SAP publisher pack is 
 -   Named User: Licenses the number of named users that can be assigned a Named User Type. The Named User Type is defined by the software model linked to the entitlement.
 -   Engine Measurement: Licenses the amount of engine usage.
 -   Digital Access: Licenses the indirect usage of SAP applications through a third-party application or a non-SAP intermediary software by the count of documents created by the third-party application.
--   Full Usage Equivalent \(FUE\): Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud Public Edition.
+-   User Subscription: Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud, Public Edition.
+-   Full Usage Equivalent \(FUE\): Licenses the number of users that are authorized to access specified solution capabilities of SAP S/4HANA Cloud, Private Edition.
 
 </td></tr><tr><td>
 
@@ -237,29 +261,33 @@ User Subscription: Licenses for the number of users.
 
 </td></tr><tr><td>
 
-VMware **Note:** This license metric isn’t visible unless the VMware publisher pack is installed.
+VMware **Note:** VMware license metrics are visible only if the VMware publisher pack is installed.
 
 </td><td>
 
--   Per Application Instance: Licenses per application instance.
+-   Per Application Instance: Licenses the number of application instances.
 
 Applies to VMware products: vCenter Server software.
 
--   Per Device: Licenses per specific device. A license can only be reused if it’s removed from the device. The number of software users on the device isn’t relevant as long as the license is used on the licensed device.
+-   Per Device: Licenses a device for the number of installations of software.
 
 Applies to the VMware suite of products: Horizon FLEX, ThinApp, ThinApp Virtualization Packager, and Mirage Windows Migration.
 
--   Per Named User: Licenses per named user.
+-   Per Named User: Licenses a specific user for the number of installations of software.
 
 Applies to VMware named users: Horizon Advanced, Horizon Enterprise, Horizon Suite, Mirage, Horizon Socialcast on Premise, Workspace \(Portal\), Workspace Suite, Horizon Air, Horizon Air Desktop DR, ThinApp, ThinApp Virtualization Packager, vRealize Operations for Horizon, User Environment Manager, vRealize Business.
 
--   Per OSI: Licenses any server, virtual or physical, with an IP address that generates logs, including network devices and storage arrays.
+-   Per OSI: Licenses the operating system \(OS\) that is running on a virtual machine \(VM\) or physical host.
 
 Applies to the VMware suite of products: vRealize Operations, vRealize Log Insight, vRealize Automation, vRealize Business for Cloud, and vRealize Code Stream.
 
--   Per Processor: Licenses a physical processor \(CPU\) in a server. A CPU requires one license per 32 cores. A **Maximum cores per processor** metric attribute with a default value of 32 is automatically created on software models for VMware per processor entitlements. This metric attribute is used during reconciliation to determine license compliance.
+-   Per Processor: Licenses the processors \(CPUs\) on a physical host. Each CPU requires one right for every 32 cores. A **Maximum cores per processor** metric attribute with a default value of 32 is automatically created on software models for VMware per processor entitlements. This metric attribute is used during reconciliation to determine license compliance.
 
 Applies to VMware suite products: vSphere, vSphere with Operations Management.
+
+-   Per Core: Licenses the processor cores on a physical host. A minimum of 16 cores must be licensed per processor.
+
+Applies to subscription-based VMware suite products: VMware vSphere Standard \(VVS\) and VMware vSphere Essentials Plus \(VVEP\)
 
 
 </td></tr></tbody>

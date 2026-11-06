@@ -1,20 +1,20 @@
 ---
 title: Create a change request in Service Operations Workspace
-description: Track modifications to a supported configuration item \(CI\). Use a change request form to record information such as the reason for the change, type, priority, and risk.
+description: Track modifications to a supported configuration item \(CI\) by using a change request. You can record information such as the reason for the change, and the change type, priority, and risk.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/create-change-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Change Management in Service Operations Workspace, Operate, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Change Management in Service Operations Workspace, Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Create a change request in Service Operations Workspace
 
-Track modifications to a supported configuration item \(CI\). Use a change request form to record information such as the reason for the change, type, priority, and risk.
+Track modifications to a supported configuration item \(CI\) by using a change request. You can record information such as the reason for the change, and the change type, priority, and risk.
 
 ## Before you begin
 
@@ -24,25 +24,25 @@ Role required: itil or admin
 
 ## Procedure
 
-1.  Perform one of the following actions to start creating a change request.
+1.  Create a new change request.
 
-<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d177692e55">
+<table id="choicetable_vrd_rrt_tsb"><thead><tr><th align="left" id="d306767e55">
 
-Option
+Source
 
-</th><th align="left" id="d177692e58">
+</th><th align="left" id="d306767e58">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d177692e64">
+</th></tr></thead><tbody><tr><td id="d306767e64">
 
-**From any change list**
+**Change list**
 
 </td><td>
 
 1.  Navigate to a list of changes.
 
-**Note:** Following lists are available for change:
+**Note:** The following lists are available:
 
     -   Open
     -   Closed
@@ -50,80 +50,109 @@ Description
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d177692e98">
+</td></tr><tr><td id="d306767e100">
 
-**From an incident**
+**From a change template**
+
+</td><td>
+
+1.  Navigate to a list of changes.
+
+**Note:** The following lists are available:
+
+    -   Open
+    -   Closed
+    -   All
+2.  Select **New**.
+3.  Select **Templates**.
+4.  Search for and select the required template.
+5.  View the new change request record created using the selected template by selecting **Continue**.
+ **Note:** When you select an existing template, information in the predefined fields will be populated. Template fields are either read-only or mandatory depending on the template field policies configured while creating the template.
+
+For more information on change templates, see [Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-template-sow.md).
+
+</td></tr><tr><td id="d306767e165">
+
+**Incident**
 
 </td><td>
 
 1.  Open an incident.
-2.  From the record page, select **Create change request**.
+2.  In the incident record form, select **Create change request**.
 
 
-</td></tr><tr><td id="d177692e119">
+</td></tr><tr><td id="d306767e187">
 
-**From an interaction**
+**Interaction**
 
 </td><td>
 
 1.  Open an interaction.
-2.  From the record page, select the drop-down beside **Create incident** and select **Create change**.
+2.  In the interaction record form, from the **Create incident** drop-down list, select **Create change**.
 
 
-</td></tr><tr><td id="d177692e143">
+</td></tr><tr><td id="d306767e211">
 
-**From a problem**
+**Problem**
 
 </td><td>
 
 1.  Open a problem.
-2.  Perform any of the following actions:
-    -   From the record page, select the drop-down beside **Create problem task** and select **Create change request**.
-    -   From the **Fix Tasks** tab, navigate to Change Requests list and select **New**.
+2.  On the problem record page, from the **Create problem task** drop-down list, select **Create change request**.
 
 
 </td></tr></tbody>
-</table>2.  Select the change model that you want to create, and select **Next**.
+</table>2.  Select the change model that you want to create, and select **Continue**.
 
-    For information about change models, see [Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models.md).
+    You can filter and search for the change type.
 
-<table id="choicetable_ty1_knn_n3b"><tbody><tr><td id="d177692e206">
+    The following change types are available:
 
-**Normal**
+<table id="table_qbj_vqx_mhc"><thead><tr><th>
+
+Change model
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Normal
 
 </td><td>
 
 Any service change that is not a pre-approved change or an emergency change.
 
-</td></tr><tr><td id="d177692e215">
+</td></tr><tr><td>
 
-**Pre-approved**
+Standard
 
 </td><td>
 
 A pre-authorized change that is low risk, relatively common, and follows a specified procedure or work instruction.
 
-</td></tr><tr><td id="d177692e224">
+</td></tr><tr><td>
 
-**Emergency**
+Emergency
 
 </td><td>
 
 An emergency change that bypasses group and peer review and approval, and goes straight to the authorization state for approval by the CAB approval group.
 
-</td></tr><tr><td id="d177692e233">
+</td></tr><tr><td>
 
-**DevOps or DevOps Simplified**
+DevOps or DevOps Simplified
 
 </td><td>
 
-Change model used for DevOps change requests. For more information on the DevOps model change, see [DevOps change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/devops-change-multimodel.md).**Note:** You must activate the DevOps Change Velocity application to use the DevOps models.
+Change model used for DevOps change requests.To use the DevOps models, you must activate the DevOps Change Velocity application.
 
 </td></tr></tbody>
-</table>    **Note:**
+</table>    For more information, see [Create a Change model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-a-change-model.md).
 
-    -   You can filter and search for the change type.
-    -   When you create a change request from an interaction, only pre-approved change types are available.
+    **Note:** When you create a change request from an interaction, only pre-approved change types are available.
+
 3.  In the Overview tab, fill in the fields.
 
     You must provide the initial details of the change in the Overview tab.
@@ -138,9 +167,11 @@ Change model used for DevOps change requests. For more information on the DevOps
 
     The change request is created along with **Scope and impact**, **Assignment**, **Schedule**, **Risk evaluation**, and **Change task** sections.
 
-5.  Select **Add scope** in **Scope and impact** section.
+5.  Provide the scope and impact information for the change.
 
-    1.  On the form, fill in the fields.
+    1.  Select **Add scope** in **Scope and impact** section.
+
+    2.  On the form, fill in the fields.
 
 <table id="table_v3g_jqy_2wb"><thead><tr><th>
 
@@ -215,11 +246,13 @@ Refresh impact services
 When you refresh impacted services, the Impacted Services/CIs, Business Applications, and Service Offerings related lists get updated based on the affected CIs. The records in each of the related list are unique even though the impact can be from a single affected CI.
 
 </td></tr></tbody>
-</table>    2.  Select **Save**.
+</table>    3.  Select **Save**.
 
-6.  Select **Assign** in the **Assignment** section.
+6.  Assign the change request to relevant user or assignment group.
 
-    1.  On the form, fill the fields.
+    1.  Select **Assign** in the **Assignment** section.
+
+    2.  On the form, fill the fields.
 
 <table id="table_u1d_ssf_2xb"><thead><tr><th>
 
@@ -258,11 +291,23 @@ Work notes
 Information about how to resolve the change or steps taken to resolve it, if applicable. This note is for internal use. The work notes information is not visible to your customer.
 
 </td></tr></tbody>
-</table>    2.  Select **Save**.
+</table>    3.  Select **Save**.
 
-7.  Select **Schedule** to schedule the implementation for the change.
+7.  Schedule the implementation for the change and view conflicts detected.
 
-    1.  On the form, fill in the fields.
+    **Note:** The conflict detection feature is unavailable if the **Exclude from conflict detection** check box in the Change Request form is selected. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_RunManualConflictDetection.md)
+
+    1.  Select **Set schedule**.
+
+    2.  On the Schedule page, enter the planned start and end date.
+
+    3.  In the **Conflict** tab, the **Schedule and conflicts** section lists any detected conflicts.
+
+        The **Conflict last run** field displays the date when the conflict detection was last run. You can view the details of the detected conflicts in the Related records tab.
+
+        **Note:** When a conflict detection process is in progress, the **Check conflicts** button changes to **View progress**.
+
+        The details of detected conflicts listed in the following table are displayed in the **Conflict** section.
 
 <table id="table_esz_lry_2wb"><thead><tr><th>
 
@@ -274,62 +319,82 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Planned start date
+Change
 
 </td><td>
 
-Date to begin working on the change.
+The current change request for which conflicts have been detected.
 
 </td></tr><tr><td>
 
-Planned end date
+Type
 
 </td><td>
 
-Date the change is planned to be completed.
+The type of conflict detected. The following types of conflicts are displayed:
 
- If the task type is  **Implementation**, the **Planned start date**  and **Planned end date**  values must fall within the planned start and end dates specified in the change request.
+-   **CI Already Scheduled**
+-   **Parent CI Already Scheduled**
+-   **Child CI Already Scheduled**
+-   **Not in Maintenance Window**
+-   **Parent Not In Maintenance Window**
+-   **Child Not In Maintenance Window**
+-   **Blackout**
+
 
 </td></tr><tr><td>
 
-Actual start date
+Schedule
 
 </td><td>
 
-Start date of the implementation.
+The blackout or maintenance schedule the detected conflict is associated with.
 
 </td></tr><tr><td>
 
-Conflict status
+Conflicting Change
 
 </td><td>
 
-Status of the conflict.
+The change that is in conflict with the current change request, if any.
 
 </td></tr><tr><td>
 
-Actual end date
+Affected CI
 
 </td><td>
 
-Date when the change was implemented.
+The CI associated with the conflict detected.
 
 </td></tr><tr><td>
 
-Conflict last run
+Impacted Services
 
 </td><td>
 
-Date when the conflict was last run.
+The services impacted by the detected conflict.
+
+</td></tr><tr><td>
+
+Last checked
+
+</td><td>
+
+Date when the conflict detection process was last run.
 
 </td></tr></tbody>
-</table>    2.  Select **Schedule**.
+</table>        For more information, see [Conflict detection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ConflictDetection.md).
 
-        Select **Schedule** under **Next conflict-free card** to re-schedule the implementation of the change if there is any conflict.
+        **Note:** You can also run the conflict detection process manually by selecting **Check conflicts**.
 
-        \[Omitted image "change-schedule.png"\] Alt text: Change schedule
+    4.  Reschedule your current change request if there is any conflict.
 
-    3.  Select **Details** tab to view the Change details.
+        1.  Navigate to the **Schedule** page.
+        2.  Select the edit icon \[Omitted image "icon-edit-pencil.png"\] Alt text: pencil icon in the **Current** card.
+        3.  Select the new planned start and end dates.
+        Alternatively, you can reschedule the implementation of the change to the next time and date there is no conflict by selecting **Schedule** in the **Next conflict-free** card.
+
+        \[Omitted image "change-schedule.png"\] Alt text: Change schedule Next conflict free card
 
 8.  Select **Add data** in the **DevOps data** section to add DevOps data to the change request.
 
@@ -404,7 +469,37 @@ The specific data to associate with the change request. You can select multiple 
 
     For more information to create a change task, refer [Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-task-sow.md).
 
-11. Select  **Request Approval** when the change request is ready to move to the next state.
+11. Associate the change with a product or service release.
+
+    This option is available only if you have the Digital Product Release v2.4 installed. For more information, see [Associating change requests with releases in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-sow-integration-cr.md).
+
+    1.  Select **Assign** in the **Related release** card on the contextual side panel.
+
+    2.  In the Assigned to release dialog box, select the release you want to associate with the change request.
+
+    3.  If its a multi-product release, select the product within the release.
+
+    4.  Select the phase of the selected release to which you want to link the change request.
+
+    5.  Add work notes to provide context for the assignment.
+
+    6.  Select **Assign**.
+
+12. Import affected configuration items \(CIs\) from release phases to a change request.
+
+    This option is available after the change request is associated with a release that has configuration items mapped to its release phases.
+
+    1.  Select **Related records** tab and select the **Affected CIs** option.
+
+    2.  Select **Add CIs from release phase**.
+
+    3.  Select **Yes** to confirm adding CIs from the release phase into the change request.
+
+        The available CIs from the release phase of the associated release are added as affected CIs and listed.
+
+        The import operation runs asynchronously. A notification is displayed when the operation completes. Refresh the list manually to see the newly added CIs.
+
+13. Select  **Request Approval** when the change request is ready to move to the next state.
 
     The state is moved forward based on the type of change request:
 
@@ -415,8 +510,13 @@ The specific data to associate with the change request. You can select multiple 
 
     To view the calendar, select **View Calendar** in the title bar of the Change Request form.
 
-12. Select **Save**.
+14. Select **Save**.
 
+
+-   **[Create and propose a change template in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-template-sow.md)**  
+Create, customize, and then propose a change template aligned to a change model.
+-   **[Propose a single change to a CI in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/propose-single-change-ci.md)**  
+Propose new values for one or more CI attributes, review the proposed values, and apply them after the change request reaches the Implement state in Service Operations Workspace \(SOW\).
 
 **Parent Topic:**[Change Management in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/change-sow.md)
 

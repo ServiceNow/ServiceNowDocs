@@ -1,55 +1,42 @@
 ---
 title: Add products or services to an order in Order Management
-description: Once an order is started, add order lines for products or services using the product catalog and product configurator in Order Management.
+description: Add order lines for products or service orders using the product catalog and product configurator in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-add-products-services-to-orders.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Add products or services to an order in Order Management
 
-Once an order is started, add order lines for products or services using the product catalog and product configurator in Order Management.
+Add order lines for products or service orders using the product catalog and product configurator in Order Management.
 
 ## Before you begin
 
 **Note:** Check your entitlements to see if the product configurator is available.
 
-Role required: sn\_ind\_tmt\_orm.order\_agent
+Role required: sn\_ind\_tmt\_orm.order\_agent, sn\_ind\_tmt\_orm.service\_agent
 
 ## About this task
 
-The product catalog shows tiles that contain product information. Simple products have an **Add** button that adds the product to the order with no options available.
-
-\[Omitted image "som-om-order-catalog-2.png"\] Alt text: Product catalog used to add products and services to orders.
+The product catalog displays tiles that contain product information. Simple products have an **Add** button that adds the product with no options available to the order.
 
 Products with options have a **Customize** button that opens the product configurator, which lets you select product options.
 
+When the  product configurator opens you can select from the available options for the product or service. The product configurator consists of three columns.
 
+-   The product hierarchy displays product catalog items and child products associated with the product.
+-   The option selection displays any available options for the product, service, order lines, and order tasks.
+-   The Current Selection displays the selected products options and the pricing.
 
-\[Omitted image "som-om-configurator-callouts-2.png"\] Alt text: Product configurator lets agents choose product options.
+Depending on your configuration, you'd either see a CPQ Configurator or product configurator. To learn more about these, see [Using the ServiceNow CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-servicenowcpq.md) and [Using the Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-som-product-configurator.md).
 
-The product configurator consists of three columns. The Product Hierarchy column displays product catalog items and child products associated with the product. The Option Selection column shows any available options for the product or service and order lines and order tasks. The Current Selections column shows the products options selected and the pricing.
+As you configure your product, use the following options:
 
-## Procedure
-
-1.  In the **Configurable Workspace**, select the **List** \[Omitted image "Lists.png"\] view.
-
-2.  Navigate to **Customer Orders** &gt; **All**.
-
-3.  Select your order.
-
-4.  Add products to your order.
-
-    -   Select **Add** to add a simple product \(product with no options\) to your order.
-    -   Select **Customize** to add products that have configurable options.
-
-        The product configurator opens for choosing available options for the product or service. For details on the configurator interface, see [Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-using.md). As you are configuring your product, you use the following options:
-
-<table id="table_ksy_whv_x2c"><thead><tr><th>
+<table id="table_pqy_fcs_tgc"><thead><tr><th>
 
 Option
 
@@ -63,11 +50,11 @@ Reprice
 
 </td><td>
 
-Resets the pricing and updates the total price when changes are made.If cascading pricing is enabled, pricing information is cascaded from parent to child line items. See [Control cascading quantity values in child product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-activate-cascade-quantity.md) for more information.
+Resets the pricing and updates the total price when you make changes.If cascading pricing is enabled, pricing information is cascaded from parent to child line items. See [Control cascading quantity values in child product offerings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-activate-cascade-quantity.md) for more information.
 
 </td></tr><tr><td>
 
-Validate
+Validate Related Items
 
 </td><td>
 
@@ -82,15 +69,31 @@ Add
 Adds the product to the order after you've configured it.
 
 </td></tr></tbody>
-</table>    The product or service is added to the order as an order line item.
+</table>**Note:** If you added a sales agreement while creating the order, only the products listed in the sales agreement are available for selection.
 
-5.  Select the **Order Line Item** tab to view products and services in your order.
+## Procedure
 
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace** .
 
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
+
+3.  Navigate to **Customer Orders** &gt; **All**.
+
+4.  Select an order.
+
+5.  In the **Catalog** tab, choose a catalog from the drop-down menu.
+
+6.  Add products to your order.
+
+    -   Select **Add** to add a simple product.
+    -   Select **Customize** to add products with configurable options.
+7.  Select the **Line items** tab to view products and services in your order.
+
 
 **Related topics**  
 
 
-[Set up and review product order lines in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-om-setup-product-order-lines.md)
+[Filter product catalog by location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-filter-catalog-by-location.md)
+
+[Set up and review order lines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-om-setup-product-order-lines.md)
 

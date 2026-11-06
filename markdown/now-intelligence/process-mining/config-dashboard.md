@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Configure, Process Mining, Platform Analytics]
 ---
 
 # Configure Process Mining map in PAR dashboard
@@ -18,7 +18,7 @@ Configure a Process Mining map to view the process graph in the PAR dashboard.
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_power\_user or sn\_process\_mining\_admin
 
 ## Procedure
 
@@ -49,6 +49,8 @@ Role required: sn\_process\_optimization\_power\_user or sn\_process\_optimizati
     \[Omitted image "dash-pm-filter.png"\] Alt text: Filter
 
 6.  Select **Save** and **Exit editing mode**.
+
+    For more information about Platform Analytics \(PAR\) dashboards, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ac-elements.md).
 
 
 ## Result

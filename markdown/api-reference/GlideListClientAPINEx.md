@@ -7,9 +7,9 @@ release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Client API reference, API reference, API implementation and reference]
+breadcrumb: [Client Next Experience API reference, API reference, API implementation and reference]
 ---
 
 # GlideList \(Next Experience\) - Client
@@ -33,7 +33,7 @@ The methods in this API are based on [GlideList2](https://raw.githubusercontent.
 -   toggleList\(\)
 -   toggleListNoPref\(\)
 
-**Parent Topic:**[Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client.md)
+**Parent Topic:**[Client Next Experience API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-client-next.md)
 
 ## GlideList \(Next Experience\) - addFilter\(String filter\)
 

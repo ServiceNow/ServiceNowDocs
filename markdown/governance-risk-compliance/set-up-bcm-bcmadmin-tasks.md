@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,36 +16,46 @@ If you are the BCM administrator, you can set up the Business Continuity Managem
 
 ## General Administration module
 
-The administrative tasks that are associated with the BCM application are listed in the **General Administration** module in the application UI as shown in the following example.\[Omitted image "gen-admin-module.png"\] Alt text: General Administration module.
+The administrative tasks that are associated with the BCM application are listed in the **General Administration** module in the application UI as shown in the example.\[Omitted image "gen-admin-module.png"\] Alt text: General Administration module.
 
 The Business Continuity Management administrator with the sn\_bcm.admin role is responsible to perform the administrative tasks that are associated with the Business Continuity Management application.
 
-Typically, the Business Continuity Management administrator performs the following administrative tasks:
+Business Continuity Management administrators perform these administrative tasks:
 
--   Configure the impact categories. For more information, see [Configure impact category for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-category-uib-ws.md).
--   Configure the documentation sections. For more information, see [Configure documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-doc-section-for-bcp.md).
--   Configure the element definitions. For more information, see [Configure element definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-definition-bia-uib-ws.md).
--   Configure the loss scenarios. For more information, see [Configure loss scenarios in the plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-plan-loss-scenario-uib-ws.md).
--   Configure the impact ratings. For more information, see [Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-rating-uib-ws.md).
--   Configure the recovery tiers. For more information, see [Configure recovery tiers for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.md).
--   Configure the recovery timeframes. For more information, see [Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md).
--   Configure the element variables. For more information, see [Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-variable-uib-ws.md).
--   View the My tasks page configurations module. For more information, see [My tasks page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/my-tasks-page-config-module.md).
--   Configure the approval configurations. For more information, see [Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-approval-configuration.md).
--   Configure the properties. For more information, see [BCM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-properties-module.md).
+-   Configure the impact categories and documentation sections. For more information, see [Configure impact category for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-category-uib-ws.md) and [Configure documentation section](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-doc-section-for-bcp.md).
+-   Configure the element definitions, element variables, loss scenarios, and impact ratings. For more information, see [Configure element definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-definition-bia-uib-ws.md), [Configure element variables for element definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-variable-uib-ws.md), [Configure loss scenarios in the plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-plan-loss-scenario-uib-ws.md), and [Configure impact ratings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-rating-uib-ws.md).
+-   Configure the recovery tiers and recovery timeframes. For more information, see [Configure recovery tiers for BIA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-recovery-tier-bia-uib-ws.md) and [Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md).
+-   View the My tasks page configurations module, approval configurations, and properties. For more information, see [My tasks page configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/my-tasks-page-config-module.md), [Approval configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-approval-configuration.md), and [BCM properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcm-properties-module.md).
 -   For more information on the grid configurations and categories, see [Configure grid for BIA assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-grid-configuration-uib-ws.md) and [Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-grid-category.md).
+-   Create a recovery team from the classic workspace. For more information, see [Create a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-recovery-team-classic-ws-admin.md).
+
+Starting with BCM release 12.x.x, the **Recovery Teams** module is also enabled in the **General Administration** module, letting you create a recovery team from the classic workspace as shown in the example.\[Omitted image "cm-bcmadmin-ui16-recovery-teams-menu.png"\] Alt text: General Administration module with the Recovery Teams menu item.
+
+## Custom queue for the Update dependencies process
+
+Previously, Update dependencies events were added to the platform default queue, which is shared across all ServiceNow applications. During periods of high activity, this could result in delays in processing BCM dependency updates. It can happen either because other applications saturated the queue, or because a long-running BCM process affected other items in it.
+
+With the Australia release and later, the Update dependencies process uses a dedicated custom queue \(bcm\_dependencies\) instead of the platform default queue. This is a backend change with no visible indicator in the UI.
+
+The dedicated queue ensures that Update dependencies events have their own processor and do not compete with or block other platform activity.
+
+If you previously configured a custom queue for BCM dependency processing on your instance, remove it — BCM now provides this configuration natively.
+
+For more information about custom queues and the event registry, see [System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/events.md) and [Event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_EventRegistry.md).
+
+This change applies to the Australia release and later.
 
 ## BIA Configuration module
 
 The BCM administrator configures the BIA templates in the BIA Configuration module. Configuring the BIA templates is a pre-requisite for performing the business impact analysis.
 
-The **BIA templates** menu option in the BIA Configuration module is shown in the following example.\[Omitted image "bia-config-module.png"\] Alt text: BIA Configuration module.
+The **BIA templates** menu option in the BIA Configuration module is shown in the example.\[Omitted image "bia-config-module.png"\] Alt text: BIA Configuration module.
 
 For more information on configuring a BIA template, see [Configure BIA templates with legacy assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-bia-template-uib-ws.md).
 
 ## Plan Templates module
 
-Typically, the Business Continuity Management administrator uses the **Plan Templates** module to configure a business continuity plan template. The **Plan Templates** module is shown in the following example.\[Omitted image "plan-templates-module.png"\] Alt text: Plan Templates module.
+The Business Continuity Management administrator uses the **Plan Templates** module to configure a business continuity plan template. The **Plan Templates** module is shown in the example.\[Omitted image "plan-templates-module.png"\] Alt text: Plan Templates module.
 
 For more information on configuring a business continuity plan template, see [Configuring plan template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/bcp-admin-plan-templates.md).
 
@@ -67,6 +77,8 @@ Configure an impact rating to assess an impact category as low, moderate, high, 
 Configure a recovery tier with a set of business applications that follow a similar range of recovery time objective \(RTO\) values. Use the **Recovery Tiers** module in the Business Continuity Management application navigator to configure a recovery tier.
 -   **[Set up recovery timeframes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-recovery-timeframe-bia-uib-ws.md)**  
 Set up a recovery timeframe for a recovery tier. The recovery timeframe starts from when a disruptive event happens to the time when your business can resume usual operations. You can use the **Recovery Timeframes** module in the Business Continuity Management application to set up the timeline for the recovery timeframe.
+-   **[Set up the phases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/set-up-phases.md)**  
+Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 -   **[Configure grid categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-grid-category.md)**  
 Configure a grid category such as Dependency Assessment for the grid configuration. Use the **Grid Categories** module in the Business Continuity Management application navigator to configure the grid categories.
 -   **[Configure grid for BIA assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-grid-configuration-uib-ws.md)**  
@@ -79,6 +91,8 @@ Approver configurator provides you with capabilities to define multiple levels o
 You can configure the BCM properties in the **Properties** module.
 -   **[Properties installed with BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/properties-bcm.md)**  
 Properties are added with the activation of Business Continuity Management.
+-   **[Create a recovery team](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/add-recovery-team-classic-ws-admin.md)**  
+Create a recovery team from the administration menu in the BCM classic Workspace. Add users and groups, attach locations, and build parent-child relationships to organize your business continuity response structure.
 
 **Parent Topic:**[Configuring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configuring-business-continuity-management.md)
 

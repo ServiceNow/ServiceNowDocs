@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
@@ -19,6 +19,10 @@ Register a contractor company to initiate its health and safety pre-qualificatio
 ## Before you begin
 
 Role required: sn\_hs\_crm.reporter
+
+## About this task
+
+A safety contractor coordinator can also directly add a contractor company from the Health and Safety Workspace. For more information, see [Add a contractor company from Health and Safety Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-contractor-management/hs-add-contractor-company-from-workspace.md).
 
 ## Procedure
 

@@ -7,17 +7,15 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2026-04-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 keywords: [asset performance reports, hardware assets efficiency]
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset performance reports in the Hardware Asset Workspace
 
 Gain insights into the overall operational efficiency of your organization's hardware assets by using the asset performance reports available in the Asset analytics view.
-
-**Important:** Asset performance reports are available with Hardware Asset Management version 13.0.0 and later.
 
 Asset performance involves assessing how effectively and efficiently assets fulfill their intended functions within an organization. The evaluation includes measuring and analyzing key performance indicators \(KPIs\), such as:
 
@@ -214,4 +212,6 @@ The count of total outage records for an asset. Overlapping and concurrent outag
     -   Evaluate task
     -   Recall task
 -   The **Asset availability data collection** scheduled weekly job runs every Sunday to calculate the average values of the KPIs that includes Average availability, Average MTTR, and Average MTBF. The job then generates the reports in the Asset performance tab of the Asset analytics view.
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 

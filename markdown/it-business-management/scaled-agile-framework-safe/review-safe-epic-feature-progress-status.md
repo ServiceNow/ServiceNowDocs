@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Work Progress Status for SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -27,8 +27,6 @@ The Status column of the list shows a Green, Yellow, or Red indicator for each r
 The estimated completion date displays a date with the likelihood of the epic's or feature's completion.
 
 \[Omitted image "epics-progress-status.png"\] Alt text: A screenshot showing the progress status indicators of SAFe epics
-
-\[Omitted image "safe-features-progress-status.png"\] Alt text: A screenshot showing progress status indicators for SAFe features
 
 The [\[SAFe\] daily data collection job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scaled-agile-framework-safe/enable-safe-daily-data-collection-job.md) helps generate the burnup report for your epics and features. Using the data generated for these epic burnup reports, an estimated completion date is determined. You can see that this date is the intersection of Completed and Scope forecast series in the respective burnup reports.
 

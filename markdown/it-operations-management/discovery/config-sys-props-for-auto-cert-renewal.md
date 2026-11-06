@@ -1,0 +1,47 @@
+---
+title: Configure system properties for auto-renewal
+description: Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/config-sys-props-for-auto-cert-renewal.html
+release: yokohama
+product: Discovery
+classification: discovery
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configuring automated certificate renewal, Automated certificate renewal, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
+---
+
+# Configure system properties for auto-renewal
+
+Enable the auto-renewal options in your System Properties to configure your system to renew automatically Transport Layer Security \(TLS\) certificates before they expire.
+
+## Before you begin
+
+Check that you have completed the tasks, [Configure MID Server for automatic certificate renewal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/configure-mid-server-automatic-cert-renewal.md), and [Add required applications and capabilities to MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/add-req-apps-capabilities-to-mid-server.md).
+
+Role required: pki\_admin or admin
+
+## About this task
+
+Configuring your system properties to enable automatic certificate renewal is required for using the automatic renewal workflow and the AI certificate renewal agent.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
+
+2.  Search for **auto\_renew**.
+
+3.  Select**sn\_disco\_certmgmt.enable\_auto\_renewal\_options\_in\_service\_catalog**
+
+4.  Set the **Value** field to **true**.
+
+
+## Result
+
+Your system is configured to renew automatically certificates before they expire.
+
+## What to do next
+
+You can [Set certificates to renew automatically](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/set-certificate-to-renew-automatically.md) or use the [Certificate renewal AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/now-assist-cert-renewal-ai-agent.md).
+

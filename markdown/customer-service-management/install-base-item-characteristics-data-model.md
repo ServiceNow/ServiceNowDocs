@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/install-base-item-characteristics-data-model.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install base characteristics, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Install base characteristics, Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Data model for the Install base item characteristics
@@ -17,8 +17,6 @@ The data model for the install base item characteristics represents how the char
 The Customer Service Management application has several functional and granular roles that provide access levels to create, read, and update characteristics for an install base item. The install base item characteristics table \[sn\_install\_base\_item\_characteristic\] comes with different security roles and plugins. For more information on security roles, see [Security roles for the install base characteristics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/security-roles-for-install-base-attributes.md).
 
 The following diagram shows the data model for the Install base characteristics. The data model represents the new and existing install base item and install base item characteristics tables.
-
-
 
 \[Omitted image "ib-characteristics-data-model.png"\] Alt text: Install base item characteristics data model. For the text description, refer to the section that preceded this diagram.
 

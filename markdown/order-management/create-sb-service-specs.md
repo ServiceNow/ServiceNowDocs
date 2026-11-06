@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-sb-service-specs.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Configuring Service Exchange Order Management for Providers, Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
 
 # Create a service specification for a remote catalog item
@@ -22,15 +22,15 @@ Role required: sn\_prd\_pm.product\_catalog\_admin or sn\_prd\_pm.product\_catal
 
 ## About this task
 
-When you create a customer facing service specification for a service request and you're using, use the **Distribution channel** field to set the channel to Service Exchange. When the service specification is published, a remote record producer is created for the specification.
+When you create a service specification for a service request, use the **Distribution channel** field to set the channel to Service Exchange. When the service specification is published, a remote record producer is created for the specification.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Specifications** &gt; **Service specifications** and select **New**.
 
-    On the Details tab, fill in the fields.
+    On the Details tab, fill in the form.
 
 <table id="table_p3t_cxq_4nb"><thead><tr><th>
 
@@ -98,7 +98,7 @@ Type of service specification: -   **Customer Facing**
 
 Customers can create a ticket or a case for the service. When you select this type, the **Distribution channel** field is displayed to specify how the service is provided, for example web.
 
-**Note:** If you're using Service Exchange Order Management for Providers, only Customer Facing Service specifications are eligible for remote catalog creation. Service Exchange must be specified as the Distribution channel so that remote record producers can be created.
+**Note:** Only Customer Facing Service specifications are eligible for remote catalog creation.
 
 -   **Resource Facing**
 
@@ -180,7 +180,7 @@ Distribution channel
 
 </td><td>
 
-Option to set and lock in a distribution channel. For example, you can specify web as a channel. You can specify multiple channels. **Note:** If you're using the Service Exchange Order Management for Providers application and have a customer facing specification, enter Service Exchange as the distribution channel so that remote record producers can be created for remote catalog creation.
+Option to set and lock in a distribution channel. For example, you can specify web as a channel. You can specify multiple channels. **Note:** If you're using the Service Exchange Order Management for Providers application, enter Service Exchange as distribution channel.
 
 </td></tr><tr><td>
 

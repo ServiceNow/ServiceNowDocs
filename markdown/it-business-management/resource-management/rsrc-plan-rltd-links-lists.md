@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Resource Management reference, Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -31,14 +31,6 @@ Copy Resource Plan
 </td><td>
 
 Copies the opened resource plan into a new resource plan.
-
-</td></tr><tr><td>
-
-Resource Workbench
-
-</td><td>
-
-Opens the [workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceWorkbench.md). The link appears only for the resource manager for resource plans in Confirmed or Allocated state.
 
 </td></tr><tr><td>
 

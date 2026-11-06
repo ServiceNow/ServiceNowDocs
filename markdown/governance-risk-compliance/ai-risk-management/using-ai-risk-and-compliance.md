@@ -7,7 +7,7 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
@@ -17,23 +17,23 @@ breadcrumb: [AI Risk and Compliance, Governance, Risk, and Compliance]
 Use the AI Risk and Compliance to request AI systems, AI models, AI datasets, and so on and perform assessments for them to determine their risk posture.
 
 -   **[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.md)**  
-Request the development or procurement of an AI use case to initiate and document the need for an AI-driven solution within an organization. This process ensures that AI implementations are aligned with business goals, compliant with regulations, and technically feasible.
+Request the development or procurement of an AI system to initiate and document the need for an AI-driven solution within an organization.
 -   **[Request an AI model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-model.md)**  
-Request the development or procurement of an AI model to customize or deploy an AI system tailored to specific business needs.
+Request the development or procurement of an AI model to support an AI system and initiate governance review, risk assessment, and life cycle tracking.
 -   **[Request a dataset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-dataset.md)**  
-Request a dataset to analyze trends, train AI models, or support data-driven decisions.
+Request a dataset to support AI model training, testing, validation, or analytical use cases. Datasets are reviewed for quality, privacy, and compliance.
 -   **[Raise an AI inquiry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/raise-ai-inquiry.md)**  
 Submit your questions about AI systems, models, or datasets and their business applications.
 -   **[Report an AI case from the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/report-ai-case.md)**  
-Report an AI case by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
--   **[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)**  
-Create an AI case in the AI Risk and Compliance workspace by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+Report an AI case by describing the system behavior, affected users, and relevant data, and attach supporting files.
+-   **[Report an AI case anonymously](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/report-ai-case-anon.md)**  
+Report an AI case without revealing your identity using the Anonymous Reporting Center. Your name and contact details are not shared with investigators. Save the report key and report number provided after submission to track updates or provide additional information later.
 -   **[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)**  
 Identify and manage issues related to the impacted areas for the reported AI case in the AI Risk and Compliance workspace.
 -   **[Remediate an issue in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/remediate-an-issue-in-airc.md)**  
 After an issue has been created, reported, identified, triaged, and investigated, you can remediate it.
 -   **[Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md)**  
-Initiate AI assessment for the whole AI asset.
+Initiate an AI assessment on an AI asset to send an assessment questionnaire to the assigned user, enabling structured evaluation of the asset against published assessment templates.
 -   **[Perform impact assessment on an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-impact-assessment-of-ai-use-case.md)**  
 Perform an impact assessment of an AI use case to identify risks like copyright issues, bias, privacy breaches, misinformation, or surveillance, enabling improved oversight and risk management.
 -   **[Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md)**  
@@ -50,10 +50,14 @@ Create a bulk risk assessment project to perform assessments on multiple risks a
 Perform assessments on multiple risks and controls simultaneously in a risk assessment project using AI Risk and Compliance Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
 -   **[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)**  
 Perform assessments on multiple risks and controls simultaneously in a risk assessment project in the grid view using AI Risk and Compliance Workspace. You can assess inherent risks, effectiveness of controls, residual risks, and target risks. You can define risk responses that enable you to manage and mitigate the risks identified during the risk assessment process.
--   **[Activate or update NIST Risk Management Framework using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-nist-using-the-content-accelerator.md)**  
-Activate or update NIST Risk Management Framework and select the citations for the framework. It installs the framework and the selected citations, control objectives, and risk statements on your instance.
--   **[Activate or update EU Artificial Intelligence Act using the ESG content accelerator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/activate-or-update-eu-artificial-intelligence-act.md)**  
-Activate or update the EU Artificial Intelligence Act and select the citations for the framework. It installs the framework and the selected citations on your instance.
+-   **[Use a compliance evaluation on an AI system record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-use-compliance-evaluation-ai-system.md)**  
+Map a control objective to an AI system, run its compliance evaluation, and review evaluation results, supporting data, and automatically created issues.
+-   **[Create an AI case in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-ai-case-in-the-ai-risk-and-compliance-workspace.md)**  
+Create an AI case in the AI Risk and Compliance workspace by providing a detailed description, such as system behavior, affected users, and any relevant data. Ensure all necessary information, such as supporting attachments, is included for prompt resolution.
+-   **[Accept or dismiss AI-recommended control objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-co.md)**  
+Generate AI-assisted recommendations to quickly identify and associate relevant control objectives with an AI Assessment from the AI risk and compliance library.
+-   **[Accept or dismiss AI-recommended risk statements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-accept-ai-recco-risk-stmt.md)**  
+Generate AI-assisted recommendations to quickly identify and associate relevant risk statements with an AI Assessment from the AI risk and compliance library.
 
 **Parent Topic:**[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/r_WhatIsGRC.md)
 

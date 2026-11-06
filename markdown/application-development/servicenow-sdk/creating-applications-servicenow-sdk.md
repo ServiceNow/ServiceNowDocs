@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Adding applications with the ServiceNow SDK
@@ -18,12 +18,12 @@ Add applications to your local system to get started with development in source 
 
 -   [Create an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/create-application-now-sdk.md)
 
-    Create a scoped application that supports development in source code.
+    Create an application that supports development in source code.
 
 -   [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/convert-application-now-sdk.md)
 
-    Convert an existing scoped application to support development in source code.
+    Convert an existing application to support development in source code.
 
 
-You can also clone an existing scoped application that has already been converted to support development in source code from a remote Git repository in Visual Studio Code Desktop. For more information, see [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) in the Visual Studio Code documentation.
+You can also clone an existing application that has already been converted to support development in source code from a remote Git repository in Visual Studio Code Desktop. For more information, see [Introduction to Git in VS Code](https://code.visualstudio.com/docs/sourcecontrol/intro-to-git) in the Visual Studio Code documentation.
 

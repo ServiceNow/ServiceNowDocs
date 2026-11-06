@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Create an action in Workflow Studio, Building actions, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Create an action in Workflow Studio, Build actions, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Dynamic inputs
@@ -18,7 +18,7 @@ Generate a list of action inputs or input values each time that someone configur
 
 **Note:** Dynamic inputs are not available in the base system. To use dynamic inputs in Workflow Studio, you must [Request an Integration Hub plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-integrationhub.md). Dynamic inputs are part of the ServiceNow Flow Designer - Introspection \[com.glide.hub.flow\_designer\_introspection\] plugin.
 
-During flow design, dynamic inputs retrieve values and display them as inputs within an action dynamically. These types of dynamic inputs are available to action authors.git/yokohama/doc/source/administer/flow-designer/task/use-flow-designer-help-panel.dita
+During flow design, dynamic inputs retrieve values and display them as inputs within an action dynamically. These types of dynamic inputs are available to action authors.
 
 -   **Dynamic Choice**
 
@@ -119,22 +119,6 @@ Decimal
       label: 'Decimal type input',
       name: 'decimaltype',
       type: 'decimal',
-    }]
-  }
-```
-
-</td></tr><tr><td>
-
-Duration
-
-</td><td>
-
-```
-{ 
-    data: [{
-      label: 'Duration type input',
-      name: 'durationtype',
-      type: 'duration',
     }]
   }
 ```

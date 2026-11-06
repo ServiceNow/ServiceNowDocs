@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -18,11 +18,11 @@ Create a configuration to filter the view of the scenario planner or building ov
 
 ## Before you begin
 
-Role required: sn\_wsd\_spcmgmt.space\_planner
+Role required: sn\_wsd\_spcmgmt.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Administration** &gt; **View-by Settings Configuration**
+1.  Navigate to **All** &gt; **Workplace Space Management** &gt; **Administration** &gt; **View-by Settings Configuration**
 
 2.  On the View by Configurations list, select **New**.
 
@@ -65,6 +65,8 @@ Role required: sn\_wsd\_spcmgmt.space\_planner
 [Create a Space Recommender rule]()
 
 [Raise a space assistance request]()
+
+[]()
 
 [Reviewing allocation changes]()
 

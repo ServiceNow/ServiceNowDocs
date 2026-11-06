@@ -1,30 +1,67 @@
 ---
-title: Managing dispute agent workspace
-description: The dispute agent workspace provides a single location for a dispute agent to process cases and tasks. An agent can use this workspace to respond to all task types, view the full context of an issue, and get relevant recommendations to help resolve issues.
+title: Dispute agent workspace
+description: The dispute agent workspace provides a single, streamlined, and consistent workflow for agents. This workspace offers alignment with back‑end process steps and easier decision‑making through each stage of a dispute. The landing page provides an overview of your cases and tasks, which helps to monitor your workload, focus on high-priority items, and track the status of disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/workspace-for-agent.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Managing dispute agent workspace
+# Dispute agent workspace
 
-The dispute agent workspace provides a single location for a dispute agent to process cases and tasks. An agent can use this workspace to respond to all task types, view the full context of an issue, and get relevant recommendations to help resolve issues.
+The dispute agent workspace provides a single, streamlined, and consistent workflow for agents. This workspace offers alignment with back‑end process steps and easier decision‑making through each stage of a dispute. The landing page provides an overview of your cases and tasks, which helps to monitor your workload, focus on high-priority items, and track the status of disputes.
 
-If you're a user with either the sn\_bom\_credit\_card.admin or sn\_bom\_credit\_card.dispute\_agent role, you can access the dispute agent workspace.
-
-On the workspace landing page, as an agent, you can get a quick overview of the cases and tasks that you and your team are working on. The widgets help you and your team to monitor your workload, focus on high-priority items, and track your responsibilities.
+**Role required**: To access the disputes page, you need to have these roles: sn\_bom\_credit\_card.admin or sn\_bom\_credit\_card.dispute\_agent.
 
 **Note:** The widgets and the data that are displayed in the widgets depend on your role.
 
-The following example shows the dispute agent landing page.\[Omitted image "dispute\_agent\_home.jpg"\] Alt text: View of the dispute agent landing page.
+## User interface of Dispute workspace
 
-\[Omitted image "dispute\_agent\_landing.jpg"\] Alt text: View of case tasks page.
+The disputes workspace for Financial Services Operations provides a centralized interface for managing and resolving dispute cases. As a dispute agent, you can resolve disputes in a visual and consistent workflow by handling chargebacks, fraud reports, duplicate transactions, SLAs, and ensure timely resolutions.
 
-**Parent Topic:**[Managing dispute service requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-card-disputes.md)
+Let's understand the Financial Services Operations disputes page.\[Omitted image "my-tasks.png"\] Alt text: Dashboard of the tasks opened
+
+The **Card Dispute Landing Page** consists of a dashboard with the following sections.
+
+-   Your cases and tasks.
+    -   Open vs resolved cases and task
+    -   SLAs breached or at risk
+    -   Agent workload
+-   Team cases and tasks
+
+## Dispute life cycle
+
+The dispute life cycle of Financial Services Operations includes the following stages:
+
+-   **Initiate**: Submit a dispute case in a playbook
+
+    \[Omitted image "dispute-initiate.png"\] Alt text: Dispute displayed as playbook
+
+-   Processing: Investigate the dispute. In this stage, each transaction within a dispute case is presented as a process-based layout. This layout visually represents the distinct stages of the investigation workflow for that specific transaction.
+
+    The Processing stage includes these stages:
+
+    1.  Investigate
+    2.  Chargeback
+    3.  Complete
+-   Closure: Close the case.
+
+The dispute agent has continuous visibility into key financial transaction details while working on tasks, regardless of the transaction's stage.
+
+The **Dispute Workspace** displays a list of all open tasks for the agent, each showing its SLA and current State.
+
+-   When the agent selects a task, the task details expand and the Activity stream shifts down.
+-   The agent can take action on a task directly within the expanded view without navigating to another tab.
+-   The agent can attach documents related to the task within the task detail section.
+-   The agent can write work notes for the task, which appears in the activity stream once the task is saved.
+-   After a task is complete, it automatically moves to the **Closed** tab.
+
+**Note:** If Card Data Security is installed and configured, **Attachments** in the contextual side panel will handle files differently in transaction records. For more information, see [Manage attachments in Card Data Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/manage-attachments-in-card-data-security.md).
+
+**Parent Topic:**[Managing Disputes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/managing-disputes.md)
 

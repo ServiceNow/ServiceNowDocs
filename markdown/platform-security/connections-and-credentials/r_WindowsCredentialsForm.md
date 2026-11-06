@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2025-11-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create and test your credentials, Getting started with credentials, Connections and Credentials, Access Management]
+breadcrumb: [Create and test your credentials, Get started with credentials, Connections and Credentials, Access Management]
 ---
 
 # Windows credentials
@@ -31,15 +31,15 @@ To provide sufficient permissions, Windows credentials must be one of the follow
 
 -   A domain user with local administrator access on the target Windows hosts.
 
-    **Important:** If User Account Control \(UAC\) is enabled on the Windows operating system where discovery runs, and the user account is part of the local Administrators group, administrator tasks may fail. To avoid interruptions, we recommend disabling UAC. For more information, see the [Why does the User Access Control \(UAC\) need to be disabled for Windows Discovery?](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1638330) article in the Now Support Knowledge Base
+    **Important:** If User Account Control \(UAC\) is enabled on the Windows operating system where discovery runs, and the user account is part of the local Administrators group, administrator tasks may fail. To avoid interruptions, we recommend disabling UAC.
 
 -   A local account that has administrator privileges and UAC disabled on the same target host.
--   A user who meets the requirements of Windows [probes and permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_DiscoWinProbesAndPermissions.md) \(Discovery only\).
+-   A user who meets the requirements of Windows probes and permissions \(Discovery only\).
 -   A user who meets the requirements of the Orchestration activity to be run \(Orchestration only\).
 
 **Note:** No logon privileges are needed. Account does NOT need to be interactive.
 
-Security around granting privileged access can be enhanced by using JEA profiles to run Discovery. For more information, see [Microsoft Just Enough Administration \(JEA\) for Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/microsoft-jea-discovery.md).
+Security around granting privileged access can be enhanced by using JEA profiles to run Discovery. For more information, see Microsoft Just Enough Administration \(JEA\) for Discovery.
 
 ## Workgroup computers
 
@@ -64,7 +64,7 @@ These additional actions are required to enable credentials to function across m
 |---------|---------------------------|
 |MID Server host on the same domain as the Windows target.|None|
 |MID Server host on a different domain than the Windows target.|Ensure that PowerShell 3.0 \(or higher up to 5.1\) is installed on the MID Server host.|
-|MID Server host on a different domain than the Microsoft SQL Server target.|See [MSSQL server discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/mssql-data-collected-pattern.md) .|
+|MID Server host on a different domain than the Microsoft SQL Server target.|See MSSQL server discovery .|
 
 ## Windows credentials type
 
@@ -124,7 +124,7 @@ Credential alias
 
 </td><td>
 
-Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.To use the credential for discovering CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs, for example cmdb\_ci\_apache\_web\_server.
+Allow workflow creators to assign individual credentials to any activity in an Orchestration workflow or assign different credentials to each occurrence of the same activity type in an Orchestration workflow.To discover CIs not belonging to this CI type using Service Mapping and Discovery patterns, enter the table name for the CI type to which the CI belongs. For example, enter `cmdb_ci_apache_web_server`.
 
 </td></tr><tr><td>
 

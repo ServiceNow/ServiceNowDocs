@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -193,7 +193,6 @@ Provides easy access to the quick actions and is available across all the tabs f
 3.  Analyst Assist
 4.  Runbook
 5.  Templates
-6.  Attachments
 
 </td></tr><tr><td>
 
@@ -259,6 +258,10 @@ View the chronological timeline of events for a security incident and filter by 
 
 **Related topics**  
 
+
+[Using ServiceNow Otto for Security Incident Response \(SIR\) generative AI skills]()
+
+[Using agentic AI workflows]()
 
 [Security Incident Playbook]()
 

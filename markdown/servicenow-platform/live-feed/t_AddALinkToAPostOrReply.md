@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Post content in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,15 +30,11 @@ Role required: none
 
     The **URL** and **Link text** fields appear.
 
-    \[Omitted image "AddAURL.png"\] Alt text: Add a URL
-
 3.  Enter the URL and the text you want to appear as the link.
 
 4.  To add another link, click the link icon under the **URL** field.
 
 5.  When you have finished entering your message, click **Post** or **Reply**.
-
-    \[Omitted image "URLSaved.png"\] Alt text: URL Saved
 
     To remove a link, click the trash can icon adjacent to the link. To make changes to an existing link, click the edit \(\[Omitted image "Pencil.png"\] Alt text: Pencil\) icon.
 

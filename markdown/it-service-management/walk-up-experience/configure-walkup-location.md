@@ -7,7 +7,7 @@ release: yokohama
 product: Walk-Up Experience
 classification: walk-up-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Configure, Walk-up Experience, IT Service Management]
 ---

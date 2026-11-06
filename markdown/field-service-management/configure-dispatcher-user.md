@@ -5,24 +5,24 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configure-dispatcher-user.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Dispatcher Workspace, Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dispatcher Workspace, CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configure user groups for dispatchers in Dispatcher Workspace
 
 Enable dispatchers to be a member of different user groups so they can efficiently manage agents.
 
+## About this task
+
+Dispatch groups must be added to a dispatcher’s user record so they can see members of the user group. This also allows the dispatcher to see the assignment groups that are part of that user group in Dispatcher Workspace.
+
 ## Before you begin
 
 Role required: admin
 
-\[Omitted video\] Description: Configuring user groups
-
-## About this task
-
-Dispatch groups must be added to a dispatcher’s user record so they can see members of the user group. This also allows the dispatcher to see the assignment groups that are part of that user group in Dispatcher Workspace.
+\[Omitted video\] Description: Configure user groups for dispatchers in Dispatcher Workspace
 
 ## Procedure
 
@@ -32,7 +32,7 @@ Dispatch groups must be added to a dispatcher’s user record so they can see me
 
 3.  Select the **Groups** tab.
 
-4.  Select Edit.
+4.  Select **Edit**.
 
 5.  Select the Dispatch Group that you want the dispatcher to be a part of.
 

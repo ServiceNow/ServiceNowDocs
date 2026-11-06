@@ -1,5 +1,5 @@
 ---
-title: Create a free-form roadmap in Portfolio Planning Workspace
+title: Create a free-form roadmap
 description: Create a standalone visual roadmap to start high-level planning of work from different units of the company.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-portfolio-planning-workspace.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create a free-form roadmap in Portfolio Planning Workspace
+# Create a free-form roadmap
 
 Create a standalone visual roadmap to start high-level planning of work from different units of the company.
 
@@ -45,6 +45,8 @@ Select a source table as a starting point to base your roadmap on. Select one of
 
     3.  Enter details of the name and planned dates for the roadmap.
 
+        **Note:** The start and end dates for your roadmap act as a date range filter for all the items displayed in the roadmap.
+
 4.  Select **Create**.
 
 
@@ -58,13 +60,13 @@ Select a source table as a starting point to base your roadmap on. Select one of
 -   Update, personalize, and collaborate with your roadmap.
 -   Add milestones or create dependencies for the items planned on your roadmap.
 
--   **[Update details of free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-details-of-free-form-roadmap.md)**  
+-   **[Update details of free-form roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-details-of-free-form-roadmap.md)**  
 Update the details of a free-form roadmap to reflect the changes in priorities or the timeline of the roadmap.
--   **[Share a free-form roadmap with stakeholders in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md)**  
+-   **[Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md)**  
 Add people from your organization who are the stakeholders for the work involved in your roadmap plan so that they have visibility into the roadmap's progress.
--   **[Collaborate on a free-form roadmap in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/collaborate-free-form-roadmap-portfolio-planning.md)**  
+-   **[Collaborate on a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/collaborate-free-form-roadmap-portfolio-planning.md)**  
 Add comments and attachments to a free-form roadmap for other users of your organization can review and share their feedback. Collaborate and ensure that your roadmap aligns with your company's priorities.
--   **[Managing free-form roadmap views in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)**  
+-   **[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)**  
 Portfolio managers can create customized views for their free-form roadmap by applying personalization settings such as grouping, milestones selection, dependencies selection, and tracking mode. Portfolio owners or editors can share these personalized views with stakeholders to enable easier collaboration on the free-form roadmaps.
 
 **Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configuring-sb-om.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Order Management for providers with Service Exchange, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Order Management for providers with Service Exchange, Integrate, Sales Customer Relationship Management]
 ---
 
 # Configuring Service Exchange Order Management for Providers
@@ -48,7 +48,7 @@ Admin
 
 </td><td>
 
-Install the Service Exchange for Consumers application from theServiceNow Store. For details on configuring this application, see[Install Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/install-service-bridge-v2-customer.md) .
+Install the Service Exchange for Consumers application from theServiceNow Store. For details on configuring this application, see [Installing and configuring Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-install.md).
 
 </td><td>
 
@@ -96,7 +96,7 @@ Product catalog admin or manager
 
 </td><td>
 
-In the provider instance, review the remote record producer and associate the customer criteria that entitles the catalog item for eligible Service Exchange consumers.
+In the provider instance, review the remote record producer and associate the customer criteria that entitles the catalog item for eligible Service Bridge consumers.
 
 </td><td>
 
@@ -104,11 +104,11 @@ Service Exchange provider admin
 
 </td></tr><tr><td>
 
-Associate consumer criteria to the remote record producer for manage inventory.
+Associate consumer criteria to the remote record producer for managing inventory.
 
 </td><td>
 
-Review the remote record producer for manage inventory and associate the customer criteria.
+Review the remote record producer for managing inventory and associate the customer criteria.
 
 </td><td>
 

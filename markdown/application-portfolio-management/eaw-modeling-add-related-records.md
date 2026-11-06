@@ -1,20 +1,22 @@
 ---
 title: Add related records in the modeling diagram
-description: Fetch and add a related record to the selected shape in a diagram.
+description: Fetch and add specific related records to the selected shape in a diagram.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-add-related-records.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Enterprise Modeling and Visualization in the EA Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Enterprise Modeling and Visualization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Add related records in the modeling diagram
 
-Fetch and add a related record to the selected shape in a diagram.
+Fetch and add specific related records to the selected shape in a diagram.
 
 ## Before you begin
+
+\[Omitted video\] Description: Fetch and add specific related records to the selected shape in a diagram
 
 Role required: sn\_apm.apm\_user and Owner or Editor access to the artifact or diagram
 
@@ -33,14 +35,15 @@ You can add both upstream and downstream related entities to a shape in a diagra
 
 3.  Select an existing diagram from the Diagrams page.
 
-4.  Select a shape in the diagram and then open the context menu and then the More Actions menu \(\[Omitted image "eaw-icon-menu.png"\] Alt text: More actions menu icon\).
+4.  Select a shape in the diagram and open the context menu.
 
-5.  Open the **Add related records** pop-up window by selecting the Add related records icon \(\[Omitted image "icon-add-related-records.png"\] Alt text: Add related records icon\).
+5.  Open the Add related records pop-up window by selecting the Add related records icon \(\[Omitted image "icon-add-related-records.png"\] Alt text: Add related records icon\).
 
-6.  Select the entities that you want to add to the diagram.
+6.  Select the specific entities that you want to add to the diagram.
 
     -   Select the Expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to **Upstream** or **Downstream** to view the list of available related entities.
-    -   Select the check box next to the relevant entity.
+    -   Select the Expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand Row icon\) next to an entity type to view the individual records within that type.
+    -   Select the check box next to the individual records that you want to add.
 7.  Select **Add**.
 
 
@@ -48,7 +51,7 @@ You can add both upstream and downstream related entities to a shape in a diagra
 
 The selected entities are added to the diagram for the object.
 
-**Parent Topic:**[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling.md)
+**Parent Topic:**[Working with Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-ent-model-and-visual.md)
 
 **Related topics**  
 
@@ -57,7 +60,7 @@ The selected entities are added to the diagram for the object.
 
 [Commit diagram changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-sync-diagram-servicenow.md)
 
-[Save as a new version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
+[Save as a version](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-save-as-new.md)
 
 [Duplicate a modeling diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-modeling-duplicate.md)
 

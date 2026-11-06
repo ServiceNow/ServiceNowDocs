@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Analyze project analytics from Project Workspace
@@ -24,17 +24,15 @@ Role required: it\_project\_user
 
 ## About this task
 
-The Analytics tab is a dashboard that showcases preconfigured widgets and reports to monitor the progress of a project, including aspects like open risks, actual costs, and delayed milestones. The reports aggregate data from the fields in the project form. For details on the various widgets and reports available for different project types, see the [Project analytics widgets and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-analytics-widgets.md).
+The Analytics tab is a dashboard that showcases preconfigured widgets and reports to monitor the progress of a project. This includes aspects like open risks, actual costs, and delayed milestones. The reports aggregate data from the fields in the project form. For details on the various widgets and reports available for different project types, see the [Project analytics widgets and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/project-analytics-widgets.md).
 
 ## Procedure
 
 1.  Open a project from the planning page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information on how to navigate to the planning page, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the analytics page of the project by selecting **Analytics** from the list.
-
-    \[Omitted image "project-analytics-pw.gif"\] Alt text: Quick view of Analytics page in Project Workspace.
 
 3.  Review the displayed reports and take necessary actions, if required.
 

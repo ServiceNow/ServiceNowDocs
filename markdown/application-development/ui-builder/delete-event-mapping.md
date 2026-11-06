@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Delete an event mapping
@@ -36,15 +36,9 @@ Role required: admin
 
 5.  Select the **Events** tab in the configuration panel.
 
-    \[Omitted image "delete-event-mapping-events-tab.png"\] Alt text: Arrow pointing to the Events tab in the configuration panel.
-
 6.  Select the delete all icon \(\[Omitted image "uib-delete-event-mapping-icon.png"\] Alt text: Delete icon.\) next to the event you want to delete.
 
-    \[Omitted image "delete-event-mapping-trash.png"\] Alt text: Arrow pointing to the trash button used to delete an event mapping.
-
 7.  The event mapping is removed from the associated component.
-
-    \[Omitted image "uib-delete-event-mapping-result.png"\] Alt text: Event mapping removed from the component.
 
 
 **Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md)

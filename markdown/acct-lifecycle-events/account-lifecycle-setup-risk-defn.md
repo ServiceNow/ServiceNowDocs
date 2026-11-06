@@ -1,23 +1,23 @@
 ---
-title: Setup the engagement risk definition
+title: Define risk criteria
 description: Use the engagement risk definition to configure the metrics required to define the risk signals for an engagement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-setup-risk-defn.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Engagements, Customer success, Configure, Customer Success Management]
 ---
 
-# Setup the engagement risk definition
+# Define risk criteria
 
 Use the engagement risk definition to configure the metrics required to define the risk signals for an engagement.
 
 ## Before you begin
 
--   Role required: sn\_acct\_lc.ale\_success\_agent
--   Data source and data context engine mapping must be setup for metric based risk definitions. See [Setup the data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
+-   Role required: sn\_acct\_lc.customer\_success\_agent
+-   Data source and data context engine mapping must be setup for metric based risk definitions. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 -   For table based risk definitions, an active context engine mapping with source table as Engagement must be defined.
 
 ## About this task
@@ -63,7 +63,7 @@ Category
 
 </td><td>
 
-Select a category for the risk definition. The risk categories displayed here are defined in the [ALE choice record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-ale-choice.md).
+Select a category for the risk definition. The risk categories displayed here are defined in the [Create a customer success choice record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-ale-choice.md).
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Enter a description for the risk definition.
 
 </td></tr><tr><td colspan="2">
 
-`Metric based:` This option is used to create or update risks if a risk threshold is breached. To create a metric based risk definition, select the metric and define the thresholds. Set up the template and specify conditions to define the list of applicable engagements.
+`Metric based:` This option is used to create or update risks if a risk threshold is breached. If you're creating a metric based risk definition, select the metric, define the thresholds, set up the template, and specify conditions to define the list of applicable engagements.
 
 </td></tr><tr><td>
 
@@ -93,7 +93,7 @@ Metric
 
 </td><td>
 
-Select the metric definition that has been configured in the Data Source table and mapped with the context engine mapper. See [Setup the data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
+Select the metric definition that has been configured in the Data Source table and mapped with the context engine mapper. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 
 </td></tr><tr><td>
 
@@ -129,9 +129,9 @@ Source table
 
 </td><td>
 
-Select the source table for which the risk definition is to be created.**Note:** A context mapper must have been defined that associates the source and the context tables. See [Setup the data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
+Select the source table for which the risk definition is to be created.**Note:** A context mapper must have been defined that associates the source and the context tables. See [Data Context Engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md) for details.
 
-For example, if you want to define risk signals for a contract, select Contract as your source table. A context mapping with a Contract to Engagement association must have been defined.
+For example, if you want to define risk signals for a contract and select Contract as your source table, verify that a context mapping exists. A Contract to Engagement association must have been defined.
 
 </td></tr><tr><td>
 
@@ -139,7 +139,7 @@ Conditions
 
 </td><td>
 
-Specify any conditions that need to be used for the risk definition for the selected source table. Risks are generated for the records in the source table that satisfy the specified conditions.
+Specify any conditions that are to be used for the risk definition for the selected source table. Risks are generated for the records in the source table that satisfy the specified conditions.
 
 </td></tr><tr><td>
 
@@ -147,28 +147,33 @@ Template
 
 </td><td>
 
-Click the Template tab to define the fields for the risk definition. The following are mandatory fields:-   Short description
+Select the Template tab to define the fields for the risk definition. The following are mandatory fields:-   Short description
 -   Description
 -   Reported by
 
 
 </td></tr></tbody>
-</table>3.  Click **Submit** to create the risk definition.
+</table>3.  Select **Submit** to create the risk definition.
 
-4.  If you want to define risk threshold overrides for a metric based definition, open the risk definition you have created, navigate to the `Risk Threshold Overrides` related list and click **New**.
+4.  If you want to define risk threshold overrides for a metric based definition, open the risk definition you have created, navigate to the `Risk Threshold Overrides` related list and select **New**.
 
     Enter the following details:
 
-    -   Engagement risk definition: This is the engagement risk definition for which you are creating an override condition.
+    -   Engagement risk definition: This is the engagement risk definition for which you're creating an override condition.
     -   Threshold: Specify the override threshold value.
-    -   Click **Add Filter Condition** or **Add Or Clause** to specify additional override conditions.
+    -   Select **Add Filter Condition** or **Add Or Clause** to specify additional override conditions.
     -   Rank: Specify a rank for this override condition. 1 is highest rank. If an engagement matches multiple threshold overrides, the engagement with the highest rank is considered first.
-5.  Click **Submit** to create the override condition.
+5.  Select **Submit** to create the override condition.
 
-6.  Click **Publish**.
+6.  Select **Publish**.
 
     When the next scheduled job is run, the risk signals are generated. Navigate to **Data Context Engine** &gt; **Context Engine Data** to see the date and time the risk signals are generated.
 
     \[Omitted image "account-lifecycle-context-engine-data.png"\] Alt text: Context engine data
 
+
+-   **[Sample risk definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-risk-demo-data.md)**  
+These are sample risk definitions available with the base system and can configured based on your requirements.
+
+**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
 

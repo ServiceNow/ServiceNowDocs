@@ -1,0 +1,72 @@
+---
+title: Using Dynamic Guidance
+description: Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/using-dynamic-guidance.html
+release: yokohama
+product: Adoption Services
+classification: adoption-services
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Dynamic guidance use]
+breadcrumb: [Dynamic Guidance, Adoption services, Configure user experiences]
+---
+
+# Using Dynamic Guidance
+
+Learn how to invoke Dynamic Guidance and use it effectively to enhance your experience.
+
+## Before you begin
+
+Role required: sn\_dyn\_guidance\_user and genai\_admin
+
+**Note:** Starting with Dynamic Guidance version 28.4.3, the genai\_admin role is automatically included when the sn\_dyn\_guidance\_user role is assigned. The genai\_admin role does not grant administrative privileges.
+
+Google must be turned on in AI control tower for Dynamic Guidance to work.
+
+## How to use Dynamic Guidance
+
+## Procedure
+
+1.  Go to an instance you want help on.
+
+2.  Choose from ServiceNow Otto panel or Help Center as one of the options to launch Dynamic Guidance from.
+
+3.  Follow these steps to invoke Dynamic Guidance via Help Center:
+
+    1.  Launch Help Center from the instance to find Dynamic Guidance as your voice-enabled guide.
+
+        \[Omitted image "ads-dynamic-guide.png"\] Alt text: Dynamic guidance
+
+    2.  Select **Start**.
+
+4.  Follow these steps to invoke Dynamic Guidance from ServiceNow Otto panel:
+
+    1.  Navigate to ServiceNow Otto panel on your instance.
+
+    2.  Select Dynamic Guidance.
+
+    3.  Invoke the help agent from ServiceNow Otto panel via skill named 'Ask Dynamic Guidance for help'.
+
+    4.  Select **Open Dynamic Guidance**.
+
+5.  Select **Start** to enable.
+
+6.  Authorize the users' consent modal for screen sharing and microphone access.
+
+    This modal appears for first time users only.
+
+7.  Select **Allow** to enable access to the browser tab.
+
+8.  Allow and enable voice and screen sharing in browser tabs, when prompted.
+
+9.  Ask your question verbally to hear a conversational response real-time.
+
+    **Note:** The response will be relevant and according to the instance screen you use.
+
+10. End the conversation when you need and provide a feedback as prompted.
+
+11. Select **Submit** to save your response.
+
+

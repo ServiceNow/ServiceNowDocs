@@ -1,5 +1,5 @@
 ---
-title: View the Export Classification Control Number \(ECCN\) mappings for your software products
+title: View Export Classification Control Number \(ECCN\) mappings for your software products
 description: View the list of ECCNs that are mapped to your software products. Use this information to identify the products that are subject to U.S. export control regulations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/view-eccn-software-mappings.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# View the Export Classification Control Number \(ECCN\) mappings for your software products
+# View Export Classification Control Number \(ECCN\) mappings for your software products
 
 View the list of ECCNs that are mapped to your software products. Use this information to identify the products that are subject to U.S. export control regulations.
 

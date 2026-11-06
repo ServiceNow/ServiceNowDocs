@@ -1,22 +1,22 @@
 ---
-title: Building applications with ServiceNow Studio
-description: ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps with ease. Use ServiceNow Studio to build apps and app files with integrated tools, access and edit app metadata in scoped and global apps, and package app changes for deployment, all in one powerful development tool.
+title: ServiceNow Studio
+description: Use ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records from a single development environment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Building applications with ServiceNow Studio
+# ServiceNow Studio
 
-ServiceNow Studio provides a unified experience for all ServiceNow development activities, enabling admins and developers to extend base system solutions and create custom apps with ease. Use ServiceNow Studio to build apps and app files with integrated tools, access and edit app metadata in scoped and global apps, and package app changes for deployment, all in one powerful development tool.
+Use ServiceNow Studio to build, manage, and deploy custom, base system, or global applications and global metadata records from a single development environment.
 
-## Overview of ServiceNow Studio
+## What is ServiceNow Studio?
 
 \[Omitted video\] Description: Learn about ServiceNow Studio in this overview video.
 
@@ -39,29 +39,50 @@ ServiceNow Studio provides a unified experience for all ServiceNow development a
 [Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about ServiceNow Studio components such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-reference.md)
 
 </td></tr></tbody>
-</table>## Which builder should I use to create an app?
+</table>## Which app builder should I use?
 
-\[Omitted image "mmasset0020724-appengine-landing.svg"\] Alt text: Different builders available for different skill levels
+Use the following table to choose the app building experience that matches your role and technical background.
 
-**Want to build an app easily, without code?**
+<table id="app-builders-table"><thead><tr><th>
 
-Creator Studio specializes in helping you craft request-fulfillment applications without writing code. For example, an application to request office supplies by filling out a form, and someone approves or denies your request. For more information, see [Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md).
+Tool
 
-**Need a more general app but still want low-code options?**
+</th><th>
 
-App Engine Studio lets you build a broader range of apps than Creator Studio without being a programming pro. For more information, see [Exploring App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/exploring-aes.md).
+Users
 
-**Are you a developer who wants more control in a centralized user interface?**
+</th><th>
 
-Build apps smarter and deliver them faster with the new ServiceNow Studio. ServiceNow Studio empowers platform developers with a modern, unified environment for building on the ServiceNow AI Platform. ServiceNow Studio features streamlined navigation to applications and metadata, integrated low-code tools, efficient tracking and packaging of development work that accelerates development processes and enhances productivity. For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+Features
 
-**Are you a developer who wants to use industry-standard development tools and processes?**
+</th></tr></thead><tbody><tr><td>
 
-The ServiceNow IDE and ServiceNow SDK support developing applications in source code with ServiceNow Fluent, creating JavaScript modules, and using third-party libraries. ServiceNow Fluent is a domain-specific programming language for creating application metadata in code.
+Build Agent: Build an app using natural language prompts.
 
-The ServiceNow IDE is an implementation of Visual Studio Code for the Web on the ServiceNow AI Platform. The ServiceNow SDK uses Visual Studio Code Desktop locally. For more information, see [Building applications in source code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md).
+</td><td>
 
-## Give ServiceNow Studio a try
+Developers of all experience levels \(from low-code to Platform and source code\)
+
+</td><td>
+
+Build full-stack applications via a conversational interface.You can use Build Agent in ServiceNow Studio and the ServiceNow IDE to generate a complete ServiceNow scoped or global application. For more information, see [Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md).
+
+</td></tr><tr><td>
+
+ServiceNow Studio: Build and deliver apps in a unified environment.
+
+</td><td>
+
+Citizen developers, Platform developers
+
+</td><td>
+
+Build apps in a unified development environment.ServiceNow Studio provides streamlined navigation, integrated low-code tools, and built-in tracking and packaging so you can develop and ship apps faster. Use Build Agent in ServiceNow Studio to create and update apps with a conversational interaction.
+
+For more information, see [Exploring ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/exploring-servicenow-studio.md).
+
+</td></tr></tbody>
+</table>## Give ServiceNow Studio a try
 
 Ready to give ServiceNow Studio a try? You can test it out using your own Personal Development Instance \(PDI\), which requires you signing in to the Developer Site. Find out more on PDIs in the [Personal developer instance guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/personal_developer_instance_guide.md).
 
@@ -80,7 +101,11 @@ Ready to give ServiceNow Studio a try? You can test it out using your own Person
 </td></tr></tbody>
 </table>## Helpful resources
 
-Some ServiceNow resources that can provide you with helpful information are:
+Use these ServiceNow resources to find helpful information about app development.
+
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+
+    [The fastest way to learn Build Agent prompting? Ask Build Agent.](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544)
 
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
@@ -89,6 +114,10 @@ Some ServiceNow resources that can provide you with helpful information are:
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 
     Watch [App Engine Academy: Using ServiceNow Studio for Multi-Level Table Inheritance](https://www.youtube.com/watch?v=ZOz5a-Dvi5Y).
+
+-   **\[Omitted image "dcx-icon-community.svg"\]ServiceNow Community**
+
+    Find [Instance help for your personal developer instance \(PDI\)](https://www.servicenow.com/community/instance-help/ct-p/instance-help)
 
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 

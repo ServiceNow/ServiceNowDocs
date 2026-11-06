@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud policy, Policies for Cloud Provisioning, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create action for 'on Resource operation request start/end' policy
@@ -74,8 +74,8 @@ Create the script in the text box.See [Create a policy action script]() for deta
 </td></tr></tbody>
 </table>    |Field|Description|
     |-----|-----------|
-    |Action Name|Specify a unique and meaningful name for the action that starts the workflow.|
-    |Workflow|Select the workflow to execute.|
+    |Action Name|Specify a unique and meaningful name for the action that starts the subflow.|
+    |Subflow|Select the subflow to execute.|
 
     \[Omitted image "action-wf-on-cat-item-end.png"\] Alt text: Selecting a workflow as the policy action
 

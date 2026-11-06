@@ -1,26 +1,26 @@
 ---
 title: Navigate directly to a table in ServiceNow Studio
-description: Navigate directly to the list view of a table in ServiceNow Studio by using the Open list feature in the Navigator panel or search shortcuts in the main search.
+description: Open any table view directly in ServiceNow Studio using the Open list feature in the Navigator panel or search shortcuts in the Search bar.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/qs-navigate-directly-to-table.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow Studio quick start, Exploring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [ServiceNow Studio quick start, Explore, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Navigate directly to a table in ServiceNow Studio
 
-Navigate directly to the list view of a table in ServiceNow Studio by using the **Open list** feature in the Navigator panel or search shortcuts in the main search.
+Open any table view directly in ServiceNow Studio using the **Open list** feature in the Navigator panel or search shortcuts in the Search bar.
 
 ## Before you begin
 
 Role required: admin or delegated\_developer
 
-You can also watch a short video on how to navigate directly to a table.
+Watch a short video on how to navigate directly to a table.
 
 \[Omitted video\] Description: Video on how to navigate directly to a table in ServiceNow Studio
 
@@ -28,28 +28,32 @@ You can also watch a short video on how to navigate directly to a table.
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Open a table directly in one of two ways.
+2.  Open a table directly using one of the following options.
 
     -   In the Navigator panel, with any application or file category selected, select **Open list**.
 
-        The list opens in a new integrated tab. In the example below, this is a list of all apps on the Custom Applications table \[sys\_app\].\[Omitted image "sn-studio-open-list.png"\] Alt text: Open any list on the platform by opening it in the Navigator and selecting Open list.
+        The list opens in a new tab. In the example below, this is a list of all apps on the Custom Applications table \[sys\_app\].\[Omitted image "sn-studio-open-list.png"\] Alt text: Open any list on the platform by opening it in the Navigator and selecting Open list.
 
-    -   In the Search bar on the home page, enter one of the following inputs and press **Enter**.
+    -   In the Search bar, enter one of the inputs in the table below and press **Enter**. The table view opens in a new tab.
 
         **Important:** The table name must match the name in the dictionary entry for the table. For more information about the primary table associated with each metadata type, see [ServiceNow Studio Navigator panel taxonomy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-file-navigator-taxonomy.md).
 
-        When you enter an input, the table view opens in a new integrated tab.
+        To find the primary table name for a metadata type, select the metadata type in the Navigator panel. The primary table name appears below it. In the following example, **sys\_hub\_action\_type\_definition** is the table name for the **Action** metadata type.
 
-        |Input|Behavior|
-        |-----|--------|
-        |`<table name>.list`|Opens the list view of the table in the same window or tab.|
-        |`<table name>.form` or `<table name>.do`|Opens the form view of the table in the same window or tab.|
-        |`<table name>.config`|Opens the configuration view \[personalize\_all.do\] of the table in the same window or tab.|
-        |`<table name>.filter`|Opens an empty list view of the table in the same window or tab, so that you can apply filters without loading the list. This is helpful for large lists that take a long time to load.|
+        \[Omitted image "sn-studio-table-name.png"\] Alt text: View the table name for a metadata type under the name.
 
-        For example, if you want to open the list of all users in your organization, you could search for the Users table \[sys\_user\] using the search input `sys_user.list`. To add a new user quickly, search for `sys_user.do` to open a new form view of the Users table. To change the Users table configurations, search for `sys_user.config`. To open the Users table without loading any of the records, search for `sys_user.filter`.
+        When you enter an input, the table view opens in a new tab.
 
-        **Note:** You can use upper and lower case to change how the list view of a table opens.
+        |Input|Result|
+        |-----|------|
+        |`<table name>.list`|Opens the list view of the table.|
+        |`<table name>.form` or `<table name>.do`|Opens the form view of the table.|
+        |`<table name>.config`|Opens the configuration view \[personalize\_all.do\] of the table.|
+        |`<table name>.filter`|Opens an empty list view of the table so you can apply filters without loading all records. Use this shortcut for large tables that take a long time to load.|
+
+        For example, to open the list of all users, search for the Users table \[sys\_user\] using `sys_user.list`. To open a new form view of the Users table, search for `sys_user.do`. To open the Users table configuration, search for `sys_user.config`. To open the Users table without loading any records, search for `sys_user.filter`.
+
+        **Note:** Use upper or lower case to control how the table opens.
 
         -   &lt;table\_name&gt;.lower case: Opens the table in the content pane.
         -   &lt;table\_name&gt;.UPPER case: Opens the table record or list in a new tab.

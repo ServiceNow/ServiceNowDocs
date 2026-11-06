@@ -1,80 +1,181 @@
 ---
-title: Escalation triggers and policies
-description: Create and edit trigger rules.
+title: Configure escalation triggers and policies
+description: Configure the user, notification, and on-call escalation preferences by creating escalation trigger rules and policies.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/work-on-escalation-trigger-rules-and-policies-in-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [On-Call Scheduling in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-21"
+reading_time_minutes: 4
+breadcrumb: [Configuring On-Call Scheduling in Service Operations Workspace, On-Call Scheduling in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
-# Escalation triggers and policies
+# Configure escalation triggers and policies
 
-Create and edit trigger rules.
-
-## About this task
-
-There are two ways to create and edit escalation triggers and policies. Navigate to **Workspaces** &gt; **Service Operation Workspace** and:
-
--   Schedules menu:
-    -   Select the **Schedule** menu, select a shift card and click \[Omitted image "mim-edit-icon.png"\] Alt text: Edit shift icon.
-    -   Select **Escalation policies** tab and click **Open Team Record**.
--   Teams menu:
-    -   Select the **Teams** menu, select **All Shifts** from the drop-down and select a shift card.
-    -   Select **Escalation triggers and policies** tab.
+Configure the user, notification, and on-call escalation preferences by creating escalation trigger rules and policies.
 
 ## Before you begin
 
 Role required: rota\_manager, rota\_admin
 
+## About this task
+
+To apply an escalation policy to multiple teams, use policy templates in the on-call bulk onboarding. For more information, see [Create on-call schedules for multiple groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/oc-create-bulk-schedule-onboarding.md).
+
 ## Procedure
 
-1.  Under **Escalation policies** in the left panel, select **Create policy**.
+1.  Navigate to **Workspaces** &gt; **Service Operations Workspace** and use any of the following options.
 
-2.  On the form, fill in the fields.
+    -   Schedules menu:
+        -   Select the **Schedule** menu, select a shift card and select \[Omitted image "mim-edit-icon.png"\] Alt text: Edit shift icon.
+        -   Select the **Escalation policies** tab and select **Open Team Record**.
+    -   Teams menu:
+        -   Select the **Teams** menu, select **All Shifts** from the list, and then select a shift card.
+        -   Select the **Escalation triggers and policies** tab.
+2.  Under **Escalation policies** in the navigation panel, select **Create policy**.
+
+3.  On the form, fill in the fields.
 
     \[Omitted image "create\_policy\_teams\_menu\_sow.png"\] Alt text: Escalation triggers and policies form.
 
     |Field|Description|
     |-----|-----------|
-    |Active|Check the box to activate or deactivate the policy.|
-    |Create from scratch or Create from template|Create your own policy or use a template created by your admin.|
-    |Description|Enter text describing the policy.|
-    |Active on shift|Select from the list menu. Set this as the default using the check box.|
-    |Order|Select an order of execution. When there are multiple escalation triggers in a team, The one with smaller order number is checked first.|
-    |Conditions|Set the conditions for the policy by selecting a table and condition set. These conditions are checked after the escalation is started by an escalation trigger. If the conditions are met, the policy is run.|
-    |Escalation steps|Using the modal, add escalation steps. Select **Done** when you are finished.|
-    |Escalation notifications|Set the notification conditions for the policy. Toggle user preference override, manual set or use a template.|
-    |Add notification step|Select email, call, or SMS. You can add as many attempts as you like. Select **Done** when you are finished.|
+    |Active|Option to activate or deactivate the policy.|
+    |Create from scratch or Create from template|Option to create your own policy or use a template created by your administrator.|
+    |Description|Text that describes the policy.|
+    |Active on shift|Shift on which the escalation policy is applicable. Selection from the list of shifts. To make this shift the default, select the **Use as default** check box.|
+    |Use as default|Option to set the shift as default for the escalation policy.|
+    |Order|Order in which the escalation policy is executed. When there are multiple escalation triggers in a team, the one with the smaller order number is checked first.|
+    |Conditions|Conditions for the policy. You select a table and condition set. These conditions are checked after the escalation is started by an escalation trigger. If the conditions are met, the policy is run.|
+    |Escalation steps|Escalation steps that you can add in the dialog box. Select **Done** when you are finished.|
+    |Escalation notifications|Notification conditions for the policy. Options include user preference override, manual setup, or a template.|
+    |Add notification step|Notification step such as email, call, or SMS that you can add. You can add as many attempts as you like. Select **Done** when you are finished.|
 
-3.  To add more escalation levels to the policy, select **Add an escalation level**.
+4.  To add more escalation levels to the policy, select **Add an escalation level**.
 
-4.  Select **Save changes**.
+5.  Select **Save changes**.
 
-5.  To add another escalation policy to the team for another category of alert or incident, select **Add a policy**.
+6.  To add another escalation policy to the team for another category of alert or incident, select **Add a policy**.
 
-6.  To create trigger rules, select **Escalation triggers** in the left panel, select **Create trigger**.
+7.  To create trigger rules, select **Escalation triggers** in the navigation panel, and then select **Create trigger**.
 
-7.  On the form, fill in the fields.
+8.  On the form, fill in the fields.
 
     \[Omitted image "create\_trigger\_sow.png"\] Alt text: Create trigger form
 
-    |Field|Description|
-    |-----|-----------|
-    |Escalation trigger name|Enter the name of the trigger.|
-    |Active|Check the box to activate or deactivate the trigger.|
-    |Order|Select an order of execution. When there are multiple escalation triggers in a team, The one with smaller order number is checked first.|
-    |Conditions|Set the conditions for the trigger by selecting a table and condition set. When conditions are met, Escalation triggers are triggered for shifts in SRM team.|
+<table id="table_escalation_trigger"><thead><tr><th>
 
-8.  Select **Save changes**.
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Escalation trigger name
+
+</td><td>
+
+Name of the trigger.
+
+</td></tr><tr><td>
+
+Active
+
+</td><td>
+
+Option to activate or deactivate the trigger.
+
+</td></tr><tr><td>
+
+Order
+
+</td><td>
+
+Order in which the trigger rule is executed. When there are multiple escalation triggers in a team, the one with the smaller order number is checked first.
+
+</td></tr><tr><td>
+
+Conditions
+
+</td><td>
+
+Conditions for the trigger, defined by a selected table and condition set. When conditions are met, escalation triggers are triggered for shifts in SRM team.
+
+</td></tr><tr><td class="sub-head" colspan="2">
+
+Advanced options
+
+</td></tr><tr><td>
+
+Trigger action
+
+</td><td>
+
+Action that is triggered when the **Match conditions** and **Conditions** are met. Possible values:-   Subflow
+-   Workflow
+-   Script \(server-side JavaScript\)
+
+
+</td></tr><tr><td>
+
+Trigger workflow
+
+</td><td>
+
+Workflow to run. Available only if **Trigger action** is set to **Workflow**.
+
+</td></tr><tr><td>
+
+Trigger subflow
+
+</td><td>
+
+Subflow to run. Available only if **Trigger action** is set to **Subflow**.**Note:** The following subflows under the On-Call Escalation Triggers category can be configured using the trigger rules:
+
+-   On-Call: Assign
+-   On-Call: Assign and Notify
+-   On-Call: Assign By Acknowledgement
+-   On-Call: Escalations by Email
+
+
+</td></tr><tr><td>
+
+Trigger script
+
+</td><td>
+
+Script \(server-side JavaScript\) to run. Available only if the **Trigger action** field is set to **Script**.**Note:** This action is available only for users with the rota\_admin and admin roles.
+
+</td></tr><tr><td>
+
+Run trigger rule every time the selected field changes
+
+</td><td>
+
+Option to re-run the trigger rule when the field value of the specified **Trigger fields** is changed.
+
+</td></tr><tr><td>
+
+Trigger fields
+
+</td><td>
+
+List of fields for a specific table that, when changed, cause the trigger rule to re-run. For example, with table as incident, you can select fields such as assignment group, priority, and state.**Note:**
+
+-   This field is visible only if the **Run Trigger** field is set to **Every time trigger field changes**.
+-   You can use the Trigger Rule Table Configs table to configure which fields to be displayed for a specific table. You can access the table from the SOW Admin Center. For more information, see [Manage configurations in Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/manage-admin-console-sow-itsm.md) and [Configure a table for escalation trigger rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/configure-tables-for-escalation-trigger-rule.md).
+
+
+</td></tr></tbody>
+</table>9.  Select **Save changes**.
 
 
 -   **[Create escalation trigger rules and policy from team record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/edit-escalation-trigger-rules-and-policy-from-team-record.md)**  
-Navigate to team record to create new policy and trigger rules
+Create an escalation policy and trigger rules from a team record.
 
-**Parent Topic:**[On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/on-call-scheduling-in-sow.md)
+**Parent Topic:**[Configuring On-Call Scheduling in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configuring-oncall-scheduling-sow.md)
 

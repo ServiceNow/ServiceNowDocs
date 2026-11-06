@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Compliance
 classification: configuration-compliance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Remediation, Configuration Compliance, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Use, Configuration Compliance, Unified Security Exposure Management, Security Operations]
 ---
 
 # Create a change request in Configuration Compliance
@@ -73,15 +73,15 @@ Starting with version 19.0 of Vulnerability Response, you can create change requ
 
     1.  From the list of the **Applies to** field, choose one to continue.
 
-<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d434403e243">
+<table id="choicetable_llc_1nk_b4b"><thead><tr><th align="left" id="d444557e243">
 
 Option
 
-</th><th align="left" id="d434403e246">
+</th><th align="left" id="d444557e246">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d434403e252">
+</th></tr></thead><tbody><tr><td id="d444557e252">
 
 **All active test results in this group**
 
@@ -89,7 +89,7 @@ Description
 
 If selected, all active test results from this remediation task with a state other than **Closed** are added automatically to the change request after you click **Create Change**.
 
-</td></tr><tr><td id="d434403e267">
+</td></tr><tr><td id="d444557e267">
 
 **All active test results in this group matching a set of conditions**
 
@@ -109,15 +109,15 @@ State is **Open** and Risk Score is greater than **50**.
 
 6.  From the list for the **Change type** field, choose one to continue.
 
-<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d434403e340">
+<table id="choicetable_vkc_zvk_b4b"><thead><tr><th align="left" id="d444557e340">
 
 Option
 
-</th><th align="left" id="d434403e343">
+</th><th align="left" id="d444557e343">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d434403e349">
+</th></tr></thead><tbody><tr><td id="d444557e349">
 
 **Emergency**
 
@@ -125,7 +125,7 @@ Description
 
 A change to resolve a major incident.
 
-</td></tr><tr><td id="d434403e358">
+</td></tr><tr><td id="d444557e358">
 
 **Normal**
 
@@ -133,7 +133,7 @@ A change to resolve a major incident.
 
 A change type that is used to implement any change to a service that is not a standard or emergency change.
 
-</td></tr><tr><td id="d434403e367">
+</td></tr><tr><td id="d444557e367">
 
 **Standard**
 

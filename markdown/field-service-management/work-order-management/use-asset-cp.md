@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record the usage of assets on the Contractor Portal, Work order tasks on the Field Service Contractor Portal, Contractor Portal, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Record asset usage, Work order tasks \(WOTs\), Contractor Portal, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Record the assets used during a work task on the Contractor Portal
@@ -40,6 +40,4 @@ Role required: wm\_ext\_agent and wm\_ext\_manager
 ## Result
 
 The asset you used is successfully recorded in the agent personal stockroom.
-
-**Parent Topic:**[Record the usage of assets on the Contractor Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-asset-usage-on-cp.md)
 

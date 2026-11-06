@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -27,13 +27,13 @@ Configure the provider connector configuration for setting up environmental sens
 3.  [Set up the Units of measure data table for environmental sensors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/wsd-enviromental-unit-measure.md)  
 Configure the unit of measure for air quality \(Carbon dioxide and Ozone metric\) and temperature units \(degree celsius and micrograms per cubic meter\) for a workplace location. The Workplace Connectors environmental sensors checks for the air and temperature quality metrics in a workplace location.
 4.  [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/config-connectors-env-sensor.md)  
-Create environmental sensor data for a workplace location in Workplace Connectors. The Occupancy and Environment Data \(sn\_wsd\_wc\_occ\_env\_data\) table checks for carbon dioxide value, ozone, sound, light, temperature, pressure, and humidity levels at a workplace location. You can also view the time-series data for each value that is retrieved from the MetricBase.
-5.  [Extension point for occupancy and environment data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/extension-point-for-occupancy-and-environment-data.md)  
-Create a scripted extension point to process occupancy and environment data from the provider and convert it into a standard format. Confirm that each provider implements this extension.
+Create environmental sensor data for a workplace location in Workplace Connectors. The Environmental Data \(sn\_wsd\_wc\_space\_environment\) table checks for air quality, temperature, and humidity levels at a workplace location.
+5.  [Archive and purge Environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/archive-purge-environmental-data.md)  
+Use the archive rules and destroy rules to archive and purge the environmental data. Archive and purge the Environmental data \(sn\_wsd\_wc\_space\_envrionment\) table records.
 
 **Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
 
-**Previous topic:**[Retrieving Space Occupancy Data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/space-occupancy-data.md)
+**Previous topic:**[Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md)
 
 **Next topic:**[Set up Connector Configuration for Environmental sensor data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/wsd-connectorconfiguration-environment.md)
 

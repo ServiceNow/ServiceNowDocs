@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/exploring-auditing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Auditing]
 ---
@@ -44,7 +44,7 @@ The system audits deletions from a list when it **audit** is selected on the tab
 
 `glide.db.audit.ignore.delete = sys_mutex,sys_db_cache,sys_lucene_block,sys_lucene_file,sys_lucene_directory,sys_user_preference,sys_audit,sc_cart,sc_cart_item,sys_trigger,wf_context,wf_activity,wf_condition,wf_executing,wf_history,wf_log,wf_transition,wf_transition_history, cmdb_ci_windows_service, cmdb_sam_sw_install, cmdb_software_instance, cmdb_sam_sw_usage, sam_sw_counter_detail`
 
-To learn more about adding system properties, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+To learn more about adding system properties, see Add a system property
 
 It is to be noted that by default, the audit deletes are enabled whether the record is deleted from the form view, list view, or through a script/scheduled job.
 
@@ -87,7 +87,7 @@ For instructions on how to audit a table, see [Configuring auditing for a table]
 By default, the system tracks all fields in an audited table. You can audit a subset of fields in a table in one of two ways:
 
 -   You can enable auditing for the entire table, then exclude those fields you don’t want to include. It’s appropriate when you want to audit most, but not all, fields, and is referred to as an exclusion listing. For more information, see [Exclude a field from being audited \(exclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/t_ExcludeAFieldFromBeingAudited.md).
--   You can enable auditing for the table, but only for specified fields. It’s appropriate when you want to audit only a small number of the table's fields and is referred to as an inclusion listing. For information on how to include a field using an inclusion listing, see [Including a table field in auditing \(inclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-whitelist-audit-field.md).
+-   You can enable auditing for the table, but only for specified fields. It’s appropriate when you want to audit only a small number of the table's fields and is referred to as an inclusion listing. For information on how to include a field using an inclusion listing, see [Include a table field in auditing \(inclusion listing\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-whitelist-audit-field.md).
 
 ## Non-cancellable audit records
 
@@ -97,7 +97,7 @@ Audits have been set to create a record immediately in the same transaction with
 
 **Note:** The enhanced audit process is enabled by default. If the `glide.db.audit.lazy`property is set to `True`, the enhanced audit process is disabled.
 
-Prior to Yokohama release, if a transaction is cancelled, certain auditable operations were missed being recorded. This is because the platform executes some operations between the record change and is cancelled before audit creation. But, now audits are created immediately after the record is changed, reducing the chances of a cancelled transaction aborting the operation before the audit is recorded.
+Prior to Brazil release, if a transaction is cancelled, certain auditable operations were missed being recorded. This is because the platform executes some operations between the record change and is cancelled before audit creation. But, now audits are created immediately after the record is changed, reducing the chances of a cancelled transaction aborting the operation before the audit is recorded.
 
 Audits are now recorded in the same thread as the transaction. Earlier audits were created in a background thread. This change redefines the default value of the `glide.db.audit.lazy` property from True to False. This property is not usually defined in the Properties table because the majority of instances start using the new default value and behavior. On some instances, this property might be already present and set as True, which means that these instances won’t be able to use this change to audit behavior.
 

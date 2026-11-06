@@ -1,20 +1,20 @@
 ---
-title: Upload to an external provider
-description: Upload documents from Document Management to external cloud like Microsoft OneDrive, Microsoft SharePoint, or Google Drive.
+title: Upload to a cloud
+description: Upload documents from Document Management to an external cloud like Microsoft OneDrive, Microsoft SharePoint, or Google Drive.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/document-management-services/upload-external-provider.html
 release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Document Management integration with external content providers, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Upload to an external provider
+# Upload to a cloud
 
-Upload documents from Document Management to external cloud like Microsoft OneDrive, Microsoft SharePoint, or Google Drive.
+Upload documents from Document Management to an external cloud like Microsoft OneDrive, Microsoft SharePoint, or Google Drive.
 
 ## Before you begin
 
@@ -41,17 +41,29 @@ Role required: mp\_document\_admin
 
 4.  Select the **Connect With External Provider** check box.
 
-5.  Select **Upload to Provider**.
+5.  Select **Upload to Cloud**.
 
-6.  Select the external provider and enter the folder path.
+6.  Select the external cloud and enter the folder path.
 
-7.  Select **Upload**.
+7.  Select **Upload default version** to upload a default version or select **Upload local file** to attach a local file.
+
+    **Note:** Uploading a local file creates a version in the instance.
+
+8.  -   For uploading a default version you can select **Remove from instance** check box to remove the attached version from the database.
+
+    **Note:** The removed attachment version will still appear for tracking.
+
+-   For uploading a local version you can select **Do not store instance** check box not to store the attachment in the database.
+
+    **Note:** The attachment won’t be stored in the database, but a new version is created for tracking.
+
+9.  Select **Upload**.
 
     **Note:** Only the latest version is uploaded.
 
-8.  Select the **External Provider Settings** tab to view the provider details and the external file URL.
+10. Select the **External Provider Settings** tab to view the provider details and the external file URL.
 
-9.  Select **Open Cloud URL** at the top to open the document in the external cloud.
+11. Select **Open Cloud URL** at the top to open the document in the external cloud.
 
 
 **Parent Topic:**[Document Management integration with external content providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/document-management-services/integration-external-content-providers.md)

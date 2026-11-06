@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Inbound web service examples
@@ -27,11 +27,9 @@ Examples demonstrating an integration with a Python web services client.
 -   **[Web services C Sharp .NET end to end tutorial](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_CSharpNETEndEnd.md)**  
 Examples demonstrating how to use .NET to consume a ServiceNow web service.
 -   **[Sample ASP.NET with C Sharp redirect with cookies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/r_ASPNETCSharpRdrctCks.md)**  
-This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
+This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a cookie.
 -   **[Sample ASP Script for unencrypted single sign-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_SampleASPScriptUnencryptedSSO.md)**  
-This sample ASP .NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
--   **[Retrieve a large number of records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_RtvLrgNmbrRcrdSOAP.md)**  
-By default, a single SOAP request can retrieve a maximum of 250 records.
+This sample ASP.NET code creates a simple authentication portal and passes an unencrypted HTTP header as a URL parameter.
 
 **Parent Topic:**[Inbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/inbound-web-services.md)
 

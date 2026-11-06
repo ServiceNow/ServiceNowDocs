@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Jelly tags, Creating custom UI Pages and UI macros, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Jelly tags, UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Jelly escaping types

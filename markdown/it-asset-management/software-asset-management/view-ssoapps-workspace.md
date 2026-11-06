@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View SSO applications in workspace
@@ -28,7 +28,7 @@ Role required: sam\_admin or sam\_user
 
     List of all connected and disconnected SSO applications is shown.
 
-3.  Select a application record to view additional details such as SSO application groups, users, SSO subscriptions, and reclamation candidates for an application.
+3.  Select an application record to view additional details such as SSO application groups, users, SSO subscriptions, and reclamation candidates for an application.
 
 <table id="table_tp4_cvh_bzb"><thead><tr><th>
 
@@ -73,6 +73,14 @@ Reclamation Candidates
 </td><td>
 
 Subscriptions that don't meet the usage requirements that are defined by the reclamation rule for the application.
+
+</td></tr><tr><td>
+
+SSO Group Software Model Mappings
+
+</td><td>
+
+SSO groups that are mapped to specific software models for managing licenses at the group level.
 
 </td></tr></tbody>
 </table>

@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test step categories, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Application Navigator category
@@ -190,7 +190,7 @@ Role required: admin
 
     -   Navigate to **System Definition** &gt; **Application Menus** and select the application menu from the list.
     -   Point to the application menu and click the edit application \(pencil\) icon.
-    \[Omitted image "CreateAModule.gif"\] Alt text: Gif showing the first and second methods for creating a module
+
 
 2.  Scroll down to the **Modules** related list and click **New**.
 

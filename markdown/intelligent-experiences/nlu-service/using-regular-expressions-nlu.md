@@ -1,5 +1,5 @@
 ---
-title: Using regular expressions in entities
+title: \(Legacy\) Using regular expressions in entities
 description: Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/using-regular-expressions-nlu.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Using regular expressions in entities
+# \(Legacy\) Using regular expressions in entities
 
 Learn how to use regular expressions in your NLU entities to establish patterns that help the system locate, match, and manage text.
 
@@ -59,21 +59,4 @@ For further information on regular expressions, see the following external links
 -   [Java Regular Expression Tester](https://www.freeformatter.com/java-regex-tester.html#documentation)
 -   [Pattern \(Java Platform SE7\)](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html)
 -   [Java regex match abbreviations](https://blog.softhints.com/java-regex-extract-abbriviations/)
-
-**Parent Topic:**[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity]()
-
-[Create a mapped entity]()
-
-[Create a pattern entity]()
-
-[Create a system-derived entity]()
-
-[Create an open-ended entity]()
-
-[Import entities]()
 

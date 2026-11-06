@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/activate-plugin-pdi.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate a plugin, ServiceNow plugins, Basic system configuration, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -17,6 +17,8 @@ You can test a plugin on your personal developer instance \(PDI\) before launchi
 ## Before you begin
 
 Request a PDI on the .
+
+Role required: admin
 
 ## About this task
 
@@ -55,18 +57,10 @@ Developer Site
 </td><td>
 
 1.  Sign in to the .
-2.  On the home page, go to the Instance Management widget and select **Manage** &gt; **Activate plugin**.
+2.  On the home page, select **Manage my instance**.
+3.  In the **Plugins for your instance** section, filter for plugins that are not activated.
+4.  Hover over the plugin you want to install, and select one of the activation options.
 
-The Instance Management widget is titled **Your Instance**. It contains information such as the status, URL, and release version of your PDI.
-
-\[Omitted image "activate-plugin-pdi.png"\] Alt text: Selecting to activate a plugin in the Instance Management widget
-
-3.  On the window, locate the plugin to activate.
-4.  Next to the plugin listing, select **Activate**.
-
-If available, you can further select to activate the plugin only or include demo data.
-
-\[Omitted image "activate-plugin-dev-portal.png"\] Alt text: Activating a plugin from the window titled "Your instance actions"
 
 </td></tr></tbody>
 </table>

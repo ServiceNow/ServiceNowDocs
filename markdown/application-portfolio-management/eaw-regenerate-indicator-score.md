@@ -1,18 +1,18 @@
 ---
 title: Regenerate application indicator scores on-demand in Enterprise Architecture Workspace
-description: You can update application indicator scores on-demand, to assess the application across various dimensions such as cost, quality, technical risk, business value, to gather real-time insights into the performance of applications and take immediate action, if necessary.
+description: You can update application indicator scores on-demand to assess applications across dimensions such as cost, quality, technical risk, and business value. This provides real-time insights into application performance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-regenerate-indicator-score.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure indicators, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Working with indicators, Working with the Setup page, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Regenerate application indicator scores on-demand in Enterprise Architecture Workspace
 
-You can update application indicator scores on-demand, to assess the application across various dimensions such as cost, quality, technical risk, business value, to gather real-time insights into the performance of applications and take immediate action, if necessary.
+You can update application indicator scores on-demand to assess applications across dimensions such as cost, quality, technical risk, and business value. This provides real-time insights into application performance.
 
 ## Before you begin
 
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-On-demand generation of indicator scores makes sure that the assessment reflects the most recent state of the application and is useful when immediate feedback on application performance is required.
+On-demand generation of indicator scores makes sure that the assessment reflects the most recent state of the application. This is useful when immediate feedback on application performance is required.
 
 ## Procedure
 
@@ -47,5 +47,22 @@ On-demand generation of indicator scores makes sure that the assessment reflects
     This action doesn’t update the existing application indicator scores but deletes them and generates new scores.
 
 
-**Parent Topic:**[Configure indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)
+**Parent Topic:**[Working with indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-indicators.md)
+
+**Related topics**  
+
+
+[Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)
+
+[Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-indicator.md)
+
+[Activate or turn off an application or capability indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-enable-or-disable-an-application-indicator.md)
+
+[Regenerate application indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-regenerate-indicator-score.md)
+
+[Regenerate capability indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-regenerate-capability-indicator-scores-in-eaw.md)
+
+[Application indicator score calculation in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-application-indicator-score-calculation.md)
+
+[Technology lifecycle risk score in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-trm-technology-lifecycle-risk-score.md)
 

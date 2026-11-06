@@ -1,20 +1,20 @@
 ---
 title: Roles required for Engagement project planning for Project Portfolio Management
-description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement project.
+description: The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement and provides planning features for resource planning, cost planning, and more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/Engagement-project-roles-ppm.html
 release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Audit Management reference, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Reference, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Roles required for Engagement project planning for Project Portfolio Management
 
-The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement, and provides planning features that could be used for resource planning, cost planning, and so on, from the engagement project.
+The advanced planning capability enables integration of Advanced Audit with the Project Portfolio Management \(PPM\) product. The capability creates an equivalent project for the engagement and provides planning features for resource planning, cost planning, and more.
 
 ## Engagement-project planning features and roles
 
@@ -69,7 +69,7 @@ Users can enter the project budget, move projects, calculate completion estimate
 </td><td>
 
 -   Users need portfolio\_manager role to create project budget. If a user role is being added manually, use the it\_portfolio\_manager role instead of portfolio\_manager role.
--   Users need project\_manager role to be able to calculate completion estimates, and move project. If a user role is being added manually, use the it\_project\_manager role instead of project\_manager role.
+-   Users need project\_manager role to be able to calculate completion estimates, and move projects. If a user role is being added manually, use the it\_project\_manager role instead of project\_manager role.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Audit Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/audit-management-reference.md)
@@ -77,5 +77,5 @@ Users can enter the project budget, move projects, calculate completion estimate
 **Related topics**  
 
 
-[Roles required for Advanced planning capability and Project Portfolio Management integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
+[Roles required for Advanced planning capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/roles-for-audit-and-ppm.md)
 

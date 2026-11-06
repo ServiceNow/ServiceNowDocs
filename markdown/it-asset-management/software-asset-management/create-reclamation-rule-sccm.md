@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a reclamation rule to import Microsoft SCCM usage data
@@ -24,9 +24,9 @@ Role required: sam\_admin
 
 A software product must have a product process, which consists of a filename, that is required for SCCM Usage to pull data. When adding a software product to a reclamation rule, any product processes associated with the software product are shown in the **Product Process** related list. Product processes are stored in the Software Product Process \[samp\_sw\_product\_process\] table.
 
-If a product process does not exist for a software product, you can create a custom one on the form. Product processes are stored in the Custom Product Process \[samp\_custom\_product\_process\] table.
+If a product process doesn’t exist for a software product, you can create a custom one on the form. Product processes are stored in the Custom Product Process \[samp\_custom\_product\_process\] table.
 
-Some software products may not include a product process, but new product processes are added weekly through the content library updates.
+Some software products may not include a product process, but new product processes are added twice every week through the content library updates.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ Name
 
 </td><td>
 
-Name of the product that you are creating the reclamation rule for.
+Name of the product for which you’re creating the reclamation rule.
 
 </td></tr><tr><td>
 
@@ -114,7 +114,7 @@ Amount of time the software must be used to avoid being reclaimed.
 
     |Field|Description|
     |-----|-----------|
-    |Last used before|Amount of time a user can keep unused software before it is reclaimed.|
+    |Last used before|Amount of time a user can keep unused software before it’s reclaimed.|
 
 5.  Select **Save**.
 
@@ -136,7 +136,7 @@ Amount of time the software must be used to avoid being reclaimed.
 
 10. Complete the following steps if the software product that you selected doesn't have a product process associated with it.
 
-    1.  Select the link in the banner that displays on the Reclamation Rule form after you've applied the software product.
+    1.  Select the link in the banner that displays on the Reclamation Rule form after you have applied the software product.
 
     2.  On the Custom Product Process form, fill in the details to add a process to the product.
 
@@ -164,31 +164,31 @@ To begin creating a reclamation rule, add the following information to the Recla
 |Aggregate usage by|Last Month|
 |Total hours used|20|
 
-Click **Save**.
+Select **Save**.
 
 \[Omitted image "reclamation-rule-excel.png"\] Alt text: Reclamation Rule form filled out with Microsoft Excel as the publisher.
 
-A software product already exists for Microsoft Excel, so you need to associate the product with the reclamation rule.
+A software product exists for Microsoft Excel, so you must associate the product with the reclamation rule.
 
-On the Software Product related list, click **Edit**.
+On the Software Product related list, select **Edit**.
 
 On the Edit Members form, navigate to Excel in the Collection column and select Excel. Add it to the Software Product List column.
 
 \[Omitted image "reclamation-rule-add-product.gif"\] Alt text: Adding the Microsoft Excel product to the reclamation rule.
 
-Click **Save**.
+Select **Save**.
 
 \[Omitted image "reclaimation-rule-excel-product.png"\] Alt text: Reclamation Rule form with Excel added to the Software Product related list.
 
-Two product processes are associated with Excel. Click the Product Process related list to view the product processes.
+Two product processes are associated with Excel. Select the Product Process related list to view the product processes.
 
 \[Omitted image "reclaimation-rule-product-process-excel.png"\] Alt text: Reclamation Rule form with two product processes added to the Product Process related list.
 
-On the Reclamation Rule form, click **Save**.
+On the Reclamation Rule form, select **Save**.
 
 ## What to do next
 
-The reclamation rule is added to the Reclamation Rules list and the data of the product will be imported from SCCM during the next monthly scheduled import.
+The reclamation rule is added to the Reclamation Rules list and the data of the product gets imported from SCCM during the next monthly scheduled import.
 
 **Parent Topic:**[Software Asset Management administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMAdministration.md)
 

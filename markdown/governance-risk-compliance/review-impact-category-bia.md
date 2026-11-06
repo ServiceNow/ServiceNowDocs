@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/review-impact-category-bia.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Assess impact categories and dependencies of process, Structured workflows for BIA, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -52,6 +52,4 @@ BCM administrators configure the impact categories that are relevant to your bus
 
     The state changes to **Complete** and is closed for editing unless you select the **Edit** button again.
 
-
-**Parent Topic:**[Assess impact categories and dependencies of a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/assess-impact-categories-bia.md)
 

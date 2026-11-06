@@ -1,31 +1,31 @@
 ---
-title: Explore Now Assist in Document Management
-description: Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
+title: Explore ServiceNow Otto in Document Management
+description: ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/explore-now-assist-in-document-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [explore]
-breadcrumb: [Now Assist in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [ServiceNow Otto in Document Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Explore Now Assist in Document Management
+# Explore ServiceNow Otto in Document Management
 
-Now Assist in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
+ServiceNow Otto in Document Management uses generative AI to extract key insights from documents through seamless conversational interactions, reducing manual effort while improving accuracy and consistency.
 
-## Now Assist in Document Management overview
+## ServiceNow Otto in Document Management overview
 
-Once activated and configured, Now Assist in Document Management uses generative AI capabilities available to generate key insights of the document through conversational interactions.
+After you activate and configure, ServiceNow Otto in Document Management uses generative AI to generate key insights from the document through conversational interactions.
 
-## Now Assist in Document Management users
+## ServiceNow Otto in Document Management users
 
 |User|Description|
 |----|-----------|
-|Admin|The sn\_nowassist\_admin.nsa\_admin can configure the skills for Now Assist in Document Management|
+|Admin|The sn\_nowassist\_admin.nsa\_admin can configure the skills for ServiceNow Otto in Document Management|
 
-## Now Assist in Document Management benefits
+## ServiceNow Otto in Document Management benefits
 
 <table id="table_amf_g24_3hc"><thead><tr><th>
 
@@ -35,39 +35,43 @@ Benefit
 
 Feature
 
-</th><th>
-
-Users
-
 </th></tr></thead><tbody><tr><td>
 
 Generate instant summaries and key document insights
 
 </td><td>
 
-[Generate a document summary by using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/generate-document-summary-now-assist.md)
-
-</td><td>
-
-Admin
+[Generate a document summary by using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/generate-document-summary-now-assist.md)
 
 </td></tr><tr><td>
 
-Extract key document insights through conversational interactions, powered using generative AI capabilities
+Extract key document insights through conversational interactions using generative AI
 
 </td><td>
 
-[Generate summary and ask questions using Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/ask-questions-faqs-now-assist.md)
+[Generate summary and ask questions using ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/ask-questions-faqs-now-assist.md)
+
+</td></tr><tr><td>
+
+Redact sensitive information from documents
 
 </td><td>
 
-Admin
+[Redact sensitive data from documents using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/redact-sensitive-data-using-AI.md)
+
+</td></tr><tr><td>
+
+Generate audio summaries and interact using voice based queries to extract information from documents
+
+</td><td>
+
+[Generate audio summaries and query documents using voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/generate-audio-summary-voice-questions-now-assist.md)
 
 </td></tr></tbody>
 </table>## What to explore next
 
-To learn more about configuring and using Now Assist in Document Management, see:
+To learn more about configuring and using ServiceNow Otto in Document Management, see:
 
--   [Configure Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configure-now-assist-document-management.md)
--   [Use Now Assist in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/use-now-assist-document-management.md)
+-   [Configure ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configure-now-assist-document-management.md)
+-   [Use ServiceNow Otto in Document Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/use-now-assist-document-management.md)
 

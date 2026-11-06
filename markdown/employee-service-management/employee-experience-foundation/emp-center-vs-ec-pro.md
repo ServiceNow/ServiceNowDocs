@@ -7,10 +7,10 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [employee center vs employee center pro, ec vs ec pro, employee center employee center pro, difference between employee center and employee center pro, employee center pro]
-breadcrumb: [Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Exploring Employee Center Pro
@@ -74,7 +74,7 @@ For more information on Employee Center Pro user roles, see [Employee Center Pro
 |Submit request for content, track the request, preview the content, and approve it before it is published|[Content Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-governance.md)|Employee|
 |Book and manage appointments across multiple business units.|[Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/appointment-booking.md)|Employee|
 |View in one place all tasks, surveys, and requests that require action.|[My active items widget configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/my-activity-config.md)|Employee|
-|One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/app-launcher-usability.md)|Employee|
+|One-click access to frequently-used internal and external sites.|[Cross-channel favorites](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)|Employee|
 |Access self-serve capabilities through guided experiences to improve productivity and efficiency.|[Guided Self-Service in Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/gss-guided-self-service-overview.md)|Employee|
 |Employees comment and react to news articles; Content authors measure the effectiveness of their content using engagement metrics.|[Content engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-content-engagement.md)|Employee, Content author|
 |Find information about other employees and understand the team structure|[Organization chart in Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/employee-profile-org-chart.md)|Employee, Manager|
@@ -91,6 +91,6 @@ For more information on Employee Center Pro user roles, see [Employee Center Pro
 To learn more about configuring and using Employee Center Pro, see:
 
 -   [Configuring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configuring-employee-center-pro.md)
--   [Managing employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/manage-emp-center.md)
+-   [Authoring and managing employee communications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/manage-emp-center.md)
 -   [Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
 

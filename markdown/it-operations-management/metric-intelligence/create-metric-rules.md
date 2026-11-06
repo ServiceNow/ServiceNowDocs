@@ -7,7 +7,7 @@ release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -38,7 +38,7 @@ When a metric crosses or falls within the range of a configured threshold, the s
 
 4.  Apply a filter within the selected CI class.
 
-    For example, if you selected a CI class of **Linux Server**, you can apply a filter. The filter can indicate that the rule applies only to servers with a host name that starts with a specified string.
+    For example, if you selected a CI class of **Linux Server**, you can apply a filter. The filter indicates that the rule applies only to servers with a host name that starts with a specified string.
 
 5.  Select **Next**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/configure-now-assist-ea.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Configure ServiceNow Otto for Enterprise Architecture \(EA\)
@@ -16,26 +16,34 @@ If you have the admin role, you can configure the ServiceNow Otto for Enterprise
 
 ## Before you begin
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
 Role required: admin
 
 ## About this task
 
-Use the AI Admin Hub console to configure ServiceNow Otto for EA. This console contains everything that you need to activate the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the AI Admin Hub to configure ServiceNow Otto for EA. While all ServiceNow Otto for EA skills are activated by default, you can use this console to activate the plugins in case it’s turned off or configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
-The following table lists the features and skills that you can access from the AI Admin Hub console.
+The following table lists the features and skills that you can access from the AI Admin Hub.
 
 |EA feature|Skill|
 |----------|-----|
 |Architectural decision record \(ADR\)|Architectural decision record doc summarization and actions \(Enterprise Architecture Workspace\)|
 |Business application|Business application insights \(Enterprise Architecture Workspace\)|
+|Enterprise architecture diagrams|Diagram change analysis \(Enterprise Architecture Workspace\)|
+|Form fields associated with business applications, business capabilities, business processes, value stream stages, and information objects|Refine text \(Enterprise Architecture Workspace\)|
+|Business process map diagrams|Create diagram from image \(Enterprise Architecture Workspace\)|
 
-**Note:** Now LLM Service is the default provider for this Now Assist application's skills.
+-   **Note:** The Now LLM Service is no longer the default model provider for new or inactive AI assets. A third-party LLM is now selected by default, while existing configurations using the Now LLM Service continue unchanged. The Now LLM Service is still available for manual selection.
+
+-   **Note:** Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
 
 The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are as follows:
 
--   Now Assist for Platform \(v7.0.1\)
+-   ServiceNow Otto® for Platform \(v7.0.1\)
 -   Enterprise Architecture Workspace \(v3.4.0\)
 
 ## Procedure
@@ -44,25 +52,25 @@ The ServiceNow Otto for Enterprise Architecture \(EA\) system requirements are a
 
     -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/supporting-info-now-assist-ea.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **Now Assist Admin****Features** to access the **Features** tab of the AI Admin Hub console.
+2.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** to access the skills tab of the AI Admin Hub.
 
-    If you’re already in the AI Admin Hub console, you can select the **Now Assist Features** tab on the screen.
+    If you’re already in the AI Admin Hub, you can select the **AI Skills** tab on the screen.
 
-3.  Select the expand row icon \[Omitted image "ExpandIcon.png"\] Alt text: next to **Technology**.
+3.  Select the expand row icon \[Omitted image "ExpandIcon.png"\] Alt text: Expand row icon. next to **Technology**.
 
 4.  Select **EA**.
 
 5.  Activate and configure the skill for ServiceNow Otto for Enterprise Architecture \(EA\).
 
-<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d34100e301">
+<table id="choicetable_wnn_hyf_b2c"><thead><tr><th align="left" id="d36892e383">
 
 Skill
 
-</th><th align="left" id="d34100e304">
+</th><th align="left" id="d36892e386">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d34100e310">
+</th></tr></thead><tbody><tr><td id="d36892e392">
 
 **ADR Doc Summarization and Actions**
 
@@ -73,55 +81,139 @@ Action
 3.  Go to step 6 and review the details.
 
 
-</td></tr><tr><td id="d34100e341">
+</td></tr><tr><td id="d36892e423">
 
-**Business Application Insights**
+**Business application insights**
 
 </td><td>
 
 1.  Select **Activate Skill**.
-2.  In the **Activate Skill** pop-up window, verify the roles that have access to the skill.
+2.  On the **Choose input** tab, view the table, fields, and related list details that ServiceNow Otto® leverages to generate business application insights.
+3.  On the **Define availability** tab, configure when and under what conditions the skill will be available and select **Save and continue**. The available options are:
+    -   **Skill is always available**: Select this option if you want the skill to be available at all times.
+    -   **Customize skill availability**: Select this option if you want to define specific conditions for the availability of the skill. For example, you can define whether you want this skill to be available for active business applications.
+4.  On the **Define trigger** tab, select how the skill is triggered and select **Save and continue**. The available options are:
+
+    -   **User trigger**: Select this option if you want users to generate business application insights on demand by selecting **Generate insights**. Insights are generated only when users request them, which helps avoid generating insights when users only want to view business application details. For example, in the application rationalization bubble chart, the side panel opens on the **Details** tab.
+    -   **Automatic**: Select this option if you want the skill to generate business application insights automatically, without user interaction. For example, when users open a business application record page, the insights are already generated. For example, in the application rationalization bubble chart, the side panel opens on the **Insights** tab. Optionally, define conditions for triggering the skill automatically by selecting a field, an operator, and a value. To add more conditions, select **New condition set**. For example, you can set the skill to trigger automatically only for active business applications.
+By default, the skill trigger is set to **Automatic**.
+
+5.  On the **Define access** tab, verify the roles that have access to the skill.
 
 If you want to provide access to more roles, perform the following:
 
     1.  Select the edit icon \[Omitted image "edit-icon.png"\] Alt text:.
-    2.  Verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+    2.  Verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
     3.  Select the user access level, according to your requirement.
         -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
         -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
-3.  Select **Apply**.
+6.  Select **Apply**.
 
 The new role is added to the access list.
 
-4.  Select **Activate**.
+**Note:** The **Role restrictions to skill** section displays the roles that have access to the skill, by default.
 
-The Business application insights skill is activated.
+7.  Go to step 6 and review the details.
+ **Note:** An admin user can also define and configure custom parameters for the prompt. To define and configure custom parameters, perform the following:
+
+1.  Select the context menu icon \(\[Omitted image "eaw-icon-menu.png"\] Alt text: Row context menu icon.\) next on the **Business applications insights** card.
+2.  Select **Make a copy**.
+
+The You are making a copy of a skill dialog box appears.
+
+3.  Select **Make a copy**.
+4.  Perform the following:
+    1.  On the **General details** tab, modify the name or description of the skill and select **Save and continue**.
+    2.  On the **Choose input** tab, modify the table, fields, and related list details that ServiceNow Otto® leverages to generate business application insights and select **Save and continue**.
+    3.  On the **Define availability** tab, configure when and under what conditions the skill will be available and select **Save and continue**.
+    4.  On the **Define trigger** tab, select how the skill is triggered and select **Save and continue**.
+    5.  On the **Define access** tab, modify the roles that have access to the skill and select **Save and continue**.
+    6.  On the **Select display** tab, enable the **Display** toggle and then elect **Save and continue**.
+    7.  On the **Review and activate** tab, review the summary of your choices and select **Activate**.
+
+
+</td></tr><tr><td id="d36892e681">
+
+**Diagram change analysis**
+
+</td><td>
+
+1.  Select **Turn on**.
+2.  On the **Turn on Diagram change analysis** page, verify the roles that have access to the skill.
+3.  If you want to provide access to more roles, perform the following:
+
+    1.  Select the edit icon \[Omitted image "edit-icon.png"\] Alt text:.
+    2.  Verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
+    3.  Select the user access level, according to your requirement.
+        -   **Any authenticated user**: Selecting this option enables any logged-in user to use the skill.
+        -   **Select Roles**: Selecting this option enables you to add specific roles in the **Roles** field.
+4.  Select **Apply**.
+
+The new role is added to the access list.
+
+**Note:** The **Role restrictions to skill** section displays the roles that have access to the skill, by default.
+
+5.  Select **Turn on**.
+
+The diagram change analysis skill is activated.
+
+</td></tr><tr><td id="d36892e770">
+
+**Refine text**
+
+</td><td>
+
+1.  Select **Activate Skill**.
+2.  Go to step 6 and review the details.
+
+
+</td></tr><tr><td id="d36892e792">
+
+**Create diagram from image**
+
+</td><td>
+
+If the skill is inactive:
+
+1.  Select **Turn on**.
+2.  Go to step 6 and review the details.
+
 
 </td></tr></tbody>
 </table>6.  Review the following parameters for the selected skill.
 
     1.  Review the roles than can access the skill. If necessary, select the edit icon \[Omitted image "edit-icon.png"\] Alt text: if you want to add access to more roles.
 
-        You must verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Select an application from the application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_SelectAnAppFromTheAppPicker.md).
+        You must verify that your application scope is set to ServiceNow Otto for Enterprise Architecture \(EA\). For information on how to change the application scope, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
 
-        **Note:** For the ADR Doc Summarization and Actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected, by default.
+        **Note:**
 
-        To learn more about security in Now Assist AI agents with access control lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md).
+        -   For the ADR doc summarization and actions skill, the sn\_apm.apm\_user and sn\_apm.apm\_read roles are selected by default.
 
+            To learn more about security in ServiceNow Otto AI agents with access control lists \(ACLs\), see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/aia-security-implementation.md).
+
+        -   The **Role restrictions to skill** section displays the roles that have access to the skill, by default.
     2.  **Select display**: Review where the skill appears.
 
         **Note:** When the **In-product desktop** option is selected, the skill is displayed in all EA products.
 
-    3.  Select **Save and continue**.
+        Select **Save and continue**.
 
-    4.  **Review and activate**: Review the summary of your choices.
+    3.  **Review and activate**: Review the summary of your choices.
 7.  Complete the configuration and activate the skill by selecting **Activate**.
 
     The skill is configured and activated.
 
 
--   **[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/sn-otto-access-roles.md)**  
-The following roles help you to configure and use each ServiceNow Otto for Enterprise Architecture \(EA\) skill.
+-   **[Configure AI Data Explorer and Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-ai-data-explr-qry-genr-skills.md)**  
+You can configure the AI Data Explorer and Query Generation skills to provide AI-assisted data exploration features and generate insights in Enterprise Architecture Workspace.
+-   **[Enable Knowledge Graph system properties for the Enterprise Architecture query agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/set-kg-system-properties-ea-qna.md)**  
+Enable the Knowledge Graph system properties to allow the Enterprise Architecture query agent to generate accurate answers based on your Configuration Management Database \(CMDB\) data.
 
-**Parent Topic:**[ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea.md)
+**Parent Topic:**[Configuring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-eaw.md)
+
+**Related topics**  
+
+
+[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/sn-otto-access-roles.md)
 

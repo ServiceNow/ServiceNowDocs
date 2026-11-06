@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-modeling-bp-map-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create a business process map form
@@ -30,7 +30,7 @@ Link to business process
 
 </td><td>
 
-Define whether the business process is new or an existing one. Use the following options:-   **New**-Select to create a new business process and an artifact to associate to the diagram.
+Option to specify whether the business process is new or an existing one. Use the following options:-   **New**-Select to create a new business process and an artifact to associate to the diagram.
 -   **Existing**-Select to associate the diagram to an existing business process.
 
 </td></tr><tr><td>
@@ -47,7 +47,7 @@ Select existing business process
 
 </td><td>
 
-Select an existing business process. This field appears only when you select **Existing** in the **Link to business process** field.
+The existing business process to associate with the diagram. This field appears only when you select **Existing** in the **Link to business process** field.
 
 </td></tr><tr><td>
 
@@ -58,5 +58,5 @@ Artifact name
 Name of the artifact. This field is auto populated based on the entry in the **Link to business process** field.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 

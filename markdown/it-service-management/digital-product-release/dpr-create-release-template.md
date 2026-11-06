@@ -1,14 +1,14 @@
 ---
 title: Create a release template
-description: Create a release template to predefine the release process. The template contains templates for release phases, tasks, exit criteria for each of the phases, key dates, and approvals.
+description: Create a release template to predefine the release process. The template contains templates for release phases, tasks, exit criteria for each of the phases, key dates, and approvals.Configure the DPR Release Task view to display the custom template fields on release task records of a release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-product-release/dpr-create-release-template.html
 release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
 
@@ -26,7 +26,7 @@ Role required: sn\_dpr\_model.release\_template\_admin orsn\_dpr\_model.release\
 
 The release teams can use these templates to create a release. All the phases, tasks, key dates,approvals, and phases' exit criteria from the template are applied to the new release. The release template helps the release team track and perform all the required tasks to complete the release on time.
 
-**Important:** After you mark an activity as done, you can't add or change phases, tasks, or map policies. So, be sure to review and verify all activity details before marking as done.
+**Note:** You can use the **Back** button to navigate to previous steps in the template creation wizard. The button is available in the Tasks, Policies, and Key dates activities. Data entered in a step is automatically saved when you navigate back.
 
 ## Procedure
 
@@ -48,7 +48,7 @@ The release teams can use these templates to create a release. All the phases, t
 
 8.  Select **Create**.
 
-    A release template is created and opens in the release template's Setup playbook page to define the template.
+    A release template is created and opens in the release template setup playbook page to define the template.
 
 9.  In the Release Process activity, select between a timeline-oriented or stage-oriented release process.
 
@@ -57,11 +57,15 @@ The release teams can use these templates to create a release. All the phases, t
     |**Timeline-oriented process**|This release process is appropriate for creating releases that have fixed deadlines and that follow a strict schedule.|
     |**Stage-oriented process**|This release process is appropriate for creating releases that prioritize completing objectives and features over following a strict schedule.|
 
-10. In the Phases activity, add phases to the release template.
+10. Select **Mark as done**.
+
+    The Release Process activity is marked as complete and can’t be edited further. The Phases activity becomes editable.
+
+11. In the Phases activity, add phases to the release template.
 
     1.  Enter a unique phase name, the duration of the phase in days, and a short description.
 
-        The **Duration** field appears only for the timeline-oriented process.The total duration for all phases in the template must be less than the duration set in the **sn\_dpr.max\_template\_duration** system property.
+        The **Duration** field appears only for the timeline-oriented process.The combined duration for all phases in the template must not exceed the maximum duration set in the **sn\_dpr.max\_template\_duration** system property.
 
     2.  Select **Add new phase** to add another phase.
 
@@ -73,17 +77,21 @@ The release teams can use these templates to create a release. All the phases, t
 
     4.  In the **Schedule** section, choose a schedule from the **Select schedule** list as the default schedule.
 
-        The list shows the schedule entries from the Schedule \[cmn\_schedule\] table that are of the type Excluded.
+        The list shows the schedule entries from the Schedule \[cmn\_schedule\] table of the type Excluded.
 
         Adding a schedule considers holidays and weekends and adjusts the phase and release durations accordingly. This helps improve release planning accuracy by including actual working days. For more information, see [Holiday schedules in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-holiday-schedule.md).
 
         **Note:** This option is available only for the timeline-oriented release process.
 
-    5.  Select **Mark as done** to complete adding all required phases to the release template.
+    5.  Change the order of phases by selecting the move phase up \(\[Omitted image "dpr-icon-up.png"\] Alt text: Move phase up icon.\) or move phase down \(\[Omitted image "dpr-icon-down.png"\] Alt text: Move phase down icon.\) icons to define the sequence in which they’re processed in a release.
 
-        The Phases activity is marked as complete and can’t be edited further. The Tasks activity becomes editable, displaying each phase in separate tabs.
+    6.  Select **Mark as done** to complete adding all required phases to the release template.
 
-11. In the Tasks activity, add tasks to each phase.
+        The Phases activity is marked as complete. The Tasks activity becomes editable, displaying each phase in separate tabs.
+
+12. In the Tasks activity, manage tasks to define the work that must be completed during each phase of a release.
+
+    You can also attach supporting files and define template fields for tasks.
 
     1.  Select a phase tab in which you want to add a task.
 
@@ -95,21 +103,45 @@ The release teams can use these templates to create a release. All the phases, t
 
         For more information, see [Create an approval definition in Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-create-approval-definition.md).
 
-    5.  Select **Add new task** to add another task to the phase.
+    5.  Add supportive fields and documents to the task.
 
-    6.  After all tasks are added to the current phase, select **Next phase**.
+        1.  To include an additional field in the task, select a field from the **Field** list and its default value in the **Update to** field.
+
+            The list shows fields from the Release Task \(sn\_dpr\_model\_release\_task\) table.
+
+        2.  To add a document to the task, select **+ Add file**, and select a document.
+
+            When you create a release from the template, selected fields and attached documents are copied to the release task records. These fields appear in the Release Task record form and documents in the Attachments pane and Activity stream.
+
+            To display custom template fields on the release task record page in the workspace, you must add those fields to the DPR Release Task view. For more information, see [Display custom template fields on release task records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-create-release-template.md).
+
+    1.  Select **Add new task** to add another task to the phase.
+
+    2.  After all tasks are added to the current phase, select **Next phase**.
 
         The tasks you added to the current phase are saved. The next available phase tab is selected so you can add tasks for that phase.
 
         Repeat the steps to add more tasks as required for each phase.
 
-    7.  After all tasks are added to all available phases, select **Save** on the last phase tab.
+    3.  After all tasks are added to all available phases, select **Save** on the last phase tab.
 
-    8.  Select **Mark as done** to complete adding tasks to phases as needed.
+    4.  Change the order of tasks within a phase to define the sequence in which tasks are executed during a release.
 
-        The Tasks activity is marked as complete and can’t be edited further. The next activity becomes editable.
+        1.  Select **Reorder tasks** for the phase you want to reorder.
 
-12. In the Key dates activity, add key dates as needed.
+            The reorder icons appear next to each task in the selected phase.
+
+        2.  Select the move task up \(\[Omitted image "dpr-icon-up.png"\] Alt text: Move task up icon.\) or move task down \(\[Omitted image "dpr-icon-down.png"\] Alt text: Move task down icon.\) icons to change the order in which they’re processed in a release.
+        3.  Save or cancel the reorder operation.
+            -   To save the new task order, select **Save order**.
+            -   To discard the changes and revert to the original order, select **Cancel**.
+        The tasks in the phase are reordered according to the new sequence.
+
+    5.  Select **Mark as done** to complete adding tasks to phases as needed.
+
+        The Tasks activity is marked as complete. The next activity becomes editable.
+
+13. In the Key dates activity, add key dates as needed.
 
     **Note:** This activity is available only for the timeline-oriented release process.
 
@@ -127,11 +159,11 @@ The release teams can use these templates to create a release. All the phases, t
 
     6.  After all key dates are added, select **Mark as done** to complete adding key dates as needed.
 
-        The Key dates activity is marked as complete and can’t be edited further. The Policies activity becomes editable, displaying each phase in separate tabs.
+        The Key dates activity is marked as complete. The Policies activity becomes editable, displaying each phase in separate tabs.
 
     When you create a release using the template, these key dates help you track the progress of the important events of the release.
 
-13. In the Policies activity, map policies to each phase as needed.
+14. In the Policies activity, map policies to each phase as needed.
 
     1.  Select a phase tab to which you want to map policies.
 
@@ -145,9 +177,9 @@ The release teams can use these templates to create a release. All the phases, t
 
     6.  Select **Mark as done** to complete the Policies activity.
 
-        The Policies activity is marked as complete and can’t be edited further.
+        The Policies activity is marked as complete.
 
-14. In the Publish template pop-up window, select whether to publish the template.
+15. In the Publish template pop-up window, select whether to publish the template.
 
     -   Select **Yes** to publish and activate the template.
     -   Select **No** to keep the template unpublished. You can publish and activate it later from the release template record form.
@@ -183,15 +215,15 @@ Edit the release template
 
 </td><td>
 
-1.  Select the more actions button \(\[Omitted image "dpr-icon-more-actions.png"\] Alt text: More actions button icon.\) and select **Edit**.
-2.  In the Edit template pop-up window, select **Yes** to confirm editing.
+1.  Select **Edit release template**.
+2.  In the Edit release template pop-up window, select **Yes** to confirm editing.
 
-The release template becomes inactive and can't be used for creating a release.
+The release template status is set to inactive and can't be used can't be used to create a release.
 
 The release template opens in the Playbook for editing.
 
 3.  Update the template to add or change the phases, tasks, key dates, and policies as needed.
-4.  To save all the changes in the template, select **Mark as done** in the Policies activity.
+4.  To save the changes in the template, select **Mark as done** in the Policies activity.
 
 </td></tr><tr><td>
 
@@ -229,4 +261,33 @@ Select the more actions button \(\[Omitted image "dpr-icon-more-actions.png"\] A
 [Work on a timeline-oriented release for a single product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release.md)
 
 [Managing multiple releases through release bundles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-release-bundle.md)
+
+## Display custom template fields on release task records
+
+Configure the DPR Release Task view to display the custom template fields on release task records of a release.
+
+### Before you begin
+
+Role required: sn\_dpr\_model.release\_template\_admin or sn\_dpr\_model.release\_admin
+
+### About this task
+
+Custom template fields that you add to tasks in a release template are stored on the release task record when a release is created. By default, these fields are not visible on the release task record page in the Digital Product Release Workspace. To display them, configure the DPR Release Task view to include the fields.
+
+**Note:** This configuration applies at the table view level. All users with access to the DPR Release Task view see the custom fields after the view is updated.
+
+### Procedure
+
+1.  Navigate to **All** &gt; **Tables** &gt; **DPR Release Task \[sn\_dpr\_model\_release\_task\] table**.
+
+2.  Open the DPR Release Task form view \(dpr\_rel\_task\_view\).
+
+3.  Configure the form layout to add the custom fields on the form.
+
+    For more information on configuring form layout, see [ServiceNow AI Platform® form administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/form-administration-landing-page.md).
+
+4.  Select **Save** to save the form view configuration.
+
+    The custom fields appear on all release task records created from templates that include those fields. This is a one-time configuration — you do not need to repeat it for each release or template.
+
 

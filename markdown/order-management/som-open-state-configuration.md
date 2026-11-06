@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-open-state-configuration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up the product configurator, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configurator, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Use extension points for open state management
@@ -23,12 +23,5 @@ As an admin, access the available open state management extension points, by nav
 |ConfigInstanceAPIImpl|Fetches open state execution for config instances during change and on load commands.|
 |OpenStateValidation|Returns open state execution on config instances during change and on load.|
 |SetOpenStateResponse|Updates the open state config instance to a config instance.|
-|OpenStateModelExtension|Provides methods used to return to the updated config instance.|
-
-## Using the OpenStateModelExtension point
-
-When you install Configuration Rules Management, you can use the OpenStateModelExtension point and the canProcess\(\) method to set the custom logic to run either the configuration rules implementation or the open state implementation:
-
--   If you want to use open state rather than configuration rules, use the OpenStateModelExtension point and the canProcess\(\) method to return true for the open state implementation and turn off the configuration rules implementation.
--   If you're using open state but want to use configuration rules, use the OpenStateModelExtension point and the canProcess\(\) method to return true for the configuration rules implementation and turn off the open state implementation.
+|OpenStateModelExtension|Method used to return to the updated config instance. Customers can customize the process method.|
 

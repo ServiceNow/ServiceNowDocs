@@ -7,9 +7,10 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: concept
-last_updated: "2025-11-20"
-reading_time_minutes: 1
-breadcrumb: [Risk assessment project in AI Risk and Compliance, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [risk assessment project workflow, define risk scoping, approve bulk assessment]
+breadcrumb: [Risk assessment project, Explore, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Workflow of risk assessment project in AI Risk and Compliance
@@ -52,4 +53,15 @@ The stages of a risk assessment project are as follows:
 
 
 **Note:** After the project reaches the Completed state, you can create a new project with the same RAM and entity. When the new project reaches the Completed state, the old project moves to the Archived state.
+
+**Related topics**  
+
+
+[Risk assessment project in AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/risk-assessment-project-airc.md)
+
+[Create bulk risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-bulk-risk-assessment-airc.md)
+
+[Perform bulk assessment in stacked view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-stacked-view-airc.md)
+
+[Perform bulk assessment in grid view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/perform-bulk-assessment-in-grid-view-airc.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute a task from the agent map, Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute from the agent map, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Pick up an unassigned task
@@ -36,6 +36,4 @@ Agents can assign themselves nearby unassigned tasks directly from the agent tas
     -   If you belong to only one assignment group, the system assigns the task to you and enters your assignment group in the Work Order Task form.
     If the assignment is allowed, the task state changes to **Accepted**, and the icon on the map turns green. In the task form, the **Start Travel** and **Start Work** links appear under **Related Links**.
 
-
-**Parent Topic:**[Execute a task from the agent map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_ExecuteATaskFromTheAgentMap.md)
 

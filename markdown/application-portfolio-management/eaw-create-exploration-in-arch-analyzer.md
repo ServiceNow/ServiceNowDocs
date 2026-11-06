@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-exploration-in-arch-analyzer.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-03"
-reading_time_minutes: 2
-breadcrumb: [Exploring the architecture analyzer, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Working with architecture analyzer, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Create an exploration in the architecture analyzer
@@ -27,7 +27,7 @@ In the Architecture Analyzer you can also perform the following:
     -   Downstream entities appear as children of the selected entity. They represent the outputs or consequences that are influenced by the selected entity. For example, for a business capability, a downstream entity can be a business application.
 -   To hide the left navigation pane and the **Add to canvas** boxes, select the toggle full-screen icon \(\[Omitted image "arch-anlyzer-expand-canvas.png"\] Alt text: Toggle full-screen icon\)
 -   To hide just the left navigation pane, select the toggle sidebar icon \(\[Omitted image "arch-anlyzer-hide-side-panel.png"\] Alt text: Toggle sidebar icon\)
--   To clear all entities from the canvas, select the **Clear** button \(\[Omitted image "arch-anlyzer-clear-canvas.png"\] Alt text: Clear button icon\)
+-   To clear all entities from the canvas and the selections made in the **Add to canvas** boxes, select the **Clear** button \(\[Omitted image "arch-anlyzer-clear-canvas.png"\] Alt text: Clear button icon\)
 -   To download the exploration canvas in image format, select the download as an image icon \(\[Omitted image "arch-anlyzer-download-exploration.png"\] Alt text: Download icon\)
 
 ## Procedure
@@ -44,7 +44,7 @@ In the Architecture Analyzer you can also perform the following:
 
     **Note:**
 
-    -   You can double click on an existing exploration and then select **+ New exploration** to create a new exploration.
+    -   You can double click an existing exploration and then select **+ New exploration** to createn an exploration.
     -   You can select an existing exploration to view the details.
 4.  To add an entity to the canvas, perform the following:
 
@@ -88,7 +88,7 @@ In the Architecture Analyzer you can also perform the following:
 
         2.  In the **Delete** pop-up window, select **Delete**. The exploration is permanently deleted.
 
-**Parent Topic:**[Exploring the architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-explore-arch-analyzer.md)
+**Parent Topic:**[Working with architecture analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-architecture-analyzer.md)
 
 **Related topics**  
 

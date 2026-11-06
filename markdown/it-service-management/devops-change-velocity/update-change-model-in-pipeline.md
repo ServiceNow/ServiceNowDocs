@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [DevOps change models, Accelerate your DevOps change process, DevOps Change Velocity, IT Service Management]
 ---
@@ -71,7 +71,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
     **Note:** If any of the pipelines you selected in step 8 has any data policy, which doesn’t allow the pipeline steps to be updated, the same is updated as an error in the worknotes of the corresponding request.
 
-<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d92931e271">
+<table id="choicetable_vjt_yl1_yyb"><tbody><tr><td id="d131562e272">
 
 **Approved and successful**
 
@@ -79,10 +79,10 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
 -   A comment is added in the request record specifying that migration to change model was successful. \[Omitted image "change-model-migration-success-comment.png"\] Alt text: Migration successful comment in request record
 -   A bell notification is sent to the requester specifying that the migration has been successful. \[Omitted image "change-model-success-1.png"\] Alt text: Migration successful bell notification
--   An email notification is sent to the requester specifying that the migration request has been successful. \[Omitted image "change-model-migration-success-email.png"\] Alt text: Migration successful email notification
+-   An email notification is sent to the requester specifying that the migration request has been successful.
 
 
-</td></tr><tr><td id="d92931e307">
+</td></tr><tr><td id="d131562e303">
 
 **Rejected and unsuccessful**
 
@@ -90,7 +90,7 @@ The DevOps Pipeline Migration to Change Models catalog item enables you to updat
 
 -   A comment is added in the request record specifying that migration wasn’t successful. \[Omitted image "change-migration-req-reject.png"\] Alt text: Rejection comment in request record
 -   A bell notification is sent to the requester specifying that the migration request has been rejected. \[Omitted image "change-migration-bell-notification-reject.png"\] Alt text: Rejection bell notification
--   An email notification is sent to the requester specifying that the migration request has been rejected. \[Omitted image "change-model-migration-unsuccessful-mail.png"\] Alt text: Email notification.
+-   An email notification is sent to the requester specifying that the migration request has been rejected.
 
 
 </td></tr></tbody>

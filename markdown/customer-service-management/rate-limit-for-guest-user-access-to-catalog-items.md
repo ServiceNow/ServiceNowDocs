@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/rate-limit-for-guest-user-access-to-catalog-items.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-04-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Service Management reference, Customer Service Management]
+breadcrumb: [Portal reference, Reference, Customer Service Management]
 ---
 
 # Rate limit rule form for guest user access to catalog items
@@ -112,4 +112,8 @@ Role to which the rate limit applies.
 Select **public**.**Note:** Appears only when you select **Users with role** at the **Apply to** field.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[configure-guestusers-submit-catalogitem-csm-portal]
+

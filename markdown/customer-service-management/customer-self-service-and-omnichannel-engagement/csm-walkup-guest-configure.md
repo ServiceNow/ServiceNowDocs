@@ -1,20 +1,20 @@
 ---
 title: System properties for configuring Walk-up Experience for guest users
-description: System properties enable you to configure the Walk-up Experience for guest users to access the Walk-up Check-in widget from the Service Portal home page and schedule appointments online.
+description: System properties enable you to configure the Walk-up Experience for guest users so they can access the Walk-up Check-in widget from the Service Portal Home Page and schedule appointments online.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-guest-configure.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # System properties for configuring Walk-up Experience for guest users
 
-System properties enable you to configure the Walk-up Experience for guest users to access the Walk-up Check-in widget from the Service Portal home page and schedule appointments online.
+System properties enable you to configure the Walk-up Experience for guest users so they can access the Walk-up Check-in widget from the Service Portal Home Page and schedule appointments online.
 
 ## Properties to configure Walk-up Experience application
 
@@ -27,5 +27,5 @@ As an admin, in your instance, enter `sys_properties.list` in the filter navigat
 |sn\_guest\_walkup\_cs.max\_confirmation\_validity\_in\_minutes \(integer\)|15 mins|The time to confirm the appointment booking.|
 |sn\_guest\_walkup\_cs.max\_otp\_validity\_in\_minutes \(integer\)|5 mins|The time that the one-time password the user receives to modify or cancel the appointment is valid.|
 |sn\_guest\_walkup\_cs.max\_guest\_appointments\_per\_location|0|The number of appointments the guest user can book per location.|
-|sn\_guest\_walkup\_cs.captcha.timeout|10 mins|The time after which the CAPTCHA validation on the welcome page times out.|
+|sn\_guest\_walkup\_cs.captcha.timeout|10 mins|The time after which the CAPTCHA vaidation on the welcome page times out.|
 

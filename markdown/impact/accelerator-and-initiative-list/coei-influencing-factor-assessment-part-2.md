@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Strategy Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # CoEI Influencing Funding Strategy
@@ -20,7 +20,9 @@ The Center of Excellence &amp; Innovation \(CoEI\) Funding Strategy Accelerator 
 
 CoEI Funding Strategy Accelerator Accelerator provides Impact customers with leading practices content and prescriptive guidance and support to build a funding model within their organization. This Accelerator aims to help you use the CoEI Funding Strategy as a vehicle to realize and accelerate the value received from ServiceNow products.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What you get
 

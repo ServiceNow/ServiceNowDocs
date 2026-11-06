@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure components and repeaters \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Configure components and repeaters \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Add repeaters to components
@@ -116,13 +116,9 @@ Components inside a repeater repeat the number of items in the data source, rega
 
     The component you bound to the data resource appears on the stage and is repeated five times, once for each result returned from the Incident table.
 
-    \[Omitted image "uib-repeaters-preview.png"\] Alt text: Heading component displayed five times, each with a different display value from the Incident table.
-
 14. View and test your page by selecting the **Preview** button.
 
     A tab opens to display the page preview with repeated data.
-
-    \[Omitted image "uib-repeaters-preview-page.png"\] Alt text: Page preview displays all data from repeated components.
 
 
 **Parent Topic:**[Configure components and repeaters \(advanced feature\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/configure-comp-and-repeaters.md)

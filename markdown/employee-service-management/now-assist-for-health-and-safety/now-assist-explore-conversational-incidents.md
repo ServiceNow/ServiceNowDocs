@@ -1,36 +1,38 @@
 ---
-title: Conversational AI Health and Safety Incident Report
-description: Use the Now Assist panel conversational interface to report Health and Safety incidents that enables you to engage with live agents, virtual agents, or both.
+title: Conversational AI Health and Safety incident or observation report
+description: Use the ServiceNow Otto panel conversational interface to report Health and Safety incidents and observations that enables you to engage with live agents, virtual agents, or both.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/now-assist-explore-conversational-incidents.html
 release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Use generative AI skills, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Conversational AI Health and Safety Incident Report
+# Conversational AI Health and Safety incident or observation report
 
-Use the Now Assist panel conversational interface to report Health and Safety incidents that enables you to engage with live agents, virtual agents, or both.
+Use the ServiceNow Otto panel conversational interface to report Health and Safety incidents and observations that enables you to engage with live agents, virtual agents, or both.
 
-A basic Health and Safety incident can be reported using the conversational language through the Now Assist panel. Using appropriate keywords such as health, safety, incident, or injury generates functional responses. These keywords can be configured by an admin on the Health and Safety workspace by navigating to **All**&gt;**Service Catalog**&gt;**Catalog definitions**&gt;**Record producers** and then editing the **Meta** field on the **Report Health and Safety Incident-Basic** record. For more information on record producers, see [Record Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_RecordProducer.md).
+A basic Health and Safety incident or observation can be reported using the conversational language through the ServiceNow Otto panel. Admins can configure keywords on the Health and Safety workspace. Using appropriate keywords such as health, safety, incident, injury, or observation generates functional responses. For more information on configuring the keywords, see [Configure keywords for conversational AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-configure-keywords-conversational-ai.md).
 
-Employees can use the Now Assist panel icon \[Omitted image "bus-ai-sparkle.svg"\] Alt text: now assist panel in the **Employee Center** home page to open a chat panel to report a Health and Safety incident easily.
+Employees can use the ServiceNow Otto panel icon \(\[Omitted image "bus-ai-sparkle.svg"\] Alt text: ServiceNow Otto panel\) in the **Employee Center** home page to open a chat panel to report a Health and Safety incident easily.
 
 \[Omitted image "na-conversational-incident-reporting.png"\] Alt text: conversational incident reporting in now assist
 
-Once the incident is recorded, the Now Assist chat panel provides the Health and Safety incident record number and the employees can view it by selecting **My Requests** or selecting the record number.
+Once the incident is recorded, the ServiceNow Otto chat panel provides the Health and Safety incident record number and the employees can view it by selecting **My Requests** or selecting the record number.
 
-## Benefits of Conversational AI Health and Safety Incident Report
+## Benefits of Conversational AI health and safety for incident and observation report
 
-Conversational incident reporting simplifies the safety incident-reporting process.
+Conversational AI simplifies the safety incident or observation reporting process.
 
 -   Eliminates the need to complete lengthy forms.
 -   Provides real-time interaction and an immediate feedback mechanism.
 -   Provides a user-friendly interface with Instant response and guidance.
--   Provides a responsive and supportive environment and promotes proactive incident reporting.
--   Enables document uploads \(maximum 10 mb\) through Now Assist panel.
+-   Provides a responsive and supportive environment and promotes proactive incident or observation reporting.
+-   Enables document uploads \(maximum 10 mb\) through ServiceNow Otto panel.
+
+**Parent Topic:**[Use generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-health-and-safety/hs-now-assist-use-generative-ai.md)
 

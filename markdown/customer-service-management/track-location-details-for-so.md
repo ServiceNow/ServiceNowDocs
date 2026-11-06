@@ -1,20 +1,22 @@
 ---
 title: Tracking the location details for a service organization
-description: By tracking and capturing the location details for a service organization, you can provide Field Service Management, Walk-up Experience and appointment booking capabilities.
+description: By tracking and capturing the location details for a service organization, you can provide Field Service Management, Walk-up Experience, and appointment booking capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/track-location-details-for-so.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a business location, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Create a business organization, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Tracking the location details for a service organization
 
-By tracking and capturing the location details for a service organization, you can provide Field Service Management, Walk-up Experience and appointment booking capabilities.
+By tracking and capturing the location details for a service organization, you can provide Field Service Management, Walk-up Experience, and appointment booking capabilities.
 
-## Location tracking details
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
+
+## Overview of service organization
 
 You can provide Field Service Management, Walk-up Experience, and appointment booking capabilities through the service organization data model by capturing the Location \(cmn\_location\) table details.
 
@@ -22,7 +24,7 @@ You can provide Field Service Management, Walk-up Experience, and appointment bo
 
 ## Location field
 
-By going to the service organization form, you can see that there's a **Location** field, where you can add the information about your geographical location, that is, the cmn\_location of the service organization. The address fields on the cmn\_location table is synchronized with the service organization but not the vice versa.
+On the Service Organization form, use the **Location** field to specify the organization’s geographical location \(cmn\_location\). The cmn\_location on the service organization is synchronized with the address fields, but the address fields on the service organization aren’t synchronized with the cmn\_location. This arrangement makes it a one-way synchronization. The cmn\_location is associated with the service organization in a two-way, one-to-one relationship.
 
 **Note:** Changes to the cmn\_location record don’t update the address fields on the service organization.
 

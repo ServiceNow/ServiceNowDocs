@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
 
 # Gamification
 
 Encourage users to participate and contribute content in the community by providing incentives in the form of points, achievement levels, and badges.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Use the gamification framework to:
 
@@ -41,10 +45,41 @@ Community users can:
 The gamification feature includes several components, such as rules, levels, and tracks, that enable users to earn points and badges for community activities.
 -   **[Gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-gamification-UI.md)**  
 Gamification information appears on leaderboards, the user profile page, and content pages.
--   **[Administer gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-gamification-administer.md)**  
-Users with the gamification administrator role can create the rules and other entities that award points to users based on their participation within the community.
 -   **[Moderate gamification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-gamification-moderate.md)**  
 Monitor points earned by users and award points and badges to users based on their participation within the community.
 
-**Parent Topic:**[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/servicenow-communities.md)
+**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/using-communities.md)
+
+**Related topics**  
+
+
+[Community homepage features for logged in users]()
+
+[Navigating the activity feed]()
+
+[Navigating the forum homepage]()
+
+[Community homepage features for non-logged in users]()
+
+[Self-register to a community]()
+
+[Search the community]()
+
+[Use a community profile]()
+
+[Community subscriptions]()
+
+[Request membership to a forum]()
+
+[Accept an invitation to join a forum]()
+
+[Post and respond to content in the community]()
+
+[Report inappropriate community content]()
+
+[Add featured content in a community]()
+
+[Email a community user]()
+
+[View a list of questions and create a case]()
 

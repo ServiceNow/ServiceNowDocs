@@ -1,5 +1,5 @@
 ---
-title: Scheduled job to automatically generate resource capacity
+title: Activate a scheduled job to generate resource capacity
 description: Activate the scheduled job to auto-generate the resource capacity at required cadence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/generate-capacity-scheduled-job.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [capacity planning scheduled job, generate capacity, generate resource]
-breadcrumb: [Capacity configuration in Strategic Planning, Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Capacity configuration in Strategic Planning, Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Scheduled job to automatically generate resource capacity
+# Activate a scheduled job to generate resource capacity
 
 Activate the scheduled job to auto-generate the resource capacity at required cadence.
 

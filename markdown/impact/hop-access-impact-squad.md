@@ -1,30 +1,34 @@
 ---
 title: Grant temporary instance access to your Impact Squad
-description: View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
+description: Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/hop-access-impact-squad.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-24"
-reading_time_minutes: 1
-breadcrumb: [Exploring Impact Store Application, Impact Store Application, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Impact, Impact]
 ---
 
 # Grant temporary instance access to your Impact Squad
 
-View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
+Familiarize yourself with your ServiceNow Impact Squad, a dedicated team of experts ready to assist in tackling your team's unique transformation challenges. View or grant your Impact squad 30 day read-only access to your instance to support you with Impact features.
 
 ## Before you begin
 
-Role required: impact\_platform\_owner, admin
+Impact squad members can easily log in and access customer instances to facilitate effective support and rapid issue resolution. As part of initial setup, you’ll be able to provide consent on the Know your Squad and Manage Instance Access page. Select your Squad members then select **Approve** and the selected members will have read-only access to your Impact Store Application.
 
-## About this task
+When approved,  the selected members  gain read-only access  to your Impact Store Application for 30 days. 
 
-Impact squad members can easily log in and access customer instances to facilitate effective support and rapid issue resolution. During the guided setup onboarding process, you’ll be requested to provide consent. For other access requests outside of onboarding, squad members can trigger an access request, which sends an email to you where you can approve or reject the request through the Impact Store Application. Notifications are sent if Impact squad members change.
+For other access requests outside of onboarding, squad members can trigger an access request, which sends an email to you where you can approve or reject the request through the Impact Store Application. Notifications are sent if Impact squad members change.
+
+Role required: impact\_platform\_owner or admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Impact** &gt; **Overview**.
+
+    Squad access can also be added as part of initial setup.
 
 2.  In the Your Impact Squad widget, select **View Squad access to your instance**.
 
@@ -91,4 +95,14 @@ Date access to the instance expires for the squad member.
 
     \[Omitted image "grant-squad-access.png"\] Alt text: Dialog box with the Approve or Reject buttons.
 
+
+## What to do next
+
+Refer to [Using Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-in-app.md) to get started with the Impact Store Application.
+
+**Parent Topic:**[Configuring Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-platform.md)
+
+**Previous topic:**[Initiate data migration from IDI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/initiate-migration-idi.md)
+
+**Next topic:**[Impact Guided Setup \(Legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/guided-setup-impact-in-app.md)
 

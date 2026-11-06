@@ -1,26 +1,26 @@
 ---
 title: Using Conversational SMS Integration with Twilio
-description: Enable a requester to converse with an agent using the SMS conversations.
+description: Enable a requester to converse with an agent using SMS conversations with Twilio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/using-sms-integ-twilio.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with Twilio, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [SMS Twilio, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational SMS Integration with Twilio
 
-Enable a requester to converse with an agent using the SMS conversations.
+Enable a requester to converse with an agent using SMS conversations with Twilio.
 
-An administrator can configure the Conversational SMS Integration with Twilio application for integrating the SMS messaging app with a ServiceNow application.
+An administrator can configure Conversational SMS Integration with Twilio with a ServiceNow application.
 
-A requester can initiate SMS conversations with a virtual agent or live agent.
+A requester can initiate SMS conversations with a virtual agent or a live agent.
 
-A live agent can:
+A live agent can do the following:
 
 -   Accept SMS conversations as work items from their Agent Workspace Inbox to converse with a requester.
 -   Initiate SMS chat conversations from interactions of type Chat from their Agent Workspace Inbox to converse with a requester.
@@ -28,7 +28,7 @@ A live agent can:
 
 ## Accepting SMS conversations
 
-As a live agent interacting with a requester over the SMS service channel, you can:
+As a live agent interacting with a requester over the SMS service channel, you can do the following:
 
 -   Converse with the requester through text messages.
 -   Share a knowledge article displayed as a link to the requester.
@@ -36,11 +36,11 @@ As a live agent interacting with a requester over the SMS service channel, you c
 -   Share any URLs as links.
 -   Share any images as attachments.
 
-**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/conversation-sms-service-channel-store-app.md).
+**Note:** You accept a work item from the SMS conversation in your Agent Workspace Inbox when an administrator has configured the SMS service channel for transfer of chat conversations. For more information, see [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md).
 
 ## Initiating SMS conversations
 
 As a live agent, you can initiate an SMS conversation with a requester when the Agent-Initiated Messaging Interface application is configured for the SMS messaging channel. By default, the application is configured for agent to initiate SMS conversations with consumers and customer contacts. For more information, see [Initiate messaging conversations from the CSM Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/agent-init-messg-csm-cws.md) and [Initiate SMS conversations from CSM Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/agent-init-sms-csm-ws.md).
 
-**Parent Topic:**[Integrating Virtual Agent with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)
+**Parent Topic:**[Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/sms-twilio-store-app.md)
 

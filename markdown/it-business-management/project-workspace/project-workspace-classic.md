@@ -7,7 +7,7 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -78,7 +78,7 @@ The project workspace comprises of the following tabs described at a high level:
 
 -   **[Access the classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-the-project-workspace.md)**  
 Open the project workspace to display all your projects at a single location.
--   **[Configure parameters on project cards in classic workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configure-project-card-parameters.md)**  
+-   **[Configure parameters on project cards in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/configure-project-card-parameters.md)**  
 Configure the parameters that are displayed on a project card in **My Projects Space** page of classic Project Workspace. A card shows the project summary so that project managers can quickly gauge project status and health by looking at the card.
 -   **[View project analytics in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-project-summary.md)**  
 View the summary of a project in **Analytics** tab of classic Project Workspace.
@@ -88,9 +88,9 @@ Define important aspects of the selected project such as duration, estimated cos
 Perform the project planning such as create project schedule, make resource assignments, create baselines, and view critical path, using planning console in the classic Project Workspace.
 -   **[Track a project using project workbench in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/track-project-using-project-workbench.md)**  
 As a project manager, track and manage a project in Project Workbench.
--   **[Create and manage resource plans for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-resources-for-project.md)**  
+-   **[Create and manage resource plans for a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-resources-for-project.md)**  
 As a resource requester, find the availability of the resources, and create and manage the resource plans for the project and project tasks in the project workspace.
--   **[View forecasts and manage financial plans for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)**  
+-   **[View and manage project financial plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/view-plan-financials-in-project-workspace.md)**  
 Use the **Financials** tab in Project Workspace to capture the costs and benefits of a project.
 -   **[Request funds for a project in classic Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/request-project-funds.md)**  
 Request funds for your project investment to work on project activities and meet the business goals.

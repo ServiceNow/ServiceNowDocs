@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/aem-display-knowledge-components.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Integrating with Adobe Experience Manager, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Adobe Experience Manager, Integrate, Customer Service Management]
 ---
 
 # Display ServiceNow knowledge articles on an Adobe Experience Manager page
@@ -17,7 +17,7 @@ Use knowledge components available within Adobe Experience Manager \(AEM\) to ac
 ## Before you begin
 
 -   Activate the Knowledge API plugin \(sn\_km\_api\) to use the Knowledge Management REST API endpoints for knowledge articles. For more information, see [Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/knowledge-api.md).
--   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule to access ServiceNow API endpoints from AEM]().
+-   Define the cross-origin resource sharing \(CORS\) rule to access the Knowledge API from your AEM instance. For more information, see [Define a cross-origin resource sharing rule \(CORS\) to access ServiceNow API endpoints from AEM]().
 
 Role required: AEM author
 

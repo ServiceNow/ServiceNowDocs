@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-package-ids.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile application management \(MAM\) integration, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile application management \(MAM\), Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Bundle and Package IDs for ServiceNow mobile apps
@@ -43,16 +43,4 @@ To enforce app policies your mobile application management software may require 
 |ServiceNow® Agent - Intune|com.servicenow.fulfiller.mam.intune|
 |Now® Mobile - Intune|com.servicenow.requestor.mam.intune|
 |ServiceNow® Onboarding - Intune|com.servicenow.onboarding.mam.intune|
-
-## Mobile app bundle and package IDs for BlackBerry Dynamics
-
-|App|Bundle ID|
-|---|---------|
-|ServiceNow® Agent - BlackBerry|com.servicenow.blackberry.fulfiller|
-|Now® Mobile - BlackBerry|com.servicenow.blackberry.requestor|
-
-|App|Package ID|
-|---|----------|
-|ServiceNow® Agent - BlackBerry|com.servicenow.fulfiller.mam.blackberry|
-|Now® Mobile - BlackBerry|com.servicenow.requestor.mam.blackberry|
 

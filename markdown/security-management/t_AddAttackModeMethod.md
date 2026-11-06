@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/t\_AddAttackModeMethod.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Attack modes and methods, IoC Repository, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a List with the Rich Content Editor
@@ -36,6 +36,8 @@ Create the page layout using modules or columns.
 3.  Double-click within the list to open the text formatting bar, where you can format the text, change the bullet list to a numbered list, or increase indentation.
 
     \[Omitted image "ec-rich-content-list.png"\] Alt text: Text formatting bar enables users to bold, italicize, underline, or strike through text, change the bullet list to a numbered list, or modify the indentation
+
+    **Note:** You can also add a link to the bulleted or numbered list.
 
 4.  Navigate to the **Settings** panel to configure the following styling settings:
 

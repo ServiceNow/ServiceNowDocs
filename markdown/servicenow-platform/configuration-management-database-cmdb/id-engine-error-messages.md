@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [CMDB Identification and Reconciliation reference, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # IRE error messages
@@ -70,7 +70,7 @@ Missing minimum set of values for criterion attributes for an identification rul
 
 -   **Resolution:**
 
-In the payload, add minimum set of values for criterion attributes for CI Identifier for table \[xyz\]. Open the [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md), click **Hierarchy** and select the \[xyz class. Check the identification rule and the identifier entries for table \[xyz.
+In the payload, add minimum set of values for criterion attributes for CI Identifier for table \[xyz\]. Open the [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateCIIdentificationRule.md), click **Hierarchy** and select the \[xyz\] class. Check the identification rule and the identifier entries for table \[xyz\].
 
 
 </td></tr></tbody>

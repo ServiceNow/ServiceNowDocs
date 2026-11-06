@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-act-contexts-ca.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Associate activity groups and activity types to activity contexts
@@ -22,15 +22,13 @@ Learn more about associating an activity type to an activity context from the fo
 
 Role required: admin
 
-**Note:** Customer Activity has been renamed to Customer History, with no changes to its functionality. References to the previous name will be updated in a future release.
-
 ## About this task
 
 An activity context is the person or user who is interacting with the customer service agent. There are two predefined activity contexts: consumer and contact. Add the activity groups and activity types that you created to the activity context, depending on who you want to display the information for.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer Activity** &gt; **Guided Setup**.
+1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer History** &gt; **Guided Setup**.
 
 2.  Select **Get Started** under Activity Contexts.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Explore, Contract Management Pro, Employee Service Management]
+breadcrumb: [Better Together integrations, Explore, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Optimizing Sales Customer Relationship Management through Contract Lifecycle Automation
@@ -26,8 +26,8 @@ The integration provides the following benefits:
 -   Boost legal team productivity: Utilize common contract processes like review and signature to boost productivity.
 -   Reduce manual review work by using generative AI: Use AI to identify missing and non-standard clauses for reducing manual review work
 
-|Feature|Sales and order management|Contract management pro|All applications together|
-|-------|--------------------------|-----------------------|-------------------------|
+|Feature|Sales CRM|Contract management pro|All applications together|
+|-------|---------|-----------------------|-------------------------|
 |Product Catalog Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Pricing Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
 |Lead Management|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|\[Omitted image "icon-error-red-x.png"\] Alt text: No|\[Omitted image "icon-check-mark-green.png"\] Alt text: Yes|
@@ -49,7 +49,7 @@ The integration provides the following benefits:
 
 The following figure shows an example workflow of how an sales agent, sales operation specialist, and a contract fulfiller can use these applications to streamline collaboration with legal teams, enabling them to execute contracting tasks within the lead-to-cash workflow. It also provides sales operation professionals with full visibility into contract progress, reducing delays and improving operational transparency.
 
-\[Omitted image "SOM-CMPro-solution-workflow.png"\] Alt text: SOM - CM Pro workflow
+\[Omitted image "mmassest0021242-SOM-CMPro-workflow.png"\] Alt text: Sales CRM - Contract Management Pro workflow
 
 In this workflow:
 
@@ -94,7 +94,7 @@ Get started with initiating contract request by completing these tasks:
 
         Role:contract administrator.
 
-    -   **[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)**
+    -   **[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)**
 
         Create a contract template of type .docx that can be used when submitting a contract request to generate a standard contract with predefined content.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Automation Center Kanban board, Exploring Automation Center, Automation Center, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Kanban board, Explore, Automation Center, Workflow Data Fabric]
 ---
 
 # Manage automation requests
@@ -19,6 +19,8 @@ Manage all automation requests from one location from the Request Board in the A
 ## Before you begin
 
 Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
+
+**Note:** Kanban board does not display any automation request from demo data. If you want to view the demo data in Kanban board, then you must run the fix script. For more information, see [Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/run-fix-scripts.md).
 
 ## Procedure
 
@@ -68,7 +70,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
         1.  Select the task icon \(\[Omitted image "icon-task.png"\] Alt text: Task icon\) from the automation task card.
 
-            The Contextual Task Board for the automation request is displayed.
+            The Task Board for the automation request is displayed.
 
         2.  Select the **Add Task** icon.
 
@@ -78,6 +80,19 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
     -   View if an automation request has a task assigned to it. If yes, then how many tasks have been completed.
     -   View if an automation request has automations associated with it.
+    -   View details of the automation request and create tasks.
+        1.  Double-click a request that is in **Planned** state or any state after that.
+
+            The contextual panel opens to the right of the screen.
+
+        2.  View any details or comments in the **Details** and **Comments** tab of the contextual panel.
+        3.  In the **Tasks** tab, select the **Add Task** button.
+
+            The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-task-form.md).
+
+
+-   **[Run fix script to view demo data on Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/run-fix-scripts.md)**  
+To view automation requests from the demo data in your Kanban board, you must run the fix script.
 
 **Parent Topic:**[Automation Center Kanban board](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/kanban.md)
 

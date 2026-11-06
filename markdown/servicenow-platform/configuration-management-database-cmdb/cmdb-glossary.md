@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [CMDB reference, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB glossary
@@ -67,7 +67,7 @@ The following terms are key in CMDB:
 
     Class who's CIs are included in various CI list views. A Principal Class designation is used to restrict the list of CIs in list views across CMDB features, to only specific classes that you need.
 
-    For more information, see [Update the list of classes in the Principal Class filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/update-principal-class-filter.md).
+    For more information, see [Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md).
 
 -   **Related table**
 
@@ -87,7 +87,7 @@ The following terms are key in CMDB:
 
     Some scenarios that involve related tables, can result in orphan CIs in related tables. A CI in a related table can, for example, become orphan if the referenced CI in the CMDB is deleted.
 
-    For more information about orphan CIs in the context of CMDB Health, see[CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
+    For more information about orphan CIs in the context of CMDB Health, see [CMDB Health KPIs and metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/r_CMDBHealthMetrics.md).
 
     For more information about orphan dependent CIs, see [Dependent CIs management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/manage-dependent-ci.md).
 
@@ -101,7 +101,7 @@ The following terms are key in CMDB:
 
     Collection of CIs that lets you apply actions collectively to all the CIs that are members in the group. There are several methods for populating a CMDB group with CI members. Depending on the group type, you can populate a CMDB group by manually adding individual CIs, selecting saved CMDB queries, or building encoded queries in the CMDB group itself. CI members in a CMDB group of type 'health' can be monitored by CMDB Health, and a CMDB group of type 'CMDB Workspace' appears in CMDB Workspace views.
 
-    For more information, see [CMDB groups]().
+    For more information, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md).
 
 
 ## Features, tools, store apps
@@ -154,12 +154,12 @@ The following terms are for essential features and tools that CMDB provides, som
 
     Store app that adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and dependent relationships if applicable. You can use the added classes as any other CMDB class in the base system. Applications such as Discovery and Service Mapping can use these class extensions to populate CIs and discover various technologies and software.
 
-    For more information, see [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+    For more information, see [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 
 -   **CSDM and the CMDB Data Foundations Dashboards**
 
     Store app containing a set of dashboards, complementing each other that together provide insights into key foundational metrics of your CMDB and Common Service Data Model \(CSDM\). In addition, these dashboards provide recommendations to verify that the CMDB and CSDM are properly configured for optimal usage and to mitigate any potential risks.
 
-    For more information, see [Monitor system foundations in the CSDM and the CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
+    For more information, see [Monitor health in CSDM and CMDB Data Foundations Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/csdm-cmdb-foundations-dashboards.md).
 
 

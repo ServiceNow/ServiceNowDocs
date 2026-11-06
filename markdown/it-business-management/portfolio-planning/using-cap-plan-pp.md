@@ -7,8 +7,8 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
 
@@ -44,19 +44,19 @@ On the Manage resource capacity screen, you can:
 -   Switch between **Auto-select** and **Manual-select** option to view the allocated resource efforts for all planning items or to view a custom data, respectively.
 -   Define resource criteria to view the available groups, roles, or skills from the resource assignments of the prioritized planning items.
 
-\[Omitted image "cp-resource-criteria-screen.png"\] Alt text: Resource criteria screen in Capacity.
+\[Omitted image "cp-resource-criteria-screen.png"\] Alt text: Resource criteria screen in Capacity Planning.
 
-## Capacity
+## Capacity Planning
 
-Capacity screen displays the resource efforts from the prioritized planning items.
+Capacity Planning screen displays the resource efforts from the prioritized planning items.
 
 -   Comprehensive overview of resource capacity and allocations.
 -   Current resource capacity allocation.
 -   Interactive Gantt chat to view prioritized planning items in the bottom tray to analyze and plan work.
 
-\[Omitted image "cp-capacity-planning-screen.png"\] Alt text: Capacity view for resource capacity.
+\[Omitted image "cp-capacity-planning-screen.png"\] Alt text: Capacity Planning view for resource capacity.
 
-Understanding the Capacity screen.
+Understanding the Capacity Planning screen.
 
 |Color|Description|
 |-----|-----------|
@@ -65,10 +65,12 @@ Understanding the Capacity screen.
 |Red \(Cells and Gantt bar\)|Overallocation in resource estimates.|
 |Green \(Cells\)|Resource estimates within the resource capacity.|
 
-Using Capacity, you can:
+Using Capacity Planning, you can:
 
 -   View the capacity allocations of prioritized planning items for your current portfolio and better forecast your future resource requirements.
--   Use the filter option \(\[Omitted image "cp-filter-button.png"\] Alt text: Capacity filter button.\) to view planning items by their type, state, priority or any by any required attributes to create capacity plans.
+-   Use the filter option \(\[Omitted image "cp-filter-button.png"\] Alt text: Capacity planning filter button.\) to view planning items by their type, state, priority or any by any required attributes to create capacity plans.
+
+    Quick filters help you filter the data shown in the List, Kanban, and Hierarchy views of Prioritization, Timeline and Kanban views of Roadmap, and Capacity Planning. These filters are saved as your preferences. This way, you can view the same data across all views for a tab, helping you seamlessly plan, prioritize and roadmap work.
 
     **Note:** Default filter is set to display prioritized planning items only.
 
@@ -81,19 +83,19 @@ Using Capacity, you can:
 -   View the efforts for operational work and efforts for estimates outside of portfolio in the **Additional items** list.
 -   Redefine the workforce criteria by selecting **Resource criteria** \(\[Omitted image "cp-resource-criteria-button.png"\] Alt text: Resource criteria button.\)
 
-## Calculation of Operational Resource Assignment in Capacity
+## Calculation of Operational Resource Assignment in Capacity Planning
 
 As a Resource Manager, you can [create operation resource assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/create-op-rsrc-asgnmnts-ppm.md) or [migrate existing operational resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/migrate-operational-rsrc-plans.md) of your employees to handle the required meetings, trainings, time off and so on to meet your work requirements.
 
-Consider a group with capacity of 2 FTE and resource manager creates a Group type operation resource assignment for 10% of the capacity for training. This operational assignment can be viewed in the **Operational work** line item in the top-tray of the Capacity screen. The value of the **Operational work** line item will be 0.2, which is 10% of total capacity of the group.
+Consider a group with capacity of 2 FTE and resource manager creates a Group type operation resource assignment for 10% of the capacity for training. This operational assignment can be viewed in the **Operational work** line item in the top-tray of the Capacity Planning screen. The value of the **Operational work** line item will be 0.2, which is 10% of total capacity of the group.
 
 When a resource manager creates a Group type operation resource assignment for time off, this doesn't update the **Operational work** line item but reduces the total available capacity.
 
-Consider the same group for which resource manager creates an operation resource assignment for 25% of the capacity for time off, for a quarter from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE, which is 75% of the total capacity after reducing the 25% time off.
+Consider the same group with operation resource assignment for 25% of the capacity for time off from April to June. The total available capacity of the group for the quarter April to June will be 1.5 FTE, which is 75% of the total capacity.
 
 0.5 FTE, which is 25% of total capacity of the group will be reduced.
 
 **Note:** The **Operational work** line item is highlighted in gray color.
 
-\[Omitted image "cp-operational-rsrc-asgnmnt.png"\] Alt text: Capacity view showing Operational work in a red highlight box.
+\[Omitted image "cp-operational-rsrc-asgnmnt.png"\] Alt text: Capacity planning view showing Operational work in a red highlight box.
 

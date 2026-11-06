@@ -7,47 +7,37 @@ release: yokohama
 product: Now Assist for Telecom, Media and Technology
 classification: now-assist-for-telecom-media-and-technology
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Telecommunications, Media, and Technology]
+breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)
 
 Use the ServiceNow® ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\) application to summarize service problem cases, account onboarding cases, engagements, touchpoints, generate the case resolution notes, and summarize tests. You can enable your agents to understand the case context and test results so that they can propose quicker resolutions to your customers. Additionally, you can automate transformation mapping between provider and consumer instances in Service Exchange.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
 ## Get started
 
-<table id="table_zzm_tc2_kbc" class="nav-card"><tbody><tr><td>
+ServiceNow Otto for TMT combines a common configuration and licensing layer with generative AI skills and agentic workflows purpose-built for each application.
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-exploring.md)
+|Application|Value|
+|-----------|-----|
+|[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/ai-cspm-landing.md)|Summarize service problem cases, generate resolution notes, and summarize test results with generative AI skills.|
+|Customer Success Management|Automate customer success work with generative AI skills and agentic workflows.|
+|Technology Product Support Case|Summarize test results for technology product support cases with generative AI skills.|
+|Proactive Service Experience Workflows|Generate executive insight briefs and success play recommendations with generative AI skills.|
+|[Sales CRM for Telecommunications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/ai-in-sales-crm-for-telecommunications.md)|Automate order enrichment and fulfillment task suggestions with AI agents.|
+|Service Exchange|Manage the initiation and early stages of the Service Exchange registration process with generative AI skills and agentic workflows.|
+|Telecommunications Network Inventory|Summarize remote hands requests with generative AI skills.|
+|[Telecommunications Customer 360](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/ai-customer-360.md)|Generate AI-driven customer insights and recommendations.|
 
-</td><td>
+**Important:**
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-tmt-configuring.md)
-
-</td><td>
-
-[Use Now Assist for TMT generative AI\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Use generative AI capabilities offered by ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/now-assist-spm-using.md)
-
-</td></tr><tr><td>
-
- 
-
-</td><td>
-
-[Use Now Assist for TMT AI agent collection\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use agentic workflows in Now Assist for TMT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-media-technology/now-assist-for-telecom-media-and-technology/using-aiagents-usecases.md)
-
-</td><td>
-
- 
-
-</td></tr></tbody>
-</table>**Important:**
-
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
@@ -66,7 +56,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\) and test run information \(for test summarization\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect case information \(for case summarization\) and test run information \(for test summarization\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 

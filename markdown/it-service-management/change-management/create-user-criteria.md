@@ -1,6 +1,6 @@
 ---
 title: Create a user criteria record for Change Management
-description: Create a user criteria record to control user access to widgets.
+description: Create a user criteria record and add it to a change model to control which users can view and use that change model.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/create-user-criteria.html
 release: yokohama
@@ -9,12 +9,12 @@ classification: change-management
 topic_type: task
 last_updated: "2025-01-30"
 reading_time_minutes: 1
-breadcrumb: [Change models, Exploring Change Management, Change Management, IT Service Management]
+breadcrumb: [Change model management, Explore, Change Management, IT Service Management]
 ---
 
 # Create a user criteria record for Change Management
 
-Create a user criteria record to control user access to widgets.
+Create a user criteria record and add it to a change model to control which users can view and use that change model.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: admin
 
 ## About this task
 
-A user criteria record on a change model controls access to the model's widgets. The criteria is evaluated only when the record is active and linked to the change model through the **Available For** related list. If either condition is not met, the criteria is not invoked.
+The criteria is evaluated only when the record is active and added to one of these tabs on the change model.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ A user criteria record on a change model controls access to the model's widgets.
 
 2.  Select **New** to open the record.
 
-3.  On the form, fill the fields.
+3.  Fill the fields.
 
 <table id="table_ryj_1mj_bwb"><thead><tr><th>
 
@@ -118,7 +118,7 @@ Advanced
 
 </td><td>
 
-Displays or hides the **Script** field.
+the **Script** field.
 
 </td></tr><tr><td>
 
@@ -126,11 +126,11 @@ Script
 
 </td><td>
 
-Defines any additional criteria, and returns true or false. This field is available only if **Advanced** is selected.
+**Advanced** is selected.
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
 
-**Parent Topic:**[Change models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-models.md)
+**Parent Topic:**[Change model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/manage-change-models.md)
 

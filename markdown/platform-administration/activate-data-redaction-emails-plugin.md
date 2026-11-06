@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/activate-data-redaction-emails-plugin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sensitive data redaction, Use Inbound email actions, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Sensitive data redaction, Use, Inbound email, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Activate sensitive data redaction for inbound emails plugin
@@ -37,13 +37,9 @@ Role required: admin
 
 ## What to do next
 
-[Activating Data Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/activate-data-discovery.md)
+The inbound email channel enables organizations to discover and mask sensitive data in inbound emails through the Data Privacy framework. This replaces the previous approach which used Active Data Patterns with a centralized, streamlined policy-based experience for managing sensitive data in emails.
 
 **Note:** Data Discovery application does not require a paid subscription when used along with sensitive data redaction for inbound emails plugin.
-
-**Data Discovery patterns**
-
-[Default data patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/default-data-patterns.md) are used to filter table entries for further classification. The Data Discovery pattern defines the regular expression used to match data against a target table. For more information, see [Configure Data Discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/configure-data-discovery-patterns.md).
 
 **Parent Topic:**[Sensitive data redaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/sensitive-data-redaction.md)
 

@@ -1,18 +1,18 @@
 ---
-title: User Experience Analytics for pareto bar visualizations
-description: When you select a User Experience Analytics data source for a Pareto bar visualization the following Data configuration options are available.
+title: Usage Insights for Pareto bar visualizations
+description: When you select a Usage Insights data source for a Pareto bar visualization the following Data configuration options are available.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/config-dv-pareto-uxa-data.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Pareto bar visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# User Experience Analytics for pareto bar visualizations
+# Usage Insights for Pareto bar visualizations
 
-When you select a User Experience Analytics data source for a Pareto bar visualization the following Data configuration options are available.
+When you select a Usage Insights data source for a Pareto bar visualization the following Data configuration options are available.
 
 **Important:** Pareto visualizations are only suitable for Events data, not Users or Sessions. Only Events have a value to group by.
 
@@ -34,9 +34,11 @@ Data source
 
 </td><td>
 
-You have selected a User Experience Analytics data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md).
+You have selected a Usage Insights data source in [Create a horizontal or vertical bar data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-bar-ac.md).
 
- **Note:** Only one data source can be defined for pareto at any given time.
+ For sessions, you can configure the metric to reflect the number of sessions, average session duration, average pages per session, or average sessions per user.
+
+ **Note:** Only one data source can be defined for pareto visualizations at any given time.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -128,9 +130,9 @@ Event property
 
 </td><td>
 
-Properties of the event in the User Experience Analytics data source.
+Properties of the Usage Insights data source.
 
-**Note:** Only applies to Events metrics, in which case it is required.
+**Note:** Available only for Events and Sessions metrics, in which case it is mandatory.
 
 </td></tr><tr><td>
 
@@ -138,7 +140,9 @@ Add alternative group by
 
 </td><td>
 
-This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You do not have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+This selection opens a dialog in which you select additional items that the data in the visualization may be grouped by. The viewer of the visualization can then select which of these items to group the data by. The viewer toggles the visibility of the selector in the visualization's More actions menu. In the additional items dialog, you can set whether this selector is visible by default by toggling **Selector visible by default**.If you select a value in **Group by**, that is the default group-by value. You don't have to select a **Group by** value to specify alternative group-by values. In this case, no default group-by value is used.
+
+Data snapshots indicators support only reference, Boolean, and choice fields for alternative group bys.
 
 For more information about setting alternative group-bys for multiple metrics, see [Options for time series data visualizations with multiple metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/chart-options-multi-metrics.md). For more information about the viewer experience selecting from alternative group-by values, see [Select a group-by value in a data visualization as a viewer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-group-runtime.md).
 
@@ -192,8 +196,12 @@ Period
 </td><td>
 
 Time interval for each date period. -   Days `D`
+-   Weeks `W`
 -   Months `M`
+-   Quarters `Q`
 -   Years `Y`
+
+ The available periods depend on the time aggregation. A period can't be shorter than the time aggregation unit. If you change the time aggregation to a longer unit than the selected period, the period changes to the shortest period that is still available.
 
  This property applies only when **Set absolute period** is false.
 
@@ -235,7 +243,7 @@ Triggered when you navigate away from the dashboard that contains the data visua
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
-No data message
+Info messages
 
 </td></tr><tr><td>
 

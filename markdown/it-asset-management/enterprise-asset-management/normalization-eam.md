@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Enterprise Asset Management normalization
@@ -100,4 +100,6 @@ Several normalization tables are installed with the activation of the Enterprise
 |EAM Content Audit \[sn\_eam\_content\_audit\]|Stores the content values that changed.|
 |Manage Enterprise Library \[sn\_eam\_manage\_cd\_library\]|Stores import and export content data.|
 |Enterprise Asset Configurations \[sn\_eam\_configuration\]|Stores opt-in and opt-out data.|
+
+**Parent Topic:**[Create and manage enterprise models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/create-manage-enterprise-models.md)
 

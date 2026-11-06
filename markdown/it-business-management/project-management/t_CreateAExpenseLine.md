@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create an expense line
@@ -44,8 +44,8 @@ Only processed expense lines are considered for projects, project tasks, and dem
 
     **Note:**
 
-    -   Imported processed expense lines are not rolled up to the Total actual cost field in Cost Plans.
-    -   If you change the **Amount** of a Pending expense line and change the state to Processed, the latest value is captured in expense line and the same is rolled up to Total actual costs in Cost Plans.
+    -   Imported processed expense lines aren't rolled up to the Total actual cost field in Cost Plans.
+    -   If you change the **Amount** of a Pending expense line and change the state to Processed, the latest value is captured in the expense line. This value is rolled up to Total actual costs in Cost Plans.
 
 ## Result
 
@@ -75,6 +75,10 @@ If you create an expense line without populating the **Cost Plan** field, a [sys
 [Recalculating costs of all resource plans in a project]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2022-08-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Lifecycle Events evaluation interval, Configure a lifecycle event, Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # View and use the Condition with Event BR \(Demo\) business rule
@@ -38,7 +38,7 @@ Role required: admin
 
 6.  Select the **Advanced** tab.
 
-    In the Script field, you can view how this business rule works. It looks for the running flows for the LE/HR case. When it finds the HR Activity Set Trigger Check workflow, it broadcasts the check\_activity\_set\_trigger event to the flow. This is what triggers the evaluation of an activity set faster rather than wait for the value \(default is four hours\) in the **Evaluation interval** field.\[Omitted image "condition-event-BR-buss-rule.png"\] Alt text: Condition with Event BR demo business rule
+    In the Script field, you can view how this business rule works. It looks for the running flows for the LE/HR case. When it finds the HR Activity Set Trigger Check workflow, it broadcasts the check\_activity\_set\_trigger event to the flow. This is what triggers the evaluation of an activity set faster rather than wait for the value \(default is four hours\) in the **Evaluation interval** field.
 
 7.  When you change the state of the LE/HR case to **Work in Progress**, the activity set triggers.
 
@@ -47,8 +47,6 @@ Role required: admin
 9.  Select the **HR Activity Set Trigger Check** tab.
 
     The Timer was cancelled when the LE/HR case state was changed to **Work in Progress** and the **check\_activity\_set\_trigger** event was fired.
-
-    \[Omitted image "le-case-act-set-trigger-check.png"\] Alt text: HR Activity Set Trigger Check workflow
 
 
 **Parent Topic:**[Lifecycle Events evaluation interval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/le-evaluation-interval1.md)

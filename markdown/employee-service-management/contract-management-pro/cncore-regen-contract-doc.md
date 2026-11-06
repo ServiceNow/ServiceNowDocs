@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Regenerate contract document after modifying request
@@ -46,5 +46,5 @@ The results of the regeneration depends on the initial state of the document:
 
 Note that although contract fulfillers can see all contract document revisions, a contract user can see only the latest revision.
 
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

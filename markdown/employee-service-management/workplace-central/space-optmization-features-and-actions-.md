@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -66,8 +66,8 @@ When you select a building, the building is opened in a stack plan view where yo
 -   The details of the building such as its total capacity, total number of spaces, and location are displayed on top of the plan.
 -   You can see the total number of unallocated spaces of the building in total as well as floor-wise.
 -   You can view the building details in a stack plan view or a floor map view. The floor map view is available only if you have Workplace Indoor Mapping floor maps configured. The floor map view enables you to view the allocation on a floor map and make any changes directly.
--   You can view the spaces allocated to a department, cost center, or workplace entity in the stack plan or on the floor map. You can choose how you want to view the allocations. On the right panel, select a view using the **View by** option.
--   You can select a bar on the stack plan or a space on the floor map to view more details, such as capacity count, capacity ratio, and total capacity. You can also point to the bar to view the same details in a tooltip. The details window on the right panel displays all the bar details, the details related to assignments and the department.
+-   You can view the spaces allocated to a department, cost center, or workplace entity in the stack plan or on the floor map. You can choose how you want to view the allocations. Select a view using the **View by** option.
+-   You can select a bar on the stack plan or a space on the floor map to view more details, such as capacity count, capacity ratio, and total capacity. You can also select a bar to view the same details in a tooltip. Select a bar to to display details related to assignments and the department.
 -   You can view other scenarios related to the building in the **Related scenarios** tab.
 -   In the **Settings** tab, you can apply a filter based on which you want to see the spaces on a floor.
 -   You can’t edit a scenario when you open it in the building view. To edit a scenario of a building, copy that scenario and make changes. The scenario copies the exact building data and enables you to make changes. The changes don’t affect the main data as long as it’s deployed. To create a scenario of a building, you can also select the **Create scenario** option when the building is open in the stack plan view.
@@ -102,4 +102,14 @@ When you select a building, the building is opened in a stack plan view where yo
 [Move conflicts for projects created via Excel upload]()
 
 [Workplace Central troubleshooting]()
+
+[Workplace Task form - Space Assignment task]()
+
+[Neighborhood User Assignment Rule form]()
+
+[User Workplace Profile form]()
+
+[]()
+
+[]()
 

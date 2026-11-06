@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Agent availability and calendars, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Agent availability and calendars, Managing workforce, Use, Field Service Management]
 ---
 
 # Create a schedule to use with the agent calendar
@@ -101,6 +101,4 @@ Description
 
 6.  Click **Submit**.
 
-
-**Parent Topic:**[Agent availability and calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/agent-availability-and-calendars.md)
 

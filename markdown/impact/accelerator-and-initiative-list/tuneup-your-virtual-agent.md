@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # TuneUp Your Virtual Agent
@@ -19,5 +19,4 @@ The TuneUp Your Virtual Agent Accelerators provide guidance for various aspects 
 -   [TuneUp Your Virtual Agent - Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/tuneup-virtual-agent-assessment.md)
 -   [TuneUp Your Virtual Agent – NLU \(Natural Language Understanding\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/tuneup-virtual-agent-nlu.md)
 -   [TuneUp Your Virtual Agent – Performance Monitoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/tuneup-virtual-agent-performance-monitoring.md)
--   [TuneUp Your Virtual Agent – UX \(User Experience\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/accelerator-and-initiative-list/tuneup-virtual-agent-ux.md)
 

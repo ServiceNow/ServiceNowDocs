@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/platsec-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -15,7 +15,7 @@ Platform security provides capabilities to secure the instance.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[ServiceNow Vault \[Omitted image "bus-innovation.svg"\] Alt text: ServiceNow vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/vault-homepage.md)
+[ServiceNow Vault \[Omitted image "bus-innovation.svg"\] Alt text: ServiceNow vault](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/servicenow-vault-landing.md)
 
  Use the ServiceNow Vault product set of data security tools that protect sensitive information from unauthorized access, corruption, or theft throughout its entire life cycle.
 

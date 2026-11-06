@@ -7,9 +7,9 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure advanced appointment scheduling for a center, Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Guidance for configuring advanced appointment scheduling for a vaccination center
@@ -19,8 +19,6 @@ Advanced appointment scheduling configuration enables administrators to configur
 Be mindful that changing some of the configuration values for a finalized vaccination center configuration can have undesired side effects on both existing and future appointments.
 
 The following forms and tables provide some helpful guidance for handling advanced appointment scheduling configurations for a vaccination center. They also provide some of the impacts of making certain changes. However, this guidance doesn’t address an exhaustive list of all possible side effects.
-
-\[Omitted image "vaccination-appointment-configuration.png"\] Alt text: Vaccination Appointment Configuration form with various fields to fill. For information on the fields available on the form, see the Vaccination Appointment Configuration form section that follows.
 
 <table id="table_oxx_5nf_v4b"><thead><tr><th>
 
@@ -103,9 +101,7 @@ Active
 -   You can activate the previously inactive configuration without impacting any appointments.
 
 </td></tr></tbody>
-</table>\[Omitted image "vacciation-schedule.png"\] Alt text: Vaccination Schedule form with various fields to fill. For information on the fields available here, see the Vaccination Appointment Configuration form section that follows.
-
-<table id="table_pwn_hkm_fpb"><thead><tr><th>
+</table><table id="table_pwn_hkm_fpb"><thead><tr><th>
 
 Field
 
@@ -199,5 +195,5 @@ Include daily break
 -   Don’t set the break start time and end time to be the same as the daily start time and daily end time because it won’t generate bookable slots.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Configuring Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/vaccine-mgmt-config.md)
+</table>**Parent Topic:**[Configure advanced appointment scheduling for a center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/configure-location-level-weekly-schedule-config.md)
 

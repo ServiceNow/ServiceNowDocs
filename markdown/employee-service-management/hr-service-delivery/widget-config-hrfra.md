@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Enterprise Service Management Integrations Framework reference, Enterprise Service Management Integrations Framework, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -19,11 +19,4 @@ The **HRSD Framework Integration** and **HRSD Integration Framework Complete** p
 These widgets are available only when the Human Resources Scoped App: Core \[com.sn\_hr\_core\] application is activated. For more information on these widgets, navigate to **Employee Service Center** &gt; **To-dos Configuration**.
 
 **Parent Topic:**[Enterprise Service Management Integrations Framework reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/ent-service-mgmt-int-framework-reference.md)
-
-**Related topics**  
-
-
-[Components installed with Enterprise Service Management Integrations Framework]()
-
-[ServiceNow Otto for HR Service Delivery \(HRSD\) Virtual Agent topic mapping for Enterprise Service Management Integrations Framework]()
 

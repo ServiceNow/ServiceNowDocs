@@ -1,18 +1,18 @@
 ---
-title: Track government information requests by using Information Request Playbook
-description: Track all the information requests that are assigned to you or other agents in your government agency by using the Information Request Playbook.
+title: Track information requests using the Information Request Administration
+description: Track all the information requests that are assigned to you or other agents in your government agency by using the Information Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-ir-playbook-view-service-request-cases-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Information Request Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using Information Request Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Track government information requests by using Information Request Playbook
+# Track information requests using the Information Request Administration
 
-Track all the information requests that are assigned to you or other agents in your government agency by using the Information Request Playbook.
+Track all the information requests that are assigned to you or other agents in your government agency by using the Information Request Administration.
 
 ## Before you begin
 
@@ -29,7 +29,7 @@ When you select a case, a form opens with the following sections:
 
 ## Procedure
 
-1.  Open the Information Request Playbook by navigating to Lists in the CRM Workspace.
+1.  Open the Information Request Administration by navigating to Lists in the Public Sector Workspace.
 
 2.  Navigate to the **Information Requests** list and select **All**.
 

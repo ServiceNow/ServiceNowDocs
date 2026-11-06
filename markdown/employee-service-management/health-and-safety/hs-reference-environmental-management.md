@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: concept
-last_updated: "2025-11-27"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -26,6 +26,8 @@ Field description for a chemical form that the chemical manager uses to create a
 The field description for the chemical ingredient form is as follows.
 -   **[Chemical item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-chemical-item-form.md)**  
 The chemical manager uses the chemical item form to add a new chemical item record. The field and its descriptions are as follows.
+-   **[Regulatory list regulation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-regulatory-list-regulation-form.md)**  
+Chemical managers can use the regulatory list regulation form to create a regulation for the chemical substance manually.
 
 **Parent Topic:**[Health and Safety Environmental Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-environmental-management-landing-page.md)
 

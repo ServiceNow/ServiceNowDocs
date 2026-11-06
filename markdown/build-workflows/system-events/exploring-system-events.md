@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [System Events, Build workflows]
 ---
@@ -46,11 +46,6 @@ Realize the benefits of leveraging system events by doing the following tasks in
 |Project managers|Project managers use system events to trigger notifications for project updates, create task dependencies automatically, or update stakeholders when milestones are achieved, enabling better project tracking and communication.|
 |Security analysts|Security analysts leverage system events to trigger immediate responses to security incidents, such as creating alerts, generating logs, or initiating containment work-flows in response to detected threats or vulnerabilities.|
 
-## System events work-flow
-
-\[Omitted image ""\] Alt text:
-
-1.  2.  
 ## System events benefits
 
 |Benefit|Feature|Users|
@@ -70,4 +65,11 @@ To learn more about configuring and using System events, see:
 -   [Configuring system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/configuring-system-events.md)
 -   [Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/managing-system-events.md)
 -   [System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/system-events-reference.md)
+
+-   **[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/events.md)**  
+Events are special records that the system uses to log when certain conditions occur and to take some kind of action in response to the conditions.
+-   **[Event registry](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/c_EventRegistry.md)**  
+The events registry lists the events the system recognizes. Use registered events to automate other activities, such as script actions or notifications.
+
+**Parent Topic:**[System Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/system-events/system-events-landing.md)
 

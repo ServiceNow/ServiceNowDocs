@@ -1,18 +1,18 @@
 ---
 title: Set up the phases
-description: Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Once the phases are set up, BCM users can tag these phases to recovery tasks and event tasks and execute them in the set order, ensuring a logical execution sequence.
+description: Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/set-up-phases.html
 release: yokohama
 topic_type: task
-last_updated: "2025-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
+breadcrumb: [General administration setup for BCM, Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Set up the phases
 
-Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Once the phases are set up, BCM users can tag these phases to recovery tasks and event tasks and execute them in the set order, ensuring a logical execution sequence.
+Set up the phases in the Business Continuity Management application to map them to recovery and event tasks effectively. Users can then tag and execute these phases in the set order.
 
 ## Before you begin
 
@@ -66,6 +66,11 @@ For information on mapping event tasks to phases, see [Mapping event tasks to ph
 
 4.  Select **Submit**.
 
-    The configured phase is shown in the list view of the Phases module and it can be tagged to the recovery and event tasks, allowing for more effective tracking and management of these tasks.
+    The configured phase is shown in the list view of the Phases module. It can be tagged to the recovery and event tasks, allowing for more effective tracking and management of these tasks.
 
+
+-   **[Phase form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/phase-form.md)**  
+To configure phases as part of recovery activities, use the Phase form to set up phases for recovery and event tasks in the BCM Configurable Workspace. You can then associate these phases with recovery and event tasks, enabling you to track their progression effectively.
+
+**Parent Topic:**[General administration setup for BCM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/set-up-bcm-bcmadmin-tasks.md)
 

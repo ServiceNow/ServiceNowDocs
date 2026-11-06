@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing RMA response orders for defective DaaS assets, Enterprise Asset Management for Providers, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # Completing a Return Merchandise Authorization \(RMA\) response order for defective Device as a Service \(DaaS\) assets

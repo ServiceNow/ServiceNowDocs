@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,11 +30,11 @@ The figures in the following section are shown with **Tabbed forms** cleared in 
 
 1.  After the application installation is complete, navigate to **Integrations** &gt; **Integration Configurations**.
 
-2.  Locate the Palo Alto Networks Next-Generation Firewall tile and click **Configure**.
+2.  Locate the Palo Alto Networks Next-Generation Firewall tile and select **Configure**.
 
     \[Omitted image "4-20-tile.png"\] Alt text: Palo Alto Networks Next-Generation Firewall Configure button
 
-3.  Click **Create new EDL List**.
+3.  Select **Create new EDL List**.
 
     \[Omitted image "4-20-config-tile-resize.png"\] Alt text: Create New EDL List.
 
@@ -149,17 +149,15 @@ Expiration period of the EDL.0 \(the default\) indicates that the EDL entry neve
 </td></tr></tbody>
 </table>    \[Omitted image "4-30-new-edl-cmplt.png"\] Alt text: Completed EDL record ready for submission.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
-6.  If the Palo Alto Networks Firewall External Dynamic Lists list is not displayed, navigate to **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Configuration** and click **Firewall EDL Configuration**.
+6.  If the Palo Alto Networks Firewall External Dynamic Lists list is not displayed, navigate to **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Configuration** and select **Firewall EDL Configuration**.
 
     \[Omitted image "4-30-edl-cr-message.png"\] Alt text: Select Firewall EDL Configuration.
 
     The new EDL is displayed. The EDL status is still inactive \(`false`\), which means the EDL is not available to accept entries. If **Create change request** was configured, a message is displayed indicating a change request and tasks have been created in your ServiceNow AI Platform instance.
 
-    \[Omitted image "4-30-edl-cr-message-callout.png"\] Alt text: Change request message in the EDL list.
-
-7.  In the **Name** column, click an item to open the record.
+7.  In the **Name** column, select an item to open the record.
 
     The EDL record is displayed. This example shows a Malware Outbound IP EDL. The following fields, options, and links are displayed on the new record after submission and described in the following table.
 

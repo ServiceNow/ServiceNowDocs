@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_EmailLogs.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Email FAQs and troubleshooting notification emails, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email logs and diagnostics, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # System email log and mailboxes
@@ -191,5 +191,5 @@ Headers
 Any headers embedded in the email.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Email FAQs and troubleshooting notification emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/troubleshooting-notification-emails.md)
+</table>**Parent Topic:**[Notification email logs and diagnostics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/troubleshooting-notification-emails.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/submit-ins-policy-service-request-commercial-lines-servicing.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Commercial Lines Servicing, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Submit a policy service request
@@ -34,19 +34,19 @@ Customers can submit policy service requests from the Consumer Service Portal or
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a policy service request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d55589e123">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d63588e127">
 
 Option
 
-</th><th align="left" id="d55589e126">
+</th><th align="left" id="d63588e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d55589e132">
+</th></tr></thead><tbody><tr><td id="d63588e136">
 
 **Policy service request from a customer record**
 
@@ -56,7 +56,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d55589e159">
+</td></tr><tr><td id="d63588e163">
 
 **Policy service request from an interaction record**
 
@@ -90,4 +90,6 @@ Based on the request type, a policy service case is created in the New state. Th
 
 -   Click **View Details** to open the policy service case and view its details. You can also add additional information in the **Comments** field that can help the policy processor in resolving the case.
 -   A policy processor can start working on the case and its tasks.
+
+**Parent Topic:**[Using Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/using-financial-services-commercial-lines-servicing.md)
 

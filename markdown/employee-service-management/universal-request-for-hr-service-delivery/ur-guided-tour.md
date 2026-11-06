@@ -7,9 +7,9 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2025-02-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Universal Request, Universal Request, Employee Service Management]
+breadcrumb: [Use, Universal Request, Employee Service Management]
 ---
 
 # Use the guided tour in Universal Request

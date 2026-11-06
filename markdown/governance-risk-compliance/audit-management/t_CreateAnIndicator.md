@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage GRC key risk and control indicators, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Risk monitoring and indicators, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Create a GRC indicator

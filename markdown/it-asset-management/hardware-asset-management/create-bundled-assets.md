@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Manage asset bundles from your inventory
@@ -30,7 +30,7 @@ Role required: asset
 
 2.  Select **New**.
 
-    The model category defaults to **Bundle** and the state defaults to **Build**. The build state is associated to only the **Bundle** model category. The build state isn't valid for assets.
+    The model category defaults to **Bundle** and the state defaults to **Build**. The build state is associated to only the **Bundle** model category. The build state isn’t valid for assets.
 
 3.  In the Bundle form layout, select a product model from the **Model** list.
 
@@ -70,7 +70,7 @@ Role required: asset
 
 8.  You can delete an asset bundle by selecting **Delete**.
 
-    You must disassociate assets from an asset bundle in order to delete the bundle. Once all the assets are released from the bundle, you can delete the bundle.
+    You must disassociate assets from an asset bundle to delete the bundle. Once all the assets are released from the bundle, you can delete the bundle.
 
     1.  In the **State** field, select **Retired**.
 
@@ -87,70 +87,26 @@ Role required: asset
         The asset bundle is deleted.
 
 
-**Parent Topic:**[Using Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-classic.md)
+**Parent Topic:**[Asset lifecycle and disposal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/asset-lifecycle-disposal-ham.md)
 
 **Related topics**  
 
 
-[Work with hardware normalization]()
-
-[Manage your inventory through pallet assets]()
-
-[Manage loaner assets]()
-
-[Donate assets to charity organizations]()
-
-[Use Advanced Shipment Notification]()
-
-[Manage RMA requests]()
-
-[Create an inventory stock order request]()
-
-[Create a disposal order]()
-
-[Use a hardware asset request flow]()
-
-[Audit hardware asset inventory]()
-
 [Request a Hardware Asset Refresh]()
+
+[Manage refresh of assets using Zero Touch Refresh]()
 
 [Manage your expiring contracts for leased hardware assets]()
 
 [Reclaim hardware assets]()
 
-[View RFID information of assets]()
+[Create a disposal order]()
 
-[Manage the lifecycle of hardware models with calculated lifecycle templates]()
+[Donate assets to charity organizations]()
 
-[Receive asset warranty details from Lenovo]()
+[Calculate the active lifecycle phase for a model]()
 
-[Manage stockrooms]()
+[Manage obligations in the Hardware Asset Workspace]()
 
-[Track shipments using the integration framework]()
-
-[Track asset location using indoor maps]()
-
-[Assess performance of Hardware Asset Management]()
-
-[Manage refresh of assets using Zero Touch Refresh]()
-
-[Configure the Total Cost of Ownership of assets]()
-
-[Manage and monitor hardware asset performance]()
-
-[Manage Hardware Asset Management subscriptions]()
-
-[Manage repair of defective assets in your stockroom in the Hardware Asset Workspace]()
-
-[Manage picking hardware assets within your stockroom for Hardware Asset Management workflows]()
-
-[Manage asset put away using the Hardware Asset Workspace]()
-
-[Manage hardware asset tasks using the Mobile Agent application]()
-
-[Audit your hardware assets by using Asset Attestation]()
-
-[Acknowledge receipt of assets on the Employee Center portal]()
-
-[Update associated Decision tables for HAM flows]()
+[Manage contract repository agentic workflow in the Hardware Asset Workspace]()
 

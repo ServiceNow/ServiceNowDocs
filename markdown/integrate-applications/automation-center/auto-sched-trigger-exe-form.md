@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Automation Center reference, Automation Center, Data and Automation]
+breadcrumb: [Reference, Automation Center, Workflow Data Fabric]
 ---
 
 # Automation Scheduled Trigger Execution form
@@ -57,6 +57,9 @@ Run
 Time interval to use for running the scheduled job:
 
 -   **Daily**: Runs daily, at a designated time.
+-   **Day and Month in Year**: Runs yearly on a specific day and month \(for example, July 14\), at a designated time.
+-   **Day in Week in Month in Year**: Runs yearly on a specific day of the week in a specific week of a specific month \(for example, the second Monday in October\), at a designated time.
+-   **Week in Month**: Runs monthly during a specific week of the month \(for example, the third week of each month\), on designated days and at a designated time.
 -   **Weekly**: Runs on a weekly basis, at a designated time and day of the week.
 -   **Monthly**: Runs on a monthly basis, at a designated time and day of the month.
 -   **Periodically**: Runs on a designated repeating interval.
@@ -68,9 +71,9 @@ For example, if the business calendar represents a fiscal year, and the starting
 
 -   **Business Calendar: Entry End**: Runs for the ending date for the business calendar that you select in the **Business Calendar** field. This selection runs in the same manner as **Business Calendar: Entry Start**, but for the end dates of the associated business calendar entries.
 
-**Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run as this is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
+**Note:** When you select **Business Calendar: Entry Start** or **Business Calendar: Entry End**, you can apply an offset factor to schedule the job to run before or after the time span of the selected business calendar. If you select a business calendar and all its business calendar spans are in the past, the job would never run since that is an invalid configuration. To learn more, see the **Offset type** and **Offset** fields.
 
-To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/business-calendars.md) and[Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/define-business-calendar-entries.md).
+To learn more about creating and using business calendars and defining business calendar entries, see [Creating business calendars](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/business-calendars.md) and [Define business calendar entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/define-business-calendar-entries.md).
 
 
 </td></tr><tr><td>
@@ -110,7 +113,7 @@ Time zone to use with the **Time** field entry when you specify the time at whic
 
 -   **-None-**: Use the default time zone for the logged-in user who is creating the scheduled job.
 
-For example, the scheduled job runs at 04:45 p.m. US/Pacific time if it is the user's assigned time zone, and you enter `16:45` into the **Time** field.
+For example, the scheduled job runs at 04:45 p.m. US/Pacific time if it’s the user's assigned time zone, and you enter `16:45` into the **Time** field.
 
 -   **Use System Time Zone**: Use the default system time zone that is specified for the instance in which it runs.
 
@@ -135,7 +138,7 @@ Starting
 
 </td><td>
 
-Date and time of the first scheduled job generation. Select the calendar date and time. This field appears only if you select **Periodically** in the **Run** field.
+Allows you to define the beginning window of time when you would like your job to start running. The job will actually run at the time specified in **Run time**. Select the calendar date and time. The **Starting** field appears only if you select one of the following **Run** types in the **Run** field:
 
 </td></tr><tr><td>
 
@@ -143,7 +146,7 @@ Business Calendar
 
 </td><td>
 
-Business calendar entry that you are using to determine the business calendar start or end date for the scheduled job. This field appears only if you select **Business Entry: Start Date** or **Business Entry: End Date** in the **Time** field.
+Business calendar entry that you’re using to determine the business calendar start or end date for the scheduled job. This field appears only if you select **Business Entry: Start Date** or **Business Entry: End Date** in the **Time** field.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Automation Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-center-reference.md)

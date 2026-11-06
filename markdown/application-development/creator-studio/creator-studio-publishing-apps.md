@@ -7,10 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [app deployment, deploy app]
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Deploying your Creator Studio app
@@ -29,7 +29,7 @@ The ServiceNow AI Platform uses the Application Repository to move apps between 
 
 You should test your app and all of its published forms and activated playbooks on a non-production instance. Once it's ready, you can submit the app for deployment to production. For more information, see [Request deployment for your app from Creator Studio to production](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-deploy-app-to-prod.md).
 
-Apps aren't deployed directly from Creator Studio. Instead, your admin uses Pipelines and Deployments. Admins should check out [Managing deployments using pipelines in AEMC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/manage-deployments-using-aemc.md).
+Apps aren't deployed directly from Creator Studio. Instead, your admin uses Pipelines and Deployments. Admins should check out [Managing deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md).
 
 ## Deploying forms and automation with the app
 

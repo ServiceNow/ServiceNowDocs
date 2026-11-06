@@ -7,7 +7,7 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
@@ -20,10 +20,13 @@ My Work provides a centralized view of all your assigned tasks, including projec
 
 Work items from all ServiceNow applications assigned to you’re displayed in My Work. If you receive a work item on the CWM Board via Connected Work, those items appear here as well. This ensures you have a single source for all assigned work without the need to switch between applications.
 
+Project tasks from Project Workspace also appear in My Work when they are assigned to you directly or through a group. For details on the assignment paths that surface project tasks, see [View project tasks assigned to you in CWM My Work](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/view-project-tasks-in-cwm-my-work.md).
+
 **Note:**
 
 -   Any task record created in a table that doesn’t extend the Task \[task\] table, such as VTask, won't show up in My Work.
 -   If you’re added as **Additional assignee** to a task, work with your admin to enable the display of such tasks in My Work. See [Properties installed with CWM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/properties-installed-with-cwm.md).
+-   Tasks stored in tables that the CWM application doesn't have cross-scope access to, such as the sn\_hr\_core\_task table, don't appear in My Work.
 
 \[Omitted image "cwm-my-work.png"\] Alt text: My Work filters in CWM.
 

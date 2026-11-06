@@ -1,5 +1,5 @@
 ---
-title: Create a mapped entity
+title: \(Legacy\) Create a mapped entity
 description: Create an entity mapped to a vocabulary source, or to a list of values you manually create for the entity. Mapped entities can help provide multiple values the model can use as context when interpreting utterances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-mapped-entity-lookup-source.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create a mapped entity
+# \(Legacy\) Create a mapped entity
 
 Create an entity mapped to a vocabulary source, or to a list of values you manually create for the entity. Mapped entities can help provide multiple values the model can use as context when interpreting utterances.
 
@@ -130,24 +130,10 @@ Values used to provide context for the model.
 
 You can create a mapped entity using a vocabulary source to use the values in the source as the mapped entity.
 
-**Parent Topic:**[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)
-
 **Related topics**  
 
 
-[Create a simple entity]()
+[\(Legacy\) Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-table-lookup-source.md)
 
-[Create a pattern entity]()
-
-[Create a system-derived entity]()
-
-[Create an open-ended entity]()
-
-[Import entities]()
-
-[Using regular expressions in entities]()
-
-[Create a table vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-table-lookup-source.md)
-
-[Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-static-list-source.md)
+[\(Legacy\) Create a list vocabulary source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/create-static-list-source.md)
 

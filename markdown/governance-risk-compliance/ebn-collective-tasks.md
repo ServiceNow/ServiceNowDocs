@@ -1,25 +1,22 @@
 ---
 title: Sending notifications with Everbridge
-description: You can send an emergency notification with Everbridge in BCM Configurable Workspace and inform the stakeholders about a crisis event.
+description: You can use Everbridge in the BCM Configurable Workspace to send emergency notifications and inform stakeholders about crisis events.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ebn-collective-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Sending notifications with Everbridge
 
-You can send an emergency notification with Everbridge in BCM Configurable Workspace and inform the stakeholders about a crisis event.
+You can use Everbridge in the BCM Configurable Workspace to send emergency notifications and inform stakeholders about crisis events.
 
-Typically, the BCM program manager sends out the emergency notifications to the stakeholders. For more information on creating an emergency notification, see [Create emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-emergency-notification-uib-ws.md).
+BCM program manager sends out the emergency notifications to the stakeholders.
 
-## Additional information on Everbridge
-
--   For information on the emergency notifications in Everbridge, see [Emergency notifications in Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/integrating-crisis-mgmt-with-everbridge-uib.md).
--   For information on the setup tasks for Everbridge, see [Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md).
+For more information on emergency notifications, see [Emergency notifications in Everbridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/integrating-crisis-mgmt-with-everbridge-uib.md) and [Create emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-emergency-notification-uib-ws.md). For information on the setup tasks for Everbridge, see [Setup for Everbridge notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setup-steps-for-emergency-notification-uib-ws.md).
 
 -   **[Status of emergency notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/workflow-status-of-emergency-notification-uib-ws.md)**  
 When you send an emergency notification for a crisis event with Everbridge, it creates a corresponding incident along with a notification. You can track the notification delivery and monitor its status in the Business Continuity Workspace until it’s successfully delivered to the contacts from Everbridge.

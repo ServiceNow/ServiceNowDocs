@@ -1,51 +1,50 @@
 ---
 title: Configuring App Engine Studio and related apps
-description: App Engine Studio \(AES\) guided setup walks you through the implementation process, one step at a time. As you finish each setup procedure, you're prompted to begin the next one.
+description: App Engine Studio \(AES\) configuration involves installing the application and completing guided setup, which walks you through the implementation process, one step at a time. After you finish each setup procedure, you're prompted to begin the next one.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/aes-setup.html
 release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Configuring App Engine Studio and related apps
 
-App Engine Studio \(AES\) guided setup walks you through the implementation process, one step at a time. As you finish each setup procedure, you're prompted to begin the next one.
+App Engine Studio \(AES\) configuration involves installing the application and completing guided setup, which walks you through the implementation process, one step at a time. After you finish each setup procedure, you're prompted to begin the next one.
 
-When you have finished configuring AES, you have the option of configuring other products related to AES:
+## Configuring App Engine Studio
 
--   App Engine Management Center \(AEMC\)
--   Application Intake
--   Pipelines and Deployments
+Configure App Engine Studio \(AES\) by installing the application on your development instance \(and any other non-production instances on which users will develop applications\) and completing guided setup. See the following resources for more information:
 
-Each of these products has its own guided setup. If you have already configured one or more of the products and you are prompted to configure it again, you can simply ignore that instruction. The following diagram illustrates the preferred method for implementing AES and associated applications:
+-   [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/install-aes.md)
+-   [Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-aes.md)
 
-\[Omitted image "aes-config-infographic-smaller.png"\] Alt text: AES implementation
+**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see  and [Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/cloning-aes-applications.md).
 
-AES implementation usually follows these steps.
+## Configuring related applications
 
-1.  On a development instance, install AES and the Pipelines and Deployments plugin. For more information, see [Installing App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/install-aes.md).
-2.  Complete the AES guided setup. For more information, see [Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-aes.md).
-3.  On your production instance:
-    1.  Complete the Application Intake guided setup. For more information, see [Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-app-intake.md).
-    2.  Complete the Pipelines and Deployments guided setup. For more information, see [Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-p-and-d.md).
-4.  On a development instance, complete the first non-production task of the Pipelines and Deployments guided setup.
-5.  On your test instance, install Pipelines and Deployments.
-6.  Complete both non-production tasks of the Pipelines and Deployments guided setup on the test instance.
-7.  In all the other non-production instances in your pipeline:
-    1.  Install Pipelines and Deployments.
-    2.  Complete the first non-prod tasks of the Pipelines and Deployments guided setup.
-8.  Repeat step 7 across all non-production instances, as needed.
-9.  Install the AEMC plugin on each instance in your pipeline. For more information, see [Configure the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-aemc.md).
+After you finish configuring AES, you have the option to configure other applications related to AES. Each of these applications has its own guided setup. If you have already configured one or more of the applications and you're prompted to configure it again, you can simply ignore that instruction. For more information about the applications related to AES and configuring them, see the following list.
 
-    AEMC allows admins to manage app development from intake through production on your production instance.
+-   **[App Engine Management Center \(AEMC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/configuring-aemc.md)**
 
+    App Engine Management Center AEMC contains all of the features that you need to manage application development within your organization, from idea submission to deployment. Using AEMC, admins can manage requests for new apps and delegate development and collaboration permissions. Admins can also oversee the entire deployment process with insights into individual deployment requests, test suites, and scheduled deployments.
 
-**Note:** If you plan on cloning your production instance to one or more non-production instances, you should also install the AES product on your production instance prior to cloning. For more information, see [Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-clone-landing.md) and [Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/cloning-aes-applications.md).
+-   **[Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/config-app-intake.md)**
+
+    Application Intake enables citizen developers to submit ideas for applications. Application Intake requests can be viewed in AEMC, where admins can approve or reject the requests.
+
+-   **[Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/config-p-and-d.md)**
+
+    Pipelines and Deployments enables release managers and App Engine admins to build custom pipelines across multiple instances. You can also connect the testing suites and frameworks that your organization uses to verify that applications are stable and compatible before they reach production.
+
+-   **[ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/releaseops/configuring-releaseops.md)**
+
+    ReleaseOps improves the existing pipelines deployment process by supporting the deployment of update sets, leveraging the automation capabilities of ServiceNow Playbooks, and enabling both scheduled and on-demand releases.
+
 
 -   **[AES and domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-domain-sep.md)**  
 Domain separation is unsupported for App Engine Studio \(AES\). Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
@@ -53,12 +52,6 @@ Domain separation is unsupported for App Engine Studio \(AES\). Domain separatio
 You can install the App Engine Studio \(AES\) application \(com.snc.app-engine-studio\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.
 -   **[Configure App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-aes.md)**  
 App Engine Studio \(AES\) guided setup provides a sequence of tasks that help you configure AES on your ServiceNow instance.
--   **[Configure the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/configure-aemc.md)**  
-Use the App Engine Management Center \(AEMC\) guided setup to step through the initial configuration of the Application Intake and Pipelines and Deployments applications. The Application Intake guided setup is optional, but if you want to use AEMC, the Pipelines and Deployments guided setup is required.
--   **[Configure Application Intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-app-intake.md)**  
-Use the App Engine Studio \(AES\) Application Intake guided setup to step through the initial configuration of the Application Intake application. Detailed instructions for each step are provided in subsequent sections of the product documentation.
--   **[Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/config-p-and-d.md)**  
-Use the App Engine Studio \(AES\) Pipelines and Deployments guided setup to step through the initial configuration of Pipelines and Deployments. Detailed instructions for each step are provided in subsequent sections of the product documentation.
 -   **[Cloning instances with AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/cloning-aes-applications.md)**  
 Learn how to protect the data, tables, and templates you've created in App Engine Studio when using System Clone to copy instances from production to non-production.
 

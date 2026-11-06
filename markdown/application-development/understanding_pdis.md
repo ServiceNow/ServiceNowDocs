@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/understanding\_pdis.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Personal developer instance guide, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Understanding PDIs
@@ -19,8 +19,6 @@ Sign in to the Developer Site to keep your PDI active. After a period of inactiv
 **Note:** To save your work, commit your work to source control or create update sets. Work that is not saved may be lost due to instance reclamation.
 
 When a PDI is reclaimed, the instance is unassigned from you, reset to its original state, and reassigned to another Developer Program member. Reclaiming instances allows the Developer Program to support active program members with free instances. The **Account** menu on the Developer Site header includes a reminder in the Activity section that you have ten days of inactivity.
-
-\[Omitted image "pdi-guide-tokyo\_pdiguide\_images\_servicenow\_pdi\_activity.png"\] Alt text: PDI that could be reclaimed
 
 Keep your PDI active by signing in or performing developer-type activities on your instance such as:
 

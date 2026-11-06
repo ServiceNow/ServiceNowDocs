@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-02-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -44,16 +44,106 @@ In case of a failed upgrade, the system creates a `failed-backup.dist-upgrade-<t
 
 4.  Run this command for the target machine and change the variables according to your configuration: `java -jar edgeencryption-<version>-all.jar -m install –n <proxy_name> --instancehost <host> -p <port> --protocol https –s <install_path>`
 
-    |Option|Variable|Description|
-    |------|--------|-----------|
-    |none|version|Version number of the Edge Encryption proxy being used to perform the current operation.|
-    |-m|mode|Runtime mode. Options are "install" for a new Edge proxy server or “dist-upgrade” to upgrade an existing Edge proxy server.|
-    |-n|proxy\_name|Name of the installed Edge Encryption proxy server. Use a unique proxy\_name to be able to identify specific proxy instances.|
-    |--instancehost|host|The host name of your ServiceNow instance \(for example, `mycompany.service-now.com`\).|
-    |-p|port|Port your ServiceNow instance listens on. Typically secure HTTPS connections listen on port **443** and HTTP connections listen on port **80**.|
-    |--protocol|protocol|Protocol the installed Edge proxy uses when connecting to the backend ServiceNow host. This is typically **HTTPS** \(preferred for secure TLS connections\) or **HTTP** \(connections without TLS\) depending on which protocol the host instance supports.|
+<table id="table_qc1_krk_kdb"><thead><tr><th>
 
-    **Note:** Do not copy and paste commands from the browser. Occasionally, copy/paste operations cause unexpected characters to be pasted to the target machine and results in the command being executed incorrectly. It is best to type out the command by hand using documentation as a reference.
+Option
+
+</th><th>
+
+Variable
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+none
+
+</td><td>
+
+version
+
+</td><td>
+
+Version number of the Edge Encryption proxy being used to perform the current operation.
+
+</td></tr><tr><td>
+
+-m
+
+</td><td>
+
+mode
+
+</td><td>
+
+Runtime mode. Options are "install" for a new Edge proxy server or “dist-upgrade” to upgrade an existing Edge proxy server.
+
+</td></tr><tr><td>
+
+-n
+
+</td><td>
+
+proxy\_name
+
+</td><td>
+
+Name of the installed Edge Encryption proxy server. Use a unique proxy\_name to be able to identify specific proxy instances.
+
+</td></tr><tr><td>
+
+--instancehost
+
+</td><td>
+
+host
+
+</td><td>
+
+The host name of your ServiceNow instance \(for example, `mycompany.service-now.com`\).
+
+</td></tr><tr><td>
+
+-p
+
+</td><td>
+
+port
+
+</td><td>
+
+Port your ServiceNow instance listens on. Typically secure HTTPS connections listen on port **443** and HTTP connections listen on port **80**.
+
+</td></tr><tr><td>
+
+--protocol
+
+</td><td>
+
+protocol
+
+</td><td>
+
+Protocol the installed Edge proxy uses when connecting to the backend ServiceNow host. This is typically **HTTPS** \(preferred for secure TLS connections\) or **HTTP** \(connections without TLS\) depending on which protocol the host instance supports.
+
+</td></tr><tr><td>
+
+-s
+
+</td><td>
+
+install\_path
+
+</td><td>
+
+Path to the directory or folder where the new Edge proxy is installed \(the destination directory\). If the directory does not already exist, this command will create it. If it does exist it must not contain an existing installation.
+
+ If this option is skipped, the default folder name is derived from the proxy\_name and port \(for example, `EdgeProxy_443`\), in the current directory.
+
+</td></tr></tbody>
+</table>    **Note:** Do not copy and paste commands from the browser. Occasionally, copy/paste operations cause unexpected characters to be pasted to the target machine and results in the command being executed incorrectly. It is best to type out the command by hand using documentation as a reference.
 
     To see the help screen, execute this command with the `–help` option: `java -jar edgeencryption-<version>-all.jar --help`
 

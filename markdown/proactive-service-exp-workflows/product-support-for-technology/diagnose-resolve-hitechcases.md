@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Use, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Diagnose and resolve a technology product support case
@@ -66,9 +66,9 @@ The technology product support case progresses through several stages from start
 
     3.  Expand the cards in the **Available Test Suite**.
 
-        To set up test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/settingup-test-specifications.md).
+        To set up test definitions, see .
 
-        To set up test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/setting-test-group.md).
+        To set up test group, see .
 
     4.  In the manual test, select single/multiple tests.
 
@@ -137,4 +137,6 @@ The technology product support case progresses through several stages from start
 ## Result
 
 The technology product support case is resolved and closed successfully.
+
+**Parent Topic:**[Using Technology Product Support Case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/use-technology-product-support-case.md)
 

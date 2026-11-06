@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-assigning-findings-to-remediation-teams.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [assign findings to remediation teams automatically, assign vulnerable items to remediation teams automatically, assign application vulnerable items to remediation teams automatically, assign container vulnerable items to remediation teams automatically, assignment rules overview]
 breadcrumb: [Automating prioritization and triaging, Security Exposure Management workflow, Explore, Unified Security Exposure Management, Security Operations]
@@ -81,14 +81,12 @@ When rules are updated, reapplying them ensures that current findings reflect th
 
 ## Automating regrouping after assignment group changes
 
-You can automate the regrouping of findings when assignment groups change due to assignment rule reapplication by activating the **sn\_sec\_rem.rerun\_task\_rules** system property.
-
-**Note:** This system property is not activated by default.
+You can automate the regrouping of findings when assignment groups change due to assignment rule reapplication by activating the system property **sn\_sec\_rem.rerun\_task\_rules**.
 
 Steps to enable:
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
-2.  Open the **sn\_sec\_rem.rerun\_task\_rules** system property.
+2.  Open **sn\_sec\_rem.rerun\_task\_rules** system property.
 3.  In the **Value** field, set the value to true.
 
 When enabled, findings are unlinked from prior remediation tasks if the rule conditions no longer match.

@@ -7,7 +7,7 @@ release: yokohama
 product: Workflow Activities
 classification: workflow-activities
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Task workflow activities, Workflow activities reference, Workflow activities, Classic Workflow, Build workflows]
 ---

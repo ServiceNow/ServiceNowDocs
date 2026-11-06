@@ -1,61 +1,87 @@
 ---
 title: Financial Services Operations Integration with Visa release notes
-description: The ServiceNow Financial Services Operations Integration with Visa application enables you to seamlessly integrate with the workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Yokohama release.The ServiceNow Financial Services Operations Integration with Visa application enables you to seamlessly integrate with the workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Yokohama release.
+description: The ServiceNow Financial Services Operations Integration with Visa application enables integration with workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. See the following sections for release notes by version.Capture dispute updates from the Visa allocation workflow for Fraud and Authorization cases without gaps in queue polling.Align the Visa dispute questionnaire subflows with Visa IES release 26.2, revisions 1 and 2. Dispute agents see accurate field labels, validation, and Spoke action wiring.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/financial-services-operations-integration-with-visa-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-02-05"
-reading_time_minutes: 1
-breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [Financial Services Operations Integration with Visa, Visa Resolve Online, dispute resolution, card operations, dispute management, fraud reporting, dispute questionnaire, financial services, workflow integration, release notes, Visa, dispute questionnaire, IES, Interface Elements Specification, subflows, field labels, validation, Spoke actions, financial services]
+audience: [administrator, developer]
+breadcrumb: [Financial Services Operations release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Financial Services Operations Integration with Visa release notes
 
-The ServiceNow® Financial Services Operations Integration with Visa application enables you to seamlessly integrate with the workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Yokohama release.
+The ServiceNow® Financial Services Operations Integration with Visa application enables integration with workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. See the following sections for release notes by version.
 
 ## About Financial Services Operations Integration with Visa
 
--   Enables Visa VROL dispute resolution process by providing features such as accept dispute and cardholder purchase enquiry.
--   Ensures Visa conformance through error handling and timely updates on chargeback status.
+-   Provides the framework for supporting dispute resolution use cases on ServiceNow which requires integration with VROL.
+-   Use predefined subflows to address primary integrations such as creating a dispute case, reporting fraud, and submitting a dispute questionnaire.
 
 See [Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/financial-services-operations-integration-with-visa-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Financial Services Operations Integration with Visa is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+-   **Activation information**
+
+    Install Financial Services Operations Integration with Visa by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
 
 **Parent Topic:**[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)
 
-## Yokohama
+## Version 5.2.2
 
-The ServiceNow® Financial Services Operations Integration with Visa application enables you to seamlessly integrate with the workflow applications, such as the card operations dispute management playbook with Visa Resolve Online \(VROL\) subflows. Financial Services Operations Integration with Visa was enhanced and updated in the Yokohama release.
+Capture dispute updates from the Visa allocation workflow for Fraud and Authorization cases without gaps in queue polling.
 
 ### What's new
 
--   **[Added new VROL integration subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)**
+-   **Visa allocation batch queue support**
 
-    Enables seamless integration with the card operations dispute management playbook with VROL subflows. The following new VROL subflows have been added:
+    The Process Incoming Acceptance Batch Queue subflow captures and processes updates from the `INCOMING_BQ_ACCEPTANCES_RECEIVED` batch queue for Visa disputes in the Fraud and Authorization allocation workflow: cases where an acquirer accepts full liability on an issuer's chargeback, or on a pre-arbitration response filed or submitted by the issuer. The system polls this subflow separately from the existing Batch Queues Flows Adapter, so these acceptances are less likely to be missed during allocation processing.
 
-    -   Look Up Transaction Inquiry Results
-    -   Accept Dispute
-    -   Conduct Cardholder Purchase Inquiry
-    -   Look Up Transaction Details
-    -   Look Up Dispute Response Details
-    -   Create Dispute Pre-Arbitration
-    -   Look Up Dispute Pre-Arbitration Details
-    -   Create Dispute Pre-Arbitration Response
-    -   Look Up Dispute Pre-Arbitration Response Details
-    -   Submit Dispute Filing
-    -   Look Up Dispute Filing Details
-    -   Mark Batch Queue Item as Read
 
 ### What's changed
 
--   **[Visa Resolve Online \(VROL\) version 25.1 updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md)**
+-   **Processing code field values updated for Visa compliance**
 
-    Updated the following subflows to align with release 25.1 revision changes:
+    Updated `processing_code` field choice values in the Financial transaction table align with current Visa data field specifications. Existing choice values have been updated with refined labels and descriptions; new choice values have been added to support additional transaction types.
 
-    -   Submit Dispute questionnaire
-    -   Submit fraud report
+    The updated choice values include:
+
+    -   `00` — Goods/Service Purchase - Debit
+    -   `01` — Cash Disbursement \(for example, withdrawal or cash advance\) - Debit
+    -   `02` — Adjustment - Debit
+    -   `10` — Account Funding / Card Absent Account Funding
+    -   `11` — Quasi-Cash Transaction - Debit or Internet Gambling Transaction
+    -   `19` — Fee Collection - Debit
+    -   `20` — Return of Goods - Credit, Credit Transaction, Credit Voucher
+    -   `22` — Adjustment - Credit
+    -   `26` — Original Credit
+    -   `28` — Activation and Load / Load
+    -   `29` — Funds Disbursement - Credit
+    -   `30` — Available Funds Inquiry
+    -   `39` — Eligibility Inquiry
+    -   `50` — Bill Payment \(U.S. only\)
+    -   `53` — Payment \(U.S. only\)
+    -   `72` — Activation \(POS\)
+    Dispute agents and administrators see these updated labels and descriptions in transaction UI drop-down lists and data entry forms. No action is required on existing transactions. Existing choice values not listed here remain unchanged.
+
+
+## Version 5.1.1
+
+Align the Visa dispute questionnaire subflows with Visa IES release 26.2, revisions 1 and 2. Dispute agents see accurate field labels, validation, and Spoke action wiring.
+
+### What's changed
+
+-   **Updated questionnaire field labels and validation**
+
+    Renamed the question "Explain why credit presented does not apply" to "Provide the Transaction Identifier\(s\) or Acquirer Reference Number\(s\) and the Transaction Date that the credit\(s\) was applied to and why the credit\(s\) does not resolve the Dispute," and renamed "Certification that the merchant facilities were withdrawn" to "Certification that the facilities were withdrawn." The Name field is no longer required, and Key Factors now accepts up to 200 characters.
+
+-   **Updated Spoke action wiring for new questionnaire fields**
+
+    Added the Date facilities were withdrawn and Date cardholder checked out from hotel fields to the `Submit Dispute Questionnaire` and `Look up Dispute Details Response Parser` spoke actions, and added CE Transaction Details as a read-back field on `Look up Dispute Details Response Parser`. See [Financial Services Card Operations 2026 September Monthly release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-card-operations-rn.md) for the corresponding questionnaire questions.
+
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring capacity management, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Capacity management, Configure, Telecommunications Network Inventory]
 ---
 
 # Create capacity definition

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-business-deposit-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Analytics and reporting solutions, Financial Services Operations \(FSO\)]
+breadcrumb: [Platform Analytics, Financial Services Operations \(FSO\)]
 ---
 
 # Business Deposit Operations dashboard
@@ -189,5 +189,5 @@ Needs to be able to customize views.
 -   Age
 -   Service
 
-**Parent Topic:**[Analytics and reporting solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
+**Parent Topic:**[Implementing Platform Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-content-pack.md)
 

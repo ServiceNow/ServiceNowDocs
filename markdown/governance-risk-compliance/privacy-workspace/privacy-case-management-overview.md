@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -20,19 +20,19 @@ With the ability to integrate with other systems and record impacted areas, the 
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "icon-explore.png"\] Alt text: Exploring Privacy Case Management.Learn about how privacy managers, privacy users, and privacy administrators use the Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/integrating-privacy-management-with-ccm.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how privacy managers, privacy users, and privacy administrators use the Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/integrating-privacy-management-with-ccm.md)
 
 </td><td>
 
-[Configure \[Omitted image "icon-set-up.png"\] Alt text: Configuring Privacy Case Management. Configure your Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Configure your Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configuring-privacy-case-management.md)
 
 </td><td>
 
-[Use \[Omitted image "icon-workspace.png"\] Alt text: Use Privacy Case Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md) Work on creating privacy assessments, processing activities and so on.
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md) Work on creating privacy assessments, processing activities and so on.
 
 </td></tr><tr><td>
 
-[Reference\[Omitted image "icon-reference.png"\] Alt text: Learn about the tables and roles that are installed with the Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/components-installed-with-pcm.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text: Learn about the tables and roles that are installed with the Privacy Case Management application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/components-installed-with-pcm.md)
 
 </td><td>
 

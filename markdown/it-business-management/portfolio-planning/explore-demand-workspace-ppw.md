@@ -1,0 +1,63 @@
+---
+title: Exploring Next Experience for Demand Management
+description: Next Experience for Demand Management enables you to create, evaluate, and prioritize demands, throughout the demand life cycle.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/explore-demand-workspace-ppw.html
+release: yokohama
+product: Portfolio Planning
+classification: portfolio-planning
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Next Experience for Demand Management in Portfolio Planning, Portfolio Planning, Strategic Portfolio Management]
+---
+
+# Exploring Next Experience for Demand Management
+
+Next Experience for Demand Management enables you to create, evaluate, and prioritize demands, throughout the demand life cycle.
+
+## Next Experience for Demand Management overview
+
+Next Experience for Demand Management is a centralized workspace experience that streamlines how your organizations can capture, evaluate, and progress demands through their life cycle. It brings together all demand‑related activities such as intake, qualification, and task management into a single interface. By consolidating access to demands, tasks, resources, financials, and supporting records, the workspace means you don't have to navigate across multiple modules. You can define scope, assess capacity, estimate effort, and evaluate financial and strategic impact. Playbooks guide demands through each stage from intake to completion so your team follows a consistent process.
+
+\[Omitted image "ppw-all-demands-list.png"\] Alt text: Demands Dashboard home page.
+
+## Next Experience for Demand Management users
+
+|User|Description|
+|----|-----------|
+|Business user|Creates a demand using Service Catalog or Idea Portal.|
+|Demand user|Creates a demand using Demand Management and adds required details. Cannot edit the demand details once the demand moves to the **Submitted** state.|
+|Demand managers|Manages and prioritizes demands based on the available demand details. They can assign demand tasks to gather more details. Demand managers are also responsible for progressing the demand through the different stages in its life cycle.|
+|Business stakeholders|Fills out the assessments for scoring and reviews demands before they are approved.|
+|Demand approvers|Approves the demand to be converted into a work item.|
+
+## Next Experience for Demand Management benefits
+
+Next Experience for Demand Management provides benefits for demand managers and their users.
+
+-   Consistent demand intake and evaluation process: Next Experience for Demand Management enables a structured workflow. Demands progress through defined evaluation stages.
+-   Centralized visibility into demand information: Next Experience for Demand Management provides a single interface to view all demands and their associated details such as business cases, capacity, and financials. Demand managers can compile a complete picture of a demand without having to cross-reference multiple forms, modules, or applications to compile a complete picture of a demand.
+-   At-a-glance demand insights: The Demands Dashboard summarizes demand volume, financials, and data quality across three tabs, Overview, Financials, and Data Quality. Demand managers can monitor key metrics and drill into the underlying records without leaving the workspace.
+-   Playbook-guided demand life-cycle: Playbooks define the sequence of stages and activities that demands must go through such as creation, planning, assessment, and approval. Each stage contains a set of prescribed activities that must be completed before demands transition to the next stage. Using playbooks, your organization can define its own processes.
+-   Consolidated data for demand prioritization: Next Experience for Demand Management provides demand details, capacity and risk assessment outputs, and financial summaries in a unified view. Demand managers can compare, rank, and prioritize demands based on defined organizational criteria.
+-   Manage demand financials in one place: Using the Financials tab on the demand record, demand managers can view, plan, and define cost plans, benefit plans, and budgets. Filter by time scope and personalize grid columns without leaving the demand.
+-   Plan demand resources before project conversion: Using the Resources tab on the demand record, demand managers can view resource assignments against resource capacity. They can group assignments by primary group, role, or skill, and adjust allocations before the demand becomes a project.
+-   Tailor demand data capture by governance process: Using demand experiences, admins can configure the form view, modules, and dynamic attributes for different governance processes, such as Marketing or IT. This configuration does not require adding fields to the base demand form.
+-   Score and qualify demands: Using smart assessments, assessments are created, scored, and used to qualify a demand. The smart assessment form is intuitive and efficient for stakeholders to score.
+-   AI system integration through playbook activities: The AI playbook enables associating AI systems to demands through a playbook activity. This feature enables associating a demand with an AI system from directly within the demand workflow.
+-   AI-assisted demand skills: Using the AI skills, demand users and demand managers can expand or condense text content in text fields, summarize the demand, and identify the similar demand records.
+
+## What to explore next
+
+To learn more about configuring and using Next Experience for Demand Management, see:
+
+-   [Configuring Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/configuring-demand-workspace-ppw.md)
+-   [Using Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-demands-ppw.md)
+-   [Managing financials for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-financials-for-demands-ppw.md)
+-   [Manage resources for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/resource-planning-for-demands-ppw.md)
+-   [Enterprise-Wide Deployment for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/ewd-for-demands-ppw.md)
+-   [Assess demands with smart assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/smart-assessments-overview-ppw.md)
+-   [Collaborate with docs in Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/docs-for-demands-ppw.md)
+-   [Next Experience for Demand Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-reference-ppw.md)
+

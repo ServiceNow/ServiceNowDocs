@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a decision, Add logic and automation, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add a decision, Add logic and automation, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a decision
@@ -34,7 +34,7 @@ Role required: sn\_app\_eng\_studio.user or delegated\_developer. For more infor
 
 4.  Take the appropriate actions to edit the decision.
 
-    For more information on editing decision tables, see .
+    For more information on editing decision tables, see [Modify decision table structure in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/format-decision-table-in-decision-designer.md).
 
 5.  To save your changes, select **Save**.
 

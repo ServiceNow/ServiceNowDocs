@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Financial Services Card Operations reference, Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Card Operations
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\[com.sn\_customerservice\]
+Case Management Core\[com.sn\_customerservice\]
 
 </td><td>
 
@@ -322,7 +322,7 @@ Visa Dispute Cardholder Intake
 
 </td><td>
 
-Stores Visa Dispute Questionnaire questions and responses submitted by consumers, such as a dispute playbook on a service portal. See [Managing dispute intake in portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-playbook-for-portal.md) for more information. Extends the Visa Dispute Intake \[sn\_bom\_visa\_cp\_visa\_dispute\_questionnaire\] table.
+Stores Visa Dispute Questionnaire questions and responses submitted by consumers, such as a dispute playbook on a service portal. See [Create a dispute case with Dispute Intake in Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.md) for more information. Extends the Visa Dispute Intake \[sn\_bom\_visa\_cp\_visa\_dispute\_questionnaire\] table.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Financial Services Card Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-card-operations/card-operations-reference.md)
@@ -330,5 +330,5 @@ Stores Visa Dispute Questionnaire questions and responses submitted by consumers
 **Related topics**  
 
 
-[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
+[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md)
 

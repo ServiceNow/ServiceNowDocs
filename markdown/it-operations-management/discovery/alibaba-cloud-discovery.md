@@ -7,8 +7,8 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2024-02-01"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Alibaba, cloud, Discovery, Service Mapping, Patterns, CMDB]
 breadcrumb: [Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
@@ -32,7 +32,7 @@ Discovery and Service Mapping Patterns create configuration items \(CIs\) for yo
 
 See [Alibaba Cloud discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/alibaba-cloud-discovery-pattern.md) to learn about all Alibaba Cloud resources you can discover using Patterns.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -84,7 +84,7 @@ Install the store applications and update them on every store release:-   Discov
 
 </td><td>
 
-[ITOM Store upgrades](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/store-upgrades-landing.md)
+[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/r_ITOMApplications.md)
 
 </td></tr><tr><td>
 
@@ -219,4 +219,14 @@ Set up a discovery schedule for Alibaba Cloud
 -   [Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-schedule-DAW.md)
 
 </td></tr></tbody>
-</table>
+</table>-   **[Create Alibaba Cloud API Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-cloud-api-credentials.md)**  
+Create Alibaba Cloud API credentials on the ServiceNow AI Platform to enable access to your Alibaba Cloud resources during Alibaba Cloud discovery.
+-   **[Set up Alibaba Cloud service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/set-up-alibaba-cloud-service-account.md)**  
+Create Alibaba Cloud infrastructure service accounts on the ServiceNow AI Platform to access your Alibaba Cloud account during Alibaba Cloud discovery.
+-   **[Create a Discovery schedule for Alibaba Cloud](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-cloud-discovery-schedule.md)**  
+Create a Discovery schedule to run Alibaba Cloud discovery.
+-   **[Create an Alibaba Cloud Discovery schedule in Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-alibaba-schedule-DAW.md)**  
+Use the Discovery Admin Workspace dashboard to create an Alibaba Cloud Discovery schedule.
+
+**Parent Topic:**[Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cloud-discovery-wizard.md)
+

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-07-04"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set dashboards as home for all users, Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Set Core UI dashboards as home for all users, Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Set a specific dashboard as home for specific users
@@ -32,19 +32,17 @@ The dashboard that you configure should be available to all users.
 
 2.  Create a user preference with the name `my_home_navigation_page`.
 
-3.  Give the preference a description such as `Set home dashboard for ITIL users`.
+3.  Give the preference a meaningful description such as `Set home dashboard for ITIL users` that users can search for.
 
 4.  In the **User** field, specify one user this dashboard will be the home for.
 
-5.  Give the preference a meaningful description that you can search for.
+5.  Set the **Type** to `string`.
 
-6.  Set the **Type** to `string`.
+6.  In the **Value** field, enter the following: `$pa_dashboard.do?sysparm_dashboard=dashboard_sys_id`, but replace `dashboard_sys_id` with the sys\_id you copied before you began.
 
-7.  In the **Value** field, enter the following: `$pa_dashboard.do?sysparm_dashboard=dashboard_sys_id`, but replace `dashboard_sys_id` with the sys\_id you copied before you began.
+7.  Select **Submit**.
 
-8.  Select **Submit**.
-
-9.  Select the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon\) and choose **Insert and Stay**.
+8.  Select the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: Context menu icon\) and choose **Insert and Stay**.
 
     This action duplicates the user preference so that you can specify another user this dashboard will be home for. You can also specify a different sys\_ID on the duplicated record.
 

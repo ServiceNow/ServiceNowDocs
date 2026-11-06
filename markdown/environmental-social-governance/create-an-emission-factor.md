@@ -1,18 +1,18 @@
 ---
 title: Create an emission factor
-description: Create your own custom emission factors if you don’t want to use the standard emission factors provided by the ESG content accelerator application. An emission factor is a representative value that relates the quantity of a pollutant released to the atmosphere with the activity associated with the release of that pollutant.
+description: Create your own custom emission factors if you don’t want to use the standard emission factors provided by the Unified content management application. An emission factor is a representative value that relates the quantity of a pollutant released to the atmosphere with the activity associated with the release of that pollutant.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-an-emission-factor.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the emission factor library, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Create an emission factor
 
-Create your own custom emission factors if you don’t want to use the standard emission factors provided by the ESG content accelerator application. An emission factor is a representative value that relates the quantity of a pollutant released to the atmosphere with the activity associated with the release of that pollutant.
+Create your own custom emission factors if you don’t want to use the standard emission factors provided by the Unified content management application. An emission factor is a representative value that relates the quantity of a pollutant released to the atmosphere with the activity associated with the release of that pollutant.
 
 ## Before you begin
 

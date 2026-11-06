@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Cross-project library elements, Design your indicator solution, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Cross-project library elements, Design your indicator solution, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Edit or delete a library element
@@ -17,6 +17,10 @@ breadcrumb: [Cross-project library elements, Design your indicator solution, Con
 You can add artifacts to a library element, or convert a library element back to project-based artifacts. You can also edit the data definitions of artifacts in a library element.
 
 ## Before you begin
+
+**Important:**
+
+This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Role required: sn\_kpi\_composer.admin or admin for full editing functions
 
@@ -48,7 +52,7 @@ Role required: sn\_kpi\_composer.admin or admin for full editing functions
 
     -   You do not need to click **Add this element to the library** in the properties of the new artifact. If you click this link, you add the new artifact to a new library element that is nested inside this library element.
     -   Instead of adding a new artifact, you can add another library element, which is then nested inside this library element. For more information, see [Use a library element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/use-library-element.md).
-6.  To add indicator and report definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Defining indicators and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/designing-indicators.md).
+6.  To add indicator definitions to the artifacts in a library element, open the Data Definition tab and follow the instructions in [Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-indicator-definition.md).
 
 7.  Select the information icon \(\[Omitted image "kpi-comp-info-icon-sm.png"\] Alt text:\) to view or edit the library element properties, such as whether the library element is global or personal in scope.
 

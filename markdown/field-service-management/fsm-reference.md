@@ -1,33 +1,35 @@
 ---
 title: Field Service Management reference
-description: Reference topics provide additional information about Field Service Management components that are installed automatically when you activate Field Service Management plugin.
+description: Reference topics provide additional information about Field Service Management components that are installed automatically when you activate the Field Service Management plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/fsm-reference.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Field Service Management]
 ---
 
 # Field Service Management reference
 
-Reference topics provide additional information about Field Service Management components that are installed automatically when you activate Field Service Management plugin.
+Reference topics provide additional information about Field Service Management components that are installed automatically when you activate the Field Service Management plugin.
 
 -   **[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_InstalledWithFSM.md)**  
 Several types of components are installed with Field Service Management.
+-   **[Roles required for Field Service Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/roles-required-for-field-service-guided-setup.md)**  
+Different roles are required to perform various steps in Field Service Guided Setup.
 -   **[Section 508 compliance features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/section-508-complaince-feature.md)**  
 You can view and interact with the certain Field Service features using Section 508 compliance features.
 -   **[Work order task fields in the Field Service Contractor application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fields-wot-field-service-contractor.md)**  
 The Details tab in a work order task provides information about a task that helps an agent or manager to understand the task scope.
--   **[Smart Assessment template fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/smart-assessment-template-fields.md)**  
-Learn about fields in the **Create assessment form** to create Smart Assessment templates.
 -   **[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)**  
 Several types of components are installed with the additional plugins for the Field Service Management application.
 -   **[Schedule Optimization components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-components.md)**  
-There are other types of components installed with Schedule Optimization, including tables, roles, constraints, objectives, and properties.
+Components installed with Schedule Optimization include tables, roles, constraints, objectives, and properties.
 -   **[Schedule Optimization travel estimate providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-travel-estimate-providers.md)**  
 Travel estimate providers used by Schedule Optimization.
+-   **[Skills table fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/skills-table-fields.md)**  
+Field reference for skills management records in Field Service Management, including Task Skills, User Skills, Group Skills, and User Skill History tables.
 -   **[Intra-day schedule automation flows and subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/intraday-scheduling-flows.md)**  
 The flows and subflows for configuring intra-day schedule automation.
 -   **[Task assignees table for crew members or equipment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/task-assignees-table.md)**  
@@ -40,10 +42,20 @@ Unique map pins and icons in the dispatch map that mark the location of tasks an
 Linear assets support for Field Service Management uses the following system properties, which are located in the System Properties \[sys\_properties\] table.
 -   **[Advanced resource filter tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/advanced-filter-tables.md)**  
 The tables that contain the values administrators must enable for dispatchers to use to create resource filters can be found listed below.
--   **[Learn about appointment availability settings for an application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appt-booking-task-assignment.md)**  
-Appointment availability defines how many customer appointments can be scheduled within each time slot. You can control availability using different methods based on your organization's needs.
--   **[Learn about task assignment methods for an application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appt-booking-config-overview.md)**  
-The Appointment Booking feature works with Field Service Management task assignment methods to effectively assign tasks and manage appointments.
 -   **[Data model for denormalized tables in Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/flat-table-model.md)**  
 Use the table below to reference the Field Service Management weekly resource span denormalized table.
+-   **[Learn about appointment availability settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appt-booking-task-assignment.md)**  
+Settings in the application configuration determine how the appointment booking feature determines availability.
+-   **[Learn about task assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appt-booking-config-overview.md)**  
+The application configuration works with the Field Service Management configuration for task assignment.
+-   **[Learn about triggers for work schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-trigger-types.md)**  
+Trigger types determine the initiation of the execution of the work plan.
+-   **[Field Service Management script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-script-includes.md)**  
+Script includes used in Field Service Management help configure agent scheduling, dispatch operations, part management, integrations, and more.
+-   **[Field Service Management questionnaires](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-management-questionnaires.md)**  
+Both survey-based and Smart Assessment questionnaires are available in the ServiceNow Agent mobile application. If a questionnaire is configured as mandatory for a work order task, the task can't be closed until the questionnaire is completed.
+-   **[GeoJSON format requirements for territory geographies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/geojson-format-requirements.md)**  
+GeoJSON format requirements define the structure, geometry types, and coordinate rules that territory geographies must follow.
+-   **[Field Service Management glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-management-glossary.md)**  
+Learn about terms and concepts that are unique to Field Service Management.
 

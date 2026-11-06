@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management administration, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Delete uninstalled software from the Software Installation table
@@ -34,7 +34,7 @@ You can also delete software installation records for specific publishers like O
 
     For more information on the REST endpoint API, see [Table API-GET](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_TableAPI.md).
 
-    1.  Specify the table name, Software Installation \[cmdb\_sam\_sw\_install\] table and query parameters.
+    1.  Specify the table name, Software Installation \[cmdb\_sam\_sw\_install\] table, and query parameters.
 
         For the query parameters, specify either the sys\_id of the CI or a list of fields that are separated by commas such as publisher, version, and product on which you want to perform the delete operation.
 
@@ -44,7 +44,7 @@ You can also delete software installation records for specific publishers like O
 
 2.  Based on the response, identify the sys\_ids of the software installations that are deleted on a CI.
 
-    Only the sys\_ids of those software installations need to be passed through the Delete API.
+    Only the sys\_ids of those software installations must be passed through the Delete API.
 
 3.  Use the Delete API request.setEndpoint\('http://xyz/api/now/table/cmdb\_sam\_sw\_install/728e87dafd841010fa9bea491bfdc1ff'\); request.setHttpMethod\('DELETE'\); to delete the software installs from the Software Installation \[cmdb\_sam\_sw\_install\] table.
 

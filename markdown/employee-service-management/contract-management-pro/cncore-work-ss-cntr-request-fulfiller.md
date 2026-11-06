@@ -1,5 +1,5 @@
 ---
-title: Work on self-served contract requests as a contract fulfiller
+title: Work on requests as a contract fulfiller
 description: Review and finalize a contract document according to the contract request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-fulfiller.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Work on self-served contract requests as a contract fulfiller
+# Work on requests as a contract fulfiller
 
 Review and finalize a contract document according to the contract request.
 
 ## Before you begin
 
-Role required: sn\_lg\_cnt.contract\_fulfiller
+Role required: sn\_cm\_core.contract\_fullfiller
 
 ## About this task
 
@@ -34,25 +34,25 @@ You cannot add the same user to the Assigned to and Collaborator fields.
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d662986e99">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d716441e99">
 
 Action
 
-</th><th align="left" id="d662986e102">
+</th><th align="left" id="d716441e102">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d662986e108">
+</th></tr></thead><tbody><tr><td id="d716441e108">
 
 **Specify the contract as perpetual**
 
 </td><td>
 
-Select the **Perpetual** check box in the Details tab to classify the contract as perpetual.**Note:** The **End date** must be blank when this check box is selected.
+Select the **Perpetual** check box in the Details tab to classify the contract as perpetual.**Note:** The **End date** must be empty when this check box is selected.
 
 The **Perpetual** check box is available in contract requests that are initiated from the Sales Customer Relationship Management and Source-to-Pay Operations.
 
-</td></tr><tr><td id="d662986e136">
+</td></tr><tr><td id="d716441e136">
 
 **Regenerate contract document**
 
@@ -60,7 +60,7 @@ The **Perpetual** check box is available in contract requests that are initiated
 
 Create a version of the contract document. Using this option discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d662986e152">
+</td></tr><tr><td id="d716441e152">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -70,7 +70,7 @@ Create a version of the contract document. Using this option discards the change
 
 Create a version of the contract document while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-sync-document.md).
 
-</td></tr><tr><td id="d662986e173">
+</td></tr><tr><td id="d716441e173">
 
 **Create document revisions**
 
@@ -78,7 +78,7 @@ Create a version of the contract document while retaining the changes made in th
 
 Create a document revision. For more information, see [Create a document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-doc-rev.md).
 
-</td></tr><tr><td id="d662986e190">
+</td></tr><tr><td id="d716441e190">
 
 **Add signatories**
 
@@ -86,7 +86,7 @@ Create a document revision. For more information, see [Create a document revisio
 
 Add signatories. For more information, see [Add signatories in self-served contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-sign-ss-cmr.md).
 
-</td></tr><tr><td id="d662986e208">
+</td></tr><tr><td id="d716441e208">
 
 **Sync signatories__Note:__ This option isn’t available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
@@ -96,7 +96,7 @@ Add signatories. For more information, see [Add signatories in self-served contr
 
 Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
-</td></tr><tr><td id="d662986e229">
+</td></tr><tr><td id="d716441e229">
 
 **Initiate ad hoc approvals**
 
@@ -104,7 +104,7 @@ Update the contract document with the latest signatory details. For more informa
 
 Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approval for a contract document revision](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-initiate-approval-contract-request.md).
 
-</td></tr><tr><td id="d662986e245">
+</td></tr><tr><td id="d716441e245">
 
 **Communicate with stakeholders using Email**
 
@@ -112,15 +112,15 @@ Initiate ad hoc approvals. For more information, see [Initiate an ad hoc approva
 
 Communicate with stakeholders via email. For more information, see [Send email to stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-send-email.md)
 
-</td></tr><tr><td id="d662986e260">
+</td></tr><tr><td id="d716441e260">
 
-**Analyze contract documents using Now Assist to identify non-standard and missing clauses**
+**Analyze contract documents using AI to identify non-standard and missing clauses**
 
 </td><td>
 
-Use Now Assist to analyze the contract documents to identify the non-standard and missing clauses. For more information, see [Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
+Use AI to analyze the contract documents to identify the non-standard and missing clauses. For more information, see [Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md).
 
-</td></tr><tr><td id="d662986e289">
+</td></tr><tr><td id="d716441e280">
 
 **Send the document for signature**
 
@@ -128,7 +128,17 @@ Use Now Assist to analyze the contract documents to identify the non-standard an
 
 Send the document for a signature. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
 
-</td></tr><tr><td id="d662986e307">
+</td></tr><tr><td id="d716441e298">
+
+**Initiate an offline signature__Note:__ This option is available only when the signature type is Offline signature.
+
+**
+
+</td><td>
+
+Use this option for a contract signed outside Contract Management Pro. For offline signatures, the system does not send signature request emails to the signatories. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+
+</td></tr><tr><td id="d716441e321">
 
 **Cancel request**
 
@@ -140,5 +150,5 @@ Cancel a request:-   On the contract request page, from the Actions menu, select
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Document Template integration with AdobeSign, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -20,9 +20,9 @@ Demo data is available for this feature.
 
 ## Roles installed
 
-<table id="table_u1t_gb1_wdb"><thead><tr><th>
+<table id="table_vlt_qz1_ggc"><thead><tr><th>
 
-Role title \[name\]
+Role name
 
 </th><th>
 
@@ -34,7 +34,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-Adobe Sign Admin\[sn\_dt\_adobesign.admin\]
+Adobe Sign Admin \[sn\_dt\_adobesign.admin\]
 
 </td><td>
 
@@ -50,5 +50,5 @@ None
 
 |Table|Description|
 |-----|-----------|
-|Document Template Adobe Sign Groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign Groups. For more information, see [Create adobe sign groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-adobe-groups.md).|
+|Document temoplate Adobe Sign groups \[sn\_dt\_adobesign\_group\]|Stores Adobe Sign groups. For more information, see[Create adobe sign groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/create-adobe-groups.md)|
 

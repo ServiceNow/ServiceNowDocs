@@ -1,30 +1,32 @@
 ---
-title: Configure Business Portal
-description: Configure the business portal to provide information and support for your customers.
+title: Configure Business and Consumer Portal
+description: Configure the business and consumer portal to provide information and support for your customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure-business-portal.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Configure Business Portal
+# Configure Business and Consumer Portal
 
-Configure the business portal to provide information and support for your customers.
+Configure the business and consumer portal to provide information and support for your customers.
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
 
 ## About this task
 
-The Business Portal is a self-service web portals based on the Service Portal application.
+The Business and Consumer Portals are self-service web portals based on the ServiceNow Service Portal application.
 
-The Business Portal supports your business-to-business \(B2B\) customers.
+The Business Portal supports your business-to-business \(B2B\) customers and the Consumer Portal supports your business-to-consumer \(B2C\) customers.
+
+\[Omitted video\] Description: Configure Business and Consumer Portal
 
 Use the portals to provide information and support for your customers. The portals provides ready to use features that require minimal setup. These include:
 
@@ -37,29 +39,36 @@ Use the portals to provide information and support for your customers. The porta
 
 You can add additional self-service capabilities such as order management by installing the respective plugin.
 
-**Note:** The Business Portal Store app is automatically installed when you install the Customer Service Portal store app. For details, see [Activate the Consumer and Customer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.md).
+**Note:**
+
+-   The Business Portal Store app is automatically installed when you install the Customer Service Portal store app \(from version 24.0.0 and above\).
+-   The Consumer Portal Store app is automatically installed when you install the Consumer Service Portal store app \(from version 24.0.0 and above\).
+
+For details, see [Activate the Consumer and Customer Service Portals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/activate-consumer-portal.md).
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Portal** &gt; **Portals**.
 
-2.  On the Service Portals page, in the Title column, enter `*business portal`.
+2.  On the Service Portals page, in the Title column, enter `*business portal` or `*consumer portal`.
 
-3.  Select **Business Portal**.
+3.  Select **Business Portal** or **Consumer Portal**.
 
-    A page opens in your instance where you can configure the Business Portal.
+    A page opens in your instance where you can configure the Business or Consumer Portal.
 
 4.  Clear **Inactive** check box.
 
-    **Note:** The business portal is inactive by default.
+    **Note:** The Business Portal and Consumer Portal is inactive by default.
 
 5.  Select **Update**.
 
-    You can access the business portal using the URL, &lt;servicenow instance URL&gt;/business\_portal.
+    You can access the Business Portal using the URL, &lt;servicenow instance URL&gt;/business\_portal and Consumer Portal using the URL, &lt;servicenow instance URL&gt;/consumer\_portal.
 
 
 **Related topics**  
 
 
 [Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md)
+
+[Evaluate the performance of a portal page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/analyze-page-performance.md)
 

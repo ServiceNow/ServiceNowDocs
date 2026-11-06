@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Additional Configurations, Microsoft Defender for Endpoint integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ To contain an attack, restrict or lock a device and prevent subsequent attempts 
 
 |Input|Description|
 |-----|-----------|
-|Comment|\(Required\) Comment to associate with the action\)|
+|Comment|\(Required: Comment to associate with the action\)|
 
 Role required: sn\_si.admin or sn\_si.analyst
 
@@ -30,19 +30,17 @@ Role required: sn\_si.admin or sn\_si.analyst
 
 2.  Select the security incident that you want to review with the Microsoft Defender for Endpoint information.
 
-    1.  In the related links section, click **Run Additional Actions on Endpoint**.
+    1.  In the related links section, select **Run Additional Actions on Endpoint**.
 
     2.  Browse and select the **Restrict App Execution** capability.
 
-    \[Omitted image "restrict\_app.png"\] Alt text: Restrict App capability implementation
-
     Alternatively, you can perform the following steps:
 
-    1.  In the related lists section, click **Show All Related Lists**.
-    2.  Click the **Configuration Item** related list.
+    1.  In the related lists section, select **Show All Related Lists**.
+    2.  Select the **Configuration Item** related list.
     3.  Select the added configuration items.
     4.  From the Actions on selected rows, select **Run Additional Actions on Endpoint**.
-3.  To enable Restrict App Execution on the machine, click **Run Additional Action**.
+3.  To enable Restrict App Execution on the machine, select **Run Additional Action**.
 
 4.  View the automation activities of the execution, and validate them.
 

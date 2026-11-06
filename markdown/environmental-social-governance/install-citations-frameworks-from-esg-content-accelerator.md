@@ -1,16 +1,16 @@
 ---
-title: Activate or update a framework and install citations using the ESG content accelerator
+title: Activate or update a framework and install citations using the Unified content management
 description: Activate or update your chosen framework and select the citations for the framework you've selected. This will install the framework and the selected citations and metric definitions on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/install-citations-frameworks-from-esg-content-accelerator.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
-# Activate or update a framework and install citations using the ESG content accelerator
+# Activate or update a framework and install citations using the Unified content management
 
 Activate or update your chosen framework and select the citations for the framework you've selected. This will install the framework and the selected citations and metric definitions on your instance.
 

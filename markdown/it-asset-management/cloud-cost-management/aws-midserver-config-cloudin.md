@@ -7,16 +7,14 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Cloud Cost Management for AWS, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Cloud Cost Management for AWS, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring access to CI data on your AWS account
 
 To ensure secure and reliable communications, the Discovery process communicates with your cloud provider accounts and cloud resources through one or more MID Servers. You can set up the MID Servers on your network or in one of your cloud networks.
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
 
 ## Requirements
 
@@ -26,7 +24,7 @@ AWS: There must be an internal network connection between the MID Servers and th
 
 ## Detailed instructions
 
-See Amazon AWS Cloud Discovery.
+See [Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/setup-aws-service-accounts.md).
 
 ## MID Server settings for Cloud Cost Management
 

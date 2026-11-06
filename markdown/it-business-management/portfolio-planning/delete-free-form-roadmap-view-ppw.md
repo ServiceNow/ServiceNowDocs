@@ -1,5 +1,5 @@
 ---
-title: Delete a free-form roadmap view in Portfolio Planning
+title: Delete a free-form roadmap view
 description: Delete a customized free-form roadmap view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/delete-free-form-roadmap-view-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Managing free-form roadmap views in Portfolio Planning, Create a free-form roadmap in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Delete a free-form roadmap view in Portfolio Planning
+# Delete a free-form roadmap view
 
 Delete a customized free-form roadmap view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
@@ -41,12 +41,12 @@ Role required: sn\_align\_core.ap\_read\_only
     \[Omitted image "delete-free-form-roadmap-view-ppw.gif"\] Alt text: Delete free-form roadmap view.
 
 
-**Parent Topic:**[Managing free-form roadmap views in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)
+**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)
 
 **Related topics**  
 
 
-[Create a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.md)
+[Create a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.md)
 
-[Edit a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-free-form-roadmap-view-ppw.md)
+[Edit a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-free-form-roadmap-view-ppw.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mentions-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure notifications for mobile activity stream mentions, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configure activity stream notifications, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure push notifications for mobile activity stream mentions
@@ -190,7 +190,9 @@ Message that appears to the user's contacts, informing them they are mentioned.
 
     8.  Select the reference lookup icon \(\[Omitted image "reference-lookup-icon.png"\] Alt text: Reference lookup icon.\) to open the Push Notification Messages page.
 
-    9.  Select the push notification message you created. The push notification is listed as one of the available messages in the **What to send** tab.
+    9.  Select the push notification message you created.
+
+        The push notification is listed as one of the available messages in the **What to send** tab.
 
     10. Select **Submit**.
 

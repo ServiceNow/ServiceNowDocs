@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create or update an override license cost record
@@ -38,7 +38,7 @@ You can manually add or update the override license cost information for your so
     -   If you select **Edit ranges**, all the existing records are set to inactive. You can select **Activate** after completing your updates to override license cost ranges.
 5.  On the form, fill in the fields.
 
-    For details on the override license cost fields and descriptions, see [Override License Costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-model-fields.md).
+    For details on the override license cost fields and descriptions, see [Override License Costs tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/software-model-fields.md).
 
     **Note:** You can revert your changes to the default values by selecting **Restore to default**.
 

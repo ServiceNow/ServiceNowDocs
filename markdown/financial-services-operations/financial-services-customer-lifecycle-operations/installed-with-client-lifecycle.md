@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Financial Services Customer Lifecycle Operations reference, Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Financial Services Client Lifecycle
@@ -32,7 +32,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service\(com.sn\_customerservice\)
+Case Management Core\(com.sn\_customerservice\)
 
 </td><td>
 
@@ -211,7 +211,6 @@ sn\_bom.service\_definition\_read
 |-----------------|-----------|
 |Financial Services Operations Core|Stores the data that is needed to create customer lifecycle cases. For more information, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md).|
 |Financial Services Credit Operations|Enables the management of Credit service cases and tasks that are used in Financial Services Customer Lifecycle Operations workflows. For more information, see [Components installed with Financial Services Credit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-credit-operations/installed-with-credit-assessment.md).|
-|Financial Services Document Management|Enables the management of Document Services tasks that are used in Financial Services Customer Lifecycle Operations workflows. For more information, see [Integrating with Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/integrating-with-document-processor.md).|
 |Financial Services Know Your Customer \(KYC\)|Enables KYC Agents to review and evaluate the eligibility of new account applicants.|
 |CSM Playbook|Provides a way to visualize business process workflows in a simple, task-oriented view, ensuring consistent responses to commonly encountered situations.|
 |CSM Contributor User|Enables middle office teams to engage in resolving customer issues and requests.|
@@ -251,4 +250,5 @@ Account Lifecycle Task\[sn\_bom\_clo\_b2c\_task\]
 Account Lifecycle Task Case extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Financial Services Customer Lifecycle Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/reference-customer-lifecycle-ops.md)
+

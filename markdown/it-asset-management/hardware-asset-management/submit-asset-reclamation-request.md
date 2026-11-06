@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reclaim hardware assets, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reclaim hardware assets, Asset lifecycle and disposal, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Submit an asset reclamation request
@@ -18,11 +18,11 @@ Use Reclaim Asset catalog item to efficiently reclaim hardware assets when an em
 
 ## Before you begin
 
+**Important:** Asset reclamation supports hardware and consumable assets. Asset bundles and pallets aren't supported by default and require customization of the reclamation flow and request to handle these asset classes.
+
 Role required: Any employee can submit an asset reclamation request.
 
 ## About this task
-
-Asset bundles and pallets can't be reclaimed.
 
 **Note:** To exclude a lost or stolen asset from the Reclamation form, open the asset record, clear the **Assigned to** field, and select **Save**. The asset no longer appears in the Reclamation form.
 

@@ -88,7 +88,7 @@ Enable the users of a Healthcare and Life Sciences Service Management applicatio
 
 </td><td>
 
-Reduce manual errors by configuring dosage specifications for a medication product associated with a program in a Healthcare and Life Sciences Service Management application. For example, enrollment programs in Patient Support Services
+Reduce manual errors by configuring dosage specifications for a medication product associated with a program in an application.
 
 </td></tr><tr><td>
 
@@ -148,7 +148,7 @@ Enable a custom integration application to exchange data with an external Redox 
 
 </td></tr><tr><td>
 
-[Secure sensitive information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-encryption-support.md).
+[Secure sensitive information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/cryptographic-modules-in-healthcare-and-life-science-service-management-core.md).
 
 </td><td>
 

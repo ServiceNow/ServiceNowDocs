@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Exploring Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -29,5 +29,5 @@ When SLA indicators are enabled, a status bar appears on each card that has an a
 **Related topics**  
 
 
-[Service Level Management concepts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/service-level-management-concepts.md)
+[bundle-itsm.service-level-management-concepts]
 

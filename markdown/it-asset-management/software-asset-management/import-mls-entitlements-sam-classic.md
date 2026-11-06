@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Importing Microsoft entitlements from a Microsoft License Statement \(MLS\), Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Importing entitlements from an MLS, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import Microsoft entitlements from a Microsoft License Statement \(MLS\) in Software Asset Management classic
@@ -36,7 +36,7 @@ Role required: sam\_user or sam\_admin
 
     |Field|Description|
     |-----|-----------|
-    |Import type|Type of document that you are importing software entitlements from. The options are **Standard import document** and **Microsoft license statement \(MLS\)**. Set this field to **Microsoft license statement \(MLS\)**.|
+    |Import type|Type of document that you’re importing software entitlements from. The options are **Standard import document** and **Microsoft license statement \(MLS\)**. Set this field to **Microsoft license statement \(MLS\)**.|
     |File|Spreadsheet of software entitlements that you want to import. Select **Click to add...** to search for and select the MLS Excel file that you requested from Microsoft.|
     |Description|Brief description of the software entitlement import.|
     |Automatic creation of contracts|Option to enable automatic creation of both parent and child contracts for the selected MLS. Refer to [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_Contracts.md) for more information about contracts.|
@@ -89,9 +89,9 @@ Role required: sam\_user or sam\_admin
 
         **Important:** The base entitlement for a From SA or Add-on entitlement must use either the Per User or Per Device license metric. In addition, it cannot already be assigned with another entitlement or have any active allocations.
 
-        **Note:** If an appropriate base entitlement is not available for the given Microsoft SA, Step-up, From SA, or Add-on entitlement, you can create one.
+        **Note:** If an appropriate base entitlement isn’t available for the given Microsoft SA, Step-up, From SA, or Add-on entitlement, you can create one.
 
-    7.  Select the Save \(Enter\) icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+    7.  Select the Save \(Enter\) icon \[Omitted image "save-icon.png"\].
 
     8.  Double-click the corresponding field in the **Active rights** column of the Related Entitlements list.
 
@@ -99,7 +99,7 @@ Role required: sam\_user or sam\_admin
 
         **Important:** For From SA rights, you must enter the total number of rights that you purchased for the base entitlement. For example, if you purchased 100 rights for the base entitlement, you must grant 100 From SA rights to that entitlement. For Add-on rights, you can enter any number of rights equal to or less than the total number of rights that you purchased for the given Add-on entitlement.
 
-    10. Select the Save \(Enter\) icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+    10. Select the Save \(Enter\) icon \[Omitted image "save-icon.png"\].
 
     11. Select **Save** on the Software Entitlement form header.
 
@@ -121,7 +121,7 @@ Role required: sam\_user or sam\_admin
 
     4.  Select **Import**.
 
-        The associated entitlements are re-imported without any errors, and you automatically return to the Entitlement Import form.
+        The associated entitlements are reimported without any errors, and you automatically return to the Entitlement Import form.
 
     5.  Repeat steps a-d for each error that you want to resolve.
 

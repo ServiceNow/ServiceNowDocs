@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
 # Skill inputs for ServiceNow Otto for Health and Safety

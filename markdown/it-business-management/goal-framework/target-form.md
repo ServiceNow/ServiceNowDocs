@@ -7,8 +7,8 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
 
@@ -29,6 +29,14 @@ Field
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+Number
+
+</td><td>
+
+Unique identifier of the target. The number is generated automatically, for example, TRGT0005678. An administrator can change the prefix. For more information, see [Change the number prefix for goals and targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/change-number-prefix-goals-targets.md).
+
+</td></tr><tr><td>
 
 Name
 
@@ -58,7 +66,7 @@ State
 
 </td><td>
 
-State of the target. The state can be **Draft**, **In progress**, **Approved**, or **Complete**.
+State of the target. The state can be **Draft**, **In progress**, **Approved**, **Complete**, **Pending**, **Achieved**, **Not Achieved**, or **Cancelled**.
 
 </td></tr><tr><td>
 
@@ -66,7 +74,7 @@ Status
 
 </td><td>
 
-Status of the target. The status can be **Red**, **Yellow**, or **Green**.
+Status of the target. The status can be **Red**, **Yellow**, **Green**, or **No status**.
 
 </td></tr><tr><td>
 
@@ -86,6 +94,8 @@ Progress = (Actual value - Base value) / (Target value - Base value) x 100
 Progress = (Base value - Actual value) / (Base value - Target value) x 100
 ```
 
+ If the **Type** field is set to **Maintain above**, **Maintain below**, or **Maintain constant**, the progress is 100% or 0% for a target without target breakdowns, based on whether the actual value meets the final target value. For a target with target breakdowns, the progress is the percentage of target breakdown periods in which the target is met. For more information, see [Target types and achievement strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/target-types-gf.md).
+
  For more information on how the progress value is calculated when weight scale is defined, see [progress value calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/progress-value-calculation.md).
 
 </td></tr><tr><td>
@@ -104,6 +114,22 @@ A numerical value that represents the importance of the target relative to the o
 -   **\(5\) Maximum**
 
  **Note:** This field is available only when the **sn\_gf.weighted\_average\_enabled** system property is set to **Yes**.
+
+</td></tr><tr><td>
+
+Assigned entity type
+
+</td><td>
+
+Entity type to which the target is assigned. For example, Business Unit, Department, Company, or Portfolio.
+
+</td></tr><tr><td>
+
+Assigned entity
+
+</td><td>
+
+Entity to which the target is assigned.
 
 </td></tr><tr><td>
 
@@ -151,9 +177,14 @@ Type
 
 Target type that signifies the direction of achievement.-   **Maximize**: The direction of the progress is toward the target value from the base value where the base value must be less than the target value.
 -   **Minimize**: The direction of the progress is toward the target value from the base value where the target value must be less than the base value.
+-   **Maintain above**: The actual value must stay at or above the final target value in each period.
+-   **Maintain below**: The actual value must stay at or below the final target value in each period.
+-   **Maintain constant**: The actual value must stay within a tolerance band around the final target value in each period.
 -   **Milestone**: Fixed type. Only the qualitative target values are allowed \(that are set in the **Unit of measure** field for the target\) to capture the achievement of the target. The **Milestone** option is applicable only for qualitative targets.
 
-The **Type** field becomes read-only with the value populated as **Milestone** for qualitative targets \(when the **Unit of measure** field is set to a qualitative target value\).
+The **Type** and **Unit of measure** fields stay in sync. When you select **Milestone**, the **Unit of measure** field is set to a qualitative unit of measure, **Yes/No** by default. When you select any other type, the **Unit of measure** field is set to the last quantitative unit of measure used for the target, or to **Count\(\#\)** if none was used.
+
+ You can change the type of a target that already has actual values. A confirmation message appears before the change is applied. When you change between two Maintain types, the actual value is kept. When you change between **Maximize**, **Minimize**, and a Maintain type, the actual value and progress of the target are cleared, and any target breakdowns are regenerated. When you change to **Milestone**, any target breakdowns are deleted.
 
 </td></tr><tr><td>
 
@@ -171,7 +202,7 @@ Final target value
 
 </td><td>
 
-Final target value of the target. The target value should be aspirational and should challenge the teams.This field is available when the **Type** field is set to **Maximize** or **Minimize**.
+Final target value of the target. The target value should be aspirational and should challenge the teams.This field is available when the **Type** field is set to **Maximize**, **Minimize**, **Maintain above**, **Maintain below**, or **Maintain constant**.
 
 </td></tr><tr><td>
 
@@ -187,7 +218,7 @@ Actuals to date
 
 </td><td>
 
-Actual value of the target at a given time.This field is available when the **Type** field is set to **Maximize** or **Minimize**.
+Actual value of the target at a given time.This field is available when the **Type** field is set to **Maximize**, **Minimize**, **Maintain above**, **Maintain below**, or **Maintain constant**. For a Maintain type target with target breakdowns, this value is the actual value of the latest target breakdown that has an actual value.
 
 </td></tr><tr><td>
 
@@ -195,7 +226,9 @@ Check-in frequency
 
 </td><td>
 
-Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see [Target breakdowns in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/target-breakdowns.md).**Note:** The target breakdowns feature isn’t supported for qualitative targets.
+Option to specify breakdown intervals for the target and how frequently the owner or contributor should update the actual value of the target. Breaking down the target into smaller periods helps you set a target for smaller periods and focus on the specific breakdown targets. The available options are **Daily**, **Weekly**, **Monthly**, **Quarterly**, **Period** \(fiscal mode only\), and **Yearly**. Target breakdowns are automatically created when you set this field to any of the available options other than **None**. For more details on target breakdowns, see [Target breakdowns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/target-breakdowns-gf.md).**Note:** The target breakdowns feature isn’t supported for qualitative targets.
+
+ The options you see depend on the calendar type. On a fiscal calendar, the list shows only the frequencies that the fiscal period structure supports, for example Period, Quarterly, and Yearly on a 4-4-5 calendar. On a Gregorian calendar, the list shows Daily, Weekly, Monthly, Quarterly, and Yearly, and the default is Quarterly. When a new target opens with an unsupported value, the field is set to the calendar default. For a stale target, this field is read-only, except that you can set it to None. For more information, see [Fiscal calendar support for targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/fiscal-calendar-goal-framework.md).
 
 </td></tr><tr><td>
 
@@ -204,6 +237,8 @@ Target value distribution
 </td><td>
 
 Option to specify the target to be calculated cumulatively or non-cumulatively. The available options are **Split equally across the time period \(non-cumulative\)** and **Spread linearly across the time period \(cumulative\)**.This field is available only when the **Check-in frequency** field is set to any of the available options other than **None**.
+
+This field is hidden and cleared when the **Type** field is set to **Milestone**, **Maintain above**, **Maintain below**, or **Maintain constant**.
 
 </td></tr><tr><td>
 
@@ -227,7 +262,7 @@ Confidential
 
 </td><td>
 
-Option to restrict the access for this target record to the specific users populated in the **Allowed groups** and **Allowed users** fields.This field is available when the ESG Management application is installed and the **sn\_grc.enable\_record\_confidentiality** property is enabled. This field is applicable only when the **Classification** field in the goal form of the target is populated as Environmental, Social, or Governance. The required role to configure this field is sn\_esg.reader.
+Option to restrict the access for this target record to the specific users populated in the **Allowed groups** and **Allowed users** fields.This field is available when the Operational Sustainability Management application is installed and the **sn\_grc.enable\_record\_confidentiality** property is enabled. This field is applicable only when the **Classification** field in the goal form of the target is populated as Environmental, Social, or Governance. The required role to configure this field is sn\_esg.reader.
 
  **Note:** Irrespective of the target record set to confidential or not, the target progress value rolls up to its goal for calculating the progress value of the goal.
 

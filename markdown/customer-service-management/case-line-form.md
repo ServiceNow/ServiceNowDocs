@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-line-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Case lines and workflows, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Service forms, Reference, Customer Service Management]
 ---
 
 # Case line item form

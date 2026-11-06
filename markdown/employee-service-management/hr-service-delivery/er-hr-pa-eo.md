@@ -7,16 +7,16 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Analytics and Reporting Solutions for Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Analytics and Reporting Solutions for Employee Relations, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Employee Relations Executive Overview dashboard
 
 The Employee Relations Executive Overview dashboard provides you with high level data on Employee Relations cases and detailed information on the types of ER cases, locations, cases by HR service and department, and trends.
 
-\[Omitted image "hr-er-pa-dashboard.png"\] Alt text: Employee Relations Executive Overview
+\[Omitted image "hr-er-ov1.png"\] Alt text: Employee Relations Executive Overview dashboard\[Omitted image "hr-er-ov2.png"\] Alt text: Employee Relations Executive Overview dashboard
 
 ## Required ServiceNow AI Platform roles
 
@@ -161,7 +161,7 @@ Real-time Score
 
 </td><td>
 
-The number of ER cases that are classified as restricted. For more information, see [HR Service Delivery Employee Relations case restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-case-restriction.md).
+The number of ER cases that are classified as restricted. For more information, see [Employee Relations case restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-case-restriction.md).
 
 </td></tr><tr><td>
 

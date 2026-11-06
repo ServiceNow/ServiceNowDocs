@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_AlternateEmailConfigurations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Advanced email setup
@@ -37,10 +37,12 @@ Help prevent sending emails to addresses that are known to generate bounces by m
 OAuth enables your instance to receive and send email through a third-party email account.
 -   **[System address filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-address-filters.md)**  
 Prevent your system from communicating with untrusted domains and email addresses.
--   **[Reading email using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/read-email-using-ms-graph.md)**  
-Use Microsoft Graph endpoints to read emails from Microsoft Exchange Online.
--   **[Send email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/send-email-client-credential-flow.md)**  
+-   **[Read or send emails using Microsoft Graph](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/read-send-emails-ms-graph.md)**  
+Use Microsoft Graph endpoints to read or send emails from Microsoft Exchange Online.
+-   **[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/send-email-client-credential-flow.md)**  
 Use the client credential flow to send emails from Microsoft Exchange Online.
+-   **[Personal corporate mailbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/personal-corporate-mailbox.md)**  
+Enables sales agents to integrate their personal corporate mail boxes to send and receive emails.
 
 **Parent Topic:**[Configure email administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configuring-email-admin.md)
 

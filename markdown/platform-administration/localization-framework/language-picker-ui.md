@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: concept
-last_updated: "2025-02-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Request translations, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---

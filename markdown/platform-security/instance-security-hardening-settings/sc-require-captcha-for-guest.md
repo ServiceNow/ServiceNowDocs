@@ -1,20 +1,24 @@
 ---
-title: Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3 and updated in 1.5\]
-description: The captcha for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a captcha verification.
+title: Require CAPTCHA for guest walk-up experience in customer service application
+description: The CAPTCHA for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a CAPTCHA verification.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-require-captcha-for-guest.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Require captcha for guest walk-up experience in customer service application \[New in Security Center 1.3and updated in 1.5\]
+# Require CAPTCHA for guest walk-up experience in customer service application
 
-The captcha for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a captcha verification.
+The CAPTCHA for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a CAPTCHA verification.
+
+The CAPTCHA for the Guest Walk-up experience prevents unauthenticated guest users to create bookings by requiring users to complete a CAPTCHA verification. If CAPTCHA isn't enabled, this could lead to automated creation of spam appointments to overwhelm the system or fill up all available booking spots creating a Denial of Service attack.
+
+If Guest Walk-up Experience for Customer Service application is active, ensure that **sn\_guest\_walkup\_cs.captcha.enabled** is set to **true**.
 
 ## More information
 
@@ -48,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -61,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -82,7 +94,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS score: Low
--   Security risk details: If captcha is not enabled, this could lead to automated creation of spam appointments to overwhelm the system or fill up all available booking spots creating a Denial of Service \(DoS\) attack.
+-   Security risk details: This exposes the system to spam appointments and resource exhaustion attacks, potentially filling all available booking slots and causing a Denial of Service \(DoS\). Without CAPTCHA, the platform lacks a critical control to prevent automated abuse and maintain service availability.
 
 </td></tr><tr><td>
 

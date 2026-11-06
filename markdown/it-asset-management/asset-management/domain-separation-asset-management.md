@@ -1,20 +1,20 @@
 ---
-title: Domain separation and Asset Management
-description: Domain separation is supported in Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+title: Domain separation and Base Asset Management
+description: Domain separation is supported in Base Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-management/domain-separation-asset-management.html
 release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Asset Management references, Asset Management, IT Asset Management]
+breadcrumb: [Reference, Base Asset Management, Common applications, Asset Management]
 ---
 
-# Domain separation and Asset Management
+# Domain separation and Base Asset Management
 
-Domain separation is supported in Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+Domain separation is supported in Base Asset Management. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 ## Support level: Basic
 
@@ -32,14 +32,6 @@ For more information on support levels, see [Application support for domain sepa
 
 **Related topics**  
 
-
-[Quick start test for Asset Management]()
-
-[Installed with Asset Management]()
-
-[Installed with Model Management]()
-
-[Transfer order line fields]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md)
 

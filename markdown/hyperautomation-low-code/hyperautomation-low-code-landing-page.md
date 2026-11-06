@@ -1,17 +1,19 @@
 ---
-title: App development and low-code
-description: Use ServiceNow no-code, low-code, and platform developer tools to create and modify apps that run on the ServiceNow AI Platform.
+title: App development, agentic development, and low-code
+description: ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/hyperautomation-low-code/hyperautomation-low-code-landing-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [low-code, no-code, app development, workflow automation, digital transformation, App Engine, App Engine Studio, App Engine Management Center, Automated Test Framework, Build Agent, Creator Studio, Guided Application Creator, Mobile App Builder, Now Assist for Creator, Performance Analytics, Predictive Intelligence, Playbooks, Service Portal, ServiceNow IDE, ServiceNow Studio, UI Builder, Virtual Agent, Workflow Studio, developer sandboxes, vibe coding, agentic development]
+audience: administrator
 ---
 
-# App development and low-code
+# App development, agentic development, and low-code
 
-Use ServiceNow no-code, low-code, and platform developer tools to create and modify apps that run on the ServiceNow AI Platform.
+ServiceNow AI Platform no-code, low-code, and platform developer tools enable you to build and modify apps, automate workflows, and deliver digital experiences. Use this landing page to find products and features for app development on the ServiceNow AI Platform.
 
 ServiceNow AI Platform® App Engine products, enhanced by Now Assist AI, offer low-code mobile and web application development platforms for creating new business applications and customizing existing ServiceNow applications, accelerating your digital transformation.
 
@@ -39,16 +41,19 @@ The following table lists the products and features that you can use to develop 
 |[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)|Build apps at scale with a low-code development environment and prebuilt templates.|
 |[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/monitor-requests-using-aemc.md)|Empower business and IT to collaborate, manage, and govern low-code app development.|
 |[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/automated-test-framework.md)|Complete upgrades and innovate faster. Reduce risk and quickly remediate customization issues by automating slow manual testing.|
+|[Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/build-agent.md)|Use an autonomous AI agent to create, update, and test full-stack ServiceNow applications through conversational prompts.|
 |[Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/creator-studio-landing.md)|Empower citizen developers to create natively compliant request-based applications with a guided no-code end-to-end development, streamlining app dev stages from days to minutes.|
 |[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/delegated-development-landing.md)|Enable developers of any skill level to build apps for specific projects.|
+||Provide admins and delegated developers the ability to request, access, and manage individual sandboxes on top of the same underlying development instance.|
 |[Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/guided-app-creator.md)|Get guidance to rapidly create applications, define data, and configure user experiences.|
 |[Mobile App Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mab-concept.md)|Create and deploy native mobile experiences using an intuitive designer.|
-|[ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/now-assist-for-creator-landing.md)|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
+|ServiceNow Otto for Creator|Improve developer productivity with AI-based flow generation and intelligent code recommendations.|
 |[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-overview.md)|Anticipate and continuously improve with real-time analytics.|
 |[Prebuilt Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/use-app-template.md)|Accelerate development with templates that satisfy a variety of use cases|
 |[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence-landing.md)|Simplify and accelerate everyday work with built-in machine learning.|
 |[Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md)|Build and manage multiple complex workflows with no-code playbooks.|
 |[Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md)|Improve outcomes by optimizing process flows to streamline work.|
+||Automate deployment of changes across your pipeline, increase predictability and reliability of deployments, and reduce the risk of releasing changes to production.|
 |[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ServicePortal.md)|Deliver mobile-friendly, self-service experiences to your customers and employees with an easy-to-use portal framework.|
 |[ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-ide-landing.md)|Use a web-based integrated development environment to build, deploy, and manage your apps.|
 |[ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/servicenow-studio-landing.md)|Access all the tools you need in one unified, intuitive development environment. Empower your developers to innovate, build, and deploy apps faster using AI-powered technology.|

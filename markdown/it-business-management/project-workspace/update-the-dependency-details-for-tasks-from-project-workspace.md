@@ -1,5 +1,5 @@
 ---
-title: Update dependency details for tasks from Project Workspace
+title: Update task dependency details from Project Workspace
 description: Update the details of the dependency including its type and lag time from Project Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/update-the-dependency-details-for-tasks-from-project-workspace.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add internal project task dependencies from Project Workspace, Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Add internal project task dependencies from Project Workspace, Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Update dependency details for tasks from Project Workspace
+# Update task dependency details from Project Workspace
 
 Update the details of the dependency including its type and lag time from Project Workspace.
 
@@ -22,9 +22,9 @@ Role required: it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the dependency side panel in one of the two ways.
 

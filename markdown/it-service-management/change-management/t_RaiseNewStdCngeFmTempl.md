@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Create a change request, Using Change Management, Change Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
 
 # Create a standard change request from the catalog
@@ -24,7 +24,7 @@ Role required: itil, admin, or sn\_change\_write
 
 A standard change is a repeatable, pre-approved template in the standard change catalog. Change requests created from the standard change template do not require change approval.
 
-To create a change request from a pre-approved template, follow the procedure below.
+To create a change request from a pre-approved template, follow this procedure.
 
 ## Procedure
 
@@ -32,7 +32,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 2.  Select one of the following options depending on the type of standard change you want to create.
 
-<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d281548e82">
+<table id="choicetable_g1t_3h4_rw"><tbody><tr><td id="d98172e82">
 
 **Network Standard Changes**
 
@@ -40,7 +40,7 @@ To create a change request from a pre-approved template, follow the procedure be
 
 Create a standard change request for the network.
 
-</td></tr><tr><td id="d281548e91">
+</td></tr><tr><td id="d98172e91">
 
 **Server Standard Changes**
 
@@ -68,12 +68,7 @@ Create a standard change request for servers and attached storage.
 
 ## What to do next
 
-After you create the standard change request, complete the implementation and close the record:
-
--   To progress and close the change request, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ProcessAChangeRequest.md).
--   For the meaning of each state, including **Closed Complete** and **Abandoned**, see [State model and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ChangeStateModel.md).
-
-**Note:** A change request can move to the **Abandoned** state if it is not closed through the supported close path or if required close information is incomplete. Verify that the close fields are complete before you set the state to **Closed Complete**.
+After you create the standard change request, complete the implementation and close the record. To progress and close the change request, see [Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ProcessAChangeRequest.md).
 
 **Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateAChange.md)
 

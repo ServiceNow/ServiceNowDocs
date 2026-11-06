@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # GRC state model configuration
@@ -35,8 +35,6 @@ Role required: sn\_irm\_cont\_auth.admin
     |Table name|Select **Authorization Package \[sn\_irm\_cont\_auth\_auth\_pack\]**.|
     |State field|Select **State Model \[state\_model\]**.|
     |State model|Select **Step \[step\]**.|
-
-    \[Omitted image "WF-state-model1.png"\] Alt text: Creating state model.
 
 4.  Select **Submit**.
 

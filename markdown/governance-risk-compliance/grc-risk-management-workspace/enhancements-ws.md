@@ -7,8 +7,8 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [GRC Risk Workspace, Explore, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -33,7 +33,7 @@ The new workspace offers the following views for the users.
 
 -   **Overview pages of records**
 
-    The Overview tab of each record provides you a summary of all the information you need in a single view. For example, for a risk record you can see KRI breaches, the controls failures, the number of issues open, the open indicator tasks, the number of risks assessed and so on.
+    The Overview tab of each record provides a summary of all the information you need in a single view. For a risk record, this includes KRI breaches, control failures, open issues, open indicator tasks, and the number of risks assessed.
 
 -   **Contextual side panel for records**
 
@@ -49,7 +49,7 @@ The new workspace offers the following views for the users.
 
 -   **Breadcrumb navigation**
 
-    The breadcrumb style navigation provides a browser path to navigate a hierarchy of linked pages with related content. The breadcrumb style navigation provides a digital trail from the user's starting point to the current content, with the ability to navigate to each link.​ For more information, refer to [Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)
+    Breadcrumb navigation provides a digital trail through a hierarchy of linked pages. You can navigate to any link in the trail. For more information, refer to [Breadcrumb navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/breadcrumb-navigation.md)
 
 -   **Consolidated issues page**
 

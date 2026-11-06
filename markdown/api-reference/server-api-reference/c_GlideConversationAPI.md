@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -18,7 +18,7 @@ The GlideConversation API provides methods to access information in a Connect me
 
 **Important:**
 
-Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+Starting with the Paris release, Connect Support no longer receives enhancements or non-priority bug fixes. Consider moving to ServiceNow® Advanced Work Assignment and Agent Chat in workspace to automatically assign chat requests and other work items to agents. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 Access GlideConversation properties through a global object \(conversation\) that is available only in Connect action conditions and scripts.
 

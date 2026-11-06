@@ -1,5 +1,5 @@
 ---
-title: Personalize List view of Prioritization page of Strategic Planning Workspace
+title: Personalize the Prioritization view
 description: All references to "Backlog" are changed to "Prioritization" following the change of the feature name in the app.Personalize the List view in the Prioritization page by grouping, sorting, and hiding columns so that you can view the information that is most relevant for planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/personalize-backlog-in-alignment-planner-workspace.html
@@ -7,25 +7,25 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Personalizing Prioritization page views in Strategic Planning, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Personalize List view of Prioritization page of Strategic Planning Workspace
+# Personalize the Prioritization view
 
 Personalize the List view in the Prioritization page by grouping, sorting, and hiding columns so that you can view the information that is most relevant for planning.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-This task provides guidance on different options to personalize the List view of the Prioritization page.
+This task provides guidance on different options to personalize the view of Prioritization tab in the Planning page.
 
 Personalization preferences are saved as the portfolio plan's settings in Strategic Planning. So, these settings are applied to all the users or user groups that the portfolio plan is shared with.
 
@@ -47,21 +47,21 @@ Personalization preferences are saved as the portfolio plan's settings in Strate
 
     3.  From the Rows section, choose how the rows are displayed, using the **Shade alternate rows** toggle.
 
-4.  Group your items by one or multiple columns that are on display in the Prioritization page.
+4.  Group your items by one or multiple columns that are on display in the Prioritization tab.
 
     You can group the planning items by an attribute of the type choice or reference. Some examples to group by are Planning state, Planning item type, Owner, and Primary goal.
 
     Use one of the following ways to group the planning items. Repeat the action to group the list by multiple attributes.
 
-<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d225695e195">
+<table id="choicetable_mwf_cgk_htb"><thead><tr><th align="left" id="d290354e201">
 
 Choice
 
-</th><th align="left" id="d225695e198">
+</th><th align="left" id="d290354e204">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d225695e204">
+</th></tr></thead><tbody><tr><td id="d290354e210">
 
 **Drag and drop**
 
@@ -73,7 +73,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 
  \[Omitted image "backlog-grouping-animation.gif"\] Alt text: Animation showing grouping the backlog list by planning item type.
 
-</td></tr><tr><td id="d225695e232">
+</td></tr><tr><td id="d290354e238">
 
 **Use Column actions**
 
@@ -82,7 +82,7 @@ Drag and drop a column name to the **Grouped by** bar above the list.
 Select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt text: Column actions.\) and select **Group by &lt;attribute&gt;**.\[Omitted image "backlog-grouping-option.png"\] Alt text: Prioritization page grouping option from column actions.
 
 </td></tr></tbody>
-</table>    Grouping remains unaffected even when you switch to Kanban or Hierarchy views. The same setting is retained when you come back to the List view. This preference is saved per session for a portfolio plan.
+</table>    Grouping remains unaffected even when you switch to Kanban or Hierarchy tabs. The same setting is retained when you come back to the Prioritization tab. This preference is saved per session for a portfolio plan.
 
 5.  Sort the planning items by any column, by clicking the column name.
 
@@ -104,10 +104,10 @@ Select the Column actions icon \(\[Omitted image "icon-column-actions.png"\] Alt
 
     Selecting this option reverts the column personalization, grouping, and sorting to default settings.
 
-    Personalization settings that you've made so far on the Prioritization page would be cleared. Any personalization that you make after this point is set as the new preference for the portfolio.
+    Personalization settings that you've made so far on the Prioritization tab would be cleared. Any personalization that you make after this point is set as the new preference for the portfolio.
 
 9.  Apply filters to the data shown in Prioritization.
 
 
-**Parent Topic:**[Personalizing Prioritization page views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+**Parent Topic:**[Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

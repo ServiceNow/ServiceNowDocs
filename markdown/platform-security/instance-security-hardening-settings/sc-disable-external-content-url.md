@@ -1,5 +1,5 @@
 ---
-title: Disable external content url \[Updated in Security Center 2.0\]
+title: Disable external content URL
 description: Manage how external link metadata is used in your instance with Connect Chat.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-disable-external-content-url.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Disable external content url \[Updated in Security Center 2.0\]
+# Disable external content URL
 
 Manage how external link metadata is used in your instance with Connect Chat.
 
-Use the **glide.ui.url.external.content** property to manage external link metadata in your instance. If the property is set to the recommended value of **false**, then no external link metadata will be rendered. If set to **true** then [Connect Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_Collaboration.md) will retrieve external link metadata from sources such as YouTube or news articles to render richer messages. This could lead to Server Side Request Forgery \(SSRF\) attacks.
+If the **glide.ui.url.external.content** system property isn't set to the recommended value of **false**, then Connect chat retrieves external link metadata in order to render richer content in messages with links to Youtube, news articles, images, etc.
 
-Ensure the Glide Property **glide.ui.url.external.content** exists and is set to the value false. If the property does not appear in the sys\_properties table, add a new record.
+Ensure that the Glide Property **glide.ui.url.external.content** exists in the System Properties \[sys\_properties\] table and is set to the value **false**. If the property does not appear in the table, add a new record.
 
 ## More information
 
@@ -52,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -68,7 +68,15 @@ Default value
 
 </td><td>
 
-true
+false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+false
 
 </td></tr><tr><td>
 
@@ -86,7 +94,7 @@ Security risk
 
 -   Severity score: 7.2
 -   CVSS score: High
--   Security risk details: Setting this property to **true** could expose your instance to Server Side Request Forgery \(SSRF\) attacks.
+-   Security risk details: This could lead to Server Side Request Forgery \(SSRF\) attacks.
 
 </td></tr><tr><td>
 

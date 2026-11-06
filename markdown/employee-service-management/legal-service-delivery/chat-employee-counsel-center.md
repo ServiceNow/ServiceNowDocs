@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Legal Virtual Agent Conversations, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Virtual Agent Conversations, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Start a chat session through Legal Counsel Center Inbox
@@ -51,11 +51,4 @@ The live agent support enables a chat interaction between an employees and legal
     -   To transfer the chat to another available agent, click the transfer to agent icon \(\[Omitted image "transfer-queue-icon.png"\] Alt text: Transfer to agent icon.\) and select the agent name.
 
 **Parent Topic:**[Legal Virtual Agent Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/legal-va-conversations.md)
-
-**Related topics**  
-
-
-[Getting work from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/live-agent-overview.md)
-
-[Interaction records in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/interaction-message-agent-workspace.md)
 

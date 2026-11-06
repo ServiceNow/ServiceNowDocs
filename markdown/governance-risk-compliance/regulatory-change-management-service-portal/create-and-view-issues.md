@@ -1,5 +1,5 @@
 ---
-title: Create an issue related to the regulatory tasks
+title: Create an issue related to regulatory tasks
 description: Create an issue as part of the regulatory change tasks and source document tasks workflow to capture any problems or exceptions that are observed during the workflow. You can create and view issues related to regulatory tasks using the issues related list.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/create-and-view-issues.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
-# Create an issue related to the regulatory tasks
+# Create an issue related to regulatory tasks
 
 Create an issue as part of the regulatory change tasks and source document tasks workflow to capture any problems or exceptions that are observed during the workflow. You can create and view issues related to regulatory tasks using the issues related list.
 
@@ -33,12 +33,49 @@ A new module titled as Issue is introduced in the Regulatory Change Management a
     |Field|Description|
     |-----|-----------|
     |My Open Issues|View open issues assigned to a user.|
-    |All Open Issues|View all open issues assigned to a user.|
-    |All Unassigned Issues|View all unassigned issues assigned to a user.|
-    |All Grouped Issues|View all grouped issues assigned to a user.|
+    |All Open Issues|View all open issues.|
+    |All Unassigned Issues|View all issues not assigned to any user.|
+    |All Grouped Issues|View all issues grouped by category or assignment.|
     |All Issues|View all issues related to the Regulatory Tasks.|
 
+3.  Create a new record by selecting **New** and fill in the form.
 
+4.  Edit an issue record, delete an issue record or export multiple records.
+
+    -   Select **Edit** to make any required updates and then select **Update**.
+    -   Select the check box of the issues you want to remove, then **Delete** and **Delete All**.
+    -   Select the check box of the issues you want to export, the file type and delivery type and then **Export**.
+
+<table id="table_vmx_lkd_xhc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+File Type
+
+</td><td>
+
+Format options available when exporting issues.-   Excel
+-   CSV
+-   JSON
+-   PDF
+
+
+</td></tr><tr><td>
+
+Delivery Type
+
+</td><td>
+
+By selecting **Download** or **Email**, the list of issues can be exported as a downloaded file or email.
+
+</td></tr></tbody>
+</table>
 ## Result
 
 You can view the issues related to the Regulatory tasks in the respective modules.

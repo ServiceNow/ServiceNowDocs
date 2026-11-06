@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Perform smart assessment on action tasks
@@ -18,10 +18,10 @@ Use the **Tasks** page on the Employee Center for a consolidated view of all you
 
 ## Before you begin
 
-Ensure the following:
+Ensure that:
 
--   the **sn\_grc\_case\_mgmt.enable\_smart\_assessments** system property is enabled.
--   the assessment templates are configured and published.
+-   The **sn\_grc\_case\_mgmt.enable\_smart\_assessments** system property is enabled.
+-   The assessment templates are configured and published.
 
 Role required: sn\_comp\_case.compliance\_case\_business\_user
 

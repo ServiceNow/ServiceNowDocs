@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scrollable areas, RSS feed reader, RSS web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Scrollable areas, Feed reader, RSS web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Add scrolling elements in forms

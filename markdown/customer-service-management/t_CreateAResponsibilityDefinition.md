@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_CreateAResponsibilityDefinition.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring customer access management, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring customer access management, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create a responsibility definition
@@ -16,7 +16,11 @@ A responsibility, or responsibility definition, specifies the role or function a
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_customer\_access\_management\_admin
+-   sn\_crm\_foundation\_admin
+-   admin
 
 ## About this task
 
@@ -48,15 +52,7 @@ Name
 
 </td><td>
 
-Name of the responsibility.
-
-</td></tr><tr><td>
-
-Applicable to
-
-</td><td>
-
-Persona type that the responsibility applies to, such as the customer service managers or agents.
+Name of the responsibility, fr example, account manager.
 
 </td></tr><tr><td>
 
@@ -64,8 +60,10 @@ Type
 
 </td><td>
 
-Type of users to whom the responsibility can be assigned to:-   User: Select **User** if this responsibility should be assigned to an employee. When assigning this type, the list of available users comes from the Users \[sys\_users\] table.
--   Contact: Select **Contact** if this responsibility should be assigned to a customer contact. When assigning this role, the list of available users comes from the Contacts \[customer\_contact\] table.
+Type of users to whom the responsibility can be assigned to:-   User: Select **User** if this responsibility should be assigned to an employee. When assigning this type, the list of available users comes from the users \[sys\_users\] table.
+-   Contact: Select **Contact** if this responsibility should be assigned to a customer contact. When assigning this role, the list of available users comes from the contact \[customer\_contact\] table.
+-   Consumer: Select **Consumer** if this responsibility should be assigned to a customer contact. When assigning this role, the list of available users comes from the consumer \[csm\_customer\] table.
+-   Account: Select **Account** if this responsibility should be assigned to a customer contact. When assigning this role, the list of available users comes from the account \[customer\_account\] table.
 -   None: Select **None** if this responsibility definition is to be used when creating relationships between consumers.
  **Note:** Only the responsibility definitions with **Type** set to **User** can be used in the following Service Model Foundation relationships:
 
@@ -82,9 +80,21 @@ Unique
 
 Option that you can select to disable the duplicate entries for the responsibility definition.
 
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+Provides a description of the purpose or function of the responsibility definition.
+
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
+
+## What to do next
+
+[Configure access through the responsibility access configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/declarative-resposibility-framework.md)
 
 **Related topics**  
 

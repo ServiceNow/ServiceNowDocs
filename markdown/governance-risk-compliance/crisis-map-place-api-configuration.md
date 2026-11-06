@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-place-api-configuration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Set the system property to manage searching places on the crisis map.
 
 ## Before you begin
 
-Role required: Administrator
+Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
@@ -32,15 +32,4 @@ To enable crisis map functionality in the GRC: Crisis Map application, you must 
 
 3.  To search places in the Google map, set the value to **True** in the **Value** column for the sn\_bcm\_map.use\_google\_places\_lib system property.
 
-
--   **[Configure scheduled data imports for crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-scheduled-data-imports.md)**  
-Manage your subscriptions to threat feeds from internal or external sources by configuring scheduled data imports.
--   **[Configure a resource for crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-configure-resource.md)**  
-Configure resources to plot the organization's assets on the crisis map. The assets can be locations, employees, data centers, suppliers, and others. Configuring resources is also required as an input to set up alert rules.
--   **[Configure alert rules to display alerts in crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-alert-configuration.md)**  
-Set alert rules to specify conditions under which a feed has to be bubbled up and displayed in the dashboard as an alert. You can also specify the conditions under which an alert is no longer valid and dismiss it from the dashboard.
--   **[Configure an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-alert-actions.md)**  
-The alert actions are the follow-up actions that you can perform from the crisis map dashboard.
-
-**Parent Topic:**[Setting up the crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/Setting-up-crisis-map.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuring communities, Communities, Customer Service Management]
 ---
 
 # Configure video sources for a community
@@ -20,6 +20,10 @@ Configure additional sources that can be used for uploading a video to the commu
 
 Role required: sn\_communities.admin
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Community** &gt; **Administration** &gt; **Video Configuration**.
@@ -28,49 +32,53 @@ Role required: sn\_communities.admin
 
 3.  On the form, fill in the fields.
 
-<table id="table_xtx_sml_ndb"><thead><tr><th>
+    For field description, see [Video Configurations form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/video-configurations-form-fields.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Host
-
-</td><td>
-
-A video source website, for example, youtube.com.
-
-</td></tr><tr><td>
-
-Domain
-
-</td><td>
-
-The domain is set to **global** by default.
-
-</td></tr><tr><td>
-
-Application
-
-</td><td>
-
-The application for the video source. It is recommended that you enter `Community`.
-
-</td></tr><tr><td>
-
-Widget
-
-</td><td>
-
-A widget to render the videos from the source. Enter `Communities render video`.
-
-</td></tr></tbody>
-</table>4.  Click **Submit**.
+4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+**Parent Topic:**[Configuring communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-communities.md)
+
+**Related topics**  
+
+
+[Community content types]()
+
+[Community feedback types]()
+
+[Community access types]()
+
+[Platform Analytics Solutions for Communities]()
+
+[Migrate Social Q&amp;A data to Communities]()
+
+[View community logs]()
+
+[View community feedback and bookmarks tables]()
+
+[Create a case from a discussion]()
+
+[Enable knowledge harvesting]()
+
+[Activate Communities plugins]()
+
+[Community setup guide for admins]()
+
+[Configure community content types]()
+
+[Configure community forums]()
+
+[Forum and user permissions management]()
+
+[Configure the community profile]()
+
+[Create community Terms and Conditions]()
+
+[Enable users to self-register to a community]()
+
+[Moderate a community]()
+
+[Administer gamification]()
+
+[Community Service Portal]()
 

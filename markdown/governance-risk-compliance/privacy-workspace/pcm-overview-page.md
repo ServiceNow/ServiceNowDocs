@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -72,7 +72,7 @@ The Case schedules and milestones section includes the details on all the milest
 
 The following example shows the options available after you select the **Show events** option.
 
-\[Omitted image "case-schedules-milestones.png"\] Alt text: Events available in case schedules and milestones.
+\[Omitted image "case-schedules-and-milestones.png"\] Alt text: Events available in case schedules and milestones.
 
 **Note:** The options that are displayed after you select the **Show events** option are limited to the events and milestones that are available for the case.
 

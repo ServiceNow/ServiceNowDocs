@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating a connection for the Anglepoint integration, Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Creating a connection for the Anglepoint integration, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an API user for the Anglepoint integration
@@ -222,7 +222,7 @@ Photo of the user.
         -   snc\_platform\_rest\_api\_access
         -   oauth\_user
         -   sn\_samp\_ibm\_lic.sam\_ibm\_data\_integrator
-    3.  Select the Add button \(\[Omitted image "add-icon.png"\] Alt text: Add button.\) to move the selected roles from the Collection list to the Roles List.
+    3.  Select the Add button \[Omitted image "add-icon.png"\] to move the selected roles from the Collection list to the Roles List.
 
     4.  Select **Save**.
 

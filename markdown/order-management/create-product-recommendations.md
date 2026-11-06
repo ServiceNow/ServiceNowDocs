@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-product-recommendations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring needs analysis, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a needs-based product offering recommendation
@@ -18,11 +18,11 @@ Set the product offering to be used as a product recommendation for a needs temp
 
 Product offerings must be defined and published before they can be set as a product recommendation.
 
-Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.product\_catalog\_admin, admin
+Role required: sn\_prd\_pm.product\_catalog\_manager, sn\_prd\_pm.product\_catalog\_admin, admin
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Needs** &gt; **Needs Based Offering Recommendation** and select **New**.
 
@@ -42,4 +42,11 @@ Role required: sn\_prd\_pm.product-catalog\_manager, sn\_prd\_pm.product\_catalo
 ## What to do next
 
 [Create a decision tree for a needs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-needs-decision-tree.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

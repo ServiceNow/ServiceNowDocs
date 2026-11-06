@@ -1,22 +1,22 @@
 ---
 title: Success score indicators
-description: Change Success score uses Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
+description: Change Success score contains Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/change-success-score-indicator.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Change success score, Configure, Change Management, IT Service Management]
 ---
 
 # Success score indicators
 
-Change Success score uses Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
+Change Success score contains Performance Analytics indicators for data collection. Indicators define a performance measurement taken at regular intervals of a business service, an activity, or organizational behavior. These performance measurements result in a series of indicator scores over time.
 
-The following are the Change Success Score indicators that are used to collect data daily for the changes completed on the previous day.
+Change Success Score uses the following indicators to collect data each day for the changes completed on the previous day.
 
 -   **Total Changes**
 
@@ -28,11 +28,11 @@ The following are the Change Success Score indicators that are used to collect d
 
 -   **Unsuccessful changes**
 
-    The number of change requests that was not resolved.
+    The number of change requests that weren't resolved.
 
 -   **Successful changes with issues**
 
-    The number of change requests that was resolved, but had other defects that were not addressed.
+    The number of change requests that were resolved but had other defects that weren't addressed.
 
 -   **P1 incidents caused by change**
 
@@ -47,7 +47,7 @@ The following are the Change Success Score indicators that are used to collect d
     The total number of P3 incidents that were reported as caused by one of the changes completed by the team.
 
 
-For more information on the PA indicators including how to configure Change Management Performance Analytics indicators, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_Indicators.md)
+For more information on Performance Analytics indicators, see [Performance Analytics indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_Indicators.md)
 
 **Parent Topic:**[Change success score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-success-score.md)
 

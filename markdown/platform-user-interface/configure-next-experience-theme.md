@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/configure-next-experience-theme.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configuring Next Experience themes and preferences, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Configure a Next Experience theme
@@ -25,7 +25,7 @@ Role required: admin
 
 ## About this task
 
-The default Next Experience theme is called Polaris. You can reuse or customize the theme as a starting point when you create or modify your own themes.
+The Next Experience includes two themes, Polaris and Coral. You can reuse or customize either theme as a starting point when you create or modify your own themes.
 
 ## About this task
 
@@ -39,7 +39,7 @@ The default Next Experience theme is called Polaris. You can reuse or customize 
 
 3.  Enter a name and a description for your theme.\[Omitted image "next-exp-theming-form.png"\] Alt text: UX Theme form.
 
-4.  Select the Additional actions icon \(\[Omitted image "icon-context-p.png"\] Alt text: Additional actions icon\) and select **Save**.
+4.  Select the Additional actions icon \[Omitted image "icon-context-p.png"\] Alt text: and select **Save**.
 
 5.  On the **Compositional: App Theme** tab, insert rows to add styles that are associated with your theme.
 
@@ -55,11 +55,11 @@ The default Next Experience theme is called Polaris. You can reuse or customize 
 
         Specifies when the style is applied. The higher the order means that the greater its priority is.
 
-        **Note:** If you want to use a custom style, make sure that your style order number is higher than the standard Polaris style.
+        **Note:** If you want to use a custom style, make sure that your style order number is higher than the standard Polaris or Coral style.
 
     -   **Style**
 
-        Configures four main styles. You can't edit the style names that are used in the Polaris theme, but you can copy the JSON code that is associated with each style from this theme and paste and edit it in your custom style's form.
+        Configures four main styles. You can't edit the style names that are used in the provided Polaris or Coral themes, but you can copy the JSON code that is associated with each style from either theme and paste and edit it in your custom style's form.
 
         -   **Colors:** Specifies the color properties of the theme and any base variants that you want to add. In the base section of the color style, a subset of the colors that the theme uses are defined with Red, Green, Blue \(RGB\) values. The theme generates more than 20 gradients of those colors in the application.
         -   **Shape and Form:** Specifies the look and feel of the borders as well as the buttons and other UI controls.
@@ -69,13 +69,13 @@ The default Next Experience theme is called Polaris. You can reuse or customize 
 
         Specifies two types: Core and Variant. The Core styles include the color, shape and form, typography, and imagery. Variants specify a different version of the theme, such as the different colors that users can select. The most common variant is a dark version of the theme. The Dark theme is the only variant that is shipped with Next Experience. For more information, see [Working with themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-theming.md).
 
-6.  Select the **Style** field and select the \[Omitted image "ux-style-search.png"\] Alt text: UX style search icon..
+6.  Select the **Style** field and select the lookup icon \[Omitted image "ux-style-search.png"\] Alt text:.
 
 7.  Select **New**.
 
 8.  Select Primary, Secondary, and Neutral colors.
 
-    **Note:** A theme is made up of multiple variables, so you may notice the default Polaris theme coloring coming through in different places.
+    **Note:** A theme is made up of multiple variables, so you may notice the default Polaris or Coral theme coloring coming through in different places.
 
 9.  When you have your organization's branding colors, navigate to the color generator at [https://theme.deoprototypes.com/color-generator-algo-v1](https://theme.deoprototypes.com/color-generator-algo-v1).
 

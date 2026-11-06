@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/jeopardy-management-roles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Jeopardy Management, Order Management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Order Management reference, Reference, Sales Customer Relationship Management]
 ---
 
 # Jeopardy Management roles and personas
@@ -44,7 +44,7 @@ System administrator
 
 </td><td>
 
-admin
+Admin
 
 </td></tr><tr><td>
 
@@ -105,4 +105,5 @@ Service order agent
 sn\_ind\_tmt\_orm.service\_order\_agent
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Order Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-reference.md)
+

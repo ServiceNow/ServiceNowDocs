@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configuring-spm-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order Management integration with Strategic Portfolio Management, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
 
 # Configuring the Strategic Portfolio Management integration
@@ -48,7 +48,7 @@ Use the Project Portfolio Management application to create the project templates
 
 </td><td>
 
-Configure the CSM table maps to associate fields in order lines, domain orders, and order tasks to projects in SPM.
+Configure the CSM table maps to associate fields in order lines, domain orders, and order tasks to projects and programs in SPM.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Configure the CSM table maps to associate fields in order lines, domain orders, 
 
 </td><td>
 
-Configure the conditions and decision rules for determining the order lines, domain orders, and order tasks that qualify for project management oversight. You also specify the project templates to be used to create those projects.
+Configure the conditions and decision rules for determining the order lines, domain orders, and order tasks that qualify for project management and order tasks that qualify for project management oversight. You also specify the project templates to be used to create those projects.
 
 </td></tr><tr><td>
 

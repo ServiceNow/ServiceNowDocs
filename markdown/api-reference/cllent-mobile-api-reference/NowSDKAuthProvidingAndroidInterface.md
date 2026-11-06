@@ -7,16 +7,16 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# NowSDKAuthorizationProviding interface - Android
+# NowSDKAuthorizationProviding interface- Android
 
 The NowSDKAuthorizationProviding interface provides a function that configures the link to the ServiceNow instance for which authorization is needed and any associated callbacks.
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## NowSDKAuthorizationProviding - requestAuthorization\(instanceURL: URL, callback: Consumer&lt;List&lt;AuthorizationToken&gt;?&gt;\)
 

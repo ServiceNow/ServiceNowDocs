@@ -7,9 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [Asset attestation, Attestation playbook, Attestation schedule]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Asset Attestation
@@ -51,8 +52,11 @@ If you plan to audit your assets by using Asset Attestation, then consider the f
 -   Serialized hardware assets that belong to the opted-in resource categories can only be attested. Excluded hardware assets can't be attested.
 -   Consumables, bundles, and pallets can't be attested.
 -   Attestation supports assets that belong to resource categories of HAM solutions only if they’re opted-in.
+
     -   Hardware Asset Management integration with Telecommunications Network Inventory- Only assets of Server, Network gear, and Telecom Network Inventory \(TNI\) resource categories can be attested.
     -   Hardware Asset Management integration with Zero Touch Mobility- Only assets of Mobile Device resource category can be attested.
+    HAM licensing groups hardware into resource categories, such as servers, end user computers, mobile devices, and network gear. Asset attestation includes only the assets that belong to the opted-in resource categories. If an asset doesn't appear in an attestation cycle, check whether its resource category is opted in. For information about resource categories and how to opt in or out, see [Hardware Asset Management licensing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/ham-licensing.md) and [Opt-in or opt-out of HAM license resource categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/optin-optout-ham-license-resource-categories.md).
+
 
 ## Asset Attestation workflow
 
@@ -75,4 +79,13 @@ If you plan to audit your assets by using Asset Attestation, then consider the f
 2.  The **ITAM Common- Asset attestation** daily job runs daily to check through all the asset attestation schedules. This daily job then creates asset attestations based on the frequency specified in the attestation schedule.
 
 For more details on Asset Attestation, see [Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
+
+**Related topics**  
+
+
+[Audit your hardware assets by using Asset Attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-hardware-assets-attestation.md)
+
+[Playbook for asset attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/playbook-asset-attestation-ham.md)
 

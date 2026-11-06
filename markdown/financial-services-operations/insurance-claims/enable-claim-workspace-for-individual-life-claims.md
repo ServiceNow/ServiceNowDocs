@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Enable the claim workspace for Individual Life Claims
@@ -34,15 +34,15 @@ Role required: admin
 
 5.  Set the variant conditions and audience on the following record pages.
 
-<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d39156e117">
+<table id="choicetable_zkh_1dq_4bc"><thead><tr><th align="left" id="d42695e132">
 
 Claims page variant
 
-</th><th align="left" id="d39156e120">
+</th><th align="left" id="d42695e135">
 
 Navigation to page records
 
-</th></tr></thead><tbody><tr><td id="d39156e126">
+</th></tr></thead><tbody><tr><td id="d42695e141">
 
 **Claim workspace page**
 

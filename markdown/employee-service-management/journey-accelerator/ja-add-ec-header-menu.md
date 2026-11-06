@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Accelerator
 classification: journey-accelerator
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Journey Accelerator, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Journey Accelerator, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure action plan access in the Employee Center
@@ -28,6 +28,6 @@ Install the latest Employee Center app from the ServiceNow Store. After you inst
 
     Update the Employee Center service portal settings to use the latest theme and menus.
 
-3.  -   [Add a Journey Accelerator action plan link to the My active items widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md)
+3.  -   [Add a Journey Accelerator action plan link to My Active Items list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/add-ja-action-plan-myitems-list.md)
 -   [Add a Journey Accelerator action plan menu to the Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/add-ja-action-plan-menu-ec-header.md)
 

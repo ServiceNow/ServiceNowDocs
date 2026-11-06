@@ -1,34 +1,36 @@
 ---
 title: Debug a script in ServiceNow Studio
-description: Use the Script Debugger in ServiceNow Studio to debug business rules and other synchronous server-side scripts. Access the Script Debugger during the course of your app development in ServiceNow Studio.
+description: Use the Script Debugger in ServiceNow Studio to debug business rules and other synchronous server-side scripts during app development.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/debug-script-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Debug a script in ServiceNow Studio
 
-Use the Script Debugger in ServiceNow Studio to debug business rules and other synchronous server-side scripts. Access the Script Debugger during the course of your app development in ServiceNow Studio.
+Use the Script Debugger in ServiceNow Studio to debug business rules and other synchronous server-side scripts during app development.
 
 ## Before you begin
 
-Role required: admin or delegated developer
+Role required: admin or delegated\_developer
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  On the home page, scroll down to the bottom of the screen, and select **Script Debugger** from the **Resources** section.
+2.  On the home page, enter `Script Debugger` in the main search.
 
-3.  Use the Script Debugger features you use in the normal course of your app development work.
+3.  Select the **Script Debugger** module.
 
-    The Script Debugger opens in a new tab outside of ServiceNow Studio. Some tabs and features are role-dependent. For more information about using Script Debugger, see .
+4.  Use the Script Debugger to debug scripts.
+
+    Some tabs and features are role-dependent. For more information, see [Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md).
 
 
 **Parent Topic:**[Using ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/using-servicenow-studio.md)

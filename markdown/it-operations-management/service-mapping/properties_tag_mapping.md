@@ -28,6 +28,17 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
+sn\_sm\_scoped\_app.svc\_by\_tags.max\_candidates\_per\_family
+
+</td><td>
+
+Limits the maximum number of tag-based service candidates created for a single family. If the family definition includes more candidates, the most recently updated CIs take precedence. This value applies to all tag-based service families.
+
+-   **Type:** integer
+-   **Default value:** 200
+
+</td></tr><tr><td>
+
 svc\_by\_tags.classes.whitelist
 
 </td><td>

@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Discovery, Admin, Workspace]
-breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Operations Monitor dashboard
@@ -29,7 +29,7 @@ To access the dashboard, navigate to **Workspaces** &gt; **Discovery Admin Works
 ## Prerequisites
 
 -   **Verify that you have the required setup**
-    -   The ServiceNow AI Platform must be running the Australia, Zurich, or Yokohama release.
+    -   The ServiceNow AI Platform must be running the Brazil, Australia, Zurich, or Yokohama release.
     -   Discovery Admin Workspace, starting with v1.15.0, must be installed.
 
 ## Key features
@@ -51,11 +51,4 @@ Select the **More Options** icon \(\[Omitted image "icon-menu-sow.png"\]\) on a 
 |Discovery Event Load|Bar chart|Displays the volume of discovery events over time. The chart tracks four event types: discovery.error, discovery.device.complete, discovery.complete, and discovery.canceled. Select a record to view related events.|
 
 **Note:** The dashboard displays data from the last 7 days by default. Data is retained for 30 days. For more information, see [Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-time-frame-disco-op-mon.md).
-
--   **[Configure the time interval for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-interval-disco-op-mon.md)**  
-Update the data collection time interval for individual visualizations on the Discovery Operations Monitor dashboard. By default, each visualization displays data in 15-minute intervals.
--   **[Configure the date range for a visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-time-frame-disco-op-mon.md)**  
-Update the data time frame for individual visualizations on the Discovery Operations Monitor dashboard. By default, each visualization displays data from the last 7 days. You can extend the time frame up to 30 days, which is the maximum data retention period for this dashboard.
-
-**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
 

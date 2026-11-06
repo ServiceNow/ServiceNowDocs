@@ -7,10 +7,10 @@ release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [AI Search answers, Websearch, Web search]
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure AI search answers capability for web search
@@ -19,7 +19,7 @@ AI web search is a OneExtend capability that enables end users to perform web se
 
 ## Before you begin
 
-When web search is turned on, Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in Now Assist Admin can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md).
+When web search is turned on, Google Gemini is the default AI provider. To switch AI providers, admins must configure the AI Search answers OneExtend capability. The instance or skills default AI provider that is set in AI Admin Hub can differ from the web search AI provider. For more information on the default instance or skills AI provider, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md).
 
 Some of the AI providers require API keys whereas others don’t require API keys because they use OEM. The following table highlights the four AI providers and whether they use API keys or OEM.
 
@@ -37,7 +37,7 @@ OpenAI
 
 </td><td>
 
-Gemini**Note:** Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Gemini as the LLM provider in AI Admin Hub and you want to use Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
+Gemini**Note:** Google Gemini is the default web search AI provider in the AI Search answers OneExtend capability. If you selected Google Gemini as the LLM provider in AI Admin Hub and you want to use Google Gemini as your web search AI provider, you don’t need to configure the AI Search answers OneExtend capability.
 
 </td></tr><tr><td>
 
@@ -72,15 +72,15 @@ Azure**Note:** Azure doesn’t currently support web search.
 
 6.  Complete one of the following actions based on the following scenarios.
 
-<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d37395e196">
+<table id="choicetable_qlm_kmw_xfc"><thead><tr><th align="left" id="d54090e206">
 
 Scenario
 
-</th><th align="left" id="d37395e199">
+</th><th align="left" id="d54090e209">
 
 Action required
 
-</th></tr></thead><tbody><tr><td id="d37395e205">
+</th></tr></thead><tbody><tr><td id="d54090e215">
 
 **Connection is available**
 
@@ -88,7 +88,7 @@ Action required
 
 If a connection is already available within the Connections related list, continue to the next step.
 
-</td></tr><tr><td id="d37395e214">
+</td></tr><tr><td id="d54090e224">
 
 **Connection isn’t available and must be created**
 
@@ -138,9 +138,9 @@ For example, enter `https://api.openai.com` for Open AI.
 
 ## Result
 
-End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see [Web search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/web-search-requestor.md).
+End users can now perform an internet search to answer a query whenever in web search mode. For more information about web search mode for end users, see .
 
 ## What to do next
 
-If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see [Now Assist in Virtual Agent system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/nava-sys-props.md).
+If you switched the AI provider to Perplexity, you must work with the **sn\_ai\_websearch.perplexity\_model\_name** system property. For more information on this system property, see .
 

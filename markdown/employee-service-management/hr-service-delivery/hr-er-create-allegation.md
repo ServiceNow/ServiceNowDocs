@@ -1,5 +1,5 @@
 ---
-title: Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace
+title: Create an allegation record
 description: Use Allegations to provide additional details for an ER case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-create-allegation.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace
+# Create an allegation record
 
 Use Allegations to provide additional details for an ER case.
 
@@ -22,7 +22,7 @@ Role required: sn\_hr\_er.case\_writer
 
 ## Procedure
 
-1.  Navigate to the **Allegations** tab in legacy UI.
+1.  Navigate to the **Allegations** tab in Core UI.
 
     1.  Navigate to **All** &gt; **Employee Relations** &gt; **Cases**.
 
@@ -32,13 +32,13 @@ Role required: sn\_hr\_er.case\_writer
 
     4.  Select **New**.
 
-2.  Navigate to the **Allegations** tab in Agent Workspace.
+2.  Navigate to the **Allegations** tab in Agent Workspace for HR Case Management.
 
-    1.  Navigate to **All** &gt; **HR Case Management** &gt; **HR Agent Workspace**.
+    1.  Navigate to **All** &gt; **HR Case Management** &gt; **Agent Workspace for HR Case Management**.
 
     2.  Select the **Lists** icon \(\[Omitted image "agent-ws-hr-list-icon.png"\] Alt text: Lists icon\).
 
-    3.  Select an ER case.
+    3.  In the ER category, select an ER case.
 
     4.  Select the **Allegations** tab.
 

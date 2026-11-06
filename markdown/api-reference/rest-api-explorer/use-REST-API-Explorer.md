@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -20,12 +20,12 @@ The REST API Explorer allows you to discover ServiceNow REST APIs, quickly const
 
 -   **[Access the REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_GetStartedAccessExplorer.md)**  
 View available REST API resources using the REST API Explorer.
--   **[Retrieve existing incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_GetStartedRetrieveExisting.md)**  
-Use a GET request to view existing incident records.
 -   **[Create an incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_GetStartedCreateInt.md)**  
 Use a POST request to create a new record.
 -   **[Read the inserted incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_GetStartedReadInt.md)**  
-Use the Location header from the POST response to run a GET request.
+Use a GET request to view a record.
+-   **[Retrieve existing incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_GetStartedRetrieveExisting.md)**  
+Use a GET request to view existing incident records.
 -   **[Update the incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/get-started-update-incident.md)**  
 Update the incident record using either a PUT or PATCH function.
 -   **[Delete the incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_GetStartedDeleteInt.md)**  

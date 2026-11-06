@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Nutanix Acropolis discovery
@@ -22,7 +22,7 @@ Starting with version 1.29.0, Discovery and Service Mapping Patterns supports Nu
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Nutanix events
 
@@ -91,7 +91,7 @@ The Nutanix VM Event pattern finds events for virtual machines \(VMs\) in the Nu
 
 -   **Link Nutanix components to ESX clusters**
 
-    The Nutanix Components pattern can discover Nutanix components hosted on ESX clusters, like storage pools, storage containers, and Controller Virtual Machine \(CVM\), but not ESX clusters themselves. Run VMware probe discovery before the Nutanix pattern discovery to link the Nutanix components to their ESX clusters. If you don't, the Nutanix components are linked to Nutanix Prism instead. For more information on VMware probe discovery, see [Discovery for VMware virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_DiscoverVMwareInfrastructure.md).
+    The Nutanix Components pattern can discover Nutanix components hosted on ESX clusters, like storage pools, storage containers, and Controller Virtual Machine \(CVM\), but not ESX clusters themselves. Run VMware probe discovery before the Nutanix pattern discovery to link the Nutanix components to their ESX clusters. If you don't, the Nutanix components are linked to Nutanix Prism instead. For more information on VMware probe discovery, see [Discovery for VMware virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoverVMwareInfrastructure.md).
 
 -   **\(Optional\) Disable CI tag discovery**
 
@@ -387,5 +387,5 @@ Create a MID Server property to target specific Prism Central instances for Nuta
 -   **[Enable Nutanix event discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/enable-nutanix-event-job.md)**  
 Activate the Nutanix events scheduled job to trigger rediscovery of Nutanix components when a state change is detected.
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

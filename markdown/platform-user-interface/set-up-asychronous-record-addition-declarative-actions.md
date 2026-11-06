@@ -1,18 +1,18 @@
 ---
-title: Enable asynchronous record addition for select modals
-description: Use declarative actions to enable asynchronous record addition for select multi-record associator modals.
+title: Configure modal background loading
+description: Configure a modal to load large selections of records added to a related list in the background.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-up-asychronous-record-addition-declarative-actions.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable asynchronous record addition for the multi-record associator, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Enable asynchronous record addition for select modals
+# Configure modal background loading
 
-Use declarative actions to enable asynchronous record addition for select multi-record associator modals.
+Configure a modal to load large selections of records added to a related list in the background.
 
 ## Before you begin
 
@@ -20,19 +20,23 @@ Role required: admin
 
 ## About this task
 
-If asynchronous record addition isn’t required for all modals, use declarative actions to enable asynchronous record addition for select multi-record associator modals.
+If background loading isn’t required for all modals, configure individual modals to load related list records in the background using declarative actions.
 
-Configuration at the declarative action level takes higher precedence than system properties.
+Declarative actions take higher precedence than system properties.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Related List Actions**.
 
-2.  Open a related list action.
+2.  From the Action Assignments list, select a related list action.
 
-3.  Open the record in the Specify client action field.
+    An Action Assignment record opens.
 
-4.  In the Payload field, add the following code snippet before the closing bracket.
+3.  From the Specify client action field, select **Open Record**.
+
+    An Action Payload Definition record opens.
+
+4.  In the Payload field, add the following snippet before the closing bracket.
 
     ```
       "asyncProperties": { 
@@ -43,14 +47,18 @@ Configuration at the declarative action level takes higher precedence than syste
     
     ```
 
-    -   `enableAsync`: Set to true to enable asynchronous record addition.
-    -   `asyncThreshold`: The number of records needed to switch to asynchronous record addition. The value should equal to or greater than one. The default value is 100 records.
-    -   `relatedListLabelName`: The display name for the notification related to the asynchronous record addition.
+    -   `enableAsync`: Set to true to enable background loading.
+    -   `asyncThreshold`: The number of records needed to switch to background loading. The value should equal to or greater than one. The default value is 100 records.
+    -   `relatedListLabelName`: The display name for the background loading notification.
 5.  Select **Update**.
 
-6.  From the UX Add-on Event Mapping for the related list, select a record.
+    The Action Assignment record for the related list action opens.
 
-7.  Add the following snippet to the Target Payload Mapping field under your selected container.
+6.  From the UX Add-on Event Mappings related list, select an event mapping.
+
+    A UX Add-on Event Mapping record opens.
+
+7.  In the Target Payload Mapping field, enter the following snippet under `“container”: {`.
 
     ```
                          "asyncProperties": { 

@@ -1,5 +1,5 @@
 ---
-title: Tracking your location on Mobile Agent
+title: Tracking your location on ServiceNow Agent
 description: Use location tracking so that you can keep a record of your location, either for a defined period of time or while you perform tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/location-tracking-mobile.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Tracking your location on Mobile Agent
+# Tracking your location on ServiceNow Agent
 
 Use location tracking so that you can keep a record of your location, either for a defined period of time or while you perform tasks.
 
@@ -28,6 +28,4 @@ Your administrator selects which tracking options are available to you. There ar
 
 
 To monitor your activity, turn on location tracking from your mobile device. Location tracking continues even when there is no internet connection. For more information, see [Using location tracking for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-location.md).
-
-**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 

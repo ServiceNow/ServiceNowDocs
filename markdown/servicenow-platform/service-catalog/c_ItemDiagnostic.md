@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Debugging Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -20,11 +20,11 @@ The item diagnostic report includes a score that measures the health of the item
 
 Correct violations for best performance and to maintain expected behavior.
 
-The lower the score, the better \(0 is ideal\). A higher score means that an item has more violations from the ServiceNow recommended practices. Each rule has a different weight and level of importance. For example, a violation of duplicate variables is more likely to result in user issues. An AJAX usage violation is less likely to cause issues since the result could simply cause a delay in the UI.\[Omitted image "ItemDiagnostic.png"\] Alt text: diagnostic results
+The lower the score, the better \(0 is ideal\). A higher score means that an item has more violations from the ServiceNow recommended practices. Each rule has a different weight and level of importance. For example, a violation of duplicate variables is more likely to result in user issues. An AJAX usage violation is less likely to cause issues since the result could simply cause a delay in the UI.
 
 ## Default diagnostic rules
 
-These diagnostic rules are designed as per ServiceNow recommended practices.
+These diagnostic rules are designed according to ServiceNow recommended practices.
 
 <table id="table_zks_hbc_mv"><thead><tr><th>
 
@@ -111,9 +111,7 @@ Checks if the item has the following variable types:-   Macro
  For information on the variable availability across various channels, see [Variable support in various channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/variables-availability.md).
 
 </td></tr></tbody>
-</table>\[Omitted image "ItemDiagnosticReport.png"\] Alt text: diagnostic details
-
--   **[Run the Item Diagnostic Results report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/run-item-diag-results.md)**  
+</table>-   **[Run the Item Diagnostic Results report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/run-item-diag-results.md)**  
 Identify the catalog items that are not designed per ServiceNow recommended practices to run your catalog efficiently.
 
 **Parent Topic:**[Debugging Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/debugging-service-catalog.md)

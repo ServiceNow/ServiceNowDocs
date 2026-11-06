@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,4 +47,6 @@ Users with the system administrator role can enable this feature.
     -   Suggest alternate search spellings for knowledge or global search \(glide.ts.dym.enable\_spell\_correct\).
     -   Suggest related searches for knowledge or global search \(glide.ts.dym.enable\_chain\_suggest\).
 3.  Click **Save**.
+
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 

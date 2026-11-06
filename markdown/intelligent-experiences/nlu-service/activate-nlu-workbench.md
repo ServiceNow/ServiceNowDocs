@@ -1,5 +1,5 @@
 ---
-title: Activate the NLU Workbench
+title: \(Legacy\) Activate the NLU Workbench
 description: Activate the following plugins to activate the NLU Workbench.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/activate-nlu-workbench.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Activate the NLU Workbench
+# \(Legacy\) Activate the NLU Workbench
 
 Activate the following plugins to activate the NLU Workbench.
 
@@ -21,6 +21,8 @@ Activate the following plugins to activate the NLU Workbench.
 Role required: admin
 
 ## About this task
+
+Starting with the Brazil release, Natural Language Understanding is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Activate the following plugins if they aren't already active in your instance.
 
@@ -85,19 +87,19 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-[Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/intent-discovery.md) sn\_nlu\_discovery
+[\(Legacy\) Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/intent-discovery.md) sn\_nlu\_discovery
 
 </td><td>
 
-Delivers the Intent Discovery feature, which identifies user intents by analyzing incident/case data. Use this application to help identify which intents to model and build for Virtual Agent conversations to attain maximum deflection. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.md).
+Delivers the Intent Discovery feature, which identifies user intents by analyzing incident/case data. Use this application to help identify which intents to model and build for Virtual Agent conversations to attain maximum deflection. For more information, see [\(Legacy\) Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.md).
 
 </td></tr><tr><td>
 
-[NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md) sn\_nlu\_workbench
+[\(Legacy\) NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md) sn\_nlu\_workbench
 
 </td><td>
 
-Delivers the Model Performance, Multi-model Batch Testing, Cross-model Conflict Review, and Expert Feedback Loop features.For more information, see [Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md).
+Delivers the Model Performance, Multi-model Batch Testing, Cross-model Conflict Review, and Expert Feedback Loop features.For more information, see [\(Legacy\) Install NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-nlu-workbench-adv-features.md).
 
 </td></tr></tbody>
 </table>## Procedure
@@ -114,6 +116,4 @@ Delivers the Model Performance, Multi-model Batch Testing, Cross-model Conflict 
 
     You will see a message after installation is completed. For information about the components installed with a plugin, see [Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/find-components.md).
 
-
-**Parent Topic:**[Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-explore.md)
 

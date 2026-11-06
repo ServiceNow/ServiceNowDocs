@@ -7,9 +7,9 @@ release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure My Requests to track open records
@@ -44,4 +44,6 @@ Role required: admin
 
     Records from the defined filter are displayed in the app under **My Requests** in the **For Me** tab.
 
+
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 

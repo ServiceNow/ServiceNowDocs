@@ -1,16 +1,16 @@
 ---
-title: Create new publishing configuration form
+title: Create publishing configuration form
 description: Specify the configuration that is used for publishing a Technology Reference Model \(TRM\) catalog to the knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/create-pub-config-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new publishing configuration form
+# Create publishing configuration form
 
 Specify the configuration that is used for publishing a Technology Reference Model \(TRM\) catalog to the knowledge base.
 
@@ -64,12 +64,12 @@ Catalog link
 Link to access the published TRM catalog. This field is auto-populated with a URL after the catalog is published.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\) reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/apm-reference.md)
+</table>**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Create a new configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/config-trm-data-to-publish.md)
+[Create a configuration to publish TRM data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/config-trm-data-to-publish.md)
 
 [Publish a TRM catalog to the knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/publish-trm-cat-to-kb.md)
 

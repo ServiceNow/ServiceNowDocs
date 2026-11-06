@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/add-dynamic-attributes-dynamic-category.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic Schema, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Working with Dynamic Schema, Dynamic Schema, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Include dynamic attributes in a dynamic category
@@ -16,11 +16,11 @@ Categorize specific dynamic attributes by relating a dynamic attribute to a dyna
 
 ## Before you begin
 
-Role required: admin
+Role required: dynamic\_schema\_writer
 
 ## About this task
 
-You can choose to add specific dynamic attributes to a category rather than adding an entire dynamic attribute group.
+After creating dynamic attributes, you can build out your taxonomy by including the dynamic attributes in a dynamic category.
 
 ## Procedure
 
@@ -28,25 +28,23 @@ You can choose to add specific dynamic attributes to a category rather than addi
 
 2.  Select a dynamic category that you want to update.
 
-3.  In the Dynamic Category Attribute Members related list, select **New**.
+3.  In the Dynamic Category Members related list, select **New**.
 
 4.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|
     |Category|Category that contains the dynamic attribute.|
-    |Order|Value that determines the attribute's order in a list.|
     |Attribute|Dynamic attribute to associate with the dynamic category.|
-    |Active|Option to activate the dynamic attribute in the dynamic category.|
 
 5.  Select **Submit**.
 
 
-## Add a dynamic attribute to a dynamic category
+## Dynamic attributes added to a dynamic category
 
-\[Omitted image "dynamic-category-attribute-member-example.png"\] Alt text: Add the product dimensions dynamic attribute group to the televisions dynamic category.
+\[Omitted image "dynamic-category-attribute-member-example.png"\] Alt text: Add dynamic attributes to the Televisions dynamic category.
 
 ## What to do next
 
-Add more individual dynamic attributes or dynamic attribute groups to the category as needed.
+Add more dynamic attributes to the dynamic category as needed.
 

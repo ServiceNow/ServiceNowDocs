@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Hardening settings, Platform Security]
 ---
 
@@ -18,9 +18,9 @@ The file and resources category ensures applications handle untrusted file data 
 
 This includes controls such as avoiding denial of service through large or unexpected file types, validating file type and preventing against path traversal.
 
--   **[Disallow infected file download \[Updated in Security Center 1.5 and 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)**  
+-   **[Disallow infected file download](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-disallow-infected-files-download.md)**  
 Control whether users can download non-scanned attachments if the antivirus service is down or unreachable.
--   **[Enable email spam scoring and filtering \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md)**  
+-   **[Enable email spam scoring and filtering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-email-spam-scoring-and-filtering.md)**  
 Install the Email Filter \(**com.glide.email\_filter**\) plugin to install email filtering within the instance. This filtering identifies existing headers, which enables you to decide what to do with the email based on the associated header. Alternatively, set **com.glide.email\_filter** to false.
 -   **[Enable antivirus scan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-enable-antivirus-scan.md)**  
 The **com.glide.snap.enable\_scan** property activates the antivirus scan functionality.
@@ -34,12 +34,12 @@ The **glide.platform\_ml\_di.max\_attachment\_size** property controls the maxim
 Configure the **glide.http.response.get\_body.limit.enabled** and **glide.http.response.get\_body.limit** properties to protect your instance against OutOfMemoryExceptions.
 -   **[Limit maximum number of attachments in email](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-limit-maximum-number-of-attachments-in-email.md)**  
 Configure the number of inbound email attachments allowed per Email \[sys\_email\] record on your instance.
--   **[Maximum allowed attachment size \[Updated in Security Center 1.3\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md)**  
+-   **[Maximum allowed attachment size](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-max-allowed-attachment-size.md)**  
 Configure the **com.glide.attachment.max\_size** property to control the maximum size \(in megabytes\) permitted for an uploaded attachment.
--   **[Set Allowed MIME Child Types \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-set-allowed-mime-child-types.md)**  
-Learn how to configure the **glide.security.mime.type.allowed\_child\_types** property to a secure setting so that file types will not pass the Multipurpose Internet Mail Extensions \(MIME\) type checking. This reduces the risk of remote code execution on an uploaded file.
--   **[Validate file mime type in AttachmentCreator soap web service \[New in Security Center 1.3 and updated in 1.5\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)**  
+-   **[Validate file MIME type in AttachmentCreator web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-validate-file-mime-type-in-attachmentcreator.md)**  
 The **glide.attachment.enforce\_security\_validation** property determines whether Multipurpose internet Mail Extensions \(MIME\) files undergo validation.
+-   **[Validate MIME Type of Attachments from Inbound Emails](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-validate-mime-type-of-attachments-from-inbound-emails.md)**  
+Use a system property to validate attachments uploaded from inbound emails.
 
 **Parent Topic:**[Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/security-hardening-settings.md)
 

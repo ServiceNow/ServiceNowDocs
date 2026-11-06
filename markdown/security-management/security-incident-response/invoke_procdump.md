@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response Orchestration workflows and activities, Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -41,7 +41,7 @@ Reasons the procdump can fail includes:
 
 [Create Lookup Request for IoC Changes workflow]()
 
-[Security Incident Response- Get Network Statistics Flow]()
+[Security Incident Response- Get Network Statistics flow]()
 
 [Security Incident Response - Get Running Services workflow]()
 

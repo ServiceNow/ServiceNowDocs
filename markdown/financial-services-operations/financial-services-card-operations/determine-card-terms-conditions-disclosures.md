@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Setting up a new credit card account, Managing credit card service requests, Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Setting up a new credit card account, Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Determine a card's Terms and Conditions and Disclosures for a customer
@@ -30,19 +30,19 @@ This credit card task is automatically created for a new credit card case when t
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Open the task from a credit card service case or from the Credit Card Task list.
 
-<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d76164e112">
+<table id="choicetable_lgv_1db_hmb"><thead><tr><th align="left" id="d93142e127">
 
 Option
 
-</th><th align="left" id="d76164e115">
+</th><th align="left" id="d93142e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d76164e121">
+</th></tr></thead><tbody><tr><td id="d93142e136">
 
 **From a credit card service case**
 
@@ -53,7 +53,7 @@ Steps
 3.  In the case, click the **Tasks** tab and select the credit card task.
 
 
-</td></tr><tr><td id="d76164e154">
+</td></tr><tr><td id="d93142e169">
 
 **From the Credit Card Task list**
 

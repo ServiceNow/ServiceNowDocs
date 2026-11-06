@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Employee Center Pro Kiosk overview, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configure Employee Center Pro Kiosk, Employee Center Pro Kiosk, Employee Center Integrations, EmployeeWorks, Employee Service Management]
 ---
 
 # Schedule in Employee Center Pro Kiosk
@@ -49,4 +49,11 @@ The calendar legends include:
 \[Omitted image "kiosk-calendar-update.png"\] Alt text: My schedule tab displays different shift types, holidays, and time off data.
 
 The display title of the **Schedule** tab is customizable. For more information, see [Customize the schedule widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/widget-mapping-kiosk.md).
+
+-   **[Customize data display in Kiosks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-implementation-kiosk.md)**  
+Create implementations to customize the display of data in the **Schedule** and **Time off** tabs based on your location or any other criterion according to your organizational requirement.
+-   **[Customize the schedule widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/widget-mapping-kiosk.md)**  
+Customize the schedule widget on the Employee Profile to display it to your preference.
+
+**Parent Topic:**[Configure Employee Center Pro Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/deskless-kiosk-config.md)
 

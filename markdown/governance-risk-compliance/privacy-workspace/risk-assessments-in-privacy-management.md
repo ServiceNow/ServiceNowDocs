@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -43,9 +43,7 @@ Privacy risk assessments are detailed assessments that are conducted if the crit
 
 The risk assessments results and the risk heatmaps appear on the processing activity home page as shown in the following image.
 
-\[Omitted image "risk-score-on-pa.png"\] Alt text: Risk criticality score
-
-\[Omitted image "risk-heatmap-on-pa.png"\] Alt text: Risk heatmap view.
+\[Omitted image "risk-score-and-risk-heatmap.png"\] Alt text: Risk criticality score and risk heatmap view.
 
 To understand the details about how to perform the risk assessments, see [Privacy assessment configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/privacy-assessment-configurations.md).
 

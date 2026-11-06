@@ -7,8 +7,8 @@ release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-09-08"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
@@ -28,12 +28,14 @@ Remediating an issue marks an intention to fix the underlying issue causing the 
 
 1.  Open the issue you want to remediate.
 
-2.  Click the **Remediation Tasks** tab.
+2.  Select the **Remediation Tasks** tab.
 
-    **Note:** You have two options for creating a remediation task:
+    You have two options to create a remediation task:
 
-    -   Click **Suggested Remediation Tasks** and click **Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
-    -   Clicking **New** and manually creating the task.
+    -   Select **Suggested Remediation Tasks** and then select**Copy** to use an existing task as a basis for creating this task. A copy of the selected remediation task is created with certain information from that task copied to the new task. You can manually complete the other fields.
+    -   Select **New** and manually create the task.
+    **Important:** You can't assign a single remediation task or response to multiple issues at the same time. To remediate several related issues together, group them under a parent issue, then create the remediation task on the parent.
+
 3.  On the form, fill in the fields.
 
 <table id="table_ynl_yjz_dv"><thead><tr><th>
@@ -201,8 +203,27 @@ Confidential
 Option to enable confidentiality of the record. Only the assigned confidential users or confidential groups of users can access the record.For more information on confidential option, see [Confidentiality flag for audit and compliance records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/confidentiality-flag-audit-pc.md).
 
 </td></tr></tbody>
-</table>4.  Click **Submit**.
+</table>4.  Select **Submit**.
 
+
+## Result
+
+A remediation task is created and associated with the issue. The issue remains open while the remediation task is in progress. Once the remediation task is completed and reviewed, the issue can be closed.
+
+## What to do next
+
+After the remediation task is created and associated with the issue, next steps vary depending on your role.
+
+AI Risk and Compliance business users \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_business\_user\] can work and update the remediation task.
+
+AI Risk and Compliance analysts \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_analyst\] and managers \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\] can monitor task status and review remediation progress.
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Create an AI issue in the AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/create-ai-issue-in-the-ai-risk-and-compliance-workspace.md)
+
+[AI cases and inquiries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-cases-inquiries.md)
 

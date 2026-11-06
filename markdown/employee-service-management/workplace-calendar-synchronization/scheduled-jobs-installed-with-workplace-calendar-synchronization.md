@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Reference, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -74,27 +74,7 @@ Repeats every 1 minute
 
 </td><td>
 
-This scheduled job inserts/updates reservations from **Microsoft Exchange Online spoke** &gt; **Events** table.
-
-</td></tr><tr><td>
-
-Check room calendar for reservations stuck in awaiting confirmation
-
-</td><td>
-
-Workplace Calendar Synchronization
-
-</td><td>
-
-True
-
-</td><td>
-
-Repeats every 10 minutes
-
-</td><td>
-
-This schedule job runs every 10 minutes and selects the reservations that are stuck in Awaiting confirmation and were last updated between 2 to 15 minutes ago. The job performs a look-up call to the room calendar to verify if the event exists. If the event does not exist \(due to conflicts with outlook\), the reservation is moved to the Conflicted state.
+This scheduled job inserts/updates reservations from &gt; **Microsoft Exchange Online spoke** &gt; **Events** table.
 
 </td></tr><tr><td>
 

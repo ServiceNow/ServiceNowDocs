@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing credit card service requests, Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Unblock a credit card
@@ -34,15 +34,15 @@ For more information on the flows that are installed with the Financial Services
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Credit Card Service Cases**, open the case list.
 
     -   For your assigned cases, click **Assigned to me**.
     -   For all cases, click **All**.
-4.  In the list, select the case that you want to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Unblock the customer's credit card as per the request.
 

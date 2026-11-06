@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/secondary-agent.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an external agent, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # ServiceNow AI agents as secondary agents
@@ -20,11 +20,13 @@ In AI Agent Studio, on the **Settings** page, under **External AI Agents** &gt; 
 
 You can also choose between **Synchronous** and **Asynchronous** communication between your external AI agent and the agentic AI provider.
 
+\[Omitted image "A2A-asynchronous.png"\] Alt text: Discoverability page in AI Agent Studio settings.
+
 ## ServiceNow AI agents as secondary agents overview
 
 You can connect your ServiceNow agent to other agentic AI model providers using the Agent2Agent protocol.
 
-After creating your AI agent in AI Agent Studio, you can point to the Agent Card by using the following REST endpoint URL format: `{instance}.service-now.com/api/sn_aia/a2a/v2/agent_card/id/{{agent_id}}`, where \{instance\} is the instance name and \{agent\_id\} is the sys\_id of the AI agent on the **AI Agents \[sn\_aia\_agent\]** table. The `{instance_id}.service-now.com` is the server URL, and the rest is the path.
+After creating your AI agent in AI Agent Studio, you can point to the Agent Card URL that is displayed for secondary agents for easy access so the admins can view, copy, and consume the URL.
 
 The endpoint to point to for the actual execution of the AI agent is in the format `{{instance}}.service-now.com/api/sn_aia/a2a/v2/agent/id/{{agent-id}}`.
 

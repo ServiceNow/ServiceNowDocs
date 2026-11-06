@@ -7,8 +7,8 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Configuring Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
 
@@ -23,13 +23,9 @@ A requester can view the aggregated and simplified view of the UR activity and a
 -   An activity stream that shows a logical and sequential record of comments to and from any fulfiller who worked on the UR or its primary tickets.
 -   An info region that displays department-specific fields of the current primary ticket. For example, configure the page to show **Opened For** and **Subject Person** fields from a child HR case, or to show **Caller** and **Urgency** fields from a child IT incident.
 
-\[Omitted image "ur-std-tkt-similarview.png"\] Alt text: Consistent page views in the standard ticket page.
-
 The Standard ticket page configuration for UR tickets enables you to determine what you want to display as a view. By default, a Universal Request Standard Ticket configuration is available that you can use and customize. Information displayed in different sections of a standard ticket page depends on the individual request type.
 
 **Note:** If you are upgrading from a previous release and want to use the Standard Ticket page for your department, ensure that you enable the **Page Route map** in Service Portal. For more information, see [Enable the page route map for standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/config-pageroutemap-stpage.md).
-
-\[Omitted image "ur-std-ticket-page.png"\] Alt text: Universal Request standard ticket page
 
 <table id="table_cv4_kmd_gdb"><thead><tr><th>
 
@@ -148,11 +144,7 @@ Displays the activity and attachments from UR, and all the previously associated
 </td></tr></tbody>
 </table>When a routing agent chooses not to share additional comments or attachments while routing, a system-generated message displays in the header and activity stream. However, the requester can view all comments in the activity stream.
 
-\[Omitted image "ur-hidden-info.png"\] Alt text: Message displayed when the additional comments and attachments is not shared
-
 When a user clicks to view the Standard Ticket page from a department ticket that was previously a primary ticket of the UR, then the Standard Ticket configuration validates and displays a message asking the user to open the latest page that displays only the activity streams and attachments. The following image displays the message containing a link to open the latest activity stream.
-
-\[Omitted image "ur-std-tkt-stalemsg.png"\] Alt text: Message containing a link to open the latest page.
 
 -   **[Configure Standard Ticket page for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/config-standard-ticket.md)**  
 Use the Standard ticket page configuration for Universal Request to provide a consistent layout across all tickets raised and associated.

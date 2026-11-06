@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Reusable tests
@@ -31,10 +31,8 @@ Use the Reusable Test test step category to access the created reusable test rec
 
 -   **[Create a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-create-reusable-tests.md)**  
 Create a reusable test to avoid redundancy, ensuring better test maintenance and reliable test execution across the instance.
--   **[Invoke a reusable test](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-invoke-reusable-tests.md)**  
-Implement the following steps to invoke a reusable test in a test \(regular or reusable test\) or a test in a test suite.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) tests types and testing ways](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
@@ -45,5 +43,9 @@ Implement the following steps to invoke a reusable test in a test \(regular or r
 
 [Parallel testing]()
 
+[Accelerate ATF tests failure resolution]()
+
 [Performance profiling]()
+
+[ATF Health Check]()
 

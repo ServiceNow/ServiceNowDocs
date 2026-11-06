@@ -7,10 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 keywords: [app automation, app playbook, workflow automation]
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Working with automation in Creator Studio
@@ -64,7 +64,7 @@ Automation in Creator Studio enables you to create simplified playbooks, which a
 
 Playbooks take the guess work out of assigning tasks and help users focus on the tasks and information that matter to their job. A well-designed playbook can do these things:
 
--   Automatically start or trigger changes for different types of records, such as task assignments.
+-   Automatically start or trigger changes for different types of records, such as task assignments, or specific fields on the submitted form's record.
 -   Reuse activities and business decisions from other workflows you’ve already created.
 -   Clearly show the next steps that fulfillers must take to move to the next step of completing the record’s life cycle.
 
@@ -75,6 +75,7 @@ There are several types of activities that you can add to playbooks that, when p
 -   Create a new task as a next step
 -   Send an email
 -   Choose a custom action configured by your admin
+-   Update fields on a submitted form's record
 
 **Note:** In addition to creating custom activities, your admin can also hide standard activities, so you may not see all of the above options.
 

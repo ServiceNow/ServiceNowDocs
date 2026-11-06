@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/remove-group-from-subscription-v2.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -17,6 +17,12 @@ Fix an over-allocated subscription and free up entitlements by removing a group 
 ## Before you begin
 
 Role required: usage\_admin, sn\_sub\_man.admin, or admin
+
+## About this task
+
+To simplify the Subscription Management experience, user-based subscriptions are automatically allocated based on role if you haven't manually allocated user-based subscriptions before. To resolve over-consumed user-based subscriptions, reduce the number of users with roles that provide access to the over-consumed subscription. For more information, see [Add a user to a group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/t_AddAUserToAGroup.md) and [Managing roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/ua-creating-roles.md).
+
+If you have manually allocated user-based subscriptions before, you can still make manual changes to the subscribed groups using the following process.
 
 ## Procedure
 
@@ -41,9 +47,9 @@ Role required: usage\_admin, sn\_sub\_man.admin, or admin
 8.  Verify that the subscription is no longer over-allocated by checking the value in the **Status** column on the **Subscriptions** tab.
 
 
+If you can't manually allocate user-based subscriptions despite having manually allocated them in the past, see [Missing subscribed groups and users tabs in subscription management \[KB2974856\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2974856)
+
 ## What to do next
 
 The group is removed from the subscription. If the group still has a measured-role that requires a subscription, add the group to a different subscription or remove the measured-role from the group.
-
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-09-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee Forums
@@ -26,6 +26,4 @@ Employee Forums integrate with campaigns and content publishing so that:
 -   Campaign managers can build campaigns that include forum content. Community or forum content can include blog posts, events, videos, or links to posts or other content.
 
 Before content managers can use Employee Forums, an admin must first configure Communities, including forums and topics. These features serve as publishing destinations for managers creating content via Content Publishing. For information on communities, see [Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/servicenow-communities.md).
-
-**Note:** If Employee Center Pro and Communities are installed, **Employee Forums** is added to the menu automatically. For custom menus, you can add a link as needed.
 

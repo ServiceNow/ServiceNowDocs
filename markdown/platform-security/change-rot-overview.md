@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/change-rot-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
 # Change your Root of Trust configuration

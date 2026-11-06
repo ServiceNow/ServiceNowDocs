@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/les-use.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Log Export Service \(LES\), Platform Security]
 ---
@@ -42,9 +42,9 @@ Role required: admin or sn\_logstoanalytics.admin
 
         The data in this report reflects collection taken 4 hours prior.
 
-    -   Logs exported per source \(Weekly\): This widget shows the kind of logs were exported on a weekly basis. You can also drilldown to see daily log data. You can view data from last 32 days.
+    -   Logs exported per source \(Monthly\): This widget shows the kind of logs were exported on a monthly basis. You can also drilldown to see weekly and daily log data. You can view data from last 395 days.
 
-        \[Omitted image "les-logs-exp-source-week.png"\] Alt text: Image showing logs exported per source weekly
+        \[Omitted image "les-logs-exp-source-month.png"\] Alt text: Screenshot showing logs exported per source monthly
 
         **Note:** You can select or de-select the source you want to view the data from. The sources from which you can view the logs are: node\_log, syslog, syslog\_transaction, and sys\_outbound\_http\_log.
 

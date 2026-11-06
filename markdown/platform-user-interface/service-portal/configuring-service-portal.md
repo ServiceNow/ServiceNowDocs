@@ -7,8 +7,8 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
@@ -50,4 +50,23 @@ The following list is a high-level overview of the workflow to get started confi
 ## Common portal configurations
 
 Refer to this video for examples of common configurations for portals.
+
+-   **[Upgrading Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/upgrading-service-portal.md)**  
+After upgrading a ServiceNow instance from a previous release, you might need to perform additional tasks to take advantage of new or updated functionality in Service Portal.
+-   **[Create a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/create-a-portal.md)**  
+Create a portal for users to browse company resources, discover articles, and get help.
+-   **[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/portal-css.md)**  
+Pages are made up of containers, columns, rows, widgets, and widget instances. You can configure the CSS of each component, or use the CSS defined in theme and branding as global definitions for the portal. If you do not define CSS in theme or branding, Bootstrap defaults are used.
+-   **[Creating portal pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_Pages.md)**  
+Use pages to organize content, ensure responsive mobile optimization, and design meaningful portal user experiences for your customers. A page houses containers and rows, which then contain widgets. By manipulating the layout of the page, and the widgets within it, you can construct your desired user experience.
+-   **[Configure Service Portal Approval Configuration record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configure-approval-assistance-ai-agent.md)**  
+Configure the Service Portal Approval Configuration record to make the Approval assistance AI agent and Approval Info Record widget work better for your specific use case.
+-   **[Using portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/service-portal-widgets.md)**  
+Widgets are what define the content of your portal pages. You can use the base system widgets provided with Service Portal, clone and modify widgets, or develop custom widgets to fit your own needs.
+-   **[Configuring search in a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/search-service-portal.md)**  
+Service Portal displays search results data within a widget on the search page. To make data searchable from Service Portal, you can fetch data from a single table within your ServiceNow instance, from multiple ServiceNow tables, or from an external site.
+-   **[Managing portal access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/portal-security.md)**  
+Control user access to a portal.
+
+**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_ServicePortal.md)
 

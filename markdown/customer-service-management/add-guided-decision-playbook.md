@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/add-guided-decision-playbook.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Add Guided Decisions to playbooks
@@ -40,7 +40,7 @@ For more details on playbooks for Customer Service Management, see [Playbooks fo
 
 5.  In the Details tab, fill in the basic details of your activity.
 
-<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d147009e136">
+<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d176793e136">
 
 **Label**
 
@@ -48,7 +48,7 @@ For more details on playbooks for Customer Service Management, see [Playbooks fo
 
 Unique name for your activity. This name appears in user-facing views of your playbook.
 
-</td></tr><tr><td id="d147009e145">
+</td></tr><tr><td id="d176793e145">
 
 **Description**
 
@@ -56,7 +56,7 @@ Unique name for your activity. This name appears in user-facing views of your pl
 
 Description of your activity.
 
-</td></tr><tr><td id="d147009e154">
+</td></tr><tr><td id="d176793e154">
 
 **Run condition**
 
@@ -64,7 +64,7 @@ Description of your activity.
 
 After the activity starts, the activity runs only if specific conditions are met.
 
-</td></tr><tr><td id="d147009e163">
+</td></tr><tr><td id="d176793e163">
 
 **When to start**
 

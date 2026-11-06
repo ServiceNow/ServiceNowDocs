@@ -1,5 +1,5 @@
 ---
-title: Edit a portfolio plan view in Strategic Planning
+title: Edit a portfolio plan view
 description: Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/edit-portfolio-plan-view-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plan views, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Edit a portfolio plan view in Strategic Planning
+# Edit a portfolio plan view
 
 Edit a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 
@@ -73,7 +73,7 @@ Share the portfolio plan with your stakeholders to start collaborating on the po
 **Related topics**  
 
 
-[Create a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plan-view-spw.md)
 
-[Delete a portfolio plan view in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.md)
+[Delete a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/delete-portfolio-plan-view-spw.md)
 

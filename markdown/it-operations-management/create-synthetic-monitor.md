@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/create-synthetic-monitor.html
 release: yokohama
 topic_type: task
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring synthetic monitoring, Synthetic monitoring, ITOM Health, IT Operations Management]
+breadcrumb: [Configure, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Create and edit a synthetic monitor
@@ -19,10 +19,13 @@ Create or edit a synthetic monitor to test the availability and performance of y
 -   A configuration item \(CI\) for the endpoint you want to test.
 -   If you're testing private endpoints or want to run the monitors from your environment, one or more locations must be created to host the monitor. To create a location, see [Create synthetic monitoring locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/create-synthetic-monitoring-locations.md).
 
+**Note:** If you're monitoring an API discovered through API Insights or discovery patterns, see [Create a synthetic monitor for a discovered API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/create-synthetic-monitor-for-discovered-api.md).
+
 **Note:** For information about how to bulk create synthetic monitors, see the [Synthetic Monitoring Developer Guide](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/developer-guides/synth-monitor_dev-guide.md).
 
 Role required: sn\_sow\_synthetics.synthetics\_editor or sn\_sow\_synthetics.synthetics\_admin
 
+1.  
 ## Procedure
 
 1.  Navigate to **All** &gt; **Service Operations Workspace** and select the synthetic monitoring icon \(\[Omitted image "sys-mon-icon.png"\] Alt text: Synthetic monitoring\).
@@ -67,7 +70,7 @@ Related service CI
 
 </td><td>
 
-Application service CI related to the HTTP endpoint. The entered value is used to create or update the CI relationship between the HTTP endpoint and the application service.
+Application service CI or CIs related to the HTTP endpoint. You can select one or more application services. Saving the monitor replaces the endpoint's application-service relationships with exactly what's selected here — deselecting a service removes its CI relationship..
 
 </td></tr><tr><td>
 

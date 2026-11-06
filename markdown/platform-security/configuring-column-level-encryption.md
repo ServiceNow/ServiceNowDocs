@@ -1,22 +1,22 @@
 ---
 title: Configuring Field Encryption
-description: Learn how to activate and configure Field Encryption, and manage migration from Encryption Support.
+description: Learn how to activate and configure Field Encryption and manage migration from Encryption Support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/configuring-column-level-encryption.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Field Encryption, Encryption]
 ---
 
 # Configuring Field Encryption
 
-Learn how to activate and configure Field Encryption, and manage migration from Encryption Support.
+Learn how to activate and configure Field Encryption and manage migration from Encryption Support.
 
--   **Field Encryption Enterprise**
+-   **[Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md)**
 
-    Learn how to activate Field Encryption or Field Encryption Enterprise.
+    Learn how to active either Field Encryption or Field Encryption Enterprise.
 
 -   **Roles Required for Configuring Field Encryption**
 
@@ -31,12 +31,12 @@ Use Scheduled jobs to migrate your keys and encrypted data from legacy Encryptio
 
 Improve security by preventing users from attaching unencrypted files. For details, see [Prevent users from attaching unencrypted files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/attach-enc-property.md).
 
--   **[Activate Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md)**  
+-   **[Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md)**  
 Activate either Field Encryption Starter or Field Encryption Enterprise.
 -   **[Role requirements for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/fe-roles.md)**  
 Learn about the roles required to configure Field Encryption.
 -   **[Configure Field Encryption modules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configure-fe-modules.md)**  
-Learn how to configure Field Encryption modules.
+ Configure Field Encryption modules by selecting and updating module settings.
 -   **[Cryptographic specifications for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configure-fe-crypto-specs.md)**  
 Use cryptographic specifications to define the purpose, algorithm, key length, mode, and origin of your encryption key.
 -   **[Module keys for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/fe-module-keys.md)**  
@@ -46,10 +46,10 @@ Use module lifecycle policy exceptions to customize the lifecycle of your module
 -   **[Configure Customer-supplied keys for Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/fe-config-customer-supplied-keys.md)**  
 Bring your own data encryption key to the platform instead of using the one that ServiceNow generates.
 -   **[Configure encrypted field configurations for fields or attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configure-fe-fields-attachments.md)**  
-Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that tables attachments are encrypted.
+Create an encrypted field configuration to specify which fields are encrypted on a table, and whether that table's attachments are encrypted.
 -   **[Configure multi-module encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/multi-module-fe-config.md)**  
 Create an encrypted field configuration that uses more than one encryption module.
--   **[Configure module access policies for field encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/maps-for-fe.md)**  
+-   **[Configure module access policies for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/maps-for-fe.md)**  
 Create a module access policy to control which users, scripts, or system processes can encrypt or decrypt data encrypted by a field encryption module.
 -   **[Migrating to Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/migration-to-platform-encryption.md)**  
 Scheduled jobs migrate your keys and encrypted data from Encryption Support to Field Encryption.

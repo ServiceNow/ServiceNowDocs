@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Knowledge Management reference, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -47,7 +47,7 @@ Requester: Requester activities are supported within tenant domains. Users can s
 
 Fulfiller: The application can be used by the Fulfiller within the tenant domains as a tenant domain-owned application. Users are allowed to author articles in knowledge bases of their domain, any child domain, and the global domain if the knowledge base has user criteria set up to grant contribute access.
 
--   Articles are automatically saved to the user's current domain when the article is created.
+-   Articles are automatically saved to the user’s current domain when the article is created.
 
 -   If the `glide.knowman.allow_edit_global_articles` system property is enabled, users from a domain other than the global domain can check out and edit global articles. Otherwise, system administrators and users from a domain other than the global domain cannot check out global articles and are shown a warning message to that effect. Depending on their access, users can change their domain to the global domain to check out and edit the global articles.
 -   Domains of versioned articles will be maintained as per the latest article version's domain. This includes updating the domain for kb\_version, kb\_knowledge, kb\_feedback, and sys\_attachment tables.

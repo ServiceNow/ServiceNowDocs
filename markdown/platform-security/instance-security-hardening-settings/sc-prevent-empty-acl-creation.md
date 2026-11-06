@@ -1,5 +1,5 @@
 ---
-title: Prevent Empty ACL Creation \[New in Security Center 2.0\]
+title: Prevent empty ACL creation
 description: Set the glide.security.empty\_acl.popup\_window.enabled property to the secure value of true to block attempts to create, update, or save an invalid ACL. This setting will also provide a client-side model to configure a role or security attribute for the ACL.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.html
@@ -7,20 +7,22 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Prevent Empty ACL Creation \[New in Security Center 2.0\]
+# Prevent empty ACL creation
 
 Set the **glide.security.empty\_acl.popup\_window.enabled** property to the secure value of true to block attempts to create, update, or save an invalid ACL. This setting will also provide a client-side model to configure a role or security attribute for the ACL.
 
-The **glide.security.empty\_acl.popup\_window.enabled** property determines whether users making form-based edits to access control lists \(ACLs\), specifically sys\_security\_acl, can create, update, or save an invalid ACL that has an invalid data condition, script, security attribute, or roles list. Otherwise, it remains unconfigured \(an empty ACL\). As of the Xanadu release, any empty ACL will deny access. In ServiceNow versions prior to Xanadu, an empty ACL will permit unconditional access.
+The **glide.security.empty\_acl.popup\_window.enabled** property controls whether users making form-based edits to ACL \[sys\_security\_acl\] records can create, update, or save an invalid ACL that has an invalid data condition, script, security attribute, or roles list, or otherwise does not have any configured \(an "empty ACL"\). As of the Xanadu release, an empty ACL will completely deny access. On versions prior to Xanadu, empty an ACL will allow unconditional access.
 
-When the **glide.security.empty\_acl.popup\_window.enabled** property is set to the secure value of true, it blocks attempts to create, update, or save an invalid or empty ACL, and provides a client-side model to configure a role or security attribute for the ACL. If the property is set to the unsecure value of false, then such attempts will be permitted, and no client-side model will be displayed.
+When the **glide.security.empty\_acl.popup\_window.enabled** property is set to a secure value of **true**, attempts to create, update, or save an invalid or empty ACL will be blocked, and a client-side model will be provided to configure a role or security attribute for the ACL. If the property is insecurely set to any other value, then such attempts will be allowed and no client-side model will be displayed.
 
-Note: This property is case-sensitive. For example, a value of True \(capital "T"\) will be evaluated as false. Moreover, this property only functions when the High Security \(com.glide.high\_security\) plugin is installed and active.
+**Important:** This property is case sensitive. A value of "True" \(capital "T"\) will be equivalent to **false**. Additionally, this property will only function when the High Security \(com.glide.high\_security\) plugin is installed and active.
+
+Ensure the that the **glide.security.empty\_acl.popup\_window.enabled** property is set to **true** and confirm that the High Security \(com.glide.high\_security\) plugin is active.
 
 ## More information
 
@@ -74,6 +76,14 @@ true
 
 </td></tr><tr><td>
 
+Fallback value
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -88,7 +98,7 @@ Security risk
 
 -   Severity score: 6.5
 -   CVSS score: Medium
--   Security risk details: If this property is set to true, the empty ACL warning popup will prevent the user from submitting an empty ACL on the client side. If it is set to false, the popup will no longer show.
+-   Security risk details: Misconfigured or empty Access Control Lists \(ACLs\) can unintentionally grant unrestricted access to sensitive data and system functionality. When ACLs lack proper conditions, roles, or security attributes, they fail to enforce authorization boundaries, enabling attackers or unauthorized users to bypass security controls. This can lead to data breaches, privilege escalation, and compromise of confidentiality, integrity, and availability across the platform.
 
 </td></tr><tr><td>
 
@@ -104,7 +114,7 @@ Functional impact
 
 </td><td>
 
-This property allows the user to toggle the empty ACL warning popup on and off.
+This property allows the user to toggle the empty ACL warning pop-up on and off.
 
 </td></tr><tr><td>
 
@@ -112,7 +122,7 @@ References
 
 </td><td>
 
-[Prevent Empty ACL Creation \[New in Security Center 2.0\]](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
+[Prevent empty ACL creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-prevent-empty-acl-creation.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)

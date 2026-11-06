@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/configure-script-encryption.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Script access for cryptographic modules, Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
 
@@ -102,7 +102,7 @@ Advanced tab
 </td><td>
 
 On the **Advanced** tab, paste the following script text at line 3: ```
-
+//
 var gc = global.GlideCryptoModule.getModule('global.acme_mod');
 var value = 'test';
 var encrypted = gc.encryptData(value);
@@ -119,29 +119,38 @@ gs.info(decrypted == value);
 </td></tr></tbody>
 </table>    \[Omitted image "business-rules-advanced.png"\] Alt text: Business Rule Advanced tab.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
-6.  Navigate to **Key Management** &gt; **Module Access Policies** &gt; **** **All**.
+6.  Navigate to **All** &gt; **System Security** &gt; **Field Encryption** &gt; **Field Encryption Experience** &gt; **Configurations** &gt; **Access Policies** &gt; **** **All**.
 
     **Note:** For additional information, refer to [Create a module access policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/create-module-access-policy.md).
 
-7.  Click **New**.
+7.  Select **Create new**.
 
-8.  Complete the form.\[Omitted image "script-map.png"\] Alt text: Target script selection.
+8.  Select an existing Field Encryption module to associate the Module Access Policy \(MAP\) with.
+
+9.  Select **Create**.
+
+10. Complete the form.
+
+    \[Omitted image "fe-create-map.png"\] Alt text: Target script selection.
 
     Module Access Policies fields
 
     |Field|Description|
     |-----|-----------|
     |Policy name|Enter a name for the policy.|
-    |Crypto module|Click the search icon to select a module with the symmetric data encryption/decryption algorithm.|
     |Type|Select **Script** to control access by script.|
     |Script Table|Select a value from the script table drop-down list. For this example, select **Business Rule \[sys\_script\]**.|
-    |Target Script|Select the script document for the policy. Select the **Table name** and then the related document for the policy. For this example, select the Business Rule that you created in previous steps.|
-    |Active|Select to activate the policy.|
     |Result|To give the script access to the module, select **Track** in the **Result** field.|
+    |Crypto module|Displays the module with the symmetric data encryption/decryption algorithm that you selected.|
+    |Active|Select to activate the policy.|
+    |Target Script|Select the script document for the policy. Select the **Table name** and then the related document for the policy. For this example, select the Business Rule that you created in previous steps.|
+    |Check script version|Select this option to direct the system to perform a version comparison anytime the script is run. If the script has been changed, the user is notified.|
+    |Specify purpose|Optional. Enable  to  display  the  Crypto  Spec field  on  the  form.  Enable this option to configure granular operations, such as some users being able to encrypt, but not decrypt.|
+    |Application|The  Application scope  is  auto-populated  by  your  current scope. |
 
-9.  Click **Submit**.
+11. Select **Save**.
 
     The Module Access Policy for the script is now available in the system.
 

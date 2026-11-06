@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/code-signing-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Platform Security]
 ---
 
@@ -23,13 +23,9 @@ Multiple security measures help to prevent malicious actors from disabling or mi
 -   Controls that restrict even the most powerful administrator accounts are established in the protected instance to help protect Code Signing processes and configuration.
 -   Trusted instances are required to work together with protected instances to establish the Circle of Trust relationship. At least one trusted instance is required, but multiple trusted instances may be configured to collaborate with the protected instance.
 
-
-
     \[Omitted image "circle-trust-overview.png"\] Alt text: Circle of trust diagram.
 
     The Circle of Trust uses jobs, scripts, and business rules along with a key pair to generate signatures to sign update sets to the protected instance. When the job is called, the signature is verified along with the trusted certificate to execute protected instance updates.
-
-
 
     \[Omitted image "cot-updatesets-overview-remake.png"\] Alt text: Diagram that shows the trusted update sets process.
 
@@ -74,11 +70,13 @@ The Circle of Trust requires an initial trust relationship between trusted and p
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
 
 -   **[Exploring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/explore-code-signing.md)**  
-Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered ECC queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
+Code Signing provides cryptographic verification to ensure that only authorized scripts can execute on MID Servers. Code Signing prevents unauthorized or tampered External Communication Channel \(ECC\) queue records from being processed by MID Servers, maintaining the integrity of integrations between ServiceNow and external systems.
 -   **[Configuring Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/config-code-signing.md)**  
 Activate and configure Code Signing to verify the authenticity and integrity of your data.
 -   **[Using Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/using-code-signing.md)**  
 Learn how to sign records, messages, and attachments to help verify the authenticity and integrity of your data.
+-   **[Code Signing Health and Status Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/code-signing-health-and-status-dashboard.md)**  
+The Code Signing Health and Status dashboard provides a centralized, user-friendly view of your Code Signing environment's health and configuration. Use it to identify issues, verify configuration accuracy, and support secure, uninterrupted code-signing operations.
 -   **[Code Signing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/code-signing-reference.md)**  
 Reference topics provide additional information to administer and troubleshoot Code Signing.
 

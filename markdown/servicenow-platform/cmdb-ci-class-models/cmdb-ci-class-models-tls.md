@@ -1,42 +1,42 @@
 ---
 title: Transport Layer Security \(TLS\) extension classes
-description: The CMDB CI Class Models store app adds or updates a class for TLS certificates.
+description: The CMDB CI Class Models app adds or updates a class for TLS certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-tls.html
 release: yokohama
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CMDB CI Class Models, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Transport Layer Security \(TLS\) extension classes
 
-The CMDB CI Class Models store app adds or updates a class for TLS certificates.
+The CMDB CI Class Models app adds or updates a class for TLS certificates.
 
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the full release notes for all CMDB CI Class Models.
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Transport Layer Security \(TLS\)
 
-TLS is a cryptographic protocol designed to provide communications security over a computer network. The TLS protocol provides privacy and data integrity between communicating computer applications. Once the client and the server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The server usually provides identification in the form of a digital certificate. The certificate contains the server name, the trusted certificate authority \(CA\) that vouches for the authenticity of the certificate, and the server's public encryption key. The client confirms the validity of the certificate before proceeding. When the handshake is completed, a secured connection is established.
+TLS is a cryptographic protocol provide communications security over a computer network. The TLS protocol provides privacy and data integrity between communicating computer applications. Once the client and the server have agreed to use TLS, they negotiate a stateful connection by using a handshaking procedure. The server usually provides identification in the form of a digital certificate. The certificate contains the server name, the trusted certificate authority \(CA\) that vouches for the authenticity of the certificate, and the server's public encryption key. The client confirms the validity of the certificate before proceeding. When the handshake is completed, a secured connection is established.
 
 \[Omitted image "CMDBCIClassModels-tls.png"\] Alt text: TLS certificate classes integrated with the CMDB class hierarchy.
 
 ## Scoped apps certification class
 
-The scoped apps certification class supports TLS certificates. With this class you can proactively manage certificates by keeping stakeholders informed about any impending expiries. Use this extension class to ensure that certificates are monitored and renewed before they expire, to prevent severe outage of production systems.
+The scoped apps certification class supports TLS certificates. With this class you can proactively manage certificates by keeping stakeholders informed about any impending expiries. Use this extension class to promote that certificates are monitored and renewed before they expire, to help prevent severe outage of production systems.
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. See the class columns table for further details about the columns added for each class.
+This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
 The CMDB CI Class Models: Release 1.4.0 updates the following class:
 
@@ -44,10 +44,10 @@ The CMDB CI Class Models: Release 1.4.0 updates the following class:
 |-----|-------|-----------|
 |Unique Certificate \[cmdb\_ci\_certificate\]|Configuration Item \[cmdb\_ci\]|A public key certificate in X.509 standard format.|
 
-The CMDB CI Class Models store app changes the Unique Certificate \[cmdb\_ci\_certificate\] class as follows:
+The CMDB CI Class Models app changes the Unique Certificate \[cmdb\_ci\_certificate\] class as follows:
 
 -   The **assigned\_to** attribute now depends on the **assignment\_group** attribute so that users in the **assigned\_to** attribute are filtered based on the specified **assignment\_group**.
--   The [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cert-inventory-mgmt.md) store app populates the Unique Certificate \[cmdb\_ci\_certificate\] table. The list view for that class does not have a **New** button and you can no longer add new records to the table. This is because there are certain fields that are extracted from binary encoded parameters in the certificate which users may not be able to provide. Also, certificates have to be discovered rather uploaded.
+-   The [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/cert-inventory-mgmt.md) app populates the Unique Certificate \[cmdb\_ci\_certificate\] table. The list view for that class does not have a **New** button and you can no longer add new records to the table. This is because there are certain fields that are extracted from binary encoded parameters in the certificate that users may not be able to provide. Also, certificates have to be discovered rather uploaded.
 -   You can no longer add or delete attachments in the **Certificate file** attribute.
 
 The CMDB CI Class Models: Release 1.3.0 adds the following classes. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
@@ -193,7 +193,7 @@ State
 
 </td><td>
 
-Lifecycle states of the certificate.
+Life cycle states of the certificate.
 
 </td></tr><tr><td>
 

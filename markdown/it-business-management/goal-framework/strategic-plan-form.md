@@ -7,7 +7,7 @@ release: yokohama
 product: Goal Framework
 classification: goal-framework
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Goal Framework and Goal Framework for SPM, Strategic Portfolio Management]
 ---
@@ -27,4 +27,9 @@ Use the Strategic Plan form to define the purpose of your organization, its stra
 |Mission|A brief description about what your organization’s objectives are and its approach to reach those objectives.|
 
 **Parent Topic:**[Goal Framework and Goal Framework for SPM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/goal-framework-reference.md)
+
+**Related topics**  
+
+
+[Enterprise strategy example](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/goal-framework/enterprise-goal-example-strategy-gf.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -24,15 +24,15 @@ Role required: sn\_devops.admin
 
 1.  Update your tool credentials using one of the following methods.
 
-<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d45173e66">
+<table id="choicetable_bvm_p5l_f5b"><thead><tr><th align="left" id="d48373e66">
 
 Option
 
-</th><th align="left" id="d45173e69">
+</th><th align="left" id="d48373e69">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d45173e75">
+</th></tr></thead><tbody><tr><td id="d48373e75">
 
 **From Workspace**
 
@@ -40,7 +40,7 @@ Steps
 
 1.  Navigate to **Workspaces &gt; DevOps Change Workspace &gt; Tools &gt; &lt;tool type&gt;**.
 2.  Select the tool for which you want to update your credentials.
-3.  In the tool record, select **More Actions\(\[Omitted image "more-actions-icon.png"\] Alt text: More Actions icon \) &gt; Update credentials**.
+3.  In the tool record, select **More Actions &gt; Update credentials**.
 4.  Select the **Credential type**.
 
     -   If the credential type is **Basic Auth**, enter the new password or access token.
@@ -59,7 +59,7 @@ Steps
 8.  Select **Connect** to establish the connection.
 
 
-</td></tr><tr><td id="d45173e159">
+</td></tr><tr><td id="d48373e153">
 
 **From Classic**
 

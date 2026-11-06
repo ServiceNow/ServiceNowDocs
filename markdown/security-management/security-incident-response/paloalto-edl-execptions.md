@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -18,23 +18,15 @@ There are restrictions for adding External Dynamic List \(EDL\) entries to EDLs.
 
 ## Compatibility exception
 
-Each EDL only accepts entries that are compatible with its observable type. If you create a Domain EDL and you try to attach an IP address observable to it, an incompatible error message is displayed. For example, a domain EDL can only accept domain observables, as illustrated in the following figure.
-
-\[Omitted image "4-30-ip-incompatible-error.png"\] Alt text: EDL entry Compatibility error message.
+Each EDL only accepts entries that are compatible with its observable type. If you create a Domain EDL and you try to attach an IP address observable to it, an incompatible error message is displayed. For example, a domain EDL can only accept domain observables.
 
 ## Duplication exception
 
-An observable cannot be activated on multiple EDLs of the same observable type. If a URL observable is already activated on a URL EDL, and you try to activate the same observable on a Phishing URL EDL, a duplication error message is displayed.
-
-\[Omitted image "4-30-url-alreadyexists.png"\] Alt text: EDL entry duplicate error message.
+An observable can't be activated on multiple EDLs of the same observable type. If a URL observable is already activated on a URL EDL, and you try to activate the same observable on a Phishing URL EDL, a duplication error message is displayed.
 
 ## CIDR \(Classless Inter-Domain Routing\) exception
 
 If you attempt to attach a single IP address to an EDL, and this IP address is part of a CIDR observable already on an EDL, a CIDR conflict error is displayed. This error indicates that the single IP address is already included on the EDL as part of the CIDR observable. For example, `192.168.24.25` is part of the CIDR block `192.168.0.0/22`.
-
-
-
-\[Omitted image "4-30-cidr-ip.png"\] Alt text: EDL entry CIDR conflict message.
 
 **Parent Topic:**[Palo Alto Networks Next-Generation Firewall integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/paloalto_integration.md)
 

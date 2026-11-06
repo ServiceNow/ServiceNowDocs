@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Using Process Mining, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Scoping your analysis, Create a project or template using Project Builder, Use, Process Mining, Platform Analytics]
 ---
 
 # Set breakdown definitions
@@ -18,7 +18,7 @@ Set the breakdown definitions that act as filters for your project. Breakdown de
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 -   [Create a project or template using Project Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/define-workflow-model.md)
 
@@ -26,7 +26,7 @@ Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_po
 
 This is an optional task.
 
-**Note:** You can configure a maximum of 10 breakdown definitions for the parent table configuration and 5 breakdown definitions for any child table configuration. You can’t generate more than 5000 elements for any breakdown definition.
+**Note:** You can configure a maximum of 10 breakdown definitions for the parent table configuration and 5 breakdown definitions for any child table configuration. You can’t generate more than 20,000 breakdown values for all the breakdown definitions for the parent table and 5000 breakdown values for all the breakdown definitions of each child table.
 
 This is an optional task.
 
@@ -46,6 +46,15 @@ This is an optional task.
 
 5.  Select **New** in the Breakdowns area.
 
+    **Note:** Only the following field types are supported:
+
+    -   choice
+    -   string
+    -   boolean
+    -   integer
+    -   reference
+    -   workflow
+    -   sys\_class\_name
     \[Omitted image "breakdown.png"\] Alt text: Breakdown
 
 6.  Select any breakdown from the list or the recommendations.

@@ -7,33 +7,50 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational subflows, Exploring subflows, Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Conversational subflows, Explore subflows, Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Available conversational subflows
 
 Workflow Studio provides a set of subflows that are preconfigured to be compatible with and callable by conversational interfaces such as Now Assist.
 
-|Name|Application Scope|User roles required|
-|----|-----------------|-------------------|
-|Send Email|Conversational subflows and actions|admin|
-|Send SMS|Conversational subflows and actions|admin|
-|Look up Opportunities - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Look up Contacts - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Look up Accounts - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Look up Leads - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Create Lead - Sample|[Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)|admin|
-|Add User to Group using Email Address - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Add User to Group - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Direct Reports - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Group Members - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Groups - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Users - Sample|[Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-azure-ad-spoke.md)|admin|
-|Look up Purchase Order - Sample|[Coupa Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/coupa-spoke.md)|admin|
-|Look up Images - Sample|[Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/amazon-ec2-spoke.md)|admin|
-|Run Instances - Sample|[Amazon EC2 Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/amazon-ec2-spoke.md)|admin|
+<table id="id_lcz_jwh_scc"><thead><tr><th>
 
-**Parent Topic:**[Conversational subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-subflows.md)
+Name
 
+</th><th>
+
+Application Scope
+
+</th><th>
+
+user roles required
+
+</th></tr></thead><tbody><tr><td>
+
+Send Email
+
+</td><td>
+
+Conversational subflows and actions
+
+</td><td>
+
+sn\_conv\_fa.csa\_email\_write
+
+</td></tr><tr><td>
+
+Send SMS
+
+</td><td>
+
+Conversational subflows and actions
+
+</td><td>
+
+sn\_conv\_fa.csa\_email\_write
+
+</td></tr></tbody>
+</table>

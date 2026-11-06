@@ -4,7 +4,7 @@ description: By integrating the Journey Accelerator scheduling feature with the 
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 ---
 
@@ -58,9 +58,6 @@ Follow the instructions for setting up the spokes respective to your Journey Acc
 **Note:** When using Microsoft Exchange Online spoke v.2.0.2 with Retry Handler Framework, the scripted rest API for the retry handler framework is used as the webhook URL.
 
 For detailed steps, see [Update system properties for Microsoft Exchange Online in the Journey Accelerator app]()
-
--   **[Update system properties for Microsoft Exchange Online in the Journey Accelerator app]()**  
-Update the Journey Accelerator app system properties to use with Microsoft Exchange Online features support by Journey Accelerator.
 
 **Parent Topic:**[Journey Accelerator integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-accelerator/ja-integrations.md)
 

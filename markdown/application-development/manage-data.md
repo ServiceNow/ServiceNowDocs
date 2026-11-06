@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/manage-data.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Define and build the data model, Build your application, Exploring professional development, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage data
@@ -22,7 +22,7 @@ Self-Paced Training: [Importing Data into ServiceNow](https://developer.servicen
 
 Guidelines for Import Set Performance:
 
--   Break up large amounts of data into smaller sets for faster imports. Consider 100,000 rows to be a baseline and break up anything larger than that into sets of 100,000. For example, importing 10 sets of 100,000 will finish quicker than one set of 1,000,000 records. Also consider using Concurrent Imports with larger numbers of records.
+-   Break up large amounts of data into smaller sets for faster imports. Consider 100,000 rows to be a baseline and break up anything larger than that into sets of 100,000. For example, importing 10 sets of 100,000 will finish quicker than one set of 1,000,000 records. Also consider using [Concurrent imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/concurrent-imports.md) with larger numbers of records.
 -   Importing large data sets simultaneously can put load on an instance. Stagger large imports so the imports do not overlap.
 -   If possible, deselect the Run business rules check box on the transform map table to avoid running Business Rules and other logic during an import. Consider using an onComplete transform script to run business logic, such as calculations, at the end of an import rather than on each record as Business Rules do.
 -   Use default functionality for imports. Whenever possible, avoid writing custom scripts. For example, use the coalesce functionality rather than writing a custom coalesce script.

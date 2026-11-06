@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure security settings for the Password Reset Windows Application
@@ -20,7 +20,6 @@ Configuring security settings for the Password Reset Windows Application.
 
 -   The **glide.security.use\_csrf\_token** property setting allows the Password Reset Windows Application to retrieve a token for a secure communication with the datacenter instance.
 -   The **CheckCertificateRevocationList** registry key default setting of **true** causes the Password Reset Windows Application to validate the server certificate before every communication. See [Customize the Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/win-customize-password-reset.md) for details.
--   The **ServiceNowCertPublicKey** registry key contains the public key for the app. See [Customize the Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/win-customize-password-reset.md) for details.
 
 ## Configure the glide.security.use\_csrf\_token property
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opp-mgmt-use-needs-analysis.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Get product recommendations for opportunities using needs analysis
@@ -42,10 +42,17 @@ A needs template is a questionnaire that you complete to get product recommendat
 
 6.  After replying to the last question, review or select the recommendations:
 
-    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] icon. You can change your responses if needed.
+    -   To review your responses, select the **Edit** \[Omitted image "workspace-icon-edit.png"\] Alt text: icon. You can change your responses if needed.
     -   To view product recommendations, choose **Select Recommendations**. The Catalog tab displays the recommended products.
 7.  Choose a recommendation by selecting **Add** in the card for the product that best matches your customer needs.
 
     The selected product is added to the opportunity. The Needs tab displays the needs template that you selected. You can review the needs template and if needed, change your answers, which might result in different product recommendations.
 
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

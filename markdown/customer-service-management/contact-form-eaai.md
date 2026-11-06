@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/contact-form-eaai.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Customer Service Management reference, Customer Service Management]
+breadcrumb: [Email Interaction for CSM reference, Reference, Customer Service Management]
 ---
 
 # Contact form for Email Interaction for CSM

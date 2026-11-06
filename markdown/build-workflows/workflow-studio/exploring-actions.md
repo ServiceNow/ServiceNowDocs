@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-05-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Explore flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Exploring actions
@@ -41,9 +41,7 @@ A reusable action includes these components.
     A step is a single reusable operation within an action. For example, the **Create Record** step allows action designers to specify the table and field values to use during record creation. Step configuration requires subject matter expertise with application tables, fields, and business logic. Application developers or IT generalists add steps to actions from the Workflow Studio action design environment. Workflow Studio provides a set of ServiceNow core steps to automate ServiceNow AI Platform processes. You can add application-specific steps by activating the associated spoke.
 
 
-## Workflow to create actions using Workflow Studio
-
-The following illustration describes the basic tasks involved in creating a subflow using Workflow Studio. For detailed instructions for creating a subflow, see [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-action.md).
+For detailed instructions for creating an action, see [Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-action.md).
 
 ## Actions benefits
 
@@ -60,9 +58,4 @@ Using Workflow Studio, you can:
 |Use data from other automated operations as inputs.|Action|Application developer, integration owner, or process owner|
 |Pass data to other automated operations as outputs.|Action|Application developer, integration owner, or process owner|
 |Stream data in a sequence of pages.|Data Stream Action|Integration owner|
-
--   **[Conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/conversational-actions.md)**  
-Run a Workflow Studio action from a Now Assist conversation. Create and configure the conversational skill from Workflow Studio.
-
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

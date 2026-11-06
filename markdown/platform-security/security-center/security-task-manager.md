@@ -7,8 +7,8 @@ release: yokohama
 product: Security Center
 classification: security-center
 topic_type: concept
-last_updated: "2025-04-18"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Security Center, Platform Security]
 ---
 
@@ -47,8 +47,6 @@ Create a Security Task with the **+Create Task** button, which is available vari
 
 For example, in Security Center, on the Best Practices tool details page, the admin can select the **+Create Task** button to create and assign a task to complete this best practice.
 
-\[Omitted image "task-example-1.png"\] Alt text: Incomplete best practices in Security Center\[Omitted image "task-example-2.png"\] Alt text: Best practices list
-
 <table id="table_wgc_bvj_cfc"><tbody><tr><td>
 
 \[Omitted image "task-example-3.png"\] Alt text: Incomplete best practice record with create task button
@@ -68,7 +66,7 @@ Edit Security Tasks to assign them to users, define due dates, and provide addit
 
 ## Export tasks
 
-You can export Security Tasks into the format of your choice to view on other platforms. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/export-security-tasks.md).
+You can export Security Tasks into the format of your choice. For details, see [Export Security Tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/export-security-tasks.md).
 
 -   **[Automatic Security Task generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-center/auto-sec-task.md)**  
 Learn about how and when your instance generates Security Tasks.

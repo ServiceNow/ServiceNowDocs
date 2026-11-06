@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Explore, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Explore, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Portfolio plans in Strategic Planning
@@ -52,6 +52,9 @@ Here's a sample portfolio plan that shows a few strategic programs of the compan
 Work with your administrator to ensure the required lens setup. See [Lens configuration in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configuring-lens-in-alignment-planner-workspace.md).
 
 Start creating portfolio plans to align work with strategy. See [Managing portfolio plans in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/managing-portfolio-plans-in-alignment-planner-workspace.md).
+
+-   **[Programs enhanced experience with portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/program-portfolio-plan-spw.md)**  
+Programs enhanced experience provides dedicated program planning views with zero setup. Access program-scoped planning data including Prioritization, Roadmap, Kanban, and Financials views for focused program management without navigating portfolio-wide interfaces.
 
 **Parent Topic:**[Exploring Portfolio Planning in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/alignment-planner-workspace.md)
 

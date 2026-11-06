@@ -1,5 +1,5 @@
 ---
-title: Specify and manage pattern identifier attributes for alert grouping
+title: Manage pattern identifier attributes for alert grouping
 description: The Alert Aggregation Learner analyzes alerts and identifies patterns using a defined set of alert and configuration item \(CI\) attributes. By configuring these attributes as pattern identifiers, you can control which characteristics are used to group alerts. This customization creates meaningful alert groups, improving alert management and response times by reducing noise and enabling focus on critical issues.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/ptrn-attributes-alrt-aggregate.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Automated alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Specify and manage pattern identifier attributes for alert grouping
+# Manage pattern identifier attributes for alert grouping
 
 The Alert Aggregation Learner analyzes alerts and identifies patterns using a defined set of alert and configuration item \(CI\) attributes. By configuring these attributes as pattern identifiers, you can control which characteristics are used to group alerts. This customization creates meaningful alert groups, improving alert management and response times by reducing noise and enabling focus on critical issues.
 
@@ -46,5 +46,5 @@ Role required: evt\_mgmt\_admin
 ## What to do next
 
 -   Ensure a corresponding event rule exists: Verify that there is an event rule set up to assign or populate the newly defined pattern identifier attributes to the incoming alerts. Event rules define how attributes are assigned to alerts based on certain conditions.
--   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job retroactively populates the pattern identifier attributes for existing alerts. These alerts were created before the new attributes were defined. This ensures that past alerts have the necessary attributes for proper grouping.
+-   Run the Service Analytics Attribute Populator for Historical Alerts job: After the new event rule is in place, this job retroactively populates the pattern identifier attributes for existing alerts that were created before the new attributes were defined. This ensures that past alerts have the necessary attributes for proper grouping.
 

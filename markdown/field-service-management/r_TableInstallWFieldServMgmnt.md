@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/r\_TableInstallWFieldServMgmnt.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
 # Tables installed with Field Service Management
@@ -124,11 +124,11 @@ Stores the inventory along with the cost and stockroom details.
 
 </td></tr><tr><td>
 
-Agent schedule attribute plan\[wm\_agent\_schedule\_attribute\_plan\]
+Resource Schedule Attributes\[wm\_agent\_schedule\_attribute\_plan\]
 
 </td><td>
 
-Stores the start of the day and end of the day location of agents for a given duration.
+Stores the attributes like start date, end date, start location, end location, shift hours, and pre-break and post-break buffers of agents. The buffers set for an agent override the global break buffer.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_InstalledWithFSM.md)

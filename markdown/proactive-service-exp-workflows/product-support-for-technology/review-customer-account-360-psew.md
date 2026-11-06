@@ -1,179 +1,100 @@
 ---
-title: Review an account by using the 360 View in Proactive Service Experience Workflows
-description: Review a customer or partner's account by using the Operations Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to a customer's or partner's and then act to improve your delivery of service.
+title: Review an account by using the Technology Account 360
+description: Review a customer or partner's account by using the Technology Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/review-customer-account-360-psew.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reviewing customer or partner accounts in Proactive Service Experience Workflows, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Review customer or partner accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
-# Review an account by using the 360 View in Proactive Service Experience Workflows
+# Review an account by using the Technology Account 360
 
-Review a customer or partner's account by using the Operations Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to a customer's or partner's and then act to improve your delivery of service.
+Review a customer or partner's account by using the Technology Account 360 view provided by the Proactive Service Experience Workflows application inside of Service Operations Workspace. You can track your data and tasks related to customer's or partner's and then take action to improve your delivery of service.
 
 ## Before you begin
 
-Role required: sn\_ind\_tsm\_core\_noc\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent, sn\_ind\_tsm\_sdwan.app\_eng
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Service Operations Workspace**.
 
-2.  From the Service Operations Workspace **Lists** tab, select **Accounts** &gt; **All**.
+2.  Select the list icon \(\[Omitted image "icon-list.png"\] Alt text: List Icon.\)
 
-3.  In the Accounts list, select a customer account.
+3.  Navigate to **Accounts** &gt; **All**.
+
+4.  In the Accounts list, select a customer account.
 
     **Note:** You can also access this view by selecting a company \(account\) name account inside the various incident lists or within the incident form in Service Operations Workspace.
 
-4.  In the Account Information page, in the Customer Summary section, review the general customer details for the selected account.
+5.  Review the following account details.
 
-    These details include Active status of the customer, Rank tier, and the number of employees. If this account has any escalations, you can view it by clicking **View Escalations**. In the Overview section, view the insights into account information.
+<table id="choicetable_byy_nsr_fkc"><thead><tr><th align="left" id="d25571e136">
 
-<table id="table_em2_fg2_5tb"><thead><tr><th>
+Option
 
-Field
+</th><th align="left" id="d25571e139">
 
-</th><th>
+Details
 
-Description
+</th></tr></thead><tbody><tr><td id="d25571e145">
 
-</th></tr></thead><tbody><tr><td>
-
-Account Team Members
+**Overview tab**
 
 </td><td>
 
-Team members of this customer. Select **View all** to see the list of all the team members.
+Select the **Overview** tab to view the touchpoints, escalations, and milestones. For more information, see [Technology Account 360 Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-overview-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25571e164">
 
-Key Customer Contacts
-
-</td><td>
-
-Important contacts of this customer. Select **View all** to see the list of all the key customer contacts.
-
-</td></tr><tr><td>
-
-Single Score Cards
+**Account health tab**
 
 </td><td>
 
--   Contracts
--   Entitlements
--   CSAT
+Select the **Account health** tab to view the health insights. For more information, see [Technology Account 360 Account health tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-account-health-tab.md).
 
-**Note:** Results are from the assessments tied to the out-of-the-box Customer Satisfaction Survey provided by the Core CSM plugin.
+</td></tr><tr><td id="d25571e183">
 
--   Escalation Cases
--   Sold Products
--   Install Base
--   Assets
--   Configuration Items
-
-
-</td></tr><tr><td>
-
-On-going Technical Support Work
+**Financials tab**
 
 </td><td>
 
--   Closed Tasks
--   Weekly New Tasks vs Closed Tasks
--   Current Month Task SLA Achievement
+Select the **Financials** tab to view the financial insights. For more information, see [Technology Account 360 Financials tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-financials-tab.md).
 
+</td></tr><tr><td id="d25571e202">
 
-</td></tr><tr><td>
-
-Changes
+**Product adoption tab**
 
 </td><td>
 
-Change requests raised by your account
+Select the **Product adoption** tab to view the product adoption insights. For more information, see [Technology Account 360 Product adoption tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-product-adoption-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25571e222">
 
-Problems
-
-</td><td>
-
-Problems related to the account
-
-</td></tr><tr><td>
-
-Incidents
+**Open work tab**
 
 </td><td>
 
-Incidents related to the account
+Select the **Open work** tab to view the work insights. For more information, see [Technology Account 360 Open work tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/technology-account-360-open-work-tab.md).
 
-</td></tr><tr><td>
+</td></tr><tr><td id="d25571e241">
 
-Incidents SLA
-
-</td><td>
-
-Incident SLAs related to the account
-
-</td></tr><tr><td>
-
-Outages
+**Contextual Side-panel**
 
 </td><td>
 
-Outages related to the account
+-   To view the recommended next-best actions, select the recommended actions \(\[Omitted image "icon-recommended-actions.png"\] Alt text: Recommended Actions Icon.\) icon.
+-   To view the customer contact details, select the customer contacts \(\[Omitted image "icon-customer-contacts.png"\] Alt text: Customer Contacts Icon.\) icon.
+-   To view the teams contact details, select the teams contact \(\[Omitted image "icon-team-contacts.png"\] Alt text: Teams Contact Icon.\) icon.
+-   To get a chronological view of case history, select the customer timeline \(\[Omitted image "icon-customer-timeline.png"\] Alt text: Customer Timeline Icon.\) icon.
 
-</td></tr><tr><td>
-
-Requests
-
-</td><td>
-
-Requests related to the account
-
-</td></tr><tr><td>
-
-Cases
-
-</td><td>
-
-Cases related to the account
-
-</td></tr><tr><td>
-
-Contextual Side-panel
-
-</td><td>
-
--   Attachments
--   Templates
--   Account Assist
-
-**Note:**
-
-You can also search for Major Incidents, Major Cases, Knowledge, Articles, or Catalog Items.
 
 </td></tr></tbody>
-</table>5.  In the Analytics page, use the dashboards to review operational data and monitor current process performance.
-
-    -   Analytics Snapshot
-    -   Core KPIs
-    -   Service Level
-    -   Proactive Service
-    For more information, see [Account 360 Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/account-360-analytics-dashboard.md).
-
-6.  In the Related Records page, the default lists provided are:
-
-    -   Users
-    -   Contacts
-    -   Account Addresses
-    -   Product Models
-    -   Vendor Catalog Items
-
-**Parent Topic:**[Reviewing customer or partner accounts in Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
+</table>
+**Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/reviewing-customer-accounts-360.md)
 

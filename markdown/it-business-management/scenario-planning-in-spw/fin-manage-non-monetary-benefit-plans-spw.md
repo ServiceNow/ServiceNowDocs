@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Manage non-monetary benefit plans for your planning items in Strategic Planning
@@ -18,6 +18,7 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 ## Before you begin
 
+-   [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
 -   [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.md)
 -   Role required: sn\_align\_ws.spw\_financial\_user
 
@@ -33,7 +34,7 @@ Create and manage monetary benefit plans to capture the potential benefits while
 
 4.  On the Benefit Plan form, fill the fields.
 
-    For a description of the field names, see [Non-monetary benefit plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/create-a-non-monetary-benefit-plan-for-a-project.md).
+    For a description of the field names, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/non-monetary-benefit-plans-form.md).
 
 5.  Select **Save**.
 

@@ -1,18 +1,18 @@
 ---
 title: Time Recording for Field Service components
-description: The plugin and roles for the Time Recording for Field Service.
+description: The plugins and roles for the Time Recording for Field Service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/components-time-recording-fsm.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Time Recording for Field Service components
 
-The plugin and roles for the Time Recording for Field Service.
+The plugins and roles for the Time Recording for Field Service.
 
 ## Plugins
 

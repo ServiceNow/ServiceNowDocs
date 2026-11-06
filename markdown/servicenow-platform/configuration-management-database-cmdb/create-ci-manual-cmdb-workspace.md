@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a CI manually in CMDB Workspace
@@ -18,12 +18,12 @@ Create a new CI in CMDB Workspace, while applying Identification and Reconciliat
 
 ## About this task
 
-Creating specialty CIs such as an application service, isn't supported in this experience. Typically, such CIs aren't discoverable and you must create them manually using specific wizards, such as the [Application service wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
+Creating specialty CIs such as an application service, isn't supported in this Create CI experience. Typically, such CIs aren't discoverable and you must create them manually using specific wizards, such as the [Application service wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-it-services.md).
 
 You can access the Create CI experience in either of the following ways:
 
 -   Selecting the **Create CI** quick link on the Home view of CMDB Workspace which lets you then select a class for the new CI.
--   Drilling down a class group bar in the CI Summary tab on the CI overview tile, in which case the class you are drilling down from becomes the class for the new CI. This option is available only if you drill down a class that isn't excluded for the Create CI experience. For information about excluding classes for the Create CI experience in CMDB Workspace, see [Limit the class list for a new CI being created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
+-   Drilling down a class group bar in the CI Summary tab on the CI overview tile, in which case the class you are drilling down from becomes the class for the new CI. This option is available only if you drill down a class that isn't excluded for the Create CI experience. For information about excluding classes for the Create CI experience in CMDB Workspace, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
 
 As you progress through the procedure, fields appear dynamically according to your selections and entries on the current or previous pages.
 
@@ -38,8 +38,8 @@ To manually create a new CI without applying IRE processes \(Core UI\), see [Pop
 
 Configure any customizations to the create CI experience before creating new CIs:
 
--   Complete any request by an administrator for additional non-mandatory attributes. For information about how an administrator can use configuration identifiers to incorporate requests for attributes into the flow of creating a new CI, see [Request additional attributes for a new CI being created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.md).
--   Complete any settings for limiting the list of classes available to choose from, for a new CI. For information about how an administrator can use configuration identifiers to create a custom list of classes for a new CI, see [Limit the class list for a new CI being created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
+-   Complete any request by an administrator for additional non-mandatory attributes. For information about how an administrator can use configuration identifiers to incorporate requests for attributes into the flow of creating a new CI, see [Request additional attributes for new CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/additional-att-create-ci-workspace.md).
+-   Complete any settings for limiting the list of classes available to choose from, for a new CI. For information about how an administrator can use configuration identifiers to create a custom list of classes for a new CI, see [Limit the class list for new CIs created in a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.md).
 
 If you want additional actions to be performed after creating a CI, such as creating a record that references the new CI, implement the ManualCreateCIExtPoint extension point:
 
@@ -68,7 +68,15 @@ Role required: cmdb\_manual\_ci\_ire\_access \(contained in the sn\_cmdb\_editor
 
     Continue to fill out the rest of the Create a new CI pages as described in the following steps.
 
-3.  **Required attributes**:
+3.  On the Home view of CMDB Workspace, select the **Create CI** quick link and then fill out all the Create a new CI pages as described in the following steps.
+
+4.  **Select class**:
+
+    Select the class for the new CI from the **Class** drop-down list. Classes without a valid identification rule are grayed out in the list and you can't select them.
+
+    Select **Continue**.
+
+5.  **Required attributes**:
 
     Configure attributes that are either mandatory for the new CI's class, or which the identification rule for the new CI's class requires. Also, if the new CI is a dependent CI, configure the dependency relationship.
 
@@ -86,13 +94,13 @@ Role required: cmdb\_manual\_ci\_ire\_access \(contained in the sn\_cmdb\_editor
 
     Select **Continue**. If the new CI is detected as a duplicate of an existing CI, then the CI already exists dialog box appears. Select **Review existing CI** and then decide whether to change the existing or the new CI to prevent the duplication and to continue creating the CI.
 
-4.  **Additional attributes**:
+6.  **Additional attributes**:
 
-    Enter values for attributes that your administrator is requesting in addition to the required attributes from previous pages.
+    Enter values for attributes, such as **Operational status**, that your administrator is requesting in addition to the required attributes from previous pages.
 
     Select **Continue**.
 
-5.  **Relationship definition**:
+7.  **Relationship definition**:
 
     Review any existing relationships and decide whether to add a relationship for the new CI. For dependent CIs, a dependent relationship was already created in an earlier step.
 
@@ -107,11 +115,11 @@ Role required: cmdb\_manual\_ci\_ire\_access \(contained in the sn\_cmdb\_editor
 
     On the Relationship definition page, select **Continue**.
 
-6.  **Review**:
+8.  **Review**:
 
     Review all the details of the new CI. Select **Create** to approve and create the new CI, or **Back** to change definitions.
 
-7.  In the New CI created dialog box, select **Done** to exit the operation, **Review new CI** to open the form view for the new CI, or **Create another CI**.
+9.  In the New CI created dialog box, select **Done** to exit the operation, **Review new CI** to open the form view for the new CI, or **Create another CI**.
 
 
 ## Result
@@ -125,7 +133,7 @@ In the new CI, **Discovery source** is set to **Manual via IRE**.
 
 ## What to do next
 
-You can view the new CI or other CIs, in the CI Form in CMDB Workspace. For more information about using the CI Form, see [Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
+You can view the new CI or other CIs, using CI Form in CMDB Workspace. For more information about using the CI Form, see [Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md).
 
 **Parent Topic:**[CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md)
 

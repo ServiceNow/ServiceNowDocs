@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/config-offline-data-item.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Supported screens, Align apps, screens, and functions, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Configure data items in offline mode
@@ -16,11 +16,17 @@ Define a separate data item for offline mode, giving you the flexibility to defi
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## About this task
 
-Use the Mobile Offline properties area to specify the type and amount of information to display to a user when they are in offline mode. For example, you can display a month’s worth of tasks in online mode and only three days’ worth in offline mode. In both online and offline modes, the data item type is always the same and the information is extracted from the same table. For more information, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-data-item.md).
+Configure a dedicated offline data item for every screen you want to be available offline. Each offline data item defines which tables, fields, and filters are stored on the user’s device. Data Items for offline define which records are downloaded and stored on the device for offline use.
+
+Use data items to confirm the offline cache reflects only what users need, such as their open tasks, assigned incidents, or work orders. Every data item replaces the online data item when building the cache, defining which specific data criteria is stored on the device. Data Items control which records are downloaded, refreshed, and displayed offline. Well-defined filters result in faster sync times and a smaller cache.
+
+**Note:** Offline mode for data configuration is intended to support brief periods without connectivity; the cache isn’t designed for long-term data retention.
+
+Use the Mobile Ofﬂine properties area to specify the type and amount of information to display to a user when they are in ofﬂine mode. For example, you can display a month’s worth of tasks in online mode and only three days’ worth in ofﬂine mode. In both online and ofﬂine modes, the data item type is always the same, and the information is extracted from the same table. For more information, see [Data items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-data-item.md).
 
 **Note:** If a data item is not created for offline mode, then the standard data item is used for both offline and online modes.
 
@@ -44,8 +50,13 @@ Use the Mobile Offline properties area to specify the type and amount of informa
 
     **Note:** **Declarative** and **Scripts** are supported conditional types.
 
+    Scripted data item conditions are evaluated only when the offline cache is generated. Once the data is downloaded and the user is offline, the script no longer runs. Instead, the app uses the pre-generated query string to filter the data as it was prepared at download time. For more information, see [Mobile experience components available in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/offline-capabilities.md).
+
 6.  Select **Save**.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-offline-mode.md)
+-   **[General guidelines for working with data items in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/offline-data-items-general-guidelines.md)**  
+When working with data items keep these general guidelines in mind for usability and a good user experience.
+
+**Parent Topic:**[Supported screens for offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/screens-offline.md)
 

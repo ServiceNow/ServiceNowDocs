@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure the Talent Development Core app, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Installing and configuring the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Install the Talent Development Core application
@@ -52,5 +52,5 @@ When an administrator installs the Talent Development Core app from the ServiceN
 5.  Select **Install**.
 
 
-**Parent Topic:**[Install and configure the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-install-config.md)
+**Parent Topic:**[Installing and configuring the Talent Development Core app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-install-config.md)
 

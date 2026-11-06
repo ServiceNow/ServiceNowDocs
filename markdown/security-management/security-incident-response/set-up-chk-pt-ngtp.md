@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Check Point NGTP setup, Check Point Next Generation Threat Prevention integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -50,7 +50,7 @@ Role required: admin
 
 2.  If not already configured, Custom Intelligence Feeds should be added after activating Anti-Bot and Anti-Virus Blades.
 
-    Refer to the Installation section of Check Point Custom Intelligence Feed Feature documentation.[https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit\_doGoviewsolutiondetails=&amp;solutionid=sk132193](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk132193)
+    Refer to the Installation section of Check Point Custom Intelligence Feed Feature documentation. [https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit\_doGoviewsolutiondetails=&amp;solutionid=sk132193](https://supportcenter.checkpoint.com/supportcenter/portal?eventSubmit_doGoviewsolutiondetails=&solutionid=sk132193)
 
 3.  If not already configured, set up the Check Point Gateway to route all the internet traffic via HTTP Proxy \(if configuring HTTPS Inspection\).
 

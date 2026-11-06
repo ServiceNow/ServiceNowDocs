@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: task
-last_updated: "2025-07-23"
-reading_time_minutes: 10
-breadcrumb: [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Manage, Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create bulk reservations in Workplace
@@ -158,15 +158,4 @@ Role required: sn\_wsd\_core.workplace\_user
 
     7.  Select **Show on map** to open the location directory page and reserve a space using a floor map.
 
-
-**Parent Topic:**[Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md)
-
-**Related topics**  
-
-
-[Manage your in-office presence preferences]()
-
-[Create a reservation for a day in Workplace]()
-
-[Review and edit your reservations in Workplace]()
 

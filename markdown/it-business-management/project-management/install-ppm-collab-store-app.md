@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [PPM Collaboration, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Collaborate with your project teams using PPM Collaboration application, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install PPM Collaboration
@@ -24,10 +24,10 @@ Install the PPM Collaboration \(sn\_ppm\_collab\) application from ServiceNow St
 
     |Setup tasks|Description|
     |-----------|-----------|
-    |Verify that the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin is activated.|Navigate to **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
-    |Verify that the Slack spoke v2 \(sn\_slack\_ah\_v2\) plugin is activated, for collaboration with Slack.|Navigate to **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
-    |Verify that the Microsoft Teams Graph spoke \(sn\_msteams\_ahv2\) plugin is activated, for collaboration with Microsoft Teams.|Navigate to **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
-    |Verify that the Microsoft Azure AD spoke \(com.sn.azure\_ad.spoke\) plugin is activated, for collaboration with Microsoft Teams.|Navigate to **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
+    |Verify that the PPM Standard \(com.snc.financial\_planning\_pmo\) plugin is activated.|Navigate to **All** &gt; **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
+    |Verify that the Slack spoke v2 \(sn\_slack\_ah\_v2\) plugin is activated, for collaboration with Slack.|Navigate to **All** &gt; **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
+    |Verify that the Microsoft Teams Graph spoke \(sn\_msteams\_ahv2\) plugin is activated, for collaboration with Microsoft Teams.|Navigate to **All** &gt; **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
+    |Verify that the Microsoft Azure AD spoke \(com.sn.azure\_ad.spoke\) plugin is activated, for collaboration with Microsoft Teams.|Navigate to **All** &gt; **Subscription Management** &gt; **Subscriptions** in your instance. The list displays the subscriptions that your organization has purchased.|
 
     **Note:** Activation of the PPM Standard, Microsoft Teams, and Slack spoke plugins on production instances may require separate licenses. Contact ServiceNow Customer Support for details.
 
@@ -41,17 +41,17 @@ Role required: admin
 
 2.  In the ServiceNow Store, search for PPM Collaboration.
 
-3.  Click the application tile.
+3.  Select the application tile.
 
     You can view detailed information about the application. Consider reading the Other Requirements and Dependencies sections, as applicable.
 
-4.  Click **Get** and enter your Now Support login credentials.
+4.  Select **Get** and enter your Now Support login credentials.
 
-5.  Click **Request Install**.
+5.  Select **Request Install**.
 
-6.  In the **Instance Name** field, enter your details and click **Validate Instance**.
+6.  In the **Instance Name** field, enter your details and select **Validate Instance**.
 
-7.  In the **Reason for the Instance** field, enter your details and click **Request**.
+7.  In the **Reason for the Instance** field, enter your details and select **Request**.
 
     You receive an email with detailed installation instructions.
 
@@ -59,7 +59,7 @@ Role required: admin
 
 9.  Select **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-10. Locate the application using the filter criteria and search bar, select it, and click **Install**.
+10. Locate the application using the filter criteria and search bar, select it, and select **Install**.
 
 
 ## Result

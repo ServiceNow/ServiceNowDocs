@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Value formatting in reports
@@ -17,6 +17,8 @@ breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Pe
 In most reports, you can configure how numerical values look when you publish the report.
 
 ## Supported value formats
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 A limited number of visualization types support value formatting.
 
@@ -118,7 +120,7 @@ Summary of rounding options:
 |-2.5|-3|-2|-2|-3|-3|-2|-2|
 |-5.5|-6|-5|-5|-6|-6|-5|-6|
 
-**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Configure formatted values in reports
 
@@ -126,17 +128,17 @@ In existing reports, you can configure formatted values on the **Configure** tab
 
 ### Before you begin
 
-Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **View / Run**.
+1.  Navigate to `sys_report.list`.
 
 2.  Select the report with the values you want to format.
 
 3.  Select the **Configure** tab.
 
-4.  Click Set Value Formatting.
+4.  Select **Set Value Formatting**.
 
 5.  In the Value Formatting window, configure duration, decimal precision, rounding options, unit separators, and abbreviations.
 

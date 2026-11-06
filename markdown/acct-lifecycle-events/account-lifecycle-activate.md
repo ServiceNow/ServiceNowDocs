@@ -1,18 +1,18 @@
 ---
-title: Activate Account Lifecycle Events
-description: The Account Lifecycle Events \(com.sn\_acct\_lc\) plugin is available as a separate subscription. This plugin activates related plugins, if they aren’t already active.
+title: Activate Customer Success Management
+description: The Customer Success Management \(com.sn\_acct\_lc\) plugin is available as a separate subscription. Activating this plugin also activates the related plugins required to use the application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-activate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Account Lifecycle Events, Account Lifecycle Events]
+breadcrumb: [Getting started, Configure, Customer Success Management]
 ---
 
-# Activate Account Lifecycle Events
+# Activate Customer Success Management
 
-The Account Lifecycle Events \(com.sn\_acct\_lc\) plugin is available as a separate subscription. This plugin activates related plugins, if they aren’t already active.
+The Customer Success Management \(com.sn\_acct\_lc\) plugin is available as a separate subscription. Activating this plugin also activates the related plugins required to use the application.
 
 ## Before you begin
 
@@ -20,26 +20,11 @@ Role required: sn\_customerservice.customer\_admin
 
 ## About this task
 
-The Account Lifecycle Events plugin activates these related plugins, if they aren’t already active.
-
-|Plugin|Description|
-|------|-----------|
-|Customer Service Install Base Management \[com.snc.install\_base\]|Enables customers to capture the current state of their install base and establish the relationship to any downstream entities that might impact their functioning.|
-|Playbook Experience \[com.playbook\_experience\]|Enables you to customize the default Playbook user experience to create your desired business process workflow.|
-|Record Related Items Connected \[com.snc.sn\_record\_related\_items\_connected\]|Enables record related items.|
-|Playbooks for Customer Service Management \[com.sn\_csm\_playbook\]|Guides customer service agents through the various tasks to resolve customer issues, and visualizes the entire lifecycle ​across diverse and siloed processes​.|
-|Technology core \[com.sn\_ti\_core\]|Technology industry vertical Customer Service Management extensions.|
-|Guided Decisions Experience \[com.snc.guided\_decisions\_playbook\_experience\]|Enables activity types, definitions, and UI components for the display of guided decisions in a playbook on Workspace.|
-|Customer Service Case Types \[com.snc.csm\_case\_types\]|Activating this plugin enables the system administrator to create and manage case types.|
-|Record lookup \[com.snc.sn\_record\_lookup\]|Record lookup component used to easily search and link a record from a table.|
-|Data Context Engine \[com.sn\_data\_ctx\_engine\]|Allows for the creation and measuring of metrics and resolving them to specific context \(such as success engagements\) within the platform.|
-|Touchpoint meetings \[com.sn\_meeting\_mgmt\]|Enables creation and management of one-time or recurring meetings with customers within the Touchpoint record.|
-|Document management \[com.snc.platform\_document\_management\]|Allows customer success managers to store complex documents that can be saved as attachments or in the Knowledge Base.|
-|Roadmap \[sn\_roadmap\]|Allows customer success manager to see and plan the roadmap of success initiatives tied to success objectives and outcomes.|
+If the related plugins aren’t already active, the Customer Success Management plugin activates them. For more information, see [Plugins activated with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-required-plugins.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
+1.  Navigate to **All** &gt; **Application Manager**.
 
 2.  Find the plugin using the filter criteria and search bar.
 
@@ -55,4 +40,13 @@ The Account Lifecycle Events plugin activates these related plugins, if they are
 
     .
 
+
+## What to do next
+
+After activating the application, complete the following steps:
+
+-   To enable account onboarding, configure the onboarding playbook. See [Configure the account onboarding playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-configure.md).
+-   To enable customer success, create the choice and definition records. See [Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-basic-config.md).
+
+**Parent Topic:**[Getting started with Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-get-started.md)
 

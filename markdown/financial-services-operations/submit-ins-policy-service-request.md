@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/submit-ins-policy-service-request.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Personal Lines Servicing, Personal Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Personal Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Submit a policy service request
@@ -34,19 +34,19 @@ Customers can submit policy service requests from the Consumer Service Portal or
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a policy service request from the customer record or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d28040e123">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d29321e127">
 
 Option
 
-</th><th align="left" id="d28040e126">
+</th><th align="left" id="d29321e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d28040e132">
+</th></tr></thead><tbody><tr><td id="d29321e136">
 
 **Policy service request from a customer record**
 
@@ -56,7 +56,7 @@ Steps
 2.  Click the customer record that you want to open.
 
 
-</td></tr><tr><td id="d28040e159">
+</td></tr><tr><td id="d29321e163">
 
 **Policy service request from an interaction record**
 
@@ -67,19 +67,17 @@ Steps
  For information on how to create an interaction, see [Create an interaction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-interactions.md).
 
 </td></tr></tbody>
-</table>4.  Click **Create Policy Request**.
+</table>4.  Select **Create case**.
 
-5.  From the Catalogs list, select **Financial Services**.
+5.  In the Create new case window, select the service category.
 
-6.  Under **Categories**, click **Insurance Policy Service**.
+6.  In the Services section, select a policy claim service for which you want to submit a request, then select **Create case**.
 
-7.  Click a policy service that you want to submit a request for.
-
-8.  Fill in any necessary information that is related to the request.
+7.  Fill in any necessary information that is related to the request.
 
     **Note:** Each policy service request form has a different set of fields that are based on the policy service.
 
-9.  Click **Submit**.
+8.  Click **Submit**.
 
 
 ## Result
@@ -90,4 +88,6 @@ Based on the request type, a policy service case is created in the New state. Th
 
 -   Click **View Details** to open the policy service case and view its details. You can also add additional information in the **Comments** field that can help the policy processor in resolving the case.
 -   A policy processor can start working on the case and its tasks.
+
+**Parent Topic:**[Using Personal Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/using-financial-services-insurance-policy-operations.md)
 

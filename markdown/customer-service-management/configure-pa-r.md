@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-pa-r.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Configure Customer Service Platform Analytics Solutions

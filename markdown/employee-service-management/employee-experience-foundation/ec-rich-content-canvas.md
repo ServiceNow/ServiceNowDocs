@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add columns with the Rich Content Editor
@@ -45,6 +45,8 @@ You can add 1, 2, or 3 columns. Each column acts as a container for other compon
 
 6.  Use any of the following styling settings:
 
+    **Note:** Content Managers and Admins have the option to apply background colors to selected canvas elements, including images. Available features include the use of solid and gradient colors, as well as adjustments for color opacity. These settings can be accessed in the right-hand panel under the Settings Styling tab when adding rich content to a canvas element.
+
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
 Settings field
@@ -64,6 +66,8 @@ Background Color
 </td><td>
 
 Use the color picker \(grey square\) to select a color or enter the color code that represents the background color you want to appear.All HTML colors are supported. For more information, see [HTML color names](https://htmlcolorcodes.com/color-picker/).
+
+**Note:** Background color to canvas element shows the background options for gradient, color and image. Toggle on and then select background options.
 
 </td></tr><tr><td colspan="2">
 

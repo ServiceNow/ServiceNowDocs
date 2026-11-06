@@ -7,9 +7,9 @@ release: yokohama
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Update set use, System update sets, Deploying applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with update sets, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Create and select an update set as the current set
@@ -18,23 +18,13 @@ Create an update set to store customization changes and select it as the current
 
 ## Before you begin
 
-Role required: admin.
-
-## About this task
-
-You can select an update set as the current set when you create it, or you can select it later from the Settings panel.
+Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Update Sets** &gt; **Local Update Sets** and click **New**.
+1.  Navigate to **All** &gt; **System Update Sets** &gt; **Local Update Sets** and select **New**.
 
-2.  Complete the form from the fields in the table.
-
-3.  Click **Submit** to create the update set.
-
-4.  If the picker is enabled and the update set is in the In progress state, click **Submit and Make Current** to select the new update set as the target for configuration changes.
-
-    \[Omitted image "UpdateSetNew.png"\] Alt text: New update set
+2.  Fill in the form.
 
 <table id="table_nln_kgn_vp"><thead><tr><th>
 
@@ -50,7 +40,7 @@ Name
 
 </td><td>
 
-Enter a unique name for the update set. You can use naming conventions to organize update sets. For example, add the problem number to the name of the update that fixes it, identify the application scope, or use sequence numbers to keep track of the order in which update sets need to be committed.
+Enter a unique name for the update set. You can use naming conventions to organize update sets.
 
 </td></tr><tr><td>
 
@@ -58,13 +48,10 @@ State
 
 </td><td>
 
-Select **In progress** for a new update set. Selecting an In progress update set tracks customizations in the update set. The [update set picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/select-update-set-system-settings.md) only displays In progress update sets.Select **Completed** only when you are certain that the update set is complete. After it is marked Completed, do not set it back to In progress. Instead, create a new update set with further customizations, and make sure to commit the update sets in the order that they were marked Completed. Use Completed update sets to transfer changes from one instance to another.
+-   In progress: The update set tracks customizations and displays in progress update sets in the picker.
+-   Completed: The update set is complete. Use completed update sets to transfer changes from one instance to another.
+-   Ignore: The work on an update set is stopped, but you don’t want it to be transferred to another instance. Set completed update sets on the production instance to ignore to help prevent additional commits when cloning the instance.
 
- Select **Ignore** when you are no longer working on an update set but do not want it to be transferred to another instance. You should always set Completed update sets on the production instance to Ignore. This state ensures the update set is not committed again when cloning the instance.
-
- Update set picker only displays In progress update sets. See [Select the current update set in Unified Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/select-update-set-system-settings.md).Select **Completed** only when you are certain that the update set is complete. After it is marked Completed, do not set it back to In progress. Instead, create a new update set with further customizations, and make sure to commit the update sets in the order that they were marked Completed. Use Completed update sets to transfer changes from one instance to another.
-
- Select **Ignore** when you are no longer working on an update set but do not want it to be transferred to another instance. You should always set Completed update sets on the production instance to Ignore. This state ensures the update set is not committed again when cloning the instance.
 
 </td></tr><tr><td>
 
@@ -91,4 +78,8 @@ Description
 Enter a description of the update set.
 
 </td></tr></tbody>
-</table>
+</table>3.  Select **Submit** to create the update set or select **Submit and Make Current**.
+
+
+**Parent Topic:**[Working with update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/using-system-update-sets.md)
+

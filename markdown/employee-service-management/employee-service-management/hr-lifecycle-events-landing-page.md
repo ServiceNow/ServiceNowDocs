@@ -4,7 +4,7 @@ description: Lifecycle Events enable the fulfillment of HR cases that are relate
 locale: en-US
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -20,11 +20,11 @@ The Lifecycle Events app helps to facilitate daily activities among various cros
 
 </td><td>
 
-[Configure enterprise lifecycle events \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Enable the automation of onboarding and other employee lifecycle events that span across company departments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/activate-hr-lifecycle-events-for-enterprise.md)
+[Configure enterprise lifecycle events \[Omitted image "bus-application-development.svg"\] Alt text: Configure Enable the automation of onboarding and other employee lifecycle events that span across company departments.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/activate-hr-lifecycle-events-for-enterprise.md)
 
 </td><td>
 
-[Configure lifecycle events \[Omitted image "bus-optimize-manage.svg"\] Alt text: Configure Enable and configure digital workflows to manage employee lifecycle events through a single service delivery platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
+[Configure lifecycle events \[Omitted image "bus-sdlc.svg"\] Alt text: Configure Enable and configure digital workflows to manage employee lifecycle events through a single service delivery platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/activate-enterprise-onboarding-and-transitions-scoped.md)
 
 </td></tr><tr><td>
 
@@ -32,11 +32,18 @@ The Lifecycle Events app helps to facilitate daily activities among various cros
 
 </td><td>
 
-[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-1.svg"\] Alt text: Analytics and Reporting Solutions Lifecycle Events dashboards provide visibility into lifecycle events.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/LifecycleEventsDashboard.md)
+[Analytics and Reporting Solutions \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Analytics and Reporting Solutions Lifecycle Events dashboards provide visibility into lifecycle events.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/LifecycleEventsDashboard.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

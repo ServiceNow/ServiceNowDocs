@@ -1,20 +1,20 @@
 ---
 title: Configuring Digital Portfolio Management
-description: Enable the Digital Portfolio Management \(DPM\) Workspace and configure the settings for your organization. Set it up to show data so you can monitor services, service offerings, business applications, and application services. All configuration tasks require the DPM admin role \[sn\_dpm.dpm\_admin\].
+description: Enable the Digital Portfolio Management \(DPM\) Workspace and configure the settings for your organization. Set it up to show data so you can monitor services, service offerings, business applications, and service instances. All configuration tasks require the DPM admin role \[sn\_dpm.dpm\_admin\].
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-configure-cfw.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Digital Portfolio Management, IT Service Management]
 ---
 
 # Configuring Digital Portfolio Management
 
-Enable the Digital Portfolio Management \(DPM\) Workspace and configure the settings for your organization. Set it up to show data so you can monitor services, service offerings, business applications, and application services. All configuration tasks require the DPM admin role \[sn\_dpm.dpm\_admin\].
+Enable the Digital Portfolio Management \(DPM\) Workspace and configure the settings for your organization. Set it up to show data so you can monitor services, service offerings, business applications, and service instances. All configuration tasks require the DPM admin role \[sn\_dpm.dpm\_admin\].
 
 ## Using guided setup to implement Digital Portfolio Management \(DPM\)
 
@@ -36,7 +36,7 @@ Configuring the DPM Workspace involves setting up environments, tools, and user 
 
     Use the DPM Admin Center for a guided walk-through to do the following configuration tasks.
 
-    1.  Identify the solutions that are ready to configure for the organization. Solutions could be services, service offerings, business applications, and application services.
+    1.  Identify the solutions that are ready to configure for the organization. Solutions could be services, service offerings, business applications, and service instances.
     2.  Identify the service portfolios or the enterprise portfolios that are ready to configure for the organization.
     3.  Assess planning items for the plan portion of the solution life cycle. If your organization doesn’t use the planning portion of the life cycle, then follow the prompts to remove the plan view for the organization.
     4.  Assess build metrics to show a solution's performance in the build portion of the solution life cycle.
@@ -56,7 +56,7 @@ The Admin Center in Digital Portfolio Management \(DPM\) provides administrators
 -   **[Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-csdm.md)**  
 Service data relates to each other using different applications and in different ways. Digital Portfolio Management \(DPM\) references the Common Service Data Model \(CSDM\) framework to bring service-related data together in a single view.
 -   **[Integrate Digital Portfolio Management with other ServiceNow applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-integrations.md)**  
-Bring in data from other ServiceNow applications to see a comprehensive view of your solutions in the Digital Portfolio Management \(DPM\) Workspace. You can see data for services and service offerings, for business applications, and for application services.
+Bring in data from other ServiceNow applications to see a comprehensive view of your solutions in the Digital Portfolio Management \(DPM\) Workspace. You can see data for services and service offerings, for business applications, and for service instances.
 -   **[Configure KPI groups in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-kpi-groups.md)**  
 Configure key performance indicator \(KPI\) groups in Digital Portfolio Management \(DPM\) to surface performance information in the context of your organization's solutions.
 -   **[Configure Needs attention panels in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-needs-attention.md)**  

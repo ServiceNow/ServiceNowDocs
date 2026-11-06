@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-06-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -50,6 +50,14 @@ Visitor registration record that contains information about the visit, visitor, 
 
 </td></tr><tr><td>
 
+Invitation
+
+</td><td>
+
+Invitation record linked to the visit.
+
+</td></tr><tr><td>
+
 Location policy
 
 </td><td>
@@ -74,10 +82,12 @@ State of the policy confirmation.This field is automatically updated based on wh
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Manage visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
+**Parent Topic:**[Managing visitor registrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/manage-visitor-registrations.md)
 
 **Related topics**  
 
+
+[Use the receptionist portal]()
 
 [Update a visitor registration]()
 

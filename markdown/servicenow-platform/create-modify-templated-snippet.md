@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/create-modify-templated-snippet.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -95,14 +95,6 @@ Group visibility
 Indicates what groups have access to the response template.Adding groups filters who can view the response template.
 
  **Note:** Leaving this field empty makes the response template available to all groups.
-
-</td></tr><tr><td>
-
-Language
-
-</td><td>
-
-Language in which you want the response template to be translated. **Note:** Translation feature is available only when the required language plugins are installed on the instance.
 
 </td></tr><tr><td>
 

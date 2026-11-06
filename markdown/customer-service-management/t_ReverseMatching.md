@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_ReverseMatching.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Routing and assigning customer service cases, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case routing and assignment, Route and assign cases, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Reverse matching
@@ -39,9 +39,4 @@ The same matching rule can be used for both forward and reverse matching.
     MatchingRuleProcessor.processAndGetCandidates(resource, taskLimit, "sn_customerservice_case", "reverse", false, [<array of cases to consider>])
     ```
 
-
--   **[Limit the number of task sys\_ids returned for reverse matching rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/reverse-match-limit.md)**  
-Reverse matching rules return a list of case sys\_ids. Limit the number of cases returned by configuring the number in the reverse.matchingrule.entity.limit system property.
-
-**Parent Topic:**[Routing and assigning customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CaseRouting.md)
 

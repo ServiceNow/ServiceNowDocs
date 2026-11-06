@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-keyboard-shortcuts.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Working in the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Use, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience keyboard shortcuts
@@ -18,7 +18,7 @@ The keyboard shortcuts that display in the modal are specific to the screen you�
 
 To enable keyboard shortcuts for your instance, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-accessibility-preferences.md).
 
-To customize the Next Experience keyboard shortcuts for your instance, see [Customize the Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/customize-keyboard-shortcuts.md).
+To customize the Next Experience keyboard shortcuts for your instance, see [Customize Next Experience keyboard shortcuts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/customize-keyboard-shortcuts.md).
 
 Learn more about Next Experience keyboard shortcuts from the following tutorial:
 
@@ -146,7 +146,7 @@ Command+Shift+k
 
 </td></tr><tr><td>
 
-Now Assist menu \(text entry mode\)
+ServiceNow Otto® menu \(text entry mode\)
 
 </td><td>
 
@@ -158,7 +158,7 @@ Option+Shift+a
 
 </td></tr><tr><td>
 
-Now Assist menu \(voice input mode\)**Note:** Availability of voice input mode in the Now Assist menu is controlled by a user preference. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-accessibility-preferences.md).
+ServiceNow Otto® menu \(voice input mode\)**Note:** Availability of voice input mode in the ServiceNow Otto® menu is controlled by a user preference. For more information, see [Configure Next Experience accessibility preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/next-experience-accessibility-preferences.md).
 
 </td><td>
 

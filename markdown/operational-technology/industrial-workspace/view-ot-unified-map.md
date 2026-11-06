@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Industrial Workspace, Operational Technology]
 ---
@@ -40,8 +40,6 @@ You can access the OT Unified Map in the following locations in the Industrial W
 
     3.  Select the **View OT Unified Map** button.
 
-        \[Omitted image "view-ot-unified-map-button.png"\] Alt text: View OT Unified Map button in an equipment model entity record
-
 3.  To access the OT Unified Map in a related record, such as an OT incident record, or change record, complete the following actions.
 
     1.  Open the Industrial Workspace list view by selecting the List \(\[Omitted image "icon-list.png"\] Alt text: List icon in the Industrial Workspace\) icon.
@@ -65,10 +63,6 @@ You can now view the OT Unified Map. On the Unified Map, you can also see the hi
 -   Active OT Incidents
 -   Active OT Alerts
 -   OT Vulnerable Items
-
-The following image shows an example of an OT Unified Map.
-
-\[Omitted image "ot-unified-map-view.png"\] Alt text: OT Unified Map in the Industrial Workspace
 
 **Parent Topic:**[Using the Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/using-industrial-workspace.md)
 

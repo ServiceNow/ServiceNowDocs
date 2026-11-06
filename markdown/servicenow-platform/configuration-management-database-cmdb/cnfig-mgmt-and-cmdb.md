@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Overview of CMDB
@@ -53,13 +53,13 @@ Use the [CI Class Manager](https://raw.githubusercontent.com/ServiceNow/ServiceN
 
 ## Architecture
 
-\[Omitted image "CMDBArchitecture.png"\] Alt text: Components and data flow of the CMDB.
+\[Omitted image "CMDBArchitecture\_NewBrand.png"\] Alt text: Components and data flow of the CMDB
 
 ## Related tables
 
 There are tables that are not part of the CMDB hierarchy but which still qualify as CMDB data. Related tables, such as the Serial Number \[cmdb\_serial\_number\] table, don't inherent from the Configuration Item \[cmdb\_ci\] table, but have at least one column that references a CMDB CI. Related tables are specified in the Related Entries \[cmdb\_related\_entry\] table.
 
-Some scenarios that involve related tables, can result in orphan or otherwise stale records in related tables. A CI in a related table can, for example, become orphan if the referenced CI in the CMDB is deleted. You can use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to create a policy of the 'Delete CMDB Related Entry' policy type, that will cascade-delete that un-needed related items data. For more information about creating that CMDB Data Manager policy, see [Create a CMDB Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
+Some scenarios that involve related tables, can result in orphan or otherwise stale records in related tables. A CI in a related table can, for example, become orphan if the referenced CI in the CMDB is deleted. You can use the [CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md) to create a policy of the 'Delete CMDB Related Entry' policy type, that will cascade-delete that un-needed related items data. For more information about creating that CMDB Data Manager policy, see [Create a CMDB Data Manager policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-manager-create-policy-wrkspc.md).
 
 ## Localization
 
@@ -67,7 +67,7 @@ Using the Translated Text field type \(instead of string\) for attributes in CMD
 
 ## Roles required
 
-Reading CMDB tables directly requires the cmdb\_read role, however accessing the **Configuration** module requires the asset, itil, or itil\_admin roles. For viewing CMDB-related records in the user interface, the itil role is usually sufficient. For updating records and for other manipulation of records, roles with higher credentials are usually required, as noted in each procedure throughout the documentation set.
+Reading CMDB tables directly requires the cmdb\_read role, however accessing the **Configuration** module requires the sn\_cmdb\_editor, sn\_cmdb\_admin, asset, itil, or itil\_admin roles. For viewing CMDB-related records in the user interface, the sn\_cmdb\_editor or itil roles are usually sufficient. For updating records and for other manipulation of records, roles with higher credentials are usually required, as noted in each procedure throughout the documentation set.
 
 For details about CMDB and other roles, see [Base system roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_BaseSystemRoles.md), or see a feature components topic such as [Components installed with CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/installed-with-cmdb-workspace.md).
 

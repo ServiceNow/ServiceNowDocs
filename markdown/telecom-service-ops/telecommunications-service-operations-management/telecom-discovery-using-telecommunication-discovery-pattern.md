@@ -1,0 +1,109 @@
+---
+title: Direct Discovery using Discovery Patterns
+description: The Telecommunications Discovery Patterns plugin \(also known as TSOM Patterns\) extends ServiceNow AI Platform Telecom Discovery. It supports direct discovery of standalone network elements—such as routers and switches—without relying on traditional network management systems. These patterns enable Communication Service Providers \(CSPs\) to identify and map multivendor xNFs using protocols like SNMP and CLI.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecom-discovery-using-telecommunication-discovery-pattern.html
+release: yokohama
+product: Telecommunications Service Operations Management
+classification: telecommunications-service-operations-management
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Telecom Discovery, Telecom Visibility, Explore, Telecommunications Service Operations Management]
+---
+
+# Direct Discovery using Discovery Patterns
+
+The Telecommunications Discovery Patterns plugin \(also known as TSOM Patterns\) extends ServiceNow AI Platform Telecom Discovery. It supports direct discovery of standalone network elements—such as routers and switches—without relying on traditional network management systems. These patterns enable Communication Service Providers \(CSPs\) to identify and map multivendor xNFs using protocols like SNMP and CLI.
+
+Telecommunications Discovery Patterns provide a powerful, pattern-based approach to discover and manage telecom network resources directly from network elements. These patterns are especially valuable for discovering standalone xNFs \(such as routers and switches\) that aren't managed through traditional EMS/NMS systems.
+
+This capability enhances visibility across telecom infrastructures and facilitates both vendor-neutral and vendor-specific device data is captured and reflected in the CMDB and Telecom Network Inventory \(TNI\), following the TNI data model.
+
+**Note:** Telecommunications Discovery Patterns are part of the TSOM Visibility subscription and are available as a customer-visible plugin from the ServiceNow Store.
+
+## Key capabilities
+
+-   Direct Network Element Discovery
+    -   Use SNMP and CLI to communicate directly with physical network elements.
+    -   Discover physical network inventory such as interface cards, slots, ports, and devices without relying on EMS/NMS mediation.
+-   Automated CI Mapping and CMDB Integration
+    -   Discovered data is automatically mapped to telecom-aligned configuration item \(CI\) classes.
+    -   Integrates directly with the Identification and Reconciliation Engine \(IRE\) to promote accurate, non-duplicate CI records in the CMDB and Telecom Network Inventory \(TNI\).
+-   CMDB Accuracy and Compliance
+    -   Patterns trigger CMDB Compliance Certification Audits to detect mismatches or outdated records.
+    -   Supports discrepancy identification and remediation, helping maintain data integrity.
+-   Low-Code Pattern Customization: Extend or customize discovery patterns using low-code pattern designers to meet your specific network architecture and business needs.
+
+## How it works
+
+Telecommunications Discovery Patterns are executed through Horizontal Discovery using the Nebula Discovery Language \(NDL\). A pattern is a sequence of steps that:
+
+1.  Establishes a connection to a target device.
+2.  Executes commands using SNMP, CLI, or both.
+3.  Extracts CI attributes and relationships.
+4.  Sends results to IRE for reconciliation and insertion into the CMDB and TNI.
+
+The discovery logic follows the TNI data model, which restructures complex CI relationships \(e.g., card-on-card scenarios\) to align with telecom modeling best practices. For example, If a child card is discovered inside a parent card, Telecom Discovery synthesizes a subslot to insert the child, avoiding an invalid card-on-card configuration.
+
+For every discovered network interface, both logical \(such as VLANs\) and physical \(such as Gigabit Ethernet ports\), Telecom Discovery sets the Equipment reference field to the parent equipment. This applies even when the underlying port resides on a card or on a card within a card. The interface's relationship to that card is captured separately in the CI relationship hierarchy. The Equipment reference field consistently resolves to the parent equipment. This alignment follows the TNI data model.
+
+## Discovery payload cleanup before reconciliation
+
+Before sending discovered data to the Identification and Reconciliation Engine \(IRE\), Telecom Discovery Patterns clean up two common data issues:
+
+-   **Duplicate interface cards.** If two interface cards report the same serial number, Telecom Discovery keeps only the card with more discovered sub-components \(such as ports or subslots\). It removes the other card, along with anything discovered underneath it. If both cards have the same number of sub-components, the pattern keeps whichever card it discovered first.
+-   **Missing containment relationships.** If a discovered network interface, slot, or subslot isn't already linked to its parent router or switch, Telecom Discovery automatically adds that containment relationship. This happens before the data reaches IRE.
+
+Both of these actions are recorded in the discovery log, so you can confirm whether a device's structure was adjusted during discovery.
+
+## Default life cycle values for discovered CIs
+
+When Telecom Discovery Patterns create or update a CI, they set default life cycle values. The **Life cycle stage** is set to **Operational** and the **Life cycle stage status** is set to **In Use**. Your instance customizations can return different values. Discovery doesn't overwrite either field if it's already set.
+
+If you use life cycle fields to distinguish newly discovered, not-yet-provisioned equipment from equipment already in production, confirm this default matches your operational process before relying on it.
+
+## Architecture using Horizontal Discovery and Telecommunications Discovery Patterns
+
+The following infographic is an example of the implementation for standalone SNMP or/and CLI xNFs.\[Omitted image "telecom-patterns-discovery-and-reconciliation-architecture-landing.svg"\] Alt text: Architecture diagram of data flow from network devices through discovery components into CMDB and TNI. See the surrounding text for a full description.
+
+## Horizontal Discovery Application
+
+The Horizontal Discovery application in ServiceNow is a versatile and highly scalable discovery engine. It operates effectively across network, IT, and cloud environments, collecting data across multiple layers to provide a holistic view of the infrastructure.
+
+For more information, see [Horizontal discovery process flow with patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/disco-process-flow-patterns.md).
+
+## Supported discovery patterns
+
+A pattern is a sequence of commands to detect attributes of a configuration item \(CI\) and its outbound connections. Telecom Discovery provides a set of preconfigured Patterns that cover a wide range of network elements. ServiceNow offers several predefined TSOM patterns, including:
+
+-   Telecom Router Pattern – Generic SNMP-based router discovery.
+-   Telecom Cisco 7613 Router Pattern – For Cisco 7613 routers using SNMP.
+-   Telecom Juniper MX SSH Router Pattern – SNMP + CLI discovery of Juniper MX routers.
+-   Telecom Cisco Switch Pattern – SNMP-based Cisco switch discovery.
+-   Telecom Switch Pattern – SNMP-based generic switch discovery.
+
+## TNI entity creation
+
+If your instance has the **Telecom Network Inventory \(TNI\)** plugin installed:
+
+-   Every discovered CI automatically results in a TNI entity record.
+-   The IRE payload includes mapping to both `cmdb_ci` and `tni_entity` tables.
+
+This promotes seamless alignment between operational and inventory systems, which is essential for order fulfillment, assurance, and network planning.
+
+## MID Server
+
+MID Server is a Java application that runs as a Windows service or UNIX daemon on a server within your local network. The ServiceNow® MID Server facilitates communication and data transfer between a ServiceNow instance and external applications, data sources, and services.
+
+For more information, see [MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-landing.md).
+
+## Identification &amp; Reconciliation Engine \(IRE\)
+
+IRE offers a centralized framework for identifying and reconciling data from multiple sources. It verifies the integrity of the CMDB and some non-CMDB tables when various data sources are used to create or update CI records.
+
+**Related topics**  
+
+
+[Install Horizontal Discovery and set up Discovery Patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/install-horizontal-telecommunication-discoverypatterns.md)
+

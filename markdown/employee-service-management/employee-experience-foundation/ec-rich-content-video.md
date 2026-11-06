@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-08-17"
-reading_time_minutes: 3
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add a Video with the Rich Content Editor
@@ -33,7 +33,7 @@ The **Rich Content Editor** supports the following types of video:
 
 -   HTML5
 
-    **Note:** tooltip aren't supported for HTML5 at this time.
+    **Note:** Hover text or tool tips are not supported for HTML5 at this time.
 
 -   YouTube
 -   Vimeo
@@ -51,6 +51,8 @@ The **Rich Content Editor** supports the following types of video:
 3.  Navigate to **Settings** tab.
 
 4.  Use any of the following styling settings:
+
+    **Note:** When adding images, videos, or text, there are several functional and convenient styling features that help create Rich Content and News Articles. Some of the right-hand panel options include the ability to enable different backgrounds, opacities and shadows, improved cells and buttons allow additional border settings, colors and types, as well as additional text styles, colors and fonts, and right-hand panel property setting improvements, which provide more available options when creating rich content.
 
 <table id="table_zx2_tgw_jyb"><thead><tr><th>
 
@@ -137,7 +139,7 @@ Show controls \(Youtube and HTML5 Source\)
 
 </td><td>
 
-Check this box to display the video player controls. Users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
+Check this box to display the video player controls that your users can interact with to start, stop, control volume, show closed captions, show the video full screen, or change the video settings.
 
 </td></tr></tbody>
 </table>5.  Select **Save** or **Save and Finish**.

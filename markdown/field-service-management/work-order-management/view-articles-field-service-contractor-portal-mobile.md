@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Contractor for mobile, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Field Service Contractor for mobile, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # View knowledge articles related to a work order task on a mobile device
@@ -41,14 +41,10 @@ The knowledge article view page provides several details about a displayed artic
 
 6.  From the Knowledge list, select the link to the knowledge article that you want to view.
 
-    **Note:**
-
 7.  Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, providing a star rating, or posting comments for the article.
 
 
 ## Result
 
 The selected version of the article opens in a Knowledge Details page displayed in another tab within the Field Service Contractor for mobile application. The tab name includes the knowledge article number and its version number.
-
-**Parent Topic:**[Field Service Contractor for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/wot-fsc.md)
 

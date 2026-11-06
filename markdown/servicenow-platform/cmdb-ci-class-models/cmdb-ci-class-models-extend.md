@@ -1,28 +1,26 @@
 ---
-title: Extend classes and rules
-description: Extend and update CMDB CI Class Models store app classes and rules when using third-party integration tools.
+title: Extend classes and rules for third-party integrations
+description: Extend and update CMDB CI Class Models app classes and rules when using third-party integration tools.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-extend.html
 release: yokohama
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [CMDB CI Class Models, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Extend classes and rules
+# Extend classes and rules for third-party integrations
 
-Extend and update CMDB CI Class Models store app classes and rules when using third-party integration tools.
-
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+Extend and update CMDB CI Class Models app classes and rules when using third-party integration tools.
 
 When using a third-party tool to integrate with ServiceNow apps, gaps can occur between the integration and different CIs. Some of the integrated tables and classes may be missing classes and rules that are not included with the CMDB CI Class Models store app.
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. The classes and rules in the following table enable you to add and extend the CMDB CI Class Models store app for integrations.
+See the release notes for all CMDB CI class models.
 
-See the full release notes for all CMDB CI Class Models.
+This section lists the classes that the CMDB CI Class Models app adds or updates. The classes and rules in the following table enable you to add and extend the CMDB CI Class Models store app for integrations.
 
 <table id="table_usq_ttl_fnb"><thead><tr><th>
 
@@ -176,7 +174,7 @@ Related Entries \(cmdb\_related\_entry\):
 
 </td></tr><tr><td rowspan="3">
 
-DB2 Database \(Before CMDB CI Class Models v1.67.0, the label \(display name\) was DB2 Catalog\)
+DB2 Database \(formerly DB2 Catalog\)
 
  cmdb\_ci\_db\_db2\_catalog
 

@@ -1,27 +1,28 @@
 ---
 title: Walk-up feature configuration
-description: Understand the configuration of the Walk-up feature in the Engagement Messenger module to configure the field values.
+description: Understand the configuration of the Walk-up feature in Engagement Messenger module to configure the field values.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/walk-up-feature-configuration.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Engagement Messenger reference, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Engagement Messenger reference, Reference, Customer Service Management]
 ---
 
 # Walk-up feature configuration
 
-Understand the configuration of the Walk-up feature in the Engagement Messenger module to configure the field values.
+Understand the configuration of the Walk-up feature in Engagement Messenger module to configure the field values.
 
-To enable a walk-up feature for your customers, verify that you activate the following plugins in your ServiceNow instance:
+To enable the walk-up feature for your customers, activate the following plugins in your ServiceNow instance:
 
 -   Walk-up for CSM plugin \(com.snc.walkup\_for\_csm\) for authenticated users
 -   Guest Walk-up Experience for Customer Service plugin \(sn\_guest\_walkup\_cs\) for unauthenticated users
 
-Once the plugin is active, navigate to the Features section of the guided configuration view of your Engagement Messenger module and enable the Field service feature.
+Once the plugin is active:
 
-\[Omitted image "em-enable-walk-up.png"\] Alt text: Feature settings screen in Engagement messenger with an option to add a custom feature or toggle existing features to activate them. This example shows the Walk-up feature toggle.
+1.  Navigate to the Features section of the guided configuration view of your Engagement Messenger module.
+2.  Enable the **Walk-up** feature.
 
 <table id="table_opq_wb1_g4b"><thead><tr><th>
 
@@ -64,5 +65,5 @@ Enable for authenticated users
 Option for enabling the walk-up feature for users who sign in into the website that hosts the messenger.
 
 </td></tr></tbody>
-</table>Select **Configure walk-up here** to configure details of your customer support centers. For more information, see [Configure Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-define-location.md).
+</table>3.  Select **Configure walk-up here** to configure details of your customer support centers. For more information, see [Configure Walk-up Experience locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/csm-walkup-define-location.md).
 

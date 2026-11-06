@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Disable component preset event mappings
@@ -36,13 +36,9 @@ Role required: admin
 
 5.  Select the **Events** tab in the configuration panel.
 
-    \[Omitted image "disable-preset-events-tab.png"\] Alt text: Arrow pointing to the events tab that shows component preset events.
-
 6.  Select the event that you want to disable.
 
 7.  Select **Disable**.
-
-    \[Omitted image "disable-preset-events-button.png"\] Alt text: Arrow pointing to the disable preset event button.
 
 8.  Select **Done**.
 
@@ -50,8 +46,6 @@ Role required: admin
 ## Result
 
 The component preset event shows **Disabled** in the **Events** tab of the configuration panel.
-
-\[Omitted image "disable-preset-events-disabled.png"\] Alt text: Disabled event in the configuration panel.
 
 **Parent Topic:**[Manage actions in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-events.md)
 

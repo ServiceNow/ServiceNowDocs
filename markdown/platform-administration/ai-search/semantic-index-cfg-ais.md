@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-10-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Indexed sources, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -53,14 +53,14 @@ Each semantic index configuration includes the following elements:
 
 ## Activating semantic index configuration
 
-Semantic index configuration functionality is provided by the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\). This plugin is automatically activated for your instance when you install any [Now Assist application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+Semantic index configuration functionality is provided by the AI Search Semantic Controller plugin \(com.glide.ais.semantic\_search\). This plugin is automatically activated for your instance when you install any [ServiceNow Otto® application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
 
 You can verify whether semantic index configuration is activated by navigating to **All** &gt; **AI Search** &gt; **AI Search Index** &gt; **Indexed Sources** and selecting an indexed source record. If you see the Semantic Index Configuration related list on the Indexed Source form, the plugin is activated.
 
 -   **[Configure semantic indexing settings for an indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-semantic-indexing-ais.md)**  
 Specify the semantic indexing configuration settings you want to apply when AI Search indexes records from your indexed sources.
--   **[AI Search Retrieval Augmented Generation \(RAG\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-rag.md)**  
-You can enhance the search accuracy of your AI Search results by using the AI Search Retrieval Augmented Generation \(RAG\) application. With RAG, you can limit a large language model's \(LLM's\) focus to a specific, contextual dataset, instead of the broad, general data that it was trained on.
+-   **[AI Search RAG \(Retrieval-Augmented Generation\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/ais-rag.md)**  
+The AI Search RAG \(Retrieval-Augmented Generation\) capability provides a framework that enhances the search accuracy of AI Search results by narrowing the focus of your large language model \(LLM\) to a specific, contextual data set, instead of the vast, general data it was trained on.
 
 **Parent Topic:**[Indexed sources in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/indexed-sources-ais.md)
 

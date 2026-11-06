@@ -7,7 +7,7 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [SGC-Azure, SGC-Microsoft Azure, SGC Azure, SGC Microsoft Azure, SGC for Azure, SGC for Microsoft Azure, Azure SGC, Microsoft Azure SGC, Service Graph Connector for Microsoft Azure, Service Graph Connector for Azure, Azure data sources, SG-Azure data sources, SG-Azure, Azure parallel loading, Azure partition size, azure\_full\_pull\_partition\_size]
 breadcrumb: [Additional features, Microsoft Azure, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assess performance of Hardware Asset Management, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure HAM success goals, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a success goal category for hardware assets
@@ -35,5 +35,5 @@ Role required: ham\_admin
 
 The category that you add gets listed as an option in the **Category** field while creating a success goal for Hardware Asset Management. For more information, see [Create a success goal for Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/create-suc-goal.md).
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
+**Parent Topic:**[Configure HAM success goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
 

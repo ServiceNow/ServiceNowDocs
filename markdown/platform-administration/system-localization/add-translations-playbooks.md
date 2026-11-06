@@ -1,20 +1,20 @@
 ---
-title: Add translations for playbooks
-description: Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+title: Add translations for Playbooks
+description: Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/system-localization/add-translations-playbooks.html
 release: yokohama
 product: System Localization
 classification: system-localization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translating individual UI strings, Translating custom content, System Localization, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Add translations for playbooks
+# Add translations for Playbooks
 
-Make playbooks available in multiple languages during runtime, to support worldwide business processes.
+Make Playbooks available in multiple languages during runtime, to support worldwide business processes.
 
 ## Before you begin
 
@@ -57,18 +57,16 @@ The playbook text that you can create translations for are:
 
 8.  In the **Message** field, enter the translation.
 
-9.  Right-click on the form header to open the context menu, and select **Insert**.
+9.  Right-click on the form header to open the context menu, and select **Save**.
 
     Your translation is saved.
 
 10. Repeat steps 1-8 to add more translations.
-
-    \[Omitted image "image.insert-playbook-translation"\] Alt text: Adding a Spanish translation for the piece of text "Instructional"
 
 
 ## Result
 
 When the playbook runs, the translated content appears for agents in their user session language.
 
-\[Omitted image "image.playbook-translation-runtime"\] Alt text:
+\[Omitted image "playbook-translation-runtime.png"\] Alt text: The message translated into Spanish.
 

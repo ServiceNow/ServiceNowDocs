@@ -1,20 +1,22 @@
 ---
-title: Responsibility for global indicator targets
+title: Responsibility for indicator targets
 description: A user can be responsible for targets on one or more Performance Analytics indicator/breakdown combinations \(KPIs\). Responsible users are expected to track progress towards the targets and can change the targets on their KPIs.After an admin creates a target, assign responsibility for reviewing and editing the target to a subject matter expert \(SME\) in the business area.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/responsibiity-targets-kpi-details.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Targets and thresholds, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
-# Responsibility for global indicator targets
+# Responsibility for indicator targets
 
 A user can be responsible for targets on one or more Performance Analytics indicator/breakdown combinations \(KPIs\). Responsible users are expected to track progress towards the targets and can change the targets on their KPIs.
 
-Responsibility is separate from access control list \(ACL\)-based roles. A target admin role, such as pa\_target\_admin, allows a user to create and edit global targets on any unique indicator/breakdown element combination \(referred to here as a KPI\). Such a role is normally restricted to a few Performance Analytics experts. However, a business-area expert, such as a manager, is likely to know more about the appropriate target to set for a specific KPI. Conversely, a Performance Analytics expert is unlikely to be able to maintain appropriate targets for all the KPIs in their organization.
+**Important:** Target responsibility applies only to classic indicators, not to either native or enabled Data snapshots indicators. Target responsibility applies only to targets that are for everyone \(global\), not targets that are only for you \(personal\).
+
+Responsibility is separate from access control list \(ACL\)-based roles. A target admin role, such as pa\_target\_admin, allows a user to create and edit targets on any unique indicator/breakdown element combination \(referred to here as a KPI\). Such a role is normally restricted to a few Performance Analytics experts. However, a business-area expert, such as a manager, is likely to know more about the appropriate target to set for a specific KPI. Conversely, a Performance Analytics expert is unlikely to be able to maintain appropriate targets for all the KPIs in their organization.
 
 Here the concept of responsibility comes in. A user with any role can be responsible for managing a KPI's global targets, which everyone can see. They can create a new target or edit the target for any KPI they are responsible for. Responsible users can create or edit their targets either in KPI Details or the classic Analytics Hub. However, they have this right only for KPIs that they were explicitly made responsible for. Also, if ACLs prohibit a user from viewing a KPI, they cannot be responsible for that KPI.
 
@@ -46,7 +48,7 @@ Role required: pa\_admin, pa\_target\_admin, pa\_power\_user, or admin.
 2.  Either:
 
     -   Create a target, as described in [Create a target in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-kpi-details-targets.md).
-    -   Open an existing target, as described in [Edit targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md).
+    -   Open an existing target, as described in [Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md).
 3.  Click the cogwheel to open the **Targets Configuration** page.
 
     \[Omitted image "kpi-details-target-config-cogwheel.png"\] Alt text: Targets panel top showing config cogwheel.

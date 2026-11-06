@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Case Management
 classification: health-and-safety-case-management
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Universal Request for Health and Safety cases, Health and Safety Case Management, Health and Safety, Employee Service Management]
 ---
@@ -52,5 +52,5 @@ The agent can perform the following from the new Universal Request record:
 
     For detailed information on Universal Request security capabilities, see [Universal Request sensitive information security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/universal-request-for-hr-service-delivery/universal-request-security.md).
 
--   Use the More actions \[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: More icon icon and select **Create Health and Safety Case**.
+-   Use the More actions \[Omitted image "agent-workspace-more-ui-actions-icon.jpg"\] Alt text: more actions icon icon and select **Create Health and Safety Case**.
 

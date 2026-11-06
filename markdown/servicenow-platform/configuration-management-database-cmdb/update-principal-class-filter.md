@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Principal Class, CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Principal Class, CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Update the list of classes in the Principal Class filter
@@ -49,34 +49,18 @@ The Principal Class filter is updated with the addition or the removal of the cl
 
 ## What to do next
 
-In both of the following scenarios, the list of CIs refreshes to show only CIs whose class is included in the Principal Class filter:
+In both of the following scenarios, the list of CIs refreshes to show only CIs whose class is included in the Principal Class filter.
 
--   1.  In the **Filter navigator**, type `cmdb_ci.list` and then press the Enter key.
-2.  In the Configuration Items list view, select the **List controls** menu icon, select **Filters** and then select **Principal Class**.
--   1.  Open a Change Request form.
-2.  Scroll down and select the **Affected CIs** tab. Select **Add**.
-3.  In the **Add Affected CIs** form, select the **List controls** menu icon, select **Filters** and then select **Principal Class**.
+-   Scenario 1:
+    1.  In the **Filter navigator**, type `cmdb_ci.list` and then press the Enter key.
+    2.  In the Configuration Items list view, select the **List controls** menu icon, select **Filters** and then select **Principal Class**.
+-   Scenario 2:
+
+    1.  Open a Change Request form.
+    2.  Scroll down and select the **Affected CIs** tab. Select **Add**.
+    3.  In the **Add Affected CIs** form, select the **List controls** menu icon, select **Filters** and then select **Principal Class**.
     For more information about adding affected CIs to change requests, see [Associated CIs on a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_AffectedCIsAndImpactedServices.md).
 
 
 **Parent Topic:**[Principal Class](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.md)
-
-**Parent Topic:**[CMDB classifications and class dependency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBClassifications.md)
-
-**Related topics**  
-
-
-[Dependent CIs management]()
-
-[CMDB record types]()
-
-[Related Lists of CI components]()
-
-[Create a CI class]()
-
-[Reclassify a CI]()
-
-[Delete CIs]()
-
-[View and edit class definitions and metadata]()
 

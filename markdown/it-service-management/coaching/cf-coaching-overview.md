@@ -1,5 +1,5 @@
 ---
-title: Understanding Coaching
+title: About Coaching
 description: After you enable Coaching, you can set up roles and groups, define coaching opportunities, create training material, and start assessing and coaching employees. The Coach and Trainee dashboards provide useful overviews to manage and measure results.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/coaching/cf-coaching-overview.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Exploring Coaching, Coaching, IT Service Management]
+breadcrumb: [Explore, Coaching, IT Service Management]
 ---
 
-# Understanding Coaching
+# About Coaching
 
 After you enable Coaching, you can set up roles and groups, define coaching opportunities, create training material, and start assessing and coaching employees. The Coach and Trainee dashboards provide useful overviews to manage and measure results.
 
@@ -22,7 +22,7 @@ After you enable Coaching, you can set up roles and groups, define coaching oppo
 
 |Terminology|Description|
 |-----------|-----------|
-|Coaching assessment|Assessments allow you to evaluate an agent and then assign training and skills based on the evaluation. An assessment can be generated automatically from a coaching opportunity based on conditions set in the opportunity. As assessment can also be generated manually.|
+|Coaching assessment|Used to evaluate an agent and then assign training and skills based on the evaluation. An assessment can be generated automatically from a coaching opportunity based on conditions set in the opportunity. As assessment can also be generated manually.|
 |Coaching opportunity|A critical moment in a process that generates an assessment based on set conditions. A coaching opportunity can be generated at any time during the life cycle of any task record such as incident, problem, change request, or request items.|
 |Virtual coach|A record that can be associated with a coaching opportunity that automatically completes tasks associated with an assessment.|
 |Coaching survey|A survey associated with a coaching assessment that lets coaches provide feedback on the agents' completed work and lets agents provide feedback on the coaching effectiveness.|
@@ -62,7 +62,7 @@ You can do the following in a coaching opportunity record:
 
     -   All virtual coach records will have a coaching opportunity associated with it but not all coaching opportunities will have an associated virtual coach record.
     -   A virtual coach cannot be associated a manually generated assessment.
-    For information on virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md).
+    For information on virtual coach, see [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-identify-learning-content.md).
 
 
 ## Example of assessment triggers
@@ -122,23 +122,23 @@ You can create a manual assessment and complete the following tasks manually:-  
 -   Associate coaching surveys to the assessment
 
 </td></tr></tbody>
-</table>You can use Coaching for any task-based process for such as Change Management, Customer Service Management or Incident Management to set up Coaching. You can also use Coaching for a non-task or custom table source by [configuring a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-reference.md).
+</table>You can use Coaching for any task-based process for such as Change Management, Customer Service Management or Incident Management to set up Coaching. You can also use Coaching for a non-task or custom table source by [configuring a business rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-reference.md).
 
 ## Initial Coaching setup
 
 Once you have enabled Coaching, set up the application by assigning user roles, configuring coaching opportunities and creating training content.
 
-1.  Set up Coaching [roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-roles.md) and groups
-2.  [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/create-coaching-opportunity.md)
-3.  [Identify learning content and a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md)
-4.  Set up [surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/setting-up-coaching.md)
+1.  Set up Coaching [Coaching roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-roles.md) and groups
+2.  [Define trigger conditions for a coaching opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-create-coaching-opportunity.md)
+3.  [Identify and add course items for a virtual coach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-identify-learning-content.md)
+4.  Set up [surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-setting-up-coaching.md)
 
 ## Coaching dashboards
 
 Use Coaching dashboards to manage and measure results in a simplified view.
 
--   [Coaching Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-your-trainee.md)
--   [Trainee Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/getting-coached.md)
+-   [Coaching Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-your-trainee.md)
+-   [Trainee Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-getting-coached.md)
 
 ## Identifying coaching opportunities
 

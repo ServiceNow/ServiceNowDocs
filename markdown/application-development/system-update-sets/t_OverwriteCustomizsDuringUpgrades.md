@@ -7,29 +7,47 @@ release: yokohama
 product: System Update Sets
 classification: system-update-sets
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Update set administration, System update sets, Deploying applications, Building applications]
+breadcrumb: [Configure, System update sets, Deploying applications, Classic app development, Building applications]
 ---
 
 # Overwrite customizations during an upgrade
 
 Specify which customized objects you want to replace during the next upgrade. By default, the upgrade process skips changes to customized objects.
 
+## Before you begin
+
+Role required: admin
+
+Configuration changes you make such as modifying the dictionary record for a table or field are tracked. Each configuration change has a corresponding record in the customer update table, where **Replace on upgrade** is set to `false`.
+
 ## About this task
 
-The systems tracks the configuration changes you make such as modifying the dictionary record for a table or field. Each configuration change you make has a corresponding record in the Customer Update `[sys_update_xml]` table where the **Replace on upgrade** field is set to false. You may want to overwrite your customizations with the next software version. For example, you may change a script to implement a temporary workaround for a problem that is fixed in the next version. You would want to overwrite your workaround when upgrading to the next version to ensure that you receive any future enhancements to the script.
+When updating to the latest software version, you can replace your custom changes. For instance, if you modified a script as a temporary fix, you’ll want to remove that workaround during the upgrade so you can benefit from new improvements and confirm compatibility with future updates.
 
 ## Procedure
 
-1.  Open the customized object \(for example, the ArrayUtil script include\).
+1.  Navigate to **All** &gt; **System update sets** &gt; **Local update sets**
 
-2.  Right-click the header and select **Show Latest Update**.
+2.  Select an update set.
 
-3.  Configure the form to add the **Replace on upgrade** field, if necessary.
+3.  Select a customized object in the customer updates list.
 
-4.  Select the **Replace on upgrade** check box and click **Update**.
+4.  Select and hold \(or right-click\) the header and select **Show Latest Update**.
+
+5.  Configure the form to add the **Replace on upgrade** field, if necessary.
+
+    1.  Hold \(or select and hold \(or right-click\)\) the header and select **Configure**.
+
+    2.  Select **Replace on upgrade** from the available list and add it to the form.
+
+    3.  Select **Save**.
+
+6.  Select the **Replace on upgrade** check box and select **Update**.
 
     The customized object will be replaced on the next upgrade.
 
+
+**Parent Topic:**[Configuring System Update Sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/system-update-sets/configure-system-update-sets.md)
 

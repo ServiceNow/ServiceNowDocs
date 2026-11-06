@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configure, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,11 +30,11 @@ Role required: admin
 
 1.  Setup Zoom to enable virtual meeting.
 
-    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-zoom.md).
+    Refer to the Create a connected app in Zoom topic in [Set up the](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-zoom.md)
 
     **Note:** While setting up zoom, ensure the following:
 
-    -   Copy the URL link in the **Redirect URL for OAuth** field to **Add allow list** field as well.
+    -   Copy the url specified in **Redirect URL for OAuth** to **Add allow list** as well.
     -   Select the following scopes:
         -   In **Meeting**, select the following:
             -   **View and manage sub account’s users meetings \(meeting: master\)**

@@ -1,5 +1,5 @@
 ---
-title: Create or modify a script macro
+title: Create a script macro for the syntax editor
 description: Administrators can define new script macros or modify existing script macros.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/t\_ManageScriptMacros.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Syntax editor plugin, JavaScript syntax editor, Scripting, API implementation, API implementation and reference]
+breadcrumb: [JavaScript syntax editor, Explore, Scripting, API implementation, API implementation and reference]
 ---
 
-# Create or modify a script macro
+# Create a script macro for the syntax editor
 
 Administrators can define new script macros or modify existing script macros.
 
@@ -28,7 +28,7 @@ Script macros provide shortcuts for typing commonly used code. Several script ma
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Syntax Editor Macros**.
 
-2.  Click **New** or select the macro to edit.
+2.  Select **New** or select the macro to edit.
 
 3.  Define the macro details with the fields listed in the table below.
 
@@ -39,5 +39,5 @@ Script macros provide shortcuts for typing commonly used code. Several script ma
     |Text|Full macro text that replaces the name in the editor.|
 
 
-**Parent Topic:**[Syntax editor plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditorPlugin.md)
+**Parent Topic:**[JavaScript syntax editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_SyntaxEditor.md)
 

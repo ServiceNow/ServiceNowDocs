@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-subscription-pricing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Subscription revenue metrics
@@ -151,7 +151,7 @@ Cumulative One-time price + \(Cumulative MRR \* Term months\)
 |Total ACV|Total annual contract value.|Sum of the Cumulative ACV of the top-level parent.|
 |Total TCV|Total contract value.|Sum of the Cumulative TCV of the top-level parent.|
 
-<table id="table_sdq_tcy_1dc"><thead><tr><th>
+<table id="table_k1v_pj1_1gc"><thead><tr><th>
 
 Quote line subscription metric
 
@@ -201,6 +201,64 @@ One-time price
 One-time price for the line item.
 
 </td></tr></tbody>
+</table><table id="table_sdq_tcy_1dc"><thead><tr><th>
+
+Quote line subscription metric
+
+</th><th>
+
+Calculation
+
+</th></tr></thead><tbody><tr><td>
+
+One-time cost
+
+</td><td>
+
+Unit cost \* quantity
+
+</td></tr><tr><td>
+
+Monthly recurring cost
+
+</td><td>
+
+-   If periodicity is monthly: Monthly recurring cost = Unit cost \* Quantity
+-   If periodicity is annual: Monthly recurring cost = \(Unit cost/12\) \* Quantity
+
+</td></tr><tr><td>
+
+Cumulative one-time cost
+
+</td><td>
+
+One-time cost for the line item + \(if parent line item\) sum of all One-time Cost for all child line items
+
+</td></tr><tr><td>
+
+Cumulative monthly recurring cost
+
+</td><td>
+
+Monthly recurring cost + \(if parent line item\) sum of all Cumulative Monthly Cost for immediate child lines
+
+</td></tr><tr><td>
+
+Cumulative Net Cost
+
+</td><td>
+
+Cumulative Net Cost = \[One time cost + \(Monthly Recurring cost \* Term\)\] +\(if parent line item\) sum of all Cumulative net cost for immediate child lines
+
+</td></tr><tr><td>
+
+Cumulative margin %
+
+</td><td>
+
+\(Cumulative net price – Cumulative net cost\)/Cumulative net price \* 100
+
+</td></tr></tbody>
 </table>|Quote header subscription metric|Calculation|
 |--------------------------------|-----------|
 |Term|The duration in months for subscription or contract. If an opportunity exists, the value comes from the opportunity. Otherwise, the default term is 12 months.|
@@ -209,90 +267,17 @@ One-time price for the line item.
 |Total annual recurring price|Sum of the Cumulative annual recurring price of all root parent lines.|
 |Total amount|Sum of the Cumulative net price of root parent lines.|
 
-<table id="table_kk2_h1w_vfc"><thead><tr><th>
-
-Order line subscription metric
-
-</th><th>
-
-Calculation
-
-</th></tr></thead><tbody><tr><td>
-
-Term
-
-</td><td>
-
-Contract end date - Contract start date
-
-</td></tr><tr><td>
-
-Contract start date
-
-</td><td>
-
-The start date of having access to the service or product
-
-</td></tr><tr><td>
-
-Contract end date
-
-</td><td>
-
-The end date of having access to the service or product
-
-</td></tr><tr><td>
-
-Unit adjustment
-
-</td><td>
-
-Total adjustment/Quantity
-
-</td></tr><tr><td>
-
-Monthly recurring price
-
-</td><td>
-
--   If periodicity is monthly: Monthly recurring price = Unit net price \* Quantity
--   If periodicity is annual: Monthly recurring price = \(Unit net price/12\) \* Quantity
-
-</td></tr><tr><td>
-
-Annual recurring price
-
-</td><td>
-
-If pricing method is recurring: Monthly recurring price \* 12 months
-
-</td></tr><tr><td>
-
-Cumulative monthly price
-
-</td><td>
-
-Monthly recurring price for the line + \(if parent line item\) sum of all monthly recurring price of immediate child lines
-
-</td></tr><tr><td>
-
-Cumulative annual price
-
-</td><td>
-
-Cumulative monthly recurring price \* 12
-
-</td></tr><tr><td>
-
-Cumulative Net Price
-
-</td><td>
-
-\[One time price + \(Monthly recurring price \* Term\)\]+\(if parent line item\) sum of all Cumulative net price for immediate child lines
-
-</td></tr></tbody>
-</table>|Order header subscription metric|Calculation|
+|Quote header subscription metric|Calculation|
 |--------------------------------|-----------|
+|Total one-time cost|Sum of Cumulative one-time cost of all parent lines.|
+|Total monthly cost|Sum of Cumulative Monthly recurring cost of all root parent lines.|
+|Total cost|Sum of Cumulative Net Cost of root parent lines.|
+|Total one-time margin|\(Total one-time price\) - \(Total one-time cost\).|
+|Total monthly margin|\(Total monthly price\) - \(Total monthly cost\)|
+|Total margin amount|\(Total amount\) - \(Total cost\)|
+|Total one-time margin %|\(Total one-time margin/Total one-time price\) × 100|
+|Total monthly margin %|\(Total monthly margin/Total monthly price\) × 100|
+|Total margin %|\(Total Margin Amount/Total amount\) × 100|
 
 To learn more about the revenue metrics in opportunity details, see [Add and view the details of an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-details-tab.md) and [Add line items to an opportunity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-line-items-tab.md).
 

@@ -1,173 +1,44 @@
 ---
-title: Integrating Virtual Agent with Twilio
-description: Host Virtual Agent conversations on Twilio SMS to chat with virtual agent or live agents. Use the Conversational SMS Integration with Twilio app, available from the ServiceNow Store, to associate your instance with SMS Twilio.
+title: Conversational SMS Integration with Twilio
+description: Use this ServiceNow Store application to host Virtual Agent conversations on Twilio SMS to chat with virtual agent or live agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/sms-twilio-store-app.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrating Virtual Agent with Twilio
+# Conversational SMS Integration with Twilio
 
-Host Virtual Agent conversations on Twilio SMS to chat with virtual agent or live agents. Use the Conversational SMS Integration with Twilio app, available from the ServiceNow Store, to associate your instance with SMS Twilio.
+Use this ServiceNow Store application to host Virtual Agent conversations on Twilio SMS to chat with virtual agent or live agents.
 
-## Capturing information from a user in an SMS chat conversation
+## Get started with Conversational SMS Integration with Twilio
 
+Select a tile to get started.
+
+<table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
+
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Integrate Conversational SMS Integration with Twilio with Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/exploring-va-sms-twilio-app.md)
+
+</td><td>
+
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Conversational SMS Integration with Twilio implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)
+
+</td><td>
+
+[Use\[Omitted image "bus-chat.svg"\] Alt text: Agents and requesters can use Conversational SMS Integration with Twilio in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/using-sms-integ-twilio.md)
+
+</td></tr></tbody>
+</table>-   **[Exploring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/exploring-va-sms-twilio-app.md)**  
 Conversational SMS Integration with Twilio enables users to initiate conversations with Virtual Agent by messaging your Twilio phone number.
-
-**Note:** Do not use the same ServiceNowTwilioDirect or Twilio Notify phone number for Conversational SMS Integration with Twilio. Instead, use separate Twilio numbers for Conversational SMS Integration with Twilio and ServiceNowTwilioDirect.
-
-\[Omitted image "sms-twilio-app.png"\] Alt text: The user texts, "I have an issue." Virtual Agent asks for additional information and offers 4 choices for the user to select: Product issue, Order support, Billing, and Other.
-
-If a bot transfers the conversation to a live agent, the agent can respond to SMS messages in Agent Workspace.
-
-After you set up the Conversational SMS Integration with Twilio, you can create SMS conversation topics in Virtual Agent Designer. For more information on using the tool, see [Getting started with Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/conversation-designer-virtual-agent.md)
-
-## Supported controls
-
-The Conversational SMS Integration with Twilio does not support all the available controls in Virtual Agent Designer.
-
-The following user input controls are supported in Twilio SMS conversations:
-
-<table id="table_fq2_gqz_2mb"><thead><tr><th>
-
-User input control
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Text
-
-</td><td>
-
-User enters a plain text string in the conversation.
-
- \[Omitted image "sms-text-input.png"\] Alt text: User enters text in a conversation: "I need help!"
-
-</td></tr><tr><td>
-
-Static Choice
-
-</td><td>
-
-User selects an item from a predefined list.
-
- \[Omitted image "sms-user-static-choice.png"\] Alt text: User enters "CHANGE." The bot displays 3 additional timeslots and an "Other" option. The user enters the number for a new timeslot. Appointment is confirmed.
-
-</td></tr><tr><td>
-
-Dynamic Choice
-
-</td><td>
-
-User selects an item from a list that is created dynamically. For example, the user can select from a list of cases that they opened.
-
- \[Omitted image "sms-user-ref-choice.png"\] Alt text: The bot displays the user's 7 open cases. The user enters 6, and the bot provides a link to view that case.
-
-</td></tr><tr><td>
-
-Boolean
-
-</td><td>
-
-User enters a Boolean response to the bot. For example, the user can reply "Yes" or "No" in the conversation.
-
- \[Omitted image "sms-boolean-input.png"\] Alt text: The bot congratulates the user on their purchase and offers to display more information. The user enters "Yes," so the bot provides a link to a KB article.
-
-</td></tr><tr><td>
-
-File picker
-
-</td><td>
-
-User sends a file to the bot.**Note:** Conversational SMS Integration with Twilio doesn't support all file types. Only images can be sent in an SMS conversation.
-
-\[Omitted image "sms-image-input.png"\] Alt text: The bot displays an example image that indicates the serial number location. The user uploads a photo of their product's serial number.
-
-</td></tr></tbody>
-</table>For more information on configuring user input controls, see [Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md).
-
-The following bot responses are supported in Twilio SMS conversations:
-
-<table id="table_mq2_gqz_2mb"><thead><tr><th>
-
-Bot response
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Text
-
-</td><td>
-
-Bot sends a plain text string to the user.\[Omitted image "sms-bot-text.png"\] Alt text: Bot sends a text: "Your order is scheduled for install on Dec 25th between 10am and 1pm. Is this ok?" The user enters YES, and the bot confirms their choice.
-
-</td></tr><tr><td>
-
-Image
-
-</td><td>
-
-Bot sends an image to the user.\[Omitted image "sms-bot-image.png"\] Alt text: The bot sends an image that shows the user where to find their product's serial number.
-
-</td></tr><tr><td>
-
-Link
-
-</td><td>
-
-Bot sends a web link to the user.\[Omitted image "sms-bot-link.png"\] Alt text: The bot sends an appointment confirmation to the user, who enters CHANGE. The bot responds with a link where the user can view new appointment options.
-
-</td></tr><tr><td>
-
-Card
-
-</td><td>
-
-Bot sends selected information from a record on your instance. \[Omitted image "sms-bot-card.png"\] Alt text: When the user says their router is on fire, the bot creates a case and sends the card with the number, priority, assigned agent, and a link.
-
-</td></tr></tbody>
-</table>For more information on configuring bot responses, see [Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md).
-
-Live agents can use the Text, Card, and Image response controls to reply to users in SMS conversations.
-
-## User subscriptions for SMS update notifications
-
-Beginning with version 1.1.1, your users with ServiceNow accounts \(sys\_user profiles\) can choose to start or stop receiving SMS updates in their conversations.
-
-**Note:** Notifications in messaging channels can be sent to users with ServiceNow accounts. Other recipients, such as consumer and customer contacts, are considered to be guests and cannot receive notifications on messaging channels.
-
-To comply with privacy regulations, user notifications are turned off by default. Users can opt in or change their settings in the following ways:
-
--   To check SMS notification settings for the account, send this text: `Notification`
--   To receive SMS notifications, send this text: `START`
--   To stop receiving SMS notifications, send this text: `STOP`
-
-\[Omitted image "sms-notifications-start-stop.png"\] Alt text: The user enters "notifications" to view settings, which are currently on. The user enters STOP, and the bot unsubscribes them. When the user enters START, the bot confirms the re-subscription.
-
-To learn more about Virtual Agent notifications, see [Configuring Virtual Agent notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configuring-va-notifications.md).
-
-For details about creating content for a messaging notification, see [Define Virtual Agent notification contents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/define-va-notif-contents.md).
-
--   **[Install Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/install-sms-twilio.md)**  
-You can install the Conversational SMS Integration with Twilio \(sn\_va\_sms\_twilio\) application to host Virtual Agent conversations in the SMS Twilio application.
--   **[Set up the Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-twilio-adapter.md)**  
-Integrate Twilio with Virtual Agent so that you can engage in SMS bot conversations.
+-   **[Configuring Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-va-sms-twilio-app.md)**  
+Install Conversational SMS Integration with Twilio from the ServiceNow Store, configure it, and then configure SMS authentication.
 -   **[Using Conversational SMS Integration with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/using-sms-integ-twilio.md)**  
-Enable a requester to converse with an agent using the SMS conversations.
--   **[Configure SMS authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/configure-sms-auth.md)**  
-Authenticate all users using Conversational SMS Integration with Twilio with Soft PIN \(SN\) and Google authenticators as the 2-factor authentication mechanisms for account linking.
+Enable a requester to converse with an agent using SMS conversations with Twilio.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

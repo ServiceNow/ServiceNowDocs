@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Agent for mobile
 classification: workplace-agent-for-mobile
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Workplace Agent for mobile, Workplace Service Delivery, Employee Service Management]
 ---
@@ -47,6 +47,10 @@ Role required: sn\_wsd\_case.workplace\_agent
 [Assign an unassigned case or task]()
 
 [Edit or view case details on the Workplace Agent for mobile app]()
+
+[Print workplace cases]()
+
+[Print workplace tasks]()
 
 [Create a child task]()
 

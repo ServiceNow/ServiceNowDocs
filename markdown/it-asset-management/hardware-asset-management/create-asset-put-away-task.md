@@ -7,10 +7,10 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-05-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [create asset put away task, asset put away,]
-breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage asset put away using the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create an Asset put away task

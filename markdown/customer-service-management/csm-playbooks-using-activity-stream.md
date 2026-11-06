@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbooks-using-activity-stream.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Playbooks for Customer Service Management, Automate and optimize, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using playbooks, Automate and optimize, Use, Customer Service Management]
 ---
 
 # Using the activity stream in the contextual side panel
@@ -81,8 +81,7 @@ Expand and collapse posts
 
 </td><td>
 
-Click the More options icon \(\[Omitted image "contextual-side-panel-more-options.png"\] Alt text: More options icon.\) to expand and collapse posts.-   **Expand all posts**: Expands posts to view additional details.
--   **Collapse all posts**: Returns posts to their previous state.
+Select expand icon \(\[Omitted image "expand-arrow.png"\] Alt text: More options icon.\) to expand posts and collapse icon \[Omitted image "Collapse\_icon\_eaai\_new.png"\] Alt text: expand posts and collapse icon to collapse posts.
 
 </td></tr><tr><td>
 

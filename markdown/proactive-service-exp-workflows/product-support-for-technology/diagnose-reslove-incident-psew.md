@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
 # Diagnose and resolve an incident
@@ -69,9 +69,9 @@ The incident progresses through several stages from start to closure. It begins 
 
     3.  Expand the cards in the **Available test suite**.
 
-        To setup test definitions, see [Setting up test definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/settingup-test-specifications.md).
+        To setup test definitions, see .
 
-        To setup test group, see [Setting up a test group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/setting-test-group.md).
+        To setup test group, see .
 
     4.  In the manual test, select single/multiple tests.
 

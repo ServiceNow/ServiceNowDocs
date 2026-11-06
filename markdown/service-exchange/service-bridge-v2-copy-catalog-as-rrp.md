@@ -1,34 +1,37 @@
 ---
 title: Publish catalog items as remote record producers
-description: As a provider, you can copy your local catalog items to Service Exchange as remote record producers \(RRP\) to avoid having to manually re-create catalog items as RRPs.
+description: As a provider, you can copy your local catalog items to Service Exchange as remote record producers \(RRP\) enabling you to avoid manual re-creation of catalog items as RRPs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-copy-catalog-as-rrp.html
 release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Use Service Exchange for providers, Service Exchange for Providers, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Publish catalog items as remote record producers
 
-As a provider, you can copy your local catalog items to Service Exchange as remote record producers \(RRP\) to avoid having to manually re-create catalog items as RRPs.
+As a provider, you can copy your local catalog items to Service Exchange as remote record producers \(RRP\) enabling you to avoid manual re-creation of catalog items as RRPs.
 
 ## Before you begin
 
 Make sure that the catalog items you want to copy meet the following requirements:
 
 -   Must be in the published state
--   Must be of a supported class: sc\_cat\_item, sc\_cat\_item\_producer, pc\_hardware\_cat\_item, or pc\_software\_cat\_item
 -   Must not have been already copied to Service Exchange
 
 Role required: admin
 
 ## About this task
 
-You can copy hardware, software, record producers, and general catalog items to RRPs, either individually or in bulk. After you copy, you can edit and publish these RRPs.
+By default, you can copy hardware, software, record producers, and general catalog items to RRPs, either individually or in bulk. You can copy other catalog items as well by creating a property file to include all the catalog item type you want to copy.
+
+**Tip:** If you create a system property, make sure to select the application scope as Service Exchange provider.
+
+After you copy, you can edit and publish these RRPs.
 
 ## Procedure
 
@@ -59,22 +62,10 @@ You can copy hardware, software, record producers, and general catalog items to 
 
 7.  Add a flow to the RRP using **Flow** field.
 
-    Each RRP must have a flow. Choose one of the default Service Exchange flows provided or create your own flow if needed.
+    Each RRP must have a flow. Choose one of the default Service Exchange flows provided or create your own flow if required.
 
-8.  Determine which customers can use the RRP by adding consumer criteria to the RRP.
-
-    1.  Open the RRP.
-
-    2.  In the **Consumer criteria** related tab, select **New**.
-
-    3.  In the **Consumer condition** field, provide the customer company or account that can access this remote task definition.
-
-        For more details on consumer criteria, see [Creating entitlements in Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-entitlements.md).
+8.  Add a consumer criteria.
 
 9.  Select **Publish**.
 
-
-## Result
-
-Remote record producer records are created on your instance. These records are also synchronized with your customer's instance and are pending activation on your consumer's instance.
 

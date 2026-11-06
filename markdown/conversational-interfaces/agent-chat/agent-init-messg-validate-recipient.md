@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Agent-Initiated Messaging Interface, Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Validate recipient IDs for agent-initiated messages
@@ -37,7 +37,7 @@ By using extension points, you can easily integrate customizations without havin
     -   Create and register a custom script include.
     -   Modify the existing script include by going to the Implementations related list and selecting a script include in the **Class** column.
 
-        **Note:** The PhoneNumberValidationExtPointImpl script include that use the global.ChannelSendToValidation extension point is available for validating recipient IDs profiles associated with the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/conversation-sms-service-channel-store-app.md) application.
+        **Note:** The PhoneNumberValidationExtPointImpl script include that use the global.ChannelSendToValidation extension point is available for validating recipient IDs profiles associated with the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/conversation-sms-service-channel-store-app.md) application.
 
 4.  Associate user profiles for an agent-initiated messages by adding the global.ChannelSendToValidation extension point to the script include.
 

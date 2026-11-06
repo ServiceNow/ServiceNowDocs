@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/bcm-and-store.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -18,7 +18,7 @@ Business Continuity Management applications are available from the ServiceNow St
 
 Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-The list of BCM applications available on ServiceNow Store is:
+The list of BCM applications available on ServiceNow Store is explained in the table.
 
 |Application|Description|
 |-----------|-----------|
@@ -31,7 +31,9 @@ The list of BCM applications available on ServiceNow Store is:
 
 **Note:** Installing GRC: Business Impact Analysis, GRC: Business Continuity Planning, or GRC: Crisis Management automatically installs GRC: Business Continuity Management – Core, GRC: Business Continuity Management – Components, and GRC: Approver Configurator.
 
-GRC: Business Continuity Management – Core provides capabilities to configure data that are required for the business continuity management applications. This application also installs GRC: Business Continuity Management – Components: Now Design System components for Business Continuity Management application.
+GRC: Business Continuity Management – Core provides capabilities to configure data required for the business continuity management applications. This application also installs GRC: Business Continuity Management – Components: Now Design System components for the Business Continuity Management application.
+
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 -   **[Get entitlement for the BCM application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/entitle-bcm-product.md)**  
 The first step in installing an application is to verify that the application or the product and its associated applications have valid ServiceNow entitlements.

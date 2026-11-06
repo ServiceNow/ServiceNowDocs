@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Document Templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Using Document Templates
@@ -25,5 +25,5 @@ Complete your document tasks from Employee Center.
 -   **[Using Guided Tours in Document Templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/guided-tours-doc-temp.md)**  
 Use Guided Tours in Document Templates to get instructions on how to create a document template.
 
-**Parent Topic:**[E-signature applications of HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-esigning-app.md)
+**Parent Topic:**[HR Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-esigning-app.md)
 

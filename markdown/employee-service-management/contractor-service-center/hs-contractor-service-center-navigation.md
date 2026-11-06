@@ -7,7 +7,7 @@ release: yokohama
 product: Contractor Service Center
 classification: contractor-service-center
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Contractor Service Center, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ The widgets and quick links available on the contractor service center web inter
 
 Contractor Service Center improves contractor productivity by reducing the time and effort contractors spend looking for services, updates, and information. The Contractor Service Center is a hub that helps organizations to assemble a contractor portal tailored to their needs.
 
-\[Omitted image "hs-contractor-service-center-landing.png"\] Alt text:
+\[Omitted image "hs-contractor-service-center-landing.png"\] Alt text: contractor service center landing page
 
 The contractors gain self-service access on the portal to the following:
 

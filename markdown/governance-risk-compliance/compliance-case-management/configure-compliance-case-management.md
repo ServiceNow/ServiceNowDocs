@@ -7,7 +7,7 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Compliance Case Management, Governance, Risk, and Compliance]
 ---
@@ -26,14 +26,16 @@ You can install the GRC: Compliance Case Management application \(sn\_comp\_case
 Create a case type in the GRC: Compliance Case Management application to categorize the compliance cases by the type of occurrence. For example, you can create a case type, such as a financial case, code of conduct, or HR case.
 -   **[Create a request type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-request-type.md)**  
 Create a request type in the GRC: Compliance Case Management application to categorize and manage the compliance requests. After you create a request type, the compliance analysts and managers can select the required request type on the request form.
--   **[Create a state model to define the workflow states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md)**  
+-   **[Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md)**  
 Create a state model to define the workflow states and transition conditions for compliance case types and request types.
 -   **[Create a workflow state for a compliance case or request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-workflow-state.md)**  
 Create a workflow state for a compliance case or request to define the life cycle of the case or request using the Compliance Case Management application. GRC State Model is to configure the states and the state transitions that are created as part of the table.
--   **[Define the model state transitions for a compliance case or request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-a-model-state-transition-for-compliance-case.md)**  
+-   **[Define model state transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-a-model-state-transition-for-compliance-case.md)**  
 Define the transition conditions to control how a compliance case traverses through the different workflow states by using the GRC: Compliance Case Management application.
 -   **[Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md)**  
 Create an assessment template to request responses from the assessor or reviewer. You can create this template by using the assessment metric type form in the GRC: Compliance Case Management application.
+-   **[Update a compliance case assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/update-ccm-asmt-template.md)**  
+Publish a new version of an assessment template in Compliance Case Management to revise its questionnaire and response options.
 
 **Parent Topic:**[Compliance Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/compliance-case-management.md)
 

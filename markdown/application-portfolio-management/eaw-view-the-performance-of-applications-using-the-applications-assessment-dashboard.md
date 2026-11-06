@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-view-the-performance-of-applications-using-the-applications-assessment-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the Application Assessments dashboard, Work with Enterprise Architecture Workspace dashboard, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Working with Dashboards, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # View application performance in Application Assessments dashboard
@@ -35,5 +35,12 @@ Role required: sn\_apm.apm\_analyst
     **Note:** By default, scores for all applications are displayed in the widgets. You can select an application name to hide their score.
 
 
-**Parent Topic:**[Working with the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.md)
+**Parent Topic:**[Working with Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-dashboards.md)
+
+**Related topics**  
+
+
+[Explore the Application Assessments dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-working-with-the-applications-assessment-dashboard.md)
+
+[Monitor performance in Application 360 dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-monitor-performance-in-application-360-dashboard.md)
 

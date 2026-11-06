@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-12-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Change the source name of Discovery results

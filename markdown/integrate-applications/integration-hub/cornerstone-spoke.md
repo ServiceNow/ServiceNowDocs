@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-07-24"
+last_updated: "2026-03-12"
 reading_time_minutes: 5
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Cornerstone Spoke
@@ -18,7 +18,7 @@ Manage employee records, approvals, and employee learning in your Cornerstone in
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Cornerstone spoke v1.4 is the latest version.
+Cornerstone spoke v1.4 is the latest version. For version history of the spoke, see [Cornerstone spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-cornerstone.html).
 
 ## Supported versions
 
@@ -85,7 +85,7 @@ The Cornerstone spoke provides actions to automate Cornerstone tasks when events
 |Create Assignment|Creates a standard assignment.|Assignment Tool-Standard/Email Settings-View/Bypass User Payment|learningassignment:create|
 |Look up Assignment Details|Looks up assignment details based on Assignment ID.|Assignment Tool - Standard|learningassignment:read|
 |Reporting on Learning Module Management|Look up Tasks From Reporting Data Stream|Retrieves the main view to get training form user tasks.|Reporting API|Reporting API|
-|Look up Trainings From Data Stream|Retrieves the main view to get training data.|Reporting API|Reporting API|
+|Look up Trainings From Data Exporter Stream|Retrieves the main view to get training data.|Reporting API|Reporting API|
 |Look up Transcripts From Data Exporter Data Stream|Retrieves the main view to get all user transcript related data.|transcript\_core|Reporting API|
 |Look up Training Local From Reporting Data Stream|Retrieves the main view to get the training's local data.|Reporting API|Reporting API|
 

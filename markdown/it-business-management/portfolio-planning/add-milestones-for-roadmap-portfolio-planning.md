@@ -1,5 +1,5 @@
 ---
-title: Add milestones for roadmap in Portfolio Planning Workspace
+title: Add milestones for roadmap
 description: Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/add-milestones-for-roadmap-portfolio-planning.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
 breadcrumb: [Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Add milestones for roadmap in Portfolio Planning Workspace
+# Add milestones for roadmap
 
 Track key dates of your plan's timeline by creating milestones and displaying them on the roadmap.
 
@@ -29,15 +29,15 @@ For the timeline of your portfolio plan or free-form roadmap, create milestones 
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d182635e93">
+<table id="choicetable_ngc_1zz_5wb"><thead><tr><th align="left" id="d231057e96">
 
 Roadmap type
 
-</th><th align="left" id="d182635e96">
+</th><th align="left" id="d231057e99">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d182635e102">
+</th></tr></thead><tbody><tr><td id="d231057e105">
 
 **Portfolio plan roadmap**
 
@@ -47,7 +47,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d182635e123">
+</td></tr><tr><td id="d231057e126">
 
 **Free-form roadmap**
 
@@ -85,7 +85,7 @@ If multiple milestones are scheduled close to each other, they might appear grou
 
 \[Omitted image "milestone-group.gif"\] Alt text: milestone group
 
--   **[Update a roadmap milestone in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.md)**  
+-   **[Update a roadmap milestone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-milestone-in-portfolio-planning.md)**  
 Update or delete the milestones that you added to your portfolio plan or free-form roadmap so that they reflect any change of plans.
 
 **Parent Topic:**[Planning roadmaps in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/planning-roadmaps-in-portfolio-planning.md)

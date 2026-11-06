@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software Asset Management publisher pack for Microsoft
@@ -42,17 +42,36 @@ The Software Asset Management publisher pack for Microsoft supports the followin
 
 For more information, see [Supported Microsoft license types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/supported-microsoft-license-types.md).
 
-If a PPN with P+SA license type doesn't have a version assigned, a software model with the exact version is automatically set on a new entitlement and while importing entitlements from a Microsoft License Statement \(MLS\). This automatic action correctly applies Microsoft assurance benefits to an entitlement. For details on the upgrade history of an entitlement, navigate to **Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Software entitlements** &gt; **Upgrade history**.
+If a PPN with a P+SA license type lacks a version assignment, a software model with the exact version is automatically applied. This automatic version assignment occurs both when creating an entitlement and when importing entitlements from a Microsoft License Statement \(MLS\). This automatic action correctly applies Microsoft assurance benefits to an entitlement. For details on the upgrade history of an entitlement, navigate to **Workspaces** &gt; **Software Asset Workspace** &gt; **License operations** &gt; **Software entitlements** &gt; **Upgrade history**.
 
 The **SAMP - Update generic PSA entitlements** fix script automatically updates the existing P+SA entitlements with version as anything, with the specific version, and applies the appropriate licensing terms.
 
+## Permission types
+
+The Software Asset Management publisher pack for Microsoft supports the following permission types to access data through Microsoft APIs. You can select the appropriate type of permission for your application to access data correctly and securely.
+
+-   **Delegated type permission**
+
+    These permissions enable the application to access data on behalf of a signed-in user, which means the application can access only the data that a signed-in user has access to.
+
+-   **Application type permission**
+
+    These permissions enable the application to access data without a signed-in user. The application can access any data that the permission is associated with.
+
+
 -   **[Microsoft SQL Server licensing in container deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/microsoft-licensing-software-containers.md)**  
 The Software Asset Management publisher pack for Microsoft supports licensing rules for Microsoft SQL Server products that are deployed across both on-premise and cloud environments using Docker containers.
+-   **[Microsoft Server licensing on Microsoft Hyper-V virtualization technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/microsoft-server-licensing-hyper-v-virtualization-technology.md)**  
+The Software Asset Management publisher pack for Microsoft supports licensing rules for Microsoft Server products, such as Microsoft Windows Server, that are deployed on Microsoft Hyper-V virtualization technology.
+-   **[Microsoft SQL Server licensing in high availability configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/microsoft-sql-server-ha-configurations.md)**  
+The Software Asset Management publisher pack for Microsoft supports licensing rules for Microsoft SQL Server deployed through high availability and disaster recovery solutions, such as Always On availability groups.
 -   **[Manage licenses for Microsoft Visual Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-visual-studio-licenses.md)**  
 Manage your Visual Studio subscriptions with the Software Asset Management publisher pack for Microsoft. Verify license compliance and detect unlicensed installations. Reduce licensing costs by identifying subscriptions that are allocated but aren’t being used.
 -   **[Cost-based licensing optimization for Microsoft](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/cost-based-microsoft-cluster-licensing.md)**  
 The cost-based licensing optimization for Microsoft helps you determine the most optimal way to license your Microsoft software products across hybrid infrastructures. With this optimization, you can automatically balance license compliance with cost effectiveness to maximize cost savings.
--   **[Optimizing Microsoft SQL Server database and component license consumption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sql-comp-edi-discovery.md)**  
+-   **[Create preferred licensing assignments for Microsoft software products deployed on clusters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/apply-preferred-licensing-assignments-microsoft-clusters.md)**  
+Create and define preferred licensing assignments for the Microsoft software products that are deployed on your hypervisor clusters. Use these assignments to specify whether you want to license each software product at either the physical host layer or virtual layer.
+-   **[Optimizing license consumption for Microsoft SQL Server databases and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sql-comp-edi-discovery.md)**  
 You can optimize the license consumption for your Microsoft SQL Server databases and components based on the component editions that are identified through ITOM Discovery.
 -   **[Importing Microsoft entitlements from a Microsoft License Statement \(MLS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/importing-mls-entitlements.md)**  
 You can import entitlements from an MLS to automatically define the license details and license agreements that are matched to your Microsoft software models.

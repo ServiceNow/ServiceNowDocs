@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -25,9 +25,9 @@ Demo data is available for this feature.
 |Roles|Description|Contains roles|
 |-----|-----------|--------------|
 |sn\_wsd\_central.workspace\_user|Has access to the Workplace Central workspace.|canvas\_user|
-|sn\_wsd\_central.workplace\_analytics\_user|Has access to the Workplace Analytics workspace|sn\_wsd\_central.workspace\_user|
+|sn\_wsd\_central.workplace\_analytics\_user|Has access to the Workplace Analytics workspace.|sn\_wsd\_central.workspace\_user|
 
-For details of roles that are required to use the Workplace Central, refer to the roles installed with Workplace Space Management and Workplace Move Management.
+For details of roles that are required to use the Workplace Central, see the roles installed with Workplace Space Management and Workplace Move Management.
 
 ## Tables
 
@@ -50,9 +50,9 @@ A table to store Capacity and Utilization drilled down to the area level.​
 </td></tr></tbody>
 </table>## Scripts
 
-|Table|Description|
-|-----|-----------|
-|WSDSpaceMgmtAnalyticsSNC|Script which populates the capacity vs utilization table for Space Management in Workplace Analytics​|
+|Script|Description|
+|------|-----------|
+|WSDSpaceMgmtAnalyticsSNC|Script that populates the capacity vs utilization table for Space Management in Workplace Analytics.|
 
 **Parent Topic:**[Workplace Central reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/workplace-central-references.md)
 
@@ -84,4 +84,14 @@ A table to store Capacity and Utilization drilled down to the area level.​
 [Move conflicts for projects created via Excel upload]()
 
 [Workplace Central troubleshooting]()
+
+[Workplace Task form - Space Assignment task]()
+
+[Neighborhood User Assignment Rule form]()
+
+[User Workplace Profile form]()
+
+[]()
+
+[]()
 

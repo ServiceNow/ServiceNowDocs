@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ser-ov.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Monitor, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Landing page and dashboard views, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
 # Services overview tab
@@ -190,7 +190,7 @@ The Services report on the **Services overview** tab provides a quick summary wi
 
 ## Report on the red flags
 
-The Red flags report on the **Services overview** tab shows the total number of red flags that require immediate attention for the associated assets, controls, issues, and risks related to the selected service. It breaks down details of the red flags based on the integrations with the Operational Resilience application. For example, if you have installed the Policy and Compliance Management application, services data for the failed controls is pulled from that application and displayed in this report.
+The Red flags report on the **Services overview** tab shows the total number of red flags that require immediate attention. These red flags are associated with assets, controls, issues, and risks related to the selected service. The report breaks down details based on integrations with the Operational Resilience application. For example, if you have installed the Policy and Compliance Management application, services data for the failed controls is pulled from that application and displayed in this report.
 
 A sample Red flags report for the services is shown in the example.
 

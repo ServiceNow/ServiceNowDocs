@@ -1,22 +1,22 @@
 ---
-title: Field watcher
-description: The field watcher tool tracks and displays all actions that the system performs on a selected form field.Access field-level debugging information using the field watcher.The field watcher displays field information and configuration options.Administrators may need to watch a hidden field.When information for a watched field is changed and the record is updated, the field watcher tab displays relevant information at the bottom.The following example shows what happens to the Priority field on the incident form when both the Impact and Urgency fields change.
+title: Watching fields
+description: The field watcher tool tracks and displays all actions that the system performs on a selected form field.Access field-level debugging information using the field watcher.The field watcher displays field information and configuration options.Administrators may need to watch a hidden field.When information for a watched field is changed and the record is updated, the field watcher tab displays relevant information at the bottom.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/c\_FieldWatcher.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Debugging scripts, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [JavaScript debug window, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Field watcher
+# Watching fields
 
 The field watcher tool tracks and displays all actions that the system performs on a selected form field.
 
-**Note:** Field watcher is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
+**Note:** Field watcher is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 Administrators can use the field watcher to figure out what happens to the field and how the value of the field changes when an event such as the firing of a business rule or enforcement of a data policy, takes place. Administrators can also impersonate non-admin users to debug what happens when those users make changes on an instance. Only one field can be watched at a time. Non-admin users with the impersonator role have access to the field watcher feature.
 
@@ -40,7 +40,7 @@ The Field Watcher tool logs activity when any of the following events occur on a
 
 **Note:** The field watcher works only on form fields. It cannot be used on list fields. Also, field watcher is not available on password-protected fields or encrypted fields. Field watcher is only available within the UI frame. The option to watch a field does not appear in the context menu if you open a record outside of the UI frame, for example, in a new tab.
 
-**Parent Topic:**[Debugging scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debug-overview.md)
+**Parent Topic:**[JavaScript debug window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/c_JavaScriptDebugWindow.md)
 
 ## Use field watcher
 
@@ -56,7 +56,7 @@ Role required: none
 
 2.  Activate field watcher by right-clicking any field label on a form and select **Watch - '&lt;field name&gt;'**.
 
-    The debug icon \(\[Omitted image "Debug.png"\] Alt text: The debug icon\) appears next to the field label. From this point on, the field watcher records every action taken on the selected field. For example, if you are watching a Priority field, if the priority is changed from Moderate to Low and the record is updated, the field watcher will display information about that change.
+    The debug icon appears next to the field label. From this point on, the field watcher records every action taken on the selected field. For example, if you are watching a Priority field, if the priority is changed from Moderate to Low and the record is updated, the field watcher will display information about that change.
 
 3.  View the field watcher log by clicking the debug icon.
 
@@ -68,7 +68,7 @@ Role required: none
 
     To watch another field, right-click that field and select **Watch - &lt;field name&gt;**.
 
-6.  Clear the field watcher log by clicking the clear log button \(\[Omitted image "FieldWatcherClearLogButton.png"\] Alt text: The clear log button\).
+6.  Clear the field watcher log by clicking the clear log icon.
 
 7.  Resize the field watcher pane by dragging the splitter bar up or down.
 
@@ -105,7 +105,7 @@ Administrators may need to watch a hidden field.
 
 4.  In Run script \(JavaScript executed on server\), enter the following command:
 
-    ```
+    ```javascript
     gs.getSession ( ). setWatchField ( "hidden_field" ) ;
     ```
 
@@ -120,8 +120,6 @@ Administrators may need to watch a hidden field.
 
 When information for a watched field is changed and the record is updated, the field watcher tab displays relevant information at the bottom.
 
-\[Omitted image "FieldWatcherViewingData.png"\] Alt text: Field watcher viewing data
-
 Field watcher information includes:
 
 -   **Timestamp**: time the field was changed using the HH:MM:SS \(ms\) format.
@@ -132,46 +130,4 @@ Field watcher information includes:
 -   **Additional information**: Call tracing information, such as the name of the script engine or workflow that changed the field. Click the plus icon to expand the selection.
     -   **Orange text**: Indicates server-side activity.
     -   **Blue text**: Indicates client-side activity.
-
-## Example: Watching the incident priority
-
-The following example shows what happens to the **Priority** field on the incident form when both the **Impact** and **Urgency** fields change.
-
-The Incident form has two client-side data lookups change the priority. Additionally, server-side ACLs and the data lookup engine fire when the record is saved. Finally, a client-side UI policy sets the **Priority** field back to read-only, which is the default setting.
-
-<table id="table_psz_5n2_qp"><thead><tr><th>
-
-Original values
-
-</th></tr></thead><tbody><tr><td>
-
--   Priority:1 - Critical
--   Impact:1 - High
--   Urgency:1 - High
-
-</td></tr><tr><td>
-
-First Change
-
-</td></tr><tr><td>
-
-1.  The user changes the **Impact** value to **3 - Low**.
-2.  The priority automatically changes to **3 - Moderate** based on the **Priority Lookup** data lookup definition used by default in ServiceNow incidents.
-
- **Note:** At this point, the record has not been saved.
-
-</td></tr><tr><td>
-
-Second Change
-
-</td></tr><tr><td>
-
-1.  The user changes the **Urgency** value to **2 - Medium**.
-2.  The priority automatically changes to **4 - Low** based on the same **Priority Lookup** data lookup definition.
-3.  The user saves the record by right-clicking the form header and choosing **Save**.
-
-</td></tr></tbody>
-</table>\[Omitted image "FieldWatcherExample1.png"\] Alt text:
-
-**Note:** The values that change from 1 to 3, and then from 3 to 4, refer to the numerical values in the choice list.
 

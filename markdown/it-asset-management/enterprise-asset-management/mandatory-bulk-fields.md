@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Management reference, Enterprise Asset Management, Asset Management]
 ---
 
 # Mandatory fields in the bulk import spreadsheets
@@ -32,7 +32,7 @@ Mandatory for updating models
 
 </th></tr></thead><tbody><tr><td>
 
-Index**Note:** Representing the row number can be used to identify a specific row. However, you need to fill this in manually.
+Index**Note:** Representing the row number can be used to identify a specific row. However, you must fill this in manually.
 
 </td><td>
 
@@ -215,7 +215,7 @@ Mandatory for updating assets
 
 </th></tr></thead><tbody><tr><td>
 
-Index**Note:** Representing the row number can be used to identify a specific row. However, you need to fill this in manually.
+Index**Note:** Representing the row number can be used to identify a specific row. However, you must fill this in manually.
 
 </td><td>
 
@@ -283,7 +283,7 @@ Yes**Note:** Not applicable for single assets.
 
 </td><td>
 
-Yes
+Yes**Note:** Not applicable for single assets.
 
 </td></tr><tr><td>
 
@@ -295,7 +295,7 @@ Yes**Note:** Not applicable for single assets.
 
 </td><td>
 
-Yes
+Yes**Note:** Not applicable for single assets.
 
 </td></tr><tr><td>
 
@@ -307,7 +307,7 @@ Yes**Note:** Not applicable for single assets.
 
 </td><td>
 
-Yes
+Yes**Note:** Not applicable for single assets.
 
 </td></tr><tr><td>
 
@@ -327,11 +327,11 @@ Asset Tag
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td></tr><tr><td>
 
@@ -339,11 +339,11 @@ Serial Number
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td><td>
 
-No
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td></tr><tr><td>
 
@@ -351,11 +351,11 @@ MAC Address
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td><td>
 
-No
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td></tr><tr><td>
 
@@ -494,7 +494,7 @@ Mandatory for updating models and assets
 
 </th></tr></thead><tbody><tr><td>
 
-Index**Note:** Representing the row number can be used to identify a specific row. However, you need to fill this in manually.
+Index**Note:** Representing the row number can be used to identify a specific row. However, you must fill this in manually.
 
 </td><td>
 
@@ -666,11 +666,11 @@ Asset Tag
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td></tr><tr><td>
 
@@ -678,11 +678,11 @@ Serial Number
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td><td>
 
-No
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td></tr><tr><td>
 
@@ -690,11 +690,11 @@ MAC Address
 
 </td><td>
 
-Yes
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td><td>
 
-No
+Conditional**Note:** At least one unique identifier is required for non-consumables based on model category.
 
 </td></tr><tr><td>
 
@@ -894,15 +894,21 @@ Conditional**Note:** Required if the temperature value is provided \(Enterprise 
 </td></tr></tbody>
 </table>## Reference fields validation
 
-The values entered in the following columns should exist in the database:
+The values entered in the following columns must exist in the database:
 
--   PO Number
--   Assigned To
--   Department
--   Company
--   Cost Center
--   Asset Depreciation
--   Aisle Space Location
+-   Manufacturer
+-   Model failure impact
+-   Model failure likelihood
+-   Owner
+-   Stockroom
+-   Location
+-   Managed by
+-   Owned by
+-   Reserved for
+-   Supported by
+-   Vendor
+-   Asset failure impact
+-   Asset failure likelihood
 
 **Parent Topic:**[Enterprise Asset Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/reference-enterprise-asset-management.md)
 
@@ -911,7 +917,7 @@ The values entered in the following columns should exist in the database:
 
 [Domain separation and Enterprise Asset Management]()
 
-[Enterprise Asset Management roles]()
+[Components installed with Enterprise Asset Management]()
 
 [OT Asset Workspace roles]()
 
@@ -944,14 +950,6 @@ The values entered in the following columns should exist in the database:
 [Enterprise asset disposal order stages]()
 
 [Terminology for linear assets]()
-
-[Installed with Enterprise Asset Management for Healthcare]()
-
-[Installed with OT Asset Management]()
-
-[Components installed with Enterprise Asset Management for Data Center and Network Asset Management \(DCNAM\)]()
-
-[Components installed with Enterprise Asset Management for Providers]()
 
 [Scheduled jobs and tables installed with normalization of firmware models]()
 

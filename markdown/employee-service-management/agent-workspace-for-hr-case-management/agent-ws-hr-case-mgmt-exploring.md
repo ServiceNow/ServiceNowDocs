@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Exploring Agent Workspace for HR Case Management
@@ -82,7 +82,7 @@ Analytics Center
 
 </td><td>
 
-The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics. For more information, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
+The Analytics Center provides an overview of your most important dashboards and data visualizations along with a place for you to ask questions about analytics. For more information, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
 
 </td></tr><tr><td>
 
@@ -118,7 +118,7 @@ Add icon
 
 </td><td>
 
-Select to instantly create one of the following:-   **Create HR case**. For more information, see[Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
+Select to instantly create one of the following:-   **Create HR case**. For more information, see [Create a case in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-configurable-hr-create-case.md).
 -   **Create interaction**. An interaction is when an employee contacts an HR agent and you want to ensure the interaction is documented and captured. For more information, see [Using interactions in Agent Workspace for HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-interactions.md).
 
 </td></tr><tr><td>

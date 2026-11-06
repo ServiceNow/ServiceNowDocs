@@ -7,7 +7,7 @@ release: yokohama
 product: Test Management
 classification: test-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Test Management 1.0, Test Management applications, Strategic Portfolio Management]
 ---
@@ -18,10 +18,7 @@ Report a defect from an individual test that has failed so that you can further 
 
 ## Before you begin
 
--   [Activate Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/activate-agile-development.md)
-
-    The ability to report a defect is available only if the Agile Development 2.0 plugin is activated.
-
+-   The ability to report a defect is available only if the Agile Development 2.0 plugin is activated.
 -   Perform tests and update the test status. For more information, see [Performing tests and updating the test status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/test-management/c_Tester.md).
 -   Role required: tm\_tester
 

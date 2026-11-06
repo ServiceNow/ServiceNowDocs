@@ -1,5 +1,5 @@
 ---
-title: Modify a portfolio plan in Strategic Planning
+title: Modify a portfolio plan
 description: Update the details of a portfolio plan in Strategic Planning Workspace or delete it, to reflect the changes in your planning priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/modify-the-details-of-a-portfolio-plan-alignment-planner-workspace.html
@@ -7,19 +7,19 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plans, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Modify a portfolio plan in Strategic Planning
+# Modify a portfolio plan
 
 Update the details of a portfolio plan in Strategic Planning Workspace or delete it, to reflect the changes in your planning priorities.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
@@ -39,15 +39,15 @@ Role required: sn\_align\_core.apw\_user or business\_stakeholder
 
 4.  Update the details of the portfolio plan or delete it.
 
-<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d154923e140">
+<table id="choicetable_hjj_wbj_gvb"><thead><tr><th align="left" id="d193897e144">
 
 Choice
 
-</th><th align="left" id="d154923e143">
+</th><th align="left" id="d193897e147">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d154923e149">
+</th></tr></thead><tbody><tr><td id="d193897e153">
 
 **Update portfolio plan**
 
@@ -58,7 +58,7 @@ Action
 3.  Select **Update**.
 
 
-</td></tr><tr><td id="d154923e177">
+</td></tr><tr><td id="d193897e181">
 
 **Delete portfolio plan**
 
@@ -77,7 +77,7 @@ Action
 
 [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/share-portfolio-plan-alignment-planner-workspace.md)
 
-[Collaborate on a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)
+[Collaborate on a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/collaborate-stakeholders-portfolio-plan-alignment-planner-workspace.md)
 
 [Show or hide the features for a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/show-or-hide-the-features-for-your-portfolio-plan-spw.md)
 

@@ -1,18 +1,18 @@
 ---
 title: Setting up the crisis map
-description: Before you integrate the crisis management map with the geographical locations of your assets, there are certain configurations that you must do to display the active alerts in the crisis map.
+description: Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/Setting-up-crisis-map.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Setting up the crisis map
 
-Before you integrate the crisis management map with the geographical locations of your assets, there are certain configurations that you must do to display the active alerts in the crisis map.
+Before you integrate the crisis management map with the geographical locations of your assets, complete certain configurations to display active alerts in the crisis map.
 
 ## Understanding feed, alert, and event
 
@@ -31,16 +31,11 @@ Before you integrate the crisis management map with the geographical locations o
 
 ## Setup steps to integrate crisis map
 
-You require the following steps of configurations for the threat and alert feeds to show up in the crisis map visualization.
+You require these configurations for the threat and alert feeds to show up in the crisis map visualization.
 
 -   To search locations on the crisis map, [set up the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-place-api-configuration.md).
 -   To manage your threat feed subscriptions sourced internally and externally, [configure scheduled data imports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-scheduled-data-imports.md).
 -   To plot your organization's assets or resources on the crisis map, [configure the resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-configure-resource.md).
 -   To specify the conditions under which a feed should bubble up as an alert on the crisis map, [configure alert rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-alert-configuration.md).
 -   Finally, to act on a critical alert from the crisis map dashboard, [configure an alert action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-alert-actions.md).
-
--   **[Configure search for places in crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-place-api-configuration.md)**  
-Set the system property to manage searching places on the crisis map.
-
-**Parent Topic:**[Crisis Management map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-management-map-integration.md)
 

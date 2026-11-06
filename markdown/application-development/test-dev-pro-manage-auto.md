@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-dev-pro-manage-auto.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage apps with pro-code tools, Pro-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Manage apps with pro-code tools, Pro-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Automate apps with pro-code tools
@@ -20,11 +20,11 @@ Automate your ServiceNow apps.
 
 </td><td>
 
-Flows in Workflow Studio \[Omitted image "icon-flow-designer.png"\] Alt text: Flow Designer. Enables process owners to automate work with the ServiceNow platform.
+[Flows in Workflow Studio \[Omitted image "icon-flow-designer.png"\] Alt text: Flow Designer. Enables process owners to automate work with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)
 
 </td><td>
 
-Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decision Builder. Enable developers to decouple decision logic from their code by creating and maintaining decision rules.
+[Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decision Builder. Enable developers to decouple decision logic from their code by creating and maintaining decision rules.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)
 
 </td></tr><tr><td>
 
@@ -32,7 +32,7 @@ Decision Builder \[Omitted image "icon-decision-builder.png"\] Alt text: Decisio
 
 </td><td>
 
-Business rules \[Omitted image "icon-log.png"\] Alt text: Business rules. Use business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.
+[Business rules \[Omitted image "icon-log.png"\] Alt text: Business rules. Use business rules to accomplish tasks like automatically changing values in form fields when certain conditions are met.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
 
 </td><td>
 

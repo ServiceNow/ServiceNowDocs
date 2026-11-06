@@ -1,71 +1,44 @@
 ---
 title: Localization on mobile devices
-description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages.
+description: ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/localization-mobile-device.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-04"
 reading_time_minutes: 2
-breadcrumb: [Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Localization on mobile devices
 
-ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages.
+ServiceNow mobile apps are localized in many languages, including both left-to-right and right-to-left languages. Additionally, you can customize non-default languages on the client-side. These features verify that your translations remain consistent across your mobile applications.
+
+**Note:** For new customers on client version 22.2, only one language option is displayed to the user in the Settings menu. After users select Language in the menu they are navigated to the language accounts page. The single language option is displayed if you configure the property glide.sg.unify\_language\_settings and mark it as `true`. For more information, see .
 
 \[Omitted image "mobile-language-selector.png"\] Alt text: Mobile language selector
 
-The native mobile applications are localized in two different ways, which means that there is a blending of localization visible inside native applications.
+ServiceNow mobile applications draw localized texts from multiple sources, which means that native apps may display a mix of localization methods.
 
-## Native localization
+-   **Native localization**
 
-Native \(on device\) localization: Controlled by the device's language preference, which means that many components are localized with the language preference for the user's device. These components can include local screen titles \(such as Settings\) and local button titles \(such as the Clear All button on the filters screen\).
+    Native localization uses the device’s language settings to automatically localize built-in elements such as screen titles and button labels. For more information, see [Native localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-native.md).
 
-The on-device localization supports the following languages:
+-   **Server-side localization**
 
--   I18N: Arabic Translations
--   I18N: Brazilian Portuguese Translations
--   I18N: Czech Translations
--   I18N: Dutch Translations
--   I18N: Finnish Translations
--   I18N: French Canada Translations
--   I18N: French Translations
--   I18N: German Translations
--   I18N: Hebrew Translations
--   I18N: Hungarian Translations
--   I18N: Italian Translations
--   I18N: Japanese Translations
--   I18N: Korean Translations
--   I18N: Norwegian Translations
--   I18N: Polish Translations
--   I18N: Portuguese Translations
--   I18N: Russian Translations
--   I18N: Simplified Chinese Translations
--   I18N: Spanish Translations
--   I18N: Swedish Translations
--   I18N: Thai Translations
--   I18N: Traditional Chinese Translations
--   I18N: Turkish Translations
+    Server-side localization is controlled in a similar way to desktop web localization, using the server system language or user preference. This option enables you to customize translations for components like field labels and web content. For more information, see [Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-server-side.md).
 
-These translations can't be customized since they ship with the application binary and translated natively on the device according to the language settings for the device.
+-   **Client-side localization**
 
-## Server-side localization
+    Client-side localization uses the device’s UI to localize app-rendered elements such as screens, lists, and buttons. You can include languages beyond those natively supported by the ServiceNow AI Platform base system. For more information, see [Client-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-client.md).
 
-Server-side localization: Controlled the same way as desktop web localization \(server system language / user preference on server\). Localized components on the server include things like field labels, web content, and other data stored on the server in a translated field.
 
-You can customize translations that use server-side localization the same way you do on the desktop. Translated these elements using the translated name/field table on your instance. For more details on this table, see [Translated Name / Field table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_TranslatedNameFieldTable.md)
-
-This series of screenshots shows a mobile app on a mobile device with Spanish set as its native language. The device is connected to a ServiceNow instance where the instance language is set to English. The user's mobile device translates the Spanish portions the text according to the device's user preferences. These elements cannot be changed with your instance localization settings.
-
-The English portions are not translated by the mobile device. The English text can be translated using your instances localization settings. As a admin you have control over how these elements are translated.
-
-\[Omitted image "localization-detail-1.png"\] Alt text: Mobile screens showing English as the instance language and Spanish as the native device language.
-
--   **[Create translation records for mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-translation.md)**  
-Create records on the Translated Name / Field table to translate elements of your mobile app that are not natively translated.
--   **[Translation values for mobile element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-translation-reference.md)**  
-Use this reference to find which values to use to translate your mobile elements
+-   **[Native localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-native.md)**  
+Native \(on device\) localization is controlled by the device's language preference, which means that many components are localized with the language preference for the user's device. These components can include local screen titles, such as Settings, and local button titles, such as the Clear All button on the filter screen.
+-   **[Server-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-server-side.md)**  
+Server-side localization works the same way as desktop web localization, using either the server system language or user preferences set on the server. Localized components on the server include things like field labels, web content, and other data stored on the server in a translated field.
+-   **[Client-side localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/localization-client.md)**  
+Add customized client-side translations to extend language support on your mobile device. You can include languages beyond those natively supported by the ServiceNow AI Platform base system.
 
 **Parent Topic:**[Considerations before implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/imp-considerations.md)
 

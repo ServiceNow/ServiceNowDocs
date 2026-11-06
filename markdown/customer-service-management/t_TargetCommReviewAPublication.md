@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_TargetCommReviewAPublication.html
 release: yokohama
 topic_type: task
-last_updated: "2025-06-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Review a publication
@@ -38,7 +38,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 5.  Click one of the following options.
 
-<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d231242e132">
+<table id="choicetable_i13_3fn_55"><tbody><tr><td id="d285337e132">
 
 **Approve**
 
@@ -46,7 +46,7 @@ The **Approvers** related list displays a list of approval tasks and includes mo
 
 The review state changes to **Approved** on the Approvals list and the publication stage is set to **Ready To Publish**.For other approvers of this article, the review state changes to **No Longer Required**.
 
-</td></tr><tr><td id="d231242e153">
+</td></tr><tr><td id="d285337e153">
 
 **Reject**
 

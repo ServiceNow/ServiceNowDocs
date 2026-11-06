@@ -1,5 +1,5 @@
 ---
-title: Configure system properties for Save as draft option
+title: Configure the Save as draft option
 description: Configure the system properties to enable the Save as draft option for some catalog item. For example, on the permit to work form or for password reset.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contractor-service-center/hs-configure-system-properties-contractor-service-center.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Contractor Service Center
 classification: contractor-service-center
 topic_type: task
-last_updated: "2025-07-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, Contractor Service Center, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Contractor Service Center, Health and Safety, Employee Service Management]
 ---
 
-# Configure system properties for Save as draft option
+# Configure the Save as draft option
 
 Configure the system properties to enable the **Save as draft** option for some catalog item. For example, on the permit to work form or for password reset.
 

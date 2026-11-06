@@ -1,54 +1,45 @@
 ---
-title: HR Service Delivery case restrictions for an Employee Relations agent
-description: Even Employee Relations agents with special privileges to view and modify a case are limited from viewing, modifying or restricting a case under certain circumstances for security purposes.
+title: HR for HR Security
+description: Even Employee Relations agents with privileges to view and modify an ER case are limited from viewing, modifying, or restricting and ER case under certain circumstances for security purposes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-case-restriction-er-agent.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Relations case restrictions, Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery case restrictions for an Employee Relations agent
+# HR for HR Security
 
-Even Employee Relations agents with special privileges to view and modify a case are limited from viewing, modifying or restricting a case under certain circumstances for security purposes.
-
-An Employee Relations agent is treated as a normal employee and does not have any kind of special privileges if the agent meets one of the following criteria:
-
--   The person for whom the case was opened.
--   An involved party in a case.
--   A subject person.
+Even Employee Relations agents with privileges to view and modify an ER case are limited from viewing, modifying, or restricting and ER case under certain circumstances for security purposes.
 
 Restrictions are enabled for the Employee Relations agent in the following areas of the ServiceNow instance:
 
-## UI actions
+## Limited access
 
-Actions such as Update, Ready for Work, and Cancel that are available to regular employees are also available to the agent. Actions such as Associate Interaction, Delete, Close Complete, Close Incomplete, and Suspend are not available.
+When an ER agent is **Subject Person**, or **Opened for**, or **Complainant** on the ER case:
 
-## View
+-   **View**
 
-Can view only the restricted self-service view of the case on the Agent Workspace, the platform view, and the Employee Center. The agent cannot change the view.
+    Can view only the self-service view of the ER case on Agent Workspace, the platform view, and the Employee Center that are available to regular employees. The agent cannot change the view.
 
-## Access to related lists and records
+-   **UI actions**
 
-No access to the related lists and related records for a case, for example, allegations, involved parties, interviews, evidence, and so on. The agent cannot access the related records in the platform view.
+    Actions on the ER case that are available to regular employees are also available to the ER agent.
 
-## Access to tasks
+-   **Access to related lists and records**
 
-Can view only the tasks assigned to them and not tasks assigned to other employees.
+    No access to the related lists and related records for an ER case, for example, allegations, involved parties, interviews, evidence, and so on. The agent cannot access the related records in the platform view.
 
-## Case restriction configuration
+-   **Access to Tasks**
 
-Case restriction configuration enables the HR confidential group members to restrict a case using the **Restrict** button available on the case.
+    Can view only the assigned tasks and not tasks assigned to other employees.
 
-Restricting a case means that even if an Employee Relations agent is part of the HR confidential group and is involved in a case, the agent will not have access to that case. For more information on case restriction, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
 
-## Security Configuration
+## No access
 
-For Employee Relations COE \(Center of Excellence\), the HR matching rules skip any Employee Relations agent who meets the criteria so that the case is not assigned to them. For more information, see [Create a COE security policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-create-coe-security-policy.md).
-
-COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control-rules.md).
+When an ER agent is either **Subject of Allegation**, or **Witness** on the ER case, the ER agent will not have any access to that ER case.
 

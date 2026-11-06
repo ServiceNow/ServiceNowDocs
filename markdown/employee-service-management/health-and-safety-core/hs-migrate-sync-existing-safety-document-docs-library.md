@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: task
-last_updated: "2025-11-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure settings, Health and Safety Core, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Health and Safety Core, Health and Safety, Employee Service Management]
 ---
 
 # Migrate existing safety documents to the Document library
@@ -53,15 +53,13 @@ Use the Document Migration tool to seamlessly move your existing safety document
 
 [Install Health and Safety Core]()
 
-[Set up your workplace location data]()
+[Workplace location data]()
 
 [Enable a Health and Safety table for configuring report field mapping]()
 
 [Create a safety report field mapping for generating reports]()
 
 [Configure groups for Health and Safety]()
-
-[Configure scheduled job to generate frequency rates]()
 
 [Assign Health and Safety profile to a user]()
 

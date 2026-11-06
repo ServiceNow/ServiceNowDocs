@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: task
 last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Agent Client Collector installation on a Linux OS system, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Linux OS system, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Install Agent Client Collector on a Linux system
@@ -23,7 +23,7 @@ Install Agent Client Collector using a package distribution tool.
 -   Verify that your server's Operation Systems and version is supported. For a list of supported Operation Systems and their versions, see [ServiceNow Store Page](https://store.servicenow.com/store/app/bc09636e1be06a50a85b16db234bcbd1).
 -   Verify whether there are restrictions or requirements to be aware of during deployment, such as specifying an account other than the default servicenow account. For more information about embedding the agent into your own automated system, see [ITOM Agent Client Collector documentation material \[KB1122613\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1122613).
 -   Ensure that the MID Server and its MID Web Server and ACC Websocket Endpoint extensions are up and running.
--   Enable golden image mode for cloning additional agents by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
+-   \(Optional\): Enable golden image mode for cloning additional agents by setting the golden image marker located at `/tmp/acc-goldenimage`. The golden image marker takes no action during new Linux installations, as there is nothing which requires cleaning.
 -   Retrieve the MID Server ACC Listener information to be specified in the agent's **backend-url** parameter.
     1.  Navigate to **All** &gt; **Agent Client Collector** &gt; **Deployment** &gt; **MID Servers**.
     2.  Select a MID Server.
@@ -246,7 +246,7 @@ SLES
         ```
         User_Alias ACC_USERS = servicenow
         Cmnd_Alias ACC_CMD = /usr/sbin/dmidecode -s baseboard-serial-number,/usr/sbin/dmidecode -s chassis-serial-number,/usr/sbin/dmidecode -s system-serial-number,/usr/sbin/dmidecode -s system-uuid,/usr/sbin/ss -tanp,/usr/bin/systemctl start 
-        acc,/usr/bin/systemctl stop acc,/usr/bin/dpkg --install --refuse-downgrade --skip-same-version /var/cache/servicenow/agent-client-collector/upgrade/agent-client-collector-upgrade*
+        acc,/usr/bin/systemctl stop acc,/usr/bin/dpkg --install --refuse-downgrade --skip-same-version /var/cache/servicenow/agent-client-collector/upgrade/agent-client-collector-upgrade*,/usr/sbin/dmidecode -t 17
         Cmnd_Alias ACC_CMD_SETENV = /usr/bin/netstat -ltnup,/usr/bin/ls -l /proc/*,/usr/bin/cat /proc/*
         ACC_USERS ALL = (root) NOPASSWD:ACC_CMD
         ACC_USERS ALL = (root) NOPASSWD:SETENV:ACC_CMD_SETENV

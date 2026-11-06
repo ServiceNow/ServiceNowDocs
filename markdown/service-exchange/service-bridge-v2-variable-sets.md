@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Remote record producers in Service Exchange, Create remote catalogs in Service Exchange for providers, Installing and configuring Service Exchange for Providers, Service Exchange for Providers, Service Exchange]
+breadcrumb: [Create remote catalogs, Configure for providers, Service Exchange for Providers, Service Exchange]
 ---
 
 # Using variable sets with Remote Record Producers
@@ -26,7 +26,6 @@ As a provider, you can create and associate variable sets with remote record pro
 **Note:**
 
 -   Variable sets containing variables with unsupported variable types \(Custom, Custom with Label, and UIPage\) will not be synced until the invalid variables are removed.
--   Variable sets containing variables or UI Policies with scripting will not be synced until all scripting is removed.
 -   Remote record producers containing invalid variable sets cannot be published. To publish the remote record producer, you must either resolve the validation issues or unassign the invalid variable set from the remote record producer.
 
 For more details on variable sets and how they are used, see [Service catalog variable sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ServiceCatalogVariableSets.md).

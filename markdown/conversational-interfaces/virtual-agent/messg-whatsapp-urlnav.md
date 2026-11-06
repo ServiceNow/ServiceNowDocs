@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Conversational Integration with WhatsApp \(powered by Twilio\), Integrating Virtual Agent with WhatsApp, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Configure, WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Set the URL navigation for WhatsApp chat
@@ -43,5 +43,5 @@ Role required: admin
 
 ## What to do next
 
-For more information on setting up URL navigation, see [Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/ac-configure-url-navigation.md).
+For more information on setting up URL navigation, see [\(Legacy\) Configure URL navigation for chat links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/ac-configure-url-navigation.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Auto populate information from email to legal request or matter
@@ -48,15 +48,15 @@ The script include **OutlookMappingConfig** available in the base system support
 
 4.  In the copied mapping object, specify the key-value pairs using the variables from the intake form.
 
-<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d218321e172">
+<table id="choicetable_mdk_wvs_xcc"><thead><tr><th align="left" id="d236620e172">
 
 Variables from email
 
-</th><th align="left" id="d218321e175">
+</th><th align="left" id="d236620e175">
 
 Variables from legal request
 
-</th></tr></thead><tbody><tr><td id="d218321e181">
+</th></tr></thead><tbody><tr><td id="d236620e181">
 
 **subject**
 
@@ -68,7 +68,7 @@ Example: If you want to copy the subject of email into the short description of 
 short_description: "subject"
 ```
 
-</td></tr><tr><td id="d218321e201">
+</td></tr><tr><td id="d236620e201">
 
 **fromEmail**
 
@@ -80,7 +80,7 @@ Example: If you want to copy the sender's email address into the requested for o
 requested_for: "fromEmail"
 ```
 
-</td></tr><tr><td id="d218321e221">
+</td></tr><tr><td id="d236620e221">
 
 **body**
 

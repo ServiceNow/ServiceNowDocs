@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up a table configuration, Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Set up a table configuration, Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure multi-dimensional mining
@@ -20,7 +20,7 @@ Use multi-dimensional mining to identify inefficiencies and improve performance 
 
 You must install and configure Process Mining plugins before configuring multi-dimensional mining on tables.
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## About this task
 
@@ -66,7 +66,7 @@ Select the search icon next to **Parent Table Configuration**, and select the pa
 
 </td></tr><tr><td>
 
-Relationships
+Relationship
 
 </td><td>
 
@@ -76,7 +76,7 @@ Select **Reference** or **Child** from the drop-down list of **Relationships**, 
 
 </td></tr><tr><td>
 
-Source field
+Source Field
 
 </td><td>
 

@@ -23,9 +23,9 @@ Role required: viz\_creator
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**
 
-2.  Select the visualization that you want to duplicate.
+2.  Open the visualization that you want to duplicate.
 
-3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Duplicate**.
+3.  From the More actions menu on the data visualization's page \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text:\), select **Duplicate**.
 
 4.  Give the duplicate a unique name and select **Duplicate**.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/view-price-adjustment-details-order-lines.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-28"
-reading_time_minutes: 2
-breadcrumb: [Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Creating orders, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Price adjustment breakdown on order lines
@@ -16,113 +16,9 @@ Order agents can view the price adjustments that were applied to the base price 
 
 ## Where to find the price adjustment details
 
-The unit base price, unit list price, and unit adjustment details are listed on the Pricing section of the Order Line Item Details page.\[Omitted image "pricing-order-line-item.png"\] Alt text: Pricing section on the Order Line Item Details page
+The unit base price, unit list price, and unit adjustment details are listed on the Pricing section of the Order Line Item Details page.
 
-The Price Adjustments tab on the order line item provides the following information.
-
-<table id="table_d1l_hnq_dfc"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Number
-
-</td><td>
-
-ID of the price adjustment record.
-
-</td></tr><tr><td>
-
-Name
-
-</td><td>
-
-Name specified while creating the price adjustment.
-
-</td></tr><tr><td>
-
-Sequence
-
-</td><td>
-
-The number of the pricing plan step used to generate the adjustment. It helps the agent identify the order of operations for the pricing adjustments.
-
-</td></tr><tr><td>
-
-Adjustment source
-
-</td><td>
-
-Origin of the price adjustment.-   Auto: Adjustment applied automatically by pricing plan, and can be defined using standard adjustment matrices or via extension points, such as, PricingAdjustmentExtensionPoint.
--   Manual: Manual adjustment made by agent.
-
-</td></tr><tr><td>
-
-Adjustment type
-
-</td><td>
-
--   Markdown %
--   Markdown amount
--   Markup %
--   Markup amount
--   Price override
-
-</td></tr><tr><td>
-
-Price point
-
-</td><td>
-
-Setup by the admin in the Pricing Plan for the adjustment step. This could be the List Price or Net Price.
-
-</td></tr><tr><td>
-
-Adjustment value
-
-</td><td>
-
-Percentage or absolute amount of adjustment that is applied to the price.
-
-</td></tr><tr><td>
-
-Quantity
-
-</td><td>
-
-Quantity of items in the order line.
-
-</td></tr><tr><td>
-
-Amount
-
-</td><td>
-
-Price adjustment amount.
-
-</td></tr><tr><td>
-
-Total amount
-
-</td><td>
-
-Quantity multiplied by the amount.
-
-</td></tr><tr><td>
-
-Unit running price
-
-</td><td>
-
-Price calculated with the adjustment amount from the specific pricing plan step.
-
-</td></tr></tbody>
-</table>\[Omitted image "price-adjustment-order-line.png"\] Alt text: List view of the Price adjustments tab for an order line item
+The Price Adjustments tab on the Order Line Item page displays the manual price adjustments that were applied to an order line item. For information about the fields on the list view, see [Price adjustment fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/field-descriptions-customer-order-line-items.md).
 
 ## Price adjustment example
 
@@ -135,8 +31,6 @@ To understand price adjustment and the terms used, let's consider a scenario whe
 -   Unit List Price: The Unit List Price is calculated as $1000 + $200 - $50 = $1150.
 -   Customer also receives a premier account discount of $100 with Price Point as Net Price.
 -   Unit Net Price: The Unit Net Price is the final price after all adjustments have been applied. This is calculated as $1150 - $100 = $1050.
-
-**Parent Topic:**[Create an order in Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-create-product-order.md)
 
 **Related topics**  
 

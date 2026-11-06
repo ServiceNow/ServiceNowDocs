@@ -7,18 +7,22 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create and associate a policy text document in Google Drive
 
 Create a policy text document in Google Drive and enable document editing with the approvers, reviewers, and contributors. You can share the document with your stakeholders and collaborate on the document editing in real-time.
 
+## About this task
+
+When personal authentication is enabled, the create, connect, and upload operations run under your personal Google account credentials. This allows documents to be registered in Google Drive under your individual identity, enabling audit traceability. Document access permissions and content sync operations continue to run under the system account credentials. Ensure that the system account user has sharing access to the Google Drive folder where documents are hosted.
+
 ## Before you begin
 
-Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_user
+Role required: sn\_compliance\_ws.corporate\_compliance\_analyst, mp\_document\_user
 
 **Important:** Google document creation support is enabled from 19.1.1 version of Policy and Compliance Management application
 
@@ -26,7 +30,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  Select\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon. from the sidebar.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
@@ -44,7 +48,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     3.  Copy the shareable folder link from Google Drive and paste it in the **Folder link** field in the Create a document pop-up.
 
-        To get the folder link, right-click the folder in Google Drive, select the \[Omitted image "ellipsis-vertical-outline-24.svg"\] Alt text: More actions icon icon. Select **Share** and **Copy link**.
+        To get the folder link, right-click the folder in Google Drive, select the More icon. Select **Share** and **Copy link**.
 
     4.  Enter the name of the document in the **Document name** field.
 
@@ -66,6 +70,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
     -   To create another document, select **Create new document** that opens the Create a document pop-up.
     -   To connect to a different document, select **Connect existing document** that opens a Connect existing document pop-up.
+    -   When you connect to a different document, the access on the previous document is removed and access on the new document is granted. Because document access updates run asynchronously, there may be a short delay before the updated access is reflected.
 8.  To update the content of the document in the **Policy text** field, select the Update link below the document link.
 
 9.  If the policy has been drafted and is complete, the policy owner can request a review by selecting the **Request review** button.

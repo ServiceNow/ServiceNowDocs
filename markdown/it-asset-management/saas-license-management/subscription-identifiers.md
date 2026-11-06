@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Subscription identifiers for SaaS and SSO applications
@@ -77,15 +77,15 @@ Subscription identifiers update either automatically or manually depending on th
 
 2.  Select a software model that is marked with a dot.
 
-    A dot indicates that there are discrepancies between the associated subscription identifier and data that is provided in the latest content updates.\[Omitted image "updated-sku.png"\] Alt text: Software model with an updated subscription identifier.
+    A dot indicates that there are discrepancies between the associated subscription identifier and data that is provided in the latest content updates.
 
-3.  On the Software Model form, open the software model suggestions by clicking the warning icon \[Omitted image "warning-icon.png"\] Alt text: Warning icon next to the **Display name** field.
+3.  On the Software Model form, open the software model suggestions by clicking the warning icon \[Omitted image "image.warning-icon"\] next to the **Display name** field.
 
     The Software Model Suggestions dialog box opens.
 
 4.  In the dialog box, view the **Suggested discovery map** field to verify that your software model is using the discovery map for the updated subscription identifier.
 
-    This field is read-only. However, you can select the preview icon \[Omitted image "preview-icon.png"\] Alt text: Preview icon. to view additional information about the discovery map.
+    This field is read-only. However, you can select the preview icon \[Omitted image "preview-icon.png"\] to view additional information about the discovery map.
 
 5.  Verify the changes to the subscription identifier.
 

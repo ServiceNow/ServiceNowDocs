@@ -1,5 +1,5 @@
 ---
-title: Optimizing Microsoft SQL Server database and component license consumption
+title: Optimizing license consumption for Microsoft SQL Server databases and components
 description: You can optimize the license consumption for your Microsoft SQL Server databases and components based on the component editions that are identified through ITOM Discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/sql-comp-edi-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Optimizing Microsoft SQL Server database and component license consumption
+# Optimizing license consumption for Microsoft SQL Server databases and components
 
 You can optimize the license consumption for your Microsoft SQL Server databases and components based on the component editions that are identified through ITOM Discovery.
 

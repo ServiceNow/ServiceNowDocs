@@ -1,234 +1,146 @@
 ---
-title: Enterprise Architecture \(formerly Application Portfolio Management\) Release Notes
-description: The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
+title: Enterprise Architecture release notes
+description: The ServiceNow Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. See the following sections for release notes by version.This release makes MCP for Enterprise Architecture generally available and extends the query agent to infrastructure impact analysis. You can also associate AI systems with business applications independently of Enterprise Architecture Workspace.This release adds configurable technical debt criteria, persistent technical debt states, and domain separation for AI Control Tower integration. It also enhances Technology Reference Model \(TRM\) product and lifecycle request workflows in the Enterprise Architecture Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/enterprise-architecture-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 8
-breadcrumb: [Enterprise Architecture release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+keywords: [enterprise architecture, application portfolio management, EA workspace, business capabilities, technology portfolio, MCP for Enterprise Architecture, Enterprise Architecture for AICT, AI Control Tower, business application insights, infrastructure impact analysis, technical debt, technical debt, AI Control Tower, domain separation, TRM product request, Business Planner]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Enterprise Architecture \(formerly Application Portfolio Management\) Release Notes
+# Enterprise Architecture release notes
 
-The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. See the following sections for release notes by version.
 
-## About Enterprise Architecture \(formerly Application Portfolio Management\)
+## About Enterprise Architecture
 
-Yokohama Patch 6
+-   Unite strategic and operational teams around a single enterprise architecture practice for managing business capabilities, application portfolios, information portfolios, and technology portfolios.
+-   Decide whether to invest in, sustain, or replace business applications based on business need and organizational goals, using indicators such as cost, risk, value, and technical debt.
+-   Model, visualize, and analyze your architecture using industry-aligned standards such as CSDM, ArchiMate, and AWS, and explore relationships and dependencies using Architecture Analyzer.
+-   Work from a single Enterprise Architecture Workspace home page with role-based views for enterprise architects, administrators, and analysts, including portfolio insights, tasks that need your attention, and portfolio health.
+-   Ensure the accuracy, completeness, and reliability of enterprise architecture data with configurable Data Certification policies.
 
--   Select a fiscal period on the Application Rationalization pages using the new fiscal period filter option. The fiscal period filter enables you to view application rationalization data for the selected fiscal period.
--   Evaluate the technical debt score for business applications using the Technology Reference Model \(TRM\) technical debt indicator. This helps you to identify high-risk business applications and enables you to prioritize modernization and rationalization.
--   Generate business process modeling diagrams and model the future state of the business processes using Enterprise Modeling and Visualization.
--   Associate business capabilities to a business application from the business application related list.
--   View the past due certification tasks for your business applications from the Application Portfolio tab of the Insights section.
--   Generate scores for indicators and scoring profiles in the Enterprise Architecture Workspace.
--   Read-only access to the  Enterprise Architecture Workspace is added to the business stakeholder role \(sn\_apm.apm\_read\).
-
-Yokohama General Availability
-
--   Generate business process modeling diagrams and model the future state of the business processes using Enterprise Modeling and Visualization.
--   Associate business capabilities to a business application from the business application related list.
--   View the past due certification tasks for your business applications from the Application Portfolio tab of the Insights section.
--   Generate scores for indicators and scoring profiles in the Enterprise Architecture Workspace.
--   Read-only access to the  Enterprise Architecture Workspace is added to the business stakeholder role \(sn\_apm.apm\_read\).
+See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Enterprise Architecture is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Enterprise Architecture \(formerly Application Portfolio Management\) is available with activation of the Enterprise Architecture \(com.snc.apm\), which requires a separate subscription. For details, see [Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/application-portfolio-management-landing-page.md).
+    Enterprise Architecture is available with activation of the Enterprise Architecture \(com.snc.apm\) plugin, which requires a separate subscription.
+
+-   **Additional requirements**
+
+    ServiceNow Otto features are available with activation of the ServiceNow Otto for Enterprise Architecture \(EA\) plugin. For more information, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
 
 
-**Parent Topic:**[Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/enterprise-architecture-rn-landing.md)
+**Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 
-## August 2025
+## Brazil Patch 1
 
-The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **Yokohama Patch 6 [Application rationalization page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**
-    -   Apply the fiscal period filter to filter and view business applications for a specific fiscal period.
-    -   Apply the application rationalization filters to filter and view specific business applications on the bubble chart or list view page. An indicator is displayed on top of the filter icon to show the number of filters currently applied.
-    -   View the business application technical debt indicator score on the application rationalization list view page. On the application rationalization bubble chart view page, you can use the TRM technical debt indicator to form the bubble size based on the indicator score.
-    -   Export the list view of application rationalization data to Excel or CSV file format. You can use the data to obtain insights, share with stakeholders, and prepare for analysis.
-    -   Business applications with Retired or End of Life lifecycle stage aren’t displayed on the Application Rationalization bubble chart page.
-
-### What's changed
-
--   **[Application Rationalization page enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-rationalize-business-applications.md)**
-    -   Added the **Score for fiscal period** filter drop-down.
-    -   Added a filter button.
-    -   Removed the previously available filter drop-downs.
-    -   Added the export icon.
-    -   Added the technical debt column on the list view page.
-    -   Added the technical debt indicator in the bubble size list under the settings of the bubble chart page.
-
-## May 2025
-
-The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
+This release makes MCP for Enterprise Architecture generally available and extends the query agent to infrastructure impact analysis. You can also associate AI systems with business applications independently of Enterprise Architecture Workspace.
 
 ### What's new
 
--   **[Business application related list enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-app-portfolio.md)**
+-   **MCP for Enterprise Architecture**
 
-    In the **Architectural Artifacts** tab of the business application related list, selecting the **New** button displays a modal to create an architectural artifact.
+    Query business application insights, capability mappings, architectural relationships, and rationalization data from your AI assistant, without opening your ServiceNow instance.
 
--   **[Architectural Decision Records \(ADR\) enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-managing-arch-decision-records.md)**
-    -   Create artifact type Architectural Decision Records \(ADR\) in one step.
-    -   Create and add multiple pages to the Architectural Decision Records \(ADR\) from the Artifact content tab.
-    -   In the Architectural Decision Records \(ADR\) page, you can tag the following:
-        -   Tag a user
-        -   Tag a record
-            -   Architectural artifact
-            -   Business application
-            -   Business capability
-            -   Business process
-            -   Digital integration \(requires the digital integration plugin\)
-            -   Digital interface \(requires the digital integration plugin\)
-            -   Information object
-            -   TRM product \(requires the TRM plugin\)
-            -   Value stream \(requires the value stream plugin\)
-    -   Request approval workflow for Architectural Decision Records \(ADR\).
-    -   The version drop-down list is added to the Architectural Decision Records \(ADR\) page header. Select a version from the drop-down list to open the specific ADR version.
--   **[Data Certification changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-config-cert-schedules.md)**
+-   **Enterprise Architecture for AICT plugin**
 
-    In the Enterprise Architecture Workspace, the certifications data is saved to and fetched from the CMDB Data Management Task Control \(cmdb\_data\_management\_task\) table.If your certification data is still fetched from the Certification Schedules \(cert\_schedule\) table, you might consider migrating your certification policies to the CMDB Data Management Task Control \(cmdb\_data\_management\_task\) table. For more information, see [Convert legacy certification schedules into Data Manager Certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/convert-data-cert-definitions.md)and[Publish a draft Data Manager policy in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-manager-publish-draft-policy.md)
+    -   Associate AI systems with business applications, even if you don't use Enterprise Architecture Workspace. The new Enterprise Architecture for AICT plugin stores these associations in its own data model and installs automatically as a dependency of the AI Control Tower Core \(app-ai-governance\) application.
+    -   Select business applications while creating an AI system in AI Control Tower. View AI adoption across your business application portfolio on the new **Business portfolio** tab in the AI Control Tower workspace homepage.
+    Before you upgrade, review .
+
+-   **Migrate BA Product Model Map from EA Workspace job**
+
+    Use the new **Migrate BA Product Model Map from EA Workspace** scheduled job to move existing AI system-to-business application associations to the Enterprise Architecture for AICT plugin's data model. If you activated the AI Control Tower integration on an Enterprise Architecture Workspace version earlier than 10.1.3, run this job after you upgrade.
 
 
 ### What's changed
 
--   **[View business capabilities for a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-view-business-capabilities-assoc-with-ba.md)**
+-   **Business application insights trigger**
 
-    Added the **Business Capabilities** tab in the business application related list. **Add** and **Remove** buttons are added to associate or dissociate a business capability with a business application.
+    Choose how the ServiceNow Otto Business application insights skill is triggered on the **Define trigger** tab in the AI Admin Hub. With the **Automatic** option selected, business application insights are generated when you open a business application record page, and the side panel in the application rationalization bubble chart opens on the **Insights** tab.
 
--   **[Business application related list enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-app-portfolio.md)**
+    With the **User trigger** option selected, business application insights are generated only when you select **Generate insights**, and the side panel opens on the **Details** tab.
 
-    The business application related list is reorganized and the available tabs are:
+-   **Enterprise Architecture query agent**
 
-    -   Business Capabilities
-    -   Information Objects
-    -   Architectural Artifacts
-    -   Digital Interfaces
-    -   Digital Integrations
-    -   Application Model Lifecycle
-    -   CI Scores
-    -   Architecture Reviews
--   **[Insights section enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-insights.md)**
+    Ask the Enterprise Architecture query agent about the impact of an infrastructure configuration item \(CI\), such as a database, database instance, server, or storage device. The agent follows CMDB relationships from the CI to the application services, business applications, and business capabilities that depend on it. You can also ask which infrastructure a business application or application service depends on.
 
-    A new card "Past due certification tasks for business applications" is added in the **Application Portfolio** tab of the Insights section. The following cards are removed the **Application Portfolio** tab of the Insights section:
+-   **ServiceNow Otto for Enterprise Architecture skills**
 
-    -   Open quarterly certifications for business applications
-    -   Open on demand certifications for business applications
--   **[Enterprise Modeling and Visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-modeling.md) enhancements**
-    -   In the Diagrams page, added an option to create a business process map.
-    -   Added a field in the shape library element form to show or hide the shape for different diagram types.
-    -   The following categories are added for the ArchiMate shapes:
-        -   ArchiMate- Application Layer
-        -   ArchiMate- Business Layer
-        -   ArchiMate- Technology Layer
-        -   ArchiMate- Relationships
-    -   Enhanced the Enterprise Architecture shape library with new shapes for Value Stream and Value Stream Stage.
--   **[Architectural Artifacts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-managing-architectural-artifacts.md) enhancements**
-    -   In the Architectural Artifacts list of the Portfolio page, selecting the **New** button displays a modal to create an architectural artifact.
-    -   In the architectural artifact details page, the **Upload Version** button is renamed to **New version** version.
-    -   In the architectural artifact related list, the following tabs are removed:
-        -   Role permissions
-        -   User Criteria permissions
-        -   User permissions
-        -   Group permissions
-    -   Added the **Share** button in the architectural artifacts **Details** tab in the Portfolio page to share the architectural artifacts with users and groups.
-    -   In the architectural artifact related list, renamed the Architectural Artifact Versions tab to Artifact versions.
-    -   In the **Artifact versions** tab, the New button is removed.
-    -   In the Portfolio page, the Architectural Artifact Versions section is removed from the Information Portfolio. Added the **New version** button at the artifact version details page.
-    -   In the architectural artifact **Details** tab, the Access Setting section is removed.
-    -   In the architectural artifact **Details** tab, the **Download artifact** button is removed. Added the **Download** button on the artifact version page.
--   **[Configure certification policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-config-cert-schedules.md)**
+    Use the Gemma 4 model with ServiceNow Otto for Enterprise Architecture skills that run on the Now LLM Service.
 
-    In the Setup page, the Certification Schedules section is renamed to Certification Policies.
+-   **Technical debt list and form**
+
+    View the new **Number** field in the technical debt list and form. Select a value in the **Number** column in the Technology Portfolio page to open the technical debt record.
 
 
-## Yokohama Early Availability
+### Plugin information
 
-The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
+-   **New plugins**
+
+    Enterprise Architecture for AICT \(com.sn\_ea\_aict\): Provides the shared data model that connects AI systems and business applications, independently of the Enterprise Architecture Workspace plugin. Installs automatically as a dependency of AI Control Tower Core \(app-ai-governance\) application.
+
+
+## Brazil Early Availability
+
+This release adds configurable technical debt criteria, persistent technical debt states, and domain separation for AI Control Tower integration. It also enhances Technology Reference Model \(TRM\) product and lifecycle request workflows in the Enterprise Architecture Workspace.
 
 ### What's new
 
--   **[Regenerate indicator scores in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-regenerate-indicator-score.md)**
+-   ****
 
-    Generate a score for application and capability indicators for a particular period. Also, generate scores for an application scoring profile and capability scoring profile, to calculate scores for all indicators attached to that particular scoring profile.
+    Control which server and reason criteria the **Populate TRM technical debts in the EA Workspace** scheduled job uses to create Technology Reference Model \(TRM\) technical debt records. Choose whether the job creates one technical debt record per server or a single record per software product regardless of how many servers it runs on, and select which of the standard reasons the job evaluates.
 
--   **[Business stakeholder role for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-business-stakeholder-role.md)**
+-   **Persistent technical debt states**
 
-    Read-only access to the  Enterprise Architecture Workspace is added to the business stakeholder role \(sn\_apm.apm\_read\).
+    Technical debt records now persist across scheduled job runs instead of being deleted and re-created. Each record moves between **Active**, **Resolved**, and **Archived** states as the underlying discovered technology or technical debt configuration changes, preserving history for reporting and trend analysis.
 
--   **[TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-trm-technical-debt-form.md)**
+-   ****
 
-    The **TPM Discovered Technologies and Lifecycles** scheduled job fetches the server details for the TRM products.
+    View the TRM product and product lifecycle that govern a discovered technology's obsolescence status directly on the TPM Technology Lifecycle record. The **Governing TRM Product** and **Governing TRM Product Lifecycle** fields update automatically as matches change on later scheduled job runs.
+
+-   ****
+
+    Starting with this release, the **Business applications by TCO score** widget on the **Portfolio TCO** tab reads the TCO score band from a **Score range** field on the **Indicator Score** record instead of from a database view. If you're upgrading from a previous release, your existing **Indicator Score** records don't have this field populated, and the widget shows **\(empty\)** as the X-axis label instead of the TCO score bands. Run the new **Update Score Range in Indicator Score Table** scheduled job to populate the field on your existing records. This is a one-time, on-demand job that's inactive by default. New installations aren't affected, because the field is populated automatically as indicator scores are generated.
 
 
 ### What's changed
 
--   **[Create diagram action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-modeling-create-diagram-action.md)**
+-   **Domain separation for AI Control Tower integration with business applications**
 
-    An option to open diagram actions list for the Enterprise Modeling and Visualization in the Setup page.
+    Enterprise Architecture Workspace now supports domain separation for AI system associations with business applications. On domain-separated instances, the business applications available for association reflect the domain hierarchy: you can associate applications in the global domain and in your current domain, and viewing the association from a parent domain shows the AI system associations created in that domain and in all of its child domains.
 
--   **[Create a blank diagram using modeling in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-modeling-create-diagram.md)**
+-   **Technical debt list and form**
+    -   New **State** field shows whether the record is **Active**, **Resolved**, or **Archived**.
+    -   New **Edition** field shows the software edition when the technical debt is created from a TRM product lifecycle that matches on both version and edition. The edition is part of the record's identity: a technical debt for version X, edition A is a separate record from a technical debt for version X, edition B.
+    -   On the technical debt record page, the new **Discovered Technology** related list shows the TLM discovered technology records that generated the technical debt. It can be used as a starting point for the technical debt remediation.
+    -   Select a value in the **Reason** column of the technical debt list to open the technical debt record directly.
+-   **TRM product and lifecycle requests**
+    -   A single TRM product request or product lifecycle request can now include multiple lifecycle records. It can support up to 5 version-and-edition combinations or 5 hardware models, with up to 10 phases each. This applies both in the Enterprise Architecture Workspace and when requesting from the service catalog.
+    -   A standalone TRM product lifecycle request can include multiple child lifecycle records in a single bulk request. Approving or rejecting the parent request determines the outcome for all associated child records.
+    -   Approvers can review requested and existing lifecycle records side by side using the new **Requested Lifecycles** and **Existing Lifecycles** tabs before approving or rejecting a request. Approvers can edit request details without triggering an approval decision.
+-   **TLM Technology Lifecycle data**
 
-    In the Enterprise Modeling and Visualization, an option to create blank diagrams is added.
-
--   **[Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md)**
-
-    The **Restart** button added on the TPM Logs page to restart the Populate TPM Discovered Technologies and Lifecycles scheduled job.
-
--   **[TRM technical debt form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-trm-technical-debt-form.md)**
-
-    The technical debts table \[sn\_apm\_trm\_standards\_technical\_debt\] displays the server details for the TRM products along with the associated business applications details, and the reason for the technical debt.
+    When multiple sources contribute lifecycle phase dates for the same product, the source with the highest configured rank now takes precedence, and phase dates are validated to stay in chronological order.
 
 
-## Yokohama
+### Deprecated features
 
-The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives.Enterprise Architecture was enhanced and updated in the Yokohama release.
+-   ****
 
-### What's new
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
 
--   **[Enterprise Modeling and Visualization in the EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-modeling.md)**
-    -   Create diagrams for business process maps using the specific shapes related to the business processes.
-    -   Search shapes within the shape libraries.
-    -   Reorganize the order of shapes in a shape library according to your requirement.
-    -   Show or hide shapes in different diagram types.
-    -   General shapes can be rotated.
-    -   Enhanced the overall appearance of the diagram by hiding the connector ports and displaying them only when hovering over the shapes.
-    -   Open the Enterprise Modeling and Visualization diagrams from the following sections:
-        -   From the Architectural Artifacts related list of a business application, business capability, or a business process record.
-        -   From the My approvals tab of the Needs Attention section on the EA Workspace home page.
-        -   From the Architectural Artifacts section of the Portfolio page.
-    -   Added support for all ArchiMate shapes.
-    -   Model Value stream diagrams.
-    -   Create diagram actions for newly added custom shapes that can be used in Enterprise Modeling and Visualization to create diagrams.
-    -   Add custom shapes to use in the Enterprise Modeling and Visualization.
-    -   Create your own modeling diagrams using the Blank diagram option.
--   **[Technology portfolio management \(TPM\) enhancements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-tpm.md)**
-    -   Added a restart button on the TPM Logs page to restart the Populate TPM Discovered Technologies and Lifecycles scheduled job, in case the job is stuck and doesn’t refresh the log data for more than an hour. For more information, see [View TPM logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-view-tpm-logs.md) and [Restart the TPM Discovered Technologies and Lifecycles job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-restart-tpm-scheduled-job.md).
 
-### What's changed
+### Plugin information
 
--   **[Regenerate indicator scores in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-regenerate-indicator-score.md)**
+-   **Plugins planned for deprecation**
 
-    The following buttons are added to generate scores for indicators and scoring profiles:
-
-    -   The **Regenerate indicator score** button is added in the Indicator record.
-    -   The **Generate scores** button is added in the Scoring Profile record.
--   **[Portfolio list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/portfolio-list-view.md)**
-
-    New modules and features have been added in the Portfolio section.
-
--   **[Add additional category details for TRM products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/eaw-request-a-trm-products.md)**
-
-    The **Other Category** field is added in the Request TRM Product form and the Create TRM product form. Using this data, you can filter for TRM products using additional categories details.
+    Business Planner \(com.snc.apm.business\_planner\): Planned for deprecation in the D release. There is no replacement for this plugin.
 
 

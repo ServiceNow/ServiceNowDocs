@@ -7,7 +7,7 @@ release: yokohama
 product: Rate Model
 classification: rate-model
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rate Models, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -22,15 +22,16 @@ Role required: pps\_admin or it\_rate\_model\_admin
 
 ## About this task
 
-A rate model consists of one or more rate lines. Each line contains a unique combination of criteria values and the hourly rate of a resource. You define the criteria by adding up to 10 attributes from the following entities:
+A rate model consists of one or more rate lines. Each line contains a unique combination of criteria values and the hourly rate of a resource. Starting with March 2026 update, you can define the criteria to match with your resource assignment's primary attribute mapping. You define the criteria by adding up to 10 attributes from the following entities:
 
+-   Demand
+-   Group
 -   Project
 -   Project task
--   Demand
--   User
--   Group
--   Role
+-   Resource
+-   Resource Assignment
 -   Resource plan
+-   Role
 
 You can select attributes of type String, Reference, Number, Boolean, and Choice.
 
@@ -58,7 +59,7 @@ Entity
 
 </td><td>
 
-Entity from which the attribute is used to define the criteria.
+Entity from which the attribute is used to define the criteria.Select **Resource Assignment** to create a mapping for your existing resource assignments.
 
 </td></tr><tr><td>
 

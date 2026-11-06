@@ -1,20 +1,20 @@
 ---
 title: Report fraud
-description: Report potential fraud on a transaction to a card network. If the dispute category is Fraud, the Report fraud activity is displayed for a transaction.
+description: Report potential fraud on a transaction to a card network. If potential fraud was flagged for a transaction during manual investigation, a transaction includes the Fraud reporting task within the workflow
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/report-fraud.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Investigating a dispute, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Report fraud
 
-Report potential fraud on a transaction to a card network. If the dispute category is **Fraud**, the **Report fraud** activity is displayed for a transaction.
+Report potential fraud on a transaction to a card network. If potential fraud was flagged for a transaction during manual investigation, a transaction includes the Fraud reporting task within the workflow
 
 ## Before you begin
 
@@ -24,23 +24,25 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
 4.  In the list, select which case you want to work on.
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  In the transaction level of the playbook **Processing** tab, select the transaction ID.
+6.  In the **Processing** tab, select the transaction ID.
 
 7.  The **Investigate** stage is initiated for the transaction.
 
-8.  Select the **Report fraud** activity.
+8.  Select the **Report fraud** task.
 
-9.  Review the dispute amount and financial transaction for fraud reporting.
+9.  On the form, fill in the required fields and any other related information that you have gathered.
 
 10. In the  **Remarks** field, enter any comments.
 
@@ -49,13 +51,13 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## Result
 
-Depending on the policy rule, the task moves to the next activity. The following activities are displayed based on the policy rule.
+Depending on the policy rule, the task moves to the next task. The following tasks are displayed based on the policy rule.
 
-|Policy rule|Activity displayed|
-|-----------|------------------|
-|Immediate Provisional Credit|[Issue provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-provisional-credit-to-customer.md)|
-|Immediate Final Credit|[Set recovery option](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/recovery-option-for-final-credit.md)|
-|No Credit|[Review participating merchant alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/alert-merchant-regarding-dispute.md)|
+|Policy rule|Task displayed|
+|-----------|--------------|
+|Immediate Provisional Credit|Issue provisional credit|
+|Immediate Final Credit|Set recovery option|
+|No Credit|Alert merchant task|
 |Deny|Case is denied|
 
 **Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)

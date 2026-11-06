@@ -7,9 +7,9 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reducing noise by adding advanced log alert filters, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Reduce noise with advanced log alert filters, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Create advanced log alert filters
@@ -40,7 +40,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 6.  Save the record by selecting **Submit**.
 
-    To continue modifying the filter, you must reopen the record from the [filters list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-search-queries-manage.md). You can then edit, test, publish, and activate the filter.
+    To continue modifying the filter, you must reopen the record from the [filters list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-search-queries-manage-sow.md). You can then edit, test, publish, and activate the filter.
 
 7.  Edit the default **Alert payload** text in preparation for testing your intended logic.
 
@@ -62,7 +62,7 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 
 10. Repeat the process of updating the alert payload and testing the JavaScript function as often as needed.
 
-11. When you are satisfied with the filter, save its values and determine whether to apply it to the log stream.
+11. When you're satisfied with the filter, save its values and determine whether to apply it to the log stream.
 
     -   To save the values and apply the filter to the log stream, make sure the **Active** check box is selected and select **Publish**.
     -   To save the filter without applying it to the log stream, clear the **Active** check box and select **Publish.**
@@ -72,6 +72,4 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
 ## Result
 
 The values of the active filter are saved. If you selected the Active option, the filter is applied to the log stream.
-
-**Parent Topic:**[Reducing noise by adding advanced log alert filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-adv-alert-filtering.md)
 

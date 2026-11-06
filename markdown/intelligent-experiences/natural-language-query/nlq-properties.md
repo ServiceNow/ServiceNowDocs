@@ -7,9 +7,9 @@ release: yokohama
 product: Natural Language Query
 classification: natural-language-query
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Natural Language Query References, Natural Language Query, Enable AI experiences]
+breadcrumb: [Natural Language Query References, Natural Language Query, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # NLQ properties

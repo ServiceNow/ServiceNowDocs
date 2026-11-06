@@ -1,25 +1,25 @@
 ---
 title: Configuring AI Analytics
-description: Configure the AI Analytics dashboard to view the usage, value, and performance indicators of Now Assist.
+description: Configure the AI Analytics dashboard to view usage, value, and performance indicators for generative AI features on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/configuring-now-assist-analytics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist Analytics, configuring, GenAI, GenerativeAI, CSM, Customer Service Management]
-breadcrumb: [Analyzing Now Assist performance, Now Assist, Enable AI experiences]
+breadcrumb: [Analyzing AI performance, Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Configuring AI Analytics
 
-Configure the AI Analytics dashboard to view the usage, value, and performance indicators of Now Assist.
+Configure the AI Analytics dashboard to view usage, value, and performance indicators for generative AI features on your instance.
 
 ## Configuration overview
 
-AI Analytics requires at least one Now Assist application, for example, ServiceNow Otto for Customer Service Management \(CSM\), to be installed and configured on your instance. See [Installing AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/installing-now-assist-analytics.md) for more information.
+AI Analytics requires at least one ServiceNow Otto product, for example, ServiceNow Otto for Customer Service Management \(CSM\), to be installed and configured on your instance. See [Installing AI Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/installing-now-assist-analytics.md) for more information.
 
-The following is an optional configuration task used to map a Now Assist skill to a dashboard.
+The following is an optional configuration task used to map an AI skill to a dashboard.
 
 [Map a skill to a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/map-a-skill-to-a-dashboard.md) to view skill usage and performance indicators.
 

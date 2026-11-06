@@ -7,10 +7,10 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [mega menu, servicenow mega menu, menu taxonomy]
-breadcrumb: [Setup Employee Center browse experience features, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup Employee Center browse experience features, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Mega menu configuration
@@ -31,14 +31,14 @@ To modify the default taxonomy, clone the taxonomy first, and then create new pa
 
 For more information on the EC information architecture and configuring the portal navigation, see [Advanced Portal Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/adv-portal-navigation-overview.md).
 
-\[Omitted image "mega-menu-browse-all.jpg"\] Alt text: Mega menu with its options and the Browse all button at the bottom.
+\[Omitted image "mega-menu-browse-all.jpg"\] Alt text: Mega menu and the Browse all button at the bottom.
 
 **Note:** You can customize the primary and background color from CSS variables.
 
 In Employee Center, the default Employee taxonomy includes IT, HR, Workplace, Legal, and Procurement mega menus. The mega menu displays three levels of topics \(root topic, child topic 1, and child topic 2\). For example, **IT &gt; Hardware &gt; Printers**.
 
 -   Simple list: If a root topic has only one level of child topic 1, that is, if the child topic 1 doesn’t have child topic 2, the child topic 1 is displayed as a simple list under the root topic menu.
--   Single column: If child topic 2 \(2nd level topics\) has upto 10 under child topic 1, UI is displayed as single column.
+-   Single column: If child topic 2 \(2nd level topics\) has upto 10 under child topic 1, UI is displayed as a single column.
 -   Two columns: If child topic 2 exceeds 10 under child topic 1, UI is displayed as two columns.
 -   Two columns with topic page: If child topic 2 has more than 20 under child topic 1, UI displays only 20 child topic 2s as two columns. For remaining topics, navigate to Topic Page of child topic 1 and verify in Sub-Topics widget.
 

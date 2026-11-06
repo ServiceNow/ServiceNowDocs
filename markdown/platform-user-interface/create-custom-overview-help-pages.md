@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-custom-overview-help-pages.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Overview help pages, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -32,11 +32,7 @@ Role required: admin
 
 3.  Save the page.
 
-    \[Omitted image "OverviewHelpPageIstanbul.png"\] Alt text: Overview help page with Help Panels to welcome pages
-
 4.  Click **New** in the **Overview Help Panel** related list and complete the form using the fields in the table.
-
-    \[Omitted image "OverviewHelpPanelIstanbul.png"\] Alt text: Overview Help Panel form
 
 5.  Click **Submit**.
 

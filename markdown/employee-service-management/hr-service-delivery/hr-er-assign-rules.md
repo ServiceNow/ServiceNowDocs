@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery Employee Relations assignment rules
+title: Employee Relations assignment rules
 description: HR Service Delivery employee relations assignment rules allow you to automatically assign a group to ER cases when the assignment group is empty.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-assign-rules.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery Employee Relations assignment rules
+# Employee Relations assignment rules
 
 HR Service Delivery employee relations assignment rules allow you to automatically assign a group to ER cases when the assignment group is empty.
 

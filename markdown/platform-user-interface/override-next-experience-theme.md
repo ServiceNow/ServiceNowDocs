@@ -1,22 +1,24 @@
 ---
-title: Override the Next Experience theme
+title: Override the Next Experience default theme
 description: Override the Next Experience theme with your custom theme.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/override-next-experience-theme.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configuring Next Experience themes and preferences, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Override the Next Experience theme
+# Override the Next Experience default theme
 
 Override the Next Experience theme with your custom theme.
 
 ## Before you begin
 
-The **glide.ui.polaris.theme.custom** was used to override the Next Experience theme prior to the Xanadu release. As of Xanadu, you are able to publish multiple themes and select a theme for the Next Experience. The **glide.ui.polaris.theme.custom** system property is only considered if the UX Parent App Themes table is empty. For more information, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-presentation-order-of-themes.md).
+Prior to the Xanadu release, overriding the Next Experience theme using the `glide.ui.polaris.theme.custom` system property was the primary way to apply a custom look globally. As of Xanadu, you are able to publish multiple themes and select a theme for the Next Experience. The `glide.ui.polaris.theme.custom` system property is only considered if the UX Parent App Themes table is empty. For more information, see [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-presentation-order-of-themes.md). Use override only if you need to enforce a single theme across your instance.
+
+Starting in Zurich, Coral is the default theme for new instances. You can enable Coral or other themes using Theme Builder or by adding them to the UX Parent App Theme table following [Publish multiple themes in Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-presentation-order-of-themes.md).
 
 Role required: admin
 

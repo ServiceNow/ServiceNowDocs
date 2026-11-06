@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Approve or reject a push
 
 Code reviewers must approve or reject a push from the Team Development application.
+
+## Before you begin
+
+Role required: none.
 
 ## About this task
 
@@ -42,6 +46,4 @@ Although reviewers can see the individual versions within a push, they must appr
 
     **Note:** The URL and Remote Instance fields list the address and name of the instance where the change originated.
 
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

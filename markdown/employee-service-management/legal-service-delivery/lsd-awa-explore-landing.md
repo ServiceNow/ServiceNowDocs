@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced work assignment for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Advanced work assignment for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Explore Advanced Work Assignment for Legal Service Delivery
@@ -20,7 +20,7 @@ Use the ServiceNow Advanced Work Assignment for Legal Service Delivery feature t
 
 Advanced Work Assignment for Legal Service Delivery routes legal request to qualified agents from the legal department \(a paralegal staff or lawyer\) using work item queues, routing conditions, and assignment criteria that you define. The base system has configuration available for General Legal Request and Ethics Complaint. You can define your own configuration for other types of legal requests.
 
-For more information, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md).
+For more information, see .
 
 If you want to use skills as one of the criteria for routing legal requests, ensure you have activated Skills Management \[com.snc.skills\_management\]. For more information, see [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/skills-management.md)
 
@@ -41,7 +41,7 @@ If you want to use skills as one of the criteria for routing legal requests, ens
 |-------|-------|-----|
 |Automatic assignment of legal request based on availability, capacity and skills.|Advanced Work Assignment|Legal fulfiller|
 
-For more information on the benefits of Advanced Work Assignment, see [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md)
+For more information on the benefits of Advanced Work Assignment, see 
 
 ## What to explore next
 

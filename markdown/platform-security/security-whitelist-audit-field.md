@@ -1,16 +1,16 @@
 ---
-title: Including a table field in auditing \(inclusion listing\)
+title: Include a table field in auditing \(inclusion listing\)
 description: Track a subset of fields in an audited table by add those fields to an inclusion listing.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/security-whitelist-audit-field.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring auditing for a table, Auditing]
 ---
 
-# Including a table field in auditing \(inclusion listing\)
+# Include a table field in auditing \(inclusion listing\)
 
 Track a subset of fields in an audited table by add those fields to an inclusion listing.
 

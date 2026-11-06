@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure dynamic clauses for contract templates
@@ -41,7 +41,7 @@ As a contract configurator, create a clause variation to use in a contract templ
 -   **[Add metadata to a clause using add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-add-meta-cls-addin.md)**  
 As a contract configurator, add metadata to pre-fill information that will be placed in the contract document.
 
-**Parent Topic:**[Configure templates for a contract and amendment request in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)
+**Parent Topic:**[Configure templates for a contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-document-templates.md)
 
 **Related topics**  
 
@@ -51,6 +51,4 @@ As a contract configurator, add metadata to pre-fill information that will be pl
 [Create contract template by manually adding content controls]()
 
 [Publish a contract template]()
-
-[Enable keyword search for contract templates]()
 

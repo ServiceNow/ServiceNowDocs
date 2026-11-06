@@ -7,8 +7,8 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -34,7 +34,7 @@ Consider the following points before converting or associating RIDAC records:
 -   **[Add risks for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/add-risks-for-demand.md)**  
 Add a risk to a demand to identify, analyze, prioritize, plan, and track a risk during any phase of the demand life cycle. Assess potential problems and the severity of their impact to take informed decisions about the demand.
 -   **[Add issues for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/add-issues-for-demand.md)**  
-Add an issue to a demand to escalate a risk or to track an unexpected problem such as a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
+Add an issue to a demand to escalate a risk or to track an unexpected problem. For example, a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
 -   **[Add decisions for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/add-decisions-for-demand.md)**  
 As a demand manager, develop a plan to manage risks and issues proactively with solutions. Add the solution for a risk or issue to a demand in the form of a decision. You can also convert a risk or an issue to a decision or a decision to an action or a request change.
 -   **[Add actions for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/add-actions-for-demand.md)**  
@@ -42,7 +42,7 @@ Add actions that are required for resolving an issue or risk for a demand. You c
 -   **[Add Request Changes to a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/add-request-change-for-demand.md)**  
 As a demand manager, you might create a request change as the outcome of the action taken to resolve an issue or mitigate a risk. The request change might result in changing the demand's scope, resource requirement, cost, or schedule to minimize the impact of a risk or issue.
 -   **[Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/convert-ridac-for-demand.md)**  
-Convert one RIDAC record \(risk, issue, action, decision, and request changes\) to another, in that order, to retain the record information instead of having to create a new record manually and to more easily track the issue.
+Convert one RIDAC record to another to retain record information and track issues without creating a record manually.
 -   **[Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reassociate-ridac-demand.md)**  
 Link existing RIDAC records \(risks, issues, actions, decisions, and request changes\) to one another for your demand. Associating RIDAC records with each other enables you to keep a record of risks or issues and their outcome for analysis at demand closure and planning. It also helps to track the risks and issues throughout the demand life cycle.
 
@@ -54,6 +54,10 @@ Link existing RIDAC records \(risks, issues, actions, decisions, and request cha
 [Assess demands]()
 
 [Create a demand]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [View demands]()
 
@@ -69,5 +73,7 @@ Link existing RIDAC records \(risks, issues, actions, decisions, and request cha
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
+[Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

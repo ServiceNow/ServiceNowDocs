@@ -1,5 +1,5 @@
 ---
-title: Enabling password policies on your instance
+title: Enable password policies on your instance
 description: Implement password policy controls at login. Force users to change their password if the password does not meet the password policy criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/enable-password-policies.html
@@ -7,30 +7,30 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Password complexity requirements, Local Authentication, Authentication, Access Management]
+breadcrumb: [Password complexity requirements, Local authentication, Authentication, Access Management]
 ---
 
-# Enabling password policies on your instance
+# Enable password policies on your instance
 
 Implement password policy controls at login. Force users to change their password if the password does not meet the password policy criteria.
 
 ## Before you begin
 
-Role required: admin
+Role required: password\_policy\_admin
 
 ## About this task
 
 The Password Policy plugin \(com.glide.password\_policy\) is enabled by default. The policy goes into effect when a user changes or resets the password.
 
-The **Password Strength Preset** field is automatically set to **Default Strong**. If you want to add new criteria, you can perform the following procedure.
+The **Password Strength Preset** field is automatically set to **Default Strong**. To add new criteria, perform the following procedure.
 
 If you customized your instance through the **ValidatePasswordStronger** installation exit or your Password Reset credential store **pwd\_cred\_store** property, then see [password policy properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/password-policy-properties.md) to know how to implement a password policy for your instance.
 
-**Note:** The active password policy is highlighted for the Instance as shown.
+**Note:** The active password policy is highlighted for the instance as shown.
 
-\[Omitted image "password-highlight.png"\] Alt text: Password Highlighted when set as active
+\[Omitted image "password-highlight.png"\] Alt text: Password highlighted when set as active
 
 To change the password policy navigate to **All** &gt; **Password Reset** &gt; **Credentials Stores**, select the credentials and change the **Password policy** field to the required policy input.
 
@@ -38,7 +38,7 @@ To change the password policy navigate to **All** &gt; **Password Reset** &gt; *
 
 1.  Navigate to **All** &gt; **Password Policy** &gt; **Password Policies**.
 
-2.  Click **New**.
+2.  Select **New**.
 
     The Password Policy form appears.
 
@@ -46,15 +46,15 @@ To change the password policy navigate to **All** &gt; **Password Reset** &gt; *
 
 4.  In the Password Policy Criteria section, select one of the following presets from the **Password Strength Preset** field.
 
-<table id="choicetable_syn_nd3_yrb"><thead><tr><th align="left" id="d66074e144">
+<table id="choicetable_syn_nd3_yrb"><thead><tr><th align="left" id="d73873e146">
 
 Password Strength Preset
 
-</th><th align="left" id="d66074e147">
+</th><th align="left" id="d73873e149">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d66074e153">
+</th></tr></thead><tbody><tr><td id="d73873e155">
 
 **Default**
 
@@ -66,7 +66,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 0.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d66074e192">
+</td></tr><tr><td id="d73873e194">
 
 **Medium**
 
@@ -78,7 +78,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 1.
  The minimum password length is 12 characters, and the maximum is 40.
 
-</td></tr><tr><td id="d66074e231">
+</td></tr><tr><td id="d73873e233">
 
 **High**
 
@@ -90,7 +90,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 3.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d66074e270">
+</td></tr><tr><td id="d73873e272">
 
 **Default Strong**
 
@@ -102,7 +102,7 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 -   Sets **Minimum Special Character\(s\)** to 1.
  The minimum password length is 8 characters, and the maximum is 100.
 
-</td></tr><tr><td id="d66074e310">
+</td></tr><tr><td id="d73873e312">
 
 **Custom**
 
@@ -116,13 +116,13 @@ Auto-populates the fields for required password characters as follows:-   Sets *
 
  You can also customize the **Password Policy Script** that is displayed.
 
-</td></tr><tr><td id="d66074e355">
+</td></tr><tr><td id="d73873e357">
 
 **Advanced**
 
 </td><td>
 
-Selecting **Advanced** displays **Password Rule Script** and **Password Strength Script**. Based on your requirement you can customize these scripts.
+Selecting **Advanced** displays **Password Rule Script** and **Password Strength Script**. Based on your requirements, you can customize these scripts.
 
 </td></tr></tbody>
 </table>    **Note:** Password policy is applied based on the selected preset.
@@ -175,7 +175,7 @@ Minimum Numeric Character\(s\)
 
 </td><td>
 
-Minimum numeric of characters in the password, from 0 to 10.
+Minimum number of numeric characters in the password, from 0 to 10.
 
 </td></tr><tr><td>
 
@@ -237,13 +237,13 @@ Test Your Password
 
 </td><td>
 
-Specify your actual password in this field.
+The password to test.
 
 </td></tr></tbody>
-</table>6.  Click **Test Your Password**.
+</table>6.  Select **Test Your Password**.
 
-7.  After the password is tested as valid, click **Submit** to submit the password.
+7.  After the password is tested as valid, select **Submit** to submit the password.
 
-    **Note:** Always test your password before submitting.
+    **Note:** Test your password before submitting.
 
 

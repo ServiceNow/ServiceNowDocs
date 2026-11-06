@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Workforce Optimization for ITSM in the Service Operations Workspace, Optimize, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Workforce Optimization for ITSM in the Service Operations Workspace, Optimizing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Review skills to add to your skill set
@@ -32,15 +32,15 @@ You will receive a notification when your manager initiates or approves a skill 
 
 3.  Send a request to review an updated skill proficiency or to review a new skill to be added to your skill set.
 
-<table id="choicetable_sz5_hnf_jtb"><thead><tr><th align="left" id="d249770e80">
+<table id="choicetable_sz5_hnf_jtb"><thead><tr><th align="left" id="d446340e80">
 
 To
 
-</th><th align="left" id="d249770e83">
+</th><th align="left" id="d446340e83">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d249770e89">
+</th></tr></thead><tbody><tr><td id="d446340e89">
 
 **Send a request to review an updated skill proficiency**
 
@@ -52,7 +52,7 @@ Do this
 4.  In the **New skill level** field, update the new skill level for a skill based on your proficiency.
 
 
-</td></tr><tr><td id="d249770e128">
+</td></tr><tr><td id="d446340e128">
 
 **Send a request to review a new skill to be add to your profile**
 

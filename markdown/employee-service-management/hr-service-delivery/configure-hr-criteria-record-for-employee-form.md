@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collect employee input, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Collect employee input, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create an HR criteria record for an employee form
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## About this task
 
-Answers from the employee form are stored in the Metric Results \]asmt\_metric\_result\] table. You can query the answers using HR criteria. For example, if on an invention disclosure form, the new hire answers yes, then you can use that answer to trigger the creation of another task to collect details on the invention.
+Answers from the employee form are stored in the Metric Results \[asmt\_metric\_result\] table. You can query the answers using HR criteria. For example, if a new hire answers yes on an invention disclosure form, that answer can trigger the creation of another task to collect details on the invention.
 
 ## Procedure
 
@@ -93,7 +93,7 @@ Select the question and answer from the employee form you want to query.For the 
  -   **\[String value\] \[is\] \[&lt;Answer&gt;\]**
 -   **\[Reference value\] \[is\] \[&lt;Answer&gt;\]**
 -   **\[Actual value\] \[is\] \[&lt;Answer&gt;\]**
- **Note:** When defining conditions like case sensitivity or null values, see API[GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-criteria.md).
+ **Note:** When defining conditions like case sensitivity or null values, see API [GlideFilter - Scoped, Global](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-criteria.md).
 
 </td></tr><tr><td>
 

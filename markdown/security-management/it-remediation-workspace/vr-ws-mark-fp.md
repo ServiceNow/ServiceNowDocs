@@ -7,9 +7,9 @@ release: yokohama
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using the IT Remediation Workspace, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
 
 # Request a false positive for a vulnerable item or remediate task
@@ -45,7 +45,7 @@ For information on how to request a false positive for a set of test results, se
 
 7.  Provide additional information about your request to the approver and select **Submit**.
 
-    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/configure-exception-management-settings.md),[Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md), and [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md).
+    **Note:** The Take Questionnaire modal appears only when the **Enable questionnaire to mark false positive** check box is selected in the Exception Management Configuration form. For more information, see [Configure Exception Management for Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/configure-exception-management-settings.md),[Configure Exception Management for Application Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/application-vulnerability-response/configure-exception-management-application-vulnerability-response.md), [Configure Exception Management for Container Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/container-vulnerability-response/configure-exception-management-for-container-vulnerability-response.md), and [Configure Exception Management for Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/configuration-compliance/configure-exception-management-configuration-compliance.md). In case you must modify your questionnaire, refer to KB2713229.
 
 
 ## Result

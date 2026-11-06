@@ -1,5 +1,5 @@
 ---
-title: Delete an NLU model
+title: \(Legacy\) Delete an NLU model
 description: Delete a Natural Language Understanding \(NLU\) model permanently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/delete-nlu-model.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Delete an NLU model
+# \(Legacy\) Delete an NLU model
 
 Delete a Natural Language Understanding \(NLU\) model permanently.
 
@@ -49,6 +49,4 @@ Deleting an NLU model removes the model and its contents, including its default 
 
     The system deletes your model and reloads the page.
 
-
-**Parent Topic:**[Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/creating-models.md)
 

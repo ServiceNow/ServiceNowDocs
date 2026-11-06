@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Available templates, Create your app using an application template, Create your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Available templates, Use an app template, Create your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Inventory Tracker template
@@ -17,8 +17,6 @@ breadcrumb: [Available templates, Create your app using an application template,
 Build an application in App Engine Studio \(AES\) using the Inventory Tracker template to track the status of inventory and assets.
 
 To use the Inventory Tracker template, install this application from the ServiceNow Store.
-
-\[Omitted image "template-inventory-tracker.png"\] Alt text: Inventory Tracker template
 
 An inventory tracker app enables your business and teams to easily track what they have, where it is, and who has it. Anytime, anywhere, and on any device. If your company needs to track the stock of items, this app can be used as a stock management tool or inventory tracker at home or in a warehouse.
 

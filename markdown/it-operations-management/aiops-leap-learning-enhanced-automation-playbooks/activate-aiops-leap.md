@@ -1,68 +1,51 @@
 ---
-title: Activate AIOps LEAP
-description: Activate the AIOps LEAP skill after installing the application to assemble and categorize incidents.
+title: Activate LEAP
+description: Activate the LEAP skill after installing the application to assemble and categorize incidents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2025-03-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# Activate AIOps LEAP
+# Activate LEAP
 
-Activate the AIOps LEAP skill after installing the application to assemble and categorize incidents.
+Activate the LEAP skill after installing the application to assemble and categorize incidents.
 
 ## Before you begin
 
-Role required: System admin or AIOps LEAP admin
+Role required: System admin or LEAP admin
+
+and the application scope must be LEAP.
 
 ## Procedure
 
-1.  Activate **AIOps LEAP** with one of the following options.
+1.  Navigate to **Workspaces** &gt; **LEAP**.
 
-<table id="choicetable_bng_jxt_q2c"><thead><tr><th align="left" id="d192056e88">
+2.  Select **Admin** &gt; **AI Admin Hub**.
 
-Options
+3.  Select **AI Skills** &gt; **Platform** &gt; **LEAP**.
 
-</th><th align="left" id="d192056e93">
+4.  On the LEAP Installer card, select **Activate**.
 
-Steps
-
-</th></tr></thead><tbody><tr><td id="d192056e100">
-
-**Workspaces**
-
-</td><td>
-
-1.  Navigate to **Workspaces** &gt; **AIOps LEAP**.
-2.  Select **Now Assist Admin Workspace**.
-3.  On the LEAP installer card, select **Activate skill**.
-
-
-</td></tr><tr><td id="d192056e142">
-
-**AI Admin Hub**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**
-2.  In the workflow list under Technology, select **ITOM**.
-3.  On the LEAP installer card, select **Activate skill**.
-
-
-</td></tr></tbody>
-</table>2.  In the LEAP installer input section of LEAP installer,enter the details for AIOps LEAP to run scans on existing records, and select **Save and continue**.
+5.  In the LEAP installer input section, enter the details for LEAP to run scans on existing records, and select **Save and continue**.
 
     For details on installer fields, see [LEAP Installer fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-installation-fields.md)
 
-3.  In the Select display section of LEAP installer, select the required display and select **Save and continue**.
+6.  In the Define access section, select the role to whom you want to provide access to LEAP skills.
 
-4.  In the Review and activate section of LEAP installer,review the selections, and select **Activate**.
+7.  In the Select display section of LEAP installer, select the required display and select **Save and continue**.
 
-5.  Select **Return to ITOM** on the success message.
+8.  In the Review and activate section of LEAP installer,review the selections, and select **Activate**.
+
+9.  Select **Return to LEAP** on the success message.
+
+10. The grouping job starts and proceeds to group records into automation opportunities.\[Omitted image "grouping-job-run.png"\] Alt text: landing page with analysis data
+
+    If errors are encountered, then LEAP provides links to knowledge base articles to understand the root cause and steps to resolve issues.
 
 

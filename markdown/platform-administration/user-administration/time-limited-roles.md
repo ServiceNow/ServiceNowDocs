@@ -7,7 +7,7 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: task
-last_updated: "2026-03-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time-limited role, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -18,12 +18,12 @@ Learn how to assign a role to a user temporarily. Use this feature if you have a
 
 ## Before you begin
 
-Role required: admin
+Role required: user\_admin
 
 **Note:**
 
 -   Time-limited user roles can be assigned to a user for a maximum of 5 days.
--   For a user, you can assign only `admin`, `snc_read_only`, and \(or\) `impersonator` role as time-limited role.
+-   For a user, you can assign only `admin`, `snc_read_only`, `impersonator`, and \(or\) `snc_required_script_writer_permission` role as time-limited role.
 -   Time-limited user roles are not displayed to the assigned users under the **Roles** tab of the user \(sys\_user\) record.
 -   When the time-limited role assigned users log in, they see a notification regarding the role assignment.
 -   Time-limited assignments can handle more than one role assignment to a user, even if the total duration across assignments is less than five days.

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Track shipments using the integration framework, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Track shipments using the integration framework, Procurement and fulfillment, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View the carrier integration profile details
@@ -18,7 +18,7 @@ View the details of the carrier API used to connect your ServiceNow instance to 
 
 ## Before you begin
 
-Role required: admin, domain\_admin, asset, or inventory\_admin
+Role required: admin, domain\_admin, asset, inventory\_admin, or sn\_hamp.ham\_system\_admin
 
 ## Procedure
 
@@ -84,18 +84,6 @@ Option that indicates the status of the integration profile.**Note:** Only users
 
 **Related topics**  
 
-
-[Creating an integration script include for third-party carrier applications]()
-
-[Connect your ServiceNow instance with a shipping carrier application]()
-
-[Remove a shipping carrier from an integration profile]()
-
-[Create a carrier integration profile]()
-
-[Test the integration with the carrier API]()
-
-[Create a shipping carrier record]()
 
 [View hardware asset shipment details]()
 

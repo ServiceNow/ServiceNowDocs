@@ -7,26 +7,28 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Cloudian Storage Discovery
 
 ServiceNow Discovery uses the Cloudian Storage discovery pattern to find Cloudian servers and related disks. Discovering these resources requires installing the Patterns application from the ServiceNow Store.
 
-Discovery uses Cloudian Storage System patterns to find Cloudian Storage system data. Discovering these resources requires installing the Discovery and Service Mapping Patterns and the CMDB CI Class Models applications from the ServiceNow Store, as each application is dependent on the other. You can use the patterns for discovering the Cloudian Storage components on the ServiceNow AI Platform using the Paris release or later.
+Discovery uses Cloudian Storage System patterns to find Cloudian Storage system data. Discovering these resources requires installing the Discovery and Service Mapping Patterns and the CMDB CI Class Models applications from the ServiceNow Store, as each application is dependent on the other.
+
+You can use the patterns for discovering the Cloudian Storage components on the ServiceNow AI Platform using the Paris release or later.
 
 Cloudian is a software-defined data storage company. Cloudian provides turnkey distributed software-defined S3-compatible object storage solutions.
 
 **Cloudian Hyperstore Software** : Deploy the CentOS operating system, related packages, and Hyperstore software binary files on the Hyperstore Node.
 
-**Cloudian Hyperstore Node**: This is an independent hardware server in which Cloudian Hyperstore software is deployed on an industry standard server, on a VM, or it is pre-installed on a Cloudian Hyperstore appliance.
+**Cloudian Hyperstore Node**: This is an independent hardware server in which Cloudian Hyperstore software is deployed on an industry standard server or on a VM. It can also be pre-installed on a Cloudian Hyperstore appliance.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -423,5 +425,5 @@ Storage Server to Disks and File Systems
 |cmdb\_ci\_storage\_server|Virtualized by::Virtualizes|cmdb\_ci\_vm\_instance|
 |cmdb\_ci\_disk|Provides::Provided by|cmdb\_ci\_file\_system|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

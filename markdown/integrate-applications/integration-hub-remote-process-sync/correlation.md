@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub Remote Process Sync
 classification: integration-hub-remote-process-sync
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Integration Hub Remote Process Sync, Data and Automation]
+breadcrumb: [Integration Hub Remote Process Sync, Workflow Data Fabric]
 ---
 
 # Correlation

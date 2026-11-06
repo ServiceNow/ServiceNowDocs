@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Playbook for Spoofed Emails \(using the same Display name\), Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -35,8 +35,6 @@ Role required:
 
     2.  In Action 6, you need to investigate the URL on a Linux VM \(For example, Ubuntu\).
 
-        \[Omitted image "playbook-spoofed-email-url.png"\] Alt text: Response task to investigate the URL on a Linux VM.
-
     3.  In Action 7, you need to look up when the domain was created on WHOIS.
 
         Look for recently registered domains \(within the last week\) that are suspicious and have a high probability of phishing attacks.
@@ -44,8 +42,6 @@ Role required:
     4.  In Action 8, based on the investigation done so far, you need to check whether this email contains a malicious attachment or link.
 
         If this email doesn't contain a malicious attachment or link, then the flow ends.
-
-        \[Omitted image "playbook-spoofed-email-users.png"\] Alt text: Response tasks to check if the spoofed email contains malicious attachments or links.
 
     5.  In Action 9, if the email contains malicious attachments or links, perform the following actions.
 
@@ -58,8 +54,6 @@ Role required:
 4.  In Action 17, if this isn’t an internal spoofed email, then you need to check if the affected user's system is impacted.
 
 5.  In Action 18, if the user's system is impacted, then in Action 19, raise an IT ticket to reimage the impacted system.
-
-    \[Omitted image "playbook-spoofed-email-system.png"\] Alt text: Response task to check if the affected user's system is impacted.
 
 6.  In Action 20, a response task is created for you to complete the post-incident review before closing the task.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integration with Lenovo for asset warranty details
@@ -48,6 +48,8 @@ The process involved in fetching the asset warranty details from Lenovo is as fo
 **Note:** Warranty records for excluded assets aren't fetched.
 
 An asset can have multiple warranties associated with it. You can view the warranty information using the Asset Warranties tab on the asset form. You can also view all the asset warranty records from a central location using the Asset warranties list in the Asset operations view. For more information, see [Track the warranty details of your Lenovo assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/view-asset-warranty-details.md).
+
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 
 **Related topics**  
 

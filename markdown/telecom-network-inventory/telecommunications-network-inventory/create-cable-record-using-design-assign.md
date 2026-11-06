@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Instantiating your network inventory by using design and assign, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Using Design &amp; Assign Network, Use, Telecommunications Network Inventory]
 ---
 
 # Create a cable record by using design and assign
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-When you instantiate a cable template, it creates the corresponding configuration item \(CI\) records in the Fiber Optical Cable \[cmdb\_ci\_fiber\_optical\_cable\] and Fiber Strand \[cmdb\_ci\_fiber\_strand\] tables. To learn more about the cable data model, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+When you instantiate a cable template, it creates the corresponding configuration item \(CI\) records in the Fiber Optical Cable \[cmdb\_ci\_fiber\_optical\_cable\] and Fiber Strand \[cmdb\_ci\_fiber\_strand\] tables. To learn more about the cable data model, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
@@ -66,7 +66,7 @@ The cable and related strand records are created.
 **Related topics**  
 
 
-[Creating an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
+[Create an inventory template for cable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-inventory-tenplate-cable-models.md)
 
 [Create a cable model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-a-cable-model.md)
 

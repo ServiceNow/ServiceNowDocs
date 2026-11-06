@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mab-opening.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Access Mobile App Builder and using the application scope selection screen
@@ -30,15 +30,15 @@ For more information about the delegated developer role, see [Delegated developm
 
 2.  Perform one or all of the following actions from the application scope selection screen.
 
-<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d38917e100">
+<table id="choicetable_j52_czt_ktb"><thead><tr><th align="left" id="d40659e106">
 
 Action
 
-</th><th align="left" id="d38917e103">
+</th><th align="left" id="d40659e109">
 
 Process
 
-</th></tr></thead><tbody><tr><td id="d38917e109">
+</th></tr></thead><tbody><tr><td id="d40659e115">
 
 **Access documentation**
 
@@ -46,7 +46,7 @@ Process
 
 Select **Go to product documentation** to get information about Mobile App Builder and how to use the tool.
 
-</td></tr><tr><td id="d38917e124">
+</td></tr><tr><td id="d40659e130">
 
 **Access Mobile Card Builder**
 
@@ -54,7 +54,7 @@ Select **Go to product documentation** to get information about Mobile App Build
 
 Select **Open Mobile Card Builder** to customize the appearance of the mobile cards you use within Mobile App Builder.
 
-</td></tr><tr><td id="d38917e142">
+</td></tr><tr><td id="d40659e148">
 
 **Select an application scope**
 

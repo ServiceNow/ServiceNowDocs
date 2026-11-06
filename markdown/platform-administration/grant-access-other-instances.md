@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/grant-access-other-instances.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multi-instance Management, Get started, Administer the ServiceNow AI Platform]
+breadcrumb: [Multi-Instance Management, Get started, Administer the ServiceNow AI Platform]
 ---
 
 # Basic trust configuration for data sync applications

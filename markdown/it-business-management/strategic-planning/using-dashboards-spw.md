@@ -7,7 +7,7 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -90,13 +90,13 @@ For example, if you create a widget in a dashboard configuring the Cost Plan Bre
 
 For more information on the required roles to manage Platform Analytics dashboards, see [Platform Analytics dashboard roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/pa-dashboard-roles.md).
 
--   **[View a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/view-dashboard-spw.md)**  
+-   **[View a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/view-dashboard-spw.md)**  
 View key data and metrics on a dashboard to monitor performance, track progress, and make informed decisions related to ideas, feedback, strategy, planning, and execution.
--   **[Duplicate a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)**  
+-   **[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/copy-dashboard-spw.md)**  
 If the dashboard you want to create is similar to an existing one, duplicating the existing dashboard saves your time. After duplicating the dashboard, you can customize the tabs and widgets as required.
--   **[Share a dashboard in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)**  
+-   **[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/share-dashboard-spw.md)**  
 Share a dashboard with stakeholders, planning managers, portfolio managers, or product managers to provide visibility into work progress and foster collaboration. You can grant either view-only rights or both view and edit rights to a shared dashboard.
--   **[Add a Platform Analytics dashboard to Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)**  
+-   **[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/add-platform-dashboard-to-spw.md)**  
 If you have existing dashboards created using Platform Analytics, you can add them to the Strategic Planning Workspace to access them directly from a single location.
 
 **Parent Topic:**[Dashboards in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/strategic-planning/dashboards-in-spw.md)

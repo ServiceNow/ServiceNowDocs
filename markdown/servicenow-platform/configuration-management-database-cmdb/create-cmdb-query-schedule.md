@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Schedule a CMDB query
@@ -20,7 +20,7 @@ Schedule a saved CMDB query to run once at a scheduled time or on a recurring sc
 
 A saved CMDB query that was built in the CMDB Query Builder must exist.
 
-Role required: cmdb\_query\_builder \(contained for itil and asset\)
+Role required: cmdb\_query\_builder
 
 ## About this task
 

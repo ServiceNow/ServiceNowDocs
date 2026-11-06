@@ -1,16 +1,16 @@
 ---
-title: Enable the dark theme in configurable workspaces
+title: Enable the dark theme only in configurable workspaces
 description: Enable the Next Experience dark theme in configurable workspaces only, and not for the classic environment. The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tb-enable-dark-theme-config-workspaces.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with the dark theme, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Dark theme, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Enable the dark theme in configurable workspaces
+# Enable the dark theme only in configurable workspaces
 
 Enable the Next Experience dark theme in configurable workspaces only, and not for the classic environment. The dark theme emits less blue light, making the display easier for your eyes and less disturbing in low-light settings.
 

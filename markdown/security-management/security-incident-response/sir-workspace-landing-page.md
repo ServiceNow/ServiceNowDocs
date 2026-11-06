@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,19 +22,19 @@ Select a tile to get started.
 
 <table id="table_sxm_bbz_xtb" class="nav-card"><tbody><tr><td>
 
-[Explore Workspace \[Omitted image "icon-explore.png"\] Alt text: Learn about SIR Workspace concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
+[Explore Workspace \[Omitted image "bus-explore.svg"\] Alt text:Learn about SIR Workspace concepts and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/exploring-security-incident-response-workspace.md)
 
 </td><td>
 
-[Admins using Workspace \[Omitted image "icon-set-up.png"\] Alt text: Configure SIR Workspace and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
+[Admins using Workspace \[Omitted image "bus-sdlc.svg"\] Alt text:Configure SIR Workspace and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/configuring-security-incident-response-workspace.md)
 
 </td></tr><tr><td>
 
-[Analysts using Workspace \[Omitted image "icon-workspace.png"\] Alt text: Learn how Analysts use SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-sir-workspace.md)
+[Analysts using Workspace \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Learn how Analysts use SIR Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/using-sir-workspace.md)
 
 </td><td>
 
-[View SIR Dashboards \[Omitted image "icon-dashboard.png"\] Alt text: View SIR Workspace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/working-with-analysts-dashboard.md)
+[View SIR Dashboards \[Omitted image "ind-facilities-manager.svg"\] Alt text:View SIR Workspace dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/working-with-analysts-dashboard.md)
 
 </td></tr></tbody>
 </table>## Request apps on Store

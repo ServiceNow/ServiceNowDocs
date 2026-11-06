@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/noti-provider-action-capabilities.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create provider notification, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Create, Provider notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Select provider notification action capabilities
@@ -30,7 +30,7 @@ Role required: admin
 
 4.  Select the Actions related list.
 
-5.  Click **New Provider Action**.
+5.  Select **New Provider Action**.
 
     The Notification Action wizard shows up.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Zero Touch Refresh
@@ -48,10 +48,9 @@ The various stages in the asset refresh process are as follows:
 
 **Note:** The Zero Touch Refresh flow requires support from an external provider and is pre-configured to integrate with Insight.
 
-The Zero Touch Refresh flow has the following requirements:
+The Zero Touch Refresh flow requires the Service Exchange application to be configured on the ServiceNow instance of both the provider and the employee's organization.
 
--   The employee's organization and the provider must be on the same ServiceNow Cloud.
--   The Service Exchange application must be configured on the ServiceNow instance of the provider and the employee's organization.
+For more details, see [Configure Zero Touch Refresh flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/configure-ztrefresh-flow.md) and [Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md).
 
-For more details, see [Manage refresh of assets using Zero Touch Refresh](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/refresh-hardware-uisng-ztr.md).
+**Parent Topic:**[Exploring Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/exploring-ham.md)
 

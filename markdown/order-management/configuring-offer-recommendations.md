@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configuring-offer-recommendations.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configuring product offering recommendations
@@ -16,7 +16,7 @@ As a product catalog admin or manager, you can create product offering recommend
 
 Product offering recommendations provide your sales agents with relevant products to supplement or complement existing items in quotes. The recommendations are displayed as cards in the contextual side panel of the CRM Workspace when your agents update a draft quote. Product offering recommendations enable your agents to find and add relevant items quickly to their quotes.
 
-\[Omitted image "prod-recommendations-panel.png"\] Alt text: Recommended product cards for products that agents can cross-sell to customers in the contextual side panel of the CSM Workspace.
+\[Omitted image "prod-recommendations-panel.png"\] Alt text: Recommended product cards for products that agents can cross-sell to customers in the contextual side panel of the CRM Workspace.
 
 As a catalog admin or manager, you configure product recommendations by identifying the source product offerings, the type of recommendation, and the associated recommended product. There are two types of product recommendations:
 
@@ -24,4 +24,11 @@ As a catalog admin or manager, you configure product recommendations by identify
 -   Cross-sell: A related product that complements a product in the quote.
 
 For details on configuring product recommendations, see [Create a product offering recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-offer-recommendation.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

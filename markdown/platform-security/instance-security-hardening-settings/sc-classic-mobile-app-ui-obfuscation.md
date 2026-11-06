@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -27,8 +27,6 @@ To obfuscate all fields from the snapshot in the ServiceNow Classic app, see [Co
 ## Example
 
 When you set this property to true, the background application is obfuscated for iOS devices, and blacked out for Android iOS devices.
-
-\[Omitted image "mobile-id-obfuscation-example1.png"\] Alt text: Mobile ID obfuscation Example 1
 
 ## More information
 
@@ -109,7 +107,7 @@ Security risk
 \(Medium\) A compromised \(jailbroken\) device would enable an attacker to have full access to the file system, with access those files/snapshots with sensitive information embedded in them.
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

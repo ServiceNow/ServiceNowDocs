@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Rollup example use case implementation for a Security Case, Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -34,7 +34,7 @@ Major Security Incident Management persona contains sn\_msi.linkedsivi\_read rol
 
 1.  Navigate to **User Administration** &gt; **Roles** and search for **sn\_msi.linkedsivi\_read** role.
 
-2.  Click **Edit** in the Contains Roles related list section.
+2.  Select **Edit** in the Contains Roles related list section.
 
     \[Omitted image "contains-roles-step4.png"\] Alt text: Roles.
 
@@ -52,7 +52,7 @@ Major Security Incident Management persona contains sn\_msi.linkedsivi\_read rol
 
     -   For a Security case, two separate roles for read and write are needed.
     -   Write access on tables for the ability to select source record from Major Security Incident Management workspace linked Record modal.
-5.  Click **Save** to add roles.
+5.  Select **Save** to add roles.
 
 6.  Verify that the roles are added successfully to the **Contains Roles** related list section.
 

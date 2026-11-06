@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-creating-request-in-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage customer complaints, Retail]
 ---
@@ -28,15 +28,15 @@ The retail customer complaint case type enables customers to submit complaints a
 
 2.  Select **New** and fill in the information about the customer complaint.
 
-<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d22379e91">
+<table id="choicetable_wkg_1lc_ccc"><thead><tr><th align="left" id="d26251e102">
 
 Fields
 
-</th><th align="left" id="d22379e94">
+</th><th align="left" id="d26251e105">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d22379e102">
+</th></tr></thead><tbody><tr><td id="d26251e113">
 
 **Service**
 
@@ -44,15 +44,15 @@ Description
 
 Type of service request.
 
-</td></tr><tr><td id="d22379e112">
+</td></tr><tr><td id="d26251e123">
 
 **Customer name**
 
 </td><td>
 
-Name of the customer. **Note:** The name of the customer may not get registered in the system.
+Name of the customer. **Note:** The name of the customer might not get registered in the system.
 
-</td></tr><tr><td id="d22379e123">
+</td></tr><tr><td id="d26251e134">
 
 **Customer email**
 
@@ -60,7 +60,7 @@ Name of the customer. **Note:** The name of the customer may not get registered 
 
 Email address of the customer.
 
-</td></tr><tr><td id="d22379e134">
+</td></tr><tr><td id="d26251e145">
 
 **Priority**
 
@@ -68,7 +68,7 @@ Email address of the customer.
 
 Sequence in which this case must be resolved, based on the impact and urgency.
 
-</td></tr><tr><td id="d22379e145">
+</td></tr><tr><td id="d26251e156">
 
 **Assignment group**
 
@@ -76,7 +76,7 @@ Sequence in which this case must be resolved, based on the impact and urgency.
 
 Associated assignment group that is responsible for working on this request.
 
-</td></tr><tr><td id="d22379e157">
+</td></tr><tr><td id="d26251e168">
 
 **Reported Retail Organization**
 
@@ -84,7 +84,7 @@ Associated assignment group that is responsible for working on this request.
 
 Retail organization from which this request has been created.
 
-</td></tr><tr><td id="d22379e166">
+</td></tr><tr><td id="d26251e177">
 
 **Assigned to**
 
@@ -92,7 +92,7 @@ Retail organization from which this request has been created.
 
 Person who is responsible for working on this request.
 
-</td></tr><tr><td id="d22379e175">
+</td></tr><tr><td id="d26251e186">
 
 **Short description**
 
@@ -100,7 +100,7 @@ Person who is responsible for working on this request.
 
 Short description about this request.
 
-</td></tr><tr><td id="d22379e184">
+</td></tr><tr><td id="d26251e195">
 
 **Description**
 
@@ -113,7 +113,7 @@ Details about this request.
 
 4.  Self-assign the case by selecting **Assign to me** or work on the assigned case by selecting **Accept**.
 
-    **Note:** View your existing tasks by selecting **Task** related list, or create a task by selecting **New**.
+    **Note:** Select **Task** related list to view your existing tasks and select **New** to add a task.
 
 
 **Parent Topic:**[Manage customer complaints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-manage-customer-complaints.md)

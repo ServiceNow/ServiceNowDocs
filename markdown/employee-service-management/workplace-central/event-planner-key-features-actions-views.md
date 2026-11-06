@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -22,7 +22,7 @@ You can view all the reservations of your organization in this single workspace,
 
 -   Access the event planner as a Reservation planner and a Reservation viewer.
 -   Set the start and end time displaying on the calendar in the schedule view.
--   View various reservations such as single, recurring i.e occurrence reservations, multi-child, group, and more.
+-   View various reservations such as single, recurring occurrences, multi-child, group, and more.
 -   Check the available and unavailable spaces at any time.
 -   Directly view or edit reservations requested in any campus, building, or a floor when required.
 -   Open and View Location directory using Event planner.
@@ -41,7 +41,7 @@ You can view all the reservations of your organization in this single workspace,
     -   Change the location of the reservation.
     -   Cancel a reservation.
 
-        **Note:** Only that particular occurrence is deleted when a recurring reservation is cancelled, and not the complete series. You can cancel the complete recurring reservation from the portal.
+        **Note:** Only selected reservation occurrence is deleted when a recurring reservation is cancelled, and not the complete recurrence series. You can cancel the complete recurring reservation from the portal.
 
     -   Open a reservation and make advanced changes and also add services.
     -   Edit the reservation from the contextual side panel of the calendar. This functionality is available only for single and recurring reservations.
@@ -147,13 +147,21 @@ The schedule view opens a time-line view displaying all the workplace locations 
 
 -   **Snap duration**
 
-    When you drag and drop a reservation, you pick, and move the reservation by some duration and the duration is called Snap Duration.
+    When you drag and drop a reservation, you select and move the reservation by some duration and the duration is called Snap Duration.
 
     The default snap duration for a 30-minute and 60-minute view of the event planner schedule view is 5 and 15 minutes, respectively. The minimum and maximum values to set a snap duration for a 30-minute view is 1 and 30, and for a 60-minute view is 1 and 60. You can modify the default values using the system properties **Snap duration for 30 min view of Workplace Event Planner Schedule View** and **Snap duration for 60 min view of Workplace Event Planner Schedule View**.
 
+-   **Schedule view properties**
+
+    Configure the **sn\_wsd\_rsv.row\_title\_fields\_event\_planner\_schedule** system property to specify comma separated field names from space table to display in Row title in Schedule view.
+
+    Configure the **sn\_wsd\_rsv.event\_body\_fields\_event\_planner\_schedule** system property to specify comma separated field names from reservation table to display on Reservation event in Schedule view.
+
+    Configure the **sn\_wsd\_rsv.additional\_space\_details\_fields** system property to specify comma separated field names from space table to display on Space details side panel in Schedule view.
+
 -   **Refresh**
 
-    You can refresh the view at any time by selecting the refresh icon \(\[Omitted image "evnt-plnnr-refreshiocn.png"\] Alt text: Refresh icon.\).
+    You can refresh the view at any time by selecting the Refresh option.
 
 -   **Legend**
 
@@ -267,4 +275,14 @@ As a reservation planner, you can cancel a reservation if necessary using the **
 [Move conflicts for projects created via Excel upload]()
 
 [Workplace Central troubleshooting]()
+
+[Workplace Task form - Space Assignment task]()
+
+[Neighborhood User Assignment Rule form]()
+
+[User Workplace Profile form]()
+
+[]()
+
+[]()
 

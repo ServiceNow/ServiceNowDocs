@@ -7,10 +7,10 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
-breadcrumb: [Exploring, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, Agentic AI, Generative AI, Gen AI, Issue Summarization]
+breadcrumb: [AI in Third-party Risk Management, Explore, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # TPRM issue summarization skill

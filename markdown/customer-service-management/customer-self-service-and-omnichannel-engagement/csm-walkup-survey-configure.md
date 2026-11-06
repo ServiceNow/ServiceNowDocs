@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CSM Walk-up Experience customer satisfaction surveys, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CSM Walk-up Experience customer satisfaction surveys, Configure Walk-up Experience for Customer Service Management, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure Walk-up Experience surveys
@@ -18,7 +18,7 @@ Define surveys so that requesters can provide feedback on their satisfaction wit
 
 ## Before you begin
 
-Role required: admin or sn\_csm\_walkup.walkup\_admin
+Role required: sn\_csm\_walkup.walkup\_admin
 
 ## About this task
 

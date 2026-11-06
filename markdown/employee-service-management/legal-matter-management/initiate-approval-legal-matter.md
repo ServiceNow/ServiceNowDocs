@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Initiate an ad hoc approval for a legal matter or its artifact
@@ -41,19 +41,19 @@ As a collaborator added to a legal matter, you can access and work on the legal 
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, open a legal matter by selecting an option under **Matters**.
 
-<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d423199e133">
+<table id="choicetable_qbl_2bj_gtb"><thead><tr><th align="left" id="d455272e150">
 
 Option
 
-</th><th align="left" id="d423199e136">
+</th><th align="left" id="d455272e153">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d423199e142">
+</th></tr></thead><tbody><tr><td id="d455272e159">
 
 **As an assignee**
 
@@ -65,7 +65,7 @@ Steps
 
 The state of the legal matter updates to Work in Progress.
 
-</td></tr><tr><td id="d423199e171">
+</td></tr><tr><td id="d455272e188">
 
 **As a collaborator**
 
@@ -78,7 +78,7 @@ The state of the legal matter updates to Work in Progress.
 </td></tr></tbody>
 </table>4.  In the **Approvers** tab, click **Initiate Approval**.
 
-    You can also initiate an approval by clicking the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and selecting **Initiate Approval**.
+    You can also initiate an approval by clicking the more actions button \(\[Omitted image "more-button-icon.png"\] Alt text: More actions button icon.\) and selecting **Initiate Approval**.\[Omitted image "lmm-initiate-app-button.png"\] Alt text: Select Initiate approval option for to submit an ad-hoc approval request
 
 5.  On the Initiate Approval dialog box, fill in the fields.
 
@@ -114,7 +114,7 @@ Select attachment
 
 </td><td>
 
-Attachment in the selected artifact for which approval is required. Choose a specific attachment for approval, or leave the field empty to get approval for all attachments.This field appears only when **Artifact** is selected from **Approval for**.
+Attachment in the selected artifact for which approval is required. Choose a specific attachment for approval, or leave the field empty to get approval for all attachments.This field appears only when you select an artifact in the **Select artifact** field.
 
 </td></tr><tr><td>
 
@@ -146,7 +146,7 @@ User or user group who must approve the item.**Note:** Users or user groups with
 
  -   If you selected **User** in the **Approval by** field, select a user from whom the approval is required.
 -   If you selected **User group** in the **Approval by** field, select a user group from which the approval is required.
-
+Only users and user groups with sn\_lg\_ops.legal\_user role will be available for selection.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,9 @@ Approval note
 Note for the selected user or user group.
 
 </td></tr></tbody>
-</table>6.  Click **Initiate**.
+</table>    \[Omitted image "lmm-initiate-app-popup.png"\] Alt text: Fill in the details of the artifact or matter for which you want to request an ad-hoc approval
+
+6.  Select **Initiate**.
 
 
 ## Result
@@ -181,4 +183,9 @@ The approval details appear under the **Approvals** tab on the Standard Ticket p
 ## What to do next
 
 Approvers can review and [approve or reject the requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/approve-reject-legal-matter-artif.md).
+
+-   **[Cancel an ad hoc approval for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/cancel-approval-legal-matter.md)**  
+Cancel an ad hoc approval for a legal matter if it no longer requires any action.
+
+**Parent Topic:**[Work on a legal matter]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -79,7 +79,7 @@ Actual effort
 
 </td><td>
 
-The actual time spent working on the demand task, which is derived from the approved time card for this demand task.Because this field does not appear by default on the Demand Task form, you must add it by personalizing the form.
+The actual time spent working on the demand task, which is derived from the approved time card for this demand task.Because this field doesn’t appear by default on the Demand Task form, you must add it by personalizing the form.
 
 </td></tr><tr><td>
 
@@ -103,7 +103,7 @@ Priority
 
 </td><td>
 
-Sequence in which the task needs to be completed based on impact and urgency.
+Sequence in which the task must be completed based on impact and urgency.
 
 </td></tr><tr><td>
 

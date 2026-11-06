@@ -7,7 +7,7 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -16,9 +16,7 @@ breadcrumb: [ITOM Visibility, IT Operations Management]
 
 ServiceNow Discovery is an automated process that continuously scans and identifies all the components within the IT infrastructure. It plays a crucial role in maintaining an accurate and up-to-date CMDB 360 with the information it finds.
 
-\[Omitted video\] Description: Discovery overview
-
-Discovery is available as a separate subscription from the rest of the ServiceNow AI Platform. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for details.
+\[Omitted video\] Description: Discovery overviewDiscovery is available as a separate subscription from the rest of the ServiceNow AI Platform. See [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_ActivateTheDiscoveryPlugin.md) for details.
 
 Discovery supports database encryption and full-disk encryption. See [Database Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/db-full-disk-encryption.md) for details.
 
@@ -55,9 +53,10 @@ Discovery supports database encryption and full-disk encryption. See [Database E
 **Use**
 
  -   [Schedule a horizontal discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
--   [Run a Quick Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_DiscoverNow.md)
+-   [Run a Quick Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
 -   [Discovery status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_DiscoveryStatus.md)
--   [Validate discovery results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_ValidateDiscoveryResults.md)
+-   [Validate discovery results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_CreateADiscoverySchedule.md)
+-   [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md)
 -   [Discovery for cloud environment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cloud-discovery-wizard.md)
 -   [Certificate Inventory and Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cert-inventory-mgmt.md)
 

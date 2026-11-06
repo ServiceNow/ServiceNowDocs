@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collect data from your system devices, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Collect data from your system devices, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Create secure parameters for a check
@@ -38,15 +38,15 @@ Role required: agent\_client\_collector\_admin
 
 5.  Configure the fields on the page.
 
-<table id="choicetable_jz2_g32_1mb"><thead><tr><th align="left" id="d626212e112">
+<table id="choicetable_jz2_g32_1mb"><thead><tr><th align="left" id="d789637e112">
 
 Field Name
 
-</th><th align="left" id="d626212e115">
+</th><th align="left" id="d789637e115">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d626212e121">
+</th></tr></thead><tbody><tr><td id="d789637e121">
 
 **Name**
 
@@ -54,7 +54,7 @@ Description
 
 The name of the parameter, formatted as a reference prefix. For example, `cred_` is a reference prefix for the credentials table.
 
-</td></tr><tr><td id="d626212e133">
+</td></tr><tr><td id="d789637e133">
 
 **Check Definition**
 
@@ -62,7 +62,7 @@ The name of the parameter, formatted as a reference prefix. For example, `cred_`
 
 The name of the check definition connected to the parameter.
 
-</td></tr><tr><td id="d626212e142">
+</td></tr><tr><td id="d789637e142">
 
 **Order**
 
@@ -74,7 +74,7 @@ A number indicating the order in which the parameter is sent to the check comman
 
  The `READ` command is performed first on the **username** parameter and then on the **password** parameter. You can then use **$username** and **$password** in your Bash script.
 
-</td></tr><tr><td id="d626212e202">
+</td></tr><tr><td id="d789637e202">
 
 **Active**
 

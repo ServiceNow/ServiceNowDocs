@@ -1,20 +1,20 @@
 ---
-title: Add a RIDAC record to a project in Project Workspace
-description: Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your project in the Project Workspace. Adding RIDAC records enable you to keep a track of risks or issues during the project life cycle and help in analyzing the outcome of a project.
+title: Add RIDAC records to projects from All RIDAC page
+description: Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your project in All RIDAC page. Adding RIDAC records enable you to keep a track of risks or issues during the project life cycle and help in analyzing the outcome of a project.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/add-risk-project-project-workspace.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage RIDAC, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Add a RIDAC record to a project in Project Workspace
+# Add RIDAC records to projects from All RIDAC page
 
-Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your project in the Project Workspace. Adding RIDAC records enable you to keep a track of risks or issues during the project life cycle and help in analyzing the outcome of a project.
+Add a Risk, Issue, Decision, Action, or Request Change \(RIDAC\) record to your project in All RIDAC page. Adding RIDAC records enable you to keep a track of risks or issues during the project life cycle and help in analyzing the outcome of a project.
 
 ## Before you begin
 
@@ -28,13 +28,13 @@ For information about RIDAC records for project management, see [Adding RIDAC re
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Open the RIDAC page of the project by selecting **RIDAC** from the list.
 
-    \[Omitted image "ridac-page-pw.png"\] Alt text: ridac-page-in-pw
+    The filter icon in the side panel shows the filters applied to the RIDAC records, and its pane stays empty until you apply one. To apply a filter, select the filter icon in a column header, select the check boxes for the values that you want to show, and select **Apply**.
 
 3.  From the More actions menu, select the type of RIDAC record that you want to create.
 
@@ -45,8 +45,6 @@ For information about RIDAC records for project management, see [Adding RIDAC re
     |**Add Decision**|Add a decision in response to a reported risk or an issue.|
     |**Add Action**|Add an action to your project to resolve an issue or risk or to make a decision.|
     |**Add Request Change**|Add a change request to your project in response to the suggested action for an issue or risk.|
-
-    \[Omitted image "more-actions-menu-list.png"\] Alt text: more action menu list
 
 4.  On the form, fill in the fields.
 
@@ -65,5 +63,12 @@ For information about RIDAC records for project management, see [Adding RIDAC re
 -   Convert an existing project risk to an issue, decision, action, or request change and close the risk. For more information, see [Convert one RIDAC record to another for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/convert-ridac-project-workspace.md).
 -   Associate a project risk with existing issues so that you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a project in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/associate-ridac-project-workspace.md).
 
-**Parent Topic:**[Managing projects with Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-projects-pw.md)
+**Parent Topic:**[Manage Risk, Issue, Decision, Action, or Request Change \(RIDAC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/manage-ridac-pw.md)
+
+**Related topics**  
+
+
+[filter-ridac-pw]
+
+[Export RIDAC data from All RIDAC page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/export-ridac-pw.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Create new control form
-description: Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application. As a third-party risk admin, you can create a control.
+description: Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/third-party-risk-management/tprm-control-record-form.html
 release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Add a control, TPRM with Policy and Compliance Management, Integrate, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Create new control form
 
-Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application. As a third-party risk admin, you can create a control.
+Use the create new control form to capture all the information that you need to associate a control with a third party or engagement using the Third-party Risk Management application.
 
 <table id="table_FloorForm"><thead><tr><th>
 
@@ -154,7 +154,7 @@ List of options:-   Standard control
 
 **Note:** All existing controls are termed as standard controls. You can convert a standard control to common and reverse its function as standard if you so require. However, by default all controls whether existing or created are standard.
 
-For more information, see [Convert standard control to common control and add reliant entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
+For more information, see [Convert standard control to common control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/convert-standard-control-common.md).
 
 </td></tr><tr><td>
 

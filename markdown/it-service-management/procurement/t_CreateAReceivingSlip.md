@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Receive assets, Procurement, Asset Management, IT Service Management]
+breadcrumb: [Receive assets, Procurement, Asset Management common applications, IT Service Management]
 ---
 
 # Create a receiving slip

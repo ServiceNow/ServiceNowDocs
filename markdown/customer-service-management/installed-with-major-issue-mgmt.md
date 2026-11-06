@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/installed-with-major-issue-mgmt.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Major issue management overview, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Configure major issue management, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Components installed with Major Issue Management
@@ -96,6 +96,22 @@ Processes SLA asynchronously during parent to child case creation and synchroniz
 Enables major issue management to process the SLA asynchronously during child case creation and parent-to-child case synchronization. -   Type: true\|false
 -   Default value: true
 -   Location: **Customer Service** &gt; **Administration** &gt; **Properties**
+
+</td></tr><tr><td>
+
+Enable case type support for major cases
+
+ enable\_case\_type\_for\_major\_case
+
+</td><td>
+
+Enable this property to create major cases with the same case type as the candidate case. When enabled, the system preserves the sys\_class\_name of the candidate case when creating the major case and uses extension point implementations to determine fields to copy.
+
+ -   Type: true\|false
+-   Default value: true \(new installations\), false \(upgrades\)
+-   Location: Go to **System Properties** and search for `enable_case_type_for_major_case`.
+
+ **Note:** For upgrade installations, this property defaults to false to preserve existing behavior where all major cases are created as base cases. Before you enable case type support, determine whether the default implementation is sufficient, or whether you need extension point implementations for your custom case types.
 
 </td></tr></tbody>
 </table>

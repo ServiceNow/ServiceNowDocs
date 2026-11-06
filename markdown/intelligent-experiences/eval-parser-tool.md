@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/eval-parser-tool.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-08-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Evaluate agentic AI, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Execute a run, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Agentic evaluation parser tool
@@ -28,14 +28,14 @@ The parser tool returns structured AI agent or agentic workflow execution data w
 ```
 {
      "output": {
-      "payload": {
-       "executionInputs": { ... },
-       "executionOutputs": { ... },
-       "executionMessages": [ ... ],
-       "executionPlanDetails": { ... }
-      }
-     }
-    }
+ "payload": {
+  "executionInputs": { ... },
+  "executionOutputs": { ... },
+  "executionMessages": [ ... ],
+  "executionPlanDetails": { ... }
+ }
+}
+
 ```
 
 ## Accessing the parser tool's output

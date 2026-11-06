@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-10-09"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft OneDrive Spoke
@@ -18,7 +18,7 @@ Automate file and folder management and collaboration in Microsoft OneDrive. Add
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft OneDrive spoke v2.9.1 is the latest version.
+Microsoft OneDrive spoke v2.9.1 is the latest version. For version history of the spoke, see [Microsoft OneDrive spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-onedrive-spoke.html).
 
 ## Spoke dependencies
 
@@ -55,7 +55,7 @@ The Microsoft OneDrive spoke provides sample subflows in the draft state to demo
 
 |Subflow|Description|
 |-------|-----------|
-|Download New OneDrive File to Servicenow|Downloads the new files uploaded in a resource to a ServiceNow record|
+|Download New OneDrive File to ServiceNow|Downloads the new files uploaded in a resource to a ServiceNow record|
 |Subscribe to Webhook|Subscribes a listener application to receive notifications when data changes.|
 |Sync Changes|Tracks changes to a drive and its children over time.|
 |Get Document Latest URL|Gets the latest path of a file in OneDrive using the Sys ID of the document as an input. To use this subflow, a corresponding OneDrive connection and credential must be created, and a OneDrive authorization token should be available.|
@@ -87,7 +87,7 @@ Look up Drive Info
 
 </td><td>
 
-Gets the metadata of a specific Microsoft OneDrive drive.
+Gets the metadata of a specific Microsoft OneDrive drive
 
 </td></tr><tr><td rowspan="4">
 
@@ -409,10 +409,7 @@ Available AI agents include:
 |Microsoft OneDrive folder management AI agent|Manages folders in Microsoft OneDrive.|
 |Microsoft OneDrive permission management AI agent|Creates sharing link for a drive item and manages permissions.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

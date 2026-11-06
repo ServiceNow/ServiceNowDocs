@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -74,7 +74,7 @@ Madrid and later release requirements
 
 2.  Once the installation completes, navigate to **Security Operations** &gt; **Integrations** &gt; **Integrations Configurations** and locate the API tile.
 
-3.  Click **Configure**.
+3.  Select **Configure**.
 
     \[Omitted image "riskiq-tile.png"\] Alt text: RISKIQ Configure button
 
@@ -82,7 +82,7 @@ Madrid and later release requirements
 
     \[Omitted image "riskiq-configuration.png"\] Alt text: Task: Enter the Username and API key.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 6.  Verify successful configuration.
 

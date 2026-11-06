@@ -1,20 +1,20 @@
 ---
-title: Use Now Assist to create spokes and build actions
-description: Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
+title: Use ServiceNow Otto to create spokes and build actions
+description: Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/now-assist-in-spk-gen.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2026-06-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Building spokes using Spoke Generator, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Building spokes using Spoke Generator, Workflow Studio, Build workflows]
 ---
 
-# Use Now Assist to create spokes and build actions
+# Use ServiceNow Otto to create spokes and build actions
 
-Use Now Assist in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
+Use ServiceNow Otto in Spoke Generator to create spokes and actions by providing the required third-party API documentation snippet as an input.
 
 ## Capabilities
 
@@ -24,10 +24,9 @@ You can build custom spokes for the required third-party application by copying 
 
 Spoke Generation skill is supported on these versions and later releases.
 
--   Xanadu Patch 3
--   Spoke Generator v4.0.0
--   Workflow Studio v26.2.5
--   Workflow Studio v26.2.6
+-   Zurich
+-   Spoke Generator v4.1.0
+-   Workflow Studio v28.0
 
 ## Skill version
 
@@ -35,22 +34,22 @@ Spoke Generation skill v1.0.4 is the latest version.
 
 ## App version
 
-Now Assist for Spoke Generation v1.6.0 is the latest version.
+ServiceNow Otto for Spoke Generation v2.0.0 is the latest version.
 
 ## Activation of the spoke generation skill
 
-The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the Now Assist for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
+The spoke generation skill offers generative AI capabilities to build spokes. This skill is installed with the ServiceNow Otto for Creator \(sn\_now\_creator\) application. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After installing the Now Assist for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the [ServiceNow Otto for Creator feature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/now-assist-for-creator/now-assist-for-creator-landing.md) from the AI Admin Hub console.
+After installing the ServiceNow Otto for Creator \(sn\_now\_creator\) application, activate the Spoke Generation skill in the ServiceNow Otto for Creator feature from the AI Admin Hub console.
 
-\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill inAI Admin Hub console.
+\[Omitted image "creator-skill-now-assist.png"\] Alt text: Spoke Generation skill in AI Admin Hub console.
 
 -   For information about the AI Admin Hub console, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 -   For steps to activate the required skill, see [Activate a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configure-a-now-assist-skill.md).
 
 **Important:** Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Please check for availability updates in future releases.
 
-**Important:** Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+**Important:** Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 
 ## AI limitations
 
@@ -62,18 +61,7 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect information about scripts \(and associated script records\) in which Now Assist for code generation is called. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
-
--   **[Install Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/install-now-assist-spk.md)**  
-Install the Now Assist for Creator application to use the spoke generation skill.
--   **[Turn on the spoke generation skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/turn-on-spk-gen-skill.md)**  
-Turn on the flow generation skill to use generative AI to create spoke.
--   **[Configure a third-party LLM provider for Now Assist for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-tpt-llm-provider-na-creator.md)**  
-Configure a third-party LLM provider as default for creating a spoke using Now Assist.
--   **[Create spoke and build actions using the spoke generation skill in Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-spk-now-spk-gen.md)**  
-Automate an integration and generate reusable actions by providing the required third-party API documentation snippet as an input.
-
-**Parent Topic:**[Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/spoke-builder.md)
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 

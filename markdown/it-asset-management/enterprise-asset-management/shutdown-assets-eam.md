@@ -7,10 +7,10 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-02-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Shut down enterprise assets, Shutdown work type, Shut down work order task]
-breadcrumb: [Create a work order for an enterprise asset, Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create a work order for an enterprise asset, Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Shut down enterprise assets for maintenance activities
@@ -18,8 +18,6 @@ breadcrumb: [Create a work order for an enterprise asset, Managing work orders f
 Move enterprise assets of a shutdown work order task to the shutdown state to indicate that the assets are unavailable for use during maintenance.
 
 ## Before you begin
-
-**Important:** The Affected assets tab, Shutdown work type, and **Shutdown** option are available with Enterprise Asset Management version 10.0 and later.
 
 The shutdown work order task must be in the Work in progress state before you can shut down assets. The assets must be in the In use or In maintenance state.
 

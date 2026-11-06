@@ -1,5 +1,5 @@
 ---
-title: Intent Discovery
+title: \(Legacy\) Intent Discovery
 description: Use the Intent Discovery application to help identify opportunities for incident deflection. For example, you can use it to identify which Virtual Agent conversations to activate next.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/intent-discovery.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [NLU Workbench - Advanced Features, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) NLU Workbench - Advanced Features, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Intent Discovery
+# \(Legacy\) Intent Discovery
 
 Use the Intent Discovery application to help identify opportunities for incident deflection. For example, you can use it to identify which Virtual Agent conversations to activate next.
 
@@ -26,7 +26,7 @@ In this example scenario, you're using Intent Discovery to identify the top inte
 
 ## Installation
 
-Intent Discovery is available from the ServiceNow Store. For more information, see [Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.md).
+Intent Discovery is available from the ServiceNow Store. For more information, see [\(Legacy\) Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.md).
 
 After Intent Discovery is installed and activated, it appears under **All** &gt; **NLU Workbench** &gt; **NLU Advanced Features**.
 
@@ -156,9 +156,4 @@ When the run is complete, a new banner appears that states you have a new versio
 **Result**: The time stamp you selected for the most recent run appears in the **Run date** column of the Intent Discovery screen.
 
 \[Omitted image "intent-discovery17.png"\] Alt text: The new time stamp of the Intent Discovery report
-
--   **[Install Intent Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/install-intent-discovery.md)**  
-You can install the Intent Discovery application \(sn\_nlu\_discovery\) if you have the admin role.
-
-**Parent Topic:**[NLU Workbench - Advanced Features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-workbench-advanced-features.md)
 

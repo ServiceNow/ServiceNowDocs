@@ -1,14 +1,14 @@
 ---
 title: GlideRecord - Scoped
-description: The scoped GlideRecord API is used for database operations.Adds a filter to return active records.Adds an encoded query to other queries that may have been set.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a filter to return records based on a relationship in a table related to the current GlideRecord.A filter that specifies records where the value of the field passed in the parameter is not null.Adds a filter to return records where the value of the specified field is null.Adds a filter to return records using an encoded query string.Build a search query and return the rows that match the request.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request.Provides atomic add and subtract operations on a specified number field at the database level for the current GlideRecord object.Sets the values of the specified encoded query terms and applies them to the current GlideRecord.Determines if the Access Control Rules, which include the user's roles, permit inserting new records in this table.Determines if the Access Control Rules, which include the user's roles, permit deleting records in this table.Determines if the Access Control Rules \(ACLs\) permit reading records in this table. This method evaluates all ACL types, such as user roles, scripted ACLs, ACLs with scripted conditions, and so on.Determines if the Access Control Rules, which include the user's roles, permit editing records in this table.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes the current record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns the specified record in the current GlideRecord object.Returns the dictionary attributes for the specified field.Returns the current table's label.Retrieves the display value for the current record.Returns the element's descriptor.Retrieves the GlideElement object for the specified field.Returns an array of GlideElement objects. Each object describes a field in the current GlideRecord.Retrieves the query condition of the current result set as an encoded query string. Returns the field's label.Retrieves the last error message. If there is no last error message, null is returned.Retrieves the link to the current record.Retrieves the class name for the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the name of the table associated with the GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of an underlying element in a field.Creates an instance of the GlideRecord class for the specified table.Determines if there are any more records in the GlideRecord object.Inserts a new record using the field values that have been set for the current record.Creates an empty record suitable for population before an insert.Checks to see if the current database action is to be aborted.Verifies whether the specified encoded query is valid.Checks if the current record is a new record that has not yet been inserted into the database.Determines if the current table is valid or if the record was successfully retrieved.Verifies whether the syntax of the encoded query is correct.Determines if the specified field is defined in the current table.Determines if a record was actually returned by the query/get record operation.Verifies whether the record was created in a view or a table.Creates a new GlideRecord record, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord object.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), use this method if the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies an orderBy column.Specifies a descending orderBy column.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted. This is often used in business rules.Sets the limit for number of records are fetched by the GlideRecord query.Sets the sys\_id value for the current record.Stops a GlideRecord query from running a COUNT\(\*\) query.Sets the value of the field with the specified name to the specified value.Enables or disables running business rules, script engines, or audits.Updates the GlideRecord with any changes that have been made. If the record does not already exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
+description: The scoped GlideRecord API is used for database operations.Adds a filter to return active records.Adds an encoded query to other queries that may have been set.Applies a pre-defined GlideDBFunctionBuilder object to a record.Adds a filter to return records based on a relationship in a table related to the current GlideRecord.A filter that specifies records where the value of the field passed in the parameter is not null.Adds a filter to return records where the value of the specified field is null.Build a search query and return the rows that match the request.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request.Adds a query using an encoded query string. Use this method to bypass query access.Specifies an orderBy column. Use this method to bypass query access.Specifies a descending orderBy column. Use this method to bypass query access.Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.Adds a query using an encoded query string. Use this method to enforce query access based on the user.Specifies an orderBy column. Use this method to enforce query access based on the user.Specifies a descending orderBy column. Use this method to enforce query access based on the user.Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.Determines if the Access Control Rules, which include the user's roles, permit inserting new records in this table.Determines if the Access Control Rules, which include the user's roles, permit deleting records in this table.Determines if the Access Control Rules \(ACLs\) permit reading records in this table. This method evaluates all ACL types, such as user roles, scripted ACLs, ACLs with scripted conditions, and so on.Determines if the Access Control Rules, which include the user's roles, permit editing records in this table.Sets a range of rows to be returned by subsequent queries.Deletes all records that satisfy the query.Deletes the current record.Disables the default optimization that prevents an extra database query from running when a user passes in a large number of sys\_ids, such as grIncident.addQuery\('sys\_id', 'IN', listOf200SysIds\). Returns the specified record in the current GlideRecord object.Returns the dictionary attributes for the specified field.Returns the current table's label.Retrieves the display value for the current record.Returns the element's descriptor.Retrieves the GlideElement object for the specified field.Returns an array of GlideElement objects. Each object describes a field in the current GlideRecord.Retrieves the query condition of the current result set as an encoded query string. Returns the field's label.Retrieves the last error message. If there is no last error message, null is returned.Retrieves the link to the current record.Retrieves the class name for the current record.Retrieves the number of rows \(records\) in the current GlideRecord object.Retrieves the name of the table associated with the GlideRecord.Gets the primary key of the record, which is usually the sys\_id unless otherwise specified.Retrieves the string value of an underlying element in a field.Creates an instance of the GlideRecord class for the specified table.Determines if there are any more records in the GlideRecord object.Inserts a new record using the field values that have been set for the current record.Creates an empty record suitable for population before an insert.Checks to see if the current database action is to be aborted.Verifies whether the specified encoded query is valid.Checks if the current record is a new record that has not yet been inserted into the database.Determines if the current table is valid or if the record was successfully retrieved.Verifies whether the syntax of the encoded query is correct.Determines if the specified field is defined in the current table.Determines if a record was actually returned by the query/get record operation.Verifies whether the record was created in a view or a table.Creates a new GlideRecord record, sets the default values for the fields, and assigns a unique ID to the record.Moves to the next record in the GlideRecord object.Moves to the next record in the GlideRecord. Provides the same functionality as next\(\), use this method if the GlideRecord has a column named next.Determines if an operation is insert, update, or delete.Specifies an orderBy column.Specifies a descending orderBy column.Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\).Runs a query against the table based on the filters specified in the query methods such as addQuery\(\) and addEncodedQuery\(\). This method is intended to be used on tables in which there's a column named "query", which might cause errors running the query\(\) method.Sets a flag to indicate if the next database action \(insert, update, delete\) is to be aborted. This is often used in business rules.Sets the query category, which determines how the query is routed to a secondary database.Sets the limit for number of records are fetched by the GlideRecord query.Sets the sys\_id value for the current record.Stops a GlideRecord query from running a COUNT\(\*\) query.Sets the value of the field with the specified name to the specified value.Enables or disables running business rules, script engines, or audits.Updates the GlideRecord with any changes that have been made. If the record does not already exist, it is inserted.Updates each GlideRecord in a stated query with a specified set of changes.Updates a record and also inserts or updates any related records with the information provided.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideRecordScopedAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 55
+last_updated: "2026-09-10"
+reading_time_minutes: 69
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -20,7 +20,7 @@ The GlideRecord API is the primary means of interfacing with the database on the
 
 See the [GlideRecord](https://developer.servicenow.com/dev.do#!/learn/courses/utah/app_store_learnv2_scripting_utah_scripting_in_servicenow/app_store_learnv2_scripting_utah_server_side_scripting/app_store_learnv2_scripting_utah_gliderecord) article for details on building and running queries.
 
-For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Using GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/p_GlideServerAPIs.md).
+For information on a class that performs the same functions as GlideRecord and enforces ACLs, see [Enforcing ACLs with GlideRecordSecure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
@@ -74,6 +74,8 @@ Adds an encoded query to other queries that may have been set.
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
 You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+**Note:** To enforce query access based on the user, use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -326,38 +328,13 @@ while (target.next()) {
 }
 ```
 
-## Scoped GlideRecord - addQuery\(String query\)
-
-Adds a filter to return records using an encoded query string.
-
-Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
-
-You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
-
-|Name|Type|Description|
-|----|----|-----------|
-|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md) .|
-
-|Type|Description|
-|----|-----------|
-|GlideQueryCondition|The query condition added to the GlideRecord.|
-
-```
-var rec = new GlideRecord('incident');
-rec.addQuery('active=true');
-rec.query();
-while (rec.next()) {
-  rec.setValue('active', false);
-  gs.info('Active incident ' + rec.getValue('number') + ' closed');
-  rec.update();
-}
-```
-
 ## Scoped GlideRecord - addQuery\(String name, Object value\)
 
 Build a search query and return the rows that match the request.
 
 If you are familiar with SQL, this method is similar to the "where" clause. One or more addQuery\(\) calls can be made in a single query; in this case the queries are AND'ed. If any of the query statements need to be OR'ed, use the GlideQueryCondition method [addOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md).
+
+**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 When addQuery\(\) is called with only two parameters, table name and comparison value, such as `myObj.addQuery('category','Hardware');`, the operator is assumed to be "equal to".
 
@@ -439,6 +416,8 @@ If you are familiar with SQL, this method is similar to the "where" clause. One 
 Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
 
 You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+**Note:** To enforce query access based on the user, use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 <table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
 
@@ -537,41 +516,187 @@ while(now_GR.next()) {
 }
 ```
 
-## Scoped GlideRecord - addValue\(String field, Number value\)
+## Scoped GlideRecord - addSystemEncodedQuery\(String query\)
 
-Provides atomic add and subtract operations on a specified number field at the database level for the current GlideRecord object.
+Adds a query using an encoded query string. Use this method to bypass query access.
 
-Typically, a GlideRecord object is written as one record in a database. Individual field values are stored as defined. For code that adds a value to a GlideRecord field, it simply saves the field to the database with the new value, rather than atomically incrementing it.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
 
-For example, when the following code is executed, the value of the *u\_count* field in the database is 2.
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to return the number value of the first 12 incidents with a priority value of 1 or 2.
 
 ```
-gs.info(now_GR.u_count); // "1" 
-now_GR.u_count += 1;
-now_GR.update();
-now_GR.get(now_GR.sys_id);
-gs.info(now_GR.u_count); // "2"
+var queryString = "priority=1^ORpriority=2";
+var now_GR = new GlideRecord('incident');
+now_GR.addSystemEncodedQuery(queryString);
+
+now_GR.setLimit(12);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('number'));
+}
 ```
 
-If another user concurrently runs identical code, instead of the two operations each adding 1 to *u\_count*, the net effect is that *u\_count* only contains 2, with one operation's update actually being lost.
-
-Conversely, the addValue\(\) method performs the addition/subtraction in the database when the record is updated as an atomic operation. Two operations running concurrently each properly update the field.
+Output:
 
 ```
-gs.info(now_GR.u_count); // "1" 
-now_GR.addValue("u_count", 1); 
-now_GR.update(); 
-now_GR.get(now_GR.sys_id); // The record must be reloaded from the database to observe the result
-gs.info(now_GR.u_count); // "3", if executed concurrently with another user 
+*** Script: INC0002318
+*** Script: INC0000144
+*** Script: INC0006927
+*** Script: INC0003577
+*** Script: INC0006928
+*** Script: INC0000135
+*** Script: INC0005637
+*** Script: INC0003196
+*** Script: INC0002647
+*** Script: INC0004074
+*** Script: INC0003444
+*** Script: INC0001694
 ```
 
-**Note:** The new value is not read back from the database unless explicitly done so.
+## Scoped GlideRecord - addSystemOrderBy\(String name\)
 
-Like setValue\(\), addValue\(\) changes only take effect in the database after a subsequent call to update\(\) or insert\(\). If insert\(\) is called, the specified field is initialized with the **value** parameter passed into addValue\(\).
+Specifies an orderBy column. Use this method to bypass query access.
 
-**Note:** If setValue\(\) is called for the specified field prior to calling addValue\(\), the addValue\(\) method is not processed and an error message is logged.
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
 
-<table id="table_h43_tjt_hlb" class="parameters"><thead><tr><th>
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in this GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in ascending order by Short Description.
+
+```
+var queryString = "priority=1";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addSystemOrderBy('short_description'); // Ascending Order
+now_GR.addSystemEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Access token revoked
+*** Script: Access token revoked
+*** Script: Account locked, pls reset my password for Linkedin Sales Navigator
+*** Script: Active Directory (AD) synchronization error
+*** Script: Adobe Photoshop & Digital Publishing Instance is down
+*** Script: Application response time is poor when performing any action in ADP Payroll S...
+```
+
+## Scoped GlideRecord - addSystemOrderByDesc\(String name\)
+
+Specifies a descending orderBy column. Use this method to bypass query access.
+
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
+
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in a GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in descending order by Short Description.
+
+```
+var queryString = "priority=2";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addSystemOrderByDesc('short_description'); //Descending Order
+now_GR.addSystemEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Xignite U.S. and Global Real Time Quotes upgrade to the latest version
+*** Script: Xignite Company, Market and Industry News Headlines upgrade to the latest ver...
+*** Script: Workday Talent Management Instance relocation from US datacenter to Hongkong ...
+*** Script: Warning displayed while launching Tableau Server
+*** Script: Warning displayed while launching SAP Financial Accounting
+*** Script: Warning displayed while launching Jive Daily
+```
+
+## Scoped GlideRecord - addSystemQuery\(String name, Object operator, Object value\)
+
+Provides the ability to build a request, which when executed, returns the rows from the specified table, that match the request. Use this method to bypass query access.
+
+Use this method when system-level access is intended, so that query ACL enforcement is explicitly bypassed for the user. Use[addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) to enforce query access.
+
+Additional methods for system-level access that bypass query ACL checks:
+
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addSystemCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addSystemOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+<table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
 
 Name
 
@@ -585,7 +710,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-field
+name
 
 </td><td>
 
@@ -593,7 +718,70 @@ String
 
 </td><td>
 
-Name of the field in this GlideRecord to modify. **Note:** The associated field's data type must be an integer. This method doesn't support other data types such as longs.
+Table field name.
+
+</td></tr><tr><td>
+
+operator
+
+</td><td>
+
+Object
+
+</td><td>
+
+Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   NOT IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOES NOT CONTAIN
+-   INSTANCEOF
+
+**Note:** Use CONTAINS instead of the LIKE operator.
+
+Dynamic schema operators:
+
+-   =
+-   !=
+-   &lt;
+-   &gt;
+-   &lt;=
+-   &gt;=
+-   BETWEEN
+-   CONTAINS
+-   DOES\_NOT\_CONTAIN
+-   ENDSWITH
+-   GT\_FIELD
+-   GT\_OR\_EQUALS\_FIELD
+-   IN
+-   ISEMPTY
+-   ISNOTEMPTY
+-   IS\_NOT\_NULL
+-   IS\_NULL
+-   LIKE
+-   LT\_FIELD
+-   LT\_OR\_EQUALS\_FIELD
+-   MATCHES
+-   NOT\_IN
+-   NOT\_LIKE
+-   NOT\_MATCHES
+-   NSAMEAS
+-   SAMEAS
+-   STARTSWITH
 
 </td></tr><tr><td>
 
@@ -601,81 +789,357 @@ value
 
 </td><td>
 
-Integer
+Object
 
 </td><td>
 
-Amount to add to the value when the record is saved. To perform a subtraction operation, simply pass a negative value.
+Value on which to query \(not case-sensitive\).
 
 </td></tr></tbody>
 </table>|Type|Description|
 |----|-----------|
-|void| |
+|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)|The query condition that was added to the GlideRecord.|
 
-Shows a value being added.
-
-```
-gs.info(now_GR.u_count); // "1" 
-now_GR.addValue("u_count", 1); 
-now_GR.update(); 
-now_GR.get(now_GR.sys_id); // The record must be reloaded from the database to observe the result
-gs.info(now_GR.u_count);
-```
-
-Output:
+The following example shows how to explicitly return all active users named Fred.
 
 ```
-2
-```
+var rec = new GlideRecord('sys_user');
+rec.addSystemQuery("first_name", "=", "Fred");
+rec.query();
 
-Shows a value being subtracted.
-
-```
-gs.info(now_GR.u_count); // "4" 
-now_GR.addValue("u_count", -1); 
-now_GR.update(); 
-now_GR.get(now_GR.sys_id); // The record must be reloaded from the database to observe the result
-gs.info(now_GR.u_count);
+while (rec.next()) {
+  gs.info('Active user ' + rec.getValue('last_name'));
+}
 ```
 
 Output:
 
 ```
-3
+Active user Luddy
+Active user Kunde
 ```
 
-## Scoped GlideRecord - applyEncodedQuery\(String queryString\)
+## Scoped GlideRecord - addUserEncodedQuery\(String query\)
 
-Sets the values of the specified encoded query terms and applies them to the current GlideRecord.
+Adds a query using an encoded query string. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [addEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+For information on using this method with GlideRecordSecure, see [Enforcing query ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/useful-server-side-scripts.md).
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
 
 |Name|Type|Description|
 |----|----|-----------|
-|queryString|String|Encoded query to apply to the current GlideRecord.|
+|query|String|An [encoded query string](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).|
 
 |Type|Description|
 |----|-----------|
 |None| |
 
+The following example shows how to return the number value of the first 12 incidents with a priority value of 1 or 2.
+
 ```
-function createAcl(table, role) {
-  gs.info("Checking security on table " + table);
-  var now_GR = new GlideRecord("sys_security_acl");
-  now_GR.addQuery("name", table);
-  now_GR.addQuery("operation", "read");
-  now_GR.query();
-  var encQuery = now_GR.getEncodedQuery();
-  if (now_GR.next()) {
-  // existing acl found so use it
-    createAclRole(now_GR.getValue('sys_id'), role);
-    return;
-  } else {
-    now_GR.initialize();
-    now_GR.applyEncodedQuery(encQuery);
-    var acl = now_GR.insert();
-    gs.info("Added read access control on " + table);
-    createAclRole(acl, role);
-  }
+var queryString = "priority=1^ORpriority=2";
+var now_GR = new GlideRecord('incident');
+now_GR.addUserEncodedQuery(queryString);
+
+now_GR.setLimit(12);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('number'));
 }
+```
+
+Output:
+
+```
+*** Script: INC0002318
+*** Script: INC0000144
+*** Script: INC0006927
+*** Script: INC0003577
+*** Script: INC0006928
+*** Script: INC0000135
+*** Script: INC0005637
+*** Script: INC0003196
+*** Script: INC0002647
+*** Script: INC0004074
+*** Script: INC0003444
+*** Script: INC0001694
+```
+
+## Scoped GlideRecord - addUserOrderBy\(String name\)
+
+Specifies an orderBy column. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [orderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in this GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in ascending order by Short Description.
+
+```
+var queryString = "priority=1";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addUserOrderBy('short_description'); // Ascending Order
+now_GR.addUserEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Access token revoked
+*** Script: Access token revoked
+*** Script: Account locked, pls reset my password for Linkedin Sales Navigator
+*** Script: Active Directory (AD) synchronization error
+*** Script: Adobe Photoshop & Digital Publishing Instance is down
+*** Script: Application response time is poor when performing any action in ADP Payroll S...
+```
+
+## Scoped GlideRecord - addUserOrderByDesc\(String name\)
+
+Specifies a descending orderBy column. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [orderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
+|Name|Type|Description|
+|----|----|-----------|
+|name|String|Column name to use to order the records in a GlideRecord object.|
+
+|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to order incident records in descending order by Short Description.
+
+```
+var queryString = "priority=2";
+var now_GR = new GlideRecord('incident');
+
+now_GR.addUserOrderByDesc('short_description'); //Descending Order
+now_GR.addUserEncodedQuery(queryString);
+
+now_GR.setLimit(6);
+now_GR.query();
+
+while (now_GR.next()) {
+  gs.info(now_GR.getValue('short_description'));
+}
+```
+
+Output:
+
+```
+*** Script: Xignite U.S. and Global Real Time Quotes upgrade to the latest version
+*** Script: Xignite Company, Market and Industry News Headlines upgrade to the latest ver...
+*** Script: Workday Talent Management Instance relocation from US datacenter to Hongkong ...
+*** Script: Warning displayed while launching Tableau Server
+*** Script: Warning displayed while launching SAP Financial Accounting
+*** Script: Warning displayed while launching Jive Daily
+```
+
+## Scoped GlideRecord - addUserQuery\(String name, Object operator, Object value\)
+
+Provides the ability to build a request, which when executed, returns the rows from the specified table that match the request. The calling user must have access to perform the specified query operation on the field for this request to be added. Use this method to enforce query access based on the user.
+
+This method returns only records that the current user has query access to \(based on ACLs\).
+
+Related methods:
+
+-   [addQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) provides the same functionality without ACL enforcement.
+-   [addSystemQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md) bypasses query access checks.
+
+Additional methods for enforcing query ACL checks:
+
+-   [addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserEncodedQuery\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md)
+-   [GlideQueryCondition - addUserCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+-   [GlideQueryCondition - addUserOrCondition\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)
+
+Always test queries on a sub-production instance prior to deploying them on a production instance. An incorrectly constructed encoded query, such as including an invalid field name, produces an invalid query. When the invalid query is run, the invalid part of the query condition is dropped, and the results are based on the valid part of the query, which may return all records from the table. Using an insert\(\), update\(\), deleteRecord\(\), or deleteMultiple\(\) method on bad query results can result in data loss.
+
+You can set the **glide.invalid\_query.returns\_no\_rows** system property to true to have queries with invalid encoded queries return no records. In some cases, the query may still return records in API results even when **glide.invalid\_query.returns\_no\_rows** is set to true. This happens in queries where an invalid query term is used with a WHERE operator. In such queries, the WHERE operator ignores the invalid term\(s\) but still interprets and returns the rest of the query statement. For more information about this system property and its functionality, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
+
+<table id="table_ix2_hvp_dt" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+name
+
+</td><td>
+
+String
+
+</td><td>
+
+Table field name.
+
+</td></tr><tr><td>
+
+operator
+
+</td><td>
+
+Object
+
+</td><td>
+
+Query operator. The available values are dependent on the data type of the *value* parameter.Numbers:
+
+-   =
+-   !=
+-   &gt;
+-   &gt;=
+-   &lt;
+-   &lt;=
+
+Strings \(must be in upper case\):
+
+-   =
+-   !=
+-   IN
+-   NOT IN
+-   STARTSWITH
+-   ENDSWITH
+-   CONTAINS
+-   DOES NOT CONTAIN
+-   INSTANCEOF
+
+**Note:** Use CONTAINS instead of the LIKE operator.
+
+Dynamic schema operators:
+
+-   =
+-   !=
+-   &lt;
+-   &gt;
+-   &lt;=
+-   &gt;=
+-   BETWEEN
+-   CONTAINS
+-   DOES\_NOT\_CONTAIN
+-   ENDSWITH
+-   GT\_FIELD
+-   GT\_OR\_EQUALS\_FIELD
+-   IN
+-   ISEMPTY
+-   ISNOTEMPTY
+-   IS\_NOT\_NULL
+-   IS\_NULL
+-   LIKE
+-   LT\_FIELD
+-   LT\_OR\_EQUALS\_FIELD
+-   MATCHES
+-   NOT\_IN
+-   NOT\_LIKE
+-   NOT\_MATCHES
+-   NSAMEAS
+-   SAMEAS
+-   STARTSWITH
+
+</td></tr><tr><td>
+
+value
+
+</td><td>
+
+Object
+
+</td><td>
+
+Value on which to query \(not case-sensitive\).
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|[GlideQueryCondition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideQueryConditionScopedAPI.md)|The query condition that was added to the GlideRecord.|
+
+The following shows how to return only users named Fred that the current user has permission to see.
+
+```
+var rec = new GlideRecord('sys_user');
+rec.addUserQuery("first_name", "=", "Fred");
+rec.query();
+
+while (rec.next()) {
+  gs.info('Active user ' + rec.getValue('last_name'));
+}
+```
+
+Output:
+
+```
+Active user Luddy
+Active user Kunde
 ```
 
 ## Scoped GlideRecord - canCreate\(\)
@@ -1610,7 +2074,7 @@ gs.info(uniqueid);
 
 Retrieves the string value of an underlying element in a field.
 
-**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method returns clear text values from encrypted fields. If the instance does not have access to the key, this method returns the encrypted value. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/now-platform-encryption.md).
+**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method returns clear text values from encrypted fields. If the instance does not have access to the key, this method returns the encrypted value. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-landing.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2122,7 +2586,7 @@ Determines if an operation is insert, update, or delete.
 
 Knowing the operation enables using current.operation\(\) to make a generic business rule which can handle each operation uniquely.
 
-For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/business-rules-classic/c_BusinessRules.md).
+For information on using the global variable current, refer to [Global variables in business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/business-rules-classic/c_UsingPredefinedGlobalVariables.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2164,6 +2628,8 @@ Specifies an orderBy column.
 
 Call this method more than once to order by multiple columns. Results are arranged in ascending order. To arrange records in descending order, see [Scoped GlideRecord - orderByDesc\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
+**Note:** To enforce query access based on the user, use[addUserOrderBy\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
 |Name|Type|Description|
 |----|----|-----------|
 |name|String|Column name to use to order the records in this GlideRecord object.|
@@ -2199,6 +2665,8 @@ Please remove the latest hotfix from my PC
 Specifies a descending orderBy column.
 
 Call this method more than once to order by multiple columns. Results are arranged in descending order. To arrange records in ascending order, see [Scoped GlideRecord - orderBy\(String name\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
+
+**Note:** To enforce query access based on the user, use[addUserOrderByDesc\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordScopedAPI.md).
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -2418,6 +2886,53 @@ if (current.size > 16) {
 }
 ```
 
+## Scoped GlideRecord - setCategory\(String category\)
+
+Sets the query category, which determines how the query is routed to a secondary database.
+
+This method requires the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. Call this method to route queries to a secondary \(read replica\) database based on the specified category, reducing load on the primary database. Due to replication lag, execution of a query on a read replica database may return slightly out of date results compared to executing the same query on the primary database.
+
+Modifications to data are always serviced by the primary database, even if setCategory\(\) is used in the query. For example, a call to GlideRecord.update\(\) is always directed to the primary database even if the GlideRecord object has been provided with the name of a secondary database category via setCategory\(\).
+
+For more information, see [KB0824441 Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441).
+
+<table id="table_bns_y1r_cjc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+category
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the category to use to route the query to a secondary database.Table: Secondary Database Categories \[sys\_db\_category\]
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example uses the `embedded_list` category to route the query to a secondary database.
+
+```
+var gr = new GlideRecord('task');
+gr.setCategory('embedded_list');
+gr.query();
+```
+
 ## Scoped GlideRecord - setLimit\(Number maxNumRecords\)
 
 Sets the limit for number of records are fetched by the GlideRecord query.
@@ -2537,9 +3052,9 @@ Incident Number: INC0010004, Short Description: Incident for assessment not gene
 
 Sets the value of the field with the specified name to the specified value.
 
-Normally the script does a `now_GR.category = value`. However, if the element name is itself a variable then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure the data type of the field matches the data type of the value you enter.
+Normally the script does a `now_GR.category = value`. However, if the element name is itself a variable then you can use `now_GR.setValue(elementName, value)`. When setting a value, ensure the data type of the field matches the data type of the value you enter. For information about the differences between using setValue\(\) and direct assignment, see [Explanation of Assignment Behavior for Reference GlideList Fields \[KB2557324\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2557324) in the Now Support Knowledge Base.
 
-**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/now-platform-encryption.md).
+**Note:** If the Field Encryption Enterprise plugin is enabled and the instance has access to the key, this method can insert encrypted data into encrypted fields. If the instance does not have access to the key, this method returns an error. For more information, see [Platform Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/encryption-landing.md).
 
 -   **Not for authentication with password2 fields**
 

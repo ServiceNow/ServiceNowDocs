@@ -1,32 +1,38 @@
 ---
-title: Customer self-service using the Business Portal
-description: Customers can use the Business Portal to browse product catalogs, create product orders, create and view order cases in Order Management.
+title: Using Business Portal for self-service workflows in Sales CRM
+description: Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-business-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Use, Sales Customer Relationship Management]
 ---
 
-# Customer self-service using the Business Portal
+# Using Business Portal for self-service workflows in Sales CRM
 
-Customers can use the Business Portal to browse product catalogs, create product orders, create and view order cases in Order Management.
+Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
 
-## Creating orders using the Business Portal
+-   **[Access the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-management-access-the-business-portal.md)**  
+Customers can access the Business Portal from their instance to browse products and create orders.
+-   **[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/self-service-order-management.md)**  
+The Business Portal uses the product catalog to enable B2B customers to browse and configure products. Customers can build orders and submit them for fulfillment, and also view order history.
+-   **[Managing request for quotes \(RFQs\) using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/rfq-business-portal.md)**  
+Request quotes for products or services you're interested in via the Business Portal. Specify budget and pricing preferences, and submit quote requests without engaging a sales agent. Simplify the RFQ life cycle from submission and internal review to quote generation and customer acceptance, ensuring faster turnaround times and improved transparency.
+-   **[Order case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-case-self-service.md)**  
+Business Portal enables customers to create and view order cases for orders or order line items. They can request changes to unfulfilled orders from the ServiceNow Otto Virtual Agent panel using chat and voice channels.
+-   **[Invoice and invoice case management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/invoice-case-self-service.md)**  
+Business Portal enables customers to view invoices, dispute discrepancies across single or multiple invoices using self-service playbooks, and track resolution. Billing specialists can resolve disputes using an agentic workflow that validates claims and automates resolution actions.
+-   **[View contracts and entitlements on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/contracts-entitlements-self-service.md)**  
+Customers can view contracts and entitlements associated with their accounts on the Business Portal.
 
-The Business Portal uses the product catalog to let customers browse and configure products. Customers can also build orders and submit them for fulfillment.
+**Parent Topic:**[Using Sales Customer Relationship Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-using.md)
 
-\[Omitted image "som-customer-portal-product-catalog.png"\] Alt text: Image shows the catalog in the Business Portal that customers use to browse and configure products.
+**Related topics**  
 
-## Viewing products in the shopping cart in the Business Portal
 
-Customers can view products in their shopping cart using the Business Portal. Customers are also submit orders to start the fulfillment process.
+[Configuring the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-management-configure-business-portal.md)
 
-\[Omitted image "som-portal-view-cart.png"\] Alt text: Image shows the contents of the shopping cart in the Business Portal and also shows the Submit Order button, which creates the order.
-
-## Creating and viewing order cases
-
-Customers can create and view order cases for orders or order line items using the Business Portal.
+[Customer self-service for Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-self-service-business-portal.md)
 

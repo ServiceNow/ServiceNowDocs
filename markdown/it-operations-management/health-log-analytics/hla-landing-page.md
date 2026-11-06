@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Health Log Analytics, HLA, overview, introduction]
-breadcrumb: [ITOM Health, IT Operations Management]
+breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
 
 # Health Log Analytics
@@ -23,7 +23,7 @@ Health Log Analytics is available in the [ServiceNow Store](https://store.servic
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Get started
 
@@ -37,16 +37,32 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-management-console.svg"\] Alt text:Monitor and remediate alerts that Health Log Analytics generates.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-overview-tab-view.md)
+[Remediate\[Omitted image "bus-root-cause-issue-resolution.svg"\] Alt text:Investigate log data and take action to resolve the underlying issue.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-analyzing-resolving-hla-alert.md)
 
 </td><td>
 
+[Control\[Omitted image "bus-anomaly-detection.svg"\] Alt text:Influence how HLA generates and prioritizes alerts and detects anomalies.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-controlling-alert-generation.md)
+
+</td></tr><tr><td>
+
+[System features and health alerts\[Omitted image "bus-actionable-analytics.svg"\] Alt text:View system features and core components with related system health alerts.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-system-health-and-features-parent.md)
+
+</td><td>
+
+[Analytics and reports\[Omitted image "bus-management-console.svg"\] Alt text:Gain insights into the number of issues predicted before users were affected and the money that was saved.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-analytics-reporting.md)
+
+</td></tr><tr><td>
+
 [Reference\[Omitted image "bus-learn.svg"\] Alt text:Find reference information about Health Log Analytics.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-reference.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Health Log Analytics licensing
 
-The ServiceNow AI Platform® uses a licensing method where your organization is billed for using Health Log Analytics, which is available as a separate license from ITOM Health. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-landing-page.md).
+The ServiceNow AI Platform® uses a licensing method where your organization is billed for using Health Log Analytics, which is available as a separate license from ITOM AIOps. The ServiceNow Product Documentation doesn't provide information on prices, packaging, or other details determined by your organization customer contract. For general information about licensing and subscriptions, see [ITOM/OT SU Licensing and subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-su-licensing-landing-page.md).
 
 ## Dependencies
 

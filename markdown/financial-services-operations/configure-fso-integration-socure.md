@@ -1,16 +1,16 @@
 ---
-title: Configure the Financial Services Operations Integration with Socure
+title: Configure Financial Services Operations Integration with Socure
 description: Configure the Financial Services Operations Integration with Socure application to verify a customer's identity and improve the customer's risk determination.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-fso-integration-socure.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Socure, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Socure, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Configure the Financial Services Operations Integration with Socure
+# Configure Financial Services Operations Integration with Socure
 
 Configure the Financial Services Operations Integration with Socure application to verify a customer's identity and improve the customer's risk determination.
 

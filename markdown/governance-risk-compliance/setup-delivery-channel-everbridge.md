@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setup-delivery-channel-everbridge.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setup steps for emergency notification, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -30,6 +30,4 @@ Finding out how to reach or connect with your stakeholders at the time of crisis
 
     All delivery channels are imported from Everbridge successfully. You get a message of confirmation if successful, otherwise an error message.
 
-
-**Parent Topic:**[Setup steps for emergency notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/setting-up-everbridge-emergency-notification.md)
 

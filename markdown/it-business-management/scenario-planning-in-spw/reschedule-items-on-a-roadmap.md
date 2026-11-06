@@ -1,5 +1,5 @@
 ---
-title: Reschedule roadmap items in Strategic Planning Workspace
+title: Reschedule roadmap items
 description: Update the planned dates of your roadmap items to account for any changes in your scheduling priorities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/reschedule-items-on-a-roadmap.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Reschedule roadmap items in Strategic Planning Workspace
+# Reschedule roadmap items
 
 Update the planned dates of your roadmap items to account for any changes in your scheduling priorities.
 
@@ -24,15 +24,15 @@ Role required: sn\_align\_core.apw\_user
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d51168e67">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d59401e70">
 
 Roadmap type
 
-</th><th align="left" id="d51168e70">
+</th><th align="left" id="d59401e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d51168e76">
+</th></tr></thead><tbody><tr><td id="d59401e79">
 
 **Portfolio plan roadmap**
 
@@ -42,7 +42,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d51168e97">
+</td></tr><tr><td id="d59401e100">
 
 **Free-form roadmap**
 
@@ -67,7 +67,7 @@ From the Free-form Roadmaps tab, select a roadmap.
 **Related topics**  
 
 
-[Add milestones for a roadmap in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md)
+[Add milestones for a roadmap](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-milestones-on-roadmap.md)
 
-[Add milestones for roadmap items in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md)
+[Add milestones for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.md)
 

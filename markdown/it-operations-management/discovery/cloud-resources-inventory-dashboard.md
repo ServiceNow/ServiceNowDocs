@@ -7,14 +7,16 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Cloud discovery reporting, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Cloud Resources Explorer
 
 Use the ServiceNow® Cloud Resources Explorer to filter and visualize the distribution of resources across your multi cloud estate. Gain insight into operational information such as stale resources and cloud event inflow rates.
+
+**Important:** Starting with the Zurich release, Cloud Discovery Workspace is being prepared for future deprecation. It will be hidden and no longer activated on new instances, but will continue to be supported. For similar reporting, refer to the [Cloud asset explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/viewing-cloud-asset-explorer.md) in the Cloud Discovery store application.
 
 \[Omitted image "cloud-resources-explorer.png"\] Alt text: Cloud Resources Explorer.
 
@@ -110,7 +112,7 @@ Cloud Analytics \[sn\_disco\_cd\_analytics\]
 
 This report displays the count of the top 10 CI classes discovered over time.You can select a report entry from the Configuration item classes report to view the analytics table on which the report entry is based. If you've selected a specific cloud provider, then the analytics table of that specific CI appears. Otherwise, the parent analytics table for that CI type appears.
 
- For example, if you select Google from the Cloud resources filter and select the Storage Volume bar from the report, the dedicated analytics table of the Google Storage Volume CI appears. If you select All Platforms from the Cloud resources filter and select the Storage Volume bar from the report, the parent analytics table of the storage volume CI appears.
+ For example, selecting Google from the Cloud resources filter and the Storage Volume bar opens the dedicated Google Storage Volume CI analytics table. If you select All Platforms from the Cloud resources filter, select the Storage Volume bar from the report. The parent analytics table of the storage volume CI appears.
 
 </td></tr><tr><td>
 
@@ -183,7 +185,7 @@ This report displays the daily count of the resources of your organization that 
 </td></tr></tbody>
 </table>To populate the Cloud Analytics \[sn\_disco\_cd\_analytics\] table, the Cloud Resources Explorer uses the same set of scheduled jobs as the Performance Analytics Content Pack for Cloud Resources. For more information on the scheduled jobs, see [Cloud Resources dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/cloud-resources-dashboard.md).
 
-To view the details of the OS images discovered in the AWS, Microsoft Azure, and GCP clouds, Discovery and Service Mapping Patterns store app version 1.0.87 or later must be installed in the instance. Also, the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** property must be set to `true`.
+To view the details of the OS images discovered in the AWS, Microsoft Azure, and GCP clouds, install Discovery and Service Mapping Patterns store app version 1.0.87 or later in the instance. Also, the **sn\_cmdb\_ci\_class.use\_single\_cloud\_os\_image** property must be set to `true`.
 
 ## Filters
 

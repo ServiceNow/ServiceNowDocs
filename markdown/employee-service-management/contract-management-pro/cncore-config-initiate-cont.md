@@ -1,21 +1,21 @@
 ---
 title: Add a workspace action button for initiating a contract request
-description: Define an action button in your workspace and map it to the built-in action that initiates a contract request.
+description: Define an action button in your workspace and map it to the built-in action that initiates contract requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-config-initiate-cont.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
 keywords: [Initiate contract, Initiate contract button, Initiate contract action, Uptake steps for initiate contract, BU configuration]
-breadcrumb: [Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add a workspace action button for initiating a contract request
 
-Define an action button in your workspace and map it to the built-in action that initiates a contract request.
+Define an action button in your workspace and map it to the built-in action that initiates contract requests.
 
 ## Before you begin
 
@@ -50,15 +50,19 @@ Role required: admin
 
     1.  Select **Advanced view** listed under Related Links.
 
-    2.  Select to the UX Add-on Event Mappings related list.
+    2.  Select UX Add-on Event Mappings related list.
 
     3.  Select **New**.
 
-    4.  In the Source Declarative Action field, select initiate\_contract.
+    4.  In the Source Component field, select Action bar.
 
-    5.  In the Target Event field, select \[Record Page\] Open modal.
+    5.  In the Source Declarative Action field, select initiate\_contract.
 
-    6.  In the **Target Payload Mapping** field, define the fields to send by pasting the following JSON code.
+    6.  In the Controller field, select Form.
+
+    7.  In the Target Event field, select \[Record Page\] Open modal.
+
+    8.  In the **Target Payload Mapping** field, define the fields to send by pasting the following JSON code.
 
         ```
         {
@@ -92,13 +96,13 @@ Role required: admin
         }
         ```
 
-    7.  On the form, fill in the other fields.
+    9.  On the form, fill in the other fields.
 
         \[Omitted image "cmpro-uptake-ux-add-event.png"\] Alt text: Create event mapping for initiate contract action
 
         For a description of the field values, see [UFX Add on Event mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-ufx-event-map-form.md).
 
-    8.  Select **Submit**.
+    10. Select **Submit**.
 
 3.  Configure visibility conditions for initiate contract action button.
 
@@ -122,21 +126,23 @@ An action button to initiate contract requests from a contract record is availab
 
 [Configure non-task tables for contract templates]()
 
-[Add Contract requests tab to your workspace]()
+[Add Contract requests tab to the contract request record]()
+
+[Add Contract documents tab to the contract repository record]()
 
 [Add amendment tabs to contract repository record]()
 
-[Display contract documents in a contract repository record]()
-
 [Copy fields from parent request to contract request]()
 
-[Group contract documents by contract type in the contract request form]()
+[Group contract documents by contract type in a contract request]()
 
 [Add access to obligation management from contract repository records]()
 
-[Configure the contract request form header for your workspace]()
+[Configure the contract request form header]()
 
-[Provide permissions to configure default contract document information]()
+[Assign a role for configuring template mappings]()
 
-[Provide access to contract request fields in condition builders]()
+[Enable contract request fields in condition builders]()
+
+[Configuring the Playbook tab on contract repository records]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Data Loss Prevention Incident Response Integration with Netskope
@@ -49,10 +49,10 @@ Create an incident profile in your ServiceNow AI Platform instance.
 The incident status mapping section enables the users to provide the mappings between the DLP Incident status in ServiceNow and Netskope Object status.
 -   **[Configure Netskope DLP integration settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-netskope-dlp-integration-settings.md)**  
 Modify the  Netskope DLP  integration default system properties.
--   **[Preview evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/preview-files-netskope.md)**  
-Preview DLP incident evidence files in the DLP IR Analyst workspace.
 -   **[Download evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/download-files-netskope.md)**  
 Download files that violate the DLP policy on Netskope. Download this file onto your local machine from the DLP IR Analyst workspace and DLP IR End user workspace for approvers.
+-   **[Preview evidence files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/preview-files-netskope.md)**  
+Preview DLP incident evidence files in the DLP IR Analyst workspace.
 -   **[Notifications for users on retry mechanism](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/notifications-retry-limit.md)**  
 Netskope integration will retry the configured number of times in case of API failures during DLP Incident ingestion.
 -   **[Email notifications on credential expiration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/notification-users-credential-expiration.md)**  

@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Configuring Site Mapping for Field Service Management
@@ -18,7 +18,7 @@ Site Mapping for Field Service Management helps agents navigate job sites when t
 
 Site Mapping for Field Service Management integrates features from Indoor Mapping to the Mobile Agent application. For more information, see [Indoor Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/Indoor-mapping.md).
 
-Site Mapping for Field Service Management introduces the Site field to work order tasks. The Site field represents indoor locations inside a building or job site. Agents can use the site map on the Mobile Agent application to find directions or view points of interest on the job site. For more information, see [Job site maps on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/navigate-job-sites-mobile.md).
+Site Mapping for Field Service Management introduces the Site field to work order tasks. The Site field represents indoor locations inside a building or job site. Agents can use the site map on the Mobile Agent application to find directions or view points of interest on the job site. For more information, see [Job site maps on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/navigate-job-sites-mobile.md).
 
 ## Configuration overview
 

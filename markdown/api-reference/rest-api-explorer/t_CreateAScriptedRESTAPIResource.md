@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a scripted REST API, Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -18,13 +18,9 @@ Create a scripted REST API resource to define the HTTP method, the processing sc
 
 ## Before you begin
 
-There must be a scripted REST API defined before you can create resources.
+Create a scripted REST API. For more information, see [Create a scripted REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/t_CreateAScriptedRESTService.md).
 
 Role required: web\_service\_admin
-
-## About this task
-
-By default, any new Scripted REST API resource you create contains an ACL that prohibits users with the snc\_external role from making requests to the API.
 
 ## Procedure
 

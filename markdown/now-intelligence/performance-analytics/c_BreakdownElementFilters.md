@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Indicator breakdowns, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicator breakdowns, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Element filters
@@ -25,7 +25,7 @@ An elements filter consists of a conditional filter or related list conditions a
 **Related topics**  
 
 
-[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
+[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)
 
 [Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details-components.md)
 
@@ -41,7 +41,7 @@ Role required: pa\_data\_collector or admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Elements Filters** and create a new record \(see table for field descriptions\).
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Breakdowns** &gt; **Elements Filters** and create a new record \(see table for field descriptions\).
 
 <table id="table_yvq_m5s_vv"><thead><tr><th>
 

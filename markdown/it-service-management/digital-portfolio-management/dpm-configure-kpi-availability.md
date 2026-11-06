@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configure KPI groups in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure KPIs in Digital Portfolio Management with service availability example
@@ -72,7 +72,7 @@ KPI group name to add the mapping. For this example, map to the Outage and Avail
 -   Taxonomy node
 -   Service
 -   Offering
--   Application service
+-   Service instance
 
 
 </td><td>

@@ -7,16 +7,18 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Design your Performance Analytics solution with KPI Composer
 
 KPI Composer ensures that your performance management strategy aligns with business goals and has support from executive sponsors. Use KPI Composer to bridge the gap between defining your performance measurement strategy and the realization of that strategy from within Performance Analytics. Start with your business goals and plan all your components through indicators up to the final dashboard.
 
-KPI Composer helps you elicit performance management requirements and drive stakeholder alignment by visualizing implementation objectives, desired business outcomes, and required technical deliverables in a concise visual summary. This holistic approach ensures that stakeholders are completely aligned on the desired outcomes and requirements before implementers spend time working on any technical deliverables. When ready, Performance Analytics implementers get a task list of exactly what they need to create — indicators, breakdowns, reports, and dashboards — to support the goals, and you can even use KPI Composer to track the progress of the implementation.
+**Important:** This application is being prepared for future deprecation. It will be hidden and no longer available for activation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
+
+KPI Composer helps you elicit performance management requirements and drive stakeholder alignment. It accomplishes this by visualizing implementation objectives, desired business outcomes, and required technical deliverables in a concise visual summary. This holistic approach ensures that stakeholders are completely aligned on the desired outcomes and requirements before implementers spend time working on any technical deliverables. When ready, Performance Analytics implementers get a task list of exactly what they need to create to support the goals: indicators, breakdowns, reports, and dashboards. You can even use KPI Composer to track the progress of the implementation.
 
 A free training in KPI Composer is available at [NOW Learning](https://learning.servicenow.com/lxp/en/now-intelligence/kpi-composer-overview?id=learning_course_prev&course_id=1f2469534722d6d03c6f6013e16d433c). You can also see examples of how a properly designed Performance Analytics solution can help different people in your organization at [ITSM Success Dashboard indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/success-dashboard-indicator-landing.md).
 
@@ -36,10 +38,8 @@ KPI Composer is based on projects. Each project in KPI Composer consists of Key 
 In the Analysis tab of KPI Composer, design your KPI tree. Specify your business goals, their associated critical success factors, and the measurement related to those factors. Chart the logical relationship between these factors and the personas who are responsible for them.
 -   **[Cross-project library elements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/cross-project-artifact-libraries.md)**  
 Library elements are single artifacts or trees of artifacts that you can reuse in multiple projects.
--   **[Designing dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-a-dashboard-mock-up.md)**  
-In the Dashboard Visualization tab, you can create mock-ups of multiple dashboards with visualizations corresponding to artifacts in the Analysis tab. You can link widgets in this mock-up to Performance Analytics widgets.
--   **[Defining indicators and reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/designing-indicators.md)**  
-On the KPI Composer Data Definition tab, you further specify the artifacts you defined during analysis and link them to indicator and report definitions.
+-   **[Create an indicator definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/create-indicator-definition.md)**  
+You can create a new KPI Composer indicator definition directly from the relevant artifact in the Data Definition tab. Fill the indicator definition with the necessary information for creating a Performance Analytics indicator.
 -   **[Reviewing your project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/reviewing-your-project.md)**  
 Summarize both the created KPI Composer project artifacts and the planned Performance Analytics components. Validate the contents of your project. Generate the tasks to build the planned Performance Analytics components.
 -   **[Generating tasks in KPI Composer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/generating-tasks-kpi-composer.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-dev-pro-manage-cust.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage apps with pro-code tools, Pro-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Manage apps with pro-code tools, Pro-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Customize my apps with pro-code tools
@@ -28,7 +28,7 @@ Customize your ServiceNow apps.
 
 </td><td>
 
-Scripts \[Omitted image "icon-now-cli.png"\] Alt text: Scripts. Use custom scripts with the ServiceNow platform.
+[Scripts \[Omitted image "icon-now-cli.png"\] Alt text: Scripts. Use custom scripts with the ServiceNow platform.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_Script.md)
 
 </td></tr></tbody>
 </table>

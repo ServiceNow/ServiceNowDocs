@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use non-self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Reclassify supporting documents in the contract request
@@ -17,6 +17,8 @@ breadcrumb: [Use non-self-served contract request, Using Contract Management Pro
 As a contract fulfiller, reclassify the supporting documents submitted in the contract request. For example you can reclassify the supporting document as a contract document.
 
 ## Before you begin
+
+Verify that the contract request type is Multiple contracts.
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -43,5 +45,5 @@ You can reclassify supporting documents only when the State is Work in progress.
 7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request]()
+**Parent Topic:**[Third-Party paper contract request]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Company events, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Company events, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Attendee List and RSVP for company events
@@ -47,6 +47,14 @@ Attendee list can be viewed for company events.
 6.  View the listed attendees for the event.
 
     \[Omitted image "ce-attendee-list.png"\] Alt text: The list of attendees for the company event
+
+7.  An email notification is sent when the RSVP is created.
+
+    \[Omitted image "ce-rsvp-complete.png"\] Alt text: Shows a detailed overview of a completed RSVP
+
+8.  After an RSVP has been completed it can be edited, if needed, to indicate whether you will attend or not. Making this change will update the RSVP status.
+
+    **Note:** If an event has reached capacity, you may opt to join the waitlist, and you will be notified should a spot become available. You can also update or remove yourself from the waitlist. An event is closed once the deadline has passed. If the event is full at the RSVP deadline, it will also be marked as closed. After the RSVP deadline, you can only cancel your RSVP and cannot rejoin the event.
 
 
 **Parent Topic:**[Company events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-company-events.md)

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-insurance-commercial-underwriting-operations.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Commercial Lines Servicing reference, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Components installed with Commercial Lines Underwriting
@@ -98,5 +98,5 @@ Commercial Underwriting Service Task \[sn\_ins\_uw\_b2b\_task\]
 Stores all underwriting tasks for business policy service requests for all Financial Services Operations applications. This table extends the Financial Task \[sn\_bom\_task\] table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-ins-commercial-policy-ops-landing-page.md)
+</table>**Parent Topic:**[Commercial Lines Servicing reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/commercial-lines-servicing-reference.md)
 

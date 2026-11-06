@@ -1,18 +1,18 @@
 ---
-title: Customizing the related records view in Service Request Playbook
-description: You can customize
+title: Customize the related records view in Service Request Administration
+description: You can customize the related records view in Service Request Administration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-playbook-customizing-rel-records-view.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Using the contextual side panel in Public Sector Digital Services Service Request Playbook, Using Service Request Playbooks, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Using the contextual side panel, Using Service Request Playbooks, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Customizing the related records view in Service Request Playbook
+# Customize the related records view in Service Request Administration
 
-You can customize
+You can customize the related records view in Service Request Administration.
 
 The following table lists the customization options for the related records view.
 
@@ -30,7 +30,7 @@ View the related records in the contextual side panel
 
 </td><td>
 
-Related Records icon \(\[Omitted image "contextual-side-panel-related-records.jpg"\] Alt text: Related records icon.\) that you can select to view the Related Records list.
+Related Records icon \(\[Omitted image "related-records-icon.png"\] Alt text: Related records icon.\) that you can select to view the Related Records list.
 
  Related records appear as a card format in the list. The initial set of records that display in the list is determined by the record type that you select in the filter at the top of the list.
 
@@ -42,7 +42,7 @@ Select the type of related record to view
 
 Filter at the top of the Related Records list where you can select the type of related records to view. You can also use the filter to see the current selection.
 
-1.  Select the filter icon \(\[Omitted image "dynamic-related-records-filter-icon.png"\] Alt text: Filter icon.\).
+1.  Select the filter icon \(\[Omitted image "filter-icon.png"\] Alt text: Filter icon.\).
 2.  Select a record type from the menu.
 
  The menu includes the related lists that have been configured for the parent record.

@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a keystore and encryption keys, Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -32,7 +32,7 @@ This step creates both the key storage and the encryption key.
 
 2.  Add the encryption key to the file.
 
-<table id="choicetable_sm3_f1b_tt"><tbody><tr><td id="d185056e88">
+<table id="choicetable_sm3_f1b_tt"><tbody><tr><td id="d237586e88">
 
 **AES 128**
 
@@ -40,7 +40,7 @@ This step creates both the key storage and the encryption key.
 
 Place the encryption key, exactly 16 bytes, into the file.
 
-</td></tr><tr><td id="d185056e97">
+</td></tr><tr><td id="d237586e97">
 
 **AES 256**
 

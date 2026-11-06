@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Create enterprise models
@@ -28,11 +28,14 @@ You can create a model based on any of the following Enterprise Asset Management
 -   Retail
 -   Tactical equipment
 -   Wearable
+-   Multimedia production equipment
 -   Pallet
 
 **Note:** Only consumables created from models in the Enterprise Asset Management application can be used if the **Asset strategy tracking** for the model is set to **create consumable asset**.
 
 **Note:** The Enterprise Asset Management application supports only facilities models that fall under the Facility model \[sn\_ent\_facility\_model\] child class of the Enterprise good model \[sn\_ent\_model\] class. The application does not support facilities models that are listed in the Facility Models \[cmdb\_facility\_product\_model\] table.
+
+**Note:** This topic provides details on how to create individual enterprise models. For details on how to create multiple enterprise models in one go, see [Bulk import of your enterprise models and assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/overview-bulk-import-eam.md).
 
 Role required: sn\_eam.enterprise\_admin or sn\_eam.enterptrise\_asset\_manager
 

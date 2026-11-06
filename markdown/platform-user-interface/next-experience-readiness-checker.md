@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/next-experience-readiness-checker.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Next Experience Readiness Checker
 
 The Next Experience Readiness Checker assists users with deciding whether to turn on Next Experience after an upgrade.
 
-## Overview
+**About the Next Experience Readiness Checker**
 
 The Next Experience Readiness Checker tool enables admin users to examine their instance to see if agents and other users are currently using applications that aren’t compatible with Next Experience. Based on the usage found, the tool makes a recommendation regarding turning on Next Experience immediately or doing additional due diligence before turning it on.
 

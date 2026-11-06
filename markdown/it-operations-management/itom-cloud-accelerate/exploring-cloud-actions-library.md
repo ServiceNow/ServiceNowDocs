@@ -7,8 +7,8 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -21,6 +21,8 @@ To use the Cloud Action Library actions and workflows to interact with the cloud
 1.  Install Cloud Action Library. For more information, see [Install Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/install-cloud-actions-library.md).
 2.  To use Cloud Action Library for interactions with Amazon Web Services \(AWS\) resources, see [Set up Cloud Action Library for AWS](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/set-up-cloud-action-library-for-aws.md).
 3.  To use Cloud Action Library for interactions with Microsoft Azure resources, see [Set up Cloud Action Library for Microsoft Azure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/set-up-cloud-action-library-for-azure.md).
+
+See [Plugins or applications installed with ITOM Cloud Accelerate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/plugin-app-cloud-accelerate.md) to find the list of plugins you activate with Cloud Action Library.
 
 -   **[Install Cloud Action Library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/install-cloud-actions-library.md)**  
 You can install the Cloud Action Library application \(sn.itom.cal\) if you have the admin role. The application installs related ServiceNow® Store applications and plugins if they are not already installed.

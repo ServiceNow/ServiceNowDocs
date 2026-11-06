@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-dv-indicator-scorecard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -16,23 +16,122 @@ The Indicator Scorecard component enables users to visualize and compare data be
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
-For information about the use of an Indicator Scorecard in a dashboard, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/sn-scorecard-list/usage). This site gives information about Indicator scorecard components in the UI Builder, and some configuration options may differ from the Visualization Designer.
+For information about the use of an Indicator Scorecard in a dashboard, see [the Developer Site](https://developer.servicenow.com/dev.do#!/reference/now-experience/xanadu/shared-components/sn-scorecard-list/usage). This site gives information about Indicator Scorecard components in the UI Builder, and some configuration options may differ from the Visualization Designer.
 
 **Note:** You aren’t able to sort by previous scores in UI Builder.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-2.  Select **New**.
+2.  Select **Create data visualization**.
 
 3.  Select the Indicator Scorecard \(\[Omitted image "inline-data-vis-scorecard.png"\] Alt text: Indicator Scorecard icon\) visualization type.
 
-4.  Configure the filtering and sorting capabilities of the Indicator Scorecard.
+4.  Configure the **Header and border**.
+
+<table id="table_zq5_l2g_gfc"><thead><tr><th>
+
+Header and border fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Show header
+
+</td><td>
+
+The visualization header, including title and icons.
+
+</td></tr><tr><td>
+
+Show header separator
+
+</td><td>
+
+Option to display a line separating the header from the rest of the component.
+
+</td></tr><tr><td>
+
+Chart title
+
+</td><td>
+
+Title of the visualization.
+
+</td></tr><tr><td>
+
+Use large font size
+
+</td><td>
+
+Renders the header title in a large font
+
+</td></tr><tr><td>
+
+Title alignment
+
+</td><td>
+
+Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.
+
+</td></tr><tr><td>
+
+Description
+
+</td><td>
+
+A short overview about the visualization that the end user sees. Descriptions help users find the visualization.
+
+</td></tr><tr><td>
+
+Wrap title
+
+</td><td>
+
+Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.
+
+</td></tr><tr><td>
+
+Line of truncation
+
+</td><td>
+
+Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.
+
+</td></tr><tr><td>
+
+Show border
+
+</td><td>
+
+Option to display a line around the component.
+
+</td></tr><tr><td>
+
+Header background color
+
+</td><td>
+
+A header background color to align with your theme, branding, or design preferences. The selected color applies only to the header of this visualization. For better accessibility, ensure sufficient contrast between the header background and title text. Use the contrast ratio checker within the color picker to verify. Note that themes are not supported when selecting a custom color.
+
+</td></tr><tr><td>
+
+Title background color
+
+</td><td>
+
+A color for the chart title to align it with your dashboard theme, branding, or design preferences. The chosen color will apply only to the title of the visualization. For better accessibility, ensure sufficient contrast between the header background and title text. You can verify this by checking the contrast ratio within the color picker. Note that themes are not supported when selecting a custom color.
+
+</td></tr></tbody>
+</table>5.  Configure the filtering and sorting capabilities of the Indicator Scorecard.
 
 <table id="table_j2v_zll_4nb"><thead><tr><th>
 
@@ -118,6 +217,14 @@ Select the breakdowns that you want to display. You can drag breakdown tiles to 
 
 </td></tr><tr><td>
 
+Follow breakdown relation
+
+</td><td>
+
+Turn on to apply [breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) if any are defined for the selected breakdown. This option is available only when only one indicator has been selected for the indicator scorecard. After turning this option on, select the breakdown relation from a list that opens. When you add this indicator scorecard to a dashboard, also add a filter with the breakdown source as its filter source. Set the filter to filter indicators with this breakdown. For more information, see [Navigating breakdown elements with breakdown relations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/breakdown-relations.md).
+
+</td></tr><tr><td>
+
 Max number of groups
 
 </td><td>
@@ -200,7 +307,7 @@ Sort Direction
 
 </td><td>
 
-The sorting direction for the indicators and/or breakdown elements. The effect on breakdown elements varies depending on the breakdown source. For example, breakdown elements from the Choice \[sys\_choice\] table are sorted according to the value of the Sequence field, whereas breakdown elements from Group \[sys\_group\] are sorted alphabetically according to the Name field.Values: Ascending \(Asc\) or Descending \(Desc\)
+The sorting direction for the indicators or breakdown elements. The effect on breakdown elements varies depending on the breakdown source. For example, breakdown elements from the Choice \[sys\_choice\] table are sorted according to the value of the Sequence field, whereas breakdown elements from Group \[sys\_group\] are sorted alphabetically according to the Name field.Values: Ascending \(Asc\) or Descending \(Desc\)
 
  Default: Asc
 
@@ -331,9 +438,9 @@ Action
 Only the **Go to data view** interaction is available. This action opens the indicator in KPI Details.
 
 </td></tr></tbody>
-</table>5.  Select **Save**.
+</table>6.  Select **Save**.
 
-    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the Data Visualization list.
+    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 
 
 ## What to do next

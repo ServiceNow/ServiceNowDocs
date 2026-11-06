@@ -1,0 +1,32 @@
+---
+title: Access Enterprise Graph schema
+description: View and manage Enterprise Graph schema, select tables and test the schema with Knowledge Graph Designer.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/knowledge-graph/access-enterprise-graph-schema.html
+release: yokohama
+product: Knowledge Graph
+classification: knowledge-graph
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Using Enterprise graph schema, Knowledge Graph, Managing data for AI, Enable AI Experiences]
+---
+
+# Access Enterprise Graph schema
+
+View and manage Enterprise Graph schema, select tables and test the schema with Knowledge Graph Designer.
+
+You can view and manage the Enterprise Graph schema, go to **All** &gt; **Knowledge Graph Designer** &gt; **Open Enterprise Graph**.
+
+Use Enterprise Graph to view and test the schema. You can also contribute synonyms to the schema for your use case. Synonyms will help improve the accuracy of Enterprise Graph for answering queries.
+
+\[Omitted image "GG-landing.png"\] Alt text: Enterprise Graph start page
+
+On the Enterprise Graph start page, use the search bar to search and select a table you want to view or manage. Alternately, you can use the **Open your last view** or **Start with user tables** to view the user and the related table.
+
+The Enterprise Graph start page displays the total number of nodes. You can use the **Select multiple tables** option to select tables that you want to view in the schema.
+
+Within **Select multiple tables** option, you can select an application, tag or individual tables. Once you select the node, you will see selected nodes and their associated tables on the schema.
+
+You can also use the **Test Enterprise Graph** option to run a query on the Enterprise Graph schema.
+

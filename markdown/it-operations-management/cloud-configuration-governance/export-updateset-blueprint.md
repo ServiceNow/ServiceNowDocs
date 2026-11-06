@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Moving Cloud Provisioning and Governance content across environments, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Moving Cloud Provisioning and Governance content across environments, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Move a blueprint from one environment to another
@@ -39,7 +39,7 @@ Package the blueprint as an update set. Then export the update set from its curr
 
         \[Omitted image "blueprint-exporter-madrid.png"\] Alt text: Blueprint exporter window
 
-        The Blueprint Exporter window has a list of all the indirect dependencies \(Policy, MID Server Script Includes, MID Server Script Files, Script Includes, and Workflows\) for the blueprint. These objects are not directly part of a blueprint, but a blueprint might depend on them to work correctly.
+        The Blueprint Exporter window has a list of all the indirect dependencies \(Policy, MID Server Script Includes, MID Server Script Files, Script Includes, and Workflows\) for the blueprint. Objects such as policies, pools, MID scripts, script includes, and workflows are not directly a part of a blueprint. However, a blueprint might depend on these objects to work correctly.
 
     2.  In the Blueprint Exporter window, click an object in the Type column.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-business-stakeholder-role.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Install Enterprise Architecture Workspace, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Business stakeholder role for Enterprise Architecture Workspace
@@ -18,11 +18,11 @@ The Business Stakeholder \(com.snc.business\_stakeholder\) plugin contains the b
 
 -   **Upgrade customer**
 
-    If you are upgrading to Yokohama, the business stakeholder role for Enterprise Architecture Workspace is available only when you activate Read only roles for Enterprise Architecture \(com.snc.apm\_read\_roles\) plugin.
+    If you're upgrading to Brazil, the business stakeholder role for Enterprise Architecture Workspace is available only when you activate Read only roles for Enterprise Architecture \(com.snc.apm\_read\_roles\) plugin.
 
 -   **New customer**
 
-    If you are a new customer, the Read only roles for Enterprise Architecture \(com.snc.apm\_read\_roles\) plugin is activated on zBoot. However, the business stakeholder role for Enterprise Architecture Workspace is available only when you install Enterprise Architecture Workspace plugin.
+    If you're a new customer, the Read only roles for Enterprise Architecture \(com.snc.apm\_read\_roles\) plugin is activated on zBoot. However, the business stakeholder role for Enterprise Architecture Workspace is available only when you install Enterprise Architecture Workspace plugin.
 
 
 ## Why business stakeholder read-only role
@@ -31,7 +31,16 @@ The Business Stakeholder role is designed to give users read-only access to all 
 
 ## Business stakeholder read-only access limitations in Enterprise Architecture Workspace
 
-Enterprise Architecture Workspace users with Business stakeholder role for Enterprise Architecture Workspace \(sn\_apm.apm\_read\) role have only view access to all the pages and they can't create or update any data in the Enterprise Architecture Workspace.
+Users with the Business stakeholder role for Enterprise Architecture Workspace \(sn\_apm.apm\_read\) have view-only access to all pages. They can't create or update any data in Enterprise Architecture Workspace.
 
-**Parent Topic:**[Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/ea-workspace.md)
+**Parent Topic:**[Install Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/install-ea-workspace.md)
+
+**Related topics**  
+
+
+[Exploring Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/explore-eaw.md)
+
+[Enterprise Architecture Workspace access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-access-roles.md)
+
+[ServiceNow Otto for Enterprise Architecture \(EA\) access roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/sn-otto-access-roles.md)
 

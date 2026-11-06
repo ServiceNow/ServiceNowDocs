@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SOAP web service, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Set the SOAP default security policy

@@ -1,5 +1,5 @@
 ---
-title: Refine the source type structure
+title: Refine the source type structure in Health Log Analytics
 description: Fine-tune how Health Log Analytics reads your inner log messages and detects anomalies by customizing the extracted properties in the source type structure.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-refine.html
@@ -7,17 +7,19 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 keywords: [ServiceNow, Health Log Analytics, HLA, source type structure, adjust, inner log messages, anomalies, customize, properties, JavaScript]
-breadcrumb: [Source type structure adjustment, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Source type structure adjustment, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Refine the source type structure
+# Refine the source type structure in Health Log Analytics
 
 Fine-tune how Health Log Analytics reads your inner log messages and detects anomalies by customizing the extracted properties in the source type structure.
 
 ## Before you begin
+
+For an overview, see [Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -368,5 +370,10 @@ The new script is automatically added to the list of JS function templates from 
 
 Continue with the [remaining data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md): Verify that all your log sources are present and active, and add timestamp formats if necessary.
 
-**Parent Topic:**[Source type structure adjustment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
+**Parent Topic:**[Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
+
+**Related topics**  
+
+
+[Source type structure adjustment in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-adjustment.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [DLP Incident Access Restrictions, Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -20,8 +20,8 @@ Set field level restrictions in DLP incidents to protect sensitive information f
 
 Role required:
 
--   sn\_dlir.admin - Create, edit, and delete.
--   sn\_dlir.analyst and sn\_dlir.analyst\_read - View \(read-only\).
+-   sn\_dlir.admin
+-   sn\_dlir.analyst and sn\_dlir.analyst\_read
 
 ## About this task
 
@@ -101,11 +101,11 @@ Applies to
 
 Option to apply the incident matching conditions to specific users or groups. You can apply the conditions to the following:-   **All end users**: Option to select all end users to whom the DLP incident conditions are applicable.
 -   **All reviewers of escalated incidents**: Option to select all reviewers of escalated incidents to whom the DLP incident conditions are applicable. This refers to all DLP incidents escalated to the Manager.
--   **Users**: Click the \[Omitted image "dlp-lock-icon.png"\] Alt text: Lock icon icon to add a particular user from the list to whom the DLP incident conditions are applicable. You can also add a user by using their email address or search option. For example, Legal Manager.
+-   **Users**: Add a particular user from the list to whom the DLP incident conditions are applicable. You can also add a user by using their email address or search option. For example, Legal Manager.
 
-To add yourself as the user to whom the DLP conditions are applicable, click the \[Omitted image "dlp-addme-icon.png"\] Alt text: Add me icon
+Add yourself as the user to whom the DLP conditions are applicable.
 
--   **Groups**: Click the \[Omitted image "dlp-lock-icon.png"\] Alt text: Lock ic icon to add a particular group from the list to whom the DLP incident conditions are applicable. You can also add a group by using the search option. For example, Survey creators.
+-   **Groups**: Add a particular group from the list to whom the DLP incident conditions are applicable. You can also add a group by using the search option. For example, Survey creators.
 
 
 </td></tr><tr><td>
@@ -132,9 +132,7 @@ Select the custom fields that you want to allow access to from the Available col
 
 
 </td></tr></tbody>
-</table>    \[Omitted image "dlp-field-restrictions.gif"\] Alt text: Set up field level restrictions for your DLP incidents
-
-4.  Click **Submit**.
+</table>4.  Click **Submit**.
 
 
 **Parent Topic:**[DLP Incident Access Restrictions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/dlp-incident-access-restrictions.md)

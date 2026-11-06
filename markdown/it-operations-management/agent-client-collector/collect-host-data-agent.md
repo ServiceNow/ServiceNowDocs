@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collect data from your system devices, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Enabling ACC data collection, ACC deployment - shared between servers and endpoints, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Run host data collection for an agent
@@ -34,4 +34,6 @@ Role required: agent\_client\_collector\_admin
 ## Result
 
 Data is collected for the specified agents. The collection status is indicated in the page's **Host data collection** column.
+
+**Parent Topic:**[Enabling Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/data-collection-enabling.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Microsoft Azure DevOps Integrations Comm
 classification: microsoft-azure-devops-integrations-comm
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install Microsoft Azure DevOps Integration for Agile Development, Microsoft Azure DevOps Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Microsoft Azure DevOps Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Components installed with Microsoft Azure DevOps integration for Agile Development
@@ -242,4 +242,5 @@ Webhook Registry\[sn\_int\_common\_webhook\_registry\]
 Stores details of the registry callback path for webhooks registered in Azure DevOps to receive event updates.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Microsoft Azure DevOps Integration for Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/microsoft-azure-devops-integrations-comm/agile-azure-integration-overview.md)
+

@@ -1,35 +1,33 @@
 ---
-title: Activate Now Assist panel assistants
-description: You must activate Now Assist panel assistants before using them.
+title: Activate ServiceNow Otto panel assistants
+description: You must activate ServiceNow Otto panel assistants before using them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-panel-activate-assistant.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring plugins and skills in AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Activate Now Assist panel assistants
+# Activate ServiceNow Otto panel assistants
 
-You must activate Now Assist panel assistants before using them.
+You must activate ServiceNow Otto panel assistants before using them.
 
 ## Before you begin
 
 Role required: admin
 
+**Note:** Voice input is automatically activated when you activate the ServiceNow Otto panel.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistants**.
 
-2.  On the Assistants screen, select **Now Assist Panel - Platform \(default\).**\[Omitted image "now-assist-panel-assistants-screen.png"\] Alt text: Assistants screen that displays Now Assist panel assistants.
+2.  On the Assistants screen, select **ServiceNow Otto Panel - Platform \(default\).**
 
-    The Now Assist Panel - Platform \(default\) page displays.
-
-3.  If the Review tab does not display on the Now Assist Panel - Platform \(default\) page, select **Review**.\[Omitted image "now-assist-panel-review-tab.png"\] Alt text: Review tab on the Now Assist panel page.
-
-4.  On the Review tab, activate the Now Assist panel assistant.
+3.  In the more actions icon, select **Active**.
 
 
-**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Configuring plugins and skills in AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
 

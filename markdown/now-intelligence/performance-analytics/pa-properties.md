@@ -7,7 +7,7 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platfo
 
 These system properties control the behavior of Performance Analytics.
 
-To configure properties, navigate to **Performance Analytics** &gt; **System** &gt; **Properties** or to `sys_properties_list.do`.
+To configure properties, navigate to **Platform Analytics Administration** &gt; **Properties** &gt; **PA Properties** or to `sys_properties_list.do`.
 
 **Note:** Only the properties on the Performance Analytics Properties page are described here. The `sys_properties.list` page contains other properties that affect Performance Analytics. For more information, see [Available system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_AvailableSystemProperties.md).
 

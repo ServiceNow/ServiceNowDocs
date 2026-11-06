@@ -1,5 +1,5 @@
 ---
-title: Create a service group
+title: Create an application service group
 description: Create service groups to combine similar services. Organize services by groups to perform actions simultaneously on multiple services and to control user access to services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/event-management/create-service-group.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Application services in Event Management, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
-# Create a service group
+# Create an application service group
 
 Create service groups to combine similar services. Organize services by groups to perform actions simultaneously on multiple services and to control user access to services.
 
@@ -28,7 +28,9 @@ Service groups are a way to organize and group services based on the application
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Services** &gt; **Service Groups**.
 
-2.  Click **New**.
+    The Application Service Group page opens.
+
+2.  Select **New**.
 
 3.  In the **Name** field, enter the name of the new service group.
 
@@ -36,7 +38,7 @@ Service groups are a way to organize and group services based on the application
 
     Users with access to a parent service group automatically have access to all its child groups.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
 
 **Parent Topic:**[Application services in Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/application-service-event-management.md)

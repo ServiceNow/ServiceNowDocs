@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Customizing the content in your Network Inventory Workspace widgets
@@ -72,23 +72,23 @@ The following examples show how the name segments are combined in the CMDB group
 
 -   **All Available Status Equipment**
 
-    CMDB group data that is used in the Network equipment by states widget to report the percentage of equipment that is in the Available status in all network domains.
+    CMDB group data that is used in the Network equipment by states widget. It reports the percentage of equipment that is in the Available status in all network domains.
 
 -   **Core Available Status Equipment**
 
-    CMDB group data used in the Network equipment by states widget to report the percentage of equipment that is in an Available status in the Core network domain.
+    CMDB group data used in the Network equipment by states widget. It reports the percentage of equipment that is in an Available status in the Core network domain.
 
 -   **Mobility Pending Repair Status Equipment**
 
-    CMDB group data used in the Network equipment by states widget to report the percentage of equipment that is in a Pending Repair status in the Mobility network domain.
+    CMDB group data used in the Network equipment by states widget. It reports the percentage of equipment that is in a Pending Repair status in the Mobility network domain.
 
 -   **All Ericsson Manufacturer Equipment**
 
-    CMDB group data that is used in the Network equipment by manufacturer widget to report the total piece count for the equipment that is supplied by Ericsson in all network domains.
+    CMDB group data that is used in the Network equipment by manufacturer widget. It reports the total piece count for the equipment that is supplied by Ericsson in all network domains.
 
 -   **Telecom Nokia Manufacturer Equipment**
 
-    CMDB group data that is used in the Network equipment by manufacturer widget to report the total piece count for the equipment that is supplied by Nokia in the Telecom network domain.
+    CMDB group data that is used in the Network equipment by manufacturer widget. It reports the total piece count for the equipment that is supplied by Nokia in the Telecom network domain.
 
 
 ## Modifying the Network equipment by manufacturer widget
@@ -103,7 +103,7 @@ A pre-defined CMDB group structure supports retrieval of the data that appears i
 
 To add or change the data in a widget, use the CMDB Groups function to create CMDB group codes or modify the accompanying query conditions for existing ones. To update any of the existing CMDB groups, you must follow the standard CMDB group naming convention used for the Network Inventory Workspace widgets.
 
-**Note:** To learn more about creating, updating, or naming CMDB groups, see CMDB groups.
+**Note:** To learn more about creating, updating, or naming CMDB groups, see [CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-groups.md).
 
 For example, let's say that you want to add another equipment manufacturer to the widget. To accomplish this task, you can use existing CMDB groups for a manufacturer, for each of the network domains, as the base for the new manufacturer. In this example, you use the existing CMDB groups for Ericsson as the base for the CMDB groups that you create for the new manufacturer.
 

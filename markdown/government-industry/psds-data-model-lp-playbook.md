@@ -1,16 +1,16 @@
 ---
-title: Public Sector Digital Services License and Permit Playbook Data Model
+title: Public Sector Digital Services License and Permit Administration Data Model
 description: This section outlines the License and Permit data model and the tables installed with the License and Permit application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-data-model-lp-playbook.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Public Sector Data Model, Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Public Sector Digital Services License and Permit Playbook Data Model
+# Public Sector Digital Services License and Permit Administration Data Model
 
 This section outlines the License and Permit data model and the tables installed with the License and Permit application.
 
@@ -18,8 +18,8 @@ The following logical diagram shows the tables and their relationships within th
 
 \[Omitted image "psds-datamodel-lp.png"\] Alt text: Public Sector Digital Services License and Permit Data Model
 
--   **[Tables installed with License and Permit Playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-data-model-lp-playbook-tables.md)**  
-This section describes the tables installed with the License and Permit Playbook application and shows how they store and manage information.
+-   **[Tables installed with License and Permit Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-data-model-lp-playbook-tables.md)**  
+This section describes the tables installed with the License and Permit Administration application and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
 

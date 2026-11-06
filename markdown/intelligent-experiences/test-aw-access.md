@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/test-aw-access.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an agentic workflow, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an agentic workflow, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Test user access to an agentic workflow
@@ -32,7 +32,7 @@ To see instructions for performing manual tests to evaluate performance, see [Te
 
 2.  Select **Start manual test**.
 
-3.  In the **Test type** dropdown, select **Test access**.
+3.  In the **Choose a test type** drop-down menu, select **Test access**.
 
     If you want to test the basics of how an agentic workflow works, select **AI agent or worfklow**. The full instructions for that test type can be found in [Test performance manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-ai-agent.md).
 
@@ -45,6 +45,8 @@ To see instructions for performing manual tests to evaluate performance, see [Te
     When you select an invoking user, the user roles are populated in the **Invoking user roles** field. The field is read-only. If you want to change a user's roles, you must change the user's User record. See [Assign a role to a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AssignARoleToAUser.md).
 
 6.  Select **Test access**.
+
+    \[Omitted image "aw-test-access-form.png"\] Alt text: Completed test form for a test access test type
 
 
 ## Result

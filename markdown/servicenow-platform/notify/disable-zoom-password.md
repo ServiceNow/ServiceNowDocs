@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Notify Zoom connector in Notify, Configure, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure Notify Zoom connector in Notify, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Disable Zoom meeting password
@@ -18,7 +18,7 @@ Disable Zoom meeting password so that you can join a Zoom meeting without any me
 
 ## Before you begin
 
-Role required: notify\_admin or admin
+Role required: notify\_admin or notify\_setup\_admin
 
 ## Procedure
 

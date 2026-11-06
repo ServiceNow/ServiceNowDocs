@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Manager
 classification: operational-technology-manager
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OT device related items and related lists, Edit or view OT devices after import or discovery, Use, Operational Technology Manager, Operational Technology]
 ---
@@ -42,8 +42,6 @@ If you encounter OT devices that don't have an OT function and should be classif
     A dialog box appears that asks you to confirm that you want to remove the OT device details but keep all the other configuration item details.
 
     **Note:** None of the CI details, network adapters, or IP addresses are removed. Only the OT-specific data is removed.
-
-    \[Omitted image "remove-ot-asset-details.png"\] Alt text: Remove OT device details dialog box.
 
 5.  Select **Confirm**.
 

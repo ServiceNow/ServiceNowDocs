@@ -7,9 +7,9 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Overview page and dashboard views, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Tasks page in the Compliance Workspace
@@ -74,27 +74,4 @@ The Tasks page helps you manage duties efficiently, ensuring proactive complianc
 The following image shows the Tasks page in the Compliance Workspace.
 
 \[Omitted image "rcm-tasks-page-compliance-ws.png"\] Alt text: Tasks page in the Compliance workspace.
-
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
-
-**Related topics**  
-
-
-[Regulatory Change Management application landing page]()
-
-[Source document import tasks]()
-
-[Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
-
-[Next Experience Discuss and Chat Collaboration]()
-
-[Regulatory Change Management application in the Compliance Workspace]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
 

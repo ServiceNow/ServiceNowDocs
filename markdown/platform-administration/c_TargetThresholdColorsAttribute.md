@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_TargetThresholdColorsAttribute.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Percent complete field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Percent complete field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Target threshold colors attribute
@@ -34,8 +34,6 @@ The following table lists examples of percent of target calculation using the co
 |100|40|40%|tomato|
 |65|59|90.7%|lightgreen|
 |15|10|66.7%|khaki|
-
-\[Omitted image "PercentComplete1.png"\] Alt text:
 
 ## Add a target field attribute
 

@@ -1,5 +1,5 @@
 ---
-title: Manage Workplace cases
+title: Managing Workplace cases
 description: As a Workplace case manager, you can manage workplace cases created through workplace services. You can view and update cases if required.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-case-management/manage-workplace-cases.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
-# Manage Workplace cases
+# Managing Workplace cases
 
 As a Workplace case manager, you can manage workplace cases created through workplace services. You can view and update cases if required.
 
@@ -22,6 +22,10 @@ View and track open, closed, and unassigned workplace cases.
 Workplace Event planners can view the emergency maintenance case details and the actions taken by AI agents in the case work notes.
 -   **[View change event reservation case details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/view-case-change-event-reservation.md)**  
 Workplace Event planners can view the change event reservation case details and the actions taken by AI agents in the case work notes.
+-   **[Print workplace cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/print-workplace-cases.md)**  
+Print case details along with associated services or service items to support effective case management and resolution.
+-   **[Managing print cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/manage-case-print.md)**  
+Filter workplace cases using criteria such as the Short Description, Workplace Location, or other relevant fields to generate a consolidated report.
 
 **Parent Topic:**[Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-feat.md)
 

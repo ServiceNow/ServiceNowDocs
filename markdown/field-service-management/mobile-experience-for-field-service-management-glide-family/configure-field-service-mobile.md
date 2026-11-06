@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Configure the Now Mobile Agent application
@@ -28,11 +28,9 @@ Role required: admin
 
 2.  In the **Home** screen, search and select **Field Service Mobile** under the **Applications** tab.
 
-3.  In the **Select Application** screen, select **Field Service Mobile**.
+3.  Customize the application to view the desired widgets and fields on the mobile application instance.
 
-4.  Customize the application to display the desired widgets and fields on the mobile application instance.
-
-5.  Follow these steps to configure the Now Mobile Agent application.
+4.  Follow these steps to configure the Now Mobile Agent application.
 
     1.  [Connect to your Field Service data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/mobile-experience-for-field-service-management-glide-family/install-fsm-mobile-app.md)
 
@@ -80,5 +78,7 @@ Role required: admin
 
 [Mobile Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-config-navigation.md)
 
-[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
+[Completing work on the ServiceNow Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
+
+[Push notifications on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/actionable-push-notifications.md)
 

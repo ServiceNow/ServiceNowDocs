@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,6 +32,8 @@ Use Service Portal to configure an improved version of Catalog. You can customiz
 You can use a mobile and track request and approval flows of Service Catalog.
 -   **[Service Catalog configuration for Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/ur-catalog-config.md)**  
 You can configure a catalog item or record producer to create a universal request when a request is submitted. The associated requested item \(for catalog item\) or task-based record \(for record producer\) becomes the primary ticket for that universal request.
+-   **[Standard ticket page for a requested item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/stpage-req-item.md)**  
+To display the related information, you can configure the standard ticket page for requested items on the various portals. This configuration verifies a consistent experience when viewing submitted requests in portals.
 
 **Parent Topic:**[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog.md)
 

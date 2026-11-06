@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2024-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Install and configure, Leader Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Installing and configuring Leader Hub, Leader Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure metrics for employee engagement
@@ -58,7 +58,7 @@ Role required: admin \[sn\_egd\_lh.admin\]
     |**Learning**|of &lt;personnel&gt; have completed courses|
     |**Mentoring**|of &lt;personnel&gt; are involved in mentorships|
 
-    **Tip:** &lt;personnel&gt; represents the role that you specified in the **Metric Calculation Base** field \(i.e., employee, manager, or individual contributor\). The description you enter appears underneath the percentage that is calculated for the employee engagement metric you create. Using the description provided for the Aspirations app, the Growth engagement widget displays the following message: &lt;percentage&gt; of &lt;personnel&gt; have active aspirations.
+    **Tip:** `<personnel>` represents the role that you specified in the **Metric Calculation Base** field \(i.e., employee, manager, or individual contributor\). The description you enter appears underneath the percentage that is calculated for the employee engagement metric you create. Using the description provided for the Aspirations app, the Growth engagement widget displays the following message: `<percentage>` of `<personnel>` have active aspirations.
 
 10. Enter alternate text in the **Tooltip** field to provide further details about the employee engagement metric you're configuring.
 

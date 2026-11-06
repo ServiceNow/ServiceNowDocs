@@ -1,20 +1,20 @@
 ---
 title: TISC TAXII Server API
-description: Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server endpoints for sharing threat intelligence data in Threat Intelligence Security Center \(TISC\) from one ServiceNow instance to another.Discovery endpoint for the TAXII server. Provides metadata about available API roots, services offered by the TISC TAXII server, and how to interact with it.Provides information about an API root.Returns data about all available TAXII collections at the specified API root.Returns data about a specified collection.Returns objects from a specified collection.Returns a specified object from a collection.Returns all versions of a specified object from a collection.Provides a summary of the objects in a collection.
+description: Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server endpoints for sharing threat intelligence data in Threat Intelligence Security Center \(TISC\).Discovery endpoint for the TAXII server. Provides metadata about available API roots, services offered by the TISC TAXII server, and how to interact with it.Provides information about an API root.Returns data about all available TAXII collections at the specified API root.Returns data about a specified collection.Returns objects from a specified collection.Returns a specified object from a collection.Returns all versions of a specified object from a collection.Provides a summary of the objects in a collection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/taxii-server-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 23
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
 
 # TISC TAXII Server API
 
-Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server endpoints for sharing threat intelligence data in Threat Intelligence Security Center \(TISC\) from one ServiceNow instance to another.
+Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server endpoints for sharing threat intelligence data in Threat Intelligence Security Center \(TISC\).
 
 This API requires the Threat Intelligence Security Center application, which is available on the ServiceNow Store.
 
@@ -22,7 +22,15 @@ For additional information about TISC, see [Threat Intelligence Security Center]
 
 This API runs in the `sn_sec_tisc` namespace. The calling user must have the sn\_sec\_tisc.taxii\_server\_api\_user role.
 
-The current version of this API is `v1`.
+The current version of this API is `v2`. The following capabilities are supported in each version.
+
+-   **v1**
+
+    Supports sharing threat intelligence data from one ServiceNow instance to another.
+
+-   **v2**
+    -   Adds support for sharing threat intelligence data from a ServiceNow instance to an external system.
+    -   Supports trailing slashes.
 
 **Parent Topic:**[REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/api-rest.md)
 
@@ -202,6 +210,8 @@ api\_root
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
 
+Data type: String
+
 </td></tr></tbody>
 </table>|Name|Description|
 |----|-----------|
@@ -342,6 +352,8 @@ api\_root
 </td><td>
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
+
+Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -546,6 +558,8 @@ api\_root
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
 
+Data type: String
+
 </td></tr><tr><td>
 
 id
@@ -553,6 +567,8 @@ id
 </td><td>
 
 Sys\_id of the collection.Table: TAXII Collection \[sn\_sec\_tisc\_taxii\_server\_collection\]
+
+Data type: String
 
 </td></tr></tbody>
 </table>|Name|Description|
@@ -723,6 +739,8 @@ api\_root
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
 
+Data type: String
+
 </td></tr><tr><td>
 
 id
@@ -730,6 +748,8 @@ id
 </td><td>
 
 Sys\_id of the collection.Table: TAXII Collection \[sn\_sec\_tisc\_taxii\_server\_collection\]
+
+Data type: String
 
 </td></tr></tbody>
 </table><table class="rest_api_query_parameters"><thead><tr><th>
@@ -1005,6 +1025,8 @@ api\_root
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
 
+Data type: String
+
 </td></tr><tr><td>
 
 id
@@ -1012,6 +1034,8 @@ id
 </td><td>
 
 Sys\_id of the collection.Table: TAXII Collection \[sn\_sec\_tisc\_taxii\_server\_collection\]
+
+Data type: String
 
 </td></tr><tr><td>
 
@@ -1021,8 +1045,10 @@ object\_id
 
 Unique identifier of the object.Object ids can be retrieved using the GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}/objects endpoint. They are located in the **objects.id** parameter in the response body.
 
+Data type: String
+
 </td></tr></tbody>
-</table><table class="rest_api_query_parameters"><thead><tr><th>
+</table><table id="table_z2w_xjd_h3c" class="rest_api_query_parameters"><thead><tr><th>
 
 Name
 
@@ -1201,6 +1227,8 @@ api\_root
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
 
+Data type: String
+
 </td></tr><tr><td>
 
 id
@@ -1209,6 +1237,8 @@ id
 
 Sys\_id of the collection.Table: TAXII Collection \[sn\_sec\_tisc\_taxii\_server\_collection\]
 
+Data type: String
+
 </td></tr><tr><td>
 
 object\_id
@@ -1216,6 +1246,8 @@ object\_id
 </td><td>
 
 Unique identifier of the object.Object ids can be retrieved using the GET /sn\_sec\_tisc/taxii\_server/\{api\_root\}/collections/\{id\}/objects endpoint. They are located in the **objects.id** parameter in the response body.
+
+Data type: String
 
 </td></tr></tbody>
 </table><table id="table_r1r_wjw_g3c" class="rest_api_query_parameters"><thead><tr><th>
@@ -1373,6 +1405,8 @@ api\_root
 
 The API root to retrieve information about.**Note:** The only value currently supported is `api_root`.
 
+Data type: String
+
 </td></tr><tr><td>
 
 id
@@ -1380,6 +1414,8 @@ id
 </td><td>
 
 Sys\_id of the collection.Table: TAXII Collection \[sn\_sec\_tisc\_taxii\_server\_collection\]
+
+Data type: String
 
 </td></tr></tbody>
 </table><table class="rest_api_query_parameters"><thead><tr><th>

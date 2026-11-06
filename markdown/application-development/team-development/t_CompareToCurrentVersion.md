@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Versions, Using Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Versions, Administer, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Compare to the current version
 
 You can compare a version to the current version for any customizable object that a user has modified, such as a form layout or business rule. You can also compare the local and current pulled version of an object in Team Development. Administrators can suppress versions for specific tables.
+
+## Before you begin
+
+Role required: none
 
 ## About this task
 
@@ -33,15 +37,15 @@ To compare a version to the current version of an object:
 
 2.  On the Compare to Current page, review the fields that differ.
 
-<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d135525e128">
+<table id="choicetable_er4_v12_5s"><thead><tr><th align="left" id="d308183e134">
 
 Option
 
-</th><th align="left" id="d135525e131">
+</th><th align="left" id="d308183e137">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d135525e137">
+</th></tr></thead><tbody><tr><td id="d308183e143">
 
 **To resolve the differences by choosing the previous version**
 
@@ -51,7 +55,7 @@ Action
 -   For a version of an object: Click **Use Local Version** to maintain the local record as the current version. The pulled version is added to the version history for the record.
 
 
-</td></tr><tr><td id="d135525e161">
+</td></tr><tr><td id="d308183e167">
 
 **To resolve the differences by modifying the current version and saving the merged changes__Note:__ Some types of record do not support this method. See [Limitations on updating records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/r_LimitationsOnResolvingCollisions.md) for more information.
 

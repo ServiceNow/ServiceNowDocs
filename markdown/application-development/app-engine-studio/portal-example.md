@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a portal, Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add a portal, Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Sample portals you can build
@@ -31,8 +31,6 @@ The portal that you create in App Engine Studio includes several default pages. 
 -   Task rejected
 
 **Note:** Unlike Service Portal, the portal that you can create in App Engine Studio is built on the Next Experience UI Framework. You edit the portal by configuring pages and components in UI Builder.
-
-\[Omitted image "starter-portal-home.png"\] Alt text: Portal home page
 
 **Parent Topic:**[Add a portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/add-portal.md)
 

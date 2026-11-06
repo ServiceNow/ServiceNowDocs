@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Dispatcher Workspace for crew operations, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Crew operations, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign work order tasks to crews on Dispatcher Workspace
@@ -40,17 +40,17 @@ You can assign tasks that are in the Pending Dispatch state. When assigning and 
 
 If the Territory Planning plugin is active and Territory Model is enabled, additional factors include:
 
--   Territorial alignment: Ensures the crew is located within the territory of the task.
+-   Territorial alignment: Ensures that the crew is located within the territory of the task.
 -   Territory Membership: Agent eligibility for task assignment is determined by their membership in the associated territory.
 
 Task assignment methods:
 
-1.  Manual Assignment: The dispatcher selects the best crew for the task, ensuring their effective dates align with the task window start and end dates. The dispatcher also checks agent availability within the crew based on their territory membership dates.
-2.  Dynamic Assignment: Dynamic Scheduling automatically assigns tasks to crews based on factors like territory alignment, crew availability, agent skills, and task requirements. If a suitable crew exists, it is assigned the task; otherwise, a new crew is created. When the dynamically created crew is assigned for a work order task within a territory, the crew membership is updated and appears in the Crew Membership related list of the territory.
+1.  Manual Assignment: The dispatcher selects the best crew for the task, verifying their effective dates align with the task window start and end dates. The dispatcher also checks agent availability within the crew based on their territory membership dates.
+2.  Dynamic Assignment: Dynamic Scheduling automatically assigns tasks to crews based on factors like territory alignment, crew availability, agent skills, and task requirements. If a suitable crew exists, it’s assigned the task. Otherwise, a new crew is created. When the dynamically created crew is assigned for a work order task within a territory, the crew membership is updated and appears in the Crew Membership related list of the territory.
 
 When scheduling tasks for multiple days:
 
--   View the crew schedule for a selected time period in calendar, such as day, work day, week, two weeks, or four weeks. The calendar also displays the assigned task window spanned across multiple days or weeks.
+-   View the crew schedule for a selected time period in the calendar, such as day, work day, week, two weeks, or four weeks. The calendar also displays the assigned task window spanned across multiple days or weeks.
 -   View the recommended crews for the task using the **Auto Assign Rules** option. For more information, see [Search for appropriate Field Service agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/search-agents-tasks.md).
 
 ## Procedure
@@ -69,15 +69,15 @@ When scheduling tasks for multiple days:
 
 6.  Assign the crew task.
 
-<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d42554e243">
+<table id="choicetable_tv1_54y_xrb"><thead><tr><th align="left" id="d46437e254">
 
 Option
 
-</th><th align="left" id="d42554e246">
+</th><th align="left" id="d46437e257">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d42554e252">
+</th></tr></thead><tbody><tr><td id="d46437e263">
 
 **To assign a task manually**
 
@@ -88,7 +88,7 @@ Description
 3.  Select **Save**.
 
 
-</td></tr><tr><td id="d42554e276">
+</td></tr><tr><td id="d46437e287">
 
 **To manually assign a task from the task panel**
 
@@ -100,7 +100,7 @@ Description
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d42554e315">
+</td></tr><tr><td id="d46437e326">
 
 **To auto-assign the task to a crew from the task panel**
 
@@ -111,7 +111,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d42554e348">
+</td></tr><tr><td id="d46437e359">
 
 **To auto-assign the task to a crew from the task record**
 
@@ -122,7 +122,7 @@ Description
 3.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d42554e376">
+</td></tr><tr><td id="d46437e387">
 
 **To auto-assign the task to a crew from a list**
 
@@ -134,7 +134,7 @@ Description
 4.  Select **Confirm**.
 
 
-</td></tr><tr><td id="d42554e415">
+</td></tr><tr><td id="d46437e426">
 
 **To manually assign a task from the contextual side panel**
 
@@ -147,7 +147,7 @@ Description
 5.  Select **Save**.
 
 
-</td></tr><tr><td id="d42554e457">
+</td></tr><tr><td id="d46437e468">
 
 **To auto-assign the task to a crew from the contextual side panel**
 
@@ -166,6 +166,4 @@ Description
 ## Result
 
 The task is assigned to the crew. All crew members receive a push notification that the work order task is assigned. The Task Assignees related list is added to the work order task. The list displays the names of crew members, which include both the leader of the crew and the agents in the crew.
-
-**Parent Topic:**[Using Dispatcher Workspace for crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-disp-wrkspc-crew-operations.md)
 

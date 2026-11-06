@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Work with Asset and CI
@@ -29,7 +29,7 @@ Map the asset **State** and **Substate** fields to the **CI Install Status** fie
 -   **[Map asset state and CI hardware status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_CreateAssetandCIHardwareStatusMapping.md)**  
 Map the asset **State** and **Substate** fields to the **CI Hardware Status** field. Don't use the **Substatus** field on hardware CIs because the CI synchronization does not update the field when assets are updated. When you create the mapping, you can set the synchronization direction from the asset, CI, or both.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 
@@ -45,8 +45,6 @@ Map the asset **State** and **Substate** fields to the **CI Hardware Status** fi
 [Manage pre-allocated assets]()
 
 [Manage transfer order]()
-
-[Example Asset Management process]()
 
 [Use Organization Management]()
 

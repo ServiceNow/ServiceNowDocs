@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_FieldTypes.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 12
+last_updated: "2026-09-10"
+reading_time_minutes: 13
 breadcrumb: [Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -465,9 +465,9 @@ Other date
 
 Yes
 
-</td><td id="entry_DateField">
+</td><td>
 
-Date field that displays a day, which can be selected with a calendar widget.
+Field used to store date and time values without requiring a time zone. Unlike glide\_date\_time, which is converted to UTC in the database, this field retains the date and time exactly as entered, without any conversion.
 
 </td></tr><tr><td>
 
@@ -479,11 +479,11 @@ Date/Time
 
 </td><td>
 
-No
+Yes
 
-</td><td id="entry_DateTimeField">
+</td><td>
 
-Date/Time field that can be selected with a calendar widget. It's used for date-specific entries and is ideal for timestamps and scheduling.
+ 
 
 </td></tr><tr><td>
 
@@ -639,11 +639,11 @@ Email Script
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
-Email script field that provides the ability to use field name notation **\($\{fieldname\}\)**to represent the value of that field. This is a combination of text area and variable picker component and can be used to create text templates that have variables.
+Field used to create dynamic email templates. It provides the ability to use field name notation `(${fieldname})` to represent the dynamic value of variable. This field is a combination of text area and variable picker.
 
 </td></tr><tr><td>
 
@@ -995,7 +995,7 @@ Yes
 
 </td><td>
 
-HTML script field that provides the ability to add variables in the form of field name notation **\($\{fieldname\}\)** via a variable picker within the HTML editor. This field is used to create rich text content that also has dynamic values.
+HTML script field that provides the ability to add variables in the form of field name notation `(${fieldname})` via a variable picker within the HTML editor. This field is used to create rich text content that also has dynamic values.
 
 </td></tr><tr><td>
 
@@ -1087,7 +1087,7 @@ Int
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
@@ -1123,7 +1123,7 @@ Yes
 
 </td><td>
 
- 
+The int field type is used to store alphanumeric values similar to string field type.
 
 </td></tr><tr><td>
 
@@ -1135,11 +1135,12 @@ Integer time
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
- 
+Field used to store time values, similar to glide\_time, but with a few key differences:-   The glide\_time field stores the time as a fully formatted string \(e.g., 1970-01-01 16:04:32\), whereas the integer\_time field stores it as a 6-digit string in a 24-hour format \(e.g., 160432\).
+-   glide\_time supports time zones, meaning the displayed value changes based on the user's time zone settings. In contrast, integer\_time does not support time zone adjustments and always displays the same time regardless of the user's location.
 
 </td></tr><tr><td>
 
@@ -1667,7 +1668,7 @@ Yes
 
 </td><td>
 
-Radio field that displays mutually exclusive options as radio buttons, letting users select only one choice. It’s suitable for simple, definitive decisions, like priority level or yes/no responses. This field type helps improve usability by presenting clear options for single-selection inputs.
+Radio field that displays mutually exclusive options as radio buttons, letting users select only one choice. It’s suitable for simple, definitive decisions, like priority level or yes/no responses. This field type helps improve usability by presenting clear options for single-selection inputs. As of the Zurich release, radio buttons can be displayed both horizontally and vertically in the form view.
 
 </td></tr><tr><td>
 
@@ -1727,11 +1728,11 @@ Related Tags
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 
- 
+Field used to categorize and organize records by assigning tags. In the record page, The tags are editable using the option on the form and the same tags get reflected on the related\_tags field type in a read only mode.
 
 </td></tr><tr><td>
 
@@ -2353,7 +2354,7 @@ User Input
 
 </td><td>
 
-No
+Yes
 
 </td><td>
 

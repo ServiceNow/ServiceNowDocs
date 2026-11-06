@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Building actions
@@ -80,10 +80,16 @@ Every action has an Action Status data pill in the Data pane. This object data p
 Transform the Ask for Approval action into a reusable action that always requires manager approval.
 -   **[Create an action in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-action.md)**  
 Create a reusable component to automate one or more steps of a process.
+-   **[Create conversational action skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-conversational-action-skill.md)**  
+Create a skill for the conversational action and make the skill available for users in a conversation. You can have multiple skills for the same action.
 -   **[Configure action conversational settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-action-conversation-settings.md)**  
 Configure conversation settings to make an action available to conversational interfaces.
+-   **[Configure LLM to generate descriptions for conversational actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-default-llm-for-conversational-actions.md)**  
+Choose which LLM you want to use by default to generate descriptions for inputs, outputs, and skills for conversational actions.
+-   **[Test conversational action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/test-conversational-action.md)**  
+Test a conversational action to verify it responds correctly to user inputs and performs the expected operations before deploying it in production.
 -   **[Complex data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/complex-data.md)**  
 Use a graphical interface to work with collections of complex structured data. Help design users understand the organization of structured data, and add, remove, or configure its individual elements.
 
-**Parent Topic:**[Using Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-workflow-studio-components.md)
+**Parent Topic:**[Workflow Studio flows, subflows, and actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-flows-subflows-and-actions-landing.md)
 

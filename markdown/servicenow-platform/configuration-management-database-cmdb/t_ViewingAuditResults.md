@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Certification audit results, Certification audits, CMDB Compliance, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Certification audit results, Certification audits, CMDB Compliance, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View an audit result
@@ -29,8 +29,6 @@ Role required: none
     -   **Compliance** &gt; **Scripted Audits** &gt; **Audit Results**
     -   **Data Certification** &gt; **Schedules** &gt; **Audit results**
 2.  From any audit results list, you can edit the filter to show the results for any audit type.
-
-    \[Omitted image "AuditTypeFilter.png"\] Alt text: Audit Type filter with Data Certification selected.
 
     The results filter by audit type and grouped by audit number. Within the groups, results list by date, from oldest to newest.
 

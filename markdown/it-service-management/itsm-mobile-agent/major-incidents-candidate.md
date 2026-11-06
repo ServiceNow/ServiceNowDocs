@@ -1,20 +1,20 @@
 ---
 title: Major incident candidates
-description: View a list of major incident candidates and add comments to the incidents proposed as major incidents.
+description: Major incident candidates are incidents proposed as major incidents. You can view the list of candidates and add comments to them before they're promoted or rejected.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/itsm-mobile-agent/major-incidents-candidate.html
 release: yokohama
 product: ITSM Mobile Agent
 classification: itsm-mobile-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Major incident applet, ITSM Mobile Agent, IT Service Management]
+breadcrumb: [Managing major incidents using the Major Incident applet, ITSM Mobile Agent, IT Service Management]
 ---
 
 # Major incident candidates
 
-View a list of major incident candidates and add comments to the incidents proposed as major incidents.
+Major incident candidates are incidents proposed as major incidents. You can view the list of candidates and add comments to them before they're promoted or rejected.
 
 **Related topics**  
 

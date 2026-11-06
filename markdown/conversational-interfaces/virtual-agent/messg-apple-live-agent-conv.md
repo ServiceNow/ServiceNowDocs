@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Virtual Agent, Transfer, conversation, Live Agent, apple, messages, advanced work assignment, AWA]
-breadcrumb: [Integrating Virtual Agent with Apple Messages for Business, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use, Apple Messages for Business, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Transfer Apple Messages for Business chat conversations to live agents
@@ -21,9 +21,9 @@ Configure the Advanced Work Assignment application to transfer a Apple Messages 
 
 Your administrator must have completed the following tasks:
 
--   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-activate.md).
+-   [Activate Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-activate.md).
 -   Set the application scope to Conversational Integration with Apple Messages for Business using the application picker. For more information, see [Application picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/c_ApplicationPicker.md).
--   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/activate-messaging-actions.md).
+-   Activate the Conversational Messaging plugin \(com.glide.messaging.awa\). For more information, see [Activate Conversational Messaging](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/activate-messaging-actions.md).
 
 Role required: admin
 
@@ -49,7 +49,7 @@ Role required: admin
 
     6.  Add agents to the `Agent Apple Messages for Business Queue`.
 
-    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+    For more information, see [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
 2.  Automatically route work items for Apple Messages for Business chat conversations to agents by configuring the queue for the Apple Messages for Business service channel.
 
@@ -63,7 +63,7 @@ Role required: admin
 
     5.  Select **Update**.
 
-    **Note:** By default, the **Apple Messages for Business - Most Capacity** assignment rule is associated with the Agent Apple Messages for Business Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-queues.md).
+    **Note:** By default, the **Apple Messages for Business - Most Capacity** assignment rule is associated with the Agent Apple Messages for Business Queue. You can create another assignment rule and associate it with the queue. For more information, see [Configure agent assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-create-assignment-rule.md) and [Work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-queues.md).
 
 3.  Configure agent presence states for the Apple Messages for Business service channel.
 
@@ -71,12 +71,12 @@ Role required: admin
 
     2.  In the **Name** column of the Presence States list, select an existing state.
 
-    3.  In the Apply to groups section of the Presence State form, select the add icon &gt; to move the Agent Apple Messages for Business Group group from the Available column to the Selected column.
+    3.  In the Apply to groups section of the Presence State form, select the add icon &gt; to move the **Agent Apple Messages for Business Group** group from the **Available** column to the **Selected** column.
 
         **Note:** You can ignore this step if you have selected the **Apply to all groups** check box.
 
     4.  Select **Update**.
 
-    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-configure-agent-presence.md).
+    For more information, see [Configure agent presence states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-configure-agent-presence.md).
 
 

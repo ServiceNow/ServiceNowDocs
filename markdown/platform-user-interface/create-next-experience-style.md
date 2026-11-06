@@ -1,18 +1,18 @@
 ---
 title: Create a Next Experience style
-description: When you create or modify a Next Experience theme, you create and edit one or more styles. Styles include typefaces, colors, images, and shapes and forms. The style records you create override the default Polaris theme in Next Experience.
+description: When you create or modify a Next Experience theme, you create and edit one or more styles. Styles include typefaces, colors, images, and shapes and forms. The new style records you create override the default Polaris or default Coral theme in Next Experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-next-experience-style.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Next Experience themes and preferences, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Configuring Next Experience themes, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a Next Experience style
 
-When you create or modify a Next Experience theme, you create and edit one or more styles. Styles include typefaces, colors, images, and shapes and forms. The style records you create override the default Polaris theme in Next Experience.
+When you create or modify a Next Experience theme, you create and edit one or more styles. Styles include typefaces, colors, images, and shapes and forms. The new style records you create override the default Polaris or default Coral theme in Next Experience.
 
 ## Before you begin
 
@@ -44,7 +44,7 @@ You upload new typefaces or images in a separate process. See [Add Next Experien
     
     ```
 
-4.  To save your work between steps, select the **Additional actions** menu \(\[Omitted image "additional-actions.png"\] Alt text: Additional actions icon.\) and choose `Save`.
+4.  To save your work between steps, select the additional actions icon \[Omitted image "hamburger-icon.png"\] Alt text: and choose `Save`.
 
 5.  In the **Style** field, edit the JSON code to reflect the overrides you want the style to contain.
 

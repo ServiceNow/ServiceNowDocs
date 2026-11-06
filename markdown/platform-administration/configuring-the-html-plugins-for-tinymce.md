@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/configuring-the-html-plugins-for-tinymce.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure a field editor for the HTML field, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring plugins for the TinyMCE HTML editor
@@ -112,6 +112,14 @@ Adds directionality controls to the toolbar, enabling TinyMCE to better handle l
 
 </td></tr><tr><td>
 
+editimage
+
+</td><td>
+
+Adds editing capabilities for images within the TinyMCE editable area.
+
+</td></tr><tr><td>
+
 emoticons
 
 </td><td>
@@ -120,11 +128,27 @@ Adds a dialog to the editor that lets you insert emoji into the TinyMCE editable
 
 </td></tr><tr><td>
 
+formatpainter
+
+</td><td>
+
+Enables copying and applying formatting- including font style, size, and table styles- between locations within the TinyMCE editable area, supporting various formats like inline and block styles.
+
+</td></tr><tr><td>
+
 fullscreen
 
 </td><td>
 
 Adds full screen editing capabilities to TinyMCE. When you press the toolbar button, the editable area fills the viewport of the browser.
+
+</td></tr><tr><td>
+
+help
+
+</td><td>
+
+Allows users to check the handy shortcuts, keyboard navigation for accessibility and TinyMCE.
 
 </td></tr><tr><td>
 
@@ -212,7 +236,7 @@ table
 
 </td><td>
 
-Adds table management functionality to TinyMCE, including dialogs, context menus, context toolbars, menu items, and toolbar buttons.
+Adds table management functionality to TinyMCE , including dialogs, context menus, context toolbars, menu items, and toolbar buttons.
 
 </td></tr><tr><td>
 
@@ -269,11 +293,9 @@ Role required: admin
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **System Properties** &gt; **UI Properties**.
+1.  Navigate to **All** &gt; **System Properties** &gt; **All Properties**.
 
-2.  Update the plugin configuration for HTML field \(TinyMCE v6.8.3\) \(glide.ui.html.editor.enabled\_plugins\) property to configure plugins.
-
-    Use a vertical bar \("\|"\) to add a section separator.
+2.  Search for and select the plugin \(glide.ui.html.editor.enabled\_plugins\).
 
 <table id="table_crx_3rm_dcc"><thead><tr><th>
 
@@ -285,11 +307,13 @@ Plugins
 
 </th></tr></thead><tbody><tr><td>
 
-Default plugins
+Default value
 
 </td><td>
 
--   accordion
+**Note:** The **value** field displays the default plugins that are enabled in the TinyMCE editor.
+
+ -   accordion
 -   advlist
 -   align\_listitems
 -   anchor
@@ -299,8 +323,11 @@ Default plugins
 -   codemirror
 -   codesample
 -   directionality
+-   editimage
 -   emoticons
+-   formatpainter
 -   fullscreen
+-   help
 -   image
 -   insertdatetime
 -   link
@@ -320,11 +347,13 @@ Default plugins
 
 </td></tr><tr><td>
 
-Enabled plugins
+Available plugins
 
 </td><td>
 
--   a11ychecker
+**Note:** The **choices** field lists all available plugins. Add a plugin from the **choices** list to the **value** field in order to enable them.
+
+ -   a11ychecker
 -   accordion
 -   advlist
 -   align\_listitems
@@ -334,8 +363,10 @@ Enabled plugins
 -   codemirror
 -   codesample
 -   directionality
+-   editimage
 -   emoticons
 -   fullscreen
+-   help
 -   image
 -   insertdatetime
 -   link
@@ -356,10 +387,10 @@ Enabled plugins
 </td></tr></tbody>
 </table>    **Note:** PowerPaste is a standard plugin that is enabled by default. Unlike other HTML plugins listed here, PowerPaste can't be added or removed.
 
-3.  Make changes \(add/remove\) in the enabled plugins property.
+3.  Make changes \(add/remove\) in the available plugins property.
 
 4.  Select save.
 
-    If there's a custom plugin added to enabled plugins its not recommended unless critical.
+    If there's a custom plugin added to available plugins its not recommended unless critical.
 
 

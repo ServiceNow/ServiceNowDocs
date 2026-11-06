@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Workspace store app
@@ -35,20 +35,21 @@ Watch the following video to get started with CMDB Workspace. Depending on the v
 </td></tr></tbody>
 </table>## Troubleshoot and get help
 
+-   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/now-assist-landing-cmdb.md)
 -   [Ask questions and explore other resources for  in the ServiceNow Community](https://www.servicenow.com/community/)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 
--   **[Explore CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)**  
+-   **[Exploring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-workspace.md)**  
 Learn more about CMDB Workspace, its different views, and its benefits when using key CMDB features such as CMDB Health, CMDB Data Manager, and CMDB 360.
--   **[Configure CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)**  
+-   **[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)**  
 Plan and configure your implementation of CMDB Workspace.
 -   **[Create a CI manually in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/create-ci-manual-cmdb-workspace.md)**  
 Create a new CI in CMDB Workspace, while applying Identification and Reconciliation Engine \(IRE\) processes and other requirements for the CI's class. IRE identification rules enforce the new CI to be unique and to comply with other class requirements.
--   **[Manage CI details in CI Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)**  
+-   **[Manage CI details using CI Form in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/ci-form-cmdb-workspace.md)**  
 Use CI Form in CMDB Workspace or in another workspace, to view, edit, and manage a comprehensive set of details of a CI such as its attributes, related lists, and CMDB 360 records. When updating CIs, IRE rules are applied to avoid potential issues such as duplicate CIs. CI Form supports derivation of form configurations throughout the CMDB hierarchy.
--   **[Resume a disabled scheduled job for the Cloud vs Non-cloud resources chart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.md)**  
-Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart in CMDB Workspace.
+-   **[Resume a disabled Cloud vs Non-cloud resources scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-resume-cloud-job.md)**  
+Reactivate a scheduled job to resume data collection for the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 -   **[Edit a related table from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/insights-update-record-rltd-table.md)**  
 Edit a related table on the Related Entries \[cmdb\_related\_entry\] table directly from the CMDB performance insights tool in the CMDB Workspace Insights view. Update the related table to correctly reference another CI in the Referenced field when a reference is missing from the related table.
 -   **[Edit a data source from CMDB performance insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/insights-update-data-source.md)**  
@@ -58,7 +59,5 @@ Edit a scheduled data import directly from CMDB performance insights for your Se
 -   **[CMDB Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/reference-cmdb-workspace.md)**  
 Reference topics provide additional information about components such as properties, installed with CMDB Workspace and class-specific criteria for the Cloud vs Non-cloud resources chart.
 
-**Parent Topic:**[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
-
-**Parent Topic:**[Exploring CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

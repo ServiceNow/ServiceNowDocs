@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage incidents, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Manage incidents, Data Loss Prevention Incident Response, Security 
 The Data Loss Prevention Incident Response \(DLP IR\) Dashboard provides a high-level overview of your DLP incidents and daily incidents trends in your instance in the form of graphical charts. These charts help you effectively view, manage, and remediate the DLP incidents.
 
 The Data Loss Prevention Incident Response dashboard provides key insights about your DLP incidents daily. You can set up indicators and regularly collect data snapshots of the incidents matching the conditions in the indicator properties. The collected data is then visualized using widgets in the dashboard. To analyze the DLP incidents in different time intervals, you can apply different date ranges.
-
-\[Omitted image "dlp-dashboard-chart.png"\] Alt text: DLP Dashboard view
 
 **Parent Topic:**[Data Loss Prevention Incident Response Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/data-loss-prevention-incident-management.md)
 

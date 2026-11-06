@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject part requests from peer agents
@@ -26,7 +26,7 @@ Role required: wm\_agent
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
     **Tip:**
 
@@ -38,15 +38,15 @@ Role required: wm\_agent
 
 3.  Check the part availability in your personal stockroom and determine whether you want to accept or reject the part request.
 
-<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d134419e139">
+<table id="choicetable_ar5_wkb_35b"><thead><tr><th align="left" id="d152047e147">
 
 Part availability
 
-</th><th align="left" id="d134419e142">
+</th><th align="left" id="d152047e150">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d134419e148">
+</th></tr></thead><tbody><tr><td id="d152047e156">
 
 **The part is not available**
 
@@ -54,7 +54,7 @@ Action
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d134419e160">
+</td></tr><tr><td id="d152047e168">
 
 **You cannot transfer the part because you have an insufficient quantity or need the part yourself**
 
@@ -62,7 +62,7 @@ Tap **Reject**.
 
 Tap **Reject**.
 
-</td></tr><tr><td id="d134419e172">
+</td></tr><tr><td id="d152047e180">
 
 **The part is available to fulfill the request**
 
@@ -93,6 +93,4 @@ Review the listed parts, quantities, and any selected hardware assets.-   If the
 
 -   [View transfer order lines for requested parts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/source-part-mobile.md)
 -   [Request rejected parts from other stockrooms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/request-rejected-parts-from-other-stockrooms.md)
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

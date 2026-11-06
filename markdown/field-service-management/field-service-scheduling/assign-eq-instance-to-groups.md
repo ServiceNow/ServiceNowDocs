@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Scheduling and assigning equipment to tasks and crews, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign an equipment instance to groups
@@ -42,15 +42,4 @@ Assign equipment instances to groups to allow dispatcher to interact with the in
 ## Result
 
 The equipment instance will be assigned to the selected groups.
-
-**Parent Topic:**[Scheduling and assigning equipment to tasks and crews](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/assign-equipment-to-wot.md)
-
-**Related topics**  
-
-
-[Assign equipment to a planned crew]()
-
-[Assign equipment to a task crew]()
-
-[Create a maintenance schedule for an equipment instance]()
 

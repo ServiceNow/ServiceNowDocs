@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage refresh of assets using Zero Touch Refresh, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure Zero Touch Refresh flow, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Service Exchange configuration for Zero Touch Refresh
@@ -21,6 +21,9 @@ The Zero Touch Refresh flow uses the Service Exchange application to connect pro
 Providers should perform the following setup tasks to communicate the details of Zero Touch Refresh requests:
 
 1.  [Install Service Exchange for Providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/install-service-bridge-v2-provider.md).
+
+    **Note:** To migrate from the legacy Service Exchange application, see [Migrate from Service Exchange \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-migrate.md).
+
 2.  [Onboard a new Service Exchange customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-onboarding.md).
 3.  [Trigger the assignment of a remote task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/create-rtd-for-providers.md).
 

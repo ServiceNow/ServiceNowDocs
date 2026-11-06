@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Catalog customization, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set a recurring price
@@ -26,19 +26,20 @@ The price and the recurring frequency are set on the catalog item record. After 
 
 For example, a subscription to a mobile phone contract could cost $500.00, with a $30.00 monthly recurring price.
 
-\[Omitted image "SC\_SetRecurringPrice-1.png"\] Alt text: Order summary screen
+## Procedure
 
-If multiple items with the same recurring price frequency are placed in the shopping cart, they are grouped. The grouping makes it easier to view how much items cost for each frequency \(for example, weekly, monthly, and annually\). If the shopping cart contains items with and without recurring costs, they are grouped separately.
+1.  If multiple items with the same recurring price frequency are placed in the shopping cart, they are grouped.
 
-If multiple items with the same recurring price frequency are placed in the shopping cart, they are grouped. The grouping makes it easier to view how much items cost for each frequency \(for example, weekly, monthly, and annually\). If the shopping cart contains items with and without recurring costs, they are grouped separately.
+    The grouping makes it easier to view how much items cost for each frequency \(for example, weekly, monthly, and annually\). If the shopping cart contains items with and without recurring costs, they are grouped separately.
 
-\[Omitted image "SC\_SetRecurringPrice-2.png"\] Alt text: Shopping card
+2.  If multiple items with the same recurring price frequency are placed in the shopping cart, they are grouped.
 
-On a request record, recurring prices are grouped by frequency and shown in the **Recurring Prices** related list. In the example below, two items each have a monthly recurring cost of $100.00 and their prices are grouped as a single record of $200.00 monthly. Another item with an annual recurring cost of $500.00 is listed as a separate record.
+    The grouping makes it easier to view how much items cost for each frequency \(for example, weekly, monthly, and annually\). If the shopping cart contains items with and without recurring costs, they are grouped separately.
 
-\[Omitted image "RecurringPriceRollup.png"\] Alt text: Screenshot for recurring price
+    On a request record, recurring prices are grouped by frequency and shown in the **Recurring Prices** related list.
 
-If a request record contains multiple items with the same recurring frequency, click the arrow next to the corresponding recurring prices record to view details.
+3.  If a request record contains multiple items with the same recurring frequency, select the arrow next to the corresponding recurring prices record to view details.
+
 
 **Parent Topic:**[Service Catalog customization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/p_ServiceCatalogCustomization.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Use non-self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add contract documents to non-self-served contract request
@@ -23,18 +23,18 @@ Role required: sn\_cm\_core.contract\_user
 ## About this task
 
 -   The non self served contract request supports the upload of contract and supporting documents. Only the contract documents are sent for signature.
--   You can attach multiple documents, one document at a time.
--   You can attach contract documents when the contract request is in Draft state.
+-   You can attach multiple documents, but one document at a time.
+-   You can attach contract documents only when the contract request is in Draft state.
 
 ## Procedure
 
 1.  Navigate to your workspace.
 
-2.  Select a contract request.
+2.  Select the contract request.
 
-3.  In the Contract Document tab, select **Attach Document**.
+3.  In the Contract Document tab, select **Attach document**.
 
-4.  In the Select contract type drop-down, select the type of contract.
+4.  For multiple contract type request, in the **Select contract type** drop-down, select the type of contract.
 
 5.  Select **Attach file** link.
 
@@ -45,5 +45,5 @@ Role required: sn\_cm\_core.contract\_user
     The selected file is attached and listed in the Contract Documents related list.
 
 
-**Parent Topic:**[Use non-self-served contract request]()
+**Parent Topic:**[Third-Party paper contract request]()
 

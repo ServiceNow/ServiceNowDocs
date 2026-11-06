@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Workflow Studio flow integrations, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flow integrations, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Spokes
@@ -27,7 +27,7 @@ A spoke is a scoped application containing Workflow Studio content dedicated to 
 |[Field Service Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/field-service-actions.md)|Provides actions for flow designers to use when creating Field Service Management business processes.|\[com.snc.field\_service.spoke\]|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md) application|
 |[ITSM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/itsm-spoke.md)|Provides flow and actions associated with ITSM. Requires the ITSM application suite.|\[com.snc.itsm.spoke\]|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ITServiceManagement.md) application|
 |[Machine Learning solutions for Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/predictive-intelligence-spoke.md)|Provides actions to make predictions from trained Predictive Intelligence solutions.|\[com.snc.ml\_flowdesigner\]|[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/predictive-intelligence.md)|
-|[Robotic Process Automation \(RPA\) Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/rpa-actions.md)|Provides RPA actions for flow designers to assign users to attended automation process, add work queue items to queue, update work items, fetch process jobs and execution status of a specific process job, trigger a specific bot process, and unassign users from attended automation process.|\[com.sn\_rpa\_foundation\]|[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)|
+|[Robotic Process Automation \(RPA\) Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/rpa-actions.md)|Provides RPA actions for flow designers to assign users to attended automation process, add work queue items to queue, update work items, fetch process jobs and execution status of a specific process job, trigger a specific bot process, and unassign users from attended automation process.|\[com.sn\_rpa\_foundation\]|[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-explore.md)|
 |[Security Operations spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/secops-spoke.md)|Provides Security Operations actions for flow designers to manage Security Incident Response flow templates.|\[com.snc.secops.spoke\]|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-operations-landing-page.md) application|
 |[Visual Task Board \(VTB\) Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/vtb-actions.md)|Provides VTB actions for flow designers to manage the boards, lanes, cards, board members, and assignees.|\[com.glide.ui.vtb.ah\]|ServiceNow AI Platform|
 
@@ -38,7 +38,7 @@ Provides read-only actions for the read-only Benchmark Recommendation Evaluator 
 -   **[Connect spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/connect-spoke.md)**  
 Provides actions to automate the creation of conversations, to add users to a conversation, and to send messages to a conversation. These actions work with Connect API version 3 and later.
 -   **[Customer Service Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/customer-service-actions.md)**  
-Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Customer Service Management \[com.sn\_customerservice\] plugin.
+Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Case Management Core \[com.sn\_customerservice\] plugin.
 -   **[External Related Files spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ext-related-files.md)**  
 The External Related Files spoke stores information about files in third-party systems and helps you manage the information.
 -   **[Field Service Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/field-service-actions.md)**  
@@ -52,7 +52,7 @@ With Robotic Process Automation, your flow designers can use actions to assign a
 -   **[Security Operations spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/secops-spoke.md)**  
 Provides Security Operations actions for flow designers to manage Security Incident Response flow templates.
 -   **[Visual Task Board \(VTB\) Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/vtb-actions.md)**  
-Use VTB actions to build and manage visual task boards directly in your flows. Create boards and lanes, add cards, manage board members, and assign work within Workflow Studio. If you have the flow\_designer or admin role, you can add these actions to any flow.
+Provides VTB actions for flow designers to manage the boards, lanes, cards, board members, and assignees.
 
 **Parent Topic:**[Workflow Studio flow integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-integrations.md)
 

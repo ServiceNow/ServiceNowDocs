@@ -1,5 +1,5 @@
 ---
-title: Default ServiceNow Spotlight Criteria
+title: Default criteria
 description: ServiceNow Spotlight is available with default criteria. Each field provides a score based on the default criteria.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/automation-center/default-spotlight-criteria.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with ServiceNow Spotlight feature, Configuring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Spotlight feature, Configure, Automation Center, Workflow Data Fabric]
 ---
 
-# Default ServiceNow Spotlight Criteria
+# Default criteria
 
 ServiceNow Spotlight is available with default criteria. Each field provides a score based on the default criteria.
 

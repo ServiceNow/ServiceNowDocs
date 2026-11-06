@@ -1,21 +1,21 @@
 ---
-title: Update roadmap item milestones in Strategic Planning Workspace
-description: Update or delete the milestones that you added to your planning items \(such as demands, scrum epics, or programs\) so that they reflect any change of plans.
+title: Update roadmap item milestones
+description: Update or delete the milestones that you added to your planning items \(such as demands, epics, or programs\) so that they reflect any change of plans.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/manage-planning-item-milestones.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Add milestones for roadmap items in Strategic Planning Workspace, Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Add milestones for roadmap items, Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Update roadmap item milestones in Strategic Planning Workspace
+# Update roadmap item milestones
 
-Update or delete the milestones that you added to your planning items \(such as demands, scrum epics, or programs\) so that they reflect any change of plans.
+Update or delete the milestones that you added to your planning items \(such as demands, epics, or programs\) so that they reflect any change of plans.
 
 ## Before you begin
 
@@ -37,15 +37,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d231347e129">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d297447e139">
 
 Roadmap type
 
-</th><th align="left" id="d231347e132">
+</th><th align="left" id="d297447e142">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d231347e138">
+</th></tr></thead><tbody><tr><td id="d297447e148">
 
 **Portfolio plan roadmap**
 
@@ -55,7 +55,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d231347e159">
+</td></tr><tr><td id="d297447e169">
 
 **Free-form roadmap**
 

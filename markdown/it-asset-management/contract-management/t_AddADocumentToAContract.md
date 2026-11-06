@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Create a contract, Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Add a document to a contract
@@ -32,7 +32,7 @@ Role required: admin, contract\_manager\(core UI and Hardware Asset Workspace on
 3.  Add a document to the contract.
 
     -   If you are using the core UI, use the following steps:
-        1.  Click the Manage Attachments \(\[Omitted image "attachments-icon.png"\] Alt text: Manage Attachments icon.\) icon on the form header.
+        1.  Click the Manage Attachments \[Omitted image "attachments-icon.png"\] Alt text: Manage Attachments icon.icon on the form header.
 
         2.  In the Attachments dialog box, click **Choose file** to search for and select the document that you want to add to the contract.
 

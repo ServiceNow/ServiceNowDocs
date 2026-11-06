@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-domain-filter.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
@@ -55,7 +55,7 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 7.  In the **Filter label** field, type a meaningful name for the filter.
 
-    This name is the name that the runtime user sees.
+    This name is the name that the user sees.
 
 8.  To determine what data to display in your filter, configure the domain display and whether to include domain data.
 
@@ -100,7 +100,11 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 [Configure a Date filter in the inline editor]()
 
+[URL filter parameters for dashboard filters]()
+
 [Edit a Platform Analytics filter on a dashboard]()
+
+[Platform Analytics filter tables]()
 
 ## Differences between domain list and domain configuration filters
 

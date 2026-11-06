@@ -1,5 +1,5 @@
 ---
-title: Configure financials for planning items in Strategic Planning
+title: Configure financials for planning items Strategic Planning
 description: Configure the ServiceNow Internal integrations to view the financials for planning items in Strategic Planning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/config-fin-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Configure, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Configure financials for planning items in Strategic Planning
+# Configure financials for planning items Strategic Planning
 
 Configure the ServiceNow Internal integrations to view the financials for planning items in Strategic Planning.
 
@@ -38,44 +38,48 @@ Role required: admin
 
     For more information see [Enable financial budget allocation for planning items in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) and [Configure budget attribute at instance-level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md)
 
-5.  Enable the monetary and non-monetary benefit plans related lists for your planning items in workspace view.
+5.  Enable financial benefit planning for planning items in workspace view.
+
+    For more information, see [Enable monetary benefit plans for planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefitplans-spw-fin.md)
+
+6.  Add the monetary and non-monetary benefit plans related lists for your planning items in workspace view.
 
     For more information, see [Add monetary and non-monetary benefit plans related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-benefit-plans-planning-items.md).
 
-6.  Create new widgets to view the rolled up financial data at planning item level.
+7.  Create new widgets to view the rolled up financial data at planning item level.
 
     For more information, see [Configure a widget and associate it with project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configure-financial-widgets.md).
 
-7.  Customize the left pane in the financials screen to match the requirements of your organization.
+8.  Customize the left pane in the financials screen to match the requirements of your organization.
 
     For more information, see [Customize the left pane view for financials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/customize-fin-left-pane.md).
 
-8.  Customize the Create cost plan form fields to match the requirements of your organization.
+9.  Customize the Create cost plan form fields to match the requirements of your organization.
 
     For more information, see [Customise cost plan form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/customise-cost-plan-form-fin.md).
 
-9.  Customize the default expense types to manage cost plans for your planning items.
+10. Customize the default expense types to manage cost plans for your planning items.
 
     For more information, see [Change the default expense type for your planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/config-expense-type-fin-spw.md)
 
-10. Define a custom prefix for your baseline name.
+11. Define a custom prefix for your baseline name.
 
     For more information, see [Create a custom prefix for baseline](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-config-baseline-prefix.md).
 
-11. Activate and define scheduled job to automatically migrate budget for your planning items.
+12. Activate and define scheduled job to automatically migrate budget for your planning items.
 
-    For more information, see [Scheduled job to migrate budget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
+    For more information, see [Activate a scheduled job to migrate budget to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/fin-migrate-budget-scheduled-job-spw.md).
 
-12. Activate and define a scheduled job to migrate financial baselines for your planning items.
+13. Activate and define a scheduled job to migrate financial baselines for your planning items.
 
     For more information, see [Migrate financial baselines to Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/migrate-fin-baselines-projects.md).
 
-13. Activate and define scheduled job to automatically create financial baselines for your planning items at a defined cadence.
+14. Activate and define scheduled job to automatically create financial baselines for your planning items at a defined cadence.
 
-    For more information, see [Scheduled job to create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md).
+    For more information, see [Activate scheduled job to create financial baselines](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/baseline-scheduler-job.md).
 
-14. Activate and define scheduled jobs to automatically generate labor costs for your planning items based on the attribute-based resource assignments at a defined cadence.
+15. Activate and define scheduled jobs to automatically generate labor costs for your planning items based on the attribute-based resource assignments at a defined cadence.
 
-    For more information, see [Scheduled jobs to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
+    For more information, see [Scheduled job to generate labor costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/labor-cost-scheduler-job-spw.md).
 
 

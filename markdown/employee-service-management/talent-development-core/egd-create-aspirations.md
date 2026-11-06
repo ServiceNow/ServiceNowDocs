@@ -7,14 +7,20 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Talent Development Core application, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Using the Talent Development Core application, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a Talent Development Aspiration
 
 Create Aspirations to define and track professional and personal interests.
+
+## About this task
+
+**Note:**
+
+When there are no role levels and no job profile configured, the Aspiration choice isn't available in the Your Career drop-down list.
 
 ## Before you begin
 

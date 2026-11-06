@@ -7,7 +7,7 @@ release: yokohama
 product: Rate Model
 classification: rate-model
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,7 +16,9 @@ breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 
 Use a rate model to derive date-effective, criteria-driven hourly rates for calculating planned and actual resource costs for a project or demand.
 
-Unlike labor rates, which are based on the user attribute only, a rate model can derive hourly rates based on up to ten attributes. These attributes can be selected from predefined entities such as projects, demands, users, and roles.
+Unlike labor rates, which are based on the user attribute only, a rate model can derive hourly rates based on attributes. These attributes can be selected from predefined entities such as projects, demands, users, and roles.
+
+Starting March 2026 release, you can create rate models for resource assignments based on the primary attributes mapping to meet with the organizational requirements.
 
 ## Rate lines
 

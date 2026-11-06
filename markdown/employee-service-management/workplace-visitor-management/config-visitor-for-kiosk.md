@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -23,7 +23,7 @@ Configure pages that you want to display for check-in or check-out flows on the 
 -   **[Create a flow for Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/create-kiosk-flow.md)**  
 Create a check-in or check-out flow for the Workplace Service Kiosk.
 
-**Parent Topic:**[Configure Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
@@ -34,7 +34,13 @@ Create a check-in or check-out flow for the Workplace Service Kiosk.
 
 [Create a record producer for visitor management]()
 
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
 [Create a visitor badge template]()
+
+[Configure the frequency of email notifications]()
 
 [Quick start test for Workplace Visitor Management]()
 

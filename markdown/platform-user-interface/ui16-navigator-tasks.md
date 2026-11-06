@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/ui16-navigator-tasks.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Core UI application navigator, Core UI, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -36,7 +36,7 @@ Role required: none
 
 1.  Perform one of the following actions.
 
-<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d118546e149">
+<table id="choicetable_ah3_rs3_ks"><tbody><tr><td id="d124397e143">
 
 **Collapse or expand an application or application section**
 
@@ -44,7 +44,7 @@ Role required: none
 
 Click the application or application section label.
 
-</td></tr><tr><td id="d118546e158">
+</td></tr><tr><td id="d124397e152">
 
 **Collapse or expand all applications**
 
@@ -52,7 +52,7 @@ Click the application or application section label.
 
 Double-click the all applications tab icon \(\[Omitted image "IconUI16AllApplications.png"\] Alt text: All applications tab icon\).
 
-</td></tr><tr><td id="d118546e173">
+</td></tr><tr><td id="d124397e167">
 
 **Collapse or expand the application navigator**
 
@@ -84,7 +84,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 1.  Add a favorite in one of the following ways.
 
-<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d118546e295">
+<table id="choicetable_wqh_2yx_pt"><tbody><tr><td id="d124397e289">
 
 **Add a module as a favorite**
 
@@ -92,7 +92,7 @@ Favorites also appear in the collapsed view of the application navigator as icon
 
 In the application navigator, click the star icon by a module.
 
-</td></tr><tr><td id="d118546e304">
+</td></tr><tr><td id="d124397e298">
 
 **Add all the modules under an application as favorites**
 
@@ -100,7 +100,7 @@ In the application navigator, click the star icon by a module.
 
 In the application navigator, click the star icon by an application.
 
-</td></tr><tr><td id="d118546e313">
+</td></tr><tr><td id="d124397e307">
 
 **Add a list as a favorite using the list context menu**
 
@@ -112,7 +112,7 @@ In the application navigator, click the star icon by an application.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d118546e346">
+</td></tr><tr><td id="d124397e340">
 
 **Add a list as a favorite by dragging and dropping**
 
@@ -122,7 +122,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag a breadcrumb to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d118546e367">
+</td></tr><tr><td id="d124397e361">
 
 **Add a record as a favorite using the form context menu**
 
@@ -134,7 +134,7 @@ In the application navigator, click the star icon by an application.
 4.  In the flyout, edit the name and icon as needed.
 
 
-</td></tr><tr><td id="d118546e401">
+</td></tr><tr><td id="d124397e395">
 
 **Add a record as a favorite by dragging and dropping**
 
@@ -144,7 +144,7 @@ In the application navigator, click the star icon by an application.
 2.  Drag the record title to the **Favorites** tab of the application navigator.
 
 
-</td></tr><tr><td id="d118546e422">
+</td></tr><tr><td id="d124397e416">
 
 **Add a different type of link as a favorite**
 
@@ -155,7 +155,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 -   Reports
  **Note:** You may not be able to create bookmarks with other types of links.
 
-</td></tr><tr><td id="d118546e449">
+</td></tr><tr><td id="d124397e443">
 
 **Add a knowledge base article as a favorite**
 
@@ -174,7 +174,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 
 2.  To edit or delete a favorite, complete any of the following actions.
 
-<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d118546e497">
+<table id="choicetable_zxc_mcg_qs"><tbody><tr><td id="d124397e491">
 
 **Reorder favorites in the list**
 
@@ -185,7 +185,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 3.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d118546e527">
+</td></tr><tr><td id="d124397e521">
 
 **Customize the name or icon for a favorite**
 
@@ -197,7 +197,7 @@ Drag a supported link type to the **Favorites** tab of the application navigator
 4.  Click **Done** or **Edit Favorites**.
 
 
-</td></tr><tr><td id="d118546e560">
+</td></tr><tr><td id="d124397e554">
 
 **Delete a favorite**
 

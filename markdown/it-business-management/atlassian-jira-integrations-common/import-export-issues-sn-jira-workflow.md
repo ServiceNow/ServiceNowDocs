@@ -7,9 +7,9 @@ release: yokohama
 product: Atlassian Jira Integrations Common
 classification: atlassian-jira-integrations-common
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Atlassian Jira Integration for Agile Development, Integrate, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Atlassian Jira Integration for Agile Development, Strategic Portfolio Management]
 ---
 
 # Importing and exporting issues between Agile Development 2.0 and Jira

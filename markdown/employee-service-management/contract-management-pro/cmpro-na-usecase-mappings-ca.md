@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-03-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Configuring contract analysis, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Contract analysis, Contract use case mapping, Contract analysis use case mapping, Now Assist use case mapping, Now Assist in contract management pro, ServiceNow Otto for contract management pro, AI for contract management pro]
+breadcrumb: [Configure contract analysis, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Map a use case for contract analysis
@@ -18,19 +19,19 @@ Map a use case to specific tables, and define conditions to apply the use case f
 
 ## Before you begin
 
-Ensure that the application is in Global or Now Assist in Contract Management scope. If you are configuring the use case mapping in different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
+Ensure that the application is in Global or ServiceNow Otto for Contract Management Pro scope. If you are configuring the use case mapping in different application scope, add the scoped ACL to the Use Case Mapping table \(sn\_cm\_gen\_ai\_usecase\_configuration\).
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_contract\_config
+Role required: sn\_cm\_gen\_ai.ai\_contract\_config, sn\_cm\_core.contract\_config
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills** to access the **Now Assist Skills** tab of the AI Admin Hub console.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub** to access the **AI Skills** tab of the AI Admin Hub console.
 
 2.  Navigate to **Employee** &gt; **CM Pro**.
 
-3.  On the tile for your skill, select **Activate skill**.
+3.  Select **Activate skill** on the skill you want to activate.
 
-    \[Omitted image "cmpro-NA-skills.png"\] Alt text: Now Assist skills available for Contract Management Pro.
+    \[Omitted image "cmpro-NA-skills.png"\] Alt text: AI skills available for Contract Management Pro.
 
 4.  In the General details page, view the skill details and select **Save and continue**.
 
@@ -96,7 +97,11 @@ Request table
 
 </td><td>
 
-The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the use case mapping on a different table.
+**Note:**
+
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure the use case mapping on a different table.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
+
 
 </td></tr><tr><td>
 
@@ -110,6 +115,10 @@ Conditions under which the use case is applicable.For more information on using 
 </table>10. Select **Save**.
 
 
+## Result
+
+The use case is mapped to specific tables and conditions. AI applies the use case for contract analysis when the conditions are met.
+
 **Parent Topic:**[Configuring contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-contract-analysis.md)
 
 **Related topics**  
@@ -120,4 +129,6 @@ Conditions under which the use case is applicable.For more information on using 
 [Map a field group to a clause]()
 
 [Map a field to an expected response]()
+
+[Create use cases for contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-ca.md)
 

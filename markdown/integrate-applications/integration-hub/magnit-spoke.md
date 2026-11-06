@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Magnit Spoke
@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Magnit spoke v1.1.0 is the latest version.
+Magnit spoke v1.1.0 is the latest version. For version history of the spoke, see [Magnit spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-pro-unlimited-spoke.html).
 
 ## Spoke dependencies
 

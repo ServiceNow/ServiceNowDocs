@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2026-04-29"
-reading_time_minutes: 5
-breadcrumb: [Virtual Agent Designer user input controls, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Assistant Designer user input controls, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Grouped Choice user input control
@@ -191,7 +191,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Grouped Choice user input control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -205,7 +205,9 @@ List prompt
 
 \[Omitted image "va-grouped-choice-properties-sheet.png"\] Alt text: Basic properties include the node name, prompt, and the list of possible choices.
 
- \[Omitted image "va-grouped-choice-dialog-box.png"\] Alt text: Group choice properties include an internal name and the way this group should display to the user. Each choice consists of a name, value, image, and description.
+ 
+
+\[Omitted image "va-grouped-choice-dialog-box.png"\] Alt text: Group choice properties include an internal name and the way this group should display to the user. Each choice consists of a name, value, image, and description.
 
 </td><td>
 
@@ -220,19 +222,11 @@ List prompt
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Not supported|Not applicable|
-|Now Assist panel|Supported|None|
 |Microsoft Teams|Not supported|Not applicable|
-|Google Chat|Not supported|Not applicable|
 |Slack|Not supported|Not applicable|
-|Workplace|Not supported|Not applicable|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Not supported|Not applicable|
+|Google Chat|Supported|None|
 
-**Parent Topic:**[Virtual Agent Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md)
+**Parent Topic:**[Assistant Designer user input controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-user-inputs.md)
 

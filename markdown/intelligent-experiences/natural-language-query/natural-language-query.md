@@ -7,9 +7,9 @@ release: yokohama
 product: Natural Language Query
 classification: natural-language-query
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable AI experiences]
+breadcrumb: [Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Natural Language Query

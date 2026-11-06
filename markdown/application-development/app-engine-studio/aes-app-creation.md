@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Building apps in App Engine Studio
@@ -18,9 +18,9 @@ Meet the business needs of your organization by building custom applications in 
 
 ## App Engine Studio build process
 
-At a high level, there are seven main steps for building a new application in App Engine Studio. Select each step to see more information.
+At a high level, there are seven main steps for building a new application in App Engine Studio.
 
-\[Omitted image "aes-build-process-asset-0020268.png"\] Alt text: Infographic for building apps workflow.
+\[Omitted image "aes-app-building-workflow-MMASSET0021977.png"\] Alt text: Flowchart showing the app development workflow process.
 
 1.  [Plan your app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/before-you-begin.md)
 2.  [Submit your idea for app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/application-intake/submit-intake-request.md)
@@ -28,7 +28,7 @@ At a high level, there are seven main steps for building a new application in Ap
 4.  [Create your app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/create-application.md)
 5.  [Collaborate with other developers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-collaboration-feature-overview.md)
 6.  [Submit your app for approval and publishing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/submit-for-approval.md)
-7.  [Managing app deployments using Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-review-apps-p-and-d.md)
+7.  [Manage deployments using App Engine Management Center \(AEMC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/manage-deployments-using-p-and-d-aemc.md)
 
 ## Considerations
 
@@ -39,7 +39,7 @@ There are several considerations to keep in mind as you build applications in Ap
 
 ## Working with data, experiences, automation, and security
 
-App Engine Studio enables you to add as many data tables, types of experiences, logic and automation, and security roles as needed. However, you do not need to add all four categories to your app if the app doesn't need them.
+App Engine Studio enables you to add as many data tables, types of experiences, logic and automation, and security roles as needed. However, you aren't required to add all four categories to your app if the app doesn't need them.
 
 -   **[Plan your app development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/before-you-begin.md)**  
 The application development process in App Engine Studio \(AES\) begins with your idea for the next effective app. Careful planning is the key to creating a successful app that is beneficial to your business.

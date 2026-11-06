@@ -7,9 +7,9 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for planning items in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Enable financial budget allocation for planning items in Portfolio Planning
@@ -23,7 +23,7 @@ Enable allocation property after migrating to Next Experience to work on budget 
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Properties** &gt; **Properties**.
+1.  Navigate to **All** and type in **sys\_properties.list** in the filter box.
 
 2.  Filter the Name column to locate and open **sn\_invst\_pln.enable\_budget\_allocation\_v2** property.
 

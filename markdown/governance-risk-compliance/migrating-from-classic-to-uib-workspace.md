@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/migrating-from-classic-to-uib-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -19,6 +19,4 @@ The UI actions that were shipped with the Business Continuity Management applica
 If you have customized few UI actions for your specific requirements, you must migrate them manually to the Business Continuity Management UI Builder Workspace.
 
 For information on how to migrate reports and custom changes to BCM UIB Workspace, see the [KB1444397](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1444397) article.
-
-**Parent Topic:**[Using BCM Classic Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/mainitain-bcm-with-classic-workspace.md)
 

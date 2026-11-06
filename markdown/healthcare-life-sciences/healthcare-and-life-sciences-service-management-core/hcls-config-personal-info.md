@@ -1,5 +1,5 @@
 ---
-title: Setting up the process for submitting personal information on the Patient Portal
+title: Set up the process for submitting personal information on the Patient Portal
 description: You can manage the process of submitting the personal information from your patients on the Patient Portal by using a record producer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-personal-info.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring the Patient Portal, Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Setting up the process for submitting personal information on the Patient Portal
+# Set up the process for submitting personal information on the Patient Portal
 
 You can manage the process of submitting the personal information from your patients on the Patient Portal by using a record producer.
 

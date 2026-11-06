@@ -7,7 +7,7 @@ release: yokohama
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Chat use, Connect Chat, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ When you create a conversation from a task board, all the board members become m
 
 2.  Open a task board.
 
-3.  In the board header, click the connect with board members icon \(\[Omitted image "IconConnectWithBoardMembers.png"\] Alt text: Connect with board members icon\).
+3.  In the board header, click the connect with board members icon \(\[Omitted image "image.IconVTBConnectwithBoard"\] Alt text: Connect with board members icon\).
 
     The system automatically opens a record conversation for the board. Each board member becomes a member of the conversation.
 

@@ -7,16 +7,16 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Individual Life Claims workflows
 
 The Individual Life Claims application installs automated workflows that you can configure for any individual life claims tasks. These workflows create cases and routes any tasks to different departments in your organization.
 
-## Overview
+## Overview of Individual Life Claims workflows
 
 After a claim case is initiated in the Individual Life Claims application, the workflow proceeds through phases.
 

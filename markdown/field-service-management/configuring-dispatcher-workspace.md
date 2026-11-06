@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-dispatcher-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configuring Dispatcher Workspace
@@ -16,7 +16,7 @@ Configure the Dispatcher Workspace to optimize task management and agent assignm
 
 ## Dispatcher Workspace configuration
 
-Watch this short video to see how administrators configure the filters, sorting options, and ad-hoc filters to facilitate dispatchers while working in the Dispatcher Workspace.
+Administrators configure the filters, sorting options, and ad-hoc filters to facilitate dispatchers while working in Dispatcher Workspace.
 
 ## Configuration overview
 
@@ -30,11 +30,11 @@ The steps for setting up Dispatcher Workspace are:
 
     Define colors for work order states so that you can have a visual indication of the task state in the Dispatcher Workspace.
 
-3.  [Configure time zones for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/add-remore-time-zones.md)
+3.  [Configure multiple time zones for dispatchers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/add-remore-time-zones.md)
 
-    Add time zones for dispatchers to choose from, making it easier for dispatchers to see what time zones agents are located in.
+    Add time zones for dispatchers to choose from, making it easier for dispatchers to see what time zones agents are located.
 
-4.  [Configure the fields to appear on task cards or in the contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configuring-popover-fields.md)
+4.  [Configure the fields to appear on task cards or in the Contextual Side Panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configuring-popover-fields.md)
 
     Set up task cards and the contextual side panel by including more fields, giving dispatchers extra information to speed up decision-making.
 
@@ -83,4 +83,6 @@ The steps for setting up Dispatcher Workspace are:
 
 
 [Using Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dispatcher-workspace.md)
+
+[Field service holiday schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/fsm-holiday-schedule.md)
 

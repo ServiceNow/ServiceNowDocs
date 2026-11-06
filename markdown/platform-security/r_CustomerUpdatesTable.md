@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/r\_CustomerUpdatesTable.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System logs, Logs, Platform Security]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [System logs, Logs, Platform Security]
 
 Changes made in the system are recorded on the Customer Updates `[sys_update_xml]` table chronologically. There are a few exceptions, as noted below.
 
-To navigate to this table, enter `sys_update_xml.list` into the navigation filter. For information about update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md).
+To navigate to this table, enter `sys_update_xml.list` into the navigation filter. For information about update sets, see System update sets.
 
 The following information is stored about each update:
 

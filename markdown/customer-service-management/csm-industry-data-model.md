@@ -1,193 +1,50 @@
 ---
 title: Service Model Foundation overview
-description: Service Model Foundation provides a framework enabling customers to model and manage their operational hierarchy of the entities involved in offering CRM functions likes sales and customer service in alignment with their business needs.
+description: The Customer Service Management \(CSM\) application includes the Service Model Foundation framework, formerly named Industry Data Model, which enables you to model the business organization structure, customer organizations, and relations between them.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-industry-data-model.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-28"
 reading_time_minutes: 3
-breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation overview
 
-Service Model Foundation provides a framework enabling customers to model and manage their operational hierarchy of the entities involved in offering CRM functions likes sales and customer service in alignment with their business needs.
+The Customer Service Management \(CSM\) application includes the Service Model Foundation framework, formerly named Industry Data Model, which enables you to model the business organization structure, customer organizations, and relations between them.
 
-The Service Model Foundation framework expands the Customer Service Management data model, including the install base model. It provides the flexibility and security needed to support business organizations with internal and external locations, households, customers and consumers, and the relationships that exist between these entities.
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
+
+The Service Model Foundation framework expands the Customer Service Management \(CSM\) data model, including the Install base model. It's a core framework that enables the configuration of all the above entities and is highly flexible to enable support for various industries. It covers all organization entities, like company, service organization, internal/external organizations \(formerly internal/external business locations\), departments, divisions, business units, and outsourced service provider entities. It’s designed to support various industries such as banking, insurance, government, healthcare, manufacturing, retail, and the public sector.
 
 \[Omitted video\] Description: Video overview explaining key components and functionality of the Service Model Foundation.
 
+## Service Model Foundation capabilities
+
+As a robust data model, the Service Model Foundation enables organizations to track and act on critical information. Here are a few ways that Service Model Foundation powers end-user experiences.
+
+-   Omnichannel support: Members of a business organization can request support for their service organization using the same channels as end customers, like virtual agent, phone, text, or live chat. The associated business organization is automatically identified, helping agents recognize that the request concerns a location rather than an individual.
+-   Business Organization Support Portal \(formerly Business Location Service Portal \(BLSP\)\): The Business Organization Support Portal lets team members submit and track requests on behalf of their business organizations. It serves as a central hub to access knowledge articles, contact details, and install base information. The portal also offers an intuitive case view where teams can comment on or close cases without switching to the workspace.
+-   Business Location 360: Agents can view the complete business organization context through a dedicated 360 view in the workspace. It displays current and past requests, member details, and a visual organization hierarchy, all in one place.
+-   Shared case visibility: Cases created on behalf of a business organization \(formerly business location\) are visible to all its members and managers. This shared visibility reduces duplicate requests and enables faster follow-ups, as any authorized member can track or respond to updates.
+-   Role-based access according to location: Service Model Foundation manages access through a mix of user roles and location-based responsibilities. Administrators can assign users to multiple locations with different access levels, confirming permissions match each user’s specific responsibilities.
+
+## Benefits
+
 Use the Service Model Foundation framework to model the service organization structure that is involved in supporting your end customers. With this framework, you can:
 
--   Create a service organization structure that includes both internal and external business locations.
--   Assign customer service agents to business locations and provide access to the cases and customer information in their business location hierarchy.
+-   Create a service organization structure that includes both internal and external organizations.
+-   Assign customer service agents to business organizations and provide access to the cases and customer information in their business organizationhierarchy.
 -   Establish relationships between agents and specific customers that enable agents to manage cases and information for those customers.
--   Establish relationships between consumers, including consumers who are members of the same household.
-
-## Entities included with Service Model Foundation
-
-The Service Model Foundation feature includes the following entities.
-
-<table id="table_ky1_wy4_dmb"><thead><tr><th>
-
-Entity
-
-</th><th>
-
-Definition
-
-</th><th>
-
-Examples
-
-</th></tr></thead><tbody><tr><td>
-
-Service organizations
-
-</td><td>
-
-The internal and external entities that are involved in providing a service to customers.
-
- A service organization provides the base framework that supports the customer service value chain. This includes internal and external service organizations.
-
- You can extend the service organization to create new entities as needed.
-
-</td><td>
-
--   Financial service organizations with multiple branches
--   Automobile manufacturers with multiple dealerships
--   Government agencies with multiple office locations
-
-</td></tr><tr><td>
-
-Internal business locations
-
-</td><td>
-
-The internal entities that belong to a service organization and are involved in providing goods and services.
-
-</td><td>
-
--   Stores
--   Branches
--   Centers
-
-</td></tr><tr><td>
-
-External business locations
-
-</td><td>
-
-The external entities that belong to a service organization and are involved in providing goods and services.
-
-</td><td>
-
--   Franchises
--   Dealerships
-
-</td></tr><tr><td>
-
-Customers \(B2B\)
-
-</td><td>
-
-The external customers in the business-to-business model who use goods and services.
-
-</td><td>
-
--   Accounts
--   Contacts
-
-</td></tr><tr><td>
-
-[Configuring households](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-households.md)
-
-</td><td>
-
-The external customers in the business-to-consumer model who use goods and services.
-
-</td><td>
-
--   Consumers
--   Households
-
-</td></tr><tr><td>
-
-Employees and staff members
-
-</td><td>
-
-The people who work at internal and external service organizations and assist customers.
-
-</td><td>
-
--   Internal employees
--   External agents
--   External staff
-
-</td></tr><tr><td>
-
-[Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-roles.md)
-
-</td><td>
-
-Job functions that are performed by various users in the service organization.
-
-</td><td>
-
--   Location managers
--   Location agents
--   Location consumer agents
--   Location relationship managers
--   Location manager contributors
-
-</td></tr><tr><td>
-
-[Responsibility definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-responsibilities.md)
-
-</td><td>
-
-Definitions of the responsibilities that an agent can perform for a customer or that a consumer can perform for another consumer. Use these responsibilities to create relationships between agents and customers or between consumers.
-
-</td><td>
-
--   Location agents
--   Location consumer agents
--   Location contributors
--   Location manager contributors
--   Location manager fulfiller
--   Location relationship manager
-
-</td></tr><tr><td>
-
-[Relationships](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-model-relationships.md)
-
-</td><td>
-
-Relationships that are created between agents and customers or between two consumers, are based on specific responsibilities. Use these relationships to provide additional access to data.
-
-</td><td>
-
--   Relationships between an employee or staff member and a customer
--   Relationships between two consumers
-
-</td></tr></tbody>
-</table>## Plugins for Service Model Foundation
-
-Users with the system administrator role can activate the following plugins to enable Service Model Foundation features.
-
--   **Business Location**
-
-    Activate the Business Location plugin \(com.snc.business\_location\) to enable support for businesses that interact with customers through physical channels such as stores, branches, franchises, and dealerships. This plugin automatically activates the Service Organization plugin \(com.snc.service\_organization\).
-
--   **Customer Service Household**
-
-    Activate the Customer Service Household plugin \(com.snc.household\) to manage customer service for households. This plugin enables you to create households, define the members of a household, and identify relationships between household members. This plugin automatically activates the Customer Service Base Extension Entities plugin \(com.snc.cs\_base\_extension\).
-
+-   Establish relationships between the consumers, including consumers who are members of the same household.
 
 **Related topics**  
 
 
 [Configure Service Model Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-industry-data-model.md)
+
+[Service Model Foundation business organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/industry-data-model-locations.md)
+
+[Integration with Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/integration-with-sales-and-order-management.md)
 

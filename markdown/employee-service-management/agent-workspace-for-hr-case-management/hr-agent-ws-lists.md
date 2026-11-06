@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Lists in Agent Workspace for HR Case Management
@@ -126,5 +126,5 @@ Delegation
 Cases delegated to you or that you have delegated to other HR agents. The Delegation list appears only when you have activated the Granular Delegation \(com.glide.granular\_service\_delegation\) plugin.
 
 </td></tr></tbody>
-</table>You can create your own lists to show specific cases that are relevant to you in the **My Lists** tab. Having a custom **My Lists** helps you work faster and efficiently. For more information, see [Create My Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-list.md). For general information on using lists, see [Using lists to find work to do](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/list-menu.md).
+</table>You can create your own lists to show specific cases that are relevant to you in the **My Lists** tab. Having a custom **My Lists** helps you work faster and efficiently. For more information, see [Create My Lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/hr-agent-ws-create-list.md).
 

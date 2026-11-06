@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Visibility to Firewall inventory, Configuring Firewall Audits and Reporting, Firewall Audits and Reporting, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Visibility to Firewall inventory, Configure, Firewall Audits and Reporting, ITOM Visibility, IT Operations Management]
 ---
 
 # Discover firewall policies
@@ -24,7 +24,7 @@ Role required: discovery\_admin, firewall\_admin
 
 Administrators in charge of Discovery can establish a recurring schedule for firewall policy discovery. This schedule utilizes the serverless pattern, connecting with the firewall manager to discover and update information for Configuration Items \(CIs\) in the CMDB.
 
-For Fortinet FortiManager-specific requirements, including MID Server sizing and API endpoint information, see .
+For Fortinet FortiManager-specific requirements, including MID Server sizing and API endpoint information, see [Fortinet FortiManager discovery requirements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/fortinet-fortimanager-discovery-requirements.md).
 
 <table id="table_firewall_cis"><thead><tr><th>
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Before planning your privacy program, confirm that you set up the privacy librar
 
 The following figure demonstrates the Privacy Management solution.
 
-\[Omitted image "privacy-mgmt-workflow.jpg"\] Alt text: Privacy management solution overview.
+\[Omitted image "privacy-mgmt-workflow.png"\] Alt text: Privacy management solution overview.
 
 The Privacy Management solution is described as follows.
 

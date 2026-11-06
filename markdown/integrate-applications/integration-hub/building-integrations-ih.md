@@ -7,21 +7,21 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub, Workflow Data Fabric]
 ---
 
 # Building integrations in Integration Hub
 
 Create integrations with Integration Hub.
 
--   **[Integration Hub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/spokes-list.md)**  
+-   **[Integration Hub spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/spokes-list.md)**  
 Activate spokes to enhance your Workflow Studio experience with integration-specific content. Use prebuilt flows and actions to automate your integrations or create your own integration automation.
 -   **[Set up MID Server for a spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/config-adv-mid-settings-for-oauth-on-mid.md)**  
 Configure MID Server settings on your ServiceNow instance that enables it to integrate with a third-party application via MID Server after you have set up the connection record for a spoke.
 -   **[Now Assist in Conversational Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conv-spokes-na.md)**  
-Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub Spoke actions.
+Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub spoke actions.
 -   **[Now Assist for Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/now-assist-spokes.md)**  
 Use the ServiceNow Now Assist AI agents to mimic human-like intelligence by using Large Language Models \(LLMs\) to perform tasks that range from simple automated responses to complex problem-solving. Utilize the conversational ability of Integration Hub spoke actions.
 -   **[Data Stream actions and pagination](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/data-stream-actions.md)**  

@@ -7,7 +7,7 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Synchronize Indoor Mapping with CMN Locations, Manage map objects and data, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -52,7 +52,7 @@ Role required: admin
 
 9.  Select **Indoor Mapping**.
 
-    \[Omitted image "f507352285915c6afaa27cd1d86f8ad61fecc228.png"\] Alt text: Application scope changed to Indoor MMapping.
+    \[Omitted image "6890aba27c49da959800cabd2fb3d909c97b0355.png"\] Alt text: Application scope changed to Indoor MMapping.
 
 10. Navigate to the **All** &gt; **Indoor Mapping** &gt; **Place types** table.
 

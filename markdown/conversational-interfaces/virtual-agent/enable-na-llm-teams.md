@@ -1,55 +1,55 @@
 ---
-title: Enable Now Assist in Virtual Agent for Microsoft Teams
-description: Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Microsoft Teams.
+title: Enable ServiceNow Otto for Virtual Agent for Microsoft Teams
+description: Enable the large language model \(LLM\)-based conversational experience with ServiceNow Otto for Virtual Agent integrated with Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/enable-na-llm-teams.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Using Now Assist in Virtual Agent conversations with Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Use ServiceNow Otto for Virtual Agent in Teams conversations, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Enable Now Assist in Virtual Agent for Microsoft Teams
+# Enable ServiceNow Otto for Virtual Agent for Microsoft Teams
 
-Enable the large language model \(LLM\)-based conversational experience with Now Assist in your Virtual Agent integrated with Microsoft Teams.
+Enable the large language model \(LLM\)-based conversational experience with ServiceNow Otto for Virtual Agent integrated with Microsoft Teams.
 
 ## Before you begin
 
-Ensure that you enable AI Search to have Now Assist conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-ais-next-exp-app.md).
+Ensure that you enable AI Search to have ServiceNow Otto conversations using the Now LLM Service. For more information about enabling AI Search, see [Enable AI Search for Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/enable-ais-next-exp-app.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  Log in to your ServiceNow instance and navigate to the Now Assist Features page through one of the following navigation paths:
+1.  Log in to your ServiceNow instance and navigate to the ServiceNow Otto Features page through one of the following navigation paths:
 
-    -   **All** &gt; **Now Assist Admin** &gt; **Now Assist Features**.
-    -   **All** &gt; **Now Assist Admin** &gt; **Features**.
-2.  From the Now Assist Features page, select **Platform**.
+    -   **All** &gt; **ServiceNow Otto Admin** &gt; **ServiceNow Otto Features**.
+    -   **All** &gt; **ServiceNow Otto Admin** &gt; **Features**.
+2.  From the ServiceNow Otto Features page, select **Platform**.
 
-3.  On the Now Assist skills for Platform page, select **View details**.
+3.  On the ServiceNow Otto skills for Platform page, select **View details**.
 
-4.  On the Conversational experience page, select **Set up Now Assist in Virtual Agent**.
+4.  On the Conversational experience page, select **Set up ServiceNow Otto for Virtual Agent**.
 
-    You are directed to the Assistants page to select the Virtual Agent. For example, the **Now Assist in Virtual Agent \(default\)**.
+    You are directed to the Assistants page to select the Virtual Agent. For example, the **SeviceNow Otto for Virtual Agent \(default\)**.
 
 5.  Select a Virtual Agent of your choice.
 
-    \[Omitted image "assistants-na-va.png"\] Alt text: Select a Virtual Agent that has Now Assist enabled to proceed with LLM capabilities.
+    \[Omitted image "assistants-na-va.png"\] Alt text: Select a Virtual Agent that has ServiceNow Otto enabled to proceed with LLM capabilities.
 
     **Note:** Verify that the Virtual Agent you choose is integrated with the Microsoft Teams tenant before selecting.
 
 6.  On the bot page, navigate to **Display experience** &gt; **Channels** from the pane.
 
-7.  Choose the channels to integrate with the Now Assist in Virtual Agent.
+7.  Choose the channels to integrate with the ServiceNow Otto in Virtual Agent.
 
-    \[Omitted image "choose-llm-teams.png"\] Alt text: Select the Microsoft Teams channels for LLM conversational experience with Now Assist.
+    \[Omitted image "choose-llm-teams.png"\] Alt text: Select the Microsoft Teams channels for LLM conversational experience with ServiceNow Otto.
 
 8.  Select **Save and Continue**.
 
 
-**Parent Topic:**[Using Now Assist in Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/na-va-llm-teams.md)
+**Parent Topic:**[Using ServiceNow Otto for Virtual Agent conversations with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/na-va-llm-teams.md)
 

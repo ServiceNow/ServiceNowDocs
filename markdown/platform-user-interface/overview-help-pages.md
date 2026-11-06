@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/overview-help-pages.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,7 @@ Users scroll through the panels by clicking the buttons provided or by clicking 
 
 **Note:** Administrators can edit the default help page to modify, add, or delete existing panels from this page to match the features in your system.
 
-\[Omitted image "OverviewHelpVTBSlide.png"\] Alt text: Overview help slide
+
 
 ## Hide the What's New option
 

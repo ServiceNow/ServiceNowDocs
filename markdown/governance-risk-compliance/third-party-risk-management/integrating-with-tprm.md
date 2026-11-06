@@ -7,8 +7,8 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -16,8 +16,25 @@ breadcrumb: [Third-party Risk Management, Governance, Risk, and Compliance]
 
 Extend the capabilities of TPRM.
 
+You can extend TPRM by connecting it to other Governance, Risk, and Compliance applications and to external risk data providers.
+
+## Integrating with other Governance, Risk, and Compliance applications
+
+Link third-party risk to your broader governance, risk, and compliance program by connecting TPRM assessments to controls and risks that you manage elsewhere in Governance, Risk, and Compliance.
+
+-   Associate third-party controls and control objectives from Policy and Compliance Management with a third party or engagement. For more information, see [Integrating Third-party Risk Management with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/pc-assessment-integration.md).
+-   Associate enterprise risks from Risk Management with a third party or engagement. For more information, see [Integrating Third-party Risk Management with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/rm-assessment-integration.md).
+
+## Integrating with external risk data providers
+
+Bring external risk data into TPRM to support and continuously monitor your third-party risk assessments.
+
+-   Integrate with risk intelligence providers, such as those that supply cyber, ESG, or financial risk scores. For more information, see [Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md).
+-   Integrate with EcoVadis for sustainability ratings. For more information, see [Integrating EcoVadis with Third-party Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-integrating-ecovadis.md).
+-   Integrate with a risk intelligence report provider to request due diligence reports for a third party. For more information, see [Risk intelligence provider integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-integrate-rir.md).
+
 -   **[Integrating Third-party Risk Management with GRC: Policy and Compliance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/pc-assessment-integration.md)**  
-The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Third-party risk \(TPR\) managers with the Compliance Manager \[sn\_compliance.manager\] role can associate controls with specific questions, third parties, and engagements.
+The GRC: Policy and Compliance Management integration updates the compliance status of controls and control objectives based on the questionnaire responses from a third party or engagement. Compliance managers \[sn\_compliance.manager\] can associate controls and control objectives with specific questions, third parties, and engagements used in Third-party Risk Management.
 -   **[Integrating Third-party Risk Management with Risk Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/rm-assessment-integration.md)**  
 Integrating Risk Management with Third-party Risk Management lets you model enterprise risks and use third‑party assessments to dynamically update risk posture and scores for third parties and engagements. Optional TPRM rules can trigger assessments or remediation work when risks change.
 -   **[Integrating scores from risk intelligence providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-riskintelprvdr-overview.md)**  

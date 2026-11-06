@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Cohesity storage system discovery
@@ -18,13 +18,13 @@ The Discovery and Service Mapping Patterns application uses the Cohesity Storage
 
 Cohesity develops software that are used to consolidate and simplify data management, and it includes analytics capabilities. Their software also solves the problem of mass data fragmentation with data that extends across multiple systems or cloud providers.
 
-The company's main product, DataPlatform, is a hyper-converged software that allows businesses to consolidate a variety of workloads, including backups, archives, test, development, and analytics data onto a single cloud-native platform. It works with physical servers as well as virtual machines.
+The company's main product, DataPlatform, is a hyper-converged software that allows businesses to consolidate a variety of workloads onto a single cloud-native platform. These workloads include backups, archives, test, development, and analytics data. It works with physical servers as well as virtual machines.
 
-Cohesity extends backup capabilities to NoSQL workload distributed databases like MongoDB, Apache Cassandra, Couchbase, and Apache HBase, as well as Apache Hadoop data on Hadoop Distributed File System \(HDFS\) datastores.
+Cohesity extends backup capabilities to NoSQL workload distributed databases like MongoDB, Apache Cassandra, Couchbase, and Apache HBase. It also supports Apache Hadoop data on Hadoop Distributed File System \(HDFS\) datastores.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
@@ -133,5 +133,5 @@ Hosted on::Hosts
 Chassis \[cmdb\_ci\_chassis\]
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+</table>**Parent Topic:**[Available on-premise discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
 

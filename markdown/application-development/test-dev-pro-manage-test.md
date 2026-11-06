@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/test-dev-pro-manage-test.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage apps with pro-code tools, Pro-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Manage apps with pro-code tools, Pro-code tools: What you can do to build apps, Finding ServiceNow developer products, Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # Test apps with pro-code tools
@@ -24,15 +24,15 @@ Test your ServiceNow apps.
 
 </td><td>
 
-Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.
+[Script Debugger \[Omitted image "icon-debugger.png"\] Alt text: Script Debugger. Debug scripts using session logs and ServiceNow AI Platform debugging tools such as a walk-through script debugger and error messages that display in the UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
 
 </td></tr><tr><td>
 
-Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.
+[Script Tracer \[Omitted image "icon-now-cli.png"\] Alt text: Script tracer. Filter your debugging search to quickly narrow down script problems.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-tracer.md)
 
 </td><td>
 
-Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.
+[Session Log \[Omitted image "icon-log.png"\] Alt text: Session Log. View and download the session log for business rules, script includes, and a custom UI.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
 
 </td><td>
 

@@ -1,20 +1,20 @@
 ---
 title: Strategic Portfolio Management for Telecommunications
-description: The Strategic Portfolio Management for Telecommunications is a product that inherits all features of Strategic Portfolio Management along with the addition of two templates for Fiber Rollout and 5G Projects.
+description: The Strategic Portfolio Management for Telecom is a product that inherits all features of Strategic Portfolio Management along with the addition of two templates for Fiber Rollout and 5G Projects.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/strategic-portfolio-management-for-telecom/spmt-overview.html
 release: yokohama
 product: Strategic Portfolio Management for Telecom
 classification: strategic-portfolio-management-for-telecom
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Telecommunications, Media, and Technology]
+breadcrumb: [Telecommunications, Media, and Technology \(TMT\)]
 ---
 
 # Strategic Portfolio Management for Telecommunications
 
-The Strategic Portfolio Management for Telecommunications is a product that inherits all features of Strategic Portfolio Management along with the addition of two templates for Fiber Rollout and 5G Projects.
+The Strategic Portfolio Management for Telecom is a product that inherits all features of Strategic Portfolio Management along with the addition of two templates for Fiber Rollout and 5G Projects.
 
 Strategic Portfolio Management for Telecommunications enables you to define and customize the tasks and requirements for your Fiber Rollout and 5G projects. A project template defines the basic structure of a project and can include project tasks and subtasks, attachments, checklists, and other project information. Because projects often get repeated, templates enable you to create, save, and reuse project structure. You can also modify existing templates, create projects from templates, and apply templates to empty projects.
 

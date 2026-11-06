@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/better-together/use-case-itom-risk-compliance-audit-mgmt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Automating and optimizing your services and operations using Service Operations Workspace, Solutions]
 ---

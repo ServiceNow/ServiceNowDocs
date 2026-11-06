@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Digest token authentication, Token based authentication \(User logins\), Authentication, Access Management]
+breadcrumb: [Digest token authentication, Token based authentication \(user logins\), Authentication, Access Management]
 ---
 
 # Sample C

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using the network diagram, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network diagram, Use, Telecommunications Network Inventory]
 ---
 
 # View the details of a network diagram
@@ -43,15 +43,15 @@ With the use of a network diagram, you can do the following:
 
     On the network diagram you can do the following actions:
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d31247e129">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d33244e129">
 
 Option
 
-</th><th align="left" id="d31247e132">
+</th><th align="left" id="d33244e132">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d31247e138">
+</th></tr></thead><tbody><tr><td id="d33244e138">
 
 **Expand the network diagram and view the underlying elements**
 
@@ -61,7 +61,7 @@ Details
 2.  Expand further by selecting the add icon \(\[Omitted image "icon-add-circuit.png"\] Alt text: Add Icon\) of the underlying connection nodes.
  **Note:** When there are underlying connection elements in a logical connection, the connection node appears as a stacked pill shape. After expansion, it transforms into a box shape.
 
-</td></tr><tr><td id="d31247e171">
+</td></tr><tr><td id="d33244e171">
 
 **View the revision of the logical connection**
 
@@ -74,7 +74,7 @@ Details
 2.  Select **Current view** to view the original logical connection.
  You can toggle the view between the original logical connection and revision of the logical connection to compare the differences.
 
-</td></tr><tr><td id="d31247e212">
+</td></tr><tr><td id="d33244e212">
 
 **View the protection path**
 
@@ -86,7 +86,7 @@ You can’t expand the underlying connection elements of a protection path. To v
 
 To learn more about to create a protection path, see [Create a protection path](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-a-protection-path.md).
 
-</td></tr><tr><td id="d31247e252">
+</td></tr><tr><td id="d33244e252">
 
 **View the details of a connection node**
 
@@ -98,7 +98,7 @@ To learn more about to create a protection path, see [Create a protection path](
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using the network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
+**Parent Topic:**[Network diagram](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-diagram.md)
 
 **Related topics**  
 
@@ -107,5 +107,5 @@ To learn more about to create a protection path, see [Create a protection path](
 
 [Create a protection path]()
 
-[Visualization of circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
+[Visualize circuits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/unified-map-view-of-connection-elements.md)
 

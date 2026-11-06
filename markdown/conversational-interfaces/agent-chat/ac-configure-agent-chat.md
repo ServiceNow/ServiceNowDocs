@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [Setup, Agent Chat, live agents]
-breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Setting up Agent Chat
@@ -24,9 +24,9 @@ Configure the following before starting this task:
 -   Install the Agent Chat plugin \(com.glide.interaction.awa\).
 -   If you want to use the Profanity Filter, activate the Profanity Filter plugin \(sn\_va\_profanity\).
 -   In Advanced Work Assignment:
-    -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
-    -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-queues.md).
-    -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-assignment.md).
+    -   Configure [service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
+    -   Define [work item queues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-queues.md).
+    -   Set up [work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-assignment.md).
 -   [Update your Live Feed profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_UpdateYourProfile.md) to display agent names and avatars in the chat client.
 -   [Configure Agent Chat in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-va-in-sp.md)
 

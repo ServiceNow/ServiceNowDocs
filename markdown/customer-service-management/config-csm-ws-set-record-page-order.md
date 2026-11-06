@@ -1,18 +1,18 @@
 ---
 title: Set record page order
-description: Set the order number of a record page and activate the record page to determine the default page for displaying records in CSM Configurable Workspace.
+description: Set the order value of a record page to determine the default page for displaying records in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-ws-set-record-page-order.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CRM Workspace record pages, Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Record pages, Record pages and page templates, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set record page order
 
-Set the order number of a record page and activate the record page to determine the default page for displaying records in CSM Configurable Workspace.
+Set the order value of a record page to determine the default page for displaying records in CRM Workspace.
 
 ## Before you begin
 
@@ -20,27 +20,30 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-Each record page has an order number and can also be set to active or inactive. The active record page with the lowest order number is the default page. When the system displays a record in CSM Configurable Workspace, it uses this default page to display the record information.
+Record pages can be active or inactive. Each record page also has an order value. The active record page with the lowest order number is the default page. When the system displays a record in CRM Workspace, it uses this default page to display the record information.
 
 |Record page|Order|
 |-----------|-----|
-|Record default|0|
-|Interaction record Page|100|
 |CSM default record page|-1000|
 |CSM Interaction record page|-1000|
+|Email interaction record page|-1001|
 |Front-line case page|1000|
+|CSM voice interaction record page|2000|
+|CSM centered chat interaction record page|-2001|
+|Record default|0|
+|Interaction record Page|100|
 
-To use a different page as the default page, you need to manually switch from the existing pages to the new pages by changing the page order number.
+To use a different page as the default page, you need to manually switch from the existing page to the new page by changing the page order value.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 
 3.  Select the desired page in the Variants list, for example, **CSM default record page**.
 
-4.  Set the page order.
+4.  Set the page order value.
 
     1.  Select the additional actions menu for the page and then select **Edit conditions**.
 
@@ -52,12 +55,17 @@ To use a different page as the default page, you need to manually switch from th
 
     1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Experiences**.
 
-    2.  Select the **CSM/FSM Configurable Workspace** experience.
+    2.  Select the **CRM Workspace** experience.
 
-    3.  In the **Admin panel** field, open the UX App Configuration: CSM/FSM Configurable Workspace App Config record.
+    3.  In the **Admin panel** field, open the UX App Configuration: CRM Workspace App Config record.
 
     4.  Locate the page in the UX Screens related list.
 
     5.  Set the **Active** field to true.
 
+
+**Related topics**  
+
+
+[CRM Workspace record pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-config-workspace-record-pages.md)
 

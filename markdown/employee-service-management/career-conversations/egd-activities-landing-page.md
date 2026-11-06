@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development, Employee Service Management]
+breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Career Conversations
@@ -26,7 +26,7 @@ Supports an end-to-end process for individuals and managers to create and manage
 
 </td><td>
 
-[Administer\[Omitted image "bus-management-console.svg"\] Alt text:Administrators maintain the Career Conversations app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-administration.md)
+[Administer\[Omitted image "bus-management-console.svg"\] Alt text:Administrators maintain the Career Conversations app and related features over time as the organization grows and evolves.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-admin-create-conversation.md)
 
 </td></tr><tr><td>
 
@@ -41,4 +41,11 @@ Supports an end-to-end process for individuals and managers to create and manage
  
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

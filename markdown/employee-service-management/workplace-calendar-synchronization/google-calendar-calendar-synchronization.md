@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -32,7 +32,7 @@ The synchronization process includes the following steps:
 4.  Configuring the Google Calendar Spoke connection using the Flow designer. Refer to [Create a Connection and credential record for Google](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/create-connection-configuration-with-google.md).
 5.  Creating the Google Calendar provider. Refer to [Configure Google as calendar provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/configure-google-as-calendar-provider.md).
 
-The application also enables you to create your own connection and credential alias instead of using the default alias created by using the flow designer. Refer to [Configure your own Google connection and credential alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-calendar-synchronization/configure-your-own-google-connection-and-credential-alias.md).
+The application also enables you to create your own connection and credential alias instead of using the default alias created by using the flow designer.
 
 ## Synchronization from Google Calendar to Workplace Reservation Management
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Dynamic CI groups, Navigate, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Dynamic CI group and service type, Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set the group for a CI or an entire class of CIs
@@ -22,7 +22,11 @@ Role required: itil and itil\_admin
 
 ## About this task
 
-Set the **Managed by group** attribute for a specific class in the CI Class Manager. All CIs within the class will have their **Managed by group** field populated based on the value specified in the CI Class Manager. With this method, the **Managed by group** setting is applied only to the CIs that aren’t associated with a technical service offering. For CIs that are managed by a technical service offering, the **Managed by group** field is first synchronized with its dynamic CI group. The field is then synchronized with the CIs in the dynamic CI group, overwriting the entry from the CI Class Manager.
+**Note:** The **Managed by Group** setting identifies the group that manages a CI class \(ensuring that it is complete and correct\). It might or might not be the same group as repairs an individual CI.
+
+You can streamline approval of CMDB Data Manager policies by populating the **Manage by Group** attribute of CIs that you plan to target in policies. Use the CI Class Manager to populate the attribute for an entire class in a single synchronization operation. If the **Managed by Group** attribute isn't populated for a CI, then the approval process is directed to the administrator.
+
+Set the **Managed by group** attribute for a specific class in the CI Class Manager. All CIs within the class will have their **Managed by group** field populated based on the value specified in the CI Class Manager. With this method, the **Managed by group** setting is applied only to the CIs that aren’t associated with a Technology management offering. For CIs that are managed by a Technology management offering, the **Managed by group** field is first synchronized with its dynamic CI group. The field is then synchronized with the CIs in the dynamic CI group, overwriting the entry from the CI Class Manager.
 
 ## Procedure
 
@@ -34,7 +38,7 @@ Set the **Managed by group** attribute for a specific class in the CI Class Mana
 
 4.  To verify the change, select **CI List**.
 
-    The change should be applied to the **Managed by Group** attribute of all CIs of the class unless they are associated with a technical service offering. The change is applied only to the CIs in the class and not to the sub classes under a CI.
+    The change should be applied to the **Managed by Group** attribute of all CIs of the class unless they are associated with a Technology management offering. The change is applied only to the CIs in the class and not to the sub classes under a CI.
 
 
 ## Example
@@ -46,4 +50,11 @@ In this example, you define a user group that can manage all CIs belonging to th
 3.  To verify that the attribute was updated, select **CI List** and navigate to the Linux Server class. You will see that the **Managed By Group** attribute has been updated to **sys\_user\_group**.
 
 **Parent Topic:**[Matching the usage of dynamic CI groups to service type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-dynamic-ci-groups-by-service.md)
+
+**Related topics**  
+
+
+[Synchronizing group assignment attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-data-synchronize.md)
+
+[Synchronize user groups for a technology management offering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-enable-tso.md)
 

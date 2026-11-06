@@ -7,7 +7,7 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Workforce Optimization for ITSM, IT Service Management]
 # Teams in Workforce Optimization for ITSM
 
 Learn how you can organize each of your teams into assignment groups. You can then define a set of Key Performance Indicators \(KPIs\) to analyze the performance of all groups within that team. Drill into the metrics for a group, an agent, or an incident within that team—all from a central location.
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 This video gives you an overview of how you set up your teams into assignment groups and add KPIs to measure performance.
 

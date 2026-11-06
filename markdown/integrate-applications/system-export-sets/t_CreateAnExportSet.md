@@ -7,9 +7,9 @@ release: yokohama
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Export sets, Exports, Data and Automation]
+breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
 
 # Create an export set
@@ -32,7 +32,7 @@ Role required: export\_set\_admin
 
 3.  In the **What to export** section, define what data to export in one of these ways.
 
-<table id="choicetable_hdz_2mk_vs"><tbody><tr><td id="d157051e95">
+<table id="choicetable_hdz_2mk_vs"><tbody><tr><td id="d433347e92">
 
 **Select __Yes__ and select an __Export Definition__ record.**
 
@@ -40,7 +40,7 @@ Role required: export\_set\_admin
 
 Use this configuration if you have already created an export definition record specifying what data to export.
 
-</td></tr><tr><td id="d157051e110">
+</td></tr><tr><td id="d433347e107">
 
 **Select __No__ and select a table to export data from.**
 
@@ -51,7 +51,7 @@ Use this configuration if you have not created an export definition record. A ne
 </td></tr></tbody>
 </table>4.  In the **Where to export to** section, define where you want to export data to in one of these ways.
 
-<table id="choicetable_thz_tzk_vs"><tbody><tr><td id="d157051e134">
+<table id="choicetable_thz_tzk_vs"><tbody><tr><td id="d433347e131">
 
 **Select __Yes__ and select an __Export Target__ record.**
 
@@ -59,7 +59,7 @@ Use this configuration if you have not created an export definition record. A ne
 
 Use this configuration if you have already created an export target record specifying where to export data to.
 
-</td></tr><tr><td id="d157051e149">
+</td></tr><tr><td id="d433347e146">
 
 **Select __No__ and select a MID Server, and specify a path on the MID Server to save the exported data to.**
 

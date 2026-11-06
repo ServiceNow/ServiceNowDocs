@@ -1,16 +1,16 @@
 ---
-title: View and manage Walk-up Experience appointments from the application navigator
+title: Manage appointments in the navigator
 description: Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-walkup-view-manage-appointment-nav.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Walk-up Experience queue and interaction management, Using Walk-up Experience, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
-# View and manage Walk-up Experience appointments from the application navigator
+# Manage appointments in the navigator
 
 Viewing upcoming scheduled Walk-up Experience appointments provides technicians with an estimate of future queue demand and workload. Managers can view future appointments and adjust staffing at walk-up queue locations to best support demand.
 
@@ -32,16 +32,16 @@ Upcoming appointments also display with a small calendar icon next to the user n
 
     All walk-up appointments scheduled for the upcoming 14 days display.
 
-2.  Click an appointment number to view details, such as the requester name, the interaction number and description, and the appointment time.
+2.  Select an appointment number to view details, such as the requester name, the interaction number and description, and the appointment time.
 
-    1.  If desired, to preview the associated interaction details, click the preview record icon \[Omitted image "Form\_ReferenceLookupIcon.png"\] Alt text: Record icon. next to the appointment number.
+    1.  If desired, to preview the associated interaction details, select the preview record icon next to the appointment number.
 
-    2.  To begin working on the interaction, click **Accept appointment** on the **Walk-up Appointment** form.
+    2.  To begin working on the interaction, select **Accept appointment** on the **Walk-up Appointment** form.
 
         If necessary, you can assign the appointment to an agent and add work notes.
 
         If a significant amount of time has passed and the requester does not show up for the appointment, you can delete the appointment by clicking **delete**.
 
-    3.  Click **Update** to save any changes you make to the interaction form.
+    3.  Select **Update** to save any changes you make to the interaction form.
 
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: reference
-last_updated: "2025-11-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Health and Safety Environmental Management, Health and Safety, Employee Service Management]
 ---
@@ -190,7 +190,7 @@ Risk assessment
 
 Option to associate a risk assessment
 
- Use the \[Omitted image "circle-info-outline-24.svg"\] Alt text: info icon icon to preview the risk assessment record
+ Use the \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: info icon\) icon to preview the risk assessment record
 
 </td></tr><tr><td>
 
@@ -200,7 +200,7 @@ JSA
 
 Option to associate a job safety analysis \(JSA\)
 
- Use the \[Omitted image "circle-info-outline-24.svg"\] Alt text: info icon icon to preview the JSA record
+ Use the \(\[Omitted image "circle-info-outline-24.svg"\] Alt text: info icon\) icon to preview the JSA record
 
 </td></tr><tr><td>
 

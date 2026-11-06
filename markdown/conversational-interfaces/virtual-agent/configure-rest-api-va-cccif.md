@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a Virtual Agent conversational custom chat integration configuration, Creating conversational custom chat integrations in Virtual Agent, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Create conversational custom chat integration, Create custom chat integrations, Configure, Virtual Agent, Conversational Interfaces]
 ---
 
 # Create and configure a scripted REST API for your custom chat integration

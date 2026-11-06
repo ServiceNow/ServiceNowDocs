@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
 
 # Digital Portfolio Management life-cycle management
@@ -105,5 +105,5 @@ Monitor critical key performance indicator \(KPI\) results and operational perfo
 
 [View business application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-business-apps-details.md)
 
-[View application service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-app-service-details.md)
+[View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-app-service-details.md)
 

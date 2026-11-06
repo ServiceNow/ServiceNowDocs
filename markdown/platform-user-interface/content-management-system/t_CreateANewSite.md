@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content sites, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-If you are creating a catalog site in CMS, see [Using the content management system with the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/p_ConfigureContentManagementSystem.md).
+If you are creating a catalog site in CMS, see .
 
 ## Procedure
 

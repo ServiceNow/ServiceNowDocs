@@ -1,21 +1,21 @@
 ---
 title: Collaborating with others to build apps in Creator Studio
-description: Sometimes you need help building out your app, and that’s ok! And sometimes other people need your help building their apps, which is great! This is where collaboration comes into play.
+description: Sometimes you need help with building out your app, and that’s OK! And sometimes other people need your help building their apps, which is great! This point is where collaboration comes into play.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/creator-studio-collaboration-roles.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [app collaboration, collaboration, delegated development]
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Collaborating with others to build apps in Creator Studio
 
-Sometimes you need help building out your app, and that’s ok! And sometimes other people need your help building their apps, which is great! This is where collaboration comes into play.
+Sometimes you need help with building out your app, and that’s OK! And sometimes other people need your help building their apps, which is great! This point is where collaboration comes into play.
 
 You can collaborate on apps you don't own by requesting permission to edit them, and invite other people you work with to collaborate on your apps with you.
 
@@ -27,7 +27,7 @@ The ServiceNow AI Platform Collaboration app is automatically installed with Cre
 
 ## Collaboration descriptors: Owners and Editors
 
-So, you realize you either need help with your app, or you want to help someone else building their app. What’s next? You need the right collaboration role.
+So, you realize you either need help with your app, or you want to help someone else build their app. What’s next? You need the appropriate collaboration role.
 
 There are two standard types of collaborators when you co-develop an app with other people: Owners and Editors. These two roles are called [collaboration descriptors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-glossary.md). The collaboration descriptor that someone is assigned determines if they can assign, manage, and monitor delegated development permissions. For example, people who are Owners can do more than people with the Editor collaboration type.
 
@@ -64,7 +64,7 @@ Editor
 </td></tr></tbody>
 </table>## Collaboration development permissions
 
-You’ve designated Owners and Editors in your app, now what? You need to invite other collaborators to work in your app.
+You’ve designated Owners and Editors in your app, now what? You must invite other collaborators to work in your app.
 
 Collaboration permissions enable you to control who's building apps in Creator Studio. You assign permissions to developers \(or users who deploy applications\) so that they can develop and deploy applications.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping
 Configure Agent Client Collector to discover and map application services without having to configure credentials for the MID Server.
 
 ## Before you begin
-
-Confirm that you have installed both Agent Client Collector for Visibility Content version 3.5.0 and the Kubernetes Visibility Agent \(KVA\) from the ServiceNow® Store.
 
 Ensure that Agent Client Collector has been configured. For more information, see [Application patterns for the Agent Client Collector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/application-patterns-acc.md).
 

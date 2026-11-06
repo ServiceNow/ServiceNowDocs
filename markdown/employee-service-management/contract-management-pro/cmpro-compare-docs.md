@@ -7,10 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-13"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Compare contract documents, Compare contract revisions]
-breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Compare contract revisions in Contract Management Pro
@@ -18,8 +18,6 @@ breadcrumb: [Using Contract Management Pro, Contract Management Pro, Employee Se
 Streamline the contract negotiation process by comparing two contract revisions to quickly identify and review all changes between the two versions, thereby reducing manual effort and minimizing the risk of missing critical updates.
 
 ## Before you begin
-
-The contract documents must be stored internally in the ServiceNow instance.
 
 Role required: sn\_cm\_core.contract\_user
 
@@ -65,7 +63,11 @@ Workspace used by your application
 </td></tr></tbody>
 </table>2.  In the **Contract documents** tab, select **Compare documents**.
 
+    \[Omitted image "cmpro-compare-docs-button.png"\] Alt text: Compare documents button in a contract request.
+
 3.  In the Compare documents window, select the contract type and documents you want to compare.
+
+    \[Omitted image "cmpro-compare-docs-selection.png"\] Alt text: A window to select documents for comparison.
 
     **Note:** You can only compare files in .doc and .docx format.
 
@@ -83,14 +85,16 @@ Workspace used by your application
 
     4.  Select **Compare**.
 
-    The contract document opens on a different tab displaying the comparison summary with total changes, added, deleted, and format changes.
+    For internally stored documents, the comparison opens on a new tab displaying the comparison summary with total changes, added, deleted, and format changes. The deletions are highlighted with red strikeout, additions are highlighted in green, and formatting changes are highlighted in cyan.
 
-    The deletions are highlighted with red strikeout, additions are highlighted in green, and formatting changes are highlighted in cyan.
+    For externally stored documents, the comparison is processed in the background. You receive a notification in the application and through an email when the comparison is ready. Select the link in the notification to view the document comparison.
+
+    \[Omitted image "cmpro-compare-docs-comparison.png"\] Alt text: Document where changes are highlighted in different colors.
 
 4.  Select **Hide redlines** to hide the highlighted changes.
 
 5.  Select **Download redlined document** to download the document, and make further modifications to it.
 
 
-**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+**Parent Topic:**[Common contract request tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-common-contract-req-tasks.md)
 

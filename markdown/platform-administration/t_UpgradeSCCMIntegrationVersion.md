@@ -1,18 +1,18 @@
 ---
 title: Upgrade the SCCM integration version
-description: If you are using an earlier version of an System Center Configuration Manager\(SCCM\) plugin, you can switch over to a later version to take advantage of new features.
+description: If you're using an earlier version of an System Center Configuration Manager\(SCCM\) plugin, you can switch over to a later version to take advantage of new features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_UpgradeSCCMIntegrationVersion.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Microsoft SCCM integration, ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Upgrade the SCCM integration version
 
-If you are using an earlier version of an System Center Configuration Manager\(SCCM\) plugin, you can switch over to a later version to take advantage of new features.
+If you're using an earlier version of an System Center Configuration Manager\(SCCM\) plugin, you can switch over to a later version to take advantage of new features.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ To change the SCCM integration:
 
 -   Disable the current integration by deactivating the SCCM import schedule.
 -   Activate the new SCCM plugin.
--   Reimport all the software records when you are switching to an integration that supports incremental imports of removed software.
+-   Reimport all the software records when you're switching to an integration that supports incremental imports of removed software.
 
 To disable the SCCM import schedule:
 
@@ -41,13 +41,11 @@ To disable the SCCM import schedule:
 
 2.  Clear the **Active** check box.
 
-    \[Omitted image "SCCMScheduledDataImport.png"\] Alt text: Scheduled Import form
+3.  Select **Save** or **Update**.
 
-3.  Click **Save** or **Update**.
+4.  To activate the new SCCM plugin, navigate to **All** &gt; **Admin Center** &gt; **Application Manager**.
 
-4.  To activate the new SCCM plugin, navigate to **System Definition** &gt; **Plugins**.
-
-5.  Search on the name **\*SCCM** to see all the available SCCM integrations plugins.
+5.  Search for **\*SCCM** to see all the available SCCM integrations plugins.
 
 6.  Activate the plugin.
 

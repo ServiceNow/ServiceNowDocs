@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for HR
 classification: workforce-optimization-for-hr
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a work shift, Create a shift plan, Scheduling in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization for HR Overview, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create a work shift, Create a shift plan, Scheduling in Workforce Optimization for HR, Using Workforce Optimization for HR, Workforce Optimization overview, HR Service Delivery, Employee Service Management]
 ---
 
 # Add schedule breaks to a shift

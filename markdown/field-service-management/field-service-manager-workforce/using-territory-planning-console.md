@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Manage workforce, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Managing workforce, Use, Field Service Management]
 ---
 
 # Managing territories and agents from Territory Planning console
@@ -156,19 +156,6 @@ Perform the following tasks to work with territories:
 -   [Auto-dispatch a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/c_DispatchWorkOrderTasks.md)
 -   [Assign work order tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/manage-work-order-tasks-dw.md)
 -   [Assign work order tasks to crews on Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/assign-wot-to-crew.md)
-
--   **[View favorite territories on a map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/move-territories-to-my-selection.md)**  
-View and manage territories and their associated resource details in the list view and on a map.
--   **[View territory information in contextual side panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/view-territory-details-in-csp.md)**  
-The contextual side panel offers valuable insights and easy access to territory information, helping you make well-informed decisions and efficiently manage your territories.
--   **[Change map marker location in the Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/change-an-agent-s-location.md)**  
-Update the location of your map markers for a dynamic and accurate visual representation of your data entities on the map.
--   **[Change start and end locations for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md)**  
-Change the start-of-day and end-of-day locations for your agents, offering the flexibility needed for specific work order tasks.
--   **[Move agents between territories in the Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/relocate-agents-territories.md)**  
-Relocate agents between territories to add flexibility to their work.
-
-**Parent Topic:**[Manage workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/managing-workforce.md)
 
 **Related topics**  
 

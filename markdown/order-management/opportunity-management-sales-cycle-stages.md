@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-sales-cycle-stages.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a sales cycle for an opportunity, Install and configure Opportunity Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Create a sales cycle, Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Associate a sales cycle with the opportunity stage
@@ -32,4 +32,11 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 
     The sales cycle and opportunity stages have been associated.
 
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

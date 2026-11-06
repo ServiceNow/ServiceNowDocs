@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Adaptive authentication, Authentication, Access Management]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Adaptive authentication, Authentication, Access Management]
 You can activate the Adaptive Authentication plugin \(com.snc.adaptive\_authentication\) for Adaptive Authentication if you have the admin role.
 
 ## Before you begin
-
-Role required: admin.
 
 ## About this task
 
@@ -41,5 +39,5 @@ Role required: admin.
 
 Configure your authentication policies to enforce contextual authentication controls on your instance.
 
-Once your policies are configured. Enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-adaptive-auth-properties.md).
+After your policies are configured, enable adaptive authentication using the **Enable Authentication Policy** policy. For details on adaptive authentication properties, see [Configure adaptive authentication properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/configure-adaptive-auth-properties.md).
 

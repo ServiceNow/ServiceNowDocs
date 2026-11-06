@@ -1,13 +1,13 @@
 ---
 title: Appointment Open API
-description: The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.Deletes an appointment record with a given ID.Retrieves a list of appointment records.Retrieves an appointment record associated with a specified ID.Returns time slots that were configured in the appointment booking service configuration along with their availability.Reschedule appointments with a given ID for a  work order.Enables you to book appointments for a work order.
+description: The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.Deletes an appointment record with a given ID.Retrieves an appointment record associated with a specified ID.Retrieves a list of appointment records.Returns time slots that were configured in the appointment booking service configuration along with their availability.Reschedule appointments with a given ID for a  work order.Enables you to book appointments for a work order.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/rest-apis/appointment-open-api.html
 release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 28
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -133,6 +133,529 @@ Response body:
 
 ```
 "The appointment (68cc0a5a9314521060320dd548373cbd) is successfully cancelled."
+```
+
+## Appointment Open - GET /api/sn\_tmf\_api/appointment/appointment/\{id\}
+
+Retrieves an appointment record associated with a specified ID.
+
+### URL format
+
+Default URL: `/api/sn_tmf_api/appointment/appointment/{id}`
+
+### Supported request parameters
+
+<table class="rest_api_path_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+id
+
+</td><td>
+
+Sys\_id of the appointment to retrieve.Data type: String
+
+Table: Appointment booking \[sn\_apptmnt\_booking\_appointment\_booking\]
+
+</td></tr></tbody>
+</table><table id="id_g4x_4zc_tcc" class="rest_api_query_parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="query-row-category"><td>
+
+category
+
+</td><td>
+
+Filter the appointment by category sys\_id.Data type: String
+
+Table: Location \[cmn\_location\]
+
+Default: Returns all appointments if category sys\_id is not provided.
+
+</td></tr><tr id="query-row-relatedEntity"><td>
+
+relatedEntity
+
+</td><td>
+
+Details about the related entity associated with the work order.Data type: Object
+
+```
+"relatedEntity": {
+  "id": "String"
+}
+```
+
+</td></tr><tr id="query-row-relatedEntity.id"><td>
+
+relatedEntity.id
+
+</td><td>
+
+Required. Sys\_id of the related entity.Data type: String
+
+Table: workOrder \[wm\_order\]
+
+Default: Returns all if sys\_id is not provided.
+
+</td></tr><tr id="query-row-relatedParty"><td>
+
+relatedParty
+
+</td><td>
+
+Filter the appointment by the sys\_id of the related party associated with the appointment.Data type: Object
+
+```
+"relatedParty": {
+  "id": "String",
+  "name": "String"
+}
+```
+
+Default: Returns all appointments if **relatedParty** is not provided.
+
+</td></tr><tr id="query-row-relatedParty.id"><td>
+
+relatedParty.id
+
+</td><td>
+
+Sys\_id of the related party.Data type: String
+
+Table: User \[sys\_user\]
+
+</td></tr><tr id="query-row-relatedParty.name"><td>
+
+relatedParty.name
+
+</td><td>
+
+Name of the related party.Data type: String
+
+</td></tr><tr id="query-row-relatedPlace"><td>
+
+relatedPlace
+
+</td><td>
+
+Filter the appointment by the place where the service or repair is scheduled to happen.Data type: Object
+
+```
+"relatedPlace": {
+  "id": "String"
+}
+```
+
+Default: Returns all appointments if **relatedPlace** is not provided.
+
+</td></tr><tr id="query-row-relatedPlace.id"><td>
+
+relatedPlace.id
+
+</td><td>
+
+Sys\_id of the related place.Data type: String
+
+Table: Location \[cmn\_location\]
+
+</td></tr><tr id="query-row-validFor"><td>
+
+validFor
+
+</td><td>
+
+Filter the appointment by a date range that the appointment is valid for.Data type: Object
+
+```
+"validFor":
+{
+  "endDateTime": "String",
+  "startDateTime": "String"
+}
+```
+
+Default: Returns all appointments if **validFor** is not provided.
+
+</td></tr><tr id="query-row-validFor.endDateTime"><td>
+
+validFor.endDateTime
+
+</td><td>
+
+End date and time of the appointment. Only appointments with the specified end date and time are returned in the response.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+Table: Location \[cmn\_location\]
+
+</td></tr><tr id="query-row-validFor.startDateTime"><td>
+
+validFor.startDateTime
+
+</td><td>
+
+Start date and time of the appointment. Only appointments with the specified start date and time are returned in the response. Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+Table: Location \[cmn\_location\]
+
+</td></tr></tbody>
+</table>|Name|Description|
+|----|-----------|
+|None| |
+
+### Headers
+
+The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Header|Description|
+|------|-----------|
+|Accept|Data format of the response body. Only supports **application/json**.|
+
+|Header|Description|
+|------|-----------|
+|Content-Type|Data format of the request body. Only supports **application/json**.|
+
+### Status codes
+
+The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
+
+|Status code|Description|
+|-----------|-----------|
+|200|Successful. The request was successfully processed.|
+|400|Bad Request. A bad request type or malformed request was detected.|
+|404|Not found. The requested item wasn't found.|
+
+### Response body parameters
+
+<table id="table_ybf_bwd_wcc"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+category
+
+</td><td>
+
+Sys\_id of the record producer configured for the appointment booking service configuration.Data type: String
+
+Stored in: Catalog Item  field of the Appointment Booking Service Configuration \[sn\_apptmnt\_booking\_service\_config\] table.
+
+</td></tr><tr><td>
+
+creationDate
+
+</td><td>
+
+Date and time that the appointment was created.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+href
+
+</td><td>
+
+Hyperlink to the appointment record. Use this link in another Appointment Open API request to reschedule or delete the appointment.Data type: String
+
+</td></tr><tr><td>
+
+id
+
+</td><td>
+
+Sys\_id of the appointment.Data type: String
+
+Stored in: Appointment Booking Service Configuration \[sn\_apptmnt\_booking\_service\_config\] table
+
+</td></tr><tr><td>
+
+lastUpdate
+
+</td><td>
+
+Date and time the appointment was last updated.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+relatedEntity
+
+</td><td>
+
+Details about the related entity of the appointment.Data type: Array of Objects
+
+```
+"relatedEntity": [
+ {
+  "@referredType": "String",
+  "id": "String",
+  "role": "String"
+  }
+]
+```
+
+</td></tr><tr><td>
+
+relatedEntity.@referredType
+
+</td><td>
+
+Type of item or service.Data type: String
+
+Stored in: workOrder \[wm\_order\] table
+
+</td></tr><tr><td>
+
+relatedEntity.id
+
+</td><td>
+
+Sys\_id of the related entity.Data type: String
+
+Stored in: workOrder \[wm\_order\] table
+
+</td></tr><tr><td>
+
+relatedEntity.role
+
+</td><td>
+
+Role description of the related entity. Possible value: work order
+
+Data type: String
+
+Stored in: workOrder \[wm\_order\] table
+
+</td></tr><tr><td>
+
+relatedParty
+
+</td><td>
+
+List of contacts for the appointment. Each contact is an object in the array.Data type: Array of Objects
+
+```
+"relatedParty": [
+ {
+  "@referredType": "String",
+  "id": "String",
+  "name": " String",
+  "role": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+relatedParty.@referredType
+
+</td><td>
+
+Type of customer.Data type: String
+
+Stored in: Contact \[customer\_contact\] table
+
+</td></tr><tr><td>
+
+relatedParty.id
+
+</td><td>
+
+Sys\_id of the customer contact associated with the work order.Data type: String
+
+Stored in: Contact \[customer\_contact\] table
+
+</td></tr><tr><td>
+
+relatedParty.name
+
+</td><td>
+
+Name of the customer contact.Data type: String
+
+Stored in: Contact \[customer\_contact\] table
+
+</td></tr><tr><td>
+
+relatedParty.role
+
+</td><td>
+
+Role of the customer contact.Possible values:
+
+-   customer: The contact has a customer role.
+-   technician: The contact has a technician role.
+
+Data type: String
+
+Stored in: Contact \[customer\_contact\] table
+
+</td></tr><tr><td>
+
+relatedPlace
+
+</td><td>
+
+Location details of the associated appointment.Data type: Object
+
+```
+"relatedPlace": {
+  "@referredType": "String",
+  "id": "String",
+  "name": "String",
+  "role": "String"
+}
+```
+
+</td></tr><tr><td>
+
+relatedPlace.@referredType
+
+</td><td>
+
+Geographic address of the appointment. Possible value: GeographicLocation.
+
+Data type: String
+
+Stored in: Location \[cmn\_location\] table
+
+</td></tr><tr><td>
+
+relatedPlace.id
+
+</td><td>
+
+Sys\_id of the location. Data type: String
+
+Stored in: Location \[cmn\_location\] table
+
+</td></tr><tr><td>
+
+relatedPlace.name
+
+</td><td>
+
+Name of the location related to the contact. For example, 100 South Charles Street, Baltimore, MD.Data type: String
+
+Stored in: Location \[cmn\_location\] table
+
+</td></tr><tr><td>
+
+relatedPlace.role
+
+</td><td>
+
+Role of the appointment location as an intervention address.Possible value: InterventionAddress
+
+Data type: String
+
+Stored in: Location \[cmn\_location\] table
+
+</td></tr><tr><td>
+
+validFor
+
+</td><td>
+
+Date range that the appointment is valid for.Data type: Object
+
+```
+"validFor": {
+ "endDateTime": "String"
+ "startDateTime": "String"
+}
+```
+
+</td></tr><tr><td>
+
+validFor.endDateTime
+
+</td><td>
+
+End date and time of the appointment.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr><tr><td>
+
+validFor.startDateTime
+
+</td><td>
+
+Start date and time of the appointment.Data type: String
+
+Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
+
+</td></tr></tbody>
+</table>### cURL request
+
+The following example returns appointment details according to the given appointment record ID.
+
+```
+curl "http://instance.servicenow.com/api/sn_tmf_api/appointment/appointment/201071ad4f80d210f8992fec52ce0ba9" \ 
+--request GET\ 
+--user 'username':'password'
+```
+
+Response body:
+
+```
+[
+  {
+    "id": "201071ad4f80d210f8992fec52ce0ba9",
+    "href": "api/sn_tmf_api/appointment/appointment/201071ad4f80d210f8992fec52ce0ba9",
+    "validFor": {
+      "startDateTime": "2024-08-16 17:00:00",
+      "endDateTime": "2024-08-16 19:00:00"
+    },
+    "category": "4a34a64d4f4c1210f8992fec52ce0b63",
+    "relatedParty": [
+      {
+        "id": "eaf68911c35420105252716b7d40ddde",
+        "name": " null",
+        "role": "customer",
+        "@referredType": "Individual"
+      }
+    ],
+    "relatedPlace": {
+      "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
+      "name": "100 South Charles Street, Baltimore,MD",
+      "role": "interventionAddress",
+      "@referredType": "Individual"
+    },
+    "relatedEntity": [
+      {
+        "id": "b440a5694f40d210f8992fec52ce0ba3",
+        "role": "work order",
+        "@referredType": "WorkOrder"
+      }
+    ],
+    "creationDate": "2024-08-16 00:39:22",
+    "lastUpdate": "2024-08-16 00:39:22"
+  }
+]
 ```
 
 ## Appointment Open - GET /api/sn\_tmf\_api/appointment/appointment
@@ -684,529 +1207,6 @@ The response body contains the details of two different appointments configured 
     ],
     "creationDate": "2024-08-23 22:18:43",
     "lastUpdate": "2024-08-23 22:18:43"
-  }
-]
-```
-
-## Appointment Open - GET /api/sn\_tmf\_api/appointment/appointment/\{id\}
-
-Retrieves an appointment record associated with a specified ID.
-
-### URL format
-
-Default URL: `/api/sn_tmf_api/appointment/appointment/{id}`
-
-### Supported request parameters
-
-<table class="rest_api_path_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-id
-
-</td><td>
-
-Sys\_id of the appointment to retrieve.Data type: String
-
-Table: Appointment booking \[sn\_apptmnt\_booking\_appointment\_booking\]
-
-</td></tr></tbody>
-</table><table id="id_g4x_4zc_tcc" class="rest_api_query_parameters"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr id="query-row-category"><td>
-
-category
-
-</td><td>
-
-Filter the appointment by category sys\_id.Data type: String
-
-Table: Location \[cmn\_location\]
-
-Default: Returns all appointments if category sys\_id is not provided.
-
-</td></tr><tr id="query-row-relatedEntity"><td>
-
-relatedEntity
-
-</td><td>
-
-Details about the related entity associated with the work order.Data type: Object
-
-```
-"relatedEntity": {
-  "id": "String"
-}
-```
-
-</td></tr><tr id="query-row-relatedEntity.id"><td>
-
-relatedEntity.id
-
-</td><td>
-
-Required. Sys\_id of the related entity.Data type: String
-
-Table: workOrder \[wm\_order\]
-
-Default: Returns all if sys\_id is not provided.
-
-</td></tr><tr id="query-row-relatedParty"><td>
-
-relatedParty
-
-</td><td>
-
-Filter the appointment by the sys\_id of the related party associated with the appointment.Data type: Object
-
-```
-"relatedParty": {
-  "id": "String",
-  "name": "String"
-}
-```
-
-Default: Returns all appointments if **relatedParty** is not provided.
-
-</td></tr><tr id="query-row-relatedParty.id"><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the related party.Data type: String
-
-Table: User \[sys\_user\]
-
-</td></tr><tr id="query-row-relatedParty.name"><td>
-
-relatedParty.name
-
-</td><td>
-
-Name of the related party.Data type: String
-
-</td></tr><tr id="query-row-relatedPlace"><td>
-
-relatedPlace
-
-</td><td>
-
-Filter the appointment by the place where the service or repair is scheduled to happen.Data type: Object
-
-```
-"relatedPlace": {
-  "id": "String"
-}
-```
-
-Default: Returns all appointments if **relatedPlace** is not provided.
-
-</td></tr><tr id="query-row-relatedPlace.id"><td>
-
-relatedPlace.id
-
-</td><td>
-
-Sys\_id of the related place.Data type: String
-
-Table: Location \[cmn\_location\]
-
-</td></tr><tr id="query-row-validFor"><td>
-
-validFor
-
-</td><td>
-
-Filter the appointment by a date range that the appointment is valid for.Data type: Object
-
-```
-"validFor":
-{
-  "endDateTime": "String",
-  "startDateTime": "String"
-}
-```
-
-Default: Returns all appointments if **validFor** is not provided.
-
-</td></tr><tr id="query-row-validFor.endDateTime"><td>
-
-validFor.endDateTime
-
-</td><td>
-
-End date and time of the appointment. Only appointments with the specified end date and time are returned in the response.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-Table: Location \[cmn\_location\]
-
-</td></tr><tr id="query-row-validFor.startDateTime"><td>
-
-validFor.startDateTime
-
-</td><td>
-
-Start date and time of the appointment. Only appointments with the specified start date and time are returned in the response. Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-Table: Location \[cmn\_location\]
-
-</td></tr></tbody>
-</table>|Name|Description|
-|----|-----------|
-|None| |
-
-### Headers
-
-The following request and response headers apply to this HTTP action only, or apply to this action in a distinct way. For a list of general headers used in the REST API, see [Supported REST API headers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Header|Description|
-|------|-----------|
-|Accept|Data format of the response body. Only supports **application/json**.|
-
-|Header|Description|
-|------|-----------|
-|Content-Type|Data format of the request body. Only supports **application/json**.|
-
-### Status codes
-
-The following status codes apply to this HTTP action. For a list of possible status codes used in the REST API, see [REST API HTTP response codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-api-explorer/c_RESTAPI.md).
-
-|Status code|Description|
-|-----------|-----------|
-|200|Successful. The request was successfully processed.|
-|400|Bad Request. A bad request type or malformed request was detected.|
-|404|Not found. The requested item wasn't found.|
-
-### Response body parameters
-
-<table id="table_ybf_bwd_wcc"><thead><tr><th>
-
-Name
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-category
-
-</td><td>
-
-Sys\_id of the record producer configured for the appointment booking service configuration.Data type: String
-
-Stored in: Catalog Item  field of the Appointment Booking Service Configuration \[sn\_apptmnt\_booking\_service\_config\] table.
-
-</td></tr><tr><td>
-
-creationDate
-
-</td><td>
-
-Date and time that the appointment was created.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-href
-
-</td><td>
-
-Hyperlink to the appointment record. Use this link in another Appointment Open API request to reschedule or delete the appointment.Data type: String
-
-</td></tr><tr><td>
-
-id
-
-</td><td>
-
-Sys\_id of the appointment.Data type: String
-
-Stored in: Appointment Booking Service Configuration \[sn\_apptmnt\_booking\_service\_config\] table
-
-</td></tr><tr><td>
-
-lastUpdate
-
-</td><td>
-
-Date and time the appointment was last updated.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-relatedEntity
-
-</td><td>
-
-Details about the related entity of the appointment.Data type: Array of Objects
-
-```
-"relatedEntity": [
- {
-  "@referredType": "String",
-  "id": "String",
-  "role": "String"
-  }
-]
-```
-
-</td></tr><tr><td>
-
-relatedEntity.@referredType
-
-</td><td>
-
-Type of item or service.Data type: String
-
-Stored in: workOrder \[wm\_order\] table
-
-</td></tr><tr><td>
-
-relatedEntity.id
-
-</td><td>
-
-Sys\_id of the related entity.Data type: String
-
-Stored in: workOrder \[wm\_order\] table
-
-</td></tr><tr><td>
-
-relatedEntity.role
-
-</td><td>
-
-Role description of the related entity. Possible value: work order
-
-Data type: String
-
-Stored in: workOrder \[wm\_order\] table
-
-</td></tr><tr><td>
-
-relatedParty
-
-</td><td>
-
-List of contacts for the appointment. Each contact is an object in the array.Data type: Array of Objects
-
-```
-"relatedParty": [
- {
-  "@referredType": "String",
-  "id": "String",
-  "name": " String",
-  "role": "String"
- }
-]
-```
-
-</td></tr><tr><td>
-
-relatedParty.@referredType
-
-</td><td>
-
-Type of customer.Data type: String
-
-Stored in: Contact \[customer\_contact\] table
-
-</td></tr><tr><td>
-
-relatedParty.id
-
-</td><td>
-
-Sys\_id of the customer contact associated with the work order.Data type: String
-
-Stored in: Contact \[customer\_contact\] table
-
-</td></tr><tr><td>
-
-relatedParty.name
-
-</td><td>
-
-Name of the customer contact.Data type: String
-
-Stored in: Contact \[customer\_contact\] table
-
-</td></tr><tr><td>
-
-relatedParty.role
-
-</td><td>
-
-Role of the customer contact.Possible values:
-
--   customer: The contact has a customer role.
--   technician: The contact has a technician role.
-
-Data type: String
-
-Stored in: Contact \[customer\_contact\] table
-
-</td></tr><tr><td>
-
-relatedPlace
-
-</td><td>
-
-Location details of the associated appointment.Data type: Object
-
-```
-"relatedPlace": {
-  "@referredType": "String",
-  "id": "String",
-  "name": "String",
-  "role": "String"
-}
-```
-
-</td></tr><tr><td>
-
-relatedPlace.@referredType
-
-</td><td>
-
-Geographic address of the appointment. Possible value: GeographicLocation.
-
-Data type: String
-
-Stored in: Location \[cmn\_location\] table
-
-</td></tr><tr><td>
-
-relatedPlace.id
-
-</td><td>
-
-Sys\_id of the location. Data type: String
-
-Stored in: Location \[cmn\_location\] table
-
-</td></tr><tr><td>
-
-relatedPlace.name
-
-</td><td>
-
-Name of the location related to the contact. For example, 100 South Charles Street, Baltimore, MD.Data type: String
-
-Stored in: Location \[cmn\_location\] table
-
-</td></tr><tr><td>
-
-relatedPlace.role
-
-</td><td>
-
-Role of the appointment location as an intervention address.Possible value: InterventionAddress
-
-Data type: String
-
-Stored in: Location \[cmn\_location\] table
-
-</td></tr><tr><td>
-
-validFor
-
-</td><td>
-
-Date range that the appointment is valid for.Data type: Object
-
-```
-"validFor": {
- "endDateTime": "String"
- "startDateTime": "String"
-}
-```
-
-</td></tr><tr><td>
-
-validFor.endDateTime
-
-</td><td>
-
-End date and time of the appointment.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr><tr><td>
-
-validFor.startDateTime
-
-</td><td>
-
-Start date and time of the appointment.Data type: String
-
-Format: YYYY-MM-DD 00:00:00. For example, 2025-01-31 09:35:43.
-
-</td></tr></tbody>
-</table>### cURL request
-
-The following example returns appointment details according to the given appointment record ID.
-
-```
-curl "http://instance.servicenow.com/api/sn_tmf_api/appointment/appointment/201071ad4f80d210f8992fec52ce0ba9" \ 
---request GET\ 
---user 'username':'password'
-```
-
-Response body:
-
-```
-[
-  {
-    "id": "201071ad4f80d210f8992fec52ce0ba9",
-    "href": "api/sn_tmf_api/appointment/appointment/201071ad4f80d210f8992fec52ce0ba9",
-    "validFor": {
-      "startDateTime": "2024-08-16 17:00:00",
-      "endDateTime": "2024-08-16 19:00:00"
-    },
-    "category": "4a34a64d4f4c1210f8992fec52ce0b63",
-    "relatedParty": [
-      {
-        "id": "eaf68911c35420105252716b7d40ddde",
-        "name": " null",
-        "role": "customer",
-        "@referredType": "Individual"
-      }
-    ],
-    "relatedPlace": {
-      "id": "25ab9c4d0a0a0bb300f7dabdc0ca7c1c",
-      "name": "100 South Charles Street, Baltimore,MD",
-      "role": "interventionAddress",
-      "@referredType": "Individual"
-    },
-    "relatedEntity": [
-      {
-        "id": "b440a5694f40d210f8992fec52ce0ba3",
-        "role": "work order",
-        "@referredType": "WorkOrder"
-      }
-    ],
-    "creationDate": "2024-08-16 00:39:22",
-    "lastUpdate": "2024-08-16 00:39:22"
   }
 ]
 ```

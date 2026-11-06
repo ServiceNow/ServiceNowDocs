@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -82,7 +82,7 @@ Script
 
 Code script that returns a requested metric value that is displayed on the widget.
 
- In the script, use the context and filter objects. The context object contains all of the demand financial fields, such as total\_costs, irr\_value, and capital\_budget.
+ In the script, use the context and filter objects. The context object contains all the demand financial fields, such as total\_costs, irr\_value, and capital\_budget.
 
  The following sample script returns the capital budget metric value of a demand to appear on the widget.
 

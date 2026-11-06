@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a data stream action to get users
@@ -20,7 +20,7 @@ Create a data stream action to get a list of user subscriptions from the SaaS ap
 
 If you're using an existing ServiceNow® Integration Hub spoke, find out if it has a data stream action to get a list of users that you can use instead of creating one. For more information about data stream actions, see [Data Stream actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/data-stream-actions.md).
 
-Role required: flow\_designer or admin
+Role required: flow\_designer
 
 ## Procedure
 

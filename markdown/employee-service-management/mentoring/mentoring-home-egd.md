@@ -7,9 +7,9 @@ release: yokohama
 product: Mentoring
 classification: mentoring
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Mentoring, Mentoring, Talent Development, Employee Service Management]
+breadcrumb: [Explore, Mentoring, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Mentoring home page
@@ -23,6 +23,4 @@ The Overview tab is the first thing you see when you access Mentoring after navi
 ## Your mentorships
 
 Use the **Your mentorships** tab to find trending courses across your organization. You can browse through highlighted content promoted by the learning team, popular learning-related searches, and recommended content based on learners similar to you.
-
-**Parent Topic:**[Exploring Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/exploring-mentoring-egd.md)
 

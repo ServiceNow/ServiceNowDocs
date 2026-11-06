@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/mitre-att-ck-administration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -25,7 +25,7 @@ Activate the MITRE-ATT&amp;CK profile, and set up a scheduled job so that you ca
 -   **[Manage matrices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-mitre-collection.md)**  
 Manage the matrices that have been imported from the MITRE TAXII collections. Matrices are a collection of tactics and techniques. You can view the matrices to review if your collections are available in the MITRE-ATT&amp;CK repository.
 -   **[Manage techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/view-techniques.md)**  
-Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that are not relevant to your organization. In STIX, techniques are known as attack patterns.
+Manage the techniques that have been imported from the MITRE TAXII collections. The techniques contain various ways attackers have developed to employ a given tactic. You can review and deactivate techniques that aren't relevant to your organization. In STIX, techniques are known as attack patterns.
 -   **[Manage mitigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/manage-mitigations.md)**  
 Manage the mitigations that have been imported from the MITRE TAXII collections. Mitigations enable you to prevent an adversary from successfully executing techniques or sub-techniques against your organization. In STIX, mitigations are known as course of actions.
 -   **[Manage groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/manage-groups-threat-intel.md)**  
@@ -49,7 +49,7 @@ Define the technique detection coverage that your organization must measure and 
 -   **[Map your technique detection coverage to a technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/map-technique-coverage.md)**  
 Map your overall technique detection coverage with the technique that enables your organization to detect specific adversary techniques.
 -   **[Define the mitigation coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/define-the-mitigation-coverage.md)**  
-Define the mitigation coverage for each mitigation that is associated with a technique so that you gain visibility into how well your organization can prevent the attacks that happen due to a particular technique.
+Define mitigation coverage per technique to gain visibility into how well your organization can prevent related attacks.
 -   **[Map your mitigation coverage to a technique](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/map-your-mitigation-coverage-to-a-technique.md)**  
 Map your mitigation coverage with the technique that enables you to detect your organization's overall mitigation strategy.
 -   **[Create and map detection rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/create-detection-rules.md)**  

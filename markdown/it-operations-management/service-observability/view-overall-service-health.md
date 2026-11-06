@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitoring and investigating, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Monitoring and investigating, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # View overall service health
@@ -18,14 +18,15 @@ View overall service health and related events, like alerts and changes, with th
 
 ## Before you begin
 
--   For version 1.5, a service must be activated. For more information, see [Activate teams and services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/activate-teams-and-services.md).
--   A data mapping must be configured. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
+A data mapping must be configured. For more information, see [Create and manage data mappings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/create-and-manage-observability-data-mappings.md).
 
 Role required: operator \[snc\_sow\_svcobs.manager\]
 
 ## About this task
 
 When you have been notified that a service is experiencing performance issues, you can begin your investigation with the **Overview** tab on the Service Details page.
+
+**Note:** Operators can also use the [Analyze a dashboard in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-a-dashboard-in-service-observability.md) and the [Analyze service health in Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/analyze-service-health-in-service-observability.md) AI skills to generate an analysis for them.
 
 ## Procedure
 
@@ -51,7 +52,7 @@ When you have been notified that a service is experiencing performance issues, y
 
 4.  Use the other charts on the page to view related information about the service, such as recent changes, open incidents, and trends for incidents and alerts.
 
-    These charts help explain whether recurring incidents or alerts might be caused by performance issues on the service. For detailed information about using this page, refer to the corresponding Overview templates for your Application Performance Management \(APM\) vendor described in [Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/observability-templates.md).
+    These charts help explain whether recurring incidents or alerts might be caused by performance issues on the service. For detailed information about using this page, refer to the corresponding Overview templates for your observability vendor described in [Service Observability templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/observability-templates.md).
 
 
 ## What to do next

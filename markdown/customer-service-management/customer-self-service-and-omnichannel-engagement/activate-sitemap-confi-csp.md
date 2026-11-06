@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Customer and Consumer Service Portals, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer and Consumer Service Portals, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Activate the sitemap configuration and definition records for the Consumer Service Portal
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Beginning with the Yokohama release, the Sitemap Generator configuration is available with the base system and is inactive by default.
+Beginning with the Brazil release, the Sitemap Generator configuration is available with the base system and is inactive by default.
 
 ## Procedure
 
@@ -38,7 +38,7 @@ Beginning with the Yokohama release, the Sitemap Generator configuration is avai
 
     1.  On the form, select the **Active** check box.
 
-    2.  In the Sitemap Config Definition related list, double-click the **Type** field and select the **true** option from the list.
+    2.  In the Sitemap Config Definition related list, double-click the **Active** field and select the **true** option from the list.
 
     3.  Select the Save icon \(\[Omitted image "save.png"\] Alt text: Save icon\).
 
@@ -48,4 +48,9 @@ Beginning with the Yokohama release, the Sitemap Generator configuration is avai
 ## Result
 
 All active sitemaps regenerate once in a day and include content from any of their active sitemap definitions.
+
+**Related topics**  
+
+
+[Sitemap generator for the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/sitemap-generator-csp.md)
 

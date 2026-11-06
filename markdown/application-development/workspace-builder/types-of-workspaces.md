@@ -1,22 +1,22 @@
 ---
 title: Sample workspaces you can build
-description: App Engine Studio \(AES\) provides a basic workspace that includes a home page, record pages, lists, an Analytics Center, and other functions.
+description: Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Overview, and other functions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/workspace-builder/types-of-workspaces.html
 release: yokohama
 product: Workspace Builder
 classification: workspace-builder
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Add a workspace, Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Sample workspaces you can build
 
-App Engine Studio \(AES\) provides a basic workspace that includes a home page, record pages, lists, an Analytics Center, and other functions.
+Workspace Builder provides a basic workspace that includes a home page, record pages, lists, an Analytics Overview, and other functions.
 
-The workspace that you create in App Engine Studio includes several default pages. You can use these pages as-is or edit them to suit your business needs.
+The workspace that you create in Workspace Builder includes several default pages. You can use these pages as-is or edit them to suit your business needs.
 
 The following are some examples of the page customizations you can apply to the workspace after you add it:
 
@@ -24,7 +24,7 @@ The following are some examples of the page customizations you can apply to the 
 -   List page
 -   Record page
 -   Search page
--   Analytics Center
+-   Analytics Overview
 
 ## Workspace home page
 
@@ -44,9 +44,9 @@ The following are some examples of the page customizations you can apply to the 
 
 \[Omitted image "sample-workspace-search-next-exp.png"\] Alt text: Sample workspace search page
 
-## Workspace Analytics Center
+## Workspace Analytics Overview
 
-The Analytics Center includes the following components:
+The Analytics Overview includes the following components:
 
 -   **Analytics Q&amp;A**
 
@@ -63,9 +63,9 @@ The Analytics Center includes the following components:
     **Note:** You can create and edit dashboards in-line. For more information, see [Configure Platform Analytics dashboard details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/config-db-in-ac.md).
 
 
-For more information on Analytics Center, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
+For more information on Analytics Overview, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
 
 \[Omitted image "sample-worksapce-analytics-next-exp.png"\] Alt text: Example Analytics Center for a workspace
 
-**Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
+**Parent Topic:**[Exploring Workspace Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/exploring-workspace-builder.md)
 

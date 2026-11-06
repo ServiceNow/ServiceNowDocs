@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workplace knowledge management, Manage workplace safety activities, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace knowledge management, Manage, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a workplace knowledge base article

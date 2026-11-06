@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -26,5 +26,5 @@ While a breach assessment can be initiated from the Employee Center, it can also
 
 **Note:** This image uses security incident purely as an example for a better understanding of the workflow.
 
-\[Omitted image "breach-asmt-workflow.jpg"\] Alt text: Steps for the creation of privacy case using breach assessment.
+\[Omitted image "breach-asmt-workflow.png"\] Alt text: Steps for the creation of privacy case for a business app security breach using breach assessment.
 

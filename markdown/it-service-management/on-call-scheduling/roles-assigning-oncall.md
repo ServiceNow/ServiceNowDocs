@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-08"
 reading_time_minutes: 2
-breadcrumb: [Define escalation process, On-Call Scheduling, IT Service Management]
+breadcrumb: [Defining On-Call Scheduling escalation process, On-Call Scheduling, IT Service Management]
 ---
 
 # Assigning On-Call Scheduling roles
@@ -27,6 +27,17 @@ Role
 Tasks and access permissions
 
 </th></tr></thead><tbody><tr><td>
+
+On-call administrator \[sn\_on\_call\_admin\]
+
+</td><td>
+
+A user with this role can configure all on-call schedule features including its properties and trigger rules. This role contains the following roles:-   sn\_trigger\_table\_cfg\_read
+-   sn\_trigger\_table\_cfg\_write
+-   sn\_sow\_on\_call.sn\_on\_call\_sow\_admin
+-   rota\_admin
+
+</td></tr><tr><td>
 
 Shift administrator \[rota\_admin\]
 
@@ -62,6 +73,14 @@ itil
 </td><td>
 
 A user with the itil role can view the [Manage shifts from the Calendar view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/customize-calendar-view-oncall.md), on-call commitments on reports, and has general read-only access to their group's shifts.
+
+</td></tr><tr><td>
+
+On-Call read \[oc\_read\]
+
+</td><td>
+
+A user with the role can view \(read-only\) the On-Call Scheduling calendar, rotations, rosters, schedules, escalations, communication channel configuration, reports, and dashboards.The oc\_read role has access to on-call dashboards only if the ITSM Analytics plugin \(sn\_itsm\_analytics\) version 4.1.2 or later is installed.
 
 </td></tr><tr><td>
 

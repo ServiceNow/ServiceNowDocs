@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [CrowdStrike Falcon Insight integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -26,7 +26,7 @@ The following example shows a Configuration Item field that is populated with a 
 
 When the **Configuration item** \(CI\) field is not populated with a host name or an IP address that matches the database, you can select another field on the security incident to display any matching CI data that you find while scanning your assets.
 
-When you are configuring the profile setup, you can select an alternate **CI trigger** field for endpoint identification to ensure that the CI data from the CrowdStrike Falcon Insight lookup is populated on the associated security incident. You can select any field on the security incident as an alternate CI trigger field, including custom fields that you create. If the CI field is not populated on the associated security incident when the incident is created, select the alternate CI field to ensure that your profiles get triggered.
+When you're configuring the profile setup, you can select an alternate **CI trigger** field for endpoint identification to confirm that the CI data from the CrowdStrike Falcon Insight lookup is populated on the associated security incident. You can select any field on the security incident as an alternate CI trigger field, including custom fields that you create. If the CI field is not populated on the associated security incident when the incident is created, select the alternate CI field to ensure that your profiles get triggered.
 
-The following example shows an alternate field that is populated with a host name on a SIR security incident. The alternate field is the **Description** field.\[Omitted image "falcon-insight-trigger-description.png"\] Alt text: Alternate field used as a trigger instead of the CI field.
+The following example shows an alternate field that is populated with a host name on a SIR security incident. The alternate field is the **Description** field.
 

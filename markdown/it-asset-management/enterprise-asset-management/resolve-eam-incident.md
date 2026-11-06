@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing incidents in Enterprise Asset Management, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Resolve and close an Enterprise Asset Management incident
@@ -34,13 +34,13 @@ Role required: itil
 
     3.  When prompted, select the action that you want to take on the asset.
 
-    4.  Select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+    4.  Select the Save icon \[Omitted image "save-icon.png"\] Alt text:.
 
     5.  If you choose to swap the asset, specify the asset that you are swapping the existing asset with.
 
         1.  Double-click the corresponding **Swapped Asset** field.
-        2.  When prompted, select the Lookup using list icon \(\[Omitted image "search-icon.png"\] Alt text: Lookup using list icon.\) to search for and select the asset that you want to swap the existing asset with.
-        3.  Select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+        2.  When prompted, select the Lookup using list icon \[Omitted image "search-icon.png"\] Alt text: to search for and select the asset that you want to swap the existing asset with.
+        3.  Select the Save icon \[Omitted image "save-icon.png"\] Alt text:.
     6.  If you are taking action on a consumable asset, specify the number of available assets that you want to take action on.
 
         You can take action on all available assets or only a portion of the available assets.

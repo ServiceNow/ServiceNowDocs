@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Resolving platform performance issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Resolve issues, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Transaction cancellation
@@ -29,13 +29,13 @@ Causes of slow-loading transactions include the following scenarios.
 
 During a long-running transaction, a timer and a cancellation option appear in an alert banner.
 
-\[Omitted image "CancelRequest.png"\] Alt text: An example running transaction alert banner, with the text "Running transaction: 6 seconds" and aCancel button.
-
 To cancel the transaction, select the **Cancel** button. The alert message displays when a transaction cancellation is in progress and when the cancellation is completed.
 
-If a slow transaction completes successfully, the timer indicates how long it took for the transaction to complete.
+**Note:**
 
-\[Omitted image "TransactionCompleted.png"\] Alt text: A slow transaction completion alert banner, with text "Transaction completed: 4 seconds."
+Selecting **Cancel** stops only the transaction associated with the window or tab where the alert appears. It doesn't cancel transactions running in your other open windows or tabs.
+
+If a slow transaction completes successfully, the timer indicates how long it took for the transaction to complete.
 
 ## Canceled transaction logs
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create the components of a telephone number, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Create the components of a telephone number, Configure, Telecommunications Network Inventory]
 ---
 
 # Create an area code

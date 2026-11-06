@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/create-a-citation-using-esg-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Disclosures in Operational Sustainability Management \(formerly ESG Management\), Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---

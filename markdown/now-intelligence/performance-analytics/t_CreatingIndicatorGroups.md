@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Create an indicator group
@@ -33,11 +33,9 @@ After you create an indicator group, you can add indicators to the group or remo
 
 ## Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Indicator Groups**.
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Indicators** &gt; **Indicator Groups** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Indicator Groups** and select **New**.
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Enter a **Label** for the indicator group.
 
@@ -45,9 +43,9 @@ After you create an indicator group, you can add indicators to the group or remo
 
     The Indicators related list appears.
 
-5.  Click **Edit** on the Indicators related list and add indicators to the group.
+5.  Select **Edit** on the Indicators related list and add indicators to the group.
 
-6.  Click **Save** to finish adding indicators, then **Update** to exit the Indicator Group record.
+6.  Select **Save** to finish adding indicators, then **Update** to exit the Indicator Group record.
 
 
 ## Creating and using the 'Open and Resolved Incidents' indicator group

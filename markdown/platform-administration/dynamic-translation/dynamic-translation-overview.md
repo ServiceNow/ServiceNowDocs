@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2025-10-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -51,9 +51,4 @@ Dynamic Translation works with your choice of third-party machine translation se
 -   [Read articles on the Now Community site](https://www.servicenow.com/community/now-platform-articles/tkb-p/now-platform-kb)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now?draw=case)
-
-**Related topics**  
-
-
-[Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace.md)
 

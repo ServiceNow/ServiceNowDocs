@@ -1,16 +1,16 @@
 ---
-title: Review an account by using the 360 View
+title: Review an account using the 360 View
 description: Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/review-customer-account-360-view.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Reviewing customer accounts, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Reviewing customer or partner accounts, Order Management, Use, Sales Customer Relationship Management]
 ---
 
-# Review an account by using the 360 View
+# Review an account using the 360 View
 
 Review a customer or partner's account by using the 360 View in the Order Management application. You can track the service contracts of your customers or partners. You can also view customer and service orders, cases, products, and equipment to see how you can improve your customer service.
 
@@ -22,7 +22,7 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 1.  Navigate to **All** &gt; **Customer Order Management** &gt; **Workspace** &gt; **Configurable Workspace Home**.
 
-2.  From the **Configurable Workspace Lists** tab \(\[Omitted image "Lists.png"\] Alt text: Lists tab icon to explore different tasks and services.\), select **Customer**, and then select **Accounts**.
+2.  From the **Configurable Workspace Lists** tab \[Omitted image "list-outline-24.svg"\] Alt text:, select **Customer**, and then select **Accounts**.
 
 3.  In the Accounts list, select a customer account.
 
@@ -124,8 +124,8 @@ State
 
 </td><td>
 
-State of the product or service order. To learn more, see these two topics:-   
--   .
+State of the product or service order. To learn more, see these two topics:-   [Customer order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-state-values.md)
+-   [Service order states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/service-order-mgt-state-values.md).
 
 
 </td></tr></tbody>
@@ -227,7 +227,7 @@ State
 State of the product inventory item. **Installation Pending** denotes that the installation of the product inventory item is pending at the customer site.
 
 </td></tr></tbody>
-</table>8.  In the Installed Base Items section, within the Product Inventory section, review the installed base items for the selected account.
+</table>8.  In the Installed Base Items section, in the Product Inventory section, review the installed base items for the selected account.
 
 <table id="table_r1r_xng_vtb"><thead><tr><th>
 
@@ -274,4 +274,11 @@ Name of the customer contact that is associated with the order. To view the deta
 </td></tr></tbody>
 </table>
 **Parent Topic:**[Reviewing customer or partner accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reviewing-customer-accounts.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [SumTotal Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-03-12"
+reading_time_minutes: 1
+breadcrumb: [SumTotal Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up the SumTotal spoke
@@ -124,85 +124,10 @@ Redirect URI
 URL of the location after the app is successfully authorized and granted an access token.
 
 </td></tr></tbody>
-</table>5.  Click **Submit**.
+</table>5.  Select **Submit**.
 
-    The SumTotal OAuth client is created.
 
-6.  Log in to your ServiceNow instance.
+### Result
 
-7.  Navigate to **All** &gt; **Process Automation** &gt; **Flow Designer.**
-
-8.  Click Connections.
-
-9.  To search for the SumTotal connections record, enter `SumTotal`.\[Omitted image "search-sumtotal-conn.png"\] Alt text: Search SumTotal connection record in Flow Designer.
-
-10. In the SumTotal connection card, click **View Details**.
-
-11. On the Connections page, click **Configure**.\[Omitted image "sumtotal-click-configure.png"\] Alt text: Configure button to configure connection and credential.
-
-12. In the Configure Connection form, fill the details.
-
-<table id="table_stt_t2k_qwb"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Connection Name
-
-</td><td>
-
-Name of the connection.**Note:** The name is read-only.
-
-</td></tr><tr><td>
-
-Connection URL
-
-</td><td>
-
-URL to connect to the SumTotal host.
-
-</td></tr><tr><td>
-
-OAuth Entity Name
-
-</td><td>
-
-Custom name of the OAuth entity.
-
-</td></tr><tr><td>
-
-OAuth Client ID
-
-</td><td>
-
-Client ID generated and copied from the SumTotal host.
-
-</td></tr><tr><td>
-
-OAuth Client Secret
-
-</td><td>
-
-Client secret generated and copied from the SumTotal host.
-
-</td></tr><tr><td>
-
-OAuth Token URL
-
-</td><td>
-
-URL to the token to access the SumTotal host. URL should be entered in the format https://\{site-url\}/apisecurity/connect/token.
-
-</td></tr></tbody>
-</table>    \[Omitted image "sumtotal-config-temp.png"\] Alt text: Configure the SumTotal connection record.
-
-13. Click **Configure and Get OAuth Token**.
-
-    The spoke is configured and ready to be used.
-
+The SumTotal OAuth client is created.
 

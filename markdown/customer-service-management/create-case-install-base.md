@@ -1,18 +1,18 @@
 ---
 title: Create a case for install base from the Customer Service homepage
-description: Create a case regarding a question or issue on your install base from the Customer Service homepage.
+description: Create a case about a question or issue on your install base from the Customer Service homepage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-case-install-base.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Create a case for install base from the Customer Service homepage
 
-Create a case regarding a question or issue on your install base from the Customer Service homepage.
+Create a case about a question or issue on your install base from the Customer Service homepage.
 
 ## Before you begin
 
@@ -52,7 +52,7 @@ Install Base
 
 </td><td>
 
-The install base item that you have a question on or issue with.
+The install base item you have a question on or issue with.
 
 </td></tr><tr><td>
 
@@ -83,10 +83,17 @@ Description
 A more detailed description of the customer question, issue, or problem.
 
 </td></tr></tbody>
-</table>    **Note:** Currently, the **Save as Draft** option is not optimized for Customer Service Management portals and it is inactive by default.
+</table>    **Note:** Currently, the **Save as Draft** option is not optimized for Customer Service Management portals and, it is inactive by default.
 
 4.  Select **Submit**.
 
     The case is created, assigned a case number, and added to the user's case list. Select **My Cases** at the top of the customer portal to view the Cases list.
 
+
+**Related topics**  
+
+
+[View install base information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-install-base-info.md)
+
+[View or modify a case from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ViewOrModCaseFromCustSlfServPrt.md)
 

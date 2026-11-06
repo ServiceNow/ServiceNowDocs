@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Grants Management, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Foundation, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure a retention policy for grant cases in Grants Management
@@ -39,5 +39,11 @@ Role required: admin
 
 ## Result
 
-All cases that match your retention criteria are now purged.
+All cases that match your retention criteria are now purged from the primary table to an archive table.
+
+**Parent Topic:**[Configure Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-foundation.md)
+
+**Previous topic:**[Toggle character count display for form fields in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-gmp-config-show-character-count.md)
+
+**Next topic:**[Configure a currency in Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-config-gmp-single-currency-setup.md)
 

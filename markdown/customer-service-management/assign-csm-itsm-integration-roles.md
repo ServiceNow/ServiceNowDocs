@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/assign-csm-itsm-integration-roles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up CSM integration with IT Service Management, Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # Assigning CSM/ITSM integration roles
@@ -227,7 +227,7 @@ Users with this role can:-   Create a request.
 
 </td></tr><tr><td>
 
-Proxy contact\[sn\_customerservice.proxy\_contact\]
+Proxy contact\[sn\_csm\_proxy\_cont\]
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/structured-workflows-bia.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -22,21 +22,21 @@ The assessment of a business critical process disruption helps you to estimate t
 
 ## Impact ratings for your business impact analysis
 
-The Business Continuity Management \(BCM\) administrator of your organization defines the impact ratings for your business impact analysis \(BIA\) and decides if the impact is tolerable for your business process. For more information on the impact ratings, see [Configure an impact rating to assess an impact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-rating-bcp.md). According to the configuration set up by the BCM administrator, the questions are displayed in the **RTO Impact Assessment** tab.
+The Business Continuity Management \(BCM\) administrator of your organization defines the impact ratings for your business impact analysis \(BIA\) and decides if the impact is tolerable for your business process. For more information on the impact ratings, see [Configure an impact rating to assess an impact category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-impact-rating-bcp.md). According to the configuration set up by BCM administrator, the questions are displayed in the **RTO Impact Assessment** tab.
 
-Consider the following example where the BCM administrator has configured an intolerable impact rating for the Revenue impact category. The BCM administrator has defined what qualifies to be an intolerable impact. As a BIA owner, you must identify the timeline at which the revenue impact may go beyond $1M.\[Omitted image "BIA-intolerable-impact.png"\] Alt text: BIA impact rating.
+Consider the example where BCM administrator has configured an intolerable impact rating for the Revenue impact category. BCM administrator has defined what qualifies to be an intolerable impact. As a BIA owner, you must identify the timeline at which the revenue impact may go beyond $1M.\[Omitted image "BIA-intolerable-impact.png"\] Alt text: BIA impact rating.
 
 ## Multiple impact ratings for an impact category
 
-If your BCM administrator has configured the assessment questionnaire to include multiple impact ratings for an impact category, the impact category ratings are displayed in the Impact Category view as shown in the following example.\[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
+If your BCM administrator has configured the assessment questionnaire to include multiple impact ratings for an impact category, the ratings are displayed in the Impact Category view. The following example shows the impact category ratings.\[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
 
-The BCM administrator can specify a threshold of non-tolerance for the impact ratings, per impact category. The disruption duration for the first non-tolerable impact category is selected for the recovery time objective \(RTO\). The impact ratings have the following specified values:
+BCM administrators specify a threshold of non-tolerance for the impact ratings, per impact category. The disruption duration for the first non-tolerable impact category is selected for the recovery time objective \(RTO\). The impact ratings have the specified values:
 
 -   Low = 1
 -   Moderate = 2
 -   High = 3
 
-See the following example for the sample RTO calculation.
+See the example for the sample RTO calculation.
 
 \[Omitted image "BIAImpactCategoryResults.png"\] Alt text: An example to show the calculation of impact category results.
 
@@ -92,7 +92,7 @@ In the Impact Ratings table, the **Tolerable** field is set to **false**.
 
 </td><td>
 
-If the administrator has specified that High regulatory impact is non-tolerable, its corresponding disruption duration is set as the recovery time objective \(RTO\) as shown in the following example. \[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
+If the administrator has specified that High regulatory impact is non-tolerable, its corresponding disruption duration is set as the recovery time objective \(RTO\) as shown in the example. \[Omitted image "impact-category-admin-view.png"\] Alt text: Administrator view for the impact category.
 
  In the tabular example, the disruption duration for **03 - High** impact is set to 72 hours. Therefore, the recovery time objective for the impact category is above 72 hours.
 
@@ -108,18 +108,16 @@ The **Tolerable** field for the Low, Moderate, and High impact ratings is set to
 
 If the administrator has set all the impact ratings as tolerable, the value specified in the **Maximum RTO value** field in the template is selected as the recovery time objective \(RTO\).
 
- In the following example, the administrator has set all the impact ratings as tolerable. Therefore, the recovery time objective \(RTO\) is one month as per the value specified in the **Maximum RTO value** field.\[Omitted image "maximum-rto-value.png"\] Alt text: Maximum RTO value.
+ In the example, the administrator has set all the impact ratings as tolerable. Therefore, the recovery time objective \(RTO\) is one month as per the value specified in the **Maximum RTO value** field.\[Omitted image "maximum-rto-value.png"\] Alt text: Maximum RTO value.
 
 </td></tr></tbody>
 </table>-   **Calculation of category score from impact analysis questions for an impact category that contributes to Recovery Point Objective \(RPO\)**
 
-    If the impact category contributes to **RPO**, then evaluate each impact analysis question in that RPO category based on the value of your data like business critical, operation critical, business essential, or operation essential. The maximum value among all the questions of that RPO is considered as the Category Score of that Impact Category and stored in the Impact Category Results table \[sn\_bia\_category\_result\].
+    If the impact category contributes to **RPO**, then evaluate each impact analysis question in that RPO category based on data value. You can check business critical, operation critical, business essential, or operation essential. The maximum value among all the questions of that RPO is considered as the Category Score of that Impact Category. It is then stored in the Impact Category Results table \[sn\_bia\_category\_result\].
 
 -   **Calculation of overall impact assessment result for a BIA**
 
-    When you update the **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category.
-
-    For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the disruption duration value of the legal impact category, then the RTO value of the BIA is recalculated based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
+    When you update the **Disruption Duration** of an impact category, the RTO of the BIA is automatically updated. The RTO of the BIA is set as the lowest tolerable downtime from each impact category. For example, consider a BIA having four impact categories – Legal, Reputation, Workforce, and Regulatory. When you update the disruption duration value of the legal impact category, the RTO value of the BIA is recalculated. The recalculation is based on the lowest tolerable disruption duration from each impact category. The Recovery Tier varies from organization to organization and is set based on the recalculated RTO value.
 
     |RTO value|Recovery Tier|
     |---------|-------------|
@@ -133,11 +131,4 @@ If the administrator has set all the impact ratings as tolerable, the value spec
     |2 Weeks|Non-Essential|
     |1 Month|Non-Essential|
 
-
--   **[Create a business impact analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-business-impact-analysis.md)**  
-Create a business impact analysis \(BIA\) to get the necessary information for a plan. Use the BIA to identify the recovery time objective for an item and prioritize assets that have most and least critical dependencies. Use the information to establish their recovery strategies during the planning phase.
--   **[Assess impact categories and dependencies of a process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/assess-impact-categories-bia.md)**  
-Assess the different components of a business impact analysis \(BIA\). First by assessing and determining the impact categories of a business process. Second, by identifying any underlying dependencies that the business process requires across different dependency types.
-
-**Parent Topic:**[Using BCM Classic Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/mainitain-bcm-with-classic-workspace.md)
 

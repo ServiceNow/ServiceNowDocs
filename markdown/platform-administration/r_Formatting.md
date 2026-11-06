@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_Formatting.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML field, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure the HTML toolbar, Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Formatting functions in HTML field editors
@@ -42,7 +42,7 @@ A11y Checker
 
 </td><td>
 
- 
+\[Omitted image "a11y-checker.png"\] Alt text: TinyMCE Accessibility Checker
 
 </td><td>
 
@@ -128,11 +128,11 @@ Blocks
 
 </td><td>
 
-\[Omitted image "TinyMCEV6-blocks\_icon.png"\] Alt text: TinyMCE v6 Blocks
+\[Omitted image "ParaStylesHTML.png"\] Alt text: TinyMCE Block style
 
 </td><td>
 
-Toggles the visibility of block level elements in the editable area. It’s similar to WYSIWYG hidden character functionality, but at block level.
+Applies the selected header or paragraph style to the current word or selected text.
 
 </td></tr><tr><td>
 
@@ -215,6 +215,22 @@ Font Size
 </td><td>
 
 Applies a font size to the selected text or current word.
+
+</td></tr><tr><td>
+
+Format painter
+
+</td><td>
+
+ 
+
+</td><td>
+
+\[Omitted image "format-painter.png"\] Alt text: TinyMCE Format Painter
+
+</td><td>
+
+Applies formatting choices, including font style, size, and table styles, between locations within the TinyMCE editable area. Supports various formats like inline and block styles.
 
 </td></tr><tr><td>
 

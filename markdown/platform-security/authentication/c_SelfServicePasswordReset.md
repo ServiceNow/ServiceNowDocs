@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Local Authentication, Authentication, Access Management]
+breadcrumb: [Local authentication, Authentication, Access Management]
 ---
 
 # Password Reset
@@ -36,5 +36,5 @@ See [Configure your Password Reset process](https://raw.githubusercontent.com/Se
 **Note:**
 
 -   This feature works for locally authenticated users who enter the username and password specified in their user record. Users logging in to the instance via an SSO solution or an LDAP integration cannot reset passwords using the example self-service Password Reset process.
--   The end user must enable and configure notification preferences. See [Subscription-based notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_SubscriptionBasedNotifications.md). Administrators can x[modify the email that is sent to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_ModifyPasswordResetNotification.md).
+-   The end user must enable and configure notification preferences. See Subscription-based notifications. Administrators can x[modify the email that is sent to the end user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_ModifyPasswordResetNotification.md).
 

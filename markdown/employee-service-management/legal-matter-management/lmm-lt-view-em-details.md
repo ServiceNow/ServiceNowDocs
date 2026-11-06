@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Engage with outside counsel, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Engage with outside counsel, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # View external matter details
@@ -24,15 +24,15 @@ Role required: sn\_lg\_matter.matter\_fulfiller, sn\_lg\_ops.legal\_fulfiller
 
 1.  Open a legal matter.
 
-<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d152254e51">
+<table id="choicetable_vvd_bng_hxb"><thead><tr><th align="left" id="d160685e51">
 
 Method
 
-</th><th align="left" id="d152254e54">
+</th><th align="left" id="d160685e54">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d152254e60">
+</th></tr></thead><tbody><tr><td id="d160685e60">
 
 **Using Legal Counsel Center homepage**
 
@@ -42,7 +42,7 @@ Action
 2.  Select **View All** option on the Matters widget.
 
 
-</td></tr><tr><td id="d152254e95">
+</td></tr><tr><td id="d160685e95">
 
 **Using Legal Counsel Center lists**
 
@@ -53,7 +53,7 @@ Action
 3.  In the Lists tab, navigate to **Matters** &gt; **All**.
 
 
-</td></tr><tr><td id="d152254e145">
+</td></tr><tr><td id="d160685e145">
 
 **Using platform view**
 

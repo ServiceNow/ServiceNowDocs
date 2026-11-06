@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # View transfer order lines for requested parts
@@ -29,19 +29,19 @@ Transfer orders move necessary parts between stockrooms or to a location where a
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  View the transfer orders.
 
-<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d110985e83">
+<table id="choicetable_sb2_zt1_5fb"><thead><tr><th align="left" id="d124953e89">
 
 To
 
-</th><th align="left" id="d110985e86">
+</th><th align="left" id="d124953e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d110985e92">
+</th></tr></thead><tbody><tr><td id="d124953e98">
 
 **View transfer order lines for a part requirement**
 
@@ -54,7 +54,7 @@ Do this
 5.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d110985e137">
+</td></tr><tr><td id="d124953e143">
 
 **View transfer order lines related to a work order task**
 
@@ -68,7 +68,7 @@ Do this
 6.  In the **Transfer order lines** section, tap **See all**.
 
 
-</td></tr><tr><td id="d110985e192">
+</td></tr><tr><td id="d124953e198">
 
 **View transfer order lines for a part request**
 
@@ -85,6 +85,4 @@ Do this
 ## What to do next
 
 You can pickup parts from your peer agents for the part request. For more information, see [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/picking-up-parts.md) and [Pick up a part to complete tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/picking-up-parts.md).
-
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
 

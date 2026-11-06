@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Create a project using Classic view
@@ -18,7 +18,7 @@ Configure and manage the project status and outline of the process you want to a
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 You must enable [Audit Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/t_EnableAuditingForATable.md) for the table that you’ve selected to generate a model for a project.
 
@@ -48,17 +48,15 @@ Report on steps that occur within your business process.
 -   **[Configure a breakdown definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-breakdown.md)**  
 Add a breakdown to filter records and analyze a process map by categories.
 -   **[Configuring improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configuring-finding-definitions.md)**  
-Configure an improvement opportunities to view the insights on the Summary and Insights page.
+Configure an improvement opportunities to view the insights on the Summary and insights page.
 -   **[Import improvement opportunities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/import-finding-definitions.md)**  
 Import improvement opportunities as templates into the project associated with the table. Improvement opportunities from the parent table that are in Active state are available for import. If you don’t import the improvement opportunities from the process table, the improvement opportunities aren’t used during project mining.
 -   **[Mine a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/generate-process-map.md)**  
 After you’ve configured the data you want to visualize, you can begin mining the project.
 -   **[Schedule a Process Mining job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/schedule-mining-job.md)**  
 Schedule a Process Mining job to mine one or more projects later.
--   **[Edit a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/edit-project.md)**  
-Edit a project from the Project Definition form to generate an updated process map.
--   **[Delete a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/delete-project-navigator.md)**  
-Delete a project if you are not using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated. You can delete a project from the Process Mining Workspace.
+-   **[Manage a project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/edit-project.md)**  
+Edit or delete a project. Delete a project if you aren't using it and want to clean up data. Deleting a project deletes the project's configurations and versions or projects it has generated.
 
 **Parent Topic:**[Using Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/use-process-mining.md)
 

@@ -1,60 +1,52 @@
 ---
-title: Make a copy of a Now Assist skill
-description: The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.
+title: Make a copy of an AI skill
+description: Create a copy of an AI skill using the Make a copy function in AI Admin Hub. With a copy of the skill, you can experiment with skill settings and tailor the skill to fit your business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/make-a-copy-of-a-now-assist-skill.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-10-06"
 reading_time_minutes: 2
 keywords: [Copy, Now Assist, skill, admin, features]
-breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Make a copy of a Now Assist skill
+# Make a copy of an AI skill
 
-The 'Make a copy' feature enables you to create a copy of a Now Assist skill so that you can experiment with skill settings and configure the skill to fit your business needs.
+Create a copy of an AI skill using the **Make a copy** function in AI Admin Hub. With a copy of the skill, you can experiment with skill settings and tailor the skill to fit your business needs.
 
 ## Before you begin
 
-Role required: sn\_nowassist\_admin.nsa\_admin
+Role required: sn\_generative\_ai.nsa\_admin
 
 ## About this task
 
-The skills that come with the Now Assist applications have default configurations that are optimized to serve the most common use cases. If you want to change the skill settings, you can edit a skill with the AI Admin Hub console or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure the copies of the skills by using the same guided setup as the default skills.
+The skills that come with the generative AI applications have default configurations that are optimized to serve the most common use cases. To change the skill settings you can edit a skill in AI Admin Hub, or you can create a copy of the skill. Creating a copy leaves the original skill configuration intact in case you want to use it later or want to create another copy from the original. You can activate and configure copies of skills using the same guided setup as the default skills.
 
-**Note:** The 'Make a copy' feature is not available for all Now Assist skills.
+**Note:**
 
-**Note:** In a default scenario, only one version of a skill can be active at a time. If you create and activate a copy of the skill, any previously activated version of the skill is deactivated.
+-   The **Make a copy** function is not available for all AI skills.
+-   In a default scenario, only one version of a skill can be active at a time. When you create and activate a copy of a skill, any previously activated version of the skill is deactivated.
+-   One-step activation is not available for copied skills, so use the guided setup to configure and activate.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
 
-    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
+    If you’re already in AI Admin Hub, select the **AI Skills** tab.
 
 2.  In the navigation pane, select the workflow of the skill that you want to copy, such as Technology or Customer.
 
-    Each workflow contains skills sets.
+3.  On the card that contains the default skill you want to copy, select the more options icon \[Omitted image "naa-more-options-icon.png"\] Alt text: More options icon. then select **Make a copy**.
 
-3.  Toggle between the list and grid layout for optimum view experience.
+4.  As an alternative to the previous step, select **View details**, then on the details tab select **Make a copy** from the More actions drop-down list at **Edit configuration**.
 
-    **Note:** The skill details are presented at the forefront of the interface, enabling you to view all the details without needing to click or navigate away.
-
-4.  Select the more options icon \[Omitted image "more-options-menu-item.png"\] Alt text: More options menu item next to **Active skill** that you want to configure, then select **Make a copy**.
-
-5.  In the modal, select **Make a copy**
-
-6.  You can choose to change the base input table entry as per the created copy.
-
-    A confirmation message displays verifying the configuration changes.
-
-7.  Select **Save** to confirm your changes and proceed to Guided Setup.
+5.  In the modal window, select **Make a copy** to confirm.
 
 
 ## Result
 
-A copy of the skill is generated and you're taken to the Guided Setup.
+A copy of the skill is generated and you're taken to the guided setup.
 
 ## What to do next
 
@@ -63,7 +55,7 @@ Continue the steps in the guided setup to activate the skill. For more informati
 If you're making a copy of the case or incident summarization skill and would like to learn more about your options, see the [documentation for configuring record summarization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md).
 
 -   **[Configure case or incident summarization in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-case-or-incident-summarization-in-the-now-assist-admin-console.md)**  
-Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields as well as customize the prompt output for copies of the record summarization skills.
+Configure case or incident summarization by using the guided setup in the AI Admin Hub console. You can choose the input tables and fields, and also customize the prompt output for copies of the record summarization skills.
 
-**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-admin_0.md)
 

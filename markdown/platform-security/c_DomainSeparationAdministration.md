@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/c\_DomainSeparationAdministration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Domain separation setup and administration, Domain separation for service providers, Access Management]
+breadcrumb: [Setup and administration, Domain separation for service providers, Access Management]
 ---
 
 # Advanced domain separation administration
@@ -60,4 +60,8 @@ The Domain Separation plugin has two new tables to give service providers more f
 [Enable verbose domain logging and debug messages]()
 
 [Post-Production Domain Separation Activation Utility]()
+
+[Domain Job Management]()
+
+[Delete by domain]()
 

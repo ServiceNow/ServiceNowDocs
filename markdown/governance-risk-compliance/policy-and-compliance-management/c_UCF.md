@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure the UCF integration using the UCF Common Controls Hub, Manage the UCF integration, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Integrate with UCF Common Controls Hub to manage compliance frameworks
@@ -30,13 +30,7 @@ If your organization wants to use UCF Common Controls Hub as the source for your
 
 ## Import authority document using single shared list
 
-Every authority document already imported into the ServiceNow® instance must be in any shared list you wish to import from the UCF CCH. This prevents inconsistencies between what is in the UCF CCH \(which may have changed\) and what you’ve already imported.
-
-\[Omitted image "cch-shared-okay.png"\] Alt text: Graphic shows all authority documents reimported with the new one
-
-\[Omitted image "cch-shared-not-okay.png"\] Alt text: Graphic shows a mismatch of the imported authority documents
-
-An error is rendered since SOX is not being reimported within this Shared List.
+Every authority document already imported into the ServiceNow® instance must be in any shared list you wish to import from the UCF CCH. This prevents inconsistencies between what is in the UCF CCH \(which may have changed\) and what you’ve already imported. An error is shown if any item in the shared list is not included for reimport.
 
 ## Import authority documents using multiple shared lists
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Request a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Submit a catering request
@@ -26,49 +26,15 @@ Use the **Catering** workplace service to request for food service for meetings 
 
 ## Procedure
 
-1.  Navigate to the portal from one of the following locations.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d433334e70">
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-Location
+3.  From the list of workplace services, select **Catering**.
 
-</th><th align="left" id="d433334e73">
+    Alternatively, you can search for the workplace service and select it from the search results.
 
-Navigation
-
-</th></tr></thead><tbody><tr><td id="d433334e79">
-
-**Workplace Service Portal**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
-
-The portal homepage opens.
-
-2.  Open the Site safety category.
-
-    1.  Select **Catalog**.
-    2.  Select **Browse by Categories**.
-    3.  In the Workplace Services Catalog, select **General**.
-**Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Select **Submit a maintenance request**.
-
-
-</td></tr><tr><td id="d433334e149">
-
-**Employee Center**
-
-</td><td>
-
-1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-2.  On the Employee Center landing homepage, select the **Workplace Services** &gt; **Maintenance**.
-3.  Select **Submit a maintenance request**
-
-
-</td></tr></tbody>
-</table>2.  On the Submit a **Catering** request form, fill in the fields.
+4.  On the form, fill in the fields.
 
 <table id="table_ld1_pnj_ybc"><thead><tr><th>
 
@@ -155,13 +121,13 @@ Delivery method
 Select **Delivery** method of the catering service.
 
 </td></tr></tbody>
-</table>3.  You can add service items to the reservation.
+</table>5.  You can add service items to the reservation.
 
     **Note:** This option appears only if there is atleast one service item available for the specific location.
 
     The availability of the service items is determined based on the service items notifications. For more information about adding a workplace service item to a workplace service, refer to [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/add-workplace-service-items.md)
 
-4.  Click **Submit**.
+6.  Click **Submit**.
 
 
 ## Result
@@ -172,7 +138,7 @@ The state of the request changes to Awaiting approval for approval by the respec
 
 For more information about blocking the workplace location for a reservation, refer to [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/block-workplace-location.md)
 
-**Parent Topic:**[Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

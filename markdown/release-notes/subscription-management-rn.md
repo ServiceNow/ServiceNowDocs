@@ -1,116 +1,56 @@
 ---
 title: Subscription Management release notes
-description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. See the following sections for release notes by version.Version 6.5 improves cloud capacity storage flexibility by pooling storage entitlements at the account level, enabling any instance to draw from your total available storage as needed.Starting in version 6.1, Moveworks consumption can be reported as part of your Assist meter.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/subscription-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [ServiceNow AI Platform administration release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Subscription Management release notes
 
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. See the following sections for release notes by version.
 
 ## About Subscription Management
 
--   View subscription allocations according to the number of active users.
--   Select all recommended groups when allocating subscriptions.
--   Manage subscriptions in an on-premise installation.
--   Manage custom application and table mapping through the platform, and learn why specific subscriptions are recommended when mapping custom tables and applications.
--   View subscribers by domain for user-based subscriptions.
+-   Gain visibility and control of your product subscriptions and their applications.
+-   Access a real-time view of your entitlement data.
+-   Maximize subscription usage and make informed decisions about purchases by viewing insights.
+-   Stay in compliance and avoid unexpected costs by tracking subscription usage and allocations over time.
 
 See [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscription-management-landing-page-v2.md) for more information.
-
-**Important:** Subscription Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    Subscription Management is a ServiceNow AI Platform feature that is active by default. Updates for Subscription Management are available through the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home). For cumulative release notes information for applications available on the ServiceNow Store, see [ServiceNow Store release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Upgrade information**
-
-    Subscription Management version 4.1 is active by default on all instances of the Yokohama release. Update to Subscription Management version 6.0.2 or later to use the latest features. For more information about updating Subscription Management, see [Update an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/update-application-app-mgr.md).
+    Subscription Management is a ServiceNow AI Platform feature that is active by default. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)
 
-## March 2026
+## Version 6.5
 
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.
-
-### What's changed
-
--   **[Hidden user-based subscription allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscriptions-overview-v2.md)**
-
-    To help prevent inaccuracy when allocations aren't complete, allocation details for user-based subscriptions are now hidden from the Subscription Management overview. Contact your account executive for user-based subscription allocation details.
-
-
-## January 2026
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.
+Version 6.5 improves cloud capacity storage flexibility by pooling storage entitlements at the account level, enabling any instance to draw from your total available storage as needed.
 
 ### What's changed
 
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
+-   **[Account-level cloud capacity storage pool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-cloud-entitlements.md)**
 
-    Now Assist usage measurement is evolving. If your instances are below Yokohama Patch 12, update Subscription Management to version 6.0.2 or later on all instances to avoid mixed measurement types. For more information, see [Now Assist Usage - Overview &amp; New Measurement Logic \[KB2704710\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
-## May 2025
-
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Manage custom applications and table mapping through the platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)**
-
-    Map any missing custom applications and tables in Subscription Management to a subscription directly from the Custom Applications list or Custom Table Inventory list.
-
--   **[Support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-subscription-mgmt.md)**
-
-    View and filter subscribers by domain for user-based subscriptions.
+    Cloud capacity storage is now pooled at the account level rather than capped at the instance level. This means your total storage entitlement can be used more flexibly, wherever it's needed across your environment.
 
 
-## Yokohama
+## Version 6.1
 
-The ServiceNow® Subscription Management application enables you to manage your subscriptions proactively and monitor subscription usage on your instances. Subscription Management was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **[Subscription allocation counts according to active users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscription-details-v2.md)**
-
-    View the total number of active users in a product subscription. Only active users count toward the subscription allocation totals that appear throughout Subscription Management.
-
--   **[Allocate subscriptions to all recommended groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/allocate-subscriptions-v2.md)**
-
-    Select all recommended groups when allocating subscriptions.
-
--   **[Support for on-premises installation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configuring-subscription-management-v2.md)**
-
-    Manage subscription usage using Subscription Management on-premises.
-
--   **[Recommended subscription reasoning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/addressing-issues-subscription-management-v2.md)**
-
-    Determine why Subscription Management displays a subscription recommendation when mapping custom tables or custom applications.
-
+Starting in version 6.1, Moveworks consumption can be reported as part of your Assist meter.
 
 ### What's changed
 
--   **[Allocation charts reflect only active users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/subscription-details-v2.md)**
+-   **[Support for Moveworks consumption tracking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
 
-    The Allocation summary and Allocation history charts on the subscription details page reflect only the subscriptions allocated to active users for each month following the upgrade.
+    Moveworks consumption can now be measured as part of your Assist meter, following the same subscription rules as other assist-based products. For more information about the timeline and required steps for integration, see [Moveworks Assist in Subscription Management: Rollout Timeline, Customer Actions &amp; FAQ \[KB3147691\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3147691) on the Now Support Knowledge Base.
 
--   **[Auditing App Engine V1 usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/allocating-custom-tables-subscr-apps-v2.md)**
-
-    The App Engine Usage dashboard has been restored. For details on auditing App Engine V1 usage, see the [Auditing App Engine v1 \[KB0999383\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0999383) article in the Now Support Knowledge Base.
-
-
-### What's deprecated or removed
-
-The Custom tables chart has been removed from the subscription details page.
 

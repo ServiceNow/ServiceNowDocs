@@ -1,22 +1,22 @@
 ---
 title: Workspace Builder components for home pages
-description: Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces in App Engine Studio \(AES\).
+description: Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/workspace-builder/workspace-builder-components-ref.html
 release: yokohama
 product: Workspace Builder
 classification: workspace-builder
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add a workspace, Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Reference, Workspace Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Workspace Builder components for home pages
 
-Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces in App Engine Studio \(AES\).
+Several UI Builder components are available as elements to build home pages and contextual side panels in Workspace Builder. Workspace Builder helps you quickly create workspaces.
 
-For complete details on all elements and components, see the [ServiceNow® Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/components%3F%26query=%26order_by=nameAsc%26limit=120%26offset=0%26categories%5B%5D=uib_component%26categories%5B%5D=uib_macroponent-component%26categories%5B%5D=uib_facades).
+For complete details on all elements and components, see the [ServiceNow® Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?availability[]=Draft&availability[]=In+Progress&availability[]=Available&categories[]=Dev-Design+System&releases[]=utah&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades).
 
 ## Data visualization components
 
@@ -26,7 +26,7 @@ For more information on data visualization components, see the following topics 
 
 -   [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-data-visualizations.md)
 -   [Create a single score data visualization in the Visualization Designer or on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-dv-sing-sc-ac.md)
--   [Data visualization component listing on the Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-par-visualization-base/overview)
+-   [Developer site data visualization component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-par-visualization-base/overview)
 
 \[Omitted image "wb-data-viz-purple-new.png"\] Alt text: Data visualization element to be edited
 
@@ -37,7 +37,7 @@ Filters enable you to filter data visualizations without modifying the visualiza
 For more information on using filters components to build a workspace, see the following topics and sources:
 
 -   [Next Experience filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/interactive-filters-workspace.md)
--   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/shared-components/sn-component-filter/overview)
+-   [Developer site filter component listing](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/sn-component-filter/overview)
 
 ## Heading components
 
@@ -47,7 +47,7 @@ The following image shows a "My Heading" heading.
 
 \[Omitted image "heading-component-purple.png"\] Alt text: Example heading component
 
-For more information on heading components, see [Heading component listing on the Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-heading/overview).
+For more information on heading components, see the [Heading Overview on the Developer site](https://developer.servicenow.com/dev.do#!/reference/now-experience/yokohama/now-components/now-heading/overview).
 
 ## Image components
 
@@ -57,7 +57,7 @@ When you drag the image component icon \(\[Omitted image "icon-image-component.j
 
 \[Omitted image "component-image-purple.png"\] Alt text: Sample image component
 
-For more information on image components, see the [Image component listing on the Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-image/overview).
+For more information on image components, see the [Developer site image component listing](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-image/overview).
 
 ## List components
 
@@ -67,7 +67,7 @@ When you drag the list component icon \(\[Omitted image "icon-list-component.jpg
 
 \[Omitted image "wb-list-component-purple.png"\] Alt text: Sample list component
 
-For more information on list components, see the [List component listing on the Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected/overview).
+For more information on list components, see the [Developer site List component reference](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-record-list-connected/overview).
 
 ## Rich text components
 
@@ -75,7 +75,7 @@ Add text to your landing page with a rich text component to explain parts of you
 
 \[Omitted image "wb-rich-text-component-purple.png"\] Alt text: Sample rich text component
 
-For more information on rich text components, see the [Rich text component listing on the Developer site](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-rich-text/overview).
+For more information on rich text components, see the [Developer site Rich text component reference](https://developer.servicenow.com/dev.do#!/reference/next-experience/yokohama/now-components/now-rich-text/overview).
 
-**Parent Topic:**[Add a workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/add-workspace.md)
+**Parent Topic:**[Workspace Builder reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/workspace-builder/workspace-builder-reference.md)
 

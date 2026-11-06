@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Handling external events using Telecommunications API, Telecommunications Service Operations Management]
+breadcrumb: [Configure API notifications, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Create a topic subscription
@@ -105,7 +105,7 @@ A trigger definition is created for the callback URL and the topic is registered
 
 ## What to do next
 
-In the Workflow Studio, you activate the endpoints of the Telecommunications Alarm Management Open API connection.
+In the Workflow Studio, you activate the endpoints of the Telecommunications Alarm Management Open API connection. For more information, see [Activate the Telecommunications Alarm Management Open API endpoint](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/activate-endpoint-in-the-telecommunications-alarm-management-open-api.md).
 
-**Parent Topic:**[Handling external events using Telecommunications API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
+**Parent Topic:**[Configuring Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/configuring-telecommunications-api-notifications.md)
 

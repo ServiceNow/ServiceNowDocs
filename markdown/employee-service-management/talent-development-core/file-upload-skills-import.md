@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills import, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Skills import, Skills Workspace, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Import skills through file upload
@@ -24,7 +24,7 @@ Role required: sn\_skills\_int.admin
 
 1.  Navigate to **All** &gt; **Skills Workspace**.
 
-2.  Select the Lists icon \(\[Omitted image "list-icon-hs.png"\] Alt text: Lists icon\).
+2.  Select the Lists icon \(\[Omitted image "icon-list.png"\] Alt text: Lists icon\).
 
 3.  Select **Import history** &gt; **Queue**.
 

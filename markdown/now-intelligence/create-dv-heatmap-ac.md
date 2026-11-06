@@ -1,23 +1,23 @@
 ---
-title: Create a heatmap visualization in the Visualization Designer
+title: Create a heatmap data visualization
 description: Use a heatmap visualization to show the relationship between two table fields or indicator breakdowns. The changes in color as you move along the axes reveal patterns in the value of one or both fields/breakdowns.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-dv-heatmap-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [Create heatmap report, Create heatmap visualization]
 breadcrumb: [Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Create a heatmap visualization in the Visualization Designer
+# Create a heatmap data visualization
 
 Use a heatmap visualization to show the relationship between two table fields or indicator breakdowns. The changes in color as you move along the axes reveal patterns in the value of one or both fields/breakdowns.
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -25,28 +25,146 @@ For information about the use of a Heatmap visualization in a dashboard, see [th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-2.  Select **New**.
+2.  Select **Create data visualization**.
 
 3.  Select the Heatmap \(\[Omitted image "inline-data-vis-heatmap.png"\] Alt text: Heatmap icon\) visualization type.
 
 4.  Configure the **Header and border**. Header and border options are the same for all data sources.
 
-    |Header and border fields|Description|
-    |------------------------|-----------|
-    |Show header|The visualization header, including title and icons.|
-    |Show header separator|Option to display a line separating the header from the rest of the component.|
-    |Chart title|Title of the visualization.|
-    |Description|A short overview about the visualization that the end user sees.|
-    |Wrap title|Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.|
-    |Wrap labels|Select to wrap long elements labels on the axis.|
-    |Max label size, px|Specify the maximum label size for element names on the axis. Default=100 px.|
-    |Truncation type|Specify where to truncate long labels with an ellipsis. Options are Beginning, Middle, and End.|
-    |Show border|Option to display a line around the component.|
-    |Bare|Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.|
+    None of the **Header and border** fields is required.
 
-5.  Choose a data source.
+<table id="table_ly5_djk_c5b"><thead><tr><th>
+
+Header and border fields
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="ac-dv-showborder"><td>
+
+Show border
+
+</td><td>
+
+Option to display a line around the component.
+
+</td></tr><tr id="ac-dv-showheader"><td>
+
+Show header
+
+</td><td>
+
+The visualization header, including title and icons.
+
+</td></tr><tr id="ac-dv-showheadersep"><td>
+
+Show header separator
+
+</td><td>
+
+Option to display a line separating the header from the rest of the component.
+
+</td></tr><tr id="ac-dv-charttitle"><td>
+
+Chart title
+
+</td><td>
+
+Title of the visualization.
+
+</td></tr><tr id="ac-dv-title-align"><td>
+
+Title alignment
+
+</td><td>
+
+Choose Start to align the title with the start of line, End to align it with the end of the line, or Center for center alignment.
+
+</td></tr><tr id="ac-dv-chartdesc"><td>
+
+Description
+
+</td><td>
+
+A short overview about the visualization that the end user sees. Descriptions help users find the visualization.
+
+</td></tr><tr id="ac-dv-wraptitle"><td>
+
+Wrap title
+
+</td><td>
+
+Option to wrap long titles onto a second line. If false, displays an ellipsis to truncate long titles.
+
+</td></tr><tr id="ac-dv-wraplabels"><td>
+
+Wrap labels
+
+</td><td>
+
+Select to wrap long elements labels on the axis.
+
+</td></tr><tr id="ac-dv-maxlabelsize"><td>
+
+Max label size, px
+
+</td><td>
+
+Specify the maximum label size for element names on the axis. Default=100 px.
+
+</td></tr><tr id="ac-dv-truncationtype"><td>
+
+Line of truncation
+
+</td><td>
+
+Specify where to truncate long labels with an ellipsis. Options are 1, 2, and 3.
+
+</td></tr><tr id="ac-dv-bare"><td>
+
+Bare
+
+</td><td>
+
+Option to remove padding around data visualization to provide more compact positioning on the page. Only available when **Show border** is turned off.
+
+</td></tr><tr id="ac-dv-showrefreshoption"><td>
+
+Show refresh option
+
+</td><td>
+
+Option to show or hide the refresh option from data visualizations. If cache is enabled on a dashboard, the Refresh option is hidden.
+
+</td></tr><tr id="ac-dv-show-export-option"><td>
+
+Show export options
+
+</td><td>
+
+Option to show or hide the visualization's export types.
+
+</td></tr><tr><td>
+
+Header background color
+
+</td><td>
+
+Specify the color behind the title of the visualization.
+
+</td></tr><tr><td>
+
+Title color
+
+</td><td>
+
+Specify the text color of the title. The default title color is black, but you can choose a color that contrasts better with the header background. Only available when **Header background color** is selected.
+
+</td></tr></tbody>
+</table>5.  Choose a data source.
 
     For general descriptions of the data sources, see [Data sources for data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/data-sources-visualizations.md).
 
@@ -60,7 +178,7 @@ For information about the use of a Heatmap visualization in a dashboard, see [th
 
     -   Indicator \(available in the base system\). You can filter the indicator scores by breakdowns and elements.
 
-        **Note:** Benchmark indicators are not supported.
+        **Note:** Benchmark indicators aren't supported.
 
         \[Omitted image "dv-ind-source-con-filter.png"\] Alt text: Conditional filter for indicator data source on data visualization.
 
@@ -93,6 +211,14 @@ Show data table
 </td><td>
 
 Shows a table with chart and graph data for easier screen reader access. Data includes the percentage of the total for each value, when appropriate.
+
+</td></tr><tr><td>
+
+Show % of total in tooltip
+
+</td><td>
+
+Enable to show the percentage each data point contributes to the total alongside absolute values in the tooltip.
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -143,7 +269,7 @@ Type of color scheme to apply to the component. The choices are:
 
 
 </td></tr></tbody>
-</table>8.  Under **Chart interaction**, set what if anything happens when a viewer clicks a chart or a chart segment on the visualization.
+</table>8.  Under **Chart interaction**, set what if anything happens when a viewer selects a chart or a chart segment on the visualization.
 
 <table id="table_qnp_d2d_b1c"><thead><tr><th>
 
@@ -159,7 +285,7 @@ Allow chart interaction
 
 </td><td>
 
-Enable an event to occur when a user clicks in a chart or one of its segments.
+Enable an event to occur when a user selects a visualization or one of its segments.
 
 </td></tr><tr><td>
 
@@ -167,23 +293,20 @@ Action
 
 </td><td>
 
-Choose the event that occurs when a user clicks in a chart or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md).
+Choose the event that occurs when a user selects in a visualization or one of its segments. Choices depend on the visualization type and data source. Applies only when **Allow chart interaction** is on. For more information, see [Chart interactions in a data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dv-chart-interactions.md).
 
--   **Go to data view** opens the records view in a Core UI list or KPI Details relevant to the associated segment or visualization. Records do not open in Workspace embedded lists.
-
-Not supported for User Experience Analytics data sources.
-
+-   **Go to data view** opens a list view, KPI Details page, or Usage Insights overview page relevant to the associated segment or visualization. For table data, a system property determines whether a Core UI list or a Platform Analytics list opens. For more information, see [Data views for different data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/visualization-drilldown-in-config-ws.md).
 -   **Go to URL** opens the specified URL, which can be on the instance or external. You have the option of specifying a page name to appear in the tooltip, for those visualizations with tooltips.
 -   **Drill down to chart** \(Visualization Designer only\) Opens a different data visualization that is filtered by the selected data. You can add a drill-down visualization for each metric on the parent visualization.
 
-**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records do not open in Workspace embedded lists.
+**Note:** The last level of drill down in the Platform Analytics experience is always a Core UI list. Records don't open in Workspace embedded lists.
 
 **Drill down to chart** supports only table data sources.
 
 </td></tr></tbody>
 </table>9.  Select **Save**.
 
-    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the Data Visualization list.
+    Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** to return to the data visualization list.
 
 
 ## What to do next

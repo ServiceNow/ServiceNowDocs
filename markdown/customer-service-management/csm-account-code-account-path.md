@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-account-code-account-path.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Import accounts and contacts with guided setup, Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Import accounts and contacts with guided setup, Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Account codes and account paths
@@ -99,7 +99,7 @@ Boxeo France
 </td></tr></tbody>
 </table>## Importing account records
 
-If you create your account records by importing the data from some source system through a transform map, make sure you execute the business rules. The Account Path is added, updated, and deleted based on the insertion, updating, and deletion of records in the Account \[customer\_account\] table through the business rules. If the business rules are not executed, it can result in empty account paths, which can then result in data access issues.
+If you create your account records by importing the data from some source system through a transform map, make sure that you execute the business rules. The Account Path is added, updated, and deleted based on the insertion, updating, and deletion of records in the Account \[customer\_account\] table through the business rules. If the business rules aren’t executed, it can result in empty account paths, which can then result in data access issues.
 
-**Note:** If you do not execute the business rules during import, run the script in the **Update account path** business rule for the newly imported records to set the account paths correctly.
+**Note:** If you don’t execute the business rules during import, run the script in the **Update account path** business rule for the newly imported records to set the account paths correctly.
 

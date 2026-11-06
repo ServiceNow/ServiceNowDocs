@@ -7,7 +7,7 @@ release: yokohama
 product: Employee Journey Management
 classification: employee-journey-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Lifecyle events for enterprise integrations, Lifecyle events for enterprise, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
@@ -37,8 +37,6 @@ Once the integration is set up, you can use the it with new hire onboarding. The
 The application provisioning process works as follows. When an onboarding case is created, the hiring manager receives a task to assign business roles for the new hire. Once assigned, IT then receives a request to supervise the provisioning of those applications. When the provisioning is complete, the new hire should see their applications in the Microsoft Entra ID service.
 
 **Important:** New hires must have a user record in the Microsoft Entra ID system in order for their applications to be provisioned to them.
-
-\[Omitted image "microsoft-azure-ad-integration-for-new-hire-onboarding.png"\] Alt text: Application provisioning process for the Microsoft Azure AD integration for new hire onboarding.
 
 -   **[Set up the Microsoft Entra ID integration for new hire onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-journey-management/set-up-microsoft-azure-ad-integration-for-new-hire-onboarding.md)**  
 To set up the Microsoft Entra ID integration for new hire onboarding, you must first set up the Microsoft Entra ID spoke, next configure the remote directory sync to fetch the groups into your instance, and last configure the required business roles.

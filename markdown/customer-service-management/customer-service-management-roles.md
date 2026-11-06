@@ -1,14 +1,14 @@
 ---
 title: Customer Service Management roles
-description: The Customer Service Management \(CSM\) application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between users. CSM is installed with certain basic and primary roles.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this role to create cases, view and edit cases, and work with customers and subject matter experts to resolve cases. This role helps agents assist customers and partners with questions, issues, and problems.Use this role with the additional responsibility for managing agents or agent groups and overriding agent actions. A customer service agent can also use this role with the additional capability of this role.Use this role to create cases, view and edit cases, and work with customers and subject matter experts to resolve cases. This role helps agents assist consumers with questions, issues, and problems.Assign this role to customers for researching questions, issues, or problems. Customers can create cases, and view and edit existing cases. They can also view a list of assets belonging to their accounts.Use this Administrator role for a customer account. This user has access to data within the account.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Assign this Customer role for managing the cases in an account and any related child accounts.Assign this role to create a case for the partner's own account or on behalf of a customer account.Assign this administrator role to a user with a partner account.Assign this Consumer role to users for researching questions, issues, or problems.
+description: The Customer Service Management \(CSM\) application uses roles to provide access to information, identify internal and external users, maintain data security, and establish different types of relationships between users. CSM is installed with certain basic and primary roles.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.Use this role to create cases, view and edit cases, and work with customers and subject matter experts to resolve cases. This role helps agents assist customers and partners with questions, issues, and problems.Use this role with the additional responsibility for managing agents or agent groups and overriding agent actions. A customer service agent can also use this role with the additional capability of this role.Use this role to create cases, view and edit cases, and work with customers and subject matter experts to resolve cases. This role helps agents assist consumers with questions, issues, and problems.Assign this role to customers for researching questions, issues, or problems. Customers can create cases, and view and edit existing cases. They can also view a list of assets belonging to their accounts.Use this Administrator role for a customer account. This user has access to data within the account.Assign this Customer role for managing the cases in an account and any related child accounts.Assign this role to create a case for the partner's own account or on behalf of a customer account.Assign this administrator role to a user with a partner account.Assign this Consumer role to users for researching questions, issues, or problems.Can create, view, update and delete records in the following table:​ ​ Customer Service Case \[sn\_customerservice\_case\]​The recipients list user can create and view recipient lists.Can create, view, update and delete records in the following table:​ ​ Case type \[sn\_case\_type\]​Can delete records in the following table:​ ​ Case Digest \[sn\_csm\_case\_digest\_task\]​. ​ Can create, view, update and delete records in the following table:​ ​ Case Digest Configuration \[sn\_csm\_case\_digest\_config\]​.Can read records in the following table:​ ​ Case Action Summary \[sn\_csm\_case\_digest\_cas\],​ Post Case Review \[sn\_csm\_case\_digest\_pcr\]​. ​ Can create, view, update and delete records in the following table:​ ​ CS Document Template \[sn\_csm\_doctemplate\_template\]​Can read records in the following table:​ ​Customer Project Task \[customer\_project\_task\]​Can read records in the Customer Project \[customer\_project\] table, and read and write records in the Customer Project Task \[customer\_project\_task\] table \(without delete\).Has read-only access to Customer Project \[customer\_project\] table and the Customer Project Task \[customer\_project\_task\] table.Can create, view, update and delete records in the following table:​ ​ Task Plan Category \[sn\_task\_plan\_category\]​, Task Plan Template Configuration \[sn\_task\_plan\_config\]​, Task Plan Configuration Category \[sn\_task\_plan\_config\_category\]​, Task Plan Template \[sn\_task\_plan\_template\]​, Task Plan Template Access \[sn\_task\_plan\_template\_access\]​, Task Plan Template Category \[sn\_task\_plan\_template\_category\]​, Task Plan Template Execution \[sn\_task\_plan\_template\_execution\]​, Template Item \[sn\_task\_plan\_template\_item\]​, Template Item Condition \[sn\_task\_plan\_template\_item\_condition\]​, Template Item Configuration \[sn\_task\_plan\_template\_item\_config\]​Can create, view, update and delete records in the following tables:​ ​ Related Record Definition \[sn\_related\_record\_definition\]​, Related Record Context \[sn\_related\_record\_context\]​, Context Related Record Definition \[sn\_m2m\_context\_related\_record\_defn\]​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-service-management-roles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 11
-keywords: [Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Base roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles]
-breadcrumb: [Customer Service Management reference, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+keywords: [Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Base roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Primary roles, Customer Service Management Base roles]
+breadcrumb: [Reference, Customer Service Management]
 ---
 
 # Customer Service Management roles
@@ -46,6 +46,7 @@ List of roles contained within the role.
 -   cmdb\_read
 -   agent\_schedule\_user
 -   interaction\_agent
+-   sn\_publications\_recipients\_list\_user
 
 ### Groups
 
@@ -159,6 +160,26 @@ All users.
 
 For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
 
+## Role for REST APIs related to CSM web services \[csm\_ws\_integration\]
+
+Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.
+
+### Contains Roles
+
+List of roles contained within the role.
+
+snc\_internal
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+All users.
+
+### Special considerations
+
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
+
 ## Customer service agent \[sn\_customerservice\_agent\]
 
 Use this role to create cases, view and edit cases, and work with customers and subject matter experts to resolve cases. This role helps agents assist customers and partners with questions, issues, and problems.
@@ -218,11 +239,13 @@ List of roles contained within the role.
 -   skill\_model\_user
 -   sn\_templated\_snip.template\_snippet\_writer
 -   approver\_user
+
+    **Note:** For customers upgrading to Xanadu, the approver\_user role replaces the approval\_admin role. Users with the customer service manager role can approve the approval requests that are assigned to them.
+
 -   notify\_view
 
-**Note:** For customers upgrading to Xanadu, the approver\_user role replaces the approval\_admin role. Users with the customer service manager role can approve the approval requests that are assigned to them.
+    **Note:** The notify\_view role is added to the sn\_customerservice\_manager role only when the Chat Zoom Connector application is installed.
 
-**Note:** The notify\_view role is added to the sn\_customerservice\_manager role only when the Chat Zoom Connector application is installed.
 
 ### Groups
 
@@ -297,26 +320,6 @@ List of roles contained within the role.
 List of groups this role is assigned to by default.
 
 All users with an administrator role for a customer account.
-
-### Special considerations
-
-For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
-
-## Role for REST APIs related to CSM web services \[csm\_ws\_integration\]
-
-Use this Base role to access all features available within Customer Service Management. This role is available and installed with the Customer Service Base Entities plugin.
-
-### Contains Roles
-
-List of roles contained within the role.
-
-snc\_internal
-
-### Groups
-
-List of groups this role is assigned to by default.
-
-All users.
 
 ### Special considerations
 
@@ -427,4 +430,187 @@ All users with the assigned Consumer role.
 ### Special considerations
 
 Consumers can create cases and view and edit existing cases for products that they have purchased. They can also view a list of their products. For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
+
+## Customer Service Case Admin  \[sn\_customerservice.case\_admin​\]
+
+Can create, view, update and delete records in the following table:​ ​ Customer Service Case \[sn\_customerservice\_case\]​
+
+### Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+**Note:** Limited fields accessibility. No full privilege. ​ ​
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
+
+## Recipients list user \[sn\_publications\_recipients\_list\_user\]
+
+The recipients list user can create and view recipient lists.
+
+### Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+All users.
+
+### Special considerations
+
+For more information see [Roles installed with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_RolesInstalledWithCustomerService.md).
+
+## Case Type Configuration Admin \[sn\_csm\_case\_type.config\_admin\]
+
+Can create, view, update and delete records in the following table:​ ​ Case type \[sn\_case\_type\]​
+
+### Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
+
+## Case Digest Admin  \[sn\_csm\_case\_digest.admin​\]
+
+Can delete records in the following table:​ ​ Case Digest \[sn\_csm\_case\_digest\_task\]​. ​ Can create, view, update and delete records in the following table:​ ​ Case Digest Configuration \[sn\_csm\_case\_digest\_config\]​.
+
+### Contains Roles
+
+List of roles contained within the role.
+
+sn\_csm\_doctemplate.admin​.
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
+
+## Doc Template Admin \[sn\_csm\_doctemplate.admin​\] ​
+
+Can read records in the following table:​ ​ Case Action Summary \[sn\_csm\_case\_digest\_cas\],​ Post Case Review \[sn\_csm\_case\_digest\_pcr\]​. ​ Can create, view, update and delete records in the following table:​ ​ CS Document Template \[sn\_csm\_doctemplate\_template\]​
+
+### Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
+
+## Project Portfolio Management Admin  \[sn\_csm\_ppm.admin\]
+
+Can read records in the following table:​ ​Customer Project Task \[customer\_project\_task\]​
+
+### Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
+
+## Project Portfolio Management Task Writer \[sn\_csm\_ppm.project\_task\_writer​\]
+
+Can read records in the Customer Project \[customer\_project\] table, and read and write records in the Customer Project Task \[customer\_project\_task\] table \(without delete\).
+
+### Contains Roles
+
+Roles contained within the role.
+
+Project Portfolio Management Viewer \[sn\_csm\_ppm.viewer\].
+
+## Customer Project Portfolio Management Viewer \[sn\_csm\_ppm.viewer\]
+
+Has read-only access to Customer Project \[customer\_project\] table and the Customer Project Task \[customer\_project\_task\] table.
+
+### Contains Roles
+
+None.
+
+## Task Plan Admin  \[sn\_task\_plan.admin​\]
+
+Can create, view, update and delete records in the following table:​ ​ Task Plan Category \[sn\_task\_plan\_category\]​, Task Plan Template Configuration \[sn\_task\_plan\_config\]​, Task Plan Configuration Category \[sn\_task\_plan\_config\_category\]​, Task Plan Template \[sn\_task\_plan\_template\]​, Task Plan Template Access \[sn\_task\_plan\_template\_access\]​, Task Plan Template Category \[sn\_task\_plan\_template\_category\]​, Task Plan Template Execution \[sn\_task\_plan\_template\_execution\]​, Template Item \[sn\_task\_plan\_template\_item\]​, Template Item Condition \[sn\_task\_plan\_template\_item\_condition\]​, Template Item Configuration \[sn\_task\_plan\_template\_item\_config\]​
+
+### Contains Roles
+
+List of roles contained within the role.
+
+-   sn\_task\_plan.creator​
+-   sn\_task\_plan.delete
+-   sn\_task\_plan.report\_viewer​
+-   sn\_task\_plan.navigation\_menu​
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
+
+## UIB Dynamic Related Records Admin \[sn\_uib\_dyn\_rel\_rec.admin​\]
+
+Can create, view, update and delete records in the following tables:​ ​ Related Record Definition \[sn\_related\_record\_definition\]​, Related Record Context \[sn\_related\_record\_context\]​, Context Related Record Definition \[sn\_m2m\_context\_related\_record\_defn\]​
+
+### Contains Roles
+
+List of roles contained within the role.
+
+None.
+
+### Groups
+
+List of groups this role is assigned to by default.
+
+None.
+
+### Special considerations
+
+None.
 

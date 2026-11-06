@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Association of citations to controls, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Association of citations to controls, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Factors affecting compliance score for citations
@@ -18,10 +18,10 @@ Compliance scores for citations dynamically change based on changes to controls 
 
 ## Property dependency
 
--   When the system property, Enable association of Citations to Controls Mapping is Off, compliance scores are calculated using the old formula: Average of child citations + Average of associated control objectives.
--   When the property is ON, compliance scores use the new formula: \(Average of child citations + Average of directly linked controls\) ÷ 2.
+-   When the system property **Enable association of Citations to Controls Mapping** isturned off, compliance scores are calculated using the old formula: Average of child citations + Average of associated control objectives.
+-   When the property is turned on, compliance scores use the new formula: \(Average of child citations + Average of directly linked controls\) ÷ 2.
 -   After enabling the property:
-    -   Run the scheduled job Calculate All Citations and Authority Documents Compliance Score to recalculate scores.
+    -   Run the scheduled job **Calculate All Citations and Authority Documents Compliance Score** to recalculate scores.
     -   Disable the periodic job Compliance Score V2 during recalculation to avoid conflicts.
 
 ## Manual actions

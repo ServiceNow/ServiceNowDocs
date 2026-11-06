@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/check-otm-ci-count.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 3
 breadcrumb: [Operational Technology Management licensing and subscriptions, Operational Technology]
 ---
@@ -28,7 +28,7 @@ ServiceNow incurs charges for the usage of ServiceNow OT Foundation, ServiceNow 
 The procedure for gathering and consolidating data for licensing purposes involves the following series of actions:
 
 1.  The OTM licensing system calculates the daily count of configuration items \(CIs\) managed by each OTM product, subsequently categorizing these CI counts into distinct licensable CI categories.
-2.  In cases where identical configuration items \(CIs\) are being managed by various features within the same OTM products, adjustments are made to eliminate any duplications in the CI count.
+2.  In some cases, identical configuration items \(CIs\) can be managed by various features within the same OTM products. In such cases, adjustments are made to eliminate any duplications in the CI count.
 3.  In cases where IT configuration items \(IT CIs\) are categorized as OT configuration items, the CIs are counted only once - under OTM licensing and not under ITOM licensing.
 4.  The licensing module consolidates CI counts from OTM applications to calculate the average of the daily CI count for the last 90 days.
 
@@ -53,8 +53,6 @@ You can access OTM Subscription Unit \(SU\) consumption categorized by domain. T
 ## Procedure
 
 1.  Navigate to **OTM License** &gt; **License Report**.
-
-    \[Omitted image "otm-ci-counts.png"\] Alt text: The License Report window showing subscription statistics for the OTM applications a la carte.
 
 2.  View the average of daily CI counts for the last 90 days.
 

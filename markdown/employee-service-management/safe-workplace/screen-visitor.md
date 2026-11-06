@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Employee Health Screening, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -39,15 +39,15 @@ A visitor must be invited before they can be screened for entry. If an uninvited
 
 3.  Take one of the following actions to perform the health screen.
 
-<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d545046e164">
+<table id="choicetable_pjf_l3s_zlb"><thead><tr><th align="left" id="d590540e164">
 
 Option
 
-</th><th align="left" id="d545046e167">
+</th><th align="left" id="d590540e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d545046e173">
+</th></tr></thead><tbody><tr><td id="d590540e173">
 
 **Smartphone or tablet**
 
@@ -55,7 +55,7 @@ Action
 
 Tap **Screening** &gt; **Request Visitor Entry**.
 
-</td></tr><tr><td id="d545046e191">
+</td></tr><tr><td id="d590540e191">
 
 **Computer**
 

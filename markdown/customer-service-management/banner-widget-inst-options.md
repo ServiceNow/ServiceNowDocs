@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/banner-widget-inst-options.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configurable Portal widgets instance options, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Configurable Portal widgets instance options, Configurable Portal Widgets reference, Reference, Customer Service Management]
 ---
 
 # Portal Banner widget instance options form
@@ -40,7 +40,7 @@ Description
 
 </td><td>
 
-Required subtitle that appears below the heading. The default description is `This is home page description`.
+Required subtitle that appears under the heading. The default description is `This is home page banner description`.
 
 </td></tr><tr><td>
 

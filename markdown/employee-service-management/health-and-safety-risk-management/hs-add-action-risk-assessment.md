@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Risk Management
 classification: health-and-safety-risk-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Safety risk assessment, Use, Health and Safety Risk Management, Health and Safety, Employee Service Management]
 ---
@@ -18,7 +18,11 @@ Add an action to address an identified risk or implement control measures necess
 
 ## Before you begin
 
-Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessment\_writer
+Role required: sn\_hs\_rm.risk\_assessment\_manager, sn\_hs\_rm.risk\_assessment\_writer, or sn\_ohs\_im.action\_writer
+
+## About this task
+
+You can add actions from the Actions tab on a Health and Safety record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
 
 ## Procedure
 
@@ -28,15 +32,15 @@ Role required: sn\_hs\_rm.risk\_assessment\_manager or sn\_hs\_rm.risk\_assessme
 
 3.  Create an action from a risk assessment record or the Risk actions list.
 
-<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d714711e81">
+<table id="choicetable_nd5_sdp_c1c"><thead><tr><th align="left" id="d772196e97">
 
 Option
 
-</th><th align="left" id="d714711e84">
+</th><th align="left" id="d772196e100">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d714711e90">
+</th></tr></thead><tbody><tr><td id="d772196e106">
 
 **From a Risk assessment record \(Scheduled actions\)**
 
@@ -50,7 +54,7 @@ For more information, see [Create a Health and Safety action schedule](https://r
 
  The action schedule creates actions in the **Risk actions** tab and auto-assigns them to individuals using the condition builder.
 
-</td></tr><tr><td id="d714711e135">
+</td></tr><tr><td id="d772196e151">
 
 **From the Risk actions list**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Integrating with GitHub, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 10
+breadcrumb: [Integrating with GitHub, Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrate with GitHub Enterprise Cloud
@@ -54,6 +54,7 @@ Organization owner
 
 -   read:org
 -   repo
+-   read:audit\_log
 
 </td></tr><tr><td>
 
@@ -68,7 +69,9 @@ Organization owner
 write:org
 
 </td></tr></tbody>
-</table>## Generate an API access token for GitHub Enterprise Cloud
+</table>The GitHub Enterprise Cloud integration is currently limited to users with Enterprise plans only.
+
+## Generate an API access token for GitHub Enterprise Cloud
 
 Generate a token that you can use to access the GitHub Enterprise Cloud API.
 
@@ -92,11 +95,11 @@ The GitHub repository hosting service uses personal access tokens to grant users
 
     Your profile settings open.
 
-4.  From the left navigation pane, select **Developer Settings**.
+4.  From the side navigation pane, select **Developer Settings**.
 
     Your developer settings open.
 
-5.  From the left navigation pane, select **Personal access tokens**.
+5.  From the side navigation pane, select **Personal access tokens**.
 
 6.  Select **Tokens \(classic\)**.
 
@@ -108,17 +111,19 @@ The GitHub repository hosting service uses personal access tokens to grant users
 
 10. On the New personal access token form, describe the purpose of the token in the **Note** field.
 
-11. To give your token an expiration, select the Expiration drop-down menu and select a default value or use the calendar picker.
+11. To give your token an expiration, select the **Expiration** drop-down menu and select a default value or use the calendar picker.
 
-12. In the Select scopes form section, enable the repo, write:org, and read:org OAuth scopes.
+12. In the Select scopes form section, enable the repo, write:org, read:org, and read:audit\_log OAuth scopes.
 
-    OAuth scopes limit the level of access that the application has to your protected resources. The repo OAuth scope gives you full control of your private repositories. The write:org and read:org OAuth scopes enable you to manage your entire organization, including all teams, projects, and memberships. See [Scopes for OAuth Apps](https://docs.github.com/en/free-pro-team@latest/developers/apps/scopes-for-oauth-apps) for more information about GitHub OAuth scopes.
+    OAuth scopes limit the level of access that the application has to your protected resources. The repo OAuth scope gives you full control of your private repositories. The write:org and read:org OAuth scopes enable you to manage your entire organization, including all teams, projects, and memberships. The read:audit\_log OAuth scope gives you access to the audit log data to track accurate user activity. See [Scopes for OAuth Apps](https://docs.github.com/en/free-pro-team@latest/developers/apps/scopes-for-oauth-apps) for more information about GitHub OAuth scopes.
 
     1.  Enable the repo OAuth scope by selecting the **repo** check box.
 
         By enabling this OAuth scope, you automatically enable the repo:status, repo\_deployment, public\_repo, repo:invite, and security\_events OAuth scopes.
 
     2.  Enable the write:org and read:org OAuth scope.
+
+    3.  Enable the read:audit\_log OAuth scope.
 
 13. Select **Generate token**.
 
@@ -139,9 +144,11 @@ Create a GitHub Enterprise Enterprise Cloud integration profile to track softwar
 
 To create a GitHub Enterprise Cloud integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **GitHub Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
+
+If you're upgrading from Yokohama or Zurich release, then you must reconfigure your GitHub Enterprise Cloud integration profile.
 
 ### About this task
 
@@ -151,15 +158,15 @@ If you’re using Software Asset Workspace, the option to create the GitHub Clou
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d44448e498">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d41909e526">
 
 Interface
 
-</th><th align="left" id="d44448e501">
+</th><th align="left" id="d41909e529">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d44448e507">
+</th></tr></thead><tbody><tr><td id="d41909e535">
 
 **Core UI**
 
@@ -170,7 +177,7 @@ Action
 3.  Select **GitHub Cloud Integration Profile**.
 
 
-</td></tr><tr><td id="d44448e549">
+</td></tr><tr><td id="d41909e577">
 
 **Software Asset Workspace**
 
@@ -217,7 +224,7 @@ Profile type
 
 </td><td>
 
-Type of integration profile. This field is automatically set to **github\_cloud\_subscription**.
+Type of integration profile. This field is automatically set to **GitHub Cloud Subscription**.
 
 </td></tr></tbody>
 </table>3.  Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
@@ -236,7 +243,7 @@ Type of integration profile. This field is automatically set to **github\_cloud\
 
         **Note:** The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Activity** isn't created.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -254,7 +261,7 @@ Type of integration profile. This field is automatically set to **github\_cloud\
 
     The **Connection &amp; Credential** field appears and is automatically set to **sn\_github\_spoke.GitHub**.
 
-5.  Open the connection &amp; credential aliases record by selecting the preview icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview icon.\) next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
@@ -324,6 +331,18 @@ The &lt;*api-key*&gt; is the personal access token that you generated in [Genera
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
+
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

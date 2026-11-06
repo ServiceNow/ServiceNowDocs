@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_OverrideOrRmvAUIActionForExtTbl.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Defining UI actions, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [UI actions, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Override a UI action for an extended table
@@ -16,7 +16,9 @@ You can override or remove a UI action for a table that is extended from another
 
 ## Before you begin
 
-This is not applicable to domain separated instances.
+Role required: ui\_action\_admin or admin
+
+**Note:** This is not applicable to domain separated instances.
 
 ## About this task
 

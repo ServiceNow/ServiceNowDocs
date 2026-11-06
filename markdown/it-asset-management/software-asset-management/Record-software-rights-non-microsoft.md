@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create entitlements in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management]
+breadcrumb: [Create entitlements in Software Asset Management classic, Using Software Asset Management classic, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create maintenance entitlements in Software Asset Management classic
@@ -18,7 +18,7 @@ Define license details, for all publishers other than Microsoft, to manage all y
 
 ## Before you begin
 
-Role required: admin
+Role required: sam\_admin
 
 ## Procedure
 

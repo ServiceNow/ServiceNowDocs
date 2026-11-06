@@ -7,26 +7,26 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Setting up Legal Matter Management
 
 Configure the foundation data for legal matters through Legal Matter Management to provide legal services to employees.
 
-As an administrator, review the installed components and modify them or add new ones as applicable.
+## Configuration overview
 
--   **[Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-administration.md)**
+-   [Legal matter templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/legal-matter-administration.md)
 
     Create legal matter templates to standardize legal procedures​ for handling legal matters.
 
--   **[Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateANotification.md)**
+-   [Email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateANotification.md)
 
     Configure email notifications to be sent when specific events occur, such as when a legal matter is assigned to a matter owner or when a matter is closed or canceled.
 
--   **[Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)**
+-   [Configure Legal Matter Management to engage with outside counsel using Legal Tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/configurations-for-legal-tracker-integration.md)
 
     Configure the requirements to enable outside counsel engagement and matter creation in Legal Tracker.
 

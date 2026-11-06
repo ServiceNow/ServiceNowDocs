@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Concierge
 classification: workplace-concierge
 topic_type: reference
-last_updated: "2025-07-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Workplace Concierge - Components, Workplace Concierge, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Workplace Concierge
@@ -51,5 +51,12 @@ Employee Presence Exceptions
 If the presence status is changed from **In-office** to **Remote**, a record is created in the Employee Presence Exceptions table \(**All** &gt; **Workplace Concierge** &gt; **Employee Presence** &gt; **Exceptions**\). If the presence status is changed from "**In-office** or **Remote**" to "**Visit another office**," a record is created in the Employee Presence Exceptions table and Location column is updated with the building name for the **In-office** day. For more information, see [Manage workplace schedule and in-office presence using Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preference-schedule.md).
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workplace Concierge reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-reference.md)
+</table>**Parent Topic:**[Workplace Concierge - Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-concierge/workplace-concierge-references.md)
+
+**Related topics**  
+
+
+[Properties installed with Workplace Concierge]()
+
+[Insights installed with Workplace Concierge]()
 

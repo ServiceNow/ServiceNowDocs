@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Scripting in Performance Analytics
@@ -64,7 +64,7 @@ Role required: admin, pa\_admin. To access data for scoped applications in Perfo
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Scripts** and click **New**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Scripts** and click **New**.
 
 2.  Give the script a descriptive **Name**.
 

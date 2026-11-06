@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Monitor service health, Using Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Monitor service health, Use, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # View monitored services

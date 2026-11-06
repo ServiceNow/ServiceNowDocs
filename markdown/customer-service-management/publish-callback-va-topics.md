@@ -1,16 +1,16 @@
 ---
-title: Publish the virtual agent topics for callback
+title: Publish the Virtual Agent topics for callback
 description: Publish the Virtual Agent topics for callback to help your customers request a callback from agents when there’s a long wait time to reach a live agent or agents are unavailable.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/publish-callback-va-topics.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Omnichannel Callback for Customer Service Management, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Omnichannel Callback, Configure voice, Configure omnichannel, Configure, Customer Service Management]
 ---
 
-# Publish the virtual agent topics for callback
+# Publish the Virtual Agent topics for callback
 
 Publish the Virtual Agent topics for callback to help your customers request a callback from agents when there’s a long wait time to reach a live agent or agents are unavailable.
 
@@ -26,14 +26,16 @@ Deploy the inactive topic to save it and make it available to users on Virtual A
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Virtual Agent** &gt; **Designer**.
+1.  Navigate to **All** &gt; **Conversational Interfaces** &gt; **Assistant Designer**.
 
-2.  In the Topics page, publish the following topics.
+2.  Select the **Asset library** tab.
+
+3.  In the Asset library, publish the following topics.
 
     -   Request a callback
     -   Reschedule a callback
     -   Cancel a callback
-3.  In the Header bar for the topic, select **Publish**.
+4.  In the Header bar for the topic, select **Publish**.
 
     If you're using NLU discovery, the Choose what to publish dialog box appears. Select the available items to publish with the topic, such as the NLU model and language mappings, and then click **Publish**.
 
@@ -41,7 +43,7 @@ Deploy the inactive topic to save it and make it available to users on Virtual A
 
     For topics, the topic state is Active and the Published state changes to **just now**.
 
-4.  If you published a conversation topic, verify that your keywords or NLU utterances for the topic work as expected.
+5.  If you published a conversation topic, verify that your keywords or NLU utterances for the topic work as expected.
 
     1.  Return to the Topics page, and then click **Test Active Topics**.
 

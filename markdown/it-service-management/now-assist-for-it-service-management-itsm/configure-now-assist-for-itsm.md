@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -19,43 +19,25 @@ If you have the admin role, you can configure the ServiceNow Otto for IT Service
 
 ## Before you begin
 
-Role required: sn\_nowassist\_admin.nsa\_admin
+Role required: admin
 
 ## About this task
 
-Use the AI Admin Hub console to configure ServiceNow Otto for IT Service Management \(ITSM\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
+Use the ServiceNow Otto Admin console to configure ServiceNow Otto for IT Service Management \(ITSM\). This console contains everything that you need to install the plugins and configure the generative AI skills. For additional information, see [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md). For the list of all skills supported in ServiceNow Otto for IT Service Management \(ITSM\), see [Using ServiceNow Otto for IT Service Management \(ITSM\) Generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/using-now-assist-for-itsm.md).
 
 Domain separation is supported in ServiceNow Otto for IT Service Management \(ITSM\). For details, see [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md).
 
-Here's a list of all skills supported in ServiceNow Otto for IT Service Management \(ITSM\):
-
--   Chat summarization
--   Sidebar discussion summarization
--   Chat reply recommendation
--   Incident assist
--   Incident summarization
-
-    **Note:** The incident summarization is applicable only for incidents in the New, In progress, On-hold, and Resolved states as long as the incident state mappings that are provided in the base system aren’t customized.
-
--   Resolution notes generation
--   Email reply recommendation
--   Knowledge article generation
--   Change request risk explanation
--   Change request summarization
-
-    **Note:** The change request summarization is applicable only for change requests in the Assess, Authorize, Scheduled, Implement, Review, and Closed states as long as the change request state mappings that are provided in the base system aren’t customized.
-
--   Major Incident email content recommendation
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
 
 ## Procedure
 
-1.  Install the Now Assist for IT Service Management plugin \(sn\_itsm\_gen\_ai\).
+1.  Install the ServiceNow Otto for IT Service Management \(ITSM\) \(sn\_itsm\_gen\_ai\).
 
     -   For information about the application dependencies, see [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
     -   For information about the installation process, see [Install Now Assist plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/install-now-assist-feature-plugins.md).
-2.  Navigate to **Admin** &gt; **Now Assist Admin**.
+2.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
-3.  Select the **Now Assist Skills** tab.
+3.  Select the **AI Skills** tab.
 
 4.  Activate and configure the skills for the ServiceNow Otto for ITSM features.
 
@@ -75,19 +57,27 @@ Here's a list of all skills supported in ServiceNow Otto for IT Service Manageme
 
 8.  Select where you'd like to display the skill.
 
-    \[Omitted image "now-assist-itsm-select-roles.png"\] Alt text: Now Assist for ITSM select roles
-
-    -   **In-product**: When selected, the Now Assist skills are displayed on forms and workspaces. For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
-    -   **Now Assist panel**: When selected, the Now Assist skills are available in the Now Assist panel. If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
-
-        For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
-
 9.  After you've configured the display for the selected skill, select **Save and continue** to go to the next step.
 
 10. Review your choices and select **Activate** to complete the configuration.
 
     Your skill is configured.
 
+
+**Troubleshooting:** Summarize button not visible
+
+After activation, if the **Summarize** button does not appear in Service Operations Workspace or Core UI, verify the following:
+
+-   **UI Builder page variant**: If your workspace uses a custom UI Builder page variant, confirm that the **Otto AI summary card** component is present on the page. Variants created before the ServiceNow Otto for IT Service Management \(ITSM\) plugin was installed may not have this component.
+
+    For information on page variants, see:
+
+    -   [Add the component manually to your variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-components.md)
+    -   [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-pages.md)
+-   **Display setting**: In the **AI Admin Hub**, confirm that the skill displays as **In-product**.
+-   **Domain separation**: If your instance uses domain separation, verify that the skill is activated in the user's assigned domain.
+-   **Plugin installation**: Verify that the sn\_itsm\_gen\_ai plugin is installed successfully.
+-   **Browser cache**: If the button appears sporadically, clear your browser cache and refresh the page.
 
 **Related topics**  
 

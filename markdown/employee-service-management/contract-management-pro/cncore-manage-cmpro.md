@@ -1,25 +1,28 @@
 ---
 title: Managing Contract Management Pro
-description: As administrator work on managing the word document templates, contracts and view analytics.
+description: As an administrator, manage contract templates, contract records, and analytics for Contract Management Pro.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-manage-cmpro.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Contract Management Pro, Employee Service Management]
+keywords: [Configure Contract Management Pro, Manage clause library, Contracts dashboard, Contract templates]
+breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Managing Contract Management Pro
 
-As administrator work on managing the word document templates, contracts and view analytics.
+As an administrator, manage contract templates, contract records, and analytics for Contract Management Pro.
 
 -   **[Manage clauses, tables, and contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-manage-clauses-ctemplates.md)**  
 As administrator manage clauses and contract templates.
 -   **[Manage contract records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-manage-cont-records.md)**  
 As administrator manage contract records.
+-   **[Manage AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-ai-skills-manage.md)**  
+Manage AI skills in Contract Management Pro including use cases, use case mappings, clause mappings, expected responses, and skill activation.
 -   **[Platform Analytics Solutions for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-analytics-pa.md)**  
 The Contracts Dashboard in Contract Management Pro is an analytics and reporting solution that enables you to make data-driven decisions through insights and trends derived from contract request data.
 -   **[Modify assignment rule for contract requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-assign-rule.md)**  

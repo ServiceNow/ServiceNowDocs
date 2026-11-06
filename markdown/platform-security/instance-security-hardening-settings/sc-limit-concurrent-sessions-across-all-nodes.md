@@ -1,5 +1,5 @@
 ---
-title: Limit concurrent sessions across all nodes \[Updated in Security Center 1.3\]
+title: Limit concurrent sessions across all nodes
 description: Use the glide.authenticate.limit.concurrent.sessions.across.all.nodes property with the Limit Concurrent Sessions plugin to manage the number of sessions tracked across all nodes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-limit-concurrent-sessions-across-all-nodes.html
@@ -7,16 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Limit concurrent sessions across all nodes \[Updated in Security Center 1.3\]
+# Limit concurrent sessions across all nodes
 
 Use the **glide.authenticate.limit.concurrent.sessions.across.all.nodes** property with the Limit Concurrent Sessions plugin to manage the number of sessions tracked across all nodes.
 
-When the [Limit concurrent sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions.md) plugin is active, the number of open sessions can be limited per user. Ensure that when this plugin is active that the \(**Glide authenticate limit concurrent sessions across all nodes**\) property is set to **true** so that the number of open sessions are tracked across all nodes instead of a single application node. If this property is set to **false**, multiple sessions can be open across multiple nodes, which increases the chances of session hijacking.
+The **glide.authenticate.limit.concurrent.sessions.across.all.nodes** system property is meant to be used with the Limit Concurrent Sessions plugin \(com.glide.limit.concurrent.sessions\) plugin. When this plugin is installed and configured, the number of open sessions can be limited per user. When this property is set, the number of sessions will be tracked across all nodes instead of a single application nodes.
+
+Ensure that the **glide.authenticate.limit.concurrent.sessions.across.all.nodes** sysem property is set to **true** when the Limit Concurrent Sessions plugin \(com.glide.limit.concurrent.sessions\) plugin is active.
 
 ## More information
 
@@ -50,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +65,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +94,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS score: Low
--   Security risk details: When using the **Limit Concurrent Sessions** plugin, setting this property to **false** enables multiple sessions across multiple nodes to be open which increases the chance of a security vulnerability like a session hijacking.
+-   Security risk details: If this property is not set to true, multiple sessions can be open across multiple nodes, increasing the likelihood of a successful session hijacking.
 
 </td></tr><tr><td>
 
@@ -100,7 +110,7 @@ References
 
 </td><td>
 
-[Limit concurrent sessions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions.md)
+[Concurrent session limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/limit-concurrent-sessions.md)
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Session management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-session-management.md)

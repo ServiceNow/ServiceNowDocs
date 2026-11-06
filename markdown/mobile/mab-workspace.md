@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mab-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Mobile App Builder record screen

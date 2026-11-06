@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Set up Outside Counsels for Legal Invention Disclosure
@@ -30,15 +30,15 @@ Setting up an outside counsel can be done either as a fulfiller task or when con
 
 1.  Access the form to create an Outside Counsel record.
 
-<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d133962e78">
+<table id="choicetable_urg_zmd_jzb"><thead><tr><th align="left" id="d140377e78">
 
 Location
 
-</th><th align="left" id="d133962e81">
+</th><th align="left" id="d140377e81">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d133962e87">
+</th></tr></thead><tbody><tr><td id="d140377e87">
 
 **From the Legal Matter module**
 
@@ -46,14 +46,14 @@ Actions
 
 Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **Setup Outside Counsels**.
 
-</td></tr><tr><td id="d133962e114">
+</td></tr><tr><td id="d140377e114">
 
 **From Legal Counsel Center**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
-2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Outside Counsel section of the **Lists** menu, select **All**.
 
 
 </td></tr></tbody>
@@ -73,5 +73,5 @@ Navigate to **All** &gt; **Legal Matter** &gt; **Outside Counsel Setup** &gt; **
     -   On the Outside Counsels New record form, select **Submit**.
     -   On the Create New Outside Counsel from the Legal Counsel Center, select **Save**.
 
-**Parent Topic:**[Configuring Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
+**Parent Topic:**[Configure Legal Invention Disclosure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-invention-disclosure/configure-legal-invention-disclosure.md)
 

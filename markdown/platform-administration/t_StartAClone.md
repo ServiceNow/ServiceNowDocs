@@ -1,12 +1,12 @@
 ---
 title: Request a clone
-description: Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.
+description: Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_StartAClone.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-12"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -16,7 +16,17 @@ Request a clone to copy data from a production instance to a non-production inst
 
 ## Before you begin
 
-Role required: `clone_admin` on the source instance; `clone_admin` and `soap` on the target instance.
+Role required: clone\_admin
+
+**Note:**
+
+Configure a clone profile. See [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configure-clone-profile.md).
+
+For self-hosted customer instances that use an Oracle database, see [Cloning an Oracle Database \(KB0563847\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0563847).
+
+## About this task
+
+The ServiceNow AI Platform uses data from the most recent, daily backup of the source instance when cloning. Backups that are used for cloning are a maximum of 36 hours old. The initial preparation begins, including selecting the latest backup to use, only at the date and time processing is scheduled to start.
 
 ## Procedure
 
@@ -74,7 +84,7 @@ Clone Scheduled Start time
 
 </td><td>
 
-The start time to begin cloning your instance. See [Schedule recurring clones \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/schedule-cloning.md).
+The start time to begin cloning your instance. After you select a start time, the form displays the estimated duration and estimated completion time of the clone. See [Schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/schedule-cloning.md).**Note:** You may schedule multiple clones to the same target instance as long as they are scheduled at least five days apart. If two clone requests for the same target fall within a five day window, the system will return an error to prevent overlap. If a time you need is unavailable, check for any scheduled maintenance, upgrades, or existing clone requests affecting the relevant instances.
 
 </td></tr><tr><td>
 
@@ -87,7 +97,7 @@ The start time to begin cloning your instance. See [Schedule recurring clones \(
 The email or emails to be notified of the clone process and clone completion.
 
 </td></tr></tbody>
-</table>3.  Select the hyperlinked number under each item in the definitions section to review your exclusions, preservers, and cleanup scripts.
+</table>3.  Select the hyperlinked number under each item in the definitions section to review your exclusions, preservers, and cleanup scripts.\[Omitted image "clone-definitions-numbers.png"\] Alt text: Clone definitions numbers.
 
 4.  Select the options to configure for your clone.
 
@@ -95,79 +105,12 @@ The email or emails to be notified of the clone process and clone completion.
 
 5.  Select **Continue**.
 
-6.  Review your clone request summary and select **Confirm and Submit Clone Request**.
+6.  Review your clone request summary.
 
+    If other clone requests involve the same target instance within 30 days, they appear highlighted in yellow. Review these requests for potential conflicts before submitting.
 
-## Request a clone \(legacy\)
+    The Clone request summary page displays the estimated clone duration, based on the scheduled start time and the size of the data to be copied to the target instance. For a new source-target pair, the estimate may be higher than expected and becomes more accurate after additional clones between the same instances.
 
-Request a clone to copy data from a production instance to a non-production instance or to copy data between non-production instances.
+7.  Select **Confirm and Submit Clone Request**.
 
-### Before you begin
-
-Role required: clone\_admin
-
-Starting with the Australia release, clone requests are no longer deployed, enhanced, or supported on the legacy page. Requests that are initiated via the legacy page `clone_instance.do` don't show up on the new clone console home page. However, they can still be found on the legacy clone history page `clone_instance_list.do`.
-
-**Note:**
-
-Configure your target instance before requesting your clone. See [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_CreateACloneTarget.md).
-
-Configure a clone profile. See [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configure-clone-profile.md).
-
-For self-hosted customer instances that use an Oracle database, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0563847](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0563847).
-
-### About this task
-
-The ServiceNow AI Platform uses data from the most recent, daily backup of the source instance when cloning. Backups that are used for cloning are a maximum of 36 hours old. The initial preparation begins, including selecting the latest backup to use, only at the date and time processing is scheduled to start.
-
-### Procedure
-
-1.  Log in to the instance that you want to clone.
-
-    This instance becomes the source instance of the clone request.
-
-2.  Configure a [Register target instance \(legacy\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_CreateACloneTarget.md) record for each target instance that you want to receive clone data.
-
-3.  Verify the list of tables that are excluded from cloning and [add or remove tables to exclude](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_ExcludeATableFromCloning.md) from the target instance.
-
-4.  Verify the list of tables and system properties that you want saved on the target instance with the following.
-
-5.  Navigate to **Instance clone** &gt; **Request Clone**.
-
-6.  Specify a predefined clone profile.
-
-    A clone profile stores target and clone options. The clone profile automatically populates your clone request with your selected profile settings. See [clone profiles for clone requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-profile-clone.md).
-
-7.  In the **Target instance** field, select the target instance that you want to receive the cloned data.
-
-    Create a separate clone request for each target instance that you want to receive clone data.
-
-8.  In the **Clone Scheduled Start Time** field, select the time that you want the cloning to start.
-
-    You can schedule multiple clone requests for the same source instance. For example, create a clone request to copy data to non-production instance A and another clone request to copy data to non-production instance B. The scheduling engine determines whether multiple clone requests against the same source instance can occur simultaneously or whether they must occur sequentially. If your source instance is large, see clone chaining on [Exploring Instance Clone](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/exploring-instance-clone.md).
-
-    The system verifies the scheduled start time and either accepts the date-time value that you selected or suggests an available date-time value. The validation process helps prevent scheduling conflicts with other automations using the same target instance.
-
-9.  In the **Email upon completion** field, enter your email address so that you can receive alerts after the cloning finishes, is canceled, or has an error.
-
-10. Select the **Options** arrowhead so that it turns downward.
-
-11. Fill in your options.
-
-12. Select **Submit**.
-
-    If there are no issues with the clone request, the system displays the Authenticate Target modal.
-
-13. Enter the user name and password for an administrator account on the target instance and then select **Authenticate**.
-
-14. Review the clone settings and select **OK**.
-
-    An email is sent to the supplied address after the clone finishes, is canceled, or has an error.
-
-
-### What to do next
-
--   [Schedule recurring clones](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/schedule-cloning.md).
--   [Cancel your clone request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/cancel-clone-cac.md).
--   [View the clone history](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_ViewCloneHistory.md) of completed clones.
 

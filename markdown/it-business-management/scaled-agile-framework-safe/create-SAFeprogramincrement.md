@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [SAFe entities, Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: safe\_admin
 
 1.  Navigate to the program increment form using either of the following options.
 
-<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d134000e56">
+<table id="choicetable_djp_xvn_mcb"><thead><tr><th align="left" id="d166425e56">
 
 Option
 
-</th><th align="left" id="d134000e59">
+</th><th align="left" id="d166425e59">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d134000e65">
+</th></tr></thead><tbody><tr><td id="d166425e65">
 
 **From the Program Increment Planning tab**
 
@@ -45,7 +45,7 @@ Steps
 5.  Click **Create Program Increment**.
 
 
-</td></tr><tr><td id="d134000e110">
+</td></tr><tr><td id="d166425e110">
 
 **From the Program Increment related list**
 

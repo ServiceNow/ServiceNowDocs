@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed table notification examples, Live Feed table notifications, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -38,8 +38,6 @@ Create a table notification with the following values:
     //make the message appear to come from the assigned salesperson if there is one if ( !current. owner. nil ( ) )
     profileSource  = current. owner. getRefRecord ( ) ; //need GlideRecord object
     ```
-
-    \[Omitted image "TableNotificationSales.png"\] Alt text: Example opportunity won message
 
 
 **Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)

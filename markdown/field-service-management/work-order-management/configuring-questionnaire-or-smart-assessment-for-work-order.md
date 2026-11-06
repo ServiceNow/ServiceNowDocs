@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring work order tasks, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Configuring work order questionnaires
@@ -24,7 +24,7 @@ Questionnaire records include some configuration information, such as the condit
 
 **Note:** Configuring questionnaires is optional.
 
-Questionnaire for a work order or work order task can be either a survey-based questionnaire or a smart assessment.
+Questionnaire for a work order task can be either a survey-based questionnaire or a smart assessment.
 
 ## Survey-based questionnaire
 
@@ -36,7 +36,7 @@ For more information, see [Configuring survey-based work order questionnaires](h
 
 A Smart Assessment questionnaire for Now Mobile uses **Template designer** in the Smart Assessment Engine application.
 
-For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/mobile-experience-for-field-service-management-glide-family/configuring-smart-assessment-questionnaire.md).
+For more information, see [Configuring Smart Assessment questionnaires for Now Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/configuring-smart-assessment-questionnaire.md).
 
 **Note:**
 
@@ -44,4 +44,9 @@ For more information, see [Configuring Smart Assessment questionnaires for Now M
 
 -   Usage of Smart Assessment questionnaire can't be disabled once enabled.
 
+
+**Related topics**  
+
+
+[Complete a questionnaire for work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/complete-questionnaire-mobile-app.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-management-line-items-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # View and update products using the line items tab
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view and select **Quotes** &gt; **All**.
+1.  In the CRM Workspace, select the List icon \[Omitted image "list-outline-24.svg"\] Alt text: and select **Quotes** &gt; **All**.
 
 2.  Select the quote that you’re working with and select the **Quote Line Items** tab.
 
@@ -37,6 +37,8 @@ Role required: sales\_agent
     |Parent line item|Automatically generated field.|
     |Price list|Price lists are added to the product line item. Price lists show pricing that is already configured.|
     |Term \(months\)|Monthly terms for the price list selected. Monthly terms reflect the cost monthly of the product or service.|
+    |Subscription start dates|Subscription state date is the date when an entitlement or service begins.|
+    |Subscriptions end date|Subscription end date is the end date for an entitlement or a service.|
     |Contract start date|Contract state date is the date a service contract or entitlement contracts start.|
     |Contract end date|Contract end date is the date when a service contract or entitlement contract ends.|
     |Product offering|Product offering let agents select the product or service for the quote.|
@@ -57,4 +59,6 @@ Role required: sales\_agent
 ## What to do next
 
 Add a pricing adjustment to a quote line item. See [View and update manual pricing adjustments in quotes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-management-pricing-adjustments-tab.md) for more information.
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

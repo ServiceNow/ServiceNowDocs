@@ -1,20 +1,20 @@
 ---
-title: Target tables for Azure and Copilot
-description: Target tables for storing Service Graph Connectors for Azure and Copilot data.
+title: Target tables for Microsoft
+description: Target tables for storing Service Graph Connector for Azure and copilot data.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/target-tables.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [Microsoft, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
-# Target tables for Azure and Copilot
+# Target tables for Microsoft
 
-Target tables for storing Service Graph Connectors for Azure and Copilot data.
+Target tables for storing Service Graph Connector for Azure and copilot data.
 
 Both Azure Foundry and Copilot data sources use the following main target tables:
 

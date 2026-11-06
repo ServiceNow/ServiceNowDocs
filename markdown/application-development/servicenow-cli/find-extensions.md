@@ -7,14 +7,18 @@ release: yokohama
 product: ServiceNow CLI
 classification: servicenow-cli
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow CLI, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow CLI, Developing your application, Classic app development, Building applications]
 ---
 
 # Manage ServiceNow CLI extensions
 
 Add extensions to the ServiceNow CLI to load additional functionality and commands, update existing extensions, or remove extensions you no longer need.
+
+## Before you begin
+
+Role required: none.
 
 ## Procedure
 

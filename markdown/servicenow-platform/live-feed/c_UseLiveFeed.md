@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -24,7 +24,5 @@ While Live Feed has been discontinued, we are always exploring new ways to enhan
 
 Depending on your role, there are several different types of feeds you can access, teams you can join and share information with, and hashtags you can use for categorizing messages.
 
-\[Omitted image "LiveFeedUI.png"\] Alt text: Live feed example
-
-**Note:** Live Feed v2 is active for all new instances by default. If you are upgrading from an earlier version of ServiceNow, you need to activate Live Feed v2 to use these features.
+**Note:** Live Feed v2 is active for all new instances by default. If you're upgrading from an earlier version of ServiceNow, you need to activate Live Feed v2 to use these features.
 

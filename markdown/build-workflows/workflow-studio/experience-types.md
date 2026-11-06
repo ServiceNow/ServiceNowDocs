@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Activity definitions, Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Activity definitions, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # UI Layouts
@@ -282,7 +282,7 @@ If you choose the Record generator UI Layout, the following sections appear in t
 
 ## Guided Decision
 
-**Note:** The Guided Decision UI Layout is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer.md).
+**Note:** The Guided Decision UI Layout is available with a subscription to App Engine or Customer Service Management \(CSM\). For more information on how to enable this activity for use in Playbooks, see [Activate Playbooks for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/activate-process-automation-designer-for-csm.md).
 
 If you choose the Guided Decision UI Layout, the following fields appear in the Activity Experience section for your activity definition:
 

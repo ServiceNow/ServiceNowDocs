@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2025-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -24,14 +24,14 @@ Also listed in the Translator Configurations table is a default record for the *
 
 **Note:** If you activate dynamic translation in the Generative AI Controller, a fully preconfigured spoke to [Microsoft Azure OEM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/dynamic-translation-na-ms-azure-oem.md) Translator Service is added as a row in Translator Configurations.
 
+Consult your service provider's portal for details regarding data privacy policies, cost and usage structure, and other information related to your account with that provider. Test your integration in a non-production instance, including examining logs, before deploying to production.
+
 -   **[Integrate with a translation service provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/integrate-translation-service-provider.md)**  
 Integrate with a third-party translation provider of your choice for machine translation of user-generated text.
 -   **[Google Cloud Translator Service Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/google-translator-spoke.md)**  
 Provides subflows and actions to dynamically translate the user-entered text, and to detect the language of the text using the Google translation service.
 -   **[Microsoft Azure Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/microsoft-translation-spoke.md)**  
 Microsoft Azure Translator Service spoke provides subflows and actions to detect and translate user-entered text, using the Microsoft machine translation service. Dynamic Translation supports detection and translation of single texts and multiple texts.
--   **[IBM Watson Language Translator Service spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/ibm-translation-spoke.md)**  
-With the Yokohama release, the IBM Watson Language Translator Service Spoke is no longer available because it has been deprecated. This information is provided for legacy context. The spoke provided subflows and actions to dynamically translate user-entered texts and to detect the language of user-entered texts using the IBM translation service.
 -   **[Migrate customized Translator Configurations to v3 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/migrate-v3-dynamic-translation.md)**  
 Implement the contract with subflows using complex objects in the input and output fields for dynamic translation of text.
 -   **[Migrate customized Translator Configurations to v4 flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/migrate-v4-dynamic-translation.md)**  
@@ -43,4 +43,6 @@ Migrate your customized translator configurations to v4 flows. Version 4 flows f
 
 
 [Configuring Dynamic Translation]()
+
+[Reference for Dynamic Translation]()
 

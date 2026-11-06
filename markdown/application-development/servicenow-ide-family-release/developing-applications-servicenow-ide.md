@@ -7,16 +7,16 @@ release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Developing applications with the ServiceNow IDE
 
 Create and develop applications in source code with the ServiceNow IDE. Build applications to make your changes available across an instance and collaborate with users of any skill set.
 
-In the ServiceNow IDE, you create scoped applications or convert existing applicationsand develop them in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within scoped applications.
+In the ServiceNow IDE, you create applications or convert existing applicationsand develop them in source code using ServiceNow Fluent to define application metadata \[sys\_metadata\]. Optionally, you can create JavaScript modules and use third-party libraries to organize and reuse code within application scopes.
 
 When your changes are saved and ready, build an application to compile the source code to application metadata and make your changes available to users across the instance. As other users modify the application metadata, you can synchronize the changes into the source code.
 
@@ -34,8 +34,8 @@ Define application metadata in code with ServiceNow Fluent in the ServiceNow IDE
 Optimize your codebase by defining reusable code blocks with JavaScript modules in the ServiceNow IDE.
 -   **[Use third-party libraries in applications in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/use-third-party-libraries-ide.md)**  
 Call third-party libraries in your application to use existing open-source functionality with the ServiceNow IDE.
--   **[Create an application file from the Metadata Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)**  
-Create an application file in an embedded ServiceNow AI Platform user interface from the Metadata Explorer in the ServiceNow IDE.
+-   **[Create an application file from the File Categories view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/create-application-file-servicenow-ide.md)**  
+Create an application file in an embedded ServiceNow AI Platform user interface from the File Categories view in the ServiceNow IDE.
 -   **[Build and install an application in the ServiceNow IDE](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-ide-family-release/build-applications-servicenow-ide.md)**  
 Build an application to compile its source code and install application changes across an instance from the ServiceNow IDE.
 

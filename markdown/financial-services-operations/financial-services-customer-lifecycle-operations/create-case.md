@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Customer Lifecycle Operations, Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a CLO case
@@ -25,9 +25,9 @@ Role required:
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Financial services operations** &gt; **Workspace**.
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: Lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the upper right-hand corner, click **New**.
 
@@ -37,11 +37,11 @@ Role required:
 
 6.  In the upper right-hand corner of the screen, click **Save**.
 
-7.  If you are the agent that will be handling the case, select **Assign to me**.
+7.  In the list, select which case you want to work on.
 
-    If not, select the agent who will handle the case.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-8.  Click the **Playbook** tab.
+8.  Select the **Playbook** tab.
 
 9.  Fill in any applicable fields, then click **Create Account**.
 

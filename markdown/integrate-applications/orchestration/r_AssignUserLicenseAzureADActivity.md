@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Azure AD activity pack, Orchestration activity packs, Classic Orchestration, Data and Automation]
+breadcrumb: [Azure AD activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Assign User License Azure AD activity
@@ -41,6 +41,4 @@ To access this activity in the Workflow Editor, select the **Custom** tab, and t
 |---------|-----------|
 |Success|Activity successfully assigned an Office 365 license to a user.|
 |Failure|Activity failed to assigned an Office 365 license to a user, or the activity failed to connect to Azure AD.|
-
-**Parent Topic:**[Azure AD activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/c_AzureADActivityPack.md)
 

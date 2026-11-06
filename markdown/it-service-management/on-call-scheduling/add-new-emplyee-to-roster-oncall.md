@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing roster members, Configure or update an On-Call shift, Manage schedules and shifts, On-Call Scheduling, IT Service Management]
+breadcrumb: [Managing roster members, Configure or update an On-Call shift, Managing schedules and shifts, On-Call Scheduling, IT Service Management]
 ---
 
 # Add a new or returning employee to a roster

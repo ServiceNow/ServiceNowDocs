@@ -1,20 +1,20 @@
 ---
-title: Review the case filing appeal
-description: Review the appeal and get an acknowledgment from Visa for the appeal.
+title: Review a case filing appeal
+description: Review a case filing appeal and obtain an acknowledgment from Visa.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-case-filing-appeal.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-03-02"
-reading_time_minutes: 2
-breadcrumb: [Collaboration dispute workflow, Chargeback stage, Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Review the case filing appeal
+# Review a case filing appeal
 
-Review the appeal and get an acknowledgment from Visa for the appeal.
+Review a case filing appeal and obtain an acknowledgment from Visa.
 
 ## Before you begin
 
@@ -22,46 +22,42 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-After reviewing the case filing response, Visa issues a decision letter that supports either the acquirer or the issuer. If either party isn’t satisfied with the decision, they can file an appeal.
+After reviewing the case filing response, Visa issues a decision letter that supports either the acquirer or the issuer. If either party isn't satisfied with the decision, they can file an appeal.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
-4.  In the list, select the case that you want to work on.
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
 
     If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-5.  Select the **Playbook** tab.
+5.  Select the transaction ID from the playbook.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+    The **Chargeback** stage is initiated for the transaction.
 
-7.  The **Chargeback** stage is initiated for the transaction.
+6.  Select the **Review case filing appeal** task.
 
-8.  Select the **Review case filing appeal** activity.
+7.  Review the case filing details and select **Get acknowledgement letter**.
 
-9.  Review the case filing details and select **Get acknowledgement letter**.
+    The acknowledgment letter can also be viewed in the activity stream. After the request runs successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting for a response from Visa.
 
-    The acknowledgment letter can also be viewed in the activity stream. After the request executes successfully, the transaction state changes to **Awaiting External Info**. The form is set to read-only mode while waiting on a response from Visa.
-
-10. View the decision letter from Visa by selecting **Get appeal response**.
+8.  View the decision letter from Visa by selecting **Get appeal response**.
 
     The decision letter can also be viewed in the activity stream.
 
-11. In the **Response outcome** field, select your response.
+9.  In the **Response outcome** field, select your response.
 
-    -   If you select **Unresolved**, the **Reverse provisional credit** drop-down is displayed. Select **Yes** or **No** from the drop-down.
-    -   If you select **Resolved**, and select **Continue**, you accept the decision and want to issue the final credit.
-12. Select **Close task**.
+    -   If you select **Unresolved**, the **Reverse provisional credit** option is displayed.
+    -   If you select **Resolved**, and select **Continue**, you accept the decision and issue the final credit.
+10. Select **Close task**.
 
-
-## Result
-
-The credit is issued based on the response selected. The outcome can be any of these activities: [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit_0.md), [Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/reverse-provisional-credit_0.md) or, [Issue credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-immediate-final-credit.md).
 
 **Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
 

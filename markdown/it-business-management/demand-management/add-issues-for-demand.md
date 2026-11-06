@@ -1,20 +1,20 @@
 ---
 title: Add issues for a demand
-description: Add an issue to a demand to escalate a risk or to track an unexpected problem such as a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
+description: Add an issue to a demand to escalate a risk or to track an unexpected problem. For example, a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/demand-management/add-issues-for-demand.html
 release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [RIDAC \(Risk, Issue, Decision, Action, and Request Changes\) records, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add issues for a demand
 
-Add an issue to a demand to escalate a risk or to track an unexpected problem such as a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
+Add an issue to a demand to escalate a risk or to track an unexpected problem. For example, a technical malfunction or resource unavailability that occurs during any phase of the demand life cycle. If the issue remains unresolved, unnecessary conflicts, delays, or even a failure can occur.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: it\_demand\_manager
 
 2.  Select the demand to which you want to add an issue.
 
-3.  From the Issues related list, click **New**.
+3.  From the Issues related list, select **New**.
 
 4.  On the Issue form, fill in the fields.
 
@@ -34,21 +34,21 @@ Role required: it\_demand\_manager
 
 5.  Search in the knowledge base for any article related to the issue.
 
-    1.  Click the search knowledge icon \(\[Omitted image "search\_knowledge\_icon\_2.png"\] Alt text: Search knowledge icon\).
+    1.  Select the search knowledge icon \[Omitted image "search-knowledge-icon.png"\] Alt text:.
 
-    2.  If you find relevant articles, click the title of an article to view its content.
+    2.  If you find relevant articles, select the title of an article to view its content.
 
-    3.  If you want to include the content of the article in the issue, click **Attach to Issue**.
+    3.  If you want to include the content of the article in the issue, select **Attach to Issue**.
 
         The article content is copied in to the **Description** field of the Issue form. You can modify the text if necessary.
 
-6.  Click **Submit**.
+6.  Select **Submit**.
 
 
 ## What to do next
 
--   Convert an existing issue to decision, action, or request change and close the issue. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/convert-ridac-for-demand.md).
--   Associate the issue with your existing risks so you can track dependencies and recognize trends for future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reassociate-ridac-demand.md).
+-   Convert an existing issue to a decision, action, or request change and close the issue. For more information, see [Convert one RIDAC record to another for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/convert-ridac-for-demand.md).
+-   Associate the issue with your existing risks so you can track dependencies and recognize trends for the future. For more information, see [Associate existing RIDAC records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/reassociate-ridac-demand.md).
 
 **Parent Topic:**[RIDACs records for a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/ridac-entries-for-demand.md)
 

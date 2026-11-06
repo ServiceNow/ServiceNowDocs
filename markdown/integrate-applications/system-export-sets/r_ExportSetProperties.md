@@ -7,9 +7,9 @@ release: yokohama
 product: System Export Sets
 classification: system-export-sets
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Export sets, Exports, Data and Automation]
+breadcrumb: [Export sets, Exports, Workflow Data Fabric]
 ---
 
 # Export Set properties
@@ -79,6 +79,18 @@ For XLSX files, controls the compression mode. When true, XSLX files are generat
 When true, if a parent scheduled export set encounters an error, scheduled child export sets don't run.-   Type: true \| false
 -   Default: false
 -   Location: [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md)
+
+</td></tr><tr><td>
+
+**glide.scheduled\_export.min\_rows\_for\_parallel\_export**
+
+</td><td>
+
+Minimum number of rows required for parallel export. The default value is 50000.
+
+If an export has fewer rows than this threshold, the system uses standard export processing.
+
+**Note:** To add this property and customize the threshold, navigate to **All** &gt; **System Properties** &gt; **System Properties**.
 
 </td></tr></tbody>
 </table>

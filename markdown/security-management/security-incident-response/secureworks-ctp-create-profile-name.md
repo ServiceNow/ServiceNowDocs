@@ -7,9 +7,9 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a profile for Secureworks CTP ticket ingestion integration, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Create a profile, Secureworks CTP Ticket Ingestion Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Identify the source of the profile
@@ -71,11 +71,7 @@ Active
 This option is cleared by default. If this option is disabled, the profile is not active.**Note:** You should complete all sections in the profile before making it active.
 
 </td></tr></tbody>
-</table>    The following figure is an example of a completed form.
-
-    \[Omitted image "secureworks-create-profile-name.gif"\] Alt text: Secureworks CTP: Create Profile: Identify Source
-
-
+</table>
 ## What to do next
 
 Map the ticket fields.

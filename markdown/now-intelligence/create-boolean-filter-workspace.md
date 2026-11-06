@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-boolean-filter-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -32,7 +32,7 @@ The filter applies to all elements on the same dashboard or the same dashboard t
 
 2.  Set custom display labels in place of 'True' and 'False,' such as 'Yes' and 'No.'
 
-3.  In **Data to filter**, specify a table field, indicator breakdown, or User Experience Analytics property to filter.
+3.  In **Data to filter**, specify a table field, indicator breakdown, or Usage Insights property to filter.
 
     You can add any number of targets to the filter. Select either a table and field or all indicators with a particular breakdown. If you select a table, you can also select to apply the filter to the hierarchy of related tables: Parents, children, siblings, and any [database views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) that contain the table.
 
@@ -45,13 +45,17 @@ The filter applies to all elements on the same dashboard or the same dashboard t
     -   An empty \(null\) value is possible for a field. Therefore, the total number of true and false values can be less than the total number of records or less than an indicator score that counts records. The viewer can also select **\(empty\)** to clear their selection.
 4.  Specify a default value of true or false.
 
-    The filter is applied with this value when the dashboard is opened. If you do not specify a default value, the filter value is empty by default.
+    The filter is applied with this value when the dashboard is opened. If you don't specify a default value, the filter value is empty by default.
 
 5.  Select the **Sort direction**.
 
     If you select **Ascending**, the lowest filtered values are shown first. If you select **Descending**, the highest values are shown first. The user can change this value.
 
-6.  Select **Save**.
+6.  Specify a **Filter Custom ID**, a name for the filter that replaces its sys\_id in URL filter parameters.
+
+    For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/url-filter-parameters.md).
+
+7.  Select **Save**.
 
 
 ## Result
@@ -69,5 +73,5 @@ If you have the required roles, add the filter to the filter library. You can al
 
 [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[configure-dv-follow-filters-or-not]
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-dv-follow-filters-or-not.md)
 

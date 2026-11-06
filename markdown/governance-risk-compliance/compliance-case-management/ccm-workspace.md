@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Compliance Case Management landing page
@@ -20,7 +20,7 @@ Roles required: sn-compliance-case-manager or sn-compliance-case-analyst
 
 ## Overview of compliance case management landing page
 
-You can launch the compliance case management landing page by using the launcher \(\[Omitted image "compliance-case-launcher.png"\] Alt text: Compliance case launcher.\) icon.
+You can launch the compliance case management landing page by using the launcher \(\[Omitted image "icon-tprm-ws-risk-activity.png"\] Alt text: Electronic signature\) icon.
 
 The GRC: Compliance Case Management landing page consists of the following sections:
 

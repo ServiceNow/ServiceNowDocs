@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/revert-reset-dismissal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using KPI Signals, KPI Signals, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Use, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
 
 # Revert baseline reset or signal dismissal

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/appointment-booking-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+last_updated: "2026-09-22"
+reading_time_minutes: 3
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Appointment booking components
@@ -170,6 +170,18 @@ Enables the use of the column activity\_catalog created on task\_activity for qu
 -   **Default value**: true
 -   **Location**: System Properties list
 
+</td></tr><tr><td>
+
+sn\_apptmnt\_booking.enforce\_arrive\_by\_day\_end\_check
+
+</td><td>
+
+When enabled, system evaluates whether work can be completed before end of day. Appointment slots where the work duration exceeds the available time of the technician are excluded from the available slots. This ensures customers only see the slots where technicians can finish work within their shift. **Note:** Applicable when **Use slot end time as** is set to **Arrive by** with scripted or capacity-based availability methods.
+
+-   **Type**: True/False
+-   **Default value**: false
+-   **Location**: System Properties list
+
 </td></tr></tbody>
 </table>## Tables
 
@@ -207,6 +219,66 @@ Appointment Bookings\[sn\_apptmnt\_booking\_appointment\_booking\]
 
 Stores records for all appointments, including booked, rescheduled, and canceled appointments.
 
+</td></tr><tr><td>
+
+Appointment Window Configuration\[sn\_apptmnt\_booking\_window\_config\]
+
+</td><td>
+
+Store configuration setting for appointment windows.
+
+</td></tr><tr><td>
+
+Appointment Window​\[sn\_apptmnt\_booking\_config\]
+
+</td><td>
+
+Defines appointment windows for bookings.
+
+</td></tr><tr><td>
+
+Bookable Window​\[sn\_apptmnt\_booking\_bookable\_window\]
+
+</td><td>
+
+Represents specific time slots available for booking.
+
+</td></tr><tr><td>
+
+Service Configuration Mapping​\[sn\_apptmnt\_booking\_config\_mapping\]
+
+</td><td>
+
+Configuration to map available services to territories or any conditions.​
+
+</td></tr><tr><td>
+
+Appointment Schedule​\[sn\_apptmnt\_booking\_schedule\]
+
+</td><td>
+
+Mapping the service configuration to appointment slots​.
+
+</td></tr><tr><td>
+
+Appointment Schedule Override​\[sn\_apptmnt\_booking\_schedule\_override\]
+
+</td><td>
+
+Stores override schedule changes. ​
+
 </td></tr></tbody>
-</table>**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
+</table>-   **[Advanced appointment booking components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/adv-appt-booking-components.md)**  
+The roles, properties, and tables for the advanced appointment booking feature.
+
+**Parent Topic:**[Components installed with additional plugins for Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-inst-additional-plugin.md)
+
+**Related topics**  
+
+
+[Appointment booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking.md)
+
+[Configuring Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/appointment-booking-administer.md)
+
+[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appointments.md)
 

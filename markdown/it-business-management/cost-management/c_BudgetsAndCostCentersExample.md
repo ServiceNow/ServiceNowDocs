@@ -7,7 +7,7 @@ release: yokohama
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Budgets and cost centers, Cost Management, Strategic Portfolio Management]
 ---
@@ -19,8 +19,6 @@ The most common business entity to associate financial information is the cost c
 The example here shows how cost centers can be allocated expenses based on service usage. This example uses that information to compare with a defined budget for the cost centers.
 
 A budget is a placeholder for an amount of planned spending for one or more cost centers. To view an example, navigate to **Financial Management** &gt; **Budgets** and select the **Investments** budget:
-
-\[Omitted image "CostDemoBudget.jpg"\] Alt text: Cost Demo Budget
 
 This budget has a defined start and end date, planned amount, and actual amount. In the **Cost Center** related list, **Trading** is a member.
 

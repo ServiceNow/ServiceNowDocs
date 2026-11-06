@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-06-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Conversational Integration with Google Chat, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Google Chat, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Exploring Conversational Integration with Google Chat
@@ -32,9 +32,6 @@ Follow these steps to add Conversational Integration with Google Chat:
 1.  [Plugins for Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/additional-plugins-google-chat.md)
 2.  [Installing Conversational Integration with Google chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/installing-ci-google-chat.md)
 3.  [Integrating Virtual Agent with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/integrating-va-google-chat.md)
-
--   **[Plugins for Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/additional-plugins-google-chat.md)**  
-Activate the Glide Virtual Agent \[com.glide.cs.chatbot\] plugin and the Conversational Integration with Google Chat \[sn\_va\_google-chat\] plugin.
 
 **Parent Topic:**[Conversational Integration with Google Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/gchat-conv-integration.md)
 

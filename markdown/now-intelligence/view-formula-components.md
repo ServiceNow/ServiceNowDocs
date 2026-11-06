@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/view-formula-components.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Examining indicators with KPI Details, KPI Details, Platform Analytics experience, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Examining indicators, KPI Details, Platform Analytics experience, Platform Analytics]
 ---
 
 # View contributing indicators to a formula in KPI Details
@@ -31,7 +31,13 @@ Depending on how the UI Builder admin has configured the KPI Details component y
 
 [Select time aggregation in KPI Details]()
 
-[Filter KPI Details by breakdown elements]()
+[Configure trend for a native Data snapshots indicator in KPI Details]()
+
+[Configure display properties for a Data snapshots indicator]()
+
+[Filter indicator scores by breakdown elements in KPI Details]()
+
+[Filter native Data snapshots indicator scores in KPI Details]()
 
 [Access indicator record or scoresheet from KPI Details]()
 

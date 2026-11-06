@@ -7,8 +7,8 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -46,14 +46,12 @@ The **Project** field displays the project name after the demand manager creates
 
     -   **Idea**: If an idea is being evaluated, the pop-up window displays the current state of the idea.
     -   **Demand**: if an idea is promoted to a demand, the pop-up window displays the current state of the demand as well as the idea.
-    -   **Project**, **Enhancement**, **Change**, or **Defect**: If a demand is accepted, the pop-up window displays the current state of the resulting artifact in addition to the demand and idea.
-    \[Omitted image "IdeaStageSummary.png"\] Alt text: Idea stage summary popup
-
+    -   **Project**, **Enhancement**, **Change**, or **Defect**: If a demand is accepted, the pop-up window displays the current state of the resulting artifact in addition to the demand and idea.\[Omitted image "demand-stage-fields.png"\] Alt text: Demand stage field pop-up shows the demand and project stages.
 
 -   **[View an artifact created from a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_ViewAnArtifactCreatedFromADemand.md)**  
 As the demand manager, you can view an artifact created from a demand.
 -   **[View a demand summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_ViewADemandSummary.md)**  
-Point to a bubble in the demand workbench bubble chart to display a summary of the demand information.
+Hover over a bubble in the demand workbench bubble chart to display a summary of the demand information.
 
 **Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/r_UsingDemandManagement.md)
 
@@ -63,6 +61,10 @@ Point to a bubble in the demand workbench bubble chart to display a summary of t
 [Assess demands]()
 
 [Create a demand]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [Add details to demands]()
 
@@ -78,5 +80,7 @@ Point to a bubble in the demand workbench bubble chart to display a summary of t
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
+[Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

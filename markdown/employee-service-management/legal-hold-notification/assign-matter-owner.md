@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Legal Hold Notification, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Hold Notification, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Assign a matter owner
@@ -18,13 +18,15 @@ Assign a matter owner \(fulfiller\) for the legal hold matter to be responsible 
 
 ## Before you begin
 
+If the Legal Counsel Center application hasn’t been previously installed, you must install it to start using Legal Hold Notification. For more information, see [Install Legal Counsel Center Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/install-legal-counsel-center-workspace.md).
+
 Role required: admin
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\).
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Default lists** tab, navigate to **Matters** &gt; **All**.
 
@@ -32,7 +34,7 @@ Role required: admin
 
 5.  Update the **Assignment group permission** field value to **Read**.
 
-6.  In the **Matter owner** field, select the Search for Record icon \(\[Omitted image "lookup-using-list.png"\] Alt text:\) and search for and select the fulfiller to be responsible for managing this legal hold matter.
+6.  In the **Matter owner** field, select the Search for Record icon \(\[Omitted image "lookup-using-list.png"\] Alt text: Search for Record icon\) and search for and select the fulfiller to be responsible for managing this legal hold matter.
 
 7.  Select **Save**.
 

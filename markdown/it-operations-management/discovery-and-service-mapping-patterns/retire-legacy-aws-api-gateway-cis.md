@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Amazon API Gateways, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Amazon API Gateways, AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Retire legacy AWS API Gateway data model CIs
@@ -19,7 +19,7 @@ Avoid duplicate AWS API Gateway configuration items \(CIs\) by retiring legacy d
 ## Before you begin
 
 -   Verify you have at least version 1.29.0 of Discovery and Service Mapping Patterns.
--   Run an AWS discovery to populate the CIs in the managed API data model. For more information, see [Create discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-manager.md).
+-   Run an AWS discovery to populate the CIs in the managed API data model. For more information, see [Create Discovery schedules for cloud resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-manager.md).
 
 Role required: admin
 

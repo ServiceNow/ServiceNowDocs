@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/request-review-approve-change-coverage-request-workflows-commercial-lines.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Commercial Lines Servicing, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Servicing, Property and Casualty Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Request, review, and approve change coverage request workflows
@@ -16,7 +16,7 @@ Learn how agents, using the change coverage limits workflows, resolve service re
 
 The following diagram shows how the application helps agents resolve a change policy coverage request.
 
-\[Omitted image "change-coverage-workflow.jpg"\] Alt text: Workflow showing how a policy change coverage request is resolved using the Commercial Lines Servicing application. For the text description, refer to the workflow steps that follow.
+\[Omitted image "change-coverage-workflow.png"\] Alt text: Workflow showing how a policy change coverage request is resolved using the Commercial Lines Servicing application. For the text description, refer to the workflow steps that follow.
 
 The insurance policy admin can review and customize this predefined flow based on the business needs of your organization.
 
@@ -48,4 +48,6 @@ The following workflow routes the case and tasks for changing coverage for a pol
 
 
 The case is complete, and the state and stage of the case are set to Closed Complete.
+
+**Parent Topic:**[Using Commercial Lines Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/using-financial-services-commercial-lines-servicing.md)
 

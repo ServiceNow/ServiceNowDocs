@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Create a normal mode connection for Microsoft Exchange On-Premises, Microsoft Exchange On-Premises - Calendar synchronization, Setup Workplace Calendar Synchronization, Configure, Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -62,17 +62,13 @@ Active
 
 Option to activate the On-premises calendar provider.
 
-</td></tr><tr><td colspan="2">
-
-**Provider Configuration**
-
 </td></tr><tr><td>
 
 Calendar processor
 
 </td><td>
 
-Calendar processor for the synchronization. Select **Microsoft EWS** as the processor.
+Calendar processor for the synchronization. Select **Microsoft EWS** as the processor in **Provider Configuration**.
 
 </td></tr><tr><td>
 
@@ -80,7 +76,7 @@ Override alias?
 
 </td><td>
 
-Option to enable selection of your own connection and credential alias. If the option is not enabled, then the default connection and credential alias is used.
+Option to enable selection of your own connection and credential alias in **Provider Configuration**. If the option is not enabled, the default connection and credential alias is used.
 
 </td></tr><tr><td>
 
@@ -88,7 +84,7 @@ Connection &amp; credential alias
 
 </td><td>
 
-Select the connection and credential alias that you created on your own for the calendar provider. This option appears only if you have selected the **Override alias?** option. If an alias is not specified, then the default connection and credential alias is used.
+Fro **Provider Configuration**, select the connection and credential alias that you created on your own for the calendar provider. This option appears only if you have selected the **Override alias?** option. If an alias is not specified, then the default connection and credential alias is used.
 
 </td></tr><tr><td>
 

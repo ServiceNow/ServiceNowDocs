@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -62,17 +62,13 @@ For supported observables, the ServiceNow AI Platform scans for the most recent 
 
 2.  Verify that the lookup ran successfully.
 
-    \[Omitted image "flows-riskiq-whois-worknotes-start.png"\] Alt text: Lookup status in work notes.
-
-    \[Omitted image "flows-riskiq-whois-worknotes-end.png"\] Alt text: Lookup status execution in work notes.
-
 
 If you cannot view expected results, verify that the observable is supported by the SSL certificate lookup for the integration.
 
 -   **[RISKIQ SSL certificate lookups that return an exact match](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq_ssl_exact_match.md)**  
 RISKIQ SSL certificate lookup results for an exact match are displayed on the **SSL Certificates** tab on the security incident record. An exact match provides a valid certificate authority name, which helps a security incident analyst determine the validity of a website.
 -   **[RISKIQ SSL certificate lookups that return multiple certificates or no certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq_ssl_no_match.md)**  
-A security incident analyst can use multiple SSL certificate results to determine whether a site is part of a common, recognizable entity. No SSL certificate results may indicate sites with obscure or suspicious names have no trusted certificates. Lookup results for observables that do not return SSL certificates, or that return multiple SSL certificates, are displayed on the Observable Enrichment Results tab on the security incident record.
+A security incident analyst can use multiple SSL certificate results to determine whether a site is part of a common, recognizable entity. No SSL certificate results may indicate sites with obscure or suspicious names have no trusted certificates. Lookup results for observables that don't return SSL certificates, or that return multiple SSL certificates, are displayed on the Observable Enrichment Results tab on the security incident record.
 
 **Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 

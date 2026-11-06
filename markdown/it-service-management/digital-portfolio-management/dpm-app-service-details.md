@@ -1,33 +1,33 @@
 ---
-title: View application service details
-description: View information about application services that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the application service life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
+title: View service instance details
+description: View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-app-service-details.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Digital Portfolio Management life-cycle management, Exploring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Life-cycle management, Explore, Digital Portfolio Management, IT Service Management]
 ---
 
-# View application service details
+# View service instance details
 
-View information about application services that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the application service life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
+View information about service instances that may impact your solutions. Each Digital Portfolio Management \(DPM\) page presents the service instance life-cycle phase information in tabs, primarily Run and Info. The Risk tab displays when you have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed.
 
-As you view the following tables, keep in mind that what you are able to see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
+As you view the following tables, keep in mind that what you can see in DPM depends on what your product license permits from the source application. See [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-related-products.md) for the required installs and plugins to see each data element.
 
-## KPI groups for application services
+## KPI groups for service instances
 
-If your organization uses the enterprise portfolio module with the latest enterprise portfolio tables, then an application service rolls up to its related business application. This enables you to create a portfolio with business applications that will have the application services. You could also create a separate portfolio for application services which contains the application service. In both cases, the application services inherit KPI groups from both portfolios.
+If your organization uses the enterprise portfolio module with the latest enterprise portfolio tables, then an service instance rolls up to its related business application. This enables you to create a portfolio with business applications that will have the service instances. You could also create a separate portfolio for service instances which contains the application service. In both cases, the service instances inherit KPI groups from both portfolios.
 
--   An application service can be in a business application portfolio because:
-    -   Application services roll up to business applications.
-    -   Run data from the application service shows at the business application level.
--   An application service can be added to an application-type portfolio.
+-   A service instance can be in a business application portfolio because:
+    -   Service instances roll up to business applications.
+    -   Run data from the service instance shows at the business application level.
+-   A service instance can be added to an application-type portfolio.
 
-Incidents, problems, and changes can be added to an application service's Impacted services or the Affected CIs related list. After this addition, you see the rolled up data in the following areas when you:
+Incidents, problems, and changes can be added to a service instance's Impacted services or the Affected CIs related list. After this addition, you see the rolled up data in the following areas when you:
 
 -   Select **View details** on any affected solution page.
 -   View the **Run** tab of any solution page to view the KPI indicators.
@@ -36,10 +36,10 @@ Incidents, problems, and changes can be added to an application service's Impact
 You can also see the rolled up data in the following areas:
 
 -   Enterprise application portfolios
--   Enterprise application service portfolios
--   Any business application or application service that is added to your personal portfolios
+-   Enterprise service instance portfolios
+-   Any business application or service instance that is added to your personal portfolios
 
-Since application services can be in two different types of portfolios, the application service inherits KPI groups from two different places. See the table for how KPI groups work in the following use cases.
+Since service instances can be in two different types of portfolios, the service instance inherits KPI groups from two different places. See the table for how KPI groups work in the following use cases.
 
 <table id="table_e25_ll4_zzb"><thead><tr><th>
 
@@ -55,7 +55,7 @@ Conditions
 
 </th></tr></thead><tbody><tr><td>
 
-Enterprise portfolio application service preview
+Enterprise portfolio service instance preview
 
 </td><td>
 
@@ -65,26 +65,26 @@ The inherited KPI groups from the enterprise portfolio.
 
 </td><td>
 
-The application service enterprise portfolio type contains application services and isn't linked to a business application type.
+The service instance enterprise portfolio type contains service instances and isn't linked to a business application type.
 
- You can link an application service to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be an application service. The required relationship is **Consumes: Consumed by**.
+ You can link an service instance to a business application enterprise portfolio type using cmdb\_rel\_ci. The parent should be a business application and the supporting item should be an service instance. The required relationship is **Consumes: Consumed by**.
 
 </td></tr><tr><td>
 
-Application services detail page \(Run tab\) from an enterprise portfolio
+Service instances detail page \(Run tab\) from an enterprise portfolio
 
 </td><td>
 
 -   All inherited KPI groups display, regardless from where you navigated.
--   Also, the KPI groups added directly to that application service display.
+-   Also, the KPI groups added directly to that service instance display.
 
 </td><td>
 
-Application service is added and its parent enterprise portfolio is mapped with its KPI group type.
+Service instance is added and its parent enterprise portfolio is mapped with its KPI group type.
 
 </td></tr><tr><td>
 
-Application service from a personal portfolio or from a list
+Service instance from a personal portfolio or from a list
 
 </td><td>
 
@@ -109,11 +109,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Application service performance**
+**Service instance performance**
 
 </td><td>
 
-Performance details about the application service. You can select the graphs and cards for each section to view more details. Each indicator has an information icon \(\[Omitted image "information-icon.jpg"\] Alt text: Information icon.\) that when selected, provides a tooltip description for that indicator.The following KPI groups and indicators are in this section.
+Performance details about the service instance. You can select the graphs and cards for each section to view more details. Each indicator has an information icon \(\[Omitted image "information-icon.jpg"\] Alt text: Information icon.\) that when selected, provides a tooltip description for that indicator.The following KPI groups and indicators are in this section.
 
 -   **Portfolio success metrics**
     -   Availability
@@ -145,7 +145,7 @@ Performance details about the application service. You can select the graphs and
 
 </td><td>
 
-Commitment data for the application service. You can select a commitment to view its details.
+Commitment data for the service instance. You can select a commitment to view its details.
 
 </td></tr><tr><td>
 
@@ -153,22 +153,22 @@ Commitment data for the application service. You can select a commitment to view
 
 </td><td>
 
-Service reliability management information data for the application service. To see reliability indicators, the sn\_sow\_srm plugin must be installed. You can select a reliability indicator to view its details.
+Service reliability management information data for the service instance. To see reliability indicators, the sn\_sow\_srm plugin must be installed. You can select a reliability indicator to view its details.
 
 </td></tr><tr><td>
 
-**Offerings that depend on this application service**
+**Offerings that depend on this service instance**
 
 </td><td>
 
-A list of the offerings that depend on this application service. The number of offerings is in a gray box. Select an offering for its details.
+A list of the offerings that depend on this service instance. The number of offerings is in a gray box. Select an offering for its details.
 
  For information on offering details, see [View service and service offering details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-service-details.md).
 
 </td></tr></tbody>
 </table>## Risk tab
 
-To see the Risk tab, you must have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed. The Risk tab displays the Technology Lifecycle Risk using donut reports and lists for application services software and hardware models.
+To see the Risk tab, you must have the Technology Lifecycle Management plugin \[sn\_apm\_tpm\] installed. The Risk tab displays the Technology Lifecycle Risk using donut reports and lists for service instances software and hardware models.
 
 **Note:** The Technology Lifecycle Management plugin \[sn\_apm\_tpm\] has two dependency plugins:
 
@@ -177,7 +177,7 @@ To see the Risk tab, you must have the Technology Lifecycle Management plugin \[
 
 ## Info tab
 
-The Info tab provides general information about the application service. You can't edit the fields in the Info tab.
+The Info tab provides general information about the service instance. You can't edit the fields in the Info tab.
 
 <table id="table_alc_bcq_vwb"><thead><tr><th>
 
@@ -189,11 +189,11 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-**Application service description**
+**Service instance description**
 
 </td><td>
 
-Description about the application service.
+Description about the service instance.
 
 </td></tr><tr><td>
 
@@ -201,7 +201,7 @@ Description about the application service.
 
 </td><td>
 
-General information about the application service.-   Business criticality
+General information about the service instance.-   Business criticality
 -   Version
 -   Environment
 -   Operational status
@@ -216,15 +216,15 @@ General information about the application service.-   Business criticality
 
 </td><td>
 
-The personal portfolios for the application service. The number of personal portfolios is in a gray box. Select a personal portfolio for its details.
+The personal portfolios for the service instance. The number of personal portfolios is in a gray box. Select a personal portfolio for its details.
 
 </td></tr><tr><td>
 
-**Application service commitments**
+**Service instance commitments**
 
 </td><td>
 
-The service commitments for the application service. The number of commitments is in a gray box. Select a commitment for its details.
+The service commitments for the service instance. The number of commitments is in a gray box. Select a commitment for its details.
 
 </td></tr><tr><td>
 
@@ -232,7 +232,7 @@ The service commitments for the application service. The number of commitments i
 
 </td><td>
 
-The software and hardware models for the application service. The number of each is in a gray box. Select a software or hardware model for its details.
+The software and hardware models for the service instance. The number of each is in a gray box. Select a software or hardware model for its details.
 
 </td></tr><tr><td>
 
@@ -240,12 +240,12 @@ The software and hardware models for the application service. The number of each
 
 </td><td>
 
-The configuration items \(CIs\) for the application service. The number of CIs is in a gray box. Select a CI for its details.
+The configuration items \(CIs\) for the service instance. The number of CIs is in a gray box. Select a CI for its details.
 
 </td></tr></tbody>
 </table>## Needs attention panel icons
 
-The Needs attention panel includes the following icons for application services:
+The Needs attention panel includes the following icons for service instances:
 
 -   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panel.
 -   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and teams for the record.

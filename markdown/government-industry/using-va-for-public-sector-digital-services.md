@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/using-va-for-public-sector-digital-services.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 2
+breadcrumb: [Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using Virtual Agent for Public Sector Digital Services
@@ -45,13 +45,9 @@ Before creating Virtual Agent conversations, review the following prerequisites 
 
 Use this topic block in a conversation to ask constituents to select a service from a list of available government services, for example permits or licenses. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
 
-\[Omitted image "prompt-service-example.png"\] Alt text: Virtual agent conversation window showing the available prompts that can be used with the virtual agent Constituent topic block.
-
 ## Create Public Sector Additional Members topic block
 
 Use this topic block to let your constituents specify other people, such as family members or other authorized individuals, who can view a case or issue. Activate the Customer Service Virtual Agent Conversations \(com.sn\_csm.virtualagent\) plugin to use this topic block.
-
-\[Omitted image "additional-members-example.png"\] Alt text: Now Support chat showing the workflow for adding members to a government service case using Virtual Agent chat prompts.
 
 When you use this topic block in a conversation, you specify the input parameters from the originating \(calling\) topic to the topic block.
 

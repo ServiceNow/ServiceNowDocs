@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Manage policy exceptions and extensions
@@ -20,7 +20,7 @@ The policy exception captures the rationale, comments, and evidence to support t
 
 -   **[Request a policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/request-policy-exception.md)**  
 Users can request exceptions for policies, control objectives, or issues by specifying the reason of exception on a particular list of the systems, applications, networks, or entities for which the exception will apply. The user must also specify the duration for which the exception is required.
--   **[Request an extension](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.md)**  
+-   **[Request an extension to policy exception](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/request-policy-extension-platform.md)**  
 Request an extension for the policy exception that you created.
 -   **[Review the policy exception and extension request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/review-policy-exception-request.md)**  
 After reviewing a policy exception request, a compliance manager can accept or reject the request. However, if the compliance manager doesn't have enough information decide, they can request a risk assessment by the risk manager.
@@ -31,5 +31,5 @@ From the ServiceNow® Portal, anyone who has requested a policy exception can re
 -   **[Policy Exception Integration with Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/request-pe-from-vr.md)**  
 Starting with Version 10.1, you can request policy exceptions using the GRC policy exception management capability inherent in the Policy and Compliance Management application from within version 10.3 of the Vulnerability Response application.
 
-**Parent Topic:**[Use the Classic user interface for Policy and Compliance tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
+**Parent Topic:**[Classic UI for Policy and Control Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/policy-and-compliance-management/using-policy-compliance-legacy-ui.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Configure, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Disable the safety incident playbook

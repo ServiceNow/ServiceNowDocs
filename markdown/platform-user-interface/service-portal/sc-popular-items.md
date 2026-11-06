@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Catalog widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -27,7 +27,7 @@ You can view order guides in the Service Catalog Popular Items widget as a stand
 |Field|Description|
 |-----|-----------|
 |Limit|Maximum number of popular items shown. The default number is 9.|
-|Include Record Producers|Includes requests made through [record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_RecordProducer.md).|
+|Include Record Producers|Includes requests made through record producers.|
 
 **Parent Topic:**[Service Catalog widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/sc-widgets.md)
 

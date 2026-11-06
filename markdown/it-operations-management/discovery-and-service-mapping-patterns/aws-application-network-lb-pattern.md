@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-06-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Amazon AWS Application Load Balancer, Amazon AWS Network Load Balancer, AWS load balancer discovery, AWS discovery, AWS patterns]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # AWS Application and Network LB pattern-based discovery
@@ -21,7 +21,7 @@ Discovery and Service Mapping Patterns finds AWS Application Load Balancers and 
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+    For more information, see the prerequisites section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **Configure the Discovery schedule to support GovCloud**
 
@@ -77,5 +77,5 @@ The Amazon AWS - Application and Network LB \(LP\) pattern collects tags and pop
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Load Balancer \[cmdb\_ci\_cloud\_load\_balancer\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

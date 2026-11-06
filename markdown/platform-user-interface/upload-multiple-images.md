@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/upload-multiple-images.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Storing images in the database, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -36,8 +36,6 @@ Role required: image\_admin or content\_admin
         |**Image**|Select **Click to add...** to upload an image. If an image is already uploaded, click **\[Update\]** to upload a new version of the image or **\[Delete\]** to remove the image.|
         |**Format**, **Size bytes**, **Height**, and **Width**|View current image metadata. This information is automatically populated when the image is uploaded.|
 
-        \[Omitted image "product-doc-page.png"\] Alt text:
-
 2.  To upload multiple images at once, complete the following steps:
 
     1.  Create a .zip file that contains only [acceptable image file types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_StoringImagesInTheDatabase.md).
@@ -49,8 +47,6 @@ Role required: image\_admin or content\_admin
     3.  Click **Choose File** then select the file.
 
     4.  Click **Upload**.
-
-        \[Omitted image "mulitple-image-upload.png"\] Alt text: Zip upload
 
     A message indicates that the files are uploaded to the database, and the images list is sorted by updated date in descending order \(the uploaded images appear first\).
 

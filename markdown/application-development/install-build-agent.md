@@ -1,25 +1,55 @@
 ---
 title: Install Build Agent
-description: Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Build Agent.
+description: For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/install-build-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [Configure, Build Agent, Use AI capabilities in custom applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # Install Build Agent
 
-Install the ServiceNow Otto for Creator application from the ServiceNow Store to get Build Agent.
+For the Premium version of Build Agent, install the ServiceNow Otto for Creator application from the ServiceNow Store.
 
 ## Before you begin
 
+The Premium version of Build Agent is part of ServiceNow Otto for Creator, and is a ServiceNow AI Platform® feature that's activated by default when ServiceNow Otto for Creator is installed. You don't need an entitlement to start exploring Build Agent.
+
 -   Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
--   Build Agent supports Anthropic Claude on AWS, Azure OpenAI, and Google Gemini.
+-   You can use Build Agent on a Personal Development Instance \(PDI\) or in Developer Sandboxes. For more information, see [Accessing Build Agent in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/access-build-agent.md).
+-   Build Agent supports the following models:
+    -   Azure OpenAI GPT 5.4
+    -   Azure OpenAI GPT 5.5
+
+        **Note:** GPT 5.5 support is not available in the APAC region.
+
+    -   Azure OpenAI GPT 5.6 Sol 
+    -   Azure OpenAI GPT 6.1å Sol 
+    -   Google Gemini 3.8 Flash
+    -   Google Gemini 3.7 Flash
+    -   Google Gemini 3.5 Flash
+    -   Gemini 2.5 Pro
+    -   Claude Opus 4.6
+    -   Claude Opus 4.8
+    -   Claude Opus 5.0
 
 Role required: admin
+
+## About this task
+
+Build Agent is enabled by default to create apps with AI, for example in ServiceNow Studio. To use other ServiceNow Otto products, such as the app generation skill, disable Build Agent. For example, using the setting in your ServiceNow Studio preferences.
+
+**Note:** The trial app was formerly called "Build Agent" and has been renamed to "Build Agent \(Trial\)."
+
+Instances running Australia Patch 5 or Zurich Patch 12 and later that have Build Agent installed receive automatic upgrades when a new version is published to the ServiceNow Store. That is, you don't need to manually install new versions on qualifying instances. For more information on how automatic upgrades work, including blackout windows and failure resolution, see .
+
+**Note:** Autonomous Engineer is a separate application available in the ServiceNow Store. Installing Autonomous Engineer also installs Build Agent as a dependency. Installing Build Agent alone does not install Autonomous Engineer.
+
+For instructions on installing ServiceNow products from the ServiceNow Store, see [Install an application or plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/installing-applications-in-application-manager.md).
 
 ## Procedure
 
@@ -33,9 +63,9 @@ Role required: admin
 
 5.  Enable the Build Agent skill:
 
-    1.  Navigate to **Admin** &gt; **AI Admin Hub**.
+    1.  Navigate to **All** &gt; **AI Admin Hub****Skills**.
 
-    2.  Go to the **Now Assist Skills** tab and select **Creator**.
+    2.  Select the **Creator** tab.
 
         \[Omitted image "build-agent-enable.png"\] Alt text: Build Agent is listed as Now Assist for Creator skills.
 
@@ -44,10 +74,10 @@ Role required: admin
     The skill is enabled for all users.
 
 
-**Parent Topic:**[Configure Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/configure-build-agent.md)
+**Parent Topic:**[Build Agent configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/configure-build-agent.md)
 
 **Related topics**  
 
 
-[install-now-assist-for-creator]
+[Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/now-assist-for-creator/install-now-assist-for-creator.md)
 

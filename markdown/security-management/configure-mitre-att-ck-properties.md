@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/configure-mitre-att-ck-properties.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -84,22 +84,8 @@ Time\(in hours\) to calculate "CVE - VUL Count"\[sn\_ti.time\_to\_calculate\_cve
 
 The scheduled time in hours to calculate the CVE and VUL information.Default value: 24
 
-</td></tr><tr><td>
-
-\[sn\_ti.include\_cve\_vit\_indirect\_relation\]
-
-</td><td>
-
-Includes the number of VITs that are indirectly associated to a CVE through TPEs.
-
- This property identifies all the TPEs associated to a CVE and then identify all the CVEs that are associated to those TPEs. The total count of VITs include the following:
-
--   The VITs directly associated to that particular CVE.
--   The VITs that are associated indirectly to the CVEs through TPEs.
-
-
 </td></tr></tbody>
-</table>3.  Click **Save**.
+</table>3.  Select **Save**.
 
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/mitre-att-ck-administration.md)

@@ -7,7 +7,7 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [OAuth 2.0, OAuth authentication, Authentication, Access Management]
 ---
@@ -18,7 +18,7 @@ Set up and activate OAuth, enable the OAuth system property, create an OAuth app
 
 ## Before you begin
 
-Role required: admin
+Role required: oauth\_admin
 
 ## Procedure
 

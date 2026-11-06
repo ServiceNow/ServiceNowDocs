@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create response due date rules, Administer, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -37,8 +37,6 @@ Role required:
 
     You can add multiple users to the escalation chain, all the users who has access are listed on the Details section of the form view and also under the **All** incidents tab. The escalation chain is displayed based on the configuration settings. For more information, see [Configure advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-advanced-settings-dlp.md)
 
-    \[Omitted image "dlp-escalation-chain.png"\] Alt text: DLP incidents list view
-
 5.  Click **Submit**.
 
     After you submit, the incident will then be assigned to a manager however the end user can still view the incident.
@@ -49,9 +47,7 @@ Role required:
 
 7.  View the escalated incidents list under the **Escalated Incidents** section.
 
-    \[Omitted image "dlp-end-user-escalated-incidents.png"\] Alt text: Escalated incidents
-
-    You can also view the users access list under the **Escalation Chain**column on the list view.
+    You can also view the users access list under the **Escalation Chain** column on the list view.
 
 8.  Open any incident.
 

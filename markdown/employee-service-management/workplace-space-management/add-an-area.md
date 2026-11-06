@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Space Management
 classification: workplace-space-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Manage, Workplace Space Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -211,9 +211,13 @@ Managed by
 
 Workplace manager who manages all the workplace-related operations.
 
-</td></tr><tr><td colspan="2">
+</td></tr><tr><td>
 
 **Measurement Details**
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
@@ -258,7 +262,11 @@ Surface area computed in square feet or square meters.Ability to compute surface
 </td></tr></tbody>
 </table>6.  Select **Block location** to define a time period to block these locations for reservation.
 
-7.  Click **Submit**.
+7.  To add an image, select the Additional Actions icon \(\[Omitted image "additionalactions-icon.png"\] Alt text: Additional Actions to switch to the Workplace view.\) to select **View** &gt; **Workplace**.
+
+    1.  Select an **Image** that you want to add and upload it.
+
+8.  Click **Submit**.
 
 
 ## Result
@@ -301,6 +309,8 @@ You can add an allocation if there is none. For more information on how to add a
 [Raise a space assistance request]()
 
 [Create a view-by configuration]()
+
+[]()
 
 [Reviewing allocation changes]()
 

@@ -1,20 +1,20 @@
 ---
-title: Manage exclusion lists for CMDB Data Manager in CMDB Workspace
-description: Create and manage exclusion lists for the various policy types in CMDB Data Manager. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
+title: Manage exclusion lists for CMDB Data Manager
+description: Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administer Data Manager in CMDB Workspace, CMDB Data Manager experience in CMDB Workspace, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Administer CMDB Data Manager, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Manage exclusion lists for CMDB Data Manager in CMDB Workspace
+# Manage exclusion lists for CMDB Data Manager
 
-Create and manage exclusion lists for the various policy types in CMDB Data Manager. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
+Create and manage exclusion lists for the various policy types used in CMDB Data Manager, in CMDB Workspace. Policies of the specified type won't target CIs and other records in the exclusion list for that policy type.
 
 ## Before you begin
 
@@ -22,22 +22,17 @@ Role required: sn\_cmdb\_admin
 
 ## About this task
 
-**Note:**
-
--   Regardless of where you manage exclusion lists, that same list is used in both the Data Manager \(Core UI\) and Data Manager in CMDB Workspace.
--   The Certification policy type doesn't support exclusion lists.
+**Note:** The Certification policy type doesn't support exclusion lists.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select Management in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**. Then, in the Governance navigation pane, select **Data Manager**.
 
-2.  Select the **Data Manager** link in Management tools, in the Manage section.
-
-3.  Select **Excluded records** in the left-side bar.
+2.  Select **Excluded records** in the left-side bar.
 
     The Excluded records list view shows lists of all records currently excluded, grouped by policy type. You can expand any group to show its CIs and other records and then drill down to any record.
 
-4.  Remove excluded records from the exclusion list:
+3.  Remove excluded records from the exclusion list:
 
     1.  Expand a policy type group to show its list of excluded records.
 
@@ -49,7 +44,7 @@ Role required: sn\_cmdb\_admin
 
     The selected records are removed from the exclusion list and can be targeted for the policy type.
 
-5.  Add records to an exclusion list:
+4.  Add records to an exclusion list:
 
     1.  Select **Exclude Records** and fill out the Data Filter form.
 

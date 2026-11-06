@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Applying CSDM guidelines to Problem Management, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -28,7 +28,7 @@ The CMDB, when used by the CSDM framework, provides value to Problem Management 
 -   Dynamically route problems.
 -   Identify one or more impacted services to address the problem.​
 
-\[Omitted image "pm-use-case-csdm4.0.png"\] Alt text: CSDM data elements available for use by Problem Management.
+\[Omitted image "pm-use-case-csdm-v5.png"\] Alt text: CSDM data elements available for use by Problem Management.
 
 The CSDM data elements used in Problem Management are:
 
@@ -39,7 +39,7 @@ The CSDM data elements used in Problem Management are:
     -   Service Subscriptions by Location \[service\_subscribe\_location\]
     -   Service Subscriptions by User \[service\_subscribe\_sys\_user\]
 2.  Business service offering might be used by problems to provide the business approver based on approval\_group and business\_criticality. A business service may have multiple offerings, each with a different criticality.
-3.  Technical service offerings might be used by problems to provide the technical approver approval\_group and technical assignment group on the attribute assignment\_group.
+3.  Technology management offerings might be used by problems to provide the technical approver approval\_group and technical assignment group on the attribute assignment\_group.
 4.  Service instance may be used to provide prod and non-prod \(DEV, QA, UAT, and so on\) environments. Non-prod environments may be filtered out if desired. The legacy **used\_for** attribute maps to the **environment** attribute. You should use the **environment** attribute.
 
     **Note:** Some service offerings may identify the environment of the offering as well.

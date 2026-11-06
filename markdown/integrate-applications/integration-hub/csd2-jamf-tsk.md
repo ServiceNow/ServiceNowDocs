@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Client Software Distribution 2.0 application, Integration Hub available solutions, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Client Software Distribution 2.0 application, Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # CSD 2.0 for Jamf
@@ -50,10 +50,7 @@ Available AI agents include:
 -   Ensure that you install the latest version of Jamf spoke.
 -   To use the AI agents, ensure that you are using the default connection that is available with the Jamf spoke.
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 ## Available sample agentic workflows
 
@@ -63,7 +60,7 @@ In the ServiceNow agentic system, you can create an agentic workflow that compri
 
 Available sample agentic workflow includes:
 
-<table id="table_z2y_gsy_c3c"><thead><tr><th>
+<table id="table_chb_l90v_c3c"><thead><tr><th>
 
 Sample agentic workflow
 

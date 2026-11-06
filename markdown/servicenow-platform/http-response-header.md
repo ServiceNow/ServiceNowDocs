@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/http-response-header.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -66,6 +66,8 @@ If the Internet Explorer request includes the referrer URL header:
 
 
 [Control request and response content type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_SpecifyContentType.md)
+
+[bundle-psec.cache-control-http-header-value]
 
 [Content-Security-Policy: frame-ancestor 'self' URL1 URL2](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors)
 

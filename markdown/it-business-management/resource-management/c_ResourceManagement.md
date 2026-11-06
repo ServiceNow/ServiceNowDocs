@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -45,16 +45,12 @@ The Resource Management application is activated as part of the [PPM Standard](h
 The resource plan is the key to understanding how resource management works.
 -   **[Resource plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourcePlans.md)**  
 Resource plans are the key element in resource management.
--   **[Migration of resource plans and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
+-   **[Migration of resource plans, operational resource plans, and cost plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/rsrc-plans-rsrc-asgmnts.md)**  
 Migrate resource plans to resource assignments and the associated cost plans to attribute-based labor costs of your projects or demands and easily work on resource allocations using Project Workspace.
 -   **[Create requested allocations for a resource plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/request-allocation.md)**  
-Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, resource requesters can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
+Requested Allocations are automatically created when a resource plan is submitted and is in Planning state. If required, the resource requester can create new requested allocations for a resource plan in Planning or Rejected state. Resource managers can create requested allocations for the plans in Requested state.
 -   **[Resource allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/r_AllocatingResources.md)**  
 After resource requesters create a resource plan, resource managers can confirm the resources to move the plan to the Confirmed state. Resource managers can then allocate resources to the plan and move it to the Allocated state.
--   **[Capacity planning overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceWorkbench.md)**  
-Capacity Planning page provides resource managers with a comprehensive view of capacity, allocations, and utilization of resources. As a resource manager, you can use it to review resource capacity and existing allocations and then confirm resources to a demand or project.
--   **[Allocation workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/allocation-workbench.md)**  
-Use the allocation workbench to allocate your resources effectively to the requesting investments by evaluating resource capacity and availability.
 -   **[Resource schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_UsingResourceSchedules.md)**  
 Understand the default schedules used in Resource Management and learn how to create your own custom schedules.
 -   **[Resource events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/c_ResourceEvents.md)**  

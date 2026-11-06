@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Performance profiling
@@ -26,7 +26,7 @@ You can execute performance profiling on any of your ATF tests or suites. For ea
 
 **Note:** When you execute a performance test run, the system pauses and waits for any ongoing jobs to finish before starting the test run. This helps in avoiding any slowdown of your instance.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) tests types and testing ways](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
@@ -38,6 +38,10 @@ You can execute performance profiling on any of your ATF tests or suites. For ea
 [Quick start tests]()
 
 [Parallel testing]()
+
+[Accelerate ATF tests failure resolution]()
+
+[ATF Health Check]()
 
 ## Execute performance profiling
 
@@ -67,17 +71,17 @@ Role required: admin
 
 5.  Select the required performance number to view the results of all the test runs within the selected performance test.
 
-    The Performance Run form shows up. You can also directly navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Test** &gt; **Performance Profiling** &gt; **Performance Runs** to see the Performance Run form. Add a screenshot
+    The Performance Run form shows up. You can also directly navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Test** &gt; **Performance Profiling** &gt; **Performance Runs** to see the Performance Run form.
 
     **Note:** You can view the test name, status of the test runs, and the duration of the test run. If the **Is warmup** value is true, its the first test run that is done to warmup the cache values. The rest of the test runs will have **Is warmup** value set to false. The warmup test is not counted as one of the 10 test runs for each test or suite.
 
 6.  Navigate to **All** &gt; **Automated Test Framework \(ATF\)** &gt; **Test** &gt; **Performance Profiling** &gt; **Performance Comparisons**.
 
-    The Performance Comparisons form shows up. &lt;add a screenshot of the form&gt;
+    The Performance Comparisons form shows up.
 
 7.  Select the first and second run to view a comparison result.
 
-    Add the complete screenshot. You can view information like performance means and the delta mean values.
+    You can view information like performance means and the delta mean values.
 
     **Note:** You can compare only 2 test runs at one point of time. In the next comparison, you can consider one of the previous test run as the baseline to compare with the next test run.
 

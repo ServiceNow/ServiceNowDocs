@@ -1,20 +1,20 @@
 ---
 title: IBM licensing in IBM LPAR infrastructures
-description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Authorized SAM Provider \(IASP\) Program, the Software Asset Management application supports IBM licensing rules for IBM logical partitions.
+description: When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for IBM logical partitions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/ibm-licensing-ibm-lpar-infrastructure.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(IASP\) integrations, Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Virtualization technologies and cloud platforms supported by ASP integrations, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # IBM licensing in IBM LPAR infrastructures
 
-When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Authorized SAM Provider \(IASP\) Program, the Software Asset Management application supports IBM licensing rules for IBM logical partitions.
+When you integrate the Software Asset Management publisher pack for IBM with Software Asset Management providers that are authorized to participate in the IBM Client Value Acceleration \(CVA\) Program, the Software Asset Management application supports IBM licensing rules for IBM logical partitions.
 
 A logical partition \(LPAR\) is a defined subset of processor hardware that supports the operating system. An LPAR contains resources, such as processors, memory, and input or output devices, that operate as an independent system. You can have multiple LPARs within each mainframe hardware system.
 
@@ -58,5 +58,5 @@ The Software Asset Management application supports both full capacity and sub-ca
     Using the sum of processor cores that must be licensed across your processor pools, you can determine the number of rights that are required for your license based on the license type. To determine the number of rights that are required for a PVU or RVU license, see [IBM processor value unit \(PVU\) and resource value unit \(RVU\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-pvu-rvu-licensing.md). To determine the number of rights that are required for a VPC license, see [IBM virtual processor core \(VPC\) licenses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/ibm-virtual-processor-core-licensing.md).
 
 
-**Parent Topic:**[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(IASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)
+**Parent Topic:**[Virtualization technologies and public cloud platforms supported by IBM Authorized SAM Provider \(ASP\) integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/supported-virtualization-technologies-iasp-integrations.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage lookups and scans, Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,19 +28,19 @@ Role required: sn\_si.basic
 
 1.  [Create a new security incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_ManuallyCreateSecurityIncident.md) or open an existing one if you intend to attach new files to it.
 
-2.  Click the paperclip icon in the form header and attach one or more files.
+2.  Select the paperclip icon in the form header and attach one or more files.
 
-3.  When you have completed your entries on the form, right-click the form header and click **Save**.
+3.  When you have completed your entries on the form, select and hold \(or right-click\) the form header and select **Save**.
 
     After the record has been saved, a **Lookup attachments** button appears.
 
-4.  Click **Lookup attachments**.
+4.  Select **Lookup attachments**.
 
     **Note:** The work notes under **Incident Details** report the progress of the lookup process.
 
-5.  You can click the lookup number at the end of the message to view the lookup record.
+5.  You can select the lookup number at the end of the message to view the lookup record.
 
-    You can click the Lookup reference link to view detailed results.
+    You can select the Lookup reference link to view detailed results.
 
     \[Omitted image "LookupRequestFromSI.png"\] Alt text: Lookup request message
 

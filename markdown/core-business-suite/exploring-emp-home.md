@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/core-business-suite/exploring-emp-home.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [explore]
 breadcrumb: [Core Business Suite]
@@ -37,7 +37,7 @@ CBS admin\[sn\_cbs.admin\]
 
 </td><td>
 
-Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.
+Manages the administrative permissions for the CBS application and has complete access to all configurations in CBS.**Note:** CBS admins require the sn\_ia\_config.ia\_admin role for the overall permission to configure and manage the application.
 
 </td></tr><tr><td>
 
@@ -76,7 +76,7 @@ CBS requester\[sn\_cbs.requestor\]
 
 </td></tr><tr><td>
 
-Leverage an intuitive portal navigation with the Advanced Portal Navigation \(APN\) in CBS. Access all your employee portal request forms under APN.**Note:** Merge your existing APN record with the CBS APN record or use the active and default APN setup provided in CBS. For more information on merging your existing APN record to use it in CBS, see [Configure Core Business Suite applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/core-business-suite/cbs-run-scheduled-jobs.md).
+Leverage an intuitive portal navigation with the Advanced Portal Navigation \(APN\) in CBS. Access all your employee portal request forms under APN.**Note:** Merge your existing APN record with the CBS APN record or use the active and default APN setup provided in CBS. For more information on merging your existing APN record to use it in CBS, see .
 
 </td><td>
 
@@ -137,7 +137,7 @@ CBS requester\[sn\_cbs.requestor\]
 
 To learn more about configuring and using Core Business Suite, see:
 
--   [Configuring Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/core-business-suite/cbs-configure.md)
+-   
 -   [Using Core Business Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/core-business-suite/cbs-using-parent.md)
 -   [Core Business Suite reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/core-business-suite/cbs-reference-parent.md)
 

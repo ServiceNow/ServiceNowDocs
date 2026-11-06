@@ -7,7 +7,7 @@ release: yokohama
 product: Service Builder
 classification: service-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Service Builder, IT Service Management]
 ---

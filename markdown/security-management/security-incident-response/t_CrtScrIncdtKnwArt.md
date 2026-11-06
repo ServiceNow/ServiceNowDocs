@@ -1,20 +1,20 @@
 ---
 title: Create a security incident knowledge article
-description: As you work with security incidents and response tasks, knowledge articles automatically display to provide pertinent information about the task you are performing. Your organization can create and maintain articles in the security incident knowledge base.
+description: As you work with security incidents and response tasks, knowledge articles automatically display to provide pertinent information about the task you're performing. Your organization can create and maintain articles in the security incident knowledge base.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/t\_CrtScrIncdtKnwArt.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Managing security incidents and inbound requests, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Create a security incident knowledge article
 
-As you work with security incidents and response tasks, knowledge articles automatically display to provide pertinent information about the task you are performing. Your organization can create and maintain articles in the security incident knowledge base.
+As you work with security incidents and response tasks, knowledge articles automatically display to provide pertinent information about the task you're performing. Your organization can create and maintain articles in the security incident knowledge base.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: sn\_si.knowledge\_admin
 
 Knowledge articles share security information, document the types of cyber threats that your organization faces, and provide answers and responses to these threats.
 
-If needed, you can organize knowledge articles into runbooks, which create associations between the articles and specific tasks. For example, you can configure a runbook with conditions that cause a knowledge base article about phishing to be displayed when you are creating a security incident for a phishing attack. For more information, see [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/setup-assistant-reference.md).
+If needed, you can organize knowledge articles into runbooks, which create associations between the articles and specific tasks. For example, you can configure a runbook with conditions that cause a knowledge base article about phishing to be displayed when you're creating a security incident for a phishing attack. For more information, see [Create a Security Incident Response runbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/setup-assistant-reference.md).
 
 Knowledge articles in runbooks can also be associated with specific tasks in a playbook. For more information, see [Associate a knowledge article with a playbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/use-the-playbook.md).
 
@@ -40,7 +40,7 @@ The benefits of knowledge articles include the following.
 
 1.  Navigate to **All** &gt; **Security Incident** &gt; **Catalog &amp; Knowledge** &gt; **Knowledge**.
 
-2.  Click the Create an Article icon \(\[Omitted image "cj-sir-add-article-icon.png"\] Alt text: Article icon\).
+2.  Select the Create an Article icon \(\[Omitted image "cj-sir-add-article-icon.png"\] Alt text: Article icon\).
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -59,9 +59,9 @@ The benefits of knowledge articles include the following.
     |Short description|The title of the article. This title appears when browsing and searching knowledge, and at the top of the article.|
     |Text|Content for the article. Use the WYSIWYG HTML editor to create content. A preview of the content appears when browsing and searching knowledge.|
 
-    **Note:** If you are creating a [knowledge article to be associated with a playbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/use-the-playbook.md), set the **Knowledge base** field to **Security Incident Response Runbook**.
+    **Note:** If you're creating a [knowledge article to be associated with a playbook task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/use-the-playbook.md), set the **Knowledge base** field to **Security Incident Response Runbook**.
 
-4.  Click **Submit** to create the article.
+4.  Select **Submit** to create the article.
 
 
 ## What to do next

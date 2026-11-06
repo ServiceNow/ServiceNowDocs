@@ -5,14 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/Determining-correct-project-task-template.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up project oversight conditions and decision rules, Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Extending Order Management with ServiceNow applications and integrations, Sales Customer Relationship Management]
+breadcrumb: [Setting up project oversight conditions and decision rules, Configuring the Strategic Portfolio Management integration, Order Management integration with Strategic Portfolio Management, Integrate, Sales Customer Relationship Management]
 ---
 
 # Choosing a project template task when duplicates exist
 
-As an admin, when you're configuring the decision rules for domain orders and order tasks, you may find that there are multiple project template tasks with the same **Short description**. It may be difficult to determine the correct project template task to select.
+As an admin, when you're configuring the decision rules for domain orders and order tasks, you may find that there are multiple project template tasks with the same Short description. It may be difficult to determine the correct project template task to select.
 
 For example, the following decision table for Project Oversight for Domain Order shows two options with the same name for the project template task: Product Order for SD-WAN Security. This project template task has the same **Short description** for two different project template tasks, one for SD-WAN Package and the other for SD-WAN Customer Product Bundle.
 

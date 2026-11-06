@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-billing-accounts.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-09-17"
-reading_time_minutes: 2
-breadcrumb: [Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Billing accounts
@@ -56,6 +56,10 @@ Use billing accounts when your organization needs to:
 
 **Related topics**  
 
+
+[Billing account data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/billing-account-data-model.md)
+
+[Customer Data Foundation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-data-foundation.md)
 
 [Data management for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-data-management.md)
 

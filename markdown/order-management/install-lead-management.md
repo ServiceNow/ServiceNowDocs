@@ -1,18 +1,18 @@
 ---
 title: Install Lead Management
-description: If you have the admin role, you can install the Lead Management application. The application includes the demo data and installations that are related ServiceNow Store applications and plugins.
+description: If you have the admin role, you can install the Lead Management application. The application includes the demo data and installations that are related to ServiceNow Store applications and plugins.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/install-lead-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Install and configure Lead Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Install Lead Management
 
-If you have the admin role, you can install the Lead Management application. The application includes the demo data and installations that are related ServiceNow® Store applications and plugins.
+If you have the admin role, you can install the Lead Management application. The application includes the demo data and installations that are related to ServiceNow® Store applications and plugins.
 
 ## Before you begin
 
@@ -24,7 +24,7 @@ Role required: admin
 
 ## About this task
 
-The following items are installed with Quote Management:
+The following items are installed with Lead Management:
 
 -   Plugins
 -   Store applications
@@ -41,7 +41,7 @@ For more information on viewing components that are installed with an applicatio
 
     You can search for the application by its name or ID. If you can't find the application, request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -49,15 +49,15 @@ For more information on viewing components that are installed with an applicatio
 
 4.  If you want to install demo data, do one of the following depending on your entitlements.
 
-<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d26860e187">
+<table id="choicetable_t11_3lj_21c"><thead><tr><th align="left" id="d113220e199">
 
 Demo data install task
 
-</th><th align="left" id="d26860e190">
+</th><th align="left" id="d113220e202">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d26860e196">
+</th></tr></thead><tbody><tr><td id="d113220e208">
 
 **If demo data is available and you want to install it**
 
@@ -67,7 +67,7 @@ Description
 2.  Select **Install**.
  **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-</td></tr><tr><td id="d26860e226">
+</td></tr><tr><td id="d113220e238">
 
 **If the Load Demo Data option isn’t available but you want demo data**
 
@@ -81,3 +81,10 @@ Load the demo data after installing [Opportunity Management](https://raw.githubu
 
 </td></tr></tbody>
 </table>
+**Related topics**  
+
+
+[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-using.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
+

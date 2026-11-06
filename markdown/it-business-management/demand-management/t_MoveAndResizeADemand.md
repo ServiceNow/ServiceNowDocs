@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,19 +26,17 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 
 ## Procedure
 
-1.  Click and drag a bubble left or right along the horizontal axis to decrease or increase the risk of the demand.
+1.  Select and drag a bubble left or right along the horizontal axis to decrease or increase the risk of the demand.
 
     The new risk for the demand is updated in the **Risk** column.
 
-2.  Click and drag a bubble up or down along the vertical or Y axis to increase or decrease the value of the demand.
+2.  Select and drag a bubble up or down along the vertical or Y axis to increase or decrease the value of the demand.
 
     The new value for the demand is updated in the **Value** column.
 
-3.  Click a bubble to open a sizing window where you can increase or decrease the size of the bubble.
+3.  Select a bubble to open a sizing window where you can increase or decrease the size of the bubble.
 
-    The new size of the demand is updated in the **Size** column.
-
-    \[Omitted image "BubbleSizeWindow.png"\] Alt text: Bubble size window
+    The new size of the demand is updated in the **Size** column.\[Omitted image "demand-bubble-size.png"\] Alt text: Bubble size window
 
 
 **Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/r_UsingDemandManagement.md)
@@ -49,6 +47,10 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 [Assess demands]()
 
 [Create a demand]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [View demands]()
 
@@ -64,5 +66,7 @@ Moving and resizing bubbles in the bubble chart updates the corresponding values
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
+[Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

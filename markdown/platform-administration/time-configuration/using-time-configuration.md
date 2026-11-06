@@ -7,7 +7,7 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,7 +31,7 @@ By default, scheduled reports use the time zone of the user who runs them \(the 
 -   **[Change a time zone in a scheduled data import](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_ChangeTimeZoneInScheduledImport.md)**  
 By default, scheduled data imports are run using the time zone of the user who creates them. However, there is a way to manually specify the time zone for the import.
 -   **[Define a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_DefineARelativeDuration.md)**  
-You can define a relative duration to work out duration time for SLAs.
+Define relative durations to calculate duration time for SLAs based on business schedules and specific time requirements.
 -   **[Use a relative duration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_UseARelativeDuration.md)**  
 When you define an SLA, you can set the **Duration type** to be a relative duration.
 -   **[Create schedule entries in the Schedule calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/create-events-next-experience-ui.md)**  

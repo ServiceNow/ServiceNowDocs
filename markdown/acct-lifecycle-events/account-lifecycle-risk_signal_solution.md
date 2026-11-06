@@ -1,29 +1,29 @@
 ---
-title: Define risk signal to solution relationship
+title: Associate risk signals
 description: Use this option to associate a risk signal with an internal play or a success case.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-risk\_signal\_solution.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Risk portfolio dashboard, Dashboards, Customer success, Use, Customer Success Management]
 ---
 
-# Define risk signal to solution relationship
+# Associate risk signals
 
 Use this option to associate a risk signal with an internal play or a success case.
 
 ## Before you begin
 
--   Role required: sn\_acct\_lc.ale\_success\_agent
+-   Role required: sn\_acct\_lc.customer\_success\_agent
 -   Risk signals, internal plays, and success cases must have been defined.
 
 ## Procedure
 
 1.  Navigate to the **All** menu and enter `sn_acct_lc_risk_signal_solution_relationship.list`
 
-2.  Click **New** in the Risk Signal to Solution Relationships page.
+2.  Select **New** in the Risk Signal to Solution Relationships page.
 
 3.  On the form, fill in the fields.
 
@@ -49,7 +49,7 @@ Solution table
 
 </td><td>
 
-The solution you select here is associated with the risk signal. Select one of the following:-   Internal play
+The solution you select here’s associated with the risk signal. Select one of the following:-   Internal play
 -   Internal play task
 -   Success case
 -   Success case task
@@ -72,8 +72,13 @@ Risk signal and issue
 Select the risk signal for which the solution is being associated.
 
 </td></tr></tbody>
-</table>4.  Click **Submit** to create the risk signal to solution relationship.
+</table>4.  Select **Submit** to create the risk signal to solution relationship.
 
-    This allows you to track the risk and view the proposed solutions to address the risk.
+    This enables you to track the risk and view the proposed solutions to address the risk.
 
+
+-   **[Draft close notes for a risk signal using ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/draft-risk-close-notes.md)**  
+Automatically generate closure notes and close eligible risk signals at the end of each day based on the status of their associated risk solutions.
+
+**Parent Topic:**[Risk portfolio dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-risk-portfolio.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up an IBM Authorized SAM Provider \(IASP\) integration, Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Setting up an ASP integration, CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Upload the IBM software discovery catalog to your ServiceNow instance
@@ -22,11 +22,11 @@ Role required: sam\_admin
 
 ## About this task
 
-The IBM software discovery catalog is a centralized repository of IBM software information that discovery tools can use to identify discovered IBM software. This catalog is maintained separately by each authorized Software Asset Management provider.
+The IBM software discovery catalog is a centralized repository of IBM software information that discovery tools can use to identify discovered IBM software. This catalog is maintained separately by each Authorized Software Asset Management Provider \(ASP\).
 
 ## Procedure
 
-1.  Download the IBM software discovery catalog from the authorized Software Asset Management provider that you are integrating with.
+1.  Download the IBM software discovery catalog from the ASP that you are integrating with.
 
 2.  Upload the catalog to your ServiceNow instance.
 
@@ -36,7 +36,7 @@ The IBM software discovery catalog is a centralized repository of IBM software i
 
         The Attachments dialog box opens.
 
-    3.  In the dialog box, select **Choose file** to search for and select the IBM software discovery catalog that you downloaded from the Anglepoint Elevate platform.
+    3.  In the dialog box, select **Choose file** to search for and select the IBM software discovery catalog that you downloaded from the ASP.
 
     4.  Close the dialog box to return to the Manage Software Library form.
 
@@ -53,5 +53,5 @@ If you are integrating with Anglepoint, all IBM software information that is inc
 
 **Note:** These tables are extensions of the base File Names \[samp\_file\_name\], File Maps \[samp\_file\_map\], and File Sets \[samp\_file\_set\] tables. To extend the base tables, you must request and install Anglepoint's IBM Licensing for Software Asset Management application. See [Request Anglepoint's IBM Licensing for Software Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/request-anglepoint-application.md) for detailed instructions.
 
-**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(IASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
+**Parent Topic:**[Setting up an IBM Authorized SAM Provider \(ASP\) integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/setting-up-anglepoint-integration.md)
 

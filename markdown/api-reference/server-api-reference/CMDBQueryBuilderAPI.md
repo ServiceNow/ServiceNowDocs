@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-08-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -106,6 +106,7 @@ Error code. Returned when the report creation fails or invalid input parameters 
 -   `USER_NOT_AUTHORIZED_EXCEPTION`
 -   `INVALID_PARAM`
 -   `QUERY_SYS_ID_INVALID`
+-   `REPORT_INELIGIBLE`
 
 Data type: String
 

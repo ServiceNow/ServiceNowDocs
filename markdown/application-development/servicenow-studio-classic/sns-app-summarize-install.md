@@ -1,5 +1,5 @@
 ---
-title: Install Now Assist for app summary generation
+title: Install ServiceNow Otto for app summary generation
 description: Install the ServiceNow Otto for Creator application so that you can use app summary generation for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/sns-app-summarize-install.html
@@ -7,21 +7,21 @@ release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configuring Now Assist for app summary generation, Now Assist for app summary generation in ServiceNow Studio, Using ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Configuring, App summary generation, AI tools and files, Use, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
-# Install Now Assist for app summary generation
+# Install ServiceNow Otto for app summary generation
 
 Install the ServiceNow Otto for Creator application so that you can use app summary generation for your organization.
 
 ## Before you begin
 
-Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store to learn about dependencies, licensing, and subscription requirements, and release compatibility. ServiceNow Otto for Creator installs the Now Assist for app summary generation skill.
+Review the [ServiceNow Otto for Creator](https://store.servicenow.com/sn_appstore_store.do#!/store/application/8178fec0ce0431105a7c9305875b2dca) application listing in the ServiceNow Store to learn about dependencies, licensing, and subscription requirements, and release compatibility. ServiceNow Otto for Creator installs the ServiceNow Otto for app summary generation skill.
 
-**Note:** The Now Assist table summary generation skill must also be active to use the app summary generation skill.
+**Note:** The ServiceNow Otto table summary generation skill must also be active to use the app summary generation skill.
 
 Role required: admin
 
@@ -45,8 +45,6 @@ Role required: admin
 
     3.  Verify that the app summary generation skill and the table summary generation skill are active by selecting **View details** on the **App** card.
 
-        \[Omitted image "now-assist-app-summarize-admin.png"\] Alt text: The app skills card shows that app summary generation is active
-
     For more information about using the Now Assist Admin console to access information about setting up, configuring, and monitoring Now Assist applications, see [Now Assist Admin console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/configuring-now-assist.md).
 
 
@@ -56,5 +54,5 @@ Grant the admin and now.assist.creator roles, or the sn\_g\_app\_creator.app\_cr
 
 To summarize an app, see [Summarize the contents of an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/summarize-an-app-in-servicenow-studio.md).
 
-**Parent Topic:**[Configuring Now Assist for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)
+**Parent Topic:**[Configuring ServiceNow Otto for app summary generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/sns-config-now-assis-app-summarize.md)
 

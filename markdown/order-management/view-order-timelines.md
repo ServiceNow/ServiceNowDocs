@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/view-order-timelines.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Order fulfillment, Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # View an order timeline
@@ -20,57 +20,66 @@ Role required: order\_approver, order\_viewer, sn\_ind\_tmt\_orm.order-fulfillme
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "jm-order-fulfillment-manager-persona.png"\] view.
+1.  Navigate to  **Workspaces** &gt; **CRM Workspace.** .
 
-2.  Navigate to **Customer Orders** &gt; **All**.
+2.  Select the List icon \[Omitted image "list-outline-24.svg"\] Alt text:.
 
-3.  Select the order that you want to view.
+3.  Navigate to **Customer Orders** &gt; **All**.
 
-4.  In the **Order breakdowns** section of the order, select **View order timeline**.
+4.  Select the order that you want to view.
+
+5.  In the **Order breakdowns** section of the order, select **View order timeline**.
 
     The **Timeline** tab opens and displays the order tasks for the order line items and columns for the order task state and jeopardy status, if Jeopardy Management is enabled. Tasks in jeopardy are flagged with the jeopardy icon. For each task, a timeline shows the start and end dates of the task and any dependencies.
 
-5.  To change the information or elements displayed in the timeline view, use these options.
+6.  To change the information or elements displayed in the timeline view, use these options.
 
-<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d28061e103">
+<table id="choicetable_pwy_bnv_c1c"><thead><tr><th align="left" id="d36632e118">
 
 Option
 
-</th><th align="left" id="d28061e106">
+</th><th align="left" id="d36632e121">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d28061e112">
+</th></tr></thead><tbody><tr><td id="d36632e127">
 
 **Add or change columns**
 
 </td><td>
 
-1.  Select the gear icon.
+1.  Select the gear icon \[Omitted image "gear-outline-24.svg"\] Alt text:.
 2.  In the **Columns** tab of the Personalize pane, select the items to display or deselect the items that are no longer displayed.
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d28061e139">
+</td></tr><tr><td id="d36632e159">
 
 **Change the timeline elements displayed**
 
 </td><td>
 
-1.  Select the gear icon.
-2.  In the **Timeline** tab of the Personalize pane, select the items to display or suppress, such as Bar labels or Dependency lines.
+1.  Select the gear icon \[Omitted image "gear-outline-24.svg"\] Alt text:.
+2.  In the **Timeline** tab of the Personalize pane, select the items to display or suppress, such as bar labels, child lines, domain orders, critical path, or dependency lines.
 3.  Select **Apply**.
 
 
-</td></tr><tr><td id="d28061e166">
+</td></tr><tr><td id="d36632e191">
 
 **Adjust the time scale used**
 
 </td><td>
 
-In the time scale dropdown, select the time view, such as day, week month, or year.The time scale for the Gantt charts changes immediately.
+In the time scale drop-down, select the time view, such as day, week month, or year.The time scale for the Gantt charts changes immediately.
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reviewing-approving-fulfilling-orders.md)
+**Parent Topic:**[Order fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reviewing-orchestration-plans-order-fulfillment.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

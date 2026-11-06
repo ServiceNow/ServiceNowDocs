@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-edit-business-application-details.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [List view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use list view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Edit business application details in list view
@@ -28,8 +28,10 @@ Role required: sn\_apm.apm\_analyst
 
     The side panel appears and the business application details are displayed.
 
-    **Note:** Select **Full details** to view more details about the business application.
+    **Note:**
 
+    -   Select **Full details** to view more details about the business application.
+    -   You can also generate insights into a business application using Now Assist, by selecting the **Generate Insights** button available in the **Insights** tab on the side panel. For more details, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md).
 4.  On the Business application form, fill in the fields.
 
     For a description of the field values, see [Business application form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-apprat-business-application-form.md).
@@ -37,7 +39,7 @@ Role required: sn\_apm.apm\_analyst
 5.  Select **Update**.
 
 
-**Parent Topic:**[List view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-list-view.md)
+**Parent Topic:**[Use list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-list-view.md)
 
 **Related topics**  
 
@@ -45,4 +47,6 @@ Role required: sn\_apm.apm\_analyst
 [Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.md)
 
 [Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md)
+
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md)
 

@@ -1,29 +1,66 @@
 ---
 title: Planned Work Management
-description: The Planned Work Management application works with Field Service Management to help organizations to create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
+description: The Planned Work Management application works with Field Service Management to help organizations create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/planned-work-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Exploring Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Explore, Field Service Management]
 ---
 
 # Planned Work Management
 
-The Planned Work Management application works with Field Service Management to help organizations to create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
+The Planned Work Management application works with Field Service Management to help organizations create and manage the planned work activities with recurring schedules at regular intervals. The planned work activities include, maintenance, inspections, audits or more.
 
-This application allows to configure planned activities, which are scheduled to be executed periodically based on time intervals, usage, or the occurrence of certain conditions.
+With Planned Work Management, organizations can configure recurring activities based on time intervals, meter readings, or specific conditions, ensuring that critical maintenance work is executed consistently and proactively. The application also provides forecasting capabilities and access to maintenance cycle history, enabling better resource planning and improved operational visibility.
 
-Planned Work Management enables you to create work orders that specify how and when to perform planned work activities, such as maintenance, inspections, and audits. Work orders can be based on the following factors:
+Planned Work Management enhances maintenance operations by supporting dynamic scheduling, multi‑asset maintenance plans, and automated adjustments when exceptions occur.
 
--   A specified time interval, such as after a certain number of months since the last maintenance was performed.
--   Meters or usage, such as after a specified number of pages are printed or a specified number of miles are driven.
+## Example: Quarterly HVAC Maintenance
+
+An organization needs recurring maintenance, inspections, and audits to run consistently without manual scheduling effort. Planned Work Management generates work orders automatically on defined schedules and adjusts future work orders when exceptions occur.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|Technician or Admin|Creates work plan|
+|2|System|Attaches predefined inspection checklist tasks to work plan|
+|3|System|Schedules automatically|
+|4|Technician|Performs inspection|
+|5|Technician|Updates results|
+|6|Technician|Closes work order|
+
+## Key benefits
+
+-   **Flexible scheduling control**
+
+    Create and manage recurring planned work using customizable schedules and templates tailored to business needs.
+
+-   **Supports multi-asset maintenance plans**
+
+    Develop maintenance plans that include multiple assets at a single location, simplifying complex maintenance operations.
+
+-   **Dynamic work order creation**
+
+    Automatically generate work orders based on time intervals, usage metrics \(such as pages printed or miles driven\), or condition based triggers. This eliminates the need to manually remember maintenance schedules.
+
+-   **Automatic adjustments for exceptions**
+
+    Future work orders are intelligently recalculated when delays, cancellations, or variations occur in previously scheduled tasks.
+
+-   **Accurate forecasting**
+
+    Forecast planned work orders to optimize resources, and plan for required parts or inventory.
+
+-   **Improved maintenance visibility**
+
+    Access complete maintenance cycle history for any asset or inventory item to support audits, compliance, and informed decision making.
+
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Related topics**  
 

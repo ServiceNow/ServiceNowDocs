@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure settings to monitor asset key performance indicators \(KPIs\) in the Hardware Asset Workspace, Manage and monitor hardware asset performance, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure asset performance KPI settings, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Opt in to model categories to track performance KPIs for hardware assets
@@ -17,8 +17,6 @@ breadcrumb: [Configure settings to monitor asset key performance indicators \(KP
 Monitor the performance KPIs of hardware assets in your organization by enabling the KPI tracking for the models to which the assets belong.
 
 ## Before you begin
-
-**Important:** The settings to enable the tracking of asset performance are available with Hardware Asset Management version 13.0.0 and later.
 
 Role required: admin
 

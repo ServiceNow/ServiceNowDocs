@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User criteria diagnostics for Knowledge Management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -52,4 +52,9 @@ Monitor the knowledge usage metrics to improve the overall effectiveness of the 
 ## What to do next
 
 [Modify the data retention policy for knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.md) to remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table.
+
+-   **[Modify the data retention policy for knowledge usage metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/Modify-data-retention-policy-knowledge-usage-metrics.md)**  
+Remove unwanted and older data from the knowledge usage metrics \[kb\_usage\_metrics\] table through the data retention policy.
+
+**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
 

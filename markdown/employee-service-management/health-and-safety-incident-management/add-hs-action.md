@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Manage incidents and observations, Health and Safety Incident Management, Health and Safety, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage incidents and observations, Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Add an action for a safety incident or observation
@@ -18,7 +18,11 @@ Add an action to address the root causes of the reported safety incident or obse
 
 ## Before you begin
 
-Role required: sn\_ohs\_im.manager or sn\_ohs\_im.agent
+Role required: sn\_ohs\_im.manager, sn\_ohs\_im.agent, or sn\_ohs\_im.action\_writer
+
+## About this task
+
+You can add actions from the Actions tab on a Health and Safety record or by using the Action planner in the contextual sidebar. For more information on Action planner, see [Create and manage a safety action in the Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-create-action-in-action-planner.md).
 
 ## Procedure
 

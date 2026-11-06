@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Reference for ServiceNow Otto for HR Service Delivery \(HRSD\), ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Sensitivity detection filters mapping
@@ -34,4 +34,6 @@ Modify the condition that is associated with your `awa_queue`record so that you 
 |Termination disputes &amp; Layoff Concerns|Request accommodation|Employee relations|
 |Workplace misconduct: Workplace harassment, Violence, and discrimination|Report misconduct|Employee relations|
 |Workplace Substance Abuse and Support|Report misconduct|Employee relations|
+
+**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
 

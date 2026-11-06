@@ -7,9 +7,9 @@ release: yokohama
 product: Procurement
 classification: procurement
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activate Procurement, Procurement, IT Asset Management]
+breadcrumb: [Activate Procurement, Procurement, Common applications, Asset Management]
 ---
 
 # Components installed with Procurement

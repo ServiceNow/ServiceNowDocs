@@ -7,7 +7,7 @@ release: yokohama
 product: Visual Task Boards
 classification: visual-task-boards
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Working with Visual Task Board cards, Using Visual Task Boards, Visual Task Boards, Personalize your experience, Configure user experiences]
 ---
@@ -28,7 +28,7 @@ Role required: none
 
 -   Perform one of the following actions.
 
-<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d123729e67">
+<table id="choicetable_pxj_ytk_kv"><tbody><tr><td id="d129779e67">
 
 **Archive one card from the lane view**
 
@@ -38,7 +38,7 @@ Role required: none
 2.  In the confirmation dialog, click **Archive**.
 
 
-</td></tr><tr><td id="d123729e91">
+</td></tr><tr><td id="d129779e91">
 
 **Archive one card from the card details**
 
@@ -49,7 +49,7 @@ Role required: none
 3.  In the confirmation dialog, click **Confirm**.
 
 
-</td></tr><tr><td id="d123729e124">
+</td></tr><tr><td id="d129779e124">
 
 **Archive all the cards in a lane**
 

@@ -1,16 +1,16 @@
 ---
-title: Setting up Legal Digital Forensics
+title: Configure Legal Digital Forensics
 description: Configure the foundation data required for managing the digital forensics requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/setting-up-legal-dft.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Digital Forensics, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Setting up Legal Digital Forensics
+# Configure Legal Digital Forensics
 
 Configure the foundation data required for managing the digital forensics requests.
 

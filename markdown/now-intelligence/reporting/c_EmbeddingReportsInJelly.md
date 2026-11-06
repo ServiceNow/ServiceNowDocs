@@ -7,14 +7,16 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Embedding reports in Jelly
 
 You can embed reports in any Jelly-based element, such as a UI page.
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 ## Enabling Embedding
 
@@ -152,7 +154,7 @@ Or embed the JavaScript in the jelly code entirely in the HTML/XML block. Add th
 |targetSpan|The jQuery element to embed the chart in. The chart uses the size of this element.|
 |reportId|The sys\_id of the report you want to embed.|
 
-**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 
 ## Embedded report parameters
 

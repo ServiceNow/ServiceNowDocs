@@ -7,8 +7,8 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [References, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -71,6 +71,8 @@ For example, if the document owner, User A \(Domain: D1\) is changed to User B \
 [Components installed with Document Management]()
 
 [Document Management roles]()
+
+[Granular admin roles in Document Management]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md)
 

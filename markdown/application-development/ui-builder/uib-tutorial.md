@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # UI Builder tutorial
@@ -40,36 +40,31 @@ In this UI Builder tutorial, you perform the following tasks to build a [page](h
 
     You can also type `UI Builder` directly in the **Filter navigator**.
 
-    \[Omitted image "UIB-start-UIBuilder-video.gif"\] Alt text: Starting UI Builder.
-
 2.  From the UI Builder home page, choose an experience you want to work in.
 
     If you don’t see any experiences listed in which to work, contact your administrator to get access to an experience or create an experience. For more information, see [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md).
 
 3.  Create a page.
 
-<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d74198e252">
+<table id="choicetable_n3q_gmd_jjb"><thead><tr><th align="left" id="d82251e242">
 
 To do this task
 
-</th><th align="left" id="d74198e255">
+</th><th align="left" id="d82251e245">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74198e261">
+</th></tr></thead><tbody><tr><td id="d82251e251">
 
 **Create a page**
 
 </td><td>
 
-1.  Select the **+** icon in the **Pages and variants** section.
+1.  Select the **+** icon in the **Pages** section.
 
 \[Omitted image "create-page-icon.png"\] Alt text: Create page button on the experience view page.
 
 2.  Select **Create a new page**.
-
-\[Omitted image "page-create-popup.png"\] Alt text: Page type selection modal.
-
 3.  Select **Create from scratch instead**.
 
 \[Omitted image "create-page-scratch.png"\] Alt text: Create from scratch instead button.
@@ -79,16 +74,17 @@ Do the following
 
 \[Omitted image "tutorial-name-page.png"\] Alt text: Create a page called My tutorial page.
 
-6.  Select **Continue**.
-7.  \(Optional\) Add parameters to your page URL.
-8.  Select **Looks good**.
-9.  Enter the name of your page variant. The name can be anything you want. In this example, you can type `My first page variant`.
-10. Add an audience for the page variant by selecting **+ Add an audience**. In this example, select **Admin**.
-11. Select **Continue**.
-12. On the next screen, select **Build responsive**.
-13. Select **Create**.
-14. After your page is created, the page editor screen appears. You can change advanced settings such as the **URL settings** and **Variant** settings. For this tutorial, you can skip these advanced options. For more information on changing advanced settings, see [Create a UI Builder page: Advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md).
- \[Omitted image "tutorial-page-editor.png"\] Alt text: UI Builder page editor showing the new page created in the tutorial.
+6.  Select a URL page type in the **Type** drop-down list. URL page types help you categorize and find important pages in the experience view.
+7.  Select **Continue**.
+8.  \(Optional\) Add parameters to your page URL.
+9.  Select **Looks good**.
+10. Enter the name of your page variant. The name can be anything you want. In this example, you can type `My first page variant`.
+11. Add an audience for the page variant by selecting **+ Add an audience**. In this example, select **Admin**.
+12. Select **Continue**.
+13. On the next screen, select **Build responsive**.
+14. Select **Create**.
+15. After your page is created, the page editor screen appears. You can change advanced settings such as the **URL settings** and **Variant** settings. For this tutorial, you can skip these advanced options. For more information on changing advanced settings, see [Create a UI Builder page: Advanced settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md).
+
 
 </td></tr></tbody>
 </table>    Congratulations! You created your tutorial page! The page is empty of content. You add components to the page to build functionality to it. Components are the building blocks of a page. UI Builder comes with many components ready for you to add to your page. Components can be as simple as a **Heading**, or as complex as a **List**.
@@ -97,15 +93,15 @@ Do the following
 
     For more information about layouts, see [Organize components in UI Builder pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-layouts.md).
 
-<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d74198e448">
+<table id="choicetable_hgv_b1x_d4b"><thead><tr><th align="left" id="d82251e426">
 
 To do this task
 
-</th><th align="left" id="d74198e451">
+</th><th align="left" id="d82251e429">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74198e457">
+</th></tr></thead><tbody><tr><td id="d82251e435">
 
 **Change the layout of the page to two columns**
 
@@ -123,20 +119,19 @@ Do the following
 4.  Select **Add**.
 5.  The two column layout appears.
 
-\[Omitted image "tutorial-two-columns-on-stage.png"\] Alt text: The two column layout shown on the stage.
 
 </td></tr></tbody>
 </table>5.  Add a **Heading** component, and a **Button** component to the left column.
 
-<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d74198e532">
+<table id="choicetable_q1g_4fl_vnb"><thead><tr><th align="left" id="d82251e504">
 
 To do this task
 
-</th><th align="left" id="d74198e535">
+</th><th align="left" id="d82251e507">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74198e541">
+</th></tr></thead><tbody><tr><td id="d82251e513">
 
 **Add a heading component to your left-column container**
 
@@ -147,18 +142,14 @@ You can add components to the page in different ways. For more information on th
 3.  Select the **Heading** component to add it to your container. A heading component is a way to add text or a title to your page.
 4.  Select **Add**.
 5.  Select the component name in the configuration panel to see the **Component label** and **Component ID**. You can change these to anything you want, as long as they’re unique.
-
-\[Omitted image "tutorial-heading-label.png"\] Alt text: Updating the component label and ID.
-
 6.  Select **Apply**.
 7.  Configure your **Heading** component. Component authors configure components to expose the appropriate properties required to set up their components.
     -   Set the style to **Header-primary**. The Style changes the class of the heading text, like font, weight, and color. For example, if you select **Header-secondary**, the text is smaller. Different headings sizes are useful if you have two headings and want the second heading smaller that the primary heading.
     -   Enter `My Tutorial` as the heading text in the **Label** field.
     -   Leave the Level as **1**.
 
-\[Omitted image "tutorial-heading-label-changed.png"\] Alt text: Heading label field in the component configure tab with My tutorial added.
 
-</td></tr><tr><td id="d74198e641">
+</td></tr><tr><td id="d82251e601">
 
 **Add and configure a button component to your left-column container**
 
@@ -167,9 +158,6 @@ You can add components to the page in different ways. For more information on th
 Add a **Button** component to your page. Configure the button by changing the text and the way that it looks. Then change what happens when you click the button by adding an event handler for the button. The event handler adds an action to the button to link to the ServiceNow® home page. So when you click the button, the ServiceNow® home page opens in a new tab of your browser. For more information about configuring components, see [Components](https://developer.servicenow.com/dev.do#!/reference/now-experience/sandiego/components).
 
  1.  Select the **+** on the bottom edge of the heading component that we added in the previous section.
-
-\[Omitted image "tutorial-add-component-icon.png"\] Alt text: Arrow pointing to the + icon to add components after the heading.
-
 2.  Type `Button` in the search field.
 3.  Select the **Button** component in the list.
 
@@ -181,9 +169,6 @@ For more information on adding components to your page, see [Table 1](https://ra
     -   Change the Size to **Large**.
     -   Enter `home` in the **Icon** search field.
     -   Select **Home Outline**.
-
-\[Omitted image "tutorial-home-button-config.png"\] Alt text: Home page button configuration.
-
 6.  Add an event handler to configure what action applies to the button.
     -   Select the **Events** tab in the configuration panel.
     -   Under Button clicked, select **+ Add a new event handler**.
@@ -208,21 +193,19 @@ For more information about event handlers, see [Manage actions in UI Builder pag
 </td></tr></tbody>
 </table>    You added and configured the **Heading** and **Button** component for your page.
 
-    \[Omitted image "tutorial-heading-and-button.png"\] Alt text: UI Builder page with a heading and button configured.
-
 6.  Add a **Data visualization** component to the container.
 
     A data visualization component contains data that you display in a visual manner. Configure the data visualization component parameters. Then, add a data resource to it.
 
-<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d74198e874">
+<table id="choicetable_j31_whl_vnb"><thead><tr><th align="left" id="d82251e814">
 
 To do this task
 
-</th><th align="left" id="d74198e877">
+</th><th align="left" id="d82251e817">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74198e883">
+</th></tr></thead><tbody><tr><td id="d82251e823">
 
 **Add and configure a data visualization component to your right-column container**
 
@@ -243,22 +226,21 @@ You can add components to the page in different ways. For more information on th
 6.  Select **Header and border** in the configuration panel.
 7.  Enter `My Tasks` in the **Chart title** field.
 
-\[Omitted image "tutorial-data-vis-title.png"\] Alt text: Arrow pointing to the chart title field.
 
 </td></tr></tbody>
 </table>    You’ve added a **Data visualization** component to the right column and configured it. You also added a data resource to bring in customer account data.
 
 7.  Save the new page one last time.
 
-<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d74198e1012">
+<table id="choicetable_md1_c5m_vnb"><thead><tr><th align="left" id="d82251e946">
 
 To do this task
 
-</th><th align="left" id="d74198e1015">
+</th><th align="left" id="d82251e949">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74198e1021">
+</th></tr></thead><tbody><tr><td id="d82251e955">
 
 **Save your page**
 
@@ -271,15 +253,15 @@ Do the following
 </td></tr></tbody>
 </table>8.  Now preview your page to see what it looks like in a browser.
 
-<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d74198e1054">
+<table id="choicetable_cyg_qg2_24b"><thead><tr><th align="left" id="d82251e988">
 
 To do this task
 
-</th><th align="left" id="d74198e1057">
+</th><th align="left" id="d82251e991">
 
 Do the following
 
-</th></tr></thead><tbody><tr><td id="d74198e1063">
+</th></tr></thead><tbody><tr><td id="d82251e997">
 
 **Preview your page**
 

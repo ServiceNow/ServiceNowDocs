@@ -1,22 +1,22 @@
 ---
-title: Assign a case to an agent
-description: As an Outsourced Customer Service external manager you can assign a case to an agent under your group.
+title: Assign a case to an OSP agent
+description: As an Outsourced Customer Service external manager, you can assign a case to an agent under your group.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/osp-assign-case-manager.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Outsourced Service Provider manager tasks, Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Outsourced Service Provider manager tasks, Agent management, Use, Customer Service Management]
 ---
 
-# Assign a case to an agent
+# Assign a case to an OSP agent
 
-As an Outsourced Customer Service external manager you can assign a case to an agent under your group.
+As an Outsourced Customer Service external manager, you can assign a case to an agent under your group.
 
 ## Before you begin
 
-**Note:** The outsourced customer service external managers \[sn\_csm\_ocs.ext\_manager\] can perform their designated tasks using UI16 interfaces, as workspaces are not supported at the moment.
+**Note:** The outsourced customer service external managers \[sn\_csm\_ocs.ext\_manager\] can perform their designated tasks using the Core UI as workspaces are not currently supported.
 
 Role required: sn\_csm\_ocs.ext\_manager
 

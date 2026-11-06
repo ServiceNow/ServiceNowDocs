@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure password expiration reminder, Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure password expiration reminder, Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # View scheduled jobs
@@ -18,7 +18,7 @@ You can view scheduled jobs for the process that you configured password expirat
 
 ## Before you begin
 
-Role required: admin
+Role required: password\_reset\_admin
 
 ## About this task
 

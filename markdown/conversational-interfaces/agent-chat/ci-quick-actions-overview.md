@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Configuring, quick actions, Agent Chat, Virtual Agent]
-breadcrumb: [Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Configuring quick actions
@@ -19,7 +19,7 @@ Quick actions are shortcuts that perform Agent Chat tasks. Agents can work more 
 
 ## Activate quick actions
 
-To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-related-plugins.md), which is required for chat in Workspace.
+To enable your agents to use quick actions, you must activate the and [related plugins for Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-related-plugins.md), which is required for chat in Workspace.
 
 ## Default quick actions
 
@@ -438,8 +438,6 @@ Role required: admin
 ### About this task
 
 The toolbar of the Workspace chat window contains three buttons. Selecting the left button \(\[Omitted image "paperclip.png"\] Alt text: Paperclip icon\) attaches a file in a conversation, selecting the center button \(\[Omitted image "arrow.png"\] Alt text: Arrow icon\) initiates a queue transfer, and selecting the right button \(\[Omitted image "add-user.png"\] Alt text: Add user icon\) initiates an agent transfer. You can't configure the left button, but you can assign different quick actions to the center and right buttons.
-
-\[Omitted image "chat-toolbar.png"\] Alt text: Toolbar in the Workspace chat window
 
 ### Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Agent-Initiated Messaging Interface, Configuring Agent Chat, Agent Chat, Conversational Interfaces]
+breadcrumb: [Configure Agent-Initiated Messaging Interface, Configure, Agent Chat, Conversational Interfaces]
 ---
 
 # Set up Agent-Initiated Messaging Interface for a messaging channel
@@ -31,7 +31,7 @@ Role required: admin
 
 A messaging channel is available when you install the application associated with a service channel.
 
-For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/install-conversational-sms.md) application.
+For example, use the SMS messaging channel to send an SMS message to a customer. The SMS messaging channel is available when you have installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/install-conversational-sms.md) application.
 
 ## Procedure
 

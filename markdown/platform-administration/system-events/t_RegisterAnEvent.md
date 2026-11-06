@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing system events, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -94,3 +94,5 @@ Short description of the purpose of the event.
 
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Managing system events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-events/managing-system-events.md)
+

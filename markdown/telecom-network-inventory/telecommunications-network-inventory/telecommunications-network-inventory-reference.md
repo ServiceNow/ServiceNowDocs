@@ -7,8 +7,8 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 breadcrumb: [Telecommunications Network Inventory]
 ---
 
@@ -18,6 +18,10 @@ Reference topics provide additional information about Telecommunications Network
 
 -   **[Add or Remove member to Link Aggregation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/add-remove-member-link-aggregation-form.md)**  
 The Add/Remove member to Link Aggregation form enables you to create, review, and modify the network asset details for Link Aggregation Group \(LAG\) connection in the Telecommunications Network Inventory application.
+-   **[Allocated IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/allocated-ip-address-form.md)**  
+The Allocated IP Address form represents a single address slot within an IP Subnetwork. The fields on this form are listed below.
+-   **[Bulk allocation limits for allocated IP addresses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/bulk-allocation-limits-for-allocated-ip-addresses.md)**  
+When you trigger bulk creation of allocated IP records from an IP Subnetwork, the system applies size limits and reserved-address rules before generating the records. This topic describes those limits and the messages displayed when they apply.
 -   **[Cable form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/cable-form.md)**  
 The Cable form enables you to describe the details for an optical fiber cable record.
 -   **[Cable model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/cable-model-form.md)**  
@@ -34,6 +38,8 @@ The Card form enables you create, review, and modify the network card details.
 The change request forms enable you to request a change.
 -   **[Change request related tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-related-tabs.md)**  
 The related tabs in the Change Request form display related records that dynamically change based on the context of the change request.
+-   **[CIDR validation rules for IP Address Blocks and IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/cidr-validation-rules.md)**  
+The CIDR value entered on an IP Address Block or IP Subnetwork record is validated when the record is saved. Invalid CIDR values are rejected with an inline error message; the record cannot be saved until the value passes all rules.
 -   **[Commonly used network asset instance identification fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-identification-fields.md)**  
 Some network asset instance fields are common in the identification sections of the Telecommunications Network Inventory forms. The ServiceNow AI Platform uses these fields to identify and categorize your network inventory assets.
 -   **[Commonly used network asset instance configuration fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/commonly-used-tni-configuration-fields.md)**  
@@ -43,18 +49,24 @@ The Company form enables you to review, create, and modify the company details f
 -   **[Connection Element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/connection-element-form.md)**  
 The Connection Element form enables you to define the connection elements for the physical connections and logical connections in the Telecommunications Network Inventory application. You can create, review, update, and delete the elements in this form.
 -   **[Create equipment from rack view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-equipment-from-rack-view.md)**  
-The Create new equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
+The Create equipment form enables you to create an equipment from the selected rack using the Telecommunications Network Inventory application.
 -   **[Create Logical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-logical-connection-form.md)**  
 The Create Logical Connection form enables you to review, create, and modify the connection details for a logical connection change request.
 -   **[Create Physical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-physical-connection-form.md)**  
 The Create Physical Connection form enables you to review, create, and modify the connection details for a physical connection change request.
 -   **[Data center place types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/place-types-floor-map.md)**  
 Place types are used to categorize the different places on your map. You can use place type to categorize your network assets and facilities on your map in the Telecommunications Network Inventory application.
+-   **[Data center infra allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-rack-allocation.md)**  
+Data center infra allocation change request reserves rack units using the rack allocation agentic workflow. The rack allocation agentic workflow handles change requests and finds racks that can accommodate the capacity requirement based on specific physical and logical constraints.
+-   **[Data center infrastructure allocation placement policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-placement-policies.md)**  
+Data center policies and rack policies are stored in the Knowledge Base and are applied to racks during the data center infrastructure allocation process.
+-   **[Data center infrastructure allocation failure cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-center-infra-allocation-failure-cases.md)**  
+Allocation failures occur when devices, rack constraints, or CMDB records don't meet the requirements for placement.
 -   **[Default Template forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/default-template-forms.md)**  
 The Default Template form enables you to create, review and modify a default template and schedule generation of a template.
--   **[Designing and assigning a GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)**  
+-   **[Design and assign GPON broadband service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-service.md)**  
 With the Gigabyte Passive Optical Network \(GPON\) Broadband Service change model, you can create an automated set of tasks to fulfill a GPON broadband order request.
--   **[Domain separation in Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/domain-seperation-telecommunication-network-inventory.md)**  
+-   **[Domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/domain-seperation-telecommunication-network-inventory.md)**  
 Domain separation in Telecommunications Network Inventory provides a structured and efficient way to manage complex, multilevel organizational environments. It enables secure, tailored access and control, ensuring that users view data relevant to their domain.
 -   **[Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/equipment-form.md)**  
 The Create new equipment form enables you to describe the details for an equipment record.
@@ -68,16 +80,26 @@ The Equipment extension classes are the subclasses that are extended from the te
 The equipment task attribute form enables you to describe the details for an equipment record.
 -   **[GPON Broadband Change model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/gpon-broadband-change-model-forms.md)**  
 The GPON Broadband Change model forms enables you to create, review, and modify the connection details of the physical connection, and the compute and create logical connection.
+-   **[Hierarchy rules for IP Subnetworks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/hierarchy-rules-for-ip-subnetworks.md)**  
+These rules apply only when creating or updating an IP Subnetwork \(which always has a parent — either an IP Address Block or another IP Subnetwork\).
 -   **[Inventory Model forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-model-forms.md)**  
-The Inventory Model forms enable you to create, review, and modify the model details for equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
+The Inventory Model forms enable you to create, review, and modify model details. This includes equipment holders, equipment, interface cards, logical connections, physical connections, network interfaces, and network model relationships.
 -   **[Inventory models additional tabs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/additional-tabs-of-inventory-models.md)**  
 The additional tabs of the inventory models appear after a model is created. These tabs display all the related information of a model. You can always view, update, save, and delete the information as required.
 -   **[Inventory number allocation fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-number-allocation-fields.md)**  
 The inventory number allocation fields enables you to describe the details for LAG, VLAN, IP address, and telephone number records.
 -   **[Inventory Numbers form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/inventory-numbers-form.md)**  
 The Inventory Numbers form enables you to create, review, and modify the inventory details for a network inventory.
--   **[IP address inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data_model_of_ip_address_inventory_management.md)**  
-By using the IP address inventory management data model, you can understand how the tables that are used for the IP pools, IP subnetworks, allocated IP addresses, and IP addresses all relate to each other.
+-   **[IP Address Block form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/ip-address-block-form.md)**  
+The IP Address Block form defines a top-level IP address range using CIDR notation. Use this reference to understand the available fields and their behavior.
+-   **[IP Address form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/ip-address-form.md)**  
+The IP Address form is the active CMDB record for an IP address, created from an allocated IP slot or at the subnetwork level.
+-   **[IP Subnetwork form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/ip-subnetwork-form.md)**  
+The IP Subnetwork form defines a subdivision of an IP Address Block or a nested subdivision of another IP Subnetwork.
+-   **[Import model Excel template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/import-model-excel-template.md)**  
+Learn about the fields and structure of the Excel template used to define network element models and their hierarchical relationships for bulk import.
+-   **[Import template Excel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/import-template-excel.md)**  
+Learn about the fields and structure of the Excel template used to define inventory template hierarchies and their relationships for bulk import.
 -   **[Location forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-location-forms.md)**  
 The Location forms enable you to create locations hierarchy to track and manage your network assets.
 -   **[Logical Connection form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-logical-connection-forms.md)**  
@@ -88,6 +110,8 @@ The Logical connection modification request form enables you to modify endpoints
 The Managed network form enables you to manage a network in the Telecommunications Network Inventory application.
 -   **[Naming convention for associated templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/name-convention-templates.md)**  
 Learn about the details of the naming convention for the associated templates that are automatically generated when you create an equipment or interface card template.
+-   **[Inventory template naming patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/naming-patterns-in-inventory-templates.md)**  
+A naming pattern is a JavaScript expression that defines how a configuration item \(CI\) is named when it is created from an inventory template.
 -   **[Network inventory change request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-change-request-field.md)**  
 The Change Request form enables you to create and modify the change activities for the Telecom Inventory change models in the Design and Assign function.
 -   **[Network inventory facility classes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/network-inventory-facility-classes.md)**  
@@ -116,14 +140,18 @@ The Provision LAG form enables you to create, review, and modify the network ass
 The related tabs in the Network Inventory forms display the related records that dynamically change based on the connection and relationships with the other network assets. You can selectively view, modify, or update these records.
 -   **[Related templates form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/related-templates-form.md)**  
 The Related templates form enables you to understand all fields of the related templates tab for slots, equipment, and shelves.
+-   **[Remote Hands Request form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/remote-hands-request-form.md)**  
+Describes the field information in the Remote Hands Request form.
 -   **[Router, Switch, Firewall, Virtual Machine, Load Balancer, and Server forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/router-form.md)**  
-The equipment form enables you to create, review, and modify the network asset details in the Telecommunications Network Inventory application for the router, switch, firewall, virtual machine, load balancer, or server.
+The equipment form enables you to create, review, and modify network asset details in the Telecommunications Network Inventory application. This applies to the router, switch, firewall, virtual machine, load balancer, or server.
 -   **[Service Instance form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/application-service-instance-form.md)**  
 The Service Instance form enables you to create, review, and modify the details of an application service.
 -   **[Strand form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/strand-form.md)**  
 The Strand form enables you to describe the details for a strand in the cable.
 -   **[Strand model form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/strand-model-form.md)**  
 The Strand Model form enables you to describe the details for a strand model record.
+-   **[TNI Data Model Navigator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data-model-navigator.md)**  
+A Data Model Navigator is a CMDB framework feature that presents a curated, domain-specific view of the CMDB. With TNI \(Telecommunications Network Inventory\) context, it organizes thousands of CMDB CI classes into a focused, hierarchical structure relevant to telecom operations.
 -   **[Task attributes in Add Card form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-card-form.md)**  
 The Task attributes in Add Card form enables you to add a card to an equipment record in the Telecommunications Network Inventory application.
 -   **[Task attributes in Add Equipment to Rack or Cabinet form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/task-attributes-add-equipment-rack-cabinet-form.md)**  
@@ -134,14 +162,14 @@ The Task attributes in Create logical connection form enables you to create a lo
 The Task attributes in Create physical connection form enables you to create a logical connection between network interfaces in the Telecommunications Network Inventory application.
 -   **[Task attributes in Topology form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/task-attributes-topology-form.md)**  
 The Task attributes in Topology form enables you to design and assign a topology record in the Telecommunications Network Inventory application.
+-   **[Task Attribute in Manage Phone Number Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/task-attribute-in-manage-phone-number-form.md)**  
+The Task attributes in Manage Phone Number Form form enables you to design and assign a phone number in the Telecommunications Network Inventory application.
 -   **[Telco Equipment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-equipment-form-configuration.md)**  
 The Telco Equipment form enables you to create, review, and modify the network asset details for a piece of equipment.
 -   **[Telecommunications Network Inventory function catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-flow-action.md)**  
 By using the Telecommunications Network Inventory function catalog, you can access the functions that help you to automate the network inventory's Design and Assign process.
 -   **[Telecommunications Network Inventory subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/subflow.md)**  
 You can use Workflow Studio subflows in the Telecommunications Network Inventory application to automate the network inventory's Design and Assign process.
--   **[Telephone number inventory management data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/data_model_of_telephone_number_inventory_management.md)**  
-By using the telephone number inventory management data model, you can understand how the tables of a telephone block, telephone number allocation, and telephone number relate to each other.
 -   **[Time series metrics for datacenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/time-series-metrics.md)**  
 Use time series metrics to calculate the operational details of network assets in the Telecommunications Network Inventory application.
 -   **[TNI CI Attributes form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/ci-attribue-form.md)**  

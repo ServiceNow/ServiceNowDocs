@@ -1,11 +1,11 @@
 ---
 title: Integrations Capabilities framework 2.0
-description: The new Integration Capabilities Framework 2.0 has been redesigned to enable implementation of integrations in a simple and consistent manner. This ensures a consistent experience for similar types of integrations \(for example: observable reputation lookup\).The Security Incident Response plugin includes all the capability flows listed in Integration Capabilities Framework 2.0, and standard high-level filters that you can enable or disable depending on your requirement.This section describes the configurations available in the new framework.This section describes how to use the new framework for an existing integration.Use the steps below to create a flow and call the subflow provided by the new capability framework.The Capability Executions option provides detailed information on each capability that has been executed.
+description: The new Integration Capabilities Framework 2.0 has been redesigned to enable implementation of integrations in a simple and consistent manner. This ensures a consistent experience for similar types of integrations \(for example: observable reputation lookup\).The Security Incident Response plugin includes all the capability flows listed in Integration Capabilities Framework 2.0, and standard high-level filters that you can enable or disable depending on your requirement.This section describes the configurations available in the new framework.This section describes how to use the new capability framework for an existing integration.Use the steps below to create a flow and call the subflow provided by the new capability framework.The Capability Executions option provides detailed information on each capability that has been executed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/cj-sir-capfmw-about.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
@@ -269,7 +269,7 @@ The default sighting search queries that can be executed.
 
 ## Using the new Capability Framework with an installed integration
 
-This section describes how to use the new framework for an existing integration.
+This section describes how to use the new capability framework for an existing integration.
 
 Use the steps below to enable an already installed and configured integration \(see supported list of Integrations in [Supported integrations and components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/cj-sir-capfmw-about.md)\) to use the new capability framework.
 

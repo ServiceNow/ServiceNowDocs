@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/outsourced-service-provider.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Outsourced Customer Service
@@ -24,13 +24,13 @@ Outsourced Service Providers \(OSPs\) are organizations engaged by enterprises t
 
 If you have the administrator role, you can activate the Outsourced Customer Service plugin \(com.snc.outsourced\_service\_provider\).
 
-**Note:** The Outsourced Customer Service plugin \(com.snc.outsourced\_service\_provider\) requires the Customer Service \(com.sn\_customerservice\) plugin to get activated.
+**Note:** The Outsourced Customer Service plugin \(com.snc.outsourced\_service\_provider\) requires the Case Management Core \(com.sn\_customerservice\) plugin to get activated. The Outsourced Customer Service plugin is moved to the App Store beginning with Australia release.
 
-The Outsourced Customer Service plugin adds the **Customer Service** &gt; **Outsourced Customer Service** module to the application navigator. If you have the administrator role, you can access this module. The administrator can assign the following roles to users:
+The Outsourced Customer Service plugin adds the **Customer Service** &gt; **Outsourced Customer Service** module to the application navigator. If you have the administrator \(sn\_csm\_ocs.csm\_ocs\_admin\) role, you can access this module. The administrator \(sn\_csm\_ocs.csm\_ocs\_admin\) can assign the following roles to users:
 
 -   sn\_csm\_ocs.ext\_manager \(external OSP manager\)
 -   sn\_csm\_ocs.ext\_agent \(external OSP agent\)
--   sn\_csm\_ocs.manager \(internal OSP manager
+-   sn\_csm\_ocs.manager \(internal OSP manager\)
 
 ## Outsourced Customer Service Guided Setup
 

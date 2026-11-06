@@ -1,5 +1,5 @@
 ---
-title: Get started with the McAfee ESM - Incident Enrichment integration
+title: Get started with the McAfee ESM- incident Enrichment integration
 description: McAfee ESM protects endpoints against viruses, spyware, Trojan horses, and other malware threats and integrates easily with Security Operations. Before you can use the McAfee ESM - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and login credentials.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/activate-configure-mcafee-esm-inc-enrich.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [McAfee ESM - Incident Enrichment Integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Get started with the McAfee ESM - Incident Enrichment integration
+# Get started with the McAfee ESM- incident Enrichment integration
 
 McAfee ESM protects endpoints against viruses, spyware, Trojan horses, and other malware threats and integrates easily with Security Operations. Before you can use the McAfee ESM - Incident Enrichment integration, you must download it from the ServiceNow Store and add the appropriate API Base URL and login credentials.
 
@@ -28,9 +28,7 @@ Role required: sn\_si\_admin
 
     The available security integrations appear as a series of cards.
 
-3.  In the McAfee ESM - Incident Enrichment card, click **New**.
-
-    \[Omitted image "intel-config.png"\] Alt text: McAfee ESM configuration
+3.  In the McAfee ESM - Incident Enrichment card, select **New**.
 
 4.  Fill in the fields, as needed.
 
@@ -117,11 +115,11 @@ Select **Any** to use any active MID Server, or select a specific MID Server nam
 </td></tr></tbody>
 </table>    **Note:** Configuring this integration activates workflows. To manage the workflows, navigate to the **Workflow Editor**.
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The integration configuration card displays.
 
-6.  When viewing the new configuration card, you can click **Configure** or **Delete** to change or delete the configuration, respectively.
+6.  When viewing the new configuration card, you can select **Configure** or **Delete** to change or delete the configuration, respectively.
 
 7.  To return to the original list of integration configuration cards, select **No** from the **Show Configurations** drop-down list.
 

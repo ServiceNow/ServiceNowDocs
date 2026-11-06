@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2026-03-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enhanced Requests Experience, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Enhanced Requests Experience, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Opt in to the enhanced Enhanced Requests Experience
@@ -44,7 +44,7 @@ Role required: sn\_hr\_sp.esc\_admin
 
     3.  Save the form.
 
-        You are opted to mobile experience. To view the requests on your mobile, refer to [Enhanced Requests Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/enhanced-req-exp-ec-mobile.md).
+        You are opted to mobile experience. To view the requests on your mobile, refer to [Enhanced Requests Experience on Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/enhanced-req-exp-ec-mobile.md).
 
 
 ## Result

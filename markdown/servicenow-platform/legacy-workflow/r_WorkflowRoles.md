@@ -7,7 +7,7 @@ release: yokohama
 product: Legacy Workflow
 classification: legacy-workflow
 topic_type: reference
-last_updated: "2025-05-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Workflow administration, Classic Workflow, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Workflow administration, Classic Workflow, ServiceNow AI Platform A
 # Workflow roles
 
 Certain roles are required to use workflows.
+
+**Important:** As of the Zurich release, new customers no longer receive the legacy workflows created and published by ServiceNow, Inc.. All legacy workflow functionality has been replaced by Workflow Studio content. Only customers who upgraded from prior versions retain the ability to use and edit existing legacy workflows. While all customers retain the ability to create legacy workflows, you are strongly encouraged to instead use Workflow Studio to create process automation content. Only Workflow Studio will receive new features and enhancements.
 
 To learn more about managing subscriptions, see [Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/managing-user-subscriptions-v2.md) and contact your account representative.
 
@@ -27,6 +29,14 @@ Role title \[name\]
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+\[snc\_required\_script\_writer\_permission\]
+
+</td><td>
+
+Provides access to the Workflow UI and allows scripting. To grant UI access, you must also grant someone another workflow role such as workflow\_creator.
+
+</td></tr><tr><td>
 
 Activity creator
 

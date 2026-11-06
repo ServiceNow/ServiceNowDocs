@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [GRC reference, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -71,6 +71,8 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 -   View and report risk events.
 -   View indicator supporting data.
 
+ Permissions for advanced risk assessment, such as taking and approving assessments, come from the sn\_risk\_advanced.ara\_assessor and sn\_risk\_advanced.ara\_approver roles. These roles aren't contained by sn\_grc.business\_user, so assign them separately.
+
  Integration with Project Portfolio Management:
 
 -   Create a risk from a library.
@@ -92,6 +94,8 @@ Role that is a part of the GRC Profiles application. Assign this role to users w
 
 -   sn\_grc.user\_hierarchy\_reader
 -   workspace\_user
+-   sn\_grc\_workspace.user
+-   sn\_smart\_asmt.actor
 -   sn\_grc\_workspace.task\_reader
 -   canvas\_user
 
@@ -130,7 +134,7 @@ Risk Management
 
 </td></tr><tr><td>
 
-GRC Admin\[sn\_grc.admin\]
+GRC admin\[sn\_grc.admin\]
 
 </td><td>
 
@@ -146,7 +150,7 @@ Role that provides a user with administrative access to the GRC suite of applica
 
 </td></tr><tr><td>
 
-GRC System Adminsn\_grc.sn\_grc\_system\_admin
+GRC System adminsn\_grc.sn\_grc\_system\_admin
 
 </td><td>
 
@@ -197,6 +201,7 @@ Role that provides a user with management access to the GRC suite of application
 
 </td><td>
 
+-   sn\_grc.business\_user
 -   sn\_grc.reader
 -   business\_process\_user
 -   sn\_grc\_pa.sn\_grc\_pa\_viewer
@@ -239,7 +244,7 @@ None
 
 </td></tr><tr><td>
 
-GRC User Hierarchy Admin \[sn\_grc.user\_hierarchy\_admin\]
+GRC User Hierarchy admin \[sn\_grc.user\_hierarchy\_admin\]
 
 </td><td>
 
@@ -248,6 +253,36 @@ Role that enables a user to create or delete the records in the sn\_grc\_user\_h
 </td><td>
 
 None
+
+</td></tr><tr><td>
+
+GRC Issue Workflow Admin\[sn\_grc\_issue\_mgmt.issue\_workflow\_admin\]
+
+</td><td>
+
+Full administrative access to issue workflow configuration. Users with this role can create and edit issue state models, manage the issue vertical view, configure approval workflows for issues, and perform all actions available to the issue workflow reader role.
+
+</td><td>
+
+-   playbook.admin
+-   sn\_grc\_workspace.state\_model\_admin
+-   sn\_grc\_appr.admin
+-   sn\_rec\_pg\_vertical.admin
+-   sn\_grc\_issue\_mgmt.issue\_workflow\_reader
+
+</td></tr><tr><td>
+
+GRC Issue Workflow Reader\[sn\_grc\_issue\_mgmt.issue\_workflow\_reader\]
+
+</td><td>
+
+Read-only access to issue workflow configuration. Users with this role can view issue state models and the issue vertical view, and access the GRC workspace as a standard user. This role does not grant permission to modify workflow configuration.
+
+</td><td>
+
+-   sn\_rec\_pg\_vertical.reader
+-   sn\_grc\_workspace.state\_model\_reader
+-   sn\_grc\_workspace.user
 
 </td></tr><tr><td>
 
@@ -280,6 +315,18 @@ Audit approver \[sn\_audit.approver\]
 </td><td>
 
 Role that enables a user to approve the audits. This role is applicable only for customers who are entitled to and have installed the GRC: Business User – Lite application from the ServiceNow Store.
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Document Designer Reader \[sn\_grc\_doc\_design.reader\]
+
+</td><td>
+
+Role that provides a user with read access to the AI Reporting Assistant in Document Designer.
 
 </td><td>
 

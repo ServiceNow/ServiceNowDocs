@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Field Service Management SLAs
@@ -38,10 +38,19 @@ SLA details show on the task card in the task panel and the calendar in the Disp
 |Above 100% \(breached\)|Red|
 |Paused|Gray|
 
--   **[Use an SLA map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseTheSLAMap.md)**  
-View open work order tasks and their SLA status.
+## Example: SLA Breach Prevention
 
-**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
+The system detects a work order approaching its SLA threshold and at risk of breaching. Field Service Management automatically escalates the priority, notifies the dispatcher, and reorders the task queue so the job is reassigned and completed within the required service window.
+
+|Step|Actor|Action|
+|----|-----|------|
+|1|System|Tracks work order against SLA|
+|2|System|Detects SLA breach risk|
+|3|System|Escalates priority|
+|4|System|Notifies dispatcher|
+|5|Dispatcher|Reorders tasks in scheduling engine|
+|6|Dispatcher|Reassigns technician|
+|7|Technician|Completes work within SLA|
 
 **Related topics**  
 

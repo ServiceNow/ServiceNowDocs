@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [McAfee ESM - Email Parser integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,19 +30,17 @@ A McAfee ESM email parser template is provided to use for the integration. It mu
 
     The available security integrations appear as a series of cards.
 
-    \[Omitted image "intel-mcafee-esm-emailparser-plugin-card.png"\] Alt text: McAfee ESM - Email Parser integration card
+2.  In the McAfee ESM - Email Parser card, select **Configure**.
 
-2.  In the McAfee ESM - Email Parser card, click **Configure**.
+3.  In the **McAfee ESM - Email Parser Configuration** dialog box, select the **Configure Email Parser** link.
 
-3.  In the **McAfee ESM - Email Parser Configuration** dialog box, click the **Configure Email Parser** link.
-
-4.  Click the **McAfee ESM** link to edit the settings in the template email parser provided.
+4.  Select the **McAfee ESM** link to edit the settings in the template email parser provided.
 
     At a minimum, fill in the `Email is from` field. To create you own email parser, see [Create email parsers in Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/parsing-emails.md).
 
 5.  Check the **Active** box.
 
-6.  Click **Update** in the **Email Parser** form.
+6.  Select **Update** in the **Email Parser** form.
 
     The email parser is active. You do not need to return to **Integration Configurations**.
 

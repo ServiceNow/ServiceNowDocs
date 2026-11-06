@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Community events, Post and respond to content in the community, Use a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Community events, Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
 
 # Edit an event
@@ -19,6 +19,10 @@ Edit the details of past and upcoming events. By editing a past event, you can a
 ## Before you begin
 
 Role required: sn\_communities.community\_user, sn\_communities.moderation\_admin, sn\_communities.community\_moderator, sn\_communities.forum\_moderator, or sn\_communities.forum\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -221,15 +225,15 @@ No
 </td></tr></tbody>
 </table>4.  Perform one of the following actions.
 
-<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d233613e366">
+<table id="choicetable_zfq_bvh_x1b"><thead><tr><th align="left" id="d288312e385">
 
 To
 
-</th><th align="left" id="d233613e369">
+</th><th align="left" id="d288312e388">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d233613e375">
+</th></tr></thead><tbody><tr><td id="d288312e394">
 
 **Save**
 
@@ -237,7 +241,7 @@ Do this
 
 To save the details, click **Save**.
 
-</td></tr><tr><td id="d233613e387">
+</td></tr><tr><td id="d288312e406">
 
 **Schedule**
 
@@ -245,7 +249,7 @@ To save the details, click **Save**.
 
 To publish an event on the specified date, click **Schedule**. **Note:** This option appears for a draft event that the**Schedule Publish** check box is selected for.
 
-</td></tr><tr><td id="d233613e405">
+</td></tr><tr><td id="d288312e424">
 
 **Publish**
 

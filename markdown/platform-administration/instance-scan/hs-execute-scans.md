@@ -7,8 +7,8 @@ release: yokohama
 product: Instance Scan
 classification: instance-scan
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
@@ -42,7 +42,13 @@ Execute a reactive scan to set up a scan that runs automatically on an execution
 
 [Monitoring a scan]()
 
+[Parallel scans]()
+
 [Reviewing of scans]()
+
+[Queue your scan]()
+
+[Cancel a scan]()
 
 [Using the Instance Scan dashboard]()
 

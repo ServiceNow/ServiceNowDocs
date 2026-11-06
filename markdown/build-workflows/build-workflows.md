@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/build-workflows.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 ---
 
@@ -27,11 +27,11 @@ Increase the impact of your cross‑enterprise workflows by automating manual pr
 
 </td><td>
 
-[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer.md)
+[Workflow Studio playbooks \[Omitted image "bus-anomaly-detection.svg"\] Alt text: Author cross-enterprise workflows and create a single, unified process.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-playbooks-landing.md)
 
 </td></tr><tr><td>
 
-[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-ui.md)
+[Workflow Studio playbook experience \[Omitted image "bus-case-and-knowledge-management.svg"\] Alt text: Interact with a business workflow in real time from within Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)
 
 </td><td>
 
@@ -76,9 +76,9 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/approvals/r_Approvals.md)**
 
-    Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them. You can replace classic approvals with Workflow Studio flows or classic workflows.
+    Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them. You can replace classic approvals with Workflow Studio flows or classic workflows.
 
--   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/business-rules-classic/c_BusinessRules.md)**
+-   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)**
 
     A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried. You can replace classic business rules with Workflow Studio flows.
 
@@ -88,7 +88,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/c_WorkflowOverview.md)**
 
-    Workflow provides a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes. You can replace classic workflows with Workflow Studio flows or Playbooks processes.
+    Workflow is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes. You can replace classic workflows with Workflow Studio flows or Playbooks processes.
 
 
 ## Applications and features
@@ -99,7 +99,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Workflow Studio playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer.md)**
 
-    Workflow Studio playbooks enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
+    Playbook enable process owners to author cross-enterprise workflows and create a single, unified process. Build the underlying processes for playbooks that Playbook Experience agents and fulfillers use.
 
 -   **[Workflow Studio flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-flows.md)**
 
@@ -113,7 +113,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     Workflow Studio decision tables enable developers to decouple decision logic from their code by creating and maintaining decision rules.
 
--   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-ui.md)**
+-   **[Playbook experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-agents-and-fulfillers.md)**
 
     Interact with a business workflow in real time from within Workspace. Agents can use Playbook to update records, upload attachments, and complete tasks across multiple workflow activities.
 
@@ -123,9 +123,9 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Classic Approvals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/approvals/r_Approvals.md)**
 
-    Classic approvals are a legacy process to require authorization on tasks before the work is done. In earlier releases, you could create approval records to define approval tasks and associate users or groups to approve or reject them.
+    Classic approvals are records that store the authorization tasks that must be done to approve or reject a request. Approval records are typically created by a Workflow Studio flow or classic workflow. An approval defines both the approval tasks and the users or groups are assigned to approve or reject them.
 
--   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/business-rules-classic/c_BusinessRules.md)**
+-   **[Classic Business Rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)**
 
     A business rule is a server-side script that runs when a record is displayed, inserted, updated, or deleted, or when a table is queried.
 
@@ -135,7 +135,7 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
 -   **[Classic Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/legacy-workflow/c_WorkflowOverview.md)**
 
-    Workflow provides a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
+    Workflow is a legacy application that provided a drag-and-drop interface for automating multi-step processes across the platform. Each workflow consists of a sequence of activities, such as generating records, notifying users of pending approvals, or running scripts. The graphical Workflow Editor represents workflows visually as a type of flowchart. It shows activities as boxes labeled with information about that activity and transitions from one activity to the next as lines connecting the boxes.
 
 
 ## Related ServiceNow applications and features
@@ -144,14 +144,11 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     ServiceNow® App Engine Studio \(AES\) is a development tool for creators of varying skill levels to build applications that meet the immediate needs of your organization.
 
--   **[ERP Canvas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-integration-overview.md)**
+-   ****
 
     Work with remote tables in the ERP system of record, such as SAP, as well as APIs and ETLs, to create ERP data models to use as data sources for ServiceNow AI Platform applications.
 
--   **[ERP Customization Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/erp-customization-mining-overview.md)**
-
-    Identify ERP customization apps that are candidates to migrate to the ServiceNow AI Platform. Use the ServiceNow AI Platform to build applications and features to automate ERP processes and workflows.
-
+-   **ERP Customization Mining**
 -   **[Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)**
 
     Automate integration tasks using ServiceNow components for ServiceNow® Workflow Studio, or develop custom integrations. A separate subscription is required.
@@ -164,12 +161,12 @@ The ServiceNow AI Platform supports these classic workflow builder tools.
 
     The Management, Instrumentation, and Discovery \(MID\) Server is a Java application that runs as a Windows service or UNIX daemon on a server in your local network. The ServiceNow® MID Server enables communication and the movement of data between a ServiceNow instance and external applications, data sources, and services.
 
--   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)**
+-   **[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-explore.md)**
 
     Use the ServiceNow® Robotic Process Automation \(RPA\) Hub to enable end-to-end automation for your organization. With a combination of UI interactions, element-based automations, and APIs that interact between the various business applications, you can emulate user actions and eliminate mundane and repetitive human activities.
 
 -   **[Virtual Agent Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/conversation-designer-virtual-agent.md)**
 
-    The Virtual Agent Designer is a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
+    The Assistant Designer Asset library includes a diagram tool for creating and managing topics, which are blueprints for conversations between a virtual agent and user. You can design topics that help your users resolve common work issues or guide them through self-service tasks.
 
 

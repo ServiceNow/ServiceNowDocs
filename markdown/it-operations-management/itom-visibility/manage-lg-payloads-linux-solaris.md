@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Storage discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Manage large storage payloads in Linux and Solaris
@@ -34,6 +34,8 @@ When Linux or Solaris storage sensors process payloads from large disk arrays, w
 
     -   **Solaris - Storage**
     -   **Linux - Storage**
+    -   **Unix - ADM Enhanced**
+    -   **Windows - ADM Enhanced**
 2.  To change the threshold, double-click in the **Value** column in the list and edit the size.
 
     \[Omitted image "DiscoverySensorYield.png"\] Alt text: Editing the sensor yield threshold

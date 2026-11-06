@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/workflow-activities-emergency-notifications.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create an emergency notification and monitor its workflow, Integrating Crisis Management with Everbridge, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -92,5 +92,4 @@ Communication status
 **Stopped**: Notification is stopped from being sent.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create an emergency notification and monitor its workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-emergency-notification-everbridge.md)
-
+</table>

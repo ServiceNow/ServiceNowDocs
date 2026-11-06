@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management]
+breadcrumb: [Exploring Software Asset Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Downgrade Rights
@@ -49,9 +49,7 @@ If you already have duplicate downgrade rights from previous Software Asset Mana
 
 If you try to create a duplicate downgrade right for an inactive downgrade right, an error message appears. The error message informs you that an inactive downgrade right exists and you can reactivate it.
 
-Downgrade support is available for all license metrics.
-
-\[Omitted image "dmap-downgrade-rights.png"\] Alt text: Downgrade rights
+\[Omitted image "mmasset0021810-discovery-map-horizontal.svg"\] Alt text: Downgrade rights
 
 Downgrade rights aren’t available for the following license metrics mentioned in the metric groups:
 

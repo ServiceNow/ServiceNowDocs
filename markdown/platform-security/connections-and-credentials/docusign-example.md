@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Connection &amp; Credential configuration templates, Exploring credentials, connections, and aliases, Connections and Credentials, Access Management]
+breadcrumb: [Connection &amp; Credential configuration templates, Explore credentials, connections, and aliases, Connections and Credentials, Access Management]
 ---
 
 # Configure a template for OAuth JWT Bearer grant type

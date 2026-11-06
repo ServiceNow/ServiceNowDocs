@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/tables-for-drtpr.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Digital resilience third-party registers reference, Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -36,6 +36,7 @@ Specific tables are installed with Digital resilience third-party registers.
 |Excel download/upload request|\[sn\_dora\_accel\_report\]|Stores the Excel download/upload request records for DORA regulation requirement.|
 |ICT third-party service provider|\[sn\_dora\_accel\_third\_party\]|Stores the ICT third-party service provider records for DORA regulation requirement.|
 |ICT third-party engagement service provider|\[sn\_dora\_accel\_third\_party\_engagement\]|Stores the ICT third-party engagement service provider records for DORA regulation requirement.|
+|Terminology definition|\[sn\_info\_reg\_terminology\_definition\]|Stores the terminology definition records used across DORA reporting sheets.|
 
 **Parent Topic:**[Digital resilience third-party registers reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/digi-resi-ref.md)
 

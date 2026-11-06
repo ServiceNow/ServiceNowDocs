@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integration architecture and external systems connection, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,9 @@ Use the script editor to format field values on the security incident during the
 
 In addition to the directly mapped fields from the pulled alert values, and the alert values you enter manually, you can optionally use the script editor to format field values on the security incident during the mapping step. The script editor changes the values of a Splunk alert so that values that are supported by the ServiceNow AI Platform® Security Incident Response security incident are mapped to the Category, Configuration item \(CI\), and Observable fields.
 
-Role required: sn\_si.admin
+Role required: sn\_si.ingestion\_profile\_admin
+
+**Note:** Users with the sn\_si.admin role can perform all operations available to a profile admin, as the sn\_si.admin role inherits the required permissions by default.
 
 ## About this task
 
@@ -28,13 +30,13 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
 ## Procedure
 
-1.  With the mapping form displayed, click the link to open the script editor.
+1.  With the mapping form displayed, select the link to open the script editor.
 
-    \[Omitted image "214\_SplunkFieldTranslationExampleCMDB\_1.png"\] Alt text: Click here link for script editor highlighted.
+    \[Omitted image "214\_SplunkFieldTranslationExampleCMDB\_1.png"\] Alt text: Format a field value
 
 2.  From the choice list, select a destination field for the value that you want to edit.
 
-3.  Alternatively, in the SIR Incident Field Mapping section, click the bracket icon `[{}]` next to a field to open the script editor for that field.
+3.  Alternatively, in the SIR incident Field Mapping section, select the bracket icon `[{}]` next to a field to open the script editor for that field.
 
     In certain instances, a script include may be appropriate for the Configuration item field. For an alert, for example, a value for the Configuration item may not be matched.
 
@@ -44,12 +46,12 @@ In certain cases, Splunk Enterprise alert values are mapped to the Category, Con
 
     \[Omitted image "214\_SplunkFieldTranslationExampleCMDB.png"\] Alt text: Script editor.
 
-4.  Enter any changes to then script, and click **Update** to save your changes.
+4.  Enter any changes to then script, and select **Update** to save your changes.
 
     The Splunk Field Translations table is displayed.
 
 5.  Close the table to return to the Mapping form.
 
 
-**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

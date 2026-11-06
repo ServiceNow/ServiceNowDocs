@@ -1,20 +1,20 @@
 ---
 title: Continual Improvement Management reference
-description: Continual Improvement Management reference content including states and field descriptions.
+description: Descriptions of CIM improvement, task, and approver states and process workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/continual-improvement-management/cim-reference.html
 release: yokohama
 product: Continual Improvement Management
 classification: continual-improvement-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Continual Improvement Management, IT Service Management]
 ---
 
 # Continual Improvement Management reference
 
-Continual Improvement Management reference content including states and field descriptions.
+Descriptions of CIM improvement, task, and approver states and process workflow.
 
 ## Improvement states
 
@@ -472,7 +472,7 @@ Click **Close**.
  **Actual end date** is automatically populated.
 
 </td></tr></tbody>
-</table>-   **[CIM roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-roles.md)**  
+</table>-   **[Continual Improvement Management roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-roles.md)**  
 Roles are added with installation of Continual Improvement Management.
 -   **[Improvement field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/continual-improvement-management/cim-field-descriptions.md)**  
 Improvement Initiative form and related field descriptions.

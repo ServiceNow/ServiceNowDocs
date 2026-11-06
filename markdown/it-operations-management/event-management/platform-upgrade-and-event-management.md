@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event Management setup, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Event Management setup, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management during a platform upgrade
@@ -34,6 +34,4 @@ The following Event Management jobs remain running as their **Upgrade safe** fla
 During the platform upgrade, all other Event Management jobs wait for the platform upgrade to finish.
 
 **Note:** During an Event Management plugin upgrade, all Event Management jobs do not work.
-
-**Parent Topic:**[Event Management setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMConfiguration.md)
 

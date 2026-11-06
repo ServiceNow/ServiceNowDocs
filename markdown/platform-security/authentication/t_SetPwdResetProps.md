@@ -1,5 +1,5 @@
 ---
-title: Configuring Password Reset properties
+title: Configure Password Reset properties
 description: You can specify properties that configure the Password Reset experience for end users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_SetPwdResetProps.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Password Reset, Local Authentication, Authentication, Access Management]
+breadcrumb: [Password Reset, Local authentication, Authentication, Access Management]
 ---
 
-# Configuring Password Reset properties
+# Configure Password Reset properties
 
 You can specify properties that configure the Password Reset experience for end users.
 

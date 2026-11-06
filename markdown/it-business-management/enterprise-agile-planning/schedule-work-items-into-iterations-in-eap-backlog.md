@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2026-05-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -18,7 +18,7 @@ Perform backlog grooming and schedule work from the team's backlog for the upcom
 
 ## Before you begin
 
--   [Create next PI and Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
+-   [Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md).
 -   [Create work items for teams in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-work-items-for-teams-in-eap-backlog.md).
 
 Role required: sn\_apw\_advanced.eap\_user
@@ -51,7 +51,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
         \[Omitted image "eap-move-item-options.png"\] Alt text: Move item from current sprint to Backlog or next Sprint.
 
-5.  Move a work item to the top or bottom of its current backlog or iteration.
+5.  Move a work item to the top or bottom of the backlog or iteration sections.
 
     This action applies to stories, features, capabilities, and epics in the backlog, in iterations, and in team grids.
 

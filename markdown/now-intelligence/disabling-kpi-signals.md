@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/disabling-kpi-signals.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring KPI Signals for an indicator, KPI Signals, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Configure, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
 
 # Disabling KPI Signals

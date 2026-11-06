@@ -1,0 +1,41 @@
+---
+title: Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)
+description: Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) to contextualize external sources related to an Operational Technology \(OT\) incident.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/operational-technology/configure-ai-enhanced-ra-otsm.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [configure]
+breadcrumb: [AI Enhanced Recommended Actions for OTSM, Operational Technology]
+---
+
+# Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)
+
+Configure AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) to contextualize external sources related to an Operational Technology \(OT\) incident.
+
+## Configuration overview
+
+1.  [Create a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-ext-cont-connector-mspo.md)
+
+    Create a Microsoft SharePoint Online external content connector to use as the external source.
+
+2.  [Configure crawl settings for a Microsoft SharePoint Online external content connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-crawl-settings-spo-ext-cont-connector.md)
+
+    Configure the crawl settings to specify the sites you want your Microsoft SharePoint Online external content connector to crawl.
+
+3.  [Set up the search source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/set-up-ai-enhanced-ra-otsm.md)
+
+    Set the search source in the **\[RA-OTSM AI\] Search Profile** record to the Microsoft SharePoint Online external content connector you created.
+
+4.  [Edit the fields used for search results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/set-up-ai-enhanced-ra-otsm.md)
+
+    If needed, add or remove the OT incident record fields leveraged during the search process.
+
+
+-   **[Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/set-up-ai-enhanced-ra-otsm.md)**  
+Set up AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\) so that you can contextualize external sources related to an Operational Technology \(OT\) incident.
+
+**Parent Topic:**[AI Enhanced Recommended Actions for Operational Technology Service Management \(OTSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/ai-enhanced-ra-otsm-landing.md)
+

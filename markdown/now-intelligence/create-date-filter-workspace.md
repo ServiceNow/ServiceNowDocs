@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/create-date-filter-workspace.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Filters, Platform Analytics experience, Platform Analytics]
 ---
 
@@ -26,6 +26,8 @@ In the Filter Designer \(**Library** &gt; **Filters** &gt; **New**\): analytics\
 
 Date filters apply to Score, Time series, Bar, and Pie/Donut visualizations. For indicator data, the **Apply date range** option must be turned on in the visualization's configuration panel \(except for time series, where it's implicitly always on\). The filter applies to all such visualizations in the same dashboard or dashboard tab as the filter.
 
+For time series data visualizations showing table or indicator data, the data aggregation on those visualizations adjusts automatically to follow the date range selected in the filter.
+
 ## Procedure
 
 1.  Create a filter and select the Date filter type, as described in [Create or add a filter on an inline dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/select-workspace-filter-type.md) or [Create a filter in the Filter Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-filter-library.md).
@@ -36,11 +38,11 @@ Date filters apply to Score, Time series, Bar, and Pie/Donut visualizations. For
 
     \[Omitted image "filter-all-kpis.png"\] Alt text: Data to filter section with KPIs added automatically.
 
-    You can add any number of date fields on tables to apply the filter to. If you add a table field, you can also choose to apply the filter to the hierarchy of related tables: Parents, children, siblings, and any database views that contain the table.
+    You can add any number of date fields on tables or Usage Insights date properties to apply the filter to. If you add a table field, you can also choose to apply the filter to the hierarchy of related tables: Parents, children, siblings, and any database views that contain the table.
 
 3.  In **Date filter view**, select the options that the runtime user has for choosing date ranges:
 
-    -   Both calendar and relative ranges, such as seven days or Year To Date \(YTD\)
+    -   Choice of calendar dates or relative ranges, such as seven days or Year To Date \(YTD\)
     -   Calendar only
     -   Relative ranges only
     \[Omitted image "paw-filter-calendar-rel-ranges.png"\] Alt text: Runtime view of date filter with both relative ranges and calendar.
@@ -55,9 +57,13 @@ Date filters apply to Score, Time series, Bar, and Pie/Donut visualizations. For
 
 6.  In **Default values**, specify a relative range to filter on automatically when the dashboard is opened.
 
-7.  To let users clear the values they selected for the filter, enable **Allow filter clearance**.
+7.  To let users clear the values they selected for the filter, enable **Allow user to clear filter**.
 
-8.  Select **Save**.
+8.  Specify a **Filter Custom ID**, a name for the filter that replaces its sys\_id in URL filter parameters.
+
+    For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/url-filter-parameters.md).
+
+9.  Select **Save**.
 
 
 ## Result
@@ -73,5 +79,5 @@ If you have the required roles, add the filter to the filter library. You can al
 
 [Edit a Platform Analytics filter on a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-filters-configurable-workspaces.md)
 
-[configure-dv-follow-filters-or-not]
+[Configure a data visualization to follow filters or not](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-dv-follow-filters-or-not.md)
 

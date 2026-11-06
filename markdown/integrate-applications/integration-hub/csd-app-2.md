@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Integration Hub available solutions, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub solutions, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Client Software Distribution 2.0 application
@@ -187,10 +187,7 @@ Microsoft Endpoint Configuration Manager application targets removal AI agent
 Removes collections as targets from applications in Microsoft Endpoint Configuration Manager. The agent gathers the required inputs, confirms the action, and handles errors while performing the removal.
 
 </td></tr></tbody>
-</table>Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+</table>There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** To access data or perform operations on data in the table that is associated with the AI agent, users must have the CSD Admin role.
 

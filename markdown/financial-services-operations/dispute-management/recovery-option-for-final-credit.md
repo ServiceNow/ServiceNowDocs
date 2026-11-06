@@ -1,20 +1,20 @@
 ---
-title: Set recovery option
-description: Determine whether to initiate a chargeback for a transaction, where the cardholder has not yet received the final credit, ensuring that the recovery process aligns with established guidelines.
+title: Determine recovery option for providing final credit
+description: Complete the Recovery option task to choose whether to pursue chargeback for a transaction where final credit to the card customer will be provided.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/recovery-option-for-final-credit.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Investigating a dispute, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Set recovery option
+# Determine recovery option for providing final credit
 
-Determine whether to initiate a chargeback for a transaction, where the cardholder has not yet received the final credit, ensuring that the recovery process aligns with established guidelines.
+Complete the Recovery option task to choose whether to pursue chargeback for a transaction where final credit to the card customer will be provided.
 
 ## Before you begin
 
@@ -22,69 +22,47 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-A chargeback is initiated by a bank. The chargeback is pursued when a card provider requests the merchant the return of lost funds on a fraudulent or disputed transaction. If chargeback is not pursued, the agent selects whether to deny or write off the transaction.
+A chargeback is bank initiated, pursued when a card provider requests from the merchant the return to the customer of lost funds on a fraudulent or disputed transaction. If chargeback will not be pursued, the agent selects whether to deny or write off the transaction.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  Select the transaction ID in the transaction level playbook of the **Processing** tab.
+6.  Select the **Recovery option** task under the Investigation playbook stage.
 
-    The **Investigate** stage is initiated for the transaction.
+7.  Select the recovery task that you want to complete.
 
-7.  Select the **Set recovery option** activity under the **Investigation** stage.
+8.  On the form, fill in the required fields and any other related information that you've gathered.
 
-8.  Enter details about the decision on chargeback, write off, or transaction denial.
+9.  -   In the **Pursue chargeback** field, select whether the determination is to pursue chargeback from the merchant.
+-   In the **Deny dispute** field, select whether the determination is to deny the dispute.
+10. In the **Work notes** field, enter any comments.
 
-9.  In the **Pursue recovery** drop-down, select one of the following.
-
-<table id="choicetable_gwh_bjs_3fc"><tbody><tr><td id="d44601e172">
-
-**Yes**
-
-</td><td>
-
-The relevant tasks for the transaction trigger for the **Chargeback** stage.
-
-</td></tr><tr><td id="d44601e184">
-
-**No**
-
-</td><td>
-
--   If you select **No**, the **Deny dispute** drop-down is displayed.
--   Select **Yes** to deny the dispute. The task is marked for approval. Once it is approved, the task moves to **Closed Rejected** state.
--   **No** to write off the final credit to the card holder.
-
-
-</td></tr></tbody>
-</table>10. In the **Remarks** field, enter any comments.
-
-11. Select **Update**.
+11. After you have entered the details in the task, select **Update**.
 
 12. Close the task from the playbook.
 
     |Dispute activity|Action|
     |----------------|------|
-    |**To close the recovery option task**|Select **Close task**.|
+    |**To close the Recovery option task**|Select **Close**.|
 
 
 ## Result
 
--   If the decision is to deny the dispute, the transaction task state updates to **Closed complete**.
--   If the decision is to pursue chargeback, the relevant tasks for the transaction trigger for the **Chargeback** stage.
+-   If determination was made to deny the dispute, the transaction task state updates to Closed complete.
+-   If determination was made to pursue chargeback, the relevant tasks for the transaction will trigger for the Chargeback stage.
 
 **Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)
 

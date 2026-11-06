@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/return-merchandise-authorization.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Explore, Sales Customer Relationship Management]
+breadcrumb: [Order operations, Explore, Sales Customer Relationship Management]
 ---
 
 # Return Merchandise Authorization
@@ -17,4 +17,9 @@ Return Merchandise Authorization \(RMA\) enables the return, replacement, and re
 The RMA Case Management application includes the RMA case type. This case type provides the ability to reference multiple install base items as case line items on an RMA case record.
 
 Using case line items, multiple issues can be tracked for the same RMA case. Also, the issues can be resolved in each case line item independently before resolving and closing the RMA case.
+
+## What to explore next
+
+-   [Activate the Return Merchandise Authorization plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/activate-return-merchandise-authorization-plugin.md)
+-   [Return Merchandise Authorization Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/return-merchandise-authorization-case-management-reference.md)
 

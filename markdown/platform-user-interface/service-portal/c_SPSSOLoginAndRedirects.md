@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,7 +24,9 @@ To use single sign-on with Service Portal, you must enable the Integration - Mul
 
 If you are using the system property to automatically redirect to your primary IdP, then Service Portal automatically redirects to that IdP. If you have multiple identity providers, Service Portal shows a link on the login page to **Use external login**. For more information on SSO and authentication in the platform, see [Multiple-Provider single sign-on \(SSO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_MultipleProviderSingleSignOn.md).
 
-To redirect users to the SSO Identify Provider \(IdP\) login page without first redirecting them to the portal login page, you can configure the **glide.service\_portal.sso.early\_redirect.portals** system property. For more information, see [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/properties-service-portal.md). If your portal uses a customized version of the Login widget, you must update the `sp_sso_early_redirection` UI macro as needed to redirect users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
+To redirect users to the SSO Identify Provider \(IdP\) login page without first redirecting them to the portal login page, you can configure the **glide.service\_portal.sso.early\_redirect.portals** system property. For more information, see [Service Portal properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/properties-service-portal.md).
+
+If your portal uses a customized version of the Login widget, update the `sp_sso_early_redirection` UI macro as needed. This redirects users to the SSO Identify Provider \(IdP\) login page without trying to load the portal page first.
 
 **Note:** Service Portal has a known issue related to using Multi-Provider SSO and Okta. For more information about this issue and a workaround, see the [Service Portal: After enabling Multi SSO, end users are able to access navpage.do through OKTA if they are already logged in \[KB0687717\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0687717) article in the Now Support Knowledge Base.
 
@@ -152,9 +154,9 @@ Contains the call to the server script include method that determines where to l
 </table>    getFirstPageURL primarily does the following:
 
     -   Redirects to `login_redirect.do` to break out of the frameset \(if there is one\).
-    -   Redirects to the default portal if the user has no roles or to the full platform for users with roles who are not trying to go to a portal directly.
+    -   Redirects to the default portal if the user has no roles or to the full platform for users with roles who aren't going to a portal directly.
 
-        When the user has no roles, they are redirected to the portal equivalent of a page. For example,
+        When the user has no roles, they are redirected to the portal equivalent of a page. For example.
 
         `https://<instance_name>.service-now.com/nav_to.do?uri=change_request_list.do`
 

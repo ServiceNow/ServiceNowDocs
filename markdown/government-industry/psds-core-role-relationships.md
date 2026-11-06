@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-core-role-relationships.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Public Sector Digital Services Core Role Relationships

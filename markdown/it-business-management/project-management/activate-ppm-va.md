@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Virtual Agent for PPM, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Virtual Agent for PPM, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Install Virtual Agent for PPM
@@ -32,7 +32,7 @@ To install Virtual Agent for PPM, activate the following plugins:
 
 ## Procedure
 
-1.  Navigate to **System Applications** &gt; **All Available Applications** &gt; **All**.
+1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Find the application using the filter criteria and search bar.
 
@@ -40,18 +40,29 @@ To install Virtual Agent for PPM, activate the following plugins:
 
     Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-3.  Click **Install**.
+3.  Select **Install**.
 
 4.  In the Application installation dialog box, review the application dependencies.
 
     Dependent plugins and applications are listed if they will be installed, are currently installed, or need to be installed. If there are any plugins or applications that need to be installed, you must install them before you can install Virtual Agent for PPM.
 
-5.  If demo data is available and you want to install it, click **Load demo data**.
+5.  If demo data is available and you want to install it, select**Load demo data**.
 
     Demo data comprises sample records that describe application features for common use cases. Load demo data when you first install the application on a development or test instance.
 
     **Important:** If you don't load the demo data during installation, it's unavailable to load later.
 
-6.  Click **Install**.
+6.  Select **Install**.
 
+
+**Related topics**  
+
+
+[Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-overview.md)
+
+[Enable Virtual Agent for PPM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/setup-ppm-va.md)
+
+[PPM Virtual Agent conversation flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-conversations.md)
+
+[Reusable PPM Virtual Agent topic blocks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/ppm-va-topic-blocks.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use Capacity Planning, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -27,21 +27,21 @@ Role required: sn\_align\_ws.spw\_capacity\_user
 
 1.  Navigate to **Workspaces** &gt; **Portfolio Planning Workspace**.
 
-2.  Select the **Resource capacity** option \(\[Omitted image "cp-manage-resource-capacity-icon.png"\] Alt text: Manage resource capacity option.\).
+2.  Select the **Manage resource capacity** option \(\[Omitted image "cp-manage-resource-capacity-icon.png"\] Alt text: Manage resource capacity option.\).
 
     **Note:** If planning attributes aren’t enabled for capacity planning, you see an empty state screen with an option to configure. Contact your admin to enable planning attributes for capacity planning. For more information, see [enable planning attributes for capacity planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/cp-enable-planning-attributes-spw.md).
 
 3.  Use one the following options to view and regenerate the capacity details.
 
-<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d150672e122">
+<table id="choicetable_gk4_244_byb"><thead><tr><th align="left" id="d187945e122">
 
 Choice
 
-</th><th align="left" id="d150672e125">
+</th><th align="left" id="d187945e125">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d150672e131">
+</th></tr></thead><tbody><tr><td id="d187945e131">
 
 **Generate capacity details**
 
@@ -59,7 +59,7 @@ The resource capacity details for the selected combination of primary attributes
 
 **Note:** Capacity generation is an asynchronous process. You can generate capacity for multiple combination of dates and attributes.
 
-</td></tr><tr><td id="d150672e187">
+</td></tr><tr><td id="d187945e187">
 
 **Regenerate capacity details**
 
@@ -69,7 +69,7 @@ The resource capacity details for the selected combination of primary attributes
 2.  In the Regenerate capacity window, filter the date range, if needed, and select **Regenerate**.
 
 
-</td></tr><tr><td id="d150672e217">
+</td></tr><tr><td id="d187945e217">
 
 **Scheduled job**
 

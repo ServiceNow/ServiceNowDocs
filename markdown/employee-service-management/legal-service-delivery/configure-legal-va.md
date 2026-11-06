@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Virtual Agent Conversations, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Virtual Agent Conversations, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure Virtual Agent conversation topics for legal services
@@ -34,15 +34,15 @@ These virtual agent conversation topics are built using ServiceNow Virtual Agent
 
     **Note:** All conversation topics for legal services are grouped under the Legal Service Delivery category.
 
-<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d722324e114">
+<table id="choicetable_rw4_m3w_s4b"><thead><tr><th align="left" id="d779894e114">
 
 Options
 
-</th><th align="left" id="d722324e117">
+</th><th align="left" id="d779894e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d722324e123">
+</th></tr></thead><tbody><tr><td id="d779894e123">
 
 **Create a new virtual agent conversation topic**
 
@@ -52,7 +52,7 @@ Steps
 2.  On the form, fill in the fields.
 For more information on creating a conversation topic and description of fields on the form, see [Create a Virtual Agent topic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/create-virtual-agent-topic.md).
 
-</td></tr><tr><td id="d722324e148">
+</td></tr><tr><td id="d779894e148">
 
 **Customize a predefined conversation topic**
 

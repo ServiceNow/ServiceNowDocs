@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/record-producers-fso-applications.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create or modify record producers, Planning and configuring, Financial Services Operations \(FSO\)]
+breadcrumb: [Record producers, Configure, Financial Services Operations \(FSO\)]
 ---
 
 # Record producers for Financial Services Operations applications

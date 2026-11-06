@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dynamic task bundling, Configuring Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dynamic Task Bundling, Task Bundling, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Add qualifiers to a task bundling policy
@@ -20,7 +20,7 @@ Add qualifiers to task bundling policies to define whether policies apply for ei
 
 Qualifiers are subcomponents of policies. For more information on how to create a policy, see [Create a task bundling policy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/create-a-task-bundling-policy.md).
 
-Role required: admin
+Role required: wm\_admin
 
 ## About this task
 

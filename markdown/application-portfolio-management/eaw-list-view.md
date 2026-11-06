@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-list-view.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Rationalization of business applications, Exploring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # List view of application rationalization
@@ -18,7 +18,7 @@ As an Enterprise Architect, you can view the list of all business applications. 
 
 ## Overview of the list view
 
-The list view of application rationalization enables you to view all available applications based on your scoring profile, in your enterprise architecture landscape. For details, see [Add or edit a scoring profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-scoring-profile.md) and [Regenerate scoring profile indicator scores on-demand in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-regenerate-scoring-profile-indicator-scores-in-eaw.md).
+The list view of application rationalization enables you to view all available applications based on your scoring profile, in your enterprise architecture landscape. For details, see [Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-scroring-prof.md).
 
 You can perform side-by-side comparison of application scores and indicators across multiple dimensions.
 
@@ -38,6 +38,8 @@ The latest fiscal period is derived from the apm\_app\_indicator\_score list. Th
 You can select the name of a business application to open it and view its associated details. Also, you can select the expand row icon \(\[Omitted image "ExpandIcon.png"\] Alt text: Expand row icon.\) to see the demands and projects associated with that business application. On selecting a demand or a project, its details are displayed. You can modify business application details and its associated demand and project details, as required.
 
 Business applications marked as **Retired** or in **End of Life** lifecycle stage aren’t displayed on the Application Rationalization List view page. However, you can view those business applications by updating the **sn\_apm\_ws.business\_application\_default\_filter** system property. Contact your ServiceNow® account service manager to update the system property.
+
+You can also generate insights into business applications using Now Assist. For information, see [Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md).
 
 ## View and compare actual and normalized indicator scores
 
@@ -70,21 +72,6 @@ You can perform the following from the list view page:
 
 **Note:** You can zoom on this page to 200% or 400% through your browser settings without the loss of content or functionality. Page layouts are transformed into a vertical, stacked view automatically.
 
--   **[Create a demand using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-a-demand-using-the-list-view.md)**  
-Create a demand for an application from the list view.
--   **[Set the planned disposition of a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-set-planned-disposition-of-a-business-application-listview.md)**  
-Set the planned disposition of a business application to track future decisions on the application.
--   **[Add business application lifecycle data using the list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-business-application-lifecycle-data-listview.md)**  
-Create or edit the life cycle of a business application to better manage the business application.
--   **[Edit business application details in list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-business-application-details.md)**  
-You can make updates to the business application record directly from the list, without leaving the list view.
--   **[Edit a demand associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-a-demand-associated-with-a-business-application.md)**  
-Use application rationalization to edit existing demands associated with business applications.
--   **[Edit a project associated with a business application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-edit-a-project-associated-with-a-business-application.md)**  
-Use application rationalization to edit existing projects associated with business applications.
--   **[Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-export-app-rat-list-data.md)**  
-Export the application rationalization list view data to Microsoft Excel or CSV so that you can use the data to obtain insights, share with stakeholders, and prepare for analysis.
-
 **Parent Topic:**[Rationalization of business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-rationalize-business-applications.md)
 
 **Related topics**  
@@ -97,4 +84,6 @@ Export the application rationalization list view data to Microsoft Excel or CSV 
 [Export application rationalization data to Excel or CSV](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-export-app-rat-list-data.md)
 
 [Apply filters on the Application Rationalization page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-apply-filters-app-rat.md)
+
+[Generate insights into business applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-insights-into-ba.md)
 

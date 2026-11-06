@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Integrated experience and service feedback, Setup continuous improvement, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Feedback Analytics dashboard
@@ -89,56 +89,4 @@ You can see the following trends on the dashboard.
 **Feedback tasks**: Number of tasks displayed by their respective states.
 
 **Top pages by feedback tasks**: Top pages where feedback is shared and the number of tasks displayed by their respective states.
-
--   **[User experience dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ued-ec.md)**  
-The user experience dashboard helps get a consolidated view of the feedback data. It provides a quick view of all types of feedback data in the User Experience Analytics dashboard.
-
-**Parent Topic:**[Employee Center Pro reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-pro-reference.md)
-
-**Related topics**  
-
-
-[Approvals experience reference]()
-
-[Block content form]()
-
-[Campaign overview and Campaign analytics dashboards]()
-
-[Components installed with Employee Center Pro]()
-
-[Components installed with Content engagement]()
-
-[Components installed with Content Experiences]()
-
-[Components installed with Content Publishing]()
-
-[Components installed with Content Governance]()
-
-[Components installed with Content Analytics]()
-
-[Content Analytics dashboards]()
-
-[Content engagement dashboard]()
-
-[Content Library Overview dashboard]()
-
-[Employee Center Pro widgets]()
-
-[Feedback configuration form]()
-
-[Feedback definition form]()
-
-[Link content form]()
-
-[Location Consent form]()
-
-[Notification content form]()
-
-[Properties installed with Content Experiences]()
-
-[Properties installed with Content Governance]()
-
-[Properties installed with Content Publishing]()
-
-[Schedule appointment form]()
 

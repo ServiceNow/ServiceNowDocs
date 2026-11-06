@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/tb-edit-color-palette.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [add alternate color, alternate color palette, customize a theme, create alternate color theme]
-breadcrumb: [Manage or edit a theme with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Add an alternate color palette
@@ -17,39 +17,41 @@ Customize a Theme Builder theme by creating an alternate color palette for the t
 
 ## Before you begin
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
+
+You can also watch a short video on how to create an alternate color palette.
+
+\[Omitted video\] Description: Create an alternate color palette
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
     The Theme Builder landing page displays in the Home page view.
 
     \[Omitted image "tb-home.png"\] Alt text: Page menu.
 
-2.  From the Home page view, select the Manager page view to see [the themes you have previously defined](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-create-theme.md).
+2.  From the Home page view, select the Manager page view to see [the themes you have created](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-create-theme.md).
 
     **Important:** When you have selected the theme you want to work on, verify that you have selected the correct scope for the theme from the application scope picker.
 
-    \[Omitted image "tb-available-themes.png"\] Alt text: Available themes.
-
 3.  Select the theme to which you want to add an alternate color palette to.
 
+    -   For published or unpublished themes without an alternate color palette already defined, select the More actions icon \[Omitted image "tb-more-actions.png"\] Alt text:, and select **Add alternate color palette**.\[Omitted image "tb-select-alt-color-pal.png"\] Alt text: Add an alternate color palette.
     -   For a published or unpublished theme group, which has alternate color palettes defined, navigate to the Edit drop-down list and select **Add an alternate color palette**.
-    -   For published or unpublished themes without an alternate color palette defined, select the More actions \(\[Omitted image "tb-more-actions.png"\] Alt text: More actions icon.\) icon, and select **Add alternate color palette**.\[Omitted image "tb-select-alt-color-pal.png"\] Alt text: Add an alternate color palette.
     The alternate color palette wizard appears.
 
     \[Omitted image "tb-provide-color-palette.png"\] Alt text: First, name your alternate color palette.
 
-4.  Provide a **Theme group name** and the **Color Palette name** as needed, and then choose a base from either **Light Palette** or **Dark Palette**.
+4.  Enter a **Theme group name** and the **Color Palette name**, then choose from either **Light Palette** or **Dark Palette**.
 
 5.  Select **Create color palette**.
 
     The Editor page for the current palette appears.
 
-    \[Omitted image "tb-edit-alt-color.png"\] Alt text: Edit the color palette.
-
-6.  On this screen, you can perform the following actions if needed:
+6.  On this screen, perform the following actions:
 
     -   In the **Color palette name** field, change the color palette name.
     -   Select any of the three brand colors defined in this palette and change them from the color picker.
@@ -59,7 +61,7 @@ Role required: admin
 
 ## Result
 
-The alternate color palette has been added to your core theme. The theme name now appears as a theme group with the palette recorded under the Color palette drop-down list within the Manager page.\[Omitted image "tb-color-palette-list.png"\] Alt text: Color palette drop-down list.
+The alternate color palette is added to your core theme. The theme name now appears as a theme group with the palette recorded under the Color palette drop-down list.\[Omitted image "tb-color-palette-list.png"\] Alt text: Color palette drop-down list.
 
 If your theme is currently published, your alternate color palette is available for selection in the user's Theme preferences. For information on publishing your theme, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md).
 

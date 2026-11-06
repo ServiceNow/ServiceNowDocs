@@ -7,7 +7,7 @@ release: yokohama
 product: Edge Encryption
 classification: edge-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up a Java KeyStore keystore, Set up a keystore and encryption keys, Install the Edge Encryption proxy server using the command line installer, Installing Edge Encryption, Edge Encryption, Encryption]
 ---
@@ -36,7 +36,7 @@ To find out more about the keytool utility, see the [Java SE Documentation](http
 
     **Note:** If you choose to run these commands from a directory other than the keystore directory, that is you skipped the previous step, you must change the -keystore option to include the path from your current directory to the keystore directory. For example, if you were in the `<installation directory>\bin` directory, the option would be `-keystore ../keystore/keystore.jceks`.
 
-<table id="choicetable_ozy_1tw_rt"><tbody><tr><td id="d142327e106">
+<table id="choicetable_ozy_1tw_rt"><tbody><tr><td id="d178259e106">
 
 **AES 128**
 
@@ -44,7 +44,7 @@ To find out more about the keytool utility, see the [Java SE Documentation](http
 
 `keytool -genseckey -alias 128bitkey -keyalg aes -keysize 128 -keystore keystore.jceks -storetype jceks`
 
-</td></tr><tr><td id="d142327e118">
+</td></tr><tr><td id="d178259e118">
 
 **AES 256**
 

@@ -1,22 +1,22 @@
 ---
 title: Create a security data filter
-description: Learn how to create security data filter rules to grant your users' access to records are tables.
+description: Learn how to create security data filter rules to grant your users' access to records and tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/configure-security-data-filters.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security data filters, Access Management]
 ---
 
 # Create a security data filter
 
-Learn how to create security data filter rules to grant your users' access to records are tables.
+Learn how to create security data filter rules to grant your users' access to records and tables.
 
 ## Before you begin
 
-Role required: admin, security\_admin
+Role required: admin
 
 ## Procedure
 
@@ -80,13 +80,7 @@ Mode
 
 </td><td>
 
-The mode of the security data filter-   **Filter if security attribute condition met**
-
-The filter applies if the user meets the security attribute condition.
-
--   **Filter unless security attribute condition met**
-
-The filter applies unless the user meets the security attribute condition.
+The mode of the data filter.
 
 </td></tr><tr><td>
 
@@ -94,7 +88,7 @@ Filter
 
 </td><td>
 
-The filter conditions that determines which records the data filter applies to
+The filter condition that determines which records the data filter applies to. To learn more, see [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ConditionBuilder.md).
 
 </td></tr><tr><td>
 
@@ -102,7 +96,7 @@ Security Attributes
 
 </td><td>
 
-The security attributes that control if the data filter will apply or not
+The security attributes that control whether the data filter will apply.
 
 </td></tr></tbody>
 </table>4.  Select **Save** from the form menu.

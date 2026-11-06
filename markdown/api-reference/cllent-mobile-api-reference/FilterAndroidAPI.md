@@ -1,5 +1,5 @@
 ---
-title: Filter API - Android
+title: Filter class - Android
 description: The Filter class provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.Creates a filter based on specific keywords and conditions that can be OR'd or AND'd together.Creates a filter based on one or more filter criteria that are OR'd together.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/cllent-mobile-api-reference/FilterAndroidAPI.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# Filter API - Android
+# Filter class- Android
 
 The Filter class provides the ability to configure filters that define the data to return in the return results of a REST endpoint query.
 
@@ -20,7 +20,7 @@ The Filter class provides the ability to configure filters that define the data 
 |----|----|-----------|
 |queryItems|Map&lt;String, String&gt;|Collection of query items representing the filter.|
 
-**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## Filter - Filter\(conditions: List&lt;Condition&gt;, keywords: String? = null, sortBy: List&lt;Sort&gt;? = null\)
 

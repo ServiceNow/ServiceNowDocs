@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -20,13 +20,6 @@ Use this script include in a global server-side script to create a link to a lis
 
 -   Now Mobile
 -   Mobile Agent
--   Mobile Onboarding
-
-**Note:**
-
-The Mobile Onboarding application is being deprecated!
-
-With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding application. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the [Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mobile-employee-experience-for-hr-service-delivery.md).
 
 For example, create a link from an email, push notification, or Virtual Agent conversation that opens a record or list of records in the app. The form or list only includes data that the user has access rights to view.
 
@@ -60,20 +53,13 @@ String
 
 </td><td>
 
-Name of the app to create a link to. Options include:
+Name of the app to create a link to. Options:
 
- -   agent: Creates a link to a list or screen in the Mobile Agent app.
+-   agent: Creates a link to a list or screen in the Mobile Agent app.
 -   request: Creates a link to a list or screen in the Now Mobile app.
--   onboarding: Creates a link to a list or screen in the Mobile Onboarding.
 
 </td></tr></tbody>
-</table>**Note:**
-
-The Mobile Onboarding application is being deprecated!
-
-With the ServiceNow AI Platform Rome release in September 2021, we started phasing out support for the Mobile Onboarding application. Customers may no longer activate it, and we are not offering enhancements or non-critical bug fixes. Mobile onboarding features are available in the [Now Mobile app for HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/mobile-employee-experience-for-hr-service-delivery.md).
-
-```
+</table>```
 var glide = new global.MobileDeepLinkGenerator('onboarding');
 ```
 

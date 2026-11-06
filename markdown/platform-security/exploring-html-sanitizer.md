@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/exploring-html-sanitizer.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-05-29"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [HTML sanitizer]
 ---
 
@@ -15,8 +15,6 @@ breadcrumb: [HTML sanitizer]
 Remove unwanted code and protect against security concerns such as cross-site scripting attacks by sanitizing HTML markup in HTML fields and translated HTML fields.
 
 Use HTML sanitization to ensure HTML content within your instance doesn’t contain potentially harmful content. HTML sanitization works by removing HTML tags that could be used to compromise your instance, such as `<script>`, `<link>`, or `<embed>` tags that can be used to run unwanted scripts on your instance or direct your users to unwanted content. Safe tags that control the formatting of your content are preserved. As an administrator, you're able to customize what content is removed or preserved. You’re also able to control whether sanitization applies to all content, or just fields you specify.
-
-HTML/Translated HTML fields undergo HTML sanitization by default. This process sanitizes the input HTML to protect it from cross-site scripting \(XSS\) and related security attacks. Storing templates or variables such as $\{description\} or \{\{description\}\} or similar and replacing them with a true description post sanitization will reduce the effectiveness of the sanitization process. This is due to the sanitization being called solely on the placeholder template and not the HTML content. Storing only HTML content in the HTML/Translated HTML fields helps ensure an effective sanitization process.
 
 The HTML sanitizer works by checking the built-in inclusion list for markup that you always want to preserve. The sanitizer provides the HTMLSanitizerConfig script include that administrators can use to modify the built-in inclusion list. Items can also be added to the exclusion list to remove HTML markup. Contents of the exclusion list override the inclusion list.
 

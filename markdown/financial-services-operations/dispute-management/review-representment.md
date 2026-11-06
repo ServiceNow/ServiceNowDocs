@@ -1,5 +1,5 @@
 ---
-title: Review representment
+title: Review merchant representment
 description: Review the representment evidence provided by a merchant during a chargeback request. A representment is the process where a business can prove that a charge that is being questioned is valid and the consumer's charge should not be reversed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/review-representment.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Initiating a chargeback, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Initiating a chargeback, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Review representment
+# Review merchant representment
 
 Review the representment evidence provided by a merchant during a chargeback request. A representment is the process where a business can prove that a charge that is being questioned is valid and the consumer's charge should not be reversed.
 
@@ -24,53 +24,48 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-If a merchant disagrees with a chargeback, they can submit representment evidence in an attempt to contest the chargeback and support their claim that a transaction is valid to their acquiring bank by way representment. The issuing bank reviews the evidence and determines further action on the disputed transaction.
+If a merchant disagrees with a chargeback, they can submit representment evidence in an attempt to contest the chargeback and support their claim that a transaction is valid to their acquiring bank by representment. The issuing bank reviews the evidence and determines further action on the disputed transaction.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  Select the **Review representment** activity under the Chargeback playbook stage.
+6.  Select the **Review merchant representment** activity under the Chargeback playbook stage.
 
-7.  Select the review representment task that you want to complete.
+7.  On the form, fill in the required fields and any other related information that you've gathered.
 
-8.  On the form, fill in the required fields and any other related information that you've gathered.
+8.  Select **Update** to save your changes.
 
-9.  In the **Work notes** field, enter any comments.
+9.  Select **Continue**.
 
-10. Select **Update** to save your changes.
+    If merchant representment is not accepted, the case is submitted to the dispute manager for review and approval.
 
-11. Select **Submit for approval**.
-
-    The case is submitted for a review and approval to the dispute manager.
-
-12. Close the task from the playbook.
+10. Close the task from the playbook.
 
     |Dispute activity|Action|
     |----------------|------|
-    |**To close the Review representment task**|Select **Close**.|
+    |**To close the task**|Select **Close task**.|
 
 
 ## Result
 
 The task state moves to the Closed complete state.
 
-The merchant's representment evidence is submitted to their acquiring bank, which then transmits the information to the issuing bank to evaluate.
+If the representment is accepted and the transaction has provisional credit, proceed to [Reverse provisional credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/reverse-provisional-credit.md). If the representment is accepted with no provisional credit, proceed to [Return funds to merchant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/refund-merchant.md).
 
--   If the issuing bank makes determination to uphold the chargeback, the case moves to either the **Provide final credit** or **Convert provisional credit to final credit task**.
--   If the issuing bank makes determination to rescind the chargeback, the case moves to the **Return funds to merchant** task. If provisional credit was previously given to the customer, the case moves to the **Reverse provisional credit** task before moving to the **Return funds to merchant** task.
+If the representment is not accepted, proceed to [Provide final credit to customer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/provide-final-credit-to-customer.md) or [Convert provisional credit to final credit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit.md).
 
 **Parent Topic:**[Initiating a chargeback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiate-a-chargeback.md)
 

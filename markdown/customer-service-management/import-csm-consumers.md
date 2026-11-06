@@ -1,22 +1,22 @@
 ---
-title: Import consumers with guided setup
+title: Import consumers through guided setup
 description: Use Customer Service Management guided setup to import existing consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-csm-consumers.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure consumers, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Import consumers with guided setup
+# Import consumers through guided setup
 
 Use Customer Service Management guided setup to import existing consumers.
 
 ## Before you begin
 
-Role required: admin
+Role required: import\_admin, sn\_crm\_foundation\_admin, and csm\_guided\_setup\_user
 
 ## About this task
 
@@ -24,9 +24,9 @@ Consumers can have multiple addresses, one of which is the primary address.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**
 
-2.  In the Foundation Data category, click **Get Started** and then click **Import Consumers \(B2C\)**.
+2.  In the Foundation Data category, select **Get Started** and then select **Import Consumers \(B2C\)**.
 
 3.  Upload data from an external data source into an import set.
 

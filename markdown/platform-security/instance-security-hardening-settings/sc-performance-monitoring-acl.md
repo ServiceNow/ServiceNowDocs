@@ -1,5 +1,5 @@
 ---
-title: Restrict performance monitoring access \[Updated in Security Center 1.3\]
+title: Restrict performance monitoring access
 description: Use the glide.security.diag\_txns\_acl property to control stats.do, threads.do, thread\_pool\_stats, and replication.do access from an unauthenticated connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-performance-monitoring-acl.html
@@ -7,39 +7,113 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuration, Hardening settings, Platform Security]
 ---
 
-# Restrict performance monitoring access \[Updated in Security Center 1.3\]
+# Restrict performance monitoring access
 
 Use the **glide.security.diag\_txns\_acl** property to control stats.do, threads.do, thread\_pool\_stats, and replication.do access from an unauthenticated connection.
 
-When you set this property to **true**, the **glide.security.diag\_txns\_acl** property only allows access to the following by the administrator account:
+If **glide.security.diag\_txns\_acl** is not set to the recommended value of **true**, then All users \(authenticated or not\) have access to diagnostic pages such as stats.do, xmlstats.do, threads.do and replication.do pages. These endpoints are intended to be used for monitoring instance health.
 
--   https://&lt;instancename&gt;.service-now.com/stats.do
--   https://&lt;instancename&gt;.service-now.com/threads.do
--   https://&lt;instancename&gt;.service-now.com/replication.do
--   https://&lt;instancename&gt;.service-now.com/thread\_pool\_stats.do
-
-Without enabling this setting, it is still possible to access these resources from an unauthenticated connection.
+Ensure the property **glide.security.diag\_txns\_acl** is set to **true**.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.security.diag\_txns\_acl**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)|
-|Purpose|Restrict the access to configuration pages to administrator account only|
-|Recommended value|true|
-|Default value|true|
-|Security risk rating|5.3|
-|Functional Impact|This remediation enforces only administrator account to get access to the application sensitive data for logging and troubleshooting purposes.|
-|Security risk|\(Moderate\) Sensitive data such as server details, threads, and processes executed on the server should never be visible or accessible to the end user without appropriate privileges.|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**glide.security.diag\_txns\_acl**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 5.3
+-   CVSS rating: Medium
+-   Security risk details: Information exposed by performance monitoring endpoints may be useful to attackers.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-configuration.md)
 

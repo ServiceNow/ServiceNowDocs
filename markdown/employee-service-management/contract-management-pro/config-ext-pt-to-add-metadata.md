@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring contract metadata extraction, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure metadata extraction, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure an extension point to add contract metadata
@@ -41,6 +41,12 @@ Role required: admin
 7.  Select **Update**.
 
 
+## Result
+
+The script specifies the related contract repository tables and their field mappings. After metadata extraction, values from these fields are added according to the defined mapping.
+
+For more information on metadata extraction use case mapping, see [Map a use case for contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-usecase-mappings-me.md).
+
 **Parent Topic:**[Configuring contract metadata extraction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-conf-metadata-extraction.md)
 
 **Related topics**  
@@ -54,5 +60,5 @@ Role required: admin
 
 [Enable notification for contract metadata extraction]()
 
-[Configure the workspace URL for contract metadata extraction notifications]()
+[Configure the URL for metadata extraction notifications]()
 

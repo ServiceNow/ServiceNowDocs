@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-activity-stream.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Activity stream
@@ -16,7 +16,7 @@ Learn about how the Workspace Activity stream functions in Configurable Workspac
 
 Activity stream enables agents to communicate with requesters and make internal notes about the work done on a record. Configure the Activity stream and Activity stream Compose components in UI Builder to set up Activity stream in Configurable Workspace.
 
-For more information about the Activity Stream component, see [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades) and select Activity Stream from the list of Next Experience Components.
+For more information about the Activity Stream component, see the [Next Experience Components documentation](https://developer.servicenow.com/dev.do#!/reference/next-experience/components?&query=&order_by=nameAsc&limit=120&offset=0&categories[]=uib_component&categories[]=uib_macroponent-component&categories[]=uib_facades) and select Activity Stream from the list of Next Experience Components.
 
 ## Activity Stream corresponding parameters
 

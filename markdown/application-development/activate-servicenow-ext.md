@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/activate-servicenow-ext.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [ServiceNow Extensions for Visual Studio Code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Activate ServiceNow Extensions for VS Code
@@ -17,6 +17,8 @@ Activate the ServiceNow Extensions for VS Code to be able to edit applications w
 ## Before you begin
 
 Install ServiceNow Extensions for VS Code to activate the extension and begin editing your applications in VS code.
+
+Role required: none.
 
 ## About this task
 

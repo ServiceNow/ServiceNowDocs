@@ -1,5 +1,5 @@
 ---
-title: Revoke a certificate using automated certificate management
+title: Revoke certificates using automated certificate management
 description: Revoke certificate for an application. Revocation doesn't require approval if order Id and certificate Id are present in the Certificate Extension table. If order Id and certificate Id aren't present in the Certificate Extension table, then you need approval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/revoke-cert-automated-flow.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-08-14"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Automated certificate management for TLS certificates, Configure, Certificate Inventory and Management, ITOM Visibility, IT Operations Management]
 ---
 
-# Revoke a certificate using automated certificate management
+# Revoke certificates using automated certificate management
 
 Revoke certificate for an application. Revocation doesn't require approval if **order Id** and **certificate Id** are present in the Certificate Extension table. If **order Id** and **certificate Id** aren't present in the Certificate Extension table, then you need approval.
 
@@ -20,7 +20,7 @@ Revoke certificate for an application. Revocation doesn't require approval if **
 
 [Set up routing policy for automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/setup-routing-policy.md) to ensure the Certificate Management catalog is enabled.
 
-To revoke an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. You don't need to include an endpoint URL. The system will automatically hardcode the revoke URLs for the discovery. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request certificate using automated certificate management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/request-new-cert-automated-flow.md).
+To revoke an existing certificate, make sure the certificate has its extension details populated in the \[sn\_disco\_certmgmt\_certificate\_extension\] table. You don't need to include an endpoint URL. The system will automatically hardcode the revoke URLs for the discovery. Currently, these details populate automatically by the Discovery DigiCert CA Pattern or for any certificates created through the automated flow. However, for Entrust certificates, this only works if you [Request certificates using automated flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/request-new-cert-automated-flow.md).
 
 Role required: pki\_admin or admin
 

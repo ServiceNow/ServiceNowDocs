@@ -1,16 +1,16 @@
 ---
-title: Configure the default estimated time to resolve a case regression definition
+title: Configure the default estimated resolution time
 description: The Estimated Time to Resolve a Case regression definition is available by default. You can modify the default values of case fields, the case timeline, and the training frequency.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ettr\_configure.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure settings for estimated time to resolve values, Estimated time to resolve a case, Machine learning solutions for Customer Service Management, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure settings for estimated time to resolve values, Estimated time to resolve a case, Machine learning solutions, Implement Intelligence, Configure, Customer Service Management]
 ---
 
-# Configure the default estimated time to resolve a case regression definition
+# Configure the default estimated resolution time
 
 The Estimated Time to Resolve a Case regression definition is available by default. You can modify the default values of case fields, the case timeline, and the training frequency.
 

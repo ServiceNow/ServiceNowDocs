@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assigning multi-day tasks to agents, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Assigning multi-day tasks to agents, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Assign multi-day tasks to agents
@@ -40,15 +40,15 @@ This procedure explains how you can assign a multi-day task to an agent using Se
 
 4.  Assign the task.
 
-<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d114582e137">
+<table id="choicetable_jln_msm_dsb"><thead><tr><th align="left" id="d128563e139">
 
 Option
 
-</th><th align="left" id="d114582e140">
+</th><th align="left" id="d128563e142">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d114582e146">
+</th></tr></thead><tbody><tr><td id="d128563e148">
 
 **To assign a task manually**
 
@@ -58,7 +58,7 @@ Description
 2.  Click **Update**.
 
 
-</td></tr><tr><td id="d114582e170">
+</td></tr><tr><td id="d128563e172">
 
 **To auto-assign a task**
 
@@ -76,6 +76,4 @@ Description
 ## Result
 
 The task schedule spanning multiple schedule entries, days, or weeks is assigned to an agent.
-
-**Parent Topic:**[Assigning multi-day tasks to agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/multi-day-task-fsm.md)
 

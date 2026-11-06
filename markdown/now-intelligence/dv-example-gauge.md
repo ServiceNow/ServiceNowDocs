@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-gauge.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Gauge visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Gauge visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Gauge visualization example
@@ -16,7 +16,7 @@ Like dials, gauges show where a single value lies across a range from minimum to
 
 ## Before you begin
 
-Role required: No role is required to see the Platform Analytics workspace. With any internal role, you can create a data visualization, but you need the viz\_creator role to save your visualizations to the Visualization Library. To create a meaningful visualization, you must have the right to access the data you want to report on.
+Role required: No role is required to see the Platform Analytics workspace. With any internal role, you can create a data visualization, but you need the viz\_creator role to save your visualizations to the Visualization Library. To create a meaningful visualization, you must have permission to access the data you want to report on.
 
 ## About this task
 
@@ -24,13 +24,13 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
 ## Procedure
 
-1.  Follow the first steps to [Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md):
+1.  Follow the first steps to [Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md):
 
-    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-    2.  Select **New**.
+    2.  Select **Create data visualization**.
 
-    3.  Select the gauge \(\[Omitted image "icon-dial-gauge-ac.png"\] Alt text: Gauge visualization icon\) visualization type.\[Omitted image "dv-ex-gauge-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a gauge visualization
+    3.  From the Scores section, Select the gauge visualization type.
 
 2.  For the moment, skip the header and border section and move on to the data source.
 
@@ -38,33 +38,31 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     2.  Choose the Incident \[incident\] table.
 
-    3.  Open condition in the Filters section.
+    3.  Because this visualization shows open incidents, let's add the predefined condition Incidents.Open in the Filters section.
 
-        Because this visualization shows open incidents, let's add the Incidents. With this filter selected, the visualization only shows the number of active incidents.
+        With this filter selected, the visualization only shows the number of active incidents.
 
     4.  Select **Run** to preview the records that the visualization will be based on.
 
     5.  Select **Add this source**.
 
-    A gauge data visualization with the current value of the selected data appears in the Visualization Designer.
-
-    \[Omitted image "dv-ex-gauge-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter, and result
+    A gauge data visualization with the current value of the selected data appears in the Visualization Designer.\[Omitted image "dv-ex-gauge-data-source.png"\] Alt text: Untitled gauge visualization showing the Incident table as data source
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
     1.  Expand the Header and border section.
 
-    2.  Select **Show header** and provide the chart title `Open incidents - Gauge`.
+    2.  Select **Show header** and provide the visualization title `Open incidents - Gauge`.
 
-        When **Show header** is selected, you can add a title and a description. The chart title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The chart title appears within the visualization.
+        When **Show header** is selected, you can add a title and a description. The title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The title appears within the visualization.
 
     3.  Enter a description of the visualization: `Number of open incidents of all priorities and categories`.
 
         While the description and title fields aren't required, this information makes the visualization easier to understand on a dashboard and easier to identify in a list.
 
-4.  Under Additional settings, select **Show Zero**.
+4.  Under Additional settings, select **Show 0 when no data available**.
 
-    In some cases, a value of zero isn't interesting to the audience of a visualization. In this case, however, you want to show off having zero open incidents. When you don't select **Show Zero**, you have the option to configure a message to show when there is no data.
+    In some cases, a value of zero isn't interesting to the audience of a visualization. In this case, however, you want to show off having zero open incidents. When you don't select **Show 0 when no data available**, you have the option to configure a message to show when there is no data.
 
 5.  Under Data update, configure how the audience interacts with the visualization.
 
@@ -76,9 +74,9 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers see the associated data in a different way.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
 6.  Under Presentation, configure the shape of the gauge and the size of the gauge value.
 
@@ -90,7 +88,7 @@ Use the gauge visualization when you want to compare a value to a target or benc
         |----------------|----------------|
         |\[Omitted image "dv-ex-gauge-180.png"\] Alt text: 180 degree gauge example|\[Omitted image "dv-ex-gauge-240.png"\] Alt text: 240 degree gauge example|
 
-    2.  Change the score size from the default M \(medium\) to L \(large\) to emphasize it.
+    2.  Change the value label size from the default M \(medium\) to L \(large\) to emphasize it.
 
     3.  Ignore the inner radius parameter for the purposes of this example.
 
@@ -136,12 +134,10 @@ Use the gauge visualization when you want to compare a value to a target or benc
 
     You've created three rules to show whether the single score value is in line with what you want to see.
 
-    \[Omitted image "dv-ex-gauge-label-config.gif"\] Alt text: Animation showing configuration of label options, including limits,and ranges
-
 
 ## Result
 
-You've created a gauge visualization based on a single metric, open incidents. You've also configured user options regarding filters and drill downs, and configured the visualization's size, labeling, and ranges.
+You have created a gauge visualization based on a single metric, open incidents. You have also configured user options regarding filters and drill downs, and configured the visualization's size, labeling, and ranges.
 
-**Parent Topic:**[Create a gauge visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md)
+**Parent Topic:**[Create a gauge data visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-gauge-ac.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career tab in Employee Center, Exploring Skills Foundation, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Career tab in Employee Center, Exploring Skills Foundation, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Selecting a Role specialty
@@ -45,6 +45,6 @@ The skills related your role specialty are displayed under Essential skills sect
 
 **Note:**
 
--   You can't delete a role specialty, only add or change it. If you change the role specialty, the skills in your profile are changed based on the selected role level. If you have a skill that is validated, or if you have updated its proficiency, then that skill is moved to the Additional skills section. If the skills are not validated or if the proficiency is unchanged, then that skill is removed.
--   If you don't see any suggestions for the role specialty, contact your admin to configure the job architecture data by creating a role profile that matches your job family and skills. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/map-employee-job-profile.md).
+-   You can't delete a role specialty, only add or change it. If you change the role specialty, the skills in your profile are changed based on the selected role level. If you have a skill that is validated, or if you have updated its proficiency, then that skill is moved to the Additional skills section. If the skills aren't validated or if the proficiency is unchanged, then that skill is removed.
+-   If you don't see any suggestions for the role specialty, contact your admin. Your admin can configure the job architecture data by creating a role profile that matches your job family and skills. For more information, see [Adding a job profile to the employee](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/map-employee-job-profile.md).
 

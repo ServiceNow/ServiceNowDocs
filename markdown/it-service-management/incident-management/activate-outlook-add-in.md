@@ -1,20 +1,20 @@
 ---
 title: Activate the ServiceNow Add-in for Microsoft Office
-description: You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
+description: You can install the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/incident-management/activate-outlook-add-in.html
 release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configure, Incident Management, IT Service Management]
+breadcrumb: [Configuring Microsoft Outlook to create incidents and VTB tasks, Configuring Incident Management, Incident Management, IT Service Management]
 ---
 
 # Activate the ServiceNow Add-in for Microsoft Office
 
-You can activate the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
+You can install the ServiceNow Add-in for Microsoft Office plugin \(com.sn\_outlook\_addin\) if you have the admin role.
 
 ## Before you begin
 
@@ -41,7 +41,7 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 
 2.  Find the ServiceNow Add-in for Microsoft 365 application \(sn\_outlook\_addin\) using the filter criteria and search bar.
 
-    You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
+    You can search for the application by its name or ID. If you can't find the application, you might have to request it from the ServiceNow Store.
 
     In the list next to the **Install** button, the versions that are available to you are displayed.
 
@@ -53,7 +53,7 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
@@ -63,5 +63,5 @@ For more information, see [Install the ServiceNow Add-in for Microsoft 365](http
 **Related topics**  
 
 
-[List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

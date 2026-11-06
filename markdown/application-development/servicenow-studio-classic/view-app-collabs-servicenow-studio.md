@@ -1,45 +1,47 @@
 ---
 title: View collaborators on an app in ServiceNow Studio
-description: View the collaborators for an app to see who is co-developing the app in ServiceNow Studio.
+description: View the collaborators on an app in ServiceNow Studio to see who has access and what role each person has.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-studio-classic/view-app-collabs-servicenow-studio.html
 release: yokohama
 product: ServiceNow Studio Classic
 classification: servicenow-studio-classic
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Collaborating on apps using ServiceNow Studio, Configuring ServiceNow Studio, Building applications with ServiceNow Studio, Developing your application, Building applications]
+breadcrumb: [Collaborating on apps, Configure, ServiceNow Studio, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
 ---
 
 # View collaborators on an app in ServiceNow Studio
 
-View the collaborators for an app to see who is co-developing the app in ServiceNow Studio.
+View the collaborators on an app in ServiceNow Studio to see who has access and what role each person has.
 
 ## Before you begin
 
 Customers that don't have Collaboration installed will not be able to manage delegated development permissions in ServiceNow Studio. Existing delegated development permissions will still be respected within ServiceNow Studio.
 
-Role required: admin or delegated developer
+Role required: admin or delegated\_developer
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **App Engine** &gt; **ServiceNow Studio**.
 
-2.  Find and select the app that you want to view collaborators for.
+2.  Select the app you want to view collaborators for, then select **App details**.
 
-3.  Access collaboration settings by selecting the collaborators icon \(\[Omitted image "sn-studio-collab-icon.png"\] Alt text: collaborators icon\).
+3.  Access collaboration settings by selecting the more options icon \[Omitted image "sn-studio-more-options-icon.png"\] Alt text: and selecting **Invite**.
 
-    \[Omitted image "sn-studio-collab-select.png"\] Alt text: Collaboration icon near the Publish button
+    \[Omitted image "sn-studio-collab-select-bs1.png"\] Alt text: Invite collaborators to work on your app using the Invite menu.
 
-4.  Review the collaborators' names, groups, and descriptors on the Collaborate with others modal.
+4.  Review the collaborator names, groups, and descriptors on the **Collaborate with others** dialog.
 
-    \[Omitted image "sn-studio-collab-modal.png"\] Alt text: «scView pending and approved collaborators for an app
+    \[Omitted image "sn-studio-collab-modal.png"\] Alt text: View pending and approved collaborators for an app.
+
+    The **Collaborate with others** dialog displays a list of all current collaborators, their groups, and their assigned descriptors.
 
 
 ## Result
 
-You can take additional actions when viewing collaborators. For more information, see the following topics:
+From the collaborators view, you can take additional actions. For more information, see the following topics:
 
 -   [Add collaborators to an app in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/add-collabs-app-servicenow-studio.md)
 -   [Modify or customize collaboration permissions for a user or group in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/modify-collab-descriptor-servicenow-studio.md)

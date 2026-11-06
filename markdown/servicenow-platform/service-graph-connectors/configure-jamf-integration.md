@@ -7,8 +7,8 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: task
-last_updated: "2026-03-12"
-reading_time_minutes: 11
+last_updated: "2026-09-10"
+reading_time_minutes: 12
 breadcrumb: [Jamf, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -18,14 +18,14 @@ Set up authentication credentials and scheduled jobs to import Jamf data into yo
 
 ## Before you begin
 
-**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecated.
+**Important:** Unless there are configuration issues, use the SGC Central view in the Service Graph Workspace or CMDB Workspace to configure the connection for the connector, as the guided setup method is planned for deprecation.
 
 To use this Service Graph Connector, you need a subscription to a Subscription Unit that is based in the IT Operations Management \(ITOM\) Visibility application or in the ITOM Discovery application. As defined in the section titled "Managed IT Resource Types" in [ServiceNow Subscription Unit Overview](https://www.servicenow.com/products/entitlements-packages.html) for your subscription, for managed IT resources that are created or modified in the CMDB by this Service Graph Connector, but that aren’t yet managed by [ITOM Visibility or ITOM Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/itom-license-module.md), these resources will increase Subscription Unit consumption from that application. Review your current Subscription Unit consumption within ITOM Visibility or ITOM Discovery to ensure available capacity.
 
 Dependencies and requirements:
 
 -   The [Integration Commons for CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-integration-commons/integration-commons-for-cmdb.md) store app, which is automatically installed.
--   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   The CMDB CI class models store app, which is automatically installed. See [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
 -   ITOM Licensing plugin \(com.snc.itom.license\). An unlicensed plugin that contains computation logic for SU consumption as necessary. For more information, see [Request Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/t_ActivateTheDiscoveryPlugin.md).
 -   Jamf Classic API version 10.x.
 
@@ -35,6 +35,8 @@ When using client credentials for authentication, obtain the OAuth credentials f
 -   Client Secret
 
 If using Client Credentials authentication in Jamf Pro, you need to utilize the API Roles and Clients functionality. For more details, refer to the [API Roles and Clients](https://learn.jamf.com/en-US/bundle/jamf-pro-documentation-current/page/API_Roles_and_Clients.html) section in the Jamf documentation. When creating a new API client in the Jamf environment, the **Access token lifetime** field on the form for creating a client enables setting how long the token remains valid. The default is `60` seconds, but due to ServiceNow AI Platform limitations, the value must be set to more than `60` seconds. Setting the token lifetime to `3600` seconds \(1 hour\) helps prevent potential issues.
+
+For more information on how to configure an OAuth token, see the [How to configure OAuth token fetching via Mid Server](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1645211) KB article.
 
 Role required: SGC-Admin \(sn\_cmdb\_int\_util.sgc\_admin\) or admin
 

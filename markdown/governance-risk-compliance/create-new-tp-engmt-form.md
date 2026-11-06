@@ -1,18 +1,18 @@
 ---
-title: Create New Third-party engagement form
-description: On the Create New Third-party engagement form, fill in the fields.
+title: Create Third party engagement form
+description: On the Create Third-party engagement form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-tp-engmt-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create a third-party engagement and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+breadcrumb: [Create a third-party engagement for digital resilience, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Third-party engagement form
+# Create Third party engagement form
 
-On the Create New Third-party engagement form, fill in the fields.
+On the Create Third-party engagement form, fill in the fields.
 
 <table id="table_jfh_cl4_ycc"><thead><tr><th>
 
@@ -36,7 +36,7 @@ Third party
 
 </td><td>
 
-The third party for whom you are creating this engagement record.
+Third-party for whom you're creating this engagement record.
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ End date
 
 </td><td>
 
-Preferred dates for the beginning and end of interactions with the third party.
+Preferred dates for the beginning and end of interactions with the third-party.
 
 </td></tr><tr><td>
 
@@ -91,7 +91,7 @@ Engagement tier
 
 </td><td>
 
-The tier used for this engagement. See [VRM third-party risk tiering assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/manage-risk-tiering-assessments.md) for details of how the tier is determined.
+Tier used for this engagement.
 
 </td></tr><tr><td>
 
@@ -107,7 +107,7 @@ Engagement manager
 
 </td><td>
 
-Specify the person who will monitor, prioritize, and act on responses to external questionnaires, issues, and tasks. Click the lock to lock/unlock the field.
+Specify the person who will monitor, prioritize, and act on responses to external questionnaires, issues, and tasks. Select the lock to lock/unlock the field.
 
 </td></tr><tr><td>
 
@@ -157,7 +157,7 @@ Computed risk rating
 
 Calculated **Computed risk rating**. This field is auto-filled.
 
- The value is overall risk rating for the third party, calculated after the assessment by rolling up all of the TPR assessors' risk ratings.
+ The value is overall risk rating for the third-party, calculated after the assessment by rolling up all of the TPR assessors' risk ratings.
 
 </td></tr><tr><td>
 
@@ -243,7 +243,7 @@ Engagement contacts
 
 </td><td>
 
-Engagement contacts for the third party engagement.
+Engagement contacts for the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -251,7 +251,7 @@ Business services
 
 </td><td>
 
-Business services related to the third party engagement.
+Business services related to the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -259,7 +259,7 @@ Tiering assessments
 
 </td><td>
 
-Tiering assessments for the third party engagement.
+Tiering assessments for the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -267,7 +267,7 @@ Repeating assessments
 
 </td><td>
 
-Repeating assessments for the third party engagement.
+Repeating assessments for the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -275,7 +275,7 @@ Assessments
 
 </td><td>
 
-Assessments for the third party engagement.
+Assessments for the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -283,7 +283,7 @@ Third-party risk areas
 
 </td><td>
 
-Risk areas related to the third party engagement.
+Risk areas related to the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -291,7 +291,7 @@ Issues
 
 </td><td>
 
-Issues related to the third party engagement.
+Issues related to the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -299,7 +299,7 @@ Tasks
 
 </td><td>
 
-Tasks related to the third party engagement.
+Tasks related to the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -307,7 +307,7 @@ Entity types
 
 </td><td>
 
-Entity types related to the third party engagement.
+Entity types related to the third-party engagement.
 
 </td></tr><tr><td>
 
@@ -315,12 +315,12 @@ Digital resilience information
 
 </td><td>
 
-Digital resilience information for the third party engagement. You can add the following parameters:-   Name
+Digital resilience information for the third-party engagement. You can add the following parameters:-   Name
 -   Third party
 -   Identification code of ICT third-party service provider
 -   Type of code to identify the ICT third-party service provider
 -   Name of the ICT third-party service provider
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Create a third-party engagement and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
+</table>**Parent Topic:**[Create a third-party engagement for digital resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-drtp-reg-tp-engagement.md)
 

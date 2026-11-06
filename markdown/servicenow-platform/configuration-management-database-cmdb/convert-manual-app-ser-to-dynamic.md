@@ -1,5 +1,5 @@
 ---
-title: Convert legacy manual services into dynamic application services
+title: Convert legacy manual services to dynamic application services
 description: Unify the way that you manage services in your organization by converting legacy manual services into dynamic application services. Conversion lets you streamline the different types of services in your organization, leverage ITOM capabilities, and align with the Common Service Data Model \(CSDM\).
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/convert-manual-app-ser-to-dynamic.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-02-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Application services, Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service instances \(Application services\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Convert legacy manual services into dynamic application services
+# Convert legacy manual services to dynamic application services
 
 Unify the way that you manage services in your organization by converting legacy manual services into dynamic application services. Conversion lets you streamline the different types of services in your organization, leverage ITOM capabilities, and align with the Common Service Data Model \(CSDM\).
 

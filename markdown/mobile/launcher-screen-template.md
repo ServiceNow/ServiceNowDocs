@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/launcher-screen-template.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ The launcher screen configuration page contains all the sections that make up a 
 
 3.  Create a launcher screen by using one of the following methods.
 
-<table id="choicetable_e2v_z3s_s1c"><thead><tr><th align="left" id="d77888e92">
+<table id="choicetable_e2v_z3s_s1c"><thead><tr><th align="left" id="d83681e92">
 
 Method
 
-</th><th align="left" id="d77888e95">
+</th><th align="left" id="d83681e95">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d77888e101">
+</th></tr></thead><tbody><tr><td id="d83681e101">
 
 **Using the Screens menu option**
 
@@ -52,7 +52,7 @@ Procedure
 2.  Select the Launcher screen type, and then select **Continue**.
 
 
-</td></tr><tr><td id="d77888e128">
+</td></tr><tr><td id="d83681e128">
 
 **Using the All mobile records menu option**
 

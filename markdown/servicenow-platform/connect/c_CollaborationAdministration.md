@@ -7,7 +7,7 @@ release: yokohama
 product: Connect
 classification: connect
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Connect Chat, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -64,15 +64,15 @@ To create record conversations, users must have access to the **Follow** button 
 
 2.  Perform the appropriate action for the list version.
 
-<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d554159e273">
+<table id="choicetable_g3c_qhc_mv"><thead><tr><th align="left" id="d562544e267">
 
 Version
 
-</th><th align="left" id="d554159e276">
+</th><th align="left" id="d562544e270">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d554159e282">
+</th></tr></thead><tbody><tr><td id="d562544e276">
 
 **List v3**
 
@@ -82,7 +82,7 @@ Action
 2.  In the Configure window, click **Dictionary**.
 
 
-</td></tr><tr><td id="d554159e306">
+</td></tr><tr><td id="d562544e300">
 
 **List v2**
 

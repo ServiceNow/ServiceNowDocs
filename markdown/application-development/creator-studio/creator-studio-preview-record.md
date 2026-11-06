@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Testing and previewing Creator Studio apps and records, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Testing and previewing apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Preview how an app's records appear

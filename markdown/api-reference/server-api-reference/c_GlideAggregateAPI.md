@@ -1,14 +1,14 @@
 ---
 title: GlideAggregate - Global
-description: The GlideAggregate API enables creating database aggregation queries.Adds an aggregate to a database query.Adds trending by a business calendar to the aggregate query. This method allows you to pick a date and time field in the corresponding GlideRecord and group records based on a specified business calendar time span.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5. This implementation of the method enables you to specify a specific field within a table or a dynamic attribute to act upon.Adds a trend for a field. Use a trend to show patterns over a period of time.Gets the value of an aggregate from the current record.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Retrieves the query necessary to return the current aggregate.Retrieves the number of rows in the GlideAggregate object.Returns the number of records by summing an aggregate.Returns the value of a field or a dynamic attribute.Provides the name of a field, or an attribute within a dynamic attribute store, to use when grouping the aggregates.Orders the aggregates using the value of the specified field, dynamic attribute path, or glidefunction. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field or dynamic attribute.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Sets whether to group the results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
+description: The GlideAggregate API enables creating database aggregation queries.Adds an aggregate to a database query.Adds trending by a business calendar to the aggregate query. This method allows you to pick a date and time field in the corresponding GlideRecord and group records based on a specified business calendar time span.Adds an encoded query to the other queries that may have been set for this aggregate.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5.Adds a "having" element to the aggregate, such as select category, count\(\*\) from incident group by category HAVING count\(\*\) &gt; 5. This implementation of the method enables you to specify a specific field within a table or a dynamic attribute to act upon.Adds a trend for a field. Use a trend to show patterns over a period of time.Gets the value of an aggregate from the current record.Returns the value of the dynamic attribute located at a specified path.Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.Returns the display value of the dynamic attribute located at the specified path.Returns the display value of the dynamic attribute located in a specified table field and attribute path.Retrieves the query necessary to return the current aggregate.Retrieves the number of rows in the GlideAggregate object.Returns the number of records by summing an aggregate.Returns the value of a field or a dynamic attribute.Provides the name of a field, or an attribute within a dynamic attribute store, to use when grouping the aggregates.Orders the aggregates using the value of the specified field, dynamic attribute path, or glidefunction. The field is also added to the group-by list.Orders the aggregates based on the specified aggregate and field or dynamic attribute.Issues the query and gets the results.Limits the number of rows from the table to include in the aggregate query.Activates or deactivates the running of business rules for aggregate queries.Sets the query category, which determines how the query is routed to a secondary database.Sets whether to group the results.Sets whether to group results by year for day-of-week trends. These trends are created using the addTrend\(\) method with the dayofweek time interval.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideAggregateAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 28
+last_updated: "2026-09-10"
+reading_time_minutes: 29
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -22,7 +22,7 @@ When you use GlideAggregate methods on currency or price fields, you are working
 
 To use this API to create dynamic attributes you must have the dynamic\_schema\_writer role. To read dynamic data using this API you must have the dynamic\_schema\_reader role.
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 **Note:** When using an on-premise system, the database server time zone must be set to GMT/UTC for this class to work properly.
 
@@ -75,19 +75,17 @@ String
 
 </td><td>
 
-Optional for field name. Name of the field, or path to an attribute within a dynamic attribute store, to group the results of the aggregation by.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Optional for field name. Name of the field, or path to an attribute within a dynamic attribute store, to group the results of the aggregation by.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 Default: Null
 
@@ -196,28 +194,28 @@ The following example shows how to call this method using an attribute in a dyna
 
 ```
 var ga_Inc = new GlideAggregate('incident');
-ga_Inc.groupBy('inc_dynamic_schema->cars->make');
-ga_Inc.addAggregate('AVG', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('MIN', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('MAX', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('SUM', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('COUNT', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('STDDEV', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cars->cost');
+ga_Inc.groupBy('inc_dynamic_schema->make');
+ga_Inc.addAggregate('AVG', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('MIN', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('MAX', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('SUM', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('COUNT', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('STDDEV', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cost');
 ga_Inc.query();
 while (ga_Inc.next()) {
-    gs.info(gr_Inc.getValue('inc_dynamic_schema->cars->make'));
-    gs.info('AVG: ' + ga_Inc.getAggregate('AVG', 'inc_dynamic_schema->cars->cost'));
-    gs.info('MAX: ' + ga_Inc.getAggregate('MAX', 'inc_dynamic_schema->cars->cost'));
-    gs.info('MIN: ' + ga_Inc.getAggregate('MIN', 'inc_dynamic_schema->cars->cost'));
-    gs.info('SUM: ' + ga_Inc.getAggregate('SUM', 'inc_dynamic_schema->cars->cost'));
-    gs.info('COUNT: ' + ga_Inc.getAggregate('COUNT', 'inc_dynamic_schema->cars->cost'));
-    gs.info('STDDEV: ' + ga_Inc.getAggregate('STDDEV', 'inc_dynamic_schema->cars->cost'));
-    gs.info('GROUP_CONCAT: ' + ga_Inc.getAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cars->cost'));
-    gs.info('GROUP_CONCAT_DISTINCT: ' + ga_Inc.getAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cars->cost'));
-    gs.info('COUNT(DISTINCT: ' + ga_Inc.getAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cars->cost'));
+    gs.info(gr_Inc.getValue('inc_dynamic_schema->make'));
+    gs.info('AVG: ' + ga_Inc.getAggregate('AVG', 'inc_dynamic_schema->cost'));
+    gs.info('MAX: ' + ga_Inc.getAggregate('MAX', 'inc_dynamic_schema->cost'));
+    gs.info('MIN: ' + ga_Inc.getAggregate('MIN', 'inc_dynamic_schema->cost'));
+    gs.info('SUM: ' + ga_Inc.getAggregate('SUM', 'inc_dynamic_schema->cost'));
+    gs.info('COUNT: ' + ga_Inc.getAggregate('COUNT', 'inc_dynamic_schema->cost'));
+    gs.info('STDDEV: ' + ga_Inc.getAggregate('STDDEV', 'inc_dynamic_schema->cost'));
+    gs.info('GROUP_CONCAT: ' + ga_Inc.getAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cost'));
+    gs.info('GROUP_CONCAT_DISTINCT: ' + ga_Inc.getAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cost'));
+    gs.info('COUNT(DISTINCT: ' + ga_Inc.getAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cost'));
     gs.info(' ');
 }
 ```
@@ -465,19 +463,17 @@ String
 
 </td><td>
 
-Field name or path to an attribute within a dynamic attribute store.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Field name or path to an attribute within a dynamic attribute store.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr><tr><td>
 
@@ -553,7 +549,7 @@ function getDupes(tableName, dpField) {
 }
  
 var tableName = "cmdb";
-var dpField = "dyn_att_field->group->attr";
+var dpField = "dyn_att_field->attr";
  
 gs.print(getDupes(tableName, dpField));
 ```
@@ -704,19 +700,17 @@ String
 
 </td><td>
 
-Name of the field, or path to an attribute within a dynamic schema, to get the aggregate from.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Name of the field, or path to an attribute within a dynamic schema, to get the aggregate from.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_vdy_sdk_ws" class="returns"><thead><tr><th>
@@ -787,28 +781,28 @@ The following example shows how to call this method using an attribute in a dyna
 
 ```
 var ga_Inc = new GlideAggregate('incident');
-ga_Inc.groupBy('inc_dynamic_schema->cars->make');
-ga_Inc.addAggregate('AVG', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('MIN', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('MAX', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('SUM', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('COUNT', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('STDDEV', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cars->cost');
-ga_Inc.addAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cars->cost');
+ga_Inc.groupBy('inc_dynamic_schema->make');
+ga_Inc.addAggregate('AVG', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('MIN', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('MAX', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('SUM', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('COUNT', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('STDDEV', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cost');
+ga_Inc.addAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cost');
 ga_Inc.query();
 while (ga_Inc.next()) {
-    gs.info(gr_Inc.getValue('inc_dynamic_schema->cars->make'));
-    gs.info('AVG: ' + ga_Inc.getAggregate('AVG', 'inc_dynamic_schema->cars->cost'));
-    gs.info('MAX: ' + ga_Inc.getAggregate('MAX', 'inc_dynamic_schema->cars->cost'));
-    gs.info('MIN: ' + ga_Inc.getAggregate('MIN', 'inc_dynamic_schema->cars->cost'));
-    gs.info('SUM: ' + ga_Inc.getAggregate('SUM', 'inc_dynamic_schema->cars->cost'));
-    gs.info('COUNT: ' + ga_Inc.getAggregate('COUNT', 'inc_dynamic_schema->cars->cost'));
-    gs.info('STDDEV: ' + ga_Inc.getAggregate('STDDEV', 'inc_dynamic_schema->cars->cost'));
-    gs.info('GROUP_CONCAT: ' + ga_Inc.getAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cars->cost'));
-    gs.info('GROUP_CONCAT_DISTINCT: ' + ga_Inc.getAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cars->cost'));
-    gs.info('COUNT(DISTINCT: ' + ga_Inc.getAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cars->cost'));
+    gs.info(gr_Inc.getValue('inc_dynamic_schema->make'));
+    gs.info('AVG: ' + ga_Inc.getAggregate('AVG', 'inc_dynamic_schema->cost'));
+    gs.info('MAX: ' + ga_Inc.getAggregate('MAX', 'inc_dynamic_schema->cost'));
+    gs.info('MIN: ' + ga_Inc.getAggregate('MIN', 'inc_dynamic_schema->cost'));
+    gs.info('SUM: ' + ga_Inc.getAggregate('SUM', 'inc_dynamic_schema->cost'));
+    gs.info('COUNT: ' + ga_Inc.getAggregate('COUNT', 'inc_dynamic_schema->cost'));
+    gs.info('STDDEV: ' + ga_Inc.getAggregate('STDDEV', 'inc_dynamic_schema->cost'));
+    gs.info('GROUP_CONCAT: ' + ga_Inc.getAggregate('GROUP_CONCAT', 'inc_dynamic_schema->cost'));
+    gs.info('GROUP_CONCAT_DISTINCT: ' + ga_Inc.getAggregate('GROUP_CONCAT_DISTINCT', 'inc_dynamic_schema->cost'));
+    gs.info('COUNT(DISTINCT: ' + ga_Inc.getAggregate('COUNT(DISTINCT', 'inc_dynamic_schema->cost'));
     gs.info(' ');
 }
 ```
@@ -914,17 +908,15 @@ String
 
 </td><td>
 
-Path to use to locate the desired dynamic attribute. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the desired dynamic attribute. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_ph3_x1x_1bc" class="returns"><thead><tr><th>
@@ -948,14 +940,14 @@ Value of the dynamic attribute located at the specified path.If the **fullPath**
 
 ```
 var ga_Tab = new GlideAggregate('u_mytable');
-ga_Tab.groupBy('u_dyn_attr_store->paint->color');
-ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->paint->number');
+ga_Tab.groupBy('u_dyn_attr_store->color');
+ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->number');
 ga_Tab.query();
 
 while(ga_Tab.next()) {
     gs.info(
-        "color: " + ga_Tab.getDynamicAttributeValue('u_dyn_attr_store->paint->color')
-        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->paint->number'));
+        "color: " + ga_Tab.getDynamicAttributeValue('u_dyn_attr_store->color')
+        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->number'));
 }
 ```
 
@@ -967,7 +959,7 @@ Output:
 *** Script: color: yellow  avg: 7.0000
 ```
 
-## GlideAggregate - getDynamicAttributeValue\(String dynamicAttributeField, String groupAttrPath\)
+## GlideAggregate - getDynamicAttributeValue\(String dynamicAttributeField, String attrPath\)
 
 Returns the value of the dynamic attribute located at a specified field in the current table and a specified attribute path.
 
@@ -997,7 +989,7 @@ Name of the field in the table that contains the dynamic attribute.
 
 </td></tr><tr><td>
 
-groupAttrPath
+attrPath
 
 </td><td>
 
@@ -1005,18 +997,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr></tbody>
 </table><table id="table_o1f_fbx_1bc" class="returns"><thead><tr><th>
@@ -1033,21 +1018,21 @@ Object
 
 </td><td>
 
-Value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **groupAttrPath** parameters are invalid, returns null.
+Value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **attrPath** parameters are invalid, returns null.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
 
 ```
 var ga_Tab = new GlideAggregate('u_mytable');
-ga_Tab.groupBy('u_dyn_attr_store->paint->color');
-ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->paint->number');
+ga_Tab.groupBy('u_dyn_attr_store->color');
+ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->number');
 ga_Tab.query();
 
 while(ga_Tab.next()) {
     gs.info(
-        "color: " + ga_Tab.getDynamicAttributeValue('u_dyn_attr_store', 'paint->color')
-        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->paint->number'));
+        "color: " + ga_Tab.getDynamicAttributeValue('u_dyn_attr_store', 'color')
+        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->number'));
 }
 ```
 
@@ -1085,17 +1070,15 @@ String
 
 </td><td>
 
-Path to use to locate the desired dynamic attribute. Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Path to use to locate the desired dynamic attribute. Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table><table id="table_oht_nbx_1bc" class="returns"><thead><tr><th>
@@ -1119,14 +1102,14 @@ Display value of the dynamic attribute located at the specified path.If the **fu
 
 ```
 var ga_Tab = new GlideAggregate('u_mytable');
-ga_Tab.groupBy('u_dyn_attr_store->paint->color');
-ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->paint->number');
+ga_Tab.groupBy('u_dyn_attr_store->color');
+ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->number');
 ga_Tab.query();
 
 while(ga_Tab.next()) {
     gs.info(
-        "color: " + ga_Tab.getDynamicAttributeDisplayValue('u_dyn_attr_store->paint->color')
-        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->paint->number'));
+        "color: " + ga_Tab.getDynamicAttributeDisplayValue('u_dyn_attr_store->color')
+        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->number'));
 }
 ```
 
@@ -1138,7 +1121,7 @@ Output:
 *** Script: color: yellow  avg: 7.0000
 ```
 
-## GlideAggregate - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String groupAttrPath\)
+## GlideAggregate - getDynamicAttributeDisplayValue\(String dynamicAttributeField, String attrPath\)
 
 Returns the display value of the dynamic attribute located in a specified table field and attribute path.
 
@@ -1168,7 +1151,7 @@ Name of the field in the table that contains the dynamic attribute.
 
 </td></tr><tr><td>
 
-groupAttrPath
+attrPath
 
 </td><td>
 
@@ -1176,18 +1159,11 @@ String
 
 </td><td>
 
-Attribute path to use to locate the associated dynamic schema attribute.Format: `"group_name->attr_name"`
+Attribute path to use to locate the associated dynamic schema attribute.Format: `"attr_name"`
 
--   `group_name`: Name of the group that the attribute is associated with.
+`attr_name`: Name of the dynamic attribute.
 
-Table: In the Name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table or the Group field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
--   `attr_name`: Name of the dynamic attribute within the dynamic group.
-
-Table: In the Name field of the Dynamic Attribute \[dynamic\_attribute\] table.
-
-
-For example: `"car->color"`
+Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
 
 </td></tr></tbody>
 </table><table id="table_wm3_wbx_1bc" class="returns"><thead><tr><th>
@@ -1204,21 +1180,21 @@ String
 
 </td><td>
 
-Display value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **groupAttrPath** parameters are invalid, returns null.
+Display value of the dynamic attribute located at the specified path.If either the **dynamicAttributeField** or **attrPath** parameters are invalid, returns null.
 
 </td></tr></tbody>
 </table>The following code example shows how to call this method.
 
 ```
 var ga_Tab = new GlideAggregate('u_mytable');
-ga_Tab.groupBy('u_dyn_attr_store->paint->color');
-ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->paint->number');
+ga_Tab.groupBy('u_dyn_attr_store->color');
+ga_Tab.addAggregate('AVG', 'u_dyn_attr_store->number');
 ga_Tab.query();
 
 while(ga_Tab.next()) {
     gs.info(
-        "color: " + ga_Tab.getDynamicAttributeDisplayValue('u_dyn_attr_store', 'paint->color')
-        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->paint->number'));
+        "color: " + ga_Tab.getDynamicAttributeDisplayValue('u_dyn_attr_store', 'color')
+        + "  avg: " + ga_Tab.getAggregate('AVG', 'u_dyn_attr_store->number'));
 }
 ```
 
@@ -1418,17 +1394,15 @@ String
 
 </td><td>
 
-Field name or path to an attribute within a dynamic attribute store.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Field name or path to an attribute within a dynamic attribute store.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1489,19 +1463,17 @@ String
 
 </td><td>
 
-Field name or path to an attribute within a dynamic attribute store.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Field name or path to an attribute within a dynamic attribute store.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1530,9 +1502,9 @@ The following example shows how to call this method using an attribute in a dyna
 
 ```
 var ga_AppTab = new GlideAggregate('application_table');
-ga_AppTab.addGroupBy('dyn_att_field->group->attr');
-ga_AppTab.addAggregate('AVG', 'dyn_att_field->group->attr1');
-ga_AppTab.addHaving('SUM', 'dyn_att_field->group->attr2', '>=', 420);
+ga_AppTab.addGroupBy('dyn_att_field->attr');
+ga_AppTab.addAggregate('AVG', 'dyn_att_field->attr1');
+ga_AppTab.addHaving('SUM', 'dyn_att_field->attr2', '>=', 420);
 ga.query();
 ```
 
@@ -1566,19 +1538,17 @@ String
 
 </td><td>
 
-Field name, path to an attribute within a dynamic attribute store, or glidefunction to use to order the aggregates.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Field name, path to an attribute within a dynamic attribute store, or glidefunction to use to order the aggregates.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 glidefunction format: `glidefunction:length(short_description)`. For more information about glidefunctions, see [glidefunction operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/platform-support-functions.md).
 
@@ -1666,19 +1636,17 @@ String
 
 </td><td>
 
-Name of the field or path to an attribute within a dynamic attribute store to aggregate.Format of the dynamic path: `dyn_att_field->group_name->attribute_name`
+Name of the field or path to an attribute within a dynamic attribute store to aggregate.Format of the attribute path: `dyn_att_field->attr_name`
 
 -   `dyn_att_field`: Name of a dynamic attribute store field on the table.
--   `group_name`: Name of the group that the attribute is associated with.
-
-Table: In the group\_name field of the Dynamic Attribute Group \[dynamic\_attribute\_group\] table.
-
 -   `attr_name`: Name of the dynamic attribute.
 
-Table: In the attribute field of the Dynamic Attribute \[dynamic\_attribute\] table.
+Table: Dynamic Attribute \[dynamic\_attribute\]
 
 
-For more information on dynamic attributes, see [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
+
+See also [Dynamic Schema](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/dynamic-schema.md).
 
 </td></tr></tbody>
 </table>|Type|Description|
@@ -1799,6 +1767,115 @@ software count: 1
 ### Scoped equivalent
 
 To use the setAggregateWindow\(\) method in a scoped application, use the corresponding scoped method: [setAggregateWindow\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
+
+## GlideAggregate - setAggregateWorkflow\(Boolean workflow\)
+
+Activates or deactivates the running of business rules for aggregate queries.
+
+The session-level workflow setting \(`gs.getSession().setWorkflow()`\) overrides this method. When you deactivate the session workflow, query business rules do not run regardless of this method's setting.
+
+**Warning:** Disabling the running of business rules, script engines, and audit can have a significant impact on your ServiceNow® instance and how it operates. Ensure that you thoroughly test this change before deploying it to production.
+
+<table id="table_vy2_525_jq" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+workflow
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether business rules are active for the current GlideAggregate query.Valid values:
+
+-   `true`: Activates business rules for the current query.
+-   `false`: Deactivates business rules for the current query.
+
+Default: `false`
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+The following example shows how to activate business rules for an aggregate query.
+
+```
+var incidentGA = new GlideAggregate('incident');
+incidentGA.setAggregateWorkflow(true); // activate business rules for this aggregate
+incidentGA.addAggregate('COUNT', 'sys_mod_count');
+incidentGA.query();
+```
+
+The output includes business rule execution logs if the glide.businessrule.callstack property is in the System Properties \[sys\_properties\] table and set to `true`. Set this property to `false` when not needed to avoid performance impact.
+
+```
+BUSINESS RULE - About to execute business rule 'incident query' on incident:<span class = "session-log-bold-text"> </span>
+BUSINESS RULE - Finished executing business rule 'incident query' on incident:<span class = "session-log-bold-text"> </span>
+```
+
+## GlideAggregate - setCategory\(String category\)
+
+Sets the query category, which determines how the query is routed to a secondary database.
+
+This method requires the Secondary Database Pools \[com.glide.secondary\_db\_pools\] plugin. Call this method to route queries to a secondary \(read replica\) database based on the specified category, reducing load on the primary database. Due to replication lag, execution of a query on a read replica database may return slightly out of date results compared to executing the same query on the primary database.
+
+Modifications to data are always serviced by the primary database, even if setCategory\(\) is used in the query. For example, a call to GlideRecord.update\(\) is always directed to the primary database even if the GlideRecord object has been provided with the name of a secondary database category via setCategory\(\).
+
+For more information, see [KB0824441 Introduction to ServiceNow Read Replica Databases](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0824441).
+
+<table id="table_bns_y1r_cjc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+category
+
+</td><td>
+
+String
+
+</td><td>
+
+Name of the category to use to route the query to a secondary database.Table: Secondary Database Categories \[sys\_db\_category\]
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example uses the `embedded_list` category to route the query to a secondary database.
+
+```
+var ga = new GlideAggregate('task');
+ga.setCategory('embedded_list');
+ga.query();
+```
+
+### Scoped equivalent
+
+To use the setCategory\(\) method in a scoped application, use the corresponding scoped method: [setCategory\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideAggregateScopedAPI.md).
 
 ## GlideAggregate - setGroup\(Boolean b\)
 

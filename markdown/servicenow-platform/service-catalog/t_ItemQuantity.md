@@ -7,9 +7,9 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Catalog customization, Types of catalog items, Exploring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Service Catalog customization, Types of catalog items, Explore, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Define item quantity choices
@@ -20,10 +20,6 @@ In the Service Catalog, the default quantity choices are 1–10. You can configu
 
 Role required: admin
 
-## About this task
-
-\[Omitted image "SC\_DefineItemQuant-1.png"\] Alt text: Service catalog quantity choice selection
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Choice Lists**.
@@ -33,8 +29,6 @@ Role required: admin
     The existing quantity choices appear.
 
 3.  Add quantity choices, modeling them after the existing ones.
-
-    \[Omitted image "SC\_DefineItemQuant-2.png"\] Alt text: Quantity element values
 
     To reduce the quantities available for catalog items, delete the relevant quantity records. For example, to reduce the quantity range to 1-3, delete the records for 4 and 5.
 

@@ -7,10 +7,10 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 keywords: [Forecast method used, Forecasting method used, Selecting the forecast method, Forecasting and targets, Forecasting with time series]
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Performance Analytics scores forecasts
@@ -21,7 +21,7 @@ Forecasting is set up in the **Forecasting** tab of the indicator record. The nu
 
 **Note:** In time series data visualizations on a configurable workspace, you can override the forecast configuration that is set on the indicator. This override applies only to that data visualization.
 
-Also in time series data visualizations, you are not limited to forecasts on Performance Analytics indicators. If you have a subscription version of Performance Analytics, you can generate forecasts for any data source except tables. For more information, see [Create time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
+Also in time series data visualizations, you are not limited to forecasts on Performance Analytics indicators. If you have a subscription version of Performance Analytics, you can generate forecasts for any data source except tables. For more information, see [Create time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md).
 
 **Related topics**  
 
@@ -38,7 +38,7 @@ Role required: pa\_power\_user, pa\_admin, admin
 
 ### Procedure
 
-1.  Navigate to **Performance Analytics** &gt; **Indicators** &gt; **Automated indicators**.
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Automated indicators**.
 
 2.  Open the automated indicator that you want to configure forecasts for.
 
@@ -89,7 +89,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 </td></tr></tbody>
 </table>5.  Select which scores to base the forecast on.
 
-<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d204963e306">
+<table id="choicetable_jhq_bkr_5xb"><tbody><tr><td id="d238055e308">
 
 **All scores**
 
@@ -97,7 +97,7 @@ The highest meaningful value of a forecast score. If a score higher than this va
 
 All the scores that have been collected for this indicator
 
-</td></tr><tr><td id="d204963e315">
+</td></tr><tr><td id="d238055e317">
 
 **Previous periods**
 
@@ -105,7 +105,7 @@ All the scores that have been collected for this indicator
 
 The number of data periods before the present to base forecasts on. These data periods are the same length as the ones in **Periods to forecast**.If you select Previous periods, also specify the number of periods in the **Periods** field.
 
-</td></tr><tr><td id="d204963e332">
+</td></tr><tr><td id="d238055e334">
 
 **Fixed start**
 
@@ -265,7 +265,7 @@ To show the forecast for an indicator on KPI Details, turn forecasting on in the
 
 [Analytics Hub for a specific indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/view-scorecard.md)
 
-[Indicator data options for time series visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md)
+[Indicator data options for time series data visualizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/config-dv-time-series-ind-data.md)
 
 [Examining indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details-components.md)
 

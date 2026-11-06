@@ -7,9 +7,9 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 4
-breadcrumb: [Explore, Regulatory Change Management, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Regulatory process flow and tasks, Explore, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
 
 # Source document import tasks
@@ -26,7 +26,7 @@ Compliance team members evaluate the citation associated with the alert and dete
 
 You can associate multiple source document import tasks with a single regulatory alert. This configuration simplifies management and improves tracking of regulatory content ingestion processes. Each task adds relevant documents to the regulatory library for comprehensive capture and organization. Grouping tasks under one alert enhances traceability throughout the regulatory change management process.
 
-## New workflow of a source document import task
+## Workflow of a source document import task
 
 Upgrade the following applications to get the new workflow:
 
@@ -41,26 +41,5 @@ Starting with version 19.0.x, a source document task progresses through the foll
 -   Awaiting Approval- All implementation activities are complete, and the task is pending review and approval from the appropriate stakeholders or compliance team.
 -   Closed- The task has been reviewed, approved, and all required actions are completed. No further work is needed.
 
-**Parent Topic:**[Exploring Regulatory Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/what-is-rcm.md)
-
-**Related topics**  
-
-
-[Regulatory Change Management application landing page]()
-
-[Tasks page in the Compliance Workspace]()
-
-[Regulatory process flow and tasks]()
-
-[RSS feeds overview]()
-
-[Impact assessments for the regulatory alerts]()
-
-[Regulatory assessment for a regulatory alert]()
-
-[Next Experience Discuss and Chat Collaboration]()
-
-[Regulatory Change Management application in the Compliance Workspace]()
-
-[Exploring Now Assist in Regulatory Change Management \(RCM\)]()
+**Parent Topic:**[Regulatory process flow and tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/regulatory-change-management-service-portal/reg-change-workflow-swimlane.md)
 

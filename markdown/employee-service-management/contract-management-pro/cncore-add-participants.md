@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Create contract template by manually adding content controls, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create and configure participants
@@ -39,6 +39,8 @@ Role required: sn\_cm\_core.contract\_config
     For description on the field values, see [Participant form for contract templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-participants-form.md).
 
     For more information on content controls, see [Add content controls in a Microsoft Word document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-word-doc-tmplt-contls.md).
+
+    \[Omitted image "cmpro-participant-new.png"\] Alt text: Configure participants to the contract template
 
 5.  Click **Submit**.
 

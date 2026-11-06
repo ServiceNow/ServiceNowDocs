@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-emails-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Opportunity Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Compose emails
@@ -20,9 +20,11 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to **List** view \[Omitted image "Lists.png"\]and select **Opportunity - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text:and select **Opportunity - All**.
 
 2.  From the **Opportunity List** window, select the opportunity you want to work with and select the **Emails** tab.
+
+    **Note:** The **Meetings** tab displays both meetings linked directly to the opportunity and meetings linked to the opportunity's touchpoints.
 
 3.  Select **Compose Email** button from the top right corner to start a new email or select an existing email to make changes.
 
@@ -39,4 +41,11 @@ Role required: sales\_agent
 
 5.  Select **Send email** to send the email or close the email form to save it in the **Draft Emails** tab.
 
+
+**Related topics**  
+
+
+[Configuring Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-opportunity-mgmt.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

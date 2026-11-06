@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -26,9 +26,7 @@ Role required: admin
 
 2.  Open the required demand.
 
-3.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.
-
-    \[Omitted image "classic-ui-config-related-lists.png"\] Alt text: List of options available in Additional actions.
+3.  Select the Additional actions and navigate to **Configure** &gt; **Related Lists**.\[Omitted image "config-invest-budget.png"\] Alt text: List of options available in Additional actions.
 
 4.  Select **Investment Budget** from the Available column and add it to Selected column.
 

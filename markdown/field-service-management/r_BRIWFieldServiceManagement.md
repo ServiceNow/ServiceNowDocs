@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/r\_BRIWFieldServiceManagement.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Components installed with Field Service Management, Field Service Management reference, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Components installed, Reference, Field Service Management]
 ---
 
 # Business rules installed with Field Service Management
@@ -375,6 +375,69 @@ Work Order\[wm\_order\]
 </td><td>
 
 When set to active, the query rules on the underlying table will be used to filter the records based on territory of the logged-in user.
+
+</td></tr><tr><td>
+
+Default record - Validation
+
+</td><td>
+
+Resource Schedule Attribute \[wm\_agent\_schedule\_attribute\_plan\]
+
+</td><td>
+
+Ensures that an agent has only one default record for schedule attributes.
+
+</td></tr><tr><td>
+
+Record Validations
+
+</td><td>
+
+Resource Schedule Attribute \[wm\_agent\_schedule\_attribute\_plan\]
+
+</td><td>
+
+Validates the records in the **Resource Schedule Attribute** table.-   Schedule attribute records for a resource shouldn’t have the same rank within the specified date range.
+-   The date entered in the **From** should be earlier than the date entered in **To** field.
+
+</td></tr><tr><td>
+
+Restrict negative values
+
+</td><td>
+
+Resource Schedule Attribute \[wm\_agent\_schedule\_attribute\_plan\]
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Restrict the deletion of default records
+
+</td><td>
+
+Resource Schedule Attribute \[wm\_agent\_schedule\_attribute\_plan\]
+
+</td><td>
+
+Prevents the deletion of the default schedule attribute record for a resource.
+
+</td></tr><tr><td>
+
+Validate Fields
+
+</td><td>
+
+Resource Schedule Attribute \[wm\_agent\_schedule\_attribute\_plan\]
+
+</td><td>
+
+Validates the values for the fields. -   Maximum travel radius can’t be negative
+-   Rank should be a whole number
+-   Maximum part search radius can’t be negative
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_InstalledWithFSM.md)

@@ -7,21 +7,40 @@ release: yokohama
 product: Form Builder \(Glide Family Release\)
 classification: form-builder-glide-family-release
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Exploring Table Builder, Table Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-10-21"
+reading_time_minutes: 3
+breadcrumb: [Explore, Table Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Accessing Table Builder
 
 You can access Table Builder in several ways.
 
+## Launching Table Builder using naming shortcuts
+
+You can use naming shortcuts to open tables from the app navigator.
+
+Enter `tablename.builder`, `tablename.view`, `tablename.sheet`, or `tablename.flow` in the search to access the table directly. For example, searching `incident.builder` in the search opens field view of the incident table in the Data tab.
+
+\[Omitted image "tb-shortcut-example.png"\] Alt text: naming shortcut navigation screen
+
+|User Input|Behavior|
+|----------|--------|
+|&lt;tablename&gt;.builder|Opens the table in the Table Builder with the **Field** option selected in **Data** tab.|
+|&lt;tablename&gt;.view|Opens table in Table Builder in the **Form** tab.|
+|&lt;tablename&gt;.sheet|Opens a table in Table Builder with the **Sheet** option selected in **Data** tab.|
+|&lt;tablename&gt;.flow|Opens a table in Table Builder in the **Flow** tab.|
+
 ## Launching Table Builder from the App Navigator
 
 Table Builder is accessible through the application navigator. This feature helps you to interact with Table Builder more efficiently.
 
-1.  Navigate to **All** &gt; **Table Builder** and search for the table that you want to open.
-2.  Select **Open**. \[Omitted image "tb-accessfrmnavigator.png"\] Alt text: Access table from the App navigator
+1.  Navigate to **All** &gt; **Table Builder**.
+2.  Search for the table that you want to open.
+3.  Select **Open**.
+
+    \[Omitted image "tb-accessfrmnavigator.png"\] Alt text: Access table from the App navigator
+
 
 ## Launching Table Builder from App Engine Studio
 
@@ -59,7 +78,13 @@ Table Builder can be accessed from within UI Builder by selecting **Edit form vi
 
 ## Table Builder permissions
 
-To use Table Builder, you must either be an administrator, or have the following role permissions in ServiceNow AI Platform, or have relevant AES user role and delegated developer permissions. For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
+To use Table Builder, you must either:
+
+-   be an administrator, or
+-   have role permissions that are listed in the following table, or
+-   have the relevant AES user role and delegated developer permissions.
+
+For more information, see [Delegate developers using AES](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md).
 
 **Note:** When creating a table, assign at least one role with **Read** permission. Setting read permission helps you to preview and access the table.
 

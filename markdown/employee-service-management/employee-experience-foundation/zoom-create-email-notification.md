@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Employee Center for Zoom, Zoom integrations, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Using Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Use Employee Center from Zoom
@@ -37,10 +37,40 @@ Role required: Employee
     The ServiceNow Employee Center homepage is displayed.
 
 
-**Parent Topic:**[Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
+**Parent Topic:**[Using Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/using-emp-center.md)
 
 **Related topics**  
 
+
+[Use the Employee Center topic pages]()
+
+[Topic managers and contributors for topic page management]()
+
+[Use the My To-dos page]()
+
+[Use approval experience]()
+
+[Manage approvals from Microsoft Teams]()
+
+[Manage approvals from a Microsoft Outlook email]()
+
+[Task filters on My tasks]()
+
+[View the Recommended for you content]()
+
+[View employee profile]()
+
+[Use Personalized Answers]()
+
+[Employee Profile org chart widget]()
+
+[RTL support for Employee Center]()
+
+[Manage favorites]()
+
+[Access applications from App Launcher]()
+
+[Use Guided Self-Service]()
 
 [Employee Center for Zoom](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/zoom-ec-create-app.md)
 

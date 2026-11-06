@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/config-csm-config-ws-form-action.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Set up a form action in CRM Workspace
@@ -20,22 +20,79 @@ Role required: workspace\_admin, ui\_builder\_admin, admin
 
 ## About this task
 
-In order to use UI actions in CRM Workspace, each UI action must have a corresponding form action.
+To use UI actions in CRM Workspace, each UI action must have a corresponding form action.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Actions and Events** &gt; **UX Form Actions**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Declarative Actions** &gt; **Form Actions**.
 
-2.  Click **New**.
+2.  Select **New**.
 
-3.  Enter a name for the form action in the **Name** field.
+3.  Fill in the following fields on the Action Assignment form.
 
-    It is recommended that you give the form action the same name as the UI action.
+<table id="choicetable_zhx_pfj_q3c"><thead><tr><th align="left" id="d195673e101">
 
-4.  In the **Action Type** field, select UI Action.
+Field
 
-5.  Select the UI action in the **UI Action** field.
+</th><th align="left" id="d195673e104">
 
-6.  Click **Submit**.
+Description
+
+</th></tr></thead><tbody><tr><td id="d195673e110">
+
+**Action label**
+
+</td><td>
+
+The name of the action. For example, Create or Save.
+
+</td></tr><tr><td id="d195673e119">
+
+**Action name**
+
+</td><td>
+
+This field populates automatically with the action label in all lowercase and with spaces replaced with underscores.
+
+</td></tr><tr><td id="d195673e128">
+
+**Implemented as**
+
+</td><td>
+
+Select one of the following:-   Server Script: Applies the action to the server or database as JavaScript.
+-   UXF Client Action: Applies the action as a UI Builder page event.
+-   Client Script: Applies the action to the web browser as JavaScript.
+
+
+</td></tr><tr><td id="d195673e148">
+
+**Table**
+
+</td><td>
+
+Select a table for the action button to appear on.
+
+</td></tr><tr><td id="d195673e158">
+
+**View**
+
+</td><td>
+
+Select a UI view for the action button to appear on.
+
+</td></tr></tbody>
+</table>4.  Select the Additional Actions icon and select **Save**.
+
+5.  From the Layout Items related list, select your action to display the UX Form Actions Layout Item record.
+
+6.  Complete the following fields to update the look and feel of the action.
+
+    |Field|Description|
+    |-----|-----------|
+    |**Icon**|Select an icon for the action.|
+    |**Color**|Select a color for the action. You have access to choose any color the button component supports.|
+
+7.  Select **Update**.
 
 

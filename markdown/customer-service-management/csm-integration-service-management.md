@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-integration-service-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # CSM integration with IT Service Management overview
@@ -39,7 +39,7 @@ The Service Management integration plugins add the following menu items to the A
 
 **Note:** Agents can create or associate one incident, problem, or change record with a case. After a record is created or associated with a case, the corresponding menu items are no longer available on the Additional Actions menu.
 
-For more information, see [Creating incident, problem, change, and request records from Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-item-agent-tasks.md).
+For more information, see [Create incident, problem, change, and request records from cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-item-agent-tasks.md).
 
 ## Viewing incident, problem, and change records related to a case
 

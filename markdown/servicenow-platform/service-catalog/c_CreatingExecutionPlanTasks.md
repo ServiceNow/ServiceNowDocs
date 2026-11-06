@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Execution Plans, Service Catalog request fulfillment, Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -62,13 +62,11 @@ To define an execution plan task template:
 
 2.  Open an execution plan.
 
-3.  In the **Execution Plan Tasks** related list, click **New**.
+3.  In the **Execution Plan Tasks** related list, select **New**.
 
 4.  Fill in the fields on the Execution Plan Task form \(see table\).
 
-5.  Click **Submit**.
-
-    \[Omitted image "DefineATaskTemplate.png"\] Alt text:
+5.  Select **Submit**.
 
 <table id="table_cfh_xns_jp"><thead><tr><th>
 
@@ -84,7 +82,7 @@ Name
 
 </td><td>
 
-Name of the task. This name becomes the created task name.
+Name of the task. This name is set to the created task name.
 
 </td></tr><tr><td>
 
@@ -92,7 +90,7 @@ Fulfillment group
 
 </td><td>
 
-The group that performs the task. Whenever a user requests a catalog item associated with this execution plan, the task is automatically assigned to the fulfillment group. Leave blank if automatic assignment to a group is not required.
+The group that performs the task. Whenever a user requests a catalog item associated with this execution plan, the task is automatically assigned to the fulfillment group. Leave empty if automatic assignment to a group is not required.
 
 </td></tr><tr><td>
 
@@ -100,7 +98,7 @@ Assigned to
 
 </td><td>
 
-The individual who performs the task. Leave blank if automatic assignment to a user is not required.
+The individual who performs the task. Leave empty if automatic assignment to a user is not required.
 
 </td></tr><tr><td>
 
@@ -108,7 +106,7 @@ SLA
 
 </td><td>
 
-The service level agreement that applies to catalog items associated with this execution plan. **Note:** This field is normally left blank, as the functionality was superseded by the service level management functionality.
+The service level agreement that applies to catalog items associated with this execution plan. **Note:** This field is normally left empty, as the functionality was superseded by the service level management functionality.
 
 </td></tr><tr><td>
 
@@ -132,7 +130,7 @@ Delivery time
 
 </td><td>
 
-Amount of time the task is expected to take. This value becomes a component of the overall time to complete the execution plan.
+Amount of time the task is expected to take. This value is set to a component of the overall time to complete the execution plan.
 
 </td></tr><tr><td>
 

@@ -16,7 +16,15 @@ Targets are goals your organization wants to achieve. They show the difference b
 
 ## Indicator targets
 
-A target can be personal or global. A personal target is visible only to the user that created it and appears as a light line. A global target is visible to all users and appears as a dark line. Because you cannot share a personal target, it appears only in KPI Details and the Analytics Hub. Global targets can also appear in time series and single score data visualizations. Dashboards can alert viewers to events related to targets through [proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/proactive-analytics/proactive-analytics.md).
+A target can be personal \(for yourself\) or global \(for everyone\). A personal target is visible only to the user that created it and appears as a light line. A global target is visible to all users and appears as a dark line. Because you cannot share a personal target, it appears only in KPI Details. Global targets can also appear in time series and single score data visualizations. Dashboards can alert viewers to events related to targets through [proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/proactive-analytics/proactive-analytics.md).
+
+To view targets, select the target icon \[Omitted image "target-icon.png"\] Alt text: Target icon in the side panel. You have two choices to make:
+
+-   View the targets that are for everyone \(global\) or just for you \(personal\).
+-   Select the Configure icon \[Omitted image "Form\_PersonalizeFormIcon.png"\] Alt text: Configure icon. and choose what combination of past, current, or future targets to view.
+
+    \[Omitted image "kpid-select-targets-view.png"\] Alt text: Selecting which targets to view on the Targets panel.
+
 
 ## Indicator thresholds
 
@@ -50,13 +58,15 @@ When a target reaches its review date, it is no longer active. Usually you want 
 
 -   **[Create a target in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-kpi-details-targets.md)**  
 You can set target values for indicators that apply only to specific breakdown elements and time series aggregations. The target starts to apply at a selected date and continues to apply until you set the next target. You can set a date on which you expect to reach the target, and set a new target then.
--   **[Edit targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md)**  
+-   **[Edit multiple targets in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/edit-multiple-targets.md)**  
 Retroactively change one or more existing targets from their start date instead of ending them and starting new targets from a later date. You can edit multiple targets to have the same value, the same change in value, or the same date.
+-   **[Subscribe users to Data snapshots indicator target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/subscribe-users-to-ds-target.md)**  
+If you have targets set on a native Data snapshots indicator, you can specify users to receive emails about that target. Your instance must be configured to send emails.
 -   **[Create, modify, or delete a threshold in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-mod-pers-tar-thresh-kpi-details.md)**  
 Add, modify, or delete personal thresholds. With the required roles, you can also add, modify, and delete thresholds for all users.
--   **[Add targets for multiple breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-multiple-targets.md)**  
-Select multiple breakdown elements in the KPI Details target configuration panel. Add a target to each element. This target can be an improvement on a baseline instead of an absolute value.
--   **[Responsibility for global indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/responsibiity-targets-kpi-details.md)**  
+-   **[Add a target to multiple breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-multiple-targets.md)**  
+Select multiple breakdown elements in the KPI Details target configuration panel. Add the same target to each element. This target can be an improvement on a baseline instead of an absolute value.
+-   **[Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/responsibiity-targets-kpi-details.md)**  
 A user can be responsible for targets on one or more Performance Analytics indicator/breakdown combinations \(KPIs\). Responsible users are expected to track progress towards the targets and can change the targets on their KPIs.
 
 **Parent Topic:**[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details.md)

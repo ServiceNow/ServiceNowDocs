@@ -7,10 +7,10 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Open asset remediation tasks, close an asset remediation task, asset remediation tasks]
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Close an enterprise asset remediation task
@@ -23,14 +23,12 @@ Role required: asset, and sn\_itam\_common.asset\_audit\_admin, or sn\_itam\_com
 
 ## About this task
 
-**Important:** This feature is available with Enterprise Asset Management version 10.0.0 onwards.
-
 A new asset record is created when all of the following are true:
 
 -   The audit record's **Scan method** is set to **Multi scan**.
 -   During asset scanning, a new asset is detected that doesn’t exist in the ServiceNow® instance,
 
-For this new asset record, the application can’t automatically determine the **Model category** and **Model** field values. These fields are initially set to **Unknown Model Category** and **Unknown Model**. An asset remediation task is then generated to notify you that an asset record has been created with an unknown model category and an unknown product model. In the Hardware Asset Workspace, you can access the open remediation task, update the asset record as required, and then close the remediation task.
+For this new asset record, the application can’t automatically determine the **Model category** and **Model** field values. These fields are initially set to **Unknown Model Category** and **Unknown Model**. An asset remediation task is then generated to notify you that an asset record has been created with an unknown model category and an unknown product model. In the Enterprise Asset Workspace, you can access the open remediation task, update the asset record as required, and then close the remediation task.
 
 ## Procedure
 

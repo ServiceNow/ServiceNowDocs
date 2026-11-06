@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-12-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing multiple releases through release bundles, Manage releases for digital products and services, Use, Digital Product Release, IT Service Management]
 ---
@@ -40,7 +40,7 @@ Role required: sn\_dpr\_model.release\_coordinator, sn\_dpr\_model.product\_mana
 
 5.  On the **Details** tab, view and edit the release bundle details.
 
-    The **State** field shows the overall state of the release bundle, which is determined by the states of its releases, as mentioned below:
+    The **State** field shows the overall state of the release bundle based on the states of its releases:
 
     -   Draft: When there are no releases in the bundle.
     -   Ready: When all releases are either in the Pending or Draft state.

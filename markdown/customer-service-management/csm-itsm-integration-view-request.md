@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-itsm-integration-view-request.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up CSM integration with IT Service Management, Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Setting up CSM integration with IT Service Management, Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
 # Enable external customers to access problem, change, and request records
@@ -27,7 +27,7 @@ The snc\_internal or snc\_external role and with read access to the related prob
 
 **Note:** The Related Records list shows data only if the logged-in user has access to view the related records.
 
-Customers, customer partners, and internal users with the proxy contact role \(sn\_customerservice.proxy\_contact\) can also create requests from the Customer and Consumer Service Portals. For more information about this feature, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/employee-create-case-for-customer.md).
+Customers, customer partners, and internal users with the proxy contact role \(sn\_csm\_proxy\_cont\) can also create requests from the Customer and Consumer Service Portals. For more information about this feature, see [Create cases as a proxy contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/employee-create-case-for-customer.md).
 
 Customers can also view Known Error articles for a problem related to a case. These articles are displayed:
 

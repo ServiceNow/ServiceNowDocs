@@ -1,5 +1,5 @@
 ---
-title: Model language grouping
+title: \(Legacy\) Model language grouping
 description: Language grouping makes it easier to manage your multilingual Natural Language Understanding \(NLU\) models. You can review existing language groups and designate new language groups.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/model-language-grouping.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multilingual model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Model language grouping
+# \(Legacy\) Model language grouping
 
 Language grouping makes it easier to manage your multilingual Natural Language Understanding \(NLU\) models. You can review existing language groups and designate new language groups.
 
@@ -20,7 +20,7 @@ Language grouping makes it easier to manage your multilingual Natural Language U
 
 Language grouping organizes your NLU models into primary and secondary models, and indicates the primary language and primary model for the group.
 
-If you have added a new language to a model, a language group is created automatically, so you may already have existing language groups. For more information on adding and translating a new language model, see [Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/translate-multilingual-model.md).
+If you have added a new language to a model, a language group is created automatically, so you may already have existing language groups. For more information on adding and translating a new language model, see [\(Legacy\) Translate a multilingual model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/translate-multilingual-model.md).
 
 To view current language groups and inspect possible new language groups, navigate to:
 
@@ -38,6 +38,4 @@ There are two things you can do on the **Review how we've grouped your model** s
 The **Group** function opens the page titled **Group what's in these models**. You can expand the list of possible Secondary models, and then select the **Save** button. Any new groups are displayed in the upper section of **Review how we've grouped your models**, after refreshing the page. \[Omitted image "model-language-grouping004V.png"\] Alt text: The page titled Group what's in these models, with the Secondary models list highlighted.
 
 **Note:** The time it takes the system to group your models depends on the number and size of your models.
-
-**Parent Topic:**[Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/multilingual-model-managent.md)
 

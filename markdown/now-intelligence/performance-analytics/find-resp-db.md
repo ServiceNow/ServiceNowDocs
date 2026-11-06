@@ -7,10 +7,10 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [what role is needed to see dashboards]
-breadcrumb: [Working with responsive dashboards, Create and use dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Working with responsive dashboards, Create and use Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Find a responsive dashboard
@@ -32,6 +32,8 @@ On the Dashboards Overview, each tile contains information about the dashboard i
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Dashboards** or **All** &gt; **Performance Analytics** &gt; **Dashboards**. The Dashboards Overview shows tiles representing the most recent dashboards you have visited.
+
+    If Platform Analytics experience is enabled, the dashboard picker shows both Core UI and Platform Analytics experience dashboards.
 
     \[Omitted image "db-overview-p.png"\] Alt text: Dashboards overview with Recent category selected.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
@@ -18,47 +18,24 @@ After you install ServiceNow Otto for HR Service Delivery \(HRSD\), you might en
 
 ## Before you begin
 
--   Role required: admin
+-   Role required: sn\_hr\_gen\_ai.admin
 -   The RCAs that are generated after the installation are in the **Requested** state and you must manually mark the RCAs as **Allowed**, which can be time-consuming.
 
-    To automate the RCA approvals for any record, you can run the **Now Assist for HRSD Bulk RCA approval** script where the source scope is ServiceNow Otto for HR Service Delivery \(HRSD\). Download the **Now Assist for HRSD Bulk RCA approval** file from the **Supporting Links and Docs** section in ServiceNow Otto for HR Service Delivery \(HRSD\) application in ServiceNow Store. This file is a standalone script to reduce the manual effort involved. After you download the script file, perform the following steps:
+    To automate the RCA approvals for any record, you can run the **ServiceNow Otto for HRSD Bulk RCA approval** script where the source scope is ServiceNow Otto for HR Service Delivery \(HRSD\). Download the **ServiceNow Otto for HRSD Bulk RCA approval** file from the **Supporting Links and Docs** section in ServiceNow Otto for HR Service Delivery \(HRSD\) application in ServiceNow Store. This file is a standalone script to reduce the manual effort involved. After you download the script file, perform the following steps:
 
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Fix Scripts**.
 
-2.  Right-click the header and choose **Import XML**.
+2.  Open the context menu for the header and choose **Import XML**.
 
-3.  Click **Choose file** and select the XML file that you downloaded.
+3.  Select **Choose file** and select the XML file that you downloaded.
 
-4.  Search and find the **Now Assist for HRSD Bulk RCA approval** script record.
+4.  Search and find the **ServiceNow Otto for HRSD Bulk RCA approval** script record.
 
-5.  Click **Run Script** to allow all the requested RCAs.
+5.  Select **Run Script** to run all the requested RCAs.
 
 
 **Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
-
-**Related topics**  
-
-
-[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[Restrict Now Assist capabilities for employee relations cases]()
-
-[Customize the ServiceNow Otto for HRSD skills]()
-
-[Configure attachment summary]()
-
-[Configure resolution notes generation for ServiceNow Otto for HRSD]()
-
-[Configure sensitivity detection]()
-
-[Configure Gen AI Virtual Agent for HRSD]()
-
-[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
-
-[Configure HCM agents for HR Service Delivery AI Agent Collection]()
-
-[Configure Now Assist AI Helper – Galileo Inside]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-guidances.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Guidances in Recommended Actions
@@ -190,7 +190,7 @@ This guidance recommends knowledge articles to an agent who is working on a task
 
 </td><td>
 
-This guidance recommends knowledge articles to an agent who is working on a chat interaction. The guidance displays relevant articles and enables the agent to select an article and share it in the chat conversation.
+This guidance recommends knowledge articles to an agent who is working on a chat interaction. The guidance displays relevant articles and enables the agent to select an article and share it in the chat conversation using Add link in message feature.
 
 </td></tr></tbody>
 </table>## Configuring Recommended Actions guidances

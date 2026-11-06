@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Request a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Submit heating and cooling request
@@ -28,15 +28,15 @@ Use the **Heating and cooling** workplace service to report temperature issues f
 
 1.  Navigate to the portal from one of the following locations.
 
-<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d626444e70">
+<table id="choicetable_presence_dashboard"><thead><tr><th align="left" id="d677636e70">
 
 Location
 
-</th><th align="left" id="d626444e73">
+</th><th align="left" id="d677636e73">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d626444e79">
+</th></tr></thead><tbody><tr><td id="d677636e79">
 
 **Workplace Service Portal**
 
@@ -56,7 +56,7 @@ The portal homepage opens.
 3.  Select **Submit a maintenance request**.
 
 
-</td></tr><tr><td id="d626444e149">
+</td></tr><tr><td id="d677636e149">
 
 **Employee Center**
 
@@ -160,7 +160,7 @@ The state of the request changes to Awaiting approval for approval by the respec
 
 For more information about blocking the workplace location for a reservation, refer to [Block a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/block-workplace-location.md)
 
-**Parent Topic:**[Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/technical-dashboards.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -31,7 +31,7 @@ Do not try to create a technical dashboard directly in the Advanced Dashboards e
 ## Other technical dashboard topics
 
 -   **[Technical dashboards compared to inline dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/technical-vs-in-line-dashboards.md)**  
-The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more backend configuration.
+The inline editor produces dashboard components with events and page properties preconfigured. The technical editor allows for a full range of UIB components but requires more back-end configuration.
 -   **[Create a technical dashboard in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-tech-db-in-ac.md)**  
 Follow the Technical Editor option to create a dashboard using UI Builder. In UI Builder, you can use a wider range of features than the inline editor, including scripting and data binding.
 -   **[Add a drilldown event to a data visualization on a technical dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-custom-drilldown-event.md)**  
@@ -50,7 +50,7 @@ For finer grained control of the data source than you have with preconfigured da
 
 [Exploring Platform Analytics dashboards]()
 
-[Creating dashboards and other common dashboard tasks]()
+[Common dashboard tasks in the in-line editor]()
 
 [Configuring dashboards]()
 

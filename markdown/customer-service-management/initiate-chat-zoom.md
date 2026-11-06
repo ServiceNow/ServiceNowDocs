@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/initiate-chat-zoom.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Chat Zoom Connector, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using Chat Zoom Connector, Customer communication, Use, Customer Service Management]
 ---
 
 # Initiate Zoom meetings from chats
@@ -57,5 +57,5 @@ An interaction record of type **Zoom** is generated for the meeting that capture
 
 **Note:** The conference call number is a value automatically generated in the **Channel Metadata Record** field on the Interaction form. For more information, see [View details for Zoom meetings initiated from chats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-details-chat-zoom.md).
 
-The recording URL of the Zoom meeting is added to the activity stream of the interaction record. For more information, see [Interaction records in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/interaction-message-agent-workspace.md).
+The recording URL of the Zoom meeting is added to the activity stream of the interaction record.
 

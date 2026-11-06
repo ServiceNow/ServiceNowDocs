@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Display global search in a workspace experience
@@ -38,9 +38,9 @@ Before you can edit the experience settings, you must be in the correct applicat
 
 3.  Open or create a page in your workspace experience.
 
-4.  Select **View experience settings** in the upper-right.
+4.  Select **Experience settings** in the upper-right.
 
-    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the View experience settings link on the experience view page.
+    \[Omitted image "experience-settings-navigation.png"\] Alt text: Arrow pointing to the Experience settings link on the experience view page.
 
 5.  Scroll down to **Global search**.
 

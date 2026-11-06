@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, IT Asset Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Common applications, Asset Management]
 ---
 
 # Receive a purchase order for contract assets

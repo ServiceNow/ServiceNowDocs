@@ -1,31 +1,31 @@
 ---
-title: Personalize Kanban view of Prioritization page of Strategic Planning Workspace
-description: Personalize the Kanban view in your portfolio plan's Prioritization page as displayed in Strategic Planning, so you can view information that is most relevant to you and your stakeholders.
+title: Personalize Kanban view
+description: Personalize the Kanban tab view in your portfolio plan's Planning page as displayed in Strategic Planning, so you can view information that is most relevant to you and your stakeholders.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/personalize-kanban-view.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace]
-breadcrumb: [Personalizing Prioritization page views in Strategic Planning, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Personalizing views for prioritization, Prioritize portfolio plan work, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Personalize Kanban view of Prioritization page of Strategic Planning Workspace
+# Personalize Kanban view
 
-Personalize the Kanban view in your portfolio plan's Prioritization page as displayed in Strategic Planning, so you can view information that is most relevant to you and your stakeholders.
+Personalize the Kanban tab view in your portfolio plan's Planning page as displayed in Strategic Planning, so you can view information that is most relevant to you and your stakeholders.
 
 ## Before you begin
 
-[Create a portfolio plan in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
+[Create a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-portfolio-plans-in-alignment-planner-workspace.md).
 
 Role required: sn\_align\_core.apw\_user
 
 ## About this task
 
-Provides guidance on different options to personalize the Prioritization page for the Kanban view.
+This task Provides guidance on different options to personalize the view of the Kanban tab in the Planning page.
 
 Kanban preferences are saved in the portfolio plan level. So, these settings are applied to all the users or user groups that the portfolio plan is shared with.
 
@@ -35,27 +35,27 @@ Kanban preferences are saved in the portfolio plan level. So, these settings are
 
 2.  From the list of portfolio plans, select one and then select **Planning**.
 
-3.  Select Kanban view.
+3.  Select Kanban tab.
 
 4.  Select the Personalize icon \(\[Omitted image "icon-settings.png"\] Alt text: Personalize icon.\) to update the view, based on your preferences.
 
-<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d178014e173">
+<table id="choicetable_x5r_jqv_yxb"><thead><tr><th align="left" id="d224718e176">
 
 Choice
 
-</th><th align="left" id="d178014e176">
+</th><th align="left" id="d224718e179">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d178014e182">
+</th></tr></thead><tbody><tr><td id="d224718e185">
 
 **Update Vertical lane and Horizontal lane values**
 
 </td><td>
 
-Choose your desired values from the vertical lane and horizontal lane fields, using the drop-down. You may choose not to have any **Horizontal lane** value, by selecting **None** from the drop-down list.\[Omitted image "lanes.gif"\] Alt text: Update the Vertical and Horizontal lane values.**Note:** If the portfolio plan contains planning items of the same type, you will be able to select more columns related to the planning type. For example, if all the planning items are 'Demands', then the column will also have values like 'Investment class', 'Investment type', and more. By default, the Vertical lane value is 'Planning state' and the Horizontal lane value is 'Priority' for Kanban in the prioritization page.
+Choose your desired values from the vertical lane and horizontal lane fields, using the drop-down. You may choose not to have any **Horizontal lane** value, by selecting **None** from the drop-down list.\[Omitted image "lanes.gif"\] Alt text: Update the Vertical and Horizontal lane values.**Note:** If the portfolio plan contains planning items of the same type, you will be able to select more columns related to the planning type. For example, if all the planning items are 'Demands', then the column will also have values like 'Investment class', 'Investment type', and more. By default, the Vertical lane value is 'Planning state' and the Horizontal lane value is 'Priority' for the Kanban tab.
 
-</td></tr><tr><td id="d178014e204">
+</td></tr><tr><td id="d224718e207">
 
 **Edit the items to show on card**
 
@@ -69,5 +69,5 @@ Choose the fields that you want to view on the cards. Use the toggle buttons for
     **Important:** The default display limit of vertical lanes and horizontal lanes shown on a Kanban board is 30 and 30 respectively. These lanes support only reference and choice fields. As you user, you will not be able to change the field metrics on a Kanban card.
 
 
-**Parent Topic:**[Personalizing Prioritization page views in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
+**Parent Topic:**[Personalizing views for prioritization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/personalize-prioritization-page-in-strategic-planinng-workspace.md)
 

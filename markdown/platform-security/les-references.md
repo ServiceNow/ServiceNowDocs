@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/les-references.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Log Export Service \(LES\), Platform Security]
 ---
@@ -16,6 +16,10 @@ Find all the miscellaneous information about LES in the reference section.
 
 -   **[Log Export Service roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/les-roles.md)**  
 Log Export Service is installed with these roles.
+-   **[Log Export Service actions and required roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/les-actions-roles.md)**  
+Log Export Service uses role-based access control to restrict actions to authorized users.
+-   **[Properties installed with Log Export Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/properties-installed-with-les.md)**  
+Log Export Service \(LES\) adds the following instance system properties and MID Server properties.
 
 **Parent Topic:**[Log Export Service \(LES\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/les-intro.md)
 

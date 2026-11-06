@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/insurance-claims-core-data-model.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data Model, Learning and exploring, Financial Services Operations \(FSO\)]
+breadcrumb: [Data Models, Explore, Financial Services Operations \(FSO\)]
 ---
 
 # Insurance Claims Core
@@ -29,5 +29,5 @@ This section outlines the core roles involved in managing insurance claims and h
 -   **[Approval Engine for Reserves and Payments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/approval-engine-for-reserves-and-payments.md)**  
 Insurance claims core includes a claim reserve and payment approval rules engine. It can be found in the decision table **Claim reserve and payment approval rules**.
 
-**Parent Topic:**[Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md)
+**Parent Topic:**[Data Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/data-models.md)
 

@@ -1,20 +1,20 @@
 ---
 title: Create an API Key in n8n environment
-description: Creating an API key in n8n environment using your n8n instance.
+description: Creating a API key in n8n environment using your n8n instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/ai-control-tower/create-a-api-key-for-n8n.html
 release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [n8n, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create an API Key in n8n environment
 
-Creating an API key in n8n environment using your n8n instance.
+Creating a API key in n8n environment using your n8n instance.
 
 ## Before you begin
 
@@ -35,7 +35,7 @@ Role required: admin \(authenticated user with the appropriate administrative pe
 
 ## Result
 
-An API Key is created in the n8n environment.
+The n8n API Key is created.
 
 ## What to do next
 

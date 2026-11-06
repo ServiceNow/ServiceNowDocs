@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Workflow Studio steps, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Script step
@@ -42,7 +42,7 @@ Required Runtime
 
 The runtime environment required to support the script. Choices include:
 
--   **Instance**: The action step runs the script from instance. Select this option when the script needs access to the ServiceNow API or instance data. This is the default value.
+-   **Instance**: The action step runs the script from the instance. Select this option when the script needs access to the ServiceNow API or instance data. This is the default value.
 -   **MID**: The action step runs the script from the MID Server. Select this option when the script needs access to [MID Server script files](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-server-script-attach.md) and APIs. Selecting this option displays the **Select MID Server Using** field.
 -   **Vanilla \(Core JavaScript\)**: The action step runs the script from either the instance or MID Server. Select this option when the script only needs the core JavaScript APIs and not the ServiceNow API or instance data.
 

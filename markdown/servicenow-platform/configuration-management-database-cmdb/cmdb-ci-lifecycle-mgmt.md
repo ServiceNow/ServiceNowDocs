@@ -1,20 +1,20 @@
 ---
 title: CMDB CI Lifecycle Management \(legacy\)
-description: From the time of its creation to the time that it is no longer needed, a CMDB CI would typically transition through several operational states while undergoing various operations. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
+description: From the time of its creation until it's no longer needed, a CMDB CI would typically transition through several operational states. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-ci-lifecycle-mgmt.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB CI Lifecycle Management \(legacy\)
 
-From the time of its creation to the time that it is no longer needed, a CMDB CI would typically transition through several operational states while undergoing various operations. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
+From the time of its creation until it's no longer needed, a CMDB CI would typically transition through several operational states. CI LIfecycle Management provides the mechanism to define states and actions for a CI and lets you apply appropriate actions based on a CI's state to tailor the management of CI lifecycle to business needs.
 
 The CMDB Data Manager is now a more comprehensive and integrated solution for managing CI life cycle operations such as deletion and archival, in bulk. For information about the CMDB Data Manager, see [Working with CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-data-management.md).
 
@@ -92,7 +92,7 @@ In a base system, a CI's **Operational Status** field and the **Status**/**Hardw
 
 Whenever CI’s **Status**/**Hardware Status** changes, it is synchronized to the CI’s corresponding **Asset State** field, and vice versa — keeping the CI’s **Operational Status** and the CI’s corresponding **Asset State** synchronized.
 
-For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see Map asset state and CI hardware status. And for more information about retiring assets, see Retire assets.
+For more information about mapping **Asset State** and **Substate** fields to a CI's **Status**/**Hardware Status** \(if its hardware\) field, see [Map asset state and CI hardware status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManagingAssets.md). And for more information about retiring assets, see [Retire assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ManagingAssets.md).
 
 -   **[Get started with CI Lifecycle Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/get-started-cilifecyclemgmt.md)**  
 Follow these high level steps to get started and to track activities of the CI Lifecycle Management module of the CMDB application.
@@ -113,7 +113,5 @@ CI Lifecycle Management allows multiple operators or automations to simultaneous
 -   **[Define a non-allowed operational transition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/not-allowed-oprtionl-trnston.md)**  
 Define a restriction for CI Lifecycle Management in which a specified CI cannot transition from one operational state to another.
 
-**Parent Topic:**[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
-
-**Parent Topic:**[Exploring CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

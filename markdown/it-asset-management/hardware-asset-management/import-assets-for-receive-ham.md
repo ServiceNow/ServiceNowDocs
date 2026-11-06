@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset Workspace, Manage stockrooms, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset Workspace, Inventory and stockroom operations, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Import and receive assets in bulk at your stockroom in the Hardware Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage the receiving of assets at stockrooms in the Hardware Asset 
 Receive multiple hardware and consumable assets at your stockroom by importing the asset records using an Excel template in the Hardware Asset Workspace.
 
 ## Before you begin
-
-**Important:** The option to import and receive assets in bulk through the standardized asset receiving mechanism is available in Hardware Asset Management version 13.0.0 and later.
 
 Role required: ham\_admin
 
@@ -40,6 +38,7 @@ The asset data validation takes care of the following points:
     -   The asset quantity is valid.
     -   The Source type and Source ticket details are valid.
 -   Asset from purchase order lines can be received only in Zurich and later releases.
+-   Asset whose model doesn't match the model in the purchase order line can't be received.
 -   Asset bundles can't be received.
 
 ## Procedure
@@ -50,7 +49,7 @@ The asset data validation takes care of the following points:
 
 3.  Select the stockroom for which you want to receive hardware or consumable assets.
 
-4.  Select **Import assets**.
+4.  Select **Import receiving log**.
 
 5.  Prepare the asset data for import, and then proceed with the import.
 
@@ -80,7 +79,7 @@ The asset data validation takes care of the following points:
             -   **Parent asset**
             -   **MAC address** and **OT entity**: These fields are required to identify and receive OT assets.
         3.  Save the template.
-    2.  On the Create New Import asset form, fill in the details.
+    2.  On the Create New Import asset data form, fill in the details.
 
         1.  In the **Name** field, provide a name for the asset import record.
         2.  Select **Attach file** and then select the asset import template that you created in step a.

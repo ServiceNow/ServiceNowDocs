@@ -7,8 +7,8 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Data privacy \(Classic\) configuration, Data privacy \(Classic\), Data Privacy, Platform Privacy]
 ---
 
@@ -71,6 +71,17 @@ The privacy policy configuration to use for this job. For detail on Privacy poli
 
 </td></tr><tr><td>
 
+Frequency
+
+</td><td>
+
+-   **Run Once**: The job will run once in the specified time window.
+-   **Weekly**: The job will run each day of the **Day of the week** field in the specified time window.
+-   **Monthly**: The job will run each day of month as entered in the **Day of the month** field in the specified time window.
+
+
+</td></tr><tr><td>
+
 Users
 
 </td><td>
@@ -85,15 +96,26 @@ Dry Run
 
 Run the job as a test. No records are affected when running this job. Results are displayed in the **Summary** field as though the job had executed.**Note:** **Dry Run** must be turned off when configuring a data privacy job with rollback. See [Roll back a data privacy job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/rollback-data-privacy-job.md) for details.
 
+The Dry Run capability has the following considerations and limitations to be aware of:
+
+-   Dry run preview does not work for anonymization of encrypted columns.
+-   There is an upper limit of 200k records per table.
+-   Sample dry run - 10 preview records per column are allowed.
+-   Detailed dry run - 10 preview records per data pattern per column are allowed; for data pattern anonymization, the limitation is `10 *` the number of active data patterns.
+
+
 </td></tr><tr><td>
 
 State
 
 </td><td>
 
-State of the data privacy job:-   **Ready to Schedule**: Default state for new jobs.
+State of the data privacy job:-   **Completed**: Job completed successfully.
+-   **Ready to Schedule**: Default state for new jobs.
 -   **Rollback in progress**: The job has been set to roll back anonymization.
 -   **Rollback complete**: The anonymization job rollback has successfully completed.
+-   **Completed with Errors**: The job completed but has errors. See [Data Privacy Job Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/dp-job-logs.md) for more information.
+-   **Error**: Job did not complete and had an error. See [Data Privacy Job Logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-privacy-classic/dp-job-logs.md) for more information
 A read-only field.
 
 </td></tr><tr><td>

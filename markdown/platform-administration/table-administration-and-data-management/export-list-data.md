@@ -7,7 +7,7 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Exporting data, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -21,8 +21,6 @@ Export a list of records to a variety of file formats.
 Role required: none. Exporting to XML requires the admin role.
 
 ## About this task
-
-The **Export** option is available in the column heading context menu in List v2. In List v3, it's available in the list title menu.
 
 Note the following important details:
 
@@ -51,6 +49,7 @@ Note the following important details:
     -   To export the list and the associated form for each record in portrait mode, select **Export** &gt; **PDF** &gt; **Detailed Portrait****Export**.
     -   To export the list and the associated form for each record in landscape mode, select **Export** &gt; **PDF** &gt; **Details Landscape** &gt; **Export**.
     -   To export the list to a file using an export set, select **Export** &gt; **Export Set**.
+    -   To export the list to a Google spreadsheet, select **Export** &gt; **Google Sheets**.
     For details on using export sets, see [Export sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/c_ExportSets.md).
 
 4.  When the export completes, select **Download**.

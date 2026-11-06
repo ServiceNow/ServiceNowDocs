@@ -7,16 +7,16 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Indicator sources
 
 Indicator sources are data sets consisting of filtered records from one table or database view.
 
-An indicator source configuration specifies a table, such as Incident \[incident\], conditions for filtering records from that table, and a frequency that you base on the conditions. An indicator source cannot specify a rotated table. Multiple indicators can use the same indicator source. Data collection jobs query the database once for each indicator source. Thus, all indicators that use the same indicator source get data from the same point in time.
+An indicator source configuration specifies a table, such as Incident \[incident\], conditions for filtering records from that table, and a frequency that you base on the conditions. Supported tables include database views and Workflow Data Fabric tables. An indicator source cannot specify a rotated table. Multiple indicators can use the same indicator source. Data collection jobs query the database once for each indicator source. Thus, all indicators that use the same indicator source get data from the same point in time.
 
 Typically, an indicator tracks the situation on a certain date. The indicator source conditions should include a date-related filter, such as `[Opened][on][Today]`. Indicators collected less frequently might specify a larger date range, such as `[Closed][on][This month]`.
 
@@ -33,16 +33,14 @@ To provide a filtered data set of records that you can evaluate with one or more
 Look at the list of indicator sources, for these reasons:
 
 -   An indicator source that meets your requirements may already exist. To help maintain your instance, you should not create duplicate indicator sources.
--   Ensure that you give a unique name to any indicator source that you create. Giving the same name to different indicator sources can be confusing.
+-   Give a unique name to any indicator source that you create. Giving the same name to different indicator sources can be confusing.
 
 Role required: pa\_data\_collector or admin
 
 ### Procedure
 
-1.  Use one of the following navigation paths:
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
 
-    -   If you are on an upgraded instance that has not migrated to Platform Analytics, navigate to **All** &gt; **Performance Analytics** &gt; **Sources** &gt; **Indicator Sources** and select **New**.
-    -   If you are on a new instance or have migrated to Platform Analytics, navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Sources** &gt; **Indicator Sources** and select **New**.
 2.  Enter a unique **Name** by which you can easily see what the indicator source is used for, such as **Incidents.Open**.
 
 3.  Add a detailed **Description** to help others understand the use and purpose of this indicator source and to help them avoid creating duplicates.
@@ -63,23 +61,23 @@ Role required: pa\_data\_collector or admin
 
 6.  Select a facts table, either directly or by reusing a report source.
 
-<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d128316e276">
+<table id="choicetable_bwt_24j_dbb"><thead><tr><th align="left" id="d150646e246">
 
 Field
 
-</th><th align="left" id="d128316e279">
+</th><th align="left" id="d150646e249">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d128316e285">
+</th></tr></thead><tbody><tr><td id="d150646e255">
 
 **Facts table**
 
 </td><td>
 
-Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported.
+Specify the facts table and any conditions for filtering the records of that table. You can specify a [database view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) as the facts table. Remote tables are not supported, but Workflow Data Fabric tables are supported.
 
-</td></tr><tr><td id="d128316e298">
+</td></tr><tr><td id="d150646e271">
 
 **Report source**
 
@@ -91,7 +89,6 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 </table>    **Warning:**
 
     -   Performance Analytics does not support remote tables.
-    -   Performance Analytics does not support Workflow Data Fabric tables.
     -   Do not change the facts table for a source after you have started collecting data. If you change the facts table, you lose all historical scores for the associated indicators at the next score collection.
 7.  If you select a facts table directly, add **Conditions** that must be fulfilled before the data is included in the subset.
 
@@ -121,17 +118,17 @@ Specify an existing report source to reuse. A report source specifies a facts ta
 
 10. In the Records View tab, in **List view**, select the default view.
 
-    The default view applies on Workbench widgets and to the lists of records collected for this indicator source on the Analytics Hub and KPI Details. The available views vary depending on the facts table.
+    The default view applies on Workbench widgets and to the lists of records collected for this indicator source on KPI Details. The available views vary depending on the facts table.
 
 11. In the Records Collection tab, override the maximum number of records that a job can collect for a single indicator source, for this indicator source only.
 
     Select **Override record collection**, then enter a value in **Maximum number of records collected**. You are overriding the default value set on the property **com.snc.pa.dc.max\_row\_count\_indicator\_source**. For more information, see [Performance Analytics properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/pa-properties.md).
 
-12. Expand the context menu and click **Save**.
+12. Expand the context menu and select **Save**.
 
 13. If you have configured this indicator source to use a business calendar, set the number of periods for retaining scores and snapshots and for finding seasonal patterns.
 
-    These settings apply to all indicator sources and indicators that use the same calendar frequency. The owner of an indicator can override these settings for that indicator. If you do not set these values in the indicator source, the first time someone creates an indicator using this calendar frequency, they are prompted to set these values.
+    These settings apply to all indicator sources and indicators that use the same calendar frequency. The owner of an indicator can override these settings for that indicator. If you don't set these values in the indicator source, the first time someone creates an indicator using this calendar frequency, they are prompted to set these values.
 
     1.  In the Related Links, click **Configure retention periods**.
 

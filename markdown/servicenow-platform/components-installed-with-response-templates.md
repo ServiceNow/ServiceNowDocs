@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/components-installed-with-response-templates.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Activate response templates, Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Activate, Response templates, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Components installed with response templates

@@ -1,44 +1,37 @@
 ---
 title: Override empty state illustrations with custom images
-description: Modify or override the default empty state illustrations with your own custom images to ensure that visual elements reflect your company's branding.
+description: Modify or override the default empty state illustrations with your own custom images to promote visual elements that reflect your company's branding.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/override-empty-state-illustrations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-19"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [override empty state, empty state illustrations, custom images]
-breadcrumb: [Working with Image styles, Manage or edit a theme with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Empty state illustrations, Image styles, Manage or edit a theme, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Override empty state illustrations with custom images
 
-Modify or override the default empty state illustrations with your own custom images to ensure that visual elements reflect your company's branding.
+Modify or override the default empty state illustrations with your own custom images to promote visual elements that reflect your company's branding.
 
 ## Before you begin
 
-To make your image theme-able, add the following two design tokens to your code using your preferred text editor before uploading the custom SVG to Theme Builder.
+Role required: ui\_builder\_admin
 
--   ```
---empty-state--main-object--fill
-```
+For information on granular roles, see .
 
--   ```
---empty-state--main-object—outline
-```
-
-
-For more information, see [Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/working-with-image-styles.md).
+Verify that your custom images use the desired colors and meet your branding requirements before uploading to Theme Builder.
 
 Role required: admin
 
 ## About this task
 
-**Important:** Custom images apply to Workspaces and are not supported in the Core UI.
+**Important:** Custom images apply to Workspaces and aren’t supported in the Core UI.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
     The Theme Builder landing page opens in a new tab and is displayed in the Home page view.
 
@@ -56,7 +49,7 @@ Role required: admin
 
 5.  Use one of the following options to select the empty state illustration that you want to override.
 
-    -   Select the Filter \(\[Omitted image "tb-filter-icon.png"\] Alt text: Filter icon.\) icon and expand the empty states category to select the specific empty state illustration that you want to override.
+    -   Select the Filter icon \[Omitted image "tb-filter-icon.png"\] Alt text: icon and expand the empty states category to select the specific empty state illustration that you want to override.
     -   Scroll through the list of empty state illustrations within the main stage.
     The property panel opens automatically.
 
@@ -82,11 +75,9 @@ Role required: admin
 
 9.  Select **Save**.
 
-    Your custom image appears on the main stage within the empty state category you have chosen.
+    Your custom image appears on the main stage within the empty state category that you have chosen.
 
     \[Omitted image "tb-add-data-image-modal.png"\] Alt text: Add data empty state illustration category with custom image displayed.
-
-    \[Omitted image "tb-add-data-image-modal-tokens.png"\] Alt text: Add data empty state illustration category with custom image displayed \(design tokens applied to image before uploading\).
 
 10. Select the Remove override symbol if you want to restore the default empty state illustration.
 
@@ -96,20 +87,16 @@ Role required: admin
 
     1.  Select the **Experience preview** tab from the Global styles panel.
 
-        \[Omitted image "tb-exp-preview-tab.png"\] Alt text: Experience preview tab.
-
     2.  Select the experience that you want to preview from the Experience drop-down list.
 
-        \[Omitted image "tb-experience-preview-dropdown.png"\] Alt text: Experience drop-down.
-
     3.  Select the Open in new tab icon \[Omitted image "tb-icon-open-new-tab.png"\] Alt text: to open the experience in a new tab.
+
+        \[Omitted image "tb-experience-preview-1.png"\] Alt text: Global styles experience preview screen with Admin Center experience selected.
 
 
 ## Result
 
-Once you've uploaded your custom image with the two design tokens applied, you can customize the colors using Theme Builder just as you would for default empty state illustrations. For information on customizing colors, see [Customize the colors for empty state illustrations and custom images](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/customize-colors-empty-state.md).
+If your theme is published, your custom images are visible to users who have your theme applied on refresh. For more information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md).
 
-If your theme is published, your custom images are visible to users who have your theme applied upon refresh. For more information about publishing themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md).
-
-**Parent Topic:**[Working with Image styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/working-with-image-styles.md)
+**Parent Topic:**[Empty state illustrations in Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/empty-state-illustrations.md)
 

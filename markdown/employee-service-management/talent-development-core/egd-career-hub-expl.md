@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Explore Talent Development Core, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Exploring Talent Development Core, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Career hub overview
@@ -159,5 +159,5 @@ Make new connections
 Lets you search the org chart to browse peers with whom you can make connections.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Explore Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
+</table>**Parent Topic:**[Exploring Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-explore.md)
 

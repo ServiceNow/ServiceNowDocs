@@ -1,20 +1,20 @@
 ---
 title: Add or modify risk and impact conditions
-description: You can define risk calculation rules on which the risk and impact of a change are calculated. Change Management - Change Risk Calculator is activated by default in the base system.
+description: Define the risk calculation rules that determine the risk and impact of a change. The Change Management - Change Risk Calculator plugin is active by default in the base system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/change-management/define-risk-and-impact-conditions.html
 release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2026-07-17"
+last_updated: "2026-07-16"
 reading_time_minutes: 3
-breadcrumb: [Risk conditions and calculation, Analyze change request risk and impact rating, Reference section for Change Management, Change Management, IT Service Management]
+breadcrumb: [Risk conditions and calculation, Analyze change request risk and impact, Reference, Change Management, IT Service Management]
 ---
 
 # Add or modify risk and impact conditions
 
-You can define risk calculation rules on which the risk and impact of a change are calculated. Change Management - Change Risk Calculator is activated by default in the base system.
+Define the risk calculation rules that determine the risk and impact of a change. The Change Management - Change Risk Calculator plugin is active by default in the base system.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: itil\_admin or admin
 
 ## About this task
 
-Risk Conditions are run against the change request based on their **Order** field from lowest to highest. The first Risk Condition that matches the change request record is applied. All subsequent risk conditions are then ignored whether they match or not. A risk calculation rule is defined with two elements.
+Risk conditions are run against the change request in the order of their **Order** field from lowest to highest. The first risk condition that matches the change request record is applied. All subsequent risk conditions are then ignored whether they match or not. A risk calculation rule is defined with two elements.
 
 -   Conditions that can evaluate to *true* or *false*. You can use a condition builder or write a script.
 -   **Risk** and **Impact** field value settings when the conditions evaluate to **true**.
@@ -31,11 +31,13 @@ Risk Conditions are run against the change request based on their **Order** fiel
 
 1.  Navigate to **All** &gt; **Change** &gt; **Administration** &gt; **Risk Conditions**.
 
-2.  Click **New**, or click the risk condition to modify.
+2.  Select **New**, or select the risk condition to modify.
 
-    You can also edit risk conditions from within the Change Request form by opening the form context menu and clicking **Edit Risk Conditions**.
+    To stop a base-system condition such as **Insufficient lead time** from applying, open the condition and clear the **Active** check box instead of deleting it so that you can re-enable it later.
 
-3.  Complete or update the form, as appropriate.
+    You can also edit risk conditions from within the Change Request form by opening the form context menu and selecting **Edit Risk Conditions**.
+
+3.  On the form, fill in the fields.
 
 <table id="table_xym_4zl_wy"><thead><tr><th>
 
@@ -51,7 +53,7 @@ Name
 
 </td><td>
 
-Enter a descriptive name for the rule
+Descriptive name for the rule.
 
 </td></tr><tr><td>
 
@@ -59,7 +61,7 @@ RiskImpact
 
 </td><td>
 
-Select a value for one of these fields. The selection determines which field to update based on this risk calculation.
+Value that this risk calculation sets in the **Risk** or **Impact** field of the change request.
 
 </td></tr><tr><td>
 
@@ -67,7 +69,7 @@ Active
 
 </td><td>
 
-Select the check box to use the rule.
+Option that, when selected, applies the rule.
 
 </td></tr><tr><td>
 
@@ -75,7 +77,7 @@ Order
 
 </td><td>
 
-Enter the order in which this risk calculation is evaluated. Rules with lower numbers are evaluated first. If there are two or more rules with differing orders, the rule with the lowest order is evaluated and the others are ignored.
+Order in which this risk calculation is evaluated. Rules with lower numbers are evaluated first. If there are two or more rules with differing orders, the rule with the lowest order is evaluated and the others are ignored.
 
 </td></tr><tr><td>
 
@@ -83,7 +85,7 @@ Use advanced condition
 
 </td><td>
 
-Select the check box to enter a script instead of using the condition builder.
+Option that, when selected, lets you enter a script instead of using the condition builder.
 
 </td></tr><tr><td>
 
@@ -91,7 +93,7 @@ Use script values
 
 </td><td>
 
-Select the check box to hide the **Risk** and **Impact** fields. The script specifies the risk and impact values.
+Option that, when selected, hides the **Risk** and **Impact** fields. The script specifies the risk and impact values.
 
 </td></tr><tr><td>
 
@@ -99,7 +101,7 @@ Description
 
 </td><td>
 
-Enter a description of how this risk calculation is applied.
+Description of how this risk calculation is applied.
 
 </td></tr></tbody>
 </table>    **Important:** If the **Calculated risk** value doesn't update, check the following:
@@ -109,15 +111,15 @@ Enter a description of how this risk calculation is applied.
     -   If **Use script values** is selected, the script assigns both the **Risk** and **Impact** values.
 4.  Specify the rule based on your selected rule method.
 
-<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d225569e260">
+<table id="choicetable_zdq_xvm_lz"><thead><tr><th align="left" id="d398764e329">
 
 Choice
 
-</th><th align="left" id="d225569e263">
+</th><th align="left" id="d398764e332">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d225569e269">
+</th></tr></thead><tbody><tr><td id="d398764e338">
 
 **Condition**
 
@@ -125,7 +127,7 @@ Action
 
 Use the condition builder to add conditions. Do not use the Keywords field as a filter condition. Risk and impact values are not calculated for keywords. To achieve equivalent filtering, use the **Use advanced condition** option and write a script that performs the text comparison explicitly.**Note:** The **Condition** section is hidden if you selected **Use advanced condition**.
 
-</td></tr><tr><td id="d225569e289">
+</td></tr><tr><td id="d398764e358">
 
 **Use advanced conditions**
 
@@ -133,7 +135,7 @@ Use the condition builder to add conditions. Do not use the Keywords field as a 
 
 Write the script in the **Advanced condition** field using standard business rule syntax. The condition must set the global variable answer to *true* or *false*.
 
-</td></tr><tr><td id="d225569e307">
+</td></tr><tr><td id="d398764e376">
 
 **Use script values**
 
@@ -147,6 +149,15 @@ Write the script in the **Script values** field. Specify the **Risk** and **Impa
     \[Omitted image "risk-condition-rule.png"\] Alt text: Critical business service risk condition
 
     When the **Advanced condition** script returns *true*, the script in the **Script values** field sets the change request **Impact** and **Risk** values based on the **Business criticality** value.
+
+    To set risk based on lead time per change type, create two conditions.
+
+    The previous example applies to change processes configured to use change models. If you're using legacy change types, set the condition using the **Type** field instead of the **Model** field.
+
+    -   Build a condition where **Model** is **Normal** and the planned start date is fewer than seven days from now, then set **Risk** to **High**.
+    -   Build a condition where **Model** is **Standard** and the planned start date is fewer than three days from now, then set **Risk** to **Moderate**.
+
+        Set the **Order** values so these conditions evaluate before broader rules. The first matching condition is applied.
 
 
 **Parent Topic:**[Risk conditions and calculation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/change-risk-assess-detect-conflict.md)

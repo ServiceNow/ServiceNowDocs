@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Work with Asset and CI, Using Asset Management, Asset Management, IT Asset Management]
+breadcrumb: [Work with Asset and CI, Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Map asset state and CI hardware status
@@ -21,8 +21,6 @@ Map the asset **State** and **Substate** fields to the **CI Hardware Status** fi
 Role required: admin or asset
 
 **Note:** If you upgraded from a prior release and you've customized the AssetAndCISynchronizer script before the upgrade, overwrite the customization and then recreate the custom mappings.
-
-The hardware and consumable assets don't have the Build state and Design substate because they are already prepared. Therefore, the Asset CI hardware state mappings table doesn't have a mapping for the Build state. For more details on asset states, see [Set asset states and substates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_SettingAssetStatesAndSubstates.md).
 
 ## About this task
 

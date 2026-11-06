@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development setup, Configuring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Configure, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Enable a code review
 
 You can require a code review of all changes pushed to an instance.
+
+## Before you begin
+
+Role required: none
 
 ## Procedure
 

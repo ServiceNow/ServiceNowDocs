@@ -1,22 +1,22 @@
 ---
-title: Local Authentication
-description: Use ServiceNow local authentication to secure the users login on a local device.
+title: Local authentication
+description: Use ServiceNow local authentication to secure user login on a local device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/local-authentication.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Access Management]
 ---
 
-# Local Authentication
+# Local authentication
 
-Use ServiceNow® local authentication to secure the users login on a local device.
+Use ServiceNow® local authentication to secure user login on a local device.
 
 Local authentication is a method of verifying a user's identity on a local device. It uses unique characteristics or credentials possessed by the user to validate the user's login.
 
-Use ServiceNow®'s local authentication features to securely access the ServiceNow® instance on your local devices.
+Use ServiceNow® local authentication features to securely access the ServiceNow® instance on your local devices.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/test-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Manually test the execution of an AI agent
@@ -34,23 +34,27 @@ When manually testing performance, you can see how the AI agent interacts with t
 
     If you want to start an automated test, see [Evaluate an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/execute-aia-eval.md) for more details on that process.
 
-3.  In the **Test type** drop-down meny, select **AI agent or workflow**.
+3.  In the **Choose a test type** drop-down menu, select **AI agent or workflow**.
 
     If you want to test user access security controls, see [Test AI agent user access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/test-aia-access.md).
 
-4.  Select an agentic workflow or AI agent that you want to test by searching the name of a workflow or choosing from the drop-down menu.
+4.  Under **Choose a testing mode**, select the testing mode either as **Premium Chat** or **Standard**.
 
-5.  In the Version drop-down list, select the version of the AI agent you want to test.
+    **Note:** The Premium Chat testing mode is exclusively accessible when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard testing playground.
+
+5.  Select an agentic workflow or AI agent that you want to test by searching the name of a workflow or choosing from the drop-down menu.
+
+6.  In the Version drop-down list, select the version of the AI agent you want to test.
 
     See [Version control for AI agents and agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/version-control.md) for more information about creating and changing versions.
 
-6.  In the **Task** field, provide a concise summary of the task to be achieved.
+7.  In the **Task** field, provide a concise summary of the task to be achieved.
 
     **Note:** In the task summary, include a reference number or specific record for better results during your testing.
 
-    \[Omitted image "test-aia-perf-form.png"\] Alt text: Complete testing form
+    \[Omitted image "image.test-aia-manually-new"\] Alt text: Complete the testing form
 
-7.  Select **Continue to Test Chat Response**.
+8.  Select **Continue to Test Chat Response**.
 
 
 ## Result
@@ -63,7 +67,8 @@ Your AI agent starts to execute the test autonomously to resolve the task.
 
 \[Omitted image "aia-test-playground.png"\] Alt text: Output from a tested AI agent with the task given to it.
 
--   A simulated chat experience begins on the Now Assist panel between your invoking user and AI agent.
+-   A simulated chat experience begins on the ServiceNow Otto panel between your invoking user and AI agent.
+-   At the top of the canvas, you can see information about the AI agent you're testing, including its name, version, and description.
 -   A diagram shows the tasks and communication of the AI agents that are working together to solve the case.
 -   A decision log records the thought process of each AI agent that is involved in solving the agentic workflow.
 

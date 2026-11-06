@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career Assessment reference, Career Assessment, Talent Development, Employee Service Management]
+breadcrumb: [Career Assessment reference, Career Assessment, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Exam form
@@ -33,21 +33,4 @@ Use the Exam form to create an exam.
 |Results|
 |Passing percentage|Minimum percentage required to pass the exam.|
 |Randomize questions|Option to allow questions to appear in random order.|
-
-**Parent Topic:**[Career Assessment reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-engine-reference.md)
-
-**Related topics**  
-
-
-[Components installed with Career Assessment]()
-
-[Question form]()
-
-[Question option form]()
-
-[Learning internal content form]()
-
-[Exam instance form]()
-
-[Exam instance attempt form]()
 

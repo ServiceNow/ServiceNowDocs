@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-security-retrieval.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile data flow for ServiceNow mobile apps, Device security for ServiceNow Mobile apps, Mobile security, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Mobile data flow, Device security, Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Retrieval

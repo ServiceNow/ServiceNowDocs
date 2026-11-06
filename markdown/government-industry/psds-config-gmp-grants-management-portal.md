@@ -7,7 +7,7 @@ release: yokohama
 topic_type: task
 last_updated: "2025-07-31"
 reading_time_minutes: 1
-breadcrumb: [Set up Self-Service, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Set up self-service, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure the Grants Management Portal
@@ -16,7 +16,7 @@ As an admin, you can configure various elements of the Grants Management Portal.
 
 ## About this task
 
-You can customize the Grants Management Portal by following these procedures or by using [guided setup for Public Sector Digital Services Core application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-use-gs.md)
+You can customize the Grants Management Portal by following these procedures or by using [guided setup for Public Sector Digital Services Core application.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configure-psds-foundation-data.md)
 
 ## Before you begin
 

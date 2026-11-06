@@ -1,5 +1,5 @@
 ---
-title: View the list of muted metrics
+title: View the list of muted metrics in Health Log Analytics
 description: View the list of metrics that were muted so that they no longer generate alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-op-alert-view-ignored-list.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mute an unimportant alert, Assigning higher or lower significance to an alert, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Mute an unimportant alert, Assign higher or lower significance to an alert, Managing alert generation, prioritization, anomaly detection, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# View the list of muted metrics
+# View the list of muted metrics in Health Log Analytics
 
 View the list of metrics that were muted so that they no longer generate alerts.
 
@@ -33,12 +33,10 @@ Role required: evt\_mgmt\_operator or evt\_mgmt\_admin
     |Created|Date and time when the metric was added to the list.|
 
 
-**Parent Topic:**[Mute an unimportant alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-alert-mute.md)
-
 **Related topics**  
 
 
-[Mute an unimportant alert](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-mute-sow.md)
+[Mute an unimportant alert in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-alert-mute-sow.md)
 
-[Restore normal importance to an alert metric](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/hla-op-alert-restore-user-defined-sow.md)
+[Restore normal importance to an alert metric in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-op-alert-restore-user-defined-sow.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Site Mapping for Field Service Management, Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configuring Site Mapping for Field Service Management, Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Set the default provider for a Custom Map Screen
@@ -20,7 +20,9 @@ Configure a map screen to enable site maps on the Mobile Agent application.
 
 Ensure there is a Custom Map Provider. For more information, see [Create a Custom Map Provider record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/mobile-experience-for-field-service-management-glide-family/create-custom-map-prvdr-rcrd.md).
 
-Role required: admin
+Role required: admin, or wm\_admin
+
+Users with the admin or wm\_admin role can access the module menu and create, read, update, and delete access control rules \(ACL\) in **Custom Map Screens**.
 
 ## Procedure
 

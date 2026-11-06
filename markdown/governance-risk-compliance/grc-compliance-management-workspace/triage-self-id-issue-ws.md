@@ -1,5 +1,5 @@
 ---
-title: Triage a self-identified issue using the Compliance Workspace
+title: Triage self-identified issues using the Compliance Workspace
 description: After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution in the Compliance Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/grc-compliance-management-workspace/triage-self-id-issue-ws.html
@@ -7,12 +7,12 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Manage issues using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage issues using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Triage a self-identified issue using the Compliance Workspace
+# Triage self-identified issues using the Compliance Workspace
 
 After an issue has been identified and submitted by employees or business users via the Service Portal, the issue triage process begins. The actual problem is identified and assigned to the appropriate owner for prioritization and resolution in the Compliance Workspace.
 
@@ -34,8 +34,6 @@ The assigned triage teams identify whether the self-identified issues are actual
 **Note:** In the initial release, only self-identified issues are handled by the triage process. In a later release, system-generated issues, such as those caused by indicator or attestation failures, will also be triaged.
 
 The end-to-end flow of the issue triage life cycle is illustrated and described here.
-
-\[Omitted image "issue-triage\_lifecycle-ws.png"\] Alt text: Issue triage
 
 <table id="table_exh_nm3_b4b"><thead><tr><th>
 

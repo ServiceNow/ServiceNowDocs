@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-create-service-request-user.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Creating a government service request with Public Sector Digital Services
@@ -46,7 +46,7 @@ As a constituent, you can submit non-emergency requests through the Government S
 
 3.  Select the Service Request issue that you want to report.
 
-    For more information on the services that are offered in the Government Service Portal, see [Government Service Portal service catalog list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-service-catalog-list.md).
+    For more information on the services that are offered in the Government Service Portal, see [Government Service Portal service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-service-catalog-list.md).
 
 4.  On the form, fill in the fields.
 
@@ -209,6 +209,6 @@ Option to report this case as a business or as an individual.
 
     You’re taken back to the service request catalog, where you can submit another service request or register for an account.
 
-    **Note:** If you didn't provide any contact information, you can't track the status of this request or see the details of the case after you select **Submit**. If you would like to check the status of this request after your submit it, you must register for an account. For instructions, see [Register for the Government Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/register-gsm-portal-user.md).
+    **Note:** If you didn't provide any contact information, you can't track the status of this request or see the details of the case after you select **Submit**. If you would like to check the status of this request after your submit it, you must register for an account. For instructions, see [Register for the Government Service Portal as a constituent, business contact, or user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/register-gsm-portal-user.md).
 
 

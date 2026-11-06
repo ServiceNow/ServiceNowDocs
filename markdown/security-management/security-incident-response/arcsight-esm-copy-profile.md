@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,13 +28,11 @@ As a user with the sn\_si.admin role, if you copy a profile, the profile name is
 
 1.  Navigate to **All** &gt; **ArcSight ESM Integration** &gt; **ArcSight ESM Event Profile**.
 
-2.  In the ArcSight Profiles list that is displayed, select a profile that you want to copy, and, from the Actions on selected rows choice list, click **Copy**.
+2.  In the ArcSight Profiles list that is displayed, select a profile that you want to copy, and, from the Actions on selected rows list, select **Copy**.
 
     \[Omitted image "sir-arcsight-esm-copy-profile.png"\] Alt text: ArcSight ESM: Profiles
 
     The profile is copied and displayed on the list. The copy has all the settings of the original profile including the mapping and scheduling configuration. The name of the profile contains copy. Although the original profile is enabled \(`true`\), the copy is disabled at this point \(`false`\). You may prefer to edit values of the copied profile and rename it so the configuration settings apply to the new profile as required.
-
-    \[Omitted image "sir-arcsight-esm-copy-profile1.png"\] Alt text: ArcSight ESM: Copy profile
 
     You have successfully copied the settings from an existing profile to a new profile. Note that the **Active** column status is set to false as the profile needs to be activated.
 

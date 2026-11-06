@@ -1,16 +1,16 @@
 ---
-title: Monitoring Jeopardy Management
+title: Monitoring order jeopardy
 description: Order managers and agents can monitor jeopardy-enabled fulfillment tasks. When a task enters jeopardy, managers can take action to ensure the fulfillment workflow isn’t delayed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/monitoring-jeopardy-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
-# Monitoring Jeopardy Management
+# Monitoring order jeopardy
 
 Order managers and agents can monitor jeopardy-enabled fulfillment tasks. When a task enters jeopardy, managers can take action to ensure the fulfillment workflow isn’t delayed.
 
@@ -20,7 +20,7 @@ The following table describes where you can view the jeopardy status.
 
 <table id="table_mzk_d5r_wxb"><thead><tr><th>
 
-Jeopardy status
+Option
 
 </th><th>
 
@@ -36,7 +36,16 @@ Look for jeopardy status in the **Jeopardy Level** column of the order status fo
 
 </td></tr><tr><td>
 
-Order Orchestration View
+Order timeline view
+
+</td><td>
+
+1.  Navigate to **Customer Order** &gt; **All** and select an order you're working with.
+2.  On the Order Details page, select **View order timeline** from the Order breakdowns section.
+
+</td></tr><tr><td>
+
+Order orchestration view
 
 </td><td>
 
@@ -49,8 +58,13 @@ SLA Definition Progress Bar
 </td><td>
 
 Navigate to **Customer Order** &gt; **Order** &gt; **Order Line Item** &gt; **Task** &gt; **SLA** and view the status bar. The status bar shows the SLA progress, for example:-   Green: SLA progressing on its time line.
--   Red: tTask is near the end of the critical percentage of allotted time.\[Omitted image "jm-sla-indicator.png"\] Alt text: The image shows a method of monitoring jeopardy risk level using the Order Task Characteristics Values table.
+-   Red: Task is near the end of the critical percentage of allotted time.\[Omitted image "jm-sla-indicator.png"\] Alt text: The image shows a method of monitoring jeopardy risk level using the Order Task Characteristics Values table.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reviewing-approving-fulfilling-orders.md)
+</table>**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

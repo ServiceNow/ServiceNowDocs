@@ -1,5 +1,5 @@
 ---
-title: Using the Patient Portal for Healthcare and Life Sciences Service Management
+title: Use the Patient Portal for Healthcare and Life Sciences Service Management
 description: You can use the Patient Portal available with the Healthcare and Life Sciences Service Management application to access your healthcare information from anywhere.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-portal.html
@@ -7,20 +7,18 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
-# Using the Patient Portal for Healthcare and Life Sciences Service Management
+# Use the Patient Portal for Healthcare and Life Sciences Service Management
 
 You can use the Patient Portal available with the Healthcare and Life Sciences Service Management application to access your healthcare information from anywhere.
 
 As a user with the sn\_hcls.patient role, you can access the Patient Portal page by [registering yourself on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patient.md). To begin with the Patient Portal, you might need to first accept the privacy policy of your healthcare organization and then [enter the key personal information](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-entering-per-info.md).
 
 From the Patient Portal, you can request healthcare services, complete your to-do tasks, and receive notifications to provide the required approval or information. You can also check the healthcare information about your household members.
-
-\[Omitted image "hcls-patient-portal.png"\] Alt text: Landing page for Patient Portal showing patient information. For the image description, refer to the text that follows.
 
 Depending on the configurations set by your administrator, as a patient, you can perform the following tasks from the Patient Portal:
 
@@ -71,9 +69,9 @@ Depending on the configurations set by your administrator, as a patient, you can
 
 The Patient Portal home page also provides menu options for viewing and scheduling your appointments, viewing your open and closed to-do items and healthcare requests, and requesting healthcare services.
 
--   **[Registering on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patient.md)**  
+-   **[Register on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-registering-patient.md)**  
 As a patient, you can create an account on a patient portal to avail your healthcare services online including scheduling your vaccinations.
--   **[Entering key personal information on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-entering-per-info.md)**  
+-   **[Enter key personal information on the Patient Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-entering-per-info.md)**  
 As a patient, after you have registered on your Patient Portal, you can provide your personal information to help organizations determine your healthcare services.
 
 **Parent Topic:**[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-core-app.md)

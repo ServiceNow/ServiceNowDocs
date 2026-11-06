@@ -1,5 +1,5 @@
 ---
-title: View self-health monitoring statistics for Metric Intelligence
+title: View Metric Intelligence self-health statistics
 description: Monitor the status of components and processes of Metric Intelligence. Use the XMLStats page to view statistics and diagnostic details that can help with troubleshooting issues with Metric Intelligence.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/metric-intelligence/xmlstats-oi-self-health.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
-# View self-health monitoring statistics for Metric Intelligence
+# View Metric Intelligence self-health statistics
 
 Monitor the status of components and processes of Metric Intelligence. Use the XMLStats page to view statistics and diagnostic details that can help with troubleshooting issues with Metric Intelligence.
 

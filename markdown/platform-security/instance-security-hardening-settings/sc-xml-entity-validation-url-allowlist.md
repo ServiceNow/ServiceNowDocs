@@ -1,5 +1,5 @@
 ---
-title: Restrict XML external entities \[Updated in Security Center 1.3 and 2.0\]
+title: Restrict XML external entities
 description: Configure system properties to ensure that your instance only processes XML from trusted sources to help prevent XML external entity \(XXE\) attacks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-xml-entity-validation-url-allowlist.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-01-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Restrict XML external entities \[Updated in Security Center 1.3 and 2.0\]
+# Restrict XML external entities
 
 Configure system properties to ensure that your instance only processes XML from trusted sources to help prevent XML external entity \(XXE\) attacks.
 
@@ -26,9 +26,9 @@ Ensure that the **glide.xml.entity.whitelist** system property exists in the Sys
 
 Values other than `http://java.sun.com/j2ee/dtds/` can be included in the **glide.xml.entity.whitelist** property, but are unnecessary for the out of the box platform state. Review any additional values to determine if they are safe.
 
-**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
-
 ## More information
+
+**Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -61,7 +61,7 @@ Data type
 
 </td><td>
 
--   String
+-   Comma-separated list
 -   Boolean
 
 String

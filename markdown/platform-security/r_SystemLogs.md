@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/r\_SystemLogs.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [System logs, Logs, Platform Security]
 ---
@@ -63,7 +63,7 @@ Message
 
 </td><td>
 
-System-generated message regarding the nature of the occurrence.
+System-generated message regarding the nature of the occurrence.**Note:** Long messages and stack traces are collapsed by default and can be expanded. To disable, see [Disable stack trace formatting in system logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/diable-system-log-display.md).
 
 </td></tr><tr><td>
 

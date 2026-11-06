@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Manage goals, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Manage portfolio plan goals, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Target actuals automation in Strategic Planning
@@ -44,6 +44,6 @@ You must perform the following steps on the [Target form](https://raw.githubuser
         \[Omitted image "target-automation-selecting-benefit-plan.png"\] Alt text: Benefit plan variables for target source in Strategic Planning
 
     -   Custom target source - Create a custom target source and configure it as a source to update the actual value of the target. For instructions on how to create a target source, see [Create a target source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/create-target-source-for-automating-the-actual-value-of-the-targets-apw.md).
-    For instructions on creating targets for a goal, see [Create targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
+    For instructions on creating targets for a goal, see [Add targets for a goal in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/set-targets-for-goal-egm.md).
 
 

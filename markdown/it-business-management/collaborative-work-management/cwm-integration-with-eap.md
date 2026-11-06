@@ -7,8 +7,8 @@ release: yokohama
 product: Collaborative Work Management
 classification: collaborative-work-management
 topic_type: concept
-last_updated: "2025-10-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use, Collaborative Work Management, Strategic Portfolio Management]
 ---
 
@@ -40,11 +40,23 @@ This connection between the applications reduces context switching and ensures t
 
 For EAP teams integrated with CWM, existing sprints and their scheduled work automatically sync to CWM. These details are displayed in the Sprint Planning view on the CWM Board.
 
+Sprint name, state, capacity, and dates all sync automatically from EAP to CWM, including for Agile teams that use non-calendar-based iterations.
+
 As the team progresses through assigned work, they can update the work status directly in the Sprints section. The sprint can be marked **Complete** from this view and any incomplete work items can be moved either to the backlog or the next sprint, if it exists.
 
 New sprints for the team must be created in EAP. After creating new sprints in EAP, they will sync to CWM, allowing the team to schedule work into these sprints from CWM.
 
+**Note:** Sprints for EAP teams are not created directly at the Agile team level. Sprints are created automatically when a Planning Interval \(PI\) is defined for the parent Agile Release Train \(ART\) in EAP and sync to CWM automatically.
+
 \[Omitted image "eap-cwm-sprints.png"\] Alt text: Sprint planning view for EAP teams in CWM.
+
+## Tabs and sprint actions for connected teams
+
+The Home, Backlog, Hierarchy, Planning board, and Docs tabs remain available in EAP for teams connected to CWM.
+
+The **Start Sprint** and **Complete Sprint** options are hidden in the EAP Backlog for these teams. Start and complete sprints from the Sprint planning view on the CWM Board instead.
+
+On the team page in EAP, select **Go to CWM** to open the team's board. In the Sprint planning view of the CWM Board, a banner message states that sprints for the board are managed in EAP.
 
 **Parent Topic:**[Using Collaborative Work Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/collaborative-work-management/using-collaborative-work-management.md)
 

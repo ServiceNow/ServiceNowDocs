@@ -1,14 +1,14 @@
 ---
 title: openFrameAPI - Client
-description: The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.Returns the logged in agent’s current presence state.Hides the OpenFrame in the TopFrame.Initializes OpenFrame. This must be the first method that you call.Checks to see if the OpenFrame is visible in the TopFrame.Opens a custom URL in the UI16 interface.Opens a form URL.Opens a ServiceNow form with a child tab if invoked in a workspace or opens an entity if invoked in the UI16 interface.Opens a list URL in the UI16 interface.Sets the OpenFrame mode.Sets the OpenFrame height.Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.Defines icons in the OpenFrame header that are placed next to the close icon.Sets the presence indicator to display agent availability in a workspace.Sets the OpenFrame size.Sets the OpenFrame subtitle.Sets the OpenFrame title.Sets the OpenFrame's title icon.Sets the OpenFrame width.Makes the OpenFrame visible in the TopFrame.Subscribes to a specified event.Returns the OpenFrame API version.
+description: The openFrameAPI provides methods that interact with OpenFrame. OpenFrame is an omni-present frame that communication partners can use to integrate their systems into the ServiceNow platform.Returns the logged in agent’s current presence state.Hides the OpenFrame in the TopFrame.Initializes OpenFrame. This must be the first method that you call.Checks to see if the OpenFrame is visible in the TopFrame.Opens a custom URL in the UI16 interface.Opens a form URL.Opens a ServiceNow form with a child tab if invoked in a workspace or opens an entity if invoked in the UI16 interface.Opens a list URL in the UI16 interface.Sets the OpenFrame mode.Sets the OpenFrame height.Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.Defines icons in the OpenFrame header that are placed next to the close icon.Sets the presence indicator to display agent availability in a workspace.Sets the OpenFrame size.Sets the OpenFrame subtitle.Sets the OpenFrame title.Sets the OpenFrame's title icon.Displays an alert message.Sets the OpenFrame width.Makes the OpenFrame visible in the TopFrame.Subscribes to a specified event.Returns the OpenFrame API version.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/c\_openFrameAPI.html
 release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 33
+last_updated: "2026-09-10"
+reading_time_minutes: 46
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---
 
@@ -658,7 +658,7 @@ openFrameAPI.setHeight(100);
 
 Sets the context data related to the interaction controls on the client. Use this context data to determine the client UI to display in OpenFrame.
 
-For additional information on interactive controls, see [Interaction Controls Component](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/interaction-controls-component.md).
+For additional information on interactive controls, see [Integrating contact centers with Interaction Controls Component \(ICC\) for voice calls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/contact-center-integration-with-icc.md).
 
 For additional information on interaction records, see [CSM voice interaction record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-native-voice-record-page.md).
 
@@ -676,31 +676,6 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Type
-
-</td><td>
-
-String
-
-</td><td>
-
-Type of context data to set. Valid values:
-
--   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]` JSON as the **Context** parameter.
-
-\[Omitted image "OF-active\_call.png"\] Alt text: Active call component
-
--   idleState: Sets the idle state capabilities for the current user. When this is set, the idle state UI \(dial pad\) appears in OpenFrame. When you pass this context type, you must also pass the `<idleState>{}` JSON as the **Context** parameter.
-
-\[Omitted image "OF-dialpad.png"\] Alt text: Keypad component
-
--   searchTargetList: Sets the telephone directory context. When this is set, it enables **Transfer call** on the Active call component. When you pass this context type, you must also pass the `searchTargetList[]` JSON as the **Context** parameter.
-
-\[Omitted image "OF-searchTargetList.png"\] Alt text: Transfer call component
-
-
-</td></tr><tr><td>
-
 &lt;Context&gt;
 
 </td><td>
@@ -709,10 +684,12 @@ Object
 
 </td><td>
 
-Context data to set. Each context data type has a different set of possible input data.Valid **Context** data objects:
+Context data to set. Each context data type is a unique set of input data.Valid **Context** data objects:
 
 -   `activeCall`
+-   `activeConversation`
 -   `idleState`
+-   `offerContext`
 -   `searchTargetList`
 
 </td></tr><tr><td>
@@ -728,6 +705,7 @@ Array of Objects
 Context details about an active call. Each object represents an ongoing active call.```
 "activeCall": [
   { 
+    "callbackContext": {Object},
     "currentParticipant": {Object},
     "customPayload: {Object},
     "direction": "String",
@@ -762,7 +740,7 @@ Only used if the **activeCall.type** property is `callback`. Callback context in
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. callAttemptedByAgent
+activeCall.callbackContext.callAttemptedByAgent
 
 </td><td>
 
@@ -779,7 +757,7 @@ Default: False
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. callbackNumbers
+activeCall.callbackContext.callbackNumbers
 
 </td><td>
 
@@ -791,7 +769,7 @@ List of phone numbers provided as strings.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. closeInEndTime
+activeCall.callbackContext.closeInEndTime
 
 </td><td>
 
@@ -799,11 +777,11 @@ String
 
 </td><td>
 
-Set only if **callAttemptedByAgent** is true. End time for callback in UTC format.
+Applies only when `callAttemptedByAgent=true`. End time for callback in UTC format.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. customerName
+activeCall.callbackContext.customerName
 
 </td><td>
 
@@ -815,7 +793,7 @@ Name of the customer.
 
 </td></tr><tr><td>
 
-activeCall. callbackContext. dialInEndTime
+activeCall.callbackContext.dialInEndTime
 
 </td><td>
 
@@ -823,7 +801,7 @@ String
 
 </td><td>
 
-Set only if **callAttemptedByAgent** is false and the type of callback is auto-dial. Dial-in end time for callback in UTC format.
+Only applies when `callAttemptedByAgent=false` and the type of callback is auto-dial. Dial-in end time for callback in UTC format.
 
 </td></tr><tr><td>
 
@@ -850,6 +828,7 @@ Required. Details about the current participant's call capabilities and call sta
   "paused": Boolean,
   "recording": "String",
   "state": "String",
+  "supervisor": "Object",
   "wrapUP": {Object}
 }
 ```
@@ -898,10 +877,14 @@ Details about the capabilities that the current \(agent\) participant can perfor
 
 ```
 "capabilities": {
+  "callbackTransferStatus": "String",
+  "cancelCallbackTransferEligible": Boolean,
+  "closeCallback": Boolean,
   "dtmf": Boolean,
   "endCall": Boolean,
   "flag": Boolean,
   "hold": Boolean,
+  "initiateCall": Boolean,
   "leaveAndTransfer": Boolean,
   "mergeCall": Boolean,
   "mute": Boolean,
@@ -909,9 +892,106 @@ Details about the capabilities that the current \(agent\) participant can perfor
   "pauseRecording": Boolean,
   "startRecording": Boolean,
   "stopRecording": Boolean,
-  "transfer": Boolean
+  "transfer": Boolean,
+  "monitor": Boolean,
+  "coach": Boolean, 
+  "barge": Boolean
 }
 ```
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.capabilities.monitor
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the supervisor can monitor a call. Valid values:
+
+-   `true`: Supervisor can monitor. The monitor button is enabled in the UI.
+-   `false`: Supervisor can't monitor. The monitor button is disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.capabilities.coach
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the supervisor can provide coaching on the call. -   `true`: Supervisor can coach. The coaching controls are enabled in the UI.
+-   `false`: Supervisor can't coach. The coaching controls are disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.capabilities.barge
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the supervisor can barge into the call \(join an ongoing conversation\). Valid values: \* true: Supervisor can barge in. The barge button is enabled in the UI. \* false: Supervisor cannot barge in. The barge button is disabled in the UI. Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.​capabilities.callbackTransferStatus
+
+</td><td>
+
+String
+
+</td><td>
+
+CCaaS \(Contact Center as a Service\) callback transfer status.Possible values:
+
+-   Success
+-   Failed
+-   Empty string \(default\)
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.​capabilities.cancelCallbackTransferEligible
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates if the cancel callback transfer option is enabled.Valid values:
+
+-   true: Cancel callback transfer option is enabled.
+-   false: Cancel callback transfer option is disabled.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.​capabilities.closeCallback
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the close callback button is enabled.Valid values:
+
+-   true: Close callback button is enabled.
+-   false: Close callback button is disabled.
+
+Default: false
 
 </td></tr><tr><td>
 
@@ -957,7 +1037,7 @@ Boolean
 
 </td><td>
 
-Flag that indicates whether the participant can flag the call for quality issues, such as a voice quality problems.Valid values:
+Flag that indicates whether the participant can flag the call for quality issues, such as voice quality problems.Valid values:
 
 -   true: Participant can flag problem calls.
 -   false: Participant can't flag problem calls.
@@ -978,6 +1058,23 @@ Flag that indicates whether the participant can put the call on hold.Valid value
 
 -   true: Participant can put the call on hold. The hold button is enabled in the UI.
 -   false: Participant can't put the call on hold. The hold button is disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.​capabilities.​initiateCall
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the associated participant can start the call.Valid values:
+
+-   true: Participant can start the call. The initiate call button is enabled in the UI.
+-   false: Participant can't start the call. The initiate call button is disabled in the UI.
 
 Default: false
 
@@ -1034,23 +1131,6 @@ Default: false
 
 </td></tr><tr><td>
 
-activeCall.currentParticipant.​capabilities.​resumeRecording
-
-</td><td>
-
-Boolean
-
-</td><td>
-
-Flag that indicates whether the participant can resume recording the call.Valid values:
-
--   true: Participant can resume recording the call. The pause recording button is enabled in the UI.
--   false: Participant can't resume recording the call. The pause recording button is disabled in the UI.
-
-Default: false
-
-</td></tr><tr><td>
-
 activeCall.currentParticipant.​capabilities.​pauseRecording
 
 </td><td>
@@ -1063,6 +1143,23 @@ Flag that indicates whether the participant can pause recording the call.Valid v
 
 -   true: Participant can pause recording the call. The pause recording button is enabled in the UI.
 -   false: Participant can't pause recording the call. The pause recording button is disabled in the UI.
+
+Default: false
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.​capabilities.​resumeRecording
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the participant can resume recording the call.Valid values:
+
+-   true: Participant can resume recording the call. The pause recording button is enabled in the UI.
+-   false: Participant can't resume recording the call. The pause recording button is disabled in the UI.
 
 Default: false
 
@@ -1257,6 +1354,57 @@ Current recording state of the call.Valid values:
 
 </td></tr><tr><td>
 
+activeCall.currentParticipant.supervisor
+
+</td><td>
+
+Object
+
+</td><td>
+
+Container for supervisor-related call control settings. Only applies when `currentParticipant.actor` is "supervisor". ```
+supervisor: {
+    "action": "String",
+    "target": [Array]
+  }
+```
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.supervisor.action
+
+</td><td>
+
+String
+
+</td><td>
+
+Supervisor action type governing the banner message and available controls. Valid values:
+
+-   coaching: Supervisor is coaching the agent.
+-   monitoring: Supervisor is monitoring the call.
+-   barging: Supervisor has barged into the call.
+
+**Note:** No capability check is performed before showing the banner; the action value alone determines the UI display.
+
+Default: None \(supervisor object is optional\)
+
+</td></tr><tr><td>
+
+activeCall.currentParticipant.supervisor.target
+
+</td><td>
+
+Array of Strings
+
+</td><td>
+
+Array of **participantId** values identifying the target participant\(s\) for the supervisor action. Omit this field for global actions \(like when action is monitoring applied to the entire call without targeting a specific participant\). Example \(targeted\): "target": \["participantId"\]
+
+Example \(global\): Omit target field entirely.
+
+</td></tr><tr><td>
+
 activeCall.currentParticipant.​wrapUP
 
 </td><td>
@@ -1382,18 +1530,6 @@ Type of actor for the associated participant. For example:
 
 </td></tr><tr><td>
 
-activeCall.​participants.​ani
-
-</td><td>
-
- 
-
-</td><td>
-
-Automatic number identification. Telephone number to display to the receiver of the phone call.
-
-</td></tr><tr><td>
-
 activeCall.​participants.​address
 
 </td><td>
@@ -1403,6 +1539,18 @@ String
 </td><td>
 
 Participant's telephone number.
+
+</td></tr><tr><td>
+
+activeCall.​participants.​ani
+
+</td><td>
+
+ 
+
+</td><td>
+
+Automatic number identification. Telephone number to display to the receiver of the phone call.
 
 </td></tr><tr><td>
 
@@ -1593,7 +1741,7 @@ Boolean
 
 </td><td>
 
-For agent use case only - only valid when the **activeCall.currentParticipant.actor** is "agent".Flag that indicates whether the participant needs to follow-up with the customer.
+For agent use case only - only valid when the **activeCall.currentParticipant.actor** is "agent".Flag that indicates whether the participant is to follow up with the customer.
 
 Valid values:
 
@@ -1662,6 +1810,171 @@ Type of call.Valid values:
 
 </td></tr><tr><td>
 
+activeConversation
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Context details about an active conversation. Each object represents an ongoing messaging interaction.
+
+```
+"activeConversation": [
+ { 
+  "externalId": "String",
+  "nowRecordId": "String", 
+  "nowRecordTable": "String",  
+  "wrapUpRequired": Boolean 
+ }
+]
+```
+
+</td></tr><tr><td>
+
+activeConversation.nowRecordId
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Sys\_id of the active call record.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+activeConversation.nowRecordTable
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Table to which the active call belongs.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+activeConversation.wrapupRequired
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether to display the **Wrap up** component once the agent leaves the chat.Valid values:
+
+-   true: Display the Wrap up component once agent leaves the chat.
+-   false: Don't display the Wrap up component while agent leaving the chat.
+
+Default: false
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue
+
+</td><td>
+
+Object
+
+</td><td>
+
+Container for all outbound queue selection data and available queue options.```
+"outboundQueue": {
+ "currentSelectedQueue": {Object},
+ "targets": {Object}
+}
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue
+
+</td><td>
+
+Object
+
+</td><td>
+
+Represents the queue currently selected by the agent. Stores the agent's active queue choice.```
+"currentSelectedQueue": {
+      "label": "String",
+      "id": "String"
+    }
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue.id
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique identifier for the currently selected queue. For example: `"queueId1"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.currentSelectedQueue.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Display name of the currently selected queue. For example: `"Account Support"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Array of queue objects representing all available queue options the agent can select from.```
+"targets": [
+ {
+  "label": "String",
+  "id": "String"
+ }
+]
+```
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets.id
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique identifier for the queue option. For example: `"queueId2"`.
+
+</td></tr><tr><td>
+
+agentSettings.outboundQueue.targets.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Display name of the queue option. For example: `"Billing Support"`.
+
+</td></tr><tr><td>
+
 idleState
 
 </td><td>
@@ -1693,7 +2006,9 @@ Description of the current user's idle state capabilities.```
 "capability": {
   "globalContactSearch": Boolean,
   "logOut": Boolean,
-  "outBoundCall": Boolean
+  "outBoundCall": Boolean,
+  "phoneDirectory": Boolean,
+  "outboundQueueSelection": Boolean,
 }
 ```
 
@@ -1745,6 +2060,40 @@ Flag that indicates whether the user can make an outbound call while in the idle
 
 -   true: User can make an outbound call when the call is idle.
 -   false: User can't make an outbound call when the call is idle.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.capability.outboundQueueSelection
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the outbound queue selection field should be enabled.Valid values:
+
+-   true: Display the outbound queue selection field while in the idle state.
+-   false: Don't display the outbound queue selection field while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.capability.phoneDirectory
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the phone directory button should be enabled.Valid values:
+
+-   true: Display the phone directory button while in the idle state.
+-   false: Don't display the phone directory button while in the idle state.
 
 Default: false
 
@@ -1819,8 +2168,9 @@ Object
 
 Details about the enable state of the buttons on the dial pad.```
 "enableState": {
-   "logOut": Boolean,
-   "outBoundCall": Boolean
+  "logOut": Boolean,
+  "outBoundCall": Boolean,
+  "outboundQueueSelection": Boolean
  }
 ```
 
@@ -1860,6 +2210,373 @@ Default: false
 
 </td></tr><tr><td>
 
+idleState.enableState.outboundQueueSelection
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates whether the outbound queue selection field should be enabled.Valid values:
+
+-   true: Display the outbound queue selection field while in the idle state.
+-   false: Don't display the outbound queue selection field while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+idleState.​enableState.phoneDirectory​
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Flag that indicates the phone directory button should be enabled.Valid values:
+
+-   true: Display the phone directory button while in the idle state.
+-   false: Don't display the phone directory button while in the idle state.
+
+Default: false
+
+</td></tr><tr><td>
+
+offerContext
+
+</td><td>
+
+Object
+
+</td><td>
+
+Details about the current participant's offer context for resiliency.```
+{
+  "assignment": {Object},
+  "creationTime": "String",
+  "description": "String",
+  "displayContent": {Object},
+  "externalId": "String",
+  "externalSegmentId": "String",
+  "isResilient": Boolean,
+  "metadata": {Object},
+  "nowRecordId": "String",
+  "nowRecordTable": "String",
+  "providerAppInboundId": "String",
+  "queueId": "String",
+  "requesterId": "String",
+  "transferContent": {Object},
+  "type": "String"
+}
+```
+
+</td></tr><tr><td>
+
+offerContext.assignment
+
+</td><td>
+
+Object
+
+</td><td>
+
+Details about the agent assignment.```
+"assignment": {
+  "allowedToDecline": Boolean,
+  "enableAutoAssign": Boolean,
+  "offeredOn": "String",
+  "timeout": "String"
+}
+```
+
+</td></tr><tr><td>
+
+offerContext.assignment. allowedToDecline
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Required. Flag that indicates whether the agent is allowed to decline the assignment.Valid values:
+
+-   true: The agent is allowed to decline the assignment.
+-   false: The agent is not allowed to decline the assignment.
+
+Default: false
+
+</td></tr><tr><td>
+
+offerContext.assignment. enableAutoAssign
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Required. Flag that indicates whether an agent receive the assignment automatically.Valid values:
+
+-   true: An agent can receive the assignment automatically.
+-   false: An agent can not receive the assignment automatically.
+
+Default: false
+
+</td></tr><tr><td>
+
+offerContext.assignment. offeredOn
+
+</td><td>
+
+String
+
+</td><td>
+
+Date at which the offer was made in UTC format \(Www, dd Mmm yyyy HH:mm:ss GMT\).
+
+</td></tr><tr><td>
+
+offerContext.assignment. timeout
+
+</td><td>
+
+String
+
+</td><td>
+
+Time in milliseconds to assign to an agent before timeout.
+
+</td></tr><tr><td>
+
+offerContext.creationTime
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Call creation date and time in UTC format \(YYYY-MM-DDTHH:MM:SS\).
+
+</td></tr><tr><td>
+
+offerContext.description
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Description of the offer.
+
+</td></tr><tr><td>
+
+offerContext.displayContent
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. Unique JSON payload values representing values displayed on screen.
+
+</td></tr><tr><td>
+
+offerContext.externalId
+
+</td><td>
+
+String
+
+</td><td>
+
+Unique value that identifies the current active call on the associated external system.
+
+</td></tr><tr><td>
+
+offerContext.isResilient
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+Optional. Flag that indicates whether the offer context is resilient.Valid values:
+
+-   true: The offer context is resilient.
+-   false: The offer context is not resilient.
+
+Default: true
+
+</td></tr><tr><td>
+
+offerContext.metadata
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. Free-form custom JSON payload values.
+
+</td></tr><tr><td>
+
+offerContext.​nowRecordId
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Sys\_id of the active call record.Table: Interaction \[interaction\] Only supported option for base system.
+
+</td></tr><tr><td>
+
+offerContext.​nowRecordTable
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Use this property to set the work item and segment for transfers.
+
+</td></tr><tr><td>
+
+offerContext. providerAppInboundId
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional. Unique ID from the inbound third-party provider.
+
+</td></tr><tr><td>
+
+offerContext.​queueId
+
+</td><td>
+
+String
+
+</td><td>
+
+Required for regular \(non-transfer\) assignments. Unique ID representing the assignment queue. Use the **transferContent.targetId** property for transfer assignments.
+
+</td></tr><tr><td>
+
+offerContext.​requesterId
+
+</td><td>
+
+String
+
+</td><td>
+
+Required. Unique ID of the offer requester. For voice, this value can be the phone number of the user.
+
+</td></tr><tr><td>
+
+offerContext.transferContent
+
+</td><td>
+
+Object
+
+</td><td>
+
+Details required for transfer assignments.```
+"transferContent": {
+  "sourceQueueId": "String",
+  "targetId": "String",
+  "targetType": "String",
+  "transferType": "String"
+}
+```
+
+</td></tr><tr><td>
+
+offerContext.transferContent.sourceQueueId
+
+</td><td>
+
+String
+
+</td><td>
+
+The sys\_id or external ID of the assignment queue.
+
+</td></tr><tr><td>
+
+offerContext.transferContent.targetId
+
+</td><td>
+
+String
+
+</td><td>
+
+The sys\_id or external ID of the queue transfer.
+
+</td></tr><tr><td>
+
+offerContext.transferContent.targetType
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of transfer target.Valid values:
+
+-   agent
+-   queue
+
+</td></tr><tr><td>
+
+offerContext.transferContent.transferType
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of transfer.Valid values:
+
+-   blind
+-   consult
+
+</td></tr><tr><td>
+
+offerContext.type
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of call.Valid values:
+
+-   call
+-   callback request
+-   voicemail
+
+</td></tr><tr><td>
+
 searchTargetList
 
 </td><td>
@@ -1875,7 +2592,9 @@ Context details of the transfer related data for a ServiceNow table.```
     "nowRecordId": "String",
     "nowRecordTable": "String",
     "participantID": "String",
-    "targets": [Array]
+    "quickStats": [Array],
+    "targets": [Array],
+    "targetTypes": [Array]
   }
 ]
 ```
@@ -1930,6 +2649,51 @@ Unique identifier for the participant from the CCaaS system.
 
 </td></tr><tr><td>
 
+searchTargetList.quickStats
+
+</td><td>
+
+Array of Objects
+
+</td><td>
+
+Optional. Applies only to agent entries. A list of status descriptors displayed inline in the agent row for providing agent status information.```
+"quickStats": [
+  {
+    "label": "String",
+    "value": "String"
+  }
+]
+```
+
+Example rendering: `Available | On Call 1`
+
+</td></tr><tr><td>
+
+searchTargetList.quickStats.label
+
+</td><td>
+
+String
+
+</td><td>
+
+Status label displayed in the agent row.
+
+</td></tr><tr><td>
+
+searchTargetList.quickStats.value
+
+</td><td>
+
+String
+
+</td><td>
+
+Optional value appended to the label.
+
+</td></tr><tr><td>
+
 searchTargetList.​targets
 
 </td><td>
@@ -1968,7 +2732,7 @@ Details about the information to display in the transfer call control.The follow
 }
 ```
 
-This example shows an agent payload \(`"searchTargetList.targets.type" : "agent"`\).
+This example shows an agent payload \(`"searchTargetList.targets.type": "agent"`\).
 
 ```
 "payload": {
@@ -1976,7 +2740,7 @@ This example shows an agent payload \(`"searchTargetList.targets.type" : "agent"
     {
       "name": "Alice Anderson",
       "id": "agent1Id",
-      "hasStats": "true",
+      "hasStats": true,
       "presence": "available",
       "moreInfo": [
         {
@@ -1989,7 +2753,7 @@ This example shows an agent payload \(`"searchTargetList.targets.type" : "agent"
 }
 ```
 
-The following shows an example of a queue payload \(`"searchTargetList.targets.type" : "queue"`\).
+The following shows an example of a queue payload \(`"searchTargetList.targets.type": "queue"`\).
 
 ```
 "payload": {
@@ -1997,7 +2761,7 @@ The following shows an example of a queue payload \(`"searchTargetList.targets.t
     {
       "name": "Product Support Queue",
       "id": "queue1Id",
-      "hasStats": "true",
+      "hasStats": true,
       "moreInfo": [
         {
           "label": "Skill",
@@ -2012,7 +2776,7 @@ The following shows an example of a queue payload \(`"searchTargetList.targets.t
     {
       "name": "Billing Queue",
       "id": "queue2Id",
-      "hasStats": "true",
+      "hasStats": true,
       "moreInfo": [
         {
            "label": "Skill",
@@ -2222,12 +2986,119 @@ Type of target.Valid values:
 -   external
 -   queue
 
-</td></tr></tbody>
-</table>|Type|Description|
-|----|-----------|
-|None| |
+</td></tr><tr><td>
 
-The following code example shows how to set the active state context.
+searchTargetList.targetTypes
+
+</td><td>
+
+Array of Strings
+
+</td><td>
+
+Optional. Specifies which tabs to display in the Phone Directory component based on the given interaction.```
+targetTypes: ["String", "String", "String"]
+```
+
+Accepted values:
+
+-   agent
+-   queue
+-   external
+
+Default: All three tabs are displayed.
+
+</td></tr><tr><td>
+
+Type
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of context data to set. Valid values:
+
+-   activeCall: Sets the context for the ongoing Active call component. When you pass this context type, you must also pass the `activeCall[]` **Context** parameter.
+-   idleState: Sets the idle state capabilities for the current user. When this type is set, the idle state UI \(dial pad\) appears in OpenFrame. When you pass this context type, you must also pass the `<idleState>{}` JSON as the **Context** parameter.
+-   offerContext: Sets the current participant's offer context for resiliency. When you pass this context type, you must also pass the `offerContext{}` JSON as the **Context** parameter.
+-   searchTargetList: Sets the telephone directory context. When this type is set, it enables **Transfer call** on the Active call component. When you pass this context type, you must also pass the `searchTargetList[]` JSON as the **Context** parameter.
+
+</td></tr></tbody>
+</table><table id="table_ylq_rhg_zdc" class="returns"><thead><tr><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+None
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Error \(offerContext\)
+
+</td><td>
+
+Error messages associated with the **offerContext** object used for resiliency. To view these messages, use the [subscribe\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/c_openFrameAPI.md) method to subscribe to **openframe\_awa\_client\_offer** event.Context values are represented as follows:
+
+1.  success
+2.  error
+3.  partialSuccess
+
+-   **AWA\_EXTUSER\_ROLE\_CHECK\_FAILED**
+
+Message: User does not have the awa\_external\_user role.
+
+This event indicates that the required role 'awa\_external\_user' or 'admin' is not present for the agent.
+
+-   **AWA\_AGENT\_NOT\_AVAILABLE**
+
+Message: Agent is not available to receive work.
+
+This event indicates that the agent selected is unavailable.
+
+-   **AWA\_OFFER\_ASSIGNMENT\_PAYLOAD\_MISSING**
+
+Message: Assignment payload is empty or undefined in the offerContext.
+
+This event indicates that the payload is empty or undefined in the **offerContext** object.
+
+-   **AWA\_OFFER\_QUEUEID\_MISSING**
+
+Message: Transfer Source queue ID is missing in the offerContext.
+
+This event indicates that the required transfer queue ID \(**transferContent.targetId**\) is missing from the **offerContext** object.
+
+-   **AWA\_ASSIGNMENT\_OFFEREDON\_FUTURE**
+
+Message: OfferedOn time is in future.
+
+This event indicates that the value of the **assignment.offeredOn** property is a future date and invalid. The date must be present or earlier.
+
+-   **AWA\_ASSIGNMENT\_OFFEREDON\_INVALID\_FORMAT**
+
+Message: OfferedOn date format is invalid, Please send it in "Www, dd Mmm yyyy HH:mm:ss GMT" UTC format.
+
+This event indicates that the value provided for the **offerContext.assignment.offeredOn** property is not in the proper time date format.
+
+-   **AWA\_OFFER\_EXTERNALID\_MISSING**
+
+Message: ExternalId is missing in the offerContext.
+
+This event indicates that the required externalId property has not been provided for the offer. This value identifies the current active call on the associated external system.
+
+
+</td></tr></tbody>
+</table>The following code example shows how to set the active state context.
 
 ```
 openFrameAPI.setICContext("activeCall", {
@@ -2364,7 +3235,7 @@ openFrameAPI.setICContext("activeCall", {
           "connectedTime": "Fri, 12 Jul 2024 20:24:41 GMT",
           "muted": true,
           "held": true,
-          "heldaAtTime": "Fri, 12 Jul 2024 20:24:41 GMT”,
+          "heldAtTime": "Fri, 12 Jul 2024 20:24:41 GMT”,
           "capabilities": {
             "mute": true,
             "endCall": true,
@@ -2385,15 +3256,19 @@ The following example shows how to set the idle state context.
 openFrameAPI.setICContext("idleState", {
   "capability": {
     "outBoundCall": true,
-    "logOut": true 
+    "logOut": true,
+    "phoneDirectory": true,
+    "outboundQueueSelection": true
   },
   "enableState": {
     "outBoundCall": true,
-    "logOut": true
+    "logOut": true,
+    "phoneDirectory": true,
+    "outboundQueueSelection": true
   },
   "dialpadInfoMessage": {
-    "label": "Info Message Label",
-    "value": "Info Message Value"
+    "label": "DialPadInfo_Label",
+    "value": "DialpadInfo_Value"
   },
   "currentInboundId": "1234"
 });
@@ -2409,7 +3284,8 @@ openFrameAPI.setICContext("searchTargetList",
         "nowRecordTable": "interaction",
         "nowRecordId": "1234",
         "externalId": "5678",
-        "participantID": "participant1",
+        "participantID": "participant1”,
+        “targetTypes”: [“agent”, “queue”],
         "targets": [
           {
             "type": "agent",
@@ -2457,7 +3333,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "Product Support Queue",
                   "id": "queue1Id",
-                  "hasStats": "true",
+                  "hasStats": true,
                   "moreInfo": [
                     {
                       "label": "Skill",
@@ -2472,7 +3348,7 @@ openFrameAPI.setICContext("searchTargetList",
                 {
                   "name": "Billing Queue",
                   "id": "queue2Id",
-                  "hasStats": "true",
+                  "hasStats": true,
                   "moreInfo": [
                     {
                       "label": "Skill",
@@ -2518,13 +3394,160 @@ var callbackContext = {
         "callbackNumbers": [
           "8665551234"
         ],
-        "callAttemptedByAgent": "true",
+        "callAttemptedByAgent": true,
         "closeInEndTime": "Mon, 05 Dec 2024 09:25:08 GMT",
         "dialInEndTime": ""
       }
     }
   ]
 }
+```
+
+The following example shows how to set resiliency call response details using the offerContext property.
+
+```
+// Set offerContext
+openFrameAPI.setICContext('offerContext', offerContext);
+
+var offerContext = {
+  "offerContext": [
+    {
+      "nowRecordTable": "interaction",
+      "type": "phone",
+      "externalId": "1234567890",
+      "externalSegmentId": "12345yhedfh534576u5",
+      "queueId": "10111ad087063250df52fe66cebb3520",
+      "creationTime": "19-12-2025 11:23:45",
+      "requesterId": "4085018550",
+      "assignment": {
+        "offeredOn": "Fri, 19-12-2025  13:07:59",
+        "timeout": "4000",
+        "allowedToDecline": true,
+        "enableAutoAssign": true
+      },
+      "displayContent": {
+        "title": "Phone",
+        "displayContent1": "Abel Tuter",
+        "displayContent2": "Priority - 4-Low",
+        "displayContent3": "category - Product Issue"
+      }
+    }
+  ]
+};
+```
+
+### Agent Selects a Support Queue using the agentSettings property
+
+The `setICContext("agentSettings")` method configures queue selection options for contact center agents in OpenFrame. The first example initializes the agent's environment by setting a default queue \("Account Support"\) and populating a dropdown menu with all available queue options.
+
+As the agent's assignment changes or they manually switch queues, the second example demonstrates how to update `currentSelectedQueue` to reflect the new selection, keeping the system synchronized with the agent's active queue. This allows the OpenFrame interface to display the correct queue context and route interactions to the appropriate team.
+
+```
+// Initialize agentSettings context with available queues
+openFrameAPI.setICContext("agentSettings", {
+  "outboundQueue": {
+    "currentSelectedQueue": {
+      "label": "Account Support",
+      "id": "queueId1"
+    },
+    "targets": [
+      {
+        "label": "Account Support",
+        "id": "queueId1"
+      },
+      {
+        "label": "Billing Support",
+        "id": "queueId2"
+      },
+      {
+        "label": "Hardware Support",
+        "id": "queueId3"
+      },
+      {
+        "label": "Product Support",
+        "id": "queueId4"
+      },
+      {
+        "label": "Sales Support",
+        "id": "queueId5"
+      }
+    ]
+  }
+});
+```
+
+In this example, the agent switches to Billing Support as the newly selected queue:
+
+```
+// Agent switches to Billing Support
+openFrameAPI.setICContext("agentSettings", {
+  "outboundQueue": {
+    "currentSelectedQueue": {
+      "label": "Billing Support",
+      "id": "queueId2"
+    },
+    "targets": [
+      // ... same targets array
+    ]
+  }
+});
+```
+
+### Setting Active Conversation Context
+
+Use case - When an agent receives an inbound interaction:
+
+-   The system identifies the ServiceNow interaction record and passes its record ID.
+-   The externalId stores any external system reference \(e.g., from a third-party contact center\).
+-   If the interaction requires post-call work, wrapUpRequired is set to true.
+-   The OpenFrame interface is synchronized with the active conversation context, allowing agents to access conversation history and interaction details.
+
+```
+// Initialize activeConversation context with the current interaction
+openFrameAPI.setICContext('activeConversation', {
+  'activeConversation': [
+    {
+      'nowRecordId': '74103990fbd98b10ff19fe5f3eefdc41',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId123',
+      'wrapUpRequired': true
+    }
+  ]
+});
+```
+
+Output:
+
+```
+{
+  'activeConversation': [
+    {
+      'nowRecordId': '74103990fbd98b10ff19fe5f3eefdc41',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId123',
+      'wrapUpRequired': true,
+      'status': 'active',
+      'timestamp': '2024-06-24T14:32:15Z'
+    }
+  ],
+  'success': true
+}
+```
+
+Update the interaction to a new conversation:
+
+```
+// Update to a new active conversation
+openFrameAPI.setICContext('activeConversation', {
+  'activeConversation': [
+    {
+      'nowRecordId': '85214001gce99c21gg30gf6g4ffgeeid52',
+      'nowRecordTable': 'Interaction',
+      'externalId': 'externalId456',
+      'wrapUpRequired': true
+    }
+  ]
+});
 ```
 
 ## openFrameAPI - setIcons\(Array icons\)
@@ -2719,6 +3742,77 @@ openFrameAPI.setTitleIcon({imageURL:'https://mydomian.com/image/path.png',
 imageTitle:'mute', id:101});
 ```
 
+## openFrameAPI - toastMessage\(String message, String type, Number duration\)
+
+Displays an alert message.
+
+<table id="table_mqv_lqt_tgc" class="parameters"><thead><tr><th>
+
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+message
+
+</td><td>
+
+String
+
+</td><td>
+
+Message to display in the alert.
+
+</td></tr><tr><td>
+
+type
+
+</td><td>
+
+String
+
+</td><td>
+
+Type of message. Possible values:
+
+-   info
+-   warning
+-   error
+
+</td></tr><tr><td>
+
+duration
+
+</td><td>
+
+Number
+
+</td><td>
+
+Optional. Duration to display the message before it is auto-dismissed.Units: Milliseconds
+
+Default: The message is displayed until it is manually closed.
+
+</td></tr></tbody>
+</table>|Type|Description|
+|----|-----------|
+|None| |
+
+This example displays info, warning, and error messages.
+
+```
+openFrameAPI.toastMessage("Testing info message", "info", 10000); //display for 10 seconds
+openFrameAPI.toastMessage("Testing warning message", "warning"); //display until manually closed
+openFrameAPI.toastMessage("Testing error message", "error");
+```
+
 ## openFrameAPI - setWidth\(width\)
 
 Sets the OpenFrame width.
@@ -2777,11 +3871,22 @@ openFrameAPIEVENT
 
 </td><td>
 
-The event to subscribe to:-   openframe\_agent\_off\_interaction: Indicates the presence of an agent on chat as off or available.
+The event to subscribe to:-   interaction\_control\_action: Receives the interaction lifecycle event or calls control updates from OpenFrame and updates the UI accordingly. Call control update examples include call initiated, muted, held, ended, and transfer requests. Q4 additions include callback-related sub-actions:
+    -   callbackLeaveAndTransfer: Agent initiates callback leave and transfer.
+    -   getSearchTarget: Transfer list search is initiated to find agents, queues, or external targets.
+    -   getMoreInfo: Information icon clicked on a transfer target to display skills or availability details.
+    -   callbackTransferInitiated: Callback transfer begins to an agent, queue, external user, or direct target with consult or blind subtype.
+    -   cancelCallbackTransfer: Callback transfer is cancelled before completion.
+-   openframe\_agent\_off\_interaction: Indicates the presence of an agent on chat as off or available.
 -   openframe\_awa\_agent\_presence: In Advanced Work Assignment \(AWA\), this event occurs when there's any change in the agent presence state. Computer Telephony Integration \(CTI\) developers can subscribe to this event to receive presence state changes.
+-   openframe\_awa\_client\_offer: Occurs when an offer or transfer is made on a resiliency-related offer.
 -   openframe\_awa\_workitem\_accepted: Occurs when a work item is accepted by an agent.
 -   openframe\_awa\_workitem\_offered: Occurs when a work item is offered to an agent.
 -   openframe\_awa\_workitem\_rejected: Occurs when a work item is rejected by an agent.
+-   openframe\_awa\_workitem\_cancelled:
+    -   Occurs when a work item is cancelled by AWA.
+    -   Occurs when a Agent 1 transfers the phone call \(Blind or Consult\) to Agent 2 but Agent 2 rejects the transfer.
+    -   Occurs when an Agent 1 cancels the transfer before the Agent 2 picks up the transfer. Currently, cancellation is supported only for chats.
 -   openframe\_before\_destroy: Occurs before the TopFrame is unloaded.
 -   openframe\_collapse: Occurs when the collapse icon is selected on the OpenFrame header.
 -   openframe\_communication: Application-specific and can be customized.
@@ -2791,6 +3896,7 @@ The event to subscribe to:-   openframe\_agent\_off\_interaction: Indicates the 
 -   openframe\_header\_icon\_clicked: Deprecated. Use openframe\_icon\_clicked or openframe\_title\_icon\_clicked instead.
 -   openframe\_hidden: Occurs when the OpenFrame is hidden.
 -   openframe\_icon\_clicked: Occurs when any icon other than the close icon is selected on the OpenFrame footer. The callback receives the icon object as a parameter.
+-   openframe\_icc\_record\_opened: Occurs when an agent with the `awa_manager` role opens an Interaction Management System \(IMS\) record. Returns the interaction record table and record ID.
 -   openframe\_shown: Occurs when the OpenFrame is shown.
 -   openframe\_title\_icon\_clicked: Occurs when the title icon is selected on the OpenFrame. The callback receives the titleIcon object as a parameter.
 -   openframe\_wrap\_up\_submitted: Occurs when the wrap up periods ends on the [wrap-up modeless dialog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/interaction-wrapup-modeless-dialog.md). The event is triggered only when the wrap up is external.
@@ -2823,6 +3929,95 @@ results
 </td><td>
 
 Most event subscriptions have no return values. The event subscriptions that do return values are described in the following table entries.
+
+</td></tr><tr><td>
+
+interaction\_control\_action \(callback sub-actions\)
+
+</td><td>
+
+The following callback-related sub-actions return specific payload objects:**callbackLeaveAndTransfer**:
+
+```
+"action": {
+  "name": "callbackLeaveAndTransfer",
+  "payload": {
+    "nowRecordTable": "String",
+    "nowRecordId": "String",
+    "externalId": "String",
+    "participantId": "String"
+  }
+}
+```
+
+**getSearchTarget**:
+
+```
+"action": {
+  "name": "getSearchTarget",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String",
+    "searchTerm": "String",
+    "limit": Number,
+    "targetType": [Array]
+  }
+}
+```
+
+-   **targetType** valid values: `["agent"]`, `["queue"]`, `["agent", "queue"]`, `["agent", "queue", "external"]`
+
+**getMoreInfo**:
+
+```
+"action": {
+  "name": "getMoreInfo",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String",
+    "targetType": "String",
+    "targetId": "String"
+  }
+}
+```
+
+-   **targetType** valid values: `queue`, `agent`, `external`
+
+ **callbackTransferInitiated**:
+
+```
+"action": {
+  "name": "callbackTransferInitiated",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String",
+    "type": "String",
+    "subType": "String",
+    "targetId": "String"
+  }
+}
+```
+
+-   **type** valid values: `agent`, `queue`, `external`, `directTarget`
+-   **subType** valid values: `consult`, `blind`
+
+ **cancelCallbackTransfer**:
+
+```
+"action": {
+  "name": "cancelCallbackTransfer",
+  "payload": {
+    "nowRecordId": "String",
+    "externalCallId": "String",
+    "participantId": "String"
+  }
+}
+```
+
+Currently supported for chat interactions.
 
 </td></tr><tr><td>
 
@@ -2887,7 +4082,7 @@ In AWA, the **openframe\_awa\_workitem\_accepted** and **openframe\_awa\_workite
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
 -   **workItem.isAutoAccepted**: Flag that indicates whether the work item was automatically accepted by the system. Set to true if the work item was auto-accepted.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/transfer-chat-queue.md).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-agent-chat-using.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.serviceChannel**: List of service channels associated with the work item task.
     -   **workItem.serviceChannel.name**: Name of the service channel, such as Chat or Phone.
@@ -2927,7 +4122,7 @@ In AWA, the **openframe\_awa\_workitem\_rejected** event returns the `workItem` 
 -   **workItem.document**: List of documents associated with the work item task.
     -   **workItem.document.sys\_id**: Sys\_id of the document assigned to the work item task.
     -   **workItem.document.table**: Name of the document table assigned to the task.
--   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information on queue transfers, see [Transfer a chat to another queue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/transfer-chat-queue.md).
+-   **workItem.isQueueTransferred**: Flag that indicates whether the work item is queue transferred. Set to true if the work item is queue transferred, false if it isn't. For more information about queue transfers, see [Using Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-agent-chat-using.md).
 -   **workItem.previousWorkItem**: Sys\_id of the previous work item for the same document ID. For the non-transfer work items this value is empty.
 -   **workItem.rejection**: List of reasons for the rejection of the work item.
     -   **workItem.rejection.reason**: Name of the reason for rejecting the work items.
@@ -2961,6 +4156,27 @@ The **openframe\_heart\_beat** event returns the following object:```
 
 </td></tr><tr><td>
 
+openframe\_icc\_record\_opened
+
+</td><td>
+
+The **openframe\_icc\_record\_opened** event returns the following object:```
+{
+  "action": {
+    "name": "iccRecordOpened",
+    "payload": {
+      "nowRecordTable": "String",
+      "nowRecordId": "String"
+    }
+  }
+}
+```
+
+-   **nowRecordTable**: Name of the table containing the interaction record. Valid value: `interaction`
+-   **nowRecordId**: Sys\_id of the interaction record opened by the manager.
+
+</td></tr><tr><td>
+
 openframe\_wrap\_up\_submitted
 
 </td><td>
@@ -2984,7 +4200,7 @@ The **openframe\_wrap\_up\_submitted** event returns the following object:```
     -   false: Wrap up is handled by the ServiceNow instance.
 -   **externalSegmentId**: Unique identifier of the external data object that triggered the external wrap up.
 -   **recordId**: Sys\_id of the interaction record that is undergoing wrap up.
--   **recordTable**: Name of the table containing the record. Always set as “interaction".
+-   **recordTable**: Name of the table containing the record. Always set as "interaction".
 -   **wrapUpCode**: Code selected by the user during the wrap up that indicates how the interaction was resolved.
 -   **wrapUpNotes**: Free-form text entered by the user during wrap up that describes how the interaction was resolved.
 -   **wrapUpSegmentId**: Sys\_id of the interaction wrap up segment record associated with the interaction. Located in the Wrap Up Segment \[interaction\_wrap\_up\_segment\] table. Contains the wrap up data.
@@ -3004,7 +4220,7 @@ Output:
 ```
 // Sample presence object output
 // openframe_awa_agent_presence event only
-
+ 
 {
   "result":{
     "presence":{
@@ -3098,6 +4314,56 @@ Output:
       },
       "previousWorkItem": "831b9c4824250610f8775e73b116f841",
       "isQueueTransferred": true
+    }
+  }
+}
+```
+
+The following example shows how to subscribe to the **interaction\_control\_action** event, including the Q4 callback actions.
+
+```
+openFrameAPI.subscribe("interaction_control_action", function(action) {
+    // Can perform the action based on the name
+    if (action.name == "mute") {
+        mute();
+        openFrameAPI.setICContext("activeCall", context); // Update context representing the change
+    } else if (action.name == "getSearchTarget") {
+        action.payload.searchType == "queue" ? fetchQueueTransferList(action.payload.searchTerm) : fetchAgentTransferList(action.payload.searchTerm);
+        openFrameAPI.setICContext("searchTargetList", context); // Call context will have the transfer list
+    } else if (action.name == "callbackTransferInitiated") {
+        handleCallbackTransfer(action.payload);
+        openFrameAPI.setICContext("activeCall", context); // Update callback state
+    } else if (action.name == "cancelCallbackTransfer") {
+        handleCallbackCancellation(action.payload);
+        openFrameAPI.setICContext("activeCall", context);
+    } else if (action.name == "logout") {
+        logout();
+        openFrameAPI.showIframe(); // Show iframe api
+    }
+});
+```
+
+The following example shows how to subscribe to the **openframe\_icc\_record\_opened** event for manager roles.
+
+```
+openFrameAPI.subscribe(openFrameAPI.events.openframe_icc_record_opened, function(action) {
+    console.log("IMS opened: " + action.payload.nowRecordId);
+    // Handle manager interaction record opening
+    var recordId = action.payload.nowRecordId;
+    var recordTable = action.payload.nowRecordTable;
+    displayManagerContext(recordId, recordTable);
+});
+```
+
+Output:
+
+```
+{
+  "action": {
+    "name": "iccRecordOpened",
+    "payload": {
+      "nowRecordTable": "interaction",
+      "nowRecordId": "7ef5becf4199e210f8771b3e09cfdf55"
     }
   }
 }

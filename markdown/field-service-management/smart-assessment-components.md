@@ -1,18 +1,18 @@
 ---
 title: Smart Assessment components
-description: Several types of components are installed with Smart Assessment, including tables, scripts and business rules.
+description: Several types of components are installed with the Smart Assessment feature, including tables, business rules, script includes and scheduled jobs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/smart-assessment-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Smart Assessment components
 
-Several types of components are installed with Smart Assessment, including tables, scripts and business rules.
+Several types of components are installed with the Smart Assessment feature, including tables, business rules, script includes and scheduled jobs.
 
 ## Tables
 
@@ -35,7 +35,9 @@ Questionnaire Template\[sn\_fsm\_smart\_asmt\_template\]
 Stores information about Smart Assessment templates and its associated questionnaire.
 
 </td></tr></tbody>
-</table>## Business Rules
+</table>Smart Assessment updates the table listed in the following tables.
+
+## Business Rules
 
 Smart Assessment adds the business rules listed in the following table.
 
@@ -97,7 +99,7 @@ Questionnaire template\[sn\_fsm\_smart\_asmt\_template\]
 
 </td><td>
 
-Ensures that each Smart Assessment template is associated with only one questionnaire record. A Smart Assessment template can't be linked to multiple questionnaire records.
+Ensures that each smart assessment template is associated with only one questionnaire record. A smart assessment template can't be linked to multiple questionnaire records.
 
 </td></tr></tbody>
 </table>## Script Includes

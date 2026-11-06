@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Importing and streaming data in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 14
+breadcrumb: [Import and stream data, Integration Hub, Workflow Data Fabric]
 ---
 
 # Using Stream Connect for Apache Kafka
@@ -28,10 +28,11 @@ Apache Kafka is a distributed event-streaming platform that provides a unified w
 -   Import data from your Kafka environment and process that data using your existing Robust Transform Engine \(RTE\) or transform map configurations.
 -   Configure a consumer that uses your own scripts to process data from a Kafka topic.
 -   Monitor your consumers' performance with detailed reporting of statistics and performance metrics.
+-   Integrate your ServiceNow instance directly with your local Kafka environment with Direct Kafka.
 
-## Components
+## Terminology
 
-Stream Connect has the following components.
+Stream Connect uses the following terms.
 
 -   **Producers**
 
@@ -52,6 +53,10 @@ Stream Connect has the following components.
     Events are organized and stored in topics. A topic stores events of the same type. Topics are partitioned. Events have a key. Events with the same key are stored in the same partition.
 
     Topics link to a topic namespace. You can use namespaces to organize topics in logical ways. For example, you can group topics together based on which Kafka cluster they come from. You can also use namespaces to configure which domains can access which topics on a domain-separated instance. For more information, see [Managing namespaces and topics in Hermes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/managing-namespaces-topics-hermes.md).
+
+-   **Topic aliases**
+
+    A [topic alias](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/manage-topic-alias.md) is a unique topic name that can be connected to any underlying Hermes or Direct Kafka topic. A topic alias can be moved to different instances and connected to a different underlying topic on each instance.
 
 -   **Subscriptions**
 
@@ -78,6 +83,12 @@ The following diagram shows some of the key components of Stream Connect.
 
 \[Omitted image "stream-connect.png"\] Alt text: Diagram showing an overview of Stream Connect components.
 
+## Using Guided Setup for Stream Connect
+
+Guided Setup provides a sequence of tasks that can help you configure Stream Connect. To open Guided Setup, navigate to **All** &gt; **IntegrationHub** &gt; **Stream Connect** &gt; **Guided Setup**.
+
+For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
+
 ## Stream Connect and Workflow Studio
 
 Build flows that produce and consume Kafka events with Stream Connect and Workflow Studio. Stream Connect has a flow trigger for consuming Kafka events and an action step for producing them.
@@ -87,6 +98,27 @@ Use the [Kafka Message trigger](https://raw.githubusercontent.com/ServiceNow/Ser
 The trigger is enabled when the flow is activated. After it's activated, the trigger starts the flow whenever there's a message in the specified Kafka topic. When you use the Kafka Message trigger, you don't need to create a Kafka stream or subscription record. The system automatically creates both when the flow is activated. Messages are read from the topic as long as the flow is active.
 
 Use the [Kafka Producer step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/kafka-producer-action-designer.md) to create actions that publish events to a topic in your Kafka environment. For example, you can use the step to create a message about an update on an incident in ServiceNow, then push the message to a topic in your Kafka environment.
+
+## Direct Kafka
+
+Integrate your ServiceNow instance with your local Kafka environment with [Direct Kafka](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/direct-kafka.md). Build efficient integrations between your enterprise systems, enabling high-volume and robust integrations to exchange data between applications, and reduce data loss with the queuing mechanism if one environment is temporarily offline.
+
+With Direct Kafka, you can configure a custom Kafka connection to integrate Stream Connect on your instance with your local Kafka environment. This connection enables you to use Stream Connect and its features directly, without requiring the Hermes Messaging Service or a separate message replicator.
+
+## Stream Producer
+
+Automatically stream changes from ServiceNow tables to Kafka topics with Stream Producer.
+
+Stream Producer provides a configuration-based alternative to writing scripts or business rules for exporting data. It uses change data capture \(CDC\) technology to capture inserts, updates, and deletes on the tables you select. The captured changes are formatted as messages and sent to a Kafka topic, enabling real-time data synchronization with external applications.
+
+Stream Producer has the following benefits.
+
+-   Eliminate dependency on business rules and custom scripts for data export.
+-   Reduce performance impact on the ServiceNow instance.
+-   Set it up once and automatically keep external data in sync.
+-   Streamline complex data integration workflows.
+
+For details see [Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-producer.md).
 
 ## Stream Connect alerting
 
@@ -114,9 +146,15 @@ Publish events to a Kafka topic with the [ProducerV2 API](https://raw.githubuser
 
 You can replicate data between your Kafka environment and ServiceNow with Stream Connect Message Replication.
 
-Stream Connect Message Replication enables you to configure and manage message replications directly from your ServiceNow instance. It uses a MID Server to run the data replications, so you don't need to configure or host additional replication services. It also simplifies the message replication setup by automatically generating the required certificates.
+Stream Connect Message Replication enables you to configure and manage message replications directly from your ServiceNow instance. It uses a MID Server or MID Server cluster to run the data replications, so you don't need to configure or host additional replication services. It also simplifies the message replication setup by automatically generating the required certificates.
 
 For more information, see [Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-message-replication.md).
+
+## Stream Connect logs
+
+Log messages for producers and consumers are stored in the Stream Connect Logs \[sys\_consumer\_log\] table. Each log entry shows when the log was created; its level, message, and source; and links to any related Alert or Subscription records.
+
+You can enable more detailed logging by [adding the system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md) **glide.ih.kafka.stream\_connect.debug** and setting it to **true**. To avoid filling up the logs, this property is automatically disabled after 24 hours. If you need detailed logging for longer than 24 hours, you can re-enable the property manually.
 
 ## Unprocessed and undelivered messages
 
@@ -150,12 +188,47 @@ The following diagram shows key components of Stream Connect, how they relate to
 
 Stream Connect requires the ServiceNow Stream Connect Installer \[com.glide.hub.stream\_connect.installer\] plugin. This plugin enables the licensed components for working with message-based streaming data in Stream Connect.
 
+## Example use case
+
+A telecommunications company monitors millions of networks, devices, and facilities-operations systems and equipment. The monitoring systems generate millions of alerts that need to be processed and responded to in order to maintain fully operational networks.
+
+The messages are internally pushed from the monitoring sources to their Kafka environment. From there, they are replicated to the ServiceNow Hermes Kafka cluster. This triggers script consumers that read in the messages and parse the data in the headers, keys, and payloads to efficiently enter new records into the Event table.
+
+The related TSOM product capabilities process the event data, quickly and efficiently creating incidents and field work orders for resolution of the issue, resulting in reduced time to resolution of the issue.
+
+\[Omitted image "sc-example-import.png"\] Alt text: Stream Connect example import diagram.
+
+-   **Key assumptions and decision criteria**
+    -   The data volume is incremental and frequent.
+    -   The data includes messages about a variety of devices from a variety of tools.
+    -   Clarify if the data only includes elements from the primary record, or if it also includes elements from related records.
+    -   Confirm if the data import is associated with a process automation.
+-   **Guidance**
+    -   Define topics with a naming convention to clearly direct the processing of the messages. For example, if the data is coming from a Solarwinds monitoring tool source, the topic might be named sn\_streamconnect.solarwinds. Topics can be found in the navigator under **Hermes Messaging Service** &gt; **Topics**.
+
+        \[Omitted image "sc-example-name.png"\] Alt text: Stream Connect example screenshot that shows a Kafka topic named sn\_streamconnect.solarwinds.
+
+    -   When producing messages to Kafka \(and replicating to Hermes\), define and utilize keys to ensure the order of delivery and processing of messages. For example, to ensure messages are kept in order, use the device ID as the key value to keep them together for processing.
+    -   Utilize headers, keys, and payload attributes to enable scaling and effective parsing of incoming messages from multiple sources.
+    -   Utilize a Script Consumer or Flow Trigger Consumer for the ingest of transactional data. Following the example, the script consumer could be named similarly, such as “Solarwinds script consumer”. Script consumers can be found in the navigator under **IntegrationHub** &gt; **Consumers** &gt; **Script Consumers**.
+
+        \[Omitted image "sc-example-script.png"\] Alt text: Stream Connect example screenshot showing a Kafka script consumer record.
+
+    -   The script consumer script parses the message content to identify what device the message was related to and processes it accordingly.
+
+        \[Omitted image "sc-example-code.png"\] Alt text: Stream Connect example screenshot showing code creating a ServiceNow Event table record.
+
+        **Note:** The above code is a partial, representative example focused on ingesting and parsing the message data to populate table records. It's intended to be helpful in guiding an implementation.
+
+
+-   **[Stream Producer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-producer.md)**  
+Stream Producer enables you to automatically stream changes from ServiceNow tables to Kafka topics using change data capture \(CDC\), eliminating the need for custom scripts or business rules.
 -   **[Stream Connect Message Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-message-replication.md)**  
 Replicate data between your Apache Kafka environment and ServiceNow.
 -   **[Stream Connect alerting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-alert.md)**  
 Receive alerts and alert notifications for Stream Connect integrations.
 -   **[Using the Stream Connect Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/stream-connect-dashboard.md)**  
-View detailed statistics for your Stream Connect integrations. Manage producers and consumers, and create or edit topics and replicators with the ServiceNow® Stream Connect dashboard.
+View detailed statistics for your Stream Connect integrations. Manage producers and consumers, view data usage, and create or edit topics and replicators with the ServiceNow® Stream Connect dashboard.
 -   **[Schema management in Stream Connect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/schema-management.md)**  
 Import and create schemas to send and receive messages in an Apache Avro format. Using an Avro format can reduce the size of the payload and simplify your integration to your local Kafka instance.
 -   **[Configure an Extract Transform Load \(ETL\) consumer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-etl-consumer.md)**  
@@ -167,7 +240,7 @@ Use a script to import and process data from your Kafka environment.
 -   **[Create a Kafka stream](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/create-kafka-stream.md)**  
 Define a data stream for an Extract Transform Load \(ETL\), Transform Map, or Script consumer. A Kafka stream defines the stream of data to your consumer.
 -   **[Viewing Kafka subscriptions and statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/kafka-subscriptions-statistics.md)**  
-View detailed information about a Kafka consumer and its performance, including the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
+View detailed information about a Kafka consumer and its performance. Details include the number of records added to the topic, the number of records processed, and the number of records remaining to be processed.
 -   **[Viewing producer statistics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/producer-statistics.md)**  
 View detailed information about a Stream Connect producer and its performance, including the producer type and ID, and the total number of bytes and messages produced to a topic.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Manage major incidents, Incident Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Managing major incidents, Incident Management, IT Service Management]
 ---
 
 # Quick start tests for Major Incident Management

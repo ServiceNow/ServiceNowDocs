@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, On-Call Scheduling, IT Service Management]
+breadcrumb: [Configuring On-Call Scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # Setting up Slack as a contact method

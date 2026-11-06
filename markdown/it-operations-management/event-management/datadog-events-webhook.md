@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 2
-breadcrumb: [Integrate Datadog platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 3
+breadcrumb: [Integrate Datadog platform events, Integrate with push connectors, Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Integrate Datadog with basic authentication
@@ -20,81 +20,118 @@ Integrate Datadog with Event Management by adding a standard webhook in the Data
 
 Ensure that the Event Management Connectors \(sn\_em\_connector\) plugin is installed on the ServiceNow AI Platform instance.
 
-Ensure that configuration items for the hosts managed by Dynatrace exist in the ServiceNow AI Platform instance. These CIs can be physical or virtual and can be either manually created or discovered via IP discovery or Cloud Discovery.
-
-Roles required: evt\_mgmt\_integration and web\_service\_admin
+-   Role required: evt\_mgmt\_integration
+-   Confirm you have created a user with an **Identify Type** of **Machine** and the evt\_mgmt\_integration role.
+-   The Event Management plugin must be installed on the ServiceNow AI Platform instance.
+-   Verify Configuration Items for the hosts managed by Datadog exist in ServiceNow. These CIs can be physical or virtual, and can be either manually created or discovered using IP discovery or Cloud discovery.
 
 ## About this task
 
-Configure the Event Management environment for the collection of events from Dynatrace by authenticating Dynatrace as a data source. In your Dynatrace console, set your ServiceNow AI Platform instance as the rest endpoint using a standard webhook.
+Configure the Event Management environment for the collection of events from Datadog. In your Datadog console, set your ServiceNow AI Platform instance as the rest endpoint using a standard webhook.
 
 ## Procedure
 
-1.  In your Dynatrace console, define Host Naming rules:
+1.  In the Datadog console, add cloud provider tags:
 
-    1.  Navigate to **Settings** &gt; **Process and contextualize** &gt; **Naming** &gt; **Host Naming**.
+    1.  Navigate to **Menu** &gt; **Infrastructure** &gt; **Hosts**.
 
-    2.  Define the Host Naming rules for each cloud provider \(Azure/AWS/GCP\) to uniquely identify a CI from ServiceNow.
+    2.  Click **Inspect** for the VM on which the Datadog agent is installed.
 
-    This ensures the ServiceNow CIs can be uniquely identified from the payload received from Dynatrace.
+    3.  Click **Edit Tags** and add the cloud\_provider tag.
 
-    **Note:** You do not need to create a Host Naming rule for VMware machines because Dynatrace manages them as physical servers.
+        The tag should be suffixed with the value of **aws**, **azure**, or **gcp** to identify the AWS, Microsoft Azure, or Google Cloud Platform \(GCP\) provider options. For example: cloud\_provider:aws
 
-2.  Define anomaly detection rules:
+    4.  Click **Save Tags** to save the new tag.
 
-    1.  Navigate to **Settings** &gt; **Analyze and alert** &gt; **Alerts** &gt; **Hosts**.
+        **Note:** Datadog adds the cloud\_provider tag by default when the Azure and Google integration is installed on the Datadog agent. Tags can also be added at the cloud provider level. Datadog collects all the tags defined at the VM level on the cloud.
 
-    2.  In the **Hosts** tab, define rules on when to create alerts on the managed hosts.
+2.  In the Datadog console, add a webhook:
 
-3.  Define the integration settings:
+    1.  Navigate to **Menu** &gt; **Integration** &gt; **Integrations**, and search for webhooks.
 
-    1.  Navigate to **Settings** &gt; **Analyze and alert** &gt; **Notifications** &gt; **Problem notifications**.
+    2.  Create a webhook that includes the user ID and password of the ServiceNow user in the endpoint.
 
-    2.  In the Set up custom integration form, add the Webhook URL: `https://<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=dynatrace`
+        For example, use `https://<username>:<password>@<instance-name>.service-now.com/api/sn_em_connector/em/inbound_event?source=datadog`.
 
-        For basic authentication, select **Create basic authorization header**. You can see the username and password fields for the user.
+        **Note:** Verify that the selected user is assigned the evt\_mgmt\_integration role. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.
 
-    3.  Enter the user name and password of the relevant user.
+    3.  Add the required payload structure.
 
-        **Note:** Ensure the evt\_mgmt\_integration role is assigned to the selected user. To ensure proper authentication, use the least privileged user with the evt\_mgmt\_integration role, rather than a high privileged user.
+        -   Add in the following payload structure for monitoring alerts.
 
-    4.  In the Custom payload section, add in the following payload structure for the events that will be generated.
+            ```
+            { 
+                "body": "$EVENT_MSG", 
+                "last_updated": "$LAST_UPDATED", 
+                "event_type": "$EVENT_TYPE", 
+                "title": "$EVENT_TITLE", 
+                "date": "$DATE", 
+                "org": { 
+                    "id": "$ORG_ID", 
+                    "name": "$ORG_NAME" 
+                }, 
+                "id": "$ID", 
+                "alert_id": "$ALERT_ID", 
+                "alert_metric": "$ALERT_METRIC", 
+                "metric_namespace": "$METRIC_NAMESPACE",
+                "alert_priority": "$ALERT_PRIORITY", 
+                "alert_transition": "$ALERT_TRANSITION", 
+                "alert_status": "$ALERT_STATUS", 
+                "alert_title": "$ALERT_TITLE", 
+                "alert_type": "$ALERT_TYPE", 
+                "host_name": "$HOSTNAME", 
+                "priority": "$PRIORITY", 
+                "tags": "$TAGS", 
+                "alert_scope": "$ALERT_SCOPE" 
+            }  
+            ```
 
-        ```
-        { 
-          "connectionId": <connections_alias_sys_id>,
-          "ImpactedEntities": {ImpactedEntities}, 
-          "ImpactedEntity": "{ImpactedEntity}", 
-          "PID": "{PID}", 
-          "ProblemDetailsHTML": "{ProblemDetailsHTML}", 
-          "ProblemDetailsJSONv2": {ProblemDetailsJSONv2},  
-          "ProblemDetailsMarkdown": "{ProblemDetailsMarkdown}", 
-          "ProblemDetailsText": "{ProblemDetailsText}", 
-          "ProblemID": "{ProblemID}", 
-          "ProblemImpact": "{ProblemImpact}", 
-          "ProblemSeverity": "{ProblemSeverity}", 
-          "ProblemTitle": "{ProblemTitle}", 
-          "ProblemURL": "{ProblemURL}", 
-          "State": "{State}", 
-          "Tags": "{Tags}" 
-        }
-        ```
+        -   Add in the following payload structure for monitoring work items.
 
-        **Note:** For the &lt;connections\_alias\_sys\_id&gt;:
+            ```
+            {
+              "id": "$CASE_ID",
+              "type": "$CASE_TYPE",
+              "status": "$CASE_STATUS",
+              "priority": "$CASE_PRIORITY",
+              "title": "$EVENT_TITLE",
+              "body": "$EVENT_MSG",
+              "assignee": {
+                "id": "$CASE_ASSIGNEE_ID",
+                "name": "$CASE_ASSIGNEE_NAME",
+                "email": "$CASE_ASSIGNEE_EMAIL"
+              },
+              "attributes": $CASE_ATTRIBUTES,
+              "correlated_alerts": $CASE_CORRELATED_ALERTS,
+              "date_created": "$DATE",
+              "date_updated": "$LAST_UPDATED",
+              "tags": "$TAGS"
+            }
+            ```
 
-        1.  Navigate to **All** &gt; **IntegrationHub** &gt; **Connection &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
-        2.  Select to open the connector for which you want to get the &lt;connections\_alias\_sys\_id&gt;.
+        ServiceNow auto-detects the case payload and represents it as a work Item alert \(message key `Datadog_Case_<case_id>`\).
 
-            \[Omitted image "dynatrace-connection-aliases.png"\] Alt text: Dynatrace connection aliases list.
+3.  In the Datadog console, define rules:
 
-        3.  Right-click the context menu \(\[Omitted image "Form\_MenuIcon.png"\] Alt text: menu icon\) and then select **Copy sys\_id**.
+    1.  Navigate to **Menu** &gt; **Monitors** &gt; **Manage Monitors**, and configure rules on when to create a problem from Datadog on the managed hosts.
 
-            \[Omitted image "dynatrace-static-sys-id.png"\] Alt text: sys\_id of the connection.
+    2.  In the **Notify your team** section, select the webhook on which the problem should be notified.
+
+    Similarly, create a rule for case or work items that triggers on events such as created, priority changed, status changed, closed and so on. It then notifies your ServiceNow webhook.
 
 
 ## Result
 
-Alerts start flowing from the Dynatrace console into the Event Management plugin. The plugin extracts information from the original Dynatrace alert message to populate the required event fields and inserts the event into the database. In your ServiceNow AI Platform instance, navigate to **All Events** to see the events.
+Alerts start flowing from Datadog agents into the Event Management plugin. The plugin extracts information from the original Datadog alert message to populate the required event fields and inserts the event into the database. In your ServiceNow AI Platform instance, navigate to **All Events** to see the events.
 
-**Note:** By default, host binding is enabled for Dynatrace events for all providers \(Azure/AWS/Google\). If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the **Dynatrace - General** event rule. For further information about Event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-event-rules.md).
+For case or work items, while creating push connectors select the **Configure Work Item Alerts** button. You are redirected to the Datadog work Items pull connector instance form, where you configure related-alert fetch and bi-directional synchronization. For more information, see [Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-a-datadog-work-item-connector.md).
+
+**Note:** By default, host binding is enabled for Datadog events for \(AWS/Azure/GCP\) providers. If all hosts in the environment are discovered using Cloud Discovery by providing credentials and discovered resources are in the cmdb\_ci\_vm\_object list, then the VM binding may not occur. To resolve this, you must enable the **Datadog - General** event rule. For further information about Event rules, see [Event rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/create-event-rules.md).
+
+**Related topics**  
+
+
+[Configure a push connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/push-event-listener.md)
+
+[Configure a Datadog work item connector instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/configure-a-datadog-work-item-connector.md)
 

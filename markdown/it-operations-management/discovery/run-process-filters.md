@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Running process filters
@@ -18,21 +18,21 @@ Filter any processes, using combinations of name and key parameters, from coming
 
 ## Before you begin
 
-Role required: discovery\_admin, admin
+Role required: discovery\_admin or admin
 
 ## About this task
 
-To add processes to the filter, you need to setup configurations using the Running Process filter record \[running\_process\_filter\]. These records make sure the filtered processes do not populate the Running process \[cmdb\_running\_process\] table.
+To add processes to the filter, you must setup configurations using the Running Process filter record \[running\_process\_filter\]. These records make sure the filtered processes do not populate the Running process \[cmdb\_running\_process\] table.
 
 ## Procedure
 
 1.  Navigate to running\_process\_filter.list.
 
-2.  Click **New** to create a new record.
+2.  Select **New** to create a record.
 
     The form and descriptions are explained below.
 
-    \[Omitted image "running\_process\_filter\_record.png"\] Alt text: A new record opens for you to complete. The fields are explained in the next table.
+    \[Omitted image "running\_process\_filter\_record.png"\] Alt text: Running process filters form
 
 <table id="table_rxm_mty_rxb"><thead><tr><th>
 
@@ -68,11 +68,11 @@ Short description of the record.
 
 </td></tr><tr><td>
 
-Group
+Category
 
 </td><td>
 
-A name for the configuration type. Running process filters can be grouped however you want so that it easier to identify and choose in the table.
+A name for the configuration type. Running process filters can be grouped however you want so that it's easier to identify and choose in the table.
 
 </td></tr><tr><td>
 
@@ -96,9 +96,9 @@ Filter
 
 </td><td>
 
-Any process matching the filter will not be added to the cmdb\_running\_process table.
+Any process matching the filter will not be added to the Running Processes \[cmdb\_running\_process\] table.
 
- For example, if you wish to filter all svchost.exe processes except the svchost.exe process for IIS classification, the filter definition would be:
+ For example, if you want to filter all svchost.exe processes except the svchost.exe process for IIS classification, the filter definition would be:
 
  -   name is svchost.exe
 -   parameters does not contain iissvcs
@@ -121,7 +121,7 @@ OOB filters
 There are Linux and Windows filters to choose from. See [Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/out-of-the-box-process-filters.md) for more details.
 
 </td></tr></tbody>
-</table>3.  Enter the details and click **Submit**.
+</table>3.  Enter the details and select **Submit**.
 
 
 -   **[Out-of-the-box process filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/out-of-the-box-process-filters.md)**  

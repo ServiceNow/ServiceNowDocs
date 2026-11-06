@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-02-11"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Slack Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Slack Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up Slack spoke
@@ -27,12 +27,4 @@ Integrate the ServiceNow instance and your Slack account by creating a custom OA
 ## About this task
 
 The spoke set up procedure outlined here requires bot user tokens only. You can't use the Create User and Deactivate User actions while using the bot token scopes. To use these actions, you must obtain user token from your Slack account.
-
-Perform these steps to set up the Slack spoke.
-
-1.  [Configure Slack app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/configure-slack-workspace.md).
-2.  [Add Slack connection in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/setup-slackspoke-fd.md).
-3.  [Provide Signing Key in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/provide-signingkey-slack.md).
-4.  [Configure outbound configurations in ServiceNow instance]().
-5.  [Configure inbound decisions in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conf-inbound-slack.md).
 

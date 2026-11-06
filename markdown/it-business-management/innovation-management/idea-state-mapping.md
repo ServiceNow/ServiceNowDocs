@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrate, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Integrating Innovation Management with Universal Request, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Idea state mapping
@@ -26,7 +26,7 @@ Mapping the states of the idea to the universal request state ensures that the s
 
 For example, consider a universal request that has an idea attached to it as a primary ticket. When the state of idea changes from **Submitted** to **Need more information**, the state of the universal ticket state is also updated to **Awaiting Response**.
 
-The following image is an example of a default state mapping. The **Submitted**, **Under Review**, **In Backlog**, **Planned** and **In Development** states of an idea are mapped to **In Progress** state of a Universal Request.\[Omitted image "idea\_ur\_state\_map.png"\] Alt text: Default idea states mapping with Universal Request state.
+The following image is an example of a default state mapping. The **Submitted**, **Under Review**, **In Backlog**, **Planned** and **In Development** states of an idea are mapped to **In Progress** state of a Universal Request.
 
 The following table lists the default mapping of different idea states with the universal request states.
 

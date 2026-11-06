@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure additional features in CM Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [Expiring contract notification, Notification for contract expiration]
+breadcrumb: [Configure additional features in CM Pro, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure conditions to send reminder notifications for expiring contracts
@@ -43,6 +44,8 @@ Role required: sn\_cm\_core.contract\_admin
 
     3.  On the form, fill in the fields.
 
+        \[Omitted image "cmpro-exp-reminder.png"\] Alt text: Conditions for expiration reminders.
+
         For more information on these fields, see [Expiring Contracts Condition form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-email-notif-expcont-form.md).
 
     4.  Select **Submit**.
@@ -62,16 +65,22 @@ Role required: sn\_cm\_core.contract\_admin
     5.  Select **Update**.
 
 
+## Result
+
+The contract expiration reminders will trigger based on the defined conditions for contract repository. For more information on configuring contract repository, see [Create a contract configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-contract-config.md).
+
 **Parent Topic:**[Configure additional features in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-additional-feature.md)
 
 **Related topics**  
 
 
-[Configuring Contract Workspace with UI Builder components]()
+[Configuring Contract Workspace]()
 
 [Configure signature pause duration when modifying signatories]()
 
 [Auto-populate the start date and end date for contract requests]()
+
+[Enable signatory roles]()
 
 [Activate a system property to generate a certificate of completion]()
 

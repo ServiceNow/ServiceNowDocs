@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/exploring-cto-it.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -18,7 +18,7 @@ Learn how you can use the Care Team Operations for Healthcare IT application to 
 
 Care Team Operations for Healthcare IT contains the case types to report and fulfill IT issues in hospitals.
 
-Care Team Operations for Healthcare IT provides care teams with a streamlined platform to report EMR or other IT issues. Using the Care Team portal, care team members can raise an issue with the Healthcare IT case type. An incident is then automatically created from this case, which service agents in the IT department then manage using the Service Operations workspace asCt they fix the issue. There are two types of service requests available with Care Team Operations for IT:
+Care Team Operations for Healthcare IT provides care teams with a streamlined platform to report EMR or other IT issues. Using the Care Team portal, care team members can raise an issue with the Healthcare IT case type. An incident is then automatically created from this case, which service agents in the IT department then manage using the Service Operations workspace asCt they fix the issue. There are two types of service requests available with Care Team Operations for Healthcare IT:
 
 -   Report an EMR Issue
 -   Request other IT service

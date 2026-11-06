@@ -7,7 +7,7 @@ release: yokohama
 product: Tag Governance
 classification: tag-governance
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Tag Governance, ITOM Visibility, IT Operations Management]
 ---
@@ -49,6 +49,10 @@ Policy Type
 Policy type selection for the tag compliance and health audit.-   Tag Count Policy: Check for a specific count of tags for CIs.
 -   Tag Key Policy: Check for tags with specific values \(string expressions\).
 -   Tag Key &amp; Value Policy: Check for key-value pair and value strings.
+-   Tag Category Policy: Check for tags with a specific category.
+
+**Important:** You must work in a leaf domain to use the Tag Category Policy.
+
 
 Based on your selection, you will specify additional values.
 

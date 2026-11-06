@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configure, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM, Configuring Service Operations Workspace for ITSM, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Migrate from ITSM Agent Workspace to Service Operations Workspace for ITSM
@@ -48,17 +48,7 @@ Role required: admin
 
 3.  On the Features to migrate from Agent Workspace page, for each feature, select the configurations and customizations to migrate.
 
-    Apart from the pre-defined features or application and sub features within the features that correspond to specific tables, you can also configure to add custom tables or multiple tables to the features for migration from ITSM Agent Workspace to SOW using the **ITSM Agent Workspace migration grp tables** \[**sn\_sow\_migration.itsm\_aw\_migration\_grp\_tables**\] system property. This includes the tables that you created or modified in ITSM Agent Workspace.
-
-    On the Features to migrate from Agent Workspace page, the banner displays a notification message with the link to the system property. You can select the link to access the system property page. On the system property page, you can modify the json string in the **Value** field to add custom tables or multiple tables to the features for migration. When editing the json string, you must ensure the following points to avoid errors during migration process:
-
-    -   Maintain the format and structure of the json string as is and ensure that the json string is valid.
-    -   Add multiple or custom tables that correspond to the features such as **Incident Management** or **Change Management**.
-    -   Avoid duplicate entry of the same custom table under multiple features except for **List** and **Other features**.
-    -   As the **List** and **Other features** does not correspond to a specific table, it contains multiple tables from other features or applications in ITSM.
-    -   If you want to run the migration for the custom table in **List** and **Other features**, then add the custom table to the existing pre-defined features as well as in List and Other features section of the json string.
-    -   In case, if any custom table does not correspond to any pre-defined features or application or categories, you can add the custom table in Custom Table Migration section of the json string.
-    For information about configurations and customizations that can be migrated, see [Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md).
+    For information about configurations and customizations that can be migrated, see [Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md).
 
 4.  Select **Next**.
 
@@ -88,8 +78,8 @@ Complete the post-migration tasks for each configuration or customization that y
 -   [Perform post-migration tasks for related list declarative form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-related-actions-aw-sow.md)
 -   [Perform post-migration tasks for field decorators form actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/verify-migration-status-field-declarative-actions-aw-sow.md)
 
--   **[Configurations and customizations that can be migrated from ITSM Agent workspace to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
-Several configurations and customizations related to various ITSM Agent Workspace features that can be migrated to SOW for ITSM.
+-   **[Migration of ITSM Agent workspace configurations to SOW for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configurations-and-customizations-from-itsm-aw-sow-itsm.md)**  
+You can migrate several configurations and customizations related to ITSM Agent Workspace features to SOW for ITSM.
 
 **Parent Topic:**[Migration from ITSM Agent Workspace to Service Operations Workspace for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/migration-from-itsm-aw-sow.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Configure, Automation Center, Workflow Data Fabric]
 ---
 
 # Configuring automation summary execution
@@ -19,8 +19,6 @@ Configure the execution summary of automation to specify how automation data is 
 You can import and configure data from various sources, such as RPA, ServiceNow flows, Document Intelligence \(DocIntel\), and others to view in the Automation Center dashboard.
 
 Earlier, for data of different data sources different types of summarization was required. It was time-consuming. However, now there’s a generic way to make updates to automation summary execution for data from different sources.
-
-**Note:** The summary execution table displays data about executions of the automations for the domain where they are created and not where they are executed. For example, if an automation is created in the parent domain and executed in the child domain, it will display the data in the parent domain. You cannot see this execution data in the child domain.
 
 -   **[Create automation source type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/create-source-type.md)**  
 Define the kind of source type that you want to import and use in Automation Center.

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-06-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Set up access to Microsoft Azure billing and usage data, Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add the Billing Profile Reader role to the Microsoft Azure service principal
@@ -23,8 +23,6 @@ Role required: Azure Cloud admin
 ## About this task
 
 The Billing Profile Reader role provides the required permissions to download price sheet data at the profile scope only for MCA accounts. For more information on Azure roles, see [Microsoft documentation](https://learn.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal).
-
-**Important:** The support for MCA accounts is available from Cloud Cost Management version 9.0 and later.
 
 ## Procedure
 

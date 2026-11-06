@@ -7,9 +7,9 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Explore Project Portfolio Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Agile Development 2.0 integration with Project Portfolio Management

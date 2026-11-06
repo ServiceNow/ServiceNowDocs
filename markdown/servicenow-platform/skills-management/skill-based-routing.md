@@ -7,7 +7,7 @@ release: yokohama
 product: Skills Management
 classification: skills-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Skills Management, Skills Management, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Using Skills Management, Skills Management, Manage people and work 
 
 Use rules to automatically route work items to agents.
 
-You can route work to agents based on their skills using Skill Determination Rules and Advanced work assignments.For more information on routing agents to work items, see [Advanced work assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-assignment.md)
+You can route work to agents based on their skills using Skill Determination Rules and Advanced work assignments.For more information on routing agents to work items, see Advanced work assignments
 
 -   **[Learn how Skill Determination works](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/skills-management/how-skill-determination-works.md)**  
 Use Skill Determination to add skills to incoming work items so that agents with those skills can work on it.

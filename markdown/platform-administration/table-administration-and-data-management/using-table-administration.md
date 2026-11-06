@@ -7,9 +7,9 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Table administration, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Table admin, Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Managing tables and indexes
@@ -46,12 +46,16 @@ An index puts unordered tables into order, and efficiently speeds up queries to 
 
 Many-to-many \(M2M\) table relationships enable administrators to associate records between two tables in a bidirectional and flexible manner. This relationship type is used to create links between records where each record from one table can relate to multiple records in another table, and vice versa.
 
+**Note:** It is to be noted that when you de-activate or delete a field from the dictionary on a table, it might impact on the personalized UI view lists and will remove all regardless if they contain the de-activated/deleted field.
+
 -   **[Create a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/t_CreateATable.md)**  
 Administrators and application developers can create custom tables to store application data. After you create a table, you can also modify field types and field labels.
 -   **[Deleting custom tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_DeleteATable.md)**  
 Administrators can delete custom tables that are no longer needed. For example, delete a table from an application that is under development because the business requirements change.
 -   **[Modify dictionary entries](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/t_ModifyADictionaryEntryFromAForm.md)**  
 Modify dictionary entries by configuring a field on a form or from the Dictionary module.
+-   **[Configuring read-only security options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/read-only-option.md)**  
+Control the ability to edit read-only fields by configuring read-only options.
 -   **[Altering tables and fields using dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_DictionaryAttributes.md)**  
 Dictionary attributes alter the behavior of the table or field that the dictionary record describes. Administrators can add or modify dictionary attributes.
 -   **[Dictionary overrides](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/table-administration-and-data-management/c_DictionaryOverrides.md)**  

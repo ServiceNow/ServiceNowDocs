@@ -7,9 +7,9 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-11-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Access control through organizational structure, Use, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Configuring access control, Access control by legal entity, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Add hierarchical relationships between entities
@@ -41,5 +41,5 @@ Role required: sn\_privacy.admin
 7.  Select **Save**.
 
 
-**Parent Topic:**[Access control through organizational structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/access-control-by-legal-entity.md)
+**Parent Topic:**[Configuring access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-access-control-by-legal-entity.md)
 

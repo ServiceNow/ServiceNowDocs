@@ -7,7 +7,7 @@ release: yokohama
 product: Data Privacy \(Classic\)
 classification: data-privacy-classic
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Data Privacy, Platform Privacy]
 ---
@@ -18,7 +18,7 @@ Check which field types are supported when anonymizing data.
 
 **Note:** Not all field types that have been classified are available for anonymization.
 
-Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see [Field Types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_FieldTypes.md).
+Some high risk field types are turned off by default, as detailed in the table. For more information about fields, see Field Types.
 
 |Field type|Available by default|
 |----------|--------------------|

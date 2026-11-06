@@ -1,16 +1,16 @@
 ---
-title: Add or remove business capabilities from a value stream
+title: Add or remove business capabilities from a value stream stage
 description: You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/add-or-remove-a-bc-from-vs-stage.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-02"
-reading_time_minutes: 1
-breadcrumb: [Manage value stream stages, Working with business architecture, Portfolio list view, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Manage value stream stages, Using business architecture, Working with Portfolio list view, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Add or remove business capabilities from a value stream
+# Add or remove business capabilities from a value stream stage
 
 You can add an existing business capability to a value stream stage to map your organizational capabilities to the stages of your value streams. You can also remove associated business capability if they’re no longer relevant for the value stream stage.
 
@@ -51,14 +51,16 @@ Role required: sn\_apm.apm\_user
     -   You can select and remove multiple business capabilities simultaneously.
     -   This action just removes the association between the value stream stage and the business capability. The business capability record isn’t deleted from the system.
 
-**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
+**Parent Topic:**[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-manage-value-stream-stages.md)
 
 **Related topics**  
 
 
-[Manage value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
+[Exploring value stream stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-value-stream-stage.md)
 
 [View value stream stage details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-view-all-value-stream-stages.md)
 
 [Add or edit a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-add-or-edit-a-value-stream-stage.md)
+
+[Associate a business process with a value stream stage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-assoc-bp-with-vs-stage.md)
 

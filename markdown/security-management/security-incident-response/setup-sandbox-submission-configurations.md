@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [CrowdStrike Falcon X Sandbox integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -120,9 +120,7 @@ Option that allows you to select the type of network settings used while submitt
 
 ## What to do next
 
-After you configure sandbox
-
-submissions, the next step is to [manually submit files or ULRs to Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/submit-files-or-urls-to-sandbox.md)
+After you configure sandbox submissions, the next step is to [manually submit files or ULRs to Sandbox](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/submit-files-or-urls-to-sandbox.md)
 
 .
 

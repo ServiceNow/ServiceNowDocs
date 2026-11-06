@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-03-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Using Software Asset Workspace
@@ -21,15 +21,31 @@ Create entitlements in the Software Asset Workspace to enter your license detail
 -   **[Import bulk entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/import-entitlements-workspace.md)**  
 You can import multiple entitlements at one go in the Software Asset Workspace.
 -   **[Install Software Asset Management Guided Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/install-sam-playbook.md)**  
-Install the Software Asset Management Guided Experiences \(com.sn\_sam\_playbook\) application for step-by-step guidance for completing tasks in your daily software management activities. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
+Install the Software Asset Management Guided Experiences \(sn\_sam\_playbook\) application for step-by-step guidance for completing tasks in your daily software management activities. The application includes demo data and installs related ServiceNow® Store applications and plugins if they aren’t already installed.
 -   **[Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md)**  
 Use the guided walk-through playbook for a step-by-step process of creating entitlements.
--   **[Create software models in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md)**  
-Create a software model in the Software Asset Workspace to add product details that are used to connect software rights you purchased with software installations discovered on your system.
+-   **[Create a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-swmodels-workspace.md)**  
+Create a software model in the Software Asset Workspace. Add product details that are used to connect software rights that you purchased with software installations that are discovered on your system.
 -   **[Run software reconciliation in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/run-recon-workspace.md)**  
 Reconciliation is run as a scheduled job \(default is weekly\), but you can also run reconciliation manually to reconcile software products in the Software Asset Workspace environment on-demand.
+-   **[Generate an Effective License Position \(ELP\) report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/generate-elp-report-sam.md)**  
+Generate an ELP report to gain detailed insights into the consumption details of different groups within your organization.
+-   **[Create a custom deduplication rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/configure-custom-deduplication-rule.md)**  
+Create a custom deduplication rule to define how duplicate software installations are identified and matched within your organization.
 -   **[Create a software removal candidate in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/add-sw-removal-workspace.md)**  
 Removal candidates reclaim software resources in your environment. They are created automatically from reclamation rules or can be created manually.
+-   **[Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclaiming-software-sam.md)**  
+Optimize your environment by reclaiming or removing installed software that is not being used or used infrequently.
+-   **[Create a catalog request to reclaim assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-catalog-req-offboardingsam.md)**  
+Create a catalog request to efficiently reclaim software assets when an employee leaves an organization or moves to a different role.
+-   **[Create and manage reports in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-new-report-workspace.md)**  
+Create and manage your report tiles in the Software Asset Workspace.
+-   **[View your cluster setup in 360 degrees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-360-sam-cluster.md)**  
+Get a 360-degree perspective of your cluster setup to manage license consumption across the cluster.
+-   **[View calculations for your licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/licenses-required-workspace.md)**  
+Evaluate the license compliance of software applications by viewing the details for all required licenses through the Software Asset Workspace License usage view.
+-   **[Create group allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-group-allocations.md)**  
+Create group allocations to allocate licenses to all the members of the assignment group.
 -   **[Create device allocation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-device-allocation.md)**  
 Create a device allocation for a software entitlement to specify devices that have been granted rights.
 -   **[Copy user or device allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/copy-allocations.md)**  
@@ -38,6 +54,8 @@ Copy user or device allocations from one entitlement to the other.
 Create consumption rules to restrict license consumption to certain entities within your organization.
 -   **[Link consumption rules to entitlements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/link-consumption-rules.md)**  
 After you've created a consumption rule, you must link the rule to one or more entitlements.
+-   **[Create a comprehensive lifecycle report using a guided experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-lifecyclereporting-guidedexperience.md)**  
+Use a guided experience to improve your lifecycle data completeness.
 -   **[View discovered engineering licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-disco-englicenses-workspace.md)**  
 View a list of all the discovered and normalized software for your engineering applications in the Software Asset Workspace.
 -   **[View engineering license servers in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-englicenses-server-workspace.md)**  
@@ -50,17 +68,19 @@ View the product suggestions that enable you to consolidate your custom software
 Track your installation to license journey by connecting software installations to the licenses consumed and identifying statuses such as licensed, unlicensed, ignored, or requiring action.
 -   **[Create averages for product life cycles in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-lifecycle-averages-workspace.md)**  
 Create averages to calculate software End of Life \(EOL\) and End of Support \(EOS\) life cycles in the Software Asset Workspace.
--   **[View normalization suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-norm-sugg-workspace.md)**  
-View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
--   **[Revert normalization in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/revert-norm-workspace.md)**  
-You can revert the normalization of discovery models in the Software Asset Workspace.
+-   **[Use publisher add-on lifecycles in the Software Lifecycle Report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/specify-publisher-add-on-lifecyles.md)**  
+If you purchase an add-on or optional support for a software product, enable the Software Asset Management application to automatically update the life-cycle dates of that product with the extended life-cycle dates of the add-on or optional support. These updated life-cycle dates are populated in the Software Lifecycle Report \[sam\_sw\_product\_lifecycle\_report\] table.
 -   **[Manually override edition value in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manually-override-edvalue-workspace.md)**  
 If the edition of a software installation is not automatically discovered, you can specify the edition on the Software Installation form \(if known\) so the software can be successfully reconciled.
--   **[Manually normalize a software model in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manual-normalize-swmodel-workspace.md)**  
-You can manually normalize a software discovery model that has not been fully normalized \(partially normalized, publisher normalized, or match not found\) in order to reconcile it.
+-   **[View normalization suggestions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-norm-sugg-workspace.md)**  
+View normalization suggestion records in the Software Asset Workspace that are created for discovery models. You can accept or reject these suggestions.
+-   **[Manually normalize a software model in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manual-normalize-swmodel-workspace.md)**  
+You can manually normalize a software discovery model that hasn’t been fully normalized \(partially normalized, publisher normalized, or match not found\) to reconcile it.
+-   **[Revert normalization in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/revert-norm-workspace.md)**  
+You can revert the normalization of discovery models in the Software Asset Workspace.
 -   **[Create parent-child relationships between software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-parent-child-relationships-between-software-products.md)**  
 Create and define the parent-child relationships between your software products so that your child products can inherit life-cycle dates from their parent products.
--   **[View the Export Classification Control Number \(ECCN\) mappings for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-eccn-software-mappings.md)**  
+-   **[View Export Classification Control Number \(ECCN\) mappings for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-eccn-software-mappings.md)**  
 View the list of ECCNs that are mapped to your software products. Use this information to identify the products that are subject to U.S. export control regulations.
 -   **[View or create software usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-sw-usage-workspace.md)**  
 View software usage records to track the usage of software products that you have created reclamation rules for. You can also create software usage records manually from third party integrations or Microsoft SCCM integrations.
@@ -84,6 +104,8 @@ Add a client access record to track and manage the users or devices that are acc
 Create a resource value record for each software model for which you want to calculate licensing requirements.
 -   **[Create user subscriptions in the workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-user-subscription-workspace.md)**  
 Create software subscriptions for SaaS and SSO applications for users in the Software Asset Workspace.
+-   **[Create a product workload mapping for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-product-workload-mapping-crowdstrike.md)**  
+Create a product workload mapping for your CrowdStrike products for accurately associating specific products with the types of workloads they manage.
 -   **[View publisher part number \(PPN\) suggestions in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-customppn-workspace.md)**  
 View Content Service suggestions for your custom PPNs and DMAPS in the Software Asset Workspace.
 -   **[Manage phase-wise Software Asset Management implementation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-phasewise-imp-of-sam.md)**  
@@ -92,40 +114,22 @@ Carry out phase-wise Software Asset Management implementation by publishing only
 Create product install conditions in the Software Asset Workspace that apply across all software models of a product during reconciliation.
 -   **[Create or update an override license cost record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-edit-override-license-cost.md)**  
 Create or update an override license cost record for your software entitlements based on your requirements.
--   **[Reclaim software](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclaiming-software-sam.md)**  
-Optimize your environment by reclaiming or removing installed software that is not being used or used infrequently.
--   **[Create a catalog request to reclaim assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-catalog-req-offboardingsam.md)**  
-Create a catalog request to efficiently reclaim software assets when an employee leaves an organization or moves to a different role.
--   **[Create and manage reports in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-new-report-workspace.md)**  
-Create and manage your report tiles in the Software Asset Workspace.
--   **[View your cluster setup in 360 degrees](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-360-sam-cluster.md)**  
-Get a 360-degree perspective of your cluster setup to manage license consumption across the cluster.
--   **[View calculations for your licenses in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/licenses-required-workspace.md)**  
-Evaluate the license compliance of software applications by viewing the details for all required licenses through the Software Asset Workspace License usage view.
--   **[License usage publisher fields in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/workbench-publisherfields-workspace.md)**  
-Field descriptions for the related lists for publishers in the Publishers page in the License usage view.
+-   **[Create an unrecognized publisher integration mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/map-unid-pub-integration.md)**  
+Create an unrecognized publisher-to-subscription integration mapping for your engineering applications. You can create these mappings when the content resolver doesn't automatically identify a specific publisher.
 -   **[Create an end of life workflow request for your software products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-eol-risk.md)**  
 Manage risks associated with your software product installations that have reached the end of life \(EOL\) or are reaching EOL in the next 18 months. You can create an EOL request and take the required action for the EOL software.
 -   **[Complete the end of life workflow request for your software product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/complete-eol-workflow-request.md)**  
-Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory. If you set the **Action** field to **Remove EOL Software** in the Decide on IT strategy task, you must perform these software EOL tasks.
--   **[Run a health check scan for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/run-healthcheck.md)**  
-Run a health check scan on your Software Asset Management configurations and get recommendations on fixing any errors that might exist.
--   **[Create a Value builder task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-valuebuilder-task.md)**  
-Manually create a Value builder task for publisher packs not being fully utilized in your instance.
--   **[View all maturity items for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/view-maturity-items.md)**  
-View the maturity of your Software Asset Management \(SAM\) program to analyze the status of each maturity stage, where each stage shows the number of maturity items completed.
--   **[Create success goals for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-success-goals.md)**  
-Create success goals to track the success of the Software Asset Management application in your instance.
--   **[Create success activities for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-success-activity.md)**  
-Create success activities to track the success of your goals.
--   **[Create a success goal category for software assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-sam-suc-cat.md)**  
-Create a success goal category for adding the category to the Software Asset Management success goal.
+Perform all the tasks that are required to remove the end of life \(EOL\) software products from your asset inventory.
 -   **[Create demand to rationalize software applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/soft-asset-demand.md)**  
 Create demands to rationalize SaaS and SSO applications by discontinuing software subscriptions, reducing software usage, and migrating users to approved software.
 -   **[Create a demand requirement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-demand-req.md)**  
 Create a demand requirement for rationalizing your SaaS and SSO applications.
 -   **[Install Content library portal for Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/install-contentlookup.md)**  
 Install the Content library portal store application to view the data stored in the Software Asset Management Content Service.
+-   **[Use manage contract repository agentic workflow in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-contract-repository-workflow.md)**  
+Use the manage contract repository agentic workflow to improve productivity by extracting metadata and obligations automatically from signed contracts. Set the contract reminder dates for contract renewal or termination.
+-   **[Manage obligation tasks in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/manage-obligation-tasks-software-asset-workspace.md)**  
+Create obligation records to define specific instructions and obligation task types required to fulfill the contract obligation in the Software Asset Workspace.
 
 **Parent Topic:**[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SoftwareAssetMgmt.md)
 

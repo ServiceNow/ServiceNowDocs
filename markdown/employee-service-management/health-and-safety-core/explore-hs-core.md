@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Core
 classification: health-and-safety-core
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety Core, Health and Safety, Employee Service Management]
 ---
@@ -27,6 +27,7 @@ The Health and Safety Core application provides the core date model for Health a
 -   Report field mapping enables the safety agents to generate PDF reports for the records.
 -   Health and Safety documents enable the safety teams to view documents associated with a safety record.
 -   Health and Safety action scheduler helps to create scheduled actions across the organization.
+-   Action Planner enables safety teams to view, create, and manage corrective and preventive actions on any Health and Safety record without navigating away from the page.
 
 ## User Personas
 
@@ -40,5 +41,6 @@ Health and Safety Core is aimed at the following personas:
 |Create safety report field mapping to map fields in your reporting PDF template to the corresponding fields in the Health and Safety records.|[Report field mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/create-safety-report-field-mapping.md)|Safety report mapping manager|
 |Log and track the meetings in the Health and Safety application.|[Safety meetings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/log-hs-safety-meeting.md)|Safety meeting manager|
 |Create an action schedule to schedule actions across the organization.|[Health and Safety action scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/scheduling-health-safety-actions.md)|Safety agents|
+|Manage actions in context while reviewing a Health and Safety record.|[Action planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-action-planner.md)|Safety team|
 |Create and manage safety knowledge articles.|[Safety knowledge articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-core/hs-managing-safety-knowledge-articles.md)|Safety manager|
 

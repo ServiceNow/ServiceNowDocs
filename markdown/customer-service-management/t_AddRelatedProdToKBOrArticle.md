@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AddRelatedProdToKBOrArticle.html
 release: yokohama
 topic_type: task
-last_updated: "2025-08-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Knowledge product entitlements, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Knowledge product entitlements, Administer, Customer Service Management]
 ---
 
 # Add a related product to a knowledge base or knowledge article
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-**Note:** To access knowledge bases and articles associated with a product, a user must have read or contribute access and have the product included in the user's account as an asset. For more information about assets, see [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-assets.md).
+To access knowledge bases and articles associated with a product, a user must have read or contribute access and have the product included in the user's account as an asset. For more information about assets, see [Configure assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-assets.md).
 
 ## Procedure
 

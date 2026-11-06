@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Models, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Models, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Model form fields
@@ -46,7 +46,7 @@ Name
 
 </td><td>
 
-Field that Discovery uses to create a model with the value discovered. Model managers can specify a name of their choice when creating a model and can also edit the name of an existing model.
+The manufacturer-assigned name of the model or abstract name specified by the model manager, such as **Field Agent Laptop**.
 
 </td></tr><tr><td>
 

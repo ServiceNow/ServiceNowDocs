@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/c\_CaseRouting.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Routing and assigning customer service cases
@@ -44,13 +44,6 @@ When you create an assignment rule, you select the following:
 -   The user or the group to which the task is assigned.
 
 Alternately, you can create a script to further customize the assignment rule.
-
--   **[Invoke the MatchingRuleProcessor API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_InvokeMatchingRuleAPI.md)**  
-After you create one or more matching rules, you can invoke the MatchingRuleProcessor API and run the rules.
--   **[Reverse matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ReverseMatching.md)**  
-Reverse matching uses the same matching rules to match tasks to a resource rather than resources to a task.
-
-**Parent Topic:**[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CustomerServiceManagement.md)
 
 **Related topics**  
 

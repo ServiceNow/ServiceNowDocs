@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_ReferenceIcon.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Decorations, Reference field type, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Decorations, Reference field type, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Reference field icon
@@ -90,6 +90,4 @@ Role required: admin
 ### What to do next
 
 If this system value is set to **false**, you can override the setting for a specific read-only reference field. Configure the dictionary entry and add the **readonly\_clickthrough=true** attribute.
-
-\[Omitted image "ClickThroughAttribute.png"\] Alt text: Read-only clickthrough attribute in dictionary entry
 

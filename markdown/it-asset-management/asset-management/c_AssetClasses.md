@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management
 classification: asset-management
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 2
-breadcrumb: [Using Asset Management, Asset Management, IT Asset Management]
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Use, Base Asset Management, Common applications, Asset Management]
 ---
 
 # Manage various assets through asset classes
@@ -29,7 +29,7 @@ Use asset states and substates to track assets accurately and at a detailed leve
 -   **[Add depreciation to an asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/t_AddingDepreciationToAnAsset.md)**  
 Depreciation is the reduction in the value of an asset over time.
 
-**Parent Topic:**[Using Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
+**Parent Topic:**[Using Base Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/asset-management/using-asset-management.md)
 
 **Related topics**  
 
@@ -45,8 +45,6 @@ Depreciation is the reduction in the value of an asset over time.
 [Manage pre-allocated assets]()
 
 [Manage transfer order]()
-
-[Example Asset Management process]()
 
 [Use Organization Management]()
 

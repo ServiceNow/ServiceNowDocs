@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/t\_ConfigureFieldService.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Planning your Field Service Management implementation, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Plan implementation, Configure, Field Service Management]
 ---
 
 # Global domain configurations

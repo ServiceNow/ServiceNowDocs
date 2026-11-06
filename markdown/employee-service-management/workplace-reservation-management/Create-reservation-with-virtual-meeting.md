@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 8
+last_updated: "2026-09-10"
+reading_time_minutes: 9
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -26,15 +26,15 @@ Role required: sn\_wsd\_core.workplace\_user
 
 1.  Navigate to the Make a Reservation page from any of the following starting points.
 
-<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d163389e68">
+<table id="choicetable_oxk_tfj_zsb"><thead><tr><th align="left" id="d176993e68">
 
 Location
 
-</th><th align="left" id="d163389e71">
+</th><th align="left" id="d176993e71">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d163389e77">
+</th></tr></thead><tbody><tr><td id="d176993e77">
 
 **From application navigator**
 
@@ -42,7 +42,7 @@ Steps
 
 Navigate to **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d163389e98">
+</td></tr><tr><td id="d176993e98">
 
 **Employee Center**
 
@@ -148,11 +148,11 @@ This reservation is for
 
 If you are requesting a reservation on someone else's behalf, select the name of that person. Leave the field empty if you are requesting a reservation for yourself.
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td>
 
-Add invitees to this reservation
+**Add invitees to this reservation** section
 
-</td></tr><tr><td colspan="2">
+</td><td>
 
 **Note:** This section appears only if your administrator has enabled the configuration to invite attendees to this workplace location.
 
@@ -225,23 +225,25 @@ To view the reservation recording, go to Reservation summary of the reservation 
 
 [Create a reservation]()
 
+[Auto-resolve recurring reservations]()
+
 [Add invitees as collaborators and create a reservation]()
 
-[Auto-resolve recurring reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Reserve a space near your colleague]()
 
-[Create neighborhood reservations]()
+[Create a multi-day reservation]()
 
 [Create multi-building reservations]()
 
-[Create a multi-day reservation]()
+[Create neighborhood reservations]()
 
 [Create reservation for multiple workplace items]()
 
-[Create a reservation along with a shared reservation]()
+[Enable shift-based reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Create a reservation along with a shared reservation]()
 
 [Create a shift reservation]()
 
@@ -252,4 +254,6 @@ To view the reservation recording, go to Reservation summary of the reservation 
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

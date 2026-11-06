@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [HR templates, HR services, HR Administration, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR templates, HR services, HR Administration, Configure, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure an HR task template
@@ -24,15 +24,15 @@ Role required: sn\_hr\_core.admin
 
 1.  Choose one of the following.
 
-<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d750542e51">
+<table id="choicetable_vvj_tvs_mgb"><thead><tr><th align="left" id="d809891e51">
 
 Option
 
-</th><th align="left" id="d750542e54">
+</th><th align="left" id="d809891e54">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d750542e60">
+</th></tr></thead><tbody><tr><td id="d809891e60">
 
 **HR service activity**
 
@@ -49,9 +49,9 @@ Description
 3.  In the **Child task template** field, click the Lookup icon.
 
 
-</td></tr><tr><td id="d750542e115">
+</td></tr><tr><td id="d809891e115">
 
-**\( Enterprise Onboarding and Transitions only\) Lifecycle event activity**
+**\(Enterprise Onboarding and Transitions only\) Lifecycle event activity**
 
 </td><td>
 
@@ -141,7 +141,7 @@ Submit Catalog Item
 
 </td><td>
 
-A catalog item fulfills the HR task. In the **Catalog Item** field, select a catalog item.
+A catalog item fulfills the HR task. In the **Catalog Item** field, select an active catalog item.
 
 </td></tr><tr><td>
 
@@ -188,7 +188,7 @@ Credential
 Prompts the user to login with their credentials to acknowledge conditions and terms related to their signature. To add text that explains what their login credentials mean, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.**Note:**
 
 -   This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
--   Starting with the Yokohama release, the HR task type: Credential will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
+-   Starting with the Brazil release, the HR task type: Credential will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -201,7 +201,7 @@ E-Signature
 Prompts the user to sign a document. To add text that explains what their signature means, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.**Note:**
 
 -   This option is only available for existing customers that have not yet migrated to e-signature. See [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md) for more information.
--   Starting with the Yokohama release, the HR task type: E-signature \(e\_signature\) will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
+-   Starting with the Brazil release, the HR task type: E-signature \(e\_signature\) will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
@@ -225,11 +225,11 @@ Requests the subject person to edit or sign a document. An example is sending an
 
 To add text that explains what their signature means, add the **Acknowledgment text** field. To add a document, add the **Acknowledgment document** field.
 
-Acknowledgment text entered on the HR document template overrides text written here. See [Configure an HR document template \(HTML\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/t_AddHRPDFDocumentTemplate.md) or [Configure an HR PDF document template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/PDFTemplate.md).
+Acknowledgment text entered on the HR document template overrides text written here.
 
 **Note:**
 
-Starting with the Yokohama release, HR task type: Sign Document will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
+Starting with the Brazil release, HR task type: Sign Document will be hidden, but will continue to be supported. E-signature provides the latest experience for this functionality.
 
 For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-alert-configuration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure search for places in crisis map, Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Set alert rules to specify conditions under which a feed has to be bubbled up an
 
 ## Before you begin
 
-Role required: Administrator
+Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 ## About this task
 
@@ -26,7 +26,7 @@ Configuring an alert rule: Define simple conditions to evaluate an alert rule an
 
 -   **Feed condition filters**
 
-    Use these filter conditions to set your rules for a feed alert. Setting filter conditions help you to filter those alerts that are critical to your business locations from the thousands of feeds that come from the feed resources you have subscribed. Business locations can be corporate offices, employee locations, data centers, suppliers, and others.
+    Use these filter conditions to set your rules for a feed alert. Filter conditions help you identify alerts that are critical to your business locations from the thousands of feeds you have subscribed to. Business locations can be corporate offices, employee locations, data centers, suppliers, and others.
 
     \[Omitted image "AlertTriggerCondition.png"\] Alt text: Setting up filter for feed condition
 
@@ -62,6 +62,4 @@ Configuring an alert rule: Define simple conditions to evaluate an alert rule an
 
 4.  Click **Submit**.
 
-
-**Parent Topic:**[Configure search for places in crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-place-api-configuration.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-12-02"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [VMware vCenter, Discovery VMware vCenter]
-breadcrumb: [Discovery for VMware virtualization, Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Operating systems discovery, Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery for VMware vCenter
@@ -25,9 +25,9 @@ When a vCenter application is running on a dedicated vCenter appliance, a "Runs 
 
 ## Tested vCenter versions
 
-The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Yokohama release:
+The ServiceNow® platform supports vCenter API versions 4.0 and higher. The following versions were tested with the Brazil release:
 
--   vCenter versions 8.0 and earlier
+-   vCenter versions 9.0 and earlier
 -   vCenter appliance version 6.7 and earlier
 
 For installations based on the vCenter appliance, a server CI is created for the vCenter appliance and the following fields are populated:
@@ -39,7 +39,7 @@ For installations based on the vCenter appliance, a server CI is created for the
 
 **Note:** If you're discovering SUSE Linux hosts for vCenter appliances, version 6.0 and earlier, observe these [SSH restrictions](https://kb.vmware.com/s/article/2100508).
 
-See [Data collected for VMware vCenter Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_VCenterDataCollected.md) for a description of the VMware architecture and component relationships.
+See [Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md) for a description of the VMware architecture and component relationships.
 
 ## vCenter discovery process
 
@@ -70,7 +70,7 @@ If the VM is deleted from vCenter, the cmdb\_ci\_vm\_instance state changes to t
 When a vCenter CI, such as a virtual machine, is removed, the ServiceNow instance marks it as "stale" in the CMDB, using either of these procedures:
 
 -   When Discovery runs, it creates an audit record in the [Components installed with CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/r_TablesInstalledCMDBHealth.md) table for the missing CI and marks the CI "stale".
--   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table from the VmRemovedEvent event, without having to run Discovery.
+-   If the instance is configured to collect vCenter events, the system can also create a "stale" audit record for the CI in the CMDB Health Result \[cmdb\_health\_result\] table. This record is created from the VmRemovedEvent event, without having to run Discovery.
 
 **Note:** When the **Staleness** setting is configured, the dependency view \(BSM map\) grays out stale CIs in its relationship diagram to indicate that they were removed from vCenter.
 
@@ -82,25 +82,5 @@ You have the option of creating a [CMDB remediation rule](https://raw.githubuser
 
 Windows credentials aren't necessary for vCenter Discovery, when valid VMware credentials are used.
 
--   **[Configure an alternate port for vCenter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/t_ConfigureAlternatePortForVCenter.md)**  
-You can specify an alternate port for the VMware - vCenter Datacenters probe.
--   **[Data collected for VMware vCenter Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_VCenterDataCollected.md)**  
-Discovery identifies and classifies information and data about VMware vCenter servers.
--   **[Datastore data collected by Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/r_DataCollDiscoDataStore.md)**  
-Discovery identifies each datastore in the system and creates the relationships with the virtual machines and the ESX servers that use these datastores.
-
-**Parent Topic:**[Discovery for VMware virtualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_DiscoverVMwareInfrastructure.md)
-
-**Related topics**  
-
-
-[ESXi server discovery]()
-
-[Standalone ESXi discovery]()
-
-[Discovery for VMware virtual machines]()
-
-[VM instance state and status fields]()
-
-[Datastore Discovery]()
+**Parent Topic:**[Operating systems discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/c_Computers.md)
 

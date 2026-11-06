@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/activate-visa-queue-scheduler-flow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-02-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Financial Services Operations Integration with Visa, Integrating with Visa, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Configure the Visa Queue Scheduler Flow
@@ -30,7 +30,7 @@ Role required: admin
 
 4.  Select **Activate**.
 
-    **Note:** When using Financial Services Operations Integration with Visa for the first time, you must activate the Visa Queue Scheduler Flow and set the desired frequency. For more information, see [Batch queue processing and scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md).
+    **Note:** When using Financial Services Operations Integration with Visa for the first time, you must activate the Visa Queue Scheduler Flow and set the desired frequency. For more information, see [Batch queue APIs processing and scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.md).
 
 
 **Parent Topic:**[Configuring Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configuring-financial-services-operations-integration-with-visa.md)

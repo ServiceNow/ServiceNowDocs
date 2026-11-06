@@ -1,5 +1,5 @@
 ---
-title: Active the MFA with SMS plugin
+title: Activate the MFA with SMS
 description: For MFA with SMS, install the Multi-factor authentication with SMS \(com.snc.authentication.sms\_mfa\) plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/active-mfa-sms-plugin.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-factor authentication with SMS, MFA verification methods, Configure Multi-factor authentication, Multi-factor authentication, Authentication, Access Management]
+breadcrumb: [SMS as an MFA factor, MFA factor policies, MFA verification methods, Configuring MFA, Multi-factor authentication, Authentication, Access Management]
 ---
 
-# Active the MFA with SMS plugin
+# Activate the MFA with SMS
 
 For MFA with SMS, install the Multi-factor authentication with SMS \(`com.snc.authentication.sms_mfa`\) plugin.
 

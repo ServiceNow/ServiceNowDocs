@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2025-10-29"
-reading_time_minutes: 1
-breadcrumb: [AWS cloud components, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Limit AWS discovery to datacenters with resources
@@ -19,19 +19,23 @@ Optimize AWS discovery by limiting it to datacenters with resources.
 ## Before you begin
 
 -   Verify that you have installed Discovery and Service Mapping Patterns, starting with version 1.29.0.
--   Verify your service account has the following role permissions to access Config API:
-    -   `config:GetDiscoveredResourceCounts`
-    -   `config:DescribeConfigurationRecorderStatus`
--   Verify AWS Config recorder is enabled and configured to record the all resource types.
+-   Verify that your service account has the following IAM permissions to access the Resource Explorer API \(starting with Discovery and Service Mapping Patterns version 1.35.1\).
 
-    For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
+    |IAM permission|Coverage|
+    |--------------|--------|
+    |`resource-explorer-2:Search`|Partial|
+    |`resource-explorer-2:Search` + `iam:CreateServiceLinkedRole`|Full|
 
+    For more information, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Getting started with Resource Explorer" article.
+
+
+**Note:** Discovery and Service Mapping Patterns versions 1.29.0 through 1.32.0 used the AWS Config service instead of the Resource Explorer API to determine datacenter activity. For instructions on configuring AWS Config recorder, go to the [AWS Documentation](https://docs.aws.amazon.com/) and search for the "Recording resources in the AWS Config console" article.
 
 Role required: discovery\_admin
 
 ## About this task
 
-Starting with version 1.29.0, Discovery and Service Mapping Patterns introduces a new AWS datacenter discovery model that focuses discovery on datacenters with resources and excludes datacenters that don't contain resource. To limit discovery to datacenters that contain resources, set the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to false. For more information, see [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+Starting with version 1.29.0, Discovery and Service Mapping Patterns introduces a new AWS datacenter discovery model that focuses discovery on datacenters with resources and excludes datacenters that don't contain resource. To limit discovery to datacenters that contain resources, set the **mid.cloud.discovery.sonar.discover\_all\_aws\_datacenters** MID Server property to false. For more information, see [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 ## Procedure
 
@@ -46,10 +50,16 @@ Starting with version 1.29.0, Discovery and Service Mapping Patterns introduces 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+## What to do next
+
+To exclude specific resource types from AWS datacenter discovery, configure the **sn\_itom\_pattern.discovery.aws.ldc.excluded\_resource\_types** system property with a comma-separated list of resource types to exclude \(starting with Discovery and Service Mapping Patterns version 1.35.1\). For more information, see [Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md).
+
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 
 **Related topics**  
 
 
-[Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
+
+[Exclude AWS resource types from datacenter discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/exclude-aws-resource-ldc-discovery.md)
 

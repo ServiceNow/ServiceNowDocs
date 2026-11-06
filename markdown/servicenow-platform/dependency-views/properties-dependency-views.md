@@ -7,16 +7,16 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Properties for Dependency Views
 
 Use Dependency Views properties to configure how data appears in Dependency Views maps.
 
-These properties are available for Dependency Views. To view and edit these properties, the admin role is required.
+These properties are available for Dependency Views. To view and edit these properties, the sn\_cmdb\_admin or admin role is required.
 
 <table id="table_vb2_wj3_rt"><thead><tr><th>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure the Digital Portfolio Management experience
@@ -25,7 +25,7 @@ Role required: sn\_dpm.dpm\_admin
 Configure the user experience in the DPM Workspace. You can also configure it using the UI Builder application but there's so much you can do in DPM. As a DPM admin, you can:
 
 -   Hide entire tabs, certain sections of a tab, and solutions types \(for example, business applications\) from user views. After a tab or solution type is hidden, that item is also hidden in searches and filters.
--   Hide available item types — services, technical services, business services, application services, service offerings, and business applications.
+-   Hide available item types — services, technology management services, business services, service instances, service offerings, and business applications.
 -   Enable system properties to show:
 
     -   Standard Needs attention panels.
@@ -47,7 +47,7 @@ See configuring DPM user views in action.
 
 2.  Select the menu item that you want to configure for users.
 
-    -   **Application service properties**
+    -   **Service instance properties**
     -   **Business application properties**
     -   **Service and offering properties**
     -   **DevOps properties**

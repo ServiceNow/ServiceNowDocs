@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure agentic workflows, Configure, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Enable manage contract repository agentic workflow, Enable agentic workflows in Now Assist in Contract Management]
+breadcrumb: [Configure agentic workflows, Configure AI capabilities, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Activate business rules for the Manage contract repository agentic workflow
@@ -32,6 +33,8 @@ Role required: admin
 
 4.  Select the **Active** check box.
 
+    \[Omitted image "cmpro-agentic-ai-br.png"\] Alt text: Activate Agentic AI - Set reminders for contract business rule.
+
 5.  Select **Update**.
 
     The Business Rules table appears.
@@ -42,12 +45,23 @@ Role required: admin
 
 8.  Select the **Active** check box.
 
+    \[Omitted image "cmpro-agentic-ecntract-br.png"\] Alt text: Activate Agentic AI Set reminders for Econtract.
+
 9.  Select **Update**.
 
 
 ## Result
 
-The Manage contract repository agentic workflow is activated for Now Assist in Contract Management.
+The Manage contract repository agentic workflow is activated for ServiceNow Otto for Contract Management Pro.
 
-**Parent Topic:**[Configuring agentic workflows in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
+**Parent Topic:**[Configuring agentic workflows in ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-agentic-workflow.md)
+
+**Related topics**  
+
+
+[Set the default notice period for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/conf-sys-prop-default-np.md)
+
+[Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md)
+
+[Enable notifications for AI extracted metadata and obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-me-agentic-ntf.md)
 

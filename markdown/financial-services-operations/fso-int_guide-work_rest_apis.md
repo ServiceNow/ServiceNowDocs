@@ -1,18 +1,18 @@
 ---
 title: Working with ServiceNow REST APIs
-description: FSO leverages the REST Table API to enable external sources, such as bank applications, to interact with the FSO data stored on a ServiceNow instance. The Table API provides endpoints that enable you to perform all CRUD operations \(create, read, update, and delete\) on your FSO centric tables from an external source.
+description: Financial Services Operations \(FSO\) leverages the REST Table API to enable external sources, such as bank applications, to interact with the FSO data stored on a ServiceNow instance. The Table API provides endpoints that enable you to perform all CRUD operations \(create, read, update, and delete\) on your FSO centric tables from an external source.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-int\_guide-work\_rest\_apis.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the developer guide, Financial Services Operations \(FSO\)]
+breadcrumb: [Developer resources, Financial Services Operations \(FSO\)]
 ---
 
 # Working with ServiceNow REST APIs
 
-FSO leverages the REST Table API to enable external sources, such as bank applications, to interact with the FSO data stored on a ServiceNow instance. The Table API provides endpoints that enable you to perform all CRUD operations \(create, read, update, and delete\) on your FSO centric tables from an external source.
+Financial Services Operations \(FSO\) leverages the REST Table API to enable external sources, such as bank applications, to interact with the FSO data stored on a ServiceNow instance. The Table API provides endpoints that enable you to perform all CRUD operations \(create, read, update, and delete\) on your FSO centric tables from an external source.
 
 For example, you will use this API to locate customer records and query specific FSO information, such as customer credit cards, payments, and loans. For additional information on the available tables within FSO, see [Financial Services Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-core-data-model.md) and the [FSO table definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-int_guide-table_defs.md).
 
@@ -23,7 +23,7 @@ You must ensure that the user that you use when calling these REST endpoints has
 -   Financial Services Business Loan Operations: sn\_bom\_loan\_b2b.admin and admin
 -   Financial Services Personal Loan Operations: sn\_bom\_loan.b2c\_admin and admin
 
-For a list of all of the FSO roles and descriptions, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-core-roles.md)Components installed with Financial Services Operations Core.
+For a list of all of the FSO roles and descriptions, see [User roles and FSO Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-core-roles.md).
 
 ## Test driving ServiceNow® REST APIs
 

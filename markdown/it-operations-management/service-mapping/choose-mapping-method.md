@@ -1,5 +1,5 @@
 ---
-title: Choose the right method for discovery and mapping application services
+title: Choose the right method for discovering and mapping services
 description: Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/choose-mapping-method.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
-# Choose the right method for discovery and mapping application services
+# Choose the right method for discovering and mapping services
 
 Service Mapping deploys different methods for collecting information about configuration items \(CIs\) and organizing them into application services. The available mapping methods are: pattern-based, tag-based, traffic-based, and discovery based on Predictive Intelligence. Learn about the mapping methods to use the ones that best suit the needs of your organization.
 
@@ -56,7 +56,7 @@ When using discovery based on Predictive Intelligence to identify TCP connection
 
 </td><td>
 
-Service Mapping uses patterns to discover and map CIs. A pattern is a sequence of commands whose purpose it is to detect attributes of a CI and its outbound connections. A typical Service Mapping pattern consists of separate algorithms for identifying CIs and finding CI connections.
+Service Mapping uses patterns to discover and map CIs. A pattern is a sequence of commands designed to detect attributes of a CI and its outbound connections. A typical Service Mapping pattern consists of separate algorithms for identifying CIs and finding CI connections.
 
 </td><td>
 
@@ -78,7 +78,7 @@ If your organization uses tags for asset management, you can use these tags to m
 
 You can effectively use tags to map multiple application services.
 
- Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map your application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
+ Starting with Service Mapping Plus version 1.16.3, take advantage of the Tag-based Service Mapping workspace to efficiently map you application services. For more information, see [Tag-based mapping in the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-based-mapping-dashboard.md) and [Tag-based discovery for the Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/tag-discovery-service-mapping-workspace.md).
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Request repair of defective enterprise assets, Manage repair of defective assets in your stockroom in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Request repair of an enterprise asset using the Repair option
@@ -28,7 +28,7 @@ Role required: sn\_eam.enterprise\_asset\_manager or sn\_eam.enterprise\_asset\_
 
 3.  Select an asset with state as **In stock** and substate as **Defective** or **Pending repair**.
 
-4.  Select the More Options icon \(\[Omitted image "more-actions-icon.png"\] Alt text: More options icon\) on the Asset form.
+4.  Select the More Options icon \[Omitted image "more-actions-icon.png"\] Alt text: on the Asset form.
 
 5.  Select **Repair**.
 

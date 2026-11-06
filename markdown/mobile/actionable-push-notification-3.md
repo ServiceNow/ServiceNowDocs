@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/actionable-push-notification-3.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure actionable push notifications, Mobile push notifications, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Configure actionable push notifications, Push notifications, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Create functions for each push action
@@ -24,7 +24,9 @@ Role required: admin
 
 2.  Click **New** to create a new function record.
 
-3.  Create a new function for one of your push actions. When selecting a function type in the **Type** field, you must select one of the type supported for actionable push notifications.
+3.  Create a new function for one of your push actions.
+
+    When selecting a function type in the **Type** field, you must select one of the type supported for actionable push notifications.
 
     -   Action item
     -   Navigation

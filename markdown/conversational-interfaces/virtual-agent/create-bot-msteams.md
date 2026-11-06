@@ -1,5 +1,5 @@
 ---
-title: Create a Bot in Microsoft Teams
+title: Create a bot in Microsoft Teams
 description: You must create a bot in Microsoft Teams to be able to integrate with the Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/create-bot-msteams.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating multiple ServiceNow instances with a single Microsoft Teams tenant, Specialized Virtual Agent integrations for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate multiple ServiceNow instances with a single MS Teams tenant, Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Create a Bot in Microsoft Teams
+# Create a bot in Microsoft Teams
 
 You must create a bot in Microsoft Teams to be able to integrate with the Virtual Agent.
 
@@ -59,7 +59,7 @@ Role required: Microsoft Teams admin, Global Administrator, or roles containing 
 
 ## What to do next
 
-[Integrate your Self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
+[Integrate your self-configured bot with single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-install-custom-app.md).
 
 **Parent Topic:**[Integrating multiple ServiceNow instances with a single Microsoft Teams tenant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-single-teams.md)
 

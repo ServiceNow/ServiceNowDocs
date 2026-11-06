@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/now-assist-psds-config-ais-profiles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enabling and configuring AI Search, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [AI Search, Activate ServiceNow Otto skills, Configure, ServiceNow Otto for PSDS, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure AI search profiles with ServiceNow Otto for PSDS
 
 You can enable AI Search users to search content and metadata from documents in all or part of the knowledge bases, external repositories, and remote tables.
+
+ServiceNow Otto for PSDS supports additional configuration for AI Search, such as search profile configuration.
 
 AI Search for ServiceNow Otto for Public Sector Digital Services \(PSDS\) stores search experience settings in search profiles. Define a search profile for each unique search experience that you want to offer users in a ServiceNow AI Platform application. Create and populate synonym and stop word dictionaries. Configure typo handling dictionary settings. Define Genius Results and result improvement rules.
 
@@ -69,7 +71,7 @@ Linking a search source to a search profile makes its filtered content available
 
 2.  Open the search profile that you want to link the search source to.
 
-    To configure single-turn AI Search for use in the Now Assist Panel, select the **\[CSM AIS\] Configurable Workspace Search Config** search profile,
+    To configure single-turn AI Search for use in the ServiceNow Otto Panel, select the **\[CSM AIS\] Configurable Workspace Search Config** search profile,
 
 3.  In the Search Sources related list, select **Link Existing**.
 
@@ -77,13 +79,13 @@ Linking a search source to a search profile makes its filtered content available
 
 4.  On the Search Profile-Search Source Mapping form, fill in the fields.
 
-    To configure single-turn AI Search, enter **Now Assist Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
+    To configure single-turn AI Search, enter **ServiceNow Otto Q&amp;A** in the Genius Result Configuration field, and set the order to **1**.
 
     For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-prof-src-mapping-form-ais.md).
 
 5.  Select **Submit**.
 
-    \[Omitted image "search-profile-related-list-na-psds.png"\] Alt text: Search profile related list showing linked Now Assist Q&amp;A configuration
+    \[Omitted image "search-profile-related-list-na-psds.png"\] Alt text: Search profile related list showing linked ServiceNow Otto Q&amp;A configuration
 
 
 ### Result

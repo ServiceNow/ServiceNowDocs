@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Managing record producers for legal services, Configure, Legal Request Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Managing record producers for legal services, Configure, Legal Request Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Create or modify a record producer for legal services through Classic environment

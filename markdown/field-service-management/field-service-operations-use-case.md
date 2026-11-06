@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-operations-use-case.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Field Service Management workflow examples, Exploring Field Service Management, Field Service Management]
+breadcrumb: [Example workflows, Explore, Field Service Management]
 ---
 
 # Field Service operations workflow example
@@ -24,7 +24,7 @@ ServiceNow helped the vendor complete the upgrade quickly, reducing phone calls 
 
 ## Field Service operations workflow diagram
 
-\[Omitted image "FSM-operations-workflow-asset0012997final.png"\] Alt text: Field Service Management operations workflow. For text description, refer to the following table.
+\[Omitted image "FSM-operations-workflow.png"\] Alt text: Field Service Management operations workflow. For text description, refer to the following table.
 
 ## Field Service operations workflow steps
 

@@ -1,21 +1,21 @@
 ---
-title: Add milestones for roadmap items in Strategic Planning Workspace
-description: Track key outcomes of your planning items \(such as demands, scrum epics, or programs\) by creating milestones for them, directly from the roadmap view.
+title: Add milestones for roadmap items
+description: Track key outcomes of your planning items \(such as demands, epics, or programs\) by creating milestones for them, directly from the roadmap view.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-milestones.html
 release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Add milestones for roadmap items in Strategic Planning Workspace
+# Add milestones for roadmap items
 
-Track key outcomes of your planning items \(such as demands, scrum epics, or programs\) by creating milestones for them, directly from the roadmap view.
+Track key outcomes of your planning items \(such as demands, epics, or programs\) by creating milestones for them, directly from the roadmap view.
 
 ## Before you begin
 
@@ -37,15 +37,15 @@ However, any existing milestones of the project are visible on the roadmap if yo
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d207651e129">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d267465e139">
 
 Roadmap type
 
-</th><th align="left" id="d207651e132">
+</th><th align="left" id="d267465e142">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d207651e138">
+</th></tr></thead><tbody><tr><td id="d267465e148">
 
 **Portfolio plan roadmap**
 
@@ -55,7 +55,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d207651e159">
+</td></tr><tr><td id="d267465e169">
 
 **Free-form roadmap**
 

@@ -1,5 +1,5 @@
 ---
-title: Add dependencies for roadmap items in Strategic Planning Workspace
+title: Add dependencies for roadmap items
 description: Create dependencies and visualize relationships between planning items of your portfolio or free-form roadmap, so that you can adjust their scheduling.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/create-planning-item-dependencies-in-a-roadmap.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [alignment planner workspace, portfolio planning workspace, portfolio planner, strategic planner, strategic planning workspace, roadmap]
-breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Plan roadmaps, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Add dependencies for roadmap items in Strategic Planning Workspace
+# Add dependencies for roadmap items
 
 Create dependencies and visualize relationships between planning items of your portfolio or free-form roadmap, so that you can adjust their scheduling.
 
@@ -33,15 +33,15 @@ The dependency for a planning item on your roadmap can be on an item from the sa
 
 1.  Navigate to **Workspaces** &gt; **Strategic Planning Workspace** &gt; **Portfolio Planning** and open your roadmap.
 
-<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d120528e104">
+<table id="choicetable_vwv_t4z_5wb"><thead><tr><th align="left" id="d150128e107">
 
 Roadmap type
 
-</th><th align="left" id="d120528e107">
+</th><th align="left" id="d150128e110">
 
 Navigation
 
-</th></tr></thead><tbody><tr><td id="d120528e113">
+</th></tr></thead><tbody><tr><td id="d150128e116">
 
 **Portfolio plan roadmap**
 
@@ -51,7 +51,7 @@ Navigation
 2.  From the Planning section, select **Roadmap**.
 
 
-</td></tr><tr><td id="d120528e134">
+</td></tr><tr><td id="d150128e137">
 
 **Free-form roadmap**
 
@@ -88,5 +88,5 @@ If one of the dependency items is not on the roadmap, then the dependency detail
 ## What to do next
 
 -   [Learn how to resolve roadmap item dependency errors.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/error-state-for-planning-item-dependencies.md)
--   Update the dependency details or delete it. See [Update roadmap item dependencies in Strategic Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/manage-planning-item-dependencies-apw.md).
+-   Update the dependency details or delete it. See [Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/manage-planning-item-dependencies-apw.md).
 

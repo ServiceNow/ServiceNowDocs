@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [FireEye Endpoint Security integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -108,7 +108,7 @@ Active
 This indicates that the profile is active. When the profile is active, it automatically triggers when a security incident is created that matches the filtering conditions that you have specified in the configuration.
 
 </td></tr></tbody>
-</table>    \[Omitted image "fireeye-profile-config.png"\] Alt text: FireEye capability profile
+</table>    \[Omitted image "fireeye-profile-config.png"\] Alt text: capability profile.
 
     The following figure is an example of a completed form for profile details with Get Host Details capability.
 

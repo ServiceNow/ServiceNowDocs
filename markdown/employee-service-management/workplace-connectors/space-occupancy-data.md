@@ -1,20 +1,20 @@
 ---
 title: Retrieving Space Occupancy Data
-description: Retrieve the Occupancy and Environment Data table for loading workplace occupancy data and space occupancy data insights for a selected workplace location.
+description: Retrieve the Space Occupancy Data table for loading workplace occupancy data and space occupancy data insights for a selected workplace location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-connectors/space-occupancy-data.html
 release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Setup Workplace Connectors for occupancy data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Retrieving Space Occupancy Data
 
-Retrieve the Occupancy and Environment Data table for loading workplace occupancy data and space occupancy data insights for a selected workplace location.
+Retrieve the Space Occupancy Data table for loading workplace occupancy data and space occupancy data insights for a selected workplace location.
 
 ## Before you begin
 
@@ -22,14 +22,70 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Occupancy and Environment Sensors** &gt; **Occupancy and Environment Data**.
+1.  Navigate to **All** &gt; **Workplace Connectors** &gt; **Occupancy Sensors** &gt; **Space Occupancy Data**.
 
-2.  On the form, review the field details for space occupancy data.
+    Fill in the form fields.
 
-    |Field|Descriptions|
-    |-----|------------|
-    |Location|Location details of the specific workspace.|
-    |Space Occupancy value|Time series data. If the value is 0, it indicates space is unoccupied. If the value is greater than 0, it indicates space is occupied. Select this value to visualize the time-series data in different transforms. For more information, see [MetricBase transforms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/metricbase-transforms.md).|
+<table id="table_j5j_wct_s1c"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Descriptions
+
+</th></tr></thead><tbody><tr><td>
+
+Provider Connector Configuration
+
+</td><td>
+
+Option to select the occupancy data provider and occupancy sensor.For example, **Metrikus - Occupancy**.
+
+</td></tr><tr><td>
+
+Count
+
+</td><td>
+
+Option to specify the count of users in a workplace location or space. Takes integer value. For example, 0, 1, and so on.
+
+</td></tr><tr><td>
+
+Event timestamp
+
+</td><td>
+
+Option to check for the stale time of the data. Stale time sn\_wsd\_wc\_stale\_time checks if the **Event Timestamp** field in the Space Occupancy data table has the latest timestamp. This property checks for the time beyond which the occupancy data is considered stale. Beyond the stale time, the fresh data is fetched from the Occupancy data provider \(for example, Metrikus Spoke\). If the **sn\_wsd\_wc\_stale\_time** property value is set to 30 minutes, application queries the Space Occupancy table and fetches the fresh data for a location or space from Metrikus every 30 minutes.
+
+</td></tr><tr><td>
+
+Location
+
+</td><td>
+
+Option to select a location for which you want the occupancy data.
+
+</td></tr><tr><td>
+
+State
+
+</td><td>
+
+Option to select the space or location Occupancy status \(occupied, unoccupied, currently unoccupied, invalid, and so on.\) for a selected location.
+
+</td></tr><tr><td>
+
+Query Status
+
+</td><td>
+
+Indicates the **Requested** or **Received** status for Occupancy sensor data.-   **Requested**: Indicates a null or no response from Metrikus when there’s an error or when the workplace spaces aren’t mapped with Metrikus external Ids.
+-   **Received**: Indicates a successful response from Metrikus for occupied or unoccupied workplace locations.
+To check for occupancy status of a space in the location directory \(Card view and Map view\), confirm that your Query status is in the **Received** status. If a workplace location or space is mapped with occupancy sensor data, the location directory space records also get updated \(Occupied, unoccupied, not currently occupied, and so on\).
+
+</td></tr></tbody>
+</table>2.  Select **Submit** after making edits or any updates.
 
     The retrieved space occupancy data can be used to verify the following use cases:
 
@@ -40,5 +96,5 @@ Role required: admin
 
 **Previous topic:**[Retrieving Action Configurations data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/actions-configurations-occupancy.md)
 
-**Next topic:**[Setup Workplace Connectors for environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-environmental-data-connectors.md)
+**Next topic:**[Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md)
 

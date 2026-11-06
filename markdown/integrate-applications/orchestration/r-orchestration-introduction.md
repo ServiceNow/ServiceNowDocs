@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Classic Orchestration, Data and Automation]
+breadcrumb: [Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Introduction to Orchestration
@@ -46,7 +46,7 @@ Orchestration Core provides entitlements to use specific applications:
 
 ## Systems that Orchestration can automate
 
-Orchestration can automate tasks such as employee onboarding, user access rights, server management, managed file transfers, and security operations orchestration activities. For example, you might use the Active Directory and Exchange activities provided in the base Orchestration system to set up network accounts and mailboxes for new employees.
+Orchestration can automate tasks such as employee onboarding, user access rights, server management, managed file transfers, and Security Operations Orchestration activities . For example, you might use the Active Directory and Exchange activities provided in the base Orchestration system to set up network accounts and mailboxes for new employees.
 
 If Orchestration does not provide the activities you need for an integration, create the necessary activities using the templates in the [Orchestration Activity Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/c_WorkflowActivityDesigner.md). The external systems that Orchestration can automate for:
 

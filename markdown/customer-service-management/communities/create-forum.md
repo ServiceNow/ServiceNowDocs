@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure community forums, Configure a community, Communities, Customer Service Management]
+breadcrumb: [Configure community forums, Configuring communities, Communities, Customer Service Management]
 ---
 
 # Create a forum
@@ -19,6 +19,10 @@ Create a forum to provide a place for users to share content. You can configure 
 ## Before you begin
 
 Role required: sn\_communities.admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## About this task
 
@@ -55,82 +59,11 @@ The forum title is visible to registered community users. Community users must r
 
 2.  In the Forums list, click **New**.
 
-3.  Fill in the fields on the form as appropriate.
+3.  Fill in the fields on the **Forum New record** form.
 
-<table id="table_ysd_btl_xz"><thead><tr><th>
+    For field description, see [Forum form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/forum-form-fields.md).
 
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Name
-
-</td><td>
-
-Name of the forum.
-
-</td></tr><tr><td>
-
-Description
-
-</td><td>
-
-A short description that defines the forum.
-
-</td></tr><tr><td>
-
-Image
-
-</td><td>
-
-An image that provides a visual reference to describe the forum.
-
-</td></tr><tr><td>
-
-Order
-
-</td><td>
-
-The order that forums are displayed in. By default, the display is alphabetical. Enter a numerical value to set the order that forums are displayed in. You can combine both options.
-
-</td></tr><tr><td>
-
-Parent
-
-</td><td>
-
-The parent forum, if required. This lists the forum as a sub forum of the parent forum.
-
-</td></tr><tr><td>
-
-Enable Membership for this Forum
-
-</td><td>
-
-Check box to make the forum membership only, and enable registered forum users to request to join the forum. If you select this check box, the forum title is visible to all registered community users. Community users must request access to join the forum to see the content. **Note:** The **Approval Workflow for Membership** field appears when you select this check box.
-
-</td></tr><tr><td>
-
-Approval Workflow for Membership
-
-</td><td>
-
-The workflow for approving new members of a forum.
-
-</td></tr><tr><td>
-
-Knowledge Base used for harvesting
-
-</td><td>
-
-The knowledge base used for harvesting community discussions to knowledge articles.
-
-</td></tr></tbody>
-</table>4.  To allow registered forum users to view and request to join a forum, select the **Enable Membership for this Forum** check box and complete the following steps.
+4.  To allow registered forum users to view and request to join a forum, select the **Enable Membership for this Forum** check box and complete the following steps.
 
     1.  Right-click the form header and click **Save**.
 
@@ -144,31 +77,31 @@ The knowledge base used for harvesting community discussions to knowledge articl
 
         -   **Forum User**: **Public**.
         -   **Permission**: **Question &amp; Answer Read**.
-    3.  In the **Approval Workflow for Membership** field, perform one of the following options.
+    3.  In the **Approval Flow for Membership** field, perform one of the following options.
 
-<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d145099e348">
+<table id="choicetable_qcd_dlc_t1b"><tbody><tr><td id="d174889e271">
 
-**Leave the __Approval Workflow for Membership__ field blank.**
+**Leave the __Approval Flow for Membership__ field blank.**
 
 </td><td>
 
 Membership requests to the forum are automatically approved.
 
-</td></tr><tr><td id="d145099e360">
+</td></tr><tr><td id="d174889e283">
 
-**Select the preconfigured approval workflow __Forum Membership Approval__.**
+**Select the preconfigured approval flow __Forum Membership Approval__.**
 
 </td><td>
 
 A task is created and sent to the community or forum administrator for approval.
 
-</td></tr><tr><td id="d145099e372">
+</td></tr><tr><td id="d174889e295">
 
-**Select a workflow that you have created.**
+**Select a flow that you have created.**
 
 </td><td>
 
-A task is created and sent to the users defined in your workflow for approval.
+A task is created and sent to the users defined in your flow for approval.
 
 </td></tr></tbody>
 </table>5.  Click **Update**.

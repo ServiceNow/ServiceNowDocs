@@ -7,8 +7,8 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -23,7 +23,7 @@ Role required: itil
 
 ## About this task
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+The Incident summarization skill is turned on by default. The skill will be automatically available to appropriate role users for the application.When new customers install a ServiceNow Otto product, designated skills are turned on automatically. For existing users who upgrade, there will be no change to the skill activation. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 An incident summary provides you with a concise summary of an incident. The summary is based on the incident state and is generated from the information that you enter in the following fields:
 
@@ -35,9 +35,13 @@ An incident summary provides you with a concise summary of an incident. The summ
 -   Additional comments
 -   Resolution notes \(for a resolved incident\)
 
-For information about the incident states, see [Life cycle of an Incident](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/c_IncidentManagementStateModel.md).
+For information about the incident states, see [Incident life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/c_IncidentManagementStateModel.md).
 
 You can summarize an incident in Core UI and Service Operations Workspace for ITSM.
+
+If incident summarization fails with the `Summarization could not be completed because access to the base table Incident was unsuccessful` error message, check the role masking and agent access role configuration. For more information on role masking, see the Role masking for ServiceNow Otto for ITSM agentic workflows, AI agents, and skills section in [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+
+**Important:** For agent access role configuration, verify that you are using the default sys\_id of the itil role available in the base system. If the sys\_id of that role is different, contact ServiceNow® Customer Support to get it resolved.
 
 ## Procedure
 
@@ -45,13 +49,17 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 2.  Select **Summarize**.
 
-    \[Omitted image "itsm-incident-summarize.png"\] Alt text: Summarize action in the Overview tab.
-
     -   In Core UI, the summary appears in a banner of the incident record.
 
         \[Omitted image "incident-summary-core-ui.png"\] Alt text: Incident summary in Core UI that specifies the issue and actions taken.
 
     -   In Service Operations Workspace for ITSM, the summary is generated in the **Overview** tab.
+
+        **Note:**
+
+        You can also generate the summary in the **Details** tab.
+
+        If you'd like to hide the incident summarization in the Details tab so that you can restrict this option only to the Overview tab, see [Hide incident summarization on the incident Details tab](https://www.servicenow.com/community/developer-articles/hide-incident-summarization-on-the-incident-details-tab/ta-p/3480381) community article.
 
         You can provide feedback by selecting the thumbs up or thumbs down icon. You can also share the summary using the **Share** button.
 
@@ -59,15 +67,15 @@ You can summarize an incident in Core UI and Service Operations Workspace for IT
 
 3.  When you're finished summarizing an incident, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d125987e221">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d206407e248">
 
 Option
 
-</th><th align="left" id="d125987e224">
+</th><th align="left" id="d206407e251">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d125987e230">
+</th></tr></thead><tbody><tr><td id="d206407e257">
 
 **Save the summary information by adding it to the incident work notes**
 
@@ -78,7 +86,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d125987e257">
+</td></tr><tr><td id="d206407e284">
 
 **Expand or collapse the summary**
 
@@ -86,7 +94,7 @@ Procedure
 
 Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expand card icon.\) to view the complete summary or the collapse card icon \(\[Omitted image "icon-collapse.png"\] Alt text: collapse card icon.\) to view a collapsed summary.
 
-</td></tr><tr><td id="d125987e278">
+</td></tr><tr><td id="d206407e305">
 
 **Provide feedback for the summary**
 
@@ -94,7 +102,7 @@ Select the expand card icon \(\[Omitted image "icon-expand.png"\] Alt text: expa
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).**Note:** This feedback improves the generative AI model and can help to improve future versions of this skill.
 
-</td></tr><tr><td id="d125987e301">
+</td></tr><tr><td id="d206407e328">
 
 **Copy the incident summary**
 
@@ -102,7 +110,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 If you want to reuse the summary, select the copy to clipboard icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\).
 
-</td></tr><tr><td id="d125987e317">
+</td></tr><tr><td id="d206407e344">
 
 **View the information about the incident summary**
 

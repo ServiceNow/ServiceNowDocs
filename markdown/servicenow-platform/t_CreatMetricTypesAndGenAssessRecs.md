@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreatMetricTypesAndGenAssessRecs.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Metric types and assessable records, Create an assessment metric for a category, Assessment metrics, Assessment administrator tasks, Using assessments, Assessments, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -266,9 +266,7 @@ Condition
 
 </td><td>
 
-Condition builder that defines specific records to assess from the selected table. If you do not specify any conditions, the system creates assessable records for all records on the selected table. Click the refresh icon to update the adjacent record count.\[Omitted image "MetricTypeConditionMatch.png"\] Alt text: Metric type condition match
-
-**Note:** If you change the table or conditions, you must click **Generate Assessable Records** to create new assessable records.
+Condition builder that defines specific records to assess from the selected table. If you do not specify any conditions, the system creates assessable records for all records on the selected table. Click the refresh icon to update the adjacent record count.**Note:** If you change the table or conditions, you must click **Generate Assessable Records** to create new assessable records.
 
 </td></tr><tr><td colspan="2">
 
@@ -281,12 +279,8 @@ Filter field
 </td><td>
 
 \[Required\] Field on the selected table that can be used to filter results on decision matrixes and scorecards. For example, if the selected table is **Company** `[core_company]` and you choose **Vendor type** as the filter field:-   When you view decision matrixes for this type, the decision matrix menu to filter plotted items lists vendor types: **Applications**, **Hardware**, **Services**, and **Software**.
-
-\[Omitted image "FilterMenu.png"\] Alt text: Filter field
-
 -   On scorecards for this type, the Averages view displays ratings by vendor type.
 
-\[Omitted image "VendorScorecardFilterField.png"\] Alt text: Vendor scorecard filter field
 
 </td></tr><tr><td>
 

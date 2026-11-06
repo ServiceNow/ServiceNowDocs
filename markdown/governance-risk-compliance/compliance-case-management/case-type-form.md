@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a case type, Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Create a case type, Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Case Type form
@@ -26,7 +26,7 @@ See the following table for a description of the field values.
 |Active|Option to select the case type as active or inactive.|
 |Description|Description about this case type. This description is for the administrator to understand the case subtype.|
 |State Model|
-|State Model|Workflow states for the case type. For more information, see [Create a state model to define the workflow states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).|
+|State Model|Workflow states for the case type. For more information, see [Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).|
 |Assessment Configuration|
 |Assessment templates|Assessment template for the case type. If the **sn\_grc\_case\_mgmt.enable\_smart\_assessments** system property is set to **true**, then you can specify the Smart assessment templates that you want to use for performing smart assessment on action tasks. For more information, see [Create an assessment template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/ccm-create-assessment-template.md). For information on|
 |Template Configuration|

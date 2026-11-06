@@ -1,5 +1,5 @@
 ---
-title: Splunk Overview tab for Service Observability
+title: Splunk Observability Overview tab for Service Observability
 description: Information that is displayed on the Splunk Overview tab of the Service Details page in the SOW.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-observability/splunk-overview-tab-for-service-observability.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Splunk templates, Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Splunk Observability templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
-# Splunk Overview tab for Service Observability
+# Splunk Observability Overview tab for Service Observability
 
 Information that is displayed on the Splunk **Overview** tab of the Service Details page in the SOW.
 
@@ -30,7 +30,7 @@ The KPIs section displays basic performance metrics for the service.
 
 ## Key Transactions charts
 
-The Key Transactions charts show metrics for specific key transactions on the service. The key transactions are determined by your Application Performance Management \(APM\) system configuration.
+The Key Transactions charts show metrics for specific key transactions on the service. The key transactions are determined by your observability system configuration.
 
 |Chart name|Description|Data source|
 |----------|-----------|-----------|
@@ -131,5 +131,5 @@ Listing of active alerts that affect this service.
 CMDB
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Splunk templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-templates.md)
+</table>**Parent Topic:**[Splunk Observability templates for Service Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-observability/splunk-templates.md)
 

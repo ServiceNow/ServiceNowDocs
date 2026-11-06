@@ -1,5 +1,5 @@
 ---
-title: Add an NLU model to an update set
+title: \(Legacy\) Add an NLU model to an update set
 description: Use update sets to move your Natural Language Understanding \(NLU\) models from one instance to another. Update sets include all records needed for your model to function on the target instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/add-model-update-set.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Creating models, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [\(Legacy\) Creating models, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Add an NLU model to an update set
+# \(Legacy\) Add an NLU model to an update set
 
 Use update sets to move your Natural Language Understanding \(NLU\) models from one instance to another. Update sets include all records needed for your model to function on the target instance.
 
@@ -34,9 +34,9 @@ Adding a model to an update set includes the following resources:
 -   ML model artifacts
 -   ML solution and definition \(last three runs, provided one of them was successful\)
 
-For more information on update sets, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md).
+For more information on update sets, see System update sets.
 
-If you want to add the model to a different update set, you must make that update set the current one. See [Create and select an update set as the current set](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/create-select-update-set.md).
+If you want to add the model to a different update set, you must make that update set the current one. See .
 
 For optimum portability, add your NLU model to a new, dedicated update set rather than to a system Default update set. To do this, a new update set must be manually created in the model's scope. An error is displayed if the current update set is the scope's Default. This error contains a link for manually creating a new update set.
 
@@ -44,7 +44,9 @@ If the model contains records from multiple scopes, such as vocabulary tables, i
 
 When models \(either Global or scoped\) are moved using update sets, their training and publishing state remains the same after transfer. So a model that is trained and published before it is added to an update set does not require retraining or republishing on the target instance.
 
-For information about parent-child update sets, see [Update set batching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/us-hier-overview.md). The following video provides a demonstration of this process.
+For information about parent-child update sets, see . The following video provides a demonstration of this process.
+
+\[Omitted video\] Description: A video walkthrough of migrating NLU models by update sets in the Vancouver release.
 
 ## Procedure
 
@@ -95,8 +97,6 @@ For information about parent-child update sets, see [Update set batching](https:
     -   The parent update set has the value **\(empty\)** in the Parent column.
     -   Child update sets have the name of the parent in the Parent column, and **Global** in the Application column.
     -   Both parent and child update sets contain the same value in the Batch Base column.
-    \[Omitted image "add-model-update7V.png"\] Alt text: In the Update Sets table, a parent-child update set with the parent row highlighted.
-
 9.  Open the parent's record in sys\_update\_set and set the **State** field to `Complete`.
 
     A Confirmation dialog box pops up. Select `Yes` to confirm. This sets the parent and all child update sets to Complete.
@@ -110,7 +110,5 @@ For information about parent-child update sets, see [Update set batching](https:
 
 In the target instance, navigate to **Retrieved Update Sets** and select **Import Update Sets from XML**. When unpackaged, the parent and all children will be listed in the Retrieved Update Sets table. Open the parent and select **Preview Update Set Batch**.
 
-If a referenced record in the source instance is not present on the target instance, you may encounter errors while applying the update set. For example, the origin field on sys\_nlu\_intent could refer to an intent from a different model that doesn't exist on the target instance. You can click **Accept remote update** on the failed records to commit the update set anyway.
-
-**Parent Topic:**[Creating models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/creating-models.md)
+If a referenced record in the source instance is not present on the target instance, you may encounter errors while applying the update set. For example, the origin field on sys\_nlu\_intent could refer to an intent from a different model that doesn't exist on the target instance. You can select **Accept remote update** on the failed records to commit the update set anyway.
 

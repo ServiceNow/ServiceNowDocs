@@ -7,9 +7,9 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Analytics and reporting, Incident Management, IT Service Management]
+breadcrumb: [Incident reporting, Incident Management, IT Service Management]
 ---
 
 # Legacy: Incident Management Platform Analytics Solutions
@@ -41,12 +41,10 @@ View average age and number of reassignments and breakdown incidents in the New,
 -   **[Legacy: Open Incidents Reports dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/open-incidents-reports-dashboard.md)**  
 View the current information about open incidents as a list, or as a heatmap or pivot table organized by breakdown.
 
-**Parent Topic:**[Reporting incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-monitor-track.md)
+**Parent Topic:**[Incident reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/incident-monitor-track.md)
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

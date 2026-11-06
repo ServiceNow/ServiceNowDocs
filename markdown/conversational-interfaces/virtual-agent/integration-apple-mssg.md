@@ -1,137 +1,44 @@
 ---
-title: Integrating Virtual Agent with Apple Messages for Business
-description: The Conversational Integration with Apple Messages for Business application allows customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
+title: Conversational Integration with Apple Messages for Business
+description: Use the Conversational Integration with Apple Messages for Business application to empower customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/integration-apple-mssg.html
 release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrating Virtual Agent with Apple Messages for Business
+# Conversational Integration with Apple Messages for Business
 
-The Conversational Integration with Apple Messages for Business application allows customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
+Use the Conversational Integration with Apple Messages for Business application to empower customers to engage with your business using their Apple devices. Conversational Integration with Apple Messages for Business provides rich messaging capabilities such as Apple pay, forms, time picker, and authentication.
 
-Enable requesters to interact in a Apple Messages for Business chat with a virtual agent or live agent using the ServiceNow® Conversational Integration with Apple Messages for Business application. The application connects a requester with a virtual agent or live agent using your company's Apple Messages for Business account. To get started with the Conversational Integration with Apple Messages for Business application, see [Install Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-apple-install.md).
+## Get started with Conversational Integration with Apple Messages for Business
 
-## Apple Messages for Business entry points
+Select a tile to get started.
 
-Customers can start a conversation with an agent from a variety of entry points. From each of these entry points, customers can launch the Apple messages app and compose a message. You can add custom buttons to a website, app, or social media page, so that customers can start a conversation with a Virtual Agent or live agent. For a full overview of the options available, see the [Apple documentation](https://register.apple.com/resources/messages/messaging-documentation/message-with-customers#entry-points-overview).
+<table id="table_ev3_ndm_v4b" class="nav-card"><tbody><tr><td>
 
-\[Omitted image "amb-app.png"\] Alt text: Device with Apple "message us" button displayed
-
--   iMessage
--   Apple Maps
--   Apple Pay
--   Search
--   Apple apps
--   QR codes
--   Social media
-
-## Apple Messages for Business interactive features
-
-Apple Messages for Business includes a set of interactive features such as list picker, time picker, authentication, and Apple pay.
-
-<table id="table_mkb_fgm_gxb"><thead><tr><th>
-
-Feature
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Rich links
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Integrate Apple Messages for Business with Virtual Agent.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/exploring-va-apple-msg-business.md)
 
 </td><td>
 
-Adds a picture or video preview to a URL
-
-</td></tr><tr><td>
-
-Quick replies
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text: Install and configure your Apple Messages for Business implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-apple-configure.md)
 
 </td><td>
 
-The user can make an inline choice with a single tap. This includes responses like star ratings or thumbs up or down.
-
-</td></tr><tr><td>
-
-List pickers
-
-</td><td>
-
-Gives the user a list of options to choose from. For example, a travel site can show flights, accommodations, car rentals, and bookings.
-
-</td></tr><tr><td>
-
-Time pickers
-
-</td><td>
-
-Provides time slots for users to choose for appointments, deliveries, and services.
-
- To use time pickers, you must have [Conversational Appointment Booking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/conv_appt_booking.md) installed.
-
-</td></tr><tr><td>
-
-Apple Pay
-
-</td><td>
-
-Send Apple Pay requests over Messages.
-
- For more information on setting up Apple Pay, refer to the [Apple documentation](https://register.apple.com/resources/messages/msp-rest-api/type-interactive#apple-pay-message).
-
-</td></tr><tr><td>
-
-Authentication
-
-</td><td>
-
-Apple Messages for Business supports OAuth2 protocol to integrate sign-in authentication to the Messages app.
-
-</td></tr><tr><td>
-
-iMessage App
-
-</td><td>
-
-Users can interact with your business directly from the Messages app on their iPhone, where they are accustomed to messaging their contacts.
-
-</td></tr><tr><td>
-
-Image sharing
-
-</td><td>
-
-Users or live and virtual agents can send photos during a chat.
-
-</td></tr><tr><td>
-
-Video sharing
-
-</td><td>
-
-Users or live or virtual agents can send videos during a chat.
-
-</td></tr><tr><td>
-
-Document attachments
-
-</td><td>
-
-Users or live or virtual agents can send PDF documents during a chat.
+[Use\[Omitted image "bus-chat.svg"\] Alt text: Agents and requesters can use Apple Messages for Business in portals on your instance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-apple-using.md)
 
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+
+-   **[Exploring Conversational Integration with Apple Messages for Business](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/exploring-va-apple-msg-business.md)**  
+Use Conversational Integration with Apple Messages for Business to connect a requester with a virtual agent or live agent using your company's Apple Messages for Business account.
 
 **Parent Topic:**[Integrating Virtual Agent with messaging apps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integration-messaging-apps.md)
 

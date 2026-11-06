@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [AES integration with a Git source control repository, Configure App Engine Studio, Configuring App Engine Studio and related apps, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Integrate with Git source control, Configure AES, Configure, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Link an application or application-customization to source control

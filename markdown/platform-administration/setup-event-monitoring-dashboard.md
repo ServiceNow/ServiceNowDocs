@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/setup-event-monitoring-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Monitor System Events and Scheduled Jobs dashboards, Maintain and monitor, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Monitor System Events and Scheduled Jobs dashboard, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Understand your System Events Dashboard

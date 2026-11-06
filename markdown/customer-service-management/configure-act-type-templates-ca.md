@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-act-type-templates-ca.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Customer History view, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure activity type templates for the Customer History view
@@ -20,15 +20,13 @@ Learn more about configuring activity type templates from the following video tu
 
 Role required: admin
 
-**Note:** Customer Activity has been renamed to Customer History, with no changes to its functionality. References to the previous name will be updated in a future release.
-
 ## About this task
 
 You can define which fields are displayed, where it is displayed on the tile, and the order of the display.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer Activity** &gt; **Guided Setup**.
+1.  Navigate to **All** &gt; **Customer Central** &gt; **Customer History** &gt; **Guided Setup**.
 
 2.  Select **Get Started** under Activity Feed.
 
@@ -43,6 +41,7 @@ You can define which fields are displayed, where it is displayed on the tile, an
     |Name|Enter a name for the template.|
     |Activity Type|Select the activity type to add the template for.|
     |Icon|Select an icon to use for the activity type.|
+    |Icon Background|Select a background color from the drop-down, then select the green check mark to apply. If no default colors are set by the admin in UI Builder, gray is applied automatically.|
 
 6.  Select **Submit**.
 

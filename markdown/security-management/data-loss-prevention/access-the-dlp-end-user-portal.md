@@ -7,7 +7,7 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Data Loss Prevention Incident Response User Workspace, Manage incidents, Data Loss Prevention Incident Response, Security Operations]
 ---
@@ -101,7 +101,7 @@ Respond
 Respond to an incident by selecting an incident response option. For example, user delete a file violating a DLP policy, the user can choose the option **Deleted File** to submit manual acknowledgement that the file has been deleted and provide comments. From here you can also select advanced response options. For example, **Request email release from quarantine**.
 
 </td></tr></tbody>
-</table>        \[Omitted image "dlp-user-workspace-landing.png"\] Alt text: DLP User workspace landing page navigation
+</table>        For an overview of the DLP incident actions, watch the following video.
 
     3.  The second way is to click a particular DLP incident to open it.
 
@@ -165,9 +165,7 @@ Respond to an incident by selecting an incident response option. For example, us
 
         A banner appears confirming that your response has been submitted successfully.
 
-        **Note:** The incident is assigned to the corresponding approver or analyst and the end user will loose the access to the incident.
-
-        \[Omitted image "dlp-enduser-incident.gif"\] Alt text: DLP Performing DLP incident actions.
+        **Note:** The incident is assigned to the corresponding approver or analyst and the end user will lose the access to the incident.
 
 4.  To take assessments, select the **Pending Assessments** list view.
 
@@ -175,15 +173,13 @@ Respond to an incident by selecting an incident response option. For example, us
 
     2.  Answer the assessment questions, and click **Save** or **Submit** based on your requirements.
 
-        \[Omitted image "dlp-enduser-assessments.gif"\] Alt text: DLP End user assessments.
-
 5.  Click on the **Instructions** card section which is displayed on top of all the fields in the DLP incident form view, to view the additional information about a particular incident.
 
     **Note:** This section on the workspace guides the users on the incident information, which helps in understanding the next steps of the incident resolution.
 
     The user instructions card displays two different headers which provides you more information about a specific incident on the form view. Click on any user instruction header to know the additional details.
 
-    For more information, see [Create user instructions templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.md) and [Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md).
+    For more information about user instructions, see [Create user instructions templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-and-manage-user-instructions-template-for-dlp-incidents.md) and [Configure DLP UI user instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/configure-dlp-ui-user-instructions.md).
 
 
 **Parent Topic:**[Data Loss Prevention Incident Response User Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/using-dlp-end-user-portal.md)

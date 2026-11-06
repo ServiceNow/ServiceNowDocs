@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/create-mca-with-mcb.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Card actions in Mobile Card Builder, Mobile Card Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Card actions, Mobile Card Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Configure a card action using Mobile Card Builder

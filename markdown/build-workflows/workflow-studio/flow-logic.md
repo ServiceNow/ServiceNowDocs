@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Workflow Studio flow logic
@@ -42,6 +42,8 @@ Each flow logic option displays one or more fields that are used to determine it
 
 Flow logic options may also have outputs. These represent information that is returned by the flow logic. For example, the **Make a decision** flow logic has an output that contains a decision answer record representing the decision reached by the flow. See the documentation for a flow logic option to see definitions for its outputs.
 
+-   **[Append to Flow Variables flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/append-to-flow-variables-flow-logic.md)**  
+Append a value to one or more array of objects flow variables. Use flow data to generate values.
 -   **[Assign subflow outputs flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-logic-assign-subflow-outputs.md)**  
 Specify the data the subflow returns when it completes running. Use subflow output as data for a parent flow or as input for another process.
 -   **[Call a workflow flow logic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-logic-call-workflow.md)**  

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/c\_SystemUserGuide.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -19,8 +19,6 @@ The user guide provides the tools for designing help portal pages containing fea
 A default help page is provided in the base system that displays help documents for system navigation and other basic operations. This page is accessible from the help icon in the header bar for Core UI users. To make this page available to users of other supported UI versions, you must create a [programmatic entry point](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/r_UserGuidePageEntryPoints.md).
 
 **Note:** The default help page can be used as a template for your own help content. To personalize pages, sections, or documents in the User Guide, simply edit the ServiceNow® records to suit your needs. Remember that any records you customize are not updated when you upgrade your instance to a new version. Review any changes on a development system first and then decide whether to accept the updated content into your customized User Guide.
-
-\[Omitted image "UserGuideBasicPage.png"\] Alt text: Basic user guide help page
 
 -   **[Create user guide help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/t_CreateUserGuideHelpDocuments.md)**  
 User guide help documents are grouped in appropriate sections on the page and listed in a configurable order. Add your sections to a help page.

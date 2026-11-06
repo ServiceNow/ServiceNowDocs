@@ -1,55 +1,60 @@
 ---
-title: Add records to related lists
-description: Provide information related to an incident by adding records to related lists.
+title: Add records to a related list
+description: Add records to a related list to provide information related to the record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/add-records-to-related-lists.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the multi-record associator, Working on records in your Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Lists, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Add records to related lists
+# Add records to a related list
 
-Provide information related to an incident by adding records to related lists.
+Add records to a related list to provide information related to the record.
 
 ## Before you begin
 
-Role required: agent
+Role required: workspace\_user
 
 ## About this task
 
-If there’s an **Add** button on your Related Items menu, you can add records to related lists. Add records to related lists when you find a record that's related to the record that’s open.
+If there’s an **Add** button on a related list within a record's Related records tab, you can add records to related lists. Add records to a related list when you find records related to an open record.
 
-For example, the open record documents a power outage in one location. When there's a power outage in a second location, you can add that outage's record to the related list for the first record.
+For example, an open record documents a power outage in one location. When there's a power outage in a second location, you can add that outage's record to the related list for the first record.
 
-**Note:** Not all workspaces have the **Add** button. It's added by your administrator.
+**Note:** Not all workspaces or related lists have the **Add** button available. The **Add** must be added by your administrator.
 
 \[Omitted image "y-add-related-list.png"\] Alt text: Add related list
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
+1.  Open a record in your instance.
 
-2.  Select an incident to open it.
+2.  Select the **Related records** tab.
 
-3.  Choose a related list within the record and select **Add**.
+3.  Select a related list.
 
-    The multi-record associator opens as a modal displaying a list of records.
+    The related list opens.
 
-4.  In the multi-record associator, select the records that you want to add to the open incident.
+4.  Select **Add**.
 
-    -   The record data is read-only.
-    -   Filter the records in a related list by using the filter \(\[Omitted image "filter-icon.png"\] Alt text: Filter icon\) and the condition builder.
-    -   Select multiple records at once by selecting the check box for each record.
-    -   Select all records by selecting the check box in the row header.
+    A dialog box with a list of records opens.
+
+    \[Omitted image "list-related-dialog-box.png"\] Alt text: Add records dialog box
+
+5.  Select the records that you want to add to the related list.
+
+    -   Use the condition builder to filter records.
+    -   Select the check box for each record to select multiple records at once.
+    -   Select the check box in the row header to select all records.
     -   Records selected on one page remain selected as you move to other pages.
-    -   Choose how many records to view on each page by selecting an option from the **rows per page** menu.
-5.  Select **Add Selected**.
+    -   The record data is read-only.
+6.  Select **Add**.
 
 
 ## Result
 
-The records you selected appear in the related list for the incident.
+The records you selected appear in the related list for the record.
 

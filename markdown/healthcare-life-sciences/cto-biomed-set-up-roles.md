@@ -1,18 +1,18 @@
 ---
-title: Set up roles for Care Team Operations for Biomed
-description: Ensure that the correct roles are assigned to users of Care Team Operations for Biomed.
+title: Assign roles for Care Team Operations for Biomed
+description: Confirm that the correct roles are assigned to users of Care Team Operations for Biomed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-set-up-roles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Setting up roles and responsibilities in Care Team Operations for Biomed, Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Set up roles for Care Team Operations for Biomed
+# Assign roles for Care Team Operations for Biomed
 
-Ensure that the correct roles are assigned to users of Care Team Operations for Biomed.
+Confirm that the correct roles are assigned to users of Care Team Operations for Biomed.
 
 ## Before you begin
 
@@ -24,64 +24,38 @@ Roles control access to features, capabilities, and data in the Care Team Operat
 
 You can assign roles to individual users or groups. When you apply roles to groups, the members of those groups inherit those roles.
 
-**Note:** User roles can be configured during the initial set up process for healthcare organizations or at any time thereafter as needed.
+**Note:** User roles can be configured during the initial setup process for healthcare organizations or at any time thereafter as needed.
 
 <table id="table_o1p_2lm_c2c"><tbody><tr><td>
-
-sn\_cto\_biomed.admin​
-
-</td><td>
-
-Biomed Admin
-
-</td><td>
-
-Biomed Admin role for Care team operation
-
-</td></tr><tr><td>
 
 sn\_cto\_biomed.loc\_support\_agent​
 
 </td><td>
 
-Biomed Support Agent
+Biomed support department agent
 
 </td><td>
 
 Can view/resolve all cases under their assignment group. Tracks and fulfills cases.
 
- **Note:**If users need view access to work orders, this role can contain the wm\_read role.
+ **Note:**If view access to work orders is needed, this role can contain the wm\_read role.
 
 </td></tr><tr><td>
 
-sn\_cto\_biomed.viewer​
+sn\_cto\_biomed.loc\_manager
 
 </td><td>
 
-Biomed Viewer
+Biomed support department manager
 
 </td><td>
 
-Can view Biomed and HCLS foundation data.
-
- **Note:**If users need view access to work orders, this role can contain the wm\_read role.
-
-</td></tr><tr><td>
-
-sn\_cto\_biomed. loc\_contributor​
-
-</td><td>
-
-​CTO Biomed location contributor role for Nurse, Nurse Assistant
-
-</td><td>
-
-Reports cases, responds to cases,​ tracks cases at business locations, and views cases under their team.
+Moniotors the tasks within their organization.
 
 </td></tr></tbody>
 </table>**Example:**
 
-A user who must fulfill work orders created from the Care Team Portal using the Care Team Operations for Healthcare Biomed plugin would need to be assigned the sn\_cto\_biomed.loc\_support\_agent​ role.
+A user who must fulfill work orders created from the Care Team Portal using the Care Team Operations for Biomed plugin must be assigned the sn\_cto\_biomed.loc\_support\_agent role.
 
 ## Procedure
 

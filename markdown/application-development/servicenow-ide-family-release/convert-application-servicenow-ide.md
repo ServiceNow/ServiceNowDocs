@@ -1,20 +1,20 @@
 ---
 title: Convert an application with the ServiceNow IDE
-description: Convert an existing scoped application to support development in source code with the ServiceNow IDE.
+description: Convert an existing application to support development in source code with the ServiceNow IDE.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-ide-family-release/convert-application-servicenow-ide.html
 release: yokohama
 product: ServiceNow IDE \(Family Release\)
 classification: servicenow-ide-family-release
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+breadcrumb: [Add applications, ServiceNow IDE, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # Convert an application with the ServiceNow IDE
 
-Convert an existing scoped application to support development in source code with the ServiceNow IDE.
+Convert an existing application to support development in source code with the ServiceNow IDE.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: admin
 
 ## About this task
 
-Existing scoped applications that weren't created with the ServiceNow IDE or ServiceNow SDK must be converted to support development in source code. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code.
+Existing applications that weren't created with the ServiceNow IDE or ServiceNow SDK must be converted to support development in source code. Converting an application adds the necessary files and directories for developing it in source code. You can choose whether to convert existing application metadata into ServiceNow Fluent code.
 
 ## Procedure
 
@@ -38,13 +38,13 @@ Existing scoped applications that weren't created with the ServiceNow IDE or Ser
 
     -   Windows: Ctrl-Shift-P
     -   Mac: Cmd-Shift-P
-4.  Enter `Fluent: Convert a scoped app to Fluent` and press Enter.
+4.  Enter `Fluent: Convert an app to Fluent` and press Enter.
 
-5.  Select a scoped application from the list.
+5.  Select an application from the list.
 
     Applications that haven't been converted are listed as `Is Fluent app: False`.
 
-    The scoped application is added to your workspace with the default application structure but the application metadata isn’t converted into ServiceNow Fluent code. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
+    The application is added to your workspace with the default application structure but the application metadata isn’t converted into ServiceNow Fluent code. For information about the application structure, see the [Application structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/building-applications-source-code.md) section of the Building applications in source code topic.
 
 6.  To convert existing metadata into ServiceNow Fluent code, complete the following steps.
 

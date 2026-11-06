@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Using the Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Facilitate the patent review process
@@ -28,21 +28,21 @@ Role required: sn\_lg\_ip.patent\_fulfiller
 
 2.  Based on the resolution of the patent application review by the outside counsel, either close the request or indicate that the patent was filed.
 
-<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d106678e69">
+<table id="choicetable_nvq_xwj_lzb"><thead><tr><th align="left" id="d111511e69">
 
 Outside counsel decision
 
-</th><th align="left" id="d106678e72">
+</th><th align="left" id="d111511e72">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d106678e78">
+</th></tr></thead><tbody><tr><td id="d111511e78">
 
 **Accepted**
 
 </td><td>
 
-1.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+1.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 2.  Open the Legal Invention Disclosure request and select the **Legal Matters** tab.
 3.  Open the matter associated with the request.
 4.  Select **Patent filed**.
@@ -54,13 +54,13 @@ Actions
     -   If an optional reward for the inventor at the Patent filed stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d106678e153">
+</td></tr><tr><td id="d111511e153">
 
 **Rejected**
 
 </td><td>
 
-1.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+1.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 2.  Open the Legal Invention Disclosure request and select the **Legal Matters** tab.
 3.  Open the matter associated with the request.
 4.  Select **Close Complete**.
@@ -72,21 +72,21 @@ Actions
 </td></tr></tbody>
 </table>3.  Once the outside counsel notifies the patent fulfiller about the resolution of the patent application to the patent authorities, either close the request if the patent was rejected or indicate that the patent was granted.
 
-<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d106678e226">
+<table id="choicetable_z5n_zlr_lzb"><thead><tr><th align="left" id="d111511e226">
 
 Outside counsel decision
 
-</th><th align="left" id="d106678e229">
+</th><th align="left" id="d111511e229">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d106678e235">
+</th></tr></thead><tbody><tr><td id="d111511e235">
 
 **Accepted**
 
 </td><td>
 
-1.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+1.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 2.  Open the Legal Invention Disclosure request and select the **Legal Matters** tab.
 3.  Open the matter associated with the request.
 4.  Select **Patent granted**.
@@ -99,13 +99,13 @@ Actions
     -   If an optional reward for the inventor at the Patent granted stage has been set up, it is processed and sent to the inventor.
 
 
-</td></tr><tr><td id="d106678e312">
+</td></tr><tr><td id="d111511e312">
 
 **Rejected**
 
 </td><td>
 
-1.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+1.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 2.  Open the Legal Invention Disclosure request and select the **Legal Matters** tab.
 3.  Open the matter associated with the request.
 4.  Select **Close Complete**.

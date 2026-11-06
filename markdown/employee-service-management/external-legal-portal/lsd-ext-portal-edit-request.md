@@ -7,9 +7,9 @@ release: yokohama
 product: External Legal Portal
 classification: external-legal-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using External Legal Service Center, External Legal Service Center, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Using External Legal Service Center, External Legal Service Center, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Edit requests in External Legal Service Center
@@ -42,15 +42,15 @@ Role required: sn\_lg\_ext\_portal.ext\_user
 
 8.  Work on the attachments.
 
-<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d454621e114">
+<table id="choicetable_ohy_5yk_sdc"><thead><tr><th align="left" id="d489432e114">
 
 Action
 
-</th><th align="left" id="d454621e117">
+</th><th align="left" id="d489432e117">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d454621e123">
+</th></tr></thead><tbody><tr><td id="d489432e123">
 
 **Add attachments**
 
@@ -60,7 +60,7 @@ Steps
 2.  You can add attachments by selecting, dragging, or pasting a file.
 
 
-</td></tr><tr><td id="d454621e147">
+</td></tr><tr><td id="d489432e147">
 
 **Rename attachments**
 
@@ -70,7 +70,7 @@ Steps
 2.  Edit the file name.
 
 
-</td></tr><tr><td id="d454621e171">
+</td></tr><tr><td id="d489432e171">
 
 **Delete attachments**
 

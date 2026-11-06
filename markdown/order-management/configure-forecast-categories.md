@@ -1,18 +1,18 @@
 ---
 title: Configure Forecast Categories
-description: Configure the forecast categories in CSM configurable workspace.
+description: Configure the forecast categories in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/configure-forecast-categories.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Sales Forecasting, Configure, Sales Customer Relationship Management]
+breadcrumb: [Sales Forecasting, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Configure Forecast Categories
 
-Configure the forecast categories in CSM configurable workspace.
+Configure the forecast categories in CRM Workspace.
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Role required: admin
     |------|-----------|
     |Name|Name of the forecast category that you want to create.|
     |Description|Short description of the category.|
-    |Active|Select the Active check box to activate the forecast category.|
+    |Active|Select the **Active** check box to activate the forecast category.|
     |Order|Select the order number in the current category cycle.|
     |Type|From the list, select the type of category this new forecast category belongs to.|
 
@@ -44,4 +44,11 @@ Role required: admin
 ## Result
 
 If required, users can either delete or make a forecast category inactive. When a category becomes inactive, the forecast items in that category will be deleted automatically.
+
+**Related topics**  
+
+
+[Using Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-sales-forecasting.md)
+
+[Sales Forecasting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-forecasting.md)
 

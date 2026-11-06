@@ -1,30 +1,28 @@
 ---
 title: Integrating external AI agents
-description: Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol and manual integration to use in agentic workflows created in AI Agent Studio.
+description: Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol integration to use in agentic workflows created in the AI Agent Studio.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/external-agent-protocols.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [a2a]
-breadcrumb: [Create an external agent, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Integrating external AI agents
 
-Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol and manual integration to use in agentic workflows created in AI Agent Studio.
+Integrate and configure external agents with the ServiceNow agentic AI system using Agent2Agent \(A2A\) protocol integration to use in agentic workflows created in the AI Agent Studio.
 
 ## External agent discovery on the ServiceNow AI Platform
 
 You can enable external AI agents on the AI Agent Studio via the Settings page. Navigate to **AI Agent Studio** &gt; **Settings** &gt; **External AI agents** &gt; **Discoverability**.\[Omitted image "external-agents-discoverability.png"\] Alt text: Discover External AI agents to accessed by ServiceNow and third-parties.
 
 -   **Allow ServiceNow to access External AI agents**: Turn on the toggle to enable external AI agents integration with the ServiceNow agentic AI system using the A2A protocol.
--   **Allow third-party to access ServiceNow AI agents**: Turn on the toggle to enables integrating ServiceNow AI agents into external agentic AI systems.
+-   **Allow third party to access ServiceNow AI agents**: Turn on the toggle to enables integrating ServiceNow AI agents into external agentic AI systems.
 
-When creating a new external AI agent in AI Agent Studio, you have two options for connecting your agent to the ServiceNow agentic AI system. One option is the Agent2Agent \(A2A\) protocol, and the other is manual integration.
-
-For both options, you must have a Connection &amp; Credential alias record that connects to your agentic AI provider. With manual integration, you must also create structured JSON that fits your agentic AI provider's metadata for the AI agent to work as expected.
+When creating a new external AI agent in AI Agent Studio, you can connect your agent to the ServiceNow agentic AI system using the Agent2Agent \(A2A\) protocol integration. To do this, you must have a Connection &amp; Credential alias record that connects to your agentic AI provider.
 
 After connecting to the external AI agent, you can add details about its role and instructions to provide context for the AI Agent Orchestrator. Additional context helps differentiate your AI agent from other AI agents so that the AI Agent Orchestrator can decide about which agent to use.
 
@@ -38,12 +36,6 @@ Enable contextual data access for external agents to improve AI agent response d
 
 \[Omitted image "a2a-contextual-data-access.png"\] Alt text: Contextual data access for external agents to improve responses.
 
-## Manual integration overview
-
-You can manually integrate a third-party agent using a Connection &amp; Credential alias and metadata in a structured JSON format. The alias and metadata connect your third party agent platform to your ServiceNow instance and identifies what information is being returned when the external AI agent sends a message.
-
-See [Create an external AI agent with manual integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/create-manual-external-agent.md) for instructions for manually integrating an external AI agent.
-
 ## Agent2Agent protocol overview
 
 Agent2Agent \(A2A\) is an open standard that enables AI agents across different platforms to communicate with each other. The standard relies on every AI agent having an Agent Card associated with it that provides basic information for providers like the ServiceNow AI Platform, Azure, and Google to use them.
@@ -56,7 +48,13 @@ See [Create an external AI agent with the Agent2Agent protocol](https://raw.gith
 
 ## Configuring A2A authentication
 
-A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and one with an execution endpoint.
+A2A connections require authorization from the source platform to execute on the ServiceNow AI Platform. Authentication is established by creating two Connection &amp; Credential Alias and Connection records, one with an Agent Card endpoint and another with an execution endpoint.
+
+## Custom Headers for External Agent Configuration
+
+When configuring external agents, you can pass custom HTTP headers to be included in the API calls to external endpoints. In the External Agent Configuration \[sn\_aia\_external\_agent\_configuration\] table, use the custom headers column to specify headers in JSON format. These headers are applied to all HTTP requests made by that agent during offline execution, regardless of the connection type \(OAuth, API Key, or other\). The configured headers are sent alongside the agent's authentication credentials and are useful for passing additional metadata or requirements that your external API expects.
+
+**Note:** Custom headers apply only to the Premium Chat experience.
 
 ## Configuration Properties
 

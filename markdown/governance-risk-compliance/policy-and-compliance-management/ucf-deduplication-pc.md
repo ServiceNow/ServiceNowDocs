@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure the UCF integration using the UCF Common Controls Hub, Manage the UCF integration, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure UCF integration using UCF CCH, Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Elimination of duplicate citations from UCF Shared list download
@@ -23,8 +23,6 @@ You can retain one citation as active and mark the duplicate citations as inacti
 Duplication occurs when you download UCF content that has multiple citations tied to the same Authority Document \(AD\). However, each of these citations is linked to a control objective or can be linked to multiple control objectives. In such cases, when you download UCF there would be as many citations linked to control objectives. The citations have different Source ID and different control objectives linked to them. Nevertheless, such citations are linked to the same AD.
 
 Duplication is identified when the downloaded citations tied to an authority document have similar **Reference**, **Authority document**, and **Description** details but a different **Source ID**. Such citations that belong to the same authority document but downloaded multiple times are termed as duplicate citations.
-
-\[Omitted image "citation-ucf-duplication.png"\] Alt text: Duplicate citations downloaded from UCF.
 
 ## Deduplication of UCF citations
 
@@ -49,8 +47,6 @@ After the fix:
 3.  Select **Reference** in the list.
 
     You can view citations with unique Reference ID, unique Description, and each citation belongs to a different AO. In the **Active** column, the active citation is **true**, and the duplicate citations are marked as **false**. Select and open one of the citation record, all control objectives are grouped in the Control objectives related list, and its child citations in the Citations related list.
-
-    \[Omitted image "citation-dedup-fix.png"\] Alt text: Active citation marked as true and duplicate citations marked as false.
 
     **Note:** Citations are considered as duplicate only when their **Reference ID**, **Authority document**, **Description** are the same. Even if one of these conditions isn’t fulfilled, then they’re considered as two different citations and not as duplicate.
 

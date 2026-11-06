@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Lease Administration
 classification: workplace-lease-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create workplace contracts in Workplace Central, Working with Workplace Lease Administration from the Workplace Central, Use, Workplace Lease Administration, Workplace Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ Role required: sn\_wsd\_la.workplace\_central\_user, sn\_wsd\_la.manager or sn\_
 
 4.  In the **Workplace Contract Responsibilities** related list, select **New**.
 
-5.  For field details in the Workplace Contract Responsibility form, see[Add workplace contract responsibilities in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.md).
+5.  For field details in the Workplace Contract Responsibility form, see [Add workplace contract responsibilities in Core UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-lease-administration/add-workplace-contract-responsibilities.md).
 
 6.  Select **Submit**.
 

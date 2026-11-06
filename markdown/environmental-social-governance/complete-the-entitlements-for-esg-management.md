@@ -1,18 +1,18 @@
 ---
 title: Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)
-description: After you install the ESG Management application from the ServiceNow Store, you must complete the entitlements to gain complete access to the application and use it.
+description: After you install the Operational Sustainability Management application from the ServiceNow Store, you must complete the entitlements to gain complete access to the application and use it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/complete-the-entitlements-for-esg-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Operational Sustainability Management \(formerly ESG Management\) implementation, Configure, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Complete the entitlements for Operational Sustainability Management \(formerly ESG Management\)
 
-After you install the ESG Management application from the ServiceNow® Store, you must complete the entitlements to gain complete access to the application and use it.
+After you install the Operational Sustainability Management application from the ServiceNow® Store, you must complete the entitlements to gain complete access to the application and use it.
 
 ## Before you begin
 

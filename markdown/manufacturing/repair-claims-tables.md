@@ -1,20 +1,20 @@
 ---
 title: Repair claims tables
-description: This section explains the repair claim tables in Manufacturing Commercial Operations.
+description: The repair claim tables store data for repair claim requests, expenses, and case details in Manufacturing Commercial Operations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/repair-claims-tables.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Recall campaign data model, Data model of Manufacturing Commercial Operations, Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair claims data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Repair claims tables
 
-This section explains the repair claim tables in Manufacturing Commercial Operations.
+The repair claim tables store data for repair claim requests, expenses, and case details in Manufacturing Commercial Operations.
 
-## Repair claim plugin
+## Repair claim feature
 
 The repair claim feature adds or modifies the existing tables:
 
@@ -22,7 +22,7 @@ The repair claim feature adds or modifies the existing tables:
 -   Case \[sn\_customerservice\_case\]
 -   Case Line \[sn\_case\_line\]
 
-The repair claim plugin adds the following tables.
+The repair claim feature adds the following tables.
 
 <table id="table_yn1_h1l_3fc"><thead><tr><th>
 
@@ -98,4 +98,6 @@ Stores the charges incurred for each repair job.
 
 </td></tr></tbody>
 </table>To learn more about the Case and Case Line, see [Case lines and workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/csm-case-mgmt-case-lines.md).
+
+**Parent Topic:**[Repair claims data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-claims.md)
 

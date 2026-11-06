@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Configuration tips for Predictive Intelligence
@@ -138,4 +138,6 @@ This can occur when the confidence of the prediction is less than the threshold 
 |-----|------------------------------|
 |After an instance is cloned, predictions for your existing solutions fail.|The ML solution artifacts in the \[ml\_artifacts\] table are stored in the \[sys\_attachment table\]. If the \[ml\_artifacts\] table isn't included in the clone when you run it, the predictions fail. Ensure your clone includes the machine-learning artifacts, as these are critical components of your Predictive Intelligence solution.|
 |After an instance is cloned, the solution training fails.|As the cloning run proceeds, it is possible that the sharedservice.worker user has either been inactivated, locked out, or the user ID isn't set. Resolve these problems so that the solution training succeeds.|
+
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

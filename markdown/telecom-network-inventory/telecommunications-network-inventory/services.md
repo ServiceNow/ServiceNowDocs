@@ -1,5 +1,5 @@
 ---
-title: Managing your network functions
+title: Manage your network functions
 description: Created topic as per STRY55389656 - DOC1072742Create application services, business applications, and network interfaces to manage all type of network functions. Here you can create, review, update, and delete application services, and business applications using the Telecommunications Network Inventory application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
-# Managing your network functions
+# Manage your network functions
 
 Create application services, business applications, and network interfaces to manage all type of network functions. Here you can create, review, update, and delete application services, and business applications using the Telecommunications Network Inventory application.
 

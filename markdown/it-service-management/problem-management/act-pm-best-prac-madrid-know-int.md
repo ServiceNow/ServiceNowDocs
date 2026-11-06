@@ -7,7 +7,7 @@ release: yokohama
 product: Problem Management
 classification: problem-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Problem Management plugins, Configuring Problem Management, Problem Management, IT Service Management]
 ---
@@ -26,8 +26,6 @@ The Problem Management Best Practice — Madrid – Knowledge Integration plugin
 
 -   Creating a known error article from a problem.
 -   Creating a knowledge base for known error articles.
-
-**Note:** By default, this plugin is activated on new instances.
 
 ## Procedure
 
@@ -52,5 +50,5 @@ Several types of components are installed with activation of the Problem Managem
 **Related topics**  
 
 
-[List of Yokohama plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of Brazil plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

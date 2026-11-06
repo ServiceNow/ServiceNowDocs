@@ -1,22 +1,22 @@
 ---
 title: Managing order fallout
-description: Learn how Fallout Management enables you to identify, investigate, and resolve order issues so that orders can be processed to completion.
+description: Order fallout occurs when an order encounters an error in its normal fulfillment flow. Learn how Fallout Management enables you to identify, investigate, and resolve order issues so that orders can be processed to completion.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/fallout-management-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Order Management, Use, Sales Customer Relationship Management]
 ---
 
 # Managing order fallout
 
-Learn how Fallout Management enables you to identify, investigate, and resolve order issues so that orders can be processed to completion.
+Order fallout occurs when an order encounters an error in its normal fulfillment flow. Learn how Fallout Management enables you to identify, investigate, and resolve order issues so that orders can be processed to completion.
 
-## Overview
+## Overview of order fallout
 
-Order fallout refers to the failures that occur due to errors and exceptions that may take place during order fulfillment. These exceptions include the following:
+Order fallout refers to the failures that occur due to errors and exceptions that may take place during order fulfillment. Fallout is a task-type object created to support scenarios where an order fails to proceed. These exceptions include the following:
 
 -   Incorrect data
 -   Connectivity problems
@@ -25,7 +25,7 @@ Order fallout refers to the failures that occur due to errors and exceptions tha
 
 Some issues could originate in inbound and outbound external systems that integrate with Order Management. A single order task can have multiple types of fallout issues.
 
-The following table provides examples of fallout errors and exceptions that can occur during order processing:
+The following table provides examples of fallout errors and exceptions that can occur during order processing.
 
 <table id="table_hny_kmr_drb"><thead><tr><th>
 
@@ -69,13 +69,18 @@ Unavailable inventory
 Inventory stock isn't available in the Enterprise Resource Planning \(ERP system\) to fulfill certain items on the order.
 
 </td></tr></tbody>
-</table>## Fallout Management functions
+</table>## Order fallout management flow
 
-With Fallout Management, you can track each order fallout and automatically trigger the actions and interventions that can resolve your order fallout in a timely manner. The following diagram shows the order fallout management flow.
+With Fallout Management, you can track each order fallout and automatically trigger the actions and interventions that can resolve your order fallout in a timely manner. The following diagram shows the order fallout management flow. Fallout Management processes order fallout through the following stages:
 
-\[Omitted image "order-fallout-management.png"\] Alt text: Infographic displaying the order fallout management flow. For the image description, refer to the text that follows.
+1.  Identify and classify order fallout: Detect orders that have encountered errors or exceptions and classify the type of fallout.
+2.  Notify and assign order fallout: Route the fallout record to the appropriate team and notify them to begin investigation.
+3.  Resolve order fallouts: During runtime execution, fallout can be resolved through one of two paths:
+    -   Manual intervention: An agent investigates and resolves the fallout directly.
+    -   Automated process followed by manual intervention: An automated process attempts resolution first. If the automated process cannot resolve the fallout, it is escalated for manual intervention.
+4.  Verify and close order fallout: Confirm the issue is resolved and close the fallout record so the order can continue to fulfillment.
 
-Fallout Management enables you to identify the orders in a failed state. Fallout tasks can be triggered and automatically routed to the appropriate team to investigate, diagnose, and resolve the underlying issue that is stopping order fulfillment. With Fallout Management, you can identify, route, assign, manage, and monitor the entire life cycle of an order fallout.
+Fallout Management enables you to identify the orders in a failed state. Fallout tasks can be triggered and automatically routed to the appropriate team to investigate, diagnose, and resolve the underlying issue that is stopping order fulfillment.
 
 ## Fallout Management tools
 
@@ -87,7 +92,7 @@ The Fallout Management function includes the following tools:
 
 -   **Fallout resolution**
 
-    With this tool, you can use the ServiceNow AI Platform features such as routing, notifications, and Workflow Studio to process order fulfillment exceptions in an automated manner. To learn more, see [Create automated and manual fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/creating-automated-manual-fallout-records.md).
+    With this tool, you can use the ServiceNow AI Platform features such as routing, notifications, and Workflow Studio to process order fulfillment exceptions in an automated manner. To learn more, see [Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/creating-automated-manual-fallout-records.md).
 
 
 For example, your customer orders a router, but insufficient inventory quantities are available in your ERP system to reserve the item and fulfill the order.
@@ -99,10 +104,23 @@ After you resolve the issue, you can restore the customer order line item back t
 
 Without a fallout management process, your order fulfillment personnel would have to analyze and resolve these fallout issues manually. These additional tasks would result in a longer fulfillment process and could lead to poor customer and employee experiences.
 
--   **[Creating automated and manual fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/creating-automated-manual-fallout-records.md)**  
-With Fallout Management, a provider can create manual or automated fallout records for specific order tasks so that your orders can continue processing through to completion.
+-   **[Creating automated fallout records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/creating-automated-manual-fallout-records.md)**  
+With Fallout Management, a provider can create automated fallout records for specific order tasks so that your orders can continue processing through to completion.
+-   **[Create a manual fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-manual-order-fallout-record.md)**  
+Create a fallout record manually for an order task that has a condition or issue that prevents it from being completed.
 -   **[Review a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/select-order-fallout-records-review.md)**  
 Review a fallout record to make sure that the detailed information is correct and complete.
+-   **[Update a fallout record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/review-update-selected-order-fallout-records.md)**  
+Review the detailed information for a selected fallout record to verify that the information is correct and complete. You can change the fallout type, state, or priority. You can even assign it to a specific person to follow up on.
+-   **[Resolve order fallouts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/resolve-order-fallouts.md)**  
+Learn how to close the order fallout tasks in Order Management so that you can progress with order fulfillment.
 
-**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/reviewing-approving-fulfilling-orders.md)
+**Parent Topic:**[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

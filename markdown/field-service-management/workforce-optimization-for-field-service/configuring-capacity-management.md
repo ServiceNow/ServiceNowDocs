@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
 
 # Configuring Field Service Capacity and Reservations Management
@@ -22,10 +22,13 @@ The steps for configuring Field Service Capacity and Reservations Management are
 
 1.  [Activate Field Service Capacity and Reservations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-management-plugin.md)
 
-    You can activate the Field Service Capacity and Reservations Management plugin \(com.snc.fsm\_capacity\_management \) for Field Service Management if you have the admin role.
+    You can activate the Field Service Capacity and Reservations Management plugin \(com.snc.fsm\_capacity\_management\) for Field Service Management if you have the admin role.
 
-2.  Optionally, you can activate [Activate Field Service Capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md) to have the Capacity Console in the CSM/FSM Configurable workspace for capacity planners.
-3.  [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md) Create capacity reservation rules to use in the capacity definition.
+2.  [Activate Field Service Advanced Capacity and Reservations management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-console-plugin.md) to have the Capacity Console in the CSM/FSM Configurable workspace for capacity planners.
+3.  [Capacity reservation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/capacity-reservations.md)
+
+    Create capacity reservation rules to use in the capacity definition.
+
 4.  [Create capacity allocation schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/allocate-schedule-for-capaity-definition.md)
 
     The capacity allocation schedule helps manage and distribute your resource capacity over a set period, ensuring that a certain percentage of your resources are reserved for high-priority or same-day tasks.
@@ -36,7 +39,7 @@ The steps for configuring Field Service Capacity and Reservations Management are
 
 6.  [Create a demand channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/create-a-demand-channel.md)
 
-    Demand channels help organize and manage work by efficiently distributing resources. When creating a reservation rule, you can allocate a specific percentage of capacity to a particular demand channel. By tagging work orders or tasks with demand channels, you ensure they are routed correctly, improving resource allocation and scheduling accuracy.
+    Demand channels help organize and manage work by efficiently distributing resources. When creating a reservation rule, you can allocate a specific percentage of capacity to a particular demand channel. By tagging work orders or tasks with demand channels, you ensure they’re routed correctly, improving resource allocation and scheduling accuracy.
 
 7.  [Create a capacity assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/assign-work-based-on-the-defined-capacity-.md)
 

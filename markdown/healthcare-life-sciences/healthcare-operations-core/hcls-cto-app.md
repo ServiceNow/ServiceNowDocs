@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare Operations Core
 classification: healthcare-operations-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Healthcare Operations, Healthcare and Life Sciences]
 ---
@@ -28,11 +28,11 @@ Healthcare Operations Core provides the foundation to enable hospitals to stream
 
 </td><td>
 
-[Portal\[Omitted image "bus-service-portal.svg"\] Alt text:Create operational support requests and gain visibility across your teams.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hcls-cto-using-portal.md)
+[Care Team Portal\[Omitted image "bus-service-portal.svg"\] Alt text:Open the standalone Care Team Portal docs to learn how care teams create and track support requests from inside Epic Hyperspace or the Service Portal.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/care-team-portal-landing.md)
 
 </td></tr><tr><td>
 
-
+[Use\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Create support requests by chat or by phone with ServiceNow Otto.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-otto-create-requests.md)
 
 </td><td>
 

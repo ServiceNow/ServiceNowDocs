@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customize-email-interaction-experience.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Email Interaction for CSM]
-breadcrumb: [Email Interaction, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the agent experience for email interactions, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Customize the email interaction experience
@@ -27,13 +27,13 @@ For more information on UI Builder, see [UI Builder](https://raw.githubuserconte
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
 
-2.  Select **Experiences**.
+2.  On the UI Builder page, select **Experiences** tab.
 
-3.  **CSM/FSM Configurable Workspace** from the list or search for `CSM/FSM Configurable Workspace`
+3.  On the Experiences page, search and select **CSM/FSM Configurable Workspace**.
 
 4.  Navigate to **Pages and variants** &gt; **Record** &gt; **Email Interaction Page**.
 
-5.  Select the Open menu icon \(\[Omitted image "Open\_menu\_icon\_EaaI.png"\] Alt text: Open menu icon\).
+5.  Select the Open menu icon.
 
 6.  Select **Duplicate variant**.
 

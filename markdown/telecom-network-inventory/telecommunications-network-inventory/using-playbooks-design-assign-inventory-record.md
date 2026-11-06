@@ -1,5 +1,5 @@
 ---
-title: Using Design and Assign function
+title: Design and Assign function
 description: Use the Design and Assign function for a network service in the Telecommunications Network Inventory application. The inventory agents can use the playbook to complete the guided tasks to design and assign a network inventory record and its associated Configuration Items \(CI\) records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-playbooks-design-assign-inventory-record.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Use, Telecommunications Network Inventory]
 ---
 
-# Using Design and Assign function
+# Design and Assign function
 
 Use the Design and Assign function for a network service in the Telecommunications Network Inventory application. The inventory agents can use the playbook to complete the guided tasks to design and assign a network inventory record and its associated Configuration Items \(CI\) records.
 

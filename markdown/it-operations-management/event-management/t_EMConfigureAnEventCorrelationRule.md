@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Rule-based alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Rule-based alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an alert correlation rule
@@ -20,11 +20,15 @@ Create an alert correlation rule to designate primary and secondary alerts. The 
 
 Role required: evt\_mgmt\_admin
 
+## About this task
+
+Grouping automation helps you manage alerts more effectively by collecting similar alerts together. This makes it easier to see patterns, quickly identify issues, and respond efficiently. For more information on how to group alerts easily, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/group-alert-sow-itom.md).
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Event Management** &gt; **Rules** &gt; **Alert Correlation Rules**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -35,7 +39,5 @@ Role required: evt\_mgmt\_admin
 
 ## Result
 
-A rule-based alert group is created when a new alert is generated or when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
-
-**Parent Topic:**[Rule-based alert grouping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMEventCorrelationRules.md)
+A rule-based alert group is created when a new alert is generated. An alert group is also created when the status of an existing alert changes from Closed or Flapping to Open or Reopened, provided the filter criteria are matched.
 

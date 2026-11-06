@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-05-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Allocation dispute workflow, Chargeback stage, Processing a dispute case with the Card Dispute Transaction playbook, Working on a dispute case integrated with Visa, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Allocation workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Initiate chargeback and fill merchant response
@@ -24,26 +24,28 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
-4.  In the list, select a case that you want to work on.
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
 
-5.  Select the **Playbook** tab.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
-6.  In the transaction level playbook of the **Processing** tab, select the transaction ID.
+5.  Select the transaction ID from the playbook.
 
-7.  Select the **Initiate chargeback and fill merchant response** activity.
+6.  Select the **Initiate chargeback and fill merchant response** task.
 
-8.  The chargeback reason code and dispute amount is displayed.
+7.  The chargeback reason code and dispute amount is displayed.
 
-9.  Submit the request by selecting **Initiate chargeback**.
+8.  Submit the request by selecting **Initiate chargeback**.
 
 
 ## Result
 
-The questionnaire data from the **Initiate** stage is sent to Visa. The task is set to the **Awaiting External Info** state, and the form is set to read-only during this waiting period. Once you receive the response, the transaction state changes to **Work in Progress**. The activity stream displays whether the request to Visa was successful. If the request fails, the **Retrigger** option appears to retry.
+The questionnaire data from the Initiate stage is sent to Visa. The task is set to the **Awaiting External Info** state, and the form is set to read-only during this waiting period. Once you receive the response, the transaction state changes to **Work in Progress**. The activity stream displays whether the request to Visa was successful. If the request fails, the **Retrigger** option appears to retry.
 
 ## What to do next
 

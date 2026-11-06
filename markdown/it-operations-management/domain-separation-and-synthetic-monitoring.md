@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/domain-separation-and-synthetic-monitoring.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Synthetic monitoring reference, Synthetic monitoring, ITOM Health, IT Operations Management]
+breadcrumb: [Reference, Synthetic monitoring, ITOM AIOps, IT Operations Management]
 ---
 
 # Domain separation and synthetic monitoring

@@ -1,18 +1,18 @@
 ---
-title: Using quotes to generate sales agreements
-description: Agents can use quotes to generate sales agreements that show the product and service lines and other relevant details for the quote.
+title: Enable a sales agreement in a quote
+description: Agents can enable a sales agreement for a quote. Once enabled in Quote Management, sales agreements are generated that show the product and service lines and other relevant details for the quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-create-sales-agreement.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
-# Using quotes to generate sales agreements
+# Enable a sales agreement in a quote
 
-Agents can use quotes to generate sales agreements that show the product and service lines and other relevant details for the quote.
+Agents can enable a sales agreement for a quote. Once enabled in Quote Management, sales agreements are generated that show the product and service lines and other relevant details for the quote.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ Sales agreements filter the product catalog according to the agreement.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All-Quotes** and select **New**.
 
@@ -48,7 +48,7 @@ Sales agreements filter the product catalog according to the agreement.
 
 8.  Once the quote is ready, select **Submit for approval**.
 
-9.  When the quote is at an **Approved** state, change the quote to **Completed** by either updating the **State** field or selecting the context menu \[Omitted image "icon-three-dots.png"\] and choosing **Mark as complete**.
+9.  When the quote is at an **Approved** state, change the quote to **Completed** by either updating the **State** field or selecting the context menu \[Omitted image "icon-three-dots.png"\] Alt text: and choosing **Mark as complete**.
 
     The quote is saved to a **Completed** state and the **Create sales agreement** button appears in the quote details form.
 
@@ -58,4 +58,6 @@ Sales agreements filter the product catalog according to the agreement.
 
 11. Select the sales agreement message to open the sales agreement.
 
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

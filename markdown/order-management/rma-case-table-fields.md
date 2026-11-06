@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/rma-case-table-fields.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-06-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Return Merchandise Authorization Case Management, Sales Customer Relationship Management reference, Sales Customer Relationship Management]
+breadcrumb: [Return Merchandise Authorization Case Management, Order operations, Reference, Sales Customer Relationship Management]
 ---
 
 # Return Merchandise Authorization case table fields

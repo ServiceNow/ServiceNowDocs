@@ -1,5 +1,5 @@
 ---
-title: Create an open-ended entity
+title: \(Legacy\) Create an open-ended entity
 description: Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/create-open-ended-entity.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [NLU entities, Build and train your model, Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [\(Legacy\) NLU entities, \(Legacy\) Build and train your model, \(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Create an open-ended entity
+# \(Legacy\) Create an open-ended entity
 
 Use an open-ended entity when you want to improve intent prediction accuracy. Open-ended entities help your model focus on the context of the utterances.
 
@@ -91,21 +91,4 @@ For this example, you can test your model with a different merchandise item.
 \[Omitted image "create-open4.png"\] Alt text: Utterances tab of the Intent details page with the Try model panel open. Try your model after training it to see if your new entity works.
 
 The model predicts the intent and shows that it used the merch entity for the a polo value.
-
-**Parent Topic:**[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)
-
-**Related topics**  
-
-
-[Create a simple entity]()
-
-[Create a mapped entity]()
-
-[Create a pattern entity]()
-
-[Create a system-derived entity]()
-
-[Import entities]()
-
-[Using regular expressions in entities]()
 

@@ -1,5 +1,5 @@
 ---
-title: Create an attribute pack table
+title: Create table
 description: Create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application so that you can use these attributes in the CI record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-pack-table.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring an attribute pack table, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Attribute pack table, Configure, Telecommunications Network Inventory]
 ---
 
-# Create an attribute pack table
+# Create table
 
 Create an attribute pack table with the attributes that you define in the Telecommunications Network Inventory application so that you can use these attributes in the CI record.
 

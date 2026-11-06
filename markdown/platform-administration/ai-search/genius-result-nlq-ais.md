@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Genius Result configurations in the base system, Genius Results, Search profiles, Configure, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,10 +20,10 @@ NLQ Genius Results don't use indexed sources when finding tables that match your
 
 When computing NLQ Genius Result answers, AI Search identifies tables that match your search using the following NLQ query types:
 
--   Natural language queries similar to the ones made using Analytics Center. To learn more about Analytics Center table query capabilities, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
+-   Natural language queries similar to the ones made using Analytics Overview. To learn more about Analytics Overview table query capabilities, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md).
 -   Natural language queries similar to the ones made using the Configuration Management Database \(CMDB\). These CMDB queries only match tables that aren't defined as indexed sources. For more information about CMDB table query capabilities, see [Configuration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/manage-cmdb.md).
 
-AI Search combines the results from these query types when creating NLQ Genius Result answer cards. As a result, a single NLQ Genius Result answer card may contain tables returned by Analytics Center queries, CMDB queries, or both.
+AI Search combines the results from these query types when creating NLQ Genius Result answer cards. A single NLQ Genius Result answer card may contain tables returned by Analytics Overview queries, CMDB queries, or both.
 
 For more information about NLQ processing, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/natural-language-query.md).
 
@@ -58,7 +58,7 @@ The NLQ Genius Result answer card shows different results depending on how many 
 
 When you select **View full table** in an NLQ Genius Result answer card, the action performed depends on how the matching table was found. The default actions are as follows.
 
--   If the table was found by an Analytics Center table query, the system displays it in list view.
+-   If the table was found by an Analytics Overview table query, the system displays it in list view.
 -   If the table was found by a CMDB table query, the system displays it in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/cmdb-workspace.md).
 
 Search administrators can customize these actions. For more information, see the [Configure navigation actions for NLQ Genius Result answer cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/configure-nav-action-nlq-grs.md) section.

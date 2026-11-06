@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
@@ -38,7 +38,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Providers \[sn\_wsd\_wc\_provider\]
+Providers \(sn\_wsd\_wc\_provider\)
 
 </td><td>
 
@@ -51,6 +51,14 @@ Connector Configuration\[sn\_wsd\_wc\_connector\_config\]
 </td><td>
 
 Configures a connector to connect with the integration framework. This configuration fetches the data from the integration to workplace applications.This table holds information about the workplace connectors that are defined in the application. For example, Badging data, Occupancy sensors, and so on. This table can also process data for each of the connectors through extension points.
+
+</td></tr><tr><td>
+
+Employee Attendance Data \[sn\_wsd\_wc\_employee\_attendance\_data\]
+
+</td><td>
+
+Employee Attendance data table is the target table to which data is imported from the source table \(Badging data table\).This table holds badging data information of employees, like user id, badging time along with any other event defined in the connectors.
 
 </td></tr><tr><td>
 
@@ -80,6 +88,14 @@ The Connector Events table \(sn\_wsd\_wc\_connector\_events\) loads the badging 
 
 </td></tr><tr><td>
 
+Providers \(sn\_wsd\_wc\_provider\)
+
+</td><td>
+
+Stores Space Occupancy sensor data provided by occupancy data providers.
+
+</td></tr><tr><td>
+
 Provider Space Type Mapping sn\_wsd\_wc\_provider\_space\_type\_mapping
 
 </td><td>
@@ -88,11 +104,11 @@ Stores mapping between Workplace Core space or location records and sensor provi
 
 </td></tr><tr><td>
 
-Provider Space Mapping \[sn\_wsd\_wc\_provider\_space\_mapping\]
+Provider Space Mapping \[sn\_wsd\_wc\_provider\_space\_type\_mapping\]
 
 </td><td>
 
-Stores external Ids shared by a sensor provider, for example, Metrikus. The external Ids from sensors providers are mapped with spaces shared by Workplace Connectors.
+Stores Workplace Core location records.
 
 </td></tr><tr><td>
 
@@ -104,35 +120,19 @@ Stores actions, subflows, and transform definitions from Metrikus Spoke.
 
 </td></tr><tr><td>
 
-Badging Data \[sn\_wsd\_wc\_badging\_data\]
+Space Occupancy Data \[sn\_wsd\_wc\_space\_occupancy\]
 
 </td><td>
 
-Stores employee badging data details.
+Stores external Ids shared by a sensor provider, for example, Metrikus. The external Ids from sensors providers are mapped with spaces shared by Workplace Connectors.
 
 </td></tr><tr><td>
 
-Badging Data Choices \[sn\_wsd\_wc\_badging\_data\_choice\]
+Environmental Data \[sn\_wsd\_wc\_space\_environment\]
 
 </td><td>
 
-Stores the badging status details for Swipe-in and Swipe-out event types.
-
-</td></tr><tr><td>
-
-Occupancy and Environment Data \[sn\_wsd\_wc\_occ\_env\_data\]
-
-</td><td>
-
-Stores data for occupancy and envirnment data such as carbon dioxide value, ozone, sound, light, temperature, pressure, and humidity levels for a workplace location.
-
-</td></tr><tr><td>
-
-Wi-fi Data \[sn\_wsd\_wc\_wifi\_data\]
-
-</td><td>
-
-Stores Wi-Fi data.
+Stores data for environmental sensor data \(air and temperature levels for a workplace location\). For more information, see [Configure environmental sensor data for a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/config-connectors-env-sensor.md).
 
 </td></tr><tr><td>
 
@@ -144,35 +144,19 @@ Unit of measure for air, temperature, VOC, and so on. For more information, see 
 
 </td></tr><tr><td>
 
-Space Occupancy Daily Summary Data \[sn\_wsd\_wc\_space\_occupancy\_daily\_summary\_data\]
+Archive Environmental Data \[ar\_sn\_wsd\_wc\_space\_environment\]
 
 </td><td>
 
-Stores space occupancy daily summary data.
+Archives environmental data. For more information see [Archive and purge Environmental data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/archive-purge-environmental-data.md).
 
 </td></tr><tr><td>
 
-Wi-Fi Daily Summary Data \[sn\_wsd\_wc\_wifi\_daily\_summary\_data\]
+Archive Space Occupancy \[ar\_sn\_wsd\_wc\_space\_occupancy\]
 
 </td><td>
 
-Stores Wi-Fi daily summary data.
-
-</td></tr><tr><td>
-
-Environmental Daily Summary Data \[sn\_wsd\_wc\_environmental\_daily\_summary\_data\]
-
-</td><td>
-
-Stores environmental daily summary data.
-
-</td></tr><tr><td>
-
-Environmental Hourly Summary Data \[sn\_wsd\_wc\_environmental\_hourly\_summary\_data\]
-
-</td><td>
-
-Stores environmental hourly summary data.
+Archives space occpancy data. For more information, see [Archive and Purge space occupancy data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/archive-purge-occupancy-data.md).
 
 </td></tr></tbody>
 </table>## Scheduled job

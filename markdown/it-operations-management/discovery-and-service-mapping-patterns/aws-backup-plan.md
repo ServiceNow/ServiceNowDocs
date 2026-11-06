@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2026-05-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [AWS Backup Plan, AWS Backup, AWS discovery, AWS patterns, Backup Plan discovery]
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # AWS Backup Plan pattern-based discovery
@@ -21,11 +21,11 @@ Discovery and Service Mapping Patterns finds AWS Backup Plans on your cloud envi
 
 -   **Verify the AWS discovery prerequisites**
 
-    For more information, see the prerequisites section in [Amazon AWS Cloud components discovery using patterns]().
+    For more information, see the prerequisites section in [AWS discovery using patterns]().
 
 -   **Remove resources from the Resource Inclusion List table**
 
-    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [Amazon Web Services \(AWS\) Resource Inventory]().
+    Verify that the relevant resource isn't listed in the Resource Inclusion List \[sa\_cloud\_inventory\_resource\_whitelist\] table to avoid duplicate discovery. For more information on removing resources from the Resource Inclusion List, see [AWS Resource Inventory discovery with Patterns]().
 
 -   **Enable the relevant pattern**
 
@@ -61,7 +61,7 @@ Discovery and Service Mapping Patterns application populates data in the CMDB wh
 |Operational status \[operational\_status\]|Operational status of the resource. Default value is Operational.|
 |Install Status \[install\_status\]|Install status of the resource. Default value is Installed.|
 
-## CI relationships
+## CI relationships and references
 
 The Amazon AWS - Backup Backup Plan - Extended Inventory \(LP\) pattern creates the following relationships and references to support AWS Backup Plan discovery. References link to records in other tables and don't appear in the CI Relationship \[cmdb\_rel\_ci\] table.
 
@@ -84,5 +84,5 @@ The Amazon AWS - Backup Backup Plan - Extended Inventory \(LP\) pattern collects
 |Value \[value\]|Tag value.|
 |Configuration item \[configuration\_item\]|References the Cloud Resource \[cmdb\_ci\_cmp\_resource\] table.|
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

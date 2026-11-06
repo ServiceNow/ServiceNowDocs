@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -37,13 +37,11 @@ Here is the workflow of how the continuous deployment process works through Argo
 -   Change request number is retrieved from the inbound events and updated with the Argo CD synchronization status.
 -   Change request is closed and based on the sync status, the close code, worknotes, and close notes fields are updated in the change request.
 
-## Example
-
-The following examples specify how changes made in Argo CD are notified to ServiceNow DevOps through the webhook.
+## Notify ServiceNow DevOps of Argo CD changes through webhooks
 
 -   The Config file is updated in GitHub with the following commit tag format:\[Omitted image "argocd-1.png"\] Alt text: Commit tag format in GitHub
--   Inbound events are created in ServiceNow when an app is synced in Argo CD:\[Omitted image "argocd-2.png"\] Alt text: Inbound event on sync in Argo CD
--   If sync is successful, the change request is closed and the close code, worknotes, and close notes fields are updated in the change request:\[Omitted image "argocd-3.png"\] Alt text: Change request updated with close state on successful sync in Argo CD\[Omitted image "argocd-4.png"\] Alt text: Change request work notes updated on successful sync in Argo CD
+-   Inbound events are created in ServiceNow when an app is synced in Argo CD.
+-   If sync is successful, the change request is closed and the close code, worknotes, and close notes fields are updated in the change request.
 
 -   **[Onboard Argo CD to DevOps Change Velocity – Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/devops-change-velocity/onboard-argo-cd-to-devops-change-velocity-workspace.md)**  
 Connect to your Argo CD instance using the DevOps Change Workspace playbook to automate the deployment of applications from GitHub repositories.

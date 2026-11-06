@@ -7,16 +7,16 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Encrypting sensitive data in Individual Life Claims
 
 Individual life claims contain personal or sensitive data fields that may require encryption. As an administrator for Individual Life Claims, you should take precautions to ensure that these fields are encrypted with Column Level Encryption. That way, you help to preserve the data privacy of your organization.
 
-## Overview
+## Overview of encrypting data in Individual Life Claims
 
 The Individual Life Claims data model enables you to record the details for individual benefits claims. Individual Life Claims includes a death benefit claim workflow that covers the entire claim life cycle, from the first-notice-of-loss \(FNOL\) to the case closure. For more information, see [Individual Life Claims workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/insurance-claims/individual-life-claims-workflows.md).
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Domain separation, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Domain separation, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Grouping domains in Performance Analytics domain configurations
@@ -20,7 +20,7 @@ Instead of configuring Performance Analytics for the domains of a specific user,
 
 Associate these domain configurations with specific data collection jobs and dashboards to provide relevant scores to users. At the same time, maintain your Performance Analytics records, such as indicators, breakdowns, and their sources, in the global domain.
 
-**Important:** Regardless of whether a domain configuration is used, the **Run as** user always determines the domain context of where the data collection Job runs.
+**Important:** Regardless of whether a domain configuration is used, the **Run as** user determines the domain context of where the data collection Job runs.
 
 Only Performance Analytics administrators with access to all the domains in a configuration can edit a data collection job that has a domain configuration applied to it.
 
@@ -36,7 +36,7 @@ A different approach is needed if you are collecting scores on a process domain.
 
 ## Collection, roll-up, and aggregation options
 
-The Domain Configuration record provides flexibility in the way domain records contribute to scores. Prior to the availability of the Domain Support plugin, records in child domains would “roll up” and contribute to the score of a parent domain. The Domain Support plugin provides additional options for how records in child domains should be handled:
+The Domain Configuration record provides flexibility in the way domain records contribute to scores. Without the Domain Support plugin, records in child domains would “roll up” and contribute to the score of a parent domain. The Domain Support plugin provides additional options for how records in child domains should be handled:
 
 -   Select whether to collect scores from individual child domains.
 -   Select whether to roll up scores from child domains into the parent domain score. You can roll up child domain scores with or without also collecting the individual scores.

@@ -1,20 +1,20 @@
 ---
 title: Using Omnichannel Callback for Customer Service Management
-description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.
+description: The ServiceNow Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CRM Workspace
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-omnichannel-callback.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Customer communication, Using Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Customer communication, Use, Customer Service Management]
 ---
 
 # Using Omnichannel Callback for Customer Service Management
 
-The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.
+The ServiceNow® Omnichannel Callback for Customer Service Management app enables a callback option for customers when there’s a long wait time for a live agent.Additionally, agents can schedule callbacks on behalf of customers from CRM Workspace
 
-For more information, see [Omnichannel Callback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/omnichannel-callback.md).
+For more information, see Omnichannel Callback.
 
 ## Callback flow
 
@@ -31,13 +31,13 @@ The callback workflow proceeds as follows:
     -   If the customer doesn’t accept the call, the agent can retry the callback later.
 8.  The agent can decide to close the interaction or queue the callback again manually from the workspace.
 
-\[Omitted image "Omni-callback-flow.png"\] Alt text: Callback flow diagram
+\[Omitted image "callback-flow-diagram.png"\] Alt text: Callback flow diagram
 
 ## Callback requests
 
 -   **Immediate callback request**
 
-    Customers can request a callback immediately. The customers are shown the average time that the agent will take to call back. This request prevents them from having to wait in the queue to connect with an agent.
+    Customers can request a callback immediately. The customers are shown the average time that the agent takes to call back. This request helps to prevent them from having to wait in the queue to connect with an agent.
 
 -   **Scheduling a callback request**
 
@@ -52,7 +52,31 @@ The callback workflow proceeds as follows:
     Customers can cancel scheduled callbacks from the self-service channel they requested the callback from.
 
 
+## Agent-scheduled callbacks
+
+In addition to customer-scheduled callbacks, agents can now create callbacks on behalf of customers from CRM Workspace. Agent-scheduled callbacks can be created from any omnichannel interaction \(chat, voice, email, messaging\) or case records. Agents can schedule, reschedule, and cancel callbacks.
+
+The following diagram shows the agent-scheduled callback workflow.
+
+\[Omitted image "agent-scheduled-callback-workflow.png"\] Alt text: Agent-scheduled callback flow
+
+-   **Agent-scheduled callback workflow**
+
+    The agent-scheduled callback workflow proceeds as follows:
+
+    1.  Callback creation: While working on a case or during an active interaction, the agent selects Schedule Callback. In the scheduling widget, the agent enters the customer's callback number, preferred date and time, reason for the call, and a short description. The widget displays the customer's time zone. The agent selects **Schedule**.
+    2.  Callback task created: The system creates a callback task and links it to the related case or interaction. The callback task state is set to Open.
+    3.  Callback confirmation: A confirmation message is displayed indicating that the callback has been scheduled for the customer at the specified time. The message includes a link to the callback record.
+    4.  Viewing and managing: Agents can view active callbacks from the Scheduled Callbacks list view and as tiles in the contextual side panel. From either view, agents can reschedule or cancel callbacks for the contact or consumer.
+
 ## Callback channels
 
 Customers can request a callback during a chat on Virtual Agent or Engagement Messenger, or from Customer Service Portal. They can request either a phone callback or a video callback on Zoom. Video callbacks must be scheduled but phone callbacks can be requested immediately or scheduled.
+
+**Related topics**  
+
+
+[Working with callback requests from customers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/request-callback-from-agent.md)
+
+[Callback requests by agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/callback-requests-agents-customer.md)
 

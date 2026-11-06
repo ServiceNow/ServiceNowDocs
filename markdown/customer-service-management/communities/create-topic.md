@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure community forums, Configure a community, Communities, Customer Service Management]
+breadcrumb: [Configure community forums, Configuring communities, Communities, Customer Service Management]
 ---
 
 # Create a topic
@@ -20,6 +20,10 @@ Create a topic for users to create and share content.
 
 Role required: sn\_communities.admin
 
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
 ## Procedure
 
 1.  Navigate to **All** &gt; **Community** &gt; **Administration** &gt; **Topics**.
@@ -28,13 +32,7 @@ Role required: sn\_communities.admin
 
 3.  On the form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Name|Name of the topic.|
-    |Description|A short description to define what the topic is.|
-    |Parent|The parent topic, if required. If you enter a parent topic, the topic is listed as a subtopic of the parent topic.|
-    |Image|An image that provides a visual reference that describes the topic.|
-    |Knowledge category used for harvesting|The knowledge category used to categorize community discussions harvested to knowledge articles.|
+    For field description, see [Topic form fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/topic-form-fields.md).
 
 4.  Click **Submit**.
 
@@ -43,7 +41,7 @@ Role required: sn\_communities.admin
 
 ## What to do next
 
-Add a topic to a forum.
+Add a topic to a forum. For details, see [Add a topic to a forum](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/add-topic-to-forum.md).
 
 **Parent Topic:**[Configure community forums](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-forums-topics.md)
 

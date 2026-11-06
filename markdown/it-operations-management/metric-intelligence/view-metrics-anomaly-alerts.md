@@ -1,20 +1,20 @@
 ---
 title: View anomaly alerts
-description: Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from the regular IT alerts, and are not displayed in the Service Operations Workspace. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
+description: Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from regular IT alerts. They appear in the Service Operations Workspace but not in Express List. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/metric-intelligence/view-metrics-anomaly-alerts.html
 release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
 
 # View anomaly alerts
 
-Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from the regular IT alerts, and are not displayed in the Service Operations Workspace. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
+Anomaly alerts indicate deviation from projected metric values for monitored CIs. Anomaly alerts are separate from regular IT alerts. They appear in the Service Operations Workspace but not in Express List. You can define an anomaly alert promotion rule to generate an IT alert that is based on anomaly alerts.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ The statistical model is used to calculate standard deviations, upper and lower 
 
 Metric Intelligence constantly generates anomaly alerts whenever the anomaly score is above zero. If there is a score that is above four and which has changed from the previous score, then it is sent to the instance. On the instance, the entire sequence of anomaly scores over time can then be displayed in the Insights Explorer.
 
-Metric Intelligence monitors historical data to ensure that metric bounds are accurate and that the alerts close when the anomalous behavior stops. Metric Intelligence also ignores irrelevant anomalies based on the metric's labels. For example, if the available CPU increases from its upper bound of 50% to 60%, the **available** label is identified as an indicator that the behavior should not register as an anomaly. This is because the increase in available CPU represents a favorable outcome, even though the metric of 60% would otherwise represent an anomaly.
+Metric Intelligence monitors historical data to ensure that metric bounds are accurate and that the alerts close when the anomalous behavior stops. Metric Intelligence also ignores irrelevant anomalies based on the metric's labels. For example, if the available CPU increases from its upper bound of 50% to 60%, the **available** label is identified as an indicator. The behavior does not register as an anomaly. This is because the increase in available CPU represents a favorable outcome, even though the metric of 60% would otherwise represent an anomaly.
 
 ## Procedure
 
@@ -34,7 +34,7 @@ Metric Intelligence monitors historical data to ensure that metric bounds are ac
 
 2.  In the **Alerts Anomalies** list view, double-click an alert that you want to view.
 
-    Information about an anomaly alert includes details such as the metric value, promotion parameter, events relevant to the alert \(which appear in the alert's work notes\), and upper and lower bounds \(lower bounds cannot be less than 0\). Description includes details about why the anomaly alert was generated, and other details such as the metric name and the anomaly score.
+    Information about an anomaly alert includes the metric value, promotion parameter, and upper and lower bounds \(lower bounds cannot be less than 0\). Events relevant to the alert appear in the alert's work notes. Description includes details about why the anomaly alert was generated, the metric name, and the anomaly score.
 
 
 ## What to do next

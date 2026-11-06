@@ -7,9 +7,9 @@ release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegated development and deployment, Exploring Delegated Development, Delegated Development, Planning your application, Building applications]
+breadcrumb: [Deployment, Explore, Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Domain separation and Delegated Development

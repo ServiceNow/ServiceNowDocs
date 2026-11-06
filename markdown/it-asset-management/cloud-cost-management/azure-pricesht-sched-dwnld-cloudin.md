@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Schedule and manage the Cloud Cost Management jobs that download Microsoft Azure price sheets
@@ -26,7 +26,7 @@ Role required: insights\_admin \[sn\_clin\_core.insights\_admin\].
 
 -   You create a scheduled Price Sheet Download job for Microsoft Azure.
 -   Each execution of a Price Sheet Download job runs multiple execution items. Each execution item imports and stores the price sheet for one subscription or billing profile.
--   To ensure accurate reporting and recommendations for some providers, make sure that Discovery runs before the scheduled execution.
+-   To ensure accurate reporting and recommendations for some providers, make sure that the Discovery application runs before the scheduled execution.
 -   When the scheduled time arrives, job execution happens in multiple stages \(for example, connect to the provider, download the data, perform the post-import sort, and so on\). The system logs status and results on the Price Sheet Executions page for each stage.
 -   Cloud Cost Management version 9.0 supports price sheet download for both Azure Enterprise Agreement \(EA\) and Microsoft Customer Agreement \(MCA\) accounts.
 -   Cloud Cost Management version 10.0 supports price sheet download for Microsoft Partner Agreement \(MPA\) accounts in addition to the Azure Enterprise Agreement \(EA\) and Microsoft Customer Agreement \(MCA\) accounts.

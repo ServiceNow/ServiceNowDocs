@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configuring-a-group.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Setting up assignment groups, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configuring a group
@@ -20,7 +20,7 @@ Add a member to a group so that the member inherits all the roles assigned to th
 
 ### Before you begin
 
-Role required: admin
+Role required: user\_admin
 
 ### Procedure
 
@@ -45,7 +45,9 @@ You can assign one or more roles to a group to grant required access to the grou
 
 ### Before you begin
 
-Role required: admin
+Role required: user\_admin
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 ### Procedure
 

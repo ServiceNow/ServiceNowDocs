@@ -7,7 +7,7 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -50,7 +50,7 @@ Manage appointment types and time slots available for patients to book online.
 
 </td><td>
 
-[Using the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
+[Use the Patient Portal to register for a vaccination program](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-user-experience.md)
 
 </td><td>
 
@@ -62,7 +62,7 @@ Users can learn more about vaccines and schedule vaccinations through a self-ser
 
 </td><td>
 
-[Using Clinician Portal to find and manage vaccination appointments for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
+[Use Clinician Portal to find and manage vaccination appointments for users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/vaccine-administration-management/hcls-vam-clinician-experience.md)
 
 </td><td>
 

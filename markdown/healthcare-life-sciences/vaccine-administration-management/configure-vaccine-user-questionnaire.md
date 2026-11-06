@@ -7,9 +7,9 @@ release: yokohama
 product: Vaccine Administration Management
 classification: vaccine-administration-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Vaccine Administration Management, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, Vaccine Administration Management, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Configure an appointment reminder and pre-appointment questionnaire
@@ -55,8 +55,6 @@ The appointment reminder sends a reminder email and a pre-appointment questionna
         For details on how to configure a variable, see [Service catalog variables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ServiceCatalogVariables.md).
 
         **Important:** Don’t configure the *task\_id* and *is\_portal* variables.
-
-        \[Omitted image "pre-appointment-questionnaire-variables.png"\] Alt text: Variables related list displaying pre-appointment questionnaire variables with the task\_id and is portal variables highlighted.
 
     4.  Click **Update**.
 

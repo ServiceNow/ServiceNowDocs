@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-07-01"
-reading_time_minutes: 1
-breadcrumb: [Browser Extension for Employee Center forms, Reference, Employee Center, Unified Employee Experience, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Employee Center reference, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Website configuration form
@@ -97,5 +97,66 @@ Contents Associated
 List of connected content from the portal to be associated with access from the website through the Browser Extension.**Note:** Content can also be added to the configured website from the **Associated Websites** tab on the specific content page.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Browser Extension for Employee Center forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ecbe-forms.md)
+</table>**Parent Topic:**[Employee Center reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/emp-center-reference.md)
+
+**Related topics**  
+
+
+[Activity Configuration form]()
+
+[Activity Configuration Detail form]()
+
+[Approvals experience reference]()
+
+[Connected Content form]()
+
+[Default Employee Profile Header Configuration record]()
+
+[Employee Center widgets]()
+
+[Employee Profile form]()
+
+[Employee Profile Header Configuration form]()
+
+[Employee Profile portal configuration form]()
+
+[Employee Profile upgrade scenarios]()
+
+[Enhanced Requests Experience forms]()
+
+[External Link form]()
+
+[Featured Content form]()
+
+[Footer form]()
+
+[Footer Menus form]()
+
+[Guided Self-Service reference]()
+
+[Menu Item form]()
+
+[Overview section form]()
+
+[Portal notification configuration form]()
+
+[Portal notification content form]()
+
+[Trigger conditions form]()
+
+[Quick Link form]()
+
+[Tab widget mapping form]()
+
+[Taxonomy form]()
+
+[Topic form]()
+
+[User Criteria form]()
+
+[User Criteria output]()
+
+[Schedule appointment form]()
+
+[Location Consent form]()
 

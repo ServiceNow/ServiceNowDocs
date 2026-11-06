@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up a table configuration, Create a project using Classic view, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Set up a table configuration, Create a project using Classic view, Use, Process Mining, Platform Analytics]
 ---
 
 # Configure advanced conditions: crop process
@@ -18,7 +18,7 @@ Configure custom start and end conditions for your table configuration to define
 
 ## Before you begin
 
-Role required: sn\_process\_optimization\_analyst, sn\_process\_optimization\_power\_user, or sn\_process\_optimization\_admin
+Role required: sn\_process\_mining\_analyst, sn\_process\_mining\_power\_user, or sn\_process\_mining\_admin
 
 ## Procedure
 

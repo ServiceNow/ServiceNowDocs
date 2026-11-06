@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2026-03-12"
-reading_time_minutes: 3
-breadcrumb: [Operate, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Change Management in Service Operations Workspace
@@ -39,14 +39,14 @@ This section provides a list view of the records associated with the change requ
 From this section, you can access the following information:
 
 -   Record information for the change request.
--   Agent Assist and search for relevant records and perform the required actions.
+-   Agent Assist for searching for relevant records and performing the required actions.
 
 For information about Change Management, see [Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/c_ITILChangeManagement.md).
 
 -   **[Create a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-sow.md)**  
-Track modifications to a supported configuration item \(CI\). Use a change request form to record information such as the reason for the change, type, priority, and risk.
+Track modifications to a supported configuration item \(CI\) by using a change request. You can record information such as the reason for the change, and the change type, priority, and risk.
 -   **[Work on a change request in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/work-on-change-sow.md)**  
-Modify a supported configuration item \(CI\) if required and close the change request.
+Modify a supported configuration item to clear a change request.
 -   **[Standard change catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/standard-change-catalog-sow.md)**  
 Standard changes are pre-approved, low-risk changes with a proven history of success. The standard change catalog contains the changes that have been approved by the Change Management application as standard changes.
 -   **[Create a change task in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/create-change-task-sow.md)**  
@@ -58,7 +58,7 @@ Create a Change Advisory Board \(CAB\) definition in Service Operations Workspac
 -   **[Create a CAB meeting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/cm-create-cab-meeting-sow.md)**  
 Create a Change Advisory Board \(CAB\) meeting in Service Operations Workspace to review and authorize change requests.
 -   **[Conduct a CAB meeting in the CAB workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/cm-manage-cab-meeting-workbench-sow.md)**  
-Start and conduct the CAB meeting in the CAB Workbench in Service Operations Workspace to review the agenda and approve or schedule changes.
+Start and conduct a Change Advisory Board meeting in the CAB Workbench in Service Operations Workspace to review the agenda and approve or schedule changes.
 
 **Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 

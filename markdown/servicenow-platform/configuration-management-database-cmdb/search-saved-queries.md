@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Search for a saved query
@@ -20,7 +20,7 @@ The CMDB Query Builder allows you to search for a specific saved query using any
 
 To locate a saved query using a **Query Tags** search criteria, the query must have a query tag associated with it. For more information see [Build a CMDB query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/use-cmdb-query-builder.md), or [Build a Service Mapping query using the CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/build-service-mapping-query.md).
 
-Role required: cmdb\_query\_builder \(contained for itil, itil\_admin, and asset\)
+Role required: cmdb\_query\_builder
 
 ## Procedure
 

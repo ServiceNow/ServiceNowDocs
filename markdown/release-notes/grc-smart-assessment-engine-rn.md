@@ -1,92 +1,71 @@
 ---
 title: Smart Assessment Engine release notes
-description: The ServiceNow Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.The ServiceNow Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
+description: The ServiceNow Smart Assessment Engine application enables you to create customizable assessment templates with instructions and questions to gather information from assessors.Smart Assessment Engine, version 23.0, introduces a centralized question bank, assessment delegation, question-level change history, and UX enhancements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/grc-smart-assessment-engine-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+keywords: [smart assessment engine, smart assessment engine, question bank, delegation, change history]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Smart Assessment Engine release notes
 
-The ServiceNow® Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
+The ServiceNow® Smart Assessment Engine application enables you to create customizable assessment templates with instructions and questions to gather information from assessors.
 
 ## About Smart Assessment Engine
 
--   Configure default responses for questions.
--   Copy an existing SAE template with all questions, sections, instructions, and configurations to save time.
--   Filter questions in an assessment to display only unanswered questions.
--   Search for text within assessment sections, subsections, and questions.
--   Auto-copy responses to all assessments when combining assessments, saving time and effort.
--   Calculate scores for assessment responses at the assessment, section, or subsection levels.
--   Set up post-assessment actions based on assessment responses.
--   Benefit from accessibility improvements to create a configurable workspace that supports Web Content Accessibility Guidelines \(WCAG\) 2.1 Level AA conformance.
--   Descriptive images are now supported in the guidance section for questions.
+-   Create customizable assessment templates with structured instructions and questions to gather information from assessors.
+-   Reuse questions across multiple assessment templates with a centralized question bank.
+-   Collaborate on assessments with question-level comments, work notes, flags, and change history, and delegate assessments to another user when needed.
+-   Score and report on assessment results to gain actionable insights.
 
 See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Smart Assessment Engine is available in the ServiceNow Store. For details, see the following activation information.
 
 -   **Activation information**
 
-    Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Additional requirements**
-
-    Check your entitlements to determine whether you have access to the post-assessment automations and response automation for the SAE application.
-
-
-## Accessibility and localization
-
--   **Accessibility information**
-    -   **Accessibility improvements**
-
-        Accessibility improvements were done to create a configurable workspace that supports WCAG 2.1 Level AA conformance.
+    Install Smart Assessment Engine by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 
-## Yokohama
+## September 2026
 
-The ServiceNow® Smart Assessment Engine \(SAE\) application is designed to streamline the creation, distribution, and management of assessments. It enables you to evaluate your assessors by creating customizable assessment templates with detailed instructions and questions. The Smart Assessment Engine enhances efficiency, helps reduce manual effort, and provides valuable insights for informed decision-making. SAE was enhanced and updated in the Yokohama release.
+Smart Assessment Engine, version 23.0, introduces a centralized question bank, assessment delegation, question-level change history, and UX enhancements.
 
 ### What's new
 
--   ****
+-   **Question bank**
 
-    Create a copy of an existing smart assessment template, including all questions, sections, and existing configurations. This feature enables you to duplicate a fully configured assessment, so you don't need to recreate the content. You can then customize the copied template to fit new requirements or scenarios.
+    With Smart Assessment version 23.0.2, you can create, manage, and reuse questions across multiple assessment templates with a centralized question bank. Questions move through a Draft, Ready to publish, Published, and Retired lifecycle. Add published questions to assessment templates as independent copies. Changes to the original or the copy don't affect each other.
 
--   **Filter unanswered questions**
+-   **Migrate a classic question bank or assessment template**
 
-    Filter questions in the assessments to display only unanswered questions, helping you focus on the remaining questions.
+    With Smart Assessment Migration Tools version 23.0.3, you can migrate an existing classic question bank or the sections and questions of a Smart Assessment template into a new or existing question bank. Track migration status and review errors from the Question Bank Migrations list.
 
--   ****
+-   **Delegation in Smart Assessment Engine**
 
-    Search for text within assessment sections, subsections, or questions, enabling you to locate specific information or keywords. This feature enhances navigation and enables you to find relevant content without manually scrolling through the entire assessment.
+    With Smart Assessment version 23.0.2, you can delegate your assessments to another user for a set period using the platform delegation feature. A delegate of the primary responder can respond to and submit the assessment; a delegate of the requestor can cancel, reassign, and edit the due date. Delegation is off by default and is enabled from the template category.
 
--   **Auto-copy responses to all templates**
+-   **Question change history**
 
-    Replicate your responses across all applicable assessments while combining assessments by enabling the auto-copy feature. It saves time and effort by copying your answers consistently without the need for manual repetition.
+    With Smart Assessment version 23.0.2, you can review a log of every response, justification, and flag-state change made to a question throughout the lifecycle of an assessment, including who made each change and when. Consecutive changes to the same field by the same user within a configurable time window are merged into a single entry, while flag-state changes are logged individually.
 
--   **Automate responses**
 
-    Set up automatic responses for questions to enable assessors to complete assessments efficiently. You can either create default responses for all question types or define a script to fetch and map the values or data to responses.
+### What's changed
 
--   **Assessment scoring and analysis**
+-   **Create an assessment template category**
 
-    Calculate meaningful scores for assessment responses at the assessment, section, or subsection levels. These scores can then be used for reporting.
+    With Smart Assessment version 23.0.2, the assessment template category form includes two new fields: **QB category roles**, which controls access to the question banks associated with the category, and **Allow user delegation**, which lets users delegate their assessments in the category.
 
--   **Post-assessment automation**
-
-    Automate actions based on assessment responses. Template designers can predefine actions using a rule engine, such as updating fields, creating follow-up assessments, or generating other records.
-
--   **Descriptive images in assessment questions**
-
-    Attach descriptive images in the guidance section of the assessment questions. This means that template managers can include helpful visuals to assist respondents, making the instructions clearer and easier to understand.
-
+-   **UX improvements to assessment questions and responses**
+    -   Drop-down list question — With Smart Assessment Designer version 23.0.5, reopening a drop-down list question now shows all response options again, not just the ones you previously selected.
+    -   Reference question search — With Smart Assessment Core version 23.0.2, for single-select and multi-select reference questions, when a table has more than 10 matching records, select the search icon to browse the full set. This replaces the default behavior of showing only the first 10 records.
+    -   Default focus when opening or reopening an assessment — With Smart Assessment Core version 23.0.2, the view defaults to the assessment instructions, if configured, or the first question of the first section or subsection. This applies even if you, a collaborator, or response automation has already answered later questions.
 

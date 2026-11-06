@@ -1,5 +1,5 @@
 ---
-title: Add comments to code with Quick Actions
+title: Add comments to code
 description: Add comments in the ServiceNow Otto for Code enabled script editor using quick actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/add-comments-to-code-with-quick-actions.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for code generation, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use, ServiceNow Otto for Code, Scripting, API implementation, API implementation and reference]
 ---
 
-# Add comments to code with Quick Actions
+# Add comments to code
 
 Add comments in the ServiceNow Otto for Code enabled script editor using quick actions.
 
@@ -24,7 +24,11 @@ Role required: now.assist.creator
 
 1.  Navigate to any script editor enabled with ServiceNow Otto for Code and select a script.
 
-2.  In the script editor, select a code and then select the **Quick Actions** button.
+    For example, to open a script include form, navigate to **All** &gt; **System Definition** &gt; **Script Includes** and select a script include.
+
+2.  In the script editor, select a code and then select the **Otto**.
+
+    \[Omitted image "soc-otto-menu.png"\] Alt text: Select Add comments in code.
 
 3.  Select **Add comments in code**.
 

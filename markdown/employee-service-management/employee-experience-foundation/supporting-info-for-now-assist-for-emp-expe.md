@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for Employee Experience, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Explore, ServiceNow Otto for Employee Experience, EmployeeWorks, Employee Service Management]
 ---
 
 # Supporting information for ServiceNow Otto for Employee Experience
@@ -24,8 +24,8 @@ ServiceNow Otto for Employee Experience is supported starting from Xanadu Patch 
 
 The ServiceNow Otto for Employee Experience application supports the following user interfaces:
 
--   Now Assist chat bot in any service portal
--   Now Assist Virtual Agent interfaces
+-   ServiceNow Otto® chat bot in any service portal
+-   ServiceNow Otto for Virtual Agent interfaces
 
 ## Application information
 
@@ -33,7 +33,7 @@ Activate the ServiceNow Otto for Employee Experience store app \(sn\_ex\_gen\_ai
 
 This store app has the following dependencies:
 
--   Now Assist for platform \(sn\_genai\_platform\)
+-   ServiceNow Otto® for platform \(sn\_genai\_platform\)
 -   Employee Center \(sn\_ex\_sp\)
 
 For more information, see [Configure ServiceNow Otto for Employee Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configure-nowassist-emp-exp.md).

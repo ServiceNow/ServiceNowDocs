@@ -1,33 +1,33 @@
 ---
 title: Exercises
-description: Exercises are used to provide continuous testing and improving of continuity plans. You can use the exercises to finalize your business continuity plan and improve its effectiveness and usability in an actual crisis event. You can manage your exercises in the BCM Configurable Workspace.
+description: Exercises are used to provide continuous testing and improving of continuity plans. You can use the exercises to finalize your business continuity plan and improve its effectiveness and usability in an actual crisis event. You can manage your exercises in BCM UIB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/exercise-management-uib.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Exercises
 
-Exercises are used to provide continuous testing and improving of continuity plans. You can use the exercises to finalize your business continuity plan and improve its effectiveness and usability in an actual crisis event. You can manage your exercises in the BCM Configurable Workspace.
+Exercises are used to provide continuous testing and improving of continuity plans. You can use the exercises to finalize your business continuity plan and improve its effectiveness and usability in an actual crisis event. You can manage your exercises in BCM UIB Workspace.
 
 ## Steps involved in creating an exercise
 
-Typically, the following steps are involved in creating an exercise:
+Creating an exercise includes these steps:
 
--   The BCM program manager creates an exercise either from the Home page or the Exercises record page in the List view of the BCM UIB Workspace.
--   The BCM program manager adds additional details for the exercise such as an asset, plan, and event task.
--   The BCM program manager submits the event task related to the exercise for an approval.
--   The assigned BCM program manager reviews the details on the event task and approves the exercise.
--   The exercise is moved to the **Approved** state. An approved exercise is moved to the **Archived** state later.
--   The BCM program manager can generate the PDF of the details and save a copy for reference.
+-   BCM program manager creates an exercise either from the Home page or the Exercises record page in the List view of the BCM UIB Workspace.
+-   BCM program manager adds additional details for the exercise such as an asset, plan, and event task.
+-   BCM program manager submits the event task related to the exercise for an approval.
+-   Assigned BCM program manager reviews the details on the event task and approves the exercise.
+-   Exercise is moved to the **Approved** state. An approved exercise is moved to the **Archived** state later.
+-   BCM program manager can generate the PDF of the details and save a copy for reference.
 
 ## Types of exercises
 
-The BCM application creates the following types of exercises:
+The BCM application creates these types of exercises:
 
 -   Functional
 -   Simulation
@@ -38,9 +38,9 @@ Technically, all exercises are treated in the same way. However, only Functional
 
 ## Creating an exercise in Business Continuity Workspace
 
-If you’re the BCM program manager, you can create an exercise in Business Continuity Workspace by using one of the following options:
+If you’re the BCM program manager, you can create an exercise in Business Continuity Workspace by using one of these options:
 
--   You can navigate to the **Exercises** tab and select **Create exercise** as shown in the following example.
+-   You can navigate to the **Exercises** tab and select **Create exercise** as shown in the example.
 
     \[Omitted image "exercises-homepage.png"\] Alt text: Exercises tab in the Home page.
 
@@ -52,7 +52,5 @@ To create an exercise in Business Continuity Workspace, see [Structured workflow
 
 ## Grouping the event tasks
 
-For information on working with the grouped event tasks, see [Grouping similar event tasks in events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identifying-running-dup-tasks-once.md).
-
-**Parent Topic:**[Exploring Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/exploring-bcm.md)
+For information on working with the grouped event tasks, see [Creating similar tasks groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/identifying-running-dup-tasks-once.md).
 

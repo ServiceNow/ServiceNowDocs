@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Calendar Synchronization
 classification: workplace-calendar-synchronization
 topic_type: concept
-last_updated: "2025-09-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Workplace Calendar Synchronization, Workplace Service Delivery, Employee Service Management]
 ---
@@ -44,7 +44,7 @@ As an admin, you can do the following:
 
     **Note:** If you’re using Microsoft Exchange Online, you cannot view synchronization deltas.
 
--   Microsoft Exchange Online, receive calendar updates through subscriptions and callback events. A callback event triggers the application to retrieve the calendar information.
+-   For Microsoft Exchange Online, receive calendar updates through subscriptions and callback events. A callback event triggers the application to retrieve the calendar information.
 -   For Google Calendar and Microsoft Exchange On Premises, receive calendar updates via synchronization deltas \(Sync deltas\). A Sync delta contains a token using which the application retrieves only the changes that happened since the last interval instead of displaying the complete calendar history of the workplace item.
 
 You can create a connection with your calendar service by using the following configuration form:

@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Activating Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Activate, Process Mining, Platform Analytics]
 ---
 
 # Integrating Process Mining
@@ -33,10 +33,8 @@ Integrating with the ServiceNow® Continual Improvement Management application e
 Integrating with ITSM Benchmarks enables you to analyze processes relevant to your KPIs, and create and view associated incidents.
 -   **[Integration with indicator data sources \(PA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/integrate-pa.md)**  
 Using Process Mining with Platform Analytics indicator data sources enables you to perform data extraction from an indicator and analyze processes associated with KPIs such as Time to resolve.
--   **[Integration with Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/auto-disc.md)**  
-Run Automation Discovery from within Process Mining.
--   **[Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/integration-with-ac.md)**  
-Integration with Automation Center enables you to access the automation requests from the Automation Center Workspace.
+-   **[Integration with Task Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/integration-taskmining.md)**  
+Use the Task Mining integration to create Task Mining projects and run analyses directly from the Process Mining Workspace.
 
 **Parent Topic:**[Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activating-process-mining.md)
 

@@ -1,18 +1,20 @@
 ---
-title: Track cases on the Business Location Service Portal
+title: Track cases on the Business Organization Support Portal
 description: Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/track-cases-for-blsp-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create cases for a business location in the Business Location Service Portal, Using the Business Location Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Create cases, Use Business Organization Support Portal, Customer communication, Use, Customer Service Management]
 ---
 
-# Track cases on the Business Location Service Portal
+# Track cases on the Business Organization Support Portal
 
 Track cases on behalf of a business location against sold products deployed at a business location, or against installed base items deployed at a business location.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 \[Omitted image "my-lists-widget.png"\] Alt text: Filter options for My Lists widget on the Business Location Service Portal.
 
@@ -23,7 +25,7 @@ Depending on the roles assigned to the logged-in user, the widget displays the f
 |All Cases|List of all the cases.|
 |Action Needed|Cases in the **Resolved** state that are waiting for a customer response.|
 |My Cases|Cases for myself.|
-|My Requests|Cases that are created as a request. To integrate request management, see, [CSM integration with Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-integration-sm-request.md).|
+|My Requests|Cases that are created as a request.|
 |Cases for Accounts|Cases created by the account contributor.|
 |Cases for Consumers|Cases created by the consumer contributor.|
 |My Cases for Business Locations|Cases created by the contributor user on behalf of their business locations.|

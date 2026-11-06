@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use Microsoft Outlook Add-In for Legal Service Delivery, Microsoft Outlook Add-In for Legal Service Delivery, Integration with Third-party applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit legal request or matter
@@ -48,15 +48,15 @@ Role required: sn\_lg\_ops.request\_fulfiller or sn\_lg\_matter.matter\_fulfille
 
     For legal matter, select the artifact from the Artifact section and then select Add attachments icon \(\[Omitted image "icon-add-attachment.png"\] Alt text: Add attachments icon\)
 
-<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d105614e177">
+<table id="choicetable_tly_21d_xbc"><thead><tr><th align="left" id="d110208e177">
 
 Method
 
-</th><th align="left" id="d105614e180">
+</th><th align="left" id="d110208e180">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d105614e186">
+</th></tr></thead><tbody><tr><td id="d110208e186">
 
 **Add file from the system**
 
@@ -67,7 +67,7 @@ Steps
 3.  Select **Open**
 
 
-</td></tr><tr><td id="d105614e212">
+</td></tr><tr><td id="d110208e212">
 
 **Drag and drop file from the email**
 

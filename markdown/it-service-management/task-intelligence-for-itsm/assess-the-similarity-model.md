@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up similar records prediction model, Create a similar records prediction model in Task Intelligence for ITSM, Managing Task Intelligence for ITSM models, Task Intelligence for ITSM, IT Service Management]
+breadcrumb: [Set up, Create a similar records prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
 
 # Assess the similarity model
@@ -40,15 +40,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 3.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d233374e104">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d413259e110">
 
 Options
 
-</th><th align="left" id="d233374e107">
+</th><th align="left" id="d413259e113">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d233374e113">
+</th></tr></thead><tbody><tr><td id="d413259e119">
 
 **Recommendations**
 
@@ -56,7 +56,7 @@ Description
 
 hows the top recommendations based on the similarity patterns. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d233374e138">
+</td></tr><tr><td id="d413259e144">
 
 **Turn off predictions**
 
@@ -64,7 +64,7 @@ hows the top recommendations based on the similarity patterns. Agents can choose
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d233374e147">
+</td></tr><tr><td id="d413259e153">
 
 **Monitor only**
 

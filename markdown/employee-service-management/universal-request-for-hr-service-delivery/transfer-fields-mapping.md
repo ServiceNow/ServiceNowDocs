@@ -7,7 +7,7 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure mappings, Configure service to use Universal Request, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -30,15 +30,15 @@ To map automatically the fields, select **Map fields automatically** related lin
 
 2.  Open the configuration for which you want to map the fields.
 
-<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d160135e83">
+<table id="choicetable_mmq_lyn_mtb"><thead><tr><th align="left" id="d170178e80">
 
 Mapping type
 
-</th><th align="left" id="d160135e86">
+</th><th align="left" id="d170178e83">
 
 Description and action
 
-</th></tr></thead><tbody><tr><td id="d160135e92">
+</th></tr></thead><tbody><tr><td id="d170178e89">
 
 **Direct transfer mappings**
 
@@ -52,7 +52,7 @@ Map the fields to create service level tickets when a ticket is transferred from
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d160135e133">
+</td></tr><tr><td id="d170178e130">
 
 **Associated ticket mappings**
 
@@ -66,7 +66,7 @@ Map the fields to create an associated ticket for universal request.On the **Ass
 4.  Select **Submit**.
 
 
-</td></tr><tr><td id="d160135e174">
+</td></tr><tr><td id="d170178e171">
 
 **Create UR mappings**
 

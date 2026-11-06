@@ -9,7 +9,7 @@ classification: integration-hub
 topic_type: task
 last_updated: "2026-09-01"
 reading_time_minutes: 4
-breadcrumb: [Oracle Financial Cloud Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Oracle Financial Cloud Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Create the data model for the Oracle Financial Cloud spoke

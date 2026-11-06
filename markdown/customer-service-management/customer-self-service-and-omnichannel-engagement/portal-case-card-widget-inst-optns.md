@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Portal Case Cards widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Portal Case Cards widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Add and configure the Portal Case Cards widget
@@ -22,7 +22,7 @@ The UI Components for Customer Portals plugin must have been activated. For more
 
 If you have not already created the page to which you want to add the widget, see [Create a page for Configurable Portal widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/create-page-configurable-portal-widget.md).
 
-Role required: sp\_admin or admin
+Role required: sp\_admin
 
 ## Procedure
 
@@ -46,7 +46,7 @@ Role required: sp\_admin or admin
 
 10. Select the Pencil icon \(\[Omitted image "icon-pencil-ac.png"\] Alt text: Pencil icon\).
 
-11. If you want to use configured background and text colors to indicate the state of the cases displayed in the widget, enter JSON code in the following format in the **State Highlight Color** field and modify it with your desired colors.
+11. To use background and text colors to indicate case states in the widget, enter JSON code in the **State Highlight Color** field and update the color values.
 
     The default text color for all case states is \#181A1F \(black\). If you create a state, the default highlight color is \#CBE9FC \(light blue\) and the text color is \#181A1F \(black\). For more information about the default color values, see [Default highlight color for different case states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/portal-case-cards-widget-default-color.md).
 

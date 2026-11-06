@@ -7,8 +7,8 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: concept
-last_updated: "2025-08-13"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -33,6 +33,8 @@ Work with your network administrator to ensure that the following port ranges ar
 -   Producer: 4000-4050
 -   Consumer1: 4100-4150
 -   Consumer2: 4200-4250
+
+**Note:** Proxy usage is not supported for Hermes connectivity. Hermes uses Kafka-native TCP connections \(not HTTP\). Therefore, proxy settings configured on a MID Server are ignored and don't provide a supported path to reach the Hermes cluster. The MID Server proxy configuration applies only to HTTP-based communication and does not apply to Kafka traffic. This applies to all applications that connect to Hermes, including Log Export Service and Stream Connect.
 
 To confirm that the ports are accessible through the firewall, run the following command:
 

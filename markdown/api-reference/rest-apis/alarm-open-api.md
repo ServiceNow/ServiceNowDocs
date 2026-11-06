@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 27
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [REST API reference, API reference, API implementation and reference
 
 The Alarm Management Open API provides endpoints to create, update, and retrieve data from the Events \[em\_event\] and Alert \[em\_alert\] tables.
 
-The telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) is a ServiceNow® implementation of the TM Forum Open API specification. This API is based on [TMF642 Alarm Management API REST Specification Release 20](https://www.tmforum.org/resources/specification/tmf642-alarm-management-api-user-guide-v4-0/), April 2020.
+The telecommunications Alarm Management Open API \(sn\_ind\_tmf642\) is a ServiceNow® implementation of the TM Forum Open API specification. This API is based on the [TMF642 Alarm Management API User Guide v5.0.0](https://www.tmforum.org/resources/specifications/tmf642-alarm-management-api-user-guide-v5-0-0/), September 2023.
 
 The calling user must have to access the `sn_ind_tmf642.alarm_mgmt_integration` endpoint.
 
@@ -2042,7 +2042,7 @@ Description
 
 affectedService
 
-</td><td id="d5661e76">
+</td><td id="d4190e76">
 
 List of one or more services affected by the alarm.Data type: Array of Objects
 
@@ -2059,7 +2059,7 @@ List of one or more services affected by the alarm.Data type: Array of Objects
 
 affectedService.href
 
-</td><td id="d5661e89">
+</td><td id="d4190e89">
 
 URL reference that provides details of the affected service.Data type: String
 
@@ -2107,7 +2107,7 @@ Unique identifier of the alarm object. This value maps to a CI in the system. Da
 
 alarmedObject.href
 
-</td><td id="d5661e404">
+</td><td id="d4190e404">
 
 URL reference to get the details of the alarm object.
 
@@ -2332,7 +2332,7 @@ Instance ID of the source alarm. Data type: String
 
 specificProblem
 
-</td><td id="d5661e342">
+</td><td id="d4190e342">
 
 Specific problem that triggers the alarm. Use with the **probableCause** tparameter o qualify the alarm.Data type: String
 

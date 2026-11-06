@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_AdditionalProperties.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Email properties, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Advanced email properties
@@ -70,7 +70,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
     Email that is missing a target record or whose target record is the email are made visible to any user regardless of their roles. By turning this property to false, the user is restricted unless they sent in the record or have an admin role.
 
     -   Type: true \| false
-    -   Value: false
+    -   Value: true
 -   **__glide.email.inbound.calendar\_behavior__**
 
     Specifies how the system stores calendar data, such as an invitation or an invitation response. Enter one of these options \(not case sensitive\):
@@ -359,7 +359,7 @@ Add these properties to the System Property \[sys\_properties\] table before the
     Splits outgoing email between valid and invalid recipients. The email is sent only to the valid recipients. A new email containing the invalid recipients is created in the **send-ready** state and attempts to send again.
 
     -   Type: true \| false
-    -   Default value: false
+    -   Default value: true
 -   **__glide.smtp.timeformat__**
 
     Specify the time format to use for outgoing email notifications.
@@ -430,9 +430,9 @@ Add these properties to the System Property \[sys\_properties\] table before the
 **Related topics**  
 
 
-[Outbound mail configuration]()
+[Outbound email configuration]()
 
-[Inbound mail configuration]()
+[Inbound email configuration]()
 
 [Email image filtering properties]()
 

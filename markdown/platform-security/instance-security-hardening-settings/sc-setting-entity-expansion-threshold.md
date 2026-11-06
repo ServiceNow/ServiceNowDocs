@@ -1,5 +1,5 @@
 ---
-title: Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable \[Updated in Security Center 1.3, 1.5, and 2.0\]
+title: Minimize entity expansion threshold for GlideXMLUtil scriptable
 description: Use the glide.xmlutil.max\_entity\_expansion property to change the maximum entity expansion limit to a smaller number.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-setting-entity-expansion-threshold.html
@@ -7,36 +7,117 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Validation, sanitization, and encoding, Hardening settings, Platform Security]
 ---
 
-# Minimize Entity Expansion Threshold for GlideXMLUtil Scriptable \[Updated in Security Center 1.3, 1.5, and 2.0\]
+# Minimize entity expansion threshold for GlideXMLUtil scriptable
 
 Use the **glide.xmlutil.max\_entity\_expansion** property to change the maximum entity expansion limit to a smaller number.
 
-This property controls the maximum amount of entity expansion within an XML Parser. If **glide.xmlutil.max\_entity\_expansion** is not set to the recommended value of 3000 or less, then the GlideXMLUtil parsing scriptable may be vulnerable to denial of service attacks.
+The **glide.xmlutil.max\_entity\_expansion** system property controls the maximum amount of entity expansion within an XML parser. If **glide.xmlutil.max\_entity\_expansion** isn't set to the recommended value of `3000` or less, then the GlideXMLUtil parsing scriptable may be vulnerable to denial of service attacks.
 
-Ensure the property **glide.xmlutil.max\_entity\_expansion** is set to 3000 or less. If the instance is on Washington or later, the default implied value is 3000 if the sys\_properties record does not exist. If the instance is not on Washington or later, the recommendaiton is for the instance admin to create a sys\_properties record with name **glide.xmlutil.max\_entity\_expansion** and the value 3000.
+Ensure that the property **glide.xmlutil.max\_entity\_expansion** is set to `3000` or less.
+
+If the instance is on Washington or later, the default implied value is 3000 if the System Properties \[sys\_properties\] record does not exist. If the instance is not on Washington or later, the recommendation is for the instance admin to create a System Properties \[sys\_properties\] and set the value to `3000`.
 
 **Note:** 500 is the default minimum imposed by the ServiceNow AI Platform, which is considered to be a safe threshold.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**glide.xmlutil.max\_entity\_expansion**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)|
-|Purpose|This remediation control must be enabled to defend against XML Entity Expansion/Billion Laugh attack.|
-|Recommended value|3000|
-|Default value|100000|
-|Security risk rating|5.3|
-|Functional Impact|If the customization is using large entity expansion, then, the ServiceNow AI Platform might block further processing.|
-|Security risk|\(Moderate\) An attacker can use this vulnerability to expand data exponentially, quickly consuming all system resources.|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+****
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Integer
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+Less than or equal to 3000
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+3000
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+3000
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 5.3
+-   CVSS rating: Medium
+-   Security risk details: A Denial-of-Service \(DoS\) vulnerability poses a security risk by allowing attackers to overwhelm or crash a system, rendering it unavailable to legitimate users and potentially disrupting critical operations.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+If the customization is using large entity expansion, then, the ServiceNow AI Platform might block further processing.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Validation, sanitization, and encoding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/validation-sanitization-encoding.md)
 

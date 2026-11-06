@@ -7,7 +7,7 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Audit Management, Governance, Risk, and Compliance]
 
 You can run the GRC Audit Management application by downloading it from the ServiceNow Store and then configuring the settings in the setup checklist to meet your needs. Mandatory and optional setup steps, as well as an implementation checklist, are provided to simplify the setup.
 
-The flow of mandatory steps in the checklist are as follows:
+The flow of mandatory steps in the checklist is as follows:
 
 \[Omitted image "grc-audit-imple-workflow.png"\] Alt text: Mandatory steps to implement audit management
 

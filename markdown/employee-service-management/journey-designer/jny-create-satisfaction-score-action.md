@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a satisfaction score action
@@ -18,9 +18,7 @@ A satisfaction score action triggers a widget to appear to the employee, contain
 
 ## Before you begin
 
-Role required: admin
-
-Install and configure Listening Posts: [Integrating Listening Posts with Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/integrating-li-with-jny.md)
+Role required: admin \[sn\_jny.admin\]
 
 ## Procedure
 

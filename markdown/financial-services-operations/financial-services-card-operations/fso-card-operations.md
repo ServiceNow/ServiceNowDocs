@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Financial Services Card Operations
@@ -44,5 +44,5 @@ The Financial Services Card Operations application is aimed at the following use
 **Related topics**  
 
 
-[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)
+[Overview of the Dispute Management workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management-workflows.md)
 

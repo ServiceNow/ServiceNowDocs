@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/export-product-catalog-entities.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Exporting and importing product catalog entities, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Export product catalog entities
@@ -16,17 +16,15 @@ Export product catalog entities as a JSON file and save the file to your local d
 
 ## Before you begin
 
-After upgrading to the Yokohama release, check with your administrator that the **Code** field values are available for the main product catalog entities in your source and target instances. For more information, see [Add Code field values to catalog entities after upgrading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/run-fix-script-sched-job-export.md).
-
 Role required: product\_catalog\_admin
 
 ## About this task
 
-You can export catalog entities in any sequence, but they must be imported to a target instance in a certain order. You import base entities \(characteristics and characteristic options, template, and unit of measure\) first, followed by the product catalog, product offerings, and product specifications.
+You can export catalog entities in any sequence, but you must import them to a target instance in a certain order. You import base entities \(characteristics and characteristic options, template, and unit of measure\) first, followed by the product catalog, product offerings, and product specifications.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** view.
 
 2.  Navigate to **Export** &gt; **Export Entities**.
 
@@ -38,8 +36,20 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
 4.  In **Entity Type**, select the product catalog entity to be exported from your source instance.
 
-    The product catalog entities are: Product Offering, Product Specification, Service Specification, Product Offering Catalog, Characteristic, Unit of Measure, and Template.
+    The product catalog entities include:
 
+    -   Product offering catalog
+    -   Unit of Measure
+    -   Template
+    -   Product specification
+    -   Service specification
+    -   Resource specification
+    -   Product offering - The product offering characteristics, including complex characteristic hierarchies, related specifications, and distribution channel values are also exported with an offering.
+    **Note:** During export, note the following:
+
+    -   Versioned entities can be exported in any order. However, if you have many versioned entities that must be exported, the lowest version of the entity must be exported before exporting higher versions of the entity.
+    -   Referenced specifications are also exported. For example, when an attribute mapping is exported, the target service specification in that mapping is also exported.
+    -   Exceptions and errors are captured when required plugins aren't installed, to help identify issues with drop-down menus that aren't populated with catalog entities.
 5.  Select the items that you want to export and select **Export**.
 
 6.  Give the export job a file name and description, then select **Submit**.
@@ -61,4 +71,11 @@ You can export catalog entities in any sequence, but they must be imported to a 
 
 -   [Import product catalog entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/import-product-catalog-entities.md)
 -   [View export job status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/view-export-job-status.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

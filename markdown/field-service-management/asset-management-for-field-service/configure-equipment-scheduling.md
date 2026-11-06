@@ -7,9 +7,9 @@ release: yokohama
 product: Asset Management for Field Service
 classification: asset-management-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up inventory and asset management, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Inventory and asset management, Configure, Field Service Management]
 ---
 
 # Configuring Resource Scheduling

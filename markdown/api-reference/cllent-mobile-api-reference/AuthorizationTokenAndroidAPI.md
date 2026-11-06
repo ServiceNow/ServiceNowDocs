@@ -7,12 +7,12 @@ release: yokohama
 product: Cllent Mobile API Reference
 classification: cllent-mobile-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Mobile SDK API reference - Android, Mobile SDK API reference, API reference, API implementation and reference]
+breadcrumb: [Mobile SDK - Android, Mobile SDK API reference, API reference, API implementation and reference]
 ---
 
-# AuthorizationToken class - Android
+# AuthorizationToken class- Android
 
 The AuthorizationToken class provides the authorization token provided by the host application. Used by the NowSDK to authorize access to a specified ServiceNow instance for the currently logged in user.
 
@@ -57,7 +57,7 @@ Type of authorization token.Valid values \(case-sensitive\):
 -   OAuthRefresh
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Mobile SDK API reference - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
+</table>**Parent Topic:**[Mobile SDK - Android](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/cllent-mobile-api-reference/MobileSDKAndroidAPI.md)
 
 ## AuthorizatonToken - AuthorizationToken\(type: AuthorizationTokenType, token: String\)
 

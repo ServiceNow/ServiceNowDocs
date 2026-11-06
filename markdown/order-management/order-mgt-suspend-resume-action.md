@@ -1,24 +1,24 @@
 ---
-title: Using suspend and resume actions
+title: Suspend and resume products and services
 description: You can use suspend and resume actions to temporarily suspend or inactivate your product and service inventories. That way, you can capture a customer's suspend request and resume the products and services later.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-suspend-resume-action.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Action types for customer and service order management, Order Management, Explore, Sales Customer Relationship Management]
+breadcrumb: [Managing post-fulfillment order changes, Order Management, Use, Sales Customer Relationship Management]
 ---
 
-# Using suspend and resume actions
+# Suspend and resume products and services
 
 You can use suspend and resume actions to temporarily suspend or inactivate your product and service inventories. That way, you can capture a customer's suspend request and resume the products and services later.
 
-## Overview
+## About suspend and resume actions
 
-As a Communications Service Provider \(CSP\), you can temporarily suspend or inactivate your product and service inventories. The suspend and resume requests are managed as orders with the changes in the inventory of the product and service orders during the order decomposition and fulfillment process. An order suspension and resume action can occur immediately or at a future date.
+You can temporarily suspend or inactivate your product and service inventories. The suspend and resume requests are managed as orders with the changes in the inventory of the product and service orders during the order decomposition and fulfillment process. An order suspension and resume action can occur immediately or at a future date.
 
-With suspend and resume actions, a CSP can do the following tasks:
+With suspend and resume actions, you can do the following tasks:
 
 -   Ingest and fulfill the suspend product and service orders.
 -   Ingest and fulfill the resume product and service orders for suspended inventories.
@@ -58,4 +58,13 @@ If the top order line item for suspend or resume action is scheduled for a futur
 For an inflight change of the suspend or resume type order, only Cancellation is supported. If an order line item or the entire order gets canceled, the Product inventory Operations record is marked as Canceled during the order fulfillment process. The state change doesn't occur for the Product inventory record.
 
 In the order creation process for the suspend or resume action, you can use the external inventory ID in the payload instead of the system-generated ID for the inventory.
+
+**Parent Topic:**[Managing post-fulfillment order changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/managing-orders.md)
+
+**Related topics**  
+
+
+[Configuring Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-configuring.md)
+
+[Order management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/explore-order-management.md)
 

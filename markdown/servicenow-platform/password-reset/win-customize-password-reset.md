@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2026-10-09"
-reading_time_minutes: 3
-breadcrumb: [Installing and configuring Password Reset Windows Application, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-11-06"
+reading_time_minutes: 2
+breadcrumb: [Installing and configuring Password Reset Windows Application, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Customize the Password Reset Windows Application
@@ -28,7 +28,7 @@ Role required: Windows system administrator
 
 3.  Modify any of the listed string values:
 
-    **Note:** Registry keys that begin with the text `"proxy"` enable use of a proxy server. See[Configure registry keys on your proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/win-proxy-registry-password-reset.md).
+    **Note:** Registry keys that begin with the text `"proxy"` enable use of a proxy server. See [Configure registry keys on your proxy server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/win-proxy-registry-password-reset.md).
 
 <table id="table_iqw_xb5_2r"><thead><tr><th>
 
@@ -156,20 +156,6 @@ Registry keys that begin with the text `"proxy"` enable use of a proxy server. S
 
 </td></tr><tr><td>
 
-ServiceNowCertPublicKey
-
-</td><td>
-
-By default, before every communication, the Password Reset Windows Application validates the server certificate.
-
-</td><td>
-
-Copy the certificate public key from the browser. See the example that follows the table. Paste the whole public key into the registry key text box.
-
- You can add multiple public keys in the text box \(each on a new line\).
-
-</td></tr><tr><td>
-
 ServiceNowServerVersion
 
 </td><td>
@@ -217,66 +203,6 @@ Directory that holds the library files.
 `C:\Program Files\ServiceNow\bin`
 
 </td></tr></tbody>
-</table>    \[Omitted image "public-key-copy.png"\] Alt text: Copy the public key from the browser
-
-    Example registry settings
-
-    ```
-    Windows Registry Editor Version 5.00
-     
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{0780AF60-65C2-4718-942D-E0C56E89EF9B}]
-    @="PasswordResetCredentialProvider"
-    "AppFormTitle"="Password Reset Windows Application"
-    "PasswordResetLinkName"="Forgot password?"
-    "CredentialProviderGUID"="{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}"
-    "AppFormIconFile"="C:\\Program Files\\ServiceNow\\bin\\servicenow.ico"
-    "UserAccountPictureLoc"="%programdata%\\Microsoft\\User Account Pictures\\user.bmp"
-    "DebugFlag"="0"
-    "CheckCertificateRevocationList"="true"
-    "ProxyServer"="YourServerName:PortNo"
-    "ProxyEnable"="false"
-    "ProxyUser"="YourProxyUser"
-    "ProxyPassword"="YourProxyPassword"
-    "ProxyDomainName"="YourProxyDomainName"
-    "ByPassProxyOnLocal"="false"
-    "ServiceNowCertPublicKey"="EC 3F 18 BB D3 9A D7 8D A7 7E 99 77 E0 E6 73 5E 38 30 3F 8C E1 8A EF 23 CC 56 D8 FD B1 54 B5 0E 54 81 42 86 B1 D5 E4 47
-    "AppDir"="C:\\Program Files\\ServiceNow"
-    "ServiceNowServerVersion"="Kingston"
-    "ServiceNowWinAppVersion"="4.5"
-    "WorkingDir"="c:\program files\servicenow\bin"
-    "PasswordResetLinkURL"="https://yourserver.service-now.com/$pwd_reset.do?sysparm_url=demo1"
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{0780AF60-65C2-4718-942D-E0C56E89EF9B}\HideGUIDs]
-    
-    ```
-
-    ```
-    Windows Registry Editor Version 5.00
-     
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{0780AF60-65C2-4718-942D-E0C56E89EF9B}]
-    @="PasswordResetCredentialProvider"
-    "AppFormTitle"="Password Reset Windows Application"
-    "PasswordResetLinkName"="Forgot password?"
-    "CredentialProviderGUID"="{60b78e88-ead8-445c-9cfd-0b87f74ea6cd}"
-    "AppFormIconFile"="C:\\Program Files\\ServiceNow\\bin\\servicenow.ico"
-    "UserAccountPictureLoc"="%programdata%\\Microsoft\\User Account Pictures\\user.bmp"
-    "DebugFlag"="0"
-    "CheckCertificateRevocationList"="true"
-    "ProxyServer"="YourServerName:PortNo"
-    "ProxyEnable"="false"
-    "ProxyUser"="YourProxyUser"
-    "ProxyPassword"="YourProxyPassword"
-    "ProxyDomainName"="YourProxyDomainName"
-    "ByPassProxyOnLocal"="false"
-    "ServiceNowCertPublicKey"="EC 3F 18 BB D3 9A D7 8D A7 7E 99 77 E0 E6 73 5E 38 30 3F 8C E1 8A EF 23 CC 56 D8 FD B1 54 B5 0E 54 81 42 86 B1 D5 E4 47
-    "AppDir"="C:\\Program Files\\ServiceNow"
-    "ServiceNowServerVersion"="Kingston"
-    "ServiceNowWinAppVersion"="4.5"
-    "WorkingDir"="c:\program files\servicenow\bin"
-    "PasswordResetLinkURL"="https://yourserver.service-now.com/$pwd_reset.do?sysparm_url=demo1"
-    [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{0780AF60-65C2-4718-942D-E0C56E89EF9B}\HideGUIDs]
-    
-    ```
-
-
+</table>
 **Parent Topic:**[Installing and configuring Password Reset Windows Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/install-configure-password-reset-windows-app.md)
 

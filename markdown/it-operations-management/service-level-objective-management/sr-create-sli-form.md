@@ -7,9 +7,9 @@ release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM Health, IT Operations Management]
+breadcrumb: [SLO Management reference, Service Level Objective Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create SLI form
@@ -42,19 +42,22 @@ Data source
 
 </td><td>
 
-This field is auto-populated.The alerts from this data source, also known as integration, are used to calculate the error budget.
-
-</td></tr><tr><td colspan="2">
-
-Set conditions \(optional\)Customize your SLI by filtering it to specific configuration items or alerts. The fields in this section are optional.
+This field is auto-populated.The alerts or outages are used to calculate the error budget.
 
 </td></tr><tr><td>
 
-Filter by CI
+Service or configuration item
 
 </td><td>
 
-Filter your SLI to a configuration item \(CI\) within the parent service's hierarchy. Filtering an SLI to a CI can help you more accurately track service health and identify root causes faster.
+-   &lt;Service-name&gt; - Select this option to filter your SLI to the entire service. This option helps you measure overall service health.
+-   Related configuration item - If your service includes one or more configuration items \(CIs\) in its hierarchy, select this option to filter your SLI to specific CIs. This option provides a more granular view of service health.
+
+ **Note:** By default, only level-one CIs appear in the CI list. Administrators can change the number of levels displayed by updating the `sn_sow_slo.slo_rollup_depth` system property value.
+
+</td></tr><tr><td colspan="2">
+
+Set conditions \(optional\)Customize your SLI by filtering it to specific alerts or outages. The fields in this section are optional.
 
 </td></tr><tr><td>
 
@@ -62,7 +65,7 @@ Add condition set
 
 </td><td>
 
-Select this option to specify the alerts included in the error budget.For example, if you set the condition to **Status is Critical**, only alerts with a critical status count toward the error budget.
+Select this option to specify the alerts or outages included in the error budget.For example, for alerts, if you set the condition to **Status is Critical**, only alerts with a critical status count toward the error budget.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[SLO Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)

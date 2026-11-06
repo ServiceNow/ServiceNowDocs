@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage Workplace Central, Workplace Central, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Approve a space assist request
@@ -18,10 +18,10 @@ As a workplace manager, you can approve or reject a space assist request.
 
 ## Before you begin
 
-Ensure the following:
+Make sure you have the following:
 
 -   You have the permission to approve.
--   You are the manager of the user who raised the space assist request.
+-   You're the manager to the user that raised the space assist request.
 
 Role required: sn\_wsd\_core.workplace\_manager
 
@@ -39,7 +39,7 @@ As a workplace manager, you can approve a space assist request raised by a user 
 
 3.  To view the request details before approving, in the **Approving** field, select the Preview this record icon \(\[Omitted image "preview-icon.png"\] Alt text: Preview this record icon\).
 
-4.  Click **Open Record**.
+4.  Select **Open Record**.
 
 5.  Review the request details.
 
@@ -56,8 +56,8 @@ As a workplace manager, you can approve a space assist request raised by a user 
 
             If you want to suggest any changes in the request, briefly detail the changes.
 
-        2.  Click **Post** after entering your comments.
-        3.  Click **Reject**.
+        2.  Select **Post** after entering your comments.
+        3.  Select **Reject**.
 
             The request is rejected.
 

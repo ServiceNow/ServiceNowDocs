@@ -1,26 +1,26 @@
 ---
 title: Moveworks for Employee Center reference
-description: The reference topics for the application provide additional information about the Moveworks for Employee Center settings, observations, and troubleshooting.
+description: The reference topics for the application provide additional information about the settings, observations, and troubleshooting.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/employee-experience-foundation/mw-ec-integration-reference.html
 release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2024-08-01"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Moveworks for Employee Center, Admin configurations, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Moveworks for Employee Center, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Moveworks for Employee Center reference
 
-The reference topics for the application provide additional information about the Moveworks for Employee Center settings, observations, and troubleshooting.
+The reference topics for the application provide additional information about the settings, observations, and troubleshooting.
 
 ## Certificate validation fails
 
 When certificate validation returns errors during the setup process, verify the following configuration:
 
--   The correct keystore password is entered \(case-sensitive\).
+-   The correct key store password is entered \(case-sensitive\).
 -   JKS file isn’t corrupted, if necessary, request a fresh file, see [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md).
 -   Password is entered in both certificate record and JWT provider settings.
 -   Contact support if issues persist after verification.
@@ -33,7 +33,7 @@ When the Moveworks chat assistant isn't visible on Employee Center or appears no
 -   Navigate to **System Applications** &gt; **Applications** and confirm the status column displays **Active** for the plugin.
 -   Verify that the JKS is valid and JWT keys are configured with the correct password.
 -   Check that the Moveworks website setup page is saved with a valid bot ID as explained in [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-setup-botid.md).
--   When all the settings look correct, validate their portal-side configuration and ingestion status.
+-   Validate the portal-side configuration and ingestion status when all the settings look correct.
 
 ## Enable or disable virtual agent on employee center
 
@@ -46,7 +46,7 @@ The Moveworks for Employee Center chat replaces the classic virtual agent. Howev
 
 Verify the following configuration:
 
--   Ensure content ingestion is complete in Moveworks platform.
+-   Confirm content ingestion is complete in Moveworks platform.
 -   Verify knowledge articles are published.
 -   Verify knowledge articles aren't restricted by ACLs.
 -   Check that requested services are available in your service catalog.
@@ -58,11 +58,11 @@ Verify the following configuration:
 
 [Getting started with Moveworks for Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/moveworks-ec-getting-started.md)
 
-[Install Moveworks for Employee Center app from store](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-install-app.md)
+[Install Moveworks for Employee Center application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-install-app.md)
 
 [Upload Java KeyStore certificate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-upload-jks-cert.md)
 
 [Configure bot ID and AI assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-setup-botid.md)
 
-[Use Moveworks on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
+[Use Moveworks for Employee Center on employee portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/mw-employee-chat-ui.md)
 

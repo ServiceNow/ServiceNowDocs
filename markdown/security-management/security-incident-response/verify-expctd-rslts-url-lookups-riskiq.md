@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [RISKIQ and WHOISIQ integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,40 +28,30 @@ Observable enrichment results are displayed on the **Observable Enrichment Resul
 
 ## Procedure
 
-1.  Open the security incident record you are working with and verify that the lookup has run successfully in the work notes.
-
-    \[Omitted image "riskiq-url-wknotes.png"\] Alt text: Work notes for URL observable.
+1.  Open the security incident record you're working with and verify that the lookup has run successfully in the work notes.
 
     Once the application is configured, the flow launches automatically upon incident creation. The execution and completion status of the lookup is displayed in the work notes in the Security Incident record.
 
-2.  If you cannot verify that the lookup ran successfully, review the work notes for more information on how to proceed.
+2.  If you can't verify that the lookup ran successfully, review the work notes for more information on how to proceed.
 
-3.  On the open security incident, click the **Show All Related Lists** related link.
+3.  On the open security incident, select the **Show All Related Lists** related link.
 
-4.  Click the **Observable Enrichment Results** tab to select it.
+4.  Select the **Observable Enrichment Results** tab to select it.
 
-5.  In the **Summary** column, click the first item, **Domain: uber.com Registrar: Markmonitor...**.
-
-    \[Omitted image "riskiq-url-1.png"\] Alt text: Observable Enrichment Results tab and select an item in the Summary column.
-
-    \[Omitted image "uber\_obs\_enrich\_whois.png"\] Alt text: Domain record with information.
+5.  In the **Summary** column, select the first item, **Domain: uber.com Registrar: Markmonitor...**.
 
     The record that is displayed contains information about the domain.
 
-6.  Navigate back to the **Observable Enrichment Results** tab, and, in the **Summary** column, click the second item, **Found certificate with SHA1 hash...**.
-
-    \[Omitted image "uber\_obs\_enrich\_cert.png"\] Alt text: SSL Certificate record with file hash.
+6.  Navigate back to the **Observable Enrichment Results** tab, and, in the **Summary** column, select the second item, **Found certificate with SHA1 hash...**.
 
     This record indicates that an SSL Certificate was found with a file hash.
 
-7.  Navigate back to the security incident record and click the **SSL Certificates** tab.
-
-    \[Omitted image "url-2.png"\] Alt text: SSL Certificates tab on URL lookup.
+7.  Navigate back to the security incident record and select the **SSL Certificates** tab.
 
     The SSL Certificate results for the file hash are also displayed here.
 
 
-If you cannot view expected results, review the work notes. Also, verify the observable is supported for the lookup by the integration.
+If you can't view expected results, review the work notes. Also, verify the observable is supported for the lookup by the integration.
 
 **Parent Topic:**[RISKIQ and WHOISIQ integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/riskiq-lookups.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Local change lists
@@ -25,6 +25,4 @@ The Ready to Push list shows the changes that are queued, and the Ignored list s
 |Right-click the row and select **Show Changes Since Last Pull**. An error message appears if a previous version does not exist \(for example, in the case of a newly created record\). If a previous version is available, you can revert to that version from the comparison window|To view a comparison between the current local version and the version most recently pulled from or pushed to the parent.|
 |Right-click the row and select **Show Application File**|To open the application file for the customized record.|
 |Right-click the row and select **Show Version**|To open the current version record.|
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-data-model-gm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-10-23"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Public Sector Data Model, Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Public Sector Digital Services Grants Management Data Model
@@ -21,5 +21,5 @@ The following logical diagram shows the tables and their relationships within th
 -   **[Tables installed with Grants Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-data-model-gm-tables.md)**  
 This section describes the tables installed with the Grants Management application and shows how they store and manage information.
 
-**Parent Topic:**[Public Sector Digital Services data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
+**Parent Topic:**[Public Sector Digital Services Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/public-sector-digital-services-data-model.md)
 

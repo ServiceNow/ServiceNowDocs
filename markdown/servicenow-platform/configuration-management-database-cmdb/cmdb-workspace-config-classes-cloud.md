@@ -1,20 +1,20 @@
 ---
-title: Configure CI classes for the Cloud vs Non-cloud resources chart
-description: Include or exclude pairs of CI Class/Type in the Cloud vs Non-cloud resources chart in CMDB Workspace.
+title: Configure classes for Cloud vs Non-cloud resources in CMDB Workspace
+description: Include or exclude pairs of CI Class/Type in the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-classes-cloud.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure CMDB Workspace, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure CI classes for the Cloud vs Non-cloud resources chart
+# Configure classes for Cloud vs Non-cloud resources in CMDB Workspace
 
-Include or exclude pairs of **CI Class**/**Type** in the Cloud vs Non-cloud resources chart in CMDB Workspace.
+Include or exclude pairs of **CI Class**/**Type** in the Cloud vs Non-cloud resources chart that appears in CMDB Workspace.
 
 ## Before you begin
 
@@ -37,5 +37,5 @@ A **CI Class**/**Type** pair appears or doesn't appear according to its **Active
     For example, set **Active** to **false** for the **Applications**/**Non-cloud** pair. This setting will exclude from the chart all CIs in the Applications class which are determined to be non-cloud.
 
 
-**Parent Topic:**[Configure CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

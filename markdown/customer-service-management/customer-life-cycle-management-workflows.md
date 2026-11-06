@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-life-cycle-management-workflows.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Customer Life Cycle Management Workflows
@@ -16,11 +16,13 @@ Manage the life cycle of your sold products by activating the Customer Life Cycl
 
 ## Overview of workflows
 
-The Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application enables you to update the existing configurations, and to modify, suspend, resume, or disconnect the sold products and their complete hierarchy. The workflows are built and composed by using the lead-to-cash transactional operations like Effect, Create Instance, Delta, and Commit Instance. To learn more about the transactional operations of the Lead to Cash Core \(com.snc.l2c\_core\) plugin, see [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/lead-to-cash-workflows.md).
+The Customer Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) application enables you to update the existing configurations, and to modify, suspend, resume, or disconnect the sold products and their complete hierarchy.
+
+The workflows are built and composed by using the lead-to-cash transactional operations like Effect, Create Instance, Delta, and Commit Instance. To learn more about the transactional operations of the Lead to Cash Core \(com.snc.l2c\_core\) plugin, see .
 
 ## Plugins for the Customer Life Cycle Management Workflows
 
-The following table lists the required plugins for the Life Cycle Management Workflows plugin.
+The following table lists the required plugins for the Life Cycle Management Workflows \(com.snc.customer\_lifecycle\_mgmt\_workflows\) plugin.
 
 <table id="table_l4p_23q_b1c"><thead><tr><th>
 
@@ -32,7 +34,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Customer Service Install Base Management \(com.snc.install\_base\)
+Customer Install Base Management\(com.snc.install\_base\)
 
 </td><td>
 
@@ -40,7 +42,7 @@ Enables customers to capture the current state of a customer's install base and 
 
 </td></tr><tr><td>
 
-Product Catalog Management Core\(com.sn\_prd\_pm\)
+Product Catalog Management\(com.sn\_prd\_pm\)
 
 </td><td>
 
@@ -52,12 +54,12 @@ Lead to Cash Core\(com.snc.l2c\_core\)
 
 </td><td>
 
-Enables customers to compose and build the workflows for various entities. To learn more about the Lead to Cash Core plugin, see [Lead to Cash](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/lead-to-cash-workflows.md).
+Enables customers to compose and build the workflows for various entities. To learn more about the Lead to Cash Core plugin, see .
 
 </td></tr></tbody>
 </table>## Life Cycle workflows and configurations
 
-Perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** declarative actions on the complete hierarchy of the sold products. These actions will transform and maintain their state and characteristics. You can perform these actions on the sold product entities to update the existing products or services. The declarative actions are available on the sold product related list on the account detail page on Configurable Workspace.
+Perform the **Modify**, **Suspend**, **Resume**, and **Disconnect** declarative actions on the complete hierarchy of the sold products. These actions will transform and maintain their state and characteristics. You can perform these actions on the sold product entities to update the existing products or services. The declarative actions are available on the sold product related list on the account detail page on Customer Service Workspace.
 
 **Note:** The declarative actions with the sold product to order flow are available only if the Order Management \(com.sn\_ind\_tmt\_orm\) plugin is installed.
 
@@ -109,7 +111,7 @@ Add order to sold product
 
 </td><td>
 
-This flow is responsible for creating a sold product order when order is moved to completed.**Note:** The sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management property is set to **False** by default with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin. However, if the Order Management for Telecom, Media and Tech \(com.sn\_om\_tmt\) plugin is installed, the property value is set to **True**.
+This flow is responsible for creating a sold product order when order is moved to completed.**Note:** The sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management property is set to **False** by default with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin. However, if the Order Management for Telecommunications, Media, and Technology \(com.sn\_om\_tmt\) plugin is installed, the property value is set to **True**.
 
 If the property value is false, a record is created in the sold product \(sn\_install\_base\_sold\_product\) table. If the property value is true, a record is created in the Product inventory \(sn\_prd\_invt\_product\_inventory\) table.
 
@@ -119,7 +121,13 @@ Change order to sold product
 
 </td><td>
 
-The sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management property is set to **False** by default with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin. However, if the Order Management for Telecom, Media and Tech \(com.sn\_om\_tmt\) plugin is installed, the property value is set to **True**.If the property value is false, a record is created or updated in the sold product \(sn\_install\_base\_sold\_product\) table. If the property value is true, a record is created or updated in the Product inventory \(sn\_prd\_invt\_product\_inventory\) table.
+After an order is marked completed, this flow triggers and thus entire product hierarchy shows the updated configuration made by the customer, along with the associated pricing adjustments that were processed through the Sold Product to order flow.
+
+ For more information on pricing management, see .
+
+ **Note:** The **\[sn\_ind\_tmt\_orm.enable\_prod\_invt\_for\_order\_management \]**property is set to **False** by default with the Order Management \(com.sn\_ind\_tmt\_orm\) plugin. However, if the Order Management for Telecommunications, Media, and Technology \(com.sn\_om\_tmt\) plugin is installed, the property value is set to **True**.
+
+If the property value is false, a record is created or updated in the sold product \(sn\_install\_base\_sold\_product\) table. If the property value is true, a record is created or updated in the Product inventory \(sn\_prd\_invt\_product\_inventory\) table.
 
 </td></tr><tr><td>
 
@@ -152,14 +160,14 @@ This flow is responsible for disconnecting a sold product on completion of an or
 
 Configurations
 
-Configurations are a set of end-to-end flows that enable the data to flow from one entity to the other. The subflows that are triggered with each declarative action are based on the configurations that are listed in the following table.
+Configurations are a set of end-to-end flows that enable the data to flow from one entity to the other. The sub-flows that are triggered with each declarative action are based on the configurations that are listed in the following table.
 
 |Configuration|Configuration ID|Source Entity|Target Entity|
 |-------------|----------------|-------------|-------------|
 |Sold product to Order|sn\_l2c-cust\_flows\_sp\_to\_order|Sold product|Order|
 |Order to Sold Product|sn\_l2c\_cust\_flows\_order\_to\_sp|Order|Sold product|
 
-To learn more about the configurations, see [Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/entity-configuration-and-mapping.md).
+To learn more about the configurations, see .
 
 **Related topics**  
 

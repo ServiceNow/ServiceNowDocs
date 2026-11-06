@@ -7,10 +7,10 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-04-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 keywords: [license types, reconciliation, impact on reconciliation, entitlement, SAM reconciliation, software management]
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Impact of different license types on software reconciliation

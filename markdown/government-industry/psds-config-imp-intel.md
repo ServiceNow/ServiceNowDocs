@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-imp-intel.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Implement intelligence in Public Sector Digital Services
@@ -20,7 +20,7 @@ Integrate intelligence features to automate routine tasks and provide relevant c
 
 </td><td>
 
-[Agentic AI\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Utilize agentic AI solutions to analyze and classify cases and automate tasks in the Information Request Playbook.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-config-agentic-ai.md)
+
 
 </td></tr></tbody>
 </table>-   **[ServiceNow Otto for Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/now-assist-psds-configuring.md)**

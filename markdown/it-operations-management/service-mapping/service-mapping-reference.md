@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -18,6 +18,8 @@ Reference topics provide additional information about mapping and fine-tuning ap
 
 -   **[Service Mapping Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/sm-dashboard.md)**  
 The Service Mapping workspace provides a central location to streamline the process of mapping your application services. Use the visualizations and reports to analyze, monitor, and update your resources, create application services, and manage your service mapping tasks efficiently.
+-   **[Service Mapping AI Agent activity list tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/sm-ai-agent-activity-columns.md)**  
+Use this reference to interpret the tables in the Service Mapping AI Agent activity list.
 -   **[Predefined traversal rules for application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/default-traversal-rules.md)**  
 Service Mapping uses traversal rules to bring in related configuration items and expand the application service map. Several predefined rules are provided by default to help find and correctly map these relationships.
 -   **[Traversal Rules for Application Services form completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/traversal_rules_form_completion.md)**  
@@ -50,6 +52,8 @@ You can access all service instance maps and service forms using a keyboard in t
 When preparing to map application services based on tags, create tag categories that contain tags with similar use. Define a tag-based service family and the tags you want to use for mapping. In addition to tag categories, you can also define tag values to narrow the criteria for the service candidates created by Service Mapping. Use these examples for guidance.
 -   **[Traffic-based connections list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/traffic-based-connections-list.md)**  
 Refer to this chart for information about traffic-based connections when you remove CIs from an application service.
+-   **[Map application service form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/map-application-service-form.md)**  
+Use this reference to define the name, description, owner, and group for a new application service created through service mapping.
 
 **Parent Topic:**[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md)
 

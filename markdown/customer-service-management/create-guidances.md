@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-guidances.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configuring guidances and decision trees, Guided Decisions configuration, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Create a guidance in the Core UI
@@ -80,9 +80,7 @@ Hide completed guidance
 
 </td><td>
 
-Hides the guidance recommended for a case resolution.
-
-In other words, the completed guidance in the View my response section of a Decision Tree is not displayed for the agent.
+Hides the guidance recommended for a case resolution.In other words, the completed guidance in the View my response section of a Decision Tree is not displayed for the agent.
 
 **Note:** This field is visible only when the Guided Decision Experience plugin is installed. You may need to configure the form to add this field.
 

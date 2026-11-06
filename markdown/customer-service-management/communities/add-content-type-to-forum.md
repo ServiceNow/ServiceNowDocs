@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure community forums, Configure a community, Communities, Customer Service Management]
+breadcrumb: [Configure community forums, Configuring communities, Communities, Customer Service Management]
 ---
 
 # Configure content types for a forum
@@ -19,6 +19,10 @@ Define which types of content to use in a particular forum and associate a workf
 ## Before you begin
 
 Role required: sn\_communities.forum\_admin
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -30,9 +34,9 @@ Role required: sn\_communities.forum\_admin
 
 4.  In the Content Types list, select a **Content Type**.
 
-5.  Select an **Approval Workflow**.
+5.  Select an **Approval Flow**.
 
-    You can select the **Community - Content Approval** workflow or a workflow that you have created.
+    If you signed up before the Zurich release you will see two fields, **Approval Flow** and **Approval Workflow**. You are recommended to set only one of them. The **Approval Flow** field setting takes precedence if both are set.
 
 6.  Click **Submit**.
 

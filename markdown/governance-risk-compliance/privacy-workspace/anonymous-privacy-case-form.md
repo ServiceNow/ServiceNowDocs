@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: reference
-last_updated: "2026-02-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Report a privacy case anonymously, Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---

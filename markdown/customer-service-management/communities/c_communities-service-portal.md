@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Use a community, Communities, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Using communities, Communities, Customer Service Management]
 ---
 
 # Community homepage features for logged in users
 
 Your community activity usually begins on the community homepage. If you are a logged in user, you see different information than non-logged in users. Your organization can customize the homepage.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 **Note:** The Community Service Portal header menu is not enabled by default. For more information, see [Configure Community Service Portal header menus](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/configure-unified-theme-portal.md).
 
@@ -120,5 +124,38 @@ Toggle between the Content List and Activity Feed. You can filter according to c
     -   To view all activity associated with a content item, click the content item. All activities, regardless of your subscriptions, are displayed.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Use a community](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/use-community-forums.md)
+</table>**Parent Topic:**[Using communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/using-communities.md)
+
+**Related topics**  
+
+
+[Navigating the activity feed]()
+
+[Navigating the forum homepage]()
+
+[Community homepage features for non-logged in users]()
+
+[Self-register to a community]()
+
+[Search the community]()
+
+[Use a community profile]()
+
+[Community subscriptions]()
+
+[Request membership to a forum]()
+
+[Accept an invitation to join a forum]()
+
+[Post and respond to content in the community]()
+
+[Report inappropriate community content]()
+
+[Add featured content in a community]()
+
+[Email a community user]()
+
+[View a list of questions and create a case]()
+
+[Gamification]()
 

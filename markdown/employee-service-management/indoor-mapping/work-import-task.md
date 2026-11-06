@@ -7,7 +7,7 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-06-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Bulk update floor plans, Manage CAD source files, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---

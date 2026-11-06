@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Custom UI test steps, UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Custom UI test steps, UI test steps, Building and running automated tests with the Automated Test Framework, Automated Test Framework \(ATF\) test building and execution, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Page Inspector
@@ -17,8 +17,6 @@ breadcrumb: [Custom UI test steps, UI test steps, Building and running automated
 Identify the HTML and JavaScript page components in your user interfaces that are available for custom UI testing. Enable automated testing by ensuring that your user interfaces only contain testable page components.
 
 The Page Inspector is a developer setting that opens a new pane beside any currently displayed ServiceNow AI Platform page.
-
-\[Omitted image "atf-page-inspector-01.png"\] Alt text: Core UI view of Knowledge Base article KB0011110 and Page Inspector pane
 
 The Page Inspector provides these features.
 
@@ -42,13 +40,9 @@ The Page Inspector provides these features.
 
 **Note:** UI buttons with icons are now visible in the page inspector.
 
-\[Omitted image "atf-page-inspector-02.png"\] Alt text: Core UI view of the Page Inspector pane showing details for the Create Favorite page component
-
 ## Page inspector launcher
 
 The page inspector launcher helps you select and launch a specific page within the page inspector. See [Inspect different page types](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-inspect-page-types.md) for more information.
-
-\[Omitted image "atf-page-inspector-launcher.gif"\] Alt text: Gif showing the different page types for inspection
 
 ## Testable page components
 
@@ -62,7 +56,7 @@ The Page Inspector identifies these types of untestable page components.
 
     Exclusion listed page components can't be tested using any **Custom UI** test steps. Exclusion listed page components typically include specialized ServiceNow AI Platform user interfaces and components already testable by other means. Test designers can't create custom UI tests for exclusion listed page components. To test these components, they must use another supported test category such as Forms or Service Catalog.
 
-    In the Page Inspector, the exclusion listed interfaces are indicated by a grey background color when the inspect icon is dragged over them. A detailed message about the step category that needs to be used to test these components is displayed by dropping the inspect icon on an exclusion listed component.\[Omitted image "atf-page-inspector.gif"\] Alt text: Gif file showing the allowed part in the entire exclusion listed form.
+    In the Page Inspector, the exclusion listed interfaces are indicated by a grey background color when the inspect icon is dragged over them. A detailed message about the step category that needs to be used to test these components is displayed by dropping the inspect icon on an exclusion listed component.
 
     -   Lists can't be tested using custom UI test steps. Use [List and Related List](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/test-steps-list-related-list.md) test step category to test lists.
 

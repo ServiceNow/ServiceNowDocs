@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Creating Microsoft 365 From SA and Add-on entitlements, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Creating Microsoft 365 From SA and Add-on entitlements, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create Microsoft 365 From SA and Add-on entitlements in Software Asset Management classic
@@ -56,7 +56,7 @@ Role required: sam\_user or sam\_admin
 
         **Note:** If a corresponding Microsoft entitlement isn’t available for the given From SA or Add-on entitlement, you can create one.
 
-    4.  Select the Save \(Enter\) icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+    4.  Select the Save \(Enter\) icon \[Omitted image "save-icon.png"\].
 
     5.  Double-click the corresponding field in the **Active rights** column of the Related Entitlements list.
 
@@ -66,7 +66,7 @@ Role required: sam\_user or sam\_admin
 
         -   For From SA rights, you must enter the total number of rights that you purchased for the corresponding Microsoft entitlement. For example, if you purchased 100 rights for the corresponding Microsoft entitlement, you must grant 100 From SA rights to that entitlement.
         -   For Add-on rights, you can enter any number of rights equal to or less than the total number of rights that you purchased for the given Add-on entitlement.
-    7.  Select the Save \(Enter\) icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+    7.  Select the Save \(Enter\) icon \[Omitted image "save-icon.png"\].
 
     8.  Select **Save** on the Software Entitlement form header.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/mappedin-integration-topics.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -14,7 +14,9 @@ breadcrumb: [Configure, Workplace Space Mapping, Workplace Service Delivery, Emp
 
 Mappedin is a third-party Indoor map provider. Integrate Mappedin with Workplace Service Delivery to provide indoor navigation.
 
-## Overview
+## Configure Mappedin Overview
+
+**Important:**
 
 Mappedin version 1.11.0 is not available for new customers to install. Existing customers can upgrade to Mappedin version 1.11.0.
 
@@ -33,7 +35,7 @@ Use Import Properties when you create your own credential records, scheduled imp
 -   **[Convert Mappedin data to Workplace Space Mapping data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-mappedin-type-table.md)**  
 Use the **Mappedin Type Mappings** table to convert data from Mappedin to Workplace Space Mapping data.
 
-**Parent Topic:**[Configure Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
+**Parent Topic:**[Configuring Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
 
 **Related topics**  
 

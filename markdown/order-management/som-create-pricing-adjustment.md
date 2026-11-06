@@ -1,30 +1,32 @@
 ---
-title: Create and publish a product attribute-based pricing adjustment
+title: Create a product attribute-based pricing adjustment
 description: Create a pricing adjustment for a product offering based on its product characteristics, such as the product size or color. A pricing adjustment can be a markup or markdown percentage, amount, or a pricing override.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-create-pricing-adjustment.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
-# Create and publish a product attribute-based pricing adjustment
+# Create a product attribute-based pricing adjustment
 
 Create a pricing adjustment for a product offering based on its product characteristics, such as the product size or color. A pricing adjustment can be a markup or markdown percentage, amount, or a pricing override.
 
 ## Before you begin
 
-Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator, sn\_csm\_pricing.pricelist\_manager
 
 ## About this task
 
-In this task, you specify the product characteristics to which the pricing adjustment applies. Then you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/using-decision-builder.md).
+In this task, you specify the product characteristics to which the pricing adjustment applies. Next, you use a decision table to set the attribute adjustment rule, which defines the conditions for applying the pricing adjustment. For more information on using decision tables, see [Using decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/using-decision-builder.md).
+
+**Note:** Starting with Pricing Matrixes release v10.0.0, a decision rule row can have more than one condition.
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Attribute Adjustments**.
 
@@ -36,19 +38,21 @@ In this task, you specify the product characteristics to which the pricing adjus
 
     2.  If you want to change the system-assigned **Code** based on the attribute adjustment name, enter a different alphanumeric value.
 
-    3.  If you want the adjustment to apply to all price lists, select **Apply to all Price Lists**.
+    3.  Select Price as the **Type** of adjustment.
 
-    4.  Select the **Product offering** to which this adjustment applies.
+    4.  If you want the adjustment to apply to all price lists, select **Apply to all Price Lists**.
 
-    5.  If this attribute adjustment applies to a specific price list line and not all price lists, select the **Price list line**.
+    5.  Select the **Product offering** to which this adjustment applies.
 
-    6.  Select the **Start Date** that this attribute adjustment begins.
+    6.  If this attribute adjustment applies to a specific price list line and not all price lists, select the **Price list line**.
 
-    7.  Select the **End Date** that this attribute adjustment ends, if applicable.
+    7.  Select the **Start Date** that this attribute adjustment begins.
 
-    8.  Unlock the **Product Characteristics** field and select the product characteristics to be used to differentiate the product price.
+    8.  Select the **End Date** that this attribute adjustment ends, if applicable.
 
-    9.  Select **Save**.
+    9.  In the **Product Characteristics** field, select the product characteristics to be used to differentiate the product price.
+
+    10. Select **Save**.
 
 5.  In the Attribute Adjustment, select **Create Rule**.
 
@@ -62,13 +66,17 @@ In this task, you specify the product characteristics to which the pricing adjus
 
         For example, if a product has attribute columns labeled **Make** and **Model**, select each column and then select the appropriate value.
 
+        You can enter multiple rules with multiple conditions for a given product offering.
+
     3.  In the Results section, select the **Adjustment Type** column and choose the type of adjustment, for example Markdown % or Markdown amount.
 
     4.  In the **Adjustment Value** column, enter the adjustment amount.
 
     5.  Select **Save**.
 
-        The adjustments are made to the price lists or the price list line, depending on the options selected in step 3.
+        The adjustments are made to the price lists or the price list line, depending on the options selected in step 4f.
+
+        **Note:** At transaction time, the Attribute Adjustment table does not support rule selection criteria set as single. It supports only multiple evaluations as true.
 
 7.  Test your decision table.
 
@@ -76,6 +84,6 @@ In this task, you specify the product characteristics to which the pricing adjus
 
 8.  In the **Details** tab for the attribute adjustment, select **Publish**.
 
-    The pricing attribute adjustment is available to agents when they create an opportunity, quote, or an order.
+    When a product offering is added to a transaction, such as a quote or order line, the pricing attribute adjustments are applied after the agent or customer selects the attribute options. For example, when agents or customers use the CPQ Configurator to add a configurable product offering, the base price of the product is displayed initially. After the appropriate attribute options are selected, the price adjustments for the selected attributes are applied to the base price of the product. The resulting price displayed is the list price of the product offering, based on attribute conditions and associated markup or markdown values set in the Attribute Adjustment decision table.
 
 

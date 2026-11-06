@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 2
-breadcrumb: [Setting up Legal Investigations, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Set up Legal Investigations with HR Service Delivery Employee Relations
@@ -37,7 +37,7 @@ Role required: admin
 
     For more information, see [Record producers for legal investigations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-investigations/record-producers-legal-investigation.md).
 
-    1.  Navigate to **All** &gt; **Service Catalog** &gt; **Record Producers**.
+    1.  Navigate to **All** &gt; **Service Catalog** &gt; **Catalog Definitions** &gt; **Record Producers**.
 
     2.  Search and open record producers with the name **Ethics Complaints**.
 

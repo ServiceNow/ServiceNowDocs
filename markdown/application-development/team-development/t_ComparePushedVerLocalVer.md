@@ -7,14 +7,18 @@ release: yokohama
 product: Team Development
 classification: team-development
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Team Development, Exploring Team Development, Team Development, Planning your application, Building applications]
+breadcrumb: [Explore, Team Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Compare a pushed version to a local version
 
 Code reviewers can compare the pushed versions to the local versions to see the potential effect of incoming changes.
+
+## Before you begin
+
+Role required: none
 
 ## Procedure
 
@@ -30,8 +34,6 @@ Code reviewers can compare the pushed versions to the local versions to see the 
 
     A comparison of the differences between the pushed and local versions appears.
 
-
-**Parent Topic:**[Team Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/team-development/c_TeamDevelopment.md)
 
 **Related topics**  
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/add-responsibilities-to-prm-roles.html
 release: yokohama
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Roles and components of Partner Relationship Management, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [PRM roles and components, Configure Partner Relationship Management, Configure, Sales Customer Relationship Management]
 ---
 
 # Add responsibilities to PRM roles
@@ -36,15 +36,15 @@ Related party configurations define the title of a relationship between an entit
 
 2.  Open a channel partner record and add an external staff member or an enterprise partner relationship manager based on your requirement.
 
-<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d37252e124">
+<table id="choicetable_y1y_n4r_dfc"><thead><tr><th align="left" id="d52838e124">
 
 Task
 
-</th><th align="left" id="d37252e127">
+</th><th align="left" id="d52838e127">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d37252e133">
+</th></tr></thead><tbody><tr><td id="d52838e133">
 
 **Register External staff member**
 
@@ -53,9 +53,9 @@ Description
 1.  Select **Register External Partner Staff** from the channel partner record.
 2.  Select the **Role Type** you want to associate with your user, whether external partner manager or external partner associate.
 3.  Select **Submit**.
- To learn more about the role type and the member registration fields, see [Member registration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/member-registration-form.md).
+ To learn more about the role type and the member registration fields, see .
 
-</td></tr><tr><td id="d37252e173">
+</td></tr><tr><td id="d52838e169">
 
 **Register Enterprise Partner Relationship Manager**
 
@@ -72,4 +72,13 @@ Description
 ## Result
 
 An external staff member or an enterprise partner relationship manager is registered.
+
+**Parent Topic:**[Roles and components of Partner Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/roles-and-components-of-partner-relationship-management.md)
+
+**Related topics**  
+
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/partner-relationship-management.md)
+
+[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md)
 

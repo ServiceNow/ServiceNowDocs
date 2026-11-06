@@ -1,5 +1,5 @@
 ---
-title: HR Service Delivery Employee Relations accommodations
+title: Employee Relations accommodations
 description: Accommodation requests are from your employees requesting changes related to their work situation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-er-accommodations.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# HR Service Delivery Employee Relations accommodations
+# Employee Relations accommodations
 
 Accommodation requests are from your employees requesting changes related to their work situation.
 

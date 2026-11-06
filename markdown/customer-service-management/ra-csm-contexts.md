@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-csm-contexts.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Recommended Actions, Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Contexts in Recommended Actions
@@ -34,7 +34,7 @@ The Recommended Actions component can be configured in UI Builder to use the act
 
 You can access context records by navigating to **All** &gt; **Recommended Actions** &gt; **Contexts**. The Contexts list displays a brief description of each context and the table that the context applies to.
 
-The Context form includes the name and description of the context, the selected table, and a search application configuration for AI search. When you [create a context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-contexts-create.md), provide this information and save the record. After saving, the Context form displays the following related lists.
+The Context form includes the name and description of the context, the selected table, parent context,and a search application configuration for AI search. When you [create a context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-contexts-create.md), provide this information and save the record. After saving, the Context form displays the following related lists.
 
 -   **Rules**: Displays the rules that have been created for the context, including the selected user roles. You can create a rule only from the Rules related list on the Context form. For more information on rules, see [Rules in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-rules.md).
 -   **Recommendations**: Displays the recommendations associated with the context rules, including the action type and action. You can create a recommendation only from the Recommendation related list on the Rule form. For more information on the recommendations, see [Recommendations in Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-recommendations.md).
@@ -44,12 +44,6 @@ The Context form includes the name and description of the context, the selected 
 -   **Context Inputs**: Displays all the context inputs which can be used in defining rules, recommendations, and resource generators. This related list appears only when a parent context is not defined.
 
 The Contexts list includes an Active column. You can use this column to view and set the Active value for a context record. The Context form includes an **Active** field that you can use to activate or deactivate a context record.
-
-## Refresh interval field
-
-The **Refresh interval** field on the Context form determines how frequently recommendations are refreshed for the context. The default value for this field is 12 hours and the minimum value is 10 minutes.
-
-**Note:** You must configure the form view to display the **Refresh interval** field.
 
 ## Synchronous and asynchronous modes of evaluation for Recommended Actions
 
@@ -61,7 +55,7 @@ The **sn\_nb\_action.async\_ra\_timeout** system property specifies the timeout 
 
 ## Inheriting the rules and recommendations from hierarchical contexts
 
-The Parent context field appears only when the table selected in the Table field has one or more parent tables for which context is defined. Using the Parent context field, you can import it's active rules and recommendations into the extended context. When you click the search icon in Parent context field, the list of contexts of parent tables is displayed. You can select any one parent context from the list. The rules that are inherited appear in the Inherited Rules related list. For more information on how to configure rules so that the recommendations are inherited by the extended context, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-rules.md).
+The Parent context field appears only when the table selected in the Table field has one or more parent tables for which context is defined. Using the Parent context field, you can import it's active rules and recommendations into the extended context. When you select the search icon in Parent context field, the list of contexts of parent tables is displayed. You can select any one parent context from the list. The rules that are inherited appear in the Inherited Rules related list. For more information on how to configure rules so that the recommendations are inherited by the extended context, see [Apply rules to tables extended from the context table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-rules.md).
 
 **Note:**
 
@@ -122,11 +116,13 @@ On the Config tab for the Recommended Actions component, enter the sys id of the
 
 ## Case Context record
 
-The Recommended Actions for Customer Service application adds the Case Context record for the Case table \[sn\_customerservice\_case\]. This record is active by default \(Active=true\). For more information on the Case Context record, see [Contexts in Recommended Actions for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-context-records.md).
+The Recommended Actions for Customer Service application adds the Case Context record for the Case table \[sn\_customerservice\_case\]. This record is active by default \(Active=true\). For more information on the Case Context record, see [Contexts in Recommended Actions for Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-context-records.md).
 
 If an upgrade customer has one or more context records for the Case table available on their instance, the system runs a fix script that deactivates the out-of-box Case Context record \(sets the **Active** field to false\).
 
 **Note:** Ensure that the correct context record for the Case table is active.
+
+You can create contexts, rules, and recommendations for any table. However, on the CSM default record page, the Recommended Actions tab appears only for records from the base system Case \[sn\_customerservice\_case\] table. For more information, see [Recommended Actions tab not appearing on the CSM default record page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-csm-enable-ra-variant-record-page.md).
 
 **Related topics**  
 

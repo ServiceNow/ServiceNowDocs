@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Review a software reclamation rule
@@ -22,7 +22,7 @@ Role required: sam\_admin
 
 ## About this task
 
-When you create a direct integration profile or connect an SSO application, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to verify that it meets your specifications. For more information about the reclamation rules for each application, see [Reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md) and [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-reclamation-rules.md).
+When you create a direct integration profile or connect an SSO application, a reclamation rule is automatically created for the software. It's important that you review the reclamation rule to verify that it meets your specifications. For more information about the reclamation rules for each application, see [Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md) and [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-reclamation-rules.md).
 
 For SSO subscriptions, the reclamation rule checks for user logins.
 
@@ -141,7 +141,7 @@ View the reclamation candidates that are identified by your reclamation rule and
 
 [Integrate with SaaS applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-integration-profile.md)
 
-[Reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)
+[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)
 
 [Reclamation rules for Microsoft 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/m365-reclamation-rules.md)
 

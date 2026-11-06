@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resolving errors, Administer, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,55 +28,54 @@ Role required: admin or idr\_admin
 
 2.  View the following diagnostic tests.
 
-<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d482862e86">
+<table id="choicetable_h22_qgv_4nb"><tbody><tr><td id="d489462e86">
 
-**Certificate Management Service**
-
-</td><td>
-
-Checks the status and setup of your certificate management service.**Note:** IDR requires a certificate management service to be up and running.
-
-</td></tr><tr><td id="d482862e100">
-
-**EJBCA Service Status**
+**Key Management Framework**
 
 </td><td>
 
-Checks the status and setup of the EJBCA service as part of the Key Management Framework \(KMF\) health.
+Verifies the KMF configuration by checking the Certificate Management Service and the EJBCA Service status.-   **Certificate Management Service**
+
+Checks for valid certificates in the sys\_certificate table.
+
+-   **EJBCA Service**
+
+Checks the status and setup of the PKI used between instances for secure communication.
+
+</td></tr><tr><td id="d489462e115">
+
+**IDR Scheduled Jobs**
+
+</td><td>
+
+Verifies that scheduled jobs used by IDR are operational.-   **Sys Auto Table**
+
+Checks the Scheduled Job \[sysauto\] table for duplicate entries or missing jobs.
+
+-   **Sys Trigger Table**
+
+Checks the Schedule Item \[sys\_trigger\] table for duplicate entries or missing jobs.
+
+</td></tr><tr><td id="d489462e146">
+
+**Hermes**
+
+</td><td>
+
+Verifies whether the Hermes Messaging Service is available.-   **Hermes Enabled**
+
+Determines whether Hermes is enabled by verifying that the Glide Hermes Message Queue plugin \(com.glide.hermes\) is activated.
+
+-   **Hermes Cluster Configuration**
+
+Checks the Hermes Cluster configuration by verifying that the Hermes Cluster Config \[hermes\_cluster\_config\] table is populated.
 
 </td></tr></tbody>
-</table>3.  Test the connection to the message queue and confirm the replicator is working by running the Message Queue Connection Test.
+</table>3.  Test the connection to the message queue and confirm the replicator is working by selecting **Run Message Queue Connection Test**.
 
-<table id="choicetable_y42_xvl_pvb"><tbody><tr><td id="d482862e124">
-
-**Test the connection to the Legacy message queue**
-
-</td><td>
-
-1.  Select **Legacy**.
-2.  In the Legacy Message Queue Test Configuration section, select **Local** or **Remote** to run diagnostics on a local or remote instance. For a remote instance, enter the URL of the remote instance, and a username and password for any of the following roles:
-
-    -   idr\_rest
-    -   idr\_read
-    -   idr\_admin
-**Note:** The local datacenter to your producer instance regional proximity is the default.
-
-3.  Select **Run Legacy Message Queue Test**.
+    A test message is sent to and received from the Hermes cluster.
 
 
-</td></tr><tr><td id="d482862e171">
-
-**Test the connection to the V2 message queue**
-
-</td><td>
-
-1.  Select **V2**.
-2.  Confirm that Hermes is enabled and that the Hermes cluster configuration is operational.
-3.  Select **Run Message Queue Connection Test**.
-
-
-</td></tr></tbody>
-</table>
 ## Result
 
 The resulting messages validate enabled services or the connection to the message queue.

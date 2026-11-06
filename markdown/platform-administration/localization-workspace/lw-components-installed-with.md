@@ -7,7 +7,7 @@ release: yokohama
 product: Localization Workspace
 classification: localization-workspace
 topic_type: reference
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Localization Workspace reference, Localization Workspace, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,36 +16,15 @@ breadcrumb: [Localization Workspace reference, Localization Workspace, Translati
 
 Several types of components are installed with activation of the Localization Workspace plugin, including tables, user roles, and scheduled jobs.
 
+## Components from Localization Framework used in Localization Workspace
+
+Localization Workspace builds on functionality from Localization Framework, including tables and roles. Installing Localization Workspace also installs Localization Framework if it isn't already activated. For detailed information see [Components installed with Localization Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-framework/components-installed-with-lf.md).
+
 ## Roles installed
 
-<table id="table_akc_n14_52c"><thead><tr><th>
+For detailed information about roles installed see [Localization Workspace Roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace-roles.md).
 
-Role title \[name\]
-
-</th><th>
-
-Description
-
-</th><th>
-
-Contains roles
-
-</th></tr></thead><tbody><tr><td>
-
-Localization Workspace user
-
- \[sn\_lw.user\]
-
-</td><td>
-
-Assign this role to any user working in Localization Workspace.
-
-</td><td>
-
-None.
-
-</td></tr></tbody>
-</table>## Scheduled jobs installed
+## Scheduled jobs installed
 
 <table id="table_ckc_n14_52c"><thead><tr><th>
 
@@ -61,7 +40,9 @@ Remove discarded Translation Requests
 
 </td><td>
 
-Runs daily to delete any abandoned translation requests.
+Runs daily to delete any abandoned translation requests \(translation requests which have been initiated but not updated for 10 days\).
+
+ Archived or saved translation requests aren't removed. \(Saved requests display the Draft state in the My Requests list on the Home screen.\)
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -81,6 +62,62 @@ LW Artifact Configuration
 </td><td>
 
 \[sn\_lw\_artifact\_config\]
+
+</td></tr><tr><td>
+
+Glossary Source \(from version 3.0.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_source\]
+
+</td></tr><tr><td>
+
+LW Glossary Export Data \(from version 3.1.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_export\_data\]
+
+</td></tr><tr><td>
+
+Sn Lw Glossary Import Set \(from version 3.0.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_import\_set\]
+
+</td></tr><tr><td>
+
+Glossary Info \(from version 3.0.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_info\]
+
+</td></tr><tr><td>
+
+Glossary Items \(from version 4.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_item\]
+
+</td></tr><tr><td>
+
+Glossary Translation \(from version 3.0.0\)
+
+</td><td>
+
+\[sn\_lw\_glossary\_translation\]
+
+</td></tr><tr><td>
+
+KB Cache \(from version 4.0\)
+
+</td><td>
+
+\[sn\_lw\_kb\_cache\]
 
 </td></tr><tr><td>
 
@@ -138,6 +175,27 @@ Translation Target
 
 \[sn\_lw\_trans\_target\]
 
+</td></tr><tr><td>
+
+Translation Target Group \(from version 2.0.2\)
+
+</td><td>
+
+\[sn\_lw\_target\_group\]
+
+</td></tr><tr><td>
+
+Translation Target Group Info \(from version 2.0.2\)
+
+</td><td>
+
+\[sn\_lw\_target\_group\_info\]
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Localization Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace-reference.md)
+
+**Related topics**  
+
+
+[Find components installed with an application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/find-components.md)
 

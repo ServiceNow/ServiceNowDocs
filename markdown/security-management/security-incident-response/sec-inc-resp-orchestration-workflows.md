@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Understand Security Incident Response Orchestration workflows and workflow templates, Security Incident Response Orchestration, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -20,7 +20,7 @@ Only users with the sn\_sec\_cmn.admin role can [Workflow editor](https://raw.gi
 
 -   **[Create Lookup Request for IoC Changes workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_CreateScanRequestforIoCChanges.md)**  
 The **Security Incident Response - Create Lookup Request for IoC Changes** flow is triggered by the **Lookup Security Incident Observables** scheduled job to automatically look up IoCs that are added or changed. Malware scans are triggered only when new data is entered and only the new data is scanned.
--   **[Security Incident Response- Get Network Statistics Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/obtain-network-statistics-workflow.md)**  
+-   **[Security Incident Response- Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/obtain-network-statistics-workflow.md)**  
 The **Security Incident Response** &gt; **Get Network Statistics** flow retrieves the network statistics for an affected Windows-based resource when added to a security incident in the **Analysis** state.
 -   **[Security Incident Response - Get Running Services workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/get-running-services-workflow.md)**  
 The **Security Incident Response - Get Running Services workflow** retrieves a list of running services from Windows-based, ServiceNow, configuration items \(CIs\). This workflow is used for incident enrichment during investigations.

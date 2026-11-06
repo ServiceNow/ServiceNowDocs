@@ -1,18 +1,18 @@
 ---
 title: Modify state decision tables in Care Team Operations for Biomed
-description: Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Biomed .
+description: Use Decision Builder to change the state mappings for cases and work orders in Care Team Operations for Biomed .
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-modify-states.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
 # Modify state decision tables in Care Team Operations for Biomed
 
-Use Decision Builder to change the state mappings for cases and incidents work orders in Care Team Operations for Biomed .
+Use Decision Builder to change the state mappings for cases and work orders in Care Team Operations for Biomed .
 
 \[Omitted image "cto-biomed-case-tstate.png"\] Alt text: Healthcare biomed case state sync map.
 

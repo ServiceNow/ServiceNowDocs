@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_TargetCommPreviewTargetEmail.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Targeted communications, Configure case management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Preview an email notification
@@ -20,7 +20,7 @@ Role required: sn\_publications.author or sn\_publications.admin
 
 ## About this task
 
-Users can preview the following information for an email notification when the Customer Service plugin \(com.sn\_customerservice\) is installed:
+Users can preview the following information for an email notification when the Case Management Core plugin \(com.sn\_customerservice\) is installed:
 
 -   The recipient list
 -   The subject of the publication

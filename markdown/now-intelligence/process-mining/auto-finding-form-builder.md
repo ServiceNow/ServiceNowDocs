@@ -1,5 +1,5 @@
 ---
-title: Automated finding definition form from Finding Builder
+title: Automated finding definition form
 description: Use the Create Improvement opportunity definition form to create an automated finding definition from the Finding Builder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/auto-finding-form-builder.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Process Mining reference, Process Mining, Platform Analytics]
+breadcrumb: [Reference, Process Mining, Platform Analytics]
 ---
 
-# Automated finding definition form from Finding Builder
+# Automated finding definition form
 
 Use the Create Improvement opportunity definition form to create an automated finding definition from the Finding Builder.
 

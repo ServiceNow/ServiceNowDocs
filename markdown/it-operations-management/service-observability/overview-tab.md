@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Dynatrace templates, Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [Dynatrace templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # Dynatrace Overview tab for Service Observability
@@ -30,7 +30,7 @@ The KPIs section displays basic performance metrics for the service.
 
 ## Key Transactions charts
 
-The Transactions charts show metrics for specific key transactions on the service. The key transactions are determined by your Application Performance Management \(APM\) system configuration.
+The Transactions charts show metrics for specific key transactions on the service. The key transactions are determined by your observability system configuration.
 
 |Chart name|Description|Data source|
 |----------|-----------|-----------|

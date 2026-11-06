@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps Change Velocity
 classification: devops-change-velocity
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [JFrog, Integrate, DevOps Change Velocity, IT Service Management]
 ---
@@ -28,15 +28,15 @@ Role required: sn\_devops.admin or sn\_devops.tool\_owner
 
 1.  Navigate to **Workspaces** &gt; **DevOps Change Workspace** and use one of the following options to open the Playbook to onboard JFrog.
 
-<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d389880e121">
+<table id="choicetable_m3t_ky1_fwb"><thead><tr><th align="left" id="d301091e121">
 
 Option
 
-</th><th align="left" id="d389880e124">
+</th><th align="left" id="d301091e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d389880e130">
+</th></tr></thead><tbody><tr><td id="d301091e130">
 
 **Homepage**
 
@@ -46,7 +46,7 @@ Steps
 2.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d389880e157">
+</td></tr><tr><td id="d301091e157">
 
 **Applications module**
 
@@ -58,7 +58,7 @@ Steps
 4.  On the  Connect to a tool  modal, select JFrog from the **Artifact** category.
 
 
-</td></tr><tr><td id="d389880e206">
+</td></tr><tr><td id="d301091e206">
 
 **Tools module**
 
@@ -125,11 +125,7 @@ Steps
         This option enables all users having the DevOps App Owner role to access the tool. If selected, they’ll be able to view, associate, discover, import historical data, and modify pipeline steps \(if applicable\) of the tool's objects.
 
     3.  Select **Assign**.
-    \[Omitted image "jfrog-workspace-connect-4.png"\] Alt text: Specify tool access
-
 8.  From the **Summary** page, select **View tool record** to review the details of the connected instance.
-
-    \[Omitted image "jfrog-workspace-connect-5.png"\] Alt text: Connection summary
 
 
 ## Result

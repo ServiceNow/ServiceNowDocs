@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Activating your Performance Analytics subscription
@@ -108,7 +108,5 @@ A progress bar shows you the progress of the plugin activation, after which you 
 
 ### What to do next
 
-When the process is complete, consider installing Analytics Solutions, which include preconfigured dashboards and all necessary underlying components. For more information, see [Analytics solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/content-packs-in-form-analytics.md).
-
-Also consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/spotlight/spotlight.md).
+Consider activating Spotlight. Spotlight helps prioritize records by evaluating them against multiple weighted criteria. For more information, see [Ranking records with Spotlight](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/spotlight/spotlight.md).
 

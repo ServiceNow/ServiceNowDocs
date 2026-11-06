@@ -7,7 +7,7 @@ release: yokohama
 product: Admin Center
 classification: admin-center
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Discovering adoption blueprints, Admin Center, Get started, Administer the ServiceNow AI Platform]
 ---

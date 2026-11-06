@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-service-time-recording.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent management, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Agent management, Use, Customer Service Management]
 ---
 
 # Time recording for Customer Service Management

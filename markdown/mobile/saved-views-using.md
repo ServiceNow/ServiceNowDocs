@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/saved-views-using.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile saved views, Using the mobile apps, Mobile Platform]
 ---
@@ -34,15 +34,15 @@ Role required: user
 
 5.  Deselect a saved view either from a bookmarked screen or from the Saved items list.
 
-<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d42409e113">
+<table id="choicetable_wnc_2b2_4pb"><thead><tr><th align="left" id="d44386e119">
 
 Option
 
-</th><th align="left" id="d42409e116">
+</th><th align="left" id="d44386e122">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d42409e122">
+</th></tr></thead><tbody><tr><td id="d44386e128">
 
 **From a bookmarked screen**
 
@@ -54,7 +54,7 @@ Procedure
 
 The icon's appearance changes to an unfilled state \(\[Omitted image "saved-view-empty.png"\] Alt text: Saved view icon.\), indicating that the screen is no longer saved.
 
-</td></tr><tr><td id="d42409e166">
+</td></tr><tr><td id="d44386e172">
 
 **From the Saved items list**
 

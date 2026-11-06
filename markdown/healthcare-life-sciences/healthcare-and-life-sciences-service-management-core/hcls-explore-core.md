@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -16,9 +16,9 @@ breadcrumb: [Healthcare and Life Sciences Service Management Core, Healthcare an
 
 Whether you're starting or expanding the implementation of the Healthcare and Life Sciences Service Management Core application, consider learning more about the data model and digital health capabilities including patient 360-degree view, consent management, and digital documentation available to address healthcare services.
 
-## Healthcare and Life Sciences Service Management Core overview
+## Healthcare and Life Sciences Service Management Core Overview
 
-As a provider, payer, pharmaceutical, or medical device organization, you can improve employee productivity with complete visibility into the medical records of patients and members using Healthcare and Life Sciences Service Management Core. You can optimize your healthcare agent time by providing them the complete patient information to address any healthcare requests.
+As a provider, payer, pharmaceutical, or medical device organization, you can improve employee productivity with complete visibility into the medical records of patients and members. You can optimize your healthcare agent time by providing them the complete patient information to address any healthcare requests.
 
 Healthcare and Life Sciences Service Management Core is a scoped application that provides the Healthcare and Life Sciences data model for Healthcare and Life Sciences industry products, Workspace for viewing patient information and healthcare-related cases, and document templates for managing healthcare-related documents.
 
@@ -55,7 +55,7 @@ Experience a seamless and time-saving patient appointment process.
 
 </td><td>
 
-[Using the Patient Portal for Healthcare and Life Sciences Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-portal.md)
+[Use the Patient Portal for Healthcare and Life Sciences Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-patient-portal.md)
 
 </td><td>
 
@@ -67,7 +67,7 @@ Get a 360-degree view of patient or member information.
 
 </td><td>
 
-[Viewing patient information in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-patient-info.md)
+[View patient information in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-viewing-patient-info.md)
 
 </td><td>
 
@@ -79,7 +79,7 @@ Digitize the generation of healthcare documents and consents by using built-in d
 
 </td><td>
 
-[Configuring document templates for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-doc-templates.md)
+[Configure document templates for Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-config-doc-templates.md)
 
 </td><td>
 
@@ -103,7 +103,7 @@ Manage healthcare cases in a convenient and accessible space.
 
 </td><td>
 
-[Managing healthcare-related requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-using-workspace.md)
+[Manage healthcare requests in Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-using-workspace.md)
 
 </td><td>
 

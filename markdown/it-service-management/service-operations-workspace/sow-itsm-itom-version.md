@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM
@@ -42,9 +42,11 @@ Ensure that the following applications have compatible upgraded versions:
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
+[Additional roles for SOW admin]()
 
 [Service Operations Workspace for ITSM data model]()
 
 [Components installed with Service Operations Workspace ITSM Applications]()
+
+[Service Operations Workspace for ITSM glossary]()
 

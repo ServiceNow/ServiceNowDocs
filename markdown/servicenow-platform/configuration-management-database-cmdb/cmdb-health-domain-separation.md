@@ -7,16 +7,16 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [CMDB Health reference, CMDB Health, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Reference, CMDB Health, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Domain separation in CMDB Health
 
 This is an overview of domain separation as it pertains to CMDB Health. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
-## Overview
+## Overview of domain separation in CMDB Health
 
 
 
@@ -82,11 +82,11 @@ Health inclusion rules:
 -   When a health inclusion rule is defined globally, all sub-domains inherit the rule according to the domain structure and the rule can be overridden at any domain.
 -   When a health inclusion rule is defined at the Configuration Item \[cmdb\_ci\] class level, all descending classes inherit the rule and the rule can be overridden at any class level.
 
-## CMDB Health dashboard
+## CMDB Health Dashboard
 
-If the Domain Support — Domain Extensions Installer plugin is activated, then the CMDB Health dashboard is domain aware:
+If the Domain Support — Domain Extensions Installer plugin is activated, then the CMDB Health Dashboard is domain aware:
 
--   The CMDB Health dashboard aggregates and reports health failures and scores based on user’s domain visibility of CIs. If domain visibility lets a user see a CI, then the audit rule in that user’s domain applies to that CI, whether the CI is in the user's domain or in a contained domain. If a CI fails health tests from different user domains, then separate failure records are created.
+-   The CMDB Health Dashboard aggregates and reports health failures and scores based on user’s domain visibility of CIs. If domain visibility lets a user see a CI, then the audit rule in that user’s domain applies to that CI, whether the CI is in the user's domain or in a contained domain. If a CI fails health tests from different user domains, then separate failure records are created.
 -   Users can configure KPI and metric settings specific to the needs in their domain. So different domains can have different settings such as active/inactive, and thresholds.
 -   A child domain derives its immediate parent's domain health configurations if the child domain does not configure its own. A child domain can override parent's configurations by modifying them.
 

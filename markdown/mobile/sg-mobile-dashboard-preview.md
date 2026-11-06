@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-dashboard-preview.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Mobile dashboard preview, Launcher screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -18,7 +18,7 @@ Use a mobile analytic preview within a mobile dashboard to display data visualiz
 
 Role required: admin
 
-To display a data visualization in a launcher screen you need a chart or single score report. For information about creating data visualizations, see [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-data-visualizations.md).
+To display a data visualization in a launcher screen you need a chart or single score report. For information about creating data visualizations, see [https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md) and [Data visualizations in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center-data-visualizations.md).
 
 For details about data visualization settings and configurations that are available for display in the mobile platform, see [Data visualization fields available for display in mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/data-visualization-mobile-fields.md).
 

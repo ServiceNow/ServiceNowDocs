@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Script Debugger and Session Log, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Script Debugger user interface, Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # Script Debugger status
@@ -125,5 +125,5 @@ chars: 20,731, SQL time: 50 (count: 34), business rule: 0 (count: 0), phase 1
 form length 56,464, largest chunk written: 10,428, request parms size: 40, largest input read: 0
 ```
 
-**Parent Topic:**[Script Debugger and Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/script-debugger.md)
+**Parent Topic:**[Script Debugger user interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/parts-script-debugger-interface.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/manage-data-sources.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,7 +32,7 @@ Data management is critical to success in all aspects of your business. Platform
 
 </td><td>
 
-[Entity View Action Mapper \(EVAM\) \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Standardize and chart out all data from multiple sources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/exploring-entity-view-action-mapper.md)
+[Entity View Action Mapper \(EVAM\) \[Omitted image "bus-low-code-dev-tools.svg"\] Alt text: Standardize and chart out all data from multiple sources.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/entity-view-action-mapper-evam/entity-view-action-mapper.md)
 
 </td><td>
 

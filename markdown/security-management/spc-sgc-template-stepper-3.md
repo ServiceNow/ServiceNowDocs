@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-sgc-template-stepper-3.html
 release: yokohama
 topic_type: task
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Creating your own API connector, Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -16,9 +16,9 @@ Select a template to support your API's structure.
 
 ## Before you begin
 
-These templates provide you with options that are based on API structures that are widely used by security tool vendors. When you select a template, you’re choosing a configuration that aligns with industry-standard ways of organizing and communicating with APIs. By selecting a common response format \(JSON\), HTTP methods \(GET or POST\), and well-known pagination strategies, connecting with a wide variety of security tools is easier, because you’re using familiar and widely adopted API patterns.
+These templates provide you with options that are based on API structures that are widely used by security tool vendors. When you select a template, you’re choosing a configuration that aligns with industry-standard ways of organizing and communicating with APIs. Selecting a common response format \(JSON\), HTTP methods \(GET or POST\), and well-known pagination strategies makes connecting with a wide variety of security tools easier.
 
-Starting with Yokohama Patch 11, you have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using ServiceNow Otto for Unified Security Exposure Management in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a ServiceNow Otto for Unified Security Exposure Management skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
 
 Role required: sn\_sec\_spc\_core.developer
 
@@ -26,23 +26,23 @@ Role required: sn\_sec\_spc\_core.developer
 
 1.  Select one to continue.
 
-<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d139058e108">
+<table id="choicetable_pbd_cny_2hc"><thead><tr><th align="left" id="d141918e89">
 
 Option
 
-</th><th align="left" id="d139058e111">
+</th><th align="left" id="d141918e92">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d139058e117">
+</th></tr></thead><tbody><tr><td id="d141918e98">
 
-**Select Use Now Assist**
+**Select Use ServiceNow Otto®**
 
 </td><td>
 
-See [Create an API connector with ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/select-api-template.md) for the steps for using Now Assist.
+See [Create an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/select-api-template.md) for the steps for using ServiceNow Otto®.
 
-</td></tr><tr><td id="d139058e139">
+</td></tr><tr><td id="d141918e124">
 
 **Select one option from a list and __Apply__ to view the template cards that match your selections.**
 

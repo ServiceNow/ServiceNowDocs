@@ -1,0 +1,31 @@
+---
+title: Managing engagements for financial regulatory audits
+description: If you are an audit manager, you can create and manage engagements for your financial regulatory audits in the Audit Workspace.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/asset-audits/managing-audit-engagements-asset-audit-response.html
+release: yokohama
+product: Asset Audits
+classification: asset-audits
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Asset Audit Response, IT Asset Management, Asset Management]
+---
+
+# Managing engagements for financial regulatory audits
+
+If you are an audit manager, you can create and manage engagements for your financial regulatory audits in the Audit Workspace.
+
+## Overview of managing engagements for financial regulatory audits
+
+Create and manage engagements for your financial regulatory audits by performing the following tasks:
+
+-   [Create an audit engagement in Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-engagement-ws.md)
+
+    Create an engagement to manage audit information and to collect entities, controls, and control tests that are relevant to the audit.
+
+-   [Create an activity in the Audit Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/create-activity-audit-ws.md)
+
+    Create an activity that explores and provides documented evidence of whether the associated control is operating correctly or not.
+
+

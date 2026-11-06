@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage the UCF integration, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage UCF integration, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Configure the UCF integration using a UCF-supplied API key
@@ -29,8 +29,6 @@ Prior to configuring the UCF integration, you need a UCF basic subscription and 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Administration** &gt; **Unified Compliance Integration**.
 
 2.  Click the UCF configuration.
-
-    \[Omitted image "ucf-config.png"\] Alt text: UCF Configuration
 
 3.  On the form, fill in the fields.
 

@@ -1,0 +1,113 @@
+---
+title: Supplier data steward AI agent
+description: This Supplier Lifecycle Operations agent manages supplier onboarding by verifying details, detecting duplicates, presenting scorecards for review, creating records, and updating case status.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/slo-supplier-data-steward-ai-agent.html
+release: yokohama
+topic_type: reference
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Supplier Lifecycle Operations AI agents, Supplier Lifecycle Operations, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Supplier data steward AI agent
+
+This Supplier Lifecycle Operations agent manages supplier onboarding by verifying details, detecting duplicates, presenting scorecards for review, creating records, and updating case status.
+
+## Workflow
+
+1.  Based on the case state, prompt the user for a case number \(if details are needed\), proceed directly to record creation, or handle duplicates.
+2.  Generate the supplier scorecard from web search results, highlighting key strengths, positive indicators, and potential risk signals. Wait for the user to select either **Reject onboarding** or **Continue onboarding**. The agent can't proceed until the user chooses.
+3.  If Craft is configured, use the Craft integration to generate a supplier scorecard that provides a comprehensive, normalized evaluation of the supplier's overall profile and associated risk factors. Wait for the user to select either **Reject onboarding** or **Continue onboarding**.
+4.  Present the duplicate records to the user and ask whether to continue. If yes, offer the option to correct the supplier's legal name, email, or both before proceeding. If the correction resolves the duplicate, continue to onboarding. If the correction triggers a rejection, stop. If the user declines to continue, proceed with rejection.
+5.  Run the verification and record creation tool using the supplier details.
+6.  Display one of six results: successful registration, halted by user decision, rejected due to validation failure, rejected for other reasons, rejected at the web search review, or rejected at the Craft review.
+
+<table id="table_rj2_t2t_5kc"><thead><tr><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Allow third party to access this AI agent
+
+</td><td>
+
+When enabled, third-party AI agents can use this agent. This value is off \(false\) by default. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the External discoverable field.
+
+</td></tr><tr><td>
+
+Allow AI specialists to access this AI agent
+
+</td><td>
+
+When enabled, AI specialists can use this agent. This value is off \(false\) by default. When set to true, more configuration options for tools become available so that an AI specialist can map inputs and response templates to tool outputs. This setting is defined in the AI Agent configs \[sn\_aia\_agent\_config\] table on the Specialist enabled field.
+
+</td></tr><tr><td>
+
+Manage long-term memory
+
+</td><td>
+
+When enabled, all previous user interactions are used as context for the LLM. This value is off \(false\) by default. This setting is defined by the **sn\_aia.ltm.enable\_long\_term\_memory** system property. For more information, see [ServiceNow Otto AI agents reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/na-aia-reference.md).
+
+</td></tr><tr><td>
+
+Tools
+
+</td><td>
+
+-   Script: Update Supplier Case Details
+-   Flow action: Supplier craft analysis action
+-   Web search: Supplier websearch analysis
+-   Subflow: Verify and create records
+
+</td></tr><tr><td>
+
+Allowed user roles The specific user roles that can access this AI agent.
+
+</td><td>
+
+sn\_slm.owner, sn\_supplier\_gen\_ai.now\_assist\_fulfiller
+
+</td></tr><tr><td>
+
+Data access roles The specific user identity roles that determine which data the AI agent can access and what actions it can take.
+
+</td><td>
+
+sn\_slm.owner, sn\_supplier\_gen\_ai.now\_assist\_fulfiller
+
+</td></tr><tr><td>
+
+Triggers
+
+</td><td>
+
+Optional. None defined by default. An admin can specify triggers if desired. For more information, see [Add a trigger to an AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/add-trigger-aia.md).
+
+</td></tr><tr><td>
+
+Channels
+
+</td><td>
+
+Configure an assistant for Virtual Agent or ServiceNow Otto panel using [Assistant Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/configure-now-assist-va.md).
+
+</td></tr><tr><td>
+
+Used in agentic workflows
+
+</td><td>
+
+Not applicable.
+
+</td></tr></tbody>
+</table>Learn more about Supplier Lifecycle Operations at [Supplier Lifecycle Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/supp-mgmt-landing-page.md).
+
+**Parent Topic:**[Supplier Lifecycle Operations AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/slo-ai-agents-overview.md)
+

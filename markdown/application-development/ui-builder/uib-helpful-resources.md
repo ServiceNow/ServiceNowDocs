@@ -7,14 +7,16 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-04-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Exploring UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Helpful resources for UI Builder
 
 Some ServiceNow resources that can provide you with helpful information.
+
+Some ServiceNow resources that can provide you with helpful information are:
 
 -   **\[Omitted image "bus-video-play.svg"\] Alt text: Video**
 

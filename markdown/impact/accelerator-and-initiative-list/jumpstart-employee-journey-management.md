@@ -7,9 +7,9 @@ release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Technical Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Jumpstart Your Employee Journey Management
@@ -20,7 +20,9 @@ The Jumpstart Your Employee Journey Management \(EJM\) Accelerator provides a de
 
 Jumpstart Your Employee Journey Management provides Impact customers with an overview and applied demonstration, helping them to better understand how to begin with Employee Journey Management. This offering showcases EJM capabilities and features, enabling organizations to deliver personalized, cross-departmental Employee Journeys through intelligent workflows that support real-time tasking, learning, and feedback. Additionally, this Accelerator provides key resources and leading-practice guides to enhance product adoption and usage.​
 
-**Note:** This Accelerator is available for Impact Guided, Advanced, and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\), Advanced, and Total packages.
 
 Offered pursuant to the applicable Impact Accelerator Description available at  [https://www.servicenow.com/legal/servicenow-impact.html](https://www.servicenow.com/legal/servicenow-impact.html)
 

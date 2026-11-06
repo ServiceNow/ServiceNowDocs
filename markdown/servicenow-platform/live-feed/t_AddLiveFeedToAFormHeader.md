@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure record feeds, Record feeds, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -48,8 +48,6 @@ Role required: admin
 ## Result
 
 The **Live Feed** button appears on the overflow menu of the form header.
-
-\[Omitted image "ShowLiveFeed.png"\] Alt text: The Live Feed button appears on the overflow menu of the form header.
 
 **Parent Topic:**[Configure record feeds](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_ConfigureRecordFeeds.md)
 

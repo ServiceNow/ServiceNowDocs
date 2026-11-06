@@ -1,22 +1,21 @@
 ---
-title: Knowledge articles on Mobile Agent
-description: Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.Search through articles from your organization's knowledge base to find helpful information relevant to a work order task assigned to you.Know when your team members are on-site working on a task and if they are on schedule to complete their tasks. You can connect with them by calling or sending a text message.Access knowledge articles that are attached to work order tasks on the Now Mobile Agent application.Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the Now Mobile Agent application.Discover articles with similar information on a topic while viewing a knowledge article.View translated versions of published knowledge articles through the ServiceNow Agent mobile app.
+title: Knowledge articles on ServiceNow Agent
+description: Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.Search through articles from your organization's knowledge base to find helpful information relevant to a work order task assigned to you.Know when your team members are on-site working on a task and if they are on schedule to complete their tasks. You can connect with them by calling or sending a text message.Access knowledge articles that are attached to work order tasks on the ServiceNow Agent application.Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the ServiceNow Agent application.Discover articles with similar information on a topic while viewing a knowledge article.View translated versions of published knowledge articles through the ServiceNow Agent mobile app.Ask natural language questions and get answers from the Knowledge Base, including related steps and guidance, from the ServiceNow Agent app.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/access-information-you-need-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+keywords: [conversational search, Now Assist, technician support, SN Agent, knowledge base]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Knowledge articles on Mobile Agent
+# Knowledge articles on ServiceNow Agent
 
 Search relevant information from knowledge articles and see when your team members are on-site and if they are on schedule.
-
-**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 
 ## Access knowledge articles relevant to your work order tasks
 
@@ -28,19 +27,19 @@ Role required: wm\_agent or wm\_dispatcher
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  View or search for the knowledge article.
 
-<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d122378e120">
+<table id="choicetable_h4s_zts_4fb"><thead><tr><th align="left" id="d137919e124">
 
 To
 
-</th><th align="left" id="d122378e123">
+</th><th align="left" id="d137919e127">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d122378e129">
+</th></tr></thead><tbody><tr><td id="d137919e133">
 
 **View knowledge articles for a work order task assigned to you**
 
@@ -52,7 +51,7 @@ Do this
 4.  Tap the More actions \(\[Omitted image "OverflowIcon.png"\] Alt text: More actions icon\) icon and then select **View Knowledge**.
  The application uses the task short description to search all knowledge bases and returns articles based on that search.
 
-</td></tr><tr><td id="d122378e175">
+</td></tr><tr><td id="d137919e179">
 
 **Search knowledge articles**
 
@@ -85,7 +84,7 @@ Role required: wm\_agent or wm\_dispatcher
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  In the footer navigation bar, tap **More** and go to **My Team**.
 
@@ -95,15 +94,15 @@ Role required: wm\_agent or wm\_dispatcher
 
 4.  Connect with a team member.
 
-<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d122378e311">
+<table id="choicetable_kwh_dyr_4gb"><thead><tr><th align="left" id="d137919e327">
 
 To
 
-</th><th align="left" id="d122378e314">
+</th><th align="left" id="d137919e330">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d122378e320">
+</th></tr></thead><tbody><tr><td id="d137919e336">
 
 **Place a call**
 
@@ -114,7 +113,7 @@ Do one of the following:-   Tap the **Phone** icon and tap **Dial number**to imm
 -   Open the member profile, tap the mobile number, and select **Dial number**.
 
 
-</td></tr><tr><td id="d122378e353">
+</td></tr><tr><td id="d137919e369">
 
 **Send a text message**
 
@@ -127,7 +126,7 @@ Tap the **Phone** icon and tap **Send SMS** to send a text message to the team m
 3.  Select **Send SMS** and send your message through one of the available messaging options.
 
 
-</td></tr><tr><td id="d122378e386">
+</td></tr><tr><td id="d137919e402">
 
 **View the member's location on the map**
 
@@ -139,7 +138,7 @@ Tap the **Map** icon to view the team member's location on the map. To toggle ba
 </table>
 ## Access knowledge articles attached to your work order task
 
-Access knowledge articles that are attached to work order tasks on the Now Mobile Agent application.
+Access knowledge articles that are attached to work order tasks on the ServiceNow Agent application.
 
 ### Before you begin
 
@@ -147,13 +146,13 @@ Role required: wm\_agent or wm\_dispatcher
 
 ### About this task
 
-You can view the content of knowledge articles that are attached to your work order tasks in both offline and online modes. The knowledge article view page on Now Mobile Agent provides several details about a displayed article, such as the article number, short description, article content, author, and so on.
+You can view the content of knowledge articles that are attached to your work order tasks in both offline and online modes. The knowledge article view page on ServiceNow Agent provides several details about a displayed article, such as the article number, short description, article content, author, and so on.
 
 **Note:** The article view count is not updated in the mobile view page.
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -172,7 +171,7 @@ The article opens in a Knowledge Details page displayed in another tab within th
 
 ## Provide feedback for knowledge articles
 
-Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the Now Mobile Agent application.
+Provide feedback on a knowledge article by rating the article, marking the article as helpful or not helpful, and posting and replying to comments for the article on the ServiceNow Agent application.
 
 ### Before you begin
 
@@ -184,11 +183,11 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Open an article that you want to view from the list of knowledge articles.
 
-    1.  Navigate to the Now Mobile Agent application.
+    1.  Navigate to the ServiceNow Agent application.
 
     2.  Tap **My Work**.
 
@@ -202,15 +201,15 @@ You can provide feedback on a knowledge article in either online or offline mode
 
 3.  Provide feedback for the article by marking it as helpful or not helpful, rating it, or leaving a comment.
 
-<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d122378e655">
+<table id="choicetable_zmn_tm2_14b"><thead><tr><th align="left" id="d137919e695">
 
 To
 
-</th><th align="left" id="d122378e658">
+</th><th align="left" id="d137919e698">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d122378e664">
+</th></tr></thead><tbody><tr><td id="d137919e704">
 
 **Mark an article as helpful or unhelpful**
 
@@ -218,7 +217,7 @@ Do this
 
 Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpful icon.\) or the not helpful icon \(\[Omitted image "KnowledgeNotHelpful.png"\] Alt text: Not helpful icon.\).
 
-</td></tr><tr><td id="d122378e685">
+</td></tr><tr><td id="d137919e725">
 
 **Rate the article**
 
@@ -226,7 +225,7 @@ Tap the helpful icon \(\[Omitted image "KnowledgeHelpful.png"\] Alt text: Helpfu
 
 Tap the star icons displayed on the article to indicate its effectiveness on a scale of 1 to 5.
 
-</td></tr><tr><td id="d122378e694">
+</td></tr><tr><td id="d137919e734">
 
 **Enter your comment \[available only in online mode\]**
 
@@ -236,7 +235,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Enter the comment and click **Submit**.
 
 
-</td></tr><tr><td id="d122378e718">
+</td></tr><tr><td id="d137919e758">
 
 **View all comments and replies posted for the article \[available only in online mode\]**
 
@@ -246,7 +245,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Scroll down to see the comments.
 
 
-</td></tr><tr><td id="d122378e740">
+</td></tr><tr><td id="d137919e780">
 
 **Like a comment on the article \[available only in online mode\]**
 
@@ -256,7 +255,7 @@ Tap the star icons displayed on the article to indicate its effectiveness on a s
 2.  Underneath a comment, tap the like icon \(\[Omitted image "like-comment-now-mobile.png"\] Alt text: Like icon.\).
 
 
-</td></tr><tr><td id="d122378e767">
+</td></tr><tr><td id="d137919e807">
 
 **Reply to a comment on the article \[available only in online mode\]**
 
@@ -285,7 +284,7 @@ The Related articles list appears only if the administrator has manually attache
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Open an article from the list of knowledge articles.
 
@@ -326,7 +325,7 @@ An article is available in other languages only if an author has created the tra
 
 ### Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Open an article from the list of knowledge articles.
 
@@ -347,5 +346,40 @@ An article is available in other languages only if an author has created the tra
 4.  Tap **Translated articles**.
 
 5.  Open an article from the list of translated versions of the article.
+
+
+## Use conversational search for technician support
+
+Ask natural language questions and get answers from the Knowledge Base, including related steps and guidance, from the ServiceNow Agent app.
+
+### Before you begin
+
+Role required: wm\_agent
+
+### About this task
+
+\[Omitted video\] Description: This video demonstrates how to use conversational search for technician support
+
+You can ask questions in your own words and receive responses from the Knowledge Base, including relevant details and step-by-step guidance to help you diagnose and resolve issues.
+
+**Note:** ServiceNow Otto® generates responses using AI. Review answers before acting on them, as generated content may not always be accurate.
+
+### Procedure
+
+1.  Tap ServiceNow Otto® in the navigation bar.
+
+2.  In the **Quick actions** section, tap **Ask ServiceNow Otto**.
+
+3.  In the ServiceNow Otto® panel, type a question.
+
+    For example: `How do I install a router?`
+
+4.  Tap **Send**.
+
+5.  Tap **Sources** to check the origin of the information.
+
+6.  Tap **Done** to end the conversation.
+
+7.  Tap the new conversation icon to begin a new conversation.
 
 

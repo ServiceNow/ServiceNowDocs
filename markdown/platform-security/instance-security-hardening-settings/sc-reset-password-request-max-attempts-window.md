@@ -1,5 +1,5 @@
 ---
-title: Control Lockout Time for Invalid Password Reset Attempts \[Updated in Security Center 1.3 and 2.0\]
+title: Control lockout time for invalid password reset attempts
 description: The password\_reset.request.max\_attempt\_window property controls the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the password\_reset.request.max\_attempt property.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-reset-password-request-max-attempts-window.html
@@ -7,35 +7,111 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
 
-# Control Lockout Time for Invalid Password Reset Attempts \[Updated in Security Center 1.3 and 2.0\]
+# Control lockout time for invalid password reset attempts
 
 The **password\_reset.request.max\_attempt\_window** property controls the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the **password\_reset.request.max\_attempt** property.
 
-The **password\_reset.request.max\_attempt\_window** property defines the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the **password\_reset.request.max\_attempt property**. A small number of minutes for the **password\_reset.request.max\_attempt\_window** property increases the risk of successfully brute forcing a password as a greater number of password reset attempts can be made. The default of 1440 minutes is recommended.
+The **password\_reset.request.max\_attempt\_window** system property defines the number of minutes a user must wait to reset or change their password after exceeding the maximum number of unsuccessful attempts that is set with the **password\_reset.request.max\_attempt** property.
 
-Ensure the property **password\_reset.request.max\_attempt\_window** is set to 1440 or greater.
+Ensure that the property **password\_reset.request.max\_attempt\_window** is set to 1440 or greater.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Property name|**password\_reset.request.max\_attempt\_window**|
-|Configuration type|System Properties \(/sys\_properties\_list.do\)|
-|Category|[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)|
-|Purpose|Denotes the lockout period in minutes after the maximum number of unsuccessful password reset attempts has been met.|
-|Recommended value|1440|
-|Default value|1440|
-|Configuration type|Positive integer values|
-|Security risk|\(High\) If the property is not set to the recommended value of 1440 or less, then it could be possible to perform account brute force as the account will not be locked after a maximum number of wrong authentication attempts.|
-|Security risk rating|7.5|
-|References|[Configure Password Reset properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_SetPwdResetProps.md)|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
 
-**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**password\_reset.request.max\_attempt\_window**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Integer
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+An integer greater than or equal to 1440
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+1440
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+1440
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score:
+-   CVSS rating:
+-   Security risk details: A value too low increases the risk of successfully brute forcing a password as a greater number of password reset attempts can be made.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+None
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

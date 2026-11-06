@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/vr-retrieve-benchmark-results.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [how to opt-in for benchmark scores]
 breadcrumb: [Cybersecurity Executive Dashboard, Security Operations]

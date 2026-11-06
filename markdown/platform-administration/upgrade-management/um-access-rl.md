@@ -7,9 +7,9 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Reviewing upgrade history, Upgrade History tool in Upgrade Management, Upgrade Management tools, Using Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Reviewing upgrade history, Upgrade History tool in Upgrade Console, Upgrade Console tools, Use, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
 # Review skipped records using related lists
@@ -193,14 +193,6 @@ Table
 </td><td>
 
 Table that contains the record.
-
-</td></tr><tr><td>
-
-Changed by vendor
-
-</td><td>
-
-Indicates whether the file has been changed by the vendor since the last upgrade.
 
 </td></tr></tbody>
 </table>

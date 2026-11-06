@@ -1,35 +1,28 @@
 ---
-title: Set dashboards as home for all users
-description: While it is possible for individual users to set dashboards, rather than homepages, you can also set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
+title: Set Core UI dashboards as home for all users
+description: You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/performance-analytics/set-dashboards-as-home-for-all-users.html
 release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Administering Core UI dashboards, Responsive dashboards in the Core UI, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
-# Set dashboards as home for all users
+# Set Core UI dashboards as home for all users
 
-While it is possible for individual users to set dashboards, rather than homepages, you can also set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
+You can set dashboards as home for all users. By default, the most recent dashboard a user has visited is the dashboard they see when they log in to ServiceNow.
 
 ## Before you begin
 
 Role required: admin
 
-**Important:**
+## About this task
 
-The functionality found in homepages, arranging information from your instance to tell a story about your data, is found in dashboards on new instances. On upgraded instances with Next Experience enabled, users can view existing homepages if they have a direct URL, but they can't create or edit them. Responsive dashboards and Analytics Center dashboards take over homepage functionality.
-
-Use the [Homepage deprecation help tool](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/homepage-deprecation-help-tool.md) to convert the homepages on your instance to responsive dashboards.
-
-For more information, see:
-
--   [Dashboards in the Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
--   [Working with responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_ResponsiveDashboards.md).
+**Note:** This topic refers to Core UI dashboards. If you are looking for information about the newer Platform Analytics dashboards, see [Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md).
 
 ## Procedure
 
@@ -47,11 +40,11 @@ For more information, see:
 
 6.  Set the **Type** to `string`.
 
-7.  Set the value to `$pa_dashboard.do`.
+7.  Set the value to `/now/platform-analytics-workspace/dashboards`.
 
 8.  Select **Submit**.
 
-    \[Omitted image "user-pref-all-homepages-db.png"\] Alt text: User preference form with description, name, type, and value filled in. User field is blank.
+    \[Omitted image "user-pref-all-homepages-db.png"\] Alt text: User preference form with description, name, type, and value filled in. User field is empty.
 
 
 ## Result

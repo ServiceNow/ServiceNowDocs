@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/messg-integrate-channels.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrate, Customer Service Management]
 ---
 
 # Integrating with consumer messaging apps
@@ -18,8 +18,8 @@ Engage customers wherever they are with useful conversations​ by enabling them
 
 The following consumer messaging apps can be integrated with Customer Service Management:
 
--   WhatsApp
--   LINE
--   Facebook Messenger
--   Apple Messages for Business
+-   WhatsApp: [Integrating WhatsApp with Customer Service Management through Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/messg-integrate-whatsapp-csm.md) and [Integrating WhatsApp with Customer Service Management using the WhatsApp Cloud API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/messg-integrating-whatsapp-with-csm-whatsapp-cloud.md).
+-   LINE: [Integrating LINE with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/messg-integrate-line-csm.md).
+-   Facebook Messenger: [Integrating Facebook Messenger with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/messg-integrate-fbm-csm.md).
+-   Apple Messages for Business: [Integrating Apple Messages for Business with Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/integrate-amb-with-csm.md).
 

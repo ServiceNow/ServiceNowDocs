@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: reference
-last_updated: "2025-09-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -54,6 +54,18 @@ If a Workplace case has 'Enable user acceptance' set to True and no 'Acceptance 
 -   Default value: 172800 Seconds
 -   Location: System Property \[sys\_properties\] table
 
+</td></tr><tr><td>
+
+sn\_wsd\_case.lead\_time\_info\_msg\_for\_limited\_services
+
+</td><td>
+
+Controls whether lead-time messaging appears when ordering workplace services. When enabled, regular users see an informational message indicating which items are available, and users with the bypass role receive a warning when ordering services within their lead time.For more information about lead time, see [Add a workplace service item to a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/add-workplace-service-items.md).
+
+-   Type: Boolean
+-   Default value: true
+-   Location: System Property \[sys\_properties\] table
+
 </td></tr></tbody>
 </table>**Parent Topic:**[Workplace Case Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workpalce-case-mgmt-references.md)
 
@@ -63,4 +75,6 @@ If a Workplace case has 'Enable user acceptance' set to True and no 'Acceptance 
 [Components installed with Workplace Case Management]()
 
 [Workplace Service form]()
+
+[Workplace Location Assignment service]()
 

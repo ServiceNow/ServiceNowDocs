@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Scheduling in Workforce Optimization for Field Service
@@ -30,8 +30,6 @@ With Scheduling, you can do the following:
 
 For more information about key performance indicators and sidebars, see [Exploring indicators with KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/kpi-details-components.md).
 
-**Note:** You can't create holiday schedules when Workforce Optimization for Field Service is used.
-
 ## Schedule adherence
 
 -   Adherence is a metric to analyze how closely agents follow their schedule in completing the work assignments. Conformance measures the work completed regardless of when it was completed.
@@ -44,25 +42,4 @@ For more information about key performance indicators and sidebars, see [Explori
     -   **Schedule Adherence**= \(Minutes worked in shift/Scheduled shift time in minutes + Overtime\)
     -   **Conformance**= \(Minutes worked in shift + Overtime\)/Scheduled shift time in minutes
 -   The ideal adherence percentage by default is above 70, and conformance is between 80 to 120. However, your administrator can change the threshold values. For more information, see [Scheduling in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/scheduling-wfo-fsm.md). The agents who do not qualify to the defined threshold values are considered as non-adherent and are highlighted in red.
-
--   **[Create a work shift plan in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/create-shift-plan-wfo-fsm.md)**  
-Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
--   **[Create an on-call shift plan in Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/create-oncall-shift-plan-wfo-fsm.md)**  
-Schedule shifts for your team so that you can make sure that you are covering all work assignments and breaks. You can also specify the days of the week that you might need to override scheduled shifts.
--   **[Create a schedule plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/create-schedule-plan-wfo-fsm.md)**  
-Manage your team's schedule by creating a schedule plan that covers a span of time and includes your team's work shifts. You can also assign agents to shifts based on their skills and availability to ensure you are using your resources efficiently.
--   **[Add schedule breaks to a shift](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/add-break-shift-wfo-fsm.md)**  
-After creating a work shift, you can add schedule breaks to the shift.
--   **[Publish a schedule plan for visibility into team coverage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/publish-schedule-plan-wfo-fsm.md)**  
-Generate a preview of your schedule plan and publish it so that your agents can see their shifts and schedules ahead of time. You can unpublish a schedule to make changes and then publish it again.
--   **[Track and manage your team's schedule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/track-team-schedule-wfo-fsm.md)**  
-Create, update, or monitor your team's schedule from one location. You can approve or reject requests for swapping shifts or time off for agents within your assignment group.
--   **[Monitor schedule adherence of your agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/monitor-schedule-adherence.md)**  
-Use schedule adherence to evaluate whether your agents are adhering to their assigned schedules. You can look for areas where low-value activity can be eliminated or reduced and further analyze staffing levels throughout the day.
--   **[Analyze adherence and conformance from the time worked summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/analyze-adherence-conformance-wfo-fsm.md)**  
-View the time worked summary of your team members to determine whether your teams are adhering to planned schedules. You can also use historical adherence, a reporting view of real-time adherence, to see how well your agents have followed their schedules in the past.
--   **[Add events to the team calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/add-event-to-calendar-wfo-fsm.md)**  
-Create a meeting, training, time-off request, personal, or an ad hoc work event from the team calendar.
-
-**Parent Topic:**[Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)
 

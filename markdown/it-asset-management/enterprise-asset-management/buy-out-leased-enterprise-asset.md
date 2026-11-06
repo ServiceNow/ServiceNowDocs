@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing expiring contracts for leased enterprise assets, Create and manage contracts for enterprise assets, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Buy out a leased enterprise asset
@@ -37,8 +37,6 @@ Role required: sn\_eam.enterprise\_admin or sn\_eam.enterprise\_asset\_manager
     1.  On the **Contract Asset Tasks** tab of the lease contract record, select the task number for the **Buyout** task.
 
         Alternatively, select the task number that is displayed in the **Current task** field of the lease contract record header.
-
-        \[Omitted image "current-task-lease.png"\] Alt text: Current task field.
 
         The Buyout task opens.
 
@@ -181,8 +179,6 @@ Notes about the task that are visible to all users within your organization.
 
         Alternatively, select the task number that is displayed in the **Current task** field of the lease contract record header.
 
-        \[Omitted image "current-task-lease.png"\] Alt text: Current task field.
-
         The Buyout confirmation task opens.
 
         **Note:** Aside from the **State** field and the additional **Buyout confirmation** field, all editable fields in the Buyout confirmation task are pre-populated based on the corresponding fields that you filled out in the Buyout task. The **Purchase order** and **Purchase order line** fields are pre-populated with the purchase order and purchase order line that the Enterprise Asset Management application automatically created for the enterprise asset buyout in the [Planning task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/complete-leased-asset-planning.md).
@@ -191,7 +187,7 @@ Notes about the task that are visible to all users within your organization.
 
         This field indicates if you bought out the enterprise asset successfully.
 
-    3.  In the same section, select the Open Record icon \(\[Omitted image "open-record-icon.png"\] Alt text: Open record icon.\) in the **Purchase order** field.
+    3.  In the same section, select the Open Record icon \[Omitted image "open-record-icon.png"\] Alt text: in the **Purchase order** field.
 
         The purchase order record opens.
 

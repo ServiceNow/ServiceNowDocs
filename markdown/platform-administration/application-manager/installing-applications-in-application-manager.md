@@ -7,7 +7,7 @@ release: yokohama
 product: Application Manager
 classification: application-manager
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Installing apps, plugins, and products, Application Manager, Administering applications, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -51,15 +51,15 @@ This topic describes how to install an application or plugin. For information ab
 
 6.  Install the application now or schedule installation for a later time.
 
-<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d210740e205">
+<table id="choicetable_kkl_v3m_yfc"><thead><tr><th align="left" id="d228142e205">
 
 Installation option
 
-</th><th align="left" id="d210740e208">
+</th><th align="left" id="d228142e208">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d210740e214">
+</th></tr></thead><tbody><tr><td id="d228142e214">
 
 **Install now**
 
@@ -69,7 +69,7 @@ Procedure
 2.  Select **Install**.
 
 
-</td></tr><tr><td id="d210740e238">
+</td></tr><tr><td id="d228142e238">
 
 **Install later**
 

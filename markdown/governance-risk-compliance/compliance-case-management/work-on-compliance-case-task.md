@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Compliance case task workflow, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Compliance case task workflow, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Work on an action task
@@ -38,15 +38,15 @@ If an action task is the Assessment type, the Action task owner must take an ass
 
 6.  Depending on your Action task type, select one of the following options.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d229302e108">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d138794e117">
 
 Choice
 
-</th><th align="left" id="d229302e111">
+</th><th align="left" id="d138794e120">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d229302e117">
+</th></tr></thead><tbody><tr><td id="d138794e126">
 
 **If the task is of type Assessment**
 
@@ -58,7 +58,7 @@ Steps
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d229302e150">
+</td></tr><tr><td id="d138794e159">
 
 **If the task is of type Investigation or Others**
 
@@ -79,7 +79,7 @@ Steps
 2.  Add the areas that are related to the compliance case. For example, the related areas include the policies, citations, control objectives, or risk events. For more information, see [Add a related area to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-related-areas-to-compliance-case.md).
 3.  Add the causes and consequences of this compliance case. For example, you can add the root cause for the reported compliance case or event and its consequences on the organization. For more information, see [Add a cause and consequence to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-causes-consequences-to-compliance-case.md).
 4.  Add the compliance regulations that might be impacted to the compliance case. For more information, see [Add compliance regulations to a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-regulations-to-compliance-case.md).
-5.  Add or create an issue related to a compliance case. For more information, see [Add or create an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md).
+5.  Add or create an issue related to a compliance case. For more information, see [Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md).
 
 -   **[Reassign an Assessment type Action task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/reassign-a-compliance-case-task.md)**  
 Reassign an Assessment type Action task to another user in the GRC: Compliance Case Management application. For example, a case analyst or an action task owner can reassign a compliance Action task to another Action task owner if an action task is wrongly assigned or isn’t accepted by the Action task owner.

@@ -1,20 +1,20 @@
 ---
 title: Raise help request for a workplace inquiry
-description: Submit a general workplace service request for issues that need a human response. Request help for issues that are not covered by current automated workflows.
+description: Submit a general workplace service request for issues that need a human response. Request help for issues that aren't covered by current automated workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-case-management/submit-gen-workplace-serv-req.html
 release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Request a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Requesting a workplace service, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Raise help request for a workplace inquiry
 
-Submit a general workplace service request for issues that need a human response. Request help for issues that are not covered by current automated workflows.
+Submit a general workplace service request for issues that need a human response. Request help for issues that aren't covered by current automated workflows.
 
 ## Before you begin
 
@@ -24,37 +24,31 @@ Role required: sn\_wsd\_core.workplace\_user
 
 ## About this task
 
+## About this task
+
 Request a workplace-related help or raise an issue about anything related to the workplace.
 
 If the workplace has a QR code available, you can scan the QR code and submit your request.
 
-You can also submit a general question using the Virtual agent chat support. Navigate to **Workplace Core** &gt; **Workplace service portal** &gt; **Workplace Service Portal Home** and click the chat icon \(\[Omitted image "chat-icon.png"\] Alt text: Chat icon.\). Type your question or select **Show Me Everything** to choose from the list of options to submit your query.
+You can also submit a general question using the Virtual agent chat support. From Employee Center portal, select the chat option \[Omitted image "chat-icon.png"\] Alt text: Chat icon. Type your question or select **Show Me Everything** to choose from the list of options to submit your query.
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Workplace Core** &gt; **Workplace service portal**.
+1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
-    **Note:** You can also raise a request from the Employee Center. On the home page, navigate to **Workplace** &gt; **Browse all Workplace** and select the workplace service.
+2.  On the Employee Center portal, select **Help Center** &gt; **Workplace Services**.
 
-2.  Open the **General** category.
+3.  From the list of workplace services, select **General request**.
 
-    1.  Click **Catalog**.
+    Alternatively, you can search for the workplace service and select it from the search results.
 
-    2.  Click **Browse by Categories**.
-
-    3.  In the Workplace Services Catalog, select **General**.
-
-        **Note:** If there are multiple catalogs configured on the portal, go to the Catalogs list and select **Workplace Services Catalog** &gt; **General**.
-
-3.  Click **Submit a general request**.
-
-4.  In the **What can we help you with?** field, enter your query or issue.
+4.  In the **What can we help you with** field, enter your query or issue.
 
 5.  **Add attachments** if required.
 
-6.  In the **What area needs attention**, specify the location details for which you are raising the request.
+6.  In the **What area needs attention** field, specify the location details for which you're raising the request.
 
-    If the Workplace Space Mapping plugin is installed, you can also click the **Find the space on a floor map** option to select the space directly on the map.
+    If the Workplace Space Mapping plugin is installed, you can also select the **Find the space on a floor map** option to select the space directly on the map.
 
     If employees have a permanent assignment in their workplace profile, the employee names are displayed on the map for a selected space. For more information, see [Display permanent seat assignments on floor maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/display-permanent-seats-on-maps.md).
 
@@ -66,7 +60,7 @@ You can also submit a general question using the Virtual agent chat support. Nav
 
     4.  In the **Space name** field, select the space.
 
-7.  Click **Submit**.
+7.  Select **Submit**.
 
 
 ## Result
@@ -77,15 +71,15 @@ Your request is submitted.
 
 Depending on your platform, do one of the following to view your requests:
 
--   On the Workplace Service Portal, go to the **Requests** tab to view your requests and reservations.
+-   On the Employee Center, go to the **Requests** tab to view your requests and reservations.
 -   On the Now Mobile app's navigation bar, tap **For Me** and scroll down to the My Request section to view your requests.
 -   In the virtual agent chat, type your question or select **Show Me Everything** to select from a list of available options.
 
-If you want to cancel a request, Click **Cancel Request**.
+If you want to cancel a request, select **Cancel Request**.
 
 When the request is resolved, select **Accept** or **Reject**.
 
-**Parent Topic:**[Request a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
+**Parent Topic:**[Requesting a workplace service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/request-workplace-services.md)
 
 **Related topics**  
 

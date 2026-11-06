@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Create Task activity
@@ -70,7 +70,7 @@ Condition Builder
 
 </td><td>
 
-Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** **Show additional options** to see this field.
+Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -98,7 +98,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,7 @@ Reference.User \[sys\_user\]
 
 </td><td>
 
-User responsible for completing the task associated with the activity.**Note:** **Show additional options** to see this field.
+User responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -246,6 +246,4 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Table|Table Name|Table containing new record.|
 |Record|Reference.Task\[task\]|Reference to record created.|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

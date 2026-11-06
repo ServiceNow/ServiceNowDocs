@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 35
-breadcrumb: [Agent Client Collector Monitoring reference, Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-M reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector Monitoring default checks and policies
@@ -2413,6 +2413,8 @@ Agent Client Collector provides the following policies for Cassandra health moni
 The following table lists the metrics that are gathered as output from Cassandra checks. Entries indicated as **Featured metrics** are high-visibility metrics that are displayed in the Operator Workspace Metric tab after an alert is generated. These metrics provide the operator with additional information to help them further explore the specified issue.
 -   **[Directory Scan monitoring default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/directory-scan-checks-policies.md)**  
 The Agent Client Collector provides the following default checks and policies for Directory Scan monitoring.
+-   **[Google Cloud Platform \(GCP\) metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/gcp-metrics.md)**  
+The following table lists and describes the metrics that are gathered by the **acc\_grp\_metrics\_list.json** configuration data file. The file is uploaded to a check definition or check instance, and the metrics in the file are monitored by the check for its agent.
 -   **[Glassfish default checks and policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/glassfish-checks-policies.md)**  
 Agent Client Collector provides the following default checks and policies for Glassfish monitoring.
 -   **[GlassFish metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/glassfish-metrics.md)**  

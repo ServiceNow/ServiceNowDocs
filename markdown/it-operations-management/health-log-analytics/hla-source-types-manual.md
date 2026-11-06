@@ -1,20 +1,20 @@
 ---
-title: Add source types manually
-description: Create a source type manually to stream log data to a specific source type rather than to the source type automatically extracted during mapping.
+title: Add a source type manually in Health Log Analytics
+description: Create a source type manually before you configure a data input if you want to stream log data to a specific source type. By default, Health Log Analytics automatically extracts the source type during the mapping process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-source-types-manual.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Additional data input setup tasks, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Additional data input setup tasks, Set up data inputs manually, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Add source types manually
+# Add a source type manually in Health Log Analytics
 
-Create a source type manually to stream log data to a specific source type rather than to the source type automatically extracted during mapping.
+Create a source type manually before you configure a data input if you want to stream log data to a specific source type. By default, Health Log Analytics automatically extracts the source type during the mapping process.
 
 ## Before you begin
 
@@ -103,12 +103,12 @@ Option for indicating that Learning mode for the source type is ongoing. The AI 
 
 ## What to do next
 
-Configure a data input and then map it to the new source type. For more information, see [Set up data inputs for Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md) and [Map raw log data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
+Configure a data input and then map it to the new source type. For more information, see [Set up data inputs in Health Log Analytics manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-manual.md) and [Map raw log data manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md).
 
-**Parent Topic:**[Additional data input setup tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
+**Parent Topic:**[Additional data input setup tasks in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-setup-extra.md)
 
 **Related topics**  
 
 
-[Refine the source type structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md)
+[Refine the source type structure in Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-type-structure-refine.md)
 

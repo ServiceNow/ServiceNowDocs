@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/mab-menu-screen-listed.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Mobile App Builder categories home screen, Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [MAB categories home screen, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Menu options in the categories home screen

@@ -1,32 +1,26 @@
 ---
 title: Register associated records in the offline cache
-description: Admins can configure offline mode to include associated records in the offline cache when a user performs an action in online mode on their Mobile Agent.
+description: Configure a write-back action step by adding an execution script that registers newly created instance records for synchronization. Local and server-side records are then reconciled when connectivity is restored, preventing duplicate records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/register-assoc-records-offline-cache.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Offline mode, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Offline record reconciliation, Action items/action steps, Offline mode setup options, Offline mode, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Register associated records in the offline cache
 
-Admins can configure offline mode to include associated records in the offline cache when a user performs an action in online mode on their Mobile Agent.
+Configure a write-back action step by adding an execution script that registers newly created instance records for synchronization. Local and server-side records are then reconciled when connectivity is restored, preventing duplicate records.
 
 ## Before you begin
 
-Role required: admin
+Role required: mobile\_admin, admin
 
 ## About this task
 
-When your ServiceNow instance has offline mode enabled, you can configure their instance to include additional records in the offline cache. Then these additional records are available when the end user is in offline mode.
-
-**Important:** This feature is supported for scripted writeback actions only.
-
-You must configure an action item before you can use the following steps to register associated records in the offline cache. See [Configure action items and action steps in offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/configure-action-item-offline.md) for information about configuring an action item.
-
-You must use scripting to configure this task, which requires using an API.
+When a record is created offline, it is assigned a temporary ID that needs to be matched with the permanent ID created on the server once connectivity is restored. You add the addRecordForSync\(\) method to your write-back action step so that the offline and server records are automatically linked during synchronization, preventing duplicate records.
 
 ## Procedure
 
@@ -44,28 +38,42 @@ You must use scripting to configure this task, which requires using an API.
 
 5.  In the **Type** field, select **Script**.
 
-6.  In the **Execution Script** field, add the synchronization script.
+6.  In the **Execution Script** field, add the execution script, `actionResult.addRecordForSync([tableName], [sysId]);`
 
-    For example, the following script automatically creates a work order task when a work order is created while the end user is online. Then the work order task is available to the end user when they are in the offline mode:
+    For example, in the following script the write-back action creates a new time worked entry on the task\_time\_worked table. It retrieves the time worked value from the form input, creates a new record linked to the relevant task using its sys\_id, and inserts it into the instance. The addRecordForSync\(\) method is then called to associate the newly created instance record with the corresponding local record on the device, ensuring they are reconciled during the offline synchronization.
 
     ```
-    (function WriteBackAction(input) {
-        //Register additional record for offline mode
-        actionResult.addRecordForSync("work-order-task","ef1a8b34df113100dca6a5f59bf26327")
-    })(input);
+    (function WriteBackAction(parm_input,parm_variable,actionResult) { 
+    
+    var timeWorked = parm_input[“time_worked”]; 
+    
+    var gr = new GlideRecord("task_time_worked"); 
+    gr.initialize(); 
+    gr.task = parm_variable.task_sys_id; 
+    gr.time_worked = timeWorked; 
+    var newId = gr.insert(); 
+    actionResult.addRecordForSync("task_time_worked", newId); 
+    
+    })(parm_input,parm_variable,actionResult); 
     ```
 
-    Where `"work-order-task"` is the table to be included in the document data section of the writeback response and `"ef1a8b34df113100dca6a5f59bf26327"` is the sys\_id on the table.
+    Where:
 
-    **Note:**
-
-    -   This API can be called multiple times to register multiple records on different tables or on the same table.
-    -   To specify the record that you want to include in the offline database, use the table name \(string\) and the sys\_id \(string\) of the record.
-    -   The record specified by sys\_id and its associated fields appear in the document data section of the writeback response.
-    -   The record specified by sys\_id is then synced with the offline database.
-    -   The data that you add with this API must be encapsulated in the refreshed document or in the destination document of the writeback response. To ensure that at least a refreshed or destination document is present in your writeback response, you can configure a destination screen on the button that invokes this API. When you configure a destination screen on the button that invokes this API, your data is guaranteed to be included in the destination document.
+    -   task\_time\_worked is the `tableName` that contains the record created on the instance.
+    -   `newId`is the `sysId`of the record created on the instance.
+    -   `actionResult`is the object on which the `addRecordForSync()`method is called.
 7.  Select **Save**.
 
 
-**Parent Topic:**[Offline mode](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/mobile-offline-mode.md)
+## Result
+
+When the device reconnects and synchronization occurs:
+
+-   The server creates the record during the online step.
+-   The addRecordForSync\(\) method registers the server record as part of the action result.
+-   The mobile platform reconciles the locally created record with the server-side record. The device and instance remain consistent without creating duplicate records.
+
+**Note:** The addRecordForSync\(\) method can be called multiple times to register multiple records on different tables or on the same table.
+
+**Parent Topic:**[Offline record reconciliation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/offline-record-reconciliation.md)
 

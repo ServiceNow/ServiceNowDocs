@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_CreateAnAnswerForAQuestion.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create quizzes with forms, Using Quizzes, Quizzes, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,8 +27,6 @@ When you create a question with one of these data types, the Assessment Metric D
 1.  Open the question record you want to edit.
 
 2.  Click **New** in the **Assessment Metric Definitions** related list.
-
-    \[Omitted image "Quiz\_Metric\_Definitions.png"\] Alt text:
 
 3.  Set the order in which the answers appear in the quiz by providing a hierarchical number in the **Value** field.
 

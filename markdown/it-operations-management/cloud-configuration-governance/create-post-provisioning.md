@@ -1,20 +1,20 @@
 ---
 title: Create post-provision operations
-description: Create post-provision tasks for newly provisioned catalog items by defining workflows, scripts, CAPI calls, or resource operations. For efficiency, set up a post-provision operation, eliminating the need for manual invocation. This approach enhances time management, ensuring seamless execution of desired actions on the catalog item after resource provisioning.
+description: Create post-provision tasks for newly provisioned catalog items by defining subflows, scripts, CAPI calls, or resource operations. For efficiency, set up a post-provision operation, eliminating the need for manual invocation. This approach enhances time management, ensuring seamless execution of desired actions on the catalog item after resource provisioning.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-configuration-governance/create-post-provisioning.html
 release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Create a cloud catalog item, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create post-provision operations
 
-Create post-provision tasks for newly provisioned catalog items by defining workflows, scripts, CAPI calls, or resource operations. For efficiency, set up a post-provision operation, eliminating the need for manual invocation. This approach enhances time management, ensuring seamless execution of desired actions on the catalog item after resource provisioning.
+Create post-provision tasks for newly provisioned catalog items by defining subflows, scripts, CAPI calls, or resource operations. For efficiency, set up a post-provision operation, eliminating the need for manual invocation. This approach enhances time management, ensuring seamless execution of desired actions on the catalog item after resource provisioning.
 
 ## Before you begin
 
@@ -58,12 +58,6 @@ Script: Enter the name of the script.
 -   Resource:
     -   Resource Interface
     -   Interface Operation
--   Workflow:
-
-Flow: Select a workflow. All workflows created in the instance are listed.
-
-**Note:** You cannot invoke flows while adding a resource operation step. This is a known limitation.
-
 -   Flow: Select a subflow. All active subflows in the instance are listed.
 
 **Note:** For more information, see [Subflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/subflows.md).

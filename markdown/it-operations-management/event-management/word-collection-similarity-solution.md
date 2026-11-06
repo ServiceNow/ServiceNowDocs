@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Alert similarity, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Alert similarity, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Similarity solutions
@@ -18,7 +18,7 @@ Similarity solutions enable you to use Machine Learning \(ML\) to compare the te
 
 ## Training a similarity solution
 
-To train a similarity solution, you collect words to compile a collection that Machine Learning \(ML\) can use to compare text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert to see whether the words in the set match words in an open alert. The resolved alert, which is similar to an open alert, provides an example to show how the open alert can be resolved.
+To train a similarity solution, you collect words to compile a collection that Machine Learning \(ML\) can use to compare text in alert fields. ML compares text in the **Short Description**, **Description**, **Source**, **Type**, **Resource**, and **Metric Name** fields in a resolved alert to see whether the words match words in an open alert. The resolved alert provides an example to show how the open alert can be resolved.
 
 To train a solution, the filter must return at least one record. If your filter returns no records, update it.
 
@@ -27,6 +27,8 @@ To train a solution, the filter must return at least one record. If your filter 
 -   Ensure that the records you train are not too old and that they are relevant to your business needs. Keep the words in the collection current.
 -   Do not use hard-coded dates as filters because these filters are not updated when you retrain solutions unless you update them manually before every retraining. Instead, use relative date filters, for example, the last 3 months, last 6 months, or last 12 months.
 -   Perform training as needed until it provides an acceptable similarity solution. This practice provides you time to review and update your solution definition.
+
+For more information on similarity solution concept, see [Create and train a similarity solution](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-similarity-solution.md).
 
 ## Fields to include in the solution
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring CMDB Query Builder, CMDB Query Builder, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Query Builder, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure the relationships to query on
@@ -32,19 +32,86 @@ When you connect CI classes on the canvas, the CMDB Query Builder displays the C
 
 2.  Configure the relationship properties in the Connection Properties side-bar.
 
-    | | |
-    |---|---|
-    |Relationship type|Query for CIs and descending classes with specific relationship types.|
-    |Relationship direction|Which CI class is the parent and which CI class is the child in the relationship.|
-    |Relationship level|Query only on first-level relationship or also on second-level relationships.|
-    |No relationships|Query for CIs which have no relationship to the set class.|
-    |References fields|A field that the parent and ancestor parent CI classes use to reference the child CI class.|
+<table id="table_jcm_3sr_p1c"><thead><tr><th>
 
-3.  Select **Save**.
+Section
+
+</th><th>
+
+Field
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Relationship Direction
+
+</td><td>
+
+**Parent**
+
+ **Child**
+
+</td><td>
+
+Set the relationship direction. Which CI class is the parent and which CI class is the child in the relationship.
+
+</td></tr><tr><td>
+
+Relationship Levels
+
+</td><td>
+
+**Level**
+
+</td><td>
+
+Query only on first-level relationship or also on second-level relationships.
+
+</td></tr><tr><td>
+
+Relationship Types and Related Items
+
+</td><td>
+
+**No Relationships**
+
+</td><td>
+
+Select to query for CIs which have no relationships to the set class.
+
+</td></tr><tr><td>
+
+Relationship Types and Related Items
+
+</td><td>
+
+Select **Add Relationship Types**
+
+</td><td>
+
+Query for CIs and descending classes with specific relationship types.
+
+</td></tr><tr><td>
+
+Relationship Types and Related Items
+
+</td><td>
+
+Select **Add a Related Item**
+
+</td><td>
+
+Query on related CIs using a field that the parent and ancestor parent CI classes use to reference the child CI class.
+
+</td></tr></tbody>
+</table>3.  Select **Save**.
 
 
 **Related topics**  
 
 
-[CMDB groups]()
+[CMDB groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-groups.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Complaint Management
 classification: financial-services-complaint-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Financial Services Complaint Management, Complaint Management, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Complaint Management, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Work on a complaint task for a complaint case
@@ -33,15 +33,15 @@ If assignment rules are configured, the task is automatically assigned to an age
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Click the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  In the **Lists** tab, under **Complaint service tasks**, open the task list.
 
     -   For your assigned tasks, click **Assigned to me**.
     -   For all complaint service tasks, click **All**.
-4.  In the list, select the task that you want to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a task that is not assigned to you yet, assign it to yourself by clicking **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Enter the requested information in **Closure comments** field
 

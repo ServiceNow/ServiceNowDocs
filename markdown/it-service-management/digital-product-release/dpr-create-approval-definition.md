@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Digital Product Release, IT Service Management]
 ---
@@ -36,9 +36,9 @@ An approval definition is a set of rules that specify how tasks will be approved
 
     -   To create an approval definition, select **New**.
     -   To modify an existing approval definition, open the approval definition from the list.
-5.  On the form, fill in the fields.
+5.  On the Approval definition form, fill in the fields.
 
-    For more information on approval definition field descriptions, see [Approval definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/approval-definition-form.md).
+    For a description of the field values, see [Approval definition form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/approval-definition-form.md).
 
 6.  Select **Submit**.
 

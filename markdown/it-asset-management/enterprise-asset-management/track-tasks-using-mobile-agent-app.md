@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage an Enterprise Asset Management task using the Mobile Agent application, Managing enterprise assets and tasks using the Mobile Agent application, Enterprise Asset Management, Asset Management]
 ---
 
 # View your tasks using the Mobile Agent application
@@ -32,13 +32,13 @@ Role required: sn\_eam.enterprise\_admin, sn\_eam.enterprise\_asset\_manager, or
 
 4.  Filter your tasks by field values.
 
-    1.  Tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\).
+    1.  Tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:.
 
     2.  Enter values in the fields by which you want to filter your task: **Due Date**, **Asset**, **Location**, or **Priority**.
 
 5.  Sort your tasks.
 
-    1.  Tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\).
+    1.  Tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:.
 
     2.  Tap **Sort by**.
 

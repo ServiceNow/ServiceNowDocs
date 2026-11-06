@@ -7,7 +7,7 @@ release: yokohama
 product: System Events
 classification: system-events
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [System events reference, System Events, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [System events reference, System Events, Configure core features, Ad
 
 You can use script actions to create server-side scripts that perform a variety of tasks, such as modifying a configuration item \(CI\), or managing failed login attempts. Script actions are triggered by events only.
 
-## Configuration
+Role required: sysevent\_script\_action\_admin or admin
 
 To create a new script action, navigate to **System Policy** &gt; **Events** &gt; **Script Actions** and click **New**.
 
@@ -86,9 +86,5 @@ Script that runs when the condition you define evaluates to true. Two additional
 -   current: a GlideRecord- the event scheduled on behalf of \(incident for example\).
 
 </td></tr></tbody>
-</table>Sample of a script action that creates an email notification for Workflow activity:
-
-\[Omitted image "ScriptActionWorkflow.png"\] Alt text: Script action workflow notification
-
-**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-events/system-events-reference.md)
+</table>**Parent Topic:**[System events reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/system-events/system-events-reference.md)
 

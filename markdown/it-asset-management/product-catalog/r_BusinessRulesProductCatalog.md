@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Product Catalog, Product Catalog, IT Asset Management]
+breadcrumb: [Components installed with Product Catalog, Product Catalog, Common applications, Asset Management]
 ---
 
 # Business rules installed with Product Catalog

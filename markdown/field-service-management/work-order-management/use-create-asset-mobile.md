@@ -1,20 +1,20 @@
 ---
 title: Track an asset for a work order task from a mobile device
-description: Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the Now Mobile Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
+description: Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the ServiceNow Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/use-create-asset-mobile.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Inventory on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Inventory, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Track an asset for a work order task from a mobile device
 
-Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the Now Mobile Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
+Track the status of an asset that you used to execute a work order task or an asset that you removed or replaced by using the ServiceNow Agent application on a mobile device. You can track the status of these assets as you're doing the task from a task location.
 
 ## Before you begin
 
@@ -31,7 +31,7 @@ When you record the asset usage, the following actions occur:
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -53,15 +53,15 @@ When you record the asset usage, the following actions occur:
 
 7.  Record the information about the usage or removal of an asset by tapping one of the following options.
 
-<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d29343e197">
+<table id="choicetable_jdq_whz_4fb"><thead><tr><th align="left" id="d30088e203">
 
 Option
 
-</th><th align="left" id="d29343e200">
+</th><th align="left" id="d30088e206">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d29343e206">
+</th></tr></thead><tbody><tr><td id="d30088e212">
 
 **Record asset usage**
 
@@ -82,7 +82,7 @@ Record the usage of an asset:
     6.  Go back to the Use Part screen by tapping the back icon.
  The asset is added to the Asset Usages related list and the state for the part changes to **In Use**.
 
-</td></tr><tr><td id="d29343e277">
+</td></tr><tr><td id="d30088e283">
 
 **Record asset removal**
 
@@ -112,7 +112,7 @@ Record the removal of an asset:
     9.  Go back to the Remove Part screen by tapping the back icon.
  The asset is removed from the Asset Usages related list and the state for the part changes to **In Stock** and the substate changes to **Defective**.
 
-</td></tr><tr><td id="d29343e405">
+</td></tr><tr><td id="d30088e411">
 
 **Record asset replacement**
 
@@ -148,8 +148,6 @@ Record the replacement of an asset:
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Inventory on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/easily-track-parts.md)
-
 **Related topics**  
 
 

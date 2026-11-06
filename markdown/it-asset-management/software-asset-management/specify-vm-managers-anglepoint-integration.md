@@ -1,24 +1,28 @@
 ---
-title: Specify the virtual machine \(VM\) managers for which you are tracking IBM licenses
-description: Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only.
+title: Specify VMMs for IBM licenses
+description: Specify the virtual machine managers \(VMMs\), such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VMMs only.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/specify-vm-managers-anglepoint-integration.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Specify the virtual machine \(VM\) managers for which you are tracking IBM licenses
+# Specify VMMs for IBM licenses
 
-Specify the virtual machine \(VM\) managers, such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VM managers only.
+Specify the virtual machine managers \(VMMs\), such as VMware vCenter Servers and IBM Hardware Management Consoles \(HMCs\), for which you want to track IBM licenses. You can track licenses for IBM software that is discovered within these specified VMMs only.
 
 ## Before you begin
 
 Role required: sam\_admin or sam\_user
+
+## About this task
+
+**Note:** Nutanix and public cloud environments do not require this step.
 
 ## Procedure
 
@@ -48,7 +52,7 @@ VM Manager
 
 </td><td>
 
-VM manager for which you want to track IBM licenses.
+VMM for which you want to track IBM licenses.
 
 </td></tr><tr><td>
 
@@ -56,7 +60,7 @@ Type
 
 </td><td>
 
-Type of VM manager. Select one of the following options:-   **vCenter**
+Type of VMM. Select one of the following options:-   **vCenter**
 -   **ESX Server**
 -   **HMC**
 -   **All AIX Servers**

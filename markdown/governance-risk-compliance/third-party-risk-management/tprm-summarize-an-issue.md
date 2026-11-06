@@ -7,10 +7,10 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-keywords: [Now Assist, generative AI, GenAI, ServiceNow AI Platform]
-breadcrumb: [Configure, Now Assist, Third-party Risk Management, Governance, Risk, and Compliance]
+keywords: [ServiceNow Otto, generative AI, GenAI, ServiceNow AI Platform]
+breadcrumb: [AI configuration, Configure, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
 
 # Activate the TPRM issue summarization skill
@@ -31,15 +31,15 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin**.
+1.  Navigate to **All** &gt; **Admin Center** &gt; **AI Admin Hub**.
 
-2.  Navigate to the Now Assist **Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
+2.  Navigate to the **AI Skills** tab and select **Technology** &gt; **Risk &amp; Sustainability**.
 
 3.  Under the **TPRM issue summarization** skill, select **Activate skill**.
 
 4.  View the skill in all Risk &amp; Sustainability products by selecting **Select display** and then toggling the **Display** button.
 
-    The skill can be displayed in the Vendor Management Workspace and the workspaces of other Now Assist Risk &amp; Sustainability products when they are installed.
+    The skill can be displayed in the Vendor Management Workspace and the workspaces of other AI Risk &amp; Sustainability products when they are installed.
 
 5.  Review and confirm that the summarization skill meets your requirements.
 
@@ -55,7 +55,7 @@ By default, a TPRM issue in the Third-party Risk Management application shows th
 
         **Note:**
 
-        You can perform the following actions on Now Assist skills if you have the sn\_generative\_ai.nsa\_admin role:
+        You can perform the following actions on AI skills if you have the sn\_generative\_ai.nsa\_admin role:
 
         -   [Edit a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/edit-a-now-assist-skill.md).
         -   [Troubleshoot a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/troubleshoot-a-now-assist-skill.md).

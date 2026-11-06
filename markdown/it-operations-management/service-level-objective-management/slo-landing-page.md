@@ -1,26 +1,26 @@
 ---
 title: Service Level Objective Management
-description: Service Level Objective Management \(SLO Management\) helps your organisation define, track, and meet agreed-upon service quality standards. It works in conjunction with Service Level Agreements \(SLAs\) to ensure service delivery meets customer expectations.
+description: Service Level Objective Management \(SLO Management\) helps your organization define, track, and meet agreed-upon service quality standards. It works alongside Service Level Agreements \(SLAs\) to help make sure that services meet customer expectations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-level-objective-management/slo-landing-page.html
 release: yokohama
 product: Service Level Objective Management
 classification: service-level-objective-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM Health, IT Operations Management]
+breadcrumb: [ITOM AIOps, IT Operations Management]
 ---
 
 # Service Level Objective Management
 
-Service Level Objective Management \(SLO Management\) helps your organisation define, track, and meet agreed-upon service quality standards. It works in conjunction with Service Level Agreements \(SLAs\) to ensure service delivery meets customer expectations.
+Service Level Objective Management \(SLO Management\) helps your organization define, track, and meet agreed-upon service quality standards. It works alongside Service Level Agreements \(SLAs\) to help make sure that services meet customer expectations.
 
 ## Overview of how SLO Management works
 
 -   SLAs set the expectations
 
-    SLAs are formal agreements that outline the level of service a customer can expect. This can include things such as response times, resolution times, and uptime targets.
+    SLAs are formal agreements that outline the level of service a customer can expect. SLAs can include response times, resolution times, and uptime targets.
 
 -   SLOs defines how to meet expectations
 
@@ -41,6 +41,14 @@ Service Level Objective Management \(SLO Management\) helps your organisation de
 </td><td>
 
 [Use\[Omitted image "bus-investor-relations-2.svg"\] Alt text:Using Service Level Objective Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/using-service-level-objective-management.md)
+
+</td></tr><tr><td>
+
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about Service Level Objective Management components, such as fields, tables, and properties.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-level-objective-management/service-level-objective-management-reference.md)
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Troubleshoot and get help

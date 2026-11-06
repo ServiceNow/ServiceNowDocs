@@ -1,5 +1,5 @@
 ---
-title: Manually normalize a SAM Foundation software discovery model in classic
+title: Manually normalize a SAM Foundation software discovery model
 description: You can edit a software discovery model to manually normalize discovered software on the Software Discovery Models form so that it can be reconciled.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/software-asset-management-foundation-plugin/t\_EditASoftwareDiscModelSAMF.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management Foundation plugin
 classification: software-asset-management-foundation-plugin
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Software Asset Management Foundation plugin classic, Software Asset Management Foundation plugin, ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [Configuring the classic Basic Software Asset Management, Basic Software Asset Management, ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
-# Manually normalize a SAM Foundation software discovery model in classic
+# Manually normalize a SAM Foundation software discovery model
 
 You can edit a software discovery model to manually normalize discovered software on the Software Discovery Models form so that it can be reconciled.
 
@@ -35,5 +35,5 @@ If the information automatically added to the software discovery model is incomp
     The normalization status is set to Manually Normalized.
 
 
-**Parent Topic:**[Configuring Software Asset Management Foundation plugin classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
+**Parent Topic:**[Configuring the classic Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/samf-plugin-configuration.md)
 

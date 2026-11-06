@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/explore-customer-engagement-sequences.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Explore, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Sales automation, Explore, Sales Customer Relationship Management]
 ---
 
 # Customer Engagement Sequences
@@ -32,41 +32,52 @@ Description
 
 Sequence admin, sequence writer
 
- \(For example, Sales admin, Sales Development Manager \(SDR\)\)
+ \(For example, Sales admin, Sales Development Manager \(SDM\)\)
 
 </td><td>
 
-Creates multi-step sequences using Workflow Studio and defines triggers \(start conditions\), activities \(for example, call attempts\), and exit conditions.
+Creates multi-step sequences using Workflow Studio and defines triggers \(start conditions\), activities \(for example, call or email attempts\), and exit conditions.
 
 </td></tr><tr><td>
 
-Sequence task owner
+Sequence executor
 
- \(For example, Sales representative, customer success manager, telesales representative\)
+ \(For example, Sales Development Representative \(SDR\), account executive, customer success manager, telesales representative\)
 
 </td><td>
 
 Views sequence tasks that are assigned to them and executes targeted outreach strategies, often using a combination of emails, phone calls, and social media, to engage prospects and move them through the initial stages of the sales funnel using the predefined sequence steps.
+
+</td></tr><tr><td>
+
+Business stakeholder
+
+ \(For example, sales operations manager\)
+
+</td><td>
+
+Views sequences in Workflow Studio to identify and share high-performing workflows across territories, driving process optimization, consistency, and improved sales performance.
 
 </td></tr></tbody>
 </table>## Customer Engagement Sequences workflow
 
 The following illustration describes the tasks involved in configuring and using Customer Engagement Sequences.
 
-\[Omitted image "customer-engagement-sequences-workflow-landing.svg"\] Alt text: Infographic showing how sales development representatives create customer engagement sequences and how sales representatives use them for interacting with prospective customers. For details, refer to the following description.
+\[Omitted image "customer-engagement-sequences-workflow-landing.svg"\] Alt text: Infographic showing how to create sequences and complete outreach using Customer Engagement Sequences. For details, refer to the list of tasks that follows.
 
-1.  As a sequence admin, create a customer engagement sequence such as a lead-nurturing sequence from the CRM Workspace.
+1.  As a sequence writer, create a customer engagement sequence such as a lead-nurturing sequence from the CRM Workspace.
 2.  Define the sequence parameters:
-    -   Trigger conditions \(for example, when a new lead is created\)
+    -   Single or multi-trigger conditions \(for example, when a new lead is created\)
     -   Sequence steps \(for example, call, follow-up, email\)
-    -   Step frequency \(for example, wait three days between steps\)
+    -   Delay between steps \(for example, wait three days between two call attempts\)
     -   Exit conditions \(for example, lead conversion or disqualification\)
 3.  Test and activate the sequence.
 4.  Every record that meets the trigger condition is added to the sequence, and a sequence task associated with the record is created. For example, when a new lead record is created in the system, the sequence is run, and it generates a sequence task.
-5.  As a sequence task owner, view the assigned sequence task and complete the series of predefined activities that are part of it. For example:
+5.  As a sequence executor, view the assigned sequence task and complete the series of predefined activities that are part of it. For example:
     -   Day 1: Call the prospect
     -   Day 4: Make a follow-up call and use a questionnaire to gather more information
 6.  The sequence task moves to closed state when all sequence steps have been completed or the predefined exit condition is met.
+7.  Business stakeholders with sequence reader role can view the sequences in Workflow Studio to suggest process improvements to the SDMs and share high-performing sequences with other sales teams situated in different territories.
 
 ## Customer Engagement Sequences benefits
 
@@ -99,6 +110,30 @@ Sequence admin, sequence writer
 
 </td></tr><tr><td>
 
+Reduce duplicating sequence workflows by specifying multiple record-based triggers on various entities that can initiate a sequence.
+
+</td><td>
+
+[Define trigger conditions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/define-trigger-conditions.md)
+
+</td><td>
+
+Sequence admin, sequence writer
+
+</td></tr><tr><td>
+
+Design telesales-oriented sequences using the schedule call activity, and enable outbound click-to-call capability by integrating with platforms such as Amazon Connect.
+
+</td><td>
+
+[Add a schedule call activity to a telesales workflow sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/add-schedule-call-activity.md)
+
+</td><td>
+
+Sequence admin, sequence writer
+
+</td></tr><tr><td>
+
 -   Boost productivity by minimizing repetitive tasks so sales representatives can focus on high-value activities.
 -   Reduce the chance of missing a follow-up, ensure consistency in outreach, and minimize manual effort by following predefined steps.
 -   Accelerate onboarding by enabling new sales representatives to adopt proven outreach strategies from existing sequences.
@@ -109,7 +144,31 @@ Sequence admin, sequence writer
 
 </td><td>
 
-Sequence task owner
+Sequence executor
+
+</td></tr><tr><td>
+
+Use the click-to-call capability to connect with prospective customers from the sequence task without needing to leave your workspace.
+
+</td><td>
+
+[Fulfill a telesales sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/complete-telesales-sequences.md)
+
+</td><td>
+
+Sequence executor
+
+</td></tr><tr><td>
+
+Accelerate lead nurturing by creating an email-based sequence that automates outreach and follow-up.
+
+</td><td>
+
+[Customize the Lead nurturing email sequence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/customize-lead-nurturing-email-sequence.md)
+
+</td><td>
+
+Sequence admin, sequence writer
 
 </td></tr></tbody>
 </table>## What to explore next

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-data-model-svc-app-in-tables.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Service Applicant, Public Sector Data Model, Public Sector Digital Services reference, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Service Applicant, Data Model, Reference, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Tables installed with Service Applicant Information Plugin
@@ -16,9 +16,9 @@ This section describes the tables installed with the Service Applicant Informati
 
 |Table|Description|Extends Table|
 |-----|-----------|-------------|
-|Applicant \(sn\_svc\_appl\_info\_applicant\)|Contains applicant profile information and relationships to cases or applications.|N/A|
-|Point in time content \(sn\_svc\_appl\_info\_pitc\)|Contains applicant information captured at specific moments, preserving historical records for audits, appeals, and compliance requirements.|N/A|
-|Letter Detail \(sn\_svc\_appl\_info\_letter\_details\)|Contains details about correspondence and official communications related to applicants.|N/A|
+|Applicant|Contains applicant profile information and relationships to cases or applications.|N/A|
+|Point in time content|Contains applicant information captured at specific moments, preserving historical records for audits, appeals, and compliance requirements.|N/A|
+|Letter Detail|Contains details about correspondence and official communications related to applicants.|N/A|
 
 **Parent Topic:**[Service Applicant Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-data-model-service-applicant.md)
 

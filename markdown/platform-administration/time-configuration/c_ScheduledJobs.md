@@ -7,9 +7,9 @@ release: yokohama
 product: Time Configuration
 classification: time-configuration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [System scheduler, Exploring time configuration, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [System scheduler, Explore, Time configuration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Scheduled jobs
@@ -51,7 +51,7 @@ A scheduled job can be in any one of the following states.
 
 ## Schedule job errors
 
-If you encounter errors generating a scheduled job, visit [Troubleshoot a scheduled job through Application Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/troubleshoot-a-scheduled-job.md) for additional information.
+If you encounter errors generating a scheduled job, visit  for additional information.
 
 -   **[Create a scheduled job](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_CreateAScheduledJob.md)**  
 Create a scheduled job on the Schedule Job \[sysauto\] table.
@@ -59,6 +59,8 @@ Create a scheduled job on the Schedule Job \[sysauto\] table.
 Some special cases require care in job scheduling.
 -   **[View a schedule item](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/t_ViewAScheduleItem.md)**  
 You can view scheduled items, which are individual instances of a scheduled job, from the system scheduler.
+-   **[Advanced options for scheduled jobs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/advanced-options-for-scheduled-jobs.md)**  
+Advanced scheduling options for scheduled jobs support greater flexibility in job planning and execution. You can configure jobs to start on a future date, end on a particular date, and define how the job should repeat.
 
 **Parent Topic:**[System scheduler](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/time-configuration/c_SystemScheduler.md)
 

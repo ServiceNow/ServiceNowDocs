@@ -1,20 +1,20 @@
 ---
 title: Account onboarding landing page
-description: Get real time visibility into your onboarding cases and track your onboarding tasks.
+description: Get real-time visibility into your onboarding cases and track your onboarding tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-events-onboarding-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using account onboarding, Account onboarding, Account Lifecycle Events]
+breadcrumb: [Account onboarding, Use, Customer Success Management]
 ---
 
 # Account onboarding landing page
 
-Get real time visibility into your onboarding cases and track your onboarding tasks.
+Get real-time visibility into your onboarding cases and track your onboarding tasks.
 
-As a onboarding agent \(sn\_acct\_lc\_agent\), you can use this page to quickly scan and prioritize their onboarding cases and tasks. The following score cards with real time data are displayed:
+As a onboarding agent \(sn\_acct\_lc\_agent\), you can use this page to quickly scan and prioritize their onboarding cases and tasks. The following score cards with real-time data are displayed:
 
 -   My active onboarding cases: Number of active onboarding cases assigned to you.
 -   Not updated in &gt;3d cases: Active cases that have not been updated in more than 3 days and are not in a Closed or Canceled state.
@@ -26,5 +26,7 @@ For each of the cards, historical data trend for the last 3 months is also displ
 
 \[Omitted image "account-lifecycle-landing.png"\] Alt text: Account Lifecycle Events - Onboarding page
 
-Click on a score card to view a list of records that match the appropriate filter condition. You can drill down to the record page of the case, task, or risk signal to view additional details.
+Select a score card to view a list of records that match the appropriate filter condition. You can drill down to the record page of the case, task, or risk signal to view additional details.
+
+**Parent Topic:**[Account onboarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-use.md)
 

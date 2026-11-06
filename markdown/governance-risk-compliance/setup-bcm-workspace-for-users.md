@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setup-bcm-workspace-for-users.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Setting up the Business Continuity Management \(BCM\) application for use requir
 
 Configuring the BCM application data helps to equip the workspace with the necessary templates for all kinds of crises. You can define elements such as items and assets, categorize impacts, set tier levels for recovery, and timeframes. BCM users can then find all the necessary, correct, and current data required to complete their tasks on the workspace.
 
-The following configurations are required to set up the business continuity workspace for different users who would be using the workspace:
+These configurations are required to set up the business continuity workspace for different users who would be using the workspace:
 
 -   For user roles and access control limitations to the scoped BCM applications, see [Components installed with Business Continuity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/installed-with-bcm.md).
 -   To configure element definitions, see [Configure element definitions for Business Continuity Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/configure-element-definitions.md)

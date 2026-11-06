@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up a travel estimate provider, Create a scheduling attribute for Schedule Optimization, Configuring Schedule Optimization, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Travel estimate provider, Create a scheduling attribute, Schedule Optimization, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Set up a connection and credential for Beans.ai travel estimate provider
@@ -28,7 +28,7 @@ To integrate Beans.ai with, you must provide your Beans.ai credentials. Beans.ai
 
 ## Before you begin
 
-Role required: admin
+Role required: wm\_admin
 
 ## Procedure
 
@@ -42,9 +42,9 @@ Role required: admin
 
 5.  Select **Create**.
 
-6.  Limit the number of location points per inquiry to Beans.ai
+6.  Limit the number of location points for each inquiry to Beans.ai.
 
-    For more information, see [Schedule optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md).
+    For more information, see [Schedule Optimization properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/schedule-optimization-properties.md).
 
 
 ## What to do next

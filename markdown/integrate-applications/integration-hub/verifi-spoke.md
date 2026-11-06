@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Verifi Spoke
@@ -18,15 +18,15 @@ Integrate your ServiceNow instance with the Verifi Spoke to streamline the card 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-## Subscription information
+## Integration Hub subscription
 
-This spoke requires a subscription. Contact your ServiceNow account manager or sales representative for subscription details. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf)
+This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
 ## Spoke version
 
-Verifi Spoke v1.0 is the latest version.
+Verifi Spoke v1.0 is the latest version. For version history of the spoke, see [Verifi Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-verifi-spoke.html).
 
 ## Supported versions
 
@@ -44,7 +44,8 @@ Verifi Spoke enables a flow designer to build workflows by using actions that in
 
 ## Spoke requirements
 
-Set up the JSON Web Token \(JWT\) Key with a shared key \(HMAC\) and connect a JWT provider to the signing configuration by using a JWT key reference.
+-   Integration Hub subscription
+-   Set up the JSON Web Token \(JWT\) Key with a shared key \(HMAC\) and connect a JWT provider to the signing configuration by using a JWT key reference.
 
 ## Spoke dependencies
 

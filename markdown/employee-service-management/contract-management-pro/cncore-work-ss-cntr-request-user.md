@@ -1,24 +1,24 @@
 ---
 title: Work on self-served contract requests as a contract user
-description: As a contract user, edit request, regenerate contract document, and send for signature.
+description: Edit a contract request, regenerate the contract document, and send it for signature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-work-ss-cntr-request-user.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on self-served contract requests as a contract user
 
-As a contract user, edit request, regenerate contract document, and send for signature.
+Edit a contract request, regenerate the contract document, and send it for signature.
 
 ## Before you begin
 
-Role required: sn\_lg\_cnt.contract\_user
+Role required: sn\_cm\_core.contract\_user
 
 ## Procedure
 
@@ -28,23 +28,23 @@ Role required: sn\_lg\_cnt.contract\_user
 
 3.  Work on the contract request.
 
-<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d731582e63">
+<table id="choicetable_phr_kxb_gzb"><thead><tr><th align="left" id="d789804e72">
 
 Action
 
-</th><th align="left" id="d731582e66">
+</th><th align="left" id="d789804e75">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d731582e72">
+</th></tr></thead><tbody><tr><td id="d789804e81">
 
 **Modify the request details**
 
 </td><td>
 
-Modify the fields of the self-served review request.If you want to add a company name that is not listed in the **Company** field, select the **Add new company name** check box and then enter the company name in the **New company legal name** field.
+Modify the fields of the self-served review request. To add a company name that is not listed in the **Company** field, select the **Add new company name** check box and then enter the company name in the **New company legal name** field.
 
-</td></tr><tr><td id="d731582e92">
+</td></tr><tr><td id="d789804e101">
 
 **Regenerate contract document**
 
@@ -52,7 +52,7 @@ Modify the fields of the self-served review request.If you want to add a company
 
 Create a contract document revision from the contract template that includes the latest values and discards the changes made in the previous version of the document. For more information, see [Regenerate contract document after modifying request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-regen-contract-doc.md).
 
-</td></tr><tr><td id="d731582e108">
+</td></tr><tr><td id="d789804e117">
 
 **Sync the document__Note:__ This option is available on Contract Management Pro starting with version 1.2.1
 
@@ -62,25 +62,35 @@ Create a contract document revision from the contract template that includes the
 
 Create a new version of the contract document with updated metadata and signatories while retaining the changes made in the previous version. For more information, see [Create an updated contract document revision after modifying a self-served contract request \(starting Contract Management Pro 1.2.1\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-sync-document.md).
 
-</td></tr><tr><td id="d731582e129">
+</td></tr><tr><td id="d789804e138">
 
-**Sync signatories__Note:__ This option isn’t available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
+**Sync signatories__Note:__ This option isn't available on Contract Management Pro starting with version 1.2.1 because it is no longer necessary.
 
 **
 
 </td><td>
 
-Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md)
+Update the contract document with the latest signatory details. For more information, see [Updating and synchronizing signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-update-sync-signatories.md).
 
-</td></tr><tr><td id="d731582e150">
+</td></tr><tr><td id="d789804e160">
 
-**Send the document for signature.**
+**Send the document for signature**
 
 </td><td>
 
 See [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
-</td></tr><tr><td id="d731582e166">
+</td></tr><tr><td id="d789804e176">
+
+**Initiate an offline signature__Note:__ This option is available only when the signature type is Offline signature.
+
+**
+
+</td><td>
+
+A contract that has been signed outside Contract Management Pro. Signature request emails are not sent to the signatories. For more information, see [Signature workflow for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signature-workflow.md).
+
+</td></tr><tr><td id="d789804e201">
 
 **Cancel request**
 
@@ -92,5 +102,5 @@ See [Send a contract document for signature](https://raw.githubusercontent.com/S
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use self-served contract request]()
+**Parent Topic:**[Own paper contract requests]()
 

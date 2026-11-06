@@ -1,42 +1,78 @@
 ---
 title: Using Sales Customer Relationship Management applications
-description: As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
+description: As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-using.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Sales Customer Relationship Management]
 ---
 
 # Using Sales Customer Relationship Management applications
 
-As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications. From the workspace you can access product catalogs to see the product offerings available in your organization. You can also use the product configurator to add configurable products to opportunities, quotes, and orders, manage sold products and product inventory, and work on MACD orders.
+As agents and managers, you use the CRM Workspace to complete various tasks when using the Sales Customer Relationship Management applications.
 
-## Using product catalogs
+From the workspace you can access product catalogs to see the product offerings available in your organization and select them for Sales Customer Relationship Management transactions. You use a configurator interface, either the [CPQ Configurator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-servicenowcpq.md) or the Configurator to customize configurable products that you add to opportunities, quotes, and orders or to make changes in sold products and product inventory.
 
-When you start an opportunity, quote, or order, a **Catalog** tab \(related list\) opens, which provides a visual display of the product offerings available in a catalog.
+**Note:** The CPQ Configurator is available if your organization has implemented the CPQ Integration application. For details on using the CPQ Configurator in Sales Customer Relationship Management workflows, see Configure a customizable product using CPQ Configurator.
 
-\[Omitted image "som-catalog-ui.png"\] Alt text: Product catalog interface that shows the product catalog hierarchy, product tiles with product images, and search option.
+<table id="table_ywk_fhy_khc" class="nav-card presentation"><tbody><tr><td>
 
-The catalog view has the following features for selecting products:
+[Sales automation\[Omitted image "bus-funnel.svg"\] Alt text:Win more deals by capturing leads, tracking opportunities, forecasting sales, managing territories and buying groups.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-opportunity-mgt.md)
 
--   **Catalog navigation tree**: Catalog and a list of its categories used to organize product offerings. Selecting a category filters the display and shows only the product tiles for that category.
--   **Search bar**: Option for finding product offerings by product name, code, or description. The search feature displays the product tiles that match the name, code, or search string entered.
--   **Product tiles**: Cards that depict each product, which has a product image, brief description, and an option to add or customize the product offer. The **Add** option displays when the product is a simple \(fixed\) product offering. The **Customize** option displays for configurable product offerings that can be tailored for a customer. Selecting **Customize** opens the product configurator for configuring the product offering.
+</td><td>
 
-## Using the product configurator
+[Configure, price, quote\[Omitted image "bus-sdlc.svg"\] Alt text:Quote faster and more accurately by configuring products, setting pricing, and creating sales agreements.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-cpq.md)
 
-The product configurator is an interface for customizing configurable product offers. It displays the product options available and automatically calculates product pricing as you select options.
+</td><td>
 
-The interface consists of three main sections:
+[Order management\[Omitted image "bus-business-management.svg"\] Alt text:Keep orders on track by managing fulfillment, staying ahead of jeopardy, and resolving issues quickly.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)
 
--   **Product hierarchy**: Lists the parent and child product relationships for configurable products.
--   **Option selection**: Displays the product options that can be selected, for example product characteristics such as color or model.
--   **Current Selection**: Shows the pricing for the options that you select. The pricing is calculated automatically and displayed dynamically as you select product options.
+</td></tr><tr><td>
 
-\[Omitted image "l2c-configurator-callouts-2.png"\] Alt text: Interface for adding configurable products that has sections for navigating the product hierarchy, selecting product and characteristic options, and reviewing the current selection with pricing
+[Order operations\[Omitted image "bus-log-store.svg"\] Alt text:Run seamless lead-to-cash processes by managing end-to-end order workflows and handling returns with ease.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-operations.md)
 
-When you're adding configurable products to opportunities, quotes, and orders, you can create and manage multiple offering instances for certain types of child offerings. You can then configure the product options and characteristics for each offering instance separately, rather than use the same set of options and characteristics for the entire quantity of a particular child offering. For more information, see [Create multiple configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-multiple-child-configs.md).
+</td><td>
+
+[Post-sales engagement\[Omitted image "bus-service-aware.svg"\] Alt text:Deliver on your promises by managing contracts, tracking entitlements, and driving product life cycle workflows.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-post-sales-engagement.md)
+
+</td><td>
+
+[Partner Relationship Management\[Omitted image "bus-partnering.svg"\] Alt text:Grow your partner ecosystem by onboarding partners, strengthening relationships, and enabling collaboration.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md)
+
+</td></tr><tr><td>
+
+[Lead-to-cash foundation\[Omitted image "bus-integration-and-apis.svg"\] Alt text:Browse, customize, and add products using the product catalog interface with AI Search.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-foundation.md)
+
+</td><td>
+
+[Business Portal\[Omitted image "bus-personalized-self-service-portal.svg"\] Alt text:Empower your customers by letting them place orders, submit RFQs, view quotes, and raise cases on their own.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)
+
+</td><td>
+
+ 
+
+</td></tr></tbody>
+</table>-   **[Using sales automation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-opportunity-mgt.md)**  
+Learn how to use sales automation applications.
+-   **[Using configure, price, quote applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-cpq.md)**  
+Learn how to use configure, price, quote applications.
+-   **[Using Order Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-management.md)**  
+ServiceNow Order Management provides a centralized platform to create and manage customer and service orders throughout their entire life cycle. It automates the complex process from order capture and enrichment through to fulfillment and closure, promoting seamless coordination between sales, operations, and technical teams.
+-   **[Using order operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-order-operations.md)**  
+Learn how to use order operations applications.
+-   **[Using post-sales engagement applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-post-sales-engagement.md)**  
+Learn how to use post-sales engagement applications.
+-   **[https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-partner-relationship-management.md)**  
+
+-   **[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-foundation.md)**  
+Learn how to use lead-to-cash foundation applications.
+-   **[Using Business Portal for self-service workflows in Sales CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-business-portal.md)**  
+Business-to-business \(B2B\) customers can use the Business Portal to browse product catalogs, create orders, create and view order cases, manage invoice and invoice cases, and request for quotes.
+-   **[Sales CRM Mobile Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/sales-crm-mobile-application.md)**  
+Sales CRM Mobile is a mobile application that lets sales representatives and managers view and manage the Sales CRM application on their mobile phones from anywhere.
+
+**Parent Topic:**[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-overview.md)
 

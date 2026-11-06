@@ -9,7 +9,7 @@ classification: agent-client-collector
 topic_type: reference
 last_updated: "2026-03-12"
 reading_time_minutes: 4
-breadcrumb: [Agent Client Collector Framework reference, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC-F reference, Agent Client Collector reference, Agent Client Collector, IT Operations Management]
 ---
 
 # Agent Client Collector check definition page
@@ -90,6 +90,14 @@ Command
 
 </td></tr><tr><td>
 
+Configuration Data Files
+
+</td><td>
+
+Select the configuration data files to be downloaded when the check runs.
+
+</td></tr><tr><td>
+
 Description
 
 </td><td>
@@ -119,7 +127,7 @@ Interval-based scheduling
 
 </td><td>
 
- 
+When selected, enables configuring a time interval \(in seconds\) to wait between check executions.
 
 </td></tr><tr><td>
 
@@ -131,17 +139,15 @@ The amount of time, in seconds, to wait between check executions.For example, a 
 
 Specified value must be an integer.
 
+Appears only when selecting **Interval-based scheduling**.
+
 </td></tr><tr><td>
 
 Cron-based scheduling
 
 </td><td>
 
-In the **How to send the check results** field, select the frequency with which check results are to be sent.-   When event severity changes \(default for event checks\)
--   Always send check results \(default for non-event checks\)
--   Do not send check results
--   When the check results change
--   \(Advanced\) Based on exit codes of the check: Send results only if the exit code is 240 \(OK\), 241 \(Warning\), or 242 \(Critical\). However, if the command output is empty, then even if one of these codes are part of the exit code, check results are not sent.
+When selected, enables selecting the frequency with which check results are to be sent, in the **When to send the check results** field.
 
 </td></tr><tr><td>
 
@@ -149,7 +155,11 @@ When to send the check results
 
 </td><td>
 
-
+The time or frequency to send check results.-   When event severity changes \(default for event checks\)
+-   Always send check results \(default for non-event checks\)
+-   Do not send check results
+-   When the check results change
+-   \(Advanced\) Based on exit codes of the check: Send results only if the exit code is 240 \(OK\), 241 \(Warning\), or 242 \(Critical\). However, if the command output is empty, then even if one of these codes are part of the exit code, check results aren't sent.
 
 </td></tr><tr><td>
 
@@ -158,6 +168,14 @@ Timeout
 </td><td>
 
 The amount of time, in seconds, after which the check execution stops when no output is returned.For example, a value of 60 means that when the check execution doesn't return a value for 60 seconds, the execution stops.
+
+</td></tr><tr><td>
+
+Check group
+
+</td><td>
+
+A record in the **sn\_agent\_check\_group** table consisting of the group name and CMDB CI class type. Assign a check group to enable filtering only checks in the group for selection when defining a policy.
 
 </td></tr><tr><td>
 
@@ -196,6 +214,26 @@ Plugins
 </td><td>
 
 Select the plugins to be associated with the check. Once this is done, the plugins download before the check executes.
+
+</td></tr><tr class="sub-head"><td colspan="2">
+
+Advanced Check Configuration
+
+</td></tr><tr><td>
+
+Run check in the background
+
+</td><td>
+
+Select the checkbox for the check to run in the background, without the agent waiting for the check's process to finish.
+
+</td></tr><tr><td>
+
+Disable Token replacement
+
+</td><td>
+
+Select to disable token replacement if the command contains tokens designated within \{\{ \}\} that should pass through as command parameters.
 
 </td></tr></tbody>
 </table>-   **[Check definition form parameters tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/check-definition-parameters-tab.md)**  

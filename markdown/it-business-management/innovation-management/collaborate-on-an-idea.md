@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Ideas, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Managing ideas using Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Collaborate on ideas
@@ -22,7 +22,7 @@ Role required: None
 
 ## About this task
 
-You cannot comment and vote for ideas that are in the **Completed**, **Unlikely to implement**, **Duplicate**, or **Already exists** state. The Open \( \[Omitted image "open-idea.png"\] Alt text: Open for comments and votes icon\) or Closed \(\[Omitted image "closed-idea.png"\] Alt text: Closed for comments and votes icon\) icon indicates whether the idea is open or closed for comments and votes.
+You cannot comment and vote for ideas that are in the **Completed**, **Unlikely to implement**, **Duplicate**, or **Already exists** state.
 
 ## Procedure
 

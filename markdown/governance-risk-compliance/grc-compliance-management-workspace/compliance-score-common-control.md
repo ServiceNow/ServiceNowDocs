@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Testing common control and implementing results on multiple reliant entities, Manage controls using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Testing common control and implementing results, Manage controls using the Compliance Workspace, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Impact of common control on compliance score calculation
@@ -22,7 +22,7 @@ Whenever a control changes its compliance status or weightage, the compliance sc
 
 All primary actions trigger recalculation of compliance score. When reliant entities are added or removed using the Add or Remove UI action in the Reliant entities related list as an upstream action, the compliance score for that particular reliant entity is recalculated. It is also recalculated when you retire a common control or convert a common control to standard control. Controls that are either compliant or non-compliant contribute to the compliance score calculation of an entity.
 
-For more information, see the [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB0716583](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0716583) article in the Now Support Knowledge Base.
+For more information, see the [Compliance score calculations in GRC \[KB1222566\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB1222566) article in the Now Support Knowledge Base.
 
 **Note:** You must log in to Now Support to view the articles.
 

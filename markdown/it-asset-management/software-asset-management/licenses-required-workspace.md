@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View calculations for your licenses in workspace
@@ -185,10 +185,12 @@ License Consumption Explanation
 
 </td><td>
 
-A detailed license consumption summary post reconciliation. The summary gives you a thorough understanding of how your license rights are used, the methodology behind license calculations and the reasoning for the consumption process.
+A detailed license consumption summary post reconciliation. The summary gives you a thorough understanding of how your license rights are used, the methodology behind license calculations, and the reasoning for the consumption process.
 
 </td></tr></tbody>
 </table>7.  View the infrastructure of a configuration item and the metric attributes applied by selecting the **License consumption breakdown** tab.
+
+    For more information on the license calculation for CrowdStrike products, see [License usage breakdown for CrowdStrike products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/license-usage-crowdstrike.md).
 
     \[Omitted image "license-consumption-breakdown.png"\] Alt text: License consumption breakdown of a configuration item.
 
@@ -221,7 +223,7 @@ A detailed license consumption summary post reconciliation. The summary gives yo
 
     Host affinity rules can be configured for SQL Server and Windows Server Standard while determining license consumption. This helps to optimize the number of licenses required and significantly minimizes the number of licenses required resulting in cost savings.
 
-    \[Omitted image "Host-affinity-rules.png"\] Alt text: Host affinity rules configured for a cluster.
+    \[Omitted image "host-affinity-rules.png"\] Alt text: Host affinity rules configured for a cluster.
 
     |Field|Description|
     |-----|-----------|

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/manage-groups-threat-intel.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
 
@@ -28,13 +28,11 @@ Role required:
 
     You can view the listed groups.
 
-2.  Click a group to view all the associated information.
+2.  Select a group to view all the associated information.
 
-    In the following illustration, you can view the details for the Ajax Security Team group, its ID, source, and other related information.\[Omitted image "mitre-groups-overview.gif"\] Alt text: View details for the group and other related information.
+3.  To view how these objects are related, select **Show Relationships**.
 
-3.  To view how these objects are related, click **Show Relationships**.
-
-    **Note:** To associate the threat groups to a security case for deeper investigation, click **Add to Security Case**.
+    **Note:** To associate the threat groups to a security case for deeper investigation, select **Add to Security Case**.
 
 
 ## What to do next

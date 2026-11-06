@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Configure UI Builder workspace experiences, Configure how users interact with your applications in UI Builder, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # View the brand and theme setting in your workspace experience
@@ -28,7 +28,7 @@ Role required: ui\_builder\_admin
 
     See [Configure how users interact with your applications in UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-experiences.md) for more information on creating experiences.
 
-3.  Select **View experience settings** in the upper-right.
+3.  Select **Experience settings** in the upper-right.
 
     \[Omitted image "experience-settings-toggle.png"\] Alt text: Arrow pointing to the settings toggle on the experience view page.
 

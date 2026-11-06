@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Starting and importing a Zoom Team Chat, Enhance employee experience by integrating ServiceNow with Zoom, Integrating and using ServiceNow with Zoom, ServiceNow for Zoom, Zoom integrations, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Starting and importing a Zoom Team Chat, Enhance employee experience by integrating ServiceNow with Zoom, Integrating and using ServiceNow with Zoom, ServiceNow for Zoom, EmployeeWorks, Employee Service Management]
 ---
 
 # Import Zoom Team Chat messages

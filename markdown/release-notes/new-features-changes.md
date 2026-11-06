@@ -5,128 +5,87 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/new-features-changes.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Features and changes by product
 
 Review the new features and changes in this release by product.
 
-## New products in Yokohama
+## New products in Brazil
 
-The Yokohama release includes new products.
-
--   **Employee Service Management**
-    -   [ServiceNow Add-in for Microsoft 365 release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sn-addin-for-ms365-rn.md)
--   **Enterprise Architecture**
-
-    [ServiceNow Otto for Enterprise Architecture \(EA\) release notes]()
-
--   **Healthcare and Life Sciences**
-    -   [Care Team Operations for Biomed release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cto-biomed-rn.md)
-    -   [Care Team Operations for Healthcare IT release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cto-it-rn.md)
-    -   [Healthcare Operations Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/healthcare-operations-core-rn.md)
--   **HR Service Delivery**
-
-
-
--   **Intelligent Experiences**
-
-    [Knowledge Graph release notes]()
-
--   **IT Operations Management**
-    -   [Service Observability release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/service-observability-rn.md)
-    -   [Synthetic monitoring release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/synthetic-monitoring-rn.md)
--   **Now Assist**
-    -   [AI Control Tower release notes]()
-    -   [Now Assist AI agents release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-ai-agents-rn.md)
--   **ServiceNow AI Platform capabilities**
-
-
-
--   **Retail**
-
-    [Retail Task Management Core release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/retail-task-management-rn.md)
-
--   **Telecommunications, Media, and Technology**
-
-    [Strategic Portfolio Management for Telecom release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/strategic-portfolio-management-for-tmt-rn.md)
-
+The Brazil release includes new products.
 
 ## Updated features and products
 
-Other products were changed and updated in the Yokohama release. For more information, refer to the release notes topics, which are organized by product area.
+Other products were changed and updated in the Brazil release. For more information, refer to the release notes topics, which are organized by product area.
 
 -   **[AI Experiences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/intelligent-experiences-rn-landing.md)**  
-AI Experiences has new and updated features in the Yokohama release.
--   **[API release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/api-rn.md)**  
-ServiceNow® APIs let you build custom applications and experiences. APIs were enhanced and updated in the Yokohama release.
+AI Experiences has new and updated features in the Brazil release.
+-   **[API release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/api-rn-static.md)**  
+The ServiceNow® APIs enable organizations to programmatically integrate ServiceNow® with other systems, automate business processes, and extend platform capabilities to create seamless, end-to-end workflows across their entire IT and business ecosystem. See the following sections for release notes by family and store release.
 -   **[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)**  
-The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Yokohama release.
--   **[Next Experience Components release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/component-rn.md)**  
-The ServiceNow® Next Experience Components are the components used to build custom user interfaces. Next Experience Components was enhanced and updated in the Yokohama release.
+The ServiceNow AI Platform® has new and updated automation, as well as and no-code, low-code, and platform developer features in the Brazil release.
+-   **[Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-asset-management-rn-landing.md)**  
+Asset Management has new and updated features in the Brazil release.
 -   **[Conversational Interfaces release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/conversational-interfaces-rn-landing.md)**  
 Conversational Interfaces includes enhancements and changes in the Xanadu release.
+-   **[Core Business Suite release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/cbs-rn.md)**  
+The ServiceNow® Core Business Suite application provides consolidated case and knowledge management functionalities across business units within one application. See the following sections for release notes by version.
 -   **[Customer Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/customer-service-mgmt-rn-landing.md)**  
-The ServiceNow® Customer Service Management application has new and updated applications and features in the Yokohama release.
+The ServiceNow® Customer Service Management application has new and updated applications and features in the Brazil release.
+-   **[Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/enterprise-architecture-rn.md)**  
+The ServiceNow® Enterprise Architecture application unites strategic and operational teams, enabling organizations to achieve their business objectives. See the following sections for release notes by version.
 -   **[Employee Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-service-management-rn-landing.md)**  
-Employee Service Management has new and updated features in the Yokohama release
--   **[Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/employee-growth-development-landing.md)**  
-The ServiceNow® Talent Development application enables managers and employees to identify and track career growth and development opportunities. It supports career growth through conversations, talking points, and ongoing development tracking. Talent Development was enhanced and updated in the Yokohama release.
--   **[Enterprise Architecture release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/enterprise-architecture-rn-landing.md)**  
-Enterprise Architecture \(formerly Application Portfolio Management\) has new and updated features in the Yokohama release.
--   **[Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/esg-management-rn.md)**  
-The ServiceNow® ESG Management application helps you to manage all your environmental, social, and governance \(ESG\) commitments. ESG Management was enhanced and updated in the Yokohama release.
--   **[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/field-service-management-rn.md)**  
-The ServiceNow® Field Service Management application automates processes, enhances communication, and transforms field service delivery with AI-powered workflows to resolve customer needs efficiently, transparently, and proactively. Field Service Management was enhanced and updated in the Yokohama release.
+Employee Service Management has new and updated features in the Brazil release
+-   **[Field Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/field-service-management-rn-landing.md)**  
+Field Service Management has new and updated features in the Brazil release
 -   **[Financial Services Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/financial-services-operations-rn-landing.md)**  
-Financial Services Operations has new and updated features in the Yokohama release.
+Financial Services Operations \(FSO\) has new and updated features in the Brazil release.
 -   **[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)**  
-Governance, Risk, and Compliance new and updated features in the Yokohama release
+The Governance, Risk, and Compliance application has new and updated features in the Brazil release.
 -   **[Healthcare and Life Sciences release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/healthcare-life-sciences-rn-landing.md)**  
-Healthcare and Life Sciences has new and updated features in the Yokohama release.
+Healthcare and Life Sciences has new and updated features in the Brazil release.
 -   **[Impact release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/impact-rn.md)**  
-ServiceNow® Impact is a customer success product that helps you use the power of the AI Platform for your business transformation. Impact was enhanced and updated in the Yokohama release.
--   **[IT Asset Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-asset-management-rn-landing.md)**  
-IT Asset Management has new and updated features in the Yokohama release
+ServiceNow® Impact is built on the ServiceNow AI Platform and combines customized service with a digital interface to provide tailored recommendations and guidance. Impact was enhanced and updated in the Brazil release. See the following sections for release notes by version.
 -   **[IT Operations Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-operations-management-rn-landing.md)**  
-IT Operations Management has new and updated features in the Yokohama release.
+IT Operations Management has new and updated features in the Brazil release.
 -   **[IT Service Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-service-management-rn-landing.md)**  
-IT Service Management has new and updated features in the Yokohama release.
+IT Service Management has new and updated features in the Brazil release.
 -   **[Manufacturing Commercial Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/manufacturing-commercial-operations-rn.md)**  
-The ServiceNow® Manufacturing Commercial Operations application enables you to manage the end-to-end life cycle of your products, subscriptions, and services. Manufacturing Commercial Operations was enhanced and updated in the Yokohama release.
--   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/mobile-rn.md)**  
-The ServiceNow® Mobile Platform application enables you to access your ServiceNow instance from anywhere. Mobile Platform was enhanced and updated in the Yokohama release.
--   **[Now Assist and agentic AI release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-assist-rn-landing.md)**  
-Now Assist and agentic AI product enhancements and updates in the Yokohama release.
+The ServiceNow® Manufacturing Commercial Operations application updates warranty and quality workflows across Product Quality Investigation, Non-Conformance, and Remediation Core.
+-   **[Mobile Platform release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/mobile-rn-landing.md)**  
+Mobile Platform product enhancements and updates in the Brazil release.
+-   **[Operational Sustainability Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-sustainability-management-rn.md)**  
+The ServiceNow® Operational Sustainability Management application helps organizations manage sustainability data, metrics, and reporting requirements. See the following sections for release notes by version.
 -   **[Operational Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/operational-technology-rn-landing.md)**  
-Operational Technology has new and updated features in the Yokohama release.
+Operational Technology has new and updated features in the Brazil release.
 -   **[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/analytics-intel-report-rn-landing.md)**  
-Platform Analytics has new and updated features in the Yokohama release.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience. Platform Analytics has new and updated features in the Brazil release.
 -   **[Public Sector Digital Services release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/public-sector-digital-services-rn.md)**  
-The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Yokohama release.
--   **[Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rahi-retail-rn-landing.md)**  
-Retail has new and updated features in the Yokohama release.
+The ServiceNow® Public Sector Digital Services application enables government agencies to provide citizens, businesses, and other agencies with important services such as public records, licenses, permits, and social services. Public Sector Digital Services was enhanced and updated in the Brazil release.
+-   **[Retail release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/retail-rn.md)**  
+The ServiceNow® retail applications streamline frontline operations and customer experiences. See the following sections for release notes by version.
 -   **[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)**  
-ServiceNow®Sales Customer Relationship Management Sales Customer Relationship Management is a set of new and updated applications and features in the Yokohama release. These applications enable you to manage the product sales life cycle in your organization, including leads, pre-sales opportunities, sales forecasting, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
+ServiceNow® Sales Customer Relationship Management is a set of new and updated applications and features in the Brazil release. These applications enable you to manage the product sales life cycle in your organization. Supported processes include leads, pre-sales opportunities, sales quote generation, order capture, order fulfillment, and post-sales order changes and renewals.
 -   **[Security Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/security-operations-rn-landing.md)**  
-Security Operations has new and updated features in the Yokohama release.
+Security Operations has new and updated features in the Brazil release.
 -   **[ServiceNow AI Platform administration release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-admin-rn-landing.md)**  
-ServiceNow AI Platform® administration product enhancements and updates in the Yokohama release.
+ServiceNow AI Platform administration product enhancements and updates in the Brazil release.
 -   **[ServiceNow AI Platform capabilities release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-capabilities-rn-landing.md)**  
-ServiceNow AI Platform® capabilities were enhancements and updates in the Yokohama release.
+ServiceNow AI Platform® capabilities were enhancements and updates in the Brazil release.
 -   **[ServiceNow AI Platform security release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-security-rn-landing.md)**  
-ServiceNow AI Platform® security product enhancements and updates in the Yokohama release.
+ServiceNow AI Platform® security product enhancements and updates in the Brazil release.
 -   **[ServiceNow AI Platform user interface release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/now-platform-ui-rn-landing.md)**  
-ServiceNow AI Platform® user interface product enhancements and updates in the Yokohama release.
+ServiceNow AI Platform® user interface product enhancements and updates in the Brazil release.
 -   **[Source-to-Pay Operations release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/source-to-pay-operations-rn-landing.md)**  
-Source-to-Pay Operations has new and updated features in the Yokohama release.
+Source-to-Pay Operations has new and updated features in the Brazil release.
 -   **[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)**  
-Strategic Portfolio Management \(formerly IT Business Management\) has new and updated features in the Yokohama release.
+Strategic Portfolio Management has new and updated features in the Brazil release.
 -   **[Telecommunications, Media, and Technology release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/technology-industry-rn-landing.md)**  
-ServiceNow® Telecommunications, Media, and Technology has new and updated applications and features in the Yokohama release.
+ServiceNow® Telecommunications, Media, and Technology has new and updated applications and features in the Brazil release.
 
-**Parent Topic:**[Release notes for upgrading from Xanadu](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
+**Parent Topic:**[Release notes for upgrading from Australia](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/rn-n-1-landing-page.md)
 

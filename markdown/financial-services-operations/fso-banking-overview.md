@@ -1,23 +1,23 @@
 ---
-title: Using banking applications
-description: Use Financial Services Operations banking suite of applications to improve productivity by avoiding manual processes, information silos, and failures in communication.
+title: Financial Services Operations banking applications
+description: Improve productivity with the Financial Services Operations banking suite of applications by reducing manual processes, information silos, and communication failures.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/fso-banking-overview.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Financial Services Operations \(FSO\)]
 ---
 
-# Using banking applications
+# Financial Services Operations banking applications
 
-Use Financial Services Operations banking suite of applications to improve productivity by avoiding manual processes, information silos, and failures in communication.
+Improve productivity with the Financial Services Operations banking suite of applications by reducing manual processes, information silos, and communication failures.
 
-## Find the application that best fits your needs
-
+-   **[Agentic Contact Center for Banking](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/agentic-contact-center-for-banking-landing.md)**  
+Agentic Contact Center for Banking equips bank customer service representatives with AI-powered workspaces for handling customer calls and reviewing customer profiles—saving on research time, minimizing application switching, and improving the quality of customer interactions.
 -   **[Dispute Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-management.md)**  
-ServiceNow® Dispute Management creates faster card transaction dispute resolution, improved compliance, and better cardholder experiences.
+Dispute management helps agents create dispute cases for both personal and business debit and credit card accounts, as well as non-card \(ACH\) transactions, and automate the process of dispute routing and fraud-related activities.
 -   **[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-card-operations/card-ops-landing-page.md)**  
 With Financial Services Card Operations, streamline, digitize, and automate the card operations from the front to back office in your financial institution, so that credit card applications and card transaction disputes can be quickly processed.
 -   **[Financial Services Deposit Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-deposit-operations/fso-deposit-ops-landing-page.md)**  

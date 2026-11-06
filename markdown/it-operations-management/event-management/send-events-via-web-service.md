@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2026-08-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure a push connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Pushing events to the instance using web service API
@@ -139,7 +139,7 @@ resource
 
 </td><td>
 
-If the event refers to a device, such as, Disk, CPU, or Network Adapter, or to an application or service running on a Host, the name of the device or application must be populated in this field. For example, `Disk C:\` or `Nic 001` or `Trade web application`.
+Populate this field with the device or application name. Use this field if the event refers to a device \(such as Disk, CPU, or Network Adapter\) or to an application or service running on a Host. Examples: `Disk C:\`, `Nic 001`, or `Trade web application`.
 
 </td></tr><tr><td>
 
@@ -179,7 +179,7 @@ additional\_info
 
 </td><td>
 
-This field is in JSON key/value format, and is meant to contain any information that might be of use to the user. It does not map to a pre-defined ServiceNow event field. Examples include IDs of objects in the event source, event priority \(if it is not the same as severity\), assignment group information, and so on. Values in the **Additional information** field of an Event that are not in JSON key/value format are normalized to JSON format when the event is processed.
+This field contains a JSON string \(stringified JSON\) with key/value pairs representing supplemental information not mapped to standard event fields. Examples include IDs of objects in the event source, event priority \(if different from severity\), and assignment group information. Values not already in JSON key/value format are normalized to stringified JSON when the event is processed.
 
 </td></tr><tr><td>
 
@@ -195,10 +195,12 @@ resolution\_state
 
 </td><td>
 
-Optional – To indicate that an event has been resolved or no longer occurring, some event monitors use ‘clear’ severity, while other event monitors use a ‘close’ value for severity. This field is used for those monitors proffering the latter. Valid values are `New` and `Closing`.
+Optional – To indicate that an event has been resolved or no longer occurring, some event monitors use ‘clear’ severity. Others use a ‘close’ value for severity. This field is used for monitors that use the ‘close’ value. Valid values are `New` and `Closing`.
 
 </td></tr></tbody>
-</table>3.  To create multiple records with a single call, trigger the event web service using the following URL, where the &lt;instance name&gt; variable is replaced with the name of the required instance:
+</table>3.  To create multiple records with a single call, trigger the event web service using the following URL:
+
+    Replace the &lt;instance name&gt; variable with the name of the required instance.
 
     `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
@@ -216,12 +218,9 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "type": "Disk space",
           "severity": "4",
           "description": "The disk D: on computer V-W2K8-abc.abc.com is running out of disk space. The value that exceeded the threshold is 38% free space.",
-          "additional_info": {
-            "scom-severity": "Medium",
-            "metric-value": "38",
-            "os_type": "Windows.Server.2008"
-          }
-        },
+          "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
+        }
+    },
         {
           "source": "SCOM",
           "event_class": "SCOM 2012 on scom.server.com",
@@ -231,19 +230,16 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "type": "Database Storage",
           "severity": "3",
           "description": "High number of active connections for MSSQL-database-name running on name.of.node.com. Active connections exceed 5000.",
-          "additional_info": {
-            "scom-severity": "Medium",
-            "metric-value": "38",
-            "os_type": "Windows.Server.2008"
+          "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
           }
         }
       ]
     }
     ```
 
-4.  To create one record with a single call, trigger the event web service using the following URL, where the &lt;instancename&gt; variable is replaced with the name of the required instance:
+4.  Trigger the event web service using the following URL:
 
-    `https://<instancename>.service-now.com/api/global/em/jsonv2`
+    Replace &lt;instancename&gt; with the name of the required instance. `https://<instancename>.service-now.com/api/global/em/jsonv2`
 
     Example showing the payload for one event that is sent in a single web service call:
 
@@ -259,10 +255,7 @@ Optional – To indicate that an event has been resolved or no longer occurring,
           "type": "Disk space",
           "severity": "4",
           "description": "The disk C: on computer V-W2K8-dfg.dfg.com is running out of disk space. The value that exceeded the threshold is 41% free space.",
-          "additional_info": {
-            "scom-severity": "Medium",
-            "metric-value": "38",
-            "os_type": "Windows.Server.2008"
+          "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
           }
         }
       ]
@@ -287,10 +280,7 @@ Optional – To indicate that an event has been resolved or no longer occurring,
             "type": "Disk space",
             "severity": "4",
             "description": "The disk C: on computer V-W2K8-dfg.dfg.com is running out of disk space. The value that exceeded the threshold is 41% free space.",
-            "additional_info": {
-              "scom-severity": "Medium",
-              "metric-value": "38",
-              "os_type": "Windows.Server.2008"
+            "additional_info": "{\"scom-severity\": \"Medium\", \"metric-value\": \"38\", \"os_type\": \"Windows.Server.2008\"}"
             }
           }
         ]

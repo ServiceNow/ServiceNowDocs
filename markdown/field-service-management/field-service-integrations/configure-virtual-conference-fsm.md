@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Integrations
 classification: field-service-integrations
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Integration with Virtual Conferencing, Integrating Field Service Management with other applications, Configure, Field Service Management]
 ---
 
 # Configure Field Service Management Virtual Conferencing Integration
@@ -28,15 +28,15 @@ This task provides general steps to set up the Field Service Management Virtual 
 
 1.  Configure the conference call bridge.
 
-<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d49855e78">
+<table id="choicetable_jgg_bsy_t4b"><thead><tr><th align="left" id="d54790e89">
 
 To
 
-</th><th align="left" id="d49855e81">
+</th><th align="left" id="d54790e92">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d49855e87">
+</th></tr></thead><tbody><tr><td id="d54790e98">
 
 **Set up the Zoom meeting**
 
@@ -54,7 +54,7 @@ The conference call details of the Zoom meetings are stored in the Notify Confer
 
 For more information, see [Configure a provider in Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/configure-providers-for-provider-selectors.md).
 
-</td></tr><tr><td id="d49855e157">
+</td></tr><tr><td id="d54790e168">
 
 **Set up the Microsoft Teams meeting**
 

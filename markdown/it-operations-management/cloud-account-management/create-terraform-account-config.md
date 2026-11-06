@@ -1,20 +1,20 @@
 ---
 title: Create a Terraform account configuration
-description: Configure the Cloud Account Management app as a foundational step before creating a service account using Terraform. Proper Cloud Account Management setup ensures the application is optimally prepared to handle account management functions and achieve desired outcomes.Define and set up Terraform-based configurations to automate cloud account provisioning, including required credentials and infrastructure templates.
+description: Define and set up configurations based on Terraform to automate cloud account provisioning, including required credentials and infrastructure templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/cloud-account-management/create-terraform-account-config.html
 release: yokohama
 product: Cloud Account Management
 classification: cloud-account-management
 topic_type: task
-last_updated: "2024-10-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating configurations, Configuring Cloud Account Management, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Creating configurations, Configure, Cloud Account Management, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Create a Terraform account configuration
 
-Configure the Cloud Account Management app as a foundational step before creating a service account using Terraform. Proper Cloud Account Management setup ensures the application is optimally prepared to handle account management functions and achieve desired outcomes.Define and set up Terraform-based configurations to automate cloud account provisioning, including required credentials and infrastructure templates.
+Define and set up configurations based on Terraform to automate cloud account provisioning, including required credentials and infrastructure templates.
 
 ## Before you begin
 

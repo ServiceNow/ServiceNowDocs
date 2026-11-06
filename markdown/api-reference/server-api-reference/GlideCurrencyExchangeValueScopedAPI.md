@@ -7,7 +7,7 @@ release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
@@ -16,11 +16,9 @@ breadcrumb: [Server API reference, API reference, API implementation and referen
 
 The GlideCurrencyExchangeValue API provides methods to access information related to FX Currency conversions.
 
-Refer to the [GlideCurrencyConverter\(\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.md) API for methods that return a GlideCurrencyExchangeValue object.
+There is no constructor for this class. Use the convert\(\) method from the [GlideCurrencyConverter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/GlideCurrencyConverterScopedAPI.md) API to return a GlideCurrencyExchangeValue object.
 
-This class runs is in the `sn_currency` namespace.
-
-**Note:** There is no constructor for this class.
+This API is provided within the `sn_currency` namespace.
 
 **Parent Topic:**[Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/api-server.md)
 

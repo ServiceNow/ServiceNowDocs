@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-dial.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Dial visualization, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Dial visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
 # Dial visualization example
@@ -16,7 +16,7 @@ Dial visualizations show where a single value lies across a range from minimum t
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -24,13 +24,13 @@ Use the dial visualization when you want to compare a current value to a target 
 
 ## Procedure
 
-1.  Follow the first steps to [Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md):
+1.  Follow the first steps to [Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md):
 
-    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-    2.  Select **New**.
+    2.  Select **Create data visualization**.
 
-    3.  Select the dial \(\[Omitted image "inline-data-vis-dial.png"\] Alt text: Dial visualization icon\) visualization type.\[Omitted image "dv-ex-dial-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a dial visualization
+    3.  Select the dial visualization type from the Scores section.
 
 2.  For the moment, skip the header and border section and move to the data source.
 
@@ -38,7 +38,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
     2.  Choose the Incident \[incident\] table.
 
-    3.  Because this visualization shows open incidents, let's add the Incidents.Open condition in the Filters section.
+    3.  Because this visualization shows open incidents, let's add the predefined condition Incidents.Open in the Filters section.
 
         With this filter selected, the visualization only shows the number of active incidents.
 
@@ -46,15 +46,13 @@ Use the dial visualization when you want to compare a current value to a target 
 
     5.  Select **Add this source**.
 
-    A dial data visualization with the current value of the selected data appears in the Visualization Designer.
-
-    \[Omitted image "dv-ex-dial-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
+    A dial data visualization with the current value of the selected data appears in the Visualization Designer\[Omitted image "dv-ex-dial-data-source.png"\] Alt text: Untitled dial visualization showing the Incident table as data source.
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
     1.  Expand the Header and border section.
 
-    2.  Select **Show header** and provide the chart title `Open incidents - Dial`.
+    2.  Select **Show header** and provide the title `Open incidents - Dial`.
 
         When **Show header** is selected, you can add a title and a description. The chart title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The chart title appears within the visualization.
 
@@ -66,7 +64,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
     Some data visualizations support multiple data sources, but the dial visualization doesn’t. Because you only want to see the number of open incidents, you don't need to change the default metric, Count, or its label, Incident.
 
-5.  Under Additional settings, leave **Show metric label** unselected and select **Show Zero**.
+5.  Under Additional settings, select **Show 0 when no data available**.
 
     Because the name of the visualization is `Number of open incidents`, the metric label, Incident, is redundant.
 
@@ -82,11 +80,9 @@ Use the dial visualization when you want to compare a current value to a target 
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
-
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
 7.  Under Presentation, configure the sizes of the score and the dial itself, and the visualization's minimum and maximum values.
 
@@ -108,7 +104,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
     2.  Under Color Rules, select **+ Add rule**.
 
-    3.  For the first color rule, choose the **Operator** `lower than`, enter the **Value** `6`, and choose the color `Positive Green` for both the color and the icon color, and select **Apply**.
+    3.  For the first color rule, choose the **Operator** `lower than`, enter the **Value** `6`, and choose the color `Positive Green` for both the color and the icon color \(if available\), and select **Apply**.
 
         The value is up to the specified number but not including it.
 
@@ -127,7 +123,7 @@ Use the dial visualization when you want to compare a current value to a target 
 
 ## Result
 
-You've created a dial visualization based on a single metric, open incidents. You've also configured user options regarding filters and drilldowns, and configured the visualization's size and coloring rules.
+You have created a dial visualization based on a single metric, open incidents. You have also configured user options regarding filters and drilldowns, and configured the visualization's size and coloring rules.
 
-**Parent Topic:**[Create a dial visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md)
+**Parent Topic:**[Create a dial data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-dial-ac.md)
 

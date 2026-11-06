@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Initiating privacy assessments, Types of privacy assessments, Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_privacy.manager
 
 3.  Select the entities related list.
 
-4.  To select the required entities, select the selection icon \(\[Omitted image "select-icon.jpg"\] Alt text: Selection icon.\).
+4.  Select the check box against the required entities.
 
 5.  Click **Send privacy assessments**.
 

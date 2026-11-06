@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configure KPI groups in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure KPI groups, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Update KPIs in Digital Portfolio Management
@@ -104,7 +104,7 @@ The description of the KPI.
 
  In the DPM Workspace, selecting the tooltip on the KPI card reveals the description. You access the KPI cards in the following areas:
 
--   On the Run tab for services, service offerings, business applications, and application services.
+-   On the Run tab for services, service offerings, business applications, and service instances.
 -   On the Overview tab for portfolios and taxonomy nodes.
 For more information on the data shown in KPI charts and graphs, see [KB1123710](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1637474).
 
@@ -143,7 +143,7 @@ Active flag
 
 </td><td>
 
-The flag that determines if the KPI displays in the KPI group. KPI groups can display in several places in the DPM Workspace — the enterprise portfolio page, the **Overview** tab of portfolios and nodes, and the **Run** tab of services and offerings, business applications, and application services. The flag for all KPIs that come with the base system is set to active. As an admin, you can clear the flag so it's inactive.
+The flag that determines if the KPI displays in the KPI group. KPI groups can display in several places in the DPM Workspace — the enterprise portfolio page, the **Overview** tab of portfolios and nodes, and the **Run** tab of services and offerings, business applications, and service instances. The flag for all KPIs that come with the base system is set to active. As an admin, you can clear the flag so it's inactive.
 
  -   When checked, the flag is active and the KPI displays in the KPI group.
 -   When cleared, the flag is inactive and the KPI doesn't display in the KPI group.

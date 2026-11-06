@@ -7,9 +7,9 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Issue Page Configuration module, Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Update an Issue Page Configurations record
@@ -52,5 +52,5 @@ Role required: sn\_grc.admin
 7.  To update the issue page configuration record, click **Update**.
 
 
-**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
+**Parent Topic:**[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)
 

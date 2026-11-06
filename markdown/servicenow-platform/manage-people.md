@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/manage-people.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -16,17 +16,9 @@ Use these applications to help streamline communications, manage work assignment
 
 <table id="table_oyp_mhr_r5b" class="nav-card"><tbody><tr><td>
 
-[Advanced Work Assignment \[Omitted image "bus-work-order.svg"\] Alt text: Handle team assignments, route workflow, and provide user assistance.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/advanced-work-assignment/awa-overview.md)
-
-</td><td>
-
 [Skills Management \[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Assess skills in individuals and teams.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/skills-management/skills-management.md)
 
 </td><td>
-
-[Omnichannel Callback \[Omitted image "bus-mobile-native.svg"\] Alt text: Connect users and agents with callback service options.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/omnichannel-callback/omnichannel-callback.md)
-
-</td></tr><tr><td>
 
 [E-signature \[Omitted image "bus-documentation.svg"\] Alt text: Manage signatures for documents or knowledge articles on any device.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/e-signature/e-signature.md)
 
@@ -34,13 +26,9 @@ Use these applications to help streamline communications, manage work assignment
 
 [Interaction Management \[Omitted image "bus-handshake.svg"\] Alt text: Centralize all communications on the platform for improved service call handling.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/interaction-management/interaction-management.md)
 
-</td><td>
-
-[Password Reset \[Omitted image "bus-password-reset.svg"\] Alt text: Provide secured password reset, user verification options, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-landing-page.md)
-
 </td></tr><tr><td>
 
- 
+[Password Reset \[Omitted image "bus-password-reset.svg"\] Alt text: Provide secured password reset, user verification options, and more.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/password-reset-landing-page.md)
 
 </td><td>
 
@@ -51,17 +39,9 @@ Use these applications to help streamline communications, manage work assignment
  
 
 </td></tr></tbody>
-</table>## Advanced Work Assignment \(AWA\)
-
-Maintain and improve your business workflow on the ServiceNow AI Platform. Advanced Work Assignment has options to assign tasks to teams and individual personnel based on availability and demand, as well as their skill levels. Give users the best service possible, with service messaging and role management handled on-the-fly for each task or assignment.
-
-## Skills Management
+</table>## Skills Management
 
 Track the skills that your teams use and need the most, associate skills with groups or individuals, and improve your training and hiring all with this module. Skills Management helps you manage data on various defined proficiencies or sets thereof. Create efficient skill assessments and associate them with teams or single personnel for improved task assignment, find and address knowledge gaps in your organization, and tailor your hiring and training plans.
-
-## Omnichannel Callback
-
-Expand your service contact opportunities with Omnichannel Callback. This module lets agents contact users back when they make calls for help or service requests during high-activity periods. Display or announce callback options in other apps on the ServiceNow AI Platform, configure callback options to route users to live or virtual agents, and more.
 
 ## E-signature
 

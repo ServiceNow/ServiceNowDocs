@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/quote-create-pdf-document.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Create a quote PDF document
@@ -16,15 +16,13 @@ In Quote Management, sales agents can create a PDF of a quote that can be sent t
 
 ## Before you begin
 
-Role required: sales\_agent
-
-## About this task
-
 \[Omitted video\] Description: Create a quote PDF document
+
+Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quotes** &gt; **All**.
 
@@ -32,7 +30,7 @@ Role required: sales\_agent
 
 4.  On the **Details** tab, go to **Quote Document Details** and fill in the fields.
 
-<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d24773e107">
+<table id="choicetable_sbm_qvt_pdc"><tbody><tr><td id="d110031e102">
 
 **Document template**
 
@@ -40,7 +38,7 @@ Role required: sales\_agent
 
 A document template is required to create a quote document PDF. A standardized template is included with the base system. Select the template that you want. See [Set up PDF document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgt-setup-pdf-document-templates.md) for more information about how to create customized templates.
 
-</td></tr><tr><td id="d24773e126">
+</td></tr><tr><td id="d110031e121">
 
 **External signer**
 
@@ -48,7 +46,7 @@ A document template is required to create a quote document PDF. A standardized t
 
 Option that enables you to have the quote document signed by someone outside the organization. See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgt-configure-pdf-document-signers.md) for more details on how to set up external signers. When you select **Send for signature**, the external signer's email address is used to send an email through Docusign for review and electronic signature.
 
-</td></tr><tr><td id="d24773e153">
+</td></tr><tr><td id="d110031e148">
 
 **Internal signer**
 
@@ -65,9 +63,9 @@ See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/S
 
     The PDF document is generated and appears in the **Attachment** side window.
 
-7.  Select the attachment icon to \[Omitted image "paperclip-outline-24.svg"\] open the attachments window.
+7.  Select the attachment icon to \[Omitted image "paperclip-outline-24.svg"\] Alt text: open the attachments window.
 
-8.  Select the actions icon \[Omitted image "icon-three-dots.png"\] and choose an action for your PDF document.
+8.  Select the actions icon \[Omitted image "icon-three-dots.png"\] Alt text: and choose an action for your PDF document.
 
     |Choice|Description|
     |------|-----------|
@@ -78,6 +76,8 @@ See [Set up PDF document signers](https://raw.githubusercontent.com/ServiceNow/S
 
     A message appears indicating that the PDF document was generated.
 
-9.  To view the generated PDF, select the PDF in the attachments window.\[Omitted image "quote-attachment-window-pdf.png"\]
+9.  To view the generated PDF, select the PDF in the attachments window.\[Omitted image "quote-attachment-window-pdf.png"\] Alt text:
 
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

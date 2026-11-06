@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up a profile for manual event forwarding, Create an event profile, Splunk Enterprise Security event ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,7 +30,7 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
 ## Procedure
 
-1.  If the mapping form is not displayed, click **Mapping** on the progress bar.
+1.  If the mapping form is not displayed, select **Mapping** on the progress bar.
 
 2.  Follow these steps to upload attachment data in your ServiceNow AI Platform® instance.
 
@@ -44,29 +44,23 @@ Create custom mappings by adding or removing the fields on the mapping grid on t
 
         These fields are the field-value pairs that are exported and displayed on the Mapping page in your ServiceNow AI Platform® instance.
 
-        \[Omitted image "splunk\_es\_export\_XML.png"\] Alt text: Splunk ES: Select notable events for export
+    4.  In your Splunk Enterprise console, in the upper right of the Search page, select the **Export** icon.
 
-    4.  In your Splunk Enterprise console, in the upper right of the Search page, click the **Export** icon.
-
-    5.  In the choice list for the Format field in the dialog that is displayed, click **XML Format**.
+    5.  In the choice list for the Format field in the dialog that is displayed, select **XML Format**.
 
     6.  Enter a new filename.
 
-    7.  Click **Export**.
-
-        \[Omitted image "splunk\_es\_export\_XML\_2.png"\] Alt text: Splunk ES: Export XML file
+    7.  Select **Export**.
 
         The exported Splunk notable event XML file must now be uploaded to your ServiceNow AI Platform® instance.
 
-    8.  If the Mapping page is not already displayed in your ServiceNow AI Platform® instance, click **Mapping** in the progress bar.
+    8.  If the Mapping page is not already displayed in your ServiceNow AI Platform® instance, select **Mapping** in the progress bar.
 
-    9.  In the Notable Event Sample Ingestion column, click **Load Attachment Data**.
+    9.  In the Notable Event Sample Ingestion column, select **Load Attachment Data**.
 
-        \[Omitted image "splunk\_es\_load\_attachment.png"\] Alt text: Splunk ES: Load attachment data
+    10. In the dialog that is displayed, select **Choose files** and navigate to the `.xml` file that you exported and select **Open**.
 
-    10. In the dialog that is displayed, click **Choose files** and navigate to the `.xml` file that you exported and click **Open**.
-
-        After you click to load attachment data for manually forwarded events, the Splunk ES notable event fields are populated on the left side of the form. These values are the field values that you map to the security incident fields on the Sir Incident Field Mapping side of the form.
+        After you select to load attachment data for manually forwarded events, the Splunk ES notable event fields are populated on the left side of the form. These values are the field values that you map to the security incident fields on the Sir Incident Field Mapping side of the form.
 
         The value pairs for the fields that you exported for the event are displayed on the left side of the mapping form.
 

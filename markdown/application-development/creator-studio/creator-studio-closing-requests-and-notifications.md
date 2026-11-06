@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
-reading_time_minutes: 1
-breadcrumb: [I've built my app in Creator Studio, now what?, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [What happens after I build an app?, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Closing requests and app notifications in Creator Studio
@@ -26,16 +26,18 @@ Additionally, you can create a playbook in the app to automatically email the re
 
 Apps created in Creator Studio send the following notifications by default.
 
+**Note:** Admins can customize the default notification emails for events listed in the following table. For details, see [Administering notification emails in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-admining-notifications.md).
+
 |Event|Recipient|Trigger|
 |-----|---------|-------|
-|Request opened|User who opened the request from the app|Record in the app's Task table or underlying table is created.|
-|Request assigned to user|User the request is assigned to|Record in the app's Task table or underlying table is created or updated.|
-|Request assigned to group|All users in the group that the request is assigned to|Record in the app's Task table or underlying table is created or updated.|
+|Request opened|User who opened the request from the app|Record in the app's Task table or associated table is created.|
+|Request assigned to user|User the request is assigned to|Record in the app's Task table or associated table is created or updated.|
+|Request assigned to group|All users in the group that the request is assigned to|Record in the app's Task table or associated table is created or updated.|
 |Request closed\*|User who opened the request|Record is updated any closed state, such as Complete or Cancelled.|
 
 \*Remember, request records must be manually closed.
 
-For more information on notifications from the ServiceNow AI Platform, see .
+For more information on notifications from the ServiceNow AI Platform, see [Create an email notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateANotification.md).
 
 ## Notifications Creator Studio sends about building apps
 

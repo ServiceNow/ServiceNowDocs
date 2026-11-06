@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Normalizing enterprise models, Managing enterprise models and assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Normalizing enterprise models, Managing enterprise models and assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Import and export content data for Enterprise Asset Management
@@ -46,7 +46,7 @@ Role required: sn\_eam.enterprise\_admin
 
     2.  If you already haven't opted in to share the data with ServiceNow content service, select **opt-in** and refresh the Manage Enterprise Library page.
 
-        For details on opting-in, see [Opt-in to Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/optin-cs-eam.md).
+        For details on opting-in, see [Opt-in to the Enterprise Asset Management Content Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/optin-cs-eam.md).
 
     3.  Select **Run Export**.
 

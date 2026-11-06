@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Set up Cloud Configuration Governance for AWS, Exploring Cloud Configuration Governance, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Set up AWS, Explore, Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Configure the trusting account for Cloud Configuration Governance and Cloud Action Library
@@ -50,7 +50,7 @@ Role required: sn\_itom\_ccg.scheduling\_admin
 
 2.  Configure the trusted service account for the trusting account in the ServiceNow AI Platform.
 
-    1.  Navigate to **** **Cloud Provisioning and Governance** &gt; **Service Accounts**.
+    1.  Navigate to **All** &gt; **Cloud Provisioning and Governance** &gt; **Service Accounts**
 
     2.  Open the trusting account.
 

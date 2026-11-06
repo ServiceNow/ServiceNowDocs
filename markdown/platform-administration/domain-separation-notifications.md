@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/domain-separation-notifications.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -73,6 +73,8 @@ Solution: Set the \[sys\_overrides\] field on the notification that belongs to
 
 [Email notifications dashboard]()
 
+[Email diagnostics dashboard]()
+
 [Email templates]()
 
 [Email layouts]()
@@ -85,7 +87,7 @@ Solution: Set the \[sys\_overrides\] field on the notification that belongs to
 
 [Email digests]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 
 [Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Working with Case management, Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -79,6 +79,10 @@ Configure a custom list to view workplace cases. You can view the workplace case
 [Create a workplace service case]()
 
 [Create a child case and a child task]()
+
+[Print a workplace case]()
+
+[Managing print case]()
 
 [Cancel or delete a case]()
 

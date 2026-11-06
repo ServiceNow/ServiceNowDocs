@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/domain-separation-and-mitre-att-ck.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -45,10 +45,6 @@ Follow these steps to achieve domain separation:
 3.  Select the TAXII collection that is relevant to your organization \(Enterprise ATT&amp;CK, Mobile ATT&amp;CK, or ICS ATT&amp;CK\).
 4.  Right-click in the header bar and select **Insert and Stay**. The duplicate TAXII collection is created under the selected domain
 5.  Navigate back to the MITRE ATT&amp;CK TAXII Profile to view the duplicate TAXII collection.
-
-The following illustration shows how to select the domain TOP/Initech, replicate the TAXII collection in the domain, and verify the replicated TAXII collection.
-
-\[Omitted image "mitre-insert-stay.gif"\] Alt text: Replicate the TAXII collection using the Insert and Stay option.
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/mitre-att-ck-administration.md)
 

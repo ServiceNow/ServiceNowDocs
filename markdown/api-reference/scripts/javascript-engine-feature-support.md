@@ -1,22 +1,24 @@
 ---
 title: JavaScript engine feature support
-description: Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Yokohama. Both modes support a subset of ECMAScript features.
+description: Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Brazil. Both modes support a subset of ECMAScript features.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/javascript-engine-feature-support.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 30
-breadcrumb: [JavaScript engine on the platform, Server-side scripting, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 32
+breadcrumb: [JavaScript engine, Write server-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # JavaScript engine feature support
 
-Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Yokohama. Both modes support a subset of ECMAScript features.
+Compare ECMAScript features between the ECMAScript 2021 \(ES12\) and ES5 Standards JavaScript modes in Brazil. Both modes support a subset of ECMAScript features.
 
 For more information about these features, see the ECMAScript language specifications \(ECMA-262\) on the [Ecma International](https://www.ecma-international.org/) website.
+
+**Important:** Before deploying code to production, you should test scripts using supported ECMAScript 2022 \(ES13\) features thoroughly due to the newly added and partial support of features across this ECMAScript version.
 
 ## Support definitions
 
@@ -33,9 +35,70 @@ For more information about these features, see the ECMAScript language specifica
     The feature does not align with the ServiceNow AI Platform programming model or poses a security or performance risk. Disallowed features result in an error.
 
 
-## ECMAScript 2022 \(ES13\) features
+## ECMAScript 2027 \(ES18\) features \(in draft\)
 
-**Important:** Before deploying code to production, you should test scripts using supported ECMAScript 2022 \(ES13\) features thoroughly due to the newly added and partial support of features across this ECMAScript version.
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|ArrayBuffer.prototype.detached \(read-only property\)|Supported|Disallowed|
+|ArrayBuffer.prototype.transfer\(newLength?\)|Supported|Disallowed|
+|ArrayBuffer.prototype.transferToFixedLength\(newLength\)|Supported|Disallowed|
+
+## ECMAScript 2025 \(ES16\) features
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Math.f16round\(x\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Error.isError\(value\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Promise.try\(fn, ...args\)|Supported|Not Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Set.prototype.union\(other\)|Supported|Not Supported|
+|Set.prototype.intersection\(other\)|Supported|Not Supported|
+|Set.prototype.difference\(other\)|Supported|Not Supported|
+|Set.prototype.symmetricDifference\(other\)|Supported|Not Supported|
+|Set.prototype.isSubsetOf\(other\)|Supported|Not Supported|
+|Set.prototype.isSupersetOf\(other\)|Supported|Not Supported|
+|Set.prototype.isDisjointFrom\(other\)|Supported|Not Supported|
+
+## ECMAScript 2024 \(ES15\) features
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Promise.withResolvers\(\)|Supported|Disallowed|
+
+## ECMAScript 2023 \(ES14\) features
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Array.prototype.findLast\(\)|Supported|Supported|
+|Array.prototype.findLastIndex\(\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|Array.prototype.toReversed\(\)|Supported|Supported|
+|Array.prototype.toSorted\(compareFn?\)|Supported|Supported|
+|Array.prototype.toSpliced\(start, deleteCount, ...items\)|Supported|Supported|
+|Array.prototype.with\(index, value\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|%TypedArray%.prototype.findLast\(\)|Supported|Supported|
+|%TypedArray%.prototype.findLastIndex\(\)|Supported|Supported|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|%TypedArray%.prototype.toReversed\(\)|Supported|Supported|
+|%TypedArray%.prototype.toSorted\(compareFn?\)|Supported|Supported|
+|%TypedArray%.prototype.with\(index, value\)|Supported|Supported|
+
+## ECMAScript 2022 \(ES13\) features
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -62,14 +125,14 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Array.prototype.at\(\)|Not Supported|Not Supported|
+|Array.prototype.at\(\)|Supported|Not Supported|
 |String.prototype.at\(\)|Supported|Not Supported|
-|%TypedArray%.prototype.at\(\)|Disallowed|Disallowed|
+|%TypedArray%.prototype.at\(\)|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Basic functionality|Not Supported|Not Supported|
-|ToObject called before ToPropertyKey|Not Supported|Not Supported|
+|Basic functionality|Supported|Not Supported|
+|ToObject called before ToPropertyKey|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -107,8 +170,8 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|fulfillment|Disallowed|Disallowed|
-|AggregateError|Disallowed|Disallowed|
+|fulfillment|Supported|Disallowed|
+|AggregateError|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -144,19 +207,19 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic functionality|Not Supported|Not Supported|
-|constructor|Not Supported|Not Supported|
-|BigInt.asUintN|Not Supported|Not Supported|
-|BigInt.asIntN|Not Supported|Not Supported|
-|BigInt64Array|Not Supported|Not Supported|
-|BigUint64Array|Not Supported|Not Supported|
+|basic functionality|Supported|Not Supported|
+|constructor|Supported|Not Supported|
+|BigInt.asUintN|Supported|Not Supported|
+|BigInt.asIntN|Supported|Not Supported|
+|BigInt64Array|Supported|Not Supported|
+|BigUint64Array|Supported|Not Supported|
 |DataView.prototype.getBigInt64|Not Supported|Not Supported|
 |DataView.prototype.getBigUint64|Not Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|"globalThis" global property is global object|Disallowed|Disallowed|
-|"globalThis" global property has correct property descriptor|Disallowed|Disallowed|
+|"globalThis" global property is global object|Supported|Disallowed|
+|"globalThis" global property has correct property descriptor|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -168,7 +231,7 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Promise.allSettled|Disallowed|Disallowed|
+|Promise.allSettled|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -201,7 +264,7 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic|Disallowed|Disallowed|
+|basic|Supported|Disallowed|
 |await|Disallowed|Disallowed|
 |yield|Disallowed|Disallowed|
 
@@ -213,7 +276,7 @@ For more information about these features, see the ECMAScript language specifica
 |class expression with implicit constructor|Disallowed|Disallowed|
 |class expression with explicit constructor|Disallowed|Disallowed|
 |unicode escape sequences in identifiers|Disallowed|Disallowed|
-|methods and computed property names|Disallowed|Disallowed|
+|methods and computed property names|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -233,9 +296,9 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic support|Disallowed|Disallowed|
-|don't change resolution value|Disallowed|Disallowed|
-|change rejection value|Disallowed|Disallowed|
+|basic support|Supported|Disallowed|
+|don't change resolution value|Supported|Disallowed|
+|change rejection value|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -252,11 +315,11 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|RegExp Lookbehind Assertions|Not Supported|Not Supported|
+|RegExp Lookbehind Assertions|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|RegExp Unicode Property Escapes|Not Supported|Not Supported|
+|RegExp Unicode Property Escapes|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -269,7 +332,7 @@ For more information about these features, see the ECMAScript language specifica
 |Object.values|Supported|Not Supported|
 |Object.entries|Supported|Not Supported|
 |Object.getOwnPropertyDescriptors|Supported|Not Supported|
-|Object.getOwnPropertyDescriptors doesn't provide undefined descriptors|Not Supported|Not Supported|
+|Object.getOwnPropertyDescriptors doesn't provide undefined descriptors|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -283,19 +346,19 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|return|Disallowed|Disallowed|
-|throw|Disallowed|Disallowed|
-|no line break between async and function|Disallowed|Disallowed|
+|return|Supported|Disallowed|
+|throw|Supported|Disallowed|
+|no line break between async and function|Supported|Disallowed|
 |no "prototype" property|Disallowed|Disallowed|
-|await|Disallowed|Disallowed|
-|await, rejection|Disallowed|Disallowed|
+|await|Supported|Disallowed|
+|await, rejection|Supported|Disallowed|
 |must await a value|Disallowed|Disallowed|
-|can await non-Promise values|Disallowed|Disallowed|
+|can await non-Promise values|Supported|Disallowed|
 |cannot await in parameters|Disallowed|Disallowed|
-|async methods, object literals|Disallowed|Disallowed|
+|async methods, object literals|Supported|Disallowed|
 |async methods, classes|Disallowed|Disallowed|
-|async arrow functions in methods, classes|Disallowed|Disallowed|
-|async arrow functions|Disallowed|Disallowed|
+|async arrow functions in methods, classes|Supported|Disallowed|
+|async arrow functions|Supported|Disallowed|
 |correct prototype chain|Disallowed|Disallowed|
 |async function prototype, Symbol.toStringTag|Disallowed|Disallowed|
 |async function constructor|Disallowed|Disallowed|
@@ -322,29 +385,29 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|\_\_defineGetter\_\_|Disallowed|Disallowed|
-|\_\_defineGetter\_\_, symbols|Disallowed|Disallowed|
+|\_\_defineGetter\_\_|Supported|Disallowed|
+|\_\_defineGetter\_\_, symbols|Supported|Disallowed|
 |\_\_defineGetter\_\_, ToObject\(this\)|Disallowed|Disallowed|
-|\_\_defineSetter\_\_|Disallowed|Disallowed|
-|\_\_defineSetter\_\_, symbols|Disallowed|Disallowed|
+|\_\_defineSetter\_\_|Supported|Disallowed|
+|\_\_defineSetter\_\_, symbols|Supported|Disallowed|
 |\_\_defineSetter\_\_, ToObject\(this\)|Disallowed|Disallowed|
-|\_\_lookupGetter\_\_|Disallowed|Disallowed|
-|\_\_lookupGetter\_\_, prototype chain|Disallowed|Disallowed|
-|\_\_lookupGetter\_\_, symbols|Disallowed|Disallowed|
+|\_\_lookupGetter\_\_|Supported|Disallowed|
+|\_\_lookupGetter\_\_, prototype chain|Supported|Disallowed|
+|\_\_lookupGetter\_\_, symbols|Supported|Disallowed|
 |\_\_lookupGetter\_\_, ToObject\(this\)|Disallowed|Disallowed|
 |\_\_lookupGetter\_\_, data properties can shadow accessors|Disallowed|Disallowed|
-|\_\_lookupSetter\_\_|Disallowed|Disallowed|
-|\_\_lookupSetter\_\_, prototype chain|Disallowed|Disallowed|
-|\_\_lookupSetter\_\_, symbols|Disallowed|Disallowed|
+|\_\_lookupSetter\_\_|Supported|Disallowed|
+|\_\_lookupSetter\_\_, prototype chain|Supported|Disallowed|
+|\_\_lookupSetter\_\_, symbols|Supported|Disallowed|
 |\_\_lookupSetter\_\_, ToObject\(this\)|Disallowed|Disallowed|
 |\_\_lookupSetter\_\_, data properties can shadow accessors|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|\_\_defineGetter\_\_|Disallowed|Disallowed|
-|\_\_defineSetter\_\_|Disallowed|Disallowed|
-|\_\_lookupGetter\_\_|Disallowed|Disallowed|
-|\_\_lookupSetter\_\_|Disallowed|Disallowed|
+|\_\_defineGetter\_\_|Supported|Disallowed|
+|\_\_defineSetter\_\_|Supported|Disallowed|
+|\_\_lookupGetter\_\_|Supported|Disallowed|
+|\_\_lookupSetter\_\_|Supported|Disallowed|
 
 ## ECMAScript 2016 \(ES7\) features
 
@@ -358,7 +421,7 @@ For more information about these features, see the ECMAScript language specifica
 |-------|-----------------------------|------------------|
 |Array.prototype.includes|Supported|Not Supported|
 |Array.prototype.includes is generic|Not Supported|Not Supported|
-|%TypedArray%.prototype.includes|Disallowed|Disallowed|
+|%TypedArray%.prototype.includes|Supported|Disallowed|
 
 ## ECMAScript 2015 \(ES6\) features
 
@@ -445,10 +508,10 @@ For more information about these features, see the ECMAScript language specifica
 |-------|-----------------------------|------------------|
 |"y" flag|Supported|Not Supported|
 |"y" flag, lastIndex|Supported|Not Supported|
-|"u" flag|Not Supported|Not Supported|
-|"u" flag, non-BMP Unicode characters|Not Supported|Not Supported|
-|"u" flag, Unicode code point escapes|Not Supported|Not Supported|
-|"u" flag, case folding|Not Supported|Not Supported|
+|"u" flag|Supported|Not Supported|
+|"u" flag, non-BMP Unicode characters|Supported|Not Supported|
+|"u" flag, Unicode code point escapes|Supported|Not Supported|
+|"u" flag, case folding|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -643,81 +706,81 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic functionality|Disallowed|Disallowed|
-|generator function expressions|Disallowed|Disallowed|
-|correct "this" binding|Disallowed|Disallowed|
-|can't use "this" with new|Disallowed|Disallowed|
-|sending|Disallowed|Disallowed|
+|basic functionality|Supported|Disallowed|
+|generator function expressions|Supported|Disallowed|
+|correct "this" binding|Supported|Disallowed|
+|can't use "this" with new|Supported|Disallowed|
+|sending|Supported|Disallowed|
 |%GeneratorPrototype%|Disallowed|Disallowed|
 |%GeneratorPrototype% prototype chain|Disallowed|Disallowed|
 |%GeneratorPrototype%.constructor|Disallowed|Disallowed|
 |%GeneratorPrototype%.throw|Disallowed|Disallowed|
 |%GeneratorPrototype%.return|Disallowed|Disallowed|
 |yield operator precedence|Disallowed|Disallowed|
-|yield \*, arrays|Disallowed|Disallowed|
-|yield \*, sparse arrays|Disallowed|Disallowed|
-|yield \*, strings|Disallowed|Disallowed|
-|yield \*, astral plane strings|Disallowed|Disallowed|
-|yield \*, generator instances|Disallowed|Disallowed|
-|yield \*, generic iterables|Disallowed|Disallowed|
-|yield \*, instances of iterables|Disallowed|Disallowed|
-|yield \* on non-iterables is a runtime error|Disallowed|Disallowed|
-|yield \*, iterator closing|Disallowed|Disallowed|
-|yield \*, iterator closing via throw\(\)|Disallowed|Disallowed|
-|shorthand generator methods|Disallowed|Disallowed|
-|string-keyed shorthand generator methods|Disallowed|Disallowed|
-|computed shorthand generators|Disallowed|Disallowed|
-|shorthand generator methods, classes|Disallowed|Disallowed|
-|computed shorthand generators, classes|Disallowed|Disallowed|
+|yield \*, arrays|Supported|Disallowed|
+|yield \*, sparse arrays|Supported|Disallowed|
+|yield \*, strings|Supported|Disallowed|
+|yield \*, astral plane strings|Supported|Disallowed|
+|yield \*, generator instances|Supported|Disallowed|
+|yield \*, generic iterables|Supported|Disallowed|
+|yield \*, instances of iterables|Supported|Disallowed|
+|yield \* on non-iterables is a runtime error|Supported|Disallowed|
+|yield \*, iterator closing|Supported|Disallowed|
+|yield \*, iterator closing via throw\(\)|Supported|Disallowed|
+|shorthand generator methods|Supported|Disallowed|
+|string-keyed shorthand generator methods|Supported|Disallowed|
+|computed shorthand generators|Supported|Disallowed|
+|shorthand generator methods, classes|Supported|Disallowed|
+|computed shorthand generators, classes|Supported|Disallowed|
 |shorthand generators can't be constructors|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Int8Array|Disallowed|Disallowed|
-|Uint8Array|Disallowed|Disallowed|
-|Uint8ClampedArray|Disallowed|Disallowed|
-|Int16Array|Disallowed|Disallowed|
-|Uint16Array|Disallowed|Disallowed|
-|Int32Array|Disallowed|Disallowed|
-|Uint32Array|Disallowed|Disallowed|
-|Float32Array|Disallowed|Disallowed|
-|Float64Array|Disallowed|Disallowed|
-|DataView \(Int8\)|Disallowed|Disallowed|
-|DataView \(Uint8\)|Disallowed|Disallowed|
-|DataView \(Int16\)|Disallowed|Disallowed|
-|DataView \(Uint16\)|Disallowed|Disallowed|
-|DataView \(Int32\)|Disallowed|Disallowed|
-|DataView \(Uint32\)|Disallowed|Disallowed|
-|DataView \(Float32\)|Disallowed|Disallowed|
-|DataView \(Float64\)|Disallowed|Disallowed|
-|ArrayBuffer\[Symbol.species\]|Disallowed|Disallowed|
-|constructors require new|Disallowed|Disallowed|
-|constructors accept generic iterables|Disallowed|Disallowed|
+|Int8Array|Supported|Disallowed|
+|Uint8Array|Supported|Disallowed|
+|Uint8ClampedArray|Supported|Disallowed|
+|Int16Array|Supported|Disallowed|
+|Uint16Array|Supported|Disallowed|
+|Int32Array|Supported|Disallowed|
+|Uint32Array|Supported|Disallowed|
+|Float32Array|Supported|Disallowed|
+|Float64Array|Supported|Disallowed|
+|DataView \(Int8\)|Supported|Disallowed|
+|DataView \(Uint8\)|Supported|Disallowed|
+|DataView \(Int16\)|Supported|Disallowed|
+|DataView \(Uint16\)|Supported|Disallowed|
+|DataView \(Int32\)|Supported|Disallowed|
+|DataView \(Uint32\)|Supported|Disallowed|
+|DataView \(Float32\)|Supported|Disallowed|
+|DataView \(Float64\)|Supported|Disallowed|
+|ArrayBuffer\[Symbol.species\]|Supported|Disallowed|
+|constructors require new|Supported|Disallowed|
+|constructors accept generic iterables|Supported|Disallowed|
 |correct prototype chains|Disallowed|Disallowed|
-|%TypedArray%.from|Disallowed|Disallowed|
-|%TypedArray%.of|Disallowed|Disallowed|
-|%TypedArray%.prototype.subarray|Disallowed|Disallowed|
-|%TypedArray%.prototype.join|Disallowed|Disallowed|
-|%TypedArray%.prototype.indexOf|Disallowed|Disallowed|
-|%TypedArray%.prototype.lastIndexOf|Disallowed|Disallowed|
-|%TypedArray%.prototype.slice|Disallowed|Disallowed|
-|%TypedArray%.prototype.every|Disallowed|Disallowed|
-|%TypedArray%.prototype.filter|Disallowed|Disallowed|
-|%TypedArray%.prototype.forEach|Disallowed|Disallowed|
-|%TypedArray%.prototype.map|Disallowed|Disallowed|
-|%TypedArray%.prototype.reduce|Disallowed|Disallowed|
-|%TypedArray%.prototype.reduceRight|Disallowed|Disallowed|
-|%TypedArray%.prototype.reverse|Disallowed|Disallowed|
-|%TypedArray%.prototype.some|Disallowed|Disallowed|
-|%TypedArray%.prototype.sort|Disallowed|Disallowed|
-|%TypedArray%.prototype.copyWithin|Disallowed|Disallowed|
-|%TypedArray%.prototype.find|Disallowed|Disallowed|
-|%TypedArray%.prototype.findIndex|Disallowed|Disallowed|
-|%TypedArray%.prototype.fill|Disallowed|Disallowed|
-|%TypedArray%.prototype.keys|Disallowed|Disallowed|
-|%TypedArray%.prototype.values|Disallowed|Disallowed|
-|%TypedArray%.prototype.entries|Disallowed|Disallowed|
-|%TypedArray%.prototype\[Symbol.iterator\]|Disallowed|Disallowed|
+|%TypedArray%.from|Supported|Disallowed|
+|%TypedArray%.of|Supported|Disallowed|
+|%TypedArray%.prototype.subarray|Supported|Disallowed|
+|%TypedArray%.prototype.join|Supported|Disallowed|
+|%TypedArray%.prototype.indexOf|Supported|Disallowed|
+|%TypedArray%.prototype.lastIndexOf|Supported|Disallowed|
+|%TypedArray%.prototype.slice|Supported|Disallowed|
+|%TypedArray%.prototype.every|Supported|Disallowed|
+|%TypedArray%.prototype.filter|Supported|Disallowed|
+|%TypedArray%.prototype.forEach|Supported|Disallowed|
+|%TypedArray%.prototype.map|Supported|Disallowed|
+|%TypedArray%.prototype.reduce|Supported|Disallowed|
+|%TypedArray%.prototype.reduceRight|Supported|Disallowed|
+|%TypedArray%.prototype.reverse|Supported|Disallowed|
+|%TypedArray%.prototype.some|Supported|Disallowed|
+|%TypedArray%.prototype.sort|Supported|Disallowed|
+|%TypedArray%.prototype.copyWithin|Supported|Disallowed|
+|%TypedArray%.prototype.find|Supported|Disallowed|
+|%TypedArray%.prototype.findIndex|Supported|Disallowed|
+|%TypedArray%.prototype.fill|Supported|Disallowed|
+|%TypedArray%.prototype.keys|Supported|Disallowed|
+|%TypedArray%.prototype.values|Supported|Disallowed|
+|%TypedArray%.prototype.entries|Supported|Disallowed|
+|%TypedArray%.prototype\[Symbol.iterator\]|Supported|Disallowed|
 |%TypedArray%\[Symbol.species\]|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
@@ -766,69 +829,69 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic functionality|Disallowed|Disallowed|
-|constructor arguments|Disallowed|Disallowed|
-|constructor requires new|Disallowed|Disallowed|
-|constructor accepts null|Disallowed|Disallowed|
-|constructor invokes set|Disallowed|Disallowed|
-|frozen objects as keys|Disallowed|Disallowed|
-|iterator closing|Disallowed|Disallowed|
-|WeakMap.prototype.set returns this|Disallowed|Disallowed|
-|WeakMap.prototype.delete|Disallowed|Disallowed|
-|no WeakMap.prototype.clear method|Disallowed|Disallowed|
+|basic functionality|Supported|Disallowed|
+|constructor arguments|Supported|Disallowed|
+|constructor requires new|Supported|Disallowed|
+|constructor accepts null|Supported|Disallowed|
+|constructor invokes set|Supported|Disallowed|
+|frozen objects as keys|Supported|Disallowed|
+|iterator closing|Supported|Disallowed|
+|WeakMap.prototype.set returns this|Supported|Disallowed|
+|WeakMap.prototype.delete|Supported|Disallowed|
+|no WeakMap.prototype.clear method|Supported|Disallowed|
 |.has, .get and .delete methods accept primitives|Disallowed|Disallowed|
 |WeakMap.prototype isn't an instance|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic functionality|Disallowed|Disallowed|
-|constructor arguments|Disallowed|Disallowed|
-|constructor requires new|Disallowed|Disallowed|
-|constructor accepts null|Disallowed|Disallowed|
-|constructor invokes add|Disallowed|Disallowed|
-|iterator closing|Disallowed|Disallowed|
-|WeakSet.prototype.add returns this|Disallowed|Disallowed|
-|WeakSet.prototype.delete|Disallowed|Disallowed|
-|no WeakSet.prototype.clear method|Disallowed|Disallowed|
+|basic functionality|Supported|Disallowed|
+|constructor arguments|Supported|Disallowed|
+|constructor requires new|Supported|Disallowed|
+|constructor accepts null|Supported|Disallowed|
+|constructor invokes add|Supported|Disallowed|
+|iterator closing|Supported|Disallowed|
+|WeakSet.prototype.add returns this|Supported|Disallowed|
+|WeakSet.prototype.delete|Supported|Disallowed|
+|no WeakSet.prototype.clear method|Supported|Disallowed|
 |.has and .delete methods accept primitives|Disallowed|Disallowed|
 |WeakSet.prototype isn't an instance|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|constructor requires new|Disallowed|Disallowed|
-|no "prototype" property|Disallowed|Disallowed|
-|"get" handler|Disallowed|Disallowed|
-|"get" handler, instances of proxies|Disallowed|Disallowed|
-|"get" handler invariants|Disallowed|Disallowed|
-|"set" handler|Disallowed|Disallowed|
-|"set" handler, instances of proxies|Disallowed|Disallowed|
-|"set" handler invariants|Disallowed|Disallowed|
-|"has" handler|Disallowed|Disallowed|
-|"has" handler, instances of proxies|Disallowed|Disallowed|
-|"has" handler invariants|Disallowed|Disallowed|
-|"deleteProperty" handler|Disallowed|Disallowed|
-|"deleteProperty" handler invariant|Disallowed|Disallowed|
-|"getOwnPropertyDescriptor" handler|Disallowed|Disallowed|
-|"getOwnPropertyDescriptor" handler invariants|Disallowed|Disallowed|
-|"defineProperty" handler|Disallowed|Disallowed|
-|"defineProperty" handler invariants|Disallowed|Disallowed|
-|"getPrototypeOf" handler|Disallowed|Disallowed|
-|"getPrototypeOf" handler invariant|Disallowed|Disallowed|
-|"setPrototypeOf" handler|Disallowed|Disallowed|
-|"setPrototypeOf" handler invariant|Disallowed|Disallowed|
-|"isExtensible" handler|Disallowed|Disallowed|
-|"isExtensible" handler invariant|Disallowed|Disallowed|
-|"preventExtensions" handler|Disallowed|Disallowed|
-|"preventExtensions" handler invariant|Disallowed|Disallowed|
-|"ownKeys" handler|Disallowed|Disallowed|
-|"ownKeys" handler invariant|Disallowed|Disallowed|
-|"apply" handler|Disallowed|Disallowed|
-|"apply" handler invariant|Disallowed|Disallowed|
-|"construct" handler|Disallowed|Disallowed|
-|"construct" handler invariants|Disallowed|Disallowed|
-|Proxy.revocable|Disallowed|Disallowed|
-|Array.isArray support|Disallowed|Disallowed|
-|JSON.stringify support|Disallowed|Disallowed|
+|constructor requires new|Supported|Disallowed|
+|no "prototype" property|Supported|Disallowed|
+|"get" handler|Supported|Disallowed|
+|"get" handler, instances of proxies|Supported|Disallowed|
+|"get" handler invariants|Supported|Disallowed|
+|"set" handler|Supported|Disallowed|
+|"set" handler, instances of proxies|Supported|Disallowed|
+|"set" handler invariants|Supported|Disallowed|
+|"has" handler|Supported|Disallowed|
+|"has" handler, instances of proxies|Supported|Disallowed|
+|"has" handler invariants|Supported|Disallowed|
+|"deleteProperty" handler|Supported|Disallowed|
+|"deleteProperty" handler invariant|Supported|Disallowed|
+|"getOwnPropertyDescriptor" handler|Supported|Disallowed|
+|"getOwnPropertyDescriptor" handler invariants|Supported|Disallowed|
+|"defineProperty" handler|Supported|Disallowed|
+|"defineProperty" handler invariants|Supported|Disallowed|
+|"getPrototypeOf" handler|Supported|Disallowed|
+|"getPrototypeOf" handler invariant|Supported|Disallowed|
+|"setPrototypeOf" handler|Supported|Disallowed|
+|"setPrototypeOf" handler invariant|Supported|Disallowed|
+|"isExtensible" handler|Supported|Disallowed|
+|"isExtensible" handler invariant|Supported|Disallowed|
+|"preventExtensions" handler|Supported|Disallowed|
+|"preventExtensions" handler invariant|Supported|Disallowed|
+|"ownKeys" handler|Supported|Disallowed|
+|"ownKeys" handler invariant|Supported|Disallowed|
+|"apply" handler|Supported|Disallowed|
+|"apply" handler invariant|Supported|Disallowed|
+|"construct" handler|Supported|Disallowed|
+|"construct" handler invariants|Supported|Disallowed|
+|Proxy.revocable|Supported|Disallowed|
+|Array.isArray support|Supported|Disallowed|
+|JSON.stringify support|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -855,14 +918,14 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic functionality|Disallowed|Disallowed|
-|constructor requires new|Disallowed|Disallowed|
-|Promise.prototype isn't an instance|Disallowed|Disallowed|
-|Promise.all|Disallowed|Disallowed|
-|Promise.all, generic iterables|Disallowed|Disallowed|
-|Promise.race|Disallowed|Disallowed|
-|Promise.race, generic iterables|Disallowed|Disallowed|
-|Promise\[Symbol.species\]|Disallowed|Disallowed|
+|basic functionality|Supported|Disallowed|
+|constructor requires new|Supported|Disallowed|
+|Promise.prototype isn't an instance|Supported|Disallowed|
+|Promise.all|Supported|Disallowed|
+|Promise.all, generic iterables|Supported|Disallowed|
+|Promise.race|Supported|Disallowed|
+|Promise.race, generic iterables|Supported|Disallowed|
+|Promise\[Symbol.species\]|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -871,21 +934,21 @@ For more information about these features, see the ECMAScript language specifica
 |symbol keys are hidden to pre-ES6 code|Supported|Not Supported|
 |Object.defineProperty support|Supported|Not Supported|
 |symbols inherit from Symbol.prototype|Supported|Not Supported|
-|cannot coerce to string or number|Not Supported|Not Supported|
-|can convert with String\(\)|Not Supported|Not Supported|
+|cannot coerce to string or number|Supported|Not Supported|
+|can convert with String\(\)|Supported|Not Supported|
 |new Symbol\(\) throws|Supported|Not Supported|
 |Object\(symbol\)|Not Supported|Not Supported|
 |JSON.stringify ignores symbol primitives|Supported|Not Supported|
-|JSON.stringify ignores symbol objects|Not Supported|Not Supported|
+|JSON.stringify ignores symbol objects|Supported|Not Supported|
 |global symbol registry|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Symbol.hasInstance|Disallowed|Disallowed|
-|Symbol.isConcatSpreadable|Disallowed|Disallowed|
-|Symbol.iterator, existence|Disallowed|Disallowed|
-|Symbol.iterator, arguments object|Disallowed|Disallowed|
-|Symbol.species, existence|Disallowed|Disallowed|
+|Symbol.hasInstance|Supported|Disallowed|
+|Symbol.isConcatSpreadable|Supported|Disallowed|
+|Symbol.iterator, existence|Supported|Disallowed|
+|Symbol.iterator, arguments object|Supported|Disallowed|
+|Symbol.species, existence|Supported|Disallowed|
 |Symbol.species, Array.prototype.concat|Disallowed|Disallowed|
 |Symbol.species, Array.prototype.filter|Disallowed|Disallowed|
 |Symbol.species, Array.prototype.map|Disallowed|Disallowed|
@@ -893,37 +956,37 @@ For more information about these features, see the ECMAScript language specifica
 |Symbol.species, Array.prototype.splice|Disallowed|Disallowed|
 |Symbol.species, RegExp.prototype\[Symbol.split\]|Disallowed|Disallowed|
 |Symbol.species, Promise.prototype.then|Disallowed|Disallowed|
-|Symbol.replace|Disallowed|Disallowed|
-|Symbol.search|Disallowed|Disallowed|
-|Symbol.split|Disallowed|Disallowed|
-|Symbol.match|Disallowed|Disallowed|
+|Symbol.replace|Supported|Disallowed|
+|Symbol.search|Supported|Disallowed|
+|Symbol.split|Supported|Disallowed|
+|Symbol.match|Supported|Disallowed|
 |Symbol.match, RegExp constructor|Disallowed|Disallowed|
 |Symbol.match, String.prototype.startsWith|Disallowed|Disallowed|
 |Symbol.match, String.prototype.endsWith|Disallowed|Disallowed|
 |Symbol.match, String.prototype.includes|Disallowed|Disallowed|
-|Symbol.toPrimitive|Disallowed|Disallowed|
-|Symbol.toStringTag|Disallowed|Disallowed|
-|Symbol.toStringTag affects existing built-ins|Disallowed|Disallowed|
-|Symbol.toStringTag, new built-ins|Disallowed|Disallowed|
-|Symbol.toStringTag, misc. built-ins|Disallowed|Disallowed|
-|Symbol.unscopables|Disallowed|Disallowed|
+|Symbol.toPrimitive|Supported|Disallowed|
+|Symbol.toStringTag|Supported|Disallowed|
+|Symbol.toStringTag affects existing built-ins|Supported|Disallowed|
+|Symbol.toStringTag, new built-ins|Supported|Disallowed|
+|Symbol.toStringTag, misc. built-ins|Supported|Disallowed|
+|Symbol.unscopables|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
 |Object.assign|Supported|Not Supported|
 |Object.is|Supported|Not Supported|
 |Object.getOwnPropertySymbols|Supported|Not Supported|
-|Object.setPrototypeOf|Not Supported|Not Supported|
+|Object.setPrototypeOf|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
 |function statements|Supported|Supported|
 |function expressions|Supported|Supported|
 |new Function|Not Supported|Not Supported|
-|bound functions|Not Supported|Not Supported|
+|bound functions|Supported|Not Supported|
 |variables \(function\)|Supported|Not Supported|
 |object methods \(function\)|Supported|Not Supported|
-|accessor properties|Not Supported|Not Supported|
+|accessor properties|Supported|Not Supported|
 |shorthand methods|Supported|Not Supported|
 |shorthand methods \(no lexical binding\)|Supported|Not Supported|
 |symbol-keyed methods|Not Supported|Not Supported|
@@ -933,7 +996,10 @@ For more information about these features, see the ECMAScript language specifica
 |object methods \(class\)|Not Supported|Not Supported|
 |class prototype methods|Supported|Not Supported|
 |class static methods|Supported|Not Supported|
-|isn't writable, is configurable|Not Supported|Not Supported|
+|isn't writable, is configurable|Supported|Not Supported|
+|Infer `.name` from `var`/`let`/`const` declaration — function expressions and arrow functions \(e.g. `const f = () => {}` → `f.name === "f"`\)|Supported|Not Supported|
+|Infer `.name` from assignment to previously declared variable \(`let f; f = function() {}` → `f.name === "f"`\)|Supported|Not Supported|
+|Infer `.name` from object property assignment \(`{ f: function() {} }` → `f.name === "f"`\), including getter/setter accessor properties|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -956,20 +1022,20 @@ For more information about these features, see the ECMAScript language specifica
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
 |RegExp.prototype.flags|Supported|Not Supported|
-|RegExp.prototype\[Symbol.match\]|Not Supported|Not Supported|
+|RegExp.prototype\[Symbol.match\]|Supported|Not Supported|
 |RegExp.prototype\[Symbol.replace\]|Supported|Not Supported|
 |RegExp.prototype\[Symbol.split\]|Supported|Not Supported|
-|RegExp.prototype\[Symbol.search\]|Not Supported|Not Supported|
+|RegExp.prototype\[Symbol.search\]|Supported|Not Supported|
 |RegExp\[Symbol.species\]|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
 |Array.from, array-like objects|Supported|Not Supported|
-|Array.from, generator instances|Disallowed|Disallowed|
+|Array.from, generator instances|Supported|Disallowed|
 |Array.from, generic iterables|Supported|Not Supported|
 |Array.from, instances of generic iterables|Supported|Not Supported|
 |Array.from map function, array-like objects|Supported|Not Supported|
-|Array.from map function, generator instances|Disallowed|Disallowed|
+|Array.from map function, generator instances|Supported|Disallowed|
 |Array.from map function, generic iterables|Supported|Not Supported|
 |Array.from map function, instances of iterables|Supported|Not Supported|
 |Array.from, iterator closing|Supported|Not Supported|
@@ -995,8 +1061,8 @@ For more information about these features, see the ECMAScript language specifica
 |Number.isInteger|Supported|Not Supported|
 |Number.isSafeInteger|Supported|Not Supported|
 |Number.isNaN|Supported|Not Supported|
-|Number.parseFloat|Disallowed|Disallowed|
-|Number.parseInt|Disallowed|Disallowed|
+|Number.parseFloat|Supported|Disallowed|
+|Number.parseInt|Supported|Disallowed|
 |Number.EPSILON|Supported|Not Supported|
 |Number.MIN\_SAFE\_INTEGER|Supported|Not Supported|
 |Number.MAX\_SAFE\_INTEGER|Supported|Not Supported|
@@ -1030,14 +1096,14 @@ For more information about these features, see the ECMAScript language specifica
 |length property \(accessing\)|Disallowed|Disallowed|
 |length property \(setting\)|Disallowed|Disallowed|
 |correct prototype chain|Disallowed|Disallowed|
-|Array.isArray support|Disallowed|Disallowed|
-|Array.prototype.concat|Disallowed|Disallowed|
-|Array.prototype.filter|Disallowed|Disallowed|
-|Array.prototype.map|Disallowed|Disallowed|
-|Array.prototype.slice|Disallowed|Disallowed|
-|Array.prototype.splice|Disallowed|Disallowed|
-|Array.from|Disallowed|Disallowed|
-|Array.of|Disallowed|Disallowed|
+|Array.isArray support|Supported|Disallowed|
+|Array.prototype.concat|Supported|Disallowed|
+|Array.prototype.filter|Supported|Disallowed|
+|Array.prototype.map|Supported|Disallowed|
+|Array.prototype.slice|Supported|Disallowed|
+|Array.prototype.splice|Supported|Disallowed|
+|Array.from|Supported|Disallowed|
+|Array.of|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -1081,83 +1147,83 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|ToPrimitive|Disallowed|Disallowed|
-|CreateListFromArrayLike|Disallowed|Disallowed|
+|ToPrimitive|Supported|Disallowed|
+|CreateListFromArrayLike|Supported|Disallowed|
 |instanceof operator|Supported|Disallowed|
-|HasBinding|Disallowed|Disallowed|
-|CreateDynamicFunction|Disallowed|Disallowed|
-|ClassDefinitionEvaluation|Disallowed|Disallowed|
-|IteratorComplete, IteratorValue|Disallowed|Disallowed|
-|ToPropertyDescriptor|Disallowed|Disallowed|
-|Object.assign|Disallowed|Disallowed|
-|Object.defineProperties|Disallowed|Disallowed|
-|Function.prototype.bind|Disallowed|Disallowed|
-|Error.prototype.toString|Disallowed|Disallowed|
-|String.raw|Disallowed|Disallowed|
-|RegExp constructor|Disallowed|Disallowed|
-|RegExp.prototype.flags|Disallowed|Disallowed|
-|RegExp.prototype.test|Disallowed|Disallowed|
-|RegExp.prototype.toString|Disallowed|Disallowed|
-|RegExp.prototype\[Symbol.match\]|Disallowed|Disallowed|
-|RegExp.prototype\[Symbol.replace\]|Disallowed|Disallowed|
-|RegExp.prototype\[Symbol.search\]|Disallowed|Disallowed|
-|RegExp.prototype\[Symbol.split\]|Disallowed|Disallowed|
-|Array.from|Disallowed|Disallowed|
-|Array.prototype.concat|Disallowed|Disallowed|
-|Array.prototype iteration methods|Disallowed|Disallowed|
-|Array.prototype.pop|Disallowed|Disallowed|
-|Array.prototype.reverse|Disallowed|Disallowed|
-|Array.prototype.shift|Disallowed|Disallowed|
-|Array.prototype.splice|Disallowed|Disallowed|
-|Array.prototype.toString|Disallowed|Disallowed|
-|JSON.stringify|Disallowed|Disallowed|
-|Promise resolve functions|Disallowed|Disallowed|
-|String.prototype.match|Disallowed|Disallowed|
-|String.prototype.replace|Disallowed|Disallowed|
-|String.prototype.search|Disallowed|Disallowed|
-|String.prototype.split|Disallowed|Disallowed|
-|Date.prototype.toJSON|Disallowed|Disallowed|
+|HasBinding|Supported|Disallowed|
+|CreateDynamicFunction|Supported|Disallowed|
+|ClassDefinitionEvaluation|Supported|Disallowed|
+|IteratorComplete, IteratorValue|Supported|Disallowed|
+|ToPropertyDescriptor|Supported|Disallowed|
+|Object.assign|Supported|Disallowed|
+|Object.defineProperties|Supported|Disallowed|
+|Function.prototype.bind|Supported|Disallowed|
+|Error.prototype.toString|Supported|Disallowed|
+|String.raw|Supported|Disallowed|
+|RegExp constructor|Supported|Disallowed|
+|RegExp.prototype.flags|Supported|Disallowed|
+|RegExp.prototype.test|Supported|Disallowed|
+|RegExp.prototype.toString|Supported|Disallowed|
+|RegExp.prototype\[Symbol.match\]|Supported|Disallowed|
+|RegExp.prototype\[Symbol.replace\]|Supported|Disallowed|
+|RegExp.prototype\[Symbol.search\]|Supported|Disallowed|
+|RegExp.prototype\[Symbol.split\]|Supported|Disallowed|
+|Array.from|Supported|Disallowed|
+|Array.prototype.concat|Supported|Disallowed|
+|Array.prototype iteration methods|Supported|Disallowed|
+|Array.prototype.pop|Supported|Disallowed|
+|Array.prototype.reverse|Supported|Disallowed|
+|Array.prototype.shift|Supported|Disallowed|
+|Array.prototype.splice|Supported|Disallowed|
+|Array.prototype.toString|Supported|Disallowed|
+|JSON.stringify|Supported|Disallowed|
+|Promise resolve functions|Supported|Disallowed|
+|String.prototype.match|Supported|Disallowed|
+|String.prototype.replace|Supported|Disallowed|
+|String.prototype.search|Supported|Disallowed|
+|String.prototype.split|Supported|Disallowed|
+|Date.prototype.toJSON|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Object.assign|Disallowed|Disallowed|
-|Array.from|Disallowed|Disallowed|
-|Array.of|Disallowed|Disallowed|
-|Array.prototype.copyWithin|Disallowed|Disallowed|
-|Array.prototype.fill|Disallowed|Disallowed|
-|Array.prototype.pop|Disallowed|Disallowed|
-|Array.prototype.push|Disallowed|Disallowed|
-|Array.prototype.reverse|Disallowed|Disallowed|
-|Array.prototype.shift|Disallowed|Disallowed|
-|Array.prototype.splice|Disallowed|Disallowed|
-|Array.prototype.unshift|Disallowed|Disallowed|
+|Object.assign|Supported|Disallowed|
+|Array.from|Supported|Disallowed|
+|Array.of|Supported|Disallowed|
+|Array.prototype.copyWithin|Supported|Disallowed|
+|Array.prototype.fill|Supported|Disallowed|
+|Array.prototype.pop|Supported|Disallowed|
+|Array.prototype.push|Supported|Disallowed|
+|Array.prototype.reverse|Supported|Disallowed|
+|Array.prototype.shift|Supported|Disallowed|
+|Array.prototype.splice|Supported|Disallowed|
+|Array.prototype.unshift|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|\[\[Set\]\]|Disallowed|Disallowed|
-|SetIntegrityLevel|Disallowed|Disallowed|
+|\[\[Set\]\]|Supported|Disallowed|
+|SetIntegrityLevel|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Array.prototype.copyWithin|Disallowed|Disallowed|
-|Array.prototype.pop|Disallowed|Disallowed|
-|Array.prototype.reverse|Disallowed|Disallowed|
-|Array.prototype.shift|Disallowed|Disallowed|
-|Array.prototype.splice|Disallowed|Disallowed|
-|Array.prototype.unshift|Disallowed|Disallowed|
+|Array.prototype.copyWithin|Supported|Disallowed|
+|Array.prototype.pop|Supported|Disallowed|
+|Array.prototype.reverse|Supported|Disallowed|
+|Array.prototype.shift|Supported|Disallowed|
+|Array.prototype.splice|Supported|Disallowed|
+|Array.prototype.unshift|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|\[\[Set\]\]|Disallowed|Disallowed|
-|Object.assign|Disallowed|Disallowed|
-|Object.prototype.hasOwnProperty|Disallowed|Disallowed|
-|Function.prototype.bind|Disallowed|Disallowed|
+|\[\[Set\]\]|Supported|Disallowed|
+|Object.assign|Supported|Disallowed|
+|Object.prototype.hasOwnProperty|Supported|Disallowed|
+|Function.prototype.bind|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|SetIntegrityLevel|Disallowed|Disallowed|
-|TestIntegrityLevel|Disallowed|Disallowed|
-|SerializeJSONObject|Disallowed|Disallowed|
+|SetIntegrityLevel|Supported|Disallowed|
+|TestIntegrityLevel|Supported|Disallowed|
+|SerializeJSONObject|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -1174,8 +1240,8 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|Object.keys|Disallowed|Disallowed|
-|Object.getOwnPropertyNames|Disallowed|Disallowed|
+|Object.keys|Supported|Disallowed|
+|Object.getOwnPropertyNames|Supported|Disallowed|
 |Object.assign|Disallowed|Disallowed|
 |JSON.stringify|Disallowed|Disallowed|
 |JSON.parse|Disallowed|Disallowed|
@@ -1190,13 +1256,13 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|hoisted block-level function declaration|Disallowed|Disallowed|
+|hoisted block-level function declaration|Supported|Disallowed|
 |labeled function statements|Disallowed|Disallowed|
 |function statements in if-statement clauses|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic support|Disallowed|Disallowed|
+|basic support|Supported|Disallowed|
 |multiple \_\_proto\_\_ is an error|Disallowed|Disallowed|
 |not a computed property|Disallowed|Disallowed|
 |not a shorthand property|Disallowed|Disallowed|
@@ -1213,14 +1279,14 @@ For more information about these features, see the ECMAScript language specifica
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|existence|Disallowed|Disallowed|
-|tags' names are lowercase|Disallowed|Disallowed|
-|quotes in arguments are escaped|Disallowed|Disallowed|
+|existence|Supported|Disallowed|
+|tags' names are lowercase|Supported|Disallowed|
+|quotes in arguments are escaped|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
-|basic functionality|Disallowed|Disallowed|
-|returns this|Disallowed|Disallowed|
+|basic functionality|Supported|Disallowed|
+|returns this|Supported|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -1232,6 +1298,10 @@ For more information about these features, see the ECMAScript language specifica
 |incomplete patterns and quantifiers|Disallowed|Disallowed|
 |octal escape sequences|Disallowed|Disallowed|
 |invalid backreferences become octal escapes|Disallowed|Disallowed|
+
+|Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
+|-------|-----------------------------|------------------|
+|\_\_parent\_\_ scope-chain access|Disallowed|Disallowed|
 
 ## ECMAScript 2009 \(ES5\) features
 
@@ -1271,7 +1341,7 @@ For more information about these features, see the ECMAScript language specifica
 |Array.prototype.filter|Supported|Supported|
 |Array.prototype.reduce|Supported|Supported|
 |Array.prototype.reduceRight|Supported|Supported|
-|Array.prototype.sort: compareFn must be function or undefined|Not Supported|Not Supported|
+|Array.prototype.sort: compareFn must be function or undefined|Supported|Not Supported|
 |Array.prototype.sort: compareFn may be explicit undefined|Supported|Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
@@ -1284,7 +1354,7 @@ For more information about these features, see the ECMAScript language specifica
 |-------|-----------------------------|------------------|
 |Date.prototype.toISOString|Supported|Supported|
 |Date.now|Supported|Supported|
-|Date.prototype.toJSON|Not Supported|Not Supported|
+|Date.prototype.toJSON|Supported|Not Supported|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
@@ -1301,23 +1371,23 @@ For more information about these features, see the ECMAScript language specifica
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|
 |-------|-----------------------------|------------------|
 |reserved words|Disallowed|Disallowed|
-|"this" is undefined in functions|Disallowed|Disallowed|
+|"this" is undefined in functions|Supported|Disallowed|
 |"this" is not coerced to object in primitive methods|Disallowed|Disallowed|
 |"this" is not coerced to object in primitive accessors|Disallowed|Disallowed|
-|legacy octal is a SyntaxError|Disallowed|Disallowed|
-|assignment to unresolvable identifiers is a ReferenceError|Disallowed|Disallowed|
-|assignment to eval or arguments is a SyntaxError|Disallowed|Disallowed|
-|assignment to non-writable properties is a TypeError|Disallowed|Disallowed|
+|legacy octal is a SyntaxError|Supported|Disallowed|
+|assignment to unresolvable identifiers is a ReferenceError|Supported|Disallowed|
+|assignment to eval or arguments is a SyntaxError|Supported|Disallowed|
+|assignment to non-writable properties is a TypeError|Supported|Disallowed|
 |eval or arguments bindings is a SyntaxError|Disallowed|Disallowed|
-|arguments.caller removed or is a TypeError|Disallowed|Disallowed|
-|arguments.callee is a TypeError|Disallowed|Disallowed|
-|\(function\(\)\{\}\).caller and \(function\(\)\{\}\).arguments is a TypeError|Disallowed|Disallowed|
+|arguments.caller removed or is a TypeError|Supported|Disallowed|
+|arguments.callee is a TypeError|Supported|Disallowed|
+|\(function\(\)\{\}\).caller and \(function\(\)\{\}\).arguments is a TypeError|Supported|Disallowed|
 |arguments is unmapped|Disallowed|Disallowed|
 |eval\(\) can't create bindings|Disallowed|Disallowed|
 |deleting bindings is a SyntaxError|Disallowed|Disallowed|
 |deleting non-configurable properties is a TypeError|Disallowed|Disallowed|
-|"with" is a SyntaxError|Disallowed|Disallowed|
-|repeated parameter names is a SyntaxError|Disallowed|Disallowed|
+|"with" is a SyntaxError|Supported|Disallowed|
+|repeated parameter names is a SyntaxError|Supported|Disallowed|
 |function expressions with matching name and argument are valid|Disallowed|Disallowed|
 
 |Feature|ECMAScript 2021 \(ES12\) mode|ES5 Standards mode|

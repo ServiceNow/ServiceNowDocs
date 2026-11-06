@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management]
+breadcrumb: [Using Software Asset Workspace, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create and manage reports in workspace
@@ -18,11 +18,11 @@ Create and manage your report tiles in the Software Asset Workspace.
 
 ## Before you begin
 
-Role required: sam\_admin or admin
+Role required: sam\_admin
 
 ## About this task
 
-All the base system Software Asset Management reports and the custom created reports are stored in the SAM Workbench Report \[samp\_workbench\_report\] table. List reports are supported by default. For creating other types of reports, you need to create a UIB page in the Software Asset Workspace with the necessary data visualization. A parameter called **reportSysId** needs to be passed to the UIB page. You can utilize the UIB page's route in the report tile creation form after it has been built.
+All the base system Software Asset Management reports and the custom created reports are stored in the SAM Workbench Report \[samp\_workbench\_report\] table. List reports are supported by default. For creating other types of reports, you need to create a UIB page in the Software Asset Workspace with the necessary data visualization. A parameter called **reportSysId** needs to be passed to the UIB page. You can use the UIB page's route in the report tile creation form after it has been built.
 
 ## Procedure
 
@@ -36,11 +36,9 @@ All the base system Software Asset Management reports and the custom created rep
 
 4.  In the Reports list view page, select **New**.
 
-    The Create New SAM Workbench Report page appears.
-
     \[Omitted image "create-report-workspace.png"\] Alt text: Create a new report
 
-5.  Fill in the details in the page.
+5.  On the form, fill in the fields.
 
     |Field|Description|
     |-----|-----------|

@@ -1,5 +1,5 @@
 ---
-title: NLU Workbench properties
+title: \(Legacy\) NLU Workbench properties
 description: Refer to these system properties for the Natural Language Understanding \(NLU\) application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/nlu-instance-properties.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Exploring Natural Language Understanding, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Exploring Natural Language Understanding, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# NLU Workbench properties
+# \(Legacy\) NLU Workbench properties
 
 Refer to these system properties for the Natural Language Understanding \(NLU\) application.
 
@@ -327,6 +327,4 @@ False
 
 </td></tr></tbody>
 </table>To get more feedback data from Virtual Agent \(VA\) chat logs, refer to the **Procuring additional VA feedback data on demand** section in the [Expert Feedback Loop documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-expert-feedback-loop.md).
-
-**Parent Topic:**[Exploring Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-explore.md)
 

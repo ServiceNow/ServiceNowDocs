@@ -1,32 +1,33 @@
 ---
-title: Product Adoption Roadmaps
-description: Access the Product adoption roadmaps \(PARs\) feature to view an admitted implementation sequence for your capabilities. The implementation sequence is organized into specific phases for an optimal implementation.
+title: Build implementation plans with product adoption roadmaps
+description: Learn about product adoption roadmaps, including template-based creation, collaborative planning, and roadmap locking behavior.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/impact-product-adoption-roadmap/impact-par.html
 release: yokohama
 product: Impact Product Adoption Roadmap
 classification: impact-product-adoption-roadmap
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-21"
 reading_time_minutes: 1
-breadcrumb: [Product Adoption, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Product adoption, Using Impact, Impact]
 ---
 
-# Product Adoption Roadmaps
+# Build implementation plans with product adoption roadmaps
 
-Access the **Product adoption roadmaps** \(PARs\) feature to view an admitted implementation sequence for your capabilities. The implementation sequence is organized into specific phases for an optimal implementation.
+Learn about product adoption roadmaps, including template-based creation, collaborative planning, and roadmap locking behavior.
 
-## PAR overview
+## Product adoption roadmap overview
 
-The product adoption roadmap was initially only available to Impact Advanced, and Total customers. In the Yokohama release, the product adoption roadmap feature is also available to Impact-Guided customers.
+The product adoption roadmaps are available to Impact Advanced, Total and Guided users. Users can create a roadmap using predefined templates aligned to their business needs and products. For Advanced and Total users, the Impact squad collaborates with the customer to determine the optimal implementation sequence for their unique business needs. Once the squad creates the roadmap, the customer receives a notification.
 
-You can create a product adoption roadmap using pre-defined templates aligned to your business needs and products.
+Multiple users can view a product adoption roadmap simultaneously, but only one user can edit it at a time. While a roadmap is being edited, it is locked for other users, who can see who is currently editing and reach out to collaborate or request that the roadmap be released.
 
-As an Advanced or Total customer, your Impact squad collaborates with you to determine the optimal implementation sequence tailored to your unique business needs. Before creating a PAR, a capability map should be published for that instance. See [Capabilities maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-product-adoption-roadmap/capabilities-map.md) for information on the capabilities maps. As soon as your Impact squad creates your PAR, you receive a notification.
+Users with the Impact admin or platform owner role can unlock a locked roadmap. Unlocking discards all changes made in the current version and reverts the roadmap to its last published version.
 
-You can access your created roadmaps by selecting **Product Adoption Roadmaps** from the **Product Adoption** menu on the Impact home page.
+You can access your created roadmaps in by selecting **Product Adoption Roadmaps** from the **Product Adoption** menu on the Impact home page. The complete product adoption roadmap experience requires integration between the Impact Delivery Instance and Impact Store App, enabled through Service Exchange, which synchronizes data between instances. If your environment isn't integrated, a banner displays indicating that full product adoption functionality is limited. You can create a new adoption map, but additional features like editing and viewing existing product adoption roadmaps are available once an integration is established. For more information, see
 
-**Note:** Multiple users can view the roadmap at the same time. However, only one person can edit it at a time.
+-   [Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/tmt-service-bridge-both-landing-page.md)
+-   [Use manual registration to establish the connection to the provider instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/connect-instance-impact-store-app.md)
 
 ## Use cases
 
@@ -35,5 +36,7 @@ You can explore your roadmap further and edit in the following ways:
 -   Select a capability card to view more details, including any adoption guidance.
 -   Add or remove phases.
 -   Manage capabilities for each phase.
--   Connect capabilities to business objectives.
+-   Connect capabilities to objectives.
+
+Without an integration, you can create roadmaps but not open or edit existing ones. When no roadmaps exist, the **Product adoption roadmaps** page appears empty and prompts you to create one.
 

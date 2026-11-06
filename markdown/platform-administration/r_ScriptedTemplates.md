@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_ScriptedTemplates.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using form templates, Administering forms, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Form templates, Administer, Form administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Scripted templates
@@ -83,7 +83,7 @@ GlideTemplate.get(template.sys_id).apply(GlideRecord)
 
 [Create a template by saving a form]()
 
-[Create records based on a template]()
+[Schedule record creation from a template]()
 
 [Create a module for a template]()
 

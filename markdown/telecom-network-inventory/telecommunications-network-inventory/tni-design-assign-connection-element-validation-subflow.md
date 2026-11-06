@@ -1,5 +1,5 @@
 ---
-title: TNI Design Assign Connection Element Validation subflow
+title: Design Assign Connection Element Validation subflow
 description: The TNI Design Assign Connection Element Validation subflow enables you to validate the connection element records in the Telecommunications Network Inventory application. You can use this flow action to configure the activities in a Design and Assign playbook for logical connection.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/tni-design-assign-connection-element-validation-subflow.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Telecommunications Network Inventory subflows, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Subflows, Reference, Telecommunications Network Inventory]
 ---
 
-# TNI Design Assign Connection Element Validation subflow
+# Design Assign Connection Element Validation subflow
 
 The TNI Design Assign Connection Element Validation subflow enables you to validate the connection element records in the Telecommunications Network Inventory application. You can use this flow action to configure the activities in a Design and Assign playbook for logical connection.
 
@@ -48,21 +48,21 @@ If the connection element is already used, then the subflow passes the following
 
 [Physical Connection Creation subflow]()
 
-[TNI Design Assign Connection Element Creation subflow]()
+[Design Assign Connection Element Creation subflow]()
 
-[TNI Design Assign Protected Path Assignment subflow]()
+[Design Assign Protected Path Assignment subflow]()
 
-[TNI Design Assign IP Address Creation subflow]()
+[Design Assign IP Address Creation subflow]()
 
-[TNI Design assign Logical Connection Creation subflow]()
+[Design assign Logical Connection Creation subflow]()
 
-[TNI Design Assign Number Element Creation subflow]()
+[Design Assign Number Element Creation subflow]()
 
-[TNI Design Assign Set Attributes subflow]()
+[Design Assign Set Attributes subflow]()
 
-[TNI Design Assign Request Details Update subflow]()
+[Design Assign Request Details Update subflow]()
 
-[TNI Design Assign IP Address Validation subflow]()
+[Design Assign IP Address Validation subflow]()
 
-[TNI Design Assign Number Element Validation subflow]()
+[Design Assign Number Element Validation subflow]()
 

@@ -1,5 +1,5 @@
 ---
-title: Limit concurrent sessions plugin
+title: Activate Limit Concurrent Sessions Plugin
 description: Configure the com.glide.limit.concurrent.sessions plugin to reduce the chance of session hijacking on your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-limit-concurrent-sessions-plugin.html
@@ -7,24 +7,16 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Limit concurrent sessions plugin
+# Activate Limit Concurrent Sessions Plugin
 
 Configure the com.glide.limit.concurrent.sessions plugin to reduce the chance of session hijacking on your instance.
 
-When the Limit Concurrent Sessions \(com.glide.limit.concurrent.sessions\) plugin is not active, the **glide.authenticate.limit.concurrent.interactive.sessions** property is not set to **true**, or the **glide.authenticate.max.concurrent.interactive.sessions** property is set beyond an organizationally-defined threshold, then ServiceNow instance user accounts are not limited to a defined number of concurrent interactive sessions.
-
-1.  Navigate to **All** &gt; **System Definition** &gt; **Plugins**.
-2.  Find and select the Limit Concurrent Sessions plugin. The plugin ID is **com.glide.limit.concurrent.sessions**
-3.  On the System Plugin form, review the plugin details and then select the **Activate/Upgrade** related link.
-4.  Select **Activate**.
-5.  After the plugin has successfully activate, navigate to **All** &gt; **System Properties** &gt; **All Properties**.
-6.  Open the **glide.authenticate.limit.concurrent.interactive.sessions** system property, and set the value to **true**.
-7.  Open the **glide.authenticate.max.concurrent.interactive.sessions** system property, and set the maximum concurrent sessions. This value depends on the needs of your organization.
+The Limit Concurrent Sessions plugin \(com.glide.limit.concurrent.sessions\) allows an administrator to limit the number of active sessions per user/role. It is recommended this plugin be enabled and configured to reduce the likelihood of session hijacking. If this plugin is enabled and configured, there will be a limit to the number of open sessions that can be hijacked.
 
 ## More information
 
@@ -100,7 +92,7 @@ Security risk
 
 -   Severity score: 3.7
 -   CVSS score: Low
--   Security risk details: A greater number of open sessions means there are more sessions that could potentially be hijacked. Limiting the number of allowed sessions per user is helpful in limiting risks related to denial-of-service \(DoS\) attacks.
+-   Security risk details: Higher numbers of active concurrent sessions creates security risk by increasing the attack surface for account compromise, making it harder to detect unauthorized access and enforce session accountability across devices and locations.
 
 </td></tr><tr><td>
 

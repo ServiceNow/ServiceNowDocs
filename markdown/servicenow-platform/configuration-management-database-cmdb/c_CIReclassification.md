@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring CMDB Identification and Reconciliation, CMDB Identification and Reconciliation \(IRE\), CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Identification and Reconciliation \(IRE\), Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure CI reclassification during IRE processing
@@ -118,7 +118,7 @@ Reduce data loss during IRE processing by preventing a CI class change for speci
 
 ### Before you begin
 
-Role required: Itil\_admin \(Itil has read privilege only\)
+Role required: sn\_cmdb\_admin or itil\_admin \(sn\_cmdb\_editor and itil have read access only\)
 
 ### About this task
 

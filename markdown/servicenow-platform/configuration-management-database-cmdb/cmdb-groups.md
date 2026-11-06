@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB groups
@@ -18,12 +18,31 @@ A CMDB group is a collection of CIs that lets you apply CI actions collectively 
 
 For example, a CMDB CI Lifecycle Management API can use a CMDB group scriptable API to retrieve the group's list of CIs, and then apply a CI Lifecycle Management action collectively to all the CIs. You can also use a CMDB group with the [Dynamic CI Group](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/populate-app-service-dynamic-group.md) service population method, to populate an application service.
 
-## Group type
+## Group types
 
 You can configure a CMDB group with one of the following group types:
 
--   Health: The CIs in the group can be monitored by CMDB Health, and the aggregated health is reported for the group as a whole in the CMDB group view dashboard. For example, you can monitor health only for CIs in a specific location.
--   CMDB Workspace: Group appears in the [Management view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md)in the [CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+-   **Default**
+
+    Basic group type which you can populate by manually adding CIs, saved queries, and encoded queries.
+
+-   **Health**
+
+    Sets CMDB Health to monitor the health of the group CIs and aggregate health results for the group as a whole in the CMDB group view dashboard. For example, you can monitor health only for CIs in a specific location.
+
+    You can populate this type of group only by encoded queries. Dynamic filters are not supported when populating this type of CMDB groups.
+
+-   **CMDB Workspace**
+
+    Custom class group which is used as follows:
+
+    -   Appears in the Management view in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
+    -   Used in the Explore and Search view in the . When the Service Graph Workspace - Content store app isn't installed, then CMDB group definitions in which type is **CMDB Workspace**, are used to structure the navigation panel in the Explore tab.
+
+        For more information, see [Explore and Search view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-search-explore-view.md).
+
+    Can be populated only by encoded queries.
+
 
 ## Create and populate a CMDB group
 
@@ -33,9 +52,9 @@ Depending on the group type, you can populate a CMDB group by manually adding in
 
 Roles required:
 
--   To view CMDB groups - itil
--   To use a CMDB queries - cmdb\_query\_builder on top of itil
--   To manually add CIs - itil or asset
+-   To view CMDB groups: sn\_cmdb\_editor or itil
+-   To use in CMDB queries: cmdb\_query\_builder on top of sn\_cmdb\_editor or itil
+-   To manually add CIs: asset or sn\_cmdb\_editor
 
 Also, to populate a CMDB group using a CMDB query, a saved CMDB query must exist.
 
@@ -49,43 +68,9 @@ The system property **glide.cmdb.group.max\_ci\_limit** determines the maximum n
 
 2.  In the CMDB Groups pane, select **New**.
 
-3.  Fill out the form, right-select the title bar and select **Save**.
+3.  Fill out a unique **Group Name** and the **Group type** field on the form and then select **Submit**.
 
-<table id="table_lr4_xkc_4z"><thead><tr><th>
-
-Field
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Group Name
-
-</td><td>
-
-A unique name for the group.
-
-</td></tr><tr><td>
-
-Group type
-
-</td><td>
-
--   Default: Basic group type which can be populated by manually adding CIs, saved queries, and encoded queries.
--   Health: Sets CMDB Health to monitor the health of the group CIs and aggregate health results for the group as a whole.
-
-Can be populated only by encoded queries.
-
-**Note:** Dynamic filters are not supported when populating this type of CMDB groups.
-
--   CMDB Workspace: Custom class group which appears in the CI Overview panel in [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
-
-Can be populated only by encoded queries.
-
-</td></tr></tbody>
-</table>4.  To use saved CMDB queries:
+4.  To use saved CMDB queries:
 
     1.  Select **CMDB Group Contains Saved Queries** and then select **Add Query**.
 

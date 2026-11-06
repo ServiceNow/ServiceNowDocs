@@ -1,18 +1,18 @@
 ---
-title: Create New Branch form
-description: On the Create New Branch form, fill in the fields.
+title: Create Branch form
+description: On the Create Branch form, fill in the fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/create-new-branch-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Create a branch and enhance digital resilience data, Using Digital resilience third-party registers, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create a branch and enhance digital resilience data, Use, Maintaining Digital resilience third-party registers, Manage, Operational Resilience, Governance, Risk, and Compliance]
 ---
 
-# Create New Branch form
+# Create Branch form
 
-On the Create New Branch form, fill in the fields.
+On the Create Branch form, fill in the fields.
 
 <table id="table_aqy_k2x_rvb"><thead><tr><th>
 
@@ -114,7 +114,9 @@ LEI of the financial entity head office of the branch
 
 </td><td>
 
-Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001
+Legal Entity Identifier \(LEI\) of the head office of the financial entity to which the branch belongs, for example, LEIACMEGermany001 or LEIACMEAmericas001.
+
+ When a valid LEI is entered in the Identification code field, the system performs a real-time lookup against the GLEIF \(Global Legal Entity Identifier Foundation\) database. The parent entity's LEI then auto-populates this field.
 
 </td></tr><tr><td>
 
@@ -124,6 +126,8 @@ Name of the branch
 
 Name of the branch that is used for identification. When the LEI of the financial entity head office of the branch is entered, this field is auto-filled, for example, Frankfurt branch office.
 
+ When a valid LEI is entered in the Identification code of the branch field, the GLEIF lookup auto-fills this field with the legal name, for example: "SERVICENOW NEDERLAND B.V."
+
 </td></tr><tr><td>
 
 Country of the branch
@@ -131,6 +135,8 @@ Country of the branch
 </td><td>
 
 Two-letter country code where the branch is located. When the LEI of the financial entity head office of the branch is entered, this field is auto-filled, for example, Germany.
+
+ When a valid LEI is entered in the Identification code of the branch field, the GLEIF lookup auto-fills this field with the two-letter country code. For example: "NETHERLANDS."
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Create a branch and enhance digital resilience data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-drtp-reg-branch.md)

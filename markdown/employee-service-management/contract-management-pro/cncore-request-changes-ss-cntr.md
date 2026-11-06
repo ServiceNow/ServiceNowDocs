@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reviewing and finalizing a self-serve contract document, Use self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Reviewing and finalizing a self-serve contract document, Own paper contract requests, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Review a contract document in your workspace
@@ -30,15 +30,15 @@ Role required: sn\_cm\_core.contract\_user
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d453291e69">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d487599e69">
 
 Method
 
-</th><th align="left" id="d453291e72">
+</th><th align="left" id="d487599e72">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d453291e78">
+</th></tr></thead><tbody><tr><td id="d487599e78">
 
 **Contract Workspace listing**
 
@@ -50,7 +50,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d453291e125">
+</td></tr><tr><td id="d487599e125">
 
 **Workspace used by your application**
 
@@ -66,15 +66,15 @@ Steps
 
 3.  Access the contract document.
 
-<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d453291e164">
+<table id="choicetable_vxh_nwf_t1c"><thead><tr><th align="left" id="d487599e164">
 
 Location
 
-</th><th align="left" id="d453291e167">
+</th><th align="left" id="d487599e167">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d453291e173">
+</th></tr></thead><tbody><tr><td id="d487599e173">
 
 **From internal storage**
 
@@ -85,7 +85,7 @@ Action
 3.  Select **Preview** to view the document.
 
 
-</td></tr><tr><td id="d453291e200">
+</td></tr><tr><td id="d487599e200">
 
 **From external storage**
 
@@ -96,15 +96,15 @@ Select the link in the **URL** column. The document opens from the external stor
 </td></tr></tbody>
 </table>4.  Review the contract document.
 
-<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d453291e223">
+<table id="choicetable_h24_1ps_2bc"><thead><tr><th align="left" id="d487599e223">
 
 Review result
 
-</th><th align="left" id="d453291e226">
+</th><th align="left" id="d487599e226">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d453291e232">
+</th></tr></thead><tbody><tr><td id="d487599e232">
 
 **No change is required**
 
@@ -112,7 +112,7 @@ Action
 
 Send the document for signature. For more information, see [Send a contract document for signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-send-doc-signature.md).
 
-</td></tr><tr><td id="d453291e250">
+</td></tr><tr><td id="d487599e250">
 
 **Changes are required**
 

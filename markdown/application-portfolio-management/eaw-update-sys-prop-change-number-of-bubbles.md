@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-update-sys-prop-change-number-of-bubbles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-12-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Bubble chart view of application rationalization, Rationalization of business applications, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Use bubble chart view, Working with application rationalization, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Change the number of bubbles displayed on the bubble chart
@@ -20,7 +20,7 @@ Role required: sn\_apm.apm\_admin
 
 ## About this task
 
-By default, the bubble chart page displays a maximum of 500 bubbles. If you have more than 500 assessed business applications in your application landscape, you can configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to increase this limit and display all assessed applications as bubbles on the bubble chart page.
+By default, the bubble chart page displays a maximum of 500 bubbles. If you have more than 500 assessed business applications in your application landscape, configure the **sn\_apm\_ws.appRationalizationMaximumBubbles** system property to increase this limit. This displays all assessed applications as bubbles on the bubble chart page.
 
 ## Procedure
 
@@ -41,5 +41,5 @@ By default, the bubble chart page displays a maximum of 500 bubbles. If you have
 
 The bubble chart page displays bubbles up to the number that you have defined in the **Value** field.
 
-**Parent Topic:**[Bubble chart view of application rationalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-bubble-chart-view.md)
+**Parent Topic:**[Use bubble chart view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-using-app-rat-bubble-chart-view.md)
 

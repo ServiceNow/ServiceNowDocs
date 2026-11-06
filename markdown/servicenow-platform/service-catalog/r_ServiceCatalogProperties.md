@@ -7,8 +7,8 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 19
+last_updated: "2026-09-10"
+reading_time_minutes: 21
 breadcrumb: [Service Catalog Reference, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -204,6 +204,61 @@ Disables clickthrough via the info-icon on a reference variable. Set value to tr
 </td><td>
 
 Disable clickthrough via the info icon on a reference variable. Set the value to true to enable this functionality.
+
+</td></tr><tr><td>
+
+sn\_now\_assist\_cr.llm.reference\_question\_choices.limit
+
+</td><td>
+
+Specifies the upper limit for the number of choices of a reference question beyond which the item does not support conversational requests.
+
+-   **Type:** integer
+-   **Default value:** 2000000
+
+If a catalog item with reference questions is to be conversational, those reference questions cannot return a list of choices that are more than this limit.
+
+</td></tr><tr><td>
+
+sn\_now\_assist\_cr.llm.accept\_user\_input\_as\_is
+
+</td><td>
+
+When filling out catalog forms in ServiceNow Otto, this enables users to provide input to be taken as is. This applies only to textual fields \(for example, single-line, multi-line, HTML\). However, if ServiceNow Otto determines that user is attempting to 'skip' a field or to 'exit' the conversation, these actions take place with higher priority. There are these two uses cases:
+
+-   A: User enters meaningless answer, for example, "abcd"
+-   B: User enter long content so that the LLM response is the empty values
+
+ -   0: reject A and B \(do nothing\)
+-   1: accept A and reject B
+-   2: accept both A and B
+-   3: reject A and accept B
+
+It's default value is 0.
+
+</td></tr><tr><td>
+
+sn\_now\_assist\_cr.llm.conversational.request.question.limit
+
+</td><td>
+
+Specifies the upper limit for the maximum number of questions, beyond which the item does not support conversational requests using LLM.
+
+-   **Type:** integer
+-   **Default value:** 500
+
+If the catalog item is to be conversational, it cannot contain more questions than the specified value.
+
+</td></tr><tr><td>
+
+sn\_now\_assist\_cr.recommend\_form\_question\_threshold
+
+</td><td>
+
+When the number of the questions exceed this limit, conversational catalog recommends the user to complete the request in \(pop-up\) form. When this value is -1, the conversational catalog acts as usual and doesn't recommend forms.
+
+-   **Type:** integer
+-   **Default value:** 10
 
 </td></tr><tr><td class="sub-head" colspan="2">
 
@@ -713,13 +768,9 @@ Use Cart V2 widget in Header Menu widget \(**glide.sc.portal.use\_cart\_v2\_head
 
 If selected, the Cart V2 \(SC Shopping Cart widget \(ID: sc-shopping-cart-v2\)\) widget is enabled in the Header Menu widget of Service Portal.
 
-</td></tr><tr><td class="sub-head" colspan="2">
-
-Virtual AgentThis section is visible only when you activate the Service Management Virtual Agent Topic Blocks  plugin \(com.glideapp.cs.sm\_topic\_blocks\) .
-
 </td></tr><tr><td>
 
-Specifies the upper limit for the number of questions beyond which the item doesn’t support conversational requests, default value of the property is 10 \(**glide.sc.conversational.request.question.limit**\)
+ 
 
 </td><td>
 
@@ -820,6 +871,17 @@ The maximum number of orphan sc\_item\_option records to delete when any sc\_req
 </td><td>
 
 Maximum number of orphan sc\_item\_option records to delete when any sc\_req\_item record is deleted.
+
+</td></tr><tr><td>
+
+glide.sc.catalog\_item.subscription\_enforcement
+
+</td><td>
+
+Control whether service subscriptions can bypass "Available for" user criteria on catalog items using the glide.sc.catalog\_item.subscription\_enforcement property. This setting verifies that only users meeting specific criteria can access items, even with a parent service subscription.
+
+-   require\_criteria: Prevents access to users who don't meet the item's criteria, even if they are subscribed to the parent service offering.
+-   allow\_bypass: Preserves existing behavior that means users gain access through the "Available for" user criteria. "allow\_bypass" is a default value.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Service Catalog Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/service-catalog/service-catalog-reference.md)

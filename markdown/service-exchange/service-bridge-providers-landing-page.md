@@ -7,7 +7,7 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Exchange]
 ---
@@ -16,45 +16,27 @@ breadcrumb: [Service Exchange]
 
 Use the Service Exchange for Providers application to create and publish catalogs of services, receive, and fulfill requests generated from consumers, and establish integrations with consumer instances.
 
+## Service Exchange Overview
+
 As a provider, you can:
 
--   Author and publish remote service catalogs for your consumers on their instances.
+-   Create and publish remote service catalogs for your consumers on their instances.
 -   Integrate your instance with your consumer's instance.
 -   Receive and fulfill service requests on your instance from your consumer's ServiceNow instance.
 
-## Getting started
+<table id="table_k52_dyx_yxb" class="nav-card"><tbody><tr><td>
 
-<table id="table_b4t_hhl_nnb" class="nav-card"><tbody><tr><td>
-
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-benefits.md)
-
- [\[Omitted image "bus-explore.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-benefits.md)
-
- [Learn about the features and capabilities of Service Exchange.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-benefits.md)
+[Configure for providers\[Omitted image "bus-optimize-manage-sb.svg"\]Learn how to install and configure Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-configure-provider.md)
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-configure-provider.md)
-
- [\[Omitted image "bus-sdlc.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-configure-provider.md)
-
- [As a provider, plan and configure your implementation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-configure-provider.md)
-
-</td></tr><tr><td>
-
-[Administer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-administer.md)
-
- [\[Omitted image "bus-management-console.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-administer.md)
-
- [Learn how to onboard consumers, create catalogs, and fulfill service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-administer.md)
-
-</td><td>
-
-[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
-
- [\[Omitted image "bus-learn.svg"\] Alt text:](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
-
- [Get details about domain separation and installed components.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
+[User for providers\[Omitted image "bus-try-a-demo.svg"\] Alt text:Learn how to use Service Exchange for providers.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-administer.md)
 
 </td></tr></tbody>
-</table>
+</table>If you’re a consumer, see [Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-consumers-landing-page.md).
+
+**Related topics**  
+
+
+[Service Exchange for Consumers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-consumers-landing-page.md)
+

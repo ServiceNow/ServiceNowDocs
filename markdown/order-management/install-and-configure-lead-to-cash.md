@@ -1,0 +1,33 @@
+---
+title: Install and configure CRM Core
+description: Install the CRM Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/install-and-configure-lead-to-cash.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-11-06"
+reading_time_minutes: 1
+breadcrumb: [Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
+---
+
+# Install and configure CRM Core
+
+Install the CRM Core application, which enables you to compose and build workflows that your organization maintains for the life cycle of a sold product.
+
+This mapping provides your users with a unified workflow experience across different entities.
+
+Admins and users with various roles complete the following configurations tasks to use lead to cash.
+
+|Task|Description|
+|----|-----------|
+|[Entity configuration and mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/entity-configuration-and-mapping.md)|Map entities that define a structure and transfers data from the source entity to the target entity.|
+|[Create an entity configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-entity-configuration.md)|Use entities to compose a workflow between two entities so that you can update their existing configurations and perform the required **Suspend**, **Resume**, or **Disconnect** actions on a sold product.|
+|[Create an entity mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-entity-mapping.md)|Create an entity mapping to perform the declarative actions like **Suspend**, **Resume**, or **Disconnect** actions on a sold product.|
+
+**Related topics**  
+
+
+[Using lead-to-cash foundation applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-lead-cash-foundation.md)
+
+[CRM Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-to-cash.md)
+

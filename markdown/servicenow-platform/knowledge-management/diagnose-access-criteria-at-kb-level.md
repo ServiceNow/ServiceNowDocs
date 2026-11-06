@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [User criteria diagnostics for Knowledge Management, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -70,4 +70,6 @@ From a knowledge base
         -   Which user criteria provides read or read and contribute access for this user to the knowledge base and what type of [user criteria definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/t_SelectUserCriteria.md) enables this access.
         -   Whether a role that the user has \(knowledge\_manager, knowledge\_admin, or owner of the knowledge base\) enables this access.
         -   For a user with no access to this knowledge base, which user criteria may be modified to grant the access.
+
+**Parent Topic:**[User criteria diagnostics for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/diagnose-knowledge-user-criteria.md)
 

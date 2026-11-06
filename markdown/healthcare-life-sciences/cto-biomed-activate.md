@@ -1,18 +1,18 @@
 ---
-title: Activate Care Team Operations for Biomed
-description: Install the Care Team Operations for Biomed application \(sn\_cto\_biomed\) if you have the admin role.
+title: Install Care Team Operations for Biomed
+description: Install the Care Team Operations for Biomed application \[sn\_cto\_biomed\] if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-biomed-activate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Biomed, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Operations for Biomed, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Activate Care Team Operations for Biomed
+# Install Care Team Operations for Biomed
 
-Install the Care Team Operations for Biomed application \(sn\_cto\_biomed\) if you have the admin role.
+Install the Care Team Operations for Biomed application \[sn\_cto\_biomed\] if you have the admin role.
 
 ## Before you begin
 
@@ -20,15 +20,15 @@ Role required: admin
 
 ## About this task
 
-The application includes demo data for Care Team Operations for Healthcare Biomed and installs related applications and plugins if they are not already installed.
+The application includes demo data for Care Team Operations for Biomed and installs related applications and plugins if they are not already installed.
 
-**Note:** The Care Team Operations for Healthcare Biomed application is dependent on the Healthcare Operations Core application.
+**Note:** The Care Team Operations for Biomed application is dependent on the Healthcare Operations Core application.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Care Team Operations for Biomed application \(sn\_cto\_biomed\) using the filter criteria and search bar.
+2.  Find the Care Team Operations for Biomed application \[sn\_cto\_biomed\] using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

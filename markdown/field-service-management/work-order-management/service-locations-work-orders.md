@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assign ad-hoc Service Locations, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Assign ad-hoc Service Locations, Prepare work orders, Use, Field Service Management]
 ---
 
 # Setting ad-hoc locations in work orders and work order tasks
@@ -47,5 +47,4 @@ The address information is entered in the required fields. The **Latitude** and 
  **Note:** If the default service location validation option has been set to Without map, the address is validated using the global.ServiceLocationAddressValidationExtPoint . If the option has been set to No validation, the address won’t be validated.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Assign ad-hoc Service Locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/field-service-with-service-locations.md)
-
+</table>

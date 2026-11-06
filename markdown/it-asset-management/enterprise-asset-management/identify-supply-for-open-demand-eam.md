@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-06-21"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Workspace, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Identify the supply for open demands in the Enterprise Asset Workspace
@@ -17,8 +17,6 @@ breadcrumb: [Manage stockrooms with inventory reports in the Enterprise Asset Wo
 Use the Open demands report to determine available stock within local stockrooms and distribution channels to fulfill sourcing requests that are open.
 
 ## Before you begin
-
-**Important:** The Open demands report is available with Enterprise Asset Management version 9.0 and later.
 
 Role required: sn\_eam.enterprise\_asset\_manager
 

@@ -1,5 +1,5 @@
 ---
-title: Product Idea Dashboard in Strategic Planning
+title: Product Idea Dashboard in Strategic Planning Workspace
 description: The Product Idea Dashboard helps product managers understand the health, flow, and maturity of submitted ideas, helping innovations progress and helping prevent backlog bottlenecks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/product-idea-dashboard-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Product Idea Dashboard in Strategic Planning
+# Product Idea Dashboard in Strategic Planning Workspace
 
 The Product Idea Dashboard helps product managers understand the health, flow, and maturity of submitted ideas, helping innovations progress and helping prevent backlog bottlenecks.
 

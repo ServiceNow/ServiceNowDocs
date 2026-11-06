@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_AddSitesAlwaysCancelWhiteList.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Navigation action cancellation, User interface configuration, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,15 +26,13 @@ User actions can always cancel items on the list. You should only add items to t
 
 1.  Enter `sys_properties.list` in the navigation filter and press the Enter key.
 
-2.  In the **Go to** field, select **Name**, enter `glide.request_manager.always_cancel`, and click **Go**.
+2.  In the **Go to** field, select **Name**, enter `glide.request_manager.always_cancel`, and select **Go**.
 
-3.  Click the property name to open it.
+3.  Select the property name to open it.
 
 4.  In the **Value** field, add a comma-separated list of URIs you want to allow users to cancel.
 
-    \[Omitted image "600px-Always\_cancel\_white\_list.png"\] Alt text:
-
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Navigation action cancellation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_CancelingNavigationActions.md)

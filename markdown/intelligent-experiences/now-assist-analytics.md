@@ -1,19 +1,19 @@
 ---
-title: Analyzing Now Assist performance
-description: Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+title: Analyzing AI performance
+description: Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-analytics.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, Analytics, Generative AI, Gen AI, usage, performance]
-breadcrumb: [Now Assist, Enable AI experiences]
+breadcrumb: [Exploring AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Analyzing Now Assist performance
+# Analyzing AI performance
 
-Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities offered under Now Assist.
+Use the AI Analytics dashboard to monitor the usage and performance of generative AI features and capabilities.
 
 \[Omitted video\] Description: Monitor the usage, performance, and value of AI Analytics.
 
@@ -53,4 +53,6 @@ This application requires data to be transferred from ServiceNow customers' indi
 ## Data collection
 
 ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md).
 

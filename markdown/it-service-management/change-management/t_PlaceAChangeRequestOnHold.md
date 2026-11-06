@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Process a change request, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Process a change request, Use, Change Management, IT Service Management]
 ---
 
 # Place a change request on hold
@@ -48,7 +48,7 @@ Change tasks inherit some state conditions from the parent change request they a
 
 4.  In the **On hold reason** field, enter the reason for placing the change request on hold.
 
-5.  Click **Update**.
+5.  Select **Update**.
 
 
 **Parent Topic:**[Process a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_ProcessAChangeRequest.md)

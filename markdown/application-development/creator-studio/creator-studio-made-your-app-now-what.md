@@ -7,10 +7,10 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [app faq, creator studio faq]
-breadcrumb: [Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # I've built my app in Creator Studio, now what?
@@ -37,7 +37,7 @@ Fulfillers access the default workspace on the ServiceNow AI Platform by going t
 
 **Note:** You can't access the Request App Workspace as the owner of an app, though you can access it if you also have an admin or the applicable agent role. The app's agent role is &lt;app scope&gt;.agent, for example, x\_snc\_app\_name.agent.
 
-\[Omitted image "crs-form-sub-workspace.png"\] Alt text: Fulfillers work on requests in the workspace
+\[Omitted image "crs-form-sub-workspace.png"\] Alt text: All Requests list showing open requests with columns for number, priority, state, assigned to, short description, and task type.
 
 You can preview and interact with how records appear in the workspace category directly within Creator Studio by navigating to the **List categories** section of the navigation panel and selecting a record.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-csm-products.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Configure product data
@@ -36,7 +36,7 @@ Role required: admin
     -   [Import sold products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-sold-products.md)
     -   [Import install base items with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-install-base-items.md)
     -   [Import installed products with guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/import-csm-installed-products.md)
--   You can create product data using the Customer Service Management application.
+-   You can create new product data using the Customer Service Management application.
 
     -   [Create a product model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_CreateAProductModel.md)
     -   [Create sold products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-sold-item.md)

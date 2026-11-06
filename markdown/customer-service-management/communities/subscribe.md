@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Community subscriptions, Use a community, Communities, Customer Service Management]
+breadcrumb: [Community subscriptions, Using communities, Communities, Customer Service Management]
 ---
 
 # Subscribe to content
@@ -19,6 +19,10 @@ Subscribe to forums, topics, questions, blogs, and videos. You are automatically
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 
@@ -33,7 +37,7 @@ Role required: sn\_communities.community\_user
 
     When you point to this option, it becomes **Unsubscribed**.
 
-    You can also view your subscriptions and enable or disable them from the Community homepage by clicking your photo or name and clicking **Notification Settings**. Toggle **Receive Notifications** to turn all notifications on or off.
+    You can also view your notifications and subscriptions and enable or disable them. For details, see [Set notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/manage-subscriptions.md).
 
 
 **Parent Topic:**[Community subscriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/c_communities-subscriptions.md)

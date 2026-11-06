@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Palo Alto Networks Next-Generation Firewall integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -22,13 +22,11 @@ Role required: sn\_si.admin
 
 ## About this task
 
-After the EDL is configured, as the security incident administrator, you can activate the EDL manually, or, the EDL is automatically activated upon completion of a ServiceNow AI Platform® Change Request. The EDL must be approved and moved from the inactive state to the active state before it can accept EDL entries.
+After the EDL is configured, as the security incident administrator, you can activate the EDL manually, or, the EDL is automatically activated on completion of a ServiceNow AI Platform® Change Request. The EDL must be approved and moved from the inactive state to the active state before it can accept EDL entries.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Palo Alto Networks NGFW Integration** &gt; **Firewall EDL Configuration** and select the **Firewall EDL Configuration** module.
-
-    \[Omitted image "4-30-fedl-nav.png"\] Alt text: Select Firewall EDL Configuration module.
 
 2.  In the Palo Alto Networks Firewall Dynamic Lists list that is displayed, select your new EDL in the Name column.
 
@@ -36,35 +34,29 @@ After the EDL is configured, as the security incident administrator, you can act
 
     Make sure that the **Active** check box is cleared.
 
-    \[Omitted image "4-30-edl-record.png"\] Alt text: Malware IP EDL not activated.
-
     **Note:** With **Tabbed forms** cleared in your system settings, the EDL Retrieval URL appears in **EDL Retrieval Info** section as shown in the previous figure.
-
-    The following figure shows the **EDL Retrieval Info** displayed as a tab with **Tabbed forms** selected in your system settings. Click the **EDL Retrieval Info** tab to display the retrieval URL. The link to the change request \(**CH0030015**\) is also displayed.
-
-    \[Omitted image "4-30-edl-app-notactive.png"\] Alt text: Change request link highlighted.
 
 4.  To complete the configuration and move the EDL from inactive to active, you must choose one of the following options to notify the firewall administrator that the retrieval URL is available.
 
-<table><thead><tr><th align="left" id="d174966e183">
+<table><thead><tr><th align="left" id="d180660e138">
 
 Option
 
-</th><th align="left" id="d174966e186">
+</th><th align="left" id="d180660e141">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d174966e192">
+</th></tr></thead><tbody><tr><td id="d180660e147">
 
-**Click __Email FW retrieval URL__.**
+**Select __Email FW retrieval URL__.**
 
 </td><td>
 
-Email EDL Retrieval URL directly to the firewall administrator. This option permits the firewall administrator to finish the configuration on the Palo Alto Networks platform. Choose this option if the firewall administrator is not using the ServiceNow AI Platform® .
+Email EDL Retrieval URL directly to the firewall administrator. This option permits the firewall administrator to finish the configuration on the Palo Alto Networks platform. Choose this option if the firewall administrator is not using the ServiceNow AI Platform®.
 
  **Note:** The security incident administrator manually activates the EDL in the ServiceNow AI Platform® after receiving notice that the Palo Alto Networks Next-Generation Firewall configuration is completed. See: [Activate an EDL manually](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/paloalto_activate_edl_manually.md).
 
-</td></tr><tr><td id="d174966e241">
+</td></tr><tr><td id="d180660e195">
 
 **Complete the ServiceNow AI Platform® change request and assign the configuration tasks to the firewall administrator.**
 

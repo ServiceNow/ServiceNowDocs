@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/querygen-health-page.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+keywords: [AI search, LLM status, semantic layer]
+breadcrumb: [Tuning the semantic layer, Configure, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation Health page
@@ -16,25 +17,96 @@ The health page shows the state of the Now LLM and AI Search, along with the sta
 
 ## Health page overview
 
-Navigate to **All** &gt; **Query Generation** &gt; **Health page** to see the state of Query Generation dependencies. The admin role is required.
+Navigate to **All** &gt; **Query Generation** &gt; **Health page** to see the state of Query Generation dependencies. Role required: sn\_query\_generation.admin or higher
 
 \[Omitted image "querygen-health-page.png"\] Alt text: Health page showing Query Generation dependencies.
 
-## Query Generation enabled products
+## Guide to sections
 
-This section lists the products on the instance that require Query Generation to function. Two of the products are included anonymously in the Generative AI Controller plugin, but their skills can be activated by users with the admin role.
+<table id="table_i22_xjq_x3c"><thead><tr><th>
 
-|Hidden Product|Skill|
-|--------------|-----|
-|Analytics Generation|Data visualization generation|
-|Analytics Export|Dashboard and visualization export|
+Section
 
-For more information about these skills and their functions, see [Generate or export dashboards and data visualizations in the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-assist-landing-page.md).
+</th><th>
 
-For more information about the other products that Query Generation enables, see:
+Description
 
--   [Use AI to explore data with AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/now-assist-explorer.md)
--   [ServiceNow Otto for Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/now-assist-landing-cmdb.md)
+</th><th>
 
-**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/query-generation-reference.md)
+Action
+
+</th></tr></thead><tbody><tr><td>
+
+Entitlement status
+
+</td><td>
+
+Whether all the product entitlements for Query Generation and related products are present
+
+</td><td>
+
+If the status is not `Active`, contact Now Support about your licensing.
+
+</td></tr><tr><td>
+
+LLM and AIS status
+
+</td><td>
+
+The state of Query Generation skills and the LLMs they use. Also the state of AI Search
+
+</td><td>
+
+For Query Generation skills, if any are inactive, navigate to AI Admin Hub. Activate skills there as described in [Query Generation skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/enable-query-generation.md). If you have error messages, contact your Generative AI Controller administrator or Now Support.For AI Search, consult your organization's AI Search administrators.
+
+</td></tr><tr><td>
+
+Query Generation - Semantic Layer status
+
+</td><td>
+
+The health of the various Query Generation components
+
+</td><td>
+
+If there are no components present, run the Generate Semantic Layer job.If requests fail with `No entities and dimensions` errors, but the components are present in the entities and dimensions table and active, re-index the components. For more information about keyword and semantic ingestion, see [Indexing content from AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/indexing-content-ais.md).
+
+</td></tr><tr><td>
+
+Plugins
+
+</td><td>
+
+State of the plugins that are required to operate Query Generation
+
+</td><td>
+
+You might have to reinstall a plugin.
+
+</td></tr><tr><td>
+
+Query Generation enabled products
+
+</td><td>
+
+Installed products that use Query Generation and their status
+
+</td><td>
+
+You might have to reactivate the skill or upgrade the product.
+
+</td></tr><tr><td>
+
+System properties
+
+</td><td>
+
+The state of relevant system properties that can be modified by an administrator and that exist on the sys\_properties table
+
+</td><td>
+
+Navigate to the Properties \[sys\_properties\] table and change the value of the property in question. Update only the required properties that start with sn\_query\_gen. \*\*
+
+</td></tr></tbody>
+</table>**Parent Topic:**[Tuning the semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/semantic-layer-tuning-overview.md)
 

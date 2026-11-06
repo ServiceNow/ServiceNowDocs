@@ -7,9 +7,9 @@ release: yokohama
 product: Data Loss Prevention
 classification: data-loss-prevention
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [DLP integrations, Data Loss Prevention Incident Response, Security Operations]
+breadcrumb: [Integrate, Data Loss Prevention Incident Response, Security Operations]
 ---
 
 # Data Loss Prevention Incident Response Integration with Proofpoint
@@ -45,6 +45,8 @@ This integration includes the following key features:
 The Proofpoint DLP integration supports the ingestion of Data Loss Prevention incidents created on the Proofpoint Data Loss Prevention tenant. After ingestion, the incident management functionalities that remediate the DLP incidents will be used.
 -   **[Install and configure the Proofpoint integration for Data Loss Prevention](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/install-configure-proofpoint-integration-dlp.md)**  
 Install and configure the  Proofpoint DLP integration from the  ServiceNow® Store on your  ServiceNow AI Platform instance. Start investigating DLP incidents using the  Proofpoint DLP incident data.
+-   **[Create an Application in Proofpoint and Obtain Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-application-proofpoint-dlp.md)**  
+Create an Application in Proofpoint and configure the required settings to obtain client credentials. These credentials enable secure access to Proofpoint's API for seamless integration and automation.
 -   **[Create a Profile for Proofpoint DLP integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/create-profile-proofpoint-dlp-integration.md)**  
 Create an incident profile in your  ServiceNow AI Platform instance. Determine the  Proofpoint DLP incidents that are suitable for creating DLP incidents.
 -   **[Map Proofpoint DLP incidents status with ServiceNow incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/data-loss-prevention/map-proofpoint-dlp-incident-status.md)**  

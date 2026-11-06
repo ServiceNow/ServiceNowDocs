@@ -7,7 +7,7 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up the RSS feeds infrastructure, Configure, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -33,7 +33,7 @@ Role required: admin
     |Name|Name of the website that generates and provides the RSS feed. For example, `Consumer Financial Protection Bureau Alerts`.|
     |Connection|Connection that has the details from which the feed would be obtained. For more information, refer to [Create an HTTP\(s\) connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/create-https-connection.md).|
     |Active|Option to denote if the source is active. Only active sources are able to fetch the feeds.|
-    |Provider|Service or platform that generates and distributes RSS feeds for websites or content creators.|
+    |Provider|Service or platform that generates and distributes RSS feeds for websites or content creators. For more information, refer to, .|
 
 4.  Select **Submit**.
 

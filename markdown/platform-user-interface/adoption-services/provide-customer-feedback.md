@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Help Center, Help Center, In-product help, Adoption services, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ Role required: none
 
 2.  Scroll to the bottom of the Help Center menu and select **Provide feedback**.
 
-    \[Omitted image "image.ads-help-center"\] Alt text:
+    \[Omitted image "ads-help-center.png"\] Alt text:
 
 3.  Rate your experience and provide as much or as little detail in the entry boxes as you want.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [PowerShell for Discovery and Service Mapping, Advanced Discovery configuration, Discovery, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [PowerShell for Discovery and Service Mapping, Advanced Discovery configuration, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # MID Server parameters for PowerShell
@@ -109,6 +109,43 @@ Skips specific SSL certificate checks when using WinRM for HTTPS connections. Co
 -   Type: String
 -   Default value: -SkipCACheck -SkipCNCheck -SkipRevocationCheck
 
+</td></tr><tr><td>
+
+mid.powershell\_api.wmi.use\_reverse\_dns\_lookup
+
+</td><td>
+
+Enable this property to utilize Kerberos authentication when employing the WMI protocol to communicate with Windows target devices. When activated, the system performs a reverse DNS look-up of IP addresses, enabling the use of Fully Qualified Domain Names \(FQDN\) instead of IP addresses. This can facilitate Kerberos authentication.
+
+ **Note:** Note: If the reverse DNS look-up fails, the system may revert to using the IP address. Additionally, performing reverse DNS look-ups on IP addresses may impact performance.
+
+ -   Type: True \| False
+
+-   Default value: False
+
+
+</td></tr><tr><td>
+
+mid.powershell.prefer\_7\_plus
+
+</td><td>
+
+Sets the MID Server to prefer PowerShell 7 or later, if available, when running File-based Discovery and Windows ADME scripts locally on the MID Server host.-   Type: true \| false
+-   Default value: false
+
+For more information, see [Configure MID Server parameters for PowerShell 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-mid-params-ps7.md).
+
+</td></tr><tr><td>
+
+mid.powershell.prefer\_7\_plus\_remote
+
+</td><td>
+
+Sets the MID Server to prefer PowerShell 7 or later, if available, on remote target hosts when running File-based Discovery and Windows ADME.-   Type: true \| false
+-   Default value: false
+
+For more information, see [Configure MID Server parameters for PowerShell 7](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/config-mid-params-ps7.md).
+
 </td></tr><tr id="MIDServerPowershell_useCredentials"><td>
 
 mid.powershell.use\_credentials
@@ -155,6 +192,15 @@ mid.powershell.enforce\_utf8
 Enable this parameter to force commands on a target Windows system to return UTF-8 encoded output. Disabling it allows the target system to use its default encoding. This parameter is only valid when PowerShell is enabled.Setting this value to false may result in incorrect values in the CMDB when non-ASCII characters are returned by a probe.
 
  -   Type: true \| false
+-   Default value: true
+
+</td></tr><tr><td>
+
+mid.powershell.local\_mid\_service\_credential\_fallback
+
+</td><td>
+
+Specifies the login credentials the MID Server uses if all other credentials fail.-   Type: True \| False
 -   Default value: true
 
 </td></tr><tr id="MIDServerPowershell_idleSessionTimeout"><td>

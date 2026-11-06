@@ -1,5 +1,5 @@
 ---
-title: Design and Assign function for logical connections
+title: Logical connections
 description: Design and assign a logical connection in the Telecommunications Network Inventory application. By using the Design and Assign function, you can fulfill the logical connection design request of a customer.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/design-logical-connection-design-assign-playbook.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Design and assign your network services, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Design and assign your network services, Explore, Telecommunications Network Inventory]
 ---
 
-# Design and Assign function for logical connections
+# Logical connections
 
 Design and assign a logical connection in the Telecommunications Network Inventory application. By using the Design and Assign function, you can fulfill the logical connection design request of a customer.
 

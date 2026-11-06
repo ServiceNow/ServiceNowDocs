@@ -1,0 +1,85 @@
+---
+title: General guidelines for Build Agent
+description: Use these guidelines to get the most out of Build Agent in your development workflow.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/build-agent-general-guidelines.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Explore, Build Agent, Build, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# General guidelines for Build Agent
+
+Use these guidelines to get the most out of Build Agent in your development workflow.
+
+## Development guidelines
+
+To maximize Build Agent effectiveness, use the following practices:
+
+-   Design before coding: Think through and document the requirements for your application across the data and UI layers, for example using Workflow Studio or Figma.
+-   Start with a clear plan: Collaborate with Build Agent to define scope, required tables, and metadata types.
+-   Instruct with context: Write instructions for what you want to achieve with your application using Markdown in your file system. You can then ask Build Agent to use the file as context for its work.
+-   Use specific terminology: Treat Build Agent as your development partner. Provide specific, clear instructions using ServiceNow platform terminology such as table names, field names, roles, and artifact types.
+-   Test early and often: Add sample records, test on the instance, and run ATF tests throughout development.
+-   Use version control: Use Git for tracking changes and maintaining a clean workspace structure.
+-   Provide visual context: Give screenshots to Build Agent to troubleshoot UI issues and request changes.
+-   Extend with third-party libraries: Integrate third-party Node Package Manager \(NPM\) libraries, such as React JS, for enhanced interfaces.
+-   Maintain documentation: Keep clear rules and documentation in project folders; use Build Agent to create knowledge base articles.
+-   Iterate and experiment: Prototype freely, then ask Build Agent for an ideal prompt to recreate the result once your vision is complete.
+
+## Prompting guidelines
+
+Use the following guidelines to get better results from Build Agent.
+
+-   **Use Autonomous Engineer for large implementations**
+
+    For complex apps or ServiceNow product implementations, use Autonomous Engineer. Autonomous Engineer interviews you, generates a plan with work items, and builds all work items in parallel in the background. Review and approve the plan before Build Agent starts building. For more information, see [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-autonomous-engineer.md).
+
+-   **Ask Build Agent to prompt for you**
+
+    Ask Build Agent to suggest an ideal prompt for your goal or coach you on common pitfalls for a given metadata type. To learn more, see this Community article on [The fastest way to learn Build Agent prompting? Ask Build Agent](https://www.servicenow.com/community/now-assist-for-creator-articles/the-fastest-way-to-learn-build-agent-prompting-ask-build-agent/ta-p/3533544).
+
+-   **Be comprehensive**
+
+    One detailed prompt can provide better results than several vague ones. Include tables, fields, roles, and automation in a single prompt.
+
+-   **Let Build Agent interview you**
+
+    For broad ideas, let Build Agent ask clarifying questions before planning. In Autonomous Engineer, this interview is built into the workflow. In standard chat, you can prompt Build Agent to ask questions before it starts building. Both approaches produce better results than trying to anticipate every detail yourself.
+
+-   **Use specific ServiceNow terminology**
+
+    Say `reference to sys_user` instead of `add a field for who ordered`. Naming the table, field, scope, role, or artifact reduces interview cycles and produces more accurate output on the first attempt. Conversational prompts work well for early exploration, while precision works better as the build progresses.
+
+-   **Draft offline**
+
+    Write prompts in a text editor, refine them, then paste into the chat, which saves prompts and can help to produce better results.
+
+-   **Develop incrementally**
+
+    Develop each page or feature in separate chats. Implement and test, then start a new conversation for the next feature.
+
+-   **Use markdown**
+
+    Place a markdown file \(for example, named `GUIDE_*.md` or `BUILD_AGENT_RULES.md`\) in your project directory. Build Agent reads these grounding files and follows your conventions throughout the session.
+
+    **Note:** Markdown for Build Agent is currently available only in the ServiceNow IDE. Teams that get the most value from Build Agent markdown files document their organizational standards in these files, including the following:
+
+    -   Naming conventions: table names, field names, business rule naming patterns, and scope prefixes
+    -   Technical standards: coding practices, preferred patterns, and anti-patterns to avoid
+    -   Development cadence: processes, update set management, and code review requirements
+    -   Last-resort actions that require explicit approval: creating new tables, changing ACLs or roles, modifying system properties, and altering base system business rules
+-   **Use custom skills and rules**
+
+    Define instance-level, application-level, and user-level instructions that Build Agent follows in every session. Use rules to enforce consistent behavior automatically, such as naming conventions or required fields. Use skills to provide on-demand guidance for specific tasks. Unlike markdown grounding files, custom skills and rules require no project files and apply across all sessions at the configured scope. For more information, see [Configure custom skills and rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-configure-custom-skills-rules.md).
+
+-   **Use ESLint**
+
+    Use ESLint on the ServiceNow AI Platform to define your preferred coding style, and ask Build Agent to manage and enforce the ESLint configuration, for example using snake case for variables.
+
+
+**Parent Topic:**[Exploring Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/exploring-build-agent.md)
+

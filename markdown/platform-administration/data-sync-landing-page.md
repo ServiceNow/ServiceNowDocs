@@ -1,25 +1,24 @@
 ---
-title: Multi-instance Management
-description: Multi-instance Management offers tools and visibility to control how instances share information for enabled applications. This feature can be utilized for ServiceNow applications when they need to communicate data across multiple instances within a customer’s account.
+title: Multi-Instance Management
+description: Multi-Instance Management offers tools and visibility to control how instances share information for enabled applications. This feature can be utilized for ServiceNow applications when they need to communicate data across multiple instances within a customer’s account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/data-sync-landing-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Get started, Administer the ServiceNow AI Platform]
 ---
 
-# Multi-instance Management
+# Multi-Instance Management
 
-Multi-instance Management offers tools and visibility to control how instances share information for enabled applications. This feature can be utilized for ServiceNow applications when they need to communicate data across multiple instances within a customer’s account.
+Multi-Instance Management offers tools and visibility to control how instances share information for enabled applications. This feature can be utilized for ServiceNow applications when they need to communicate data across multiple instances within a customer’s account.
 
 -   [Basic trust configuration for data sync applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/grant-access-other-instances.md): Certain ServiceNow applications have the ability to provide data visibility across instances within a customer’s account.
 
     **Note:** This ability can be leveraged only if you have Security Center and Subscription Management installed on your instance. See [Security Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/sec-center-v2.md) and [Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/subscription-management-landing-page-v2.md) for more information.
 
--   [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/grant-access-v2.md): Multi-instance management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
+-   [Cross-instance application trust configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/grant-access-v2.md): Multi-Instance Management provides a mechanism to streamline the management of trust configurations across your entire multi-instance environment.
 
-    **Note:** Multi-instance management has new Yokohama platform capabilities that ServiceNow applications can leverage to exchange information among instances. To experience this and for more information, see the [Impact Platform Health application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-healthscan-store-app.md).
-
+Multi-Instance Setup simplifies setting up cross-instance communication with a single user interface where administrators can configure and monitor non-production instances connected to a controller. Every connection is requested, reviewed, and approved or rejected to help avoid silent failures or undocumented instance relationships. For more information, see [Multi-Instance Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/multi-instance-setup-overview.md).
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-22"
 reading_time_minutes: 6
 breadcrumb: [Work with solution data in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
 ---
@@ -39,27 +39,27 @@ To see problems in the Needs attention panel, you must be using the DPM August 2
 You can identify problems on the following solutions.
 
 -   Services and service offerings. Problems are related to the service offering via the service offering record on the form, impacted services related list, and on the affected CIs related list. Problems are then rolled up to the parent service and should be deduplicated at the parent service level.
--   Business applications. Problems are related to the application service via the configuration item field on the form. Problems are then rolled up from the application service to the business application and should be deduplicated at the parent service level.
--   Application services. Problems are related to the application service via the configuration item field on the form.
+-   Business applications. Problems are related to the service instance via the configuration item field on the form. Problems are then rolled up from the service instance to the business application and should be deduplicated at the parent service level.
+-   Service instances. Problems are related to the service instance via the configuration item field on the form.
 
-## Application service considerations
+## Service instance considerations
 
-Prior to the November 2024 Store release, you could see the records of incidents, problems, and changes in the Needs attention panel only if the application service is added to the Configuration item field of a related item \(for example, to an incident record\).
+Prior to the November 2024 Store release, you could see the records of incidents, problems, and changes in the Needs attention panel only if the service instance is added to the Configuration item field of a related item \(for example, to an incident record\).
 
-As of the November 2024 Store release, items or records are reflected in the Needs attention panel when an incident, problem, or change includes the application service in the Impacted services or the Affected CIs related list, in addition to the Configuration item field.
+As of the November 2024 Store release, items or records are reflected in the Needs attention panel when an incident, problem, or change includes the service instance in the Impacted services or the Affected CIs related list, and the Configuration item field.
 
-After the application services are added to the Configuration item field, Impacted services, or the Affected CIs related list, you can see them under the Needs attention section in the base level \(application service\). The data also rolls up to the following levels in the DPM Workspace:
+After the service instances are added to the Configuration item field, Impacted services, or the Affected CIs related list, you can see them under the Needs attention section in the base level \(service instance\). The data also rolls up to the following levels in the DPM Workspace:
 
 -   Business application
 -   Taxonomy node
 -   Portfolio
 
-Also, after the application services are added, the data is rolled up in the following areas when you:
+Also, after the service instances are added, the data is rolled up in the following areas when you:
 
 -   Select **View details** on any affected solution page.
 -   View the Run tab of any solution page to view the key performance indicators \(KPIs\).
 
-This functionality applies to enterprise business application portfolios, enterprise application service portfolios, and to any business application or application service added to your personal portfolios.
+This functionality applies to enterprise business application portfolios, enterprise service instance portfolios, and to any business application or service instance added to your personal portfolios.
 
 ## Panel attributes and icons
 
@@ -89,19 +89,19 @@ Services and service offerings
 
 -   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panels. This toggle isn't on the DPM Workspace home page.
 -   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and the all the teams that support the service offering.
--   Knowledge articles icon\(\[Omitted image "dpm-kb-icon.png"\] Alt text: Knowledge articles icon.\) to search for related knowledge articles.
+-   Knowledge articles icon \(\[Omitted image "dpm-kb-icon.png"\] Alt text: Knowledge articles icon.\) to search for related knowledge articles.
 -   Attachments icon \(\[Omitted image "attachment.png"\] Alt text: Attachments icon.\) to view and add attachments to the record.
 -   Catalog items icon \(\[Omitted image "catalog-items.png"\] Alt text: Catalog items icon.\) to search for catalog items on a service or service offering record.
 
 
 </td></tr><tr><td>
 
-Business applications and application services
+Business applications and service instances
 
 </td><td>
 
 -   Needs attention icon \(\[Omitted image "icon-information.png"\] Alt text: Needs attention icon\) to show or hide the Needs attention panels. This toggle isn't on the DPM Workspace home page.
--   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and all the teams that support the business application or the application service.
+-   Contacts icon \(\[Omitted image "contacts.png"\] Alt text: Contacts icon.\) to view team members and all the teams that support the business application or the service instance.
 -   Attachments icon \(\[Omitted image "attachment.png"\] Alt text: Attachments icon.\) to view and add attachments to the record.
 
 
@@ -134,7 +134,7 @@ Services and service offerings
 
 </th><th>
 
-Application services
+Service instances
 
 </th><th>
 
@@ -146,7 +146,7 @@ Business applications
 -   Outages
 -   Changes
 
- For new and zBoot customers, all the above plus Audit and Risks.
+ For new and zBoot customers, all of these plus Audit and Risks.
 
 </td><td>
 
@@ -156,7 +156,7 @@ Business applications
 -   Alerts
 -   Risks
 
- For new and zBoot customers, all the above plus Audits.
+ For new and zBoot customers, all of these plus Audits.
 
 </td><td>
 

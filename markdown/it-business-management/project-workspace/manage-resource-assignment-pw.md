@@ -1,20 +1,20 @@
 ---
-title: Manage resources using resource board
-description: View and manage all the resource assignments without navigating through individual tasks using the resource page. Set up a resource board to automatically generate a resource view in Resource Management Workspace based on your project-associated resources to support forecasting and visualization of resource demands.
+title: Manage resources from resource page in Project Workspace
+description: View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page shows all project-associated resources and their assignments to support forecasting and visualization of resource demands.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/manage-resource-assignment-pw.html
 release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Manage resources using resource board
+# Manage resources from resource page in Project Workspace
 
-View and manage all the resource assignments without navigating through individual tasks using the resource page. Set up a resource board to automatically generate a resource view in Resource Management Workspace based on your project-associated resources to support forecasting and visualization of resource demands.
+View and manage all the resource assignments without navigating through individual tasks using the resource page in Project Workspace. Resources page shows all project-associated resources and their assignments to support forecasting and visualization of resource demands.
 
 ## Before you begin
 
@@ -22,19 +22,19 @@ Role required: it\_project\_manager, resource\_user
 
 ## About this task
 
-When you select **Resources** from the left menu, you are redirected to a page that generates a resource board based on the resource assignees within that project. The resource board is created within the Resource Management Workspace and shows all the resources and tasks associated with that specific project. You can also view how many tasks are assigned to each resource.
+When you select **Resources** page from the left menu, you’re redirected to a page that displays the project associated resources and their resource assignments for better resource planning. You can also view how many tasks are assigned to each resource.
 
-For example, Simon is a resource who is allocated to two project tasks. When you select Simon from the resource board, you can view all the project tasks to which Simon is assigned for a project.
+For example, Simon is a resource who is allocated to two project tasks. When you select Simon from the resource page, you can view all the project tasks to which Simon is assigned for a project.
 
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Project Workspace** and open a project.
 
-2.  Open the resource page of the project by selecting **Resources** from the left menu.
+2.  Open the resource page of the project by selecting **Resources** page from the left menu.
 
 3.  Edit the resource status, task effort, start date, end date, or other attributes of the resource assignment as required.
 
-    You can edit the row, reassign, extend, or open a resource assignment. You can create a new resource assignment directly from the resource board in the Resource Management Workspace. You can select the unassigned tasks toggle to view all the unassigned resources that are not currently assigned to any task in that project. For sub-projects, you can select a sub-project and then select **Resources** to view the resources allocated to that sub-project.
+    You can edit the row, reassign, extend, or open a resource assignment. You can create a new resource assignment directly from the resource page in the Project Workspace. You can select the unassigned tasks toggle to view all the unassigned resources that aren’t currently assigned to any task in that project. For sub-projects, you can select a sub-project and then select **Resources** to view the resources allocated to that sub-project.
 
 
 **Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/resource-assignments-pw.md)

@@ -1,26 +1,26 @@
 ---
-title: Playbooks on Mobile Agent
-description: Playbooks for the Now Mobile Agent application provide a guided experience for completing work order tasks on a mobile device.
+title: Playbooks on ServiceNow Agent
+description: Playbooks for the ServiceNow Agent application provide a guided experience for completing work order tasks on a mobile device.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/playbooks-now-mobile-agent-app.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Playbooks on Mobile Agent
+# Playbooks on ServiceNow Agent
 
-Playbooks for the Now Mobile Agent application provide a guided experience for completing work order tasks on a mobile device.
+Playbooks for the ServiceNow Agent application provide a guided experience for completing work order tasks on a mobile device.
 
-## Playbooks for the Now Mobile Agent
+## Playbooks for the ServiceNow Agent
 
-Playbooks for the Now Mobile Agent application include stages for completing a work order task. Playbooks can be viewed under a selected work order task on the **My work** page. Tasks that have an active playbook associated with it display a **View Playbooks** button.
+Playbooks for the ServiceNow Agent application include stages for completing a work order task. Playbooks can be viewed under a selected work order task on the **My work** page. Tasks that have an active playbook associated with it display a **View Playbooks** button.
 
-Playbooks are organized in stages to provide a guided experience. They direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
+Playbooks direct you to new or existing features of the mobile application and maintain a checklist of completed stages on that work order task. Stages can be marked complete or skipped at your discretion. The stages progress as follows:
 
 1.  Troubleshoot
 2.  Parts
@@ -29,15 +29,13 @@ Playbooks are organized in stages to provide a guided experience. They direct yo
 5.  Verify work completion
 6.  Close work order task
 
-For more information, see [Playbooks on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/playbooks-now-mobile-agent-app.md).
-
-\[Omitted image "playbooks-fsm-mobile-agent.png"\] Alt text: Playbooks on the Now Mobile Agent phone application.
+\[Omitted image "playbooks-fsm-mobile-agent.png"\] Alt text: Playbooks on the ServiceNow Agent phone application.
 
 ## Troubleshoot
 
 The Troubleshoot stage contains the **View related articles** module. Access articles from your organization's knowledge base to find helpful information relevant to the work order task.
 
-For more information on accessing knowledge articles in Now Mobile Agent, see [Knowledge articles on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/access-information-you-need-mobile.md).
+For more information on accessing knowledge articles in Now Mobile Agent, see [Knowledge articles on ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/access-information-you-need-mobile.md).
 
 ## Parts
 
@@ -66,6 +64,4 @@ The Verify work completion stage contains the **Verify work** module. Review a c
 The Close work order task stage contains the **Close work order task** module. Close the task as complete or incomplete with notes.
 
 For more information on how to close a task, see [Close a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/close-wo-wot-mobile.md).
-
-**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
 

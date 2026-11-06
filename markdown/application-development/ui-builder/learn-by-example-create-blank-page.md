@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Create a blank page
@@ -34,21 +34,23 @@ Role required: ui\_builder\_admin
 
     There are templates you can use, but we are going to create a page from scratch.
 
-    \[Omitted image "page-details.png"\] Alt text: Page details including page name and URL path.
+    \[Omitted image "page-details.png"\] Alt text: Page details including page name, URL path, and page type.
 
 4.  In the **Name** field, type **My test page**, and select **Continue**.
 
     **Note:** The **URL path** shows the URL that users can navigate to access the page.
 
-5.  Select **Looks good** on the next screen.
+5.  Select a URL page type in the **Type** drop-down list.
 
-6.  On the **Tell us about your variant** screen, do not make any changes.
+6.  Select **Looks good** on the next screen.
 
-7.  Select **Continue**.
+7.  On the **Tell us about your variant** screen, do not make any changes.
 
-8.  Select the **Build responsive** option \(default\) for greater control of how the page appears at different screen widths.
+8.  Select **Continue**.
 
-9.  Select **Create**.
+9.  Select the **Build responsive** option \(default\) for greater control of how the page appears at different screen widths.
+
+10. Select **Create**.
 
     The visual editor opens. Here, you can begin editing your new page.
 

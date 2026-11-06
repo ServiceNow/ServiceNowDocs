@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Lens
 classification: servicenow-lens
 topic_type: task
-last_updated: "2025-05-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, ServiceNow AI Lens, Enable AI experiences]
+breadcrumb: [Configure, ServiceNow AI Lens, Generative AI skills, Enable AI Experiences]
 ---
 
 # Define default instructions for ServiceNow AI Lens
@@ -28,7 +28,7 @@ When users provide additional instructions through the ServiceNow AI Lens UI, th
 
 ## Procedure
 
-1.  In the filter navigator, enter **sys\_properties.list** to display the list of system properties for your instance.
+1.  In the filter navigator, enter **sys\_properties.list** and press **Enter**.
 
 2.  Select **New**.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Release Management
 classification: release-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Release Management, IT Service Management]
+breadcrumb: [Release Management, IT Service Management]
 ---
 
 # Software control distribution
@@ -23,5 +23,5 @@ The DML table \[dsl\] consists of a physical store and a logical store.
 
 Both physically and logically stored software are represented as records on the DML table \[dsl\].
 
-**Parent Topic:**[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/reference-release-management.md)
+**Parent Topic:**[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/c_ITILReleaseManagement.md)
 

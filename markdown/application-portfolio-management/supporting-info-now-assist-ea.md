@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/supporting-info-now-assist-ea.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Explore, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Explore, ServiceNow Otto for Enterprise Architecture \(EA\), Enterprise Architecture]
 ---
 
 # Supporting information for ServiceNow Otto for Enterprise Architecture \(EA\)
@@ -24,9 +24,9 @@ The ServiceNow Otto for EA application is supported for the Enterprise Architect
 
 ## Application information
 
-Activate the latest ServiceNow Otto for Enterprise Architecture \(EA\) \(sn\_ea\_gen\_ai\) store app to use the Now Assist skills.
+Activate the latest ServiceNow Otto for Enterprise Architecture \(EA\) \(sn\_ea\_gen\_ai\) store app to use the ServiceNow Otto skills.
 
-This store app has the dependency on Now Assist for Platform \(sn\_genai\_platform\) \(v6.0.0\).
+This store app has the dependency on ServiceNow Otto for Platform \(sn\_genai\_platform\) \(v6.0.0\).
 
 For more information, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md).
 
@@ -40,6 +40,4 @@ For more information, see [Configure ServiceNow Otto for Enterprise Architecture
 [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
 
 [Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)
-
-[Now Assist for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea-reference.md)
 

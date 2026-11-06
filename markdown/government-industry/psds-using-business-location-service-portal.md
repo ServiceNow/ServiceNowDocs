@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-using-business-location-service-portal.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+keywords: [Using the business \(agency\) location service portal, Use the business location service portal]
+breadcrumb: [Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Using the Business Location Service Portal in Public Sector Digital Services

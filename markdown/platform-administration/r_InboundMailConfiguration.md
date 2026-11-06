@@ -1,18 +1,18 @@
 ---
-title: Inbound mail configuration
-description: The Inbound Mail Configuration section of the Email Properties page contains properties to control inbound email.
+title: Inbound email configuration
+description: The Inbound Email Configuration section of the Email Properties page contains properties to control inbound email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_InboundMailConfiguration.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Email properties, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Email properties, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Inbound mail configuration
+# Inbound email configuration
 
-The **Inbound Mail Configuration** section of the Email Properties page contains properties to control inbound email.
+The **Inbound Email Configuration** section of the Email Properties page contains properties to control inbound email.
 
 <table id="table_bbt_1ry_bp"><thead><tr><th>
 
@@ -117,7 +117,7 @@ Comma-separated list of trusted domains for which the instance automatically cre
 **Related topics**  
 
 
-[Outbound mail configuration]()
+[Outbound email configuration]()
 
 [Email image filtering properties]()
 

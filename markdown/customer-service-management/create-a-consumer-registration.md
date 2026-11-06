@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-a-consumer-registration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Register for the Consumer Service Portal
@@ -18,7 +18,7 @@ Register for the Consumer Service Portal to gain access and create a consumer pr
 
 Role required: none
 
-Ask your admin to install the External User Registration plugin \(ID: com.sn\_external\_user\_register\) to view the register link on the Consumer service portal header.
+Ask your admin to install the External User Registration plugin \(ID: com.sn\_external\_user\_register\) to view the register link on the Customer service portal header.
 
 ## Procedure
 
@@ -26,24 +26,25 @@ Ask your admin to install the External User Registration plugin \(ID: com.sn\_ex
 
     For example, https://example.com/csp.
 
-2.  Select **Register** in the portal header.
+2.  Select **Register**.
 
 3.  Fill in the fields on the registration form.
 
     Your email address must be unique. If you enter an address that is already in the system, you receive an error message. Try again with a different email address.
 
-4.  Select the **Security Code** check box, complete the CAPTCHA validation, and click **Verify**.
-
-5.  Select the check box to agree to the privacy policy and to the community terms and conditions.
-
-6.  Select **Sign Up**.
+4.  Select **Sign Up**.
 
     A verification email is sent to the email address you provided.
 
-7.  Click the link in the email to verify your email address.
+5.  Select the link in the email to verify your email address.
 
 
 ## Result
 
 Your registration is complete. You can now log in to the Consumer Service Portal.
+
+**Related topics**  
+
+
+[Log in to the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/log-in-to-consumer-service-portal.md)
 

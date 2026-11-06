@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-studio-config-action-function.html
 release: yokohama
 topic_type: task
-last_updated: "2026-08-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Action functions, Mobile functions, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -335,6 +335,7 @@ Specifies an additional attribute for a button. Select **New** to configure this
 **Note:** To keep the fields up to date with the latest database values, you must configure either a data source or an auto-fill variable for the relevant fields. This ensures the fields display the value that was just inserted or updated in the database. For more information, see [Loading mechanisms for input form screens](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/loading-mechanisms.md).
 
 -   **retain\_parent\_parameter\_screen **: When enabled for write-back actions in input form screens, the button keeps the user on the current input form instead of opening a new one. This attribute is required when configuring input form actions. For more information, see [Input form actions in an input form screen](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/input-form-screen-input-actions.md).
+-   **consolidate\_consecutive\_outbox\_items **: When enabled for write-back buttons in offline mode, the attribute combines multiple consecutive saves of the same action on the same record \(same action, record, table, and form\) into a single outbox item instead of queuing each save separately. This setting controls offline outbox consolidation behavior. The default value is false.
 
 
 </td></tr><tr><td>

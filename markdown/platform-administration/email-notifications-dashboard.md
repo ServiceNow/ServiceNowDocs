@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-notifications-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -33,7 +33,7 @@ Data collection is triggered by configuring and executing jobs. For more informa
 
 Email notification insights highlights and shows the system notification sent over emails for the selected time period.
 
-\[Omitted image "email-noti-insights.png"\] Alt text: Example of email notifications insights
+\[Omitted image "email-noti-insights.png"\] Alt text: Email notifications insights
 
 <table id="table_m2g_lmw_12c"><thead><tr><th>
 
@@ -171,6 +171,8 @@ Configure data collection jobs for the email notification dashboard.
 
 [Create an email notification]()
 
+[Email diagnostics dashboard]()
+
 [Email templates]()
 
 [Email layouts]()
@@ -185,5 +187,5 @@ Configure data collection jobs for the email notification dashboard.
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced Work Assignment for Legal Service Delivery reference, Advanced work assignment for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Reference, Advanced work assignment for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Components installed for Advanced Work Assignment for Legal Service Delivery reference
@@ -42,8 +42,7 @@ Provides administrative access to Advanced Work Assignment for legal application
 
 </td><td>
 
--   awa\_admin
--   sn\_lg\_ops.legal\_user
+sn\_lg\_ops.legal\_user**Note:** To enable a user with the sn\_lg\_awa.admin role to configure Advanced Work Assignment, add the awa\_admin role as a contained role of sn\_lg\_awa.admin on your instance.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Advanced Work Assignment for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/lsd-awa-reference-landing.md)

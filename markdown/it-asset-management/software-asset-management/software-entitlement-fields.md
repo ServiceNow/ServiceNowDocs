@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 15
-breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 16
+breadcrumb: [Software Asset Management references, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Software entitlement fields
@@ -18,7 +18,7 @@ Software Entitlement form and related list field descriptions.
 
 ## Software Entitlement form
 
-**Note:** From the Yokohama release, the Database option column no longer exists in the Software Entitlement \[alm\_license\] and the Override License Cost \[samp\_override\_license\_cost\] tables. If you customized your form view prior to the Yokohama release to include the database option column, then you get to see the Database option in the software entitlement form.
+**Note:** From the Brazil release, the Database option column no longer exists in the Software Entitlement \[alm\_license\] and the Override License Cost \[samp\_override\_license\_cost\] tables. If you customized your form view prior to the Brazil release to include the database option column, then you get to see the Database option in the software entitlement form.
 
 The list view for software entitlements shows the total number of software entitlement records for your organization based on the value specified in the **SAM Workspace License operations list count limit** system property \(**sn\_sam\_workspace.sam\_license\_operations\_list\_count**\). The default value for the record count is set to **5000000**. However, the SAM administrator can set the value for the count in the system property as required. If there are less than five million records, then the exact count is shown. If there are more than five million records, then the count is shown as 5000000+. For more information on this system property, see [Software Asset Management properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-properties.md).
 
@@ -114,7 +114,7 @@ The type determines whether the rights grant full access to the software or if t
 -   Add-on
 -   From SA
 
-**Note:** After you upgrade to the Yokohama release and a content update is performed, if the content update changes the license type of a specific PPN from Step-up to Subscription Step-up, all entitlements associated with that PPN will be updated to Subscription Step-up entitlements.
+**Note:** After you upgrade to the Brazil release and a content update is performed, if the content update changes the license type of a specific PPN from Step-up to Subscription Step-up, all entitlements associated with that PPN will be updated to Subscription Step-up entitlements.
 
  The default value for SaaS entitlements is **Subscription**.
 
@@ -207,7 +207,7 @@ Number of rights that you’re purchasing.
 
  **Note:** If you have specified a Microsoft Per Core or Microsoft Per Core with CAL license type, this field is automatically populated. This value is based on the value entered in the **Rights per license pack** field multiplied by the value in the **Number of packs** field.
 
-From the Yokohama release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
+From the Brazil release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
 
 </td></tr><tr id="row_gj5_gss_mfb"><td>
 
@@ -233,7 +233,7 @@ Unit cost
 
 Unit cost of the software. **Note:** Required for total cost and savings calculations on the [Software Asset Management dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/c_SAMDashboard.md)
 
-From the Yokohama release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
+From the Brazil release, revenue-based licensing support is enabled for this field for SAP Engine products. This support enables using higher value revenue-based SAP Engine products.
 
 </td></tr><tr><td>
 
@@ -312,7 +312,7 @@ Active maintenance
 
 </td><td>
 
-Indicates if Subscription, SA, or maintenance is activated on the entitlement. If the entitlement has an active SA, subscription, or maintenance associated with it, the check box is automatically selected. If an entitlement initially had subscription, SA or maintenance activated on it and subscription, SA or maintenance is no longer active, the check box is automatically cleared.If you upgrade from a previous release to the Yokohama release, this check box is automatically selected for your existing entitlements that have an active SA, subscription, or maintenance associated with them.
+Indicates if Subscription, SA, or maintenance is activated on the entitlement. If the entitlement has an active SA, subscription, or maintenance associated with it, the check box is automatically selected. If an entitlement initially had subscription, SA or maintenance activated on it and subscription, SA or maintenance is no longer active, the check box is automatically cleared.If you upgrade from a previous release to the Brazil release, this check box is automatically selected for your existing entitlements that have an active SA, subscription, or maintenance associated with them.
 
 </td></tr><tr><td>
 
@@ -463,6 +463,14 @@ License key
 
 Unique license key that is allocated to the user.
 
+</td></tr><tr><td>
+
+Group
+
+</td><td>
+
+Indicates the assignment group name when a user allocation is created from a group user allocation to the software entitlement. When a user allocation isn't created from a group user allocation to the software entitlement, this column value is empty.
+
 </td></tr></tbody>
 </table>## Device Allocations tab
 
@@ -591,7 +599,7 @@ Number of rights to upgrade.
 |-----|-----------|
 |Work notes|Work notes for the asset.|
 
-## Downgrade Rights related list
+## Downgrade Rights related tab
 
 <table id="table_o1h_4cm_43b"><thead><tr><th>
 
@@ -655,7 +663,7 @@ End date
 End date of the downgrade.
 
 </td></tr></tbody>
-</table>## Entitlement Consumption Rules
+</table>## Entitlement Consumption Rules related tab
 
 **Note:** This tab appears for all publishers except Workday. Additionally, the tab appears for all license metrics except the following:
 
@@ -673,13 +681,27 @@ End date of the downgrade.
 |Consumption rule|The consumption rule linked to the entitlement.|
 |License pool|License pool associated with the consumption rule. For details on license pools, see [Reconciliation of licenses across global entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reconcile-licenses-global-entities.md).|
 
-## License Key related list
+## License Key related tab
 
 |Field|Description|
 |-----|-----------|
 |Is allocated|Option that indicates that the license key has been allocated.|
 |License key|License key value. Must be unique for an entitlement.|
 |Software entitlement|Software entitlement associated with the license key.|
+
+## License Metric Tier related tab
+
+The **License Metric Tier** tab lists the tier ranges and factors applied when calculating the number of licenses required for a tier-based license metric.
+
+**Note:** The tab contains data only when the entitlement uses a tier-based license metric. For any other license metric, the tab remains empty.
+
+|Field|Description|
+|-----|-----------|
+|License metric config|License metric configuration that the tier belongs to. Each tier-based license metric has a set of tiers that define how the consumed quantity is measured.|
+|Tier level|Position of the tier in the sequence of ranges, starting from 1. The tiers are applied in order from the lowest level to the highest.|
+|Range from|Lower bound of the consumed quantity that the tier applies to.|
+|Range to|Upper bound of the consumed quantity that the tier applies to.|
+|Tier factor|Value that is applied to the units within the tier to determine the number of licenses required for that tier.|
 
 **Parent Topic:**[Software Asset Management references](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/references.md)
 

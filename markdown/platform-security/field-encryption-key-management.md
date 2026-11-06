@@ -1,29 +1,29 @@
 ---
 title: Encrypting fields and attachments
-description: After you create your cryptographic modules, create encrypted field configurations and specify whether to encrypt a field on a table or encrypt attachments.
+description: Once cryptographic modules are created, a security admin can define the encrypted fields configuration \(EFC\) and opt to encrypt a field or attachment on a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/field-encryption-key-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
 
 # Encrypting fields and attachments
 
-After you create your cryptographic modules, create encrypted field configurations and specify whether to encrypt a field on a table or encrypt attachments.
+Once cryptographic modules are created, a security admin can define the encrypted fields configuration \(EFC\) and opt to encrypt a field or attachment on a table.
 
 ## How to encrypt fields
 
-**Note:** Encrypted fields are not audited by design. This behavior is not configurable.
+**Note:** Encrypted fields aren’t audited by design. This behavior isn’t configurable.
 
-1.  Specify the key source: system-generated keys or your customer supplied keys \(bring your own key\) in **System Security** &gt; **Field Encryption Settings**.
-2.  After you specify the key source, create a new cryptographic module or use an existing cryptographic module. Start with [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/create-cryptographic-module.md) for instructions.
+1.  Specify the key source: ServiceNow generated keys or your customer-supplied keys \(bring your own key\) in **System Security** &gt; **Field Encryption Settings**.
+2.  After specifying the key source, create a cryptographic module or use an existing cryptographic module. Start with [Create a cryptographic module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/create-cryptographic-module.md) for instructions.
 
     **Note:** If you use customer-supplied keys, follow the directions in [Create cryptographic module for Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/create-PE-cryptographic-module.md) and [Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/customer-supplied-keys.md).
 
-3.  Create an encrypted field configuration, which is where you specify the table on which the encryption is performed and either the column in the table or the attachments in the table to encrypt. See [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/set-encrypted-field-config.md) to get started.
+3.  Create an encrypted field configuration to define where the encryption is applied. Here, you specify the target table and choose whether to encrypt a column or attachments within the table. See [Set encrypted field configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/set-encrypted-field-config.md) to get started.
 
 **Note:** See [Field Encryption Enterprise examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/kmf-walkthroughs-tutorials.md) that illustrates how to encrypt fields and attachments using customer-supplied keys.
 
@@ -35,6 +35,10 @@ Scripts can be run to access a cryptographic module policy for a cryptographic p
 Schedule encryption, decryption, and rekeying jobs to run at a time that is best for your instance.
 -   **[Run mass encryption or decryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/mass-enc-dec.md)**  
 You can run mass encryption on encryption configurations, as well as a mass decryption to decrypt previously encrypted values.
+-   **[Upload attachments for encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/upload-attachments-for-encryption.md)**  
+Protect sensitive files by encrypting record attachments using Field Encryption and Row Conditions.
+-   **[Module access policies for inbound email attachments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/fe-maps-inbound-email-attachment-encryption.md)**  
+Encrypting inbound email attachments associated with matched records requires one or more module access policies \(MAPs\).
 
 **Parent Topic:**[Using Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/using-column-level-encryption.md)
 

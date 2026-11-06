@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Service Delivery for Mobile
 classification: workplace-service-delivery-for-mobile
 topic_type: concept
-last_updated: "2025-07-23"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Workplace Service Delivery for Mobile, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -54,15 +54,4 @@ Administrators can configure the following to provide better workspace suggestio
 
 
 For more information, see [Configure a reservable module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/config-reservable-module.md).
-
--   **[Manage your in-office presence preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/workplace-preferences-emp-center.md)**  
-Employees can customize and manage their in-office or workday presence preferences.
--   **[Create a reservation for a day in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/manage-schedule-emp-center.md)**  
-Reserve your preferred workspace in Workplace using the Workplace Service Delivery for Mobile app.
--   **[Create bulk reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-bulk-reservations.md)**  
-Create bulk reservations in Workplace using the Workplace Service Delivery for Mobile. Employee can manage multiple planned reservations from the Workplace page.
--   **[Review and edit your reservations in Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/mobile-workplace-edit-rsv.md)**  
-Update or edit reservations in Workplace using the Workplace Service Delivery for Mobile application. Update your location, date, and time of your existing reservations.
-
-**Parent Topic:**[Workplace Service Delivery for Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-service-delivery-for-mobile/wsd-mobile-overview.md)
 

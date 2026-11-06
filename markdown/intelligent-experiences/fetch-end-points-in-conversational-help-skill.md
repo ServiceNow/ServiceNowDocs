@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/fetch-end-points-in-conversational-help-skill.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # Fetch end points in Now Assist Conversational Help skills
@@ -16,9 +16,7 @@ The Now Assist Conversational Help skills architecture solves latency by fetchin
 
 ## Fetching solutions hosted on multiple geographical location
 
-The Now Assist Conversational Help skill displays as Get Help on the Now Assist panel. The possible solutions to users queries posted on Now Assist Conversational Help skills are hosted on three main locations: Japan, EMEA and the US.
-
-**Note:** To preserve data privacy standards, end points support for Get Help skill is not available in GCC/ NSC regulated markets.
+The possible solutions to users queries posted on Now Assist Conversational Help skills are hosted on three main locations: Japan, EMEA and the US.
 
 For optimal performance, the central instance should be situated in the same geographic area as the user's instance. To achieve this alignment, we utilize DISH service, a tool within the user's instance, that helps identify the correct endpoint. The Now Assist Conversational Help skills uses the Mimir lookup service feature, inside the different data centers.
 
@@ -26,5 +24,5 @@ The DISH service communicates with the Mimir lookup table to determine the end p
 
 **Note:** The Now Assist Conversational Help skill version is stored in sn\_ads\_now\_help.com.snc\_now\_help\_skill.version, ensuring backward compatibility within the conversational shared services.
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
 

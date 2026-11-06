@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using HR Service Delivery Integration with SuccessFactors, HR Service Delivery Integration with SuccessFactors, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -119,4 +119,17 @@ Date and time by which the task has to be completed.
 </td></tr></tbody>
 </table>
 **Parent Topic:**[Using HR Service Delivery Integration with SuccessFactors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/using-hr-service-delivery-integration-with-success-factors.md)
+
+**Related topics**  
+
+
+[View job tracker details]()
+
+[Use transform maps]()
+
+[Field mappings]()
+
+[ServiceNow Otto Virtual Agent topics for HR Service Delivery Integration with SuccessFactors]()
+
+[Use HCM AI agents for HR Service Delivery Integration with SuccessFactors]()
 

@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/tinymce.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 12
-breadcrumb: [Configure a field editor for the HTML field, Field types reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Configure a field editor for the HTML field, Reference, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configuring the TinyMCE toolbar via Dictionary attributes
 
 You can configure the TinyMCE HTML editor for a specific table by configuring the dictionary attributes.
-
-For information on configuring the toolbar, see [Change the TinyMCE default toolbar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/tinymce.md). For information on configuring specific plugins, see [Change TinyMCE plugins for a specific table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/tinymce.md). For information on configuring the default height of an HTML field, see [Change the default height of an HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/tinymce.md). For information on configuring the default font size in an HTML field, see [Change the default font size of an HTML field](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/tinymce.md). For information on configuring the menu bar on the TinyMCE HTML editor, see [Configure the menu bar on the TinyMCE HTML editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/tinymce.md).
 
 ## Change the TinyMCE default toolbar
 
@@ -28,14 +26,14 @@ Role required: admin
 
 1.  Navigate to **All** &gt; **System Properties** &gt; **UI Properties**.
 
-2.  Update the **Configures the editing toolbar for HTML fields\(TinyMCE v6.8.2\)** \(glide.ui.html.editor.toolbar\) property to add or remove buttons for the toolbar.
+2.  Update the **Configures the editing toolbar for HTML fields\(TinyMCE v8.3.0\)** \(glide.ui.html.editor.toolbar\) property to add or remove buttons for the toolbar.
 
     **Note:** Use a vertical bar \("\|"\) to add a section separator.
 
     |Type|Buttons|
     |----|-------|
     |Default buttons|**bold italic underline undo redo \| fontfamily fontsize table \| forecolor backcolor link unlink \| image media code \| alignleft aligncenter alignright \| bullist numlist fullscreen**|
-    |Valid buttons|**newdocument, bold, italic, underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull, blocks, fontfamily, fontsize, tablecontrols, cut, copy, paste, pastetext, pasteword, search, replace, bullist, numlist, outdent, indent, blockquote, undo, redo, link, unlink, image, cleanup, code, forecolor, backcolor, removeformat, hr, visualaid, sub, sup, charmap, media, preview, fullscreen, accordion**|
+    |Available buttons|**newdocument, bold, italic, underline, strikethrough, justifyleft, justifycenter, justifyright, justifyfull, blocks, fontfamily, fontsize, tablecontrols, cut, copy, paste, pastetext, pasteword, search, replace, bullist, numlist, outdent, indent, blockquote, undo, redo, link, unlink, image, cleanup, code, forecolor, backcolor, removeformat, hr, visualaid, sub, sup, charmap, media, preview, fullscreen, accordion**|
 
 3.  Select **Save**.
 
@@ -247,19 +245,13 @@ Role required: admin
 
 1.  Navigate to a record with an HTML-type field that you want to change.
 
-    For example, select an incident, problem, or knowledge record.
-
 2.  Right-click the field label and select **Configure Dictionary**.
-
-    \[Omitted image "TinyMCEV6-configure-dictionary.png"\] Alt text: TinyMCE v6.8.3 Configure dictionary drop-down menu
 
 3.  In the Related Links section, select Advanced View.
 
 4.  In the Attributes field, input `editor.config=new TinymceConfigScript().getConfiguration()`.
 
-    \[Omitted image "TinyMCEV6-dictionary-entry-form.png"\] Alt text: TinyMCE v6.8.3 Dictionary entry form
-
-    This **editor.config** attribute points to a script: **TinymceConfigScript\(\)**.
+    This editor.config attribute points to a script: TinymceConfigScript\(\).
 
 5.  Access the **TinymceConfigScript**.
 
@@ -270,8 +262,6 @@ Role required: admin
     3.  Select **TinymceConfigScript**.
 
         You will be able to see the following script by default.
-
-        \[Omitted image "TinyMCEV6-script-include-tinymceconfigscript.png"\] Alt text: Script Include for TinymceConfigScript in Buildtools1
 
         ```
         var TinymceConfigScript = Class.create();
@@ -331,7 +321,7 @@ Role required: admin
 
     4.  Set the menu bar attribute to **true** in the script to enable the menu bar.
 
-        This will enable all the options “File” “Edit” “View” “Insert” “Format” “Table” in the menu bar.
+        This will enable these options in the menu bar: File, Edit, View, Insert, Format, and Table.
 
     5.  If you want to disable the menu bar set the menu bar attribute to **false**.
 
@@ -411,7 +401,5 @@ Role required: admin
     ```
 
     Access the HTML editor and you will see that the new custom style formats \(Bold text, Red text, My-inline\) appear in the formats section of the menu bar.
-
-    \[Omitted image "TinyMCEV6-customized-text-menubar.png"\] Alt text: TinyMCE v6.8.3 Customized text menu bar
 
 

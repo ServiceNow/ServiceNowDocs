@@ -7,8 +7,8 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
 
@@ -29,14 +29,14 @@ A processing activity stores the following type of information:
 -   Privacy regulations, policies, risks, controls, and issues related to each processing activity​.
 -   Key stakeholders of the processing activity such as the entity owners and others who are involved in the processing activity.
 
-The following image shows the overview of a processing activity:\[Omitted image "processing-activity-overview.png"\] Alt text: Overview page of a processing activity.
+The following image shows the overview of a processing activity:\[Omitted image "processing-activity-prm-hr-onboarding-sample.png"\] Alt text: Overview of the reports on a processing activity in Privacy management.
 
 **Note:** The policies and controls that appear on the **Overview** page of the processing activity are specific to Privacy Management.
 
--   **[Processing activity hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.md)**  
-Each processing activity involves multiple information objects classified as personal information. These objects exchange data with various other entities, making it essential to establish a data lineage or hierarchy that tracks where personal data is shared. This understanding helps mitigate privacy-related risks.
+-   **[Understanding processing activity hierarchy](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/processing-activity-hierarchy.md)**  
+Track how personal data flows across vendors, applications, and systems within and beyond a processing activity to identify and mitigate privacy-related risks.
 -   **[Hierarchy tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/hierarchy-tab.md)**  
-Use the Hierarchy tab to connect your processing activity to applications, vendors, companies, entities, business processes, and other activities. The Hierarchy tab builds a clear picture of how data moves through your organization.
+The Hierarchy tab connects your processing activity to applications, vendors, companies, entities, business processes, and other activities. It builds a clear picture of how data moves through your organization.
 
 **Parent Topic:**[Exploring Privacy Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/explore-privacy-management.md)
 

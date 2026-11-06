@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: task
-last_updated: "2025-04-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Digital Product Release, IT Service Management]
 ---
@@ -25,6 +25,8 @@ Role required: sn\_dpr\_model.product\_manager
 
 ## About this task
 
+If product-level release settings are configured, only the templates and calendars specified for the product are available during release creation. To configure release settings for a product, see [Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-config-product-release-setting.md).
+
 Releases can follow a timeline-oriented and stage-oriented release process. For more information, see [Release for a product or service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-product-release.md).
 
 For creating a release for multiple products using the wizard, see [Create a release with a wizard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-create-release-guided.md).
@@ -37,15 +39,15 @@ For creating a release for multiple products using the wizard, see [Create a rel
 
 2.  Create a release for a product version from the Release planning page or the Releases list view.
 
-<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d104503e151">
+<table id="choicetable_mxj_fsr_lyb"><thead><tr><th align="left" id="d160905e166">
 
 Option
 
-</th><th align="left" id="d104503e154">
+</th><th align="left" id="d160905e169">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d104503e160">
+</th></tr></thead><tbody><tr><td id="d160905e175">
 
 **From the Release planning page of a product**
 
@@ -54,10 +56,10 @@ Steps
 1.  Select the products and services icon \(\[Omitted image "dpr-icon-products.png"\] Alt text: Products and services icon.\).
 2.  Select a product or service from the list to open.
 3.  Select **Release planning**.
-4.  Select the sub menu icon \(\[Omitted image "dpr-icon-lane-action.png"\] Alt text: Sub menu icon.\) on a version lane and select the **Create release** menu option.
+4.  Select the sub menu icon \(\[Omitted image "dpr-icon-menu.png"\] Alt text: Sub menu icon.\) on a version lane and select the **Create release** menu option.
 
 
-</td></tr><tr><td id="d104503e211">
+</td></tr><tr><td id="d160905e226">
 
 **From the Releases list view**
 
@@ -99,6 +101,12 @@ Steps
 
     You can add or remove artifacts from a release as needed. For more information, see [Manage artifacts in a release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-work-release-artifact.md).
 
+-   If the product has restricted access enabled, the restricted access setting and the product team are copied to the release as the initial release team. Only members of this team can view the release in the workspace. For more information, see [Restricted access for releases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-product-release.md),
 
 **Parent Topic:**[Using Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-using-digital-product-release.md)
+
+**Related topics**  
+
+
+[Configure product-level release settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-config-product-release-setting.md)
 

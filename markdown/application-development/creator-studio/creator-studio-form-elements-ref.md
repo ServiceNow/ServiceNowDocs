@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 5
-breadcrumb: [Creator Studio reference, Creator Studio, Building no-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Reference, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Available question types in Creator Studio
@@ -110,6 +110,24 @@ Preconfigured questions that you can't change.Admins create question sets in Ser
 -   You can't change an existing question into a question set. To include a question set on a form, you must newly add it to the form.
 -   If you put two checkbox questions side-by-side on a form, they make a section. You can't add other types of questions to that section.
 
+</td></tr><tr><td>
+
+Attachment
+
+</td><td>
+
+Question where users add an attachment.**Note:** The **Attachment** question differs from the **Add attachment** option for the overall form. You can use the **Add attachment** question to include in dynamic behavior, for example appearing when a user answers a **Photograph on badge?** question with `Yes`, enabling them to upload a headshot. For more information on dynamic behavior, see [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-dynamic-behavior.md).
+
+</td></tr><tr><td>
+
+Duration
+
+</td><td>
+
+Question where users specify a length of time.When you add a **Duration** question, you then specify the **Days**, **Hours**, **Minutes**, and **Seconds** that an event will last.
+
+**Note:** You can also add duration for dynamic behavior questions. For more information, see [Make a form change based on responses in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-dynamic-behavior.md).
+
 </td></tr></tbody>
 </table>## Types of reference-based question types
 
@@ -198,7 +216,7 @@ Show questions on form
 
 </td><td>
 
-Hide the question from the form by leaving this option unselected.You can use this option to associate data with the form behind the scenes by adding it to the app's underlying table.
+Hide the question from the form by leaving this option unselected.You can use this option to associate data with the form behind the scenes by adding it to the app's table.
 
 </td><td>
 

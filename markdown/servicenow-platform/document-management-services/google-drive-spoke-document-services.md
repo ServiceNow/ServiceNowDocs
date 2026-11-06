@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Google Drive integration with Document Services, Integrate with Document Services, Multi Provider Document Services Framework, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Integrate the Document Services with Google Drive.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -126,7 +126,7 @@ Connect Document From Google Drive V1
 
 </td><td>
 
-Connects the Google Drive document using the sharable URL for the document and can be tracked under Multi Provider Document Services Framework documents.
+Connects the Google Drive document using the shareable URL for the document and can be tracked under Multi Provider Document Services Framework documents.
 
 </td></tr><tr><td>
 
@@ -213,19 +213,92 @@ Updates the document with the attached content in Google Drive corresponding wit
 
 The Document Services Framework for Google Drive provides actions to automate Document Services tasks when events occurs in your ServiceNow instance. Available actions include:
 
-|Action|Description|
-|------|-----------|
-|Delete document and versions|Deletes the specified document along with versions from Multi Provider document and versions table.|
-|Look Up Incremental Files and Folders|Returns a list of Google Drive files and folders under the given folder ID.|
-|Look Up Files and Folders Stream|Retrieves the list of files and folders under the given folder.|
-|Copy File Revision as Attachment|Copies the given Revision ID for a File ID to any record in ServiceNow.|
-|Delete document version|Deletes the specified versions of a document from Multi Provider document versions table.|
-|Look Up Target Record Existence|Checks for the existence of the target record in the specified target table.|
-|Copy Doc File to Attachment|Copies the Google doc file toServiceNow as an attachment.|
-|Copy Doc Revision as Attachment|Copies the given revision ID for a Google document file ID to any record in ServiceNow.|
-|Get File Type Info|Returns the file type and information for the input mime-type.|
+<table id="table_iqt_zng_yxb"><thead><tr><th>
 
-## Connection and credential alias requirements
+Action
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Delete document and versions
+
+</td><td>
+
+Deletes the specified document along with versions from Multi Provider document and versions table.
+
+</td></tr><tr><td>
+
+Look Up Incremental Files and Folders
+
+</td><td>
+
+-   Returns a list of Google Drive files and folders under the given folder ID.
+-   Retrieves the list of files and folders based on the given search query. Hierarchical search is not supported.
+
+**Note:** Search results may vary due to Google Drive 's indexing behavior.
+
+
+</td></tr><tr><td>
+
+Look Up Files and Folders Stream
+
+</td><td>
+
+Retrieves the list of files and folders under the given folder.
+
+</td></tr><tr><td>
+
+Copy File Revision as Attachment
+
+</td><td>
+
+Copies the given Revision ID for a File ID to any record in ServiceNow.
+
+</td></tr><tr><td>
+
+Delete document version
+
+</td><td>
+
+Deletes the specified versions of a document from Multi Provider document versions table.
+
+</td></tr><tr><td>
+
+Look Up Target Record Existence
+
+</td><td>
+
+Checks for the existence of the target record in the specified target table.
+
+</td></tr><tr><td>
+
+Copy Doc File to Attachment
+
+</td><td>
+
+Copies the Google doc file toServiceNow as an attachment.
+
+</td></tr><tr><td>
+
+Copy Doc Revision as Attachment
+
+</td><td>
+
+Copies the given revision ID for a Google document file ID to any record in ServiceNow.
+
+</td></tr><tr><td>
+
+Get File Type Info
+
+</td><td>
+
+Returns the file type and information for the input mime-type.
+
+</td></tr></tbody>
+</table>## Connection and credential alias requirements
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 

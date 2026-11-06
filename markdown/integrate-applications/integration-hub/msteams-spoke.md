@@ -7,10 +7,10 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 12
 keywords: [AI Agent, Agentic AI]
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Teams Graph Spoke
@@ -19,7 +19,7 @@ The Microsoft Teams Graph spoke manages applications, calendar, teams, channels,
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 **Note:**
 
@@ -34,7 +34,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Teams Graph spoke v4.5.2 is the latest version.
+Microsoft Teams Graph spoke v4.5.2 is the latest version. For version history of the spoke, see [Microsoft Teams Graph Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-teams.html).
 
 ## Supported version
 
@@ -42,10 +42,10 @@ Microsoft Graph REST API v1.0.
 
 ## Spoke dependencies
 
-If you’re having trouble installing the app, ensure that these dependent plugins are installed:
+If you’re having trouble installing the app, confirm that these dependent plugins are installed:
 
 -   ServiceNow Integration Hub Runtime \(com.glide.hub.integration.runtime\)
--   Flow Designer Designer Model \(com.glide.hub.designer\_backend.model\)
+-   Flow Designer Model \(com.glide.hub.designer\_backend.model\)
 -   Complex Object \(com.glide.cobject\)
 -   ServiceNow Integration Hub Action Step - REST \(com.glide.hub.action\_step.rest\)
 -   ServiceNow Integration Hub Action Template - Data Stream \(com.glide.hub.action\_type.datastream\)
@@ -78,7 +78,7 @@ You can perform some actions by using the Microsoft Teams Spoke connection and t
 
 The actions in the following table use the Microsoft Teams Spoke connection and credential alias record. These actions require the delegated permissions.
 
-<table id="table_icr_ql2_zgc"><thead><tr><th>
+<table id="table_lh1_44v_m1c"><thead><tr><th>
 
 Category
 
@@ -703,11 +703,11 @@ TeamSettings.ReadWrite.All, Group.ReadWrite.All, Directory.ReadWrite.All
 |Subscribe Webhook|Creates a webhook subscription for the specified resource.|Application|ChannelMessage.Read.All, Chat.Read.All|
 |Unsubscribe Webhook|Deletes the specified webhook subscription.|Application|ChannelMessage.Read.All, Chat.Read.All|
 
-**Important:** Ensure that you are aware about these default spoke configurations.
+**Important:** Ensure that you’re aware about these default spoke configurations.
 
 -   By default, the grant type is set to **Authorization Code**.
 -   All actions in the Application Management, Channel Management, Chat Management, Notification Management, and Team Management categories, and Look up Schedules action in the Calendar Management category use the **Microsoft Teams Spoke** connection and credential alias and these actions require delegated permissions.
--   The Calendar and Webhook Management spoke actions \(except Look up schedules action in Calendar Management\) use the **Microsoft Teams Graph Client Credentials** connection and credential alias and these actions require application permissions.
+-   The Calendar and Webhook Management spoke actions \(except Lookup schedules action in Calendar Management\) use the **Microsoft Teams Graph Client Credentials** connection and credential alias and these actions require application permissions.
 
 If you want to use the Microsoft Teams Graph Spoke without user interaction, you should change the grant type to **Client Credentials** so that the ServiceNow application can access the Microsoft Teams Graph API without user involvement. For instructions on how to change grant type and the required configurations, see the [Knowledge Base article - KB1635160](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1635160) on [ServiceNow - NOW Support](https://support.servicenow.com/now).
 
@@ -739,12 +739,9 @@ Available AI agents include:
 |Microsoft Teams chat management AI agent|Automates workflows between ServiceNow and Microsoft Teams by providing capabilities such as looking up chats and messages.|
 |Microsoft Teams notification management AI agent|Automates communication between ServiceNow and Microsoft Teams by sending messages, updates, and replies to Microsoft Teams channels. The agent supports actions like 'Post Change Details', 'Post Message', and 'Post Reply to Message' to ensure effective notification management for change requests.|
 |Microsoft Teams team management AI agent|Automates tasks such as creating and managing Teams, adding or removing members, and retrieving team-related information. Enhances team management and communication workflows within an organization.|
-|Microsoft Teams calendar management AI agent|Automates workflows between ServiceNow and Microsoft Teams. Performs actions such as deleting, and retrieving meeting details.|
+|Microsoft Teams calendar management AI agent|Automates workflows between ServiceNow and Microsoft Teams. Provides calendar management capabilities. Performs actions such as deleting, and retrieving meeting details.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

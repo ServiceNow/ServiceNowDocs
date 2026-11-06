@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Prioritize a work order task for Schedule Optimization
@@ -18,9 +18,9 @@ Add penalties and values to a work order task to define the importance of the ta
 
 ## Before you begin
 
-Role required: wm\_dispatcher
-
 An admin must [Configure the policy to enable dispatchers to prioritize work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/configure-the-policy-to-enable-dispatchers-to-prioritize-work-order-tasks.md).
+
+Role required: wm\_dispatcher
 
 ## About this task
 
@@ -40,6 +40,4 @@ Optimization penalties and values are only used for Schedule Optimization.
 
 5.  Select **Update**.
 
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

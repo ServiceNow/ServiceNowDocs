@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/disconnecting\_sold\_products.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Disconnecting sold products
@@ -47,7 +47,9 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 5.  Select **Disconnect**.
 
-6.  In the Disconnect sold product pop-up window, enter when you want the disconnection to start in the **Start date and time** field and the reason why you want to disconnect the product in the **Reason for disconnection** field.
+6.  In the Disconnect sold product pop-up window, enter when you want the disconnection to start in the **Start date and time** field.
+
+    Enter the reason why you want to disconnect the product in the **Reason for disconnection** field.
 
 7.  Select **Submit**.
 
@@ -60,11 +62,13 @@ An order for a disconnection is created. After the order is fulfilled, the sold 
 
 Create an order to disconnect multiple sold products and their hierarchy on the CRM Workspace.
 
+### Before you begin
+
+Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
+
 ### About this task
 
 After an order is created and marked **Complete**, the order to sold product flow is triggered after fulfillment. This flow creates sold products on the sold product table \(sn\_install\_base\_sold\_product\).
-
-Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 ### Procedure
 
@@ -76,7 +80,7 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 4.  In the Sold Products related list, select the sold products that you want to disconnect.
 
-    **Note:** You can do a **Disconnect** action only on the root sold product with a product offering only if it is in the **Active** state. The **Disconnect** option is inactive if you select a child-sold product.
+    **Note:** You can do a **Disconnect** action only on the root sold product with a product offering only if it is in the **Active** state. The **Disconnect** option is disabled if you select a child-sold product.
 
 5.  Select **Disconnect**.
 
@@ -89,5 +93,5 @@ Role required: sn\_ind\_tmt\_orm.order\_admin or sn\_ind\_tmt\_orm.order\_agent
 
 ### Result
 
-An order for disconnecting the sold products is created, while order line items are created in a synchronized manner.
+An order for disconnecting the sold products is created, while order line items are created in an aysnchronized manner.
 

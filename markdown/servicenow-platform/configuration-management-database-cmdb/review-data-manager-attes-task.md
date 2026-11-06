@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [CIs attestation, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CIs attestation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Review attestation tasks in CMDB Workspace
@@ -24,26 +24,26 @@ For managers, tasks of direct reports are included, and for user group managers,
 
 Role required:
 
--   CMDB administrator: data\_manager\_admin, sn\_cmdb\_admin \(already includes the data\_manager\_admin role\)
+-   CMDB administrator: data\_manager\_admin or sn\_cmdb\_admin
 -   CI and service owner or manager: data\_manager\_user, sn\_cmdb\_user \(already includes the data\_manager\_user role\)
 
 Canceling an attestation task is available only for tasks that are in the 'In progress' or 'Not started' status, and the required role is data\_manager\_admin or sn\_cmdb\_admin.
 
 ## About this task
 
-After you receive notifications about attestation tasks assigned to you, check the actual IT infrastructure or applications that you own, and then process the CIs in the task accordingly. Initially, all the CIs in the attestation task are listed in a Not Yet Reviewed list and therefore require a review. Attested CIs are then moved to an Attested CIs list, while CIs you reject are moved to a separate Rejected CIs list. After processing all the CIs in the task, you can submit and complete the task. For general information about attestation and the flow of attestation, see [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md).
+After you receive notifications about CMDB Data Manager attestation tasks assigned to you, check the actual IT infrastructure or applications that you own, and then process the CIs in the task accordingly. Initially, all the CIs in the attestation task are listed in a Not Yet Reviewed list and therefore require a review. Attested CIs are then moved to an Attested CIs list, while CIs you reject are moved to a separate Rejected CIs list. After processing all the CIs in the task, you can submit and complete the task. For general information about attestation and the flow of attestation, see [CIs attestation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/attesting-cis.md).
 
 As you process the CIs in the task, only the fields **Attestation Status** \(values: **Attested**, **Rejected**, **Not Yet Reviewed**\), **Attested By**, and **Attested Date** are automatically updated. Also, details of your activities are captured in the activity stream of the task.
 
-Attesting tasks is performed in the My Work view in the [CMDB Workspace store app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace.md).
-
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **My Work** in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace**. In the navigation panel select the Tasks icon, and then, in the Tasks navigation panel select **Attestation**.
 
     Any attestation tasks that are assigned to you or to assignment groups you belong to, appear in the **Attestation tasks** tab in the My tasks section. Attestation tasks are associated with details such as the due dates and short descriptions for those tasks. Assignment groups that you are a member of, are also listed.
 
-2.  Select a task to reviewfrom the Attestation tasks list.For a bulk review, select multiple tasks or check the box next to 'Configuration Item' to review all the tasks in the list.
+2.  Select a task to review from the Attestation tasks list.
+
+    For a bulk review, select multiple tasks or check the box next to 'Configuration Item' to review all the tasks in the list.
 
 3.  Review details of a task:
 
@@ -81,9 +81,9 @@ Attesting tasks is performed in the My Work view in the [CMDB Workspace store ap
 
     Use the following cards on the right hand bar to get help and status:
 
-    -   Select Attestation actions \(\[Omitted image "workspace-attestation-actions.png"\] Alt text: CMDB Workspace attestation actions.\) to get help on the possible actions you can take while reviewing CIs.
-    -   Select Attestation status \(\[Omitted image "workspace-attestation-status.png"\] Alt text: CMDB Workspace attestation status.\) to see your progress in reviewing and attesting CIs.
-    -   Select Smart detection status \(\[Omitted image "workspace-auto-attest-status.png"\] Alt text: CMDB Workspace smart detection status.\) to see if any CIs are candidates for auto-attestation and to apply auto-attestation if applicable.
+    -   Select Attestation actions \(\[Omitted image "workspace-attestation-actions.png"\] Alt text: Workspace attestation actions.\) to get help on the possible actions you can take while reviewing CIs.
+    -   Select Attestation status \(\[Omitted image "workspace-attestation-status.png"\] Alt text: Workspace attestation status.\) to see your progress in reviewing and attesting CIs.
+    -   Select Smart detection status \(\[Omitted image "workspace-auto-attest-status.png"\] Alt text: Workspace smart detection status.\) to see if any CIs are candidates for auto-attestation and to apply auto-attestation if applicable.
 6.  In the **Details** tab of the Attestation Review CIs pane, select the CIs that you are ready to process and select an action to apply to all selected CIs.
 
     -   Select the CIs that you can attest their existence and select **Attest** to move them to the Attested list.
@@ -96,13 +96,13 @@ Attesting tasks is performed in the My Work view in the [CMDB Workspace store ap
 
     -   Select the CIs that shouldn't be included in this task and in future Data Manager attestation policies, and select **Exclude**. In the Confirm excluding CIs dialog box, enter an explanation and then select **Proceed**.
 
-        Those excluded CIs are added to the exclusion list of CMDB Data Manager attestation policies. For more information, see [Manage exclusion lists of CMDB Data Manager \(in Core UI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/manage-data-mgr-ci-exclusion-list.md). Only an admin can undo this operation using the CMDB Data Manager.
+        Those excluded CIs are added to the exclusion list of CMDB Data Manager attestation policies. For more information, see [Manage exclusion lists for CMDB Data Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/data-mgr-manage-ci-exclusion-wrkspc.md). Only an admin can undo this operation using the CMDB Data Manager.
 
     -   Select any CIs that you identify as duplicates of other CIs and select **Remove duplicates from task**. In the Confirm removing duplicate CIs dialog box, enter an explanation and then select **Proceed**.
 
-        Those duplicate CIs are removed from the attestation task and a de-duplication task is generated for them, which is similar to the de-duplication tasks created by the Identification and Reconciliation Engine \(IRE\). For more details about how to process and remediate de-duplication tasks, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
+        Those duplicate CIs are removed from the attestation task and a de-duplication task is generated for them, which is similar to the de-duplication tasks created by the Identification and Reconciliation Engine \(IRE\). For more details about how to process de-duplication tasks to remediate duplicate CIs, see [Duplicate CIs remediation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/de-duplication-tasks.md).
 
         **Note:** Only an admin can undo this operation.
 
-    -   After processing all the CIs in the task, when the Not Yet Reviewed list is empty, the **Submit** button is enabled. Select **Submit**, and then in the Submit attestation dialog box select **Submit** to close the task.
+    -   After processing all the CIs in the task, when the Not Yet Reviewed list is empty, the **Submit** button is enabled. Select **Submit**or the **Submit task** link in the 'Ready to submit' notification, and then in the Submit attestation dialog box select **Submit** to close the task.
 

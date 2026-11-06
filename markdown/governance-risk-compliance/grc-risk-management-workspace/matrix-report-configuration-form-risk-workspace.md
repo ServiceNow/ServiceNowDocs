@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: reference
-last_updated: "2025-07-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create Matrix report configuration for Risk Workspace, Matrix report in Risk Workspace, Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---

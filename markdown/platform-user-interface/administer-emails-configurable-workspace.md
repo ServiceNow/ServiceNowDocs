@@ -5,21 +5,29 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/administer-emails-configurable-workspace.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Administering emails in Configurable Workspace
 
 Administer email features that aren't configured in UI Builder with components.
 
--   **[Set up email templates in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-email-templates.md)**
+-   **[Digital signature and encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/config-email-digital-signature-encryption.md)**
 
-    Use email templates to quickly create emails for common issues.
+    Configure emails that send a digital signature to verify you as an authentic sender and an email encryption to certify authentic recipients.
 
--   **[Set up response templates in Configurable Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-response-templates.md)**
+-   **[Configure an email template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-email-templates.md)**
 
-    Enable response templates in journal fields.
+    Configure an email template in Configurable Workspace to quickly create emails for common issues.
+
+-   **[Configure a collapsible template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-collapsible-email-templates.md)**
+
+    Configure an email template with collapsed content by hiding it behind an ellipsis.
+
+-   **[Disable response templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-response-templates.md)**
+
+    Disable response templates for journal fields in Configurable Workspace.
 
 

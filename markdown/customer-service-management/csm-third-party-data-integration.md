@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-third-party-data-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace features, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Third-party data integration for CSM
@@ -29,7 +29,7 @@ The following plugins are required to implement third-party data integration:
 -   Remote Tables \(com.glide.script.vtable\): Adds the Remote Table Script Definition table \(sys\_script\_vtable\) and adds the **Remote Table** flag to the Tables \(sys\_db\_object\) table. Active on the base instance.
 -   OAuth 2.0 \(com.snc.platform.security.oauth\): Adds the OAuth-related tables and extension points needed to support **OAuth 2.0 –JWT Bearer grant type**. Active on the base instance.
 -   IntegrationHub \(com.glide.hub.integrations\): Provides the ability to build reusable integrations with third-party systems and call them from anywhere in the platform. IntegrationHub requires subscription and is available in several subscription packages. Different packages allow for different levels of automation and provide different subsets of predefined third-party integrations, or spokes. For more information, see [Request IntegrationHub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/request-ih-overview.md) and [IntegrationHub available spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/spokes-list.md).
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 
 ## Configuring third-party data integration
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configure your Password Reset process, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure your Password Reset process, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Configure the required strength for passwords
@@ -106,6 +106,8 @@ Default settings:-   Selected for local ServiceNow credential stores
 **Related topics**  
 
 
+[Calculating the security score for password reset process]()
+
 [Configure password expiration reminder]()
 
 [Credential stores for Password Reset]()
@@ -116,7 +118,7 @@ Default settings:-   Selected for local ServiceNow credential stores
 
 [Enable users to enroll for Password Reset]()
 
-[Configuring Password Reset properties]()
+[Configure Password Reset properties]()
 
 [Send email to remind users to enroll for Password Reset]()
 

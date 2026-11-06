@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/rollup-mitre-att-ck-information-from-child-security-incidents.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Using MITRE-ATT&amp;CK to detect and analyze threats, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -30,19 +30,15 @@ If you have enabled [automatic roll up of MITRE-ATT&amp;CK information from chil
 
 2.  Select the parent security incident that you want to enrich with the child MITRE-ATT&amp;CK information.
 
-3.  Click **Show All Related Lists** and the **Child Security Incidents** tab.
+3.  Select **Show All Related Lists** and the **Child Security Incidents** tab.
 
-4.  Select the child security incident and then from the Actions menu, click **Roll up MITRE ATT&amp;CK Information to SI**.
+4.  Select the child security incident and then from the Actions menu, select **Roll up MITRE ATT&amp;CK Information to SI**.
 
-    You can click **Show MITRE ATT&amp;CK information** to view the child security incident's MITRE information before you roll up the MITRE ATT&amp;CK information and MITRE ATLAS information.
+    You can select **Show MITRE ATT&amp;CK information** to view the child security incident's MITRE information before you roll up the MITRE ATT&amp;CK information and MITRE ATLAS information.
 
-5.  Click **Reload** to confirm the changes.
+5.  Select **Reload** to confirm the changes.
 
-6.  Click the **MITRE ATT&amp;CK Card** to view the origin of techniques.
-
-    The following illustration shows how to select child security incident and roll up the MITRE-ATT&amp;CK information to the parent security incident.\[Omitted image "mitre-rollup-information-child-si.gif"\] Alt text: This illustration shows how to roll up MITRE informtion from a child security incident to a parent security incident.
-
-    You can view the MITRE-ATT&amp;CK Card to confirm that the child security incident MITRE-ATT&amp;CK information has been rolled up to the parent security incident.
+6.  Select **MITRE ATT&amp;CK Card** to view the origin of techniques.
 
 
 **Parent Topic:**[Using MITRE-ATT&amp;CK to detect and analyze threats](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/mitre-att-ck-features.md)

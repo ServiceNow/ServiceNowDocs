@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/integrate-voice-va.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Integrating Voice with other applications, ServiceNow Voice, Manage
 
 ServiceNow® Voice with Virtual Agent allows you to use the ServiceNow Virtual Agent conversation as an IVR \(Interactive Voice Response\) in phone and to use the existing ServiceNow Advanced Work Assignment to find an agent in case of an escalation and allows agents to work in ServiceNow Workspace to manage the incoming cases on the queue.
 
-The ServiceNow Voice for Virtual Agent application provides seamless interactive voice response \(IVR\) and calling experiences for your customers and agents when integrated with a Contact Center In Yokohama release, we have Amazon Connect, a pre-built adapter integrating the ServiceNow Voice with Virtual Agent to provide the robust capabilities of the Virtual Agent application.
+The ServiceNow Voice for Virtual Agent application provides seamless interactive voice response \(IVR\) and calling experiences for your customers and agents when integrated with a Contact Center In Brazil release, we have Amazon Connect, a pre-built adapter integrating the ServiceNow Voice with Virtual Agent to provide the robust capabilities of the Virtual Agent application.
 
 To use our pre-built adapter connector with ServiceNow Voice with Virtual Agent, install the Virtual Agent API \(sn\_va\_as\_service\) plugin.
 

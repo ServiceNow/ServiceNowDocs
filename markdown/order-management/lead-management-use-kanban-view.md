@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-use-kanban-view.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lead Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Manage leads using Kanban view
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Leads** &gt; **All**.
 
@@ -30,6 +30,15 @@ Role required: sales\_agent
 
     -   To change a lead stage, drag the lead card from one state and drop it into another state.
     -   To view the leads by different categories, such as industry, source, and reason, select **Group by:** drop-down menu on the page.
-    -   You can take various actions for your leads, such as creating a lead task, assigning a lead, and composing an email by selecting the three vertical dots \(\[Omitted image "icon-three-dots.png"\]\) either on a lead card or vertical leads stage header.
+    -   You can take various actions for your leads, such as creating a lead task, assigning a lead, and composing an email by selecting the three vertical dots \[Omitted image "icon-three-dots.png"\] Alt text: either on a lead card or vertical leads stage header.
     -   To create a new lead directly from this page, select **New** button. To learn more, see [Create a lead](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-new-lead.md).
+
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

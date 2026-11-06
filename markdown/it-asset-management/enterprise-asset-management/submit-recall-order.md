@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Submit a recall order for your enterprise assets
@@ -146,9 +146,6 @@ Additional information about the recall order.
 ## Result
 
 -   The **Acknowledge Recall** button appears.
-
-    **Note:** The **Acknowledge Recall** button is available with Enterprise Asset Management version 9.0 and later.
-
 -   The **Recalled Assets** and **Recalled Tasks** tabs are shown.
 
 ## What to do next

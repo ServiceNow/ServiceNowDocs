@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/agent-init-messg-csm-cws.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Using CRM Workspace in Customer Service Management, Manage cases, Use, Customer Service Management]
 ---
 
 # Initiate messaging conversations from CRM Workspace
@@ -35,7 +35,7 @@ Role required: agent\_workspace\_user
 
 4.  On the Details tab of the workspace form, fill in the details for a new interaction or modify the details.
 
-    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-agent-workspace-agent-actions.md).
+    For more information about the form, see [CSM workspace form features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-workspace-agent-actions.md).
 
     **Note:** The user profile associated with an interaction is configured by an administrator by using the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point. The AgentMessagingInteractionUserDocument script include that implements the sn\_agent\_initiated.AgentInitiatedMessagingUserDocument extension point is available for the Agent-Initiated Messaging Interface application. For more information, see [Associate user profiles with agent-initiated messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-init-messg-user-record-ext-pt.md).
 
@@ -57,7 +57,7 @@ Channel
 
 </td><td>
 
-Messaging channel that is installed with the application available for a service channel.For example, select **SMS** to send an SMS message. The SMS messaging channel is available when an administrator has installed the [Conversational SMS service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/install-conversational-sms.md) application.
+Messaging channel that is installed with the application available for a service channel.For example, select **SMS** to send an SMS message. The SMS messaging channel is available when an administrator has installed the Conversational SMS service channel application.
 
  An administrator can configure whether a messaging channel is available for agent-initiated messages. For more information, see [Determine whether messaging channels are available for agent-initiated messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/agent-init-messg-channel-ext-pt.md).
 

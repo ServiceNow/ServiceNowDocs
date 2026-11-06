@@ -1,5 +1,5 @@
 ---
-title: Choose between record producers and catalog items
+title: Choosing between record producers and catalog items
 description: Both the record producer and standard catalog item in App Engine Studio \(AES\) create experiences where users can submit requests through a service portal. However, record producers are more extensible, and enable users to create a record in any table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-studio/record-producer-vs-catalog-item.html
@@ -7,12 +7,12 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Add an application experience, Enhance your app, Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Add an experience, Enhance your app, Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
-# Choose between record producers and catalog items
+# Choosing between record producers and catalog items
 
 Both the record producer and standard catalog item in App Engine Studio \(AES\) create experiences where users can submit requests through a service portal. However, record producers are more extensible, and enable users to create a record in any table.
 

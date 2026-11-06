@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -31,6 +31,8 @@ After creating a move project, work on the project using the move scheduler. The
 
 
 [Creating custom lists on Workplace Central]()
+
+[Working with Space Planning]()
 
 [Working with Space Optimization]()
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Configure the Knowledge Management Service Portal, Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -133,4 +133,33 @@ Article view page widgets:
 
     Displays a list of knowledge articles that users found most useful.
 
+
+-   **[Activate the Knowledge Management Service Portal plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/activate-km-service-portal-plugin.md)**  
+The Knowledge Management - Service Portal plugin \(com.snc.knowledge\_serviceportal\) is active by default for customers on Madrid and later releases. Existing customers on release versions prior to Madrid can activate the plugin, if required.
+-   **[Configure search widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-search-widget-options.md)**  
+Configure widget instance options for the search widgets on the Knowledge Management Service Portal homepage and search results page.
+-   **[Configure knowledge base tile widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-kb-tile-widget-options.md)**  
+Configure widget instance options for the knowledge base tile widgets on the Knowledge Management Service Portal homepage.
+-   **[Configure the home page widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-homepage-widget-options.md)**  
+Configure widget instance options for the widgets used to display popular articles on the Knowledge Management Service Portal homepage.
+-   **[Configure sort widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-search-results-sort-options.md)**  
+Configure widget instance options for the knowledge sort widget on the Knowledge Management Service Portal search results page.
+-   **[Configure article list widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-article-list-widget-options.md)**  
+Configure widget instance options for the article lists on the Knowledge Management Service Portal homepage.
+-   **[Configure search results list widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-search-results-list-options.md)**  
+Configure widget instance options for the results list widget on the Knowledge Management Service Portal search results page.
+-   **[Configure filter facet widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-search-results-filter-facets.md)**  
+Configure widget instance options for the filter facet widgets on the Knowledge Management Service Portal search results page.
+-   **[Configure a user action for the article view page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-user-action-on-article-view.md)**  
+Configure a user action for the Knowledge Management article view page in the Knowledge Management Service Portal.
+-   **[Configure article helpful widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-knowledge-article-helpful.md)**  
+Configure the Knowledge Article Helpful widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
+-   **[Configure article comments instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/config-knowledge-article-comments.md)**  
+Configure the Knowledge Article Comments widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal.
+-   **[Configure related catalog item widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-related-items-widget.md)**  
+Configure the Related Catalog Item widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal. These options relate to the list of catalog items mapped to an article.
+-   **[Configure knowledge related articles widget instance options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configure-related-articles-widget.md)**  
+Configure the Knowledge Related Articles widget instance options for the Knowledge Management article view page in the Knowledge Management Service Portal. These options relate to the list of related articles mapped to an article.
+
+**Parent Topic:**[Configure the Knowledge Management Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/knowledge-management-service-portal.md)
 

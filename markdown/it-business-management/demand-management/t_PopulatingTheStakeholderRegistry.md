@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Set up, Configure, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -24,15 +24,15 @@ Role required: it\_pps\_admin
 
 1.  Navigate to **All** &gt; **Project Administration** &gt; **Settings** &gt; **Stakeholders**.
 
-    You can also scroll to the **Stakeholders** related list on the Demand or Project form and click **New** to create a record.
+    You can also scroll to the **Stakeholders** related list on the Demand or Project form and select **New** to create a record.
 
-2.  Click **New** to create a new record.
+2.  Select **New** to create a record.
 
 3.  On the stakeholder register form, fill in the fields.
 
     For a description of the field names, see [Stakeholder Register Form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/stakeholder-register-form.md).
 
-    **Note:** When adding a user to the stakeholder registry, the combination of the user and the assigned portfolio must be unique. However, there can be more records for the same user but with different portfolio.
+    **Note:** When adding a user to the stakeholder registry, the combination of the user and the assigned portfolio must be unique. However, there can be more records for the same user but with a different portfolio.
 
 
 **Parent Topic:**[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_SettingUpDemandManagement.md)

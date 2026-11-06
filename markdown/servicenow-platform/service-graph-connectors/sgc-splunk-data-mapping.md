@@ -1,5 +1,5 @@
 ---
-title: CMDB classes targeted in the Service Graph Connector for Splunk
+title: Targeted CMDB tables in the Service Graph Connector for Splunk
 description: When you complete setting up the connection, you can configure the integration to periodically pull data. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/service-graph-connectors/sgc-splunk-data-mapping.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Service Graph Connectors
 classification: service-graph-connectors
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Splunk, Service Graph Connectors, Integrating third-party data into CMDB, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CMDB classes targeted in the Service Graph Connector for Splunk
+# Targeted CMDB tables in the Service Graph Connector for Splunk
 
 When you complete setting up the connection, you can configure the integration to periodically pull data. The data is saved in tables that extend from the Configuration item \[cmdb\_ci\] table.
 

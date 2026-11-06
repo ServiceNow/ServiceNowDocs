@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/schedule-mass-jobs.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Encrypting fields and attachments, Using Field Encryption, Field Encryption, Encryption]
 ---
@@ -58,10 +58,10 @@ Job type:-   **Key Migration Context to Module:** Mass migration of Encryption C
 -   **Data Migration Context to Module**: Migrates data encrypted by Encryption Contexts to Encryption Modules
 -   **Mass Decryption Attachment**:Decrypts all encrypted attachments in records for a single table you define in the **Table** field.
 -   **Mass Encryption Attachment**: Encrypts all attachments in records for a single table you define in the **Table** field.
--   **Mass Encryption Module**: Encrypts any pre-existing value in the defined column/field used in the Field Encryption Configuration
+-   **Mass Encryption**: Encrypts any pre-existing value in the defined column/field used in the Field Encryption Configuration
 -   **Mass Decryption Module**: Decrypts any pre-existing value in the defined column/field used in the Field Encryption Configuration with Single Module.
 -   **Mass Decryption Multi Module**: Decrypts any pre-existing value in the defined column/field used in the Field Encryption Configuration with Multiple Module.
--   **Module Rekeying**: Re-encrypts any pre-existing value in the defined column/field used in the Field Encryption Configuration using the current active key for the module.
+-   **Mass Rekeying**: Re-encrypts any pre-existing value in the defined column/field used in the Field Encryption Configuration using the current active key for the module.
 -   **Migrate Attachment Context to Module**: Encrypts any pre-existing attachment on the table defined in the Field Encryption Configuration. Any attachment previously encrypted with a context is re-encrypted with the module.
 
 

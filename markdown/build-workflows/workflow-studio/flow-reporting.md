@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Flow administration, Configuring flows, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Flow administration, Configure flows, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Flow execution details retention
@@ -43,6 +43,8 @@ sys\_flow\_context
 </td><td>
 
 Parent table that stores all Workflow Studio context records and their associated process plans. Context records store the state and references to the data used to run a flow or action. See the child tables for context records in specific states.
+
+ **Warning:** This table doesn't support running custom business rules. Trying to gather state information from this table may cause performance issues or unexpected flow errors.
 
 </td><td>
 

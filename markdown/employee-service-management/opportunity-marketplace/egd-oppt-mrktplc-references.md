@@ -7,9 +7,9 @@ release: yokohama
 product: Opportunity Marketplace
 classification: opportunity-marketplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Opportunity Marketplace, Talent Development, Employee Service Management]
+breadcrumb: [Opportunity Marketplace, Hiring Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Reference Opportunity Marketplace roles and tables
@@ -42,5 +42,5 @@ Admins can view and update some of the opportunity applicant information.
 -   **[Form fields for creating opportunities in Opportunity Marketplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/opportunity-marketplace/egd-oppt-mrktplc-oppty-form-fields.md)**  
 Gigs, projects, and volunteer opportunities have 2 forms with several fields.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[Hiring Experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hiring-experiences-landing.md)
 

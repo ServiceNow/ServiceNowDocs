@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Rotate event tables and alert table cleanup, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Rotate event and alert table for cleanup, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Purge impact status and alert history
@@ -36,12 +36,12 @@ If records are older than 90 days, by default they are purged. If records are re
 -   **[Clean alert history and impact status tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/clean-alert-tables.md)**  
 Schedule jobs to mark and remove old alert records in the Alert History \[em\_alert\_history\] and Impact Status \[em\_impact\_status\] tables, to prevent the tables from becoming overloaded with data.
 
-**Parent Topic:**[Rotate event tables and alert table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
+**Parent Topic:**[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
 
 **Related topics**  
 
 
-[Rotate event tables and alert table cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
+[Rotate event and alert table for cleanup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/rotate-tables-purge-data.md)
 
 [Modify event table rotation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-table-rotation.md)
 

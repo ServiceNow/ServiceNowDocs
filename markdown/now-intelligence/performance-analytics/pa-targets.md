@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Targets and thresholds, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Targets and thresholds, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Indicator targets
@@ -22,7 +22,7 @@ A target can be personal or global. A personal target is visible only to the use
 
 |Platform Analytics experience feature|Equivalent Core UI feature|Global or Personal targets|View or set|
 |-------------------------------------|--------------------------|--------------------------|-----------|
-|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details.md)|[Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|Set and view|
+|[KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/kpi-details.md)|[\(Legacy\) Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_UsePerformanceAnalyticsScorecards.md)|Global and personal|Set and view|
 |[Time series](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-time-series-ac.md) and [Single score](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-sing-sc-ac.md) Platform Analytics data visualizations|[Time series Performance Analytics widgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/time-series-widgets.md)|Global|View only|
 |[Dashboards in Platform Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/analytics-center-dashboards.md) containing time series or single score data visualizations that show targets|[Responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/dashboards-landing-page.md) containing Time series Performance Analytics widgets that show targets|Global|View only|
 |[Proactive analytics insights cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/proactive-analytics/proactive-analytics.md) on Platform Analytics dashboards, which show targets being met or breached|No equivalent|Global|View only|
@@ -47,7 +47,7 @@ Role required: pa\_target\_admin to create global targets that are visible to al
     -   Open the Analytics Hub for an indicator.
     -   If you are working in the Platform Analytics experience, open KPI Details for an indicator. For more information, see [Create a target in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-kpi-details-targets.md).
 
-        **Note:** KPI Details gives you the additional option to set targets in bulk for multiple breakdown elements. For more information, see [Add targets for multiple breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-multiple-targets.md).
+        **Note:** KPI Details gives you the additional option to set targets in bulk for multiple breakdown elements. For more information, see [Add a target to multiple breakdown elements in KPI Details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-multiple-targets.md).
 
 2.  To limit the target to a subset of the scores, select a breakdown and a breakdown element.
 
@@ -172,7 +172,7 @@ You now have several options:
 
 Select which users receive notifications. Notifications are sent when a target is achieved or is expected to be achieved within 14 days. For more information, see [Configure which users receive a target notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/pa-targets.md).
 
-You can also nominate responsible users for targets in KPI Details. For more information, see [Responsibility for global indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/responsibiity-targets-kpi-details.md).
+You can also nominate responsible users for targets in KPI Details. For more information, see [Responsibility for indicator targets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/responsibiity-targets-kpi-details.md).
 
 **Related topics**  
 
@@ -195,7 +195,7 @@ For example, if you want to filter the number of open incidents, the scores for 
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **System** &gt; **Target Color Schemes**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Color Settings** &gt; **Target Color Schemes**.
 
     You have several target color schemes provided with the base system.
 
@@ -211,7 +211,7 @@ For example, if you want to filter the number of open incidents, the scores for 
 
 5.  Click **Submit**.
 
-    A **Default indicator target color scheme** can be set in **Performance Analytics** &gt; **System** &gt; **Properties**. This is used when no color scheme has been selected for an indicator [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md).
+    A **Default indicator target color scheme** can be set in **Platform Analytics Administration** &gt; **Properties** &gt; **PA Properties**. This is used when no color scheme has been selected for an indicator [target](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 
 ## Add a target for all elements of a breakdown
@@ -230,7 +230,7 @@ For example, you can set a target on an Incident indicator that applies separate
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Targets**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Targets**.
 
 2.  Select the **Indicator** you want to set the target for.
 
@@ -265,7 +265,7 @@ This functionality applies to global targets only. For personal targets, the tar
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Targets**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Indicators** &gt; **Targets**.
 
 2.  Select a target.
 

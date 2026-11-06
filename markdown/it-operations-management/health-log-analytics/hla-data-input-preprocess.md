@@ -1,29 +1,33 @@
 ---
-title: Edit raw log data before processing
-description: You can modify raw log data and drop or break up log messages before they are processed in the MID Server, and therefore before Health Log Analytics maps and structures it. For example, you could prevent sensitive data from reaching the system by replacing user names and passwords with an asterisk \(\*\).
+title: Edit raw log data before processing in Health Log Analytics
+description: Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-data-input-preprocess.html
 release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [ServiceNow, Health Log Analytics, HLA, change raw log data, edit raw log messages, user names, passwords, disable raw log samples]
-breadcrumb: [Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# Edit raw log data before processing
+# Edit raw log data before processing in Health Log Analytics
 
-You can modify raw log data and drop or break up log messages before they are processed in the MID Server, and therefore before Health Log Analytics maps and structures it. For example, you could prevent sensitive data from reaching the system by replacing user names and passwords with an asterisk \(\*\).
+Use the Data Input Preprocessor to filter, split, or sanitize raw log data before it is treated in the MID Server and mapped and structured by Health Log Analytics.
 
 ## Before you begin
 
 Role required: evt\_mgmt\_admin
 
+## About this task
+
+Define a JavaScript function to preprocess your raw log data before it reaches Health Log Analytics. For example, you can drop irrelevant or redundant messages to reduce log volume. You can also split multi-event log lines into discrete messages for accurate mapping or sanitize sensitive or personally identifiable information so that it never enters the ServiceNow instance.
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Data Input** &gt; **Data Input Preprocessor**.
+1.  Navigate to **All** &gt; **Health Log Analytics** &gt; **Data Input Preprocessor**.
 
 2.  Open a record.
 
@@ -41,7 +45,7 @@ Role required: evt\_mgmt\_admin
 
     3.  Note how the JavaScript function affects the log lines.
 
-5.  In the **Raw input samples** field, choose a log sample that will show the effect of your new JavaScript function on log lines when you test it.
+5.  In the **Raw input samples** field, choose a log sample that will show the effect of the new JavaScript function you're going to define on log lines when you test it.
 
 6.  Define a JavaScript function that modifies your raw log data before Health Log Analytics maps and structures it.
 
@@ -96,7 +100,7 @@ Object that contains the event stream. To access the event stream, call the meta
             |splitEvents|Array of log messages after the JavaScript function has divided the original message.|
 
         -   To discard a log message, call `return drop()`.
-    2.  Test the JavaScript function by selecting **Test** and viewing the outcome on your log sample in related lists.
+    2.  Test your JavaScript function by selecting **Test** and viewing the outcome on the log sample in related lists.
 
         |Tab|Description|
         |---|-----------|
@@ -119,7 +123,7 @@ Object that contains the event stream. To access the event stream, call the meta
 
 ## Result
 
-When the JavaScript function is published, Health Log Analytics uses it to pre-process your raw log data before mapping and structuring it.
+When the JavaScript function is published, Health Log Analytics uses it to preprocess your raw log data before mapping and structuring it.
 
 The new script is automatically added to the list of JS function templates from which you can choose. This feature is supported in the Health Log Analytics application, Version 20.0.11 - July 2021, available from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
 
@@ -129,5 +133,5 @@ The new script is automatically added to the list of JS function templates from 
 
 Proceed to the **Data Input Mapping** page by selecting the **Go to Mapping** related link. [Map raw data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-mapping.md) that streams into your instance to determine how Health Log Analytics processes it.
 
-**Parent Topic:**[Setting up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
+**Parent Topic:**[Set up Health Log Analytics on your ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-implement.md)
 

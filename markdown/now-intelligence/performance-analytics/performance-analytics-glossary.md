@@ -7,8 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+keywords: [performance analytics]
 breadcrumb: [Reference, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
@@ -22,7 +23,7 @@ Automated breakdowns are based on a breakdown source, which is a set of records 
 
 ## automated indicator
 
-An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. The indicator also specifies a data collection job and any breakdowns to apply.
+An automated indicator uses an indicator source as its data set. The indicator source specifies a table or database view, conditions for filtering records from that source, and the frequency at which you expect to display the data. The indicator applies an aggregator and optional conditions to this data. In classic Performance Analytics, the indicator also specifies a data collection job and any breakdowns to apply.
 
 **Related topics**  
 
@@ -55,6 +56,10 @@ The values for a breakdown. For example, the Priority breakdown may have the ele
 
 A breakdown mapping specifies the relationships between breakdowns and indicator sources. A breakdown mapping references either a field on the indicator source or a script that queries the indicator source.
 
+## breakdown relations
+
+Navigation paths for viewing breakdown scores, by moving from one breakdown element to another breakdown element. Breakdown relations can be between the elements of different breakdowns, or they can be within a hierarchical structure of elements in the same breakdown.
+
 ## breakdown source
 
 A set of records from a table or database view that constitute the unique values, or breakdown elements, of a breakdown source. Can be a bucket group. Multiple breakdowns can use the same breakdown source.
@@ -71,6 +76,14 @@ A set of records from a table or database view that constitute the unique values
 ## bucket group
 
 Gathers continuous data into discrete groups when there is no table field that can serve as breakdown elements. For example, a bucket group might take differences between timestamps and divide them up into hourly periods.
+
+## bucket group mapping
+
+Connects a bucket group to a field on a Data snapshots source, allowing users to group, filter, and analyze indicators using bucketed breakdowns. Map to a Data snapshots calculated field for date/time data.
+
+## calculated field
+
+Shows the difference between two date/time fields on a Data snapshots source table. For example, a calculated field on the Created and Updated fields shows the time difference between when a record was created and the last update made to it. Often requires a [bucket group mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md).
 
 ## contributing indicator
 
@@ -89,6 +102,10 @@ A scheduled job that collects data from one or more indicator sources to produce
 ## data snapshots
 
 An alternative architecture for indicators. This architecture uses a change data capture \(CDC\) process, which captures data changes from configurable tables that are optimized for generating scores and time series at run-time. Data snapshots avoid the need for breakdown matrices, allowing unlimited breakdowns.
+
+## \[score\] forecast
+
+A prediction of future Performance Analytics indicator scores based on past behavior. Visible in time series data visualizations/widgets and KPI Details.
 
 ## formula indicator
 
@@ -116,7 +133,7 @@ The process where you manually define the breakdown elements and the indicator s
 
 ## manual indicator
 
-An indicator that is not associated with an indicator source. An indicator's scores are not generated automatically by a data collection job. Instead, a user populates these indicators by adding scores to the score sheet manually.
+An indicator that is not associated with an indicator source. Its scores are not generated automatically by a data collection job. Instead, you populate these indicators by adding scores to the scoresheet manually.
 
 ## snapshot
 
@@ -128,5 +145,5 @@ The future hoped-for indicator scores that represent goals that your organizatio
 
 ## threshold
 
-The user-defined top or bottom limit of the normal range of scores for an indicator. You can set up an alert to inform you when a threshold is breached and how. For example, you can set up an alert to let you know when a score reaches an all-time high or low.
+The user-defined top or bottom limit of the normal range of scores for an indicator. You can set up an alert to let you know when a threshold is breached and how. For example, you can set up an alert to let you know when a score reaches an all-time high or low.
 

@@ -1,34 +1,34 @@
 ---
 title: Dealer tables
-description: This section explains the dealer tables in Manufacturing Commercial Operations.
+description: The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/dealer-tables.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dealer portal, Data model of Manufacturing Commercial Operations, Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Dealer data model, Data model, Reference, Manufacturing Commercial Operations]
 ---
 
 # Dealer tables
 
-This section explains the dealer tables in Manufacturing Commercial Operations.
+The dealer tables in Manufacturing Commercial Operations store dealer, service organization, and channel partner records.
 
-## Dealer plugin
+## Dealer feature
 
 The dealer \[sn\_dealer\_mgmt\] feature adds or modifies the existing tables:
 
 -   Service Organization \[sn\_customer\_service\_organization\]
 -   Business Location \[sn\_csm\_business\_location\]
 -   Internal Business Location \[sn\_csm\_business\_location\_internal\]
--   External Business Location \[sn\_cms\_business\_location\_external\]
--   Service Organization member \[sn\_cms\_service\_organization\_member\]
--   Service Organization External Staff \[sn\_cms\_svc\_org\_member\_responsibility\]
+-   External Business Location \[sn\_csm\_business\_location\_external\]
+-   Service Organization member \[sn\_csm\_service\_organization\_member\]
+-   Service Organization External Staff \[sn\_csm\_svc\_org\_member\_responsibility\]
 -   Channel Partner \[sn\_prm\_channel\_partner\]
 -   Service Organization External Staff \[sn\_csm\_service\_organization\_external\_staff\]
 -   User \[sys\_user\]
 
-The dealer plugin adds the following tables.
+The dealer feature adds the following tables.
 
 <table id="table_ht5_lmw_t2c"><thead><tr><th>
 
@@ -44,7 +44,7 @@ Dealer\[sn\_dealer\_mgmt\_dealer\]
 
 </td><td>
 
-Stores the sales dealer agent records.
+Stores the dealership records.
 
 </td></tr><tr><td>
 
@@ -64,7 +64,7 @@ Business Location\[sn\_csm\_business\_location\]
 
 </td><td>
 
-Stores business location records. Business location is a type of service organization.
+Stores business location records. A business location is a type of service organization.
 
 </td></tr><tr><td>
 
@@ -124,4 +124,6 @@ Configure the responsibilities of the staff working at service organizations or 
 
 </td></tr></tbody>
 </table>To learn more about the Service Model Foundation, see [Configuring Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/configure-customer-service.md).
+
+**Parent Topic:**[Dealer data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/dealer-data-model-overview.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Reports and dashboards, Enterprise Agile Planning, Strategic Planni
 The Agile Team dashboard provides you with sprint progress and team performance details for an Agile team in the Enterprise Agile Planning \(EAP\) workspace.
 
 \[Omitted image "eap-agile-team-dashboard.png"\] Alt text: Agile Team dashboard showing various data visualizations and team performance reports.
+
+Agile Teams whose planning methodology is Kanban see the Kanban Team dashboard on the **Home** tab instead of this dashboard. For more information, see [Kanban Team dashboard in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/kanban-team-dashboard-in-eap.md).
 
 You can use a default dashboard or you can configure a custom dashboard and associate it with your Agile configuration. For more information, see [Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
 
@@ -53,6 +55,8 @@ View the progress and status of your sprint goals, stories, overall progress, an
 
 </td></tr></tbody>
 </table>## Reports
+
+The Sprint burndown and burnup reports use data from the **\[EAP\] Daily Data Collection** scheduled job. This job is inactive by default, so activate it to collect report data. The job runs once a day, so a day without collection has no data point. The job counts a story only when the start and end dates of its sprint include the collection day. A story without story points counts as 0 story points.
 
 <table id="table_dw3_bj5_gbc"><thead><tr><th>
 

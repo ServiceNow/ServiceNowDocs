@@ -1,18 +1,18 @@
 ---
 title: Assign a contact to an asset from the customer portal
-description: Users with the customer administrator role can assign contacts to an asset from the customer portal.
+description: Users with the customer administrator role can assign a contact to an asset from the customer portal.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_AssignContactToAssetCustAdmin.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Assign a contact to an asset from the customer portal
 
-Users with the customer administrator role can assign contacts to an asset from the customer portal.
+Users with the customer administrator role can assign a contact to an asset from the customer portal.
 
 ## Before you begin
 
@@ -26,16 +26,25 @@ Role required: sn\_customerservice.customer\_admin
 
 3.  Select the desired asset.
 
-4.  Select **New** in the **Asset Contacts** related list.
+4.  Select **Asset Contacts** in Related Lists.
 
-    A new Asset Contact form displays. The **Asset** field displays the selected asset and is read-only.
+5.  Select **New** in Asset Contacts.
 
-5.  Select a **Contact**.
+    This displays a new Asset Contact form. The **Asset** field displays the selected asset and is read-only.
+
+6.  Select a **Contact**.
 
     The contacts available for selection are the contacts from the asset's account.
 
-6.  Select **Submit**.
+7.  Select **Save**.
 
     The contact is added to the **Asset Contacts** related list.
 
+
+**Related topics**  
+
+
+[View asset information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ViewAssetAndProductInformation.md)
+
+[Create a customer contact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/c_ManageUsersFromCustomerPortal.md)
 

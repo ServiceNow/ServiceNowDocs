@@ -1,20 +1,22 @@
 ---
-title: Use Proactive Code Check scanning
+title: Use Proactive Code Check for the Impact Store Application
 description: Developers can identify issues and prevent defects before they are deployed to production.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/install-proactive-code-check.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-06"
-reading_time_minutes: 1
-breadcrumb: [Impact Proactive Code Check, Impact Platform Health, Using Impact Store Application, Impact Store Application, Impact]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Proactive Code Check, General reference, Impact reference, Impact]
 ---
 
-# Use Proactive Code Check scanning
+# Use Proactive Code Check for the Impact Store Application
 
 Developers can identify issues and prevent defects before they are deployed to production.
 
 ## Before you begin
+
+**Note:** Starting with Impact Zurich version 6.0.8 ServiceNow Store release, Proactive Code Check is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Developers execute Proactive Code Check \(PCC\) on update sets in development in non-production instances. PCC displays a list of identified findings for the update set related list with details such as type, severity, and location. Filters and sorting options for the findings are available, also the ability to directly open the individual finding record to resolve the issues found in the scan report.
 
@@ -30,13 +32,11 @@ Role required: admin
 
     The Customer Updates tab displays the pending development changes to be pushed to the production instance.
 
-2.  Select the **Proactive Code Check** UI action to initiate the scan.\[Omitted image "pcc-progress-bar.png"\] Alt text: The Proactive Code Check UI button.
+2.  Select the **Proactive Code Check** UI action to initiate the scan.
 
     A progress bar displays that also includes the total number of warnings, errors, and findings.
 
 3.  Select **Go to Result/Refresh** the current update set form to view findings  in the related list.
-
-    \[Omitted image "pcc-related-findings-list.png"\] Alt text: The PCC scan findings results table.
 
     The Scan Findings are displayed in a table. You can review the system check for background information for a particular result or link externally to a KB article that explains resolution and configuration details.
 
@@ -49,5 +49,5 @@ Role required: admin
     New findings are referenced to the specific Update Set from which they originated, including findings related to child update sets, allowing for easy navigation between findings and the update set in the user interface.
 
 
-**Parent Topic:**[Impact Proactive Code Check](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
+**Parent Topic:**[Proactive Code Check for the Impact Store Application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/proactive-code-check.md)
 

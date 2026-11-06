@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/delta-xanadu-yokohama/yokohama-xanadu-api-release-notes.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-10-09"
-reading_time_minutes: 11
+last_updated: "2026-11-06"
+reading_time_minutes: 14
 breadcrumb: [Products combined by family]
 ---
 
@@ -301,6 +301,252 @@ Yokohama
 </td><td>
 
 <table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Class
+
+</th><th>
+
+Methods
+
+</th></tr></thead><tbody><tr><td>
+
+Lead Management
+
+</td><td>
+
+v3.0
+
+</td><td>
+
+[LeadAPIHelperOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIHelperOOBAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   getJSONFromGR\(\)
+-   getLeadsJSON\(\)
+-   getTransformedLead\(\)
+
+</td></tr><tr><td>
+
+Lead Management
+
+</td><td>
+
+v3.0
+
+</td><td>
+
+[LeadAPIProcessUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIProcessUtilOOBAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   processCreateLead\(\)
+-   processGetAllLeads\(\)
+-   processGrtLeadById\(\)
+-   processUpdateLead\(\)
+
+</td></tr><tr><td>
+
+Lead Management
+
+</td><td>
+
+v3.0
+
+</td><td>
+
+[LeadAPIValidationUtilOOB - Scoped](https://www.servicenow.com/docs/access?context=LeadAPIValidationUtilOOBAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   validateLeadObjectForPatchCall\(\)
+-   validateLeadObjectForPostCall\(\)
+
+</td></tr><tr><td>
+
+Sales and Service API Core
+
+</td><td>
+
+7.0.0
+
+</td><td>
+
+[IBQConfigBase API - Scoped](https://www.servicenow.com/docs/access?context=IBQConfigBaseAPIBoth&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   generateParentRecord\(\)
+-   getRunMode\(\)
+-   processInboundQueueRequest\(\)
+
+</td></tr><tr><td>
+
+Order Management
+
+</td><td>
+
+v12.5.0
+
+</td><td>
+
+[OrderGuide - Scoped](https://www.servicenow.com/docs/access?context=OrderGuideScopedAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+isOrderInDraftState\(\)
+
+</td></tr></tbody>
+</table>|Application|App Version|Class|Methods|
+|-----------|-----------|-----|-------|
+|Customer Service Management|v1.2|[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)|setICContext\(\)|
+|Mobile SDK|v2.9.0|[NowChatService class - Android](https://www.servicenow.com/docs/access?context=NowChatServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowWebService class - Android](https://www.servicenow.com/docs/access?context=NowWebServiceAndroidAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowChatService class - iOS](https://www.servicenow.com/docs/access?context=NowChatServiceiOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowChatServiceDelegate protocol - iOS](https://www.servicenow.com/docs/access?context=NowChatServiceDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|chatService\(\_chatService: NowChatService, systemThemeDidChange traitCollection: UITraitCollection\)|
+|Mobile SDK|v2.9.0|[NowWebViewController class - iOS](https://www.servicenow.com/docs/access?context=NWebViewControlleriOSAPI&family=yokohama&ft:locale=en-US)|updateTheme\(\)|
+|Mobile SDK|v2.9.0|[NowWebViewControllerDelegate protocol - iOS](https://www.servicenow.com/docs/access?context=NWViewControllerDelegateiOSProtocol&family=yokohama&ft:locale=en-US)|nowWebViewController\(\_ nowWebViewController: NowWebViewController, systemThemeDidChange traitCollection: UITraitCollection\)|
+
+<table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+API
+
+</th><th>
+
+Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Accounts Payable Operations
+
+</td><td>
+
+v2.0.0
+
+</td><td>
+
+[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   POST /sn\_spend\_intg/ap\_invoice/xml
+
+</td></tr><tr><td>
+
+Expanded Product Model and Asset Classes
+
+</td><td>
+
+v1.0
+
+</td><td>
+
+[AI Assets API](https://www.servicenow.com/docs/access?context=ai-assets-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   GET /sn\_ent/asset/ai\_dataset/\{sys\_id\}
+-   GET /sn\_ent/asset/ai\_model/\{sys\_id\}
+-   GET /sn\_ent/asset/ai\_prompt/\{sys\_id\}
+-   GET /sn\_ent/asset/ai\_system/\{sys\_id\}
+-   POST /sn\_ent/asset/ai\_dataset
+-   POST sn\_ent/asset/ai\_model
+-   POST /sn\_ent/asset/ai\_prompt
+-   POST /sn\_ent/asset/ai\_system
+-   PUT /sn\_ent/asset/ai\_dataset/\{sys\_id\}
+-   PUT /sn\_ent/asset/ai\_model/\{sys\_id\}
+-   PUT /sn\_ent/asset/ai\_prompt/\{sys\_id\}
+-   PUT /sn\_ent/asset/ai\_system/\{sys\_id\}
+
+</td></tr><tr><td>
+
+Customer Contracts and Entitlements
+
+</td><td>
+
+v6.0
+
+</td><td>
+
+[Service Contract API](https://www.servicenow.com/docs/access?context=servicecontract-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   POST /sn\_pss\_core/servicecontract
+-   GET /sn\_pss\_core/servicecontract/\{id\}
+-   POST /sn\_pss\_core/servicecontract/contractline
+-   GET /sn\_pss\_core/servicecontract/contractline/\{id\}
+
+</td></tr><tr><td>
+
+Customer Contracts and Entitlements
+
+</td><td>
+
+v6.0
+
+</td><td>
+
+[Verify Entitlements API](https://www.servicenow.com/docs/access?context=verifyentitlements-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+GET /sn\_ent\_verify/verifyentitlements
+
+</td></tr><tr><td>
+
+Lead Management
+
+</td><td>
+
+v3.0
+
+</td><td>
+
+[lead API](https://www.servicenow.com/docs/access?context=lead-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   GET /sn\_lead\_mgmt\_core/lead
+-   GET /sn\_lead\_mgmt\_core/lead/\{sys\_id\}
+-   PATCH /sn\_lead\_mgmt\_core/lead/\{sys\_id\}
+-   POST /sn\_lead\_mgmt\_core/lead
+
+</td></tr><tr><td>
+
+Sales Customer Relationship Management
+
+</td><td>
+
+v4.0
+
+</td><td>
+
+[Sales Agreement API](https://www.servicenow.com/docs/access?context=sales_agreement-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+-   GET /sn\_sales\_agmt\_core/salesagreement /\{id\}
+-   POST /sn\_sales\_agmt\_core/salesagreement 
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
 
 Class
 
@@ -1056,7 +1302,271 @@ Yokohama
 
 </td><td>
 
+|Application|App Version|Class|Methods|
+|-----------|-----------|-----|-------|
+|ATF Test Generator and Cloud Runner|2.7.2|[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://www.servicenow.com/docs/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)|Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.|
+
 <table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Class
+
+</th><th>
+
+Methods
+
+</th></tr></thead><tbody><tr><td>
+
+Lead to Cash Core
+
+</td><td>
+
+V1.4
+
+</td><td>
+
+[LeadtoCashCore - Scoped](https://www.servicenow.com/docs/access?context=LeadToCashCoreAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Enhanced the performance of the Commit Instance API to improve number generation for the number field:-   effect\(\): The **\_records\_count** return object is added to provide details about newly inserted records for a particular table, such as the table name and number of inserted records.
+-   commitInstance\(\): A new additional parameter, useNumberGenerator, is added to optionally generate and apply sys\_ids to new table records in bulk.
+
+</td></tr><tr><td>
+
+ATF Test Generator and Cloud Runner
+
+</td><td>
+
+2.7.2
+
+</td><td>
+
+[TestGenerationApi – startJob\(String tableEncodedQuery, String userEncodedQuery, String catalogEncodedQuery, Number maxTestCount, Number maxTestCountPerTable, Number maxTestCountPerItem, String email, Boolean separateUpdateSetPerScope, String scopeForGeneratingTests, String suiteName\)](https://www.servicenow.com/docs/access?context=cr-TestGen-startJob_S_S_S_N_N_N_S&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+Class
+
+</th><th>
+
+Methods
+
+</th></tr></thead><tbody><tr><td>
+
+Customer Service Management
+
+</td><td>
+
+v1.2
+
+</td><td>
+
+[openFrameAPI - Client](https://www.servicenow.com/docs/access?context=c_openFrameAPI&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+subscribe\(\): Added new events-   openframe\_wrap\_up\_submitted
+-   openframe\_heart\_beat
+
+</td></tr><tr><td>
+
+Mobile SDK
+
+</td><td>
+
+v2.9.0
+
+</td><td>
+
+[NowChatTheme interface - Android](https://www.servicenow.com/docs/access?context=NowChatThemeColorsAndroidInterface&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Updated available chat UI color defaults.
+
+</td></tr><tr><td>
+
+Mobile SDK
+
+</td><td>
+
+v2.9.0
+
+</td><td>
+
+[NowWebTheme interface - Android](https://www.servicenow.com/docs/access?context=NowWebThemeAndroidInterface&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Updated available web view UI color defaults.
+
+</td></tr><tr><td>
+
+Mobile SDK
+
+</td><td>
+
+v2.9.0
+
+</td><td>
+
+[NowChatThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NowChatThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Updated available chat UI color defaults.
+
+</td></tr><tr><td>
+
+Mobile SDK
+
+</td><td>
+
+v2.9.0
+
+</td><td>
+
+[NowWebThemeable protocol - iOS](https://www.servicenow.com/docs/access?context=NowWebThemeableiOSProtocol&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Updated available web view UI color defaults.
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
+
+Application
+
+</th><th>
+
+App Version
+
+</th><th>
+
+API
+
+</th><th>
+
+Endpoints
+
+</th></tr></thead><tbody><tr><td>
+
+Accounts Payable Operations
+
+</td><td>
+
+v2.0.0
+
+</td><td>
+
+[AP Invoice API](https://www.servicenow.com/docs/access?context=ap-invoice-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Add properties supporting bill-to address information.-   POST /sn\_spend\_intg/ap\_invoice/cxml
+-   POST /sn\_spend\_intg/ap\_invoice/json
+
+</td></tr><tr><td>
+
+ATF Test Generator and Cloud Runner
+
+</td><td>
+
+2.7.2
+
+</td><td>
+
+[Cloud Runner Test Generation - POST /now/sn\_atf\_tg/test\_generation](https://www.servicenow.com/docs/access?context=cr-TestGenAPI-POST-test-generation&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+Added the **testSuite** parameter allowing you to set the name of the new test suite that is created during test generation.
+
+</td></tr><tr><td>
+
+Order Management
+
+</td><td>
+
+v11.3.0
+
+</td><td>
+
+[Product Order Open API](https://www.servicenow.com/docs/access?context=tmf622_product_ordering-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+The **productSpecification** request parameter has changed from required to optional.-   PATCH /sn\_ind\_tmt\_orm/order/productOrder/\{id\}
+-   PATCH /sn\_ind\_tmt\_orm/productorder/\{id\}
+-   POST /sn\_ind\_tmt\_orm/order/productOrder
+-   POST /sn\_ind\_tmt\_orm/productorder
+
+</td></tr><tr><td>
+
+Order Management
+
+</td><td>
+
+v12.5.0
+
+</td><td>
+
+[Product Inventory Open API](https://www.servicenow.com/docs/access?context=product-inventory-open-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+The **productSpecification** request parameter has changed from required to optional. These endpoints now retrieve all product inventory records. In prior releases, product inventory records without a specified product specification weren't returned.-   POST /api/sn\_prd\_invt\_/product
+-   GET /api/sn\_prd\_invt\_/product
+-   GET /api/sn\_prd\_invt\_/product/\{id\}
+
+</td></tr><tr><td>
+
+Product Catalog
+
+</td><td>
+
+v14.1.0
+
+</td><td>
+
+[Product Catalog Open API](https://www.servicenow.com/docs/access?context=product-catalog-open-api&family=yokohama&ft:locale=en-US)
+
+</td><td>
+
+The ability to specify product bundles has been added to the following endpoints:-   GET /sn\_tmf\_api/ catalogmanagement/catalog
+-   GET /sn\_tmf\_api/ catalogmanagement/catalog/\{id\}
+-   GET /sn\_tmf\_api/ catalogmanagement/productOffering
+-   GET /sn\_tmf\_api/ catalogmanagement/productOffering/\{id\}
+-   PATCH /sn\_tmf\_api/ catalogmanagement/productOffering/\{id\}
+-   POST /sn\_tmf\_api/ catalogmanagement/productOffering
+-   GET /sn\_tmf\_api/ catalogmanagement/productSpecification
+-   GET/sn\_tmf\_api/ catalogmanagement/productSpecification/\{id\}
+-   PATCH /sn\_tmf\_api/ catalogmanagement/productSpecification/\{id\}
+-   POST /sn\_tmf\_api/ catalogmanagement/productSpecification
+
+</td></tr></tbody>
+</table><table><thead><tr><th>
 
 Class
 

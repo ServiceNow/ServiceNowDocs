@@ -1,35 +1,35 @@
 ---
-title: Run a template to remediate de-duplication tasks
-description: Run a de-duplication template to remediate de-duplication tasks in bulk. A de-duplication template is pre-configured with remediation settings per class. Running a de-duplication template, remediates its assigned de-duplication tasks, consistently, according to the template settings.
+title: Run a template to process de-duplication tasks
+description: Run a de-duplication template to run de-duplication tasks that remediate duplicate CIs, in bulk. A de-duplication template is pre-configured with remediation settings per class. Running a de-duplication template, processes its assigned de-duplication tasks, consistently, according to the template settings.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-run-template.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [CI de-duplication experience in CMDB Workspace, Duplicate CIs remediation, CMDB data management, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CI de-duplication experience in a workspace, Duplicate CIs remediation, CMDB data management, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Run a template to remediate de-duplication tasks
+# Run a template to process de-duplication tasks
 
-Run a de-duplication template to remediate de-duplication tasks in bulk. A de-duplication template is pre-configured with remediation settings per class. Running a de-duplication template, remediates its assigned de-duplication tasks, consistently, according to the template settings.
+Run a de-duplication template to run de-duplication tasks that remediate duplicate CIs, in bulk. A de-duplication template is pre-configured with remediation settings per class. Running a de-duplication template, processes its assigned de-duplication tasks, consistently, according to the template settings.
 
 ## Before you begin
 
 Role required:
 
--   To access the [Management view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-mangmnt-view.md) to perform de-duplication tasks, sn\_cmdb\_admin
--   To perform this task, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
+-   To access the [Governance view in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/sg-workspace-governance-view.md) to perform de-duplication tasks: sn\_cmdb\_editor or sn\_cmdb\_admin
+-   To perform de-duplication tasks, cmdb\_dedup\_admin or any role containing cmdb\_dedup\_admin \(such as sn\_cmdb\_admin\)
 
 ## About this task
 
-You can run a single template to remediate its associated de-duplication tasks, or run all published templates at once, each remediating duplicate CIs in its associated tasks. Before running any templates, ensure that those templates are properly configured with their remediation settings and are properly assigned with de-duplication tasks. De-duplication tasks can be automatically assigned to a template based on the template conditions. You can also manually assign additional de-duplication tasks to a template.
+You can run a single template to process its associated de-duplication tasks, or run all published templates at once, each remediating duplicate CIs in its associated tasks. Before running any templates, ensure that those templates are properly configured with their remediation settings and are properly assigned with de-duplication tasks. De-duplication tasks can be automatically assigned to a template based on the template conditions. You can also manually assign additional de-duplication tasks to a template.
 
 ## Procedure
 
-1.  Navigate to **Workspaces** &gt; **CMDB Workspace** and then select **Management** in the CMDB Workspace menu bar.
+1.  Navigate to **Workspaces** &gt; **CMDB Workspace** &gt; **Governance**.
 
 2.  Select the **De-duplication Dashboard** link in Management tools, in the Manage section.
 
@@ -43,7 +43,7 @@ You can run a single template to remediate its associated de-duplication tasks, 
 
 5.  On the De-duplication templates page, locate the card with the template that you want to run and select **Assign tasks** in that card.
 
-6.  Select the tasks in the Available de-duplication tasks list that you want to remediate using the selected de-duplication template. Then select **Add Selected** to assign the selected tasks to the current template.
+6.  Select the tasks in the Available de-duplication tasks list that you want to process using the selected de-duplication template. Then select **Add Selected** to assign the selected tasks to the current template.
 
     Available de-duplication tasks lists all open de-duplication tasks, some of which can be non-compatible with the template. If you try to associate a non-compatible task, an error appears. Some of the tasks in the list might be assigned to another template, and you can reassign those to the current template.
 
@@ -66,11 +66,9 @@ You can run a single template to remediate its associated de-duplication tasks, 
     -   Select **Cancel** to stop a template's run. The details for the cancelled template are added in the **Completed** tab with the state of Cancel Requested. Upon completing the cancellation, the state changes to Cancelled.
     After a template run completes, its details no longer appear under the **Running** tab, but are available in the **Completed** tab. Also, the completed template is available again for running in the **Ready** tab.
 
--   Select the **Completed** tab to view general counts per template, such as erroneous and skipped tasks, and general run time. The templates are sorted by their completion time, with the template that completed most recently at the top of the list. Select **Details** for a template to access a list view of the template's assigned de-duplication tasks. This list view shows details for each de-duplication task, such as its state\(color coded\) and error message if applicable. You can drill down a de-duplication task for further details.
+-   Select the **Completed** tab to view general counts per template, such as erroneous and skipped tasks, and general run time. The templates are sorted by their completion time, with the template that completed most recently at the top of the list. Select **Details** for a template to access a list view of the template's assigned de-duplication tasks. This list view shows details for each de-duplication task, such as its state \(color coded\) and error message if applicable. You can drill down a de-duplication task for further details.
 -   Select **View de-duplication tasks that need your attention** in the De-duplication tasks completed with errors card in the De-duplication insights pane on the right. The De-duplication tasks with errors list view shows de-duplication tasks that didn't complete successfully along with an error message. You can drill down de-duplication tasks in the list for more details.
 -   [Schedule a de-duplication template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/workspc-dedup-schedule-template.md).
-
-**Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 
 **Parent Topic:**[CI de-duplication experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/dedup-ci-exp-cmdb-workspace.md)
 

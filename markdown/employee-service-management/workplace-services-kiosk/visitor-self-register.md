@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Services Kiosk
 classification: workplace-services-kiosk
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Workplace Services Kiosk, Workplace Service Delivery, Employee Service Management]
 ---
@@ -26,19 +26,21 @@ Role required: sn\_wsd\_kiosk.viewer
 
 1.  On the error page, select **Register visit**.
 
-2.  Fill in the following field values when prompted by the kiosk device.
+2.  On the Register your visit page, enter the following details, then select **Continue**.
 
-    1.  Purpose of your visit
-    2.  Your name
-    3.  Your company name
-    4.  Your host, who is the employee that you want to meet
-    5.  Reason for your visit
+    -   Your email address
+    -   Visit description
+    -   Host name
     **Note:** The fields can change based on the configuration that is set by the admin.
 
-3.  On the Registration summary page, verify the details of your visit, then select **Continue**.
+3.  On the Complete your information page, enter the following details, then select **Continue**.
 
-    You can also edit the details based on your requirement.
-
+    -   First name
+    -   Last name
+    -   Phone number
+    -   Job title
+    -   Parking preferences
+    -   License plate
 4.  Take a picture for the check-in process.
 
     1.  On the Let's take a picture page, select **Continue**.
@@ -58,5 +60,5 @@ Role required: sn\_wsd\_kiosk.viewer
 6.  View the next steps, then select **Done**.
 
 
-**Parent Topic:**[Use Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
+**Parent Topic:**[Using Workplace Services Kiosk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-services-kiosk/use-workplace-services-kiosk.md)
 

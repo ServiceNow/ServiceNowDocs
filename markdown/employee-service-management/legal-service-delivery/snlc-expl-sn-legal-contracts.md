@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-03-12"
+reading_time_minutes: 9
+breadcrumb: [Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Explore Contract Management Pro for Legal Service Delivery
@@ -18,13 +18,23 @@ Learn more about Contract Management Pro for Legal Service Delivery through a sa
 
 ## Contract Management Pro for Legal Service Delivery overview
 
-With the Legal Contract Management Pro for Legal Service Delivery, you can configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract and amendmentrequests. The integration also supports e-signatures and external storage systems.
+The ServiceNow® Contract Management Pro for Legal Service Delivery enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract, amendment, and renewal requests. It also supports e-signatures, wet signatures, offline signatures, and external storage systems.
+
+## Contract Management Pro for Legal Service Delivery users
+
+|User|Description|
+|----|-----------|
+|Contract Management Pro for Legal Service Delivery configurator|Configures contract templates, external systems, and configuration rules.|
+|Contract Management Pro for Legal Service Delivery administrator|Manages contract records, user roles, and system configurations.|
+|Contract Management Pro for Legal Service Delivery fulfiller|Works on legal requests.|
+|Contract Management Pro for Legal Service Delivery owner|Manages lifecycle of legal contracts|
+|Legal User|Legal user initiates and tracks legal contract, amendment, and renewal requests.|
+|Contract user|Contract user initiates and tracks a contract request.|
+|Contract fulfiller|Contract fulfiller work on contract request and initiates actions while fulfilling an assigned contract execution.|
 
 ## Non-disclosure agreement contract request workflow
 
-**Important:** This is an interactive image, try clicking on Third-party contract workflow to learn about the process.
-
-![A flowchart illustrating the workflow of non-disclosure-agreement.](../../contract-mgmt-pro/image/mmasset0021153-nda-lsd-horizontal.png)
+\[Omitted image "mmasset0021153-nda-lsd-horizontal.png"\] Alt text: A flowchart illustrating the workflow of non-disclosure-agreement.
 
 A sample workflow for a non-disclosure agreement \(NDA\) contract request might progress as follows:
 
@@ -114,7 +124,7 @@ Submit, review, finalize, and manage legal contract requests. The legal departme
 
 </td><td>
 
-[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)
+[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
 
 </td><td>
 
@@ -172,6 +182,19 @@ Initiate and manage amendment requests.
 
 </td></tr><tr><td>
 
+Initiate and manage renewal requests. Keeping negotiation, review, approval, and signature in one place lets teams act ahead of expiration instead of reacting at the deadline.
+
+</td><td>
+
+[Contract renewals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-renewal-landing.md)
+
+</td><td>
+
+-   Legal user and contract user
+-   Contract Management Pro for Legal Service Delivery fulfiller
+
+</td></tr><tr><td>
+
 Track and manage contract obligations to help ensure compliance and minimize risks.
 
 </td><td>
@@ -184,15 +207,15 @@ Obligation fulfiller or Obligation user
 
 </td></tr><tr><td>
 
-Use Now Assist in Contract Management to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository.
+Use ServiceNow Otto for Contract Management Pro to analyze contracts for non-standard and missing clauses, and extract information from signed contracts to add in the contract repository.
 
 </td><td>
 
-[Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-now-assit-landing.md)
+[AI capabilities in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-exp-now-assist-land.md)
 
 </td><td>
 
-Now Assist contract fulfiller
+AI contract fulfiller
 
 </td></tr></tbody>
 </table>## What to explore next
@@ -200,12 +223,9 @@ Now Assist contract fulfiller
 To learn more about configuring and using , see:
 
 -   [Configure Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-config-sn-legal-contracts.md)
--   [Non-disclosure agreement requests]()
+-   -   [Non-disclosure agreement requests]()
 -   [Third-party contract review requests]()
 -   [Contract Management Pro for Legal Service Delivery reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-ref-sn-legal-contracts.md)
-
--   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-expl-legal-contracts.md)**  
-Contract Management Pro for Legal Service Delivery enables you to submit, review, finalize, and manage legal contract requests. The legal department can manage and process these submitted legal requests for contracts from a centralized location.
 
 **Parent Topic:**[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-mgmt-pro-landing-page.md)
 

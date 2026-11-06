@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/automate-case-creation-alert.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Proactive Customer Service Operations, Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Proactive Customer Service, Extend capabilities, Configure, Customer Service Management]
 ---
 
 # Activate an alert rule to automatically create a proactive case from an alert

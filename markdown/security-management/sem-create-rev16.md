@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-create-rev16.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Use Remediation Effort records, Use, Unified Security Exposure Management, Security Operations]
 ---
@@ -227,6 +227,4 @@ Date when the record was last opened in your ServiceNow AI Platform. If the reco
 
     Any changes you make and save to the remediation effort record do not affect any of the other remediation efforts you have already created from the watch topic.
 
-
-**Parent Topic:**[Use Remediation Effort records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-ws-remed-eff-rcd.md)
 

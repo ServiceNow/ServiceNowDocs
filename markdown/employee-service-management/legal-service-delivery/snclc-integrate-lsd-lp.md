@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Integration of Legal Service Delivery with ServiceNow applications
@@ -17,7 +17,7 @@ breadcrumb: [Legal Service Delivery, Employee Service Management]
 Extend Legal Service Delivery capabilities by integrating with other ServiceNow applications.
 
 -   **[Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-mgmt-pro-landing-page.md)**  
-With the Legal Contract Management Pro for Legal Service Delivery, you can configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract and amendmentrequests. The integration also supports e-signatures and external storage systems.
+The ServiceNow® Contract Management Pro for Legal Service Delivery enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. The legal contract lifecycle enables you to submit, review, finalize, and manage legal contract, amendment, and renewal requests. It also supports e-signatures, wet signatures, offline signatures, and external storage systems.
 -   **[Predictive intelligence for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/lsd-predictive-intelligence-landing.md)**  
 The Predictive Intelligence for Legal Service Delivery uses machine-learning algorithms for the predicting Subcategory and Assignment group for legal requests.
 -   **[Advanced work assignment for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/lsd-awa-landing.md)**  

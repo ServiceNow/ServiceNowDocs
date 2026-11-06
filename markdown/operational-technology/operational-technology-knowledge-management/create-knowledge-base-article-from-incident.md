@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Knowledge Management
 classification: operational-technology-knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use, Operational Technology Knowledge Management, Operational Technology]
 ---
@@ -36,7 +36,7 @@ Creating a knowledge article directly from an incident record helps to make sure
 
 4.  Select the **More actions** icon \(\[Omitted image "more-actions.png"\] Alt text: More actions icon\) to expand the menu.
 
-5.  Select **Create Knowledge**.\[Omitted image "create-knowledge-button.png"\] Alt text: Create knowledge button.
+5.  Select **Create Knowledge**.
 
     **Note:** You must set the incident record's state to **Resolved** to see the **Create Knowledge** button.
 

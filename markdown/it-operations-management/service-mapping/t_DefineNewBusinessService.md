@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -173,7 +173,7 @@ If discovery based on Predictive Intelligence is enabled, newly mapped applicati
 Create rules for automatically adding traffic-based connections and the CIs they lead to in discovered service instances. Add CIs to specific application services using connection rules.
 -   **[Enable traffic-based discovery for an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/enable-traffic-based-discovery-business-service.md)**  
 Make Service Mapping use traffic-based connections to discover CIs making up an application service.
--   **[Mapping application services containing Citrix XenApp and Presentation Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/mapping-services-citrix.md)**  
+-   **[Mapping Citrix XenApp and Presentation Server services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/mapping-services-citrix.md)**  
 Service Mapping can discover application services containing Citrix XenApp, Presentation Server, and Citrix Usage Collector.
 -   **[Application services with Microsoft Exchange Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/mapping-service-exchange.md)**  
 Service Mapping can discover service instances containing a Microsoft Exchange Server and the Exchange Server components.

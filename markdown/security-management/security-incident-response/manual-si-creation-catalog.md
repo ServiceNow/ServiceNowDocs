@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security incident manual creation, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,19 +26,19 @@ Role required: none
 
     \[Omitted image "catalog.png"\] Alt text: Security Incident Catalog
 
-2.  Click the catalog item for which you want to make a request.
+2.  Select the catalog item for which you want to make a request.
 
     If the item you selected from the main catalog contains subcategories, the list is shown. In the following example, **Malicious code activity** was selected.
 
     \[Omitted image "catalog-subcategory.png"\] Alt text: Catalog subcategories
 
-3.  Click the subcategory that best matches the type of request you want to make.
+3.  Select the subcategory that best matches the type of request you want to make.
 
     In this example, the **Worm, virus, Trojan** subcategory was selected.
 
     \[Omitted image "worm.png"\] Alt text: Catalog request entry
 
-4.  Enter the information for the request, and click **Submit**.
+4.  Enter the information for the request, and select **Submit**.
 
     The request is sent to your Security Incident department.
 

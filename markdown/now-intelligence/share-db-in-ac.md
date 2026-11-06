@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/share-db-in-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 keywords: [How to share a dashboard, How to share a Platform Analytics dashboard, How to share a Next Experience dashboard]
-breadcrumb: [Create, share, edit, and more, Dashboards, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Working with in-line dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
 
 # Share a Platform Analytics dashboard
@@ -25,13 +25,15 @@ A role with read access to the Roles \[sys\_user\_role\] table is required to sh
 
 **Note:** Data visualizations based on table data are automatically shared with users that you share a dashboard with.
 
-Edit rights granted by sharing a dashboard do not apply to the underlying data visualizations on the dashboard. View rights granted do not apply to that dashboard's visualizations outside of the dashboard itself.
+Edit rights granted by sharing a dashboard don't apply to the underlying data visualizations on the dashboard. View rights granted don't apply to that dashboard's visualizations outside of the dashboard itself.
+
+Rights to the underlying data only matter when the visualizations contain raw data, like lists. When a visualization contains this kind of data, users who don't have the right to see that information see a message in place of the visualization. The same is true when such users drill down to list data.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Dashboards**
 
-2.  Select the dashboard you want to share.
+2.  Select the [dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md) you want to share.
 
 3.  Select the **More actions** button \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions button\) and choose **Share**.
 
@@ -41,7 +43,9 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
     To share the dashboard with roles, you need read access to the Roles \[sys\_user\_role\] table.
 
-5.  To allow the people you share the dashboard with to share the dashboard as well, select **Allow recipients to add, edit, or delete sharing permissions associated with this dashboard**.
+    To share the dashboard with all authenticated users, share it to the dashboard\_user role. Users who are allowed to use dashboards \(those who have at least one role\) will be able to see the dashboard.
+
+5.  To enable the people you share the dashboard with to share the dashboard as well, select **Allow recipients to add, edit, or delete sharing permissions associated with this dashboard**.
 
     When you add a user, group, or role as a viewer, they can only share the dashboard as a viewer. When you add a user, group, or role as an editor, they can share the dashboard as a viewer or as an editor.
 
@@ -49,26 +53,26 @@ Edit rights granted by sharing a dashboard do not apply to the underlying data v
 
 6.  Select one of the following options.
 
-<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d37096e166">
+<table id="choicetable_yxb_j15_q5b"><tbody><tr><td id="d39921e176">
 
 **Add as viewer**
 
 </td><td>
 
-Grant only viewing rights to the users, groups, or roles you are sharing the dashboard with. They cannot edit it.
+Grant only viewing rights to the users, groups, or roles you're sharing the dashboard with. Users who only have viewing rights can make changes to the dashboard's content, but aren't able to save those changes.
 
-</td></tr><tr><td id="d37096e175">
+</td></tr><tr><td id="d39921e185">
 
 **Add as editor**
 
 </td><td>
 
-Grant editing rights to the users, groups, or roles you are sharing the dashboard with.You must be in the same application scope as the dashboard to add a user as an editor.
+Grant editing rights to the users, groups, or roles you're sharing the dashboard with.You must be in the same application scope as the dashboard to add a user as an editor.
 
 </td></tr></tbody>
 </table>7.  Select **Copy link with filter** or **Copy link** to copy the dashboard's URL to the clipboard.
 
-    The URL points to the tab that was open when you opened the **Share dashboard** dialogue. **Copy link with filter** also applies the filters as they're configured on the dashboard or dashboard tab.
+    The URL points to the tab that was open when you opened the **Share dashboard** dialogue. **Copy link with filter** also applies the filters as they're configured on the dashboard or dashboard tab. For more information, see [URL filter parameters for dashboard filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/url-filter-parameters.md)
 
 8.  Select **Confirm**.
 
@@ -83,16 +87,25 @@ The roles, groups, and users you have shared the dashboard with appear when you 
 
 ## What to do next
 
-You can change the rights of whom you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
+-   Change the rights of those you have shared the dashboard with in the Share Dashboard dialog, under the Can view/Can edit list for each user, group, or role.
 
-\[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
+    \[Omitted image "db-share-rights-selector.png"\] Alt text: Rights selector for a user, group, or role that a dashboard was shared with.
 
-**Parent Topic:**[Creating dashboards and other common dashboard tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
+-   [Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-db-ref-qualifiers-more-info.md)
+
+-   **[Dashboard sharing reference qualifiers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-db-ref-qualifiers.md)**  
+Use reference qualifiers to limit the users, groups, and roles and to provide more information in the recipients field of shared dashboards.
+-   **[Show more information in the Share Dashboard window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/share-db-ref-qualifiers-more-info.md)**  
+Clarify users, groups, and roles in the **Share Dashboard** window so users can share with the right audience.
+
+**Parent Topic:**[Common dashboard tasks in the in-line editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dashboard-tasks.md)
 
 **Related topics**  
 
 
 [Create a dashboard with the in-line editor]()
+
+[Create Core UI dashboards on upgraded instances]()
 
 [Edit Platform Analytics dashboards]()
 

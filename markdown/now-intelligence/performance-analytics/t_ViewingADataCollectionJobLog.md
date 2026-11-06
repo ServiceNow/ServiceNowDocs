@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data collection process and logging, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Data collection, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # View the data collection job logs
@@ -22,7 +22,7 @@ Role required: pa\_data\_collector or admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Data Collector** &gt; **Job Logs**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Data Collector** &gt; **Job Logs**.
 
     The log provides the following information for all occurrences.
 

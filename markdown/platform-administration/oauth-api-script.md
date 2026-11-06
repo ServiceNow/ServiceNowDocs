@@ -1,18 +1,18 @@
 ---
-title: Create OAuth API script
-description: Create and duplicate OAuth API script for application registry.
+title: Create an OAuth API script
+description: Create and duplicate an OAuth API script for application registry.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/oauth-api-script.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure an OAuth profile to use certificates for authentication with Microsoft Azure, Reading email using Microsoft Graph, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [OAuth profile to use certificates, Read email using Microsoft Graph, Read or send emails using Microsoft Graph, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Create OAuth API script
+# Create an OAuth API script
 
-Create and duplicate OAuth API script for application registry.
+Create and duplicate an OAuth API script for application registry.
 
 ## Before you begin
 

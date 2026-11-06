@@ -4,7 +4,7 @@ description: Create a record for every floor of a building. Specify the measurem
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-07-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 ---
 
@@ -195,9 +195,13 @@ Managed by
 
 Workplace manager who manages all the workplace-related operations.
 
-</td></tr><tr><td class="sub-head" colspan="2">
+</td></tr><tr><td class="sub-head">
 
 **Measurement Details**
+
+</td><td class="sub-head">
+
+ 
 
 </td></tr><tr><td>
 

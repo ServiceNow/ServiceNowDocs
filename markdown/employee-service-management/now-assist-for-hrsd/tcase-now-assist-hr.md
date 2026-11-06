@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -39,24 +39,28 @@ Role required: sn\_hr\_core.case\_writer
 
     5.  Click **OK**.
 
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HRSD]()
 
-[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist]()
+[Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation using ServiceNow Otto for HRSD]()
 
 [Summarize an HR case using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -64,15 +68,15 @@ Role required: sn\_hr\_core.case\_writer
 
 [Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
-[Use Galileo Inside to answer HR-related questions]()
+[Use ServiceNow Otto for HRSD – Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in Agent Workspace for HR Case Management]()
+[Use the ServiceNow Otto panel in HR Agent Workspace]()
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

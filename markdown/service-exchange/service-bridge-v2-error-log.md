@@ -7,9 +7,9 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Service Exchange reference, Service Exchange]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Service Exchange]
 ---
 
 # Service Exchange error log
@@ -18,7 +18,7 @@ Track errors on recent transactions, provide connection status, run health check
 
 ## About this task
 
-**Note:** The Yokohama release, includes a framework to capture Service Exchange errors. Currently, the table displays the following known errors:
+**Note:** The Brazil release, includes a framework to capture Service Exchange errors. Currently, the table displays the following known errors:
 
 1.  Global Script Include check: Checks if this script has been installed and if it is the latest version.
 2.  During registration for provider: Captures errors from the creation of the registration task through closed complete. An email notification with the list of errors captured in the last one hour along with the cause and solution is sent to the Service Exchange administrator.
@@ -58,6 +58,4 @@ Role required: admin
     |Connection|This field is populated if the error is caused by connection issue.|
     |Created|Date and time at which the error occurred.|
 
-
-**Parent Topic:**[Service Exchange reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-reference.md)
 

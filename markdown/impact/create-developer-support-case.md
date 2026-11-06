@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/create-developer-support-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Developer Support, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Debug instance customizations with Developer Support, Platform Health, Using Impact, Impact]
 ---
 
 # Create a Developer Support case
@@ -24,7 +24,7 @@ Role required: Impact Developer Support
 
     You may also navigate directly to NowSupport.
 
-2.  Select **Create a Case**.\[Omitted image "Select-dev-support.png"\] Alt text: Shows the Developer support tile in NowSupport.
+2.  Select **Create a Case**.
 
 3.  Select the Case Type **Developer Support**.
 

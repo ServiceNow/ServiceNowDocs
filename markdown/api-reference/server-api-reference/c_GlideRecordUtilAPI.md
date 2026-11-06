@@ -1,14 +1,14 @@
 ---
 title: GlideRecordUtil - Global
-description: The GlideRecordUtil script include is a utility class for working with GlideRecords.Returns the GlideRecord object for the specified configuration item \(CI\) using just the sys\_id of the CI.Returns an array of all the fields in the specified GlideRecord.Returns a GlideRecord instance for the given table, positioned to the given sys\_id, and of the right class \(table\).Returns a Java ArrayList of the ancestors of the specified table name.Sets the fields in the specified GlideRecord with the field values contained in the specified hashmap, unless that field name is in the ignore hashmap.Populates the given hashmap from the given GlideRecord instance. Each field in the GlideRecord becomes a property in the hashmap.
+description: The GlideRecordUtil script include is a utility class for working with GlideRecords.Returns the GlideRecord object for the specified configuration item \(CI\) using just the sys\_id of the CI.Returns an array of all the fields in the specified GlideRecord.Returns a GlideRecord instance for the given table, positioned to the given sys\_id, and of the right class \(table\).Returns a list of the ancestors of a specified table.Sets the fields in the specified GlideRecord with the field values contained in the specified hashmap, unless that field name is in the ignore hashmap.Populates a given hashmap from a GlideRecord. Each field in the GlideRecord becomes a property in the hashmap.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/server-api-reference/c\_GlideRecordUtilAPI.html
 release: yokohama
 product: Server API Reference
 classification: server-api-reference
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Server API reference, API reference, API implementation and reference]
 ---
 
@@ -32,7 +32,7 @@ Use this method to quickly obtain a specific CI without knowing its associated c
 
 |Type|Description|
 |----|-----------|
-|GlideRecord|GlideRecord object of the specified CI.|
+|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord object of the specified CI.|
 
 The following example returns the GlideRecord object for the specified CI using just the sys\_id of the CI.
 
@@ -48,7 +48,7 @@ Returns an array of all the fields in the specified GlideRecord.
 
 |Name|Type|Description|
 |----|----|-----------|
-|gr|GlideRecord|GlideRecord instance positioned to a valid record.|
+|gr|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)|GlideRecord instance positioned to a valid record.|
 
 |Type|Description|
 |----|-----------|
@@ -94,7 +94,7 @@ This method is useful when you need to load a GlideRecord from a sys\_id, but yo
 
 |Type|Description|
 |----|-----------|
-|GlideRecord|The GlideRecord for the specified sys\_id.|
+|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)|The GlideRecord for the specified sys\_id.|
 
 ```
 var now_GR = new GlideRecordUtil().getGR("cmdb_ci_computer", "2dfd7c8437201000deeabfc8bcbe5d56");
@@ -102,9 +102,9 @@ var now_GR = new GlideRecordUtil().getGR("cmdb_ci_computer", "2dfd7c8437201000de
 
 ## GlideRecordUtil - getTables\(String tableName\)
 
-Returns a Java ArrayList of the ancestors of the specified table name.
+Returns a list of the ancestors of a specified table.
 
-For example, given cmdb\_ci\_linux\_server, this would return cmdb\_ci\_linux\_server, cmdb\_ci\_server, cmdb\_ci\_computer, cmdb\_ci\_hardware, cmdb\_ci, and cmdbr.
+**Note:** The specified table is included in the list of its ancestors.
 
 |Name|Type|Description|
 |----|----|-----------|
@@ -112,9 +112,9 @@ For example, given cmdb\_ci\_linux\_server, this would return cmdb\_ci\_linux\_s
 
 |Type|Description|
 |----|-----------|
-|ArrayList|List of ancestors of the specified table.|
+|Array|List of ancestors of the specified table.|
 
-The following example shows the ancestors of the cmdb\_ci\_linux\_server table.
+The following example shows the ancestors of the Linux Server \[cmdb\_ci\_linux\_server\] table.
 
 ```
 var tables = new GlideRecordUtil().getTables("cmdb_ci_linux_server");
@@ -135,7 +135,7 @@ Sets the fields in the specified GlideRecord with the field values contained in 
 |Name|Type|Description|
 |----|----|-----------|
 |hashMap|Object|An Object instance \(being used as a hashmap\), with properties named for fields and containing the fields' value.|
-|GlideRecord|GR|The GlideRecord instance to receive the field values.|
+|now\_GR|[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)|The GlideRecord instance to receive the field values.|
 |ignore|Object|An optional hashmap of field names to ignore.|
 
 |Type|Description|
@@ -154,23 +154,132 @@ now_GR.update();
 
 ## GlideRecordUtil - populateFromGR\(Object hashMap, GlideRecord now\_GR, Object ignore\)
 
-Populates the given hashmap from the given GlideRecord instance. Each field in the GlideRecord becomes a property in the hashmap.
+Populates a given hashmap from a GlideRecord. Each field in the GlideRecord becomes a property in the hashmap.
 
-|Name|Type|Description|
-|----|----|-----------|
-|hashMap|Object|An object being used as a hashmap.|
-|now\_GR|GlideRecord|A GlideRecord instance positioned to a valid record.|
-|ignore|Object|An optional hashmap of file names not to populate.|
+<table id="table_czg_4lw_4t" class="parameters"><thead><tr><th>
 
-|Type|Description|
+Name
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+hashMap
+
+</td><td>
+
+Object
+
+</td><td>
+
+The object to populate with fields and values from a GlideRecord.
+
+</td></tr><tr><td>
+
+now\_GR
+
+</td><td>
+
+[GlideRecord](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/server-api-reference/c_GlideRecordAPI.md)
+
+</td><td>
+
+A GlideRecord instance positioned to a valid record.
+
+</td></tr><tr><td>
+
+ignore
+
+</td><td>
+
+Object
+
+</td><td>
+
+Optional. A hashmap of field names to exclude when populating the object.For each key-value pair in the map, the key is the name of the field to exclude and the value is `true`.
+
+```
+{"field_name": true}
+```
+
+</td></tr></tbody>
+</table>|Type|Description|
 |----|-----------|
 |void| |
 
+This example populates an object with fields and values from a Computer \[cmdb\_ci\_computer\] record.
+
 ```
+var util = new GlideRecordUtil();
 var objectToPopulate = {};
-var now_GR = new GlideRecordUtil().getGR("cmdb_ci_computer", "2dfd7c8437201000deeabfc8bcbe5d56");
+var computer = util.getCIGR("2dfd7c8437201000deeabfc8bcbe5d56"); // get CI record from cmdb_ci_computer
 var ignore = {"sys_created_on": true, "sys_updated_by": true};
-new GlideRecordUtil().populateFromGR(objectToPopulate, now_GR, ignore);
-// Now the objectToPopulate contains field/value pairs from the computer GlideRecord
+util.populateFromGR(objectToPopulate, computer, ignore);
+// Now objectToPopulate contains field/value pairs from the computer GlideRecord
+gs.info(JSON.stringify(objectToPopulate));
+```
+
+Output:
+
+```
+{
+   "sys_id": "2dfd7c8437201000deeabfc8bcbe5d56",
+   "operational_status": "1",
+   "os_service_pack": "Service Pack 2",
+   "cpu_manufacturer": "7aad6d00c611228400f00e0f80b67d2d",
+   "sys_updated_on": "2024-07-27 22:28:37",
+   "first_discovered": "2007-03-13 20:55:20",
+   "invoice_number": "INV0166221",
+   "sys_created_by": "admin",
+   "warranty_expiration": "2019-10-07",
+   "ram": "1534",
+   "cpu_name": "Intel(R) Pentium(R) M processor 1.86GHz",
+   "cpu_speed": "798",
+   "sys_domain_path": "/",
+   "disk_space": "51",
+   "cost_center": "d9d0a971c0a80a641c20b13d99a48576",
+   "assigned": "2024-03-16 07:00:00",
+   "purchase_date": "2018-10-07",
+   "last_discovered": "2007-04-12 23:17:45",
+   "can_print": "0",
+   "sys_class_name": "cmdb_ci_computer",
+   "manufacturer": "aa0a6df8c611227601cd2ed45989e0ac",
+   "cpu_count": "1",
+   "vendor": "aa0a6df8c611227601cd2ed45989e0ac",
+   "assigned_to": "47de9c73c61122930033f6521d1bb785",
+   "os_version": "5.1.2600",
+   "serial_number": "L3BB911",
+   "cd_rom": "0",
+   "unverified": "0",
+   "asset": "8bc1ba8837f3100044e0bfc8bcbe5db9",
+   "cpu_core_count": "1",
+   "skip_sync": "0",
+   "sys_domain": "global",
+   "install_date": "2023-10-06 08:00:00",
+   "asset_tag": "P1000227",
+   "hardware_status": "installed",
+   "install_status": "1",
+   "name": "*ASSET-IBM",
+   "virtual": "0",
+   "po_number": "PO27711",
+   "sys_class_path": "/!!/!2/!(",
+   "company": "a66b1fb03710200044e0bfc8bcbe5d08",
+   "department": "221f79b7c6112284005d646b76ab978c",
+   "cost": "3665",
+   "os": "Windows XP Professional",
+   "sys_mod_count": "17",
+   "monitor": "0",
+   "model_id": "a9a2d0c3c6112276010db16c5ddd3461",
+   "cost_cc": "USD",
+   "location": "8225b668ac1d55eb679878e192fca315",
+   "category": "Do not migrate to asset",
+   "fault_count": "0"
+}
 ```
 

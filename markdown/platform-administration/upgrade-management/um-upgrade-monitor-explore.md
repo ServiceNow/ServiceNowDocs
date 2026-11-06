@@ -1,5 +1,5 @@
 ---
-title: Explore Upgrade Monitor in Upgrade Management
+title: Explore Upgrade Monitor in Upgrade Console
 description: The Upgrade Monitor module is a powerful tool for scheduling upgrades, monitoring their progress, and analyzing post-upgrade results, including conflict resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-explore.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Upgrade Management summary, Exploring Upgrade Management, Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console summary, Explore, Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Explore Upgrade Monitor in Upgrade Management
+# Explore Upgrade Monitor in Upgrade Console
 
 The Upgrade Monitor module is a powerful tool for scheduling upgrades, monitoring their progress, and analyzing post-upgrade results, including conflict resolution.
 
@@ -22,8 +22,8 @@ If you log in with the admin role while an upgrade is underway, the system autom
 
 |Option|Navigation|
 |------|----------|
-|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Management** &gt; **Upgrade Monitor**.|
-|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Management** &gt; **Upgrade Monitor**.|
+|Using left navigation|Navigate to **All** &gt; **Admin Center** &gt; **Upgrade Console** &gt; **Upgrade Monitor**.|
+|Using Admin tab option|Navigate to **Admin** &gt; **Upgrade Console** &gt; **Upgrade Monitor**.|
 
 ## How the Upgrade Monitor fits into the upgrade process
 
@@ -45,9 +45,6 @@ Within this larger process, the Upgrade Monitor helps you upgrade individual ins
 -   As you upgrade the first non-production instance, it helps you resolve conflicts between customizations and changes that are part of the upgrade
 -   On non-production instances, it provides information that can help you estimate how long the upgrade might take on the production instance
 
-    **Note:** Debug Upgrade provides detailed debugging output for transactions containing artifacts affected by the most recent upgrade, and is designed to assist in upgrade error resolution.
-
-
 ## Monitoring an individual instance as it upgrades
 
 While the upgrade is in progress the Upgrade Progress shows what the upgrade process has done, what it is doing, and what remains to be done.
@@ -66,5 +63,5 @@ You do not need to reconcile the skipped list on any instances you later upgrade
 
 For details on reconciling conflicts, see [Process the skipped records list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-process-skipped-records.md).
 
-See [Upgrade Monitor tool in Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-tool.md) for more information.
+See [Upgrade Monitor tool in Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-upgrade-monitor-tool.md) for more information.
 

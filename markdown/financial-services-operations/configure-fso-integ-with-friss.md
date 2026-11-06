@@ -1,16 +1,16 @@
 ---
-title: Configure the Financial Services Operations Integration with FRISS
+title: Configure Financial Services Operations Integration with FRISS
 description: Select and configure the Financial Services Operations Integration with FRISS subflows to obtain the fraud score for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-fso-integ-with-friss.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with FRISS, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [FRISS, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Configure the Financial Services Operations Integration with FRISS
+# Configure Financial Services Operations Integration with FRISS
 
 Select and configure the Financial Services Operations Integration with FRISS subflows to obtain the fraud score for your organization.
 
@@ -32,25 +32,25 @@ In this procedure, you can select either the **Look up Claim Fraud Score via Spo
 
 3.  Depending on which subflow option you select, complete the following actions.
 
-<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d105493e93">
+<table id="choicetable_ldc_fz3_zwb"><thead><tr><th align="left" id="d127306e108">
 
 Option
 
-</th><th align="left" id="d105493e96">
+</th><th align="left" id="d127306e111">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d105493e102">
+</th></tr></thead><tbody><tr><td id="d127306e117">
 
 **Look up Claim Fraud Score**
 
 </td><td>
 
-1.  In the **Application** search field, search for **Financial Services Operations Integration with FRISS**.
+1.  In the **Application** search field, search for Financial Services Operations Integration with FRISS.
 2.  From the list of saved subflows, look for the **Look up Claim Fraud Score** option and open it.
 
 
-</td></tr><tr><td id="d105493e129">
+</td></tr><tr><td id="d127306e144">
 
 **Look up Claim Fraud Score via Spoke selector**
 

@@ -1,5 +1,5 @@
 ---
-title: IBM License Metric Tool \(ILMT\) and BigFix Inventory transform map for v2 APIs
+title: Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v2 APIs
 description: When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses a default transform map to process this data into ServiceNow tables.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/ibm-transform-maps-v2.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Integrating with the IBM License Metric Tool \(ILMT\) or BigFix Inventory using v2 APIs, IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Integrating using v2 APIs, ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# IBM License Metric Tool \(ILMT\) and BigFix Inventory transform map for v2 APIs
+# Transform maps for IBM License Metric Tool \(ILMT\) and BigFix Inventory integration v2 APIs
 
 When you import data from the IBM License Metric Tool \(ILMT\) or BigFix Inventory using version 2 of the ILMT and BigFix Inventory integration APIs, your ServiceNow instance uses a default transform map to process this data into ServiceNow tables.
 

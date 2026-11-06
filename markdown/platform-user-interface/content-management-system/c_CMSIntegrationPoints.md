@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -23,7 +23,7 @@ Generating lists from the ServiceNow platform is straightforward, especially if 
 -   Summary template: defines the list
 -   Detail template: defines the detail as it is rendered in a page.
 
-The templates work together to pass data attributes or [Unique record identifier \(sys\_id\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UniqueRecordIdentifier.md) \(sysid\) into a single detail page that manages the data. Any attribute variations use the URL sent to the page.
+The templates work together to pass data attributes or Unique record identifier \(sys\_id\) \(sysid\) into a single detail page that manages the data. Any attribute variations use the URL sent to the page.
 
 Understanding how content types work can mean the difference between a site with 20 pages versus a site with 200 pages. There is a time for both types of data calls. Depending on the task, there are appropriate times to use static content and times for dynamic methods.
 

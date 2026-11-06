@@ -1,16 +1,16 @@
 ---
-title: Create new indicator form
+title: Create indicator form
 description: Create an application or capability indicator to assess applications or capabilities within the indicator framework.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-create-new-indicator-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Form field information for Enterprise Architecture Workspace, Enterprise Architecture Workspace reference, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create new indicator form
+# Create indicator form
 
 Create an application or capability indicator to assess applications or capabilities within the indicator framework.
 
@@ -136,7 +136,7 @@ var results = {};
     ```
 
 -   **Query Condition**: Allows you to select a table to run filters on to obtain data.
--   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table. See [Create metric types and generate assessable records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_CreatMetricTypesAndGenAssessRecs.md). To view results of survey assessments within APM, see [Generate survey assessments and view results within APM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/generate-survey-assessments-results-apm.md).
+-   **Assessments**: Allows you to evaluate, score, and rank records by assessing records in a table.
 -   **Indicators**: Allows you to add dependent child indicators. Through the child indicators, data is gathered to the parent indicator.
 
 For example, if the parent indicator is number of issues, the dependent indicators can be number of incident counts, number of problems, and changes. These dependent indicators are child indicators and the number of incidents, problems, and changes recorded are consolidated up to the parent indicator as the number of issues.
@@ -150,7 +150,7 @@ Indicator
 
 The **Indicator** field appears when **Performance Analytics** is selected from the **Data source** list.Indicators are statistics that are used to measure current conditions and forecast trends.
 
- **Note:** If the collection frequency of the application indicator isn’t greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`. For more information, see [Collection of PA indicator score data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/pa-indicators-jobs.md).
+ **Note:** If the collection frequency of the application indicator isn’t greater than the frequency at which the data of the Performance Analytic indicator are generated, then the system displays an error message: `Frequency of the indicator must always be greater than or equal to the frequency of the datasource configuration indicator`.
 
 </td></tr><tr><td>
 
@@ -174,12 +174,12 @@ A script to evaluate and score business applications and capabilities using stan
 |Click through URL navigation type|Select whether to view the application or capability indicator details in a new window, in the same window, or in a dialog box.|
 |Click through URL script|The script associated with an indicator that allows users to select a URL and view the indicator data in a related application or dashboard. This enables quick access to relevant information, or actions related to the indicator data.|
 
-**Parent Topic:**[Enterprise Architecture Workspace reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-reference.md)
+**Parent Topic:**[Form field information for Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-form-field-information.md)
 
 **Related topics**  
 
 
-[Configure indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)
+[Manage indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-indicators.md)
 
 [Add or edit an application indicator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-create-indicator.md)
 

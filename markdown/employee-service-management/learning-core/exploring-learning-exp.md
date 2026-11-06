@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development, Employee Service Management]
+breadcrumb: [Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Learning
@@ -30,31 +30,26 @@ Learning includes the following key features:
 
 </td><td>
 
-[Use\[Omitted image "bus-agent-workspace-1.svg"\] Alt text:Learn how to manage and use Learning experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manage-your-learning.md)
+[Use\[Omitted image "bus-task-list.svg"\] Alt text:Learn how to manage and use Learning experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manage-your-learning.md)
 
 </td></tr><tr><td>
 
-[Reports\[Omitted image "bus-performance-forecasting-2.svg"\] Alt text:Measure the success of learning content through targeted reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/reporting-solutions-learning.md)
+[Reports\[Omitted image "bus-chart-down-with-arrow.svg"\] Alt text:Measure the success of learning content through targeted reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/reporting-solutions-learning.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-whitepaper.svg"\] Alt text:Get details about user roles, tables, and default configurations in Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-experience-reference.md)
+[Reference\[Omitted image "bus-learn.svg"\] Alt text:Get details about user roles, tables, and default configurations in Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-experience-reference.md)
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>-   **[Exploring Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning.md)**  
-Learn about the benefits of using Learning to proactively discover, manage, and engage with career development content.
--   **[Install and configure Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/configuring-learning.md)**  
-Configure Learning by setting up the following dependencies.
--   **[Using My Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/manage-your-learning.md)**  
-Use My Learning in Employee Center to access your learnings and achievements.
--   **[Reporting solutions for Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/reporting-solutions-learning.md)**  
-Learning comes with the following dashboards that project targeted reports to provide consolidated data on all user activities that help measure the success of learning content.
--   **[Learning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-experience-reference.md)**  
-All information regarding the system properties and tables installed with learning experience are listed here.
+</table>## Additional resources
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 

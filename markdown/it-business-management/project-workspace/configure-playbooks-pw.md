@@ -7,16 +7,16 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: concept
-last_updated: "2025-10-14"
+last_updated: "2026-09-12"
 reading_time_minutes: 1
-breadcrumb: [Configuring projects with Project Workspace, Configure, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Configuring projects with Project Workspace, Configuring Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Playbooks configuration
 
 Configure playbooks to organize project workflows, maintain consistency, and keep projects on track.
 
-Define a trigger condition in Workflow Studio to use a Playbook, either by selecting an existing one or creating a Playbook. For more information on how to configure a playbook, see.
+Define a trigger condition in Workflow Studio to use a Playbook, either by selecting an existing one or creating a Playbook.
 
 In Project Workspace, Playbooks are triggered by record creation, record update, or both. For example, a Playbook created for projects is associated with project records, and the Playbook tab appears when a project meets the trigger condition. For more information on how to configure a playbook, see [Configuring playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/setting-up-process-automation-designer.md).
 
@@ -28,10 +28,10 @@ There are two pre-defined project management playbooks available in the Workflow
 To configure playbooks, perform these tasks:
 
 1.  Navigate to **Workflow Studio** and select **Playbooks**.
-2.  Create and configure playbooks as per your requirement. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/setting-up-process-automation-designer.md).
+2.  Create and configure playbooks according to your requirement. For more information, see [Create and configure playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/setting-up-process-automation-designer.md).
 3.  Activate one of the two pre-defined playbooks for the Project Workspace and define an appropriate trigger condition. For more information, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/activate-process-automation-designer.md) and [Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer-triggers.md).
 
-Multiple playbooks can be enabled at a time, and the trigger should be defined in such a way that each project is mapped to only one type of playbook. To activate a playbook, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/activate-process-automation-designer.md).
+Multiple playbooks can be enabled at a time. Define the trigger so that each project is mapped to only one type of playbook. To activate a playbook, see [Activate playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/activate-process-automation-designer.md).
 
 **Note:**
 
@@ -48,5 +48,5 @@ When a project template is applied or project is created from a demand, the proj
 
 [Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/playbooks-in-pw.md)
 
-[Use Playbooks in Project workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)
+[Use Playbooks in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/use-playbooks-pw.md)
 

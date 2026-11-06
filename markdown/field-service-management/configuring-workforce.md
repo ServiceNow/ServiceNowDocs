@@ -1,26 +1,38 @@
 ---
 title: Configuring Workforce
-description: Configure Workforce to view agent schedules, create personal events, and view tasks on a map.
+description: Workforce provides tools for managing schedules, events, and tasks in one workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/configuring-workforce.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up CSM/FSM Configurable Workspace, Configuring Field Service Management, Field Service Management]
+breadcrumb: [CSM/FSM Configurable Workspace, Configure, Field Service Management]
 ---
 
 # Configuring Workforce
 
-Configure Workforce to view agent schedules, create personal events, and view tasks on a map.
+Workforce provides tools for managing schedules, events, and tasks in one workspace.
 
-The CSM/FSM Configurable Workspace includes Workforce, which is a centralized workspace for essential tools such as the Team Calendar, Map, and Agent Location History Map. This integration allows for access and management of team schedules, geographical data, and historical agent movements, all from one location.
+Workforce is part of the CSM/FSM Configurable Workspace. Use Workforce to:
 
-You can configure the team calendar to select which event types are visible. You can also enable users to switch between assignment group view and territory view. Additionally, you can improve the visibility of team members' schedules on a group calendar. By enabling team calendar visibility, they make these schedules accessible to both their own group and other groups.
+-   View agent schedules and team calendars.
+-   Create personal events.
+-   Track tasks and agent movements on a map.
 
-To enable the territory view, you must [Configure Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md). Managers need the wm\_manager role to view schedules in Workforce. Additionally, each territory must be assigned a manager. For more information on assigning territories to managers, see [Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md).
+These tools help you manage schedules and geographical data from one location.
 
-When Workforce Optimization for Field Service is active, you can appoint additional managers to your assignment groups to allow them access to Workforce. This ensures that more team leaders can effectively manage and optimize Workforce activities. For more information on adding additional managers, see [Assign additional managers to user groups when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/assign-additional-managers-to-user-groups.md).
+Workforce supports configuration of the following options to improve scheduling and visibility:
+
+-   Customize the team calendar to control which event types appear.
+-   Modify the Workforce configuration to enable visibility for both group and territory views.
+-   Increase team calendar visibility so teams can better coordinate meetings, events, and tasks.
+-   Assign managers to territories and configure roles for access.
+-   Add additional managers when Workforce Optimization for Field Service is active.
+
+Territory view in Workforce depends on [Configuring Field Service Territory Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configuring-territory-planning-fsm.md). Each territory must have an assigned manager, and managers need the wm\_manager role to view schedules. For details on assigning territories to managers, see [Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md).
+
+When Workforce Optimization for Field Service is active, you can assign additional managers to user groups. This enables more team leaders to access Workforce and manage scheduling effectively. For details on adding managers, see [Assign additional managers to user groups when Workforce Optimization for Field Service is installed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/assign-additional-managers-to-user-groups.md).
 
 Workforce supports a high volume of agents and tasks by default. If your workforce management requires expanded capacity, you can contact support or submit a change control request to adjust the configuration.
 
@@ -30,18 +42,18 @@ The steps for setting up Workforce are:
 
 -   [Configure event types to appear on the Team calendar in Workforce](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configure-event-types-to-appear-on-the-team-calendar.md)
 
-    Customize the team calendar by configuring which event types are displayed.
+    Select which event types appear on the team calendar.
 
 -   [Set your Workforce system properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-system-properties.md)
 
-    Modify the Workforce configuration by setting system properties to enable visibility for both group and territory views.
+    Enable system properties for group and territory views.
 
 -   [Configure team calendar visibility for group members](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/configure-team-cal-visibility-grp-members.md)
 
-    Increase Team calendar visibility to enable teams to better coordinate meetings, events, and tasks.
+    Make team schedules accessible across groups.
 
 -   [Configure territory view to allow users to see other members' schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/enable-territory-view.md)
 
-    Allow users to switch between viewing assignment groups and territories within Workforce.
+    Enable toggling between assignment groups and territories.
 
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Archive process contexts, Administering playbooks, Configuring playbooks, Configuring Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Archive process contexts, Administering Playbooks, Configure, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Configure archive settings for process contexts
@@ -18,7 +18,7 @@ Change the default settings for the automated archiving feature for process cont
 
 ## Before you begin
 
-Role required: admin or playbook.admin
+Role required: playbook.admin
 
 If you want to turn off automated archiving instead, see [Turn off automated archiving](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/turn-off-automated-archiving.md).
 

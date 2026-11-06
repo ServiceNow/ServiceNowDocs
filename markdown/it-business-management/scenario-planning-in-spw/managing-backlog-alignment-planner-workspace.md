@@ -7,19 +7,19 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 keywords: [alignment planner workspace, portfolio planner, portfolio planning workspace, strategic planner, strategic planning workspace]
-breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Prioritizing portfolio plan work in Strategic Planning Workspace
 
 Review the work pipeline for your portfolio in Strategic Planning Workspace. Add, update, and rank planning items so that you can prioritize the right work for the right time.
 
-## Prioritization views
+## Views for prioritizing planning items
 
-Prioritization page in Strategic Planning represents your backlog, showing the items of your work pipeline in List, Kanban, and Hierarchy views. For an overview of these views, see [Prioritization in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.md).
+The Prioritization tab on the Planning page in Strategic Planning represents your backlog, displaying the items in your work pipeline. The Kanban and Hierarchy tabs also represent your backlog, each providing a different view of the same items. For an overview of these views, see [Prioritization in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/backlog-management-in-alignment-planner-workspace.md).
 
 **Note:** The Prioritization feature is available only for portfolio plans.
 
@@ -27,13 +27,13 @@ Prioritization page in Strategic Planning represents your backlog, showing the i
 
 By default, portfolio plans show only the records that are created within the Planning Item \[sn\_align\_core\_planning\_item\] table and its child tables. Any records stored in other ServiceNow AI Platform tables aren't shown unless an integration is established.
 
-Consider that you want to manage projects through a portfolio plan. Project records that are only stored in the Planning Item Project \[sn\_align\_project\] table are displayed in the Prioritization tab. But any projects created using the PPM Standard aren't shown by default because these project records are stored in the PPM Project \[pm\_project\] table. To enable their display in Strategic Planning Workspace, set up integration with PPM so that the tables of Strategic Planning are mapped to the tables of PPM.
+Consider that you want to manage projects through a portfolio plan. Project records that are only stored in the Planning Item Project \[sn\_align\_project\] table are displayed in the Prioritization, Kanban, and Hierarchy tabs. But any projects created using the PPM Standard aren't shown by default because these project records are stored in the PPM Project \[pm\_project\] table. To enable their display in Strategic Planning Workspace, set up integration with PPM so that the tables of Strategic Planning are mapped to the tables of PPM.
 
 The same is the case with Epics created using Agile Development 2.0 and SAFe applications. See [Configuring Strategic Planning with PPM, Agile 2.0, and SAFe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/configuring-apw-with-agile-safe-and-ppm.md).
 
 ## Prioritization features
 
-On the Prioritization page, you can perform the following actions:
+In the Prioritization and Hierarchy tabs, you can perform the following actions:
 
 <table id="table_vh2_spq_2xb"><thead><tr><th>
 
@@ -143,7 +143,7 @@ Apply filters for Prioritization
 
 </td><td>
 
-Apply filters to all the views of Prioritization, Roadmap, or Scoring so that you can view a consistent data set for your portfolio plan.
+Apply filters to all the views of Prioritization, Roadmap, Hierarchy, or Scoring so that you can view a consistent data set for your portfolio plan.
 
 </td><td>
 
@@ -155,7 +155,7 @@ Reorder the columns by dragging them horizontally
 
 </td><td>
 
-Reorder the position of the columns on the List and Hierarchy view by dragging them horizontally.
+Reorder the position of the columns in the Prioritization tab by dragging them horizontally.
 
 </td><td>
 

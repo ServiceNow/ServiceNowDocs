@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -61,6 +61,8 @@ Role required: admin
 
 When the solution is complete, the related knowledge articles appear in the Knowledge results section on the Knowledge form in the ServiceNow AI Platform, in the Related Articles section on the knowledge article view page in the Knowledge Management Service Portal, and in Agent assist when the **Similar Articles \(ML\)** option is selected.
 
+**Parent Topic:**[Configuring Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/configuring-knowledge-management.md)
+
 **Related topics**  
 
 
@@ -70,7 +72,7 @@ When the solution is complete, the related knowledge articles appear in the Know
 
 [Create a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-knowledge-article.md)
 
-[Create a knowledge article in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-article-workspace.md)
+[Create a knowledge article in Agent Workspace]()
 
 [Using Now Mobile for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/mobile-experience-for-km.md)
 

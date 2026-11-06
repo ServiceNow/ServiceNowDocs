@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2026-01-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage the smart assessment for safety inspections and audits from mobile app, Manage safety inspections and audits through the mobile apps, Mobile experience for Health and Safety, Health and Safety, Employee Service Management]
 ---
@@ -19,6 +19,8 @@ You can create actions or findings for every question in the smart assessment qu
 ## Before you begin
 
 Role required: sn\_hs\_rm.safety\_inspection\_writer or sn\_hs\_rm.safety\_audit\_writer
+
+**Note:** To perform this task, the role must match or contain the role specified in the **Assessment reader role** field. This field is set during the smart assessment template configuration. For more information, see [Configure the smart assessment template for safety inspections and audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-risk-management/hs-configure-smart-assessment-template.md).
 
 ## About this task
 

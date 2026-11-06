@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/contactcenter-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Integrating Customer Service Management with other applications, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Integrate, Customer Service Management]
 ---
 
 # Integrating with contact centers
@@ -16,9 +16,15 @@ Integrate your contact center platform with the ServiceNow Customer Service Mana
 
 ## Contact Center integration overview
 
-Prerequisite: Ensure that agents are set up via configuration through their contact center integration to access the ServiceNow Workspace. The agent profiles are synced automatically when the agent logs in through the contact center connector in OpenFrame. For example, agent John Jason in the ServiceNow workspace must be able to log into the contact center.
+Prerequisite: Ensure that agents are set up via configuration through their contact center integration to access the ServiceNow Workspace. The agent profiles are synced automatically when the agent logs in through the contact center connector in OpenFrame. For example, agent John Jason in the ServiceNow workspace must be able to log in to the contact center.
 
 Additionally, the agent presence state must match between the ServiceNow workspace and the contact center. In some cases, the state “available” might have a different name in the contact center environment, “on queue” for example.
+
+Review the following architecture diagram for more insight on the contact center integration flow with ServiceNow.
+
+See [Integrating with Computer Telephony Integration \(CTI\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/cti-csm-integration.md).
+
+\[Omitted image "MMASSET0021181-contact-center-integration-brand2-updated.png"\] Alt text: Contact center integration flow architecture
 
 ## External routing with Contact Centers
 
@@ -29,18 +35,18 @@ Contact center spokes allow communication between ServiceNow and contact centers
 -   Transfer to agent
 -   Transfer to queue
 
-The spoke should also have the ability to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/spoke-builder.md).
+The spoke should also be able to retrieve data, such as skills, queues, and wrap-up codes. To learn more about creating a spoke, refer to [Building spokes using Spoke Generator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/spoke-builder.md).
 
-The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See .
+The contact center provider uses the AWA Work Offer API to provide the agent target for the work items. This allows the contact center provider to provide parameters to accept conversations, reject conversations, set timeout duration, and set the ServiceNow agent ID. See [AWA Offer Work API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/awa-offer-work-api.md).
 
 In the ServiceNow platform, you can import contact center platform skills, queues, and wrap-up codes between the ServiceNow instance and the contact center provider.
 
 Contact center integration gives you the ability to route ServiceNow chats, emails, or cases via an external routing platform.
 
-Implementing the integration includes the following high level steps:
+Implementing the integration includes the following high-level steps:
 
 1.  Set up the ServiceNow environment, including credentials, the AWA queue, and the OpenFrame configuration.
-2.  Set up the integration on the contact center side, matching the ServiceNow set up.
+2.  Set up the integration on the contact center side, matching the ServiceNow setup.
 3.  Create test users and test the integration.
 
 For specific instructions for integrating with Genesys Cloud, refer to the [Genesys Cloud documentation](https://help.mypurecloud.com/articles/about-unified-experience-from-genesys-and-servicenow/).
@@ -53,10 +59,17 @@ Agents using the integration can do the following:
 
 -   Accept work items​.
 
-    **Note:** Work items may time out and return to the queue if the agent doesn’t accept in the configured timeout period.
+    **Note:** If the agent doesn’t accept the chat within the configured timeout period, the work items may time out and return to the queue.
 
 -   Reject work item​s
 -   Transfer to another agent​
 -   Transfer to a queue​
 -   Cancel a transfer to another agent
+
+**Related topics**  
+
+
+[Implement the Interaction Controls Component \(ICC\) for contact center voice call and callback integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/enable-icc-for-ccaas.md)
+
+[Interaction Controls Component \(ICC\) call features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/interaction-controls-component-icc-call-interaction-features.md)
 

@@ -1,20 +1,20 @@
 ---
-title: Create a dashboard in Portfolio Planning
-description: In the Platform Analytics experience, you can create sharable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
+title: Create a dashboard
+description: In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-dashboard-ppw.html
 release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Use dashboards, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create a dashboard in Portfolio Planning
+# Create a dashboard
 
-In the Platform Analytics experience, you can create sharable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
+In the Platform Analytics experience, you can create shareable dashboards with data visualizations, filters, and other elements. You can use the available elements in the inline editor to create different types of widgets as needed.
 
 ## Before you begin
 
@@ -43,9 +43,9 @@ Dashboards consolidate data from multiple sources into a single, easily digestib
 
 ## What to do next
 
-Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-dashboard-ppw.md).
+Edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. For more information, see [Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-dashboard-ppw.md).
 
--   **[Edit a dashboard in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-dashboard-ppw.md)**  
+-   **[Edit a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-dashboard-ppw.md)**  
 Customize or edit a dashboard as needed by adding sections, filters, images, lists, process mining maps, and rich text. If the dashboard has been shared, any changes you make are applied globally.
 
 **Parent Topic:**[Using dashboards in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/using-dashboards-in-ppw.md)
@@ -53,11 +53,11 @@ Customize or edit a dashboard as needed by adding sections, filters, images, lis
 **Related topics**  
 
 
-[View a dashboard in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/view-dashboard-ppw.md)
+[View a dashboard in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/view-dashboard-ppw.md)
 
-[Duplicate a dashboard in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/copy-dashboard-ppw.md)
+[Duplicate a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/copy-dashboard-ppw.md)
 
-[Share a dashboard in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-dashboard-ppw.md)
+[Share a dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-dashboard-ppw.md)
 
-[Add a Platform Analytics dashboard to Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
+[Add a Platform Analytics dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-platform-dashboard-to-ppw.md)
 

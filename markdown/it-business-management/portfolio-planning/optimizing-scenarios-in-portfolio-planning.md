@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -34,17 +34,17 @@ The **Financials** tab of the Scenario page enables you to set custom targets, b
 
 \[Omitted image "financials-tab-in-strategic-planning.png"\] Alt text: Financials tab in Scenario planning view detailing the budget and forecast values of planning items.
 
-Portfolio Manager can simulate multiple scenarios with different budget combinations and compare their outcomes to arrive at an informed decision to balance the resources and strategic objectives. Using the financials view in Scenario planning, you can get a simulation mode for the financial information. Using this view, Portfolio managers working on the portfolios, can set a portfolio budget target for a particular planning cycle, which could be a monthly, quarterly, yearly, or beyond a year up to 5 years. Using this defined budget, portfolio users can prioritize the planning items within the portfolio to analyze if the prioritized items can be executed within their portfolio budget, while reviewing the monetary benefit from the prioritized items.
+Portfolio Manager can simulate multiple scenarios with different budget combinations and compare their outcomes to arrive at an informed decision to balance the resources and strategic objectives. Using the financials view in Scenario planning, you can get a simulation mode for the financial information. Using this view, the strategic planning users such as Portfolio managers, Program managers, or Portfolio user working on the portfolios, can set a portfolio budget target for a particular planning cycle, which could be a monthly, quarterly, yearly, or beyond a year up to 5 years. Using this defined budget, portfolio users can prioritize the planning items within the portfolio to analyze if the prioritized items can be executed within their portfolio budget, while reviewing the monetary benefit from the prioritized items.
 
 **Important:** [Enable the budget allocation property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/enable-fin-budget-spw.md) to allocate budget to your planning items at portfolio-level and [configure the budget attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/config-budget-allocation-attribute-spw.md) to allocate budget by expense type or cost type.
 
-Create multiple scenarios to compare them, and work with your stakeholders to approve an ideal plan with better monetary benefit returns. Once approved, the approved Scenario will become your new portfolio plan for the defined planning cycle. For more information to know about the changes happening in a portfolio after scenario approval, see [Approve a scenario in Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md).
+Create multiple scenarios to compare them, and work with your stakeholders to approve an ideal plan with better monetary benefit returns. Once approved, the approved Scenario will become your new portfolio plan for the defined planning cycle. For more information to know about the changes happening in a portfolio after scenario approval, see [Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/approve-a-scenario-in-strategic-planning.md).
 
 You can perform financial scenario planning throughout your planning or execution cycle depending on your organization needs such as at your regular planning cycles, quarterly reviews, or financial review cycles. Financials in scenario planning helps you to arrive at an informed decision and customize the portfolio planning to match with your organization needs.
 
 **Note:**
 
--   Financials in scenario planning is supported only for Epics, Projects, and Demands type of planning items.
+-   Finanicals in scenario planning is supported only for Epics, Projects, and Demands type of planning items.
 -   Customers using the Legacy Investment Funding should migrate to new experience to work on the financial scenario planning.
 
 Personalize your scenario planning financials view using the Time scale and Range filters. Manage the budget of your planning items by monthly, quarterly, or yearly cadence depending on the planning cycle of your organization.
@@ -69,10 +69,10 @@ In scenario planning, you can perform the following actions:
 
 |Feature|Description|
 |-------|-----------|
-|[Create a scenario in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md)|Create a scenario from the current plan, or another scenario, in a simulated environment to compare the scenario with the live plan and other scenarios.|
-|[Compare scenarios in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md)|Compare scenarios and the live plan side by side to review tradeoffs and items added or removed from the plans.|
-|[Approve a scenario in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md)|Approve the best scenario.|
-|[Manage scenarios in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/manage-scenarios-in-portfolio-planning.md)|View list of scenarios, rename scenarios, and delete scenarios.|
+|[Create a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-a-scenario-in-portfolio-planning.md)|Create a scenario from the current plan, or another scenario, in a simulated environment to compare the scenario with the live plan and other scenarios.|
+|[Compare scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/compare-scenarios-in-portfolio-planning.md)|Compare scenarios and the live plan side by side to review tradeoffs and items added or removed from the plans.|
+|[Approve a scenario](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/approve-a-scenario-in-portfolio-planning.md)|Approve the best scenario.|
+|[Manage scenarios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/manage-scenarios-in-portfolio-planning.md)|View list of scenarios, rename scenarios, and delete scenarios.|
 
 ## Scenario planning use cases
 

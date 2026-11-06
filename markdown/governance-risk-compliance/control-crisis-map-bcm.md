@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/control-crisis-map-bcm.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -46,6 +46,4 @@ The search bar helps you to search the assets and locations. A set of zoom contr
 
 6.  To clear the map of all the search results, click the reset icon \(\[Omitted image "BCMResetIcon.png"\] Alt text: Map reset icon.\).
 
-
-**Parent Topic:**[Crisis Management map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-management-map-integration.md)
 

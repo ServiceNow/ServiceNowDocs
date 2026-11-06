@@ -1,42 +1,119 @@
 ---
-title: Create a list or related list action
-description: Add a list or related list action to your configurable workspace.
+title: Create a list or related list action button
+description: Create a list or related list action and add the button to a workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/create-a-new-list-or-related-list-action.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Customizing Configurable Workspace with declarative actions, Administering Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Create action buttons, Declarative actions, Administer, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Create a list or related list action
+# Create a list or related list action button
 
-Add a list or related list action to your configurable workspace.
+Create a list or related list action and add the button to a workspace.
 
 ## Before you begin
-
-**Important:** This procedure explains how to add a list or related list action button to your configurable workspace. For instructions on how to configure your action button to open a custom modal, see [Configuring an action button to open a custom modal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configuring-an-action-button-to-open-a-custom-modal.md).
 
 Role required: admin
 
 ## Procedure
 
-1.  In the navigation filter, navigate to **All** &gt; **Declarative Actions** &gt; **Create new action**.
+1.  Navigate to **All** &gt; **Declarative Actions** &gt; **Create new action**.
 
-2.  Select **List** or **Related List** on the pop-up page.
+2.  Select **List** or **Related List**.
 
-3.  Enter an action label and other relevant configuration requirements.
+    A new Action Assignment record opens.
 
-    The action name populates automatically with the action label in all lowercase and with spaces replaced with underscores.
+3.  Complete the following fields:
 
-4.  Select a value for the **Implemented as** field.
+    -   **Action label**
 
-    -   Create a server script or client script by selecting **server or client script** in the **Implemented as** field.
-    -   Create a UXF client action by selecting **UXF client action** in the **Implemented as** field.
+        The label for the action.
 
-        For configuration instructions, see [Create a new UXF client action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/create-a-new-uxf-client-action-for-forms.md).
+    -   **Action name**
 
-5.  Select the menu icon \(\[Omitted image "menu-icon-save.png"\] Alt text: menu icon\) and **Save**.
+        Action label populates automatically in all lowercase and with spaces replaced with underscores.
+
+    -   **Implemented as**
+        -   **Server Script** applies the action to the server or database as JavaScript.
+        -   **UXF Client Action** applies the action as a UI Builder page event.
+        -   **Client Script** applies the action to the web browser as JavaScript.
+        -   **UI interaction** applies the action as reusable logic and UI elements. For configuration instructions, see [Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-da-ui-interactions.md).
+    -   **Icon**
+
+        The icon for the action.
+
+        **Note:** Select **ai-sparkle-fill** to add the ServiceNow Otto icon. For hover animation, select the Animate icon check box.
+
+    -   **Button type**
+
+        The color variant of the action button.
+
+        **Note:** **AI Primary**, **AI Secondary**, and **AI Tertiary** are AI gradient variants that visually indicate when users are interacting with AI-powered experiences.
+
+    -   **Record Selection Required**
+
+        When selected, the action requires one or more records to be selected.
+
+    -   **Application**
+
+        The scope that the action exists within.
+
+    -   **Table**
+
+        Table for the action button to appear on.
+
+    -   **View**
+
+        UI view for the action button to appear on.
+
+    -   **Experience Restricted**
+
+        When selected, the action is limited to an experience instead of being available across all experiences.
+
+    -   **Active**
+
+        When selected, the action is active.
+
+    -   **Order**
+
+        Order in which the action appears relative to other actions.
+
+    -   **Group By**
+
+        When selected, the action appears under a selected group.
+
+    -   **Group**
+
+        The group that the action appears under. Applicable when the Group By check box is selected.
+
+    -   **Tooltip**
+
+        Tooltip text that appears for the action.
+
+    -   **Description**
+
+        Description of the action for internal reference.
+
+4.  Select **Submit**.
+
+
+## Result
+
+The list or related list action button appears within the workspace you specified.
+
+## What to do next
+
+Configure a button to apply an action in the following ways:
+
+-   **[Trigger a UI interaction from a declarative action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/configure-da-ui-interactions.md)**
+
+    Trigger a UI interaction from a declarative action to extend a page without taking ownership.
+
+-   **[Configure dynamic conditions for a list action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/disable-list-actions-based-on-dynamic-conditions.md)**
+
+    Configure a list or related list action to perform an action only when it satisfies dynamic conditions.
 
 

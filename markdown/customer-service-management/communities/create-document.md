@@ -7,9 +7,9 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Post and respond to content in the community, Use a community, Communities, Customer Service Management]
+breadcrumb: [Post and respond to content in the community, Using communities, Communities, Customer Service Management]
 ---
 
 # Post a document in the community
@@ -19,6 +19,10 @@ If you have the proper permissions in a forum, you can share a document with col
 ## Before you begin
 
 Role required: sn\_communities.community\_user
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 ## Procedure
 

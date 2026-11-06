@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Recommendation Framework in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Recommendation Framework in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Recommendation rules for an incident in Service Operations Workspace
@@ -21,8 +21,6 @@ Recommendation Framework is now deprecated and no longer supported or available 
 **Note:** The best practice to get the advanced version is to install the Task Intelligence for ITSM \(com.snc.itsm\_ml\_task\) plugin and procure the ITSM Pro package subscription. For more information, see [Exploring Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/exploring-recommended-actions-for-itsm-in-service-operations-workspace.md).
 
 For each recommendation rule to work, install the relevant plugin that installs the corresponding solution definition. Based on this solution definition, the recommendation rule predicts values or records for an incident.
-
-For information about the plugins and the corresponding solution definitions, see [Setting up Recommendation Framework in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/set-up-recommendation-framework-sow.md).
 
 <table id="table_atz_nn5_rsb"><thead><tr><th>
 

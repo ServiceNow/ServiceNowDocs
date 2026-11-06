@@ -1,20 +1,20 @@
 ---
 title: CMDB Health
-description: Monitoring and maintaining the health of the CMDB is essential to an effective and continuous use of the product. Health indicators such as duplicate CIs, required CI fields, and audits are evaluated and aggregated into health scores at the class, health group, and service levels. CMDB Health also provides a framework for applying standardized CI remediation.
+description: A healthy CMDB, based on health benchmarks in an organization, is essential to an effective and continuous use of the product. Health indicators such as duplicate CIs, required CI fields, and audits are evaluated and aggregated into health scores at the class, health group, and service levels. CMDB Health also provides a framework for applying standardized CI remediation.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/c\_CMDBHealth.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # CMDB Health
 
-Monitoring and maintaining the health of the CMDB is essential to an effective and continuous use of the product. Health indicators such as duplicate CIs, required CI fields, and audits are evaluated and aggregated into health scores at the class, health group, and service levels. CMDB Health also provides a framework for applying standardized CI remediation.
+A healthy CMDB, based on health benchmarks in an organization, is essential to an effective and continuous use of the product. Health indicators such as duplicate CIs, required CI fields, and audits are evaluated and aggregated into health scores at the class, health group, and service levels. CMDB Health also provides a framework for applying standardized CI remediation.
 
 ## Get started
 
@@ -28,7 +28,7 @@ Monitoring and maintaining the health of the CMDB is essential to an effective a
 
 </td><td>
 
-[Use CMDB Health in CMDB Workspace\[Omitted image "bus-news.svg"\] Alt text:Access CMDB Health dashboards and related tasks in CMDB Workspace views.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.md)
+[Use CMDB Health in a workspace\[Omitted image "bus-news.svg"\] Alt text:Access CMDB Health dashboards and related tasks in CMDB Workspaceor in Service Graph Workspace.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.md)
 
 </td></tr><tr><td>
 
@@ -49,16 +49,16 @@ Monitoring and maintaining the health of the CMDB is essential to an effective a
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Contact Customer Service and Support](https://support.servicenow.com/now)
 
--   **[Explore CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-health-parent.md)**  
+-   **[Exploring CMDB Health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/exploring-cmdb-health-parent.md)**  
 Learn more about CMDB Health and review the benefits it can provide for users in your organization.
--   **[CMDB Health experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.md)**  
-View CMDB Health dashboards and use other CMDB Health-related features in CMDB Workspace.
--   **[View CMDB Health dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)**  
-The CMDB Health dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
+-   **[CMDB Health experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-exp-cmdb-workspace.md)**  
+View CMDB Health dashboards and use other CMDB Health-related features in CMDB Workspaceand in Service Graph Workspace.
+-   **[View CMDB Health Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_MonitorCMDBHealth.md)**  
+The CMDB Health Dashboard serves as a central location to view detailed health reports for your CMDB at a glance. Also, it provides functions to remediate issues that CMDB Health detected, to improve CMDB health.
 -   **[View relationships health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewRelationshipsHealth.md)**  
-View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health dashboard.
+View health scores for relationship health such as orphan, stale, and duplicate relationships, in the Relationship Health Dashboard.
 -   **[View CI health](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_ViewCIHealth.md)**  
-View CMDB Health report for an individual CI, on the CIs form in CMDB Workspace.
+View CMDB Health report for an individual CI, on the CIs form in CMDB Workspaceor in Service Graph Workspace.
 -   **[Create a CMDB remediation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/t_CreateCMDBRemediationRule.md)**  
 A CMDB remediation rule is associated with a task that was created for a failed CMDB health test. A CMDB remediation rule is applied automatically or manually to execute a remediation workflow that can, for example, delete stale CIs.
 -   **[CMDB Health process tracking and troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_CMDBHealthTroubleshooting.md)**  
@@ -66,7 +66,5 @@ Use the following information to track and resolve issues with the CMDB Health p
 -   **[CMDB Health reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-health-ref-parent.md)**  
 Reference topics provide additional information about the KPIs and metrics that CMDB Health uses and about tables, scheduled jobs, and properties that are used by CMDB Health.
 
-**Parent Topic:**[CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
-
-**Parent Topic:**[Exploring CMDB](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/explore-cmdb.md)
+**Parent Topic:**[Configuration Management Database \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ITILConfigurationManagement.md)
 

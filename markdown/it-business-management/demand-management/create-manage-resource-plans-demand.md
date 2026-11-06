@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,7 +36,7 @@ Role required: it\_demand\_manager
 
 
 -   **[Recalculate costs of resource assignments of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/recalculate-resource-costs-of-a-demand.md)**  
-Recalculate the costs of all active resource assignments of a demand whenever the hourly rates change in the associated rate model so that the plan costs are up to date.
+Recalculate the costs of all active resource assignments of a demand after hourly rates change in the associated rate model. Recalculating keeps plan costs up to date.
 
 **Parent Topic:**[Create a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreatingDemands.md)
 

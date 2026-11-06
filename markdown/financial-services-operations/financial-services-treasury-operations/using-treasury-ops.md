@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Treasury Operations
 classification: financial-services-treasury-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Treasury Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Treasury Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Using Financial Services Treasury Operations
@@ -91,20 +91,20 @@ Using the case playbook, treasury contributor and agents review and work on thei
 
 Performance Analytics give business owners an insight into how the team and business is performing. A dashboard with pre-configured reports and customizable views is available with the application.
 
-For more information, see [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-dashboard.md).
+For more information, see [Treasury Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-treasury-ops-dashboard.md).
 
 -   **[Financial Services Treasury Operations workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-workflow.md)**  
 The Financial Services Treasury Operations application installs automated workflows that can be configured for any treasury service. These workflows create cases and route tasks to the treasury and document agents.
 -   **[Create a treasury service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/create-fso-treasury-service-case.md)**  
 Begin the treasury service application process by creating a treasury case on behalf of your customer.
--   **[Submit a treasury service case for fulfilment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/submit-treasury-service-application.md)**  
-Collect all required information about the customer and submit the case to back-office agents for fulfilment.
+-   **[Submit a treasury service case for fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/submit-treasury-service-application.md)**  
+Collect all required information about the customer and submit the case to back-office agents for fulfillment.
 -   **[Work on a treasury service case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/work-treasury-service-case.md)**  
 Work on a treasury case to collect applicant information, ensure that any outstanding tasks are completed, and fulfill the treasury product request.
 -   **[Work on a document task to generate agreement documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/work-document-task-treasury-ops.md)**  
 Work on a document task to generate customer agreement documents that are required to activate the treasury product.
--   **[Work on a treasury task for due diligence or fulfilment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/work-fso-treasury-task.md)**  
-Work on a treasury task to perform due diligence or fulfilment activities for the parent treasury service case.
+-   **[Work on a treasury task for due diligence or fulfillment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/work-fso-treasury-task.md)**  
+Work on a treasury task to perform due diligence or fulfillment activities for the parent treasury service case.
 
 **Parent Topic:**[Financial Services Treasury Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-treasury-operations/fso-treasury-ops-landing-page.md)
 

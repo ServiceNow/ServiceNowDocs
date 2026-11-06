@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Inventory Model forms, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Inventory Model forms, Reference, Telecommunications Network Inventory]
 ---
 
 # Inventory Model form - Information
@@ -455,5 +455,5 @@ Select any one of the following type
 **Related topics**  
 
 
-[Creating your inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
+[Create inventory models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-your-inventory-models.md)
 

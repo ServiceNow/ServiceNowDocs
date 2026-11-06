@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage the lifecycle of hardware models with calculated lifecycle templates, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Calculated lifecycle templates, Repair and maintenance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create Calculated lifecycle templates in the Hardware Asset Workspace

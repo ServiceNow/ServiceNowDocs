@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [In-form analytics, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [In-form analytics, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Add in-form analytics to a form
@@ -18,11 +18,13 @@ Create a UI action that enables users to view relevant analytics while completin
 
 ## Before you begin
 
-Role required: pa\_power\_user, pa\_admin, or admin. In addition to the Performance Analytics roles, you must be able to create records on the UI Actions \[sys\_ui\_action\] table.
+**Important:** This feature is available only for Core UI dashboards. It is not available on net new instances.
 
-Before adding in-form analytics for a specific table and breakdown, create a breakdown dashboard that uses that table and the breakdown source of that breakdown. Design the dashboard so that it prominently displays the most useful information to the users who create records on that table. For more information about breakdown dashboards, see [Using breakdowns on dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md).
+Before adding in-form analytics for a specific table and breakdown, create a breakdown dashboard that uses that table and the breakdown source of that breakdown. Design the dashboard so that it prominently displays the most useful information to the users who create records on that table. For more information about breakdown dashboards, see [Using breakdowns on responsive dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_SpecialDashboards.md).
 
 Performance Analytics must be active to create in-form analytics.
+
+Role required: pa\_power\_user, pa\_admin, or admin. In addition to the Performance Analytics roles, you must be able to create records on the UI Actions \[sys\_ui\_action\] table.
 
 ## About this task
 

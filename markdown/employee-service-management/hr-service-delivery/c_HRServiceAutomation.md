@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Explore and use HR Case and Knowledge Management, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Explore, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Understanding Case and Knowledge Management
@@ -32,7 +32,7 @@ HR Service Delivery enhances and supports your enterprise. The relationships bet
 -   Employees can use the HR Service Portal or catalog to submit questions and other requests to the HR department.
 -   If you use the Connect Support feature, employees can chat with an HR agent who is monitoring the HR chat queue. See [Connect Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ConnectSupport.md).
 
-    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+    **Note:** Connect Support will be deprecated. For similar capabilities, please move to Advanced Work Assignment and Agent Chat. For details, see Move from Connect Support to Advanced Work Assignment and Agent Chat.
 
 -   HR staff can create, manage, and view HR cases to answer questions and process the requests that employees submit.
 -   HR managers can run reports and view overview information to monitor and manage work done by the HR department.
@@ -101,5 +101,5 @@ The following terminology is used for the application.
 |HR System Report Frequencies|System Report Frequencies defined for HR Systems Service|
 |HR System Report Types|HR System Report types used by HR System service|
 
-**Parent Topic:**[Explore and use HR Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
+**Parent Topic:**[Explore Case and Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-ckm-use-explore.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Playbook for Possible Password Spray, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -41,8 +41,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 4.  In Action 6, you need to validate the IP reputation using Open-Source Intelligence \(OSINT\) tools and the traffic pattern from these IPs in the last seven days.
 
-    \[Omitted image "playbook-password-spray-ip.png"\] Alt text: Response tasks to validate the IP reputation using the OSINT tools.
-
 5.  In Action 7, you need to identify the usernames that successfully logged in using the Password Spray attack.
 
 6.  In Action 8, you need to identify the number of failed logins and patterns.
@@ -59,8 +57,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 9.  In Action 11, if this is case of Possible Password Spray attack, perform the following actions:
 
     1.  In Action 12, you need to coordinate with appropriate teams to lock out any necessary accounts and investigate malicious activity.
-
-        \[Omitted image "playbook-password-spray-pattern.png"\] Alt text: Response tasks to lock out any necessary accounts and investigate malicious activity.
 
     2.  In Action 13, you need to initiate a post-incident review of the Possible Password Spray attack.
 

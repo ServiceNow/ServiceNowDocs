@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/manage-it-agent-dashboard.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Agent dashboard for Service Operations Workspace, Platform Analytics ITSM Dashboards, IT Service Management]
 ---

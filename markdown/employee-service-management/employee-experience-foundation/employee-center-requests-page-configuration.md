@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Employee requests page
@@ -22,8 +22,6 @@ The requests page displays all of an employee's requests. The following GIF show
 
 **Note:** Leverage the Enhanced Requests Experience to get more flexibility of configuration and requests management on Employee Center. For more information, see [Enhanced Requests Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/my-requests-update-intro.md).
 
-\[Omitted image "request-gif.gif"\] Alt text: Using request page
-
 ## Configuring the requests page
 
 You control the type of requests that appear by configuring the request filters. The filters define the table and conditions that a request must meet for it to appear on the requests page for an employee. For example, you can configure a Service Catalog Request filter by associating it with the Request \[sc\_request\] table with the conditions that the request is active and that the request was opened by or for the employee.
@@ -33,7 +31,7 @@ You control the type of requests that appear by configuring the request filters.
 -   HR child cases that are rolled up with the parent do not appear as separate requests on the requests page.
 -   Non-HR child cases \(such as IT or service catalog requests\) appear both as a separate request and as part of the roll-up on the parent case.
 
-To learn more, including how to configure the view for the subject person of an HR case, see [HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md).
+To learn more, including how to configure the view for the subject person of an HR case, see [Use HR Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRCaseManagement.md).
 
 ## Preconfigured filters
 

@@ -7,7 +7,7 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [ITOM Cloud Accelerate reference, ITOM Cloud Accelerate, IT Operations Management]
 ---
@@ -35,7 +35,7 @@ The CSC Content Pack plugin \(sn\_itom\_csc\_cp\) provides the required predefin
 
 |Plugin or application name|Description|
 |--------------------------|-----------|
-|Cloud Provisioning and Governance: Terraform Connector \(sn\_cmp\_terraform\)|Integrates Terraform Open Source, Terraform Enterprise, and Terraform Cloud with ITOM Cloud Provisioning and Governance \(CPG\), enabling you to provision and manage services in multiple clouds like AWS, Azure, GCP, and VMware. The Terraform templates are codified as cloud template catalogs that you can use to provision cloud resources.|
+|Cloud Services Catalog Terraform Connector \(sn\_cmp\_terraform\)|Integrates Terraform Open Source, Terraform Enterprise, and Terraform Cloud with ITOM Cloud Provisioning and Governance \(CPG\), enabling you to provision and manage services in multiple clouds like AWS, Azure, GCP, and VMware. The Terraform templates are codified as cloud template catalogs that you can use to provision cloud resources.|
 |Cloud Discovery Workspace \(sn\_cloud\_ops\_ws\)|Offers a comprehensive solution to manage the cloud operations of your organization.|
 |Cloud Provisioning and Governance \(com.snc.cloud.mgmt\)|Provides a single interface to access cloud resources, publish cloud offerings to a catalog, and manage the use of those resources.|
 |Guided Setup \(sn\_ads\_setup\)|Enables you to step through the initial configuration of any product or application that provides a Guided Setup module. Guided Setup assists you with planning the roll-out of a product and performing the basic configuration necessary to go live.|
@@ -96,6 +96,8 @@ The CCG Content Pack plugin \(sn\_itom\_ccg\_cp\) provides optional predefined c
 |ServiceNow IntegrationHub Action Step - REST \(com.glide.hub.action\_step.rest\)|Enables the REST action step in Workflow Studio.|
 |ServiceNow IntegrationHub Action Step - JSON Parser \(com.glide.hub.action\_step.jsonparser\)|Identify structured data from a JSON payload without having to write a script. Map incoming JSON content to a complex object output that you can use in other steps or actions. At runtime, values from a JSON payload populate the complex object output.|
 
+**Parent Topic:**[ITOM Cloud Accelerate reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/itom-cloud-accelerate-reference.md)
+
 **Related topics**  
 
 
@@ -105,5 +107,5 @@ The CCG Content Pack plugin \(sn\_itom\_ccg\_cp\) provides optional predefined c
 
 [Plugins activated with ITOM Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/plugin-itom-optimization.md)
 
-[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/now-assist-for-it-operations-management/app-now-assist-itom.md)
+[Applications installed with ServiceNow Otto for ITOM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/app-now-assist-itom.md)
 

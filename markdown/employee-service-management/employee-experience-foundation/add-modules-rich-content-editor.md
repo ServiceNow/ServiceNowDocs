@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Microsites, Creating employee communications, Managing employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Microsites, Creating employee communications, Authoring and managing employee communications, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Add predefined content layouts with the Rich Content Editor
@@ -28,8 +28,6 @@ Fill in the New content form fields. See [Create rich content](https://raw.githu
 
 2.  Drag-and-drop the module you want to use from the **Blocks** panel.
 
-    \[Omitted image "ec-rich-content-modules.png"\] Alt text: The Rich Content Editor contains vertical, horizontal, and side by side preconfigured layouts
-
 3.  Replace the placeholder headers and paragraph text with your content.
 
     For more information on styling the text and textboxes, see [Add Text or a Text section with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-rich-content-text.md).
@@ -43,6 +41,8 @@ Fill in the New content form fields. See [Create rich content](https://raw.githu
         Or, if you have previously selected images, select the image from the available images on the right side of the **Select Image** pop-up.
 
     For more information on styling the image, see [Add an Image with the Rich Content Editor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-rich-content-image.md).
+
+    **Note:** Content Managers and Admins have the option to apply background colors to selected canvas elements, including images. Available features include the use of solid and gradient colors, as well as adjustments for color opacity. These settings can be accessed in the right-hand panel under the Settings Styling tab when adding rich content to a canvas element.
 
 5.  Select **Save** or **Save and Finish**.
 

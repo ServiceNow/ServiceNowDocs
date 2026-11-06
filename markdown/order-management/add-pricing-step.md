@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/add-pricing-step.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Configurable pricing plans, Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configurable pricing plans, Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Add or change a pricing plan step
@@ -18,7 +18,7 @@ Add a pricing plan step to a configurable pricing plan that applies either a pri
 
 [Create a configurable pricing plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-custom-pricing-plan.md).
 
-Role required: sn\_csm\_pricing\_pricelist\_administrator, sn\_csm\_pricing\_pricelist\_manager
+Role required: sn\_csm\_pricing.pricelist\_administrator or sn\_csm\_pricing.pricelist\_manager
 
 ## About this task
 
@@ -27,13 +27,13 @@ You can add or change a pricing plan step only when the configurable pricing pla
 **Note:** The following steps in all pricing plans are fixed and can't be changed:
 
 -   Initialize Pricing Context
--   Fetch Cost
--   Fetch Price List Price
+-   Fetch Base Cost
+-   Fetch Base List Price
 -   Apply Attribute Adjustments
 
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Pricing** &gt; **Pricing Plans**.
 

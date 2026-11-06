@@ -1,5 +1,5 @@
 ---
-title: Import primary model content to a secondary model
+title: \(Legacy\) Import primary model content to a secondary model
 description: When content in your primary NLU model is updated, you can import the updates directly to secondary models.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/import-primary-model-content-to-secondary-model.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multilingual model management, Natural Language Understanding, Enable AI experiences]
+breadcrumb: [\(Legacy\) Multilingual model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Import primary model content to a secondary model
+# \(Legacy\) Import primary model content to a secondary model
 
 When content in your primary NLU model is updated, you can import the updates directly to secondary models.
 
@@ -58,6 +58,4 @@ You can import primary model content to only one secondary model at a time.
 ## What to do next
 
 Make sure that each of your secondary models receive the new content from the primary model. Review all the new, translated content before publishing the secondary models.
-
-**Parent Topic:**[Multilingual model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/multilingual-model-managent.md)
 

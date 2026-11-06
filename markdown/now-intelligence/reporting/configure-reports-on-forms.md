@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Configure charts on forms
@@ -18,9 +18,13 @@ You can add reports to forms such as change requests, and configure the report v
 
 ## Before you begin
 
-Role required: admin
+Role required: itil, report\_user, report\_group, report\_global, report\_admin, or admin. To create a meaningful report, you must have the right to access the data you want to report on.
 
 The following report types are not supported on forms: List, Pivot, Multilevel Pivot, Calendar, and Single Score.
+
+## About this task
+
+**Note:** This topic refers to Core UI reports, not Platform Analytics data visualizations.
 
 ## Procedure
 
@@ -34,7 +38,9 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
 3.  From the **Available** list, add `*Chart` to the **Selected** column.
 
-    Use the up and down arrows to position the report on the form.\[Omitted image "config-form-layout-options.png"\] Alt text: Configure form layout options with \*Chart highlighted in the Available column, highlighting the arrows.
+    Use the up and down arrows to position the report on the form.
+
+    \[Omitted image "config-form-layout-options.png"\] Alt text: Configure form layout options with \*Chart highlighted in the Available column, highlighting the arrows.
 
 4.  Specify a label for the chart.
 
@@ -73,5 +79,5 @@ The following report types are not supported on forms: List, Pivot, Multilevel P
 
 The selected report appears on all forms which are of the same type as the one selected. These reports are filtered based on the report condition extensions.
 
-**Parent Topic:**[Advanced reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
+**Parent Topic:**[Advanced Core UI reporting topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_AdvancedReporting.md)
 

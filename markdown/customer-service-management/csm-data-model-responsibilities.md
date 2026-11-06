@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-data-model-responsibilities.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation responsibilities
@@ -25,101 +25,17 @@ The following responsibilities are provided with the Service Model Foundation pl
 
 **Note:** Responsibilities are stored in the Responsibility Definition \[sn\_customerservice\_responsibility\_def\] table.
 
-<table id="table_ygc_wsk_jlb"><thead><tr><th>
+For the list of responsibilities included in the base system, see [List of responsibilities provided with the base system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/list-of-reponsibilities-provided-with-base-system.md). To create a responsibility, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateAResponsibilityDefinition.md).
 
-Responsibility
-
-</th><th>
-
-Used in relationship
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Account Manager
-
-</td><td>
-
-Account Team Member
-
-</td><td>
-
-Use the Account Manager responsibility to create a relationship between an agent and an account. With this relationship, the agent can: -   Create and manage cases for their accounts.
--   View account information, including the related entities for an account.
--   Create and manage contacts and additional addresses for their accounts.
-
-</td></tr><tr><td>
-
-Relationship Manager
-
-</td><td>
-
--   Consumer Team Member
--   Household Team Member
-
-</td><td>
-
-Use the Relationship Manager responsibility to create a relationship between:-   An agent and a consumer.
--   An agent and a household.
-
- With this relationship, the agent can do the following:
-
--   For a consumer:
-    -   Create and manage cases for the consumer.
-    -   View household information, including the related entities for that consumer.
--   For a household:
-    -   Create and manage cases for the household.
-    -   View household information, including the related entities for that household.
-    -   Create and manage household members.
-
-</td></tr><tr><td>
-
-Authorized Representative
-
-</td><td>
-
--   Consumer to Consumer Relationship
--   Household Member Relationship
-
-</td><td>
-
-Use the Authorized Representative responsibility to create a relationship between two consumers, regardless of household, or between two consumers within the same household.With this relationship, a consumer can:
-
--   Create and manage cases for another consumer.
--   View the information of another consumer.
--   View the install base information of another consumer and create cases for:
-    -   Sold products
-    -   Install base items
-
-</td></tr></tbody>
-</table>## Customizing responsibility definitions
+## Customizing responsibility definitions
 
 You can use the responsibility definitions provided with Service Model Foundation plugins. You can also modify these definitions or create your own definitions to meet your business requirements.
 
-**Note:** If you modify the existing definitions or create new definitions, you may also need to update ACLs to reflect the changes.
+**Note:** If you modify the existing definitions or create definitions, you must update access control lists \(ACLs\) to reflect the changes.
 
-If you have an existing account manager responsibility definition, you may need to evaluate the functionality of the account manager responsibility definition provided with the Service Model Foundation plugins.
+If you have an existing account manager responsibility definition, you must evaluate the functionality of the account manager responsibility definition provided with the Service Model Foundation plugins.
 
-**Note:** Creating and using responsibility definitions is a feature available in releases prior to Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-account-teams.md).
-
-## Create a responsibility definition
-
-Users with the system administrator role can create responsibility definitions.
-
-1.  Navigate to **Customer Service** &gt; **Administration** &gt; **Responsibility Definitions**.
-2.  Select **New** and fill in the fields on the Responsibility Definition form.
-3.  In the **Type** field, select **User** if this responsibility is to be used in the following relationships:
-    -   Account Team Member
-    -   Consumer Team Member
-    -   Household Team Member
-4.  If this responsibility is to be used in the following consumer relationships, set the **Type** field to **None**.
-    -   Consumer to Consumer
-    -   Household Member
-
-For more information, see [Create a responsibility definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_CreateAResponsibilityDefinition.md).
+**Note:** Creating and using responsibility definitions is a feature available in releases before Paris. Customers can create responsibility definitions using the Responsibility Definition \(sn\_customerservice\_responsibility\_def\) table and use those definitions to create account teams using the Account Team Member \(sn\_customerservice\_team\_member\) table. For more information, see [Create account teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-csm-account-teams.md).
 
 ## Create a unique responsibility definition
 
@@ -186,6 +102,42 @@ Relationship Manager
 
 A household can have only one Relationship Manager but a user with the Relationship Manager responsibility can manage multiple households.
 
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Contributor
+
+</td><td>
+
+Creates and tracks cases but can't fulfill.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Agent
+
+</td><td>
+
+Fulfills and resolves business-customer cases
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+Org Hierarchy Consumer Agent
+
+</td><td>
+
+Fulfills and resolves consumer cases.
+
 </td></tr></tbody>
-</table>**Note:** The unique behavior of a responsibility definition is not enforced when the responsibility is used for relationships between consumers or household members.
+</table>**Note:** The unique behavior of a responsibility definition isn’t enforced when the responsibility is used for relationships between consumers or household members.
 

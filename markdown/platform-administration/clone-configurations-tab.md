@@ -1,0 +1,126 @@
+---
+title: Configuration
+description: Use the Configuration menu to access all clone-related settings, including exclusions, preservers, cleanup scripts, clone profiles, and clone instances.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/clone-configurations-tab.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+keywords: [Definitions tab, Configuration, Definitions, Configuration menu, Exclusions, Preservers, Clone profiles, Multi-instance view, Cleanup scripts, Clone settings, Clone instances]
+breadcrumb: [Explore, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Configuration
+
+Use the Configuration menu to access all clone-related settings, including exclusions, preservers, cleanup scripts, clone profiles, and clone instances.
+
+In the Clone Admin Console, all clone-related settings are consolidated under a single Configuration menu.
+
+**Note:** The Definitions tab has been deprecated and consolidated into the Configuration tab. If you're upgrading from an earlier version, use the Configuration menu instead.
+
+**Before you begin**
+
+-   You can add external email addresses to receive clone notifications.
+-   Some default items can't be removed from the exclusions, preservers, or scripts list.
+
+## Overview page
+
+The Overview page displays a summary of all the configuration options in your instance.
+
+## Exclusions
+
+The Exclusions page lists the tables that aren't copied during an instance clone. When excluding a table, the clone automation truncates the entire table including its child tables. The clone process excludes \(or removes\) data from both the parent and the child tables. The child tables, however, aren't individually added to the list of excluded tables. Only the parent table is listed.
+
+To view child tables of a table, you can go to the following link and input their table: **\[instance\].service-now.com/now/nav/ui/classic/params/target/generic\_hierarchy\_erd.do**.
+
+By default, the system excludes tables for logging, auditing, notifications, workflow contexts, and license usage. To configure additional exclusions, see [Exclude a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_ExcludeATableFromCloning.md).
+
+For information on guidelines when adding exclusions, see [General guidelines for excluding a table from cloning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/clone-exclusions-guidelines.md).
+
+-   **Tables that can't be excluded**
+
+    Some tables are required for the target instance to function correctly after a clone. If you add any of the following tables to the excluded tables list, the clone ignores the exclusion and copies the table data as usual:
+
+    -   sys\_db\_object
+    -   sys\_metadata
+
+**Note:** No error appears when one of these tables is added to the exclusion list. The exclusion is skipped at clone time.
+
+## Preservers
+
+The Preservers page lists the data preservers defined on the source instance. Preservers protect data on the target instance from being overwritten during a clone.
+
+Use preservers for small sets of configuration and code, not large volumes of data.
+
+To keep clone duration low, add conditions to each preserver so that it preserves only the records you need.
+
+-   **Descendant tables**
+
+    When you preserve a table, clone automatically preserves all of its descendant tables. Existing preservers for child tables continue to work, so you don't need to remove them.
+
+    Because clone automatically includes descendant tables, preserving a parent table can significantly increase the number of preserved records.
+
+    **Note:** If the source or target instance is on MariaDB, clone doesn't automatically preserve descendant tables. Add a separate preserver for each child table you want to preserve.
+
+-   **Unsupported preservers**
+
+    Clone ignores preservers for the Attachment \[sys\_attachment\] and Attachment Document \[sys\_attachment\_doc\] tables. Instead, clone automatically preserves the attachments that belong to records in your other preserved tables.
+
+
+To create a preserver, see [Create a clone preserver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-new-clone-preserver.md).
+
+## Cleanup Scripts
+
+The Cleanup Scripts page displays a list of all of your available scripts. Cleanup scripts automate post-clone tasks.
+
+Set an order number on each script, to set the order that the active scripts run, with lower numbers having a higher priority. To run some scripts in parallel, you can assign the same order to them.
+
+All cleanup scripts run in the global scope irrespective of the scope in which you have configured the cleanup script.
+
+|Script|Description|
+|------|-----------|
+|Bad MID Server credentials after clone|Runs a script include called BadMIDCredentialAfterClone on a cloned instance to detect [bad MID Server user credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-post-clone-issue-resolution.md). This script include creates scheduled jobs that log MID Servers in the **Down** state to the MID Server Issue \[ecc\_agent\_issue\] table after an instance clone.|
+|Clear scheduled job node association|Resets any scheduled jobs that were active on the source instance to the **Ready** state. This script also clears the value of the **System ID** and **Claimed by** fields on all scheduled jobs.|
+|Configure Email Accounts|Migrates email accounts that existed on the source instance to the target instance if they aren't enabled there. This script also migrates the email properties to the target instance.|
+|Disable emails|Disables email on the target instance. A default data preserver maintains other email settings from the target instance.|
+|Install deactivated plugin|Enables the Domain Separation plugin for instances that use this feature.|
+|Regenerate all text indexes|Rebuilds text indexes on the target instance after a clone. Text indexes aren't cloned from the source to the target instance.|
+
+**Note:** Verify that any custom scripts have error-handling logic. By default, if one script encounters an error, the rest of the ordered scripts don't execute. Starting with the Australia Patch 5 release, you can view a link to cleanup script status. Any changes to cleanup scripts, which are defined on the source, must happen before the Restore phase of a clone to be processed within that clone request.
+
+To create a cleanup script, see [Create cleanup scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-cleanup-script-latest.md).
+
+## Clone Profiles
+
+Clone Profiles display all available profiles. Clone profiles are reusable templates for clone settings and can be saved and reused to achieve consistent outcomes with each of your clones. To learn more about Clone Profiles, see [Create a custom clone profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/configure-clone-profile.md).
+
+The profile System Profile is available by default and can't be modified. Custom profiles use the default Exclusions, Preservers, and Scripts from the System Profile. When creating a custom profile, all existing custom exclusions and preservers are automatically added.
+
+You can create as many custom clone profiles as you'd like and edit them as needed. To change the definitions of a clone profile, such as exclusions, preservers, or cleanup scripts, select the number under the definition and select the **Edit** button on the page.
+
+## Clone Instances
+
+The Clone Instances page displays registered instances and their URLs. You can use instances added to this list as a clone source or clone target for your clones. To add your non-production instance to your clone instances list, select **New**.
+
+## Multi-Instance View
+
+The Multi-Instance View provides consolidated clone activity across linked instances. Multi-Instance View is included in Instance Clone.
+
+## Clarifying exclusions and preservers combinations
+
+Clone exclusions and preservers are both useful for managing your data. The graphics help to identify the expected outcome of the following combinations of preservers and exclusion combinations. For more information, see the [February 2025 Platform Fundamentals Academy session on Clone Admin Console](https://www.servicenow.com/community/servicenow-ai-platform-blog/platform-fundamentals-academy-february-20th-2025-clone-admin/ba-p/3170929).
+
+\[Omitted image "clone-exclusion-preservers-cheatsheet.png"\] Alt text: Clone exclusions and preservers cheatsheet.
+
+|Scenario|Result|
+|--------|------|
+|Scenario 1: Excluding + Preserving|Records on the target instance remain the same.|
+|Scenario 2: Excluding + Not preserving|Records from the source instance aren't copied over and records on the target instance are removed. The table is empty but usable after the clone.|
+|Scenario 3: Not excluding + Preserving|Records on the target instance remain the same and records from the source instance are copied over.|
+|Scenario 4: Not excluding + Not preserving|Records from the source instance replace records on the target instance.|
+
+**Warning:** During a clone, data from the source instances replaces data from the target instance. Therefore, any in-progress development work on the target instance is overwritten. For example: Work-in-progress update sets, scoped apps that only exist on the target instance but not on the source instance. If you have in-progress update sets, you must export them before the clone and re-import them after the clone is finished. Custom applications that aren't yet deployed to the source instance must be reinstalled after the clone is completed.
+
+To learn more about clone and app development tips, see the [Leveraging System Clones for Seamless Development and Deployment Whitepaper](https://learning.servicenow.com/nowcreate/en?id=nc_asset&asset_id=ce3c254697cc82d06eedb30e6253af3b&nc_source=copy_asset_link).
+

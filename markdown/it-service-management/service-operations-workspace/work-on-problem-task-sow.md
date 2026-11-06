@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Problem Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Problem Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Work on a problem task in Service Operations Workspace
@@ -18,7 +18,7 @@ Manage problems and problem tasks through their life cycle, share workarounds or
 
 ## Before you begin
 
-If you aren't using the base problem life cycle, you will continue to use the classic experience to manage problems or problem tasks through their life cycle. From the problem task record page, select **Continue problem task** to be redirected to the ServiceNow AI Platform user interface where you can make state transitions. For information about state transitions of a problem, see [Life cycle of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/understanding-state-mgmt-transitions.md).
+If you aren't using the base problem life cycle, you continue to use the classic experience to manage problems or problem tasks through their life cycle. From the problem task record page, select **Continue problem task** to be redirected to the ServiceNow AI Platform user interface where you can make state transitions. For information about state transitions of a problem, see [Life cycle of a problem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/problem-management/understanding-state-mgmt-transitions.md).
 
 The base problem life cycle is included with the Problem Management  Best Practice - Madrid - State Model \(com.snc.best\_practice.problem.madrid.state\_model\) plugin. Use the Problem Management Migration Utility [store application](https://store.servicenow.com/sn_appstore_store.do#!/store/application/d03b7539dbbb3300f21e7ffdbf9619a8) to enable this plugin and migrate your records to the base problem life cycle.
 
@@ -34,15 +34,15 @@ Role required: itil or problem\_task\_analyst \(for changing the state of the pr
 
 3.  Perform any of the following actions on the problem task record page.
 
-<table id="choicetable_sj2_3wq_cbc"><thead><tr><th align="left" id="d386931e102">
+<table id="choicetable_sj2_3wq_cbc"><thead><tr><th align="left" id="d294216e104">
 
 Option
 
-</th><th align="left" id="d386931e105">
+</th><th align="left" id="d294216e107">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d386931e111">
+</th></tr></thead><tbody><tr><td id="d294216e113">
 
 **Assign a problem task to yourself**
 
@@ -50,15 +50,15 @@ Description
 
 Select **Assign to me**.
 
-</td></tr><tr><td id="d386931e123">
+</td></tr><tr><td id="d294216e125">
 
 **Assess a problem task**
 
 </td><td>
 
-Select **Assess** and fill the mandatory fields.
+Select **Assess** and fill in the required fields.
 
-</td></tr><tr><td id="d386931e135">
+</td></tr><tr><td id="d294216e137">
 
 **Start work on a problem task**
 
@@ -66,65 +66,65 @@ Select **Assess** and fill the mandatory fields.
 
 Select **Start work**.
 
-</td></tr><tr><td id="d386931e147">
+</td></tr><tr><td id="d294216e149">
 
 **Cancel a problem task**
 
 </td><td>
 
-Select **Cancel task** and fill the mandatory fields.
+Select **Cancel task** and fill in the required fields.
 
-</td></tr><tr><td id="d386931e160">
+</td></tr><tr><td id="d294216e162">
 
 **Delete a problem task**
 
 </td><td>
 
-Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Delete**.
+Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Delete**.
 
-</td></tr><tr><td id="d386931e178">
+</td></tr><tr><td id="d294216e179">
 
 **Attach knowledge articles or records that help a quick resolution of a problem task**
 
 </td><td>
 
-1.  From the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text: agent assist icon\).
+1.  From the contextual side panel, select the agent assist icon \(\[Omitted image "agent-assist-icon.png"\] Alt text:\).
 2.  Search for a resource and perform the required action.
 The knowledge articles attached here are displayed in the **Related records** tab.
 
-</td></tr><tr><td id="d386931e204">
+</td></tr><tr><td id="d294216e204">
 
 **Add an attachment to a problem task**
 
 </td><td>
 
-From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text: attachments icon\).
+From the contextual side panel, select the attachments icon \(\[Omitted image "attachment-icon.png"\] Alt text:\).
 
-</td></tr><tr><td id="d386931e219">
+</td></tr><tr><td id="d294216e218">
 
 **Copy the record page URL to easily access the record**
 
 </td><td>
 
-Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text: more actions icon\) and select **Copy URL**.
+Select the more actions icon \(\[Omitted image "more-actions-icon.png"\] Alt text:\) and select **Copy URL**.
 
-</td></tr><tr><td id="d386931e237">
+</td></tr><tr><td id="d294216e235">
 
 **Complete a problem task**
 
 </td><td>
 
-Select **Complete** and fill the mandatory fields.
+Select **Complete** and fill in the required fields.
 
-</td></tr><tr><td id="d386931e249">
+</td></tr><tr><td id="d294216e247">
 
 **Create templates for reuse**
 
 </td><td>
 
-From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text: templates icon.\).
+From the contextual side panel, select the templates icon \(\[Omitted image "template-icon.png"\] Alt text:\).
 
-</td></tr><tr><td id="d386931e265">
+</td></tr><tr><td id="d294216e262">
 
 **Re-assess a problem task**
 

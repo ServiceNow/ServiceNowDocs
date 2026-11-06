@@ -1,5 +1,5 @@
 ---
-title: Testing IdP connections
+title: Test IdP connections
 description: Testing the connection to an IdP validates the settings before enabling external authentication.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/t\_TestIdPConnections.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Multi-Provider SSO configurations, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Multi-Provider SSO configurations, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
-# Testing IdP connections
+# Test IdP connections
 
 Testing the connection to an IdP validates the settings before enabling external authentication.
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## About this task
 

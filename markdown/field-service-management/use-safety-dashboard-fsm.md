@@ -1,16 +1,16 @@
 ---
-title: Using the Field Service Safety dashboard
+title: Field Service Safety dashboard
 description: Review the status of agents, tasks, and assets using the Field Service Management Covid19 map. Monitor the compliance reports of agents through the Field Service Safety dashboard.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/use-safety-dashboard-fsm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Analytics and reporting for Field Service Management, Field Service Management]
+breadcrumb: [Analytics and reporting, Field Service Management]
 ---
 
-# Using the Field Service Safety dashboard
+# Field Service Safety dashboard
 
 Review the status of agents, tasks, and assets using the Field Service Management Covid19 map. Monitor the compliance reports of agents through the Field Service Safety dashboard.
 

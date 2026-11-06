@@ -7,7 +7,7 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -15,8 +15,6 @@ breadcrumb: [Tables and data, Configure core features, Administer the ServiceNow
 # Table administration
 
 A table is a collection of records in the database. Each record corresponds to a row in a table, and each field on a record corresponds to a column on that table.
-
-Watch this short video to see an overview of table administration.
 
 ## Get started
 

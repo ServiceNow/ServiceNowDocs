@@ -1,20 +1,20 @@
 ---
 title: Customer Service Spoke
-description: Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Customer Service Management \[com.sn\_customerservice\] plugin.
+description: Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Case Management Core \[com.sn\_customerservice\] plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/customer-service-actions.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Spokes, Workflow Studio flow integrations, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Customer Service Spoke
 
-Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Customer Service Management \[com.sn\_customerservice\] plugin.
+Provides actions for flow designers to use when creating Customer Service Management business processes. Requires the Case Management Core \[com.sn\_customerservice\] plugin.
 
 |Action|Description|
 |------|-----------|

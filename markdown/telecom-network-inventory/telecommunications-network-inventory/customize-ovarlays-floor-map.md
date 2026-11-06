@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring overlays on floor map, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Overlays on floor map, Configure, Telecommunications Network Inventory]
 ---
 
 # Customize overlays on the floor map
@@ -40,15 +40,15 @@ You can edit the overlay option in the floor map by configuring the decision tab
 
 4.  Do one of the following.
 
-<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d41484e116">
+<table id="choicetable_tyg_2bt_nfc"><thead><tr><th align="left" id="d44114e116">
 
 Action
 
-</th><th align="left" id="d41484e119">
+</th><th align="left" id="d44114e119">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d41484e125">
+</th></tr></thead><tbody><tr><td id="d44114e125">
 
 **Add a new overlay**
 
@@ -62,7 +62,7 @@ Details
 6.  In the Condition section, add the metric values and color code.
 
 
-</td></tr><tr><td id="d41484e174">
+</td></tr><tr><td id="d44114e174">
 
 **Edit an existing overlay**
 
@@ -74,7 +74,7 @@ Details
 4.  In the Condition section, edit the metric values and color code.
 
 
-</td></tr><tr><td id="d41484e207">
+</td></tr><tr><td id="d44114e207">
 
 **Delete an overlay**
 

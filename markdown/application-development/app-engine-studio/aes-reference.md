@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # App Engine Studio reference
@@ -20,8 +20,6 @@ Reference topics provide additional information about the lists and forms that y
 Learn about terms and concepts that are unique to App Engine Studio \(AES\).
 -   **[AES properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-properties.md)**  
 System properties control system behavior. The properties in this section are specific to the App Engine Studio \(AES\) application. You can access system properties for AES by navigating to **All** &gt; **App Engine Studio** &gt; **Configuration** &gt; **Properties**.
--   **[Deployment Request form in the Pipelines and Deployments app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/deployment-req-form-d-and-p.md)**  
-The Deployment Request form is accessed from within the App Engine Studio \(AES\) Pipelines and Deployments app.
 -   **[Supported features and metadata in custom templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/supported-features-metadata-custom-templates.md)**  
 Custom templates in App Engine Studio \(AES\) support most features and metadata, including, but not limited to tables, forms, roles, ACLs, record producers, simple workspaces, flows, and actions.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Learning in Workforce Optimization for ITSM, Training your teams using Coaching in Workforce Optimization for ITSM, Coaching in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Learning, Training your teams, Coaching, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Assign a course item to agents
@@ -17,6 +17,8 @@ breadcrumb: [Learning in Workforce Optimization for ITSM, Training your teams us
 Assign a course item to one or more agents and add a due date for them to complete the course.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_wfo\_cfg\_itsm.manager
 
@@ -47,15 +49,15 @@ You can analyze the course items that were most taken by your team members. You 
 
 6.  In the **Assign learning course** screen, assign the learning course to groups or team members.
 
-<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d285944e174">
+<table id="choicetable_byw_mnk_rvb"><thead><tr><th align="left" id="d108240e190">
 
 To
 
-</th><th align="left" id="d285944e177">
+</th><th align="left" id="d108240e193">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d285944e183">
+</th></tr></thead><tbody><tr><td id="d108240e199">
 
 **Assign the course to all groups that you directly and additionally manage**
 
@@ -63,7 +65,7 @@ Do this
 
 Select **To my groups**.
 
-</td></tr><tr><td id="d285944e195">
+</td></tr><tr><td id="d108240e211">
 
 **Assign the course to specific groups or team members**
 

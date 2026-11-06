@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/define-scenarios.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Completing general administrative tasks, Configure, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -34,7 +34,7 @@ A scenario helps you to determine the risks that are applicable to your business
 
 3.  On the form, fill in the fields.
 
-    For the description of the field values, see [Scenario New record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/scenario-reference.md).
+    For the description of the field values, see [Scenario record form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/scenario-reference.md).
 
 4.  Click **Submit**.
 

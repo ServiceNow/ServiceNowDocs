@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/tables-sched-jobs-query-gen.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-25"
-reading_time_minutes: 3
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Roles, tables, and scheduled jobs included with Query Generation
@@ -46,7 +46,7 @@ sn\_query\_gen.admin
 
 </td><td>
 
-Allows the user to access the Query Generation tables like an admin user. Can configure sn\_query\_gen\_table\_config records and modify Entity and Dimension records as well as set up segments in the utterance bank.
+Allows the user to access the Query Generation tables like an admin user. Can access the Health Page. Can customize semantic metadata and create manual segments.
 
 </td><td>
 
@@ -65,21 +65,33 @@ Scheduled job
 
 Description
 
+</th><th>
+
+Default frequency
+
 </th></tr></thead><tbody><tr><td>
+
+Generate Semantic Layer
+
+</td><td>
+
+Generates entities, dimensions, and segments. Cleans up unused segments and Entity and Source records. Segment generation works like the Sync Segments job.Runs when Query Generation is first installed and then on demand.
+
+</td><td>
+
+When first installed, then on demand
+
+</td></tr><tr><td>
 
 \[Query Generation\] Sync Segments Job
 
 </td><td>
 
-Generates segments from report sources, reports, indicator sources, modules, and filters. Synchronizes manual segments with segment table. Cleans up unused segments and Entity and Source records. Cleans up segments based on unused or otherwise ineligible reports, report sources, and indicator sources. Runs when Query Generation is first installed and then weekly by default.
-
-</td></tr><tr><td>
-
-\[Query Generation\] Generate Semantic Layer
+Generates segments from report sources, reports, indicator sources, modules, and filters. Synchronizes manual segments with segment table. Cleans up unused segments. Cleans up segments based on unused or otherwise ineligible reports, report sources, and indicator sources.
 
 </td><td>
 
-Generates segments from report sources, reports, indicator sources, modules, and filters. Synchronizes manual segments with segment table. Cleans up unused segments and Entity and Source records. Runs on demand. Intended for use only when you believe some entities or dimensions are missing. Otherwise, rely on the scheduled \[Query Generation\] Sync Segments Job.
+When first installed, then weekly, on Sundays
 
 </td></tr><tr><td>
 
@@ -87,7 +99,11 @@ Generates segments from report sources, reports, indicator sources, modules, and
 
 </td><td>
 
-Synchronizes entity activation states and helps with semantic entity scaling. Runs daily by default.
+Synchronizes entity activation states and helps with semantic entity scaling.
+
+</td><td>
+
+When first installed, then daily, at 20:23:00
 
 </td></tr></tbody>
 </table>## Tables installed
@@ -121,6 +137,16 @@ Dimension
 </td><td>
 
 Representation of queryable columns for every table that an Entity record references. Each record corresponds to one column. Dimension records are generated automatically, and this table is read-only.
+
+</td></tr><tr><td>
+
+Indicator Configurations
+
+ \[sn\_query\_gen\_indicator\_config\]
+
+</td><td>
+
+List of high-quality indicators, as manually determined by administrators. At search time, these indicators get their own search and are included in the general indicator search. These indicators get a boost when the two searches are then merged. For more information, see [Indicator scope control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/indicator-scope-control.md).
 
 </td></tr><tr><td>
 
@@ -172,11 +198,19 @@ A log of every call to Query Generation. For more information, see [Query Genera
 
 </td></tr><tr><td>
 
-Semantic table configuration\[sn\_query\_gen\_table\_config\]
+Semantic table configurations\[sn\_query\_gen\_table\_config\]
 
 </td><td>
 
 List of tables that Query Generation can search, whether semantic generation is enabled for that table, and whether child tables are included. Admins can create, edit, and delete these records. For more information, see [Add a table to the semantic data layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/add-table-semantic-layer.md).
+
+</td></tr><tr><td>
+
+Semantic column configurations\[sn\_query\_gen\_column\_config\]
+
+</td><td>
+
+Records for setting the domain, active status, and custom semantic descriptions and usage instructions for table columns. Must reference a table in sn\_query\_gen\_table\_config. For more information, see [Customize column descriptions and usage instructions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/customize-column-descriptions.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Query Generation reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/query-generation-reference.md)

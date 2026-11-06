@@ -7,7 +7,7 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using GRC: Metrics to provide data, GRC: Metrics in Integrated Risk Management, Risk Management, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ If you have been assigned as an approver as part of a metric definition record, 
 
 3.  Review the metric data tasks and perform one of the following actions.
 
-<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d373151e85">
+<table id="choicetable_ypj_xgr_z5b"><thead><tr><th align="left" id="d227337e85">
 
 Choice
 
-</th><th align="left" id="d373151e88">
+</th><th align="left" id="d227337e88">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d373151e94">
+</th></tr></thead><tbody><tr><td id="d227337e94">
 
 **Reject**
 
@@ -50,7 +50,7 @@ Action
 2.  Select **Reject** and provide your reason for rejection.
 
 
-</td></tr><tr><td id="d373151e115">
+</td></tr><tr><td id="d227337e115">
 
 **Approve**
 

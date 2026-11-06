@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/domain-separated-apps.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 9
+last_updated: "2026-09-10"
+reading_time_minutes: 10
 breadcrumb: [Domain separation for service providers, Access Management]
 ---
 
@@ -16,7 +16,7 @@ Many ServiceNow applications support domain separation in the base system but no
 
 ## Domain separation support levels
 
-ServiceNow applications that support domain separation may support the separation of data and data routing only, have advanced business logic separation, or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
+ServiceNow applications that support domain separation may support the separation of data and data routing only. They may also have advanced business logic separation, or support tenant \(customer\) level administration of the application. ServiceNow applications are defined with the following incremental support levels.
 
 \[Omitted image "ds-support-levels.png"\] Alt text: Domain separation support levels
 
@@ -66,184 +66,211 @@ Sometimes, a platform feature or application may effectively support SP use case
 
 |Product Suite|Application|Support level|
 |-------------|-----------|-------------|
-|[App development and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-overview.md)|No support|
-|[Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/automation-center-landing-page.md)|Basic|
-|[Robotic Process Automation \(RPA\) Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/rpa-main-landing-page.md)|Basic|
+|[App development and low-code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/hyperautomation-low-code/hyperautomation-low-code-landing-page.md)|App Engine Studio|No support|
+|Automation Center|Basic|
+|Robotic Process Automation \(RPA\) Hub|Basic|
 |ServiceNow Studio|No support|
-|[Table Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/tb-landing-page.md)|Basic|
-|[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/manage-app-development.md)|No support|
-|[Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)|Standard|
+|Table Builder|Basic|
+|App Engine Management Center|No support|
+|[Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)|Standard|
 |Enterprise Resource Planning Integration|No support|
 |Enterprise Resource Planning Customization Mining|No support|
-|[Next Experience UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/ui-builder-overview.md)|Basic|
-|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)|[Communities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/domain-separation-communities.md)|No support|
-|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/domain-separation-customer-service.md)|Basic|
-|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-release-management.md)|Basic\*|
+|Next Experience UI Builder|Basic|
+|Workflow Data Fabric Hub/Zero Copy Connectors|No support|
+|[Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/c_CustomerServiceManagement.md)|Communities|No support|
+|Customer Service Management|Basic|
+|Release Management|Basic\*|
 |Order Management for Customer Service Management|Basic|
 |Post-Sales Support|Basic|
-|[Domain separation in Workforce Optimization for Customer Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/domain-separation-configurable-wfo-cs.md)|Basic|
-|[DevOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dev-ops-landing-page.md)|[Domain separation and DevOps Change Velocity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-domain-separation.md)|No support|
-|[Domain separation and DevOps Config](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/devops-config-domain-separation.md)|
-|[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/employee-service-management-overview.md)|[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-domain-separation.md)|Basic\*|
-|[Health and Safety](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/health-safety-domain-separation.md)|No support|
-|[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/cncore-cmpro-landing-page.md)|Basic|
-|[Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/legal-domain-separation.md)|Basic|
+|Workforce Optimization for CSM|Basic|
+|Now Assist for CSM|Basic|
+|DevOps|Dev Ops|No support|
+|Dev Ops Config|No support|
+|Employee Service Management|Contract Management Pro|Basic|
+|HR Service Delivery|Basic\*|
+|Health and Safety|No support|
+|Legal and contract operations|Basic|
+|Legal Service Delivery|Basic|
+|Moveworks|No support|
 |[Procurement Service Management \(PSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/source-to-pay-operations/psm-domain-separation.md)|No support|
-|[Safe Workplace Suite](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/domain-separation-safe-workplace.md)|See application site for individual application support levels|
-|[SharePoint Online Search Connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/sharepoint-online-search-connector-domain-separation.md)|Basic|
-|[Universal Request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/domain-sep-universal-request.md)|Basic|
-|[Universal Task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/domain-sep-universal-task.md)|Basic|
-|[Workforce Optimization for HR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/wfo-hr-overview.md)|Basic|
-|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/esg-landing-page.md)|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/esg-landing-page.md)|Basic|
+|Safe Workplace Suite|See application site for individual application support levels|
+|SharePoint Online Search Connector|Basic|
+|Universal Request|Basic|
+|Universal Task|Basic|
+|Workforce Optimization for HR|Basic|
+|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/esg-landing-page.md)|[Environmental, Social, and Governance Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/esg-landing-page.md)|No support\*|
 |[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/fsm-application-landing-page.md)|[Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/domain-separation-field-service.md)|Basic|
-|[Governance, Risk, and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/r_WhatIsGRC.md)|Business Continuity Management|Basic|
-|[Governance, Risk, and Compliance \(GRC\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-domain-separation.md)|Basic|
-|[Operational Resilience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/grc-opres-landing-page.md)|Basic|
+|Governance, Risk, and Compliance|Advanced Risk|Basic|
+|Audit Management|Basic|
+|Business Continuity Management|Basic|
+|Compliance Case Management|Basic|
+|Continuous Authorization and Monitoring|Basic|
+|Governance, Risk, and Compliance \(GRC\)|Basic|
+|Model Risk Management|Basic|
+|Operational Resilience|Basic|
+|Privacy Management|Basic|
+|Policy and Compliance|Basic|
+|Regulatory Change Management|No support\*|
+|Third-party risk management|Basic|
+|[GRC: Metrics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/environmental-social-governance/esg-domain-separation.md)|Basic|
+|Now Assist for TPRM|No support\*|
+|Now Assist for IRM|No support\*|
+|Smart Assessment Engine|Basic|
 |[Industry Products](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/industry-products/industry-products-landing.md)|
-|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/fso-overview.md)|[Financial Services Card Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/domain-separation-fso-card-operations.md)|Basic|
-|Financial Services Deposit Operations|
-|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|
-|Intelligent Servicing for Fraud|
-|Property and Casualty Insurance Servicing|
-|Life Insurance Servicing|
-|Insurance Claims|
-|Financial Services Know Your Customer|
-|Financial Services Credit Operation|
-|[Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/domain-separated-apps.md)|
+|•[Financial Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/fso-overview.md)|Financial Services Card Operations|Basic|
+|Financial Services Deposit Operations|Basic|
+|Financial Services Loan Operations|Basic|
+|[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/financial-services-operations/domain-separation-financial-services-payment-operations.md)|Basic|
+|Financial Services Treasury Operations|Basic|
+|Intelligent Servicing for Fraud|Basic|
+|Property and Casualty Insurance Servicing|Basic|
+|Life Insurance Servicing|Basic|
+|Insurance Claims|Basic|
+|Individual Life Claims|Basic|
+|Financial Services Know Your Customer|Basic|
+|Financial Services Credit Operation|Basic|
+|[Financial Services Document Processor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/domain-separated-apps.md)|Basic|
+|Now Assist for Financial Services Operations|Basic|
+|Dispute Rules Content Pack for Visa|Basic|
+|Dispute Rules Content Pack for Mastercard|Basic|
 |• [Healthcare and Life Sciences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-overview.md)|[EMR Help](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/emr-help-domain-sep.md)|Basic|
 |[Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/hcls-domain-sep-serv-mgmt-core.md)|Basic|
 |[Pre-Visit Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/pre-visit-domain-sep.md)|Basic|
 |[Patient Support Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/pss-domain-sep.md)|Basic|
 |[Vaccine Administration Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/healthcare-life-sciences/VAM-domain-separation.md)|Basic|
-|Manufacturing Commercial Operations|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/manufacturing/mco-domain-separation.md)|Standard|
-|Retail Core|Basic|
-|Retail Task Management|Basic|
-|• [Manufacturing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/manufacturing-domain-separation.md)|[Industrial Process Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/industrial-process-manager-overview.md)|Standard|
-|[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-manager.md)|Standard|
-|[Operational Technology Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/oper-tech-vulnerability-response-landing-page.md)|Standard|
-|[Operational Technology Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/operational-technology/operational-technology-manager.md)|Standard|
-|[Telecommunications, Media, and Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/telecom-media-tech-landing.md)|[Account Lifecycle Events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)|Basic|
-|[Customer Service Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/domain-separation-cspm.md)|Basic|
+|Healthcare Operations Core|Basic|
+|Care Team Operations for Healthcare IT|Basic|
+|Care Team Operations for Biomed|Basic|
+|Care Team Operations for Facilities|Basic|
+|Care Team Operations for Environmental Services|Basic|
+|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/manufacturing/manufacturing-overview.md)|[Manufacturing Commercial Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/manufacturing/mco-domain-separation.md)|Basic|
+|[Retail Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/manufacturing/mco-domain-separation.md)|Basic|
+|[Public Sector Digital Services \(PSDS\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/government-industry/bun-public-sector-landing-page.md)|Public Sector Digital Services|Basic|
+|[Telecommunications, Media, and Technology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/telecom-media-tech-landing.md)|[Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/acct-lifecycle-events/account-lifecycle-domain-separation.md)|Basic|
+|Customer Service Problem Management|Basic|
 |[ServiceNow Otto for Telecommunications, Media, and Technology \(TMT\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-media-technology/now-assist-spmc.md)|Basic \(Inherited from [Domain separation in the AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-in-the-now-assist-admin-console.md)\).|
 |[Proactive Service Experience Workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/domain-separation-assurance-workflows.md)|Standard|
 |[Service Bridge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-exchange/service-bridge-v2-domain-separation.md)|Standard|
-|[Product Support for Technology application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/tech-product-support-case-app.md)|Basic \(Inherited from [Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/domain-separation-customer-service.md)\).|
+|[Product Support for Technology application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/proactive-service-exp-workflows/tech-product-support-case-app.md)|Basic \(Inherited from Customer Service Management\).|
 |[Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/telecom-network-inventory/domain-seperation-telecommunication-network-inventory.md)|Basic|
-|[IT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/it-asset-management.md)|[Cloud Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/domain-separation-cloudin.md)|No support|
-|[Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/domain-separation-ham.md)|Enhanced|
-|[Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/domain-separation-software-asset-management.md)|Enhanced|
+|IT Asset Management|Cloud Insights|No support|
+|Hardware Asset Management|Enhanced|
+|Software Asset Management|Enhanced|
 |Enterprise Asset Management|Standard|
-|[Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/r_ITBusinessManagement.md)|[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/agile-development-2.0-domain-separation.md)|Basic\*|
-|[Alignment Planner Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/alignment-planner-domain-separation.md)|Basic|
-|[Application Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-portfolio-management/domain-separation-app-portfolio-mgt.md)|Basic|
-|[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-separation-cost-management.md)|No support|
-|[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-sep-demand-mgt.md)|Basic|
+|Asset Audit Response|Basic|
+|Strategic Portfolio Management|Agile Development|Basic\*|
+|Alignment Planner Workspace|Basic|
+|Application Portfolio Management|Basic|
+|Cost Management|No support|
+|Demand Management|Basic|
 |Financial Management|No support|
-|[Investment Funding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-separation-investment-funding.md)|Basic|
-|[Project Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-separation-project-portfolio-financials.md)|Basic\*|
-|[Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-release-management.md)|Basic\*|
-|[Scaled Agile Framework \(SAFe\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-separation-scaled-agile-framework.md)|Basic\*|
-|[Test Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-separation-test-management.md)|Basic\*|
+|Investment Funding|Basic|
+|Project Portfolio Management|Basic\*|
+|Release Management|Basic\*|
+|Scaled Agile Framework \(SAFe\)|Basic\*|
+|Test Management|Basic\*|
 |Goal Framework|Basic|
-|[IT Operations Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/r_ITOMApplications.md)|[Cloud Provisioning and Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/domain-separation-cloud-management.md)|Basic|
+|IT Operations Management|Cloud Provisioning and Governance|Basic|
 |Agent Client Collector|Basic|
-|[Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/c_DiscoveryDomainSeparation.md)|Standard|
-|[Event Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/domain-separation-event-management.md)|Basic|
+|Discovery|Standard|
+|Event Management|Basic|
 |Service Operations Workspace for ITOM|Basic|
-|[Health Log Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/hla-domain-separation.md)|Basic|
-|[Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/domain-separation-operational-intelligence.md)|Basic|
-|[Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/domain-separation-service-mapping.md)|Basic|
+|Health Log Analytics|Basic|
+|Metric Intelligence|Basic|
+|Service Mapping|Basic|
 |Cloud Migration Assessment|Basic|
 |Action Library|No support|
 |Cloud Configuration Governance|No support|
-|[Tag Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/tag-governance-domain-separation.md)|Basic|
+|Tag Governance|Basic|
 |Cloud Insights Billing|No support|
 |Cloud Provisioning and Governance: Google Cloud|Basic|
-|Cloud Provisioning and Governance Terraform|Basic|
+|mCloud Provisioning and Governance Terrafor|Basic|
 |Cloud Operation Workspace|Basic|
 |Cloud Discovery|Standard|
-|[IT Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_ITServiceManagement.md)|Benchmarks|No support|
-|[Change Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-change-mgt.md)|Basic|
-|[Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-coaching.md)|Basic|
-|[Continual Improvement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/cim-domain-separation.md)|Basic|
-|[Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-contract-mgmt.md)|No support|
-|[Domain separation and Digital Product Release](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/dpr-domain-separation-digital-product-release.md)|Basic|
-|[Expense Line](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/r_InstalledWithExpenseLine.md)|No support|
-|[Incident Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-incident-comm-mgt.md)|Standard|
-|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
+|Synthetic Monitoring|Basic|
+|Service Observability|Basic|
+|IT Service Management|Benchmarks|No support|
+|Change Management|Basic|
+|Coaching|Basic|
+|Continual Improvement Management|Basic|
+|Contract Management|No support|
+|Digital End-User Experience|No support|
+||Basic|
+|Expense Line|No support|
+|Incident Communications Management|Standard|
+|Incident Management|Standard|
 |[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
-|[Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-incident-management.md)|Standard|
-|[On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-on-call-scheduling.md)|Standard|
+|Incident Management|Standard|
+|On-Call Scheduling|Standard|
 |Asset Management|Basic|
-|[Problem Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-and-problem-management.md)|Standard|
-|[Procurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-procurement.md)|Standard\*|
-|[Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-product-catalog.md)|Standard|
-|[Request Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-sep-req-management.md)|Standard|
+|Problem Management|Standard|
+|Procurement|Standard\*|
+|Product Catalog|Standard|
+|Request Management|Standard|
 |[Service Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-service-catalog-management.md)|Standard|
-|[Service Level Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-sla.md)|Basic|
+|Service Level Management|Basic|
 |[Service Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/SPM2-landing-page.md)|Basic\*|
 |Site Reliability Operations|Basic\*|
-|[Task outage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-task-outage.md)|Basic|
-|[Domain separation and Vendor Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-sep-vendor-management-workspace.md)|No support|
-|[Walk-up Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-walkup-experience.md)|Basic|
+|Task outage|Basic|
+|Vendor management workspace|No support|
+|Walk-up Experience|Basic|
+||Basic|
 |[Mobile Configuration and Navigation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-config-navigation.md)|[Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/mobile-domain-separation.md)|Basic|
-|[Now Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md)|[Dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/domain-separation-in-dashboards.md)|Basic|
-|[Performance Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PAWithDomainSeparation.md)|Enhanced|
-|[Process Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/domain-separation-process-optimization.md)|Basic|
-|[Reporting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/domain-separation-in-reporting.md)|Basic|
-|[User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/user-exp-analytics-landing.md)|Basic|
-|[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-platform/now-platform-landing.md)|[Administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/intro-now-platform-landing.md)| |
-|[Domain separation and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
-|[ServiceNow AI Platform Capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/capabilities-bundle-landingpage.md)| |
-|[User Interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_NavigationAndTheUserInterface.md)| |
-|[Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-domain-separation.md)|Standard|
-|[AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/ai-search-domain-separation.md)|Searches respect domain restrictions from indexed records|
-|[App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/aes-domain-sep.md)|No support|
-|[Application Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/app-management-domain-separation.md)|No support|
+|Now Intelligence|Dashboards|Basic|
+|Performance Analytics|Enhanced|
+|Process Optimization|Basic|
+|Reporting|Basic|
+||Basic|
+|[The ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-platform/now-platform-landing.md)|Advanced Work Assignment|Standard|
+|[Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/ci-agent-chat-reference.md)|Standard|
+||Basic\*|
+|AI Search/Now Assist in AI Search|Searches respect domain restrictions from indexed records|
+|App Engine Studio|No support|
+|Application Management|No support|
 |[Assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-assessments.md)|Standard|
-|[Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/domain-separation-auto-test-framework.md)|Standard\*|
-|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-voice.md)| |
-|[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/code-signing-landing.md)|Basic support|
-|[Contextual Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-contextual-search.md)|Standard|
+|Automated Test Framework|Standard\*|
+|[ServiceNow Voice](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-voice.md)|Basic|
+|[Code Signing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/code-signing-landing.md)|No support|
+|Contextual Search|Standard|
 |[Configuration Management \(CMDB\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-cmdb.md)|Standard|
 |[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/domain-separation-content-management.md)|No support|
 |[Credentials and Connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/connections-and-credentials/domain-separation-credentials_conn.md)|Standard|
-|[Data Certification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/data-separation-data-certification.md)|Basic\*|
+|Data Certification|Basic\*|
 |[Data Classification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-classification/domain-separation-data-classification.md)|Enhanced|
 |Data Privacy|No support|
-|[Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-data-management.md)|Basic\*|
-|[Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/domain-separation-delegated-development.md)|No support|
+|Data Management|Basic\*|
+|Delegated Development|No support|
 |[Dependency Views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-dependency-views.md)|Basic|
 |[Document Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-document-services.md)|No support|
-|[Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-sep-dynamic-translation.md)|Basic|
+|Dynamic Translation|Basic|
 |[Edge Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/edge-encryption/edge-encryption-domain-separation.md)|Basic support|
 |External Content Connectors|No support\*|
 |[Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/field-encryption.md)|No support|
-|[Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/now-platform-encryption.md)|No support|
+|[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/encryption-landing.md)|No support|
 |[Cloud Encryption with Key Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/cloud-encryption/dare-overview.md)|Basic support|
-|[Field Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-field-normalization.md)|No support|
+|Field Normalization|No support|
 |[Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-designer-domain-separation.md)|Standard\*|
 |[Guided Setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/domain-separation-guided-setup.md)|No support|
-|[Domain separation and Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/domain-separation-integrationhub.md)|Standard\*|
-|[Integrations with third-party applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-app-data-source-integration.md)|Basic+Standard|
+||Standard\*|
+|Integrations with third-party applications and data sources|Basic+Standard|
 |[Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-knowledge.md)|Standard|
-|Hermes Messaging Service|No support|
+|Hermes Messaging Service|Basic|
 |[Managed Documents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-managed-documents.md)|No support|
 |[MetricBase](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-metricbase.md)|Basic|
-|Natural Language Understanding|Basic+Standard|
-|[Notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-notifications.md)|Standard|
+|[Natural Language Understanding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic+Standard|
+|Notifications|Standard|
 |[ODBC Driver](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/domain-separation-odbc-driver.md)|Basic\*|
 |[Orchestration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-orchestration.md)|Standard\*|
 |[Password Reset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-pwd-reset.md)|Standard|
 |[Platform Security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/domain-sep-landing-page.md)|Domain separation landing page|
 |Data Privacy|No support|
-|[Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/domain-separation-predictive-intelligence.md)|Standard|
+|Predictive Intelligence|Standard|
 |Proactive Triggers|Basic|
 |[Process Automation Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer-domain-separation.md)|Basic|
 |[Remote Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-remote-tables.md)|No support|
-|[Schedules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-support-for-schedules.md)|Basic|
+|Schedules|Basic|
 |[Script debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/domain-separation-script-debugging.md)|Basic|
-|[Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/domain-separation-search-suggestions.md)|No support|
+|Search Suggestions|No support|
 |[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/domain-separation-service-portal.md)|No support|
 |Service Graph Connectors|No support|
 |[Domain separation and Sidebar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/sidebar-domain-separation.md)|Standard|
@@ -251,26 +278,79 @@ Sometimes, a platform feature or application may effectively support SP use case
 |Subscription Management|Basic\*|
 |[Survey Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/domain-separation-surveys.md)|Basic\*|
 |Task Intelligence|No support|
-|[Domain separation and Time Card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/domain-separation-time-card.md)|Basic\*|
-|[UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/uib-domain-sep.md)|Standard|
+||Basic\*|
+|UI Builder|Standard|
 |[Virtual Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/conversational-interfaces/domain-separation-virtual-agent.md)|Basic|
 |[Visual Task Boards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/domain-separation-visual-task-boards.md)|Basic|
 |[Web Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/domain-separation-web-services.md)|Standard\*|
 |[Workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/c_WorkflowsAndDomainSeparation.md)|Standard\*|
 |Workspace|Standard|
-|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-operations-landing-page.md)|[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/domain-separation-config-compliance.md)|Standard|
-|[Configuration Data Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/domain-separation-cdm.md)|Basic|
+|Platform Fundamentals|[Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/impact/impact-landing-page.md)|No support|
+|Instance Data Replication|No support|
+|Integration Hub|Standard\*|
+|Integrations with third-party applications and data sources|Basic Standard|
+|Knowledge Management|Standard|
+|Localization Framework|No support|
+|Localization Workspace|No support|
+|MetricBase|Basic|
+|Model Context Protocol Client|Basic|
+|Natural Language Understanding|Basic+Standard|
+|Notifications|Standard|
+|Now Assist AI Agents|Basic|
+|ODBC Driver|Basic\*|
+|Omnichannel Callback|No support|
+|Orchestration|Standard\*|
+|Password Reset|Standard|
+|Platform Security|Domain Separation landing page|
+|Data Privacy|No support|
+|Predictive Intelligence|Basic+Standard|
+|Proactive Triggers|Basic|
+|Process Automation Designer|Basic|
+|Remote Tables|No support|
+|Robotic Process Automation Hub|Basic|
+|Schedules|Basic|
+|Script debugger|Basic|
+|Search suggestions|No support|
+|Service Graph Connectors|Standard\*|
+|ServiceNow Vault|No support|
+|Service Portal|No support|
+|Sidebar \(aka Collaborative Chat\)|Standard|
+|State Flows|No support|
+||Basic\*|
+|Survey Management|Basic\*|
+|Task Intelligence|No support|
+|Theme Builder|No support|
+|TinyMCE|No support|
+|Time Card|Basic\*|
+|Transaction and Session Management|No support|
+|UI Builder|Standard|
+|Virtual Agent|Standard|
+|Visual Task Boards|Basic|
+|Web Services|Standard\*|
+|Workflow|Standard\*|
+|Workspace|Standard|
+|Operational Technology|Operational Technology Manager|Basic|
+|Industrial Process Manager|Basic|
+|Operational Technology Vulnerability Response|Basic|
+|Operational Technology Incident Management|Basic|
+|[Security Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/security-operations-landing-page.md)|Subscription Management[Configuration Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/domain-separation-config-compliance.md)|Standard|
 |[IBM QRadar Offense Ingestion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/qradar-ibm-domain-sep.md)|Basic|
 |[Microsoft Graph Security API alert ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/ms-graph-domain-sep.md)|Basic|
 |[Security Incident Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/domain-separation-security-incident-response.md)|Standard|
 |[Threat Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/domain-separation-threat-intelligence.md)|Standard|
+|Threat Intelligence Security Center|Standard|
 |[Vulnerability Response](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/security-management/domain-separation-vulnerability-response.md)|Standard|
 |[Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/c_ServiceManagement.md)|[Facilities Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/domain-separation-facilities-service-mgt.md)|Standard|
 |[Planned Maintenance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/service-management-for-the-enterprise/domain-separation-planned-maintenance.md)|Standard\*|
-|[Proactive Triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/proactive-triggers.md)|Basic|
-|NOW Code Editor|No support|
+|Structured Problem Analysis|No support|
 |Workforce Optimization for ITSM|Basic|
 |Vendor Management Workspace|Basic|
+|Proactive Triggers|Basic|
+|Employee Service Management|SharePoint Online Search Connector|Basic|
+|Workforce Optimization for ITSM|Basic|
+|Application Portfolio Management|Application Portfolio Management|Basic|
+|Domain separation and Conversational Analytics|Basic|
+|[Sales Customer Relationship Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/order-mgt-overview.md)|Advanced Approval for Sales Management|Enhanced|
 
 **Parent Topic:**[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/domain-sep-landing-page.md)
 

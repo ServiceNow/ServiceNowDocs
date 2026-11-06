@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Service Mapping reference, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -100,6 +100,19 @@ Limits the maximum number of tag-based service candidates created for a single f
 
 -   **Type:** integer
 -   **Default value:** 200
+
+</td></tr><tr><td>
+
+sn\_sm\_scoped\_app.max\_valid\_discovery\_period\_in\_days
+
+</td><td>
+
+Sets the maximum number of days a host is considered valid when generating application service candidates. Setting this value to any non-positive integer deactivates this feature.
+
+ **Warning:** If this value is set lower than or too close to the discovery cycle, it might result in the removal of all hosts. Consequently, no new candidates are created and existing candidates are deleted.
+
+ -   **Type:** integer
+-   **Default value:** 0
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Service Mapping reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/service-mapping-reference.md)

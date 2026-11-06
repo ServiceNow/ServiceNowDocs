@@ -1,29 +1,31 @@
 ---
 title: Platform Analytics release notes
-description: Platform Analytics has new and updated features in the Yokohama release.
+description: Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience. Platform Analytics has new and updated features in the Brazil release.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/analytics-intel-report-rn-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Platform Analytics release notes
 
-Platform Analytics has new and updated features in the Yokohama release.
+Optimize processes and increase productivity with the Platform Analytics applications. These applications include Performance Analytics, Usage Insights, and Process Mining. Present data through either the Core UI or the Platform Analytics experience. Platform Analytics has new and updated features in the Brazil release.
 
--   **[Now Assist in Platform Analytics release notes]()**  
-Now Assist for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through Generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
--   **[Performance Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/performance-analytics-rn.md)**  
-The ServiceNow®   Performance Analytics application is an in-platform process optimization solution. It enables  organizations to set, track, and analyze progress toward goals. Performance Analytics was enhanced  and updated in the Yokohama release.
+-   **[Automation Discovery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/automation-discovery-rn-2026-09.md)**  
+The Automation Discovery application helped you identify automation opportunities for your workflows. This application is no longer supported starting with the Brazil release.
+-   **[ServiceNow Otto for Platform Analytics Release Notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/otto-for-platform-analytics-rn-static.md)**  
+ServiceNow Otto® for Platform Analytics consists of several skills and applications that let you generate and work with Platform Analytics objects through generative AI. These skills let you analyze your business data through conversational interactions, without a technical knowledge of Platform Analytics.
 -   **[Platform Analytics experience release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/platform-analytics-experience-rn.md)**  
-The ServiceNow® Platform Analytics experience provides a single center for consuming the data from all Platform Analytics products. Platform Analytics experience was enhanced and updated in the Yokohama release.
+The Platform Analytics experience application enables you to distribute and consume Platform Analytics through data visualizations and dashboards with optional filters. Explore KPIs and receive insights into significant events in the data.
+-   **[Performance Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/performance-analytics-rn.md)**  
+The ServiceNow® Performance Analytics application is an in-platform process optimization solution. It enables organizations to set, track, and analyze progress toward goals.
+-   **[Predictive Intelligence release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/predictive-intelligence-rn.md)**  
+The ServiceNow® Predictive Intelligence application is a powerful interface to train machine learning models. See the following sections for release notes by version.
 -   **[Process Mining release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/process-optimization-rn.md)**  
-The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Yokohama release.
--   **[User Experience Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/user-experience-analytics-rn.md)**  
-The ServiceNow® User Experience Analytics application enables you to monitor usage analytics of Next Experience web applications as well as Virtual Agent, ServiceNow mobile, and Service Portal applications. User Experience Analytics was enhanced and updated in the Yokohama release.
+The ServiceNow® Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.
 
 **Parent Topic:**[Features and changes by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/new-features-changes.md)
 

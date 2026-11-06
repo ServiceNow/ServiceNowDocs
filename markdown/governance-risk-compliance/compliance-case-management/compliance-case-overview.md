@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Explore, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Using the compliance case overview related list
@@ -31,7 +31,7 @@ The Description section includes the detailed information that you can fill in w
 
 ## State section
 
-The State section includes the workflow states of a compliance case. For example in this section, you see various stages of the compliance case, such as New, Triage, Investigate, Resolve, Post case review, and Close. These states determine the status of the case. A compliance case administrator can configure these states in the GRC: Compliance Case Management application. For more information, see [Create a state model to define the workflow states and transitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).
+The State section includes the workflow states of a compliance case. For example in this section, you see various stages of the compliance case, such as New, Triage, Investigate, Resolve, Post case review, and Close. These states determine the status of the case. A compliance case administrator can configure these states in the GRC: Compliance Case Management application. For more information, see [Create a compliance state model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.md).
 
 ## Case schedules and milestones section
 

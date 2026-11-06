@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring external applications for legal contracts, Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configuring external applications for legal contracts, Configure, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure an e-signature provider for legal contracts
@@ -20,7 +20,7 @@ Configure an electronic signature provider to enable users to sign contract docu
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/adobe-sign-spoke.md) v2.5.1 or later version**
+-   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/adobe-sign-spoke.md) v2.8.0 or later version**
 
     For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-adobe-sign.md).
 

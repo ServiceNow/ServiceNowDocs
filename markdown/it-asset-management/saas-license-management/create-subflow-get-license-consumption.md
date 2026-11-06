@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management]
+breadcrumb: [SaaS License Connections, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Create a subflow to get license consumption
@@ -20,7 +20,7 @@ Create a subflow to add license consumption data to the Subscription Consumption
 
 This subflow is applicable to any integration that uses the SaaS license connection framework, including custom integrations.
 
-Role required: flow\_designer or admin
+Role required: flow\_designer
 
 ## Procedure
 

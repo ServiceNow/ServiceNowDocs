@@ -7,8 +7,8 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 14
+last_updated: "2026-09-10"
+reading_time_minutes: 15
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -149,7 +149,10 @@ Start date
 
 The preliminary or estimated date when the work is initially planned to begin. This date helps outline the intended timing for early demand planning and prioritization. You can set this date during initial demand creation or anytime in the planning phase when a rough idea forms. This date can be updated until the demand is officially approved. For example, you’re planning for a database upgrade to start on 2025-11-01.
 
-This date is changed to **Planned start date** when the demand is converted to a project.**Note:** When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_InstalledWithProjectManagement.md).
+This date is changed to **Planned start date** when the demand is converted to a project.**Note:**
+
+-   When you change the planned start date of a demand or project, the associated cost plans and resource assignments also change. The **Change Resource Plan and Cost Plan Start Date with Demand or Project Start Date Change** property controls the behavior for a demand date change. This property isn’t enabled by default. For more information, see [Properties installed with Project Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_InstalledWithProjectManagement.md).
+-   The **Start date** column label is changed to **Planned start date**. This change is applicable only for new customers who begin using the Brazil version. To ensure continuity, if you’re upgrading to the Brazil release from an earlier release, you’ll continue to see the prior labels.
 
 </td></tr><tr><td>
 
@@ -159,7 +162,10 @@ Due Date
 
 The preliminary or estimated date when the planned work is expected to be completed. This date provides an expected completion window for planning and stakeholder communication. You can set this date anytime in the planning phase when a rough idea forms and can be updated until the demand is officially approved.For example, you’re planning to complete the database upgrade by 2025-12-31.
 
-**Note:** This date is changed to **Planned end date** when the demand is converted to a project.
+**Note:**
+
+-   The **Due date** column label is changed to **Planned end date**. This change is applicable only for new customers who begin using the Brazil version. To ensure continuity, if you’re upgrading to the Brazil release from an earlier release, you’ll continue to see the prior labels.
+-   This date is changed to **Planned end date** when the demand is converted to a project.
 
 </td></tr><tr><td>
 
@@ -319,7 +325,7 @@ Impacted Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module.You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr><tr><td>
 
@@ -327,7 +333,7 @@ Business Applications
 
 </td><td>
 
-If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module.You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
+If the demand is to change, enhance, or add one or more business applications, the applications associated with the demand. Business applications are defined in the Enterprise Architecture \(formerly Application Portfolio Management\) module. For more information, see .You can select any business application in your enterprise regardless of whether it’s related to a capability selected in the **Business Capabilities** field.
 
 </td></tr></tbody>
 </table><table id="table_t23_vj3_fdc"><thead><tr><th>
@@ -495,7 +501,7 @@ ROI %
 
 </td><td>
 
-ROI calculated based on the values in the **Total costs** and **Financial return** fields.The value in this field is updated when a cost plan, benefit plan, or resource assignment is created or updated for the demand in the Qualified or Approved state.
+ROI calculated based on the values in the **Total costs** and **Financial return** fields.This field is updated when a cost plan, benefit plan, or resource assignment is created or updated. The demand must be in the **Qualified** or **Approved** state.
 
 </td></tr><tr><td>
 
@@ -664,6 +670,11 @@ Determines the calculation to use for task dependencies for the project when the
 |-----|-----------|
 |Team|The planning team to which the created EAP entity is assigned. This field becomes read only once the EAP entity is created. This value is an optional value.|
 |Converted to|The name of the created EAP entity. This field is read-only.|
+
+|Field|Description|
+|-----|-----------|
+|Product|Product or system that the demand relates to.|
+|Impacted AI systems|Impacted AI systems associated with the demand. You can select existing AI systems from the list or remove systems that are no longer relevant.|
 
 **Parent Topic:**[Demand Management forms](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/demand-management-forms.md)
 

@@ -1,28 +1,30 @@
 ---
 title: Inflow and outflow analysis: node star diagram
-description: View the process graph as a node star diagram. The node star diagram explicitly displays the activities that are coming into the selected node and the activities that are going out of the selected node.
+description: View the process graph as a node star diagram in the Process Map component on dashboards. The node star diagram explicitly displays the activities that are coming into the selected node and the activities that are going out of the selected node.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/node-diagram.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using Process Mining, Process Mining, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Use, Process Mining, Platform Analytics]
 ---
 
 # Inflow and outflow analysis: node star diagram
 
-View the process graph as a node star diagram. The node star diagram explicitly displays the activities that are coming into the selected node and the activities that are going out of the selected node.
+View the process graph as a node star diagram in the Process Map component on dashboards. The node star diagram explicitly displays the activities that are coming into the selected node and the activities that are going out of the selected node.
 
-When you view a process graph, and want to know the details of one node in the graph, you must use the node star diagram.
+When you view a process graph in the Process Map component on dashboards, and want to know the details of one node in the graph, you must use the node star diagram.
+
+To know more about configuring a Process Mining map to view the process graph in the PAR dashboard, see [Configure Process Mining map in PAR dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/config-dashboard.md). For more information about Platform Analytics \(PAR\) dashboards, see [Exploring Platform Analytics dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/ac-elements.md).
 
 The following process graph displays details about the reassignment analysis.
 
 \[Omitted image "process-graph.png"\] Alt text: Process graph
 
-Select any node of the process graph and the graph changes to the node star diagram displaying all the incoming and outgoing arcs from the selected node. When you select the **Process graph** button again, the entire graph is displayed as a process graph.
+Select any node of the process graph and the graph changes to the node star diagram displaying all the incoming and outgoing arcs from the selected node. When you select the **Process graph** button again, the entire graph is displayed as a process graph. You can also apply a view based on the activity definitions for the project. Multi-dimensional maps are supported on the Platform Analytics dashboards. You can also run work notes analysis from Platform Analytics dashboards. For more information about work notes analysis, see [Working with transition work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/worknotes.md).
 
 If you select PO Group 10, a node star diagram similar to the following figure is displayed. You can view the records assigned to PO Group 10. You can also view the records that are assigned from PO Group 10 to other groups.
 

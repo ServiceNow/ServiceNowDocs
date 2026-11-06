@@ -1,20 +1,22 @@
 ---
 title: HR e-signature
-description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
+description: Sign electronic documents from any desktop or mobile device with e-signature. E-signature enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/hr-e-signature.html
 release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # HR e-signature
 
-Sign electronic documents from any desktop or mobile device with e-signature. E-signature is a scoped application that enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
+Sign electronic documents from any desktop or mobile device with e-signature. E-signature enables users to sign managed documents, knowledge articles, or HR document templates with their typed or drawn e-signature, their credentials, or as an acknowledgment.
+
+**Note:** Find answers to some common questions on E-signature. See this [KB0966931](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0966931).
 
 The e-signature \[com.snc.esign\] plugin activates the sn\_esign.min\_admin\_count system property \[sys\_properties.list\]. This property prevents you from deleting your only e-signature admin user by requiring a minimum number \(default is two\) of active users with this role.
 
@@ -24,32 +26,12 @@ HR e-signature is a **non-embedded signature** capability for managed documents,
 
 By default, the following HR roles contain the following e-signature roles.
 
-<table id="table_syn_r3w_5hb"><thead><tr><th>
+|HR Role|E-signature role|
+|-------|----------------|
+|HR administrator \[sn\_hr\_core.admin\]|E-signature administrator \[sn\_esign.admin\]|
+|HR basic \[sn\_hr\_core.basic\]|E-signature manager \[sn\_esign.config\_manager\]|
 
-HR role
-
-</th><th>
-
-E-signature role
-
-</th></tr></thead><tbody><tr><td>
-
-HR administrator\[sn\_hr\_core.admin\]
-
-</td><td>
-
-E-signature administrator\[sn\_esign.admin\]
-
-</td></tr><tr><td>
-
-HR basic\[sn\_hr\_core.basic\]
-
-</td><td>
-
-E-signature manager\[sn\_esign.config\_manager\]
-
-</td></tr></tbody>
-</table>You can use the assignments as-is or change them. To change the default assignments, see [Components installed with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/components-installed-with-e-signature.md) for information on how to assign a role to another role, group, or user.
+You can use the assignments as-is or change them. To change the default assignments, see [Components installed with e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/components-installed-with-e-signature.md) for information on how to assign a role to another role, group, or user.
 
 ## How to use e-signature templates with HR tasks
 

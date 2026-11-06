@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using human readable URLs for the Knowledge article page, Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -22,7 +22,7 @@ Role required: admin, sp\_admin
 
 ## About this task
 
-If you are upgrading from a release earlier than the Yokohama release, you must enable the Human Readable URLs feature for the Knowledge Article View page. Beginning with the Yokohama release, this feature is enabled by default.
+If you are upgrading from a release earlier than the Brazil release, you must enable the Human Readable URLs feature for the Knowledge Article View page. Beginning with the Brazil release, this feature is enabled by default.
 
 **Note:** To disable the Human Readable URLs feature, change the **glide.service\_portal.enable\_human\_readable\_urls** system property value to false.
 

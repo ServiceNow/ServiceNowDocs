@@ -1,38 +1,42 @@
 ---
 title: Red Hat Virtualization \(RHV\) extension classes
-description: The CMDB CI Class Models store app adds or updates classes for Red Hat Virtualization \(RHV\).
+description: The CMDB CI Class Models app adds or updates classes for Red Hat Virtualization \(RHV\) OLVM or RHV.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models-redhat-rhv.html
 release: yokohama
 product: CMDB CI Class Models
 classification: cmdb-ci-class-models
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [CMDB CI Class Models, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [CMDB CI class models, CMDB hierarchy, Explore, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Red Hat Virtualization \(RHV\) extension classes
 
-The CMDB CI Class Models store app adds or updates classes for Red Hat Virtualization \(RHV\).
+The CMDB CI Class Models app adds or updates classes for Red Hat Virtualization \(RHV\) OLVM or RHV.
 
-The CMDB CI Class Models app adds class models that extend the CMDB class hierarchy, including class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
+CMDB CI Class Models is a ServiceNow Store app that adds class models that extend the CMDB class hierarchy. The new or updated classes include class descriptions, identification rules, identifier entries, and, if applicable, dependent relationships. You can use the added classes just like any other CMDB class. Applications such as Discovery and Service Mapping Patterns can use the class extensions to populate CIs and discover technologies and software.
 
-See the full release notes for all CMDB CI Class Models.
+Starting with version 1.28.0, Discovery and Service Mapping Patterns supports both OLVM and RHV discovery. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/red-hat-virtualization-discovery.md). The RHV patterns, tables, and related items have been renamed to oVirt.
+
+See the release notes for all CMDB CI class models.
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Red Hat Virtualization \(RHV\)
 
-Red Hat Virtualization \(RHV\) is a virtualization product which is based on the Kernel-based Virtual Machine \(KVM\) hypervisor. RHV uses the SPICE protocol and Virtual Desktop Server Manager \(VDSM\) with a RHEL-based centralized management server. RHV solution is based on two primary software components: Red Hat Virtualization Manager \(RHV-M\) and Red Hat Virtualization Hypervisors or hosts: Red Hat Enterprise Linux or RHV Host \(RHV-H\).
+Red Hat Virtualization \(RHV\) is a virtualization product that is based on the Kernel-based Virtual Machine \(KVM\) hypervisor. RHV uses the SPICE protocol and Virtual Desktop Server Manager \(VDSM\) with an RHEL centralized management server. The RHV solution is based on two primary software components: Red Hat Virtualization Manager \(RHV-M\) and Red Hat Virtualization Hypervisors or hosts: Red Hat Enterprise Linux or RHV Host \(RHV-H\).
+
+**Note:** The Discovery application uses patterns to find RHV components. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store. For more information, see [Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/red-hat-virtualization-discovery.md)
 
 \[Omitted image "CIClassModels1.5.0l.png"\] Alt text: Red Hat Virtualization class model.
 
 ## Classes
 
-This section lists the classes that the CMDB CI Class Models store app adds or updates. See the class columns table for further details about the columns added for each class.
+This section lists the classes that the CMDB CI Class Models app adds or updates. See the class columns table for further details about the columns added for each class.
 
 CMDB CI Class Models: Release 1.8.0 adds the following classes for RHV. For the list of classes in the base system, including classes that this app might extend, see [CMDB tables descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-tables-details.md).
 
@@ -224,6 +228,8 @@ The following class was deleted in the CMDB CI Class Models 1.6.0 release.
 
 **Related topics**  
 
+
+[Oracle Linux Virtualization Manager and Red Hat Virtualization discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-operations-management/red-hat-virtualization-discovery.md)
 
 [CMDB schema model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/c_ConfigurationManagementDatabase.md)
 

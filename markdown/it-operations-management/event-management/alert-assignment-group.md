@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Alert assignment groups for teams
@@ -18,7 +18,7 @@ Alert assignment groups assign alerts to the right teams promptly and automatica
 
 Admins determine the alert assignment group priority, making sure that alerts are routed to the appropriate team members.
 
-The Alert assignment group is determined by the **evt\_mgmt.alert\_auto\_assignment\_field** property value. As an admin, you can choose to set the assignment group based on the alert fields using the property value and the order of the comma-separated fields by editing the property value.
+The **evt\_mgmt.alert\_auto\_assignment\_field** property controls the assignment group. Admins can set the group based on alert fields by editing the property's comma-separated field order.
 
 -   **[Assigning alert assignment group precedence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/assigning-alert-assignment-group-precedence.md)**  
 Assign alert assignment group precedence to make sure that alerts are routed to the appropriate team members.

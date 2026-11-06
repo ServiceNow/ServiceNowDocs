@@ -7,18 +7,19 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Service Exchange, Service Exchange]
+keywords: [transform framework, data transformation, remote task data, inbound outbound transform]
+breadcrumb: [Remote tasks, Explore, Service Exchange]
 ---
 
 # Transform data with the Service Exchange transform framework
 
 Use the Transform Framework to integrate tasks between two ServiceNow instances to transform remote task data in the Service Exchange application.
 
-As a provider, you can use the Transform Framework to transform your inbound and outbound data \(such as incidents, cases, and service requests\) of the remote tasks between your ServiceNow instance and your consumer's instance. To learn what a remote task is, see [Using remote tasks to fulfill consumer requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-remote-task-overview.md).
+As a provider, you can use the Transform Framework to transform your inbound and outbound data \(such as incidents, cases, and service requests\) of the remote tasks between your ServiceNow instance and your consumer's instance. To learn what a remote task is, see [Remote tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-remote-task-overview.md).
 
-While using the Service Exchange for Providers application, you and your consumer can exchange the remote task data through tables and fields. The Transform Framework helps you to convert the data between those tables and fields so that you and your consumer can easily communicate with each other while resolving the incidents, cases, and consumer requests. Transforms can be created once and used across all remote task definitions.
+While using the Service Exchange for Providers application, you and your consumer can exchange the remote task data through tables and fields. The Transform Framework helps you to convert the data between those tables and fields. You and your consumer can easily communicate with each other while resolving the incidents, cases, and consumer requests. Transforms can be created once and used across all remote task definitions.
 
 You can use the following transform types in the Transform Framework for your remote tasks:
 
@@ -31,7 +32,7 @@ You can use the following transform types in the Transform Framework for your re
     **Note:** A matching company or account specific transform overrides the Global transform option.
 
 
-**Note:** A transform runs twice on every update to determine which of the mapped fields have changed. If the transform includes a condition, that condition can be met on both runs, causing the action tied to it to run twice instead of once and produce a false positive. To learn more about the behavior, see [Service Bridge: Preventing False Positives in Service Bridge Transform Conditions](https://www.servicenow.com/community/technology-articles/service-bridge-preventing-false-positives-in-service-bridge/ta-p/3481929) on the ServiceNow Community.
-
 To learn how to create a transform, see [Create a transform in Service Exchange](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-transform.md).
+
+**Note:** A transform runs twice on every update. If the transform includes a condition, that condition can be met on both runs, causing the action tied to it to run twice instead of once and produce a false positive. To learn more about the behavior, see [Service Bridge: Preventing False Positives in Service Bridge Transform Conditions](https://www.servicenow.com/community/technology-articles/service-bridge-preventing-false-positives-in-service-bridge/ta-p/3481929) on the ServiceNow Community.
 

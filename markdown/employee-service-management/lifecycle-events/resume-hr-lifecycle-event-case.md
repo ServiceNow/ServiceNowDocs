@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create an HR case for a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Create an HR case for a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Resume a lifecycle event case
@@ -23,8 +23,6 @@ Role required: sn\_hr\_le.case\_writer
 ## Procedure
 
 1.  Navigate to **All** &gt; **Lifecycle Events** &gt; **Lifecycle Events Cases**, and open the lifecycle event case that errored.
-
-    \[Omitted image "resume-lifecycle-event-case.png"\] Alt text: Lifecycle event case where the second activity set errored out.
 
 2.  Identify and fix the error.
 

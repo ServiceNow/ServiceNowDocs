@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/create-indiv-life-service-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Individual Life Servicing, Individual Life Servicing, Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Servicing, Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an individual life service case
@@ -30,19 +30,19 @@ Contributors and processors can submit individual policy service requests for cu
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the individual life service case list or an interaction record.
 
-<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d51317e120">
+<table id="choicetable_z4t_j3h_gmb"><thead><tr><th align="left" id="d59122e124">
 
 Option
 
-</th><th align="left" id="d51317e123">
+</th><th align="left" id="d59122e127">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d51317e129">
+</th></tr></thead><tbody><tr><td id="d59122e133">
 
 **Individual life case from the individual life case list**
 
@@ -52,7 +52,7 @@ Steps
 2.  Select **New**.
 
 
-</td></tr><tr><td id="d51317e159">
+</td></tr><tr><td id="d59122e163">
 
 **Individual life case from an interaction record**
 

@@ -1,28 +1,28 @@
 ---
-title: Prevent future internal role assignments for external users
-description: Enable a property to prevent external users from being assigned the snc\_internal role.
+title: Avoid future internal role assignments for external users
+description: Enable a property to avoid external users from being assigned the snc\_internal role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/fix-csm-external-user-roles-task4.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Fix external user role assignments, User management, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Prevent future internal role assignments for external users
+# Avoid future internal role assignments for external users
 
-Enable a property to prevent external users from being assigned the snc\_internal role.
+Enable a property to avoid external users from being assigned the snc\_internal role.
 
 ## Before you begin
 
-Role required: admin
+Role required: csm\_guided\_setup\_user and security\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**.
 
-2.  In the Fix External User Role Assignment category, click **Get Started** and then click **Avoid such role assignments in future**.
+2.  In the Fix External User Role Assignment category, select **Get Started** and then select **Avoid such role assignments in future**.
 
 3.  Set the **glide.security.explicit\_roles.enable\_internal\_user\_blacklist** property to true.
 

@@ -1,16 +1,16 @@
 ---
-title: Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service
+title: Activate the Self-Service Platform Analytics Solution
 description: Activate the content pack plugins or ServiceNow Store application for the Platform Analytics Solution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ssa-solution-install-init.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Platform Analytics Solution for Self-Service Analytics for Customer Service, Extend capabilities, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure the Performance Analytics, Extend capabilities, Configure, Customer Service Management]
 ---
 
-# Activate the Platform Analytics Solution for Self-Service Analytics for Customer Service
+# Activate the Self-Service Platform Analytics Solution
 
 Activate the content pack plugins or ServiceNow Store application for the Platform Analytics Solution.
 
@@ -32,7 +32,7 @@ Role required: admin
 
     When you install this application, you also activate the following plugins:
 
-    -   Customer Service \(com.sn\_customerservice\)
+    -   Case Management Core \(com.sn\_customerservice\)
     -   Self-Service Analytics PA \(com.snc.pa.self\_service\_analytics\)
     -   Self-Service Analytics Core \(com.snc.self-service\_analytics\_core\)
 

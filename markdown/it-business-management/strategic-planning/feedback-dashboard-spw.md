@@ -1,5 +1,5 @@
 ---
-title: Feedback Dashboard in Strategic Planning
+title: Feedback Dashboard in Strategic Planning Workspace
 description: The Feedback Dashboard helps product managers track feedback volume and stakeholder trends to surface recurring pain points, inform prioritization decisions, and demonstrate responsiveness.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/feedback-dashboard-spw.html
@@ -7,16 +7,16 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Feedback Dashboard in Strategic Planning
+# Feedback Dashboard in Strategic Planning Workspace
 
 The Feedback Dashboard helps product managers track feedback volume and stakeholder trends to surface recurring pain points, inform prioritization decisions, and demonstrate responsiveness.
 
-\[Omitted image "feedback-dashboard-spw.gif"\] Alt text: Fidback Dashboard in Strategic Planning
+\[Omitted image "feedback-dashboard-spw.gif"\] Alt text: Feedback Dashboard in Strategic Planning
 
 |Widget/Visualization|Description|
 |--------------------|-----------|

@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your documents and work papers with Audit Management as cloud files, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Link to a cloud file
@@ -20,7 +20,7 @@ Link a cloud file on Microsoft using file path and file name with a GRC ​recor
 
 Role required: sn\_audit\_ws.auditor, sn\_audit\_ws.supervisor
 
-Ensure that the cloud file UI actions on the Cloud files related list are visible on the forms based on the configured conditions. Ensure that file access permissions of read and write are added for the auditor and engagement leads. For more information, see [Create a Cloud file configuration on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/document-access-configuration.md).
+Ensure that the cloud file UI actions on the Cloud files related list are visible on the forms based on the configured conditions. Ensure that file access permissions of read and write are added for the auditor and engagement leads. For more information, see [Create Cloud File Access on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/document-access-configuration.md).
 
 ## About this task
 
@@ -48,12 +48,12 @@ Beginning with the Washington DC release, cloud file integration is enabled on t
 
 7.  Select the **Mark as non-sharable** option.
 
-    When this option is selected, the cloud file that is linked to the record is marked as non-sharable. It cannot be linked with other records in ServiceNow. If you attempt to link a non-sharable file to another ServiceNow record, an error message is displayed.
+    When this option is selected, the cloud file that is linked to the record is marked as non-shareable. It cannot be linked with other records in ServiceNow. If you attempt to link a non-shareable file to another ServiceNow record, an error message is displayed.
 
 8.  Select **Link** in the pop-up.
 
     After the file is connected to Microsoft, the auditor or engagement lead gets read or write access based on the defined access permissions.
 
-    For more information on file access permissions, see [Create a Cloud file configuration on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/document-access-configuration.md).
+    For more information on file access permissions, see [Create Cloud File Access on engagements and audit tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/document-access-configuration.md).
 
 

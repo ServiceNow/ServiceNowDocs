@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a demand, Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -36,23 +36,23 @@ View a detailed breakdown of the cost components of a demand using the **Financi
 
 5.  Add additional fields, view plan details, or reorganize the financial data.
 
-<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d214588e109">
+<table id="choicetable_eky_wfv_2nb"><thead><tr><th align="left" id="d276685e109">
 
 Action
 
-</th><th align="left" id="d214588e112">
+</th><th align="left" id="d276685e112">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d214588e118">
+</th></tr></thead><tbody><tr><td id="d276685e118">
 
 **Create a baseline or compare available baselines**
 
 </td><td>
 
-Select the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\] Alt text: Baseline information icon.\) and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-baseline.md).
+Select the baseline information icon \[Omitted image "new-baseline-info-icon.png"\] Alt text: and then select **Create New Baseline** or **Compare Baselines** option respectively. For more information, see [Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-baseline.md).
 
-</td></tr><tr><td id="d214588e146">
+</td></tr><tr><td id="d276685e145">
 
 **Create a cost plan or benefit plan for the demand**
 
@@ -60,15 +60,15 @@ Select the baseline information icon \(\[Omitted image "gannt\_chart\_icon.png"\
 
 In the **Cost Plans** or **Benefits Plans** tab, select **New**.
 
-</td></tr><tr><td id="d214588e164">
+</td></tr><tr><td id="d276685e163">
 
 **View a cost plan or benefit plan details in a form**
 
 </td><td>
 
-Select the information icon \( \[Omitted image "informationicon.png"\] Alt text: Information icon.\) available in the **Name** column of the grid.
+Select the information icon \[Omitted image "new-info-icon-coral.png"\] Alt text: available in the **Name** column of the grid.
 
-</td></tr><tr><td id="d214588e182">
+</td></tr><tr><td id="d276685e180">
 
 **View a cost plan or benefit plan details in yearly, quarterly, or monthly format**
 
@@ -76,31 +76,31 @@ Select the information icon \( \[Omitted image "informationicon.png"\] Alt text:
 
 Select the **Year**, **Quarter**, or **Month** views respectively.You can also edit the breakdown values of a cost plan or benefit plan without opening the plan in a form. Inline edit is available only in the **Monthly** view.
 
-</td></tr><tr><td id="d214588e207">
+</td></tr><tr><td id="d276685e205">
 
 **Toggle the widgets on the __Financial Summary__ section or add more fields**
 
 </td><td>
 
-1.  Select the widgets icon \(\[Omitted image "config-icon-demand-baseline.png"\] Alt text: Widgets icon.\) and then select the **Show Widgets** option.
+1.  Select the widgets icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and then select the **Show Widgets** option.
 2.  Select additional fields to show, clear them to hide.
 
 **Note:**
 
     -   By default, all the fields are selected.
     -   The selected field preferences are saved and are available when you reopen the **Financial Summary** tab.
-    -   If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, you can add additional fields such as Benefit in demand currency, Actual Cost in demand currency, and Financial return in demand currency.
+    -   If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, additional fields are available: Benefit in demand currency, Actual Cost in demand currency, and Financial return in demand currency.
 
 
-</td></tr><tr><td id="d214588e253">
+</td></tr><tr><td id="d276685e250">
 
 **Show or hide columns in the grid**
 
 </td><td>
 
-Select the configuration icon \(\[Omitted image "config-icon-demand-baseline.png"\] Alt text: Widgets icon\) and select the field names.**Note:** You cannot hide the grouped columns.
+Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text: and select the field names.**Note:** You can’t hide the grouped columns.
 
-</td></tr><tr><td id="d214588e271">
+</td></tr><tr><td id="d276685e267">
 
 **Reset to the default grid column layout**
 
@@ -108,7 +108,7 @@ Select the configuration icon \(\[Omitted image "config-icon-demand-baseline.png
 
 Select **Reset to defaults**.
 
-</td></tr><tr><td id="d214588e283">
+</td></tr><tr><td id="d276685e279">
 
 **Export financial information**
 
@@ -116,28 +116,28 @@ Select **Reset to defaults**.
 
 Select **Export to csv**.
 
-</td></tr><tr><td id="d214588e295">
+</td></tr><tr><td id="d276685e291">
 
 **View the demand costs and benefits in demand currency**
 
 </td><td>
 
-1.  Select the configuration icon \(\[Omitted image "config-icon-demand-baseline.png"\] Alt text: Widgets icon\).
+1.  Select the configuration icon \[Omitted image "new-widget-configuration-icon.png"\] Alt text:.
 2.  Select additional fields to show demand currency amounts.
 
 **Note:** If the PPM Standard Multicurrency \(com.snc.ppm\_multicurrency\) plugin is activated, you can add additional fields.
 
  You can view both the functional and demand currencies in the currency indicator.
 
- In the Financial Summary grid view of the cost plan and benefit plan tabs, all items related to demand currency are configured in the column heads such as **Cost in demand currency** and **Demand currency**.
+ The Financial Summary grid view includes demand currency column heads on the cost plan and benefit plan tabs. These include **Cost in demand currency** and **Demand currency**.
 
-</td></tr><tr><td id="d214588e333">
+</td></tr><tr><td id="d276685e328">
 
 **View details of an item in the grid**
 
 </td><td>
 
-Select the expand icon \(\[Omitted image "expand-baseline-details.png"\] Alt text: Expand icon.\) or \(collapse icon \(\[Omitted image "collapse-baseline-details.png"\] Alt text: Collapse icon.\).
+Select the expand icon \[Omitted image "new-expand-icon.png"\] Alt text:or collapse icon \[Omitted image "new-collapse-icon.png"\] Alt text:.
 
 </td></tr></tbody>
 </table>

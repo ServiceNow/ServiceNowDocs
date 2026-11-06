@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-07-15"
-reading_time_minutes: 3
-breadcrumb: [Request Integration Hub, Configuring Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Request Integration Hub, Configure, Integration Hub, Workflow Data Fabric]
 ---
 
 # Integration Hub plugins
@@ -185,6 +185,71 @@ Enables the licensed components for working with message-based streaming data in
 -   ServiceNow IntegrationHub ETL Consumer - Kafka \[com.glide.hub.etl\_consumer.kafka\]: Enables the ability to consume Kafka messages from a topic using RTE, a transform map, or a script.
 -   ServiceNow Stream Connect Replication - Kafka \[com.glide.hub.stream\_connect.replication.kafka\]: Enables support for replicating Stream Connect topics via a MID Server with a customer Kafka cluster.
 -   ServiceNow Integration Hub Stream Connect Schema \[com.glide.hub.stream\_connect.schema\]: Enables importing and creating schemas to send and receive messages in an Apache Avro format.
+-   ServiceNow Stream Producer \[com.glide.hub.stream\_connect.stream\_producer\]: Enables Stream Producer to automatically stream changes from ServiceNow tables to Kafka topics.
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Common Core\[com.glide.hub.stream\_connect.common.core\]
+
+</td><td>
+
+Provides the general Stream Connect capabilities across Hermes and Direct Kafka.
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Direct Kafka\[com.glide.hub.stream\_connect.direct\_kafka\]
+
+</td><td>
+
+Adds the capability to connect the ServiceNow instance to Apache Kafka directly \(not using Hermes Messaging Service\).
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Hermes\[com.glide.hub.stream\_connect.hermes\]
+
+</td><td>
+
+Adds the capability for Stream Connect to connect to the Hermes Messaging Service.
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Installer \(Direct Kafka\)\[com.glide.hub.stream\_connect.onprem\_installer\]
+
+</td><td>
+
+Installs the required plugins for Direct Kafka.
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Kafka Connection\[com.glide.hub.stream\_connect.kafka\_connection\]
+
+</td><td>
+
+Adds the ability to use Kafka credentials for Direct Kafka and Message Replication.
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Replication Certificates\[com.sn\_stream\_connect.replication.cert\]
+
+</td><td>
+
+Adds the capability to handle certificates to connect to the Hermes Messaging Service from the MID Server.
+
+</td></tr><tr><td>
+
+ServiceNow Stream Connect Replication Core\[com.glide.hub.stream\_connect.replication.core\]
+
+</td><td>
+
+Adds capabilities to replicate data between a topic in the Hermes Messaging Service and a topic in a local Apache Kafka environment.
+
+</td></tr><tr><td>
+
+Stream Connect MID Hermes API\[com.glide.mid.hermes\_api\]
+
+</td><td>
+
+Provides the capability to produce messages from the MID Server to a topic in the Hermes Messaging Service.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Request Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/request-ih-overview.md)

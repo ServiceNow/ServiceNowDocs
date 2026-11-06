@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Resource assignments in Project Workspace, Plan resources, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Resource assignments in Project Workspace, Resource planning with Project Workspace, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Delete a resource assignment from Project Workspace
@@ -27,6 +27,10 @@ Role required: it\_project\_manager
 2.  Enable the **Resource assignments** toggle to view the resource assignment pane.
 
 3.  From the resource assignment pane, create a resource assignment for a project or task by selecting **Add resource**.
+
+4.  From the resource assignment pane, select the row context menu \(\[Omitted image "icon-row-context-menu.png"\] Alt text: Row context menu.\) and then select **Delete row**.
+
+    The resource assignment is deleted from the resource assignment pane.
 
 
 **Parent Topic:**[Resource assignments in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/resource-assignments-pw.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure daily and advanced schedules, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Create appointment booking advanced configuration
@@ -20,7 +20,7 @@ Create advanced appointment schedules to offer customers specific time slots—l
 
 Role required: sn\_apptmnt\_booking.appointment\_booking\_admin
 
-Ensure you have already created a **Service Configuration** and enabled the **Advanced Configuration** option.
+Ensure you have already enabled the **Advanced Configuration** option in the service configuration and created a service configuration rule.
 
 ## About this task
 
@@ -30,7 +30,7 @@ For each service, you can define multiple advanced schedules that override the d
 
 1.  Navigate to **All** &gt; **Appointment Booking** &gt; **Appointment Booking Configuration**.
 
-2.  Choose the desired configuration.
+2.  Select the desired configuration.
 
     -   To configure different appointment schedules for work orders, select **Field Service Order Configuration**
     -   To configure different appointment schedules for work order tasks, select **Field Service Task Configuration**

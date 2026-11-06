@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Completing a recall order for your enterprise assets, Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Completing a recall order for your enterprise assets, Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the Notation task for a recalled enterprise asset
@@ -30,13 +30,13 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     The recall order record opens.
 
-4.  On the **Enterprise Recalled Assets** tab of the recall order record, select the enterprise asset that you want to provide additional operating instructions for.
+4.  On the **Recalled Assets** tab of the recall order record, select the enterprise asset that you want to provide additional operating instructions for.
 
-    The enterprise recalled asset record opens.
+    The recalled asset record opens.
 
-5.  On the **Enterprise Recall Tasks** tab of the enterprise recalled asset record, select the task number for the **Notation** task.
+5.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Notation** task.
 
-    Alternatively, select the task number that is displayed in the **Current task** field of the enterprise recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
+    Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
     The Notation task opens.
 
@@ -53,11 +53,11 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
 ## Result
 
-The enterprise recalled asset record moves to the Completed stage.
+The recalled asset record moves to the Completed stage.
 
 ## What to do next
 
-Complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding enterprise recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
+Complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
 
 **Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

@@ -1,28 +1,28 @@
 ---
-title: Setup the color banding table
+title: Set up the color banding table
 description: Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-setup-color-banding.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Engagements, Customer success, Configure, Customer Success Management]
 ---
 
-# Setup the color banding table
+# Set up the color banding table
 
 Use the color banding table to set up how the engagement health score is visually represented in the Success Landing and Engagement pages.
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Success Configurations** &gt; **Color Bandings**.
+1.  Navigate to **All** &gt; **Success Configurations** &gt; **All Color Bandings**.
 
-2.  Click **New** to create a new color banding and enter the following details:
+2.  Select **New** to create color banding and enter the following details:
 
 <table id="table_cnr_qkd_zdc"><thead><tr><th>
 
@@ -87,25 +87,7 @@ Highlighted color
 
 This is the color used to highlight the health score and perceived health of an engagement.
 
-</td></tr><tr><td>
-
-Context
-
-</td><td>
-
-Specify the context for which the color banding configuration is applicable. A single data source can have multiple configurations based on the context.
-
-</td></tr><tr><td>
-
-Category
-
-</td><td>
-
-Select the category for the Min and Max ranges you have specified. This can be used to identify if the values meet the threshold, fall below, or exceed the threshold. The categories you can select are:-   Poor
--   Neutral
--   Good
--   Over
-
-
 </td></tr></tbody>
 </table>
+**Parent Topic:**[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-manage-engagement.md)
+

@@ -7,9 +7,9 @@ release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-10-29"
 reading_time_minutes: 1
-breadcrumb: [Conversion funnels, Using User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Conversion funnels, Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Create a conversion funnel
@@ -18,31 +18,31 @@ View conversion rates and trends in aggregate user behavior to uncover the reaso
 
 ## Before you begin
 
-Role required: Users with the analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, now\_experience\_analytics\_viewer roles can create, edit and delete funnels for the applications they have access to.
+Role required: analytics\_viewer, portal\_analytics\_viewer, mobile\_analytics\_viewer, core\_ui\_analytics\_viewer, now\_experience\_analytics\_viewer.
 
 ## Procedure
 
-1.  Navigate to **Platform Analytics** &gt; **User Experience Analytics**.
+1.  Navigate to **Platform Analytics** &gt; **Usage Insights**.
 
-2.  From the Applications list, select the application to create a conversion funnel for.
+2.  From the Applications list, select the application for which you want to create a conversion funnel.
 
 3.  Select **Analysis** &gt; **Conversion funnel**.
 
-4.  Select the **Create new funnel** button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text: Create new funnel button\).
+4.  Select the **Create new funnel** button \(\[Omitted image "uxa-create-cohort-button.png"\] Alt text:\).
 
 5.  Enter a name for the relevant process you want to measure and, optionally, a description, and select **Next**.
 
 6.  From the **Step Type** options, select steps you want to measure, and screens, events, or actions as applicable.
 
-<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d83965e119">
+<table id="choicetable_fsr_qbg_wjb"><tbody><tr><td id="d97620e121">
 
 **Event Trigger**
 
 </td><td>
 
-Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the drop down, and enter a value for the property.
+Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/view-events.md) to measure. To match a selected event by a certain property, select **Filter properties**, select a property from the list, and enter a value for the property.
 
-</td></tr><tr><td id="d83965e141">
+</td></tr><tr><td id="d97620e147">
 
 **Session Start \(1st\)**
 
@@ -50,7 +50,7 @@ Select [User Analytics Events KPIs](https://raw.githubusercontent.com/ServiceNow
 
 Select to measure users' first sessions.
 
-</td></tr><tr><td id="d83965e150">
+</td></tr><tr><td id="d97620e156">
 
 **Session Start \(any\)**
 
@@ -67,6 +67,17 @@ Select to measure any user sessions.
 
 9.  Select **Add** to finish the funnel.
 
+    \[Omitted image "usage-insights-funnel.png"\] Alt text: View funnel
 
-**Parent Topic:**[Funnel reports in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
+10. View the funnel in Platform Analytics.
+
+    You can view your funnel directly from Platform Analytics. When you create a dashboard in Platform Analytics, select **Add new element** and then **Usage Insights Funnel**.
+
+    \[Omitted image "uxa-view-funnnel-pa.png"\] Alt text: View Usage Insights funnel in Platform Analytics
+
+
+-   **[Create cross-application conversion funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/create-conversion-funnel-for-cross-application.md)**  
+Conversion funnels outline a sequence of steps to measure user progression, identify drop-off points, and track the time taken for each transition. The cross-application capability eliminates the requirement for every step to be in the same application.
+
+**Parent Topic:**[Funnel reports in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.md)
 

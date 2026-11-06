@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Configuring Dynamic Scheduling, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Dynamic Scheduling, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Dynamic scheduling system properties
@@ -18,7 +18,7 @@ Set up properties to customize the behavior and functionality of the dynamic sch
 
 The following properties allow you to control aspects such as the frequency of scheduling, automatic assignment, travel time calculations, and optimization iterations. Adjusting these properties helps optimize task assignments, improve efficiency, and align the dynamic scheduling process with your specific requirements.
 
-Navigate to **All** &gt; **Field Service** &gt; **Dynamic Scheduling Administration** &gt; **Properties**.
+Navigate to **All** &gt; **Field Service** &gt; **Dynamic Scheduling Administration** &gt; **Properties**, or go to `sys_properties` table if you can't find the property in **Dynamic Scheduling Administration**.
 
 <table id="table_fyv_dtr_bs"><thead><tr><th>
 
@@ -177,7 +177,7 @@ com.snc.dynamic.scheduling.useWorkScheduleOnly
 
 </td><td>
 
-Controls whether dynamic scheduling and workforce optimization can fall back to the default work schedule when scheduling agents. When set to `true`, the scheduling engine does not fall back to the default work schedule. When set to `false`, the scheduling engine falls back to the default work schedule if an agent's work schedule expires or is unavailable.-   Type: true/false
+Enables the default work schedule to be used when scheduling agents with dynamic scheduling and workforce optimization.-   Type: string
 -   Default value: true
 
 </td></tr></tbody>

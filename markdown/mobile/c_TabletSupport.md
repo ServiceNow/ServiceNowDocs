@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/c\_TabletSupport.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Accessing an instance on a mobile device web browser, Using the mobile apps, Mobile Platform]
+breadcrumb: [Access instances on mobile web browser, Using the mobile apps, Mobile Platform]
 ---
 
 # Tablet interface

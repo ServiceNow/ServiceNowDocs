@@ -8,7 +8,7 @@ topic_type: concept
 last_updated: "2026-03-25"
 reading_time_minutes: 2
 keywords: [troubleshooting, Query Generation logs, AI Data Explorer, semantic layer]
-breadcrumb: [Configure, AI Data Explorer, Now Assist in Platform Analytics, Platform Analytics]
+breadcrumb: [Configure, AI Data Explorer, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Common AI Data Explorer issues and fixes
@@ -26,14 +26,15 @@ Go to **Query Generation** &gt; **Administration** &gt; **Logs** to inspect fail
 |-------|------------|---|
 |"Unable to understand" response|System cannot find a matching table|Improve entity description; rephrase with table name; verify AI search is running; verify that all Indexed Sources are fully processed.|
 |Wrong table selected|Similar table names, no disambiguation|Add semantic usage instructions to differentiate.|
-|Wrong table selected \(permissions\)|User lacks read access to the intended table or fields|Verify and grant table and field read ACLs for the intended data.|
+|Wrong table selected \(permissions\)|User lacks read access to the intended table or fields.|Verify and grant table and field read ACLs for the intended data.|
+|"Error accessing table data" or "Scope access not granted" response|Some data is in protected application scopes that AI Data Explorer cannot access.|Create ACLs granting access to the scope for AI Data Explorer. Approve the subsequently generated Restricted Caller Access \(RCA\) records. For more information, see [Enabling access to protected scope applications for AI Data Explorer and Query Generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/enable-aide-secure-scope-apps.md).|
 |Missing field in results|Dimension turned off, unclear label, or field not in semantic layer|Check dimension is active; update label.|
 |Related fields not pulled in|Referenced table missing from semantic layer or reference dimension turned off|Add and enable the referenced table entity; enable the reference dimension.|
 |Wrong filter applied|Bad segment match|Fix segment name and description; disable the segment.|
 |No filter when expected|No matching segment; phrasing too vague|Create a manual segment; rephrase question.|
 |Segment from report is wrong|Auto-generated segment has stale or irrelevant filter|Disable the report segment source or the specific segment.|
 
-**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-now-ass-explorer.md)
+**Parent Topic:**[Configure AI Data Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/configure-aide-explorer.md)
 
 **Related topics**  
 

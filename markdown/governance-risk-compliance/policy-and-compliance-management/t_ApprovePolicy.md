@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage control objectives and policies, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Approve and publish a policy
@@ -41,7 +41,9 @@ This feature requires that you manually install and activate the Knowledge Manag
 
 4.  Click the **Request Approval** button.
 
-    Reviewers cannot request approval for a policy. However, the owner of the policy with sn\_compliance.user, which is the minimum required role, and users with compliance manager role can request approval for a policy. When approval is granted, the policy is published and a knowledge base \(KB\) article is automatically created with the details of the policy.
+    Reviewers cannot request approval for a policy. To request approval, the policy owner must have at least the **sn\_compliance.user** role, which is the minimum role required. Users with the **sn\_compliance.manager** role can also request approval.
+
+    After the approval is granted, the policy is published, and a knowledge base \(KB\) article is automatically created with the policy details.
 
 5.  Any time you need to make changes to the policy, you can click **Edit policy** and enter a message in the pop-up, and click **Request Approval**. Add a comment in the pop-up. When approval is granted, a new version of the knowledge base article is created.
 

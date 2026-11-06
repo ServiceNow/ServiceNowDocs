@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Service Operations Management
 classification: telecommunications-service-operations-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Handling external events using Telecommunications API, Telecommunications Service Operations Management]
+breadcrumb: [Configure API notifications, Configure Telecom Assurance, Configure, Telecommunications Service Operations Management]
 ---
 
 # Create a topic
@@ -104,7 +104,7 @@ A topic is created.
 
 ## What to do next
 
-You can create the topic subscription according to the customer requirement.
+You can create the topic subscription according to the customer requirement. For more information, see [.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/create-subscription-api-notification.md)
 
-**Parent Topic:**[Handling external events using Telecommunications API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/telecommunications-api-notification.md)
+**Parent Topic:**[Configuring Telecommunications API notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-service-ops/telecommunications-service-operations-management/configuring-telecommunications-api-notifications.md)
 

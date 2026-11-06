@@ -1,0 +1,44 @@
+---
+title: Configure the standard ticket page for cases
+description: Configure the standard ticket page for cases from where users can view the details of a case in the Business portal.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/configure\_std\_ticket\_page\_business-portal.html
+release: yokohama
+product: Customer Self-service and Omnichannel Engagement
+classification: customer-self-service-and-omnichannel-engagement
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
+---
+
+# Configure the standard ticket page for cases
+
+Configure the standard ticket page for cases from where users can view the details of a case in the Business portal.
+
+## Before you begin
+
+Role required: sp\_admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Standard Ticket** &gt; **Standard Ticket Configuration**.
+
+2.  Select sn\_customerservice\_case, or sn\_customerservice\_task which is available by default.
+
+    **Note:** You can add your own case types and add new configurations for the required tables. For more information, see [Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-st-page.md).
+
+3.  Select **here** to edit the record.
+
+4.  Edit the fields on the Ticket Configuration form as required.
+
+    For example, you can add tabs to the existing **Activity** and **Attachments** tabs in the **Info fields** field under the Info Region tab.
+
+5.  Select **Update**.
+
+
+**Related topics**  
+
+
+[Configure the standard ticket page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/configure-st-page.md)
+

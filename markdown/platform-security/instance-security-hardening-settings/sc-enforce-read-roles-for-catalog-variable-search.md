@@ -1,5 +1,5 @@
 ---
-title: Enforce Read Roles for Catalog Variable Search
+title: Enforce Read Roles for Catalog Variable Search \[New in Security Center 7.0\]
 description: Use system properties to ensure that only catalog variables with an empty read role are indexed for search.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-enforce-read-roles-for-catalog-variable-search.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-06-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Enforce Read Roles for Catalog Variable Search
+# Enforce Read Roles for Catalog Variable Search \[New in Security Center 7.0\]
 
 Use system properties to ensure that only catalog variables with an empty read role are indexed for search.
 

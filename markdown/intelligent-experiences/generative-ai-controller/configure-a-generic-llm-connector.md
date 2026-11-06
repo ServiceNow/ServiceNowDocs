@@ -7,9 +7,9 @@ release: yokohama
 product: Generative AI Controller
 classification: generative-ai-controller
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Now Assist, Enable AI experiences]
+breadcrumb: [Configuring Generative AI Controller, Generative AI Controller, Extending AI with external systems and providers, Enable AI Experiences]
 ---
 
 # Configure a generic large language model \(LLM\) connector
@@ -36,7 +36,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 3.  In the **Model** field, enter the name of the model.
 
-    If you are using Azure OpenAI, then the model name is the deployment name of your resource.
+    If you're using Azure OpenAI, then the model name is the deployment name of your resource.
 
 4.  In the **Provider** field, select **Custom LLM**.
 
@@ -56,7 +56,7 @@ Generative AI Controller offers several base system connections to popular AI se
 
 10. In the Select the document modal, select a capability that you want to configure with the Custom LLM provider.
 
-    For example, if you're configuring a Summarize capability, select **Summarize \(Custom LLM\)**.
+    For example, if you're configuring a Summarize capability with a generic LLM provider, select **Summarize \(Custom LLM\)**.
 
 11. Select **OK** to save your selection and close the modal.
 
@@ -172,4 +172,10 @@ Generative AI Controller offers several base system connections to popular AI se
 ## Result
 
 Your external LLM is connected to Generative AI Controller. You can use the AI service provider for generative AI capabilities on the ServiceNow AI Platform.
+
+## What to do next
+
+After you connect the LLM, you can set a provider for the generative AI capabilities of Generative AI Controller. For more information, see [Set a provider for a generative AI capability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/generative-ai-controller/configure-a-provider-for-a-generative-ai-capability.md).
+
+Build custom skills with this capability using AI Skill Kit. For more information, see [AI Skill Kit](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/now-assist-skill-kit-landing.md).
 

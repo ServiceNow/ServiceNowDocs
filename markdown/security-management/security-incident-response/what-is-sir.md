@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -25,14 +25,6 @@ Built in integrations with third-party cyber security solutions and partner-deve
 To protect your investigations and keep security incidents private, Security Incident Response provides the means to restrict access to the system to specific security-related roles and ACLs. Non-security administrators can be restricted from access, unless you expressly allow them entry.
 
 **Note:** IT System Administrators \[admin\] can impersonate ServiceNow users. However, when impersonating a user with an application admin role for Security Incident Response, an admin cannot access features granted by that role, including security incidents and profile information. Access to modules and applications in the navigation bar is also restricted. Also, admin cannot change the password of any user with an application admin role for Security Incident Response.
-
-## Security Incident Response information flow
-
-Security Incident Response employs the following flow of information, from integration through investigation, and then on to resolution and review.
-
-**Note:** This is an interactive infographic, so you can try clicking on any of the icons or steps in the image to learn about that process or task.
-
-![Security Incident Response flow of information](../../security-operations/image/flow-diagram.png)
 
 ## Discovery
 
@@ -73,7 +65,7 @@ In addition, an automated security incident resolution review survey system is a
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Security Incident Response Terminology
 

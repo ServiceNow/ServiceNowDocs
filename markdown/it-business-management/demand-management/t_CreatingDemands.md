@@ -7,8 +7,8 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Use, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
@@ -36,7 +36,7 @@ Role required: snc\_internal
 
 3.  Select **Save**.
 
-    **Note:** Requesters or collaborators can edit their demand as long as the demand is in the Draft state.
+    **Note:** Requester or collaborators can edit their demand as long as the demand is in the Draft state.
 
 
 ## What to do next
@@ -45,7 +45,7 @@ Role required: snc\_internal
 -   When all required information is complete, move the demand to the Submitted state by selecting **Submit demand**. The demand then enters the formal evaluation workflow involving the demand manager and stakeholders.
 
 -   **[Create a qualified demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/t_CreateANewQualifiedDemand.md)**  
-The demand manager can create a new qualified demand from the demand workbench list view.
+The demand manager can create a qualified demand from the demand workbench list view.
 -   **[Create a demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-task.md)**  
 Create tasks for a demand to delegate cost, effort, risk, and benefit assessment activities. Assign a resource or group to the demand task to track the actual time and effort spent on performing the specified activities.
 -   **[Submit a time card for a demand task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/submit-time-for-demand.md)**  
@@ -76,8 +76,10 @@ Migrate the financial baselines of demands to Next Experience to manage the fina
 Set the budget of a demand according to the fiscal years.
 -   **[Enable lean budgeting for demands](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/config-investment-budget-demand.md)**  
 Enable the Investment Budget option to allocate budgeting for demands at fiscal period.
--   **[Create baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-baseline.md)**  
-Create financial baseline of a demand, which captures benefit and financial metric information \(snapshot of cost plan, benefit plan, and demand-level financial metrics\) at a particular moment in time.
+-   **[Create a baseline of a demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/create-demand-baseline.md)**  
+Create a financial baseline of a demand to capture a snapshot of cost plan, benefit plan, and demand-level financial metrics at a specific point in time.
+-   **[Realign resource assignments with demand](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/realign-resource-assignments-demand.md)**  
+Planning and execution of your roadmap involves change in priority or timelines of your work. In such cases, you can adjust the resource assignment dates to match with the latest dates of your demands.
 
 **Parent Topic:**[Use Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/r_UsingDemandManagement.md)
 
@@ -85,6 +87,10 @@ Create financial baseline of a demand, which captures benefit and financial metr
 
 
 [Assess demands]()
+
+[Identify similar records using AI]()
+
+[Summarize demands with the demand summarization skill]()
 
 [View demands]()
 
@@ -102,5 +108,7 @@ Create financial baseline of a demand, which captures benefit and financial metr
 
 [PPM PIWB template - Find similar demands]()
 
-[Identify similar records using ServiceNow Otto for Strategic Portfolio Management]()
+[Associate AI systems with demands]()
+
+[Work with demands in Employee Slate]()
 

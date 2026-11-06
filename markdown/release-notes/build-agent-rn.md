@@ -1,0 +1,181 @@
+---
+title: Build Agent and Autonomous Engineer release notes
+description: The ServiceNow Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.Build Agent and Autonomous Engineer add support for new AI models.The October 2026 release of Build Agent and Autonomous Engineer includes Git integration, new model support, auto-advance plan execution, and more.Build Agent includes enhancements in the September 2026 release, such as Autonomous Engineer for spec-driven full-stack development, expanded Automated Test Framework capabilities, and MCP support.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/build-agent-rn.html
+release: yokohama
+topic_type: topic
+last_updated: "2026-09-23"
+reading_time_minutes: 6
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI, Build Agent, Test Agent, ATF, automated testing, test suite, Autonomous Engineer, scheduled prompts, scheduled jobs, implementation plan, GraphQL, ACL, playbook, Playbook Designer, optional activity, launcher configuration, playbook permissions, agentic activity]
+breadcrumb: [App development and low-code release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
+---
+
+# Build Agent and Autonomous Engineer release notes
+
+The ServiceNow® Build Agent and Autonomous Engineer applications enable developers to create, edit, and deploy full-stack applications and metadata through a conversational interface. See the following sections for release notes by version.
+
+## About Build Agent and Autonomous Engineer
+
+-   Accelerate development by reducing backlogs and enabling faster deployment of new business applications, without requiring developers to manually handle repetitive build, test, and deployment steps.
+-   Describe an application in natural language to autonomously generate code, organize files, and manage both UI and back-end components, making development available to users at any level.
+-   Support automated testing through Automated Test Framework \(ATF\) test suite generation and execution, reducing the manual effort required to validate new or updated applications.
+-   Decrease development costs because Build Agent handles code compilation, quality checks, and documentation of existing applications automatically.
+-   Enable agentic development by letting you create agentic workflows, custom AI agents, and skills tailored to your organization directly from within ServiceNow Studio.
+
+See  and  for more information.
+
+## Activation and other requirements
+
+-   **Activation information**
+
+    Build Agent \(Trial\) is a ServiceNow AI Platform feature that is active by default starting with the Brazil release. For Build Agent, you must install ServiceNow Otto for Creator. You must install Autonomous Engineer
+
+-   **Additional requirements**
+    -   Build Agent is dependent on ServiceNow Otto for Creator.
+    -   Autonomous Engineer is dependent on Build Agent.
+
+**Parent Topic:**[App development and low-code release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/build-automate-rn-landing.md)
+
+## November 2026
+
+Build Agent and Autonomous Engineer add support for new AI models.
+
+### What's new
+
+-   **New model support**
+
+    Use OpenAI GPT 6.1 Sol and Google Gemini 3.8 Flash models with Build Agent and Autonomous Engineer.
+
+
+## October 2026
+
+The October 2026 release of Build Agent and Autonomous Engineer includes Git integration, new model support, auto-advance plan execution, and more.
+
+### What's new
+
+-   **New model support**
+
+    Build Agent and Autonomous Engineer support the Google Gemini 3.7 Flash model in the October 2026 release.
+
+-   **Additional metadata support**
+
+    The following metadata are now supported in Build Agent and Autonomous Engineer:
+
+    -   Assessments
+    -   Database views
+    -   Sys wizard answers
+-   **Support for SPP**
+
+    Build Agent and Autonomous Engineer now support regulated markets through the ServiceNow Protected Platform for Australia, the EU, and Singapore, a cloud offering that stores and processes all customer data in-country on Microsoft Azure infrastructure.
+
+-   **Automatic retry for stopped work items**
+
+    Reduce manual intervention during plan execution by automatically retrying work items that stop due to transient failures. Autonomous Engineer retries a stopped work item up to three times before requiring that you take action, resolving intermittent failures without interrupting the execution flow.
+
+-   **Expanded support for Playbooks**
+
+    Build Agent and Autonomous Engineer now include the following updates to Playbook support:
+
+    -   Public playbooks
+    -   Variants
+    -   Go back to activity definition
+    -   Golden path configuration
+    -   Using Automation plan pills
+    -   Image attachment support for Image to playbook generation
+    -   Configure golden path settings and define the ideal path through decision nodes
+
+### What's changed
+
+-   **Autonomous Engineer Test Agent settings enabled by default**
+
+    The Test Agent settings for Autonomous Engineer are enabled by default.
+
+-   **Larger input box for extended prompts**
+
+    The input field for Build Agent and Autonomous Engineer prompts and instructions now expands to accommodate longer text entries.
+
+
+## Brazil Early Availability
+
+Build Agent includes enhancements in the September 2026 release, such as Autonomous Engineer for spec-driven full-stack development, expanded Automated Test Framework capabilities, and MCP support.
+
+### What's new
+
+-   **Generate implementations from specifications with Autonomous Engineer**
+
+    Use Autonomous Engineer, powered by Build Agent, to generate a complete implementation plan from your requirements.
+
+    1.  Provide requirements as a prompt or a file upload.
+    2.  Autonomous Engineer prompts you with questions to clarify ambiguous requirements, queries your instance to identify existing artifacts. For example, it might ask questions about tables, roles, and catalog items, and generates a plan with work items. Work items include acceptance criteria and test criteria in an Agile user story format.
+    3.  After you approve the plan, Autonomous Engineer generates a background agent for each work item. It then builds all work items in parallel in the background, generates and runs ATF tests, and attempts to resolve test failures.
+    4.  Items that require human intervention appear in the dashboard and in the chat panel.
+    5.  When the plan is complete, an update set is generated for deployment to your UAT or production environment.
+    Autonomous Engineer uses agent packs to give background agents product-specific domain knowledge during execution. The Custom app development agent pack is available in this release, which gives Autonomous Engineer awareness of platform tables, roles, and configuration patterns specific to custom app development.
+
+-   **Automatic test generation from plans**
+
+    When you use Autonomous Engineer to plan an application, Test Agent automatically generates Automated Test Framework tests for each work item and acceptance criteria that can be validated through automated testing. Generated tests are executed immediately, and Test Agent identifies and resolves any failures.
+
+-   **New model support**
+
+    Build Agent and Autonomous Engineer now support the following models:
+
+    -   Azure OpenAI GPT 5.6 Sol
+    -   Anthropic Claude Opus 5
+-   **Test suite authoring and execution**
+
+    Create and run ATF test suites from Build Agent and Autonomous Engineer. Group multiple tests under a single suite and execute the suite to run regression testing without selecting individual tests. Execution status and any errors are reported in the chat panel.
+
+-   **ATF list step support**
+
+    Test Agent can now generate ATF tests that use list and related list test steps, including validate related list visibility and apply filter to list. List step support extends test coverage beyond form-based interactions to include the full list view experience on the ServiceNow AI Platform.
+
+-   **Support for Box MCP server**
+
+    Build Agent now supports integrations with Box MCP server.
+
+-   **Domain separation for ServiceNow Fluent**
+
+    ServiceNow Fluent, which Build Agent uses to create apps, now supports domain separation on records and APIs. You can set the **sys\_domain** field and use **sys\_override** fields when working with records in domain-separated environments, so ServiceNow Fluent operates correctly across domains in your instance.
+
+-   **Additional metadata support**
+
+    The following metadata are now supported in Build Agent and Autonomous Engineer:
+
+    -   Service Catalog dependent question support
+    -   Transition condition
+    -   UI style
+-   **Right-click to configure ServiceNow AI Platform metadata**
+
+    When you right-click a record or artifact and select **Configure**, the metadata editor now opens in ServiceNow Studio.
+
+-   **Build Agent \(Trial\) automatically installed**
+
+    Build Agent \(Trial\) is available by default on all instances, without requiring installation.
+
+-   **Automatic upgrades for Build Agent**
+
+    Build Agent now supports automatic upgrades through the ServiceNow Store. Instances running Australia Patch 5 and later releases or Zurich Patch 12 and later releases that have Build Agent installed receive automatic upgrades when a new version is published.
+
+-   **Playbook support updates**
+
+    Build Agent includes the following updates to Playbook support:
+
+    -   Build Agent now consolidates all records related to a playbook into a single XML update set file.
+    -   Build Agent can now generate runtime permissions at the playbook level and at the stage level.
+    -   Build Agent can now generate and configure the Set Playbook Outputs activity for nested playbooks.
+    -   Build Agent can now configure agentic fields on form-based and record-based activities when the AI Agent plugin is active.
+    -   Build Agent can now generate on-demand playbook launcher configurations.
+    -   Build Agent can now define optional activities in a playbook.
+
+### What's changed
+
+-   **Build Agent in ServiceNow Studio UI updates**
+
+    Several changes have been made to how you access Build Agent in ServiceNow Studio:
+
+    -   The central chat area on the ServiceNow Studio home page is the starting point for new Build Agent conversations.
+    -   To open an existing conversation, select the Conversations icon \[Omitted image "ba-sns-otto-nav-icon.png"\] Alt text: in the Navigator panel.
+    -   The Build Agent panel now opens on the Navigator panel of ServiceNow Studio.
+

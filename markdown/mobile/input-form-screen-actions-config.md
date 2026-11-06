@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/input-form-screen-actions-config.html
 release: yokohama
 topic_type: task
-last_updated: "2025-03-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Configure an input form screen, Input form screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -55,7 +55,7 @@ Input form screen actions are accessed in the top menu as either an icon \(\[Omi
 6.  Select one of the following options:
 
     -   To add the input form screen action as a top menu icon, select **New** in the Top icon function instances area.
-    -   To add the input form screen action as a function in the top menu more \(\[Omitted image "IconAppMenuAndroid.png"\] Alt text: Top menu more button.\) button, select **New** in the **Top menu function instances** area.
+    -   To add the input form screen action as a function in the top menu more \(\[Omitted image "IconAppMenuAndroid.png"\] Alt text: Top menu more button.\) button, select **New** in the Top menu function instances area.
     **Note:** The subsequent instructions are the same for either top icon or top menu function instances.
 
 7.  In the Function instance form do the following:

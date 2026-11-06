@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-02-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Authentication, Hardening settings, Platform Security]
 ---
@@ -16,27 +16,104 @@ breadcrumb: [Authentication, Hardening settings, Platform Security]
 
 Reduce the risk of requests by malicious bots by enabling CAPTCHA for customer registration.
 
-Use the **sn\_customerservice.captchaEnabled** system property to determine whether CAPTCHA validation is enabled for customer registration on the Customer Service Management Portal. Use CAPTCHA validation to help prevent potentially malicious bots from automatically submitting requests against an application.
+The **sn\_customerservice.captchaEnabled** system property determines if CAPTCHA validation is tuned on or off for customer registration on the Customer Service Management Portal.
 
 Set the system property **sn\_customerservice.captchaEnabled** to **true** to enable CAPTCHA validation. If the property isn’t on the System Properties \[sys\_properties\] table, the default value is **true**.
 
 ## More information
 
-|Attribute|Description|
-|---------|-----------|
-|Technical configuration name|sn\_customerservice.captchaEnabled|
-|Plugin applicability|Customer Service Management|
-|Security risk|CAPTCHA validation helps prevent potentially malicious bots from automatically submitting requests against an application.|
-|Common Vulnerability Scoring System \(CVSS\) score|3.7|
-|Common Vulnerability Scoring System \(CVSS\) rating|Low|
-|Functional impact|Registering users may have a negative experience from having to pass the CAPTCHA validation.|
-|Dependencies and prerequisites|None|
-|Data type|Boolean|
-|Base system value|**true**|
-|Fallback value|**true**|
-|Recommended value|**true**|
+<table id="table_ajc_b43_3kb"><thead><tr><th>
 
-To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+Attribute
+
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Configuration name
+
+</td><td>
+
+**sn\_customerservice.captchaEnabled**
+
+</td></tr><tr><td>
+
+Configuration type
+
+</td><td>
+
+System Properties \(/sys\_properties\_list.do\)
+
+</td></tr><tr><td>
+
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+true
+
+</td></tr><tr><td>
+
+Category
+
+</td><td>
+
+[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
+
+</td></tr><tr><td>
+
+Security risk
+
+</td><td>
+
+-   Severity score: 3.7
+-   CVSS rating: Low
+-   Security risk details: CAPTCHA validation is considered a general guidelines to prevent potentially malicious bots from automatically submitting requests against an application.
+
+</td></tr><tr><td>
+
+Functional impact
+
+</td><td>
+
+Registering users may have a negative experience from having to pass the CAPTCHA validation.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
+
+</td></tr></tbody>
+</table>To learn more about adding or creating a system property, see .
 
 **Parent Topic:**[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-authentication.md)
 

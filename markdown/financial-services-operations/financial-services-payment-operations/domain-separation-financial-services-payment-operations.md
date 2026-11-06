@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setting up Financial Services Payment Operations, Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Domain separation and Financial Services Payment Operations
@@ -75,7 +75,7 @@ All new tables added in Payment Operations are domain-separated:
 
 **Note:** Sometimes a ServiceNow® platform feature or application may be able to effectively support service provider use cases even though the domain framework is not being used. In this case, the application may be assigned Basic\*, Standard\*, or Enhanced\* for its domain support level, and include detailed use cases. For example: Before the New York release, Service Catalog had no domain support. But the instance owner was able to configure separate catalogs and items for each customer in a domain-separated instance. This allowed Service Catalog to be used at a **Standard** support level. To learn more, see domain separation [Application levels of support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-**Parent Topic:**[Setting up Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/configuring-fso-payment-operations.md)
+**Parent Topic:**[Financial Services Payment Operations reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-operations-reference.md)
 
 **Related topics**  
 

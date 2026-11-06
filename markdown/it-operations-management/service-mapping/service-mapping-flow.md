@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-08-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Exploring Service Mapping, Service Mapping, ITOM Visibility, IT Ope
 
 Learn about high-level tasks users having different roles perform in Service Mapping.
 
-In Service Mapping, users collaborate to map, review, and monitor organization application services.
+In Service Mapping, users collaborate to map, review, and monitor an organization's application services.
 
 **Note:** For a complete list of Service Mapping roles, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/components-installed-with-service-mapping.md).
 

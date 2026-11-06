@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-02-18"
-reading_time_minutes: 11
-breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Integrate with SSO providers, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Microsoft Entra ID
@@ -118,11 +118,11 @@ Microsoft Entra ID Role required: Refer to the [Minimal users permission](https:
 
         |Permission|Type|
         |----------|----|
-        |AuditLog.Read.All|Delegated|
-        |User.Read.All|Delegated|
-        |User.ReadWrite.All|Delegated|
-        |GroupMember.Read.All|Delegated|
-        |Application.Read.All|Delegated|
+        |AuditLog.Read.All|Delegated or Application|
+        |User.Read.All|Delegated or Application|
+        |User.ReadWrite.All|Delegated or Application|
+        |GroupMember.Read.All|Delegated or Application|
+        |Application.Read.All|Delegated or Application|
 
         For more information, see [Add permissions to access web APIs](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-configure-app-access-web-apis#add-permissions-to-access-web-apis).
 
@@ -139,7 +139,7 @@ Create a Microsoft Entra ID integration profile in your ServiceNow instance.
 
 To create a Microsoft Entra ID integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 **Important:** You must select the **Microsoft Entra ID Spoke** check box for this integration while installing optional features on the [Application Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/application-manager.md) page. For more information about choosing the required SaaS applications, see [Request SaaS License Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/request-saas-license-management.md).
 
@@ -153,15 +153,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft E
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d69076e584">
+<table id="choicetable_ipn_lnx_qtb"><thead><tr><th align="left" id="d57365e584">
 
 Interface
 
-</th><th align="left" id="d69076e587">
+</th><th align="left" id="d57365e587">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d69076e593">
+</th></tr></thead><tbody><tr><td id="d57365e593">
 
 **Core UI**
 
@@ -172,7 +172,7 @@ Action
 3.  Select **Microsoft Entra ID Integration Profile**.
 
 
-</td></tr><tr><td id="d69076e635">
+</td></tr><tr><td id="d57365e635">
 
 **Software Asset Workspace**
 
@@ -193,45 +193,109 @@ Action
 
     If you already have a Microsoft Entra ID directory integration, the SSO integration uses your existing directory integration. Otherwise, a Microsoft Entra ID directory integration is automatically created.
 
-3.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
+3.  If you want to exclude the creation of SSO subscriptions for disabled accounts, select the **Exclude disabled accounts** option.
+
+    The **Exclude disabled accounts** check box is clear by default. The disabled accounts are those accounts for which the Account status is disabled in the Entra ID portal.
+
+4.  In the Process configuration section, view the required user roles or API permissions to minimize security risks and optimize SaaS licenses.
 
     **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
 
     -   The **Download applications, users, and groups** check box is selected by default and you can't clear it.
 
-    -   The **Download Activity** check box is selected by default. If you clear it,the last activity for connected applications isn't pulled.
+    -   The **Download Activity** check box is selected by default. If you clear it, the last activity for connected applications isn't pulled.
     -   The **Reclaim subscriptions** check box is selected by default. If you don't want to reclaim subscriptions, you can clear this check box. If you clear it, the removal candidates are created but the reclaim subscription subflow isn't triggered or the reclamation process isn't initiated.
 
-4.  Select **Submit**.
+5.  Select **Submit**.
 
     The **Connection &amp; Credential** field appears.
 
-5.  Select the **Create New Connection &amp; Credential** related link.
+6.  Select the **Create New Connection &amp; Credential** related link.
 
     **Note:** If you have installed Software Asset Workspace, open the Connection and credential record and select the **Create New Connection &amp; Credential** related link.
 
-6.  On the form, fill in the fields.
+7.  On the form, fill in the fields.
 
-    |Field|Value|
-    |-----|-----|
-    |Auth URL|`https://login.microsoftonline.com/<directory-id>/oauth2/v2.0/authorize`, where`<directory-id>` is the directory \(tenant\) ID from the Azure portal.|
-    |Token URL|`https://login.microsoftonline.com/<directory-id>/oauth2/v2.0/token`, where`<directory-id>` is the directory \(tenant\) ID from the Azure portal.|
-    |Revoke token URL|`https://login.microsoftonline.com/<directory-id>/oauth2/v2.0/revoke`, where`<directory-id>` is the directory \(tenant\) ID from the Azure portal.|
-    |OAuth Client ID|Application \(client\) ID for the application you created in the Azure portal.|
-    |OAuth Client Secret|Client secret for the application you created in the Azure portal.|
-    |OAuth Redirect URL|`https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance. This value is automatically populated.|
+<table id="table_dlb_lcb_blb"><thead><tr><th>
 
-7.  Select **Create and Get OAuth Token**.
+Field
 
-    You would get redirected to the Azure portal. For the role required to perform this step, refer to the [Minimal users permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
+</th><th>
 
-8.  In the pop-up window, sign in to your account with Microsoft Entra ID admin credentials.
+Value
 
-9.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+</th></tr></thead><tbody><tr><td>
 
-10. After the connection is verified, select **Publish**.
+Permission type
 
-11. In the Publish Confirmation dialog box, select **OK**.
+</td><td>
+
+The type of permission for the integration profile to access data correctly and securely. Values include:
+
+-   **Application Permissions**: Enable the application to access any data without a signed-in user.
+-   **Delegated Permissions**: Enable the application to act in place of a signed-in user.
+
+
+</td></tr><tr><td>
+
+Auth URL
+
+</td><td>
+
+`https://login.microsoftonline.com/<directory-id>/oauth2/v2.0/authorize`, where`<directory-id>` is the directory \(tenant\) ID from the Azure portal.
+
+</td></tr><tr><td>
+
+Token URL
+
+</td><td>
+
+`https://login.microsoftonline.com/<directory-id>/oauth2/v2.0/token`, where`<directory-id>` is the directory \(tenant\) ID from the Azure portal.
+
+</td></tr><tr><td>
+
+Revoke token URL
+
+</td><td>
+
+`https://login.microsoftonline.com/<directory-id>/oauth2/v2.0/revoke`, where`<directory-id>` is the directory \(tenant\) ID from the Azure portal.
+
+</td></tr><tr><td>
+
+OAuth Client ID
+
+</td><td>
+
+Application \(client\) ID for the application you created in the Azure portal.
+
+</td></tr><tr><td>
+
+OAuth Client Secret
+
+</td><td>
+
+Client secret for the application you created in the Azure portal.
+
+</td></tr><tr><td>
+
+OAuth Redirect URL
+
+</td><td>
+
+`https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance. This value is automatically populated.
+
+</td></tr></tbody>
+</table>8.  Select **Create and Get OAuth Token**.
+
+    You're redirected to the Azure portal. For the role required to perform this step, refer to the [Minimal users permission](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-azure-ad.md) table.
+
+9.  In the pop-up window, sign in to your account with Microsoft Entra ID admin credentials.
+
+10. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+
+11. After the connection is verified, select **Publish**.
+
+12. In the Publish Confirmation dialog box, select **OK**.
 
     If you clear the **Download Activity** check box after the integration profile is published, you must revalidate the connections because the following events occur:
 
@@ -242,7 +306,7 @@ Action
 
 ### Result
 
-After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+After you publish the integration profile and connect applications to the profile, you can view events performed by individual users up to 60 days before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
 
 ## Connect SSO apps
 
@@ -250,7 +314,7 @@ Connect a Single Sign-On \(SSO\) app to view all users and groups with access to
 
 ### Before you begin
 
-Role required: sam\_integrator or admin
+Role required: sam\_integrator
 
 ### About this task
 
@@ -280,13 +344,19 @@ SaaS License Management offers direct integrations with select applications. Dir
 
     An app must have a software model before you can connect it. Software models are automatically created for apps with an **External Catalog ID** that matches an **Identifier** in the Subscription Product Definitions \[samp\_sw\_subscription\_product\_definition\] table. For all other apps, you can create a software model manually. For more information, see [Create software models in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/record-terms-software-licenses.md).
 
-4.  Select a date for the **Analyze last activity from** field.
+4.  Select the **Enable group based software model** check box for mapping an SSO group with a specific software model for the application.
+
+    For example, if an application has multiple license models that are linked to specific groups, then you can map a group to a software model to optimize license usage.
+
+    **Important:** If you select this option, you must create a mapping for the SSO group before connecting the application. After the mapping is complete, the SSO subscriptions get automatically created or updated according to the mapped software model. For more information, see [Create an SSO group software model mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-ssogrp-swmodel-mapping.md).
+
+5.  Select a date for the **Analyze last activity from** field.
 
     You can choose to start analyzing login data for individual users and applications from the current date or from up to 60 days in the past. The default value is 30 days. Choosing a past date enables you to detect stale subscriptions without waiting in real time because you can see subscriptions that haven't been used recently. Because choosing a date in the past increases the amount of data that is analyzed, it might take you longer to be able to view the results.
 
-5.  Select **Save**.
+6.  Select **Save**.
 
-6.  Select **Connect**.
+7.  Select **Connect**.
 
     **Tip:** You can also connect multiple apps simultaneously from the **SSO Applications** list.
 
@@ -303,6 +373,18 @@ After the SSO application connects, your ServiceNow instance automatically creat
 ### What to do next
 
 Review all automatically generated reclamation rules to meet your specifications for reclaiming user subscriptions. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md).
+
+After connecting the SSO application, view information about the SSO profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **SSO integration profiles**. You can select an integration profile to view the following related lists:
+
+-   SSO Applications
+-   Directory Users
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Directory Jobs
+-   Directory Job Results
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 Create software entitlements for the automatically generated software models to track used software against owned software. For more information on creating software entitlements in the Software Asset Management classic application, see [Create entitlements in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/track-software-rights.md). For more information on creating software entitlements in the Software Asset Workspace, see [Create entitlements in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/create-entitlements-workspace.md). For more information on creating software entitlements using the Software Asset Management Playbook, see [Create entitlements using the guided walk-through](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/guidedwalk-workspace.md).
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/index-archive-pub-trm-cat.html
 release: yokohama
 topic_type: task
-last_updated: "2026-04-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [AI Search on the TRM catalog, Working with the publishing center, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [AI Search on the TRM catalog, Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Index previously published TRM catalog records for AI Search
@@ -20,7 +20,7 @@ Role required: admin
 
 Your instance must meet the following prerequisites:
 
--   Activate AI Search. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**.
+-   Activate AI Search. Navigate to **All** and search for **AI Search Status**. The status page must display **AI Search is ready**. For instructions, see 
 -   Enable the Now Assist panel. Navigate to **Now Assist Admin** &gt; **Now Assist Experiences** &gt; **Now Assist panel** and confirm the panel is turned on. For instructions, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 -   Install the Now Assist for EA plugin. For instructions, see [Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md).
 -   Install the EA Workspace May 2026 update from the ServiceNow Store.

@@ -1,20 +1,21 @@
 ---
-title: External applications for Contract Management Pro
-description: External applications provide services such as electronically signing contract documents and saving signed contracts or the documents related to requests in an external storage system.
+title: Configuring external applications for Contract Management Pro
+description: Set up external applications that provide services such as electronically signing contract documents and saving signed contracts or the documents related to requests in an external storage system.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-set-ext-app-config.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+keywords: [Electronic signature, External storage, E-signature]
+breadcrumb: [Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# External applications for Contract Management Pro
+# Configuring external applications for Contract Management Pro
 
-External applications provide services such as electronically signing contract documents and saving signed contracts or the documents related to requests in an external storage system.
+Set up external applications that provide services such as electronically signing contract documents and saving signed contracts or the documents related to requests in an external storage system.
 
 The Contract Management Pro application use spokes from Integration Hub to integrate with external applications. The contract configurator \(sn\_cm\_core.contract\_config\) can complete configuring these external apps after the administrator completes installation and configuration of these spokes.
 

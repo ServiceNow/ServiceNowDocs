@@ -1,53 +1,68 @@
 ---
-title: Creating a card disputes case with the Dispute Intake in Portal
-description: Whether you're a contact or a consumer, you can create a card disputes case in either the Customer Service Portal or Consumer Service Portal, respectively.
+title: Create a dispute case with Dispute Intake in Portal
+description: Whether you're a contact or a consumer, you can create a dispute case with a step-by-step guidance for the case flow process in either the Customer Service Portal or Consumer Service Portal, respectively.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/creating-an-onboarding-case-with-dispute-playbook-for-portal.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Managing dispute intake in portal, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Intake, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Creating a card disputes case with the Dispute Intake in Portal
+# Create a dispute case with Dispute Intake in Portal
 
-Whether you're a contact or a consumer, you can create a card disputes case in either the Customer Service Portal or Consumer Service Portal, respectively.
+Whether you're a contact or a consumer, you can create a dispute case with a step-by-step guidance for the case flow process in either the Customer Service Portal or Consumer Service Portal, respectively.
 
-## Overview
+## Key benefits of portal dispute playbook
 
-The card disputes playbook guides you through a flow that indicates the next steps,shows your progress in the submission process, and outlines the remaining steps you must complete. It provides options to help you input your information quickly and accurately. You can also intermittently save a case before submission and resume working on it by accessing the case from the tracker. After submitting the case, you can access the playbook through the case lists by navigating to **Requests** &gt; **All Requests**.
+-   Streamline the dispute intake experience with a step-by-step process that helps in selecting disputed transactions, completing questionnaires, uploading supporting documents, and tracking dispute progress seamlessly. The system automatically selects the relevant questionnaire based on the dispute category and reason code.
+-   Enable users to monitor the latest updates on the status of their disputed cases and to provide updates at the overall case level using the dispute tracker.
+-   Reduce case resolution times by helping users to promptly and accurately track and complete requested tasks.
+
+## Overview of the process
+
+The disputes playbook guides you through a flow that indicates the next steps, shows your progress in the submission process, and outlines the remaining steps you must complete. It provides options to help you input your information quickly and accurately. You can also intermittently save a case before submission and resume working on it by accessing the case from the tracker. After submitting the case, you can access the playbook through the case lists by navigating to **Requests** &gt; **All Requests**.
 
 ## Workflow steps
 
-Let's see how a cardholder creates a card disputes case from the dispute intake in portal. The cardholder performs the following actions:
+Let's see how to create a disputes case from the dispute intake in portal. Perform the following actions:
 
 1.  Create a card disputes case.
 
-    The cardholder creates a request by navigating to either the portal landing page or the portal menu header. For more information on how to create a request, see [Creating a card disputes case request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.md)
+    Create a request by navigating to either the portal landing page or the portal menu header. For more information on how to create a request, see [Create a card disputes case request from the service catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-an-onboarding-request-from-the-service-catalog.md)
 
 2.  Initiate a dispute.
 
-    The cardholder selects the financial account to initiate a dispute. They then choose the disputed transaction from the list of transactions under the financial account and provide additional information to determine the dispute category by answering the questions. For more details on the various stages of activities, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/initiating-dispute.md).
+    Select the financial account to initiate a dispute. A series of questions needs to be answered by the user to arrive at the category and reason code. Choose the disputed transaction from the list of transactions under the financial account and provide additional information to determine the dispute category by answering the questions. For more details on the various stages of activities, see [Initiate a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/create-case-with-intake-workspace.md).
 
-    **Note:** If the dispute category is Fraud, the cardholder can select additional transactions from the transaction list if more than one transaction is being disputed.
+    **Note:** If the dispute category is enabled for multiple transaction selection, select additional transactions from the transaction list.
 
 3.  Fill out the dispute questionnaire.
 
-    The cardholder completes the dispute questionnaire by answering the questions.
+    Complete the dispute questionnaire by answering the questions.
 
 4.  Upload documents.
 
-    The cardholder uploads any supporting documentation at this step, such as order details, invoices, and conversations between parties.
+    Upload any supporting documentation at this step, such as order details, invoices, and conversations between parties.
 
-5.  Submit the case for review.
+5.  Customer signature required
 
-    The cardholder reviews the dispute amount, adds any additional comments regarding the disputed transactions, and then submits the case for review. For more information, see [Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md).
+    For ACH disputes, sign a written statement confirming an unauthorized ACH debit sent via email.
+
+    This step is required for ACH disputes per Nacha guidelines.
+
+6.  Submit the case for review.
+
+    Review the dispute amount, add any additional comments regarding the disputed transactions, and then submit the case for review. For more information, see [Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md).
 
 
-**Note:** Before submitting an application, you can save it as a draft to return and complete later. Once saved, you can find your drafts in the case list under **Requests** &gt; **All Requests**. After submission, you can view updates on the case in the dispute tracker. For more information on the dispute tracker, see [Viewing the status of a request using the dispute tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/view-the-status-of-a-request.md)
+**Note:** Before submitting an application, you can save it as a draft to return and complete later. Once saved, you can find your drafts in the case list under **Requests** &gt; **All Requests**. After submission, you can view updates on the case in the dispute tracker. For more information on the dispute tracker, see [View the status of a request using the dispute tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/view-the-status-of-a-request.md)
 
-**Parent Topic:**[Managing dispute intake in portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-playbook-for-portal.md)
+-   **[View the status of a request using the dispute tracker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/view-the-status-of-a-request.md)**  
+Track the progress of card disputes case requests using the dispute tracker.
+
+**Parent Topic:**[About dispute intake](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/dispute-intake-overview.md)
 

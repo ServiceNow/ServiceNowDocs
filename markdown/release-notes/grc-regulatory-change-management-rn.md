@@ -1,115 +1,87 @@
 ---
 title: Regulatory Change Management release notes
-description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
+description: The ServiceNow Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Brazil release.Regulatory Change Management version 23.0.3 extends AI alert summarization to every state, adds AI Data Explorer to widgets on the RCM home page, traces regulatory action tasks to their impacted area records, and offers filters to scope entity selection when initiating risk assessments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/grc-regulatory-change-management-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [regulatory change management, ai data explorer, risk assessment, action tasks, alert summarization]
+breadcrumb: [Governance, Risk, and Compliance release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Regulatory Change Management release notes
 
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Brazil release.
 
 ## About Regulatory Change Management
 
--   Summarize a regulatory alert by using the Now Assist summarization skill.
--   Use Regulatory mapping with AI to help organizations identify, track, and manage regulatory requirements that are specific to their industry.
--   Set up a recommendation context.
--   Analyze the potential impacts of a new regulation to assess whether it's likely to achieve the required business or regulatory compliance objectives.
-
-[Yokohama Patch 11](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/yokohama-patch-11.md)
-
--   Some Now Assist skills are now turned on by default.
--   Review changes to Now Assist usage measurements.
+-   Identify and triage regulatory alerts from third-party providers or RSS feeds.
+-   Map incoming regulatory content to your organization's internal regulatory taxonomy.
+-   Assess the impact of a regulatory change and the inherent legal, reputational, financial, and business risk on an entity.
+-   Create and track action tasks to implement a regulatory change.
+-   Streamline regulatory alert analysis, summarization, and impact assessment with ServiceNow Otto skills and agentic workflows in Regulatory Change Management.
 
 See  for more information.
 
 ## Activation and other requirements
 
-**Important:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+**Note:** Regulatory Change Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 -   **Activation information**
 
-    Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Install Regulatory Change Management and ServiceNow Otto for IRM by requesting them from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Governance, Risk, and Compliance release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/grc-rn-landing.md)
 
-## January 2026
+## Version 23.0.3
 
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
-
-### What's changed
-
--   **[Some Now Assist skills are turned on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md)**
-
-    The new default behavior works as follows:
-
-    -   New customers: When you install a Now Assist product, designated skills are turned on automatically.
-    -   Existing customers who are upgrading \(starting with Yokohama Patch 11\): Any previously unconfigured skill is turned on automatically \(the skill was never configured and turned on, then turned off again\). Previously configured skills that were turned on, then off, remain inactive.
--   **[Changes to Now Assist usage measurement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/monitoring-now-assist-usage.md)**
-
-    Starting with Yokohama Patch 5, Now Assist usage measurement is transitioning from a 365-day look-back model to a 365-day burn-down model, with usage resetting at the contract anniversary date. For more information, refer to [KB KB2704710: Now Assist Usage - Overview &amp; New Measurement Logic](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2704710).
-
-
-## Yokohama
-
-The ServiceNow® Regulatory Change Management application enables you to check upcoming regulatory changes, assess their impact, and implement risk and compliance-related changes. Regulatory Change Management was enhanced and updated in the Yokohama release.
-
-### What's new
-
--   **Generating a summary of a regulatory alert**
-
-    Transform your detailed regulatory information into concise, business-focused summaries that emphasize the most critical changes and impending deadlines. You can significantly cut down the time that is required to interpret complex updates, ensuring that no vital details are overlooked. By streamlining compliance processes, your organization becomes more efficient and minimizes the risks.
-
--   **Regulatory mapping with AI**
-
-    Leverage artificial intelligence to help your organizations identify, track, and manage regulatory requirements that are specific to their industry. AI automates the mapping of incoming regulatory changes to internal business operations, such as citations and control objectives, making it easier to ensure compliance. By analyzing the incoming regulatory changes and vast amounts of internal regulatory data, AI highlights the relevant policies for association and mapping, which helps your organization to streamline the compliance process and reduce manual effort.
-
--   ****
-
-    Enable your administrators to use a framework engine to create decision templates for primary records. This framework simplifies the enterprise decision-making processes and includes the configurable user interface elements that provide contextual insights and improve the display of these elements. By integrating this framework, your organization can help to ensure that every recommendation is both relevant and informed.
-
--   **Impact radius extension**
-
-    Identify the impacted areas of your business operations, such as the citations, control objectives, policies, risks, controls, and authority documents, that you can add to a regulatory alert. You can then conduct a review for implementation acceptance that triggers a change management program by assigning ownership and accountability through a Change Task. Additionally, an existing dashboard was improved so that you can get a clear overview of the impacted business operations.
-
--   **Regulatory assessment for a regulatory alert**
-
-    View the new Regulatory assessments related list for a regulatory alert. This list displays the uniquely generated regulatory assessments that are powered by the Smart Assessment Engine application so that you can analyze and track the completion status for compliance users. Your users with the sn\_grc.business\_user role can work on these assessments.
-
+Regulatory Change Management version 23.0.3 extends AI alert summarization to every state, adds AI Data Explorer to widgets on the RCM home page, traces regulatory action tasks to their impacted area records, and offers filters to scope entity selection when initiating risk assessments.
 
 ### What's changed
 
--   **Changes on the action task form**
+-   **Entity filtering in the risk assessment modal**
 
-    The Category: Compliance section and the Category: Risk section on an action task form have been removed. They're replaced by the **Impacted area table** field and the **Impacted area** field.
+    When you initiate a risk assessment from a regulatory alert, the Evaluate risk impact dialog box includes a **Filter by** drop-down. Use **Entities by Impacted Areas** or **Entities by Recommendations** to scope your entity selection.
 
--   **Assess impact**
+-   **Regulatory alert summarization in all regulatory alert states**
 
-    The **Initiate Impact Assessment** button is now called the **Assess impact** button.
+    Generate a regulatory alert summary in any state. The AI-generated summary includes new sections such as alert overview, scope, actions and outcomes, and velocity analysis. Select **Share to alert summary** to save the summary to the alert record.
 
+-   **Enhanced input data for regulatory alert summarization**
 
--   **Overview page of regulatory alerts**
+    The regulatory alert summarization skill uses additional input data to generate a summary. New input fields include enriched insights, coordinator details, functional domain, and alert type, among others. The skill also incorporates data from the impacted areas and regulatory change tasks related lists.
 
-    The Overview page for regulatory alerts includes a drop-down menu that enables you to track the progress of a regulatory assessment. Additionally, you can view the counts of completed, open, and overdue regulatory assessments.
+-   **Regulatory alert number on the Details tab of an alert**
 
--   **Home page updates for Regulatory Change Management**
+    The regulatory alert number is displayed on the Details tab of a regulatory alert.
 
-    On the Regulatory Change Management home page, within the Tracking section, a new drop-down menu has the Regulatory Assessments or Risk Assessments options. With these options, regulatory change managers can see the number of open and overdue assessments to help them efficiently monitor the status of their assessments.
+-   **New column on regulatory assessment tasks**
 
--   **Regulatory assessments in the Tasks pane**
+    The Regulatory assessments tab in **GRC Tasks** displays the regulatory alert for an assessment in the Record column.
 
-    The Tasks pane in the Compliance Workspace now displays all the Regulatory assessments.
+-   **Compliance library items traced to their corresponding regulatory action tasks**
+
+    Compliance library records, including citations, control objectives, controls, and policies, feature a Regulatory action tasks tab that links the action tasks linked to these records. This enables you to navigate from the impacted area record in the compliance library directly to its action task in RCM. Similarly, from the Action tasks tab of a regulatory alert, you can navigate to the impacted citations, control objectives, controls, or policies.
+
+-   **Email notification redirection to workspace**
+
+    Email notification links for RCM records redirect users to the Compliance Workspace instead of the classic environment.
 
 
 ### What's deprecated or removed
 
--   Related documents related list will be hidden for both the workspace and classic view for a regulatory alert.
--   The entity class configuration has been removed and is no longer necessary for conducting an assessment. You can select the entities now when you send the risk assessment.
--   Starting with the Yokohama release, all open assessments for a regulatory alert, whether they’re risk assessments or regulatory assessments, aren’t marked as canceled and remain open even after an alert is marked as applicable.
+-   **Now LLM service deprecation**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+
+### Plugin information
+
+-   **New plugins**
+
+    AI Data Explorer \(sn\_pa\_ai\_canvas\): Install the plugin to enable regulatory change managers and users to analyze regulatory data using natural language queries. On the Regulatory Change Management dashboard of the Compliance Workspace, select the Explore with AI icon \[Omitted image "icon-otto-outline-24.svg"\] on the widgets to open AI Data Explorer and gather insights about underlying regulatory data. For information on installing, configuring and using it, see .
+
 

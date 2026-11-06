@@ -1,38 +1,36 @@
 ---
-title: Activate Group Action Framework for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+title: Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications
 description: Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/activate-group-action-framework-somt.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Order Enrichment AI agent, Standalone agents in SOMT, Use agentic workflows, ServiceNow Otto for Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [Order enrichment AI agent, Standalone AI agents, Use agentic workflows, Use, Sales Customer Relationship Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Activate Group Action Framework for ServiceNow Otto for Sales Customer Relationship Management for Telecommunications
+# Activate Group Action Framework for ServiceNow Otto for Sales CRM for Telecommunications
 
 Activate the Group Action Framework \(GAF\) to enable Now Assist AI agents to collect information about the related records across your instance.
 
 ## Before you begin
 
-Role required: admin
+Select the ServiceNow Otto for Sales CRM for Telecommunications application scope.
 
-Selected application scope: Now Assist for Sales and Order Management for Telecommunications.
-
-In the Request Definitions, select **Index All Tables**.
+In the Request definitions, select **Index All Tables**.
 
 In the request\_characteristic, select **Index All Tables**.
 
+Role required: admin
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills** &gt; **Customer** &gt; **TMT**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills** &gt; **Customer** &gt; **TMT**.
 
 2.  In Group &amp; Action - Sales and Order Management for Telecommunications, select **Activate skill**.
 
-    \[Omitted image "assist-skills-somt.png"\] Alt text: now assist skills for tmt.
-
-3.  On the form, select **Edit** to change the values.
+3.  On the Group &amp; Action - Sales and Order Management for Telecommunications form, change the values by selecting **Edit**.
 
 4.  Select **Save and continue**.
 
@@ -41,5 +39,5 @@ In the request\_characteristic, select **Index All Tables**.
 
 ## Result
 
-GAF is activated on your instance for the Now Assist application and can be used by AI agents to find related records.
+GAF is activated on your instance for the ServiceNow Otto application and can be used by AI agents to find related records.
 

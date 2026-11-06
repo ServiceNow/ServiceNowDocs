@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-interface-bcm.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Business Continuity Management integrates with the Crisis Map to provide you the
 
 ## Before you begin
 
-It not only helps you to identify a threat as a business crisis but also notify your stakeholders and declare it as a crisis event if it has the potency to disrupt your business.
+The crisis map helps you identify a threat as a business crisis and notify your stakeholders. You can declare it as a crisis event if it has the potential to disrupt your business.
 
 **Note:** Activate the Business Crisis Management Map \(sn-crisis-map\) application for the crisis map feature.
 
@@ -74,14 +74,12 @@ Use the crisis map to manage feeds, prioritize alerts based on their severity, a
 
 6.  To go back to the alert list, click the **Map** tab.
 
-7.  If the alert does not pose a threat currently to your employee locations, datacenters, core companies, or any of your business establishments, click the **Dismiss Alert** option in the alert menu.
+7.  If the alert does not pose a threat to your employee locations, datacenters, core companies, or business establishments, click **Dismiss Alert** in the alert menu.
 
-    If you know that the alert would not hamper your business operations, you can dismiss it in the list view as well as in its detailed view. When you dismiss an alert in the list view, it is removed from the list. If you dismiss an alert from the detailed view, the alert is removed and brings you back to the list view so that you can review the other alerts in the list. In both cases, you can see a confirmation message about the dismissal of the alert.
+    If you know that the alert would not hamper your business operations, you can dismiss it in the list view as well as in its detailed view. When you dismiss an alert in the list view, it is removed from the list. If you dismiss an alert from the detailed view, the alert is removed and brings you back to the list view. You can then review the other alerts in the list. In both cases, you can see a confirmation message about the dismissal of the alert.
 
 8.  To subscribe to the alert notifications, click the subscribe icon \(\[Omitted image "SubscribeIcon.png"\] Alt text: Subscribe icon.\).
 
     You receive an email and workspace notifications every time the alert or its source feed item is updated.
 
-
-**Parent Topic:**[Crisis Management map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-management-map-integration.md)
 

@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/defining-custom-flow-create-update-email-interactions.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Email Interaction for CSM, Email Interaction for CSM, Email Interaction for CSM]
-breadcrumb: [Creating flows for incoming emails that create and update interactions, Email Interaction, Configuring the email channel, Configure communication channels, Enable communication channels, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure flows for incoming emails, Email Interaction, Configure Email, Configure omnichannel, Configure, Customer Service Management]
 ---
 
 # Define a custom flow to create or update email interactions
@@ -59,6 +59,9 @@ Role required: workspace\_admin, awa\_agent, sn\_customerservice\_consumer\_agen
 
         -   Select **Type** is **received**.
         -   Select **Receive type** is **New**.
+        -   Select **To** contains **customerservice@example.com**.
+        **Note:** **customerservice@example.com** is a sample email address. Specify the actual email address that should be configured as the default for creating email interactions.
+
     5.  Leave the Reply Record Type as empty.
 
     6.  Select **Done**.

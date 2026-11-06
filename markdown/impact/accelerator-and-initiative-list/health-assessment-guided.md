@@ -1,24 +1,28 @@
 ---
 title: Health Assessment – Guided
-description: The Health Assessment - Guided Accelerator provides an insight into your ServiceNow instance health.
+description: The Health Assessment-Guided Accelerator provides an insight into your ServiceNow instance health.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/health-assessment-guided.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Assessment, Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # Health Assessment – Guided
 
-The Health Assessment - Guided Accelerator provides an insight into your ServiceNow instance health.
+The Health Assessment-Guided Accelerator provides an insight into your ServiceNow instance health.
 
-## Overview
+## Accelerator Overview
 
 Health Assessment- Guided provides Impact Guided Customers with a technical analysis of their ServiceNow instance health via HealthScan, as well as guidance on how to interpret the findings. It aims to help you understand how your instance aligns to leading practices and recommendations on how to improve instance health.
+
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided, Guided+ \(Strategic Value or Platform Governance\) packages.
 
 ## What You Get
 
@@ -38,12 +42,12 @@ Health Assessment- Guided provides Impact Guided Customers with a technical anal
 
 ## Requested Customer Resources
 
-|Customer Resource |Responsibilities |
-|------------------|-----------------|
-|Platform Owner- Required|Responsible for the project, meet with the ServiceNow Impact Accelerator Consultant, provide access to the required resources, and drive the actions from the review.|
-|System Administrator \(s\)- Recommended|Responsible for maintenance and configuration of the ServiceNow platform. Meet with the ServiceNow Impact Accelerator Consultant and provide feedback on challenges and pain points of the ServiceNow environment.|
-|Service Owners- Required|Responsible for overall ownership and day-to-day activities of the ServiceNow instance. Meet with the ServiceNow Impact Accelerator Consultant and provide feedback on challenges and pain points of the ServiceNow environment.|
-|System Developers- Required|Responsible for development activities on the ServiceNow platform. Meet with the ServiceNow Impact Accelerator Consultant and provide feedback on challenges and pain points to the ServiceNow environment|
+|Customer Resource |Responsibilities |Required|Recommended|
+|------------------|-----------------|--------|-----------|
+|Platform Owner|Responsible for the project, meet with the ServiceNow Impact Accelerator Consultant, provide access to the required resources, and drive the actions from the review.|✓| |
+|System Administrator \(s\)|Responsible for maintenance and configuration of the ServiceNow platform. Meet with the ServiceNow Impact Accelerator Consultant and provide feedback on challenges and pain points of the ServiceNow environment.| |✓|
+|Service Owners|Responsible for overall ownership and day-to-day activities of the ServiceNow instance. Meet with the ServiceNow Impact Accelerator Consultant and provide feedback on challenges and pain points of the ServiceNow environment.|✓| |
+|System Developers|Responsible for development activities on the ServiceNow platform. Meet with the ServiceNow Impact Accelerator Consultant and provide feedback on challenges and pain points to the ServiceNow environment|✓| |
 
 ## Requested Information / Access
 

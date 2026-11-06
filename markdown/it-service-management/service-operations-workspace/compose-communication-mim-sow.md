@@ -1,20 +1,20 @@
 ---
 title: Compose communications for incidents and major incidents
-description: Compose the communication messages for incidents and major incidents using communication channels such as email and SMS.
+description: Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/compose-communication-mim-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Communicating with stakeholders about incidents and major incidents, Managing a major incident record, Major Incident Management in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Communicating about incidents and major incidents, Managing a major incident record, Major Incident Management in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Compose communications for incidents and major incidents
 
-Compose the communication messages for incidents and major incidents using communication channels such as email and SMS.
+Compose communication messages for incidents and major incidents using communication channels such as email and SMS.
 
 ## About this task
 
@@ -29,28 +29,24 @@ The **Communicate** tab displays the list of communication tasks with various op
 
 ## Before you begin
 
-You must configure the communication plans and tasks in one of the following ways:
+The communication plans and tasks must be configured in one of the following ways:
 
--   For major incidents, you must configure communication plans and tasks for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.md).
--   For incidents, you must activate and then configure communication plans and tasks in Task Communications Management. For more information, see [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/tcm-landing-page.md).
+-   For major incidents, communication plans and tasks must be configured for Major Incident Management in Admin Center. For more information, see [Configure a communication plan in Major Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/configure-comm-plan-mim-sow.md).
+-   For incidents, communication plans and tasks must be activated and then configured in Task Communications Management. For more information, see [Task Communications Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/tcm-landing-page.md).
 
 Role required: major\_incident\_manager, ia\_admin, itil, or admin
 
 ## Procedure
 
-1.  Navigate to **Service Oeprations Workspace** &gt; **List** &gt; **Major Incident or Incident**
-
-2.  Select the required category under **Major incident** or **Incident** such as **All** or **Open**.
-
-3.  On the incident record, select the **Communicate** tab.
+1.  On the incident record, select the **Communicate** tab.
 
     The **Communicate** tab displays the list of communication tasks based on the communications configured for major incidents or incidents.
 
-4.  Select the communication task where you want to compose the communication message.
+2.  Select the communication task for which to compose the communication message.
 
-    **Note:** Select the communication task based on the due dates to ensure that no communication deadline is breached. For example, communication tasks from the **Overdue** section.
+    **Note:** Select the communication task based on the due dates to avoid breaching any due date for communications. For example, communication tasks from the Overdue section.
 
-5.  On the communication task, select **Compose**.
+3.  On the communication task, select **Compose**.
 
     The communication task record opens on a new tab within the incident view with the configured communication channels, such as DEX Desktop Assistant, email and SMS.
 
@@ -68,8 +64,8 @@ Role required: major\_incident\_manager, ia\_admin, itil, or admin
     -   For major incident SMS communications, you can select or change the SMS templates with any of the following user roles:
         -   major\_incident\_manager
         -   sn\_incident\_write user who has the required communication related roles
-        -   An itil user to whom the major incident is assigned
-6.  On the form, fill in the fields.
+        -   ITIL user to whom the major incident is assigned
+4.  On the form, fill in the fields.
 
 <table id="table_lcn_3ng_z1c"><thead><tr><th>
 
@@ -87,7 +83,7 @@ Email template
 
 Email template used for composing the email.**Note:**
 
-Selecting this field displays two sections of email templates. The first section contains the GenAI templates with corresponding ServiceNow Otto for ITSM icon \(\[Omitted image "icon-now-assist-panel.png"\] Alt text: Now Assist for ITSM icon\) and the second section contains the non GenAI templates. The GenAI email templates are displayed only if the following conditions exist:
+Selecting this field displays two sections of email templates. The first section contains the GenAI templates with corresponding ServiceNow Otto for ITSM icon \(\[Omitted image "icon-now-assist-panel.png"\] Alt text:\) and the second section contains the non-GenAI templates. The GenAI email templates are displayed only if the following conditions exist:
 
 -   Any GenAI variable is available in the email templates.
 -   ServiceNow Otto for ITSM is installed and activated.
@@ -158,7 +154,7 @@ To
 
 </td><td>
 
-List of recipients to whom the notification is sent.**Note:** The recipients can receive the notification message in DEX Desktop Assistant only if the DEX Desktop Assistant installed on their device.
+List of recipients to whom the notification is sent.**Note:** The recipients can receive the notification message in DEX Desktop Assistant only if the DEX Desktop Assistant is installed on their device.
 
 </td></tr><tr><td>
 
@@ -166,7 +162,7 @@ Template
 
 </td><td>
 
-Template used for composing the notification message.**Note:** If any template is available, the **Title** and **Message** field is auto-populated. However, you can edit the content and post them.
+Template used for composing the notification message.**Note:** If any template is available, the **Title** and **Message** fields are auto-populated. However, you can edit the content and post them.
 
 </td></tr><tr><td>
 
@@ -185,7 +181,7 @@ Message
 Content of the notification message.
 
 </td></tr></tbody>
-</table>    For more information on DEX Desktop Assistant, see [Use DEX Desktop Assistant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-end-user-experience-dex/use-dex-desktop-exp.md).
+</table>    For more information on DEX Desktop Assistant, see .
 
     |Field|Description|
     |-----|-----------|
@@ -197,9 +193,9 @@ Content of the notification message.
 
     -   Depending on the channel selected on the communication task, options such as email or SMS are displayed.
     -   SMS communication is sent to the recipient only if the recipient has a phone number linked to the recipient record.
-    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, Major Incident Management allows notification to be sent to the configured recipients \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data installed. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
-7.  Select **Send**.
+    -   For all supported channels such as email, SMS, or DEX Desktop Assistant, you can use Major Incident Management to send notifications to all users \(employees\) in the affected locations. You can use the demo recipient list available in the base system as part of the installed demo data. The affected locations list can be accessed from the Affected locations related list in the **Related records** tab of a major incident record. For more information, see [View and update incident information on the Overview tab](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/view-update-inc-overview-tab.md).
+5.  Select **Send**.
 
 
-**Parent Topic:**[Communicating with stakeholders about incidents and major incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
+**Parent Topic:**[Communicating with stakeholders about incidents and major incidents in SOW](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/communicating-with-stakeholders-sow.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring resources for territories, Configuring Field Service Territory Planning, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Configure resources, Territory Planning, Set up workforce, Configure, Field Service Management]
 ---
 
 # Modify the resource membership of agents or crews associated with a territory
@@ -26,7 +26,7 @@ All agent and crew resources in the assignment group associated with a territory
 
 **Note:**
 
--   You can customize the membership of any resources regardless their assignment group and assignment territory.
+-   You can customize agent membership even if the agents don't belong to the assignment group, but crew membership can be customized only for crews that belong to the assignment group associated with the territory.
 
 -   You must activate Field Service Crew Operations plugin to view and customize crew membership. For more information, see [Activate Field Service Crew Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/activate-fsm-crew-scheduling.md).
 

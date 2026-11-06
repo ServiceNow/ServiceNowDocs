@@ -1,0 +1,28 @@
+---
+title: Configure Technology Portfolio Management
+description: Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-config-tech-portfolio-mgmt.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
+---
+
+# Configure Technology Portfolio Management
+
+Configure Technology Lifecycle Management in Enterprise Architecture Workspace. By configuring TLM, you can get application lifecycle risk insights and rationalize applications.
+
+-   **[Activate the Technology Lifecycle Management \(TLM\) plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-install-tpm.md)**  
+Activate the Technology Lifecycle Management \(TLM\) store application that you purchased from the ServiceNow Store to make it available on your instance.
+
+**Parent Topic:**[Configure EA Workspace using the Setup page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-config-eaw-using-setup-page.md)
+
+**Related topics**  
+
+
+[Exploring Technology Lifecycle Management \(TLM\) in Enterprise Architecture Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-tpm.md)
+
+[Working with Technology Lifecycle Management \(TLM\) in EA Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-work-with-tpm.md)
+

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/exploring-antivirus-scanning.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Antivirus Scanning]
 ---
@@ -35,7 +35,7 @@ The Antivirus Protection plugin \(com.glide.snap\) is activated and enabled by d
 
 ## Email scanning
 
-Inbound emails are scanned for viruses by the system [email filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_EmailFilters.md), not by Antivirus Scanning.
+Inbound emails are scanned for viruses by the system email filters, not by Antivirus Scanning.
 
 ## File Attachment field in a table
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Platform Encryption
 classification: platform-encryption
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Create a cryptographic module, Configuring the Key Management Framework, Key Management Framework, Encryption]
 ---
@@ -32,7 +32,7 @@ Role required: sn\_kmf.cryptographic\_manager
 
 4.  Complete the Algorithm Definition form.
 
-    See [Cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
+    See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
     \[Omitted image "algorithm-definition.png"\] Alt text: Definition form for the key algorithm.
 
@@ -60,7 +60,7 @@ Crypto purpose
 
 </td><td>
 
-Select the purpose of this module. For example, you might use it for data encryption, signature generation, or key wrapping. The available algorithms adjust based on the selected crypto purpose. See [Cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
+Select the purpose of this module. For example, you might use it for data encryption, signature generation, or key wrapping. The available algorithms adjust based on the selected crypto purpose. See [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
 </td></tr><tr><td>
 
@@ -68,7 +68,7 @@ Algorithm
 
 </td><td>
 
-Type of algorithm used to accomplish the crypto purpose. The algorithm also controls the key origin. Adjusts automatically based on the selected crypto purpose. [Cryptographic specification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
+Type of algorithm used to accomplish the crypto purpose. The algorithm also controls the key origin. Adjusts automatically based on the selected crypto purpose. [Cryptographic specification overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/platform-encryption/cryptographic-purpose.md) for details.
 
 </td></tr><tr><td>
 

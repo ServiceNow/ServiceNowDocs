@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Investigating a dispute, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Review participating merchant alerts
@@ -30,43 +30,39 @@ During the investigation stage of a transaction dispute, this task alerts the me
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-    The case playbook goes through the steps that are involved in resolving a case.
+6.  Select the **Review participating merchant alerts** task under the **Investigation** playbook stage.
 
-6.  In the case playbook integrated with Visa, select the **Processing** tab and select the transaction ID.
-
-7.  Select the **Review participating merchant alerts** activity under the **Investigation** playbook stage.
-
-8.  On the form, fill in the required fields and any other related information.
+7.  On the form, fill in the required fields and any other related information.
 
     In the **Merchant response** field, select one of the following options:
 
     -   **Accepted Dispute**- Merchant chose to resolve the dispute with the customer.
-    -   **Declined Dispute**- Merchant declined to resolve the dispute with the customer.
-9.  In the **Remarks** field, enter any comments.
+    -   **Declined Dispute**- Merchant declines to resolve the dispute with the customer.
+8.  In the  **Remarks** field, enter any comments.
 
-10. Select one of the following actions.
+9.  Select one of the following actions.
 
-    |Dispute activity|Action|
-    |----------------|------|
-    |**To save changes to the activity**|Select **Update**.|
-    |**To close the Review participating merchant alerts activity**|Select **Close task**.|
+    |Dispute task|Action|
+    |------------|------|
+    |**To save changes to the task**|Select **Update**.|
+    |**To close the task**|Select **Close task**.|
 
 
 ## Result
 
-The task state updates to **Closed Complete**. The outcome that the transaction sets to depends on the merchant's decision:
+The task state updates to Closed Complete. The outcome that the transaction sets to depends on the merchant's decision:
 
 -   If the merchant resolves the dispute with the customer directly, the transaction moves to a Closed complete outcome.
 -   If the merchant declines to resolve the dispute with the customer, the transaction dispute remains in the Work in progress state, and continues through the dispute process workflow stages.

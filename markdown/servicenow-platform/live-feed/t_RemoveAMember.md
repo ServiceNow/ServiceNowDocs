@@ -1,20 +1,20 @@
 ---
 title: Remove a member
-description: If you are team administrator, you can remove any member from the team.
+description: If you're a team administrator, you can remove any member from the team.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/live-feed/t\_RemoveAMember.html
 release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Remove a member
 
-If you are team administrator, you can remove any member from the team.
+If you're a team administrator, you can remove any member from the team.
 
 ## Before you begin
 
@@ -29,8 +29,6 @@ Role required: admin
 3.  From the team list, select the team name.
 
 4.  Click the **Members** tab.
-
-    \[Omitted image "RemoveMember.png"\] Alt text: Remove member
 
 5.  Click **Remove** below the member name.
 

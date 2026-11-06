@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring work order tasks, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Work order tasks, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Create work types for a work order task
@@ -97,7 +97,9 @@ Resource requirements
 Option to indicate if resource, such as agent or equipment, is required for the selected type of work.**Note:** The field appears only when Field Service Resource Scheduling plugin \(com.snc.fsm\_resource\_scheduling\) is active.
 
 </td></tr></tbody>
-</table>4.  Select and hold \(or right-click\) the form header and select **Save**.
+</table>4.  Select and hold \(or right-click\) the form header and select **Submit**.
+
+    \[Omitted image "new-work-type.png"\] Alt text: new work type form
 
 
 ## Result

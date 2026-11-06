@@ -1,20 +1,20 @@
 ---
-title: Tracked web analytics fields for User Experience Analytics
-description: User Experience Analytics collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
+title: Tracked web analytics fields for Usage Insights
+description: Usage Insights collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-tracked-web-analytics.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Tracked analytics fields and cookies, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Tracked web analytics fields for User Experience Analytics
+# Tracked web analytics fields for Usage Insights
 
-User Experience Analytics collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
+Usage Insights collects data from web applications. These tables list the fields that are tracked. Reports and charts are generated from these fields.
 
 For more information about using the data, see [Viewing user analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/viewing-user-data.md).
 
@@ -319,12 +319,12 @@ basic tracking
 
 ## Collected data for customer events- optional
 
-You can add these events by calling client-side APIs. 
-
 |Name|Description|Sample output value|
+|You can add these events by calling client-side APIs. | | |
 |----|-----------|-------------------|
+|------------------------------------------------------|---|---|
 |Name|Name of the event |Submit Catalog Request|
-|Time|Event time \(in milliseconds\) from the beginning of the session |945|
+|Time|Event time \(in milliseconds\) from the beginning of the session\) |945|
 
 ## Collected data for event properties
 

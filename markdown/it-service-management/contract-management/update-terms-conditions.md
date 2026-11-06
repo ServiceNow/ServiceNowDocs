@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract renewal workflow, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Update terms and conditions
@@ -18,7 +18,7 @@ Update the terms and conditions in your new contract. You can also view the term
 
 ## Before you begin
 
-Role required: asset, contract\_manager \(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
+Role required: contract\_system\_admin, asset, contract\_manager \(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
 
 ## Procedure
 
@@ -28,15 +28,15 @@ Role required: asset, contract\_manager \(core UI and Hardware Asset Workspace o
     -   If you are using the Enterprise Asset Workspace, navigate to the Contract and lease management view and then select the **All contracts** tab. Open the enterprise asset contract that you want to add terms and conditions to and then select the **Terms and Conditions** tab.
 2.  Update the terms and conditions in the contract.
 
-<table id="choicetable_rxj_w1c_qtb"><thead><tr><th align="left" id="d428973e79">
+<table id="choicetable_rxj_w1c_qtb"><thead><tr><th align="left" id="d380546e79">
 
 Interface
 
-</th><th align="left" id="d428973e82">
+</th><th align="left" id="d380546e82">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d428973e88">
+</th></tr></thead><tbody><tr><td id="d380546e88">
 
 **Core UI**
 
@@ -44,7 +44,7 @@ Action
 
 Indicate the terms and conditions that you want to cover by moving them to the **Terms and Conditions List** or removing them.
 
-</td></tr><tr><td id="d428973e100">
+</td></tr><tr><td id="d380546e100">
 
 **Hardware Asset Workspace**
 
@@ -56,7 +56,7 @@ Add or remove terms and conditions from the draft contract.
 -   To remove a term and condition, select it and select **Remove**.
 
 
-</td></tr><tr><td id="d428973e127">
+</td></tr><tr><td id="d380546e127">
 
 **Enterprise Asset Workspace**
 

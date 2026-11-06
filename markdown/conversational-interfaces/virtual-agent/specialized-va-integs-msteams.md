@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Specialized Virtual Agent integrations for Microsoft Teams
@@ -33,5 +33,5 @@ Create a self-configured single tenant bot with Microsoft Teams for integration 
 -   **[Enable Microsoft Teams integration in ServiceNow Protected Platform \(SPP\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/enable-msteams-integ-spp.md)**  
 When installing Conversational Integration with Microsoft Teams, the ServiceNow AI Platform® makes the instance configuration simpler by dynamically determining the bot type for commercial and SPP \(ServiceNow Protected Platform\) environments from the Tokyo release.
 
-**Parent Topic:**[Integrating Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/teams-conv-integration.md)
+**Parent Topic:**[Integrate Virtual Agent with Microsoft Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-integ-msteams.md)
 

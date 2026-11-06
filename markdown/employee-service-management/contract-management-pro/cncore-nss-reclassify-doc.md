@@ -1,5 +1,5 @@
 ---
-title: Reclassify contract documents in third-party contract request
+title: Reclassify contract documents
 description: As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-nss-reclassify-doc.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use non-self-served contract request, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Third-Party paper contract request, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Reclassify contract documents in third-party contract request
+# Reclassify contract documents
 
 As a contract fulfiller, reclassify the documents submitted in a third-party contract review request. For example, you need to change the contract document type from Non-disclosure Agreement to Partnership Agreement.
 
 ## Before you begin
 
-Ensure that the contract request type is Multiple contracts.
+Verify that the contract request type is Multiple contracts.
 
 Role required: sn\_cm\_core.contract\_fulfiller
 
@@ -41,5 +41,5 @@ Role required: sn\_cm\_core.contract\_fulfiller
 7.  Select **Save** to save the record.
 
 
-**Parent Topic:**[Use non-self-served contract request]()
+**Parent Topic:**[Third-Party paper contract request]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Continuous Risk Monitoring
 classification: continuous-risk-monitoring
 topic_type: task
-last_updated: "2025-12-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create GRC workflow states, GRC state model configuration, CAM workflow configuration, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Create GRC workflow states, GRC state model configuration, CAM workflow configuration, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Configure transition between state models
@@ -57,16 +57,12 @@ Role required: sn\_irm\_cont\_auth.admin
 
 4.  On the **Model State Transitions** tab, select **New**.
 
-    \[Omitted image "WF-state-transition1.png"\] Alt text: Selecting Model State Transitions tab.
-
 5.  On the **Model State Transition New record** form, fill in the fields.
 
     |Fields|Descriptions|
     |------|------------|
     |From|The current state is automatically populated.|
     |To|Select the state that this transition leads to.|
-
-    \[Omitted image "WF-state-transition2.png"\] Alt text: State transition fields.
 
 6.  Select **Submit** to create the state transition to the selected workflow state.
 

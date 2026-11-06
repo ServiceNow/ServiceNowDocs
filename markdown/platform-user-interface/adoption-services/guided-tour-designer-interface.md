@@ -1,58 +1,76 @@
 ---
-title: Guided Tour Designer interface
-description: The Guided Tour Designer \(GTD\) is a simplified way to create a guided tour. You can drag a callout to the element, and enter the step instructions and trigger in one step. You can test the steps as you build them, and modify them as needed.
+title: GTD interface
+description: The Guided Tour Designer \(GTD\) provides an easy way to create guided tours. You can easily drag a callout to the element you want to highlight and enter instructions for each step, along with the corresponding trigger. As you add steps, you have the option to test and modify them as needed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/adoption-services/guided-tour-designer-interface.html
 release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Exploring Guided Tours, Guided Tours, Adoption services, Configure user experiences]
+breadcrumb: [Guided Tour Designer, Explore Guided Tours, Guided Tours, Adoption services, Configure user experiences]
 ---
 
-# Guided Tour Designer interface
+# GTD interface
 
-The Guided Tour Designer \(GTD\) is a simplified way to create a guided tour. You can drag a callout to the element, and enter the step instructions and trigger in one step. You can test the steps as you build them, and modify them as needed.
+The Guided Tour Designer \(GTD\) provides an easy way to create guided tours. You can easily drag a callout to the element you want to highlight and enter instructions for each step, along with the corresponding trigger. As you add steps, you have the option to test and modify them as needed.
 
 The GTD has the following features:
 
 \[Omitted image "gtd-interface.png"\] Alt text: GTD interface with description callouts
 
--   **Guided tour actions \(A\)**
+-   **\(A\) Guided tour actions**
 
-    The icons on the upper right are used to copy a link to the tour so you can share it with another user, such as a tester.
+    Share your draft or published tour with your internal colleagues for review by selecting the copy URL icon \[Omitted image "link-outline-24.svg"\] Alt text: Copy URL icon and copying the link.
 
--   **Callouts \(B\)**
+-   **\(B\) Callouts**
 
-    When you build a tour, drag and drop the callout at the desired position on the page element. The callout pointer must touch the element you are assigning it to.
+    Create guided tour steps by dragging and dropping the callouts to the desired position on the page element.
 
-    **Note:** Guided tours callouts don't work on user interface elements made on seismic. The AI Search feature utilizes Seismic technology.
+    Make sure that the callout's pointer touches the element you intend to assign it to.
 
--   **Steps \(C\)**
+    **Note:** Guided tour callouts don't function on user interface elements created with Seismic technology. Additionally, the AI Search feature uses Seismic technology.
 
-    When you hover over a step, it appears in the current view. If the step belongs to a previous page, then the **Not found in current view** message appears. In this example, the first step does not appear in current view. To change this step, you can click the back arrow on the upper left and open the list view where the step appears.
+-   **\(C\) Steps**
 
-    **Note:** Do not put more than one interaction with a field in a step. Each step should describe or provide an interaction with just one field or other object.
+    View a step in the current view by hovering it.
 
--   **Step interaction \(D\)**
+    If the step is from a previous page, a message appears saying **Not found in current view**. In this example, the first step isn’t visible in the current view. Access this step by selecting the back arrow in the upper left corner to open the list view, where the step is located.
 
-    As pictured, when you point to a step, its corresponding number in the page is enlarged. Click the step to edit the text or change the trigger. Drag it to a different position as needed. Click the \(-\) icon to delete it.
+    **Note:** Each step should focus on only one interaction with a field or object. Avoid including multiple interactions in a single step.
 
-    If you make a mistake with a step, such as pointing it to the wrong element, you must delete it. Then you can add a new step with the correct information and drag it into place.
+-   **\(D\) Step interaction**
 
--   **Tour action buttons \(E\)**
+    When you hover over a step, the corresponding number on the page becomes large.
 
-    Click **Exit** to close the GTD. The browser tab or window closes and changes you made are automatically saved.
+    Edit the text of a specific step by choosing that step and selecting the edit icon \[Omitted image "edit-icon.png"\] Alt text: edit icon. Then, in the Content HTML formatter, make your changes and select **Save**.
 
-    Click **Play** to open the instance and designated UI page in a new browser tab or window and proceed through the steps. When you finish, close the tab or window to return to the GTD.
+    Remove a step by selecting it from the list and then selecting the delete icon \(-\).
+
+    Rearrange the steps by dragging and dropping them in appropriate positions.
+
+    If you accidentally link a step to the wrong element, delete it. Then create a new step with the correct details and reposition it appropriately.
+
+    Edit a trigger by selecting the step, choosing an option from the Choose action list, and then selecting **Save**.
+
+-   **\(E\) Tour action buttons**
+
+    Select **Preview** at any time to test and review your steps.
+
+    Select **Publish** to make your guided tour visible to users.
+
+    Select **Exit** to close the GTD. The browser tab or window closes and changes you made are automatically saved.
+
+    Select **Play** to open the instance and designated UI page in a new browser tab or window and proceed through the steps. When you finish, close the tab or window to return to the GTD.
 
 
 **Related topics**  
 
 
-[Guided tour triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-triggers.md)
+[GTD triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-triggers.md)
 
-[Create a guided tour](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/add-guided-tour.md)
+[Create Guided Tours](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/add-guided-tour.md)
+
+[Guided Tour Designer use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/guided-tour-designer-use-case.md)
 

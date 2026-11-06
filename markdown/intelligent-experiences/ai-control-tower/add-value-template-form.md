@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: reference
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Reference, AI Control Tower, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [AI Control Tower reference \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Add value template form
@@ -34,7 +34,7 @@ Persona
 
 </td><td>
 
-The user role for whom the value is being calculated. Select one of the following personas: Agent, Developer, Other, Requestor. The default persona is Other.For example, if the AI asset is Incident Summarization and the selected persona is Agent, the value calculations as per the value template are for Agent role only.
+The user role for whom the value is being calculated, for example, Agent, Requester.
 
 </td></tr><tr><td>
 
@@ -42,7 +42,7 @@ Usage
 
 </td><td>
 
-The usage metric of the AI asset, used to calculate the value. If you add a custom indicator, the usage value is derived from the indicator. Be sure to use a daily usage indicator.For example, if the AI asset is Incident Summarization, usage value is the daily executions of Incident Summarization.
+The usage indicator that you want to associate the value template with.
 
 </td></tr><tr><td>
 
@@ -50,7 +50,7 @@ Time value type
 
 </td><td>
 
-The type of time-based metric used in the calculation, for example, Constant or Indicator. If you are using a custom metric, select Indicator.
+The type of time-based metric used in the calculation, for example, Constant or Indicator. Choose a value that aligns with your performance goals.
 
 </td></tr><tr><td>
 
@@ -58,7 +58,7 @@ Time constant
 
 </td><td>
 
-A fixed time value \(in minutes\) used as a baseline in the calculation. For example, if the AI asset is Incident Summarization, time value is the average time saved per invocation of Incident Summarization.
+A fixed time value \(in hours, minutes, or days\) used as a baseline or threshold in the calculation. Useful for comparisons or normalization.
 
 </td></tr><tr><td>
 
@@ -66,7 +66,7 @@ Time indicator
 
 </td><td>
 
-The average time saved \(in minutes\) per invocation of the AI asset. If you add a custom indicator, this value is derived from the indicator.For example, if the AI asset is Incident Summarization, time value is the average time saved per invocation of Incident Summarization. This value is derived from the custom indicator added.
+The time indicator that you want to associate the value template with.
 
 </td></tr><tr><td>
 
@@ -74,7 +74,7 @@ Acceptance rate type
 
 </td><td>
 
-The type of acceptance rate to use for the calculation, such as Indicator or Constant. If you are using a custom metric for calculations, select Indicator.
+The type of acceptance metric to include, such as Indicator or Constant.
 
 </td></tr><tr><td>
 
@@ -82,15 +82,7 @@ Acceptance rate constant
 
 </td><td>
 
-A fixed percentage or ratio used to represent an expected or target acceptance rate of the AI asset in the value calculation. The value should be between 1 and 100.For example, if the AI asset is Incident Summarization, acceptance rate is the percentage or ratio of Incident Summarization results that are acceptable for the users.
-
-</td></tr><tr><td>
-
-Acceptance rate indicator
-
-</td><td>
-
-A percentage or ratio used to represent an expected or target acceptance rate of the AI asset in the value calculation. If you add a custom indicator, this value is derived from the indicator. Be sure to use a daily indicator with a value between 1 and 100.For example, if the AI asset is Incident Summarization, acceptance rate is the percentage or ratio of Incident Summarization results that were accepted by the users. This value is derived from the custom indicator added.
+A fixed percentage or ratio used to represent an expected or target acceptance rate in the value calculation.
 
 </td></tr><tr><td colspan="2">
 
@@ -138,8 +130,7 @@ Instance
 
 </td><td>
 
-The instance where the value template is applied. This field is useful for managing value templates across instances.**Note:** You can validate a formula in a non-production instance before publishing it to a production instance. After initiating testing for a value template, you might need to wait up to 10 minutes for same-instance testing or 30 minutes for cross-instance testing. During this time, you can't edit or resend the template for testing, but you can continue working with other templates.
+The instance where the value template is applied. This field is useful for managing value templates across instances.**Note:** You can validate a formula in a non-production instance before publishing it to a production instance.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[AI Control Tower reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/aict-references.md)
-
+</table>

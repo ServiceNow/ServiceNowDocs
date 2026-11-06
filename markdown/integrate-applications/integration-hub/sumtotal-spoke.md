@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SumTotal Spoke
@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SumTotal spoke v1.0.2 is the latest version.
+SumTotal spoke v1.0.2 is the latest version. For version history of the spoke, see [SumTotal spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sumtotal.html).
 
 ## Supported versions
 

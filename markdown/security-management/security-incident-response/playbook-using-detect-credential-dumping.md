@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Playbook for T1003 - Detect Credential Dumping Tools, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -44,8 +44,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
 
 4.  In Action 6, based on the investigation done so far, you need to check whether this is a possible case of insider threat or not.
 
-    \[Omitted image "playbook-credential-dump-insider.png"\] Alt text: Response tasks to investigate if is this a possible case of insider threat.
-
 5.  In Action 7, if this is a case of insider threat, perform the following actions:
 
     1.  In Action 8, you need to contact IT support and request an account freeze.
@@ -59,8 +57,6 @@ Make sure you have installed Security Operations Spoke \(`sn_sec_spoke`\).
     4.  In Action 11, you need to lift the containment and bring the systems back to operational standards.
 
         The flow ends.
-
-        \[Omitted image "playbook-credential-dump-contain.png"\] Alt text: Response tasks to lift the containment and bring systems back to operational standards.
 
 6.  In Action 12, if this isn't a case of insider threat, then in Action 13, you need to perform a peer review to determine if this needs to be added to the exclusion list.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Resource blocks in Cloud Provisioning and Governance, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Configure resource block input parameters
@@ -93,7 +93,7 @@ Select **Public** to make the resource block operation available from the catalo
 
 4.  Configure the input parameters to provide a way to input the items you need to run the selected operation.
 
-    For example, if you add a Provision operation for an AWS resource, you need, at minimum, the CloudAccount parameter and the Location parameter to perform the operation. You need to know the providers API to know what to pass to it. For example, if you want to add a provision operation for an S3 bucket on AWS, you need to know the [allowable AWS operations on buckets](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketOps.html) and the Request Elements for things like creating a bucket \([the PUT Bucket operation](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUT.html)\). You can typically find these resources in the AWS and Azure documentation.
+    For example, if you add a Provision operation for an AWS resource, you need, at minimum, the CloudAccount parameter and the Location parameter to perform the operation. You need to know the providers API to know what to pass to it. For example, if you want to add a provision operation for an S3 bucket on AWS, you need to know the [allowable AWS operations on buckets](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketOps.html) and the Request Elements. For creating a bucket, see [the PUT Bucket operation](https://docs.aws.amazon.com/AmazonS3/latest/API/RESTBucketPUT.html). You can typically find these resources in the AWS and Azure documentation.
 
     1.  Click the **Add Input Parameters** icon.
 
@@ -123,7 +123,7 @@ Select **Public** to make the resource block operation available from the catalo
 
         Mappings specify where to pull the information in the system. You do not have to change the mapping values except for **ResourceScript** type parameters, where you must enter the expression.
 
-    6.  In the **Default Value** column, specify a value that you want the system to use if the user does not pass any value or if you did not enter anything in the **Datasource Value**.
+    6.  In the **Default Value** column, specify a value to use when no value is passed or entered in **Datasource Value**.
 
     7.  Select **Create Form** to make this attribute available in the order form that the user sees when trying to provision the stack item.
 

@@ -1,5 +1,5 @@
 ---
-title: Define the model state transitions for a compliance case or request
+title: Define model state transitions
 description: Define the transition conditions to control how a compliance case traverses through the different workflow states by using the GRC: Compliance Case Management application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/compliance-case-management/create-a-model-state-transition-for-compliance-case.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
-# Define the model state transitions for a compliance case or request
+# Define model state transitions
 
 Define the transition conditions to control how a compliance case traverses through the different workflow states by using the GRC: Compliance Case Management application.
 

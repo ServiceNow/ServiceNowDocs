@@ -7,10 +7,10 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Rehires, Transfers, Multiple jobs]
-breadcrumb: [Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Support multiple jobs in a lifecycle event
@@ -41,13 +41,13 @@ Beginning in the New York release, you can use the new Jobs \(sn\_hr\_core\_job\
 
     For example, the Day 1 activity set in the preconfigured New Hire Onboarding lifecycle event is triggered by the subject person's job start date.
 
-    \[Omitted image "multiple-jobs-lifecycle-event-activity-set-example.png"\] Alt text: A lifecycle event activity set with trigger field set to the subject person's job start date.
+    \[Omitted image "multiple-jobs-le-activity-set-ex.png"\] Alt text: A lifecycle event activity set with trigger field set to the subject person's job start date.
 
 4.  If you are not using a third-party integration and need to configure the switch of a primary job, you can use the **Switch primary job** subflow to switch the subject person's primary job through a lifecycle event activity.
 
     For example, you can create a lifecycle event activity to switch the primary job of the subject person from the old to the new job by setting the **Activity type** value to **Flow** and the **Flow** value to **Switch primary job**.
 
-    \[Omitted image "multiple-jobs-switch-primary-job-flow-example.png"\] Alt text: A lifecycle event activity with a flow to switch the primary job.
+    \[Omitted image "multiple-jobs-switch-primary-job-ex.png"\] Alt text: A lifecycle event activity with a flow to switch the primary job.
 
 
 **Related topics**  

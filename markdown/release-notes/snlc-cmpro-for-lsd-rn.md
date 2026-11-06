@@ -1,56 +1,58 @@
 ---
-title: Contract Management Pro for Legal Service Delivery release notes
-description: The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
+title: Contract Management Pro for Legal Service Delivery
+description: The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests, and the application supports e-signatures and external storage systems. See the following sections for release notes by version.Contract Management Pro for Legal Service Delivery supports a contract renewal workflow.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/snlc-cmpro-for-lsd-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-07-31"
+last_updated: "2026-09-22"
 reading_time_minutes: 2
-breadcrumb: [Legal Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Legal Service Delivery release notes, Employee Service Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Contract Management Pro for Legal Service Delivery release notes
+# Contract Management Pro for Legal Service Delivery
 
-The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
+The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests, and the application supports e-signatures and external storage systems. See the following sections for release notes by version.
 
 ## About Contract Management Pro for Legal Service Delivery
 
--   Initiate and manage amendment requests for existing contracts.
--   Record producer to initiate an amendment request from the Employee Center.
+-   Configure and automate the legal contract lifecycle with reusable contract document templates, clauses, and clause variations.
+-   Submit, review, finalize, and manage legal contract requests, including amendments and renewals.
+-   Support secure contract execution with both electronic and wet signatures.
+-   Integrate with external storage systems for contract documents.
 
 See  for more information.
 
-## Activation and other requirements
+**Important:** For Now LLM Service model updates for each release, see [Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-llm-model-updates.md).
 
-**Important:** Contract Management Pro for Legal Service Delivery is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+## Activation and other requirements
 
 -   **Activation information**
 
-    Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
-    For details, see .
+    Install Contract Management Pro for Legal Service Delivery \(sn\_lg\_cnt\) by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 
 **Parent Topic:**[Legal Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/lsd-rn-landing-page.md)
 
-## December 2025
+## Version 3.10.1
 
-The ServiceNow Store Contract Management Pro for Legal Service Delivery application enables you to configure and automate the legal contract lifecycle by creating contract document templates, clauses, and clause variations. You can submit, review, finalize, and manage legal contract requests. The application also supports e-signatures and external storage systems. Contract Management Pro for Legal Service Delivery was enhanced and updated in the Yokohama release.
+Contract Management Pro for Legal Service Delivery supports a contract renewal workflow.
 
 ### What's new
 
--   ****
+-   **Contract renewals**
 
-    Contract amendments enable you to formally change, add, or remove terms in an existing contract without replacing the entire agreement. The Amendment feature enhances contract lifecycle management by enabling you to initiate, track, and finalize amendments to existing contracts with audit trail.
+    Manage contract renewals with a dedicated Renewal request type, available alongside New contract and Amendment. Submit a renewal request for contracts due for expiry or expired contracts.
 
-    A new field, **Request type**, has been added to clearly distinguish between contract and amendment requests.
+    After signature, a renewed contract repository record is created with a link to the previous contract. When a renewal is signed, a new executed contract record is created with field values copied per configuration. Track the full renewal chain from the Contract History tab of the contract repository record.
 
-    Each amendment is linked to its parent contract, and you can easily view the amendment history directly from the contract request. Additionally, a record producer is available in the base system, allowing you to submit and monitor amendment requests efficiently.
 
-    The following related lists are now available within the contract repository record to provide amendment details:
+### What's changed
 
-    -   Contract Requests: Displays all contract and amendment requests associated with the contract.
-    -   Amendment Field Changes: Shows a detailed log of all field changes made through amendments, enabling easy tracking of modifications over time.
-    -   Contract Documents: Provides access to all documents related to the contract, including those generated or updated as part of amendment processes. The signed contract and its amendment documents are stored in a centralized repository under the parent contract for easy access and managing all related documents from a single location.
+-   **Intake forms availability**
+
+    For new installations of Contract Management Pro for Legal Service Delivery, the base system legal intake forms — NonDisclosure Agreement, Third-Party Contract Review, and Contract Amendment and Renewal request intake forms—are hidden by default. If administrators enable these forms, they are available under **Legal Services** &gt; **Legal Agreements**.
+
+    For existing customers, intake form behavior is preserved after upgrade. Whether the intake forms were enabled or disabled before the upgrade, that configuration remains unchanged.
+
 

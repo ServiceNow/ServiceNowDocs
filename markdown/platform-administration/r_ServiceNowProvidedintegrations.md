@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/r\_ServiceNowProvidedintegrations.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -31,8 +31,6 @@ You enable the geolocation feature using the appropriate entries from a Google M
 The Microsoft SCCM integration is a one direction import of SCCM data into the ServiceNow Configuration Management Database \(CMDB\).
 -   **[Migrate the Verizon eBonding Integration to a Production System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_MigrVerizoneBondIntegToAProdSys.md)**  
 This topic outlines the tasks required for moving the Verizon eBonding integration from a Dev/Test environment to a Production environment.
--   **[Legacy: Altiris integration 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_AltirisIntegration2.0.md)**  
-The Altiris integration is deprecated in the Istanbul release.
 
 **Parent Topic:**[Integration options](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_IntegrationOptions.md)
 

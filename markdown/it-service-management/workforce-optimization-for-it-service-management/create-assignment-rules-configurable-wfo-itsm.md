@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Channels in Workforce Optimization for ITSM, Channels in Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Setting up Channels, Channels, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Create assignment rules and groups
@@ -18,7 +18,9 @@ Define agent assignment rules and specify groups of agents who are eligible to r
 
 ## Before you begin
 
-You must first create a new assignment rule before you create a service channel. For more information, see [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-service-channel.md). Use [Exploring Advanced Work Assignment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-overview.md) \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+You must first create a new assignment rule before you create a service channel. For more information, see create a service channel. Use  \(AWA\) to route work items automatically to agents based on an agent's availability, capacity, and skills.
 
 Role required: sn\_channel\_mgmt.admin
 
@@ -75,7 +77,7 @@ The set of groups eligible for assignment. -   Click the lock icon to unlock it 
 
     The Queues \[awa\_queues\] table is updated with the eligible assignment group.
 
-    **Note:** For a new service channel, you must first create a new assignment rule and then [create a service channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-create-service-channel.md).
+    **Note:** For a new service channel, you must first create a new assignment rule and then create a service channel.
 
 
 **Parent Topic:**[Setting up Channels in Workforce Optimization for ITSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/workforce-optimization-for-it-service-management/setup-channels-configurable-workforce-optimization-itsm.md)

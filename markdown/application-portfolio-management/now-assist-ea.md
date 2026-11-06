@@ -1,40 +1,48 @@
 ---
 title: ServiceNow Otto for Enterprise Architecture \(EA\)
-description: Use the ServiceNow ServiceNow Otto for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
+description: Use ServiceNow Otto for Enterprise Architecture \(EA\) to use generative AI skills in the Enterprise Architecture Workspace. These skills help you summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/now-assist-ea.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Enterprise Architecture]
 ---
 
 # ServiceNow Otto for Enterprise Architecture \(EA\)
 
-Use the ServiceNow® ServiceNow Otto for Enterprise Architecture \(EA\) application to summarize Architectural Decision Records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
+Use ServiceNow Otto for Enterprise Architecture \(EA\) to use generative AI skills in the Enterprise Architecture Workspace. These skills help you summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language.
 
 ## Get started
 
+The ServiceNow AI Platform now brings you a new AI experience with three licensing tiers available:
+
+-   Foundation: AI basics to deliver insights
+-   Advanced: AI to boost productivity across relevant use cases
+-   Prime: Act autonomously with all AI assets, and create your own
+
+For more information, see .
+
 <table id="table_ojj_jjv_qdc" class="nav-card presentation"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/exploring-now-assist-for-ea.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn more about ServiceNow Otto for EA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/exploring-now-assist-for-ea.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure the Now Assist for Enterprise Architecture \(EA\) application to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure ServiceNow Otto for EA to get started](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)
 
 </td><td>
 
-[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)
+[Use AI agents\[Omitted image "bus-ai-sparkle.svg"\] Alt text:Use the AI agent use cases in ServiceNow Otto for EA](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)
 
 </td></tr><tr><td>
 
-[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the generative AI capabilities offered by Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)
+[Use\[Omitted image "bus-supervised-machine-learning.svg"\] Alt text:Use the AI capabilities offered by Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)
 
 </td><td>
 
-[Reference\[Omitted image "bus-learn.svg"\] Alt text:Learn about forms and fields of Now Assist for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea-reference.md)
+ 
 
 </td><td>
 
@@ -43,9 +51,9 @@ Use the ServiceNow® ServiceNow Otto for Enterprise Architecture \(EA\) applicat
 </td></tr></tbody>
 </table>**Important:**
 
--   Not all model providers are available for customers with in-country SKUs, and some Now Assist products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
--   Some Now Assist products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
--   Some Now Assist products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
+-   Not all model providers are available for customers with in-country SKUs, and some AI products/features are currently unavailable for in-country customers. For more information, see the [KB1584492](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1584492) article in the Now Support Knowledge Base. Be sure to check for model provider availability updates in future releases.
+-   Some AI products/features are currently unavailable for customers in the FedRAMP, NSC DOD IL5, or Australia IRAP-Protected data centers, self-hosted customers, or in other restricted environments. For more information, see the [KB0743854](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0743854) article in the Now Support Knowledge Base. Be sure to check for availability updates in future releases.
+-   Some AI products/features are currently available only for customers in some regions. Be sure to check for availability updates in future releases.
 -   Some AI products and skills are not available in Regulated Markets. For more information, see [KB2593939: Regulated Markets AI Products/Skills Not Available](https://support.servicenow.com/kb?id=kb_article_view&sys_kb_id=e8d7cc82475aba90b7832920326d4362). Be sure to check for availability updates in future releases.
 
 ## Troubleshoot and get help
@@ -63,20 +71,16 @@ This application requires data to be transferred from ServiceNow customers' indi
 
 ## Data collection
 
-ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [Now Assist Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
+ServiceNow collects and uses the inputs, outputs, and edits to outputs of this application to develop and improve ServiceNow technologies including ServiceNow models and AI products. In addition, this application will collect incident data \(for Incident Assist and Knowledge Assist\) and chat transcripts \(for Chat Assist\). Customers can opt out of future data collection at any time, as described in the [AI Opt-Out page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-For more information, see the [Now Assist documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/platform-now-assist-landing.md).
+For more information, see the [ServiceNow AI documentation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-products.md).
 
 -   **[Exploring ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/exploring-now-assist-for-ea.md)**  
-With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can generate a summary of Architectural Decision Records \(ADR\) or gather insights into business applications in the Enterprise Architecture Workspace.
--   **[Configure ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/configure-now-assist-ea.md)**  
-If you have the admin role, you can configure the ServiceNow Otto for Enterprise Architecture \(EA\) to enable generative AI skills in Enterprise Architecture Workspace \(EA\).
+With the ServiceNow Otto for EA features, you can use generative AI skills to summarize and refine content, generate and compare diagrams, gather insights into business applications, and query your enterprise architecture portfolio using natural language in the Enterprise Architecture Workspace.
 -   **[Using ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-now-assist-for-ea.md)**  
-With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can summarize Architectural decision records \(ADR\) and help gather insights into business applications in the Enterprise Architecture Workspace.
--   **[Using AI agent agentic workflow in ServiceNow Otto for Enterprise Architecture \(EA\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/using-na-ea-ai-agents.md)**  
-Use the AI agents in Enterprise Architecture to help complete tasks autonomously.
--   **[Now Assist for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea-reference.md)**  
+With the ServiceNow Otto for Enterprise Architecture \(EA\) application, you can use generative AI skills to summarize and refine content, generate and compare diagrams, and gather insights into business applications. You can also query your enterprise architecture portfolio using natural language in the Enterprise Architecture Workspace.
+-   **[ServiceNow Otto for Enterprise Architecture reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/now-assist-ea-reference.md)**  
 Reference information to provide additional information about tables, roles, and properties installed with ServiceNow Otto for Enterprise Architecture \(EA\).
 
-**Parent Topic:**[Enterprise Architecture \(formerly Application Portfolio Management\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/application-portfolio-management.md)
+**Parent Topic:**[Enterprise Architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/application-portfolio-management-landing-page.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: reference
-last_updated: "2025-03-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Reference, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
@@ -46,7 +46,7 @@ Locations
 
 </td><td>
 
-Locations that are added to the scenario.This field is displayed after a scenario is created.
+Locations that are added to the scenario.This field is displayed only after a scenario is created.
 
 The locations are displayed based on the **Space Selection Criteria** of the scenario.
 
@@ -56,7 +56,7 @@ Group by
 
 </td><td>
 
-Option to select and group a scenario based on the allocation type. After the scenario is created, this field becomes read-only.Allocation types are defined in the **sn\_wsd\_core.ALLOCATION\_TYPE** system property.
+Option to select and group a scenario based on the allocation type. After the scenario is created, this field is set to read-only.Allocation types are defined in the **sn\_wsd\_core.ALLOCATION\_TYPE** system property.
 
 -   Department
 -   Cost center
@@ -121,4 +121,14 @@ Location names are displayed based on the filter conditions. Select the refresh 
 [Move conflicts for projects created via Excel upload]()
 
 [Workplace Central troubleshooting]()
+
+[Workplace Task form - Space Assignment task]()
+
+[Neighborhood User Assignment Rule form]()
+
+[User Workplace Profile form]()
+
+[]()
+
+[]()
 

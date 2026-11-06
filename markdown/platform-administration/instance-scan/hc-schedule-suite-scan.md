@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Scan
 classification: instance-scan
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Instance Scan, Instance Scan, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
@@ -41,7 +41,9 @@ Role required: admin.
     -   **Full Instance**: Scans all the available records in the instance.
     -   **Scoped App**: Scans selected scoped apps. You can select multiple scoped apps.
     -   **Update Set**: Scans multiple update sets.
-6.  Select **Schedule Scan**.\[Omitted image "hc-schedule-suite-scan.png"\] Alt text: Image showing Schedule Suite Scan modal
+6.  Select **Schedule Scan**.
+
+    \[Omitted image "hc-schedule-suite-scan.png"\] Alt text: Image showing Schedule Suite Scan modal
 
     **Note:** If a record is inactive, the checks don't generate any findings for that record.
 
@@ -158,7 +160,13 @@ Timezone used to run the scan.
 
 [Monitoring a scan]()
 
+[Parallel scans]()
+
 [Reviewing of scans]()
+
+[Queue your scan]()
+
+[Cancel a scan]()
 
 [Using the Instance Scan dashboard]()
 

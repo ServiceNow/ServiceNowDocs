@@ -7,9 +7,9 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, GRC notification redirection, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [GRC notification redirection, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Modify email notifications to use notification redirection
@@ -18,7 +18,7 @@ Update email notifications to use the notification redirection framework so user
 
 ## Before you begin
 
-You must have notification routing rules configured before modifying notifications. For more information, see [Modify email notifications to use notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.md).
+You must have notification routing rules configured before modifying notifications. For more information, see [Configure GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.md).
 
 Role required: admin
 
@@ -46,7 +46,7 @@ To enable redirection for a notification, replace the standard URL variables wit
 
 When users select links in the modified notification, the system automatically directs them based on their workspace access. If they have workspace access, they're directed to workspace view. If they don't have workspace access, they're directed to classic view.
 
-**Parent Topic:**[Configure GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/configure-email-notification-redirection.md)
+**Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
 
 **Related topics**  
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Contracts, Contract Management use, Contract Management, IT Asset Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Common applications, Asset Management]
 ---
 
 # Monitor a contract
@@ -19,6 +19,8 @@ You can monitor contracts by viewing contract history and creating contract repo
 ## Before you begin
 
 Role required: asset, contract\_manager\(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
+
+**Note:** Contracts with the Contract model set to **Subscription** are readable by all authenticated users regardless of their assigned roles. This allows users to view their own subscription-based assets in the **My Assets** report. For all other contract types, the role requirements in the prerequisites section apply.
 
 ## About this task
 
@@ -35,8 +37,8 @@ If changes are made to a contract start date, end date, or terms and conditions,
 
 3.  View the **Contract History** related list \(core UI\) or tab \(Hardware Asset Workspaceand Enterprise Asset Workspace\) and perform one of the following actions.
 
-    -   If earlier versions of the contract exist, click a date in the **Contract Starts** column to view a version.
-    -   If an earlier version of the contract does not exist, change the contract's **Start date** or **End date**. Right-click in the header bar and select **Save**. In the **Contract History** related list, click a date in the **Contract Starts** column to view the earlier version.
+    -   If earlier versions of the contract exist, select a date in the **Contract Starts** column to view a version.
+    -   If an earlier version of the contract does not exist, change the contract's **Start date** or **End date**. Right-select in the header bar and select **Save**. In the **Contract History** related list, select a date in the **Contract Starts** column to view the earlier version.
 
 -   **[Run a contract report](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/contract-management/t_CreatingContractReports.md)**  
 A variety of contract reports are available to help track and manage contracts.

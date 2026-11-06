@@ -1,5 +1,5 @@
 ---
-title: Require authorization for SOAP requests \[Updated in Security Center 1.3, 1.5, and 2.0\]
+title: Require authorization for SOAP requests
 description: Use the glide.basicauth.required.soap property to designate if incoming SOAP requests should require basic authorization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-soap-request-authorization.html
@@ -7,18 +7,26 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [API and web service, Hardening settings, Platform Security]
 ---
 
-# Require authorization for SOAP requests \[Updated in Security Center 1.3, 1.5, and 2.0\]
+# Require authorization for SOAP requests
 
 Use the **glide.basicauth.required.soap** property to designate if incoming SOAP requests should require basic authorization.
 
-## More information
+The **glide.basicauth.required.soap** property controls whether basic authentication is required to make a Simple Object Access Protocol \(SOAP\) request to an instance. If the **glide.basicauth.required.soap** property is not set to **true**, unauthenticated users performing SOAP operations are mapped to the soap.guest user.
+
+This may enable an unauthenticated user to perform operations on the instance as if a logged in user to the instance. There may be additional impact if the user define within **com.glide.soap.guest\_user** is assigned additional roles. The property **glide.soap.require\_ws\_security** \(default false\) controls whether WS-Security header validation is mandatory. When set to **false**, requests without WS-Security are allowed if other auth mechanisms \(basic auth, session\) are present.
+
+When set to **false**, both properties allow unauthenticated SOAP requests to map to the guest user and execute without credential validation, enabling unauthorized data export and system operations.
+
+Ensure the **glide.basicauth.required.soap** property exists and is set to **true**. Alternatively, configure the instance for Web Services \(WS\) Security by setting the **glide.soap.require\_ws\_security** property to **true** and following the product documentation to configure WS security profiles. If the property doesn't exist in the sys\_properties table, add it to the table.
 
 **Warning:** This is a safe harbor property, meaning the value can't be altered once it's changed. It is non-revertible.
+
+## More information
 
 <table id="table_ajc_b43_3kb"><thead><tr><th>
 
@@ -30,11 +38,12 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Property name
+Configuration name
 
 </td><td>
 
-**glide.basicauth.required.soap****glide.soap.require\_ws\_security**
+-   **glide.basicauth.required.soap**
+-   **glide.soap.require\_ws\_security**
 
 </td></tr><tr><td>
 
@@ -46,6 +55,41 @@ System Properties \(/sys\_properties\_list.do\)
 
 </td></tr><tr><td>
 
+Data type
+
+</td><td>
+
+Boolean
+
+</td></tr><tr><td>
+
+Recommended value
+
+</td><td>
+
+-   false
+-   false
+
+</td></tr><tr><td>
+
+Default value
+
+</td><td>
+
+-   true
+-   false
+
+</td></tr><tr><td>
+
+Fallback value
+
+</td><td>
+
+-   true
+-   false
+
+</td></tr><tr><td>
+
 Category
 
 </td><td>
@@ -54,58 +98,30 @@ Category
 
 </td></tr><tr><td>
 
-Purpose
-
-</td><td>
-
-To enforce soap requests authorization.
-
-</td></tr><tr><td>
-
-Recommended value
-
-</td><td>
-
-true
-
-</td></tr><tr><td>
-
-Security risk rating
-
-</td><td>
-
-8.1
-
-</td></tr><tr><td>
-
-Functional Impact
-
-</td><td>
-
-This remediation enforces a combination of authentication methods, in the form of basic authentication and system level access control. -   It performs this authentication while retrieving data from tables/pages in the form of SOAP data on the instance.
--   It restricts any guest users who are currently accessing this data.
--   Create an account for a user who needs access to this content, with the necessary access control permissions.
-
- To learn more, see [SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/web-services/c_SOAPWebService.md) and [MID Server authentication credentials and SOAP requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/mid-authentication-soap-requests.md).
-
-</td></tr><tr><td>
-
 Security risk
 
 </td><td>
 
-\(Medium\) Without appropriate authorization configured on the data source SOAP requests, an unauthorized user can access sensitive content/data on the target instance.
+-   Severity score: 8.1
+-   CVSS rating: High
+-   Security risk details: When set to **false**, both properties allow unauthenticated SOAP requests to map to the guest user and execute without credential validation, enabling unauthorized data export and system operations.
 
 </td></tr><tr><td>
 
-References
+Functional impact
 
 </td><td>
 
-[Authentication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_Authentication.md)
+Disabling either property relaxes SOAP request authentication requirements. Basic authentication is optional or WS-Security validation is optional, allowing unauthenticated or weakly-authenticated requests to proceed.
+
+</td></tr><tr><td>
+
+Dependencies and prerequisites
+
+</td><td>
+
+None
 
 </td></tr></tbody>
-</table>To learn more about adding or creating a system property, see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
-
-**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
+</table>**Parent Topic:**[API and web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-api-web-service.md)
 

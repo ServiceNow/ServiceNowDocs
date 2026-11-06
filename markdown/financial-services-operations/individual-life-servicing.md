@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/individual-life-servicing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Life Insurance Servicing, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Life Insurance Servicing, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Individual Life Servicing
@@ -16,43 +16,23 @@ The ServiceNow® Individual Life Servicing application \(sn\_ins\_indiv\_life\) 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how customers, insurance agents, and policy processors use Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/exploring-individual-life-servicing.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how customers and insurance agents use Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/exploring-individual-life-servicing.md)
 
 </td><td>
 
-[Set up \[Omitted image "icon-set-up.png"\] Alt text: Set up Individual Life Servicing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/install-individual-life-servicing.md)
-
-</td><td>
-
-[Request \[Omitted image "request.png"\] Alt text: Submit insurance policy service requests.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/create-indiv-life-service-case.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Configure Individual Life Servicing.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/configure-individual-life-servicing.md)
 
 </td></tr><tr><td>
 
-[Resolve \[Omitted image "icon-workspace.png"\] Alt text: Resolve policy service requests via cases and tasks.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/work-indiv-life-service-case.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-individual-life-servicing.md)
 
 </td><td>
 
-[Analytics and Reporting \[Omitted image "icon-report.png"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/analytics-reporting-individual-life-servicing.md)
-
-</td><td>
-
-[Process Mining \[Omitted image "icon-process-opt.png"\] Alt text: Visualize process and identify improvement opportunities.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-process-optz-content-pack.md)
-
-</td></tr><tr><td>
-
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/components-installed-individual-life-servicing.md)
-
-</td><td>
-
- 
-
-</td><td>
-
- 
+[Analytics and Reporting \[Omitted image "bus-performance-forecasting-2.svg"\] Alt text: Monitor key statistics and track performance with preconfigured dashboard.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/analytics-reporting-individual-life-servicing.md)
 
 </td></tr></tbody>
 </table>

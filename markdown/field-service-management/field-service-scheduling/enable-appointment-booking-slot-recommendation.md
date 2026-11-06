@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enable and configure appointment slot recommendation, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Appointment slot recommendation, Configure Appointment Booking, Configuring Appointment Booking, Additional scheduling configuration options, Setting up a Field Service scheduling method, Configure, Field Service Management]
 ---
 
 # Enable appointment booking slot recommendation
@@ -18,13 +18,13 @@ Appointment booking slot recommendations help users quickly select the best avai
 
 ## Before you begin
 
-Role required: admin
+Role required: appointment\_booking\_admin
 
 ## Procedure
 
 1.  Navigate to **All** and search for `sys_properties.list`.
 
-2.  In the properties list, search for the property `sn_adv_apptmnt.show_recommended_slots`.
+2.  Search for the property `sn_adv_apptmnt.show_recommended_slots`.
 
 3.  Set the **Value** as follows:
 

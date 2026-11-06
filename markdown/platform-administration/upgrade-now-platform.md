@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-now-platform.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Administer the ServiceNow AI Platform]
 ---
@@ -33,5 +33,5 @@ See [Upgrade Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs
 
 Keep your instance running smoothly during and after upgrading. ServiceNow AI Platform® Upgrades and Conversions tools make the process easy, with information on upgrades, patches, and releases, as well as options for backups, post-upgrade instance testing, and migration from ServiceNow® Express List to the Service Management platform.
 
-See [Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md).
+See [Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md).
 

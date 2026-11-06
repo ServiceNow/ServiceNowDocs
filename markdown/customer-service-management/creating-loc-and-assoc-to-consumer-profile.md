@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/creating-loc-and-assoc-to-consumer-profile.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Associating locations to consumer profiles, Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Associating locations to consumer profiles, Creating multiple consumer profiles for a user, Configure consumers, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create and associate a location to a consumer profile
@@ -16,7 +16,13 @@ Create a location and associate it with the consumer profile in the Customer Ser
 
 ## Before you begin
 
-Role required: admin
+Role required: One of the following roles:
+
+-   sn\_crm\_consumer\_data\_manager
+-   sn\_crm\_consumer\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   admin
 
 ## About this task
 

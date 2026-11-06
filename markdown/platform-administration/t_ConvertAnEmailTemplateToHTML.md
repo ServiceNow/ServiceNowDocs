@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_ConvertAnEmailTemplateToHTML.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Email templates, Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -20,19 +20,19 @@ Role required: admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **System Policy** &gt; **Email** &gt; **Templates**.
+1.  Navigate to **All** &gt; **System Notification** &gt; **Email** &gt; **Templates**.
 
 2.  Open the email template you want to convert.
 
-    \[Omitted image "legacy-email-template.png"\] Alt text: Viewing template content
+    \[Omitted image "legacy-email-template.png"\] Alt text: Email template content
 
-3.  Click **Switch to Rich HTML Editor**.
+3.  Select **Switch to Rich HTML Editor**.
 
     When content is converted, these changes are made to the content:
 
     -   HTML Editor: Any raw HTML in the **Message** field is rendered as WYSIWYG text in the **Message HTML** field. The content can be edited in a feature-rich HTML editor.
     -   Simplified Mail Scripts: Any mail scripts in the body are automatically saved to the Email Script \[sys\_script\_email\] table and are replaced in the notification body with an embedded script tag. This makes the template body easier to read and makes it easier to reuse scripts in multiple email templates.
-    \[Omitted image "Template\_converted.png"\] Alt text: Content converted to rich HTML
+    \[Omitted image "template-converted.png"\] Alt text: Content converted to rich HTML
 
 4.  Modify the message text, as needed, using the WYSIWYG editor or by editing the underlying HTML.
 

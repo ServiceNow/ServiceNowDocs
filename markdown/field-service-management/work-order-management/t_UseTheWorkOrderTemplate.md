@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage work orders, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work orders, Prepare work orders, Use, Field Service Management]
 ---
 
 # Apply a work order template
@@ -34,6 +34,4 @@ Role required: wm\_admin or model\_manager
         **Note:** The fields such as **Territory** and **Dispatch Group** are automatically populated based on the selected **Location** irrespective of the work order template or state only if the **Field\_Service\_Territories** territory model is enabled. For more information, see [Enable the Field Service territory model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/enable-territory-model.md).
 
     -   Create the parts requirements. If a part specified is out of stock, the system displays a message naming the part.
-
-**Parent Topic:**[Manage work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ManageWorkOrders.md)
 

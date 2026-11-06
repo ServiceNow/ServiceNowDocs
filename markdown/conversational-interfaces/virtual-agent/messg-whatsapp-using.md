@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Integrating Virtual Agent with WhatsApp, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [WhatsApp \(powered by Twilio\), Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Using Conversational Integration with WhatsApp \(powered by Twilio\)
@@ -44,10 +44,14 @@ As a live agent interacting with a requester over the WhatsApp service channel, 
 -   Share any URLs as links.
 -   Share any files as attachments.
 
-**Note:** If an administrator has configured the WhatsApp service channel for transfer of chat conversations, then you can accept a work item from the WhatsApp chat conversation in your Agent Workspace Inbox. For more information, see [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/awa-service-channels.md).
+**Note:** If an administrator has configured the WhatsApp service channel for transfer of chat conversations, then you can accept a work item from the WhatsApp chat conversation in your Agent Workspace Inbox. For more information, see [Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md) and [Service channels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/advanced-work-assignment/awa-service-channels.md).
 
 -   **[Create a provider notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/create-provider-notification.md)**  
 Execute the following steps to create a provider notification for Virtual Agent and Workspace providers.
+-   **[Transfer WhatsApp chat conversations to live agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-live-agent-conv.md)**  
+Configure the Advanced Work Assignment application to transfer a WhatsApp chat conversation initiated by a requester to a live agent.
+-   **[Capturing information from a user in a WhatsApp chat conversation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-capture-info.md)**  
+Use the collection of input controls provided by the Assistant Designer to prompt and capture information from a requester in a WhatsApp chat conversation.
 
-**Parent Topic:**[Integrating Virtual Agent with WhatsApp](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)
+**Parent Topic:**[Conversational Integration with WhatsApp \(powered by Twilio\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/messg-whatsapp-twilio.md)
 

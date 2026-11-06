@@ -1,18 +1,18 @@
 ---
 title: Configure playbook stage and activity visibility
-description: Configure the visibility of playbook stages and activities that are pending or that a user cannot access.
+description: Configure the visibility of playbook stages and activities that are pending or that a user can't access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/playbook-config-activity-visibility.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Playbooks for Customer Service Management, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure Playbooks for Customer Service Management, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure playbook stage and activity visibility
 
-Configure the visibility of playbook stages and activities that are pending or that a user cannot access.
+Configure the visibility of playbook stages and activities that are pending or that a user can't access.
 
 ## Before you begin
 
@@ -39,15 +39,15 @@ Use the following fields in the playbook experience configuration record to cont
 
 5.  In the **Pending Item Visibility** field, select one of the following options.
 
-<table id="choicetable_zlx_32h_vpb"><thead><tr><th align="left" id="d254782e121">
+<table id="choicetable_zlx_32h_vpb"><thead><tr><th align="left" id="d315121e121">
 
 Option
 
-</th><th align="left" id="d254782e124">
+</th><th align="left" id="d315121e124">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d254782e130">
+</th></tr></thead><tbody><tr><td id="d315121e130">
 
 **Show pending stages and activities**
 
@@ -58,7 +58,7 @@ Description
 -   Default setting.
 
 
-</td></tr><tr><td id="d254782e151">
+</td></tr><tr><td id="d315121e151">
 
 **Hide pending activity**
 
@@ -68,7 +68,7 @@ Description
 -   If all activities are pending and hidden, the stage is grayed out.
 
 
-</td></tr><tr><td id="d254782e169">
+</td></tr><tr><td id="d315121e169">
 
 **Hide pending activities and stages**
 
@@ -84,8 +84,6 @@ Description
 
 **Related topics**  
 
-
-[bundle-platux.configure-playbook-configuration-form]
 
 [Configure an optional activity for a playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-optional-activity-for-a-case-type-playbook.md)
 

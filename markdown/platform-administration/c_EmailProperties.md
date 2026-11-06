@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/c\_EmailProperties.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email properties
@@ -25,10 +25,10 @@ Email diagnostics are available from the **System Mailboxes** &gt; **Email Diagn
 
 **Note:** To learn more about the security properties that affect email processing, see SMTP authentication \(deprecated\) in Instance Security Hardening Settings.
 
--   **[Outbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_OutboundMailConfiguration.md)**  
-The **Outbound Mail Configuration** section of the Email Properties page contains properties for sending email.
--   **[Inbound mail configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_InboundMailConfiguration.md)**  
-The **Inbound Mail Configuration** section of the Email Properties page contains properties to control inbound email.
+-   **[Outbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_OutboundMailConfiguration.md)**  
+The **Outbound Email Configuration** section of the Email Properties page contains properties for sending email.
+-   **[Inbound email configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_InboundMailConfiguration.md)**  
+The **Inbound Email Configuration** section of the Email Properties page contains properties to control inbound email.
 -   **[Email image filtering properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/email-image-filters.md)**  
 Use email image filtering properties to control how inbound email images attach to a target record.
 -   **[Email digest properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/email-digest-properties.md)**  

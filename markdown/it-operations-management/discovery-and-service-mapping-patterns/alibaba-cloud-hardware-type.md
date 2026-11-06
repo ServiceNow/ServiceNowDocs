@@ -7,10 +7,10 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: reference
-last_updated: "2025-10-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Alibaba, Cloud Hardware Type, Alibaba Cloud discovery, Alibaba Cloud patterns, Alibaba Cloud Cloud Hardware Type discovery]
-breadcrumb: [Alibaba Cloud discovery, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Alibaba Cloud discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Alibaba Cloud cloud hardware type pattern-based discovery

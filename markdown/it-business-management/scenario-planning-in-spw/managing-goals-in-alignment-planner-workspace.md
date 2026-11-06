@@ -1,5 +1,5 @@
 ---
-title: Managing goals in Strategic Planning Workspace
+title: Managing portfolio plan goals in Strategic Planning Workspace
 description: Create goals for your portfolio plans, set targets for them, and evaluate the progress of the goals and targets in Strategic Planning Workspace to accomplish your organizational plans and drive business outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/scenario-planning-in-spw/managing-goals-in-alignment-planner-workspace.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Managing goals in Strategic Planning Workspace
+# Managing portfolio plan goals in Strategic Planning Workspace
 
 Create goals for your portfolio plans, set targets for them, and evaluate the progress of the goals and targets in Strategic Planning Workspace to accomplish your organizational plans and drive business outcomes.
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/cse-assign-roles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Code Signing, Code Signing, Platform Security]
+breadcrumb: [Configure, Code Signing, Platform Security]
 ---
 
 # Assign the Code Signing Administrator Role
@@ -29,7 +29,7 @@ Roles required:
 
     The trusted instance is used to create jobs, sign records, and perform other necessary tasks before enabling signature validation on your protected Instance.
 
-2.  Navigate to **All** &gt; **Code Signing** &gt; **Code Signing Role Administration**.
+2.  Navigate to **All** &gt; **Code Signing** &gt; **Administration** &gt; **Role Administration**.
 
 3.  Grant a user the Code Signing Administrator role by moving a user from the **Available Users** list to the **Selected User\(s\)** list.
 

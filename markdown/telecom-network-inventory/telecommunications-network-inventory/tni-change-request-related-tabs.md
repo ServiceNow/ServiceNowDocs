@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+breadcrumb: [Reference, Telecommunications Network Inventory]
 ---
 
 # Change request related tabs
@@ -35,8 +35,8 @@ List of configuration items \(CI\). These items \(from the CMDB\) are affected b
  **Note:**
 
 -   The **Affected CIs** tab of the Change Request form lists all CIs that are created through the change tasks of that change request. This tab also lists all the affected CIs of the change tasks.
--   If a CI in the affected CIs list of a change task is manually \(or through an API\) changed to another CI, the changes are also updated in the affected CI list of the corresponding change request.
--   If a CI in the affected CI list of a change task is manually \(or through an API\) deleted, the same CI is deleted in the affected CI list of the corresponding change request.
+-   If a CI in the affected CIs list of a change task is manually \(or through an API\) changed to another CI, the corresponding change request is also updated. The affected CI list reflects this change.
+-   If a CI in the affected CI list of a change task is manually \(or through an API\) deleted, the change is reflected in the corresponding change request. The same CI is removed from the affected CI list of the change request.
 
 </td></tr><tr><td>
 

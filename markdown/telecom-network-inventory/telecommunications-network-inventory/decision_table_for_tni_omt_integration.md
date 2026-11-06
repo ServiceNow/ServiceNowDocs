@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring decision tables for Telecommunications Network Inventory, Configuring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Decision tables, Configure, Telecommunications Network Inventory]
 ---
 
 # Order Management for Telecommunications integration
@@ -48,7 +48,7 @@ You can create, review, update, and remove a decision entry.
 
 ## TNI Design Assign of Fiber Broadband
 
-Let's say that you add a service order with the category broadband service. After you make this addition, the TNI Design Assign of Fiber Broadband flow of the Service Order Fulfillment Policy triggers. As part of this flow, in the TNI Record Producer and Change model policy decision table, an allocate and assign Customer Premises Equipment \(CPE\) order task is created with a Gigabyte Passive Optical Network \(GPON\) broadband record producer for the GPON broadband change model.
+Let's say that you add a service order with the category broadband service. After you make this addition, the TNI Design Assign of Fiber Broadband flow of the Service Order Fulfillment Policy triggers. As part of this flow, in the TNI Record Producer and Change model policy decision table, an allocate and assign Customer Premises Equipment \(CPE\) order task is created. This task uses a Gigabyte Passive Optical Network \(GPON\) broadband record producer for the GPON broadband change model.
 
 To transfer the order characteristics in the TNI Record Producer Variable Policy decision table, the order characteristics map with the record producer.
 

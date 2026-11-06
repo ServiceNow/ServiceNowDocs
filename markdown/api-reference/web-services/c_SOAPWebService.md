@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 12
-breadcrumb: [Inbound web services, Web services, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # SOAP web service
@@ -91,7 +91,7 @@ By default, a set of processor ACL rules require users to have the soap\_query r
 
 If you want to change these role requirements, you can deactivate the ACL rules.
 
-\[Omitted image "WebServiceProcessorACLs.png"\] Alt text:
+\[Omitted image "WebServiceProcessorACLs.png"\] Alt text: Access controls table.
 
 ## Basic authentication
 
@@ -114,7 +114,7 @@ The Enhanced Web Service Provider - Common plugin adds the SOAP Security Policie
 
 To know more about SOAP access policy, see [SOAP API access policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/soap-api-access-policies.md).
 
-\[Omitted image "SOAPSecurityPolicies.png"\] Alt text:
+\[Omitted image "SOAPSecurityPolicies.png"\] Alt text: The SOAP Security Policies module is selected in the All menu.
 
 ## Certificates required for signed SOAP requests
 
@@ -159,7 +159,7 @@ Specify the authentication mechanism you want to use when you [create a new WS-s
 
 The WS-Security Profiles module lists the WS-Security profiles that are currently in effect.
 
-\[Omitted image "WS-SecurityProfilesModule.png"\] Alt text:
+\[Omitted image "WS-SecurityProfilesModule.png"\] Alt text: WS Security Profiles table is populated with X509 and Username record types.
 
 ## WS-Security error logging
 
@@ -186,7 +186,7 @@ Use the [X.509 authentication framework](https://www.oasis-open.org/committees/d
 
 Upload the certificate and reference it in the **X509 Certificate** field. If a bound session, select the user to impersonate when the WS-Security authentication succeeds.
 
-\[Omitted image "WSSX509SecurityProfile.png"\] Alt text:
+\[Omitted image "WSSX509SecurityProfile.png"\] Alt text: WS Security Profile form is populated with a user type, order, and certificate.
 
 ## WSS UsernameToken Profile
 
@@ -198,13 +198,13 @@ There are two ways to authenticate a UsernameToken.
 
 1.  Authenticate with existing user credentials.
 
-    \[Omitted image "AuthenticateWithExistingServiceNowUserCredentials.png"\] Alt text:
+    \[Omitted image "AuthenticateWithExistingServiceNowUserCredentials.png"\] Alt text: WS Security Profile form is populated with Username type and the profile action set to 'authenticate with user'.
 
     Use the user name of the incoming SOAP request to look up a user by the specified **User** field to match the **UserName** value. The system uses the password value in the incoming UsernameToken to authenticate the request. When the **Bind session** option is selected, the user that authenticates successfully is used for the session.
 
 2.  Authenticate with specified user credentials.
 
-    \[Omitted image "AuthenticateWithSpecifiedUserCredentials.png"\] Alt text:
+    \[Omitted image "AuthenticateWithSpecifiedUserCredentials.png"\] Alt text: WS Security Profile form is populated with the username type, user, and profile information.
 
     Authenticate using login credentials unrelated to users in the User table. When the **Bind session** option is selected, the user that is specified in the **Run as user** field is used for the session.
 
@@ -295,7 +295,7 @@ To capture incoming SOAP envelope XML in the system log, add the property **glid
 You can view a user's log from a SOAP session.
 -   **[Basic authentication code samples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/r_BasicAuthenticationExamples.md)**  
 Samples of basic authentication code for several programming languages and versions.
--   **[Example WS-Security SOAP envelope header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/r_SmplWSSecSOAPEnvHeader.md)**  
+-   **[Example: WS-Security SOAP envelope header](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/r_SmplWSSecSOAPEnvHeader.md)**  
 An example of a valid WS-Security SOAP envelope header.
 -   **[WS-Security properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/ws-security-properties.md)**  
 These properties control the behavior of WS-Security X.509 tokens.
@@ -303,8 +303,10 @@ These properties control the behavior of WS-Security X.509 tokens.
 An instances produces one of the following error messages when it encounters an issue with a WS-security SOAP message.
 -   **[WS-Security reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/ws-security-reference.md)**  
 Support for WS-Security 1.1 in the form of WSS X.509 Token Profile and WSS Username Token Profile is available for incoming SOAP requests.
--   **[LongRunningSOAPRequestProps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/LongRunningSOAPRequestProps.md)**  
+-   **[Long-running SOAP request properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/LongRunningSOAPRequestProps.md)**  
 The following properties are available for long-running SOAP requests.
+-   **[Retrieve a large number of records using SOAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_RtvLrgNmbrRcrdSOAP.md)**  
+By default, a single SOAP request can retrieve a maximum of 250 records.
 
 **Parent Topic:**[Inbound web services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/inbound-web-services.md)
 

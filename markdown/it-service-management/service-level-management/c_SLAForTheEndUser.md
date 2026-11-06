@@ -7,7 +7,7 @@ release: yokohama
 product: Service Level Management
 classification: service-level-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Service Level Management, Service Level Management, IT Service Management]
 ---
@@ -22,7 +22,7 @@ You can also view the target of the agreement being defined: **None**, **Respons
 
 Target is used for filtering, searching, and reporting purposes only.
 
-**Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activate.
+**Note:** This feature is available only in new instances starting with Jakarta or a later release. The Problem Management Best Practice – Jakarta plugin \(com.snc.best\_practice.problem.jakarta\) plugin must be activated.
 
 In addition, you can get an overview of the timings for the task SLA such as the actual and business elapsed time and percentage, and the actual and business time left in days and hours.
 

@@ -1,5 +1,5 @@
 ---
-title: Create a free-form roadmap view in Portfolio Planning
+title: Create a free-form roadmap view
 description: Create a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-free-form-roadmap-view-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Managing free-form roadmap views in Portfolio Planning, Create a free-form roadmap in Portfolio Planning Workspace, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Managing free-form roadmap views, Create a free-form roadmap, Plan roadmaps, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create a free-form roadmap view in Portfolio Planning
+# Create a free-form roadmap view
 
 Create a customized free-form roadmap view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 
@@ -57,8 +57,8 @@ The shared view for the free-form roadmap is created and is visible to all stake
 
 ## What to do next
 
--   Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. See [Share a free-form roadmap with stakeholders in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md).
--   Edit a free-form roadmap view to change the existing view. See [Edit a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-free-form-roadmap-view-ppw.md).
+-   Share the free-form roadmap with your stakeholders to start collaborating on the free-form roadmap. See [Share a free-form roadmap with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-free-form-roadmap-stakeholders-portfolio-planning.md).
+-   Edit a free-form roadmap view to change the existing view. See [Edit a free-form roadmap view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-free-form-roadmap-view-ppw.md).
 
-**Parent Topic:**[Managing free-form roadmap views in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)
+**Parent Topic:**[Managing free-form roadmap views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-free-form-roadmap-views-ppw.md)
 

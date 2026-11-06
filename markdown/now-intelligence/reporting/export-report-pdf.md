@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Distribute reports, Core UI Reporting, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Distribute Core UI reports, Using Core UI reporting, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # Export a report to PDF
@@ -22,28 +22,58 @@ Role required: itil, report\_user, report\_group, report\_global, report\_admin,
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Reports** &gt; **View / Run** and select the report you want to export.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations** and select the Core UI report you want to export.
 
-2.  Select the **Sharing** icon \(\[Omitted image "square-share-fill-24.svg"\]\) and select **Export to PDF**.
+2.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\], select **Export**.
 
-    \[Omitted image "export-vis-pdf.png"\] Alt text: Export visualization to pdf menu
+    \[Omitted image "paw-vd-export.png"\] Alt text: Export option in More actions menu
 
-    1.  Choose the orientation of the PDF, **Portrait** or **Landscape**.
+3.  In the File to export section, configure the following information.
 
-    2.  Choose to generate the PDF or to send it in an email to one recipient.
+<table id="table_fsx_mlr_rwb"><thead><tr><th>
 
-3.  Choose the delivery method.
+Field
 
-    Select **Generate now** to create the PDF and receive a download.
+</th><th>
 
-    Select Send as an email, to send the PDF to one recipient. To schedule delivery of an exported report to multiple addresses, see [Schedule emails of reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/t_ScheduleAReport.md).
+Description
 
-4.  Select **Export**.
+</th></tr></thead><tbody><tr><td>
+
+File type
+
+</td><td>
+
+Export data visualizations in one of their supported formats. \(See [Supported export formats for different data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-visualization-vd.md).\) Select **Embedded PNG** or **Embedded LIST** to embed the exported file in the email body instead of sending it as an attached file or ZIP. You can edit the email around the image.
+
+</td></tr><tr><td>
+
+Page format
+
+</td><td>
+
+For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You can't set the page format when exporting a List.
+
+</td></tr><tr><td>
+
+Orientation
+
+</td><td>
+
+Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoint, Microsoft Excel, or CSV formats.
+
+</td></tr></tbody>
+</table>4.  Under **Delivery**, select **Download file** or **Send file via email**.
+
+    -   When you choose to download the file, a **Download** button is available after the export is complete. The file, named `<visualization-name>.<filetype>`, is downloaded to your default local destination.
+    -   When you send the file by email, you can select users and groups on your instance or any allowed email address. Security constraints may restrict who you can email. You also must specify a subject, and you can add a message. When you are done, select **Export**.
+
+        **Note:** To send email to persons who are not on your instance, make sure outbound email is configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration) in the Developer Site.
 
 
 ## Result
 
 When the export is complete, you see either a download link or a message that the export will be delivered to the recipient.
 
-**Parent Topic:**[Distribute reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DistributeReports.md)
+**Parent Topic:**[Distribute Core UI reports](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/c_DistributeReports.md)
 

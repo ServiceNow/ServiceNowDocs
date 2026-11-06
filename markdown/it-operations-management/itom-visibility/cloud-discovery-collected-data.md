@@ -1,5 +1,5 @@
 ---
-title: Cloud resource discovery
+title: Cloud resource discovery references
 description: ITOM Visibility discovers resources on cloud platforms.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/itom-visibility/cloud-discovery-collected-data.html
@@ -7,16 +7,16 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Data collected by ITOM Visibility, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
-# Cloud resource discovery
+# Cloud resource discovery references
 
 ITOM Visibility discovers resources on cloud platforms.
 
-## Verify the REST API Permissions
+## Verify the REST API permissions
 
 Download the [Cloud Discovery patterns spreadsheet](https://downloads.docs.servicenow.com/resource/enus/api/servicenow-discovery-patterns-api-details.xlsx) so you can grant user permissions required for running the Discovery patterns. In addition to permissions, the spreadsheet also includes useful information such as pattern names, types, CI Classes, and links to vendor documentation. New patterns are available quarterly, so check periodically to be sure you have the latest version of the spreadsheet.
 
@@ -28,8 +28,6 @@ Discovery collects information about cloud resources in Microsoft Azure datacent
 Discovery collects information about cloud resources in Google Cloud Platform \(GCP\). Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Data collected for IBM Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/data-collected-ibm-discovery.md)**  
 Discovery collects information about cloud resources in the IBM Cloud Platform and creates relationships between the CIs it finds. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
--   **[Data collected for Oracle Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/oracle-cloud-infrastructure-discovery.md)**  
-ServiceNow Discovery uses the Oracle Cloud Infrastructure \(OCI\) discovery patterns to provide real-time elasticity for enterprise applications by combining Oracle autonomous services, integrated security, and cloud compute. Discovering some of these resources might require updating to the latest version of the Discovery and Service Mapping Patterns application from the ServiceNow Store.
 -   **[Data collected for VMware Cloud Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/data-collected-vmware-cloud-disco.md)**  
 Discovery collects information about VMware resources in your cloud service accounts.
 

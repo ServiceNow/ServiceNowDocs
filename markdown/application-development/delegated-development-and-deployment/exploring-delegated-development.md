@@ -1,20 +1,20 @@
 ---
 title: Exploring Delegated Development
-description: Delegated development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
+description: Delegated Development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/delegated-development-and-deployment/exploring-delegated-development.html
 release: yokohama
 product: Delegated Development and Deployment
 classification: delegated-development-and-deployment
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Delegated Development, Planning your application, Building applications]
+breadcrumb: [Delegated Development, Planning your application, Classic app development, Building applications]
 ---
 
 # Exploring Delegated Development
 
-Delegated development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
+Delegated Development allows designated users without a system admin role to develop or deploy applications on the ServiceNow AI Platform.
 
 ## Delegated Development overview
 
@@ -32,5 +32,5 @@ If you have the application-specific admin role or the system-level admin role, 
 To learn more about configuring and using Delegated Development, see:
 
 -   [Configuring Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/configuring-delegated-development.md)
--   [Using Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/using-delegated-development.md)
+-   [Administer Delegated Development Delegated Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/administer-delegated-development.md)
 

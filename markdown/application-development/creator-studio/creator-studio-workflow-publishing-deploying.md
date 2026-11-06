@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Explore, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Publishing, activation, and deployment workflow for forms, automation, and apps
@@ -36,6 +36,4 @@ As you develop apps in Creator Studio, you should move sequentially through the 
     -   Unactivated playbooks are deployed but must be activated by an admin before they can run
     -   Users can access the workspace to review the app's submitted requests
 7.  To update a published app, make the changes on your non-production instance and then request that your admin redeploys the updated app to production.
-
-**Parent Topic:**[Exploring Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/exploring-creator-studio.md)
 

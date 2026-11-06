@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-28"
 reading_time_minutes: 3
 breadcrumb: [Administer, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -28,7 +28,7 @@ AI Search supports language-specific lemma normalization for Arabic, Brazilian P
 
 ## Decompounding
 
-In addition to normalizing lemmas for German, Danish, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search indexes compound words and their individual component words. For example, when indexing a German record that contains the compound word `Humanressourcen`, AI Search indexes the component terms `Human` and `ressourcen` in addition to the compound term.
+In addition to normalizing lemmas for Danish, Finnish, German, Hungarian, Korean, Norwegian \(Bokmål\), and Swedish, AI Search indexes compound words and their individual component words. For example, when indexing a German record that contains the compound word `Humanressourcen`, AI Search indexes the component terms `Human` and `ressourcen` in addition to the compound term.
 
 ## Unicode normalization
 

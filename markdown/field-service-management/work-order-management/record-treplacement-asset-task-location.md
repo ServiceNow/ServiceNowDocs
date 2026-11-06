@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View asset usage, Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [View asset usage, Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Track the replacement of an asset from a task location
@@ -54,6 +54,4 @@ Role required: wm\_agent
 ## Result
 
 Two asset records are added to the Asset Usages related list. The removed asset is added to the Asset Usages related list with a status of **Removed**. The replaced asset is also added to the Asset Usages related list.
-
-**Parent Topic:**[View asset usage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsage.md)
 

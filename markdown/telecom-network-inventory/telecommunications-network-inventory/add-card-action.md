@@ -1,20 +1,20 @@
 ---
 title: Create CI From Template function
-description: The TNI Create CI From Template function enables you to create the inventory instance in the designated site or equipment holder in the Telecommunications Network Inventory application when you instantiate an inventory with the inventory template. You can automatically create the inventory when you instantiate the network inventory design and assign process.
+description: The TNI Create CI From Template function enables you to create the inventory instance in the designated site or equipment holder in the Telecommunications Network Inventory application. This occurs when you instantiate an inventory with the inventory template. You can automatically create the inventory when you instantiate the network inventory design and assign process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/add-card-action.html
 release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Telecommunications Network Inventory function catalog, Telecommunications Network Inventory reference, Telecommunications Network Inventory]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Function catalog, Reference, Telecommunications Network Inventory]
 ---
 
 # Create CI From Template function
 
-The TNI Create CI From Template function enables you to create the inventory instance in the designated site or equipment holder in the Telecommunications Network Inventory application when you instantiate an inventory with the inventory template. You can automatically create the inventory when you instantiate the network inventory design and assign process.
+The TNI Create CI From Template function enables you to create the inventory instance in the designated site or equipment holder in the Telecommunications Network Inventory application. This occurs when you instantiate an inventory with the inventory template. You can automatically create the inventory when you instantiate the network inventory design and assign process.
 
 The TNI Create CI From Template function creates configuration items \(CIs\), such as the interface card, equipment, network site, and network interface, depending on the inventory template requirement.
 

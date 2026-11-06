@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/ra-configuring-ai-search.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Recommended Actions configuration, Implement Intelligence, Configure, Customer Service Management]
 ---
 
 # Configuring AI search in Recommended Actions
@@ -57,6 +57,14 @@ Map AI search results with guidance inputs to enable the AI search results to be
 
 Automatically create AI search results for a search configuration application in Recommended Actions.
 
+</td></tr><tr><td>
+
+[Configure dynamic filters in AI Search for Recommended Actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/ra-configure-contextual-filtering.md)
+
+</td><td>
+
+Configure AI Search to preprocess contextual inputs from Recommended Actions so that search results are dynamically filtered based on the current record context.
+
 </td></tr></tbody>
 </table>## Configuring genius results
 
@@ -101,6 +109,16 @@ Now Assist Q&amp;A
 </td><td>
 
 Displays the top search results extracted from the HTML fields of the records on the Knowledge \[kb\_knowledge\] table and the tables that extend it. Each answer card shows an answer snippet extracted by Now LLM from a knowledge article. For reference, the answer card also includes a link the user can select to view the source knowledge article.**Note:** Now Assist in the AI Search application \(com.ais\_assist\) is required to link the Now Assist Q&amp;A Genius Result configuration to your search profile. For more information, see [Now Assist in AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-ais.md).
+
+**Important:** Starting with the Now Assist in AI Search 11 release, the Now Assist Q&amp;A Genius Results feature is in maintenance mode. This feature will remain available but will not be updated or supported. Similar and improved functionality is available in the newer Now Assist Multi-Content Response Genius Results feature. For more details on this feature, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).
+
+</td></tr><tr><td>
+
+Now Assist Multi-Content Response
+
+</td><td>
+
+Displays a single top search result that summarizes content from multiple sources. The answer card shows one grouped summary with numbered citations that link to the source records, such as knowledge articles, and Service catalog items. You can select the **Copy summary** button to copy the summary and share it with customers. For more information on theNow Assist Multi-Content Response, see [Now Assist Multi-Content Response Genius Results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-assist-multi-content-qna-genius-results.md).\[Omitted image "na-mcr.png"\] Alt text: Now Assist-Multi Content Response in Recommended Actions contextual Side Panel
 
 </td></tr></tbody>
 </table>## Customizing Recommended Actions UIB component for AI search

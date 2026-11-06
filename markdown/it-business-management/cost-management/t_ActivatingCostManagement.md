@@ -7,7 +7,7 @@ release: yokohama
 product: Cost Management
 classification: cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -39,6 +39,8 @@ Role required: admin
 
 -   **[Components installed with Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/r_InstalledWithCostManagement.md)**  
 Several components are installed with the Cost Management application.
+-   **[Cost overview module roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/r_CostOverviewModuleRoles.md)**  
+Only certain roles can customize Cost Overview modules. In addition to viewing, roles with access can refresh, add, delete, and rearrange reports.
 
 **Parent Topic:**[Cost Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/r_CostManagement.md)
 

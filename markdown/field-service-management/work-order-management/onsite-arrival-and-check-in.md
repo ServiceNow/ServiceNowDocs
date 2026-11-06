@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manage work order tasks, Prepare work orders, Using Field Service Management, Field Service Management]
+breadcrumb: [Manage work order tasks, Prepare work orders, Use, Field Service Management]
 ---
 
 # Onsite arrival and check-in
@@ -92,6 +92,4 @@ Enable the system property **Enable/Disable Onsite Arrival Check-in for Agents**
 3. Travel duration calculation: The **Actual travel duration** field is automatically populated with the time difference between "Actual travel start" and "Actual onsite arrival time," unless manually set.
 
 4. Automatic generation of the Task travel time card, stored under the **Time Worked** related list.
-
-**Parent Topic:**[Manage work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_WorkOrderTasks.md)
 

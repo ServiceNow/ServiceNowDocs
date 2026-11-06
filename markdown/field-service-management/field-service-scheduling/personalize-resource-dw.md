@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Advanced Filtering in Dispatcher Workspace, Using Dispatcher Workspace, Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Advanced Filtering, Using Dispatcher Workspace, Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Personalize your resource view in Dispatcher Workspace
@@ -30,7 +30,7 @@ Role required: wm\_dispatcher.
 
 4.  Select **+ Advanced filters**.
 
-5.  Select **Crews** if this is a new crew filter.
+5.  Select a different tab if you're creating a crew, equipment, or contractor filter.
 
 6.  Add or edit the filter that you want apply when you open Dispatcher Workspace.
 

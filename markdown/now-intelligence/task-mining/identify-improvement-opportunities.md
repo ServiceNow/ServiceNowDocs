@@ -7,7 +7,7 @@ release: yokohama
 product: Task Mining
 classification: task-mining
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Use, Task Mining, Platform Analytics]
 ---
@@ -18,11 +18,15 @@ Initiate an automation request from a Task Mining task timeline analysis.
 
 ## Before you begin
 
-The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-dashboard.md).
+Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
 
 Automation Center must be installed to initiate an automation request. To use the ServiceNow Otto feature in the integration, you must install ServiceNow Otto for Platform and activate the User Task Step Summarization skill. For more information, see [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/integration-with-automation-center.md).
 
-Role required: sn\_tm\_core.analyst, sn\_tm\_core.power\_user, sn\_tm\_core.admin
+The project requires a task timeline analysis to take task improvement actions. A task timeline analysis contains tasks with sequential task time steps of user interactions. Use these task steps as the basis of your improvement opportunities. For more information, see [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-dashboard.md).
+
+Submitting an automation request from Task Mining is the entry point to building a complete desktop automation. Automatically convert desktop processes into executable AI agents: capture the task \(desktop processes\) in Task Mining, create desktop actions \(automation blocks\) and AI agent in Automation Center, and test and deploy the AI agent in AI Agent Studio.
+
+For more information, see .
 
 ## About this task
 
@@ -42,7 +46,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     1.  Select **Edit** to create a copy that you use for automation without affecting the original.
 
-        \[Omitted image "tm-io-2.png"\] Alt text: Screenshot showing the edit task steps dialog.
+        \[Omitted image "tm-io-2.png"\] Alt text: The edit task steps dialog.
 
     2.  Enter a descriptive name in the **Task name** field.
 
@@ -66,7 +70,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
 7.  Select **Request automation**.
 
-    \[Omitted image "tm-io-3.png"\] Alt text: Screenshot showing the editable task steps view.
+    \[Omitted image "tm-io-3.png"\] Alt text: The editable task steps view.
 
 8.  Select the task improvement action that you want to take, and select **Continue**.
 
@@ -82,7 +86,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
         **Note:** If an automation request has already been made for this task, a message with a link to the existing automation request is provided.
 
-    \[Omitted image "tm-io-generate-ai.png"\] Alt text: Screenshot showing the UI option to generate details with AI.
+        \[Omitted image "tm-io-generate-ai.png"\] Alt text: The AI generation UI.
 
 9.  Select **Regenerate details** to populate the **Description** and **Detailed sequence of steps** fields with data from the tasks again.
 
@@ -92,7 +96,7 @@ Create automation requests for your tasks directly from Task Mining. Capture bot
 
     **Note:** The generate details option is available only if ServiceNow Otto for Platform is installed and the User Task Step Summarization skill is activated.
 
-    \[Omitted image "tm-automation-request-done.png"\] Alt text: Screenshot showing the New Automation Request form.
+    \[Omitted image "tm-automation-request-done.png"\] Alt text: The New Automation Request form.
 
 10. Add a value in the **Frequency** field to specify in minutes how often the process should be executed.
 
@@ -113,4 +117,6 @@ Create an automation request agent to efficiently manage the tasks of the Task M
 [Integration with Automation Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/integration-with-automation-center.md)
 
 [Task Mining analyses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/task-mining/task-mining-dashboard.md)
+
+[bundle-btss.creating-desktop-actions-tm-ac]
 

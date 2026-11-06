@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Work with hardware normalization, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Configure Hardware Model Normalization, Integrations and advanced configuration, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Normalize hardware and consumable models
@@ -32,15 +32,15 @@ Role required: admin, asset, or model\_manager
 
 1.  Create a hardware or consumable model.
 
-<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d209073e74">
+<table id="choicetable_k4b_k1j_pdc"><thead><tr><th align="left" id="d135383e74">
 
 Interface
 
-</th><th align="left" id="d209073e77">
+</th><th align="left" id="d135383e77">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d209073e83">
+</th></tr></thead><tbody><tr><td id="d135383e83">
 
 **Core UI**
 
@@ -54,7 +54,7 @@ Action
 4.  Select **Save**.
 
 
-</td></tr><tr><td id="d209073e150">
+</td></tr><tr><td id="d135383e150">
 
 **Hardware Asset Workspace**
 
@@ -76,15 +76,15 @@ Action
 
 2.  Normalize your model manually if the normalization status of your model is Partially Normalized or Publisher Normalized.
 
-<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d209073e230">
+<table id="choicetable_yqq_h2j_pdc"><thead><tr><th align="left" id="d135383e230">
 
 Interface
 
-</th><th align="left" id="d209073e233">
+</th><th align="left" id="d135383e233">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d209073e239">
+</th></tr></thead><tbody><tr><td id="d135383e239">
 
 **Core UI**
 
@@ -92,7 +92,7 @@ Action
 
 Select the **Normalized** section and **Consumable Model Fields** section to normalize the model manually.
 
-</td></tr><tr><td id="d209073e254">
+</td></tr><tr><td id="d135383e254">
 
 **Hardware Asset Workspace**
 
@@ -116,9 +116,7 @@ Select the **Normalized** section and **Consumable Model Fields** section to nor
 
 You have created a hardware model for the Lenovo ThinkPad T43 and you want your asset information to be consistent across the organization.
 
-Review the normalization status of the model by selecting the **Normalization** section.
-
-\[Omitted image "partially-normalized-example.png"\] Alt text: Normalization related list with details added.
+Review the normalization status of the model by reviewing the **Normalization** section.
 
 The normalization status is set to Partially Normalized because the name of the model is missing.
 
@@ -128,7 +126,5 @@ Select **Save**.
 
 The **Normalization Status** field displays **Manually Normalized**.
 
-\[Omitted image "manually-normalized-example.png"\] Alt text: The Normalization Status field is updated to Manually Normalized.
-
-**Parent Topic:**[Work with hardware normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
+**Parent Topic:**[Configure Hardware Model Normalization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/Work-with-hardware-normalization.md)
 

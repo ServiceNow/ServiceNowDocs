@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Compose an email in GRC: Compliance Case Management
@@ -28,7 +28,7 @@ You can compose and send emails regarding your cases and requests to multiple st
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the list \[Omitted image "list-icon.png"\] Alt text: List icon. icon.
+2.  Select the list \[Omitted image "ws-list-icon.png"\] Alt text: List icon.
 
 3.  To compose an email, use the following options.
 
@@ -37,7 +37,7 @@ You can compose and send emails regarding your cases and requests to multiple st
     |**Compose an email for a compliance case**|Compose an email for a compliance case.|
     |**Compose an entry for a compliance request**|Compose an email for a compliance request.|
 
-4.  Select the More actions \[Omitted image "MoreActionsIcon.jpg"\] Alt text: More actions icon. icon.
+4.  Select the More actions \[Omitted image "more-actions-menu.png"\] icon.
 
 5.  Select **Compose Email**.
 

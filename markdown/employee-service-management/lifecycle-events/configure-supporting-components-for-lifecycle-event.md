@@ -7,9 +7,9 @@ release: yokohama
 product: Lifecycle Events
 classification: lifecycle-events
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Building a lifecycle event, Using Lifecycle Events, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Building a lifecycle event, Use, Lifecycle Events, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure the supporting components for a lifecycle event
@@ -25,8 +25,6 @@ Configure the supporting components for a lifecycle event. Lifecycle events are 
 Owning groups control who owns a lifecycle event activity. Because lifecycle events are generally cross-departmental, it's critical that ownership of each activity is assigned to the appropriate group, such as for HR, IT, or Facilities. Each owning group is responsible for overseeing the activities that fall under their purview. See [Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md) for more information.
 
 To create, update, or delete an activity, you must be both a member of the associated owning group and have the sn\_hr\_le.activity\_writer role. For example, only members of the HR activity writers owning group with the sn\_hr\_le.activity\_writer role can configure an HR activity.
-
-\[Omitted image "hr-lifecycle-event-owning-groups.png"\] Alt text: Different owning groups and the lifecycle event activities they are responsible for.
 
 ## Activity types
 
@@ -155,8 +153,6 @@ Clearly defined audience criteria enable you to create targeted workflows for di
 
 -   If an activity isn't associated with an audience record, then the activity triggers for all employees.
 -   If a subject person doesn't meet the audience criteria defined for an activity set during the evaluation process, the **State** field in the corresponding activity set is set to **Skipped**.
-
-\[Omitted image "hr-lifecycle-event-audiences.gif"\] Alt text: GIF that demonstrates how you can use audience records to created targeted lifecycle event experiences.
 
 -   **[Configure an owning group for a lifecycle event](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/lifecycle-events/configure-lifecycle-event-owning-group.md)**  
 Create or modify an owning group to define the user group that owns a lifecycle event activity. Each owning group is responsible for overseeing the activities that fall under their purview.

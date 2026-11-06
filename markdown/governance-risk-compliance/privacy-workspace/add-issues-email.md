@@ -7,9 +7,9 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
+breadcrumb: [Report a privacy case, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
 
 # Report a privacy case through email
@@ -87,5 +87,5 @@ For privacy admin, the case will be visible in **Workspaces** &gt; **Privacy Wor
 
 Any reply sent by the admin appears in the Email tab of the privacy case.
 
-**Parent Topic:**[Using Privacy Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/using-pcm.md)
+**Parent Topic:**[Reporting a privacy case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/reporting-a-privacy-case.md)
 

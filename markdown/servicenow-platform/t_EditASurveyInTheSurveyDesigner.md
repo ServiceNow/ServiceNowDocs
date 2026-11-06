@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/t\_EditASurveyInTheSurveyDesigner.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Survey designer, Survey administration, Using surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Survey designer, Survey administration, Use surveys, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Edit a survey in the survey designer
@@ -35,6 +35,8 @@ You can edit a survey even after it has been distributed, with the following res
 2.  Point to the menu icon in the survey header bar, and select **Load Survey**.
 
 3.  Select a survey from the list and modify it as needed.
+
+    **Note:** Update the **Sample metric** field only after you complete all other survey configurations. If you need to modify the survey configuration, first remove the question from the **Sample metric** field. After you finish making changes, add the question back to the field.
 
 4.  Point to the menu icon in the survey header bar, and select **Save** or **Save and Publish**.
 

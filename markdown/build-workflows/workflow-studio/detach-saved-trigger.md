@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a flow in Workflow Studio, Building flows, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Build triggers, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Detach a saved trigger from a flow
@@ -36,9 +36,7 @@ Role required: trigger\_designer, flow\_designer, or admin
 
 6.  In the **Trigger** drop-down list, select the trigger name.
 
-7.  Select the **Detach saved trigger** icon.
-
-    \[Omitted image "detach-flow-trigger.png"\] Alt text: Detach saved trigger from a flow.
+7.  Select the **Detach saved trigger** icon \[Omitted image "detach-flow-trigger.png"\] Alt text: Detach saved trigger from a flow..
 
 8.  On the confirmation window, select **Detach**.
 
@@ -49,5 +47,5 @@ Role required: trigger\_designer, flow\_designer, or admin
 10. Save the flow by clicking the save icon.
 
 
-**Parent Topic:**[Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md)
+**Parent Topic:**[Building triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/building-triggers.md)
 

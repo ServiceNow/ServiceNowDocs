@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Personal Data Rights \(PDR\), Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -26,6 +26,8 @@ Create action task templates accessible to personal data rights administrators t
 Create a repository of the users and specify the owners of various applications. This repository helps to identify which user must be assigned the personal data rights \(PDR\) request tasks.
 -   **[Generate action tasks for a personal data rights request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/generate-pdr-action-tasks.md)**  
 Automatically create action tasks for a personal data rights request. These action tasks are generated based on the data registry that is created by the personal data rights admin and are assigned to the right data owners.
+-   **[External-facing Personal Data Rights form configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/configure-pdr-ext-form.md)**  
+Privacy teams can tailor the external-facing Personal Data Rights \(PDR\) form per jurisdiction and data subject type. This customization allows them to control location specific content, authorized agent submission, and the available request types.
 
 **Parent Topic:**[Personal Data Rights \(PDR\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/personal-data-rights.md)
 

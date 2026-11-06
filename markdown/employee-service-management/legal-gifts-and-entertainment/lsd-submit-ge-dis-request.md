@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Requesting legal clearance for gifts and entertainment, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Requests, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Submit a gifts and entertainment disclosure
@@ -22,13 +22,13 @@ Role required: sn\_lg\_ops.legal\_user
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Legal services** &gt; **Ethics and compliance**.
+1.  Navigate to **All** &gt; **Employee Center** &gt; **Help center** &gt; **Legal services** &gt; **Ethics and compliance**.
 
 2.  Select **Gifts &amp; Entertainment Disclosure**.
 
 3.  **Note:** For description on the field values, see [Gift and entertainment disclosure form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-gifts-and-entertainment/lsd-ge-disclosure-form.md)
 
-    On the form, fill in the fields and click **Submit**.
+    On the form, fill in the fields and select **Submit**.
 
 
 ## Result

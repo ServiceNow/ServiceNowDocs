@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Rollup Framework for MSIM, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -27,7 +27,7 @@ Role required: admin and sn\_msi.workspace\_admin.
 
     \[Omitted image "roll-up-record-config.png"\] Alt text: Rollup record configuration
 
-3.  Click **New**.
+3.  Select **New**.
 
     \[Omitted image "roll-up-record-config-page.png"\] Alt text: Rollup record configuration page
 

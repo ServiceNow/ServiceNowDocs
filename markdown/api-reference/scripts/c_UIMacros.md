@@ -7,9 +7,9 @@ release: yokohama
 product: Scripts
 classification: scripts
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Creating custom UI Pages and UI macros, Scripting, API implementation, API implementation and reference]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [UI pages and macros, Write client-side scripts, Scripting, API implementation, API implementation and reference]
 ---
 
 # UI macros
@@ -29,7 +29,7 @@ Administrators can create their own UI macros to provide custom controls or inte
 
 **Note:** To view available UI macros, navigate to **All** &gt; **System UI** &gt; **UI Macros**.
 
-**Parent Topic:**[Creating custom UI Pages and UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/create-custom-ui-pages.md)
+**Parent Topic:**[UI pages and macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/scripts/create-custom-ui-pages.md)
 
 **Related topics**  
 
@@ -48,7 +48,7 @@ Several UI macros are available in the UI macros \[ui\_macros\] table. These UI 
 
 A UI macro can be included in a UI page with the &lt;g:&gt; Jelly tag. The following example includes the ui\_date\_time UI Macro, providing two optional attributes to the UI Macro:
 
-```
+```xml
 <g:ui_date_time name="due_date" value="2023-11-24 08:30:00" onchange="checkDateValue()" />
 ```
 
@@ -76,7 +76,7 @@ The ui\_example UI macro uses three jvar-prefixed variables: jvar\_name, jvar\_t
 
     Name the macro `ui_example` and add the following script to the **XML** field:
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide">
         <div>name jvar: ${jvar_name}</div>
@@ -91,7 +91,7 @@ The ui\_example UI macro uses three jvar-prefixed variables: jvar\_name, jvar\_t
 
     Name the UI page and add the following script to the **HTML** field:
 
-    ```
+    ```xml
     <?xml version="1.0" encoding="utf-8" ?>
     <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
         <div style="text-decoration:underline">Template include one:</div>
@@ -142,7 +142,7 @@ Dictionary attribute
 
 Display an icon for a reference field:
 
- ```
+ ```xml
 ref_contributions=ui_macro_name
 ```
 
@@ -154,7 +154,7 @@ UI page
 
 Display something on a UI page:
 
- ```
+ ```xml
 <g:macro_invoke macro="ui_macro_name" />
 ```
 
@@ -166,7 +166,7 @@ UI macro
 
 Call a UI macro from another UI macro:
 
- ```
+ ```xml
 <?xml version= "1.0" encoding="utf-8"&nbsp;?>
 <j:jelly trim= "false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
   <g:ui_macro_name />
@@ -196,31 +196,13 @@ This section describes how to create a custom approval UI macro.
 
 **Type**: UI Macro
 
-**Description**: Here is an option to get more detail out of the My Approvals view of an Execution Plan. This can be done by creating a new UI macro. Navigate to **System UI** and click **UI Macros**. First, you will need to rename the existing `approval_summarizer_sc_task` to something like `approval_summarizer_sc_task_old` and deactivate it. Then you will need to create a new one using the same name \(`approval_summarizer_sc_task`\). The name should basically tell you what the macro does and what it applies to. In this case, we're replacing an existing one so we decided to re-use the existing name.
+**Description**: Here is an option to get more detail out of the My Approvals view of an Execution Plan. This can be done by creating a new UI macro. Navigate to **System UI** and click **UI Macros**. First, rename the existing `approval_summarizer_sc_task` to something like `approval_summarizer_sc_task_old` and deactivate it. Then create a new one using the same name \(`approval_summarizer_sc_task`\). The name should basically tell you what the macro does and what it applies to. In this case, we're replacing an existing one so we decided to re-use the existing name.
 
-\[Omitted image "ApprovalMacros.png"\] Alt text:
+Copy the XML script at the bottom of this article into the XML code window in the new UI macro. This is great way to give some detail to an approver when you are making line item approvals via approval tasks within the Service Catalog Execution Plans.
 
-Then you should copy the xml script at the bottom of this article into the xml code window in the new UI macro. This is great way to give some detail to an approver when you are doing line item approvals via approval tasks within the Service Catalog Execution Plans.
+The following example script has a link into the item ordered, a short description \(which contains the ability to expand the variables from the item\), price, quantity and the total price. This helps the approver in that it shows more detail. They can now see what they are actually approving.
 
-### The old way
-
-This is the view you see in My Approvals when using an approval task via the old method.
-
-\[Omitted image "MyApprovalsOld.png"\] Alt text:
-
-Notice there is not much detail telling the approver what they are actually approving. You can see the short description of the task but not much around what the item is.
-
-### The new way
-
-This is the view you will see if you use the xml script below in place of the OOB \(out-of-box\) UI macro.
-
-\[Omitted image "MyApprovals.png"\] Alt text:
-
-Using this method you can see details much like the request approval. You have a link into the item ordered, a short description \(which contains the ability to expand the variables from the item\), price, quantity and the total price. This helps the approver in that it shows more detail. They can now see what they are actually approving.
-
-Script:
-
-```
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
     <j:jelly trim="true" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
     <tr>

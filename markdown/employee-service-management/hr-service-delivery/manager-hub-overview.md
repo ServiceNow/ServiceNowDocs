@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Persona Based Experiences, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
 # Manager Hub
@@ -58,27 +58,34 @@ A predefined set of configurations are also available to use after you have acti
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/explore-managerhub.md) \[Omitted image "icon-explore.png"\] Alt text: Detailed information on Manager Hub Detailed information on Manager Hub
+[Explore](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/explore-managerhub.md) \[Omitted image "bus-explore.svg"\] Alt text: Detailed information on Manager Hub Detailed information on Manager Hub
 
 </td><td>
 
-[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-managerhub.md) \[Omitted image "icon-set-up.png"\] Alt text: Configure the application to get started Configure the application to get started
+[Configure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/set-up-managerhub.md) \[Omitted image "bus-sdlc.svg"\] Alt text: Configure the application to get started Configure the application to get started
 
 </td><td>
 
-[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/use-manager-hub.md) \[Omitted image "icon-workspace.png"\] Alt text: Support your team and find resources to grow as leaders Support your team and find resources to grow as leaders
+[Use](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/use-manager-hub.md) \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Support your team and find resources to grow as leaders Support your team and find resources to grow as leaders
 
 </td></tr><tr><td>
 
-[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/integrate-mh-jc.md) \[Omitted image "icon-integrate.png"\] Alt text: Extend Manager Hub capabilities by integrating with other applications Extend Manager Hub capabilities by integrating with other applications
+[Integrate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/integrate-mh-jc.md) \[Omitted image "bus-integration-and-apis.svg"\] Alt text: Extend Manager Hub capabilities by integrating with other applications Extend Manager Hub capabilities by integrating with other applications
 
 </td><td>
 
-[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/reference-manager-hub.md) \[Omitted image "icon-reference.png"\] Alt text: Get details about user roles, tables, default configurations in Manager Hub Get details about user roles, tables, default configurations in Manager Hub
+[Reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/reference-manager-hub.md) \[Omitted image "bus-learn.svg"\] Alt text: Get details about user roles, tables, default configurations in Manager Hub Get details about user roles, tables, default configurations in Manager Hub
 
 </td><td>
 
  
 
 </td></tr></tbody>
-</table>
+</table>## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
+

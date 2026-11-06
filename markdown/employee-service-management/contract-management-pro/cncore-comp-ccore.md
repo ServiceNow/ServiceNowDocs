@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Contract Management Pro reference, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Reference, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Components installed with Contract Management Pro
@@ -32,6 +32,10 @@ Description
 
 Contains roles
 
+</th><th>
+
+Group the role is assigned to by default
+
 </th></tr></thead><tbody><tr><td>
 
 Contracts Core user\[sn\_cm\_core.contract\_user\]
@@ -43,6 +47,10 @@ This role is required to initiate and track contract execution.
 </td><td>
 
 sn\_cm\_obligation.obligation\_user
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -59,6 +67,10 @@ Provides administrative access to Contracts Core and underlying data.
 -   usage\_admin
 -   sn\_cm\_pa.pa\_admin role
 
+</td><td>
+
+None
+
 </td></tr><tr><td>
 
 Contracts Core configurator\[sn\_cm\_core.contract\_config\]
@@ -74,6 +86,10 @@ Provides access to configure data for contract templates and contract configurat
 -   view\_changer
 -   sn\_doc.writer
 -   contract\_manager
+
+</td><td>
+
+Contract Operations
 
 </td></tr><tr><td>
 
@@ -94,6 +110,10 @@ This role is required to initiate actions while fulfilling an assigned contract 
 -   sn\_cm\_core.contract\_report\_viewer
 -   sn\_cm\_obligation.obligation\_fulfiller
 
+</td><td>
+
+Contracts Support
+
 </td></tr><tr><td>
 
 Contract report viewer\[sn\_cm\_core.contract\_report\_viewer\]
@@ -107,6 +127,10 @@ Provides access to view reports for contract requests and signed contracts data 
 -   report\_user
 -   sn\_cm\_core.contract\_user
 -   pa\_viewer
+
+</td><td>
+
+None
 
 </td></tr><tr><td>
 
@@ -124,6 +148,10 @@ Provides access to contract requests and signed contracts data for publishing th
 -   pa\_power\_user
 -   pa\_data\_collector
 
+</td><td>
+
+None
+
 </td></tr><tr><td>
 
 Contract reviewer\[sn\_cm\_core.contract\_reviewer\]
@@ -131,6 +159,10 @@ Contract reviewer\[sn\_cm\_core.contract\_reviewer\]
 </td><td>
 
 Provides access to review tasks.
+
+</td><td>
+
+None
 
 </td><td>
 
@@ -148,6 +180,10 @@ This role is required to update and submit obligation tasks.
 
 None
 
+</td><td>
+
+None
+
 </td></tr><tr><td>
 
 Obligation fulfiller\[sn\_cm\_obligation.obligation\_fulfiller\]
@@ -160,6 +196,10 @@ This role is required to perform actions while managing an obligation. Example: 
 
 sn\_cm\_obligation.obligation\_user
 
+</td><td>
+
+Obligation Fulfillers
+
 </td></tr><tr><td>
 
 Obligation administrator\[sn\_cm\_obligation.obligation\_admin\]
@@ -171,6 +211,10 @@ Provides administrative access to Obligation management and underlying data.
 </td><td>
 
 sn\_cm\_obligation.obligation\_fulfiller
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>## Tables
@@ -480,6 +524,10 @@ Validate schedule and create recurring obligation tasks
 
 [Contract request State and Contract document status in Contract Management Pro]()
 
+[Amendment and renewal interaction messages]()
+
+[Signatory roles]()
+
 [Clause Variation form]()
 
 [Contract Configuration form]()
@@ -498,5 +546,15 @@ Validate schedule and create recurring obligation tasks
 
 [Obligation Management notifications]()
 
+[Contract Analysis Playbook form]()
+
+[Contract analysis playbook tool messages]()
+
+[Contract request ticket page actions]()
+
+[Default availability of out-of-the-box record producers]()
+
 [Contract Management Pro glossary]()
+
+[Contract Management solutions]()
 

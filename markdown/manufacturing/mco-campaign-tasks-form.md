@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/mco-campaign-tasks-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Repair form, Reference, Manufacturing Commercial Operations]
 ---
 
 # Campaign tasks form
@@ -16,7 +16,7 @@ Campaign tasks form enables you to add the recall campaign details.
 
 <table id="table_rg5_n23_wfc"><thead><tr><th>
 
-Fields
+Field
 
 </th><th>
 
@@ -91,13 +91,6 @@ Description
 
 Any information that you want to update for next phases.
 
-</td></tr><tr><td>
-
-Work notes
-
-</td><td>
-
-Additional information, if any.
-
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Repair form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/repair-form.md)
+

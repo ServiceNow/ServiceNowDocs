@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Simple Contracts
 classification: legal-simple-contracts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Third-party contract review requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Third-party contract review requests, Requests, Legal Simple Contracts, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Work on a TPC review request
@@ -30,19 +30,19 @@ As a collaborator added to a request, you can access and work on the request jus
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  Select the list icon \(\[Omitted image "checklist-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
 
 3.  In the **Lists** tab, open a legal request by selecting an option under **Legal Requests**.
 
-<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d277052e114">
+<table id="choicetable_jhj_kb3_gtb"><thead><tr><th align="left" id="d299903e121">
 
 Option
 
-</th><th align="left" id="d277052e117">
+</th><th align="left" id="d299903e124">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d277052e123">
+</th></tr></thead><tbody><tr><td id="d299903e130">
 
 **As an assignee**
 
@@ -54,7 +54,7 @@ Steps
 
 The state of the legal request is Work in progress and the document is Legal review.
 
-</td></tr><tr><td id="d277052e152">
+</td></tr><tr><td id="d299903e159">
 
 **As a collaborator**
 
@@ -73,15 +73,15 @@ The state of the legal request is Work in progress and the document is Legal rev
 
 5.  In the **Document Revisions** tab, manage all revisions of the contract document.
 
-<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d277052e206">
+<table id="choicetable_v1f_bjj_bwb"><thead><tr><th align="left" id="d299903e213">
 
 Option
 
-</th><th align="left" id="d277052e209">
+</th><th align="left" id="d299903e216">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d277052e215">
+</th></tr></thead><tbody><tr><td id="d299903e222">
 
 **To review an existing document revision**
 
@@ -93,7 +93,7 @@ Steps
 -   To mark the document revision as ready, select **Ready**.
 
 
-</td></tr><tr><td id="d277052e251">
+</td></tr><tr><td id="d299903e258">
 
 **To create another document revision**
 
@@ -141,10 +141,8 @@ The Create Revision dialog box displays.
 
 9.  When all stakeholders have agreed on a contract document revision, click **Prepare for Signature** to prepare and send the document to the signatories for e-signature.
 
-    **Note:** When you select **Prepare for Signature**, the document opens in the configured e-signature system.
+    **Note:** When you select **Prepare for Signature**, the document opens on the configured e-signature portal.
 
-    -   For DocuSign, the document opens automatically in the e-signature portal without requiring a login.
-    -   For Adobe Sign, you must log in to the e-signature portal to open the document.
     The document status updates from Internal Legal Review to Preparing for Signature.
 
 10. Complete the document in the configured e-signature system and send it for signature.

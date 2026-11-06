@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Notify Cisco Webex Connector with a major incident, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using the Notify Cisco Webex Connector with a major incident, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Create a collaborative communication task from MIM workbench
@@ -18,7 +18,7 @@ Create a communication plan or add a new communication task to an existing commu
 
 ## Before you begin
 
-Role required: notify\_view, or admin
+Role required: notify\_view, or notify\_setup\_admin
 
 ## Procedure
 

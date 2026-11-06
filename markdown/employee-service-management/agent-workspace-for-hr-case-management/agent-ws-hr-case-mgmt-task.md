@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Using Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Use, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a task for a case using Agent Workspace for HR Case Management
@@ -78,7 +78,7 @@ Checklist:
 
 </td><td>
 
-In the **Checklist Items** field, provide the checklist items. Checklists are instructions or steps on how to complete the task.**Note:** For more information, see [Using checklists in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/agent-ws-hr-checklists.md).
+In the **Checklist Items** field, provide the checklist items. Checklists are instructions or steps on how to complete the task.**Note:** For more information, see [Using checklists in HR Service Delivery Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/agent-workspace-for-hr-case-management/agent-ws-hr-checklists.md).
 
 </td></tr><tr><td>
 
@@ -86,7 +86,7 @@ Credential:
 
 </td><td>
 
-Indicates that you want the user to acknowledge reading a document by logging in with their login credentials. The **Acknowledgment text** and **Acknowledgment document** fields appear. Using these fields shows a check box and text above the login credentials. In the Acknowledgment document field, select a document you want the user to read.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. For more information, see [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md).
+Indicates that you want the user to acknowledge reading a document by logging in with their login credentials. The **Acknowledgment text** and **Acknowledgment document** fields appear. Using these fields shows a check box and text before the login credentials. In the Acknowledgment document field, select a document you want the user to read.**Note:** This option is only available for existing customers that have not yet migrated to e-signature. For more information, see [Migrate existing HR task templates and open HR tasks to e-signature](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/migrate-existing-tasks-to-scoped-e-signature.md).
 
 </td></tr><tr><td>
 
@@ -126,9 +126,9 @@ Schedule a meeting
 
 </td><td>
 
-Enables you to create a meeting invite for an employee while you are working on an HR case. For example, you can schedule a meeting with a new hire as part of the onboarding process. -   You can view the available slots of an employee and schedule a meeting. The employee will receive a meeting invite on Microsoft Outlook.
+Enables you to create a meeting invite for an employee while you're working on an HR case. For example, you can schedule a meeting with a new hire as part of the onboarding process. -   You can view the available slots of an employee and schedule a meeting. The employee will receive a meeting invite on Microsoft Outlook.
 -   You can also send the meeting invite to external attendees.
-**Note:** For the meeting invite and scheduling capability, you must install the ServiceNow Microsoft Exchange Online Spoke.
+**Note:** For the meeting invite and scheduling capability, you must install the ServiceNow Microsoft Outlook spoke.
 
 </td></tr><tr><td>
 

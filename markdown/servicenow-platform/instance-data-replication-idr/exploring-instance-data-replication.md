@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -72,8 +72,8 @@ This image shows how IDR replicates data from multiple tables on a producer inst
     -   Maximum record size is 10 MB.
     -   Continuous replication supports up to approximately 1 million records per day.
     -   Seeding must not take longer than seven days to complete.
-    -   You can only create one scheduled replication set in IDR, with only one outbound entry in that set.
-
+    -   You can only create one scheduled replication set, with only one outbound entry in that set.
+    -   
 **Warning:** IDR overwrites data on instances and can replicate sensitive data. Avoid potential data loss and data exposure, by testing your IDR implementation in a pre-production environment. See [data privacy in IDR](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/data-privacy-consumers-idr.md) for more information.
 
 ## What to explore next

@@ -1,18 +1,22 @@
 ---
-title: Capability Execution Tracking - Complete Flow Action
+title: Legacy: Capability Execution Tracking - Complete Flow Action
 description: The Capability Execution Tracking - Complete flow action updates the audit record when the flow is complete.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/capability-execution-tracking-complete.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations Carbon Black Integration - Get Running Processes Flow, Security Operations Integration- Get Running Processes capability, Integration capabilities, Security Operations Integration Reference, Security Operations common functionality, Security Operations]
 ---
 
-# Capability Execution Tracking - Complete Flow Action
+# Legacy: Capability Execution Tracking - Complete Flow Action
 
 The Capability Execution Tracking - Complete flow action updates the audit record when the flow is complete.
+
+**Important:**
+
+This feature is no longer deployed, enhanced, or supported. It has been replaced by Capability Implementation Execution. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 The Capability Execution Tracking - Complete flow action can be used with any flow to record the completion of the flow.
 

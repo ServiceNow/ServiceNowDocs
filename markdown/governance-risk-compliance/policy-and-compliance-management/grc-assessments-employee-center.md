@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage GRC tasks from Employee Center, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage GRC tasks from Employee Center, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Complete control assessments from the Employee Center portal
@@ -35,14 +35,6 @@ The **Risk identification questionnaires** tile is available only if GRC: Advanc
 1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
 
 2.  Select **My GRC Assessments** in the **My active items** pane of the Home page.
-
-    \[Omitted image "EmpCenterHomePage\_1.png"\] Alt text: Employee Center home page.
-
-    The Control attestations tile is highlighted listing all your attestations that are active and due. It also displays the number of control attestations that are overdue and they’re enlisted first in the list.
-
-    \[Omitted image "MyGRCAssessEmpCent.png"\] Alt text: My GRC assessments in employee center.
-
-    There’s a pagination limitation of displaying only 15 items at a time.
 
 3.  Select **Show More Requests** to display more requests.
 

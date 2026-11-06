@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -17,6 +17,8 @@ breadcrumb: [Manage financials for planning items, Portfolio Planning, Strategic
 Generate labor costs in the Financials view for attribute-based resource assignments based on the financial attributes configured in the planning attributes page.
 
 ## Before you begin
+
+When effort distribution for a resource assignment changes without altering the total planned effort, the system recalculates and generates labor costs to match the updated distribution. For example, if a 100-hour assignment shifts from 60 hours in January and 40 hours in February to 40 hours in January and 60 hours in February, the system adjusts labor costs accordingly. January reflects the cost of 40 hours and February reflects the cost of 60 hours.
 
 Role required: sn\_align\_ws.spw\_financial\_user
 

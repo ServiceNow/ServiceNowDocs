@@ -7,9 +7,9 @@ release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure the Portal Polaris Header widget for your portal, Portal Polaris Header widget, Set up Configurable Portal widgets, Set up self-service, Configure, Customer Service Management]
 ---
 
 # Configure notification, approval, and survey for your portal header
@@ -18,7 +18,7 @@ Display menu items like notification, approval, and survey on your portal header
 
 ## Before you begin
 
-Role required: sp\_admin or admin
+Role required: sp\_admin
 
 ## Procedure
 
@@ -36,15 +36,7 @@ Role required: sp\_admin or admin
 
     1.  On the form, fill in the fields.
 
-        |Field|Description|
-        |-----|-----------|
-        |Label|Name that appears for the item on the header. The default text is `Notification`.|
-        |Parent Menu|This field should already contain the name of the menu you’re adding items to.|
-        |Order|Value that determines where the item appears in the menu in relation to other menu items.|
-        |Type|The type of page the item links to. You must select **Scripted List** from the list.|
-        |Application|Application for the menu item|
-        |Condition|Determines what conditions are required for menu items to show on the header.|
-        |Glyph|Icon that appears next to the item.|
+        For a description of the field values, see [Portal Header notification, approval, and survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/portalheader-notification-approval-survey-form.md).
 
     2.  Select **Submit**.
 
@@ -52,15 +44,7 @@ Role required: sp\_admin or admin
 
     1.  On the form, fill the fields.
 
-        |Field|Description|
-        |-----|-----------|
-        |Label|Name that appears for the item on the header. The default text is `Approval`.|
-        |Parent Menu|This field should already contain the name of the menu you’re adding items to.|
-        |Order|Value that determines where the item appears in the menu in relation to other menu items.|
-        |Type|The type of page the item links to. You must select **Scripted List** from the list.|
-        |Application|Application for the menu item|
-        |Condition|Determines what conditions are required for menu items to show on the header.|
-        |Glyph|Icon that appears next to the item.|
+        For a description of the field values, see [Portal Header notification, approval, and survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/portalheader-notification-approval-survey-form.md).
 
     2.  Select **Submit**.
 
@@ -68,15 +52,7 @@ Role required: sp\_admin or admin
 
     1.  On the form, fill the fields.
 
-        |Field|Description|
-        |-----|-----------|
-        |Label|Name that appears for the item on the header. The default text is `Survey`.|
-        |Parent Menu|This field should already contain the name of the menu you’re adding items to.|
-        |Order|Value that determines where the item appears in the menu in relation to other menu items.|
-        |Type|The type of page the item links to. You must select **Scripted List** from the list.|
-        |Application|Application for the menu item|
-        |Condition|Determines what conditions are required for menu items to show on the header.|
-        |Glyph|Icon that appears next to the item.|
+        For a description of the field values, see [Portal Header notification, approval, and survey form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/portalheader-notification-approval-survey-form.md).
 
     2.  Select **Submit**.
 

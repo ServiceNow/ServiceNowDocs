@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety, Employee Service Management]
 ---
@@ -30,31 +30,31 @@ The image shows an overview of Health and Safety Incident Management and its cap
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Explore \[Omitted image "icon-explore.png"\] Alt text: Learn about how employees, safety managers, and agents use Health and Safety Incident Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/explore-hs-incident-mgmt.md)
+[Explore \[Omitted image "bus-explore.svg"\] Alt text: Learn about how employees, safety managers, and agents use Health and Safety Incident Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/explore-hs-incident-mgmt.md)
 
 </td><td>
 
-[Set up \[Omitted image "icon-set-up.png"\] Alt text: Set up Health and Safety Incident Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
+[Configure \[Omitted image "bus-sdlc.svg"\] Alt text: Set up Health and Safety Incident Management.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/setting-up-hs-incident-mgmt.md)
 
 </td><td>
 
-[Submit incidents \[Omitted image "icon-workspace.png"\] Alt text: Submit and track safety incidents and observations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/submitting-safety-incidents-obvs.md)
+[Submit incidents \[Omitted image "bus-task-list.svg"\] Alt text: Submit and track safety incidents and observations.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/submitting-safety-incidents-obvs.md)
 
 </td></tr><tr><td>
 
-[Manage incidents \[Omitted image "icon-report.png"\] Alt text: Manage safety incidents and observations to investigate and resolve them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
+[Manage incidents\[Omitted image "bus-manage.svg"\] Alt text: Manage safety incidents and observations to investigate and resolve them.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/managing-hs-incidents-obs.md)
 
 </td><td>
 
-[Reporting \[Omitted image "icon-reference.png"\] Alt text: Fill and export reporting forms for injuries and illnesses in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/injury-illness-reports.md)
+[Reporting\[Omitted image "bus-log-store.svg"\] Alt text: Fill and export reporting forms for injuries and illnesses in your organization.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/injury-illness-reports.md)
 
 </td><td>
 
-[Reference \[Omitted image "icon-reference.png"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
+[Reference \[Omitted image "bus-learn.svg"\] Alt text: Get details about components such as roles, tables, plugins, and store applications that are installed.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-reference.md)
 
 </td></tr></tbody>
 </table>

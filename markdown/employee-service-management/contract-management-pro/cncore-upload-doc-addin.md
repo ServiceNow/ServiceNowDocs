@@ -1,5 +1,5 @@
 ---
-title: Upload and parse a Microsoft Word document that includes content controls
+title: Complete mapping and upload Microsoft Word document that includes content controls
 description: As a contract configurator, after adding the content controls to the Microsoft Word document to be used for the contract template using the Microsoft Word Add-in for ServiceNow Contracts, upload the document to the ServiceNow instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-addin.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Upload and parse a Microsoft Word document that includes content controls
+# Complete mapping and upload Microsoft Word document that includes content controls
 
 As a contract configurator, after adding the content controls to the Microsoft Word document to be used for the contract template using the Microsoft Word Add-in for ServiceNow Contracts, upload the document to the ServiceNow instance.
 

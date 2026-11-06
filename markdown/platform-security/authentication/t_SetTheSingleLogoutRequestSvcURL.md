@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Identity Provider \(IdP\) system properties, SAML, Multi-Provider Single sign-on \(SSO\), Authentication, Access Management]
+breadcrumb: [Identity Provider \(IdP\) system properties, SAML, Multi-Provider single sign-on \(SSO\), Authentication, Access Management]
 ---
 
 # Set the SingleLogoutRequest service URL
@@ -18,7 +18,7 @@ Set the request service URLs for the integration's IdP by using the IdP's metada
 
 ## Before you begin
 
-Role required: admin
+Role required: sso\_config\_admin, business\_rule\_admin, script\_include\_admin
 
 ## Procedure
 
@@ -30,4 +30,8 @@ Role required: admin
 
     If your IdP uses form-based authentication, enter the URL to your IdP's login form. If your IdP uses a non-form-based authentication method such as Kerberos, you should set the URL to a static logout page. This way, users who log out do not get immediately get redirected to the IdP and login again. By default, the integration contains the URL to the static UI page `external_logout_complete.do`.
 
+
+## What to do next
+
+To troubleshoot a logout, use the correlation ID that the logout page `external_logout_complete.do` generates. The ID is stored in the **SessionID** column of the `sys_user_login_history` table. Search the system log for the ID to find the related entries, and search the node logs on the node that handled the logout with `grep <ID>`. On a multi-node instance, use the system log entry to find the correct node.
 

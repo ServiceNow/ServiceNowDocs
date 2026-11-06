@@ -1,35 +1,39 @@
 ---
 title: Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill
-description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the Now Assist Skill Kit \(NASK\) to customize your prompts.
+description: If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the AI Skill Kit to customize your prompts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/cust-now-assist-itsm-record-summ-skill.html
 release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
 # Customize a ServiceNow Otto for IT Service Management \(ITSM\) Incident Summarization skill
 
-If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the Now Assist Skill Kit \(NASK\) to customize your prompts.
+If you have the admin role, you can customize a ServiceNow Otto for IT Service Management \(ITSM\) skill so that agents can use the generative AI skills in Service Operations Workspace for ITSM and in Core UI. Use the AI Skill Kit to customize your prompts.
 
 ## Before you begin
 
 Role required: sn\_nowassist\_admin.nsa\_admin
 
-You need the sn\_skill\_builder.admin role to customize the prompt in the Now Assist Skill Kit \(NASK\).
+You need the sn\_skill\_builder.admin role to customize the prompt in the AI Skill Kit.
 
 ## About this task
 
+Before customizing, verify the agent access and role masking configuration record for the Incident Summarization skill. For more information on role masking, see the Role masking for ServiceNow Otto for ITSM agentic workflows, AI agents, and skills section in [Supporting information for ServiceNow Otto for IT Service Management \(ITSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/now-assist-for-it-service-management-itsm/supporting-information-now-assist-itsm.md).
+
+**Important:** For agent access role configuration, verify that you are using the default sys\_id of the itil role available in the base system. If the sys\_id of that role is different, contact ServiceNow® Customer Support to get it resolved.
+
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **AI Skills** tab.
 
 3.  In the **Technology** feature group, select **ITSM** from the product list.
 
@@ -150,7 +154,9 @@ Activity: Attachment
 
 </td><td>
 
-In the Activity stream:-   You can summarize attachments of type PNG, JPEG or JPG, PDF, DOCX in the Incident summarization skill record using Document Intelligence.
+**Important:** To summarize attachments, make sure that the Incident summarization skill is active.
+
+In the Activity stream:-   You can summarize new attachments of type PNG, JPEG or JPG, PDF, DOCX in the Incident summarization skill record using Document Intelligence.
 -   You can also extract the summarized content from the attachment in any of these languages:
     -   English
     -   Dutch
@@ -158,24 +164,28 @@ In the Activity stream:-   You can summarize attachments of type PNG, JPEG or JP
     -   German
     -   Portuguese
     -   Spanish
-When you use [translate with Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-dynamic-translation.md), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-dynamic-translation.md).**Note:** Attachment summaries aren't available in child incident records and are only supported in the English language.
+When you use [translate with Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-dynamic-translation.md), you can also translate user-generated content live on your instance in additional languages. For more information, see [Dynamic Translation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/using-dynamic-translation.md).**Note:**
+
+-   Attachment summaries aren't available in child incident records and are only supported in the English language.
+-   If you have one or more existing attachments, you must add new attachments to the incident for the existing attachments to be summarized.
+
 
 </td></tr></tbody>
 </table>    3.  Select **Save and continue** to go to the next step.
 
 7.  Customize the prompt.
 
-    **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the Now Assist Skill Kit \(NASK\).
+    **Important:** You need the sn\_skill\_builder.admin role to activate and customize the prompt in the AI Skill Kit .
 
-<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d442919e557">
+<table id="choicetable_ipx_pkr_2hc"><thead><tr><th align="left" id="d405029e591">
 
 To
 
-</th><th align="left" id="d442919e560">
+</th><th align="left" id="d405029e594">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d442919e566">
+</th></tr></thead><tbody><tr><td id="d405029e600">
 
 **Evaluate a prompt for each input template**
 
@@ -189,27 +199,27 @@ Do this
 2.  Select **Run Test**.\[Omitted image "now-assist-itsm-evaluate-prompt.png"\] Alt text: Run test for the selected incident record
 Review and test the prompt for each input template configuration and make sure it meets your expectations.The prompt response is shown. You can make changes to the incident state selections and retest as needed.
 
-</td></tr><tr><td id="d442919e605">
+</td></tr><tr><td id="d405029e639">
 
-**Edit the prompt in the Now Assist Skill Kit and test the prompt**
+**Edit the prompt in the AI Skill Kit and test the prompt**
 
 </td><td>
 
-1.  Select **Edit prompt in Now Assist Skill Kit**.
-2.  Select **Go to Now Assist Skill Kit**.\[Omitted image "now-assist-itsm-edit-prompt-nask.png"\] Alt text: Edit prompts in the Now Assist Skill Kit
+1.  Select **Edit prompt in AI Skill Kit**.
+2.  Select **Go to AI Skill Kit**.
 
 **Note:**
 
-In the Now Assist Skill Kit, you can select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Clone** to make a copy of the prompt configuration and edit as needed.
+In the AI Skill Kit, you can select the more actions icon \[Omitted image "more-actions-icon.png"\] Alt text: More actions icon.and select **Clone** to make a copy of the prompt configuration and edit as needed.
 
-3.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you'd like to add to the prompt.\[Omitted image "now-assist-itsm-edit-skill-input.png"\] Alt text: Edit prompt input screen in the Now Assist Skill Kit
+3.  In the **Skill contents** pane, select the**Inputs** edit icon and add any inputs that you'd like to add to the prompt.\[Omitted image "now-assist-itsm-edit-skill-input.png"\] Alt text: Edit prompt input screen in the AI Skill Kit
 4.  In the **Prompt** screen, select the edit icon and add the desired inputs to the prompt.\[Omitted image "now-assist-itsm-edit-prompt-window.png"\] Alt text: Add inputs for the skill
 5.  Select **Run test**.
 
 The prompt displays in the Test prompt screen where you can run the test.
 
 </td></tr></tbody>
-</table>8.  In the Now Assist Admin tab, select **Save and continue**.
+</table>8.  In the AI Admin Hub tab, select **Save and continue**.
 
 9.  Define availability.
 
@@ -225,17 +235,17 @@ The prompt displays in the Test prompt screen where you can run the test.
 
     Configure where to display the incident summarization.
 
-    1.  Select either **In-product**, or **Now Assist panel**.
+    1.  Select either **In-product**, or **ServiceNow Otto panel**.
 
-        -   **In-product**: When selected, Now Assist skills are displayed in all ITSM products \(on forms and in workspaces\).
+        -   **In-product**: When selected, AI skills are displayed in all ITSM products \(on forms and in workspaces\).
 
             For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
-        -   **Now Assist panel**: When selected, Now Assist skills are available in the Now Assist panel.
+        -   **ServiceNow Otto panel**: When selected, AI skills are available in the ServiceNow Otto panel.
 
-            If you don't see this option, you must activate the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+            If you don't see this option, you must activate the ServiceNow Otto panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
-            For the skills that appear in the Now Assist panel, select the down arrow to identify the roles that can use the skill.
+            For the skills that appear in the ServiceNow Otto panel, select the down arrow to identify the roles that can use the skill.
 
     2.  Select **Save and continue** to go to the next step.
 
@@ -245,4 +255,19 @@ The prompt displays in the Test prompt screen where you can run the test.
 
     You can now select **Summarize** in an incident and generate the custom incident summary.
 
+
+**Troubleshooting:** Summarize button not visible
+
+After activation, if the **Summarize** button does not appear in Service Operations Workspace or Core UI, verify the following:
+
+-   **UI Builder page variant**: If your workspace uses a custom UI Builder page variant, confirm that the **Otto AI summary card** component is present on the page. Variants created before the ServiceNow Otto for IT Service Management \(ITSM\) plugin was installed may not have this component.
+
+    For information on page variants, see:
+
+    -   [Add the component manually to your variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-components.md)
+    -   [Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/work-pages.md)
+-   **Display setting**: In the **AI Admin Hub**, confirm that the skill displays as **In-product**.
+-   **Domain separation**: If your instance uses domain separation, verify that the skill is activated in the user's assigned domain.
+-   **Plugin installation**: Verify that the sn\_itsm\_gen\_ai plugin is installed successfully.
+-   **Browser cache**: If the button appears sporadically, clear your browser cache and refresh the page.
 

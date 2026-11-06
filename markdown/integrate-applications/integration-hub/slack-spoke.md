@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-03-12"
 reading_time_minutes: 10
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Slack Spoke
@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-The Slack spoke v1.9.3 is the latest version.
+The Slack spoke v1.9.3 is the latest version. For version history of the spoke, see [Slack spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-slack.html).
 
 ## Slack account requirements
 
@@ -64,7 +64,7 @@ Post Actionable Message
 
 </td><td>
 
-Posts an actionable message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance]().
+Posts an actionable message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -72,7 +72,7 @@ Post Approval Message
 
 </td><td>
 
-Posts an approval message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance]().
+Posts an approval message to a Slack channel.**Note:** This subflow requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -227,7 +227,7 @@ Post Actionable Message
 
 </td><td>
 
-Posts an actionable message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance]().
+Posts an actionable message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ Post Approval Message
 
 </td><td>
 
-Posts an approval message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance]().
+Posts an approval message to a Slack channel.**Note:** This action requires an outbound configuration as an input. Customize the default outbound configurations or create an outbound configuration as per your requirement. For more information, see [Configure outbound configurations in ServiceNow instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/conf-outbound-slack.md).
 
 </td></tr><tr><td>
 
@@ -366,10 +366,7 @@ Available AI agents include:
 |Slack notification manager|Automates workflows by executing the Slack Spoke actions. It enables the users to send notifications and updates such as details of incidents, problems, changes, and requests to the Slack channels. It streamlines communication and manages notifications better.|
 |Slack conversation manager|Performs actions such as setting channel topics, renaming conversations, adding or removing users from channels, creating and archiving channels.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 
@@ -562,5 +559,5 @@ Slack Modal Configuration \[sn\_slack\_ah\_v2\_slack\_modal\_configuration\]
 
 Integration Hub uses aliases to manage connection and credential information, and OAuth credentials. Using an alias eliminates the need to configure multiple credentials and connection information profiles when using multiple environments. If the connection or credential information changes, you don't need to update any actions that use the connection.
 
-For information about setting up the spoke, see [Set up Slack spoke]().
+For information about setting up the spoke, see [Set up Slack spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/set-up-slack.md).
 

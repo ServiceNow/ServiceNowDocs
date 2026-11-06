@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/developer\_navigation\_table.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Building applications]
+breadcrumb: [Find ServiceNow developer products quickly, Learning about developing on the ServiceNow AI Platform, Classic app development, Building applications]
 ---
 
 # What ServiceNow product solves your problem
@@ -75,7 +75,7 @@ Plan to create an application
 -   [Delegated development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/delegated-development-and-deployment/c_DelegatedDevelopment.md)
 -   [Delegated development in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-admin-collab-tasks.md)
 -   [Delegated development in App Engine Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/aes-app-dev-workflow.md)
--   Source control
+-   [Link an app to source control in ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/link-app-to-source-control.md)
 -   [Common Service Data Model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/csdm-landing-page.md)
 
 </td></tr><tr><td rowspan="3">
@@ -100,10 +100,11 @@ Create an application
 
 </td><td>
 
+-   [Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/build-agent.md)
+-   [Autonomous Engineer in Build Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ba-autonomous-engineer.md)
 -   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
 -   [ServiceNow Extensions for Visual Studio Code](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/vs-code.md)
--   REST APIs
--   [Guided Application Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/guided-application-creator/guided-app-creator.md)
+-   [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_RESTAPI.md)
 -   [ServiceNow AI Platform® forms, fields, and lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/now-platform-forms-fields-lists.md)
 
 </td></tr><tr><td>
@@ -144,10 +145,9 @@ Scripts
 
 -   No-code scripting \([Workflow Studio - Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/actions.md)\)
 -   [ServiceNow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-studio-classic/servicenow-studio-landing.md)
--   
 -   [Client-side scripting](https://developer.servicenow.com/dev.do#!/reference/api/tokyo/client)
 -   [Server-side scripting](https://developer.servicenow.com/dev.do#!/learn/courses/tokyo/app_store_learnv2_scripting_tokyo_scripting_in_servicenow/app_store_learnv2_scripting_tokyo_server_side_scripting/app_store_learnv2_scripting_tokyo_server_side_apis)
--   Script Debugger
+-   [Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
 -   [ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-cli/servicenow-cli.md)
 
 </td></tr><tr><td>
@@ -172,10 +172,10 @@ Add automation
 
 -   [Automation Discovery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/automation-discovery.md)
 -   [Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/workflow-studio.md)
--   
+-   [Exploring Decision Tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/decision-designer-overview.md)
 -   [Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-automation-designer.md)
 -   [Journey designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/jny-dsgnr-landing-page.md)
--   
+-   [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md)
 
 </td></tr><tr><td rowspan="2">
 
@@ -188,7 +188,7 @@ Automation and flows
 </td><td>
 
 -   [Integration Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub.md)
--   Flows in Workflow Studio
+-   [Flows in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/exploring-flows.md)
 
 </td></tr><tr><td>
 
@@ -196,12 +196,12 @@ APIs
 
 </td><td>
 
--   
--   
--   
--   
+-   [REST API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-rest.md)
+-   [Server API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/server-api-reference/api-server.md)
+-   [Client API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-client.md)
+-   [Browse APIs by product](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/api-product-type.md)
 -   [Workflow Studio - Building custom actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/actions.md)
--   Integration Hub Remote Process Sync
+-   [Integration Hub Remote Process Sync](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/integrationhub-remote-process-sync.md)
 
 </td></tr><tr><td rowspan="2">
 
@@ -227,20 +227,11 @@ Coding and scripting, Core UI tech stack
 -   [ServiceNow® access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_SNCAccessControl.md)
 -   [User administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_UserAdministration.md)
 
-</td></tr><tr><td rowspan="2">
+</td></tr><tr><td>
 
 Engage customers
 
 </td><td>
-
-Customize chat bot dialogs
-
-</td><td>
-
--   Getting started with Virtual Agent Designer
--   Conversational Analytics Dashboard
-
-</td></tr><tr><td>
 
 Artificial intelligence
 
@@ -269,9 +260,9 @@ Coding, Core UI tech stack
 
 -   [Automated Test Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/automated-test-framework.md)
 -   [Test Management applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/test-management-overview.md)
--   Script Debugger
--   Script Tracer
--   Session Log
+-   [Script Debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
+-   [Script Tracer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-tracer.md)
+-   [Session Log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/script-debugger.md)
 -   [Impersonate a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_ImpersonateAUserInUI16.md)
 -   [ServiceNow CLI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-cli/servicenow-cli.md)
 
@@ -285,7 +276,7 @@ No code \(App Engine Studio only\)
 
 </td><td>
 
-[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.md)
+[App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/managing-app-development-using-aemc.md)
 
 </td></tr><tr><td>
 
@@ -326,7 +317,6 @@ Create reports
 -   [Analyze and optimize business processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_performanceAnalyticsAndReporting.md) - Performance Analytic Reports
 -   [Analytics Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_UsePerformanceAnalyticsScorecards.md)
 -   [Analytics Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analytics-center.md)
--   Conversational Analytics Dashboard
 
 </td></tr><tr><td>
 

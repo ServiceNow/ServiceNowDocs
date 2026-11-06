@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Import set tables in HR Service Delivery Integration with Workday Learning, Using HR Service Delivery Integration with Workday Learning, HR Service Delivery Integration with Workday Learning, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -18,7 +18,7 @@ Import workday learning user course activity staging information.
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_hr\_workday.admin
 
 ## Procedure
 

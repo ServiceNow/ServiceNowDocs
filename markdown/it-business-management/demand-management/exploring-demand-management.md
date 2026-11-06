@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -19,6 +19,17 @@ Learn more about Demand Management and its process flow, and reviewing its benef
 ## Demand Management overview
 
 In Demand Management assess the ideas submitted through the Idea Portal or ideation module and promote the feasible ideas to demands. Track the progress of an accepted idea as it moves through the demand life cycle \(idea to a demand, to a project, enhancement, change, or defect\).
+
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
 
 ## Demand Management workflow
 
@@ -41,8 +52,8 @@ The Demand Management process flow consists of the following tasks.
 The demand workbench provides a central location for viewing and assessing business demands.
 -   **[Predictive Intelligence for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/predictive-intelligence-for-demand.md)**  
 The Predictive Intelligence for Demand Management capability uses machine-learning algorithms to search and display similar demands while creating a demand in the Demand form.
--   **[Similar record identification with ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)**  
-Identify similar records is a Now Assist skill that enables you to find the demand records that are contextually similar to your demand. This feature helps to reduce duplicate demands and improves planning efficiency.
+-   **[AI skills for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/similar-demand-identification-using-now-assist.md)**  
+ServiceNow Otto for Strategic Portfolio Management provides AI-powered skills for demand records that help you quickly understand demand details and identify related records. These skills improve planning efficiency and support informed decision-making.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandManagement.md)
 

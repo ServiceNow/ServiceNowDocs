@@ -1,35 +1,29 @@
 ---
 title: Structured workflows for Crisis map
-description: You can use the Crisis map interface in BCM Configurable Workspace to receive alerts on possible threats for the business operations of your organization. You can then manage the alerts by initiating response workflows.
+description: Use the Crisis map interface in the BCM Configurable Workspace to monitor and receive alerts about potential threats to your organization's business operations. You can then manage these alerts by initiating response workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-collective-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
 
 # Structured workflows for Crisis map
 
-You can use the Crisis map interface in BCM Configurable Workspace to receive alerts on possible threats for the business operations of your organization. You can then manage the alerts by initiating response workflows.
+Use the Crisis map interface in the BCM Configurable Workspace to monitor and receive alerts about potential threats to your organization's business operations. You can then manage these alerts by initiating response workflows.
 
-Typically, the BCM program manager performs the following tasks to manage the alerts from the Crisis map interface:
+BCM program manager sets controls to customize the alerts, monitors assets within impacted areas, and initiates response workflows for crisis management.
 
--   Manage the alerts in Crisis map. For more information, see [Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md).
--   Set controls in Crisis map to customize the alerts. For more information, see [Set controls to customize the alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/set-controls-and-customize-alerts-on-map-uib-ws.md).
--   View resource layer clustering in Crisis map. For more information, see [Select resource layer clustering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-resource-layer-clustering-uib-ws.md).
--   Monitor the assets within the impacted area in Crisis map. For more information, see [Monitor assets within the impacted areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-assets-at-risk-within-impacted-area.md).
--   Initiate response workflows for crisis management. For more information, see [Initiate the response actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/notifystakeholders-initiate-Crisis-Management-workflows-uib-ws.md).
+-   For more information on managing and customizing the alerts in Crisis map, see [Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md) and [Set controls to customize the alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/set-controls-and-customize-alerts-on-map-uib-ws.md).
+-   For more information on layer clustering and monitoring assets within impacted areas, see [Select resource layer clustering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-resource-layer-clustering-uib-ws.md) and [Monitor assets within the impacted areas](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/view-assets-at-risk-within-impacted-area.md).
+-   For more information on initiating response workflows for crisis management, see [Initiate the response actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/notifystakeholders-initiate-Crisis-Management-workflows-uib-ws.md).
 
-## Additional information on Crisis map
+You can report a crisis from the Home page in the BCM Configurable Workspace. For information on viewing alerts, feeds, threats, see [Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/threats-feeds-alerts-crisis-map.md). For administrative tasks, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-admin-tasks.md).
 
--   For information on the Crisis map view in BCM Configurable Workspace, see [Crisis map view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-uib-ws.md).
--   For information on the threats, feeds, and alerts in Crisis map, see [Crisis map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/threats-feeds-alerts-crisis-map.md).
--   For information on the administrative tasks in Crisis map, see [Setup for Crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-admin-tasks.md).
-
--   **[Adopting UIB page for improved performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-migration.md)**  
-Beginning with the Yokohama release, the Crisis map application is now built with a UI Builder \(UIB\) page. Previously, the single-use component limited the ability to customize the user interface \(UI\), add filters, or modify the design in the Crisis map. By adopting the UIB page, you can gain full control over the implementation, enabling you to extend support for your specific use cases.
+-   **[Enhanced Performance with UIB pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-migration.md)**  
+The Crisis map application is now built with a UI Builder \(UIB\) page. Previously, the single-use component limited the ability to customize the user interface \(UI\), add filters, or modify the design in the Crisis map. By adopting the UIB page, you can gain full control over the implementation, enabling you to extend support for your specific use cases.
 -   **[Manage alerts from the map interface](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/manage-alerts-in-crisis-map-interface-uib-ws.md)**  
 Manage alerts from the Crisis map interface to identify threats and their geo-locations relative to your assets. You can open alerts for details, dismiss them when resolved, adjust the impacted area boundaries, or undo recent changes.
 -   **[Set controls to customize the alerts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/set-controls-and-customize-alerts-on-map-uib-ws.md)**  

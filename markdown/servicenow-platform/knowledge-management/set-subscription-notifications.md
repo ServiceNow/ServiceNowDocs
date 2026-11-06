@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing email notifications in Knowledge Management, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -39,4 +39,6 @@ Users can set notification preferences from the Knowledge menu or from the Knowl
 
 4.  Click **Knowledge Articles** and enable or disable the knowledge article notification options.
 
+
+**Parent Topic:**[Managing email notifications in Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/email-notifications-km.md)
 

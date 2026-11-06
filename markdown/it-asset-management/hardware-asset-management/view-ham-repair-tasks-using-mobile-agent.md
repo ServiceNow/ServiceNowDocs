@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Manage hardware asset repair tasks using the Mobile Agent application, Manage hardware asset tasks using the Mobile Agent application, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View your hardware asset repair tasks using the Mobile Agent application
@@ -32,13 +32,13 @@ Role required: admin or asset
 
 4.  Filter your tasks by field values.
 
-    1.  Tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\).
+    1.  Tap the Filter icon \[Omitted image "filter-mobile-task-eam.png"\] Alt text:.
 
     2.  Enter values in the fields by which you want to filter your task: **Due Date**, **Asset**, **Location**, or **Priority**.
 
 5.  Sort your tasks.
 
-    1.  Tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text: Filter icon\).
+    1.  Tap the Filter icon \(\[Omitted image "filter-mobile-task-eam.png"\] Alt text:\).
 
     2.  Tap **Sort by**.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Third-party Risk Management
 classification: third-party-risk-management
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Reference, Third-party Risk Management, Governance, Risk, and Compliance]
 ---
@@ -90,7 +90,7 @@ Select **Browse** in the **Attachments** section or select the attachment icon t
 </table>## Working on third-party risk assessments
 
 -   **Risk overview tab on the External assessments page**
-    -   The symbols indicate the current state of the external assessment process for the engagement request. See [Life cycle states of a external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for descriptions of the states.
+    -   The symbols indicate the current state of the external assessment process for the engagement request. See [External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md) for descriptions of the states.
 
         \[Omitted image "tprm-ws-vra-stage-indicators.png"\] Alt text: Symbols identify the state of the third-party risk assessment process.
 
@@ -136,8 +136,8 @@ Select **Browse** in the **Attachments** section or select the attachment icon t
     In an iterative process, before the TPR manager closes an assessment, the TPR manager can generate non-compliance issues and tasks. The TPR manager communicates with the TP contacts and engagement contacts by using comments to close the issues and tasks. The TPR manager can also assign different contacts as needed. See [Create a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-task-create.md) and [Manage a task for a third party or engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-ws-task-manage.md).
 
 
--   **[Life cycle states of a external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md)**  
-The process of collecting assessment data from a third party moves between several states. For example, during the **Submitted to third party** state, the third party responds to tasks, issues, and works to complete the questionnaires.
+-   **[External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md)**  
+The process of collecting assessment data from a third party moves through several states. For example, during the **Submitted to third party** state, the third party responds to tasks, issues, and works to complete the questionnaires.
 -   **[Assessment metric type form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-q-template-form.md)**  
 Use the assessment metric type form to capture all the information that you need to create a questionnaire template using the Third-party Risk Management application. As a third-party risk admin, you can create a questionnaire template.
 -   **[Create new external assessment template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/create-assess-template-form.md)**  
@@ -146,15 +146,15 @@ Use the external assessment template form to capture all the information that yo
 Use the Create New TPRM questionnaire template form to capture all the information that you need to create a TPRM SAE questionnaire template using the Smart Assessment template designer. As a third-party risk admin, you can create a questionnaire template.
 -   **[Third-party risk assessment form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-assessment-form.md)**  
 Use the third-party risk assessment form to capture all the information that you need to create an assessment using the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an external assessment.
--   **[Third-party element form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-tpe-form.md)**  
-Use the third-party element form to capture all the information that you need to create a third-party element record using the Third-party Risk Management application. As a third-party risk manager, third-party risk assessor, or due diligence request owner, you can create a third-party element record.
+-   **[Create new third-party risk task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-create-task-form.md)**  
+Use the third-party risk task form to capture the information needed to create a task in the Third-party Risk Management application. As a third-party risk assessor or manager, you can create an internal orexternal task.
 
 **Parent Topic:**[Third-party Risk Management reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-reference.md)
 
 **Related topics**  
 
 
-[Life cycle states of a external assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md)
+[External assessment lifecycle states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-external-assessment-lifecycle.md)
 
 [Define a third-party risk domain](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/third-party-risk-management/tprm-risk-domain-define.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [ITSM Software Asset Management, Asset Management, IT Service Management]
+breadcrumb: [ITSM Software Asset Management, Asset Management common applications, IT Service Management]
 ---
 
 # Legacy Software Asset Management plugin
@@ -18,7 +18,7 @@ The legacy Software Asset Management \(com.snc.software\_asset\_management\) plu
 
 **Important:** The legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin is supported only in the Jakarta and earlier releases. Although this legacy plugin can no longer be activated upon request, you can continue to use it if it has already been activated on a ServiceNow instance running the Jakarta or earlier releases.
 
-If your ServiceNow instance is running the Kingston or later releases, you must request and activate the [Software Asset Management Foundation plugin](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md) instead.
+If your ServiceNow instance is running the Kingston or later releases, you must request and activate the [Basic Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management-foundation-plugin/c_SoftwareAssetMgmtSAMF.md) instead.
 
 A strong software asset management \(SAM\) program can help an organization reduce software costs, improve compliance, and simplify or develop processes for employee software requests. SAM programs can also help control inventory through accurate databases, which in turn helps identify organizational software needs, identify unused software that can be deleted, as well as reduce or consolidate the number of software vendors used.
 
@@ -47,5 +47,5 @@ A software contract is a binding agreement between the owner of a software produ
 -   **[Legacy Oracle process pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/software-asset-management/c_OracleProcessPack.md)**  
 The legacy Oracle process pack is an add-on to the legacy Software Asset Management \(com.snc.software\_asset\_management\) plugin that provides the ability to manage software licensed under the Oracle licensing model.
 
-**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/asset-management/itsm-sam.md)
+**Parent Topic:**[ITSM Software Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/itsm-sam.md)
 

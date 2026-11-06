@@ -1,20 +1,20 @@
 ---
 title: Lists
-description: Learn about how Workspace lists function with Configurable Workspace.
+description: Learn about how Workspace lists function with CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/migration-lists.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Migrate to CRM Workspace, Migrating to Configurable Workspace, CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Migrate to CRM Workspace, Migrating to CRM Workspace, CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Lists
 
-Learn about how Workspace lists function with Configurable Workspace.
+Learn about how Workspace lists function with CRM Workspace.
 
-The list view displays filtered lists of records, such as All tasks, Open tasks, and My tasks. By setting up list categories and filtered lists, you help your agents quickly find the records they need to work on. Configure your Workspace lists setups in Configurable Workspace.
+The list view displays filtered lists of records, such as All tasks, Open tasks, and My tasks. By setting up list categories and filtered lists, you help your agents quickly find the records they need to work on. Configure your Workspace lists setups in CRM Workspace.
 
 ## List Menu Configuration
 
@@ -24,7 +24,7 @@ The Menu Configuration is a container that houses the default configurations of 
 |-----------------|--------------|
 |No corresponding table|sys\_ux\_list\_menu\_config|
 
-The List Menu setup is added by default to Configurable Workspace. Associate your list and list categories with this configuration.
+The List Menu setup is added by default to CRM Workspace. Associate your list and list categories with this configuration.
 
 ## List categories
 
@@ -34,8 +34,6 @@ List categories enable you to group records so that agents can find the records 
 |-----------------|--------------|
 |sys\_aw\_list\_category|sys\_ux\_list\_category|
 
-List category data lives in a new UIB table. For more information about setting up list categories, see List categories.
-
 ## Filtered lists
 
 Filtered lists enable you to group records that help agents do their work more efficiently.
@@ -43,8 +41,6 @@ Filtered lists enable you to group records that help agents do their work more e
 |Legacy table name|UIB table name|
 |-----------------|--------------|
 |sys\_aw\_list|sys\_ux\_list|
-
-List filter data lives in a new UIB table. For more information about setting up list filters, see List filters.
 
 **Note:** Roles and groups are defined in the UIB table and are not applicable.
 

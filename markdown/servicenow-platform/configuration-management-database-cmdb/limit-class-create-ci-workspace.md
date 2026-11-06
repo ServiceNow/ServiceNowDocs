@@ -1,20 +1,20 @@
 ---
-title: Limit the class list for a new CI being created in a workspace
-description: Limit the selection of classes for a new CI created in your workspace, to only those classes that are relevant to that workspace. When then creating a new CI in the respective workspace, users can only select a class that is authorized as an option.
+title: Limit the class list for new CIs created in a workspace
+description: Limit the selection of classes for a new CI being manually created in your workspace, to only those classes that are relevant to that workspace. When then creating a new CI in the respective workspace, users can only select a class that is authorized as an option.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/limit-class-create-ci-workspace.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Configure CMDB Workspace, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Limit the class list for a new CI being created in a workspace
+# Limit the class list for new CIs created in a workspace
 
-Limit the selection of classes for a new CI created in your workspace, to only those classes that are relevant to that workspace. When then creating a new CI in the respective workspace, users can only select a class that is authorized as an option.
+Limit the selection of classes for a new CI being manually created in your workspace, to only those classes that are relevant to that workspace. When then creating a new CI in the respective workspace, users can only select a class that is authorized as an option.
 
 ## About this task
 
@@ -105,5 +105,5 @@ Include or exclude the **CI class** in the list of classes for a new CI.
 
 When manually creating a new CI in the respective workspace, the specified **CI class** is included in the **Class** drop-down list on the Select class page only if it is set to be available.
 
-**Parent Topic:**[Configure CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

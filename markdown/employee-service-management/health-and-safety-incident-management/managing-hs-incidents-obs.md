@@ -7,9 +7,9 @@ release: yokohama
 product: Health and Safety Incident Management
 classification: health-and-safety-incident-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Health and Safety Incident Management, Health and Safety, Employee Service Management]
+breadcrumb: [Manage, Health and Safety Incident Management, Health and Safety, Employee Service Management]
 ---
 
 # Managing Health and Safety incidents and observations
@@ -41,5 +41,5 @@ Close a safety incident or observation assigned to you when you complete all act
 -   **[Reopen a safety incident or observation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/reopen-hs-incident-obs.md)**  
 If a safety incident or observation requires further investigation after it was closed or canceled, you can reopen it to work on it again.
 
-**Parent Topic:**[Health and Safety Incident Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-incident-mgmt-landing-page.md)
+**Parent Topic:**[Manage incidents, observations, and anonymous safety concerns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety-incident-management/hs-manage-incidents-observations-annonymous-concerns.md)
 

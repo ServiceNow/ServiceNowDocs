@@ -7,9 +7,9 @@ release: yokohama
 product: Task Intelligence for ITSM
 classification: task-intelligence-for-itsm
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Create an incident prediction model in Task Intelligence for ITSM, Managing Task Intelligence for ITSM models, Task Intelligence for ITSM, IT Service Management]
+breadcrumb: [Create an incident prediction model, Manage, Task Intelligence for ITSM, IT Service Management]
 ---
 
 # Set up your incident prediction model
@@ -117,15 +117,15 @@ The model has flexible options. Based on the sensitivity and requirements of eac
 
 4.  Choose one of the following options from the **Prediction preference** drop-down list for each field.
 
-<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d291949e399">
+<table id="choicetable_lzr_gyr_zyb"><thead><tr><th align="left" id="d122085e417">
 
 Options
 
-</th><th align="left" id="d291949e402">
+</th><th align="left" id="d122085e420">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d291949e408">
+</th></tr></thead><tbody><tr><td id="d122085e426">
 
 **Autofill**
 
@@ -133,7 +133,7 @@ Description
 
 Adds the best predicted value to the field on the Incident form.
 
-</td></tr><tr><td id="d291949e417">
+</td></tr><tr><td id="d122085e435">
 
 **Recommendations**
 
@@ -141,7 +141,7 @@ Adds the best predicted value to the field on the Incident form.
 
 Shows the top recommended values for a field. Agents can choose to accept or reject the recommendation. You can configure the number of recommended values using Advanced Recommended actions for ITSM. For more information, see [Recommended Actions for ITSM in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/recommended-actions-for-itsm-in-service-operations-workspace.md).
 
-</td></tr><tr><td id="d291949e442">
+</td></tr><tr><td id="d122085e460">
 
 **Turn off predictions**
 
@@ -149,7 +149,7 @@ Shows the top recommended values for a field. Agents can choose to accept or rej
 
 Stops the model from performing any predictions.
 
-</td></tr><tr><td id="d291949e451">
+</td></tr><tr><td id="d122085e469">
 
 **Monitor only**
 

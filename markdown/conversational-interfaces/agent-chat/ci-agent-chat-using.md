@@ -1,14 +1,14 @@
 ---
 title: Using Agent Chat
-description: Agent Chat enables live agents to have conversations with requesters and for managers to help agents and monitor them.Use shortcuts, known as quick actions, for common activities that are performed frequently.Agents can use Conversation Autopilot to display Virtual Agent topics during Agent Chat conversations. While the requester interacts with the Virtual Agent topics, agents can multitask and work on other items. Conversation Autopilot is not available for HR Service Delivery \(HRSD\).Use emojis in Agent Chat conversations to convey emotions to requesters. This helps requesters feel like they're having a conversation with a friend and builds customer brand loyalty.Use Dynamic Translation for Agent Chat \(DTAC\) to have a chat conversation with a requester who uses a different language.Send a message to a requester even when the requester isn't online while working on issues in Workspace. A long-running conversation between an an agent and a requester who are not online concurrently is called an asynchronous, or async, chat.
+description: Agent Chat enables live agents to have conversations with requesters and for managers to help agents and monitor them.Use shortcuts, known as quick actions, for common activities that are performed frequently.Agents can use Conversation Autopilot to display Virtual Agent topics during Agent Chat conversations. While the requester interacts with the Virtual Agent topics, agents can multitask and work on other items. Conversation Autopilot is not available for HR Service Delivery \(HRSD\).Use emojis in Agent Chat conversations to convey emotions to requesters. This helps requesters feel like they're having a conversation with a friend and builds customer brand loyalty.Use Dynamic Translation for Agent Chat \(DTAC\) to have a chat conversation with a requester who uses a different language.Send a message to a requester even when the requester isn't online while working on issues in Workspace. A long-running conversation between an an agent and a requester who are not online concurrently is called an asynchronous, or async, chat.Use the action bar in chat interaction records to access a range of actions that help manage and respond to records efficiently.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/agent-chat/ci-agent-chat-using.html
 release: yokohama
 product: Agent Chat
 classification: agent-chat
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 10
+last_updated: "2026-09-10"
+reading_time_minutes: 11
 keywords: [Using, Agent Chat, Virtual Agent, live, conversation]
 breadcrumb: [Agent Chat, Conversational Interfaces]
 ---
@@ -17,7 +17,7 @@ breadcrumb: [Agent Chat, Conversational Interfaces]
 
 Agent Chat enables live agents to have conversations with requesters and for managers to help agents and monitor them.
 
-Workspace displays a chat inbox icon \[Omitted image "inbox-icon-pol.png"\] Alt text: Chat inbox icon. that agents use to enter chats. Agents set their status to **Available** or **Away** to open or close their inbox for chat requests. The icon displays numbers when chats are waiting to be answered.
+Workspace displays a chat inbox icon \[Omitted image "inbox-icon-pol.png"\] Alt text: that agents use to enter chats. Agents set their status to **Available** or **Away** to open or close their inbox for chat requests. The icon displays numbers when chats are waiting to be answered.
 
 The chat interface is integrated into the workspace so agents can chat while working onscreen with other features provided by the workspace.
 
@@ -210,4 +210,24 @@ Role required: admin
 [Asynchronous chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/async-chat.md)
 
 [Configure asynchronous chat for the web channel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/configure-async-web.md)
+
+## Using the action bar in chat interaction records
+
+Use the action bar in chat interaction records to access a range of actions that help manage and respond to records efficiently.
+
+The action bar includes the following actions:
+
+-   End Chat: Enables an agent to end the chat conversation.
+
+    **Note:** In contact-center-as-a-service \(CCaaS\) powered chats, End Chat is replaced with Leave Chat, which enables an agent to leave the chat conversation without ending it for other agents.
+
+-   Discuss: Opens a pop-up window to start a Sidebar discussion.
+-   Create Case: Creates a new case record.
+-   Save: Saves changes to the interaction record.
+-   More Actions: Perform additional actions such as creating a request or associating a record.
+    -   Create Consumer: Creates a new Consumer record in a subtab.
+    -   Create Request: Creates a new Request record in a subtab and adds the record to the Related Tasks related list.
+    -   Associate Record: Opens a new record in a subtab that the agent can use to link a record to the current interaction. This new record is displayed in the Related Tasks related list.
+
+**Note:** The specific actions available are determined by factors such as the user role and other attributes.
 

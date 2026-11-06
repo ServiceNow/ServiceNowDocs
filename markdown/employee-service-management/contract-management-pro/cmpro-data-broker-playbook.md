@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-11-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure the Playbook tab, Configure contract request functionality, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure the Playbook tab, Configure CM Pro for your workspace, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add a data broker server script for the Playbook tab
@@ -75,4 +75,6 @@ Role required: admin
 
 8.  Select **Update** to save the data broker server script.
 
+
+**Parent Topic:**[Configuring the Playbook tab on contract repository records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-config-playbook-tab.md)
 

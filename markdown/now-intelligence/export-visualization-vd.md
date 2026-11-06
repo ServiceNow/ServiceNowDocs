@@ -1,17 +1,17 @@
 ---
-title: Export a visualization from the Visualization Designer
+title: Export a Platform Analytics data visualization
 description: Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/export-visualization-vd.html
 release: yokohama
 topic_type: task
-last_updated: "2025-05-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Export a visualization, Export a report, Export a visualization to PDF, Export a visualization to PNG, Export a visualization to JPEG, Export a list visualization to Excel]
 breadcrumb: [Share, edit, or delete, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
 
-# Export a visualization from the Visualization Designer
+# Export a Platform Analytics data visualization
 
 Export individual data visualizations to various formats and sizes. Download the exports or share them over email.
 
@@ -21,13 +21,12 @@ Role required: You can export any visualization that you created or that was sha
 
 ## About this task
 
-Not all visualizations support all output types. Some export options shown in the UI for a visualization may not be valid. Please consult the following table.
+Not all visualizations support all output types. Some export options shown in the UI for a visualization may not be valid. Consult the following table.
 
 | |Supported data visualization export formats|
 |---|-------------------------------------------|
-|Calendar reports, Indicator scorecards, Geomap|None|
-|Pivot tables|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
-|Lists|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST|
+|Calendar reports, Indicator scorecards, Pivot tables, Geomap|None|
+|Lists|PDF, Microsoft Excel \(.xls or .xlsx\), Embedded LIST, CSV|
 |Other data visualizations|PowerPoint, PDF, PNG, JPEG, Embedded PNG|
 |Non-data visualization dashboard elements, like Headings|Not applicable|
 
@@ -35,15 +34,15 @@ Data visualizations exported to PowerPoint include the title and the description
 
 **Note:**
 
-If you have any Now Assist applications installed, you can probably export a dashboard conversationally through the Now Assist panel. See [Export dashboards and data visualizations from the Now Assist panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md).
+If you have any ServiceNow Otto applications installed, you can probably export a dashboard conversationally through the ServiceNow Otto panel. See [Export dashboards and data visualizations from the ServiceNow Otto panel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/export-db-dv-now-assist-panel.md).
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
 2.  Select the visualization that you want to export.
 
-3.  From the More actions menu \(\[Omitted image "icon-vert-3dot-p.png"\] Alt text: More actions menu icon\), select **Export**.
+3.  From the More actions menu \[Omitted image "icon-paw-more-actions.png"\], select **Export**.
 
     \[Omitted image "paw-vd-export.png"\] Alt text: Export option in More actions menu
 
@@ -71,7 +70,7 @@ Page format
 
 </td><td>
 
-For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You cannot set the page format when exporting a List.
+For PDF, PNG, Embedded PNG, and JPEG, select Letter, A4, or A3 to correspond to the paper dimensions of the printed visualization.You can't set the page format when exporting a List.
 
 </td></tr><tr><td>
 
@@ -79,7 +78,7 @@ Orientation
 
 </td><td>
 
-Choose Portrait or Landscape. Not available with PowerPoint exports or for List - Simple visualizations.
+Choose Portrait or Landscape. Not available when exporting to Microsoft PowerPoint, Microsoft Excel, or CSV formats.
 
 </td></tr></tbody>
 </table>5.  Under **Delivery**, select **Download file** or **Send file via email**.
@@ -87,7 +86,7 @@ Choose Portrait or Landscape. Not available with PowerPoint exports or for List 
     -   When you choose to download the file, a **Download** button is available after the export is complete. The file, named `<visualization-name>.<filetype>`, is downloaded to your default local destination.
     -   When you send the file by email, you can select users and groups on your instance or any allowed email address. Security constraints may restrict who you can email. You also must specify a subject, and you can add a message. When you are done, select **Export**.
 
-        **Note:** To send email to persons who are not on your instance, you need to have outbound email configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration) in the Developer Site.
+        **Note:** To send email to persons who are not on your instance, make sure outbound email is configured. See [Outbound Email Configuration](https://developer.servicenow.com/dev.do#!/learn/courses/xanadu/app_store_learnv2_automatingapps_xanadu_automating_application_logic/app_store_learnv2_automatingapps_xanadu_notifications/app_store_learnv2_automatingapps_xanadu_outbound_email_configuration) in the Developer Site.
 
 
 **Parent Topic:**[Common data visualization tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/common-dv-tasks.md)

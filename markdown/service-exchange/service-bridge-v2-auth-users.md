@@ -1,5 +1,5 @@
 ---
-title: Service Exchange Authorized Users and personas
+title: Service Exchange authorized users and personas
 description: The Authorized Users feature enables a provider to categorize remote catalog items by user personas so that only authorized users with these personas can access the catalog items. It also allows consumer admins to associate these personas to users in their instances to allow access.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-auth-users.html
@@ -7,16 +7,17 @@ release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Service Exchange, Service Exchange]
+keywords: [authorized users, user personas, catalog item access, consumer admin]
+breadcrumb: [Remote catalogs, Explore, Service Exchange]
 ---
 
-# Service Exchange Authorized Users and personas
+# Service Exchange authorized users and personas
 
 The Authorized Users feature enables a provider to categorize remote catalog items by user personas so that only authorized users with these personas can access the catalog items. It also allows consumer admins to associate these personas to users in their instances to allow access.
 
-When a provider and a consumer initially register the Service Exchange application, the active contacts on the consumer's account in the provider's ServiceNow instance are automatically added to the Authorized Users table and synced with the consumer's ServiceNow instance.
+When a provider and a consumer initially register the Service Exchange application, the active contacts on the consumer's account in the provider's ServiceNow instance are automatically added to the Authorized Users table. And synced with the consumer's ServiceNow instance.
 
 Enables the provider to subdivide services by user personas giving the consumers an easy way to define access in their instance to the provider’s services. By using the Authorized Users feature, you can identify the specific users between the provider and consumer instances to manage the consumer requests for the provider's services. You can then assign personas to the authorized users so that you can control the access to remote catalog items.
 

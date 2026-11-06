@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -74,7 +74,7 @@ Before you can ingest correlation events, you must configure the Query Viewer in
 
 </td><td>
 
-A correlation event goes through many stages in its life cycle before it is closed. ArcSight ESM provides default stages like Initial, Monitoring, Queued, and Closed. Some of these stages require user inputs but other stages are automatically applied to the event without any user intervention \(the **User Required** field is unchecked in the ArcSight ESM console. You can create custom stages that do not require any user intervention and use them in your ServiceNow AI Platform® instance. See [Additional options: Automate correlated event updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/arcsight-esm-create-profile-additional.md) for details.
+A correlation event goes through many stages in its life cycle before it is closed. ArcSight ESM provides default stages like Initial, Monitoring, Queued, and Closed. Some of these stages require user inputs but other stages are automatically applied to the event without any user intervention \(the **User Required** field is unchecked in the ArcSight ESM console\). You can create custom stages that do not require any user intervention and use them in your ServiceNow AI Platform® instance. See [Additional options: Automate correlated event updates and closure based on SIR incident status](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/arcsight-esm-create-profile-additional.md) for details.
 
 </td></tr><tr><td>
 

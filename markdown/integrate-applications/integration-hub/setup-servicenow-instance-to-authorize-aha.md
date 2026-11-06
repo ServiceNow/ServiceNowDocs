@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Aha! Spoke, Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Aha! Spoke, Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Set up ServiceNow instance for Aha!
@@ -24,17 +24,24 @@ Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys
 
 ## Procedure
 
-1.  Log in to your ServiceNow instance.
+1.  Navigate to **All** &gt; **Process Automation** &gt; **Workflow Studio**.
 
-2.  Navigate to **Connection &amp; Credentials** &gt; **Connection &amp; Credentials Aliases**.
+2.  Select the **Integrations** tab.
 
-    Connection &amp; Credentials Aliases page appears and shows the list of apps.
+3.  Under **Connections**, toggle and enable the **Outbound** connections.
 
-3.  Locate and open the Connection &amp; Credentials record for Aha!.
+4.  Locate the alias for **Aha!** and select **View Details**.
 
-4.  Click the **Create New Connection &amp; Credential** related link.
+    -   To configure the default connection and credential alias record that is shipped along with the Aha! spoke, select **View Details**.
 
-5.  On the Create Connection and add Credential form, fill in the details.
+        \[Omitted image "aha-spoke-tile.jpg"\] Alt text: Connection for the Aha! spoke
+
+    -   To manage more than one Aha! spoke connection records, you should create child alias record by selecting **Add Connection**. For more information about using multiple connections, see [Supporting multiple connections](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/support-multiple-connections.md).
+    If you're configuring the spoke for the first time, select **Configure**. Otherwise, select **Edit**.
+
+    \[Omitted image "aha-spoke-configure.jpg"\] Alt text: Initial connection configuration
+
+5.  On the form, fill in the details.
 
     |Fields|Descriptions|
     |------|------------|
@@ -44,6 +51,12 @@ Set up your ServiceNow instance to add the Aha! Client ID and Client Secret keys
     |OAuth Client Secret|OAuth Client Secret key that you received while creating an OAuth2 authentication from the Aha! site.|
     |OAuth Redirect URL|ServiceNow redirect URL.|
 
-6.  Click **Configure and get OAuth Token** and then click **Authorize**.
+    \[Omitted image "aha-spoke-edit-connection.jpg"\] Alt text: Configure a connection for the Aha! spoke
 
+6.  Select **Save and Get OAuth Token** and then select **Authorize**.
+
+
+## Result
+
+The Aha! spoke is set up and Aha! account is integrated with your ServiceNow instance.
 

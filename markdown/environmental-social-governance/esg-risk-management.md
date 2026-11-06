@@ -1,18 +1,18 @@
 ---
 title: Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment
-description: The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of ESG Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
+description: The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of Operational Sustainability Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/esg-risk-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Integrating Operational Sustainability Management \(formerly ESG\) with other applications, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
 
 # Integrating Operational Sustainability Management \(formerly ESG\) with Advanced risk assessment
 
-The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of ESG Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
+The Operational Sustainability Risk Management capability enables you to assess and evaluate operational sustainability risks for businesses. This capability is an integration of Operational Sustainability Management with Advanced risk assessment. To use the risk assessment feature, you must install and activate the sn\_esg\_risk\_mgmt plugin.
 
 The Advanced risk assessment feature enables you to integrate risk assessment as part of your overall decision-making process.
 
@@ -31,7 +31,7 @@ Create a risk assessment scope to define and identify risks for an entity. Ident
 -   **[Initiate risk assessments on material topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/initiate-a-risk-assessment-on-a-mt.md)**  
 Assess the risks to your material topics by initiating a risk assessment and sending it to the owner of the material topic.
 -   **[Respond to a risk assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/respond-to-a-risk-asmt.md)**  
-Conduct risk assessments to assess risks in the ESG Management application.
+Conduct risk assessments to assess risks in the Operational Sustainability Management application.
 
 **Parent Topic:**[Integrating Operational Sustainability Management \(formerly ESG\) with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/environmental-social-governance/integrate-esg.md)
 

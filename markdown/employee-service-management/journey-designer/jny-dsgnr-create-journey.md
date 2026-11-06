@@ -7,9 +7,9 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managers, mentors, and employees work with journeys in the Employee Center, Using Journey designer, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Work with journeys in Employee Center, Use, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Create a journey
@@ -26,7 +26,7 @@ The user that creates a journey is the journey owner. Journey owners create, mod
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Employee Center** &gt; **Journeys**.
+1.  From the Employee Center, select **Journeys**.
 
 2.  Select **Create a new journey**.
 

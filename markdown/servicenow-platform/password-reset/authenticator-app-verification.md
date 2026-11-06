@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Enrolling in the Password Reset application to reset your password, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Enrolling in the Password Reset application to reset your password, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Enroll for the Password Reset program using an authenticator
@@ -65,19 +65,4 @@ Password Reset supports the following authenticator apps:
     -   [Enroll for the Password Reset program using questions and answers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_EnrollUsingASecurityQuestion.md)
     -   [Enroll for the Password Reset program using SMS codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/t_EnrollUsingSMS.md)
     -   [Enroll for the Password Reset program using emailed codes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/enroll-email-verification.md)
-
-**Parent Topic:**[Enrolling in the Password Reset application to reset your password](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/password-reset/c_EnrollInPasswordReset.md)
-
-**Related topics**  
-
-
-[Enroll for the Password Reset program using SMS codes]()
-
-[Enroll for the Password Reset program using emailed codes]()
-
-[Enroll for the Password Reset program using questions and answers]()
-
-[Enroll for the Password Reset program using Soft PIN]()
-
-[Reset your password on Windows systems]()
 

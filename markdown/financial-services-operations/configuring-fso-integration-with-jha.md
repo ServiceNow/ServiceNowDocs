@@ -1,16 +1,16 @@
 ---
-title: Configure the Financial Services Operations Integration with Jack Henry jXchange
+title: Configure Financial Services Operations Integration with Jack Henry jXchange
 description: Configure the Financial Services Operations Integration with Jack Henry jXchange application by using the Jack Henry jXchange connection and credential record to authenticate ServiceNow requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configuring-fso-integration-with-jha.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Jack Henry jXchange, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Jack Henry jXchange, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Configure the Financial Services Operations Integration with Jack Henry jXchange
+# Configure Financial Services Operations Integration with Jack Henry jXchange
 
 Configure the Financial Services Operations Integration with Jack Henry jXchange application by using the Jack Henry jXchange connection and credential record to authenticate ServiceNow requests.
 

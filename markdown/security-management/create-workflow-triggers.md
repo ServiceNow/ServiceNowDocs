@@ -1,20 +1,24 @@
 ---
-title: Create Security Operations workflow triggers
+title: Legacy: Create Security Operations workflow triggers
 description: Create a workflow trigger that contains a condition on a table.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/create-workflow-triggers.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Security Operations workflow triggers, Security Operations common functionality, Security Operations]
+breadcrumb: [Legacy: Security Operations workflow triggers, Security Operations common functionality, Security Operations]
 ---
 
-# Create Security Operations workflow triggers
+# Legacy: Create Security Operations workflow triggers
 
 Create a workflow trigger that contains a condition on a table.
 
 ## Before you begin
+
+**Important:**
+
+This feature is no longer deployed, enhanced, or supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 Security Operations contains several workflow triggers in the base system:
 
@@ -41,7 +45,7 @@ Roles required:
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Utilities** &gt; **Workflow Triggers**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields on the form, as appropriate.
 
@@ -110,7 +114,7 @@ Filter group
 Select the filter group to use for defining workflow triggers. This field appears only if the **Use filter groups** check box is selected.
 
 </td></tr></tbody>
-</table>4.  When you have completed your entries, right-click in the form header and select **Save**.
+</table>4.  When you have completed your entries, select and hold \(or right-click\) in the form header and select **Save**.
 
     \[Omitted image "WorkflowTriggerFilters.png"\] Alt text: WorkflowTriggers with filters example
 
@@ -118,16 +122,16 @@ Select the filter group to use for defining workflow triggers. This field appear
 
 5.  To add workflows, perform these steps.
 
-    1.  In the **Workflows** tab, click **Edit**.
+    1.  In the **Workflows** tab, select **Edit**.
 
     2.  Use the condition builder, if needed, to locate the workflows you want to select, or use the slushbucket to select workflows and move them to the Workflows List.
 
-    3.  Click **Save**.
+    3.  Select **Save**.
 
     The selected workflows are added.
 
-6.  Click **Update**.
+6.  Select **Update**.
 
 
-**Parent Topic:**[Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/workflow-triggers.md)
+**Parent Topic:**[Legacy: Security Operations workflow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/workflow-triggers.md)
 

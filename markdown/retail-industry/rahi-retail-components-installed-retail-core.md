@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-components-installed-retail-core.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Components installed with plugins, Retail reference, Retail]
+breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
 
 # Components installed with Retail core overview
@@ -87,7 +87,7 @@ sn\_retail.support\_agent​
 
 </td><td>
 
-Creates, updates, resolves, and tracks retail cases across service organizations at the system level.
+Creates, updates, resolves, and tracks retail cases across organizations at the system level.
 
 </td><td>
 
@@ -150,7 +150,7 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-Business Location
+Business Organization
 
  \[com.snc.business\_location\]
 
@@ -162,7 +162,7 @@ This plugin supports the Service Model Foundation, where the corporation does bu
 
 </td></tr><tr><td>
 
-Customer Service
+Case Management Core
 
  \[com.sn\_customerservice\]
 
@@ -200,7 +200,7 @@ Includes common themes, widgets, and code artifacts for customer and industry wo
 |Business rule|Table|Rule criteria|Description|
 |-------------|-----|-------------|-----------|
 |Add manager member for retail org|sn\_customer\_service\_organization|After update or insert|Assigns the sn\_retail.manager role to the user added as a manager in a retail organization.|
-|Restrict SO update|sn\_retail\_organization|Before update|Restricts the user from updating the Service Organization field in the Retail Organization \[sn\_retail\_organization\] table.|
+|Restrict SO update|sn\_retail\_organization|Before update|Restricts the user from updating the Organization Core field in the Retail Organization \[sn\_retail\_organization\] table.|
 |Hide multistore child cases|sn\_retail\_case|Before Query|Filters retail cases whose parent's child case creation state is either none or Completed successfully.|
 
 **Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-installed-with-plugins.md)

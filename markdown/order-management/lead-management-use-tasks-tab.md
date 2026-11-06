@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/lead-management-use-tasks-tab.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Lead Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Lead Management, Sales automation apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add lead tasks
@@ -20,7 +20,7 @@ Role required: sales\_agent
 
 ## Procedure
 
-1.  Navigate to **List** view \[Omitted image "Lists.png"\]and select **Leads - All**.
+1.  Navigate to **List** view \[Omitted image "list-outline-24.svg"\] Alt text:and select **Leads - All**.
 
 2.  From the **Leads List** window, select the lead you want to work with.
 
@@ -32,14 +32,9 @@ Role required: sales\_agent
 
     Immediately after you create the lead, a message confirms that the lead was created. To continue working on the lead, select the link in the message.
 
-3.  Fill in the fields in the **Create task for lead** form.
+3.  On the Create New Lead Task form, fill in the fields.
 
-    |Field|Description|
-    |-----|-----------|
-    |Short description|Description about the lead task.|
-    |State|State of the lead task.|
-    |Due date|Date by which the lead task has to complete.|
-    |Assigned to|Name of the sales agent to whom this lead task is assigned.|
+    For a description of the field values, see [Create new lead task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/create-lead-task-form.md).
 
 4.  Select **Create Task**.
 
@@ -48,5 +43,17 @@ Role required: sales\_agent
 
 ## What to do next
 
-You can create appointments in your lead tasks. To learn more, see [Create appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-create-an-appoinment.md).
+You can create appointments in your lead tasks. To learn more, see [Create an appointment from Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-create-an-appoinment.md).
+
+-   **[Create appointments for lead tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-create-appointment.md)**  
+Create appointments with your stakeholders to conduct business discussions for your lead.
+
+**Parent Topic:**[Using Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management-using.md)
+
+**Related topics**  
+
+
+[Configuring Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/configure-lead-management.md)
+
+[Lead Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/lead-management.md)
 

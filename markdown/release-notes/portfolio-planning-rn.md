@@ -1,102 +1,141 @@
 ---
 title: Portfolio Planning release notes
-description: The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.
+description: The ServiceNow Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. See the following sections for release notes by version.Version 8.19.0 introduces Enterprise-Wide Deployment partitioning for demands, demand experiences, and resource planning for demands. Roadmap exports to PowerPoint now support a 3-year date range. Program portfolio plans also include updates to program details, the Goals tab, and the default Prioritization layout.The version 8.18.0 release consolidates governance in dedicated RIDAC pages within portfolio plans to reduce context-switching and improve portfolio visibility. Programs enhanced experience provides automatic dedicated planning views for every program with zero setup required. Additional enhancements include scenario approval email notifications, automated cost recalculation with exchange rate detection, and in-context financial field explanations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/portfolio-planning-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+last_updated: "2026-09-10"
+reading_time_minutes: 8
+breadcrumb: [Strategic Portfolio Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Portfolio Planning release notes
 
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.
+The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. See the following sections for release notes by version.
 
 ## About Portfolio Planning
 
--   View the rolled-up financial costs and benefits data of your planning items in the new **Financials** tab in the Planning page.
--   View the financial data of planning items while creating multiple prioritization scenarios to promote efficient use of budget and help increase the return on investment \(ROI\).
--   Monitor performance, track progress, and make informed decisions related to planning and execution using dashboards.
--   Create, edit, and switch views in portfolio plans and free-form roadmaps with display preferences.
+-   Prioritize, roadmap, and score planning items using portfolio plans with support for multiple lenses, private or shared views, and free-form roadmaps to align work with organizational strategy.
+-   Plan and manage portfolio financials with rolled-up cost and benefit data, financial baselines, budget approvals, and scenario planning to optimize portfolio decisions and drive cost-effective outcomes.
+-   Capture, assess, and prioritize demands through configurable playbooks, using AI to summarize and identify similar items, before converting them into work items with full financial tracking.
+-   Track Risks, Issues, Decisions, Actions, and Changes \(RIDAC\), monitor capacity, and gain actionable insights through dashboards to maintain portfolio health and keep stakeholders informed.
 
 See [Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/portfolio-planning-app-landing-page.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Portfolio Planning is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
-
 -   **Activation information**
 
-    Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
-
--   **Upgrade information**
-
-    After upgrading to Portfolio Planning v8.8.0, the custom view settings previously saved under user preferences will be cleared. You must reapply these changes and create views as needed. For instructions, see [Create a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-portfolio-plan-view-ppw.md) and [Create a free-form roadmap view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/create-free-form-roadmap-view-ppw.md).
+    Install Portfolio Planning by requesting it from the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store.
 
 
 **Parent Topic:**[Strategic Portfolio Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/it-business-management-rn-landing.md)
 
-## May 2025
+## Version 8.19.0
 
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.
+Version 8.19.0 introduces Enterprise-Wide Deployment partitioning for demands, demand experiences, and resource planning for demands. Roadmap exports to PowerPoint now support a 3-year date range. Program portfolio plans also include updates to program details, the Goals tab, and the default Prioritization layout.
 
 ### What's new
 
--   **[Create and manage financial scenarios of planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/optimizing-scenarios-in-strategic-planning.md)**
-    -   Optimize your portfolio by creating financial scenarios to validate and arrive at a profitable outcome.
-    -   Plan and manage the budget of the planning items in a simulation mode for efficient financial planning and to help prevent overspending.
-    -   Manage prioritization and budget allocation of the planning items to meet business priorities.
-    -   Compare financial scenarios and automatically allocate the planned budget from approved scenarios to planning items.
-    -   Enable a budget allocation property to analyze finances in scenario planning and take effective decisions using data-driven insights.
--   **[Dashboards for data analysis and decision-making](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-dashboards-in-ppw.md)**
+-   ****
 
-    Consolidate key data and metrics from multiple sources onto dashboards, enabling you to monitor performance, track progress, and make informed decisions related to planning and execution.
+    Partition demand data by any criteria, such as department or business unit, using Enterprise-Wide Deployment \(EWD\) partitioning on the Demand table and related entities. Demands are stamped with a matching partition, and users see only the demands, list views, search results, and dashboards for the partitions their role grants them.
 
-    You can create, edit, and copy a dashboard, customizing as needed. Add widgets to a dashboard to display key data, metrics, and visualizations. You can also share dashboards to collaborate with the business stakeholders who have access to the portfolio plan.
+    EWD for demands includes the following functionalities:
 
--   **[Create and share views for portfolio plans and free-form roadmaps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/managing-portfolio-plan-views-ppw.md)**
+    -   Demand experiences: Define the way a particular demand should work including its form view, modules, and dynamic attributes. For example, a particular view or certain functions available on a demand or menu items hidden or visible for different types of demands.
+    -   Demand partitions: Control the data visible to different users.
+    -   Demand partitions dashboard: Dedicated dashboard for different demand partitions.
+-   ****
 
-    Create, edit, and switch views in portfolio plans and free-form roadmaps using display preferences. You can create personal views that are private to you or public views that can be shared with stakeholders who have access.
+    Smart assessments are now available for demands, which are triggered on moving the demand to screening. These assessments are controlled by the **sn\_align\_ws.enable\_smart\_assessments** system property. After this property is enabled, smart assessments are triggered for the new demands and the ones that aren't yet in the screening state.
 
-    Portfolio plan display preferences include column selection, grouping and filtering. Free-form roadmap preferences include grouping, milestones selection, dependencies selection, and tracking mode. The portfolio plan view saves your display preferences across the Prioritization, Roadmap, Capacity, and Financials tabs.
+    The smart assessment form is more intuitive and supports text-based questions. The assessments are available at the individual demand record and in a consolidated Smart Assessments module in the main navigation menu. This module displays all assigned smart assessments across demands.
 
-    **Note:** Portfolio plan views are available only for the Planning module and are supported in live mode, but not in scenario mode.
+-   **Resource profiling for demands**
+
+    Plan and manage resource assignments for a demand from the **Resources** tab in Next Experience for Demand Management. The resource board shows assignments alongside resource capacity so you can confirm availability before converting a demand to a project. Create, copy, move, split, end, or reassign resource assignments directly from the grid, group by primary group, role, or skill, and use the allocation heatmap to identify over-allocated and available resources. Use the Resource Finder to get fit-scored, ranked resource recommendations with rationale for unassigned work.
 
 
 ### What's changed
 
--   **[Capacity Planning tab name change](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-cap-plan-pp.md)**
+-   **[Roadmap export range](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/export-portfolio-plan-status-to-ppt-portfolio-planning-workspace.md)**
 
-    The name of the **Capacity Planning** tab in the planning view is changed to **Capacity**.
+    The maximum date range for exporting a roadmap to PowerPoint increased from 1 year to 3 years, within the start and end dates of the portfolio. The exported timescale adjusts to the range you select: months for a range of 1 year or less, and quarters for a range longer than 1 year.
+
+-   **Program portfolio plan enhancements**
+    -   **Program details** — Select the information icon next to the program name to view the planning item types, program timeline, and program manager.
+    -   **Program value for new items** — When you create a demand or project from a program portfolio plan, the **Program** field is prefilled with that program.
+    -   **Prioritization default layout** — The default **Prioritization** view shows the Rank, Name, Planning state, Planning item type, Status, Cost status, Resource status, Schedule status, Scope status, Percent complete, Primary goal, and Owner columns.
+    -   **Goals tab** — Program portfolio plans include the **Goals** tab, which shows all primary and non-primary goals linked to the planning items in the plan, along with goals assigned directly to the program.
+    -   **Public views** — Any user who can access a program portfolio plan can create and update its public views. Previously, only plan editors could create or update public views.
+-   **Resource assignment offsets when converting a demand to a project**
+
+    When a demand with resource assignments is converted to a project, assignment offsets are recalculated against the project's schedule, which counts only the working days defined in the project schedule, instead of the demand, which has no schedule and counts every calendar day.
+
+-   **Execution URL on planning item demands**
+
+    Run the **Update Demand Planning Item Execution URL** scheduled job to update the execution URLs on your existing demands to the latest format.
 
 
-## Yokohama
+## Version 8.18.0
 
-The ServiceNow® Portfolio Planning application helps you enhance traditional product and portfolio management by visualizing the alignment of work with organizational objectives. Portfolio Planning was enhanced and updated in the Yokohama release.
+The version 8.18.0 release consolidates governance in dedicated RIDAC pages within portfolio plans to reduce context-switching and improve portfolio visibility. Programs enhanced experience provides automatic dedicated planning views for every program with zero setup required. Additional enhancements include scenario approval email notifications, automated cost recalculation with exchange rate detection, and in-context financial field explanations.
 
 ### What's new
 
--   **[View financial data of your planning items at the portfolio level](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-portfolio-financials-ppw.md)**
-    -   View the rolled-up financial costs and benefits data of your planning items Epics, Demands, and Projects at the portfolio level for different time scales and ranges.
-    -   View the financial values such as the Budget, Planned cost, Variance, Actuals, and Remaining Estimates of your planning items by expense type or cost type.
-    -   View the Forecasts, Actuals, and Variance of your planning items for monetary benefits.
-    -   View the financial data of the planning items while creating multiple prioritization scenarios to promote efficient use of budget and to help increase ROI.
--   **[Real-time collaboration for Planning item Docs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/docs-for-planning-items-in-ppw.md)**
+-   **RIDAC for portfolio plans**
 
-    Edit a doc page concurrently with multiple other editors. Colored cursors denote the current location of editors on the page. You can choose to show or hide these indicators.
+    Access portfolio risks, issues, decisions, actions, and requested changes \(RIDAC\) directly from the portfolio plan using the dedicated RIDAC page within the portfolio plan. View all portfolio governance items in a single, integrated interface without navigating to the separate RIDAC menu. The RIDAC page reduces context-switching and improves portfolio visibility by consolidating governance data. The portfolio plan RIDAC displays the RIDAC items that match the portfolio plan's criteria or belong to the planning items of that portfolio plan.
 
-    **Note:** To use the full functionality of Docs v6.6.0 within Portfolio Planning Workspace, upgrade to Portfolio Planning Workspace v8.5.0. For more information, see the [Incompatibility After Upgrading Docs to Version 6.0.0 \[KB2017926\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2017926) article in the Now Support Knowledge Base.
+-   **[Show or hide RIDAC page of a portfolio plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/show-or-hide-the-features-for-your-portfolio-plan-ppw.md)**
+
+    As a portfolio manager, show or hide the RIDAC page of your portfolio plan. This capability helps you share only the portfolio plan data that matters to your stakeholders and restrict access to the other data.
+
+-   **Programs enhanced experience**
+
+    Access dedicated program planning views automatically created with zero setup. Navigate to the new Programs menu and click any program to open its dedicated plan with Prioritization, Roadmap, and Financials views. New programs get plans instantly; existing programs receive them through an automatic one-time backfill \(500 at a time, newest first\). Role-based access ensures users with the sn\_align\_core.ap\_read\_only role can read, users with the sn\_align\_core.apw\_user role can manage items, and program managers are automatic plan owners.
+
+-   **Program-scoped data with fiscal calendar support**
+
+    View and manage program-scoped planning data in a focused, streamlined interface. Program plans display only that program's planning items. The Financials tab defaults to your fiscal calendar; if the fiscal calendar doesn't span the program dates, the system gracefully falls back to Gregorian with an explanatory message. Making the portfolio plan public and scenario planning for these program portfolio plans are hidden.
+
+-   **[Automated email notification for scenario approval](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/approve-a-scenario-in-portfolio-planning.md)**
+
+    Receive email notification when a scenario is approved. The system sends the notification to the scenario approver and portfolio owner. During the approval process, the portfolio plan becomes read-only to prevent unintended modifications and maintain data integrity.
+
+-   ****
+
+    Tailor demand summaries to your organization's process by copying the base demand summarization skill and customizing it with your own input fields, related entities, and prompt. When you activate a copy of the demand summarization skill, the previously active skill, either the base skill or an earlier copy, is automatically deactivated. Only one version of the skill can be active at a time.
+
+-   ****
+
+    Create and track demands without leaving the conversation-first Employee Slate workspace. Describe the demand in a conversation to have matching catalog items identified and relevant fields prepopulated from your message, then track its status, activity, and progress using the new My Demands widget on your canvas or the standard Requests widget. Demands appear in Employee Slate only when both Project Workspace and Employee Slate Core apps are installed.
 
 
 ### What's changed
 
--   **[Financials UI changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-business-management/using-portfolio-financials-ppw.md)**
-    -   New **Financials** tab in the Planning page.
-    -   The name of the **ETC** field is changed to **Remaining Estimates**.
-    -   The name of the **EAC** field is changed to **Forecast**.
-    -   The name of the **Actuals to date** field is changed to **Actuals**.
-    -   New Financials view in scenario planning.
-    -   New financial widgets in the compare scenario page.
+-   **Financials**
+
+    Added in-context help \(hover info icons\) on the Financials page widgets, explaining how the key fields like Budget, EAC, Planned Cost, Actuals, Return, ROI, and NPV are calculated.
+
+-   **Program planning updates and enhancements**
+    -   **Programs menu addition** — A new Programs menu has been added to the workspace as L2 menu, positioned below Portfolio Plan. This menu lists every program in your portfolio and provides single-click navigation to each program's enhanced planning view.
+    -   **Role-based access for program planning** — Users with the sn\_align\_core.ap\_read\_only role have read access to program plans \(where they already have program-level read access\). Users with the sn\_align\_core.apw\_admin and program manager roles receive full access to create, update, and manage planning items within program plans.
+-   ****
+
+    The default trigger is not set to **Automatic** for demands in any state. You can select how you want the skill to be triggered for any state.
+
+
+### What's deprecated or removed
+
+-   **Now LLM Service**
+
+    Starting with the September 2026 release, Gemma 4 joins our growing portfolio of open-weight models available through Now LLM Service. The latest industry advancements are available alongside sovereignty-focused options. All models are hosted and governed by ServiceNow with the same infrastructure and data protections. Older models will remain available for existing published AI skills, agents, and agentic workflows, but will no longer be available for new development or configuration. For details, see the [KB3066214: ServiceNow Otto Model Upgrades](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB3066214) article in the Now Support Knowledge Base.
+
+-   **Process Mining**
+
+    Starting Brazil release, Process Mining Content Pack for SPM \(`com.snc.itbm_po`\) will be migrated to Process Mining Content Pack store application. Upgrade your instance to Brazil or higher releases. For more information, see [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md) documentation.
+
 

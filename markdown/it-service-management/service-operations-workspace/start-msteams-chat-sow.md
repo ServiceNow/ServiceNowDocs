@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [ServiceNow integrations with Microsoft Teams in Service Operations Workspace, Manage, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [ServiceNow integrations with Microsoft Teams in Service Operations Workspace, Managing IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Collaborate on a task record using Microsoft Teams in Service Operations Workspace
@@ -20,7 +20,7 @@ Start or import a Microsoft Teams chat from a task record in Service Operations 
 
 Role required: itil or admin
 
-Before you begin, make sure that the Microsoft Teams application is configured for your ServiceNow instance. For more information on configuration, see and the Microsoft Teams integration setup documentation.
+Before you begin, make sure that the Microsoft Teams application is configured for your ServiceNow instance. For more information on configuration, see[Configure Notify connector for Microsoft Teams from Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/notify-teams-guided-setup.md) and the Microsoft Teams integration setup documentation.
 
 ## About this task
 
@@ -52,15 +52,15 @@ When you view or import a Microsoft Teams chat conversation for a task record, t
 
 6.  To import a chat conversation, perform one of the following actions.
 
-<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d293069e221">
+<table id="choicetable_tnl_jfr_vsb"><thead><tr><th align="left" id="d124022e237">
 
 Option
 
-</th><th align="left" id="d293069e224">
+</th><th align="left" id="d124022e240">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d293069e230">
+</th></tr></thead><tbody><tr><td id="d124022e246">
 
 **Import a chat from any conversation**
 
@@ -71,7 +71,7 @@ Description
 3.  Select the chat and select **Import**.
 
 
-</td></tr><tr><td id="d293069e260">
+</td></tr><tr><td id="d124022e276">
 
 **Import a chat from a conversation in which you are a member**
 

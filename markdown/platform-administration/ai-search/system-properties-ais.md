@@ -7,7 +7,7 @@ release: yokohama
 product: AI Search
 classification: ai-search
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
 breadcrumb: [Reference, AI Search, Search administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -76,16 +76,14 @@ Maximum number of records on batcher queue for indexing of source record content
 
 </td><td>
 
-Encoded query string for a query that Catalog Item records must satisfy to be eligible for catalog variable content indexing.
-
-**Note:** This system property has no effect if **glide.ais.ingestion.index\_catalog\_variables** is set to **false**.
+Encoded query string for a query that Catalog Item records must satisfy to be eligible for catalog variable content indexing.**Note:** This system property has no effect if **glide.ais.ingestion.index\_catalog\_variables** is set to **false**.
 
 -   Type: string
 -   Location: System Properties \[sys\_properties\] table \(record not present by default\)
 
-Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-multiple-sources-ais.md)
+ Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-multiple-sources-ais.md)
 
-For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+ For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -169,9 +167,7 @@ Destination for AI Search ingestion feedback messages with the WARN level.-   Ty
 
 </td><td>
 
-Option to allow indexing of searchable content from role-restricted catalog variables on Catalog Item records.
-
-**Note:** This system property has no effect if **glide.ais.ingestion.index\_catalog\_variables** is set to **false**.
+Option to allow indexing of searchable content from role-restricted catalog variables on Catalog Item records.**Note:** This system property has no effect if **glide.ais.ingestion.index\_catalog\_variables** is set to **false**.
 
 -   Type: true \| false
 -   Default value: **false**
@@ -180,9 +176,9 @@ Option to allow indexing of searchable content from role-restricted catalog vari
     -   **true**: Allow indexing of searchable content from catalog variables with role restrictions on Catalog Item records.
 -   Location: System Properties \[sys\_properties\] table \(record not present by default\)
 
-Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-multiple-sources-ais.md)
+ Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-multiple-sources-ais.md)
 
-For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+ For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 
@@ -190,20 +186,18 @@ For additional details on indexing of content from catalog variables, see [Activ
 
 </td><td>
 
-Option to allow indexing of searchable content from globally accessible catalog variables on Catalog Item records.
-
-To allow indexing of searchable content from catalog variables that require specific roles to access, see **glide.ais.ingestion.ignore\_catalog\_variables\_read\_roles**.
+Option to allow indexing of searchable content from globally accessible catalog variables on Catalog Item records. To allow indexing of searchable content from catalog variables that require specific roles to access, see **glide.ais.ingestion.ignore\_catalog\_variables\_read\_roles**.
 
 -   Type: true \| false
--   Default value: **false** in base system, **true** if Now Assist in AI Search application is installed
+-   Default value: **false** in base system, **true** if ServiceNow® Otto for AI Search application is installed
 -   Supported values:
     -   **false**: Prevent indexing of searchable content from catalog variables on Catalog Item records.
     -   **true**: Allow indexing of searchable content from globally accessible catalog variables on Catalog Item records.
 -   Location: System Properties \[sys\_properties\] table \(record not present by default\)
 
-Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-multiple-sources-ais.md)
+ Changes to this system property's value don't take effect until you reindex content from the Catalog Item Table indexed source and indexed sources for other tables that extend the Catalog Item \[sc\_cat\_item\] table. For details on reindexing content from indexed sources, see [Perform a full table index or reindex for a single AI Search indexed source](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-single-source-ais.md) and [Perform a full table index or reindex for multiple AI Search indexed sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/index-multiple-sources-ais.md)
 
-For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
+ For additional details on indexing of content from catalog variables, see [Activate indexing of catalog variable content on Catalog Item records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/activate-catalog-variable-indexing.md) and [Variable types supported by AI Search indexing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/variable-types-ais-index.md). To learn about encoded query strings, see [Encoded query strings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_EncodedQueryStrings.md).
 
 </td></tr><tr><td>
 

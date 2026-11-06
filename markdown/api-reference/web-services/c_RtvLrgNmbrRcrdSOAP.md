@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Inbound web service examples, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP web service, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Retrieve a large number of records using SOAP
@@ -23,5 +23,5 @@ Because of the verbose XML format, SOAP can be considerably slower than other tr
 -   **[SOAP strategies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_SOAPStrategies.md)**  
 Retrieve the information that you need and make your integration more efficient.
 
-**Parent Topic:**[Inbound web service examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_InboundWebServiceExamples.md)
+**Parent Topic:**[SOAP web service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/web-services/c_SOAPWebService.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Collaboration Services
 classification: collaboration-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Slack integration - Incident Management, Collaboration services, IT Service Management]
 ---
@@ -22,7 +22,7 @@ Role required: sn\_incident\_read, sn\_incident\_write, itil, or admin
 
 ## About this task
 
-The slack icon \(\[Omitted image "slack-icon.png"\] Alt text: Slack icon\) appears for the fields that you include in the fix script. For example, if you have the **Caller**, **Assigned to**, and the **Assignment group** fields for incident in the fix script, then the icon appears for these fields.
+The slack icon appears for the fields that you include in the fix script. For example, if you have the **Caller**, **Assigned to**, and the **Assignment group** fields for incident in the fix script, then the icon appears for these fields.
 
 ## Procedure
 
@@ -30,7 +30,7 @@ The slack icon \(\[Omitted image "slack-icon.png"\] Alt text: Slack icon\) appea
 
 2.  Open an active incident record.
 
-3.  Click the slack icon \(\[Omitted image "slack-icon.png"\] Alt text: Slack icon\) that appears next to the **Caller**, **Assigned to**, or the **Assignment group** fields.
+3.  Click the slack icon that appears next to the **Caller**, **Assigned to**, or the **Assignment group** fields.
 
 4.  In the Open Slack dialog window, click **Open Slack**.
 

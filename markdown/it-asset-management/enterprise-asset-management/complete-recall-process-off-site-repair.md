@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Completing a recall order for your enterprise assets, Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Completing a recall order for your enterprise assets, Managing recalled enterprise assets, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Complete the recall process for an enterprise asset through an off-site repair
@@ -32,17 +32,17 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
     The recall order record opens.
 
-4.  On the **Enterprise Recalled Assets** tab of the recall order record, select the enterprise asset that you want to repair.
+4.  On the **Recalled Assets** tab of the recall order record, select the enterprise asset that you want to repair.
 
-    The enterprise recalled asset record opens.
+    The recalled asset record opens.
 
 5.  Complete and close the Shipment task for the recalled enterprise asset.
 
     To successfully complete and close this task, you must ship the recalled enterprise asset to the asset vendor.
 
-    1.  On the **Enterprise Recall Tasks** tab of the enterprise recalled asset record, select the task number for the **Shipment** task.
+    1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Shipment** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the enterprise recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Shipment task opens.
 
@@ -75,15 +75,15 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
         The Shipment task automatically reloads with an updated state of Closed Complete.
 
-    4.  Close the Shipment task to return to the enterprise recalled asset record.
+    4.  Close the Shipment task to return to the recalled asset record.
 
 6.  Complete and close the Off-site Repair task for the recalled enterprise asset.
 
     To successfully complete and close this task, the asset vendor must repair the recalled enterprise asset.
 
-    1.  On the **Enterprise Recall Tasks** tab of the enterprise recalled asset record, select the task number for the **Off-site Repair** task.
+    1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Off-site Repair** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the enterprise recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Off-site Repair task opens.
 
@@ -113,15 +113,15 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
         The Off-site Repair task automatically reloads with an updated state of Closed Complete.
 
-    4.  Close the Off-site Repair task to return to the enterprise recalled asset record.
+    4.  Close the Off-site Repair task to return to the recalled asset record.
 
 7.  Complete and close the Receive task for the recalled enterprise asset.
 
     To successfully complete and close this task, you must receive the repaired enterprise asset from the asset vendor.
 
-    1.  On the **Enterprise Recall Tasks** tab of the enterprise recalled asset record, select the task number for the **Receive** task.
+    1.  On the **Recall Tasks** tab of the recalled asset record, select the task number for the **Receive** task.
 
-        Alternatively, select the task number that is displayed in the **Current task** field of the enterprise recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
+        Alternatively, select the task number that is displayed in the **Current task** field of the recalled asset record header.\[Omitted image "current-task-recall-orders.png"\] Alt text: Current task field.
 
         The Receive task opens.
 
@@ -153,11 +153,11 @@ Role required: sn\_eam.enterprise\_asset\_manager or enterprise\_asset\_technici
 
 ## Result
 
-The enterprise recalled asset record moves to the Completed stage. In addition, the state and substate fields change to In stock and Available in the corresponding asset record.
+The recalled asset record moves to the Completed stage. In addition, the state and substate fields change to In stock and Available in the corresponding asset record.
 
 ## What to do next
 
-Complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding enterprise recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
+Complete the recall process for all remaining enterprise assets that are included in the recall order. After all corresponding recalled asset records reach the Completed stage, the state of the recall order changes to Completed.
 
 **Parent Topic:**[Completing a recall order for your enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/completing-recall-order-enterprise-assets.md)
 

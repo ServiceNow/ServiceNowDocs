@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Performance Analytics diagnostics
@@ -34,17 +34,17 @@ Role required: sn\_pa\_diagnostics.pa\_diagnostic
 
 ### Procedure
 
-1.  Navigate to **All** &gt; **Performance Analytics** &gt; **Diagnostics**.
+1.  Navigate to **All** &gt; **Platform Analytics Administration** &gt; **Troubleshooting** &gt; **Diagnostics**.
 
 2.  Select the diagnostic you want to run.
 
-    To run all active diagnostics, click **Execute All** from the list.
+    To run all active diagnostics, select **Execute All** from the list.
 
-3.  Click **Execute Diagnostic**.
+3.  Select **Execute Diagnostic**.
 
     The diagnostics script is canceled automatically if it takes longer than 2 minutes to run.
 
-4.  After the diagnostic completes, click **View Result**.
+4.  After the diagnostic completes, select **View Result**.
 
 
 ### What to do next
@@ -61,15 +61,15 @@ Role required: sn\_pa\_diagnostics.pa\_diagnostic
 
 ### Procedure
 
-1.  Navigate to **Performance Analytics** and open a list of any components: indicators, indicator sources, breakdowns, breakdown sources, widgets, or others.
+1.  Navigate to **Platform Analytics Administration** and open a list of any components: indicators, indicator sources, breakdowns, breakdown sources, or others.
 
 2.  Locate and open the record of interest.
 
-3.  Click the link **Run diagnostics**.
+3.  Open the link **Run diagnostics**.
 
     A dialog opens to show the progress of the diagnostics.
 
-4.  When the diagnostic run is complete, click **View Result** in the progress dialog.
+4.  When the diagnostic run is complete, select **View Result** in the progress dialog.
 
 
 ### What to do next

@@ -7,8 +7,8 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Agent Client Collector, IT Operations Management]
 ---
 
@@ -17,6 +17,12 @@ breadcrumb: [Agent Client Collector, IT Operations Management]
 Agent Client Collector Monitoring enables you to monitor your service availability, examine the health and performance of your environment, and ensure that your infrastructure and its applications are running properly.
 
 ## Get started
+
+**Note:**
+
+If checks are not running on the agent's devices, your agent may be in CPU protection mode. CPU protection mode is activated automatically when a device's CPU consumption is too high for one of two reasons: either the user is running too many checks, or the machine is under-resourced. When it happens, the agent's Data Collection status turns to Off. ACC-F generates an event and records it in a log. To manually resume data collection by the ACC agent, see [Pause Agent Client Collector data collection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-enable-silent-mode.md).
+
+The user needs to monitor the activity of the ACC to resolve the issue through manual intervention and then re-enable ACC collection. To setup the ACC monitoring, see [Enable Agent Client Collector monitoring on the MID Server](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-monitoring-setup.md).
 
 <table id="table_vfd_41y_51c" class="nav-card"><tbody><tr><td>
 

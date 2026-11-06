@@ -7,9 +7,9 @@ release: yokohama
 product: Release Management
 classification: release-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference, Release Management, IT Service Management]
+breadcrumb: [Activate Release Management, Release Management, IT Service Management]
 ---
 
 # Components installed with Release Management
@@ -114,5 +114,5 @@ Release Items \[rm\_m2m\_release\_task\]
 Represents work items and change records associated to the release.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Release Management v2 reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/reference-release-management.md)
+</table>**Parent Topic:**[Activate Release Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/release-management/t_ActivateReleaseManagement.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Mark a cloud file as a non-sharable file
+title: Mark a cloud file as a non-shareable file
 description: Select one of the already linked files and mark it as a non-sharable file. Once a cloud file is marked as non-sharable, it cannot be linked to another record, or it cannot be referenced by any other record​.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/audit-management/mark-a-cloud-doc-as-confidential.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage your documents and work papers with Audit Management as cloud files, Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Cloud Document Management, Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
-# Mark a cloud file as a non-sharable file
+# Mark a cloud file as a non-shareable file
 
 Select one of the already linked files and mark it as a non-sharable file. Once a cloud file is marked as non-sharable, it cannot be linked to another record, or it cannot be referenced by any other record​.
 
@@ -34,8 +34,8 @@ Role required: sn\_audit.admin or sn\_audit.manager, sn\_grc\_workspace.user
 
 5.  Select **Mark as non-sharable**.
 
-    When a cloud file is marked as a non-sharable document, it cannot be linked to other records.
+    When a cloud file is marked as a non-shareable document, it cannot be linked to other records.
 
-    The cloud document is marked as a non-sharable document. It cannot be shared or referenced by any other records​.
+    The cloud document is marked as a non-shareable document. It cannot be shared or referenced by any other records​.
 
 

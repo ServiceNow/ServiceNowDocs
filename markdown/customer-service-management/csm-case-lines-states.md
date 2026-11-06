@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-lines-states.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Case lines and workflows, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case Lines and Workflows, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case line item states
@@ -72,11 +72,11 @@ The change to the case line item has been denied.
 
 </td></tr><tr><td>
 
-Canceled
+Cancelled
 
 </td><td>
 
-The case line item has been canceled.
+The case line item has been cancelled.
 
 </td></tr></tbody>
 </table>## Syncing the state of a case with the case line items
@@ -133,15 +133,15 @@ If all of the case line items are in a terminal state, the case can be set to Cl
 
 -   Resolved - Accepted
 -   Resolved - Denied
--   Canceled
+-   Cancelled
 
 </td></tr><tr><td>
 
-Canceled
+Cancelled
 
 </td><td>
 
-When a case in the Draft state is set to canceled, the status of each associated case line item is also set to canceled.**Note:** Agents can only cancel cases in the Draft state.
+When a case in the Draft state is set to Cancelled, the status of each associated case line item is also set to Cancelled.**Note:** Agents can only cancel cases in the Draft state.
 
 </td></tr></tbody>
 </table>

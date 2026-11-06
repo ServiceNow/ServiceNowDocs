@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateANotification.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 21
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -566,7 +566,7 @@ Adding the **$\{URI\}** parameter to an outbound email body or template creates 
 -   **[Email unsubscribe links](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/email-unsubscribe.md)**  
 Administrators can enable your users to stop receiving particular email messages by adding unsubscribe links to notifications.
 -   **[Scripting for email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_ScriptingForEmailNotifications.md)**  
-Email scripts allow for business rule-like scripting within an outbound email message.
+Email scripts enable you to use business rule-like scripting within an outbound email message.
 -   **[Baseline email notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/r_BaselineEmailNotifications.md)**  
 The baseline system provides several email notifications.
 -   **[Notification example: notify an assignment group of updates to Priority 1 Incidents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_Ex4Priority1IncUpdateNotif.md)**  
@@ -583,6 +583,8 @@ Notify users who are assigned a Task \[task\] record.
 
 [Email notifications dashboard]()
 
+[Email diagnostics dashboard]()
+
 [Email templates]()
 
 [Email layouts]()
@@ -597,5 +599,5 @@ Notify users who are assigned a Task \[task\] record.
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

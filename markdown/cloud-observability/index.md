@@ -1,11 +1,11 @@
 ---
-title: Yokohama Cloud Observability
+title: Brazil Cloud Observability
 locale: en-US
 release: yokohama
 bundle: cldobs
 doc_type: toc
 ---
 
-# Yokohama Cloud Observability
+# Brazil Cloud Observability
 
 - [Cloud Observability](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/cloud-observability/cloud-observability-landing.md) -- Gain insights to detect and quickly respond to changes in cloud-native and monolithic applications.placeholder

@@ -7,7 +7,7 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate HR Integrations, HR Integrations, Integration of HR Service Delivery with third-party systems, HR Service Delivery, Employee Service Management]
 ---
@@ -24,9 +24,9 @@ Demo data is available for this feature.
 
 ## Roles installed
 
-<table id="table_xps_wwl_d2b"><thead><tr><th>
+<table id="table_fl3_fx1_ggc"><thead><tr><th>
 
-Role title \[name\]
+Role Name
 
 </th><th>
 
@@ -38,7 +38,7 @@ Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
-HR integrations administrator\[sn\_hr\_integrations.admin\]
+HR integrations administrator \[sn\_hr\_integrations.admin\]
 
 </td><td>
 
@@ -50,7 +50,7 @@ sn\_hr\_integrations.user
 
 </td></tr><tr><td>
 
-HR integrations user\[sn\_hr\_integrations.user\]
+HR integrations user \[sn\_hr\_integrations.user\]
 
 </td><td>
 
@@ -63,15 +63,42 @@ None
 </td></tr></tbody>
 </table>## Scheduled jobs installed
 
-|Scheduled job|Description|
-|-------------|-----------|
-|Assign HR Client Roles for Integration Users Sync|Assigns HR roles for integration users daily.|
-|HR Integrations - External Interface Push Retry Job|Retries data push to the third-party system on a periodic basis.|
-|HR Integrations-Accurate Background Check Get Order Updates|Gets background check order updates for the Accurate integration on a periodic basis.|
+<table id="table_ixq_yx1_ggc"><thead><tr><th>
 
-## Tables installed
+Scheduled Job
 
-<table id="table_pfy_pqk_hbb"><thead><tr><th>
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr><td>
+
+Assign HR Client Roles for Integration Users Sync.
+
+</td><td>
+
+Assigns HR roles for integration users daily.
+
+</td></tr><tr><td>
+
+HR Integrations - External Interface Push Retry Job.
+
+</td><td>
+
+Retries data push to the third-party system on a periodic basis.
+
+</td></tr><tr><td>
+
+HR Integrations-Accurate Background Check Get Order Updates.
+
+</td><td>
+
+Gets background check order updates for the Accurate integration on a periodic basis.
+
+</td></tr></tbody>
+</table>## Tables installed
+
+<table id="table_rqp_ny1_ggc"><thead><tr><th>
 
 Table
 
@@ -81,7 +108,9 @@ Description
 
 </th></tr></thead><tbody><tr><td>
 
-HR Integrations Additional Inputs\[sn\_hr\_integrations\_additional\_inputs\]
+HR Integrations Additional Inputs
+
+ \[sn\_hr\_integrations\_additional\_inputs\]
 
 </td><td>
 
@@ -89,7 +118,9 @@ Table for additional inputs.
 
 </td></tr><tr><td>
 
-Background Check Packagesn\_hr\_integrations\_background\_check\_package\]
+Background Check Package
+
+ \[sn\_hr\_integrations\_background\_check\_package\]
 
 </td><td>
 
@@ -97,7 +128,9 @@ Table for background check packages.
 
 </td></tr><tr><td>
 
-HR Integrations Background Check Staging\[sn\_hr\_integrations\_background\_check\_staging\]
+HR Integrations Background Check Staging
+
+ \[sn\_hr\_integrations\_background\_check\_staging\]
 
 </td><td>
 
@@ -105,7 +138,9 @@ Staging table for background checks.
 
 </td></tr><tr><td>
 
-HR Integrations Department Staging\[sn\_hr\_integrations\_dept\_staging\]
+HR Integrations Department Staging
+
+ \[sn\_hr\_integrations\_dept\_staging\]
 
 </td><td>
 
@@ -113,7 +148,9 @@ Staging table for departments.
 
 </td></tr><tr><td>
 
-HR Integrations External Interface\[sn\_hr\_integrations\_external\_interface\]
+HR Integrations External Interface
+
+ \[sn\_hr\_integrations\_external\_interface\]
 
 </td><td>
 
@@ -121,7 +158,9 @@ Table for HR external interfaces.
 
 </td></tr><tr><td>
 
-HR Integrations Job Profile\[sn\_hr\_integrations\_job\_profile\]
+HR Integrations Job Profile
+
+ \[sn\_hr\_integrations\_job\_profile\]
 
 </td><td>
 
@@ -129,7 +168,9 @@ Staging table for job profiles.
 
 </td></tr><tr><td>
 
-HR Integrations Job Tracker\[sn\_hr\_integrations\_job\_tracker\]
+HR Integrations Job Tracker
+
+ \[sn\_hr\_integrations\_job\_tracker\]
 
 </td><td>
 
@@ -137,7 +178,9 @@ Table for job trackers.
 
 </td></tr><tr><td>
 
-Leave Types\[sn\_hr\_integrations\_leave\_type\]
+Leave Types
+
+ \[sn\_hr\_integrations\_leave\_type\]
 
 </td><td>
 
@@ -145,7 +188,9 @@ Table for leave types.
 
 </td></tr><tr><td>
 
-HR Integrations Location Staging\[sn\_hr\_integrations\_loc\_staging\]
+HR Integrations Location Staging
+
+ \[sn\_hr\_integrations\_loc\_staging\]
 
 </td><td>
 
@@ -153,7 +198,9 @@ Staging table for locations.
 
 </td></tr><tr><td>
 
-HR Integrations Outbound Schema Mapping\[sn\_hr\_integrations\_outbound\_schema\_mapping\]
+HR Integrations Outbound Schema Mapping
+
+ \[sn\_hr\_integrations\_outbound\_schema\_mapping\]
 
 </td><td>
 
@@ -161,7 +208,9 @@ Table for HR outbound schema mappings.
 
 </td></tr><tr><td>
 
-HR Integrations Outbound Service\[sn\_hr\_integrations\_outbound\_service\]
+HR Integrations Outbound Service
+
+ \[sn\_hr\_integrations\_outbound\_service\]
 
 </td><td>
 
@@ -169,7 +218,9 @@ Table for HR integration outbound services.
 
 </td></tr><tr><td>
 
-HR Integrations Outbound Service Trigger\[sn\_hr\_integrations\_outbound\_service\_trigger\]
+HR Integrations Outbound Service Trigger
+
+ \[sn\_hr\_integrations\_outbound\_service\_trigger\]
 
 </td><td>
 
@@ -177,7 +228,9 @@ Table for outbound service trigger.
 
 </td></tr><tr><td>
 
-HR Integrations Schema Mapping\[sn\_hr\_integrations\_schema\_mapping\]
+HR Integrations Schema Mapping
+
+ \[sn\_hr\_integrations\_schema\_mapping\]
 
 </td><td>
 
@@ -185,7 +238,9 @@ Table for HR schema mappings.
 
 </td></tr><tr><td>
 
-HR Integrations Service\[sn\_hr\_integrations\_service\]
+HR Integrations Service
+
+ \[sn\_hr\_integrations\_service\]
 
 </td><td>
 
@@ -193,7 +248,9 @@ Table for HR integration services.
 
 </td></tr><tr><td>
 
-HR Integrations Service Job Tracker\[sn\_hr\_integrations\_service\_job\_tracker\]
+HR Integrations Service Job Tracker
+
+ \[sn\_hr\_integrations\_service\_job\_tracker\]
 
 </td><td>
 
@@ -201,7 +258,9 @@ Table for service job trackers.
 
 </td></tr><tr><td>
 
-HR Integrations Service Mapping\[sn\_hr\_integrations\_service\_mapping\]
+HR Integrations Service Mapping
+
+ \[sn\_hr\_integrations\_service\_mapping\]
 
 </td><td>
 
@@ -209,7 +268,9 @@ Table for HR service mappings.
 
 </td></tr><tr><td>
 
-HR Integrations Source\[sn\_hr\_integrations\_source\]
+HR Integrations Source
+
+ \[sn\_hr\_integrations\_source\]
 
 </td><td>
 
@@ -217,7 +278,9 @@ Table for sources.
 
 </td></tr><tr><td>
 
-HR Integrations Source Properties\[sn\_hr\_integrations\_source\_properties\]
+HR Integrations Source Properties
+
+ \[sn\_hr\_integrations\_source\_properties\]
 
 </td><td>
 
@@ -225,7 +288,9 @@ Table for source properties.
 
 </td></tr><tr><td>
 
-HR Integrations Source Version\[sn\_hr\_integrations\_source\_version\]
+HR Integrations Source Version
+
+ \[sn\_hr\_integrations\_source\_version\]
 
 </td><td>
 
@@ -233,15 +298,21 @@ Table for source versions.
 
 </td></tr><tr><td>
 
-HR Integrations Staging\[sn\_hr\_integrations\_staging\]
+HR Integrations Staging
+
+ \[sn\_hr\_integrations\_staging\]
 
 </td><td>
 
-Core HR integrations staging table.**Note:** All HR integrations staging tables should be an extension of this core table.
+Core HR integrations staging table.
+
+ **Note:** All HR integrations staging tables should be an extension of this core table.
 
 </td></tr><tr><td>
 
-HR Integrations Worker Profile\[sn\_hr\_integrations\_worker\_profile\]
+HR Integrations Worker Profile
+
+ \[sn\_hr\_integrations\_worker\_profile\]
 
 </td><td>
 

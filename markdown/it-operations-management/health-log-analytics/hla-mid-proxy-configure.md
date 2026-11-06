@@ -1,5 +1,5 @@
 ---
-title: MID Server proxy preconditions for streaming logs to HLA
+title: MID Server proxy preconditions for streaming logs to Health Log Analytics
 description: Requirements for using a MID Server proxy to stream log data to Health Log Analytics.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/health-log-analytics/hla-mid-proxy-configure.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Health Log Analytics reference, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
-# MID Server proxy preconditions for streaming logs to HLA
+# MID Server proxy preconditions for streaming logs to Health Log Analytics
 
 Requirements for using a MID Server proxy to stream log data to Health Log Analytics.
 

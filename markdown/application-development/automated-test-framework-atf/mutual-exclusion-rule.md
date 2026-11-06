@@ -7,16 +7,16 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Mutually exclusive tests
 
 Prevent conflicting tests from running in parallel by marking them as mutually exclusive. For example, when the system identifies tests that modify the same record, the system makes these tests mutually exclusive. You can also manually mark tests as mutually exclusive.
 
-The system marks tests as mutually exclusive when there is a potential resource conflict. When the system can't detect resource conflicts automatically, you can create your own mutual exclusion rules that can prevent conflicting tests from running in parallel. For example, if a test changes a sys\_properties record, the record shows up under **Records Modified** of that test. If the validation path of another test depends on the same sys\_properties record without any change, that test fails. This can occur if the previous test runs at the same time.\[Omitted image "atf-mutual-exclusive.gif"\] Alt text: Gif showing how to make a test mutually exclusive
+The system marks tests as mutually exclusive when there is a potential resource conflict. When the system can't detect resource conflicts automatically, you can create your own mutual exclusion rules that can prevent conflicting tests from running in parallel. For example, if a test changes a sys\_properties record, the record shows up under **Records Modified** of that test. If the validation path of another test depends on the same sys\_properties record without any change, that test fails. This can occur if the previous test runs at the same time.
 
 You can view mutually exclusive tests on the Mutually Exclusive Tests related list in the test form. This related list shows all tests that don't run in parallel with the current test and the reason. The same test might appear more than once in the list if there are multiple reasons.
 
@@ -47,7 +47,7 @@ You can mark tests as mutually exclusive using any of the following methods.
     **Note:** The **Parallel Test Runs** tab is visible only if the test runs in parallel with one or more tests.
 
 
-**Parent Topic:**[Automated Test Framework \(ATF\) tests types and testing ways](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
@@ -58,5 +58,9 @@ You can mark tests as mutually exclusive using any of the following methods.
 
 [Parallel testing]()
 
+[Accelerate ATF tests failure resolution]()
+
 [Performance profiling]()
+
+[ATF Health Check]()
 

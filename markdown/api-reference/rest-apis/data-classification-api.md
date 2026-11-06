@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -650,11 +650,10 @@ curl "https://instance.servicenow.com/api/now/data_classification/getClassificat
 --request POST \
 --header "Accept:application/json" \
 --header "Content-Type:application/json" \
+--user 'username':'password'
 --data "{
     \"dictionary_entries\": \"445de0a6dba30300efc57416bf9619b0\"
 }" \
---user 'username':'password'
-
 ```
 
 ```

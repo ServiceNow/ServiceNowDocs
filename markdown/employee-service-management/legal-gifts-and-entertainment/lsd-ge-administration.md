@@ -1,5 +1,5 @@
 ---
-title: Setting up Gifts and Entertainment Compliance
+title: Configure Gifts and Entertainment Compliance
 description: Configure the foundation data required for managing the gift and entertainment disclosure requests.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Setting up Gifts and Entertainment Compliance
+# Configure Gifts and Entertainment Compliance
 
 Configure the foundation data required for managing the gift and entertainment disclosure requests.
 

@@ -1,5 +1,5 @@
 ---
-title: Exploring the Dispute Rules Content Pack for Mastercard
+title: Exploring Dispute Rules Content Pack for Mastercard
 description: Learn how the Dispute Rules Content Pack for Mastercard application uses dispute mapping to ensure that your organization can properly categorize and process disputes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/exploring-the-dispute-rules-content-pack-for-mastercard.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispute Rules Content Pack for Mastercard, Managing Mastercard disputes, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Dispute Rules Content Pack for Mastercard, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
-# Exploring the Dispute Rules Content Pack for Mastercard
+# Exploring Dispute Rules Content Pack for Mastercard
 
 Learn how the Dispute Rules Content Pack for Mastercard application uses dispute mapping to ensure that your organization can properly categorize and process disputes.
 

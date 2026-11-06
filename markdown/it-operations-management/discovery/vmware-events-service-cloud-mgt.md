@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Discovery for VMware Cloud, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery for VMware, Discovery for cloud environment, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Configure the VMware Events service to auto-update the CMDB
@@ -41,7 +41,7 @@ To connect to a different MID Server or vCenter: Update the settings and then cl
 
 If you are on a domain separated instance, only those events that are updated to the CMDB and belong to your domain are visible. Events create configuration items \(CI\) in the same domain as the cloud service account they are mapped to. Events that are not associated to a service account are visible to all domains.
 
-During event processing, the Cloud Event Scheduler identifies the domain of the service account and assigns to the event. If an error occurs in identifying the domain before processing, the event can sometimes stay unassigned and become visible to all domains. To prevent this, you can set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain. This ensures that failed events appear only to the service-provider domain administrator.
+During event processing, the Cloud Event Scheduler identifies the domain of the associated service account and assigns it to the event. If domain identification fails before processing, the event can remain unassigned and be visible across all domains. To limit the visibility of failed events to the service-provider administrator, set the **sn\_cmp.error\_events.default\_domain** property to the sys\_id of the service-provider domain.
 
 ## Procedure
 

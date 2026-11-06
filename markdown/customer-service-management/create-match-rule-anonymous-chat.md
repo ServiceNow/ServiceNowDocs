@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-match-rule-anonymous-chat.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Anonymous chat, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Anonymous chat, Administer, Customer Service Management]
 ---
 
 # Create a matching rule for anonymous chat

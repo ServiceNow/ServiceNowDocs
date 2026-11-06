@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-09-03"
+last_updated: "2026-03-12"
 reading_time_minutes: 9
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Azure DevOps Boards Spoke
@@ -18,7 +18,7 @@ Automate the process of managing work items in Azure DevOps Boards from your Ser
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Azure DevOps Boards spoke v3.1.3 is the latest version.
+Azure DevOps Boards spoke v3.1.3 is the latest version. For version history of the spoke, see [Microsoft Azure DevOps Boards spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-azure-devops.html).
 
 ## Supported versions
 
@@ -143,10 +143,7 @@ Available AI agents include:
 |Microsoft Azure DevOps Boards core process management AI agent|Manages core process management tasks \(that is, look up a projects stream, look up area paths, look up an area path of a team, look up work item types by process, look up team settings, look up an iteration by path, look up work item data by ID, look up creatable fields, look up work item types, look up iteration paths of a team, look up processes, look up editable fields, look up an area by path, delete a team iteration, look up work item relations by ID, look up queries by Wiql, create an iteration, look up work item type fields by process, look up teams, post an iteration to a team, look up iteration paths, update an iteration, delete an iteration\) in Microsoft Azure DevOps Boards.|
 |Microsoft Azure DevOps Boards work item management AI agent|Manages work item management tasks \(that is, add an attachment, delete a work item, create a link between work items, create a service hook, delete a link between work items, update work item project details\) inMicrosoft Azure DevOps Boards.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/digi-resi-ref.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -14,6 +14,8 @@ breadcrumb: [Reference, Operational Resilience, Governance, Risk, and Compliance
 
 Reference topics provide additional information about Digital resilience third-party registers including roles and tables.
 
+-   **[Properties installed with Digital Operational Resilience Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/properties-dora.md)**  
+When you install the Digital Operational Resilience Management application, several system properties are added to your instance. You can access the properties by navigating to **All &gt; Digital Operational Resilience Management &gt; Properties** &gt; **.**
 -   **[Roles installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/roles-for-drtpr.md)**  
 Specific roles are installed with Digital resilience third-party registers.
 -   **[Tables installed with Digital resilience third-party registers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/tables-for-drtpr.md)**  

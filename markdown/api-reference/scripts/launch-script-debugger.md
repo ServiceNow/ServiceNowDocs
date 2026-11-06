@@ -1,20 +1,20 @@
 ---
-title: Launch the Script Debugger
-description: Developers can launch the Script Debugger from the application navigator, Studio, or from the syntax editor.
+title: Access the Script Debugger
+description: Developers can access the Script Debugger from the application navigator, Studio, or from the syntax editor.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/api-reference/scripts/launch-script-debugger.html
 release: yokohama
 product: Scripts
 classification: scripts
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Script Debugger and Session Log, Debugging scripts, Scripting, API implementation, API implementation and reference]
+breadcrumb: [Use Script Debugger, Debug scripts, Scripting, API implementation, API implementation and reference]
 ---
 
-# Launch the Script Debugger
+# Access the Script Debugger
 
-Developers can launch the Script Debugger from the application navigator, Studio, or from the syntax editor.
+Developers can access the Script Debugger from the application navigator, Studio, or from the syntax editor.
 
 ## Before you begin
 

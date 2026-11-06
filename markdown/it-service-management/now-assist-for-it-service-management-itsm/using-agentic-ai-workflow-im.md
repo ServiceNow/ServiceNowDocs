@@ -1,5 +1,5 @@
 ---
-title: Agentic AI Now Assist for Incident Management
+title: Agentic AI in ServiceNow Otto for Incident Management
 description: Use the ITSM Incident Management agentic workflows to manage, resolve and close incidents and incident tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/now-assist-for-it-service-management-itsm/using-agentic-ai-workflow-im.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: concept
-last_updated: "2025-11-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Use agentic AI in IT Service Management, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
 
-# Agentic AI Now Assist for Incident Management
+# Agentic AI in ServiceNow Otto for Incident Management
 
 Use the ITSM Incident Management agentic workflows to manage, resolve and close incidents and incident tasks autonomously.
 

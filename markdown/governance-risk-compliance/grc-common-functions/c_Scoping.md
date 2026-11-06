@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Explore entities, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -20,7 +20,7 @@ Entity scoping is permitted in each of the core GRC applications. Scoping provid
 
 **Note:** Starting with the New York release, the term profile was replaced with the term entity. See [Governance, Risk, and Compliance application nomenclature updates and industry terminology](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/grc-terms.md) for more information about all updated GRC application terms.
 
-Organizations have various control owners maintaining individual files and spreadsheets for tracking the compliance of different systems, projects, organizations, etc. In this environment, risk managers cannot prevent or even be aware of the duplicate risks and controls created on shared entities. The entire purpose of entity scoping is to provide a top-down approach for maintaining your risk universe, which is the hierarchical library of both risks and controls. Mature organizations with a healthy risk posture find that most risks are standard and recurring. Entity scoping helps you catalog and visualize upstream and downstream risks and controls based on the roll up of the related entities.
+Organizations have various control owners maintaining individual files and spreadsheets for tracking the compliance of different systems, projects, organizations, etc. In this environment, risk managers cannot avoid or even be aware of the duplicate risks and controls created on shared entities. The entire purpose of entity scoping is to provide a top-down approach for maintaining your risk universe, which is the hierarchical library of both risks and controls. Mature organizations with a healthy risk posture find that most risks are standard and recurring. Entity scoping helps you catalog and visualize upstream and downstream risks and controls based on the roll up of the related entities.
 
 \[Omitted image "entity-approach.png"\] Alt text: Legacy bottom-up approach to improved top-down system
 

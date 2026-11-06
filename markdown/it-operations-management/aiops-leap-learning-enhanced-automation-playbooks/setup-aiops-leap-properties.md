@@ -1,32 +1,36 @@
 ---
-title: Setup AIOps LEAP properties
-description: Configure AIOps LEAP properties to estimate cost and time savings calculations for your organization.
+title: Setup LEAP properties
+description: Configure LEAP properties to estimate cost and time savings calculations for your organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/setup-aiops-leap-properties.html
 release: yokohama
 product: AIOps LEAP \(Learning-Enhanced Automation Playbooks\)
 classification: aiops-leap-learning-enhanced-automation-playbooks
 topic_type: task
-last_updated: "2025-11-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring AIOps LEAP, AIOps Learning Enhanced Automation Playbook \(LEAP\), ServiceNow Otto for ITOM, IT Operations Management]
+breadcrumb: [Configure, Learning Enhanced Automation Platform \(LEAP\), ITOM Visibility, IT Operations Management]
 ---
 
-# Setup AIOps LEAP properties
+# Setup LEAP properties
 
-Configure AIOps LEAP properties to estimate cost and time savings calculations for your organization.
+Configure LEAP properties to estimate cost and time savings calculations for your organization.
 
 ## Before you begin
 
 Role required: LEAP admin
 
+Each knowledge base you plan to use in LEAP must have the correct Can Contribute permissions configured before you set up knowledge base routing. See [Knowledge base permissions for LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/configure-knowledge-base-user-collections.md).
+
 ## About this task
 
-If you are a first-time user of AIOps LEAP, then use the default values to get an understanding of how each of these values are used for estimation. You can later modify these values to suit your organization requirements.
+If you are a first-time user of LEAP, review the default values before making changes.
+
+Settings include three configuration areas: cost and time savings estimation, AI agent behavior, and knowledge base routing. AI agent configuration controls the conditions under which the LEAP AI agent automatically creates problem records and knowledge base articles, such as minimum incident count and severity thresholds. Knowledge base routing controls where articles are stored when created by the LEAP AI agent or manually from an automation opportunity. Selecting a default knowledge base is mandatory — you cannot save settings without one. For details on all fields, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md).
 
 ## Procedure
 
-1.  Click **Configure settings**.
+1.  Select **Configure settings**.
 
 2.  On the settings page, choose one of the following options:
 
@@ -35,14 +39,14 @@ If you are a first-time user of AIOps LEAP, then use the default values to get a
         2.  Review the default values for each property.
         3.  Select **Save**.
 
-            **Note:** AIOps LEAP recommends using default values initially to view and understand the cost and time savings estimates.
+            **Note:** LEAP recommends using default values initially to view and understand the cost and time savings estimates.
 
     -   Upgrade
         1.  Select **Configure settings**.
         2.  Review the default values for each property.
         3.  Modify values as needed.
         4.  Select **Save**.
-3.  You are redirected to the AIOps LEAP landing page. For details on each field, see [AIOps LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md)
-4.  [Activate AIOps LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
+3.  You are redirected to the LEAP landing page. For details on each field, see [LEAP settings fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/aiops-leap-settings-fields.md)
+4.  [Activate LEAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/aiops-leap-learning-enhanced-automation-playbooks/activate-aiops-leap.md).
 
 

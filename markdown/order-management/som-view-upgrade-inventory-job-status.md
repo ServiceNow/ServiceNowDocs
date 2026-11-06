@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-view-upgrade-inventory-job-status.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Updating specification versions, Create an order in Order Management, Using Order Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Updating specification versions, Specifications and product offerings, Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # View upgrade inventory job status
@@ -16,7 +16,7 @@ View the status of a specification upgrade job using the upgrade inventory Job s
 
 ## Before you begin
 
-Role required: sn\_ind\_tmt\_orm.order\_agentadmin
+Role required: sn\_ind\_tmt\_orm.order\_agent
 
 ## Procedure
 
@@ -35,4 +35,11 @@ Role required: sn\_ind\_tmt\_orm.order\_agentadmin
 
 
 **Parent Topic:**[Updating specification versions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-specification-version-update.md)
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Invention Disclosure
 classification: legal-invention-disclosure
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the Legal Invention Disclosure, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Invention Disclosure, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Associate an existing Outside Counsel to a legal matter
@@ -32,7 +32,7 @@ Role required: admin, sn\_lg\_ops.request\_fulfiller
 
 1.  Navigate to **All** &gt; **Legal Counsel Center**.
 
-2.  Select the List icon \(\[Omitted image "list-icon-hs.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
+2.  Select the List icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\) from the primary navigation and in the Legal Requests section of the **Lists** menu, select **All**.
 
 3.  Select and open the request.
 

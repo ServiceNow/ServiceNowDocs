@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Payment Operations
 classification: financial-services-payment-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Payment Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Payment Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Payment Operations reference
@@ -24,6 +24,8 @@ Customize the properties that are available with Financial Services Payment Oper
 Payment inquiry cases help the inquiry agents resolve inquiries that they receive from the bank's customers or third-party banks.
 -   **[Field descriptions for a claim case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/claim-form-fields.md)**  
 Claim cases help the claim agents resolve payment claim requests that they receive from the bank's customers or third-party banks.
+-   **[Domain separation and Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/domain-separation-financial-services-payment-operations.md)**  
+Domain separation is supported for Financial Services Payment Operations. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 
 **Parent Topic:**[Financial Services Payment Operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-payment-operations/payment-ops-landing-page.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Employee Relations case restrictions, Configure, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure an employee relations case restriction
@@ -21,6 +21,8 @@ Define what groups can view or access employee relations cases using Case Restri
 Role required: admin and sn\_hr\_er.admin
 
 **Warning:** When creating case restrictions, be sure that you have at least one configuration that enables you to read these cases.
+
+## Case restriction configuration
 
 ## Procedure
 
@@ -89,8 +91,12 @@ Option to activate the case restriction configuration record.
 
 6.  Click **Update**.
 
-    **Note:** Collaborators on an HR or ER case can override COE security. But, ER cases with restrictions override collaborators. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-categorization.md).
+    **Note:** Collaborators on an HR or ER case can override COE security. But, ER cases with restrictions override collaborators. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
 
     COE security policies are a way to easily restrict access to different COEs via configuration. The underlying COE security policy implementations are [ServiceNow ACLs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/access-control-rules.md).
 
+
+## What to do next
+
+Case restriction configuration enables the HR confidential group members to restrict a case using the **Restrict** button available on the case. When a case is marked as Restricted only the members in the HR confidential group can view the ER case.
 

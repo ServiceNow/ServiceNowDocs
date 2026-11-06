@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Custom URLs association to your instance, Authentication, Access Management]
+breadcrumb: [Custom instance URLs, Authentication, Access Management]
 ---
 
 # Custom URL errors and fixes

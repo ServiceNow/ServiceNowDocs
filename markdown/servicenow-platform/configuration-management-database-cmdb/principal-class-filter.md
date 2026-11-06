@@ -1,20 +1,20 @@
 ---
 title: Principal Class
-description: A Principal Class is a designation for these CMDB classes that are most critical for foundational data health and governance in the organization. Those designated classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
+description: A Principal Class is a designation for those CMDB classes that are most critical for foundational data health and governance in the organization. Those classes are then prioritized for tracking, health, certification, lifecycle management, and class list views.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/principal-class-filter.html
 release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2026-07-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Principal Class
 
-A Principal Class is a designation for these CMDB classes that are most critical for foundational data health and governance in the organization. Those designated classes are prioritized for tracking, health, certification, lifecycle management, and class list views.
+A Principal Class is a designation for those CMDB classes that are most critical for foundational data health and governance in the organization. Those classes are then prioritized for tracking, health, certification, lifecycle management, and class list views.
 
 Designating certain CMDB classes as principal classes is a strategic way to focus your CMDB and governance on the CIs that matter most to day-to-day operations. Principal classes identify the classes that are in scope for operational processes—such as change, incident, problem, and quality management. Those classes represent the most critical infrastructure components with meaningful service impact. Limiting some CMDB functions to this set of most essential classes can help organizations improve data quality and ownership, reduce noise in reporting and impact analysis, and more consistently measure health, compliance, and operational risk where it counts.
 
@@ -40,10 +40,10 @@ For more information, see the [Guidance on designating principal classes in the 
 The Principal Class filter has uses across the CMDB, such as:
 
 -   In CI lists and dashboards: The Principal Class filter restricts CIs to only those in the filter, so you can focus on those CIs that require attention. For more information about list view filters, see [Save and use filters in a list view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/t_SavingFilters.md).
--   Service Graph Workspace and CMDB Workspace: You can apply the Principal Class filter in the Discovery sources card in the CMDB 360 dashboard. For more information, see [CMDB 360 experience in CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md).
+-   Service Graph Workspace and CMDB Workspace: You can apply the Principal Class filter in the Discovery sources card in the CMDB 360 dashboard. For more information, see [CMDB 360 experience in CMDB Workspace and in Service Graph Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb360-exp-cmdb-workspace.md).
 -   CMDB success advisor: CMDB success advisor dashboards rely on principal classes to generate recommendations and KPIs. You can set principal classes in CMDB success advisor for Data Foundations to track the foundational data health of your CMDB. This alignment ensures that insights reflect actual business priorities. For more information, see [CMDB success advisor](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-sa.md).
--   HAM \(Hardware Asset Management\) integration: When model categories are added to the CMDB success advisor for HAM, they are marked as principal classes if they weren't already and will appear in the CMDB success advisor for Data Foundations if already set up. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md), [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ham-landing-page.md), and [CMDB CI Class Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
--   Principal CI class agent in Now Assist for CMDB: This agent suggests classes to be set as principal classes, and then automates setup for consistency across environments. For more information, see [Getting advice from Now Assist on CMDB governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-governance.md).
+-   HAM \(Hardware Asset Management\) integration: When model categories are added to the CMDB success advisor for HAM, they are marked as principal classes if they weren't already and will appear in the CMDB success advisor for Data Foundations if already set up. For more information, see [Using CMDB success advisor for HAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/cmdb-sa-ham-use.md), [Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/ham-landing-page.md), and [CMDB CI Class Models app](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/cmdb-ci-class-models/cmdb-ci-class-models.md).
+-   Principal CI class agent in ServiceNow Otto for CMDB: This agent suggests classes to be set as principal classes, and then automates setup for consistency across environments. For more information, see [Getting advice from ServiceNow Otto on CMDB governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/now-assist-for-configuration-management-database-cmdb/na-cmdb-awf-governance.md).
 
 ## Task types for Principal Class
 
@@ -61,17 +61,17 @@ Manage the list of classes in the Principal Class filter so that those classes a
 **Related topics**  
 
 
-[Dependent CIs management]()
-
 [CMDB record types]()
 
 [Related Lists of CI components]()
 
+[Dependent CIs management]()
+
 [Create a CI class]()
+
+[View and edit class definitions and metadata]()
 
 [Reclassify a CI]()
 
 [Delete CIs]()
-
-[View and edit class definitions and metadata]()
 

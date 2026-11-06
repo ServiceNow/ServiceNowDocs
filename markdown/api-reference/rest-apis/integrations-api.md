@@ -7,7 +7,7 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 150
 breadcrumb: [REST API reference, API reference, API implementation and reference]
 ---
@@ -719,7 +719,7 @@ items.household
 
 </td><td id="household-integration-entry">
 
-Details about the household associated with the install base item record. Only returned if the Customer Service Household \(com.snc.household\) plugin is installed.Data type: Object
+Details about the household associated with the install base item record. Only returned if the Customer Household Data Model \(com.snc.household\) plugin is installed.Data type: Object
 
 ```
 "household": {
@@ -1921,7 +1921,7 @@ item.household
 
 </td><td>
 
-Details about the household associated with the install base item record. Only returned if the Customer Service Household \(com.snc.household\) plugin is installed.Data type: Object
+Details about the household associated with the install base item record. Only returned if the Customer Household Data Model \(com.snc.household\) plugin is installed.Data type: Object
 
 ```
 "household": {
@@ -4774,7 +4774,7 @@ items.household
 
 </td><td id="household-integration-entry">
 
-Details about the household associated with the install base item record. Only returned if the Customer Service Household \(com.snc.household\) plugin is installed.Data type: Object
+Details about the household associated with the install base item record. Only returned if the Customer Household Data Model \(com.snc.household\) plugin is installed.Data type: Object
 
 ```
 "household": {
@@ -8929,7 +8929,7 @@ household
 
 </td><td id="household-request-integration-entry">
 
-Sys\_id of the household associated with the install base item record.**Note:** This field is only valid when the Customer Service Household \(com.snc.household\) plugin is installed.
+Sys\_id of the household associated with the install base item record.**Note:** This field is only valid when the Customer Household Data Model \(com.snc.household\) plugin is installed.
 
 Data type: String
 
@@ -10484,7 +10484,7 @@ item.household
 
 </td><td>
 
-Details about the household associated with the install base item record. Only returned if the Customer Service Household \(com.snc.household\) plugin is installed.Data type: Object
+Details about the household associated with the install base item record. Only returned if the Customer Household Data Model \(com.snc.household\) plugin is installed.Data type: Object
 
 ```
 "household": {
@@ -11071,7 +11071,7 @@ household
 
 </td><td id="household-request-integration-entry">
 
-Sys\_id of the household associated with the install base item record.**Note:** This field is only valid when the Customer Service Household \(com.snc.household\) plugin is installed.
+Sys\_id of the household associated with the install base item record.**Note:** This field is only valid when the Customer Household Data Model \(com.snc.household\) plugin is installed.
 
 Data type: String
 
@@ -11627,7 +11627,7 @@ item.household
 
 </td><td>
 
-Details about the household associated with the install base item record. Only returned if the Customer Service Household \(com.snc.household\) plugin is installed.Data type: Object
+Details about the household associated with the install base item record. Only returned if the Customer Household Data Model \(com.snc.household\) plugin is installed.Data type: Object
 
 ```
 "household": {

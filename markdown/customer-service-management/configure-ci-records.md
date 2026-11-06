@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configure-ci-records.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-09"
+reading_time_minutes: 2
+breadcrumb: [Configure the Customer Information view using CSM Agent Workspace, Configure Customer Central, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Configure records for the Customer Information view
@@ -20,7 +20,7 @@ Role required: admin
 
 ## About this task
 
-Records are displayed in the Customer Information view in Agent Workspace.
+Records are displayed in the Customer Information view in CRM Workspace.
 
 \[Omitted image "customer-records.jpg"\] Alt text: Contact section displaying the contact details of the customer.
 
@@ -85,9 +85,14 @@ Fields
 
 </td><td>
 
-Select the fields to display on the record.
+Select the fields to display on the record. **Note:** For the out-of-the-box **Contact** and **Consumer** record configurations, the **Fields** value is locked and displays the default fields for the corresponding context table. To display additional or different fields on the Contact Card in the Customer Information view, see [Configure fields on the Contact Card in the Customer Information view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-contact-card-fields.md).
 
 </td></tr></tbody>
 </table>4.  Select **Submit**.
 
+
+**Related topics**  
+
+
+[Configure fields on the Contact Card in the Customer Information view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-contact-card-fields.md)
 

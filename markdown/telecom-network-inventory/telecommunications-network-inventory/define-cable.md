@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Manually creating and reviewing your network asset instances, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manually creating and reviewing your network asset instances, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the cable details
@@ -22,7 +22,7 @@ Role required: sn\_ni\_core.inventory\_admin, sn\_ni\_core.inventory\_agent
 
 ## About this task
 
-Optical fiber cables are installed between sites with open endpoints, indicating that the cables don’t terminate directly on equipment. The cables are pulled through utility holes and spliced together to extend the connection between sites, depending on the distance requirements. When you create a cable record, it creates a corresponding configuration item \(CI\) record in the Fiber Optical Cable \[cmdb\_ci\_fiber\_optical\_cable\] table. To learn more, see [Data model for Telecommunications Network Inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
+Optical fiber cables are installed between sites with open endpoints, indicating that the cables don’t terminate directly on equipment. The cables are pulled through utility holes and spliced together to extend the connection between sites, depending on the distance requirements. When you create a cable record, it creates a corresponding configuration item \(CI\) record in the Fiber Optical Cable \[cmdb\_ci\_fiber\_optical\_cable\] table. To learn more, see [Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/uses-for-network-inventory-data.md).
 
 ## Procedure
 
@@ -60,11 +60,11 @@ Optical fiber cables are installed between sites with open endpoints, indicating
 
 10. To view the visual representation of the selected record, select the more options icon \(\[Omitted image "options-icon.png"\] Alt text: More Options icon.\) and then select **Open Map**.
 
-    **Note:** Install CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
+    **Note:** Install Service Graph Workspace or CMDB Workspace 3.5.0 or greater version to get this button in your instance. To learn more, see [CMDB Workspace](https://store.servicenow.com/sn_appstore_store.do#!/store/application/c8ab76825371201032b7ddeeff7b1280/3.5.0).
 
 11. Capture the attributes for a configuration item \(CI\) record by selecting **Add Packs**.
 
-    To learn more, see [Using an attribute pack for a CI record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
+    To learn more, see [Attribute pack for CI records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-pack-table-ci-record.md).
 
 12. To view the associated network inventories, select the brick icon \(\[Omitted image "infrastructure-relashionship.png"\] Alt text: Brick icon.\).
 
@@ -76,5 +76,5 @@ Optical fiber cables are installed between sites with open endpoints, indicating
 **Related topics**  
 
 
-[Modeling your Telecommunications Network Inventory workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
+[Model your workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/telecommunications-network-inventory-workflow.md)
 

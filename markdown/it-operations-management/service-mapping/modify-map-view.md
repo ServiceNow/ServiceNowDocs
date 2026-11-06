@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Application service analysis and maintenance using classic Service Mapping, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -40,9 +40,9 @@ Attributes you show or hide when you customize maps are not removed permanently 
 
     3.  On the service instance page, select **View Map**.
 
-2.  Click the **Additional actions** menu.
+2.  Select the **Additional actions** menu.
 
-    \[Omitted image "MapAdditionalActionsButton.png"\] Alt text: Click the Additional actions menu on the Map page.
+    \[Omitted image "MapAdditionalActionsButton.png"\] Alt text: Select the Additional actions menu on the Map page.
 
 3.  Select the relevant option:
 
@@ -212,7 +212,7 @@ The map displays a service instance as a tree.
 
  \[Omitted image "MapAddOptionsSpanningTreeOn.png"\] Alt text: Map showing an service instance in the spanning tree view.
 
- To view actual connections, point to a CI. For more information on viewing connections, see [View CI connection attributes in an application service map in classic Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/view-connector-properties.md).
+ To view actual connections, point to a CI. For more information on viewing connections, see [View CI connection attributes in Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/view-connector-properties.md).
 
 </td><td>
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/view-resource-usage-licenses.html
 release: yokohama
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, ITOM/OT SU Licensing and subscriptions, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Review statistics for the resources that can be managed by ITOM products. Compar
 
 Role required: sn\_itom\_license.reader
 
-See ITOM detailed licensing data over time with the ITOM Licensing Dashboard. View daily CI counts or average of the last 90 daily counts. Domain-specific information and specific CI listings for each daily count enable you to monitor and analyze resource usage.
+See ITOM detailed licensing data over time with the ITOM Licensing Dashboard. View daily CI counts or average of the last 90 daily counts. Domain-specific information and specific CI listings for each daily count enable you to monitor and analyze resource usage. You can generate a list of currently countable CIs for each of the ITOM applications as described in [View CIs consuming ITOM subscription units](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-licensing-count.md).
 
 ## Procedure
 

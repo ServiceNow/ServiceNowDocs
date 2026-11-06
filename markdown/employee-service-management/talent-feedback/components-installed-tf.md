@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: reference
-last_updated: "2025-04-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Feedback reference, Talent Feedback, Talent Development, Employee Service Management]
+breadcrumb: [Talent Feedback reference, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Components installed with Talent Feedback
@@ -72,5 +72,4 @@ Talent Feedback Request Skill \[sn\_tf\_feedback\_request\_skill\]
 Stores all the skill related information for the feedback request.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Talent Feedback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-reference.md)
-
+</table>

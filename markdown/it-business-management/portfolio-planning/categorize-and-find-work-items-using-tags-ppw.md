@@ -1,5 +1,5 @@
 ---
-title: Categorize and find work items using tags
+title: Categorize planning items using tags
 description: Categorize your planning items based on your requirement by adding tags.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/categorize-and-find-work-items-using-tags-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Prioritize portfolio plan work, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Categorize and find work items using tags
+# Categorize planning items using tags
 
 Categorize your planning items based on your requirement by adding tags.
 
@@ -36,15 +36,15 @@ Any tagging additions or removals made to a planning item are automatically sync
 
 3.  From the List view of Prioritization, add a tag for a planning item using one of the following options.
 
-<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d49940e113">
+<table id="choicetable_whk_swd_tw"><thead><tr><th align="left" id="d58029e122">
 
 Option
 
-</th><th align="left" id="d49940e116">
+</th><th align="left" id="d58029e125">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d49940e122">
+</th></tr></thead><tbody><tr><td id="d58029e131">
 
 **From the List view of Prioritization**
 
@@ -59,7 +59,7 @@ You can add more tags.
 
  \[Omitted image "add-tags-to-planning-items-from-grid.gif"\] Alt text: Add tags to a planning item from the grid view.
 
-</td></tr><tr><td id="d49940e157">
+</td></tr><tr><td id="d58029e166">
 
 **From the Details page of a planning item**
 
@@ -86,7 +86,7 @@ You can add more tags.
 
     \[Omitted image "edit-tag-in-spw.png"\] Alt text: Edit tag in Portfolio Planning.
 
-<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d49940e234">
+<table id="choicetable_n2j_xn4_c3b"><tbody><tr><td id="d58029e243">
 
 **Me**
 
@@ -94,7 +94,7 @@ You can add more tags.
 
 Tag is visible only to the person who created the tag. Only the user who created the tag can use the tag to search for planning items labeled with that tag. This setting is the default.
 
-</td></tr><tr><td id="d49940e243">
+</td></tr><tr><td id="d58029e252">
 
 **Groups and Users**
 
@@ -102,7 +102,7 @@ Tag is visible only to the person who created the tag. Only the user who created
 
 Tag is visible to specific groups or users. You can specify the groups and users who can view this tag.
 
-</td></tr><tr><td id="d49940e252">
+</td></tr><tr><td id="d58029e261">
 
 **Everyone**
 

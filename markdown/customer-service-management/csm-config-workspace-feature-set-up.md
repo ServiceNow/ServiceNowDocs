@@ -1,20 +1,20 @@
 ---
-title: Set up additional CSM workspace features
-description: You can set up additional features for use in CSM workspaces. These features typically require plugin activation and some configuration.
+title: Set up additional CRM Workspace features
+description: You can set up additional features for use in CRM Workspace. These features typically require plugin activation and some configuration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-config-workspace-feature-set-up.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [CRM Workspace, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [CRM Workspace, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
-# Set up additional CSM workspace features
+# Set up additional CRM Workspace features
 
-You can set up additional features for use in CSM workspaces. These features typically require plugin activation and some configuration.
+You can set up additional features for use in CRM Workspace. These features typically require plugin activation and some configuration.
 
-You can set up the following features for use in CSM workspaces.
+You can set up the following features for use in CRM Workspace.
 
 <table id="table_hzb_13k_xnb"><thead><tr><th>
 
@@ -31,7 +31,7 @@ Description
 </td><td>
 
 Customer Central provides customer service agents with all the information about the customer in one central place. -   The Customer Information view displays key information about the customer.
--   The Customer Activity view displays recent customer touch points in an activity feed.
+-   The Customer History view displays recent customer touch points in an activity feed.
 
  Use Customer Service guided setup to [Configure Customer Central](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-customer-central.md).
 
@@ -77,7 +77,7 @@ Resolve complex cases faster and more efficiently by guiding customer service ag
 
 </td><td>
 
-This feature enables customer service agents to quickly look up contacts or consumers using information such as the name, phone number, or record number. For details, see Set up lookup and verify in Workspace.
+This feature enables customer service agents to quickly look up contacts or consumers using information such as the name, phone number, or record number.
 
 </td></tr><tr><td>
 

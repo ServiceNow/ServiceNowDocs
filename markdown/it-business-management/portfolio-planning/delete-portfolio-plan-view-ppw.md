@@ -1,5 +1,5 @@
 ---
-title: Delete a portfolio plan view in Portfolio Planning
+title: Delete a portfolio plan view
 description: Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/delete-portfolio-plan-view-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan views, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Delete a portfolio plan view in Portfolio Planning
+# Delete a portfolio plan view
 
 Delete a customized portfolio plan view if it is no longer needed or if the maximum limit of ten shared or three private views has been reached.
 
@@ -46,7 +46,7 @@ Role required: sn\_align\_core.ap\_read\_only
 **Related topics**  
 
 
-[Create a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)
+[Create a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.md)
 
-[Edit a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md)
+[Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md)
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-order-ops-order-case-record-page.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Order case pages, Order Operations Case Management, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Order case pages, Order Operations Case Management, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Order case record page
@@ -42,7 +42,7 @@ Order case form heading
 
 </td><td>
 
-The form heading displays the order case short description. If there's no short description, it displays the order case number. The form heading also includes the action bar and record tags.
+The form heading displays the order case short description. If there is no short description, it displays the order case number. The form heading also includes the action bar and record tags.
 
 </td></tr><tr><td>
 
@@ -64,8 +64,8 @@ Account lookup
 
 Agents can use the account lookup component to do the following:-   Search for an account.
 -   Link or unlink an account.
--   Select a reference field on a lookup card, such as a contact name, to open the reference in a subtab.
--   Select a phone number on a lookup card to call.
+-   Select a reference field on a lookup card, such as a contact name, to open the reference in a sub-tab.
+-   Select a phone number on a lookup card to make a call.
 
 The account lookup component displays information in record cards. These cards display contact information and provide quick access to customer details such name, address, and phone.
 
@@ -111,7 +111,7 @@ Order Case Line list
 
 </td><td>
 
-The Order Case Line list component displays the order case line items associated with the order case. Order case line items can be created for orders or order lines.-   If an order case is created for one or more orders, the system converts each customer order's header into a case line item.
+The Order Case Line list component displays the order case line items associated with the order case. Order case line items can be created for orders or order lines.-   If an order case is created for one or more orders, the system converts the order header from each customer order to a case line item on the order case.
 -   If an order case is created for one or more order lines from a single order, the system converts the selected order lines from the customer order to case line items on that order case.
 
 </td></tr><tr><td>
@@ -129,7 +129,7 @@ Select one or more orders or order lines and then select **Add** to add the sele
 
 -   **Create task**: Creates a task for the selected order case line item in a separate tab. Fill in the fields on the Create New Case Line Task record and select **Save**.
 
-After selecting an order case line item, agents can edit its details, assign it to themselves, or delete the line item.
+After selecting an order case line item, agents can edit selected order case line item details, assign an order case line item to themselves, or delete a case line.
 
 -   **Edit**: Displays the details for the selected order case line item in a panel. Make the necessary changes and select **Update** at the bottom of the panel.
 -   **Assign to me**: Assigns the selected order case line item to the current user.
@@ -141,7 +141,7 @@ Activity stream
 
 </td><td>
 
-The activity stream component displays a list of activities occurring on an order case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.The Order case record page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails. For more information, see the [Composing emails, comments, and work notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-order-ops-order-case-record-page.md) section.
+The activity stream component displays a list of activities occurring on an order case record. This list can be collapsed to provide a quick view of case activities or expanded to provide more detail about individual activities.The Order case record page uses [modeless dialogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-front-line-case-page-modeless-dialogs.md) for composing comments, work notes, and emails. For more information, see the [Composing emails, comments, and work notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-order-ops-order-case-record-page.md) section below.
 
 </td></tr><tr><td>
 
@@ -159,7 +159,7 @@ The contextual side panel component includes different tools that agents can use
 -   Response Templates
 -   Form Templates
 
- For more information about related lists, see the [Order case record page related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-order-ops-order-case-record-page.md) section.
+ For more information about related lists, see the [Order case record page related lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-order-ops-order-case-record-page.md) section below.
 
  **Note:** The Order Operations Case Management application does not include response templates. To configure a response template, see [Create or modify a response template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-modify-templated-snippet.md).
 
@@ -182,7 +182,7 @@ Active
 
 </td><td>
 
-Enabling the **Active** check box makes the page available to the selected audience. The Order case record page is active by default.The active setting combined with the page order determines the page that CSM Configurable Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
+Enabling the **Active** check box makes the page available to the selected audience. The Order case record page is active by default.The active setting combined with the page order determines the page that CRM Workspace uses to display record information. For more information, see [Set record page order](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/config-csm-ws-set-record-page-order.md).
 
 </td></tr><tr><td>
 
@@ -212,7 +212,7 @@ The audience determines who can see a record page. The Order case record page do
 </table>To access the settings for this page variant:
 
 1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **UI Builder**.
-2.  Select the **CSM/FSM Configurable Workspace** experience.
+2.  Select the **CRM Workspace** experience.
 3.  In the Record section of the Pages and variants list, select **Front-line case page**.
 4.  Select **Settings** at the top of the page.
 
@@ -234,14 +234,14 @@ The related lists component provides access to the order case related lists. Thi
 
 The items in an expanded list are displayed as cards. An expanded list shows one card for each item in the list, up to a maximum of 8 cards.
 
--   Agents can open an item in a subtab.
+-   Agents can open an item in a sub-tab.
 -   If a list has more than five items, it includes a Show more option.
 
 Related lists include the following actions:
 
 -   **Refresh**: refreshes the items in the list.
--   **Create**: opens a blank record in a subtab that the agent can use to create a new item.
--   **View all**: opens a list of records in a subtab.
+-   **Create**: opens a blank record in a sub tab that the agent can use to create a new item.
+-   **View all**: opens a list of records in a sub tab.
 -   **Show more**: is displayed for lists that have more than five items.
 
 ## Composing emails, comments, and work notes

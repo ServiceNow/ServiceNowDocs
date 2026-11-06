@@ -1,15 +1,15 @@
 ---
 title: ServiceNow SDK CLI
-description: Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.Create a custom scoped application or convert an existing scoped application to support development in source code. The application is added in the current directory.Compile source files and output build artifacts. Third-party library dependencies are converted into XML files that can be installed with the application.Package the build artifacts and install or update an application on an instance. Before using the install command, you must use the build command to generate an installable package.Download application dependencies and TypeScript definitions from an instance to enable IntelliSense and code validation for an application.Download application metadata \(XML\) from the instance and transform the metadata into ServiceNow Fluent source code to synchronize the application changes on the instance into your local application.Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.Remove the build artifacts that were output with the previous build.Package the build artifacts that were output with the previous build into an installable ZIP file.View documentation and examples for a ServiceNow Fluent API.Runs a read-only REST Table API query on an instance to return a filtered list of records.
+description: Use the ServiceNow SDK command-line interface \(CLI\) to manage changes between a local application and the application on an instance.Authenticate to an instance and store, update, or view user credentials for accessing an instance on your system.Create an application or convert an existing application to support development in source code. The application is added in the current directory.Compile source files and output build artifacts. Third-party library dependencies are converted into XML files that can be installed with the application.Package the build artifacts and install or update an application on an instance. Before using the install command, you must use the build command to generate an installable package.Download application dependencies and TypeScript definitions from an instance to enable IntelliSense and code validation for an application.Download application metadata \(XML\) from the instance and transform the metadata into ServiceNow Fluent source code to synchronize the application changes on the instance into your local application.Transform application metadata \(XML\) in the global scope from an instance into ServiceNow Fluent source code in a local global application.Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.Remove the build artifacts that were output with the previous build.Package the build artifacts that were output with the previous build into an installable ZIP file.View documentation and examples for a ServiceNow Fluent API.Runs a read-only REST Table API query on an instance to return a filtered list of records.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/servicenow-sdk/servicenow-sdk-cli-commands.html
 release: yokohama
 product: ServiceNow SDK
 classification: servicenow-sdk
 topic_type: reference
-last_updated: "2026-03-12"
-reading_time_minutes: 17
-breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 18
+breadcrumb: [Reference, ServiceNow SDK, Building applications in source code, Building pro-code applications, Developing your application, Classic app development, Building applications]
 ---
 
 # ServiceNow SDK CLI
@@ -204,7 +204,7 @@ now-sdk auth --use devuser1
 
 ## init
 
-Create a custom scoped application or convert an existing scoped application to support development in source code. The application is added in the current directory.
+Create an application or convert an existing application to support development in source code. The application is added in the current directory.
 
 To create an application, you can run the `init` command without any optional parameters \(`now-sdk init`\). To convert an existing application, you must include the `--from` parameter to provide the sys\_id of an application on an instance or a path to a local directory that contains an application.
 
@@ -213,7 +213,7 @@ After initializing an application, you must install the required third-party dep
 The `init` command has the following structure:
 
 ```cmd
-npx @servicenow/sdk init [--from <sys_id or path>] [--appName <name>] [--packageName <name>] [--scopeName <name>] [--auth <alias>] [--template <template>]
+npx @servicenow/sdk init [--from <sys_id or path>] [--appName <name>] [--packageName <name>] [--scopeName <name>] [--auth <alias>] \[--template &lt;template&gt;\]
 ```
 
 **Note:** Using the `npx` command installs the ServiceNow SDK in your application directory instead of globally.
@@ -451,7 +451,7 @@ Package the build artifacts and install or update an application on an instance.
 The `install` command has the following structure:
 
 ```cmd
-now-sdk install [--source <package path>] [--reinstall <flag>] [--auth <alias>] [--open-browser <flag>] [--info <flag>] \[--demoData &lt;flag&gt;\]
+now-sdk install [--source <package path>] [--reinstall <flag>] [--auth <alias>] [--open-browser <flag>] [--info <flag>] \[--demoData &lt;flag&gt;\] \[--skip-flow-activation &lt;flag&gt;\]
 ```
 
 <table id="table_fwn_q5d_m2c"><thead><tr><th>
@@ -576,11 +576,27 @@ An option to install demo data with an application.
 
 true
 
+</td></tr><tr><td>
+
+--skip-flow-activation
+
+</td><td>
+
+Boolean
+
+</td><td>
+
+An option to skip activating, or publishing, flows when installing an application. By default, flows are activated on the instance when an application is installed.**Note:** ServiceNow IDE version 4.1.1 or later must be installed to activate flows with this command.
+
+</td><td>
+
+false
+
 </td></tr></tbody>
 </table>For example:
 
 ```cmd
-now-sdk install --source /path/to/package --reinstall false --auth devuser1 --open-browser true --info true --demoData false
+now-sdk install --source /path/to/package --reinstall false --auth devuser1 --open-browser true --info true --demoData false --skip-flow-activation true
 ```
 
 For more information, see [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
@@ -877,6 +893,106 @@ now-sdk transform --from metadata/update --directory /path/to/package --auth dev
 
 For more information, see [Convert an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/convert-application-now-sdk.md) or [Build and install an application with the ServiceNow SDK](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/servicenow-sdk/build-deploy-application-now-sdk.md).
 
+## move
+
+Transform application metadata \(XML\) in the global scope from an instance into ServiceNow Fluent source code in a local global application.
+
+To customize the global metadata, the global application in which you want to move metadata must already be installed on the instance.
+
+The `move` command has the following structure:
+
+```cmd
+now-sdk move [--ids <sys_ids>] [--source <package path>] [--auth <alias>]
+```
+
+<table id="table_qp2_2j1_l2c"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th><th>
+
+Default value
+
+</th></tr></thead><tbody><tr><td>
+
+--ids
+
+</td><td>
+
+Array
+
+</td><td>
+
+A list of sys\_ids of global application metadata to move into the local global application and transform into ServiceNow Fluent code.
+
+</td><td>
+
+—
+
+</td></tr></tbody>
+</table><table id="table_bny_zfc_l2c"><thead><tr><th>
+
+Parameter
+
+</th><th>
+
+Type
+
+</th><th>
+
+Description
+
+</th><th>
+
+Default value
+
+</th></tr></thead><tbody><tr><td>
+
+--source
+
+</td><td>
+
+String
+
+</td><td>
+
+The path to the directory that contains the `package.json` file for your application. The `package.json` should be in the base directory of your application.
+
+</td><td>
+
+Current working directory
+
+</td></tr><tr><td>
+
+--auth, -a
+
+</td><td>
+
+String
+
+</td><td>
+
+An alias for the credentials to use to authenticate to the instance.
+
+</td><td>
+
+If set, the default alias.
+
+</td></tr></tbody>
+</table>For example:
+
+```cmd
+now-sdk move --ids 9f4e7402317d470da09ac34c0693d02d,c4e34f348b1843899ca5efb2a31666f0,5057309fccef409cb30692c86a9aaac6 --auth devuser1
+```
+
 ## download
 
 Download all application metadata \(XML\) from an application on an instance to compare with the metadata in your local application.
@@ -1155,5 +1271,5 @@ For example:
 now-sdk query incident --query 'active=true^priority<=2' --limit 50 --fields 'number,short_description,priority' --auth devuser1 --output json
 ```
 
-For more information, see .
+For more information, see [Table API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_TableAPI.md).
 

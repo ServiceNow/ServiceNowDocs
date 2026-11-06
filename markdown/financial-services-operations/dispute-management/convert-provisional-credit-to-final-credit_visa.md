@@ -1,0 +1,49 @@
+---
+title: Convert provisional credit to final credit
+description: Convert the provisional credit that was issued previously to a customer to a final credit issuance.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/convert-provisional-credit-to-final-credit\_visa.html
+release: yokohama
+product: Dispute Management
+classification: dispute-management
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Collaboration workflow, Initiate chargeback, Processing a Visa dispute, Managing disputes integrated with Visa, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
+---
+
+# Convert provisional credit to final credit
+
+Convert the provisional credit that was issued previously to a customer to a final credit issuance.
+
+## Before you begin
+
+Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dispute\_agent\_connector
+
+## Procedure
+
+1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
+
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
+
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
+
+    -   For your assigned cases, select **Assigned to me**.
+    -   For all dispute cases, select **All**.
+4.  In the list, select which case you want to work on.
+
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
+
+5.  Select the transaction ID from the playbook.
+
+    The **Chargeback** stage is initiated for the transaction.
+
+6.  Select the  **Convert provisional credit to final credit ** task.
+
+7.  On the form, fill in the required fields.
+
+8.  Select **Close task**.
+
+
+**Parent Topic:**[Collaboration dispute workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/collaboration-dispute-workflow.md)
+

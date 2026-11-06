@@ -7,7 +7,7 @@ release: yokohama
 product: Regulatory Change Management Service Portal
 classification: regulatory-change-management-service-portal
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Manage regulatory tasks, Regulatory Change Management, Governance, Risk, and Compliance]
 ---
@@ -30,15 +30,15 @@ Role required: sn\_grc\_reg\_change.manager, sn\_grc\_reg\_change.user
 
     You can add an existing issue to a regulatory task or create an issue that you can relate to a regulatory task.
 
-<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d196536e95">
+<table id="choicetable_am1_gr2_bwb"><thead><tr><th align="left" id="d122733e95">
 
 Step
 
-</th><th align="left" id="d196536e98">
+</th><th align="left" id="d122733e98">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d196536e104">
+</th></tr></thead><tbody><tr><td id="d122733e104">
 
 **Select __Add__.**
 
@@ -46,7 +46,7 @@ Description
 
 Relate a regulatory task to an existing issue.
 
-</td></tr><tr><td id="d196536e119">
+</td></tr><tr><td id="d122733e119">
 
 **Select __New__.**
 

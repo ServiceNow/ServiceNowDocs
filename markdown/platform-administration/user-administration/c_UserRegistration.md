@@ -7,22 +7,23 @@ release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Creating users, Creating users, companies, and departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Creating users, Creating users, companies, departments, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # User self-registration
 
 The User Registration Request \[com.snc.user\_registration\] plugin provides the ability for unregistered users to request access to a ServiceNow instance. An administrator can activate the plugin.
 
-A user can request an account by navigating to the instance. If the plugin is installed, the following section is added to the welcome screen.
-
-\[Omitted image "WelcomeScreen.png"\] Alt text: Welcome screen
+A user can request an account by navigating to the instance. If the plugin is installed, a new section is added to the welcome screen to allow users to request a user account.
 
 The user can complete and submit the self-registration form, and see a confirmation that it was submitted. The user receives an email when the account is registered.
 
-**Note:** If the email address entered in the self-registration form is already in the system, the request is not submitted.
+**Note:**
+
+-   Starting with the Brazil release, User Registration Request plugin \(`com.snc.user_registration`\) is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported. External User Self-Registration plugin \(`com.snc.external_user_self_registration`\) provides the latest experience for this functionality.
+-   If the email address entered in the self-registration form is already in the system, the request is not submitted.
 
 **Parent Topic:**[Creating users](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-administration/ua-creating-users.md)
 
@@ -43,10 +44,6 @@ Role required: admin
     -   If **Create User** is selected, a new user is created using the email address as the **User ID**.
     -   If **Reject** is selected, the request is marked **Rejected**.
     If the request was accepted, the user is sent an email notification with the login information. If it was denied, the user is sent an email with the rejection information.
-
-3.  To view past registration requests, remove the **\[State\] \[is\] \[Pending\]** condition from the filter in the list view.
-
-    \[Omitted image "PastRegistrationRequests.png"\] Alt text: Remove the filter
 
 
 ## Enable automatic self-registered user account approval

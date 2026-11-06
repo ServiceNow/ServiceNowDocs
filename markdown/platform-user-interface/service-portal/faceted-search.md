@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-08-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Search widgets, Widget library, Using portal widgets, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,7 +20,7 @@ The Faceted Search widget displays search results and search facets defined for 
 
 You can use facet filters to refine your search in Service Portal. For example, you can view only knowledge article search results by selecting the **Knowledge** source facet bucket. Or, to filter search results by certain knowledge categories, you can select one or more facets.
 
-\[Omitted image "faceted-search-widget.png"\] Alt text: Faceted Search widget showing "email" search results with available facet filters
+\[Omitted image "faceted-search-widget.png"\] Alt text: Filter for faceted Search widget showing "email" search results with available facet filters
 
 The available facets are dynamic, showing only field values that are included in your current search results. As you select facets, the search narrows and the number of available facets decreases. You can broaden your search by clearing an individual facet selection.
 
@@ -28,7 +28,7 @@ To see which facets you've selected, view the pills in the Filters panel. If you
 
 You can initiate a new search by entering a new search term in the typeahead search box. After you enter the new search term, the system clears your facet filter selections from the previous search. You can refine your new search by selecting new facet filters.
 
-For more information on configuring the available facets, see [Create a facet in an AI Search application configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/create-facet-ais.md).
+For more information on configuring the available facets, see Create a facet in an AI Search application configuration.
 
 ## Instance options
 

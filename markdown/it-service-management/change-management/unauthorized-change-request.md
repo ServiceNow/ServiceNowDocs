@@ -7,22 +7,22 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Create a change request, Using Change Management, Change Management, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Create a change request, Use, Change Management, IT Service Management]
 ---
 
 # Unauthorized change request
 
 Understand how an unauthorized change activity on a configuration item \(CI\) is captured and managed, so that you can review and take timely action on this change.
 
-As part of the ServiceNow® Service Mapping integration with ServiceNow® ITSM , the Change Management application receives an event notification when an unauthorized change activity is detected. As a result, an emergency unauthorized change request is created for the relevant CI. You can review and approve or reject the unauthorized change from the Change Management application.
+As part of the ServiceNow® Service Mapping integration with ServiceNow® ITSM, the Change Management application receives an event notification when an unauthorized change activity is detected. As a result, an emergency unauthorized change request is created for the relevant CI. You can review and approve or reject the unauthorized change from the Change Management application.
 
 **Note:** Unauthorized change requests are created only for the CIs that are part of the application services. Also, there is a flapper algorithm that uses a learning pattern to minimize false positives.
 
-At times, the discovery process \(horizontal or top-down discovery\) identifies a change on a CI property that may not be an actual change by definition. This identification is due to a measurement error or just a different representation of the same value, such as case sensitivity. The learning pattern identifies the false positives \(flapper changes\) and prevents triggering the recomputation and time-line updates as an emergency change request is a critical action. You want to avoid false positives and report only real changes.
+At times, the discovery process \(horizontal or top-down discovery\) identifies a change on a CI that is not a real change. This identification is due to a measurement error or a different representation of the same value, such as case sensitivity. The learning pattern identifies false positives \(flapper changes\) and prevents unnecessary recomputation and timeline updates. Because an emergency change request is a critical action, only real changes are reported.
 
-The learning pattern identifies the false positives as follows:
+The learning pattern identifies the false positives in the following way:
 
 1.  When a CI property associated with a service changes, the new value \(CI and field pair\) is logged in the flapper’s data table.
 2.  The system runs a nightly job and executes various algorithms on the data that is collected to identify patterns that point to false positives.
@@ -33,25 +33,31 @@ The learning pattern identifies the false positives as follows:
 
 An unauthorized change request is created when an unplanned CI change activity occurs, and the system triggers the following checks:
 
--   The system checks to see if the CI is part of the allowed CI classes. If it is allowed, then the system checks to see if this specific CI has been flagged previously. If it was flagged and the previously created unauthorized change was within the notification ignore period, then no further action is taken. If not, then further checks are made to see whether this CI is associated to a change request that matches the condition stated in the properties. If not, then the change to the CI that was detected is flagged as unauthorized and a **ci.change.unplanned** event is raised.
+-   The system checks to see if the CI is part of the allowed CI classes. If it is allowed, then the system checks to see if this specific CI has been flagged previously. If it was flagged and the previously created unauthorized change was within the notification ignore period, then no further action is taken. If not, then further checks are made to see whether this CI is associated with a change request that matches the condition stated in the properties. If not, then the change to the CI that was detected is flagged as unauthorized and a **ci.change.unplanned** event is raised.
 -   On receipt of the **ci.change.unplanned** event, the script checks to see if the **Enable event processing** field is **true**. If it is **true**, then an unauthorized change request is created. By default, this property is **false**.
 
 The **ci.change.unplanned** event that is generated automatically triggers the creation of an Emergency type change request.
 
-With the help of the following details that are pre-populated on the form, you can identify and review the unauthorized change:
+## Unauthorized change state flow
+
+An unauthorized change follows a different state flow from a standard change because the implementation has already occurred:
+
+1.  On creation, the request enters the **Review** state and skips the schedule and implement states.
+2.  If you select **Request Approval**, the state returns to **Authorize** for approval.
+3.  After approval, the request returns to **Review**, and a post-implementation review task is created.
+
+For the standard change state flow, see [State progression for normal, standard, and emergency changes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/normal-standard-emergency-states.md). With the help of the following details that are pre-populated on the form, you can identify and review the unauthorized change:
 
 -   The **Unauthorized** option is selected. This option indicates that the change is an unauthorized change.
 -   The **Assignment group** field is populated with **Change Management**.
 -   The **Configuration item** field is populated with the item that the unauthorized change was made for.
--   The **Description** field is populated with the information on the changed fields of the change request.
+-   The **Description** field is populated with the changed fields of the configuration item, including the CI field name and its new value.
 
-\[Omitted image "unauthorizedchange.png"\] Alt text: Unauthorized change flag.
-
-An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to disable these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/disable-unauth-notification.md).
+An email notification is sent to the Assignment group, CI Item managed by, Owned by, and Assigned to members for review and approval. However, if there are many CI changes and there are no open change requests created to include the CIs, the system creates unauthorized change requests on these CIs. When this event occurs, the members receive numerous unauthorized change notification emails. In such a case, you can choose to turn off these notifications. For more information, see [Disable unauthorized change notification](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/disable-unauth-notification.md).
 
 **Note:** Email notifications are sent only when there is an unplanned change on the CI that is part of an application service \(discovered or manual service\).
 
-After this change request is approved, the state changes to **Review** and the regular process is followed to close the request.
+Because an unauthorized change records a change that was already implemented, the request enters the **Review** state directly, skipping the Schedule and Implement states. If you select **Request Approval**, the state returns to **Authorize** for sign-off before the request follows the regular process to close.
 
 ## Assign post-implementation review
 
@@ -70,7 +76,7 @@ If you are an ITIL user, clear the **Unauthorized** check box by creating an out
 -   **[Disable the creation of an unauthorized change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/disable-unauth-notification.md)**  
 You can choose to disable the generation of unauthorized change requests that you receive on any unauthorized change event. When a configuration item \(CI\) that is part of an application service is updated, the system identifies this update and verifies whether the updated CI is part of an open change request.
 -   **[Unauthorized change properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/unauth-change-properties.md)**  
-Use the Unauthorized Change Properties page to enable or disable the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
+Use the Unauthorized Change Properties page to turn on or turn off the unauthorized change capability, and to configure the criteria for additional unauthorized change properties.
 
 **Parent Topic:**[Create a change request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/t_CreateAChange.md)
 

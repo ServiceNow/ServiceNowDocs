@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Alert similarity, Manage and monitor alerts, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Alert similarity, Manage and monitor alerts, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create an Event Management similarity solution
@@ -25,7 +25,7 @@ Role required: evt\_mgmt\_admin
 The encryption scheme that you use can affect whether you can train solutions.
 
 -   If your data is encrypted by Full Disc Encryption \(FDE\), you can train solutions.
--   If the field you are using for training is encrypted using Field Encryption, ensure that the shared service worker user has the correct encryption module role. The role must match the encryption module used for encryption.
+-   If the field you are using for training is encrypted using Field Encryption, ensure that the shared service worker user has the correct encryption module role.
 -   If you are using Edge Encryption, training is not supported.
 
 **Note:** This feature supports only English language processing.

@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Formula indicators, Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Indexing multiple indicators in a formula
@@ -67,12 +67,12 @@ In the following example, you want a single index that aggregates the gap betwee
 -   The average age of the last update of open incidents.
 -   The total number of open incidents.
 
-To get this single index, you follow these steps to produce an index indicator:
+To get this single index, follow these steps to produce an index indicator:
 
-1.  You navigate to **Performance Analytics** &gt; **Formula Indicators** and click **New**. Index indicators are a use case of formula indicators.
-2.  You give the indicator a meaningful name, such as **Aggregate incident gap**.
-3.  Because you are creating an index indicator, you set the **Direction** to **Maximize**.
-4.  In the **Formula** field, you use the **Browse for a method** and **Browse for an indicator** functions to create the following formula:
+1.  Navigate to **Platform Analytics Administration** &gt; **Indicators** &gt; **Formula Indicators** and select **New**. Index indicators are a use case of formula indicators.
+2.  Give the indicator a meaningful name, such as **Aggregate incident gap**.
+3.  Set the **Direction** to **Maximize**.
+4.  In the **Formula** field, use the **Browse for a method** and **Browse for an indicator** functions to create the following formula:
 
     ```
     var a = pa.getGap($[[% of open overdue incidents]], score_start) / pa.getGlobalTarget($[[% of open overdue incidents]],score_start);

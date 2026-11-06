@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -57,7 +57,7 @@ Template categories determine who can access the template. Before you can add an
 
 ## Searching within assessment templates
 
-Search for text within the assessment template sections, subsections, or questions. The search results appear in place of the content tree, and the first match is highlighted. If no matches are found, a `No results found` message is displayed. You can select the search icon \[Omitted image "List\_SearchIcon.png"\] Alt text: in the navigation pane to display the search box.
+Search for text within the assessment template sections, subsections, or questions. The search results appear in place of the content tree, and the first match is highlighted. If no matches are found, a `No results found` message is displayed. You can select the search icon\[Omitted image "search-icon.png"\] Alt text: in the navigation pane to display the search box.
 
 ## Triggering assessments
 

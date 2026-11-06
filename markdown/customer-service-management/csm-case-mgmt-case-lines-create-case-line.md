@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-mgmt-case-lines-create-case-line.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-03-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Case lines and workflows, Case management, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Case Lines and Workflows, Case management, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Creating case line items and case line tasks
@@ -18,23 +18,17 @@ Agents can create case line items for cases and create tasks for case line items
 
 To create a case line record:
 
-1.  Select **New**.
+-   CRM Workspace: Open a case and select **New** on the [Case Line list action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines-create-case-line.md) to open a new case line record in the Draft state.
+-   Core UI: Open a case and select **New** on the Case Lines related list on the case record to open a new case line record in the Draft state.
 
-    -   CRM Workspace: Open a case and select **New** on the [Case Line list action bar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/csm-case-mgmt-case-lines-create-case-line.md) to open a new case line record in the Draft state.
-    -   Core UI: Open a case and select **New** on the Case Lines related list on the case record to open a new case line record in the Draft state.
-    The information in the following fields is copied from the parent case to the Case Line Item form:
+The information in the following fields is copied from the parent case:
 
-    -   Account
-    -   Contact
-    -   Parent case
-    -   Priority
-    -   Assignment group
-    -   Assigned to
-2.  Fill in the fields on the Case Line Item form.
-
-    For field descriptions, see [Case line item form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-form.md).
-
-3.  Select **Submit**.
+-   Account
+-   Contact
+-   Parent case
+-   Priority
+-   Assignment group
+-   Assigned to
 
 If a bundled product is added to a case line item record, the system creates a case line item for each component in the bundle after the agent saves the new case line item record. The case line characteristics are also created for each component.
 
@@ -48,9 +42,6 @@ The case line item record includes a **Create case line task** action that agent
     Some fields on this form are auto populated with details from the Case line record.
 
 3.  Enter additional information as needed.
-
-    For field descriptions, see [Case line task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/case-line-task-form.md).
-
 4.  Select **Save** to create the case line task record.
 
     Case line tasks appear in the Tasks tab on the case line item record.

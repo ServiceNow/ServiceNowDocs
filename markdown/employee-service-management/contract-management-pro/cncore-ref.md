@@ -7,9 +7,10 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+keywords: [Components installed, Contract Management Pro, CM Pro, Roles in CM Pro, Properties installed]
+breadcrumb: [Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Contract Management Pro reference
@@ -24,6 +25,10 @@ User roles are installed with activation of the Contract Workspace plugin.
 Several types of components are installed with activation of the Analytics Pack for Contract Management Pro plugin, including user roles and scheduled jobs.
 -   **[Contract request State and Contract document status in Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-cr-state-status.md)**  
 Contract requests follow a specific life cycle and move through a series of states in Contract Management Pro. The contract request state and the contract document status are displayed in the State and the Contract status fields on the request record.
+-   **[Amendment and renewal interaction messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-renewal-messages.md)**  
+Reference of the messages shown when an amendment and a renewal interact on the same contract, by scenario, state, and placement.
+-   **[Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md)**  
+Signatory roles define how each participant interacts with a contract document during the signature workflow.
 -   **[Clause Variation form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-cv-form.md)**  
 Use the Clause Variation new record form to create or modify a clause variation.
 -   **[Contract Configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-contract-config-form.md)**  
@@ -42,8 +47,18 @@ The UFX Add on Event mapping form to configure the display of declarative action
 The obligation form provides the details to create or modify an obligation record in Obligation Management.
 -   **[Obligation Management notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-ob-mgmt-notification.md)**  
 Obligation Management uses email notifications to notify obligation fulfiller and obligation users when an obligation task is created, assigned, submitted, approved, or rejected.
+-   **[Contract Analysis Playbook form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-negotiation-playbook-form.md)**  
+Fields on the Contract Analysis Playbook form define the negotiation guidance for a contract type and the conditions that determine when an external AI tool retrieves it.
+-   **[Contract analysis playbook tool messages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-negotiation-tool-messages.md)**  
+Messages that the playbook tool returns to an external AI tool when it cannot resolve or return a playbook for a contract. Each message tells the fulfiller how to correct the request.
+-   **[Contract request ticket page actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-cmr-ticket-actions.md)**  
+The actions available on a contract request ticket page depend on the paper type and the state of the request. These actions apply in the Employee Center to requested-for and opened-by users who have the contract user role, for both out-of-the-box and custom record producers.
+-   **[Default availability of out-of-the-box record producers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-default-record-producers.md)**  
+The out-of-the-box contract request record producers that are enabled by default differ for new customers.
 -   **[Contract Management Pro glossary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/contract-management-pro-glossary.md)**  
 Learn about the terms and concepts used in Contract Management Pro.
+-   **[Contract Management solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-cml-feature-compare.md)**  
+Explore the differences between the different contract management solutions offered in ServiceNow - ITAM Contract Management, \(Deprecated\) Legal Simple Contracts, and Contract Management Pro \(CM Pro\)
 
 **Parent Topic:**[Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-cmpro-landing-page.md)
 

@@ -1,18 +1,18 @@
 ---
-title: Activate Care Team Operations for Healthcare IT
-description: Install the Care Team Operations for Healthcare IT application \(sn\_cto\_hcit\) if you have the admin role.
+title: Install Care Team Operations for Healthcare IT
+description: Install the Care Team Operations for Healthcare IT application \[sn\_cto\_hcit\] if you have the admin role.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/cto-it-activate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Care Team Operations for Healthcare IT, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
+breadcrumb: [Configure, Care Team Operations for Healthcare IT, Healthcare Operations, Healthcare and Life Sciences]
 ---
 
-# Activate Care Team Operations for Healthcare IT
+# Install Care Team Operations for Healthcare IT
 
-Install the Care Team Operations for Healthcare IT application \(sn\_cto\_hcit\) if you have the admin role.
+Install the Care Team Operations for Healthcare IT application \[sn\_cto\_hcit\] if you have the admin role.
 
 ## Before you begin
 
@@ -28,7 +28,7 @@ The application includes demo data for Care Team Operations for Healthcare IT an
 
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
-2.  Find the Care Team Operations for IT application \(sn\_cto\_hcit\) using the filter criteria and search bar.
+2.  Find the Care Team Operations for IT application \[sn\_cto\_hcit\] using the filter criteria and search bar.
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 

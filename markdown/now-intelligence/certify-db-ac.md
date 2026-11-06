@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/certify-db-ac.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -35,7 +35,7 @@ Role required: admin or dashboard\_admin
 
 ## Result
 
-On the dashboard overview, the tile is marked **Certified**.
+In the Dashboards library, the dashboard's entry is marked with a [certification badge](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/dashboards-glossary.md) \(**Certified**\) in the Certified column.
 
 \[Omitted image "certified-db-ac.png"\] Alt text: Certified dashboard example
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Close a work order task as complete
@@ -42,12 +42,12 @@ If the caller's problem was fixed or resolved, use the **Close Complete** option
 
 5.  Click **Close Complete**.
 
+    \[Omitted image "close-complete.png"\] Alt text: close complete button
+
     -   The status of all unused parts automatically changes to **In-Stock**.
     -   The state of the parent work order automatically changes to **Closed - Complete** if all work order tasks on the work order have a state of **Closed - Complete** or **Canceled**.
 
 ## Result
 
 The customer receives SMS and email notification that the work order task is completed.
-
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
 

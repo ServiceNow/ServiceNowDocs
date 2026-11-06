@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Cloud Action Library, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
+breadcrumb: [Explore, Cloud Action Library, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Domain separation and Cloud Action Library

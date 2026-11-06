@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-04-21"
-reading_time_minutes: 11
-breadcrumb: [Exploring Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Exploring flows
@@ -53,7 +53,7 @@ Flows consist of the following components.
     A spoke is a scoped application containing Workflow Studio actions and subflows for managing specific tables. For example, the **ITSM Spoke** contains actions for managing Incident and Problem records. You can activate additional spokes from the ServiceNow Store or activating the appropriate plugin. Building your own spoke requires familiarity with application development on the ServiceNow AI Platform. For a list of available spokes, see [Spokes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/spokes.md).
 
 
-This topic describes the basic tasks involved in creating a flow using Workflow Studio. For detailed instructions for creating a flow, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md).
+For detailed instructions for creating a flow, see [Create a flow in Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-flow.md).
 
 ## Sections of a flow
 
@@ -170,31 +170,4 @@ Flows provide process owners and developers these benefits:
 |Build an automated workflow from an existing library of automated operations.|Flow|Application developer, process owner, or administrator|
 |Run an automated workflow when a set of trigger conditions are met.|Flow|Application developer, process owner, or administrator|
 |Use a set of trigger conditions as input data to run an automated workflow.|Flow|Application developer, process owner, or administrator|
-
--   **[Getting started with flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/getting-started-flow.md)**  
-Create a sample flow with a trigger and base system actions that requires an approval.
--   **[Flow action numbering](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-action-numbering.md)**  
-The action outline displays a whole number besides each action and flow logic block in a flow. You can update flows containing legacy action numbering from within Workflow Studio.
--   **[Workflow Studio Landing page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-home-landing-page.md)**  
-Access or create actions, flows, subflows, or their execution details.
--   **[Workflow Studio data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/data-population.md)**  
-Each time you add an action to a flow, Workflow Studio adds a data pill to store its results. The data pill name indicates its sequence in the flow and its data type.
--   **[Flow diagramming view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-diagramming-view.md)**  
-Create and view flows as diagrams. See the paths a flow can follow and the connections between elements.
--   **[Flow execution details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-execution-details.md)**  
-View run-time information about an action or flow directly from the design environment, such as the current state, items run, and values produced. Open related records from embedded ServiceNow AI Platform editors or in a new tab.
--   **[Flow roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-roles.md)**  
-Create flows and subflows that run with specific roles. Assigning roles enables you to create user-initiated flows that run with their own roles rather than the user's roles.
--   **[Domain separation and Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-domain-separation.md)**  
-Domain separation is supported in Workflow Studio. Workflow Studio supports domain separation of business logic, which lets each tenant domain have its own flows, actions, and subflows. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
--   **[Architecture Overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-arch-overview.md)**  
-Understand how Workflow Studio works within the ServiceNow AI Platform to activate, trigger, and process flows and actions.
--   **[Default read-only flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/default-read-only-flows.md)**  
-Open existing flows in a read-only state to protect them from accidental changes. While a flow is in a read-only state, you can only review, test, deactivate, or request to edit it.
--   **[Flow debugger](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-debugger.md)**  
-Debug flows and subflows from a dedicated Workflow Studio tab. Set breakpoints and step through a paused flow to review configuration and runtime values.
--   **[Saved flow triggers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/saved-flow-triggers.md)**  
-Save a set of trigger definitions as a reusable trigger. Enable flow authors to select the saved trigger from some or all application flows. Specify whether flow authors can see the trigger details or add conditions to the trigger.
-
-**Parent Topic:**[Exploring Workflow Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/exploring-workflow-studio.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
 breadcrumb: [Creating and maintaining articles, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -34,7 +34,7 @@ Some knowledge bases may allow only certain users to contribute. For example, a 
 
     -   Navigate to **Self-Service** &gt; **Knowledge** and select the Create an Article icon.
     -   Navigate to **Knowledge** &gt; **Articles** &gt; **Create New**.
-    -   From the Knowledge Management homepage, select the more icon \(\[Omitted image "KnowledgeServicePortalOverflowIcon.png"\] Alt text: More icon\) and then select **Create Article**.
+    -   From the Knowledge Management homepage, select the more icon and then select **Create Article**.
 2.  On the Create new article page, select a knowledge base.
 
     The list of article templates to select in the next step is filtered according to the article templates available for the selected knowledge base.
@@ -115,7 +115,7 @@ Valid to
 
 </td><td>
 
-The date this knowledge article expires. Articles don't appear in search results after the **Valid to** date or if the **Valid to** date is empty. The default value of the **Valid to** field is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). The **Valid to** date starts from the date that the article was created until the number of days specified in the **Article Validity** field. If the **Article Validity** field is empty, the default date in the **Valid to** field for the knowledge article is set to January 1, 2100.
+The date this knowledge article expires. Articles don’t appear in search results after the **Valid to** date or if the **Valid to** date is empty. The default value of the **Valid to** field is derived from the **Article Validity** field configured for the knowledge base \(see [Create a knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/create-a-knowledgebase.md)\). The **Valid to** date starts from the date that the article was created until the number of days specified in the **Article Validity** field. If the **Article Validity** field is empty, the default date in the **Valid to** field for the knowledge article is set to January 1, 2100.
 
  An article author or editor can select whether to keep or change the default **Valid to** date. For more information, see [Validity of a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/article-validity.md).
 
@@ -219,7 +219,7 @@ Meta
 
 </td><td>
 
-Tags for optimizing search from external search engines. Separate multiple entries by commas. You may need to configure the form to add this field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md).
+Tags for optimizing search from external search engines. Separate multiple entries by commas. You may need to configure the form to add this field. For more information, see [Configuring the form layout](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/configure-form-layout.md).**Note:** If AI Search is enabled for the Knowledge Management Service Portal, the tags you add to the **Meta** field aren't indexed. To fine-tune AI Search results, your administrator can configure result improvement rules. For more information, see [AI Search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/ai-search.md).
 
 </td></tr></tbody>
 </table>    **Note:** The **Confidence** and **Governance** fields appear when the Knowledge Management KCS Capabilities plugin \(com.snc.knowledge\_kcs\_capabilities\) is activated. For more information, see [Managing KCS article states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/managing-kcs-article-states.md).
@@ -280,9 +280,9 @@ After saving the article record, you can add tags to organize the article.
 After you create and publish a knowledge article, you can perform the following actions related to the article:
 
 -   Request translations for the knowledge article. For more information, see [Request missing translations for available languages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/request-translations-missing-languages.md).
--   Retire the knowledge article. Select **Retire** to enable the retirement workflow. For more information, see [Retire a knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/c_RetiredKnowledgeArticles.md).
+-   Retire the knowledge article. Select **Retire** to enable the retirement workflow. For more information, see [Retire a knowledge article]().
 -   Translate the knowledge article directly from the knowledge article. For more information, see [Translate a knowledge article from a translation task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/translate-knowledge-article.md).
--   Delete the published knowledge article. Select **Delete**. If the **Delete** button isn't displayed, select the more actions icon \(\[Omitted image "more.png"\] Alt text: More actions icon\), and then select **Delete**.
+-   Delete the published knowledge article. Select **Delete**. If the **Delete** button isn't displayed, select the more actions icon, and then select **Delete**.
 
     **Note:** Only users with the admin role can delete a published knowledge article.
 
@@ -292,7 +292,7 @@ After you create and publish a knowledge article, you can perform the following 
 **Related topics**  
 
 
-[Map related articles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/map-related-articles.md)
+[Map related articles]()
 
 [Predictive Intelligence for Knowledge Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/predictive-intelligence-for-km.md)
 

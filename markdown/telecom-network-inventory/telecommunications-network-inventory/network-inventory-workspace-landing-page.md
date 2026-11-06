@@ -1,5 +1,5 @@
 ---
-title: Network Inventory Workspace landing page
+title: Landing page
 description: Get real-time visibility into your network inventory and to perform the daily tasks through the Network Inventory Workspace landing page.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-network-inventory/telecommunications-network-inventory/network-inventory-workspace-landing-page.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Network Inventory Workspace, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Network Inventory Workspace, Explore, Telecommunications Network Inventory]
 ---
 
-# Network Inventory Workspace landing page
+# Landing page
 
 Get real-time visibility into your network inventory and to perform the daily tasks through the Network Inventory Workspace landing page.
 

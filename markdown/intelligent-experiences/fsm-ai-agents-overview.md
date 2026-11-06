@@ -1,0 +1,25 @@
+---
+title: Field Service Management AI agents
+description: The following AI agents are available for Field Service Management.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/fsm-ai-agents-overview.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-08-04"
+reading_time_minutes: 1
+breadcrumb: [Field Service Management, AI agents library, AI agents and agentic workflows, Enable AI Experiences]
+---
+
+# Field Service Management AI agents
+
+The following AI agents are available for Field Service Management.
+
+-   **[Create work order AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/fsm-create-work-order-ai-agent.md)**  
+This AI agent creates work orders using text descriptions and image.
+-   **[Parts audit AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/fsm-parts-audit-agent-ai-agent.md)**  
+This AI agent assists technicians in conducting thorough parts validation only for work order tasks. It streamlines the process of verifying and reporting parts usage, ensuring accuracy and accountability.
+-   **[Shift and schedule management AI agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/fsm-shift-and-schedule-management-ai-agent.md)**  
+This AI agent helps managers create, review, update, and delete shifts and schedules, and assign technicians to them. It suggests default shift details, finds technicians by skill or name, and asks the manager to confirm one complete plan before making changes. Managers can also open shifts for technician signup.
+
+**Parent Topic:**[ServiceNow AI agents library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-agent-landing-page.md)
+

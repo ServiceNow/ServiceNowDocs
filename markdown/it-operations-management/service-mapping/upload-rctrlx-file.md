@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -22,7 +22,7 @@ Role required: admin or service\_mapping\_admin
 
 ## About this task
 
-During the discovery process, the MID Server runs Service Mapping and Discovery patterns on applications and devices located inside the organization network. A pattern is a sequence of commands whose purpose it is to detect attributes of a CI and its outbound connections. To execute commands over PowerShell correctly, MID Server runs patterns as services using the rctrlx.exe file. The rctrlx.exe file is part of the open source ManagePC utility and is available for downloading from the Internet.
+During the discovery process, the MID Server runs Service Mapping and Discovery patterns on applications and devices located inside the organization network. A pattern is a sequence of commands designed to detect attributes of a CI and its outbound connections. To execute commands over PowerShell correctly, MID Server runs patterns as services using the rctrlx.exe file. The rctrlx.exe file is part of the open source ManagePC utility and is available for downloading from the Internet.
 
 Upload an `rctrlx.exe` file for every MID Server in your deployment.
 

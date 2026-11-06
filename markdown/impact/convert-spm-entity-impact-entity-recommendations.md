@@ -1,16 +1,16 @@
 ---
-title: Convert an Impact entity to SPM entity as a work item
+title: Manage work items with recommendations for the Impact Store Application
 description: Convert an Impact entity to an SPM entity either from the Impact home page or from the Recommendations list. Creating an Impact entity and associating the SPM record details help you to avoid manual intervention in converting the entities from Impact to SPM portals, and thereafter any duplication of entities in the process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/convert-spm-entity-impact-entity-recommendations.html
 release: yokohama
 topic_type: task
-last_updated: "2025-04-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Impact Store Application Accelerators and Initiatives, Using Impact Store Application, Impact Store Application, Impact]
+breadcrumb: [Work items, Using Impact, Impact]
 ---
 
-# Convert an Impact entity to SPM entity as a work item
+# Manage work items with recommendations for the Impact Store Application
 
 Convert an Impact entity to an SPM entity either from the Impact home page or from the **Recommendations list**. Creating an Impact entity and associating the SPM record details help you to avoid manual intervention in converting the entities from Impact to SPM portals, and thereafter any duplication of entities in the process.
 
@@ -51,7 +51,7 @@ Impact entities that can be converted to SPM entities are:
 
 4.  Select a work item from those that are listed for the recommendation.
 
-    Some of the work items may be disabled. A particular impact entity can be converted to only one SPM entity. If a recommendation is already associated with a strategic program then it cannot be converted to another strategic program unless the previous association is removed.
+    Some of the work items may be disabled. A particular impact entity can be converted to multiple SPM entities without restriction. A recommendation can also be associated with multiple strategic programs without requiring the removal of any existing associations.
 
 5.  Select **Next**.
 

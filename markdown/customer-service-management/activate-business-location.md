@@ -1,16 +1,16 @@
 ---
-title: Activate business locations
+title: Activate the Business Location plugin
 description: Activate the Business Location plugin to manage customer service for business locations.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/activate-business-location.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-10-04"
 reading_time_minutes: 1
-breadcrumb: [Activating plugins for Customer Service Management \(CSM\), Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Activate plugins, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Activate business locations
+# Activate the Business Location plugin
 
 Activate the Business Location plugin to manage customer service for business locations.
 
@@ -20,9 +20,7 @@ Role required: admin
 
 ## About this task
 
-The Business Location plugin \(com.snc.business\_location\) enables support for businesses that interact with customers through physical channels such as stores, branches, franchises, and dealerships. Activating the Business Location plugin \(com.snc.business\_location\) automatically activates the Service Organization plugin \(com.snc.service\_organization\). It enables support for internal and external entities in your customer service structure, such as branches, stores, franchises, and dealerships.
-
-**Note:** Starting with the Yokohama release, activating the Business Location \(com.snc.business\_location\) plugin automatically activates the Case types \(com.snc.csm\_case\_types\) plugin.
+The Business Location plugin \(com.snc.business\_location\) enables support for businesses that interact with customers through physical channels such as stores, branches, franchises, brokers, agencies, and dealerships. Activating the Business Location plugin \(com.snc.business\_location\) automatically activates the Service Organization plugin \(com.snc.service\_organization\). It enables support for internal and external entities in your customer service structure, such as branches, stores, franchises, and dealerships.
 
 ## Procedure
 
@@ -30,11 +28,11 @@ The Business Location plugin \(com.snc.business\_location\) enables support for 
 
 2.  Search for the Business Location plugin \(com.snc.business\_location\).
 
-3.  Click **Activate**.
+3.  Select **Activate**.
 
 
 **Related topics**  
 
 
-[Activate customer service household](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-customer-service-household.md)
+[Activate customer household data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/activate-customer-service-household.md)
 

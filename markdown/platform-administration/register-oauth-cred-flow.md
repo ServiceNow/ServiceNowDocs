@@ -1,16 +1,16 @@
 ---
-title: Register an OAuth Provider
+title: Register an OAuth provider
 description: Use the information generated during the Microsoft Azure account configuration to register an application as an OAuth provider.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/register-oauth-cred-flow.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Send email using client credential flow, Advanced email setup, Configure email administration, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Send email using client credential flow, Advanced email setup, Configure, Email Administration, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
-# Register an OAuth Provider
+# Register an OAuth provider
 
 Use the information generated during the Microsoft Azure account configuration to register an application as an OAuth provider.
 
@@ -116,5 +116,5 @@ Redirect URL
 
 Use the OAuth profile to create an email account with SMTP OAuth2.0. For more information, see [Create an email account with SMTP OAuth2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/create-email-account-smtp.md).
 
-**Parent Topic:**[Send email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/send-email-client-credential-flow.md)
+**Parent Topic:**[Sending email using client credential flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/send-email-client-credential-flow.md)
 

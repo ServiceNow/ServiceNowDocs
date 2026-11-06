@@ -7,8 +7,8 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2026-05-22"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 7
 breadcrumb: [Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -61,7 +61,7 @@ View the details of any work item in the side panel by selecting its primary col
 
 The Backlog section hides completed and cancelled work items by default, so the list shows only items that are active and ready to plan or schedule. Sprint and Planning Interval \(PI\) sections continue to show all work items, giving you visibility into both ongoing and finished work for each iteration.
 
-You can work with your admin to change either default per section using two system properties: `sn_apw_advanced.show_inactive_items_in_backlog_list` for the Backlog section and `sn_apw_advanced.show_inactive_items_in_iteration` for iteration sections. For more information about both properties, see .
+You can work with your admin to change either default per section using two system properties: `sn_apw_advanced.show_inactive_items_in_backlog_list` for the Backlog section and `sn_apw_advanced.show_inactive_items_in_iteration` for iteration sections. For more information about both properties, see [Properties installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/properties-installed-with-enterprise-agile-planning.md).
 
 ## Column-level filtering of data
 
@@ -77,15 +77,21 @@ Within the Backlog, you can perform the following actions:
 -   Add work to the team's Backlog.
 -   Schedule work from Backlog into different iterations.
 -   Make in-line edits to update information of work such as Status, Assigned to, or Story points.
--   Reorder planning items \(in a group\) to prioritize them.
+-   Reorder planning items \(in a section\) to prioritize them.
+
+    However, reordering is not possible when the planning items are grouped. For example you grouped the items in the Backlog section by State, you won't be able to reorder the items unless the grouping is removed.
+
 -   Start and complete those iterations.
 -   Move incomplete work to the Backlog.
 -   Filter the data that's displayed.
 -   Choose the columns to be displayed.
+-   Open a work item in a new tab.
 
 Use the following tasks to start creating and scheduling work for teams in EAP.
 
--   **[Create next PI and Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)**  
+-   **[Creating iterations for teams in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/simplified-iteration-creation-in-eap.md)**  
+ Create Planning Intervals \(PIs\) and Sprints directly from the Backlog by entering start and end dates, without setting up planning calendar entries first.
+-   **[Create a Planning Interval or Sprint from EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-pi-sprint-eap-backlog.md)**  
 Create iterations of Planning Intervals \(PI\) and Sprints so that teams can start prioritizing and scheduling their work from the Backlog in Enterprise Agile Planning \(EAP\).
 -   **[Update iteration details in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/edit-pi-sprint-iteration-details-in-eap.md)**  
 Edit details of a PI or a Sprint to update details such as name, team capacity, committed points.
@@ -95,7 +101,13 @@ Create stories, features, epics, or capabilities for teams to add work to their 
 Streamline breaking down work by creating child work items directly from the parent record page in Enterprise Agile Planning workspace.
 -   **[Create stories for work items in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-single-or-multiple-child-items-for-epic-in-eap.md)**  
 Create stories directly from a work item's form. Create them manually or save time by generating them using Now Assist in the Enterprise Agile Planning \(EAP\) workspace.
--   **[Generate acceptance criteria for stories using ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/generate-acceptance-criteria-for-eap-stories.md)**  
+-   **[Assess the status of an epic using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/assess-epic-status-now-assist-eap.md)**  
+Use the Epic status assessment skill to evaluate epic health across six risk dimensions in Enterprise Agile Planning \(EAP\). ServiceNow Otto returns a red, yellow, or green health status with plain-English reasoning, giving portfolio managers a consolidated view of epic risks.
+-   **[Generate a story from an epic using ServiceNow Otto in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/generate-stories-quickly-for-eap-and-agile-2-0.md)**  
+Generate a complete user story directly from an epic using Quick story generation feature in EAP. Provide brief context, and ServiceNow Otto generates a story title, description, and acceptance criteria that you can review and edit before saving.
+-   **[Generate multiple stories at once in EAP using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/generate-stories-from-epics-now-assist-eap.md)**  
+Breakdown epics and features into stories using the ServiceNow Otto panel in the Enterprise Agile Planning \(EAP\) workspace. Based on the work item details, ServiceNow Otto generates stories.
+-   **[Generate acceptance criteria for EAP stories using ServiceNow Otto](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/eap-generate-acceptance-criteria-for-stories.md)**  
 Create clear, comprehensive, and testable acceptance criteria for user stories without writing them manually in Enterprise Agile Planning \(EAP\). Review and refine suggested options to ensure they meet your requirements.
 -   **[Create a copy of work items in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-copy-of-work-items-in-eap-backlog.md)**  
 For creating work items with details similar to an existing item, save time and effort by creating a copy of the existing item.

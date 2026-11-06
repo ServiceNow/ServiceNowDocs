@@ -1,20 +1,20 @@
 ---
-title: Secure parameters in the Agent Client Collector
-description: Secure parameters in the Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution, without exposing the sensitive data in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
+title: Secure parameters in Agent Client Collector
+description: Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution. Sensitive data is not exposed in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/agent-client-collector/acc-using-secure-parameters.html
 release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Exploring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Exploring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
-# Secure parameters in the Agent Client Collector
+# Secure parameters in Agent Client Collector
 
-Secure parameters in the Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution, without exposing the sensitive data in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
+Secure parameters in Agent Client Collector \(ACC\) refers to securely passing sensitive data, such as user names, passwords, and API keys, during check execution. Sensitive data is not exposed in the command line. Parameters are passed to the script through standard input \(STDIN\), hiding them from logs or any process that might capture command-line arguments.
 
 Depending on the coding language in use, implementation of secure parameters may vary. For example, in Linux’s Bash, the `read` command \(`read <variable_name>`\) is used, populating `<variable_name>` with the value entered in STDIN.
 
@@ -31,6 +31,4 @@ Depending on the coding language in use, implementation of secure parameters may
 -   Enhanced security: Passing sensitive data like usernames and passwords directly in the command line is a security threat, as they could be exposed to unauthorized access or malicious users. Secure parameters ensure that such data is securely handled and hidden from view.
 -   Prevent data exposure: When using secure parameters, the credentials are not written in plain text in the command line, avoiding the risk of them being captured in logs or process listings.
 -   Data flow control: Secure parameters enable controlled and customizable passing of credentials to the script, ensuring the correct handling and timing of sensitive information.
-
-**Parent Topic:**[Exploring Agent Client Collector Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/exploring-agent-client-collector-framework.md)
 

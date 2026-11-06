@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Learn UI Builder by example, Learning UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Define an audience for your variant
@@ -28,7 +28,7 @@ In the previous procedure, you created a page variant that can be viewed by anyo
 
 1.  Open the main page for your demo experience.
 
-2.  Select the experience you created, and select **Default**.
+2.  Select the experience you created, expand a page and select **Default**.
 
     \[Omitted image "audience-experience-view.png"\] Alt text: Demo experience Editor page.
 

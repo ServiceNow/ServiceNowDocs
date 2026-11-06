@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Notifications for Employee Center, Setup task management, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Notifications for Employee Center, Setup task management, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Configure notifications for portal
@@ -24,7 +24,7 @@ Role required: notification\_provider\_admin
 
 1.  Navigate to **Employee Center** &gt; **Portal Notifications** &gt; **Notification Configurations**.
 
-    If you have upgraded to the Employee Center plugin \(sn\_ex\_sp\) version 36.0 along with the Notifications for Employee Center plugin \(sn\_ex\_sp\_notifs\), and the Yokohama release version, you see the **Employee center configuration** by default in your Notification Configurations.
+    If you have upgraded to the Employee Center plugin \(sn\_ex\_sp\) version 36.0 along with the Notifications for Employee Center plugin \(sn\_ex\_sp\_notifs\), and the Brazil release version, you see the **Employee center configuration** by default in your Notification Configurations.
 
 2.  Select **New** to set up notifications for any other preferred portal.
 

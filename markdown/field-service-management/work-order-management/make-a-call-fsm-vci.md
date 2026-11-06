@@ -1,20 +1,20 @@
 ---
-title: Make a call from the Now Mobile Agent application
-description: Select a conference bridge option to initiate a conference call from the Now Mobile Agent application to connect virtually with your customer and peer agents.
+title: Make a call from ServiceNow Agent
+description: Select a conference bridge option to initiate a conference call from the ServiceNow Agent application to connect virtually with your customer and peer agents.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/make-a-call-fsm-vci.html
 release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Virtual Conferencing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Virtual Conferencing, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Make a call from the Now Mobile Agent application
+# Make a call from ServiceNow Agent
 
-Select a conference bridge option to initiate a conference call from the Now Mobile Agent application to connect virtually with your customer and peer agents.
+Select a conference bridge option to initiate a conference call from the ServiceNow Agent application to connect virtually with your customer and peer agents.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ The option Make a Call appears only if you have set up both Zoom and Microsoft T
 
 ## Procedure
 
-1.  Navigate to the Field Service mobile application.
+1.  Navigate to the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -41,8 +41,6 @@ The option Make a Call appears only if you have set up both Zoom and Microsoft T
     -   To make a Zoom call, tap Zoom.
     -   To make a Microsoft Teams call, tap Microsoft Teams.
 
-        For more information about making a call, see [Initiate a Zoom or Microsoft Teams meeting from the Now Agent mobile application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.md).
+        For more information about making a call, see [Start a Zoom or Microsoft Teams meeting from ServiceNow Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/initiate-zoom-MSTeam-meeting-fsm.md).
 
-
-**Parent Topic:**[Virtual Conferencing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/using-vci-fsm.md)
 

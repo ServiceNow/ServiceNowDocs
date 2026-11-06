@@ -1,0 +1,37 @@
+---
+title: Activate Process Inefficiency Highlights skill
+description: Activate the Process Inefficiency Highlights skill to be able to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/activate-highlight-skills.html
+release: yokohama
+product: Process Mining
+classification: process-mining
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Working with process inefficiency highlights using AI, Configure, ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
+---
+
+# Activate Process Inefficiency Highlights skill
+
+Activate the Process Inefficiency Highlights skill to be able to use ServiceNow Otto for Process Mining to generate highlights for improvement opportunities.
+
+## Before you begin
+
+Role required: admin
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **Skills**.
+
+2.  Select **Platform** &gt; **Other**.
+
+3.  Select **Process Inefficiency Highlights** from the list of AI skills for Platform.
+
+4.  Select **Turn on** for the Process Inefficiency Highlights skill.
+
+    The skill is activated for your instance.
+
+
+**Parent Topic:**[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/highlights.md)
+

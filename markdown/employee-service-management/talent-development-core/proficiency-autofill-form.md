@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills Foundation Reference, Skills Foundation, Talent Development, Employee Service Management]
+breadcrumb: [Skills Foundation Reference, Skills Foundation, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Proficiency level autofill configuration form
@@ -38,7 +38,7 @@ Role group
 
 </td><td>
 
-The applicable role group for the configuration.**Note:** The configuration is applied only to the selected role group. To indicate a global configuration that is applied to all role groups, leave the field blank.
+The applicable role group for the configuration.**Note:** The configuration is applied only to the selected role group. To indicate a global configuration that is applied to all role groups, leave the field empty.
 
 </td></tr><tr><td>
 

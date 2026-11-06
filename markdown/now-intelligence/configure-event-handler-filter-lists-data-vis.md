@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/configure-event-handler-filter-lists-data-vis.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Technical dashboards, Dashboards, Platform Analytics experience, Platform Analytics]
 ---
@@ -37,7 +37,7 @@ Role required: ui\_builder\_admin, admin
 
     \[Omitted image "add-parFilters.png"\] Alt text: Adding the parFilters client state parameter to a UIB page.
 
-3.  Add a second state variable named *encodedQueries* of type JSON with initial value `{}`.
+3.  Add a second JSON state variable named *encodedQueries* of type Object with initial value `{}`.
 
 4.  Navigate to the Client Scripts section and create a custom script with a name such as "Apply PAR Filters" and the following content or a functional equivalent thereof:
 
@@ -68,21 +68,11 @@ Role required: ui\_builder\_admin, admin
 
 8.  In the UI Builder, select the Filter component.
 
-9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in our example is Apply PAR Filters, as an event handler.
+9.  Select the **Events** tab in the configuration panel and add the page script you have created, which in this example is Apply PAR Filters, as an event handler.
 
     \[Omitted image "add-apply-par-filters.png"\] Alt text: Adding the Apply PAR Filters script as the Filter applied event handler.
 
-10. In the UI Builder, select a List component, if one exists.
-
-11. Select **Edit fixed filter** and set this property \[fixedQuery\] as the dynamic binding expression `@state.encodedQueries.<list-datasource>`.
-
-    Replace &lt;list-datasource&gt; with the data source for the List component. For example, if your List shows records from the Incident \[incident\] table, enter `@state.encodedQueries.incident`.
-
-    \[Omitted image "configure-fixed-filter.png"\] Alt text: In the fixed filter field on a List config panel, binding the fixedQuery property to the encodedQueries client state parameter.
-
-12. Repeat the previous two steps for any other List components.
-
-13. Save the page.
+10. Save the page.
 
 
 **Parent Topic:**[Technical dashboards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/technical-dashboards.md)

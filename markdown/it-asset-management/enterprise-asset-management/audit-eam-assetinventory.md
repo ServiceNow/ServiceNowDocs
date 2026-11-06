@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
-breadcrumb: [Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Stockroom audit access by role, Create and manage enterprise asset inventory, Managing enterprise asset inventory and contracts, Enterprise Asset Management, Asset Management]
 ---
 
 # Audit enterprise asset inventory
@@ -18,7 +18,7 @@ Audit your enterprise asset inventory to learn where your assets are and what th
 
 ## Before you begin
 
-Role required: sn\_eam.enterprise\_asset\_manager
+Role required: sn\_eam.enterprise\_asset\_manager, sn\_eam.asset\_technician, sn\_itam\_common.asset\_audit\_user, or sn\_itam\_common.asset\_audit\_admin
 
 ## About this task
 
@@ -49,7 +49,7 @@ The asset audit inventory record is created and appears with the **Expected Asse
 
 Scan the assets in the inventory using the ServiceNow Agent app.
 
-**Parent Topic:**[Create and manage enterprise asset inventory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/managing-enterprise-asset-inventory.md)
+**Parent Topic:**[Stockroom audit access by role](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/stockroom-audit-access-eam.md)
 
 **Related topics**  
 

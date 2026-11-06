@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Plan your Password Reset processes
@@ -25,7 +25,7 @@ Role required: password\_reset\_admin or admin
 1.  Decide on the password reset process:
 
     -   **Self-service process:** Users reset their password over the Internet using a browser on any supported interface, including mobile devices. To make the Password Reset application with Orchestration available to all users publicly, create a new Password Reset process only for this purpose and make it accessible to all users by setting the **Public access** property. See [Example: The default self-service Password Reset process](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/c_SelfServicePasswordReset.md).
-    -   **Service desk-assisted process:** Users reset passwords by requesting the assistance of a service desk agent, over the phone or in person. Only service desk agents with the password\_reset\_service\_desk role can reset user passwords. Watch the videos: [Resetting User Passwords \(Video\)](https://www.youtube.com/watch?v=CokNL8aw6hA) and [How to Set Up a Service Desk-Assisted Password Reset Process \(Video\)](https://www.youtube.com/watch?v=6VbPR7CWF0M).
+    -   **Service desk-assisted process:** Users reset passwords by requesting the assistance of a service desk agent, over the phone or in person. Only service desk agents with the password\_reset\_service\_desk role can reset user passwords. See the video to reset the password using service desk-assisted process [How to Set Up a Service Desk-Assisted Password Reset Process \(Video\)](https://www.youtube.com/watch?v=6VbPR7CWF0M).
 2.  Decide how groups and roles differ in access and security needs.
 
     Analyze and assess how members of each group in your organization access the system. For example, if members of the sales group primarily access the system remotely, consider using a stronger method or multiple methods to verify the identity of each user.

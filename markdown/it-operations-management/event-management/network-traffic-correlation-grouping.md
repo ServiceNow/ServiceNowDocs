@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Network traffic based alert grouping
@@ -20,14 +20,14 @@ Service candidates are potential collections of processes within your IT environ
 
 ML Service Mapping uses machine learning to automatically discover and map out these service candidates. It identifies how different processes and components are connected and grouped together based on their network traffic and interactions. This helps in understanding and organizing the IT services and their components, making it easier to manage and troubleshoot issues. For example, ML Service Mapping might automatically identify and map the connections between email servers and mail clients based on their network interactions.
 
-**Note:** Network traffic based alert grouping is enabled for new customers starting with the Yokohama release. Existing customers need to enable the property Enable Network Traffic correlation \(**sa\_analytics.agg.query\_network\_traffic\_correlation\_enabled**\) manually.
+**Note:** Network traffic based alert grouping is enabled for new customers starting with the Brazil release. Existing customers need to enable the property Enable Network Traffic correlation \(**sa\_analytics.agg.query\_network\_traffic\_correlation\_enabled**\) manually.
 
 ## How it works
 
 -   Host identification: Alerts related to network issues are generated from various sources.
 -   Network context identification: The correlation process uses horizontal discovery results and ML Service Mapping to identify the most relevant service candidates and network connections.
 
-    This process uses the results of the scheduled job **Event Management - Populate Service candidate process to process mapping - Daily**, which runs once a day and is used to store process-to-process connections for Host CIs in the format required by the alert grouping algorithm.
+    This process uses the results of the scheduled job **Event Management - Populate Service candidate process to process mapping - Daily**, which runs once a day. The job stores process-to-process connections for Host CIs in the format required by the alert grouping algorithm.
 
 -   Alert grouping: Alerts are grouped based on direct process-to-process connections within the context of the same service candidate. Grouping is updated in real-time as new alerts are received.
 

@@ -1,5 +1,5 @@
 ---
-title: Managing the appointments for telecommunication services
+title: Manage appointments for telecommunication services
 description: Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/telecom-media-technology/field-service-management-for-telecommunications/manage-appointment-telecommunication-service.html
@@ -7,16 +7,14 @@ release: yokohama
 product: Field Service Management for Telecommunications
 classification: field-service-management-for-telecommunications
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Field Service Management for Telecommunications, Telecommunications, Media, and Technology]
+breadcrumb: [Field Service Management for Telecommunications, Telecommunications, Media, and Technology \(TMT\)]
 ---
 
-# Managing the appointments for telecommunication services
+# Manage appointments for telecommunication services
 
 Manage the appointments for the field services to enable the installation, activation, and site assessments that are needed for connectivity services.
-
-## Overview of appointment management
 
 With the use of the ServiceNow Telecommunication Open API application, you create appointments from your system for the connectivity-related field services. You can book an appointment on an existing work order and assigned it to the field service agent. To learn more about booking appointments, see [Manage appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/managing-appointments.md).
 

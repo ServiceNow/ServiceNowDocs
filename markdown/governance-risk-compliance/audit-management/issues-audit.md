@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Audit Management, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Management overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Manage audit issues and remediation
@@ -36,4 +36,6 @@ Various types of issues are created under the following conditions:
 
 
 Remediating an issue marks an intention to fix the underlying issue causing the control failure or risk exposure. Accepting an issue marks an intention to create an exception for a known control failure or risk. Controls that are **Accepted** remain in a non-compliant state until the control is reassessed. In this way, the issue can be used to document observations during audits.
+
+For more information on issues and observations, see [Manually create GRC issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/t_CreateAnIssue.md) and [Audit observations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/audit-management/audit-observations.md).
 

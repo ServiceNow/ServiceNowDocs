@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -29,7 +29,7 @@ Service Portal displays search results data within a widget on the search page. 
 
 ## Search analytics and suggestions
 
-Generate relevant search suggestions for your users and monitor search analytics to understand what your users are searching for and whether they're finding what they need. Search Suggestions is a ServiceNow AI Platform feature. For more information, see [Search Suggestions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/search-suggestions-overview.md).
+Generate relevant search suggestions for your users and monitor search analytics to understand what your users are searching for and whether they're finding what they need. Search Suggestions is a ServiceNow AI Platform feature. For more information, see Search Suggestions.
 
 -   **Generate suggestions from custom widgets**
 
@@ -50,5 +50,5 @@ Configure the ServiceNow AI Search application for Service Portal so that portal
 -   **[Zing search in Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/zing-search-service-portal.md)**  
 Service Portal search supports the ServiceNow Zing text indexing and search engine. Zing allows you to index and search record data by table and is created entirely with ServiceNow code and implemented within the relational model.
 
-**Parent Topic:**[Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/c_ServicePortal.md)
+**Parent Topic:**[Configuring Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/configuring-service-portal.md)
 

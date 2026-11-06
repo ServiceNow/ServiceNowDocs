@@ -7,9 +7,9 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbench, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Create a single CAB meeting occurrence, Working with the CAB Workbench, Use, Change Management, IT Service Management]
 ---
 
 # View CAB meeting details
@@ -24,27 +24,30 @@ Role required: itil, sn\_change\_cab.cab\_manager, sn\_change\_read, sn\_change\
 
 1.  Use one of the following ways to navigate to the CAB meeting.
 
-<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d449782e52">
+<table id="choicetable_w32_vdm_jx"><tbody><tr><td id="d422996e52">
 
 **CAB meeting**
 
 </td><td>
 
 1.  Navigate to **Change** &gt; **Change Advisory Board** &gt; **All CAB Meetings** and open the specific CAB meeting to view.
-2.  Click the **Go to this meeting in CAB workbench** related link.
+
+**Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
+
+2.  Select the **Go to this meeting in CAB workbench** related link.
 
 
-</td></tr><tr><td id="d449782e85">
+</td></tr><tr><td id="d422996e114">
 
 **CAB workbench**
 
 </td><td>
 
 1.  Navigate to **Change** &gt; **Change Advisory Board** &gt; **CAB Workbench**.
-2.  Click the meeting details you want to view from your calendar.
-3.  Click **Open** in the window that appears for the meeting.
+2.  Select the meeting details you want to view from your calendar.
+3.  Select **Open** in the window that appears for the meeting.
 
-**Note:** You can only click **Open** if the meeting has an agenda.
+**Note:** You can only select **Open** if the meeting has an agenda.
 
 </td></tr></tbody>
 </table>    \[Omitted image "CHG\_CABMeeting.png"\] Alt text: CAB meeting details workbench
@@ -118,14 +121,14 @@ Conference details of the CAB meeting.
 
     |Task|Steps|
     |----|-----|
-    |Edit the change request|Click the edit icon beside the **Change**, **Planning**, and **Schedule** tabs.|
-    |Start the meeting|Click **Start meeting**.|
-    |End the meeting|Click **End meeting**.|
-    |Pause the timer on the current agenda item|Click **Pause** on the **Current Agenda Item** widget.|
-    |Move to the next agenda item|Click **Next** after a decision is taken on the current agenda item.|
-    |Host the meeting|Click **Attendees** &gt; **Host** to become the host. You can host the meeting when you are a CAB manager or delegate.|
-    |Promote an agenda item|Click **Promote** under a change request name and title to promote it as the next agenda item for discussion.|
-    |Take meeting notes|Click **Meeting Notes** to take notes during the meeting. These notes can be shared with CAB attendees.|
+    |Edit the change request|Select the edit icon beside the **Change**, **Planning**, and **Schedule** tabs.|
+    |Start the meeting|Select **Start meeting**.|
+    |End the meeting|Select **End meeting**.|
+    |Pause the timer on the current agenda item|Select **Pause** on the **Current Agenda Item** widget.|
+    |Move to the next agenda item|Select **Next** after a decision is taken on the current agenda item.|
+    |Host the meeting|Select **Attendees** &gt; **Host** to become the host. You can host the meeting when you are a CAB manager or delegate.|
+    |Promote an agenda item|Select **Promote** under a change request name and title to promote it as the next agenda item for discussion.|
+    |Take meeting notes|Select **Meeting Notes** to take notes during the meeting. These notes can be shared with CAB attendees.|
 
 
 **Parent Topic:**[Create a single CAB meeting occurrence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change-management/create-a-cab-meeting.md)

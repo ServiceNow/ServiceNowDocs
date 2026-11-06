@@ -7,16 +7,14 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configuring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Configure Cloud Cost Management for Microsoft Azure, Configure, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Configuring access to CI data on your Microsoft Azure account
 
 To enable Discovery to communicate with your Microsoft Azure account, you specify your Service Principal credentials while configuring the MID Servers that communicate with your Microsoft Azure account.
-
-**Important:** This information applies to both the Cloud Cost Management and Cloud Insights Billing apps. All references to Cloud Cost Management also apply to Cloud Insights Billing.
 
 ## Detailed instructions
 

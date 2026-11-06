@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -165,14 +165,11 @@ If you want to view any specific activity or search the collaboration activity d
 
 Folders and chat conversations shared with Major Security Incident Management reflect as breadcrumbs with the structure:
 
-connector application name &lt;incident number – category &gt; &lt;folder name&gt;\).\[Omitted image "activity-stream-breadcrumbs.png"\] Alt text: Activity details as per the selected filters
+connector application name \(&lt;incident number – category &gt; &lt;folder name&gt;\).
 
 **Label the activities**:
 
-1.  Click on the **Label** icon.
-2.  Select the respective incident activity label check box as shown in the below screen shot.
-
-    \[Omitted image "collab-labels.png"\] Alt text: Assigning labels to incident activities.
-
-3.  The labelled activities are color coded and depicted as progress trend graph on the **External Collaboration** section of the workspace.
+1.  Select the **Label** icon.
+2.  Select the respective incident activity label check box.
+3.  The labeled activities are color coded and depicted as progress trend graph on the **External Collaboration** section of the workspace.
 

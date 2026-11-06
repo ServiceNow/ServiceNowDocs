@@ -7,7 +7,7 @@ release: yokohama
 product: API Reference
 classification: api-reference
 topic_type: concept
-last_updated: "2025-08-01"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Client API reference, API reference, API implementation and reference]
 ---

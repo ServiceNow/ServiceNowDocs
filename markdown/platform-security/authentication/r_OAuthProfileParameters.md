@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [OAuth Outbound, OAuth authentication, Authentication, Access Management]
+breadcrumb: [OAuth outbound, OAuth authentication, Authentication, Access Management]
 ---
 
 # OAuth parameters for default profile support

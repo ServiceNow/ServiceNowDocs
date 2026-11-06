@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Build a Cloud Provisioning blueprint, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Build a Cloud Provisioning blueprint, Cloud Provisioning Blueprints, Cloud Admin Portal, Cloud Provisioning and Governance administration guide, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Configure a blueprint rule
@@ -245,7 +245,7 @@ Value
 
 </td><td>
 
-Enter an optional value that you want to assign to the target field. For example, if you selected **SetValue** for the **Action Type** field and you want to update the **Resource Group Name**, you can use the value `${ResourceGroup}`, which pulls the names of the resource groups from the blueprint.
+Enter an optional value that you want to assign to the target field. For example, if you selected **SetValue** for the **Action Type** field and you want to update the **Resource Group Name**, you can use the value `${ResourceGroup}`. This pulls the names of the resource groups from the blueprint.
 
 </td></tr><tr><td>
 

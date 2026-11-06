@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-set-pricing-properties.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product pricing, Configure, Sales Customer Relationship Management]
+breadcrumb: [Product pricing, Configure, price, quote apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Set properties to control pricing processing
@@ -23,8 +23,8 @@ Role required: admin
 You can control the following pricing features using pricing system properties:
 
 -   Logging of pricing engine requests for debugging.
--   Method for applying multiple pricing adjustments defined in various pricing matrices.
--   Parallel processing of a large set of pricing engine requests, typically 100 transaction lines or more, to optimize performance. You can also set the threshold, which is the number of transaction lines that triggers parallel processing.
+-   Multiplier term used when calculating uplifts for contract renewals.
+-   Ramp segment and term basis used when calculating renewal adjustments for products with ramps.
 
 ## Procedure
 
@@ -50,29 +50,39 @@ Control the logging of pricing engine requests for debugging. Select **Yes** to 
 
 </td></tr><tr><td>
 
-Method used to stack multiple adjustments defined in matrices\(sn\_csm\_pricing.matrix\_multiple\_adjustments\_handling\)
+Renewal Uplift Term\(sn\_csm\_pricing.renewal\_uplift\_term\)
 
 </td><td>
 
-Control how multiple pricing adjustments from different pricing matrices are applied. Select one of the following:-   Starting List Price: Calculate adjustments based on the list price of the product.
--   Running Total: Calculate current adjustment by applying the adjustment calculations on the previous adjusted value.
-
+Set the multiplier term for contract renewal uplifts, either per year or per term.
 
 </td></tr><tr><td>
 
-Pricing Engine Parallel Execution-   Enable the pricing engine to perform parallel processing of transaction lines when a transaction threshold is met.
+Ramp Renewal Pricing-   Set the ramp segment used as the price basis for calculating a renewal adjustment.
 
-\(sn\_csm\_pricing.enable\_pricing\_engine\_parallel\_execution\)
+\(sn\_csm\_pricing.ramp\_renewal\_price\_segment\)
 
--   Set the number of transactions that must be met before the pricing engine can run parallel processing.
+-   Set the term basis used when calculating renewal adjustments for ramp lines.
 
-\(sn\_csm\_pricing.pricing\_engine\_parallelism\_lines\_threshold\)
+\(sn\_csm\_pricing.ramp\_renewal\_term\_basis\)
 
 </td><td>
 
-Set properties that optimize the processing time for pricing transactions.-   The parallel execution property is set to **Yes** by default. Select **No** to turn off parallel execution and process the transaction lines serially. If you select **No**, the system ignores the threshold value.
--   The default threshold value is 100. You can enter a different number that represents the minimum number of transaction lines that must be met before the pricing engine can perform parallel processing using multiple threads.
-**Note:** Parallel processing isn't performed by the pricing engine for calls to the product configurator pricing integrations, even if the number of transaction lines meets the parallelism threshold.
+Set properties to control how pricing for ramp renewals is calculated.-   The ramp renewal price segment property is set to **Last Segment** by default, which uses the price from the final ramp segment as the price basis.
+
+Select **First Segment** to use the price from the initial ramp segment as the price basis.
+
+-   The ramp renewal term basis property is set to **Segment** by default, to apply the adjustment to the term of the segment identified in the ramp renewal price segment property \(sn\_csm\_pricing.ramp\_renewal\_price\_segment\).
+
+Select **Total Ramp ** to apply the renewal adjustment across the full ramp duration.
+
+</td></tr><tr><td>
+
+Pricing Session Cache\(sn\_csm\_pricing.enable\_pricing\_session\_cache\)
+
+</td><td>
+
+For testing purposes only. Turn on \(select **Yes**\) or turn off \(select **No**\) the cache for pricing sessions.**Note:** don't set this property to **No** except for testing, as it may negatively impact pricing engine performance.
 
 </td></tr></tbody>
 </table>3.  Select **Save**.

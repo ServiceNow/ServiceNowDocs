@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use drop off lists, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Using drop off lists, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Drop off an asset
@@ -34,6 +34,4 @@ If a dropped-off item was not used, it is automatically placed in**In Stock - Av
 
 3.  After physically dropping off the items, select the check box beside the item, then go to the **Actions** choice list and select **Drop Off**.
 
-
-**Parent Topic:**[Use drop off lists](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_UseDropOffLists.md)
 

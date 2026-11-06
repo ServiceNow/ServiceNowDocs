@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Post installation troubleshooting, Admin configurations, Configure, Employee Center, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Post installation troubleshooting, Admin configurations, Configuring Employee Center, Employee Center, EmployeeWorks, Employee Service Management]
 ---
 
 # Run fix-script for RCA approvals
@@ -34,7 +34,7 @@ The RCAs that are generated after the installation are in the **Requested** stat
 
 To automate the RCA approvals for any record, you can run the **EC bulk RCAs approval** script where the source scope is one of the given Employee Experience applications.
 
-Download the following **EC bulk RCAs approval** file from the ServiceNow Store.\[Omitted image "rca-script-store.jpg"\] Alt text: EC bulk RCAs approval script file on ServiceNow store
+Download the following **EC bulk RCAs approval** file from the ServiceNow Store.
 
 **Note:** This file is a standalone script to reduce the manual effort involved.
 

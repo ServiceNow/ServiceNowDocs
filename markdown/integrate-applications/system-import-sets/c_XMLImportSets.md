@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Importing from another ServiceNow instance, Import sets, Imports, Data and Automation]
+breadcrumb: [Importing from another ServiceNow instance, Import sets, Imports, Workflow Data Fabric]
 ---
 
 # Using XML import sets

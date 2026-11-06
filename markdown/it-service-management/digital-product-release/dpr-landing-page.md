@@ -7,7 +7,7 @@ release: yokohama
 product: Digital Product Release
 classification: digital-product-release
 topic_type: reference
-last_updated: "2025-04-25"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [IT Service Management]
 ---
@@ -16,11 +16,13 @@ breadcrumb: [IT Service Management]
 
 ServiceNow® Digital Product Release \(DPR\) is a release management solution that helps release managers, product managers, and program managers manage the release process.
 
+This video provides an overview of Digital Product Release and its capabilities.\[Omitted video\] Description: End-to-end overview of managing digital product releases from planning through execution and delivery.
+
 ## Get started
 
 <table id="table_g42_jt4_kyb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how Digital Product Release help you manage the release process for delivering products and services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn about how Digital Product Release helps you manage the release process for delivering products and services.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-product-release/dpr-exploring-digital-product-release.md)
 
 </td><td>
 

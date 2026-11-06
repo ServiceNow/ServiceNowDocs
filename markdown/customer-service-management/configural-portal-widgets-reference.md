@@ -1,0 +1,16 @@
+---
+title: Configurable Portal Widgets reference
+description: Reference tables for configuring Portal Widgets instance options, and JSON parameters.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/configural-portal-widgets-reference.html
+release: yokohama
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Customer Service Management]
+---
+
+# Configurable Portal Widgets reference
+
+Reference tables for configuring Portal Widgets instance options, and JSON parameters.
+

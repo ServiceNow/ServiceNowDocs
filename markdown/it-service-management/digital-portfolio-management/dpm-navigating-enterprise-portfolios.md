@@ -1,20 +1,20 @@
 ---
 title: Navigate portfolio types in Digital Portfolio Management
-description: Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business applications, and application service. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Application service portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
+description: Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business application, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-navigating-enterprise-portfolios.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-22"
 reading_time_minutes: 9
-breadcrumb: [Enterprise portfolios, Work with portfolios in Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Enterprise portfolios, Work with portfolios, Digital Portfolio Management, IT Service Management]
 ---
 
 # Navigate portfolio types in Digital Portfolio Management
 
-Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business applications, and application service. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Application service portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
+Navigate three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) application — service, business application, and service instance. The way to create a portfolio depends on the type. As of May 2025, Enterprise portfolios are created directly in DPM. Business application and Service instance portfolios are created using the enterprise portfolios tables in the DPM module in UI16.
 
 Enterprise portfolios are structured in a nesting content tree format so you can easily navigate each type of enterprise portfolio. Access Enterprise portfolios using the Enterprise portfolio icon \(\[Omitted image "enterprise-portfolio-gray.png"\] Alt text: Enterprise portfolios icon.\). For more information about accessing enterprise portfolios, see [Navigate enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio.md).
 
@@ -50,7 +50,7 @@ Taxonomy node
 **Note:** DPM versions prior to 2.2.15 may have duplicate services showing in the Service breakdown section. For information, see [KB1123710](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1182501).
 
     -   **Taxonomy node** tab with all the taxonomy nodes related to the portfolio.
-    -   **Services** tab that lists all services in the portfolio, with their parent, classification \(business or technical\), phase, status, criticality, and owned by name. You can also select **Create business service** or **Create technical service** to perform those tasks in Service Builder.
+    -   **Services** tab that lists all services in the portfolio, with their parent, classification \(business or technical\), phase, status, criticality, and owned by name. You can also select **Create business service** or **Create technology management service** to perform those tasks in Service Builder.
     -   **Info** tab with a description and general information about the taxonomy node.
     -   **Needs attention** panel that lists critical incidents, outages, and changes.
 
@@ -72,7 +72,7 @@ Service and service offering
 **Note:** For information about CSDM life-cycle field names, see [Apply the CSDM guidelines to Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-csdm.md).
 
 -   The performance snapshot metrics for availability, open incidents, incidents not updated for 5 days, and new requests.
--   The Needs attention cards for critical incidents,outages, and changes.
+-   The Needs attention cards for critical incidents, outages, and changes.
 -   The **More menu** icon \(\[Omitted image "menu-icon.png"\] Alt text: More menu icon\) enables you to:
     -   Add the service or service offering to a personal portfolio. For more information, see [Create a personal portfolio in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-create-personal-portfolios.md).
     -   Add the service to your DPM homepage. For more information, see [Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-explore-landing.md).
@@ -86,7 +86,7 @@ The DPM Workspace displays enterprise portfolios in a nested content tree starti
 
 \[Omitted image "dpm-enterprise-portfolio-example.png"\] Alt text: Business application enterprise portfolio content tree example
 
-**Important:** The image shows the **Portfolio** field as Enterprise business applications. To select a different type of enterprise portfolio from the one you're in, delete the value in the **Portfolio** field, and then select the field \(again\) to see the other portfolio types \(service, business, or application service\).
+**Important:** The image shows the **Portfolio** field as Enterprise business applications. To select a different type of enterprise portfolio from the one you're in, delete the value in the **Portfolio** field, and then select the field \(again\) to see the other portfolio types \(service, business, or service instance\).
 
 <table id="table_wc1_vz4_2yb"><thead><tr><th>
 
@@ -109,7 +109,7 @@ Enterprise taxonomy node
     -   Managed by name.
     -   Total subscribers
 -   The portfolio success metrics for availability, incidents with a breached service level agreement \(SLA\), incidents caused by changes, and successful changes.
--   Needs attention cards for critical incidents, outages, changes,alerts, risks, and audits.
+-   Needs attention cards for critical incidents, outages, changes, alerts, risks, and audits.
 -   The **View details** link provides the following information about the enterprise taxonomy node.
     -   Header with the Owned by name and the Managed by name.
     -   **Overview** tab with portfolio success metrics and the breakdown of business applications in the enterprise taxonomy node.
@@ -140,11 +140,11 @@ The Overall risk is empty.
 -   The **View details** link launches the business application details. For more information, see the Business applications section in [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 </td></tr></tbody>
-</table>## Application service portfolios
+</table>## Service instance portfolios
 
-The information in application service portfolios is similar to that of business application portfolios with some differences that pertain to application services.
+The information in service instance portfolios is similar to that of business application portfolios with some differences that pertain to service instances.
 
-For information about KPI groups in application service portfolios, see [View application service details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-app-service-details.md).
+For information about KPI groups in service instance portfolios, see [View service instance details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-app-service-details.md).
 
 <table id="table_xxm_g5w_2yb"><thead><tr><th>
 
@@ -160,7 +160,7 @@ Enterprise taxonomy node
 
 </td><td>
 
--   The first level in the content tree under the application service enterprise portfolio. Could contain a second or third level if it has child enterprise taxonomy nodes.
+-   The first level in the content tree under the service instance enterprise portfolio. Could contain a second or third level if it has child enterprise taxonomy nodes.
 -   The header:
     -   Short description.
     -   Owned by name.
@@ -170,14 +170,14 @@ Enterprise taxonomy node
 -   The Needs attention cards for critical incidents, outages, changes, alerts, risks, and audits.
 -   The **View details** link provides the following information about the enterprise taxonomy node.
     -   Header with the Owned by name and the Managed by name.
-    -   **Overview** tab with portfolio success metrics and the breakdown of application services in the enterprise taxonomy node.
-    -   **Application services** tab with a list of the application services that are in the enterprise taxonomy node.
+    -   **Overview** tab with portfolio success metrics and the breakdown of service instances in the enterprise taxonomy node.
+    -   **Service instances** tab with a list of the service instances that are in the enterprise taxonomy node.
     -   **Info** tab with a description and general information about the enterprise taxonomy node.
     -   **Needs attention** panel that lists critical incidents, outages, changes, alerts, risks, and audits for the enterprise taxonomy node.
 
 </td></tr><tr><td>
 
-Application service
+Service instance
 
 </td><td>
 
@@ -192,8 +192,8 @@ The Overall risk is empty.
 
 -   The portfolio success metrics for availability, incidents with a breached SLA, incidents caused by changes, and successful changes.
 -   The Needs attention cards for critical incidents, changes, outages, risks, and alerts.
--   The **More menu** icon \(\[Omitted image "menu-icon.png"\] Alt text: More menu icon\) enables you to add the application service to a personal portfolio. For more information, see [Create a personal portfolio in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-create-personal-portfolios.md).
--   The **View details** link launches the application service details. For information on what this screen includes, see the Application services section in [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-related-products.md).
+-   The **More menu** icon \(\[Omitted image "menu-icon.png"\] Alt text: More menu icon\) enables you to add the service instance to a personal portfolio. For more information, see [Create a personal portfolio in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-create-personal-portfolios.md).
+-   The **View details** link launches the service instance details. For information on what this screen includes, see the Service instances section in [Digital Portfolio Management related applications and data sources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-related-products.md).
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Enterprise portfolios](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolios.md)

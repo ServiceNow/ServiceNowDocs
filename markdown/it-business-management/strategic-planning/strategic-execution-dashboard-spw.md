@@ -1,5 +1,5 @@
 ---
-title: Strategy Execution Dashboard in Strategic Planning
+title: Strategy Execution Dashboard in Strategic Planning Workspace
 description: The Strategy Execution Dashboard helps portfolio managers monitor the alignment between strategy and business outcomes, and quickly assess goal progress to ensure high-impact delivery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/strategic-planning/strategic-execution-dashboard-spw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Strategic Planning
 classification: strategic-planning
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Explore, Dashboards, Strategic Planning, Strategic Portfolio Management]
 ---
 
-# Strategy Execution Dashboard in Strategic Planning
+# Strategy Execution Dashboard in Strategic Planning Workspace
 
 The Strategy Execution Dashboard helps portfolio managers monitor the alignment between strategy and business outcomes, and quickly assess goal progress to ensure high-impact delivery.
 

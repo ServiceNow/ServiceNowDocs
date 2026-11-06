@@ -7,9 +7,9 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Issue Page Configuration module, Landing Page Configurations module, Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Link a new Issue Page Configuration record to a workspace
@@ -51,5 +51,5 @@ When a new issue configuration is created and saved in the Issue Page Configurat
 
 The new issue page configuration setting is displayed in the desired workspace view.
 
-**Parent Topic:**[Landing Page Configurations module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/admin-config-using-grc-common.md)
+**Parent Topic:**[Issue Page Configuration module](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/issue-page-config-record.md)
 

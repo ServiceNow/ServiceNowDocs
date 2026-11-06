@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Data Replication \(IDR\)
 classification: instance-data-replication-idr
 topic_type: concept
-last_updated: "2025-05-13"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Instance Data Replication, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -18,7 +18,7 @@ Improve message processing and replication performance by upgrading your legacy 
 
 ## Legacy and V2 replication sets
 
-**Important:** Legacy replication sets are planned for deprecation by the Zurich release. To continue replicating data, you must upgrade all legacy replication sets to V2.
+**Important:** Legacy replication sets are deprecated in the Zurich release. To continue replicating data, you must upgrade all legacy replication sets to V2.
 
 -   Legacy replication sets use a ServiceNow Kafka message transport and delivery implementation that was created prior to the Utah release. All replication sets created prior to the Utah release are considered legacy replication sets.
 
@@ -57,15 +57,4 @@ Replicate high volumes of data faster and more reliably by upgrading your Instan
 If a problem occurs during an upgrade to V2, the upgrade is rolled back in Instance Data Replication \(IDR\).
 
 **Parent Topic:**[Configuring Instance Data Replication](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/instance-data-replication-idr/configuring-instance-data-replication.md)
-
-**Related topics**  
-
-
-[Request an Instance Data Replication subscription]()
-
-[Preparing for Instance Data Replication]()
-
-[Preserving table hierarchy in Instance Data Replication]()
-
-[Upgrading your instance with Instance Data Replication enabled]()
 

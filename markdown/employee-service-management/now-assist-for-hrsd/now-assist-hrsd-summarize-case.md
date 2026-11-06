@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Use generative AI skills, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
@@ -27,7 +27,7 @@ You can use the case summarization skill in either Core UI or Agent Workspace fo
 -   In Core UI, the summary appears in a banner in the case record.
 -   In Agent Workspace for HR Case Management, the summary is generated in the **Details** tab.
 
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
+**Important:** This generative AI skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 You can make a copy of this skill to configure it to meet your business needs. For more information, see [Make a copy of a Now Assist skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/make-a-copy-of-a-now-assist-skill.md).
 
@@ -49,15 +49,15 @@ You can make a copy of this skill to configure it to meet your business needs. F
     -   Canceled or Suspended: Summary isn’t visible
 5.  When you finish summarizing a case, you can add it to the work notes, expand or collapse it, provide feedback, copy it, or view information about it.
 
-<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d469957e175">
+<table id="choicetable_md1_nyf_xyb"><thead><tr><th align="left" id="d506826e170">
 
 Option
 
-</th><th align="left" id="d469957e178">
+</th><th align="left" id="d506826e173">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d469957e184">
+</th></tr></thead><tbody><tr><td id="d506826e179">
 
 **Save the summary information by adding it to the case work notes**
 
@@ -68,7 +68,7 @@ Procedure
 3.  Select **Save to Work notes**.
 
 
-</td></tr><tr><td id="d469957e214">
+</td></tr><tr><td id="d506826e209">
 
 **Expand or collapse the summary**
 
@@ -76,7 +76,7 @@ Procedure
 
 Select the **Show more** or **Show less** button to see more or fewer summary details.
 
-</td></tr><tr><td id="d469957e229">
+</td></tr><tr><td id="d506826e224">
 
 **Provide feedback for the summary**
 
@@ -84,7 +84,7 @@ Select the **Show more** or **Show less** button to see more or fewer summary de
 
 If you think that the summary was helpful, select the helpful icon \(\[Omitted image "icon-helpful.png"\] Alt text: Helpful icon.\). If you think that the summary wasn’t helpful, select the not helpful icon \(\[Omitted image "icon-not-helpful.png"\] Alt text: Not helpful icon.\).This feedback improves the generative AI model and can help to improve the future versions of this skill.
 
-</td></tr><tr><td id="d469957e252">
+</td></tr><tr><td id="d506826e247">
 
 **Copy the case summary**
 
@@ -92,7 +92,7 @@ If you think that the summary was helpful, select the helpful icon \(\[Omitted i
 
 Select the copy icon \(\[Omitted image "icon-copy.png"\] Alt text: Copy to clipboard icon.\) to use the case summary information for another purpose, such as pasting into an email.
 
-</td></tr><tr><td id="d469957e268">
+</td></tr><tr><td id="d506826e263">
 
 **View the information about the case summary**
 
@@ -102,22 +102,26 @@ If you want to check some details about the summary, select the more info icon \
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
+**Parent Topic:**[Use ServiceNow Otto for HR Service Delivery \(HRSD\) in Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/use-now-assist-hr.md)
 
 **Related topics**  
 
 
-[Summarize a chat conversation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Summarize a chat conversation using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 
-[Summarize a Sidebar discussion by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Summarize a Sidebar discussion by using ServiceNow Otto for HRSD]()
 
-[Generate a chat reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate a chat reply recommendation by using ServiceNow Otto for HRSD]()
 
-[Generate a knowledge article from HR Agent Workspace with Now Assist]()
+[Generate a knowledge article from HR Agent Workspace with ServiceNow Otto for HRSD]()
 
 [Generate a knowledge article from multiple cases]()
 
-[Generate an email reply recommendation by using ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate an email reply recommendation using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case interview using ServiceNow Otto for HRSD]()
+
+[Summarize an ER case using ServiceNow Otto for HRSD]()
 
 [Generate resolution notes using ServiceNow Otto for HRSD]()
 
@@ -127,15 +131,15 @@ If you want to check some details about the summary, select the more info icon \
 
 [Use Knowledge Graph in ServiceNow Otto for HRSD]()
 
-[Use Galileo Inside to answer HR-related questions]()
+[Use ServiceNow Otto for HRSD – Galileo Inside to answer HR-related questions]()
 
-[Use the Now Assist panel in Agent Workspace for HR Case Management]()
+[Use the ServiceNow Otto panel in HR Agent Workspace]()
 
 [Submit an HR request with Gen AI Virtual Agent]()
 
 [ServiceNow Otto for HR Service Delivery \(HRSD\) integration with Enterprise Service Management Integrations Framework]()
 
-[Detect sensitive topics by using sensitivity detection in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
+[Generate activity responses for HR cases]()
 
 [Analyze sentiments in ServiceNow Otto for HR Service Delivery \(HRSD\)]()
 

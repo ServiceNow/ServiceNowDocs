@@ -7,9 +7,9 @@ release: yokohama
 product: Predictive Intelligence
 classification: predictive-intelligence
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Enable AI experiences]
+breadcrumb: [Configure Predictive Intelligence, Predictive Intelligence, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
 # Database View support for Predictive Intelligence
@@ -45,4 +45,6 @@ Similarity Definition forms compare your existing table records based on their s
 To use a database view in your similarity solution, instead of selecting a table in the **Table** field, you select the database view you created, which in this example scenario is the **Knowledge View** database view. This configuration increases the number of records your solution uses in training because the system compares and processes five tables of data instead of one.
 
 \[Omitted image "database-view-support-predictive-intelligence4.png"\] Alt text: Your database view configured to your similarity solution
+
+**Parent Topic:**[Configure Predictive Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/predictive-intelligence/configure-predictive-intelligence.md)
 

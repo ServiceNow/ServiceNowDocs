@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a control objective using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # User interface changes for assessments based on GRC attestation
@@ -25,8 +25,6 @@ You can select the Assessments list option in the Control attestations list of t
 -   **Compliance Home page for the compliance manager**
 
     The home page for the compliance manager is updated with the Attestations widget. The existing attestation widget has been renamed as Classic attestations that has the data of the completed attestations for the control when the attestation method was Classic attestation.
-
-    \[Omitted image "smart-assessments-comp-manager.png"\] Alt text: Compliance home page for the compliance manager.
 
 -   **Compliance Home page for the compliance analyst**
 

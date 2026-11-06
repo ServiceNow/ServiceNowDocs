@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Record the time worked on a work order task, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+breadcrumb: [Recording time worked, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # Record time worked for a task or activity manually
@@ -34,6 +34,8 @@ A time card is created for each category type and work order task. The total hou
 
     -   Navigate to a work order task and select **Record Time**. Selecting **Record Time** opens a **Time Worked** form with the **Task** and **User** field already populated.
     -   Navigate to **Time Sheets** &gt; **My Time Worked** and select **New**. This opens a **Time Worked** form with the **User** field already populated.
+    \[Omitted image "record-time.png"\] Alt text: record time form
+
 2.  If necessary, select the work order task in the **Task** field.
 
 3.  If necessary, select the **Work Date**.
@@ -52,6 +54,4 @@ A time card is created for each category type and work order task. The total hou
 
     The **Time Worked** form is saved and added to the **Time Worked** list. If your entry is the first time worked entry for the selected category, a time card is created for that category and the time worked record is added to the card. If a time card for the category exists, the time worked record is added to that card.
 
-
-**Parent Topic:**[Record the time worked on a work order task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Recording-time-spent-on-work-order-tasks.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Collaboration Services
 classification: collaboration-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Collaboration services, IT Service Management]
 ---

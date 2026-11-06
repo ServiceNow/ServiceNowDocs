@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Modeling your Telecommunications Network Inventory workflow, Exploring Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Model your workflow, Explore, Telecommunications Network Inventory]
 ---
 
 # Network inventory templates
@@ -18,7 +18,7 @@ You define the network inventory templates that contain the business guidance ru
 
 ## Introduction to inventory template
 
-A template includes the rules on how the equipment configurations should be generated and are based on the operating requirements from the manufacturer. It also includes the configuration and equipment compatibility information with the other types of hardware. To learn more about the network inventory templates and their relationships, see [Creating inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
+A template includes the rules on how the equipment configurations should be generated and are based on the operating requirements from the manufacturer. It also includes the configuration and equipment compatibility information with the other types of hardware. To learn more about the network inventory templates and their relationships, see [Create inventory template for network asset instantiation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/preparing-inv-templates-network-asset-generation.md).
 
 ## Types of network inventory templates
 
@@ -26,7 +26,7 @@ A template includes the rules on how the equipment configurations should be gene
 
     A network inventory template contains a set of detailed business guidance rules from a telecommunications provider. These rules state how the equipment configurations should be generated and are based on certain operating requirements. For example, based on the equipment model that you develop, you can create a template for use in densely populated metropolitan areas and then you can create another equipment model template for use in sparsely populated rural areas. To learn more about how to create an inventory template, see [Create an inventory template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/create-inventory-templates.md).
 
-    Inventory templates also have an internal attribute that shows if an entry in an inventory template list is a singular template or a template relationship. A template relationship designates that there’s a relationship between this template and another template. These associated templates appear in the Related Template tab in the Inventory template form. To learn more about the template relationship, see [Creating inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md).
+    Inventory templates also have an internal attribute that shows if an entry in an inventory template list is a singular template or a template relationship. A template relationship designates that there’s a relationship between this template and another template. These associated templates appear in the Related Template tab in the Inventory template form. To learn more about the template relationship, see [Create inventory template relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/creating-inventory-templates-telco-equipment.md).
 
 
 -   **Default Template**

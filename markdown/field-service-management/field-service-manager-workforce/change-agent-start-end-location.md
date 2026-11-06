@@ -1,24 +1,24 @@
 ---
-title: Change start and end locations for agents
-description: Change the start-of-day and end-of-day locations for your agents, offering the flexibility needed for specific work order tasks.
+title: Change schedule attributes for agents
+description: Change the schedule attributes for your agents, offering the flexibility needed for specific work order tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.html
 release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing territories and agents from Territory Planning console, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing territories and agents, Managing workforce, Use, Field Service Management]
 ---
 
-# Change start and end locations for agents
+# Change schedule attributes for agents
 
-Change the start-of-day and end-of-day locations for your agents, offering the flexibility needed for specific work order tasks.
+Change the schedule attributes for your agents, offering the flexibility needed for specific work order tasks.
 
 ## Before you begin
 
-Role required: sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_manager, wm\_admin
+Role required: wm\_dispatcher, wm\_manager, sn\_fsm\_tp.fsm\_territory\_planner, sn\_fsm\_tp.fsm\_territory\_resource\_manager, wm\_admin
 
 ## About this task
 
@@ -28,32 +28,24 @@ Ensure the Territory Planning plugin is activated. For more information, see [Ac
 
 1.  Navigate to **All** &gt; **Field Service** &gt; **Dispatching** &gt; **Agents**.
 
-2.  Select the user for whom you want to add or change the start and end locations.
+2.  Select the user for whom you want to add or change the schedule attributes.
 
-3.  Select the **Agent Schedule Attribute Plans** related list.
+3.  Select the **Resource Schedule Attributes** related list.
 
-    **Note:** You can switch the agent's user profile view to **FSM Profile** or add the **Agent Schedule Attribute Plans** related list to the form if it doesn't appear by default.
+    **Note:** You can switch the agent's user profile view to **FSM Profile** or add the **Resource Schedule Attributes** related list to the form if it doesn't appear by default.
 
-4.  Select any existing field or select **New**.
+4.  Perform one of the following actions:
 
-    The **Agent Schedule Attribute Plan** form shows.
+    -   Select **New** to add a new schedule attribute.
+    -   Click the name of an existing record to modify it.
+5.  In the form, fill in or update the fields.
 
-5.  In the **From** field, select the start date.
+6.  Select **Submit**.
 
-6.  In the **To** field, select the end date.
-
-7.  In the **Start location** field, select the location where an agent starts work.
-
-8.  In the **End location** field, select the location where an agent ends work.
-
-9.  Select **Submit**.
-
-    The `Agent Schedule Attribute Plans` table is updated with agent's start and end locations.
+    The `Resource Schedule Attributes` table is updated.
 
 
 ## Result
 
-The scheduling mechanisms consider an agent's start and end locations from the `Agent Schedule Attribute Plans` table for the given day.
-
-**Parent Topic:**[Managing territories and agents from Territory Planning console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-territory-planning-console.md)
+The scheduling mechanisms consider an agent's schedule attributes from the `Resource Schedule Attributes` table for the given day.
 

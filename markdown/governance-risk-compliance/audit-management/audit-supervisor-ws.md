@@ -7,9 +7,9 @@ release: yokohama
 product: Audit Management
 classification: audit-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Audit Workspace, Audit Management, Governance, Risk, and Compliance]
+breadcrumb: [Audit Workspace overview, Audit Management, Governance, Risk, and Compliance]
 ---
 
 # Audit Workspace for the Audit supervisor
@@ -37,11 +37,11 @@ Audit workspace provides a personalized experience for audit supervisors to mana
     Provides a summary of the logged in user's tasks and the group's tasks.
 
 
-\[Omitted image "audit-supervisor-ws-new.png"\] Alt text: Workspace for audit supervisor. \[Omitted image "audit-supervisor-ws-new-with-open-audit-reports.png"\] Alt text: Workspace for audit supervisor with open audit reports. \[Omitted image "audit-supervisor-ws-new-with-engagement-reports.png"\] Alt text: Workspace for audit supervisor with engagement report.
+\[Omitted image "audit-supervisor-ws.png"\] Alt text: Workspace for audit supervisor.
 
 The audit supervisor workspace also provides quick links to create new records.
 
-\[Omitted image "audit-supervisor-ws-tasks-new.png"\] Alt text: Links to create records for audit supervisor.
+\[Omitted image "audit-supervisor-ws-tasks.png"\] Alt text: Links to create records for audit supervisor.
 
 The responsibilities of audit supervisors include overseeing the process of audits, making recommendations on policies, and ensuring that the organization fulfills international and governmental obligations of compliance.
 

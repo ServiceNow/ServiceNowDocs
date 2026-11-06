@@ -1,20 +1,20 @@
 ---
-title: Self-Service Analytics dashboard for customer service
-description: Measure and track the effectiveness of self-service content through user activities on a self-service portal to enrich the content and address any self-service gaps.​
+title: Self-Service Analytics dashboard for Customer Service Management
+description: Measure and track the effectiveness of self-service content through user activities on self-service portals to enrich the content and address any self-service gaps.​
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/analytics-and-reporting-solutions-for-customer-service/ssa-cs-dashboard.html
 release: yokohama
 product: Analytics and Reporting Solutions for Customer Service
 classification: analytics-and-reporting-solutions-for-customer-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Customer Service, Analytics and reporting for Customer Service Management, Customer Service Management]
+breadcrumb: [Platform Analytics Solutions for Self-Service Analytics for Customer Service, Analytics and reporting, Customer Service Management]
 ---
 
-# Self-Service Analytics dashboard for customer service
+# Self-Service Analytics dashboard for Customer Service Management
 
-Measure and track the effectiveness of self-service content through user activities on a self-service portal to enrich the content and address any self-service gaps.​
+Measure and track the effectiveness of self-service content through user activities on self-service portals to enrich the content and address any self-service gaps.​
 
 \[Omitted image "self-service-dashboard-overview.png"\] Alt text: Overview tab displaying different widgets such as self-service engagements, successful engagements, success rate, cost saved by channel, deflection activity, resolution by channel, and self-service demand by channel.
 

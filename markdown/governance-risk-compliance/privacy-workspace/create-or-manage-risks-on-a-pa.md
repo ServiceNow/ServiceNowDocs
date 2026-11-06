@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -39,15 +39,15 @@ You can add or manage risks to a processing activity in the following ways:
 
 4.  To add a risk to the processing activity, do one of the following.
 
-<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d308147e110">
+<table id="choicetable_ijw_qcj_qpb"><thead><tr><th align="left" id="d188067e107">
 
 Option
 
-</th><th align="left" id="d308147e113">
+</th><th align="left" id="d188067e110">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d308147e119">
+</th></tr></thead><tbody><tr><td id="d188067e116">
 
 **To create a risk**
 
@@ -55,7 +55,7 @@ Description
 
 Click **New** and fill in the form.For details see, [Create a risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/t_CreateRisk.md).
 
-</td></tr><tr><td id="d308147e141">
+</td></tr><tr><td id="d188067e138">
 
 **To add a risk by using the existing risk statement**
 
@@ -66,7 +66,7 @@ Click **New** and fill in the form.For details see, [Create a risk](https://raw.
 3.  Click **Add**.
 
 
-</td></tr><tr><td id="d308147e168">
+</td></tr><tr><td id="d188067e165">
 
 **To select a risk from the list of recommended risks**
 

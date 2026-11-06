@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a non-monetary benefit plan for a project
@@ -38,7 +38,7 @@ The non-monetary benefit plan breakdown records are automatically created when y
 
     For more information, see [Non-monetary benefit plans form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/non-monetary-benefit-plans-form.md).
 
-    **Note:** When you move the [project](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/change-planned-start-date-of-project.md) or the milestone date, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the project start date, end date, or one of the project milestones. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for project date changes.
+    **Note:** When you move the project or the milestone date, the associated benefit plans also change accordingly based on whether the benefit plan is tied to the project start date, end date, or one of the project milestones. The [project property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-management/r_InstalledWithProjectManagement.md) **Change Resource Plan, Cost Plan and Benefit Plan Start Date with Demand or Project Start Date Change** controls the behavior for project date changes.
 
 6.  Select **Submit**.
 
@@ -71,6 +71,10 @@ Update a non-monetary benefit plan breakdown record that specifies the estimated
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

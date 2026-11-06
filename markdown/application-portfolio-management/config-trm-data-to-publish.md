@@ -1,16 +1,16 @@
 ---
-title: Create a new configuration to publish TRM data
+title: Create a configuration to publish TRM data
 description: Define configuration for a Technology Reference Model \(TRM\) catalog that can be published to the knowledge base article.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/config-trm-data-to-publish.html
 release: yokohama
 topic_type: task
-last_updated: "2026-02-07"
-reading_time_minutes: 2
-breadcrumb: [Working with the publishing center, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Working with the publishing center, Managing Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
-# Create a new configuration to publish TRM data
+# Create a configuration to publish TRM data
 
 Define configuration for a Technology Reference Model \(TRM\) catalog that can be published to the knowledge base article.
 
@@ -19,6 +19,8 @@ Define configuration for a Technology Reference Model \(TRM\) catalog that can b
 Role required: sn\_apm.apm\_admin and knowledge\_admin
 
 ## About this task
+
+\[Omitted video\] Description: Create a new configuration to publish TRM data in Enterprise Architecture Workspace
 
 Publishing a TRM catalog involves creating a publishing configuration in the Publishing Center and executing it to generate knowledge base content.
 
@@ -38,7 +40,7 @@ Publishing a TRM catalog involves creating a publishing configuration in the Pub
 
 6.  On the form, fill in the fields.
 
-    For field information, see [Create new publishing configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-pub-config-form.md).
+    For field information, see [Create publishing configuration form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/create-pub-config-form.md).
 
 7.  Select **Save**.
 
@@ -73,5 +75,5 @@ When you create a new TRM publishing configuration, the system automatically cre
 
 [Access the published TRM catalog knowledge base](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/access-the-published-kb.md)
 
-[Publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/understand-publishing-output.md)
+[Understanding the publishing results and knowledge base output](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/understand-publishing-output.md)
 

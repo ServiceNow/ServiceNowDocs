@@ -5,16 +5,14 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/caching-prod-catalog-mgmt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Caching in Product Catalog Management
 
 The Product Catalog Management application uses caching to improve user interface performance when agents access product catalogs and product offerings through the product configurator.
-
-## Overview
 
 The product offering catalog and configurable product offerings have hierarchical structures that require frequent database retrieval when they’re used. To improve performance, these hierarchical structures are cached when you publish these features.
 
@@ -24,4 +22,11 @@ As a product catalog admin or manager, when you make the following changes to a 
 -   **Product offering catalog changes** – If you change the hierarchies for catalog to category or category to sub-category hierarchies, you must update the product offering catalog cache.
 
 For details on regenerating these caches, see [Update a cache in Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/som-update-cache-catalog-mgmt.md).
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

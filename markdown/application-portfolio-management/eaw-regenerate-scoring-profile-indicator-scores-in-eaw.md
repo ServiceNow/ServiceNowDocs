@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-portfolio-management/eaw-regenerate-scoring-profile-indicator-scores-in-eaw.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure scoring profiles, Work with the Setup page in the Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture \(formerly Application Portfolio Management\), Enterprise Architecture \(formerly Application Portfolio Management\)]
+breadcrumb: [Configure scoring profiles, Configure EA Workspace using the Setup page, Configuring Enterprise Architecture Workspace, Enterprise Architecture Workspace, Enterprise Architecture]
 ---
 
 # Regenerate scoring profile indicator scores on-demand in Enterprise Architecture Workspace
@@ -47,5 +47,5 @@ On-demand generation of the indicator scores is more efficient than running sche
     This action doesn’t update the existing capability indicator scores but deletes them and generates new scores.
 
 
-**Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-configure-scoring-profiles.md)
+**Parent Topic:**[Configure scoring profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-portfolio-management/eaw-setup-scroring-prof.md)
 

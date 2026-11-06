@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning, Talent Development, Employee Service Management]
+breadcrumb: [Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Reporting solutions for Learning
@@ -23,5 +23,5 @@ Learning catalog overview dashboard provides the learning catalog manager with a
 -   **[Learning content author overview dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/learning-content-author-dashboard.md)**  
 Learning content author overview dashboard provides a detailed report of user activities to the content author.
 
-**Parent Topic:**[Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning-exp.md)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

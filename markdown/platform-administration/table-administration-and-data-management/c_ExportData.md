@@ -7,7 +7,7 @@ release: yokohama
 product: Table Administration and Data Management
 classification: table-administration-and-data-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Tables and data, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -36,7 +36,7 @@ You can export form data to PDF or XML, depending on your role.
 
 You can export records in a list to Excel, CSV, XML, JSON, PDF, or an Export Set depending on your role.
 
--   The Excel, CSV, JSON, and PDF options are available to all users.
+-   The Excel, CSV, JSON, PDF, and Google Sheets options are available to all users.
 -   The XML option is only available to users with the admin role.
 -   The Export Set option is only available to users with the export\_set\_admin or admin role.
 
@@ -93,6 +93,14 @@ JSON
 </td><td>
 
 Export the table records as a JSON string. The JSON file has an element for each column in the table.
+
+</td></tr><tr><td>
+
+Google Sheets
+
+</td><td>
+
+Export table records directly to cloud-based spreadsheets in Google Drive without going through extra steps. The exported file retains the structure of the original table, including rows and columns. You can view, edit and share these Google Sheets online in real time.
 
 </td></tr></tbody>
 </table>## Column headers

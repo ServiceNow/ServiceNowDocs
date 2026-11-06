@@ -1,5 +1,5 @@
 ---
-title: Create a portfolio plan view in Portfolio Planning
+title: Create a portfolio plan view
 description: Create a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/portfolio-planning/create-portfolio-plan-view-ppw.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
 breadcrumb: [Manage portfolio plan views, Portfolio Planning, Strategic Portfolio Management]
 ---
 
-# Create a portfolio plan view in Portfolio Planning
+# Create a portfolio plan view
 
 Create a customized portfolio plan view based on your requirements, so you can access it when you log in again and share it with stakeholders for collaboration.
 
@@ -58,7 +58,7 @@ The shared view for the portfolio plan is created and will be visible to all sta
 ## What to do next
 
 -   Share the portfolio plan with your stakeholders to start collaborating on the portfolio plan. See [Share a portfolio plan with stakeholders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/share-portfolio-plan-in-portfolio-planning-workspace.md).
--   Edit a portfolio plan view to make any changes to the existing view. See [Edit a portfolio plan view in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md).
+-   Edit a portfolio plan view to make any changes to the existing view. See [Edit a portfolio plan view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/edit-portfolio-plan-view-ppw.md).
 
 **Parent Topic:**[Managing portfolio plan views in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/managing-portfolio-plan-views-ppw.md)
 

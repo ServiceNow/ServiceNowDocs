@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Tag cluster alert grouping, Alert grouping types and creation methods, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Tag cluster alert grouping, Mixed alert grouping, Alert grouping types and creation methods, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Create alert clustering tags
@@ -19,6 +19,10 @@ Create streamlined alert correlations with alert clustering tags by grouping ale
 ## Before you begin
 
 Role required: evt\_mgmt\_admin
+
+## About this task
+
+**Note:** To group alerts using tag-based grouping, create a grouping automation in Service Operations Workspace. For more information, see [Create Group automation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/group-alert-sow-itom.md).
 
 ## Procedure
 

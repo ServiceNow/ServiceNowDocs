@@ -1,38 +1,53 @@
 ---
-title: Configuring Upgrade Management
-description: Upgrade your instance effortlessly by following our guided steps.
+title: Configuring Upgrade Console
+description: Upgrade your production or sub-production instance effortlessly by following our guided steps.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/upgrade-management/um-configure.html
 release: yokohama
 product: Upgrade Management
 classification: upgrade-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Upgrade Management, Upgrade, Administer the ServiceNow AI Platform]
+breadcrumb: [Upgrade Console, Upgrade, Administer the ServiceNow AI Platform]
 ---
 
-# Configuring Upgrade Management
+# Configuring Upgrade Console
 
-Upgrade your instance effortlessly by following our guided steps.
+Upgrade your production or sub-production instance effortlessly by following our guided steps.
 
-## Configuration overview
+**Note:** It is recommended to clone the production instance to sub-production instance.
 
-1.  Navigate to **Upgrade Management** &gt; **Guided**.
-2.  Select the **Pre-upgrade activities** to start the guided setup.
-3.  Select either **Mark as complete** or **Skip** to move to the next activity in the Pre-upgrade section.
-4.  Select the **Post-upgrade activities** to complete the guided setup.
+The following steps are in a nutshell to explain the overall configuration experience of Upgrade Console in a sub-production or a production instance.
 
-    **Note:** You need to first complete the pre-upgrade activities to start the post-upgrade activities.
+## Configuring Upgrade Console
 
-5.  Select either **Mark as complete** or **Skip** to move to the next activity in the Post-upgrade section.
+Implement the following steps to configure Upgrade Console.
 
-## Using guided setup to implement Upgrade Management
+1.  Navigate to **Admin** &gt; **Upgrade Console** &gt; **Guided upgrade**.
 
-Implement the following to experience the guided setup for a seamless upgrade on your instance.
+    **Note:** The **Guided upgrade** tab shows up only when the upgrade is in progress. If there is no ongoing upgrade, you can select the required upgrade version and select **Get started** in the Get started with your upgrade section.
 
--   **[Access guided setup for Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md)**  
-Follow the guided setup steps to experience the seamless upgrade on your instance.
+2.  Complete the **Pre-upgrade** tasks to move to the Instance upgrade tasks.
 
-**Parent Topic:**[Upgrade Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md)
+    **Note:** Select either **Mark as complete** or **Skip** to move to the next task in the Pre-upgrade section.
+
+3.  Complete the **Instance upgrade** tasks.
+4.  Complete the **Post-upgrade** tasks to complete the guided upgrade.
+
+    **Note:** You need to first complete the pre-upgrade tasks to move to the instance upgrade and post-upgrade tasks.
+
+
+## Using guided upgrade to implement Upgrade Console
+
+Implement the following to experience the guided upgrade for a seamless upgrade on your instance.
+
+-   **[Access guided upgrade on a non-production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement.md)**  
+Follow the guided upgrade steps to experience the seamless upgrade on your non-production instance.
+-   **[Access guided upgrade on a production instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-guided-tour-implement-prod.md)**  
+Follow the guided upgrade steps to experience the seamless upgrade on your production instance.
+-   **[Bulk application updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um_bulk_app_update_desc.md)**  
+The bulk application update console enables you to review, select, and update multiple applications in a single workflow, improving efficiency compared to updating applications individually through the Application Manager.
+
+**Parent Topic:**[Upgrade Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/upgrade-management/um-landing-page.md)
 

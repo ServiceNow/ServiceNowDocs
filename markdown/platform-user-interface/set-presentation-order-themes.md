@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/set-presentation-order-themes.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Publish your themes with Theme Builder, Configuring Next Experience with Theme Builder, Working with themes in Next Experience, Configuring the Next Experience UI, Next Experience UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Publish themes, Configuring Next Experience with Theme Builder, Working with themes, Configure, Next Experience UI, Configure UIs and portals, Configure user experiences]
 ---
 
 # Set the presentation order of your Theme Builder themes
@@ -19,7 +19,9 @@ Set the order of your Theme Builder themes to configure how they’re displayed 
 -   Before setting the order of your themes, verify that you have more than one theme published. For more information on publishing your Theme Builder themes, see [Publish your themes with Theme Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/tb-apply-theme.md).
 -   Verify that you have selected the correct scope for the theme from the application scope picker.
 
-Role required: admin
+Role required: ui\_builder\_admin
+
+For information on granular roles, see .
 
 ## About this task
 
@@ -29,7 +31,7 @@ Currently, setting order to your themes is only available to web instances. Mobi
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Themes** &gt; **Theme Builder**.
+1.  Navigate to **All** &gt; **Now Experience Framework** &gt; **Theme Builder**.
 
     The Theme Builder landing page appears in the Home page view.
 
@@ -41,7 +43,7 @@ Currently, setting order to your themes is only available to web instances. Mobi
 
 4.  From the Published section, hover over your chosen theme and drag the theme into the order you prefer.
 
-    The default theme is treated as the first theme that is displayed in the Next Experience Theme user preference. If you delete or move the default theme from its position, then the next theme listed becomes the default. If a user has not made a selection from the Theme user preference, the default theme is displayed. Each theme listed after the default theme follows a sequential order and is displayed in that order in the user's Theme preference.
+    The default theme is the first theme displayed in the Next Experience Theme user preference. If the default theme is deleted or moved, the next theme in the list becomes the default. If a user has not selected a theme, the default theme is displayed. All remaining themes appear in the user’s Theme preference in the order listed.
 
     **Note:** If you have themes that are created outside of Theme Builder, the order displayed might not be reflective of all the themes available in the Theme user preference.
 

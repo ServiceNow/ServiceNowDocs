@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/create-custom-filters-consolidated-tasks-evam.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Customizing the sales process dashboard, Configuring Lead-to-Cash Process Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Customizing the sales process dashboard, Lead-to-Cash Process Management, Order operations apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Customize Tasks tab views using EVAM
@@ -26,7 +26,7 @@ Role required: admin or evam\_admin
 
 1.  Log in to your ServiceNow instance.
 
-2.  Select the Globe icon \(\[Omitted image "globe-outline-24.svg"\]\) and set the application scope to Lead-to-Cash Process Management.
+2.  Select the Globe icon \[Omitted image "globe-outline-24.svg"\] Alt text: and set the application scope to Lead-to-Cash Process Management.
 
 3.  Navigate to **All** &gt; **Entity View Action Mapper \(EVAM\)** &gt; **EVAM Definitions**.
 

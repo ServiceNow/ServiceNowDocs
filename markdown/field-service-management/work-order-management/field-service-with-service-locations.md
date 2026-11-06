@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Prepare work orders, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Prepare work orders, Use, Field Service Management]
 ---
 
 # Assign ad-hoc Service Locations
@@ -23,11 +23,6 @@ Field Service with Service Locations simplifies the process of adding locations 
 -   No validation: Entered location details will not be validated.
 
 For more information, see [Set the default validation option for service locations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/set-default-validation-option-for-service-locations.md).
-
--   **[Setting ad-hoc locations in work orders and work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/service-locations-work-orders.md)**  
-The Field Service with Service Locations feature adds options to provide an ad-hoc location when creating a work order or work order task on ServiceNow AI Platform, Agent Workspace, or Customer Service Portal.
-
-**Parent Topic:**[Prepare work orders](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/preparing-work-orders.md)
 
 **Related topics**  
 

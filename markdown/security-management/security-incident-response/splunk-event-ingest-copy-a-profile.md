@@ -1,20 +1,20 @@
 ---
 title: Copy an event profile for the Splunk Enterprise Event Ingestion integration
-description: Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
+description: Copy an existing profile and its associated settings instead of creating new profiles. If you're creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/splunk-event-ingest-copy-a-profile.html
 release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Integration architecture and external systems connection, Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
 # Copy an event profile for the Splunk Enterprise Event Ingestion integration
 
-Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
+Copy an existing profile and its associated settings instead of creating new profiles. If you're creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
 
 ## Before you begin
 
@@ -26,19 +26,17 @@ Role required: sn\_si.ingestion\_profile\_admin
 
 Copying an existing profile and its associated settings is optional.
 
-If you copy a profile, the profile name is initially modified to avoid duplicate profiles. In addition, the copied profile is disabled \(false\) so it is not activated accidentally prior to completing the configuration. Copy profiles and use existing maps for security incidents that you have already previewed and verified.
+If you copy a profile, the profile name is initially modified to avoid duplicate profiles. In addition, the copied profile is disabled \(false\) so it is not activated accidentally before completing the configuration. Copy profiles and use existing maps for security incidents that you have already previewed and verified.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Splunk Integration** &gt; **Splunk Event Profile**.
 
-2.  In the Splunk Event Profiles list that is displayed, select a profile that you want to copy, and, from the Actions on selected rows choice list, click **Copy**.
+2.  In the Splunk Event Profiles list that is displayed, select a profile that you want to copy, and, from the Actions on selected rows choice list, select **Copy**.
 
     \[Omitted image "splunk-copy-profile1.png"\] Alt text: Event Profiles list with Actions on selected rows highlighted.
 
     The profile is copied and displayed on the list. The copy has all the settings of the original profile including the mapping and scheduling configuration. The name of the profile contains copy. Although the original profile is enabled \(`true`\), the copy is disabled at this point \(`false`\). You may prefer to edit values of the copied profile and rename it so the configuration settings apply to the new profile as required.
-
-    \[Omitted image "splunk-copy-profile2.png"\] Alt text: New profile highlighted.
 
     You have successfully copied the settings from an existing profile to a new profile.
 
@@ -47,5 +45,5 @@ If you copy a profile, the profile name is initially modified to avoid duplicate
 
 You are prompted to activate \(enable\) the new profile after you complete the configuration steps.
 
-**Parent Topic:**[Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
+**Parent Topic:**[Integration architecture and external systems connection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.md)
 

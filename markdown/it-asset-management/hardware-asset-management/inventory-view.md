@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Hardware Asset Workspace, Exploring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Hardware Asset Workspace, Explore, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Inventory view
@@ -28,6 +28,7 @@ Use the following tabs to view the inventory functions and take appropriate acti
 -   **Transfer orders**: Create transfer orders, view existing transfer orders, and take appropriate actions.
 -   **Donation orders**: View the list of asset donation orders.
 -   **Repair orders**: View the list of repair orders submitted for repair of assets with your stockroom. You can also create repair orders.
+-   **Asset attestations**: Create asset attestations or attestation schedules to perform remote audits for hardware assets.
 
 To create an asset audit for your inventory, select **New asset audit**. For more details, see [Create an audit record in the Hardware Asset Management application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/audit-your-inventory.md).
 
@@ -60,4 +61,8 @@ You can use the following important action cards related to service locations, d
 -   Shipment data discrepancy: List of shipment records with the Carrier status as delivered and the Stage as In Transit.
 -   Carrier integration failures: List of integration profiles that failed to connect three consecutive times.
 -   Unmapped carrier profiles: List of integration profiles that aren’t associated with a carrier.
+
+**Note:** You can view **Stale shipments**, **Carrier integration failures**, and **Unmapped carrier profiles** important action cards with asset, inventory\_admin, or ham\_admin role.
+
+**Parent Topic:**[Hardware Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/using-ham-workspace.md)
 

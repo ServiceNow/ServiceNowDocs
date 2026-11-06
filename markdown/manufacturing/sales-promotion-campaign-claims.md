@@ -1,22 +1,22 @@
 ---
-title: Sales Promotion Campaign claims
+title: Sales promotion campaign data model
 description: A sales promotion is a marketing strategy of implementing new ideas to increase sales, raise brand awareness, and provide discounts to the customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/manufacturing/sales-promotion-campaign-claims.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-03-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Data model of Manufacturing Commercial Operations, Manufacturing Commercial Operations reference, Manufacturing Commercial Operations]
+breadcrumb: [Data model, Reference, Manufacturing Commercial Operations]
 ---
 
-# Sales Promotion Campaign claims
+# Sales promotion campaign data model
 
 A sales promotion is a marketing strategy of implementing new ideas to increase sales, raise brand awareness, and provide discounts to the customers.
 
-## Introduction to Sales Promotion Campaign Claims
+## Introduction to sales promotion campaign claims
 
-Manufacturers or Original equipment manufacturers \(OEMs\) announce the sales promotion discounts or offers to the dealers. These promotions are applicable to a set of customers or all the customers based on the OEM marketing strategies. The dealer agents can raise the promotion claims to OEMs for the reimbursement of the discounts or offers provided during the sales process. The sales promotion feature enables the dealer to raise the claims post sales which can be approved or rejected by the OEM depending on the claim case.
+Manufacturers or Original equipment manufacturers \(OEMs\) announce the sales promotion discounts or offers to the dealers. These promotions are applicable to a set of customers or all the customers based on the OEM marketing strategies. The dealer agents can raise the promotion claims to OEMs for the reimbursement of the discounts or offers provided during the sales process. The sales promotion feature enables the dealer to raise the claims post sales, which can be approved or rejected by the OEM depending on the claim case.
 
 Sales promotion has three main parts:
 
@@ -26,11 +26,16 @@ Sales promotion has three main parts:
 
 The following diagram shows the entities and their relationships within the Sales promotion campaign claim application.
 
-\[Omitted image "Data\_model\_sales\_promotion.svg"\] Alt text: Sales Promotion Campaign Claims entities
+\[Omitted image "Data-model-sales-promotion.png"\] Alt text: Decorative
 
 ## Bulk Import Sales Promotion claim
 
 The sales promotion supports bulk import functionality, where the dealer sales agents can import a spreadsheet with multiple claims for review and approval. To enable bulk import, you must customize it on the Customer Service Management \(CSM\) or Business Location Service Portal \(BLSP\) portals.
 
 To learn more about the Business Location Service Portal, see [Using the Business Location Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/using-blsp-portal.md).
+
+-   **[Sales Promotion Campaign Claim tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/sales-promotion-campaign-claim-table.md)**  
+The sales promotion campaign claim tables store the promotion, case, and claim details used to manage sales promotion campaigns in Manufacturing Commercial Operations.
+
+**Parent Topic:**[Data model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/manufacturing/data-model.md)
 

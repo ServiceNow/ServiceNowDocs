@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Using the Capacity Console, Capacity, Manage workforce, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Using the Capacity Console, Capacity, Managing workforce, Use, Field Service Management]
 ---
 
 # View territory and demand channel summary in the contextual side panel
@@ -30,15 +30,15 @@ When you select an event in the calendar or a specific data row, the contextual 
 
 2.  View territory or demand channel summary.
 
-<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d58503e79">
+<table id="choicetable_awp_znf_c2c"><thead><tr><th align="left" id="d64572e88">
 
 To
 
-</th><th align="left" id="d58503e82">
+</th><th align="left" id="d64572e91">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d58503e88">
+</th></tr></thead><tbody><tr><td id="d64572e97">
 
 **View territory summary grouping by territory**
 
@@ -52,7 +52,7 @@ Do this
 3.  Select an event in the calendar to view the territory summary in the CSP.
 
 
-</td></tr><tr><td id="d58503e128">
+</td></tr><tr><td id="d64572e137">
 
 **View territory summary grouping by demand channel**
 
@@ -62,7 +62,7 @@ Do this
 2.  Select an event under the demand channel associated with the selected territory.
 
 
-</td></tr><tr><td id="d58503e152">
+</td></tr><tr><td id="d64572e161">
 
 **View each demand channel details by territory**
 
@@ -84,9 +84,4 @@ The contextual side panel opens to display summaries tailored to the selected co
 ## What to do next
 
 You can change the capacity value and reservation in the contextual side panel.
-
--   **[Update capacity value and reservation for a territory in capacity console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/update-reservation-rule-in-capacity-console.md)**  
-The Capacity Console provides flexibility for capacity planners and managers to modify capacity value and reservation rule for better allocation of resources. Reservations determine the demand channels applicable and the percentage allocation of capacity for each channel on a given day.
-
-**Parent Topic:**[Using the Capacity Console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/capacity-and-reservation-management-console.md)
 

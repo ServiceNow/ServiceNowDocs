@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Configuring signatories in Contract template using Microsoft Word add-in, Add document content controls using Microsoft Word add-in for ServiceNow Contracts, Creating a contract template using Microsoft Word add-in for ServiceNow Contracts, Configure contract templates, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Configure signatories, Add content controls, Create templates in Microsoft Word, Configure contract templates, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Add and configure participants for a contract using the Microsoft Word add-in for ServiceNow Contracts
@@ -20,7 +20,7 @@ As a contract configurator, configure participants and add placeholders for thei
 
 The Microsoft Word add-in for ServiceNow Contracts must have been configured. For more information, see [Configure the Microsoft Word add-in for ServiceNow Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-word-addin.md).
 
-A contract template must exist that is active and is in the Draft or Editing state. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
+An active contract template must exist in the Draft or Editing state where the **Signature blocks** option is not selected. For more information, see [Create a contract template to contain content controls](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-ct-word-addin.md).
 
 Role required: sn\_cm\_core.contract\_config and canvas\_user
 
@@ -38,17 +38,21 @@ Role required: sn\_cm\_core.contract\_config and canvas\_user
 
 5.  In the **Signatory** tab, select **Add signatory**.
 
+    \[Omitted image "cmpro-waddin-participant.png"\] Alt text: Add signatory content controls that act as placeholder for signatures
+
 6.  Add and configure the participant as either an internal or external user.
 
-<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d366313e181">
+    -   While adding signatory details, if you add value in the **User** field, the participant is considered an internal signatory.
+    -   While inserting content controls for signatures or signatories, ensure the font color of the tagged text matches the document’s background color.
+<table id="choicetable_qfz_dkb_yyb"><thead><tr><th align="left" id="d394682e214">
 
 Type of signatory
 
-</th><th align="left" id="d366313e184">
+</th><th align="left" id="d394682e217">
 
 Available fields
 
-</th></tr></thead><tbody><tr><td id="d366313e190">
+</th></tr></thead><tbody><tr><td id="d394682e223">
 
 **Internal**
 
@@ -60,7 +64,7 @@ Available fields
 
 **Note:**
 
-    -   When you select a value for this field, the participant is considered to be an internal user. If values are provided for the optional **Participant Name** and **Participant Email** fields along with the **User** field, the electronic signature task is sent to participant email values rather than the **Name** and **Email** fields associated with the user record.
+    -   When you select a value for this field, the participant is considered to be an internal user. If values are provided for the optional fields **Participant Name** and **Participant Email** along with the **User** field, the electronic signature request is sent to participant email values rather than the **Name** and **Email** fields associated with the user record.
     -   If the **Advanced script** field is selected, the value in the **User** field is cleared when you save or update the template.
 -   **Participant name** \(Optional\) - The field from the table associated with the contract template that will act as a placeholder for the participant name. For example: **Closed by**.
 -   **Participant email** \(Optional\) - The field from the table associated with the contract template that acts as a placeholder for the participant email address. For example: **Closed by &gt; Email**.
@@ -74,7 +78,7 @@ Option to specify the title when the defined participant is an external user.
     -   This field is available only when signing type is AdobeSign or DocuSign.
 
 
-</td></tr><tr><td id="d366313e287">
+</td></tr><tr><td id="d394682e320">
 
 **External**
 
@@ -106,33 +110,46 @@ Option to specify the title when the defined participant is an external user.
 
 
 </td></tr></tbody>
-</table>7.  Select **Create**.
+</table>7.  Fill in the signatory details and select **Create**.
+
+    \[Omitted image "cmpro-waddin-participant-added.png"\] Alt text: Signatory card in ServiceNow Contracts add-in
 
     -   The signatory is added and the signer card is displayed.
     -   The signatory is marked as internal or external depending on the values provided.
-    -   The signatory added has Sign, Sign date, Sign Title, Sign Name, Sign Email metadata.
-8.  Place the **Sign** metadata in the document.
-
-    When adding content controls for participants, set the font color of the content control tags to match the document’s background color.
+    -   The signatory added has Sign, Sign date, Sign Title, Sign Name, Sign Email, Sign Initials metadata.
+8.  Add the signatory content controls to the placeholder text for the signature elements.
 
     1.  Place the cursor where you want the signature to be added.
 
-    2.  Select the Sign tag to place the metadata.
+    2.  Add placeholder text at the locations where you want to place the content controls.
 
-9.  Complete the steps for the following metadata:
+        \[Omitted image "cmpro-waddin-sigtext.png"\] Alt text: Add placeholder text for the signature content control
+
+    3.  Set the font color of the placeholder text to match the document’s background color.
+
+    4.  Select the signature tags to place the signature content controls.
+
+        \[Omitted image "cmpro-waddin-signadd-tag.png"\] Alt text: Add content control
+
+9.  Complete the steps for the other content controls:
 
     -   **sign\_date**
     -   **signatory\_title**
     -   **signatory\_name**
     -   **signatory\_email**
-    -       The signatory fields—such as Name, Title, and Email—are not pre-filled in the contract document before it is sent for signature. These fields will be populated by the electronic signature provider when the signatory access the document to sign it.
+    -   **signatory\_initials**
+    The signatory fields—such as Name, Title, and Email—are not pre-filled in the contract document before it is sent for signature. These fields will be populated by the electronic signature provider when the signatory access the document to sign it.
 
 10. View the signatory details by logging in to the ServiceNow instance and navigating to the **Participants** related list of the contract template.
 
 
 ## Result
 
-The signatory details and the metadata are synced to the ServiceNow instance.
+The signatory content controls are added and the metadata is synced to the ServiceNow instance.
+
+\[Omitted image "cmpro-waddin-signtag-added.png"\] Alt text: Signatory content control is added at the placeholder text
+
+\[Omitted image "cmpro-waddin-view-participant-sn.png"\] Alt text: View the participant added from ServiceNow Contracts add-in in your instance
 
 **Parent Topic:**[Configuring signatories in Contract template using Microsoft Word add-in](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-sign-addin.md)
 

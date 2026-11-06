@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 30
 breadcrumb: [Install and configure Security Incident Response, Security Incident Response setup, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -37,7 +37,7 @@ You can create a process definition to define the way security incidents transit
 
 ### Before you begin
 
-Role required: sn.si\_admin
+Role required: sn\_si.admin
 
 ### Procedure
 
@@ -130,13 +130,13 @@ Role required: admin and sn\_si.admin
 
 1.  Navigate to **All** &gt; **Security Incident Response** &gt; **Administration** &gt; **Process Selection**.
 
-2.  Click the search icon to list the available process definitions.
+2.  Select the search icon to list the available process definitions.
 
     \[Omitted image "ProcessorSelector.png"\] Alt text: Process definition selector
 
 3.  Select a process definition.
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 #### Create a custom Security Incident Response process definition script include
@@ -155,7 +155,7 @@ The sn\_si.ProcessDefinition main script include controls process definitions. *
 
 1.  Navigate to **All** &gt; **System Definition** &gt; **Script Includes**.
 
-2.  Click **New.**
+2.  Select **New.**
 
 3.  Fill in the fields, as appropriate.
 
@@ -234,9 +234,7 @@ Defines the server-side script to run when called from other scripts.The script 
 For information on script contents, see [Process Definition script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/setup-assistant-reference.md).
 
 </td></tr></tbody>
-</table>    \[Omitted image "ProcessDefinition-ScriptInclude.png"\] Alt text: Process Definition script include form
-
-4.  Click **Submit.**
+</table>4.  Select **Submit.**
 
 
 **Related topics**  
@@ -399,15 +397,15 @@ To change states in bulk, do the following:
 
 ##### Procedure
 
-1.  Navigate to **All** &gt; **Process Selection**.
+1.  Navigate to **All** &gt; **Security Incident** &gt; **Administration** &gt; **Process Selection**.
 
 2.  Highlight the **State** field for the incidents or tasks you want to change.
 
-3.  Double-click the **State** field in the first record, select the new **State,** and click the green check mark \(\[Omitted image "GreenCheckMarkIcon.png"\] Alt text: Green check mark\) to complete the change.
+3.  Double-click the **State** field in the first record, select the new **State,** and select the green check mark \(\[Omitted image "GreenCheckMarkIcon.png"\] Alt text: Green check mark\) to complete the change.
 
     \[Omitted image "CorrectedDefinition.png"\] Alt text: Corrected definition example
 
-4.  Click **Update**.
+4.  Select **Update**.
 
 
 ## Create a security incident group
@@ -431,7 +429,7 @@ It is a good practice to create as many groups as needed in your organization. I
 
 1.  Navigate to **All** &gt; **User Administration** &gt; **Groups** or **Security Incident** &gt; **Setup** &gt; **Groups**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  On the form, fill in the fields.
 
@@ -443,21 +441,21 @@ It is a good practice to create as many groups as needed in your organization. I
 
     1.  If the **Type** field is not visible, configure the form to add it.
 
-    2.  Click the lock icon beside the **Type** field.
+    2.  Select the lock icon beside the **Type** field.
 
-    3.  Click the reference lookup icon \(\[Omitted image "SearchIcon.png"\] Alt text: lookup icon\)
+    3.  Select the reference lookup icon \(\[Omitted image "SearchIcon.png"\] Alt text: lookup icon\)
 
     4.  Search for and select the **security incident** type.
 
-5.  Right-click the form header and select **Save**.
+5.  Select and hold \(or right-click\) the form header and select **Save**.
 
 6.  In the **Roles** related list, add the roles that each member of this group receives.
 
-    For example, if you are making a group for Security Incident Response team members, add sn\_si.analyst. If you are making a group for Security Incident Response administrators, add sn\_si.admin.
+    For example, if you're making a group for Security Incident Response team members, add sn\_si.analyst. If you're making a group for Security Incident Response administrators, add sn\_si.admin.
 
 7.  In the **Group Members** related list, add users to this group.
 
-8.  Click **Update**.
+8.  Select **Update**.
 
 
 ## Create a security incident calculator group
@@ -789,9 +787,7 @@ This severity calculator defines its selection criteria using an advanced condit
 
 When you create a security incident, the **Risk score**, **Business Impact**, and **Priority** fields contain default values. When you save the incident, a business rule automatically validates the information in the security incident against conditions defined in each of your active severity calculators. They are validated one security calculator at a time, in the order defined by the **Order** field in each calculator. If information in the security incident matches the conditions defined in one of the calculators, the severity field values are updated accordingly to the rules set up in the calculator.
 
-For example, assume that you create a security incident for an affected CI, and the CI is highly critical. When the security incident is saved, the CI information is compared to the conditions defined in the severity calculators. When the security incident is validated against the **Critical service affected** severity calculator, the severity fields are automatically updated, and a message similar to the following appears at the top of the security incident.
-
-\[Omitted image "SeveritiesUpdated.png"\] Alt text: Messages at top of security incident
+For example, assume that you create a security incident for an affected CI, and the CI is highly critical. When the security incident is saved, the CI information is compared to the conditions defined in the severity calculators. When the security incident is validated against the **Critical service affected** severity calculator, the severity fields are automatically updated, and a message appears at the top of the security incident.
 
 You can use these severity calculators as is or you can edit them to more closely meet the needs of your business. For example, if you want to identify web and email threats that are specific to the Finance business unit, you can change the conditions of the **Multi Attack Vectors** calculator:
 
@@ -933,11 +929,9 @@ Role required: sn\_si.basic
 
 1.  If it is not already open, open the security incident you want to repair SLAs for.
 
-2.  Click the form header context menu and select **Repair SLAs**:
+2.  Select the form header context menu and select **Repair SLAs**:
 
-    \[Omitted image "HamburgerRepainSLAs.png"\] Alt text: Repair SLAs from the form header menu
-
-3.  Click **OK** in the Warning confirmation box.
+3.  Select **OK** in the Warning confirmation box.
 
     For more information, see [Repair SLAs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/c_RepairSLAs.md).
 
@@ -948,9 +942,9 @@ A runbook is an association between a published knowledge article and a specific
 
 ### Before you begin
 
-There must be existing knowledge articles in the Security Incident Response Runbook knowledge base. When you [create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md), be sure to select **Security Incident Response Runbook** in the **Knowledge base** field. After you publish the article, you can click the **Create Runbook** button.
+There must be existing knowledge articles in the Security Incident Response Runbook knowledge base. When you [create a security incident knowledge article](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/t_CrtScrIncdtKnwArt.md), be sure to select **Security Incident Response Runbook** in the **Knowledge base** field. After you publish the article, you can select the **Create Runbook** button.
 
-Role required: sn.si.knowledge\_admin
+Role required: sn\_si.knowledge\_admin
 
 ### About this task
 
@@ -1051,7 +1045,7 @@ When an employee encounters a suspicious email, they should forward it as an att
 
 1.  Navigate to **All** &gt; **Security Operations** &gt; **Email Processing** &gt; **User Reported Phishing**.
 
-2.  Click **New**.
+2.  Select **New**.
 
 3.  Fill in the fields, as needed.
 
@@ -1060,7 +1054,7 @@ When an employee encounters a suspicious email, they should forward it as an att
     |Name|Name for this email matching rule. For example, User Reported Phishing.|
     |Conditions|Use the [condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ConditionBuilder.md) to validate whether an email sent to your company phishing email address is a phishing attack. See the following example.|
 
-4.  Click **Submit**.
+4.  Select **Submit**.
 
 
 ### Example

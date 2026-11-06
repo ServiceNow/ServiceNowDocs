@@ -1,13 +1,13 @@
 ---
 title: Special administrative roles
-description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rulesThe instance can automatically assign a task to a user or group based on pre-defined conditions by using data lookup rules and assignment rules..Create, modify, and delete Classic Business rules.Create, modify, and delete Client scripts.Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete Script includes.Create, modify, and delete Defining UI actionsUI actions include the buttons, links, and context menu items on forms and lists. Configure UI actions to make the UI more interactive, customized, and specific to user activities..Create, modify, and delete UI macros.Create, modify, and delete UI pages.Create, modify, and delete Using UI policiesUI policies dynamically change the behavior of information on a form and control custom process flows for tasks..Create, modify, and delete UI scripts.
+description: Certain roles grant specific administrative rights without the full privileges of the admin role. For example, an administrator can grant a user the right to change UI policy but not client scripts.Create, modify, and delete assignment rulesThe instance can automatically assign a task to a user or group based on pre-defined conditions by using data lookup rules and assignment rules..Create, modify, and delete Business rules./&gt;.Create, modify, and delete client scripts.Create, modify, and delete forms, and form sections and section elements.Manage, share, publish, and schedule all reports. Users assigned this role can access the Reports Administration module and manage all report-related objects. The report\_admin role inherits all other report roles.Create, modify, and delete Script Includes.Create, modify, and delete UI actions.Create, modify, and delete UI macros.Create, modify, and delete UI pages.Create, modify, and delete using UI policies.Create, modify, and delete UI scripts.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/user-administration/r\_SpecialAdministrativeRoles.html
 release: yokohama
 product: User Administration
 classification: user-administration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Base system roles, Managing roles, User administration, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -46,7 +46,7 @@ None.
 
 ## Business rule administrator \[business\_rule\_admin\]
 
-Create, modify, and delete [Classic Business rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_BusinessRules.md).
+Create, modify, and delete Business rules./&gt;.
 
 ### Contains Roles
 
@@ -66,7 +66,7 @@ None.
 
 ## Client script administrator \[client\_script\_admin\]
 
-Create, modify, and delete [Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/client-scripts.md).
+Create, modify, and delete client scripts.
 
 ### Contains Roles
 
@@ -132,7 +132,7 @@ None.
 
 ## Script include administrator \[script\_include\_admin\]
 
-Create, modify, and delete [Script includes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_ScriptIncludes.md).
+Create, modify, and delete Script Includes.
 
 ### Contains Roles
 
@@ -152,7 +152,7 @@ None.
 
 ## UI action administrator \[ui\_action\_admin\]
 
-Create, modify, and delete [Defining UI actions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/c_UIActions.md).
+Create, modify, and delete UI actions.
 
 ### Contains Roles
 
@@ -172,7 +172,7 @@ None.
 
 ## UI macro administrator \[ui\_macro\_admin\]
 
-Create, modify, and delete [UI macros](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIMacros.md).
+Create, modify, and delete UI macros.
 
 ### Contains Roles
 
@@ -192,7 +192,7 @@ None.
 
 ## UI page administrator \[ui\_page\_admin\]
 
-Create, modify, and delete [UI pages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/r_UIPages.md).
+Create, modify, and delete UI pages.
 
 ### Contains Roles
 
@@ -212,7 +212,7 @@ None.
 
 ## UI policy administrator \[ui\_policy\_admin\]
 
-Create, modify, and delete [Using UI policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/t_CreateAUIPolicy.md).
+Create, modify, and delete using UI policies.
 
 ### Contains Roles
 
@@ -232,7 +232,7 @@ None.
 
 ## UI script administrator \[ui\_script\_admin\]
 
-Create, modify, and delete [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIScripts.md).
+Create, modify, and delete UI scripts.
 
 ### Contains Roles
 

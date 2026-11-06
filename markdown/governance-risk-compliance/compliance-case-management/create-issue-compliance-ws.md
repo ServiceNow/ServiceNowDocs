@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Add or create an issue for a compliance case, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Add issue, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Create an Issue form
@@ -367,5 +367,5 @@ Apart from the from fields, there are a few actions that you can perform on a Co
 -   Export PDF- export the compliance case as a PDF.
 -   Delete- delete the compliance case.
 
-**Parent Topic:**[Add or create an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md)
+**Parent Topic:**[Add an issue for a compliance case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/compliance-case-management/add-issues-for-compliance-case.md)
 

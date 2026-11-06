@@ -7,9 +7,9 @@ release: yokohama
 product: System Export Sets
 classification: system-export-sets
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Export set history, Export sets, Exports, Data and Automation]
+breadcrumb: [Export set history, Export sets, Exports, Workflow Data Fabric]
 ---
 
 # Cancel an export set

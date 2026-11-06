@@ -7,9 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Discovery Admin Workspace Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [Discovery, Admin, Workspace]
+breadcrumb: [Insights, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Virtual Machine Explorer dashboard
@@ -72,7 +73,7 @@ Bar chart
 
 </td><td>
 
-Displays the number of VMs in your infrastructure sorted by class.Virtual Machine Instances \[cmdb\_ci\_vm\_instance\] is the source table for this chart.
+Displays the number of VMs in your infrastructure sorted by class.Virtual Machine Instances \[cmdb\_ci\_vm\_instance\] table is the source table for this chart.
 
 </td></tr><tr><td>
 
@@ -84,17 +85,12 @@ Pie chart
 
 </td><td>
 
-Displays the percent of VMs grouped by the following states: on, off, or other.Virtual Machine Instances \[cmdb\_ci\_vm\_instance\] is the source table for this chart.
+Displays the percent of VMs grouped by the following states: on, off, or other.Virtual Machine Instances \[cmdb\_ci\_vm\_instance\] table is the source table for this chart.
 
 </td></tr></tbody>
 </table>**Note:** When you first access the VM Explorer dashboard after installing Discovery Admin Workspace, the Virtual machines with server CI and Virtual Machines with no deep dive discovery indicators might not display scores. For instructions on how to collect data for these scores, see [Run historical data collection for Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_RunHistoricalDataCollectVME.md).
 
 ## Virtual Machine Instance
 
-This section offers an overview of VM instances discovered, featuring key information such as the Object ID, Class, and Network adapters. You can select an instance from the table to view detailed information about it, or click the **Edit form** icon \(\[Omitted image "workspace-edit-vminstance.png"\] Alt text: Edit form icon\) to edit details and view activity. The filter icon \(\[Omitted image "filter-icon-button.png"\] Alt text: filter icon\) enables you to apply fixed filters or create custom filters that can be saved and reused. To export the table, choose the **Export** option and select your preferred format: Excel, CSV, JSON, or PDF.
-
--   **[Run historical data collection for Virtual Machine Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/t_RunHistoricalDataCollectVME.md)**  
-After installing Discovery Admin Workspace, run historical data collection jobs to populate the Virtual machines with server CI and Virtual machines with no deep dive discovery reports on the Virtual Machine Explorer dashboard.
-
-**Parent Topic:**[Discovery Admin Workspace Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-insights.md)
+This section offers an overview of VM instances discovered, featuring key information such as the Object ID, Class, and Network adapters. You can select an instance from the table to view detailed information about it, or select the **Edit form** icon \(\[Omitted image "workspace-edit-vminstance.png"\] Alt text: Edit form icon\) to edit details and view activity. The filter icon \(\[Omitted image "filter-icon-daw.png"\] Alt text: filter icon\) enables you to apply fixed filters or create custom filters that can be saved and reused. To export the table, choose the **Export** option and select your preferred format: Excel, CSV, JSON, or PDF.
 

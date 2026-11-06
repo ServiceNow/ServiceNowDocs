@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/column-level-encryption-landing.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-01-29"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Encryption]
 ---
 
@@ -14,11 +14,17 @@ breadcrumb: [Encryption]
 
 Column Level Encryption permits and denies access to encrypted data based on user role. Column Level Encryption includes basic key management using encryption modules.
 
+**Important:**
+
+Starting with the Zurich release, Column Level Encryption \(CLE\) and Column Level Encryption Enterprise \(CLEE\) are being prepared for future deprecation. They will be hidden and no longer activated on new instances but will continue to be supported. [Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/field-encryption.md) and [Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/now-platform-encryption.md) provide the latest experience for this functionality.
+
+For details, see the Deprecation Process \[[KB0867184](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184)\] article in the Now Support knowledge base.
+
 With Column Level Encryption, you can encrypt specific fields within your tables, as opposed to encrypting the entire table or database. Use this method to help ensure that your sensitive data remains protected without the need to encrypt and entire table. The ability to encrypt only the portions of your tables that require it helps to reduce the time spent encrypting and decrypting data.
 
 Column Level Encryption grants access to encrypted data based on a user's role. Because of this approach, users must be associated with a role to view data encrypted by Column Level Encryption. Users can be associated with a role directly, or they can be assigned to a group that is associated with a role. This role-based approach simplifies the process of making sure that your data is visible only to users who need it.
 
-\[Omitted image "fig-1-cle-role-based-encryption-example.png"\] Alt text: Role-based encryption
+
 
 In this example, you can see four users attempting to access data stored in two fields on a form. These fields are encrypted by an encryption context, which is only accessible to users who are associated with a specific role \(Role 1\).
 
@@ -30,11 +36,11 @@ In this example, you can see four users attempting to access data stored in two 
 
 <table id="table_ryk_zzq_ryb" class="nav-card"><tbody><tr><td>
 
-[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the benefits of the Standard and Enterprise editions of Column Level Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md)
+[Explore\[Omitted image "bus-explore.svg"\] Alt text:Learn the benefits of the Standard and Enterprise editions of Field Encryption.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md)
 
 </td><td>
 
-[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to activate and configure Column Level EncryptionColumn Level Encryption Enterprise, and manage migration from Encryption Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configuring-column-level-encryption.md)
+[Configure\[Omitted image "bus-sdlc.svg"\] Alt text:Learn how to activate and configure Column Level Encryption Enterprise, and manage migration from Encryption Support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configuring-column-level-encryption.md)
 
 </td><td>
 
@@ -50,11 +56,9 @@ In this example, you can see four users attempting to access data stored in two 
 -   **[Exploring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/exploring-column-level-encryption.md)**  
 Learn more about Column Level Encryption.
 -   **[Configuring Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/configuring-column-level-encryption-2.md)**  
-Learn how to activate and configure Column Level Encryption Enterprise, and manage migration from Encryption Support.
+Learn how to activate and configure Column Level Encryption and manage migration from Encryption Support.
 -   **[Using Column Level Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/using-column-level-encryption-2.md)**  
 Use Column Level Encryption to manage access to encrypted data on your instances.
--   **[Column Level Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/now-platform-encryption-2.md)**  
-Column Level Encryption Enterprise uses the Key Management Framework \(KMF\) to enable you to customize and manage how fields and attachments are encrypted and decrypted on your instance. A subscription is required to use Column Level Encryption Enterprise.
 
 **Parent Topic:**[Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/encryption-landing.md)
 

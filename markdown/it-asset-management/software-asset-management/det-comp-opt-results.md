@@ -7,9 +7,9 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [Integrating with Microsoft 365, Microsoft 365 integration, Software Asset Management publisher pack for Microsoft, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Evaluate Microsoft 365 compliance and optimization results
@@ -46,7 +46,7 @@ The usage of Microsoft 365 plans must be available from both Microsoft certified
 
 8.  View compliance analysis results in [Office 365 &amp; Adobe Cloud dashboard in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/sam-saas-subscription-dash.md) and [SaaS overview dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/saas-dashboard-workspace.md).
 
-    For more information about running software reconciliation, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RunReconciliation.md) and [Run Software Asset Management Foundation plugin software reconciliation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_RunReconciliationSAMF.md).
+    For more information about running software reconciliation, see [Run software reconciliation in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/t_RunReconciliation.md) and [Run Basic Software Asset Management software reconciliation in classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/t_RunReconciliationSAMF.md).
 
 9.  View all optimized plans for Microsoft 365 subscription on the [Optimization and savings dashboard in workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/optimization-dashboard-workspace.md).
 

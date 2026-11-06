@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/register-product-consumer-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Consumer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Consumer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # Register a product from the Consumer Service Portal
@@ -22,16 +22,23 @@ Role required: sn\_customerservice.consumer
 
 1.  Log in to the Consumer Service Portal.
 
-2.  Click **Support** in the portal header and then click **Register Product**.
+2.  Select **Support** in the portal header and then select **Register Product**.
 
 3.  Type a search term in the search field and press Enter to display a list of products.
 
-4.  Click the **Select** button on the card for the desired product.
+4.  Select the **Select** button on the card for the desired product.
 
 5.  Enter the **Serial Number** and the **Purchase Date** for the selected product.
 
-6.  Click **Register**.
+6.  Select **Register**.
 
     After the product is successfully registered, it appears in the My Products list, which includes the products registered to the current user.
 
+
+**Related topics**  
+
+
+[View a list of products from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-product-list-consumer-portal.md)
+
+[Access your list of install base items from the Consumer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-install-base-items-from-consumer-service-portal.md)
 

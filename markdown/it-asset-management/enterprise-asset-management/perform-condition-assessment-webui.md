@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-03-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing work orders for your enterprise assets, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Manage work orders for your enterprise assets, Enterprise Asset Management, Asset Management]
 ---
 
 # Perform condition evaluation from the Enterprise Asset Workspace
@@ -24,8 +24,6 @@ Role required: sn\_eam.asset\_technician
 
 These steps detail the process of performing the condition evaluation from the Enterprise Asset Workspace. Condition evaluation can also be performed from the Mobile application. For details, see [Perform condition evaluation from the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/perform-condition-assessment-mobileapp.md).
 
-**Note:** Starting with Enterprise Asset Management version 10.0, a work order can be associated with more than one asset or an asset group.
-
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Enterprise Asset Workspace** &gt; **Work management** &gt; **Work order tasks**.
@@ -38,7 +36,7 @@ These steps detail the process of performing the condition evaluation from the E
 
 4.  Select the **Condition lines** tab.
 
-    In Enterprise Asset Management version 10.0 and later, the Condition lines related list displays condition lines for all assets in the Affected assets list. A condition evaluation is created for each asset, and you must complete all condition lines to complete and close the task.
+    The Condition lines related list displays condition lines for all assets in the Affected assets list. A condition evaluation is created for each asset, and you must complete all condition lines to complete and close the task.
 
 5.  Select the condition evaluation for the condition line that you want to assess.
 
@@ -50,7 +48,7 @@ These steps detail the process of performing the condition evaluation from the E
 
     After you submit the condition evaluation, refresh the **Condition lines** page to view the score and result for the condition line.
 
-9.  In Enterprise Asset Management version 10.0 and later, repeat steps 5 through 8 for each condition line in the **Condition lines** tab.
+9.  Repeat steps 5 through 8 for each condition line in the **Condition lines** tab.
 
 10. Select **Close Complete** in the Condition work task page.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Use, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -30,9 +30,9 @@ For more information on roll up records, see [Rollup Framework for MSIM](https:/
 
 2.  Navigate to **Lists** view, which is displayed in the left pane of the workspace.
 
-3.  Click **Accepted** to select the promoted major security incident records.
+3.  Select **Accepted** to select the promoted major security incident records.
 
-4.  Click the **Linked Records** tab.
+4.  Select the **Linked Records** tab.
 
     This section displays the linked records and its related records, which are linked to the Major Security Incident.
 
@@ -40,7 +40,7 @@ For more information on roll up records, see [Rollup Framework for MSIM](https:/
 
 6.  Select the record to unlink from the list view of records.
 
-7.  Click **Unlink Record**.
+7.  Select **Unlink Record**.
 
     \[Omitted image "unlink-record.png"\] Alt text: Unlink Record remediation task.
 
@@ -48,7 +48,7 @@ For more information on roll up records, see [Rollup Framework for MSIM](https:/
 
     \[Omitted image "unlink-record-msg.png"\] Alt text: Unlink Record warning message.
 
-9.  Click **Unlink Record**.
+9.  Select **Unlink Record**.
 
     The record is unlinked and once unlinked, the changes can't be reverted. The list view of Linked Records will be refreshed after unlinking.
 

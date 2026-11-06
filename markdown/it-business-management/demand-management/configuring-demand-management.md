@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -18,10 +18,23 @@ Configure your Demand Management application to assess and promote demands to pr
 
 ## Configuration overview
 
+**Important:**
+
+Demands are available in the Next Experience for Demand Management. For more information, see [Next Experience for Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/demand-workspace-ppw.md).
+
+The workspace provides additional value beyond the legacy experience, including Playbook, Docs, and the ability to define different governance processes using playbooks.
+
+If you have Portfolio Planning Workspace or Strategic Planning Workspace, you can use the Next Experience for Demand Management to create and manage your demands.
+
+-   New customers: Use Next Experience for Demand Management to create and manage your demands.
+-   Existing customers: If you already have demands in the classic UI, you can continue using it. However, we recommend moving to the Next Experience for Demand Management, as your existing demands are automatically available there.
+
 -   **[Multicurrency in Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/multicurrency-demand.md)**  
-Manage and track the financials of your demands in the corporate currency, regional currency, or the same currency that you want to use for managing the project using the multicurrency feature. The corporate policy typically governs the choice of this preference.
+The multicurrency feature tracks demand financials in the corporate currency, regional currency, or the project currency. Corporate policy typically governs this preference.
 -   **[Set up Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_SettingUpDemandManagement.md)**  
 Perform these tasks to set up Demand Management.
+-   **[Configure the demand AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/configure-the-demand-summarization-skill-ppm.md)**  
+Configure the generative AI skills for demands by defining their triggers, display locations, and access settings to make it available to users.
 
 **Parent Topic:**[Demand Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/demand-management/c_DemandManagement.md)
 

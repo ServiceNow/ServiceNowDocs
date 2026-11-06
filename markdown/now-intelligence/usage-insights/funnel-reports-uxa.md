@@ -1,41 +1,45 @@
 ---
-title: Funnel reports in User Experience Analytics
-description: Conversion funnels track a specific sequence of actions and show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+title: Funnel reports in Usage Insights
+description: Conversion funnels are visual representations of the user path, tracking a specific sequence of actions. Use conversion funnels to measure and optimize the completion rates of relevant processes within your application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/funnel-reports-uxa.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-29"
 reading_time_minutes: 1
-breadcrumb: [Using User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [Using Usage Insights, Usage Insights, Platform Analytics]
 ---
 
-# Funnel reports in User Experience Analytics
+# Funnel reports in Usage Insights
 
-Conversion funnels track a specific sequence of actions and show conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+Conversion funnels are visual representations of the user path, tracking a specific sequence of actions. Use conversion funnels to measure and optimize the completion rates of relevant processes within your application.
 
 A funnel analysis shows the percentage of users who completed a desired action along a critical path in your application, such as completing onboarding. You can also discover reasons why users drop off.
 
-**Note:** Conversion funnel data is analyzed from the complete data set. Toggle **Use data sampling** on to analyze the data from a sample of 15%.
+\[Omitted video\] Description: Using funnels in Usage Insights
 
-A funnel can include various actions leading up to success or failure of a conversion. There can be multiple paths users might take to reach a goal, so you may want to build several conversion funnels to determine which goal path is the most relevant and effective for your users. To measure users conversion rates on a particular goal, three primary metrics give you a baseline assessment of your conversion funnel's overall effectiveness:
+**Note:** Turn on **Use data sampling** to analyze the data from a sample of 15%.
+
+A funnel can include various actions leading up to success or failure of a conversion. Users might take multiple paths to reach a goal, so consider building several conversion funnels to determine which goal path is the most relevant and effective for your users. To measure users' conversion rates on a particular goal, three primary metrics give you a baseline assessment of the conversion funnel's overall effectiveness:
 
 -   Number of users that progress from one step to the next
--   Associated conversion rates
 -   Average time it takes for users to advance from one step to the next
+-   Associated conversion rates
 
-\[Omitted image "uxa-funnel-ex.png"\] Alt text: Funnel analysis report
+\[Omitted image "uxa-funnel-ex-australia.png"\] Alt text: Funnel analysis report
 
 -   **[Create a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/create-funnel.md)**  
 View conversion rates and trends in aggregate user behavior to uncover the reasons behind success or failure of a specific in-application user goal. Investigating a conversion funnel can help you measure and optimize the conversion rates of relevant processes within your application.
+-   **[Analyze conversion funnel results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/analyse-conversion-funnel-results.md)**  
+Review the results of a conversion funnel to review how users move through each step, where they drop off, and how the journey has changed compared with a previous period.
 -   **[Edit a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/edit-funnel.md)**  
 Edit conversion funnel data to collect or steps to include in your analysis.
 -   **[Delete a conversion funnel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/delete-funnel-step.md)**  
-Easily delete a funnel.
--   **[How User Experience Analytics matches funnels](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/how-funnels-matched.md)**  
-Learn how User Experience Analytics matches sequences of pages you anticipate users seeing before they reach a goal.
+Delete a funnel that you no longer need.
+-   **[Funnel matching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/how-funnels-matched.md)**  
+Usage Insights matches funnel steps based on unique users, not sessions, allowing steps to span multiple sessions within a 30-day window.
 
-**Parent Topic:**[Using User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
+**Parent Topic:**[Using Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/using-uxa.md)
 

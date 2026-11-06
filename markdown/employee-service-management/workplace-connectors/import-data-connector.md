@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Connectors
 classification: workplace-connectors
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Setup Workplace Connectors for badging data, Configure, Workplace Connectors, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Configure data Sources and schedule imports
@@ -139,19 +139,19 @@ Desired import frequency for the scheduled job. For example, **Daily**.
 
 </td></tr><tr><td>
 
-Time
+Daily
 
 </td><td>
 
 The time at which the scheduled job should be imported. For example: 10:30:00
 
 </td></tr></tbody>
-</table>10. Select **Submit**.
+</table>10. Select **Execute Now**.
 
 
-**Parent Topic:**[Configure Workplace Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-workplace-connectors.md)
+**Parent Topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Previous topic:**[Configure sensor data providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/providers-occupancy.md)
+**Previous topic:**[Setup Workplace Connectors for badging data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/setup-workplace-connectors.md)
 
-**Next topic:**[Configure badging data choices](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/configure-badging-data-choices.md)
+**Next topic:**[Create a badging data provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-connectors/wsd-connector-badging-providers.md)
 

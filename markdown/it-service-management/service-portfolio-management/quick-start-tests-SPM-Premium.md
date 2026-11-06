@@ -7,9 +7,9 @@ release: yokohama
 product: Service Portfolio Management
 classification: service-portfolio-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Service Portfolio Management, Service Portfolio Management, IT Service Management]
+breadcrumb: [Configure, Service Portfolio Management, IT Service Management]
 ---
 
 # Quick start tests for Service Portfolio Management Premium

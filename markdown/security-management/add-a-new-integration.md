@@ -1,18 +1,18 @@
 ---
 title: Add an integration
-description: Use the following steps to add a new integration to your Security Incident Response application.
+description: Use the following steps to add an integration to your Security Incident Response application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/add-a-new-integration.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use SIR Integration Builder, LLM-powered SIR integration builder, Security Operations]
 ---
 
 # Add an integration
 
-Use the following steps to add a new integration to your Security Incident Response application.
+Use the following steps to add an integration to your Security Incident Response application.
 
 1.  [Add application details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/add-application-details.md)
 2.  [Add connection details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/add-connection-details.md)

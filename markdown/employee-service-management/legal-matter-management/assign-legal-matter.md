@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Assign a legal matter to a legal group user
@@ -28,7 +28,7 @@ During the creation of a legal matter either directly or by promoting a legal re
 
 1.  Navigate to **All** &gt; **Legal Request** &gt; **Legal Counsel Center**.
 
-2.  In the Legal Counsel Center tab, select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  In the Legal Counsel Center tab, select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon.
 
 3.  In the **Lists** tab, under **Legal Matters**, click **Unassigned**.
 
@@ -53,4 +53,6 @@ The legal matter is assigned to the selected member of the user group. The state
 ## What to do next
 
 The assigned member can start [working on the legal matter]().
+
+**Parent Topic:**[Using Legal Matter Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/lmm-use-landing.md)
 

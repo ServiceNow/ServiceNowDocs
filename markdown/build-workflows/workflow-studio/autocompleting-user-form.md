@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Non-Interactive activities, Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Non-Interactive activities, Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Autocompleting User Form
@@ -39,6 +39,4 @@ After configuring the required inputs for your activity, you can also choose to 
 ## Outputs
 
 These outputs can provide data to other activities in your playbook. You can access this data as activity inputs when you configure your activity:
-
-**Parent Topic:**[Non-Interactive activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/non-interactive-activities.md)
 

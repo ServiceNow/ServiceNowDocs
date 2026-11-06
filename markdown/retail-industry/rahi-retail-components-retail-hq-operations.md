@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/retail-industry/rahi-retail-components-retail-hq-operations.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-03-12"
 reading_time_minutes: 1
-breadcrumb: [Components installed with plugins, Retail reference, Retail]
+breadcrumb: [Components installed with plugins, Reference, Retail]
 ---
 
 # Components installed with Retail HQ Operations
@@ -40,7 +40,10 @@ The Retail HQ Operations plugin enables effective coordination between HQ teams.
 
 </td><td>
 
-com.sn\_retail\_core
+-   com.sn\_retail\_core
+-   com.sn\_multi\_case\_creation
+-   com.fsm\_planned\_work\_management
+-   com.sn\_task\_plan\_templates
 
 </td></tr></tbody>
 </table>## Roles installed with Retail HQ Operations
@@ -96,7 +99,7 @@ sn\_retail.associate\_fulfiller
 
 </td></tr><tr><td>
 
-sn\_rtl\_hq\_ops.location\_agent
+sn\_rtl\_hq\_ops.location\_manager
 
 </td><td>
 
@@ -106,6 +109,23 @@ Create, update, and resolve HQ communications case for their location.
 
 -   sn\_rtl\_hq\_ops.location\_agent
 -   sn\_retail.manager\_fulfiller
+
+</td></tr><tr><td>
+
+sn\_rtl\_hq\_ops.plan\_author
+
+</td><td>
+
+Create, update, and track questionnaire and store plan.
+
+</td><td>
+
+-   sn\_fsm\_smart\_asmt.questionnaire\_feature\_author
+-   sn\_task\_plan.delete
+-   sn\_task\_plan.report\_viewer
+-   sn\_rtl\_instore\_ops.plan\_author
+-   sn\_case\_creation.org\_editor
+-   sn\_task\_plan.creator
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Components installed with plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/retail-industry/rahi-retail-components-installed-with-plugins.md)

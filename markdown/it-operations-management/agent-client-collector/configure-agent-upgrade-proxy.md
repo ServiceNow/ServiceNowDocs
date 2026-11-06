@@ -7,10 +7,10 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2026-05-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [ACC upgrade proxy, Package Download Proxies, CDN proxy]
-breadcrumb: [Agent Client Collector upgrade overview, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [Agent Client Collector upgrade overview, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Configure a download proxy for Agent Client Collector upgrades
@@ -25,7 +25,7 @@ Role required: agent\_client\_collector\_admin
 
 ## About this task
 
-Proxy configuration is managed through the Package Download Proxies table. When you add, update, or remove a proxy record, the system reads all active entries sorted by the **Order** field, generates a proxy list, and automatically pushes the updated configuration to all agents via MID Server configuration sync. No manual file editing or agent restart is required.
+Proxy configuration is managed through the Package Download Proxies table. When you add, update, or remove a proxy record, the system reads all active entries sorted by the **Order** field and generates a proxy list. The updated configuration is automatically pushed to all agents via MID Server configuration sync. No manual file editing or agent restart is required.
 
 The agent tries each proxy in order, from the lowest **Order** value to the highest. If a proxy fails, the agent moves to the next entry. To configure a direct connection as a fallback, add an entry with the URL set to `direct`.
 
@@ -66,4 +66,6 @@ The following configuration tries a corporate proxy first. If the proxy is unava
 ## What to do next
 
 To temporarily block all CDN downloads, clear the **Active** check box on all proxy records. With no active entries, the system blocks CDN downloads. This is useful during maintenance windows.
+
+**Parent Topic:**[Agent Client Collector upgrade overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/agent-client-collector/acc-agent-upgrade-overview.md)
 

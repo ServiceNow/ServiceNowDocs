@@ -1,20 +1,20 @@
 ---
 title: Working with published forms
-description: After a form has been published, you can update it, undo changes, hide it from being visible, and delete it.
+description: After a form has been published, you can update it, undo changes, and hide it from being visible.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/creator-studio/crs-working-with-published-forms.html
 release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with forms in Creator Studio, Building apps with Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Forms in apps, Build apps, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Working with published forms
 
-After a form has been published, you can update it, undo changes, hide it from being visible, and delete it.
+After a form has been published, you can update it, undo changes, and hide it from being visible.
 
 ## Changing published forms
 
@@ -28,13 +28,14 @@ You can select the **Undo all changes** option, available in the form header's m
 
 ## Hiding forms
 
-Hiding a catalog item for your app's form effectively makes the form inactive. Hidden forms are unavailable in both the app and the catalog it belongs to.
+Hiding a catalog item for your app's form effectively makes the form inactive. Hidden forms are unavailable in both the app and the catalog it belongs to. If you want to remove a published form from your app, hide it.
 
-## Deleting published forms
+## Deleting forms
 
-You can’t delete a form, whether it’s in a Draft or Published state.
+You can delete only unpublished forms.
 
--   If it’s in the Draft state, just don’t **Mark as ready**.
+-   If a form is in Draft state, you can just choose not to **Mark as ready**.
+-   If you know that you'll never need a Draft form again, you can delete it. For more information, check out [Delete a form in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/crs-delete-form.md).
 -   If the form is in a Published state, you can hide it so it no longer appears in the catalog. See [Hide a form from use in the ServiceNow AI Platform in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-deactivate-form.md) for more information on hiding forms.
 
 **Parent Topic:**[Working with forms in Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/creator-studio-work-with-forms.md)

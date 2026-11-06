@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Types of content blocks, Content blocks, Configure Content Management sites, Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -22,7 +22,7 @@ Role required: content\_admin or admin
 
 ## About this task
 
-To add streaming video or Flash video \(.flv\), for example, to a knowledge article, see [Embed videos in HTML fields](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_EmbeddingVideoInHTMLFields.md) .
+To add streaming video or Flash video \(.flv\), for example, to a knowledge article, see Embed videos in HTML fields .
 
 ## Procedure
 

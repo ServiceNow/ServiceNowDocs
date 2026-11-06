@@ -7,9 +7,9 @@ release: yokohama
 product: Reporting
 classification: reporting
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Create reports from MetricBase time-series data, Advanced reporting topics, Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
+breadcrumb: [Create reports from MetricBase time-series data, Advanced Core UI reporting topics, Core UI Reporting, Reporting, dashboards, and Performance Analytics in the Core UI, Platform Analytics]
 ---
 
 # MetricBase transforms
@@ -330,5 +330,5 @@ is \[1, 3\] rather than \[4\].
 }
 ```
 
-**Parent Topic:**[Create reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-metricbase-data.md)
+**Parent Topic:**[Create Core UI reports from MetricBase time-series data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/create-report-with-metricbase-data.md)
 

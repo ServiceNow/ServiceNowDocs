@@ -7,9 +7,9 @@ release: yokohama
 product: \[Legacy\] Retail Task Management
 classification: legacy-retail-task-management
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Retail Task Management, Retail Task Management, Retail]
+breadcrumb: [Explore, Retail Task Management, Retail]
 ---
 
 # Retail multi-store case

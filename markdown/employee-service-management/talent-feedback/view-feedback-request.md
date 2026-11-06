@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: task
-last_updated: "2025-04-16"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Talent Development, Employee Service Management]
+breadcrumb: [Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # View feedback requests
@@ -40,9 +40,4 @@ Role required: admin
 
     **Note:** You can also view the **Talent Feedback Request Skills** in the related links section of the form.
 
-
--   **[Begin a discussion from a Talent Feedback request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/discussion-skill-feedback.md)**  
-You can choose to begin a discussion regarding a talent feedback request using the Discuss option.
-
-**Parent Topic:**[Working with Skill feedback in Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/skill-feedback-feature.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [List view in SIR Workspace, Explore, Security Incident Response Workspace, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -43,8 +43,6 @@ The base system provides the following quick filters for each response task:
 
 2.  Search for **Quick Filters** \(sn\_si\_aw\_quick\_filters\).
 
-    \[Omitted image "quick-filters.png"\] Alt text: quick filters
-
 3.  Go to **Related Links** &gt; **Show List** section.
 
     The **Quick Filters** list page is displayed. OOTB, following is the list of quick filters shipped with the application.
@@ -60,7 +58,7 @@ The base system provides the following quick filters for each response task:
     |Risk score &gt;= 80|Security Incident \[sn\_si\_incident\]|True|
     |Open Phishing Incidents|Security Incident \[sn\_si\_incident\]|True|
 
-    **Note:** The security admin can go ahead and configure these quick filters. As per the business need, admin can modify the existing value to false and create a new quick filter.
+    **Note:** The security admin can go ahead and configure these quick filters. As per the business need, admin can modify the existing value to false and create a quick filter.
 
     \[Omitted image "quick-filters-list-view.png"\] Alt text: Quick filters list view
 
@@ -84,8 +82,6 @@ The base system provides the following quick filters for each response task:
 8.  Modify the name and filter condition.
 
 9.  Click **Update**.
-
-    \[Omitted image "update-existing-filter-record.png"\] Alt text: Quick Filters: Tasks opened today
 
 
 -   **[Add or modify quick filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/add_quick_filters.md)**  

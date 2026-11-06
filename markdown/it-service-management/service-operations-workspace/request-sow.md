@@ -1,20 +1,20 @@
 ---
 title: Request Management in Service Operations Workspace
-description: Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents efficiently manage multiple incidents, catalog requests, and catalog tasks.
+description: Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents manage multiple incidents, catalog requests, and catalog tasks.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/service-operations-workspace/request-sow.html
 release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Operate, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Request Management in Service Operations Workspace
 
-Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents efficiently manage multiple incidents, catalog requests, and catalog tasks.
+Service Operations Workspace for Request Management integrates the platform functionality for tier 1 agents into a multi-tab interface that helps agents manage multiple incidents, catalog requests, and catalog tasks.
 
 As an agent, you can create a catalog request in Service Operations Workspace to initiate a catalog request flow from a different IT Service Management flow. For example, from an incident flow, you can create a request, and associate the request with the incident to help track requests associated with an incident and vice versa. You can also work on catalog tasks and update the state of the tasks, and manage approvals of requests and requested items.
 
@@ -27,8 +27,6 @@ The following Request Management categories are available in Service Operations 
 -   **Request**: Enables you to view active requests and requested items.
 -   **Catalog Task**: Enables you to view the active tasks assigned to the current user and active tasks assigned to the current user’s assignment groups.
 
-\[Omitted image "sow-req-categories.png"\] Alt text: Request Management categories in Service Operations Workspace
-
 ## Request Management forms in Service Operations Workspace
 
 The form layouts, UI actions, UI policies, and client scripts available on the following Request Management forms in the ServiceNow AI Platform UI are also available on the corresponding Service Operations Workspace forms.
@@ -37,18 +35,12 @@ The form layouts, UI actions, UI policies, and client scripts available on the f
 -   Request Item
 -   Catalog Task
 
-\[Omitted image "request-form-sow-polaris.png"\] Alt text: Request form
-
-You can view the request form in Service Operations Workspace and track the record information like the request state, due date for a request, requested item.
-
 You can view **Requested for** and **Opened by** cards in the record information panel.
 
 -   **Requested for**: The **Requested for** card displays quick information about the requester, local time, department, location, info icon, and contact details. Additionally, you can select Recent requests to view the requests created by the requester and select the Assigned assets to view the assets assigned to the user.
 -   **Opened by**: The **Opened by** card displays quick information about the requester, local time, department, location, info icon, and contact details.
 
 You can also view the **Requested for** and **Opened by** cards in catalog task and request item.
-
-\[Omitted image "request-item-sow-polaris.png"\] Alt text: Request item form
 
 **Note:** A variable editor is displayed as a pop-up window for request items and catalog tasks only if it is included in the platform forms.
 

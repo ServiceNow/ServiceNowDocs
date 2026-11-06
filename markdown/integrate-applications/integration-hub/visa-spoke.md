@@ -1,38 +1,42 @@
 ---
 title: Visa Spoke
-description: Integrate the ServiceNow instance with the Visa spoke to invoke Visa Resolve Online \(VROL\) APIs for Visa card dispute process and card-on-file payments using Visa Stop Payment Service \(VSPS\).
+description: Integrate the ServiceNow instance with the Visa spoke to seamlessly invoke Visa APIs under Visa Resolve Online \(VROL\) for Visa card dispute process and card-on-file payments using Visa Stop Payment Service \(VSPS\). You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security. Also reuse this short description in the release notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/visa-spoke.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 19
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Visa Spoke
 
-Integrate the ServiceNow instance with the Visa spoke to invoke Visa Resolve Online \(VROL\) APIs for Visa card dispute process and card-on-file payments using Visa Stop Payment Service \(VSPS\).
+Integrate the ServiceNow instance with the Visa spoke to seamlessly invoke Visa APIs under Visa Resolve Online \(VROL\) for Visa card dispute process and card-on-file payments using Visa Stop Payment Service \(VSPS\). You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security.
 
-## Subscription information
+## Integration Hub subscription
 
-This spoke requires a subscription. Contact your account manager or sales representative for subscription details. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf)
+This spoke requires an Integration Hub subscription. For more information, see [Legal schedules - IntegrationHub overview](https://www.servicenow.com/content/dam/servicenow-assets/public/en-us/doc-type/legal/snc-addendum-integrationhub.pdf).
 
 ## Spoke version
 
-Visa spoke v2.2.2 is the latest version.
+Visa spoke v2.5.2 is the latest version. For version history of the spoke, see [Visa Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-visa-spoke.html).
 
 ## Key features
 
-The feature includes creating actions to invoke Visa APIs through VROL and VSPS to manage the entire card dispute process and card-on-file payments, including tasks such as:
+The feature includes creating actions to invoke Visa APIs through VROL and VSPS to manage the end-to-end card dispute process and card-on-file payments. This includes tasks such as:
 
 -   Retrieve enriched transaction information
 -   Perform transaction searches
 -   Initiate the creation of dispute cases
 -   Submit Visa questionnaire
 -   Initiate pre-arbitration and arbitration on existing dispute cases
+
+## Spoke requirements
+
+Integration Hub subscription
 
 ## Spoke dependencies
 
@@ -92,8 +96,8 @@ The Visa spoke provides actions to invoke Visa APIs under VROL and VSPS to manag
     |Look up Transaction Details Response Parser|Parses response of getTransDetails. Issuers can use this API to get detail-level data for the returned transaction.|
     |Look up Transaction Inquiry Results Request Builder|Produces request payload for the getTransInquiryResults. This will accepts a Transaction Inquiry \(TI\) Event ID and returns transaction summary information.|
     |Look up Transaction Inquiry Results Response Parser|Parses response of the getTransInquiryResults. This will accepts a Transaction Inquiry \(TI\) Event ID and returns transaction summary information.|
-    |Submit Multiple Transaction Inquiry Request Builder|Produces request payload for the submitMultiTranInquiry. This will provides an alternative method to search for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
-    |Submit Multiple Transaction Inquiry Response Parser|Parses response of the submitMultiTranInquiry. This will provides an alternative method to search for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
+    |Submit Multiple Transaction Inquiry Request Builder|Produces request payload for the submitMultiTranInquiry. This provides an alternative method to search for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
+    |Submit Multiple Transaction Inquiry Response Parser|Parses response of the submitMultiTranInquiry. This provides an alternative method to search for transactions using 1–10 VisaNet Transaction IDs as the search parameters.|
     |Submit Transaction Inquiry Request Builder|Produces request payload for the submitTranInquiry. This action is used to search for transactions using a set of search criteria.|
     |Submit Transaction Inquiry Response Parser|Produces request payload for the submitTranInquiry. This action is used to search for transactions using a set of search criteria.|
     |Fraud Report Management|Submit Fraud Report Request Builder|Produces request payload for SubmitFraudReport. This API enables you to submit a fraud report to Visa Resolve Online \(VROL\), including all the required fraud data as listed in the Interface Element Spreadsheet \(IES\).|
@@ -108,7 +112,7 @@ The Visa spoke provides actions to invoke Visa APIs under VROL and VSPS to manag
     |Look up Dispute Financial Details Response Parser|Parses response of the GetDisputeFinancialDetails API. This API retrieves dispute financial details in a case for acquirer or issuer.|
     |Case Management|Submit Manual Case Creation Request Builder|Parses response for SubmitFraudReport. This API enables you to submit a fraud report to Visa Resolve Online \(VROL\), including all the required fraud data as listed in the Interface Element Spreadsheet \(IES\).|
     |Submit Manual Case Creation Response Parser|Produces request payload for the SubmitManualCaseCreation API. It enables a user to create a case without any transactions.|
-    |Look up Case Details Request Builder|Produces request payload for GetCaseDetails. This API enables a user to request details of a specific VROL case, including transaction information, dispute jurisdiction, case type, and other case-related fields, when supplying the VisaCaseNumber and MemberRole. The information returned in the response depends on the role of the user making the request, and what stage and state the case is in|
+    |Look up Case Details Request Builder|Produces request payload for GetCaseDetails. This API enables a user to request details of a specific VROL case, including transaction information, dispute jurisdiction, case type, and other case-related fields, when supplying the VisaCaseNumber and MemberRole. The information returned in the response depends on the role of the user making the request, and what stage and state the case is in.|
     |Look up Case Details Response Parser|Parses response for GetCaseDetails. This API enables a user to request details of a specific VROL case, including transaction information, dispute jurisdiction, case type, and other case-related fields, when supplying the VisaCaseNumber and MemberRole. The information returned in the response depends on the role of the user making the request, and what stage and state the case is in.|
     |Questionnaire Management|Look up Acceptance Notification Details Request Builder|Produces request payload for GetAcceptanceNotificationDetails. This API provides Real-Time Systems Interface \(RTSI\) users with the capability to retrieve the acceptance notification details for disputes or dispute responses that were accepted and closed.|
     |Look up Acceptance Notification Details Response Parser|Parses response of GetAcceptanceNotificationDetails. This API provides Real-Time Systems Interface \(RTSI\) users with the capability to retrieve the acceptance notification details for disputes or dispute responses that were accepted and closed.|

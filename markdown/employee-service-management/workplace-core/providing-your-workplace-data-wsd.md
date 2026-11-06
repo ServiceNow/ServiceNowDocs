@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Configure Workplace Core, Workplace Core, Workplace Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Providing your workplace data
@@ -28,30 +28,30 @@ The information available for each workspace record is:
 -   Area
 -   Space
 
-Each designation should use a unique identifier. For example, if you are indicating the fourth floor in building 7, you would name the floor "7-4" rather than just "4".
+Each designation should use a unique identifier.
 
 ## Entering data for several work sites
 
-If you have a large organization, you might want to consider using a spreadsheet to contain the more global record information such as regions, buildings, and sites so you can avoid having to manually input repeated information for each workspace record. You can either export the information you've already entered into the application into a spreadsheet or use that information in an existing workspace spreadsheet. You would then import the spreadsheet that contains the full workspace data into the application in bulk form.
+Large organizations can use spreadsheets to store shared location data such as regions, buildings, sites, eliminating manual re-entry for each workspace. You can either export the information you have already entered into the application into a spreadsheet or use that information in an existing workspace spreadsheet. You can then import the spreadsheet that contains the full workspace data into the application in bulk form.
 
--   If you have an existing spreadsheet, you would first manually convert the column headers and data of the global information to match the ServiceNow record names and identifier numbers. You would then do a bulk import of that data into the Workplace Core application so you can assign workspaces.
+-   If you have an existing spreadsheet, you can manually convert the column headers and data of the global information to match the ServiceNow record names and identifier numbers. You can then do a bulk import of that data into the Workplace Core application so you can assign workspaces.
 
-    For example, say your organization's spreadsheet uses the name "Location" for Sites or "Bldg 1" for every building 1 on every site. You would have to change the spreadsheet column header "Location" to "Sites" and change each "Bldg 1" to the unique identifier from the Workplace Core application records.
+    For example, say your organization's spreadsheet uses the name "Location" for Sites or "Bldg 1" for every building 1 on every site. You have to change the spreadsheet column header "Location" to "Sites" and change each "Bldg 1" to the unique identifier from the Workplace Core application records.
 
--   If you don't have an existing spreadsheet, you would enter the repeated global information that you don't want to have to input manually for each space. The data for each field should have a unique identifier. You would then export the information from the application into a spreadsheet where you would have to input only the space information manually.
+-   If you don't have an existing spreadsheet, you can enter the repeated global information that you don't want to have to input manually for each space. The data for each field should have a unique identifier. You can then export the information from the application into a spreadsheet where you have to input only the space information manually.
 
 
 ## Floor plans
 
 The ServiceNow AI Platform supports Drawing eXchange Format \(.dxf\) files for floor plans. You can select the layers you need for end-user floorplans and configure the attributes \(tags\) you want assigned to fields. For information about how to export an AutoCAD .dwg file to a Drawing eXchange Format \(.dxf\) file, see the documentation for your version of AutoCAD.
 
-Prior to uploading a .dxf file, work with your AutoCAD designers to ensure the following:
+Before uploading a .dxf file, work with your AutoCAD designers to verify the following:
 
 -   The file uses block references and not single-line or multi-line text for space labels.
 -   The blocks attributes have human-understandable tags.
 -   The block references have attribute values appropriately set.
 
-    **Note:** Using blocks is highly recommended. Do not use text objects.
+    **Note:** Using blocks is highly recommended. Don’t use text objects.
 
 
 Uploading a floor plan creates a floor record. All the workspaces of the floor are automatically added to the Spaces related list of the floor record.

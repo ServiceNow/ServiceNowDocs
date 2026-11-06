@@ -1,5 +1,5 @@
 ---
-title: Configure datacenters for the Cloud vs Non-cloud resources chart
+title: Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace
 description: The Cloud vs Non-cloud resources chart in CMDB Workspace determines which CIs and application services are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud versus non-cloud classifications that reflect specific datacenter deployments in the organization.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/configuration-management-database-cmdb/cmdb-workspace-config-datacenter.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure CMDB Workspace, CMDB Workspace store app, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure, CMDB Workspace, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# Configure datacenters for the Cloud vs Non-cloud resources chart
+# Configure datacenters for Cloud vs Non-cloud resources in CMDB Workspace
 
 The Cloud vs Non-cloud resources chart in CMDB Workspace determines which CIsand application services are stored on a cloud and which aren't in the organization. In addition to base system classifications, you can add cloud versus non-cloud classifications that reflect specific datacenter deployments in the organization.
 
@@ -29,7 +29,7 @@ CIs are counted as non-cloud mainly if either of the following conditions is met
 -   The CI is not associated with any datacenter.
 -   The CI is associated with a datacenter that is classified as non-cloud in the Datacenter Types table.
 
-In the base system, the Datacenter Types table contains several common datacenters. For example, the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\) class is classified as 'Cloud'. Therefore, the Cloud vs Non-cloud resources chart includes in its calculations and bars the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\) class.
+In the base system, the Datacenter Types table contains several common datacenters. For example, the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\] class is classified as 'Cloud'. Therefore, the Cloud vs Non-cloud resources chart includes in its calculations and bars the Azure Datacenter \[cmdb\_ci\_azure\_datacenter\] class.
 
 ## Procedure
 
@@ -48,5 +48,5 @@ In the base system, the Datacenter Types table contains several common datacente
 4.  Click **Submit**.
 
 
-**Parent Topic:**[Configure CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
+**Parent Topic:**[Configuring CMDB Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/configuring-cmdb-workspace.md)
 

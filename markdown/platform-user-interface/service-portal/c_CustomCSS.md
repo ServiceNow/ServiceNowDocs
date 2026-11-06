@@ -1,20 +1,20 @@
 ---
 title: Create a portal theme
-description: If you need more customization than Branding Editor can provide, you can create your own custom theme.
+description: If you need more customizations than the Branding Editor can provide, you can create your own custom theme.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/service-portal/c\_CustomCSS.html
 release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Defining portal styles, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
 
 # Create a portal theme
 
-If you need more customization than Branding Editor can provide, you can create your own custom theme.
+If you need more customizations than the Branding Editor can provide, you can create your own custom theme.
 
 Only users with an understanding of CSS should create custom themes.
 
@@ -35,7 +35,7 @@ Name
 
 </td><td>
 
-Name of your theme. Use this name to associate the theme with your portal. This name is not visible to users, you should know it to apply the correct theme to a portal.
+Name of your theme. Use this name to associate the theme with your portal. This name isn't visible to users.
 
 </td></tr><tr><td>
 
@@ -75,7 +75,7 @@ Fixed header
 
 </td><td>
 
-Locks the header at the top of the page so that when a user scrolls the header remains on the screen.
+Locks the header at the top of the page so that when you scroll, the header remains on the screen.
 
 </td></tr><tr><td>
 
@@ -83,7 +83,7 @@ Fixed footer
 
 </td><td>
 
-Locks the footer at the bottom of the page so that when a user scrolls the footer remains on the screen.
+Locks the footer at the bottom of the page so that when you scroll, the footer remains on the screen.
 
 </td></tr><tr><td>
 
@@ -209,7 +209,7 @@ Source
 
 </td><td>
 
-Select one of the following options:-   **UI Script**: Add an internal UI script that has been uploaded to the UI script table \[sys\_ui\_script\]. UI scripts allow you to create client-side JavaScript and reuse it in multiple locations. For more information on UI scripts, see [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIScripts.md).
+Select one of the following options:-   **UI Script**: Add an internal UI script that has been uploaded to the UI script table \[sys\_ui\_script\]. Use UI scripts to create client-side JavaScript and reuse it in multiple locations. For more information on UI scripts, see [UI scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/c_UIScripts.md).
 -   **URL**: Link to an external JavaScript file. Use external URLs to use the same JavaScript as a corporate website or other online resource.
 
 
@@ -239,5 +239,10 @@ The Service Portal package that the JS include is associated with. For example, 
 
 </td></tr></tbody>
 </table>
+-   **[Enable dark theme](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/enable-dark-theme.md)**  
+Use a Coral dark theme on a portal to improve focus, readability, and accessibility.
+-   **[Create a theme variant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/create-theme-variant.md)**  
+Create a theme variant from the Coral theme. A theme variant uses customizable styling CSS variables and branding options to tailor the visual experience for your users.
+
 **Parent Topic:**[Defining portal styles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/service-portal/portal-css.md)
 

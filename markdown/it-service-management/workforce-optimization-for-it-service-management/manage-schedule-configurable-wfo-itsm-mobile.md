@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for IT Service Management
 classification: workforce-optimization-for-it-service-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Requesting time-off using the ITSM Mobile Agent for Workforce Optimization for ITSM, Advanced configurations for Workforce Optimization for ITSM, Workforce Optimization for ITSM, IT Service Management]
+breadcrumb: [Requesting time-off using the ITSM Mobile Agent, Advanced configurations, Workforce Optimization for ITSM, IT Service Management]
 ---
 
 # Make a request to swap shifts or take time off using the Mobile Agent application
@@ -17,6 +17,8 @@ breadcrumb: [Requesting time-off using the ITSM Mobile Agent for Workforce Optim
 Use the ITSM mobile app to look up your schedule, request time off, or swap your shift with your peers. If you can work during the requested shift, you can also approve your peer's request for the shift swap.
 
 ## Before you begin
+
+**Important:** Starting with the Brazil release, Workforce Optimization for ITSM is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 Role required: sn\_shift\_planning.agent
 
@@ -26,15 +28,15 @@ Role required: sn\_shift\_planning.agent
 
 2.  Request time off.
 
-<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d458314e62">
+<table id="choicetable_l1r_jp3_p4b"><thead><tr><th align="left" id="d438593e84">
 
 To
 
-</th><th align="left" id="d458314e65">
+</th><th align="left" id="d438593e87">
 
 Do this
 
-</th></tr></thead><tbody><tr><td id="d458314e71">
+</th></tr></thead><tbody><tr><td id="d438593e93">
 
 **Request time off after reviewing your schedule**
 
@@ -51,7 +53,7 @@ Do this
 6.  In the **Description** field, enter a reason requesting time off.
 
 
-</td></tr><tr><td id="d458314e119">
+</td></tr><tr><td id="d438593e141">
 
 **Request time off after reviewing your time-off requests**
 

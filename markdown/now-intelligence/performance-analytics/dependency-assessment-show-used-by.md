@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dependency Assessment, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [\(Legacy\) Dependency Assessment, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Bottom-up tree view
@@ -36,7 +36,7 @@ Role required: admin
 
 2.  Expand the tree view to locate the entity you want to investigate.
 
-3.  Click the context menu \(\[Omitted image "ContextMenu.png"\] Alt text:\) of the entity and select **Show Used By**.\[Omitted image "launch-bottom-up.png"\] Alt text: context menu option Show Used By to launch bottom-up tree view
+3.  Select the context menu \(\[Omitted image "ContextMenu.png"\] Alt text:\) of the entity and select **Show Used By**.\[Omitted image "launch-bottom-up.png"\] Alt text: context menu option Show Used By to launch bottom-up tree view
 
 4.  The top-down tree view is replaced with a view which shows all of the entities which use the selected entity.
 
@@ -45,5 +45,5 @@ Role required: admin
 5.  Click the reset button \(\[Omitted image "tree-view-reset-icon.png"\] Alt text:\) to return the tree view to the base selection as shown in the header.\[Omitted image "dependency-assessment-reset.png"\] Alt text: Dependency assessment on the dashboard Usage by Requestor, with the reset button highlighted.
 
 
-**Parent Topic:**[Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
+**Parent Topic:**[\(Legacy\) Dependency Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/impact-analysis.md)
 

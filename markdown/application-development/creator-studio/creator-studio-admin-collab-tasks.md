@@ -7,9 +7,9 @@ release: yokohama
 product: Creator Studio
 classification: creator-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Administering Creator Studio, Creator Studio, Building no-code applications, Developing your application, Building applications]
+breadcrumb: [Administer, Creator Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Administering collaboration in Creator Studio
@@ -58,7 +58,7 @@ You can bring in new people to work on the app.
 </td><td>
 
 -   Invite users and groups to join the app.
--   Invited people become editors of the app, meaning they can make changes.
+-   Invited people to become editors of the app, meaning they can make changes.
 
 </td></tr></tbody>
 </table>-   **[Approve a collaboration request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/creator-studio/approve-collaboration-request.md)**  

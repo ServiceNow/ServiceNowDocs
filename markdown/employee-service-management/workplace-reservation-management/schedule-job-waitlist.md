@@ -1,20 +1,20 @@
 ---
 title: Create a schedule job for waitlist
-description: A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
+description: A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/workplace-reservation-management/schedule-job-waitlist.html
 release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2026-05-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage and configure reservation waitlist, Manage, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Manage and configure reservation waitlist, Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Create a schedule job for waitlist
 
-A nightly scheduled job **Waitlist Expirations** handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale stale start time.
+A nightly scheduled job Waitlist Expirations handles expiration of past or stale waitlist records that are in Queued state. The nightly job runs daily and sets the status of any record with an expired or stale start time.
 
 ## Before you begin
 
@@ -40,12 +40,13 @@ Role required: sn\_wsd\_core.admin
 
 6.  Select **Execute Now** if you have updated the scheduled job record.
 
-    The scheduled job runs and removes past waitlist entries with a stale start time. Expired waitlist records are removed from the reservation waitlist table. The records aren't permanently removed from the system. A purge policy removes records that are 30 days or older. For more information, see [Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/purge-waitlist.md).
+    The scheduled job runs and removes past waitlist entries with a stale start time. Expired waitlist records are removed from the reservation waitlist table. The records are not permanently removed from the system. A purge policy removes records that are 30 days or older. For more information, see [Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/purge-waitlist.md).
 
 
 **Parent Topic:**[Manage and configure reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/subscribe-waitlist-overview.md)
 
-**Previous topic:**[Create a reservation waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/create-rsv-waitlist.md)
+**Related topics**  
 
-**Next topic:**[Purge a waitlist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-reservation-management/purge-waitlist.md)
+
+[Purge a waitlist]()
 

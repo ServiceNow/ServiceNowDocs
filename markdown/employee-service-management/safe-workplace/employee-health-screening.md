@@ -7,7 +7,7 @@ release: yokohama
 product: Safe Workplace
 classification: safe-workplace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-09"
 reading_time_minutes: 7
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 # Employee Health Screening
 
 Screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and PPE. Require that users agree to comply with health and safety policies before they return to the workplace.
+
+**Note:** Starting with the Brazil release, Employee Health Screening is being prepared for future deprecation. It will be hidden and no longer activated on new instances but will continue to be supported.
 
 The ServiceNow® Employee Health Screening application enables organizations to screen users before entering the workplace to ensure compliance with the organization's entry requirements, such as a temperature check and personal protective equipment \(PPE\). Based on their own criteria, organizations can determine whether it’s safe for the user to enter the workplace. Organizations can use a reporting dashboard  to view trends by sites and record the return of users into  their  facilities.
 
@@ -35,7 +37,7 @@ Employee Health Screening is part of a suite of ServiceNow® Safe Workplace suit
 
 -   With the [Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
 -   With the [Emergency Outreach](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/emergency-outreach/emergency-outreach.md) application, notify employees of important information about anticipated or occurring emergency situations. Send an outreach notification via email, mobile push message, or SMS message to request an employee response. You can also configure other preferred communication channels.
--   With the [Explore Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
+-   With the [Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
 -   You can manage the inventory of safety equipment for your workforce with the [Workplace Personal Protective Equipment Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/ppe-inventory-management.md) application.
 
 All Safe Workplace suite applications are available in the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home).
@@ -98,6 +100,14 @@ Organizations remain solely responsible for complying with their legal obligatio
 ServiceNow is offering this application to government agencies and their authorized users, not to employees of government agencies in their individual capacities. Use of this application is being offered free of charge for a limited or extended time period and with no expectation of payment from the government agency to ServiceNow for use during that time period, nor does usage create an actual or implied future obligation on behalf of the government. ServiceNow hereby expressly waives any future claims for payment from the agency in connection with usage of the application. Government customers are solely responsible to confirm with the agency’s Ethics Office or its authorized representative that acceptance and usage of the application is permissible.
 
 All decisions in connection with the implementation of this application are at the sole decision of the government agency utilizing this application. Agencies remain solely responsible for complying with their legal obligations under applicable laws and regulations, including \(but not limited to\) data protection and employment laws and regulations, and should modify any language within the templates provided to meet the agency’s specific requirements.
+
+## Additional resources
+
+-   Learn more about what's new and changed, see the [HR Service Delivery release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/hr-service-delivery-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 
 -   **[Install Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/install-emp-health-screening.md)**  
 You can install the Employee Health Screening application if you have the admin role. This application includes demo data and installs the related store applications and plugins if they are not already installed.

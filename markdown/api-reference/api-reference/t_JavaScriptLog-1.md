@@ -4,7 +4,7 @@ description: JavaScript that runs on the browser, such as client scripts, can in
 locale: en-US
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 ---
 
@@ -18,9 +18,9 @@ Role required: admin
 
 ## About this task
 
-The steps to access the JavaScript debug window depend on which UI version you are using.
+The steps to access the JavaScript debug window depend on which UI version you're using.
 
-**Note:** The JavaScript debug window is not supported with Next Experience in Utah. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
+**Note:** The JavaScript debug window is not supported with Next Experience. For more information about supported features in Next Experience, see [Considerations for activating Next Experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/next-experience-adoption-paths.md).
 
 ## Procedure
 
@@ -32,8 +32,8 @@ Core UI
 
 </td><td>
 
-1.  Click the gear icon in the banner frame.
-2.  Click the **Developer** section.
+1.  Select the gear icon in the banner frame.
+2.  Select the **Developer** section.
 3.  Toggle the **JavaScript Log and Field Watcher** switch.
 
 
@@ -43,8 +43,8 @@ UI15
 
 </td><td>
 
-1.  Click the gear icon in the banner frame.
-2.  Click **JavaScript Log and Field Watcher**.
+1.  Select the gear icon in the banner frame.
+2.  Select **JavaScript Log and Field Watcher**.
 
 
 </td></tr><tr><td>
@@ -53,13 +53,13 @@ UI11
 
 </td><td>
 
-Click the debug icon \(\[Omitted image "Debug.png"\] Alt text: The debug icon\) in the banner frame.
+Select the debug icon in the banner frame.
 
 </td></tr></tbody>
 </table>    A new pane opens at the bottom of the screen. It shows the JavaScript Log tab and may also show the Field Watcher tab.
 
 2.  If needed, select the **JavaScript Log** tab.
 
-3.  Click the clear icon \(\[Omitted image "Eraser.png"\] Alt text: The clear icon\) to clear the contents of the log, as needed.
+3.  Select the clear icon to clear the contents of the log, as needed.
 
 

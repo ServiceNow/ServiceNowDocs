@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/access-management-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-01-20"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 ---
 
@@ -15,15 +15,15 @@ Access Management enables you to have access to ServiceNow® instance securely.
 
 <table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
 
-[Zero Trust Access\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Zero Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/session-access.md)
+[Zero Trust Access\[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Trust Access](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/session-access.md)
 
  [Zero Trust Access ensures that all access to applications and data is granted on a least privilege basis, only after the user's identity verification and risk assessment.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/session-access.md)
 
 </td><td>
 
-[Domain Separation\[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text: Icon for working with Admin Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/domain-sep-landing-page.md)
+[Access Analyzer\[Omitted image "access\_analyzer\_yg.png"\] Alt text: Access Analyzer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-analyzer.md)
 
- [With the ServiceNow AI Platform, service providers \(SPs\) can provide their customers with faster onboarding, meet compliance, and protect their data using domain separation.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/domain-sep-landing-page.md)
+ [Access Analyzer is a](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-analyzer.md)[ServiceNow® Store App which is an access diagnostic tool. It helps to determine who has access to a resource.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-analyzer.md)
 
 </td><td>
 
@@ -39,9 +39,9 @@ Access Management enables you to have access to ServiceNow® instance securely.
 
 </td><td>
 
-[Data Filtration\[Omitted image "bus-filter.svg"\] Alt text: Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-filtration-landing.md)
+[Security Data Filters\[Omitted image "bus-filter.svg"\] Alt text: Filter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-data-filters.md)
 
- [Use data filtration to control access to tables and records based on subject attributes when performing read queries.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/data-filtration-landing.md)
+ [Use security data filters to restrict user access to records based on a user's role or other security attribute-related assertions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-data-filters.md)
 
 </td><td>
 
@@ -63,9 +63,7 @@ Access Management enables you to have access to ServiceNow® instance securely.
 
 </td><td>
 
-[ServiceNow Access Control\[Omitted image "bus-filter.svg"\] Alt text: Security Data Filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-data-filters.md)
-
- [Security data filters restrict access to records based on role, or security-attribute related assertions.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-data-filters.md)
+ 
 
 </td></tr></tbody>
 </table>

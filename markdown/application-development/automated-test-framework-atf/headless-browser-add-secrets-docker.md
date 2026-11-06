@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Headless Browser setup for Linux, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Headless Browser setup for Linux, Headless Browser for Automated Test Framework, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Add secrets to Docker for Headless Browser setup in Linux
@@ -19,6 +19,8 @@ Create a Docker secret, which stores the password of the ServiceNow user who wil
 ## Before you begin
 
 Complete Step 3: [Create the Docker image and containers for Headless Browser setup in Linux](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/headless-browser-create-docker-image-containers.md)
+
+Role required: none.
 
 ## About this task
 

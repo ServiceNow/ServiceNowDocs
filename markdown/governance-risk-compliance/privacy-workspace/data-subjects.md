@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Explore, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -22,7 +22,7 @@ For each data subject type, you can now record their location, the volume of dat
 
 The Privacy Management application provides 64 data subject types by default. Any user with at least the privacy manager role can see the data subject types.
 
-\[Omitted image "data-subject-types.png"\] Alt text: Default data subject types in the list view of Privacy management
+\[Omitted image "data-subject-types.png"\] Alt text: Default data subject types in the list view of Privacy Management.
 
 ## Benefits of using data subject types
 

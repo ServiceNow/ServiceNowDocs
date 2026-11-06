@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-case-type-onboarding.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 14
-breadcrumb: [Playbook applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Playbook applications, Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case Playbook for Onboarding
@@ -16,9 +16,9 @@ Use the Case Playbook for Onboarding to manage the process for taking on new cus
 
 The onboarding playbook provides the activities and tasks that agents can perform during the onboarding process. Agents can also create and assign tasks as needed and use the playbook to communicate with the customer.
 
-Use the Case Playbook for Onboarding for cases that were created by using the onboarding case type. This playbook is available for both CRM Workspace and CSM Agent Workspace. In the CSM Workspaces, the playbook appears in the **Playbook** tab on the case record.
+Use the Case Playbook for Onboarding for cases that were created by using the onboarding case type. This playbook is available for both CRM Workspace and CSM Agent Workspace. In the CSM workspaces, the playbook appears in the **Playbook** tab on the case record.
 
-**Note:** If you have the admin role, you can configure a playbook to use compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the Workspace to a tab in the contextual side panel.
+**Note:** If you have the admin role, you can configure a playbook to use compact mode in CRM Workspace. Use the compact mode to move the playbook from a tab in the workspace to a tab in the contextual side panel.
 
 ## Case Playbook for Onboarding application
 
@@ -33,7 +33,7 @@ Process definitions are stored in the Process Definitions table \(sys\_pd\_proce
 1.  In the application navigator, enter **sys\_pd\_process\_definition.list**.
 2.  [Configure the list](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_PersonalLists.md) to show the **Name** field.
 
-Only one PAD process per playbook can be active at a time. For more information, see [Process definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/process-definitions.md).
+Only one PAD process per playbook can be active at a time.
 
 ## Case Playbook for Onboarding features
 
@@ -110,9 +110,9 @@ Compact mode
 
 </td><td>
 
-Mode that moves the playbook from a tab in the Workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they are viewing the other tabs in the record page. This mode is available in CRM Workspace only.
+Mode that moves the playbook from a tab in the workspace to the contextual side panel. Agents can complete the playbook activities in the side panel while they are viewing the other tabs in the record page. This mode is available in CRM Workspace only.
 
-Users with the admin role can configure a playbook to use compact mode in the playbook component configuration in UI Builder. For more information about configuring this feature, see Integrate Playbook with Workspace.
+Users with the admin role can configure a playbook to use compact mode in the playbook component configuration in UI Builder.
 
 </td></tr><tr><td>
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/add-intune-app-to-azure.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Intune mobile device management \(MDM\), Supported mobile device management vendors, Considerations before implementation, ServiceNow Mobile Platform configuration detail, Configuring the Mobile Platform, Mobile Platform]
+breadcrumb: [Intune, Device management, Before implementation, Configuration detail, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Add an Intune integrated app to Microsoft Azure
@@ -40,7 +40,7 @@ Role required: Microsoft Intune admin
 
 6.  Select the ServiceNow mobile app that you want to add.
 
-7.  On the App information tab in the Add App page, the application details automatically populate. Add additional information as appropriate and select **Next**.
+7.  Add additional information as appropriate on the App information tab in the Add App page, and select **Next**.
 
 8.  On the Assignments tab, add the specific groups or all users who will be using this app.
 
@@ -48,7 +48,7 @@ Role required: Microsoft Intune admin
 
 9.  Click **Next**.
 
-10. Review the information you entered. When you are finished, click **Create**.
+10. Review the information you entered and when you are finished, click **Create**.
 
 
 **Parent Topic:**[Intune mobile device management \(MDM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/intune-mdm.md)

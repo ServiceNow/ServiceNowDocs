@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/t\_SearchSecOps.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Security Operations common functionality, Security Operations]
 ---
@@ -20,7 +20,7 @@ Role required: sn\_si.read or higher
 
 ## Procedure
 
-1.  Click the search icon \(\[Omitted image "SearchIcon.png"\] Alt text: Search\) in the upper right-hand corner of the screen.
+1.  Select the search icon \(\[Omitted image "SearchIcon.png"\] Alt text:\) in the upper right-hand corner of the screen.
 
 2.  Type in the criteria you want to search by, and press **Enter**.
 

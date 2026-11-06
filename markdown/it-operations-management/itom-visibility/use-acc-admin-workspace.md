@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: task
-last_updated: "2025-11-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM Visibility, IT Operations Management]
+breadcrumb: [Use ITOM Infra Services Workspace, ITOM Infra Services Workspace, ITOM Visibility, IT Operations Management]
 ---
 
 # Use the Agent Client Collector \(ACC\) admin workspace
@@ -50,4 +50,16 @@ For details on the information accessible on the ACC admin workspace, see [Agent
 
     **Note:** The **Agent actions** button displays only when you have installed Agent Client Collector Framework version 6.0.0 or higher.
 
+
+-   **[Generate an Agent Client Collector installation plan](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/acc-onboarding-generate-plan.md)**  
+Configure and deploy new agents in your environment, using the Agent Onboarding guide. The Agent Onboarding guide generates a customized installation plan for deploying the Agent Client Collector on your endpoints or servers.
+-   **[Run diagnostics on an Agent Client Collector agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/run-acc-agent-diagnostics.md)**  
+Run automated self-tests on an Agent Client Collector \(ACC\) agent from the ITOM Infra Services Workspace to identify and address agent issues. View agent errors and invoke the relevant remediation steps.
+
+**Parent Topic:**[Use ITOM Infra Services Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-infra-srv-wrksp-use.md)
+
+**Related topics**  
+
+
+[MID Server Workspace]()
 

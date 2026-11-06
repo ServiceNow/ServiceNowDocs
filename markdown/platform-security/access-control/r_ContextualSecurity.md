@@ -7,9 +7,9 @@ release: yokohama
 product: Access Control
 classification: access-control
 topic_type: reference
-last_updated: "2026-06-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Access Control List Rules, Access Management]
+breadcrumb: [Access Control Lists \(ACLs\), Access Management]
 ---
 
 # Contextual Security Manager
@@ -56,7 +56,7 @@ The Contextual Security Manager is active in the base system. If there are many 
 
 -   [Enable role auditing with Contextual Security: Role Management V2](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-control/enable-audit-roles.md).
 -   [Hardening settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/security-hardening-settings.md) in Instance Security Hardening Settings.
--   [Audit user roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/audit-user-roles.md)
+-   Audit user roles
 
 ## Security Attribute Conditions
 
@@ -73,5 +73,5 @@ Security Attribute Conditions can be defined as local or existing:
     The condition references a Security Attribute condition already defined on another ACL, enabling reuse across multiple rules.
 
 
-For a complete list of built-in security attribute types and configuration details, see [Security Attributes fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-control/security-attribute-fundamentals.md) and [Security Attribute Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-control/security-attribute-scope.md).
+For a complete list of built-in security attribute types and configuration details, see [Security Attributes Fundamentals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-attribute-fundamentals.md) and [Security Attribute Type](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/security-attribute-scope.md).
 

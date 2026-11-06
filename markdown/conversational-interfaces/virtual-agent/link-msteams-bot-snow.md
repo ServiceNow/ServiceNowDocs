@@ -1,5 +1,5 @@
 ---
-title: Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD
+title: Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD
 description: Link your registered Microsoft Teams bot with your ServiceNow instance to integrate it with the Virtual Agent. Use your ServiceNow Virtual Agent application to install and configure Conversational Integration with Microsoft Teams.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/virtual-agent/link-msteams-bot-snow.html
@@ -7,13 +7,13 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Integrate, self-configure bot, Microsoft Teams, MSTeams, Virtual Agent, Conversational Integration, G-CCH, DoD]
-breadcrumb: [Integrating Virtual Agent with Microsoft Teams for GCC-H or DoD, Specialized Virtual Agent integrations for Microsoft Teams, Integrating Virtual Agent with Microsoft Teams, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Integrate VA with MS Teams for GCC-H, Specialized VA integrations for Teams, Integrate VA with Teams, Microsoft Teams, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
-# Integrate your Self-configured bot with Microsoft Teams for GCC-H or DoD
+# Integrate your self-configured bot with Microsoft Teams for GCC-H or DoD
 
 Link your registered Microsoft Teams bot with your ServiceNow instance to integrate it with the Virtual Agent. Use your ServiceNow Virtual Agent application to install and configure Conversational Integration with Microsoft Teams.
 

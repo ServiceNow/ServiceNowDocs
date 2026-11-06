@@ -7,9 +7,9 @@ release: yokohama
 product: Career Conversations
 classification: career-conversations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Career Conversations, Talent Development, Employee Service Management]
+breadcrumb: [Career Conversations, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Explore Career Conversations application
@@ -27,5 +27,5 @@ For cumulative release notes information for all released apps, see the [Service
 -   **[Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-conversations-module.md)**  
 The Career Conversations application supports dialogue between subordinates and their leaders. This application enables your employees to engage in meaningful conversations that are focused on the employee's growth and development.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

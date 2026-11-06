@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Java Apache Axis2 web services client examples, Inbound web service examples, Inbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Java Apache Axis2, Examples, Inbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Java Apache Axis2 web services client examples update

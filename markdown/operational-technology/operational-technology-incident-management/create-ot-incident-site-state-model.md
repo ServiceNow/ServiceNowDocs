@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Incident Management
 classification: operational-technology-incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Operational Technology Incident Management, Operational Technology]
 ---
@@ -19,7 +19,7 @@ Create an Operational Technology \(OT\) incident state model for your sites. By 
 ## Before you begin
 
 -   Set the application scope to **Operational Technology Incident Management**.
--   Role required: admin
+-   Role required: admin or state\_model\_admin
 
 ## About this task
 

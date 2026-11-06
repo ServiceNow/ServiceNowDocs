@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/case-management.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Case management
@@ -32,7 +32,7 @@ Configure the case management features that enable agents and customers to creat
 
 -   [Configure a Case form view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-case-form.md) to display the desired fields and related lists.
 -   [Configure SLA definitions for customer service cases](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_DefineSLAForCustServiceCase.md) to specify the time within which service must be provided.
--   [Configure major issue management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-major-issue-management.md) to manage the communication and resolution process for issues that impact multiple customers.
+-   [Major issue management overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/major-issue-management.md) to manage the communication and resolution process for issues that impact multiple customers.
 -   [Configure special handling notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/configure-special-handling-notes.md) to bring important case information to an agent’s attention.
 
 </td></tr><tr><td>

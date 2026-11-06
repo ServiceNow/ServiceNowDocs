@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-lps-extending-base-case.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [License and Permit Playbook, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [License and Permit Playbook, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Extend the License and Permit Base Case
@@ -16,9 +16,11 @@ As an admin, you can further extend the License and Permit install base case to 
 
 ## About this task
 
-Licenses and permits are modeled as products, and for approved applications, the license or permit instances are generated and recorded in specific install base item extensions, referred to as Items Received. An admin may need to extend the base case in License and Permit Playbook to implement specific license and permit case application types with varying eligibility and application questions and combinations that may cause the License and Permit Case \(sn\_gsm\_license\_permit\_case\) table to extend beyond the 1000 column limit.
+Licenses and permits are modeled as products, and for approved applications, the license or permit instances are generated and recorded in specific install base item extensions, referred to as Items Received. An admin may need to extend the base case in License and Permit Administration to implement specific license and permit case application types with varying eligibility and application questions and combinations that may cause the License and Permit Case \(sn\_gsm\_license\_permit\_case\) table to extend beyond the 1000 column limit.
 
 ## Before you begin
+
+Select License and Permit Administration as the application scope when prompted.
 
 Role required: admin
 

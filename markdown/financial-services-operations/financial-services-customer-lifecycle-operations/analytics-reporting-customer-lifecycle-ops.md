@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Customer Lifecycle Operations
 classification: financial-services-customer-lifecycle-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer Lifecycle Operations, Using common applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Customer Lifecycle Operations, Common applications, Financial Services Operations \(FSO\)]
 ---
 
 # Analytics and Reporting for Financial Services Customer Lifecycle Operations
@@ -20,6 +20,6 @@ Use the ServiceNow® Performance Analytics widgets on a dashboard to visualize d
 
 The following dashboards are available for Financial Services Customer Lifecycle Operations:
 
--   [Business Lifecycle Operations dashboard dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/fso-business-lifecycle-dashboard.md)
--   [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-customer-lifecycle-operations/fso-client-lifecycle-dashboard.md)
+-   [Business Lifecycle Operations dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-business-lifecycle-dashboard.md)
+-   [Client Lifecycle dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/fso-client-lifecycle-dashboard.md)
 

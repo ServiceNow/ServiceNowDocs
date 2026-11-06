@@ -7,9 +7,9 @@ release: yokohama
 product: Spotlight
 classification: spotlight
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Ranking records with Spotlight, Configure Performance Analytics advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Ranking records with Spotlight, Configure advanced features, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Copy a Spotlight group to breakdown elements
@@ -34,15 +34,15 @@ When you first create a Spotlight group, you can associate it with at most one e
 
 3.  In the Copy Spotlight Group dialog, select a value for **Name Preference**.
 
-<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d33760e84">
+<table id="choicetable_vdg_jsl_dhb"><thead><tr><th align="left" id="d35744e84">
 
 Value
 
-</th><th align="left" id="d33760e87">
+</th><th align="left" id="d35744e87">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d33760e93">
+</th></tr></thead><tbody><tr><td id="d35744e93">
 
 **Do not change the name**
 
@@ -50,7 +50,7 @@ Description
 
 All copies will have the same name as the original Spotlight group.
 
-</td></tr><tr><td id="d33760e102">
+</td></tr><tr><td id="d35744e102">
 
 **Change the name**
 
@@ -58,7 +58,7 @@ All copies will have the same name as the original Spotlight group.
 
 Manually write a new name that will be given to all copies of the Spotlight group.
 
-</td></tr><tr><td id="d33760e111">
+</td></tr><tr><td id="d35744e111">
 
 **Add element name to new name as prefix**
 
@@ -66,7 +66,7 @@ Manually write a new name that will be given to all copies of the Spotlight grou
 
 For each copy of the Spotlight group, the [breakdown element](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) name is added to the beginning of the Spotlight group name. You can keep the base name from the original Spotlight group or specify a new one.The **New Name** field does not show these prefixes.
 
-</td></tr><tr><td id="d33760e130">
+</td></tr><tr><td id="d35744e130">
 
 **Add element name to new name as suffix**
 

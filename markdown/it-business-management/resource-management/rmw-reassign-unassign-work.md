@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Using Resource Management Workspace, Use, Resource Management Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -79,7 +79,7 @@ The actual hours captured by Tom are retained even though the task is reassigned
 
 ## What to do next
 
-You can allocate the unassigned work and approve the reassigned work. For more information, see [View, assign, and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/allocate-resources-rmw.md).
+You can allocate the unassigned work and approve the reassigned work. For more information, see [Assign and approve unassigned work using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/allocate-resources-rmw.md).
 
 **Parent Topic:**[Using Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/using-rmw.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Contact Tracing
 classification: contact-tracing
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Setting up Contact Tracing, Contact Tracing, Safe Workplace, Health and Safety, Employee Service Management]
 ---
@@ -28,7 +28,7 @@ Sample use case: An admin must be able to make comments required when a record c
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Domain separation and Contact Tracing Overview
 
 Service providers need to be able to manage multiple customers in a single instance to deliver their services via Contact Tracing in the [Safe Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/safe-workplace.md) suite. Beginning with the Paris release, scheduled jobs introduced support for domain separation at the Standard level.
 

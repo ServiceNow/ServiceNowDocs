@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Post-assessment automations, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -24,6 +24,10 @@ The post-assessment actions feature in Smart Assessment Engine enables you to au
 
 Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_manager and sn\_smart\_imp\_auto.automation\_creator
 
+## About this task
+
+\[Omitted video\] Description: Configuring post assessment actions
+
 ## Procedure
 
 1.  Navigate to **Workspaces** &gt; **Assessment Workspace** to access the Assessment Workspace landing page.
@@ -34,21 +38,23 @@ Role required: sn\_smart\_asmt.assessment\_admin or sn\_smart\_asmt.template\_ma
 
 3.  Select the **Automations** tab.
 
+    **Note:** Your changes on the **Questions**, **Automations**, and **Scoring** tabs are retained when you switch between tabs.
+
 4.  Select **Create Automation**.
 
 5.  Provide a unique name and a description for the automation.
 
 6.  Add either a conditional action set or a standalone action set.
 
-<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d271350e139">
+<table id="choicetable_v2z_xht_42c"><thead><tr><th align="left" id="d385142e166">
 
 Option
 
-</th><th align="left" id="d271350e142">
+</th><th align="left" id="d385142e169">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d271350e148">
+</th></tr></thead><tbody><tr><td id="d385142e175">
 
 **Choose a conditional action set**
 
@@ -60,7 +66,7 @@ Description
 4.  Select **Save**.
  **Note:** You can select **+New condition set** to add multiple conditions.
 
-</td></tr><tr><td id="d271350e194">
+</td></tr><tr><td id="d385142e221">
 
 **Choose a standalone action set**
 
@@ -89,6 +95,10 @@ Select **Add a standalone action set**.
 
     The automation is now activated, and a confirmation message is displayed. When the assessor submits the assessment, the automation you set up is executed.
 
+
+## Result
+
+The automation is activated and will execute when the assessor submits an assessment that matches the configured conditions.
 
 **Related topics**  
 

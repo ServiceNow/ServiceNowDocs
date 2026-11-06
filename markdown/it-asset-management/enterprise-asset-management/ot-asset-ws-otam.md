@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 12
-breadcrumb: [OT Asset Management, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [OT Asset Management, Industry-specific EAM solutions, Enterprise Asset Management, Asset Management]
 ---
 
 # OT Asset Workspace
@@ -251,7 +251,7 @@ Hardware models and OT hardware assets are also integrated into the following En
 
     Starting with the Zurich release, the bulk import templates include the **OT entity** and **Parent asset attribute** columns. When the OT Asset Management application is activated, you can bulk import hardware assets and models in both the Enterprise Asset Workspace and the OT Asset Workspace only if the OT entity column is marked as **TRUE**. With the **Parent asset attribute** field, you can choose to identify the parent of a child asset using either the Asset tag, Serial number, or MAC address.
 
-    To view instructions for bulk importing assets, select the **Bulk import instructions** icon \[\[Omitted image "bulk-imp-instructions-icon.png"\] Alt text: Import instructions\] on the contextual side bar.
+    To view instructions for bulk importing assets, select the Bulk import instructions icon \[Omitted image "bulk-imp-instructions-icon.png"\] Alt text: on the contextual side bar.
 
 -   [Asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
 
@@ -262,7 +262,7 @@ Hardware models and OT hardware assets are also integrated into the following En
     **Note:** Starting with the Zurich release, the Download template for Advanced Shipment Notification includes the **OT entity** column. When this column is set to **TRUE** for hardware models, it creates OT hardware assets in the OT Asset Workspace.
 
 -   [Asset audits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/audit-eam-assetinventory.md)
--   [Asset Total Cost of Ownership \(TCO\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/asset-tco-eam.md)
+-   [Total Cost of Ownership \(TCO\) for enterprise assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/confifure-eam-asset-tco.md)
 
     **Note:** You can create a TCO report using a hardware model as a benchmark model, by selecting **Hardware** in the Report table field and then selecting the required hardware model in the **Benchmark model** field.
 
@@ -270,7 +270,7 @@ Hardware models and OT hardware assets are also integrated into the following En
 
     **Note:** The **Begin lease-end process** option is available if the contract includes OT hardware assets.
 
--   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/risk-scoring-eam.md)
+-   [Risk](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/managing-eam-risk-scores.md)
 
     **Note:** The Enterprise asset risk heat map in the OT asset estate view and the Enterprise model risk heat map in the OT model management view also include hardware models with OT entity flag set to **TRUE**.
 
@@ -291,7 +291,7 @@ Furthermore, you can generate maintenance plans and work orders for OT hardware 
 
 All OT hardware assets are automatically tagged as an OT entity. When an OT hardware asset is sourced from an existing stockroom via a transfer order or from the local stockroom, the asset is automatically tagged as an OT entity. Similarly, during the receiving process of OT hardware assets procured via a purchase order, the asset is automatically tagged as an OT entity. The **OT entity** field appears in the Hardware asset form in OT asset estate view and is selected by default for all OT hardware assets.
 
-You can evaluate how effectively your assets are functioning and being used through the reports based on asset key performance indicators in the **Asset performance** tab of the **Asset analytics** view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the **Asset availability and related KPIs** icon \[\[Omitted image "asset-kpi-icon.png"\] Alt text: Asset KPI icon\].
+You can evaluate how effectively your assets are functioning and being used through the reports based on asset key performance indicators in the **Asset performance** tab of the **Asset analytics** view. The asset performance report is also available on the contextual sidebar of the asset record, displayed by selecting the Asset availability and related KPIs icon \[Omitted image "asset-kpi-icon.png"\] Alt text:.
 
 You can receive assets from any workﬂow directly at the stockroom using the unified receiving functionality in the OT asset Asset Workspace. You can receive assets in any of the following ways:
 
@@ -301,7 +301,7 @@ You can receive assets from any workﬂow directly at the stockroom using the un
 
 You can also manage supply and demand in your stockrooms effectively with inventory demand reports. To view the reports, follow these steps
 
-1.  Navigate to **Inventory**.
+1.  Navigate to the **Inventory** view.
 2.  Select the **All stockrooms** tab.
 3.  Select a stockroom for which you want to view the inventory reports.
 4.  Select the **Inventory insights** tab.
@@ -314,16 +314,18 @@ Consumables can be created in the OT Asset Workspace for hardware models, OT har
 -   For OT hardware assets: Create consumables from the Consumables tab in the OT asset estate view by selecting **Hardware asset** in the **Type** drop-down.
 -   For industrial assets: Create consumables from the Consumables tab in the OT asset estate view by selecting **Industrial asset** in the **Type** drop-down.
 
-Any consumable model that you create in the in the OT Asset Workspace, has the consumable model category.
+Any consumable model that you create in the OT Asset Workspace, has the consumable model category.
 
 **Parent Topic:**[OT Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/ot-asset-management.md)
 
 **Related topics**  
 
 
-[OT Asset Management licensing]()
+[Installing OT Asset Management]()
 
-[View the license report for the OT Asset Management application]()
+[Installed with OT Asset Management]()
+
+[OT Asset Management licensing]()
 
 [Asset and Configuration Item \(CI\) synchronization for Operational Technology \(OT\) assets]()
 

@@ -5,8 +5,8 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/using-voice-rtt.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Integrating ServiceNow Voice with CSM, Integrating Voice with other applications, ServiceNow Voice, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -48,10 +48,6 @@ Persona: Customer Service Agent.
 1.  Log in and open the Configurable Workspace.
 2.  Log in to Amazon Connect.
 3.  Set status to **Online**.
-4.  Open a contact record and click the phone icon next to the customer’s phone number.
-
-    **Note:** The real time transcription only works when you place the call using the "click to call" button.
-
 
 An interaction is created with the subject “outbound call to `<customer name>`”, and a chat panel opens with the transcript.
 

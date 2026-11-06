@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Use the Admin Center in Digital Portfolio Management, Configuring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Configure the Admin Center, Configure, Digital Portfolio Management, IT Service Management]
 ---
 
 # Configure personal portfolio solution cards in the DPM Admin Center
@@ -34,10 +34,10 @@ You can configure the personal portfolio solution card fields to display informa
 
     -   Service
     -   Business service
-    -   Technical service
+    -   Technology management service
     -   Service offering
     -   Business application
-    -   Application service
+    -   Service instance
 3.  Select **Configure** for the card that you want to configure.
 
     You must be in the correct application scope to edit the record. If you're in a different scope, then a text banner displays for you to select a link to edit the record.

@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Case task workflow, Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -38,15 +38,15 @@ If a case task is of type **Assessment**, a case requires the case task owner to
 
 6.  Depending on your case task type, perform the following steps.
 
-<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d83231e130">
+<table id="choicetable_ehd_gyn_pvb"><thead><tr><th align="left" id="d64020e127">
 
 Choice
 
-</th><th align="left" id="d83231e133">
+</th><th align="left" id="d64020e130">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d83231e139">
+</th></tr></thead><tbody><tr><td id="d64020e136">
 
 **If the task is of type Assessment**
 
@@ -58,7 +58,7 @@ Steps
 4.  Save the **Save**.
 
 
-</td></tr><tr><td id="d83231e172">
+</td></tr><tr><td id="d64020e169">
 
 **If the task is of type Investigation or Others**
 
@@ -76,7 +76,7 @@ Steps
 ## What to do next
 
 1.  [Create or manage an information object within a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/create-manage-io-on-pa.md).
-2.  [Add key stakeholders and send privacy assessments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
+2.  [Add key stakeholders to a processing activity](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-stakeholders-to-a-pa.md).
 3.  [Add impacted areas to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-impacted-areas.md).
 4.  [Add related areas to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-related-areas.md).
 5.  [Add causes and consequences to a case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/privacy-workspace/add-causes-consequences.md).

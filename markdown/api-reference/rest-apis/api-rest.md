@@ -7,8 +7,8 @@ release: yokohama
 product: REST APIs
 classification: rest-apis
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 14
+last_updated: "2026-09-10"
+reading_time_minutes: 17
 breadcrumb: [API reference, API implementation and reference]
 ---
 
@@ -28,6 +28,8 @@ The Agent Mapping API provides an endpoint to map external agent IDs from Contac
 The Aggregate API provides endpoints that allow you to compute aggregate statistics about existing table and column data.
 -   **[AI Assets API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ai-assets-api.md)**  
 AI Assets API provides endpoints to retrieve, update, and create several types of AI assets, such as systems, data sets, prompts, and models.
+-   **[AI Assets Inventory API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ai-assets-inventory-api.md)**  
+The AI Assets Inventory APIs provide programmatic access to AI assets managed under the AI Control Tower application.
 -   **[AI Search External User Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ext-user-mapping-api.md)**  
 The AI Search External User Mapping API provides endpoints that enable ingestion of user mapping information from external sources into the ServiceNow® AI Search application's index.
 -   **[Alarm Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/alarm-open-api.md)**  
@@ -40,6 +42,8 @@ The Application Service API provides endpoints that enable you to create, modify
 The Appointment API provides endpoints for interacting with the appointment booking application. Use this API to book and reschedule appointments, check available appointment slots, and fetch appointment booking configuration details.
 -   **[Appointment Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/appointment-open-api.md)**  
 The Appointment Open API is a telecommunication API that allows you to interact with the appointment booking application. Use this API to book appointments and search available time slots.
+-   **[ATF Code Coverage API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/atf-code-coverage-api.md)**  
+The ATF Code Coverage API provides endpoints to compute code coverage from Automated Test Framework \(ATF\) runs. Coverage can be retrieved by filtered line numbers, for specific script IDs, or for all scripts covered by a set of test suite/test runs.
 -   **[Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_AttachmentAPI.md)**  
 The Attachment API provides endpoints that allow you to upload and query file attachments.
 -   **[Automation Center API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/auto-api.md)**  
@@ -102,18 +106,30 @@ The Contact API provides endpoints that enable you to retrieve and update Custom
 The CICD API provides endpoints that enable integration with common DevOps tools for building pipelines. These tools include Jenkins, Azure Pipelines, GitLab, GitHub Actions, Atlassian Bamboo/Pipelines, and more.
 -   **[Continuous Integration and Continuous Delivery \(CICD\) Update Set API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cicd-update-set-api.md)**  
 The CICD Update Set API provides methods to create, retrieve, preview, commit, and back-out an update set.
+-   **[Conversation Member API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/conversation-member-api.md)**  
+The Conversation Member API provides methods for changing a specific agent’s member state to removed or updated in a given Agent Chat conversation.
+-   **[Copy Assessments API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/copy-assessments-api.md)**  
+The Copy Assessments API provides an endpoint to create a copy of an assessment metric type or survey definition in the Assessment Metric Type \[asmt\_metric\_type\] table.
 -   **[CSM Attachment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/attachment_csm-api.md)**  
 The CSM Attachment API provides endpoints that allow both internal and external users to upload, download, and remove attachments associated with a table and to retrieve attachment metadata.
 -   **[CTI API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cti-api.md)**  
 The CTI API provides endpoints that enable Computer Telephony Integration \(CTI\) providers to interact with the Cloud Call Center framework.
+-   **[Custom Connector Gateway API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/custom-connector-gateway-api.md)**  
+The Custom Connector Gateway \(XCC\) API provides an asynchronous ingest endpoint.
 -   **[Customer Central API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/cust_central-api.md)**  
 The Customer Central API provides endpoints to access customer information and configuration details.
 -   **[Data Classification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/data-classification-api.md)**  
 The Data Classification API provides endpoints to group data by type.
+-   **[DCIM Metric Data Feed API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/dcim-metric-data-feed-api.md)**  
+The DCIM Metric Data Feed API provides an endpoint to accept Data Center Infrastructure Management \(DCIM\) metric data from an external system and store the data in a MetricBase database.
+-   **[Developer Sandbox Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/developer-sandbox-management-api.md)**  
+The Developer Sandbox Management API provides endpoints to create, list, retrieve, and destroy developer sandboxes, and to check the status of sandbox lifecycle operations.
 -   **[DevOps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/devops-api.md)**  
 The DevOps API provides endpoints that enable interaction with external DevOps tools.
 -   **[DevOps Config API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/devops-config-api.md)**  
 The DevOps Config API provides endpoints to manage your applications.
+-   **[Digital Product Release API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/digital-product-release-api.md)**  
+The Digital Product Release API provides endpoints to manage releases and policy compliance.
 -   **[Email API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/email-api.md)**  
 The Email API provides endpoints that enable you to receive and send email messages using REST.
 -   **[Entitlement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/entitlement-api.md)**  
@@ -124,6 +140,12 @@ The Event Management Topic Open API provides an endpoint that enables you to sen
 The Event Notification Management Open API provides an endpoint to create, update, and delete events from the Events \[em\_event\] table.
 -   **[External Content Ingestion API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/external-content-ingestion-api.md)**  
 The External Content Ingestion API provides endpoints that enable ingestion of content from sources outside of your ServiceNow® instance into the ServiceNow® AI Search application's index.
+-   **[External ID Mapping API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/external-id-mapping-api.md)**  
+Enables external Contact Center as a Service \(CCaaS\) platforms to store and retrieve routing identifiers for ServiceNow records.
+-   **[Help Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/help-request-api.md)**  
+The Help Request API provides an endpoint to track supervisor help actions.
+-   **[HL7 Inbound API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/hl7-inbound-api.md)**  
+The HL7 Inbound API receives inbound HL7 v2.x ADT messages from EHR systems over HTTP and returns standard HL7 acknowledgment responses. It implements the HAPI HL7-over-HTTP convention, accepting raw pipe-delimited ER7 message bodies and processing them against configured parser profiles.
 -   **[HR REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/hr-core-api.md)**  
 The HR REST API provides endpoints that return information about employees that work or live in the United States.
 -   **[Identification and Reconciliation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_IdentifyReconcileAPI.md)**  
@@ -132,24 +154,34 @@ The Identification and Reconciliation API provides endpoints that use the Identi
 The Import Set API provides endpoints that allow you to interact with import set tables.
 -   **[Install Base Item API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/integrations-api.md)**  
 The Install Base Item API provides endpoints to access and manage install base items records within a ServiceNow instance.
+-   **[Interaction Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/interaction-management-api.md)**  
+The Interaction Management API provides endpoints to create interactions.
 -   **[Knowledge Management REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/knowledge-api.md)**  
 The Knowledge Management API provides endpoints for searching, viewing, and fetching lists of the most-viewed and featured knowledge articles.
 -   **[lead API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/lead-api.md)**  
 The lead API provides endpoints that enable you to create, update, and query/retrieve marketing leads and their associated lead line items from an instance.
 -   **[MetricBase Time Series API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/Clotho-Time-Series-API.md)**  
 The MetricBase Time Series API provides endpoints to insert data into, retrieve information from, and to run transforms against a MetricBase database.
+-   **[Omichannel Callback API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/omichannel-callback-api.md)**  
+The Omnichannel Callback API provides methods for creating, updating, and initiating a callback request for live agent conversations.
 -   **[openframe API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/openframe-api.md)**  
 The openframe API provides endpoints that provide Contact Center as a Service \(CCaaS\) the ability to create and update interaction records without using the Operation Handler.
 -   **[Order API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/order_csm-api.md)**  
 The Order API provides endpoints for retrieving and creating orders with order line items for the Customer Service Management application.
+-   **[Party Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf-party-management-open-api.md)**  
+The Party Management Open API provides endpoints for managing parties with a relationship to the enterprise, like a consumer, account, or contact. Use this API to create, update, and retrieve data from the Consumer \[csm\_consumer\], Account \[customer\_account\], and Contact \[customer\_contact\] tables.
 -   **[Predictive Intelligence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/agent-intelligence-api.md)**  
 The Predictive Intelligence API provides endpoints that predict a field value based on one or more input fields and a trained solution.
 -   **[Proactive Engagement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/proactive-engagement-api.md)**  
 The Proactive Engagement API provides an endpoint for creating digital experience issues.
 -   **[Product Catalog Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-catalog-open-api.md)**  
 The Product Catalog Open API provides endpoints to create and retrieve product catalogs, product offerings, and product specifications.
+-   **[Product Catalog Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-catalog-search-api.md)**  
+The Product Catalog Search API searches the product catalog and retrieves the eligible catalog-category hierarchy for a given context. Search supports multiple catalog types, with paginated and sortable results.
 -   **[Product Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-inventory-open-api.md)**  
 The Product Inventory Open API provides endpoints to create and retrieve product inventories.
+-   **[Product Offering Qualification API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/product-offering-qualification-api.md)**  
+The Product Offering Qualification API determines eligibility for product offerings in the ServiceNow® product catalog, scoped to a customer account, sales channel, and geographic location. Implements the TM Forum TMF679 standard.
 -   **[Product Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tmf622_product_ordering-api.md)**  
 The Product Order Open API provides endpoints that enable a standardized mechanism for placing product orders.
 -   **[Project Portfolio Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/ppm-api.md)**  
@@ -158,6 +190,10 @@ The Project Portfolio Management API provides endpoints to bulk import cost plan
 The Push Installation API provides endpoints to register and unregister the tokens that enable mobile devices to receive push notifications from an application.
 -   **[Push Metrics API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/push-metrics-MID-server.md)**  
 The Push Metrics API provides endpoints that enable you to push raw Metric Intelligence data from an external source to the MID Server.
+-   **[Quote Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/quote-management-api.md)**  
+The Quote Management API provides endpoints to create, update, and retrieve customer quote data.
+-   **[Reassign Assessment API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/reassign-assessment-api.md)**  
+The Reassign Assessment API provides an endpoint to reassign an assessment instance to a different user.
 -   **[Remote help request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/remote_help_request-api.md)**  
 The Remote help request API provides endpoints to create, view, and fetch lists of IT service requests and their details from an electronic medical record \(EMR\) system. An IT service request is associated with a task type such as an incident in the ServiceNow instance.
 -   **[Resource Inventory Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/resource-inventory-api.md)**  
@@ -166,8 +202,16 @@ The Resource Inventory Open API provides endpoints to create, retrieve, and dele
 The Response Templates API provides endpoints to handle records in the Response Templates \[sn\_templated\_snip\_note\_template\] table.
 -   **[Sales Agreement API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sales_agreement-api.md)**  
 The Sales Agreement API provides methods for creating a new sales agreement and retrieving an existing sales agreement of a given sys\_id.
+-   **[Sales Cart REST API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sales-cart-api.md)**  
+The Sales Cart REST API gives an external system programmatic control of a ServiceNow sales cart. Operations include creating a cart and its line items, reading a cart or line item, removing a cart or line item, and submitting a cart. Submitting a cart causes Order Management to convert it into an order.
+-   **[Sales CRM Pricing API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sales-crm-pricing-api.md)**  
+The Sales CRM Pricing API provides methods to calculate prices for transaction lines containing products.
 -   **[SAM-Software Usage Data Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sam_soft_us_int-api.md)**  
 The SAM-Software Usage Data Integration API provides endpoints to create and update records in the Software Usage \[samp\_sw\_usage\] table.
+-   **[SAP SuccessFactors XCC](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sap-successfactors-xcc-api.md)**  
+The SAP SuccessFactors XCC API.
+-   **[Schema Registry API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/schema_registry-api.md)**  
+Use the Schema Registry API to retrieve Avro schemas generated by Stream Connect, along with their subject and version history.
 -   **[Scorecards API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/c_PerformanceAnalyticsAPI.md)**  
 The Scorecards API provides endpoints that enable you to query data about Performance Analytics indicators. The query parameters equate to the functions available on the Analytics Hub for drilling down into an indicator.
 -   **[Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/scriptdebugger-api.md)**  
@@ -179,7 +223,7 @@ The Service Catalog Open API provides endpoints to create and retrieve service s
 -   **[Service Contract API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/servicecontract-api.md)**  
 The Service Contract API provides endpoints to create and retrieve service contract records.
 -   **[Service Order Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-order-open-api.md)**  
-The Service Order Open API provides endpoint that enable a standardized mechanism for placing service orders.
+The Service Order Open API provides endpoints that enable a standardized mechanism for placing service orders.
 -   **[Service Test Management Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/service-test-management-api.md)**  
 The Service Test Management Open API provides endpoints to create and retrieve service test definitions and service tests.
 -   **[SG Services API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/sg_services-api.md)**  
@@ -201,21 +245,25 @@ Enables external systems to share threat intelligence data with the Threat Intel
 -   **[TISC RPZ API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/tisc-rpz-api.md)**  
 The TISC RPZ API provides an endpoint to export domains and IP addresses in Response Policy Zone \(RPZ\) format.
 -   **[TISC TAXII Server API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/taxii-server-api.md)**  
-Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server endpoints for sharing threat intelligence data in Threat Intelligence Security Center \(TISC\) from one ServiceNow instance to another.
+Provides Trusted Automated Exchange of Intelligence Information \(TAXII\) server endpoints for sharing threat intelligence data in Threat Intelligence Security Center \(TISC\).
 -   **[Trouble Ticket Open API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/trouble-ticket-open-api.md)**  
-The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\] and Incident \[incident\] tables.
+The Trouble Ticket Open API provides endpoints to create, update, and retrieve data from the Case \[sn\_customerservice\_case\], Incident \[incident\], and Service Problem Case \[sn\_sprb\_mgmt\_case\] tables.
 -   **[User Role Inheritance API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/user-role-inheritance-api.md)**  
 The User Role Inheritance API provides endpoints that allow you to see the roles that a specific user inherited.
+-   **[UXA Data Export Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/usage-insight-data-exp-api.md)**  
+The UXA Data Export Service API provides an endpoint to asynchronously export user experience analytics \(UXA\) data. The data export result is delivered in batches to a dedicated Hermes topic for your ServiceNow instance.
 -   **[Verify Entitlements API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/verifyentitlements-api.md)**  
 The Verify Entitlements API provides endpoints that enable you to obtain a list of valid entitlements, details about the characteristics of entitlements, and an entitlement's latest usage information.
 -   **[Virtual Agent Bot Integration API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/bot-api.md)**  
 The Virtual Agent Bot Integration API provides endpoints that allow users to integrate any chat interface or a bot ecosystem with the ServiceNow Virtual Agent and/or Live Agent.
 -   **[Voice Interaction Resource API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/voice-interaction-resource-api.md)**  
 The Voice Interaction API provides endpoints to transcribe and store voice interactions between agents and callers during a telephone conversation. It works in conjunction with Virtual Agent and Live Agent chats.
+-   **[Work Order Management API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/work-order-mgmt-api.md)**  
+The Work Order Management API provides endpoints to create, update, and retrieve work orders.
 -   **[Workplace Connector Webhook API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/workplace_connector_webhook-api.md)**  
 The Workplace Connector Webhook API is a generic interface that enables data from different kinds of workplace hardware or sensors \(such as badging systems or occupancy sensors\) to be stored in Workplace Service Delivery tables.
 -   **[Wrap Up API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wrap-up-api.md)**  
-Provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
+The Wrap Up API provides endpoints for managing wrap-up functionality for external Contact Center as a Service \(CCaaS\) systems or ServiceNow AI Platform workspaces.
 -   **[WSD Extra Service API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_extra_service-api.md)**  
 The Workplace Service Delivery \(WSD\) Extra Service API provides endpoints to retrieve extra services, such as location layouts and standard services of a workplace location.
 -   **[WSD Extra Service Request API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_extra_serv_req-api.md)**  
@@ -224,6 +272,8 @@ The Workplace Service Delivery \(WSD\) Extra Service Request API provides endpoi
 The Workplace Service Delivery \(WSD\) Group Reservation API provides endpoints for managing group reservations.
 -   **[WSD Multi Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_multi_reserv-api.md)**  
 The Workplace Service Delivery \(WSD\) Multi Reservation API provides endpoints for managing reservations with multiple workplace locations.
+-   **[WSD Presence API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_presence-api.md)**  
+The WSD Presence API enables users to manage their in-office presence schedule, including weekly routines, one-time exceptions, and collaborator visibility.
 -   **[WSD Recurring Reservation API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_recur_reserv-api.md)**  
 The Workplace Service Delivery \(WSD\) Recurring Reservation API provides endpoints for managing reservations that occur at the same time, but have different dates.
 -   **[WSD Reservable API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_reservable-api.md)**  
@@ -240,6 +290,10 @@ The Workplace Service Delivery \(WSD\) Reservation Invitees API provides endpoin
 The Workplace Service Delivery \(WSD\) Search API provides endpoints to search for available locations and workplace items such as reservables, reservable modules, and available shifts.
 -   **[WSD Shift API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_shift-api.md)**  
 The Workplace Service Delivery \(WSD\) Shift API provides an endpoint that returns shift time spans for a specified date and time.
+-   **[WSD Unified Search API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_unified-search-api.md)**  
+The WSD Unified Search API provides an endpoint to search across workplace users and locations.
+-   **[WSD User API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/rest-apis/wsd_user-api.md)**  
+The WSD User API is a Scripted REST API which returns the authenticated user's workplace context, including their assigned workspace location, in-office presence schedule, collaborators, and past and future reservations.
 
 **Parent Topic:**[API reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/api-reference/api-reference.md)
 

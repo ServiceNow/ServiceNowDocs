@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/components-installed-with-the-financial-services-operations-integration-with-visa.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Financial Services Operations Integration with Visa reference, Integrating with Visa, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-18"
+reading_time_minutes: 5
+breadcrumb: [Components installed, Reference, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
 
 # Financial Services Operations Integration with Visa subflows
@@ -16,187 +16,50 @@ You can use the following Financial Services Operations Integration with Visa ap
 
 ## Financial Services Operations Integration with Visa subflows
 
-**Note:** Use the decision table and Visa Token Service template to integrate your chosen Token Provider with Visa Integration subflows. This integration enables you to access Visa APIs, which might contain sensitive information. Make sure to use the subflow template for your Token Provider. This confirms that you detokenize data before sending requests to Visa and tokenize data after receiving responses, for a smooth integration with ServiceNow.
-
-<table id="rpa-subflow"><thead><tr><th>
-
-Subflow
-
-</th><th>
-
-Description
-
-</th></tr></thead><tbody><tr><td>
-
-Create Case from Transaction
-
-</td><td>
-
-Enables you to create a case in Visa Resolve Online \(VROL\) from a transaction.
-
-</td></tr><tr><td>
-
-Change Dispute Status
-
-</td><td>
-
-Enables you to recall a submitted dispute item or delete a saved dispute item.
-
-</td></tr><tr><td>
-
-Initiate Dispute from Transaction or Case
-
-</td><td>
-
-Enables you to initiate a dispute in VROL from a transaction or from an existing Visa case.
-
-</td></tr><tr><td>
-
-Submit Dispute Questionnaire
-
-</td><td>
-
-Enables you to submit or save the dispute questionnaire in VROL.
-
-</td></tr><tr><td>
-
-Look up Associated Transactions
-
-</td><td>
-
-Enables you to retrieve a list of associated transactions for the disputed transaction in the Dispute stage.
-
-</td></tr><tr><td>
-
-Select Associated Transactions
-
-</td><td>
-
-Enables you to associate related transactions to the disputed transaction.
-
-</td></tr><tr><td>
-
-Submit Transaction Inquiry
-
-</td><td>
-
-Enables you to search for transactions using specific criteria. To confirm seamless integration, must have a tokenization solution. To create a subflow that aligns with the tokenization mechanism and use the recommended Visa Token Service template, configuring it in a decision table.
-
-</td></tr><tr><td>
-
-Look Up Transaction Inquiry Results
-
-</td><td>
-
-Enables you to search for transaction information using TIEventID. If Submit Transaction Inquiry gets an asynchronous response, it generates a TIEventID. This ID is then used to call the subflow and retrieve the original transaction details.
-
-</td></tr><tr><td>
-
-Accept dispute
-
-</td><td>
-
-Accepts the dispute liability or accepts the other side's decision, and removes the dispute transaction from the queue.
-
-</td></tr><tr><td>
-
-Cardholder Purchase Inquiry
-
-</td><td>
-
-Enables you to request purchase information and additional merchant information regarding a transaction by supplying TransactionID.
-
-</td></tr><tr><td>
-
-Look Up Transaction Details
-
-</td><td>
-
-Enables you to retrieve detailed transaction data using RolTransactionId.
-
-</td></tr><tr><td>
-
-Look up Dispute Response Details
-
-</td><td>
-
-Enables you to retrieve the details of a submitted or received dispute response.
-
-</td></tr><tr><td>
-
-Create Dispute Pre Arbitration
-
-</td><td>
-
-Enables you to create a pre-arbitration in VROL.
-
-</td></tr><tr><td>
-
-Create Dispute Pre Arbitration Response
-
-</td><td>
-
-Enables you to create a pre-arbitration response in allocation for the pre-arbitration initiated by the acquirer.
-
-</td></tr><tr><td>
-
-Look up Dispute Pre Arbitration Details
-
-</td><td>
-
-Enables you to retrieve the pre-arbitration details.
-
-</td></tr><tr><td>
-
-Look up Dispute Pre Arbitration Response Details
-
-</td><td>
-
-Enables you to retrieve details of a submitted or received pre-arbitration response.
-
-</td></tr><tr><td>
-
-Submit Dispute Filing
-
-</td><td>
-
-Enables you to submit a dispute for arbitration, or to appeal, or withdrawal of arbitration in VROL.
-
-</td></tr><tr><td>
-
-Look up Dispute Filing Details
-
-</td><td>
-
-Enables you to retrieve the details of a dispute case filing request, appeal, or withdrawal request.
-
-</td></tr><tr><td>
-
-Batch Queues Flows Adapter
-
-</td><td>
-
-Includes all batch queue processes.
-
-</td></tr><tr><td>
-
-Mark Batch Queue Item as Read
-
-</td><td>
-
-Marks transactions as read, removing them from the Real-time Systems Interface \(RTSI\) Batch Queue.
-
-</td></tr></tbody>
-</table>## Batch queue processing and scheduling
-
-Batch queues are scheduled jobs. They don't run based on user actions; instead, they execute at predefined time intervals. The **Visa Queue Scheduler Flow** manages it when this job is scheduled to run. By default, the Visa Queue Scheduler Flow is inactive. You must activate this flow to enable batch queue subflows to run at their scheduled intervals.
-
-|Batch Queue|Description|
-|-----------|-----------|
-|Process Awaiting Action Disputes Batch Queue|The acquirer provides a dispute response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|
-|Process Incoming Pre-Arbitration Batch Queue|The acquirer submits a pre-arbitration request or response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|
-|Process Incoming Arbitration Batch Queue|The acquirer initiates an arbitration request, or the issuer submits an arbitration and receives an acknowledgment or decision from VISA, which places the case in this queue.|
-|Processes Incoming Recall Batch Queue|The acquirer processes recalls at various stages, including dispute response, pre-arbitration, and pre-arbitration response, which places the VISA case in this queue. Processing this batch queue alerts the FSO case with the received response.|
-
-**Parent Topic:**[Financial Services Operations Integration with Visa reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-integration-with-visa-reference.md)
+**Note:**
+
+-   Use the decision table and Visa Token Service template to integrate your chosen Token Provider with Visa Integration subflows. This integration enables you to access Visa APIs, which might contain sensitive information. Make sure to use the subflow template for your Token Provider. This confirms that you detokenize data before sending requests to Visa and tokenize data after receiving responses, for a smooth integration with ServiceNow.
+-   All VROL RTSI REST operations use HTTP POST. Subflows in Stage 1 \(Pre-Dispute\) that use Transaction Inquiry use the TI service URL base \(/rsrv\_rolti/\); all others use the SI service URL base \(/rsrv\_rolsi/\). Production base: https://vrolgateway.visa.com \| MTE2 base: https://mte-vrolgateway.visa.com Definitive per-operation HTTP methods and exact paths are specified in the WADL files available via MTE2.
+
+|**Dispute Stage**|**Subflow Name**|**Description**|**RTSI Operation Name**|**API Endpoint**|
+|-----------------|----------------|---------------|-----------------------|----------------|
+|Stage 1: Pre-Dispute|Submit Transaction Inquiry|Enables you to search for transactions using specific criteria. Requires a tokenization solution \(Refer to the note on Token Provider in the beginning of this section\).|`SISubmitTranInquiryRequest`|`/rsrv_rolti/api/SISubmitTranInquiry`|
+|Stage 1: Pre-Dispute|Look Up Transaction Inquiry Results|Retrieves async TI results using the TIEventID generated by Submit Transaction Inquiry.|`SIGetTransInquiryResultsRequest`|`/rsrv_rolti/api/SIGetTransInquiryResults`|
+|Stage 1: Pre-Dispute|Look Up Transaction Details|Enables you to retrieve detailed transaction data using RolTransactionId.|`SIGetTransDetailsRequest`|`/rsrv_rolti/api/SIGetTransDetails`|
+|Stage 1: Pre-Dispute|Look up Associated Transactions|Enables you to retrieve a list of associated transactions for the disputed transaction in the Dispute stage.|`SIGetAssociatedTransactionListRequest`|`/rsrv_rolti/api/SIGetAssociatedTransactionList`|
+|Stage 1: Pre-Dispute|Select Associated Transactions|Enables you to associate related transactions to the disputed transaction.|`SIAssociatedTranSelectionRequest`|`/rsrv_rolti/api/SIAssociatedTranSelection`|
+|Stage 1: Pre-Dispute|Cardholder Purchase Inquiry|Enables you to request purchase information and additional merchant information regarding a transaction by supplying TransactionID.|`SISubmitPurchaseInquiryRequest`|`/rsrv_rolsi/api/SISubmitPurchaseInquiry`|
+|Stage 2: Case Creation|Create Case from Transaction|Enables you to create a case in Visa Resolve Online \(VROL\) from a transaction.|`SICreateCaseFromTransactionRequest`|`/rsrv_rolsi/api/SICreateCaseFromTransaction`|
+|Stage 3: Dispute|Initiate Dispute from Transaction or Case|Enables you to initiate a dispute in VROL from a transaction or from an existing Visa case.|`SIInitiateDisputeFromTransactionOrCaseRequest`|`/rsrv_rolsi/api/SIInitiateDisputeFromTransactionOrCase`|
+|Stage 3: Dispute|Submit Dispute Questionnaire|Enables you to submit or save the dispute questionnaire in VROL.|`SISubmitDisputeQuestionnaireRequest`|`/rsrv_rolsi/api/SISubmitDisputeQuestionnaire`|
+|Stage 3: Dispute|Look up Dispute Response Details|Enables you to retrieve the details of a submitted or received dispute response.|`SIGetDisputeResponseDetailsRequest`|`/rsrv_rolsi/api/SIGetDisputeResponseDetails`|
+|Stage 3: Dispute|Accept Dispute|Accepts the dispute liability or the other side's decision, and removes the dispute transaction from the queue.|`SIAcceptDisputeRequest`|`/rsrv_rolsi/api/SIAcceptDispute`|
+|Stage 3: Dispute|Change Dispute Status|Enables you to recall a submitted dispute item or delete a saved dispute item.|`SIChangeDisputeStatusRequest`|`/rsrv_rolsi/api/SIChangeDisputeStatus`|
+|Stage 4: Pre-Arbitration|Create Dispute Pre Arbitration|Enables you to create a pre-arbitration in VROL.|`SICreateDisputePreArbRequest`|`/rsrv_rolsi/api/SICreateDisputePreArb`|
+|Stage 4: Pre-Arbitration|Create Dispute Pre Arbitration Response|Enables you to create a pre-arbitration response in allocation for the pre-arbitration initiated by the acquirer.|`SICreateDisputePreArbResponseRequest`|`/rsrv_rolsi/api/SICreateDisputePreArbResponse`|
+|Stage 4: Pre-Arbitration|Look up Dispute Pre Arbitration Details|Enables you to retrieve the pre-arbitration details.|`SIGetDisputePreArbDetailsRequest`|`/rsrv_rolsi/api/SIGetDisputePreArbDetails`|
+|Stage 4: Pre-Arbitration|Look up Dispute Pre Arbitration Response Details|Enables you to retrieve details of a submitted or received pre-arbitration response.|`SIGetDisputePreArbResponseDetailsRequest`|`/rsrv_rolsi/api/SIGetDisputePreArbResponseDetails`|
+|Stage 5: Case Filing|Submit Dispute Filing|Enables you to submit a dispute for arbitration, or to appeal, or withdrawal of arbitration in VROL.|`SISubmitDisputeFilingRequest`|`/rsrv_rolsi/api/SISubmitDisputeFiling`|
+|Stage 5: Case Filing|Look up Dispute Filing Details|Enables you to retrieve the details of a dispute case filing request, appeal, or withdrawal request.|`SIGetDisputeFilingDetailsRequest`|`/rsrv_rolsi/api/SIGetDisputeFilingDetails`|
+|Batch Queues|Batch Queues Flows Adapter|Adapter that includes all batch queue processes. See the following Batch Queue APIs section for the individual queue types.|`SIGetBatchQueueRequest`|`/rsrv_rolsi/api/SIGetBatchQueue`|
+|Batch Queues|Mark Batch Queue Item as Read|Marks transactions as read, removing them from the real-time Systems Interface \(RTSI\) Batch Queue.|`SIMarkBatchQueueItemAsReadRequest`|`/rsrv_rolsi/api/SIMarkBatchQueueItemAsRead`|
+
+## Batch queue APIs processing and scheduling
+
+Financial Services Operations Integration with Visa subflows use batch queue APIs to process the dispute data on a set schedule that run at predefined time intervals, not based on user actions. You can set up and manage when batch queue API subflows run with the**Visa Queue Scheduler Flow**. By default, the Visa Queue Scheduler Flow is turned off. To start using it, activate the flow and choose how often you want the batch queue API subflows to run.
+
+Four of the following batch queue subflows are dispatched by the Batch Queues Flows Adapter; the fifth, Process Incoming Acceptance Batch Queue, is polled as a separate subflow. All five call the same RTSI operation \(SIGetBatchQueueRequest\). The BatchQueueType parameter in the request body determines which queue is polled, and SIMarkBatchQueueItemAsReadRequest \(/rsrv\_rolsi/api/SIMarkBatchQueueItemAsRead\) is called afterward to remove items from the queue.
+
+|**Batch Queue Subflow**|**Description**|**BatchQueueType Parameter**|**API Endpoint**|
+|-----------------------|---------------|----------------------------|----------------|
+|Process Awaiting Action Disputes Batch Queue|The acquirer provides a dispute response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|`AWAITING_ACTION_BQ_DISPUTE`|`/rsrv_rolsi/api/SIGetBatchQueue`|
+|Process Incoming Pre-Arbitration Batch Queue|The acquirer submits a pre-arbitration request or response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|`INCOMING_BQ_PREARBITRATIONS`|`/rsrv_rolsi/api/SIGetBatchQueue`|
+|Process Incoming Arbitration Batch Queue|The acquirer initiates an arbitration request, or the issuer submits an arbitration and receives an acknowledgment or decision from Visa, which places the case in this queue.|`INCOMING_BQ_ARBITRATIONS`|`/rsrv_rolsi/api/SIGetBatchQueue`|
+|Processes Incoming Recall Batch Queue|The acquirer processes recalls at various stages, including dispute response, pre-arbitration, and pre-arbitration response, which places the Visa case in this queue. Processing this batch queue alerts the FSO case with the received response.|`INCOMING_BQ_RECALLS`|`/rsrv_rolsi/api/SIGetBatchQueue`|
+|Process Incoming Acceptance Batch Queue|The acquirer accepts full liability on an issuer's chargeback \(at the Initiate Chargeback task\) or on a pre-arbitration filed by the issuer \(at the Pre-Arbitration Response task\). These scenarios place the Visa case in this queue. Processing this batch queue plugs the acceptance into the corresponding task. This subflow is not orchestrated by the Batch Queues Flows Adapter; it is polled as a separate subflow.|`INCOMING_BQ_ACCEPTANCES_RECEIVED`|`/rsrv_rolsi/api/SIGetBatchQueue`|
+
+-   **[Visa batch queue processing and scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/visa-batch-queue-processing-and-scheduling.md)**  
+Financial Services Operations Integration with Visa subflows use VROL RTSI batch queue APIs to process incoming dispute data on a scheduled basis. Unlike real-time subflows that execute in response to user actions, batch queue processing runs on a predefined schedule to poll VROL for new incoming items across the dispute lifecycle.
+
+**Parent Topic:**[Components installed with Financial Services Operations Integration with Visa](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/financial-services-operations-integration-with-visa-reference.md)
 

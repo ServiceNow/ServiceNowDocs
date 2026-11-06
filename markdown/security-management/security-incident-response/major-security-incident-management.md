@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Explore, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Explore, Major Security Incident Management, Security Incident Resp
 
 Track and manage various activities that are typically part of resolving a major security incident through Major Security Incident Management. Through an intuitive workspace, incident managers and those working on an incident can propose and promote incidents to major incidents, track major security incident activities, and easily collaborate with colleagues.
 
-## Overview
+## Major Security Incident Management Overview
 
 The major security incident management capabilities work in conjunction with the existing security incident response product capabilities. This includes an ability for a security analyst to escalate a standard security incident to a major security incident, so that the new product capabilities are available to support the remediation process.
 

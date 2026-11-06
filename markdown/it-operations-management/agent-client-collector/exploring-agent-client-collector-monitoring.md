@@ -7,7 +7,7 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Agent Client Collector Monitoring, Agent Client Collector, IT Operations Management]
 ---
@@ -18,7 +18,7 @@ Agent Client Collector Monitoring is built on a Sensu framework which enables yo
 
 ## Agent Client Collector Monitoring overview
 
-Checks and policies run on the agent’s client to retrieve the relevant data, which is transformed into events or metrics, as appropriate. Events and metrics are sent from the agent to your ServiceNow instance through a Metric Intelligence MID Server and are stored in the relevant database. A single MID Server can support multiple agents \(such as ACC-M and ACC-L\). For details on configuring the MID Server for Metric Intelligence, see [MID Server and MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
+Checks and policies run on the agent’s client to retrieve the relevant data, which is transformed into events or metrics, as appropriate. Events and metrics are sent from the agent to your ServiceNow instance through a Metric Intelligence MID Server and are stored in the relevant database. A single MID Server can support multiple agents \(such as ACC-M and ACC-L\). For details on configuring the MID Server for Metric Intelligence, see [MID Server distributed cluster for Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/metric-intelligence/ops-intelligence-mid-server.md).
 
 Agent Client Collector Monitoring comes with the Event Management plugin and also requires installing the request Metricbase \(Clotho DB\), as described in [How to request Metricbase \(Clotho DB\) configuration \(KB0816088\)](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0816088).
 

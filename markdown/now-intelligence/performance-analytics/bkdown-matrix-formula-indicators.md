@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Formula indicators, Indicators, Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Formula indicators, Indicators, Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Breakdown matrices in formula indicators
@@ -18,7 +18,7 @@ Formula indicators inherit breakdown matrices from indicators in the formula.
 
 If all the indicators in the formula collect breakdown matrices, second-level breakdowns are available for the formula indicator. If none of the indicators in the formula collects breakdown matrices, second-level breakdowns are not available for the formula indicator. If only some of the indicators in the formula collect breakdown matrices, only those indicators can be broken down at a second level.
 
-## Formula with two [contributing indicators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/performance-analytics-glossary.md) where breakdown matrices are calculated for one or both indicators
+## Formula with two contributing indicators where breakdown matrices are calculated for one or both indicators
 
 Consider the case when breakdown matrices are collected for the indicators 'Summed age of open incidents' and 'Number of open incidents.' You now create an indicator with the following formula:
 

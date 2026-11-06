@@ -7,9 +7,9 @@ release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-07-07"
-reading_time_minutes: 9
-breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Reclaiming user subscriptions
@@ -99,45 +99,7 @@ Closed Canceled
 The user subscription hasn’t been reclaimed by the removal candidate because user activity is detected.
 
 </td></tr></tbody>
-</table>**Warning:** Make sure that users don't lose access to their files when their account is reclaimed. Users can't stop their account from being reclaimed unless the **Notify user** check box is selected on the reclamation rule.
-
--   Reclaiming an Adobe Cloud subscription removes the user's access to the application and the files that they have created.
--   Reclaiming an Adobe Workfront account removes the user's access to your Workfront application. The user is no longer allowed to sign in.
--   Reclaiming an Aha! account deactivates the account so that you can't log in to the Aha! portal.
--   Reclaiming an Asana account deletes the user account. The user can no longer access the Asana projects or workspaces. Content that was created by the user remains accessible to other users and the Admin can reassign the tasks from the Asana dashboard.
--   Reclaiming a Box account deletes the account. All the files are moved into a folder in the Box admin account that authenticated the integration.
--   Reclaiming a Calendly account removes the account from your organization.
--   Reclaiming a Cisco Webex subscription removes the user's access to the specific product. The user can still access all other Cisco Webex products and the free licenses assigned.
--   Reclaiming a Confluence Cloud account removes the user from all associated Confluence groups. Although the user can no longer access the Confluence site, all content that was created by the user remains accessible to other users.
--   Reclaiming a Dropbox account deletes the account. All the files are moved into a folder in the Dropbox admin account that authenticated the integration. The name of the created folder is the deleted user's email address.
--   Reclaiming a Docusign account deletes the account. The Docusign admin can access the user's files through the Docusign admin portal.
--   Reclaiming a Google Workspace account deletes the account. All the files are moved from the Google Drive into a folder in the Google Workspace admin account that authenticated the integration. The name of the created folder is the deleted user's email address. All email messages are deleted when the account is reclaimed. To transfer email messages, use the Google data migration service before reclaiming the account.
--   Reclaiming a GitHub Enterprise Server account suspends the account. All issues, comments, repositories, gists, and other data that the user created is preserved.
-
-    Reclaiming a GitHub Enterprise Cloud account removes the account from all enterprise organizations. If you restore a user membership within three months of reclamation, the user's access to the private forks of your organization repositories is restored.
-
--   Reclaiming a product license from a GoTo user account removes the user's access to that product. Without a license, users can’t sign in to the product. If you reclaim all product licenses from a user account, the account is automatically suspended. Suspended users remain on the account but can't sign in to any products.
--   Reclaiming a Jira account removes the user from all the associated Jira groups. Although the user can no longer access the Jira site, all content that was created by the user remains accessible to other users.
--   Reclaiming a Looker account removes the user's access to Looker. Without an active account, the user can’t sign in to the Looker portal. The user’s usage history and personal content is retained.
--   Reclaiming a Microsoft 365 subscription removes the user's access to the application, associated plans, and services. If a user has access to an application through a group membership, reclaiming the subscription removes the user from the group and revokes access to the subscription and its associated plans.
--   Reclaiming a Microsoft Entra ID SSO application subscription removes the user's access to the application. If a user has access to an application through a group membership, you can't remove the group membership through reclamation. To reclaim the subscription, remove the user from the group in the Azure AD portal and then select **Close Complete**.
--   Reclaiming a Miro account removes the user's access to Miro. Without an active account, the user can’t sign in to the Miro portal.
--   Reclaiming an Okta SSO application subscription removes the user's access to the application. If a user has access to an application through a group membership, you can't remove the group membership through reclamation. To reclaim the subscription, remove the user from the group in the Okta Developer Console and then set the reclamation candidate state to **Close Complete**.
--   Reclaiming a PagerDuty account deletes the account.
--   Reclaiming a Rally account removes the user's access to Rally. Without an active account, the user can’t sign in to the Rally portal.
--   Reclaiming a Salesforce CRM account deactivates the user.
--   Reclaiming a Salesforce Marketing Cloud account deactivates the user.
--   Reclaiming an SAP SuccessFactors account deactivates the account.
--   Reclaiming a Slack account deactivates the user. Although messages and files are saved, the user is removed from all channels and signed out of your workspaces on all devices. The user isn’t allowed to sign back in.
--   Reclaiming a SmartRecruiters account removes access to the application. For example, you might want to reclaim the accounts of users who aren’t actively using the application or who have left the organization.
--   Reclaiming a Smartsheet account removes the user from your organization account. The user downgrades to a free collaborator with read-only access to the reports, sheets, sights, workspaces, and shared templates that haven’t been transferred to other users.
--   Reclaiming a Tableau Cloud account removes the user from a site only if they don't own content. If you attempt to remove a user who owns content, their site role changes to Unlicensed and removed from all groups, but they aren't removed from the site.
--   Reclaiming a Trello account removes your access to enterprise content or features. You can log in to Trello but can't access the boards and cards you logged in to before.
--   Reclaiming a Workplace from Facebook subscription removes the user's access to Workplace. Once the account is deactivated, the user can’t log in. But the posts, comments, and messages the user made would still be available.
--   Reclaiming a Zendesk account removes the user's access to your Zendesk application. The user is no longer allowed to sign in.
--   Reclaiming a Zoom account downgrades the account to Zoom Basic, if the user has Zoom Pro account. If the user has Zoom Basic account, their license will be removed. All cloud-recorded meetings are deleted, but the locally saved recordings aren't affected. If the user has Zoom Webinar, Zoom webinar license will be removed.
-
--   **[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)**  
+</table>-   **[Reclaim user subscriptions in Software Asset Management classic](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-user-subscription-saas-classic.md)**  
 Reclaim unused SaaS and SSO subscriptions in the Software Asset Management classic application.
 -   **[Reclaim user subscriptions in the Software Asset Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/reclaim-user-subscription-saas-workspace.md)**  
 Reclaim unused SaaS and SSO subscriptions in the Software Asset Workspace.
@@ -178,4 +140,6 @@ Reclaim unused SaaS and SSO subscriptions in the Software Asset Workspace.
 [Delete an integration profile]()
 
 [Subscription identifiers for SaaS and SSO applications]()
+
+[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Now Mobile - Employee Experience
 classification: now-mobile-employee-experience
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure, Now Mobile app, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Now Mobile, EmployeeWorks, Employee Service Management]
 ---
 
 # Enable Live Agent in the Now Mobile app
@@ -44,6 +44,8 @@ Chat is enabled from the Requests and Knowledge Articles pages by default.
 ## Result
 
 Users can select Chat in the Homepage quick actions menu to ask for help from a live or virtual agent.
+
+**Parent Topic:**[Configuring Now Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-mobile-employee-experience/setup-mobile-employee.md)
 
 **Related topics**  
 

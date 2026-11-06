@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Case Management
 classification: workplace-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Configure, Workplace Case Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -45,7 +45,7 @@ Create a task template for use when creating a workplace service.
 
 The task template is created. You can use this template for Workplace services.
 
-**Parent Topic:**[Configure Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
+**Parent Topic:**[Configuring Workplace Case Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-case-management/workplace-case-mgmt-setup.md)
 
 **Related topics**  
 
@@ -53,6 +53,10 @@ The task template is created. You can use this template for Workplace services.
 [Install Workplace Case Management]()
 
 [Create a Workplace case template]()
+
+[Smart Assessment for Workplace Case and Task]()
+
+[Automating seat assignment for new hires]()
 
 [Configure Approval options]()
 

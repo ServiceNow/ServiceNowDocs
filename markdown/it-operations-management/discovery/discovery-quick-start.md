@@ -1,15 +1,15 @@
 ---
 title: Discovery Quick Start
-description: Discovery Quick Start is a wizard that helps you get up and running with Discovery quickly. Use Discovery Quick Start tasks to discover IP ranges, or subnets, in your environment and then to identify the configuration items \(CI\) in those subnets.Subnet discovery finds all the subnets in your environment to determine available IP ranges and to ensure that there are MID Servers available to access these ranges.Using the credentials you provide, the Quick Start wizard finds all the configuration items \(CI\) for the IP ranges identified during subnet discovery.
+description: Discovery Quick Start is a wizard that helps you get up and running with Discovery quickly. Use Discovery Quick Start tasks to discover IP ranges, or subnets, in your environment and then to identify the configuration items \(CI\) in those subnets.Subnet discovery finds all the subnets in your environment to determine available IP ranges and to verify that there are MID Servers available to access these ranges.Using the credentials you provide, the Quick Start wizard finds all the configuration items \(CI\) for the IP ranges identified during subnet discovery.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/discovery/discovery-quick-start.html
 release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
-breadcrumb: [Discovery setup, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery setup, Configuring Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Quick Start
@@ -20,7 +20,7 @@ Before using Discovery Quick Start, install and validate MID Servers. See [MID S
 
 ## Configure and schedule subnet discovery
 
-Subnet discovery finds all the subnets in your environment to determine available IP ranges and to ensure that there are MID Servers available to access these ranges.
+Subnet discovery finds all the subnets in your environment to determine available IP ranges and to verify that there are MID Servers available to access these ranges.
 
 ### Before you begin
 
@@ -38,11 +38,11 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
 
     The first time you access Discovery Home, a welcome screen appears. After you have configured subnet discovery and run the schedule, Quick Start shows the subnet results information.
 
-2.  Click **Discovery Quick Start** to begin configuration.
+2.  Select **Discovery Quick Start** to begin configuration.
 
     \[Omitted image "QS\_Start.png"\] Alt text: Start Quick Start
 
-    **Note:** If you did not set up a MID Server yet, click **MID Server Guided Setup** when prompted to create the MID Server user, download and install the MID Server, and validate it. Links in Guided Setup return you to Discovery Quick Start to continue configuring subnet discovery. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
+    **Note:** If you did not set up a MID Server yet, select **MID Server Guided Setup** when prompted to create the MID Server user, download and install the MID Server, and validate it. Links in Guided Setup return you to Discovery Quick Start to continue configuring subnet discovery. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 
     \[Omitted image "QS\_NoMIDFound2.png"\] Alt text: MID Server setup link
 
@@ -59,9 +59,9 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
 
     2.  If you want Discovery to use all new MID Servers that meet the setup criteria, select the **Automatically include new MID Servers** option.
 
-    3.  Click **Next**.
+    3.  Select **next**.
 
-4.  In the **Add Credentials** tab, add credentials for the routers you are going to discover.
+4.  In the **Add Credentials** tab, add credentials for the routers you're going to discover.
 
     This tab shows any SNMP credentials that are already configured. Routers that appear in the **Targeted Routers** list are default gateway routers to which the MID Server host is connected.
 
@@ -69,19 +69,19 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
 
     \[Omitted image "snmp-creds-accelerator.png"\] Alt text: SNMP credentials for routers
 
-    1.  Click **New** to add SNMP community or SNMP V3 credentials, if necessary.
+    1.  Select **New** to add SNMP community or SNMP V3 credentials, if necessary.
 
-    2.  If the list of targeted routers does not include all the routers you expect to use, click the plus icon and add the router by IP address.
+    2.  If the list of targeted routers does not include all the routers you expect to use, select the plus icon and add the router by IP address.
 
         \[Omitted image "list-of-routers-accelerator.png"\] Alt text: Add routers
 
-    3.  After you configure all necessary credentials, click **Test Router Access** to verify that Discovery can use your credentials to access routers.
+    3.  After you configure all necessary credentials, select **Test Router Access** to verify that Discovery can use your credentials to access routers.
 
         The gateway routers appear in the **Routers** column, regardless of whether the credentials can access the router. Those routers that the credentials can successfully access appear with a **Success** indicator. The routers that cannot be reached, appear with a **Failed** indicator.
 
         You can filter the list using the **Search by IP** field or by using the **Reached Routers** or **Unreached Routers** options from the **View** choice list.
 
-    4.  Click **Next**.
+    4.  Select **next**.
 
 5.  In the **Create Schedule** tab, create a schedule to run subnet discovery regularly.
 
@@ -102,7 +102,7 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
 
             **Note:** Any MID Server processing taking place when Discovery is canceled is allowed to complete. However, all output records that MID Servers haven’t picked up are canceled.
 
-    2.  Click one of these:
+    2.  Select one of the following options:
 
         -   **Finish and Run** saves the schedule and runs discovery immediately.
         -   **Finish** saves the schedule. Discovery then runs at the interval specified in the schedule.
@@ -110,7 +110,7 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
 
     \[Omitted image "subnet-discovery-results-accel.png"\] Alt text: Subnet Discovery results
 
-    1.  Click each tile for details.
+    1.  Select each tile for details.
 
         If subnet Discovery did not yet run, each of these tiles shows **0**.
 
@@ -119,11 +119,11 @@ After Discovery identifies the subnets, it automatically assigns the IP ranges o
         -   **Found Subnets**: The number of subnets that Discovery found.
         -   **Assigned Subnets**: IP subnets that were assigned to at least one MID Server.
         -   **Unassignable Subnets**: IP subnets that were not assigned to any MID Servers.
-    2.  Click **Edit Schedule** to return to the **Select MID Servers** tab.
+    2.  Select **Edit Schedule** to return to the **Select MID Servers** tab.
 
         Resolve any issues with subnet discovery by returning to the Router Access page and making sure each credential is configured correctly. Also test router access for each credential.
 
-    3.  Click **Advanced View** to see the Automation Status Set form.
+    3.  Select **Advanced View** to see the Automation Status Set form.
 
         This form displays detailed results for both subnet discovery and the automatic assignment of IP ranges.
 
@@ -148,21 +148,25 @@ Review the requirements for the CI types you intend to discover. See [Data colle
 
 ### Procedure
 
-1.  In the **Add Credentials** tab in the Discovery Quick Start, create the credentials necessary to discover CIs in your network.
+1.  From the Subnet Discovery Results page of the Discovery Quick Start, select **Create Discovery schedules**.
 
-    1.  Select the credential type you want to manage from the **Type** field.
+    \[Omitted image "subnet-discovery-results-accel.png"\] Alt text: Subnet Discovery results
 
-        All the credentials currently configured for that CI type appear in rows of tiles.\[Omitted image "credentials-ci-disco-accel.png"\] Alt text: Create credentials for CI Discovery
+2.  Create the credentials necessary to discover CIs in your network.
 
-    2.  To add a credential, click **New**.
+    1.  Select the credential type you want to manage from the **View** drop-down list.
 
-        The Add Credential form appears, allowing you to specify your new credential.
+        All the credentials currently configured for that CI type display in individual tiles.\[Omitted image "credentials-ci-disco-accel.png"\] Alt text: Create credentials for CI Discovery
 
-    3.  Click **Next** to go to the **Router Location** phase.
+    2.  To add a credential, select **New**.
 
-2.  **Optional:** In the **Assign Router Location** tab, assign a location to each router that subnet discovery found.
+        The Add Credential form displays, enabling you to specify your new credential.
 
-    When you configure router locations, you have the option of creating a schedule for each location. If you do not assign locations, a single Discovery schedule is created for all your subnets. If you assign a timezone to a location, Discovery creates a schedule that runs in that location's timezone. If you do not assign a timezone to a location, the schedule for that location runs in the user's local timezone.
+    3.  Select **Next** to go to the **Router Location** phase.
+
+3.  **Optional:** In the **Assign Router Location** tab, assign a location to each router that subnet discovery found.
+
+    When you configure router locations, you have the option of creating a schedule for each location. If you do not assign locations, a single Discovery schedule is created for all your subnets. If you assign a time zone to a location, Discovery creates a schedule that runs in that location's time zone. If you do not assign a time zone to a location, the schedule for that location runs in the user's local time zone.
 
     **Note:** A subnet can belong to multiple routers. If schedules are created by location, Discovery finds subnets managed by multiple routers using multiple schedules.
 
@@ -172,23 +176,21 @@ Review the requirements for the CI types you intend to discover. See [Data colle
 
     1.  Select the check boxes for the routers you want to assign a location.
 
-        Use the **System Location** column in the table to help you assign a location to the router.
+    2.  Select the location in the **Assign to** list.
 
-    2.  Select the location in the **Assign to** choice list.
+    3.  If the location is not already in the list, select **Add New Location** and add the location.
 
-    3.  If the location is not already in the list, click **Add New Location** and add the location.
+    4.  Verify that the location has a time zone defined.
 
-    4.  Ensure that the location has a timezone defined.
+        Timezones enable you to create a schedule for each location based on the time zone.
 
-        Timezones allow you to create a schedule for each location based on the timezone.
-
-    5.  Click **Assign**.
+    5.  Select **Assign**.
 
         **Note:** Routers that are unassigned cannot be added to any schedules that are based on location.
 
-    6.  Click **Next**.
+    6.  Select **next**.
 
-3.  Create a CI Discovery schedule.
+4.  Create a CI Discovery schedule.
 
     1.  Complete the schedule using the fields in the list.
 
@@ -206,7 +208,7 @@ Review the requirements for the CI types you intend to discover. See [Data colle
 
             **Note:** Any MID Server processing taking place when Discovery is canceled is allowed to complete. However, all output records that MID Servers haven’t picked up are canceled.
 
-    2.  Click one of these options to finish the Quick Start:
+    2.  Select one of the following options:
 
         -   **Finish and Run** saves the schedule and runs a discovery immediately.
         -   **Finish** saves the schedule. Discovery runs at the interval you specified in the schedule.

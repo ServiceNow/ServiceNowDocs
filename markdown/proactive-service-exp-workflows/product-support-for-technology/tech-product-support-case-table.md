@@ -7,9 +7,9 @@ release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Technology Product Support Case, Proactive Service Experience Workflows]
+breadcrumb: [Reference, Technology Product Support Case, Product Support for Technology]
 ---
 
 # Tech Product Support Case table
@@ -401,4 +401,5 @@ Work notes list
 Users who receive notifications about this case when work notes are added.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Technology Product Support Case reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/tpsc-reference.md)
+

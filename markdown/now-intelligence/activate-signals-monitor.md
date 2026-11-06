@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/activate-signals-monitor.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring KPI Signals for an indicator, KPI Signals, Platform Analytics experience, Platform Analytics]
+breadcrumb: [Configure, KPI Signals, Platform Analytics experience, Platform Analytics]
 ---
 
 # Activate KPI Signals monitoring for an indicator \(KPI\)
@@ -15,6 +15,8 @@ breadcrumb: [Configuring KPI Signals for an indicator, KPI Signals, Platform Ana
 KPI Signals does not monitor indicators by default. You activate monitoring for individual indicators. When you activate KPI Signals for an indicator, you make yourself a responsible user for that indicator.
 
 ## Before you begin
+
+**Important:** Data snapshots do not support KPI Signals.
 
 Role required: pa\_kpi\_signal\_admin, pa\_admin, or admin
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/crisis-map-scheduled-data-imports.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure search for places in crisis map, Setting up the crisis map, Crisis Management map, Using BCM Classic Workspace, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -16,7 +16,7 @@ Manage your subscriptions to threat feeds from internal or external sources by c
 
 ## Before you begin
 
-Role required: System administrator
+Role required: sys\_admin
 
 You must set up the Google maps for enabling the crisis map functionality. For more information, see [Set up Google Maps API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/set-up-google-maps-api.md).
 
@@ -54,6 +54,4 @@ Threat feeds provide a situational awareness of potential or current threats to 
 
 4.  Click **Submit**.
 
-
-**Parent Topic:**[Configure search for places in crisis map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/crisis-map-place-api-configuration.md)
 

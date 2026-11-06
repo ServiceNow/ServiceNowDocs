@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/exploring-csm.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Customer Service Management]
 ---
@@ -85,7 +85,7 @@ Support your customers across phone, messaging, chat, web, email, in person, and
 
 </td><td>
 
-[Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/omnichannels-communicating-customers.md)
+[Omnichannel](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/omnichannel.md)
 
 </td><td>
 
@@ -169,7 +169,7 @@ Embed a messenger-like pop up inside any website to interact with ServiceNow fea
 
 </td><td>
 
-[Engagement Messenger for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/engagement-center.md)
+[Engagement Messenger for Customer Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/engagement-center.md)
 
 </td><td>
 

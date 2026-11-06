@@ -1,22 +1,30 @@
 ---
-title: Proactively invalidate inactive sessions \[New in Security Center 1.3 and updated in 1.5 and 2.0\]
-description: The glide.active.session.timeout.invalidate.session property controls if a timeout session is proactively invalidated before the Tomcat server.
+title: Proactively invalidate sessions after defined durations
+description: The glide.active.session.timeout.invalidate.session property controls whether a timed-out session is proactively invalidated before the Tomcat server processes it.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-proactively-invalidate-inactive-sessions.html
 release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Session management, Hardening settings, Platform Security]
 ---
 
-# Proactively invalidate inactive sessions \[New in Security Center 1.3 and updated in 1.5 and 2.0\]
+# Proactively invalidate sessions after defined durations
 
-The **glide.active.session.timeout.invalidate.session** property controls if a timeout session is proactively invalidated before the Tomcat server.
+The **glide.active.session.timeout.invalidate.session** property controls whether a timed-out session is proactively invalidated before the Tomcat server processes it.
 
-When **glide.active.session.timeout.invalidate.session** is not set to **true**, there can be a small interval of time where a timed out session is not invalidated \(60 or more seconds depending on queue size\). If a session is hijacked, an attacker may be able to use a session during this small period of time. To remediate this security risk, set **glide.active.session.timeout.invalidate.session** to **true**.
+When this property value isn't set to **true**, there’s a brief interval where the application doesn't proactively invalidates the timed-out session before the Tomcat container invalidates it. To enable active session timeout, the user also needs to define at least one of the following session timeout properties:
+
+|Property|Description|
+|--------|-----------|
+|glide.ui.active.session.life\_span|Defines the timeout period \(in minutes\) for UI sessions.|
+|glide.guest.active.session.life\_span|Defines the timeout period \(in minutes\) for guest sessions.|
+|glide.integrations.active.session.life\_span|Defines the timeout period \(in minutes\) for integration sessions.|
+
+Ensure that the property **glide.active.session.timeout.invalidate.session** is set to true.
 
 ## More information
 
@@ -34,7 +42,10 @@ Configuration name
 
 </td><td>
 
-**glide.active.session.timeout.invalidate.session**
+-   **glide.active.session.timeout.invalidate.session**
+-   **glide.ui.active.session.life\_span**
+-   **glide.guest.active.session.life\_span**
+-   **glide.integrations.active.session.life\_span**
 
 </td></tr><tr><td>
 
@@ -50,7 +61,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -63,6 +74,14 @@ true
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+false
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -84,7 +103,7 @@ Security risk
 
 -   Severity score: 4.6
 -   CVSS score: Medium
--   Security risk details: Not setting this property to the recommended value of true could cause a timed out session to not be validated. This increases the chances of a bad actor hijacking a session.
+-   Security risk details: If a session is hijacked, an attacker may be able to use a session during this small period.
 
 </td></tr><tr><td>
 

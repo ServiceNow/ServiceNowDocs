@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/spc-sgc-stepper-5.html
 release: yokohama
 topic_type: task
-last_updated: "2026-01-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Creating your own API connector, Use the workspace, Security Posture Control, Security Operations]
 ---
@@ -23,9 +23,9 @@ For this step, you map parameters to SPC attributes and policies from the data y
 
 These schema and samples are provided for you after you enter values and save your edits in the [previous step](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-sgc-template-stepper-4.md). The response schema is aggregated. To see all observed properties, change the reference list to **API response schema**.
 
-Starting with Yokohama Patch 11, you have the option to get guidance for selecting a template with a Now Assist skill for this step. See [Exploring ServiceNow Otto for Unified Security Exposure Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/exploring-ai-for-now-assist-for-vulnerability-response.md) for more information about the generative AI skill and [Using ServiceNow Otto for Unified Security Exposure Management in Security Posture Control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/now-assist-for-vulnerability-response-vr/using-now-assist-api-connector.md) about using the skill in connector framework.
+You have the option to get guidance for selecting a template with a ServiceNow Otto® skill for this step. See [Using generative AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-now-assist-skills-vulnerability-response.md) for more information about the generative AI skill and [Creating an API connector with generative AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/using-now-assist-api-connector.md) about using the skill in connector framework.
 
-**Note:** Regardless of whether you enter your parameters manually, or if you choose use Now Assist to generate your parameters automatically, you must [Validate your API connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-sgc-validate-api-connector.md) before you can publish it.
+**Note:** Regardless of whether you enter your parameters manually, or if you choose to use ServiceNow Otto® to generate your parameters automatically, you must [Validate your API connector](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/spc-sgc-validate-api-connector.md) before you can publish it.
 
 Roles required:
 

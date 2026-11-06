@@ -1,5 +1,5 @@
 ---
-title: Install and configure the Talent Development Core app
+title: Installing and configuring the Talent Development Core app
 description: Install and configure the Talent Development Core app. Talent Development Core is an app in a suite of ServiceNow apps and features that define a workflow for employees and managers to take control of their career development and growth.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-install-config.html
@@ -7,17 +7,19 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
-# Install and configure the Talent Development Core app
+# Installing and configuring the Talent Development Core app
 
 Install and configure the Talent Development Core app. Talent Development Core is an app in a suite of ServiceNow apps and features that define a workflow for employees and managers to take control of their career development and growth.
 
 -   **[Install the Talent Development Core application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-core-install.md)**  
 Install the Talent Development app to enable employees and managers to identify, create, and manage career growth and development plans.
+-   **[Quick start tests for Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-quick-start-tests-td-core.md)**  
+Validate that these Talent Development Core features still works after you make any configuration change such as applying an upgrade or developing an application. Copy and customize these quick start tests to pass when using your instance-specific data.
 
-**Parent Topic:**[Talent Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+**Parent Topic:**[HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-delivery.md)
 

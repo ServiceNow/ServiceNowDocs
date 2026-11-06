@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View achievement credential templates, Achievements and Credentials in Talent Development Core, Administer and maintain the Talent Development Core app, Talent Development Core, Talent Development, Employee Service Management]
+breadcrumb: [View achievement credential templates, Achievements and Credentials in Talent Development Core, Administer and maintain the Talent Development Core app, Talent Development Core, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Add skill to an achievement template
@@ -18,7 +18,7 @@ Associate a skill to an achievement credential template in Achievements and Cred
 
 ## Before you begin
 
-Role required: admin
+Role required: sn\_lep.achievement\_manager
 
 ## Procedure
 
@@ -26,7 +26,7 @@ Role required: admin
 
 2.  Select an existing record.
 
-3.  Go to the Achievement Template Skills related list and select **New**.
+3.  Click **New** in the Achievement Template Skills related list.
 
     On the form, fill in the fields:
 

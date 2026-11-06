@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, Data and Automation]
+breadcrumb: [Active Directory activity pack, Orchestration activity packs, Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Change AD User Password activity
@@ -83,4 +83,6 @@ The activity provides the following conditions:
 ## Active Directory credentials with LDAP
 
 If you are using an LDAP Server with MID Servers, note that Orchestration and Active Directory activities do not use the user name and password configured on LDAP Servers. You must create a [Windows type orchestration credential record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_WindowsCredentialsForm.md) [Windows credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_WindowsCredentialsForm.md). The username and password in the credentials record is used for LDAP queries that Orchestration and workflow activities perform.
+
+**Parent Topic:**[Active Directory activity pack](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/c_OrchActiveDirectoryActivities.md)
 

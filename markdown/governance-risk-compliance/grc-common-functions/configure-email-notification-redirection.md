@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2026-02-09"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [GRC notification redirection, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -32,15 +32,15 @@ Notification routing rules determine which workspace a user is directed to when 
 
 3.  On the form, fill in the fields.
 
-<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d198073e98">
+<table id="choicetable_yhj_ymw_h3c"><thead><tr><th align="left" id="d338065e98">
 
 Field
 
-</th><th align="left" id="d198073e101">
+</th><th align="left" id="d338065e101">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d198073e107">
+</th></tr></thead><tbody><tr><td id="d338065e107">
 
 **Table**
 
@@ -48,7 +48,7 @@ Description
 
 The table for which notification links are redirected to workspace view.
 
-</td></tr><tr><td id="d198073e116">
+</td></tr><tr><td id="d338065e116">
 
 **Target Workspace**
 
@@ -56,7 +56,7 @@ The table for which notification links are redirected to workspace view.
 
 The workspace to which users are redirected when they select notification links.
 
-</td></tr><tr><td id="d198073e125">
+</td></tr><tr><td id="d338065e125">
 
 **Order**
 
@@ -64,7 +64,7 @@ The workspace to which users are redirected when they select notification links.
 
 The evaluation priority for the routing rule. Lower values are evaluated first when multiple rules exist for the same table.
 
-</td></tr><tr><td id="d198073e134">
+</td></tr><tr><td id="d338065e134">
 
 **Active**
 
@@ -74,7 +74,7 @@ Indicates whether the routing rule is active.
 
  Only active rules apply to notification redirection.
 
-</td></tr><tr><td id="d198073e150">
+</td></tr><tr><td id="d338065e150">
 
 **Table filter**
 
@@ -93,9 +93,6 @@ Optional conditions that determine when the routing rule applies.
 ## Result
 
 The notification routing rule is active. Users with access to the configured workspace are directed to the workspace when they select notification links for records from the specified table. Users without workspace access are directed to the classic view.
-
--   **[Modify email notifications to use notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/modify-email-notifications-to-use-notification-redirection.md)**  
-Update email notifications to use the notification redirection framework so users are automatically directed to the appropriate view based on their workspace access.
 
 **Parent Topic:**[GRC notification redirection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/email-notification-redirection.md)
 

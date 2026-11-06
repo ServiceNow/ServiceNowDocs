@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Prioritizing on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Prioritizing on ServiceNow Agent, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Accept or reject a work order task
@@ -26,21 +26,21 @@ Unlike other work order tasks, the task card for a work order task related to a 
 
 ## Procedure
 
-1.  Open the Now Mobile Agent application.
+1.  Open the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
 3.  Perform one of the following actions.
 
-<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d106103e83">
+<table id="choicetable_udq_gsr_4fb"><thead><tr><th align="left" id="d119314e95">
 
 Option
 
-</th><th align="left" id="d106103e86">
+</th><th align="left" id="d119314e98">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d106103e92">
+</th></tr></thead><tbody><tr><td id="d119314e104">
 
 **Accept a task**
 
@@ -55,7 +55,7 @@ Do one of the following:
     -   Tap **Accept**.
 When you accept a task, the work order task state changes to **Accepted**.
 
-</td></tr><tr><td id="d106103e133">
+</td></tr><tr><td id="d119314e145">
 
 **Reject a task**
 
@@ -95,6 +95,4 @@ Available options:
 ## What to do next
 
 Start work on a task using the Now Mobile Agent application.
-
-**Parent Topic:**[Prioritizing on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/manage-field-service-tasks-mobile.md)
 

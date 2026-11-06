@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2026-08-07"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Discovery probes and sensors, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Discovery probes and sensors, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Custom Discovery probe to populate a CI from a text file

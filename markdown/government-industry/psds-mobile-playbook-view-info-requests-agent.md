@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-mobile-playbook-view-info-requests-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Mobile Agent, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Mobile Agent, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Track information requests with the Mobile Agent

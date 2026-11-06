@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-create-crm-task.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using customer success, Customer success, Account Lifecycle Events]
+breadcrumb: [Microsoft Dynamics CRM integration, Customer success, Configure, Customer Success Management]
 ---
 
 # Create a task in Microsoft Dynamics CRM
@@ -16,7 +16,7 @@ Create a task in the Microsoft Dynamics CRM platform from your ServiceNow instan
 
 ## Before you begin
 
-Role required: sn\_acct\_lc.ale\_success\_agent
+Role required: sn\_acct\_lc.customer\_success\_agent
 
 ## Procedure
 
@@ -26,29 +26,29 @@ Role required: sn\_acct\_lc.ale\_success\_agent
 
 3.  If you have configured the **Create CRM task** option, you can see it on the Risk and Issue page.
 
-    See [Integrating with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details on configuring this option.
-
-    \[Omitted image "account-lifecycle-crm-create-task-1.png"\] Alt text: MS Dynamics CRM: Create CRM task
+    See [Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details on configuring this option.
 
 4.  Select **Create CRM task**.
 
     A new task is created in the Microsoft Dynamics CRM platform. The details of the account, engagement, and contracts associated with the risk record are displayed.
 
-    **Note:** If you modify or update Priority or Status fields in the task that was created, the updates are displayed as work notes in your ServiceNow instance.
+    **Note:** If you modify or update Priority or Status fields in the task that was created, the updates are displayed as worknotes in your ServiceNow instance.
 
-5.  Navigate to **Workspaces** &gt; **CSM/FSM Configurable Workspace** and select the **List** icon.
+5.  Navigate to **Workspaces** &gt; **CRM Workspace** and select the **List** icon.
 
-6.  Navigate to **Customer Success** &gt; **All Risks and Issues** and open a risk record.
+6.  Navigate to **Customer Success** &gt; **All Risks and Issues** and open an risk record.
 
-    You can see the work notes that show how the task was updated.
+    You can see the worknotes that show how the task was updated.
 
-    \[Omitted image "account-lifecycle-crm-create-task-2.png"\] Alt text: CRM Task work notes
+    \[Omitted image "account-lifecycle-crm-create-task-2.png"\] Alt text: CRM Task worknotes
 
-    Work notes are displayed if you have configured:
+    Worknotes are displayed if you have configured:
 
     -   The Microsoft Dynamics CRM update mechanism \(so that Microsoft Dynamics CRM can access the Microsoft Dynamics spoke webhook\) when the configured event occurs in the task table. See [Set up Microsoft Dynamics CRM spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-ms-dynamics-crm.md) for details.
     -   Microsoft Dynamics CRM spoke \(see [Microsoft Dynamics CRM Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/microsoft-dynamics-crm-spoke.md)\).
-        -   Decision table as per the requirement
+        -   Decision table according to the requirement
         -   Webhook \(Dynamics Webhook Callbacks\)
-    -   Account Lifecycle Events application has been configured for Microsoft Dynamics CRM integration. See [Integrating with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details.
+    -   Customer Success Management application has been configured for Microsoft Dynamics CRM integration. See [Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md) for details.
+
+**Parent Topic:**[Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md)
 

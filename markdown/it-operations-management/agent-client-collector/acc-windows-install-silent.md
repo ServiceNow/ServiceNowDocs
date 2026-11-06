@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Client Collector
 classification: agent-client-collector
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Client Collector installation on a Windows machine, Configuring Agent Client Collector Framework, Agent Client Collector Framework, Agent Client Collector, IT Operations Management]
+breadcrumb: [ACC installation on a Windows machine, ACC deployment - servers, Configuring Agent Client Collector, Agent Client Collector, IT Operations Management]
 ---
 
 # Install the Agent Client Collector on a Windows machine using silent installation
@@ -179,6 +179,18 @@ Boolean
 </td><td>
 
 Indicates whether the user password expires \(false\) or never expires \(true\).Default = false
+
+</td></tr><tr><td>
+
+SN\_PROG\_ROOT
+
+</td><td>
+
+String
+
+</td><td>
+
+Indicates the installation path for the agent's application files. Enclose the path in quotes.For example: SN\_PROG\_ROOT="D:\\ServiceNow\\agent-client-collector"
 
 </td></tr></tbody>
 </table>    The configured MID Server values are automatically added to the `acc.yml` file. The agent connects to the first available MID Server in the list.

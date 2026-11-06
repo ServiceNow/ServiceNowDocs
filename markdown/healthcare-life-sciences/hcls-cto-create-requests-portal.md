@@ -1,0 +1,48 @@
+---
+title: Create requests in the Care Team Portal
+description: Use the Care Team Portal to create support requests for services from ancillary departments.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/healthcare-life-sciences/hcls-cto-create-requests-portal.html
+release: yokohama
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Navigate, Care Team Portal, Healthcare Operations, Healthcare and Life Sciences]
+---
+
+# Create requests in the Care Team Portal
+
+Use the Care Team Portal to create support requests for services from ancillary departments.
+
+## Before you begin
+
+Role required: sn\_hco.care\_team\_member or sn\_hco.care\_team\_manager
+
+## About this task
+
+Use the Care Team Portal, part of Healthcare Operations Core, to create support requests for ancillary departments. You can also leverage the Healthcare Operations Core case type to create your own record producers. For detailed instructions, refer to [Configuring Healthcare Operations Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hcls-cto-configuring.md).
+
+If you have the Care Team Operations for Healthcare IT or Care Team Operations for Biomed plugins installed, the Care Team Portal includes pre-installed record producers. These plugins can be used to create preconfigured requests. For more information, see [Care Team Operations for Healthcare IT](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/hcls-cto-it-app.md) and [Care Team Operations for Biomed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/care-team-operations-for-biomed.md).
+
+## Procedure
+
+1.  In the Care Team Portal, navigate to **Create a request**.
+
+2.  Select the type of request that you want to create.
+
+3.  Fill in details as needed and submit your request.
+
+
+## Result
+
+Your request is created and routed to the supporting department for fulfillment.
+
+## What to do next
+
+You can also create a request conversationally instead of using this form. See [Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md).
+
+**Related topics**  
+
+
+[Request care team assistance agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-operations-core/hco-now-assist-request-assistance.md)
+

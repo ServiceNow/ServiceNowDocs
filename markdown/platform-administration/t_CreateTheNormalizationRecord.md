@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/t\_CreateTheNormalizationRecord.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Normal values, Field normalization and transformation, Administering fields, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Normal values, Field normalization and transformation, Administer, Field administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Create the normalization record
@@ -47,10 +47,6 @@ Special Cases
 
     After the normalization record is submitted, the platform runs the Pending value collection job in the **Data Jobs** related list automatically to gather all the current values \(Pending Values\) for the field being normalized.
 
-    \[Omitted image "NormalizeForm1.png"\] Alt text: Run data job
-
     Click the **Pending Values** related list to view values for the normalized field that have been entered manually, imported into the platform, or created by Discovery.
-
-    \[Omitted image "NormalizeForm2.png"\] Alt text: Pending values list
 
 

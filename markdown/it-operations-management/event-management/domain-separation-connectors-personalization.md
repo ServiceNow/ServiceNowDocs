@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Event Management Connectors domain personalization
@@ -40,10 +40,10 @@ You cannot personalize domain separation for the following push connectors:
 -   Transform Generic Events MID
 -   TransformEvents\_xmlSample
 
--   **[Personalize domains for pull connector events to use in event creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md)**  
+-   **[Configure domain separation for pull connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-pull-connectors.md)**  
 Configure pull connectors to personalize domain separation of events so you can use them to create events in domains other than the user's currently logged-in or MID Server domain.
--   **[Personalize domains for push connector events to use in event creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-push-connectors.md)**  
-Configure push connectors to personalize domain separation of events. You can create events in domains other than the user's logged-in or MID Server domain.
+-   **[Configure domain separation for push connector events](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/personalize-domain-separation-push-connectors.md)**  
+Configure push connectors to create events in domains other than the user's currently logged-in or MID Server domain.
 
 **Parent Topic:**[Event Management Integrations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/c_EMEvent.md)
 

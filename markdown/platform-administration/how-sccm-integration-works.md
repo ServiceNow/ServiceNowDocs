@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/how-sccm-integration-works.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Microsoft SCCM integration, ServiceNow provided integrations, Integration options, Integration with third-party applications and data sources, Integrations, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -19,8 +19,6 @@ The Microsoft SCCM versions supported in the ServiceNow® platform offer identic
 1.  A schedule called **SCCM System &lt;version&gt; Import** determines when the SCCM tables are imported into the ServiceNow® instance. Imports can be executed immediately or scheduled to run at defined intervals.
 2.  A MID Server retrieves the SCCM data and imports it into staging tables on the instance.
 3.  Transforms run on the data in the staging tables and map the SCCM data to existing fields in the CMDB.
-
-\[Omitted image "SCCMDiagram.png"\] Alt text: SCCM data import process
 
 ## SCCM data imported
 

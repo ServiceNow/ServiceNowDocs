@@ -1,33 +1,33 @@
 ---
 title: Analyze a contract document
-description: Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the Now Assist in Contract Management application.
+description: Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the ServiceNow Otto for Contract Management Pro application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [Contract analysis using Now Assist in Contract Management, Using Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Contract review using AI, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Analyze a contract document
 
-Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the Now Assist in Contract Management application.
+Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the ServiceNow Otto for Contract Management Pro application.
 
 ## Before you begin
 
-Ensure that Now Assist has data access or your role. For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
+Verify that AI has data access for your role. For more information, see [Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
-Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\_fulfiller
+Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller
 
 ## About this task
 
--   As an assigned-to collaborator or group manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can initiate a Now Assist analysis for a contract document when the contract request is in the Work in progress state.
--   The Now Assist analysis is run on the latest revision of the contract document.
--   Only documents in Microsoft Word \(.docx\) and PDF formats can be analyzed with the Now Assist application. For more information on the document limitations, see [Limitations in Document Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/hard-limits-in-doc-intel.md).
--   For contract documents that are in a PDF format, you can run the Now Assist analysis but you can't act on a suggestion.
+-   As an assigned-to collaborator or group manager with the sn\_cm\_gen\_ai.ai\_contract\_fulfiller role, you can initiate a AI analysis for a contract document when the contract request is in the Work in progress state.
+-   The analysis is run on the latest revision of the contract document.
+-   Only documents in Microsoft Word \(.docx\) and PDF formats can be analyzed. For more information on the document limitations, see .
+-   For contract documents that are in a PDF format, you can run the AI analysis but you can't act on a suggestion.
 
 **Note:** Be sure to review the AI-generated analysis for accuracy.
 
@@ -35,27 +35,27 @@ Role required: sn\_cm\_gen\_ai.ai\_contract\_fulfiller or sn\_cm\_core.contract\
 
 1.  Open the contract request from the workspace that you’re using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d502446e134">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d543113e107">
 
 Method
 
-</th><th align="left" id="d502446e137">
+</th><th align="left" id="d543113e110">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d502446e143">
+</th></tr></thead><tbody><tr><td id="d543113e116">
 
 **Contract Workspace listing**
 
 </td><td>
 
 1.  Navigate to **All** &gt; **Contract Workspace**.
-2.  Select the list icon \(\[Omitted image "lsd-lcc-list-icon.png"\] Alt text: List icon\).
+2.  Select the list icon \[Omitted image "lsd-lcc-list-icon.png"\] Alt text:.
 3.  Select **Contract requests** &gt; **All**.
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d502446e191">
+</td></tr><tr><td id="d543113e163">
 
 **Workspace used by your application**
 
@@ -67,69 +67,79 @@ Steps
 
 
 </td></tr></tbody>
-</table>2.  If the contextual side panel isn’t open, select the Now Assist Review for contracts icon \(\[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text: Now Assist Review from contracts icon\).
+</table>2.  If the contextual side panel isn’t open, select the AI for Contracts icon \[Omitted image "cmpro-ai-sparkel-icon.png"\] Alt text: AI for contracts icon.
 
-    You can analyze contracts in the Now Assist contextual side panel as shown in the following example.
+    You can analyze contracts in the AI contextual side panel as shown in the following example.
 
-    \[Omitted image "cmpro-na-side-panel.png"\] Alt text: Analyze contracts with Now Assist contextual side panel
+    \[Omitted image "cmpro-na-side-panel.png"\] Alt text: Analyze contracts with the AI contextual side panel.
 
 3.  On the contract request page, select **Contract documents**.
 
-4.  Submit contract documents for Now Assist analysis.
+4.  Submit contract documents for AI analysis.
 
     The latest versions of the documents are automatically selected for analysis.
 
-<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d502446e263">
+<table id="choicetable_p3s_2gn_zcc"><thead><tr><th align="left" id="d543113e231">
 
 Method
 
-</th><th align="left" id="d502446e266">
+</th><th align="left" id="d543113e234">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d502446e272">
+</th></tr></thead><tbody><tr><td id="d543113e240">
 
-**Run Now Assist analysis on a single contract document**
+**Run analysis on a single contract document**
 
 </td><td>
 
 1.  On the **Contract documents** tab, select a contract document.
-2.  From the contextual side panel, select **Analyze with Now Assist**.
+2.  From the contextual side panel, select **Analyze with AI**.
 
 
-</td></tr><tr><td id="d502446e299">
+</td></tr><tr><td id="d543113e264">
 
-**Run Now Assist analysis on multiple contract documents**
+**Run analysis on multiple contract documents**
 
 </td><td>
 
-1.  After opening a contract request, from the contextual side panel select **Analyze with Now Assist**.
+1.  After opening a contract request, from the contextual side panel, select **Analyze with AI**.
 
-**Note:** A list of contract documents that were submitted for the Now Assist analysis is displayed. Information about the documents and any errors that were found are also included.
+**Note:** A list of contract documents that were submitted for the analysis is displayed. Information about the documents and any errors that were found are also included.
 
 2.  Select **Analyze contract**.
 
 
 </td></tr></tbody>
-</table>5.  Select **Analyze contract**.
-
-    1.  The Now Assist application creates a copy of the documents and starts analysis on the new documents. The status is now Analysis in progress.
-    2.  A card is created for each document in Analyzed contracts with the Now Assist contextual panel. The contract status updates to the Awaiting review status.
-    3.  When the analysis of the documents is complete, the status changes to Ready for review with the following details:
+</table>    1.  The AI application creates a copy of the documents and starts analysis on the new documents. The contract analysis state is now Analysis in progress.
+    2.  A card is created for each document in Analyzed contracts with the AI contextual panel. The contract status updates to the Awaiting review.
+    3.  When the analysis of the documents is complete, the state changes to Ready for review with the following details:
 
         |Section|Description|
         |-------|-----------|
         |Pending reviews|Displays the number of deviations reported and pending for review.|
         |Completed|Displays the number of reviewed deviations that have been reviewed and any actions taken.|
 
-6.  Select the document card to view the details of the analysis.
+5.  Select the document card to view the details of the analysis.
 
-    The details of the contract analysis are displayed with the Now Assist comments. The comments explain the reasons for marking a clause non-standard.
+    The details of the contract analysis are displayed with the reasons for marking a clause non-standard.
 
-7.  View the analysis and select **Back** to go to the analyzed contracts in the Now Assist contextual side panel.
+6.  Review the suggestions and provide feedback to help improve the accuracy of AI contract analysis over time.
 
-    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the Now Assist suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-review-contract-document.md).
+    1.  For each suggestion, select the thumbs up icon \[Omitted image "thumbs-up-outline-24.svg"\] if the suggestion is helpful or the thumbs down icon \[Omitted image "thumbs-down-outline-24.svg"\] if the suggestion is not helpful.
+
+    2.  In the pop-up, select the options that best describe your experience.
+
+        You can select multiple options and add optional comments.
+
+    3.  Select **Submit**.
+
+    The feedback is captured in the Contracts Gen AI Feedback \[sn\_cm\_gen\_ai\_feedback\] table.
+
+7.  Go to the analyzed contracts in the AI contextual side panel by selecting **Back**.
+
+    You can only view the suggestions in the contextual side panel. To act on a suggestion, open a .docx Microsoft Word document and use the Microsoft Word add-in for ServiceNow Contracts. For more information, see [Review the AI suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-review-contract-document.md).
 
 
-**Parent Topic:**[Contract analysis using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
+**Parent Topic:**[Contract review using ServiceNow Otto for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.md)
 

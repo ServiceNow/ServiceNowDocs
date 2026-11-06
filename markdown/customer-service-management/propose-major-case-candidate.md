@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/propose-major-case-candidate.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Major issue management overview, Administer Customer Service Management, Customer Service Management]
+breadcrumb: [Major issue management overview, Manage cases, Use, Customer Service Management]
 ---
 
 # Propose a case as a major case candidate

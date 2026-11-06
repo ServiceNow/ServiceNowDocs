@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Bind an event to a data resource, Bind events to add actions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Bind an event to a data resource, Bind events to add actions, Manage actions in UI Builder pages, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Link an event to another page
@@ -52,8 +52,6 @@ To configure an event action to open another page, you must know what page you w
 
 8.  Select **+ Add event handler**.
 
-    \[Omitted image "link-dest-add-handler.png"\] Alt text: Arrow pointing to the + add event handler option.
-
 9.  In the Inherited event handlers section, select **Link to destination**.
 
     \[Omitted image "link-destination-select-handler.png"\] Alt text: Arrow pointing to the link to destination inherited event handler.
@@ -89,10 +87,6 @@ By navigating to **Now Experiences Framework** &gt; **Experiences**, you see the
 
 You next select the Test workspace admin panel, find an UX App Configuration record with no UX app routes or pages, and then click **Open**.
 
-As the example shows, in the UI Builder, you have created a page named Analytics Center that is based on the Analytics Center page template from the Base Agent Workspace. Next, you select the option to copy only the contents of the page template.
-
-\[Omitted image "event-handler-create-page.png"\] Alt text: Create a page dialog.
-
 You select the Analytics Q&amp;A 1 component and open the **Events** tab. From here, you can open the**Link to destination Relay** event handler for the **Report Visualization Clicked** event. When a question in Analytics Q&amp;A returns a report, you can trigger this event by clicking a value in the report. When you click a value, you also see a list of the records that contribute to this value. In the **Route** field, you see that the destination is expected to be a page that is based on the Simple List page template. You also see the parameters of the page that the `@payload.*` values correspond to, and that the **Title** field can be populated with `@payload.listTitle`.
 
 |Parameter|@payload.\* value|
@@ -117,10 +111,6 @@ Now, you return to the Analytics Center page. In the **Report Visualization Clic
 \[Omitted image "event-handler-destination.png"\] Alt text: Configuring the navigation for a link to the destination event handler.
 
 After you click **OK** and add `@payload.listTitle` as the **Title**, the event handler is done. You can now delete the**Link to destination Relay** event handler for this event.
-
-The following example shows an Analytics Center page. On this page, you can enter a query for Incidents by Priority and get a report as a result. Also, by clicking a column, you trigger a **Report Visualization Clicked** event. The event handler enables you to see a simple list of the incidents in the report.
-
-\[Omitted image "event-handler-complete-example.gif"\] Alt text: Analytics Q&amp;A component.
 
 **Parent Topic:**[Bind an event to a data resource](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/bind-event-data-resource.md)
 

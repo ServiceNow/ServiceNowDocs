@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Multi-response bot response control
@@ -82,7 +82,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 |-------|-------|-----------|
 |Web UI|Supported|None|
 |Mobile UI|Supported|None|
-|Now Assist panel|Not supported|Not applicable|
+|ServiceNow Otto panel|Not supported|Not applicable|
 |Microsoft Teams|Supported|None|
 |Slack|Supported|None|
 |Workplace|Supported|None|
@@ -91,11 +91,11 @@ No-code condition statement or low-code script that specifies a condition for pr
 |LINE|Not supported|Not applicable|
 |WhatsApp|Not supported|Not applicable|
 |Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Alexa \(Voice\)|Partial support|Supported on devices with screens. For non-screen devices, the user receives a message if unsupported elements are used: `We found a link`. For details, see [\(Legacy\) Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/va-settings-for-alexa.md).|
 
 ## Example Multi-response control
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -114,5 +114,5 @@ Multi-response output
 \[Omitted image "va-multi-flow-web.png"\] Alt text: A basic response includes text output followed by a hyperlink.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

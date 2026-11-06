@@ -1,39 +1,41 @@
 ---
 title: Configure link to your privacy policy
-description: The privacy policy link is shown when User Experience Analytics is enabled and users choose to enable or disable tracking.
+description: When Usage Insights is enabled, the ServiceNow Services Privacy Statement is linked by default. However, administrators can update the link to point to the organization privacy policy.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/usage-insights/uxa-config-link-privacy-policy.html
 release: yokohama
 product: Usage Insights
 classification: usage-insights
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Types of tracking consent policies, User privacy, tracking, and consent, Configuring User Experience Analytics, User Experience Analytics, Platform Analytics]
+breadcrumb: [How users consent to tracking in Usage Insights, User privacy, tracking, and consent, Configuring Usage Insights, Usage Insights, Platform Analytics]
 ---
 
 # Configure link to your privacy policy
 
-The privacy policy link is shown when User Experience Analytics is enabled and users choose to enable or disable tracking.
+When Usage Insights is enabled, the ServiceNow Services Privacy Statement is linked by default. However, administrators can update the link to point to the organization privacy policy.
 
 ## Before you begin
 
 Role required: admin
 
+Users can choose to enable or turn off tracking in their settings. To learn more about enabling tracking, see [How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-user-set.md).
+
+To learn more about the default privacy statement, see the [ServiceNow Services Statement](https://www.servicenow.com/service-privacy.html).
+
 ## Procedure
 
 1.  Navigate to `sys_properties.list`.
 
-2.  Create the system property **glide.analytics.privacy.link**.
+2.  Find the system property **glide.analytics.privacy.link**.
 
-    For more information see [Add a system property](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_AddAPropertyUsingSysPropsList.md).
+3.  Select **glide.analytics.privacy.link**.
 
-3.  In the **Type** field, enter `string`.
-
-4.  In the **Value** field, enter the URL of your company's privacy statement.
+4.  In the **Value** field, replace the existing URL with the URL of your company's privacy statement.
 
 5.  Select **Update**.
 
 
-**Parent Topic:**[Types of tracking consent policies in User Experience Analytics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/uxa-tracking-types.md)
+**Parent Topic:**[How users consent to tracking in Usage Insights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/usage-insights/user-exp-analytics-user-set.md)
 

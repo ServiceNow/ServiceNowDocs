@@ -7,10 +7,10 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Virtual Agent, designer, HTML, bot, response, control]
-breadcrumb: [Virtual Agent Designer bot responses, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer bot responses, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # HTML bot response control
@@ -90,24 +90,16 @@ No-code condition statement or low-code script that specifies a condition for pr
 
 |Channel|Support|Constraints|
 |-------|-------|-----------|
-|Web UI|Supported|None|
-|Mobile UI|Supported|None|
-|Now Assist panel|Supported|None|
 |Microsoft Teams|Supported|Since HTML is rendered as an image in Microsoft Teams, other controls are recommended. For example, use images or cards instead of HTML for Microsoft Teams.|
 |Slack|Supported|None|
-|Workplace|Supported|None|
-|Facebook Messenger|Not supported|Not applicable|
 |SMS Twilio|Not supported|Not applicable|
-|LINE|Not supported|Not applicable|
-|WhatsApp|Not supported|Not applicable|
-|Apple Messages for Business|Not supported|Not applicable|
-|Alexa \(Voice\)|Partial support|Supported on devices with screens. For nonscreen devices, the user receives a message: `We found a link`. For details, see [Fine-tune Virtual Agent settings and topics for the best Alexa voice chat experience](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-settings-for-alexa.md).|
+|Google Chat|Supported|None|
 
 ## Example HTML bot response output
 
 The HTML bot response shows a static HTML as a chat response. This example includes an image, headings, and paragraph text. The web UI presents this content as HTML. The Slack, Microsoft Teams, and Workplace user interfaces display the same content as a PNG image. URL links within the HTML are extracted and displayed below the image. The URL can be either an absolute or a relative link. If you use a relative link, it must be relative to the ServiceNow instance.
 
-**Note:** Virtual Agent Designer controls may display and function differently in other channels.
+**Note:** Asset library controls may display and function differently in other channels.
 
 <table id="table_f1f_v2p_xdb"><thead><tr><th>
 
@@ -126,5 +118,5 @@ HTML bot response output
 \[Omitted image "va-html-native.png"\] Alt text: A chat window shows the company logo with a header, subheader, and body text.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Virtual Agent Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
+</table>**Parent Topic:**[Assistant Designer bot responses](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-bot-responses.md)
 

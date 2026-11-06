@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configuring Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -17,8 +17,6 @@ breadcrumb: [Configuring Service Catalog, Service Catalog, Manage service capabi
 Categories organize service catalog items into logical groups. Administrators and catalog administrators can create and configure categories, defining their characteristics and adding content such as catalog items to them.
 
 Categories can have a parent-child relationship, for example, **IT** and **Laptops**. A child category is a subcategory of its parent category. Each catalog item, order guide, record producer, content item, and subcategory appears as a single item within the category. A catalog item can exist in multiple categories, giving you the flexibility to offer the same service from multiple places within your catalog.
-
-\[Omitted image "ServiceCatalogCategoriesG.png"\] Alt text:
 
 Certain system properties control the following Service Catalog category configuration.
 

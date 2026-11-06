@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management, IT Service Management]
+breadcrumb: [Contracts, Contract Management use, Contract Management, Asset Management common applications, IT Service Management]
 ---
 
 # Create a contract
@@ -144,7 +144,7 @@ Approver
 
 </td><td>
 
-User who approves or rejects the contract. This list is filtered to only show users with the itil role.
+User who approves or rejects the contract. This list is filtered to only show users with the contract manager role.
 
 </td></tr><tr><td>
 
@@ -375,6 +375,10 @@ Specific legal information in the contract.
 
     -   If you’re using Core UI, right-click the form header and select **Save**.
     -   If you’re using Hardware Asset Workspace, Software Asset Workspace, or Enterprise Asset Workspace, select **Save**.
+    The **Initiate contract extraction** button is displayed on the contract form when you save the software contract record, provided the following conditions are met:
+
+    -   The Now Assist in Contract Management plugin \(sn\_cm\_gen\_ai\) is installed.
+    -   Contract obligation extraction and Contract metadata extraction skill is activated.
 5.  Continue entering information in the related lists or tabs that appear.
 
 <table id="table_uwp_l2l_gs"><thead><tr><th>
@@ -504,4 +508,6 @@ Contracts can be associated with documents. Linking a contract to related docume
 [Contract renewal workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/cont-renew-wf.md)
 
 [Contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/contract-management/c_Contracts.md)
+
+[extract-metadata-from-uploaded-contract-document]
 

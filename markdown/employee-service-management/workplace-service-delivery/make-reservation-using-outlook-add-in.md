@@ -7,7 +7,7 @@ release: yokohama
 product: Workplace Service Delivery
 classification: workplace-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Workplace Reservations for Microsoft Outlook Add-in, Workplace Service Delivery, Employee Service Management]
 ---
@@ -61,6 +61,8 @@ Role required: admin
 
         The spaces will be displayed depending on the capacity specified.
 
+        \[Omitted image "reservation-outlook-building.png"\] Alt text: Workplace reservations in the Microsoft Outlook Add-in
+
 6.  Click **Search**.
 
     The available spaces are displayed based on the search.
@@ -98,6 +100,8 @@ Role required: admin
 18. Click **Save reservation**.
 
     The reservation is created and logged in the Workplace Reservation Management application.
+
+    \[Omitted image "reservation-outlook.png"\] Alt text: Save reservation in the Microsoft Outlook Add-in
 
 19. In the Outlook appointment window, click **Send** to send the meeting request.
 

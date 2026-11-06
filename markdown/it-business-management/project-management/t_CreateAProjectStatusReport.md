@@ -7,9 +7,9 @@ release: yokohama
 product: Project Management
 classification: project-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Starting a project, Use, Project Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Starting a project, Using Project Management, Project Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Create a project status report
@@ -32,15 +32,15 @@ You can also print a project status report from project workspace. To print a re
 
 1.  Create a project status report.
 
-<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d53372e88">
+<table id="choicetable_ft2_dt1_wbb"><thead><tr><th align="left" id="d61921e88">
 
 Option
 
-</th><th align="left" id="d53372e91">
+</th><th align="left" id="d61921e91">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d53372e97">
+</th></tr></thead><tbody><tr><td id="d61921e97">
 
 **From project workspace**
 
@@ -52,7 +52,7 @@ Steps
 
 **Note:** Alternatively, select a status report and select **Copy** from the choice list next to **Create new**. This option copies the selected status report including all fields into the new report.
 
-</td></tr><tr><td id="d53372e150">
+</td></tr><tr><td id="d61921e150">
 
 **From project record**
 
@@ -96,6 +96,10 @@ Project status reports provide the most recent, at-a-glance progress of a projec
 [Create an expense line]()
 
 [Create and manage waterfall projects]()
+
+[Schedule a project from a start date]()
+
+[Apply or change a task constraint]()
 
 [Update a project]()
 

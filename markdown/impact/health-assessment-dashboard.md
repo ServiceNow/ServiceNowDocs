@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/health-assessment-dashboard.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
 # Health Assessment Dashboard
@@ -161,5 +161,12 @@ Link to KB articles or product documentation regarding how to address the findin
 </td></tr></tbody>
 </table>\[Omitted image "health-list-view.png"\] Alt text: Shows all finding in List view.
 
+## Package Availability
+
 **Note:** This feature is available in Impact Guided, Advanced, and Total packages.
+
+-   **[Manage Health Assessment Dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/manage-health-assessment-dashboard.md)**  
+Address platform health findings from the Health Assessment Dashboard.
+
+**Parent Topic:**[Diagnose with tech KPIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-tech-kpis.md)
 

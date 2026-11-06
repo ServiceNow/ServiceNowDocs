@@ -1,20 +1,20 @@
 ---
 title: Legal Request Management
-description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department and a streamlined, collaborative process for the legal department to quickly resolve these requests.
+description: The ServiceNow Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. Embedded AI assists legal professionals by identifying request intent, recommending appropriate assignment paths, summarizing key context, and enabling faster resolution.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-request-management/legal-request-management-landing-page.html
 release: yokohama
 product: Legal Request Management
 classification: legal-request-management
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Request Management
 
-The ServiceNow® Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department and a streamlined, collaborative process for the legal department to quickly resolve these requests.
+The ServiceNow® Legal Request Management application provides a unified mechanism for employees to get all the information, services, and help that they need from the legal department through web, mobile, and Virtual Agent channels. Embedded AI assists legal professionals by identifying request intent, recommending appropriate assignment paths, summarizing key context, and enabling faster resolution.
 
 Employees can submit legal requests, monitor their progress, and read legal knowledge base articles across a web portal, mobile platform, and Virtual Agent.
 
@@ -47,5 +47,5 @@ Legal teams can collaborate in a centralized Legal Counsel Center to manage lega
 </td></tr></tbody>
 </table>## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 

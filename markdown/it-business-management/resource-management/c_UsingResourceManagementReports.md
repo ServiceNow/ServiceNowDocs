@@ -7,7 +7,7 @@ release: yokohama
 product: Resource Management
 classification: resource-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Resource Management classic, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -16,11 +16,15 @@ breadcrumb: [Resource Management classic, Project Portfolio Management, Strategi
 
 Resource Management reports provide the resource requester and resource managers with resource allocations, availability, and utilization.
 
+**Important:** Resource Management reports is deprecated starting Zurich release. It will be hidden and no longer available for installation but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://hi.service-now.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+
+Alternatively, resource managers are encouraged to use the interactive Overview Dashboard in the Resource Management Workspace. For more information about dashboards, see [Overview dashboard in Resource Management Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/using-rmw.md).
+
 You can generate reports for the following types of information:
 
 -   **Availability**
 
-    Total time that the resources are available after both [hard and soft allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/r_AllocatingResources.md). Availability is capacity minus allocation. \[Omitted image "group\_availability\_report1.png"\] Alt text: A group availability report
+    Total time that the resources are available after both [Soft and hard allocations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/resource-management/r_AllocatingResources.md). Availability is capacity minus allocation. \[Omitted image "group\_availability\_report1.png"\] Alt text: A group availability report
 
 -   **Forecasted Utilization**
 

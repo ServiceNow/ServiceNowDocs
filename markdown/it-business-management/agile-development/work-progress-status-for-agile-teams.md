@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Agile Development, Strategic Portfolio Management]
 ---
 
 # Work Progress Status for Agile Teams
@@ -20,10 +20,8 @@ As a product owner or a team lead, these indicators help you understand if your 
 
 **Note:** You must enter a value for the **Planned end date** field for an Agile Development 2.0 epic for these work progress status indicators to populate.
 
--   **[Install Work Progress Status for Agile Teams](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/install-work-progress-status-for-agile-teams.md)**  
-Install the Work Progress Status for Agile Teams \(sn\_scrum\_progress\) application from ServiceNow Store.
 -   **[Reviewing progress status for Agile Development 2.0 epics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/review-work-progress-status-in-agile-2.0.md)**  
 Understand if your work would be completed by the planned end dates by reviewing progress status of your Agile Development 2.0 epics.
 
-**Parent Topic:**[Agile Development 2.0](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-landing-page.md)
+**Parent Topic:**[Agile Development](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/agile-development/agile-development.md)
 

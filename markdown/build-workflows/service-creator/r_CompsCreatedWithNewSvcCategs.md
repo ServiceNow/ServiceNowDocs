@@ -7,7 +7,7 @@ release: yokohama
 product: Service Creator
 classification: service-creator
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Activate Service Creator, Service Creator, Build workflows]
 ---

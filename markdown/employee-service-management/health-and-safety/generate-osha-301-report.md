@@ -7,7 +7,7 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Health and Safety Incident Management OSHA Content Pack, Health and Safety injury and illness reports, Health and Safety, Employee Service Management]
 ---
@@ -35,15 +35,15 @@ Role required: sn\_ohs\_im.compliance\_manager
 
 3.  Open the injury an illness report from a safety incident or from the injury and illness list.
 
-<table id="choicetable_smc_dfc_3bc"><thead><tr><th align="left" id="d675638e110">
+<table id="choicetable_smc_dfc_3bc"><thead><tr><th align="left" id="d729736e110">
 
 Option
 
-</th><th align="left" id="d675638e113">
+</th><th align="left" id="d729736e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d675638e119">
+</th></tr></thead><tbody><tr><td id="d729736e119">
 
 **From a safety incident**
 
@@ -55,7 +55,7 @@ Steps
 4.  In the **Add injury and illness** activity, select the injury and illness report to generate the OSHA 301 form for.
 
 
-</td></tr><tr><td id="d675638e155">
+</td></tr><tr><td id="d729736e155">
 
 **From an injury and illness list**
 

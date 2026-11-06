@@ -1,5 +1,5 @@
 ---
-title: Roles in Smart Assessment Engine
+title: Roles installed in Smart Assessment Engine
 description: Roles determine the permissions and access in the Smart Assessment Engine application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/smart-assessment-engine/sae-roles-defined.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Components installed with Smart Assessment Engine, Reference, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
-# Roles in Smart Assessment Engine
+# Roles installed in Smart Assessment Engine
 
 Roles determine the permissions and access in the Smart Assessment Engine application.
 
@@ -43,6 +43,7 @@ Assessment reader \[sn\_smart\_asmt.assessment\_reader\]
 
 -   Read assessments that are within the categories that have the assessment reader role assigned.
 -   Read, reassign, and comment on the assessments that you have requested.
+-   Edit the due date of the assessments that you have requested, while they're in the open state.
 -   View and comment on the assessments generated from any templates that have the assessment reader role configured.
 
 </td></tr><tr><td>
@@ -51,9 +52,7 @@ Assessment admin \[sn\_smart\_asmt.assessment\_admin\]
 
 </td><td>
 
-Includes the assessment\_admin role.
-
- Administrator for the SAE application.
+Administrator for the SAE application.
 
  -   Access the Assessment Workspace.
 -   Create, view, update, or delete a template category.
@@ -61,7 +60,9 @@ Includes the assessment\_admin role.
 **Note:** A template category can't be deleted until any attached templates are removed.
 
 -   Create, view, update, or delete an assessment template.
+-   Create, view, update, or delete a question bank, regardless of QB category role.
 -   View, cancel, or reassign assessments.
+-   Edit the due date of an assessment, while it's in the open state.
 -   Migrate the existing metric types to the assessment templates.
 
 </td></tr><tr><td>
@@ -83,14 +84,26 @@ Template reader \[sn\_smart\_asmt.template\_reader\]
 
 </td></tr><tr><td>
 
+Template contributor \[sn\_smart\_asmt.template\_contributor\]
+
+</td><td>
+
+Includes template\_reader.
+
+ -   Read and write specific assessment template elements \(questions, sections, response options, and conditions\) based on categories mapped to the templates.
+-   Access to template categories is governed by the same logic as for template reader. Additionally, the user must match the contributor user criteria assigned to the specific template to edit its content.
+
+</td></tr><tr><td>
+
 Template manager \[sn\_smart\_asmt.template\_manager\]
 
 </td><td>
 
-Includes the template\_reader role.
+Includes the Template\_reader and question\_bank\_reader roles.
 
  -   Read, write, and create the specific assessment templates that are based on the categories that are mapped to the templates.
 -   Access the template categories if you have a template category role that is associated with that template.
+-   Access question banks and add their published questions to assessment templates.
 
 </td></tr><tr><td>
 
@@ -102,13 +115,33 @@ Read, write, and create the script for response automation in assessment questio
 
 </td></tr><tr><td>
 
+Question bank manager \[sn\_smart\_asmt.question\_bank\_manager\]
+
+</td><td>
+
+Includes the question\_bank\_reader role.
+
+ -   Create, view, update, and delete question banks, sections, and questions within categories that have a matching QB category role.
+-   Move questions through the draft, ready to publish, published, and retired lifecycle stages.
+
+</td></tr><tr><td>
+
+Question bank reader \[sn\_smart\_asmt.question\_bank\_reader\]
+
+</td><td>
+
+-   View published questions in question banks within categories that have a matching QB category role.
+-   Add published questions from a question bank to an assessment template.
+
+</td></tr><tr><td>
+
 Automation reader \[sn\_smart\_imp.auto.automation\_reader\]
 
 </td><td>
 
 -   Read the automation created for the assessment template.
 -   Access the Assessment Workspace.
--   Reads an assessment template if you have a template category role that is associated with that template.
+-   Read an assessment template if you have a template category role that is associated with that template.
 
 </td></tr><tr><td>
 

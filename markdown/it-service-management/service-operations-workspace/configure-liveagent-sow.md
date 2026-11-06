@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Operate, Service Operations Workspace for ITSM, IT Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Operating IT services in your organization, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Live Agent chat in Service Operations Workspace
@@ -22,11 +22,15 @@ After the plugin installation, an inbox icon \[Omitted image "inbox-icon.jpg"\] 
 
 By default, the status of the agent is Offline. To start the communication, the agent must modify the status to Available.
 
-When the customer reports an incident through Live Agent \(for example, through the Service Portal\), an incident is created automatically in the Inbox. The agent can then work on the incident and chat with the user simultaneously to resolve the issue.
+When the customer reports an incident through Live Agent \(for example, through the Service Portal\), an incident is created automatically in the Inbox. The agent can then work on the incident by selecting **Accept** and chat with the user simultaneously to resolve the issue.
 
-\[Omitted image "live-agent-sow.png"\] Alt text: Incident created by Live Agent chat in SOW.
+\[Omitted image "incoming-chat-ims.png"\] Alt text: Live agent chat
 
-For more information about Live Agent chat integration, see [Move from Connect Support to Advanced Work Assignment and Agent Chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/migrate-from-connect-support.md).
+After the agent accepts the chat, the Inbox is hidden, allowing the agent to focus on resolving the incident.
+
+\[Omitted image "chat-hidden-ims.png"\] Alt text: Active chat
+
+For more information about Live Agent chat integration, see .
 
 **Parent Topic:**[Operating IT services in your organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/enhancing-services-operations-in-organization.md)
 

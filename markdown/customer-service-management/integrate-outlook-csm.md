@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/integrate-outlook-csm.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integrating with Microsoft Outlook, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrating with Microsoft Outlook, Integrate, Customer Service Management]
 ---
 
 # Integrate Customer Service Management with Microsoft Outlook
@@ -30,7 +30,7 @@ Role required: admin
 
 3.  Click **Activate**.
 
-4.  Search for the CSM Extension for Proxy Contacts plugin \(com.snc.csm\_proxy\_contacts\).
+4.  Search for the Customer Proxy Contacts plugin \(com.snc.csm\_proxy\_contacts\).
 
 5.  Click **Activate**.
 

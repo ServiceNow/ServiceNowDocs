@@ -1,20 +1,20 @@
 ---
 title: Getting started with Digital Portfolio Management
-description: The Digital Portfolio Management \(DPM\) Workspace is a unified environment to view all your services, service offerings, business applications, and application services. With the proper access, you can also view details and edit the solutions without having to leave the DPM experience.
+description: The Digital Portfolio Management \(DPM\) Workspace is a unified environment to view all your services, service offerings, business applications, and service instances. With the proper access, you can also view details and edit the solutions without having to leave the DPM experience.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-service-management/digital-portfolio-management/dpm-using-cfx.html
 release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Digital Portfolio Management, IT Service Management]
 ---
 
 # Getting started with Digital Portfolio Management
 
-The Digital Portfolio Management \(DPM\) Workspace is a unified environment to view all your services, service offerings, business applications, and application services. With the proper access, you can also view details and edit the solutions without having to leave the DPM experience.
+The Digital Portfolio Management \(DPM\) Workspace is a unified environment to view all your services, service offerings, business applications, and service instances. With the proper access, you can also view details and edit the solutions without having to leave the DPM experience.
 
 ## Getting started with the DPM Workspace
 
@@ -36,12 +36,12 @@ To learn about the plugins and roles required to view data from other ServiceNow
 
 The DPM base roles and plugins enable some actions like create demand and improvement initiatives. To make more substantial actions or edits, you must have the proper access control list \(ACL\) permissions from the applications that you want to work with in DPM.
 
--   **[Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md)**  
-Personalize your Digital Portfolio Management \(DPM\) Workspace homepage to meet your needs. You can edit the status conditions of each solution, add solutions, search for solutions, and filter solutions by status and by type.
+-   **[Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md)**  
+Personalize your Digital Portfolio Management \(DPM\) Workspace home page to meet your needs. You can edit the status conditions of each solution, add solutions, search for solutions, and filter solutions by status and by type.
 -   **[Create custom record views](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-configure-record-views.md)**  
 Create a UX custom form view to show any record for a given table in Digital Portfolio Management \(DPM\).
 -   **[Navigate enterprise portfolios in Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-enterprise-portfolio.md)**  
-You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and application service. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and application services are created with the enterprise portfolio tables.
+You can work with three types of enterprise portfolios in the Digital Portfolio Management \(DPM\) Workspace — service, business application, and service instance. Even though you can view service enterprise portfolios in DPM, they're created with Service Portfolio Management tables. Enterprise portfolios for business applications and service instances are created with the enterprise portfolio tables.
 
 **Parent Topic:**[Digital Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-landing.md)
 

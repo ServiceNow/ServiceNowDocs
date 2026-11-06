@@ -1,24 +1,24 @@
 ---
-title: Configure IDP attribute for Session Access
-description: Use Identity Provider \(IDP\) attribute created from the Security Assertion Markup Language \(SAML\) response for removing or restricting user session access to the instance.
+title: Configure Identity Provider attribute for Session Access
+description: Use Identity Provider \(IDP\) attribute created from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) for removing or restricting user session access to the instance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/configure-idp-session-access.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Tutorial: Use Zero Trust Access, Zero Trust Access, Access Management]
+breadcrumb: [Use ZTA, Zero Trust Access, Access Management]
 ---
 
-# Configure IDP attribute for Session Access
+# Configure Identity Provider attribute for Session Access
 
-Use Identity Provider \(IDP\) attribute created from the Security Assertion Markup Language \(SAML\) response for removing or restricting user session access to the instance.
+Use Identity Provider \(IDP\) attribute created from the Security Assertion Markup Language \(SAML\) response and OpenID Connect \(OIDC\) for removing or restricting user session access to the instance.
 
 ## Before you begin
 
 Role required: security\_admin
 
-Enable the **Enable Session Access property**.
+The **Enable Session Access property** must be enabled.
 
 **Note:** To use the Session Access role configuration, you must elevate your role to `security_admin`.
 
@@ -35,7 +35,7 @@ The following procedure shows steps to configure the IDP attribute from the SAML
 
 2.  On the Session Access Role Configurations page, select **New**.
 
-3.  For removing any role for the user, on the form, fill the fields:
+3.  For removing any role for the user, on the form, fill in the fields:
 
     -   Name
     -   Description
@@ -65,7 +65,7 @@ The following procedure shows steps to configure the IDP attribute from the SAML
         -   **Policy Conditions**: Risk score from 60 through 80 as a condition.
         \[Omitted image "idp-attri.png"\] Alt text: Identity Attribute Risk Score
 
-        Based on this configuration, when the risk score attribute value from the Okta \(IDP\) beyond 80, the user isn’t authenticated with the roles \(**employee**\) and its child roles that were removed to the instance, the user is only authenticated with other roles assigned. If the risk score is from 60 through 80, the user is authenticated to the instance with all the roles.
+        Based on this configuration, when the risk score attribute value from the Okta \(IDP\) is above 80, the user isn’t authenticated with the roles \(**employee**\) and its child roles that were removed to the instance, the user is only authenticated with other roles assigned. If the risk score is from 60 through 80, the user is authenticated to the instance with all the roles.
 
         For more information on how to create Post Authentication Context's Policy with Policy inputs and Condition, see [Post-authentication context](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/post-auth-context.md).
 

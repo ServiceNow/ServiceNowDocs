@@ -7,23 +7,21 @@ release: yokohama
 product: Health and Safety
 classification: health-and-safety
 topic_type: concept
-last_updated: "2025-11-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Integration with third party services, Health and Safety, Employee Service Management]
+breadcrumb: [Integration with third-party services, Health and Safety, Employee Service Management]
 ---
 
 # Integration of 3E with Health and Safety Environmental Management
 
 Enables you by reducing manual effort in obtaining data, improving data accuracy, and streamlining workflows. This integration promotes easier access and management of information in one unified environment.
 
--   **[3E service provider overview](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-3E-protect-overview.md)**  
-3E Protect is an external API service that provides access to a vast database of chemical metadata and Safety Data Sheets \(SDS\).
--   **[Configure the application registry for the 3E Service Provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-configure-application-registry-3E.md)**  
-Configure 3E integration with Health and Safety Environmental Management to retrieve current chemical data.
--   **[Configure the property for 3E integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-configure-property-3e-integration.md)**  
-Configure the property that enables retrieving safety data sheets, SOP’s and other metadata from the 3E database to the chemical library. This property enables users to have the necessary safety information before they use the chemical.
--   **[Sync chemical information with the 3E database](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-sync-chemical-data-with-3E.md)**  
-You can sync details of chemicals, such as hazard identification, chemical ingredients, and others, with the 3E database to ensure that current information is accessible.
+Integration with 3E enables the following two external APIs:
+
+-   **[3E Protect](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-3e-protect.md)**  
+3E provides an external API called 3E Protect that integrates with Health and Safety Environmental management to automate chemical safety information retrieval and maintenance.
+-   **[3E Regulatory Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/hs-3e-regulatory-intelligence.md)**  
+3E regulatory intelligence is an extension of the 3E service provider integration that retrieves regulatory list data for chemical substances directly from the 3E server.
 
 **Parent Topic:**[Integration of Health and Safety applications with third-party services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/health-and-safety/integration-health-safety-with-third-party-services.md)
 

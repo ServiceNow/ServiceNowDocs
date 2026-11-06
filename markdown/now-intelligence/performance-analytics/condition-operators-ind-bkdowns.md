@@ -7,9 +7,9 @@ release: yokohama
 product: Performance Analytics
 classification: performance-analytics
 topic_type: concept
-last_updated: "2025-10-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
+breadcrumb: [Configure fundamentals, Performance Analytics \(Indicator data sources\), Platform Analytics]
 ---
 
 # Conditional filters and operators for indicators and breakdowns
@@ -47,10 +47,10 @@ When you select an indicator data source for a data visualization, you have the 
 
 The availability of the "is one of" and "is \(dynamic\)" operators depends on how you configure the indicator. The indicator must support multi-element aggregates. The required configuration settings follow:
 
--   **Is one of**
+-   **is one of**
     -   The aggregation method must not be AVG or COUNT DISTINCT. This requirement applies to automated indicators including the contributing indicators of formula indicators.
     -   If the indicator is a formula indicator, the **Allow aggregation of multiple breakdown element scores** option must be on.
--   **Is \(dynamic\)**
+-   **is \(dynamic\)**
     -   The aggregation method must not be AVG or COUNT DISTINCT. This requirement applies to automated indicators including the contributing indicators of formula indicators.
     -   The field in the breakdown source must be a reference field.
     -   An elements filter must be defined for the breakdown source, and this elements filter must have a dynamic conditional filter. For an example, see the Me elements filter on an instance. For more information, see [Element filters](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/performance-analytics/c_BreakdownElementFilters.md).

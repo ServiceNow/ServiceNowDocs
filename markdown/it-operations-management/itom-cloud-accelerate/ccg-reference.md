@@ -7,8 +7,8 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Cloud Configuration Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
@@ -38,6 +38,12 @@ Cloud Configuration Governance \(CCG\) uses Integration Hub subflows to interact
 Cloud Action Library \(CAL\) offers various actions that you can use to build the Integration Hub subflows for Cloud Configuration Governance.
 -   **[Cloud permissions for collecting Cloud Configuration Governance keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-permissions-for-collecting-config-keys.md)**  
 The Cloud Configuration Governance requires appropriate cloud permissions to collect the base system configuration keys from the cloud. Therefore, you must set the appropriate permissions in the cloud to suit the needs of your organization.
+-   **[AWS policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/aws-policies.md)**  
+The Cloud Configuration Governance AWS policies are listed for your reference.
+-   **[Azure policies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/azure-policies.md)**  
+The Cloud Configuration Governance AWS policies are listed for your reference.
+-   **[Policy sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/aws-policy-set.md)**  
+The Cloud Configuration Governance policy sets and its policies are listed for your reference.
 
 **Parent Topic:**[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-configuration-governance.md)
 

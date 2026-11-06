@@ -7,7 +7,7 @@ release: yokohama
 product: Change Management
 classification: change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Change Management, IT Service Management]
 ---
@@ -32,7 +32,7 @@ Role required: admin
 
     For example, to enable multiple CI association for problem records, add `problem` as a value, separated by a comma.
 
-4.  Click **Update** to save and update the property.
+4.  **Update** to save and update the property.
 
 5.  Complete the following steps to disable multiple CI association for the Change Request form.
 

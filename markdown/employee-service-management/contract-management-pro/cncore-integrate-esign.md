@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-03-12"
 reading_time_minutes: 3
-breadcrumb: [External applications for Contract Management Pro, Configuring Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Configure external applications, Configure, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure an e-signature provider
@@ -24,7 +24,7 @@ The following video walks you through the process of configuring your e-signatur
 
 Ensure that the administrator has installed and set up spokes in Integration Hub for the electronic signature providers that you want to configure.
 
--   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/adobe-sign-spoke.md) v2.5.1 or later version**
+-   **[Adobe Sign spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/adobe-sign-spoke.md) v2.8.0 or later version**
 
     For more information on the setup and synchronizing the Adobe Acrobat Sign group, see [Synchronize Adobe Acrobat Sign group with ServiceNow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/integrate-applications/setup-adobe-sign.md).
 
@@ -44,6 +44,8 @@ Role required: sn\_cm\_core.contract\_config
     -   To create an external app configuration, click **New**.
     -   To modify an existing external app configuration, open the external app configuration from the list.
 3.  On the Contract Integration Type page, click the **Electronic Signature** link.
+
+    \[Omitted image "cmpro-electronic-signature.png"\] Alt text: Electronic signature form
 
 4.  On the form, fill in the fields.
 
@@ -87,8 +89,10 @@ Table
 
 Table configured to store the request details for your application. All documents attached to records created in the selected table uses the configured electronic signature provider for signing. For example, if you configure Docusign as the electronic signature provider, and select the Contract Request table \[sn\_cm\_core\_contract\_request\], then all the contract documents attached to contract requests created in the Contract Request table will follow the Docusign e-signature flow for signing.
 
- **Note:** The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure electronic signature provider.
+ **Note:**
 
+-   The Contract Request table \[sn\_cm\_core\_contract\_request\] is selected by default to centralize the configuration on a single table and improve reusability across product lines. You can choose to configure a different table to configure electronic signature provider.
+-   For standalone requests the configurations should be done on the Contract Request table \[sn\_cm\_core\_contract\_request\].
 **Note:** If you select a different table, you must associate a corresponding flow.
 
 </td></tr><tr><td>
@@ -157,7 +161,9 @@ The conﬁguration for the electronic signature is ready to be used for signing 
 
 **Note:** \(Optional\) You can view, edit, and delete the record.
 
-**Parent Topic:**[External applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
+For information on configuring external storage, see [Configure an external storage system](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-integrate-ext-storage.md).
+
+**Parent Topic:**[Configuring external applications for Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-set-ext-app-config.md)
 
 **Related topics**  
 

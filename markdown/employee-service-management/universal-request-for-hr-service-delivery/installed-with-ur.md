@@ -7,7 +7,7 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Activate Universal Request, Universal Request plugins, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---

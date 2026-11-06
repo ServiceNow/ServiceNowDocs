@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage issues in Policy and Compliance Management, Use the Classic user interface for Policy and Compliance tasks, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Manage issues, Classic UI, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Report self-identified issues via the Service Portal
@@ -20,7 +20,7 @@ Your employees and business users within your company can self-identify an issue
 
 You must download the GRC: Advanced Core application before you can use the Issue Triage featuring within Policy and Compliance Management. For more information, see [Download a GRC application from the ServiceNow Store for the first time](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/download-grc-first-time.md).
 
-Role required: sn\_compliance.user, sn\_grc.business\_user, sn\_grc.business\_user\_lite
+Role required: sn\_compliance.user, sn\_grc.business\_user
 
 ## About this task
 
@@ -34,11 +34,7 @@ There are multiple methods you can use to report an issue using the Service Port
 
     2.  Press the Return key.
 
-    \[Omitted image "service-portal1.png"\] Alt text: Service Portal
-
 2.  In the screen header, navigate to **GRC** &gt; **My Issues** to view issues already assigned to you.
-
-    \[Omitted image "my-issues.png"\] Alt text: My issues
 
 3.  Click **Report an Issue**.
 

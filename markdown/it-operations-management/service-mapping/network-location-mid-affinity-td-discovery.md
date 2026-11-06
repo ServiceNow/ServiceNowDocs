@@ -7,8 +7,8 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: concept
-last_updated: "2025-08-03"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Advanced Service Mapping configuration, Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
@@ -26,7 +26,9 @@ Two properties included with Service Mapping offer a solution to system administ
 
     **Note:** For subnet-based MID affinity to take effect, an executed horizontal Discovery schedule configured to use the IP range targeted by top-down Service Mapping must exist. If no matching horizontal Discovery history exists for the IP range, affinity will not apply.
 
--   Network location: After locations have been assigned to the horizontal discovery schedules, you can enable the **sm.network\_location.detect\_host\_by\_location** system property, which adds a **Network Location** field to the Entry point form. The top-down discovery process starts with the entry point defined on this form and can then identify both the MID Server and the host using the location provided in the horizontal discovery schedule.
+-   Network location: After locations have been assigned to the horizontal discovery schedules, you can enable the **sm.network\_location.detect\_host\_by\_location** system property, which adds a **Network Location** field to the Entry point form. The top-down discovery process starts with the entry point defined on this form. It can then identify both the MID Server and the host using the location provided in the horizontal discovery schedule.
+
+Legacy MID Server selection: Verify that **sa.mapping.legacy\_mid\_selection** is set to false. When set to true, Service Mapping uses the legacy MID Server selection algorithm and the MID affinity properties have no effect, regardless of their configuration.
 
 To learn more about enabling each property, see [Components installed with Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/components-installed-with-service-mapping.md)
 

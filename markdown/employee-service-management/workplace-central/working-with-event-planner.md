@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -24,6 +24,8 @@ Check details of a reservation created in your workplace.
 As a reservation planner, edit a reservation directly using the event planner.
 -   **[Working with schedule view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/working-with-schedule-view.md)**  
 You can check any reservations created in your workplace and also make changes using the schedule view of the event planner.
+-   **[Print reservation details](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/print-reservation-details.md)**  
+Print the details of a reservation created in your workplace.
 -   **[Cancel a reservation from the Event planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/cancel-a-reservation-from-the-event-planner.md)**  
 As a reservation planner, the Event planner enables you to cancel a reservation at any time.
 -   **[Open and view Location directory from Event Planner](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-central/open-location-directory-eventplanner.md)**  
@@ -35,6 +37,8 @@ Open and view the location directory portal from the Event planner home page and
 
 
 [Creating custom lists on Workplace Central]()
+
+[Working with Space Planning]()
 
 [Working with Space Optimization]()
 

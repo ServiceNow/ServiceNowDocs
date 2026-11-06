@@ -1,26 +1,24 @@
 ---
-title: Add a Now Assist skill to an AI agent
+title: Add a generative AI skill to an AI agent
 description: Add a generative AI skill to an AI agent in AI Agent Studio. You can customize the skills to meet the needs of your users in different workflows.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/add-skill-ai-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Add tools and information, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Add tools and information, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
-# Add a Now Assist skill to an AI agent
+# Add a generative AI skill to an AI agent
 
 Add a generative AI skill to an AI agent in AI Agent Studio. You can customize the skills to meet the needs of your users in different workflows.
 
 ## Before you begin
 
-If you want to add a custom skill to an AI agent, the skill must be published and activated on the Now Assist Admin console. For more information on deploying custom skills, see [Finalize and publish a custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/publish-skill.md) and [Activate a custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
+If you want to add a custom skill to an AI agent, the skill must be published and activated on the . For more information on deploying custom skills, see [Finalize and publish a custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/publish-skill.md) and [Activate a custom skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/activate-skill.md).
 
-Once the skill is published and activated, navigate to the Skill Config \[sn\_nowassist\_skill\_config\_status\] table, locate the record for the skill, and set **Active** to `true`.
-
-When an AI agent uses a skill as a tool, the user the AI agent is running as must pass the ACL of the skill. Ensure that the security configurations for the skill are met by the AI agent and agentic workflow.
+When an AI agent uses a skill as a tool, the user the AI agent is running as must pass the ACL of the skill. Ensure that the security configurations for the skill are met by the AI agent and agentic workflow. For more information on setting skill-level ACLs, see [Configure access control lists for a skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skill-kit/nask-access-control.md).
 
 Role required: sn\_aia.admin
 
@@ -30,7 +28,7 @@ Role required: sn\_aia.admin
 
 2.  Open the AI agent that you want to add a skill to and navigate to the Add tools and information section.
 
-3.  In the Add tool drop-down list, select **Now Assist skill**.
+3.  In the Add tool drop-down list, select **Generative AI skill**.
 
 4.  On the form, fill in the fields.
 
@@ -80,7 +78,7 @@ Execution mode
 
 </td><td>
 
-Mode of execution for your skill:-   **Supervised**: Inputs from your live agent are required during the execution of this tool while the AI agent runs.
+Mode of execution for your skill:-   **Supervised**: Inputs from your human agent are required during the execution of this tool while the AI agent runs.
 -   **Autonomous**: Doesn't require any input from your live agent during the execution of this tool while the AI agent runs.
 
 
@@ -90,34 +88,49 @@ Display output
 
 </td><td>
 
-Permission to display the output of the tool execution in the Now Assist panel or in Virtual Agent:-   **Yes**
+Permission to display the output of the tool execution in the ServiceNow Otto panel or in Virtual Agent:-   **Yes**
 -   **No**
+If you want the AI agent to work in Off Glide architecture with Premium Chat experience, you must turn-on the **Display output** toggle. When the toggle is turned-on, you can add widgets that can be used in assistants built with Premium Chat experiences. The widget configuration includes:
 
+-   **Widget**: Defines the display output to render the content in a better user experience. You can select the widget from the drop-down.
+-   **Require widget transformation**: An additional LLM call is required to transform the raw tool. If you choose to skip this transformation step, the tool output will be directly mapped to the widget.
+    -   **Yes**
+    -   **No**
+-   **Display refined widget message**: Refines the widget message when configured.
+    -   **Yes**
+    -   **No**
+**Note:** The display output as a toggle is exclusively available for the Premium Chat experience when the Off Glide Conversation Server plugin \(com.glide.cs.offglide\) is installed. If the plugin is not installed, you will continue to access the standard display output options.
+
+</td></tr><tr><td colspan="2">
+
+Advanced settings
 
 </td></tr><tr><td>
 
-Processing message
+Select an output transformation format
 
 </td><td>
 
-Message to display to users when the tool is running.
-
-</td></tr><tr><td>
-
-Output transformation strategy
-
-</td><td>
-
-Style for the LLM to present the results as it passes information between tools and to other agents.-   None
+Style for the LLM to present the results as it passes information between tools and to other agents. Out transformation formats:-   None
 -   Concise
 -   Paragraph
--   Verbose
+-   Summary
 -   Custom
+
+
+</td></tr><tr><td>
+
+Write processing messages for users
+
+</td><td>
+
+Message to display to users during tool execution.-   In-progress message: Write an in-progress message to be displayed to end-users while the tool is running.
+-   Completion message: Write a completion message to be displayed to end-users once the tool finishes running.
 
 
 </td></tr></tbody>
 </table>5.  Select **Add**.
 
-    A Now Assist skill tool is added in the Skills section on the Add tools and information page.
+    A generative AI skill tool is added in the Skills section on the Add tools and information page.
 
 

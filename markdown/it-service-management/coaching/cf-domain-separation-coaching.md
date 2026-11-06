@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Coaching reference, Coaching, IT Service Management]
+breadcrumb: [Reference, Coaching, IT Service Management]
 ---
 
 # Domain separation and Coaching
@@ -44,7 +44,7 @@ When domain separation is implemented, coach and trainee users can view coaching
 
 The **Domain** column contains the name of the domain to which the event or alert belongs, and the **Domain Path** column contains the unique domain identifier.
 
-**Note:** If the domain column is not shown, click the **Update Personalized List** icon and add the required column. You can also add the domain path column, if desired.
+**Note:** If the domain column is not shown, select the **Update Personalized List** icon and add the required column. You can also add the domain path column, if desired.
 
 ## Domain-separated tables
 

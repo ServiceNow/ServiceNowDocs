@@ -7,7 +7,7 @@ release: yokohama
 product: Issue Auto Resolution for HR
 classification: issue-auto-resolution-for-hr
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
@@ -30,7 +30,7 @@ The key benefits of using the Issue Auto Resolution application are:
 
 ## HR case auto-resolution that is powered by AI
 
-For high-volume, non-critical cases, the Issue Auto Resolution application gives near real-time self-service options through the response channels that the employee would like to engage with. The Issue Auto Resolution application can detect which cases are critical and bring them to your agents' attention, which ensures that the employee gets timely assistance.
+For high-volume, non-critical cases, the Issue Auto Resolution application gives near real time self-service options through the response channels that the employee would like to engage with. The Issue Auto Resolution application can detect which cases are critical and bring them to your agents' attention, which ensures that the employee gets timely assistance.
 
 ## Omni-channel or multichannel experience
 
@@ -38,7 +38,7 @@ The omni-channel or multichannel experience enables employees to ask for help th
 
 ## Cost savings for the organization
 
-Nearly 50–80 percent of employee requests are submitted through an unstructured format because employees often prefer the easiest and fastest route to ask for help. Most of these requests are routine or non-critical. By using the Issue Auto Resolution application, you can automate the resolution of high-volume, low-value HR cases. This automation reduces the cost and effort of manually triaging and solving routine cases.
+Nearly 50–80 percent of employee requests are submitted through an unstructured format because employees often prefer the easiest and fastest route to ask for help. Most of these requests are routine or non-critical. By using the Issue Auto Resolution application, you can automate the resolution of high-volume, low-value HR cases. This automation reduces the cost and effort of manually sorting and solving routine cases.
 
 ## Near real-time response
 
@@ -54,7 +54,7 @@ The Issue Auto Resolution dashboard lets your administrators monitor your dashbo
 
 </td><td>
 
-[Use \[Omitted image "bus-task-list.svg"\] Alt text: Process how HR cases and feedback are handled by Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.md)
+[Use \[Omitted image "bus-agent-workspace-1.svg"\] Alt text: Process how HR cases and feedback are handled by Issue Auto Resolution.](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/issue-auto-resolution-for-hr/using-iar-for-hr.md)
 
 </td></tr><tr><td>
 

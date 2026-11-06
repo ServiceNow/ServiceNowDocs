@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -83,7 +83,7 @@ Stories By State
 
 </td><td>
 
-Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -95,7 +95,7 @@ Feature Burnup
 
 </td><td>
 
-Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -129,7 +129,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -146,7 +146,7 @@ Identify the time taken for each story in the feature to move from an in-progres
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
+ If the bubbles appear crowded in an area of the chart, zoom in on that area for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

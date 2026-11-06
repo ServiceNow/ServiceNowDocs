@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/configure-psds-core.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
-breadcrumb: [Set up your environment, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+last_updated: "2026-03-12"
+reading_time_minutes: 3
+breadcrumb: [Getting Started with Public Sector, Set up your environment, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Install and configure the Public Sector Digital Services Core application
@@ -32,7 +32,7 @@ Task
 
 Install Public Sector Digital Services Core \(sn\_gsm\) from the ServiceNow® Store. It provides these key features:-   Government Service Portal: Used by constituents and businesses to find, track, and request government services.
 -   Agency Services Portal: Used by admins and managers to manage internal and external agency locations.
--   CRM Workspace: Used by agency agents, government agents, and government service managers to interact with and assist constituents, businesses, and contributors who are authorized to represent or assist constituents and businesses. This workspace requires configuration for public sector use.
+-   Public Sector Workspace: Used by agency agents, government agents, and government service managers to interact with and assist constituents, businesses, and contributors who are authorized to represent or assist constituents and businesses. This workspace requires configuration for public sector use.
 
 </td></tr><tr><td>
 
@@ -40,15 +40,15 @@ Install Public Sector Digital Services Core \(sn\_gsm\) from the ServiceNow® St
 
 </td><td>
 
-Assign public sector roles to users or groups that have been configured in the ServiceNow AI Platform®. For additional role information, see [Roles installed with Public Sector Digital Services Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/installed-with-public-sector-digital-services-core.md).
+Assign public sector roles to users or groups that have been configured in the ServiceNow AI Platform®. For additional role information, see [Roles installed with Public Sector Digital Services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/roles-installed-with-public-sector-digital-services.md).
 
 </td></tr><tr><td>
 
-[Configure Public Sector Digital Services Core using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/psds-use-gs.md)
+[Configure Public Sector Digital Services Core foundational data using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/government-industry/configure-psds-foundation-data.md)
 
 </td><td>
 
-Use guided setup to customize the Government Service Portal used by constituents, businesses, and agencies; configure the CRM Workspace for agents; and set up other features for public sector use.
+Use guided setup to customize the Government Service Portal used by constituents, businesses, and agencies; configure the Public Sector Workspace for agents; and set up other features for public sector use.
 
 </td></tr><tr><td>
 
@@ -56,7 +56,7 @@ Use guided setup to customize the Government Service Portal used by constituents
 
 </td><td>
 
-Customize the government service portal and configure the CRM Workspace for agents.
+Customize the government service portal and configure the Public Sector Workspace for agents.
 
 </td></tr><tr><td>
 

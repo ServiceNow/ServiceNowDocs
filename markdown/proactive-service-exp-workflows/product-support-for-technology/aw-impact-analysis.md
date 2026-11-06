@@ -1,20 +1,20 @@
 ---
-title: Create cases from an incident record in Proactive Service Experience Workflows
-description: Create cases from records so that you can identify and solve network issues for your enterprise customers.
+title: Resolve an incident record in Proactive Service Experience Workflows
+description: Resolve an incident record by creating cases from record so that you can identify and solve network issues for your enterprise customers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/proactive-service-exp-workflows/product-support-for-technology/aw-impact-analysis.html
 release: yokohama
 product: Product Support for Technology
 classification: product-support-for-technology
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [About identifying affected accounts with Proactive Service Experience Workflows in Incident Management, Using Proactive Service Experience Workflows, Proactive Service Experience Workflows]
+breadcrumb: [Identify affected accounts, Use, Proactive Service Experience Workflows, Product Support for Technology]
 ---
 
-# Create cases from an incident record in Proactive Service Experience Workflows
+# Resolve an incident record in Proactive Service Experience Workflows
 
-Create cases from records so that you can identify and solve network issues for your enterprise customers.
+Resolve an incident record by creating cases from record so that you can identify and solve network issues for your enterprise customers.
 
 ## Before you begin
 
@@ -38,28 +38,29 @@ After a workflow in Proactive Service Experience Workflows triggers, you can ide
 
 5.  See the impacted services by selecting the **Impacted Services/CIs** card and selecting **Refresh Impacted Services**.
 
-6.  See the affected accounts by selecting the **Affected Accounts** card and selecting **Identify Affected Accounts**.
+6.  See the affected accounts by selecting the **Customer impact** tab.
 
-    The ServiceNow® instance initiates an action to refresh the impacted services and to find the affected accounts.
+    To learn more about the **Customer impact** tab, see [Enhancing customer impact visibility for PSEW processes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/enhance-customer-impact-visibility-psew-process.md).
 
-7.  Look for the names of the customers who are affected by selecting the **Affected Accounts** card and checking the Name column.
+7.  Look for the names of the customers who are affected by selecting the Affected accounts section and checking the Account column.
 
     Typically, the network coordinator creates cases so that the impacted customers are proactively notified of the network-initiated issues.
 
-8.  Generate proactive cases for the affected customers by selecting the Cases card and selecting **Generate Proactive Cases**.
+8.  Generate proactive cases for the affected customers.
 
-    -   If the number of affected accounts is less than the threshold, then this action creates one case for each affected account. Otherwise, this action first creates a major case and then creates child cases \(one case for each affected account\).
-    -   If you want to change the threshold, contact your administrator to change the value of the **sn\_ind\_tsm\_core.major\_case-affected\_account\_threshold** system property.
-    -   In the **Cases** tab, the major case is indicated by **\[empty\]** in the Account and Contact columns. Cases where that information is populated are child cases of that major case.
-9.  Create an ad-hoc case by selecting a case from the list and selecting **New**.
+    To learn more see, [Generate a proactive case for a customer issue](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/generate-proactive-case-customer-impact-tab.md).
 
-10. Notify a customer by selecting a case and selecting **Notify Customers**.
+9.  Notify a customer about the creation of case record.
 
-11. In the Notify Customers pop-up window, enter a descriptive note, and select **Notify**.
+    To learn more, see [Communicate with customer about proactive case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/create-communication-customer-impact-tab.md).
 
-    A note is automatically inserted in the **Activity** field of the incident record and also in the selected cases record. If your customer updates the case with any message, it automatically synchronizes with the Incident record too.
+10. Update the case record about the resolution progress.
 
-    **Note:** By default, the Notify Customers functionality isn’t active. As an admin, you must set the property value **proactive\_workflows\_for\_providers.additional\_comments\_sync** to TRUE. Turn off the BR \(business rule\) **Update case worknote for comments change** to enable this functionality.
+    To learn more, see [Update the proactive case with the resolution progress notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/notify-customer-proactive-case.md).
+
+11. Create reactive case record.
+
+    To learn more, see [Create a reactive case from the incident record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/proactive-service-exp-workflows/product-support-for-technology/create-reactive-case-cutomer-impact-tab.md).
 
 12. If you want to update the probable cause of the incident, select the **Cause** tab and save your message.
 

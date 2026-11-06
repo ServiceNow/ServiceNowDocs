@@ -7,10 +7,10 @@ release: yokohama
 product: Health Log Analytics
 classification: health-log-analytics
 topic_type: task
-last_updated: "2025-09-02"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [ServiceNow, Health Log Analytics, HLA, source types, log source, migrate, export, update set]
-breadcrumb: [Migrating Health Log Analytics data input configurations between instances, Setting up Health Log Analytics on your ServiceNow instance, Configuring Health Log Analytics, Health Log Analytics, ITOM Health, IT Operations Management]
+breadcrumb: [Migrating a data input configuration, Set up HLA on your instance, Configuring, Health Log Analytics, ITOM AIOps, IT Operations Management]
 ---
 
 # Export source types by log source
@@ -19,7 +19,7 @@ Export all source types related to one or more selected log sources to an update
 
 ## Before you begin
 
-For an overview of this feature, see [Migrating Health Log Analytics data input configurations between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-migration.md).
+For an overview of this feature, see [Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-migration.md).
 
 Role required: evt\_mgmt\_admin
 
@@ -42,9 +42,9 @@ Role required: evt\_mgmt\_admin
 
 ## What to do next
 
-Import the update set to the required ServiceNow instance. For more information, see [Import source types to a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types-import.md).
+Import the update set to the required ServiceNow instance. For more information, see [Import Health Log Analytics source types to a target instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-source-types-import.md).
 
 **Note:** Only the related source types and tables for the selected log sources will be imported, not the data inputs.
 
-**Parent Topic:**[Migrating Health Log Analytics data input configurations between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-migration.md)
+**Parent Topic:**[Migrating a Health Log Analytics data input configuration between instances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/health-log-analytics/hla-data-input-migration.md)
 

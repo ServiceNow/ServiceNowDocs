@@ -1,16 +1,16 @@
 ---
-title: Activate Visa Spoke
+title: Set up Visa Spoke
 description: Activate the Visa spoke in IntegrationHub from the ServiceNow Store, and enable the quick access to payment and security data. You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/activate-visa-spoke.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Financial Services Operations Integration with Visa, Integrating with Visa, Integrating with third-party applications, Integrating applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Visa, Integrate, Financial Services Operations \(FSO\)]
 ---
 
-# Activate Visa Spoke
+# Set up Visa Spoke
 
 Activate the Visa spoke in IntegrationHub from the ServiceNow Store, and enable the quick access to payment and security data. You can use the spoke to search for transactions, collaborate with merchants, manage disputes and perform other functions with enhanced security
 

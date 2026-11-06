@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-20"
 reading_time_minutes: 1
-breadcrumb: [Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Decision tables, Workflow Studio, Build workflows]
 ---
 
 # Decision tables reference
@@ -21,5 +21,5 @@ Use system properties to set limits on the maximum number of inputs and decision
 -   **[Domain separation and Decision Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/domain-separation-decision-builder.md)**  
 This is an overview of domain separation as it pertains to Decision Builder. Domain separation allows you to separate data, processes, and administrative tasks into logical groupings called domains. You can then control several aspects of this separation, including which users can see and access data.
 
-**Parent Topic:**[Workflow Studio reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-reference.md)
+**Parent Topic:**[Workflow Studio decision tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/workflow-studio-decision-tables-landing.md)
 

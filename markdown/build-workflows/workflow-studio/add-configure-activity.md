@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 6
-breadcrumb: [Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 5
+breadcrumb: [Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Add and configure an activity in a playbook
@@ -26,15 +26,15 @@ Review [Stages and activities](https://raw.githubusercontent.com/ServiceNow/Serv
 
 1.  Add an activity.
 
-<table id="choicetable_e2d_3mv_21c"><thead><tr><th align="left" id="d172765e77">
+<table id="choicetable_e2d_3mv_21c"><thead><tr><th align="left" id="d188282e77">
 
 View
 
-</th><th align="left" id="d172765e80">
+</th><th align="left" id="d188282e80">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d172765e86">
+</th></tr></thead><tbody><tr><td id="d188282e86">
 
 **Diagram**
 
@@ -46,7 +46,7 @@ Steps
 
 **Note:** Select the application first, and then the activity from the resulting list.
 
-</td></tr><tr><td id="d172765e118">
+</td></tr><tr><td id="d188282e118">
 
 **Board**
 
@@ -95,7 +95,7 @@ Choose when you want your activity to start running. Options include:-   **When 
 
         **Warning:** Changing the advanced property fields of an activity can potentially break your automation. Make sure you understand how the playbook and its activities flow before you make changes.
 
-<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d172765e274">
+<table id="choicetable_n4l_ydt_vlb"><tbody><tr><td id="d188282e274">
 
 **Display order**
 
@@ -103,7 +103,7 @@ Choose when you want your activity to start running. Options include:-   **When 
 
 Define the order in which this activity will appear during a playbook run.
 
-</td></tr><tr><td id="d172765e286">
+</td></tr><tr><td id="d188282e286">
 
 **Run condition**
 
@@ -111,7 +111,7 @@ Define the order in which this activity will appear during a playbook run.
 
 After the activity starts, the activity runs only if specific conditions are met.
 
-</td></tr><tr><td id="d172765e295">
+</td></tr><tr><td id="d188282e295">
 
 **Start with delay**
 
@@ -119,7 +119,7 @@ After the activity starts, the activity runs only if specific conditions are met
 
 Specify a duration of time to wait before running an activity whose start rule and conditions have been met. For more information, see [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).
 
-</td></tr><tr><td id="d172765e315">
+</td></tr><tr><td id="d188282e315">
 
 **Restart rules**
 
@@ -128,7 +128,7 @@ Specify a duration of time to wait before running an activity whose start rule a
 Choose what this activity does when a playbook is restarted:-   **Skip on restart**: Skip this activity when the run is due to a restart.
 -   **Run always**: Always run this activity, including first runs.
 -   **Skip on first run**: Skip this activity during the first run.
-For more information, see [Enable and Configure Restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md).
+For more information, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md).
 
 </td></tr></tbody>
 </table>3.  Open the **Automation** tab.
@@ -147,9 +147,11 @@ For more information, see [Enable and Configure Restart for Playbooks](https://r
 
         Outputs of the action, subflow, or flow that is driving the activity.
 
-4.  Under the Inputs section, define the values of the activity's inputs.
+4.  Under the **Inputs** section, define the values of the activity's inputs.
 
-    Configure inputs with a hardcoded value, or by [dot-walking to a data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_DotWalking.md) \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\) to use data from previous activities or the playbook trigger.
+    Configure inputs with a hardcoded value, or by [dot-walking to a data pill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_DotWalking.md) \(\[Omitted image "data-pill-picker-icon.png"\] Alt text: Data pill picker icon\) to use data from previous activities, the playbook trigger, from the playbook parent table, or from the playbook inputs.
+
+    **Tip:** You can use both text and multiple pills in any other rich text or HTML input fields.
 
 5.  Open the **UI Layout** tab.
 
@@ -157,11 +159,15 @@ For more information, see [Enable and Configure Restart for Playbooks](https://r
 
     **Note:** All UI Layouts, except for Record generator, display an Associated Record section. For information on how to set up or edit the Associated Record section in an activity definition, see [Create an activity definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/create-activity-definition.md).
 
-6.  Click **Save and close** to save the details of your activity.
+6.  Specify if an AI Agent performs the activity, and how.
+
+    To learn more, see [Configuring Agentic Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/configure-agentic-playbooks.md).
+
+7.  Click **Save and close** to save the details of your activity.
 
     At any point while in the Playbooks builder, you can add more activities to a stage as described in the previous steps.
 
-7.  If the activity you want to add is not in the activity picker, create the activity definition.
+8.  If the activity you want to add is not in the activity picker, create the activity definition.
 
     1.  Under your stage, click **+ Add activity**.
 
@@ -171,7 +177,7 @@ For more information, see [Enable and Configure Restart for Playbooks](https://r
 
     3.  Fill in the following fields.
 
-<table id="choicetable_cf4_jqb_g5b"><tbody><tr><td id="d172765e543">
+<table id="choicetable_cf4_jqb_g5b"><tbody><tr><td id="d188282e558">
 
 **Label**
 
@@ -179,7 +185,7 @@ For more information, see [Enable and Configure Restart for Playbooks](https://r
 
 Enter a unique, user-facing name for your activity. This name appears to agents and fulfillers during runtime of your playbook.
 
-</td></tr><tr><td id="d172765e555">
+</td></tr><tr><td id="d188282e570">
 
 **Accessible From**
 
@@ -187,7 +193,7 @@ Enter a unique, user-facing name for your activity. This name appears to agents 
 
 Where the activity is accessible from. Make the activity accessible to other applications by setting the **Accessible from** field to **All application scopes**. Restrict access by setting the field to **This Application Scope Only**.
 
-</td></tr><tr><td id="d172765e573">
+</td></tr><tr><td id="d188282e588">
 
 **Table**
 
@@ -195,7 +201,7 @@ Where the activity is accessible from. Make the activity accessible to other app
 
 Optionally, set to the table associated with the activity.
 
-</td></tr><tr><td id="d172765e582">
+</td></tr><tr><td id="d188282e597">
 
 **Application**
 
@@ -203,7 +209,7 @@ Optionally, set to the table associated with the activity.
 
 Read-only field that indicates which applications can use this activity.
 
-</td></tr><tr><td id="d172765e591">
+</td></tr><tr><td id="d188282e606">
 
 **Description**
 
@@ -211,7 +217,7 @@ Read-only field that indicates which applications can use this activity.
 
 Optionally, enter some descriptive details about your activity.
 
-</td></tr><tr><td id="d172765e601">
+</td></tr><tr><td id="d188282e616">
 
 **Automation Plan**
 
@@ -219,7 +225,7 @@ Optionally, enter some descriptive details about your activity.
 
 Select the subflow or action that you want to use to automate your activity.
 
-</td></tr><tr><td id="d172765e610">
+</td></tr><tr><td id="d188282e625">
 
 **Activity Experience**
 
@@ -228,7 +234,7 @@ Select the subflow or action that you want to use to automate your activity.
 Optionally, set the activity's experience type, which helps to define how the activity renders in user-facing views of a playbook card at runtime.
 
 </td></tr></tbody>
-</table>8.  Click **Submit** to finish creating your activity definition.
+</table>9.  Click **Submit** to finish creating your activity definition.
 
     Your activity is defined.
 
@@ -238,27 +244,4 @@ Optionally, set the activity's experience type, which helps to define how the ac
 Set up the Playbook Experience for you agents and fulfillers.
 
 **Parent Topic:**[Stages and activities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-lanes-activities.md)
-
-**Related topics**  
-
-
-[Add and configure a stage in a playbook]()
-
-[Activity definitions]()
-
-[Automation Assets]()
-
-[Start with delay input properties]()
-
-[Optional activities]()
-
-[Decision activities]()
-
-[Questionnaire activity]()
-
-[Parallel branches]()
-
-[Add dynamic inputs to an activity]()
-
-[Playbook activity state mapping]()
 

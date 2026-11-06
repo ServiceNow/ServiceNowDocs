@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-playbook-pages.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 8
-breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Playbooks in Customer Service Management, Agent tools, Organize agent workspaces, Configure, Customer Service Management]
 ---
 
 # Playbook pages
@@ -162,7 +162,7 @@ Description
 
 </td><td>
 
-If a playbook is configured to use the  feature, an agent can create a record by using a playbook activity. Creating a record opens the playbook and initiates the first activity, which is to guide an agent through the record creation process.After saving the case, an agent moves to the next activity in the current stage or to the first activity in the next stage.
+If a playbook is configured to use the playbook record generator feature, an agent can create a record by using a playbook activity. Creating a record opens the playbook and initiates the first activity, which is to guide an agent through the record creation process.After saving the case, an agent moves to the next activity in the current stage or to the first activity in the next stage.
 
 </td></tr><tr><td>
 

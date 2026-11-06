@@ -7,9 +7,9 @@ release: yokohama
 product: Mobile Experience for Field Service Management \(Glide Family\)
 classification: mobile-experience-for-field-service-management-glide-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Field Service Mobile Agent, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Setting up Field Service Mobile Agent, Configure, Field Service Management]
 ---
 
 # Activate Sidebar for the Field Service Mobile Agent application
@@ -46,7 +46,7 @@ Activating this plugin enables the Sidebar feature on the Mobile Agent applicati
 **Related topics**  
 
 
-[Start a Sidebar discussion on the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/start-sidebar-mobile.md)
+[Start a Sidebar discussion on the Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/start-sidebar-mobile.md)
 
-[Summarize a Sidebar discussion on the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/now-assist-for-field-service-management-fsm/na-fsm-summarize-sidebar-platform.md)
+[Summarize a Sidebar discussion on the ServiceNow Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/na-fsm-summarize-sidebar-mobile.md)
 

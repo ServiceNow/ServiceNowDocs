@@ -7,14 +7,18 @@ release: yokohama
 product: Communities
 classification: communities
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Gamification components, Gamification, Communities, Customer Service Management]
+breadcrumb: [Gamification components, Gamification, Using communities, Communities, Customer Service Management]
 ---
 
 # Levels and level ranges
 
 Points accumulated by community users can help them achieve different reputation levels.
+
+**Important:**
+
+Starting with the Brazil release, Communities is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
 The system is pre-configured with levels where community users can earn points and achieve expertise or a reputation:
 
@@ -26,7 +30,7 @@ Gamification administrators can configure level ranges within each level. These 
 
 \[Omitted image "GamificationLevelDefinitionForm.png"\] Alt text: Gamification Level Definition - Global Level view of a list of gamification levels and their domains.
 
-In the community portal, users can see level range names and point totals in the [gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-gamification-UI.md).
+In the community portal, users can see the level range names and point totals in the [gamification user interface components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/communities/communities-gamification-UI.md).
 
 -   On the leaderboard page and leaderboard widgets
 -   At the top of a user's profile below the user name and title

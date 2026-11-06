@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use hashtags in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,18 +26,16 @@ Role required: admin
 
 2.  Select the appropriate hashtag.
 
-    \[Omitted image "TagWithImageIcon.png"\] Alt text: Tag with image icon
-
 3.  Do one of the following:
 
-    -   Locate the image in your file system, and then drag-and-drop the image onto the add an image icon \(\[Omitted image "AddAnImage.png"\] Alt text: Add an image\).
+    -   Locate the image in your file system, and then drag-and-drop the image onto the add an image icon \(\).
 
-    -   Click the add an image icon \(\[Omitted image "AddAnImage.png"\] Alt text: Add an image\), select the image file, and click **Open**.
+    -   Click the add an image icon \(\), select the image file, and click **Open**.
 4.  To change the image, simply drag-and-drop a new image onto the old one, or click on the existing one and select a new image.
 
     When you view a message that contains a hashtag with an image, that image appears in the hashtag heading bar.
 
-    \[Omitted image "MsgWithTagIcon.png"\] Alt text: Message with tag icon
+
 
 
 **Parent Topic:**[Use hashtags in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseHashtagsInLiveFeed.md)

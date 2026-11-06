@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on a document task, Using Document Templates, Document Templates, E-signature applications of HR Service Delivery, HR Service Delivery, Employee Service Management]
+breadcrumb: [Working on a document task, Using Document Templates, Document Templates, HR Documents, HR Service Delivery, Employee Service Management]
 ---
 
 # Fill and sign a PDF document
@@ -19,13 +19,15 @@ Complete your document task by filling in the required details and submitting th
 ## Before you begin
 
 -   Role required: none
--   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates. For HR Document Templates, refer to [HR document templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/c_HRDocumentTemplates.md).
+-   This content applies only to the document templates that are created in the Document Templates application \(sn\_doc\). Document Templates is different from HR Document Templates.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Self-service** &gt; **Employee Center**.
 
     Alternatively, you can complete your document tasks by navigating to **Self-Service** &gt; **My Document Tasks**.
+
+    **Note:** PDF signing is also supported on Mobile Browser and NowMobile for the following signing types: ServiceNowSign, AdobeSign, and DocuSign.
 
 2.  Select the To-dos page.
 

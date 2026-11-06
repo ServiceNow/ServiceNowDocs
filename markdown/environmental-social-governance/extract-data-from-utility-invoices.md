@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/environmental-social-governance/extract-data-from-utility-invoices.html
 release: yokohama
 topic_type: task
-last_updated: "2025-09-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Use generative AI skills, Now Assist, Use, Operational Sustainability Management \(formerly Environmental, Social, and Governance\)]
 ---
@@ -24,8 +24,6 @@ Role required: sn\_esg\_gen\_ai.docintel\_user
 -   To avoid utility bill extraction failures, the system must have a valid entity mapping. This mapping links source data such as billing address or utility type to the correct entity in the metric definition.
 
 **Important:** Be sure to check AI-extracted information for accuracy.
-
-**Important:** This Now Assist skill is turned on by default. The skill will be automatically available to appropriate role users for the application. For more information, see [Now Assist skills, agents, and agentic workflows on by default](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/now-assist-skills-on-by-default.md).
 
 ## Procedure
 

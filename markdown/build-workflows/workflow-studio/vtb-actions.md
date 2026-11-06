@@ -1,20 +1,20 @@
 ---
 title: Visual Task Board \(VTB\) Spoke
-description: Use VTB actions to build and manage visual task boards directly in your flows. Create boards and lanes, add cards, manage board members, and assign work within Workflow Studio. If you have the flow\_designer or admin role, you can add these actions to any flow.
+description: Provides VTB actions for flow designers to manage the boards, lanes, cards, board members, and assignees.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/vtb-actions.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Spokes, Workflow Studio flow integrations, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Spokes, Flow integrations, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # Visual Task Board \(VTB\) Spoke
 
-Use VTB actions to build and manage visual task boards directly in your flows. Create boards and lanes, add cards, manage board members, and assign work within Workflow Studio. If you have the flow\_designer or admin role, you can add these actions to any flow.
+Provides VTB actions for flow designers to manage the boards, lanes, cards, board members, and assignees.
 
 <table id="table_td5_g1s_3z"><thead><tr><th>
 

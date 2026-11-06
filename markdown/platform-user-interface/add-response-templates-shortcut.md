@@ -1,18 +1,18 @@
 ---
-title: Add response templates with a keyboard shortcut
-description: Use a keyboard shortcut to insert common responses into your emails with response templates.
+title: Use keyboard shortcuts for emails
+description: Use keyboard shortcuts to view response templates, drafts, and email templates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/add-response-templates-shortcut.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Communicating via email in Workspace, Responding to issues in an open record in Workspace, Using Configurable Workspace, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
+breadcrumb: [Emails, Use, Configurable Workspace UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Add response templates with a keyboard shortcut
+# Use keyboard shortcuts for emails
 
-Use a keyboard shortcut to insert common responses into your emails with response templates.
+Use keyboard shortcuts to view response templates, drafts, and email templates.
 
 ## Before you begin
 
@@ -20,20 +20,34 @@ Role required: email\_composer
 
 ## Procedure
 
-1.  Open a record.
+1.  Open a workspace record on your instance.
 
-2.  Open the mini email composer or the full email composer.
+2.  Open either the mini email composer or the full email composer.
 
-    -   Open the mini email composer by selecting the **Email** tab under the Compose panel.
-    -   Open the full email composer by selecting the **More Actions** icon \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More actions icon\) and **Compose Email**.
-3.  Enter `/r` into the email body.
+    -   **Open the mini email composer**
 
-    A list of response templates appears.
+        From the Compose section, select the **Email** tab.
 
-    \[Omitted image "xs2-shortcut-response-template.png"\] Alt text: Response templates shortcut
+    -   **Open the full email composer**
 
-4.  Enter a keyword after `/r` to search for the response template you need.
+        Select the **More Actions** icon \(\[Omitted image "x-more-actions-icon.png"\] Alt text: More actions icon\) and **Compose Email**.
 
-5.  Add a response template to your email by selecting it.
+3.  In the email body, enter a keyboard shortcut.
+
+    -   **View response templates**
+
+        Enter `/r`.
+
+    -   **View drafts**
+
+        Enter `/d`.
+
+    -   **View email templates**
+
+        Enter `/e`.
+
+4.  Enter a keyword after the keyboard shortcut to search for a response template, draft, or email template.
+
+5.  Select the action or press the Enter key.
 
 

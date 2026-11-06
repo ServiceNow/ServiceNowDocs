@@ -1,18 +1,18 @@
 ---
 title: Template Management for Field Service components
-description: Several types of components are installed with the Template Management for Field Service feature, including tables and business rules.
+description: Several types of components are installed with the Template Management for Field Service feature, including tables, script includes, and business rules.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/template-management-components.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with additional plugins for Field Service Management, Field Service Management reference, Field Service Management]
+breadcrumb: [Components installed with additional plugins, Reference, Field Service Management]
 ---
 
 # Template Management for Field Service components
 
-Several types of components are installed with the Template Management for Field Service feature, including tables and business rules.
+Several types of components are installed with the Template Management for Field Service feature, including tables, script includes, and business rules.
 
 ## Tables
 

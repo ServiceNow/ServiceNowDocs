@@ -7,9 +7,9 @@ release: yokohama
 product: AI Control Tower
 classification: ai-control-tower
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [AWS, Service Graph Connectors for AI Control Tower, AI connections, Explore, AI Control Tower, Enable AI experiences]
+breadcrumb: [AWS, Service Graph Connectors for AI Control Tower, Enterprise AI discovery: Unlock Visibility, Governance &amp; Value, Exploring AI Control Tower \(legacy\), AI Control Tower \(legacy\), Establishing AI governance, Enable AI Experiences]
 ---
 
 # Create AI connection for Amazon
@@ -22,17 +22,17 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
 ## Procedure
 
-1.  Navigate to **Al Control Tower** &gt; **Configurations** &gt; **AI connections**.
+1.  Navigate to **AI Control Tower** &gt; **Configurations** &gt; **AI connections**.
 
 2.  Select **Add**.
 
 3.  Select **AWS** from all the available connectors.
 
-4.  Select **Create connection**.
+4.  Click **Create connection**.
 
     **Note:** The Review the setup instructions page appears and verifies to follow all the prerequisites.
 
-5.  Select **Continue**.
+5.  Click **Continue**.
 
     Setup page appears.
 
@@ -43,7 +43,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
     -   Amazon Bedrock
     -   Amazon Bedrock AgentCore
     -   Amazon SageMaker
-8.  Select **Submit**.
+8.  Click **Submit**.
 
 9.  **Configure Bedrock**
 
@@ -59,9 +59,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** The region information is available in the navigation bar of the AWS management console.
 
-    5.  Select **Update and test connection**.
+    5.  Click **Update and test connection**.
 
-    6.  Select **Continue**.
+    6.  Click **Continue**.
 
 10. **Configure Bedrock import schedule**
 
@@ -85,9 +85,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     5.  Enter the **Log Group Names**.
 
-    6.  Select **Create and test connection**.
+    6.  Click **Create and test connection**.
 
-    7.  Select **Continue**.
+    7.  Click **Continue**.
 
 12. **Configure CloudWatch logs import schedule for Bedrock**
 
@@ -99,7 +99,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    4.  Select **Continue**.
+    4.  Click **Continue**.
 
 13. **Configure SageMaker**
 
@@ -111,9 +111,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     4.  Enter the **AWS Region**.
 
-    5.  Select **Create and test connection**.
+    5.  Click **Create and test connection**.
 
-    6.  Select **Continue**.
+    6.  Click **Continue**.
 
 14. **Configure SageMaker import schedule**
 
@@ -127,7 +127,7 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    5.  Select **Continue**.
+    5.  Click **Continue**.
 
 15. **Configure CloudWatch monitoring for SageMaker**
 
@@ -139,9 +139,9 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
     4.  Enter the **AWS Region**.
 
-    5.  Select **Create and test connection**.
+    5.  Click **Create and test connection**.
 
-    6.  Select **Continue**.
+    6.  Click **Continue**.
 
 16. **Configure CloudWatch monitoring import schedules for SageMake**
 
@@ -155,10 +155,10 @@ Role required: sn\_ai\_disc.discovery\_admin and n\_cmdb\_int\_util.sgc\_admin
 
         **Note:** This is an optional step as the schedule imports run according to the schedule.
 
-    5.  Select **Continue**.
+    5.  Click **Continue**.
 
 
 ## Result
 
-The AI Connection for Amazon is created and configured.
+AI connection is created for AWS.
 

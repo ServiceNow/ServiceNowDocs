@@ -7,7 +7,7 @@ release: yokohama
 product: Service Creator
 classification: service-creator
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Build workflows]
 ---
@@ -16,7 +16,7 @@ breadcrumb: [Build workflows]
 
 Service creator enables a department to offer custom services through the service catalog, such as the HR department offering tuition reimbursement for further education.
 
-Each published service has an associated record producer catalog item. Users designated as managers and editors create and design these catalog items. End users can request services by ordering the catalog item.
+**Important:** Starting with the Brazil release, Service Creator is no longer deployed, enhanced, or supported. For details on the deprecation process, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
 
-All services belong to a published service category, which has an associated application and modules. When a user orders the catalog item for a service, the ServiceNow system creates a new task record within the application for that service category. Users designated as service fulfillers for the department complete these tasks to fulfill the service request.
+Creator Studio provides the latest experience for this functionality. For more information, see [Building apps with Creator Studio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/building-apps-with-creator-studio.md).
 

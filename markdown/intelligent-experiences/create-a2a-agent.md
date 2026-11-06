@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/create-a2a-agent.html
 release: yokohama
 topic_type: task
-last_updated: "2025-11-18"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Create an external agent, Create an AI agent, Now Assist AI agents, Enable AI experiences]
+breadcrumb: [Create an external agent, Create an AI agent, AI Agent Studio \(legacy\), AI agents and agentic workflows, Enable AI Experiences]
 ---
 
 # Create an external AI agent with the Agent2Agent protocol
@@ -32,13 +32,11 @@ You can integrate third-party AI providers into the ServiceNow AI Platform by cr
 
 2.  Select **New** &gt; **External**.
 
-3.  Select the **Agent2Agent \(A2A\) protocol** method.
-
-4.  In the **Discover and activate** step, select the AI agent provider for your external agent and discover your agent.
+3.  In the **Discover and activate** step, select the AI agent provider for your external agent and discover your agent.
 
     Select **Save and continue** to navigate to the next step.
 
-    1.  Select an existing provider or add a new provider.
+    1.  Select an existing provider or add a provider.
 
         If you select **Add new provider**, you must fill out the fields and then select **Save**.
 
@@ -85,19 +83,19 @@ Subflow that establishes Agent2Agent protocol. The default subflow should handle
 </td></tr></tbody>
 </table>    2.  Select **Discover external AI agent** to validate the connection to your external agent.
 
-        If discovery is successful, the name of your agent and the version number are added to the page below the Discover external AI agent button.
+        If discovery is successful, the name of your agent and the version number are added to the page previous the Discover external AI agent button.
 
         \[Omitted image "external-aia-a2a-discovery.png"\] Alt text: Discover external AI agent showing a discovered AI agent
 
-    3.  Select the name of the agent to verify that the **Name**, **Version**, **Description**, and **Skills** fields are populated correctly, then select **Activate**.
+    3.  Select the name of the agent to verify that the **Name**, **Version**, **Description**, and **Skills** fields are populated correctly, then select **Selected**.
 
         The **Agent card** tab shows the entire JSON for the agent.
 
         \[Omitted image "external-aia-a2a-activate.png"\] Alt text: Summary of AI agent details and activate button
 
-5.  In the **Review skills and capabilities** step, verify that the skill names are correct.
+4.  In the **Review skills and capabilities** step, verify that the skill names are correct.
 
-6.  In the **Define the specialty** step, add details for how the external agent fits in the ServiceNow agentic system.
+5.  In the **Define the specialty** step, add details for how the external agent fits in the ServiceNow agentic system.
 
     1.  Review your AI agent description.
 
@@ -115,9 +113,11 @@ Subflow that establishes Agent2Agent protocol. The default subflow should handle
 
         \[Omitted image "external-aia-a2a-define.png"\] Alt text: Summary of AI agent details and activate button
 
+        **Note:** For more information about the API Key credential, see .
+
     4.  Configure access control lists \(ACLs\) for the AI agent.
 
-        **Note:** The ACLs determine who has access to discover and execute the AI agent. To learn more about the ACLs you can create in AI Agent Studio and how to add more advanced security configurations, see [Implement access control in Now Assist AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/aia-security-implementation.md).
+        **Note:** The ACLs determine who has access to discover and execute the AI agent. To learn more about the ACLs you can create in AI Agent Studio and how to add more advanced security configurations, see [Implement access control in AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/aia-security-implementation.md).
 
         This is a required step. If you have previously configured an AI agent without creating an ACL, you must generate an ACL before you can make other modifications.
 
@@ -152,7 +152,7 @@ Role
 Assign one or more specific roles from the drop-down menu.**Note:** Selecting the role is possible only when you chose the **Users with specific roles** user access.
 
 </td></tr></tbody>
-</table>7.  In the **Select a display** step, choose where you want the AI agent to appear and what message users see when the AI agent is running.
+</table>6.  In the **Select a display** step, choose where you want the AI agent to appear and what message users see when the AI agent is running.
 
     1.  Select your AI agent's availability.
 
@@ -174,7 +174,7 @@ Assign one or more specific roles from the drop-down menu.**Note:** Selecting th
 
     \[Omitted image "external-aia-a2a-display.png"\] Alt text: Select a display step
 
-8.  Select **Save and test** to save the AI agent details and go to the Testing page of AI Agent Studio.
+7.  Select **Save and test** to save the AI agent details and go to the Testing page of AI Agent Studio.
 
 
 ## Result

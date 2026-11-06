@@ -1,48 +1,70 @@
 ---
 title: HRSD Maturity Assessment
-description: This accelerator provides guidance on your current HR Service Delivery \(HRSD\) process and function maturity in your ServiceNow instance.
+description: This Accelerator assesses your current HR Service Delivery \(HRSD\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/hrsd-maturity-assessment.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Strategy Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Strategy Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # HRSD Maturity Assessment
 
-This accelerator provides guidance on your current HR Service Delivery \(HRSD\) process and function maturity in your ServiceNow instance.
+This Accelerator assesses your current HR Service Delivery \(HRSD\) processes and functional maturity within ServiceNow, providing targeted recommendations on next steps to unlock additional value from the platform.
 
-## Overview
+## Accelerator Overview
 
-The HRSD Maturity Assessment Accelerator provides a base-level understanding of maturity tied to business outcomes being driven. The Accelerator aims to assess gaps with your HRSD product implementation based on your company’s use cases with targeted recommendations on what to tackle next to unlock further value in the platform.
+The HRSD Maturity Assessment provides Impact customers with prescriptive recommendations based on a structured assessment conducted by key stakeholders within the customer's business.  By offering customers a snapshot of their current process maturity and targeted next-step recommendations, this Accelerator helps maximize the value of their ServiceNow investment.
 
-All HRSD apps and features are within scope including Case &amp; Knowledge, Employee Center and Portal, Lifecycle Events/Onboarding/Journeys, Employee Document Management, HCM Integrations, and specific store features, such as Manager Hub. See [HR Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/hr-service-delivery.md) for additional information on HRSD apps.
+This Accelerator is designed to address the following HRSD capabilities:
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+-   Case and Knowledge
+-   Employee Center and Portal
+-   Life cycle Events/Onboarding/Journeys
+-   Employee Document Management
+-   HCM Integrations
+-   Specific store features, such as Manager Hub
+
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Strategic Value add-on\), Advanced and Total Packages.
 
 ## What you get
 
--   **Learning overview \(up to 90 minutes\)**
-    -   Describe and introduce the Accelerator to explain the assessment process
-    -   Conduct the HRSD adoption maturity questionnaire
+-   **Maturity Assessment Kickoff Session \(up to 1.5 hours\)**
+    -   Set expectations on the process and depth of deliverable
+    -   Communicate expectations for customer participation
+    -   Request data and any other inputs
+-   **Maturity Assessment Questionnaire**
+
+    Your assessment participants will each be asked to independently fill out a prebuilt HRSD Maturity Assessment Questionnaire that asks them to grade targeted statements to assess gaps and opportunities with your HRSD deployment.
+
+-   **Questionnaire Results Analysis \(time as needed determined by the Impact Squad\) **
+
+    The Impact Squad performs the following: 
+
+    -   Reviews and analyzes the questionnaire scores
+    -   Compiles tailored recommendations and leading practices
+    -   Provides guidance that will help you understand how to best maximize your HRSD investment
 -   **HSRD Maturity Assessment report**
 
-    The assessment report is a result of the questionnaire and input from our HRSD leaders and includes the following:
+    The assessment report is compiled from the responses to the questionnaire and includes the following:
 
     -   Maturity score
     -   The top five recommendations of unadopted product features in the standard NowCreate crawl/walk/run model
-    -   Additional initiatives or Impact accelerators to conduct, or specific recommendations to achieve outcomes
+    -   Content, accelerators, and next steps where applicable
     -   A complete list of recommendations observed
--   **Customer read-out \(up to 90 minutes\)**
+-   **Customer read-out session \(up to 1.5 hours\)**
     -   Deliver HRSD Maturity Assessment report
     -   Review HRSD Maturity Assessment report
-        -   Opportunity for Questions and Answers related to the HRSD Maturity Assessment
-        -   Discuss a draft adoption roadmap
--   **Follow-up customer session \(optional on Customer request– up to 60 minutes\)**
+        -   Present the assessment results
+        -   Discuss targeted recommendations
+        -   Provide a suggested plan and resources to help you decide which recommendations to implement
+-   **Follow-up customer session \(optional on Customer request– up to 1 hour\)**
     -   Review Customer progress
     -   Identify additional resources to achieve Customer goals
     -   Provide additional guidance on leading practices
@@ -51,7 +73,7 @@ All HRSD apps and features are within scope including Case &amp; Knowledge, Empl
 
 One or more customer resources are requested. The specific number of resources provided is Accelerator and customer specific.
 
-<table id="table_kh2_jrq_dsb"><thead><tr><th>
+<table id="table_m23_zwy_wgc"><thead><tr><th>
 
 Customer Resource 
 
@@ -59,64 +81,76 @@ Customer Resource 
 
 Responsibilities 
 
+</th><th>
+
+Required
+
+</th><th>
+
+Recommended
+
 </th></tr></thead><tbody><tr><td>
 
-Platform owner \(Required\)
+Main Customer Contact, PMO
 
 </td><td>
 
-Responsible for the overall accountability of the ServiceNow platform. Provides leadership and oversight to the System Administrators, ensures team alignment to business strategy and the ServiceNow roadmap, and is actively involved in the overarching governance of the platform.
+This individual is the primary contact for the duration of the engagement and carries out the following responsibilities: -   Gathers and shares the list of assessment participants
+-   Ensures completion of the assessment by participants
+-   Provides sponsorship for outputs based on the recommendations
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-System administrators &amp; HRSD administrators \(Required\)
+Participants
 
 </td><td>
 
-Maintains the stability and usability of the ServiceNow platform by performing application maintenance, managing support for cases related to ServiceNow applications, and contributing to ServiceNow software releases by delivering configuration tasks and features.
+These are the people within your organization that will be completing the assessment. Their responsibilities are:-   Complete the assessment by the agreed deadline
+-   Raise any questions or concerns as soon as possible
+
+</td><td>
+
+✓
+
+</td><td>
+
+ 
 
 </td></tr><tr><td>
 
-Reporting lead \(Recommended\)
+Process Owner
 
 </td><td>
 
-Meets with the ServiceNow Impact Accelerator Consultant, provides access to the required resources, and drives the actions from the engagement.
-
-</td></tr><tr><td>
-
-Trusted service partners \(Recommended\)
+Owns the process being accessed
 
 </td><td>
 
-Attends ServiceNow Impact Accelerator activities to understand leading practices and potentially support the customer going forward.
-
-</td></tr><tr><td>
-
-Developers \(Optional\)
+✓
 
 </td><td>
 
-Writes code for the ServiceNow platform.
-
-</td></tr><tr><td>
-
-Business stakeholders \(Optional\)
-
-</td><td>
-
-Line of business owners outside of HR.
+ 
 
 </td></tr></tbody>
 </table>## Requested Information / Access
 
-We request that the HRSD Maturity questionnaire is completed by the Customer virtually a minimum of two weeks prior to the Customer readout.
+We request that the HRSD Maturity questionnaire is completed by the customer virtually a minimum of two weeks prior to the customer readout session.
 
-## Exceptions
+## Exclusions
 
-This Impact Accelerator does not include a technical review of HRSD.
+-   This Impact Accelerator does not include a technical review of HRSD.
 
-The tool is not automated and does not feature automated recommendations. Assessment of other EWF capabilities beyond HRSD is not included.
+-   Assessment of other EWF capabilities beyond HRSD is not included.
 
-ServiceNow is not responsible for implementing the recommendations made based on the HR Service Delivery Maturity Assessment.
+-   ServiceNow is not responsible for implementing the recommendations made based on the HR Service Delivery Maturity Assessment.
+
 

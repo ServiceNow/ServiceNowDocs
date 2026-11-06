@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Push notifications on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Push notifications, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # View and reply to task comments from push notifications
@@ -36,6 +36,4 @@ Role required: wm\_agent
 
     4.  Click **Send**.
 
-
-**Parent Topic:**[Push notifications on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/actionable-push-notifications.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Metric Intelligence
 classification: metric-intelligence
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Optimizing Metric Intelligence, Metric Intelligence, IT Operations Management]
 ---
@@ -36,7 +36,7 @@ The Alerts table displays all of the relevant issues in the system.
 
 3.  Select an alert to receive more information about the alert.
 
-    For details on the displayed additional information, see [Alerts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-operations-workspace-for-itom-apps/view-alert-workspace-itom.md).
+    For details on the displayed additional information, see [Alerts in Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/view-alert-workspace-itom.md).
 
 
 **Parent Topic:**[Optimizing Metric Intelligence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/metric-intelligence/optimizing-metric-intelligence.md)

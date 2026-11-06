@@ -7,7 +7,7 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scoring assessments, Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
@@ -36,6 +36,8 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 2.  Create an assessment or open an existing assessment template, which is in a draft state to configure scoring.
 
 3.  Select the **Scoring** tab.
+
+    **Note:** Your changes on the **Questions**, **Automations**, and **Scoring** tabs are retained when you switch between tabs.
 
 4.  Under **Scoring settings**, select the **Enable scoring for this template** option.
 
@@ -76,7 +78,7 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 
 8.  To configure scoring at the **Section** level, turn on the toggle switch on the section for which you want to configure scoring.
 
-    \[Omitted image "scoring-section.jpg"\] Alt text: Scoring section.
+    \[Omitted image "scoring-section.png"\] Alt text: Displays the configuration details for scoring a section
 
     1.  On the **Section scoring** form, fill in the fields.
 
@@ -88,4 +90,8 @@ Set up scoring for your assessment responses to calculate meaningful scores at t
 ## Result
 
 The scoring is now configured at all required levels.
+
+## What to do next
+
+After scoring is configured and assessments are completed, you can view the calculated scores. For information about the tables that store question, subsection, section and assessment level scores, see [Scoring results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/scoring-results.md).
 

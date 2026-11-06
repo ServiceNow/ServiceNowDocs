@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-install-base-info.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Customer Service Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Customer Service Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View install base information from the Customer Service Portal
@@ -30,7 +30,7 @@ You can view all cases and the service status from the last 30 days as well as a
 
 1.  Navigate to the Customer Service Portal.
 
-2.  Click **Support** &gt; **Install Base** in the header menu.
+2.  Select **Support** &gt; **Install Base** in the header menu.
 
     The system displays a list of install base items that belong to your account.
 
@@ -38,4 +38,11 @@ You can view all cases and the service status from the last 30 days as well as a
 
 4.  You can also create a case directly from the install base details.
 
+
+**Related topics**  
+
+
+[Create a case for install base from the Customer Service homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-case-install-base.md)
+
+[View asset information from the Customer Service Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ViewAssetAndProductInformation.md)
 

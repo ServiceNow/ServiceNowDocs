@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 11
-breadcrumb: [Reference, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center Pro reference, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Properties installed with Content Experiences
@@ -445,8 +445,6 @@ The URL suffix of the service portal or Employee Center \(EC\) your company uses
 **Related topics**  
 
 
-[Approvals experience reference]()
-
 [Block content form]()
 
 [Campaign overview and Campaign analytics dashboards]()
@@ -471,15 +469,11 @@ The URL suffix of the service portal or Employee Center \(EC\) your company uses
 
 [Employee Center Pro widgets]()
 
-[Feedback Analytics dashboard]()
-
 [Feedback configuration form]()
 
 [Feedback definition form]()
 
 [Link content form]()
-
-[Location Consent form]()
 
 [Notification content form]()
 
@@ -487,5 +481,7 @@ The URL suffix of the service portal or Employee Center \(EC\) your company uses
 
 [Properties installed with Content Publishing]()
 
-[Schedule appointment form]()
+[Standard banner and icon sizes]()
+
+[To-do content form]()
 

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/querygen-properties.html
 release: yokohama
 topic_type: reference
-last_updated: "2026-02-03"
-reading_time_minutes: 4
-breadcrumb: [Reference, Query Generation, Now Assist in Platform Analytics, Platform Analytics]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Reference, Query Generation, ServiceNow Otto for Platform Analytics, Platform Analytics]
 ---
 
 # Query Generation properties
@@ -27,6 +27,18 @@ Property
 Description
 
 </th></tr></thead><tbody><tr><td>
+
+sn\_query\_gen.default\_source\_type
+
+</td><td>
+
+Fallback source type when the user request and conversation history do not determine whether to use table or indicator data. Accepted values: 'table' \(default\), 'indicator', or 'match\_found\_wins' \(indicator data if a match was found, otherwise table\). Does not apply in agentic mode.
+
+-   Type: String
+-   Default value: table
+-   Location: System Property \[sys\_properties\] table
+
+</td></tr><tr><td>
 
 sn\_query\_gen.hidden\_insights.groupby.min\_fields
 
@@ -132,6 +144,19 @@ When set to true, excludes all segments from sys\_app\_module from AI Data Explo
 
 </td></tr><tr><td>
 
+sn\_query\_gen.segments.ais\_batch\_fetch\_enabled
+
+</td><td>
+
+When set to true, enables batch AIS search where manual and automated segments are searched separately for better coverage. When disabled, manual and automated segments compete for the same result slots.
+
+-   Type: Boolean \(true/false\)
+-   Default value: true
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
+
+</td></tr><tr><td>
+
 sn\_query\_gen.segments.indicator.inactivity\_threshold\_multiplier
 
 </td><td>
@@ -143,12 +168,67 @@ Applies a multiplier to how long ago an indicator value can have changed for tha
 
 </td></tr><tr><td>
 
+sn\_query\_gen.segments.manual\_segment\_scale\_factor
+
+</td><td>
+
+Multiplier applied to manual segments to give them a different weight than automatic segments when segments are scored.-   Type: Number
+-   Default value: 1.05 \(5% greater weight for manual segments\)
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
+
+</td></tr><tr><td>
+
+sn\_query\_gen.segments\_match\_threshold
+
+</td><td>
+
+Minimum semantic similarity score that a segment must meet to qualify to be chosen.-   Type: Number
+-   Default value: 0.70
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
+
+</td></tr><tr><td>
+
+sn\_query\_gen.segments.max\_filter\_length
+
+</td><td>
+
+The maximum number of characters a segment can contain. Segments of greater length are removed.-   Type: Integer
+-   Default value: 2000
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
+
+</td></tr><tr><td>
+
 sn\_query\_gen.segments.reports.last\_viewed\_threshold\_days
 
 </td><td>
 
 Defines how many days ago a report can have run for that report to be considered "recently run." The \[Query Generation\] Sync Segments job deactivates segments based on reports that have not run recently. It also deactivates report sources whose reports have not run recently.-   Type: Integer
 -   Default value: 180
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
+
+</td></tr><tr><td>
+
+sn\_query\_gen.segments\_search\_limit
+
+</td><td>
+
+The maximum number of results that can be requested from AI Search per search for segments.-   Type: Integer
+-   Default value: 12
+-   Location: System Property \[sys\_properties\] table
+-   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
+
+</td></tr><tr><td>
+
+sn\_query\_gen.segments\_result\_limit
+
+</td><td>
+
+The maximum number of segments that AI Search can return after filtering.-   Type: Integer
+-   Default value: 12
 -   Location: System Property \[sys\_properties\] table
 -   Learn more: [Segments in the Query Generation semantic layer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/querygen-segments.md)
 

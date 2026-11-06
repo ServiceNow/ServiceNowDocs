@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create a control objective using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Grouping assessments for control attestations
@@ -22,13 +22,9 @@ The **GRC attestation** template for control category of assessment had two targ
 
 The contextual information such as its name, description, entity, control objective, status, owner, current compliance score, tier value, tiering assessor, enforcement, classification, and others are populated and displayed as you open an assessment in the Details pane on the right.
 
-\[Omitted image "grc-attestation-reference.png"\] Alt text: Details of the control as reference information on the Details pane.
-
 ## Grouping control attestations
 
 You can group a list of assessments assigned to a particular user as Combined Assessments and assign a new name for the grouped assessments.
-
-\[Omitted image "grc-attestation-combine-group.png"\] Alt text: Grouping attestations for a user to assess them together.
 
 To group assessments, see [Combine assessments for control attestations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-compliance-management-workspace/smart-assess-combine-attest.md).
 

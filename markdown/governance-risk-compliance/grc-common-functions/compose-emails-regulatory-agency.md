@@ -7,7 +7,7 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Regulatory Agency Library, Common GRC features, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ You can compose and send emails regarding regulatory agencies to multiple stakeh
 
 1.  Navigate to **Workspaces** &gt; **Compliance Workspace**.
 
-2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text: and then Navigate to **Regulatory information** &gt; **Agencies** and select the agency you want to compose an email for.
+2.  Select the list icon \[Omitted image "list-icon-airc-ws.png"\] and then Navigate to **Regulatory information** &gt; **Agencies** and select the agency you want to compose an email for.
 
 3.  Select the More actions icon \[Omitted image "MoreActionsIcon.jpg"\] Alt text:.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Now Assist for CSM
 classification: now-assist-for-csm
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Explore, ServiceNow Otto for Customer Service Management \(CSM\), Customer Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Explore, ServiceNow Otto for CSM, Customer Service Management]
 ---
 
 # Supporting information for ServiceNow Otto for Customer Service Management \(CSM\)
@@ -20,9 +20,11 @@ Get a quick overview of the important information that is related to the Service
 
 ServiceNow Otto for CSM is supported starting with Vancouver Patch 4.
 
+**Note:** Depending on your license, you will have access to certain application features, generative AI skills, agentic workflows, and AI agents. For more information, see .
+
 ## Supported language models
 
-You can use Now LLM Service, Now LLM Long Term Stable models \(LTS\), Azure OpenAI, Google Gemini or Anthropic Claude on AWS as the AI model provider for all Now Assist skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
+You can use Now LLM Service, Azure OpenAI, Google Gemini or Anthropic Claude as the AI model provider for all generative AI skills and AI agents. Use the Configuration Controls in [AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-model-providers.md) to define which options are available, then set the skill-level preferences in the [AI Admin Hub console](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/manage-large-language-models.md). For more information, see [Large language models on the ServiceNow AI Platform®](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/exploring-large-language-models.md).
 
 ## Supported user interfaces
 
@@ -92,9 +94,9 @@ Role masking is used to restrict user access to agentic workflows, standalone AI
 
 Imagine a user assigned roles A, B, and C, where each role grants access to a specific set of data. Normally, only if using Access Control Lists \(ACLs\), the user could access any data or functions available to roles A, B, and C. With role masking applied, the user can only access data tied to the active role, limiting exposure to unnecessary information.
 
-**Role Masking Considerations for Now Assist in CSM Skills**
+**Role Masking Considerations for ServiceNow Otto for CSM Skills**
 
-When a CSM skill runs, its features are initially controlled by ACL permissions, ensuring users only access authorized data and functions. If the skill uses a Large Language Model \(LLM\) to perform its task, role masking adds an extra layer of control by filtering the LLM-generated output according to the user’s active role.
+When a CSM skill runs, its features are initially controlled by ACL permissions, ensuring users only access authorized data and functions. If the skill uses a large language model \(LLM\) to perform its task, role masking adds an extra layer of control. Role masking filters the LLM-generated output according to the user's active role.
 
 Consider a user with roles A, B, and C, each granting different privileges. If the ACLs defined in the Case Summarization are roles A, B, and C and the masking role defined is role A, If the user activates the Case Summarization skill, and selects Summarize, the process occurs in two steps:
 
@@ -107,7 +109,24 @@ Consider a user with roles A, B, and C, each granting different privileges. If t
     After data retrieval, an LLM summarizes the case. Role masking is then applied to the output, tailoring the summary to the access privileges defined for role A.
 
 
-By applying both ACL permissions and role masking, the system ensures a secure and granular access control mechanism for CSM skills, protecting sensitive information while providing users with the insights they need to perform their tasks effectively. For information on role masking, see.
+By applying both ACL permissions and role masking, the system ensures a secure and granular access control mechanism for CSM skills. This protects sensitive information while providing users with the insights needed to perform their tasks effectively.
+
+## AI color gradient support
+
+ServiceNow Otto for CSM supports the AI color gradient across the following skills and workflows:
+
+-   Case summarization
+-   Resolution notes generation
+-   KB generation
+-   Call summarization
+-   Sidebar discussion
+-   Chat recommendation
+-   Email recommendation
+-   Sentiment analysis case
+-   Suggested steps generation
+-   Sentiment analysis dashboard
+-   Trending topics dashboard
+-   ServiceNow Otto context menu activities- tone and refining options
 
 ## Application information
 
@@ -115,7 +134,7 @@ Activate the ServiceNow Otto for CSM store app \(sn\_csm\_gen\_ai\) to use the c
 
 This store app has the following dependencies:
 
--   Customer Service \(com.sn\_customerservice\)
+-   Case Management Core \(com.sn\_customerservice\)
 -   UXC Generative AI \(sn\_uxc\_gen\_ai\)
 
 Activate the applications in the following order:

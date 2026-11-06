@@ -7,9 +7,9 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # Add external dependencies between projects from Project Workspace
@@ -26,9 +26,9 @@ External dependencies help you understand the impact on project schedules when t
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  From the data grid, select the project task to which you want to add the dependency.
 
@@ -48,7 +48,7 @@ External dependencies help you understand the impact on project schedules when t
 ## Result
 
 -   Dependency is created for the tasks of the two projects.
--   The short description of your project is greyed out and is renamed to indicate the external dependency in the format of **External project name: External task name**
+-   The short description of your project is made read-only and is renamed to indicate the external dependency in the format of **External project name: External task name**
 -   A link icon \(\[Omitted image "icon-dependency.png"\] Alt text: External dependency icon\) is added to the short description cell of the task, to indicate the dependency.
 
 ## What to do next

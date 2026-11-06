@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-10-27"
+last_updated: "2026-03-12"
 reading_time_minutes: 6
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Dynamics CRM Spoke
@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Dynamics CRM spoke v1.10.1 is the latest version.
+Microsoft Dynamics CRM spoke v1.10.1 is the latest version. For version history of the spoke, see [Microsoft Dynamics CRM spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-dynamics.html).
 
 ## Spoke dependencies
 
@@ -85,7 +85,7 @@ In this example, a lead is created for John Smith who is interested in CRM Softw
 
 ## Spoke actions
 
-The Microsoft Dynamics CRM spoke provides the baseline actions to interact with Microsoft Dynamic Entities through introspection. Available actions include:
+The Microsoft Dynamics CRM spoke provides the baseline actions to interact with Microsoft Dynamic Entities through introspection.
 
 <table id="table_xtv_cwt_g3bb"><thead><tr><th>
 
@@ -360,10 +360,7 @@ Available AI agents include:
 |Microsoft Dynamics CRM account management AI agent|Creates an account in Microsoft Dynamics CRM and retrieves details of the required accounts.|
 |Microsoft Dynamics CRM opportunity management AI agent|Creates opportunities, retrieves opportunity details, parses CRM entity data, and manages opportunity streams.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automated Test Framework \(ATF\) tests types and testing ways, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+breadcrumb: [Automated Test Framework \(ATF\) test types and techniques, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Parallel testing
@@ -44,7 +44,7 @@ Prevent resource conflicts by running tests that create their own data. Tests th
 
 **Note:** If you have two or more tests with resource conflicts, see [Mark tests as mutually exclusive](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/mutual-exclusion-rule.md) to create a mutual exclusion rule that prevents the tests from running in parallel.
 
-**Parent Topic:**[Automated Test Framework \(ATF\) tests types and testing ways](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
+**Parent Topic:**[Automated Test Framework \(ATF\) test types and techniques](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/atf-test-type-testing.md)
 
 **Related topics**  
 
@@ -55,5 +55,9 @@ Prevent resource conflicts by running tests that create their own data. Tests th
 
 [Quick start tests]()
 
+[Accelerate ATF tests failure resolution]()
+
 [Performance profiling]()
+
+[ATF Health Check]()
 

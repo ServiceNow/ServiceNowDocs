@@ -7,9 +7,9 @@ release: yokohama
 product: Dependency Views
 classification: dependency-views
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Use Dependency Views, Dependency Views, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Use, Dependency Views, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Change the layout of Dependency Views map
@@ -48,8 +48,6 @@ Role required: none
 [Delete a saved Dependency Views map view]()
 
 [Filter the view of a Dependency Views map]()
-
-[View metrics for CIs in a Dependency Views map]()
 
 [Perform actions on nodes in a Dependency Views map]()
 

@@ -7,7 +7,7 @@ release: yokohama
 product: DevOps \(Family\)
 classification: devops-family
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Sharing components among applications — Component libraries, Using DevOps Config, DevOps Config, IT Service Management]
 ---
@@ -18,7 +18,7 @@ Publish a version of a shared component in a library so that it can be used in a
 
 ## Before you begin
 
-**Important:** Starting with the Washington DC release, DevOps Config is being prepared for future deprecation. It will be hidden and no longer installed on new instances but will continue to be supported. For details, see the [Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb_view.do?sysparm_article=KB0867184) article in the Now Support Knowledge Base.
+**Important:** DevOps Config is now deprecated and no longer supported or available for new activation.
 
 Role required: cdm\_admin
 
@@ -42,15 +42,15 @@ When a version is unpublished, it means that the component and its version can n
 
 6.  Publish or unpublish a version of the component.
 
-<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d411849e138">
+<table id="choicetable_ow3_zws_2xb"><thead><tr><th align="left" id="d348282e127">
 
 Option
 
-</th><th align="left" id="d411849e141">
+</th><th align="left" id="d348282e130">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d411849e147">
+</th></tr></thead><tbody><tr><td id="d348282e136">
 
 **Publish a version of a shared component**
 
@@ -58,7 +58,7 @@ Description
 
 Select an unpublished version from the list and select **Publish**.If there’s any existing published version of the component, then it’s unpublished before publishing the selected version. The **Published** value updates to **true**.
 
-</td></tr><tr><td id="d411849e167">
+</td></tr><tr><td id="d348282e156">
 
 **Unpublish a version of a shared component**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Execute work order tasks, Updating task status in web interface, Complete work orders on the web interface, Using Field Service Management, Field Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Execute work order tasks, Updating task status, Completing work orders on the web interface, Use, Field Service Management]
 ---
 
 # View asset usage
@@ -70,12 +70,3 @@ When an agent records the removal of an asset, the asset is added to the Asset U
 
 </td></tr></tbody>
 </table>
--   **[Track the removal of an asset from a task location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsageRemoveAsset.md)**  
-Track the status of an asset that you removed in a work order. You can track the status as you're doing the task from the task location.
--   **[Record the assets used during a work task](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/t_RecordAssetUsageUseAsset.md)**  
-Record any assets that you use during the execution of a task.
--   **[Track the replacement of an asset from a task location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/record-treplacement-asset-task-location.md)**  
-Track the status of an asset that you replaced with another asset in a work order. You can track the status as you're doing the task from a task location.
-
-**Parent Topic:**[Execute work order tasks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/c_ExecuteWorkOrderTasks.md)
-

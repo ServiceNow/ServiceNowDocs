@@ -1,5 +1,5 @@
 ---
-title: Create an HR Service Delivery Employee Relations case using the legacy UI
+title: Create an Employee Relations case in Core UI
 description: You create ER cases for employees that wish to report misconduct, discrimination or a disciplinary issue.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/hr-service-delivery/create-hr-employee-relations.html
@@ -7,12 +7,12 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 10
-breadcrumb: [Using HR Service Delivery Employee Relations, Employee Relations cases, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Use, Employee Relations, Case and Knowledge Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Create an HR Service Delivery Employee Relations case using the legacy UI
+# Create an Employee Relations case in Core UI
 
 You create ER cases for employees that wish to report misconduct, discrimination or a disciplinary issue.
 
@@ -236,7 +236,7 @@ Assignment group
 
 </td><td>
 
-The group the ER case is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. For automatic assignment, refer to [HR Service Delivery Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
+The group the ER case is assigned to. If the group is not set automatically, assign an HR group to provide a selection of HR users in the **Assigned to** field. For automatic assignment, refer to [Employee Relations assignment rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-assign-rules.md).
 
 </td></tr><tr><td>
 
@@ -264,7 +264,7 @@ Agents or interested parties you want to associate with the case. Collaborators 
 -   Notifications are sent to the collaborators when added to the ER case.
  Collaborators and the COE for the HR case can conflict. The basic rules are:
 
--   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-service-categorization.md).
+-   For all HR cases, collaborators override any security on a COE. For more information, see [Create COE security](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/configure-hr-coe-security.md).
 -   Employee Relations \(ER\) cases can override collaborators when restrictions apply. For more information, see [Configure an employee relations case restriction](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-case-restriction.md).
 **Note:** Agents must have the ER case writer \[sn\_hr\_er.case\_writer\] role in order to be a collaborator.
 
@@ -346,11 +346,11 @@ A longer, detailed description after the ER case is created. Use the Rich Text F
 
     -   **Allegations**
 
-        Information that further defines an employee relations case. For more information, see [Create an allegation record for HR Service Delivery Employee Relations in the legacy UI or Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-allegation.md).
+        Information that further defines an employee relations case. For more information, see [Create an allegation record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-create-allegation.md).
 
     -   **Interviews**
 
-        Interview record for an involved party. For more information, see [Schedule an interview in HR Service Delivery Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview-1.md).
+        Interview record for an involved party. For more information, see [Schedule an interview in Employee Relations using the legacy UI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-interview.md).
 
     -   **Evidence**
 
@@ -358,7 +358,7 @@ A longer, detailed description after the ER case is created. Use the Rich Text F
 
     -   **Corrective Actions**
 
-        Information about the resolution and any associated corrective actions after an investigation related to the ER case. For more information, see [Create a corrective action in HR Service Delivery Employee Relations in the legacy UI or Agent Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-corrective-actions.md).
+        Information about the resolution and any associated corrective actions after an investigation related to the ER case. For more information, see [Create a corrective action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/hr-er-corrective-actions.md).
 
     -   **Attached Knowledge**
 

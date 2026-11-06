@@ -7,7 +7,7 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Coaching, IT Service Management]
 ---
@@ -20,7 +20,7 @@ Coaching reference content includes business rules and field descriptions.
 
 To provide coaching on a table source that does not extend the Task table, you must create a business rule to initiate the coaching process.
 
-The business rule **Evaluate coaching opportunity on tasks** initiates coaching for tables that extend Task. You can copy this business rule and modify it for tables that do not extend the Task table.
+The business rule **Evaluate coaching opportunity on tasks** initiates coaching for tables that extend Task. You can copy this business rule and modify it for tables that don't extend the Task table.
 
 \[Omitted image "coaching-non-task-table.png"\] Alt text: CoachingNonTaskTable
 
@@ -172,8 +172,8 @@ Set the duration to read knowledge articles and whether to exclude weekends for 
 Coaching field descriptions also include form related lists and actions.
 -   **[Integrating Coaching with other applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-integration.md)**  
 Bring in data from other ServiceNow applications to enhance the training of your agents.
--   **[Coaching troubleshooting](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-troubleshooting.md)**  
-Troubleshooting actions can help resolve common issues when setting up or running Coaching.
+-   **[Resolve Coaching issues](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-troubleshooting.md)**  
+Resolve common issues when setting up or running Coaching.
 -   **[Domain separation and Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-domain-separation-coaching.md)**  
 Domain separation is supported in Coaching. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
 -   **[Quick start tests for Coaching](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-quick-start-tests-coaching.md)**  

@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/household-relationship-for-an-install-base-item.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create relationships, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Create relationships, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Household-member relationship for an install base item
@@ -18,7 +18,7 @@ The household relationship can be used to assign responsibilities between two co
 
 Setting up a household-member relationship limits the access to the household members. Only the household members can access the household install bases.
 
-After a household-member relationship is established between two consumers, the consumer with the authorized representative responsibility gains access to all the household install bases only when the primary consumer is the other member in the established household-member relationship.
+After a household-member relationship is established between two consumers, the consumer with the authorized representative responsibility gains access to all household install bases. This access applies only when the primary consumer is the other member in the established relationship.
 
 **Note:** The authorized representative gains access to the household install bases of the consumer that belongs to the same household.
 

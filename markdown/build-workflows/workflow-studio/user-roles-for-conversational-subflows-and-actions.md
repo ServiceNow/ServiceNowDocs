@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # User roles for conversational subflows and actions
@@ -23,6 +23,7 @@ Provide personnel with one or more user roles to grant them access to conversati
 |Flow/Action Designer Conversational Workflow \[sn\_conv\_fa.conv\_fa\_designer\]|Provides read and write access to conversational experience settings.|None|None|This is a specialized role with limited access.|
 |Action Designer \[action\_designer\]|Provides read and write access to Workflow Studio actions.|sn\_conv\_fa.conv\_fa\_designer|None|This is a specialized role with limited access.|
 |Flow Designer \[flow\_designer\]|Provides read and write access to Workflow Studio flows and subflows.|sn\_conv\_fa.conv\_fa\_designer|None|This is a specialized role with limited access.|
+|Email Write \[sn\_conv\_fa.csa\_email\_write\]|Provides write access to the sys\_email table to conversational subflows and actions.|None|None|This is a specialized role with limited access.|
 
 **Parent Topic:**[Flows, subflows, and actions reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/flow-designer-reference.md)
 

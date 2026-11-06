@@ -1,22 +1,22 @@
 ---
 title: Available AI agents for Integration Hub
-description: Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as AI Agent Studio and Virtual Agent.
+description: Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/available-spk-ai-agents.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: reference
-last_updated: "2025-12-08"
-reading_time_minutes: 13
-breadcrumb: [Now Assist for Integration Hub, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+last_updated: "2026-09-10"
+reading_time_minutes: 12
+breadcrumb: [Now Assist for Integration Hub, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Available AI agents for Integration Hub
 
-Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as AI Agent Studio and Virtual Agent.
+Now Assist AI agents are provided with some of the Integration Hub spokes or plugins that are preconfigured and are callable from interfaces such as, AI Agent Studio and Virtual Agent.
 
-<table id="table_vv2_3tk_4hc"><thead><tr><th>
+<table id="table_zc2_w3d_m2c"><thead><tr><th>
 
 Spoke or plugin
 
@@ -168,17 +168,13 @@ F5 BIG-IP pool management AI agent
 
 F5 BIG-IP server management AI agent
 
-</td></tr><tr><td rowspan="5">
+</td></tr><tr><td rowspan="4">
 
 [GitHub Spoke](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/integration-hub/github-spoke.md)
 
 </td><td>
 
 GitHub branch management AI agent
-
-</td></tr><tr><td>
-
-GitHub Code Automation Agent
 
 </td></tr><tr><td>
 

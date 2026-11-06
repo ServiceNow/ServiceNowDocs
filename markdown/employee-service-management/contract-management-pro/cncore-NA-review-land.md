@@ -1,40 +1,40 @@
 ---
-title: Contract analysis using Now Assist in Contract Management
-description: As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the Now Assist contextual side panel by using the Now Assist in the Contract Management application.
+title: Contract review using ServiceNow Otto for Contract Management Pro
+description: As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the AI contextual side panel by using the ServiceNow Otto for Contract Management Pro application.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-NA-review-land.html
 release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using Now Assist in Contract Management, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+keywords: [Contract analysis, AI contract review, Otto Contract Management, Non-standard clauses, Missing clauses, Automated contract analysis, AI-powered review]
+breadcrumb: [Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Contract analysis using Now Assist in Contract Management
+# Contract review using ServiceNow Otto for Contract Management Pro
 
-As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the Now Assist contextual side panel by using the Now Assist in the Contract Management application.
+As a contract fulfiller, you can analyze your contract documents and identify non-standard or missing clauses from the AI contextual side panel by using the ServiceNow Otto for Contract Management Pro application.
 
-You can analyze an entire document and identify any non-standard or missing clauses by the Now Assist in Contract Management application. With Now Assist in Contract Management, your organization can save time and effort by reducing the need for manual review.
+The ServiceNow Otto for Contract Management Pro application analyzes contract documents to identify non-standard or missing clauses, helping you ensure contract compliance and completeness. This AI-powered analysis provides faster, more consistent review compared to manual processes.
 
 **Note:** Be sure to review the AI-generated analysis for accuracy.
 
-By using the Now Assist in Contract Management application, your organization can follow a workflow that moves through a series of states, which are displayed in the contract request. For more information on the states of the document during Now Assist analysis, see [Contract analysis states in Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-states.md).
+## Contract analysis states
+
+The ServiceNow Otto for Contract Management Pro application follows a workflow that moves through a series of states, which are displayed in the contract request. Analysis details appear in the activity stream and are communicated by email notification to the contract fulfiller, contract collaborator, and assignment group manager.
+
+For more information on the states of the document during contract analysis, see [Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-states.md).
 
 -   **[Analyze a contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-analyze-contract-doc.md)**  
-Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the Now Assist in Contract Management application.
--   **[Review the Now Assist suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-review-contract-document.md)**  
-Review the Now Assist suggestions for clause deviations and take actions by using the Now Assist in Contract Management application to ensure that the clauses comply with the guidelines of the company.
--   **[Cancel a Now Assist contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-cancel-contract-analysis.md)**  
-Cancel a Now Assist contract analysis when it’s no longer required due to a change in business requirements.
+Analyze a contract document with generative AI to identify non-standard and missing clauses. You can do this task by using the ServiceNow Otto for Contract Management Pro application.
+-   **[Review the AI suggestions for clause deviations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-review-contract-document.md)**  
+Review the suggestions for clause deviations and take actions by using the ServiceNow Otto for Contract Management Pro application to ensure that the clauses comply with the guidelines of the company.
+-   **[Cancel AI contract analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-cancel-contract-analysis.md)**  
+Cancel a AI contract analysis when it’s no longer required due to a change in business requirements.
+-   **[Contract analysis states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-states.md)**  
+The ServiceNow Otto for Contract Management Pro analysis follows a workflow and moves through a series of states, which are displayed in the contract request. The contract analysis details are available in the activity stream and are also communicated by an email notification to the contract fulfiller, contract collaborator, and assignment group manager.
 
-**Parent Topic:**[Using Now Assist in Contract Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-now-assist-land.md)
-
-**Related topics**  
-
-
-[Metadata extraction using Now Assist in Contract Management]()
-
-[Conversational contract search and insights Workflow]()
+**Parent Topic:**[Review contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-review-methods-land.md)
 

@@ -1,0 +1,56 @@
+---
+title: Add an external content search source to ServiceNow Otto for Virtual Agent
+description: Include searchable content retrieved by an external content connector in your ServiceNow Otto for Virtual Agent chats.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/search-administration/add-ext-cont-srch-src-na-va.html
+release: yokohama
+product: Search Administration
+classification: search-administration
+topic_type: task
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+keywords: [ServiceNow Otto, AI Agents, generative AI, agentic AI]
+breadcrumb: [Configure, External Content Connectors, Search administration, Configure core features, Administer the ServiceNow AI Platform]
+---
+
+# Add an external content search source to ServiceNow Otto for Virtual Agent
+
+Include searchable content retrieved by an external content connector in your ServiceNow Otto for Virtual Agent chats.
+
+## Before you begin
+
+You must have already created at least one search source for the indexed source associated with the external content connector. For instructions on creating search sources, see [Create a search source for AI Search](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/create-search-source-ais.md).
+
+Role required: ais\_admin
+
+## About this task
+
+Linking a search source to the **ServiceNow Otto in VA** search profile makes its filtered content available in ServiceNow Otto for Virtual Agent chats. AI Search only uses content from the search profile's linked search sources when generating responses for ServiceNow Otto for Virtual Agent chats.
+
+When linking a search source to the **ServiceNow Otto in VA** search profile, you can specify options that control how the search source's content is accessed for ServiceNow Otto for Virtual Agent chats. You can exclude the search source's content from being considered when finding standard search results, or prevent it from being considered during Genius Result answer generation.
+
+## Procedure
+
+1.  Navigate to **All** &gt; **AI Search** &gt; **Search Experience** &gt; **Search Profiles**.
+
+2.  Open the **ServiceNow Otto in VA** search profile record.
+
+3.  In the Search Sources related list, select **Link Existing**.
+
+4.  On the Search Profile - Search Source Mapping form, fill in the fields.
+
+    For a description of the field values, see [Search Profile - Search Source Mapping form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/search-prof-src-mapping-form-ais.md).
+
+5.  Select **Submit**.
+
+
+## Result
+
+The new search source appears in the Search Sources related list. ServiceNow Otto for Virtual Agent chats immediately reflect changes to the set of records searchable through the search profile.
+
+## What to do next
+
+Derived auto-correction term lists for the **ServiceNow Otto in VA** search profile's typo handling dictionary don't automatically update to reflect changes to the set of searchable records. To update these auto-correction term lists, publish the **ServiceNow Otto in VA** search profile. For details on publishing a search profile, see [Publish an AI Search search profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/ai-search/publish-search-profile-ais.md).
+
+**Parent Topic:**[Configuring External Content Connectors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/search-administration/configuring-ext-cont-connectors.md)
+

@@ -1,20 +1,20 @@
 ---
-title: Suspending sold products
+title: Supending sold products
 description: Suspend sold products to create a suspend order or quote on the CRM Workspace.Create an order to suspend a sold product and its hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.Create an order to suspend multiple sold product and their hierarchy on the CRM Workspace. By suspending a sold product, you can reduce the number of canceled products or services and take the time to fix that product or service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/supending\_sold\_products.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 4
-breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
-# Suspending sold products
+# Supending sold products
 
 Suspend sold products to create a suspend order or quote on the CRM Workspace.
 
-Suspend single or multiple root-sold products, and create combined suspension and resumption orders of products and services at the same time to improve agent efficiency.
+Supend single or multiple root sold products and create combined orders for suspension and resumption of products and services at the same time, to improve agent efficiency.
 
 |Task|Description|
 |----|-----------|
@@ -86,13 +86,13 @@ After an order is created and marked **Complete**, the order to sold product flo
 
 4.  In the Sold Products related list, select the sold products that you want to suspend.
 
-    **Note:** You can do a **Suspend** action only on root sold products with a product offering and if it is in the **Active** state. The **Suspend** option is inactive if you select a child sold product.
+    **Note:** You can do a **Suspend** action only on root sold products with a product offering and if it is in the **Active** state. The **Suspend** option is disabled if you select a child sold product.
 
 5.  Select **Suspend**.
 
 6.  In the Suspend sold products window, in the **Start date and time** field, enter the start date and time that you want to start the suspension.
 
-    You can see the selected sold products in the account.
+    You can see the selected sold products in the accordian.
 
     **Note:** If you fill in only the **Start date and time** field, a suspend order line item is created. If you fill in the **End date and time** field, a resume order line item is also created within the same order header.
 
@@ -105,7 +105,7 @@ After an order is created and marked **Complete**, the order to sold product flo
 
 ### Result
 
-An order with the suspend action is created. Suspend order line items are created in an synchronized process. If you specify an end date and time, a resume order line item is also created as a part of the same order.
+An order with the suspend action is created. Suspend order line items are created in an asynchronized process. If you specify an end date and time, a resume order line item is also created as a part of the same order.
 
 When you update the suspend order line item to **Complete**, the sold product state automatically updates to **Suspended**.
 

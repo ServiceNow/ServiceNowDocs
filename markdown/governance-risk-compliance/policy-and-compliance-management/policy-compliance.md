@@ -1,5 +1,5 @@
 ---
-title: Explore Policy and Compliance Management
+title: Exploring Policy and Compliance Management
 description: The ServiceNow Policy and Compliance Management product provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Additionally, the application provides structured workflows for the identification, assessment, and continuous monitoring of control activities.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/policy-and-compliance-management/policy-compliance.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
-# Explore Policy and Compliance Management
+# Exploring Policy and Compliance Management
 
 The ServiceNow Policy and Compliance Management product provides a centralized process for creating and managing policies, standards, and internal control procedures that are cross-mapped to external regulations and benchmarks. Additionally, the application provides structured workflows for the identification, assessment, and continuous monitoring of control activities.
 

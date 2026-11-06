@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create and update a tag category, Using Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Create and update a tag category, Use, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Add or update a tag value for an AI Service tag category
@@ -79,7 +79,7 @@ After you add a tag value for an AI Service tag category, you must reimport the 
 **Related topics**  
 
 
-[Tags and tag categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/tags-overview.md)
+[Cost usage tags](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/tags-overview.md)
 
 [Create and update a tag category](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/tag-category-crud-cloudin.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Event forwarding, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Event forwarding, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Periodically run an event forwarding job
@@ -50,6 +50,4 @@ If the admin account is disabled, configure the user of the scheduled job. By de
 **Note:**
 
 If the event forwarding to the instance failed due to any reason, the **Last Event Forwarding status** field displays `Failed` with a corresponding error message displayed in the **Last Event Forwarding error** field. The target instance generates a self-health monitoring event during the next successful event forwarding indicating the failure of event forwarding for the specified time range.
-
-**Parent Topic:**[Event forwarding](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/event-management/event-forwarding-em.md)
 

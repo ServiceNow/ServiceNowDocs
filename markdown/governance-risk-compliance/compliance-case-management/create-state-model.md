@@ -1,5 +1,5 @@
 ---
-title: Create a state model to define the workflow states and transitions
+title: Create a compliance state model
 description: Create a state model to define the workflow states and transition conditions for compliance case types and request types.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/compliance-case-management/create-state-model.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Configure, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
-# Create a state model to define the workflow states and transitions
+# Create a compliance state model
 
 Create a state model to define the workflow states and transition conditions for compliance case types and request types.
 

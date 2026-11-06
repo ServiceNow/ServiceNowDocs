@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/r\_RolesInstalledWithCustomerService.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
-breadcrumb: [Components installed with Customer Service Management, Customer Service Management reference, Customer Service Management]
+breadcrumb: [Components installed with Customer Service Management, Reference, Customer Service Management]
 ---
 
 # Roles installed with Customer Service Management
@@ -96,8 +96,6 @@ For more information about reviewing and updating user role assignments, see:
 -   [KB0829930](https://support.servicenow.com/kb_view.do?sysparm_article=KB0829930)
 -   [Fix external user role assignments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/fixing-external-role-assignment.md)
 
-.
-
 ## CSM roles and descriptions
 
 <table id="table_fch_3kk_w5b"><thead><tr><th>
@@ -148,7 +146,6 @@ Customer service agent with the additional responsibility for managing agents or
 -   timecard\_approver
 -   skill\_admin
 -   sn\_app\_cs\_social\_social\_profile\_user
--   sam
 -   sn\_customerservice.consumer\_agent
 -   asset
 -   sn\_shn.admin
@@ -325,7 +322,7 @@ Case contributor viewer\[sn\_customerservice.case\_contributor\_viewer\]
 This role provides read-only access to all of the tables associated with a case.With this role, a user can view the information in the related lists for a case if:
 
  -   The user has been added to the **Contributor User** field or the **Contributor Group** field on the Case form.
--   The user has read-only access to cases through another role, such as the case viewer role \(sn\_customerservice.case\_viewer\) or the case task agent role \(sn\_customerservice.case\_task\_agent\).
+-   The user has read-only access to cases through another role, such as the case viewer role \(sn\_customerservice.case\_viewer\).
 
  With this role, a user can access the following modules in CSM Agent Workspace:**All tasks I participate in**
 
@@ -431,7 +428,7 @@ A user who is responsible for activities that require viewing customer project d
 
 </td></tr><tr><td>
 
-Data viewer\[sn\_customerservice.customer\_data\_viewer\]
+Customer Data viewer\[sn\_customerservice.customer\_data\_viewer\]
 
 </td><td>
 
@@ -442,6 +439,24 @@ User with read-only access to customer data entities such as:-   Install base it
 -   Assets
 -   Consumers
 -   Sold product
+
+**Note:** Starting with the Australia release, the Customer Data Viewer \[sn\_customerservice.customer\_data\_viewer\] role has extended access to the following tables:
+
+-   Account Relationship \[account\_relationship\]
+-   Account Relationship Type \[sn\_customerservice\_account\_relationship\_type\]
+-   Contact Relationship \[sn\_customerservice\_contact\_relationship\]
+-   Account Consumer \[sn\_acct\_consumer\_account\_consumer\]
+-   Consumer Team Member \[sn\_customer\_rel\_consumer\_to\_user\]
+-   Consumer to Consumer Relationship \[sn\_customer\_rel\_consumer\_to\_consumer\]
+-   Household Member Relationship \[sn\_customer\_rel\_household\_member\_relationship\]
+-   Household Team Member \[sn\_customer\_rel\_household\_to\_user\]
+-   Responsibility Definition \[sn\_customerservice\_responsibility\_def\]
+-   Related Party Configuration \[sn\_customerservice\_related\_party\_configuration\]
+
+Additionally, it also has access to the following menu modules and workspace lists.
+
+-   Menu modules: Customer, Partners, Contacts, Consumers, and Households
+-   Workspace lists: Partners
 
 </td><td>
 
@@ -485,7 +500,7 @@ Users with the proxy case creator role can create customer service cases directl
 
 </td></tr><tr><td>
 
-Proxy contact\[sn\_customerservice.proxy\_contact\]
+Proxy contact\[sn\_csm\_proxy\_cont\]
 
 </td><td>
 
@@ -495,7 +510,7 @@ Role that enables employees to create cases for customer accounts and contacts. 
 -   Add work notes and comments to any case.
 -   Update the watch list of any case.
 
-**Note:** The CSM Extension for Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin adds this role.
+**Note:** The Customer Proxy Contacts \(com.snc.csm\_proxy\_contacts\) plugin adds this role.
 
 </td><td>
 
@@ -523,7 +538,9 @@ This role provides access to case tasks from the following modules in CSM Agent 
  
 
 </td></tr></tbody>
-</table>## Roles installed with the Customer Service Base Entities plugin
+</table>For detailed information on the granular admin roles in Custmer Data Foundation \(CDF\) and their associated privileges, see .
+
+## Roles installed with the Customer Service Base Entities plugin
 
 The following roles are installed with the Customer Service Base Entities plugin.
 
@@ -533,13 +550,34 @@ Role
 
 </th><th>
 
+Description
+
+</th><th>
+
 Contains roles
 
 </th></tr></thead><tbody><tr><td>
 
+CSM admin\[csm\_admin\]
+
+</td><td>
+
+Provides admin access to all CSM features and data.
+
+</td><td>
+
+-   sn\_shn.admin
+-   sn\_res\_shaper.admin
+
+</td></tr><tr><td>
+
 Service management agent
 
  \[sn\_esm\_agent\]
+
+</td><td>
+
+ 
 
 </td><td>
 
@@ -548,10 +586,15 @@ Service management agent
 -   cmdb\_read
 -   agent\_schedule\_user
 -   interaction\_agent
+-   sn\_publications\_recipients\_list\_user
 
 </td></tr><tr><td>
 
 Service management partner\[sn\_esm\_partner\]
+
+</td><td>
+
+ 
 
 </td><td>
 
@@ -563,6 +606,10 @@ Service management user admin\[sn\_esm\_user\_admin\]
 
 </td><td>
 
+ 
+
+</td><td>
+
 sn\_esm\_user
 
 </td></tr><tr><td>
@@ -571,11 +618,19 @@ Service management admin\[sn\_esm\_admin\]
 
 </td><td>
 
+ 
+
+</td><td>
+
 None
 
 </td></tr><tr><td>
 
 Service management user\[sn\_esm\_user\]
+
+</td><td>
+
+ 
 
 </td><td>
 
@@ -588,12 +643,20 @@ Service management partner admin\[sn\_esm\_partner\_admin\]
 
 </td><td>
 
+ 
+
+</td><td>
+
 -   sn\_esm\_user\_admin
 -   sn\_esm\_admin
 
 </td></tr><tr><td>
 
 Role for REST APIs related to CSM web services\[csm\_ws\_integration\]
+
+</td><td>
+
+ 
 
 </td><td>
 

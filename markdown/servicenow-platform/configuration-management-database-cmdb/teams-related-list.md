@@ -7,9 +7,9 @@ release: yokohama
 product: Configuration Management Database \(CMDB\)
 classification: configuration-management-database-cmdb
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Related Lists of CI components, CMDB classifications and class dependency, CMDB schema model, Exploring CMDB, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Related Lists of CI components, CMDB classifications and class dependency, Configuration Management Database \(CMDB\), Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Teams related list
@@ -57,7 +57,7 @@ The Teams related list lets you add custom group types that are needed in your o
 
 ### Before you begin
 
-Role required: itil\_admin, asset, or cmdb\_admin
+Role required: sn\_cmdb\_admin or itil\_admin, asset, or cmdb\_admin
 
 ### About this task
 

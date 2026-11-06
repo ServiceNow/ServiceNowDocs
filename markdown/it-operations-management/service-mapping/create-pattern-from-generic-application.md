@@ -7,7 +7,7 @@ release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Fine-tune application services to implement owner requests, Application service mapping using classic Service Mapping, Using Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
@@ -50,7 +50,7 @@ As part of creating a simplified pattern for complete and proper application CI 
 
 -   **Pattern**
 
-    A pattern is a sequence of commands whose purpose it is to detect attributes of a CI and its outbound connections. When you create a simplified pattern for a generic application, Service Mapping assigns the new simplified pattern to the CI type you define as part of this process. The default name for the pattern starts with "ga\_".
+    A pattern is a sequence of commands designed to detect attributes of a CI and its outbound connections. When you create a simplified pattern for a generic application, Service Mapping assigns the new simplified pattern to the CI type you define as part of this process. The default name for the pattern starts with "ga\_".
 
 -   **Association of an icon with this CI type**
 

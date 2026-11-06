@@ -7,9 +7,9 @@ release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Process Mining workspace, Exploring Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [Workspace, Explore, Process Mining, Platform Analytics]
 ---
 
 # Process details page
@@ -19,15 +19,16 @@ The process details page for Process Mining provides access to high level insigh
 From the process details page, you can do the following:
 
 -   Select the **Summary and Insights** tab to see the speed, quality, and cost insights impacting your process.
--   Select the **Analyst Workbench** tab to access the project dashboard, where you can view the visualized process map for your project.
--   Select the **Automation Opportunities** tab to find automation opportunities using machine learning and process-based analysis.
--   Select the **KPI Dashboard** tab to see any KPI dashboard that you have configured in the project configuration.
+-   Select the **Opportunity details** tab to access details about an improvement opportunity.
+-   Select the **Analyst workbench** tab to access the project dashboard, where you can view the visualized process map for your project.
+-   Select the **Automation opportunities** tab to find automation opportunities using machine learning and process-based analysis.
+-   Select the **KPI dashboard** tab to see any KPI dashboard that you have configured in the project configuration.
 
-**Note:** To go back to the projects landing page where you can see all the project cards, select the **Process Projects** tab.
+**Note:** To go back to the projects landing page where you can see all the project cards, select the **Process Models** tab.
 
 ## Overview panel
 
-When you mine and open a project, the Analyst Workbench opens.
+When you mine and open a project, Analyst workbench opens.
 
 \[Omitted image "project-view-screen-annotated2.png"\] Alt text: Overview panel
 
@@ -93,26 +94,18 @@ Summary and Insights tab
 
 </td><td>
 
-See business goals, summary insights for your key performance indicators, transitions, and route variation. For more information, see e[Summary and Insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/summary-insights-dashboard.md).
+See business goals, summary insights for your key performance indicators, transitions, and route variation. For more information, see e[Summary and insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/summary-insights-dashboard.md).
 
 </td></tr><tr><td>
 
-Analyst Workbench tab
+Analyst workbench tab
 
 </td><td>
 
-Select this tab to access the following:-   **Breakdown Filters** tab: Create and delete filter sets, and set advanced filter conditions.
--   **Variation Analysis** tab: View the routes distributed over the records in the data set.
+Select this tab to access the following:-   **Breakdowns** tab: Create and delete filter sets, and set advanced filter conditions.
+-   **Variants** tab: View the routes distributed over the records in the data set.
 
-For more information, see [Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md).
-
-</td></tr><tr><td>
-
-Automation Opportunities tab
-
-</td><td>
-
-Helps to identify automation opportunities for your workflows. Only available for ITSM. For more information, see [Automation opportunities page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/automation-opportunities.md).
+For more information, see [Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md).
 
 </td></tr><tr><td>
 
@@ -125,7 +118,7 @@ Displays any KPI dashboard that you have configured in the project configuration
 </td></tr></tbody>
 </table>## Process map
 
-The process map shows the visualized project and routes, and provides the following tools for filtering and drilling into its view. You can access the process map through the Analyst Workbench tab.
+The process map shows the visualized project and routes, and provides the following tools for filtering and drilling into its view. You can access the process map through the Analyst workbench tab.
 
 <table><thead><tr><th>
 
@@ -228,14 +221,14 @@ The notes, initiatives, and scheduled tasks panel provides tools for creating an
 |Improvement initiatives icon \(\[Omitted image "improve-initiative-icon.png"\] Alt text: Initiatives icon\)|View the initiatives list, create a new initiative, link to an existing initiative, or remove an initiative.|
 |Scheduled tasks icon \(\[Omitted image "scheduled-tasks-icon.png"\] Alt text: Scheduled tasks icon\)|View the status of scheduled mining, filtering, and requested cluster analysis tasks.|
 
--   **[Summary and Insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/summary-insights-dashboard.md)**  
-The Summary and Insights page enables you to view opportunities for optimizing your process. Access the dashboard from a Process Mining project.
--   **[Analyst Workbench](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md)**  
-View the visualized process map with tools for managing visualizations and perform analysis tasks from a project's page.
--   **[Automation opportunities page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/automation-opportunities.md)**  
-Use the automation opportunities page to find automation opportunities using machine learning and process-based analysis.
--   **[KPI dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/kpi-dashboard.md)**  
-On the **KPI Dashboard** tab, see any KPI dashboard that you have configured for your project.
+-   **[Summary and insights page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/summary-insights-dashboard.md)**  
+The Summary and insights page enables you to view opportunities for optimizing your process. Access the page from a Process Mining project.
+-   **[Opportunity details page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/opportunity-details.md)**  
+The Opportunity details page displays details about the improvement opportunities for a project. Access the page from a Process Mining project.
+-   **[Analyst workbench page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-dashboard.md)**  
+View the visualized process map with tools for managing visualizations and performing analysis tasks from a project's page.
+-   **[KPI dashboard page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/kpi-dashboard.md)**  
+On the **KPI dashboard** page, see any KPI dashboard that you have configured for your project.
 
 **Parent Topic:**[Process Mining workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/analyst-workbench-overview.md)
 

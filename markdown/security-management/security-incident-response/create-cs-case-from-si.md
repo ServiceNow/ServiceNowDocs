@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Record creation from security incidents, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -28,9 +28,7 @@ Role required: sn\_si.basic and sn\_customerservice\_agent
 
 2.  Open the security incident that you want to add a CS case to.
 
-3.  Click **Create Customer Service Case** in the top header.
-
-    \[Omitted image "CreateCSCase.png"\] Alt text: Create Customer Service button
+3.  Select **Create Customer Service Case** in the top header.
 
     The pop-up window is prepopulated with information from the security incident based on your field mapping.
 
@@ -38,13 +36,11 @@ Role required: sn\_si.basic and sn\_customerservice\_agent
 
     **Note:** The **Priority** field overwrites the default setting. The **Optional notes** are appended to the incident.
 
-    \[Omitted image "CreateCSMPopup.png"\] Alt text: Create Customer Service case
-
-5.  Click **Submit.**
+5.  Select **Submit.**
 
     A CS case is created and displayed in the Customer Service Cases related list in the security incident.
 
-6.  You can click the CS case link to follow up on the case.
+6.  You can select the CS case link to follow up on the case.
 
 
 **Related topics**  

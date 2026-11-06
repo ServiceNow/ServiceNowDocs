@@ -7,7 +7,7 @@ release: yokohama
 product: Dynamic Translation
 classification: dynamic-translation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Configuring Dynamic Translation, Dynamic Translation, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -96,6 +96,8 @@ When multiple domains exist on one instance, Exclusion Framework is activated on
 
 -   **[Add new rules to Exclusion Framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dyn-translation-add-exclusion-rule.md)**  
 Add terms and patterns that shouldn't be machine translated to the Exclusion Rules table. You can create either exact match rules or pattern match rules, and you can edit your rules later.
+-   **[Test Exclusion Rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dyn-translation-test-exclusion-rule.md)**  
+Test Exclusion Rule in Dynamic Translation enables you to test your exclusion pattern manually. You can check whether the pattern accurately excludes a text string from translation.
 -   **[Add an Exclusion Provider Pattern](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/dynamic-translation/dyn-translation-exclusion-provider.md)**  
 As part of the configuration of Exclusion Framework in Dynamic Translation, enter the tags used by your translation provider to mark text that should not be machine translated.
 

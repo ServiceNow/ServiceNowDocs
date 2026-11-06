@@ -1,59 +1,66 @@
 ---
 title: UX: Catalog Request Experience Review
-description:  The User Experience \(UX\): Catalog Request Experience Review Accelerator reviews your Service Catalog,  forms  and form  design and identifies areas  of improvement.
+description: This Accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/accelerator-and-initiative-list/ux-accelerator-service-request-experience-review.html
 release: yokohama
 product: Accelerator and Initiative List
 classification: accelerator-and-initiative-list
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Architecture Accelerators, Accelerator catalog, Initiatives &amp; Accelerators, Impact]
+breadcrumb: [Technical Accelerators, Accelerator catalog, Accelerators and Initiatives, Using Impact, Impact]
 ---
 
 # UX: Catalog Request Experience Review
 
- The User Experience \(UX\): Catalog Request Experience Review Accelerator reviews your Service Catalog,  forms  and form  design and identifies areas  of improvement.
+This Accelerator reviews the Impact customer’s Service Catalog, request forms  and form  design and identifies areas  of improvement.
 
 ## Accelerator overview
 
-User Experience \(UX\): Catalog Request Experience Review provides an evaluation of a customer’s forms and form design, beginning with an introductory session to set expectations, review the scope, and discuss the importance of well-defined forms and catalogs. This is followed by targeted user feedback sessions, where up to five end users navigate selected catalog requests, offering practical insights. The final readout session presents actionable recommendations, supported by a detailed review deck.
+UX: Catalog Request Experience Review provides Impact customers with an assessment of the user experience of up to four catalog request forms. Through careful review, we offer valuable insights and recommendations to enhance the design and effectiveness of their forms. Additionally, this accelerator equips our customers with essential ServiceNow resources and leading practices guides on how to improve the usability of their Service Catalog.
 
-**Note:** This Accelerator is available for Impact Advanced and Total packages.
+## Package Availability
+
+**Note:** This Accelerator is available for Impact Guided+ \(Platform Governance add-on\), Advanced and Total Packages.
 
 ## What you get
 
--   **Introduction session \(up to 120 minutes\)**
+-   **Session Preparation **
+    -   Provision a temporary instance
+    -   UX review of up to four catalog request forms selected by customer
+-   **Customer Coaching Session \#1 \(up to 1.5 hours\)**
 
     Includes the following activities:
 
-    -   Review of the scope and expectations of the Accelerator
-    -   Outline of the importance of well-defined forms and catalogs
-    -   Walk through participant recruitment and catalog item selection
--   **Remote Catalog user feedback sessions \(up to 120 minutes\)**
-    -   Observe up to five end users of the catalog navigate three to five selected catalog requests
-    -   Develop recommendations based on the end-users' experience
--   **Assessment findings and recommendation readout \(up to 180 minutes\)**
-
-    Present the recommendations based on the review and remote catalog user feedback sessions
-
+    -   Review scope and expectations of the accelerator and confirm customer needs
+    -   Outline the importance of well-defined forms and catalogs
+    -   Discuss recommendations based on the review of catalog request forms selected by customer
+-   **Customer Coaching Session \#2 \(Optional Upon Recommendation-up to 1 hour\)**
+    -   Continue discussion of catalog request form recommendations, if needed
+    -   Opportunity for Q&amp;A related to recommendations
 -   **Outputs**
-    -   Service Catalog Review Readout Deck
+    -   Service Catalog UX Review Readout Deck
     -   Documentation of recommendations
 
 ## Requested customer resources
 
-One or more customer resource is requested. The specific number of resources provided is Accelerator and customer specific.
+One or more customer resources are requested. The specific number of resources provided is Accelerator and customer specific.
 
 |Customer resource|Responsibilities|Required|Optional|
 |-----------------|----------------|--------|--------|
-|Product owner|Manages Customer’s  ServiceNow  Service Catalog.|✓| |
-|End users of catalog|Frequently uses the catalog or form.|✓| |
-|Customer UX lead|Responsible for designing the user experience on the Customer’s end.| |✓|
-|Trusted Service Partners|Attends ServiceNow Impact Accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
+|Product owner|Subject matter expert responsible for managing customer’s ServiceNow Service Catalog.|✓| |
+|UX &amp; OCM Expert|Primary stakeholders and advocates for user experience and organizational change management.  | |✓|
+|Process/Service Owner\(s\)|A senior leader within each business unit for each major process or service \(e.g., incident, change, employee onboarding\) who is accountable for ensuring the process is fit for purpose.| |✓|
+|Developer\(s\)|Writes code for the ServiceNow platform| |✓|
+|Trusted Service Partners|Attends ServiceNow Impact accelerator coaching session\(s\) to understand leading practices and potentially support customer going forward.| |✓|
 
-## Exceptions
+## Requested Information/Access
 
-The Accelerator may conclude early if the assessment clearly identifies required changes.
+-   Identification of up to four catalog request forms for review
+-   Existing user research and feedback on Service Catalog, plus relevant insights
+
+## Requested Information/Access
+
+**Note:** Additional details on supplemental legal terms, prerequisites, specifications, requirements, and exclusions can be found in the [Impact Accelerator Terms Matrix](https://www.servicenow.com/legal/servicenow-impact.html).
 

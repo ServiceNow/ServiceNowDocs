@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Commercial Lines Claims, Commercial Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Commercial Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Approve a reserve or payment amount
@@ -30,7 +30,7 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 2.  Open the task one of the following ways.
 
-<table><tbody><tr><td id="d113323e72">
+<table><tbody><tr><td id="d138835e76">
 
 **From the landing page**
 
@@ -38,13 +38,13 @@ If an assigned reserve or created payment amount by an adjuster is higher than t
 
 Select the task from the My pending tasks list.
 
-</td></tr><tr><td id="d113323e81">
+</td></tr><tr><td id="d138835e85">
 
 **From the Commercial lines claims approvals list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "list-icon.png"\] Alt text: lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  In the **Lists** tab, under **Commercial lines claims approvals**, open one of the following:
     -   **My approvals - Reserves**
     -   **My approvals - Payments**

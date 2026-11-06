@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Personal Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Exploring Personal Lines Claims
@@ -88,4 +88,8 @@ Claims manager
 Manager who approves the reserves and payment requests and can view an overview of all the claims, including the Process Mining dashboards and Performance Analytics dashboards and reports.
 
 </td></tr></tbody>
-</table>
+</table>**Related topics**  
+
+
+[Personal Lines Claims dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/personal-lines-claims.md)
+

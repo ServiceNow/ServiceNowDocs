@@ -1,20 +1,20 @@
 ---
 title: Now Assist in Conversational Spokes
-description: Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub Spoke actions.
+description: Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub spoke actions.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/integrate-applications/integration-hub/conv-spokes-na.html
 release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Now Assist in Conversational Spokes
 
-Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub Spoke actions.
+Use Now Assist in Conversational Spokes application to start utilizing the conversational ability of Integration Hub spoke actions.
 
 ## Request apps on Store
 

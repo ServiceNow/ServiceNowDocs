@@ -1,5 +1,5 @@
 ---
-title: Restrict Global App Development by Role \[New in Security Center 2.0\]
+title: Restrict Global App Development by Role
 description: Use the sn\_g\_app\_creator.allow\_global property to control which users can create applications in the global scope using the Guided Application Creator.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/instance-security-hardening-settings/sc-restrict-global-app-development-by-role.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Access control, Hardening settings, Platform Security]
 ---
 
-# Restrict Global App Development by Role \[New in Security Center 2.0\]
+# Restrict Global App Development by Role
 
 Use the **sn\_g\_app\_creator.allow\_global** property to control which users can create applications in the global scope using the Guided Application Creator.
 
-If **sn\_g\_app\_creator.allow\_global** is set to the recommended value of false, users require the **sn\_g\_app\_creator.global** role to create applications in the global scope. Conversely, if set to the insecure value of true, any user with the basic sn\_g\_app\_creator.app\_creator role can create global applications. Global applications lack scope protection, allowing developers access to extensive features and functions beyond specific scopes. Restricting global application development to users with the additional role adheres to the principle of least privilege.
+The **sn\_g\_app\_creator.allow\_global** system property controls which users can create applications in the global scope using the Guided Application Creator. If **sn\_g\_app\_creator.allow\_global** is set to the recommended value of **false**, users need the sn\_g\_app\_creator.global role to create an application in the global scope using Guided Application Creator. If **sn\_g\_app\_creator.allow\_global** is set to the insecure value of **true** then all users with only the base role "sn\_g\_app\_creator.app\_creator" can create an application in the global scope using Guided Application Creator. Applications in the global scope do not contain scope protections allowing a developer to access greater features and functions beyond a specific scope.
 
-**Note:** This property does not come pre-configured in your instance. You must manually create and configure this property according to your organization's needs.
+Ensure the property **sn\_g\_app\_creator.allow\_global** is set to **false** or does not appear in the System Properties \[sys\_properties\] table. If the property is not present in the System Properties \[sys\_properties\] table the secure default is used.
 
 ## More information
 
@@ -52,7 +52,7 @@ Data type
 
 </td><td>
 
-boolean
+Boolean
 
 </td></tr><tr><td>
 
@@ -65,6 +65,14 @@ false
 </td></tr><tr><td>
 
 Default value
+
+</td><td>
+
+Default value
+
+</td></tr><tr><td>
+
+Fallback value
 
 </td><td>
 
@@ -86,7 +94,7 @@ Security risk
 
 -   Severity score: 3.3
 -   CVSS score: Low
--   Security risk details: Failing to set this property to the recommended value could allow any user with the s**n\_g\_app\_creator.app\_creator** role to create global applications, which does not adhere to the principle of least privilege.
+-   Security risk details: Limiting global application development to users with the additional role follows the principle of least privilege.
 
 </td></tr><tr><td>
 

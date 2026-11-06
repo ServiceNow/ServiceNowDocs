@@ -7,7 +7,7 @@ release: yokohama
 product: Scaled Agile Framework \(SAFe\)
 classification: scaled-agile-framework-safe
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Performance Analytics Content Pack for Essential SAFe, Scaled Agile Framework \(SAFe\), Strategic Portfolio Management]
 ---
@@ -71,11 +71,11 @@ The SAFe PI dashboard provides the following details:
 
 -   **Percent Completed**
 
-    Indicates the percentage of work that has been completed in the PI using story points. This widget lets you see at a glance how much work has been completed in the PI. Together with the adjacent Time Elapsed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the PI goal on schedule.
+    Indicates the percentage of work that has been completed in the PI using story points. This widget lets you see at a glance how much work has been completed in the PI. Together with the adjacent Time Elapsed widget, these widgets let you see whether you are completing work at a rate that meets the PI goal on schedule.
 
 -   **Time Elapsed**
 
-    Indicates the percentage of time that has elapsed between the start date and planned end date of the PI. Together with the adjacent Percent Completed widget, these widgets let you easily see whether you are completing work at a rate consistent with achieving the PI goal on schedule.
+    Indicates the percentage of time that has elapsed between the start date and planned end date of the PI. Together with the adjacent Percent Completed widget, these widgets let you see whether you are completing work at a rate that meets the PI goal on schedule.
 
 -   **Features**
 
@@ -123,7 +123,7 @@ PI Burndown
 
 </td><td>
 
-Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -139,7 +139,7 @@ PI burnup
 
 </td><td>
 
-Line chart\[Omitted image "line-icon.png"\] Alt text: Line chart
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -156,11 +156,11 @@ PI Feature Progress
 
 </td><td>
 
-Horizontal bar chart\[Omitted image "horizontal-bar.png"\] Alt text: Horizontal bar chart
+Horizontal bar chart\[Omitted image "inline-data-vis-96px-bar-horizontal.png"\] Alt text:
 
 </td><td>
 
-Analyse the progress of every feature of the PI, by viewing the count of the stories segregated by their state.
+Analyze the progress of every feature of the PI, by viewing the count of the stories segregated by their state.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Velocity by Sprint
 
 </td><td>
 
-Bar chart\[Omitted image "column-icon.png"\] Alt text: Bar chart
+Bar chart\[Omitted image "inline-data-vis-96px-bar-vertical.png"\] Alt text:
 
 </td><td>
 
@@ -180,7 +180,7 @@ PI Cumulative Flow Diagram
 
 </td><td>
 
-Area chart\[Omitted image "icon-area-report.png"\] Alt text: Area chart
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -217,7 +217,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 
@@ -234,7 +234,7 @@ Identify the time taken for each story in the PI to move from an in-progress sta
 
  From the Story State section towards the right of the report, you can filter the report to view the cycle time of the stories for the selected states. The chart displays the cycle time for each story as the cumulative sum of all duration of the selected states.
 
- If there are too many stories at any area of the chart and the bubbles appear crowded on the report, you can zoom in that particular area of the report for a clearer view.
+ If the bubbles appear crowded in an area of the chart, zoom in on that area for a clearer view.
 
  \[Omitted image "cycle-time-zoom.gif"\] Alt text: Cycle Time Zoom
 

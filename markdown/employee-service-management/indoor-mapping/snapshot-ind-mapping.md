@@ -7,8 +7,8 @@ release: yokohama
 product: Indoor Mapping
 classification: indoor-mapping
 topic_type: task
-last_updated: "2025-02-12"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Manage map objects and data, Indoor Mapping, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -73,14 +73,10 @@ Role required: map admin, map editor, wsd\_core\_admin
 
 15. To delete a snapshot, select the campus from the Campus page and click **Actions** on Selected items drop-down box and select **Delete**.
 
-16. Few workplace tables are impacted during the snapshot process.
+16. Few tables are impacted during the snapshot process.
 
     For more information about impacted tables, see [Snapshot Impacted tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/snapshot-ind-mapping-tables.md).
 
-
-## What to do next
-
-**Note:** After moving the snapshots, the Space Details table \[sn\_wsd\_spcmgmt\_space\_detail\] in Workplace Space Management doesn't get populated with the snapshots. To get the updated Space details table record, manually run the fix script **Load space details table- current state**. Navigate to **All** &gt; **Fix Scripts** and search for Workplace Space Management **Load space details table- current state** fix script. Select **Run Fix Script** tab to run the script and get latest Space Details table \[sn\_wsd\_spcmgmt\_space\_detail\] record.
 
 **Parent Topic:**[Manage map objects and data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/indoor-mapping/using-indoor-mapping.md)
 

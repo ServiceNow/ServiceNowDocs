@@ -7,9 +7,9 @@ release: yokohama
 product: ServiceNow Large Language Model \(Now LLM\)
 classification: servicenow-large-language-model-now-llm
 topic_type: concept
-last_updated: "2025-06-30"
-reading_time_minutes: 2
-breadcrumb: [Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Large language models and providers, Enable AI Experiences]
 ---
 
 # Large language models on the ServiceNow AI Platform
@@ -20,38 +20,112 @@ ServiceNow AI Platform® utilises large language models \(LLM\) for generative A
 
 ServiceNow® supports third-party AI model providers, which signifies that the admin persona can select a third-party large language or an AI model provider for Now Assist skills that are available out of box. Find the supported model providers, the LLM services and the version.
 
-|Model provider|Large language model|Version|Deployment policy|
-|--------------|--------------------|-------|-----------------|
-|ServiceNow®|Now LLM Service|Latest update for your instance| |
-|Microsoft Azure|Azure OpenAI|OpenAI GPT-4.1 and GPT-4.1-mini|[https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types\#global-standard](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#global-standard)|
-|Google|Google Gemini|Gemini 2.5 Flash and 2.5 Pro|[https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations)|
-|AWS|AWS Claude|Claude 3.7 Sonnet|[https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)|
+<table id="table_l55_qlf_xfc"><thead><tr><th>
 
-**Note:** Some out of box skills, Agents, and Agentic Workflows do not support Now LLM Service or third party model providers. To learn more about the exceptions to LLM service and third party model providers support, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2222333](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2222333)
+Model provider
+
+</th><th>
+
+Large language model
+
+</th><th>
+
+Version
+
+</th><th>
+
+Deployment policy
+
+</th></tr></thead><tbody><tr><td>
+
+ServiceNow®
+
+</td><td>
+
+Now LLM Service
+
+</td><td>
+
+Latest update for your instance
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+Microsoft Azure
+
+</td><td>
+
+Azure OpenAI
+
+</td><td>
+
+OpenAI GPT-4.1 and GPT-4.1-mini
+
+</td><td>
+
+[https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types\#global-standard](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/deployment-types#global-standard)
+
+</td></tr><tr><td>
+
+Google
+
+</td><td>
+
+Google Gemini
+
+</td><td>
+
+Gemini 2.5 Flash and 2.5 Pro
+
+</td><td>
+
+[https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations](https://cloud.google.com/vertex-ai/generative-ai/docs/learn/locations)
+
+</td></tr><tr><td>
+
+AWS
+
+</td><td>
+
+AWS Claude
+
+</td><td>
+
+Claude 3.7 Sonnet
+
+</td><td>
+
+[https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html](https://docs.aws.amazon.com/bedrock/latest/userguide/models-regions.html)**Note:** Some out of box skills, Agents, and Agentic Workflows do not support Now LLM Service or third party model providers. To learn more about the exceptions to LLM service and third party model providers support, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2222333](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2222333)
+
+</td></tr></tbody>
+</table>**Note:** Some out of box skills, Agents, and Agentic Workflows do not support Now LLM Service or third party model providers. To learn more about the exceptions to LLM service and third party model providers support, see [https://support.servicenow.com/kb?id=kb\_article\_view&amp;sysparm\_article=KB2222333](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2222333)
 
 ## Large language model selection
 
-This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower.
+This selection is supported at various levels such as, skill, skill group and instance levels. However, the controls that define LLMs mapping to different skills, allowed at various global locations, are configured and approved in AI Control Tower by the AI steward. The model provider options for custom skills created in Now Assist skill kit and AI Agent Studio are also configured in AI Control Tower. See [Configure third-party LLMs using AI Control Tower](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/configure-third-party-llms-using-ai-control-tower.md) to learn more.
 
 The **Manage large language models** feature enables the admin persona to perform additional actions like:
 
 -   Edit the model provider at the instance, skill group and skill levels
--   Deactivate active skills which are non-compliant with fallback as **No**. See [Explore AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-control-tower/ai-model-providers.md) to learn more.
+-   Deactivate active skills which are non-compliant with fallback as **No**. See [Configuring AI model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/aict-configuring-ai-model-providers.md) to learn more.
 -   View audit history on policy updates by AI steward in AI Control Tower
 -   Select allowed model providers across domain separated instances.
 
-See [Manage large language models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md) to learn about managing.
+See [Manage AI models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/manage-large-language-models.md) to learn about managing.
 
-For more information on selecting and updating model providers, see [Edit model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md).
+For more information on selecting and updating model providers, see [Manage model providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/edit-model-providers.md).
 
 -   **[Model provider updates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/now-llm-model-updates.md)**  
 Review these updates to learn which model providers and models are available for your skills and agents. Review the model cards for information about how each model is intended to be used.
--   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+-   **[General guidelines for writing instructions for generative AI large language models \(LLMs\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/llm-instruction-guidelines.md)**  
 When using Now Assist products and skills, you may have the option to give specific instructions or other guidance to the LLM. Writing generative AI instructions is different from conducting a keyword search. Use the following general guidelines when crafting your instructions.
 -   **[Discrepancies when using different AI search tools](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/aisearch-differences.md)**  
 Different AI search tools may return different answers for the same or similar searches. This difference in results is expected. It occurs because each large language model \(LLM\) uses a different approach to find results and generate answers that match your search.
--   **[Long term stable models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/long-term-stable-models.md)**  
-Long term stable \(LTS\) models support regulated industries, such as financial institutions, with stronger AI lifecycle management, governance, transparency, and compliance tools.
+-   **[Providers and Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/servicenow-large-language-model-now-llm/providers-and-models.md)**  
+You can bring your own large language model \(LLM\) provider and API to use with Now Assist.
 
-**Parent Topic:**[Enable AI experiences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/ai-products.md)
+**Parent Topic:**[Large language models and providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/platai-large-language-models-providers.md)
 

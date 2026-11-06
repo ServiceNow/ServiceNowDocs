@@ -1,5 +1,5 @@
 ---
-title: Getting started with connections
+title: Get started with connections
 description: Use the connections table to set up a Basic, JMS, JDBC, or HTTP\(s\) connection to a target host.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/connections-and-credentials/connection-information.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: reference
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
 breadcrumb: [Connections and Credentials, Access Management]
 ---
 
-# Getting started with connections
+# Get started with connections
 
 Use the connections table to set up a Basic, JMS, JDBC, or HTTP\(s\) connection to a target host.
 

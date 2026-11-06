@@ -1,18 +1,18 @@
 ---
 title: Device security for ServiceNow Mobile apps
-description: This document applies to current ServiceNow apps for iOS and Android for Yokohama. This document may be subject to change for future mobile releases.
+description: This document applies to current ServiceNow apps for iOS and Android for Brazil. This document may be subject to change for future mobile releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/sg-mobile-security.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Mobile security, Configuring the Mobile Platform, Mobile Platform]
 ---
 
 # Device security for ServiceNow Mobile apps
 
-This document applies to current ServiceNow apps for iOS and Android for Yokohama. This document may be subject to change for future mobile releases.
+This document applies to current ServiceNow apps for iOS and Android for Brazil. This document may be subject to change for future mobile releases.
 
 -   **[Components and architecture](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-mobile-security-components-architecture.md)**  
 The ServiceNow mobile apps consist of the ServiceNow server instance and native apps for iOS and Android. The apps use fully native code and are not a hybrid approach. The mobile client applications communicate over a wireless connection with the server and pull live data for the end user.

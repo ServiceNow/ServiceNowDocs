@@ -1,5 +1,5 @@
 ---
-title: Components installed with Galileo Inside
+title: Components installed with ServiceNow Otto for HRSD – Galileo Inside
 description: Information about the roles and scheduled jobs that are installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/components-installed-galileo-inside.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: reference
-last_updated: "2025-04-28"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reference for ServiceNow Otto for HR Service Delivery \(HRSD\), ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
-# Components installed with Galileo Inside
+# Components installed with ServiceNow Otto for HRSD – Galileo Inside
 
 Information about the roles and scheduled jobs that are installed.
 
@@ -30,7 +30,7 @@ sn\_hr\_na\_galileo.admin
 
 </td><td>
 
-Is auto-assigned to the sn\_hr\_gen\_ai\_helper.admin role.
+Is auto-assigned to the `sn_hr_gen_ai.admin` role.
 
  Grants administrative access to the Galileo data store.
 
@@ -62,4 +62,5 @@ Retrieves data from the Josh Bersin company. The admin first manually executes t
  Subsequently, the system runs the scheduled job monthly to retrieve new data.
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[Reference for ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/reference-now-assist-hrsd.md)
+

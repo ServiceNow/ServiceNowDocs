@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2025-12-09"
+last_updated: "2026-10-05"
 reading_time_minutes: 10
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # SAP ECC RFC Spoke
@@ -18,7 +18,7 @@ The SAP ECC RFC spoke is built by Bristlecone, Inc. Manage items, journals, proc
 
 ## Request apps on Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). Starting on March 1st 2022, all SAP spokes will be available only on the Store.
 
 ## Integration Hub subscription
 
@@ -26,7 +26,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-SAP ECC RFC spoke v2.11.0 is the latest version.
+SAP ECC RFC spoke v2.12.0 is the latest version. For version history of the spoke, see [SAP ECC RFC spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-sap-ecc-rfc.html).
 
 ## Supported versions
 
@@ -212,7 +212,7 @@ Look up RFC Output Metadata
 
 Dynamically retrieves the output schema from SAP ECC - RFC, for the selected RFC.
 
-</td></tr><tr><td rowspan="22">
+</td></tr><tr><td rowspan="23">
 
 Procurement
 
@@ -223,6 +223,14 @@ Authorize Payment
 </td><td>
 
 Creates an authorize payment document in SAP ECC RFC.
+
+</td></tr><tr><td>
+
+Authorize Payment for Non-PO Invoice
+
+</td><td>
+
+Creates an authorize payment document for create non purchase order invoice in SAP ECC RFC.
 
 </td></tr><tr><td>
 

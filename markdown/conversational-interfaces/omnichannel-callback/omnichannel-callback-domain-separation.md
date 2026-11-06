@@ -1,0 +1,58 @@
+---
+title: Domain separation and Omnichannel Callback
+description: Domain separation is supported for Omnichannel Callback. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/conversational-interfaces/omnichannel-callback/omnichannel-callback-domain-separation.html
+release: yokohama
+product: Omnichannel Callback
+classification: omnichannel-callback
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Reference, Omnichannel Callback, Manage people and work, Conversational Interfaces]
+---
+
+# Domain separation and Omnichannel Callback
+
+Domain separation is supported for Omnichannel Callback. Domain separation enables you to separate data, processes, and administrative tasks into logical groupings called domains. You can control several aspects of this separation, including which users can see and access data.
+
+## Support level: Standard
+
+-   Includes all aspects of **Basic** level support.
+-   Application properties are domain-aware as needed.
+-   Business logic: The service provider \(SP\) creates or modifies processes per customer. The use cases reflect proper use of the application by multiple SP customers in a single instance.
+-   The instance owner must configure the minimum viable product \(MVP\) business logic and data parameters per tenant as expected for the specific application.
+
+Sample use case: An admin must be able to make comments required when a record closes for one tenant, but not for another.
+
+For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
+
+## Overview
+
+Domain separation enables you to partition your organization's data and administrative control into separate domains. This is useful in environments where multiple tenants share a common platform.
+
+## How domain separation works in Omnichannel Callback
+
+Domain separation in Omnichannel Callback works by routing callback requests to domain-specific available agents.
+
+When using domain separation for Omnichannel Callback, note the following:
+
+-   Domain separation applies to both the agent and the customer requesting a callback. This means that agents can access only interaction records created under the domain of the user requesting the callback.
+-   The agent must be in the same domain as the user to receive a callback request in the workspace.
+-   No configuration is required for domain separation for Omnichannel Callback.
+
+## Domain separated tables
+
+The sys\_cs\_callback table is domain separated.
+
+## Use cases
+
+When domain separation is used, a callback request from guest users is routed to the agent with the same domain as the guest user. For custom chat channels, the domain of the provider application is used as a reference to route the callback to the domain-specific agent.
+
+**Parent Topic:**[Omnichannel Callback reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/omnichannel-callback/omnichannel-callback-reference.md)
+
+**Related topics**  
+
+
+[Domain separation for service providers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-sep-landing-page.md)
+

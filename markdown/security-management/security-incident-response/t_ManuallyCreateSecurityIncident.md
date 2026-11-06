@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Security incident manual creation, Security incident creation, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -26,11 +26,7 @@ Role required: sn\_si.basic
 
 1.  Navigate to any security incident list \(for example, **All** &gt; **Security Incident** &gt; **Incidents** &gt; **Show All Incidents**\).
 
-    \[Omitted image "SiList.png"\] Alt text: Security incident lists
-
 2.  Select **New**.
-
-    \[Omitted image "SiForm.png"\] Alt text: New security incident
 
 3.  On the form, fill in the fields.
 
@@ -229,7 +225,7 @@ Knowledge results
 As you type the short description, links to related articles from the knowledge base appear. Scanning the information could solve your issue.
 
 </td></tr></tbody>
-</table>4.  Right-click in the record header and select **Save**.
+</table>4.  Select and hold \(or right-click\) in the record header and select **Save**.
 
     If you added a new CI to the security incident, the following integration workflows are automatically executed:
 
@@ -237,8 +233,6 @@ As you type the short description, links to related articles from the knowledge 
     -   [Security Incident Response - Get Running Services workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/get-running-services-workflow.md). This workflow retrieves a list of running services from Windows-based CIs.
     -   [Security Operations Integrations - Get Network Statistics flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integration-get-network-stats-workflow.md). This workflow retrieves a list of active network connections from a host or endpoint.
 5.  To view the information retrieved by these workflows, click the **Show Enrichment Data** related link, and then click any of the indicated tabs.
-
-    \[Omitted image "enrichment-data.png"\] Alt text: Security Incident enrichment
 
     **Note:** Additional workflows are executed based on the third-party integrations you have activated as follows [Security Operations Carbon Black Integration - Get Running Processes Flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/secops-integration-cb-get-running-processes-workflow.md)
 

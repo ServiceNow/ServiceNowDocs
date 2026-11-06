@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM Visibility, IT Operations Management]
+breadcrumb: [ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # ITOM Visibility and CSDM reference
@@ -42,4 +42,13 @@ For details on implementing CMDB data to conform with the CSDM framework, see [I
 [Discovery basics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/c_GetStartedWithDiscovery.md).
 
 [Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/c_ServiceMappingOverview.md).
+
+-   **[ITOM Visibility and CMDB tables](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case.md)**  
+ITOM Visibility manages and uses CMDB tables. Several ServiceNow products benefit from and add value to ITOM Visibility.
+-   **[ITOM Visibility use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case-example.md)**  
+The ITOM Visibility use cases are described in this section.
+-   **[ITOM Visibility considerations for CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case-trouble.md)**  
+Consider these points while implementing the CSDM framework.
+
+**Parent Topic:**[ITOM Visibility reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/visibility-reference.md)
 

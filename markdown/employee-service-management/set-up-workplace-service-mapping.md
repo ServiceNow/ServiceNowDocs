@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/set-up-workplace-service-mapping.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Space Mapping, Workplace Service Delivery, Employee Service Management]
 ---
@@ -79,7 +79,7 @@ To configure and work with Mappedin ensure that you have a valid login credentia
 -   **[Customize the map properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-configure-map-properties.md)**  
 Customize how your map renders in the Workplace Service Portal by configuring Workplace Space Mapping properties.
 
-**Parent Topic:**[Configure Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
+**Parent Topic:**[Configuring Workplace Space Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/wsm-config_space_mapping.md)
 
 **Related topics**  
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, Agentic AI, generative AI, Gen AI]
 breadcrumb: [Configure, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
@@ -25,9 +25,9 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 ## Procedure
 
-1.  Navigate to **Admin** &gt; **Now Assist Admin**.
+1.  Navigate to **Admin** &gt; **AI Admin Hub**.
 
-2.  Select the **Now Assist Skills** tab.
+2.  Select the **AI Skills** tab.
 
 3.  In the **Technology** feature group, select **ITSM** from the product list.
 
@@ -63,7 +63,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
 8.  Select display.
 
-    1.  Enable the In-product display so that the Now Assist skills are displayed in all ITSM products \(on forms and in workspaces\).
+    1.  Enable the In-product display so that the AI skills are displayed in all ITSM products \(on forms and in workspaces\).
 
         For the skills that appear in-product, select the down arrow to identify the roles that can use the skill.
 
@@ -73,15 +73,15 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     Review your choices and select **Activate** to complete the skill customization. The popup that shows that the activation was successful appears.
 
-10. Configure the Now Assist context menu \(NACM\) to generate an activity response and refine the content.
+10. Configure the ServiceNow Otto context menu \(NACM\) to generate an activity response and refine the content.
 
-    You can also access the Now Assist context menu by doing the following:
+    You can also access the Otto context menu by doing the following:
 
-    1.  In the **Now Assist Admin** screen, select **Now Assist Experiences**.
-    2.  Select **Now Assist context menu**.
+    1.  In the **ServiceNow Otto Admin** screen, select **AI Experiences**.
+    2.  Select **Otto context menu**.
     3.  Select the **Configurations** tab.
     4.  Select **Incident activity response in NACM**.
-    1.  Select **Go to Now Assist context menu**.
+    1.  Select **Go to ServiceNow Otto context menu**.
 
         The **Incident activity response in NACM** screen appears.
 
@@ -106,7 +106,7 @@ Role required: sn\_nowassist\_admin.nsa\_admin
             -   For Work notes, the actions are Summarize actions, and Post response.
             -   For Additional comments, the actions are Follow up, Post response, and Acknowledge task.
         -   The **Insert** action is selected by default.
-        When you select the Now Assist icon in the **Preview** panel, it shows how the generated activity response will display in NACM.
+        When you select the ServiceNow Otto icon in the **Preview** panel, it shows how the generated activity response will display in ServiceNow Otto context menu.
 
     3.  Select **Save and continue**.
 
@@ -118,11 +118,11 @@ Role required: sn\_nowassist\_admin.nsa\_admin
 
     4.  Select **Save and continue**.
 
-        The **Select display** screen displays. The **Display** button is enabled by default and displays the NACM configuration in all ITSM products.
+        The **Select display** screen displays. The **Display** button is enabled by default and displays the context menu configuration in all ITSM products.
 
     5.  Select **Save and continue**.
 
-        The **Review and activate** screen displays. In the **Select a record to test configurations** field, select an incident number for which you want to preview the activity response generated for the selected incident and select **Preview**. You can preview the generated content in NACM.
+        The **Review and activate** screen displays. In the **Select a record to test configurations** field, select an incident number for which you want to preview the activity response generated for the selected incident and select **Preview**. You can preview the generated content in context menu.
 
     6.  Select **Done**.
 

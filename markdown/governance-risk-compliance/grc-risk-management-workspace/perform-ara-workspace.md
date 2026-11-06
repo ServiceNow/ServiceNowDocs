@@ -7,8 +7,8 @@ release: yokohama
 product: GRC: Risk Management Workspace
 classification: grc-risk-management-workspace
 topic_type: task
-last_updated: "2025-04-28"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 6
 breadcrumb: [Use Risk Workspace, Risk Management, Governance, Risk, and Compliance]
 ---
 
@@ -171,9 +171,4 @@ The assessment is sent to the approver and the approval workflow starts.
 \[Omitted image "risk-assessment-approval.png"\] Alt text: Send risk assessment for approval.
 
 **Parent Topic:**[Using the Risk Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-risk-management-workspace/using-risk-workspace.md)
-
-**Related topics**  
-
-
-[Generate a risk assessment summary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-common-functions/generate-risk-assessment-summary-genai.md)
 

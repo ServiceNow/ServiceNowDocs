@@ -1,20 +1,20 @@
 ---
 title: Enable IBM reconciliation for specific domains
-description: If you are using domain separation for the integration between the Software Asset Management publisher pack for IBM and an authorized Software Asset Management provider, enable IBM reconciliation only for specific domains.
+description: If you are using domain separation for the integration between the Software Asset Management publisher pack for IBM and an Authorized SAM Provider \(ASP\), enable IBM reconciliation only for specific domains.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/enable-domain-recon-anglepoint-integration.html
 release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Client Value Acceleration \(CVA\) integrations for IBM, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [CVA integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Enable IBM reconciliation for specific domains
 
-If you are using domain separation for the integration between the Software Asset Management publisher pack for IBM and an authorized Software Asset Management provider, enable IBM reconciliation only for specific domains.
+If you are using domain separation for the integration between the Software Asset Management publisher pack for IBM and an Authorized SAM Provider \(ASP\), enable IBM reconciliation only for specific domains.
 
 ## Before you begin
 
@@ -26,7 +26,7 @@ Role required: asset or domain\_admin
 
 2.  Double-click the **Run asset process** field for the domain that you want to enable reconciliation for.
 
-3.  When prompted, set the value to **true** and then select the Save icon \(\[Omitted image "save-icon.png"\] Alt text: Save icon.\).
+3.  When prompted, set the value to **true** and then select the Save icon \[Omitted image "save-icon.png"\].
 
 4.  Repeat steps 2 and 3 for each domain that you want to enable reconciliation for.
 

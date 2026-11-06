@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: concept
-last_updated: "2026-03-23"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Running discoveries in your network, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Running discoveries in your network, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Discovery Configuration Console
@@ -60,7 +60,7 @@ Potential impacts include the following:
 
 ## Application Discovery
 
-Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify the applications running on a server until it first discovers that server.
+Disabling the discovery of application data affects all host devices on which the application runs. For example, if you configure Discovery to ignore databases, no information is gathered for either Linux or Windows databases. Conversely, if you configure the system to ignore a device type, such as a Windows server, no databases running on that server are explored, even if they are configured to be discovered. The instance cannot identify applications running on a server until it discovers that server first.
 
 When you exclude an item from the **Applications** section, the system disables the relevant process classifier. The probes that belong to this classifier, including the [Horizontal Pattern probe](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/r-HorizontalPatternProbe.md) that launches patterns, never launch.
 
@@ -123,7 +123,7 @@ Device info, such as:-   Network Device Exploration
 
 </td><td>
 
-The **Active** field is inactive on both the Classifier Probes \[discovery\_classifier\_probe\] and the Discovery Patterns \[sa\_pattern\] tables for the related probe or pattern that performs the identification and exploration of the CI.
+The **Active** field is inactive on the Classifier Probes \[discovery\_classifier\_probe\] table for the related probe. It is also inactive on the Discovery Patterns \[sa\_pattern\] table for the related pattern that performs CI identification and exploration.
 
  These tables are referred to from the Device Info Category \[discovery\_category\_device\_info\] table.
 
@@ -138,7 +138,7 @@ The **Active** field is inactive on the Process Classifiers \[discovery\_classy\
  The Process Classifiers \[discovery\_classy\_proc\] table is referred to from the Application Category \[discovery\_category\_appl\] table.
 
 </td></tr></tbody>
-</table>**Note:** If you use patterns for discovery, and you disable the discovery of device classes or device information, the system disables the pattern libraries that collect the device information.For example, if you have a Windows pattern in which you create a shared library that collects OS information, and then you turn the collection of OS data, the shared library that collects OS data is inactive. For more information about the shared library operation, see [KB1698521: Create or customize patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1698521).
+</table>**Note:** If you use patterns for discovery, and you disable the discovery of device classes or device information, the system disables the pattern libraries that collect the device information.For example, if you have a Windows pattern in which you create a shared library that collects OS information, and then you turn off the collection of OS data, the shared library that collects OS data is inactive. For more information about the shared library operation, see [KB1698521: Create or customize patterns](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB1698521).
 
 ## Exclude CIs from discovery
 
@@ -316,7 +316,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, this returns the software product, publisher, and version in the payload. The data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When enabled, the software product, publisher, and version are returned in the payload. This data is directly inserted into the software installs table, bypassing the software match API. This feature is turned off by default.
 
 7.  Configure **Advanced UNIX** settings.
 
@@ -332,7 +332,7 @@ Role required: discovery\_admin or admin
 
     -   **Scan SWID Tags**
 
-        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When Scan SWID Tags is enabled, this returns the software product, publisher, and version in the payload to be directly inserted into software installs table, bypassing the software match API. This feature is turned off by default.
+        Scans for and analyzes the software identification \(SWID\) tags. This option is only visible if SAMP is enabled. When Scan SWID Tags is enabled, this returns the software product, publisher, and version in the payload to be directly inserted into software installs table. This bypasses the software match API. This feature is turned off by default.
 
 8.  Configure **Common** settings for either Windows or UNIX.
 

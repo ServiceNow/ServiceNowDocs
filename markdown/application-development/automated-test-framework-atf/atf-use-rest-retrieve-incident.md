@@ -7,9 +7,9 @@ release: yokohama
 product: Automated Test Framework \(ATF\)
 classification: automated-test-framework-atf
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
-breadcrumb: [Automated Test Framework use case examples, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Building applications]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [Automated Test Framework use case examples, Automated Test Framework \(ATF\) reference, Automated Test Framework \(ATF\), Testing and debugging applications, Classic app development, Building applications]
 ---
 
 # Automated Test Framework use case: retrieve an incident using REST-Inbound
@@ -18,7 +18,7 @@ The **Get Newly Created Resource via REST API Test** test is provided with the A
 
 ## Before you begin
 
-Review the REST APIs and the [Send REST Request- Inbound- REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/test-steps-rest-category.md) configuration step information before creating this test.
+Review the [REST APIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/c_RESTAPI.md) and the [Send REST Request- Inbound- REST API Explorer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/automated-test-framework-atf/test-steps-rest-category.md) configuration step information before creating this test.
 
 Role required: atf\_ws\_designer
 

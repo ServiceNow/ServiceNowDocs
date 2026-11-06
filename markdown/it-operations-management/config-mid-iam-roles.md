@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/config-mid-iam-roles.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up AWS service accounts, Setting up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
+breadcrumb: [Setup AWS service accounts, Set up a cloud service account, Access to cloud environments for ITOM products, IT Operations Management]
 ---
 
 # Configure the MID Server for AWS IAM roles
@@ -44,8 +44,6 @@ Role required: discovery\_admin or sn\_cmp.cloud\_admin \(for Cloud Provisioning
 
     The new parameter is listed in the MID Server record.
 
-    \[Omitted image "mid\_config\_param\_iam.png"\] Alt text: MID Server configuration parameter for IAM roles
 
-
-**Parent Topic:**[Set up AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
+**Parent Topic:**[Setup AWS service accounts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/setup-aws-service-accounts.md)
 

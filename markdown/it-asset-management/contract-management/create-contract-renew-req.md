@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Contract renewal workflow, Contract Management, IT Asset Management]
+breadcrumb: [Contract renewal workflow, Contract Management, Common applications, Asset Management]
 ---
 
 # Create a contract renewal request
@@ -18,7 +18,7 @@ Create a contract renewal request for contracts that are nearing their expiry da
 
 ## Before you begin
 
-Role required: asset, contract\_manager\(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
+Role required: contract\_system\_admin, asset, contract\_manager\(core UI and Hardware Asset Workspace only\), sn\_eam.enterprise\_admin \(Enterprise Asset Workspace only\), or sn\_eam.enterprise\_asset\_manager \(Enterprise Asset Workspace only\)
 
 ## About this task
 

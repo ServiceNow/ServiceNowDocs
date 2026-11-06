@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_AddTheTreePickerAttribute.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Tree picker, Common UI elements, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -24,13 +24,11 @@ Role required: personalize\_dictionary
 
 ## Procedure
 
-1.  Open the [Dictionary attributes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_DictionaryAttributes.md) for the field.
+1.  Open the Dictionary attributes for the field.
 
 2.  Add `tree_picker=true` to the **Attributes** field.
 
     If there are multiple attributes, use a comma to separate them without any spaces between.
-
-    \[Omitted image "TreePickerAttribute.png"\] Alt text: Tree picker attribute
 
 
 **Parent Topic:**[Tree picker](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/c_TreePicker.md)

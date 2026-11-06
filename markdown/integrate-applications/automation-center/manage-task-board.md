@@ -7,9 +7,9 @@ release: yokohama
 product: Automation Center
 classification: automation-center
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Automation Center Kanban board, Exploring Automation Center, Automation Center, Data and Automation]
+breadcrumb: [Kanban board, Explore, Automation Center, Workflow Data Fabric]
 ---
 
 # Manage automation tasks
@@ -72,7 +72,7 @@ Role required: sn\_ac.automation\_technical\_user or sn\_ac.automation\_admin
 
         Select the **Add Task** icon.
 
-        The **Create New Automation Task** form is displayed. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-task-form.md).
+        The **Create New Automation Task** form is displayed. Provide the details. For more information, see [Automation task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/automation-center/automation-task-form.md).
 
         Verify that the associated automation request is either in the **Planned** or **In Progress** state.
 

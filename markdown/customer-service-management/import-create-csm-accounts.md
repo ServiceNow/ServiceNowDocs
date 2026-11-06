@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-create-csm-accounts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create customer accounts
@@ -16,7 +16,14 @@ An account is a supported external customer. Use the Customer Service Management
 
 ## Before you begin
 
-Role required: sn\_customerservice\_manager or admin
+Role required: One of the following roles:
+
+-   sn\_crm\_account\_data\_manager
+-   sn\_crm\_account\_relationship\_data\_manager
+-   sn\_crm\_foundation\_data\_manager
+-   sn\_crm\_foundation\_admin
+-   sn\_customerservice\_manager
+-   admin
 
 ## About this task
 
@@ -26,16 +33,16 @@ A partner is a supported external customer that sells to and supports other cust
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Customer** and click one of the following actions:
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Customer** and select one of the following actions:
 
-    -   To create a customer account, click **Accounts**.
-    -   To create a partner account, click **Partners**.
-2.  Click **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-account-form.md).
+    -   To create a customer account, select **Accounts**.
+    -   To create a partner account, select **Partners**.
+2.  Select **New** and fill in the fields on the [Account form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-service-account-form.md).
 
-    When a new customer account record is created, the system uses the **com.snc.cs\_base.last.generated.code.tree.path** system property to determine a unique account code value for the account. The property is then updated with this latest assigned value so that the next account code value can be set as a unique value for the next account record insert.
+    When a new customer account record is created, the system uses the **com.snc.cs\_base.last.generated.code.tree.path** system property to determine a unique account code value for the account. The property is updated with the latest value to confirm the next account record receives a unique account code.
 
-    **Note:** If this property is reset to the original value, the system attempts to create new accounts with account codes that are already in use, which can result in an invalid insert.
+    **Note:** If the property is reset to its original value, the system might attempt to create accounts using already assigned account codes, which can result in an invalid insert.
 
-3.  Click **Submit**.
+3.  Select **Submit**.
 
 

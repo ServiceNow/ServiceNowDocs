@@ -7,7 +7,7 @@ release: yokohama
 product: MID Server
 classification: mid-server
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
 breadcrumb: [Configuring MID Servers, Configuring MID Server, MID Server, Manage instance data sources, Extend ServiceNow AI Platform capabilities]
 ---
@@ -53,12 +53,6 @@ The Discovery - IP Based \[com.snc.discovery.ip\_based\] plugin provides connect
 
     Running Nmap scans to or from any resource within the Amazon Web Service AWS environment is tightly regulated and requires the permission of AWS through the [AWS Vulnerability/Penetration Testing Request](https://aws.amazon.com/security/penetration-testing/) form. AWS only permits testing of EC2 and RDS instances that you own. Tests against any other AWS services or AWS-owned resources are prohibited. In addition, any Nmap scan of a permitted instance must be performed within an approved time window. For these reasons, credential-less Discovery within an AWS environment is not appropriate, and if a violation of their policy occurs, could result in expulsion from the service.
 
--   **Supported operating systems**
-
-    Nmap is supported on all editions of these operating systems, including virtual machines and 64 bit systems:
-
-    -   Windows 2012
-    -   Windows 2016
 -   **MID Server requirements**
 
     Nmap can be installed on MID Servers that meet these requirements:
@@ -151,8 +145,8 @@ You must install Nmap manually on each MID Server host and then configure the in
 
 2.  Download the correct installer executable from one of these URLs:
 
-    -   [https://nmap.org/dist/](https://nmap.org/dist/): If the Nmap version in the property is 7.94, the executable you need is `https://nmap.org/dist/nmap-7.94-setup.exe`.
-    -   `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-xxx-windows.exe`. If the Nmap version in the property is 7.94, the executable you need is `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-7.94-windows.exe`
+    -   [https://nmap.org/dist/](https://nmap.org/dist/): If the Nmap version in the property is 7.98, the executable you need is `https://nmap.org/dist/nmap-7.98-setup.exe`.
+    -   `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-xxx-windows.exe`. If the Nmap version in the property is 7.98, the executable you need is `https://install.service-now.com/glide/distribution/builds/package/thirdparty/nmap/nmap-setup-7.98-windows.exe`
 3.  Create a folder called `nmap` in the MID Server `agent` folder of every MID Server you want to use for credential-less Discovery.
 
     \[Omitted image "NmapInstallFolder.png"\] Alt text: Nmap installer folder on MID Server

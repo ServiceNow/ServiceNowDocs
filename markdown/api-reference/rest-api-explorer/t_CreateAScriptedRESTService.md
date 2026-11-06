@@ -7,7 +7,7 @@ release: yokohama
 product: REST API Explorer
 classification: rest-api-explorer
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Scripted REST APIs, REST APIs, Web services, API implementation, API implementation and reference]
 ---
@@ -20,10 +20,6 @@ Create a scripted REST API to define web service endpoints.
 
 Role required: web\_service\_admin
 
-## About this task
-
-By default, scripted REST APIs contain an ACL that prohibits users with the snc\_external role from making requests to the API.
-
 ## Procedure
 
 1.  Navigate to **All** &gt; **System Web Services** &gt; **Scripted REST APIs**.
@@ -34,7 +30,11 @@ By default, scripted REST APIs contain an ACL that prohibits users with the snc\
 
     The **API ID** is set automatically based on the **Name**. You can modify the **API ID** if needed.
 
-4.  Click **Submit**.
+4.  In the Default ACLs field, select the default ACLs that apply to all resources in the API.
+
+    If you configure security settings for resources in the API, including ACLs, the settings of the resource override the parent API settings.
+
+5.  Click **Submit**.
 
 
 ## What to do next

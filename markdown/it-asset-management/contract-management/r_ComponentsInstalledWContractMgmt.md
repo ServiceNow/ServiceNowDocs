@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management
 classification: contract-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Contract Management, IT Asset Management]
+breadcrumb: [Contract Management, Common applications, Asset Management]
 ---
 
 # Components installed with Contract Management
@@ -35,6 +35,8 @@ Business rules are added with Contract Management.
 
 
 [Use the Asset Contract Overview module]()
+
+[Contract approval flow]()
 
 [Contract Management use]()
 

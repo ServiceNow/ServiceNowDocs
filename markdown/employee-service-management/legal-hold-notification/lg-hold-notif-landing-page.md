@@ -1,20 +1,20 @@
 ---
 title: Legal Hold Notification
-description: The ServiceNowThe ServiceNow Legal Hold Notification application helps organizations manage their legal obligations to preserve relevant information when a legal hold is issued. It enables you to submit a legal hold matter, add custodians, send notices, and close the legal hold matter, to ensure legal and regulatory compliance.
+description: The ServiceNow Legal Hold Notification application helps organizations manage their legal obligations to preserve relevant information when a legal hold is issued. It enables you to submit a legal hold matter, add custodians, send notices, and close the legal hold matter, to ensure legal and regulatory compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-hold-notification/lg-hold-notif-landing-page.html
 release: yokohama
 product: Legal Hold Notification
 classification: legal-hold-notification
 topic_type: reference
-last_updated: "2025-06-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Legal Hold Notification
 
-The ServiceNow®The ServiceNow® Legal Hold Notification application helps organizations manage their legal obligations to preserve relevant information when a legal hold is issued. It enables you to submit a legal hold matter, add custodians, send notices, and close the legal hold matter, to ensure legal and regulatory compliance.
+The ServiceNow® Legal Hold Notification application helps organizations manage their legal obligations to preserve relevant information when a legal hold is issued. It enables you to submit a legal hold matter, add custodians, send notices, and close the legal hold matter, to ensure legal and regulatory compliance.
 
 ## Get started
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Assess performance of Hardware Asset Management, Using Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Reporting and performance, Use, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
 # View all maturity items for Hardware Asset Management
@@ -49,5 +49,14 @@ For more information, see [Maturity stages of your Hardware Asset Management pro
 4.  Select **Save**.
 
 
-**Parent Topic:**[Assess performance of Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/suc-goal-act-hw.md)
+**Parent Topic:**[Reporting and performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/reporting-performance-ham.md)
+
+**Related topics**  
+
+
+[Analyze hardware assets using the Generate hardware asset insights generative AI skill]()
+
+[Create a TCO report in Hardware Asset Workspace]()
+
+[Manage stockrooms with inventory reports in the Hardware Asset Workspace]()
 

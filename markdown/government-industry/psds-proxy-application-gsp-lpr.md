@@ -5,9 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-proxy-application-gsp-lpr.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using License and Permit Playbook, Using Playbooks, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+keywords: [How to create a License and Permit request on behalf of a constituent or business, Create a License and Permit request]
+breadcrumb: [Using License and Permit Administration, Playbooks, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Create a License and Permit request on behalf of a constituent or business
@@ -20,7 +21,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Procedure
 
-1.  In the CRM Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
+1.  In the Public Sector Workspace, navigate to **Lists** &gt; **License &amp; Permit Requests** &gt; **All**.
 
 2.  Select **New** to create a case.
 
@@ -28,13 +29,13 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 4.  Select **Create Case**.
 
-    The License and Permit Playbook opens and initiates the first activity for collecting the request details.
+    The License and Permit Administration opens and initiates the first activity for collecting the request details.
 
-5.  On the Enter Application Details activity card, confirm the applicant's eligibility and select **Continue**.
+5.  On the **Enter Application Details** activity card, confirm the applicant's eligibility and select **Continue**.
 
 6.  On the form, fill in the fields with the requester's contact information and details of the request.
 
-7.  Under Representation, select the checkbox for **Requesting on behalf of someone else**.
+7.  Under Representation, select the check box for **Requesting on behalf of someone else**.
 
 8.  Enter the name of the constituent or business that the requester is submitting the application on behalf of, and select **Save**.
 
@@ -46,7 +47,7 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 10. Review the fees associated with the requester's choices.
 
-    The fee total changes dynamically based on the options selected. If the constituent or requester is fee exempt, select the **Fee Waiver** checkbox and enter a justification to claim an exemption for them.
+    The fee total changes dynamically based on the options selected. If the constituent or requester is fee exempt, select the **Fee Waiver** check box and enter a justification to claim an exemption for them.
 
 11. Select **Submit** to move to the next activity.
 
@@ -59,5 +60,5 @@ Role required: sn\_gsm.constituent\_agent, sn\_gsm.relationship\_agent, sn\_gsm.
 
 ## Result
 
-A case is created with the license or permit request information and all related parties, and is now routed to the constituent via the Government Service Portal, where they can upload any applicable identity documents, credentials, or supporting documentation required for this license/permit request. The case continues once the constituent has uploaded these documents.
+A case is created with the license or permit request information and all related parties, and is now routed to the constituent via the Government Service Portal. In the Government Service Portal, agents can upload any applicable identity documents, credentials, or supporting documentation required for this license/permit request. The case continues once the constituent has uploaded these documents.
 

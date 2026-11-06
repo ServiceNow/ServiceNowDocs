@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Set up instance, ArcSight ESM Event Ingestion integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,15 +32,15 @@ Role required: ArcSight Administrator
 
     \[Omitted image "sir-arcsight-query-viewer-setup3.png"\] Alt text: ArcSight ESM: Query Viewer Setup: Create: General
 
-<table id="choicetable_xs5_bvc_c5b"><thead><tr><th align="left" id="d213506e106">
+<table id="choicetable_xs5_bvc_c5b"><thead><tr><th align="left" id="d219690e106">
 
 Field Name
 
-</th><th align="left" id="d213506e109">
+</th><th align="left" id="d219690e109">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d213506e115">
+</th></tr></thead><tbody><tr><td id="d219690e115">
 
 **Name**
 
@@ -48,7 +48,7 @@ Description
 
 Enter a name for the query.
 
-</td></tr><tr><td id="d213506e124">
+</td></tr><tr><td id="d219690e124">
 
 **Query On**
 
@@ -56,7 +56,7 @@ Enter a name for the query.
 
 Select **Event** from the drop down list.
 
-</td></tr><tr><td id="d213506e136">
+</td></tr><tr><td id="d219690e136">
 
 **Start Time**
 
@@ -64,7 +64,7 @@ Select **Event** from the drop down list.
 
 To ingest the most recent data, select the date from the events are to be ingested. Specify a date that is a day or a few days earlier than the current date. **Note:** You cannot specify a date that is more than 7 days older than the current date. If you are ingesting a large number of events, you must specify a date that is 1 or 2 days older than the current date.
 
-</td></tr><tr><td id="d213506e148">
+</td></tr><tr><td id="d219690e148">
 
 **End Time**
 
@@ -72,7 +72,7 @@ To ingest the most recent data, select the date from the events are to be ingest
 
 This is the current date.
 
-</td></tr><tr><td id="d213506e158">
+</td></tr><tr><td id="d219690e158">
 
 **Row Limit**
 

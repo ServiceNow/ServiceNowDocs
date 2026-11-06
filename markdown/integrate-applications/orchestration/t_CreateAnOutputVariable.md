@@ -7,9 +7,9 @@ release: yokohama
 product: Orchestration
 classification: orchestration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Data and Automation]
+breadcrumb: [Create custom activities using custom activity designer templates, Orchestration activity designer, Classic Orchestration, Workflow Data Fabric]
 ---
 
 # Create an output variable
@@ -52,7 +52,7 @@ Elements in this structure are mapped with [Create a parsing rule](https://raw.g
 
     \[Omitted image "OutputsReuseVariable.png"\] Alt text: Reusing an output variable
 
-7.  To delete a variable, click the delete icon \(\[Omitted image "DeleteVar.png"\] Alt text: Delete icon.\) in the row.
+7.  To delete a variable, click the delete icon \(\[Omitted image "DeleteVar.png"\] Alt text: delete icon\) in the row.
 
 
 **Parent Topic:**[Create custom activities using custom activity designer templates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/integrate-applications/orchestration/create-custom-activities.md)

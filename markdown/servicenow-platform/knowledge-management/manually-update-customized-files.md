@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use article versioning, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,4 +23,6 @@ Manually update your customization to include the article versioning-related cha
 -   Update the **Knowledge** &gt; **My Flagged** and **Self-Service** &gt; **My Knowledge Articles** modules to include the following condition in the **Filter** field, if these modules do not already reflect this change: **Revised by is \(dynamic\) me**.
 
 If you have customized any of the Knowledge Management Overview dashboard reports, these files are also skipped during plugin activation and must be updated manually.
+
+**Parent Topic:**[Use article versioning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-article-versioning_0.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing your network functions, Reviewing and updating your network inventory with the Network Inventory Workspace, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Manage your network functions, Define inventory records, Use, Telecommunications Network Inventory]
 ---
 
 # Define the network function details
@@ -34,10 +34,10 @@ When you create a network function record, it creates a corresponding configurat
 
 4.  On the form, fill in the fields.
 
-    To see a description of the fields, see .
+    To see a description of the fields, see [Design domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/design-domain.md).
 
 5.  Select **Submit**.
 
 
-**Parent Topic:**[Managing your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)
+**Parent Topic:**[Manage your network functions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/services.md)
 

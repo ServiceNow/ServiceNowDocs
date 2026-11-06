@@ -1,22 +1,22 @@
 ---
-title: Impact User Management
-description: Impact IDI admins can create, view, and manage their users with Impact User Management.
+title: Manage Impact Delivery Instance users
+description: Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/ide-user-management.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [Setup for the Impact Delivery Instance, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
-# Impact User Management
+# Manage Impact Delivery Instance users
 
-Impact IDI admins can create, view, and manage their users with Impact User Management.
+Impact Delivery Instance \(IDI\) admins can create, view, and manage their users.
 
 ## Before you begin
 
-**Note:** See [User roles in Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-roles.md) for information about Impact role permissions.
+**Note:** See [Roles installed with Impact](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/impact-roles.md) for information about Impact role permissions.
 
 Role required: Impact admin
 
@@ -24,12 +24,12 @@ Role required: Impact admin
 
 1.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
 
-2.  Select **Add new user**.\[Omitted image "add-new-user.png"\] Alt text: Displays the Impact role designation screen.
+2.  Select **Add new user**.
 
 3.  Enter the relevant information including:
 
     -   User email \(required\)
-    -   User First and Last names \(required\)
+    -   User first and last names \(required\)
     -   Impact role
     -   Impact feature access
     -   ServiceNow University access role
@@ -37,4 +37,26 @@ Role required: Impact admin
 
     The new user is created.
 
+5.  Navigate to **Impact** &gt; **User Profile Menu** &gt; **Manage Users**.
+
+6.  Select **View all users**.
+
+7.  In the **Search users** field, enter the user's name.
+
+8.  Select **Actions** &gt; **Edit role\(s\)**.
+
+9.  Edit the user role and access.
+
+    Set the user role to **None** to remove IDI access.
+
+10. Select **Confirm**.
+
+    -   A confirmation message displays and the company users page opens.
+    -   An email is sent to the user with information on how to log in to Impact.
+
+**Parent Topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-idi.md)
+
+**Previous topic:**[Setup for the Impact Delivery Instance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/configuring-impact-idi.md)
+
+**Next topic:**[Impact Delivery Instance roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/idi-roles.md)
 

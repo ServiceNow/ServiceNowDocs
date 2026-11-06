@@ -7,9 +7,9 @@ release: yokohama
 product: HR Service Delivery
 classification: hr-service-delivery
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Reference for Manager Hub, Manager Hub, Persona Based Experiences, HR Service Delivery, Employee Service Management]
+breadcrumb: [Reference for Manager Hub, Manager Hub, HR Service Delivery, Employee Service Management]
 ---
 
 # Campaign configurations for Manager Hub

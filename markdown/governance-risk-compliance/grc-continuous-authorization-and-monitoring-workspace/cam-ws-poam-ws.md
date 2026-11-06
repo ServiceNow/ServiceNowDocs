@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Continuous Authorization and Monitoring Workspace
 classification: grc-continuous-authorization-and-monitoring-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Using CAM, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
+breadcrumb: [Continuous authorization and monitoring tasks in the CAM Workspace, Use, Continuous Authorization and Monitoring, Governance, Risk, and Compliance]
 ---
 
 # Managing POA&amp;Ms issues
@@ -53,7 +53,7 @@ All users who can access the CAM Workspace can also access the POA&amp;Ms landin
 
 ## Access the POA&amp;Ms landing page
 
-To access the POA&amp;Ms page, navigate to **All** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(\[Omitted image "cam-poams-icon.png"\] Alt text: POA&amp;Ms icon.\).
+To access the POA&amp;Ms page, navigate to **Workspaces** &gt; **CAM Workspace** and select the POA&amp;Ms icon \(\[Omitted image "cam-poams-icon.png"\] Alt text: POA&amp;Ms icon.\).
 
 **Parent Topic:**[Continuous authorization and monitoring tasks in the CAM Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/grc-continuous-authorization-and-monitoring-workspace/cam-ws-continuous-auth-monitor.md)
 

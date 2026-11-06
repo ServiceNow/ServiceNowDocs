@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/using-prominent-action-button.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-11-17"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Using Otto, ServiceNow Otto for Mobile, Mobile Platform]
 
 Use the prominent action button to quickly access your Now Assist agent chat no matter where you are in the app.
 
-\[Omitted image "na-pab.png"\] Alt text:
+\[Omitted image "image.na-pab"\] Alt text: prominent action button highlighted in the menu bar
 
 Tap the button to open a new Now Assist chat. If you open the chat while you have a record open, Now Assist automatically incorporates the information from that record into its responses.
 

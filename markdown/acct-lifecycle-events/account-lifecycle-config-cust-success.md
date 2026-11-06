@@ -1,33 +1,31 @@
 ---
 title: Configure customer success
-description: After an onboarding case has been created, you can configure and set up customer success by creating engagements, configuring success plays, and setting up the success initiative record.
+description: Customer success capabilities help you monitor and manage the health of customer accounts throughout their lifecycle. Configure these capabilities to track engagements, identify risks, and support retention goals.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/acct-lifecycle-events/account-lifecycle-config-cust-success.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customer success, Account Lifecycle Events]
+breadcrumb: [Configure, Customer Success Management]
 ---
 
 # Configure customer success
 
-After an onboarding case has been created, you can configure and set up customer success by creating engagements, configuring success plays, and setting up the success initiative record.
+Customer success capabilities help you monitor and manage the health of customer accounts throughout their lifecycle. Configure these capabilities to track engagements, identify risks, and support retention goals.
 
-This section covers the following:
+-   **[Getting started with Customer Success](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-basic-config.md)**  
+Define the basic customer success components
+-   **[Engagements](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-manage-engagement.md)**  
+Configure engagement health scores, risk definitions, and the color banding table to monitor and visualize the health and risk of engagements.
+-   **[Configure success blueprints](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-success-blueprints.md)**  
+Configure success blueprint templates and the supporting elements that customer success managers use to define how success is measured for an engagement.
+-   **[Configure product capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-prod-cap.md)**  
+Configure product capabilities, adoption roadmap templates, and capability usage tracking to measure how customers use your products.
+-   **[Configure Zoom and touchpoint integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-zoom-int.md)**  
+Integrate Zoom with touchpoint records to schedule virtual meetings and generate AI-powered meeting summaries.
+-   **[Enable integration with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md)**  
+Integrating your ServiceNow instance with the Microsoft Dynamics CRM platform enables seamless data exchange and process synchronization between the two platforms. This integration is done through the Microsoft Dynamics CRM spoke.
 
--   [Create an engagement](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-engage.md)
--   [Create a success initiative](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-success-initiative.md)
--   [Create an ALE definition record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-ale-defn.md)
--   [Create an ALE choice record](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-ale-choice.md)
--   [Create a success play](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-play.md)
--   [Create an internal play playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-internal-play-playbook.md)
--   [Create a success case playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-success-case-playbook.md)
--   [Create a renewal playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-renewal-playbook.md)
--   [Define risk signal to solution relationship](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-risk_signal_solution.md)
--   [Create a success blueprint template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-create-blueprint-template.md)
--   [Setup the data context engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-metric-data.md)
--   [Setup the engagement health definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-health-defn.md)
--   [Setup the engagement risk definition](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-setup-risk-defn.md)
--   [Integrating with Microsoft Dynamics CRM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-crm-integration.md)
+**Parent Topic:**[Configure Customer Success Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/acct-lifecycle-events/account-lifecycle-events-landing-page.md)
 

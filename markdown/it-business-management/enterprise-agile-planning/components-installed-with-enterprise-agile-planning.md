@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Reference, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -40,7 +40,7 @@ Can add teams to EAP configurations or remove them.
 
 </td><td>
 
-sn\_apw\_advanced.eap\_user
+sn\_apw\_advanced.eap\_scrum\_master
 
 </td></tr><tr><td>
 
@@ -49,7 +49,7 @@ EAP user \[sn\_apw\_advanced.eap\_user\]
 </td><td>
 
 -   Can create, update, and delete work items
--   Can create and modify iterations like Planning Intervals and Sprints
+-   Can create iterations such as Planning Intervals and Sprints when a timeline already exists for the team, but can't change iteration dates
 -   Can access the team's Backlog and Planning Board
 
 </td><td>
@@ -63,11 +63,26 @@ This role is available only with the ServiceNow Otto for SPM plugin.
 
 </td></tr><tr><td>
 
+EAP scrum master \[sn\_apw\_advanced.eap\_scrum\_master\]
+
+</td><td>
+
+-   Can create, edit, and delete planning calendars and calendar spans
+-   Can create and edit iterations such as Planning Intervals and Sprints. Only the EAP admin can delete them.
+-   In the workspace Settings menu, can view only the Planning calendars sub-page
+-   Is the only role that can change the start date or end date of an iteration
+
+</td><td>
+
+sn\_apw\_advanced.eap\_user
+
+</td></tr><tr><td>
+
 EAP read-only role \[sn\_apw\_advanced.eap\_read\_only\]
 
 </td><td>
 
-Can view the EAP team's Backlog and Planning Board
+Can view EAP planning items and stories across teams and iterations in the Backlog, planning board, hierarchy tabs, dashboard widgets on the Home tab, and team-level Docs.
 
 </td><td>
 
@@ -269,8 +284,13 @@ Story\[rm\_story\]
 
 Stores information of all stories created.
 
- This table is installed with the Agile Development 2.0 application, which is installed with Strategic Planning.
-
 </td></tr></tbody>
-</table>**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/eap-reference.md)
+</table>## Scheduled jobs installed
+
+|Scheduled job|Description|
+|-------------|-----------|
+|Populate parent level data for work item and stories|Populates the details of the parent work item up to seven levels.|
+|Populate parent level data for work item and stories \(Bulk\)|Populates the details of the parent work item up to seven levels. Run this scheduled jobs when you have multiple stories that needs update to parent work item details at once.|
+
+**Parent Topic:**[Enterprise Agile Planning reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/eap-reference.md)
 

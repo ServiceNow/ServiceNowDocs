@@ -1,15 +1,15 @@
 ---
 title: Integrating with Microsoft Dynamics 365 and Power Apps
-description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.Evaluating the software usage activity of Microsoft Dynamics 365 subscriptions helps you monitor license usage, optimize license allocation, and potentially reduce costs for the assigned licenses. Software usage activity refers to how software products are being used.
+description: Integrating your ServiceNow instance with the Microsoft Dynamics 365 and Power Apps service enables you to track your software subscriptions and to reclaim unused licenses.Set up Microsoft Azure Active Directory \(AD\).Set the system-level settings for Microsoft Dynamics 365 and Power Apps.Create a custom role in the Power Platform admin center that grants only the privileges required by the Microsoft Dynamics 365 and Power Apps integration. You can use this custom role for the minimum permissions instead of using the Dynamics 365 administrator role.Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.Evaluating the software usage activity of Microsoft Dynamics 365 subscriptions helps you monitor license usage, optimize license allocation, and potentially reduce costs for the assigned licenses. Software usage activity refers to how software products are being used.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrating-with-microsoft365.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 9
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 13
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Microsoft Dynamics 365 and Power Apps
@@ -23,7 +23,7 @@ This integration retrieves user subscription details for all Microsoft Dynamics 
 For optimization, Software Asset Management automatically tracks the last activity date and identifies low-usage for the following applications:
 
 -   Dynamics 365 for Sales \(Professional, Premium, Enterprise\)
--   Dynamics 365 for Customer Service \(Professional, Enterprise, Enterprise for Government, Professional Attach to Qualifying Dynamics, Sales, and Customer Service Enterprise\)
+-   Dynamics 365 for Customer Service \(Professional, Enterprise, Enterprise for Government, Professional Attach to Qualifying Dynamics, Sales and Customer Service Enterprise\)
 -   Dynamics 365 for Team Members
 -   Microsoft Relationship Sales \(MRS\)
 
@@ -37,11 +37,19 @@ Process
 
 </th><th>
 
-Required user role in the Microsoft Dynamics 365 and Power Apps application
+Required user role in Microsoft Dynamics 365 and Power Apps for Delegated permissions
 
 </th><th>
 
-Authentication scopes
+Authentication scopes for Delegated permissions
+
+</th><th>
+
+Required user role in Microsoft Dynamics 365 and Power Apps for Application permissions
+
+</th><th>
+
+Authentication scopes for Application permissions
 
 </th></tr></thead><tbody><tr><td>
 
@@ -49,18 +57,18 @@ Download subscriptions
 
 </td><td>
 
--   Global administrator
--   Dynamics 365 administrator
-
- **Note:** If you have installed the Software Asset Management - SaaS License Management plugin \(com.sn\_sam\_saas\_int\) version 15.0.17 or later, you must have the Global Reader role.
+Global Reader
 
 </td><td>
 
--   Organization.Read.All
+-   LicenseAssignment.Read.All
 -   User.Read.All
--   user\_impersonation
 
- Authentication scopes for the Global Reader role:
+</td><td>
+
+Application developer
+
+</td><td>
 
 -   LicenseAssignment.Read.All
 -   User.Read.All
@@ -71,11 +79,19 @@ Pull user activity
 
 </td><td>
 
-Dynamics 365 administrator
+Dynamics 365 administrator, or a custom security roleFor details, see [Create a custom security role for the Microsoft Dynamics 365 integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
 
 </td><td>
 
 user\_impersonation
+
+</td><td>
+
+Not supported by Microsoft
+
+</td><td>
+
+Not supported by Microsoft
 
 </td></tr></tbody>
 </table>## Set up Microsoft Azure Active Directory
@@ -135,22 +151,24 @@ URL that accesses Azure. Typically the URL of the ServiceNow instance.**Importan
 
 7.  Navigate to the Certificates and Secrets section.
 
-8.  Create a client secret and collect the client secret key.
+8.  Create a client secret by selecting **New client secret** and collect the client secret key.
 
     You need the client secret key while configuring your ServiceNow instance.
 
-9.  Under API Permission, select **+ Add a permission** and then select **APIs my organization uses**.
+9.  Under API Permission, select **Add a permission** and then select **APIs my organization uses**.
 
-10. Select Microsoft Graph and add the following Delegated Permissions.
+10. Select **Microsoft Graph** and add the required scopes for **Delegated permissions** or **Application permissions**.
 
     -   `Organization.Read.All`
     -   `User.Read.All`
     -   `Offline_access`
-11. Select Dynamics CRM and add the following permission.
+11. Select **Dynamics CRM** and add the following scope.
 
     `user_impersonation`
 
-12. Under Grant consent, select **Grant admin consent**.
+    **Note:** User\_impersonation scope is offered only as a Delegated permission in Microsoft Dynamics CRM.
+
+12. Grant admin consent for your application by selecting **Grant admin consent**.
 
 13. In the Authentication section, under the Redirect URI, enter the redirect URI of the ServiceNow instance.
 
@@ -195,6 +213,54 @@ Role required: admin
 10. Select **OK**.
 
 
+## Create a custom security role for the Microsoft Dynamics 365 integration
+
+Create a custom role in the Power Platform admin center that grants only the privileges required by the Microsoft Dynamics 365 and Power Apps integration. You can use this custom role for the minimum permissions instead of using the Dynamics 365 administrator role.
+
+### Before you begin
+
+Role required: Global administrator
+
+### About this task
+
+The Microsoft Dynamics 365 and Power Apps integration requires read access to user, activity, and metadata tables to pull user activity data. Rather than assigning the Dynamics 365 administrator role, you can create a custom security role with only these privileges.
+
+### Procedure
+
+1.  Log in to the Power Platform admin center.
+
+2.  Under **Environments**, select the environment that you want to integrate with your ServiceNow instance.
+
+3.  Select **Settings**.
+
+4.  Under **Users + permissions**, select **Security roles**.
+
+5.  Select **New role**.
+
+6.  Enter a name for the security role.
+
+    For example, SaaSIntegrationDynamics.
+
+7.  On the Tables tab, assign the following table privileges.
+
+    |Table|Name|Record ownership|Read|
+    |-----|----|----------------|----|
+    |User|systemuser|Business Unit|Organization|
+    |Activity|activitypointer|User or Team|Organization|
+    |SharePoint Document|sharepointdocument|User or Team|Organization|
+    |Attribute|attribute|None|Organization|
+    |Entity|entity|None|Organization|
+    |Relationship Entity|relationship|None|Organization|
+
+    **Note:** The integration requires read access only, so you set the Create, Write, and Delete privileges to None for all tables.
+
+8.  On the Miscellaneous privileges tab, assign the View Audit Summary privilege \(prvReadAuditSummary\) at the Organization level.
+
+
+### What to do next
+
+Assign the custom security role to the user account with which the Microsoft Dynamics 365 and Power Apps integration authenticates.
+
 ## Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps
 
 Set up ServiceNow instance for Microsoft Dynamics 365 and Power Apps to track your software subscriptions and to reclaim unused licenses.
@@ -213,15 +279,15 @@ If you’re using Software Asset Workspace, the option to create the Microsoft D
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d220337e733">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d141725e1046">
 
 Interface
 
-</th><th align="left" id="d220337e736">
+</th><th align="left" id="d141725e1049">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d220337e742">
+</th></tr></thead><tbody><tr><td id="d141725e1055">
 
 **Core UI**
 
@@ -232,7 +298,7 @@ Action
 3.  Select **Microsoft Dynamics 365 and Power Apps Integration Profile**.
 
 
-</td></tr><tr><td id="d220337e784">
+</td></tr><tr><td id="d141725e1097">
 
 **Software Asset Workspace**
 
@@ -253,51 +319,112 @@ Action
 
     A draft integration profile is created. In the **Download Subscription Subflow** tab, the **Connection &amp; Credential** field appears and is automatically set to **sn\_ms\_365\_spoke.Microsoft\_365\_Graph**. In the **Calculate Activity Subflow** tab, the **Connection &amp; Credential** field appears and is automatically set to **sn\_ms\_365\_spoke.Microsoft\_365\_Dynamics**.
 
-5.  Under the **Download Subscription Subflow** tab, beside the **Connection &amp; Credential** field, select the preview \(\[Omitted image "preview-icon.png"\] Alt text: preview icon\) icon.
+5.  Under the **Download Subscription Subflow** tab, beside the **Connection &amp; Credential** field, select the preview icon \[Omitted image "preview-icon.png"\] and then select **Open Record** in the record preview.
 
 6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
 
-7.  In the Create Connection and Credential dialog box, enter the values you received from [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
+7.  In the Create Connection and Credential dialog box, fill in the fields.
 
-    1.  In the **Tenant ID** field, enter your Tenant ID.
+<table id="table_h1c_3p1_vjc"><thead><tr><th>
 
-    2.  In the **OAuth Client ID** field, enter the OAuth Client ID.
+Field
 
-    3.  In the **OAuth Client Secret** field, enter the OAuth Client Secret key.
+</th><th>
 
-8.  Select **Create and Get OAuth Token**.
+Description
 
-    **Important:** This step must be executed by a user with the Global reader role in the Microsoft admin center.
+</th></tr></thead><tbody><tr><td>
 
-9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your Microsoft 365 account.
+Connection name
 
-10. Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview \(\[Omitted image "preview-icon.png"\] Alt text: Preview\) icon.
+</td><td>
 
-11. Select **Create New connection and credential alias**.
+A meaningful name for the connection.
 
-12. In the Create Connection and Credential window, perform the following.
+</td></tr><tr><td>
 
-    1.  In the **Connection URL** field, enter the connection URL.
+Connection URL
 
-        To fetch Connection URL, log in to the Microsoft Admin portal and navigate to **Admin Centers** &gt; **All admin centers** &gt; **Select Dynamics 365 apps** &gt; **Environments**. Select the environment you want to integrate with. The environment URL is the Connection URL.
+</td><td>
 
-    2.  In the **OAuth Client ID** field, enter the OAuth Client ID.
+The URL of your Microsoft Dynamics 365 environment. For example, `https://graph.microsoft.com`.
 
-    3.  In the **OAuth Client Secret** field, enter the OAuth Client Secret key.
+</td></tr><tr><td>
+
+Permission type
+
+</td><td>
+
+The type of permission for the integration profile to access data correctly and securely. Values include:
+
+-   **Application Permissions**: Enable the application to access any data without a signed-in user.
+-   **Delegated Permissions**: Enable the application to act in place of a signed-in user.
+**Note:** If you have selected Delegated permissions while setting up Microsoft Entra ID, you must select **Delegated Permissions** as the permission type. Similarly, if you have selected Application permissions while setting up Microsoft Entra ID, you must select **Application Permissions** as the permission type.
+
+</td></tr><tr><td>
+
+Tenant ID
+
+</td><td>
+
+The Directory \(tenant\) ID that you copied in [Set up Microsoft Azure Active Directory](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrating-with-microsoft365.md).
+
+</td></tr><tr><td>
+
+OAuth Client ID
+
+</td><td>
+
+Application \(client\) ID for the application you created in the Azure portal.
+
+</td></tr><tr><td>
+
+OAuth Client Secret
+
+</td><td>
+
+Client secret for the application you created in the Azure portal.
+
+</td></tr><tr><td>
+
+OAuth Redirect URL
+
+</td><td>
+
+`https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance.This field is visible when you select **Delegated Permissions** as the permission type. This value is automatically populated.
+
+</td></tr></tbody>
+</table>8.  Select **Create and Get OAuth Token**.
+
+    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
+
+9.  If you’re prompted to log in to your Microsoft 365 account, enter your Microsoft 365 credentials and log in to your account.
+
+10. Under the **Calculate Activity Subflow** tab, beside the **Connection &amp; Credential** field, select the Preview icon \[Omitted image "preview-icon.png"\].
+
+11. On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
+
+12. In the Create Connection and Credential dialog box, fill in the fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection name|A meaningful name for the connection.|
+    |Connection URL|The URL of your Microsoft Dynamics 365 environment. For example, `https://myorg.crm.dynamics.com`.|
+    |OAuth Client ID|Application \(client\) ID for the application you created in the Azure portal.|
+    |OAuth Client Secret|Client secret for the application you created in the Azure portal.|
+    |OAuth Redirect URL|`https://<instance-name>.service-now.com/oauth_redirect.do`, where `<instance-name>` is the name of your ServiceNow instance.|
 
 13. Select **Create and Get OAuth Token**.
 
-    **Important:** This step must be executed by a user with the Dynamics 365 administrator role in the Microsoft admin center.
+    **Important:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrating-with-microsoft365.md) table.
 
-14. Return to the integration profile.
-
-15. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+14. On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
     Validating the connection verifies the Download Subscriptions and Calculate Activity APIs, but not the Reclaim Subscriptions APIs.
 
-16. After the connection is verified, select **Publish**.
+15. After the connection is verified, select **Publish**.
 
-17. In the Publish Confirmation dialog box, select **OK**.
+16. In the Publish Confirmation dialog box, select **OK**.
 
     **Note:** If you clear the **Download Activity** check box after the integration profile is published, you must revalidate the connections and then republish the integration profile because the following events occur:
 
@@ -308,6 +435,18 @@ Action
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
+
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 
@@ -346,5 +485,5 @@ After completing the [Integrating with Microsoft Dynamics 365 and Power Apps](ht
 **Related topics**  
 
 
-[Reclamation rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)
+[Reclamation rules for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/reclamation-rules.md)
 

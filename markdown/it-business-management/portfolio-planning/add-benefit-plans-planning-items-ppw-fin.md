@@ -7,9 +7,9 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure financials for planning items in Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
+breadcrumb: [Configure financials for Portfolio Planning, Configure, Portfolio Planning, Strategic Portfolio Management]
 ---
 
 # Add monetary and non-monetary benefit plans related lists
@@ -35,11 +35,11 @@ Add the monetary benefit plans and non-monetary benefit plans related lists for 
 
 6.  Change the record page view to **EAP Default**.
 
-    To change the view, select **Additional actions** menu \(\[Omitted image "hamburger-icon.png"\] Alt text: Three small black horizontal parallel lines.\), select **View**, and select the **EAP Default** view.
+    To change the view, select **Additional actions** menu \(\[Omitted image "hamburger-icon.png"\] Alt text:\), select **View**, and select the **EAP Default** view.
 
     \[Omitted image "fin-select-eap-default-view.png"\] Alt text: Additional options menu to select the EAP Default view to enable benefit plans.
 
-7.  Select **Additional actions** menu \(\[Omitted image "hamburger-icon.png"\] Alt text: Three small black horizontal parallel lines.\), select **Configure**, and select the **Related Lists** option.
+7.  Select **Additional actions** menu \(\[Omitted image "hamburger-icon.png"\] Alt text:\), select **Configure**, and select the **Related Lists** option.
 
     \[Omitted image "fin-config-related-lists.png"\] Alt text: Additional options menu to configure related lists for your planning items.
 

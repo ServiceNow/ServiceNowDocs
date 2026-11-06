@@ -1,5 +1,5 @@
 ---
-title: Setting up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration for HTTPS
+title: Setting up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration using HTTPS
 description: You can set up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration for IBM compliance reporting.Set up IBM License Metric Tool \(ILMT\) and BigFix Inventory integration for IBM compliance reporting using an HTTPS connection with the MID Server.Set up IBM License Metric Tool \(ILMT\) and BigFix Inventory integration for IBM compliance reporting using an HTTPS connection without the MID Server.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/software-asset-management/setting-up-ibm-ilmt.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Software Asset Management
 classification: software-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [IBM License Metric Tool \(ILMT\) and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management]
+breadcrumb: [ILMT and BigFix Inventory integrations, Software Asset Management publisher pack for IBM, Supported software publisher licenses, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Setting up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration for HTTPS
+# Setting up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration using HTTPS
 
 You can set up an IBM License Metric Tool \(ILMT\) or BigFix Inventory integration for IBM compliance reporting.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Privacy breach assessments, Explore, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -25,5 +25,5 @@ The following sections are displayed in the overview page of a breach assessment
 
 An image of the overview page is displayed as follows.
 
-\[Omitted image "overview-breach-asmt.jpg"\] Alt text: Summary of a breach assessment on the overview tab.
+\[Omitted image "overview-breach-asmt.png"\] Alt text: Summary of a breach assessment on the overview tab.
 

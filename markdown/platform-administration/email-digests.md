@@ -1,18 +1,18 @@
 ---
 title: Email digests
-description: An email digest is a single email that summarizes the activity for a selected notification and its target record during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated record occur within a short time period.
+description: An email digest is a single email that summarizes the activity for a selected notification and its target records during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated records occur within a short time period.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/email-digests.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Email and SMS notifications, System notifications, Notifications, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Email digests
 
-An email digest is a single email that summarizes the activity for a selected notification and its target record during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated record occur within a short time period.
+An email digest is a single email that summarizes the activity for a selected notification and its target records during a specified time interval. You can enable an email digest to reduce the number of notifications received when frequent updates to the associated records occur within a short time period.
 
 \[Omitted image "EmailDigestExample.png"\] Alt text: Email digest example that has a summary of incident comments
 
@@ -20,9 +20,9 @@ An email digest is a single email that summarizes the activity for a selected no
 
 ## How email digests work
 
-In new and upgraded instances, the Email digest \(com.glide.email\_digest\) plugin is activated by default. Your instance must use the Core UI interface, since the email digest feature involves setting [user notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-notification-preferences.md) in the System Settings window.
+In new and upgraded instances, the Email digest \(com.glide.email\_digest\) plugin is activated by default. Your instance must use the Core UI interface, since the email digest feature involves setting [user notification preferences](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/user-notification-preferences.md).
 
-Admins determine which notifications can be delivered in an email digest and configure the digest content for those notifications. Admins can also control the intervals for digests. An interval is the length of time that notifications are collected for the digest, such as daily or hourly.
+Admins determine which notifications can be delivered in an email digest and configure the digest content for those notifications. They also set the intervals for digests. An interval is the length of time that notifications are collected for the digest, such as daily or hourly.
 
 Users enable the digest and select the digest interval for a specific notification in their notification preferences. The system accumulates the notifications that normally would be sent during the specified interval and summarizes them in the email digest.
 
@@ -79,6 +79,8 @@ Reduce the number of notifications you receive for a selected target record duri
 
 [Email notifications dashboard]()
 
+[Email diagnostics dashboard]()
+
 [Email templates]()
 
 [Email layouts]()
@@ -91,5 +93,5 @@ Reduce the number of notifications you receive for a selected target record duri
 
 [Domain separation and Notifications]()
 
-[Email FAQs and troubleshooting notification emails]()
+[Notification email logs and diagnostics]()
 

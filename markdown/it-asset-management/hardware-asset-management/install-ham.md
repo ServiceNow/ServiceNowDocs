@@ -1,5 +1,5 @@
 ---
-title: Install Hardware Asset Management
+title: Install Hardware Asset Management from the ServiceNow Store
 description: You can install the Hardware Asset Management application \(sn\_hamp\) if you have the admin role.If the application does NOT include demo data or it does NOT install related applications and plugins, delete or revise the following sentence: The application includes demo data. Install related ServiceNow Store applications and plugins if they are not already installed.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/hardware-asset-management/install-ham.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Hardware Asset Management
 classification: hardware-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring Hardware Asset Management, Hardware Asset Management, IT Asset Management]
+breadcrumb: [Installing Hardware Asset Management, Configure, Hardware Asset Management, IT Asset Management, Asset Management]
 ---
 
-# Install Hardware Asset Management
+# Install Hardware Asset Management from the ServiceNow Store
 
 You can install the Hardware Asset Management application \(sn\_hamp\) if you have the admin role. The application includes demo data. Install related ServiceNow® Store applications and plugins if they are not already installed.
 
@@ -50,8 +50,10 @@ For more information, see [Installed with Hardware Asset Management](https://raw
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
+
+**Parent Topic:**[Installing Hardware Asset Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/hardware-asset-management/installing-ham-app.md)
 

@@ -7,10 +7,10 @@ release: yokohama
 product: GRC Common Functions
 classification: grc-common-functions
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [Now Assist, generative AI]
-breadcrumb: [Configure, Now Assist, Common GRC features, Governance, Risk, and Compliance]
+breadcrumb: [Configure, ServiceNow Otto for Integrated Risk Management \(IRM\), Common GRC features, Governance, Risk, and Compliance]
 ---
 
 # Customize the issue summarization skill in ServiceNow Otto for Integrated Risk Management \(IRM\)
@@ -29,7 +29,7 @@ From the AI Admin Hub console, you can select the input data in various states f
 
 1.  Navigate to **All** &gt; **Admin Center** &gt; **Now Assist Admin** &gt; **Now Assist Skills** tab in the AI Admin Hub console.
 
-2.  In the **Technology** workflow group, view the skills for Risk &amp; Sustainability.
+2.  In the **Technology** workflow group, select **Risk &amp; Sustainability**.
 
 3.  Copy the issue summarization skill for customization.
 

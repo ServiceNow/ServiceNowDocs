@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Enabling application service maps, Configuring Kubernetes Visibility Agent, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
+breadcrumb: [Enabling application service maps, Configure, Kubernetes discovery using Kubernetes Visibility Agent, Discovery for containerized resources, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable service maps using DaemonSet
@@ -28,15 +28,15 @@ If you use a ServiceNow DaemonSet, a pod is running on each Kubernetes node and 
 
 -   Set parameters either during Helm chart archive installation or by modifying the Kubernetes YAML file provided by ServiceNow.
 
-<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d248146e92">
+<table id="choicetable_ucg_fpk_bgc"><thead><tr><th align="left" id="d181016e95">
 
 Method
 
-</th><th align="left" id="d248146e95">
+</th><th align="left" id="d181016e98">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d248146e101">
+</th></tr></thead><tbody><tr><td id="d181016e104">
 
 **During Helm chart archive installation**
 
@@ -61,7 +61,7 @@ Docker tagservicenowdocker/informer_ds:X.X.X COMPANY_REPO:X.X.X
 
 `--set image.dsRepository=COMPANY_REPO –set image.dsTag=X.X.X`
 
-</td></tr><tr><td id="d248146e144">
+</td></tr><tr><td id="d181016e147">
 
 **Modifying the `k8s_informer.yaml` file**
 
@@ -80,7 +80,7 @@ kubectl apply -f k8s_informer.yaml
 </table>
 ## What to do next
 
-[Create application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-an-app-service-map-kva.md)
+[Create service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/create-an-app-service-map-kva.md)
 
 **Parent Topic:**[Enabling application service maps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/enabling-application-service-maps.md)
 

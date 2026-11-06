@@ -1,16 +1,16 @@
 ---
-title: Create a license request in the Public Sector Digital Services Government Service Portal
+title: Create a license or permit request in the Public Sector Digital Services Government Service Portal
 description: Request a license or permit from a government agency using the Government Service Portal.In the Government Service Portal, constituents can create license/permit requests on behalf of someone else, and add multiple parties \(constituents, business contacts\) to the watchlist.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-create-license-request-user.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Using Government Service Portal, Using Portals, Using Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Government Service Portal, Portals, Use, Public Sector Digital Services \(PSDS\)]
 ---
 
-# Create a license request in the Public Sector Digital Services Government Service Portal
+# Create a license or permit request in the Public Sector Digital Services Government Service Portal
 
 Request a license or permit from a government agency using the Government Service Portal.
 
@@ -107,7 +107,7 @@ Role required: none
 
 6.  Select the checkbox for **I am requesting on behalf of someone else**.
 
-7.  In the Individual Type dropdown, select **Constituent**or **Business**.
+7.  In the Individual Type dropdown, select **Constituent** or **Business**.
 
 8.  Enter the name of the constituent or business you are submitting the application on behalf of.
 

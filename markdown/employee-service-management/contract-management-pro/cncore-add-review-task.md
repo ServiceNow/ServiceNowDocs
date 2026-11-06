@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Internal review, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manual internal review, Review contract documents, Common contract request tasks, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Request an internal review
@@ -32,15 +32,15 @@ Role required: sn\_cm\_core.contract\_fulfiller
 
 1.  Open the contract request from workspace that you are using.
 
-<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d454278e89">
+<table id="choicetable_zst_kcr_5bc"><thead><tr><th align="left" id="d488916e89">
 
 Method
 
-</th><th align="left" id="d454278e92">
+</th><th align="left" id="d488916e92">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d454278e98">
+</th></tr></thead><tbody><tr><td id="d488916e98">
 
 **Contract Workspace listing**
 
@@ -52,7 +52,7 @@ Steps
 4.  Select a contract request.
 
 
-</td></tr><tr><td id="d454278e145">
+</td></tr><tr><td id="d488916e145">
 
 **Workspace used by your application**
 
@@ -136,5 +136,5 @@ A review task is created, listed in the Reviews tab and the change request detai
 
 \[Omitted image "cmpro-internal-review-task.png"\] Alt text: Submit internal review task to get the contract document reviewed by the internal subject matter experts.
 
-**Parent Topic:**[Internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
+**Parent Topic:**[Manual internal review](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-expert-review.md)
 

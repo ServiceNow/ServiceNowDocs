@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/government-industry/psds-config-gmp-rsp-program-header.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Reviewer Service Portal, Grants Management, Playbooks, Configure Agent Workspaces, Configuring Public Sector Digital Services, Public Sector Digital Services \(PSDS\)]
+breadcrumb: [Configure the Reviewer Service Portal, Grants Management, Playbooks and Solutions, Configure agent workspaces, Configure, Public Sector Digital Services \(PSDS\)]
 ---
 
 # Configure a custom program record header in the Reviewer Service Portal
@@ -24,11 +24,11 @@ Role required: admin
 
 2.  Select `sn_gsm.StandardTicketExtension`.
 
-3.  Select **Create implementation** in the Related Links list.
+3.  Select **Create implementation** from the Related Links list.
 
 4.  On the form, fill in the fields.
 
-    Ensure that **handle** is marked **true** when you want the implementation to be shown \(checking if the table is equal\). Set the fields that you want to return by using the process\(\) command.
+    Ensure that **handle** is marked **true** for the when you want the implementation to be shown. Set the fields that you want to return by using the process\(\) command.
 
 5.  Select **Update**.
 

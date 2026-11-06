@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Workforce Optimization, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Workforce Optimization, Managing workforce, Use, Field Service Management]
 ---
 
 # Workforce Optimization for Field Service Manager Workspace dashboard
@@ -275,5 +275,4 @@ List
 Displays the list of active tasks by status.
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Workforce Optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)
-
+</table>

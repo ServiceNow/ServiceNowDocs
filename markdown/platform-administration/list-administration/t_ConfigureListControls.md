@@ -7,9 +7,9 @@ release: yokohama
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
-breadcrumb: [Configuring lists, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure list controls
@@ -18,7 +18,7 @@ You can configure list controls, such as buttons and filters.
 
 ## Before you begin
 
-Role required: personalize\_control.
+Role required: personalize\_control
 
 ## Procedure
 
@@ -159,9 +159,7 @@ List edit insert row
 
 </td><td id="entry_ListEditInsRowDesc">
 
-Ability for a user to create records in list view. When it is enabled, an empty row appears at the bottom of the list.\[Omitted image "InsertANewRow.png"\] Alt text: Insert a new row
-
- This field is available for standard lists only.
+Ability for a user to create records in list view. When it is enabled, an empty row appears at the bottom of the list. This field is available for standard lists only.
 
 </td></tr><tr><td>
 
@@ -177,7 +175,7 @@ Disable Natural Language Query \(NLQ\)
 
 </td><td>
 
-Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/natural-language-query.md).**Note:** When the system property \(**com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
+Option to disable the NLQ filter in specific lists when NLQ on lists is enabled in the instance. The NLQ filter enables you to use natural language to filter lists instead of using the condition builder. For more information on NLQ filters, see [Natural Language Query](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/natural-language-query.md).**Note:** When the system property **com.snc.listv2.nlq.lists.enabled**\(com.snc.listv2.nlq.lists.enabled\) is set to **false**, the query destructs. Text entered in the search replaces existing conditions.
 
 </td></tr><tr><td>
 

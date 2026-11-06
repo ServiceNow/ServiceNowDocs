@@ -7,7 +7,7 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [McAfee ePO integration, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
@@ -32,7 +32,7 @@ The integration supports multiple servers, however, to avoid conflicts in profil
 
 2.  Navigate to **Security Operations** &gt; **Integrations** &gt; **Integration Configurations**.
 
-3.  Search for the McAfee ePO for Security Operations integration tile, and click **Configure**.
+3.  Search for the McAfee ePO for Security Operations integration tile, and select **Configure**.
 
     \[Omitted image "mcafee-config-tile.png"\] Alt text: McAfee ePO Integration tile.
 
@@ -103,7 +103,7 @@ An example name is, `secops_local_midserver`.
 </td></tr></tbody>
 </table>    \[Omitted image "mcafee-epo-configtile.png"\] Alt text: McAfee ePO Integration Configuration settings
 
-5.  Click **Submit**.
+5.  Select **Submit**.
 
     The McAfee ePO Configurations list is displayed with your new configuration record. You have successfully completed the configuration for a McAfee ePO server.
 

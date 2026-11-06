@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Setting up Agent Workspace for HR Case Management
@@ -18,9 +18,9 @@ Set up Agent Workspace for HR Case Management so that your agents can engage wit
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
--   Install the application Agent Workspace for HR Case Management \[sn\_hr\_agent\_ws\].
+-   Install the application Agent Workspace for HR Case Management \[com.sn\_hr\_agent\_ws\].
 -   Set up these components:
     -   Communication channels and routing.
     -   Additional components and settings that are specific to HR Service Delivery.
@@ -29,7 +29,7 @@ Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!
 
 ## Roles installed
 
-By installing the HR Service Delivery Configurable Workspace \[sn\_hr\_agent\_ws\], you install the following roles:
+By installing the HR Service Delivery Configurable Workspace \[com.sn\_hr\_agent\_ws\], you install the following roles:
 
 <table><thead><tr><th>
 

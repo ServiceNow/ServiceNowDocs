@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/create-modify-record-producers-fso-apps.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Planning and configuring, Financial Services Operations \(FSO\)]
+last_updated: "2026-09-10"
+reading_time_minutes: 3
+breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
 
 # Create or modify record producers

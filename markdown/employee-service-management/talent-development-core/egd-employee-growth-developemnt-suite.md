@@ -1,46 +1,72 @@
 ---
-title: Talent Development
-description: The ServiceNow Talent Development applications use a suite of products to help employees develop, grow, and deliver on critical business outcomes.
+title: Growth Experiences
+description: The ServiceNow Growth Experiences applications use a suite of products to help employees develop, grow and deliver on critical business outcomes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/talent-development-core/egd-employee-growth-developemnt-suite.html
 release: yokohama
 product: Talent Development Core
 classification: talent-development-core
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [HR Service Delivery, Employee Service Management]
 ---
 
-# Talent Development
+# Growth Experiences
 
-The ServiceNow® Talent Development applications use a suite of products to help employees develop, grow, and deliver on critical business outcomes.
+The ServiceNow® Growth Experiences applications use a suite of products to help employees develop, grow and deliver on critical business outcomes.
 
-A suite of products and applications make up the complete functionality of ServiceNow Talent Development.
+## Growth Experiences Applications
 
-<table id="table_iwv_lpv_klb" class="nav-card"><tbody><tr><td>
+<table id="table_hlz_zwz_fgc" class="nav-card"><tbody><tr><td>
 
-[\[Omitted image "bus-meetings.svg"\] Alt text:Talent Development Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-landing-page.md)
+[Talent Development Core\[Omitted image "bus-c-suite-leader.svg"\] Alt text:Delivers an end-to-end process for individuals and managers to take control of their career growth and development plans](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/egd-landing-page.md)
 
 </td><td>
 
-[\[Omitted image "bus-partnering.svg"\] Alt text:Career Conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-landing-page.md)
+[Skills Intelligence\[Omitted image "bus-ai-sparkle.svg"\] Alt text:An AI-driven platform that you can use in your organization to develop a workforce that is based on skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/skills-intelligence.md)
+
+</td><td>
+
+[Career Conversations\[Omitted image "bus-1-1-meetings.svg"\] Alt text:Supports an end-to-end process for individuals and managers to create and manage career growth conversations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/career-conversations/egd-activities-landing-page.md)
+
+</td></tr><tr><td>
+
+[Learning\[Omitted image "bus-learn.svg"\] Alt text:Enables employees to discover and engage with career development content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning-exp.md)
+
+</td><td>
+
+[Mentoring\[Omitted image "bus-partnering.svg"\] Alt text:Connects individuals seeking mentorship with experienced mentors](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/mentoring-egd-overview.md)
+
+</td><td>
+
+[Employee Goals\[Omitted image "bus-gender-neutral-leader-c-suite.svg"\] Alt text:Enables employees to view and track their career goals from the Employee Center, ensuring they are aligned with your company's strategic objectives](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-landing.md)
+
+</td></tr><tr><td>
+
+[Talent Feedback\[Omitted image "bus-customer-service.svg"\] Alt text:Allows managers to request feedback on employee skills from the employee’s collaborators](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-landing.md)
+
+</td><td>
+
+ 
+
+</td><td>
+
+ 
 
 </td></tr></tbody>
 </table>## Related applications
 
-The Talent Development suite includes several related ServiceNow Store applications. Here’s a list of some of the related applications. Select a link to learn more about these applications.
+Here is a list of some of the related applications. Select a link to learn more about these applications.
 
--   **[Learning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/learning-core/exploring-learning-exp.md)**  
-Learning application enables you to discover, manage, and engage with career development content. It enables users to configure learning catalogs that contain course items from both internal and external learning systems.
--   **[Career Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-development-core/exam-engine.md)**  
-The Career Assessment application works as an exam engine that provides the ability to create exams that help with career advancement and help test a learner's knowledge of a subject.
--   **[Mentoring](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/mentoring/mentoring-egd-overview.md)**  
-The ServiceNow® Mentoring application is a platform that connects individuals seeking mentorship with experienced mentors. It creates a seamless experience for both mentees and mentors.
--   **[Employee Goals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-goals/egd-goals-landing.md)**  
-The ServiceNow® Employee Goals application lets employees view and track their career goals from the Employee Center. This application is a tool that enables employees to stay focused and aligned with your company's strategic objectives, resulting in improved overall organizational performance.
--   **[Talent Feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/talent-feedback-landing.md)**  
-Talent Feedback is a new plugin available in Yokohama release. Skill Feedback is one of the features of Talent Feedback. Skill Feedback allows managers to request feedback on employee skills from the employee’s collaborators,
+-   [Leader Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/td-lh-landing.md)
+-   [Manager Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/hr-service-delivery/manager-hub-overview.md)
 
-**Parent Topic:**[Employee Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-service-management-overview.md)
+## Additional resources
+
+-   Learn more about what's new and changed, see the [Talent Development release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/release-notes/employee-growth-development-landing.md).
+-   Log in to your ServiceNow® account and find additional information about implementing and deploying  features at [Employee Service Management](https://mynow.servicenow.com/now/best-practices/collections/employee-service-management-best-practices).
+-   Access real-time courses, self-paced training, and career resources at [ServiceNow University](https://learning.servicenow.com/lxp/en/pages/servicenow)
+-   Find useful resources related to your role and explore best practices at the [Customer Success Center](https://www.servicenow.com/success.html).
+-   Connect with other Customer Service Management users at [Now Community](https://www.servicenow.com/community/).
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/configure-calendar-1.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 9
 breadcrumb: [Calendar screen, Mobile screen types, Mobile screens, Mobile app components, Building mobile apps, Mobile Platform]
 ---
@@ -134,7 +134,7 @@ Top menu function instances
 
 </td><td>
 
-Option to determine whether to use top menu functions to display additional options.Use the top menu function location for less frequently used actions. You can also use the option on forms when you have more actions listed than conveniently fit in the footer.
+Option to determine whether to use top menu functions to display additional options.Use the top menu function location for less frequently used actions. You can also use the option on forms when you have more actions listed than conveniently fit in the footer. For more information, see [Use your navigation function as a top menu selection](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/mobile/sg-launcher-navigation-example-3.md).
 
 </td></tr><tr><td>
 

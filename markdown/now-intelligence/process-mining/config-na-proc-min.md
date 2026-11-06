@@ -1,38 +1,44 @@
 ---
-title: Configuring Now Assist for Process Mining
-description: Configure Now Assist for Process Mining to use the feature.
+title: Configuring ServiceNow Otto for Process Mining
+description: Configure ServiceNow Otto for Process Mining to use the feature.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/process-mining/config-na-proc-min.html
 release: yokohama
 product: Process Mining
 classification: process-mining
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Now Assist for Process Mining, Using Process Mining, Process Mining, Platform Analytics]
+breadcrumb: [ServiceNow Otto for Process Mining, Use, Process Mining, Platform Analytics]
 ---
 
-# Configuring Now Assist for Process Mining
+# Configuring ServiceNow Otto for Process Mining
 
-Configure Now Assist for Process Mining to use the feature.
+Configure ServiceNow Otto for Process Mining to use the feature.
 
 ## Configuration overview
 
-Configure how you can use the Now Assist for Process Mining in the first skill.
+Configure how you can use the ServiceNow Otto for Process Mining in the first skill.
 
--   [Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-na-skill.md)
--   [Configuring work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-worknotes.md)
+-   [Activate transition work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-na-skill.md)
+-   [Configuring transition work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-worknotes.md)
 
-## Now Assist for Process Mining plugin
+## ServiceNow Otto for Process Mining plugin
 
-To work with generative AI capabilities, you need Now Assist for Creator. For information on how to install Now Assist for Creator, see [Install ServiceNow Otto for Creator](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/install-now-assist-for-creator.md).
+To work with generative AI capabilities, you need ServiceNow Otto for Creator. You can install this application from the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website.
 
-After Now Assist for Creator is installed, the plugin \(Now Assist for Process Mining\) and Generative AI Controller are automatically installed.
+After ServiceNow Otto for Creator is installed, the plugin \(ServiceNow Otto for Process Mining\) and Generative AI Controller are automatically installed.
 
--   **[Activate work notes analysis skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-na-skill.md)**  
-Activate the work notes analysis skill to be able to use Now Assist for Process Mining.
--   **[Configuring work notes analysis in Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/configure-worknotes.md)**  
-Configure work notes analysis for a process table so that any project that is based on the process table has work notes analysis configured.
+-   **[Working with transition work notes using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/worknotes.md)**  
+To work effectively with transition work notes analysis using AI, you must activate the Transition Work Notes Analysis skill and configure work notes analysis for the process table.
+-   **[Working with process inefficiency highlights using AI](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/highlights.md)**  
+To work effectively with process inefficiency highlights using AI, you must activate the process inefficiency highlights skill and configure improvement opportunities for the process table and the project.
+-   **[Working with intent and activity analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/nowass-intent-activity-analysis.md)**  
+To work effectively with intent and activity analysis using AI, you must activate the Intent and Activity Analysis skill and configure the intent and activity analysis for the process table and the project.
+-   **[Generate process configuration using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-pro-config-skill.md)**  
+Use AI to generate a suggestion for the process configuration fields for a table, instead of selecting each field manually.
+-   **[Generate state responsibility mapping using AI skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/activate-gen-state-resp.md)**  
+Map process steps to stakeholder responsibilities using AI, enabling advanced Process Mining features.
 
-**Parent Topic:**[Now Assist for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/now-assist.md)
+**Parent Topic:**[ServiceNow Otto for Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/process-mining/now-assist.md)
 

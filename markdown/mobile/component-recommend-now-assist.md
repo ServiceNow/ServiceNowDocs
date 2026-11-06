@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/mobile/component-recommend-now-assist.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Mobile app building tools, Building mobile apps, Mobile Platform]
+breadcrumb: [Using the Mobile App Builder, Mobile App Builder, Building tools, Building mobile apps, Mobile Platform]
 ---
 
 # Component recommendations with ServiceNow Otto

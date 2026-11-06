@@ -1,48 +1,100 @@
 ---
-title: Create orders with the Business Portal
-description: Customers can use the Business Portal to browse products and create orders in Order Management.
+title: Create orders from the Business Portal
+description: Browse products in a product catalog and create orders in Order Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/order-mgt-create-an-order-using-customer-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Using Business Portal, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Self-service order management, Business Portal, Use, Sales Customer Relationship Management]
 ---
 
-# Create orders with the Business Portal
+# Create orders from the Business Portal
 
-Customers can use the Business Portal to browse products and create orders in Order Management.
+Browse products in a product catalog and create orders in Order Management.
 
 ## Before you begin
 
 Role required: sn\_customerservice.customer
 
+## About this task
+
+The following illustration describes the process to create orders from the Business Portal:
+
+\[Omitted image "som-self-service-order-checkout.svg"\] Alt text: Infographic showing how customers can create orders from the Business Portal.
+
 ## Procedure
 
-1.  Navigate to your Business portal.
+1.  Log in to the Business Portal.
 
-    See for more information about navigating to the Business Portal.
+2.  Browse the product catalog, select products, and add them to the cart.
 
-2.  Select **Product Catalog**.
+    1.  Select **Product Catalog**.
 
-3.  Use the catalog to browse and configure products.
+        If you are a contact of an account with an active sales agreement, only the products listed in the sales agreement are displayed.
 
-4.  Select **Add** to add products to the cart.
+    2.  Browse the products in the catalog.
 
-5.  Select **Customize** to open the product configurator to select product options and then add the product to the shopping cart.
+    3.  If a product you want to order has specific configurations, select **Customize** and select the product options.
 
-6.  Select the shopping cart \[Omitted image "icon-shopping-cart-1.png"\] to view the products in your cart.
+    4.  Enter the quantity of the item you want to order in the **Quantity** field.
 
-7.  In the shopping cart, select **View cart** to open detailed information about the products in the cart.
+    5.  Select **Add** to add products to the cart.
 
-8.  Select **Submit Order** to create an order or **Return to Catalog** to return to the catalog view.
+3.  Review the cart contents.
 
-    When the order is submitted, **Order Details** opens and shows the order number and order details.
+    1.  Select the Cart icon \[Omitted image "icon-shopping-cart-1.png"\] Alt text:.
 
+        The information listed in the following table is displayed.
+
+        |Field|Description|
+        |-----|-----------|
+        |Number|Unique cart ID.|
+        |State|State of the cart.|
+        |Created|Cart creation timestamp.|
+        |Qty|Product quantity.|
+        |Unit list price|Price of a single item.|
+        |Cumulative monthly price|Total cost of a product and its child items, if any, over a month.|
+        |Cumulative one time price|One-time price of the product and its child items, if any.|
+
+    2.  If you need to modify the quantity or customization for a product in the cart, select the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text: and modify the details.
+
+    3.  If you want to delete an item, select the Delete icon \[Omitted image "Form\_DeleteIcon.png"\] Alt text:.
+
+4.  Add instructions for your order in the **Instructions** field.
+
+5.  Save a copy of your cart in PDF format by selecting **Download**.
+
+    The default filename contains the cart ID. The PDF content and format is based on the Sales Cart Demo Template document template.
+
+6.  Check out.
+
+    1.  Select **Proceed to Checkout**.
+
+    2.  On the Terms and conditions page, select the confirmation checkbox after reading the terms and conditions of the seller and select **Continue**.
+
+        The terms and conditions are fetched from the Sales Cart Terms and Conditions Default document template.
+
+    3.  On the Shipping details page, review the shipping and billing addresses and modify them if necessary by selecting the Edit icon \[Omitted image "pencil-outline-24.svg"\] Alt text:.
+
+        **Note:** The address that you specify while checking out is only used for that order. It doesn't change your stored address in the seller's system.
+
+    4.  Select **Continue**.
+
+    5.  Verify the details on the Review page and select **Submit**.
+
+
+## Result
+
+The order is created and you're redirected to the Order details page. You can view your account details, order amount, order lines, and so on.
+
+**Parent Topic:**[Self-service order management using Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/self-service-order-management.md)
 
 **Related topics**  
 
 
-[View an order with the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-view-order-using-customer-portal.md)
+[View an order on the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/order-mgt-view-order-using-customer-portal.md)
+
+[Modify terms and conditions for the sales cart](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/modify-terms-conditions-sales-cart.md)
 

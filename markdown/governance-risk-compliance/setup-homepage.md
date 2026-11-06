@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/setup-homepage.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Operational Resilience, Governance, Risk, and Compliance]
 ---
@@ -14,7 +14,7 @@ breadcrumb: [Operational Resilience, Governance, Risk, and Compliance]
 
 The landing page in the Operational Resilience Workspace provides a single-pane overview of the services, business services, and pillars in your organization. The dashboard displays resilience metrics, including operational status, completed activities, red flags, and suggestions for improvement.
 
-The flexible data model introduced with Operational Resilience, Release 21.0.x provides a foundation for the dashboards and tracks the flow of dependent services. The data, including red flags by type, such as failed controls, incidents, and outages, and business service metrics such as number of flags, importance, and impact tolerance, is updated in the dashboard through changes to the flexible data model.
+The flexible data model introduced with Operational Resilience, Release 21.0.x provides a foundation for the dashboards and tracks the flow of dependent services. The data includes red flags by type, such as failed controls, incidents, and outages. Business service metrics such as number of flags, importance, and impact tolerance are updated in the dashboard through changes to the flexible data model.
 
 \[Omitted image "dashboard-data.png"\] Alt text: Dashboard data.
 
@@ -26,7 +26,7 @@ The dashboard shown in the earlier example displays a range of 1-30 red flags. U
 
 \[Omitted image "red-flags-breakup.png"\] Alt text: red flags.
 
-The value "24" shown in the Total red flags count column is the roll-up value of the red flags for all entities under the "Cards and Payments" business service.
+The value "24" shown in the Total red flags count column is the roll-up value. It aggregates red flags for all entities under the "Cards and Payments" business service.
 
 The **Calculate red flags for CSDM and dependencies** scheduled job does not create new records in the \[sn\_oper\_res\_profile\] table. Instead, it recomputes the impacted objects for the existing sn\_oper\_res\_profile records using data from the \[sn\_grc\_m2m\_profile\_profile\] table.
 
@@ -37,7 +37,9 @@ The **Calculate red flags for CSDM and dependencies** scheduled job fetches the 
 
 The red flags fetching mechanism can use either the **sn\_oper\_res\_profile.profile** condition, the **sn\_oper\_res\_profile.applies\_to** condition, or a combination of both.
 
-The red flags also inherit the impacted objects and impacted object classes from the \[sn\_oper\_res\_profile\] record. For example if an application service's Operational Resilience profile lists Business service, Offering, and Business process as impacted objects \(shown in the Impacted objects column\), these objects are copied to all associated red flags for the application service and its related entities.
+The red flags also inherit the impacted objects and impacted object classes from the \[sn\_oper\_res\_profile\] record. For example, an application service's Operational Resilience profile might list Business service, Offering, and Business process as impacted objects \(shown in the Impacted objects column\). These objects are then copied to all associated red flags for the application service and its related entities.
+
+**Note:** Beginning with Operational Resilience release 22.x.x, the **Calculate red flags for CSDM and dependencies** and **Update CSDM and other dependencies** scheduled jobs are deactivated by default for new installations. For existing installations, these jobs retain their current state \(active or inactive\).
 
 ## Conditions for calculating the red flags
 
@@ -361,5 +363,4 @@ Conditions:-   applies\_to IN \[core\_company, sn\_vdr\_risk\_asmt\_vendor\_enga
 For all these assessments, staging records are created in the \[sn\_oper\_res\_tprm\] table.
 
 </td></tr></tbody>
-</table>You can calculate red flags for entities with a pillar; for vulnerable items, the pillar must be Technology. For other red flags, entities must have a pillar, with no restrictions on the type.
-
+</table>

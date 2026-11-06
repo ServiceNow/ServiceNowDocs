@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/explicit-roles.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 10
 breadcrumb: [Security Roles, Access Management]
 ---
@@ -16,9 +16,10 @@ You can give both internal users and external users access to your instance. How
 
 As of the Paris release, no user can have both of the explicit roles \(snc\_internal and snc\_external\). Groups and role containment cannot include both roles, either, since that would cause any group member or user who is assigned to such a group or such a role to automatically have both roles. The ServiceNow AI Platform aborts any operation that would create such a scenario.
 
-External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role cannot access:
+**Note:** You cannot add any other roles as contained roles to the "**snc\_external**" or "**snc\_internal**" roles.
 
--   Scripted REST API resources that are not marked external.
+External users must obtain, at minimum, the snc\_external role. The snc\_external role indicates that the user is external to your organization. They should not have any access to resources unless explicitly allowed through ACLs for the snc\_external role or additional roles that inherit the snc\_external role. By default, users with the snc\_external role can't access:
+
 -   Tables without the role that inherits the snc\_external role or the public role.
 -   Non-record type resources, such as processors and UI pages without granting access to the snc\_external role or a role that inherits the snc\_external role.
 -   Platform Analytics dashboards.
@@ -47,13 +48,13 @@ When the Explicit Roles plugin is activated:
     After the plugin is activated, any time a user logs in, the user is given the snc\_internal role if the account does not already have that role, or the snc\_external role. This includes users logged in via impersonation.
 
 -   All existing ACLs that do not have a role requirement are automatically assigned the snc\_internal role. Because both existing ACLs and users are assigned the snc\_internal role, existing access levels do not change.
--   Role assignment does not apply to a newly created ACL with a role assigned.
+-   Newly created ACLs that do not have a role requirement are automatically assigned the snc\_internal role. This role assignment does not apply to a newly created ACL with a role assigned.
 -   For all existing Processor \[sys\_processor\] records or newly created Processor \[sys\_processor\] records with **Type=script**, the snc\_internal role is automatically added to the **Roles** field if the field is empty.
 -   To restrict access to UI pages to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **ui\_page**.
 -   To restrict access to processors to internal users, the plugin automatically assigns the snc\_internal role to the **\*** ACL with a **Type** of **processor**.
 -   External users must obtain, at minimum, the snc\_external role to access the instance. This role must be manually granted to external users. Access to records is granted through ACLs.
 
-Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see [System update sets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/system-update-sets.md).
+Do not move system update sets among instances with and without the Explicit Roles plugin enabled. For more information, see System update sets.
 
 **Note:** This plugin also requires the [Contextual Security Manager](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/access-control/r_ContextualSecurity.md) plugin.
 
@@ -72,7 +73,7 @@ To exclude snc\_internal role for certain users, use the `glide.security.explici
 
 ## Providing table access to external users
 
-You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see [Provide external users access to a table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/t_ProvideExternalUsersAccessToTables.md).
+You can provide external users access to a table by adding a role to the table that inherits the snc\_external role. For more information, see .
 
 ## The hasRoles\(\) method
 
@@ -368,8 +369,6 @@ Role required: admin
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
 
-    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
-
 3.  On the **Activate Plugin** form, provide the following information.
 
 <table id="table_awx_bhf_ygb"><thead><tr><th>
@@ -408,8 +407,6 @@ Select the date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 

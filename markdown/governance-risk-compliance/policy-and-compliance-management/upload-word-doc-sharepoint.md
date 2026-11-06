@@ -7,9 +7,9 @@ release: yokohama
 product: Policy and Compliance Management
 classification: policy-and-compliance-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create and associate a policy document in Microsoft SharePoint, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Create and associate a policy document in Microsoft SharePoint, Creating and associating policy texts from Cloud documents, Policy authoring and redlining in Compliance Workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Upload a Microsoft Word document to Microsoft SharePoint
@@ -26,11 +26,11 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  In the Compliance Workspace, select the List icon \(\[Omitted image "ws-list-icon.png"\] Alt text: Lists icon.\).
+2.  In the Compliance Workspace, select the \[Omitted image "ws-list-icon.png"\] Alt text: List icon icon.
 
 3.  Navigate to **Compliance library** &gt; **My policies**.
 
-4.  Select a policy and click the Policy text related list to upload a document.
+4.  Select a policy and select the Policy text related list to upload a document.
 
     You can upload a Microsoft Word document that exists locally in your machine.
 
@@ -54,6 +54,8 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst; mp\_document\_
 
 12. After the file is attached, select **Upload**.
 
-    The selected file from your local machine is uploaded to the folder path that you'd specified in the Microsoft SharePoint site.
+    If personal authentication is enabled and this is the first time you are performing a document operation in this session, a one-time authentication prompt appears. For SharePoint, the prompt uses the logged-in Microsoft O365 session automatically.
+
+    The selected file from your local machine is uploaded to the folder path that you'd specified in the Microsoft SharePoint site. The document is registered in SharePoint under your personal account identity.
 
 

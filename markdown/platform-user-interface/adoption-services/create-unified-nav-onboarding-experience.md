@@ -7,7 +7,7 @@ release: yokohama
 product: Adoption Services
 classification: adoption-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 5
 breadcrumb: [Onboarding modals, Adoption services, Configure user experiences]
 ---
@@ -64,11 +64,7 @@ Role required: admin
 
     1.  Select your guidance from the Guidances list.
 
-        \[Omitted image "test2guidance.png"\] Alt text: test2 is displayed in Guidances list.
-
     2.  On the Help Guidance Steps related list, select **New**.
-
-        \[Omitted image "test2helpguidancestep.png"\] Alt text: test2 Help Guidance Step list is displayed.
 
     3.  On the form, fill in the fields.
 
@@ -141,11 +137,7 @@ The guidance that this Help Guidance Step applies to.
 
     1.  Select your help guidance step in the related list.
 
-        \[Omitted image "test2helpguidancestep.png"\] Alt text: test2 Help Guidance Step list is displayed.
-
     2.  On the Help Contents related list, select **New**.
-
-        \[Omitted image "helpcontents.png"\] Alt text: help contents related list is displayed.
 
     3.  **Note:** Form fields are different for each type of guidance. Refer to the correct form for your guidance.
 
@@ -370,4 +362,6 @@ The question is Mandatory when selected.
 
 8.  On the Guidance form, select **Update**.
 
+
+**Parent Topic:**[Onboarding modals](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/adoption-services/next-experience-onboarding.md)
 

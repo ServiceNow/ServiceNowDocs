@@ -7,7 +7,7 @@ release: yokohama
 product: Connect
 classification: connect
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Connect Support, Connect, ServiceNow AI Platform Additional Capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -30,7 +30,7 @@ Role required: none
 
 3.  Do one of the following actions.
 
-<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d520534e93">
+<table id="choicetable_qdq_dmf_ct"><tbody><tr><td id="d527137e90">
 
 **Add a member**
 
@@ -40,7 +40,7 @@ Role required: none
 2.  Use the search field to find and select a user.
 
 
-</td></tr><tr><td id="d520534e114">
+</td></tr><tr><td id="d527137e111">
 
 **Remove a member**
 

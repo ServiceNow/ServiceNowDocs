@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/t\_ConfigureWhenARelatedListLoads.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Related lists, Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
@@ -26,7 +26,7 @@ Role required: none
 
 2.  Select one of the following options from the **Loads related lists in classic forms** menu.
 
-<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d84240e89">
+<table id="choicetable_rmk_dk5_1r"><tbody><tr><td id="d88220e86">
 
 **With the Form**
 
@@ -34,7 +34,7 @@ Role required: none
 
 Related lists load when you open the form, which is the default setting. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `default`.
 
-</td></tr><tr><td id="d84240e104">
+</td></tr><tr><td id="d88220e101">
 
 **After Form Loads**
 
@@ -42,7 +42,7 @@ Related lists load when you open the form, which is the default setting. When se
 
 Related lists load after the rest of the form loads. When selected, it sets the value of the glide.ui.related\_list\_timing user preference to `deferred`.
 
-</td></tr><tr><td id="d84240e119">
+</td></tr><tr><td id="d88220e116">
 
 **On-demand**
 

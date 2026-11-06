@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 3
-breadcrumb: [Configure Conversational Integration with Facebook Messenger, Integrating Virtual Agent with Facebook Messenger, Integrating Virtual Agent with messaging apps, Integrating Virtual Agent with other channels, Virtual Agent, Conversational Interfaces]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure, Facebook Messenger, Integrate VA with messaging apps, Conversational Integration apps for Virtual Agent, Conversational Interfaces]
 ---
 
 # Set up Conversational Integration with Facebook Messenger
@@ -95,7 +95,7 @@ Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a
 
         2.  In the Edit Page Subscriptions dialog box, select **messages** and **messaging\_postbacks**.
         3.  Click **Save**.
-    5.  [Make a note of the App secret and App ID from Basic Settings](https://developers.facebook.com/docs/development/create-an-app/app-dashboard/basic-settings).
+    5.  [Make a note of the App secret from Basic Settings](https://developers.facebook.com/docs/development/create-an-app/app-dashboard/basic-settings).
 
     6.  Send messages with timestamp in the customer's time zone by navigating to **Page settings** &gt; **Advanced messaging**, selecting the **Time zone** option in the Requested Features section, and clicking **Request** displayed next to the selected option.
 
@@ -109,18 +109,9 @@ Token for webhook.By default, the token for ServiceNow webhook is `nowbot`. As a
 
 5.  On the form, update the name of the bot if desired.
 
-6.  Fill in the following fields
+6.  Enter the callback URL and the token from your Facebook Messenger account.
 
-    |Field|Value|
-    |-----|-----|
-    |**App ID**|App ID from Basic settings|
-    |**Inbound ID**|Facebook page ID|
-    |**Signing secret**|App secret from Basic settings|
-    |**Access token**|Generated access token|
-
-7.  Enter the callback URL and the token from your Facebook Messenger account.
-
-8.  Click **Submit**.
+7.  Click **Submit**.
 
     A success message displays confirming the integration with the Facebook Messenger app.
 

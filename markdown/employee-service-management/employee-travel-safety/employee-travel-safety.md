@@ -7,16 +7,14 @@ release: yokohama
 product: Employee Travel Safety
 classification: employee-travel-safety
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 5
 breadcrumb: [Safe Workplace, Health and Safety, Employee Service Management]
 ---
 
 # Employee Travel Safety
 
 Use the ServiceNow® Employee Travel Safety application to help support safe travel for employees by verifying the site safety and policy compliance of destinations, monitoring employee health status, and keeping a contact log during travel.
-
-\[Omitted image "employee-travel-safety.png"\] Alt text: An employee submits a travel request. If their manager approves the request, the employee submits a daily health verification before and during travel, and a contact log during travel.
 
 Before booking travel in a travel management system, employees request permission for their trips. The employee's manager or a designated travel approver can approve or reject the travel request based on COVID-19 case data and a site safety evaluation for the destination.
 
@@ -28,7 +26,7 @@ Employee Travel Safety is part of a suite of ServiceNow® Safe Workplace suite a
 
 -   With the [Employee Readiness Surveys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/employee-readiness-surveys.md) application, evaluate the readiness of your users to return to the workplace by asking them to fill in a survey.
 -   Before users re-enter workspaces, use the [Employee Health Screening](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/employee-health-screening.md) application to screen users and ensure compliance with your entry requirements, such as a temperature check and PPE.
--   With the [Explore Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
+-   With the [Workplace Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-core/workplace-service-delivery-overview.md) application, prepare for the return of users by configuring and maintaining clean and socially distanced workspaces for them to use.
 -   You can manage the inventory of safety equipment for your workforce with the [Workplace Personal Protective Equipment Inventory Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/safe-workplace/ppe-inventory-management.md) application.
 -   With the [Contact Tracing](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contact-tracing/contact-tracing.md) application, evaluate the readiness of your users to return to the workplace by using data such as badge scans, Wi-Fi access logs, and daily contact logs to help identify potential user interactions.
 

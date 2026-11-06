@@ -1,5 +1,5 @@
 ---
-title: Configuring mutual authentication
+title: Configure mutual authentication
 description: Mutual authentication establishes trust by exchanging secure sockets layer \(SSL\) certificates.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/c\_MutualAuthentication.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Web service security, Authentication, Access Management]
 ---
 
-# Configuring mutual authentication
+# Configure mutual authentication
 
 Mutual authentication establishes trust by exchanging secure sockets layer \(SSL\) certificates.
 
@@ -79,8 +79,6 @@ Now that the key store has been created, it can be uploaded to the Certificates 
 -   Provide a **Key store password**. This is the password that was used to create the keystore.
 
 Click **Submit** to create the Java Key Store entry.
-
-\[Omitted image "Keystore.png"\] Alt text:
 
 ## Specifying a Trusted Server Certificate
 

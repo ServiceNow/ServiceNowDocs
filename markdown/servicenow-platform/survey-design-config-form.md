@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/survey-design-config-form.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Surveys reference, Surveys, Assessments and Surveys, Exploring Service Administration, Service Administration, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -109,6 +109,14 @@ Survey Publish URL
 </td><td>
 
 Specifies a URL of the survey that can be shared with users.**Note:** This field is available only after you publish the survey.
+
+</td></tr><tr><td>
+
+Sample metric
+
+</td><td>
+
+Specifies the metric that appears as a sample in emails sent to users.
 
 </td></tr><tr><td>
 

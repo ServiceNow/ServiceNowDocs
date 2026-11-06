@@ -1,20 +1,20 @@
 ---
 title: Request Service Mapping
-description: Service Mapping is available under the ITOM Visibility subscription and requires activation by ServiceNow personnel.
+description: Service Mapping is available under ITOM Visibility subscription and requires installation and updates on the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes. For details, see Request Service Mapping Service Mapping is available under ITOM Visibility subscription and requires installation and updates on the ServiceNow Store. Visit the ServiceNow Store to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the ServiceNow Store version history release notes. For details, see Request Service Mapping..
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-operations-management/service-mapping/t\_ActivateServiceMappingPlugin.html
 release: yokohama
 product: Service Mapping
 classification: service-mapping
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Configuring Service Mapping, Service Mapping, ITOM Visibility, IT Operations Management]
 ---
 
 # Request Service Mapping
 
-Service Mapping is available under the ITOM Visibility subscription and requires activation by ServiceNow personnel.
+Service Mapping is available under ITOM Visibility subscription and requires installation and updates on the ServiceNow Store. Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html). For details, see [Request Service Mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-mapping/t_ActivateServiceMappingPlugin.md).
 
 ## Before you begin
 
@@ -32,7 +32,7 @@ Role required: admin
 
 -   Discovery \(com.snc.discovery\)
 
-    **Note:** If you're activating the Discovery plugin for the first time in the Yokohama release, install the Discovery \(com.snc.discovery\) plugin first. Then install the Discovery and Service Mapping Patterns \(com.sn\_itom\_pattern\) plugin version 1.0.52 for Cloud Discovery to work. You can then upgrade to Yokohama.
+    **Note:** If you're activating the Discovery plugin for the first time in the Brazil release, install the Discovery \(com.snc.discovery\) plugin first. Then install the Discovery and Service Mapping Patterns \(com.sn\_itom\_pattern\) plugin version 1.0.52 for Cloud Discovery to work. You can then upgrade to Brazil.
 
 -   Pattern Designer \(com.snc.pattern.designer\)
 -   Cloud Provisioning and Governance Core \(com.snc.cloud.core\)
@@ -47,8 +47,6 @@ Role required: admin
 1.  Navigate to **All** &gt; **System Applications** &gt; **All Available Applications** &gt; **All**.
 
 2.  Select **Request plugin** to open the **Activate Plugin** form on Now Support.
-
-    \[Omitted image "request-plugin.png"\] Alt text: Admin view of the Application Manager interface with the Request plugin option highlighted.
 
 3.  On the **Activate Plugin** form, provide the following information.
 
@@ -88,8 +86,6 @@ Select the date and time to activate the plugin.
 
 </td></tr></tbody>
 </table>    For example, see the following form to activate the Event Management plugin on an instance named SNC Instance.
-
-    \[Omitted image "activate-plugin-form.png"\] Alt text: Admin view of the form requesting the Event Management plugin on a selected instance. For the text description, refer to the Activate Plugin form table.
 
 4.  Select **Submit**.
 

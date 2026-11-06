@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/components-installed-lead-cash-process-management.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Lead-to-Cash Process Management reference, Sales Customer Relationship Management reference, Sales Customer Relationship Management]
+breadcrumb: [Lead-to-Cash Process Management reference, Order operations, Reference, Sales Customer Relationship Management]
 ---
 
 # Components installed with Lead-to-Cash Process Management

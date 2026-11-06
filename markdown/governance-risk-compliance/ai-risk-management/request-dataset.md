@@ -1,56 +1,113 @@
 ---
 title: Request a dataset
-description: Request a dataset to analyze trends, train AI models, or support data-driven decisions.
+description: Request a dataset to support AI model training, testing, validation, or analytical use cases. Datasets are reviewed for quality, privacy, and compliance.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/ai-risk-management/request-dataset.html
 release: yokohama
 product: AI Risk Management
 classification: ai-risk-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+keywords: [request dataset, dataset intake, AI governance]
 breadcrumb: [Use, AI Risk and Compliance, Governance, Risk, and Compliance]
 ---
 
 # Request a dataset
 
-Request a dataset to analyze trends, train AI models, or support data-driven decisions.
+Request a dataset to support AI model training, testing, validation, or analytical use cases. Datasets are reviewed for quality, privacy, and compliance.
 
 ## Before you begin
 
-Role required: AI risk and compliance business user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+Role required: sn\_ai\_case\_mgmt.ai\_case\_business\_user \(Employee Center\), sn\_ai\_asset\_mgmt.ai\_asset\_owner \(AI Control Tower dashboard\)
+
+## About this task
+
+Datasets are critical inputs for AI systems and models. Requesting a dataset initiates review of data origin, sensitivity, usage purpose, and compliance obligations before the data is used. Datasets can be associated with one or more AI models or AI systems as part of inventory tracking and governance. After you submit this request, you land on the confirmation page in Employee Center. The **here** link in the confirmation message and the **Open in AI Control Tower** link on the post-submission page open the corresponding dataset in AI Control Tower instead of the legacy AI Control Tower workspace. The dataset record header also displays the dataset name and identifier.
 
 ## Procedure
 
-1.  Request a dataset from either the Employee Center or the AI Control Tower dashboard.
+1.  Request a dataset using one of the following options.
 
-    -   Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
-    -   Navigate to **All** &gt; **AI Control Tower**.
-2.  On the Employee Center landing page, select **Technology services** &gt; **AI assets**.
+<table><thead><tr><th align="left" id="d259268e106">
 
-    1.  Select the **Request a dataset** card.
+Option
 
-3.  On the AI Control Tower dashboard, select the list \[Omitted image "list-icon-airc-ws.png"\] Alt text: List icon. icon, and navigate to the AI asset inventory.
+</th><th align="left" id="d259268e109">
 
-    1.  Select **Add AI Asset**.
+Description
 
-    2.  Select **Dataset**, and select **Next** to continue.
+</th></tr></thead><tbody><tr><td id="d259268e115">
 
-4.  On the form, fill in the fields.
+**Employee Center**
 
-    For a description of the field values on the Request a dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-dataset-form.md).
+</td><td>
 
-5.  To add attachments, select **Add attachments**.
+1.  Navigate to **All** &gt; **Self-Service** &gt; **Employee Center**.
+2.  Select **Help center** &gt; **Technology services** and then select **AI assets** from the Technology services topics section.
+3.  Select the **Request a dataset** card.
+ **Note:**
 
-6.  To save the form as a draft and edit it later, select **Save as Draft**.
+AI Risk and Compliance Business User and AI Asset owner can complete this option.
 
-7.  Select **Submit**.
+</td></tr><tr><td id="d259268e167">
 
-    After you submit this form, the AI Center of Excellence team reviews the request and provides the necessary approval and guidance.
+**AI Control Tower**
 
+</td><td>
+
+1.  Navigate to **All** &gt; **AI Control Tower**.
+2.  On the AI Control Tower dashboard, select the list icon \[Omitted image "list-icon-airc-ws.png"\] Alt text:, and navigate to the **AI asset inventory - Managed** or **AI asset inventory - Unmanaged**.
+3.  Select **Datasets**, then select **Add dataset**.
+ **Note:**
+
+An AI Asset owner can complete this option.
+
+</td></tr></tbody>
+</table>2.  On the form, fill in the fields.
+
+    For full descriptions of the fields for the Request an AI dataset form, see [Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-dataset-form.md). For more information about adding a dataset using the AI Control Tower, see [Create dataset assets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/create-dataset-assets.md).
+
+3.  To add attachments, select **Add attachments**.
+
+4.  To save the form as a draft and edit it later, select **Save as Draft**.
+
+5.  Select **Submit**.
+
+    The dataset request is submitted for governance review.
+
+
+## Result
+
+The dataset request is submitted for governance review and routed to the appropriate AI governance stakeholders based on your organization's configured intake workflow.
+
+## What to do next
+
+After submitting a dataset request, the next steps depend on your role in the life cycle.
+
+AI Product Owner or Requester \[`sn_grc_ai_gov.ai_risk_and_compliance_business_user`\]: Provide additional information as requested during intake and onboarding, including details about the AI dataset and intended business outcomes.
+
+AI Steward or AI Center of Excellence \(AI CoE\) \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager, sn\_ai\_asset\_mgmt.ai\_asset\_owner\]: Review submitted requests for business and strategy alignment, initiate the review process and trigger required assessments as applicable, and coordinate cross-functional reviews. Continue to oversee the dataset through its life cycle, including inventory tracking, governance activities, and collaboration across stakeholders.
+
+For more information, see [AI Control Tower dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/ai-governance.md).
+
+Risk and Compliance Manager \[sn\_grc\_ai\_gov.ai\_risk\_and\_compliance\_manager\]: Assess the dataset for regulatory, policy, and risk considerations. Assign risk assessments, recommend controls and attestations, and monitor compliance throughout the dataset and associated AI system life cycle.
+
+For more information, see [AI Risk and Compliance workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-risk-and-compliance-workspace.md), [Initiate AI assessment on an AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-assessment-on-an-ai-asset.md), [Initiate risk assessment on AI asset](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/initiate-risk-assessment-on-ai-systems.md), [Initiate risk assessment on AI asset's risks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-risk-assessments-for-ai-systems.md), and [Manage controls using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/manage-controls-in-airc.md).
+
+For an overview of how AI systems and datasets move from intake through assessment, deployment, monitoring, and value tracking, see [AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md).
 
 -   **[Request a dataset form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-dataset-form.md)**  
 The Request a dataset form is designed to streamline the request process for procuring a dataset. This intake form confirms that all necessary details, supporting documents, and compliance considerations are captured before moving forward with the approval process.
 
 **Parent Topic:**[Using AI Risk and Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/using-ai-risk-and-compliance.md)
+
+**Related topics**  
+
+
+[Intake requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/airc-intake.md)
+
+[Request an AI use case](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/request-ai-system.md)
+
+[AI governance life cycle](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/ai-risk-management/ai-gov-lifecycle.md)
 

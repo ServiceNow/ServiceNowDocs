@@ -1,0 +1,35 @@
+---
+title: Migration tasks
+description: You must complete several tasks to migrate your App Engine pipelines to ReleaseOps.
+locale: en-US
+canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/app-engine-management-center/migration-tasks-aemc.html
+release: yokohama
+product: App Engine Management Center
+classification: app-engine-management-center
+topic_type: concept
+last_updated: "2026-09-10"
+reading_time_minutes: 1
+breadcrumb: [Configure Pipelines and Deployments, Configure, App Engine Management Center, Run, AI Workflow Factory Prime, Agentic app development, Building applications]
+---
+
+# Migration tasks
+
+You must complete several tasks to migrate your App Engine pipelines to ReleaseOps.
+
+Starting with version 28.2.1 of AEMC, you can migrate your existing pipelines to ReleaseOps. To learn more about the migration process and the advantages of migrating to ReleaseOps, see [Migrating App Engine pipelines to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/migrating-ae-pipelines-to-releaseops-aemc.md). To start migrating your existing pipelines, complete each of the following procedures.
+
+1.  [Install ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/releaseops/install-releaseops.md) on each environment \(instance\) in your App Engine pipeline.
+2.  Complete ReleaseOps setup by [configuring a new ReleaseOps ecosystem](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/releaseops/configure-new-releaseops-ecosystem.md) and [configuring multi-instance management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/releaseops/configure-mif.md).
+3.  [Configure the system property to enable migration to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/configure-sys-property-for-migration-to-releaseops-aemc.md).
+4.  [Map deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/map-deployment-request-states-aemc.md) to match ReleaseOps deployment request states to the corresponding App Engine deployment request states.
+5.  [Add custom conditions to enable ReleaseOps deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.md) in Workflow Studio.
+
+-   **[Configure the system property to enable migration to ReleaseOps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/configure-sys-property-for-migration-to-releaseops-aemc.md)**  
+Update the **sn\_deploy\_pipeline.migrate\_releaseops** system property to enable deployments using ReleaseOps.
+-   **[Map deployment request states](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/map-deployment-request-states-aemc.md)**  
+If your ReleaseOps deployment request has custom states, you must configure the Deployment Request State Map table so that your ReleaseOps deployment request states map to the correct App Engine states.
+-   **[Add custom conditions to enable ReleaseOps deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/add-custom-conditions-to-enable-releaseops-deployment.md)**  
+If you want to add additional conditions to enable ReleaseOps deployments, modify the Deployment Migration to ReleaseOps decision table.
+
+**Parent Topic:**[Configure Pipelines and Deployments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/config-p-and-d.md)
+

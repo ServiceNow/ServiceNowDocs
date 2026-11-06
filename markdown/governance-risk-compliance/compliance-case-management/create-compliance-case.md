@@ -7,9 +7,9 @@ release: yokohama
 product: Compliance Case Management
 classification: compliance-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Reporting a compliance case in GRC: Compliance Case Management, Using Compliance Case Management, Compliance Case Management, Governance, Risk, and Compliance]
+breadcrumb: [Report compliance case, Use, Compliance Case Management, Governance, Risk, and Compliance]
 ---
 
 # Create a compliance case in the Compliance Workspace
@@ -28,7 +28,7 @@ Your users can report a case to the compliance teams through phone calls or emai
 
 1.  Navigate to **All** &gt; **Compliance Workspace**.
 
-2.  Select the Compliance case management icon \(\[Omitted image "compliance-case-launcher.png"\] Alt text: Case management icon.\).
+2.  Select the Compliance case management icon \(\[Omitted image "icon-tprm-ws-risk-activity.png"\] Alt text: Electronic signature\).
 
 3.  From the options available in **Create**, select **Case**.
 

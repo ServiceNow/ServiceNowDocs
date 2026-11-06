@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -20,8 +20,8 @@ User criteria records define conditions that are evaluated against user records.
 
 User criteria is a platform feature used in Service Portal. Learn more about user criteria in the ServiceNow AI Platform:
 
--   Service Catalog: [Set security for items and categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_ServiceCatalogAccessControls.md).
--   Knowledge management: [Control access at the knowledge base level through user criteria](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_SelectUserCriteria.md).
+-   Service Catalog: Set security for items and categories.
+-   Knowledge management: Control access at the knowledge base level through user criteria.
 
 **Important:** After making user criteria additions or changes, you may need to log out and log back in to clear the prior configuration.
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Healthcare and Life Sciences Service Management Core
 classification: healthcare-and-life-sciences-service-management-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Configure, Healthcare and Life Sciences Service Management Core, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
@@ -34,10 +34,6 @@ The following items are installed with Healthcare and Life Sciences Service Mana
 
 The Healthcare and Life Sciences Service Management Core application is dependent on the Product Catalog Management Core, CIWF UI Components, and Industry Core applications.
 
-Review all the plugins in this image that are activated by installing the Healthcare and Life Sciences Service Management Core application:
-
-\[Omitted image "pluginshclssmcore.jpg"\] Alt text:
-
 For more information, see [Components installed with Healthcare and Life Sciences Service Management Core](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/healthcare-life-sciences/healthcare-and-life-sciences-service-management-core/hcls-components-installed-serv-mgmt.md).
 
 ## Procedure
@@ -48,8 +44,10 @@ For more information, see [Components installed with Healthcare and Life Science
 
     You can search for the application by its name or ID. If you cannot find the application, you might have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
-3.  Select **Install**.
+3.  If you're prompted, follow the links to the ServiceNow Store to get any additional entitlements for dependencies.
+
+4.  Select **Install**.
 
 

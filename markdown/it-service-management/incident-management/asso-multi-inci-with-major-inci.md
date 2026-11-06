@@ -7,9 +7,9 @@ release: yokohama
 product: Incident Management
 classification: incident-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Working on major incident management, Manage major incidents, Incident Management, IT Service Management]
+breadcrumb: [Working on major incident management, Managing major incidents, Incident Management, IT Service Management]
 ---
 
 # Associate multiple incidents with a major incident
@@ -28,17 +28,19 @@ When a major incident occurs, there are usually multiple incidents created for t
 
 1.  Navigate to **All** &gt; **Incident** &gt; **Open**.
 
-2.  Select the incidents that need to be associated with a major incident.
+    **Note:** If the UI16 module link redirection feature is enabled in Service Operations Workspace \(SOW\) and the UI16 module supports the redirect configuration, navigating through UI16 paths automatically redirects you to the equivalent list or record pages in SOW instead of displaying the UI16 forms or lists. For more information, see [Redirect UI16 module links to Service Operations Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/service-operations-workspace/redirect-ui16-module-links-sow.md).
 
-3.  On the Actions menu, click **Link to Major Incident**.
+2.  Select the incidents to associate with a major incident.
+
+3.  On the Actions menu, select **Link to Major Incident**.
 
     \[Omitted image "link-inci-to-major-inci.png"\] Alt text: Associate multiple incidents with a major incident
 
 4.  In the Choose a Major Incident dialog box, select the major incident with which you want to associate the incidents.
 
-5.  Click **OK**.
+5.  Select **OK**.
 
-    The incidents are added as a child to the major incident.
+    The incidents are added as child incidents of the major incident.
 
 
 **Parent Topic:**[Working on major incident management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/incident-management/work-on-mim.md)

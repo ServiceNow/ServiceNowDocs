@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Employee Center for IT Service Management, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Employee Center for IT Service Management, EmployeeWorks, Employee Service Management]
 ---
 
 # Using Employee Center for ITSM

@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use feeds in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -27,8 +27,6 @@ Role required: admin
 2.  Click **Group Feeds** and click **All Feeds**.
 
 3.  Click **Create Group Feed**.
-
-    \[Omitted image "CreateGroupFeed.png"\] Alt text: Create group feed
 
 4.  Enter the feed name and description.
 

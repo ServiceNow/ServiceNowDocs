@@ -7,8 +7,8 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Manage team backlog, Use, Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
@@ -32,9 +32,7 @@ Role required: sn\_apw\_advanced.eap\_user
 
 4.  Select the more icon \(\[Omitted image "eap-more-icon.png"\] Alt text: More icon.\) and select **Create copy**.
 
-    Alternatively, you can right-click the work item to view these options.
-
-    \[Omitted image "eap-create-copy.png"\] Alt text: Create copy for a work item in EAP Backlog.
+    Alternatively, you can right-click the work item to view the options.
 
 
 ## Result
@@ -43,7 +41,7 @@ A copy of the selected work item is created, with the information in the require
 
 ## What to do next
 
-From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of ServiceNow Otto for SPM. For more information, see [Configure ServiceNow Otto for Strategic Portfolio Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/now-assist-for-strategic-portfolio-management-spm/configure-now-assist-for-spm.md).
+From the full details page of the work item, you can refine the description with Now Assist. See [Improve efficiency and quality using refine records skill](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/refine-text-with-write-planning-item-skill.md). This feature requires activating the Write planning item skill of ServiceNow Otto for SPM.
 
 **Parent Topic:**[Manage team backlog in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/using-eap.md)
 

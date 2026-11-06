@@ -7,9 +7,9 @@ release: yokohama
 product: Service Reliability Management
 classification: service-reliability-management
 topic_type: reference
-last_updated: "2025-03-19"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using ITOM Mobile Agent, ITOM Mobile Agent, Service Reliability Management, ITOM Health, IT Operations Management]
+breadcrumb: [Use, ITOM Mobile Agent, Service Reliability Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Managing incidents and major incidents on mobile
@@ -37,7 +37,7 @@ ITOM Mobile Agent auto-integrates with ITSM Mobile Agent, letting you manage ale
 -   [Major incident dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/mim-dashboard-mobile.md)
 -   [Review and work on a major incident candidate](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-service-management/major-incident-candidate.md)
 
-**Parent Topic:**[Using ITOM Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/use-itom-mobile.md)
+**Parent Topic:**[Use ITOM Mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/use-itom-mobile.md)
 
 **Previous topic:**[Work with alerts in ITOM mobile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/service-reliability-management/work-itom-mobile-alerts.md)
 

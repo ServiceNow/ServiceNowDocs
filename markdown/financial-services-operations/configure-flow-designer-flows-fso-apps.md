@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/configure-flow-designer-flows-fso-apps.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Planning and configuring, Financial Services Operations \(FSO\)]
+breadcrumb: [Configure, Financial Services Operations \(FSO\)]
 ---
 
 # Configure flows
@@ -33,7 +33,7 @@ Role required: Based on the application that you are configuring, you need the f
 
 ## About this task
 
-The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flow-designer-home-landing-page.md) basics.
+The flows are built using ServiceNow Workflow Studio, so make sure you’re familiar with [Flow Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/application-development/flow-designer.md) basics.
 
 For information on flows that are installed with Financial Services Operations applications, see [Designer flows for Financial Services Operations applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/flow-designer-flows-fso-apps.md).
 

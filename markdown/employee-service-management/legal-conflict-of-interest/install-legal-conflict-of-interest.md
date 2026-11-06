@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Setting up Legal Conflict of Interest, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Install Legal Conflict of Interest
@@ -20,12 +20,11 @@ You can install the Legal Conflict of Interest application \(sn\_lg\_coi\) if yo
 
 **Note:**
 
-The Legal Conflict of Interest application is installed automatically when you install the Legal Simple Compliance suite.
+-   The Legal Conflict of Interest application is installed automatically when you install the Legal Simple Compliance suite.
+-   The Legal and Contracts Common Utilities \(sn\_lco\_cmn\) application is automatically installed when you install Legal Conflict of Interest.
 
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   Review the [Legal Conflict of Interest](https://store.servicenow.com/sn_appstore_store.do#!/store/application/0db5f16173320010844489b954f6a710) application listing in the ServiceNow Store for information on dependencies, licensing or subscription requirements, and release compatibility.
-
-Install the Legal Request Management \(sn\_lg\_ops\) application before you install Legal Conflict of Interest.
 
 Role required: admin
 
@@ -59,16 +58,18 @@ For more information, see [Components installed with Legal Conflict of Interest]
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 
 
 ## What to do next
 
+To submit conflict of interest request using conversational intake from ServiceNow Otto in Virtual Agent, install and configure Legal Service Delivery - Prime that is a paid application.
+
 Use the Legal Service Delivery Guided Setup to configure the application on your instance.
 
 To access Legal Service Delivery guided setup, navigate to **Legal Administration** &gt; **Legal Guided Setup**. For more information about using the guided setup interface, see [Using guided setup](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/guided-setup.md).
 
-**Parent Topic:**[Setting up Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
+**Parent Topic:**[Configure Legal Conflict of Interest](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-administration.md)
 

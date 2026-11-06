@@ -19,7 +19,7 @@ You can install the ServiceNow Voice for CSM application \(sn\_cti\_csm\_cnt\) i
 -   Ensure that the application and all of its associated ServiceNow Store applications have valid ServiceNow entitlements. For more information, see [Get entitlement for a ServiceNow product or application](https://store.servicenow.com/$appstore.do#!/store/help?article=KB0030186).
 -   ServiceNow Voice for CSM requires the following ServiceNow Store applications. Ensure that this application is installed before you install ServiceNow Voice for CSM.
     -   **Required ServiceNow Store applications**
-        -   **Customer Service plugin \(com.sn\_customerservice\)**
+        -   **Case Management Core plugin \(com.sn\_customerservice\)**
 
             Installs the Customer Service Management application.
 
@@ -47,7 +47,7 @@ For more information, see [Components installed with ServiceNow Voice for CSM](h
 
     You can search for the application by its name or ID. If you cannot find the application, you may have to request it from the ServiceNow Store.
 
-    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+    Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 3.  In the Application installation dialog box, review the application dependencies.
 
@@ -55,7 +55,7 @@ For more information, see [Components installed with ServiceNow Voice for CSM](h
 
 4.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 5.  Select **Install**.
 

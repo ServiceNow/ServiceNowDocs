@@ -7,8 +7,8 @@ release: yokohama
 product: Localization Framework
 classification: localization-framework
 topic_type: task
-last_updated: "2025-02-11"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Artifact configurations, Configure the Localization Framework, Localization Framework, Translation and localization, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
@@ -18,13 +18,17 @@ Create and configure custom artifacts of your choice to use the Localization Fra
 
 ## Before you begin
 
-Ensure that you have activated the Localization Framework Installer plugin \(com.glide.localization\_framework.installer\) before configuring a custom artifact.
+Ensure that you are in the application scope that you want for your custom artifact.
 
 Role required: localization\_admin and script\_include\_admin.
 
+## About this task
+
+From the Zurich release, your custom artifacts can be made available in [Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/localization-workspace.md). For information about making custom artifacts selectable in Localization Workspace translation requests, see [Dynamic artifact detection in Localization Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/localization-workspace/lw-dynamic-artifact-detection.md).
+
 ## Procedure
 
-1.  Navigate to **All** &gt; **Localization Framework** &gt; **Artifact Configurations**.
+1.  Ensure that you are in the application scope that you want for your custom artifact, and navigate to **All** &gt; **Localization Framework** &gt; **Artifact Configurations** \[sn\_lf\_config\].
 
 2.  Select **New**.
 

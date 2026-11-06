@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Live Feed table notification examples, Live Feed table notifications, Administering Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -43,8 +43,6 @@ It also adds a message about the assigned user and posts the message from the as
      //make the message appear to come from the assignment group if we have one if ( !current. assignment_group. nil ( ) )
     profileSource  = current. assignment_group. getRefRecord ( ) ; //need GlideRecord object
     ```
-
-    \[Omitted image "LiveNotificationAdvExample.png"\] Alt text: Example problem resolved message
 
 
 **Parent Topic:**[Live Feed table notification examples](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_LFTableNotifiExamples.md)

@@ -1,5 +1,5 @@
 ---
-title: Smart Documents
+title: Smart Documents Skill
 description: Accelerate document insights with instant summaries, interactive Q&amp;A, and FAQs using Now Assist in Document Management.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/now-assist-skills/now-assist-skills-smart-documents.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Now Assist Skills
 classification: now-assist-skills
 topic_type: concept
-last_updated: "2025-11-11"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Skills in the Platform workflow, Now Assist skills, Now Assist AI assets, Enable AI experiences]
+breadcrumb: [Skills in the Platform workflow, Skills, Generative AI skills, Enable AI Experiences]
 ---
 
-# Smart Documents
+# Smart Documents Skill
 
 Accelerate document insights with instant summaries, interactive Q&amp;A, and FAQs using Now Assist in Document Management.
 
@@ -52,7 +52,7 @@ Customer
 
 [ServiceNow Otto for Customer Service Management \(CSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/customer-service-management/now-assist-csm.md)
 
- [ServiceNow Otto for Field Service Management \(FSM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/field-service-management/now-assist-fsm.md)
+ 
 
 </td></tr><tr><td>
 
@@ -60,7 +60,7 @@ Employee
 
 </td><td>
 
-[ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/employee-service-management/now-assist-hrsd.md)
+
 
 </td></tr><tr><td>
 
@@ -68,8 +68,7 @@ Governance,Risk, and Compliance
 
 </td><td>
 
-[ServiceNow Otto for Third-party Risk Management \(TPRM\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/governance-risk-compliance/now-assist-tprm.md)
+
 
 </td></tr></tbody>
-</table>**Parent Topic:**[Now Assist skills in the Platform workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-skills/now-assist-on-now-platform.md)
-
+</table>

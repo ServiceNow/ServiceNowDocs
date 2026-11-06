@@ -1,19 +1,19 @@
 ---
-title: Edit a Now Assist skill
-description: Edit the configuration of a Now Assist skill to choose the inputs or triggers and the display location of the skill output.
+title: Edit an AI skill
+description: Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/edit-a-now-assist-skill.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Now Assist, Admin features, skill, edit, configuration, inputs, triggers]
-breadcrumb: [Configuring Now Assist settings and features, Now Assist, Enable AI experiences]
+breadcrumb: [Using AI Admin Hub, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
-# Edit a Now Assist skill
+# Edit an AI skill
 
-Edit the configuration of a Now Assist skill to choose the inputs or triggers and the display location of the skill output.
+Edit the configuration of an AI skill to choose the inputs or triggers and the display location of the skill output.
 
 ## Before you begin
 
@@ -21,42 +21,38 @@ Role required: sn\_generative\_ai.nsa\_admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Now Assist Skills**.
+1.  Navigate to **All** &gt; **AI Admin Hub** &gt; **AI Skills**.
 
-    If you’re already in the AI Admin Hub console, select the **Now Assist Skills** tab.
+    If you’re already in the AI Admin Hub console, select the **AI Skills** tab.
 
 2.  Select a workflow on the navigation panel, such as **Technology**.
 
     Each workflow contains skill sets.
 
-3.  Toggle between the list and grid layout for optimum view experience.
+3.  On the feature card associated with the skill you'd like to edit, select **View details**.
 
-    **Note:** The skill details are presented at the forefront of the interface, enabling you to view all the details without needing to click or navigate away.
-
-4.  Select the more options icon \[Omitted image "more-options-menu-item.png"\] Alt text: More options menu item next to **Active skill** that you want to configure, then select **Edit**.
+4.  Under **Active skills**, select the more options icon \[Omitted image "more-options-menu-item.png"\] Alt text: More options menu item next to the skill that you want to configure, then select **Edit**.
 
     \[Omitted image "now-assist-edit-skill.png"\] Alt text: More options menu expanded to show the Edit and Deactivate skill next to the Incident Summarization skill.
 
-    The first step in the Guided Setup for the skill is displayed.
+    The first step in the guided setup for the skill is displayed.
 
-    Each skill configuration has a number of steps shown in the Guided Setup. The exact steps vary from skill to skill. A symbol next to each step indicates whether the step is completed, partially completed, or not completed.
+    Each skill configuration has a number of steps shown in the guided setup. The exact steps vary from skill to skill. A symbol next to each step indicates whether the step is completed, partially completed, or not completed.
 
     **Note:** Some configuration options are read-only.
 
     \[Omitted image "edit-now-assist-skill-1.png"\] Alt text: Configuration panel for Chat summarization. Use this panel to choose when and how the skill is triggered.
 
-5.  Create child tasks within the Guided Setup tasks for configuring the Now Assist skills.
-
-6.  Proceed to the next step when you've finished configuring the current step by selecting **Save and continue**.
+5.  Proceed to the next step when you've finished configuring the current step by selecting **Save and continue**.
 
     You can return to a previous step by selecting **Back**.
 
-7.  Apply the new settings after reviewing your changes by selecting **Done**.
+6.  Apply the new settings after reviewing your changes by selecting **Done**.
 
 
 ## Result
 
 The skill is activated with your preferred settings. You can now [install other plugins](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/install-now-assist-feature-plugins.md) or [activate other skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configure-a-now-assist-skill.md).
 
-**Parent Topic:**[Configuring Now Assist settings and features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/configuring-na-landing.md)
+**Parent Topic:**[Using AI Admin Hub](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/using-now-assist-admin_0.md)
 

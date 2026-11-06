@@ -7,9 +7,9 @@ release: yokohama
 product: Scenario Planning in SPW
 classification: scenario-planning-in-spw
 topic_type: task
-last_updated: "2025-11-24"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Create monetary benefit plans, Manage financials for planning items, Portfolio Planning in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Create monetary benefit plans, Manage financials for planning items, Portfolio Planning in Strategic Planning Workspace, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Capture actual monetary benefits
@@ -33,15 +33,15 @@ Capture the actual benefit from the planned benefits to measure revenue and calc
 
 4.  Capture actual monetary benefits using one of the options.
 
-<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d189306e103">
+<table id="choicetable_b1n_bmf_khc"><thead><tr><th align="left" id="d239860e103">
 
 Option
 
-</th><th align="left" id="d189306e106">
+</th><th align="left" id="d239860e106">
 
 Procedure
 
-</th></tr></thead><tbody><tr><td id="d189306e112">
+</th></tr></thead><tbody><tr><td id="d239860e112">
 
 **Using Monetary benefit plan related list**
 
@@ -52,7 +52,7 @@ Procedure
 3.  Select the value from the **Entered benefit** field.
 
 
-</td></tr><tr><td id="d189306e142">
+</td></tr><tr><td id="d239860e142">
 
 **Using finanicals record page**
 

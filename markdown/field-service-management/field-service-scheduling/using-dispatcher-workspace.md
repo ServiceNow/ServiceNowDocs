@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-10-23"
 reading_time_minutes: 4
-breadcrumb: [Assigning work order tasks to agents from Dispatcher Workspace, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Assigning tasks from Dispatcher Workspace, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Using Dispatcher Workspace
@@ -45,9 +45,10 @@ The following table provides an overview of the dispatcher's tasks in the Dispat
 |[Viewing an agent's calendar](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/viewing-agents-calendar.md)|View SLA record for all the work order tasks that are associated with work orders that have SLAs.|
 |[Show and optimize the agent task route in Dispatcher Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/show-hide-agent-route-dispatcher-wrkspc.md)|View an agent's scheduled task route on the dispatch map and optimizing task routes for efficient schedule and task management|
 |[Use Workforce Optimization for Field Service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/using-wfo-fsm.md)|View the agent's schedule and events from the Workforce Optimization for Field Service application and assign work order tasks accordingly.|
-|[Manage appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appointments.md)|Manage customer appointments from work order task forms|
+|[Managing appointments](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/appointment-booking/managing-appointments.md)|Manage customer appointments from work order task forms|
 |[Manage crew operations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-crew-scheduling.md)|Create and manage crews, assign crews to work order tasks, and adding ad hoc agents to a crew|
 |[Intelligent Task Recommendation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/fsm-task-recommendation.md)|Improve agent utilization through intelligent task recommendations|
+|[Operational notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/operational-notes-overview.md)|Learn how operational notes work, who can see them, and how note indicators appear on the Gantt and calendar.|
 
 **Related topics**  
 

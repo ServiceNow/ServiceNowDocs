@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Scheduling
 classification: field-service-scheduling
 topic_type: task
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 1
-breadcrumb: [Assigning work order tasks to agents using dynamic scheduling, Scheduling and dispatching work order tasks to agents, Using Field Service Management, Field Service Management]
+breadcrumb: [Assigning tasks using Dynamic Scheduling, Scheduling and dispatching, Use, Field Service Management]
 ---
 
 # Select and assign multiple tasks
@@ -43,12 +43,7 @@ The system considers the time mentioned in the following fields before assigning
 
 -   **Scheduled travel start** and **Scheduled start** when `Ignore calculation of travel time for agents to task location based on schedule` is enabled.
 -   **Estimated onsite arrival buffer duration** when `Enable/Disable Onsite Arrival Check-in for Agents` property is enabled. For more information, see [Global domain configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/t_ConfigureFieldService.md).
--   Agent's start and end locations from the **Agent Schedule Attribute Plans** table for the given day if the Territory Planning plugin is activated. For more information, see [Change start and end locations for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md).
+-   Agent's start and end locations are considered from the **Resource Schedule Attributes** table for the given day. For more information, see [Change schedule attributes for agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/change-agent-start-end-location.md).
 
 The work order tasks are automatically assigned to an agent. If the agent does not accept the tasks in a specific time period, the work order tasks get auto rejected. The dispatcher can reassign the tasks to other available agents.
-
--   **[Confirm Assignment pop-up window](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/dynamic-sched-confirm-assignment.md)**  
-When using the dynamic scheduling feature, the Confirm Assignment pop-up window displays the task assignment recommendations.
-
-**Parent Topic:**[Assigning work order tasks to agents using dynamic scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-scheduling/using-dynamic-scheduling.md)
 

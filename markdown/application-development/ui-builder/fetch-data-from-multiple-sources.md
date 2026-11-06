@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Multi-table data configuration, Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Multi-table data configuration, Dynamically expose data in UI Builder pages \(advanced feature\), Advanced UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Fetch data from multiple sources
@@ -297,8 +297,6 @@ Place the card base container component in a repeater and use multi-table data c
 15. Select **Preview**.
 
     The page heading is at the top. Each card contains a heading with the incident or problem number. The cards also show the description \(if one is available\) of the incident or problem and the state. Data is being pulled successfully from two sources: the incident table and the problem table.
-
-    \[Omitted image "multi-table-data-source22.png"\] Alt text: Preview overlay showing heading and card base container components configured with multi-table data sources.
 
 16. Select the **X** to close the preview overlay.
 

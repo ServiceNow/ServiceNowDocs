@@ -1,5 +1,5 @@
 ---
-title: Push notifications on Mobile Agent
+title: Push notifications on ServiceNow Agent
 description: Assign tasks and send reminders to Field Service agents using push notifications.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/field-service-management/work-order-management/actionable-push-notifications.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
-# Push notifications on Mobile Agent
+# Push notifications on ServiceNow Agent
 
 Assign tasks and send reminders to Field Service agents using push notifications.
 
@@ -21,20 +21,14 @@ Push notifications provide several advantages:
 -   Agents and technicians can receive actionable push notifications about tasks on their mobile devices.
 -   Dispatchers and managers can use push notifications to assign tasks to groups or to individual agents and to send reminders.
 -   Agents and technicians can perform push notification actions from their mobile devices without opening the application, such as accepting or rejecting tasks, part requests, and replying to customer comments on tasks.
-
--   **[Accept or reject requests from push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/accept-reject-wot-push-notification.md)**  
-As a Field Service agent, you can accept or reject work order tasks using push notification actions without having to open the Now Mobile Agent mobile app.
--   **[View and reply to task comments from push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/reply-to-push-notification.md)**  
-As a Field Service agent, you can view and reply to the comments given by customers in work order tasks using push notification actions without opening the ServiceNow Agent mobile app.
-
-**Parent Topic:**[Complete work orders on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/Use-mobile-app-fsm.md)
+-   By default, technicians receive the following break related notifications: five minutes before a break starts, when a break starts, and when a break ends.
 
 **Related topics**  
 
 
-[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Mobile push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/sg-mobile-push-notifications.md)
 
-[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Configure actionable push notifications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/mobile/actionable-push-notification.md)
 
-[Mobile push notification components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)
+[Configure the Now Mobile Agent application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/mobile-experience-for-field-service-management-glide-family/configure-field-service-mobile.md)
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Configuration Governance
 classification: cloud-configuration-governance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Optimization, IT Operations Management]
+breadcrumb: [Launch a stack, Cloud User Portal, Cloud Provisioning and Governance, ITOM Cloud Accelerate, IT Operations Management]
 ---
 
 # Viewing resource quota limits
@@ -26,13 +26,13 @@ To see the quota you have consumed for provisioning resources compared to the ma
 -   Storage Volume Size
 -   Network Count
 
-**Note:** The Stack Count is a default base system quota limit available beginning with the Yokohama release. It is displayed on the Overview page if your Cloud Provisioning and Governance administrator has set a Stack Count quota for you or your user group.
+**Note:** The Stack Count is a default base system quota limit available beginning with the Brazil release. It is displayed on the Overview page if your Cloud Provisioning and Governance administrator has set a Stack Count quota for you or your user group.
 
 The Quota section on the Overview page displays the quota limits in a graph.
 
 -   Green indicates that sufficient resources are available.
 -   Red indicates that insufficient resources are available.
--   If quota limits have been exceeded, the system might either display an error message or trigger a policy-based approval workflow when you attempt to provision a stack. For more information, see [Provisioning stacks based on quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.md).
+-   If quota limits have been exceeded, the system might either display an error message or trigger a policy-based approval when you attempt to provision a stack. For more information, see [Provisioning stacks based on quota limits](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-configuration-governance/quota-template-based-stacks.md).
 
 The quota limit that is displayed on the Quota section is an aggregate from all of the user groups to which you belong. To view quota limits separately for you and each of your user groups, click **View All**. The Quota Details pop-up window is displayed.
 

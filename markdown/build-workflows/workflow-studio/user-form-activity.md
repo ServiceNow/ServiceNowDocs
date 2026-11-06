@@ -1,5 +1,5 @@
 ---
-title: User Form activity
+title: Record Form activity
 description: Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/user-form-activity.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Playbooks reference, Workflow Studio reference, Workflow Studio, Build workflows]
+last_updated: "2026-09-10"
+reading_time_minutes: 6
+breadcrumb: [Playbooks reference, Playbooks, Workflow Studio, Build workflows]
 ---
 
-# User Form activity
+# Record Form activity
 
 Use this activity to surface a record to the end user. This activity requires you to select a table and record, and the desired form view that should be surfaced to the end user in your playbook. The end user can then interact with this record accordingly. Display a form during runtime to collect input values for your playbook.
 
@@ -146,7 +146,7 @@ String
 
 </td><td>
 
-Comma-separated list of fields names to display on the card for the form.
+Comma-separated list of fields names to display on the card for the form.**Note:** Make sure to include the form fields in the default view or the view of your choice, so that the fields are displayed in the playbook.
 
 </td></tr><tr><td>
 
@@ -187,7 +187,7 @@ Reference.Group \[sys\_user\_group\]
 
 </td><td>
 
-Group responsible for completing the task associated with the activity.**Note:** **Show additional options** to see this field.
+Group responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -199,7 +199,7 @@ Reference.User \[sys\_user\]
 
 </td><td>
 
-User responsible for completing the task associated with the activity.**Note:** **Show additional options** to see this field.
+User responsible for completing the task associated with the activity.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -211,7 +211,7 @@ Choice
 
 </td><td>
 
-The order in which the activity card appears during a playbook run.**Note:** **Show additional options** to see this field.
+The order in which the activity card appears during a playbook run.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -223,7 +223,7 @@ True/False
 
 </td><td>
 
-Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** **Show additional options** to see this field.
+Option to wait for a duration of time before running an activity or stage. When enabled, this input displays the [Start with delay input properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/start-with-delay-properties.md).**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -235,7 +235,7 @@ Condition Builder
 
 </td><td>
 
-Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** **Show additional options** to see this field.
+Conditions that must be met to run an activity or stage. You can use data from prior activities to build conditions.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -254,9 +254,9 @@ What an activity or stage does during restart:-   **Skip on restart**: The stage
 -   **Run always**: The stage or activity always runs, whether during an initial or restarted run.
 -   **Skip on first run**: The stage or activity runs only on restart. It never runs during an initial run.
 
-To learn more about enabling and configuring restart for playbooks, stages, and activities, see [Enable and Configure Restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md).
+To learn more about enabling and configuring restart for playbooks, stages, and activities, see [Configure restart for Playbooks](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/enable-define-restart.md).
 
-**Note:** **Show additional options** to see this field.
+**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -268,7 +268,7 @@ Table Name
 
 </td><td>
 
-Table containing the Experience Status Record. By default, set to the table containing the flow data record created by this activity's underlying flow, subflow, or action.**Note:** **Show additional options** to see this field.
+Table containing the Experience Status Record. By default, set to the table containing the flow data record created by this activity's underlying flow, subflow, or action.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -280,7 +280,7 @@ Reference
 
 </td><td>
 
-The flow data record with the status that you want to map with this activity's state. Changes made to the state in the activity card are mapped to the flow data record, and from the flow data record to the activity card. By default, this is the data record created by this activity's underlying flow, subflow, or action.**Note:** **Show additional options** to see this field.
+The flow data record with the status that you want to map with this activity's state. Changes made to the state in the activity card are mapped to the flow data record, and from the flow data record to the activity card. By default, this is the data record created by this activity's underlying flow, subflow, or action.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -294,7 +294,7 @@ Reference.Icon \[st\_sys\_design\_system\_icon\]
 
 Displays an icon on the activity card.Start entering the icon name and select the icon you want to appear.
 
-**Note:** **Show additional options** to see this field.
+**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr id="activity-input-title"><td>
 
@@ -306,7 +306,7 @@ String
 
 </td><td>
 
-Title displayed to end users in the activity card. You can enter text or use the pill picker.**Note:** **Show additional options** to see this field.
+Title displayed to end users in the activity card. You can enter text or use the pill picker.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -318,7 +318,7 @@ Reference
 
 </td><td>
 
-Details to display to end users in the activity card. This is not a string field, use the pill picker to choose a description to show in the activity card.**Note:** **Show additional options** to see this field.
+Details to display to end users in the activity card. This is not a string field, use the pill picker to choose a description to show in the activity card.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -330,7 +330,7 @@ String
 
 </td><td>
 
-Title displayed to end users for a pending activity. You can enter text or use the pill picker.**Note:** **Show additional options** to see this field.
+Title displayed to end users for a pending activity. You can enter text or use the pill picker.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -342,7 +342,7 @@ String
 
 </td><td>
 
-Details to display to end users in a pending activity.**Note:** **Show additional options** to see this field.
+Details to display to end users in a pending activity.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -354,7 +354,7 @@ True/False
 
 </td><td>
 
-If enabled, prevents end users from renaming or deleting the existing attachments.**Note:** **Show additional options** to see this field.
+If enabled, prevents end users from renaming or deleting the existing attachments.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -366,7 +366,7 @@ String
 
 </td><td>
 
-Footer text to display to end users. **Note:** **Show additional options** to see this field.
+Footer text to display to end users. **Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -378,7 +378,7 @@ True/False
 
 </td><td>
 
-Option to include attachments in the user form.**Note:** **Show additional options** to see this field.
+Option to include attachments in the user form.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -390,7 +390,7 @@ True/False
 
 </td><td>
 
-Option to show SLA countdown details for the task.**Note:** **Show additional options** to see this field.
+Option to show SLA countdown details for the task.**Note:** Select **Show additional options** to see this field.
 
 </td></tr><tr><td>
 
@@ -402,7 +402,7 @@ True/False
 
 </td><td>
 
-Option to show record checklist items.**Note:** **Show additional options** to see this field.
+Option to show record checklist items.**Note:** Select **Show additional options** to see this field.
 
 </td></tr></tbody>
 </table>## Outputs
@@ -413,6 +413,4 @@ These outputs can provide data to other activities in your playbook. You can acc
 |------|----|-----------|
 |Table|Table Name|Name of the table associated with the activity.|
 |Record|Reference.Task\[task\]|Reference to the record associated with the activity.|
-
-**Parent Topic:**[Playbooks reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/process-automation-designer-reference.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Edit a contract template by manually adding content controls
+title: Edit contract templates by manually adding content controls
 description: Edit a contract template to reflect any modifications that must be included in the template to generate a standard contract when an employee submits a contract request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/contract-management-pro/cncore-edit-ct.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage clauses, tables, and contract templates, Managing Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Manage clauses, tables, and contract templates, Manage, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
-# Edit a contract template by manually adding content controls
+# Edit contract templates by manually adding content controls
 
 Edit a contract template to reflect any modifications that must be included in the template to generate a standard contract when an employee submits a contract request.
 

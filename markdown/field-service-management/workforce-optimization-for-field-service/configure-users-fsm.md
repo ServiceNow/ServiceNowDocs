@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up workforce, Configure, Field Service Management]
 ---
 
 # Configuring users
@@ -30,8 +30,19 @@ The steps for configuring users are:
 
 3.  [Create a user](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_CreateAUser.md)
 
-    Create users using the ServiceNow AI Platform user administration feature or during guided setup.
+    Create a user for Field Service organization for various tasks and responsibilities. A Field Service Management user can be an admin, a manager, an agent, etc. Each user must be added to appropriate user groups with the required roles and permissions.
+
+4.  [Configure an agent's profile](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/configure-an-agent-s-profile.md)
+
+    Configure shifts, skills, schedules, and schedule attributes for agents in your organization.
 
 
-For information on user roles, see [Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md). For information on user roles when WFO is installed, see [Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-wfo-fsm.md).
+**Related topics**  
+
+
+[Roles installed with Field Service Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/r_UserRoleInstallWFieldSrvMgmnt.md)
+
+[Setting up Field Service user groups](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/workforce-optimization-for-field-service/setting-up-field-service-user-groups.md)
+
+[Workforce Optimization for Field Service components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/components-wfo-fsm.md)
 

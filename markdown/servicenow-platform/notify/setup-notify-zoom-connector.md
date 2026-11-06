@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Notify Zoom connector in Notify, Configure, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Configure Notify Zoom connector in Notify, Configuring Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Set up Notify Zoom connector in Zoom
@@ -18,7 +18,7 @@ Use the Notify Zoom connector to expand the Notify communication channel by mana
 
 ## Before you begin
 
-Role required: admin, Zoom admin
+Role required: notify\_setup\_admin, Zoom admin
 
 1.  Ensure that you have Zoom spoke installed on your instance.
 2.  Make sure you have the required credentials and connections to Zoom on your instance.

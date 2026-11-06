@@ -7,9 +7,9 @@ release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: reference
-last_updated: "2025-07-03"
+last_updated: "2026-09-10"
 reading_time_minutes: 13
-breadcrumb: [Workflow Studio steps, Flows, subflows, and actions reference, Workflow Studio reference, Workflow Studio, Build workflows]
+breadcrumb: [Steps, Flows, subflows, and actions reference, Flows, subflows, and actions, Workflow Studio, Build workflows]
 ---
 
 # REST step
@@ -377,7 +377,7 @@ The general strategy to get extracted data from the response is to do the follow
     -   Map the parsed data to the output variables.
 4.  Create action outputs for the output variables to make the data available to a flow.
 
-For a detailed example, see the section on Parsing a REST Response in the [REST in IntegrationHub developer training \(Yokohama\)](https://developer.servicenow.com/dev.do#!/learn/courses/yokohama/app_store_learnv2_rest_yokohama_rest_integrations/app_store_learnv2_rest_yokohama_rest_in_integration_hub/app_store_learnv2_rest_yokohama_rest_in_integration_hub_objectives).
+For a detailed example, see the section on Parsing a REST Response in the [REST in IntegrationHub developer training \(Zurich\)](https://developer.servicenow.com/dev.do#!/learn/courses/australia/app_store_learnv2_rest_australia_rest_integrations/app_store_learnv2_rest_australia_rest_in_integration_hub/app_store_learnv2_rest_australia_rest_in_integration_hub_objectives).
 
 **Parent Topic:**[Workflow Studio steps](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/steps.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/getting-apps-on-prem.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 keywords: [servicenow store, store, app store, application store, app store user documentation, servicenow app store, spoke store, integration store]
 breadcrumb: [ServiceNow Store, Administering applications, Get started, Administer the ServiceNow AI Platform]
@@ -38,6 +38,8 @@ Use the following steps to procure apps and products without connecting your ins
 
     After uploading the encrypted app file, use the Application Manager to install the application to your on-premise instance.
 
+
+For information about updating applications in unconnected on-premise instances, see the article [Upgrade guidance for self-hosted customers \[KB0598275\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0598275) on the Now Support Knowledge Base.
 
 ## Procuring apps and products by connecting to the ServiceNow Store
 

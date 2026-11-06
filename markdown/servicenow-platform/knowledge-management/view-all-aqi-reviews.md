@@ -7,7 +7,7 @@ release: yokohama
 product: Knowledge Management
 classification: knowledge-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use Article Quality Index, Using Knowledge Management, Knowledge Management, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -28,4 +28,6 @@ Role required: knowledge\_admin or admin
 
     -   To view all completed AQI checklists, select **All Completed AQI Checklists**.
     -   To view all pending AQI checklists, select **All Pending AQI Checklists** .
+
+**Parent Topic:**[Use Article Quality Index](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/knowledge-management/use-article-quality-index.md)
 

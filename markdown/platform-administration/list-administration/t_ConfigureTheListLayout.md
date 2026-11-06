@@ -7,9 +7,9 @@ release: yokohama
 product: List Administration
 classification: list-administration
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring lists, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
+breadcrumb: [Configure, List administration, Forms, fields, and lists, Configure core features, Administer the ServiceNow AI Platform]
 ---
 
 # Configure the list layout
@@ -28,7 +28,7 @@ Role required: personalize\_list
 
 1.  Navigate to the list you want to configure.
 
-2.  Open the **List controls** menu and select **View** &gt; **\(view name\)**to select the view you want to configure.\[Omitted image "list-controls-view.jpg"\] Alt text: The List controls menu expanded to show the Views menu
+2.  Open the **List controls** menu \(\[Omitted image "list-control-icon.png"\] Alt text:\) and select **View** &gt; **\(view name\)**to select the view you want to configure.
 
 3.  Right-click any column heading and select **Configure** &gt; **List Layout**.
 

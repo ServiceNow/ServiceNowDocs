@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Investigations
 classification: legal-investigations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Legal Investigations, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Exploring Legal Investigations
@@ -26,7 +26,15 @@ For interdepartmental transfer of complaints between Legal and HR departments, s
 
 ## Legal Investigations - workflow
 
-The following illustration shows the workflow for submitting and handling complaints.
+The Legal Investigations workflow for submitting and handling complaints might progress as follows.
 
-\[Omitted image "legal-investigations-workflow.png"\] Alt text: Legal Investigations workflow describing the process of receiving a complaint and resolving it.
+-   Employee submits a complaint with details like complaint type, involved party, description, and date of the incident.
+-   Legal request fulfiller assesses the complaint and, if required, promotes it to a legal matter for detailed investigation.
+-   Matter fulfiller conducts the legal investigations that might include:
+    -   Adding more involved parties as a witness, the subject or allegation, etc.
+    -   Associating more allegations against any of the involved parties.
+    -   Conducting interviews with the involved parties.
+    -   Gathering evidences, documenting and storing them in the legal matter then in the legal matter.
+-   Matter fulfiller prepares final report and recommended actions.
+-   Matter fulfiller closes the legal matter and legal request as required.
 

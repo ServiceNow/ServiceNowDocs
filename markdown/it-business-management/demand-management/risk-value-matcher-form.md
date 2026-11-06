@@ -7,7 +7,7 @@ release: yokohama
 product: Demand Management
 classification: demand-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Demand Management forms, Reference, Demand Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -68,7 +68,7 @@ Probability
 
 </td><td>
 
-Risk probability value to associate with the impact value of the risk. The options are: Absolute, High, Moderate, and Low.
+Risk probability value is associated with the impact value of the risk. The options are: Absolute, High, Moderate, and Low.
 
 </td></tr><tr><td>
 

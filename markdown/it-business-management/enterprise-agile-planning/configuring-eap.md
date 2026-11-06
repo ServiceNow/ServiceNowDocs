@@ -7,7 +7,7 @@ release: yokohama
 product: Enterprise Agile Planning
 classification: enterprise-agile-planning
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio Management]
 ---
@@ -16,27 +16,38 @@ breadcrumb: [Enterprise Agile Planning, Strategic Planning, Strategic Portfolio 
 
 Activate a configuration, add teams to your Agile structure, and define your planning calendars. Your team can then get started with Backlog management and PI planning in EAP.
 
-## Configuration overview
+## Agile structure configuration
 
-The following tasks require the EAP admin \(sn\_apw\_advanced.eap\_admin\) role.
+1.  [Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md).
+2.  [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
+3.  [Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
+4.  [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/activate-eap-configuration.md).
+5.  [Update epic methodology for an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/update-epic-methodology-for-an-eap-configuration.md)
 
-1.  [Install Strategic Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/scenario-planning-in-spw/install-alignment-planner-workspace.md).
+## Planning calendar configuration
 
-    Enterprise Agile Planning is available within the Strategic Planning workspace.
+1.  [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
+2.  [Override planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/override-planning-calendar-in-eap.md).
+3.  [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).
 
-2.  Assign the EAP roles to users. See [Components installed with Enterprise Agile Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/components-installed-with-enterprise-agile-planning.md).
-3.  Learn about EAP configurations, team level hierarchy, and work item type rollup.
+## Backlog and Planning board configuration
 
-    See [Agile configurations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/agile-configurations-in-eap.md).
+-   [Configure display of other work item types in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configure-other-work-item-types-for-eap-teams-in-backlog-and-planning-board.md).
+-   [Configure the display limit of iterations in EAP Backlog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configure-the-display-limit-of-iterations-in-eap-backlog.md).
 
-4.  \(Optional\) [Create or update a configuration in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-eap-configuration.md).
-5.  [Activate an EAP configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/activate-eap-configuration.md)
-6.  Define the agile structure by adding teams to your EAP configuration. See [Define agile structure in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/define-agile-structure-in-eap.md).
-7.  [Configure dashboards for teams in your Agile structure](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md).
+## Hierarchy tab configuration
 
-The following tasks require the system admin role.
+-   [Enable Hierarchy tab in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/hierarchy-enable-eap.md)
+-   [Modify display limit in Hierarchy tab of EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/hierarchy-display-limit-eap.md)
 
-1.  \(Optional\) Create additional planning calendar types. See [Create a planning calendar in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-planning-calendar-type-in-eap.md).
-2.  [Create calendar entries for iterations in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-calendar-entries-in-eap.md).
-3.  \(Optional\) If you want a different type of team or work item than those available by default, you can create custom types. See [Create a custom team type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-custom-team-type-in-eap.md) and [Create a custom work item type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-custom-work-item-type-in-eap.md).
+## Custom dashboard configuration
+
+[Configuring custom dashboards in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/configuring-eap-dashboard.md)
+
+## Other configuration tasks
+
+-   [Create a custom team type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-custom-team-type-in-eap.md).
+-   [Create a custom work item type in EAP](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-custom-work-item-type-in-eap.md)
+-   [Create or update form views for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-or-update-form-views-for-eap-work-items.md)
+-   [Create or update list view for EAP work items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/enterprise-agile-planning/create-or-update-list-views-for-eap-work-items.md)
 

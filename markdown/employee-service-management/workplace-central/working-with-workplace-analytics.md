@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Central
 classification: workplace-central
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Use, Workplace Central, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -35,6 +35,8 @@ Manage Workplace Dashboards in Workplace Central to get insights and metrics of 
 
 
 [Creating custom lists on Workplace Central]()
+
+[Working with Space Planning]()
 
 [Working with Space Optimization]()
 

@@ -7,9 +7,9 @@ release: yokohama
 product: IT Remediation Workspace
 classification: it-remediation-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Rescan vulnerable items and remediation tasks in the IT Remediation Workspace, Using the IT Remediation Workspace, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
+breadcrumb: [Rescan vulnerable items and remediation tasks in the IT Remediation Workspace, Use, IT Remediation Workspace, Vulnerability Response Workspaces, Unified Security Exposure Management, Security Operations]
 ---
 
 # Rescan Qualys vulnerable items from the Vulnerability Response workspaces
@@ -55,15 +55,15 @@ Roles required:
 
     An option profile is required when you initiate a Qualys scan from your ServiceNow AI Platform®. Option profiles contain Qualys scan settings.
 
-<table id="choicetable_itr_bmq_yqb"><thead><tr><th align="left" id="d180485e256">
+<table id="choicetable_itr_bmq_yqb"><thead><tr><th align="left" id="d185927e256">
 
 Option
 
-</th><th align="left" id="d180485e259">
+</th><th align="left" id="d185927e259">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d180485e265">
+</th></tr></thead><tbody><tr><td id="d185927e265">
 
 **Use default option profile**
 
@@ -71,7 +71,7 @@ Description
 
 This is the option profile that is set as the default for the integration instance. You select this profile when you set up your Qualys scanner. See [Set up scanner appliances](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/advanced-modifications.md) for more information.
 
-</td></tr><tr><td id="d180485e288">
+</td></tr><tr><td id="d185927e288">
 
 **Specify option profile**
 

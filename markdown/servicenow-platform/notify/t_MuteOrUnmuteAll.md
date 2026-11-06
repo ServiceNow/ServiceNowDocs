@@ -7,9 +7,9 @@ release: yokohama
 product: Notify
 classification: notify
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Notify for making conference calls, Use, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Using Notify for making conference calls, Using Notify, Notify, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Mute or unmute all participants
@@ -32,7 +32,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 4.  In the **Conferences** tab, select a conference
 
-<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d400782e92">
+<table id="choicetable_hbr_r4f_xfb"><tbody><tr><td id="d408429e92">
 
 **__Mute All__**
 
@@ -40,7 +40,7 @@ Before starting this procedure, ensure there is an active conference call with o
 
 Click this button to mute all the participants in the conference
 
-</td></tr><tr><td id="d400782e104">
+</td></tr><tr><td id="d408429e104">
 
 **__Unmute All__**
 

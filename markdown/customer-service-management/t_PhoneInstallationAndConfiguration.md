@@ -1,18 +1,18 @@
 ---
 title: Configure the CTI demo
-description: Before the phone communication channel between customer service agents and external customers can be used, the Notify, CTI Softphone, Customer Service Management, and Openframe plugins must be activated and configured, and a Twilio Voice account must be set up.
+description: Activate and configure the Notify, CTI Softphone, Customer Service Management, and OpenFrame plugins to use the phone communication channel. These plugins must be activated and configured before the phone communication channel between customer service agents and external customers can be used. You must also set up a Twilio Voice account.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/t\_PhoneInstallationAndConfiguration.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [CTI demo implementation, Integrating with Computer Telephony Integration \(CTI\), Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [CTI demo implementation, Integrating with Computer Telephony Integration \(CTI\), Integrate, Customer Service Management]
 ---
 
 # Configure the CTI demo
 
-Before the phone communication channel between customer service agents and external customers can be used, the Notify, CTI Softphone, Customer Service Management, and Openframe plugins must be activated and configured, and a Twilio Voice account must be set up.
+Activate and configure the Notify, CTI Softphone, Customer Service Management, and OpenFrame plugins to use the phone communication channel. These plugins must be activated and configured before the phone communication channel between customer service agents and external customers can be used. You must also set up a Twilio Voice account.
 
 ## Before you begin
 
@@ -28,11 +28,11 @@ Role required: admin
 
 3.  [Configure Notify with Twilio](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ConfigureNotifyWithTwilio.md).
 
-4.  [Activate the CTI Softphone plugin \(com.snc.cti\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/r_CustServMgmtAddtlPluginsTable.md).
+4.  Activate the CTI Softphone plugin \(com.snc.cti\).
 
     If you want to load the demo data for CTI Softphone, you must also activate the Customer Service CTI Demo Data plugin \(com.snc.customerservice\_cti\_demo\). This demo data includes sample workflows.
 
-5.  [Activate the Customer Service plugin \(com.sn\_customerservice\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ActivateCustomerService.md).
+5.  [Activate the Case Management Core plugin \(com.sn\_customerservice\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/t_ActivateCustomerService.md).
 
 6.  Activate the Openframe plugin \(com.sn\_openframe\).
 

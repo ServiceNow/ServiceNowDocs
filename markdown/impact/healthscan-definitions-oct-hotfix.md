@@ -1,16 +1,16 @@
 ---
-title: HealthScan definitions updates: October hotfix
+title: HealthScan definitions updates: October 2024 hotfix
 description: Some HealthScan definitions are deprecated or updated between releases.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/impact/healthscan-definitions-oct-hotfix.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [HealthScan definitions, HealthScan, Platform Health, Impact Delivery Instance \(formerly Impact Digital Experience\), Impact]
+breadcrumb: [HealthScan definitions, HealthScan tech KPIs, HealthScan, Impact Delivery Instance reference, Impact reference, Impact]
 ---
 
-# HealthScan definitions updates: October hotfix
+# HealthScan definitions updates: October 2024 hotfix
 
 Some HealthScan definitions are deprecated or updated between releases.
 
@@ -84,4 +84,5 @@ User Experience
 -   Limited to a max of 1000 findings
 
 </td></tr></tbody>
-</table>
+</table>**Parent Topic:**[HealthScan definitions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/impact/healthscan-definitions.md)
+

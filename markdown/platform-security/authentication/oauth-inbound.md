@@ -1,40 +1,124 @@
 ---
-title: OAuth Inbound
-description: Inbound authentication allows trusted external applications to securely access ServiceNow APIs, ensuring controlled and authorized connections.
+title: OAuth inbound
+description: OAuth Inbound authentication allows trusted external applications to securely access ServiceNow APIs, helping to keep connections controlled and authorized.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/authentication/oauth-inbound.html
 release: yokohama
 product: Authentication
 classification: authentication
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [OAuth authentication, Authentication, Access Management]
 ---
 
-# OAuth Inbound
+# OAuth inbound
 
-Inbound authentication allows trusted external applications to securely access ServiceNow APIs, ensuring controlled and authorized connections.
+OAuth Inbound authentication allows trusted external applications to securely access ServiceNow APIs, helping to keep connections controlled and authorized.
 
-You must have the `security_admin` role to manage the OAuth integration.
+You must have one of the following roles to configure or manage OAuth integrations in the system:
 
-You can configure **OAuth external client scenario** \(Inbound\) integration, when your want your instance to provide an endpoint for third-party clients to pull data from the instance.
+-   `oauth_admin`
+-   `mi_admin`
+-   `admin`
 
-**Note:** You must user authenticate for the first time to fetch the token post which, you don't need to authenticate using a user account before the token expiry.
+Inbound authentication enables external applications such as third-party systems or other ServiceNow instances to connect securely to ServiceNow APIs. Inbound authentication confirms that only trusted clients can access your ServiceNow instance in a controlled and secure manner. ServiceNow supports several OAuth 2.0 grant types, each suited to specific integration scenarios. Use the following information to choose the grant type that best fits your use case:
 
-You can perform the OAuth inbound configuration, depending on the following type of grant type:
+## Authorization code grant
 
--   **Authorization code grant flow**: For a user initiated grant flow, where the user without requiring to enter username or password, but through the access token can configure an authorized URL for authentication. For more information, see [OAuth authorization code grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_OAuthAuthorizationCodeFlow.md).
--   **Password grant flow**: For a user initiated grant flow, where a user interaction is required for authentication. For more information, see [Password grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/t_AuthorizeAccessEndpiont.md) flow configuration.
+<table id="table_bs4_2jj_wfc"><thead><tr><th>
 
-    **Note:** For authorization code flow, user needs to complete the Authentication by local login, SSO or MFA and then provide consent.
+Ideal usage scenario
 
--   **JWT bearer grant flow**: For a system to system integration, where a user intervention is not required. For more information, see [JWT bearer grant flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/create-jwt-endpoint.md) configuration.
--   **ID token flow**: For using a ID token issued by 3rd party OIDC providers such as Okta, Azure. For more information, see [ID token flow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/add-OIDC-entity.md) for authentication.
--   **OAuth implicit grants**: For allowing the access token to be given directly to the client application through the user agent, which is typically the web browser or mobile device. For more information, see [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_OAuthImplicitGrants.md).
--   **Client credentials**: For using the OAuth client credentials grant type for Inbound Integrations from a third party OAuth client to the ServiceNow® platform. For more information, see [Client Credentials](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/client-credentials.md).
+</th><th>
 
-## OAuth Scopes
+Functionality
+
+</th></tr></thead><tbody><tr><td>
+
+Applications that must access user data on behalf of user with the user’s consent.Example: Web, mobile, or desktop applications acting on behalf of a user.
+
+</td><td>
+
+The user initiates the login process from the client application, which redirects them to a ServiceNow login page. After the user logs in and grants consent, the client application receives an authorization code. The client application exchanges the authorization code with the ServiceNow instance for an access token. Authorization code grant is a highly secure and widely used workflow for user-facing integrations. It supports both confidential clients \(with a client secret\) and public clients using Proof Key for Code Exchange \(PKCE\).
+
+</td></tr></tbody>
+</table>For more information about Authorization code grant workflow and configuration, see 
+
+## Client credentials grant
+
+|Ideal usage scenario|Functionality|
+|--------------------|-------------|
+|Client applications such as back-end services or automated system integrations that must access ServiceNow APIs without user involvement.|The client application authenticates directly with the ServiceNow instance using its own credentials \(client ID and secret\). Once authenticated, the application receives an access token to access the ServiceNow APIs.|
+
+For more information about Client credentials grant workflow and configuration, see .
+
+## Third party ID token flow
+
+|Ideal usage scenario|Functionality|
+|--------------------|-------------|
+|Federated authentication scenarios where ServiceNow trusts identity tokens issued by external identity providers such as Azure AD or Okta.|The client application obtains an ID or access token from a trusted third-party identity provider, and includes it in the authorization header when making API requests to the ServiceNow instance. ServiceNow validates the token and, if trusted, grants access based on the identity it asserts. This enables single sign-on \(SSO\) and federated authentication across systems.|
+
+For more information about Third party token flow and configuration, see.
+
+## JWT bearer grant
+
+<table id="table_vn1_zjj_wfc"><thead><tr><th>
+
+Ideal usage scenario
+
+</th><th>
+
+Functionality
+
+</th></tr></thead><tbody><tr><td>
+
+Client applications that require secure access to ServiceNow resources, either on behalf of a user or as themselves, without requiring user interaction or storing a shared secret.The client application creates a signed JSON Web Token \(JWT\) that includes identity-related claims, such as the user or system it represents. It then presents it to the ServiceNow instance to request an access token.
+
+</td><td>
+
+-   **When acting on behalf of a user:**
+
+The token represents a previously authenticated user. This enables secure access without prompting the user for credentials or consent again. The signed token asserts the user’s identity, enabling ServiceNow to trust the request without requiring real-time user interaction.
+
+-   **When acting as itself:**
+
+The token identifies and authenticates the client application directly. Instead of using a shared secret, the client signs the token with a private key, making it a more secure alternative to the client credentials grant.
+
+
+</td></tr></tbody>
+</table>For more information about JWT bearer grant workflow and configuration, see .
+
+## Resource owner password credentials grant
+
+|Ideal usage scenario|Functionality|
+|--------------------|-------------|
+|Highly trusted internal client applications in controlled environments where the app collects the user’s credentials directly.|The client application collects the user’s user name and password, and redirects them to the ServiceNow instance to obtain an access token. The workflow bypasses redirection and consent screens, but exposes user credentials to the client application. A general guideline for ServiceNow is to implement the Resource owner password credentials grant only in legacy or controlled environments.|
+
+For more information about Resource owner password credentials grant workflow and configuration, see [Resource owner password credential grant](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/resource-owner-password-grant.md).
+
+## Implicit grants
+
+<table id="table_wmj_2lt_xfc"><thead><tr><th>
+
+Ideal usage scenario
+
+</th><th>
+
+Functionality
+
+</th></tr></thead><tbody><tr><td>
+
+Legacy Single-page applications \(SPAs\) or browser-based apps that can’t securely store a client secret, and require a lightweight, client-side authentication flow.
+
+</td><td>
+
+The user logs in through a browser. The client application receives the access token directly in the URL after login, bypassing the intermediate authorization code step. This flow was originally designed for public clients that run entirely in the browser, where securely storing secrets isn’t possible. While it simplifies implementation, it exposes tokens in the browser, increasing the risk of interception. For stronger security, a general guideline for ServiceNow is to implement an authorization code grant with PKCE.
+
+</td></tr></tbody>
+</table>For more information about Implicit grant workflow and configuration, see [OAuth implicit grants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/c_OAuthImplicitGrants.md).
+
+## OAuth scopes
 
 You can scope the OAuth authentication scope support for REST API. OAuth Scope provides access to only the particular REST APIs. For more information, see [REST API Auth Scope](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/authentication/rest-api-auth-scope.md).
 

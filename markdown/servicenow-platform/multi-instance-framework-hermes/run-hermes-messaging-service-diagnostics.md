@@ -7,8 +7,8 @@ release: yokohama
 product: Multi-Instance Framework - Hermes
 classification: multi-instance-framework-hermes
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 4
 breadcrumb: [Administer, Hermes Messaging Service, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -96,6 +96,8 @@ Role required: hermes\_admin or admin
 
 **Related topics**  
 
+
+[Managing Hermes settings]()
 
 [Monitoring data usage in Hermes]()
 

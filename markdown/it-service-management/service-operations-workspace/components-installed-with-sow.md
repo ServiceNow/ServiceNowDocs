@@ -7,9 +7,9 @@ release: yokohama
 product: Service Operations Workspace
 classification: service-operations-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-21"
 reading_time_minutes: 3
-breadcrumb: [Reference, Service Operations Workspace for ITSM, IT Service Management]
+breadcrumb: [Service Operations Workspace for ITSM reference, Service Operations Workspace for ITSM, IT Service Management]
 ---
 
 # Components installed with Service Operations Workspace ITSM Applications
@@ -170,6 +170,14 @@ On-call support for incidents in Service Operations Workspace.
 
 </td></tr><tr><td>
 
+On-Call Onboarding\[sn\_on\_call\_onboard\]
+
+</td><td>
+
+Guided onboarding utilities to configure on-call schedules for multiple teams or groups in Service Operations Workspace. Installs the On-Call Bulk Upload and On-Call Bulk Upload Task tables to track upload job and status.
+
+</td></tr><tr><td>
+
 Problem Management for Service Operations Workspace \[sn\_sow\_problem\]
 
 </td><td>
@@ -230,9 +238,11 @@ Provides quick access to ITSM related configurations in Service Operations Works
 **Related topics**  
 
 
-[Terminology in Service Operations Workspace for ITSM]()
+[Additional roles for SOW admin]()
 
 [Version compatibility between Service Operations Workspace for ITSM and Service Operations Workspace ITOM]()
 
 [Service Operations Workspace for ITSM data model]()
+
+[Service Operations Workspace for ITSM glossary]()
 

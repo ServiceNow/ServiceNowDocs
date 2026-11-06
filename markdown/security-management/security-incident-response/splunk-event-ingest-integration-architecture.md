@@ -1,5 +1,5 @@
 ---
-title: Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration
+title: Integration architecture and external systems connection
 description: The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/splunk-event-ingest-integration-architecture.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
 breadcrumb: [Splunk Enterprise Event Ingestion integration for Security Operations by ServiceNow, Security Incident Response integrations, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Integration architecture and external systems connection for the Splunk Enterprise Event Ingestion integration
+# Integration architecture and external systems connection
 
 The following topic outlines the integration architecture developed to support the ingestion of triggered alerts from the Splunk Enterprise console. This information clarifies, at a high level, the conceptual operation of the integration. It also explains why there are setup steps that are required prior to installing the application from the ServiceNow Store.
 
@@ -86,7 +86,7 @@ The basic data flow is illustrated in the following figures. In each figure, you
 -   **[Copy Splunk Enterprise Event Ingestion profiles from one instance to another using export/import functionality](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/export-and-import-splunk-event-profile-data.md)**  
 You can export and import Splunk Enterprise Event Ingestion profiles settings from one ServiceNow AI Platform instance to a different ServiceNow AI Platform instance.
 -   **[Copy an event profile for the Splunk Enterprise Event Ingestion integration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-copy-a-profile.md)**  
-Copy an existing profile and its associated settings instead of creating new profiles. If you are creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
+Copy an existing profile and its associated settings instead of creating new profiles. If you're creating multiple profiles, and you want to reuse the settings of an existing profile, you might prefer to copy alarm profiles to save time.
 -   **[Set up ServiceNow Event Ingestion Integration add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/splunk-event-ingest-setup-prereqs.md)**  
 Install and set up the ServiceNow Event Ingestion Integration add-on in your Splunk enterprise console or Splunk Cloud instance.
 -   **[Using ServiceNow Event Ingestion Integration add-on](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/use-v2-addon.md)**  

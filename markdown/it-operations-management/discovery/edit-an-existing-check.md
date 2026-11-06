@@ -7,9 +7,10 @@ release: yokohama
 product: Discovery
 classification: discovery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Discovery Admin Workspace Tuning, Discovery Admin Workspace, Exploring Discovery, Discovery, ITOM Visibility, IT Operations Management]
+keywords: [Discovery, Admin, Workspace]
+breadcrumb: [Discovery monitoring and issue resolution, Using Discovery, Discovery, ITOM Visibility, IT Operations Management]
 ---
 
 # Edit an existing check
@@ -24,9 +25,9 @@ Role required: admin
 
 1.  Navigate to **Workspaces** &gt; **Discovery Admin Workspace** &gt; **Tuning**.
 
-2.  Select **Check**.
+2.  Select the check name.
 
-3.  Select the Check definition page link.
+3.  Select the **Check definition page** link.
 
 4.  To edit the check, select **Switch scope**.
 
@@ -37,6 +38,4 @@ Role required: admin
     -   Discovery suite runs once a week on Sunday at 8 AM.
     -   MID suite runs once a week on Sunday at 10 AM.
     -   Self monitoring suite runs every 15 mins.
-
-**Parent Topic:**[Discovery Admin Workspace Tuning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace-tuning.md)
 

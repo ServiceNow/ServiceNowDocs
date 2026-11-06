@@ -7,9 +7,9 @@ release: yokohama
 product: Telecommunications Network Inventory
 classification: telecommunications-network-inventory
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Using the geo map, Using Network visualization view, Using Telecommunications Network Inventory, Telecommunications Network Inventory]
+breadcrumb: [Geo map, Network visualization view, Use, Telecommunications Network Inventory]
 ---
 
 # View details of the geo map
@@ -42,15 +42,15 @@ Use the geo map to do the following:
 
 4.  View the details of the site by performing the following actions on the map pane.
 
-<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d27338e172">
+<table id="choicetable_qtk_fr3_yxb"><thead><tr><th align="left" id="d28673e172">
 
 Action
 
-</th><th align="left" id="d27338e175">
+</th><th align="left" id="d28673e175">
 
 Details
 
-</th></tr></thead><tbody><tr><td id="d27338e181">
+</th></tr></thead><tbody><tr><td id="d28673e181">
 
 **View the details of a site.**
 
@@ -60,7 +60,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 
  **Note:** If you select the datacenter on the map pane, select **View floor map** to view the floor map. The **View Floor Map** automatically populates the campus only. You must manually select a building and floor to view the corresponding floor map.
 
-</td></tr><tr><td id="d27338e222">
+</td></tr><tr><td id="d28673e222">
 
 **View the details of the sites in the same location.**
 
@@ -70,7 +70,7 @@ Hover over the map icon on the map pane and then select **View Details**. You ca
 2.  Select next or previous buttons to view the details about other site.
 
 
-</td></tr><tr><td id="d27338e243">
+</td></tr><tr><td id="d28673e243">
 
 **View the physical and logical connections and topology details**
 
@@ -87,7 +87,7 @@ These connection elements appear as dashed lines between the sites.
 3.  Select a line to view the details on the details pane. The bar chart graph shows the available connection elements.
 
 
-</td></tr><tr><td id="d27338e283">
+</td></tr><tr><td id="d28673e283">
 
 **View the cable route between sites**
 
@@ -99,7 +99,7 @@ These connection elements appear as dashed lines between the sites.
 
 **Note:** You must only select **Cables** to view the cable route.
 
-</td></tr><tr><td id="d27338e322">
+</td></tr><tr><td id="d28673e322">
 
 **View the capacity information**
 
@@ -118,7 +118,7 @@ Select a site and view the capacity information on the details pane. The bar cha
 -   Card Bandwidth
  Select the a bar on the graph to redirect to the corresponding capacity metrics list.
 
-</td></tr><tr><td id="d27338e369">
+</td></tr><tr><td id="d28673e369">
 
 **View the change requests**
 
@@ -128,10 +128,10 @@ Select a site to view the number of associated change requests on the details pa
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Using the geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
+**Parent Topic:**[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/using-network-site-map.md)
 
 **Related topics**  
 
 
-[Visualization of geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
+[Geo map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/telecom-network-inventory/telecommunications-network-inventory/visualization-map.md)
 

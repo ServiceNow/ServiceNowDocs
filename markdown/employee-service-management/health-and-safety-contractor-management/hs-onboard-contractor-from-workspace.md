@@ -1,20 +1,20 @@
 ---
 title: Add a contractor from the Health and Safety Workspace
-description: Onboard a contractor to a company listed in the Health and Safety Workspace workspace.
+description: Add a contractor worker to a company listed in the Health and Safety Workspace workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/health-and-safety-contractor-management/hs-onboard-contractor-from-workspace.html
 release: yokohama
 product: Health and Safety Contractor Management
 classification: health-and-safety-contractor-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Manage contractors, Health and Safety Contractor Management, Health and Safety, Employee Service Management]
 ---
 
 # Add a contractor from the Health and Safety Workspace
 
-Onboard a contractor to a company listed in the Health and Safety Workspace workspace.
+Add a contractor worker to a company listed in the Health and Safety Workspace workspace.
 
 ## About this task
 
@@ -32,15 +32,15 @@ Role required: sn\_hs\_crm.contractor\_coordinator
 
 2.  Add a contractor.
 
-<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d525829e101">
+<table id="choicetable_v4f_5dw_bdc"><thead><tr><th align="left" id="d569473e103">
 
 Option
 
-</th><th align="left" id="d525829e104">
+</th><th align="left" id="d569473e106">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d525829e110">
+</th></tr></thead><tbody><tr><td id="d569473e112">
 
 **From a contractor company record**
 
@@ -56,7 +56,7 @@ Steps
 5.  Select the check box for one or more contractors to add to the contractor company and select **Add**.
 
 
-</td></tr><tr><td id="d525829e169">
+</td></tr><tr><td id="d569473e171">
 
 **From Health and Safety user profile list**
 

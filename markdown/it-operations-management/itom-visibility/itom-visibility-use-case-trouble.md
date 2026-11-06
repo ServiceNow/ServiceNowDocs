@@ -7,9 +7,9 @@ release: yokohama
 product: ITOM Visibility
 classification: itom-visibility
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [ITOM Visibility and CSDM reference, ITOM Visibility, IT Operations Management]
+breadcrumb: [ITOM Visibility and CSDM reference, ITOM Visibility reference, ITOM Visibility, IT Operations Management]
 ---
 
 # ITOM Visibility considerations for CSDM framework
@@ -25,4 +25,6 @@ Here are alternative methods for defining application services:
 -   Use a tag-based approach \(commonly used for Cloud integrations\).
 
 For more information about creating application services, see [Create an application service](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/create-it-services.md).
+
+**Parent Topic:**[ITOM Visibility and CSDM reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-visibility/itom-visibility-use-case-product-view.md)
 

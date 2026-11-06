@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/clone-exclusions-guidelines.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-09-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Instance Clone, Configure core features, Administer the ServiceNow AI Platform]
 ---
@@ -16,7 +16,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
 -   **Workflow context data**
 
-    Excluded workflow context data includes records stored in the `wf_context` table, and in related tables with names starting with a prefix of `wf_`. If workflow contexts were included, this process helps to prevent the occurrence of workflow timer syncing issues. Issues can occur due to the length of the cloning process.
+    Excluded workflow context data includes records stored in the wf\_context table, and in related tables with names starting with a prefix of wf\_. If workflow contexts were included, this process helps to prevent the occurrence of workflow timer syncing issues. Issues can occur due to the length of the cloning process.
 
 -   **Excluding child tables of the task table**
 
@@ -24,7 +24,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
 -   **Using wildcards**
 
-    You can use wildcards to exclude several tables from cloning with one entry. For example, `sys_script.*` excludes all tables starting with `sys_script`.
+    You can use wildcards to exclude several tables from cloning with one entry. For example, sys\_script.\* excludes all tables starting with sys\_script.
 
     **Note:** The wildcard has to include the dot '.' before the asterisk.
 
@@ -34,6 +34,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
 
     -   sys\_user
     -   sys\_user\_role
+    -   sys\_user\_has\_role
     -   sys\_user\_group
     -   sys\_user\_grmember
     -   sys\_group\_has\_role
@@ -41,7 +42,7 @@ A reference topic that includes general guidelines to exclude a table from cloni
     -   customer\_contact \(if the Customer Service Management plugin is active\)
 -   **Tables that can't be excluded**
 
-    `sys_db_object` and `sys_db_object.*` can’t be added to the exclusions.
+    sys\_db\_object and sys\_db\_object.\* can’t be added to the exclusions.
 
 
 **Parent Topic:**[Instance Clone reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/instance-clone-reference.md)

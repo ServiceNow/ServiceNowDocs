@@ -7,9 +7,9 @@ release: yokohama
 product: Agent Workspace for HR Case Management
 classification: agent-workspace-for-hr-case-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace for HR Case Management \(Configurable\), HR Service Delivery, Employee Service Management]
+breadcrumb: [UI Builder for Agent Workspace for HR Case Management, Setting up Agent Workspace for HR Case Management, Agent Workspace, HR Service Delivery, Employee Service Management]
 ---
 
 # Configure quick links in Agent Workspace for HR Case Management
@@ -46,7 +46,7 @@ Name
 
 </td><td>
 
-Name of the link to content.**Note:** Ensure that you have content created in **Content Publishing** &gt; **Content Library** &gt; **View All**.
+Name of the link to content.**Note:** Verify that you have content created in **Content Publishing** &gt; **Content Library** &gt; **View All**.
 
 </td></tr><tr><td>
 
@@ -168,7 +168,7 @@ Final date the content is valid.
 
     5.  Select **Submit**.
 
-4.  Map the link created above to the Quick link component in UI Builder.
+4.  Map the link created earlier to the Quick link component in UI Builder.
 
     1.  Navigate to **All** &gt; **HR Case Management** &gt; **UI Builder for Agent Workspace for HR Case Management**.
 
@@ -176,9 +176,9 @@ Final date the content is valid.
 
     3.  Select your landing page variant.
 
-    4.  In the left pane, select the data icon \(\[Omitted image "data-icon.png"\] Alt text: Data icon\).\[Omitted image "data-icon-aws.png"\] Alt text: Data tab
+    4.  In the left pane, select the data icon \(\[Omitted image "data-icon.png"\]\).\[Omitted image "data-icon-aws.png"\] Alt text: UI Builder left pane with Data tab icon highlighted
 
-    5.  Select **getQuickLinksContent**.\[Omitted image "get-quick-links.png"\] Alt text: Get quick links panel
+    5.  Select **getQuickLinksContent**.\[Omitted image "get-quick-links.png"\] Alt text: Data panel showing getQuickLinksContent data resource with content\_id field
 
     6.  In the **content\_id** field, enter the name given to the Content group.
 

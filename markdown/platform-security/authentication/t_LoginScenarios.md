@@ -7,9 +7,9 @@ release: yokohama
 product: Authentication
 classification: authentication
 topic_type: task
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Local Authentication, Authentication, Access Management]
+breadcrumb: [Local authentication, Authentication, Access Management]
 ---
 
 # Define login scenarios

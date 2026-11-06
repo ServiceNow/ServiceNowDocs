@@ -1,5 +1,5 @@
 ---
-title: Setup the Journey designer version 2 plan configuration review and approval process
+title: Setup the Journey designer plan configuration review and approval process
 description: ServiceNow administrators configure the Journey designer plan configuration feature and process.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/journey-designer/jny-dsgnr-plan-config-admin.html
@@ -7,18 +7,18 @@ release: yokohama
 product: Journey Designer
 classification: journey-designer
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure Journey designer features, Installation and configuration overview, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
+breadcrumb: [Configure Journey designer features, Configure, Journey designer, Employee Journey Management, HR Service Delivery, Employee Service Management]
 ---
 
-# Setup the Journey designer version 2 plan configuration review and approval process
+# Setup the Journey designer plan configuration review and approval process
 
 ServiceNow administrators configure the Journey designer plan configuration feature and process.
 
 Administrators assign the initial owners and approvers to Journey designer plan configurations.
 
-In Journey designer version 2, administrators can assign plan configuration owners and approvers, delegating plan configuration and maintenance. Delegating plan configuration maintenance enables people with the right expertise to maintain plan configurations.
+In Journey designer, administrators can assign plan configuration owners and approvers, delegating plan configuration and maintenance. Delegating plan configuration maintenance enables people with the right expertise to maintain plan configurations.
 
 Administrators can assign owners and approvers of plan configurations associated with departments to users in that department who are responsible for the content. Plan configuration owners and approvers don’t need any elevated privileges in ServiceNow.
 
@@ -27,8 +27,8 @@ Administrators can assign owners and approvers of plan configurations associated
 -   **[Create Journey designer plan configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-create-mng-decentrlzd-template-configs.md)**  
 Create a Journey designer plan configuration in Journey designer version 2.
 -   **[Assign owners and approvers to a journey configuration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-assign-pconfig-owner-approver.md)**  
-In Journey designer version 2, administrators assign the initial owners and approvers to a plan configuration.
--   **[Change Journey designer version 2 plan configuration owners or approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-change-pconfig-owners-approvers.md)**  
+In Journey designer, administrators assign the initial owners and approvers to a plan configuration.
+-   **[Change Journey designer plan configuration owners or approvers](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-change-pconfig-owners-approvers.md)**  
 Administrators can change a plan configuration owner or approver.
 
 **Parent Topic:**[Configure Journey designer features](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/journey-designer/jny-dsgnr-configuration.md)

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/governance-risk-compliance/import-the-automated-task-in-an-exercise.html
 release: yokohama
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Structured workflows for exercises, Manage, Business Continuity Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ Role required: sn\_bcm.planner, sn\_bcm.program\_manager
 
 3.  Fill in the required fields in the **Details** tab.
 
-    For more information on the fields, see [Create New Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
+    For more information on the fields, see [Create Event Task form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/create-new-event-task-form-uib-ws.md).
 
 4.  Select the plan associated with the event from the Planning list in the Workspace view.
 

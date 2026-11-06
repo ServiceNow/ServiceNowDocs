@@ -7,7 +7,7 @@ release: yokohama
 product: Instance Security Hardening Settings
 classification: instance-security-hardening-settings
 topic_type: reference
-last_updated: "2026-01-22"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [File and resources, Hardening settings, Platform Security]
 ---
@@ -94,7 +94,7 @@ Security risk
 
 -   Severity score: 5.3
 -   CVSS score: Medium
--   Security risk details: Setting the property value to greater than 30 can lead to degradation issues.
+-   Security risk details: A large number of attachments in inbound emails can cause instance performance degradation.
 
 </td></tr><tr><td>
 
@@ -110,7 +110,8 @@ References
 
 </td><td>
 
-[Email properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_EmailProperties.md)
+-   
+-   
 
 </td></tr></tbody>
 </table>**Parent Topic:**[File and resources](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/instance-security-hardening-settings/sc-file-resources.md)

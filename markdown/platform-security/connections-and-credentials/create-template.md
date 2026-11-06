@@ -7,9 +7,9 @@ release: yokohama
 product: Connections and Credentials
 classification: connections-and-credentials
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Connection &amp; Credential configuration templates, Exploring credentials, connections, and aliases, Connections and Credentials, Access Management]
+breadcrumb: [Connection &amp; Credential configuration templates, Explore credentials, connections, and aliases, Connections and Credentials, Access Management]
 ---
 
 # Create a configuration template
@@ -28,15 +28,15 @@ Role required: admin
 
 3.  Select the type of configuration template that you want to create.
 
-<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d68130e77">
+<table id="choicetable_brl_cpl_1jb"><thead><tr><th align="left" id="d76963e77">
 
 Configuration type
 
-</th><th align="left" id="d68130e80">
+</th><th align="left" id="d76963e80">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d68130e86">
+</th></tr></thead><tbody><tr><td id="d76963e86">
 
 **HTTP Connection with OAuth Authorization Code grant type**
 
@@ -44,7 +44,7 @@ Description
 
 Creates a template to register the third-party system as an OAuth provider using an authorization code.
 
-</td></tr><tr><td id="d68130e95">
+</td></tr><tr><td id="d76963e95">
 
 **HTTP Connection with OAuth JWT Bearer grant type**
 
@@ -60,7 +60,7 @@ Creates a template to register the third-party system as an OAuth provider using
 
 Creates a template to integrate with a third-party application via the OAuth 2.0 authentication that uses the client credentials grant type.
 
-</td></tr><tr><td id="d68130e116">
+</td></tr><tr><td id="d76963e116">
 
 **HTTP Connection with OAuth Client Credentials grant type \(External Storage\)**
 
@@ -68,7 +68,7 @@ Creates a template to integrate with a third-party application via the OAuth 2.0
 
 Creates a template that enables the sending of OAuth token request that comprises client credentials stored by an external storage to an OAuth server via the MID Server.
 
-</td></tr><tr><td id="d68130e129">
+</td></tr><tr><td id="d76963e129">
 
 **HTTP Connection with Basic Auth Credential**
 
@@ -76,7 +76,7 @@ Creates a template that enables the sending of OAuth token request that comprise
 
 Creates a template to integrate with the third-party system using basic authentication.
 
-</td></tr><tr><td id="d68130e138">
+</td></tr><tr><td id="d76963e138">
 
 **HTTP Connection with API Key Credential**
 
@@ -84,7 +84,7 @@ Creates a template to integrate with the third-party system using basic authenti
 
 Creates a template to integrate with the third-party system using an API key.
 
-</td></tr><tr><td id="d68130e147">
+</td></tr><tr><td id="d76963e147">
 
 **Other Configuration**
 
@@ -323,7 +323,11 @@ Groups that contains a different set of fields. These groups are available as a 
 </td></tr></tbody>
 </table>    **Tip:** If the pre-populated values are not appearing in the fields while editing a connection, navigate to **System Diagnostics** &gt; **Session Debug** &gt; **Debug Log** to diagnose the issue.
 
-9.  Add the template to a Connection &amp; Credential alias.
+9.  In the **Test Action** field, enter the name of the test action.
+
+    Creating a test action enables you to test a connection directly from an integration action in the flow view of Workflow Studio. The test action uses an action definition to test the alias that the template is currently attached to. For details, see .
+
+10. Add the template to a Connection &amp; Credential alias.
 
     1.  Navigate to **IntegrationHub** &gt; **Connections &amp; Credentials** &gt; **Connection &amp; Credential Aliases**.
 

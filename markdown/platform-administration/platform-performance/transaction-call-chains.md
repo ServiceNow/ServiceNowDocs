@@ -7,9 +7,9 @@ release: yokohama
 product: Platform Performance
 classification: platform-performance
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Monitoring platform performance, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
+breadcrumb: [Monitor, Platform performance, Maintain and monitor, Administer the ServiceNow AI Platform]
 ---
 
 # Transaction call chains
@@ -20,8 +20,6 @@ With Transaction Call Chain tracking, an administrator can register the URL of a
 
 The following shows the workflow for enabling and using transaction call chain tracking.
 
-\[Omitted image "add-transaction-call-chain-register.png"\] Alt text: An infographic showing the workflow for adding a transaction call chain register. For more details, refer to the following description.
-
 1.  When you find a problematic transaction on the Transaction Log or Slow Transaction list that requires debugging, select it to view its detail record. To aid in debugging, filter and group these lists by application scope, limiting transactions that appear to only those transactions originating in specific scopes.
 
     **Note:** To learn more about these lists, see [Transaction logs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/r_TransactionLogs.md) and [Slow transactions log record detail](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/slow-transactions-log-record-detail.md).
@@ -30,10 +28,7 @@ The following shows the workflow for enabling and using transaction call chain t
 
     Optionally, you can designate a user ID so call chain recording only takes place during the next transaction occurrence for a specific user.
 
-3.  The next time a user accesses the URL, the Transaction Call Chain Register record is updated to contain a list of the script resources executed to service the request. This list of resources is available for administrators to view by navigating to the Transaction Call Chain Record and selecting the Transaction Call Chain Related List.
-
-    \[Omitted image "url-transaction-logged.png"\] Alt text: A transaction is executed and logged in the Transaction Call Chain Register, then accessed by the admin through the Transaction Call Chain Related List on the Transaction Call Chain Record.
-
+3.  The next time a user accesses the URL, the Transaction Call Chain Register record is updated to contain a list of the script resources executed to service the request. This list of resources is available for administrators to view by navigating to the Transaction Call Chain Record and selecting the Transaction Call Chain related list.
 4.  In Transaction Call Chains, review the recorded call chain for the transaction, and then take the needed actions required to debug it.
 
 -   **[Create a transaction call chain register](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/platform-performance/create-transaction-call-chain-register.md)**  

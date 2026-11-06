@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Test values in a page
@@ -25,10 +25,6 @@ For example, say that you’re building a record page that displays a form for a
 To get test values to show data, add a data resource, then configure the data resource to bind a record to the test value in the URL. For example, you could add `incident` as a test value.
 
 \[Omitted image "test-values.png"\] Alt text: Edit test values for URL parameters popup displayed with required and optional parameter fields.
-
-Then add a data resource named **Look Up Record**. In the **Table field**, dynamically bind the incident test value to a `context.props.table` table, as shown in the following image.
-
-\[Omitted image "test-value-bind-data.png"\] Alt text: Binding incident test value to a table.
 
 **Parent Topic:**[Manage UI Builder pages and page variants](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/work-pages.md)
 

@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/now-intelligence/dv-example-donut.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [Pie and donut visualizations, Create, Data visualizations, Platform Analytics experience, Platform Analytics]
 ---
@@ -16,7 +16,7 @@ The donut visualization uses a hollow circular shape to show the proportion or p
 
 ## Before you begin
 
-Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. If you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/reporting/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
+Role required: Anyone with access to data can create a visualization of that data on any dashboard that they can edit. Users with the itil, report\_user, admin, or viz\_creator role can create a visualization in the Visualization Designer. When you create a visualization in the Visualization Designer, it is saved to the Library. For more information on access, see [Report\_view access control](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/report-view-access-control.md) and [Platform Analytics roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/platform-analytics-roles.md).
 
 ## About this task
 
@@ -24,17 +24,15 @@ Use this visualization type when you want to compare subcategories or additional
 
 ## Procedure
 
-1.  Follow the first steps to [Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md):
+1.  Follow the first steps to [Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md):
 
-    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**.
+    1.  Navigate to **All** &gt; **Platform Analytics** &gt; **Library** &gt; **Data Visualizations**, or open an in-line dashboard and select **Edit**.
 
-    2.  Select **New**.
+    2.  Select **Create data visualization**.
 
-    3.  Select the Donut \(\[Omitted image "inline-data-vis-donut.png"\] Alt text: icon for a donut visualization\) or Semi-donut \(\[Omitted image "inline-data-vis-semi-donut.png"\] Alt text: icon for a semi-donut visualizationvisualization type.
+    3.  Select the Donut or Semi-donut visualization type.
 
         In this example, you create a donut visualization, but the concepts are the same.
-
-        \[Omitted image "dv-ex-donut-select.gif"\] Alt text: Animation showing workspace and visualization designer selection, and choosing to create a donut visualization
 
 2.  For the moment, we can skip the header and border section and move to the data source.
 
@@ -42,7 +40,7 @@ Use this visualization type when you want to compare subcategories or additional
 
     2.  Choose the Incident \[incident\] table.
 
-    3.  Because this visualization shows open incidents, let's add the Incidents.Open condition in the Filters section.
+    3.  Because this visualization shows open incidents, let's add the predefined condition Incidents.Open in the Filters section.
 
         With this filter selected, the visualization only shows the number of active incidents.
 
@@ -50,15 +48,13 @@ Use this visualization type when you want to compare subcategories or additional
 
     5.  Select **Add this source**.
 
-    A pie visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only a two wedges for Active=True and Active=False. You add priority and assignment group in step 4.
-
-    \[Omitted image "dv-ex-donut-data-source.gif"\] Alt text: Animation showing selection of data source, application of filter and result
+    A pie visualization with the current value of the selected data appears in the Visualization Designer. Because the only information you've given is that the visualization represents active incidents, you see only two possible wedges for Active=True and Active=False. You add priority and assignment group in step 4.\[Omitted image "dv-ex-donut-data-source.png"\] Alt text: Untitled donut visualization showing the Incident table as data source
 
 3.  Now that you can see the visualization, let's add some context for the user.
 
     1.  Expand the Header and border section.
 
-    2.  Select **Show header** and provide the chart title `Open incidents - Priority`.
+    2.  Select **Show header** and provide the visualization title `Open incidents - Priority`.
 
         When **Show header** is selected, you can add a title and a description. The chart title isn't necessarily the same as the visualization name. The visualization name identifies it in the Visualization Designer and in a list. The chart title appears within the visualization.
 
@@ -70,9 +66,9 @@ Use this visualization type when you want to compare subcategories or additional
 
 4.  Skip the Metric section.
 
-5.  Add a Group by to differentiate the information in the chart.
+5.  Add a Group by to differentiate the information in the visualization.
 
-    Under Group by, select **Priority**.
+    Under Group by, select **Priority** and then select **Apply**.
 
 6.  Under Sorting, choose the field to sort by and the order of the sorting.
 
@@ -92,15 +88,13 @@ Use this visualization type when you want to compare subcategories or additional
 
         For example, if dashboard filters limit the value of the visualization, the icon indicates that you're seeing the number of open incidents that match the filters. You can then check to see which filters are in effect.
 
-    3.  Select **Enable drilldown** to let viewers navigate to relevant information by selecting a data point in the chart.
+    3.  Under Chart interaction, select **Allow chart interaction**.
 
-        Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
+        From the Action menu, select **Drill down to chart** to let viewers navigate to relevant information by selecting a data point in the chart. Some visualizations only drill down to the list of associated data. Table data is generally restricted by access control lists \(ACLs\) and viewers may not see all of the associated records.
 
-        This control mirrors **Allow chart interaction**. Under Chart Interaction, you can also select the destination of drilling down.
+8.  In the Presentation section, choose how to show what the sections of the donut describe.
 
-8.  Choose how to show what the sections of the donut describe.
-
-    -   **Show Legend** gives examples of the color coding for each value in the visualization. You can choose whether to show the legend, where to place it and how much to show. Ideal placement depends on the size of its container on a dashboard. If you have more horizontal space, place the legend to the left or right. If you have more vertical space, place it above or below.
+    -   **Show Legend** gives examples of the color coding for each value in the visualization. You can choose whether to show the legend, where to place it and how much to show. Ideal placement depends on the size of its container on a dashboard. If you have more horizontal space, place the legend to the on one side or the other. If you have more vertical space, place it above or below.
     -   **Show data labels** adds the label and value information next to the segments of the visualization.
     1.  Select **Show legend** to enable legend options.
 
@@ -146,7 +140,7 @@ Use this visualization type when you want to compare subcategories or additional
 
 ## Result
 
-You've created a donut visualization grouped on one value. You've also configured the visualization's labeling, legend, and colors.
+You have created a donut visualization grouped on one value. You have also configured the visualization's labeling, legend, and colors.
 
 ## What to do next
 
@@ -158,5 +152,5 @@ Create a semi-donut visualization.
 
 The semi-donut has all the same settings as the donut, but is a half circle instead of a full circle.
 
-**Parent Topic:**[Create a pie or donut visualization in the Visualization Designer](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
+**Parent Topic:**[Create a pie or donut data visualization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/now-intelligence/create-dv-donut-ac.md)
 

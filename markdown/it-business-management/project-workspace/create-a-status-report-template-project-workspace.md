@@ -1,5 +1,5 @@
 ---
-title: Create a status report template in Project Workspace
+title: Create a status report or docs template in Project Workspace
 description: Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-business-management/project-workspace/create-a-status-report-template-project-workspace.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Project Workspace
 classification: project-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Manage Projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Manage projects, Project Workspace, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
-# Create a status report template in Project Workspace
+# Create a status report or docs template in Project Workspace
 
 Create a custom template for status reporting in Project Workspace. Use the template to create status reports according to your specific requirements.
 
@@ -22,17 +22,19 @@ Role required: it\_project\_manager
 
 ## Procedure
 
-1.  Open a project from the planning page of Project Workspace.
+1.  Open a project from the home page of Project Workspace.
 
-    For information on how to navigate to the planning page, see [Access Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
+    For information, see [Access the Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/access-new-project-workspace.md).
 
 2.  Select **Doc Templates\[Omitted image "icon-doc-template.png"\] Alt text: Doc Templates icon**.
 
 3.  Select **New**.
 
-4.  On the Create new document template form, fill in the fields.
+4.  On the Create New Document Template form, fill in the fields.
 
-    For a description of the field values, see [Document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-new-document-template-form.md).
+    -   To create a project status report template, select **Project status report** from the Category list. Dynamic content is enabled by default for status report templates, so the **Is Dynamic** check box doesn't appear on the form.
+    -   To enable dynamic content on Docs, select **Project Docs** from the Category list and select the **Is Dynamic** check box.
+    For a description of the field values, see [Create document template form](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/create-new-document-template-form.md).
 
     \[Omitted image "create-status-report-template.png"\] Alt text: Create status report template
 
@@ -64,5 +66,5 @@ The template you created appears as an option when you try to create a status re
 
 [Import old project status report to Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/import-old-status-reports.md)
 
-[Add dynamic content to status report in Project Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
+[Add dynamic content to a status report or docs template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/project-workspace/add-dynamic-content-to-status-report-in-pw.md)
 

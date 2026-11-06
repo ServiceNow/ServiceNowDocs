@@ -7,9 +7,9 @@ release: yokohama
 product: Workforce Optimization for Field Service
 classification: workforce-optimization-for-field-service
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up scheduling in Workforce Optimization for Field Service, Configuring Workforce Optimization for Field Service, Setting up your workforce, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Set up scheduling, Workforce Optimization, Set up workforce, Configure, Field Service Management]
 ---
 
 # Modify schedule adherence and conformance formulas by using extension points

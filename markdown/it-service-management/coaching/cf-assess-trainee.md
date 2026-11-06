@@ -7,9 +7,9 @@ release: yokohama
 product: Coaching
 classification: coaching
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Coaching your trainee, Training agents using Coaching With Learning, Coaching, IT Service Management]
+breadcrumb: [Coaching your trainee, Training agents using Coaching with Learning, Coaching, IT Service Management]
 ---
 
 # Assess a trainee
@@ -47,7 +47,7 @@ You can create a coaching assessment from incidents, problems, change requests, 
 
     3.  In the **Due Date** field, enter the date when the assessment is due.
 
-    The coaching assessment is set to **Closed Incomplete** state after the due date. Use system properties to set due dates to complete training. For more information, refer to [Coaching Properties](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-reference.md). You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
+    The coaching assessment is set to **Closed Incomplete** state after the due date. Use system properties to set due dates to complete training. For more information, refer to [Coaching reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-reference.md). You can disable automatic closure behavior by deactivating the **Close assessments after expiration** scheduled job.
 
 3.  Fill in the fields in the **Notes** tab.
 
@@ -69,7 +69,7 @@ You can create a coaching assessment from incidents, problems, change requests, 
 
     See [Skills Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/skills-management.md) for more information.
 
-7.  Add [assigned training content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/identify-learning-content.md) in the **Assigned course items** related list.
+7.  Add [assigned training content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-identify-learning-content.md) in the **Assigned course items** related list.
 
 8.  Review survey feedback for the trainee in the **Survey Results** related list.
 
@@ -165,5 +165,5 @@ Automatically assign skills to trainees for specific skill levels based on the c
 **Related topics**  
 
 
-[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/coaching-field-descriptions.md)
+[Coaching field descriptions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/coaching/cf-coaching-field-descriptions.md)
 

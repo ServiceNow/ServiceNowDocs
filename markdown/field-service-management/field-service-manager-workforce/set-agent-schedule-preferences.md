@@ -7,9 +7,9 @@ release: yokohama
 product: Field Service Manager Workforce
 classification: field-service-manager-workforce
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Managing agent skills, schedules and tasks in Field Service Agent Management, Manage workforce, Using Field Service Management, Field Service Management]
+breadcrumb: [Managing agent skills,schedules, and tasks, Managing workforce, Use, Field Service Management]
 ---
 
 # Allow agents to start traveling before their scheduled work hours
@@ -34,15 +34,15 @@ Role required: wm\_dispatcher, wm\_manager, wm\_admin, or admin
 
 4.  To add or update user records, do one of the following.
 
-<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d82371e117">
+<table id="choicetable_pnx_tzm_vgb"><thead><tr><th align="left" id="d90904e126">
 
 Option
 
-</th><th align="left" id="d82371e120">
+</th><th align="left" id="d90904e129">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d82371e126">
+</th></tr></thead><tbody><tr><td id="d90904e135">
 
 **Add a new record for this user**
 
@@ -55,7 +55,7 @@ Description
 5.  Click **Submit**.
 
 
-</td></tr><tr><td id="d82371e167">
+</td></tr><tr><td id="d90904e176">
 
 **Updated an existing record**
 
@@ -94,7 +94,7 @@ Add travel time as work hours for all users
 createWorkParamsForAllAgents("yes");
 
 function createWorkParamsForAllAgents(travelOutsideWorkHours) {
-	var now_GR = new GlideRecord("sys_user_has_role");
+	var gr = new GlideRecord("sys_user_has_role");
 	gr.addEncodedQuery("role=26c324ba1b32200096f9fbcd2c0713c2"); // fetching users having wm_agent role
 	gr.query();
 	gs.info("total work agents found: "+gr.getRowCount());
@@ -129,7 +129,7 @@ Update travel time as work hours for all users
 updateWorkParamsForAgents("yes");  // param1: default travel outside work hours value
 
 function updateWorkParamsForAgents(travelOutsideWorkHours) {
-	var now_GR = new GlideRecord("wm_agent_work_configuration");
+	var gr = new GlideRecord("wm_agent_work_configuration");
 	gr.query();
 	gs.info("total agent work parameters found: "+gr.getRowCount());
 	var updateCount = 0;
@@ -151,5 +151,3 @@ function updateWorkParamsForAgents(travelOutsideWorkHours) {
 
 </td></tr></tbody>
 </table>
-**Parent Topic:**[Managing agent skills, schedules and tasks in Field Service Agent Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/field-service-manager-workforce/field-service-agent-management.md)
-

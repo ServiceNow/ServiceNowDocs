@@ -7,9 +7,9 @@ release: yokohama
 product: Cloud Cost Management
 classification: cloud-cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Cloud Cost Management, Cloud Cost Management, IT Asset Management]
+breadcrumb: [Explore, Cloud Cost Management, IT Asset Management, Asset Management]
 ---
 
 # Cloud budgets
@@ -27,4 +27,9 @@ Budget Forecast jobs use the cost forecast data from the providers and follow th
 3.  Repeat the process whenever billing data is updated or a user requests budget reanalysis.
 
 **Note:** If there’s a large number of users, the users may not load correctly or may fail to load to the [Budget view](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/budget-view-ws.md). See the Knowledge article for more information [KB0866547](https://support.servicenow.com/kb_view.do?sysparm_article=KB0866547).
+
+**Related topics**  
+
+
+[Manage cloud budgets](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/cloud-cost-management/manage-cloud-budgets.md)
 

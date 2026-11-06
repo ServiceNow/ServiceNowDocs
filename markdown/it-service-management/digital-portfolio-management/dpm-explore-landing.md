@@ -7,9 +7,9 @@ release: yokohama
 product: Digital Portfolio Management
 classification: digital-portfolio-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Exploring Digital Portfolio Management, Digital Portfolio Management, IT Service Management]
+breadcrumb: [Explore, Digital Portfolio Management, IT Service Management]
 ---
 
 # Digital Portfolio Management Workspace homepage
@@ -31,7 +31,7 @@ The homepage includes the following main areas.
 
     **Note:** The data on each solution card reflects current data at the time that you view the page. Refresh the page \(\[Omitted image "icon-refresh.png"\] Alt text: Refresh icon\) to update the data.
 
--   Fields to enable you to search, filter, and personalize what you see on your DPM Workspace homepage. For more information, see [Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+-   Fields to enable you to search, filter, and personalize what you see on your DPM Workspace homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 -   A Personal portfolios section that shows personal portfolios that you recently visited in DPM. You can also select the link to go to the personal portfolios page.
 -   An Enterprise portfolios section that shows enterprise portfolios that you recently visited in DPM. You can also select the link to go to the enterprise portfolios page.
 -   A Recently viewed section that shows items that you recently visited in DPM.
@@ -42,15 +42,15 @@ You're encouraged to personalize the Current status section to see those solutio
 
 \[Omitted image "dpm-homepage-solution-card-overview.png"\] Alt text: DPM homepage solution card overview
 
-**Important:** For the Yokohama release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Yokohama release, the labels are Technical Service and Technical Service Offering.
+**Important:** For the Brazil release and later, the labels for the items in the \[cmdb\_ci\_service\_technical\] table and \[service\_offering\] table are Technology Management Service and Technology Management Service Offering, respectively. Prior to the Brazil release, the labels are technology management service and technology management service Offering.
 
-1.  Solution name and type \(service, service offering, business application, or application service\).
-2.  Actions menu \[Omitted image "icon-actions.png"\] Alt text: Actions menu icon to view the solution's details, its relationship map, or remove the item from your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+1.  Solution name and type \(service, service offering, business application, or service instance\).
+2.  Actions menu \[Omitted image "icon-actions.png"\] Alt text: Actions menu icon to view the solution's details, its relationship map, or remove the item from your homepage. For more information, see [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 3.  Needs attention attributes that determine the status of each card. Needs attention attributes differ based on the solution type.
 
 ## Needs attention default thresholds
 
-DPM comes with default thresholds for Needs attention attributes. You’re encouraged to personalize the thresholds to define your metrics for good, moderate, and severe. See [Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
+DPM comes with default thresholds for Needs attention attributes. You’re encouraged to personalize the thresholds to define your metrics for good, moderate, and severe. See [Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md).
 
 <table id="table_gnb_ls5_bzb"><thead><tr><th>
 
@@ -136,7 +136,7 @@ Severe
 
 [Digital Portfolio Management homepage default solution cards](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-oob-solution-card-fields.md)
 
-[Personalize the Digital Portfolio Management Workspace homepage](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md)
+[Personalize the Digital Portfolio Management Workspace home page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/digital-portfolio-management/dpm-personalize-homepage.md)
 
 [List of workspaces](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/list-of-workspaces.md)
 

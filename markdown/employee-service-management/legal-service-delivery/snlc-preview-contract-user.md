@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [View and download a signed contract document, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [View and download a signed contract document, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # View and download a signed contract document as a legal user
@@ -24,15 +24,15 @@ Role required: sn\_lg\_ops.legal\_user and sn\_cm\_core.contract\_user
 
 1.  Open the legal request either from the platform view or using Service Portal.
 
-<table id="choicetable_uth_mkz_czb"><thead><tr><th align="left" id="d643672e55">
+<table id="choicetable_uth_mkz_czb"><thead><tr><th align="left" id="d695496e55">
 
 Method
 
-</th><th align="left" id="d643672e58">
+</th><th align="left" id="d695496e58">
 
 Actions
 
-</th></tr></thead><tbody><tr><td id="d643672e64">
+</th></tr></thead><tbody><tr><td id="d695496e64">
 
 **Using platform view**
 
@@ -48,7 +48,7 @@ Actions
     -   If an external storage integration is not available, select the document name to view the revision. From the **Manage Attachments** field, select the document to download it. You can also select the **view** option to view the document.
 
 
-</td></tr><tr><td id="d643672e126">
+</td></tr><tr><td id="d695496e126">
 
 **Using Service Portal**
 

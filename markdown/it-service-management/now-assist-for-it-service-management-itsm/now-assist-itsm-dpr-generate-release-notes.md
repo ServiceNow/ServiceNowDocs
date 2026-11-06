@@ -7,8 +7,8 @@ release: yokohama
 product: Now Assist for IT Service Management \(ITSM\)
 classification: now-assist-for-it-service-management-itsm
 topic_type: task
-last_updated: "2025-11-18"
-reading_time_minutes: 3
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 keywords: [Generate AI-powered release notes for a release, Digital Product Release AI release notes generator, AI release notes generator, Now Assist, Now Assist skill, Now Assist for ITSM]
 breadcrumb: [Use generative AI skills, ServiceNow Otto for IT Service Management \(ITSM\), IT Service Management]
 ---
@@ -31,7 +31,7 @@ Generate structured release notes for a release using AI-driven summarization, r
 -   **Configuration:**
     -   The Generate Release Notes skill must be active.
 
-        For more information about activating a Now Assist skill for ITSM, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)]().
+        For more information, see [Configure ServiceNow Otto for IT Service Management \(ITSM\)]().
 
     -   The release phase set as the release readiness must be in progress or completed.
 

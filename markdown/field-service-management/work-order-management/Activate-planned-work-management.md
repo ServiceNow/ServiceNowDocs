@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configuring Planned Work Management, Setting up work orders and tasks, Configuring Field Service Management, Field Service Management]
+breadcrumb: [Planned Work Management, Set up work orders and tasks, Configure, Field Service Management]
 ---
 
 # Install Planned Work Management
@@ -50,7 +50,7 @@ The following items are installed with Planned Work Management:
 -   Scheduled jobs
 -   Tables
 
-For more information, see [Planned Work Management Components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/planned-work-components.md).
+For more information, see [Planned Work Management components](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/planned-work-components.md).
 
 ## Procedure
 
@@ -70,7 +70,7 @@ For more information, see [Planned Work Management Components](https://raw.githu
 
 5.  If demo data is available and you want to install it, select the **Load demo data** check box.
 
-    Demo data are sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
+    Demo data are the sample records that describe application features for common use cases. Load the demo data when you first install the application on a development or test instance.
 
 6.  Select **Install**.
 

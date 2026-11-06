@@ -7,7 +7,7 @@ release: yokohama
 product: Service Catalog
 classification: service-catalog
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Service Catalog in Employee Center portal, Integrating Service Catalog, Service Catalog, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,15 +32,15 @@ Role required: requester
 
 5.  If required, perform any of these actions.
 
-<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d309414e96">
+<table id="choicetable_sly_jsd_5bb"><tbody><tr><td id="d313671e96">
 
 **Add attachments**
 
 </td><td>
 
-To add one or more attachments to the catalog item, click the add attachments icon \(\[Omitted image "IconAddAttachmnt.png"\] Alt text: add attachments icon\).You can browse and choose the files, drag the files, or copy and paste them in the Add attachments window.
+To add one or more attachments to the catalog item, select the choose a file link to browse and choose the files or directly drag the files in the **Add attachments** window.
 
-</td></tr><tr><td id="d309414e113">
+</td></tr><tr><td id="d313671e108">
 
 **Add to Cart**
 
@@ -48,7 +48,7 @@ To add one or more attachments to the catalog item, click the add attachments ic
 
 To add the catalog item to the shopping cart, click **Add to Cart**.
 
-</td></tr><tr><td id="d309414e125">
+</td></tr><tr><td id="d313671e120">
 
 **Add to Wish List**
 

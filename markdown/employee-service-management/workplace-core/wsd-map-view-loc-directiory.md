@@ -7,9 +7,9 @@ release: yokohama
 product: Workplace Core
 classification: workplace-core
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 12
-breadcrumb: [Manage workplace activities and services with Location directory, Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [Location Directory, Request employee-related services, Workplace Core, Workplace Service Delivery, Employee Service Management]
 ---
 
 # Work with the Map view on the Location Directory
@@ -17,6 +17,8 @@ breadcrumb: [Manage workplace activities and services with Location directory, R
 Work with Map view to search for workplace users, locations, spaces, and neighborhoods. Get directions to a workplace location, meeting rooms, or an employee to collaborate quickly and effectively. Filter spaces based on reservation and occupancy states, space types, or neighborhoods.
 
 ## Before you begin
+
+\[Omitted video\] Description: Wayfinding using the Location directory
 
 -   Workplace Core
 -   Workplace Reservation Management \(Optional\)
@@ -57,8 +59,6 @@ Role required: sn\_wsd\_core.workplace\_user
 
     Your location is displayed with a location pin \(\[Omitted image "wsd-location-pin-icon.png"\] Alt text: Location pin that shows the selected location on the map.\).
 
-    \[Omitted image "wsd-location-directory-landing-page.png"\] Alt text: Location directory page displaying location on the World map.
-
     .
 
 4.  To select a campus on the map, enter the name of a campus or select a campus name from the **Select Campus** list.
@@ -94,8 +94,6 @@ Role required: sn\_wsd\_core.workplace\_user
     \[Omitted image "wsd-new-loc-directory-campus-buidling-menu.png"\] Alt text: Location Directory home page displaying selected campus, building
 
     **Note:** The **Last updated &lt;time interval&gt;** label is shown on the map after selecting a building. For example,**Last updated 1 min ago**. The map is automatically refreshed if your administrator has enabled the map property \(**Auto Refresh time interval \(in mins\) for showing Reservation and/or Occupancy information on the Location directory**\). This property fetches the latest reservation and occupancy data on the map.
-
-    \[Omitted image "wsd-automatically-refresh-new-loc-dir.png"\] Alt text: Last updated refresh time interval label on the map.
 
 8.  Select a floor from the **Floor** list option.
 
@@ -183,10 +181,6 @@ Role required: sn\_wsd\_core.workplace\_user
     -   View permanent seat assignment. Permanently assigned spaces are displayed with workplace profile names.
     -   View standard workplace services for a selected space.
     -   View a designated neighborhood, The neighborhood icon \(\[Omitted image "wsd-neighborhood-icon-new-loc-directory.png"\] Alt text: Space card with neighborhood icon showing number of spaces with neighborhood.\) is displayed along with the number of seats.
-    \[Omitted image "wsd-space-card-details-loc-directory-use.png"\] Alt text: Selected space on the map showing the space card details panel.
-
-    \[Omitted image "wsd-legend-space-availability-loc-dir.png"\] Alt text: Space card details panel showing Permanent assigned seating.
-
     1.  Select the More actions icon \(\[Omitted image "wsd-more-options-icon-loc-directory.png"\] Alt text: More options icon\) and use any of the following options as required:
 
         -   Copy URL: Option to copy a space location link. The Copy URL link, when selected, copies the location URL link to a clipboard. The location URL link can be shared with your team members and colleagues.
@@ -202,8 +196,6 @@ Role required: sn\_wsd\_core.workplace\_user
     3.  Select **Get Directions** for wayfinding and navigating to a meeting room or to where your co-worker is seated.
 
         You can find directions with the same floor or the same building or to a different floor or a different building.
-
-        \[Omitted video\] Description: Wayfinding using Location Directory.
 
 14. To get directions from one space to another, perform the following actions on the map.
 

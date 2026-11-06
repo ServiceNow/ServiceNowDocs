@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Set up a policy acknowledgement campaign using the Compliance Workspace, Acknowledge a policy using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Set up policy acknowledgement campaign, Acknowledge policy, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Create an audience using the Compliance Workspace
@@ -30,7 +30,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 4.  Use the three tabs to identify members for this audience.
 
-<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d43582e91">
+<table id="choicetable_iyr_syf_mjb"><tbody><tr><td id="d240067e100">
 
 **Users**
 
@@ -38,7 +38,7 @@ Role required: sn\_compliance\_admin or sn\_compliance\_manager
 
 Click **Edit** and add one or more individual users to the audience.
 
-</td></tr><tr><td id="d43582e103">
+</td></tr><tr><td id="d240067e112">
 
 **Groups**
 
@@ -46,7 +46,7 @@ Click **Edit** and add one or more individual users to the audience.
 
 Click **Edit** and add one or more predefined groups of users to the audience.
 
-</td></tr><tr><td id="d43582e115">
+</td></tr><tr><td id="d240067e124">
 
 **User Filters**
 

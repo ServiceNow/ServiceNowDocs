@@ -7,7 +7,7 @@ release: yokohama
 product: Universal Request for HR Service Delivery
 classification: universal-request-for-hr-service-delivery
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Universal Request plugins, Setting up and configuring Universal Request, Universal Request, Employee Service Management]
 ---
@@ -15,6 +15,10 @@ breadcrumb: [Universal Request plugins, Setting up and configuring Universal Req
 # Activate Universal Request Integration for Incident management
 
 You can activate the Universal Request: Integration for Incident management plugin \(com.snc.incident.universal\_request\) if you have the admin role. Activating this plugin enables ServiceNow Incident Management application integration with Universal Request. This plugin includes demo data and activates related plugins if they are not already active.
+
+## About this task
+
+This plugin allows the Incident \(incident\) table to participate in Universal Request \(UR\) flows. The plugin activation ensures incidents can be created, tracked, and managed within the same framework used for URs and Universal Tasks—streamlining multi-step, cross-functional work.
 
 ## Before you begin
 
@@ -42,5 +46,5 @@ Role required: admin
 **Related topics**  
 
 
-[List of plugins \(Yokohama\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
+[List of plugins \(Brazil\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/list-of-plugins.md)
 

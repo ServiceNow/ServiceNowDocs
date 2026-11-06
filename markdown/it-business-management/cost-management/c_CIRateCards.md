@@ -7,7 +7,7 @@ release: yokohama
 product: Cost Management
 classification: cost-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Cost Management, Strategic Portfolio Management]
 ---
@@ -23,7 +23,7 @@ Users with the Financial Admin \(`financial_mgmt_admin`\) and Financial User \(`
 -   **[Create a CI rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/t_CreateACIRateCard.md)**  
 You can add a CI rate card that specifies an hourly rate and associate a rate code.
 -   **[Add a condition to a CI rate card](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/t_AddAConditionToACIRateCard.md)**  
-If you are adding a condition to a CI rate card, use the **Update CI List** related link to create the relationship between the configuration item or items and the rate card.
+If you're adding a condition to a CI rate card, use the **Update CI List** related link to create the relationship between the configuration item or items and the rate card.
 -   **[CI rate card costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/c_CIRateCardCosts.md)**  
 CI rate card costs generate expense lines for configuration items on the associated rate card
 -   **[Aggregate CI costs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/cost-management/c_AggregateCICosts.md)**  

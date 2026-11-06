@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-walkup-view-assigned-location.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Walk-up Experience queue and interaction management, Using Walk-up Experience, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Manage queues and interactions, Use Walk-up Experience, Customer communication, Use, Customer Service Management]
 ---
 
 # View assigned Walk-up Experience location

@@ -7,7 +7,7 @@ release: yokohama
 product: Privacy Workspace
 classification: privacy-workspace
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Privacy Case Management, Privacy Management, Governance, Risk, and Compliance]
 ---
@@ -28,7 +28,7 @@ After you add the regulations, you can analyse the case to determine which regul
 
 1.  Navigate to **All** &gt; **Privacy Management** &gt; **Privacy Workspace**.
 
-2.  Select the Tasks icon \(\[Omitted image "task-icon.png"\] Alt text: Tasks icon\).
+2.  Select the Tasks icon \(\[Omitted image "icon-tprm-ws-tasks.png"\] Alt text: Electronic signature\).
 
 3.  Select **Cases**.
 

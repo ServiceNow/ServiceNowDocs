@@ -7,7 +7,7 @@ release: yokohama
 product: PPM Collaboration
 classification: ppm-collaboration
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Project Portfolio Management, Strategic Portfolio Management]
 ---
@@ -53,8 +53,6 @@ The Analytics Time sheet provides comprehensive time sheet activities and report
 
 **Related topics**  
 
-
-[Platform Analytics Solutions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/content-packs-in-form-analytics.md)
 
 [Activate your Performance Analytics subscription](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/c_PremiumPerformanceAnalytics.md)
 

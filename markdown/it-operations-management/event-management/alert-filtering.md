@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Scheduled jobs and parameters for alert grouping, Alert grouping, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure filters for automatic alert groups
@@ -41,7 +41,7 @@ If your filter specifies alerts whose configuration item class is not Linux, the
     3.  Select the alert group type:
 
         -   Automated
-        -   Test
+        -   Text
         -   CMDB
         You can assign more than one group type with a single filter condition.
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Visitor Management
 classification: workplace-visitor-management
 topic_type: task
-last_updated: "2025-07-31"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Configure, Workplace Visitor Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -64,6 +64,14 @@ Table that variables for the template are picked from.The Visitor Registration \
 
 </td></tr><tr><td>
 
+Order
+
+</td><td>
+
+Order of the visitor badge template. A template with a lower order is selected first.
+
+</td></tr><tr><td>
+
 Paper size
 
 </td><td>
@@ -71,7 +79,13 @@ Paper size
 Paper size that is used to print the badge.
 
 </td></tr></tbody>
-</table>4.  Select **Submit**.
+</table>4.  In the **Apply if** field, add conditions for when the badge template is applicable.
+
+    For more information about conditions, see [Condition builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-user-interface/c_ConditionBuilder.md).
+
+    For example, `Visitor type is Client` specifies that the badge is printed for clients.
+
+5.  Select **Submit**.
 
     The badge template record is created.
 
@@ -83,7 +97,7 @@ Assign the badge template to a workplace location. For more information, see [As
 -   **[Assign badge templates to a workplace location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/assign-badge-location.md)**  
 Assign a badge template to a workplace location.
 
-**Parent Topic:**[Configure Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
+**Parent Topic:**[Configuring Workplace Visitor Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/workplace-visitor-management/configure-visitor-mgmt.md)
 
 **Related topics**  
 
@@ -93,6 +107,12 @@ Assign a badge template to a workplace location.
 [Create a visitor policy]()
 
 [Create a record producer for visitor management]()
+
+[Configure a visitor type]()
+
+[Configure visit requirements]()
+
+[Configure the frequency of email notifications]()
 
 [Configuring Workplace Visitor Management for Workplace Services Kiosk]()
 

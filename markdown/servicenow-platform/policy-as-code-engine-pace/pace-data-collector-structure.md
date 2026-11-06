@@ -7,7 +7,7 @@ release: yokohama
 product: Policy as Code Engine \(PaCE\)
 classification: policy-as-code-engine-pace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Passing parameters to PaCE policies, Administer PaCE policies, Policy as Code Engine \(PaCE\), Extend ServiceNow AI Platform capabilities]
 ---
@@ -23,8 +23,6 @@ When you create a data collector, you can add inputs and outputs in the Javascri
 \[Omitted image "pace-data-collector-add-output.jpg"\] Alt text: Add data collector output tab.
 
 The following image shows a sample data collector:
-
-\[Omitted image "pace-data-collector-script.jpg"\] Alt text: Data collector script.
 
 To debug the data collector script, select the Debugger script icon \[Omitted image "pace-debug-icon.jpg"\] Alt text: Debugger icon. For more information, see [Script Debugger API](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scriptdebugger-api.md).
 

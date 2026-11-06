@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Configure a pull connector, Configure Event Management connectors, Event Management Integrations, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Configure event collection from IBM Netcool
@@ -54,15 +54,15 @@ To use IBM Netcool\_V2 connector, configure a connector instance for the MID Ser
 
 4.  In the Connector Parameters section, specify the value of the required Netcool parameters.
 
-<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d307276e250">
+<table id="choicetable_ict_hmx_n4b"><thead><tr><th align="left" id="d225415e250">
 
 Connector
 
-</th><th align="left" id="d307276e253">
+</th><th align="left" id="d225415e253">
 
 Required parameters
 
-</th></tr></thead><tbody><tr><td id="d307276e259">
+</th></tr></thead><tbody><tr><td id="d225415e259">
 
 **IBM Netcool\_V2**
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Product Feedback
 classification: product-feedback
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Form field information for Feedback application, Reference, Feedback, Strategic Planning, Strategic Portfolio Management]
+breadcrumb: [Form field information for Feedback application, Reference, Feedback in Strategic Planning, Strategic Planning, Strategic Portfolio Management]
 ---
 
 # Product idea form
@@ -39,8 +39,6 @@ Description
 </td><td>
 
 Detailed description of the product idea.
-
- You can refine product idea description using the write planning item skill if you have Now assist for SPM application installed.
 
 </td></tr><tr><td>
 
@@ -145,7 +143,7 @@ The following is the list of related tabs:
 -   Goal Relationships tab: Displays all the goals that are linked with the product idea record. For more information, see [Associate a product idea with a goal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/associate-product-idea-with-goals.md).
 -   Feedback tab: Displays all the feedback records that are linked with the product idea record. For more information, see [Associate a product idea with feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/associate-product-idea-with-feedback.md).
 -   Docs tab: Displays documents or information related to the product idea record. For more information, see [Manage documentation in Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/manage-documents-with-pf.md).
--   Related items tab: Displays all the non-planning items that are linked with the product idea record. This tab is only available if the non-planning items are linked. For more information, see [Associate feedback or ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md).
+-   Related items tab: Displays all the non-planning items that are linked with the product idea record. This tab is only available if the non-planning items are linked. For more information, see [Associate feedback or product ideas with non-planning items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/associate-feedback-with-non-planning-item.md).
 
 **Parent Topic:**[Form field information for Feedback application](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/product-feedback/form-field-information-for-product-feedback.md)
 

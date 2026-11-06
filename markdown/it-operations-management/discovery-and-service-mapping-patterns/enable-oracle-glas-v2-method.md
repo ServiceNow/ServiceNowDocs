@@ -7,11 +7,11 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: task
-last_updated: "2026-04-29"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 keywords: [Oracle GLAS, Oracle GLAS V2, Oracle GLAS data collection]
 audience: administrator
-breadcrumb: [Oracle GLAS data collection, Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [Oracle GLAS data collection, Available on-premise discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Enable the Oracle GLAS V2 data collection method

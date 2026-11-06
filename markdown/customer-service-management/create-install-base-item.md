@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/create-install-base-item.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Install base items, Configure install base, Configure product data, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Create an install base item
@@ -16,13 +16,13 @@ Create an install base item in the Customer Service Management application that 
 
 ## Before you begin
 
-Ensure that the Customer Service Install Base Management plugin \(com.snc.install\_base\) is installed.
+Verify that the Customer Install Base Management plugin \(com.snc.install\_base\) is installed.
 
 Role required: sn\_customerservice\_manager or admin
 
 ## About this task
 
-An install base item is any configuration item \(CI\) that has been made accessible to customers. For Software as a Service \(SaaS\) products, an install base item refers to an application service configuration item. Each install base item references the configuration item record for the customer. If issues arise with a configuration item, customer service agents can trace which install base items that the case is affecting.\[Omitted video\] Description: Create an install base item
+An install base item is any configuration item \(CI\) that has been made accessible to customers. For Software as a Service \(SaaS\) products, an install base item refers to an application service configuration item. Each install base item references the configuration item record for the customer. If issues arise with a configuration item, customer service agents can trace which install base items that the case is affecting.
 
 ## Procedure
 
@@ -62,19 +62,17 @@ Configuration Item
 
 </td><td>
 
-Configuration item that is associated with the install base item.
+Configuration item that is associated with the install base item.The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/application-services.md).
 
- The sn\_customerservice\_manager role must also have the app\_service\_user role to create the install base items for the Application Service configuration item class. For more information, see [Application services](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/application-services.md).
-
- Service models have a model category called the Application Service, which links a service model to the Application Service CI class. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_Models.md) and [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ModelCategories.md).
+Service models have a model category called the Application Service, which links a service model to the Application Service CI class. For more information, see [Models](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_Models.md) and [Model categories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/c_ModelCategories.md).
 
 </td></tr><tr><td>
 
-Service Organization
+Buyer Organization
 
 </td><td>
 
-Internal or external entity that is involved in providing service to the customer.**Note:** If you select a service organization, the **Account**, **Contact**, and **Consumer** fields are hidden. The **Service Organization** field is active only when the Service Organization \(com.snc.service\_organization\) plugin is installed.
+Internal or external entity that is involved in providing service to the customer.**Note:** If you select a buyer organization, the **Account**, **Contact**, and **Consumer** fields are hidden. The **Buyer Organization** field is active only when the Service Organization \(com.snc.service\_organization\) plugin is installed.
 
 </td></tr><tr><td>
 
@@ -148,7 +146,7 @@ Household
 
 </td><td>
 
-Household that is associated with the install base item.**Note:** This field is available only when the Customer Service Household \(com.snc.household\) plugin is installed.
+Household that is associated with the install base item.**Note:** This field is available only when the Customer Household Data Model \(com.snc.household\) plugin is installed.
 
 </td></tr><tr><td>
 
@@ -204,7 +202,7 @@ Active
 
 </td><td>
 
-Option that represents whether the install base is active or inactive. If the state is active, related cases for a product can be created.**Note:** A sync between the active state, install date, and uninstall date is always present. On the install base form, if the **State** is **In Use**, it means that the **Active** option is selected. The **Active** option remains unselected if the **State** is set to **Inactive**.
+Option that represents whether the install base is active or inactive. If the state is active, related cases for a product can be created.**Note:** A sync between the active state, install date, and uninstall date is present. On the install base form, if the **State** is **In Use**, it means that the **Active** option is selected. The **Active** option remains unselected if the **State** is set to **Inactive**.
 
 </td></tr><tr><td>
 
@@ -212,7 +210,7 @@ Install date
 
 </td><td>
 
-Date on which the install base becomes active.
+Date on which the install base is active.
 
 </td></tr><tr><td>
 
@@ -220,7 +218,7 @@ Uninstall date
 
 </td><td>
 
-Date on which the install base becomes inactive.
+Date on which the install base is inactive.
 
 </td></tr><tr><td>
 
@@ -248,7 +246,7 @@ Identify finished goods in the system using their unique identifier.
 
 </td></tr><tr><td>
 
-Provider service organization
+Provider organization
 
 </td><td>
 
@@ -344,5 +342,5 @@ List of contacts, consumers, accounts, members, contributors, and service organi
 **Related topics**  
 
 
-[Create and manage install base items for a business location](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-ib-items-for-business-locations.md)
+[Create and manage install base items for a business organization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-ib-items-for-business-locations.md)
 

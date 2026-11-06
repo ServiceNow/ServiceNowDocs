@@ -1,20 +1,20 @@
 ---
 title: Issue provisional credit
-description: Initiate temporary provisional credit to the card holder during the Investigation stage based on the amount being disputed and the policy for the credit.
+description: Initiate temporary provisional credit to the card holder.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/financial-services-operations/dispute-management/provide-provisional-credit-to-customer.html
 release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Investigating a dispute, Working on a dispute case, Managing dispute service requests, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Investigation, Resolving disputes without network integration, Processing, Use, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Issue provisional credit
 
-Initiate temporary provisional credit to the card holder during the Investigation stage based on the amount being disputed and the policy for the credit.
+Initiate temporary provisional credit to the card holder.
 
 ## Before you begin
 
@@ -24,38 +24,36 @@ Role required: sn\_bom\_credit\_card.dispute\_agent or sn\_bom\_credit\_card.dis
 
 ## About this task
 
-A temporary credit is provided to the card holder, to notify that the case is under investigation.
+A temporary credit is provided to the card holder to notify that the case is under investigation.
 
 ## Procedure
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon \(\[Omitted image "icon-list.png"\] Alt text: List icon.\).
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
-3.  In the **Lists** tab, under **Card disputes service cases**, open the case list.
+3.  In the **Lists** tab under **Card disputes service cases**, open the case list.
 
     -   For your assigned cases, select **Assigned to me**.
     -   For all dispute cases, select **All**.
-4.  In the list, select the case to work on.
+4.  In the list, select which case you want to work on.
 
-    To work on a case that is not assigned to you yet, assign it to yourself by selecting **Assign to me**.
+    If you want to work on a case that isn't assigned to you yet, you can assign it to yourself by selecting **Assign to me**.
 
 5.  Select the **Playbook** tab.
 
-6.  Select the transaction ID in the transaction level playbook of the **Processing** tab.
+6.  In the **Processing** tab, select the transaction ID.
 
-    The **Investigate** stage is initiated for the transaction.
+7.  In the **Issue provisional credit** task, enter the refund amount and details.
 
-7.  In the **Issue provisional credit** activity, enter the refund amount and details.
-
-8.  In the **Remarks** field, enter any comments.
+8.  In the  **Remarks** field, enter any comments.
 
 9.  Close the task from the playbook.
 
     |Dispute activity|Action|
     |----------------|------|
     |**To save changes to the activity**|Select **Update**.|
-    |**To Issue provisional credit to customer**|Select **Close task** .|
+    |**To Issue provisional credit to customer**|Select **Close task**.|
 
 
 **Parent Topic:**[Investigating a dispute](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/financial-services-operations/dispute-management/investigate-a-dispute.md)

@@ -7,9 +7,9 @@ release: yokohama
 product: Agile Development
 classification: agile-development
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 7
-breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development 2.0, Strategic Portfolio Management]
+breadcrumb: [Performance Analytics Content Pack for Agile 2.0, Agile Development, Strategic Portfolio Management]
 ---
 
 # Agile 2.0 Release Dashboard
@@ -138,9 +138,7 @@ Release Burnup
 
 </td><td>
 
-Line
-
- \[Omitted image "line-icon.png"\] Alt text: Line graph
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -159,9 +157,7 @@ Release Burndown
 
 </td><td>
 
-Line
-
- \[Omitted image "line-icon.png"\] Alt text: Line graph
+Line chart\[Omitted image "inline-data-vis-96px-line.png"\] Alt text:
 
 </td><td>
 
@@ -182,7 +178,7 @@ Release Cumulative Flow Diagram
 
 </td><td>
 
-Area\[Omitted image "icon-area-report.png"\] Alt text: Area chart
+Area chart\[Omitted image "inline-data-vis-96px-area.png"\] Alt text:
 
 </td><td>
 
@@ -219,7 +215,7 @@ Story Cycle Time
 
 </td><td>
 
-Bubble chart\[Omitted image "bubble-icon.png"\] Alt text: Bubble chart
+Bubble chart\[Omitted image "inline-data-vis-96px-bubble.png"\] Alt text:
 
 </td><td>
 

@@ -7,9 +7,9 @@ release: yokohama
 product: App Engine Studio
 classification: app-engine-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
-breadcrumb: [Building apps in App Engine Studio, Build apps using App Engine Studio, Building low-code applications, Developing your application, Building applications]
+breadcrumb: [Build, App Engine Studio, Developing your application, Classic app development, Building applications]
 ---
 
 # Plan your app development
@@ -51,7 +51,7 @@ Poor fit
 </td></tr></tbody>
 </table>## Plan before you build
 
-In order to build your application, you need access to a ServiceNow instance and an admin or delegated developer role in that instance. If you have delegated developer permissions, you can develop applications but have fewer privileges than an admin.
+To build your application, you need access to a ServiceNow instance and an admin or delegated developer role in that instance. If you have delegated developer permissions, you can develop applications but have fewer privileges than an admin.
 
 Essentially, an application is a digital program that supports user tasks. As you plan your app, consider the questions in the following table.
 
@@ -137,7 +137,7 @@ For more information, see [Submit your idea for app development](https://raw.git
 
 -   The intake request form is available through the standard Service Catalog. For information about how you can modify this form, see [Service catalog items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/c_IntroductionToCatalogItems.md).
 -   The intake request process uses Flows in Workflow Studio to determine the approval flow. To adjust the approval flow, see [Flows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/build-workflows/flows.md).
--   Admins review intake application requests in App Engine Management Center. For more information, see [Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-studio/monitor-requests-using-aemc.md).
+-   Admins review intake application requests in App Engine Management Center. For more information, see [Managing app development using the App Engine Management Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/app-engine-management-center/managing-app-development-using-aemc.md).
 
 ## Application templates
 

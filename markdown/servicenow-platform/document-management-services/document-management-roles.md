@@ -7,7 +7,7 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [References, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -26,6 +26,8 @@ To learn more about managing subscriptions, see [Managing per-user subscriptions
 [Components installed with Document Management]()
 
 [Domain separation and Document Management]()
+
+[Granular admin roles in Document Management]()
 
 ## Administrator \[platform\_document\_management\_admin\]
 

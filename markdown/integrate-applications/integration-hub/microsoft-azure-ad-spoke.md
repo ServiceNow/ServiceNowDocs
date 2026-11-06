@@ -7,9 +7,9 @@ release: yokohama
 product: Integration Hub
 classification: integration-hub
 topic_type: concept
-last_updated: "2026-06-08"
+last_updated: "2026-09-10"
 reading_time_minutes: 15
-breadcrumb: [Integration Hub available spokes, Building integrations in Integration Hub, Integration Hub, Data and Automation]
+breadcrumb: [Integration Hub spokes, Build integrations, Integration Hub, Workflow Data Fabric]
 ---
 
 # Microsoft Entra ID Spoke \(formerly Microsoft Azure Active Directory spoke\)
@@ -22,7 +22,7 @@ This spoke requires an Integration Hub subscription. For more information, see [
 
 ## Spoke version
 
-Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.8.2 is the latest version.
+Microsoft Entra ID spoke \(formerly known as Microsoft Azure Active Directory spoke\) v4.7.5 is the latest version. For version history of the spoke, see [Microsoft Entra ID Spoke release notes](https://www.servicenow.com/docs/r/store-release-notes/store-integrationhub-rn-ms-azure-ad-spoke.html).
 
 ## Spoke dependencies
 
@@ -72,7 +72,7 @@ The Microsoft Entra ID spoke provides actions to automate Entra tasks when event
 
 **Note:**
 
--   One of the mentioned permissions is required to call the API.
+-   For every action, required permissions from least to most privileged are mentioned. At least one, not all, of the mentioned permissions is required to call the API.
 -   Ensure that you are aware of these considerations:
     -   Select the Delegated permission if you intend to use the **Authorization Code** grant type while registering Entra ID as an OAuth provider.
     -   Select the Application permission if you intend to use the **Client Credentials** grant type while registering Entra ID as an OAuth provider.
@@ -1891,10 +1891,7 @@ Available AI agents include:
 |Microsoft Entra ID group management AI agent|Automates user and group management tasks in Microsoft Entra ID. The AI agent retrieves group details, manages group memberships, creates security groups, and automates user provisioning into Office 365.|
 |Microsoft Entra ID license management AI agent|Automates the management of users, security groups, and office groups in Microsoft Entra ID. The AI agent retrieves details about the subscribed SKUs, assigns user licenses, and remove user licenses.|
 
-Looking for an AI agent?
-
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
 **Note:** Ensure that the user running an AI agent has the required roles and permissions to access data or perform operations on data in the table that is associated with the AI agent.
 

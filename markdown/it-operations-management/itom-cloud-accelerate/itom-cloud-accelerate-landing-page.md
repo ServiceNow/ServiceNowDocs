@@ -7,8 +7,8 @@ release: yokohama
 product: ITOM Cloud Accelerate
 classification: itom-cloud-accelerate
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [IT Operations Management]
 ---
 
@@ -24,9 +24,17 @@ ITOM Cloud Accelerate enables organizations to validate their cloud assets again
 
 These automated processes empower businesses to quicken their journey towards cloud transformation by automating operations on Day 0, Day 1, and Day 2. It offers the following features:
 
--   **Cloud Services Catalog**
+-   **[Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/cam-landing.md)**
 
-    Use the ServiceNow® [Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/csc-home.md) app for simplified, assisted, and featured interface to access cloud resources. You can also publish cloud offerings to a catalog and manage the usage and life cycle of those resources.
+    Use the ServiceNow® [Cloud Account Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-account-management/cam-landing.md) app for efficiently managing and provisioning of cloud accounts. The app allows you to either obtain manual approvals for account creation, ensuring the process is monitored and verified by relevant stakeholders, or automate the approval process based on predefined rules and conditions. Automation saves time and reduces manual intervention.
+
+-   **[Cloud Services Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/cloud-services-catalog/csc-home.md)**
+
+    Use the ServiceNow® Cloud Services Catalog app for simplified, assisted, and featured interface to access cloud resources. You can also publish cloud offerings to a catalog and manage the usage and life cycle of those resources.
+
+-   **[Cloud Migration Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-migration-landing-page.md)**
+
+    Use the ServiceNow® Cloud Migration Assessment application to plan, organize, and track the process of relocating your enterprise IT resources and workloads to cloud platforms. Analyze the IT resources using dashboards that visualize and summarize information on resources by different categories.
 
 -   **[Cloud Configuration Governance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/itom-cloud-accelerate/cloud-configuration-governance.md)**
 

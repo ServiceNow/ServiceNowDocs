@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/opportunity-management-sales-cycle-types.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Install and configure Opportunity Management, Configure, Sales Customer Relationship Management]
+breadcrumb: [Opportunity Management, Sales automation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Create a sales cycle for an opportunity
@@ -30,7 +30,7 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
     |------|------------|
     |Code|Type of sales cycle. For example, NEW RENEW or NEWCUST or UPSELL.|
     |Short Description|More information about the new opportunity sales cycle.|
-    |Active|When the check box is selected, the sales cycle is active.|
+    |Active|When the checkbox is selected, the sales cycle is active.|
 
 4.  Select **Submit**.
 
@@ -40,4 +40,11 @@ Role required: sn\_opty\_mgmt\_core.opportunity\_setup\_writer
 ## What to do next
 
 Add sales cycle stages to your opportunity. To learn more, see [Create opportunity stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management-opportunity-stages.md).
+
+**Related topics**  
+
+
+[Using Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-mgmt-using.md)
+
+[Opportunity Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/opportunity-management.md)
 

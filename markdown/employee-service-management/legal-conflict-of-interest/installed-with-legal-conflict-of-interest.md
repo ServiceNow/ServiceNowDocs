@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Conflict of Interest
 classification: legal-conflict-of-interest
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 1
-breadcrumb: [Legal Conflict of Interest reference, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Reference, Legal Conflict of Interest, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Components installed with Legal Conflict of Interest
@@ -44,7 +44,8 @@ Provides the administrative permissions for Conflict of Interest app and full ac
 
 </td><td>
 
-sn\_lg\_coi.coi\_fulfiller
+-   sn\_lg\_coi.coi\_fulfiller
+-   sn\_lco\_cmn.admin
 
 </td></tr><tr><td>
 
@@ -56,7 +57,8 @@ Provides fulfiller access to all conflict of interest disclosure records.
 
 </td><td>
 
-sn\_lg\_coi.coi\_read
+-   sn\_lg\_coi.coi\_read
+-   sn\_lco\_cmn.risk\_reader
 
 </td></tr><tr><td>
 
@@ -69,6 +71,44 @@ Provides the read-only access to view all conflict of interest records.
 </td><td>
 
 sn\_lg\_ops.legal\_user
+
+</td></tr><tr><td>
+
+Legal and Contracts Common Utilities configurator\[sn\_lco\_cmn.config\]
+
+</td><td>
+
+Provides write permission on the Legal and Contracts Common Utilities records
+
+</td><td>
+
+-   decision\_table\_admin
+-   sn\_doc.writer
+
+</td></tr><tr><td>
+
+Legal and Contracts Common Utilities administrator\[sn\_lco\_cmn.admin\]
+
+</td><td>
+
+Provides administrator permission on the Legal and Contracts Common Utilities records
+
+</td><td>
+
+-   sn\_lco\_cmn.config
+-   sn\_lco\_cmn.risk\_reader
+
+</td></tr><tr><td>
+
+Legal and Contracts Common Utilities reader\[sn\_lco\_cmn.risk\_reader\]
+
+</td><td>
+
+Provides read permission on the Legal and Contracts Common Utilities records
+
+</td><td>
+
+None
 
 </td></tr></tbody>
 </table>## Scheduled jobs
@@ -109,6 +149,46 @@ Conflict of Interest Disclosure\[sn\_lg\_coi\_conflict\_of\_interest\]
 </td><td>
 
 Stores conflict of interest disclosure records.
+
+</td></tr><tr><td>
+
+Risk factor conditions\[sn\_lco\_risk\_factor\_conditions\]
+
+</td><td>
+
+Stores the risk factor condition records used to evaluate a risk factor.
+
+</td></tr><tr><td>
+
+Risk factor\[sn\_lco\_risk\_factor\]
+
+</td><td>
+
+Stores the risk factor records associated with risk assessment.
+
+</td></tr><tr><td>
+
+Overall risk assessment scoresn\_lco\_overall\_risk\_assessment\_score
+
+</td><td>
+
+Stores the overall risk assessment score records.
+
+</td></tr><tr><td>
+
+Risk assessment\[sn\_lco\_risk\_assessment\]
+
+</td><td>
+
+Store the risk assessment records.
+
+</td></tr><tr><td>
+
+Risk responsesn\_lco\_risk\_response
+
+</td><td>
+
+Store the risk response records for the evaluated risk factors.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Legal Conflict of Interest reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-conflict-of-interest/legal-coi-reference.md)

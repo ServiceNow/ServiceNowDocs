@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Configuring EMR Help, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Configure, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # Configure request definitions for EMR systems
@@ -149,7 +149,7 @@ Parameters of a task record available when updating an IT service request in the
 
     1.  In the Request configuration mappings section, modify an existing configuration mapping or create another configuration mapping.
 
-        -   To modify an existing configuration mapping, click the preview icon \(\[Omitted image "preview.png"\] Alt text: Preview icon.\) next to a request parameter in the **Request parameter** column of the Request configuration mappings section and then click **Open Record**.
+        -   To modify an existing configuration mapping, click the preview icon next to a request parameter in the **Request parameter** column of the Request configuration mappings section and then click **Open Record**.
         -   To create another configuration mapping, click **New** in the Request configuration mappings section.
     2.  On the form, fill in the fields.
 

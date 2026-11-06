@@ -7,7 +7,7 @@ release: yokohama
 product: Emergency Exposure Management
 classification: emergency-exposure-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 breadcrumb: [Identify potentially exposed users, Emergency Exposure Management, Emergency Response Management, Workplace Service Delivery, Employee Service Management]
 ---
@@ -57,15 +57,15 @@ Role required: sn\_imt\_diagnosis.diagnostics\_admin or admin
 
 1.  Access the potentially exposed user information through an attachment having the Cisco Wi-Fi access log data or by generating a report through the Cisco DNA Spaces portal.
 
-<table id="choicetable_gsw_cnz_qmb"><thead><tr><th align="left" id="d395067e181">
+<table id="choicetable_gsw_cnz_qmb"><thead><tr><th align="left" id="d425503e181">
 
 Options
 
-</th><th align="left" id="d395067e184">
+</th><th align="left" id="d425503e184">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d395067e190">
+</th></tr></thead><tbody><tr><td id="d425503e190">
 
 **Attach a Wi-Fi access log file**
 
@@ -77,7 +77,7 @@ Steps
 4.  Click **Update**.
  The state of the diagnostic request task updates to Close.
 
-</td></tr><tr><td id="d395067e232">
+</td></tr><tr><td id="d425503e232">
 
 **Generate a report and post data through the Cisco portal**
 

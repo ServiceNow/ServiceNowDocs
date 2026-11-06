@@ -7,8 +7,8 @@ release: yokohama
 product: Smart Assessment Engine
 classification: smart-assessment-engine
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 3
 breadcrumb: [Use template designer, Manage, Smart Assessment Engine, Governance, Risk, and Compliance]
 ---
 
@@ -51,28 +51,30 @@ Scores can be calculated using predefined functions at various levels within an 
 
 Functions, such as Sum, Min, Max, Average, and Weighted average, are available at the assessment, section, and subsection levels. At the question level, all functions except Weighted average are available. However, only one function can be defined at all levels.
 
-The following functions can be used:
+The following function can be used:
 
 -   **Average**
 
-    Divides the sum of all scores by the number of sections or questions.
+    The sum of all scores is divided by the number of sections or questions.
 
 -   **Maximum**
 
-    Selects the maximum score among all sections or questions.
+    The maximum score among all sections or questions is selected.
 
 -   **Minimum**
 
-    Selects the minimum score among all sections or questions.
+    The minimum score among all sections or questions is selected.
 
 -   **Sum**
 
-    Adds the scores for all sections or questions.
+    Scores for all sections or questions are added.
 
 -   **Weighted average**
 
-    Assigns greater importance to values based on their weight. To calculate it, multiply each question, section or subsections score by its weight, sum up the results, and divide that by the total weight.
+    A weighted average assigns greater importance to values based on their weight. To calculate it, multiply each question, section or subsections score by its weight, sum up the results, and divide by the total weight.
 
+
+After an assessment is completed, scores are calculated and stored at multiple levels. These levels include assessment, section, subsection, and question, based on the scoring configuration defined in the template. For more information about where scores are stored and how to access them, see [Scoring results](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/governance-risk-compliance/smart-assessment-engine/scoring-results.md).
 
 ## Benefits of scoring
 

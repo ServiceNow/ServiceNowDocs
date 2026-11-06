@@ -5,16 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/resuming\_sold\_products.html
 release: yokohama
 topic_type: concept
-last_updated: "2026-10-09"
+last_updated: "2026-11-06"
 reading_time_minutes: 2
-breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Customer Life Cycle Management Workflows, Product data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Resuming sold products
 
 Resume sold products to create a resume order on the CRM Workspace.
 
-Resume single or multiple root sold products and create combined orders for suspension and resumption of products and services at the same time, to improve agent efficiency.
+Resume single or multiple root sold products and create combined orders for suspension and resumption of products and servies at the same time, to improve agent efficiency.
 
 |Task|Description|
 |----|-----------|

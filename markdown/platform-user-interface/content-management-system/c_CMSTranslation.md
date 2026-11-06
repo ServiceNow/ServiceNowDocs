@@ -7,7 +7,7 @@ release: yokohama
 product: Content Management System
 classification: content-management-system
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Content Management System, Configure UIs and portals, Configure user experiences]
 ---
@@ -19,7 +19,7 @@ You can translate CMS sites by activating internationalization plugins and manua
 Two tables support the translation of a CMS site into other languages.
 
 -   Translated Name / Field \[sys\_translated\]: Stores strings that are shared or commonly used within a site. These include menu section names, menu item names, site breadcrumb names, link names, and footer menu links. Internationalization plugins typically provide translations for these strings. See[System Localization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/system-localization-landing.md).
--   Translated Text \[sys\_translated\_text\]: Stores unique string translations which you create when you manually translate interface elements. See [Export and edit translation records](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/t_TranslateTheInterface.md).
+-   Translated Text \[sys\_translated\_text\]: Stores unique string translations which you create when you manually translate interface elements. See Export and edit translation records.
 
 **Parent Topic:**[Content Management System](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-user-interface/content-management-system/c_ContentManagementSystem.md)
 
@@ -72,5 +72,5 @@ This example explains how to view a translated site in Japanese.
 **Related topics**  
 
 
-[Language internationalization support](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/c_LangInternationalizationSupport.md)
+[bundle-platadm.c_LangInternationalizationSupport]
 

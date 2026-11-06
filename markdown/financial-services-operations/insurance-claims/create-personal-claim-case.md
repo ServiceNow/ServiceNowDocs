@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Personal Lines Claims, Personal Lines Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Personal Lines Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create a personal claim case
@@ -24,19 +24,19 @@ Role required: sn\_ins\_claim\_pers.fnol\_representative or sn\_ins\_claim\_pers
 
 1.  Navigate to **All** &gt; **Financial Services Operations** &gt; **Workspace**.
 
-2.  Select the lists icon.
+2.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 
 3.  Create a case from the personal auto claim cases list.
 
-<table><thead><tr><th align="left" id="d102902e75">
+<table><thead><tr><th align="left" id="d124167e85">
 
 Option
 
-</th><th align="left" id="d102902e78">
+</th><th align="left" id="d124167e88">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d102902e84">
+</th></tr></thead><tbody><tr><td id="d124167e94">
 
 **Personal auto claim case from the personal auto claim case list**
 

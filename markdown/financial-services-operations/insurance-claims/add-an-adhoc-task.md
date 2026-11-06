@@ -7,9 +7,9 @@ release: yokohama
 product: Insurance Claims
 classification: insurance-claims
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing Individual Life Claims, Individual Life Claims, Claims applications, Using insurance applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Individual Life Claims, Exploring insurance claims applications, Insurance applications, Financial Services Operations \(FSO\)]
 ---
 
 # Create an ad-hoc task on a claim
@@ -30,15 +30,15 @@ You can create additional tasks as needed on a claim by using the **Add task** b
 
 2.  Create a task from the **claim workspace** tab in a case or from the tasks list.
 
-<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d85994e92">
+<table id="choicetable_otl_dtz_pbc"><thead><tr><th align="left" id="d104153e110">
 
 Option
 
-</th><th align="left" id="d85994e95">
+</th><th align="left" id="d104153e113">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d85994e101">
+</th></tr></thead><tbody><tr><td id="d104153e119">
 
 **From the claim workspace in a case**
 
@@ -46,13 +46,13 @@ Steps
 
 In the Tasks section, select **Add claim task**. The new task has the case set as the parent record.
 
-</td></tr><tr><td id="d85994e113">
+</td></tr><tr><td id="d104153e131">
 
 **From the tasks list**
 
 </td><td>
 
-1.  Select the lists icon \(\[Omitted image "inline-data-vis-list.png"\] Alt text: Lists icon.\).
+1.  Select the lists icon \(\[Omitted image "inline-data-vis-96px-list.png"\] Alt text: lists icon\).
 2.  On the **Lists** tab, select **Individual death claims tasks**, and then select **All**.
 3.  Select **New**.
 

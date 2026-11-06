@@ -1,12 +1,12 @@
 ---
 title: Configuring lookup rules
-description: By configuring lookup rules, you can map security exposure data to the correct configuration items \(CIs\) in the CMDB. This mapping is a critical function because associating exposure findings with the right assets is essential for proper risk assessment, assignment, and remediation workflows.Create lookup rules to automatically and accurately associate incoming exposure findings data with the correct configuration items \(CIs\) in the Configuration Management Database \(CMDB\) This is essential for enabling the rest of the vulnerability management process to function correctly.To ignore some configuration item \(CI\) classes, for example Load Balancer \[cmdb\_ci\_lb\], when running CI Lookup Rules, set the ignoreCIClass \[sn\_sec\_cmn.ignoreCIClass\] system property.Reapply the lookup rules on selected discovered items from the discovered item list view select actions. If the configuration item \(CI\) changes after you reapply the rules, the discovered items are updated with the new CI and impacted detections. Vulnerable items are also updated.
+description: By configuring lookup rules, you can map security exposure data to the correct configuration items \(CIs\) in the CMDB. This mapping is a critical function because associating exposure findings with the right assets is essential for proper risk assessment, assignment, and remediation workflows.Create lookup rules to automatically and accurately associate incoming exposure findings data with the correct configuration items \(CIs\) in the Configuration Management Database \(CMDB\) This is essential for enabling the rest of the vulnerability management process to function correctly.To ignore some configuration item \(CI\) classes, for example Load Balancer \[cmdb\_ci\_lb\], when running lookup rules, set the ignoreCIClass \[sn\_sec\_cmn.ignoreCIClass\] system property.Reapply lookup rules to ensure updated or existing rules are applied to relevant items. This helps maintain accurate data mapping and consistency after rule changes or additions.Reapply the lookup rules on selected discovered items from the discovered item list view select actions. If the configuration item \(CI\) changes after you reapply the rules, the discovered items are updated with the new CI and impacted detections. Vulnerable items are also updated.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/sem-configure-lookup-rules.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Configure rules to manage findings, Implement, Unified Security Exposure Management, Security Operations]
 ---
 
@@ -232,10 +232,6 @@ The process function has three parameters: **rule**, **sourceValue**, and **sour
 
     For more implementation information for lookup rules see, [Steps to help prevent duplicate or orphaned records after running Vulnerability Response CI lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/vulnerability-response/ci-identifier-rules-impl-test.md).
 
-    \[Omitted image "CI-LookupRules-v12.png"\] Alt text: CI lookup rule using a condition builder for version 12.0.
-
-    \[Omitted image "CI-LookupRules.png"\] Alt text: CI lookup rule using a script
-
 
 **Related topics**  
 
@@ -244,7 +240,7 @@ The process function has three parameters: **rule**, **sourceValue**, and **sour
 
 ## Ignore CI classes
 
-To ignore some configuration item \(CI\) classes, for example Load Balancer \[cmdb\_ci\_lb\], when running CI Lookup Rules, set the **ignoreCIClass** \[**sn\_sec\_cmn.ignoreCIClass**\] system property.
+To ignore some configuration item \(CI\) classes, for example Load Balancer \[cmdb\_ci\_lb\], when running lookup rules, set the **ignoreCIClass** \[**sn\_sec\_cmn.ignoreCIClass**\] system property.
 
 ### Before you begin
 
@@ -272,6 +268,61 @@ If you have upgraded from any Security Operations application, prior to version 
 
     This list is used by CI Lookup Rules during the next import. Vulnerable items created during import are not associated to a CI of any type listed in the **Value** field of the `sn_sec_cmn.ignoreCIClass` system property.
 
+
+## Reapply lookup rules
+
+Reapply lookup rules to ensure updated or existing rules are applied to relevant items. This helps maintain accurate data mapping and consistency after rule changes or additions.
+
+### Before you begin
+
+Role required: sn\_vul.vulnerability\_admin, sn\_vul\_cmn.usem\_admin, sn\_vul.app\_sec\_manager, sn\_vul\_container.admin, sn\_vulc.admin
+
+### About this task
+
+Reapplying lookup rules is useful when:
+
+-   Look-up rules are updated or newly created.
+-   Findings were previously unassigned or incorrectly assigned.
+-   You must reassign ownership based on updated business logic or CI ownership changes.
+
+**Note:**
+
+For Vulnerability Response \(VR\) lookup rules, two background jobs are simultaneously initiated after you select **Reapply**: one for Vulnerability Response \(VR\) rules and one for Application Vulnerability Response \(AVR\) rules.
+
+To keep these jobs distinct and to prevent conflicts, the AVR and VR lookup rules have the **Applies to field** on lookup rule records, which by default is not populated.
+
+If you're [creating lookup rules](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/sem-configure-lookup-rules.md) for third-party and ServiceNow® integrations that support both Application Vulnerability Response \(AVR\) and Vulnerability Response \(VR\) like the Vulnerability Response Integration with Wiz, for example, you might want to create two separate rules, one for VR and one for AVR and choose one in the Applies to field:
+
+-   **Discovered Item** - for Vulnerability Response lookup rules.
+-   **Discovered Application** - for Application Vulnerability Response lookup rules.
+
+With this distinction set, after the respective background jobs for AVR and VR are completed, the system resets the flag only for the lookup rules for the background job that was run.
+
+### Procedure
+
+1.  Navigate to **Workspaces** &gt; **Security Exposure Management Workspace**.
+
+2.  Select **Administration** \[gear icon\] in the navigation pane.
+
+3.  Select **Review** on the **Look-up rules** tile.
+
+4.  On the Rules page, select **Look-up rules** in the navigation pane.
+
+5.  Select **Reapply**.
+
+    All the rules are reapplied regardless of any filters.
+
+6.  Alternatively, you can navigate to the Lookup Rules \[sn\_sec\_cmn\_ci\_lookup\_rule\] table, select individual rules, edit the records, and update them.
+
+7.  Select **Apply Changes** to apply your recent changes to existing discovered items.
+
+    **Note:** Depending on your number of discovered items, evaluating them with your updated rules might take some time.
+
+
+**Related topics**  
+
+
+[Reapply lookup rules on selected discovered items]()
 
 ## Reapply lookup rules on selected discovered items
 

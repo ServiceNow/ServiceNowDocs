@@ -1,20 +1,20 @@
 ---
-title: Using AI agents in Now Assist for Health and Safety Incident Management
-description: Use the Create actions for safety incidents agentic workflow to create one or more autonomous actions for Health and Safety incidents through the Now Assist panel.
+title: Using agentic workflows in Now Assist for Health and Safety
+description: Use the Health and Safety agentic workflow collection to complete tasks autonomously through the ServiceNow Otto panel.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-health-and-safety/ai-agents-now-assist-hs-using.html
 release: yokohama
 product: Now Assist for Health and Safety
 classification: now-assist-for-health-and-safety
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ServiceNow Otto for Health and Safety, Health and Safety, Employee Service Management]
 ---
 
-# Using AI agents in Now Assist for Health and Safety Incident Management
+# Using agentic workflows in Now Assist for Health and Safety
 
-Use the Create actions for safety incidents agentic workflow to create one or more autonomous actions for Health and Safety incidents through the Now Assist panel.
+Use the Health and Safety agentic workflow collection to complete tasks autonomously through the ServiceNow Otto panel.
 
 <table id="table_glr_gft_w2c"><thead><tr><th>
 
@@ -34,18 +34,44 @@ Create actions for safety incidents
 
 </td><td>
 
-The Now Assist panel suggests a list of actions for a safety incident and creates the action in the incident under the Health and Safety actions related items. 
+The ServiceNow Otto panel suggests a list of actions for a safety incident and creates the action in the incident under the Health and Safety actions related items. 
 
 </td><td>
 
 -   Health and safety incident analysis AI agent
 -   Health and Safety action planner AI agent
 
+</td></tr><tr><td>
+
+Help resolve health and safety cases agentic workflow
+
+</td><td>
+
+The ServiceNow Otto panel reviews historical cases, analyzes actions taken, and reviews available knowledge base articles to generate suitable action plans.
+
+</td><td>
+
+Health and safety case analyzer AI agent
+
+</td></tr><tr><td>
+
+Health safety incident patterns assistant
+
+</td><td>
+
+The ServiceNow Otto panel reviews and analyzes patterns across available safety incident records and recommends corrective action.
+
+</td><td>
+
+Health and safety pattern intelligence orchestrator
+
 </td></tr></tbody>
-</table>**Important:** All agentic workflows and AI agent records are read-only by default.
+</table>**Important:** All agentic workflows and AI agent records are read only by default.
 
 To run the AI agents autonomously, duplicate the agentic workflow if needed and then do the following steps:
 
 -   Activate the agentic workflow. For more information, see [Activate an agentic workflow template](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-aia-use-case.md).
 -   Activate the trigger to invoke the agentic workflow automatically.
+
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 

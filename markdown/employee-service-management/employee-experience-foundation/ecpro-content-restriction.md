@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Setup employee communications, Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Setup employee communications, Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Content Ownership
@@ -23,6 +23,9 @@ Content Ownership gives control over three areas of Content Publishing:
 -   Who sees the content \(Audience\)
 -   Where can a content manager publish content \(Topic or Page\)
 -   What content can the content manager create \(Content item\)
+
+    **Note:** Content Managers can create audiences. To enable this, the Allow Ownership for Audiences option must be turned off. If the Ownership Property is enabled, the Content Manager will not have permission to create audiences. See, [Create an auidence](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-audiences.md).
+
 
 <table id="table_c3r_454_2bc"><thead><tr><th>
 

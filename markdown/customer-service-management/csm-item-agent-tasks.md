@@ -1,22 +1,22 @@
 ---
-title: Creating incident, problem, change, and request records from Agent Workspace
-description: As customer service agents, create incident, problem, change, and request records from open cases in Agent Workspace.As a customer service agent, create an incident record from a case or associate an existing incident to a case in Agent Workspace.As a customer service agent, create a problem record from a case or associate an existing problem to a case in Agent Workspace.As a customer service agent, create a normal change record from a case or associate an existing normal change to a case in Agent Workspace.As a customer service agent, create a standard change record from a case or associate an existing standard change to a case in Agent Workspace.As a customer service agent, create a request record from a case or associate an existing request to a case in Agent Workspace.
+title: Create incident, problem, change, and request records from cases
+description: As customer service agents, create incident, problem, change, and request records from open cases in workspaces.As a customer service agent, create an incident record from a case or associate an existing incident with a case in CRM Workspace.As a customer service agent, create a problem record from a case or associate an existing problem with a case in CRM Workspace.As a customer service agent, create a normal change record from a case or associate an existing normal change record with a case in CRM Workspace.As a customer service agent, create a standard change record from a case or associate an existing standard change record with a case in CRM Workspace.As a customer service agent, create a request record from a case or associate an existing request with a case in CRM Workspace.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-item-agent-tasks.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Integrating with IT Service Management, Integrating Customer Service Management with other applications, Customer Service Management]
+breadcrumb: [Integrate with IT Service Management, Integrate, Customer Service Management]
 ---
 
-# Creating incident, problem, change, and request records from Agent Workspace
+# Create incident, problem, change, and request records from cases
 
-As customer service agents, create incident, problem, change, and request records from open cases in Agent Workspace.
+As customer service agents, create incident, problem, change, and request records from open cases in workspaces.
 
-## Create an incident record from Agent workspace
+## Create an incident record from a case
 
-As a customer service agent, create an incident record from a case or associate an existing incident to a case in Agent Workspace.
+As a customer service agent, create an incident record from a case or associate an existing incident with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -51,9 +51,9 @@ Information about the incident is added as follows:
 -   If the case has an associated Problem, Change Request, or Caused by Change record, this information is also copied to the incident record.
 -   The domain of the incident is mapped to the domain of the case.
 
-## Create a problem record from Agent workspace
+## Create a problem record from a case
 
-As a customer service agent, create a problem record from a case or associate an existing problem to a case in Agent Workspace.
+As a customer service agent, create a problem record from a case or associate an existing problem with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -89,9 +89,9 @@ Information about the problem is added as follows:
 -   The case number is added to the Customer Cases related list on the Problem record.
 -   The domain of the problem is mapped to the domain of the case.
 
-## Create a normal change record from Agent workspace
+## Create a normal change record from a case
 
-As a customer service agent, create a normal change record from a case or associate an existing normal change to a case in Agent Workspace.
+As a customer service agent, create a normal change record from a case or associate an existing normal change record with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -192,14 +192,14 @@ Configuration item**Note:** The change manager can update the configuration item
 Information about the change is added as follows:
 
 -   An update with the change number is added to the case work notes.
--   The change is added to the **Change Request** field within the **Related Records** form section on the case form.
--   The case number is added to the Customer Cases related list on the Change record.
+-   The change is added to the **Change Request** field in the **Related Records** form section on the case form.
+-   The case number is added to the Customer Cases related list on the Chnage record.
 -   The **Requested by** field on the change record is updated with the case agent.
 -   The domain of the change is mapped to the domain of the case.
 
-## Create a standard change record from Agent workspace
+## Create a standard change record from a case
 
-As a customer service agent, create a standard change record from a case or associate an existing standard change to a case in Agent Workspace.
+As a customer service agent, create a standard change record from a case or associate an existing standard change record with a case in CRM Workspace.
 
 ### Before you begin
 
@@ -214,9 +214,9 @@ Role required: sn\_customerservice\_agent, sn\_customerservice.consumer\_agent
     The standard change record is created using the Standard Change template, which is defined in the Standard Change catalog. The data mapping is created from the template; no data is copied from the case to the change record.
 
 
-## Create a request record from Agent workspace
+## Create a request record from a case
 
-As a customer service agent, create a request record from a case or associate an existing request to a case in Agent Workspace.
+As a customer service agent, create a request record from a case or associate an existing request with a case in CRM Workspace.
 
 ### Before you begin
 

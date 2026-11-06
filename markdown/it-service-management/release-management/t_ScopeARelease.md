@@ -7,9 +7,9 @@ release: yokohama
 product: Release Management
 classification: release-management
 topic_type: task
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Use, Release Management, IT Service Management]
+breadcrumb: [Using Release Management v2, Release Management, IT Service Management]
 ---
 
 # Define scope of a release in Release Management

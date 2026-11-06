@@ -7,9 +7,9 @@ release: yokohama
 product: Employee Experience Foundation
 classification: employee-experience-foundation
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Configure, Employee Center Pro, Unified Employee Experience, Employee Service Management]
+breadcrumb: [Configuring Employee Center Pro, Employee Center Pro, EmployeeWorks, Employee Service Management]
 ---
 
 # Managing portal performance
@@ -43,6 +43,8 @@ To improve page load times, limit the number of connected content items in topic
 
 For guidance on managing connected content, see [Create and associate topics](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/create-topics-for-taxonomy.md) and [Taxonomy and connected content](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/track-new-content.md).
 
+-   **[Portal performance optimization](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ec-load-experience-optimization.md)**  
+Learn more about the heavy-load and high-traffic scenarios and ways to optimize the user experience and portal performance.
 -   **[Improve portal load time with asynchronous loading](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/optimize-performance-of-employee-center-home-page.md)**  
 Reduce the time employees spend waiting for the portal to load by enabling widgets to load data asynchronously. This allows widgets to display information as it becomes available, improving overall portal performance.
 -   **[Improve the image load time on Employee Center](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/optimize-image-loading.md)**  
@@ -51,8 +53,6 @@ Use CDN URLs to reduce the load time of the banner images, background images, an
 View the metrics provided by the performance window to identify which widgets take the longest to load data.
 -   **[Add hotspots to track custom widget performance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/add-hotspots-track-custom-widget-performance.md)**  
 Hotspots help capture and log widget load times, which enables better debugging of long portal load times.
--   **[Portal Concurrency](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/ce-portal-concurrency-performance.md)**  
-Discover ways to improve performance and enhance portal concurrency content.
 
 **Parent Topic:**[Configuring Employee Center Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/employee-experience-foundation/configuring-employee-center-pro.md)
 

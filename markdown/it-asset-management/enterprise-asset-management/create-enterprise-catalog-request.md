@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise asset reclamation, Using Service Catalog for Enterprise Asset Management requests and flows, Enterprise Asset Management, Asset Management]
 ---
 
 # Create a catalog request to reclaim enterprise assets
@@ -113,4 +113,6 @@ Any instructions that you may want to mention.
 
     The enterprise asset reclamation request is created. Once the request is created, the enterprise\_asset\_technician role navigates to the Enterprise Asset Workspace to view the reclamation line and complete the tasks. For more details, see [Close an enterprise asset reclamation request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/close-enteprise-reclamation-request.md).
 
+
+**Parent Topic:**[Enterprise asset reclamation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/enterprise-asset-management/enterprise-asset-reclamation.md)
 

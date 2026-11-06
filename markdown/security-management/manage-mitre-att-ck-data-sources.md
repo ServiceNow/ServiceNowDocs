@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/manage-mitre-att-ck-data-sources.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 6
 breadcrumb: [MITRE-ATT&amp;CK administration, MITRE-ATT&amp;CK framework overview, Threat Intelligence, Enterprise security case management applications, Security Operations]
 ---
@@ -32,10 +32,6 @@ All the active tactics, techniques, ID, and data sources are automatically popul
 ## Procedure
 
 1.  Navigate to **All** &gt; **Threat Intelligence** &gt; **MITRE ATT&amp;CK Administration** &gt; **Data Source Mapping**.
-
-    The following illustration shows the list of tactics, techniques, and their IDs that have been populated based on your collection updates.
-
-    \[Omitted image "mitre-data-source-mapping.png"\] Alt text: Map data sources.
 
 <table id="table_ayl_v1r_znb"><thead><tr><th>
 
@@ -122,10 +118,6 @@ The data source mapping for a record is revoked if the technique and data source
     2.  Unlock **Detection Tool** entry.
     3.  Use the lookup list to select a detection tool. You can multi-select detection tools.
     4.  Select **Update**.
-    In the following illustration, multiple detection tools are added to monitor the data source.
-
-    \[Omitted image "mitre-select-detection-tool.gif"\] Alt text: How to map the detection tool.
-
 
 **Parent Topic:**[MITRE-ATT&amp;CK administration](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/mitre-att-ck-administration.md)
 

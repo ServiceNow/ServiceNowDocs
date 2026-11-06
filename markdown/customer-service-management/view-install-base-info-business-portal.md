@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/view-install-base-info-business-portal.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Business Portal, Customer communication, Using Customer Service Management, Customer Service Management]
+breadcrumb: [Use Business Portal, Customer communication, Use, Customer Service Management]
 ---
 
 # View install base information from the Business Portal
@@ -36,4 +36,11 @@ You can view all cases and the service status from the last 30 days as well as a
 
 4.  To create a case directly from the install base details, select **Create Case**.
 
+
+**Related topics**  
+
+
+[Create a case for install base from the Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/create-case-install-base-business-portal.md)
+
+[View product information from Business Portal](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/view-product-info-business-portal.md)
 

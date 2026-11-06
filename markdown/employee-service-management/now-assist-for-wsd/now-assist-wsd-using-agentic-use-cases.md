@@ -1,24 +1,24 @@
 ---
-title: Using AI agent workflows in Now Assist for WSD
-description: Agentic workflows in Now Assist for WSD completes workplace tasks autonomously.
+title: Using AI agent workflows in ServiceNow Otto for WSD
+description: Agentic workflows in ServiceNow Otto for WSD help complete workplace tasks autonomously.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-using-agentic-use-cases.html
 release: yokohama
 product: Now Assist for WSD
 classification: now-assist-for-wsd
 topic_type: concept
-last_updated: "2025-09-10"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
-breadcrumb: [Now Assist for WSD, Workplace Service Delivery, Employee Service Management]
+breadcrumb: [ServiceNow Otto for Workplace Service Delivery \(WSD\), Workplace Service Delivery, Employee Service Management]
 ---
 
-# Using AI agent workflows in Now Assist for WSD
+# Using AI agent workflows in ServiceNow Otto for WSD
 
-Agentic workflows in Now Assist for WSD completes workplace tasks autonomously.
+Agentic workflows in ServiceNow Otto for WSD help complete workplace tasks autonomously.
 
 <table id="table_gyx_brq_l2c"><thead><tr><th>
 
-Agentic Workflow name
+Agentic AI Workflow Name
 
 </th><th>
 
@@ -41,7 +41,7 @@ This team of AI agents come together when there’s a meeting room maintenance c
 -   The location is blocked by AI agents for maintenance.
 -   If there are any existing reservations in the maintenance workspace, AI agents relocate or move the reservations to an available location.
 
- AI agents reduce repetitive tasks for Workplace event planners. They provide assistance and verify that employees have access to functional spaces within an organization during an outage or emergency maintenance. AI Agents handle the work for Workplace Event Planners so that they can focus on more important and complex tasks that require human intervention. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown).
+ AI agents reduce repetitive tasks for Workplace event planners. They provide assistance and verify that employees have access to functional spaces within an organization during an outage or emergency maintenance. AI Agents handle the work for Workplace Event Planners so that they can focus on more important and complex tasks that require human intervention. For more information, see [Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md).
 
 </td><td>
 
@@ -100,21 +100,30 @@ The AI agent helps map admins configure the map during bulk updates to Indoor Ma
 
 Map Admin Agent
 
+</td></tr><tr><td>
+
+Workplace Advisor QnA
+
+</td><td>
+
+The Workplace Advisor QnA agentic AI workflow allows Reservation Managers to use the ServiceNow Otto panel to ask natural language questions about workplace reservations.
+
+</td><td>
+
+Workplace Reservation QnA Agent
+
 </td></tr></tbody>
 </table>**Important:** All use case and AI agent records are read only by default.
 
-To run the AI agents autonomously, you must first duplicate the agentic workflow, and then, do the following steps:
+To run the AI agents autonomously, you must first duplicate the agentic workflow, and complete the following steps:
 
 -   Activate the use case.
 -   Activate all agents within the use case.
 -   Activate the trigger to invoke the use case automatically. If you prefer to invoke it manually, activating the trigger isn't necessary.
 
-Looking for an AI agent?
+There might be AI agents installed on your instance that are not used in agentic workflows. To learn how to see all agents that are available to you, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
 
--   There might be AI agents installed with the Now Assist application that are not used in agentic workflows. To learn how to see all agents that are available on your instance, see [Find AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/find-ai-agents.md).
--   To find agents that might not be installed on your instance, visit the [AI Agent Marketplace](https://store.servicenow.com/store/ai-marketplace) on the ServiceNow Store.
-
--   **[Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown)**  
+-   **[Manage temporary space closures agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/maintenance-meeting-room-agent-ai.md)**  
 This team of AI agents temporarily block a location when there’s an emergency workplace maintenance case is submitted.
 -   **[Help manage workplace reservations agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/manage-workplace-reservations-agent-ai.md)**  
 The Help manage workplace reservations agentic AI workflow enables Workplace Event Planners with rescheduling a planned reservation. AI Agents gather relevant information from a workplace reservation and update an existing planned reservation with a new date, time, and duration.
@@ -122,6 +131,12 @@ The Help manage workplace reservations agentic AI workflow enables Workplace Eve
 The Optimize cleaning activities agent performs cleaning activities on a workplace location based on the space utilization threshold data.
 -   **[Automate map updates agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/automate-map-updates-agent-ai.md)**  
 This AI agent helps map admins configure the map during bulk updates to Indoor Mapping.
+-   **[Workplace Concierge agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/workplace-concierge-ai-agent.md)**  
+Use the Workplace Concierge agentic workflow to register visitors from existing communication tools like emails, calendars, or the Virtual Agent.
+-   **[Process image to record agent for workplace case creation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/process-image-to-record-agent-for-workplace-case-creation.md)**  
+The Process image for new tasks workflow enables workplace users to report workplace issues by capturing and uploading images through the virtual agent interface. The system automatically analyzes the image and creates a workplace case with populated fields including short description, description, and priority.
+-   **[Implement Autonomous L1 Agent for Workplace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/implement-autonomous-l1-agent-for-workplace.md)**  
+Use the Autonomous L1 Agent for Workplace agent that automatically resolves frequently asked General Inquiry workplace cases without requiring manual agent intervention.
 
-**Parent Topic:**[Now Assist for WSD](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
+**Parent Topic:**[ServiceNow Otto for Workplace Service Delivery \(WSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-wsd/now-assist-wsd-landing.md)
 

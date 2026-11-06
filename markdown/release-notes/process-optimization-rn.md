@@ -1,104 +1,118 @@
 ---
 title: Process Mining release notes
-description: The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Yokohama release.The ServiceNow Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Yokohama release.
+description: The ServiceNow Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.The Brazil release delivers meter-based usage guardrails and a redesigned evaluation project experience so you can control costs and explore Process Mining risk-free. This release also adds automatic content packs and template management capabilities, deeper playbook analytics, and quick starters for transition and finding filters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/process-optimization-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Platform Analytics release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
 # Process Mining release notes
 
-The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Yokohama release.
+The ServiceNow® Process Mining application helps analysts and process owners quickly analyze and optimize their business processes.
 
 ## About Process Mining
 
--   Now Assist based work notes analysis
--   Process configuration builder introduced
--   Content pack importer introduced for process configurations
--   Process Mining evaluation project available for HR and CSM
--   Access control \(ACL\) rules updated
+-   See your real processes, not assumptions — automated discovery maps actual workflow paths from audit logs.
+-   Find where work breaks down — bottleneck and root-cause analysis pinpoint stalled approvals and rework.
+-   Accelerate value with proven templates — best-practice content packs give you ready-made starting points.
+-   Prove every change works — side-by-side comparisons confirm improvements and catch regressions.
+-   Govern humans and AI, together — trace performance across people, automations, and AI agents in one view.
 
 See [Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/process-mining.md) for more information.
-
-**Important:** Process Mining is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
 
 ## Activation and other requirements
 
 -   **Activation information**
 
-    Process Mining is available with activation of the sn\_po plugin. For details, see [Activating Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/activating-process-mining.md).
+    Process Mining is available by default. For details, see [Access Process Mining](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/activate-po-plugin.md).
 
 
 **Parent Topic:**[Platform Analytics release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/analytics-intel-report-rn-landing.md)
 
-## Yokohama
+## Brazil Early Availability
 
-The ServiceNow® Process Mining application enables analysts and process owners to view their business processes, analyze them, and make decisions that improve their processes. Process Mining was enhanced and updated in the Yokohama release.
+The Brazil release delivers meter-based usage guardrails and a redesigned evaluation project experience so you can control costs and explore Process Mining risk-free. This release also adds automatic content packs and template management capabilities, deeper playbook analytics, and quick starters for transition and finding filters.
 
 ### What's new
 
--   **[Now Assist based work notes analysis](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/worknotes-analysis.md)**
+-   **Meter-based usage guardrails and controls introduced**
 
-    Work notes analysis is now enhanced using Now Assist to understand the operational reasons behind activity transitions by examining the work notes and comments recorded around the time of these transitions.
+    Configure table-level guardrails and mandatory filters to control entitlement usage and prevent unexpected overage charges. Projects with configured guardrails are automatically validated, capped, or flagged before mining starts.
 
--   **[Process configuration builder introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/create-process-config.md)**
+-   **Process Mining for Playbooks enhanced**
 
-    Configure and view the process configurations efficiently by using the new comprehensive Process configuration builder. It is a guided setup to configure and view the process configurations.
+    Playbook projects are enhanced:
 
--   **[Content pack importer introduced for process configurations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/po-content-pack.md)**
+    -   to configure and analyze breakdowns based on the trigger record of a playbook
+    -   to filter playbook executions by recency to focus on current performance trends
+    -   to view execution-time histograms for each activity and phase to identify performance patterns and outliers
+    -   to compare playbook variants on overall and per-activity efficiency
+-   **[Evaluation project experience improved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/evaluate-pm.md)**
 
-    Import and customize the content pack process configuration templates to activate new features. Content pack process configuration templates are now read-only.
+    Explore evaluation projects directly from the Process Mining workspace landing page, with guided onboarding that highlights key areas of the interface and suggests where to start exploring. Human Resources and Security Operations users get personal evaluation projects scoped to their own data access, so no administrator impersonation is required.
 
--   **[Process Mining evaluation project available for HR and CSM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/evaluation-pm-inci-manag.md)**
+-   **AI-assisted process configuration**
 
-    Ability to try out the sample mining and limited features available for HR and CSM without an entitlement. For the advanced features, you can purchase a license.
+    Generate process configuration field values with AI directly from the process configuration header, then review, select, and confirm the suggested fields before applying them. Map states to stakeholder responsibilities with AI in the Process details step.
 
--   **[Access control \(ACL\) rules updated](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/access-control.md)**
+-   **Launch Process Mining from any ServiceNow workspace**
 
-    The ACL rules have been updated for broader visibility on the try-out version while also increasing the security.
+    Create a Process Mining project directly from a list of records from any ServiceNow workspace.
 
-    -   No Process Mining role is required to access a shared project and to generate Platform Analytics insights for some tables.
-    -   Some breakdown filters or activity definitions are blocked for certain users based on the column access.
--   **[Process Mining performance improved](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/analyst-workbench-overview.md)**
+-   **[Project sharing with edit rights](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/share-project.md)**
 
-    The following improvements boost Process Mining performance and lead to quicker insights:
+    Share a project with other users as **Can view** or **Can edit**. Users with edit rights can modify the project definition and perform mining, but can't share or delete the project.
 
-    -   Introduced lazy loading of improvement opportunities and variants for faster workspace loading.
-    -   Introduced applying a transition filter before mining to reduce scope of data and speed up the mining process.
-    -   Improved Process Mining workbench load time.
--   **[Transition filters enhanced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/node-to-node-conditions.md)**
+-   **Contextual Task Mining project names**
 
-    The enhanced transition filters now provide more flexibility and precision in filtering the process map by providing the following:
+    Task Mining projects launched from Process Mining include the triggering node or improvement opportunity name in the project name, making it easier to distinguish between multiple task mining projects.
 
-    -   Ability to use `OR` clause on steps to create a more complex and nuanced criteria for process transitions.
-    -   Include predicates like "is empty" and "is not empty" allowing for more refined control over the conditions under which transitions occur, ensuring that workflows are both comprehensive and adaptable to a variety of scenarios.
-    -   Ability to select more than one value with a single click that contains a specific text.
--   **[Enhanced the Process Mining engine](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/set-activity-def.md)**
+-   **Template creation and management introduced**
 
-    Key updates include:
+    Create multiple templates per table to support several distinct use cases instead of one generic configuration.
 
-    -   Defining integer fields as activity definitions.
-    -   Grouping journal fields to identify how quickly an agent reacted to an assigned case.
-    -   Defining the order of simultaneous activities on the graph.
--   **[Addition﻿al breakdown capacity for Process Mining on external data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/external-dataset.md)**
+-   **Preset filters for transitions introduced**
 
-    Ability to import a maximum of 10 breakdown fields enabling to segment and analyze specific subsets of the external process data using Process Mining.
+    Create filters from the available filters after selecting the Select quick starter from Process steps in Analyst workbench. This makes the process of creating filters easier and faster.
 
--   **[API for accessing Process Mining data](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/define-workflow-model.md)**
+-   **[Three new system properties added](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/components-installed.md)**
 
-    Create, mine, and access Process Mining data via an API \(ProcessMiningIntegrationAPI\). For more information, see the API documentation.
+    The following three system properties are added:
 
+    -   promin.metered\_usage.allow\_unrestricted
+    -   promin.metered\_usage.warning\_limit
+    -   promin.workspace.hide\_from\_navigation
 
 ### What's changed
 
--   **[Usability improvements introduced](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/now-intelligence/explore-process-mining.md)**
+-   **Content packs availability changed**
 
-    A few improvements are introduced for ease of usability.
+    Access content packs for the following automatically when the corresponding application plugin is active and the associated table is present:
 
-    -   View the improvement opportunities on the Summary and Insights page as a card view or list view.
-    -   Rename the scheduled tasks that help to identify and view a specific result.
+    -   IT Service Management
+    -   Customer Service Management
+    -   HR Service Delivery
+    -   Strategic Portfolio Management
+    -   Security Incident Response
+    -   Field Service Management
+
+### What's deprecated or removed
+
+-   **Two APIs deprecated**
+
+    The following two APIs are deprecated:
+
+    -   promin.api.allow\_no\_role\_mining
+    -   promin.api.auto\_share\_project\_with\_creator
+
+### Plugin information
+
+-   **Renamed or changed plugins**
+
+    Now Assist for Process Mining: Renamed to ServiceNow Otto for Process Mining.
+
 

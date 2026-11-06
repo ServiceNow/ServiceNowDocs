@@ -1,5 +1,5 @@
 ---
-title: CSDM implementation stages — Walk
+title: CSDM implementation stage — Walk
 description: In the Walk stage, you identify and populate the network infrastructure CIs and applications that your organization's technical teams support.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-implement-walk-stage.html
@@ -7,12 +7,12 @@ release: yokohama
 product: Common Service Data Model \(CSDM\)
 classification: common-service-data-model-csdm
 topic_type: concept
-last_updated: "2026-01-05"
+last_updated: "2026-09-10"
 reading_time_minutes: 4
 breadcrumb: [Implement, CSDM, Configuration Management, Extend ServiceNow AI Platform capabilities]
 ---
 
-# CSDM implementation stages — Walk
+# CSDM implementation stage — Walk
 
 In the Walk stage, you identify and populate the network infrastructure CIs and applications that your organization's technical teams support.
 
@@ -20,9 +20,9 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
 -   **Managing discovered infrastructure CIs**
 
-    The operations facilitate managing the discovered infrastructure CIs. You might manually managing the metadata on these CIs, such as support group and technical approval group. By identifying the technical service offering that manages the CIs, you can:
+    The operations facilitate managing the discovered infrastructure CIs. You might manually managing the metadata on these CIs, such as support group and technical approval group. By identifying the Technology management offering that manages the CIs, you can perform the following operations:
 
-    -   Configure ServiceNow to populate and synchronize this metadata onto the related child objects.
+    -   Configure the instance to populate and synchronize this metadata onto the related child objects.
     -   Eliminate the manual effort of maintaining the metadata on thousands of CIs.
 -   **View supported CIs**
 
@@ -36,7 +36,7 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
     The operations build the foundation for using Service Portfolio Management \(Service Portfolio Management\).
 
-    You can start using Service Portfolio Management more quickly because your service data are in the right place.
+    You can start using Service Portfolio Management more quickly because your service data are in the correct place.
 
 -   **Use the request catalog**
 
@@ -44,13 +44,13 @@ In the Walk stage, you identify and populate the network infrastructure CIs and 
 
     **Note:** The request catalog is not a CMDB table.
 
--   **Prepare for ITOM\) products**
+-   **Prepare for ITOM products**
 
-    The operations build the foundation for Information Technology Operations Management \(ITOM\) products, such as Service Mapping and Discovery\).
+    The operations build the foundation for Information Technology Operations Management \(ITOM\) products, such as Service Mapping and Discovery.
 
 -   **Enable Automation**
 
-    The operations enable more automated methods of grouping CIs for identification and management by Technical service offerings.
+    The operations enable more automated methods of grouping CIs for identification and management by Technology management offerings.
 
 
 ## Tables that you work on during the Walk stage
@@ -59,15 +59,15 @@ The walk stage includes base-system CMDB tables that identify the technology pro
 
 **Note:** Some of the classes that you implement in this stage are logical CIs. Logical CIs aren’t created through Discovery, so their **Model ID** values might not refer to product model \(application model, service model, or software model\) records. To help you to migrate to a product-centric management paradigm, each instance of a logical CI should be associated with a product model. See [Auto-generate product models for logical CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-auto-create-prod-model-for-ci.md).
 
-\[Omitted image "walk-stage.png"\] Alt text: Tables that you work on during the Walk stage.
+\[Omitted image "implementation-stage-walk.png"\] Alt text: Tables that you work on during the Walk stage.
 
--   **Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service — renamed in CSDM v5\), or \[cmdb\_query\_based\_services\] for Event Management**
+-   **Technology management service \[cmdb\_ci\_service\_technical\] table \(formerly Technical service\), or \[cmdb\_query\_based\_services\] for Event Management**
 
     The cmdb\_ci\_service\_technical table has a service classification of "technical service". This base-system CMDB table identifies the provider of the technology that your business consumes.
 
--   **Technical service offering \[service\_offering\] table**
+-   **Technology management offering \[service\_offering\] table**
 
-    A technical service offering is a service offering with a service classification of "technical service". Technical service offerings may be further divided as follows:
+    A Technology management offering is a service offering with a service classification of "technical service". Technology management offerings may be further divided as follows:
 
     -   Location and geography
     -   Environment \(production or non-production\)
@@ -76,13 +76,13 @@ The walk stage includes base-system CMDB tables that identify the technology pro
     -   Support group \(for Incident Management\)
     -   Technical approval group \(for Change Management\)
     -   Packaging options \(commitments\)
-    The technical service offering comes from the service, based on how the parent serves a specific technical need. Every operational technology management service must be associated with at least one technical service offering.
+    The Technology management offering comes from the service, based on how the parent serves a specific technical need. Every operational Technology management service must be associated with at least one Technology management offering.
 
-    **Note:** Not all technical service offerings have to be related to applications or infrastructure CIs. Managed Service Providers can provide technical service offerings.
+    **Note:** Not all Technology management offerings have to be related to applications or infrastructure CIs. Managed Service Providers can provide Technology management offerings.
 
--   **Dynamic CI group table \[cmdb\_ci\_query\_based\_service\]**
+-   **Dynamic CI group \[cmdb\_ci\_query\_based\_service\] table**
 
-    A dynamic CI group is a collection of CIs based on the results of saved Query Builder queries, encoded queries, or manual entries. Query Builder is described in [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md). For more information about dynamic CI groups and how you can use them, see [Manage Technology Management Services domain in the CSDM framework](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-tech-servs-domain.md).
+    A dynamic CI group is a collection of CIs based on the results of saved Query Builder queries, encoded queries, or manual entries. Query Builder is described in [Exploring CMDB Query Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/configuration-management-database-cmdb/querying-cmdb.md). For more information about dynamic CI groups and how you can use them, see [Manage Portfolio domain in the CSDM model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/manage-business-services-domain.md).
 
 
 **Parent Topic:**[Implementing the CSDM framework in stages](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/common-service-data-model-csdm/csdm-implementation-stages.md)

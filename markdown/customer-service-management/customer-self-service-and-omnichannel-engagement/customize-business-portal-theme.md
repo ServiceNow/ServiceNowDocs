@@ -1,28 +1,28 @@
 ---
-title: Setup the theme for Business Portal
-description: Customize the theme of the business portal to add font and theme style sheets.
+title: Setup the theme for Business and Consumer Portals
+description: Customize the theme of the Business and Consumer Portals to add font and theme style sheets.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/customize-business-portal-theme.html
 release: yokohama
 product: Customer Self-service and Omnichannel Engagement
 classification: customer-self-service-and-omnichannel-engagement
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setup the Business Portal, Configure Business Portal, Set up self-service, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Set up Business and Consumer Portal, Configure Business and Consumer Portal, Configure portals, Set up self-service, Configure, Customer Service Management]
 ---
 
-# Setup the theme for Business Portal
+# Setup the theme for Business and Consumer Portals
 
-Customize the theme of the business portal to add font and theme style sheets.
+Customize the theme of the Business and Consumer Portals to add font and theme style sheets.
 
 ## Before you begin
 
-Role required: admin
+Role required: sp\_admin
 
 ## About this task
 
-The default theme for the business portal is the Coral Theme. You can use your own theme according to your branding.
+The default theme for the Business and Consumer Portals is the Coral Theme. You can use your own theme according to your branding.
 
 You must customize your theme to add font or theme size-related style sheets.
 
@@ -55,8 +55,13 @@ You must customize your theme to add font or theme size-related style sheets.
 
     3.  Set the order of portal-polaris-kb-rem-px-theme as the highest.
 
-    **Note:** Convert any font or theme size from REMs to pixels in the CSS with a conversion factor of 10. For example, 10 REMs should be changed to 100 pixels.
+    **Note:** Convert any font or theme size from rems to pixel in the CSS with a conversion factor of 10. For example, 10 rems should be changed to 100 pixel.
 
 5.  Select **Update**.
 
+
+**Related topics**  
+
+
+[Portal Polaris Header widget](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/customer-self-service-and-omnichannel-engagement/portal-header-widget.md)
 

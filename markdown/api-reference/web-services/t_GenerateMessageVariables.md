@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Variable substitution in outbound REST messages, Outbound REST web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [Message variable substitution, REST, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Generate REST message variables

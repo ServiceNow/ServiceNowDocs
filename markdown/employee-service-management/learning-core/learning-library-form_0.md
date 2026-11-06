@@ -7,9 +7,9 @@ release: yokohama
 product: Learning Core
 classification: learning-core
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Learning reference, Learning, Talent Development, Employee Service Management]
+breadcrumb: [Learning reference, Learning, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Learning library form

@@ -7,9 +7,9 @@ release: yokohama
 product: Work Order Management
 classification: work-order-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Linear assets on Mobile Agent, Complete work orders on Mobile Agent, Using Field Service Management, Field Service Management]
+breadcrumb: [Linear assets, ServiceNow Agent mobile app, Completing work on mobile, Use, Field Service Management]
 ---
 
 # Start work on a linear asset task
@@ -27,7 +27,7 @@ Role required: wm\_agent
 
 ## Procedure
 
-1.  Navigate to the Now Mobile Agent application.
+1.  Navigate to the ServiceNow Agent application.
 
 2.  Tap **My Work**.
 
@@ -118,6 +118,4 @@ Detailed description of the issue.
 ## Result
 
 You have successfully inspected the selected linear asset segments in a work order task and created corresponding work orders for any segments requiring attention or maintenance.
-
-**Parent Topic:**[Linear assets on Mobile Agent](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/field-service-management/work-order-management/working-on-linear-asset-wot.md)
 

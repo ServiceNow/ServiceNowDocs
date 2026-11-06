@@ -5,7 +5,7 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-administration/allocate-subscriptions-v2.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Managing per-user subscriptions, Subscription Management, Get started, Administer the ServiceNow AI Platform]
 ---
@@ -17,6 +17,12 @@ Give users entitlement to ServiceNow products by allocating subscriptions in Sub
 ## Before you begin
 
 Role required: usage\_admin, sn\_sub\_man.admin, oradmin
+
+## About this task
+
+To simplify the Subscription Management experience, the manual allocation workflow for user-based subscriptions is unavailable if you have never used it. Automatic allocation of user-based subscriptions is based on user and group roles. For more information, see .
+
+If you have manually allocated user-based subscriptions before, you can still make manual allocations.
 
 ## Procedure
 
@@ -41,5 +47,5 @@ Role required: usage\_admin, sn\_sub\_man.admin, oradmin
 
 All group members are allocated subscriptions, giving each member entitlement to use the product. Subscribed users are updated during a daily scheduled job, so it might take up to a day for the changed to be reflected in Subscription Management.
 
-**Parent Topic:**[Managing per-user subscriptions in Subscription Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-administration/managing-user-subscriptions-v2.md)
+If you can't manually allocate user-based subscriptions despite having manually allocated them in the past, see [Missing subscribed groups and users tabs in subscription management \[KB2974856\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB2974856)
 

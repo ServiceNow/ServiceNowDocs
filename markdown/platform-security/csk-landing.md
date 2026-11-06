@@ -1,20 +1,20 @@
 ---
-title: Using customer supplied keys with Field Encryption Enterprise
+title: Using customer-supplied keys with Field Encryption Enterprise
 description: You can use your own customer-supplied key instead of using the ServiceNow system-generated keys.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-security/csk-landing.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Using Field Encryption, Field Encryption, Encryption]
 ---
 
-# Using customer supplied keys with Field Encryption Enterprise
+# Using customer-supplied keys with Field Encryption Enterprise
 
 You can use your own customer-supplied key instead of using the ServiceNow® system-generated keys.
 
-**Important:** These topics only apply instances using Field Encryption Enterprise, which is only available with the com.glide.now.platform.encryption plugin. See [Activate Field Encryption Enterprise](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md) for more information on obtaining this plugin.
+**Important:** These topics only apply instances using Field Encryption Enterprise, which is only available with the com.glide.now.platform.encryption plugin. See [Activate Field Encryption](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/activate-platform-encryption.md) for more information on obtaining this plugin.
 
 With Field Encryption Enterprise you can use your own keys for encryption. Administrators have the choice to use ServiceNow® supplied keys or your own customer-supplied keys \(CSK\) for encryption on the ServiceNow AI Platform.
 
@@ -36,7 +36,7 @@ Once you have your key, you can being using it on your instances by following th
 
 
 -   **[Configure properties for customer-supplied keys](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/customer-supplied-keys.md)**  
-If the Column Level Encryption Enterprise plugin is enabled, you can use system properties to define key padding, ephemeral key pair size, and a key validity period of your customer-supplied keys.
+If the Field Encryption Enterprise plugin is enabled, you can use system properties to define key padding, ephemeral key pair size, and a key validity period of your customer-supplied keys.
 -   **[Wrap your customer-supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/wrap-customer-supplied-key.md)**  
 Wrap the symmetric key to use for encryption with the downloaded public key.
 -   **[Configure and upload your customer supplied key](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/platform-security/upload-customer-supplied-key.md)**  

@@ -7,9 +7,9 @@ release: yokohama
 product: Event Management
 classification: event-management
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Application services in Event Management, Configuring Event Management, Event Management, ITOM Health, IT Operations Management]
+breadcrumb: [Application services in Event Management, Configure, Event Management, ITOM AIOps, IT Operations Management]
 ---
 
 # Convert manual services to application services using API
@@ -31,7 +31,7 @@ The maximum number of CI connections added to application services during this o
 
 Attempting to process more CIs than the value specified in the sa.service.max\_ci\_service\_population property causes the operation to fail.
 
-Run the conversion process in small chunks of approximately 10 at a time, to make it easier to pinpoint the problematic service in the event of a conversion problem.
+Run the conversion process in small chunks of approximately 10 at a time. This makes it easier to pinpoint the problematic service if a conversion problem occurs.
 
 Application services do not support these CI types:
 

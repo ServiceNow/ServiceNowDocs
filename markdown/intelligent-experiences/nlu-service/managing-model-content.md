@@ -1,5 +1,5 @@
 ---
-title: Build and train your model
+title: \(Legacy\) Build and train your model
 description: After creating a model, build the model's content by adding intents, entities, vocabulary, and test set utterances. Your NLU model content determines how the model responds to user inputs.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/nlu-service/managing-model-content.html
@@ -7,12 +7,12 @@ release: yokohama
 product: NLU Service
 classification: nlu-service
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 5
-breadcrumb: [Model management, Natural Language Understanding, Enable AI experiences]
+last_updated: "2026-09-10"
+reading_time_minutes: 4
+breadcrumb: [\(Legacy\) Model management, \(Legacy\) Natural Language Understanding, Machine learning and natural language capabilities, Enable AI Experiences]
 ---
 
-# Build and train your model
+# \(Legacy\) Build and train your model
 
 After creating a model, build the model's content by adding intents, entities, vocabulary, and test set utterances. Your NLU model content determines how the model responds to user inputs.
 
@@ -33,7 +33,7 @@ When your model receives user input, it uses an intent to perform a system actio
 
 Intents contain training utterances, or examples of user inputs that would trigger the system action. Provide realistic utterances that the model might encounter from your users. The quality of training utterances affects the accuracy of your model.
 
-For more information, see [NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/intents.md).
+For more information, see [\(Legacy\) NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/intents.md).
 
 ## Entities
 
@@ -43,7 +43,7 @@ NLU entities fall into two categories: system-defined and user-defined. System e
 
 All entities are reusable across other NLU models. However, you must add them to a training utterance for each model to use them.
 
-For more information, see [NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md).
+For more information, see [\(Legacy\) NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md).
 
 ## Vocabulary
 
@@ -55,21 +55,21 @@ For example, your model includes an entity for the term computer. When a user ty
 
 You can also use tables and lists as vocabulary sources. Your models can look up the vocabulary sources when predicting intents.
 
-For more information, see [NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
+For more information, see [\(Legacy\) NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md).
 
 ## Test set
 
 Your model contains a default test set that you can use to evaluate the model’s performance. Initially the test set is empty, ready to be populated with your content. Add test utterances and their expected intents to build the test set.
 
-For more information, see [Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
+For more information, see [\(Legacy\) Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md).
 
 ## Test panel
 
 Access the test panel by clicking **Train model** or **Try model** in the **Build and train your model** phase. Training incorporates new content into your model. With **Try model**, you can manually enter individual utterances to test what intents the model predicts for them.
 
-For more information, see [Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-train-nlu-model.md).
+For more information, see [\(Legacy\) Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-train-nlu-model.md).
 
-You can also use the test panel to provide feedback on your model's predictions. Your feedback helps improve intent prediction. See [Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
+You can also use the test panel to provide feedback on your model's predictions. Your feedback helps improve intent prediction. See [\(Legacy\) Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-model-panel-feedback.md).
 
 ## Settings
 
@@ -77,20 +77,5 @@ Use the **Settings** tab to edit the name, short description, and confidence thr
 
 \[Omitted image "managing-model-contentT1.png"\] Alt text: Settings tab of an example model.
 
-For more information on the confidence threshold, see [Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/testing-your-model.md). For more information on Settings, see [NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-model-settings.md).
-
--   **[NLU intents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/intents.md)**  
-Intents drive your models' responses by matching a system action to user inputs. Models with good intents help Virtual Agent and Search respond to your users accurately.
--   **[NLU entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/entities.md)**  
-Entities provide your model with additional context when receiving user input. Add entities to your utterances and intents to improve the predictions of your Natural Language Understanding \(NLU\) model.
--   **[NLU vocabulary](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/using-nlu-vocabulary.md)**  
-Use NLU vocabulary items to help the system recognize the various ways your users express their requests. Use vocabulary sources to help the system recognize objects in tables or lists, such as names of conference rooms or catalog items.
--   **[Test set creation and management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-test-set-creation-management.md)**  
-Use the default test set of your NLU model to test the model's performance and accuracy. Manage your test set over time by building or updating its content in the NLU Workbench.
--   **[Train and try your NLU model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-train-nlu-model.md)**  
-Train and try your model iteratively so that its intents and entities are validated, compiled, and saved to your model.
--   **[Test panel feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/test-model-panel-feedback.md)**  
-When testing your NLU model on the Try model section of the test panel, use this feature to provide feedback on the model's intent predictions.
-
-**Parent Topic:**[Model management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/model-management-phases.md)
+For more information on the confidence threshold, see [\(Legacy\) Test and publish your model](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/testing-your-model.md). For more information on Settings, see [\(Legacy\) NLU model settings](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/nlu-service/nlu-model-settings.md).
 

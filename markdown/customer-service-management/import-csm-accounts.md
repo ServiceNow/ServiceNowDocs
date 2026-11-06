@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/import-csm-accounts.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+breadcrumb: [Configure accounts and contacts, Customer data, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Import accounts and contacts with guided setup
@@ -16,7 +16,7 @@ Use Customer Service Management guided setup to import existing accounts and con
 
 ## Before you begin
 
-Role required: admin
+Role required: import\_admin, sn\_crm\_foundation\_admin, and csm\_guided\_setup\_user
 
 ## About this task
 
@@ -24,11 +24,11 @@ After importing customer account data, you must also [set the account code syste
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and click **Get Started**.
+1.  Navigate to **All** &gt; **Customer Service** &gt; **Administration** &gt; **Guided Setup** and select **Get Started**.
 
-2.  In the Foundation Data category, click **Get Started**.
+2.  In the Foundation Data category, select **Get Started**.
 
-3.  Click one of the following:
+3.  Select one of the following:
 
     -   **Import Accounts**
     -   **Import Contacts**

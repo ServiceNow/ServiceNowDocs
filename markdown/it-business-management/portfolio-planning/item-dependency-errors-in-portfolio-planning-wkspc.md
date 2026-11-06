@@ -7,7 +7,7 @@ release: yokohama
 product: Portfolio Planning
 classification: portfolio-planning
 topic_type: reference
-last_updated: "2026-03-12"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Reference, Portfolio Planning, Strategic Portfolio Management]
 ---
@@ -31,7 +31,7 @@ To resolve such errors, review the scope of the planning items and update the st
 **Related topics**  
 
 
-[Add dependencies for roadmap items in Portfolio Planning Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
+[Add dependencies for roadmap items](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/add-dependencies-roadmap-items-portfolio-planning.md)
 
-[Update roadmap item dependencies in Portfolio Planning](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)
+[Update roadmap item dependencies](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-business-management/portfolio-planning/update-roadmap-item-dependencies-portfolio-planning.md)
 

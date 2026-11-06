@@ -7,9 +7,9 @@ release: yokohama
 product: On-Call Scheduling
 classification: on-call-scheduling
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 4
-breadcrumb: [Reference, On-Call Scheduling, IT Service Management]
+last_updated: "2026-10-08"
+reading_time_minutes: 5
+breadcrumb: [Reference for on-call scheduling, On-Call Scheduling, IT Service Management]
 ---
 
 # System properties for On-Call Scheduling
@@ -74,7 +74,11 @@ com.snc.on\_call\_rotation.log\_escalations
 
 </td><td>
 
-Enable logging of escalations. See [View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md).Location: System Property \[sys\_properties\] table
+Determines whether the escalations can be logged.If true, the escalations are logged.
+
+Default value: true
+
+For more information, see [View details in an escalation log](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/view-escalation-logs-oncall.md).Location: System Property \[sys\_properties\] table
 
 </td></tr><tr><td>
 
@@ -287,6 +291,21 @@ The sys\_id of the default workflow that must be attached when escalating a conf
 
 </td></tr><tr><td>
 
+com.snc.notify.default.add\_all\_members\_on\_no\_rota\_defined
+
+</td><td>
+
+Determines whether all active members or no members are added to a conference call in the absence for that group.-   If true, adds all active members of the selected group to a conference call when no On-Call Scheduling rota is defined for that group.
+-   If false \(default\), no group members are added.
+
+**Note:**
+
+-   This is the default property that is used until the specific property for the task type is configured. To use different workflows for different task types \(such as incident or problem\), create a new property by replacing the word `default` in the key with the task type. Example: For Incident, the property key would be **com.snc.notify.incident.add\_all\_members\_on\_no\_rota\_defined**.
+-   The property is enabled only when the [Notify](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/servicenow-platform/t_ActivateNotify.md) plugin \(com.snc.notify\) is active.
+-   For more information about this behavior, see [Escalations in On-Call Scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/escalations-oncall.md).
+
+</td></tr><tr><td>
+
 com.snc.on\_call\_rotation.use\_slack\_for\_dm
 
 </td><td>
@@ -308,6 +327,14 @@ com.snc.on\_call.announcement\_message
 </td><td>
 
 If false, removes the banner of SOW announcement from on\_call\_calendar page.
+
+</td></tr><tr><td>
+
+com.snc.on\_call\_rotation.new\_trigger\_engine
+
+</td><td>
+
+If true, a new on-call trigger engine is activated which enables on-call subflows get triggered via flow runner queue. As the on-call subflows are marked as high priority they get processed faster via flow runner queue compared to the traditional event queue especially when multiple events are triggered at the same time and are in the process queue.
 
 </td></tr></tbody>
 </table>**Parent Topic:**[Reference for on-call scheduling](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/on-call-scheduling/reference-for-on-call-scheduling.md)

@@ -1,5 +1,5 @@
 ---
-title: Using Certificates for authentication
+title: Use certificate for authentication
 description: Request an access token with a certificate credential.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/security-management/security-incident-response/using-certificates-for-authentication.html
@@ -7,24 +7,24 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Establish MS Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
+breadcrumb: [Establish Microsoft Teams Graph connection on ServiceNow AI Platform, Integrate, Major Security Incident Management, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
-# Using Certificates for authentication
+# Use certificate for authentication
 
 Request an access token with a certificate credential.
 
 ## Before you begin
 
-1.  You can either use a self-signed certificate or CA issued certificate. You can create a self-signed certificate by executing the PowerShell script as outlined in[Setting up an Azure AD app for app-only access](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread#setting-up-an-azure-ad-app-for-app-only-access). The script generates two files: .PFX file and .CER file.
+1.  A self-signed or CA-issued certificate is required, created using the PowerShell script. For more information, see: [Setting up an Azure AD app for app-only access](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread#setting-up-an-azure-ad-app-for-app-only-access). The script generates two files: a .PFX file and a .CER file.
 
-    **Note:** Ensure that you are aware of the password that is used to encrypt private key to generate the .PFX file and .CER file.
+    **Note:** Confirm that you're aware of the password used to encrypt the private key to generate the .PFX and .CER files.
 
-2.  Use the .PFX file to create a Java Key Store \(JKS\) file.
+2.  A Java Key Store \(JKS\) file created from the .PFX file is required.
 
-    **Note:** Ensure that you are aware of the password that is used to generate JKS file from the .PFX file.
+    **Note:** Confirm that you're aware of the password used to generate the JKS file from the .PFX file.
 
 
 Role required: admin
@@ -33,9 +33,9 @@ Role required: admin
 
 1.  Navigate to **App registrations** in Azure AD portal.
 
-2.  Click **Certificates &amp; secrets** from the **Manage** section.
+2.  Select **Certificates &amp; secrets** from the **Manage** section.
 
-3.  In the **Certificates** tab, click **Upload Certificate**.
+3.  In the **Certificates** tab, select **Upload Certificate**.
 
 4.  On the form, fill these values.
 
@@ -44,7 +44,7 @@ Role required: admin
     |Upload a certificate \(public key\) with one of the following file types: .cer, .pem, .crt|.CER file you had generated using the PowerShell script.|
     |Description|Description of the certificate.|
 
-5.  Click **Add**.
+5.  Select **Add**.
 
     The certificate is uploaded and its details are displayed under the **Certificates** tab.
 
@@ -68,5 +68,5 @@ Add a JSON Web Token \(JWT\) provider to your ServiceNow instance.
 -   **[Establish a connection using certificates](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/establish-a-connection-using-certificates.md)**  
 Establish a connection between newly created Microsoft Teams graph application using certificates.
 
-**Parent Topic:**[Establish MS Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
+**Parent Topic:**[Establish Microsoft Teams Graph connection on ServiceNow AI Platform](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/security-management/security-incident-response/msim-micorsoft-team-requirements.md)
 

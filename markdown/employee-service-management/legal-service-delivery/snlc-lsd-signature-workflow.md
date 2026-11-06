@@ -1,26 +1,27 @@
 ---
 title: Signature workflow for a request
-description: Contract Management Pro for Legal Service Delivery supports electronic signature or wet \(manual\) signature for a contract request.
+description: Contract Management Pro for Legal Service Delivery supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/legal-service-delivery/snlc-lsd-signature-workflow.html
 release: yokohama
 product: Legal Service Delivery
 classification: legal-service-delivery
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 8
-breadcrumb: [Work on NDA legal requests, Non-disclosure agreement requests, Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 11
+breadcrumb: [Use, Contract Management Pro for Legal Service Delivery, Integration with ServiceNow applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Signature workflow for a request
 
-Contract Management Pro for Legal Service Delivery supports electronic signature or wet \(manual\) signature for a contract request.
+Contract Management Pro for Legal Service Delivery supports electronic signature, wet \(manual\) signature, and offline signature for a contract request.
 
 -   Electronic Signature: Enables signatories to sign the contract document electronically. For more information, see [Configure an e-signature provider](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-integrate-esign.md).
 
-    If you want to generate a certificate of completion, you must select the **Electronic Signature** as signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md).
+    To generate a certificate of completion, select the **Electronic Signature** as the signature type in the contract request. For more information, see [Activate a system property to generate a certificate of completion](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-config-system-prop-COC.md).
 
--   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see [Upload a manually signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
+-   Wet Signature: Enables signatories to sign the contract document manually. You can then upload the signed document to a contract request. For more information, see [Upload a signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-upload-doc-wsignature.md).
+-   Offline signature: Records a contract that has been signed outside Contract Management Pro. Signature request emails are not sent to the signatories. The fulfiller or contract user uploads the signed document directly.
 
 ## Electronic signature workflow
 
@@ -28,9 +29,13 @@ Contract Management Pro for Legal Service Delivery supports electronic signature
     -   The state and contract status updates to Awaiting Signature and the electronic signature flow is triggered as configured in [Configure an e-signature provider for legal contracts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-integrate-esign.md).
     -   An email notification that the contract document is available for signature is sent to the first signatory. The email contains a link to the contract document that the signatory can open and sign the document through the Docusign or Adobe Acrobat Sign electronic signature provider.
 
-        The signatories will receive signature request email according to the order set in the signatories tab.
+        Signatories receive signature request emails according to the order set in the **Signatories** tab.
 
-    -   The signatory fields—such as Name, Title, and Email—are not pre-filled in the contract document before it is sent for signature. These fields will be populated by the electronic signature provider when the signatory access the document to sign it.
+        You can assign the same signing order to multiple signatories when you want them to sign the contract simultaneously. Signatories with the same signing order receive signature requests at the same time and can complete their signatures independently.
+
+        **Note:** This option is not available when you set the signing order in Employee Center.
+
+    -   The signatory fields—such as Name, Title, and Email—are not pre-filled in the contract document before it is sent for signature. The electronic signature provider populates these fields when the signatory accesses the document to sign it.
 -   Signatories can sign or decline the contract document.
 
 <table id="table_t4x_51l_s2c"><thead><tr><th>
@@ -49,11 +54,11 @@ All the signatories choose to do an electronic signature
 
 -   First signatory signs the contract document
 
-If there is more than one signatory,the contract document is sent to the next signatory in the order.
+If there is more than one signatory, the contract document is sent to the next signatory in the order.
 
 The status of the current signatory in the request updates from Pending Signature to Signed. The status of the next signatory updates from Not Started to Pending Signature.
 
--   After the last signatory has signed the document, the contract repository record is created and the signed document is attached to it.
+-   After the last signatory signs the document, the contract repository record is created and the signed document is attached to it.
 
 For contract requests containing multiple contract documents, the signed contract document is split into individual documents and attached to the contract repository record for the respective contract type.
 
@@ -67,11 +72,11 @@ One or more signatories decide to do a wet signature
 
 -   One or more signatories decided to do a wet signature instead of electronic signature.
 -   The wet signed contract document in PDF format is shared with the contract fulfiller.
--   The contract fulfiller uploads the signed document, selects the signatories who have shared the wet signed contract document and proceeds with the signature worklow by sending the document to the next signatories.
+-   The contract fulfiller uploads the signed document, selects the signatories who have shared the wet signed contract document and proceeds with the signature workflow by sending the document to the next signatories.
 
 The status of the signatory in the request updates from Pending Signature to Signed. The status of the next signatory updates from Not Started to Pending Signature. The signature type is updated to Mixed signature after all the signatories have signed the document.
 
--   After the last signatory has signed the document, the contract repository record is automatically created and the signed document is attached to it.
+-   After the last signatory signs the document, the contract repository record is automatically created and the signed document is attached to it.
 
 For contract requests containing multiple contract documents, the signed contract document is split into individual documents and attached to the contract repository record for the respective contract type.
 
@@ -83,9 +88,35 @@ The document is declined by the signatory.
 
 </td><td>
 
-An email notification that the signer has declined to sign the document is sent to the requester.The Signatory status in the request updates to Declined.
+An email notification is sent to the requester when a signatory declines to sign the document.The Signatory status in the request updates to Declined.
 
 The State changes to Work in progress and the Contract status changes to Signing Declined.
+
+</td></tr><tr><td>
+
+ 
+
+</td><td>
+
+ 
+
+</td></tr><tr><td>
+
+The signature request is not delivered to a signatory.
+
+</td><td>
+
+The Signatory status in the contract request changes to Delivery failed.
+
+ The state of the contract request changes to Signature delivery failed.
+
+ An email notification is sent to the contract fulfiller informing them that the signature request could not be delivered.
+
+ A notification appears on the contract request informing about the undelivered signature request and the available actions for the fulfiller.
+
+-   For Docusign, you can update the signatory's information and retry, cancel the signature process to restart it, or upload a manually signed contract.
+-   For Adobe Acrobat Sign, you can cancel the signature process to restart it, or upload a manually signed contract.
+
 
 </td></tr><tr><td>
 
@@ -98,7 +129,9 @@ For contract request fulfilled by the contract user: A contract user can submit 
  For contract request fulfilled by contract fulfiller: The contract fulfiller creates a document revision manually or by using regenerate option and resends the document for signature.
 
 </td></tr></tbody>
-</table>    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
+</table>    **Note:** When signatory roles are enabled, each signatory participates in the electronic signature workflow according to their assigned role. For information about available roles and how to enable them, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+    If the system property **sn\_cm\_core.enable\_executed\_contract\_audit\_certificate** is set to true, the certificate of completion is generated and attached to the contract repository record.
 
 
 ## Wet signature workflow
@@ -107,8 +140,12 @@ For contract request fulfilled by the contract user: A contract user can submit 
     -   The state and contract status are updated to Awaiting signature.
     -   An email notification is sent to the first signatory in order and the contract documents are attached as PDFs in the email.
 
-        The current signatory is placed in the To field of the email. The contract fulfiller, the person who opened the contract, the person for whom the contract was requested, and the initiator of send for signature action are placed in the CC field.
+        The current signatory is placed in the To field of the email. The following recipients are placed in the CC field:
 
+        -   Contract fulfiller
+        -   Person who opened the contract
+        -   Person for whom the contract was requested
+        -   Initiator of the send for signature action
 -   Signatories accept or decline the document.
 
 <table id="table_bhy_sqw_cfc"><thead><tr><th>
@@ -125,8 +162,8 @@ The current signatory accepts the document and there are pending signatories
 
 </td><td>
 
--   The signatory prints the contract document,signs it, and then returns it to the signature requester.
--   On receiving the signed contract document, the contract fulfiller uploads the signed contract and sends the document to the pending signatories.
+-   The signatory prints the contract document, signs it, and then returns it to the signature requester.
+-   After receiving the signed contract document, the contract fulfiller uploads the signed contract and sends the document to the pending signatories.
 
 
 </td></tr><tr><td>
@@ -135,7 +172,7 @@ The signatory declines the document
 
 </td><td>
 
-The signatory sends the document back to the requester for necessary correction. The signatories and the contract fulfiller can collaborate and finalize the contract document.
+The signatory sends the document back to the requester for corrections. The signatories and the contract fulfiller can collaborate and finalize the contract document.
 
 </td></tr><tr><td>
 
@@ -143,7 +180,7 @@ All the signatories have signed the document
 
 </td><td>
 
--   On receiving the contract document signed by all the signatories, contract fulfiller uploads the signed contract document in PDF format.
+-   After receiving the contract document signed by all signatories, the contract fulfiller uploads the signed contract document in PDF format.
 -   The contract document is added to the repository after it is uploaded.
  For self-served contracts, the state of the request updates to Closed complete and the contract status updates to Contract signed.
 
@@ -153,11 +190,35 @@ All the signatories have signed the document
 
 </td></tr></tbody>
 </table>
+**Note:** In the wet signature workflow, only signatories with the Signer role participate. Signatories with Viewer, Receiver, or Approver roles are not included. For more information, see [Signatory roles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-signatory-roles.md).
+
+## Offline signature workflow
+
+Use the offline signature workflow when the contract is signed outside Contract Management Pro. For example, the parties sign the contract document in person or through a third-party application, and you want to record the signed document against the contract request.
+
+-   Set up a contract request for offline signature.
+    -   Create a contract request with **Offline signature** selected as the signature type.
+    -   On an existing contract request, change the signature type from **Electronic signature** or **Wet signature** to **Offline signature**.
+-   The fulfiller or contract user selects **Initiate offline signature**.
+-   The state and contract status update to Awaiting signature. Signature request emails are not sent to the signatories.
+-   The signatories sign the contract document outside Contract Management Pro.
+-   The contract fulfiller uploads the signed document.
+-   The state and contract status update to Contract signed. The status of all signatories updates from Not started to Completed.
+
+## Changing the signature type from e-signature to wet signature
+
+Wet signature supports only Signer role and sequential signing. If you change the signature type from electronic signature to wet signature:
+
+-   Signatories with Viewer, Receiver, or Approver roles are removed.
+-   Signatories with the same signing order are assigned sequential signing order, and any gaps in the signing order are removed.
+
+A message notifies you of these changes so that you can review the Signatories tab before continuing with the signature workflow.
+
 ## Modify signatories when the signature workflow is in progress
 
-Modify Signatories options enables you to add, remove, edit, or reorder pending signatories  while a signature workflow is in progress. Initiating this action pauses the signature workflow  for a duration defined by the system property  **maximum\_signature\_pause\_duration**. To continue the signature workflow after making changes, use the  **Resume Signature ** option to resume the workflow.
+**Modify signatories** enables you to add, remove, edit, or reorder pending signatories while a signature workflow is in progress. Initiating this action pauses the signature workflow for a duration defined by the system property **maximum\_signature\_pause\_duration**. To continue the signature workflow after making changes, use the **Resume Signature** option to resume the workflow.
 
-The workflow might progress as follows:
+The workflow can progress as follows:
 
 -   Use **Modify signatories** option to modify the signatories.
 -   Add, remove, modify, or reorder signatories.
@@ -184,16 +245,39 @@ Access to a contract document is based on the following user roles and condition
 -   Requesters can view only the contract documents for which they submitted the contract request.
 -   Users added to the watch list can view only contract documents for contract requests they have added.
 
-While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that haven’t been copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
+While generating the contract repository record, mapped fields and their values are validated for data type and correctness. If validation errors are found, an email notification is sent to the contract fulfiller. The email also displays the list of fields that were not copied into the final contract document and the link to the contract repository record. The fulfiller then opens the record using the link and corrects the values to resolve the validation errors.
 
 -   **[Upload a manually signed contract document](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-upload-doc-wet-sign.md)**  
 Upload the wet signed contract document you have received from the signatories. You need to upload a contract document for a wet signature workflow or if one of the signatories in the electronic workflow decides to do a wet signature.
+-   **[Initiate an offline signature for a contract request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-initiate-offline-signature.md)**  
+ Initiate an offline signature when a contract is signed outside Contract Management Pro and record the signed document in Contract Management Pro.
 -   **[Modify signatories](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-pause-signature.md)**  
-Modify signatories while a signature workflow is in progress.
+Pause an active signature workflow to add, modify, reorder, or remove signatories on a contract request that is in Awaiting signature state.
 -   **[Resend signature request](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-resend-sign-req.md)**  
 Resend signature request functionality enables contract fulfillers to manually trigger signature request when needed.
 -   **[Cancel a wet signature process for non-disclosure agreement legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-cancel-a-wet-signature.md)**  
 As a legal user, cancel the wet signature process for contract documents in NDA legal requests that have been sent to signatories.
 
-**Parent Topic:**[Work on NDA legal requests](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-work-on-contract-request.md)
+**Parent Topic:**[Use Contract Management Pro for Legal Service Delivery](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-service-delivery/snlc-use-sn-legal-cont-landing.md)
+
+**Related topics**  
+
+
+[Non-disclosure agreement requests]()
+
+[Third-party contract review requests]()
+
+[Contract amendments]()
+
+[Contract renewals]()
+
+[Linking parent-child contracts]()
+
+[Internal review overview]()
+
+[Cancel a legal request]()
+
+[View and download a signed contract document]()
+
+[Manage Contract Management Pro for Legal Service Delivery]()
 

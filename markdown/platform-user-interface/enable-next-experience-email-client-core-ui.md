@@ -1,16 +1,16 @@
 ---
-title: Configure the Next Experience email client for the Core UI
+title: Set up the Next Experience email client in the Core UI
 description: Access email features from the Next Experience in the Core UI.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/platform-user-interface/enable-next-experience-email-client-core-ui.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Forms in the classic environment, Working in the classic environment, Working in Core UI, Configure UIs and portals, Configure user experiences]
 ---
 
-# Configure the Next Experience email client for the Core UI
+# Set up the Next Experience email client in the Core UI
 
 Access email features from the Next Experience in the Core UI.
 

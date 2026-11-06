@@ -7,9 +7,9 @@ release: yokohama
 product: Talent Feedback
 classification: talent-feedback
 topic_type: task
-last_updated: "2025-04-15"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Request skill feedback, Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Talent Development, Employee Service Management]
+breadcrumb: [Request skill feedback, Working with Skill feedback in Talent Feedback, Using Talent Feedback, Talent Feedback, Growth Experiences, HR Service Delivery, Employee Service Management]
 ---
 
 # Request skill feedback from skill expectations
@@ -73,6 +73,4 @@ This is an optional entry for you to add any other information that you'd like t
 </td></tr></tbody>
 </table>5.  Select **Send request**.
 
-
-**Parent Topic:**[Request skill feedback](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/talent-feedback/request-skill-feedback.md)
 

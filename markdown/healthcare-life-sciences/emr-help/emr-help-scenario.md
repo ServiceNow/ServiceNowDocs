@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring EMR Help, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Explore, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # IT service request workflow scenario
@@ -17,10 +17,6 @@ breadcrumb: [Exploring EMR Help, EMR Help, Healthcare and Life Sciences Service 
 Use the EMR Help application to integrate a ServiceNow instance with an EMR system and resolve IT service requests submitted by clinicians.
 
 Scenario: An EMR system is integrated with a ServiceNow instance using the EMR Help application. As a result of this integration, a Help form is available within the EMR system to enable clinicians to submit IT service requests as incidents on the ServiceNow instance.
-
-The following graphic shows how an IT agent resolves the clinician issue discussed in the scenario.
-
-\[Omitted image "emr-help.png"\] Alt text: Workflow scenario for using the EMR Help application. For the text description, refer to the workflow steps.
 
 The following workflow steps elaborate how an IT agent resolves a typical clinician issue:
 

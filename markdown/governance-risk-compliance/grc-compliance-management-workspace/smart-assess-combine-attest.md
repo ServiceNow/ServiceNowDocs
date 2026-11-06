@@ -7,9 +7,9 @@ release: yokohama
 product: GRC: Compliance Management Workspace
 classification: grc-compliance-management-workspace
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Grouping assessments for control attestations, Create a control objective using the Compliance Workspace, Manage control objectives and policies using the Compliance Workspace, Using the Compliance Workspace, Performing compliance tasks in Compliance Workspace, Policy and Compliance Management, Governance, Risk, and Compliance]
+breadcrumb: [Group assessments for control attestations, Create control objective, Manage control objectives and policies, Use, GRC Compliance workspace, Use, Policy and Compliance Management, Governance, Risk, and Compliance]
 ---
 
 # Combine assessments for control attestations
@@ -24,7 +24,7 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
 1.  Navigate to **All** &gt; **Policy and Compliance** &gt; **Compliance Workspace**.
 
-2.  Select the tasks icon \(\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon.\).
+2.  Select\[Omitted image "TasksIcon.jpg"\] Alt text: Tasks icon. from the sidebar.
 
 3.  Select the Control attestations on the left panel.
 
@@ -42,13 +42,9 @@ Role required: sn\_compliance\_ws.corporate\_compliance\_analyst
 
     The individual assessments are listed in the **Control attestations** list, and the grouped assessments in the **Combined Assessments** list in the My pending tasks related list.
 
-    \[Omitted image "grc-attestation-combine-group.png"\] Alt text: Combined assessments.
-
     The selected assessments are grouped under one attestation name. You can respond to the assessments individually or as one in the grouped combined assessments. You can respond to one assessment even if you had grouped them. The Combined Assessments lists only those assessments that have not been taken.
 
 8.  Select the assessment and answer the questions.
-
-    \[Omitted image "group-assessment-combine.png"\] Alt text: Combined assessment questions.
 
 9.  Select the check box in the Submit combined assessment pop-up and click the **Submit all** button to submit the assessments.
 

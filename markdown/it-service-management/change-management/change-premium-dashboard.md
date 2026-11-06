@@ -9,7 +9,7 @@ classification: change-management
 topic_type: concept
 last_updated: "2023-02-02"
 reading_time_minutes: 3
-breadcrumb: [Legacy: Change Management Platform Analytics Solutions, Using Change Management, Change Management, IT Service Management]
+breadcrumb: [Legacy: Change Management Platform Analytics Solutions, Use, Change Management, IT Service Management]
 ---
 
 # Legacy: Change Premium dashboard
@@ -18,7 +18,7 @@ This dashboard uses Workbench widgets and other advanced Platform Analytics feat
 
 **Important:**
 
-Starting in Xanadu release, the Core UI Change Premium dashboard is deprecated. You can use Platform Analytics [Change Management dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view the information about the Change process in one place.
+Starting in Xanadu release, the Core UI Change Premium dashboard is deprecated. You can use Platform Analytics [Change dashboard](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/change.md) to view the information about the Change process in one place.
 
 \[Omitted image "change-mgmt-premium.gif"\] Alt text: Animated tour of the tabs of the Change Premium dashboard
 

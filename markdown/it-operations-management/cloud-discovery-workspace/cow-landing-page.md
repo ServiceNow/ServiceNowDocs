@@ -7,7 +7,7 @@ release: yokohama
 product: Cloud Discovery Workspace
 classification: cloud-discovery-workspace
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [ITOM Visibility, IT Operations Management]
 ---
@@ -15,6 +15,8 @@ breadcrumb: [ITOM Visibility, IT Operations Management]
 # Cloud Discovery Workspace
 
 Cloud Discovery Workspace offers a comprehensive solution to manage the cloud operations of your organization.
+
+**Important:** Cloud Discovery Workspace is now deprecated and no longer supported or available for new activation. [Discovery Admin Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery/discovery-admin-workspace.md) provides the latest experience for this functionality. For details, see the [Application/Plugin Deprecation Process \[KB0867184\]](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0867184) article in the Now Support knowledge base.
 
 ## Get Started
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Gifts and Entertainment
 classification: legal-gifts-and-entertainment
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Setting up Gifts and Entertainment Compliance, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Configure, Gifts and Entertainment Compliance, Legal Service Delivery Practice Applications, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Configure gift policy for Gifts and Entertainment Compliance
@@ -35,5 +35,5 @@ Role required: sn\_lg\_gifts.gifts\_config
 4.  Click **Save**.
 
 
-**Parent Topic:**[Setting up Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
+**Parent Topic:**[Configure Gifts and Entertainment Compliance](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-gifts-and-entertainment/lsd-ge-administration.md)
 

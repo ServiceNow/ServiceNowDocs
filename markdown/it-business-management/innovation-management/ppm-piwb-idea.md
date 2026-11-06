@@ -7,9 +7,9 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage Ideas, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
+breadcrumb: [Managing ideas using Innovation Management, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---
 
 # PPM PIWB template - Find similar ideas
@@ -17,6 +17,11 @@ breadcrumb: [Manage Ideas, Innovation Management, Project Portfolio Management, 
 Use a guided template that walks you through training the Similar Ideas solution definition for finding similar ideas.
 
 ## Before you begin
+
+Activate the following plugins before using the Predictive Intelligence Workbench:
+
+-   Predictive Intelligence for PPM \(com.snc.ppm\_ml\) plugin
+-   Predictive Intelligence for Ideation \(com.snc.innovation\_management\_ml\) plugin
 
 Role required: piwb\_manager
 

@@ -7,8 +7,8 @@ release: yokohama
 product: Security Incident Response
 classification: security-incident-response
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 2
+last_updated: "2026-09-10"
+reading_time_minutes: 1
 breadcrumb: [Playbook for User Deleting Bash History - Cloud, Flow-based Playbooks, Security Incident Response playbooks, Playbook Resources, Security Incident Response, Enterprise security case management applications, Security Operations]
 ---
 
@@ -41,8 +41,6 @@ Role required:
 
     4.  In Action 6, examine the activities occurring around these suspicious actions.
 
-        \[Omitted image "playbook-bash-history-overview.png"\] Alt text: Response task to examine the activities occurring around these suspicious actions.
-
     5.  In Action 7, continue working with peers and involve the incident response Regional Manager in deciding whether to continue monitoring the user.
 
     6.  In Action 8, determine whether the activity is malicious or not.
@@ -55,8 +53,6 @@ Role required:
         4.  In Action 13, initiate a post incident review.
 
             In Action 14, after the post incident review, the flow ends.
-
-        \[Omitted image "playbook-bash-history-investigate.png"\] Alt text: Response task to check if the activity is malicious.
 
     8.  In Action 15, if the activity is not malicious, then in Action 16, reach out to the user’s manager.
 

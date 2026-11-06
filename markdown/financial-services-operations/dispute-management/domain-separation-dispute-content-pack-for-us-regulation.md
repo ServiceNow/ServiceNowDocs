@@ -7,9 +7,9 @@ release: yokohama
 product: Dispute Management
 classification: dispute-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Dispute Content Pack for US Regulations reference, Dispute Content Pack for US Regulations, Working with Regulations, Dispute Management, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Reference, Dispute Content Pack for US Regulations, Dispute Management, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Domain separation Dispute Content Pack for US Regulations
@@ -23,7 +23,7 @@ Domain separation is unsupported for the Dispute Content Pack for US Regulations
 
 For more information on support levels, see [Application support for domain separation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-security/domain-separated-apps.md).
 
-## Overview
+## Domain separation overview
 
 The ServiceNow® Dispute Content Pack for US Regulations enables issuers in the United States \(US\) to track dispute cases and conform with regulatory guidelines.
 

@@ -7,9 +7,9 @@ release: yokohama
 product: EMR Help
 classification: emr-help
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [EMR Help data model tables, EMR Help reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
+breadcrumb: [Data model tables, Reference, EMR Help, Healthcare and Life Sciences Service Management, Healthcare and Life Sciences]
 ---
 
 # EMR Request Data table
@@ -18,7 +18,7 @@ The EMR Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table stores the cap
 
 The EMR Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table has the following features:
 
--   Extends the Remote Request Data \[sn\_ind\_rmt\_help\_incident\_data\] table.
+-   Extends the Remote Request Data \[sn\_ind\_rmt\_help\_request\_data\] table.
 -   Models request-specific EMR data.
 -   Corresponds to request parameters.
 -   Includes the capability to add more columns for any additional parameters.

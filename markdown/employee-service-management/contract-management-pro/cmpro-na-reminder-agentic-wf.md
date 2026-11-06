@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: concept
-last_updated: "2025-07-31"
-reading_time_minutes: 6
-breadcrumb: [Use agentic workflows, Now Assist in CM Pro, Contract Management Pro, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 7
+breadcrumb: [Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Manage contract repository agentic workflow
@@ -18,21 +18,23 @@ Use the manage contract repository agentic workflow to improve productivity by e
 
 ## Manage contract repository overview
 
+The Contract Management Pro - Prime plugin \(sn\_cm\_ai\_prime\) must be installed to use AI capabilities.
+
 **Important:**
 
 -   To use the agentic workflow for your workspace, your role must be configured to use the agentic workflow, and the data access permissions must be set for the AI agents and the agentic workflow.
 
     For more information, see [Configuring user access and data permissions for agentic workflows](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-agentic-wf.md) and [Configuring user access and data permissions for AI agents](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-users-ai-agents.md).
 
--   The data access permissions must be set for the Now Assist skills, contract metadata extraction, and contract obligation extraction.
+-   The data access permissions must be set for the AI skills, contract metadata extraction, and contract obligation extraction.
 
-    For more information, see [Configure data permissions for Now Assist skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
+    For more information, see [Configure data permissions for AI skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-conf-roles-skills.md).
 
 -   To run the AI agents autonomously, ensure that the business rules for the agentic workflow are activated. For more information, see [Activate business rules for the Manage contract repository agentic workflow](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/conf-repository-agentic-ai.md).
 
     If you have customized the manage contract repository agentic workflow, make sure to update the script include to run it autonomously. For more information, see [Update the contracts AI agents handler script include](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-script-includ-agenticAI.md).
 
--   To view the agentic workflow in the Now Assist panel, turn on the Now Assist panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
+-   To view the agentic workflow in the ServiceNow Otto panel, turn on the ServiceNow Otto panel. For more information, see [Activate Now Assist panel standard chat](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/intelligent-experiences/activate-now-assist-panel.md).
 
 The manage contract repository agentic workflow uses an AI agent to do the following sequentially.
 
@@ -42,11 +44,14 @@ The manage contract repository agentic workflow uses an AI agent to do the follo
 
 ## Metadata extraction and contract reminders
 
-The AI agent uses Now Assist contract metadata extraction skill to extract key metadata from signed contracts. Once the metadata extraction is complete, you can open the playbook to review the extracted information and set the contract reminder date.
+The AI agent uses contract metadata extraction skill to extract key metadata from signed contracts. Once the metadata extraction is complete, you can open the playbook to review the extracted information and set the contract reminder date.
 
 The following workflow explains the metadata extraction and contract reminder setup process.
 
 1.  As a Contract Admin with the AI role, activate the contract metadata extraction skill in the AI Admin Hub console.
+
+    For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+
 2.  As a Contract Admin, activate the business rules.
 3.  The metadata extraction process is automatically initiated when a contract record is created.
 4.  Once the extraction is complete, the Contract Manager with the AI role receives a notification indicating that the metadata is ready for review.
@@ -64,11 +69,14 @@ For more information, see [Review AI-extracted metadata and contract reminder da
 
 ## Obligation extraction
 
-The AI agent uses Now Assist contract obligation extraction skill to extract key contractual obligations from contracts. Once extracted, you can review the obligations within the contract playbook and choose to accept or reject them. Accepted obligations are added as records in the **Obligations** tab of the contract record.
+The AI agent uses contract obligation extraction skill to extract key contractual obligations from contracts. Once extracted, you can review the obligations within the contract playbook and choose to accept or reject them. Accepted obligations are added as records in the **Obligations** tab of the contract record.
 
 The following workflow explains the obligation extraction process.
 
 1.  As a Contract Admin with the AI role, activate the contract obligation extraction skill in the AI Admin Hub console.
+
+    For more information, see [Configure AI capabilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/confg-na-in-cmpro.md).
+
 2.  As a Contract Admin, activate the business rules.
 3.  The obligation extraction process is automatically initiated when a contract record is created.
 4.  Once the extraction is complete, the Contract Manager with the AI role receives a notification indicating that obligations are ready for review.
@@ -86,7 +94,7 @@ The following workflow explains the obligation extraction process.
     -   If the obligation task is rejected, the state of the task changes to Open, and the assigned user continues to work on it.
     -   If the obligation task is approved, the state of the task changes to Completed.
 
-For more information, see [Review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-review-obligations.md).
+For more information, see [Review AI-extracted obligations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-create-obligations-landing.md).
 
 ## Conditions for the agentic workflow to trigger
 
@@ -98,7 +106,7 @@ The manage contract repository agentic workflow for a self-served request is tri
 -   If there’s no group manager for the Assignment group, one of the users in the Assignment group has the now\_assist\_panel\_user role.
 -   If the user requested changes on the contract request, the Assigned to user or the group manager in the request has the sn\_cm\_gen\_ai.ai\_contract\_fulfiller and now\_assist\_panel\_user role.
 
-Contract fulfillers and assignment group managers with the now\_assist\_panel\_user role can view the agentic workflow conversation in the Now Assist panel.
+Contract fulfillers and assignment group managers with the now\_assist\_panel\_user role can view the agentic workflow conversation in the ServiceNow Otto panel.
 
 **Note:** The agentic workflow isn’t supported in the Virtual Agent panel.
 
@@ -133,4 +141,8 @@ Uses various tools to perform the following:-   Retrieves the contract repositor
 -   Calculates the average lead time for similar contracts.
 
 </td></tr></tbody>
-</table>
+</table>-   **[Reviewing AI-extracted results in the playbook](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cmpro-na-review-ai.md)**  
+The playbook in a contract repository enables you to review information extracted by the manage contract repository agentic workflow, and configure reminders for your contract renewals or terminations.
+
+**Parent Topic:**[Using Contract Management Pro](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/contract-management-pro/cncore-use-cmpro.md)
+

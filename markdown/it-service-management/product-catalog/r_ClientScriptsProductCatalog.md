@@ -7,9 +7,9 @@ release: yokohama
 product: Product Catalog
 classification: product-catalog
 topic_type: reference
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Components installed with Product Catalog, Product Catalog, Asset Management, IT Service Management]
+breadcrumb: [Components installed with Product Catalog, Product Catalog, Asset Management common applications, IT Service Management]
 ---
 
 # Client scripts installed with Product Catalog
@@ -21,9 +21,4 @@ Product Catalog plugin adds the following client script.
 |Set Model Fields|\[pc\_vendor\_cat\_item\]|Adds the description and price, if they do not exist, when a vendor catalog item is added to the product catalog.|
 
 **Parent Topic:**[Components installed with Product Catalog](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-service-management/product-catalog/r_InstalledWithProductCatalog.md)
-
-**Related topics**  
-
-
-[Client scripts](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/api-reference/scripts/client-scripts.md)
 

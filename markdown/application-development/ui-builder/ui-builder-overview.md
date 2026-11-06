@@ -7,9 +7,9 @@ release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Builder library, Developing your application, Building applications]
+breadcrumb: [Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # UI Builder
@@ -53,7 +53,6 @@ Use the UI Builder library of components to build your pages. Configure them any
 
 ## Troubleshoot and get help with UI Builder
 
--   Contact your company's Customer Admin to unlock or add user accounts, perform restores or zBoots, and more.
 -   [Ask or answer questions in the UI Builder community](https://www.servicenow.com/community/next-experience/ct-p/next-experience)
 -   [Search the Known Error Portal for known error articles](https://support.servicenow.com/kb?id=kb_article_view&sysparm_article=KB0597477)
 -   [Learn more about how to create your own apps on the developer site.](https://developer.servicenow.com/dev.do#!/)
@@ -67,6 +66,8 @@ Learn how to navigate the UI Builder and explore some common use cases to learn 
 Get a full understanding of everything that you can do when creating a page for your workspace or custom portal experience in UI Builder.
 -   **[Advanced UI Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/advanced-uib.md)**  
 UI Builder can be used by application developers with a variety of skill levels. We recommend developers with a high level of experience, sometimes referred to as pro-coders, perform the procedures in this section.
+-   **[Component Builder](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/ui-builder/component-builder-uib.md)**  
+Learn how to use Component Builder to assemble reusable components for your UI Builder pages.
 
 **Parent Topic:**[Builder library](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/application-development/builder-library-table.md)
 

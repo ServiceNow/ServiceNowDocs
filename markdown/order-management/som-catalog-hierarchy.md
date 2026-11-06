@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-catalog-hierarchy.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Configuring product offerings and catalogs, Configure, Sales Customer Relationship Management]
+breadcrumb: [Configuring product offerings and catalogs, Lead-to-cash foundation apps, Configure, Sales Customer Relationship Management]
 ---
 
 # Product catalog hierarchy visualization
@@ -21,4 +21,11 @@ For product offerings that have associated specifications, you can toggle the hi
 To view the product catalog hierarchy in the CRM Workspace, in the List view navigate to **Offerings** &gt; **Product Offerings**. Select a product offering, then select the Catalog Hierarchy tab. Use the **Show specification** toggle to switch between the product offering and specification hierarchical views.
 
 The toggle legend identifies the product offering and specification icons displayed in the visualization. Similar to the selection of specification nodes, when you select any product offer node, the side panel displays the high-level details of the product offer. You can use the filter to select a node and display the hierarchy under the node rather than the whole tree.
+
+**Related topics**  
+
+
+[Using product catalogs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/using-product-catalog.md)
+
+[Product Catalog Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/product-catalog-managment.md)
 

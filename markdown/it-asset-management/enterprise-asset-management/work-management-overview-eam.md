@@ -7,9 +7,9 @@ release: yokohama
 product: Enterprise Asset Management
 classification: enterprise-asset-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Enterprise Asset Workspace, Exploring Enterprise Asset Management, Enterprise Asset Management, IT Asset Management]
+breadcrumb: [Enterprise Asset Workspace, Explore, Enterprise Asset Management, Asset Management]
 ---
 
 # Work management overview for Enterprise Asset Workspace
@@ -34,7 +34,7 @@ Use the following tabs to view and manage your work orders, work order tasks, ma
 
     **Note:** This tab appears if you have the system administrator \(admin\) or enterprise asset manager \(sn\_eam.enterprise\_asset\_manager\) role.
 
--   **Calibrations**: Get a glimpse of all your calibration data, such as all calibration events and calibrations pending verification.
+-   **Calibrations and conditions**: Get a glimpse of all your calibration data and an overview of asset conditions.
 
     **Note:** This tab appears if you have the system administrator \(admin\) or enterprise asset manager \(sn\_eam.enterprise\_asset\_manager\) role.
 
@@ -64,7 +64,7 @@ Use the following tabs to view and manage your work orders, work order tasks, ma
 
 -   **Checklist templates**: Create and view checklist templates for your work orders.
 
-    **Note:** This tab appears if you have the system administrator \(admin\) or enterprise asset manager \(sn\_eam.enterprise\_asset\_manager\) role.
+    **Note:** This tab appears if you have the system administrator \(admin\) or c.
 
 -   **My stockroom assets**: View enterprise assets that are available within your stockrooms.
 
@@ -76,11 +76,11 @@ Use the following tabs to view and manage your work orders, work order tasks, ma
 
 -   **Work order plan templates**: Create and view work order plan templates.
 
-    **Note:** This tab appears with Enterprise Asset Management version 10.0 and later if you have the enterprise asset manager \(sn\_eam.asset\_manager\) role.
+    **Note:** This tab appears if you have the enterprise asset manager \(sn\_eam.asset\_manager\) role.
 
 -   **Work order plans**: Create and view work order plans.
 
-    **Note:** This tab appears with Enterprise Asset Management version 10.0 and later if you have the enterprise asset manager \(sn\_eam.asset\_manager\) role.
+    **Note:** This tab appears if you have the enterprise asset manager \(sn\_eam.asset\_manager\) role.
 
     The Overview tab also displays work order plan reports that include **Work order plans by status**, **Active tasks by work order plan**, and **Overdue tasks by work order plan**.
 

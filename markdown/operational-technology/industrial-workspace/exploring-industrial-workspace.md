@@ -7,7 +7,7 @@ release: yokohama
 product: Industrial Workspace
 classification: industrial-workspace
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Industrial Workspace, Operational Technology]
 ---
@@ -34,7 +34,7 @@ OT Action-Oriented Landing Page
 
 </td><td>
 
-When you select the **Home** \(\[Omitted image "home-icon.png"\] Alt text: Home icon\) icon, you're taken to the OT Action-Oriented Landing Page. The landing page helps you keep track of critical tasks related to your OT network.
+When you select the **Home** \(\[Omitted image "home-icon.png"\] Alt text:\) icon, you're taken to the OT Action-Oriented Landing Page. The landing page helps you keep track of critical tasks related to your OT network.
 
 </td></tr><tr><td>
 
@@ -85,7 +85,7 @@ Equipment Model Manager
 
 </td><td>
 
-When you select the **Equipment Model** \(\[Omitted image "equip-model-manager-button.png"\] Alt text: Equipment Model icon\) icon, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
+When you select the **Equipment Model** icon, \[Omitted image "equip-model-manager-button.png"\] Alt text:, you're taken to the Equipment Model Manager, where you can view your sites and their equipment model data.
 
 </td></tr></tbody>
 </table>-   **[Operational Technology Action-Oriented Landing Page](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/oper-tech-task-oriented-landing-page.md)**  
@@ -98,6 +98,8 @@ The Operational Technology \(OT\) Progress Scorecard lets you compare device and
 The Operational Technology \(OT\) Unified Map available in the Industrial Workspace provides a unified experience to view the relationships between devices and other configuration items \(CIs\), and view related items, like OT incidents and change requests.
 -   **[Operational Technology Hardware Vulnerability Assessment](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/understanding-hwd-vuln-assessment.md)**  
 The Operational Technology \(OT\) Hardware Vulnerability Assessment \(HVA\) application enables you to assess the firmware vulnerabilities of the OT devices in inventory and create vulnerable items \(VIT\) against the impacted OT devices.
+-   **[Operational Technology Network Map](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/utilizing-ot-network-map.md)**  
+The Operational Technology \(OT\) Network Map is an interactive map that visualizes your OT network through connected nodes.
 
 **Parent Topic:**[Industrial Workspace](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/operational-technology/industrial-workspace/industrial-workspace-for-operational-technology.md)
 

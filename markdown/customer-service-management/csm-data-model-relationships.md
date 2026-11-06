@@ -5,14 +5,16 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/customer-service-management/csm-data-model-relationships.html
 release: yokohama
 topic_type: reference
-last_updated: "2025-01-30"
-reading_time_minutes: 2
-breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configuring Customer Service Management, Customer Service Management]
+last_updated: "2026-09-28"
+reading_time_minutes: 3
+breadcrumb: [Service Model Foundation overview, Configure Service Model Foundation, Data models, Set up your environment, Configure, Customer Service Management]
 ---
 
 # Service Model Foundation relationships
 
 Create relationships between an agent and a customer or between two consumers that provide additional access to customer data.
+
+**Important:** Some table and field labels have been changed across recent releases. For a mapping of former labels to current labels, see [Service Model Foundation renamed Entities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/customer-service-management/renamed-entities.md).
 
 With the Service Model Foundation feature, you can create relationships between the following users:
 
@@ -102,8 +104,8 @@ Internal users can have relationships with accounts, consumers, and households. 
 
 Relationships are created using responsibilities. Use the following responsibilities to create relationships between internal users and customers:
 
--   Account Manager: use this responsibility to create a relationship between a staff member and an account.
--   Relationship Manager: use this responsibility to create a relationship between a staff member and a household or a consumer.
+-   Account Manager: Use this responsibility to create a relationship between a staff member and an account.
+-   Relationship Manager: Use this responsibility to create a relationship between a staff member and a household or a consumer.
 
 Relationships that you create are added to the following related lists:
 
@@ -130,11 +132,11 @@ Relationships that you create are added to the following related lists:
 
 ## Deleting relationships
 
-When a relationship definition is deleted, all of the relationships that use the definition are also deleted.
+When a relationship definition is deleted, all the relationships that use the definition are also deleted.
 
-When a consumer is deleted, all of the relationships to which the consumer belonged are also deleted.
+When a consumer is deleted, all the relationships to which the consumer belonged are also deleted.
 
-When a household is deleted, all of the relationships created for the household are also deleted.
+When a household is deleted, all the relationships created for the household are also deleted.
 
-When a consumer stops being a current member of a household, all of the relationships created for the consumer within the household are also deleted. .
+When a consumer stops being a current member of a household, all the relationships created for the consumer within the household are also deleted.
 

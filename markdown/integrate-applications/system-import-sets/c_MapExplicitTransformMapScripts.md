@@ -7,9 +7,9 @@ release: yokohama
 product: System Import Sets
 classification: system-import-sets
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Transform maps, Import sets, Imports, Data and Automation]
+breadcrumb: [Transform maps, Import sets, Imports, Workflow Data Fabric]
 ---
 
 # Map with explicit transform map scripts

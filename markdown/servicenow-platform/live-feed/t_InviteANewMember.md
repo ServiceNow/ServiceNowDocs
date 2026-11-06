@@ -7,7 +7,7 @@ release: yokohama
 product: Live Feed
 classification: live-feed
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use teams in Live Feed, Using Live Feed, Live Feed Core UI, Manage people and work capabilities, Extend ServiceNow AI Platform capabilities]
 ---
@@ -32,9 +32,7 @@ Role required: admin
 
 5.  In the **Add User** field, enter the name of the user you want to invite.
 
-    The invited member's picture appears.
-
-    \[Omitted image "InvitedMember.png"\] Alt text: Invited member
+    The invited member's picture displays.
 
 
 **Parent Topic:**[Use teams in Live Feed](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/servicenow-platform/live-feed/c_UseTeamsInLiveFeed.md)

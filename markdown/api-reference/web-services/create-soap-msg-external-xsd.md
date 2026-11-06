@@ -7,9 +7,9 @@ release: yokohama
 product: Web Services
 classification: web-services
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [SOAP message, Outbound SOAP web service, Outbound web services, Web services, API implementation, API implementation and reference]
+breadcrumb: [SOAP message, SOAP, Outbound, Web services, API implementation, API implementation and reference]
 ---
 
 # Create a SOAP message from a WSDL that references an external XSD file

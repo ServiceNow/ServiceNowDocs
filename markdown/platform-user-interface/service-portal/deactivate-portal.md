@@ -7,7 +7,7 @@ release: yokohama
 product: Service Portal
 classification: service-portal
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Managing portal access, Configuring Service Portal, Service Portal, Configure UIs and portals, Configure user experiences]
 ---
@@ -55,7 +55,7 @@ If you selected an alternate portal, users attempting to access the inactive por
 
 \[Omitted image "inactive-portal-message.png"\] Alt text: Message for users who attempt to visit an inactive portal and are redirected to an alternate portal.
 
-If you don’t specify an alternate portal, users receive a message that the portal has been deactivated. You can customize these messages from the Message \[sys\_ui\_message\] table. For more information see, [Message table](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/platform-administration/r_MessageTable.md).
+If you don’t specify an alternate portal, users receive a message that the portal has been deactivated. You can customize these messages from the Message \[sys\_ui\_message\] table. For more information see, .
 
 To reactivate a portal, clear the **Inactive** option.
 

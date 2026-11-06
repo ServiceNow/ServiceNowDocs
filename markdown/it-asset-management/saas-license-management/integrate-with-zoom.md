@@ -1,25 +1,43 @@
 ---
 title: Integrating with Zoom
-description: Integrating your Software Asset Management application with the Zoom service enables you to track your software subscriptions and to reclaim unused licenses.Create an application in the Zoom App Marketplace.Create an integration profile to track software subscriptions and optimize licensing for the Zoom service.
+description: Integrating your Software Asset Management application with the Zoom Workplace application enables you to track your software subscriptions and to reclaim unused licenses.Create an application in the Zoom App Marketplace.Create an integration profile to track software subscriptions and optimize licensing for the Zoom Workplace service.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.html
 release: yokohama
 product: SaaS License Management
 classification: saas-license-management
 topic_type: concept
-last_updated: "2025-01-30"
-reading_time_minutes: 7
-breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 9
+breadcrumb: [Integrate with SaaS applications, SaaS License Management, Software Asset Management, IT Asset Management, Asset Management]
 ---
 
 # Integrating with Zoom
 
-Integrating your Software Asset Management application with the Zoom service enables you to track your software subscriptions and to reclaim unused licenses.
+Integrating your Software Asset Management application with the Zoom Workplace application enables you to track your software subscriptions and to reclaim unused licenses.
 
-With this integration, you can retrieve and analyze licensing information for the following Zoom applications:
+A suite is a bundle of Zoom Workplace products and add-ons licensed together under a single subscription, rather than assigned to users individually. When a user is licensed through a suite, the Software Asset Management application tracks the suite subscription as a whole. When products or add-ons are assigned individually rather than through a suite, the Software Asset Management application tracks each one separately.
 
--   Zoom Regular account \(not a Master / Master-sub account\) for Meetings
--   Zoom Regular account \(not a Master / Master-sub account\) for Webinar
+With this integration, you can retrieve and analyze licensing information for Zoom Workplace applications. These applications include the Zoom account \(not a Master or Master-sub account\) for Meetings and Webinar, along with the Workplace products and add-ons mentioned in the following table. Reclamation applies to all the following Zoom Workplace products and add-ons.
+
+|Application|Type|
+|-----------|----|
+|Meetings|Product|
+|Webinar|Product|
+|Team Chat|Product|
+|Mail &amp; Calendar|Product|
+|Phone|Product|
+|Scheduler|Product|
+|Docs|Product|
+|Visitor Management|Product|
+|Whiteboard Plus|Add-on|
+|Clips Plus|Add-on|
+|Webinars Plus|Add-on|
+|Translated Captions|Add-on|
+|Large Meeting|Add-on|
+|Customer Managed Key|Add-on|
+
+**Note:** The enhanced Zoom Workplace offering is available starting from the Software Asset Management - SaaS License Management application version 18.1.1.
 
 For additional information about Zoom, see [Zoom Developer Documentation](https://marketplace.zoom.us/docs).
 
@@ -78,7 +96,7 @@ View or edit user information \(e.g. assigning licenses and groups to users\): E
 -   user:delete:user:admin
 
 </td></tr></tbody>
-</table>## Create a Zoom application
+</table>## Create a Zoom Workplace application
 
 Create an application in the Zoom App Marketplace.
 
@@ -116,33 +134,33 @@ Zoom Role required: Zoom for developers: Edit
     -   user:update:user:admin
     -   user:delete:user:admin
 
-## Create a Zoom integration profile
+## Create a Zoom Workplace integration profile
 
-Create an integration profile to track software subscriptions and optimize licensing for the Zoom service.
+Create an integration profile to track software subscriptions and optimize licensing for the Zoom Workplace service.
 
 ### Before you begin
 
-To create a Zoom integration profile, request the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
+To create a Zoom Workplace integration profile, request and install the Software Asset Management - SaaS License Management plugin \(sn\_sam\_saas\_int\) from the [ServiceNow Store](https://store.servicenow.com/).
 
-ServiceNow Role required: sam\_integrator or admin
+ServiceNow Role required: sam\_integrator
 
 ### About this task
 
-If you’re using Software Asset Workspace, the option to create the Zoom integration profile in Core UI is inactive.
+If you’re using Software Asset Workspace, the option to create the Zoom Workplace integration profile in Core UI is inactive.
 
 ### Procedure
 
 1.  Navigate to the integration profile.
 
-<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d102008e444">
+<table id="choicetable_o3p_z3k_qtb"><thead><tr><th align="left" id="d74298e613">
 
 Interface
 
-</th><th align="left" id="d102008e447">
+</th><th align="left" id="d74298e616">
 
 Action
 
-</th></tr></thead><tbody><tr><td id="d102008e453">
+</th></tr></thead><tbody><tr><td id="d74298e622">
 
 **Core UI**
 
@@ -153,7 +171,7 @@ Action
 3.  Select **Zoom Integration Profile**.
 
 
-</td></tr><tr><td id="d102008e495">
+</td></tr><tr><td id="d74298e665">
 
 **Software Asset Workspace**
 
@@ -161,31 +179,61 @@ Action
 
 1.  Navigate to **License operations** &gt; **User Subscriptions** &gt; **Direct integration profiles**.
 2.  Select **New**.
-3.  Select **Zoom** from the drop-down list.
+3.  Select **Zoom Workplace** from the drop-down list.
 4.  Select **Continue**.
 
 
 </td></tr></tbody>
 </table>2.  On the form, fill in the fields.
 
-    |Field|Value|
-    |-----|-----|
-    |Display name|Name of the integration profile. For example, `Zoom Integration`|
-    |Client Id|Client ID for the OAuth 2.0 application created in the SaaS admin account in [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md).|
-    |Redirect url|This value is automatically populated.|
-    |Client secret|Password related with the client ID created in the SaaS admin account in [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md).|
-    |Profile type|Type of integration profile. This value is automatically set to `Zoom Subscription`.|
-    |Analyze user activity from|You can choose to start analyzing data from the current date or from up to 30 days in the past. Choosing a date in the past enables you to detect stale subscriptions without waiting in real time because you can see subscriptions that haven't been used recently. Because choosing a date in the past increases the amount of data that is analyzed, it could take several hours for you to be able to view the results.|
+<table id="table_gnm_whv_5fb"><thead><tr><th>
 
-3.  In the Process configuration section, Review the required user roles or API permissions specified in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
+Field
 
-    **Note:** For more information about the required roles and scopes, see [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md) table.
+</th><th>
+
+Description
+
+</th></tr></thead><tbody><tr id="row_ksq_rt5_bgb"><td id="display-name">
+
+Display name
+
+</td><td id="display-name-def">
+
+Name of the integration profile. For example, `Zoom Workplace Integration`.
+
+</td></tr><tr><td>
+
+Status
+
+</td><td>
+
+Status of the integration profile. -   If you have not published the integration profile, this field is set to  **Draft**.
+-   If you have already published the integration profile, this field is set to  **Published**.
+
+
+</td></tr><tr id="row_nn5_st5_bgb"><td id="profile-type">
+
+Profile type
+
+</td><td id="profile-type-def">
+
+Type of integration profile. This value is automatically set to `Zoom Workplace Subscription`.**Note:**
+
+-   If you have an existing Zoom integration profile, the `Zoom Subscription` profile type will continue to work for the profile. For a new Zoom integration profile, select the `Zoom Workplace Subscription` profile type instead.
+-   You existing `Zoom Subscription` profiles don't recognize the new Workplace products and add-ons. Create a `Zoom Workplace Subscription` profile to track these products and add-ons.
+
+
+</td></tr></tbody>
+</table>3.  In the Process configuration section, review the required user roles or API permissions in the **Vendor configuration** field for each process to minimize security risks and optimize SaaS licenses.
+
+    **Note:** For more information about the required roles and scopes, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md) table.
 
     -   The **Download subscriptions** check box is selected by default and you can't clear it.
 
     -   The **Download Activity** check box is selected by default. If you clear it, the activity scheduled job **SAM - Refresh &lt;displayname&gt; Events** isn't created.
 
-        In the **Analyze user activity** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days prior to the current date and view events performed by individual users from the time you create this profile.
+        In the **Analyze user activity from** field, you can also select the date and time starting from when you want to analyze the user activity. By default, you can analyze user activity up to 60 days before the current date and view events performed by individual users from the time you create this profile.
 
         **Note:** Software Asset Management pulls the events from the time that you start analyzing user activity irrespective of the profile creation date.
 
@@ -197,11 +245,30 @@ Action
 
     Your ServiceNow instance creates a draft integration profile.
 
-5.  On the integration profile, select the **Get OAuth Token** related link and follow the steps to get an OAuth token.
+    The **Connection &amp; Credential** field appears and is automatically set to **sn\_zoom\_spoke.Zoom**.
 
-    **Note:** For the role required to perform this step, refer to the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md) table.
+5.  Open the connection &amp; credential aliases record by selecting the preview icon \[Omitted image "preview-icon.png"\] next to the **Connection &amp; Credential** field and then selecting **Open Record** in the record preview.
 
-6.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
+6.  On the Connection &amp; Credential Aliases form, select the **Create New Connection &amp; Credential** related link.
+
+7.  In the Create Connection and Credential dialog box, fill in or verify the following fields.
+
+    |Field|Description|
+    |-----|-----------|
+    |Connection Information|
+    |Connection Name|Name of the Zoom Workplace connection. This field populates automatically.|
+    |Connection URL|URL for the connection. This field is automatically set to `https://zoom.us`.|
+    |Credential Information|
+    |OAuth Entity Name|A unique and meaningful display name for the OAuth entity.|
+    |OAuth Client ID|Client ID for the OAuth 2.0 application created in [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md).|
+    |OAuth Client Secret|Password associated with the client ID created in [step 5](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md).|
+    |OAuth Redirect URL|`https://<instance_name>/oauth_redirect.do`, where instance name is the name of your ServiceNow instance.|
+
+8.  Select **Configure and Get OAuth Token**.
+
+    **Note:** For the role required to perform this step, see the [Minimal user permissions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/integrate-with-zoom.md) table.
+
+9.  On the integration profile form, select **Validate Connection** to verify the connection and credential details of this integration.
 
     Validating the connection verifies the Download Subscriptions and Calculate Activity APIs, but not the Reclaim Subscriptions APIs.
 
@@ -210,14 +277,30 @@ Action
     -   The **Status** field on the integration profile form changes to **Draft**.
     -   The **Validate connection** button shows up on the form.
     -   The current **SAM - Refresh &lt;displayname&gt; Events** job gets deleted.
+10. After the connection is verified, select **Publish**.
+
+11. In the Publish Confirmation dialog box, select **OK**.
+
 
 ### Result
 
-You can view events performed by individual users up to one year prior to the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
+You can view events performed by individual users up to one year before the current date. For more information, see [Review a software reclamation rule](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/add-reclamation-rule-sub.md). Software Asset Management pulls the events from the time that you start downloading user subscriptions irrespective of the profile creation date.
 
 ### What to do next
 
 After the integration connects, your ServiceNow instance automatically creates software models, reclamation rules, and software subscriptions that are refreshed daily.
+
+After creating an integration profile, view information about the profile in the Software Asset Workspace by navigating to **License operations** &gt; **User subscription** &gt; **Direct integration profiles**. You can select an integration profile to view the following related lists. If all of the following related lists aren't visible for an integration profile in the default view, you can select the custom integration view from the Details tab:
+
+-   Software Models
+-   Unrecognized Subscription Identifiers
+-   Scheduled Jobs
+-   Scheduled Job Results
+-   Software Subscriptions
+-   Subscription Identifier Exclusion Rule
+-   Subscription User Exclusion Rule
+
+After creating an integration profile, you can define subscription exclusion rules to keep certain subscriptions from license cost calculations. For more information, see [Subscription exclusions for SaaS and SSO applications](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/software-asset-management/subscription-exclusions.md).
 
 If you want to set up multiple integration profiles with unique connections, create child aliases to manage different configurations and settings for each integration profile. For more information, see [Create a child alias to set up multiple integration profiles](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-asset-management/saas-license-management/create-child-alias-saas.md).
 

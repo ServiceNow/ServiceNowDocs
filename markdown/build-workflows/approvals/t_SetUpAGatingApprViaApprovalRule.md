@@ -1,26 +1,26 @@
 ---
 title: Set up a gating approval via an approval rule
-description: You canset up a gating approval via an approval rule.
+description: You can set up a gating approval via an approval rule.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/approvals/t\_SetUpAGatingApprViaApprovalRule.html
 release: yokohama
 product: Approvals
 classification: approvals
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Gating approvals, Approval rules, Classic approvals, Build workflows]
 ---
 
 # Set up a gating approval via an approval rule
 
-You canset up a gating approval via an approval rule.
+You can set up a gating approval via an approval rule.
+
+**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Before you begin
 
 Role required: admin
-
-**Important:** Classic approval rules have been replaced by the Workflow Studio [Ask for Approval action](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/ask-approval-flow-designer.md). Use Workflow Studio to create workflow-driven approval logic that is easier to maintain and provides better reporting information.
 
 ## Procedure
 

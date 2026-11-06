@@ -7,9 +7,9 @@ release: yokohama
 product: Service Observability
 classification: service-observability
 topic_type: reference
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [New Relic templates, Service Observability templates, Service Observability reference, Service Observability, ITOM Health, IT Operations Management]
+breadcrumb: [New Relic templates, Service Observability templates, Service Observability reference, Service Observability, ITOM AIOps, IT Operations Management]
 ---
 
 # New Relic Observability tab for Service Observability
@@ -58,7 +58,7 @@ These dashboards display metrics for databases related to the service.
 |Memory utilization|Percent of memory the database is using.|New Relic|
 |Availability|Percent of time the database is available.|New Relic|
 |Connections|Number of connections to the database.|New Relic|
-|Slow queries|Number of database queries that have been categorized as slow by the APM.|New Relic|
+|Slow queries|Number of database queries that have been categorized as slow by New Relic.|New Relic|
 |All MySQL Instances|Information for all databases the service is actively using. Select a database link to view more detailed information.|CMDB|
 
 |Chart|Description|Data source|

@@ -7,9 +7,9 @@ release: yokohama
 product: Financial Services Card Operations
 classification: financial-services-card-operations
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Managing credit card service requests, Card Operations, Using banking applications, Financial Services Operations \(FSO\)]
+breadcrumb: [Use, Card Operations, Banking applications, Financial Services Operations \(FSO\)]
 ---
 
 # Blocking a credit card

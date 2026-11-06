@@ -5,9 +5,9 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/order-management/som-quote-add-covered-products.html
 release: yokohama
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Using Quote Management, Using Sales Customer Relationship Management applications, Sales Customer Relationship Management]
+breadcrumb: [Quote Management, Configure, price, quote apps, Use, Sales Customer Relationship Management]
 ---
 
 # Add covered products to a quote
@@ -22,9 +22,11 @@ Role required: sales\_agent or sales\_manager
 
 Covered products are products that are added to a warranty or entitlement. Once you add a warranty or entitlement to your quote line items, the covered product option becomes available.
 
+When converting quotes to orders, the covered product relationships are transferred from the quote to order.
+
 ## Procedure
 
-1.  In the CRM Workspace, select the **List** \[Omitted image "Lists.png"\] Alt text: view.
+1.  In the CRM Workspace, select the **List** \[Omitted image "list-outline-24.svg"\] Alt text: view.
 
 2.  Navigate to **Quote** &gt; **All** and select a quote to which a covered product is to be added.
 
@@ -38,15 +40,15 @@ Covered products are products that are added to a warranty or entitlement. Once 
 
     There are three types of covered products types that you can add to a line item:
 
-<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d48526e165">
+<table id="choicetable_lyy_34l_wbc"><thead><tr><th align="left" id="d71533e147">
 
 Covered product type
 
-</th><th align="left" id="d48526e168">
+</th><th align="left" id="d71533e150">
 
 Description
 
-</th></tr></thead><tbody><tr><td id="d48526e174">
+</th></tr></thead><tbody><tr><td id="d71533e156">
 
 **Covered quote line item**
 
@@ -54,7 +56,7 @@ Description
 
 Select a quote line item to be added as a covered product.
 
-</td></tr><tr><td id="d48526e183">
+</td></tr><tr><td id="d71533e165">
 
 **Covered sold product**
 
@@ -62,7 +64,7 @@ Select a quote line item to be added as a covered product.
 
 Select a covered sold product to be added as a covered product.
 
-</td></tr><tr><td id="d48526e195">
+</td></tr><tr><td id="d71533e177">
 
 **Covered install base item**
 
@@ -79,4 +81,6 @@ Add an install base item as a covered product.
 
     A contract is created with the contract details for the order line.
 
+
+**Parent Topic:**[Using Quote Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/order-management/quote-mgmt-using.md)
 

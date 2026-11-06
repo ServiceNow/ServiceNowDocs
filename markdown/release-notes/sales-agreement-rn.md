@@ -1,45 +1,45 @@
 ---
-title: Sales Agreement Management release notes
-description: The ServiceNow Sales Agreement Management application enables you to capture the scope and conditions from a quote for future sales transactions over a specified period between a buyer and a seller. Sales Agreement Management was enhanced and updated in the Yokohama release.The ServiceNow Sales Agreement Management application enables you to capture the scope and conditions from a quote for future sales transactions over a specified period between a buyer and a seller. Sales Agreement Management was enhanced and updated in the Yokohama release.
+title: Sales Agreement release notes
+description: The ServiceNow Sales Agreement Management captures the scope and conditions from a quote between a buyer and a seller.​ See the following sections for release notes by version.The October 2026 release includes enhancements in creating sales agreement from a quote.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/release-notes/sales-agreement-rn.html
 release: yokohama
 topic_type: topic
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Xanadu, Learn about the Yokohama release, Yokohama release notes]
+breadcrumb: [Sales Customer Relationship Management release notes, Features and changes by product, Release notes for upgrading from Australia, Learn about the Brazil release, Brazil release notes]
 ---
 
-# Sales Agreement Management release notes
+# Sales Agreement release notes
 
-The ServiceNow® Sales Agreement Management application enables you to capture the scope and conditions from a quote for future sales transactions over a specified period between a buyer and a seller. Sales Agreement Management was enhanced and updated in the Yokohama release.
+The ServiceNow® Sales Agreement Management captures the scope and conditions from a quote between a buyer and a seller.​ See the following sections for release notes by version.
 
-## About Sales Agreement Management
+## About Sales Agreement
 
--   REST APIs enable customers to synchronize sales agreements with external systems.
--   Monitor the progress of sales agreement creation from quotes.
+-   Captures the scope and conditions from a quote for future sales transactions, over a specified period between a buyer and a seller.
+-   Includes details about the buyer and seller, the validity period of the agreement, and the products and services to be supplied, including quantities and pricing.
+-   Generates a sales agreement, and its line items, from a quote and its quote lines, using the same product offerings, only after the quote is completed or closed.
+-   Uses sales agreement price lists to consistently apply the negotiated pricing to all sales orders placed under the agreement.
 
 See [Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-agreement-mgmt.md) for more information.
 
 ## Activation and other requirements
 
-**Important:** Sales Agreement Management is available in the ServiceNow Store. For details, see the "Activation information" section of these release notes.
+-   **Activation information**
+
+    Sales Agreement Management is available in the ServiceNow Store.
+
 
 **Parent Topic:**[Sales Customer Relationship Management release notes](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/release-notes/sales-order-management-rn-landing.md)
 
-## Yokohama
+## Version 11.4.0
 
-The ServiceNow® Sales Agreement Management application enables you to capture the scope and conditions from a quote for future sales transactions over a specified period between a buyer and a seller. Sales Agreement Management was enhanced and updated in the Yokohama release.
+The October 2026 release includes enhancements in creating sales agreement from a quote.
 
 ### What's new
 
--   **[REST APIs for Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-agreement-mgmt.md)**
+-   **[Sales agreements for buyer organizations](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-agreement-mgmt-using.md)**
 
-    Import, export, and synchronize sales agreements with external systems through REST APIs.
-
-
--   **[Request Tracker on Sales Agreement Management](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/order-management/sales-agreement-mgmt.md)**
-
-    Enable agents to monitor the progress of sales agreement creation from quotes by using the Request Tracker.
+    Users can create a sales agreement from a quote created for a buyer organization. The buyer organization and channel partner information from the quote is automatically updated to the sales agreement. Buyer Organization captures the name of the organization for which the quote is created.
 
 

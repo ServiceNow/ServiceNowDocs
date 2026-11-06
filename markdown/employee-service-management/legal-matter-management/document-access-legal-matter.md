@@ -7,9 +7,9 @@ release: yokohama
 product: Legal Matter Management
 classification: legal-matter-management
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Create an artifact for a legal matter, Work on a legal matter, Legal Matter Management, Legal Service Delivery, Employee Service Management]
+breadcrumb: [Create an artifact for a legal matter, Work on a legal matter, Use, Legal Matter Management, Legal Service Delivery, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Document access in a legal matter
@@ -47,4 +47,11 @@ The scheduled job **Process External Storage Permissions** runs at the defined i
 -   The legal admin can revoke a user's access to documents of a legal matter and legal requests.
 -   Ad hoc approvers lose document access after they approve or reject the requested item.
 -   Delegates lose access after the delegation period expires.
+
+-   **[Request document access for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/request-doc-access-legal-matter.md)**  
+Request access to documents attached to a legal matter that you do not currently have access to.
+-   **[Remove document access of users in a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/remove-doc-access-legal-matter.md)**  
+Remove existing users' access to documents attached to a legal matter's artifact when they are no longer required to view those documents.
+
+**Parent Topic:**[Create an artifact for a legal matter](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/legal-matter-management/add-artifact-to-legal-matter.md)
 

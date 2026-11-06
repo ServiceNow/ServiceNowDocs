@@ -1,45 +1,57 @@
 ---
 title: Playbook activity state-mapping rules
-description: Use activity state-mapping rules to control which activity state is shown in a card for a given experience status record.
+description: Map playbook activity states to states from the given experience record.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/build-workflows/workflow-studio/playbook-activity-state-mapping-rules.html
 release: yokohama
 product: Workflow Studio
 classification: workflow-studio
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Playbook activity state mapping, Stages and activities, Building playbooks, Using Workflow Studio, Workflow Studio, Build workflows]
+breadcrumb: [Playbook activity state mapping, Stages and activities, Understanding the playbook components, Build Playbooks, Playbooks, Workflow Studio, Build workflows]
 ---
 
 # Playbook activity state-mapping rules
 
-Use activity state-mapping rules to control which activity state is shown in a card for a given experience status record.
+Map playbook activity states to states from the given experience record.
 
-Activity state-mapping rules are required for each Experience Status Table. These rules determine how to update the experience status record when a playbook user updates an activity state, such as completing an activity.
+\[Omitted image "activity-state-mapping.gif"\] Alt text: Changing how a Pending state is mapped from flow to playbook activity
 
-Out-of-the-box Global Playbook Experience includes a default rule set for the **sys\_flow\_data** table. This rule set is enough for most playbook activities, but additional rules can be created for custom tables if needed.
+Activity state-mapping rules are required for each Experience Status Table. These rules determine how to update the status for an experience record whenever a playbook user updates the state of an activity, such as when they complete an activity.
 
-Activity state-mapping rules for a given Experience Status Table are unique for each Playbook Experience and can be accessed in the related tabs by clicking **Status Mapping**.
+The out-of-the-box Global Playbook Experience includes default rules for the **sys\_flow\_data** and **task** tables. These sets of rules are enough for most playbook activities, but additional rules can be created for custom tables if needed.
 
-\[Omitted image "playbook-status-mapping-tab.png"\] Alt text: Playbook experience status mapping tab
+Find the default mapping rules under the **Status Mapping** tab of a playbook experience.
+
+\[Omitted image "activity-status-mapping.png"\] Alt text: Playbook Experience status mapping tab
 
 ## Experience status mapping records
 
-Each Experience Status Mapping record specifies which field on the **Experience Status Tables** contains the **Experience Status value**. Experience Status Mapping records also have the following related lists.
+A Experience Status Mapping record pulls the states \(**Experience Status value**\) for the given **Experience Status Table**. Map from:
 
--   **Experience Status to Activity State** rules
--   **Activity State to Experience Status** rules
+-   **Experience Status to Activity State**, or
+-   **Activity State to Experience Status**.
 
-\[Omitted image "playbook-experience-status-related.png"\] Alt text: Experience Status Table related lists
+The **Experience Status to Activity State** tab controls which activity state is shown in a card for a given experience status record value. The **Activity State to Experience Status** tab controls how the experience status record is updated when a playbook user updates an activity state, such as skipping an activity.
 
-The **Experience Status to Activity State** form controls which activity state is shown in a card for a given experience status record value. The form populates the **Experience Status Record Value** list with the choice values of the **Experience Status Field**.
+\[Omitted image "activity-state-mapping-flow-exp2act.png"\] Alt text: Mapping from flow states to playbook activity states
 
-\[Omitted image "playbook-experience-status.png"\] Alt text: Playbook experience status record value list
+\[Omitted image "activity-state-mapping-flow-act2exp.png"\] Alt text: Mapping from playbook activity states to flow states
 
-**Activity State to Experience Status** form controls how the experience status record is updated when a playbook user updates an activity state, such as skipping an activity. The form populates **Experience Status Record Value** list with the choice value of the **Experience Status Field**.
+**Note:** There is always a default set of activity states, but the set of states for an experience record depends on the table in your activity definition.
 
-\[Omitted image "playbook-experience-activity-state.png"\] Alt text:
+\[Omitted image "activity-state-mapping-task-exp2act.png"\] Alt text: Mapping from task status values to playbook activity states
+
+\[Omitted image "activity-state-mapping-act2exp.png"\] Alt text: Mapping from playbook activity states to task status values
+
+**Note:** The number values shown indicate these task statuses:
+
+\[Omitted image "activity-state-mapping-task-values.png"\] Alt text: Task status values
+
+Default playbook activity states will always be set.
+
+\[Omitted image "activity-state-mapping-card.png"\] Alt text: Default activity states in a drop-down for the Activity Card Value field
 
 **Parent Topic:**[Playbook activity state mapping](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/build-workflows/workflow-studio/playbook-activity-state-mapping.md)
 

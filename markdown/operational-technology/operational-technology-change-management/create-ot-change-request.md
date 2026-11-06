@@ -7,7 +7,7 @@ release: yokohama
 product: Operational Technology Change Management
 classification: operational-technology-change-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
 breadcrumb: [Use, Operational Technology Change Management, Operational Technology]
 ---
@@ -19,6 +19,10 @@ Create an Operational Technology \(OT\) change request to report a change in you
 ## Before you begin
 
 Role required: sn\_ot\_change\_write
+
+## About this task
+
+For a walkthrough of how to create an OT change request, watch this video.\[Omitted video\] Description: Creating an OT change request in the Industrial Workspace
 
 ## Procedure
 

@@ -7,9 +7,9 @@ release: yokohama
 product: Discovery and Service Mapping Patterns
 classification: discovery-and-service-mapping-patterns
 topic_type: concept
-last_updated: "2025-07-31"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
-breadcrumb: [Available discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
+breadcrumb: [AWS discovery, Available cloud discovery patterns, Discovery patterns used by ITOM Visibility, ITOM Visibility, IT Operations Management]
 ---
 
 # Amazon API Gateway discovery with Patterns
@@ -22,13 +22,13 @@ Starting with Discovery and Service Mapping Patterns version 1.29.0, the Amazon 
 
 ## Request apps on the Store
 
-Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) website to view all the available apps and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
+Visit the [ServiceNow Store](https://store.servicenow.com/sn_appstore_store.do#!/store/home) to view all the available apps, and for information about submitting requests to the store. For cumulative release notes information for all released apps, see the [ServiceNow Store version history release notes](https://www.servicenow.com/docs/r/store-release-notes/sn-store-release-notes.html).
 
 ## Prerequisites
 
 -   **Verify the AWS prerequisites**
 
-    For more information, see the prerequisite section in [Amazon AWS Cloud components discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
+    For more information, see the prerequisite section in [AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md).
 
 -   **Retire legacy data model CIs to avoid duplicates**
 
@@ -158,7 +158,7 @@ Concatenate of API ID + ".execute-api." + region + ".amazonaws.com".For example:
 |Name \[name\]|Unique name or IP address of the DNS host.|
 |IP Address \[ip\_address\]|IP address of the DNS host.|
 
-\[Omitted image "aws-api-gateway-dependency-view.png"\] Alt text: aWS API gateway CIs and connections on a Dependency Views map
+\[Omitted image "aws-api-gateway-dependency-view.png"\] Alt text: AWS API gateway CIs and connections on a Dependency Views map
 
 ## Relationships
 
@@ -195,5 +195,5 @@ Run the horizontal and top-down discovery using Amazon AWS API Gateway \[cmdb\_c
 -   **[Retire legacy AWS API Gateway data model CIs](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/retire-legacy-aws-api-gateway-cis.md)**  
 Avoid duplicate AWS API Gateway configuration items \(CIs\) by retiring legacy data model CIs through a scheduled job.
 
-**Parent Topic:**[Available discovery patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/available-patterns.md)
+**Parent Topic:**[AWS discovery using patterns](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/it-operations-management/discovery-and-service-mapping-patterns/data-discovered-aws-patterns.md)
 

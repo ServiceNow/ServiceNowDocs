@@ -7,9 +7,9 @@ release: yokohama
 product: Password Reset
 classification: password-reset
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Customizing Password Reset processes, Configure, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
+breadcrumb: [Customizing Password Reset processes, Configuring Password Reset, Password Reset, Manage service capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
 # Add a custom header or footer to the user pages for Password Reset
@@ -44,7 +44,7 @@ Role required: password\_reset\_admin
 
 7.  Verify the appearance of the end-user pages.
 
-<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d296496e178">
+<table id="choicetable_pzg_5m2_wbb"><tbody><tr><td id="d300256e178">
 
 **If the reset pages are Public Access**
 
@@ -52,7 +52,7 @@ Role required: password\_reset\_admin
 
 On the **Password Reset Details** tab, click the **Public URL**.
 
-</td></tr><tr><td id="d296496e193">
+</td></tr><tr><td id="d300256e193">
 
 **If the reset pages are not Public Access**
 

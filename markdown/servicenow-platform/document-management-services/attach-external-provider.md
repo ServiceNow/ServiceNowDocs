@@ -7,8 +7,8 @@ release: yokohama
 product: Document Management Services
 classification: document-management-services
 topic_type: task
-last_updated: "2025-01-30"
-reading_time_minutes: 1
+last_updated: "2026-09-10"
+reading_time_minutes: 2
 breadcrumb: [Document Management integration with external content providers, Use, Document Management, Document Services, Manage content capabilities, Extend ServiceNow AI Platform capabilities]
 ---
 
@@ -53,10 +53,14 @@ Role required: mp\_document\_admin
 
 6.  If you only want to link the URL, select the **Link Only URL of the external file to the document** check box.
 
+    **Note:** All Google Drive file formats are supported for link only URL.
+
 7.  Select **Attach**.
 
-    **Note:** Only the latest version from the provider is attached.
+    **Note:**
 
+    -   Only the latest version from the provider is attached.
+    -   For unsupported format URLs can be linked but the version will not be available in the versions table.
     A new version is created. Select the **Versions** tab to view the versions and the attached document.
 
 8.  Select the **External Provider Settings** tab to view the provider details and the external file URL.

@@ -1,20 +1,20 @@
 ---
 title: Edit a page
-description: Edit a page to change the page name, path, and parameters.
+description: Edit a page to change the page name, path, type, and parameters.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/application-development/ui-builder/edit-page.html
 release: yokohama
 product: UI Builder
 classification: ui-builder
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Building applications]
+breadcrumb: [Manage UI Builder pages and page variants, Working in UI Builder, UI Builder, Builder library, Developing your application, Classic app development, Building applications]
 ---
 
 # Edit a page
 
-Edit a page to change the page name, path, and parameters.
+Edit a page to change the page name, path, type, and parameters.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: ui\_builder\_admin
 
 ## About this task
 
-Edit page settings to change the name and path of your page. This is useful if you decide the name or path should be changed after you create the page. If your page is in a different application scope, you can choose to edit it in the original scope.
+Edit page settings to change the name, path, and type of your page. This is useful if you decide this information should be changed after you create the page. If your page is in a different application scope, you can choose to edit it in the original scope.
 
 ## Procedure
 
@@ -30,11 +30,11 @@ Edit page settings to change the name and path of your page. This is useful if y
 
 2.  Open the experience with the page that you want to edit.
 
-3.  Select **Settings** next to the page that you want to edit.
+3.  Next to the page that you want to edit, select the More actions icon \[Omitted image "MoreActionsIcon.png"\] Alt text: then **View settings**.
 
-    \[Omitted image "edit-page-settings-link.png"\] Alt text: Arrow pointing to settings button to edit page settings.
+    \[Omitted image "edit-page-settings-link.png"\] Alt text: View settings selected within the More actions menu.
 
-4.  In the page settings window you can change the name, path, and parameters of your page.
+4.  In the page settings window you can change the name, path, type, and parameters of your page.
 
     \[Omitted image "edit-page-settings.png"\] Alt text: Page settings screen with page parameters help text highlighted.
 

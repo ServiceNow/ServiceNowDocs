@@ -7,8 +7,8 @@ release: yokohama
 product: Workplace Reservation Management
 classification: workplace-reservation-management
 topic_type: task
-last_updated: "2025-07-25"
-reading_time_minutes: 7
+last_updated: "2026-09-10"
+reading_time_minutes: 8
 breadcrumb: [Reserve workplace items, Workplace Reservation Management, Workplace Service Delivery, Employee Service Management]
 ---
 
@@ -26,15 +26,15 @@ Role required: admin
 
 1.  Select any of the following context menu navigation options to make a workplace reservation and reserve a space near your preferred colleague or a team member.
 
-<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d695021e63">
+<table id="choicetable_prt_yr3_smb"><thead><tr><th align="left" id="d750812e76">
 
 Location
 
-</th><th align="left" id="d695021e66">
+</th><th align="left" id="d750812e79">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d695021e72">
+</th></tr></thead><tbody><tr><td id="d750812e85">
 
 **Application navigation filter**
 
@@ -42,7 +42,7 @@ Steps
 
 Navigate to **All** &gt; **Workplace Reservation Management** &gt; **Portal** &gt; **New Reservation**.
 
-</td></tr><tr><td id="d695021e96">
+</td></tr><tr><td id="d750812e109">
 
 **From Employee Center Portal**
 
@@ -78,9 +78,9 @@ Make a reservation portal page opens for you to make workplace reservations.
 
     **Note:** When browsing near a person, if there are any private spaces, the private spaces aren’t displayed in the reservation search result.
 
-    If a cost center or department is enabled for a user profile's location, only those spaces or desks that have the same cost center or department as profile locations are displayed. Only spaces or desks that are assigned as flexible or none are displayed. The search results doesn't display permanent spaces or desks.
+    **Note:** Enable or update a cost center or department in the user profile location. Only spaces or desks with the same cost center or department are displayed in the user profile locations. Spaces or desks that are assigned as flexible or none are displayed. The search results doesn't display permanent spaces or desks.
 
-    All required fields must be filled in on the form when you’re creating a reservation and when the auto-search option is enabled by your administrator. The auto-search option doesn't work if the required field inputs are missing on the reservation page.
+    All required fields must be updated in the Make a reservation form when the auto-search option is enabled by your administrator. The auto-search option doesn't work if the required field inputs are missing in the reservation form.
 
     \[Omitted image "wsd-browse-near-a-person-rsv.png"\] Alt text: Browse near a person reservable path selected with inputs provided in the Browse near a person form fields.
 
@@ -134,21 +134,23 @@ Make a reservation portal page opens for you to make workplace reservations.
 
 [Create a reservation]()
 
-[Add invitees as collaborators and create a reservation]()
-
 [Auto-resolve recurring reservations]()
 
-[Create neighborhood reservations]()
+[Add invitees as collaborators and create a reservation]()
 
-[Create multi-building reservations]()
+[Set a location as favorite using the Space details page]()
 
 [Create a multi-day reservation]()
 
+[Create multi-building reservations]()
+
+[Create neighborhood reservations]()
+
 [Create reservation for multiple workplace items]()
 
-[Create a reservation along with a shared reservation]()
+[Enable shift-based reservation]()
 
-[Set a location as favorite using the Space details page]()
+[Create a reservation along with a shared reservation]()
 
 [Create a reservation including a virtual meeting link]()
 
@@ -161,4 +163,6 @@ Make a reservation portal page opens for you to make workplace reservations.
 [Reserve a workplace using the Quick Reservation widget]()
 
 [Download an iCalendar for a reservation]()
+
+[Manage and configure reservation waitlist]()
 

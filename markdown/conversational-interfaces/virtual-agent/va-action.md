@@ -7,9 +7,9 @@ release: yokohama
 product: Virtual Agent
 classification: virtual-agent
 topic_type: reference
-last_updated: "2025-02-06"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
-breadcrumb: [Virtual Agent Designer utilities, Virtual Agent Designer interface reference, Virtual Agent reference, Virtual Agent, Conversational Interfaces]
+breadcrumb: [Assistant Designer utilities, Assistant Designer interface reference, Reference, Virtual Agent, Conversational Interfaces]
 ---
 
 # Action utility
@@ -65,7 +65,7 @@ Action/Subflow
 
 The Workflow Studio action or subflow to be performed in the instance. The **Input mapping** and **Output mapping** areas change depending on your selection.
 
- For details about the action, click the link beneath your selection to view it in Workflow Studio.
+ For details about the action, select the link beneath your selection to view it in Workflow Studio.
 
 </td></tr><tr><td>
 
@@ -129,7 +129,7 @@ No-code condition statement or low-code script that specifies a condition for pr
 </td></tr></tbody>
 </table>## Example Action utility
 
-\[Omitted image "flow-designer-action-properties.png"\] Alt text: Action utility properties.
+\[Omitted image "flow-designer-action-properties.png"\] Alt text: Action utility properties. Different Input and Output properties appear depending on which Action or Subflow you select.
 
-**Parent Topic:**[Virtual Agent Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
+**Parent Topic:**[Assistant Designer utilities](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/conversational-interfaces/virtual-agent/va-utilities.md)
 

@@ -7,7 +7,7 @@ release: yokohama
 product: Innovation Management
 classification: innovation-management
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 2
 breadcrumb: [Idea Portal administration, Manage Idea Portal, Innovation Management, Project Portfolio Management, Strategic Portfolio Management]
 ---

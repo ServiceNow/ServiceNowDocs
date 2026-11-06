@@ -1,20 +1,20 @@
 ---
 title: Configure resolution notes generation for ServiceNow Otto for HRSD
-description: Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
+description: Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the ServiceNow Otto context menu to elaborate or shorten the notes.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/employee-service-management/now-assist-for-hrsd/resolution-notes-nacm-config.html
 release: yokohama
 product: Now Assist for HRSD
 classification: now-assist-for-hrsd
 topic_type: task
-last_updated: "2025-11-28"
-reading_time_minutes: 3
-breadcrumb: [Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
+last_updated: "2026-09-10"
+reading_time_minutes: 2
+breadcrumb: [Configure skills, Configure, ServiceNow Otto for HR Service Delivery \(HRSD\), HR Service Delivery, Employee Service Management]
 ---
 
 # Configure resolution notes generation for ServiceNow Otto for HRSD
 
-Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the Now Assist context menu to elaborate or shorten the notes.
+Configure the resolution notes generation skill to create concise summaries of case resolutions and enable agents to use the ServiceNow Otto context menu to elaborate or shorten the notes.
 
 ## Before you begin
 
@@ -22,7 +22,7 @@ Role required: sn\_hr\_core.admin
 
 ## Procedure
 
-1.  Navigate to **All** &gt; **Now Assist Admin** &gt; **Skills**.
+1.  Navigate to **All** &gt; **ServiceNow Otto Admin** &gt; **Skills**.
 
 2.  Select **Employee**, then select **HRSD**.
 
@@ -48,11 +48,11 @@ Role required: sn\_hr\_core.admin
 
 9.  Select **Display** to determine where the skill appears.
 
-    -   Select **In-product desktop** to display Now Assist skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
-    -   Select **Now Assist panel** to display Now Assist skills in the Now Assist panel.
+    -   Select **In-product desktop** to display generative AI skills on forms and workspaces. Then, select the roles for whom the skill will be displayed.
+    -   Select ServiceNow Otto panel to display generative AI skills in the ServiceNow Otto panel.
 10. After selecting **Review and activate** to examine changes, select **Activate** to turn on the skill and complete the configuration.
 
-11. In the Successfully activated pop-up window, select **Go to Now Assist context menu**.
+11. In the Successfully activated pop-up window, select **Go to ServiceNow Otto context menu**.
 
 12. Review the details.
 
@@ -68,28 +68,5 @@ Role required: sn\_hr\_core.admin
 -   **[Extend table support for resolution notes generation](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/table-support-resolution-notes.md)**  
 Extend table support for the resolution notes generation skill to include additional data sources.
 
-**Parent Topic:**[Configure ServiceNow Otto for HR Service Delivery \(HRSD\)](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/configure-now-assist-hr.md)
-
-**Related topics**  
-
-
-[Skill inputs and triggers for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[RCA approvals for ServiceNow Otto for HR Service Delivery \(HRSD\)]()
-
-[Restrict Now Assist capabilities for employee relations cases]()
-
-[Customize the ServiceNow Otto for HRSD skills]()
-
-[Configure attachment summary]()
-
-[Configure sensitivity detection]()
-
-[Configure Gen AI Virtual Agent for HRSD]()
-
-[Configure the ServiceNow Otto for HRSD Virtual Agent topics]()
-
-[Configure HCM agents for HR Service Delivery AI Agent Collection]()
-
-[Configure Now Assist AI Helper – Galileo Inside]()
+**Parent Topic:**[Configure ServiceNow Otto for HRSD skills](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/employee-service-management/now-assist-for-hrsd/customize-nahr-skill.md)
 

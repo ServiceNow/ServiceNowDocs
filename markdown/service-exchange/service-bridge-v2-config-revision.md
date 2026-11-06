@@ -1,20 +1,21 @@
 ---
-title: Service Exchange configuration revisions
-description: As a provider, you can update the configurations of remote record producers, remote task definitions, foundation data sync offerings, and create new versions that can be entitled to consumers.
+title: Configuring revisions
+description: Update the configurations of remote record producers, remote task definitions, foundation data sync offerings, and create new versions that can be entitled to consumers.
 locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/service-exchange/service-bridge-v2-config-revision.html
 release: yokohama
 product: Service Exchange
 classification: service-exchange
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Exploring Service Exchange, Service Exchange]
+keywords: [configuration revisions, remote record producer, remote task definition, foundation data sync]
+breadcrumb: [Explore, Service Exchange]
 ---
 
-# Service Exchange configuration revisions
+# Configuring revisions
 
-As a provider, you can update the configurations of remote record producers, remote task definitions, foundation data sync offerings, and create new versions that can be entitled to consumers.
+Update the configurations of remote record producers, remote task definitions, foundation data sync offerings, and create new versions that can be entitled to consumers.
 
 You can deploy new versions of entitlements with updated functionality to compatible consumers without impacting consumers who haven’t upgraded their Service Exchange applications. You can upgrade your Service Exchange applications to adopt new features even if your consumers haven’t upgraded to the latest version.
 
@@ -26,5 +27,8 @@ You can create configuration revisions for the following:
 -   Remote task definitions
 -   Foundation data sync offerings
 
-See [Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-config-rev.md) for details.
+**Related topics**  
+
+
+[Create configuration revisions](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/service-exchange/service-bridge-v2-create-config-rev.md)
 

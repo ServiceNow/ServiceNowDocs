@@ -7,9 +7,9 @@ release: yokohama
 product: Contract Management Pro
 classification: contract-management-pro
 topic_type: task
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 1
-breadcrumb: [Obligation Management, Using Contract Management Pro, Contract Management Pro, Employee Service Management]
+breadcrumb: [Obligation Management, Use, Contract Management Pro, Legal and Contract Operations, Employee Service Management]
 ---
 
 # Approve or reject obligation tasks
@@ -24,15 +24,15 @@ Role required: sn\_cm\_obligation.obligation\_fulfiller
 
 1.  Open the obligation task from the notification email, Employee Center, or Contract Workspace.
 
-<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d677815e64">
+<table id="choicetable_ix4_gbl_trb"><thead><tr><th align="left" id="d732105e64">
 
 Options
 
-</th><th align="left" id="d677815e67">
+</th><th align="left" id="d732105e67">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d677815e73">
+</th></tr></thead><tbody><tr><td id="d732105e73">
 
 **From the email notification**
 
@@ -40,7 +40,7 @@ Steps
 
 Select the link in the notification email sent when an obligation task is assigned to you for approval to access the obligation task.
 
-</td></tr><tr><td id="d677815e82">
+</td></tr><tr><td id="d732105e82">
 
 **From Employee Center**
 
@@ -51,7 +51,7 @@ Select the link in the notification email sent when an obligation task is assign
 3.  Select the obligation task under the **Open** tab.
 
 
-</td></tr><tr><td id="d677815e124">
+</td></tr><tr><td id="d732105e124">
 
 **From Contract Workspace**
 
@@ -69,15 +69,15 @@ Select the link in the notification email sent when an obligation task is assign
 </td></tr></tbody>
 </table>2.  Review the obligation task and approve or reject it.
 
-<table id="choicetable_ygc_svh_tcc"><thead><tr><th align="left" id="d677815e194">
+<table id="choicetable_ygc_svh_tcc"><thead><tr><th align="left" id="d732105e194">
 
 Options
 
-</th><th align="left" id="d677815e197">
+</th><th align="left" id="d732105e197">
 
 Steps
 
-</th></tr></thead><tbody><tr><td id="d677815e203">
+</th></tr></thead><tbody><tr><td id="d732105e203">
 
 **From Employee Center**
 
@@ -87,7 +87,7 @@ Steps
 -   To reject the task, select **Reject**.
 
 
-</td></tr><tr><td id="d677815e230">
+</td></tr><tr><td id="d732105e230">
 
 **From Contract Workspace**
 

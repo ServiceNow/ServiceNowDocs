@@ -5,10 +5,10 @@ locale: en-US
 canonical_url: https://www.servicenow.com/docs/r/yokohama/intelligent-experiences/user-data-usage-policy-now-assist.html
 release: yokohama
 topic_type: concept
-last_updated: "2025-01-30"
+last_updated: "2026-09-10"
 reading_time_minutes: 3
 keywords: [Now Assist, user, data, usage, policy, mask sensitive data, data sharing]
-breadcrumb: [Now Assist reference, Now Assist, Enable AI experiences]
+breadcrumb: [AI Admin Hub reference, AI Admin Hub, Generative AI skills, Enable AI Experiences]
 ---
 
 # User data usage policy for Now Assist
@@ -21,15 +21,13 @@ Your AI workloads are securely sent using Transport Layer Security \(TLS\) 1.2 f
 
 The input and output data isn’t cached or stored on the compute hub and is transient.
 
-Your data isn’t commingled with other customer data when using Now LLM Service for generative AI. Also, there’s no commingling of data for domain-separated instances when you use Generative AI services.
+Your data isn’t commingled with other customer data when using Now LLM Service for generative AI.
 
-Data sharing is however, not supported in regulated markets.
+Also, there’s no commingling of data for domain-separated instances when you use Generative AI services.
 
 When appropriate, ServiceNow might leverage third-party endpoint services \(for example Azure OpenAI Service\) to augment Now LLM Service to power Now Assist capabilities. Azure OpenAI is a third-party model, but policies same as the company's, apply, as it's hosted in our compute hubs.
 
 Further, to confirm quality of service, ServiceNow might use Azure-hosted GPUs for Now LLM Service capacity bursting in case of high customer demand. Data processed by third-party endpoints isn’t subject to use or access by third-party providers and are operated within the ServiceNow network boundary.
-
-To learn more about Data Sharing Programs, see [Generate product compliance summaries by using Now Assist for SAM](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/it-asset-management/summarize-product-compliance-now-assist-sam.md): Data Sharing Programs.
 
 ## Mask sensitive data
 
@@ -49,5 +47,5 @@ Data Sharing helps ServiceNow to continuously advance and improve its Now LLMs, 
 
 To opt out, follow the instructions in [Opt out of data sharing for Now Assist](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/opt-out-of-data-sharing-for-now-assist.md).
 
-**Parent Topic:**[Now Assist reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
+**Parent Topic:**[AI Admin Hub reference](https://raw.githubusercontent.com/ServiceNow/ServiceNowDocs/yokohama/markdown/yokohama/intelligent-experiences/now-assist-reference-landing.md)
 
